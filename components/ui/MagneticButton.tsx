@@ -38,7 +38,7 @@ export default function MagneticButton({ children, className, ...props }: Magnet
         "hover:shadow-[0_0_20px_rgba(0,229,255,0.4)]",
         className
       )}
-      {...props}
+      {...(props as any)}
     >
       <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       <span className="relative z-10 flex items-center justify-center gap-2">
