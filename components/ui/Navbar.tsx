@@ -31,14 +31,18 @@ export default function Navbar() {
   ];
 
   const toggleLanguage = () => {
-    const nextLocale = locale === "en" ? "sv" : "en";
-    if (locale === "en") {
-      const newPath = pathname.replace(/^\/en/, "") || "/";
-      router.replace(newPath);
+    const isEnglish = pathname.startsWith('/en');
+    let newPath = '';
+    
+    if (isEnglish) {
+      // Switch from EN to SV
+      newPath = pathname.replace(/^\/en/, '') || '/';
     } else {
-      const newPath = `/en${pathname === "/" ? "" : pathname}`;
-      router.replace(newPath);
+      // Switch from SV to EN
+      newPath = `/en${pathname === '/' ? '' : pathname}`;
     }
+    
+    router.push(newPath);
   };
 
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

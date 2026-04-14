@@ -11,18 +11,16 @@ export default function LanguageToggle() {
   const t = useTranslations("Navigation");
 
   const toggleLanguage = () => {
-    const nextLocale = locale === "en" ? "sv" : "en";
+    const isEnglish = pathname.startsWith('/en');
+    let newPath = '';
     
-    // We are using as-needed so sv is the root.
-    if (locale === "en") {
-      // English to Swedish (strip /en)
-      const newPath = pathname.replace(/^\/en/, "") || "/";
-      router.replace(newPath);
+    if (isEnglish) {
+      newPath = pathname.replace(/^\/en/, '') || '/';
     } else {
-      // Swedish to English (prepend /en)
-      const newPath = `/en${pathname === "/" ? "" : pathname}`;
-      router.replace(newPath);
+      newPath = `/en${pathname === '/' ? '' : pathname}`;
     }
+    
+    router.push(newPath);
   };
 
   return (

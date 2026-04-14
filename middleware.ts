@@ -4,7 +4,8 @@ import { locales } from "@/i18n/request";
 export default createMiddleware({
   locales,
   defaultLocale: "sv",
-  localePrefix: "as-needed"
+  localePrefix: "as-needed",
+  localeDetection: false
 });
 
 export const config = {
