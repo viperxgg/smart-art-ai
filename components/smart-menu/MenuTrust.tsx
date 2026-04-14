@@ -27,7 +27,7 @@ export default function MenuTrust() {
               author: t("trust_author2"),
               role: t("trust_role2")
             }
-          ].map((t, i) => (
+          ].map((item, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, x: i % 2 === 0 ? -20 : 20 }}
@@ -37,11 +37,11 @@ export default function MenuTrust() {
             >
               <Quote className="w-8 h-8 text-gray-200" />
               <p className="text-xl text-gray-700 font-light italic leading-relaxed">
-                "{t.text}"
+                "{item.text}"
               </p>
               <div>
-                <div className="font-bold text-gray-900">{t.author}</div>
-                <div className="text-sm text-gray-400 font-mono tracking-widest uppercase">{t.role}</div>
+                <div className="font-bold text-gray-900">{item.author}</div>
+                <div className="text-sm text-gray-400 font-mono tracking-widest uppercase">{item.role}</div>
               </div>
             </motion.div>
           ))}
