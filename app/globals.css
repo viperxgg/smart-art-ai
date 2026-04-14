@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-purple: #7000FF;
+  --color-brand-blue: #007BFF;
+  --color-brand-cyan: #00E5FF;
+  --color-brand-dark: #0A0A0A;
+  
+  --color-warm-orange: #FF7B00;
+  --color-warm-peach: #FFC099;
+  
+  --font-sans: "Inter", var(--font-geist-sans), sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: #0A0A0A;
+    --foreground: #ffffff;
+    --gradient-accent: linear-gradient(135deg, var(--color-brand-purple), var(--color-brand-blue), var(--color-brand-cyan));
+    --blur-glass: 12px;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(var(--blur-glass));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.text-gradient {
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
