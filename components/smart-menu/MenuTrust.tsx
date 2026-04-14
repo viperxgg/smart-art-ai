@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { Quote } from "lucide-react";
 
 export default function MenuTrust() {
