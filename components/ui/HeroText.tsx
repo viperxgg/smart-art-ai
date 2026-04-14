@@ -1,10 +1,10 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { CheckCircle2, Zap, Target, Terminal } from "lucide-react";
 
-const container = {
+const container: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -15,7 +15,7 @@ const container = {
   },
 };
 
-const item = {
+const item: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: {
     opacity: 1,
@@ -24,7 +24,7 @@ const item = {
   },
 };
 
-const typingContainer = {
+const typingContainer: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -35,7 +35,7 @@ const typingContainer = {
   },
 };
 
-const typingItem = {
+const typingItem: Variants = {
   hidden: { opacity: 0, x: -5 },
   visible: {
     opacity: 1,
