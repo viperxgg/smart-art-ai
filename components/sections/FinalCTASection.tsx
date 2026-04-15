@@ -28,7 +28,7 @@ export default function FinalCTASection() {
   }, [showModal]);
 
   const logos = [
-    { name: "smhfjallsjo.se", color: "text-white" },
+    { name: "rsmhfjallsjo.se", color: "text-white" },
     { name: "Granne", color: "text-white" },
   ];
 
@@ -45,7 +45,7 @@ export default function FinalCTASection() {
              initial={{ opacity: 0 }}
              whileInView={{ opacity: 1 }}
              viewport={{ once: true }}
-             className="text-white/20 text-[10px] uppercase tracking-[0.4em] font-black mb-8 italic"
+             className="text-white/20 text-[10px] uppercase tracking-[0.4em] font-black mb-8 italic text-center w-full"
            >
              {tr("proud_participation")}
            </motion.p>
