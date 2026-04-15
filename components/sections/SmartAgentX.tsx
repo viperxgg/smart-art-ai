@@ -520,7 +520,7 @@ export default function SmartAgentX() {
     let inferred = t("inf_default");
     if (info.includes("fastighet") || info.includes("estate") || info.includes("hem") || info.includes("property")) inferred = t("inf_property");
     else if (info.includes("butik") || info.includes("shop") || info.includes("retail")) inferred = t("inf_retail");
-    else if (info.includes("rsmh") || info.includes("förening") || info.includes("medlem")) inferred = t("inf_org");
+    else if (info.includes("rsmh") || info.includes("smhfjallsjo") || info.includes("förening") || info.includes("medlem")) inferred = t("inf_org");
     else if (info.includes("hälsa") || info.includes("vård") || info.includes("klinik")) inferred = t("inf_health");
     else if (info.includes("advokat") || info.includes("jurid")) inferred = t("inf_legal");
     setTimeout(() => {

@@ -28,7 +28,7 @@ export default function FinalCTASection() {
   }, [showModal]);
 
   const logos = [
-    { name: "RSMH", color: "text-white" },
+    { name: "smhfjallsjo.se", color: "text-white" },
     { name: "Granne", color: "text-white" },
   ];
 
@@ -40,7 +40,16 @@ export default function FinalCTASection() {
       <div className="relative z-10 max-w-5xl mx-auto flex flex-col items-center">
         
         {/* Client Logos Header */}
-        <div className="flex items-center gap-12 md:gap-24 mb-16 opacity-40">
+        <div className="flex flex-col items-center mb-16">
+           <motion.p 
+             initial={{ opacity: 0 }}
+             whileInView={{ opacity: 1 }}
+             viewport={{ once: true }}
+             className="text-white/20 text-[10px] uppercase tracking-[0.4em] font-black mb-8 italic"
+           >
+             {tr("proud_participation")}
+           </motion.p>
+           <div className="flex items-center gap-12 md:gap-24 opacity-40">
            {logos.map((logo, i) => (
              <motion.div
                key={i}
@@ -53,6 +62,7 @@ export default function FinalCTASection() {
                {logo.name}
              </motion.div>
            ))}
+           </div>
         </div>
 
         {/* Trust Capsule */}
