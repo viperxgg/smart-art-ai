@@ -185,7 +185,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                            </p>
                            <div className="relative aspect-video w-full rounded-2xl overflow-hidden bg-white/5 border border-white/10 shadow-2xl">
                              <video
-                               src="/video/automation-explainer.mp4"
+                               src="/explainer.mp4"
                                autoPlay
                                muted
                                loop
