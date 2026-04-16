@@ -24,7 +24,7 @@ export default function BeforeAfterSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-white/40 text-lg md:text-xl font-light max-w-2xl mx-auto font-mono tracking-wide"
+            className="text-white/60 text-lg md:text-xl font-light max-w-2xl mx-auto font-mono tracking-wide"
           >
             {t("subtitle")}
           </motion.p>
@@ -46,7 +46,7 @@ export default function BeforeAfterSection() {
                <XCircle className="w-40 h-40 text-red-500" />
             </div>
             
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-500 text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-12 font-mono">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/40 text-red-500 text-[12px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-12 font-mono">
                <Terminal className="w-3 h-3" />
                {t("before_label")}
             </div>
@@ -78,7 +78,7 @@ export default function BeforeAfterSection() {
                <CheckCircle2 className="w-40 h-40 text-cyan-400" />
             </div>
 
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-400/10 border border-cyan-400/30 text-cyan-400 text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-12 font-mono shadow-[0_0_20px_rgba(0, 229, 255, 0.2)]">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-400/10 border border-cyan-400/60 text-cyan-400 text-[12px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-12 font-mono shadow-[0_0_20px_rgba(0, 229, 255, 0.2)]">
                <Terminal className="w-3 h-3" />
                {t("after_label")}
             </div>

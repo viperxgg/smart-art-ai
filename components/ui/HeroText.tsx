@@ -57,7 +57,7 @@ export default function HeroText() {
       {/* Premium Badge */}
       <motion.div
         variants={item}
-        className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-cyan-400 text-[10px] font-bold uppercase tracking-[0.4em] mb-12 backdrop-blur-md"
+        className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-cyan-400 text-[12px] font-bold uppercase tracking-[0.4em] mb-12 backdrop-blur-md"
       >
         <div className="w-1 h-1 rounded-full bg-cyan-400 shadow-[0_0_10px_#22d3ee]" />
         Elite AI Systems
@@ -79,9 +79,9 @@ export default function HeroText() {
         {/* Subtle Prefix */}
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.2 }}
+          animate={{ opacity: 0.5 }}
           transition={{ delay: 0.8 }}
-          className="font-mono text-[10px] uppercase tracking-[0.5em] mb-2 flex items-center gap-2"
+          className="font-mono text-[11px] uppercase tracking-[0.4em] mb-2 flex items-center gap-2"
         >
           <Terminal className="w-3 h-3" />
           {"> system output:"}
@@ -89,7 +89,7 @@ export default function HeroText() {
 
         <motion.div
           variants={typingContainer}
-          className="flex flex-col gap-3 font-mono text-sm md:text-lg tracking-wider text-white/40 leading-relaxed"
+          className="flex flex-col gap-3 font-mono text-sm md:text-lg tracking-wider text-white/60 leading-relaxed"
         >
           {/* Line 1 */}
           <motion.div variants={typingItem} className="flex flex-wrap justify-center gap-x-2">
@@ -146,7 +146,7 @@ export default function HeroText() {
             <div className="p-1.5 rounded-lg bg-white/5">
               {indicator.icon}
             </div>
-            <span className="text-white/90 text-[10px] font-bold tracking-widest uppercase font-mono">
+            <span className="text-white text-[11px] font-bold tracking-widest uppercase font-mono">
               {indicator.text}
             </span>
           </motion.div>

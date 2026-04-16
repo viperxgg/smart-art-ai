@@ -21,7 +21,7 @@ export default function ProblemSection() {
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-500 text-[10px] font-bold uppercase tracking-[0.4em] mb-8 font-mono"
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-500 text-[12px] font-bold uppercase tracking-[0.4em] mb-8 font-mono"
           >
             <Terminal className="w-3 h-3" />
             {t("badge")}
@@ -49,7 +49,7 @@ export default function ProblemSection() {
               <div className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center mb-8 border border-white/5 group-hover:scale-110 transition-transform">
                 {pain.icon}
               </div>
-              <h3 className="text-xl font-bold text-white mb-4 tracking-tight font-mono uppercase text-xs opacity-40">{pain.title}</h3>
+              <h3 className="text-xl font-bold text-white mb-4 tracking-tight font-mono uppercase text-xs opacity-60">{pain.title}</h3>
               <p className="text-white/60 leading-relaxed font-light text-lg">{pain.desc}</p>
             </motion.div>
           ))}

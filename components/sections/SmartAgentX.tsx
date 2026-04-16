@@ -100,7 +100,7 @@ export default function SmartAgentX() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-[10px] font-bold uppercase tracking-[0.4em] mb-12 font-mono"
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-[12px] font-bold uppercase tracking-[0.4em] mb-12 font-mono"
           >
             <Cpu className="w-3 h-3" />
             {t("neural_interface")}
@@ -108,9 +108,26 @@ export default function SmartAgentX() {
           <h2 className="text-5xl md:text-[8rem] font-black tracking-tighter text-white mb-10 leading-[0.8]">
              The power behind <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 animate-gradient pb-4 block mt-4">SmartArt AI</span>
           </h2>
-          <p className="text-white/40 max-w-3xl mx-auto text-xl font-light font-mono tracking-wide mt-8">
+          <p className="text-white/60 max-w-3xl mx-auto text-xl font-light font-mono tracking-wide mt-8">
             {t("subtitle")}
           </p>
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="mt-12"
+          >
+            <button 
+              onClick={() => {
+                setChallengeStep(1);
+                setShowChallenge(true);
+              }}
+              className="px-12 py-5 rounded-full bg-cyan-400 text-black font-black uppercase tracking-[0.3em] text-[11px] hover:scale-105 transition-all shadow-[0_0_40px_rgba(34,211,238,0.4)]"
+            >
+              {t("test_btn")}
+            </button>
+          </motion.div>
         </div>
 
         <div className="relative w-full aspect-auto min-h-[800px] md:aspect-[21/9] md:min-h-0 max-w-7xl group">
@@ -124,8 +141,8 @@ export default function SmartAgentX() {
                 <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/30" />
                 <div className="w-2.5 h-2.5 rounded-full bg-green-500/30" />
               </div>
-              <div className="text-[8px] md:text-[10px] text-white/20 font-mono tracking-[0.2em] md:tracking-[0.3em] uppercase truncate">SmartArt_Core_Network_v4.2.0</div>
-              <div className="ml-auto flex items-center gap-2 md:gap-4 text-white/20 font-mono text-[7px] md:text-[9px] uppercase tracking-widest shrink-0">
+              <div className="text-[10px] md:text-[11px] text-white/40 font-mono tracking-[0.2em] md:tracking-[0.3em] uppercase truncate">SmartArt_Core_Network_v4.2.0</div>
+              <div className="ml-auto flex items-center gap-2 md:gap-4 text-white/40 font-mono text-[9px] md:text-[10px] uppercase tracking-widest shrink-0">
                 <span className="hidden xs:flex items-center gap-2">UPTIME: 99.9%</span>
                 <span className="flex items-center gap-1"><div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" /> LIVE</span>
               </div>
@@ -138,10 +155,10 @@ export default function SmartAgentX() {
               <div className="flex flex-col md:border-r border-white/5 md:pr-8">
                 <div className="flex items-center gap-3 text-cyan-400 mb-8">
                   <Terminal className="w-4 h-4 opacity-70" />
-                  <span className="font-mono text-[10px] font-bold tracking-[0.3em] uppercase opacity-40">System_Output</span>
+                  <span className="font-mono text-[11px] font-bold tracking-[0.3em] uppercase opacity-60">System_Output</span>
                 </div>
 
-                <div className="flex-1 font-mono text-[10px] space-y-2 overflow-hidden relative">
+                <div className="flex-1 font-mono text-[11px] space-y-2 overflow-hidden relative">
                   <AnimatePresence mode="popLayout">
                     {logs.map((log, idx) => (
                       <motion.div
@@ -149,9 +166,9 @@ export default function SmartAgentX() {
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1 - idx * 0.12, x: 0 }}
                         exit={{ opacity: 0, x: 10 }}
-                        className={`whitespace-nowrap flex items-center gap-2 ${idx === 0 ? 'text-cyan-400 font-bold' : 'text-white/40'}`}
+                        className={`whitespace-nowrap flex items-center gap-2 ${idx === 0 ? 'text-cyan-400 font-bold' : 'text-white/50'}`}
                       >
-                         <span className="opacity-20">{">"}</span>
+                         <span className="opacity-30">{">"}</span>
                          {log}
                          {idx === 0 && (
                             <motion.span 
@@ -179,13 +196,13 @@ export default function SmartAgentX() {
                     className="relative z-10 w-24 h-24 rounded-[1.5rem] bg-black border border-white/10 flex flex-col items-center justify-center gap-2 shadow-2xl"
                    >
                      <Brain className="w-9 h-9 text-white group-hover:scale-110 transition-transform" />
-                     <div className="text-[7px] font-mono font-bold text-white/40 tracking-[0.3em]">AGENT_X</div>
+                     <div className="text-[9px] font-mono font-bold text-white/60 tracking-[0.3em]">AGENT_X</div>
                    </motion.div>
                 </div>
 
                 {/* Transformation logic Interface */}
                 <div className="w-full max-w-[240px] space-y-6">
-                   <div className="flex justify-between items-center text-[8px] font-bold uppercase tracking-[0.4em] font-mono opacity-20">
+                   <div className="flex justify-between items-center text-[10px] font-bold uppercase tracking-[0.4em] font-mono opacity-40">
                       <span>Före</span>
                       <div className="flex-1 h-[1px] bg-white/10 mx-4" />
                       <span>Efter</span>
@@ -198,7 +215,7 @@ export default function SmartAgentX() {
                         { b: "Kaos", a: "Struktur", icon: <ShieldCheck className="w-3 h-3" /> }
                       ].map((item, i) => (
                         <div key={i} className="flex items-center gap-4 group/row">
-                           <div className="flex-1 text-[9px] text-white/20 text-right font-light truncate">{item.b}</div>
+                           <div className="flex-1 text-[11px] text-white/40 text-right font-light truncate">{item.b}</div>
                            <div className="w-2.5 h-2.5 rounded-full border border-white/10 flex items-center justify-center p-0.5">
                               <motion.div 
                                 animate={{ 
@@ -209,7 +226,7 @@ export default function SmartAgentX() {
                                 className="w-full h-full rounded-full" 
                               />
                            </div>
-                           <div className="flex-1 text-[9px] text-cyan-400 font-bold truncate">{item.a}</div>
+                           <div className="flex-1 text-[11px] text-cyan-400 font-bold truncate">{item.a}</div>
                         </div>
                       ))}
                    </div>
@@ -220,7 +237,7 @@ export default function SmartAgentX() {
               <div className="flex flex-col md:border-l border-white/5 md:pl-8">
                 <div className="flex items-center gap-3 text-purple-400 mb-8">
                   <Activity className="w-4 h-4 opacity-70" />
-                  <span className="font-mono text-[10px] font-bold tracking-[0.3em] uppercase opacity-40">System_Health</span>
+                  <span className="font-mono text-[11px] font-bold tracking-[0.3em] uppercase opacity-60">System_Health</span>
                 </div>
 
                 <div className="grid grid-cols-2 gap-y-12">
@@ -231,19 +248,19 @@ export default function SmartAgentX() {
                      { label: "Åtgärder", val: `${metrics.completed}`, color: "text-purple-400", sub: "PROCESSED" }
                    ].map((m, i) => (
                      <div key={i} className="flex flex-col gap-1">
-                        <span className="text-[8px] uppercase tracking-widest text-white/20 font-mono">{m.label}</span>
+                        <span className="text-[10px] uppercase tracking-widest text-white/40 font-mono">{m.label}</span>
                         <div className={`text-xl font-black ${m.color}`}>
                            {m.val}
                         </div>
-                        <span className="text-[7px] text-white/10 font-mono tracking-widest">{m.sub}</span>
+                        <span className="text-[9px] text-white/20 font-mono tracking-widest">{m.sub}</span>
                      </div>
                    ))}
                 </div>
 
                 <div className="mt-auto flex items-center justify-between pb-2">
                    <div className="flex flex-col">
-                      <span className="text-[7px] uppercase tracking-widest text-white/10 font-mono mb-1">Status</span>
-                      <span className="text-[9px] text-green-400 font-bold font-mono flex items-center gap-2">
+                      <span className="text-[9px] uppercase tracking-widest text-white/20 font-mono mb-1">Status</span>
+                      <span className="text-[11px] text-green-400 font-bold font-mono flex items-center gap-2">
                          <div className="w-1 h-1 rounded-full bg-green-500" />
                          STABIL_v4.2
                       </span>
@@ -269,7 +286,7 @@ export default function SmartAgentX() {
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="mt-20 flex flex-wrap items-center justify-center gap-12 text-[10px] font-mono tracking-widest text-white/20"
+          className="mt-20 flex flex-wrap items-center justify-center gap-12 text-[12px] font-mono tracking-widest text-white/40"
         >
           <div className="flex items-center gap-3">
             <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_10px_#22d3ee]" />

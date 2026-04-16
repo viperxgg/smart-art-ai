@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { ArrowRight, CheckCircle2, Terminal } from "lucide-react";
+import { ArrowRight, CheckCircle2, Terminal, Bot } from "lucide-react";
 
 export default function NextStepsSection() {
   const t = useTranslations("NextSteps");
@@ -31,7 +31,7 @@ export default function NextStepsSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-white/40 text-lg md:text-xl font-light max-w-2xl mx-auto font-mono tracking-wide"
+            className="text-white/60 text-lg md:text-xl font-light max-w-2xl mx-auto font-mono tracking-wide"
           >
             {t("subtitle")}
           </motion.p>
@@ -74,16 +74,14 @@ export default function NextStepsSection() {
         </div>
 
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.8 }}
-          className="flex flex-col items-center gap-4"
+          className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-cyan-400 text-[12px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-8 font-mono"
         >
-          <div className="flex items-center gap-3 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/20 text-[9px] md:text-[10px] uppercase tracking-[0.2em] md:tracking-[0.4em] font-mono text-center">
-            <Terminal className="w-3 h-3" />
-            {t("micro_text")}
-          </div>
+          <Bot className="w-3 h-3" />
+          {t("badge")}
         </motion.div>
       </div>
     </section>

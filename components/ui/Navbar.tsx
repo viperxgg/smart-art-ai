@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import { Globe, Menu, X, Terminal } from "lucide-react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,10 +25,11 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: t("home"), href: "#home" },
-    { name: t("solutions"), href: "#solutions" },
-    { name: t("agent_x"), href: "#agent-x" },
-    { name: t("impact"), href: "#impact" },
+    { name: t("home"), href: `/${locale}#home`, isAnchor: true },
+    { name: t("solutions"), href: `/${locale}#solutions`, isAnchor: true },
+    { name: t("agent_x"), href: `/${locale}#agent-x`, isAnchor: true },
+    { name: t("impact"), href: `/${locale}#impact`, isAnchor: true },
+    { name: t("blog"), href: `/${locale}/blog`, isAnchor: false },
   ];
 
   const toggleLanguage = () => {
@@ -35,32 +37,39 @@ export default function Navbar() {
     let newPath = '';
     
     if (isEnglish) {
-      // Switch from EN to SV
       newPath = pathname.replace(/^\/en/, '') || '/';
     } else {
-      // Switch from SV to EN
       newPath = `/en${pathname === '/' ? '' : pathname}`;
     }
     
-    router.push(newPath);
+    router.push(newPath || '/');
   };
 
-  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault();
-    const target = document.querySelector(href);
-    if (target) {
-      const offset = 80; // height of fixed navbar
-      const bodyRect = document.body.getBoundingClientRect().top;
-      const elementRect = target.getBoundingClientRect().top;
-      const elementPosition = elementRect - bodyRect;
-      const offsetPosition = elementPosition - offset;
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, link: { name: string, href: string, isAnchor: boolean }) => {
+    if (link.isAnchor && pathname === `/${locale}`) {
+      e.preventDefault();
+      const targetId = link.href.split('#')[1];
+      const target = document.getElementById(targetId);
+      if (target) {
+        const offset = 80;
+        const bodyRect = document.body.getBoundingClientRect().top;
+        const elementRect = target.getBoundingClientRect().top;
+        const elementPosition = elementRect - bodyRect;
+        const offsetPosition = elementPosition - offset;
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth"
-      });
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      }
+      setIsOpen(false);
+    } else if (link.isAnchor) {
+      // Not on home page, let the default link behavior work (which will navigate to /#id)
+      setIsOpen(false);
+    } else {
+      // Explicit page link (Blog)
+      setIsOpen(false);
     }
-    setIsOpen(false);
   };
 
   return (
@@ -86,14 +95,14 @@ export default function Navbar() {
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
-            <a 
+            <Link 
               key={link.name} 
               href={link.href}
-              onClick={(e) => scrollToSection(e, link.href)}
+              onClick={(e) => handleNavClick(e as any, link)}
               className="text-sm font-medium text-white/60 hover:text-white transition-colors uppercase tracking-widest font-mono"
             >
               {link.name}
-            </a>
+            </Link>
           ))}
           
           <div className="h-4 w-px bg-white/10 mx-2" />
@@ -143,17 +152,20 @@ export default function Navbar() {
             className="absolute top-full left-0 right-0 bg-black/95 backdrop-blur-3xl border-b border-white/5 p-8 flex flex-col items-center gap-8 md:hidden"
           >
             {navLinks.map((link, i) => (
-              <motion.a 
+              <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
-                key={link.name} 
-                href={link.href}
-                onClick={(e) => scrollToSection(e, link.href)}
-                className="text-2xl font-black text-white/60 hover:text-white transition-colors uppercase tracking-widest italic"
+                key={link.name}
               >
-                {link.name}
-              </motion.a>
+                <Link 
+                  href={link.href}
+                  onClick={(e) => handleNavClick(e as any, link)}
+                  className="text-2xl font-black text-white/60 hover:text-white transition-colors uppercase tracking-widest italic"
+                >
+                  {link.name}
+                </Link>
+              </motion.div>
             ))}
             
             <motion.button 

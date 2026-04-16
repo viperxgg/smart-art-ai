@@ -5,6 +5,7 @@
     "solutions": "Tjänster",
     "agent_x": "Agent X",
     "impact": "Resultat",
+    "blog": "Blogg",
     "cta": "Boka Demo"
   },
   "Hero": {
@@ -16,7 +17,8 @@
     "bullet_1": "Spara upp till 70 % av den operativa tiden",
     "bullet_2": "Ingen kodning krävs",
     "bullet_3": "Byggd för verkliga organisationer",
-    "cta": "Upptäck Vår Intelligens"
+    "cta": "Upptäck Vår Intelligens",
+    "blog_btn": "Läs Vår Blogg"
   },
   "Solutions": {
     "title": "Arkitekter av",
@@ -251,5 +253,14 @@
     "trust_quote2": "Äntligen en lösning som är lika snygg som vår restaurang. Att kunna uppdatera priser på 10 sekunder sparar oss enormt mycket tid.",
     "trust_author2": "Maria L.",
     "trust_role2": "Kaféansvarig, Göteborg"
+  },
+  "Blog": {
+    "title": "Insikter & Innovation",
+    "subtitle": "Utforska hur AI och automatisering formar framtidens företagande i Sverige.",
+    "read_more": "Läs mer",
+    "back_to_blog": "Tillbaka till bloggen",
+    "meta_description": "Lär dig mer om AI-automatisering och hur det kan hjälpa ditt företag att växa.",
+    "author": "SmartArt Team",
+    "published_at": "Publicerad"
   }
 }

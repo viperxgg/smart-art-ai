@@ -5,6 +5,7 @@
     "solutions": "Services",
     "agent_x": "Agent X",
     "impact": "Results",
+    "blog": "Blog",
     "cta": "Book Demo"
   },
   "Hero": {
@@ -16,7 +17,8 @@
     "bullet_1": "Save up to 70% of operational time",
     "bullet_2": "No coding required",
     "bullet_3": "Built for real-world organizations",
-    "cta": "Discover Our Intelligence"
+    "cta": "Discover Our Intelligence",
+    "blog_btn": "Read Our Blog"
   },
   "Solutions": {
     "title": "Architects of",
@@ -251,5 +253,14 @@
     "trust_quote2": "Finally a solution as beautiful as our restaurant. Being able to update prices in 10 seconds saves us a lot of time.",
     "trust_author2": "Maria L.",
     "trust_role2": "Cafe Manager, Gothenburg"
+  },
+  "Blog": {
+    "title": "Insights & Innovation",
+    "subtitle": "Explore how AI and automation are shaping the future of business in Sweden.",
+    "read_more": "Read more",
+    "back_to_blog": "Back to blog",
+    "meta_description": "Learn more about AI automation and how it can help your business grow.",
+    "author": "SmartArt Team",
+    "published_at": "Published"
   }
 }

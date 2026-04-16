@@ -43,7 +43,7 @@ export default function ProcessSection() {
               <div className="w-20 h-20 rounded-3xl bg-white/[0.03] border border-white/10 flex items-center justify-center text-cyan-400 font-black text-2xl mb-8 shadow-[0_0_30px_rgba(6,182,212,0.1)] group-hover:scale-110 transition-transform">
                 {step.num}
               </div>
-              <h3 className="text-sm font-bold text-white/40 mb-4 tracking-[0.3em] uppercase font-mono">{step.title}</h3>
+              <h3 className="text-[12px] font-bold text-white/70 mb-4 tracking-[0.2em] uppercase font-mono">{step.title}</h3>
               <p className="text-white/70 text-lg font-light leading-relaxed max-w-[200px]">{step.desc}</p>
             </motion.div>
           ))}

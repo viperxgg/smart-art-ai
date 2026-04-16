@@ -41,7 +41,7 @@ export default function AIDemoSection() {
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-cyan-400 text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-8 font-mono"
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-cyan-400 text-[12px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-8 font-mono"
           >
             <Terminal className="w-3 h-3" />
             {t("badge")}
@@ -56,7 +56,7 @@ export default function AIDemoSection() {
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-white/40 text-lg md:text-xl font-light font-mono tracking-wide"
+            className="text-white/60 text-lg md:text-xl font-light font-mono tracking-wide"
           >
             {t("subtitle")}
           </motion.p>
@@ -96,7 +96,7 @@ export default function AIDemoSection() {
                   className="flex flex-col items-center gap-6 py-8"
                 >
                   <Loader2 className="w-10 h-10 text-cyan-500 animate-spin" />
-                  <p className="text-cyan-400 font-mono text-[10px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.5em] animate-pulse">{t("analyzing")}</p>
+                  <p className="text-cyan-400 font-mono text-[11px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.5em] animate-pulse">{t("analyzing")}</p>
                 </motion.div>
               ) : response ? (
                 <motion.div
@@ -119,7 +119,7 @@ export default function AIDemoSection() {
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: i * 0.2 }}
-                        className="flex items-start gap-4 text-white/70"
+                        className="flex items-start gap-4 text-white/80"
                       >
                         <CheckCircle2 className="w-6 h-6 text-cyan-400 shrink-0 mt-0.5" />
                         <span className="text-lg font-light">{point}</span>
@@ -142,10 +142,10 @@ export default function AIDemoSection() {
                   key="empty"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  className="py-12 flex flex-col items-center text-center opacity-20"
+                  className="py-12 flex flex-col items-center text-center opacity-40"
                 >
                   <Bot className="w-12 h-12 mb-6" />
-                  <p className="text-[10px] md:text-xs font-mono uppercase tracking-[0.2em] md:tracking-[0.4em]">{t("ready")}</p>
+                  <p className="text-[11px] md:text-xs font-mono uppercase tracking-[0.2em] md:tracking-[0.4em]">{t("ready")}</p>
                 </motion.div>
               )}
             </AnimatePresence>

@@ -60,7 +60,7 @@ export default function ImpactSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-white/40 text-lg md:text-xl font-light font-mono tracking-wide"
+            className="text-white/60 text-lg md:text-xl font-light font-mono tracking-wide"
           >
             {tr("subtitle")}
           </motion.p>
@@ -69,15 +69,15 @@ export default function ImpactSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-24 mb-32 md:mb-48">
           <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="flex flex-col items-center">
             <Counter target={70} suffix="%" />
-            <span className="text-white/20 uppercase tracking-[0.2em] md:tracking-[0.5em] text-[9px] md:text-[10px] font-bold font-mono text-center max-w-[250px] md:max-w-none">{t("hours")}</span>
+            <span className="text-white/50 uppercase tracking-[0.2em] md:tracking-[0.4em] text-[11px] md:text-[12px] font-bold font-mono text-center">{t("hours")}</span>
           </motion.div>
           <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.2 }} className="flex flex-col items-center">
             <Counter target={24} suffix="/7" />
-            <span className="text-white/20 uppercase tracking-[0.2em] md:tracking-[0.5em] text-[9px] md:text-[10px] font-bold font-mono text-center max-w-[250px] md:max-w-none">{t("people")}</span>
+            <span className="text-white/50 uppercase tracking-[0.2em] md:tracking-[0.4em] text-[11px] md:text-[12px] font-bold font-mono text-center">{t("people")}</span>
           </motion.div>
           <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.4 }} className="flex flex-col items-center">
             <Counter target={100} suffix="%" />
-            <span className="text-white/20 uppercase tracking-[0.2em] md:tracking-[0.5em] text-[9px] md:text-[10px] font-bold font-mono text-center max-w-[250px] md:max-w-none">{t("uptime")}</span>
+            <span className="text-white/50 uppercase tracking-[0.2em] md:tracking-[0.4em] text-[11px] md:text-[12px] font-bold font-mono text-center">{t("uptime")}</span>
           </motion.div>
         </div>
 
