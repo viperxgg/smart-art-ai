@@ -46,7 +46,10 @@ export default function Navbar() {
   };
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, link: { name: string, href: string, isAnchor: boolean }) => {
-    if (link.isAnchor && pathname === `/${locale}`) {
+    // Determine if we are on the base home page (e.g., /sv or /en)
+    const isHomePage = pathname === `/${locale}` || pathname === `/${locale}/` || pathname === "/";
+
+    if (link.isAnchor && isHomePage) {
       e.preventDefault();
       const targetId = link.href.split('#')[1];
       const target = document.getElementById(targetId);
@@ -63,11 +66,8 @@ export default function Navbar() {
         });
       }
       setIsOpen(false);
-    } else if (link.isAnchor) {
-      // Not on home page, let the default link behavior work (which will navigate to /#id)
-      setIsOpen(false);
     } else {
-      // Explicit page link (Blog)
+      // For blog pages or other subpages, let the Link component navigate naturally
       setIsOpen(false);
     }
   };
@@ -80,17 +80,15 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <motion.div 
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
+        <Link 
+          href={`/${locale}`}
           className="flex items-center gap-2 cursor-pointer"
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center shadow-[0_0_20px_rgba(6,182,212,0.3)]">
             <Terminal className="w-5 h-5 text-white" />
           </div>
           <span className="text-xl font-black text-white tracking-tighter uppercase italic">Smart Art AI</span>
-        </motion.div>
+        </Link>
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8">
@@ -115,12 +113,12 @@ export default function Navbar() {
             {locale === "en" ? "EN" : "SV"}
           </button>
 
-          <button 
-            onClick={() => document.getElementById('final-cta')?.scrollIntoView({ behavior: 'smooth' })}
-            className="px-6 py-2.5 rounded-full bg-white text-black text-xs font-black uppercase tracking-widest hover:scale-105 active:scale-95 transition-all shadow-[0_0_20px_rgba(255,255,255,0.2)]"
+          <Link 
+             href={`/${locale}#final-cta`}
+             className="px-6 py-2.5 rounded-full bg-white text-black text-xs font-black uppercase tracking-widest hover:scale-105 active:scale-95 transition-all shadow-[0_0_20px_rgba(255,255,255,0.2)]"
           >
             {t("cta")}
-          </button>
+          </Link>
         </div>
 
         {/* Mobile Toggle */}
@@ -168,18 +166,20 @@ export default function Navbar() {
               </motion.div>
             ))}
             
-            <motion.button 
+            <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
-              onClick={() => {
-                document.getElementById('final-cta')?.scrollIntoView({ behavior: 'smooth' });
-                setIsOpen(false);
-              }}
-              className="w-full py-5 rounded-2xl bg-white text-black font-black uppercase tracking-[0.3em] text-[11px] shadow-[0_0_40px_rgba(255,255,255,0.1)]"
+              className="w-full"
             >
-              {t("cta")}
-            </motion.button>
+              <Link
+                href={`/${locale}#final-cta`}
+                onClick={() => setIsOpen(false)}
+                className="block w-full py-5 rounded-2xl bg-white text-black text-center font-black uppercase tracking-[0.3em] text-[11px] shadow-[0_0_40px_rgba(255,255,255,0.1)]"
+              >
+                {t("cta")}
+              </Link>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
