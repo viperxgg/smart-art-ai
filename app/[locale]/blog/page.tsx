@@ -41,41 +41,47 @@ export default async function BlogListingPage({ params }: { params: Promise<{ lo
 
       {/* Blog Grid */}
       <section className="px-4 relative z-10">
-        <div className="max-w-4xl mx-auto grid grid-cols-1 gap-8">
+        <div className="max-w-4xl mx-auto grid grid-cols-1 gap-12">
           {posts.map((post) => (
             <Link 
               key={post.slug} 
               href={`/${locale}/blog/${post.slug}`}
               className="group block"
             >
-              <article className="p-8 md:p-12 rounded-[2.5rem] bg-white/[0.02] border border-white/5 hover:border-white/10 hover:bg-white/[0.04] transition-all duration-500 relative overflow-hidden">
-                <div className="absolute top-0 right-0 p-8 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <ArrowRight className="w-6 h-6 text-cyan-400" />
+              <article className="p-8 md:p-16 rounded-[3rem] bg-white/[0.01] border border-white/5 hover:border-cyan-400/20 hover:bg-white/[0.03] transition-all duration-700 relative overflow-hidden group">
+                <div className="absolute top-0 right-0 p-12 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-x-4 group-hover:translate-x-0">
+                  <ArrowRight className="w-8 h-8 text-cyan-400" />
                 </div>
                 
-                <div className="flex flex-wrap items-center gap-6 mb-8 text-[11px] font-mono uppercase tracking-widest text-white/40">
+                <div className="flex flex-wrap items-center gap-8 mb-12 text-[11px] font-mono uppercase tracking-[0.2em] text-white/30">
+                  <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 italic">
+                    <User className="w-3.5 h-3.5" />
+                    {post.author}
+                  </div>
                   <div className="flex items-center gap-2">
                     <Calendar className="w-3.5 h-3.5" />
                     {post.date}
                   </div>
-                  <div className="flex items-center gap-2">
-                    <User className="w-3.5 h-3.5" />
-                    {post.author}
-                  </div>
-                  <div className="px-2 py-0.5 rounded-sm bg-cyan-400/10 border border-cyan-400/20 text-cyan-400">
-                    {post.category}
+                  <div className="flex items-center gap-2 text-cyan-400/60 font-black">
+                    <Terminal className="w-3.5 h-3.5" />
+                    {post.readingTime}
                   </div>
                 </div>
 
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 tracking-tight group-hover:text-cyan-400 transition-colors">
-                  {post.title}
-                </h2>
-                
-                <p className="text-white/60 text-lg font-light leading-relaxed mb-8 max-w-2xl">
-                  {post.excerpt}
-                </p>
+                <div className="flex flex-col gap-6">
+                  <div className="inline-flex items-center gap-2 text-cyan-400 text-[10px] font-black uppercase tracking-[0.4em]">
+                    <span className="w-8 h-px bg-cyan-400/30" />
+                    {post.category}
+                  </div>
+                  <h2 className="text-4xl md:text-6xl font-black text-white tracking-tighter group-hover:text-cyan-400 transition-colors leading-[0.9]">
+                    {post.title}
+                  </h2>
+                  <p className="text-white/50 text-xl font-light leading-relaxed max-w-2xl font-mono italic">
+                    {post.excerpt}
+                  </p>
+                </div>
 
-                <div className="inline-flex items-center gap-2 text-white font-bold uppercase tracking-widest text-[11px] border-b border-white/20 pb-1 group-hover:border-cyan-400/50 transition-colors">
+                <div className="mt-12 inline-flex items-center gap-4 text-white font-black uppercase tracking-[0.3em] text-[10px] bg-white/5 px-6 py-3 rounded-full group-hover:bg-cyan-400 group-hover:text-black transition-all">
                   {t("read_more")}
                 </div>
               </article>
