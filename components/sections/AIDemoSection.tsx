@@ -41,7 +41,7 @@ export default function AIDemoSection() {
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-cyan-400 text-[10px] font-bold uppercase tracking-[0.4em] mb-8 font-mono"
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-cyan-400 text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-8 font-mono"
           >
             <Terminal className="w-3 h-3" />
             {t("badge")}
@@ -49,14 +49,14 @@ export default function AIDemoSection() {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-7xl font-black text-white mb-8 tracking-tighter"
+            className="text-3xl md:text-7xl font-black text-white mb-6 md:mb-8 tracking-tighter"
           >
             {t("title")}
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-white/40 text-xl font-light font-mono tracking-wide"
+            className="text-white/40 text-lg md:text-xl font-light font-mono tracking-wide"
           >
             {t("subtitle")}
           </motion.p>
@@ -96,7 +96,7 @@ export default function AIDemoSection() {
                   className="flex flex-col items-center gap-6 py-8"
                 >
                   <Loader2 className="w-10 h-10 text-cyan-500 animate-spin" />
-                  <p className="text-cyan-400 font-mono text-xs uppercase tracking-[0.5em] animate-pulse">{t("analyzing")}</p>
+                  <p className="text-cyan-400 font-mono text-[10px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.5em] animate-pulse">{t("analyzing")}</p>
                 </motion.div>
               ) : response ? (
                 <motion.div
@@ -145,7 +145,7 @@ export default function AIDemoSection() {
                   className="py-12 flex flex-col items-center text-center opacity-20"
                 >
                   <Bot className="w-12 h-12 mb-6" />
-                  <p className="text-xs font-mono uppercase tracking-[0.4em]">{t("ready")}</p>
+                  <p className="text-[10px] md:text-xs font-mono uppercase tracking-[0.2em] md:tracking-[0.4em]">{t("ready")}</p>
                 </motion.div>
               )}
             </AnimatePresence>

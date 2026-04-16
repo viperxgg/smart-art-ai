@@ -29,7 +29,7 @@ function Counter({ target, duration = 2, suffix = "" }: { target: number, durati
   }, [isInView, target, duration]);
 
   return (
-    <span ref={ref} className="text-7xl md:text-9xl font-black text-white mb-6 tracking-tighter">
+    <span ref={ref} className="text-6xl md:text-9xl font-black text-white mb-4 md:mb-6 tracking-tighter">
       {count}{suffix}
     </span>
   );
@@ -51,7 +51,7 @@ export default function ImpactSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-7xl font-black tracking-tighter mb-8 text-white max-w-5xl mx-auto leading-tight"
+            className="text-3xl md:text-7xl font-black tracking-tighter mb-6 md:mb-8 text-white max-w-5xl mx-auto leading-tight"
           >
             {tr("title")}
           </motion.h2>
@@ -60,24 +60,24 @@ export default function ImpactSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-white/40 text-xl font-light font-mono tracking-wide"
+            className="text-white/40 text-lg md:text-xl font-light font-mono tracking-wide"
           >
             {tr("subtitle")}
           </motion.p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-24 mb-48">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-24 mb-32 md:mb-48">
           <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="flex flex-col items-center">
             <Counter target={70} suffix="%" />
-            <span className="text-white/20 uppercase tracking-[0.5em] text-[10px] font-bold font-mono">{t("hours")}</span>
+            <span className="text-white/20 uppercase tracking-[0.2em] md:tracking-[0.5em] text-[9px] md:text-[10px] font-bold font-mono text-center max-w-[250px] md:max-w-none">{t("hours")}</span>
           </motion.div>
           <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.2 }} className="flex flex-col items-center">
             <Counter target={24} suffix="/7" />
-            <span className="text-white/20 uppercase tracking-[0.5em] text-[10px] font-bold font-mono">{t("people")}</span>
+            <span className="text-white/20 uppercase tracking-[0.2em] md:tracking-[0.5em] text-[9px] md:text-[10px] font-bold font-mono text-center max-w-[250px] md:max-w-none">{t("people")}</span>
           </motion.div>
           <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.4 }} className="flex flex-col items-center">
             <Counter target={100} suffix="%" />
-            <span className="text-white/20 uppercase tracking-[0.5em] text-[10px] font-bold font-mono">{t("uptime")}</span>
+            <span className="text-white/20 uppercase tracking-[0.2em] md:tracking-[0.5em] text-[9px] md:text-[10px] font-bold font-mono text-center max-w-[250px] md:max-w-none">{t("uptime")}</span>
           </motion.div>
         </div>
 

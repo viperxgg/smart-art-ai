@@ -22,7 +22,7 @@ export default function NextStepsSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-7xl font-black text-white mb-8 tracking-tighter"
+            className="text-3xl md:text-7xl font-black text-white mb-6 md:mb-8 tracking-tighter"
           >
             {t("title")}
           </motion.h2>
@@ -31,7 +31,7 @@ export default function NextStepsSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-white/40 text-xl font-light max-w-2xl mx-auto font-mono tracking-wide"
+            className="text-white/40 text-lg md:text-xl font-light max-w-2xl mx-auto font-mono tracking-wide"
           >
             {t("subtitle")}
           </motion.p>
@@ -80,7 +80,7 @@ export default function NextStepsSection() {
           transition={{ delay: 0.8 }}
           className="flex flex-col items-center gap-4"
         >
-          <div className="flex items-center gap-3 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/20 text-[10px] uppercase tracking-[0.4em] font-mono">
+          <div className="flex items-center gap-3 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/20 text-[9px] md:text-[10px] uppercase tracking-[0.2em] md:tracking-[0.4em] font-mono text-center">
             <Terminal className="w-3 h-3" />
             {t("micro_text")}
           </div>

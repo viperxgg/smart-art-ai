@@ -192,15 +192,15 @@ export default function SolutionsBento() {
         <motion.div
            initial={{ opacity: 0, y: 10 }}
            whileInView={{ opacity: 1, y: 0 }}
-           className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-white/40 text-[10px] font-bold uppercase tracking-[0.4em] mb-12 font-mono"
+           className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-white/40 text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-12 font-mono"
         >
            <Terminal className="w-3 h-3" />
            {t("nav_title")}
         </motion.div>
-        <h2 className="text-5xl md:text-7xl font-black tracking-tighter mb-8 text-white leading-[0.9] max-w-4xl mx-auto">
+        <h2 className="text-4xl md:text-7xl font-black tracking-tighter mb-8 text-white leading-[0.9] max-w-4xl mx-auto">
           {t("solutions_intro")}
         </h2>
-        <p className="text-white/40 max-w-3xl mx-auto text-xl font-light leading-relaxed font-mono tracking-wide">
+        <p className="text-white/40 max-w-3xl mx-auto text-lg md:text-xl font-light leading-relaxed font-mono tracking-wide">
           {t("subtitle")}
         </p>
       </div>

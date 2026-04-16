@@ -45,7 +45,7 @@ export default function FinalCTASection() {
              initial={{ opacity: 0 }}
              whileInView={{ opacity: 1 }}
              viewport={{ once: true }}
-             className="text-white/20 text-[10px] uppercase tracking-[0.4em] font-black mb-8 italic text-center w-full"
+             className="text-white/20 text-[9px] md:text-[10px] uppercase tracking-[0.2em] md:tracking-[0.4em] font-black mb-8 italic text-center w-full"
            >
              {tr("proud_participation")}
            </motion.p>
@@ -70,7 +70,7 @@ export default function FinalCTASection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/5 border border-white/10 text-white/30 text-[9px] uppercase tracking-[0.4em] font-black mb-12 shadow-[0_0_20px_rgba(255,255,255,0.02)]"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/5 border border-white/10 text-white/30 text-[8px] md:text-[9px] uppercase tracking-[0.2em] md:tracking-[0.4em] font-black mb-12 shadow-[0_0_20px_rgba(255,255,255,0.02)]"
         >
           <Terminal className="w-3 h-3 text-cyan-400" />
           {tr("micro_trust")}
@@ -80,7 +80,7 @@ export default function FinalCTASection() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-5xl md:text-8xl font-black text-white mb-8 tracking-tighter leading-[0.9] max-w-4xl"
+          className="text-4xl md:text-8xl font-black text-white mb-8 tracking-tighter leading-[0.9] max-w-4xl"
         >
           {t("title")}
         </motion.h2>
@@ -158,11 +158,11 @@ export default function FinalCTASection() {
                 {!success ? (
                   <>
                     <div className="mb-10">
-                      <div className="flex items-center gap-3 text-blue-400 font-black text-[10px] uppercase tracking-[0.4em] mb-4">
+                      <div className="flex items-center gap-3 text-blue-400 font-black text-[9px] md:text-[10px] uppercase tracking-[0.2em] md:tracking-[0.4em] mb-4">
                         <Calendar className="w-4 h-4" />
                         <span>Boka Demo</span>
                       </div>
-                      <h3 className="text-4xl font-black text-white tracking-tighter italic mb-4 whitespace-nowrap">Redo för nästa steg?</h3>
+                      <h3 className="text-3xl md:text-4xl font-black text-white tracking-tighter italic mb-4">Redo för nästa steg?</h3>
                       <p className="text-white/50 text-base leading-relaxed font-light italic">"Låt oss titta på hur vi kan automatisera din verksamhet och spara tid från dag ett."</p>
                     </div>
 
@@ -209,7 +209,7 @@ export default function FinalCTASection() {
                         <button 
                           type="submit"
                           disabled={loading}
-                          className="w-full py-5 rounded-2xl bg-gradient-to-r from-blue-600 to-blue-400 text-white font-black uppercase tracking-[0.3em] text-[11px] hover:scale-[1.02] active:scale-[0.98] transition-all shadow-[0_0_30px_rgba(37,99,235,0.3)] disabled:opacity-50"
+                          className="w-full py-5 rounded-2xl bg-gradient-to-r from-blue-600 to-blue-400 text-white font-black uppercase tracking-[0.15em] md:tracking-[0.3em] text-[10px] md:text-[11px] hover:scale-[1.02] active:scale-[0.98] transition-all shadow-[0_0_30px_rgba(37,99,235,0.3)] disabled:opacity-50"
                         >
                           {loading ? <Loader2 className="w-5 h-5 animate-spin mx-auto" /> : "Skicka Bokningsförfrågan"}
                         </button>
