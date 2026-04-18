@@ -258,6 +258,11 @@ Here is your chance to test the system exactly as your guests and staff would.
 
 [LIVE_DEMO]
 
+## Choose your plan – Become a Founder
+To celebrate our launch in Sweden, we offer exclusive terms for the first 10 restaurants that join our **Founding Partner Program**.
+
+[PRICING_TABLE]
+
 ## Ready to take control?
 We offer a live demo where we show exactly how this system can be adapted to your restaurant's specific needs and menu.
 
