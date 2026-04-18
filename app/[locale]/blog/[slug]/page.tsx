@@ -198,7 +198,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                     }
 
                     // Video Placeholder Detection
-                    if (trimmed === '[AUTOMATION_VIDEO]') {
+                    if (trimmed.includes('[AUTOMATION_VIDEO]')) {
                       return (
                         <div key={i} className="py-12 flex flex-col items-center">
                           <div className="max-w-[800px] w-full">
@@ -227,12 +227,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                     }
 
                     // Pricing Table Tag
-                    if (trimmed === '[PRICING_TABLE]') {
+                    if (trimmed.includes('[PRICING_TABLE]')) {
                       return <PricingTable key={i} locale={locale} />;
                     }
 
                     // Live Demo Block Rendering
-                    if (trimmed === '[LIVE_DEMO]') {
+                    if (trimmed.includes('[LIVE_DEMO]')) {
                       const guestUrl = "https://premium-menu-8fij.vercel.app";
                       const staffUrl = "https://premium-menu-8fij.vercel.app/dashboard";
                       const qrSize = "180x180";
