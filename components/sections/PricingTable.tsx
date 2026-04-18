@@ -45,9 +45,9 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
           'Smarta köksnotiser',
           'Ökad omsättning & färre fel'
         ],
-        buttonText: 'Bli en Founder',
+        buttonText: 'Beställ ditt smarta system',
         featured: true,
-        badge: 'Rekommenderas 🔥'
+        badge: 'Rekommenderas'
       }
     ],
     en: [
@@ -80,9 +80,9 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
           'Smart kitchen notifications',
           'Higher revenue & fewer errors'
         ],
-        buttonText: 'Become a Founder',
+        buttonText: 'Order Your Smart System',
         featured: true,
-        badge: 'Recommended 🔥'
+        badge: 'Recommended'
       }
     ]
   };
