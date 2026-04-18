@@ -23,16 +23,16 @@ export default function ProblemSolutionFlow() {
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-[10px] font-bold uppercase tracking-[0.4em] mb-12 font-mono"
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/40 text-cyan-400 text-[10px] font-bold uppercase tracking-[0.4em] mb-12 font-mono"
           >
             <Zap className="w-3 h-3" />
-            Vår Process
+            {tNS("micro_text")}
           </motion.div>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-5xl md:text-8xl font-black text-white mb-10 tracking-tighter leading-[0.9]"
+            className="text-5xl md:text-8xl font-black text-white mb-10 tracking-tighter leading-[0.9] font-jakarta"
           >
             {tNS("title")}
           </motion.h2>
@@ -41,7 +41,7 @@ export default function ProblemSolutionFlow() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-white/40 text-xl font-light max-w-2xl mx-auto font-mono tracking-wide"
+            className="text-white/80 text-xl font-light max-w-2xl mx-auto font-mono tracking-wide font-body"
           >
             {tNS("subtitle")}
           </motion.p>
@@ -91,8 +91,22 @@ export default function ProblemSolutionFlow() {
           transition={{ delay: 0.8 }}
           className="mt-32 flex flex-col items-center"
         >
-          <div className="px-6 py-2 rounded-full bg-white/5 border border-white/10 text-white/20 text-[10px] uppercase tracking-[0.5em] font-mono">
-            {tNS("micro_text")}
+          <div className="px-8 py-3 rounded-full bg-red-500/5 border border-red-500/20 text-red-500 text-[11px] uppercase tracking-[0.4em] font-mono shadow-[0_0_20px_rgba(239,68,68,0.1)] flex items-center gap-2">
+            <span className="opacity-50">{"root@smartart:~$"}</span>
+            <motion.span
+              initial={{ width: 0 }}
+              whileInView={{ width: "auto" }}
+              viewport={{ once: true }}
+              transition={{ duration: 2, ease: "linear", delay: 1.2 }}
+              className="overflow-hidden whitespace-nowrap inline-block"
+            >
+              {tNS("micro_text")}
+            </motion.span>
+            <motion.span
+              animate={{ opacity: [1, 0] }}
+              transition={{ duration: 0.8, repeat: Infinity }}
+              className="w-2 h-4 bg-red-500 inline-block shadow-[0_0_10px_#ef4444]"
+            />
           </div>
         </motion.div>
       </div>

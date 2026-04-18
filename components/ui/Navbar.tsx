@@ -27,7 +27,7 @@ export default function Navbar() {
   const navLinks = [
     { name: t("home"), href: `/${locale}#home`, isAnchor: true },
     { name: t("solutions"), href: `/${locale}#solutions`, isAnchor: true },
-    { name: t("agent_x"), href: `/${locale}#agent-x`, isAnchor: true },
+
     { name: t("impact"), href: `/${locale}#impact`, isAnchor: true },
     { name: t("blog"), href: `/${locale}/blog`, isAnchor: false },
   ];
@@ -114,7 +114,7 @@ export default function Navbar() {
           </button>
 
           <Link 
-             href={`/${locale}#final-cta`}
+             href={`/${locale}#solutions`}
              className="px-6 py-2.5 rounded-full bg-white text-black text-xs font-black uppercase tracking-widest hover:scale-105 active:scale-95 transition-all shadow-[0_0_20px_rgba(255,255,255,0.2)]"
           >
             {t("cta")}
@@ -173,7 +173,7 @@ export default function Navbar() {
               className="w-full"
             >
               <Link
-                href={`/${locale}#final-cta`}
+                href={`/${locale}#solutions`}
                 onClick={() => setIsOpen(false)}
                 className="block w-full py-5 rounded-2xl bg-white text-black text-center font-black uppercase tracking-[0.3em] text-[11px] shadow-[0_0_40px_rgba(255,255,255,0.1)]"
               >

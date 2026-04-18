@@ -9,7 +9,8 @@
   --color-warm-orange: #FF7B00;
   --color-warm-peach: #FFC099;
   
-  --font-sans: "Inter", var(--font-geist-sans), sans-serif;
+  --font-sans: var(--font-jakarta), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
 }
 
 @layer base {
@@ -24,7 +25,7 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans);
+  font-family: var(--font-body);
   overflow-x: hidden;
 }
 

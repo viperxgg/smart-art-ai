@@ -9,10 +9,10 @@ import Link from "next/link";
 // Sections in Story Flow Order
 import ProblemSection from "@/components/sections/ProblemSection";
 import SolutionsBento from "@/components/sections/SolutionsBento";
-import SmartAgentX from "@/components/sections/SmartAgentX"; // Neural Core
+
 import ImpactSection from "@/components/sections/ImpactSection"; // Trust
 import ProblemSolutionFlow from "@/components/sections/ProblemSolutionFlow";
-import FinalCTASection from "@/components/sections/FinalCTASection";
+
 
 import { useTranslations, useLocale } from "next-intl";
 
@@ -65,23 +65,14 @@ export default function Home() {
       {/* 4. THE TRANSFORMATION & EXECUTION FLOW */}
       <ProblemSolutionFlow />
 
-      {/* INTERACTIVE NEURAL AUDIT - Agent X Qualification */}
-      <section id="agent-x" className="bg-[#050505] py-20 border-t border-white/5">
-         <div className="max-w-7xl mx-auto px-4 text-center">
-            <h2 className="text-2xl font-mono text-cyan-400 mb-10 uppercase tracking-[0.4em]">Neural Audit System</h2>
-            <SmartAgentX />
-         </div>
-      </section>
+
 
       {/* 6. TRUST - Credibility & Social Proof */}
       <div id="impact">
         <ImpactSection />
       </div>
 
-      {/* 7. FINAL ACTION - Direct Conversion */}
-      <div id="final-cta">
-        <FinalCTASection />
-      </div>
+
 
     </main>
   );

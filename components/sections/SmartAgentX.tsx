@@ -168,7 +168,7 @@ export default function SmartAgentX() {
                         exit={{ opacity: 0, x: 10 }}
                         className={`whitespace-nowrap flex items-center gap-2 ${idx === 0 ? 'text-cyan-400 font-bold' : 'text-white/50'}`}
                       >
-                         <span className="opacity-30">{">"}</span>
+                         <span className="opacity-50">{">"}</span>
                          {log}
                          {idx === 0 && (
                             <motion.span 
@@ -215,7 +215,7 @@ export default function SmartAgentX() {
                         { b: "Kaos", a: "Struktur", icon: <ShieldCheck className="w-3 h-3" /> }
                       ].map((item, i) => (
                         <div key={i} className="flex items-center gap-4 group/row">
-                           <div className="flex-1 text-[11px] text-white/40 text-right font-light truncate">{item.b}</div>
+                           <div className="flex-1 text-[11px] text-white/70 text-right font-medium truncate">{item.b}</div>
                            <div className="w-2.5 h-2.5 rounded-full border border-white/10 flex items-center justify-center p-0.5">
                               <motion.div 
                                 animate={{ 
@@ -248,11 +248,11 @@ export default function SmartAgentX() {
                      { label: "Åtgärder", val: `${metrics.completed}`, color: "text-purple-400", sub: "PROCESSED" }
                    ].map((m, i) => (
                      <div key={i} className="flex flex-col gap-1">
-                        <span className="text-[10px] uppercase tracking-widest text-white/40 font-mono">{m.label}</span>
+                        <span className="text-[10px] uppercase tracking-widest text-white/70 font-mono">{m.label}</span>
                         <div className={`text-xl font-black ${m.color}`}>
                            {m.val}
                         </div>
-                        <span className="text-[9px] text-white/20 font-mono tracking-widest">{m.sub}</span>
+                        <span className="text-[9px] text-white/50 font-mono tracking-widest">{m.sub}</span>
                      </div>
                    ))}
                 </div>

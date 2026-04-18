@@ -163,7 +163,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                       const text = trimmed.replace('👉', '').trim();
                       return (
                         <div key={i} className="py-12 flex justify-center">
-                           <Link href={`/${locale}#final-cta`}>
+                           <Link href={`/${locale}#solutions`}>
                              <MagneticButton className="px-10 py-5 text-lg">
                                 {text}
                              </MagneticButton>
@@ -406,7 +406,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
             Stop losing hours to manual friction. Let's automate your Swedish business today.
           </p>
           <div className="flex justify-center">
-            <Link href={`/${locale}#final-cta`}>
+            <Link href={`/${locale}#solutions`}>
               <MagneticButton>
                 {tNav("cta")}
               </MagneticButton>

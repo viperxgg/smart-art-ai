@@ -1,10 +1,20 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MonitorDot, BotMessageSquare, Workflow, Lightbulb, Loader2, CheckCircle2, X, FileText, Settings, Zap, ArrowRight, Terminal, Users, MessageSquare, Utensils } from "lucide-react";
+
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
+
+// Agent X Personality Configuration
+const AGENT_X_CONFIG = {
+  name: "Agent X",
+  greeting: "Hej! Vad sägs om att jag bygger en personlig AI-sekreterare åt dig? En som svarar dygnet runt på din sajt eller WhatsApp – med koll på precis allt om ditt företag.",
+  followUp: "Du måste vara spänd på den här upplevelsen! Ska vi se hur en smart assistent kan spara dig timmar av manuellt arbete varje dag?",
+  pricingPolicy: "Automatiseringstjänster börjar från 1499 kr, men det slutgiltiga priset fastställs baserat på projektets storlek, komplexitet och de specifika behoven i din verksamhet.",
+  persona: "Expert salesperson, business strategist, focus on building AI secretaries for Web/WhatsApp."
+};
 
 export default function SolutionsBento() {
   const t = useTranslations("Solutions");
@@ -61,7 +71,11 @@ export default function SolutionsBento() {
       const t2 = setTimeout(() => setAnimationStep(2), 2000);
       return () => { clearTimeout(t1); clearTimeout(t2); };
     }
-  }, [showWorkflowSpecialModal]);
+    
+    if (showChatbotModal) {
+      // Chatbot is initialized via useChat initialMessages
+    }
+  }, [showWorkflowSpecialModal, showChatbotModal]);
 
   // Form State
   const [formData, setFormData] = useState({
@@ -75,18 +89,44 @@ export default function SolutionsBento() {
   });
 
   const [chatbotStep, setChatbotStep] = useState(0);
+  
+  const [agentXMessages, setAgentXMessages] = useState<{role: 'assistant' | 'user', content: string}[]>([]);
+  const [agentXInput, setAgentXInput] = useState("");
+  const [isAgentTyping, setIsAgentTyping] = useState(false);
+
+  const chatContainerRef = useRef<HTMLDivElement>(null);
+
+  // Auto-scroll to bottom of chat
+  useEffect(() => {
+    if (chatContainerRef.current) {
+      chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
+    }
+  }, [agentXMessages]);
+
+  // Force initial messages when modal opens
+  useEffect(() => {
+    if (showChatbotModal && agentXMessages.length === 0) {
+      setAgentXMessages([
+        { role: 'assistant', content: AGENT_X_CONFIG.greeting },
+        { role: 'assistant', content: AGENT_X_CONFIG.followUp }
+      ]);
+    }
+  }, [showChatbotModal, agentXMessages.length]);
 
   const handleOpenModal = (title: string, serviceType: string, color: string) => {
     setActiveModal({ title, serviceType, color });
   };
 
+  const [submitError, setSubmitError] = useState<string | null>(null);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!activeModal || !formData.fullName.trim() || !formData.email.trim()) return;
 
+    setSubmitError(null);
     setLoadingCard(activeModal.title);
     try {
-      await fetch("/api/contact", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -102,6 +142,11 @@ export default function SolutionsBento() {
           "Subject": `Ny Förfrågan: ${activeModal.serviceType}`
         }),
       });
+
+      if (!res.ok) {
+        const errData = await res.json().catch(() => ({}));
+        throw new Error(errData.error || "Submission failed");
+      }
       
       const currentTitle = activeModal.title;
       setSuccessCard(currentTitle);
@@ -125,10 +170,60 @@ export default function SolutionsBento() {
         setSuccessCard(null);
       }, 4000);
       
-    } catch (error) {
+    } catch (error: any) {
       console.error("Submission failed", error);
+      setSubmitError(error.message || "Något gick fel. Försök igen.");
     } finally {
       setLoadingCard(null);
+    }
+  };
+
+
+  const handleAgentXMessage = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const val = agentXInput.trim();
+    if (!val || isAgentTyping) return;
+    
+    // Add user message to UI
+    const newMessages = [...agentXMessages, { role: 'user' as const, content: val }];
+    setAgentXMessages(newMessages);
+    setAgentXInput('');
+    setIsAgentTyping(true);
+
+    try {
+      const response = await fetch('/api/agent-x', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ messages: newMessages.map(m => ({ role: m.role, content: m.content })) })
+      });
+
+      if (!response.ok) throw new Error("Neural connection lost");
+
+      // Handle Streaming
+      const reader = response.body?.getReader();
+      const decoder = new TextDecoder();
+      let assistantText = "";
+
+      // Add a placeholder message for the assistant
+      setAgentXMessages(prev => [...prev, { role: 'assistant', content: "" }]);
+
+      while (true) {
+        const { done, value } = await reader!.read();
+        if (done) break;
+        assistantText += decoder.decode(value);
+        
+        // Update the last message (the assistant one)
+        setAgentXMessages(prev => {
+          const updated = [...prev];
+          updated[updated.length - 1].content = assistantText;
+          return updated;
+        });
+      }
+    } catch (err) {
+      console.error("Chat error:", err);
+      setAgentXMessages(prev => [...prev, { role: 'assistant', content: "Neural connection error. Please try again." }]);
+    } finally {
+      setIsAgentTyping(false);
     }
   };
 
@@ -144,7 +239,7 @@ export default function SolutionsBento() {
             <CheckCircle2 className="w-4 h-4" />
             Väntar på Agent X...
           </div>
-          <p className="text-[10px] text-white/30 italic font-mono text-center px-4">
+          <p className="text-xs text-white/60 italic font-medium text-center px-4">
             Ditt meddelande har skickats via vår Neural Core.
           </p>
         </div>
@@ -177,8 +272,8 @@ export default function SolutionsBento() {
           <ArrowRight className="w-4 h-4 relative z-10 group-hover/btn:translate-x-1 transition-transform" />
         </button>
         
-        <div className="flex flex-col gap-1 items-center">
-            <p className="text-[10px] text-white/40 leading-relaxed max-w-[90%] font-medium">
+        <div className="flex flex-col gap-1 items-center px-4">
+            <p className="text-[13px] text-white/70 leading-relaxed max-w-sm font-medium tracking-tight">
                {nextText}
             </p>
         </div>
@@ -207,7 +302,7 @@ export default function SolutionsBento() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
         {/* Featured Product: Digital Menu */}
         <Link 
           href={`/${locale}/blog/scandinavian-digital-menu`}
@@ -223,10 +318,10 @@ export default function SolutionsBento() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/30 text-cyan-400 text-[10px] font-bold uppercase tracking-widest mb-4">
               <Zap className="w-3 h-3 fill-cyan-400" /> New Product
             </div>
-            <h3 className="text-3xl md:text-4xl font-black mb-4 text-white tracking-tight leading-tight">
+            <h3 className="text-3xl md:text-4xl font-black mb-4 text-white tracking-tight leading-tight font-jakarta">
               {t("card_menu_title")}
             </h3>
-            <p className="text-white/60 mb-6 text-lg leading-relaxed font-light max-w-2xl">
+            <p className="text-white/60 mb-6 text-lg leading-relaxed font-light max-w-2xl font-body">
               {t("card_menu_desc")}
             </p>
             <div className="inline-flex items-center gap-2 text-cyan-400 font-bold uppercase tracking-widest text-xs group-hover:gap-4 transition-all">
@@ -241,23 +336,23 @@ export default function SolutionsBento() {
              </div>
           </div>
         </Link>
-      </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {/* Card 1: Web Dev */}
+        {/* Card 1: Web Dev (Joined Row 1) */}
         <motion.div 
           whileHover={{ y: -8 }} 
-          className="glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col items-center text-center border border-white/5 hover:border-[#7000FF]/30 transition-all duration-500"
+          className="col-span-1 glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col items-center text-center border border-white/5 hover:border-[#7000FF]/30 transition-all duration-500"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-[#7000FF]/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
           <div className="w-20 h-20 rounded-3xl bg-[#7000FF]/10 flex items-center justify-center mb-10 border border-[#7000FF]/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(112,0,255,0.2)]">
             <MonitorDot className="w-10 h-10 text-[#7000FF]" />
           </div>
-          <h3 className="text-2xl font-black mb-4 text-white tracking-tight leading-tight">{t("card1_title")}</h3>
-          <p className="text-white/50 mb-10 flex-1 leading-relaxed font-light">{t("card1_desc")}</p>
+          <h3 className="text-2xl font-black mb-4 text-white tracking-tight leading-tight font-jakarta">{t("card1_title")}</h3>
+          <p className="text-white/70 mb-10 flex-1 leading-relaxed font-medium font-body">{t("card1_desc")}</p>
           {renderServiceCTA("card1", "7000FF", "Custom Web Development")}
         </motion.div>
+      </div>
 
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Card 2: AI Support */}
         <motion.div 
           whileHover={{ y: -8 }} 
@@ -267,45 +362,37 @@ export default function SolutionsBento() {
           <div className="w-20 h-20 rounded-3xl bg-[#00E5FF]/10 flex items-center justify-center mb-10 border border-[#00E5FF]/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(0,229,255,0.2)]">
             <BotMessageSquare className="w-10 h-10 text-[#00E5FF]" />
           </div>
-          <h3 className="text-2xl font-black mb-4 text-white tracking-tight leading-tight">{t("card2_title")}</h3>
-          <p className="text-white/50 mb-10 flex-1 leading-relaxed font-light">{t("card2_desc")}</p>
+          <h3 className="text-2xl font-black mb-4 text-white tracking-tight leading-tight font-jakarta">{t("card2_title")}</h3>
+          <p className="text-white/70 mb-10 flex-1 leading-relaxed font-medium font-body">{t("card2_desc")}</p>
           {renderServiceCTA("card2", "00E5FF", "Social Bot")}
         </motion.div>
 
-        {/* Card 3: Automation */}
+        {/* Card 3: Workflow Automation (RESTORED) */}
         <motion.div 
           whileHover={{ y: -8 }} 
           className="glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col items-center text-center border border-white/5 hover:border-[#007BFF]/30 transition-all duration-500"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-[#007BFF]/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
           <div className="w-20 h-20 rounded-3xl bg-[#007BFF]/10 flex items-center justify-center mb-10 border border-[#007BFF]/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(0,123,255,0.2)]">
-            <Zap className="w-10 h-10 text-[#007BFF]" />
+            <Workflow className="w-10 h-10 text-[#007BFF]" />
           </div>
-          <h3 className="text-2xl font-black mb-4 text-white tracking-tight leading-tight">{t("card3_title")}</h3>
-          <p className="text-white/50 mb-10 flex-1 leading-relaxed font-light">{t("card3_desc")}</p>
-          {renderServiceCTA("card3", "007BFF", "Automation")}
+          <h3 className="text-2xl font-black mb-4 text-white tracking-tight leading-tight font-jakarta">{t("card3_title")}</h3>
+          <p className="text-white/70 mb-10 flex-1 leading-relaxed font-medium font-body">{t("card3_desc")}</p>
+          {renderServiceCTA("card3", "007BFF", "Workflow Automation")}
         </motion.div>
-      </div>
 
-      <div className="mt-12 max-w-lg mx-auto">
-         {/* Fourth small CTA for custom ideas */}
-         <motion.div 
-          whileHover={{ y: -5 }} 
-          className="glass-panel rounded-3xl p-6 relative overflow-hidden group flex items-center gap-6 border border-white/5 hover:border-[#FF007F]/30 transition-all duration-500"
+        {/* Card 4: Custom Ideas */}
+        <motion.div 
+          whileHover={{ y: -8 }} 
+          className="glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col items-center text-center border border-white/5 hover:border-[#FF007F]/30 transition-all duration-500"
         >
-          <div className="w-12 h-12 rounded-2xl bg-[#FF007F]/10 flex items-center justify-center border border-[#FF007F]/20 shadow-[0_0_20px_rgba(255,0,127,0.2)]">
-            <Lightbulb className="w-6 h-6 text-[#FF007F]" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#FF007F]/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+          <div className="w-20 h-20 rounded-3xl bg-[#FF007F]/10 flex items-center justify-center mb-10 border border-[#FF007F]/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(255,0,127,0.2)]">
+            <Lightbulb className="w-10 h-10 text-[#FF007F]" />
           </div>
-          <div className="flex-1">
-             <h4 className="text-white font-bold text-sm mb-1">{t("card4_title")}</h4>
-             <p className="text-white/30 text-[10px] font-mono leading-tight">{t("card4_desc")}</p>
-          </div>
-          <button 
-            onClick={() => handleOpenModal(t("card4_title"), "Custom Idea", "FF007F")}
-            className="px-4 py-2 rounded-xl bg-[#FF007F]/10 text-[#FF007F] text-[10px] font-bold uppercase tracking-widest hover:bg-[#FF007F] hover:text-white transition-all shadow-[0_0_15px_rgba(255,0,127,0.2)]"
-          >
-            {t("card4_btn")}
-          </button>
+          <h3 className="text-2xl font-black mb-4 text-white tracking-tight leading-tight font-jakarta">{t("card4_title")}</h3>
+          <p className="text-white/70 mb-10 flex-1 leading-relaxed font-medium font-body">{t("card4_desc")}</p>
+          {renderServiceCTA("card4", "FF007F", "Custom Idea")}
         </motion.div>
       </div>
 
@@ -374,6 +461,11 @@ export default function SolutionsBento() {
                   />
                 </div>
                 
+                {submitError && (
+                  <div className="w-full px-4 py-3 rounded-xl bg-red-500/10 border border-red-500/30 text-red-400 text-sm font-medium">
+                    ⚠️ {submitError}
+                  </div>
+                )}
                 <button 
                   type="submit"
                   disabled={loadingCard === activeModal.title || !formData.fullName.trim() || !formData.email.trim()}
@@ -638,120 +730,81 @@ export default function SolutionsBento() {
               </button>
 
               {chatbotStep === 0 ? (
-                <>
-                  <div className="flex items-center gap-4 mb-8">
-                    <div className="w-16 h-16 rounded-full bg-[#00E5FF]/10 flex items-center justify-center shadow-[0_0_20px_rgba(0,229,255,0.4)]">
-                      <BotMessageSquare className="w-8 h-8 text-[#00E5FF]" />
+                <div className="w-full flex-1 flex flex-col min-h-[500px]">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="relative">
+                      <div className="w-12 h-12 rounded-full bg-[#00E5FF]/20 flex items-center justify-center border border-[#00E5FF]/40 shadow-[0_0_20px_rgba(0,229,255,0.4)]">
+                        <BotMessageSquare className="w-6 h-6 text-[#00E5FF]" />
+                      </div>
+                      <div className="absolute -bottom-1 -right-1 w-3 h-3 bg-green-500 rounded-full border-2 border-black animate-pulse shadow-[0_0_10px_rgba(34,197,94,0.8)]" />
                     </div>
-                    <h3 className="text-3xl font-bold text-white leading-tight">Din Digitala <br /><span className="text-[#00E5FF]">Medarbetare 24/7</span></h3>
-                  </div>
-
-                  <div className="w-full mb-8 pt-4 border-t border-white/5">
-                    <p className="text-white/40 text-sm italic font-mono mb-4 text-center">Välj den kraftfulla lösning som passar din verksamhet bäst.</p>
-                  </div>
-
-                  <div className="w-full mb-10">
-                    <h4 className="text-xl font-bold text-white mb-4">Prispaket</h4>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      <div className="group/pcard relative flex-1 rounded-2xl bg-white/[0.02] border border-white/5 p-5 flex flex-col items-center transition-all duration-500 hover:bg-white/[0.04]">
-                        <div className="text-[8px] text-white/20 font-mono uppercase tracking-[0.2em] mb-4">Bas</div>
-                        <h5 className="text-lg font-black text-white tracking-tighter mb-4 italic text-center leading-none">Social<br/>Starter</h5>
-                        <div className="flex flex-col items-center mb-8 w-full pt-6 border-t border-white/5">
-                           <div className="text-[10px] text-white/40 mb-2">Setup: 2,900 kr</div>
-                           <div className="text-3xl font-black text-white tracking-tighter whitespace-nowrap">590 kr<span className="text-xs text-white/20 ml-1">/mån</span></div>
-                           <button 
-                             onClick={(e) => {
-                               e.stopPropagation();
-                               setReadMoreModal({
-                                 id: 'social',
-                                 title: 'Social Starter',
-                                 desc: 'Det här paketet passar mindre företag och e-handel som vill fånga upp fler kunder från sociala medier utan att behöva svara manuellt hela tiden.',
-                                 included: ['Automatisk hantering av inkommande leads från sociala medier', 'Enklare flöden för att spara tid', 'Snabb installation', 'Grundläggande support'],
-                                 bestFor: 'Små företag, e-handel och lokala verksamheter.',
-                                 benefit: 'Du sparar tid och minskar risken att missa potentiella kunder.',
-                                 color: '00E5FF',
-                                 icon: <MessageSquare strokeWidth={1.5} className="w-10 h-10 text-[#00E5FF]" />
-                               });
-                             }}
-                             className="relative z-[20] text-[10px] text-white/30 uppercase tracking-[0.2em] font-bold mt-4 hover:text-[#00E5FF] transition-all underline underline-offset-4 decoration-white/10 hover:decoration-[#00E5FF]/40"
-                           >
-                             Läs mer
-                           </button>
-                        </div>
-                        <div className="mt-auto px-2 py-1 rounded-full bg-white/5 border border-white/10 text-[7px] text-white/30 uppercase tracking-[0.1em] font-bold">För e-handel</div>
-                      </div>
-
-                      <div className="group/pcard relative flex-1 rounded-2xl bg-[#7000FF]/5 border-2 border-[#7000FF]/50 p-5 flex flex-col items-center transition-all duration-700 hover:bg-[#7000FF]/10 hover:scale-[1.02] shadow-[0_0_50px_rgba(112,0,255,0.1)]">
-                        <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-2 py-1 bg-gradient-to-r from-orange-400 to-orange-600 text-white text-[7px] font-black uppercase tracking-[0.1em] rounded-full shadow-[0_0_15px_rgba(249,115,22,0.6)] z-20 whitespace-nowrap">CSR-stöd</div>
-                        <div className="text-[8px] text-[#7000FF] font-bold font-mono uppercase tracking-[0.2em] mb-4">Vald</div>
-                        <h5 className="text-lg font-black text-white tracking-tighter mb-4 italic text-center leading-none">Förenings-<br/>Bot</h5>
-                        <div className="flex flex-col items-center mb-8 w-full pt-6 border-t border-[#7000FF]/20">
-                           <div className="text-[10px] text-white/60 mb-2">Setup: 1,900 kr</div>
-                           <div className="text-3xl font-black text-white tracking-tighter whitespace-nowrap">390 kr<span className="text-xs text-white/20 ml-1">/mån</span></div>
-                           <button 
-                             onClick={(e) => {
-                               e.stopPropagation();
-                               setReadMoreModal({
-                                 id: 'forening',
-                                 title: 'Förenings-Bot',
-                                 desc: 'Det här paketet är framtaget för föreningar som vill göra medlemsregistrering och enklare kommunikation smidigare och mindre tidskrävande.',
-                                 included: ['Automatiserad medlemsregistrering', 'Enklare digital hantering av förfrågningar', 'Lösning anpassad för föreningar', 'Support för att komma igång'],
-                                 bestFor: 'Ideella föreningar, organisationer och mindre verksamheter med medlemsfokus.',
-                                 benefit: 'Ni sparar administrationstid och får en enklare vardag.',
-                                 color: '7000FF',
-                                 icon: <Users strokeWidth={1.5} className="w-10 h-10 text-orange-400" />
-                               });
-                             }}
-                             className="relative z-[20] text-[10px] text-white/40 uppercase tracking-[0.2em] font-bold mt-4 hover:text-orange-400 transition-all underline underline-offset-4 decoration-white/10 hover:decoration-orange-400/40"
-                           >
-                             Läs mer
-                           </button>
-                        </div>
-                        <div className="mt-auto px-2 py-1 rounded-full bg-orange-500/10 border border-orange-500/30 text-[7px] text-orange-400 uppercase tracking-[0.1em] font-bold">För föreningar</div>
-                      </div>
-
-                      <div className="group/pcard relative flex-1 rounded-2xl bg-white/[0.02] border border-white/5 p-5 flex flex-col items-center transition-all duration-500 hover:bg-white/[0.04]">
-                        <div className="text-[8px] text-white/20 font-mono uppercase tracking-[0.2em] mb-4">Advanced</div>
-                        <h5 className="text-lg font-black text-white tracking-tighter mb-4 italic text-center leading-none">Omnichannel<br/>Lite</h5>
-                        <div className="flex flex-col items-center mb-8 w-full pt-6 border-t border-white/5">
-                           <div className="text-[10px] text-white/40 mb-2">Setup: 9,900 kr</div>
-                           <div className="text-3xl font-black text-white tracking-tighter whitespace-nowrap">1,490 kr<span className="text-xs text-white/20 ml-1">/mån</span></div>
-                           <button 
-                             onClick={(e) => {
-                               e.stopPropagation();
-                               setReadMoreModal({
-                                 id: 'omni',
-                                 title: 'Omnichannel Lite',
-                                 desc: 'Det här paketet passar företag som vill koppla ihop flera kanaler och skapa ett smartare flöde för kundkontakt, bokningar eller förfrågningar.',
-                                 included: ['Integration mellan flera kanaler', 'Smidigare kundflöden', 'Mer avancerad automatisering', 'Anpassning efter verksamhetens behov'],
-                                 bestFor: 'Växande företag som vill effektivisera och skala upp.',
-                                 benefit: 'Du får bättre struktur, snabbare hantering och ett mer professionellt kundflöde.',
-                                 color: '00E5FF',
-                                 icon: <Zap strokeWidth={1.5} className="w-10 h-10 text-[#00E5FF]" />
-                               });
-                             }}
-                             className="relative z-[20] text-[10px] text-white/30 uppercase tracking-[0.2em] font-bold mt-4 hover:text-[#00E5FF] transition-all underline underline-offset-4 decoration-white/10 hover:decoration-[#00E5FF]/40"
-                           >
-                             Läs mer
-                           </button>
-                        </div>
-                        <div className="mt-auto px-2 py-1 rounded-full bg-white/5 border border-white/10 text-[7px] text-white/30 uppercase tracking-[0.1em] font-bold">Full integration</div>
-                      </div>
+                    <div>
+                      <h3 className="text-xl font-black text-white tracking-widest uppercase">{AGENT_X_CONFIG.name}</h3>
+                      <p className="text-[10px] text-[#00E5FF] font-mono uppercase tracking-[0.2em] animate-pulse">Neural Session Active_</p>
                     </div>
                   </div>
 
-                  <motion.button 
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.5 }}
-                    onClick={() => {
-                      setChatbotStep(1);
-                    }}
-                    className="w-full py-4 rounded-full bg-gradient-to-r from-[#00E5FF] to-[#007BFF] text-white font-bold tracking-wide hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(0,229,255,0.6)] transition-all duration-300"
+                  {/* Terminal Chat Area */}
+                  <div 
+                    ref={chatContainerRef}
+                    className="flex-1 bg-black/40 rounded-3xl border border-white/5 p-6 mb-6 overflow-y-auto max-h-[350px] custom-scrollbar space-y-4 font-mono"
                   >
-                    Välj ditt paket & Boka demo
-                  </motion.button>
-                </>
+                    <AnimatePresence initial={false}>
+                      {agentXMessages.map((msg, i) => (
+                        <motion.div 
+                          key={i}
+                          initial={{ opacity: 0, x: msg.role === 'assistant' ? -10 : 10 }}
+                          animate={{ opacity: 1, x: 0 }}
+                          className={`flex ${msg.role === 'assistant' ? 'justify-start' : 'justify-end'}`}
+                        >
+                          <div className={`max-w-[85%] px-4 py-3 rounded-2xl text-xs leading-relaxed ${
+                            msg.role === 'assistant' 
+                            ? 'bg-white/5 text-white/90 border border-white/10' 
+                            : 'bg-[#00E5FF]/10 text-[#00E5FF] border border-[#00E5FF]/20 shadow-[0_0_15px_rgba(0,229,255,0.1)]'
+                          }`}>
+                            <span className="opacity-40 mr-2">{msg.role === 'assistant' ? 'X_CORE>' : 'ROOT>'}</span>
+                            {msg.content}
+                          </div>
+                        </motion.div>
+                      ))}
+                    </AnimatePresence>
+                    {isAgentTyping && (
+                      <div className="flex items-center gap-2 text-[#00E5FF]/30 text-[10px] italic">
+                         <Loader2 className="w-3 h-3 animate-spin" />
+                         Agent X analyserar ditt svar...
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Terminal Input */}
+                  <form onSubmit={handleAgentXMessage} className="relative">
+                    <div className="absolute left-5 top-1/2 -translate-y-1/2 text-[#00E5FF] font-mono text-[11px] opacity-40 tracking-tight whitespace-nowrap pointer-events-none">root@guest:~$</div>
+                    <input 
+                      type="text"
+                      autoFocus
+                      placeholder="Skriv din fråga här..."
+                      value={agentXInput}
+                      onChange={(e) => setAgentXInput(e.target.value)}
+                      className="w-full bg-black/50 border border-white/10 rounded-2xl pl-32 pr-16 py-4 text-xs text-white focus:outline-none focus:border-[#00E5FF]/50 transition-all font-mono"
+                    />
+                    <button 
+                      type="submit"
+                      className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-xl bg-[#00E5FF]/10 text-[#00E5FF] hover:bg-[#00E5FF] hover:text-black transition-all"
+                    >
+                      <ArrowRight className="w-4 h-4" />
+                    </button>
+                  </form>
+                  
+                  <div className="flex justify-between items-center mt-6 px-2">
+                     <p className="text-[9px] text-white/20 font-mono italic">Log_ref: 4054-AGENTX-CORE</p>
+                     <button 
+                        onClick={() => setChatbotStep(1)}
+                        className="text-[10px] text-[#00E5FF] font-bold uppercase tracking-widest hover:underline"
+                     >
+                        Hoppa till bokning →
+                     </button>
+                  </div>
+                </div>
               ) : chatbotStep === 1 ? (
                 <motion.div 
                   initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }}
@@ -942,28 +995,38 @@ export default function SolutionsBento() {
                       <MonitorDot className="w-8 h-8 text-[#7000FF]" />
                     </div>
                     <h3 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tighter leading-[0.85]">Digital <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#9D50BB]">Growth Systems</span></h3>
-                    <p className="text-white/40 text-xl mb-12 font-light leading-relaxed max-w-md">"Vi bygger inte bara hemsidor – vi skapar system som genererar kunder och driver tillväxt."</p>
+                    <div className="font-mono text-sm mb-12 relative">
+                       <span className="text-[#7000FF] mr-2 opacity-70">root@smartart:~$</span>
+                       <p className="inline text-white/90 leading-relaxed">
+                          "Vi bygger inte bara hemsidor – vi skapar system som genererar kunder och driver tillväxt."
+                          <motion.span 
+                            animate={{ opacity: [1, 0] }}
+                            transition={{ duration: 0.8, repeat: Infinity }}
+                            className="inline-block w-2 H-4 bg-[#7000FF] ml-1 align-middle"
+                          />
+                       </p>
+                    </div>
                     
-                    <ul className="space-y-4 mb-8">
-                       <li className="flex items-center gap-3 text-white/70 text-sm">
-                          <CheckCircle2 className="w-5 h-5 text-[#7000FF]" />
-                          Snabba & högpresterande (optimerade för 100/100 Lighthouse)
+                    <ul className="space-y-4 mb-8 font-mono">
+                       <li className="flex items-center gap-3 text-white/90 text-[11px] group/item">
+                          <Terminal className="w-4 h-4 text-[#7000FF] group-hover:scale-110 transition-transform" />
+                          <span className="group-hover:text-[#7000FF] transition-colors">Snabba & högpresterande (100/100 Lighthouse)</span>
                        </li>
-                       <li className="flex items-center gap-3 text-white/70 text-sm">
-                          <CheckCircle2 className="w-5 h-5 text-[#7000FF]" />
-                          SEO & konverteringsoptimerade från start
+                       <li className="flex items-center gap-3 text-white/90 text-[11px] group/item">
+                          <Terminal className="w-4 h-4 text-[#7000FF] group-hover:scale-110 transition-transform" />
+                          <span className="group-hover:text-[#7000FF] transition-colors">SEO & konverteringsoptimerade från start</span>
                        </li>
-                       <li className="flex items-center gap-3 text-white/70 text-sm">
-                          <CheckCircle2 className="w-5 h-5 text-[#7000FF]" />
-                          Skalbar design byggd för tillväxt
+                       <li className="flex items-center gap-3 text-white/90 text-[11px] group/item">
+                          <Terminal className="w-4 h-4 text-[#7000FF] group-hover:scale-110 transition-transform" />
+                          <span className="group-hover:text-[#7000FF] transition-colors">Skalbar design byggd för tillväxt</span>
                        </li>
                     </ul>
 
                     {/* Trust Elements */}
-                    <div className="flex flex-wrap gap-2 mb-16">
+                    <div className="flex flex-wrap gap-2 mb-16 font-mono">
                        {["Ingen bindningstid", "Snabb leverans", "14 dagars nöjdhetsgaranti"].map((badge, idx) => (
-                          <div key={idx} className="px-4 py-1.5 rounded-full bg-white/[0.03] border border-white/10 text-white/30 text-[9px] uppercase tracking-[0.2em] font-bold">
-                             {badge}
+                          <div key={idx} className="px-4 py-1.5 rounded-md bg-[#7000FF]/10 border border-[#7000FF]/40 text-white text-[10px] uppercase tracking-[0.1em] font-bold shadow-[0_0_15px_rgba(112,0,255,0.2)]">
+                             {`[ ${badge} ]`}
                           </div>
                        ))}
                     </div>
@@ -975,43 +1038,34 @@ export default function SolutionsBento() {
                         <h4 className="text-xl font-bold text-white mb-6">Paket & Planer</h4>
                         
                         <div 
-                          onClick={() => setFormData({...formData, selectedPackage: 'Starter_Launch'})}
-                          className={`group/card p-8 rounded-3xl border transition-all duration-500 ${formData.selectedPackage === 'Starter_Launch' ? 'bg-[#7000FF]/5 border-[#7000FF] shadow-[0_0_40px_rgba(112,0,255,0.15)]' : 'bg-white/[0.02] border-white/5 hover:border-white/20'}`}
+                          onClick={() => setFormData({...formData, selectedPackage: 'Essential_Launch'})}
+                          className={`group/card p-8 rounded-3xl border transition-all duration-500 ${formData.selectedPackage === 'Essential_Launch' ? 'bg-[#7000FF]/15 border-[#7000FF] shadow-[0_0_40px_rgba(112,0,255,0.4)]' : 'bg-white/[0.02] border-white/10 hover:border-[#7000FF]/50'}`}
                         >
                            <div className="flex justify-between items-center mb-4">
-                              <h5 className="font-bold text-white text-xl tracking-tighter">Starter Launch</h5>
-                              <span className="text-white/20 font-mono text-[9px] uppercase tracking-widest border border-white/10 px-2 py-0.5 rounded">Bas</span>
+                              <h5 className="font-bold text-white text-xl tracking-tighter shadow-white/10 drop-shadow-sm">Essential Launch</h5>
                            </div>
-                           <p className="text-white/40 text-xs mb-4 leading-relaxed">Perfekt för små företag som vill komma igång snabbt med en professionell närvaro online.</p>
-                           <div className="text-[10px] text-[#7000FF] font-black tracking-widest mb-6 opacity-0 group-hover/card:opacity-100 transition-opacity uppercase">"Enkel start – utan krångel"</div>
-                           <div className="text-sm text-white/80 font-mono">Pris: <span className="text-white font-bold text-lg">9,900 kr</span></div>
+                           <div className="absolute top-4 right-4 rotate-0">
+                               <span className="text-[#A855F7] font-mono text-[8px] px-2 py-0.5 rounded border border-[#A855F7]/30 bg-[#A855F7]/5 animate-pulse shadow-[0_0_10px_rgba(168,85,247,0.2)]">SYSTEM: BAS</span>
+                           </div>
+                           <p className="text-white/90 text-xs mb-4 leading-relaxed font-mono">Perfekt för små företag som vill komma igång snabbt med en professionell närvaro online.</p>
+                           <div className="h-4"></div>
+                           <div className="text-sm text-white/90 font-mono">Pris: <span className="text-white font-bold text-2xl drop-shadow-[0_0_10px_rgba(255,255,255,0.4)]">7,999 kr</span></div>
                         </div>
 
                         <div 
                           onClick={() => setFormData({...formData, selectedPackage: 'Growth_Engine'})}
-                          className={`group/card p-8 rounded-3xl border-2 transition-all duration-700 relative overflow-hidden ${formData.selectedPackage === 'Growth_Engine' ? 'bg-gradient-to-br from-[#7000FF]/15 to-transparent border-[#7000FF] shadow-[0_0_60px_rgba(112,0,255,0.2)]' : 'bg-[#7000FF]/5 border-[#7000FF]/20 hover:border-[#7000FF]/50'}`}
+                          className={`group/card p-8 rounded-3xl border-2 transition-all duration-700 relative overflow-hidden ${formData.selectedPackage === 'Growth_Engine' ? 'bg-gradient-to-br from-[#7000FF]/25 to-transparent border-[#7000FF] shadow-[0_0_60px_rgba(112,0,255,0.5)]' : 'bg-[#7000FF]/5 border-[#7000FF]/30 hover:border-[#7000FF]/60'}`}
                         >
-                           <div className="absolute top-0 right-0 px-4 py-1.5 bg-[#7000FF] text-white text-[9px] font-black uppercase tracking-[0.2em] shadow-xl">Mest populär</div>
-                           <div className="flex justify-between items-center mb-4">
-                              <h5 className="font-bold text-white text-xl tracking-tighter">Growth Engine</h5>
-                              <span className="text-[#7000FF] font-mono text-[9px] uppercase tracking-widest border border-[#7000FF]/30 px-2 py-0.5 rounded">Mellan</span>
+                           <div className="absolute top-0 right-0 px-4 py-1.5 bg-[#7000FF] text-white text-[9px] font-black uppercase tracking-[0.2em] shadow-[0_0_30px_rgba(112,0,255,0.6)] z-20">Mest populär</div>
+                           <div className="absolute top-10 right-4">
+                              <span className="text-[#00E5FF] font-mono text-[8px] px-2 py-0.5 rounded border border-[#00E5FF]/40 bg-[#00E5FF]/5 animate-pulse shadow-[0_0_10px_rgba(0,229,255,0.3)]">SYSTEM: PREMIUM</span>
                            </div>
-                           <p className="text-white/60 text-xs mb-4 leading-relaxed font-medium">För företag som vill växa snabbare med smarta system och bättre kundflöde.</p>
-                           <div className="text-[10px] text-[#00E5FF] font-black tracking-widest mb-6 uppercase">"Perfekt balans mellan pris och kraft"</div>
-                           <div className="text-sm text-white">Pris: <span className="text-[#00E5FF] font-black text-2xl tracking-tighter">19,900 kr</span></div>
-                        </div>
-
-                        <div 
-                          onClick={() => setFormData({...formData, selectedPackage: 'Scale_System'})}
-                          className={`group/card p-8 rounded-3xl border transition-all duration-500 ${formData.selectedPackage === 'Scale_System' ? 'bg-white/10 border-white/40 shadow-[0_0_40px_rgba(255,255,255,0.05)]' : 'bg-white/[0.02] border-white/5 hover:border-white/20'}`}
-                        >
                            <div className="flex justify-between items-center mb-4">
-                              <h5 className="font-bold text-white text-xl tracking-tighter">Scale System</h5>
-                              <span className="text-white/20 font-mono text-[9px] uppercase tracking-widest border border-white/10 px-2 py-0.5 rounded">Avancerad</span>
+                              <h5 className="font-bold text-white text-xl tracking-tighter text-shadow-sm">Growth Engine</h5>
                            </div>
-                           <p className="text-white/40 text-xs mb-4 leading-relaxed">Skräddarsydda lösningar för företag som vill automatisera och skala sin verksamhet.</p>
-                           <div className="text-[10px] text-white/40 font-mono mb-6 uppercase tracking-widest italic">"Maximal prestanda & flexibilitet"</div>
-                           <div className="text-sm text-white/80 font-mono">Pris: <span className="text-white font-bold text-lg">Från 39,000 kr</span></div>
+                           <p className="text-white text-xs mb-4 leading-relaxed font-bold font-mono">För företag som vill växa snabbare med smarta system och bättre kundflöde.</p>
+                           <div className="h-4"></div>
+                           <div className="text-sm text-white font-mono">Pris: <span className="text-[#00E5FF] font-black text-3xl tracking-tighter drop-shadow-[0_0_20px_rgba(0,229,255,0.8)]">14,999 kr</span></div>
                         </div>
 
                         {/* Secondary Trust Section */}
@@ -1022,10 +1076,10 @@ export default function SolutionsBento() {
                               { icon: <Settings className="w-3 h-3" />, text: "Byggt för svenska företag" }
                            ].map((item, i) => (
                               <div key={i} className="flex flex-col items-center text-center gap-2">
-                                 <div className="w-6 h-6 rounded-full bg-white/5 flex items-center justify-center text-white/30">
+                                 <div className="w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-cyan-400 border border-cyan-400/20 shadow-[0_0_10px_rgba(0,229,255,0.2)]">
                                     {item.icon}
                                  </div>
-                                 <span className="text-[9px] text-white/40 font-mono tracking-tight leading-tight uppercase font-bold">
+                                 <span className="text-white text-[11px] font-bold tracking-widest uppercase">
                                     {item.text}
                                  </span>
                               </div>
@@ -1035,20 +1089,27 @@ export default function SolutionsBento() {
                         <div className="flex flex-col items-center gap-4">
                            <AnimatePresence mode="wait">
                               {formData.selectedPackage && (
-                                 <motion.p 
+                                 <motion.div 
                                     initial={{ opacity: 0, y: 10 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     exit={{ opacity: 0, y: -10 }}
-                                    className="text-[#7000FF] text-[10px] font-bold uppercase tracking-[0.2em] mb-2"
+                                    className="flex flex-col items-center gap-1 mb-6 py-3 px-6 rounded-2xl bg-white/[0.03] border border-white/10 w-full"
                                  >
-                                    Du har valt {formData.selectedPackage.replace('_', ' ')}
-                                 </motion.p>
+                                    <div className="flex items-center gap-2">
+                                       <motion.div animate={{ opacity: [1, 0] }} transition={{ duration: 0.8, repeat: Infinity }} className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.6)]" />
+                                       <span className="text-white/30 text-[9px] font-mono uppercase tracking-widest">Live Diagnostics:</span>
+                                       <span className="text-white font-bold text-[10px] font-mono uppercase tracking-widest">{formData.selectedPackage.replace('_', ' ')}</span>
+                                    </div>
+                                    <span className="text-[#00E5FF] text-[10px] font-bold font-mono uppercase tracking-[0.2em] shadow-[#00E5FF]/20 drop-shadow-sm">
+                                       {formData.selectedPackage === 'Essential_Launch' ? " > ACCESS GRANTED_" : " > OPTIMIZING_FLOW..."}
+                                    </span>
+                                 </motion.div>
                               )}
                            </AnimatePresence>
                            <button 
                              disabled={!formData.selectedPackage}
                              onClick={() => setWebDevStep(1)}
-                             className="w-full py-5 rounded-2xl bg-[#7000FF] text-white font-black tracking-widest hover:brightness-110 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 transition-all shadow-[0_0_30px_rgba(112,0,255,0.4)] uppercase text-sm group"
+                             className="w-full py-5 rounded-2xl bg-[#7000FF] text-white hover:bg-[#8A2BE2] shadow-[0_0_60px_rgba(112,0,255,0.7)] font-black text-[15px] tracking-widest hover:scale-[1.02] transition-all uppercase group"
                            >
                              <span className="flex items-center justify-center gap-2">
                                 Starta ditt projekt
@@ -1057,12 +1118,12 @@ export default function SolutionsBento() {
                            </button>
                            
                            <div className="flex flex-col items-center">
-                              <p className="text-[11px] text-white/50 font-mono tracking-wider uppercase mb-1">
+                              <p className="text-[11px] text-white/90 font-mono tracking-[0.2em] uppercase font-bold drop-shadow-sm mb-1">
                                  Tar mindre än 30 sekunder
                               </p>
                               <button 
                                  onClick={() => window.open('https://calendly.com', '_blank')}
-                                 className="text-[#7000FF] text-[10px] font-bold uppercase tracking-widest hover:text-white transition-colors underline underline-offset-4"
+                                 className="text-[#00E5FF] text-[10px] font-black uppercase tracking-[0.2em] hover:text-white transition-all underline underline-offset-4 decoration-[#00E5FF]/40 drop-shadow-[0_0_15px_rgba(0,229,255,0.5)]"
                               >
                                  Eller boka ett gratis möte
                               </button>

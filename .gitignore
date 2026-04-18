@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local dev tools (not part of the project)
+antigravity-awesome-skills-main/
+scratch/
+publicrobots.txt

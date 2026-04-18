@@ -89,7 +89,7 @@ export default function HeroText() {
 
         <motion.div
           variants={typingContainer}
-          className="flex flex-col gap-3 font-mono text-sm md:text-lg tracking-wider text-white/60 leading-relaxed"
+          className="flex flex-col gap-3 font-mono text-sm md:text-lg tracking-wider text-white/85 leading-relaxed"
         >
           {/* Line 1 */}
           <motion.div variants={typingItem} className="flex flex-wrap justify-center gap-x-2">
@@ -146,7 +146,7 @@ export default function HeroText() {
             <div className="p-1.5 rounded-lg bg-white/5">
               {indicator.icon}
             </div>
-            <span className="text-white text-[11px] font-bold tracking-widest uppercase font-mono">
+            <span className="text-white text-[11px] font-bold tracking-widest uppercase">
               {indicator.text}
             </span>
           </motion.div>
