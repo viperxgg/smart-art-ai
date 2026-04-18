@@ -93,28 +93,29 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
     e.preventDefault();
     setIsLoading(true);
     
-    // Simulating form submission
     // Connect to Formspree or similar by adding the endpoint
     const formData = new FormData(e.currentTarget);
     const data = Object.fromEntries(formData.entries());
     
     try {
-      const response = await fetch("https://formspree.io/f/xvonzkgp", { // Example endpoint, in production use client's real one
+      const response = await fetch("/api/contact", {
         method: "POST",
-        body: formData,
         headers: {
+            'Content-Type': 'application/json',
             'Accept': 'application/json'
-        }
+        },
+        body: JSON.stringify({
+          ...data,
+          Tjänst: `Scandinavian Digital Menu - ${selectedPlan}`,
+          Subject: `Ny order: ${selectedPlan}`
+        })
       });
       
       if (response.ok) {
         setIsFormSubmitted(true);
-      } else {
-        // Fallback for demo
-        setIsFormSubmitted(true);
       }
     } catch (error) {
-       setIsFormSubmitted(true); // Fallback success for demo
+      console.error("Submission error:", error);
     } finally {
       setIsLoading(false);
     }

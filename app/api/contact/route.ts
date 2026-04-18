@@ -35,7 +35,7 @@ export async function POST(req: Request) {
 
     const mailOptions = {
       from: `"SmartArtAI System" <${process.env.SMTP_USER}>`,
-      to: process.env.DESTINATION_EMAIL || process.env.SMTP_USER,
+      to: "hello@smartartai.se",
       subject: subject,
       html: htmlContent,
       replyTo: data['E-post'] || data['Epost'] || data.email,
