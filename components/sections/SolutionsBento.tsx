@@ -302,45 +302,46 @@ export default function SolutionsBento() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-        {/* Featured Product: Digital Menu */}
-        <Link 
-          href={`/${locale}/blog/scandinavian-digital-menu`}
-          className="col-span-1 md:col-span-2 glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col md:flex-row items-center text-center md:text-left border-2 border-cyan-500/20 hover:border-cyan-500/50 transition-all duration-500 shadow-[0_0_50px_rgba(0,229,255,0.1)] hover:shadow-[0_0_80px_rgba(0,229,255,0.2)]"
-        >
-          <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-transparent to-transparent opacity-50 group-hover:opacity-100 transition-opacity duration-700" />
-          
-          <div className="w-24 h-24 md:w-32 md:h-32 rounded-3xl bg-cyan-500/10 flex items-center justify-center mb-8 md:mb-0 md:mr-10 border border-cyan-500/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(0,229,255,0.3)] shrink-0">
-            <Utensils className="w-12 h-12 md:w-16 md:h-16 text-cyan-400" />
-          </div>
+      {/* === FEATURED CARD: Full width === */}
+      <Link 
+        href={`/${locale}/blog/scandinavian-digital-menu`}
+        className="block glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col md:flex-row items-center text-center md:text-left border-2 border-cyan-500/20 hover:border-cyan-500/50 transition-all duration-500 shadow-[0_0_50px_rgba(0,229,255,0.1)] hover:shadow-[0_0_80px_rgba(0,229,255,0.2)] mb-8"
+      >
+        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-transparent to-transparent opacity-50 group-hover:opacity-100 transition-opacity duration-700" />
+        
+        <div className="w-24 h-24 md:w-32 md:h-32 rounded-3xl bg-cyan-500/10 flex items-center justify-center mb-8 md:mb-0 md:mr-10 border border-cyan-500/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(0,229,255,0.3)] shrink-0">
+          <Utensils className="w-12 h-12 md:w-16 md:h-16 text-cyan-400" />
+        </div>
 
-          <div className="flex-1 relative z-10">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/30 text-cyan-400 text-[10px] font-bold uppercase tracking-widest mb-4">
-              <Zap className="w-3 h-3 fill-cyan-400" /> New Product
-            </div>
-            <h3 className="text-3xl md:text-4xl font-black mb-4 text-white tracking-tight leading-tight font-jakarta">
-              {t("card_menu_title")}
-            </h3>
-            <p className="text-white/60 mb-6 text-lg leading-relaxed font-light max-w-2xl font-body">
-              {t("card_menu_desc")}
-            </p>
-            <div className="inline-flex items-center gap-2 text-cyan-400 font-bold uppercase tracking-widest text-xs group-hover:gap-4 transition-all">
-              {t("card_menu_cta")} <ArrowRight className="w-4 h-4" />
-            </div>
+        <div className="flex-1 relative z-10">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/30 text-cyan-400 text-[10px] font-bold uppercase tracking-widest mb-4">
+            <Zap className="w-3 h-3 fill-cyan-400" /> New Product
           </div>
-          
-          {/* Subtle QR Code Visual for the card */}
-          <div className="hidden lg:block absolute right-10 top-1/2 -translate-y-1/2 opacity-10 group-hover:opacity-20 transition-opacity rotate-12">
-             <div className="w-32 h-32 border-4 border-white rounded-xl flex items-center justify-center">
-                <div className="w-24 h-24 border-2 border-white/50 border-dashed" />
-             </div>
+          <h3 className="text-3xl md:text-4xl font-black mb-4 text-white tracking-tight leading-tight font-jakarta">
+            {t("card_menu_title")}
+          </h3>
+          <p className="text-white/60 mb-6 text-lg leading-relaxed font-light max-w-2xl font-body">
+            {t("card_menu_desc")}
+          </p>
+          <div className="inline-flex items-center gap-2 text-cyan-400 font-bold uppercase tracking-widest text-xs group-hover:gap-4 transition-all">
+            {t("card_menu_cta")} <ArrowRight className="w-4 h-4" />
           </div>
-        </Link>
+        </div>
+        
+        <div className="hidden lg:block absolute right-10 top-1/2 -translate-y-1/2 opacity-10 group-hover:opacity-20 transition-opacity rotate-12">
+           <div className="w-32 h-32 border-4 border-white rounded-xl flex items-center justify-center">
+              <div className="w-24 h-24 border-2 border-white/50 border-dashed" />
+           </div>
+        </div>
+      </Link>
 
-        {/* Card 1: Web Dev (Joined Row 1) */}
+      {/* === 3 EQUAL CARDS BELOW === */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        {/* Card 1: Web Dev */}
         <motion.div 
           whileHover={{ y: -8 }} 
-          className="col-span-1 glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col items-center text-center border border-white/5 hover:border-[#7000FF]/30 transition-all duration-500"
+          className="glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col items-center text-center border border-white/5 hover:border-[#7000FF]/30 transition-all duration-500"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-[#7000FF]/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
           <div className="w-20 h-20 rounded-3xl bg-[#7000FF]/10 flex items-center justify-center mb-10 border border-[#7000FF]/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(112,0,255,0.2)]">
@@ -350,10 +351,8 @@ export default function SolutionsBento() {
           <p className="text-white/70 mb-10 flex-1 leading-relaxed font-medium font-body">{t("card1_desc")}</p>
           {renderServiceCTA("card1", "7000FF", "Custom Web Development")}
         </motion.div>
-      </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {/* Card 2: AI Support */}
+        {/* Card 2: Agent X */}
         <motion.div 
           whileHover={{ y: -8 }} 
           className="glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col items-center text-center border border-white/5 hover:border-[#00E5FF]/30 transition-all duration-500"
@@ -366,7 +365,6 @@ export default function SolutionsBento() {
           <p className="text-white/70 mb-10 flex-1 leading-relaxed font-medium font-body">{t("card2_desc")}</p>
           {renderServiceCTA("card2", "00E5FF", "Social Bot")}
         </motion.div>
-
 
         {/* Card 4: Custom Ideas */}
         <motion.div 
@@ -381,8 +379,8 @@ export default function SolutionsBento() {
           <p className="text-white/70 mb-10 flex-1 leading-relaxed font-medium font-body">{t("card4_desc")}</p>
           {renderServiceCTA("card4", "FF007F", "Custom Idea")}
         </motion.div>
-      </div>
 
+      </div>
 
       {/* MODALS PERSISTED (SAME LOGIC) */}
       <AnimatePresence>
