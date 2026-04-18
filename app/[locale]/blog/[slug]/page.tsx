@@ -2,8 +2,9 @@ import { getPostBySlug, getRelatedPosts, blogPosts } from "@/lib/blog";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Calendar, User, Terminal, Clock, Tag, ArrowRight, Share2, ChevronRight } from "lucide-react";
+import { ArrowLeft, Calendar, User, Terminal, Clock, Tag, ArrowRight, Share2, ChevronRight, Smartphone, Monitor, ScanLine, Search } from "lucide-react";
 import MagneticButton from "@/components/ui/MagneticButton";
+import { PricingTable } from "@/components/sections/PricingTable";
 
 // Generate static params for all posts and all locales
 export async function generateStaticParams() {
@@ -125,84 +126,224 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
             <div className="max-w-2xl">
                <div className="article-content rich-text text-white/80 space-y-8 text-lg font-light leading-relaxed">
                  {post.content.split('\n').map((line, i) => {
-                   const trimmed = line.trim();
-                   if (!trimmed) return <div key={i} className="h-4" />;
-                   
-                   // H2 Headings
-                   if (trimmed.startsWith('## ')) {
-                     return (
-                       <h2 key={i} className="text-3xl font-black text-white pt-12 pb-4 tracking-tight border-b border-white/5 flex items-center gap-4">
-                         <span className="w-1.5 h-8 bg-cyan-400 rounded-full" />
-                         {trimmed.replace('## ', '')}
-                       </h2>
-                     );
-                   }
+                    const trimmed = line.trim();
+                    if (!trimmed) return <div key={i} className="h-4" />;
+                    
+                    // H2 Headings
+                    if (trimmed.startsWith('## ')) {
+                      return (
+                        <h2 key={i} className="text-3xl font-black text-white pt-12 pb-4 tracking-tight border-b border-white/5 flex items-center gap-4">
+                          <span className="w-1.5 h-8 bg-cyan-400 rounded-full" />
+                          {trimmed.replace('## ', '')}
+                        </h2>
+                      );
+                    }
 
-                   // H3 Headings
-                   if (trimmed.startsWith('### ')) {
-                     return (
-                       <h3 key={i} className="text-xl font-bold text-cyan-400 pt-8 tracking-wide">
-                         {trimmed.replace('### ', '')}
-                       </h3>
-                     );
-                   }
-                   
-                   // Bullet items
-                   if (trimmed.startsWith('- ')) {
-                     return (
-                       <li key={i} className="flex items-start gap-4 text-white/70 mb-2 list-none group">
-                         <div className="w-2 h-2 rounded-full border border-cyan-400 shrink-0 mt-3 group-hover:bg-cyan-400 transition-colors" />
-                         <span className="flex-1 font-mono text-[16px] leading-relaxed italic">{trimmed.replace('- ', '')}</span>
-                       </li>
-                     );
-                   }
+                    // H3 Headings
+                    if (trimmed.startsWith('### ')) {
+                      return (
+                        <h3 key={i} className="text-xl font-bold text-cyan-400 pt-8 tracking-wide">
+                          {trimmed.replace('### ', '')}
+                        </h3>
+                      );
+                    }
+                    
+                    // Bullet items
+                    if (trimmed.startsWith('- ')) {
+                      return (
+                        <li key={i} className="flex items-start gap-4 text-white/70 mb-2 list-none group">
+                          <div className="w-2 h-2 rounded-full border border-cyan-400 shrink-0 mt-3 group-hover:bg-cyan-400 transition-colors" />
+                          <span className="flex-1 font-mono text-[16px] leading-relaxed italic">{trimmed.replace('- ', '')}</span>
+                        </li>
+                      );
+                    }
 
-                   // Numbered list items
-                   if (/^\d+\./.test(trimmed)) {
-                     const parts = trimmed.split('.');
-                     const num = parts[0];
-                     const text = parts.slice(1).join('.');
-                     return (
-                        <div key={i} className="flex gap-4 p-6 rounded-3xl bg-white/[0.02] border border-white/10 group hover:border-cyan-400/30 transition-all">
-                           <span className="font-black text-2xl text-cyan-400/40 font-mono">{num.padStart(2, '0')}</span>
-                           <span className="text-white/70 font-light italic">{text}</span>
+                    // CTA Link Detection (👉)
+                    if (trimmed.startsWith('👉')) {
+                      const text = trimmed.replace('👉', '').trim();
+                      return (
+                        <div key={i} className="py-12 flex justify-center">
+                           <Link href={`/${locale}#final-cta`}>
+                             <MagneticButton className="px-10 py-5 text-lg">
+                                {text}
+                             </MagneticButton>
+                           </Link>
                         </div>
-                     )
-                   }
+                      );
+                    }
 
-                   // Video Placeholder Detection
-                   if (trimmed === '[AUTOMATION_VIDEO]') {
-                     return (
-                       <div key={i} className="py-12 flex flex-col items-center">
-                         <div className="max-w-[800px] w-full">
-                           <h2 className="text-2xl md:text-3xl font-black text-white mb-4 tracking-tight">
-                             {locale === 'sv' ? 'Så fungerar automatisering i praktiken' : 'How automation works in practice'}
-                           </h2>
-                           <p className="text-white/50 text-base font-light font-mono mb-8 italic">
-                             {locale === 'sv' 
-                               ? 'En enkel visuell genomgång av hur ett automatised flöde kan spara tid i ett företag.' 
-                               : 'A simple visual walkthrough of how an automated flow can save time in a business.'}
-                           </p>
-                           <div className="relative aspect-video w-full rounded-2xl overflow-hidden bg-white/5 border border-white/10 shadow-2xl">
-                             <video
-                               src="/explainer.mp4"
-                               autoPlay
-                               muted
-                               loop
-                               playsInline
-                               preload="none"
-                               className="w-full h-full object-cover"
-                             />
-                             {/* Fallback is implicitly handled by the background color and border of the container if video fails to load or play */}
-                           </div>
+                    // Checkmark list items (Premium bullets)
+                    if (trimmed.startsWith('✔')) {
+                      return (
+                        <li key={i} className="flex items-start gap-4 text-cyan-400 mb-4 list-none group">
+                          <div className="w-5 h-5 rounded-full bg-cyan-500/10 flex items-center justify-center shrink-0 mt-1">
+                             <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_10px_rgba(34,211,238,0.5)]" />
+                          </div>
+                          <span className="flex-1 text-white/90 font-mono text-[17px] leading-relaxed italic font-medium">{trimmed.replace('✔', '').trim()}</span>
+                        </li>
+                      );
+                    }
+
+                    // Numbered list items
+                    if (/^\d+\./.test(trimmed)) {
+                      const parts = trimmed.split('.');
+                      const num = parts[0];
+                      const text = parts.slice(1).join('.');
+                      return (
+                         <div key={i} className="flex gap-4 p-6 rounded-3xl bg-white/[0.02] border border-white/10 group hover:border-cyan-400/30 transition-all">
+                            <span className="font-black text-2xl text-cyan-400/40 font-mono">{num.padStart(2, '0')}</span>
+                            <span className="text-white/70 font-light italic">{text}</span>
                          </div>
-                       </div>
-                     );
-                   }
+                      )
+                    }
 
-                   // Regular Paragraph
-                   return <p key={i} className="text-white/70 font-mono tracking-tight leading-loose antialiased">{trimmed}</p>;
-                 })}
+                    // Video Placeholder Detection
+                    if (trimmed === '[AUTOMATION_VIDEO]') {
+                      return (
+                        <div key={i} className="py-12 flex flex-col items-center">
+                          <div className="max-w-[800px] w-full">
+                            <h2 className="text-2xl md:text-3xl font-black text-white mb-4 tracking-tight">
+                              {locale === 'sv' ? 'Så fungerar automatisering i praktiken' : 'How automation works in practice'}
+                            </h2>
+                            <p className="text-white/50 text-base font-light font-mono mb-8 italic">
+                              {locale === 'sv' 
+                                ? 'En enkel visuell genomgång av hur ett automatised flöde kan spara tid i ett företag.' 
+                                : 'A simple visual walkthrough of how an automated flow can save time in a business.'}
+                            </p>
+                            <div className="relative aspect-video w-full rounded-2xl overflow-hidden bg-white/5 border border-white/10 shadow-2xl">
+                              <video
+                                src="/explainer.mp4"
+                                autoPlay
+                                muted
+                                loop
+                                playsInline
+                                preload="none"
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    }
+
+                    // Pricing Table Tag
+                    if (trimmed === '[PRICING_TABLE]') {
+                      return <PricingTable key={i} locale={locale} />;
+                    }
+
+                    // Live Demo Block Rendering
+                    if (trimmed === '[LIVE_DEMO]') {
+                      const guestUrl = "https://premium-menu-8fij.vercel.app";
+                      const staffUrl = "https://premium-menu-8fij.vercel.app/dashboard";
+                      const qrSize = "180x180";
+                      
+                      return (
+                        <div key={i} className="py-20 space-y-12">
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+                            {/* Guest Experience (Mobile) */}
+                            <div className="relative group p-10 rounded-[3rem] bg-white/[0.03] border border-white/10 hover:border-cyan-500/30 transition-all overflow-hidden flex flex-col items-center text-center">
+                              <div className="absolute top-0 right-0 p-4">
+                                 <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-[10px] font-black uppercase tracking-widest animate-pulse">
+                                    <div className="w-1 h-1 rounded-full bg-cyan-400" />
+                                    Live
+                                 </div>
+                              </div>
+
+                              <div className="w-16 h-16 rounded-3xl bg-cyan-500/10 flex items-center justify-center mb-8 border border-white/10">
+                                 <Smartphone className="w-8 h-8 text-cyan-400" />
+                              </div>
+                              
+                              <h4 className="text-xl font-black text-white mb-4 uppercase tracking-tighter italic">
+                                {locale === 'sv' ? 'Gästens Meny' : 'Guest Menu'}
+                              </h4>
+                              <p className="text-white/40 text-sm font-mono mb-10 h-10">
+                                {locale === 'sv' 
+                                  ? 'Skanna med din mobil för att se krogens framtid.' 
+                                  : 'Scan with your mobile to see the future of dining.'}
+                              </p>
+
+                              <div className="relative p-6 rounded-3xl bg-white flex items-center justify-center shadow-[0_0_50px_rgba(255,255,255,0.05)] mb-10">
+                                 <img 
+                                   src={`https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}&data=${encodeURIComponent(guestUrl)}`} 
+                                   alt="Guest Menu QR"
+                                   className="w-32 h-32 grayscale hover:grayscale-0 transition-all duration-700"
+                                 />
+                                 <div className="absolute inset-0 flex items-center justify-center bg-white/90 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none rounded-3xl">
+                                    <ScanLine className="w-10 h-10 text-cyan-500 animate-bounce" />
+                                 </div>
+                              </div>
+
+                              <a 
+                                href={guestUrl} 
+                                target="_blank" 
+                                rel="noreferrer"
+                                className="w-full py-4 rounded-2xl bg-white/5 border border-white/10 text-white/60 text-[11px] font-black uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all"
+                              >
+                                {locale === 'sv' ? 'Öppna länk' : 'Open Link'}
+                              </a>
+                            </div>
+
+                            {/* Staff Dashboard (Desktop) */}
+                            <div className="relative group p-10 rounded-[3rem] bg-white/[0.03] border border-white/10 hover:border-purple-500/30 transition-all overflow-hidden flex flex-col items-center text-center">
+                              <div className="absolute top-0 right-0 p-4">
+                                 <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-[10px] font-black uppercase tracking-widest animate-pulse">
+                                    <div className="w-1 h-1 rounded-full bg-purple-400" />
+                                    Neural
+                                 </div>
+                              </div>
+
+                              <div className="w-16 h-16 rounded-3xl bg-purple-500/10 flex items-center justify-center mb-8 border border-white/10">
+                                 <Monitor className="w-8 h-8 text-purple-400" />
+                              </div>
+                              
+                              <h4 className="text-xl font-black text-white mb-4 uppercase tracking-tighter italic">
+                                {locale === 'sv' ? 'Personalens Dashboard' : 'Staff Dashboard'}
+                              </h4>
+                              <p className="text-white/40 text-sm font-mono mb-10 h-10">
+                                {locale === 'sv' 
+                                  ? 'Öppna på en dator för att se beställningar i realtid.' 
+                                  : 'Open on a computer to watch orders arrive live.'}
+                              </p>
+
+                              <div className="relative p-6 rounded-3xl bg-white flex items-center justify-center shadow-[0_0_50px_rgba(255,255,255,0.05)] mb-10">
+                                 <img 
+                                   src={`https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}&data=${encodeURIComponent(staffUrl)}`} 
+                                   alt="Staff Dashboard QR"
+                                   className="w-32 h-32 grayscale hover:grayscale-0 transition-all duration-700"
+                                 />
+                                 <div className="absolute inset-0 flex items-center justify-center bg-white/90 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none rounded-3xl">
+                                    <ScanLine className="w-10 h-10 text-purple-500 animate-bounce" />
+                                 </div>
+                              </div>
+
+                              <a 
+                                href={staffUrl} 
+                                target="_blank" 
+                                rel="noreferrer"
+                                className="w-full py-4 rounded-2xl bg-white/5 border border-white/10 text-white/60 text-[11px] font-black uppercase tracking-[0.2em] hover:bg-purple-500 hover:text-white transition-all"
+                              >
+                                {locale === 'sv' ? 'Öppna Dashboard' : 'Open Dashboard'}
+                              </a>
+                            </div>
+                          </div>
+                          
+                          <div className="p-8 rounded-4xl bg-gradient-to-r from-cyan-500/5 to-purple-500/5 border border-white/5 flex flex-col items-center gap-6 text-center">
+                             <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center border border-white/10">
+                                <Search className="w-5 h-5 text-white/40" />
+                             </div>
+                             <p className="text-white/40 text-[12px] font-mono leading-relaxed max-w-xl italic">
+                                {locale === 'sv' 
+                                  ? 'Tips: Skicka en beställning från mobilen och se hur Personalens Dashboard uppdateras omedelbart utan att du behöver ladda om sidan.' 
+                                  : 'Tip: Send an order from your mobile and watch the Staff Dashboard update instantly without a page refresh.'}
+                             </p>
+                          </div>
+                        </div>
+                      );
+                    }
+
+                    // Regular Paragraph
+                    return <p key={i} className="text-white/70 font-mono tracking-tight leading-loose antialiased">{trimmed}</p>;
+                  })}
                </div>
 
                {/* Article Tags */}

@@ -151,6 +151,127 @@ When everything that can be automated becomes automated, the value of genuinely 
         `
       }
     }
+  },
+  {
+    slug: "scandinavian-digital-menu",
+    date: "2024-04-18",
+    author: "SmartArt Team",
+    category: "Case Study",
+    readingTime: "6 min",
+    translations: {
+      sv: {
+        title: "Öka din restaurangs effektivitet med upp till 40% via vårt intelligenta menysystem",
+        excerpt: "Från kaos till kontroll — transformera din restaurangupplevelse med skandinavisk precision och realtidsteknik.",
+        metaTitle: "Effektivisera din restaurang | Digital Menylösning | SmartArt AI",
+        metaDescription: "Öka omsättningen och minska väntetiderna med vårt skandinaviska digitala menysystem. Boka en gratis demo idag.",
+        tags: ["Effektivitet", "Saas", "Restaurangoptimering", "Digital Transformation"],
+        content: `
+## Driver du en restaurang?
+Vi vet att vardagen i ett kök och en matsal kan vara intensiv. Känner du igen dig i detta?
+- **Manuella beställningar** som stjäl värdefull tid från din personal.
+- **Missförstånd** mellan servis och kök som leder till svinn.
+- **Långa väntetider** som riskerar att ge missnöjda gäster.
+
+**Detta system löser det — helt automatiskt.**
+
+## Därför är framtiden digital
+Att digitalisera sin meny handlar inte bara om att visa bilder på en skärm. Det handlar om mätbara resultat:
+✔ **Upp till 30–40% snabbare service** från första kontakt till servering.
+✔ **Eliminering av felbeställningar** genom direktkommunikation.
+✔ **Ökad omsättning** tack vare smarta rekommendationer och snabbare flöden.
+
+## Det perfekta flödet
+Vi har designat en resa som är helt friktionsfri för både gäst och personal:
+
+1. **Gästen skannar QR-koden** på bordet.
+2. **Menyn öppnas direkt** utan behov av appar.
+3. **Beställningen skickas** omedelbart av gästen.
+4. **Köket tar emot ordern** i realtid.
+5. **Personalen övervakar** allt live via en dashboard.
+
+*Ingen väntan. Ingen förvirring. Bara flöde.*
+
+## Funktioner byggda för värde
+- **Direkt synkronisering:** Beställningar går direkt från gästens telefon till köket på bråkdelen av en sekund. Ingen mer manuell inmatning.
+- **Minimalistisk design:** Ett lyxigt gränssnitt som speglar din restaurangs höga kvalitet och gör det enkelt för gästen att navigera.
+- **Intelligenta notiser:** Systemet håller koll åt dig och ger omedelbar feedback när en gäst behöver assistans.
+
+## Upplev framtiden själv
+Här har du chansen att testa systemet precis som dina gäster och din personal skulle göra.
+
+**Tips:** Använd två enheter. Skanna koden med din mobil (Gäst) och håll denna sida öppen på din dator (Personal) för att se magin hända i realtid.
+
+[LIVE_DEMO]
+
+## Välj din plan – Bli en Founder
+För att fira vår lansering i Sverige erbjuder vi exklusiva villkor för de 10 första restaurangerna som går med i vårt **Founding Partner Program**.
+
+[PRICING_TABLE]
+
+## Är du redo att ta kontrollen?
+Vi erbjuder en live-demo där vi visar exakt hur detta system kan anpassas efter din restaurangs specifika behov och meny.
+
+👉 **Boka din demo idag**
+        `
+      },
+      en: {
+        title: "Increase your restaurant efficiency by up to 40% with an intelligent menu system",
+        excerpt: "From chaos to control — transform your restaurant experience with Scandinavian precision and real-time technology.",
+        metaTitle: "Streamline Your Restaurant | Digital Menu Solution | SmartArt AI",
+        metaDescription: "Increase revenue and reduce wait times with our Scandinavian digital menu system. Book a free demo today.",
+        tags: ["Efficiency", "SaaS", "Restaurant Optimization", "Digital Transformation"],
+        content: `
+## Do you run a restaurant?
+We know that daily life in a kitchen and dining room can be intense. Do you recognize these challenges?
+- **Manual ordering** that steals valuable time from your staff.
+- **Miscommunication** between front-of-house and kitchen leading to waste.
+- **Long waiting times** that risk frustrating your guests.
+
+**This system solves it — automatically.**
+
+## Why the future is digital
+Digitalizing your menu is not just about showing images on a screen. It's about measurable results:
+✔ **Up to 30–40% faster service** from first contact to serving.
+✔ **Elimination of ordering errors** through direct communication.
+✔ **Increased revenue** thanks to smart recommendations and faster turnarounds.
+
+## The perfect flow
+We have designed a journey that is completely frictionless for both guest and staff:
+
+1. **Guest scans the QR code** on the table.
+2. **Menu opens instantly** without the need for apps.
+3. **The order is sent** immediately by the guest.
+4. **The kitchen receives the order** in real-time.
+5. **Staff monitors** everything live via a dashboard.
+
+*No waiting. No confusion. Just flow.*
+
+## Features built for value
+- **Direct synchronization:** Orders go directly from the guest's phone to the kitchen in a fraction of a second. No more manual entry.
+- **Minimalist design:** A luxurious interface that reflects your restaurant's high quality and makes it easy for guests to navigate.
+- **Intelligent notifications:** The system keeps track for you and provides immediate feedback when a guest needs assistance.
+
+## Experience the future yourself
+Here is your chance to test the system exactly as your guests and staff would.
+
+**Tip:** Use two devices. Scan the code with your mobile (Guest) and keep this page open on your computer (Staff) to see the magic happen in real-time.
+
+[LIVE_DEMO]
+
+## Ready to take control?
+We offer a live demo where we show exactly how this system can be adapted to your restaurant's specific needs and menu.
+
+👉 **Book your demo today**
+
+### What's included?
+✔ **Free demonstration** of the entire system.
+✔ **Custom setup** based on your current menu.
+✔ **Fast implementation** – we're up and running within 48 hours.
+
+*Note: Limited availability for new installations this month.*
+        `
+      }
+    }
   }
 ];
 
