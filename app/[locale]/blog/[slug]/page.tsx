@@ -393,28 +393,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
         </section>
       )}
 
-      {/* 4. FINAL BLOG CTA */}
-      <section className="py-40 px-6 bg-gradient-to-t from-cyan-950/20 to-transparent relative">
-        <div className="max-w-4xl mx-auto text-center relative z-10">
-          <div className="w-16 h-16 rounded-3xl bg-white/5 border border-white/10 flex items-center justify-center mx-auto mb-10 shadow-[0_0_30px_rgba(255,255,255,0.05)]">
-            <Terminal className="w-8 h-8 text-cyan-400" />
-          </div>
-          <h2 className="text-4xl md:text-6xl font-black text-white tracking-tighter mb-8 max-w-2xl mx-auto leading-none">
-            Ready to Build Your Neural Bridge?
-          </h2>
-          <p className="text-white/50 text-xl font-light mb-12 max-w-xl mx-auto font-mono">
-            Stop losing hours to manual friction. Let's automate your Swedish business today.
-          </p>
-          <div className="flex justify-center">
-            <Link href={`/${locale}#solutions`}>
-              <MagneticButton>
-                {tNav("cta")}
-              </MagneticButton>
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Persistent Back to Blog Floating Button (Mobile only) */}
       <div className="md:hidden fixed bottom-8 right-6 z-50">
         <Link 
