@@ -367,19 +367,6 @@ export default function SolutionsBento() {
           {renderServiceCTA("card2", "00E5FF", "Social Bot")}
         </motion.div>
 
-        {/* Card 3: Workflow Automation (RESTORED) */}
-        <motion.div 
-          whileHover={{ y: -8 }} 
-          className="glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col items-center text-center border border-white/5 hover:border-[#007BFF]/30 transition-all duration-500"
-        >
-          <div className="absolute inset-0 bg-gradient-to-br from-[#007BFF]/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-          <div className="w-20 h-20 rounded-3xl bg-[#007BFF]/10 flex items-center justify-center mb-10 border border-[#007BFF]/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(0,123,255,0.2)]">
-            <Workflow className="w-10 h-10 text-[#007BFF]" />
-          </div>
-          <h3 className="text-2xl font-black mb-4 text-white tracking-tight leading-tight font-jakarta">{t("card3_title")}</h3>
-          <p className="text-white/70 mb-10 flex-1 leading-relaxed font-medium font-body">{t("card3_desc")}</p>
-          {renderServiceCTA("card3", "007BFF", "Workflow Automation")}
-        </motion.div>
 
         {/* Card 4: Custom Ideas */}
         <motion.div 
@@ -395,6 +382,7 @@ export default function SolutionsBento() {
           {renderServiceCTA("card4", "FF007F", "Custom Idea")}
         </motion.div>
       </div>
+
 
       {/* MODALS PERSISTED (SAME LOGIC) */}
       <AnimatePresence>
