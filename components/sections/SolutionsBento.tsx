@@ -1310,12 +1310,13 @@ export default function SolutionsBento() {
             >
               {/* Background ambient glow - Pink for card 4 */}
               <div 
-                className="absolute -top-24 -right-24 w-64 h-64 rounded-full blur-[120px] opacity-10 bg-[#FF007F]"
+                className="absolute -top-24 -right-24 w-64 h-64 rounded-full blur-[120px] opacity-10 bg-[#FF007F] pointer-events-none"
               />
 
               <button 
-                onClick={() => setShowCustomIdeaModal(false)}
-                className="absolute top-8 right-8 p-3 rounded-full bg-white/5 text-white/40 hover:text-white hover:bg-white/10 transition-all z-10"
+                type="button"
+                onClick={(e) => { e.stopPropagation(); setShowCustomIdeaModal(false); }}
+                className="absolute top-8 right-8 p-3 rounded-full bg-white/5 text-white/40 hover:text-white hover:bg-white/10 transition-all z-20"
               >
                 <X className="w-5 h-5" />
               </button>
