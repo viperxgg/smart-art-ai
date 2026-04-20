@@ -27,9 +27,11 @@ export const blogPosts: BlogPost[] = [
     translations: {
       sv: {
         title: "Hur AI-automatisering hjälper småföretag i Sverige",
-        excerpt: "Upptäck hur svenska småföretag kan använda AI för att spara tid, minska kostnader och öka sin konkurrenskraft.",
+        excerpt:
+          "Upptäck hur svenska småföretag kan använda AI för att spara tid, minska kostnader och öka sin konkurrenskraft.",
         metaTitle: "AI-automatisering för svenska småföretag | SmartArt AI",
-        metaDescription: "Lär dig hur AI kan transformera ditt småföretag i Sverige. Vi går igenom konkreta exempel från restauranger till bokningssystem.",
+        metaDescription:
+          "Lär dig hur AI kan transformera ditt småföretag i Sverige. Vi går igenom konkreta exempel från restauranger till bokningssystem.",
         tags: ["AI", "Automatisering", "Sverige", "Innovation"],
         content: `
 ## Vad är AI-automatisering egentligen?
@@ -61,13 +63,15 @@ Många tror att AI är ett jätteprojekt som tar månader att implementera. Så 
 3. **Mät & Skala:** Se resultaten direkt och utöka systemet efter behov.
 
 Det är här SmartArt AI kommer in i bilden – vi hjälper dig att bygga bron mellan manuellt arbete och framtidens automatisering.
-        `
+        `,
       },
       en: {
         title: "How AI Automation Helps Small Businesses in Sweden",
-        excerpt: "Discover how Swedish small businesses can use AI to save time, reduce costs, and increase their competitiveness.",
+        excerpt:
+          "Discover how Swedish small businesses can use AI to save time, reduce costs, and increase their competitiveness.",
         metaTitle: "AI Automation for Swedish Small Businesses | SmartArt AI",
-        metaDescription: "Learn how AI can transform your small business in Sweden. We explore concrete examples from restaurants to booking systems.",
+        metaDescription:
+          "Learn how AI can transform your small business in Sweden. We explore concrete examples from restaurants to booking systems.",
         tags: ["AI", "Automation", "Sweden", "Innovation"],
         content: `
 ## What does AI automation actually mean?
@@ -99,9 +103,9 @@ Many believe that AI is a giant project that takes months to implement. It doesn
 3. **Measure & Scale:** See the results immediately and expand the system as needed.
 
 That's where SmartArt AI comes into play – we help you build the bridge between manual work and the automation of the future.
-        `
-      }
-    }
+        `,
+      },
+    },
   },
   {
     slug: "future-of-digital-work",
@@ -112,10 +116,12 @@ That's where SmartArt AI comes into play – we help you build the bridge betwee
     translations: {
       sv: {
         title: "Framtidens digitala arbetsplats: Bortom skärmarna",
-        excerpt: "Hur ser arbetslivet ut när AI blivit en naturlig del av vår vardag? Vi utforskar de kommande trenderna.",
+        excerpt:
+          "Hur ser arbetslivet ut när AI blivit en naturlig del av vår vardag? Vi utforskar de kommande trenderna.",
         metaTitle: "Framtidens digitala arbetsplats 2024 | SmartArt AI",
-        metaDescription: "Utforska trenderna inom AI och digitalt arbete. Lär dig hur din organisation kan förbereda sig för framtiden.",
-        tags: ["Framtid", "Digitalisering", "AI Trnder"],
+        metaDescription:
+          "Utforska trenderna inom AI och digitalt arbete. Lär dig hur din organisation kan förbereda sig för framtiden.",
+        tags: ["Framtid", "Digitalisering", "AI Trender"],
         content: `
 ## Visionen om den intelligenta arbetsplatsen
 Vi är på väg mot en tid där tekniken inte bara är ett verktyg, utan en medarbetare. Framtidens digitala arbetsplats handlar mindre om vilka program vi använder och mer om hur sömlöst informationen flödar.
@@ -128,13 +134,15 @@ Det räcker inte längre att automatisera enstaka uppgifter. Vi rör oss mot hyp
 
 ## Det mänskliga värdet ökar
 När allt som kan automatiseras blir automatiserat, ökar värdet på de genuint mänskliga egenskaperna. Empati, etiskt omdöme och visionärt tänkande blir de viktigaste kompetenserna på arbetsmarknaden.
-        `
+        `,
       },
       en: {
         title: "The Future of Digital Work: Beyond the Screens",
-        excerpt: "What does work life look like when AI has become a natural part of our daily lives? We explore the upcoming trends.",
+        excerpt:
+          "What does work life look like when AI has become a natural part of our daily lives? We explore the upcoming trends.",
         metaTitle: "Future of Digital Work 2024 | SmartArt AI",
-        metaDescription: "Explore trends in AI and digital work. Learn how your organization can prepare for the future.",
+        metaDescription:
+          "Explore trends in AI and digital work. Learn how your organization can prepare for the future.",
         tags: ["Future", "Digitalization", "AI Trends"],
         content: `
 ## The vision of the intelligent workplace
@@ -148,9 +156,9 @@ It's no longer enough to automate individual tasks. We are moving towards hyper-
 
 ## Human value increases
 When everything that can be automated becomes automated, the value of genuinely human qualities increases. Empathy, ethical judgment, and visionary thinking become the most important competencies in the labor market.
-        `
-      }
-    }
+        `,
+      },
+    },
   },
   {
     slug: "scandinavian-digital-menu",
@@ -160,108 +168,84 @@ When everything that can be automated becomes automated, the value of genuinely 
     readingTime: "6 min",
     translations: {
       sv: {
-        title: "Den digitala revolutionen inom gästfrihet: Hur restaurangledning går från \"kaos\" till \"smart flöde\"?",
-        excerpt: "I den livliga restaurangvärlden är kaos inget tecken på framgång, utan snarare en \"tyst ekonomisk blödning\".",
-        metaTitle: "Den Digitala Revolutionen i Restaurangbranschen | SmartArt AI",
-        metaDescription: "Upptäck hur smart flöde och AI transformerar restaurangdrift från kaos till lönsamhet. Läs vår strategiska analys.",
-        tags: ["Digital Revolution", "Smart Flow", "Restaurangtransformation", "Smart Agent X"],
+        title:
+          "Digital meny för restauranger: QR-meny, live-dashboard och KDS i ett enkelt flöde",
+        excerpt:
+          "En säljdriven översikt av hur en modern QR-meny förenklar beställning, service och köksflöde för restauranger i Sverige.",
+        metaTitle: "Digital meny för restaurang med QR, dashboard och KDS",
+        metaDescription:
+          "Se hur en digital QR-meny för restaurang gör beställning, service och köksflöde enklare. Testa live-menyn, admin och kökssystemet.",
+        tags: [
+          "Digital Menu",
+          "QR Menu",
+          "Restaurant Operations",
+          "Kitchen Display System",
+        ],
         content: `
-## Den strategiska visionen: Bakom kulisserna
-I den livliga restaurangvärlden är kaos inget tecken på framgång, utan snarare en **"tyst ekonomisk blödning"**. Artikeln sätter fingret på problemet: fördröjningar i servicen, borttappade beställningar och personalstress är inte bara operativa problem – de är hinder för att maximera vinsten. 
-
-Lösningen är inte bara en "digital meny", utan ett integrerat operativsystem (OS) som kopplar samman gästen med köket och ledningen i ett enda flöde.
-
-## Huvudpelare för digital transformation
-Här är de fyra grundbultarna i det moderna, digitala restaurangflödet:
-
-✔ **Gästupplevelse (Full kontroll):** Genom QR-beställning och digital meny går kunden från att "vänta på service" till att bli "ansvarig för sina beställningar". Detta minskar friktion och ökar gästomsättningen (Table Turnover).
-✔ **Kökseffektivitet (KDS):** Ersätt papperslappar med smarta displayer (Kitchen Display System) som organiserar beställningar efter prioritet, vilket minskar felmarginalerna drastiskt.
-✔ **Omedelbar kommunikation:** Funktioner som "Call Waiter" och realtidsnotiser säkerställer att gästen aldrig känner sig ignorerad, vilket höjer den uppfattade servicekvaliteten.
-✔ **Datakontinuitet:** Systemet bygger på ihållande data (Persistent Data), vilket innebär att driften aldrig stannar vid tillfälliga avbrott eller uppdateringar – något som ger ägarna fullständig trygghet.
-
-## Strategisk analys (Smart Agent X-perspektiv)
-Våra agenter ser bortom tekniken för att förstå affärsvärdet:
-
-1. **Finans- & Automatiseringsjägaren:** Systemet är inte en kostnad, det är en investering som sparar 50 % av driftskostnaderna och 70 % av personalens tid. Dessa siffror är nyckeln till att attrahera underhållsavtal och omvandla tekniska problem till lönsamma månadsabonnemang (SaaS).
-2. **Teknikstrateg (Granne):** Precis som vi kopplar ihop grannar i "Granne" för att bygga starka samhällen, kopplar vi ihop köket med matsalen. Ett enhetligt designspråk och användarvänlighet är vårt främsta konkurrensvapen.
-3. **Expert på företagskommunikation:** Vi säljer inte "mjukvara", vi säljer "sinnesro" till ägarna och en "lyxig upplevelse" till gästerna. Retoriken är inriktad på att transformera restaurangen till en modern teknisk partner.
-
-## Upplev framtiden själv
-Här har du chansen att testa de tre huvudkomponenterna i systemet. För bästa upplevelse, öppna dem på olika skärmar.
+## Digital meny för modern restaurangservice
+Scandinavian Digital Menu samlar QR-meny, serviceöverblick och köksflöde i ett tydligt system för restauranger som vill arbeta snabbare och mer strukturerat.
 
 [LIVE_DEMO]
 
-## Är du redo att ta kontrollen?
-Vi erbjuder en live-demo där vi visar exakt hur detta system kan anpassas efter din restaurangs specifika behov och meny.
+## Redo att testa själv?
+Öppna live-menyn, se dashboarden och boka en demo för er restaurang.
 
 👉 **Boka din demo idag**
-        `
+        `,
       },
       en: {
-        title: "The Digital Revolution in Hospitality: How Restaurant Management Transforms from \"Chaos\" to \"Smart Flow\"",
-        excerpt: "In the busy world of restaurants, chaos is not a sign of success; it is a \"silent financial drain.\"",
-        metaTitle: "Digital Revolution in the Restaurant Industry | SmartArt AI",
-        metaDescription: "Discover how smart flow and AI transform restaurant operations from chaos to profitability. Read our strategic analysis.",
-        tags: ["Digital Revolution", "Smart Flow", "Restaurant Transformation", "Smart Agent X"],
+        title:
+          "Digital menu for restaurants: QR menu, live dashboard, and kitchen flow in one system",
+        excerpt:
+          "A conversion-focused overview of how a modern QR menu simplifies ordering, service, and kitchen coordination.",
+        metaTitle: "Digital menu for restaurants with QR, dashboard, and KDS",
+        metaDescription:
+          "See how a digital QR menu helps restaurants improve ordering, service, and kitchen flow. Try the live menu, admin, and kitchen system.",
+        tags: [
+          "Digital Menu",
+          "QR Menu",
+          "Restaurant Operations",
+          "Kitchen Display System",
+        ],
         content: `
-## The Strategic Vision: Behind the Scenes
-In the busy world of restaurants, chaos is not a sign of success; it is a **"silent financial drain."** This article identifies the core problem: service delays, lost orders, and staff stress are not just operational issues—they are barriers to maximizing profit.
-
-The solution is not merely a "digital menu," but a complete Operating System (OS) that connects the guest, the kitchen, and management in one seamless flow.
-
-## Key Pillars of Digital Transformation
-Here are the four pillars of the modern, digital restaurant workflow:
-
-✔ **Guest Experience (Full Control):** Through QR ordering and digital menus, the customer transitions from "waiting for service" to "managing their orders." This reduces friction and increases Table Turnover.
-✔ **Kitchen Efficiency (KDS):** Replacing manual tickets with smart display screens (Kitchen Display System) that organize orders by priority, drastically reducing errors.
-✔ **Instant Communication:** Features like "Call Waiter" and real-time notifications ensure the guest never feels ignored, raising perceived service quality.
-✔ **Data Continuity:** The system relies on persistent data, meaning operations never stop during temporary outages or updates, providing owners with absolute reliability.
-
-## Strategic Analysis (Smart Agent X Perspectives)
-Our agents look beyond the technology to understand the business value:
-
-1. **Finance & Automation Hunter:** The system is not a cost, but an investment that saves 50% on operational costs and 70% of staff time. These figures are the key to attracting maintenance contracts and turning technical restaurant problems into profitable monthly subscriptions (SaaS).
-2. **Tech Strategist (Granne):** Just as we connect neighbors in "Granne" to build strong communities, we connect the kitchen to the dining hall. A unified design language and ease of use are our competitive weapons.
-3. **Corporate Communication Expert:** We don't sell "software," we sell "peace of mind" to owners and a "premium experience" to guests. The narrative is focused on transforming the restaurant into a modern tech partner.
-
-## Experience the Future Yourself
-Here is your chance to test the three main components of the system. For the best experience, open them on different screens.
+## Digital menu for modern restaurant service
+Scandinavian Digital Menu brings together QR ordering, service coordination, and kitchen flow in one clear system for modern restaurants.
 
 [LIVE_DEMO]
 
-## Ready to take control?
-We offer a live demo where we show exactly how this system can be adapted to your restaurant's specific needs and menu.
+## Ready to try it?
+Open the live menu, review the dashboard, and book a demo for your restaurant.
 
 👉 **Book your demo today**
-
-✔ **Free demonstration** of the entire system.
-✔ **Custom setup** based on your current menu.
-✔ **Fast implementation** – we're up and running within 48 hours.
-
-*Note: Limited availability for new installations this month.*
-        `
-      }
-    }
-  }
+        `,
+      },
+    },
+  },
 ];
 
 export async function getPosts(locale: string) {
-  return blogPosts.map(post => ({
-    ...post,
-    ...(post.translations[locale] || post.translations['sv'])
-  })).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  return blogPosts
+    .map((post) => ({
+      ...post,
+      ...(post.translations[locale] || post.translations["sv"]),
+    }))
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
 export async function getPostBySlug(slug: string, locale: string) {
-  const post = blogPosts.find(p => p.slug === slug);
+  const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return null;
   return {
     ...post,
-    ...(post.translations[locale] || post.translations['sv'])
+    ...(post.translations[locale] || post.translations["sv"]),
   };
 }
 
-export async function getRelatedPosts(currentSlug: string, locale: string, limit = 2) {
+export async function getRelatedPosts(
+  currentSlug: string,
+  locale: string,
+  limit = 2,
+) {
   const allPosts = await getPosts(locale);
-  return allPosts.filter(p => p.slug !== currentSlug).slice(0, limit);
+  return allPosts.filter((p) => p.slug !== currentSlug).slice(0, limit);
 }

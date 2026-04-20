@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { getPostBySlug, getRelatedPosts, blogPosts } from "@/lib/blog";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -17,11 +18,12 @@ import {
 } from "lucide-react";
 import { PricingTable } from "@/components/sections/PricingTable";
 import InlineDemoLeadForm from "@/components/blog/InlineDemoLeadForm";
+import ScandinavianDigitalMenuSalesPage from "@/components/blog/ScandinavianDigitalMenuSalesPage";
 
 // Generate static params for all posts and all locales
 export async function generateStaticParams() {
   const locales = ["sv", "en"];
-  const params: any[] = [];
+  const params: Array<{ slug: string; locale: string }> = [];
 
   blogPosts.forEach((post) => {
     locales.forEach((locale) => {
@@ -41,6 +43,30 @@ export async function generateMetadata({
   const post = await getPostBySlug(slug, locale);
 
   if (!post) return {};
+
+  if (slug === "scandinavian-digital-menu") {
+    return {
+      title: `${post.metaTitle} | SmartArt AI`,
+      description: post.metaDescription,
+      keywords: [
+        "digital meny",
+        "QR meny",
+        "restaurang meny online",
+        "smart meny för restaurang",
+        "digital menu Sweden",
+      ],
+      openGraph: {
+        title: post.metaTitle,
+        description: post.metaDescription,
+        type: "website",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: post.metaTitle,
+        description: post.metaDescription,
+      },
+    };
+  }
 
   return {
     title: `${post.metaTitle} | SmartArt AI`,
@@ -71,6 +97,10 @@ export default async function BlogPostPage({
   const t = await getTranslations({ locale, namespace: "Blog" });
 
   if (!post) notFound();
+
+  if (slug === "scandinavian-digital-menu") {
+    return <ScandinavianDigitalMenuSalesPage locale={locale} />;
+  }
 
   const shouldRenderInlineDemoForm = (line: string) => {
     const normalizedLine = line.normalize("NFKD");

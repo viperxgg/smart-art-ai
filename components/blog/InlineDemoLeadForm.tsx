@@ -72,7 +72,10 @@ export default function InlineDemoLeadForm() {
       nextErrors.foretag = "Vänligen fyll i företagsnamn.";
     }
 
-    if (!nextValues.email.trim() || !emailPattern.test(nextValues.email.trim())) {
+    if (
+      !nextValues.email.trim() ||
+      !emailPattern.test(nextValues.email.trim())
+    ) {
       nextErrors.email = "Vänligen ange en giltig e-postadress.";
     }
 
@@ -135,7 +138,7 @@ export default function InlineDemoLeadForm() {
 
       setIsSuccess(true);
       setValues(initialValues);
-    } catch (error) {
+    } catch {
       setErrors({
         submit: "Något gick fel. Försök igen om en stund.",
       });
@@ -151,7 +154,7 @@ export default function InlineDemoLeadForm() {
           <CheckCircle2 className="h-7 w-7" />
         </div>
         <p className="text-lg font-semibold text-white">
-          Tack för din förfrågan! Vi återkommer till dig så snart som möjligt.
+          Tack för din förfrågan. Vi återkommer så snart som möjligt.
         </p>
         <p className="mt-3 text-sm leading-relaxed text-white/60">
           Tack för att du kontaktade Smart Art AI.
@@ -185,7 +188,10 @@ export default function InlineDemoLeadForm() {
                   type={field.type}
                   value={values[field.id as keyof FormValues]}
                   onChange={(event) =>
-                    handleChange(field.id as keyof FormValues, event.target.value)
+                    handleChange(
+                      field.id as keyof FormValues,
+                      event.target.value,
+                    )
                   }
                   onBlur={() => handleBlur(field.id as keyof FormValues)}
                   placeholder={field.placeholder}
