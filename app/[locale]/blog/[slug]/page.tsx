@@ -233,43 +233,44 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
 
                     // Live Demo Block Rendering
                     if (trimmed.includes('[LIVE_DEMO]')) {
-                      const guestUrl = "https://premium-menu-8fij.vercel.app";
-                      const staffUrl = "https://premium-menu-8fij.vercel.app/dashboard";
+                      const guestUrl = "https://codex-delta-liart.vercel.app/menu/nord-table?table=12";
+                      const staffUrl = "https://codex-delta-liart.vercel.app/admin";
+                      const kitchenUrl = "https://codex-delta-liart.vercel.app/kitchen";
                       const qrSize = "180x180";
                       
                       return (
                         <div key={i} className="py-20 space-y-12">
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-                            {/* Guest Experience (Mobile) */}
-                            <div className="relative group p-10 rounded-[3rem] bg-white/[0.03] border border-white/10 hover:border-cyan-500/30 transition-all overflow-hidden flex flex-col items-center text-center">
+                          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            {/* 1. Guest Experience (Cyan) */}
+                            <div className="relative group p-8 rounded-[2.5rem] bg-white/[0.03] border border-white/10 hover:border-cyan-500/30 transition-all overflow-hidden flex flex-col items-center text-center">
                               <div className="absolute top-0 right-0 p-4">
-                                 <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-[10px] font-black uppercase tracking-widest animate-pulse">
+                                 <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-[9px] font-black uppercase tracking-widest animate-pulse">
                                     <div className="w-1 h-1 rounded-full bg-cyan-400" />
-                                    Live
+                                    Live Menu
                                  </div>
                               </div>
 
-                              <div className="w-16 h-16 rounded-3xl bg-cyan-500/10 flex items-center justify-center mb-8 border border-white/10">
-                                 <Smartphone className="w-8 h-8 text-cyan-400" />
+                              <div className="w-14 h-14 rounded-2xl bg-cyan-500/10 flex items-center justify-center mb-6 border border-white/10">
+                                 <Smartphone className="w-7 h-7 text-cyan-400" />
                               </div>
                               
-                              <h4 className="text-xl font-black text-white mb-4 uppercase tracking-tighter italic">
+                              <h4 className="text-lg font-black text-white mb-2 uppercase tracking-tighter italic">
                                 {locale === 'sv' ? 'Gästens Meny' : 'Guest Menu'}
                               </h4>
-                              <p className="text-white/40 text-sm font-mono mb-10 h-10">
+                              <p className="text-white/40 text-xs font-mono mb-8 h-8">
                                 {locale === 'sv' 
-                                  ? 'Skanna med din mobil för att se krogens framtid.' 
-                                  : 'Scan with your mobile to see the future of dining.'}
+                                  ? 'Skanna för att beställa direkt från bordet.' 
+                                  : 'Scan to order directly from the table.'}
                               </p>
 
-                              <div className="relative p-6 rounded-3xl bg-white flex items-center justify-center shadow-[0_0_50px_rgba(255,255,255,0.05)] mb-10">
+                              <div className="relative p-5 rounded-2xl bg-white flex items-center justify-center shadow-[0_0_40px_rgba(255,255,255,0.05)] mb-8">
                                  <img 
                                    src={`https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}&data=${encodeURIComponent(guestUrl)}`} 
                                    alt="Guest Menu QR"
-                                   className="w-32 h-32 grayscale hover:grayscale-0 transition-all duration-700"
+                                   className="w-28 h-28 grayscale hover:grayscale-0 transition-all duration-700"
                                  />
-                                 <div className="absolute inset-0 flex items-center justify-center bg-white/90 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none rounded-3xl">
-                                    <ScanLine className="w-10 h-10 text-cyan-500 animate-bounce" />
+                                 <div className="absolute inset-0 flex items-center justify-center bg-white/95 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none rounded-2xl">
+                                    <ScanLine className="w-8 h-8 text-cyan-500 animate-bounce" />
                                  </div>
                               </div>
 
@@ -277,42 +278,42 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                                 href={guestUrl} 
                                 target="_blank" 
                                 rel="noreferrer"
-                                className="w-full py-4 rounded-2xl bg-white/5 border border-white/10 text-white/60 text-[11px] font-black uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all"
+                                className="w-full py-3.5 rounded-xl bg-white/5 border border-white/10 text-white/60 text-[10px] font-black uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all"
                               >
-                                {locale === 'sv' ? 'Öppna länk' : 'Open Link'}
+                                {locale === 'sv' ? 'Öppna meny' : 'Open Menu'}
                               </a>
                             </div>
 
-                            {/* Staff Dashboard (Desktop) */}
-                            <div className="relative group p-10 rounded-[3rem] bg-white/[0.03] border border-white/10 hover:border-purple-500/30 transition-all overflow-hidden flex flex-col items-center text-center">
+                            {/* 2. Admin Dashboard (Purple) */}
+                            <div className="relative group p-8 rounded-[2.5rem] bg-white/[0.03] border border-white/10 hover:border-purple-500/30 transition-all overflow-hidden flex flex-col items-center text-center">
                               <div className="absolute top-0 right-0 p-4">
-                                 <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-[10px] font-black uppercase tracking-widest animate-pulse">
+                                 <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-[9px] font-black uppercase tracking-widest animate-pulse">
                                     <div className="w-1 h-1 rounded-full bg-purple-400" />
-                                    Neural
+                                    Admin
                                  </div>
                               </div>
 
-                              <div className="w-16 h-16 rounded-3xl bg-purple-500/10 flex items-center justify-center mb-8 border border-white/10">
-                                 <Monitor className="w-8 h-8 text-purple-400" />
+                              <div className="w-14 h-14 rounded-2xl bg-purple-500/10 flex items-center justify-center mb-6 border border-white/10">
+                                 <Monitor className="w-7 h-7 text-purple-400" />
                               </div>
                               
-                              <h4 className="text-xl font-black text-white mb-4 uppercase tracking-tighter italic">
-                                {locale === 'sv' ? 'Personalens Dashboard' : 'Staff Dashboard'}
+                              <h4 className="text-lg font-black text-white mb-2 uppercase tracking-tighter italic">
+                                {locale === 'sv' ? 'Administration' : 'Admin Panel'}
                               </h4>
-                              <p className="text-white/40 text-sm font-mono mb-10 h-10">
+                              <p className="text-white/40 text-xs font-mono mb-8 h-8">
                                 {locale === 'sv' 
-                                  ? 'Öppna på en dator för att se beställningar i realtid.' 
-                                  : 'Open on a computer to watch orders arrive live.'}
+                                  ? 'Hantera bord och se notifieringar.' 
+                                  : 'Manage tables and see notifications.'}
                               </p>
 
-                              <div className="relative p-6 rounded-3xl bg-white flex items-center justify-center shadow-[0_0_50px_rgba(255,255,255,0.05)] mb-10">
+                              <div className="relative p-5 rounded-2xl bg-white flex items-center justify-center shadow-[0_0_40px_rgba(255,255,255,0.05)] mb-8">
                                  <img 
                                    src={`https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}&data=${encodeURIComponent(staffUrl)}`} 
-                                   alt="Staff Dashboard QR"
-                                   className="w-32 h-32 grayscale hover:grayscale-0 transition-all duration-700"
+                                   alt="Admin Dashboard QR"
+                                   className="w-28 h-28 grayscale hover:grayscale-0 transition-all duration-700"
                                  />
-                                 <div className="absolute inset-0 flex items-center justify-center bg-white/90 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none rounded-3xl">
-                                    <ScanLine className="w-10 h-10 text-purple-500 animate-bounce" />
+                                 <div className="absolute inset-0 flex items-center justify-center bg-white/95 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none rounded-2xl">
+                                    <ScanLine className="w-8 h-8 text-purple-500 animate-bounce" />
                                  </div>
                               </div>
 
@@ -320,21 +321,64 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                                 href={staffUrl} 
                                 target="_blank" 
                                 rel="noreferrer"
-                                className="w-full py-4 rounded-2xl bg-white/5 border border-white/10 text-white/60 text-[11px] font-black uppercase tracking-[0.2em] hover:bg-purple-500 hover:text-white transition-all"
+                                className="w-full py-3.5 rounded-xl bg-white/5 border border-white/10 text-white/60 text-[10px] font-black uppercase tracking-[0.2em] hover:bg-purple-500 hover:text-white transition-all"
                               >
-                                {locale === 'sv' ? 'Öppna Dashboard' : 'Open Dashboard'}
+                                {locale === 'sv' ? 'Öppna Admin' : 'Open Admin'}
+                              </a>
+                            </div>
+
+                            {/* 3. Kitchen KDS (Amber/Orange) */}
+                            <div className="relative group p-8 rounded-[2.5rem] bg-white/[0.03] border border-white/10 hover:border-amber-500/30 transition-all overflow-hidden flex flex-col items-center text-center">
+                              <div className="absolute top-0 right-0 p-4">
+                                 <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-[9px] font-black uppercase tracking-widest animate-pulse">
+                                    <div className="w-1 h-1 rounded-full bg-amber-500" />
+                                    Kitchen
+                                 </div>
+                              </div>
+
+                              <div className="w-14 h-14 rounded-2xl bg-amber-500/10 flex items-center justify-center mb-6 border border-white/10">
+                                 <ScanLine className="w-7 h-7 text-amber-500" />
+                              </div>
+                              
+                              <h4 className="text-lg font-black text-white mb-2 uppercase tracking-tighter italic">
+                                {locale === 'sv' ? 'Kökssystem (KDS)' : 'Kitchen (KDS)'}
+                              </h4>
+                              <p className="text-white/40 text-xs font-mono mb-8 h-8">
+                                {locale === 'sv' 
+                                  ? 'Se inkommande ordrar i realtid.' 
+                                  : 'Watch incoming orders arrive live.'}
+                              </p>
+
+                              <div className="relative p-5 rounded-2xl bg-white flex items-center justify-center shadow-[0_0_40px_rgba(255,255,255,0.05)] mb-8">
+                                 <img 
+                                   src={`https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}&data=${encodeURIComponent(kitchenUrl)}`} 
+                                   alt="Kitchen KDS QR"
+                                   className="w-28 h-28 grayscale hover:grayscale-0 transition-all duration-700"
+                                 />
+                                 <div className="absolute inset-0 flex items-center justify-center bg-white/95 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none rounded-2xl">
+                                    <ScanLine className="w-8 h-8 text-amber-500 animate-bounce" />
+                                 </div>
+                              </div>
+
+                              <a 
+                                href={kitchenUrl} 
+                                target="_blank" 
+                                rel="noreferrer"
+                                className="w-full py-3.5 rounded-xl bg-white/5 border border-white/10 text-white/60 text-[10px] font-black uppercase tracking-[0.2em] hover:bg-amber-500 hover:text-white transition-all"
+                              >
+                                {locale === 'sv' ? 'Öppna KDS' : 'Open KDS'}
                               </a>
                             </div>
                           </div>
                           
-                          <div className="p-8 rounded-4xl bg-gradient-to-r from-cyan-500/5 to-purple-500/5 border border-white/5 flex flex-col items-center gap-6 text-center">
+                          <div className="p-8 rounded-4xl bg-gradient-to-r from-cyan-500/5 via-purple-500/5 to-amber-500/5 border border-white/5 flex flex-col items-center gap-6 text-center">
                              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center border border-white/10">
                                 <Search className="w-5 h-5 text-white/40" />
                              </div>
-                             <p className="text-white/40 text-[12px] font-mono leading-relaxed max-w-xl italic">
+                             <p className="text-white/40 text-[12px] font-mono leading-relaxed max-w-2xl italic">
                                 {locale === 'sv' 
-                                  ? 'Tips: Skicka en beställning från mobilen och se hur Personalens Dashboard uppdateras omedelbart utan att du behöver ladda om sidan.' 
-                                  : 'Tip: Send an order from your mobile and watch the Staff Dashboard update instantly without a page refresh.'}
+                                  ? 'Strategiskt tips: Skicka en beställning från Gästens Meny och se hur den omedelbart dyker upp på Köksskärmen, samtidigt som dörrklockan ringer i Administrationen.' 
+                                  : 'Strategic Tip: Send an order from the Guest Menu and watch it instantly appear on the Kitchen Screen, while the notification bell rings in Administration.'}
                              </p>
                           </div>
                         </div>
