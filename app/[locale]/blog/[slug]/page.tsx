@@ -72,6 +72,15 @@ export default async function BlogPostPage({
 
   if (!post) notFound();
 
+  const shouldRenderInlineDemoForm = (line: string) => {
+    const normalizedLine = line.normalize("NFKD");
+    return (
+      slug === "scandinavian-digital-menu" &&
+      (normalizedLine.includes("Boka din demo idag") ||
+        normalizedLine.includes("Book your demo today"))
+    );
+  };
+
   return (
     <main className="min-h-screen bg-[#050505] selection:bg-cyan-500/30">
       <section className="relative overflow-hidden border-b border-white/5 pt-40 pb-20">
@@ -180,15 +189,15 @@ export default async function BlogPostPage({
                     );
                   }
 
-                  if (trimmed.startsWith("ðŸ‘‰")) {
-                    if (slug === "scandinavian-digital-menu") {
-                      return (
-                        <div key={i} className="pt-8">
-                          <InlineDemoLeadForm />
-                        </div>
-                      );
-                    }
+                  if (shouldRenderInlineDemoForm(trimmed)) {
+                    return (
+                      <div key={i} className="pt-8">
+                        <InlineDemoLeadForm />
+                      </div>
+                    );
+                  }
 
+                  if (trimmed.startsWith("ðŸ‘‰")) {
                     const text = trimmed.replace("ðŸ‘‰", "").trim();
                     return (
                       <div key={i} className="flex justify-center py-12">
