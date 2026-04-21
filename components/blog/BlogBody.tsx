@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { smartphone as Smartphone, monitor as Monitor, scan_line as ScanLine, search as Search, tag as Tag } from "lucide-react";
+import { Monitor, ScanLine, Smartphone } from "lucide-react";
 import ContactFormModal from "@/components/ui/ContactFormModal";
 
 interface BlogBodyProps {
