@@ -2,15 +2,14 @@ import { getPostBySlug, getRelatedPosts, blogPosts } from "@/lib/blog";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Calendar, User, Terminal, Clock, Tag, ArrowRight, Share2, ChevronRight, Smartphone, Monitor, ScanLine, Search } from "lucide-react";
-import MagneticButton from "@/components/ui/MagneticButton";
+import { ArrowLeft, Calendar, User, Clock, Tag, Share2, ChevronRight } from "lucide-react";
 import { PricingTable } from "@/components/sections/PricingTable";
 import BlogBody from "@/components/blog/BlogBody";
 
 // Generate static params for all posts and all locales
 export async function generateStaticParams() {
   const locales = ["sv", "en"];
-  const params: any[] = [];
+  const params: Array<{ slug: string; locale: string }> = [];
   
   blogPosts.forEach(post => {
     locales.forEach(locale => {
@@ -50,7 +49,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
   const post = await getPostBySlug(slug, locale);
   const relatedPosts = await getRelatedPosts(slug, locale, 2);
   const t = await getTranslations({ locale, namespace: "Blog" });
-  const tNav = await getTranslations({ locale, namespace: "Navigation" });
 
   if (!post) notFound();
 
@@ -128,6 +126,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
                <div className="markdown-content">
                   <BlogBody content={post.content} locale={locale} />
                </div>
+
+               {slug === "scandinavian-digital-menu" ? (
+                 <div className="mt-24 pt-12 border-t border-white/5">
+                   <div className="mb-10">
+                     <p className="text-[10px] font-mono uppercase tracking-[0.32em] text-cyan-400/70 mb-3">
+                       {locale === "sv" ? "Priser" : "Pricing"}
+                     </p>
+                     <h2 className="text-2xl md:text-4xl font-black text-white tracking-tighter italic">
+                       {locale === "sv"
+                         ? "Två tydliga paket för restauranger som vill gå digitalt utan tung onboarding"
+                         : "Two clear packages for restaurants that want to go digital without heavy onboarding"}
+                     </h2>
+                   </div>
+                   <PricingTable locale={locale} />
+                 </div>
+               ) : null}
 
                {/* Article Tags */}
                <div className="mt-20 pt-12 border-t border-white/5">
