@@ -1,12 +1,17 @@
 export interface DemoDish {
   id: string;
+  number: string;
+  slug: string;
   name: string;
   description: string;
   priceSek: number;
   calories: number;
   ingredients: string[];
-  category: string;
-  popular?: boolean;
+  category: "appetizers" | "mains" | "beverages" | "sweets";
+  allergensCount: number;
+  imageAlt: string;
+  imageUrl: string;
+  badge?: "popular" | "chef-pick" | "signature" | "seasonal";
 }
 
 export interface KitchenTicket {
@@ -19,66 +24,137 @@ export interface KitchenTicket {
 
 export const demoRestaurant = {
   slug: "nordic-bistro",
-  name: "Nordic Bistro",
-  accent: "Scandinavian menu demo",
+  name: "Nord Table",
+  accent: "Premium Scandinavian menu",
 };
 
 export const demoDishes: DemoDish[] = [
   {
-    id: "starter-1",
-    name: "Juniper Salmon Tartare",
-    description: "Cured salmon, dill oil, rye crumble, pickled cucumber.",
-    priceSek: 145,
-    calories: 320,
-    ingredients: ["salmon", "dill", "rye", "cucumber"],
-    category: "starters",
-    popular: true,
+    id: "dish-001",
+    number: "001",
+    slug: "bruschetta-classica",
+    name: "Bruschetta Classica",
+    description: "Grilled bread topped with fresh tomatoes and basil",
+    priceSek: 89,
+    calories: 210,
+    ingredients: ["sourdough bread", "fresh tomatoes", "basil", "garlic", "olive oil"],
+    allergensCount: 1,
+    category: "appetizers",
+    imageAlt: "Bruschetta Classica plated with tomato and basil",
+    imageUrl:
+      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/001-bruschetta-classica/hero.png",
+    badge: "popular",
   },
   {
-    id: "starter-2",
-    name: "Smoked Beet Carpaccio",
-    description: "Roasted beetroot, whipped chevre, toasted hazelnut.",
-    priceSek: 125,
-    calories: 280,
-    ingredients: ["beetroot", "chevre", "hazelnut"],
-    category: "starters",
+    id: "dish-002",
+    number: "002",
+    slug: "truffle-fries",
+    name: "Truffle Fries",
+    description: "Crispy fries with parmesan and truffle oil",
+    priceSek: 75,
+    calories: 450,
+    ingredients: ["potatoes", "parmesan", "white truffle oil", "parsley", "sea salt"],
+    allergensCount: 1,
+    category: "appetizers",
+    imageAlt: "Truffle fries with parmesan and herbs",
+    imageUrl:
+      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/002-truffle-fries/hero.png",
+    badge: "chef-pick",
   },
   {
-    id: "main-1",
-    name: "Charred Arctic Cod",
-    description: "Brown butter, crushed potatoes, fennel, lemon glaze.",
-    priceSek: 265,
-    calories: 610,
-    ingredients: ["cod", "potato", "fennel", "lemon"],
+    id: "dish-003",
+    number: "003",
+    slug: "grilled-salmon",
+    name: "Grilled Salmon",
+    description: "Fresh Atlantic salmon with lemon butter sauce",
+    priceSek: 245,
+    calories: 520,
+    ingredients: ["Atlantic salmon", "lemon butter", "dill", "asparagus"],
+    allergensCount: 2,
     category: "mains",
-    popular: true,
+    imageAlt: "Grilled salmon with lemon butter sauce",
+    imageUrl:
+      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/003-grilled-salmon/hero.png",
+    badge: "signature",
   },
   {
-    id: "main-2",
-    name: "Forest Mushroom Pasta",
-    description: "Fresh tagliatelle, cream reduction, truffle herbs.",
-    priceSek: 215,
-    calories: 540,
-    ingredients: ["pasta", "mushroom", "cream", "herbs"],
+    id: "dish-004",
+    number: "004",
+    slug: "ribeye-steak",
+    name: "Ribeye Steak",
+    description: "300g premium beef served with roasted potatoes",
+    priceSek: 320,
+    calories: 850,
+    ingredients: ["prime ribeye", "rosemary", "garlic", "baby potatoes"],
+    allergensCount: 0,
     category: "mains",
+    imageAlt: "Ribeye steak with roasted potatoes",
+    imageUrl:
+      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/004-ribeye-steak/hero.png",
+    badge: "signature",
   },
   {
-    id: "dessert-1",
-    name: "Cardamom Creme Brulee",
-    description: "Vanilla custard, burnt sugar crust, cloudberry jam.",
+    id: "dish-005",
+    number: "005",
+    slug: "sparkling-water",
+    name: "Sparkling Water",
+    description: "33cl local mineral water",
+    priceSek: 35,
+    calories: 0,
+    ingredients: ["mineral water", "carbonic acid"],
+    allergensCount: 0,
+    category: "beverages",
+    imageAlt: "Sparkling water served chilled",
+    imageUrl:
+      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/005-sparkling-water/hero.png",
+  },
+  {
+    id: "dish-006",
+    number: "006",
+    slug: "craft-beer",
+    name: "Craft Beer",
+    description: "Local Swedish IPA",
+    priceSek: 85,
+    calories: 180,
+    ingredients: ["malted barley", "hops", "yeast", "water"],
+    allergensCount: 1,
+    category: "beverages",
+    imageAlt: "Craft beer in a chilled glass",
+    imageUrl:
+      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/006-craft-beer/hero.png",
+    badge: "seasonal",
+  },
+  {
+    id: "dish-007",
+    number: "007",
+    slug: "chocolate-fondant",
+    name: "Chocolate Fondant",
+    description: "Warm chocolate cake with vanilla ice cream",
     priceSek: 95,
-    calories: 390,
-    ingredients: ["cream", "vanilla", "cardamom", "cloudberry"],
-    category: "desserts",
+    calories: 650,
+    ingredients: ["dark chocolate", "eggs", "butter", "vanilla ice cream"],
+    allergensCount: 3,
+    category: "sweets",
+    imageAlt: "Chocolate fondant with vanilla ice cream",
+    imageUrl:
+      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/007-chocolate-fondant/hero.png",
+    badge: "popular",
   },
   {
-    id: "drink-1",
-    name: "Lingonberry Spritz",
-    description: "Sparkling tonic, lingonberry cordial, citrus peel.",
-    priceSek: 68,
-    calories: 110,
-    ingredients: ["lingonberry", "tonic", "citrus"],
-    category: "drinks",
+    id: "dish-008",
+    number: "008",
+    slug: "swedish-cheesecake",
+    name: "Swedish Cheesecake",
+    description: "Traditional ostkaka with cloudberry jam",
+    priceSek: 110,
+    calories: 420,
+    ingredients: ["cottage cheese", "cloudberry jam", "cream", "almonds"],
+    allergensCount: 3,
+    category: "sweets",
+    imageAlt: "Swedish cheesecake with cloudberry jam",
+    imageUrl:
+      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/008-swedish-cheesecake/hero.png",
+    badge: "signature",
   },
 ];
 
