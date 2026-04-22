@@ -12,11 +12,6 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
-    "antigravity-awesome-skills-main/**",
-    "portfolio/**",
-    "backups/**",
-    "scratch/**",
-    ".agents/**",
   ]),
 ]);
 

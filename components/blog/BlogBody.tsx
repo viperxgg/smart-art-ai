@@ -11,7 +11,6 @@ interface BlogBodyProps {
 
 export default function BlogBody({ content, locale }: BlogBodyProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const isSwedish = locale === "sv";
 
   // Split content by special blocks
   const sections = content.split('\n\n');
@@ -72,12 +71,10 @@ export default function BlogBody({ content, locale }: BlogBodyProps) {
 
           // 4. Render Live Demo Blocks
           if (trimmed.includes('[LIVE_DEMO]')) {
-             const guestUrl = `https://smartartai.se/${isSwedish ? "sv" : "en"}/demo/menu/nordic-bistro?table=12`;
-             const staffUrl = `https://smartartai.se/${isSwedish ? "sv" : "en"}/demo/admin`;
-             const kitchenUrl = `https://smartartai.se/${isSwedish ? "sv" : "en"}/demo/kitchen`;
-             const guestQr = `/qr/${isSwedish ? "menu-sv" : "menu-en"}.png`;
-             const staffQr = `/qr/${isSwedish ? "admin-sv" : "admin-en"}.png`;
-             const kitchenQr = `/qr/${isSwedish ? "kitchen-sv" : "kitchen-en"}.png`;
+             const guestUrl = "https://codex-delta-liart.vercel.app/menu/nord-table?table=12";
+             const staffUrl = "https://codex-delta-liart.vercel.app/admin";
+             const kitchenUrl = "https://codex-delta-liart.vercel.app/kitchen";
+             const qrSize = "180x180";
 
              return (
                <div key={i} className="py-20 space-y-12">
@@ -91,9 +88,9 @@ export default function BlogBody({ content, locale }: BlogBodyProps) {
                        {locale === 'sv' ? 'Gästens Meny' : 'Guest Menu'}
                      </h4>
                      <div className="relative p-5 rounded-2xl bg-white flex items-center justify-center mb-8">
-                         <img src={guestQr} className="w-28 h-28" alt="Guest menu QR code" />
+                        <img src={`https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}&data=${encodeURIComponent(guestUrl)}`} className="w-28 h-28" alt="QR" />
                      </div>
-                     <a href={guestUrl} target="_blank" rel="noreferrer" className="w-full py-3.5 rounded-xl bg-white/5 border border-white/10 text-white/60 text-[10px] font-black uppercase tracking-widest hover:bg-white hover:text-black transition-all">
+                     <a href={guestUrl} target="_blank" className="w-full py-3.5 rounded-xl bg-white/5 border border-white/10 text-white/60 text-[10px] font-black uppercase tracking-widest hover:bg-white hover:text-black transition-all">
                        {locale === 'sv' ? 'Öppna meny' : 'Open Menu'}
                      </a>
                    </div>
@@ -107,9 +104,9 @@ export default function BlogBody({ content, locale }: BlogBodyProps) {
                        {locale === 'sv' ? 'Administration' : 'Admin Panel'}
                      </h4>
                      <div className="relative p-5 rounded-2xl bg-white flex items-center justify-center mb-8">
-                         <img src={staffQr} className="w-28 h-28" alt="Admin demo QR code" />
+                        <img src={`https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}&data=${encodeURIComponent(staffUrl)}`} className="w-28 h-28" alt="QR" />
                      </div>
-                     <a href={staffUrl} target="_blank" rel="noreferrer" className="w-full py-3.5 rounded-xl bg-white/5 border border-white/10 text-white/60 text-[10px] font-black uppercase tracking-widest hover:bg-purple-500 hover:text-white transition-all">
+                     <a href={staffUrl} target="_blank" className="w-full py-3.5 rounded-xl bg-white/5 border border-white/10 text-white/60 text-[10px] font-black uppercase tracking-widest hover:bg-purple-500 hover:text-white transition-all">
                        {locale === 'sv' ? 'Öppna Admin' : 'Open Admin'}
                      </a>
                    </div>
@@ -123,9 +120,9 @@ export default function BlogBody({ content, locale }: BlogBodyProps) {
                        {locale === 'sv' ? 'Kökssystem (KDS)' : 'Kitchen (KDS)'}
                      </h4>
                      <div className="relative p-5 rounded-2xl bg-white flex items-center justify-center mb-8">
-                         <img src={kitchenQr} className="w-28 h-28" alt="Kitchen demo QR code" />
+                        <img src={`https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}&data=${encodeURIComponent(kitchenUrl)}`} className="w-28 h-28" alt="QR" />
                      </div>
-                     <a href={kitchenUrl} target="_blank" rel="noreferrer" className="w-full py-3.5 rounded-xl bg-white/5 border border-white/10 text-white/60 text-[10px] font-black uppercase tracking-widest hover:bg-amber-500 hover:text-white transition-all">
+                     <a href={kitchenUrl} target="_blank" className="w-full py-3.5 rounded-xl bg-white/5 border border-white/10 text-white/60 text-[10px] font-black uppercase tracking-widest hover:bg-amber-500 hover:text-white transition-all">
                        {locale === 'sv' ? 'Öppna KDS' : 'Open KDS'}
                      </a>
                    </div>

@@ -169,7 +169,7 @@ When everything that can be automated becomes automated, the value of genuinely 
 ## Den strategiska visionen: Bakom kulisserna
 I den livliga restaurangvärlden är kaos inget tecken på framgång, utan snarare en **"tyst ekonomisk blödning"**. Artikeln sätter fingret på problemet: fördröjningar i servicen, borttappade beställningar och personalstress är inte bara operativa problem – de är hinder för att maximera vinsten. 
 
-![Guest Experience](/menu-pin/dish-detail-mobile.png)
+![Guest Experience](/MENU PIN/dish-detail-mobile.png)
 
 Lösningen är inte bara en "digital meny", utan ett integrerat operativsystem (OS) som kopplar samman gästen med köket och ledningen i ett enda flöde.
 
@@ -178,12 +178,12 @@ Här är de fyra grundbultarna i det moderna, digitala restaurangflödet:
 
 ✔ **Gästupplevelse (Full kontroll):** Genom QR-beställning och digital meny går kunden från att "vänta på service" till att bli "ansvarig för sina beställningar". Detta minskar friktion och ökar gästomsättningen (Table Turnover).
 
-![Kitchen KDS](/menu-pin/kitchen-board.png)
+![Kitchen KDS](/MENU PIN/kitchen-board.png)
 
 ✔ **Kökseffektivitet (KDS):** Ersätt papperslappar med smarta displayer (Kitchen Display System) som organiserar beställningar efter prioritet, vilket minskar felmarginalerna drastiskt.
 ✔ **Omedelbar kommunikation:** Funktioner som "Call Waiter" och realtidsnotiser säkerställer att gästen aldrig känner sig ignorerad, vilket höjer den uppfattade servicekvaliteten.
 
-![Admin Control Center](/menu-pin/admin-dashboard.png)
+![Admin Control Center](/MENU PIN/admin-dashboard.png)
 
 ✔ **Datakontinuitet:** Systemet bygger på ihållande data (Persistent Data), vilket innebär att driften aldrig stannar vid tillfälliga avbrott eller uppdateringar – något som ger ägarna fullständig trygghet.
 
@@ -215,7 +215,7 @@ Vi erbjuder en live-demo där vi visar exakt hur detta system kan anpassas efter
 ## The Strategic Vision: Behind the Scenes
 In the busy world of restaurants, chaos is not a sign of success; it is a **"silent financial drain."** This article identifies the core problem: service delays, lost orders, and staff stress are not just operational issues—they are barriers to maximizing profit.
 
-![Guest Experience](/menu-pin/dish-detail-mobile.png)
+![Guest Experience](/MENU PIN/dish-detail-mobile.png)
 
 The solution is not merely a "digital menu," but a complete Operating System (OS) that connects the guest, the kitchen, and management in one seamless flow.
 
@@ -224,12 +224,12 @@ Here are the four pillars of the modern, digital restaurant workflow:
 
 ✔ **Guest Experience (Full Control):** Through QR ordering and digital menus, the customer transitions from "waiting for service" to "managing their orders." This reduces friction and increases Table Turnover.
 
-![Kitchen KDS](/menu-pin/kitchen-board.png)
+![Kitchen KDS](/MENU PIN/kitchen-board.png)
 
 ✔ **Kitchen Efficiency (KDS):** Replacing manual tickets with smart display screens (Kitchen Display System) that organize orders by priority, drastically reducing errors.
 ✔ **Instant Communication:** Features like "Call Waiter" and real-time notifications ensure the guest never feels ignored, raising perceived service quality.
 
-![Admin Control Center](/menu-pin/admin-dashboard.png)
+![Admin Control Center](/MENU PIN/admin-dashboard.png)
 
 ✔ **Data Continuity:** The system relies on persistent data, meaning operations never stop during temporary outages or updates, providing owners with absolute reliability.
 
