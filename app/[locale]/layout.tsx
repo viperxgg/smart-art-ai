@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Inter } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-import LocaleShell from "@/components/layout/LocaleShell";
+import Navbar from "@/components/ui/Navbar";
+import Footer from "@/components/ui/Footer";
 import "../globals.css";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -55,7 +56,9 @@ export default async function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <LocaleShell>{children}</LocaleShell>
+          <Navbar />
+          {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
