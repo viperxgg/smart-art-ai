@@ -52,9 +52,9 @@ export function DemoMenuClient({ locale, restaurantName, table }: DemoMenuClient
   );
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_top,#101a21_0%,#050505_36%,#020202_100%)] text-white">
-      <div className="mx-auto flex min-h-[calc(100vh-5.5rem)] w-full max-w-3xl flex-col px-4 pb-28 pt-6 sm:px-6 sm:pt-8">
-        <div className="flex flex-1 flex-col rounded-[2rem] border border-white/10 bg-white/[0.03] p-5 shadow-[0_30px_80px_rgba(0,0,0,0.35)] backdrop-blur-sm">
+    <div className="min-h-screen bg-[#050505] text-white">
+      <div className="mx-auto flex w-full max-w-3xl flex-col px-4 pb-28 pt-8 sm:px-6">
+        <div className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-5 shadow-[0_30px_80px_rgba(0,0,0,0.35)] backdrop-blur-sm">
           <div className="mb-5 flex items-start justify-between gap-4">
             <div>
               <p className="mb-2 text-[10px] uppercase tracking-[0.32em] text-cyan-400/70">
@@ -85,48 +85,38 @@ export function DemoMenuClient({ locale, restaurantName, table }: DemoMenuClient
             ))}
           </div>
 
-          <div className="flex flex-1 flex-col justify-between gap-5">
-            <div className="space-y-4">
-              {visibleDishes.map((dish) => (
-                <article
-                  key={dish.id}
-                  className="rounded-[1.6rem] border border-white/8 bg-black/30 p-4"
-                >
-                  <div className="mb-3 flex items-start justify-between gap-4">
-                    <div>
-                      <div className="mb-2 flex flex-wrap items-center gap-2">
-                        <h2 className="text-xl font-bold tracking-tight">{dish.name}</h2>
-                        {dish.popular ? (
-                          <span className="inline-flex items-center gap-1 rounded-full border border-amber-400/20 bg-amber-400/10 px-2 py-1 text-[10px] uppercase tracking-[0.2em] text-amber-300">
-                            <Sparkles className="h-3 w-3" />
-                            Popular
-                          </span>
-                        ) : null}
-                      </div>
-                      <p className="text-sm leading-6 text-white/60">{dish.description}</p>
+          <div className="space-y-4">
+            {visibleDishes.map((dish) => (
+              <article
+                key={dish.id}
+                className="rounded-[1.6rem] border border-white/8 bg-black/30 p-4"
+              >
+                <div className="mb-3 flex items-start justify-between gap-4">
+                  <div>
+                    <div className="mb-2 flex flex-wrap items-center gap-2">
+                      <h2 className="text-xl font-bold tracking-tight">{dish.name}</h2>
+                      {dish.popular ? (
+                        <span className="inline-flex items-center gap-1 rounded-full border border-amber-400/20 bg-amber-400/10 px-2 py-1 text-[10px] uppercase tracking-[0.2em] text-amber-300">
+                          <Sparkles className="h-3 w-3" />
+                          Popular
+                        </span>
+                      ) : null}
                     </div>
-                    <p className="text-lg font-black text-cyan-300">{dish.priceSek} SEK</p>
+                    <p className="text-sm leading-6 text-white/60">{dish.description}</p>
                   </div>
+                  <p className="text-lg font-black text-cyan-300">{dish.priceSek} SEK</p>
+                </div>
 
-                  <div className="flex flex-wrap gap-2 text-xs text-white/55">
-                    <span className="rounded-full border border-white/10 px-3 py-1.5">
-                      {copy.calories}: {dish.calories}
-                    </span>
-                    <span className="rounded-full border border-white/10 px-3 py-1.5">
-                      {copy.ingredients}: {dish.ingredients.join(", ")}
-                    </span>
-                  </div>
-                </article>
-              ))}
-            </div>
-
-            <div className="rounded-[1.6rem] border border-white/8 bg-black/20 p-4">
-              <div className="mb-2 flex items-center gap-2 text-sm font-semibold text-cyan-300">
-                <BellRing className="h-4 w-4" />
-                {copy.callWaiter}
-              </div>
-              <p className="text-sm leading-6 text-white/55">{copy.waiterHint}</p>
-            </div>
+                <div className="flex flex-wrap gap-2 text-xs text-white/55">
+                  <span className="rounded-full border border-white/10 px-3 py-1.5">
+                    {copy.calories}: {dish.calories}
+                  </span>
+                  <span className="rounded-full border border-white/10 px-3 py-1.5">
+                    {copy.ingredients}: {dish.ingredients.join(", ")}
+                  </span>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </div>
