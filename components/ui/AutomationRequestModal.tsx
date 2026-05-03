@@ -1,7 +1,7 @@
 "use client";
 
 import type { FormEvent, ReactNode } from "react";
-import { useState } from "react";
+import { useId, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   Building2,
@@ -81,6 +81,8 @@ export default function AutomationRequestModal({
   ctaContext = "navbar-discover",
 }: AutomationRequestModalProps) {
   const t = copy[locale];
+  const titleId = useId();
+  const descriptionId = useId();
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -166,6 +168,10 @@ export default function AutomationRequestModal({
             initial={{ opacity: 0, y: 22, scale: 0.98 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 22, scale: 0.98 }}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby={titleId}
+            aria-describedby={descriptionId}
             className="sai-panel relative my-8 w-full max-w-3xl overflow-hidden"
           >
             <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--accent-primary)] to-transparent" />
@@ -177,10 +183,10 @@ export default function AutomationRequestModal({
                     <Sparkles className="h-4 w-4 text-[var(--accent-primary)]" />
                     {t.eyebrow}
                   </div>
-                  <h3 className="mt-5 text-3xl font-black tracking-tight text-white md:text-4xl">
+                  <h3 id={titleId} className="mt-5 text-3xl font-black tracking-tight text-white md:text-4xl">
                     {t.title}
                   </h3>
-                  <p className="mt-4 max-w-2xl text-base leading-7 text-[var(--text-muted)]">{t.subtitle}</p>
+                  <p id={descriptionId} className="mt-4 max-w-2xl text-base leading-7 text-[var(--text-muted)]">{t.subtitle}</p>
                 </div>
                 <button
                   type="button"
@@ -212,6 +218,7 @@ export default function AutomationRequestModal({
                       {t.promptLabel}
                     </span>
                     <textarea
+                      name="message"
                       required
                       rows={6}
                       value={formData.message}
@@ -229,6 +236,7 @@ export default function AutomationRequestModal({
                     <div className="mt-5 grid gap-4 md:grid-cols-2">
                       <InputField label={t.name} icon={<User className="h-4 w-4" />}>
                         <input
+                          name="name"
                           required
                           autoComplete="name"
                           value={formData.fullName}
@@ -241,6 +249,7 @@ export default function AutomationRequestModal({
 
                       <InputField label={t.email} hint={t.emailHint} icon={<Mail className="h-4 w-4" />}>
                         <input
+                          name="email"
                           required
                           type="email"
                           autoComplete="email"
@@ -254,6 +263,7 @@ export default function AutomationRequestModal({
 
                       <InputField label={`${t.organization} (${t.optional})`} icon={<Building2 className="h-4 w-4" />}>
                         <input
+                          name="organization"
                           autoComplete="organization"
                           value={formData.organization}
                           onChange={(event) =>
@@ -265,6 +275,7 @@ export default function AutomationRequestModal({
 
                       <InputField label={`${t.phone} (${t.optional})`} icon={<Phone className="h-4 w-4" />}>
                         <input
+                          name="phone"
                           type="tel"
                           autoComplete="tel"
                           value={formData.phone}

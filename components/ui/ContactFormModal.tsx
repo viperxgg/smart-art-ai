@@ -1,7 +1,7 @@
 "use client";
 
 import type { FormEvent, ReactNode } from "react";
-import { useState } from "react";
+import { useId, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Building2, CheckCircle2, Loader2, Mail, Phone, Send, User, X } from "lucide-react";
 
@@ -60,6 +60,8 @@ export default function ContactFormModal({
   introMessage,
 }: ContactFormModalProps) {
   const t = copy[locale];
+  const titleId = useId();
+  const descriptionId = useId();
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -142,6 +144,10 @@ export default function ContactFormModal({
             initial={{ opacity: 0, y: 18, scale: 0.97 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 18, scale: 0.97 }}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby={titleId}
+            aria-describedby={descriptionId}
             className="sai-panel relative w-full max-w-xl overflow-hidden"
           >
             <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--accent-primary)] to-transparent" />
@@ -149,8 +155,8 @@ export default function ContactFormModal({
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <p className="sai-eyebrow">Smart Art AI</p>
-                  <h3 className="mt-3 text-3xl font-black tracking-tight text-white">{t.title}</h3>
-                  <p className="mt-4 max-w-lg leading-7 text-[var(--text-muted)]">{t.subtitle}</p>
+                  <h3 id={titleId} className="mt-3 text-3xl font-black tracking-tight text-white">{t.title}</h3>
+                  <p id={descriptionId} className="mt-4 max-w-lg leading-7 text-[var(--text-muted)]">{t.subtitle}</p>
                   {introMessage ? (
                     <div className="mt-5 rounded-xl border border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)] px-4 py-3 text-sm font-medium leading-6 text-[var(--accent-primary)]">
                       {introMessage}
@@ -161,6 +167,7 @@ export default function ContactFormModal({
                   type="button"
                   onClick={onClose}
                   className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-[var(--border-soft)] bg-white/[0.035] text-[var(--text-muted)] transition hover:text-white"
+                  aria-label={t.close}
                 >
                   <X className="h-5 w-5" />
                 </button>
@@ -183,6 +190,7 @@ export default function ContactFormModal({
                   <div className="grid gap-4 md:grid-cols-2">
                     <Field label={t.name} icon={<User className="h-4 w-4" />}>
                       <input
+                        name="name"
                         required
                         autoComplete="name"
                         value={formData.fullName}
@@ -195,6 +203,7 @@ export default function ContactFormModal({
 
                     <Field label={t.email} hint={t.emailHint} icon={<Mail className="h-4 w-4" />}>
                       <input
+                        name="email"
                         required
                         type="email"
                         autoComplete="email"
@@ -210,6 +219,7 @@ export default function ContactFormModal({
                   <div className="grid gap-4 md:grid-cols-2">
                     <Field label={`${t.organization} (${t.optional})`} icon={<Building2 className="h-4 w-4" />}>
                       <input
+                        name="organization"
                         autoComplete="organization"
                         value={formData.organization}
                         onChange={(event) =>
@@ -221,6 +231,7 @@ export default function ContactFormModal({
 
                     <Field label={`${t.phone} (${t.optional})`} icon={<Phone className="h-4 w-4" />}>
                       <input
+                        name="phone"
                         type="tel"
                         autoComplete="tel"
                         value={formData.phone}
