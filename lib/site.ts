@@ -1,5 +1,3 @@
-import { demoRestaurant } from "@/lib/demo-data";
-
 export const siteConfig = {
   name: "Smart Art AI",
   legalName: "Smart Art AI",
@@ -7,8 +5,9 @@ export const siteConfig = {
   defaultLocale: "sv",
   locales: ["sv", "en"] as const,
   demo: {
-    restaurantSlug: demoRestaurant.slug,
-    defaultTable: "12",
+    guestUrl: "https://codex-delta-liart.vercel.app/",
+    adminLoginUrl: "https://codex-delta-liart.vercel.app/login?next=%2Fadmin",
+    kitchenLoginUrl: "https://codex-delta-liart.vercel.app/login?next=%2Fkitchen",
   },
 } as const;
 
@@ -127,12 +126,10 @@ export function getDemoMenuHref(
     table?: string;
   },
 ) {
-  const restaurant = options?.restaurant ?? siteConfig.demo.restaurantSlug;
-  const table = options?.table ?? siteConfig.demo.defaultTable;
-  const pathname = getLocalizedPathname("/demo/menu/[restaurant]", locale, { restaurant });
-  const search = new URLSearchParams({ table }).toString();
+  void locale;
+  void options;
 
-  return `${pathname}?${search}`;
+  return siteConfig.demo.guestUrl;
 }
 
 export function getDemoHref(locale: AppLocale, kind: DemoRouteKind) {
@@ -141,10 +138,10 @@ export function getDemoHref(locale: AppLocale, kind: DemoRouteKind) {
   }
 
   if (kind === "admin") {
-    return getLocalizedPathname("/demo/admin", locale);
+    return siteConfig.demo.adminLoginUrl;
   }
 
-  return getLocalizedPathname("/demo/kitchen", locale);
+  return siteConfig.demo.kitchenLoginUrl;
 }
 
 function stripLocalePrefix(pathname: string) {
