@@ -364,16 +364,18 @@ export default function HomePageV2() {
                 </motion.div>
                 <h1 className="sai-title-xl mt-7" aria-label={t.title}>
                   {headlineLines.map((line, index) => (
-                    <motion.span
-                      key={line}
-                      aria-hidden="true"
-                      className="block"
-                      initial={{ opacity: 0, y: 22 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.76, ease: HERO_EASE, delay: 0.18 + index * 0.11 }}
-                    >
-                      {line}
-                    </motion.span>
+                    <span key={`${line}-${index}`} className="contents">
+                      <motion.span
+                        aria-hidden="true"
+                        className="block"
+                        initial={{ opacity: 0, y: 22 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.76, ease: HERO_EASE, delay: 0.18 + index * 0.11 }}
+                      >
+                        {line}
+                      </motion.span>
+                      {index < headlineLines.length - 1 ? " " : null}
+                    </span>
                   ))}
                 </h1>
                 <motion.p
