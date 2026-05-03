@@ -1,188 +1,263 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { useLocale, useTranslations } from "next-intl";
-import { useRouter, usePathname } from "next/navigation";
-import { Globe, Menu, X, Terminal } from "lucide-react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
+import { Globe, Menu, X } from "lucide-react";
+import { useLocale } from "next-intl";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import AutomationRequestModal from "@/components/ui/AutomationRequestModal";
+import ContactFormModal from "@/components/ui/ContactFormModal";
+import { NordicNodeLogo } from "@/components/ui/NordicNodeLogo";
+import {
+  getLocalizedHref,
+  switchConcretePathname,
+  type AppLocale,
+  type InternalPathname,
+} from "@/lib/site";
+
+const copy = {
+  sv: {
+    consultation: "Boka Konsultation",
+    discover: "Upptäck Lösningar",
+    nav: {
+      about: "Nord Smart Menu",
+      products: "StädSync AI",
+      blog: "Blogg",
+    },
+    products: [
+      {
+        label: "StädSync AI",
+        description: "AI-drift för svenska städföretag",
+        href: "/stadsync-ai" as const,
+      },
+      {
+        label: "Nord Smart Menu",
+        description: "Digital meny och restaurangflöde",
+        href: "/om-oss" as const,
+      },
+    ],
+  },
+  en: {
+    consultation: "Book Consultation",
+    discover: "Explore Solutions",
+    nav: {
+      about: "Nord Smart Menu",
+      products: "StädSync AI",
+      blog: "Blog",
+    },
+    products: [
+      {
+        label: "StädSync AI",
+        description: "AI operations for Swedish cleaning companies",
+        href: "/stadsync-ai" as const,
+      },
+      {
+        label: "Nord Smart Menu",
+        description: "Digital menu and restaurant flow",
+        href: "/om-oss" as const,
+      },
+    ],
+  },
+} as const;
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-  
-  const locale = useLocale();
+  const locale = useLocale() as AppLocale;
   const router = useRouter();
   const pathname = usePathname();
-  const t = useTranslations("Navigation");
+  const searchParams = useSearchParams();
+  const t = copy[locale];
+  const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isAutomationModalOpen, setIsAutomationModalOpen] = useState(false);
+
+  const homeHref = getLocalizedHref("/", locale);
+  const aboutHref = getLocalizedHref("/om-oss", locale);
+  const stadSyncHref = getLocalizedHref("/stadsync-ai", locale);
+  const blogHref = getLocalizedHref("/blog", locale);
+  const nextLocale: AppLocale = locale === "sv" ? "en" : "sv";
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    const onScroll = () => setIsScrolled(window.scrollY > 16);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const navLinks = [
-    { name: t("home"), href: `/${locale}#home`, isAnchor: true },
-    { name: t("solutions"), href: `/${locale}#solutions`, isAnchor: true },
+  const handleLocaleSwitch = () => {
+    const query = searchParams.toString();
+    const hash = typeof window !== "undefined" ? window.location.hash : "";
+    const targetPathname = switchConcretePathname(pathname, nextLocale);
 
-    { name: t("impact"), href: `/${locale}#impact`, isAnchor: true },
-    { name: t("blog"), href: `/${locale}/blog`, isAnchor: false },
-  ];
-
-  const toggleLanguage = () => {
-    const isEnglish = pathname.startsWith('/en');
-    let newPath = '';
-    
-    if (isEnglish) {
-      newPath = pathname.replace(/^\/en/, '') || '/';
-    } else {
-      newPath = `/en${pathname === '/' ? '' : pathname}`;
-    }
-    
-    router.push(newPath || '/');
+    router.replace(`${targetPathname}${query ? `?${query}` : ""}${hash}`);
   };
 
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, link: { name: string, href: string, isAnchor: boolean }) => {
-    // Determine if we are on the base home page (e.g., /sv or /en)
-    const isHomePage = pathname === `/${locale}` || pathname === `/${locale}/` || pathname === "/";
-
-    if (link.isAnchor && isHomePage) {
-      e.preventDefault();
-      const targetId = link.href.split('#')[1];
-      const target = document.getElementById(targetId);
-      if (target) {
-        const offset = 80;
-        const bodyRect = document.body.getBoundingClientRect().top;
-        const elementRect = target.getBoundingClientRect().top;
-        const elementPosition = elementRect - bodyRect;
-        const offsetPosition = elementPosition - offset;
-
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: "smooth"
-        });
-      }
-      setIsOpen(false);
-    } else {
-      // For blog pages or other subpages, let the Link component navigate naturally
-      setIsOpen(false);
-    }
-  };
+  const closeMobileMenu = () => setIsOpen(false);
 
   return (
-    <nav 
-      className={`fixed top-0 left-0 right-0 z-[1000] transition-all duration-500 ${
-        scrolled ? "bg-black/60 backdrop-blur-xl border-b border-white/5 py-4" : "bg-transparent py-6"
-      }`}
-    >
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        {/* Logo */}
-        <Link 
-          href={`/${locale}`}
-          className="flex items-center gap-2 cursor-pointer"
-        >
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center shadow-[0_0_20px_rgba(6,182,212,0.3)]">
-            <Terminal className="w-5 h-5 text-white" />
-          </div>
-          <span className="text-xl font-black text-white tracking-tighter uppercase italic">Smart Art AI</span>
-        </Link>
-
-        {/* Desktop Links */}
-        <div className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <Link 
-              key={link.name} 
-              href={link.href}
-              onClick={(e) => handleNavClick(e as any, link)}
-              className="text-sm font-medium text-white/60 hover:text-white transition-colors uppercase tracking-widest font-mono"
-            >
-              {link.name}
-            </Link>
-          ))}
-          
-          <div className="h-4 w-px bg-white/10 mx-2" />
-          
-          <button 
-            onClick={toggleLanguage}
-            className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/60 hover:text-white hover:bg-white/10 transition-all font-mono text-xs"
-          >
-            <Globe className="w-3.5 h-3.5" />
-            {locale === "en" ? "EN" : "SV"}
-          </button>
-
-          <Link 
-             href={`/${locale}#solutions`}
-             className="px-6 py-2.5 rounded-full bg-white text-black text-xs font-black uppercase tracking-widest hover:scale-105 active:scale-95 transition-all shadow-[0_0_20px_rgba(255,255,255,0.2)]"
-          >
-            {t("cta")}
+    <>
+      <nav
+        className={`fixed inset-x-0 top-0 z-[1000] transition-all duration-300 ${
+          isScrolled
+            ? "border-b border-[var(--border-soft)] bg-[rgba(5,6,7,0.86)] py-4 shadow-[0_18px_70px_rgba(0,0,0,0.24)] backdrop-blur-2xl"
+            : "bg-[rgba(5,6,7,0.72)] py-6 backdrop-blur-xl"
+        }`}
+      >
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6">
+          <Link href={homeHref} className="flex items-center gap-3" onClick={closeMobileMenu}>
+            <NordicNodeLogo className="h-11 w-11" />
+            <p className="text-lg font-black tracking-tight text-white">Smart Art AI</p>
           </Link>
-        </div>
 
-        {/* Mobile Toggle */}
-        <div className="md:hidden flex items-center gap-4">
-           <button 
-            onClick={toggleLanguage}
-            className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/60 font-mono text-xs"
-          >
-            <Globe className="w-3.5 h-3.5" />
-            {locale === "en" ? "EN" : "SV"}
-          </button>
-          
-          <button 
-            onClick={() => setIsOpen(!isOpen)}
-            className="p-2 text-white/60 hover:text-white"
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
-        </div>
-      </div>
-
-      {/* Mobile Menu Overlay */}
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            className="absolute top-full left-0 right-0 bg-black/95 backdrop-blur-3xl border-b border-white/5 p-8 flex flex-col items-center gap-8 md:hidden"
-          >
-            {navLinks.map((link, i) => (
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.1 }}
-                key={link.name}
-              >
-                <Link 
-                  href={link.href}
-                  onClick={(e) => handleNavClick(e as any, link)}
-                  className="text-2xl font-black text-white/60 hover:text-white transition-colors uppercase tracking-widest italic"
-                >
-                  {link.name}
-                </Link>
-              </motion.div>
-            ))}
-            
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.4 }}
-              className="w-full"
+          <div className="hidden items-center gap-7 lg:flex">
+            <Link
+              href={stadSyncHref}
+              className="inline-flex min-h-11 min-w-11 items-center px-2 text-sm font-semibold text-[var(--text-muted)] transition hover:text-[var(--text-main)]"
             >
+              {t.nav.products}
+            </Link>
+
+            <Link
+              href={aboutHref}
+              className="inline-flex min-h-11 min-w-11 items-center px-2 text-sm font-semibold text-[var(--text-muted)] transition hover:text-[var(--text-main)]"
+            >
+              {t.nav.about}
+            </Link>
+
+            <Link
+              href={blogHref}
+              className="inline-flex min-h-11 min-w-11 items-center px-2 text-sm font-semibold text-[var(--text-muted)] transition hover:text-[var(--text-main)]"
+            >
+              {t.nav.blog}
+            </Link>
+          </div>
+
+          <div className="hidden items-center gap-3 lg:flex">
+            <button
+              type="button"
+              onClick={handleLocaleSwitch}
+              className="sai-button sai-button-secondary min-h-11 px-4 py-2 text-xs uppercase tracking-[0.2em]"
+            >
+              <Globe className="h-3.5 w-3.5" />
+              {nextLocale.toUpperCase()}
+            </button>
+            <button
+              type="button"
+              onClick={() => setIsModalOpen(true)}
+              className="sai-button sai-button-secondary min-h-11 px-5 py-3"
+            >
+              {t.consultation}
+            </button>
+            <button
+              type="button"
+              onClick={() => setIsAutomationModalOpen(true)}
+              className="sai-button sai-button-primary min-h-11 px-5 py-3"
+            >
+              {t.discover}
+            </button>
+          </div>
+
+          <div className="flex items-center gap-3 lg:hidden">
+            <button
+              type="button"
+              onClick={handleLocaleSwitch}
+              className="sai-button sai-button-secondary min-h-10 px-3 py-2 text-xs uppercase tracking-[0.2em]"
+            >
+              <Globe className="h-3.5 w-3.5" />
+              {nextLocale.toUpperCase()}
+            </button>
+            <button
+              type="button"
+              onClick={() => setIsOpen((value) => !value)}
+              className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-[var(--border-soft)] bg-white/[0.035] text-[var(--text-main)]"
+              aria-label="Öppna meny"
+            >
+              {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            </button>
+          </div>
+        </div>
+
+        {isOpen ? (
+          <div className="border-t border-[var(--border-soft)] bg-[rgba(5,6,7,0.96)] px-6 py-6 backdrop-blur-2xl lg:hidden">
+            <div className="mx-auto flex max-w-7xl flex-col gap-3">
               <Link
-                href={`/${locale}#solutions`}
-                onClick={() => setIsOpen(false)}
-                className="block w-full py-5 rounded-2xl bg-white text-black text-center font-black uppercase tracking-[0.3em] text-[11px] shadow-[0_0_40px_rgba(255,255,255,0.1)]"
+                href={aboutHref}
+                onClick={closeMobileMenu}
+                className="sai-card px-5 py-4 text-base font-semibold text-[var(--text-main)]"
               >
-                {t("cta")}
+                {t.nav.about}
               </Link>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </nav>
+              {t.products.map((product) => {
+                const href = getLocalizedHref(product.href as InternalPathname, locale);
+
+                return (
+                  <Link
+                    key={product.label}
+                    href={href}
+                    onClick={closeMobileMenu}
+                    className="sai-card px-5 py-4"
+                  >
+                    <span className="block text-base font-semibold text-white/86">
+                      {product.label}
+                    </span>
+                    <span className="mt-1 block text-sm text-white/46">
+                      {product.description}
+                    </span>
+                  </Link>
+                );
+              })}
+              <Link
+                href={blogHref}
+                onClick={closeMobileMenu}
+                className="sai-card px-5 py-4 text-base font-semibold text-[var(--text-main)]"
+              >
+                {t.nav.blog}
+              </Link>
+              <button
+                type="button"
+                onClick={() => {
+                  closeMobileMenu();
+                  setIsModalOpen(true);
+                }}
+                className="sai-button sai-button-secondary mt-2 w-full py-4"
+              >
+                {t.consultation}
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  closeMobileMenu();
+                  setIsAutomationModalOpen(true);
+                }}
+                className="sai-button sai-button-primary w-full py-4"
+              >
+                {t.discover}
+              </button>
+            </div>
+          </div>
+        ) : null}
+      </nav>
+
+      <ContactFormModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        locale={locale}
+        serviceType={locale === "sv" ? "AI-konsultation" : "AI consultation"}
+        sourcePage={pathname}
+        ctaContext="navbar"
+        introMessage={
+          locale === "sv"
+            ? "Berätta kort om din verksamhet så återkommer vi med ett konkret nästa steg."
+            : "Tell us briefly about your business and we will follow up with a concrete next step."
+        }
+      />
+
+      <AutomationRequestModal
+        isOpen={isAutomationModalOpen}
+        onClose={() => setIsAutomationModalOpen(false)}
+        locale={locale}
+        sourcePage={pathname}
+        ctaContext="navbar-discover-solutions"
+      />
+    </>
   );
 }

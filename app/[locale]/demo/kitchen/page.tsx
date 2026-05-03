@@ -1,4 +1,6 @@
 import { kitchenTickets } from "@/lib/demo-data";
+import { buildMetadata } from "@/lib/seo";
+import type { AppLocale } from "@/lib/site";
 
 const copy = {
   en: {
@@ -12,34 +14,53 @@ const copy = {
   },
   sv: {
     title: "Kitchen display system",
-    subtitle: "Tydliga orderstatusar med snabb visuell scanning for koket.",
+    subtitle: "Tydliga orderstatusar med snabb visuell scanning för köket.",
     columns: {
       new: "Nya",
-      firing: "Pa gang",
+      firing: "På gång",
       ready: "Klara",
     },
   },
 } as const;
 
 const statusClasses = {
-  new: "border-cyan-400/20 bg-cyan-400/10",
+  new: "border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)]",
   firing: "border-amber-400/20 bg-amber-400/10",
   ready: "border-emerald-400/20 bg-emerald-400/10",
 } as const;
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: AppLocale }>;
+}) {
+  const { locale } = await params;
+
+  return buildMetadata({
+    locale,
+    pathname: "/demo/kitchen",
+    title: locale === "sv" ? "Live demo: kökssystem för restaurang" : "Live Demo: Restaurant Kitchen Display",
+    description:
+      locale === "sv"
+        ? "Live demo av restaurangens kitchen display system med tydliga orderstatusar för nya, pågående och klara ordrar."
+        : "Live demo of the restaurant kitchen display system with clear states for new, in-progress, and ready orders.",
+    noIndex: true,
+  });
+}
+
 export default async function DemoKitchenPage({
   params,
 }: {
-  params: Promise<{ locale: string }>;
+  params: Promise<{ locale: AppLocale }>;
 }) {
   const { locale } = await params;
-  const t = copy[locale as "en" | "sv"] ?? copy.en;
+  const t = copy[locale] ?? copy.en;
 
   return (
     <main className="min-h-screen bg-[#020202] px-4 py-8 text-white sm:px-6">
       <div className="mx-auto max-w-6xl">
         <div className="mb-6 rounded-[2rem] border border-white/10 bg-white/[0.03] p-6">
-          <p className="mb-3 text-[10px] uppercase tracking-[0.32em] text-amber-300/70">Kitchen KDS</p>
+          <p className="mb-3 text-[10px] uppercase tracking-[0.32em] text-amber-300/70">Kitchen KDS demo</p>
           <h1 className="text-4xl font-black tracking-tight">{t.title}</h1>
           <p className="mt-3 text-white/60">{t.subtitle}</p>
         </div>
@@ -75,8 +96,11 @@ export default async function DemoKitchenPage({
                       </div>
                       <ul className="space-y-2 text-sm text-white/70">
                         {ticket.items.map((item) => (
-                          <li key={item} className="rounded-2xl border border-white/8 px-3 py-2">
-                            {item}
+                          <li
+                            key={`${ticket.id}-${item.name}-${item.quantity}`}
+                            className="rounded-2xl border border-white/8 px-3 py-2"
+                          >
+                            {item.quantity}x {item.name}
                           </li>
                         ))}
                       </ul>

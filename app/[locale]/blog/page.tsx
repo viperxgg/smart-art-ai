@@ -1,92 +1,144 @@
-import { getPosts } from "@/lib/blog";
-import { getTranslations } from "next-intl/server";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { Terminal, Calendar, User, ArrowRight } from "lucide-react";
+import { ArrowRight, CalendarDays, Clock3 } from "lucide-react";
+import { CtaButtons } from "@/components/restaurant/CtaButtons";
+import { buildMetadata } from "@/lib/seo";
+import { getPosts } from "@/lib/blog";
+import { getLocalizedHref, primaryRestaurantPage, type AppLocale } from "@/lib/site";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: AppLocale }>;
+}) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "Blog" });
-  
-  return {
-    title: `${t("title")} | SmartArt AI`,
-    description: t("meta_description"),
-  };
+
+  return buildMetadata({
+    locale,
+    pathname: "/blog",
+    title:
+      locale === "sv"
+        ? "Blogg om digital meny och restaurangflöde"
+        : "Blog on Digital Menus and Restaurant Operations",
+    description:
+      locale === "sv"
+        ? "Guider om digital meny, QR-beställning, restaurangflöde och smartare service för restauranger i Sverige."
+        : "Guides about digital menus, QR ordering, restaurant workflow, and clearer service for restaurants in Sweden.",
+    keywords:
+      locale === "sv"
+        ? ["digital meny restaurang blogg", "qr meny restaurang", "restaurang beställningssystem"]
+        : ["digital menu restaurant blog", "qr menu restaurant", "restaurant ordering system"],
+  });
 }
 
-export default async function BlogListingPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function BlogListingPage({
+  params,
+}: {
+  params: Promise<{ locale: AppLocale }>;
+}) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "Blog" });
   const posts = await getPosts(locale);
 
+  const copy = {
+    eyebrow: locale === "sv" ? "Resurser" : "Resources",
+    title:
+      locale === "sv"
+        ? "Klara guider för restauranger som vill digitalisera menyn."
+        : "Clear guides for restaurants modernizing the menu experience.",
+    subtitle:
+      locale === "sv"
+        ? "Kort, praktiskt innehåll om QR-meny, beställningsflöde och drift innan ni bokar demo."
+        : "Short, practical content on QR menus, ordering flow, and operations before you book a demo.",
+    primaryCta: locale === "sv" ? "Se Nord Smart Menu" : "See Nord Smart Menu",
+    secondaryCta: locale === "sv" ? "Boka demo" : "Book a demo",
+    mainLabel: locale === "sv" ? "Börja här" : "Start here",
+    mainTitle:
+      locale === "sv"
+        ? "Digital meny för restauranger"
+        : "Digital menu for restaurants",
+    mainBody:
+      locale === "sv"
+        ? "Huvudsidan visar systemet från gäst till kök med demo, funktioner och pris."
+        : "The main page shows the system from guest to kitchen with demo, features, and pricing.",
+    articleLabel: locale === "sv" ? "Senaste artiklar" : "Latest articles",
+    readMore: locale === "sv" ? "Läs artikeln" : "Read article",
+  };
+
   return (
-    <main className="min-h-screen bg-[#050505] pt-32 pb-20">
-      {/* Hero Section */}
-      <section className="relative px-4 mb-24 overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-600/5 blur-[120px] rounded-full pointer-events-none" />
-        
-        <div className="max-w-4xl mx-auto text-center relative z-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-cyan-400 text-[12px] font-bold uppercase tracking-[0.4em] mb-8 font-mono">
-            <Terminal className="w-3 h-3" />
-            Blog
+    <main className="sai-page">
+      <section className="sai-hero">
+        <div className="sai-container grid gap-10 lg:grid-cols-[1fr_0.82fr] lg:items-end">
+          <div>
+            <p className="sai-eyebrow">{copy.eyebrow}</p>
+            <h1 className="sai-title-xl mt-5">{copy.title}</h1>
+            <p className="sai-copy-lg mt-6">{copy.subtitle}</p>
+            <CtaButtons
+              locale={locale}
+              primaryLabel={copy.primaryCta}
+              primaryHref={primaryRestaurantPage}
+              secondaryLabel={copy.secondaryCta}
+              sourcePage="/blog"
+              ctaContext="blog-hero"
+              serviceType={locale === "sv" ? "Bloggdemo för restauranglösning" : "Restaurant solution blog demo"}
+              className="mt-9"
+            />
           </div>
-          <h1 className="text-5xl md:text-7xl font-black text-white mb-8 tracking-tighter leading-tight">
-            {t("title")}
-          </h1>
-          <p className="text-white/60 text-xl font-light font-mono tracking-wide max-w-2xl mx-auto">
-            {t("subtitle")}
-          </p>
+
+          <Link
+            href={getLocalizedHref(primaryRestaurantPage, locale)}
+            className="sai-card sai-card-hover block p-6"
+          >
+            <p className="sai-eyebrow text-[var(--text-muted)]">{copy.mainLabel}</p>
+            <h2 className="sai-title-md mt-4">{copy.mainTitle}</h2>
+            <p className="mt-3 leading-7 text-[var(--text-muted)]">{copy.mainBody}</p>
+            <div className="mt-6 inline-flex items-center gap-2 text-sm font-black text-white">
+              <span>{copy.primaryCta}</span>
+              <ArrowRight className="h-4 w-4 text-[var(--accent-primary)]" />
+            </div>
+          </Link>
         </div>
       </section>
 
-      {/* Blog Grid */}
-      <section className="px-4 relative z-10">
-        <div className="max-w-4xl mx-auto grid grid-cols-1 gap-12">
-          {posts.map((post) => (
-            <Link 
-              key={post.slug} 
-              href={`/${locale}/blog/${post.slug}`}
-              className="group block"
-            >
-              <article className="p-8 md:p-16 rounded-[3rem] bg-white/[0.01] border border-white/5 hover:border-cyan-400/20 hover:bg-white/[0.03] transition-all duration-700 relative overflow-hidden group">
-                <div className="absolute top-0 right-0 p-12 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-x-4 group-hover:translate-x-0">
-                  <ArrowRight className="w-8 h-8 text-cyan-400" />
-                </div>
-                
-                <div className="flex flex-wrap items-center gap-8 mb-12 text-[11px] font-mono uppercase tracking-[0.2em] text-white/30">
-                  <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 italic">
-                    <User className="w-3.5 h-3.5" />
-                    {post.author}
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Calendar className="w-3.5 h-3.5" />
-                    {post.date}
-                  </div>
-                  <div className="flex items-center gap-2 text-cyan-400/60 font-black">
-                    <Terminal className="w-3.5 h-3.5" />
+      <section className="sai-section">
+        <div className="sai-container">
+          <p className="sai-eyebrow mb-10">{copy.articleLabel}</p>
+          <div className="grid gap-5">
+            {posts.map((post) => (
+              <Link
+                key={post.slug}
+                href={getLocalizedHref("/blog/[slug]", locale, { slug: post.slug })}
+                className="sai-card sai-card-hover group p-6 md:p-8"
+              >
+                <div className="flex flex-wrap items-center gap-4 text-[11px] uppercase tracking-[0.18em] text-[var(--text-muted)]">
+                  <span className="sai-chip text-xs">{post.category}</span>
+                  <span className="inline-flex items-center gap-2">
+                    <CalendarDays className="h-3.5 w-3.5" />
+                    {new Date(post.date).toLocaleDateString(locale === "sv" ? "sv-SE" : "en-US", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </span>
+                  <span className="inline-flex items-center gap-2 text-[var(--accent-primary)]">
+                    <Clock3 className="h-3.5 w-3.5" />
                     {post.readingTime}
-                  </div>
+                  </span>
                 </div>
 
-                <div className="flex flex-col gap-6">
-                  <div className="inline-flex items-center gap-2 text-cyan-400 text-[10px] font-black uppercase tracking-[0.4em]">
-                    <span className="w-8 h-px bg-cyan-400/30" />
-                    {post.category}
+                <div className="mt-6 grid gap-6 md:grid-cols-[1fr_auto] md:items-end">
+                  <div>
+                    <h2 className="text-3xl font-black tracking-tight text-white md:text-4xl">
+                      {post.title}
+                    </h2>
+                    <p className="mt-4 max-w-3xl leading-8 text-[var(--text-muted)]">{post.excerpt}</p>
                   </div>
-                  <h2 className="text-4xl md:text-6xl font-black text-white tracking-tighter group-hover:text-cyan-400 transition-colors leading-[0.9]">
-                    {post.title}
-                  </h2>
-                  <p className="text-white/50 text-xl font-light leading-relaxed max-w-2xl font-mono italic">
-                    {post.excerpt}
-                  </p>
+                  <div className="inline-flex items-center gap-2 text-sm font-black text-white transition group-hover:text-[var(--accent-primary)]">
+                    <span>{copy.readMore}</span>
+                    <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
+                  </div>
                 </div>
-
-                <div className="mt-12 inline-flex items-center gap-4 text-white font-black uppercase tracking-[0.3em] text-[10px] bg-white/5 px-6 py-3 rounded-full group-hover:bg-cyan-400 group-hover:text-black transition-all">
-                  {t("read_more")}
-                </div>
-              </article>
-            </Link>
-          ))}
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
     </main>

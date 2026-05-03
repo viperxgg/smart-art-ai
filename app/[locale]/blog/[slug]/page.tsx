@@ -1,204 +1,182 @@
-import { getPostBySlug, getRelatedPosts, blogPosts } from "@/lib/blog";
-import { getTranslations } from "next-intl/server";
-import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Calendar, User, Clock, Tag, Share2, ChevronRight } from "lucide-react";
-import { PricingTable } from "@/components/sections/PricingTable";
+import { ArrowLeft, CalendarDays, Clock3, Tag } from "lucide-react";
+import { notFound } from "next/navigation";
+import { JsonLd } from "@/components/seo/JsonLd";
 import BlogBody from "@/components/blog/BlogBody";
+import { blogPosts, getPostBySlug, getRelatedPosts } from "@/lib/blog";
+import {
+  buildMetadata,
+  getArticleSchema,
+  getBreadcrumbSchema,
+  getFaqSchema,
+} from "@/lib/seo";
+import { getAbsoluteUrl, getLocalizedHref, siteConfig, type AppLocale } from "@/lib/site";
 
-// Generate static params for all posts and all locales
 export async function generateStaticParams() {
-  const locales = ["sv", "en"];
-  const params: Array<{ slug: string; locale: string }> = [];
-  
-  blogPosts.forEach(post => {
-    locales.forEach(locale => {
-      params.push({ slug: post.slug, locale });
-    });
-  });
-  
-  return params;
+  return siteConfig.locales.flatMap((locale) =>
+    blogPosts.map((post) => ({
+      locale,
+      slug: post.slug,
+    })),
+  );
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string, slug: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: AppLocale; slug: string }>;
+}) {
   const { locale, slug } = await params;
   const post = await getPostBySlug(slug, locale);
-  
-  if (!post) return {};
 
-  return {
-    title: `${post.metaTitle} | SmartArt AI`,
+  if (!post) {
+    return {};
+  }
+
+  return buildMetadata({
+    locale,
+    pathname: "/blog/[slug]",
+    params: { slug },
+    title: post.metaTitle,
     description: post.metaDescription,
-    openGraph: {
-      title: post.metaTitle,
-      description: post.metaDescription,
-      type: 'article',
-      publishedTime: post.date,
-      authors: [post.author],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: post.metaTitle,
-      description: post.metaDescription,
-    }
-  };
+    keywords: [post.primaryKeyword, ...post.tags],
+    type: "article",
+  });
 }
 
-export default async function BlogPostPage({ params }: { params: Promise<{ locale: string, slug: string }> }) {
+export default async function BlogPostPage({
+  params,
+}: {
+  params: Promise<{ locale: AppLocale; slug: string }>;
+}) {
   const { locale, slug } = await params;
   const post = await getPostBySlug(slug, locale);
-  const relatedPosts = await getRelatedPosts(slug, locale, 2);
-  const t = await getTranslations({ locale, namespace: "Blog" });
 
-  if (!post) notFound();
+  if (!post) {
+    notFound();
+  }
+
+  const relatedPosts = await getRelatedPosts(slug, locale, 3);
+  const copy = {
+    backToBlog: locale === "sv" ? "Till bloggen" : "Back to blog",
+    relatedTitle: locale === "sv" ? "Relaterade artiklar" : "Related articles",
+    readMore: locale === "sv" ? "Läs mer" : "Read more",
+  };
+
+  const articleUrl = getAbsoluteUrl("/blog/[slug]", locale, { slug });
+  const publishedLabel = new Date(post.date).toLocaleDateString(locale === "sv" ? "sv-SE" : "en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
 
   return (
-    <main className="min-h-screen bg-[#050505] selection:bg-cyan-500/30">
-      {/* 1. ARTICLE HERO SECTION */}
-      <section className="relative pt-40 pb-20 overflow-hidden border-b border-white/5">
-         {/* Atmospheric Background Components */}
-         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl px-4 pointer-events-none">
-            <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyan-500/10 blur-[150px] rounded-full opacity-50" />
-            <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-purple-600/10 blur-[150px] rounded-full opacity-30" />
-         </div>
+    <>
+      <JsonLd
+        data={[
+          getArticleSchema({
+            locale,
+            title: post.title,
+            description: post.metaDescription,
+            datePublished: post.date,
+            pathname: "/blog/[slug]",
+            slug,
+          }),
+          getFaqSchema(post.faq),
+          getBreadcrumbSchema([
+            {
+              name: locale === "sv" ? "Start" : "Home",
+              url: getAbsoluteUrl("/", locale),
+            },
+            {
+              name: locale === "sv" ? "Blogg" : "Blog",
+              url: getAbsoluteUrl("/blog", locale),
+            },
+            {
+              name: post.title,
+              url: articleUrl,
+            },
+          ]),
+        ]}
+      />
 
-         <div className="max-w-4xl mx-auto px-6 relative z-10">
-            {/* Breadcrumbs / Back Link */}
-            <div className="flex items-center gap-4 mb-16">
-               <Link 
-                 href={`/${locale}/blog`}
-                 className="group flex items-center gap-2 text-white/40 hover:text-white transition-all font-mono text-[10px] uppercase tracking-[0.3em]"
-               >
-                 <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform" />
-                 {t("back_to_blog")}
-               </Link>
-               <span className="w-1 h-1 rounded-full bg-white/20" />
-               <span className="text-cyan-400/60 font-mono text-[10px] uppercase tracking-[0.3em] truncate max-w-[200px] md:max-w-none">
-                 {post.category}
-               </span>
+      <main className="sai-page">
+        <section className="sai-hero">
+          <div className="sai-container-narrow">
+            <Link
+              href={getLocalizedHref("/blog", locale)}
+              className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--text-muted)] transition hover:text-white"
+            >
+              <ArrowLeft className="h-4 w-4" />
+              {copy.backToBlog}
+            </Link>
+
+            <div className="mt-10 flex flex-wrap items-center gap-4 text-[11px] uppercase tracking-[0.18em] text-[var(--text-muted)]">
+              <span className="sai-chip text-xs">{post.category}</span>
+              <span className="inline-flex items-center gap-2">
+                <CalendarDays className="h-3.5 w-3.5" />
+                {publishedLabel}
+              </span>
+              <span className="inline-flex items-center gap-2 text-[var(--accent-primary)]">
+                <Clock3 className="h-3.5 w-3.5" />
+                {post.readingTime}
+              </span>
             </div>
 
-            {/* Article Headings */}
-            <div className="space-y-8">
-               <div className="flex flex-wrap items-center gap-6 text-white/40 font-mono text-[11px] uppercase tracking-widest">
-                  <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 uppercase italic">
-                    <User className="w-3 h-3" />
-                    {post.author}
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Calendar className="w-3 h-3" />
-                    {new Date(post.date).toLocaleDateString(locale === 'sv' ? 'sv-SE' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Clock className="w-3 h-3" />
-                    {post.readingTime}
-                  </div>
-               </div>
-
-               <h1 className="text-4xl md:text-7xl font-black text-white tracking-tighter leading-[0.9] lg:max-w-4xl">
-                 {post.title}
-               </h1>
-
-               <p className="text-white/50 text-xl font-light font-mono leading-relaxed max-w-3xl italic">
-                 {post.excerpt}
-               </p>
-            </div>
-         </div>
-      </section>
-
-      {/* 2. MAIN CONTENT AREA */}
-      <section className="relative py-24 px-6">
-        <div className="max-w-4xl mx-auto flex flex-col lg:flex-row gap-16 relative">
-          
-          {/* Left Sidebar (Desktop Only) */}
-          <aside className="hidden lg:block w-32 shrink-0 pt-4">
-            <div className="sticky top-40 flex flex-col gap-8">
-               <div className="h-px w-8 bg-cyan-400/30" />
-               <button className="p-3 rounded-full bg-white/5 border border-white/10 text-white/40 hover:text-cyan-400 transition-all">
-                 <Share2 className="w-4 h-4" />
-               </button>
-            </div>
-          </aside>
-
-          {/* Article Body */}
-          <div className="flex-1">
-            <div className="max-w-2xl">
-               <div className="markdown-content">
-                  <BlogBody content={post.content} locale={locale} />
-               </div>
-
-               {slug === "scandinavian-digital-menu" ? (
-                 <div className="mt-24 pt-12 border-t border-white/5">
-                   <div className="mb-10">
-                     <p className="text-[10px] font-mono uppercase tracking-[0.32em] text-cyan-400/70 mb-3">
-                       {locale === "sv" ? "Priser" : "Pricing"}
-                     </p>
-                     <h2 className="text-2xl md:text-4xl font-black text-white tracking-tighter italic">
-                       {locale === "sv"
-                         ? "Två tydliga paket för restauranger som vill gå digitalt utan tung onboarding"
-                         : "Two clear packages for restaurants that want to go digital without heavy onboarding"}
-                     </h2>
-                   </div>
-                   <PricingTable locale={locale} />
-                 </div>
-               ) : null}
-
-               {/* Article Tags */}
-               <div className="mt-20 pt-12 border-t border-white/5">
-                  <div className="flex flex-wrap gap-3">
-                     {post.tags?.map((tag, i) => (
-                       <div key={i} className="px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/40 text-[10px] uppercase font-mono tracking-widest flex items-center gap-2">
-                          <Tag className="w-3 h-3 text-cyan-400/50" />
-                          {tag}
-                       </div>
-                     ))}
-                  </div>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 3. RELATED POSTS SECTION */}
-      {relatedPosts.length > 0 && (
-        <section className="py-32 px-6 border-t border-white/5 relative overflow-hidden">
-          <div className="max-w-4xl mx-auto relative z-10">
-            <h2 className="text-2xl font-mono text-cyan-400/60 uppercase tracking-[0.4em] mb-16">
-               More Insights
-            </h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {relatedPosts.map((rPost) => (
-                <Link key={rPost.slug} href={`/${locale}/blog/${rPost.slug}`} className="group">
-                  <div className="p-8 rounded-[2rem] glass-panel border-white/5 group-hover:border-cyan-400/30 transition-all h-full flex flex-col gap-6">
-                    <div className="flex justify-between items-center text-[10px] font-mono text-white/30 tracking-widest uppercase">
-                       <span>{rPost.date}</span>
-                       <span className="px-2 py-0.5 border border-white/10 rounded-sm italic">{rPost.category}</span>
-                    </div>
-                    <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors leading-tight">
-                      {rPost.title}
-                    </h3>
-                    <div className="mt-auto flex items-center gap-2 text-white/60 text-[10px] font-mono uppercase tracking-widest pt-4">
-                      {t("read_more")}
-                      <ChevronRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
+            <h1 className="mt-8 max-w-4xl text-4xl font-black tracking-tight text-white md:text-6xl md:leading-[0.98]">
+              {post.title}
+            </h1>
+            <p className="sai-copy-lg mt-6">{post.excerpt}</p>
           </div>
         </section>
-      )}
 
-      {/* Persistent Back to Blog Floating Button (Mobile only) */}
-      <div className="md:hidden fixed bottom-8 right-6 z-50">
-        <Link 
-          href={`/${locale}/blog`}
-          className="w-14 h-14 rounded-full bg-cyan-500 text-black flex items-center justify-center shadow-lg hover:scale-110 active:scale-90 transition-all"
-        >
-          <ArrowLeft className="w-6 h-6" />
-        </Link>
-      </div>
-    </main>
+        <article className="sai-section">
+          <div className="sai-container-narrow">
+            <div className="mb-12 flex flex-wrap gap-3">
+              {post.tags.map((tag) => (
+                <div key={tag} className="sai-chip text-sm">
+                  <Tag className="h-3.5 w-3.5 text-[var(--accent-primary)]" />
+                  <span>{tag}</span>
+                </div>
+              ))}
+            </div>
+
+            <BlogBody
+              locale={locale}
+              slug={slug}
+              sections={post.sections}
+              faqTitle={post.faqTitle}
+              faq={post.faq}
+              cta={post.cta}
+            />
+          </div>
+        </article>
+
+        {relatedPosts.length > 0 ? (
+          <section className="sai-section-soft">
+            <div className="sai-container-narrow">
+              <p className="sai-eyebrow mb-10">{copy.relatedTitle}</p>
+              <div className="grid gap-4 md:grid-cols-3">
+                {relatedPosts.map((relatedPost) => (
+                  <Link
+                    key={relatedPost.slug}
+                    href={getLocalizedHref("/blog/[slug]", locale, { slug: relatedPost.slug })}
+                    className="sai-card sai-card-hover p-5"
+                  >
+                    <p className="sai-eyebrow text-[var(--text-muted)]">{relatedPost.category}</p>
+                    <h2 className="sai-title-md mt-4">{relatedPost.title}</h2>
+                    <p className="mt-3 leading-7 text-[var(--text-muted)]">{relatedPost.excerpt}</p>
+                    <div className="mt-6 inline-flex items-center gap-2 text-sm font-black text-white">
+                      <span>{copy.readMore}</span>
+                      <ArrowLeft className="h-4 w-4 rotate-180 text-[var(--accent-primary)]" />
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        ) : null}
+      </main>
+    </>
   );
 }

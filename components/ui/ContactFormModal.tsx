@@ -1,195 +1,278 @@
 "use client";
 
-import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { X, Loader2, CheckCircle2, User, Building2, Mail, Phone, Send } from "lucide-react";
-import { useTranslations } from "next-intl";
+import type { FormEvent, ReactNode } from "react";
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { Building2, CheckCircle2, Loader2, Mail, Phone, Send, User, X } from "lucide-react";
 
 interface ContactFormModalProps {
   isOpen: boolean;
   onClose: () => void;
+  locale?: "sv" | "en";
   serviceType?: string;
+  sourcePage?: string;
+  ctaContext?: string;
+  introMessage?: string;
 }
 
-export default function ContactFormModal({ isOpen, onClose, serviceType = "Digital Revolution Demo" }: ContactFormModalProps) {
-  const t = useTranslations("Solutions");
+const copy = {
+  sv: {
+    title: "Boka konsultation",
+    subtitle:
+      "Lämna dina kontaktuppgifter så återkommer vi med ett konkret nästa steg.",
+    name: "Namn",
+    email: "E-postadress",
+    emailHint: "Viktigast",
+    organization: "Restaurang / företag",
+    phone: "Telefonnummer",
+    optional: "frivilligt",
+    submit: "Skicka förfrågan",
+    successTitle: "Tack",
+    successBody: "Vi har mottagit din förfrågan och återkommer vanligtvis via e-post inom 24 timmar.",
+    error: "Något gick fel. Försök igen.",
+    close: "Stäng formulär",
+  },
+  en: {
+    title: "Book a consultation",
+    subtitle:
+      "Leave your contact details and we will follow up with a concrete next step.",
+    name: "Name",
+    email: "Email address",
+    emailHint: "Required",
+    organization: "Restaurant / company",
+    phone: "Phone number",
+    optional: "optional",
+    submit: "Send request",
+    successTitle: "Thanks",
+    successBody: "We received your request and usually follow up by email within 24 hours.",
+    error: "Something went wrong. Please try again.",
+    close: "Close form",
+  },
+} as const;
+
+export default function ContactFormModal({
+  isOpen,
+  onClose,
+  locale = "sv",
+  serviceType = "Smart Art AI Consultation",
+  sourcePage = "/",
+  ctaContext = "generic",
+  introMessage,
+}: ContactFormModalProps) {
+  const t = copy[locale];
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
     phone: "",
-    organization: ""
+    organization: "",
   });
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formData.fullName.trim() || !formData.email.trim()) return;
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    if (!formData.fullName.trim() || !formData.email.trim()) {
+      return;
+    }
 
     setLoading(true);
     setError(null);
 
     try {
-      const res = await fetch("/api/contact", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          Namn: formData.fullName,
-          Epost: formData.email,
-          Telefon: formData.phone || "Ej angivet",
-          Organisation: formData.organization || "Ej angivet",
-          Tjänst: serviceType,
-          Subject: `New Demo Request: ${serviceType}`
+          Name: formData.fullName,
+          Email: formData.email,
+          Phone: formData.phone || "",
+          Organization: formData.organization || "",
+          Service: serviceType,
+          Locale: locale,
+          SourcePage: sourcePage,
+          CTAContext: ctaContext,
+          Subject:
+            locale === "sv"
+              ? `Ny demoförfrågan: ${serviceType}`
+              : `New demo request: ${serviceType}`,
         }),
       });
 
-      if (!res.ok) throw new Error("Failed to send");
+      if (!response.ok) {
+        throw new Error("Request failed");
+      }
 
       setSuccess(true);
       setTimeout(() => {
         setSuccess(false);
+        setFormData({
+          fullName: "",
+          email: "",
+          phone: "",
+          organization: "",
+        });
         onClose();
-        setFormData({ fullName: "", email: "", phone: "", organization: "" });
-      }, 3000);
-    } catch (err) {
-      setError("Något gick fel. Försök igen.");
+      }, 2200);
+    } catch {
+      setError(t.error);
     } finally {
       setLoading(false);
     }
-  };
+  }
 
   return (
     <AnimatePresence>
-      {isOpen && (
-        <div className="fixed inset-0 z-[99999] flex items-center justify-center p-4">
-          <motion.div
+      {isOpen ? (
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
+          <motion.button
+            type="button"
+            aria-label={t.close}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
+            className="absolute inset-0 bg-black/82 backdrop-blur-xl"
             onClick={onClose}
-            className="absolute inset-0 bg-black/80 backdrop-blur-xl"
           />
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.95, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="relative w-full max-w-lg bg-[#0A0A0A] border border-white/10 rounded-[2.5rem] overflow-hidden shadow-2xl"
+            initial={{ opacity: 0, y: 18, scale: 0.97 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 18, scale: 0.97 }}
+            className="sai-panel relative w-full max-w-xl overflow-hidden"
           >
-            {/* Header */}
-            <div className="p-8 border-bottom border-white/5 flex items-center justify-between">
-              <div>
-                <h3 className="text-2xl font-black text-white italic tracking-tighter uppercase">Boka din demo</h3>
-                <p className="text-white/40 text-xs font-mono mt-1 uppercase tracking-widest">Neural Inquiry System</p>
+            <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--accent-primary)] to-transparent" />
+            <div className="p-6 md:p-8">
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <p className="sai-eyebrow">Smart Art AI</p>
+                  <h3 className="mt-3 text-3xl font-black tracking-tight text-white">{t.title}</h3>
+                  <p className="mt-4 max-w-lg leading-7 text-[var(--text-muted)]">{t.subtitle}</p>
+                  {introMessage ? (
+                    <div className="mt-5 rounded-xl border border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)] px-4 py-3 text-sm font-medium leading-6 text-[var(--accent-primary)]">
+                      {introMessage}
+                    </div>
+                  ) : null}
+                </div>
+                <button
+                  type="button"
+                  onClick={onClose}
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-[var(--border-soft)] bg-white/[0.035] text-[var(--text-muted)] transition hover:text-white"
+                >
+                  <X className="h-5 w-5" />
+                </button>
               </div>
-              <button onClick={onClose} className="p-2 rounded-full hover:bg-white/5 text-white/40 hover:text-white transition-colors">
-                <X className="w-6 h-6" />
-              </button>
-            </div>
 
-            <div className="p-8 pt-0">
               {success ? (
-                <motion.div 
+                <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="py-12 flex flex-col items-center text-center gap-6"
+                  className="flex flex-col items-center py-14 text-center"
                 >
-                  <div className="w-20 h-20 rounded-full bg-green-500/10 border border-green-500/20 flex items-center justify-center">
-                    <CheckCircle2 className="w-10 h-10 text-green-500" />
+                  <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-full border border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)] text-[var(--accent-primary)]">
+                    <CheckCircle2 className="h-10 w-10" />
                   </div>
-                  <div>
-                    <h4 className="text-xl font-bold text-white mb-2">Tack!</h4>
-                    <p className="text-white/60">Vi har mottagit din förfrågan och återkommer inom kort.</p>
-                  </div>
+                  <h4 className="text-2xl font-black tracking-tight text-white">{t.successTitle}</h4>
+                  <p className="mt-3 max-w-sm leading-7 text-[var(--text-muted)]">{t.successBody}</p>
                 </motion.div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  {/* Name */}
-                  <div className="space-y-2">
-                    <label className="text-[10px] font-black uppercase tracking-widest text-white/40 ml-2">Fullständigt namn *</label>
-                    <div className="relative">
-                      <User className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20" />
+                <form onSubmit={handleSubmit} className="mt-8 space-y-4">
+                  <div className="grid gap-4 md:grid-cols-2">
+                    <Field label={t.name} icon={<User className="h-4 w-4" />}>
                       <input
                         required
+                        autoComplete="name"
                         value={formData.fullName}
-                        onChange={e => setFormData({ ...formData, fullName: e.target.value })}
-                        className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-white focus:outline-none focus:border-white/20 transition-all"
-                        placeholder="Erik Andersson"
+                        onChange={(event) =>
+                          setFormData((current) => ({ ...current, fullName: event.target.value }))
+                        }
+                        className="sai-input py-4 pl-12 pr-4"
                       />
-                    </div>
-                  </div>
+                    </Field>
 
-                  {/* Organization */}
-                  <div className="space-y-2">
-                    <label className="text-[10px] font-black uppercase tracking-widest text-white/40 ml-2">Företag / Organisation *</label>
-                    <div className="relative">
-                      <Building2 className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20" />
-                      <input
-                        required
-                        value={formData.organization}
-                        onChange={e => setFormData({ ...formData, organization: e.target.value })}
-                        className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-white focus:outline-none focus:border-white/20 transition-all"
-                        placeholder="Restaurang AB"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Email */}
-                  <div className="space-y-2">
-                    <label className="text-[10px] font-black uppercase tracking-widest text-white/40 ml-2">E-postadress *</label>
-                    <div className="relative">
-                      <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20" />
+                    <Field label={t.email} hint={t.emailHint} icon={<Mail className="h-4 w-4" />}>
                       <input
                         required
                         type="email"
+                        autoComplete="email"
                         value={formData.email}
-                        onChange={e => setFormData({ ...formData, email: e.target.value })}
-                        className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-white focus:outline-none focus:border-white/20 transition-all"
-                        placeholder="erik@exempel.se"
+                        onChange={(event) =>
+                          setFormData((current) => ({ ...current, email: event.target.value }))
+                        }
+                        className="sai-input py-4 pl-12 pr-4"
                       />
-                    </div>
+                    </Field>
                   </div>
 
-                  {/* Phone */}
-                  <div className="space-y-2">
-                    <label className="text-[10px] font-black uppercase tracking-widest text-white/40 ml-2">Telefonnummer (frivilligt)</label>
-                    <div className="relative">
-                      <Phone className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/20" />
+                  <div className="grid gap-4 md:grid-cols-2">
+                    <Field label={`${t.organization} (${t.optional})`} icon={<Building2 className="h-4 w-4" />}>
+                      <input
+                        autoComplete="organization"
+                        value={formData.organization}
+                        onChange={(event) =>
+                          setFormData((current) => ({ ...current, organization: event.target.value }))
+                        }
+                        className="sai-input py-4 pl-12 pr-4"
+                      />
+                    </Field>
+
+                    <Field label={`${t.phone} (${t.optional})`} icon={<Phone className="h-4 w-4" />}>
                       <input
                         type="tel"
+                        autoComplete="tel"
                         value={formData.phone}
-                        onChange={e => setFormData({ ...formData, phone: e.target.value })}
-                        className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-white focus:outline-none focus:border-white/20 transition-all"
-                        placeholder="070-123 45 67"
+                        onChange={(event) =>
+                          setFormData((current) => ({ ...current, phone: event.target.value }))
+                        }
+                        className="sai-input py-4 pl-12 pr-4"
                       />
-                    </div>
+                    </Field>
                   </div>
 
-                  {error && <p className="text-red-500 text-xs font-mono">{error}</p>}
+                  {error ? <p className="text-sm text-red-300">{error}</p> : null}
 
                   <button
+                    type="submit"
                     disabled={loading}
-                    className="w-full py-5 rounded-[1.5rem] bg-white text-black font-black uppercase tracking-widest text-xs flex items-center justify-center gap-2 hover:bg-white/90 transition-all mt-4 disabled:opacity-50"
+                    className="sai-button sai-button-primary w-full disabled:opacity-60"
                   >
-                    {loading ? (
-                      <Loader2 className="w-4 h-4 animate-spin" />
-                    ) : (
-                      <>
-                        <span>Skicka förfrågan</span>
-                        <Send className="w-4 h-4" />
-                      </>
-                    )}
+                    {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />}
+                    <span>{t.submit}</span>
                   </button>
                 </form>
               )}
             </div>
           </motion.div>
         </div>
-      )}
+      ) : null}
     </AnimatePresence>
+  );
+}
+
+function Field({
+  label,
+  hint,
+  icon,
+  children,
+}: {
+  label: string;
+  hint?: string;
+  icon: ReactNode;
+  children: ReactNode;
+}) {
+  return (
+    <label className="space-y-2">
+      <div className="flex items-center justify-between gap-3">
+        <span className="sai-eyebrow text-[var(--text-muted)]">{label}</span>
+        {hint ? <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-[var(--accent-primary)]">{hint}</span> : null}
+      </div>
+      <div className="relative">
+        <span className="absolute left-4 top-1/2 -translate-y-1/2 text-[var(--text-muted)]">{icon}</span>
+        {children}
+      </div>
+    </label>
   );
 }

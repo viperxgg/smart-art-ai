@@ -1,0 +1,33 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="74" y1="74" x2="1126" y2="826" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15110C"/>
+      <stop offset="1" stop-color="#070707"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(904 206) rotate(134.048) scale(431.539 531.493)">
+      <stop stop-color="#F0C863" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#F0C863" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" rx="56" fill="url(#bg)"/>
+  <rect x="36" y="36" width="1128" height="828" rx="40" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <circle cx="862" cy="318" r="286" fill="url(#glow)"/>
+  <circle cx="816" cy="310" r="206" fill="#121212" stroke="#4E3D19" stroke-width="2"/>
+  <circle cx="816" cy="310" r="172" fill="#0D0D0D" stroke="#725A25" stroke-width="2"/>
+  <rect x="742" y="186" width="28" height="192" rx="14" transform="rotate(-18 742 186)" fill="#F0C863"/>
+  <rect x="782" y="164" width="28" height="214" rx="14" transform="rotate(-12 782 164)" fill="#E5B94F"/>
+  <rect x="826" y="154" width="28" height="224" rx="14" transform="rotate(6 826 154)" fill="#F3CE73"/>
+  <rect x="868" y="168" width="28" height="206" rx="14" transform="rotate(18 868 168)" fill="#E9BE5C"/>
+  <rect x="908" y="194" width="28" height="178" rx="14" transform="rotate(24 908 194)" fill="#DFAF46"/>
+  <circle cx="824" cy="320" r="68" fill="#F6F2E7" fill-opacity="0.1"/>
+  <circle cx="792" cy="278" r="6" fill="#F5F3EC"/>
+  <circle cx="842" cy="244" r="5" fill="#F5F3EC"/>
+  <circle cx="880" cy="300" r="5" fill="#F5F3EC"/>
+  <g opacity="0.65" stroke="#F0C863" stroke-width="3">
+    <path d="M118 146H308"/>
+    <path d="M118 190H274"/>
+  </g>
+  <text x="118" y="562" fill="#F2EFEA" font-size="78" font-weight="700" font-family="Inter, Arial, sans-serif">Truffle Fries</text>
+  <text x="118" y="640" fill="#D8C8A5" font-size="28" font-weight="500" font-family="Inter, Arial, sans-serif">Crispy fries finished with parmesan and truffle oil</text>
+  <text x="118" y="724" fill="#F0C863" font-size="26" font-weight="700" font-family="Inter, Arial, sans-serif" letter-spacing="6">APPETIZER</text>
+</svg>

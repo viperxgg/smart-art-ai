@@ -12,12 +12,13 @@ interface LocaleShellProps {
 export default function LocaleShell({ children }: LocaleShellProps) {
   const pathname = usePathname();
   const isDemoRoute = pathname.includes("/demo/");
+  const showMarketingShell = !isDemoRoute;
 
   return (
     <>
-      {isDemoRoute ? null : <Navbar />}
+      {showMarketingShell ? <Navbar /> : null}
       {children}
-      {isDemoRoute ? null : <Footer />}
+      {showMarketingShell ? <Footer /> : null}
     </>
   );
 }

@@ -17,9 +17,30 @@ export interface DemoDish {
 export interface KitchenTicket {
   id: string;
   table: string;
-  status: "new" | "firing" | "ready";
+  status: "new" | "firing" | "ready" | "completed";
   eta: string;
-  items: string[];
+  age: string;
+  items: Array<{
+    name: string;
+    quantity: number;
+  }>;
+  assignedTo: string;
+  totalSek: number;
+  note?: string;
+}
+
+export interface AdminActivityItem {
+  id: string;
+  table: string;
+  kind: "order" | "assistance";
+  title: string;
+  description: string;
+  statusLabel: string;
+  statusTone: "neutral" | "accent" | "success";
+  timestamp: string;
+  assignee?: string;
+  amountSek?: number;
+  itemSummary?: string;
 }
 
 export const demoRestaurant = {
@@ -27,6 +48,21 @@ export const demoRestaurant = {
   name: "Nord Table",
   accent: "Premium Scandinavian menu",
 };
+
+export const demoInterfacePreviews = {
+  customer: {
+    src: "/demo/previews/guest-mobile.png",
+    alt: "Guest mobile ordering interface preview",
+  },
+  admin: {
+    src: "/demo/previews/admin-dashboard.png",
+    alt: "Restaurant admin dashboard preview",
+  },
+  kitchen: {
+    src: "/demo/previews/kitchen-board.png",
+    alt: "Kitchen display system preview",
+  },
+} as const;
 
 export const demoDishes: DemoDish[] = [
   {
@@ -41,8 +77,7 @@ export const demoDishes: DemoDish[] = [
     allergensCount: 1,
     category: "appetizers",
     imageAlt: "Bruschetta Classica plated with tomato and basil",
-    imageUrl:
-      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/001-bruschetta-classica/hero.png",
+    imageUrl: "/demo/dishes/001-bruschetta-classica.svg",
     badge: "popular",
   },
   {
@@ -57,8 +92,7 @@ export const demoDishes: DemoDish[] = [
     allergensCount: 1,
     category: "appetizers",
     imageAlt: "Truffle fries with parmesan and herbs",
-    imageUrl:
-      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/002-truffle-fries/hero.png",
+    imageUrl: "/demo/dishes/002-truffle-fries.svg",
     badge: "chef-pick",
   },
   {
@@ -73,8 +107,7 @@ export const demoDishes: DemoDish[] = [
     allergensCount: 2,
     category: "mains",
     imageAlt: "Grilled salmon with lemon butter sauce",
-    imageUrl:
-      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/003-grilled-salmon/hero.png",
+    imageUrl: "/demo/dishes/003-grilled-salmon.svg",
     badge: "signature",
   },
   {
@@ -89,8 +122,7 @@ export const demoDishes: DemoDish[] = [
     allergensCount: 0,
     category: "mains",
     imageAlt: "Ribeye steak with roasted potatoes",
-    imageUrl:
-      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/004-ribeye-steak/hero.png",
+    imageUrl: "/demo/dishes/004-ribeye-steak.svg",
     badge: "signature",
   },
   {
@@ -105,8 +137,7 @@ export const demoDishes: DemoDish[] = [
     allergensCount: 0,
     category: "beverages",
     imageAlt: "Sparkling water served chilled",
-    imageUrl:
-      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/005-sparkling-water/hero.png",
+    imageUrl: "/demo/dishes/005-sparkling-water.svg",
   },
   {
     id: "dish-006",
@@ -120,8 +151,7 @@ export const demoDishes: DemoDish[] = [
     allergensCount: 1,
     category: "beverages",
     imageAlt: "Craft beer in a chilled glass",
-    imageUrl:
-      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/006-craft-beer/hero.png",
+    imageUrl: "/demo/dishes/006-craft-beer.svg",
     badge: "seasonal",
   },
   {
@@ -136,8 +166,7 @@ export const demoDishes: DemoDish[] = [
     allergensCount: 3,
     category: "sweets",
     imageAlt: "Chocolate fondant with vanilla ice cream",
-    imageUrl:
-      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/007-chocolate-fondant/hero.png",
+    imageUrl: "/demo/dishes/007-chocolate-fondant.svg",
     badge: "popular",
   },
   {
@@ -152,8 +181,7 @@ export const demoDishes: DemoDish[] = [
     allergensCount: 3,
     category: "sweets",
     imageAlt: "Swedish cheesecake with cloudberry jam",
-    imageUrl:
-      "https://codex-2mpec9lbm-viperxggs-projects.vercel.app/restaurants/nord-table/dishes/008-swedish-cheesecake/hero.png",
+    imageUrl: "/demo/dishes/008-swedish-cheesecake.svg",
     badge: "signature",
   },
 ];
@@ -164,21 +192,66 @@ export const kitchenTickets: KitchenTicket[] = [
     table: "12",
     status: "new",
     eta: "08 min",
-    items: ["2x Juniper Salmon Tartare", "1x Lingonberry Spritz"],
+    age: "1 hr ago",
+    items: [
+      { name: "Truffle Fries", quantity: 2 },
+      { name: "Grilled Salmon", quantity: 1 },
+      { name: "Sparkling Water", quantity: 2 },
+    ],
+    assignedTo: "Anna",
+    totalSek: 427,
   },
   {
     id: "KDS-205",
     table: "7",
     status: "firing",
     eta: "04 min",
-    items: ["1x Charred Arctic Cod", "1x Forest Mushroom Pasta"],
+    age: "1 hr ago",
+    items: [
+      { name: "Burrata Salad", quantity: 1 },
+      { name: "Bruschetta Classica", quantity: 2 },
+      { name: "House Lemonade", quantity: 1 },
+    ],
+    assignedTo: "Kitchen",
+    totalSek: 325,
   },
   {
     id: "KDS-206",
-    table: "4",
+    table: "28",
     status: "ready",
     eta: "Pickup",
-    items: ["2x Cardamom Creme Brulee"],
+    age: "Just now",
+    items: [
+      { name: "Truffle Fries", quantity: 2 },
+      { name: "Craft Beer", quantity: 2 },
+    ],
+    assignedTo: "Kitchen",
+    totalSek: 286,
+    note: "Sauce on the side.",
+  },
+  {
+    id: "KDS-207",
+    table: "29",
+    status: "completed",
+    eta: "Completed",
+    age: "Just now",
+    items: [{ name: "Chocolate Fondant", quantity: 2 }],
+    assignedTo: "Kitchen",
+    totalSek: 196,
+    note: "Desserts after mains.",
+  },
+  {
+    id: "KDS-208",
+    table: "18",
+    status: "completed",
+    eta: "Completed",
+    age: "1 min ago",
+    items: [
+      { name: "Ribeye Steak", quantity: 1 },
+      { name: "Craft Beer", quantity: 2 },
+    ],
+    assignedTo: "Kitchen",
+    totalSek: 490,
   },
 ];
 
@@ -187,4 +260,44 @@ export const adminMetrics = [
   { label: "Open orders", value: "28", detail: "Average prep 7 min" },
   { label: "Call waiter", value: "5", detail: "Newest from Table 12" },
   { label: "Top category", value: "Mains", detail: "42% of active carts" },
+];
+
+export const adminActivityFeed: AdminActivityItem[] = [
+  {
+    id: "ADM-301",
+    table: "30",
+    kind: "assistance",
+    title: "Waiter requested",
+    description: "Guest requested waiter assistance.",
+    statusLabel: "Claimed",
+    statusTone: "accent",
+    timestamp: "Just now",
+    assignee: "Anna",
+  },
+  {
+    id: "ADM-302",
+    table: "29",
+    kind: "order",
+    title: "New order",
+    description: "Desserts after mains.",
+    statusLabel: "Completed",
+    statusTone: "success",
+    timestamp: "Just now",
+    assignee: "Kitchen",
+    amountSek: 196,
+    itemSummary: "2x Chocolate Fondant",
+  },
+  {
+    id: "ADM-303",
+    table: "12",
+    kind: "order",
+    title: "Open order",
+    description: "Guest confirmed mains and drinks.",
+    statusLabel: "Pending",
+    statusTone: "neutral",
+    timestamp: "2 min ago",
+    assignee: "Floor",
+    amountSek: 427,
+    itemSummary: "2x Truffle Fries, 1x Grilled Salmon",
+  },
 ];

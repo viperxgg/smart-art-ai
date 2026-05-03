@@ -57,9 +57,9 @@ export default function HeroText() {
       {/* Premium Badge */}
       <motion.div
         variants={item}
-        className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-cyan-400 text-[12px] font-bold uppercase tracking-[0.4em] mb-12 backdrop-blur-md"
+        className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-emerald-200 text-[12px] font-bold uppercase tracking-[0.4em] mb-12 backdrop-blur-md"
       >
-        <div className="w-1 h-1 rounded-full bg-cyan-400 shadow-[0_0_10px_#22d3ee]" />
+        <div className="w-1 h-1 rounded-full bg-[#0F4C3A] shadow-[0_0_10px_#0F4C3A]" />
         Elite AI Systems
       </motion.div>
 
@@ -69,7 +69,7 @@ export default function HeroText() {
         className="text-6xl md:text-[8rem] font-black mb-10 tracking-tighter leading-[0.8] text-white"
       >
         <span className="block">{t("headline_main")}</span>
-        <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 animate-gradient pb-6">
+        <span className="block text-transparent bg-clip-text bg-gradient-to-r from-emerald-200 via-blue-500 to-[#0F4C3A] animate-gradient pb-6">
           {t("headline_highlight")}
         </span>
       </motion.h1>
@@ -94,11 +94,11 @@ export default function HeroText() {
           {/* Line 1 */}
           <motion.div variants={typingItem} className="flex flex-wrap justify-center gap-x-2">
             <span>{t("subtitle_line1").split('intelligenta')[0].split('intelligent')[0]}</span>
-            <span className="text-cyan-400 font-bold shadow-[0_0_15px_rgba(34,211,238,0.3)] px-1 rounded-sm bg-cyan-400/5 border border-cyan-400/10">
+            <span className="text-emerald-200 font-bold shadow-[0_0_15px_rgba(15,76,58,0.3)] px-1 rounded-sm bg-[#0F4C3A]/5 border border-[#0F4C3A]/10">
               {t("subtitle_line1").includes('webbplatser') ? 'intelligenta webbplatser' : 'intelligent websites'}
             </span>
             <span>{t("subtitle_line1").includes('webbplatser') ? 'och' : 'and'}</span>
-            <span className="text-purple-400 font-bold shadow-[0_0_15px_rgba(168,85,247,0.3)] px-1 rounded-sm bg-purple-400/5 border border-purple-400/10">
+            <span className="text-emerald-200 font-bold shadow-[0_0_15px_rgba(15,76,58,0.3)] px-1 rounded-sm bg-[#0F4C3A]/5 border border-[#0F4C3A]/10">
               {t("subtitle_line1").includes('digitala system') || t("subtitle_line1").includes('digital systems') ? (t("subtitle_line1").includes('digitala system') ? 'digitala system' : 'digital systems') : ''}
             </span>
           </motion.div>
@@ -122,7 +122,7 @@ export default function HeroText() {
             <motion.span
               animate={{ opacity: [1, 0, 1] }}
               transition={{ duration: 0.8, repeat: Infinity }}
-              className="w-2.5 h-5 bg-cyan-400 ml-1 inline-block"
+              className="w-2.5 h-5 bg-[#0F4C3A] ml-1 inline-block"
             />
           </motion.div>
         </motion.div>
@@ -134,8 +134,8 @@ export default function HeroText() {
         className="flex flex-wrap justify-center gap-4 md:gap-8 mb-20"
       >
         {[
-          { text: t("bullet_1"), icon: <Zap className="w-4 h-4 text-cyan-400" />, color: "border-cyan-500/30" },
-          { text: t("bullet_2"), icon: <Target className="w-4 h-4 text-purple-400" />, color: "border-purple-500/30" },
+          { text: t("bullet_1"), icon: <Zap className="w-4 h-4 text-emerald-200" />, color: "border-[#0F4C3A]/30" },
+          { text: t("bullet_2"), icon: <Target className="w-4 h-4 text-emerald-200" />, color: "border-[#0F4C3A]/30" },
           { text: t("bullet_3"), icon: <CheckCircle2 className="w-4 h-4 text-white" />, color: "border-white/20" }
         ].map((indicator, i) => (
           <motion.div

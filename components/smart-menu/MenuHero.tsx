@@ -23,7 +23,7 @@ export default function MenuHero() {
             <motion.div 
                initial={{ opacity: 0, y: 10 }}
                animate={{ opacity: 1, y: 0 }}
-               className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/5 border border-black/10 text-black/40 text-[10px] font-bold uppercase tracking-[0.3em] mb-8 font-mono"
+               className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/5 border border-black/10 text-white/40 text-[10px] font-bold uppercase tracking-[0.3em] mb-8 font-mono"
             >
                <Layout className="w-3 h-3" />
                SmartArt AI Solutions

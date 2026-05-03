@@ -1,0 +1,32 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="68" y1="64" x2="1132" y2="836" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1417"/>
+      <stop offset="1" stop-color="#050607"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(886 232) rotate(130.014) scale(452.282 548.692)">
+      <stop stop-color="#91C8FF" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#91C8FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" rx="56" fill="url(#bg)"/>
+  <rect x="36" y="36" width="1128" height="828" rx="40" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <circle cx="870" cy="316" r="286" fill="url(#glow)"/>
+  <rect x="738" y="164" width="152" height="332" rx="76" fill="#0E1114" stroke="#36556B" stroke-width="2"/>
+  <rect x="772" y="122" width="84" height="58" rx="22" fill="#101419" stroke="#5E8AAE" stroke-width="2"/>
+  <rect x="756" y="210" width="116" height="242" rx="58" fill="#86C6FF" fill-opacity="0.08"/>
+  <circle cx="788" cy="248" r="12" fill="#B2DEFF"/>
+  <circle cx="836" cy="292" r="8" fill="#D2ECFF"/>
+  <circle cx="804" cy="340" r="10" fill="#B2DEFF"/>
+  <circle cx="846" cy="386" r="6" fill="#D2ECFF"/>
+  <circle cx="920" cy="238" r="24" fill="#B2DEFF" fill-opacity="0.26"/>
+  <circle cx="960" cy="296" r="16" fill="#D2ECFF" fill-opacity="0.22"/>
+  <circle cx="930" cy="354" r="10" fill="#B2DEFF" fill-opacity="0.22"/>
+  <g opacity="0.65" stroke="#8EC7FF" stroke-width="3">
+    <path d="M118 146H302"/>
+    <path d="M118 190H248"/>
+  </g>
+  <text x="118" y="550" fill="#F2EFEA" font-size="78" font-weight="700" font-family="Inter, Arial, sans-serif">Sparkling Water</text>
+  <text x="118" y="628" fill="#C7D6E2" font-size="28" font-weight="500" font-family="Inter, Arial, sans-serif">Chilled mineral water with a clean table presentation</text>
+  <text x="118" y="712" fill="#8EC7FF" font-size="26" font-weight="700" font-family="Inter, Arial, sans-serif" letter-spacing="6">BEVERAGE</text>
+</svg>

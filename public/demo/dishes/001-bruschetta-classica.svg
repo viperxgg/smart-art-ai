@@ -1,0 +1,30 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1080" y2="840" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D140B"/>
+      <stop offset="1" stop-color="#090909"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(902 196) rotate(132.186) scale(478.445 574.364)">
+      <stop stop-color="#F0C863" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#F0C863" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" rx="56" fill="url(#bg)"/>
+  <rect x="36" y="36" width="1128" height="828" rx="40" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <circle cx="862" cy="322" r="292" fill="url(#glow)"/>
+  <circle cx="818" cy="312" r="208" fill="#151515" stroke="#463618" stroke-width="2"/>
+  <circle cx="818" cy="312" r="174" fill="#0F0F0F" stroke="#6E5724" stroke-width="2"/>
+  <ellipse cx="786" cy="286" rx="92" ry="56" fill="#D34B34"/>
+  <ellipse cx="845" cy="350" rx="86" ry="48" fill="#E97339"/>
+  <ellipse cx="870" cy="246" rx="72" ry="42" fill="#CD5B2D"/>
+  <path d="M734 240C768 210 804 196 844 198" stroke="#7FD18A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M804 400C840 374 874 352 916 348" stroke="#78C688" stroke-width="16" stroke-linecap="round"/>
+  <g opacity="0.65" stroke="#F0C863" stroke-width="3">
+    <path d="M118 146H308"/>
+    <path d="M118 190H252"/>
+  </g>
+  <text x="118" y="546" fill="#F2EFEA" font-size="78" font-weight="700" font-family="Inter, Arial, sans-serif">Bruschetta</text>
+  <text x="118" y="622" fill="#F2EFEA" font-size="78" font-weight="700" font-family="Inter, Arial, sans-serif">Classica</text>
+  <text x="118" y="700" fill="#D8C8A5" font-size="28" font-weight="500" font-family="Inter, Arial, sans-serif">Tomato, basil and olive oil on toasted bread</text>
+  <text x="118" y="784" fill="#F0C863" font-size="26" font-weight="700" font-family="Inter, Arial, sans-serif" letter-spacing="6">APPETIZER</text>
+</svg>

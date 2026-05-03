@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Environment
+
+The consultation and automation request forms post to `/api/contact` and send email through SMTP.
+
+Required in production:
+
+```bash
+SMTP_USER=your-smtp-user
+SMTP_PASS=your-smtp-app-password
+DESTINATION_EMAIL=hello@smartartai.se
+```
+
+`DESTINATION_EMAIL` defaults to `hello@smartartai.se` when omitted. Do not expose these values to client-side code or commit `.env` files.
+
 ## Getting Started
 
 First, run the development server:

@@ -1,0 +1,9 @@
+.next/
+node_modules/
+*.tsbuildinfo
+.next-*.png
+.next-*.log
+.next-dev*.out.log
+.next-dev*.err.log
+scratch/
+antigravity-awesome-skills-main/

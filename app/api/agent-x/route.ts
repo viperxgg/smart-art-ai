@@ -8,8 +8,10 @@ export async function POST(req: Request) {
   });
 
   try {
-
-    const { messages } = await req.json();
+    const payload = (await req.json()) as {
+      messages: Array<{ role: "system" | "user" | "assistant"; content: string }>;
+    };
+    const { messages } = payload;
 
     const response = await openai.chat.completions.create({
       model: 'gpt-4o',
@@ -64,7 +66,7 @@ export async function POST(req: Request) {
     });
 
     return new Response(stream);
-  } catch (error: any) {
+  } catch {
     return new Response(JSON.stringify({ error: 'Neural connection failed' }), { status: 500 });
   }
 }

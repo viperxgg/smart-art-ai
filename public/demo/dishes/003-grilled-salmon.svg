@@ -1,0 +1,33 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="76" x2="1110" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11150F"/>
+      <stop offset="1" stop-color="#070707"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(886 222) rotate(130.404) scale(467.831 586.344)">
+      <stop stop-color="#E8B95B" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#E8B95B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" rx="56" fill="url(#bg)"/>
+  <rect x="36" y="36" width="1128" height="828" rx="40" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <circle cx="866" cy="316" r="292" fill="url(#glow)"/>
+  <circle cx="816" cy="310" r="212" fill="#111111" stroke="#42502C" stroke-width="2"/>
+  <circle cx="816" cy="310" r="176" fill="#0D0D0D" stroke="#6A5823" stroke-width="2"/>
+  <path d="M706 316C758 236 878 212 948 266C956 342 892 414 796 420C742 404 710 370 706 316Z" fill="#E9825E"/>
+  <path d="M730 308C790 260 876 250 924 286" stroke="#FFC6A8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M742 334C792 302 866 290 912 314" stroke="#FFC6A8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M756 366C814 338 860 336 898 348" stroke="#FFC6A8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M712 450C756 430 790 418 830 418" stroke="#8BC17E" stroke-width="16" stroke-linecap="round"/>
+  <path d="M842 452C874 430 902 410 934 398" stroke="#8BC17E" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="742" cy="248" r="8" fill="#F3E7C3"/>
+  <circle cx="784" cy="226" r="6" fill="#F3E7C3"/>
+  <circle cx="836" cy="206" r="7" fill="#F3E7C3"/>
+  <g opacity="0.65" stroke="#F0C863" stroke-width="3">
+    <path d="M118 146H326"/>
+    <path d="M118 190H266"/>
+  </g>
+  <text x="118" y="550" fill="#F2EFEA" font-size="78" font-weight="700" font-family="Inter, Arial, sans-serif">Grilled Salmon</text>
+  <text x="118" y="628" fill="#D8C8A5" font-size="28" font-weight="500" font-family="Inter, Arial, sans-serif">Lemon butter, dill and a clean plated finish</text>
+  <text x="118" y="712" fill="#F0C863" font-size="26" font-weight="700" font-family="Inter, Arial, sans-serif" letter-spacing="6">MAIN COURSE</text>
+</svg>

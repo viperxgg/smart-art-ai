@@ -33,15 +33,15 @@ export default function AIDemoSection() {
   return (
     <section className="py-32 bg-[#050505] relative overflow-hidden border-b border-white/5">
       {/* Decorative glows */}
-      <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-cyan-500/5 blur-[120px] rounded-full pointer-events-none" />
-      <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-violet-600/5 blur-[120px] rounded-full pointer-events-none" />
+      <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-[#0F4C3A]/5 blur-[120px] rounded-full pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-[#0F4C3A]/5 blur-[120px] rounded-full pointer-events-none" />
 
       <div className="max-w-4xl mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-cyan-400 text-[12px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-8 font-mono"
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-emerald-200 text-[12px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-8 font-mono"
           >
             <Terminal className="w-3 h-3" />
             {t("badge")}
@@ -74,12 +74,12 @@ export default function AIDemoSection() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder={t("placeholder")}
-              className="w-full bg-black/40 border-2 border-white/5 rounded-[1.5rem] px-8 py-6 pr-20 text-white text-xl placeholder:text-white/20 focus:outline-none focus:border-cyan-500/50 focus:shadow-[0_0_50px_rgba(6,182,212,0.1)] transition-all font-light"
+              className="w-full bg-black/40 border-2 border-white/5 rounded-[1.5rem] px-8 py-6 pr-20 text-white text-xl placeholder:text-white/20 focus:outline-none focus:border-[#0F4C3A]/50 focus:shadow-[0_0_50px_rgba(15,76,58,0.1)] transition-all font-light"
             />
             <button
               type="submit"
               disabled={isTyping || !input.trim()}
-              className="absolute right-4 top-1/2 -translate-y-1/2 w-14 h-14 rounded-2xl bg-cyan-500 flex items-center justify-center text-black hover:scale-105 active:scale-95 transition-all disabled:opacity-50 disabled:scale-100 shadow-[0_0_20px_rgba(6,182,212,0.4)]"
+              className="absolute right-4 top-1/2 -translate-y-1/2 w-14 h-14 rounded-2xl bg-[#0F4C3A] flex items-center justify-center text-white hover:scale-105 active:scale-95 transition-all disabled:opacity-50 disabled:scale-100 shadow-[0_0_20px_rgba(15,76,58,0.4)]"
             >
               <Send className="w-6 h-6" />
             </button>
@@ -95,8 +95,8 @@ export default function AIDemoSection() {
                   exit={{ opacity: 0 }}
                   className="flex flex-col items-center gap-6 py-8"
                 >
-                  <Loader2 className="w-10 h-10 text-cyan-500 animate-spin" />
-                  <p className="text-cyan-400 font-mono text-[11px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.5em] animate-pulse">{t("analyzing")}</p>
+                  <Loader2 className="w-10 h-10 text-emerald-200 animate-spin" />
+                  <p className="text-emerald-200 font-mono text-[11px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.5em] animate-pulse">{t("analyzing")}</p>
                 </motion.div>
               ) : response ? (
                 <motion.div
@@ -106,8 +106,8 @@ export default function AIDemoSection() {
                   className="w-full bg-white/[0.02] border border-white/5 rounded-[2rem] p-10"
                 >
                   <div className="flex items-center gap-4 mb-8">
-                    <div className="w-10 h-10 rounded-xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/20">
-                      <Bot className="w-5 h-5 text-cyan-400" />
+                    <div className="w-10 h-10 rounded-xl bg-[#0F4C3A]/10 flex items-center justify-center border border-[#0F4C3A]/20">
+                      <Bot className="w-5 h-5 text-emerald-200" />
                     </div>
                     <h4 className="font-bold text-white text-xl tracking-tight">{t("response_title")}</h4>
                   </div>
@@ -121,7 +121,7 @@ export default function AIDemoSection() {
                         transition={{ delay: i * 0.2 }}
                         className="flex items-start gap-4 text-white/80"
                       >
-                        <CheckCircle2 className="w-6 h-6 text-cyan-400 shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-6 h-6 text-emerald-200 shrink-0 mt-0.5" />
                         <span className="text-lg font-light">{point}</span>
                       </motion.li>
                     ))}
@@ -131,7 +131,7 @@ export default function AIDemoSection() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.8 }}
-                    className="w-full py-5 rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 text-black font-black uppercase tracking-[0.2em] text-xs flex items-center justify-center gap-3 hover:brightness-110 active:scale-95 transition-all shadow-[0_0_40px_rgba(6,182,212,0.2)]"
+                    className="w-full py-5 rounded-2xl bg-gradient-to-r from-[#0F4C3A] to-blue-600 text-white font-black uppercase tracking-[0.2em] text-xs flex items-center justify-center gap-3 hover:brightness-110 active:scale-95 transition-all shadow-[0_0_40px_rgba(15,76,58,0.2)]"
                   >
                     {t("response_cta")}
                     <ArrowRight className="w-4 h-4" />

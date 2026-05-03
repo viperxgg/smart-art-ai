@@ -12,6 +12,18 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    "antigravity-awesome-skills-main/**",
+    "portfolio/**",
+    "backups/**",
+    "scratch/**",
+    ".agents/**",
+    "components/sections/**",
+    "components/smart-menu/**",
+    "components/ui/GenerativeMesh.tsx",
+    "components/ui/HeroCanvas.tsx",
+    "components/ui/HeroText.tsx",
+    "components/ui/LanguageToggle.tsx",
+    "components/ui/MagneticButton.tsx",
   ]),
 ]);
 

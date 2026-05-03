@@ -32,7 +32,7 @@ export default function BeforeAfterSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch relative">
           <div className="hidden lg:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 w-16 h-16 rounded-full bg-white/5 border border-white/10 items-center justify-center backdrop-blur-xl">
-             <ArrowRight className="w-8 h-8 text-cyan-400 animate-pulse" />
+             <ArrowRight className="w-8 h-8 text-emerald-200 animate-pulse" />
           </div>
 
           {/* LEFT: BEFORE */}
@@ -72,13 +72,13 @@ export default function BeforeAfterSection() {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="p-12 rounded-[3.5rem] bg-gradient-to-br from-cyan-500/5 to-purple-600/5 border border-cyan-400/20 relative overflow-hidden group shadow-[0_0_80px_rgba(0,229,255,0.05)]"
+            className="p-12 rounded-[3.5rem] bg-gradient-to-br from-[#0F4C3A]/5 to-[#0F4C3A]/5 border border-[#0F4C3A]/20 relative overflow-hidden group shadow-[0_0_80px_rgba(15,76,58,0.05)]"
           >
             <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
-               <CheckCircle2 className="w-40 h-40 text-cyan-400" />
+               <CheckCircle2 className="w-40 h-40 text-emerald-200" />
             </div>
 
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-400/10 border border-cyan-400/60 text-cyan-400 text-[12px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-12 font-mono shadow-[0_0_20px_rgba(0, 229, 255, 0.2)]">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0F4C3A]/10 border border-[#0F4C3A]/60 text-emerald-200 text-[12px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-12 font-mono shadow-[0_0_20px_rgba(15,76,58, 0.2)]">
                <Terminal className="w-3 h-3" />
                {t("after_label")}
             </div>
@@ -92,8 +92,8 @@ export default function BeforeAfterSection() {
                    transition={{ delay: 0.3 + i * 0.1 }}
                    className="flex items-center gap-6 text-white text-2xl font-black tracking-tighter"
                 >
-                  <div className="w-10 h-10 rounded-xl bg-cyan-400/10 flex items-center justify-center border border-cyan-400/20">
-                    <CheckCircle2 className="w-5 h-5 text-cyan-400" />
+                  <div className="w-10 h-10 rounded-xl bg-[#0F4C3A]/10 flex items-center justify-center border border-[#0F4C3A]/20">
+                    <CheckCircle2 className="w-5 h-5 text-emerald-200" />
                   </div>
                   {item}
                 </motion.li>

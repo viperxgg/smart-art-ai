@@ -29,7 +29,7 @@ export default function ProcessSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 relative">
           {/* Connecting line on desktop */}
-          <div className="hidden md:block absolute top-[2.5rem] left-[10%] right-[10%] h-[1px] bg-gradient-to-r from-cyan-500/0 via-cyan-500/30 to-cyan-500/0" />
+          <div className="hidden md:block absolute top-[2.5rem] left-[10%] right-[10%] h-[1px] bg-gradient-to-r from-[#0F4C3A]/0 via-[#0F4C3A]/30 to-[#0F4C3A]/0" />
           
           {steps.map((step, i) => (
             <motion.div
@@ -40,7 +40,7 @@ export default function ProcessSection() {
               transition={{ delay: i * 0.15 }}
               className="flex flex-col items-center text-center relative z-10"
             >
-              <div className="w-20 h-20 rounded-3xl bg-white/[0.03] border border-white/10 flex items-center justify-center text-cyan-400 font-black text-2xl mb-8 shadow-[0_0_30px_rgba(6,182,212,0.1)] group-hover:scale-110 transition-transform">
+              <div className="w-20 h-20 rounded-3xl bg-white/[0.03] border border-white/10 flex items-center justify-center text-emerald-200 font-black text-2xl mb-8 shadow-[0_0_30px_rgba(15,76,58,0.1)] group-hover:scale-110 transition-transform">
                 {step.num}
               </div>
               <h3 className="text-[12px] font-bold text-white/70 mb-4 tracking-[0.2em] uppercase font-mono">{step.title}</h3>

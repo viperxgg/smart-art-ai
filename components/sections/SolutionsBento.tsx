@@ -10,7 +10,7 @@ import Link from "next/link";
 // Agent X Personality Configuration
 const AGENT_X_CONFIG = {
   name: "Agent X",
-  greeting: "Hej! Vad sägs om att jag bygger en personlig AI-sekreterare åt dig? En som svarar dygnet runt på din sajt eller WhatsApp – med koll på precis allt om ditt företag.",
+  greeting: "Hej! Vad sägs om att jag bygger en personlig AI-sekreterare åt dig? En som svarar dygnet runt på din sajt eller WhatsApp - med koll på precis allt om ditt företag.",
   followUp: "Du måste vara spänd på den här upplevelsen! Ska vi se hur en smart assistent kan spara dig timmar av manuellt arbete varje dag?",
   pricingPolicy: "Automatiseringstjänster börjar från 1499 kr, men det slutgiltiga priset fastställs baserat på projektets storlek, komplexitet och de specifika behoven i din verksamhet.",
   persona: "Expert salesperson, business strategist, focus on building AI secretaries for Web/WhatsApp."
@@ -137,7 +137,7 @@ export default function SolutionsBento() {
           Epost: formData.email,
           Telefon: formData.phone || "Ej angivet",
           Organisation: formData.organization || "Ej angivet",
-          Tjänst: activeModal.serviceType,
+          Tjanst: activeModal.serviceType,
           Meddelande: activeModal.title === t("card4_title") ? ideaText : "N/A",
           "Subject": `Ny Förfrågan: ${activeModal.serviceType}`
         }),
@@ -266,7 +266,7 @@ export default function SolutionsBento() {
             }
           }}
           className={`group/btn relative px-8 py-3.5 rounded-2xl bg-[#${color}]/5 border border-[#${color}]/30 text-[#${color}] font-bold hover:bg-[#${color}] hover:text-white transition-all duration-500 w-full flex items-center justify-center gap-2 overflow-hidden shadow-[0_0_15px_rgba(var(--color-${color}),0.1)] hover:shadow-[0_0_30px_rgba(var(--color-${color}),0.5)]`}
-          style={{"--color-7000FF": "112,0,255", "--color-00E5FF": "0,229,255", "--color-007BFF": "0,123,255", "--color-FF007F": "255,0,127"} as any}
+          style={{"--color-7000FF": "112,0,255", "--color-00E5FF": "15,76,58", "--color-007BFF": "0,123,255", "--color-FF007F": "15,76,58"} as any}
         >
           <span className="relative z-10 uppercase tracking-widest text-xs">{ctaText}</span>
           <ArrowRight className="w-4 h-4 relative z-10 group-hover/btn:translate-x-1 transition-transform" />
@@ -305,17 +305,17 @@ export default function SolutionsBento() {
       {/* === FEATURED CARD: Full width === */}
       <Link 
         href={`/${locale}/blog/scandinavian-digital-menu`}
-        className="block glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col md:flex-row items-center text-center md:text-left border-2 border-cyan-500/20 hover:border-cyan-500/50 transition-all duration-500 shadow-[0_0_50px_rgba(0,229,255,0.1)] hover:shadow-[0_0_80px_rgba(0,229,255,0.2)] mb-8"
+        className="block glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col md:flex-row items-center text-center md:text-left border-2 border-[#0F4C3A]/20 hover:border-[#0F4C3A]/50 transition-all duration-500 shadow-[0_0_50px_rgba(15,76,58,0.1)] hover:shadow-[0_0_80px_rgba(15,76,58,0.2)] mb-8"
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-transparent to-transparent opacity-50 group-hover:opacity-100 transition-opacity duration-700" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0F4C3A]/10 via-transparent to-transparent opacity-50 group-hover:opacity-100 transition-opacity duration-700" />
         
-        <div className="w-24 h-24 md:w-32 md:h-32 rounded-3xl bg-cyan-500/10 flex items-center justify-center mb-8 md:mb-0 md:mr-10 border border-cyan-500/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(0,229,255,0.3)] shrink-0">
-          <Utensils className="w-12 h-12 md:w-16 md:h-16 text-cyan-400" />
+        <div className="w-24 h-24 md:w-32 md:h-32 rounded-3xl bg-[#0F4C3A]/10 flex items-center justify-center mb-8 md:mb-0 md:mr-10 border border-[#0F4C3A]/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(15,76,58,0.3)] shrink-0">
+          <Utensils className="w-12 h-12 md:w-16 md:h-16 text-emerald-200" />
         </div>
 
         <div className="flex-1 relative z-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/30 text-cyan-400 text-[10px] font-bold uppercase tracking-widest mb-4">
-            <Zap className="w-3 h-3 fill-cyan-400" /> New Product
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0F4C3A]/20 border border-[#0F4C3A]/30 text-emerald-200 text-[10px] font-bold uppercase tracking-widest mb-4">
+            <Zap className="w-3 h-3 fill-emerald-200" /> New Product
           </div>
           <h3 className="text-3xl md:text-4xl font-black mb-4 text-white tracking-tight leading-tight font-jakarta">
             {t("card_menu_title")}
@@ -323,7 +323,7 @@ export default function SolutionsBento() {
           <p className="text-white/60 mb-6 text-lg leading-relaxed font-light max-w-2xl font-body">
             {t("card_menu_desc")}
           </p>
-          <div className="inline-flex items-center gap-2 text-cyan-400 font-bold uppercase tracking-widest text-xs group-hover:gap-4 transition-all">
+          <div className="inline-flex items-center gap-2 text-emerald-200 font-bold uppercase tracking-widest text-xs group-hover:gap-4 transition-all">
             {t("card_menu_cta")} <ArrowRight className="w-4 h-4" />
           </div>
         </div>
@@ -358,7 +358,7 @@ export default function SolutionsBento() {
           className="glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col items-center text-center border border-white/5 hover:border-[#00E5FF]/30 transition-all duration-500"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-[#00E5FF]/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-          <div className="w-20 h-20 rounded-3xl bg-[#00E5FF]/10 flex items-center justify-center mb-10 border border-[#00E5FF]/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(0,229,255,0.2)]">
+          <div className="w-20 h-20 rounded-3xl bg-[#00E5FF]/10 flex items-center justify-center mb-10 border border-[#00E5FF]/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(15,76,58,0.2)]">
             <BotMessageSquare className="w-10 h-10 text-[#00E5FF]" />
           </div>
           <h3 className="text-2xl font-black mb-4 text-white tracking-tight leading-tight font-jakarta">{t("card2_title")}</h3>
@@ -369,11 +369,11 @@ export default function SolutionsBento() {
         {/* Card 4: Custom Ideas */}
         <motion.div 
           whileHover={{ y: -8 }} 
-          className="glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col items-center text-center border border-white/5 hover:border-[#FF007F]/30 transition-all duration-500"
+          className="glass-panel rounded-[2.5rem] p-10 relative overflow-hidden group flex flex-col items-center text-center border border-white/5 hover:border-[#0F4C3A]/30 transition-all duration-500"
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FF007F]/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-          <div className="w-20 h-20 rounded-3xl bg-[#FF007F]/10 flex items-center justify-center mb-10 border border-[#FF007F]/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(255,0,127,0.2)]">
-            <Lightbulb className="w-10 h-10 text-[#FF007F]" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#0F4C3A]/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+          <div className="w-20 h-20 rounded-3xl bg-[#0F4C3A]/10 flex items-center justify-center mb-10 border border-[#0F4C3A]/20 group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(15,76,58,0.2)]">
+            <Lightbulb className="w-10 h-10 text-[#0F4C3A]" />
           </div>
           <h3 className="text-2xl font-black mb-4 text-white tracking-tight leading-tight font-jakarta">{t("card4_title")}</h3>
           <p className="text-white/70 mb-10 flex-1 leading-relaxed font-medium font-body">{t("card4_desc")}</p>
@@ -449,7 +449,7 @@ export default function SolutionsBento() {
                 
                 {submitError && (
                   <div className="w-full px-4 py-3 rounded-xl bg-red-500/10 border border-red-500/30 text-red-400 text-sm font-medium">
-                    ⚠️ {submitError}
+                    ⚠ï¸ {submitError}
                   </div>
                 )}
                 <button 
@@ -507,7 +507,7 @@ export default function SolutionsBento() {
                       transition={{ duration: 0.5 }}
                       className="absolute inset-0 flex items-center justify-center"
                     >
-                      <Settings className="w-24 h-24 text-cyan-400 drop-shadow-[0_0_30px_rgba(0,229,255,0.8)]" />
+                      <Settings className="w-24 h-24 text-emerald-200 drop-shadow-[0_0_30px_rgba(15,76,58,0.8)]" />
                     </motion.div>
                   )}
                   {animationStep === 2 && (
@@ -571,7 +571,7 @@ export default function SolutionsBento() {
                           className={`rounded-xl border p-5 flex flex-col items-center text-center relative cursor-pointer transition-all duration-300 ${formData.selectedPackage === 'NGO_Automation_3900' ? 'bg-orange-500/20 border-orange-400 shadow-[0_0_30px_rgba(249,115,22,0.5)] scale-105' : 'bg-orange-500/10 border-orange-500/50 hover:border-orange-500/80'}`}
                         >
                           <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 bg-gradient-to-r from-orange-400 to-orange-600 text-white text-[10px] uppercase font-bold rounded-full whitespace-nowrap shadow-[0_0_10px_rgba(249,115,22,0.6)]">
-                            ⭐ CSR-Sponsrad
+                            ★ CSR-Sponsrad
                           </div>
                           <h5 className="font-bold text-orange-400 mb-1 mt-1">Förenings-Fix</h5>
                           <div className="text-xs text-orange-200/60 mb-3 px-2 py-1 bg-black/30 rounded-md">Automatisera medlemskap & Swish</div>
@@ -582,7 +582,7 @@ export default function SolutionsBento() {
                         {/* Pricing 3: Komplett */}
                         <div 
                           onClick={() => setFormData({...formData, selectedPackage: 'Complete_Automation'})}
-                          className={`rounded-xl border p-5 flex flex-col items-center text-center cursor-pointer transition-all duration-300 ${formData.selectedPackage === 'Complete_Automation' ? 'bg-white/10 border-[#00E5FF] shadow-[0_0_20px_rgba(0,229,255,0.4)] scale-105' : 'bg-white/5 border-[#007BFF]/30 hover:border-[#007BFF]/60'}`}
+                          className={`rounded-xl border p-5 flex flex-col items-center text-center cursor-pointer transition-all duration-300 ${formData.selectedPackage === 'Complete_Automation' ? 'bg-white/10 border-[#00E5FF] shadow-[0_0_20px_rgba(15,76,58,0.4)] scale-105' : 'bg-white/5 border-[#007BFF]/30 hover:border-[#007BFF]/60'}`}
                         >
                           <h5 className="font-bold text-white mb-1">Komplett</h5>
                           <div className="text-xs text-white/50 mb-3 px-2 py-1 bg-black/30 rounded-md">Full systemintegration</div>
@@ -631,7 +631,7 @@ export default function SolutionsBento() {
                           Epost: formData.email,
                           Manuell_Process: formData.phone || "Data inmatning",
                           Valt_Paket: formData.selectedPackage,
-                          Tjänst: "Workflow Automation Audit",
+                          Tjanst: "Workflow Automation Audit",
                           "Subject": "Ny Workflow Audit Förfrågan"
                         }),
                       });
@@ -706,7 +706,7 @@ export default function SolutionsBento() {
               initial={{ scale: 0.95, y: 20 }}
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.95, y: 20 }}
-              className="w-full max-w-2xl glass-panel rounded-3xl p-10 relative border border-[#00E5FF]/30 shadow-[0_0_80px_rgba(0,229,255,0.2)] flex flex-col items-start min-h-[400px]"
+              className="w-full max-w-2xl glass-panel rounded-3xl p-10 relative border border-[#00E5FF]/30 shadow-[0_0_80px_rgba(15,76,58,0.2)] flex flex-col items-start min-h-[400px]"
             >
               <button 
                 onClick={() => setShowChatbotModal(null)}
@@ -719,7 +719,7 @@ export default function SolutionsBento() {
                 <div className="w-full flex-1 flex flex-col min-h-[500px]">
                   <div className="flex items-center gap-4 mb-6">
                     <div className="relative">
-                      <div className="w-12 h-12 rounded-full bg-[#00E5FF]/20 flex items-center justify-center border border-[#00E5FF]/40 shadow-[0_0_20px_rgba(0,229,255,0.4)]">
+                      <div className="w-12 h-12 rounded-full bg-[#00E5FF]/20 flex items-center justify-center border border-[#00E5FF]/40 shadow-[0_0_20px_rgba(15,76,58,0.4)]">
                         <BotMessageSquare className="w-6 h-6 text-[#00E5FF]" />
                       </div>
                       <div className="absolute -bottom-1 -right-1 w-3 h-3 bg-green-500 rounded-full border-2 border-black animate-pulse shadow-[0_0_10px_rgba(34,197,94,0.8)]" />
@@ -746,7 +746,7 @@ export default function SolutionsBento() {
                           <div className={`max-w-[85%] px-4 py-3 rounded-2xl text-xs leading-relaxed ${
                             msg.role === 'assistant' 
                             ? 'bg-white/5 text-white/90 border border-white/10' 
-                            : 'bg-[#00E5FF]/10 text-[#00E5FF] border border-[#00E5FF]/20 shadow-[0_0_15px_rgba(0,229,255,0.1)]'
+                            : 'bg-[#00E5FF]/10 text-[#00E5FF] border border-[#00E5FF]/20 shadow-[0_0_15px_rgba(15,76,58,0.1)]'
                           }`}>
                             <span className="opacity-40 mr-2">{msg.role === 'assistant' ? 'X_CORE>' : 'ROOT>'}</span>
                             {msg.content}
@@ -775,7 +775,7 @@ export default function SolutionsBento() {
                     />
                     <button 
                       type="submit"
-                      className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-xl bg-[#00E5FF]/10 text-[#00E5FF] hover:bg-[#00E5FF] hover:text-black transition-all"
+                      className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-xl bg-[#00E5FF]/10 text-[#00E5FF] hover:bg-[#00E5FF] hover:text-white transition-all"
                     >
                       <ArrowRight className="w-4 h-4" />
                     </button>
@@ -787,7 +787,7 @@ export default function SolutionsBento() {
                         onClick={() => setChatbotStep(1)}
                         className="text-[10px] text-[#00E5FF] font-bold uppercase tracking-widest hover:underline"
                      >
-                        Hoppa till bokning →
+                        Hoppa till bokning &rarr;
                      </button>
                   </div>
                 </div>
@@ -854,7 +854,7 @@ export default function SolutionsBento() {
                         if (formData.orgType && formData.platform && formData.selectedPackage) setChatbotStep(2);
                       }}
                       disabled={!formData.orgType || !formData.platform || !formData.selectedPackage}
-                      className="w-full mt-8 py-3 rounded-xl bg-gradient-to-r from-[#00E5FF] to-[#007BFF] text-white font-semibold flex items-center justify-center gap-2 hover:opacity-90 disabled:opacity-50 transition-opacity shadow-[0_0_20px_rgba(0,229,255,0.4)]"
+                      className="w-full mt-8 py-3 rounded-xl bg-gradient-to-r from-[#00E5FF] to-[#007BFF] text-white font-semibold flex items-center justify-center gap-2 hover:opacity-90 disabled:opacity-50 transition-opacity shadow-[0_0_20px_rgba(15,76,58,0.4)]"
                     >
                       Nästa Steg
                     </button>
@@ -889,9 +889,9 @@ export default function SolutionsBento() {
                           Namn: formData.fullName,
                           Epost: formData.email,
                           Organisationstyp: formData.orgType,
-                          Föredragen_Plattform: formData.platform,
+                          Preferred_Platform: formData.platform,
                           Valt_Paket: formData.selectedPackage,
-                          Tjänst: "AI Chatbot Förfrågan",
+                          Tjanst: "AI Chatbot Förfrågan",
                           "Subject": "Ny AI Chatbot Förfrågan"
                         }),
                       });
@@ -931,7 +931,7 @@ export default function SolutionsBento() {
                       <button 
                         type="submit"
                         disabled={loadingCard === "Chatbot_Lead" || !formData.fullName.trim() || !formData.email.trim()}
-                        className="w-2/3 py-3 rounded-xl bg-gradient-to-r from-[#00E5FF] to-[#007BFF] text-white font-semibold flex items-center justify-center gap-2 hover:opacity-90 disabled:opacity-50 transition-opacity shadow-[0_0_20px_rgba(0,229,255,0.4)]"
+                        className="w-2/3 py-3 rounded-xl bg-gradient-to-r from-[#00E5FF] to-[#007BFF] text-white font-semibold flex items-center justify-center gap-2 hover:opacity-90 disabled:opacity-50 transition-opacity shadow-[0_0_20px_rgba(15,76,58,0.4)]"
                       >
                         {loadingCard === "Chatbot_Lead" ? <Loader2 className="w-5 h-5 animate-spin" /> : "Skicka Förfrågan"}
                       </button>
@@ -940,7 +940,7 @@ export default function SolutionsBento() {
                 </motion.div>
               ) : (
                 <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="flex flex-col items-center w-full mt-4">
-                  <CheckCircle2 className="w-16 h-16 text-[#00E5FF] mb-4 drop-shadow-[0_0_20px_rgba(0,229,255,0.6)]" />
+                  <CheckCircle2 className="w-16 h-16 text-[#00E5FF] mb-4 drop-shadow-[0_0_20px_rgba(15,76,58,0.6)]" />
                   <h3 className="text-xl font-bold text-white mb-2">Mottaget!</h3>
                   <p className="text-[#00E5FF] font-medium text-center">Tack! Agent X förbereder en demo baserad på din verksamhet.</p>
                   <button onClick={() => setShowChatbotModal(null)} className="mt-8 px-6 py-2 rounded-full border border-white/20 text-white/70 hover:text-white hover:bg-white/10 transition-colors">
@@ -984,7 +984,7 @@ export default function SolutionsBento() {
                     <div className="font-mono text-sm mb-12 relative">
                        <span className="text-[#7000FF] mr-2 opacity-70">root@smartart:~$</span>
                        <p className="inline text-white/90 leading-relaxed">
-                          "Vi bygger inte bara hemsidor – vi skapar system som genererar kunder och driver tillväxt."
+                          "Vi bygger inte bara hemsidor - vi skapar system som genererar kunder och driver tillväxt."
                           <motion.span 
                             animate={{ opacity: [1, 0] }}
                             transition={{ duration: 0.8, repeat: Infinity }}
@@ -1031,7 +1031,7 @@ export default function SolutionsBento() {
                               <h5 className="font-bold text-white text-xl tracking-tighter shadow-white/10 drop-shadow-sm">Essential Launch</h5>
                            </div>
                            <div className="absolute top-4 right-4 rotate-0">
-                               <span className="text-[#A855F7] font-mono text-[8px] px-2 py-0.5 rounded border border-[#A855F7]/30 bg-[#A855F7]/5 animate-pulse shadow-[0_0_10px_rgba(168,85,247,0.2)]">SYSTEM: BAS</span>
+                               <span className="text-[#0F4C3A] font-mono text-[8px] px-2 py-0.5 rounded border border-[#0F4C3A]/30 bg-[#0F4C3A]/5 animate-pulse shadow-[0_0_10px_rgba(15,76,58,0.2)]">SYSTEM: BAS</span>
                            </div>
                            <p className="text-white/90 text-xs mb-4 leading-relaxed font-mono">Perfekt för små företag som vill komma igång snabbt med en professionell närvaro online.</p>
                            <div className="h-4"></div>
@@ -1044,14 +1044,14 @@ export default function SolutionsBento() {
                         >
                            <div className="absolute top-0 right-0 px-4 py-1.5 bg-[#7000FF] text-white text-[9px] font-black uppercase tracking-[0.2em] shadow-[0_0_30px_rgba(112,0,255,0.6)] z-20">Mest populär</div>
                            <div className="absolute top-10 right-4">
-                              <span className="text-[#00E5FF] font-mono text-[8px] px-2 py-0.5 rounded border border-[#00E5FF]/40 bg-[#00E5FF]/5 animate-pulse shadow-[0_0_10px_rgba(0,229,255,0.3)]">SYSTEM: PREMIUM</span>
+                              <span className="text-[#00E5FF] font-mono text-[8px] px-2 py-0.5 rounded border border-[#00E5FF]/40 bg-[#00E5FF]/5 animate-pulse shadow-[0_0_10px_rgba(15,76,58,0.3)]">SYSTEM: PREMIUM</span>
                            </div>
                            <div className="flex justify-between items-center mb-4">
                               <h5 className="font-bold text-white text-xl tracking-tighter text-shadow-sm">Growth Engine</h5>
                            </div>
                            <p className="text-white text-xs mb-4 leading-relaxed font-bold font-mono">För företag som vill växa snabbare med smarta system och bättre kundflöde.</p>
                            <div className="h-4"></div>
-                           <div className="text-sm text-white font-mono">Pris: <span className="text-[#00E5FF] font-black text-3xl tracking-tighter drop-shadow-[0_0_20px_rgba(0,229,255,0.8)]">14,999 kr</span></div>
+                           <div className="text-sm text-white font-mono">Pris: <span className="text-[#00E5FF] font-black text-3xl tracking-tighter drop-shadow-[0_0_20px_rgba(15,76,58,0.8)]">14,999 kr</span></div>
                         </div>
 
                         {/* Secondary Trust Section */}
@@ -1062,7 +1062,7 @@ export default function SolutionsBento() {
                               { icon: <Settings className="w-3 h-3" />, text: "Byggt för svenska företag" }
                            ].map((item, i) => (
                               <div key={i} className="flex flex-col items-center text-center gap-2">
-                                 <div className="w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-cyan-400 border border-cyan-400/20 shadow-[0_0_10px_rgba(0,229,255,0.2)]">
+                                 <div className="w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-emerald-200 border border-[#0F4C3A]/20 shadow-[0_0_10px_rgba(15,76,58,0.2)]">
                                     {item.icon}
                                  </div>
                                  <span className="text-white text-[11px] font-bold tracking-widest uppercase">
@@ -1109,7 +1109,7 @@ export default function SolutionsBento() {
                               </p>
                               <button 
                                  onClick={() => window.open('https://calendly.com', '_blank')}
-                                 className="text-[#00E5FF] text-[10px] font-black uppercase tracking-[0.2em] hover:text-white transition-all underline underline-offset-4 decoration-[#00E5FF]/40 drop-shadow-[0_0_15px_rgba(0,229,255,0.5)]"
+                                 className="text-[#00E5FF] text-[10px] font-black uppercase tracking-[0.2em] hover:text-white transition-all underline underline-offset-4 decoration-[#00E5FF]/40 drop-shadow-[0_0_15px_rgba(15,76,58,0.5)]"
                               >
                                  Eller boka ett gratis möte
                               </button>
@@ -1132,9 +1132,9 @@ export default function SolutionsBento() {
                                   body: JSON.stringify({
                                      Namn: formData.fullName,
                                      Epost: formData.email,
-                                     Företag: formData.organization || "Ej angivet",
+                                      Foretag: formData.organization || "Ej angivet",
                                      Valt_Paket: formData.selectedPackage,
-                                     Tjänst: "Web Development Growth System",
+                                      Tjanst: "Web Development Growth System",
                                      "Subject": `Ny Order: ${formData.selectedPackage}`
                                   }),
                                });
@@ -1306,11 +1306,11 @@ export default function SolutionsBento() {
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.95, opacity: 0, y: 20 }}
               onClick={(e) => e.stopPropagation()}
-              className="w-full max-w-xl glass-panel rounded-[2.5rem] p-10 relative border border-white/10 shadow-[0_0_100px_rgba(255,0,127,0.1)] overflow-hidden"
+              className="w-full max-w-xl glass-panel rounded-[2.5rem] p-10 relative border border-white/10 shadow-[0_0_100px_rgba(15,76,58,0.1)] overflow-hidden"
             >
               {/* Background ambient glow - Pink for card 4 */}
               <div 
-                className="absolute -top-24 -right-24 w-64 h-64 rounded-full blur-[120px] opacity-10 bg-[#FF007F] pointer-events-none"
+                className="absolute -top-24 -right-24 w-64 h-64 rounded-full blur-[120px] opacity-10 bg-[#0F4C3A] pointer-events-none"
               />
 
               <button 
@@ -1325,9 +1325,9 @@ export default function SolutionsBento() {
                 {ideaStep === 0 ? (
                   <>
                     <div className="mb-10 text-left">
-                      <div className="w-12 h-1 px-3 rounded-full mb-8 bg-gradient-to-r from-[#FF007F] to-transparent" />
+                      <div className="w-12 h-1 px-3 rounded-full mb-8 bg-gradient-to-r from-[#0F4C3A] to-transparent" />
                       <h3 className="text-4xl font-black text-white tracking-tighter italic mb-4">Berätta om din idé</h3>
-                      <p className="text-white/60 text-lg leading-relaxed font-light">"Har du en idé eller ett problem du vill lösa? Vi hjälper dig att bygga en skräddarsydd lösning – enkelt och utan krångel."</p>
+                      <p className="text-white/60 text-lg leading-relaxed font-light">"Har du en idé eller ett problem du vill lösa? Vi hjälper dig att bygga en skräddarsydd lösning - enkelt och utan krångel."</p>
                     </div>
 
                     <form onSubmit={async (e) => {
@@ -1343,7 +1343,7 @@ export default function SolutionsBento() {
                             "Företag": formData.organization || "Ej angivet",
                             "Behovstyp": formData.orgType,
                             "Beskrivning": ideaText,
-                            "Subject": "New Custom Request – SmartArtAI"
+                            "Subject": "New Custom Request - SmartArtAI"
                           }),
                         });
                         setIdeaStep(1);
@@ -1359,7 +1359,7 @@ export default function SolutionsBento() {
                            placeholder="Beskriv kort din idé eller utmaning..."
                            value={ideaText}
                            onChange={(e) => setIdeaText(e.target.value)}
-                           className="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 text-white placeholder:text-white/20 focus:outline-none focus:border-[#FF007F] transition-all min-h-[120px] resize-none text-[15px]"
+                           className="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 text-white placeholder:text-white/20 focus:outline-none focus:border-[#0F4C3A] transition-all min-h-[120px] resize-none text-[15px]"
                          />
                       </div>
 
@@ -1367,12 +1367,12 @@ export default function SolutionsBento() {
                         <input 
                           type="text" placeholder="Namn" required
                           value={formData.fullName} onChange={e => setFormData({...formData, fullName: e.target.value})}
-                          className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder:text-white/20 focus:outline-none focus:border-[#FF007F] transition-all"
+                          className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder:text-white/20 focus:outline-none focus:border-[#0F4C3A] transition-all"
                         />
                         <input 
                           type="email" placeholder="E-post *" required
                           value={formData.email} onChange={e => setFormData({...formData, email: e.target.value})}
-                          className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder:text-white/20 focus:outline-none focus:border-[#FF007F] transition-all"
+                          className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder:text-white/20 focus:outline-none focus:border-[#0F4C3A] transition-all"
                         />
                       </div>
 
@@ -1380,13 +1380,13 @@ export default function SolutionsBento() {
                         <input 
                           type="text" placeholder="Företag (valfritt)"
                           value={formData.organization} onChange={e => setFormData({...formData, organization: e.target.value})}
-                          className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder:text-white/20 focus:outline-none focus:border-[#FF007F] transition-all"
+                          className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder:text-white/20 focus:outline-none focus:border-[#0F4C3A] transition-all"
                         />
                         <div className="relative">
                           <select 
                             required
                             value={formData.orgType} onChange={e => setFormData({...formData, orgType: e.target.value})}
-                            className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-3.5 text-white/60 focus:outline-none focus:border-[#FF007F] transition-all appearance-none cursor-pointer"
+                            className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-3.5 text-white/60 focus:outline-none focus:border-[#0F4C3A] transition-all appearance-none cursor-pointer"
                           >
                             <option value="" disabled>Typ av behov *</option>
                             <option value="Automation">Automation</option>
@@ -1403,7 +1403,7 @@ export default function SolutionsBento() {
                         <button 
                           type="submit"
                           disabled={loadingCard === "CustomIdea"}
-                          className="w-full py-5 rounded-2xl bg-[#FF007F] text-white font-black uppercase tracking-[0.3em] text-[11px] hover:scale-[1.02] active:scale-[0.98] transition-all shadow-[0_0_30px_rgba(255,0,127,0.4)] disabled:opacity-50"
+                          className="w-full py-5 rounded-2xl bg-[#0F4C3A] text-white font-black uppercase tracking-[0.3em] text-[11px] hover:scale-[1.02] active:scale-[0.98] transition-all shadow-[0_0_30px_rgba(15,76,58,0.4)] disabled:opacity-50"
                         >
                           {loadingCard === "CustomIdea" ? <Loader2 className="w-5 h-5 animate-spin mx-auto" /> : "Skicka förfrågan"}
                         </button>
@@ -1417,8 +1417,8 @@ export default function SolutionsBento() {
                     animate={{ opacity: 1, scale: 1 }} 
                     className="flex flex-col items-center py-12 text-center"
                   >
-                    <div className="w-20 h-20 rounded-full bg-[#FF007F]/20 flex items-center justify-center mb-8 shadow-[0_0_40px_rgba(255,0,127,0.4)]">
-                       <CheckCircle2 className="w-10 h-10 text-[#FF007F]" />
+                    <div className="w-20 h-20 rounded-full bg-[#0F4C3A]/20 flex items-center justify-center mb-8 shadow-[0_0_40px_rgba(15,76,58,0.4)]">
+                       <CheckCircle2 className="w-10 h-10 text-[#0F4C3A]" />
                     </div>
                     <h3 className="text-3xl font-black text-white tracking-tighter italic mb-4 uppercase">Tack!</h3>
                     <p className="text-white/60 text-lg leading-relaxed max-w-sm italic">

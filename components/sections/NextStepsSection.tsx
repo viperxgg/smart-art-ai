@@ -38,7 +38,7 @@ export default function NextStepsSection() {
         </div>
 
         <div className="flex flex-col md:flex-row items-start justify-between gap-8 relative mb-24">
-          <div className="hidden md:block absolute top-[2.5rem] left-[10%] right-[10%] h-[1px] bg-gradient-to-r from-violet-500/0 via-violet-500/30 to-violet-500/0" />
+          <div className="hidden md:block absolute top-[2.5rem] left-[10%] right-[10%] h-[1px] bg-gradient-to-r from-[#0F4C3A]/0 via-[#0F4C3A]/30 to-[#0F4C3A]/0" />
           
           {steps.map((step, i) => (
             <motion.div
@@ -51,8 +51,8 @@ export default function NextStepsSection() {
             >
               <div className={`
                 w-16 h-16 rounded-2xl flex items-center justify-center mb-10 border font-mono text-sm font-black transition-all duration-500
-                ${step.highlight 
-                  ? 'bg-violet-600 border-violet-400 text-white shadow-[0_0_40px_rgba(139,92,246,0.5)]' 
+                ${step.highlight
+                  ? 'bg-[#0F4C3A] border-[#0F4C3A] text-white shadow-[0_0_40px_rgba(15,76,58,0.5)]'
                   : 'bg-white/5 border-white/10 text-white/50'
                 }
               `}>
@@ -61,7 +61,7 @@ export default function NextStepsSection() {
               
               <p className={`
                 text-xl font-bold tracking-tight px-4 max-w-[240px]
-                ${step.highlight ? 'text-violet-400' : 'text-white/60'}
+                ${step.highlight ? 'text-emerald-200' : 'text-white/60'}
               `}>
                 {step.text}
               </p>
@@ -78,7 +78,7 @@ export default function NextStepsSection() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.8 }}
-          className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-cyan-400 text-[12px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-8 font-mono"
+          className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-emerald-200 text-[12px] font-bold uppercase tracking-[0.2em] md:tracking-[0.4em] mb-8 font-mono"
         >
           <Bot className="w-3 h-3" />
           {t("badge")}

@@ -168,8 +168,8 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
   return (
     <div className="w-full py-12 relative">
       <div className="max-w-5xl mx-auto px-4 mb-10">
-        <div className="rounded-[2rem] border border-cyan-500/20 bg-gradient-to-r from-cyan-500/10 via-white/[0.03] to-transparent px-6 py-5">
-          <p className="text-[10px] font-mono uppercase tracking-[0.28em] text-cyan-400/80 mb-2">
+        <div className="rounded-[2rem] border border-[#0F4C3A]/20 bg-gradient-to-r from-[#0F4C3A]/10 via-white/[0.03] to-transparent px-6 py-5">
+          <p className="text-[10px] font-mono uppercase tracking-[0.28em] text-emerald-200/80 mb-2">
             {copy.launchLabel}
           </p>
           <p className="text-white/75 text-sm leading-relaxed">{copy.launchBody}</p>
@@ -182,12 +182,12 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
             key={plan.id}
             className={`relative group p-8 rounded-3xl border transition-all duration-500 hover:scale-[1.02] ${
               plan.featured
-                ? "bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-transparent border-cyan-500/50 shadow-[0_0_40px_rgba(6,182,212,0.15)]"
+                ? "bg-gradient-to-br from-[#0F4C3A]/10 via-blue-500/5 to-transparent border-[#0F4C3A]/50 shadow-[0_0_40px_rgba(15,76,58,0.15)]"
                 : "bg-white/5 border-white/10 hover:border-white/20"
             }`}
           >
             {plan.badge ? (
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-cyan-500 text-white text-xs font-bold uppercase tracking-widest shadow-[0_0_15px_rgba(6,182,212,0.5)]">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-[#0F4C3A] text-white text-xs font-bold uppercase tracking-widest shadow-[0_0_15px_rgba(15,76,58,0.5)]">
                 {plan.badge}
               </div>
             ) : null}
@@ -207,7 +207,7 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
                 </span>
               </div>
               <div className="mt-4 pt-4 border-t border-white/5">
-                <p className="text-[10px] text-cyan-400 font-mono leading-relaxed">
+                <p className="text-[10px] text-emerald-200 font-mono leading-relaxed">
                   {copy.setupLabel}:{" "}
                   <span className="text-white font-bold">{plan.setup} SEK</span>
                   <br />
@@ -223,8 +223,8 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
             <ul className="space-y-4 mb-10">
               {plan.features.map((feature, i) => (
                 <li key={i} className="flex items-start gap-3 text-white/70 text-sm">
-                  <div className="mt-1 w-4 h-4 rounded-full bg-cyan-500/20 flex items-center justify-center shrink-0">
-                    <Check className="w-2.5 h-2.5 text-cyan-400" />
+                  <div className="mt-1 w-4 h-4 rounded-full bg-[#0F4C3A]/20 flex items-center justify-center shrink-0">
+                    <Check className="w-2.5 h-2.5 text-emerald-200" />
                   </div>
                   {feature}
                 </li>
@@ -235,7 +235,7 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
               onClick={() => setSelectedPlan(plan.name)}
               className={`w-full py-4 rounded-xl text-sm font-bold transition-all ${
                 plan.featured
-                  ? "bg-cyan-500 text-white hover:bg-cyan-400"
+                  ? "bg-[#0F4C3A] text-white hover:bg-[#0F4C3A]"
                   : "bg-white/10 text-white hover:bg-white/20 border border-white/10"
               }`}
             >
@@ -275,8 +275,8 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
 
               {isFormSubmitted ? (
                 <div className="text-center py-10">
-                  <div className="w-20 h-20 rounded-full bg-cyan-500/20 flex items-center justify-center mx-auto mb-8">
-                    <Check className="w-10 h-10 text-cyan-400" />
+                  <div className="w-20 h-20 rounded-full bg-[#0F4C3A]/20 flex items-center justify-center mx-auto mb-8">
+                    <Check className="w-10 h-10 text-emerald-200" />
                   </div>
                   <h2 className="text-3xl font-bold text-white mb-4">{copy.thankYou}</h2>
                   <p className="text-white/60 mb-8 leading-relaxed">{copy.thankYouBody}</p>
@@ -285,7 +285,7 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
                       setSelectedPlan(null);
                       setIsFormSubmitted(false);
                     }}
-                    className="text-cyan-400 font-mono text-sm underline hover:text-cyan-300"
+                    className="text-emerald-200 font-mono text-sm underline hover:text-emerald-200"
                   >
                     {copy.closeWindow}
                   </button>
@@ -293,7 +293,7 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
               ) : (
                 <>
                   <div className="mb-10">
-                    <span className="text-cyan-400 font-mono text-xs uppercase tracking-[0.2em] mb-3 block">
+                    <span className="text-emerald-200 font-mono text-xs uppercase tracking-[0.2em] mb-3 block">
                       {copy.inquiryLabel}
                     </span>
                     <h2 className="text-3xl font-bold text-white">{selectedPlan}</h2>
@@ -314,7 +314,7 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
                           name="Name"
                           type="text"
                           placeholder="Erik Svensson"
-                          className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-white/20 focus:border-cyan-500/50 outline-none transition-all"
+                          className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-white/20 focus:border-[#0F4C3A]/50 outline-none transition-all"
                         />
                       </div>
 
@@ -328,7 +328,7 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
                             name="Company"
                             type="text"
                             placeholder="Vasa Grillen"
-                            className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-white/20 focus:border-cyan-500/50 outline-none transition-all"
+                            className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-white/20 focus:border-[#0F4C3A]/50 outline-none transition-all"
                           />
                         </div>
                         <div className="space-y-2">
@@ -340,7 +340,7 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
                             name="Phone"
                             type="tel"
                             placeholder="070 000 00 00"
-                            className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-white/20 focus:border-cyan-500/50 outline-none transition-all"
+                            className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-white/20 focus:border-[#0F4C3A]/50 outline-none transition-all"
                           />
                         </div>
                       </div>
@@ -354,14 +354,14 @@ export const PricingTable: React.FC<PricingTableProps> = ({ locale }) => {
                           name="email"
                           type="email"
                           placeholder="erik@restaurang.se"
-                          className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-white/20 focus:border-cyan-500/50 outline-none transition-all"
+                          className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-white/20 focus:border-[#0F4C3A]/50 outline-none transition-all"
                         />
                       </div>
                     </div>
 
                     <button
                       disabled={isLoading}
-                      className="w-full bg-white text-black font-bold py-5 rounded-2xl flex items-center justify-center gap-3 hover:bg-cyan-400 transition-colors disabled:opacity-50"
+                      className="w-full bg-[#0F4C3A] text-white font-bold py-5 rounded-2xl flex items-center justify-center gap-3 hover:bg-[#0F4C3A] transition-colors disabled:opacity-50"
                     >
                       {isLoading ? (
                         <div className="w-5 h-5 border-2 border-black/20 border-t-black rounded-full animate-spin" />

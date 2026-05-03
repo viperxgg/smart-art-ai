@@ -11,7 +11,7 @@ export default function ResultsSection() {
     { icon: <Zap className="w-5 h-5 text-yellow-500" />, text: t("benefit1") },
     { icon: <TrendingUp className="w-5 h-5 text-green-500" />, text: t("benefit2") },
     { icon: <ShieldCheck className="w-5 h-5 text-blue-500" />, text: t("benefit3") },
-    { icon: <Users className="w-5 h-5 text-purple-500" />, text: t("benefit4") },
+    { icon: <Users className="w-5 h-5 text-emerald-200" />, text: t("benefit4") },
   ];
 
   return (

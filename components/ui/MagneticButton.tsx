@@ -35,7 +35,7 @@ export default function MagneticButton({ children, className, ...props }: Magnet
       className={cn(
         "relative px-8 py-3 rounded-full overflow-hidden group glass-panel",
         "text-white font-medium text-sm tracking-wide transition-all duration-300",
-        "hover:shadow-[0_0_20px_rgba(0,229,255,0.4)]",
+        "hover:shadow-[0_0_20px_rgba(15,76,58,0.4)]",
         className
       )}
       {...(props as any)}

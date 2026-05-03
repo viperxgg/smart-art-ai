@@ -23,7 +23,7 @@ export default function ProblemSolutionFlow() {
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/40 text-cyan-400 text-[10px] font-bold uppercase tracking-[0.4em] mb-12 font-mono"
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0F4C3A]/20 border border-[#0F4C3A]/40 text-emerald-200 text-[10px] font-bold uppercase tracking-[0.4em] mb-12 font-mono"
           >
             <Zap className="w-3 h-3" />
             {tNS("micro_text")}
@@ -49,7 +49,7 @@ export default function ProblemSolutionFlow() {
 
         <div className="flex flex-col md:flex-row items-start justify-between gap-12 relative">
           {/* Connecting line */}
-          <div className="hidden md:block absolute top-[2.5rem] left-[5%] right-[5%] h-[1px] bg-gradient-to-r from-cyan-500/0 via-cyan-500/20 to-cyan-500/0" />
+          <div className="hidden md:block absolute top-[2.5rem] left-[5%] right-[5%] h-[1px] bg-gradient-to-r from-[#0F4C3A]/0 via-[#0F4C3A]/20 to-[#0F4C3A]/0" />
           
           {steps.map((step, i) => (
             <motion.div
@@ -62,9 +62,9 @@ export default function ProblemSolutionFlow() {
             >
               <div className={`
                 w-20 h-20 rounded-[1.5rem] flex items-center justify-center mb-12 border font-mono text-lg font-black transition-all duration-700
-                ${step.highlight 
-                  ? 'bg-cyan-500 border-cyan-400 text-black shadow-[0_0_50px_rgba(34,211,238,0.3)] rotate-12' 
-                  : 'bg-white/5 border-white/10 text-white/50 group-hover:border-cyan-500/30'
+                ${step.highlight
+                  ? 'bg-[#0F4C3A] border-[#0F4C3A] text-white shadow-[0_0_50px_rgba(15,76,58,0.3)] rotate-12'
+                  : 'bg-white/5 border-white/10 text-white/50 group-hover:border-[#0F4C3A]/30'
                 }
               `}>
                 {step.num}
@@ -72,7 +72,7 @@ export default function ProblemSolutionFlow() {
               
               <h3 className={`
                 text-2xl font-black tracking-tight px-6 leading-tight
-                ${step.highlight ? 'text-cyan-400' : 'text-white/80'}
+                ${step.highlight ? 'text-emerald-200' : 'text-white/80'}
               `}>
                 {step.text}
               </h3>
@@ -112,7 +112,7 @@ export default function ProblemSolutionFlow() {
       </div>
 
       {/* Background Glow */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-cyan-500/5 blur-[120px] rounded-full pointer-events-none" />
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-[#0F4C3A]/5 blur-[120px] rounded-full pointer-events-none" />
     </section>
   );
 }
