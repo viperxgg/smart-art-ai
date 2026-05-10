@@ -96,6 +96,7 @@ const services = [
       "Premium digital layout",
       "Anpassad restaurangkänsla",
     ],
+    demoHref: "https://qr-menu-test-one.vercel.app/",
   },
   {
     id: "print-ready-menu",
@@ -457,6 +458,17 @@ function CoreServicesSection() {
                       </div>
                     ))}
                   </div>
+                  {service.demoHref ? (
+                    <a
+                      href={service.demoHref}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="restaurant-button restaurant-button-primary mt-7 w-full"
+                    >
+                      Se demo
+                      <ArrowRight className="h-4 w-4" />
+                    </a>
+                  ) : null}
                 </article>
               </StaggerItem>
             );
