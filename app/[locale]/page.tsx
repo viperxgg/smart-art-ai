@@ -1,4 +1,4 @@
-import HomePageV2 from "@/components/home_page_v2";
+import RestaurantRepositionHome from "@/components/restaurant-home/RestaurantRepositionHome";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { buildMetadata, getServiceSchema } from "@/lib/seo";
 import type { AppLocale } from "@/lib/site";
@@ -15,17 +15,18 @@ export async function generateMetadata({
     pathname: "/",
     title:
       locale === "sv"
-        ? "Smart Art Ai | Hållbara AI-lösningar för digital drift"
-        : "Smart Art Ai | Sustainable AI solutions for digital operations",
+        ? "Nord Smart Menu | Digitala menyer & menydesign för restauranger i Sverige"
+        : "Nord Smart Menu | Digital menus and menu design for restaurants in Sweden",
     description:
       locale === "sv"
-        ? "Smart Art Ai utvecklar hållbara och intelligenta SaaS-lösningar för att optimera framtidens verksamheter."
-        : "Smart Art Ai develops sustainable and intelligent SaaS solutions that optimize the businesses of tomorrow.",
+        ? "QR-menyer, digitala menyupplevelser och tryckklara menydesigner för restauranger, caféer, barer och hotell i Sverige. Engångsbetalning utan månadsabonnemang för kärnleveransen."
+        : "QR menus, digital menu experiences, and print-ready menu design for restaurants, cafés, bars, and hotels in Sweden.",
     keywords: [
-      "Smart Art Ai",
-      "AI-lösningar Sverige",
-      "SaaS automation",
-      "hållbar digital drift",
+      "Nord Smart Menu",
+      "digital meny restaurang",
+      "QR meny Sverige",
+      "menydesign restaurang",
+      "tryckklar meny",
     ],
   });
 }
@@ -42,16 +43,16 @@ export default async function Home({
       <JsonLd
         data={getServiceSchema({
           locale,
-          name: "Smart Art Ai",
+          name: "Nord Smart Menu",
           description:
             locale === "sv"
-              ? "Hållbara och intelligenta SaaS-lösningar för digitala operationer."
-              : "Sustainable and intelligent SaaS solutions for digital operations.",
-          serviceType: locale === "sv" ? "AI och SaaS-lösningar" : "AI and SaaS solutions",
+              ? "Premium QR-menyer, digitala beställningsflöden och tryckklar menydesign för restauranger."
+              : "Premium QR menus, digital ordering flows, and print-ready menu design for restaurants.",
+          serviceType: locale === "sv" ? "Digital meny och menydesign" : "Digital menu and menu design",
           pathname: "/",
         })}
       />
-      <HomePageV2 />
+      <RestaurantRepositionHome locale={locale} />
     </>
   );
 }

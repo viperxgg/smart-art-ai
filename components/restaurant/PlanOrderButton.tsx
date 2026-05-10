@@ -12,16 +12,16 @@ interface PlanOrderButtonProps {
 
 const copy = {
   sv: {
-    label: "Beställ nu",
-    servicePrefix: "Beställning av Nord App",
+    label: "Be om prisförslag",
+    servicePrefix: "Prisförfrågan för Nord Smart Menu",
     intro:
-      "Vårt team är redo att hjälpa er. Fyll i uppgifterna så kontaktar vi er via e-post så snart som möjligt.",
+      "Berätta kort om restaurangen och menyn, så återkommer vi med ett tydligt förslag.",
   },
   en: {
-    label: "Order now",
-    servicePrefix: "Nord App order request",
+    label: "Request proposal",
+    servicePrefix: "Nord Smart Menu proposal request",
     intro:
-      "Our team is ready to help. Share your details and we will contact you by email as soon as possible.",
+      "Tell us briefly about the restaurant and menu, and we will follow up with a clear proposal.",
   },
 } as const;
 

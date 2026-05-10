@@ -18,12 +18,12 @@ export async function generateMetadata({
         : "Digital Menu for Restaurants | Nord Smart Menu",
     description:
       locale === "sv"
-        ? "Modern QR-meny för restauranger med gästvy, adminpanel, köksvy, ingredienser, kalorier och tydligare serviceflöde."
+        ? "Modern QR-meny och menydesign för restauranger med gästvy, ingredienser, allergener, tydlig mobilupplevelse och engångsbetalning för kärnleveransen."
         : "Modern QR menu for restaurants with guest view, admin panel, kitchen view, ingredients, calories, and a clearer service workflow.",
     keywords:
       locale === "sv"
-        ? ["Smart Art Ai", "Nord Smart Menu", "AI SaaS Sverige", "digital restaurangdrift"]
-        : ["Smart Art Ai", "Nord Smart Menu", "AI SaaS Sweden", "digital restaurant operations"],
+        ? ["Nord Smart Menu", "QR meny restaurang", "digital meny restaurang", "menydesign restaurang"]
+        : ["Nord Smart Menu", "QR menu restaurant", "digital menu restaurant", "restaurant menu design"],
   });
 }
 

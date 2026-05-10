@@ -12,7 +12,8 @@ interface LocaleShellProps {
 export default function LocaleShell({ children }: LocaleShellProps) {
   const pathname = usePathname();
   const isDemoRoute = pathname.includes("/demo/");
-  const showMarketingShell = !isDemoRoute;
+  const isHomeRoute = pathname === "/" || pathname === "/en";
+  const showMarketingShell = !isDemoRoute && !isHomeRoute;
 
   return (
     <>

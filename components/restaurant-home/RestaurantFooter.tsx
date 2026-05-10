@@ -1,20 +1,14 @@
-"use client";
-
-import Link from "next/link";
 import { Mail, MapPin } from "lucide-react";
-import { useLocale } from "next-intl";
-import { getLocalizedHref, type AppLocale } from "@/lib/site";
+import type { AppLocale } from "@/lib/site";
 
-export default function Footer() {
-  const locale = useLocale() as AppLocale;
-  const homeHref = getLocalizedHref("/", locale);
-  const anchor = (hash: string) => `${homeHref}${hash}`;
+export function RestaurantFooter({ locale }: { locale: AppLocale }) {
+  void locale;
 
   return (
     <footer className="border-t border-[rgba(217,173,98,0.18)] bg-[var(--restaurant-dark)] px-5 py-14 text-[#fff8ef] md:px-6">
       <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.2fr_1fr_1fr]">
         <div>
-          <Link href={homeHref} className="inline-flex items-center gap-3">
+          <a href="#home" className="inline-flex items-center gap-3">
             <span className="grid h-11 w-11 place-items-center rounded-2xl bg-[#fff8ef] text-sm font-black text-[var(--restaurant-dark)]">
               SA
             </span>
@@ -22,7 +16,7 @@ export default function Footer() {
               <span className="block text-base font-black">Smart Art AI</span>
               <span className="block text-sm text-[#d9ad62]">Nord Smart Menu</span>
             </span>
-          </Link>
+          </a>
 
           <p className="mt-5 max-w-md leading-7 text-white/64">
             Smart Art AI skapar moderna menyupplevelser för restauranger i Sverige — från
@@ -33,10 +27,10 @@ export default function Footer() {
         <div>
           <p className="restaurant-eyebrow text-[#d9ad62]">Sidor</p>
           <div className="mt-5 grid gap-3">
-            <Link href={anchor("#smart-menu")} className="footer-link">Nord Smart Menu</Link>
-            <Link href={anchor("#menu-design")} className="footer-link">Digital menydesign</Link>
-            <Link href={anchor("#smart-menu")} className="footer-link">Print-ready meny</Link>
-            <Link href={anchor("#pricing")} className="footer-link">Pris</Link>
+            <a href="#smart-menu" className="footer-link">Nord Smart Menu</a>
+            <a href="#menu-design" className="footer-link">Digital menydesign</a>
+            <a href="#smart-menu" className="footer-link">Print-ready meny</a>
+            <a href="#pricing" className="footer-link">Pris</a>
           </div>
         </div>
 

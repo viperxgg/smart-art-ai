@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s | Smart Art AI",
   },
   description:
-    "Smart Art Ai utvecklar hållbara och intelligenta SaaS-lösningar för att optimera framtidens verksamheter.",
+    "Smart Art AI skapar moderna QR-menyer, digitala menyupplevelser och tryckklar menydesign för restauranger i Sverige.",
   metadataBase: new URL(siteConfig.url),
   alternates: {
     languages: {
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Smart Art AI",
     description:
-      "Hållbara och intelligenta SaaS-lösningar för framtidens digitala operationer.",
+      "Moderna menyupplevelser för restauranger i Sverige — från QR-menyer till digital och tryckklar menydesign.",
     url: siteConfig.url,
     siteName: siteConfig.name,
     locale: "sv_SE",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Smart Art AI",
     description:
-      "Svensk innovation, driven av AI.",
+      "QR-menyer och professionell menydesign för restauranger.",
   },
   robots: {
     index: true,

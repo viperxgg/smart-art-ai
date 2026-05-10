@@ -1,5 +1,7 @@
 .next/
 node_modules/
+.env
+.env.*
 *.tsbuildinfo
 .next-*.png
 .next-*.log

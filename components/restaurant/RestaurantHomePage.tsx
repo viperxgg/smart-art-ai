@@ -100,24 +100,38 @@ export function RestaurantHomePage({ locale }: RestaurantHomePageProps) {
           },
         ],
         pricingEyebrow: "Pris",
-        pricingTitle: "Enkel start för mindre restauranger.",
-        pricingBody: "Hosting ingår. Första månaden är gratis.",
+        pricingTitle: "Engångsbetalning för kärnleveransen.",
+        pricingBody:
+          "Du betalar för ett tydligt projekt: struktur, design, QR-meny och lansering. Framtida uppdateringar, säsongsmenyer och extra support kan köpas till vid behov.",
         plans: [
           {
-            name: "Starter",
-            label: "För mindre restauranger",
-            price: "119 SEK",
-            cadence: "/ månad",
-            setup: "1500 SEK engångsavgift",
-            features: ["Digital QR-meny", "Mobil upplevelse", "Publicerad meny", "Grundläggande menyhantering"],
+            name: "Startpaket",
+            label: "Caféer och mindre menyer",
+            features: ["QR-meny", "Grundläggande menystruktur", "Mobilanpassad design", "Enkel lansering"],
           },
           {
-            name: "Pro",
-            label: "För drift med köksvy",
-            price: "219 SEK",
-            cadence: "/ månad",
-            setup: "2500 SEK engångsavgift",
-            features: ["Allt i Starter", "Adminpanel", "Köksvy", "Draft / Publish", "Roller för admin och kök"],
+            name: "Restaurangpaket",
+            label: "Komplett digital menyupplevelse",
+            features: [
+              "QR-meny",
+              "Digital menydesign",
+              "Rättkategorier",
+              "Allergener och beskrivningar",
+              "Demo / genomgång",
+              "Lanseringshjälp",
+            ],
+          },
+          {
+            name: "Premium Menyupplevelse",
+            label: "Digital meny, tryckdesign och starkare visuell känsla",
+            features: [
+              "Smart Menu",
+              "Digital menyupplevelse",
+              "Print-ready menyfiler",
+              "Säsongsmenystruktur",
+              "Premium layout",
+              "Visuell menystrategi",
+            ],
           },
         ],
         finalTitle: "Vill du se Nord Smart Menu med din restaurang i åtanke?",
@@ -197,24 +211,38 @@ export function RestaurantHomePage({ locale }: RestaurantHomePageProps) {
           },
         ],
         pricingEyebrow: "Pricing",
-        pricingTitle: "A simple start for smaller restaurants.",
-        pricingBody: "Hosting is included. The first month is free.",
+        pricingTitle: "One-time project delivery for the core menu.",
+        pricingBody:
+          "You pay for a clear project: structure, design, QR menu, and launch. Future updates, seasonal menus, and extra support can be purchased when needed.",
         plans: [
           {
-            name: "Starter",
-            label: "For smaller restaurants",
-            price: "119 SEK",
-            cadence: "/ month",
-            setup: "1500 SEK one-time setup",
-            features: ["Digital QR menu", "Mobile experience", "Published menu", "Basic menu management"],
+            name: "Start package",
+            label: "Cafés and smaller menus",
+            features: ["QR menu", "Basic menu structure", "Mobile-first design", "Simple launch"],
           },
           {
-            name: "Pro",
-            label: "For operations with kitchen view",
-            price: "219 SEK",
-            cadence: "/ month",
-            setup: "2500 SEK one-time setup",
-            features: ["Everything in Starter", "Admin panel", "Kitchen view", "Draft / Publish", "Admin and kitchen roles"],
+            name: "Restaurant package",
+            label: "Complete digital menu experience",
+            features: [
+              "QR menu",
+              "Digital menu design",
+              "Dish categories",
+              "Allergens and descriptions",
+              "Demo / walkthrough",
+              "Launch support",
+            ],
+          },
+          {
+            name: "Premium menu experience",
+            label: "Digital menu, print design, and stronger visual identity",
+            features: [
+              "Smart Menu",
+              "Digital menu experience",
+              "Print-ready menu files",
+              "Seasonal menu structure",
+              "Premium layout",
+              "Visual menu strategy",
+            ],
           },
         ],
         finalTitle: "Want to see Nord Smart Menu around your restaurant?",
@@ -400,15 +428,20 @@ export function RestaurantHomePage({ locale }: RestaurantHomePageProps) {
             <h2 className="sai-title-lg mt-4">{copy.pricingTitle}</h2>
             <p className="sai-copy mx-auto mt-4">{copy.pricingBody}</p>
           </div>
-          <div className="mt-10 grid gap-5 lg:grid-cols-2">
+          <div className="mt-10 grid gap-5 lg:grid-cols-3">
             {copy.plans.map((plan) => (
               <article key={plan.name} className="sai-card flex flex-col p-7">
                 <p className="sai-eyebrow">{plan.name}</p>
                 <h3 className="mt-4 text-3xl font-black tracking-tight text-white">{plan.label}</h3>
                 <div className="mt-7 rounded-xl border border-[var(--border-soft)] bg-[var(--bg-soft)] p-5">
-                  <span className="text-5xl font-black tracking-tight text-white">{plan.price}</span>
-                  <span className="ml-2 text-sm font-semibold text-[var(--text-muted)]">{plan.cadence}</span>
-                  <p className="mt-3 text-sm text-[var(--text-muted)]">{plan.setup}</p>
+                  <p className="text-lg font-black text-white">
+                    {isSwedish ? "Tydligt projektpris efter genomgång" : "Clear project proposal after review"}
+                  </p>
+                  <p className="mt-3 text-sm leading-6 text-[var(--text-muted)]">
+                    {isSwedish
+                      ? "Ingen månadsavgift för kärnleveransen."
+                      : "No monthly fee for the core delivery."}
+                  </p>
                 </div>
                 <div className="mt-7 grid gap-3">
                   {plan.features.map((feature) => (

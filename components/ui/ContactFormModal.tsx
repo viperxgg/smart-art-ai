@@ -13,6 +13,7 @@ interface ContactFormModalProps {
   sourcePage?: string;
   ctaContext?: string;
   introMessage?: string;
+  variant?: "default" | "restaurant";
 }
 
 const copy = {
@@ -58,8 +59,68 @@ export default function ContactFormModal({
   sourcePage = "/",
   ctaContext = "generic",
   introMessage,
+  variant = "default",
 }: ContactFormModalProps) {
   const t = copy[locale];
+  const isRestaurant = variant === "restaurant";
+  const title =
+    isRestaurant && locale === "sv"
+      ? "Boka gratis menygenomgång"
+      : isRestaurant
+        ? "Book a free menu review"
+        : t.title;
+  const subtitle =
+    isRestaurant && locale === "sv"
+      ? "Lämna dina kontaktuppgifter så återkommer vi med ett konkret förslag för din meny."
+      : isRestaurant
+        ? "Leave your contact details and we will follow up with a concrete menu proposal."
+        : t.subtitle;
+  const eyebrow = isRestaurant ? "Nord Smart Menu" : "Smart Art AI";
+  const submitLabel =
+    isRestaurant && locale === "sv"
+      ? "Skicka menyförfrågan"
+      : isRestaurant
+        ? "Send menu request"
+        : t.submit;
+  const panelClassName = isRestaurant
+    ? "relative w-full max-w-xl overflow-hidden rounded-[2rem] border border-[var(--restaurant-border)] bg-[var(--restaurant-surface)] text-[var(--restaurant-text)] shadow-[0_34px_110px_rgba(60,32,18,0.28)]"
+    : "sai-panel relative w-full max-w-xl overflow-hidden";
+  const overlayClassName = isRestaurant
+    ? "absolute inset-0 bg-[rgba(22,15,11,0.72)] backdrop-blur-xl"
+    : "absolute inset-0 bg-black/82 backdrop-blur-xl";
+  const topLineClassName = isRestaurant
+    ? "absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--restaurant-tomato)] to-transparent"
+    : "absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--accent-primary)] to-transparent";
+  const eyebrowClassName = isRestaurant
+    ? "restaurant-eyebrow"
+    : "sai-eyebrow";
+  const titleClassName = isRestaurant
+    ? "mt-3 text-3xl font-black tracking-normal text-[var(--restaurant-text)]"
+    : "mt-3 text-3xl font-black tracking-tight text-white";
+  const subtitleClassName = isRestaurant
+    ? "mt-4 max-w-lg leading-7 text-[var(--restaurant-muted)]"
+    : "mt-4 max-w-lg leading-7 text-[var(--text-muted)]";
+  const introClassName = isRestaurant
+    ? "mt-5 rounded-xl border border-[rgba(217,79,48,0.22)] bg-[#fff0e6] px-4 py-3 text-sm font-bold leading-6 text-[var(--restaurant-wine)]"
+    : "mt-5 rounded-xl border border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)] px-4 py-3 text-sm font-medium leading-6 text-[var(--accent-primary)]";
+  const closeClassName = isRestaurant
+    ? "inline-flex h-10 w-10 items-center justify-center rounded-xl border border-[var(--restaurant-border)] bg-[var(--restaurant-surface-warm)] text-[var(--restaurant-muted)] transition hover:text-[var(--restaurant-tomato)]"
+    : "inline-flex h-10 w-10 items-center justify-center rounded-xl border border-[var(--border-soft)] bg-white/[0.035] text-[var(--text-muted)] transition hover:text-white";
+  const inputClassName = isRestaurant
+    ? "w-full min-h-12 rounded-xl border border-[var(--restaurant-border)] bg-white py-4 pl-12 pr-4 text-[var(--restaurant-text)] outline-none transition focus:border-[rgba(217,79,48,0.45)] focus:bg-[#fff8ef]"
+    : "sai-input py-4 pl-12 pr-4";
+  const submitClassName = isRestaurant
+    ? "restaurant-button restaurant-button-primary w-full disabled:opacity-60"
+    : "sai-button sai-button-primary w-full disabled:opacity-60";
+  const successIconClassName = isRestaurant
+    ? "mb-6 inline-flex h-20 w-20 items-center justify-center rounded-full border border-[rgba(217,79,48,0.22)] bg-[#fff0e6] text-[var(--restaurant-tomato)]"
+    : "mb-6 inline-flex h-20 w-20 items-center justify-center rounded-full border border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)] text-[var(--accent-primary)]";
+  const successTitleClassName = isRestaurant
+    ? "text-2xl font-black tracking-normal text-[var(--restaurant-text)]"
+    : "text-2xl font-black tracking-tight text-white";
+  const successBodyClassName = isRestaurant
+    ? "mt-3 max-w-sm leading-7 text-[var(--restaurant-muted)]"
+    : "mt-3 max-w-sm leading-7 text-[var(--text-muted)]";
   const titleId = useId();
   const descriptionId = useId();
   const [loading, setLoading] = useState(false);
@@ -136,7 +197,7 @@ export default function ContactFormModal({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="absolute inset-0 bg-black/82 backdrop-blur-xl"
+            className={overlayClassName}
             onClick={onClose}
           />
 
@@ -148,17 +209,17 @@ export default function ContactFormModal({
             aria-modal="true"
             aria-labelledby={titleId}
             aria-describedby={descriptionId}
-            className="sai-panel relative w-full max-w-xl overflow-hidden"
+            className={panelClassName}
           >
-            <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--accent-primary)] to-transparent" />
+            <div className={topLineClassName} />
             <div className="p-6 md:p-8">
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <p className="sai-eyebrow">Smart Art AI</p>
-                  <h3 id={titleId} className="mt-3 text-3xl font-black tracking-tight text-white">{t.title}</h3>
-                  <p id={descriptionId} className="mt-4 max-w-lg leading-7 text-[var(--text-muted)]">{t.subtitle}</p>
+                  <p className={eyebrowClassName}>{eyebrow}</p>
+                  <h3 id={titleId} className={titleClassName}>{title}</h3>
+                  <p id={descriptionId} className={subtitleClassName}>{subtitle}</p>
                   {introMessage ? (
-                    <div className="mt-5 rounded-xl border border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)] px-4 py-3 text-sm font-medium leading-6 text-[var(--accent-primary)]">
+                    <div className={introClassName}>
                       {introMessage}
                     </div>
                   ) : null}
@@ -166,7 +227,7 @@ export default function ContactFormModal({
                 <button
                   type="button"
                   onClick={onClose}
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-[var(--border-soft)] bg-white/[0.035] text-[var(--text-muted)] transition hover:text-white"
+                  className={closeClassName}
                   aria-label={t.close}
                 >
                   <X className="h-5 w-5" />
@@ -179,16 +240,16 @@ export default function ContactFormModal({
                   animate={{ opacity: 1, y: 0 }}
                   className="flex flex-col items-center py-14 text-center"
                 >
-                  <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-full border border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)] text-[var(--accent-primary)]">
+                  <div className={successIconClassName}>
                     <CheckCircle2 className="h-10 w-10" />
                   </div>
-                  <h4 className="text-2xl font-black tracking-tight text-white">{t.successTitle}</h4>
-                  <p className="mt-3 max-w-sm leading-7 text-[var(--text-muted)]">{t.successBody}</p>
+                  <h4 className={successTitleClassName}>{t.successTitle}</h4>
+                  <p className={successBodyClassName}>{t.successBody}</p>
                 </motion.div>
               ) : (
                 <form onSubmit={handleSubmit} className="mt-8 space-y-4">
                   <div className="grid gap-4 md:grid-cols-2">
-                    <Field label={t.name} icon={<User className="h-4 w-4" />}>
+                    <Field label={t.name} icon={<User className="h-4 w-4" />} variant={variant}>
                       <input
                         name="name"
                         required
@@ -197,11 +258,11 @@ export default function ContactFormModal({
                         onChange={(event) =>
                           setFormData((current) => ({ ...current, fullName: event.target.value }))
                         }
-                        className="sai-input py-4 pl-12 pr-4"
+                        className={inputClassName}
                       />
                     </Field>
 
-                    <Field label={t.email} hint={t.emailHint} icon={<Mail className="h-4 w-4" />}>
+                    <Field label={t.email} hint={t.emailHint} icon={<Mail className="h-4 w-4" />} variant={variant}>
                       <input
                         name="email"
                         required
@@ -211,13 +272,13 @@ export default function ContactFormModal({
                         onChange={(event) =>
                           setFormData((current) => ({ ...current, email: event.target.value }))
                         }
-                        className="sai-input py-4 pl-12 pr-4"
+                        className={inputClassName}
                       />
                     </Field>
                   </div>
 
                   <div className="grid gap-4 md:grid-cols-2">
-                    <Field label={`${t.organization} (${t.optional})`} icon={<Building2 className="h-4 w-4" />}>
+                    <Field label={`${t.organization} (${t.optional})`} icon={<Building2 className="h-4 w-4" />} variant={variant}>
                       <input
                         name="organization"
                         autoComplete="organization"
@@ -225,11 +286,11 @@ export default function ContactFormModal({
                         onChange={(event) =>
                           setFormData((current) => ({ ...current, organization: event.target.value }))
                         }
-                        className="sai-input py-4 pl-12 pr-4"
+                        className={inputClassName}
                       />
                     </Field>
 
-                    <Field label={`${t.phone} (${t.optional})`} icon={<Phone className="h-4 w-4" />}>
+                    <Field label={`${t.phone} (${t.optional})`} icon={<Phone className="h-4 w-4" />} variant={variant}>
                       <input
                         name="phone"
                         type="tel"
@@ -238,20 +299,20 @@ export default function ContactFormModal({
                         onChange={(event) =>
                           setFormData((current) => ({ ...current, phone: event.target.value }))
                         }
-                        className="sai-input py-4 pl-12 pr-4"
+                        className={inputClassName}
                       />
                     </Field>
                   </div>
 
-                  {error ? <p className="text-sm text-red-300">{error}</p> : null}
+                  {error ? <p className={isRestaurant ? "text-sm text-[#b42318]" : "text-sm text-red-300"}>{error}</p> : null}
 
                   <button
                     type="submit"
                     disabled={loading}
-                    className="sai-button sai-button-primary w-full disabled:opacity-60"
+                    className={submitClassName}
                   >
                     {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />}
-                    <span>{t.submit}</span>
+                    <span>{submitLabel}</span>
                   </button>
                 </form>
               )}
@@ -268,20 +329,24 @@ function Field({
   hint,
   icon,
   children,
+  variant = "default",
 }: {
   label: string;
   hint?: string;
   icon: ReactNode;
   children: ReactNode;
+  variant?: "default" | "restaurant";
 }) {
+  const isRestaurant = variant === "restaurant";
+
   return (
     <label className="space-y-2">
       <div className="flex items-center justify-between gap-3">
-        <span className="sai-eyebrow text-[var(--text-muted)]">{label}</span>
-        {hint ? <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-[var(--accent-primary)]">{hint}</span> : null}
+        <span className={isRestaurant ? "restaurant-eyebrow text-[var(--restaurant-muted)]" : "sai-eyebrow text-[var(--text-muted)]"}>{label}</span>
+        {hint ? <span className={isRestaurant ? "text-[10px] font-black uppercase tracking-[0.18em] text-[var(--restaurant-tomato)]" : "text-[10px] font-bold uppercase tracking-[0.18em] text-[var(--accent-primary)]"}>{hint}</span> : null}
       </div>
       <div className="relative">
-        <span className="absolute left-4 top-1/2 -translate-y-1/2 text-[var(--text-muted)]">{icon}</span>
+        <span className={isRestaurant ? "absolute left-4 top-1/2 -translate-y-1/2 text-[var(--restaurant-muted)]" : "absolute left-4 top-1/2 -translate-y-1/2 text-[var(--text-muted)]"}>{icon}</span>
         {children}
       </div>
     </label>
