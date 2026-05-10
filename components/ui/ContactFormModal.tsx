@@ -100,14 +100,11 @@ export default function ContactFormModal({
   const subtitleClassName = isRestaurant
     ? "mt-4 max-w-lg leading-7 text-[var(--restaurant-muted)]"
     : "mt-4 max-w-lg leading-7 text-[var(--text-muted)]";
-  const introClassName = isRestaurant
-    ? "mt-5 rounded-xl border border-[rgba(217,79,48,0.22)] bg-[#fff0e6] px-4 py-3 text-sm font-bold leading-6 text-[var(--restaurant-wine)]"
-    : "mt-5 rounded-xl border border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)] px-4 py-3 text-sm font-medium leading-6 text-[var(--accent-primary)]";
   const closeClassName = isRestaurant
     ? "inline-flex h-10 w-10 items-center justify-center rounded-xl border border-[var(--restaurant-border)] bg-[var(--restaurant-surface-warm)] text-[var(--restaurant-muted)] transition hover:text-[var(--restaurant-tomato)]"
     : "inline-flex h-10 w-10 items-center justify-center rounded-xl border border-[var(--border-soft)] bg-white/[0.035] text-[var(--text-muted)] transition hover:text-white";
   const inputClassName = isRestaurant
-    ? "w-full min-h-12 rounded-xl border border-[var(--restaurant-border)] bg-white py-4 pl-12 pr-4 text-[var(--restaurant-text)] outline-none transition focus:border-[rgba(217,79,48,0.45)] focus:bg-[#fff8ef]"
+    ? "h-14 w-full rounded-xl border border-[var(--restaurant-border)] bg-white py-0 pl-12 pr-4 text-[var(--restaurant-text)] outline-none transition focus:border-[rgba(217,79,48,0.45)] focus:bg-[#fff8ef]"
     : "sai-input py-4 pl-12 pr-4";
   const submitClassName = isRestaurant
     ? "restaurant-button restaurant-button-primary w-full disabled:opacity-60"
@@ -218,8 +215,8 @@ export default function ContactFormModal({
                   <p className={eyebrowClassName}>{eyebrow}</p>
                   <h3 id={titleId} className={titleClassName}>{title}</h3>
                   <p id={descriptionId} className={subtitleClassName}>{subtitle}</p>
-                  {introMessage ? (
-                    <div className={introClassName}>
+                  {introMessage && !isRestaurant ? (
+                    <div className="mt-5 rounded-xl border border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)] px-4 py-3 text-sm font-medium leading-6 text-[var(--accent-primary)]">
                       {introMessage}
                     </div>
                   ) : null}
@@ -247,8 +244,8 @@ export default function ContactFormModal({
                   <p className={successBodyClassName}>{t.successBody}</p>
                 </motion.div>
               ) : (
-                <form onSubmit={handleSubmit} className="mt-8 space-y-4">
-                  <div className="grid gap-4 md:grid-cols-2">
+                <form onSubmit={handleSubmit} className={isRestaurant ? "mt-7 space-y-5" : "mt-8 space-y-4"}>
+                  <div className={isRestaurant ? "grid items-start gap-x-5 gap-y-4 sm:grid-cols-2" : "grid gap-4 md:grid-cols-2"}>
                     <Field label={t.name} icon={<User className="h-4 w-4" />} variant={variant}>
                       <input
                         name="name"
@@ -275,9 +272,6 @@ export default function ContactFormModal({
                         className={inputClassName}
                       />
                     </Field>
-                  </div>
-
-                  <div className="grid gap-4 md:grid-cols-2">
                     <Field label={`${t.organization} (${t.optional})`} icon={<Building2 className="h-4 w-4" />} variant={variant}>
                       <input
                         name="organization"
@@ -340,10 +334,10 @@ function Field({
   const isRestaurant = variant === "restaurant";
 
   return (
-    <label className="space-y-2">
-      <div className="flex items-center justify-between gap-3">
-        <span className={isRestaurant ? "restaurant-eyebrow text-[var(--restaurant-muted)]" : "sai-eyebrow text-[var(--text-muted)]"}>{label}</span>
-        {hint ? <span className={isRestaurant ? "text-[10px] font-black uppercase tracking-[0.18em] text-[var(--restaurant-tomato)]" : "text-[10px] font-bold uppercase tracking-[0.18em] text-[var(--accent-primary)]"}>{hint}</span> : null}
+    <label className={isRestaurant ? "grid min-w-0 gap-2" : "space-y-2"}>
+      <div className={isRestaurant ? "flex min-h-8 items-end justify-between gap-3" : "flex items-center justify-between gap-3"}>
+        <span className={isRestaurant ? "text-[10px] font-black uppercase leading-4 tracking-[0.2em] text-[var(--restaurant-muted)]" : "sai-eyebrow text-[var(--text-muted)]"}>{label}</span>
+        {hint ? <span className={isRestaurant ? "shrink-0 text-[10px] font-black uppercase leading-4 tracking-[0.18em] text-[var(--restaurant-tomato)]" : "text-[10px] font-bold uppercase tracking-[0.18em] text-[var(--accent-primary)]"}>{hint}</span> : null}
       </div>
       <div className="relative">
         <span className={isRestaurant ? "absolute left-4 top-1/2 -translate-y-1/2 text-[var(--restaurant-muted)]" : "absolute left-4 top-1/2 -translate-y-1/2 text-[var(--text-muted)]"}>{icon}</span>

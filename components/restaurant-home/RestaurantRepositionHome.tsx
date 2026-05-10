@@ -204,7 +204,6 @@ export default function RestaurantRepositionHome({ locale }: RestaurantRepositio
         serviceType="Nord Smart Menu och menydesign"
         sourcePage="/"
         ctaContext="restaurant-home"
-        introMessage="Skicka gärna din nuvarande meny eller beskriv vad du vill förbättra. Vi återkommer med ett konkret nästa steg."
         variant="restaurant"
       />
     </div>

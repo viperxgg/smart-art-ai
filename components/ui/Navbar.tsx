@@ -157,7 +157,6 @@ export default function Navbar() {
         serviceType="Nord Smart Menu och menydesign"
         sourcePage={pathname}
         ctaContext="navbar"
-        introMessage="Skicka gärna din nuvarande meny eller beskriv vad du vill förbättra. Vi återkommer med ett konkret nästa steg."
         variant="restaurant"
       />
     </>
