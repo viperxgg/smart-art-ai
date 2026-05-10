@@ -81,6 +81,7 @@ const services = [
       "Mobil först",
       "Möjlighet till beställningsflöde",
     ],
+    demoHref: "https://codex-delta-liart.vercel.app/",
   },
   {
     id: "menu-design",
