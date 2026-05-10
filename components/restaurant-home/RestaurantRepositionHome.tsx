@@ -23,6 +23,7 @@ import {
   Wine,
 } from "lucide-react";
 import ContactFormModal from "@/components/ui/ContactFormModal";
+import MenuUploadModal from "@/components/ui/MenuUploadModal";
 import { getDemoHref, type AppLocale } from "@/lib/site";
 import { ParallaxImage } from "@/components/restaurant-home/ParallaxImage";
 import { RestaurantFooter } from "@/components/restaurant-home/RestaurantFooter";
@@ -182,8 +183,10 @@ const packages = [
 
 export default function RestaurantRepositionHome({ locale }: RestaurantRepositionHomeProps) {
   const [isContactOpen, setIsContactOpen] = useState(false);
+  const [isUploadOpen, setIsUploadOpen] = useState(false);
   const demoHref = getDemoHref(locale, "menu");
   const openContact = () => setIsContactOpen(true);
+  const openUpload = () => setIsUploadOpen(true);
 
   return (
     <div className="restaurant-page min-h-screen bg-[var(--restaurant-bg)] text-[var(--restaurant-text)]">
@@ -200,7 +203,7 @@ export default function RestaurantRepositionHome({ locale }: RestaurantRepositio
           <RestaurantTypeSection />
           <ProcessSection />
           <PricingSection onContact={openContact} />
-          <FinalCtaSection onContact={openContact} />
+          <FinalCtaSection onContact={openContact} onUpload={openUpload} />
         </main>
         <RestaurantFooter locale={locale} />
       </MotionConfig>
@@ -213,6 +216,11 @@ export default function RestaurantRepositionHome({ locale }: RestaurantRepositio
         sourcePage="/"
         ctaContext="restaurant-home"
         variant="restaurant"
+      />
+      <MenuUploadModal
+        isOpen={isUploadOpen}
+        onClose={() => setIsUploadOpen(false)}
+        sourcePage="/"
       />
     </div>
   );
@@ -675,7 +683,7 @@ function PricingSection({ onContact }: { onContact: () => void }) {
   );
 }
 
-function FinalCtaSection({ onContact }: { onContact: () => void }) {
+function FinalCtaSection({ onContact, onUpload }: { onContact: () => void; onUpload: () => void }) {
   return (
     <section className="restaurant-section bg-[var(--restaurant-dark)] text-white">
       <div className="restaurant-container">
@@ -695,10 +703,10 @@ function FinalCtaSection({ onContact }: { onContact: () => void }) {
                 Boka gratis menygenomgång
                 <CalendarClock className="h-4 w-4" />
               </button>
-              <a href="mailto:hello@smartartai.se?subject=Min%20nuvarande%20meny" className="restaurant-button restaurant-button-glass">
+              <button type="button" onClick={onUpload} className="restaurant-button restaurant-button-glass">
                 Skicka din nuvarande meny
                 <Mail className="h-4 w-4" />
-              </a>
+              </button>
             </div>
           </div>
         </Reveal>
