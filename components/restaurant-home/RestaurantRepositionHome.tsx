@@ -68,7 +68,7 @@ const services = [
   {
     id: "smart-menu",
     title: "Smart QR Menu",
-    price: "Från 1 990 kr",
+    price: "Från 2 490 kr",
     priceType: "Ingen månadsavgift",
     body: "En mobilanpassad meny som gästen öppnar direkt via QR-kod — snabb, tydlig och enkel att uppdatera vid behov.",
     priceNote: "Framtida ändringar kan beställas separat från 259 kr.",
@@ -84,7 +84,7 @@ const services = [
   {
     id: "menu-design",
     title: "Digital Menu Design",
-    price: "Från 2 490 kr",
+    price: "Från 1 990 kr",
     priceType: "Engångspris",
     body: "Vi designar din meny så att maten känns mer attraktiv, tydlig och lätt att välja från mobilen.",
     icon: BookOpen,
