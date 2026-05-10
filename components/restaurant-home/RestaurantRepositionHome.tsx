@@ -68,7 +68,10 @@ const services = [
   {
     id: "smart-menu",
     title: "Smart QR Menu",
-    body: "En mobilanpassad meny som gästen öppnar direkt via QR-kod — snabb, tydlig och enkel att uppdatera.",
+    price: "Från 1 990 kr",
+    priceType: "Ingen månadsavgift",
+    body: "En mobilanpassad meny som gästen öppnar direkt via QR-kod — snabb, tydlig och enkel att uppdatera vid behov.",
+    priceNote: "Framtida ändringar kan beställas separat från 259 kr.",
     icon: ScanLine,
     features: [
       "QR-meny",
@@ -81,6 +84,8 @@ const services = [
   {
     id: "menu-design",
     title: "Digital Menu Design",
+    price: "Från 2 490 kr",
+    priceType: "Engångspris",
     body: "Vi designar din meny så att maten känns mer attraktiv, tydlig och lätt att välja från mobilen.",
     icon: BookOpen,
     features: [
@@ -94,7 +99,10 @@ const services = [
   {
     id: "print-ready-menu",
     title: "Print-Ready Menu Design",
+    price: "Från 3 490 kr",
+    priceType: "Engångspris",
     body: "Vi skapar tryckklara menyfiler för bord, vägg, take-away eller säsongskampanjer.",
+    priceNote: "Tryckkostnad ingår ej.",
     icon: Printer,
     features: ["A4 / A3 menyer", "Bordskort", "Take-away menyer", "QR-inlägg", "Print-ready PDF"],
   },
@@ -399,18 +407,40 @@ function CoreServicesSection() {
           <h2 className="restaurant-title mt-4">
             En komplett menylösning för moderna restauranger.
           </h2>
+          <p className="mt-5 max-w-2xl text-lg leading-8 text-[var(--restaurant-muted)]">
+            Tydliga startpriser för restauranger som vill komma igång med QR-meny, digital menydesign eller
+            tryckklara menyfiler utan löpande abonnemang.
+          </p>
         </Reveal>
         <StaggerGroup className="mt-10 grid gap-5 lg:grid-cols-3">
           {services.map((service) => {
             const Icon = service.icon;
             return (
               <StaggerItem key={service.title} className="scroll-mt-28">
-                <article id={service.id === "menu-design" ? "menu-design" : undefined} className="restaurant-card restaurant-lift flex h-full flex-col p-6">
-                  <span className="restaurant-icon">
-                    <Icon className="h-5 w-5" />
-                  </span>
+                <article
+                  id={service.id === "menu-design" ? "menu-design" : undefined}
+                  className="restaurant-card restaurant-lift group relative flex h-full flex-col overflow-hidden p-6"
+                >
+                  <div className="absolute inset-x-0 top-0 h-1.5 bg-gradient-to-r from-[var(--restaurant-tomato)] via-[var(--restaurant-saffron)] to-[var(--restaurant-basil)]" />
+                  <div className="flex items-start justify-between gap-4">
+                    <span className="restaurant-icon transition duration-300 group-hover:-translate-y-0.5">
+                      <Icon className="h-5 w-5" />
+                    </span>
+                    <span className="rounded-full border border-[rgba(217,79,48,0.2)] bg-[#fff0e6] px-3 py-1 text-[10px] font-black uppercase tracking-[0.18em] text-[var(--restaurant-tomato)]">
+                      {service.priceType}
+                    </span>
+                  </div>
                   <h3 className="mt-6 text-2xl font-black">{service.title}</h3>
+                  <div className="mt-5 rounded-2xl border border-[rgba(84,52,34,0.12)] bg-[linear-gradient(135deg,#fff8ef_0%,#fffdf8_54%,#f7eadb_100%)] p-4 shadow-[0_18px_44px_rgba(84,52,34,0.08)]">
+                    <p className="text-3xl font-black tracking-normal text-[var(--restaurant-text)]">{service.price}</p>
+                    <p className="mt-1 text-sm font-extrabold text-[var(--restaurant-basil)]">{service.priceType}</p>
+                  </div>
                   <p className="mt-4 leading-7 text-[var(--restaurant-muted)]">{service.body}</p>
+                  {service.priceNote ? (
+                    <p className="mt-4 rounded-2xl border border-[rgba(73,107,69,0.18)] bg-[rgba(73,107,69,0.07)] px-4 py-3 text-sm font-bold leading-6 text-[var(--restaurant-basil)]">
+                      {service.priceNote}
+                    </p>
+                  ) : null}
                   <div className="mt-6 grid gap-3">
                     {service.features.map((feature) => (
                       <div key={feature} className="flex items-center gap-3 text-sm font-bold">
