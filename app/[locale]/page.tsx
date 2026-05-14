@@ -15,11 +15,11 @@ export async function generateMetadata({
     pathname: "/",
     title:
       locale === "sv"
-        ? "Nord Smart Menu | Digitala menyer & menydesign för restauranger i Sverige"
+        ? "Nord Smart Menu"
         : "Nord Smart Menu | Digital menus and menu design for restaurants in Sweden",
     description:
       locale === "sv"
-        ? "QR-menyer, digitala menyupplevelser och tryckklara menydesigner för restauranger, caféer, barer och hotell i Sverige. Engångsbetalning utan månadsabonnemang för kärnleveransen."
+        ? "Se hur restauranger i Sverige kan använda digital meny och QR-meny för att uppdatera rätter snabbare, minska väntetid och förbättra gästupplevelsen."
         : "QR menus, digital menu experiences, and print-ready menu design for restaurants, cafés, bars, and hotels in Sweden.",
     keywords: [
       "Nord Smart Menu",

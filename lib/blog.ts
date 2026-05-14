@@ -564,9 +564,9 @@ export const blogPosts: BlogPost[] = [
         title: "Smart meny och alkohol i Sverige",
         excerpt:
           "En öl kan inte behandlas som en burgare i en smart meny. Här är varför självbetjäning, ålderskontroll och marknadsföring kräver defensiv teknik.",
-        metaTitle: "Smart meny och alkohol i Sverige",
+        metaTitle: "Digital meny och alkoholregler för restauranger i Sverige",
         metaDescription:
-          "Lär dig varför smarta menyer i Sverige måste separera alkohol från vanlig matbeställning och hur Nord Smart Menu använder defensiv teknik.",
+          "Se hur restauranger i Sverige kan visa alkohol i en digital meny utan att skapa fel självbetjäningsflöde, med tydligare service och personalansvar.",
         primaryKeyword: "smart meny alkohol Sverige",
         tags: ["smart meny alkohol", "alkohollagen", "digital meny restaurang", "serveringstillstånd"],
         sections: [
@@ -688,7 +688,7 @@ export const blogPosts: BlogPost[] = [
           "Vad ska restauranger i Sverige titta på när de väljer digital meny? Här är kriterierna som påverkar både drift och gästupplevelse.",
         metaTitle: "Bästa digitala menyn för restauranger i Sverige",
         metaDescription:
-          "Lär dig vad som gör en digital meny-lösning bra för restauranger i Sverige. Fokus på snabb service, tydlig meny och enkel drift.",
+          "Se vad restauranger i Sverige bör jämföra när de väljer digital meny: QR-flöde, snabb uppdatering av rätter, tydlig mobilvy och bättre gästupplevelse.",
         primaryKeyword: "best digital menu Sweden",
         tags: ["digital meny sverige", "restaurang", "qr meny"],
         sections: [
@@ -835,9 +835,9 @@ export const blogPosts: BlogPost[] = [
         title: "Restaurang beställningssystem som minskar personalpress",
         excerpt:
           "Ett tydligare beställningssystem minskar inte bara fel. Det minskar också avbrott, dubbelarbete och onödig stress i service och kök.",
-        metaTitle: "Restaurang beställningssystem och personalpress",
+        metaTitle: "Så minskar digital meny trycket på restaurangpersonal",
         metaDescription:
-          "Se hur ett restaurang beställningssystem kan minska stress, avbrott och missförstånd för servering och kök.",
+          "Se hur digital meny, tydligare orderstatus och smartare serviceflöden kan minska avbrott, väntetid och stress för restaurangpersonal.",
         primaryKeyword: "restaurang beställningssystem personalpress",
         tags: ["restaurang beställningssystem", "kökssystem", "serviceflöde"],
         sections: [
@@ -1111,9 +1111,9 @@ export const blogPosts: BlogPost[] = [
         title: "Digital meny vs pappersmeny för restauranger",
         excerpt:
           "När är det dags att lämna pappersmenyn bakom sig? Här är den praktiska skillnaden mellan digital meny och pappersmeny i restaurangdrift.",
-        metaTitle: "Digital meny vs pappersmeny för restauranger",
+        metaTitle: "Digital meny vs pappersmeny: vad passar restauranger?",
         metaDescription:
-          "Jämför digital meny och pappersmeny för restauranger. Se skillnaden i uppdateringar, serviceflöde och gästupplevelse.",
+          "Jämför digital meny och pappersmeny för restauranger i Sverige. Se vad som passar bäst för uppdateringar, serviceflöde och gästupplevelse.",
         primaryKeyword: "digital meny vs pappersmeny restaurang",
         tags: ["digital meny", "pappersmeny", "restaurang"],
         sections: [
