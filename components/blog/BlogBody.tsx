@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CtaButtons } from "@/components/restaurant/CtaButtons";
 import { DemoSection } from "@/components/restaurant/DemoSection";
 import { getBlogDemoSections } from "@/lib/demo";
-import type { BlogSection, BlogFaqItem, BlogCta } from "@/lib/blog";
+import type { BlogSection, BlogFaqItem, BlogCta, BlogSectionLink } from "@/lib/blog";
 import type { AppLocale, InternalPathname } from "@/lib/site";
 import { getLocalizedHref } from "@/lib/site";
 
@@ -23,6 +23,13 @@ export default function BlogBody({ locale, slug, sections, faqTitle, faq, cta }:
     relatedPage: locale === "sv" ? "Relaterad sida" : "Related page",
     source: locale === "sv" ? "Källa" : "Source",
     conversionCta: locale === "sv" ? "Nästa steg" : "Next step",
+  };
+  const getInternalHref = (href: BlogSectionLink["href"]) => {
+    if (href.startsWith("/blog/")) {
+      return locale === "en" ? `/en${href}` : href;
+    }
+
+    return getLocalizedHref(href as InternalPathname, locale);
   };
 
   return (
@@ -97,7 +104,7 @@ export default function BlogBody({ locale, slug, sections, faqTitle, faq, cta }:
                 ) : (
                   <Link
                     key={link.href}
-                    href={getLocalizedHref(link.href as InternalPathname, locale)}
+                    href={getInternalHref(link.href)}
                     className="sai-card sai-card-hover block p-5"
                   >
                     {cardContent}

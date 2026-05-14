@@ -2,7 +2,7 @@ import { getDemoHref, type AppLocale, type InternalPathname } from "@/lib/site";
 
 export interface BlogSectionLink {
   label: string;
-  href: InternalPathname | `https://${string}`;
+  href: InternalPathname | `/blog/${string}` | `https://${string}`;
   description: string;
 }
 
@@ -69,10 +69,10 @@ function getRestaurantCta(locale: AppLocale, href?: InternalPathname): BlogCta {
   return locale === "sv"
     ? {
         title: "Se hur digital meny fungerar i praktiken",
-        body: "Gå vidare till sidan om digital meny för restauranger om ni vill se huvudlösningen tydligt. När upplägget känns rätt kan ni boka demo.",
+        body: "Gå vidare till sidan om digital meny för restauranger om ni vill se huvudlösningen tydligt. När upplägget känns rätt kan ni boka en gratis menygenomgång.",
         primaryLabel: "Se hur digital meny fungerar",
         primaryHref: "/nord-smart-menu",
-        secondaryLabel: "Boka demo",
+        secondaryLabel: "Boka gratis menygenomgång",
         secondaryHref: getDemoHref(locale, "menu"),
       }
     : {
@@ -227,6 +227,71 @@ function getStrategicCommercialLinks(locale: AppLocale, slug: string): BlogSecti
   ];
 }
 
+function getRelatedBlogLink(locale: AppLocale, slug: string): BlogSectionLink | null {
+  const isSwedish = locale === "sv";
+  const links: Record<string, { sv: BlogSectionLink; en: BlogSectionLink }> = {
+    "best-digital-menu-sweden": {
+      sv: {
+        label: "Jämför digital meny och pappersmeny",
+        href: "/blog/digital-menu-vs-paper-menu",
+        description:
+          "Se när en digital meny ger tydligare uppdateringar, snabbare start vid bordet och mindre beroende av tryckta menyer.",
+      },
+      en: {
+        label: "Compare digital menu and paper menu",
+        href: "/blog/digital-menu-vs-paper-menu",
+        description:
+          "See when a digital menu creates clearer updates, faster table access, and less dependence on printed menus.",
+      },
+    },
+    "digital-menu-vs-paper-menu": {
+      sv: {
+        label: "Bästa digitala menyn för Sverige",
+        href: "/blog/best-digital-menu-sweden",
+        description:
+          "Gå vidare till kriterierna som hjälper restauranger i Sverige välja rätt digital meny från början.",
+      },
+      en: {
+        label: "Best digital menu for Sweden",
+        href: "/blog/best-digital-menu-sweden",
+        description:
+          "Continue to the criteria that help restaurants in Sweden choose the right digital menu from the start.",
+      },
+    },
+    "restaurant-ordering-system-reduce-staff-pressure": {
+      sv: {
+        label: "Så fungerar meny, admin och KDS ihop",
+        href: "/blog/scandinavian-digital-menu",
+        description:
+          "Fördjupa dig i hur gästmeny, adminvy och köksvy kan kopplas ihop till ett tydligare restaurangflöde.",
+      },
+      en: {
+        label: "How menu, admin, and KDS work together",
+        href: "/blog/scandinavian-digital-menu",
+        description:
+          "Go deeper into how the guest menu, admin view, and kitchen view connect into a clearer restaurant flow.",
+      },
+    },
+    "smart-menu-alcohol-compliance-sweden": {
+      sv: {
+        label: "Digital meny vs pappersmeny",
+        href: "/blog/digital-menu-vs-paper-menu",
+        description:
+          "Jämför hur digitala menyer och pappersmenyer påverkar uppdateringar, serviceflöde och gästupplevelse.",
+      },
+      en: {
+        label: "Digital menu vs paper menu",
+        href: "/blog/digital-menu-vs-paper-menu",
+        description:
+          "Compare how digital and paper menus affect updates, service flow, and guest experience.",
+      },
+    },
+  };
+
+  const link = links[slug];
+  return link ? link[isSwedish ? "sv" : "en"] : null;
+}
+
 function mergeSectionLinks(
   existing: BlogSectionLink[] | undefined,
   additions: BlogSectionLink[],
@@ -248,6 +313,7 @@ function enhanceBlogTranslation(
   translation: BlogTranslation,
 ): BlogTranslation {
   const strategicLinks = getStrategicCommercialLinks(locale, slug);
+  const relatedBlogLink = getRelatedBlogLink(locale, slug);
   const lastContentIndex = [...translation.sections]
     .map((section, index) => ({ section, index }))
     .reverse()
@@ -264,7 +330,10 @@ function enhanceBlogTranslation(
     if (index === lastContentIndex) {
       return {
         ...section,
-        links: mergeSectionLinks(section.links, [strategicLinks[1]]),
+        links: mergeSectionLinks(
+          section.links,
+          relatedBlogLink ? [strategicLinks[1], relatedBlogLink] : [strategicLinks[1]],
+        ),
       };
     }
 
@@ -434,10 +503,10 @@ export const blogPosts: BlogPost[] = [
     readingTime: "6 min",
     translations: {
       sv: {
-        title: "Faran med Lägg i varukorgen: varför smarta menyer måste hantera alkohol annorlunda",
+        title: "Smart meny och alkohol i Sverige",
         excerpt:
           "En öl kan inte behandlas som en burgare i en smart meny. Här är varför självbetjäning, ålderskontroll och marknadsföring kräver defensiv teknik.",
-        metaTitle: "Smart meny och alkohol i Sverige | Därför räcker inte Lägg i varukorgen",
+        metaTitle: "Smart meny och alkohol i Sverige",
         metaDescription:
           "Lär dig varför smarta menyer i Sverige måste separera alkohol från vanlig matbeställning och hur Nord Smart Menu använder defensiv teknik.",
         primaryKeyword: "smart meny alkohol Sverige",
@@ -450,7 +519,7 @@ export const blogPosts: BlogPost[] = [
               "Vid alkoholservering behöver personalen fortfarande kunna bedöma ålder, gästernas skick och ordning på platsen. Dessutom behöver marknadsföringen hålla en särskild måttfullhet. En meny som låter gästen trycka på plus, betala och skapa en automatisk alkoholorder kan därför skapa både juridisk och teknisk risk.",
             ],
             image: {
-              src: "/blog/smart-menu-alcohol-compliance/smart-menu-alcohol-compliance.png",
+              src: "/blog/smart-menu-alcohol-compliance-sweden.webp",
               alt: "Smart meny som visar alkohol med Ask Staff-knapp och backend-skydd mot självbetjäning",
               caption:
                 "Nord Smart Menu använder smart waiter assistance för alkohol i stället för automatiserad självbetjäning.",
@@ -556,10 +625,10 @@ export const blogPosts: BlogPost[] = [
     readingTime: "5 min",
     translations: {
       sv: {
-        title: "Bästa digitala meny-lösningen för restauranger i Sverige",
+        title: "Bästa digitala menyn för restauranger i Sverige",
         excerpt:
           "Vad ska restauranger i Sverige titta på när de väljer digital meny? Här är kriterierna som påverkar både drift och gästupplevelse.",
-        metaTitle: "Bästa digitala meny-lösningen för restauranger i Sverige",
+        metaTitle: "Bästa digitala menyn för restauranger i Sverige",
         metaDescription:
           "Lär dig vad som gör en digital meny-lösning bra för restauranger i Sverige. Fokus på snabb service, tydlig meny och enkel drift.",
         primaryKeyword: "best digital menu Sweden",
@@ -571,11 +640,18 @@ export const blogPosts: BlogPost[] = [
               "En digital meny är inte bara en designfråga. För restauranger i Sverige måste den vara snabb, enkel att uppdatera och tydlig nog att fungera i verklig service.",
               "Många lösningar ser moderna ut i en demo men blir tröga eller onödigt tekniska i vardagen. Det är där den verkliga skillnaden uppstår.",
             ],
+            image: {
+              src: "/blog/best-digital-menu-sweden.webp",
+              alt: "Adminvy för digital meny med kategorier, priser och publicerade rätter för restaurang",
+              caption:
+                "En bra digital meny ska vara lika enkel för restaurangen att uppdatera som den är för gästen att använda.",
+            },
           },
           {
             title: "Tre kriterier som påverkar resultatet mest",
             paragraphs: [
               "De bästa lösningarna gör det lätt för gästen att komma igång och lätt för teamet att hålla menyn aktuell.",
+              "För lokal SEO och verklig restaurangdrift är det också viktigt att menyn inte bara är en översatt kopia av en generell engelsk produkt. Språk, rätter, allergener, priser och säsongslogik behöver passa svenska gäster och svenska arbetssätt.",
             ],
             listItems: [
               "Snabb mobilupplevelse utan app eller onödiga steg.",
@@ -602,6 +678,7 @@ export const blogPosts: BlogPost[] = [
             title: "Slutsats",
             paragraphs: [
               "Den bästa digitala meny-lösningen för restauranger i Sverige är den som gör servicen snabbare, menyn enklare att uppdatera och upplevelsen tydligare för gästen. Om lösningen inte klarar de tre delarna blir den snabbt ännu ett verktyg att hantera.",
+              "Ett bra första steg är därför att börja med kärnflödet: en snabb mobilmeny, tydliga kategorier, genomtänkta rätter och en adminmodell som restaurangen faktiskt orkar använda under vardagen.",
             ],
           },
         ],
@@ -697,10 +774,10 @@ export const blogPosts: BlogPost[] = [
     readingTime: "5 min",
     translations: {
       sv: {
-        title: "Hur ett restaurang beställningssystem minskar trycket på personalen",
+        title: "Restaurang beställningssystem som minskar personalpress",
         excerpt:
           "Ett tydligare beställningssystem minskar inte bara fel. Det minskar också avbrott, dubbelarbete och onödig stress i service och kök.",
-        metaTitle: "Hur ett restaurang beställningssystem minskar trycket på personalen",
+        metaTitle: "Restaurang beställningssystem och personalpress",
         metaDescription:
           "Se hur ett restaurang beställningssystem kan minska stress, avbrott och missförstånd för servering och kök.",
         primaryKeyword: "restaurang beställningssystem personalpress",
@@ -712,11 +789,18 @@ export const blogPosts: BlogPost[] = [
               "När personalen måste springa mellan bord, kassa och kök för att jaga status eller förtydliga beställningar blir tempot snabbt tungt.",
               "Problemet är sällan att teamet jobbar för långsamt. Problemet är att för många steg fortfarande är manuella eller osynliga.",
             ],
+            image: {
+              src: "/blog/restaurant-ordering-system-reduce-staff-pressure.webp",
+              alt: "Köksvy i restaurang beställningssystem med orderstatus som minskar avbrott för personalen",
+              caption:
+                "När kök och service ser samma orderstatus minskar behovet av manuella avstämningar.",
+            },
           },
           {
             title: "Vad ett tydligare beställningssystem gör",
             paragraphs: [
               "Ett bra restaurang beställningssystem kopplar ihop gäst, service och kök i samma kedja så att varje steg blir lättare att följa.",
+              "För personalen betyder det framför allt färre oklara lägen: vem väntar på vad, vilken order är på gång och vilka bord behöver hjälp just nu.",
             ],
             listItems: [
               "Gästen skickar en tydligare order från början.",
@@ -743,6 +827,7 @@ export const blogPosts: BlogPost[] = [
             title: "Det viktigaste att utvärdera",
             paragraphs: [
               "Titta inte bara på om systemet kan ta emot order. Titta på om det gör arbetsdagen tydligare för teamet som faktiskt ska använda det under rusning.",
+              "Ett system som ser bra ut på dator men känns trångt på surfplatta eller mobil kommer snabbt skapa motstånd. Därför bör adminvy, köksvy och gästflöde testas i samma tempo som restaurangen faktiskt arbetar i.",
             ],
           },
         ],
@@ -978,11 +1063,20 @@ export const blogPosts: BlogPost[] = [
             title: "Pappersmenyn fungerar tills den börjar bromsa",
             paragraphs: [
               "Pappersmenyer kan kännas enkla så länge utbudet är stabilt och servicen är lugn. Men så fort priser, rätter eller information behöver ändras blir de snabbt en broms.",
+              "En digital meny är starkast när den ersätter den praktiska friktionen: fel version på bordet, gamla priser, missade allergener eller kampanjer som inte längre gäller.",
             ],
+            image: {
+              src: "/blog/digital-menu-vs-paper-menu.webp",
+              alt: "Mobil digital meny som jämför tydlig menyupplevelse med traditionell pappersmeny",
+              caption:
+                "Skillnaden mellan digital meny och pappersmeny märks mest när menyn behöver hållas aktuell.",
+            },
           },
           {
             title: "Den praktiska skillnaden i vardagen",
-            paragraphs: [],
+            paragraphs: [
+              "I praktiken handlar valet inte om teknik för teknikens skull. Det handlar om hur ofta menyn ändras, hur snabbt gästen ska komma igång och hur mycket manuellt arbete personalen behöver bära.",
+            ],
             listItems: [
               "Pappersmeny kräver omtryck eller manuella lappar vid ändringar.",
               "Digital meny kan uppdateras snabbare utan att gästen ser olika versioner.",
@@ -1007,6 +1101,7 @@ export const blogPosts: BlogPost[] = [
             title: "Vad restaurangen märker",
             paragraphs: [
               "Restaurangen märker framför allt enklare uppdateringar, mindre administrativt släp och en modernare menyyta som går att bygga vidare på.",
+              "Papper kan fortfarande fungera som komplement i vissa miljöer, men det bör inte vara den enda källan när informationen ändras ofta eller när gästen förväntar sig en snabb mobil start.",
             ],
           },
         ],
