@@ -2,6 +2,7 @@ import Link from "next/link";
 import {
   ArrowRight,
   BellRing,
+  BookOpen,
   Check,
   ChefHat,
   LayoutDashboard,
@@ -251,6 +252,51 @@ export function RestaurantHomePage({ locale }: RestaurantHomePageProps) {
         finalSecondary: "Try first",
         serviceType: "Nord Smart Menu restaurant demo",
       };
+  const readingLinks = isSwedish
+    ? [
+        {
+          slug: "best-digital-menu-sweden",
+          title: "Bästa digitala menyn för restauranger i Sverige",
+          body: "Kriterierna som hjälper restauranger välja rätt digital meny från början.",
+        },
+        {
+          slug: "digital-menu-vs-paper-menu",
+          title: "Digital meny vs pappersmeny",
+          body: "Jämför uppdateringar, serviceflöde och gästupplevelse i vardagen.",
+        },
+        {
+          slug: "restaurant-ordering-system-reduce-staff-pressure",
+          title: "Beställningssystem som minskar personalpress",
+          body: "Se hur tydligare orderstatus och köksflöde minskar avbrott.",
+        },
+        {
+          slug: "smart-menu-alcohol-compliance-sweden",
+          title: "Smart meny och alkohol i Sverige",
+          body: "Varför alkohol behöver ett separat och mer defensivt digitalt flöde.",
+        },
+      ]
+    : [
+        {
+          slug: "best-digital-menu-sweden",
+          title: "Best digital menu for restaurants in Sweden",
+          body: "The criteria that help restaurants choose the right digital menu from the start.",
+        },
+        {
+          slug: "digital-menu-vs-paper-menu",
+          title: "Digital menu vs paper menu",
+          body: "Compare updates, service flow, and guest experience in daily operations.",
+        },
+        {
+          slug: "restaurant-ordering-system-reduce-staff-pressure",
+          title: "Ordering systems that reduce staff pressure",
+          body: "See how clearer order status and kitchen flow reduce interruptions.",
+        },
+        {
+          slug: "smart-menu-alcohol-compliance-sweden",
+          title: "Smart menus and alcohol in Sweden",
+          body: "Why alcohol needs a separate and more defensive digital flow.",
+        },
+      ];
 
   return (
     <main className="sai-page">
@@ -453,6 +499,40 @@ export function RestaurantHomePage({ locale }: RestaurantHomePageProps) {
                 </div>
                 <PlanOrderButton locale={locale} planName={plan.name} planLabel={plan.label} />
               </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="sai-section">
+        <div className="sai-container">
+          <div className="max-w-3xl">
+            <p className="sai-eyebrow">{isSwedish ? "Guider" : "Guides"}</p>
+            <h2 className="sai-title-lg mt-4">
+              {isSwedish ? "Läs mer om digitala menyer" : "Read more about digital menus"}
+            </h2>
+            <p className="sai-copy mt-4">
+              {isSwedish
+                ? "Fördjupa beslutet med guider om val av digital meny, pappersmenyer, personalpress och alkoholflöden."
+                : "Go deeper with guides about choosing a digital menu, paper menus, staff pressure, and alcohol flows."}
+            </p>
+          </div>
+
+          <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+            {readingLinks.map((link) => (
+              <Link
+                key={link.slug}
+                href={getLocalizedHref("/blog/[slug]", locale, { slug: link.slug })}
+                className="sai-card sai-card-hover flex h-full flex-col p-5"
+              >
+                <BookOpen className="h-5 w-5 text-[var(--accent-primary)]" />
+                <h3 className="sai-title-md mt-5">{link.title}</h3>
+                <p className="mt-3 leading-7 text-[var(--text-muted)]">{link.body}</p>
+                <span className="mt-auto inline-flex items-center gap-2 pt-6 text-sm font-black text-white">
+                  {isSwedish ? "Läs guiden" : "Read guide"}
+                  <ArrowRight className="h-4 w-4 text-[var(--accent-primary)]" />
+                </span>
+              </Link>
             ))}
           </div>
         </div>

@@ -1,13 +1,26 @@
 import Link from "next/link";
 import { Mail, MapPin } from "lucide-react";
-import type { AppLocale } from "@/lib/site";
+import { getLocalizedHref, type AppLocale } from "@/lib/site";
 
 export function RestaurantFooter({ locale }: { locale: AppLocale }) {
-  void locale;
+  const guideLinks = [
+    {
+      slug: "best-digital-menu-sweden",
+      label: "Bästa digitala menyn för restauranger i Sverige",
+    },
+    {
+      slug: "digital-menu-vs-paper-menu",
+      label: "Digital meny vs pappersmeny",
+    },
+    {
+      slug: "restaurant-ordering-system-reduce-staff-pressure",
+      label: "Beställningssystem och personalpress",
+    },
+  ] as const;
 
   return (
     <footer className="border-t border-[rgba(217,173,98,0.18)] bg-[var(--restaurant-dark)] px-5 py-14 text-[#fff8ef] md:px-6">
-      <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.2fr_1fr_1fr]">
+      <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.2fr_0.85fr_1.1fr_0.9fr]">
         <div>
           <a href="#home" className="inline-flex items-center gap-3">
             <span className="grid h-11 w-11 place-items-center rounded-2xl bg-[#fff8ef] text-sm font-black text-[var(--restaurant-dark)]">
@@ -28,11 +41,28 @@ export function RestaurantFooter({ locale }: { locale: AppLocale }) {
         <div>
           <p className="restaurant-eyebrow text-[#d9ad62]">Sidor</p>
           <div className="mt-5 grid gap-3">
-            <a href="#smart-menu" className="footer-link">Nord Smart Menu</a>
+            <Link href={getLocalizedHref("/nord-smart-menu", locale)} className="footer-link">
+              Nord Smart Menu
+            </Link>
             <a href="#menu-design" className="footer-link">Digital menydesign</a>
             <a href="#smart-menu" className="footer-link">Print-ready meny</a>
             <a href="#pricing" className="footer-link">Pris</a>
-            <Link href="/blog" className="footer-link">Blogg</Link>
+            <Link href={getLocalizedHref("/blog", locale)} className="footer-link">Blogg</Link>
+          </div>
+        </div>
+
+        <div>
+          <p className="restaurant-eyebrow text-[#d9ad62]">Guider</p>
+          <div className="mt-5 grid gap-3">
+            {guideLinks.map((link) => (
+              <Link
+                key={link.slug}
+                href={getLocalizedHref("/blog/[slug]", locale, { slug: link.slug })}
+                className="footer-link"
+              >
+                {link.label}
+              </Link>
+            ))}
           </div>
         </div>
 

@@ -292,6 +292,50 @@ function getRelatedBlogLink(locale: AppLocale, slug: string): BlogSectionLink | 
   return link ? link[isSwedish ? "sv" : "en"] : null;
 }
 
+function getRequiredRestaurantArticleLinks(locale: AppLocale): BlogSectionLink[] {
+  return locale === "sv"
+    ? [
+        {
+          label: "Digital meny för restauranger",
+          href: "/nord-smart-menu",
+          description:
+            "Se huvudlösningen för restauranger som vill samla QR-meny, mobil gästvy och tydligare menystruktur.",
+        },
+        {
+          label: "digital meny jämfört med pappersmeny",
+          href: "/blog/digital-menu-vs-paper-menu",
+          description:
+            "Jämför hur digital meny och pappersmeny påverkar uppdateringar, serviceflöde och gästupplevelse.",
+        },
+        {
+          label: "bästa digitala menyn för restauranger i Sverige",
+          href: "/blog/best-digital-menu-sweden",
+          description:
+            "Läs vilka kriterier som är viktigast när restauranger i Sverige väljer digital meny.",
+        },
+      ]
+    : [
+        {
+          label: "Digital menu for restaurants",
+          href: "/nord-smart-menu",
+          description:
+            "See the main solution for restaurants that want QR menu access, a mobile guest view, and clearer menu structure.",
+        },
+        {
+          label: "digital menu compared with paper menu",
+          href: "/blog/digital-menu-vs-paper-menu",
+          description:
+            "Compare how digital and paper menus affect updates, service flow, and guest experience.",
+        },
+        {
+          label: "best digital menu for restaurants in Sweden",
+          href: "/blog/best-digital-menu-sweden",
+          description:
+            "Read the key criteria when restaurants in Sweden choose a digital menu.",
+        },
+      ];
+}
+
 function mergeSectionLinks(
   existing: BlogSectionLink[] | undefined,
   additions: BlogSectionLink[],
@@ -307,6 +351,15 @@ function mergeSectionLinks(
   return merged;
 }
 
+function mergePreferredSectionLinks(
+  existing: BlogSectionLink[] | undefined,
+  additions: BlogSectionLink[],
+) {
+  const additionHrefs = new Set(additions.map((link) => link.href));
+  const preserved = (existing ?? []).filter((link) => !additionHrefs.has(link.href));
+  return mergeSectionLinks(preserved, additions);
+}
+
 function enhanceBlogTranslation(
   slug: string,
   locale: AppLocale,
@@ -314,6 +367,9 @@ function enhanceBlogTranslation(
 ): BlogTranslation {
   const strategicLinks = getStrategicCommercialLinks(locale, slug);
   const relatedBlogLink = getRelatedBlogLink(locale, slug);
+  const requiredArticleLinks = slug.includes("stadsync")
+    ? []
+    : getRequiredRestaurantArticleLinks(locale);
   const lastContentIndex = [...translation.sections]
     .map((section, index) => ({ section, index }))
     .reverse()
@@ -330,9 +386,11 @@ function enhanceBlogTranslation(
     if (index === lastContentIndex) {
       return {
         ...section,
-        links: mergeSectionLinks(
+        links: mergePreferredSectionLinks(
           section.links,
-          relatedBlogLink ? [strategicLinks[1], relatedBlogLink] : [strategicLinks[1]],
+          relatedBlogLink
+            ? [...requiredArticleLinks, strategicLinks[1], relatedBlogLink]
+            : [...requiredArticleLinks, strategicLinks[1]],
         ),
       };
     }
