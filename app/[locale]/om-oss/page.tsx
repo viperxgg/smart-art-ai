@@ -24,6 +24,7 @@ export async function generateMetadata({
       locale === "sv"
         ? ["Nord Smart Menu", "QR meny restaurang", "digital meny restaurang", "menydesign restaurang"]
         : ["Nord Smart Menu", "QR menu restaurant", "digital menu restaurant", "restaurant menu design"],
+    noIndex: locale === "en",
   });
 }
 

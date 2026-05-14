@@ -41,7 +41,7 @@ export async function generateMetadata({
     description: post.metaDescription,
     keywords: [post.primaryKeyword, ...post.tags],
     type: "article",
-    noIndex: isStadSyncBlogPost(slug),
+    noIndex: locale === "en" || isStadSyncBlogPost(slug),
   });
 }
 

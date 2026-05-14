@@ -27,6 +27,7 @@ export async function generateMetadata({
       locale === "sv"
         ? ["digital meny restaurang blogg", "qr meny restaurang", "restaurang beställningssystem"]
         : ["digital menu restaurant blog", "qr menu restaurant", "restaurant ordering system"],
+    noIndex: locale === "en",
   });
 }
 

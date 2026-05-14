@@ -28,6 +28,7 @@ export async function generateMetadata({
       "menydesign restaurang",
       "tryckklar meny",
     ],
+    noIndex: locale === "en",
   });
 }
 
