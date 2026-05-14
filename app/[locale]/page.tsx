@@ -15,7 +15,7 @@ export async function generateMetadata({
     pathname: "/",
     title:
       locale === "sv"
-        ? "Nord Smart Menu"
+        ? "Digital QR-meny för restauranger | Nord Smart Menu"
         : "Nord Smart Menu | Digital menus and menu design for restaurants in Sweden",
     description:
       locale === "sv"
