@@ -14,6 +14,7 @@ const navItems = [
   { label: "Exempel", href: "#examples" },
   { label: "Process", href: "#process" },
   { label: "Pris", href: "#pricing" },
+  { label: "Blogg", href: "/blog" },
   { label: "Kontakt", href: "#contact" },
 ];
 

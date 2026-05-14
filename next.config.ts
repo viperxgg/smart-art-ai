@@ -46,7 +46,12 @@ const nextConfig: NextConfig = {
       },
       { source: "/home-page-v2", destination: "/", permanent: true },
       { source: "/en/home-page-v2", destination: "/en", permanent: true },
-      { source: "/sv", destination: "/", statusCode: 301 },
+      {
+        source: "/sv",
+        destination: "/",
+        has: [{ type: "host", value: "www.smartartai.se" }],
+        statusCode: 301,
+      },
       { source: "/sv/home-page-v2", destination: "/", permanent: true },
       { source: "/om-oss", destination: "/nord-smart-menu", permanent: true },
       { source: "/en/about", destination: "/en/nord-smart-menu", permanent: true },

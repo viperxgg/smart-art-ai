@@ -13,13 +13,14 @@ import {
 } from "@/lib/site";
 
 const navItems = [
-  { label: "Hem", hash: "#home" },
-  { label: "Smart Menu", hash: "#smart-menu" },
-  { label: "Menydesign", hash: "#menu-design" },
-  { label: "Exempel", hash: "#examples" },
-  { label: "Process", hash: "#process" },
-  { label: "Pris", hash: "#pricing" },
-  { label: "Kontakt", hash: "#contact" },
+  { label: "Hem", href: "#home" },
+  { label: "Smart Menu", href: "#smart-menu" },
+  { label: "Menydesign", href: "#menu-design" },
+  { label: "Exempel", href: "#examples" },
+  { label: "Process", href: "#process" },
+  { label: "Pris", href: "#pricing" },
+  { label: "Blogg", href: "/blog" },
+  { label: "Kontakt", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -48,7 +49,7 @@ export default function Navbar() {
     router.replace(`${targetPathname}${query ? `?${query}` : ""}${hash}`);
   };
 
-  const buildAnchorHref = (hash: string) => `${homeHref}${hash}`;
+  const buildNavHref = (href: string) => href.startsWith("#") ? `${homeHref}${href}` : href;
 
   return (
     <>
@@ -75,8 +76,8 @@ export default function Navbar() {
           <div className="hidden items-center gap-1 lg:flex">
             {navItems.map((item) => (
               <Link
-                key={item.hash}
-                href={buildAnchorHref(item.hash)}
+                key={item.href}
+                href={buildNavHref(item.href)}
                 className="inline-flex min-h-11 items-center rounded-xl px-3 text-sm font-bold text-[var(--restaurant-muted)] transition hover:bg-[var(--restaurant-surface-warm)] hover:text-[var(--restaurant-text)]"
               >
                 {item.label}
@@ -127,8 +128,8 @@ export default function Navbar() {
             <div className="mx-auto grid max-w-7xl gap-2">
               {navItems.map((item) => (
                 <Link
-                  key={item.hash}
-                  href={buildAnchorHref(item.hash)}
+                  key={item.href}
+                  href={buildNavHref(item.href)}
                   onClick={() => setIsOpen(false)}
                   className="rounded-xl border border-[var(--restaurant-border)] px-4 py-3 text-sm font-bold text-[var(--restaurant-text)]"
                 >

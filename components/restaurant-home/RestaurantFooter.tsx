@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Mail, MapPin } from "lucide-react";
 import type { AppLocale } from "@/lib/site";
 
@@ -31,6 +32,7 @@ export function RestaurantFooter({ locale }: { locale: AppLocale }) {
             <a href="#menu-design" className="footer-link">Digital menydesign</a>
             <a href="#smart-menu" className="footer-link">Print-ready meny</a>
             <a href="#pricing" className="footer-link">Pris</a>
+            <Link href="/blog" className="footer-link">Blogg</Link>
           </div>
         </div>
 

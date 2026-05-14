@@ -83,6 +83,7 @@ export default function proxy(request: NextRequest) {
       const internalUrl = request.nextUrl.clone();
       const internalPath = getDefaultLocaleInternalPath(originalPathname);
       internalUrl.pathname = `/${siteConfig.defaultLocale}${internalPath === "/" ? "" : internalPath}`;
+      internalUrl.searchParams.set("__localeRewrite", "1");
 
       const rewriteResponse = NextResponse.rewrite(internalUrl);
       const setCookie = response.headers.get("set-cookie");

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { MotionConfig, motion } from "framer-motion";
 import {
@@ -24,7 +25,7 @@ import {
 } from "lucide-react";
 import ContactFormModal from "@/components/ui/ContactFormModal";
 import MenuUploadModal from "@/components/ui/MenuUploadModal";
-import { getDemoHref, type AppLocale } from "@/lib/site";
+import { getDemoHref, getLocalizedHref, type AppLocale } from "@/lib/site";
 import { ParallaxImage } from "@/components/restaurant-home/ParallaxImage";
 import { RestaurantFooter } from "@/components/restaurant-home/RestaurantFooter";
 import { RestaurantNavbar } from "@/components/restaurant-home/RestaurantNavbar";
@@ -183,6 +184,24 @@ const packages = [
   },
 ];
 
+const blogHighlights = [
+  {
+    slug: "best-digital-menu-sweden",
+    title: "B?sta digitala menyn f?r restauranger i Sverige",
+    body: "En praktisk guide f?r restauranger som vill v?lja en tydlig QR-meny utan att tappa k?nslan i varum?rket.",
+  },
+  {
+    slug: "digital-menu-vs-paper-menu",
+    title: "Digital meny eller pappersmeny?",
+    body: "N?r digital meny passar b?st, n?r tryck fortfarande beh?vs och hur b?da kan fungera tillsammans.",
+  },
+  {
+    slug: "qr-menus-help-restaurants-serve-faster",
+    title: "Hur QR-menyer hj?lper restauranger att servera snabbare",
+    body: "Se hur g?sten kan komma ig?ng snabbare och hur personalen f?r f?rre ?terkommande menyfr?gor.",
+  },
+] as const;
+
 export default function RestaurantRepositionHome({ locale }: RestaurantRepositionHomeProps) {
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isUploadOpen, setIsUploadOpen] = useState(false);
@@ -205,6 +224,7 @@ export default function RestaurantRepositionHome({ locale }: RestaurantRepositio
           <RestaurantTypeSection />
           <ProcessSection />
           <PricingSection onContact={openContact} />
+          <BlogPreviewSection locale={locale} />
           <FinalCtaSection onContact={openContact} onUpload={openUpload} />
         </main>
         <RestaurantFooter locale={locale} />
@@ -691,6 +711,50 @@ function PricingSection({ onContact }: { onContact: () => void }) {
             </StaggerItem>
           ))}
         </StaggerGroup>
+      </div>
+    </section>
+  );
+}
+
+function BlogPreviewSection({ locale }: { locale: AppLocale }) {
+  return (
+    <section id="blog" className="restaurant-section scroll-mt-28 bg-[var(--restaurant-bg)]">
+      <div className="restaurant-container">
+        <Reveal className="max-w-3xl">
+          <p className="restaurant-eyebrow">Blogg</p>
+          <h2 className="restaurant-title mt-4">
+            Guider f?r restauranger som vill f?rst? digital meny innan beslut.
+          </h2>
+          <p className="mt-5 max-w-2xl text-lg leading-8 text-[var(--restaurant-muted)]">
+            L?s praktiska artiklar om QR-menyer, pappersmenyer, servicefl?de och hur en modern meny kan p?verka g?stens upplevelse.
+          </p>
+        </Reveal>
+
+        <StaggerGroup className="mt-10 grid gap-5 lg:grid-cols-3">
+          {blogHighlights.map((post) => (
+            <StaggerItem key={post.slug}>
+              <Link
+                href={getLocalizedHref("/blog/[slug]", locale, { slug: post.slug })}
+                className="restaurant-card restaurant-lift flex h-full flex-col p-6"
+              >
+                <BookOpen className="h-7 w-7 text-[var(--restaurant-tomato)]" />
+                <h3 className="mt-5 text-2xl font-black leading-tight">{post.title}</h3>
+                <p className="mt-4 leading-7 text-[var(--restaurant-muted)]">{post.body}</p>
+                <div className="mt-auto inline-flex items-center gap-2 pt-8 text-sm font-black text-[var(--restaurant-tomato)]">
+                  L?s artikeln
+                  <ArrowRight className="h-4 w-4" />
+                </div>
+              </Link>
+            </StaggerItem>
+          ))}
+        </StaggerGroup>
+
+        <Reveal delay={0.1} className="mt-10">
+          <Link href={getLocalizedHref("/blog", locale)} className="restaurant-button restaurant-button-primary">
+            Se alla guider
+            <ArrowRight className="h-4 w-4" />
+          </Link>
+        </Reveal>
       </div>
     </section>
   );
