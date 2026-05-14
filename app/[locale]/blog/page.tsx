@@ -65,7 +65,7 @@ export default async function BlogListingPage({
   };
 
   return (
-    <main className="sai-page">
+    <main className="sai-page restaurant-blog-theme">
       <section className="sai-hero">
         <div className="sai-container grid gap-10 lg:grid-cols-[1fr_0.82fr] lg:items-end">
           <div>

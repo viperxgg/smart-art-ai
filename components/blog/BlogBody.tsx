@@ -115,7 +115,10 @@ export default function BlogBody({ locale, slug, sections, faqTitle, faq, cta }:
           ) : null}
 
           {blogDemoSections && index === 1 ? (
-            <DemoSection {...blogDemoSections.inline} className="border-[rgba(124,255,178,0.18)] bg-[rgba(124,255,178,0.04)]" />
+            <DemoSection
+              {...blogDemoSections.inline}
+              className="border-[rgba(217,173,98,0.2)] bg-[rgba(217,79,48,0.06)]"
+            />
           ) : null}
 
           {blogDemoSections && section.liveDemo ? (

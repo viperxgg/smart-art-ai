@@ -255,6 +255,73 @@ body {
     color: var(--text-main);
   }
 
+  .restaurant-blog-theme {
+    --bg-main: var(--restaurant-dark);
+    --bg-card: #21150f;
+    --bg-soft: #2b1d15;
+    --text-main: #fff8ef;
+    --text-muted: rgba(255, 248, 239, 0.68);
+    --accent-primary: var(--restaurant-tomato);
+    --accent-secondary: var(--restaurant-gold);
+    --accent-purple: var(--restaurant-saffron);
+    --border-soft: rgba(217, 173, 98, 0.18);
+    background:
+      radial-gradient(circle at 16% 0%, rgba(217, 79, 48, 0.16), transparent 30rem),
+      radial-gradient(circle at 84% 2%, rgba(217, 173, 98, 0.13), transparent 28rem),
+      linear-gradient(180deg, #160f0b 0%, #120c09 44%, #160f0b 100%);
+    color: var(--text-main);
+  }
+
+  .restaurant-blog-theme .sai-card {
+    background: linear-gradient(180deg, rgba(255, 248, 239, 0.055), rgba(255, 248, 239, 0.026));
+    box-shadow: 0 24px 90px rgba(9, 5, 3, 0.28);
+  }
+
+  .restaurant-blog-theme .sai-panel {
+    background:
+      linear-gradient(180deg, rgba(255, 248, 239, 0.07), rgba(255, 248, 239, 0.03)),
+      rgba(36, 23, 17, 0.78);
+    box-shadow: 0 28px 110px rgba(9, 5, 3, 0.32);
+  }
+
+  .restaurant-blog-theme .sai-section-soft {
+    background: rgba(43, 29, 21, 0.82);
+  }
+
+  .restaurant-blog-theme .sai-card-hover:hover {
+    border-color: rgba(217, 79, 48, 0.42);
+    background: rgba(43, 29, 21, 0.92);
+    box-shadow: 0 28px 90px rgba(9, 5, 3, 0.32), 0 0 36px rgba(217, 79, 48, 0.08);
+  }
+
+  .restaurant-blog-theme .sai-icon {
+    border-color: rgba(217, 79, 48, 0.28);
+    background: rgba(217, 79, 48, 0.11);
+    color: var(--restaurant-tomato);
+  }
+
+  .restaurant-blog-theme .sai-chip {
+    border-color: rgba(217, 173, 98, 0.22);
+    background: rgba(255, 248, 239, 0.06);
+    color: #fff8ef;
+  }
+
+  .restaurant-blog-theme .sai-button-primary {
+    border-color: rgba(217, 79, 48, 0.38);
+    background: var(--restaurant-tomato);
+    color: #fffdf8;
+    box-shadow: 0 16px 42px rgba(217, 79, 48, 0.2);
+  }
+
+  .restaurant-blog-theme .sai-button-primary:hover {
+    box-shadow: 0 20px 54px rgba(217, 79, 48, 0.28);
+  }
+
+  .restaurant-blog-theme .sai-button-secondary:hover {
+    border-color: rgba(217, 173, 98, 0.32);
+    background: rgba(217, 173, 98, 0.1);
+  }
+
   .sai-container {
     width: 100%;
     max-width: 80rem;

@@ -101,7 +101,7 @@ export default async function BlogPostPage({
         ]}
       />
 
-      <main className="sai-page">
+      <main className="sai-page restaurant-blog-theme">
         <section className="sai-hero">
           <div className="sai-container-narrow">
             <Link
