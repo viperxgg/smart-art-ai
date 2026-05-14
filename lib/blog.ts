@@ -292,48 +292,106 @@ function getRelatedBlogLink(locale: AppLocale, slug: string): BlogSectionLink | 
   return link ? link[isSwedish ? "sv" : "en"] : null;
 }
 
-function getRequiredRestaurantArticleLinks(locale: AppLocale): BlogSectionLink[] {
-  return locale === "sv"
+function getRequiredRestaurantArticleLinks(locale: AppLocale, currentSlug: string): BlogSectionLink[] {
+  const isSwedish = locale === "sv";
+  const candidates = isSwedish
     ? [
         {
-          label: "Digital meny för restauranger",
-          href: "/nord-smart-menu",
+          targetSlug: null,
+          label: "digital meny för restauranger",
+          href: "/nord-smart-menu" as const,
           description:
             "Se huvudlösningen för restauranger som vill samla QR-meny, mobil gästvy och tydligare menystruktur.",
         },
         {
+          targetSlug: "digital-menu-vs-paper-menu",
           label: "digital meny jämfört med pappersmeny",
-          href: "/blog/digital-menu-vs-paper-menu",
+          href: "/blog/digital-menu-vs-paper-menu" as const,
           description:
             "Jämför hur digital meny och pappersmeny påverkar uppdateringar, serviceflöde och gästupplevelse.",
         },
         {
+          targetSlug: "best-digital-menu-sweden",
           label: "bästa digitala menyn för restauranger i Sverige",
-          href: "/blog/best-digital-menu-sweden",
+          href: "/blog/best-digital-menu-sweden" as const,
           description:
             "Läs vilka kriterier som är viktigast när restauranger i Sverige väljer digital meny.",
+        },
+        {
+          targetSlug: "qr-menus-help-restaurants-serve-faster",
+          label: "QR-meny för restaurang",
+          href: "/blog/qr-menus-help-restaurants-serve-faster" as const,
+          description:
+            "Se hur QR-menyer kan hjälpa gästen att komma igång snabbare och minska väntan vid bordet.",
+        },
+        {
+          targetSlug: "scandinavian-digital-menu",
+          label: "digitala menyer för café och restaurang",
+          href: "/blog/scandinavian-digital-menu" as const,
+          description:
+            "Fördjupa dig i hur meny, admin och köksvy kan hänga ihop i ett modernt restaurangflöde.",
+        },
+        {
+          targetSlug: "smart-menu-alcohol-compliance-sweden",
+          label: "smart meny för restauranger",
+          href: "/blog/smart-menu-alcohol-compliance-sweden" as const,
+          description:
+            "Läs hur en smart meny kan hantera alkohol och serviceflöde utan fel självbetjäning.",
         },
       ]
     : [
         {
-          label: "Digital menu for restaurants",
-          href: "/nord-smart-menu",
+          targetSlug: null,
+          label: "digital menu for restaurants",
+          href: "/nord-smart-menu" as const,
           description:
             "See the main solution for restaurants that want QR menu access, a mobile guest view, and clearer menu structure.",
         },
         {
+          targetSlug: "digital-menu-vs-paper-menu",
           label: "digital menu compared with paper menu",
-          href: "/blog/digital-menu-vs-paper-menu",
+          href: "/blog/digital-menu-vs-paper-menu" as const,
           description:
             "Compare how digital and paper menus affect updates, service flow, and guest experience.",
         },
         {
+          targetSlug: "best-digital-menu-sweden",
           label: "best digital menu for restaurants in Sweden",
-          href: "/blog/best-digital-menu-sweden",
+          href: "/blog/best-digital-menu-sweden" as const,
           description:
             "Read the key criteria when restaurants in Sweden choose a digital menu.",
         },
+        {
+          targetSlug: "qr-menus-help-restaurants-serve-faster",
+          label: "QR menu for restaurants",
+          href: "/blog/qr-menus-help-restaurants-serve-faster" as const,
+          description:
+            "See how QR menus help guests start faster and reduce waiting at the table.",
+        },
+        {
+          targetSlug: "scandinavian-digital-menu",
+          label: "digital menus for cafés and restaurants",
+          href: "/blog/scandinavian-digital-menu" as const,
+          description:
+            "Go deeper into how menu, admin, and kitchen views connect in a modern restaurant flow.",
+        },
+        {
+          targetSlug: "smart-menu-alcohol-compliance-sweden",
+          label: "smart menu for restaurants",
+          href: "/blog/smart-menu-alcohol-compliance-sweden" as const,
+          description:
+            "Read how a smart menu can handle alcohol and service flow without the wrong self-service path.",
+        },
       ];
+
+  return candidates
+    .filter((link) => link.targetSlug !== currentSlug)
+    .slice(0, 3)
+    .map((link) => ({
+      label: link.label,
+      href: link.href,
+      description: link.description,
+    }));
 }
 
 function mergeSectionLinks(
@@ -369,7 +427,7 @@ function enhanceBlogTranslation(
   const relatedBlogLink = getRelatedBlogLink(locale, slug);
   const requiredArticleLinks = slug.includes("stadsync")
     ? []
-    : getRequiredRestaurantArticleLinks(locale);
+    : getRequiredRestaurantArticleLinks(locale, slug);
   const lastContentIndex = [...translation.sections]
     .map((section, index) => ({ section, index }))
     .reverse()
