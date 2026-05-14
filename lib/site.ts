@@ -12,14 +12,11 @@ export const siteConfig = {
 } as const;
 
 export type AppLocale = (typeof siteConfig.locales)[number];
-export const primaryRestaurantPage = "/om-oss" as const;
+export const primaryRestaurantPage = "/nord-smart-menu" as const;
 
 export const localizedPathnames = {
   "/": "/",
-  "/om-oss": {
-    sv: "/nord-smart-menu",
-    en: "/nord-smart-menu",
-  },
+  "/nord-smart-menu": "/nord-smart-menu",
   "/blog": "/blog",
   "/blog/[slug]": "/blog/[slug]",
   "/smart-menu": "/smart-menu",
@@ -168,7 +165,7 @@ export function switchConcretePathname(pathname: string, locale: AppLocale) {
   }
 
   const staticMappings = [
-    localizedPathnames["/om-oss"],
+    localizedPathnames["/nord-smart-menu"],
     localizedPathnames["/smart-menu"],
     localizedPathnames["/stadsync-ai"],
     localizedPathnames["/restaurant-digital-menu"],

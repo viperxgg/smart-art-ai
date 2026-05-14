@@ -49,6 +49,7 @@ export async function generateMetadata({
     pathname: page.pathname,
     title: page.title,
     description: page.description,
+    noIndex: true,
     keywords: [page.primaryKeyword, ...page.secondaryKeywords, "StädSync AI"],
   });
 }

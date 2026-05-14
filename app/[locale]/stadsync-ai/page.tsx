@@ -43,6 +43,7 @@ export async function generateMetadata({
       "AI arbetsledning",
       "Smart Art Ai",
     ],
+    noIndex: true,
   });
 }
 

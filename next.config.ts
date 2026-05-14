@@ -14,13 +14,42 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      {
+        source: "/",
+        has: [{ type: "host", value: "smartartai.se" }],
+        destination: "https://www.smartartai.se/",
+        statusCode: 301,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "smartartai.se" }],
+        destination: "https://www.smartartai.se/:path*",
+        statusCode: 301,
+      },
+      {
+        source: "/",
+        has: [
+          { type: "host", value: "www.smartartai.se" },
+          { type: "header", key: "x-forwarded-proto", value: "http" },
+        ],
+        destination: "https://www.smartartai.se/",
+        statusCode: 301,
+      },
+      {
+        source: "/:path*",
+        has: [
+          { type: "host", value: "www.smartartai.se" },
+          { type: "header", key: "x-forwarded-proto", value: "http" },
+        ],
+        destination: "https://www.smartartai.se/:path*",
+        statusCode: 301,
+      },
       { source: "/home-page-v2", destination: "/", permanent: true },
       { source: "/en/home-page-v2", destination: "/en", permanent: true },
       { source: "/sv/home-page-v2", destination: "/", permanent: true },
       { source: "/om-oss", destination: "/nord-smart-menu", permanent: true },
       { source: "/en/about", destination: "/en/nord-smart-menu", permanent: true },
       { source: "/sv/om-oss", destination: "/nord-smart-menu", permanent: true },
-      { source: "/sv/nord-smart-menu", destination: "/nord-smart-menu", permanent: true },
       { source: "/smart-menu", destination: "/nord-smart-menu", permanent: true },
       { source: "/en/smart-menu", destination: "/en/nord-smart-menu", permanent: true },
       { source: "/sv/smart-menu", destination: "/nord-smart-menu", permanent: true },

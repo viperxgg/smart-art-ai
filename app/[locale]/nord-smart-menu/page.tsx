@@ -14,11 +14,11 @@ export async function generateMetadata({
     pathname: "/nord-smart-menu",
     title:
       locale === "sv"
-        ? "Digital meny för restauranger | Nord Smart Menu"
+        ? "Digital meny fÃ¶r restauranger | Nord Smart Menu"
         : "Digital Menu for Restaurants | Nord Smart Menu",
     description:
       locale === "sv"
-        ? "Modern QR-meny och menydesign för restauranger med gästvy, ingredienser, allergener, tydlig mobilupplevelse och engångsbetalning för kärnleveransen."
+        ? "Modern QR-meny och menydesign fÃ¶r restauranger med gÃ¤stvy, ingredienser, allergener, tydlig mobilupplevelse och engÃ¥ngsbetalning fÃ¶r kÃ¤rnleveransen."
         : "Modern QR menu for restaurants with guest view, admin panel, kitchen view, ingredients, calories, and a clearer service workflow.",
     keywords:
       locale === "sv"
@@ -27,7 +27,7 @@ export async function generateMetadata({
   });
 }
 
-export default async function OmOssPage({
+export default async function NordSmartMenuPage({
   params,
 }: {
   params: Promise<{ locale: AppLocale }>;

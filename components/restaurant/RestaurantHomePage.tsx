@@ -269,7 +269,7 @@ export function RestaurantHomePage({ locale }: RestaurantHomePageProps) {
               primaryHref={guestDemoHref}
               primaryOpenInNewTab
               secondaryLabel={copy.secondaryCta}
-              sourcePage="/om-oss"
+              sourcePage="/nord-smart-menu"
               ctaContext="nord-smart-menu-hero"
               serviceType={copy.serviceType}
               className="mt-9"
@@ -473,7 +473,7 @@ export function RestaurantHomePage({ locale }: RestaurantHomePageProps) {
                 secondaryAction="link"
                 secondaryHref={guestDemoHref}
                 secondaryOpenInNewTab
-                sourcePage="/om-oss"
+                sourcePage="/nord-smart-menu"
                 ctaContext="nord-smart-menu-final"
                 serviceType={copy.serviceType}
                 className="mt-8"

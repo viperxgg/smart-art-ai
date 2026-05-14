@@ -1,60 +1,24 @@
 import type { MetadataRoute } from "next";
-import { blogPosts } from "@/lib/blog";
-import { stadSyncSeoPages, stadSyncSeoSlugs } from "@/lib/stadsync-seo";
-import { getAbsoluteUrl, siteConfig } from "@/lib/site";
 
-const indexableInternalPaths = [
-  "/",
+const siteUrl = "https://www.smartartai.se";
+
+const pages = [
+  "",
+  "/nord-smart-menu",
   "/blog",
-  "/om-oss",
-  "/stadsync-ai",
+  "/blog/best-digital-menu-sweden",
+  "/blog/digital-menu-vs-paper-menu",
+  "/blog/restaurant-ordering-system-reduce-staff-pressure",
+  "/blog/smart-menu-alcohol-compliance-sweden",
+  "/blog/qr-menus-help-restaurants-serve-faster",
+  "/blog/scandinavian-digital-menu",
 ] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const localeEntries = siteConfig.locales.flatMap((locale) =>
-    indexableInternalPaths.map((pathname) => ({
-      url: getAbsoluteUrl(pathname, locale),
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          sv: getAbsoluteUrl(pathname, "sv"),
-          en: getAbsoluteUrl(pathname, "en"),
-        },
-      },
-    })),
-  );
-
-  const blogEntries = siteConfig.locales.flatMap((locale) =>
-    blogPosts.map((post) => ({
-      url: getAbsoluteUrl("/blog/[slug]", locale, { slug: post.slug }),
-      lastModified: new Date(post.date),
-      alternates: {
-        languages: {
-          sv: getAbsoluteUrl("/blog/[slug]", "sv", { slug: post.slug }),
-          en: getAbsoluteUrl("/blog/[slug]", "en", { slug: post.slug }),
-        },
-      },
-    })),
-  );
-
-  const stadSyncEntries = siteConfig.locales.flatMap((locale) =>
-    stadSyncSeoSlugs.map((slug) => {
-      const page = stadSyncSeoPages[locale][slug];
-      const svPage = stadSyncSeoPages.sv[slug];
-      const enPage = stadSyncSeoPages.en[slug];
-
-      return {
-        url: getAbsoluteUrl(page.pathname, locale),
-        lastModified: new Date(),
-        alternates: {
-          languages: {
-            sv: getAbsoluteUrl(svPage.pathname, "sv"),
-            en: getAbsoluteUrl(enPage.pathname, "en"),
-          },
-        },
-      };
-    }),
-  );
-
-  return [...localeEntries, ...stadSyncEntries, ...blogEntries];
+  return pages.map((path) => ({
+    url: `${siteUrl}${path}`,
+    lastModified: new Date(),
+    changeFrequency: path === "" ? "weekly" : "monthly",
+    priority: path === "" ? 1 : path === "/nord-smart-menu" ? 0.9 : 0.7,
+  }));
 }

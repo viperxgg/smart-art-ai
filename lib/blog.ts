@@ -58,6 +58,11 @@ export interface BlogPost {
   translations: { sv: BlogTranslation } & Partial<Record<AppLocale, BlogTranslation>>;
 }
 
+export function isStadSyncBlogPost(postOrSlug: Pick<BlogPost, "slug"> | string) {
+  const slug = typeof postOrSlug === "string" ? postOrSlug : postOrSlug.slug;
+  return slug.toLowerCase().includes("stadsync");
+}
+
 function getRestaurantCta(locale: AppLocale, href?: InternalPathname): BlogCta {
   void href;
 
@@ -66,7 +71,7 @@ function getRestaurantCta(locale: AppLocale, href?: InternalPathname): BlogCta {
         title: "Se hur digital meny fungerar i praktiken",
         body: "Gå vidare till sidan om digital meny för restauranger om ni vill se huvudlösningen tydligt. När upplägget känns rätt kan ni boka demo.",
         primaryLabel: "Se hur digital meny fungerar",
-        primaryHref: "/om-oss",
+        primaryHref: "/nord-smart-menu",
         secondaryLabel: "Boka demo",
         secondaryHref: getDemoHref(locale, "menu"),
       }
@@ -74,7 +79,7 @@ function getRestaurantCta(locale: AppLocale, href?: InternalPathname): BlogCta {
         title: "See how the digital menu works in practice",
         body: "Move into the main digital menu page to understand the offer clearly. Once it fits, you can book a demo.",
         primaryLabel: "See how the digital menu works",
-        primaryHref: "/om-oss",
+        primaryHref: "/nord-smart-menu",
         secondaryLabel: "Book a demo",
         secondaryHref: getDemoHref(locale, "menu"),
       };
@@ -146,12 +151,12 @@ function getStrategicCommercialLinks(locale: AppLocale, slug: string): BlogSecti
   const primaryLink = isSwedish
     ? {
         label: "Digital meny för restauranger",
-        href: "/om-oss" as const,
+        href: "/nord-smart-menu" as const,
         description: "Se huvudlösningen för restauranger som vill gå från papper till en tydligare digital meny.",
       }
     : {
         label: "Digital menu for restaurants",
-        href: "/om-oss" as const,
+        href: "/nord-smart-menu" as const,
         description: "See the main page for restaurants moving from printed menus to a clearer digital menu.",
       };
 
@@ -161,12 +166,12 @@ function getStrategicCommercialLinks(locale: AppLocale, slug: string): BlogSecti
       isSwedish
         ? {
             label: "QR-meny för restauranger",
-            href: "/om-oss" as const,
+            href: "/nord-smart-menu" as const,
             description: "Fördjupa er i QR-flödet när ni först förstått den digitala menyupplevelsen.",
           }
         : {
             label: "QR menu for restaurants",
-            href: "/om-oss" as const,
+            href: "/nord-smart-menu" as const,
             description: "Go deeper into the QR flow after the main digital menu page.",
           },
     ];
@@ -178,12 +183,12 @@ function getStrategicCommercialLinks(locale: AppLocale, slug: string): BlogSecti
       isSwedish
         ? {
             label: "Restaurang beställningssystem",
-            href: "/om-oss" as const,
+            href: "/nord-smart-menu" as const,
             description: "Se hur menyn kan byggas vidare till ett tydligare order- och serviceflöde.",
           }
         : {
             label: "Restaurant ordering system",
-            href: "/om-oss" as const,
+            href: "/nord-smart-menu" as const,
             description: "See how the menu can expand into a clearer ordering and service workflow.",
           },
     ];
@@ -195,12 +200,12 @@ function getStrategicCommercialLinks(locale: AppLocale, slug: string): BlogSecti
       isSwedish
         ? {
             label: "Digital meny i Sverige",
-            href: "/om-oss" as const,
+            href: "/nord-smart-menu" as const,
             description: "Se den svenska vinkeln när ni vill jämföra marknadsanpassning och upplägg.",
           }
         : {
             label: "Digital menu in Sweden",
-            href: "/om-oss" as const,
+            href: "/nord-smart-menu" as const,
             description: "See the Sweden-specific angle when local fit matters.",
           },
     ];
@@ -211,12 +216,12 @@ function getStrategicCommercialLinks(locale: AppLocale, slug: string): BlogSecti
     isSwedish
       ? {
           label: "QR-meny för restauranger",
-          href: "/om-oss" as const,
+          href: "/nord-smart-menu" as const,
           description: "Se hur gästen kan komma igång snabbare direkt från bordet.",
         }
       : {
           label: "QR menu for restaurants",
-          href: "/om-oss" as const,
+          href: "/nord-smart-menu" as const,
           description: "See how guests can start faster directly from the table.",
         },
   ];
@@ -509,7 +514,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Nord Smart Menu",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description:
                   "Se hur digital meny, serviceflöde och kök kan byggas för restauranger som behöver både snabbhet och kontroll.",
               },
@@ -539,7 +544,7 @@ export const blogPosts: BlogPost[] = [
               "Nej. Detta är en produkt- och teknikprincip. Restauranger bör alltid kontrollera sina rutiner med ansvarig kommun, tillståndsenhet eller juridisk rådgivare.",
           },
         ],
-        cta: getRestaurantCta("sv", "/om-oss"),
+        cta: getRestaurantCta("sv", "/nord-smart-menu"),
       },
     },
   },
@@ -588,7 +593,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Digital meny i Sverige",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "Se hur ett restaurangfokuserat upplägg kan se ut för den svenska marknaden.",
               },
             ],
@@ -615,7 +620,7 @@ export const blogPosts: BlogPost[] = [
             answer: "En bra lösning fungerar snabbt i mobilen, går lätt att uppdatera och hjälper faktiskt personal och gäst i vardagen.",
           },
         ],
-        cta: getRestaurantCta("sv", "/om-oss"),
+        cta: getRestaurantCta("sv", "/nord-smart-menu"),
       },
       en: {
         title: "The Best Digital Menu Solution for Restaurants in Sweden",
@@ -653,7 +658,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Digital menu in Sweden",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "See how a Swedish market-fit setup can look.",
               },
             ],
@@ -680,7 +685,7 @@ export const blogPosts: BlogPost[] = [
             answer: "A good solution stays fast on mobile, is easy to update, and genuinely supports both staff and guests during daily service.",
           },
         ],
-        cta: getRestaurantCta("en", "/om-oss"),
+        cta: getRestaurantCta("en", "/nord-smart-menu"),
       },
     },
   },
@@ -729,7 +734,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Restaurang beställningssystem",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "Se hur meny, admin och kök kan kopplas ihop i samma arbetsflöde.",
               },
             ],
@@ -756,7 +761,7 @@ export const blogPosts: BlogPost[] = [
             answer: "Ja. Utan tydlig KDS eller statusvy blir det svårt att få den fulla operativa effekten av ett digitalt beställningssystem.",
           },
         ],
-        cta: getRestaurantCta("sv", "/om-oss"),
+        cta: getRestaurantCta("sv", "/nord-smart-menu"),
       },
       en: {
         title: "How a Restaurant Ordering System Reduces Staff Pressure",
@@ -796,7 +801,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Restaurant ordering system",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "See how the guest menu, admin flow, and kitchen mode fit together.",
               },
             ],
@@ -823,7 +828,7 @@ export const blogPosts: BlogPost[] = [
             answer: "Yes. Without a clear kitchen view or KDS, the operational value of the wider ordering system stays limited.",
           },
         ],
-        cta: getRestaurantCta("en", "/om-oss"),
+        cta: getRestaurantCta("en", "/nord-smart-menu"),
       },
     },
   },
@@ -869,7 +874,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "QR-meny för restauranger",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "Se hur ett tydligt QR-flöde kan användas i restaurangmiljö.",
               },
             ],
@@ -890,7 +895,7 @@ export const blogPosts: BlogPost[] = [
             answer: "Nej. Den kan börja som menyåtkomst och byggas vidare till ordering när det passar verksamheten.",
           },
         ],
-        cta: getRestaurantCta("sv", "/om-oss"),
+        cta: getRestaurantCta("sv", "/nord-smart-menu"),
       },
       en: {
         title: "Why Restaurants in Sweden Are Switching to QR Menus",
@@ -927,7 +932,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "QR menu for restaurants",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "See how a clearer QR flow can be used in restaurant operations.",
               },
             ],
@@ -948,7 +953,7 @@ export const blogPosts: BlogPost[] = [
             answer: "No. It can start as menu access and expand into ordering later when the venue is ready.",
           },
         ],
-        cta: getRestaurantCta("en", "/om-oss"),
+        cta: getRestaurantCta("en", "/nord-smart-menu"),
       },
     },
   },
@@ -993,7 +998,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Digital meny för restauranger",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "Se hur en digital meny kan användas som ett tydligare alternativ till papper.",
               },
             ],
@@ -1020,7 +1025,7 @@ export const blogPosts: BlogPost[] = [
             answer: "När uppdateringar blir vanliga, kampanjer ändras ofta eller menyer måste hållas synkade i flera versioner.",
           },
         ],
-        cta: getRestaurantCta("sv", "/om-oss"),
+        cta: getRestaurantCta("sv", "/nord-smart-menu"),
       },
       en: {
         title: "Digital Menu vs Paper Menu for Restaurants",
@@ -1056,7 +1061,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Digital menu for restaurants",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "See how a digital menu can replace paper with a clearer guest flow.",
               },
             ],
@@ -1083,7 +1088,7 @@ export const blogPosts: BlogPost[] = [
             answer: "When updates happen often, campaigns rotate, or multiple versions of the menu need to stay aligned.",
           },
         ],
-        cta: getRestaurantCta("en", "/om-oss"),
+        cta: getRestaurantCta("en", "/nord-smart-menu"),
       },
     },
   },
@@ -1129,7 +1134,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "QR-meny för restauranger",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "Se hur ett tydligt QR-flöde kan minska väntan redan från bordet.",
               },
             ],
@@ -1150,7 +1155,7 @@ export const blogPosts: BlogPost[] = [
             answer: "Det passar särskilt bra där snabb menyåtkomst och tydlig start vid bordet är viktiga för tempot.",
           },
         ],
-        cta: getRestaurantCta("sv", "/om-oss"),
+        cta: getRestaurantCta("sv", "/nord-smart-menu"),
       },
       en: {
         title: "How QR Menus Help Restaurants Serve Faster",
@@ -1187,7 +1192,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "QR menu for restaurants",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "See how a cleaner QR flow can reduce waiting from the table onward.",
               },
             ],
@@ -1208,7 +1213,7 @@ export const blogPosts: BlogPost[] = [
             answer: "It is especially useful where quick menu access and a fast table start matter to operations.",
           },
         ],
-        cta: getRestaurantCta("en", "/om-oss"),
+        cta: getRestaurantCta("en", "/nord-smart-menu"),
       },
     },
   },
@@ -1269,7 +1274,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Restaurang beställningssystem",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "Se hur meny, servicevy och kök binds ihop som kommersiellt erbjudande.",
               },
             ],
@@ -1297,7 +1302,7 @@ export const blogPosts: BlogPost[] = [
             answer: "Ja. Den är tänkt att fungera i en tablet-vänlig miljö där teamet behöver agera snabbt.",
           },
         ],
-        cta: getRestaurantCta("sv", "/om-oss"),
+        cta: getRestaurantCta("sv", "/nord-smart-menu"),
       },
       en: {
         title: "How a Modern Restaurant Flow Works with Menu, Admin, and KDS",
@@ -1349,7 +1354,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Restaurant ordering system",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "See the commercial service page for the full guest-service-kitchen flow.",
               },
             ],
@@ -1377,7 +1382,7 @@ export const blogPosts: BlogPost[] = [
             answer: "Yes. It is intended to work well in a tablet-friendly service environment where the team needs to act quickly.",
           },
         ],
-        cta: getRestaurantCta("en", "/om-oss"),
+        cta: getRestaurantCta("en", "/nord-smart-menu"),
       },
     },
   },
@@ -1407,7 +1412,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Digital meny för restauranger",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "Se ett konkret restaurangexempel där digitalisering ger snabb operativ effekt.",
               },
             ],
@@ -1438,7 +1443,7 @@ export const blogPosts: BlogPost[] = [
             answer: "Ja. Restauranger har ofta tydliga moment i meny, service och orderflöde där digitalisering ger snabb nytta.",
           },
         ],
-        cta: getRestaurantCta("sv", "/om-oss"),
+        cta: getRestaurantCta("sv", "/nord-smart-menu"),
       },
       en: {
         title: "How AI Automation Helps Small Businesses in Sweden",
@@ -1459,7 +1464,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Digital menu for restaurants",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "See a concrete restaurant use case where digitalization creates faster operational impact.",
               },
             ],
@@ -1490,7 +1495,7 @@ export const blogPosts: BlogPost[] = [
             answer: "Yes. Restaurants often have clear points in menu, service, and ordering where digitalization delivers quick value.",
           },
         ],
-        cta: getRestaurantCta("en", "/om-oss"),
+        cta: getRestaurantCta("en", "/nord-smart-menu"),
       },
     },
   },
@@ -1520,7 +1525,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Restaurang beställningssystem",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "Se ett konkret exempel på ett tydligare digitalt arbetsflöde i restaurangmiljö.",
               },
             ],
@@ -1551,7 +1556,7 @@ export const blogPosts: BlogPost[] = [
             answer: "Nej. Tydliga digitala arbetsflöden är ofta ännu viktigare i mindre team där varje avbrott märks mer.",
           },
         ],
-        cta: getRestaurantCta("sv", "/om-oss"),
+        cta: getRestaurantCta("sv", "/nord-smart-menu"),
       },
       en: {
         title: "The Future of Digital Work: Clearer Flows, Less Friction",
@@ -1572,7 +1577,7 @@ export const blogPosts: BlogPost[] = [
             links: [
               {
                 label: "Restaurant ordering system",
-                href: "/om-oss",
+                href: "/nord-smart-menu",
                 description: "See a concrete example of a clearer digital workflow in restaurant operations.",
               },
             ],
@@ -1603,7 +1608,7 @@ export const blogPosts: BlogPost[] = [
             answer: "No. Clear digital workflows often matter even more in smaller teams where every interruption is felt more strongly.",
           },
         ],
-        cta: getRestaurantCta("en", "/om-oss"),
+        cta: getRestaurantCta("en", "/nord-smart-menu"),
       },
     },
   },
@@ -1611,6 +1616,7 @@ export const blogPosts: BlogPost[] = [
 
 export async function getPosts(locale: AppLocale) {
   return blogPosts
+    .filter((post) => !isStadSyncBlogPost(post))
     .map((post) => {
       const translation = enhanceBlogTranslation(
         post.slug,

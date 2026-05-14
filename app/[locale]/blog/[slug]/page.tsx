@@ -3,7 +3,7 @@ import { ArrowLeft, CalendarDays, Clock3, Tag } from "lucide-react";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/seo/JsonLd";
 import BlogBody from "@/components/blog/BlogBody";
-import { blogPosts, getPostBySlug, getRelatedPosts } from "@/lib/blog";
+import { blogPosts, getPostBySlug, getRelatedPosts, isStadSyncBlogPost } from "@/lib/blog";
 import {
   buildMetadata,
   getArticleSchema,
@@ -41,6 +41,7 @@ export async function generateMetadata({
     description: post.metaDescription,
     keywords: [post.primaryKeyword, ...post.tags],
     type: "article",
+    noIndex: isStadSyncBlogPost(slug),
   });
 }
 
