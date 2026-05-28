@@ -115,7 +115,7 @@ export default function MenuUploadModal({ isOpen, onClose, sourcePage = "/" }: M
         onClose();
       }, 2400);
     } catch {
-      setError("Något gick fel. Försök igen eller maila info@smartartai.se direkt.");
+      setError("Något gick fel. Försök igen eller maila hello@smartartai.se direkt.");
     } finally {
       setLoading(false);
     }

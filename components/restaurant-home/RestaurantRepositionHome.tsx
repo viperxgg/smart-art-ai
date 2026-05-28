@@ -187,26 +187,41 @@ const packages = [
 const blogHighlights = [
   {
     slug: "best-digital-menu-sweden",
-    title: "B?sta digitala menyn f?r restauranger i Sverige",
-    body: "En praktisk guide f?r restauranger som vill v?lja en tydlig QR-meny utan att tappa k?nslan i varum?rket.",
+    title: "Bästa digitala menyn för restauranger i Sverige",
+    body: "En praktisk guide för restauranger som vill välja en tydlig QR-meny utan att tappa känslan i varumärket.",
   },
   {
     slug: "digital-menu-vs-paper-menu",
     title: "Digital meny eller pappersmeny?",
-    body: "N?r digital meny passar b?st, n?r tryck fortfarande beh?vs och hur b?da kan fungera tillsammans.",
+    body: "När digital meny passar bäst, när tryck fortfarande behövs och hur båda kan fungera tillsammans.",
   },
   {
     slug: "qr-menus-help-restaurants-serve-faster",
-    title: "Hur QR-menyer hj?lper restauranger att servera snabbare",
-    body: "Se hur g?sten kan komma ig?ng snabbare och hur personalen f?r f?rre ?terkommande menyfr?gor.",
+    title: "Hur QR-menyer hjälper restauranger att servera snabbare",
+    body: "Se hur gästen kan komma igång snabbare och hur personalen får färre återkommande menyfrågor.",
   },
 ] as const;
+
+const productRequestIntro =
+  "Vad händer nu? Fyll i dina uppgifter så kontaktar vi dig så snart vi kan för att ta detaljerna och designa en första prototyp.";
 
 export default function RestaurantRepositionHome({ locale }: RestaurantRepositionHomeProps) {
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isUploadOpen, setIsUploadOpen] = useState(false);
+  const [contactContext, setContactContext] = useState({
+    serviceType: "Nord Smart Menu och menydesign",
+    ctaContext: "restaurant-home",
+    introMessage: undefined as string | undefined,
+  });
   const demoHref = getDemoHref(locale, "menu");
-  const openContact = () => setIsContactOpen(true);
+  const openContact = (request?: { serviceType?: string; ctaContext?: string; introMessage?: string }) => {
+    setContactContext({
+      serviceType: request?.serviceType ?? "Nord Smart Menu och menydesign",
+      ctaContext: request?.ctaContext ?? "restaurant-home",
+      introMessage: request?.introMessage,
+    });
+    setIsContactOpen(true);
+  };
   const openUpload = () => setIsUploadOpen(true);
 
   return (
@@ -217,7 +232,7 @@ export default function RestaurantRepositionHome({ locale }: RestaurantRepositio
           <HeroSection demoHref={demoHref} onContact={openContact} />
           <TrustStrip />
           <ProblemSection />
-          <CoreServicesSection />
+          <CoreServicesSection onContact={openContact} />
           <DemoExperienceSection demoHref={demoHref} />
           <MenuDesignSection />
           <BeforeAfterSection />
@@ -234,9 +249,10 @@ export default function RestaurantRepositionHome({ locale }: RestaurantRepositio
         isOpen={isContactOpen}
         onClose={() => setIsContactOpen(false)}
         locale={locale}
-        serviceType="Nord Smart Menu och menydesign"
+        serviceType={contactContext.serviceType}
         sourcePage="/"
-        ctaContext="restaurant-home"
+        ctaContext={contactContext.ctaContext}
+        introMessage={contactContext.introMessage}
         variant="restaurant"
       />
       <MenuUploadModal
@@ -428,7 +444,11 @@ function ProblemSection() {
   );
 }
 
-function CoreServicesSection() {
+function CoreServicesSection({
+  onContact,
+}: {
+  onContact: (request?: { serviceType?: string; ctaContext?: string; introMessage?: string }) => void;
+}) {
   return (
     <section id="smart-menu" className="restaurant-section scroll-mt-28 bg-[var(--restaurant-bg)]">
       <div className="restaurant-container">
@@ -442,54 +462,76 @@ function CoreServicesSection() {
             tryckklara menyfiler utan löpande abonnemang.
           </p>
         </Reveal>
-        <StaggerGroup className="mt-10 grid gap-5 lg:grid-cols-3">
+        <StaggerGroup className="mt-10 grid gap-5 lg:grid-cols-3 lg:items-stretch">
           {services.map((service) => {
             const Icon = service.icon;
             return (
               <StaggerItem key={service.title} className="scroll-mt-28">
                 <article
                   id={service.id === "menu-design" ? "menu-design" : undefined}
-                  className="restaurant-card restaurant-lift group relative flex h-full flex-col overflow-hidden p-6"
+                  className="restaurant-card restaurant-lift group relative flex h-full flex-col overflow-hidden p-6 lg:min-h-[39rem]"
                 >
                   <div className="absolute inset-x-0 top-0 h-1.5 bg-gradient-to-r from-[var(--restaurant-tomato)] via-[var(--restaurant-saffron)] to-[var(--restaurant-basil)]" />
-                  <div className="flex items-start justify-between gap-4">
-                    <span className="restaurant-icon transition duration-300 group-hover:-translate-y-0.5">
-                      <Icon className="h-5 w-5" />
-                    </span>
-                    <span className="rounded-full border border-[rgba(217,79,48,0.2)] bg-[#fff0e6] px-3 py-1 text-[10px] font-black uppercase tracking-[0.18em] text-[var(--restaurant-tomato)]">
-                      {service.priceType}
-                    </span>
+                  <div className="lg:min-h-[6.25rem]">
+                    <div className="flex items-start justify-between gap-4">
+                      <span className="restaurant-icon shrink-0 transition duration-300 group-hover:-translate-y-0.5">
+                        <Icon className="h-5 w-5" />
+                      </span>
+                      <span className="max-w-[11rem] rounded-full border border-[rgba(217,79,48,0.2)] bg-[#fff0e6] px-3 py-1 text-center text-[10px] font-black uppercase tracking-[0.18em] text-[var(--restaurant-tomato)]">
+                        {service.priceType}
+                      </span>
+                    </div>
+                    <h3 className="mt-6 text-2xl font-black leading-tight">{service.title}</h3>
                   </div>
-                  <h3 className="mt-6 text-2xl font-black">{service.title}</h3>
                   <div className="mt-5 rounded-2xl border border-[rgba(84,52,34,0.12)] bg-[linear-gradient(135deg,#fff8ef_0%,#fffdf8_54%,#f7eadb_100%)] p-4 shadow-[0_18px_44px_rgba(84,52,34,0.08)]">
                     <p className="text-3xl font-black tracking-normal text-[var(--restaurant-text)]">{service.price}</p>
                     <p className="mt-1 text-sm font-extrabold text-[var(--restaurant-basil)]">{service.priceType}</p>
                   </div>
-                  <p className="mt-4 leading-7 text-[var(--restaurant-muted)]">{service.body}</p>
+                  <p className="mt-4 leading-7 text-[var(--restaurant-muted)] lg:min-h-[5.25rem]">{service.body}</p>
                   {service.priceNote ? (
-                    <p className="mt-4 rounded-2xl border border-[rgba(73,107,69,0.18)] bg-[rgba(73,107,69,0.07)] px-4 py-3 text-sm font-bold leading-6 text-[var(--restaurant-basil)]">
-                      {service.priceNote}
-                    </p>
-                  ) : null}
+                    <div className="mt-4 lg:min-h-[4.25rem]">
+                      <p className="rounded-2xl border border-[rgba(73,107,69,0.18)] bg-[rgba(73,107,69,0.07)] px-4 py-3 text-sm font-bold leading-6 text-[var(--restaurant-basil)]">
+                        {service.priceNote}
+                      </p>
+                    </div>
+                  ) : (
+                    <div className="hidden lg:block lg:min-h-[5.25rem]" />
+                  )}
                   <div className="mt-6 grid gap-3">
                     {service.features.map((feature) => (
                       <div key={feature} className="flex items-center gap-3 text-sm font-bold">
-                        <span className="h-2 w-2 rounded-full bg-[var(--restaurant-tomato)]" />
-                        {feature}
+                        <span className="h-2 w-2 shrink-0 rounded-full bg-[var(--restaurant-tomato)]" />
+                        <span>{feature}</span>
                       </div>
                     ))}
                   </div>
-                  {service.demoHref ? (
-                    <a
-                      href={service.demoHref}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="restaurant-button restaurant-button-primary mt-7 w-full"
+                  <div className="mt-auto grid gap-3">
+                    {service.demoHref ? (
+                      <a
+                        href={service.demoHref}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="restaurant-button w-full border border-[rgba(217,79,48,0.22)] bg-[#fff8ef] text-[var(--restaurant-tomato)] hover:border-[rgba(217,79,48,0.34)] hover:bg-[#fff0e6]"
+                      >
+                        Se demo
+                        <ArrowRight className="h-4 w-4" />
+                      </a>
+                    ) : null}
+                    <button
+                      type="button"
+                      onClick={() =>
+                        onContact({
+                          serviceType: service.title,
+                          ctaContext: `product-card-${service.id}`,
+                          introMessage: productRequestIntro,
+                        })
+                      }
+                      className="restaurant-button restaurant-button-primary w-full"
                     >
-                      Se demo
+                      Beställ produkten
                       <ArrowRight className="h-4 w-4" />
-                    </a>
-                  ) : null}
+                    </button>
+                  </div>
                 </article>
               </StaggerItem>
             );
@@ -723,10 +765,10 @@ function BlogPreviewSection({ locale }: { locale: AppLocale }) {
         <Reveal className="max-w-3xl">
           <p className="restaurant-eyebrow">Blogg</p>
           <h2 className="restaurant-title mt-4">
-            Guider f?r restauranger som vill f?rst? digital meny innan beslut.
+            Guider för restauranger som vill förstå digital meny innan beslut.
           </h2>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-[var(--restaurant-muted)]">
-            L?s praktiska artiklar om QR-menyer, pappersmenyer, servicefl?de och hur en modern meny kan p?verka g?stens upplevelse.
+            Läs praktiska artiklar om QR-menyer, pappersmenyer, serviceflöde och hur en modern meny kan påverka gästens upplevelse.
           </p>
         </Reveal>
 
@@ -741,7 +783,7 @@ function BlogPreviewSection({ locale }: { locale: AppLocale }) {
                 <h3 className="mt-5 text-2xl font-black leading-tight">{post.title}</h3>
                 <p className="mt-4 leading-7 text-[var(--restaurant-muted)]">{post.body}</p>
                 <div className="mt-auto inline-flex items-center gap-2 pt-8 text-sm font-black text-[var(--restaurant-tomato)]">
-                  L?s artikeln
+                  Läs artikeln
                   <ArrowRight className="h-4 w-4" />
                 </div>
               </Link>

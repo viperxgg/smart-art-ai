@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 
 export const runtime = "nodejs";
 
-const DESTINATION_EMAIL = "info@smartartai.se";
+const DESTINATION_EMAIL = process.env.DESTINATION_EMAIL || "hello@smartartai.se";
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MAX_FILES = 5;
 const MAX_FILE_SIZE = 10 * 1024 * 1024;

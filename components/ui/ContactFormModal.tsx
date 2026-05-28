@@ -215,8 +215,14 @@ export default function ContactFormModal({
                   <p className={eyebrowClassName}>{eyebrow}</p>
                   <h3 id={titleId} className={titleClassName}>{title}</h3>
                   <p id={descriptionId} className={subtitleClassName}>{subtitle}</p>
-                  {introMessage && !isRestaurant ? (
-                    <div className="mt-5 rounded-xl border border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)] px-4 py-3 text-sm font-medium leading-6 text-[var(--accent-primary)]">
+                  {introMessage ? (
+                    <div
+                      className={
+                        isRestaurant
+                          ? "mt-5 rounded-2xl border border-[rgba(217,79,48,0.18)] bg-[#fff0e6] px-4 py-3 text-sm font-bold leading-6 text-[var(--restaurant-text)]"
+                          : "mt-5 rounded-xl border border-[rgba(124,255,178,0.22)] bg-[rgba(124,255,178,0.07)] px-4 py-3 text-sm font-medium leading-6 text-[var(--accent-primary)]"
+                      }
+                    >
                       {introMessage}
                     </div>
                   ) : null}
