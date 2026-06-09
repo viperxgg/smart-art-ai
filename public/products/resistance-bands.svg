@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Resistance bands product illustration</title>
+  <desc id="desc">Colorful exercise resistance bands on a soft pink studio background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe2ef"/>
+      <stop offset=".45" stop-color="#f5e9ff"/>
+      <stop offset="1" stop-color="#d7f9eb"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff2d82"/>
+      <stop offset="1" stop-color="#ff7ab8"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#47e6a8"/>
+      <stop offset="1" stop-color="#19a974"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b7a6ff"/>
+      <stop offset="1" stop-color="#6c4df6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#1a0614" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="960" cy="150" r="190" fill="#fff" opacity=".42"/>
+  <circle cx="150" cy="760" r="220" fill="#fff" opacity=".34"/>
+  <g opacity=".18">
+    <path d="M90 165h1020M90 300h1020M90 435h1020M90 570h1020M90 705h1020" stroke="#170d16" stroke-width="2"/>
+    <path d="M190 80v760M390 80v760M590 80v760M790 80v760M990 80v760" stroke="#170d16" stroke-width="2"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="192" y="176" width="856" height="548" rx="46" fill="#151015"/>
+    <rect x="230" y="214" width="780" height="472" rx="34" fill="#211821"/>
+    <rect x="264" y="248" width="270" height="54" rx="18" fill="url(#pink)"/>
+    <text x="292" y="285" font-family="Arial, sans-serif" font-size="28" font-weight="800" fill="#fff">4 resistance levels</text>
+    <text x="264" y="368" font-family="Arial, sans-serif" font-size="76" font-weight="900" fill="#fff">Home</text>
+    <text x="264" y="444" font-family="Arial, sans-serif" font-size="76" font-weight="900" fill="#fff">Training</text>
+    <text x="266" y="500" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#cfc3cf">Lightweight bands for movement, strength and warm-up.</text>
+    <g transform="translate(620 210)">
+      <path d="M168 40c116 0 210 94 210 210s-94 210-210 210S-42 366-42 250 52 40 168 40Zm0 72C92 112 20 174 20 250s72 138 148 138 148-62 148-138-72-138-148-138Z" fill="url(#pink)"/>
+      <path d="M168 92c88 0 160 72 160 160s-72 160-160 160S8 340 8 252 80 92 168 92Zm0 56c-58 0-104 46-104 104s46 104 104 104 104-46 104-104-46-104-104-104Z" fill="url(#mint)" opacity=".95"/>
+      <path d="M168 150c55 0 100 45 100 100s-45 100-100 100-100-45-100-100 45-100 100-100Zm0 42c-32 0-58 26-58 58s26 58 58 58 58-26 58-58-26-58-58-58Z" fill="url(#violet)" opacity=".95"/>
+    </g>
+    <g transform="translate(272 565)">
+      <rect width="164" height="56" rx="28" fill="#fff"/>
+      <text x="31" y="36" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#151015">See on Amazon</text>
+      <rect x="184" width="156" height="56" rx="28" fill="#ff2d82"/>
+      <text x="222" y="36" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#fff">Real review</text>
+    </g>
+  </g>
+</svg>
