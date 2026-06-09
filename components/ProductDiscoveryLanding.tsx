@@ -12,6 +12,14 @@ import {
 
 import { products } from "@/lib/products";
 
+function getProductPageHref(slug: string) {
+  if (slug === "traningsband-4-nivaer") {
+    return "/traning/traningsband-naturlatex";
+  }
+
+  return `/product/${slug}`;
+}
+
 const navItems = [
   { label: "Hem", icon: Home },
   { label: "Elins val", icon: Heart },
@@ -99,13 +107,16 @@ export function ProductDiscoveryLanding() {
         </div>
 
         <section className="mt-10 grid w-full gap-8">
-          {products.map((product) => (
+          {products.map((product) => {
+            const productHref = getProductPageHref(product.slug);
+
+            return (
             <article
               key={product.slug}
               className="overflow-hidden rounded-[2.4rem] border border-[#f0c8ce] bg-white/56 shadow-[0_30px_90px_rgba(216,131,146,0.17)] backdrop-blur-xl"
             >
               <Link
-                href={`/product/${product.slug}`}
+                href={productHref}
                 className="group relative block aspect-[4/3] overflow-hidden bg-[#fdebed]"
                 aria-label={`Öppna ${product.title}`}
               >
@@ -136,7 +147,7 @@ export function ProductDiscoveryLanding() {
 
                 <div className="mt-7 grid gap-4 sm:grid-cols-2">
                   <Link
-                    href={`/product/${product.slug}`}
+                    href={productHref}
                     className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#d8788d] to-[#efa4ad] px-6 text-base font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
                   >
                     Se Elins koll
@@ -145,7 +156,7 @@ export function ProductDiscoveryLanding() {
                   <a
                     href={product.amazonUrl}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="sponsored nofollow noopener noreferrer"
                     className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full border border-[#d98a99] bg-white/58 px-6 text-base font-black text-[#b06072] transition hover:-translate-y-0.5 hover:bg-white"
                   >
                     Amazon
@@ -154,7 +165,8 @@ export function ProductDiscoveryLanding() {
                 </div>
               </div>
             </article>
-          ))}
+            );
+          })}
         </section>
 
         <nav

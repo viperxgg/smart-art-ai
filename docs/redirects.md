@@ -16,15 +16,16 @@ This file keeps the old-to-new routing decisions for `smartartai.se`.
 | `/api/contact` | 410 | - | Confirmed not wired to the current site before removal. |
 | `/api/menu-upload` | 410 | - | Legacy restaurant menu API. |
 
-## Phase B - held until target pages exist
+## Phase B - product redirects
 
-Do not implement these until the final category review pages are live.
+Träningsband redirects are implemented now that the canonical page exists. Ninja
+Blast redirects are still held until its final Hub & Spoke page exists.
 
-| old URL | future action | future target |
-| --- | --- | --- |
-| `/product/traningsband-4-nivaer` | 301 | `/traning/traningsband-4-nivaer-recension/` |
-| `/review/traningsband-4-nivaer` | 301 | `/traning/traningsband-4-nivaer-recension/` |
-| `/product/traningsband-4-nivaer/ugc` | 301 | `/traning/traningsband-4-nivaer-recension/` |
-| `/product/ninja-blast-portable-blender` | 301 | `/kok/ninja-blast-portable-blender-recension/` |
-| `/review/ninja-blast-portable-blender` | 301 | `/kok/ninja-blast-portable-blender-recension/` |
-| `/product/ninja-blast-portable-blender/ugc` | 301 | `/kok/ninja-blast-portable-blender-recension/` |
+| old URL | action | target | status |
+| --- | --- | --- | --- |
+| `/product/traningsband-4-nivaer` | 301 | `/traning/traningsband-naturlatex` | Implemented |
+| `/review/traningsband-4-nivaer` | 301 | `/traning/traningsband-naturlatex` | Implemented |
+| `/product/traningsband-4-nivaer/ugc` | 301 | `/traning/traningsband-naturlatex` | Implemented |
+| `/product/ninja-blast-portable-blender` | 301 | `/kok/ninja-blast-portable-blender-recension/` | Held |
+| `/review/ninja-blast-portable-blender` | 301 | `/kok/ninja-blast-portable-blender-recension/` | Held |
+| `/product/ninja-blast-portable-blender/ugc` | 301 | `/kok/ninja-blast-portable-blender-recension/` | Held |

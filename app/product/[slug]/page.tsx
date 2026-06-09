@@ -239,7 +239,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored nofollow noopener noreferrer"
               className="mt-8 inline-flex min-h-16 w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#D8788D] to-[#EAA3AD] px-6 text-lg font-black text-white shadow-[0_20px_48px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
             >
               Se på Amazon

@@ -1,16 +1,8 @@
 import type { MetadataRoute } from "next";
 
-import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const productRoutes = products.map((product) => ({
-    url: `${siteConfig.url}/product/${product.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: 0.8,
-  }));
-
   return [
     {
       url: siteConfig.url,
@@ -24,6 +16,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.4,
     },
-    ...productRoutes,
+    {
+      url: `${siteConfig.url}/traning`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: `${siteConfig.url}/traning/traningsband-naturlatex`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
   ];
 }

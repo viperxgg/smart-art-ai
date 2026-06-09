@@ -44,6 +44,21 @@ const nextConfig: NextConfig = {
         destination: "/om-oss",
         statusCode: 301,
       },
+      {
+        source: "/product/traningsband-4-nivaer",
+        destination: "/traning/traningsband-naturlatex",
+        statusCode: 301,
+      },
+      {
+        source: "/review/traningsband-4-nivaer",
+        destination: "/traning/traningsband-naturlatex",
+        statusCode: 301,
+      },
+      {
+        source: "/product/traningsband-4-nivaer/ugc",
+        destination: "/traning/traningsband-naturlatex",
+        statusCode: 301,
+      },
     ];
   },
 };
