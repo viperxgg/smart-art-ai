@@ -1,17 +1,7 @@
 import type { NextConfig } from "next";
-import createNextIntlPlugin from "next-intl/plugin";
-
-const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "codex-2mpec9lbm-viperxggs-projects.vercel.app",
-      },
-    ],
-  },
+  allowedDevOrigins: ["127.0.0.1", "localhost", "192.168.8.127"],
   async redirects() {
     return [
       {
@@ -44,39 +34,18 @@ const nextConfig: NextConfig = {
         destination: "https://www.smartartai.se/:path*",
         statusCode: 301,
       },
-      { source: "/home-page-v2", destination: "/", permanent: true },
-      { source: "/en/home-page-v2", destination: "/en", permanent: true },
       {
-        source: "/sv",
+        source: "/en",
         destination: "/",
-        has: [{ type: "host", value: "www.smartartai.se" }],
         statusCode: 301,
       },
-      { source: "/sv/home-page-v2", destination: "/", permanent: true },
-      { source: "/om-oss", destination: "/nord-smart-menu", permanent: true },
-      { source: "/en/about", destination: "/en/nord-smart-menu", permanent: true },
-      { source: "/sv/om-oss", destination: "/nord-smart-menu", permanent: true },
-      { source: "/smart-menu", destination: "/nord-smart-menu", permanent: true },
-      { source: "/en/smart-menu", destination: "/en/nord-smart-menu", permanent: true },
-      { source: "/sv/smart-menu", destination: "/nord-smart-menu", permanent: true },
-      { source: "/digital-meny-restaurang", destination: "/nord-smart-menu", permanent: true },
-      { source: "/qr-meny-restaurang", destination: "/nord-smart-menu", permanent: true },
-      { source: "/restaurang-bestallningssystem", destination: "/nord-smart-menu", permanent: true },
-      { source: "/digital-meny-sverige", destination: "/nord-smart-menu", permanent: true },
-      { source: "/restaurant-digital-menu", destination: "/nord-smart-menu", permanent: true },
-      { source: "/restaurant-qr-menu", destination: "/nord-smart-menu", permanent: true },
-      { source: "/restaurant-ordering-system", destination: "/nord-smart-menu", permanent: true },
-      { source: "/restaurant-digital-menu-sweden", destination: "/nord-smart-menu", permanent: true },
-      { source: "/en/digital-menu-restaurants", destination: "/en/nord-smart-menu", permanent: true },
-      { source: "/en/qr-menu-restaurant", destination: "/en/nord-smart-menu", permanent: true },
-      { source: "/en/restaurant-ordering-system", destination: "/en/nord-smart-menu", permanent: true },
-      { source: "/en/digital-menu-sweden", destination: "/en/nord-smart-menu", permanent: true },
-      { source: "/sv/digital-meny-restaurang", destination: "/nord-smart-menu", permanent: true },
-      { source: "/sv/qr-meny-restaurang", destination: "/nord-smart-menu", permanent: true },
-      { source: "/sv/restaurang-bestallningssystem", destination: "/nord-smart-menu", permanent: true },
-      { source: "/sv/digital-meny-sverige", destination: "/nord-smart-menu", permanent: true },
+      {
+        source: "/en/om-oss",
+        destination: "/om-oss",
+        statusCode: 301,
+      },
     ];
   },
 };
 
-export default withNextIntl(nextConfig);
+export default nextConfig;

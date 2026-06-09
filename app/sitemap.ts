@@ -1,24 +1,29 @@
 import type { MetadataRoute } from "next";
 
-const siteUrl = "https://www.smartartai.se";
-
-const pages = [
-  "",
-  "/nord-smart-menu",
-  "/blog",
-  "/blog/best-digital-menu-sweden",
-  "/blog/digital-menu-vs-paper-menu",
-  "/blog/restaurant-ordering-system-reduce-staff-pressure",
-  "/blog/smart-menu-alcohol-compliance-sweden",
-  "/blog/qr-menus-help-restaurants-serve-faster",
-  "/blog/scandinavian-digital-menu",
-] as const;
+import { products } from "@/lib/products";
+import { siteConfig } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return pages.map((path) => ({
-    url: `${siteUrl}${path}`,
+  const productRoutes = products.map((product) => ({
+    url: `${siteConfig.url}/product/${product.slug}`,
     lastModified: new Date(),
-    changeFrequency: path === "" ? "weekly" : "monthly",
-    priority: path === "" ? 1 : path === "/nord-smart-menu" ? 0.9 : 0.7,
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
   }));
+
+  return [
+    {
+      url: siteConfig.url,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 1,
+    },
+    {
+      url: `${siteConfig.url}/om-oss`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    ...productRoutes,
+  ];
 }

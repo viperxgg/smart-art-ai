@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+
 import { siteConfig } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
@@ -8,12 +9,8 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "*",
         allow: "/",
       },
-      {
-        userAgent: ["GPTBot", "ChatGPT-User", "PerplexityBot", "ClaudeBot", "anthropic-ai", "Google-Extended"],
-        allow: "/",
-      },
     ],
     sitemap: `${siteConfig.url}/sitemap.xml`,
-    host: siteConfig.url,
+    host: new URL(siteConfig.url).host,
   };
 }
