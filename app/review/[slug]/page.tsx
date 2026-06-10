@@ -5,7 +5,7 @@ import { ArrowLeft, ShieldCheck } from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { ReviewForm } from "@/components/ReviewForm";
-import { getProductBySlug, products } from "@/lib/products";
+import { getListedProductBySlug, products } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
 type ReviewPageProps = {
@@ -18,7 +18,7 @@ export async function generateMetadata({
   params,
 }: ReviewPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const product = getProductBySlug(slug);
+  const product = getListedProductBySlug(slug);
 
   if (!product) {
     return {};
@@ -40,7 +40,7 @@ export async function generateStaticParams() {
 
 export default async function ReviewPage({ params }: ReviewPageProps) {
   const { slug } = await params;
-  const product = getProductBySlug(slug);
+  const product = getListedProductBySlug(slug);
 
   if (!product) {
     notFound();

@@ -189,164 +189,112 @@ export const featuredProduct: Product = {
   comments: [],
 };
 
-export const ninjaBlastProduct: Product = {
-  slug: "ninja-blast-portable-blender",
-  title: "Ninja Blast Portable Blender",
-  asin: "B0CLY983L7",
-  brand: "Ninja",
-  price: "523 kr",
-  image: "/products/ninja-blast/blend-action.jpg",
-  imageAlt: "Ninja Blast portabel mixer fylld med frukt och grönsaker i kök",
-  images: [
-    {
-      src: "/products/ninja-blast/blend-action.jpg",
-      alt: "Ninja Blast portabel mixer fylld med frukt och grönsaker i kök",
-      label: "I köket",
-    },
-    {
-      src: "/products/ninja-blast/self-cleaning.jpg",
-      alt: "Ninja Blast portabel mixer med text om självrengöring",
-      label: "Rengöring",
-    },
-    {
-      src: "/products/ninja-blast/dishwasher-clean.jpg",
-      alt: "Diskmaskin och rengöringsinformation för Ninja Blast",
-      label: "Diskmaskin",
-    },
-    {
-      src: "/products/ninja-blast/blast-tech.jpg",
-      alt: "Närbild på Ninja Blast-teknik och knivblad",
-      label: "Teknik",
-    },
-    {
-      src: "/products/ninja-blast/easy-use.jpg",
-      alt: "Ninja Blast med färdig smoothie och avtagbar basenhet",
-      label: "Lättanvänd",
-    },
-    {
-      src: "/products/ninja-blast/drink-options.jpg",
-      alt: "Olika drycker som kan mixas med Ninja Blast",
-      label: "Drycker",
-    },
-    {
-      src: "/products/ninja-blast/usb-c-charge.jpg",
-      alt: "Ninja Blast laddas med USB-C-kabel",
-      label: "USB-C",
-    },
-    {
-      src: "/products/ninja-blast/drink-outside.jpg",
-      alt: "Två personer dricker smoothies utomhus med Ninja Blast",
-      label: "Ute",
-    },
-    {
-      src: "/products/ninja-blast/take-anywhere.jpg",
-      alt: "Personer går på stranden med Ninja Blast",
-      label: "Ta med",
-    },
-    {
-      src: "/products/ninja-blast/park-drink.jpg",
-      alt: "Person dricker smoothie ur Ninja Blast i parkmiljö",
-      label: "Park",
-    },
-    {
-      src: "/products/ninja-blast/product-filled.jpg",
-      alt: "Ninja Blast produktbild fylld med ingredienser",
-      label: "Produkt",
-    },
-    {
-      src: "/products/ninja-blast/leakproof-bag.jpg",
-      alt: "Ninja Blast vid ryggsäck med läckagesäkert lock",
-      label: "Läckage",
-    },
-    {
-      src: "/products/ninja-blast/gym-drink.jpg",
-      alt: "Person dricker grön smoothie med Ninja Blast på gym",
-      label: "Gym",
-    },
-    {
-      src: "/products/ninja-blast/sport-drink.jpg",
-      alt: "Person dricker rosa smoothie med Ninja Blast utomhus",
-      label: "Sport",
-    },
-    {
-      src: "/products/ninja-blast/colors.jpg",
-      alt: "Ninja Blast visas i olika färger",
-      label: "Färger",
-    },
-    {
-      src: "/products/ninja-blast/box-contents.jpg",
-      alt: "Vad som finns i kartongen för Ninja Blast portabel mixer",
-      label: "I lådan",
-    },
-  ],
-  amazonUrl: "https://amzn.to/4echHHS",
+export const beurerMassagepistolProduct: Product = {
+  slug: "beurer-mg-99-massagepistol",
+  title: "Beurer MG 99 massagepistol",
+  asin: "BEURER_MG_99",
+  brand: "Beurer",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/resistance-bands/elin-resistance-band-thumbnail.png",
+  imageAlt: "Elins guide till massagepistol för återhämtning hemma",
+  images: [],
+  amazonUrl: "BEURER_LINK",
   summary:
-    "Elin lade den här på listan för att nyttan syns direkt: fyll, mixa och ta med. Den säljer inte bara en smoothie, utan känslan av att få ihop något fräscht även när man är på språng.",
+    "Det trygga märkesvalet för dig som vill ha en kompakt massagepistol från ett känt varumärke.",
   evaluation: {
-    headline: "Elins första produktvinkel",
+    headline: "Det trygga märkesvalet",
     intro:
-      "Här börjar vi med vardagskänslan: man vill ha en smoothie eller shake utan att plocka fram en stor mixer. Bilderna visar användningen, och videodelen kan byggas på när UGC-klippen är klara.",
+      "Beurer MG 99 passar dig som prioriterar ett känt varumärke, låg vikt och enkel användning.",
     verdict:
-      "Stark kandidat för korta TikTok-klipp eftersom nyttan syns snabbt: ingredienser i, dryck klar, vidare med dagen. Den behöver däremot testas i verklig användning innan vi ger en hård rekommendation.",
-    checks: [
-      {
-        label: "Problemet den löser",
-        text: "Minskar tröskeln för smoothies, proteinshakes och snabba drycker när man inte vill använda en stor mixer.",
-      },
-      {
-        label: "Varför Elin fastnade",
-        text: "Portabel form, uppladdning och drickbar behållare gör produkten lätt att förstå på några sekunder i video.",
-      },
-      {
-        label: "Det vi vill testa mer",
-        text: "Vi behöver visa hur den klarar fryst frukt, rengöring, batteri och vardagsstress innan produktsidan känns helt färdig.",
-      },
-    ],
+      "Ett tryggt val om du vill ha en nätt massagepistol, men mindre rätt om du behöver riktigt mjuk massage på känsliga punkter.",
+    checks: [],
   },
-  specSectionEyebrow: "Produktdata",
-  specSectionTitle: "Det vi vet nu",
-  specs: [
-    { label: "Volym", caption: "Behållare", value: "530 ml" },
-    { label: "Laddning", caption: "Sladdlös", value: "USB-C" },
-    { label: "Modell", caption: "Amazon ASIN", value: "B0CLY983L7" },
-    { label: "Färg", caption: "Variant", value: "Black" },
-  ],
+  specSectionEyebrow: "Massagepistol",
+  specSectionTitle: "Beurer MG 99",
+  specs: [],
   amazonReviewSignal: {
-    sourceLabel: "Amazon.se produktsida",
-    sourceUrl:
-      "https://www.amazon.se/-/en/Ninja-Leakproof-Rechargeable-Smoothies-BC151EUBK/dp/B0CLY983L7/",
-    ratingSummary: "Recensioner granskas inför full produktsida.",
-    highlights: [
-      "Produktidén är lätt att förstå: mixa direkt i en portabel behållare.",
-      "Passar bra för UGC där man visar morgonrutin, träning eller mellanmål.",
-      "Läckagesäkert lock och uppladdningsbar användning är viktiga poänger att visa visuellt.",
-    ],
-    cautions: [
-      "Testa hur den klarar fryst frukt och tjockare smoothies innan vi skriver starkare rekommendation.",
-      "Visa rengöring och batterianvändning i video så kunden inte behöver gissa.",
-    ],
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "BEURER_LINK",
+    ratingSummary: "Snittbetyg 4,4/5 på Amazon.",
+    highlights: [],
+    cautions: [],
   },
   ugcVideos: [],
-  uses: [
-    "Smoothies eller proteinshakes hemma, på jobbet eller efter träning.",
-    "Snabb frukost där man vill mixa och dricka ur samma behållare.",
-    "Kort UGC-video med tydlig före-och-efter-känsla: ingredienser in, dryck klar.",
-  ],
-  peopleLike: [
-    "Känslan av att kunna göra något nyttigt utan att starta ett helt köksprojekt.",
-    "Portabel produkt som är lätt att förstå utan lång förklaring.",
-    "Kan visas visuellt på några sekunder med frukt, vätska och färdig dryck.",
-  ],
-  honestCheck: [
-    "Vänta med slutlig bedömning tills användarklipp och praktiskt testmaterial är på plats.",
-    "Kunden bör se hur den hanterar fryst frukt, is och tjockare konsistens.",
-    "Rengöring och batteri är viktiga delar att visa, inte bara produktens utseende.",
-  ],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
   comments: [],
 };
 
-export const products = [featuredProduct, ninjaBlastProduct] as const;
+export const bdbkmgMassagepistolProduct: Product = {
+  slug: "bdbkmg-massagepistol",
+  title: "Muscle Massage Gun (BDBKMG)",
+  asin: "BDBKMG",
+  brand: "BDBKMG",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/massage-guns/muscle-massage-gun-thumbnail.png",
+  imageAlt: "Person som använder en massagepistol på axeln hemma",
+  images: [
+    {
+      src: "/products/massage-guns/muscle-massage-gun-thumbnail.png",
+      alt: "Person som använder en massagepistol på axeln hemma",
+      label: "Muscle Massage Gun",
+    },
+    {
+      src: "/products/massage-guns/muscle-massage-gun-kit.png",
+      alt: "Massagepistol med utbytbara massagehuvuden på ljust trä",
+      label: "Tillbehör",
+    },
+    {
+      src: "/products/massage-guns/muscle-massage-gun-shoulder.png",
+      alt: "Person som använder massagepistol på axeln",
+      label: "Axel",
+    },
+    {
+      src: "/products/massage-guns/muscle-massage-gun-lifestyle.png",
+      alt: "Massagepistol på bord med tillbehör i lugn hemmamiljö",
+      label: "Hemma",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vH0u0h",
+  summary:
+    "Det prisvärda kraftvalet för dig som vill ha många inställningar och mer kontroll.",
+  evaluation: {
+    headline: "Mest för pengarna",
+    intro:
+      "BDBKMG passar dig som vill ha flest lägen, fler massagehuvuden och låg tröskel att justera styrkan.",
+    verdict:
+      "Ett prisvärt val om du prioriterar kraft och kontroll, men räkna med högre vikt.",
+    checks: [],
+  },
+  specSectionEyebrow: "Massagepistol",
+  specSectionTitle: "BDBKMG",
+  specs: [],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vH0u0h",
+    ratingSummary: "Snittbetyg 4,4/5 på Amazon.",
+    highlights: [],
+    cautions: [],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const products = [featuredProduct] as const;
+export const reviewableProducts = [
+  ...products,
+  beurerMassagepistolProduct,
+  bdbkmgMassagepistolProduct,
+] as const;
+
+export function getListedProductBySlug(slug: string) {
+  return products.find((product) => product.slug === slug);
+}
 
 export function getProductBySlug(slug: string) {
-  return products.find((product) => product.slug === slug);
+  return reviewableProducts.find((product) => product.slug === slug);
 }

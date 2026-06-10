@@ -8,6 +8,8 @@ type ProductCommentsProps = {
   product: Product;
   reviews: ApprovedProductReview[];
   turnstileSiteKey?: string;
+  sectionId?: string;
+  formId?: string;
 };
 
 function formatReviewDate(date: string) {
@@ -22,10 +24,12 @@ export function ProductComments({
   product,
   reviews,
   turnstileSiteKey,
+  sectionId = "recensioner",
+  formId = "skriv-recension",
 }: ProductCommentsProps) {
   return (
     <section
-      id="recensioner"
+      id={sectionId}
       className="rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8"
     >
       <div className="flex flex-col items-start justify-between gap-4 sm:flex-row">
@@ -43,7 +47,7 @@ export function ProductComments({
           </p>
         </div>
         <a
-          href="#skriv-recension"
+          href={`#${formId}`}
           className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-[#E1A5B0] bg-white/72 px-5 font-black text-[#9E5E73] transition hover:bg-[#FFF4F5]"
         >
           <MessageCircle size={17} aria-hidden="true" />
@@ -92,7 +96,7 @@ export function ProductComments({
       )}
 
       <div
-        id="skriv-recension"
+        id={formId}
         className="mt-7 rounded-[1.6rem] border border-[#F1D8DD] bg-[#FFF9F7] p-5"
       >
         <h3 className="font-display text-2xl text-[#4B2838]">

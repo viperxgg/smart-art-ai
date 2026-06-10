@@ -3,8 +3,6 @@ import Link from "next/link";
 import {
   ArrowLeft,
   ArrowUpRight,
-  BatteryCharging,
-  BriefcaseBusiness,
   Dumbbell,
   Heart,
   Home,
@@ -19,7 +17,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { ProductComments } from "@/components/ProductComments";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
-import { getProductBySlug, products, type Product } from "@/lib/products";
+import { getListedProductBySlug, products, type Product } from "@/lib/products";
 import {
   getApprovedReviewAggregate,
   getApprovedReviews,
@@ -48,41 +46,7 @@ type ProductStory = {
   cautions: string[];
 };
 
-function getProductStory(product: Product): ProductStory {
-  if (product.slug === "ninja-blast-portable-blender") {
-    return {
-      imageLabel: "I köket",
-      elinThought:
-        "Den är intressant eftersom nyttan syns snabbt: fyll, mixa och ta med innan dagen drar igång.",
-      reasons: [
-        {
-          icon: Zap,
-          label: "Snabb",
-          text: "Mixa, drick och gå vidare utan att ta fram en stor mixer.",
-        },
-        {
-          icon: BriefcaseBusiness,
-          label: "Lätt att ta med",
-          text: "Bägaren följer med i väskan, till kontoret eller efter träningen.",
-        },
-        {
-          icon: BatteryCharging,
-          label: "Batteridriven",
-          text: "USB-C-laddning gör den mer flexibel i vardagen.",
-        },
-      ],
-      moments: [
-        { icon: Dumbbell, label: "Gymmet" },
-        { icon: BriefcaseBusiness, label: "Kontoret" },
-        { icon: Sparkles, label: "Morgonrutinen" },
-      ],
-      cautions: [
-        "Inte för stora mängder.",
-        "Klarar inte allt fryst utan vätska.",
-      ],
-    };
-  }
-
+function getProductStory(): ProductStory {
   return {
     imageLabel: "Hemmaträning",
     elinThought:
@@ -169,7 +133,7 @@ export async function generateMetadata({
   params,
 }: ProductPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const product = getProductBySlug(slug);
+  const product = getListedProductBySlug(slug);
 
   if (!product) {
     return {};
@@ -207,13 +171,13 @@ export const revalidate = 300;
 
 export default async function ProductPage({ params }: ProductPageProps) {
   const { slug } = await params;
-  const product = getProductBySlug(slug);
+  const product = getListedProductBySlug(slug);
 
   if (!product) {
     notFound();
   }
 
-  const story = getProductStory(product);
+  const story = getProductStory();
   const [approvedReviews, approvedReviewAggregate] = await Promise.all([
     getApprovedReviews(product.slug),
     getApprovedReviewAggregate(product.slug),

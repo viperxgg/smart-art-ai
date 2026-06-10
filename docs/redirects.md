@@ -16,16 +16,17 @@ This file keeps the old-to-new routing decisions for `smartartai.se`.
 | `/api/contact` | 410 | - | Confirmed not wired to the current site before removal. |
 | `/api/menu-upload` | 410 | - | Legacy restaurant menu API. |
 
-## Phase B - product redirects
+## Phase B - product redirects and removals
 
 Träningsband redirects are implemented now that the canonical page exists. Ninja
-Blast redirects are still held until its final Hub & Spoke page exists.
+Blast was later removed because it is off-niche for the health / beauty / sports
+focus and should deindex with 410 rather than redirecting to an unrelated page.
 
 | old URL | action | target | status |
 | --- | --- | --- | --- |
 | `/product/traningsband-4-nivaer` | 301 | `/traning/traningsband-naturlatex` | Implemented |
 | `/review/traningsband-4-nivaer` | 301 | `/traning/traningsband-naturlatex` | Implemented |
 | `/product/traningsband-4-nivaer/ugc` | 301 | `/traning/traningsband-naturlatex` | Implemented |
-| `/product/ninja-blast-portable-blender` | 301 | `/kok/ninja-blast-portable-blender-recension/` | Held |
-| `/review/ninja-blast-portable-blender` | 301 | `/kok/ninja-blast-portable-blender-recension/` | Held |
-| `/product/ninja-blast-portable-blender/ugc` | 301 | `/kok/ninja-blast-portable-blender-recension/` | Held |
+| `/product/ninja-blast-portable-blender` | 410 | - | Removed: off-niche kitchen product. |
+| `/review/ninja-blast-portable-blender` | 410 | - | Removed: off-niche kitchen product. |
+| `/product/ninja-blast-portable-blender/ugc` | 410 | - | Removed: off-niche kitchen product. |
