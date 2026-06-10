@@ -176,8 +176,8 @@ export default async function TraningBandReviewPage() {
           <div className="overflow-hidden rounded-[2.2rem] border border-[#F1D8DD] bg-[#F6F0EC] shadow-[0_28px_90px_rgba(185,131,166,0.14)]">
             <div className="relative aspect-[4/3] min-h-[20rem]">
               <Image
-                src="/products/resistance-bands/home-gym.jpg"
-                alt="Träningsband i naturlatex som används för hemmaträning"
+                src="/products/resistance-bands/elin-resistance-band-thumbnail.png"
+                alt="Person som tränar hemma med ett lila träningsband"
                 fill
                 priority
                 sizes="(max-width: 768px) 92vw, 560px"

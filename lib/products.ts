@@ -79,43 +79,8 @@ export const featuredProduct: Product = {
   images: [
     {
       src: "/products/resistance-bands/elin-resistance-band-thumbnail.png",
-      alt: "Person som tränar hemma med lila träningsband vid ett fönster",
+      alt: "Person som tränar hemma med ett lila träningsband",
       label: "Elin valde",
-    },
-    {
-      src: "/products/resistance-bands/home-gym.jpg",
-      alt: "Träningsband som används för hemmagym och helkroppsövningar",
-      label: "Hemmagym",
-    },
-    {
-      src: "/products/resistance-bands/whole-body.jpg",
-      alt: "Träningsband som används för rygg, armar, mage, höfter och ben",
-      label: "Helkropp",
-    },
-    {
-      src: "/products/resistance-bands/durable-elastic.jpg",
-      alt: "Närbild på tåligt latexband vid fäste",
-      label: "Material",
-    },
-    {
-      src: "/products/resistance-bands/natural-latex.jpg",
-      alt: "Svart träningsband i naturlig latex med elasticitetsillustration",
-      label: "Latex",
-    },
-    {
-      src: "/products/resistance-bands/resistance-levels.jpg",
-      alt: "Fyra träningsband i gul, röd, svart och lila färg med olika motstånd",
-      label: "Motstånd",
-    },
-    {
-      src: "/products/resistance-bands/size-guide.jpg",
-      alt: "Storleksguide för fyra träningsband med olika tjocklek och motstånd",
-      label: "Storlek",
-    },
-    {
-      src: "/products/resistance-bands/band-set.jpg",
-      alt: "Fyra träningsband i olika färger bredvid person som tränar",
-      label: "Setet",
     },
   ],
   amazonUrl: "https://amzn.to/4xuLEfd",
