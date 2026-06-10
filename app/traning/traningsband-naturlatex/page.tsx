@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -12,6 +11,7 @@ import {
 
 import { JsonLd } from "@/components/JsonLd";
 import { ProductComments } from "@/components/ProductComments";
+import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { featuredProduct } from "@/lib/products";
 import {
@@ -174,16 +174,7 @@ export default async function TraningBandReviewPage() {
 
         <section className="mt-8 grid gap-7 lg:grid-cols-[1fr_0.92fr] lg:items-center">
           <div className="overflow-hidden rounded-[2.2rem] border border-[#F1D8DD] bg-[#F6F0EC] shadow-[0_28px_90px_rgba(185,131,166,0.14)]">
-            <div className="relative aspect-[4/3] min-h-[20rem]">
-              <Image
-                src="/products/resistance-bands/elin-resistance-band-thumbnail.png"
-                alt="Person som tränar hemma med ett lila träningsband"
-                fill
-                priority
-                sizes="(max-width: 768px) 92vw, 560px"
-                className="object-cover"
-              />
-            </div>
+            <ProductImageGallery images={featuredProduct.images} />
           </div>
 
           <article className="rounded-[2.2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_28px_90px_rgba(185,131,166,0.1)] md:p-9">

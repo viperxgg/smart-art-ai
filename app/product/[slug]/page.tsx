@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -17,6 +16,7 @@ import {
 import { notFound } from "next/navigation";
 
 import { JsonLd } from "@/components/JsonLd";
+import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { ProductComments } from "@/components/ProductComments";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { getProductBySlug, products, type Product } from "@/lib/products";
@@ -219,11 +219,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
     getApprovedReviewAggregate(product.slug),
   ]);
   const productSchema = buildProductSchema(product, approvedReviewAggregate);
-  const heroImage = product.images[0] ?? {
-    src: product.image,
-    alt: product.imageAlt,
-    label: story.imageLabel,
-  };
+  const galleryImages =
+    product.images.length > 0
+      ? product.images
+      : [{ src: product.image, alt: product.imageAlt, label: story.imageLabel }];
 
   return (
     <main
@@ -261,20 +260,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
         <section className="mt-7 grid min-w-0 gap-6 lg:grid-cols-[1.04fr_0.96fr] lg:items-stretch">
           <div className="overflow-hidden rounded-[2rem] border border-[#E9CDD3] bg-[#F6F0EC] shadow-[0_30px_90px_rgba(185,131,166,0.14)]">
-            <div className="relative aspect-[4/5] min-h-[28rem] sm:aspect-[5/4] lg:h-full lg:min-h-[40rem]">
-              <Image
-                src={heroImage.src}
-                alt={heroImage.alt}
-                fill
-                priority
-                sizes="(max-width: 768px) 92vw, 560px"
-                className="object-cover"
-              />
-              <span className="absolute left-5 top-5 inline-flex min-h-10 items-center gap-2 rounded-full bg-[#D8A7B1]/95 px-5 text-sm font-black text-white shadow-[0_14px_34px_rgba(122,72,88,0.18)]">
-                <Home size={16} aria-hidden="true" />
-                {heroImage.label || story.imageLabel}
-              </span>
-            </div>
+            <ProductImageGallery images={galleryImages} />
           </div>
 
           <article className="min-w-0 rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_30px_90px_rgba(185,131,166,0.1)] backdrop-blur md:p-10">

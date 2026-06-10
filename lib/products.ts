@@ -82,6 +82,21 @@ export const featuredProduct: Product = {
       alt: "Person som tränar hemma med ett lila träningsband",
       label: "Elin valde",
     },
+    {
+      src: "/products/resistance-bands/elin-band-stretch.png",
+      alt: "Person som stretchar armarna med ett lila träningsband hemma",
+      label: "Armar",
+    },
+    {
+      src: "/products/resistance-bands/elin-band-black.png",
+      alt: "Person som använder ett svart träningsband för rörlighet",
+      label: "Rörlighet",
+    },
+    {
+      src: "/products/resistance-bands/elin-band-levels.png",
+      alt: "Fyra träningsband i lila, svart, rött och gult",
+      label: "4 nivåer",
+    },
   ],
   amazonUrl: "https://amzn.to/4xuLEfd",
   summary:
