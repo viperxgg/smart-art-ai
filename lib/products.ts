@@ -74,9 +74,14 @@ export const featuredProduct: Product = {
   asin: "B0CQXFWMH5",
   brand: "WuGU",
   price: "186,99 kr",
-  image: "/products/resistance-bands/home-gym.jpg",
-  imageAlt: "Person som använder träningsband för hemmaträning",
+  image: "/products/resistance-bands/elin-resistance-band-thumbnail.png",
+  imageAlt: "Person som tränar hemma med lila träningsband",
   images: [
+    {
+      src: "/products/resistance-bands/elin-resistance-band-thumbnail.png",
+      alt: "Person som tränar hemma med lila träningsband vid ett fönster",
+      label: "Elin valde",
+    },
     {
       src: "/products/resistance-bands/home-gym.jpg",
       alt: "Träningsband som används för hemmagym och helkroppsövningar",

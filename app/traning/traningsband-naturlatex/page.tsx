@@ -22,7 +22,7 @@ import {
 import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/traning/traningsband-naturlatex`;
-const pageImage = `${siteConfig.url}/products/resistance-bands/home-gym.jpg`;
+const pageImage = `${siteConfig.url}/products/resistance-bands/elin-resistance-band-thumbnail.png`;
 const amazonUrl = featuredProduct.amazonUrl;
 
 const faqItems = [
