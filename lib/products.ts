@@ -203,6 +203,21 @@ export const beurerMassagepistolProduct: Product = {
       alt: "Beurer MG 99 massagepistol med utbytbara massagehuvuden",
       label: "Beurer MG 99",
     },
+    {
+      src: "/products/massage-guns/beurer-mg99-table.png",
+      alt: "Beurer MG 99 massagepistol med massagehuvuden på ett ljust bord",
+      label: "Tillbehör",
+    },
+    {
+      src: "/products/massage-guns/beurer-mg99-neck.png",
+      alt: "Person som använder Beurer MG 99 massagepistol vid nacke och axel",
+      label: "Nacke",
+    },
+    {
+      src: "/products/massage-guns/beurer-mg99-therapy.png",
+      alt: "Beurer MG 99 massagepistol med tillbehör i hemmamiljö",
+      label: "Hemma",
+    },
   ],
   amazonUrl: "https://amzn.to/4ekNKpb",
   summary:
