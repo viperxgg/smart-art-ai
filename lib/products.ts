@@ -195,10 +195,16 @@ export const beurerMassagepistolProduct: Product = {
   asin: "BEURER_MG_99",
   brand: "Beurer",
   price: "Se aktuellt pris på Amazon",
-  image: "/products/resistance-bands/elin-resistance-band-thumbnail.png",
-  imageAlt: "Elins guide till massagepistol för återhämtning hemma",
-  images: [],
-  amazonUrl: "BEURER_LINK",
+  image: "/products/massage-guns/beurer-mg99-thumbnail.png",
+  imageAlt: "Beurer MG 99 massagepistol med utbytbara massagehuvuden",
+  images: [
+    {
+      src: "/products/massage-guns/beurer-mg99-thumbnail.png",
+      alt: "Beurer MG 99 massagepistol med utbytbara massagehuvuden",
+      label: "Beurer MG 99",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4ekNKpb",
   summary:
     "Det trygga märkesvalet för dig som vill ha en kompakt massagepistol från ett känt varumärke.",
   evaluation: {
@@ -214,7 +220,7 @@ export const beurerMassagepistolProduct: Product = {
   specs: [],
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
-    sourceUrl: "BEURER_LINK",
+    sourceUrl: "https://amzn.to/4ekNKpb",
     ratingSummary: "Snittbetyg 4,4/5 på Amazon.",
     highlights: [],
     cautions: [],
