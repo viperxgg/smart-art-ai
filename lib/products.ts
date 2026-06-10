@@ -115,7 +115,7 @@ export const featuredProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4xuLEfd",
   summary:
-    "Elin sparade det här setet för att det gör hemmaträning mindre krånglig. Det är inte en magisk genväg, men det löser en tydlig känsla: man vill kunna träna hemma utan att köpa stora saker.",
+    "Elin lade det här setet på listan för att det gör hemmaträning mindre krånglig. Det är inte en magisk genväg, men det löser en tydlig känsla: man vill kunna träna hemma utan att köpa stora saker.",
   evaluation: {
     headline: "Elins snabba känsla",
     intro:
@@ -296,7 +296,7 @@ export const ninjaBlastProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4echHHS",
   summary:
-    "Elin sparade den här för att nyttan syns direkt: fyll, mixa och ta med. Den säljer inte bara en smoothie, utan känslan av att få ihop något fräscht även när man är på språng.",
+    "Elin lade den här på listan för att nyttan syns direkt: fyll, mixa och ta med. Den säljer inte bara en smoothie, utan känslan av att få ihop något fräscht även när man är på språng.",
   evaluation: {
     headline: "Elins första produktvinkel",
     intro:

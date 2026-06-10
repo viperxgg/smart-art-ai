@@ -17,6 +17,7 @@ import {
 import { notFound } from "next/navigation";
 
 import { ProductComments } from "@/components/ProductComments";
+import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { getProductBySlug, products, type Product } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
@@ -46,7 +47,7 @@ function getProductStory(product: Product): ProductStory {
     return {
       imageLabel: "I köket",
       elinThought:
-        "Jag gillar den här eftersom jag kan göra en smoothie på två minuter innan jobbet och slippa stressa.",
+        "Den är intressant eftersom nyttan syns snabbt: fyll, mixa och ta med innan dagen drar igång.",
       reasons: [
         {
           icon: Zap,
@@ -79,7 +80,7 @@ function getProductStory(product: Product): ProductStory {
   return {
     imageLabel: "Hemmaträning",
     elinThought:
-      "Jag gillar den här eftersom den gör det lättare att träna hemma utan att köpa stora saker.",
+      "Den är intressant eftersom den gör hemmaträning enklare utan att kräva stora redskap.",
     reasons: [
       {
         icon: Zap,
@@ -107,6 +108,23 @@ function getProductStory(product: Product): ProductStory {
       "Latex passar inte alla.",
     ],
   };
+}
+
+function getAmazonQuotes(product: Product) {
+  if (product.slug === "traningsband-4-nivaer") {
+    return [
+      {
+        text: "Träningsband av hög kvalitet med olika styrkor.",
+        attribution: "Amazon-köpare",
+      },
+      {
+        text: "Som alla andra band, fast billigare.",
+        attribution: "Amazon-köpare",
+      },
+    ];
+  }
+
+  return [];
 }
 
 export async function generateMetadata({
@@ -229,7 +247,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 ASIN {product.asin}
               </span>
               <span className="rounded-full bg-[#F6F0EC] px-5 py-3 text-sm font-bold text-[#6b4755]">
-                ca {product.price}
+                Se aktuellt pris på Amazon
               </span>
               <span className="rounded-full bg-[#F6F0EC] px-5 py-3 text-sm font-bold text-[#6b4755]">
                 Amazon.se
@@ -255,10 +273,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
             </div>
             <div>
               <p className="font-display text-2xl italic text-[#7b4656]">
-                Elin tänkte:
+                Elins redaktionella tanke:
               </p>
               <blockquote className="mt-3 break-words text-[1.65rem] font-black leading-snug text-[#3E2F3A] md:text-3xl">
-                “{story.elinThought}”
+                {story.elinThought}
               </blockquote>
             </div>
           </div>
@@ -267,7 +285,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <section className="mt-6 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
           <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
             <h2 className="font-display text-3xl leading-tight text-[#4B2838]">
-              Varför Elin valde den
+              Varför den hamnade på Elins lista
             </h2>
             <div className="mt-7 grid gap-5 sm:grid-cols-3">
               {story.reasons.map((reason) => {
@@ -333,6 +351,14 @@ export default async function ProductPage({ params }: ProductPageProps) {
               </div>
             ))}
           </div>
+        </section>
+
+        <section className="mt-6">
+          <TrustReviewLayers
+            editorialVerdict={product.evaluation.verdict}
+            amazonSummary={product.amazonReviewSignal.ratingSummary}
+            amazonQuotes={getAmazonQuotes(product)}
+          />
         </section>
 
         {product.comments.length > 0 ? (

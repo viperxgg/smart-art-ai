@@ -38,6 +38,20 @@ export default function AboutPage() {
             varför produkten känns intressant, när den passar och vad som är bra
             att veta innan man klickar vidare.
           </p>
+          <p className="mt-5 text-lg leading-8 text-[#5f4a54]">
+            Elin är Smart Art AIs redaktionella röst. Hon testar inte produkterna
+            fysiskt – hon går igenom hundratals verkliga omdömen,
+            specifikationer och TikTok-reaktioner och ger dig en ärlig,
+            filtrerad sammanfattning. Vår community av riktiga användare
+            kompletterar med sina egna omdömen.
+          </p>
+          <p className="mt-5 rounded-3xl border border-[#F1D8DD] bg-[#FFF4F5] p-5 leading-7 text-[#6f5a64]">
+            <strong>Annons och affiliatelänkar:</strong> Smart Art AI kan få
+            provision när du klickar vidare och handlar via vissa Amazon-länkar.
+            Det kostar inte extra för dig, och vi försöker alltid skilja tydligt
+            mellan vårt redaktionella urval, Amazon-köparnas omdömen och
+            kommentarer från vår egen community.
+          </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             <div className="rounded-3xl bg-[#FFF4F5] p-5">
               <Heart className="text-[#B983A6]" size={24} aria-hidden="true" />
