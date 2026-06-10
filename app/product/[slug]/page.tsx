@@ -17,7 +17,11 @@ import { JsonLd } from "@/components/JsonLd";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { ProductComments } from "@/components/ProductComments";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
-import { getListedProductBySlug, products, type Product } from "@/lib/products";
+import {
+  genericProductPages,
+  getListedProductBySlug,
+  type Product,
+} from "@/lib/products";
 import {
   getApprovedReviewAggregate,
   getApprovedReviews,
@@ -164,7 +168,7 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  return products.map((product) => ({ slug: product.slug }));
+  return genericProductPages.map((product) => ({ slug: product.slug }));
 }
 
 export const revalidate = 300;

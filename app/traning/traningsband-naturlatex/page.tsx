@@ -14,11 +14,7 @@ import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { featuredProduct } from "@/lib/products";
-import {
-  getApprovedReviewAggregate,
-  getApprovedReviews,
-  type ReviewAggregate,
-} from "@/lib/reviews/reviews";
+import { getApprovedReviews } from "@/lib/reviews/reviews";
 import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/traning/traningsband-naturlatex`;
@@ -43,8 +39,8 @@ const faqItems = [
   },
 ];
 
-function buildProductSchema(reviewAggregate: ReviewAggregate | null) {
-  const schema: Record<string, unknown> = {
+function buildProductSchema() {
+  return {
     "@context": "https://schema.org",
     "@type": "Product",
     name: "Träningsband i naturlatex – set med 4 motståndsnivåer (WuGU)",
@@ -54,18 +50,6 @@ function buildProductSchema(reviewAggregate: ReviewAggregate | null) {
     description:
       "Set med fyra träningsband i 100% naturlatex, motstånd 8–85 lbs.",
   };
-
-  if (reviewAggregate) {
-    schema.aggregateRating = {
-      "@type": "AggregateRating",
-      ratingValue: reviewAggregate.average,
-      reviewCount: reviewAggregate.count,
-      bestRating: "5",
-      worstRating: "1",
-    };
-  }
-
-  return schema;
 }
 
 const faqSchema = {
@@ -109,10 +93,8 @@ const levels = [
 ];
 
 const moments = ["Hemma", "Gymmet", "Morgonpasset", "Yoga, pilates & rehab"];
-const cautions = [
-  "Banden kan ha små märken i latexet efter vakuumförpackningen.",
-  "Mycket vana lyftare kan behöva kombinera två band för mer motstånd.",
-];
+const valueCaveat =
+  "Banden levereras vakuumförpackade så små märken kan förekomma, och en mycket van lyftare vill kanske kombinera två band - men för priset är det svårt att klaga.";
 
 export const metadata: Metadata = {
   title: {
@@ -144,11 +126,8 @@ export const metadata: Metadata = {
 export const revalidate = 300;
 
 export default async function TraningBandReviewPage() {
-  const [approvedReviews, approvedReviewAggregate] = await Promise.all([
-    getApprovedReviews(featuredProduct.slug),
-    getApprovedReviewAggregate(featuredProduct.slug),
-  ]);
-  const productSchema = buildProductSchema(approvedReviewAggregate);
+  const approvedReviews = await getApprovedReviews(featuredProduct.slug);
+  const productSchema = buildProductSchema();
 
   return (
     <main
@@ -181,15 +160,16 @@ export default async function TraningBandReviewPage() {
             <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
               Elins produktkoll
             </p>
+            <p className="mt-4 inline-flex min-h-10 items-center rounded-full border border-[#E9CDD3] bg-[#FFF4F5] px-4 text-sm font-black text-[#9E5E73]">
+              Prisvärt val
+            </p>
             <h1 className="mt-4 font-display text-4xl leading-[1.05] tracking-[-0.035em] text-[#4B2838] sm:text-6xl">
               Träningsband i naturlatex – 4 motståndsnivåer
             </h1>
             <p className="mt-5 text-lg leading-8 text-[#6f5a64]">
-              Ett enkelt set träningsband som följer med överallt: fyra band i
-              äkta naturlatex, från lätt till riktigt tungt. Elin har gått
-              igenom omdömen, specifikationer och TikTok-reaktioner och plockat
-              ut det som faktiskt är värt pengarna. Här är den ärliga
-              sammanfattningen.
+              Mycket träningsband för en låg peng. Fyra motståndsnivåer i
+              naturlatex gör det lätt att börja hemma, byta nivå när det behövs
+              och få mer användning utan att köpa stora redskap.
             </p>
             <p className="mt-5 rounded-3xl border border-[#F1D8DD] bg-[#FFF4F5] p-4 text-sm leading-7 text-[#6f5a64]">
               <strong>Annons</strong> · Den här sidan innehåller reklamlänkar.
@@ -209,13 +189,18 @@ export default async function TraningBandReviewPage() {
         </section>
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-[#F9E9E9]/82 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
-          <h2 className="font-display text-3xl text-[#4B2838]">
-            Varför den hamnade på Elins lista
+          <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+            Prisvärt val
+          </p>
+          <h2 className="mt-2 font-display text-3xl text-[#4B2838]">
+            Mycket träningsband för en låg peng.
           </h2>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-[#6f5a64]">
-            Det som gör setet intressant är fyra motståndsnivåer i samma paket,
-            100% naturlatex (håller längre än TPE) och ett lågt pris – en
-            kombination som få band i prisklassen erbjuder, enligt omdömena.
+            Fyra motståndsnivåer (8–85 lbs) i 100% naturlatex – det de flesta
+            vill ha, utan premiumpris.
+          </p>
+          <p className="mt-5 max-w-4xl rounded-2xl bg-white/60 p-5 text-lg font-semibold leading-8 text-[#5f4a54]">
+            Ett smart förstaval för hemmaträning – mycket för pengarna.
           </p>
         </section>
 
@@ -279,26 +264,21 @@ export default async function TraningBandReviewPage() {
               Inte perfekt, men bra att veta
             </h2>
             <div className="mt-6 grid gap-3">
-              {cautions.map((caution) => (
-                <div
-                  key={caution}
-                  className="flex min-h-14 items-center gap-4 rounded-2xl bg-[#FFF4F5] px-4 text-[#5f4a54]"
-                >
-                  <TriangleAlert
-                    className="shrink-0 text-[#D8788D]"
-                    size={22}
-                    aria-hidden="true"
-                  />
-                  <span className="font-semibold">{caution}</span>
-                </div>
-              ))}
+              <div className="flex min-h-14 items-start gap-4 rounded-2xl bg-[#FFF4F5] px-4 py-4 text-[#5f4a54]">
+                <TriangleAlert
+                  className="mt-1 shrink-0 text-[#D8788D]"
+                  size={22}
+                  aria-hidden="true"
+                />
+                <span className="font-semibold leading-7">{valueCaveat}</span>
+              </div>
             </div>
           </article>
         </section>
 
         <div className="mt-7">
           <TrustReviewLayers
-            editorialVerdict="Baserat på 628 omdömen (4,5/5) och produktens spec, är detta ett prisvärt förstaval för hemmaträning. Elins slutsats: värt pengarna."
+            editorialVerdict={`Mycket träningsband för en låg peng. Fyra motståndsnivåer (8–85 lbs) i 100% naturlatex - det de flesta vill ha, utan premiumpris. ${valueCaveat} Ett smart förstaval för hemmaträning - mycket för pengarna.`}
             amazonSummary="4,5/5 baserat på 628 omdömen på Amazon. Kunderna lyfter framför allt prisvärdhet, enkel användning och att de olika motståndsnivåerna gör setet lätt att anpassa."
             amazonQuotes={[
               {

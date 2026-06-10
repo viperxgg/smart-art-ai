@@ -8,6 +8,7 @@ export type Product = {
   imageAlt: string;
   images: ProductImage[];
   amazonUrl: string;
+  pageHref?: string;
   summary: string;
   evaluation: ProductEvaluation;
   specSectionEyebrow: string;
@@ -73,7 +74,7 @@ export const featuredProduct: Product = {
   title: "Träningsband med 4 motståndsnivåer",
   asin: "B0CQXFWMH5",
   brand: "WuGU",
-  price: "186,99 kr",
+  price: "Se aktuellt pris på Amazon",
   image: "/products/resistance-bands/elin-resistance-band-thumbnail.png",
   imageAlt: "Person som tränar hemma med lila träningsband",
   images: [
@@ -99,8 +100,9 @@ export const featuredProduct: Product = {
     },
   ],
   amazonUrl: "https://amzn.to/4xuLEfd",
+  pageHref: "/traning/traningsband-naturlatex",
   summary:
-    "Elin lade det här setet på listan för att det gör hemmaträning mindre krånglig. Det är inte en magisk genväg, men det löser en tydlig känsla: man vill kunna träna hemma utan att köpa stora saker.",
+    "Mycket träningsband för en låg peng: fyra motståndsnivåer i 100% naturlatex, utan premiumpris.",
   evaluation: {
     headline: "Elins snabba känsla",
     intro:
@@ -219,9 +221,10 @@ export const beurerMassagepistolProduct: Product = {
       label: "Hemma",
     },
   ],
-  amazonUrl: "https://amzn.to/4ekNKpb",
+  amazonUrl: "https://amzn.to/3Qe9xGL",
+  pageHref: "/halsa/massagepistol/beurer-mg-99",
   summary:
-    "Det trygga märkesvalet för dig som vill ha en kompakt massagepistol från ett känt varumärke.",
+    "Ett känt märke till ett oväntat vänligt pris: kompakt, lätt och tryggt utan premiumprislapp.",
   evaluation: {
     headline: "Det trygga märkesvalet",
     intro:
@@ -235,7 +238,7 @@ export const beurerMassagepistolProduct: Product = {
   specs: [],
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4ekNKpb",
+    sourceUrl: "https://amzn.to/3Qe9xGL",
     ratingSummary: "Snittbetyg 4,4/5 på Amazon.",
     highlights: [],
     cautions: [],
@@ -278,8 +281,9 @@ export const bdbkmgMassagepistolProduct: Product = {
     },
   ],
   amazonUrl: "https://amzn.to/4vH0u0h",
+  pageHref: "/halsa/massagepistol/kraftfull",
   summary:
-    "Det prisvärda kraftvalet för dig som vill ha många inställningar och mer kontroll.",
+    "Riktigt mycket pistol för pengarna: 99 lägen, 6 huvuden och tydlig kontroll för hemmabruk.",
   evaluation: {
     headline: "Mest för pengarna",
     intro:
@@ -305,15 +309,16 @@ export const bdbkmgMassagepistolProduct: Product = {
   comments: [],
 };
 
-export const products = [featuredProduct] as const;
-export const reviewableProducts = [
-  ...products,
+export const products = [
+  featuredProduct,
   beurerMassagepistolProduct,
   bdbkmgMassagepistolProduct,
 ] as const;
+export const genericProductPages = [featuredProduct] as const;
+export const reviewableProducts = products;
 
 export function getListedProductBySlug(slug: string) {
-  return products.find((product) => product.slug === slug);
+  return genericProductPages.find((product) => product.slug === slug);
 }
 
 export function getProductBySlug(slug: string) {

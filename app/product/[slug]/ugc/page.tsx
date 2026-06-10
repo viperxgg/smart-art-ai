@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, MessageCircle, PlayCircle } from "lucide-react";
 import { notFound } from "next/navigation";
 
-import { getListedProductBySlug, products } from "@/lib/products";
+import { genericProductPages, getListedProductBySlug } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
 type ProductUgcPageProps = {
@@ -60,7 +60,7 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  return products.map((product) => ({ slug: product.slug }));
+  return genericProductPages.map((product) => ({ slug: product.slug }));
 }
 
 export default async function ProductUgcPage({ params }: ProductUgcPageProps) {

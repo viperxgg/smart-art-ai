@@ -13,11 +13,9 @@ import {
 import { products } from "@/lib/products";
 
 function getProductPageHref(slug: string) {
-  if (slug === "traningsband-4-nivaer") {
-    return "/traning/traningsband-naturlatex";
-  }
+  const product = products.find((item) => item.slug === slug);
 
-  return `/product/${slug}`;
+  return product?.pageHref ?? `/product/${slug}`;
 }
 
 const navItems = [
