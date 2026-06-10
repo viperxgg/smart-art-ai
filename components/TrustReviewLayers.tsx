@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { MessageCircle, Quote, ShieldCheck, Star } from "lucide-react";
 
 type AmazonQuote = {
@@ -9,12 +10,14 @@ type TrustReviewLayersProps = {
   editorialVerdict: string;
   amazonSummary: string;
   amazonQuotes?: AmazonQuote[];
+  reviewHref?: string;
 };
 
 export function TrustReviewLayers({
   editorialVerdict,
   amazonSummary,
   amazonQuotes = [],
+  reviewHref = "#recensioner",
 }: TrustReviewLayersProps) {
   return (
     <section className="grid gap-4 lg:grid-cols-3">
@@ -94,13 +97,13 @@ export function TrustReviewLayers({
         <p className="mt-5 leading-8 text-[#6f5a64]">
           Har du provat den? Bli först med att dela din ärliga åsikt.
         </p>
-        <button
-          type="button"
-          className="mt-6 inline-flex min-h-12 w-full cursor-not-allowed items-center justify-center gap-2 rounded-full border border-[#E1A5B0] bg-white/72 px-5 font-black text-[#9E5E73] opacity-75"
-          aria-disabled="true"
+        <Link
+          href={reviewHref}
+          className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full border border-[#E1A5B0] bg-white/72 px-5 font-black text-[#9E5E73] transition hover:bg-[#FFF4F5]"
         >
           Skriv en recension
-        </button>
+          <MessageCircle size={18} aria-hidden="true" />
+        </Link>
       </article>
     </section>
   );

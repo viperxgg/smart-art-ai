@@ -16,9 +16,15 @@ import {
 } from "lucide-react";
 import { notFound } from "next/navigation";
 
+import { JsonLd } from "@/components/JsonLd";
 import { ProductComments } from "@/components/ProductComments";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { getProductBySlug, products, type Product } from "@/lib/products";
+import {
+  getApprovedReviewAggregate,
+  getApprovedReviews,
+  type ReviewAggregate,
+} from "@/lib/reviews/reviews";
 import { siteConfig } from "@/lib/site";
 
 type ProductPageProps = {
@@ -127,6 +133,38 @@ function getAmazonQuotes(product: Product) {
   return [];
 }
 
+function buildProductSchema(
+  product: Product,
+  reviewAggregate: ReviewAggregate | null,
+) {
+  const schema: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.title,
+    brand: { "@type": "Brand", name: product.brand },
+    sku: product.asin,
+    image: `${siteConfig.url}${product.image}`,
+    description: product.summary,
+    offers: {
+      "@type": "Offer",
+      url: product.amazonUrl,
+      priceCurrency: "SEK",
+    },
+  };
+
+  if (reviewAggregate) {
+    schema.aggregateRating = {
+      "@type": "AggregateRating",
+      ratingValue: reviewAggregate.average,
+      reviewCount: reviewAggregate.count,
+      bestRating: "5",
+      worstRating: "1",
+    };
+  }
+
+  return schema;
+}
+
 export async function generateMetadata({
   params,
 }: ProductPageProps): Promise<Metadata> {
@@ -165,6 +203,8 @@ export async function generateStaticParams() {
   return products.map((product) => ({ slug: product.slug }));
 }
 
+export const revalidate = 300;
+
 export default async function ProductPage({ params }: ProductPageProps) {
   const { slug } = await params;
   const product = getProductBySlug(slug);
@@ -174,6 +214,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
   }
 
   const story = getProductStory(product);
+  const [approvedReviews, approvedReviewAggregate] = await Promise.all([
+    getApprovedReviews(product.slug),
+    getApprovedReviewAggregate(product.slug),
+  ]);
+  const productSchema = buildProductSchema(product, approvedReviewAggregate);
   const heroImage = product.images[0] ?? {
     src: product.image,
     alt: product.imageAlt,
@@ -185,6 +230,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
       id="content"
       className="min-h-screen max-w-full overflow-hidden bg-[#FFF9F7] px-4 py-7 text-[#3E2F3A]"
     >
+      <JsonLd data={productSchema} />
       <div className="mx-0 w-full max-w-[22rem] min-w-0 sm:mx-auto sm:max-w-6xl">
         <header className="flex min-w-0 items-center justify-between gap-3">
           <Link
@@ -263,6 +309,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
               Se på Amazon
               <ArrowUpRight size={21} aria-hidden="true" />
             </a>
+            <p className="mt-3 text-center text-xs font-semibold leading-5 text-[#8a6e78]">
+              Annons · Den här sidan innehåller reklamlänkar. Vi kan få
+              ersättning om du köper via länken.
+            </p>
           </article>
         </section>
 
@@ -358,14 +408,17 @@ export default async function ProductPage({ params }: ProductPageProps) {
             editorialVerdict={product.evaluation.verdict}
             amazonSummary={product.amazonReviewSignal.ratingSummary}
             amazonQuotes={getAmazonQuotes(product)}
+            reviewHref="#recensioner"
           />
         </section>
 
-        {product.comments.length > 0 ? (
-          <section className="mt-6">
-            <ProductComments product={product} />
-          </section>
-        ) : null}
+        <section className="mt-6">
+          <ProductComments
+            product={product}
+            reviews={approvedReviews}
+            turnstileSiteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
+          />
+        </section>
       </div>
     </main>
   );

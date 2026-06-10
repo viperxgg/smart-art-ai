@@ -78,7 +78,8 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
               </h1>
               <p className="mt-3 leading-7 text-white/65">
                 Skriv gärna om du faktiskt har testat produkten, eller om du har
-                en konkret fråga efter att ha läst Elins produktkoll.
+                en konkret fråga efter att ha läst Elins produktkoll. Alla
+                recensioner granskas manuellt innan publicering.
               </p>
             </div>
           </div>
@@ -97,7 +98,10 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
               </div>
             </div>
 
-            <ReviewForm product={product} />
+            <ReviewForm
+              product={product}
+              turnstileSiteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
+            />
           </div>
         </section>
       </div>

@@ -11,8 +11,14 @@ import {
 } from "lucide-react";
 
 import { JsonLd } from "@/components/JsonLd";
+import { ProductComments } from "@/components/ProductComments";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { featuredProduct } from "@/lib/products";
+import {
+  getApprovedReviewAggregate,
+  getApprovedReviews,
+  type ReviewAggregate,
+} from "@/lib/reviews/reviews";
 import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/traning/traningsband-naturlatex`;
@@ -37,22 +43,30 @@ const faqItems = [
   },
 ];
 
-const productSchema = {
-  "@context": "https://schema.org",
-  "@type": "Product",
-  name: "Träningsband i naturlatex – set med 4 motståndsnivåer (WuGU)",
-  brand: { "@type": "Brand", name: "WuGU" },
-  material: "Naturlatex",
-  image: pageImage,
-  description:
-    "Set med fyra träningsband i 100% naturlatex, motstånd 8–85 lbs.",
-  review: {
-    "@type": "Review",
-    author: { "@type": "Person", name: "Elin" },
-    reviewBody:
-      "Baserat på omdömen och produktens specifikationer är detta ett prisvärt förstaval för hemmaträning.",
-  },
-};
+function buildProductSchema(reviewAggregate: ReviewAggregate | null) {
+  const schema: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: "Träningsband i naturlatex – set med 4 motståndsnivåer (WuGU)",
+    brand: { "@type": "Brand", name: "WuGU" },
+    material: "Naturlatex",
+    image: pageImage,
+    description:
+      "Set med fyra träningsband i 100% naturlatex, motstånd 8–85 lbs.",
+  };
+
+  if (reviewAggregate) {
+    schema.aggregateRating = {
+      "@type": "AggregateRating",
+      ratingValue: reviewAggregate.average,
+      reviewCount: reviewAggregate.count,
+      bestRating: "5",
+      worstRating: "1",
+    };
+  }
+
+  return schema;
+}
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -127,7 +141,15 @@ export const metadata: Metadata = {
   },
 };
 
-export default function TraningBandReviewPage() {
+export const revalidate = 300;
+
+export default async function TraningBandReviewPage() {
+  const [approvedReviews, approvedReviewAggregate] = await Promise.all([
+    getApprovedReviews(featuredProduct.slug),
+    getApprovedReviewAggregate(featuredProduct.slug),
+  ]);
+  const productSchema = buildProductSchema(approvedReviewAggregate);
+
   return (
     <main
       id="content"
@@ -297,6 +319,7 @@ export default function TraningBandReviewPage() {
                 attribution: "Amazon-köpare",
               },
             ]}
+            reviewHref="#recensioner"
           />
         </div>
 
@@ -324,6 +347,14 @@ export default function TraningBandReviewPage() {
               </a>
             </div>
           </div>
+        </section>
+
+        <section className="mt-7">
+          <ProductComments
+            product={featuredProduct}
+            reviews={approvedReviews}
+            turnstileSiteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
+          />
         </section>
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
