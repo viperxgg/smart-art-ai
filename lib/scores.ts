@@ -71,6 +71,22 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 84,
     verdict: "Premiumvalet – för dig som vill ha det yppersta",
   },
+  "remington-proluxe-ac9140-hartork": {
+    value: 27,
+    performance: 29,
+    promise: 24,
+    proven: 15,
+    total: 95,
+    verdict: "Elins val – mest hårtork för pengarna i premiumklass",
+  },
+  "beurer-hc-25-hartork": {
+    value: 28,
+    performance: 22,
+    promise: 22,
+    proven: 14,
+    total: 86,
+    verdict: "Det prisvärda rese- och budgetvalet",
+  },
 };
 
 export function getEditorialScore(productSlug: string) {

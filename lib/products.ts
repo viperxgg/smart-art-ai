@@ -572,6 +572,115 @@ export const braunSilkEpil9Product: Product = {
   comments: [],
 };
 
+export const remingtonProluxeAc9140Product: Product = {
+  slug: "remington-proluxe-ac9140-hartork",
+  title: "Remington PROluxe AC9140 hårtork",
+  category: "skonhet",
+  asin: "REMINGTON_AC9140",
+  brand: "Remington",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/hair-dryers/remington-proluxe-ac9140-main.png",
+  imageAlt: "Remington PROluxe AC9140 hårtork med diffusor och munstycken",
+  images: [
+    {
+      src: "/products/hair-dryers/remington-proluxe-ac9140-main.png",
+      alt: "Remington PROluxe AC9140 hårtork med diffusor och munstycken",
+      label: "Tillbehör",
+    },
+    {
+      src: "/products/hair-dryers/remington-proluxe-ac9140-floating.png",
+      alt: "Remington PROluxe AC9140 hårtork med munstycken och diffusor mot ljus bakgrund",
+      label: "Luftflöde",
+    },
+    {
+      src: "/products/hair-dryers/remington-proluxe-ac9140-detail.png",
+      alt: "Remington PROluxe AC9140 hårtork på marmorbord med diffusor",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vcMbko",
+  pageHref: "/skonhet/hartork/remington-proluxe-ac9140",
+  summary:
+    "Salongskvalitet hemma till ett förvånansvärt lågt pris: 2400 W AC-motor, jonteknik och diffusor.",
+  evaluation: {
+    headline: "Elins salongsval",
+    intro:
+      "Remington PROluxe AC9140 passar dig som vill ha snabb torkning, mer kraft och en salongslik känsla hemma.",
+    verdict:
+      "Elins val – mest hårtork för pengarna i premiumklass.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hårtork",
+  specSectionTitle: "Remington PROluxe AC9140",
+  specs: [],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vcMbko",
+    ratingSummary: "En av de mest sålda hårtorkarna, mycket högt betyg.",
+    highlights: [],
+    cautions: [],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const beurerHc25Product: Product = {
+  slug: "beurer-hc-25-hartork",
+  title: "Beurer HC 25 hårtork",
+  category: "skonhet",
+  asin: "BEURER_HC_25",
+  brand: "Beurer",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/hair-dryers/beurer-hc-25-main.png",
+  imageAlt: "Beurer HC 25 hårtork på ljus badrumsbänk",
+  images: [
+    {
+      src: "/products/hair-dryers/beurer-hc-25-main.png",
+      alt: "Beurer HC 25 hårtork på ljus badrumsbänk",
+      label: "HC 25",
+    },
+    {
+      src: "/products/hair-dryers/beurer-hc-25-floating.png",
+      alt: "Beurer HC 25 hårtork mot mjuk studiobakgrund",
+      label: "Kompakt",
+    },
+    {
+      src: "/products/hair-dryers/beurer-hc-25-counter.png",
+      alt: "Beurer HC 25 hårtork på badrumsbänk",
+      label: "Hemma",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4uvdJjE",
+  pageHref: "/skonhet/hartork/beurer-hc-25",
+  summary:
+    "Mest hårtork för pengarna när du vill ha något lätt, hopfällbart och smidigt för resa.",
+  evaluation: {
+    headline: "Prisvärt reseval",
+    intro:
+      "Beurer HC 25 passar dig som vill ha en kompakt hårtork för resa och vardag utan att betala för salongskraft.",
+    verdict: "Det prisvärda rese- och budgetvalet.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hårtork",
+  specSectionTitle: "Beurer HC 25",
+  specs: [],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4uvdJjE",
+    ratingSummary: "En av de mest sålda hårtorkarna, mycket högt betyg.",
+    highlights: [],
+    cautions: [],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   beurerMassagepistolProduct,
@@ -580,6 +689,8 @@ export const products = [
   remingtonMiniS2880Product,
   panasonicEsEy30EpilatorProduct,
   braunSilkEpil9Product,
+  remingtonProluxeAc9140Product,
+  beurerHc25Product,
 ] as const;
 
 export const productCategories: readonly ProductCategory[] = [
