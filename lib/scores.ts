@@ -55,6 +55,22 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 74,
     verdict: "Smart för resan – ärligt begränsad",
   },
+  "panasonic-es-ey30-epilator": {
+    value: 24,
+    performance: 27,
+    promise: 22,
+    proven: 14,
+    total: 87,
+    verdict: "Prisvärt premiumval för len, smidig epilering",
+  },
+  "braun-silk-epil-9": {
+    value: 20,
+    performance: 28,
+    promise: 23,
+    proven: 13,
+    total: 84,
+    verdict: "Premiumvalet – för dig som vill ha det yppersta",
+  },
 };
 
 export function getEditorialScore(productSlug: string) {

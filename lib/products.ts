@@ -457,12 +457,129 @@ export const remingtonMiniS2880Product: Product = {
   comments: [],
 };
 
+export const panasonicEsEy30EpilatorProduct: Product = {
+  slug: "panasonic-es-ey30-epilator",
+  title: "Panasonic ES-EY30 epilator",
+  category: "skonhet",
+  asin: "PANASONIC_ES_EY30",
+  brand: "Panasonic",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/epilators/panasonic-es-ey30-thumbnail.png",
+  imageAlt: "Panasonic ES-EY30 epilator i lila och vitt på ett ljust badrumsbord",
+  images: [
+    {
+      src: "/products/epilators/panasonic-es-ey30-thumbnail.png",
+      alt: "Panasonic ES-EY30 epilator i lila och vitt på ett ljust badrumsbord",
+      label: "Epilator",
+    },
+    {
+      src: "/products/epilators/panasonic-es-ey30-wet-dry.png",
+      alt: "Panasonic ES-EY30 epilator mot en mjuk lila bakgrund med vattenkänsla",
+      label: "Wet/Dry",
+    },
+    {
+      src: "/products/epilators/panasonic-es-ey30-handheld.png",
+      alt: "Panasonic ES-EY30 epilator hållen i handen vid ett handfat",
+      label: "I handen",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4olXGmN",
+  pageHref: "/skonhet/epilator/panasonic-es-ey30",
+  summary:
+    "Marknadens mest sålda epilator: våt och torr, sladdlös och byggd för lenare resultat som håller längre än rakning.",
+  evaluation: {
+    headline: "Prisvärt premiumval",
+    intro:
+      "Panasonic ES-EY30 passar dig som vill ha en beprövad epilator för ben och kropp utan att gå upp till de dyraste paketen.",
+    verdict:
+      "Ett prisvärt premiumval för len, smidig epilering.",
+    checks: [],
+  },
+  specSectionEyebrow: "Epilator",
+  specSectionTitle: "Panasonic ES-EY30",
+  specs: [],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4olXGmN",
+    ratingSummary:
+      "Mycket högt betyg och en av marknadens mest sålda epilatorer.",
+    highlights: [],
+    cautions: [],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const braunSilkEpil9Product: Product = {
+  slug: "braun-silk-epil-9",
+  title: "Braun Silk-épil 9 epilator",
+  category: "skonhet",
+  asin: "BRAUN_SILK_EPIL_9",
+  brand: "Braun",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/epilators/braun-silk-epil-9-thumbnail.png",
+  imageAlt: "Braun Silk-épil 9 epilator i vit och silver",
+  images: [
+    {
+      src: "/products/epilators/braun-silk-epil-9-thumbnail.png",
+      alt: "Braun Silk-épil 9 epilator hållen i handen i ett ljust badrum",
+      label: "I handen",
+    },
+    {
+      src: "/products/epilators/braun-silk-epil-9-accessories.png",
+      alt: "Braun Silk-épil 9 epilator med fodral och tillbehör på en bricka",
+      label: "Tillbehör",
+    },
+    {
+      src: "/products/epilators/braun-silk-epil-9-kit.png",
+      alt: "Braun Silk-épil 9 epilator med rakhuvud och tillbehör vid handfat",
+      label: "Detaljer",
+    },
+    {
+      src: "/products/epilators/braun-silk-epil-9-wet-dry.png",
+      alt: "Braun Silk-épil 9 epilator mot en vit wet dry-bakgrund",
+      label: "Wet/Dry",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4uXC2rs",
+  pageHref: "/skonhet/epilator/braun-silk-epil-9",
+  summary:
+    "Premiumvalet för dig som vill ha MicroGrip-pincetter, pivoterande huvud, massagerulle och fler tillbehör.",
+  evaluation: {
+    headline: "Premiumvalet",
+    intro:
+      "Braun Silk-épil 9 passar dig som vill ha en mer påkostad epilator med fler tillbehör och längre trygghet.",
+    verdict: "Premiumvalet – för dig som vill ha det yppersta.",
+    checks: [],
+  },
+  specSectionEyebrow: "Epilator",
+  specSectionTitle: "Braun Silk-épil 9",
+  specs: [],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4uXC2rs",
+    ratingSummary: "Mycket högt betyg, premiumklass.",
+    highlights: [],
+    cautions: [],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   beurerMassagepistolProduct,
   bdbkmgMassagepistolProduct,
   remingtonS8540Product,
   remingtonMiniS2880Product,
+  panasonicEsEy30EpilatorProduct,
+  braunSilkEpil9Product,
 ] as const;
 
 export const productCategories: readonly ProductCategory[] = [

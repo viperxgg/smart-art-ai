@@ -7,6 +7,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { plattangPicks } from "@/lib/plattang";
 import { createSeoMetadata } from "@/lib/metadata";
+import { getProductsByCategory } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
 export const metadata = createSeoMetadata({
@@ -30,6 +31,8 @@ const breadcrumbItems = [
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
 
 export default function SkonhetHubPage() {
+  const beautyProducts = getProductsByCategory("skonhet");
+
   return (
     <main
       id="content"
@@ -98,13 +101,13 @@ export default function SkonhetHubPage() {
               Produktkort
             </p>
             <h2 className="mt-2 font-display text-4xl text-[#4B2838]">
-              Plattänger Elin jämför
+              Skönhetsval Elin jämför
             </h2>
           </div>
 
           <div className="mt-6 grid gap-6 md:grid-cols-2">
-            {plattangPicks.map((pick) => (
-              <ProductCard key={pick.product.slug} product={pick.product} />
+            {beautyProducts.map((product) => (
+              <ProductCard key={product.slug} product={product} />
             ))}
           </div>
         </section>
