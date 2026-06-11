@@ -329,13 +329,33 @@ export const remingtonS8540Product: Product = {
   asin: "REMINGTON_S8540",
   brand: "Remington",
   price: "Se aktuellt pris på Amazon",
-  image: "/products/hair-straighteners/remington-s8540.svg",
-  imageAlt: "Remington S8540 plattång i mjuk rosa miljö",
+  image: "/products/hair-straighteners/remington-s8540-main.png",
+  imageAlt: "Remington S8540 Keratin Protect plattång på ljus marmoryta",
   images: [
+    {
+      src: "/products/hair-straighteners/remington-s8540-main.png",
+      alt: "Remington S8540 Keratin Protect plattång på ljus marmoryta",
+      label: "S8540",
+    },
+    {
+      src: "/products/hair-straighteners/remington-s8540-lifestyle.png",
+      alt: "Remington S8540 används framför spegel i ljus badrumsmiljö",
+      label: "I bruk",
+    },
+    {
+      src: "/products/hair-straighteners/remington-s8540-detail-real.png",
+      alt: "Remington S8540 Keratin Protect plattång med display och keramiska plattor",
+      label: "Detalj",
+    },
+    {
+      src: "/products/hair-straighteners/remington-s8540-counter.png",
+      alt: "Remington S8540 plattång på badrumsbänk med sladd och kam",
+      label: "Badrum",
+    },
     {
       src: "/products/hair-straighteners/remington-s8540.svg",
       alt: "Remington S8540 plattång i mjuk rosa miljö",
-      label: "S8540",
+      label: "Produkt",
     },
     {
       src: "/products/hair-straighteners/remington-s8540-detail.svg",
@@ -379,13 +399,28 @@ export const remingtonMiniS2880Product: Product = {
   asin: "REMINGTON_S2880",
   brand: "Remington",
   price: "Se aktuellt pris på Amazon",
-  image: "/products/hair-straighteners/remington-mini-s2880.svg",
-  imageAlt: "Remington Mini S2880 kompakt plattång för resa",
+  image: "/products/hair-straighteners/remington-mini-s2880-main.png",
+  imageAlt: "Remington Mini S2880 plattång på ljus marmoryta med blommor",
   images: [
+    {
+      src: "/products/hair-straighteners/remington-mini-s2880-main.png",
+      alt: "Remington Mini S2880 plattång på ljus marmoryta med blommor",
+      label: "Mini S2880",
+    },
+    {
+      src: "/products/hair-straighteners/remington-mini-s2880-detail.png",
+      alt: "Remington Mini S2880 plattång med lila plattor på mjukt tyg",
+      label: "Detalj",
+    },
+    {
+      src: "/products/hair-straighteners/remington-mini-s2880-lifestyle.png",
+      alt: "Remington Mini S2880 används för snabb hårstyling hemma",
+      label: "I bruk",
+    },
     {
       src: "/products/hair-straighteners/remington-mini-s2880.svg",
       alt: "Remington Mini S2880 kompakt plattång för resa",
-      label: "Mini S2880",
+      label: "Produkt",
     },
     {
       src: "/products/hair-straighteners/remington-mini-travel.svg",
