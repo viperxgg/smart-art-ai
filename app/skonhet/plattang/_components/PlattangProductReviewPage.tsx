@@ -1,13 +1,11 @@
 import Link from "next/link";
 import {
   ArrowLeft,
-  ArrowUpRight,
-  CheckCircle2,
   HeartPulse,
-  ShieldCheck,
   TriangleAlert,
 } from "lucide-react";
 
+import { AmazonCta } from "@/components/AmazonCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { ElinsScoreCard } from "@/components/ElinsScoreCard";
 import { JsonLd } from "@/components/JsonLd";
@@ -136,25 +134,14 @@ export async function PlattangProductReviewPage({
               Om du handlar via våra länkar kan vi få en provision - utan extra
               kostnad för dig.
             </p>
-            <a
-              href={pick.product.amazonUrl}
-              target="_blank"
-              rel="sponsored nofollow noopener noreferrer"
-              className="mt-7 inline-flex min-h-16 w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#D8788D] to-[#EAA3AD] px-6 text-lg font-black text-white shadow-[0_20px_48px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
-            >
-              Se aktuellt pris på Amazon
-              <ArrowUpRight size={21} aria-hidden="true" />
-            </a>
-            <p className="mt-4 text-sm leading-6 text-[#8a6d78]">
-              Priset visas inte här eftersom Amazon kan ändra pris och
-              lagerstatus.
-            </p>
           </article>
         </section>
 
         {editorialScore ? (
           <ElinsScoreCard score={editorialScore} className="mt-7" />
         ) : null}
+
+        <AmazonCta href={pick.product.amazonUrl} className="mt-5" />
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-[#F9E9E9]/82 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
@@ -164,33 +151,30 @@ export async function PlattangProductReviewPage({
             {pick.valueHook}
           </h2>
           <p className="mt-5 max-w-4xl text-lg leading-8 text-[#6f5a64]">
-            {pick.reviewIntro}
-          </p>
-          <p className="mt-5 max-w-4xl rounded-2xl bg-white/60 p-5 text-lg font-semibold leading-8 text-[#5f4a54]">
             {pick.valueStatement}
           </p>
+          <p className="mt-5 max-w-4xl rounded-2xl bg-white/60 p-5 text-lg font-semibold leading-8 text-[#5f4a54]">
+            {pick.verdict}
+          </p>
+          <h3 className="mt-7 font-display text-2xl text-[#4B2838]">
+              Passar dig som...
+          </h3>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            {pick.passFor.map((item) => (
+              <div
+                key={item}
+                className="flex min-h-14 items-center gap-4 rounded-2xl bg-white/60 px-4 font-bold text-[#5f4a54]"
+              >
+                <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#F9DDE2] text-[#B983A6]">
+                  <HeartPulse size={20} aria-hidden="true" />
+                </span>
+                {item}
+              </div>
+            ))}
+          </div>
         </section>
 
-        <section className="mt-7 grid gap-5 lg:grid-cols-[1fr_1fr]">
-          <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-            <h2 className="font-display text-3xl text-[#4B2838]">
-              Passar dig som...
-            </h2>
-            <div className="mt-6 grid gap-3">
-              {pick.passFor.map((item) => (
-                <div
-                  key={item}
-                  className="flex min-h-14 items-center gap-4 rounded-2xl bg-[#FFF4F5] px-4 font-bold text-[#5f4a54]"
-                >
-                  <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#F9DDE2] text-[#B983A6]">
-                    <HeartPulse size={20} aria-hidden="true" />
-                  </span>
-                  {item}
-                </div>
-              ))}
-            </div>
-          </article>
-
+        <section className="mt-7">
           <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
             <h2 className="font-display text-3xl text-[#4B2838]">
               Bra att veta
@@ -205,39 +189,6 @@ export async function PlattangProductReviewPage({
             </div>
           </article>
         </section>
-
-        <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-          <h2 className="font-display text-3xl text-[#4B2838]">
-            Vad du får för pengarna
-          </h2>
-          <div className="mt-6 grid gap-3 md:grid-cols-2">
-            {pick.pros.map((pro) => (
-              <div
-                key={pro}
-                className="flex min-h-14 items-center gap-3 rounded-2xl bg-[#FFF4F5] px-4 font-bold text-[#5f4a54]"
-              >
-                <CheckCircle2
-                  className="shrink-0 text-[#B983A6]"
-                  size={20}
-                  aria-hidden="true"
-                />
-                {pro}
-              </div>
-            ))}
-          </div>
-          <p className="mt-6 rounded-2xl bg-[#F9E9E9] p-5 text-lg font-semibold leading-8 text-[#5f4a54]">
-            {pick.verdict}
-          </p>
-        </section>
-
-        <div className="mt-7">
-          <TrustReviewLayers
-            editorialVerdict={`${pick.valueHook} ${pick.valueStatement} ${pick.caution} ${pick.verdict}`}
-            amazonSummary={pick.amazonSummary}
-            amazonQuotes={pick.amazonQuotes}
-            reviewHref={`#${pick.reviewSectionId}`}
-          />
-        </div>
 
         <section className="mt-7 overflow-hidden rounded-[2rem] border border-[#F1D8DD] bg-white/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
           <div className="p-6 md:p-8">
@@ -295,30 +246,13 @@ export async function PlattangProductReviewPage({
           </div>
         </section>
 
-        <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-[#FFF4F5] p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-          <div className="flex items-start gap-4">
-            <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-[#F9DDE2] text-[#B983A6]">
-              <ShieldCheck size={24} aria-hidden="true" />
-            </span>
-            <div>
-              <h2 className="font-display text-3xl text-[#4B2838]">
-                Se produkten
-              </h2>
-              <p className="mt-4 max-w-3xl text-lg leading-8 text-[#6f5a64]">
-                Kontrollera alltid aktuell information på Amazon innan köp.
-              </p>
-              <a
-                href={pick.product.amazonUrl}
-                target="_blank"
-                rel="sponsored nofollow noopener noreferrer"
-                className="mt-7 inline-flex min-h-14 items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#D8788D] to-[#EAA3AD] px-7 font-black text-white shadow-[0_20px_48px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
-              >
-                Se aktuellt pris på Amazon
-                <ArrowUpRight size={19} aria-hidden="true" />
-              </a>
-            </div>
-          </div>
-        </section>
+        <div className="mt-7">
+          <TrustReviewLayers
+            amazonSummary={pick.amazonSummary}
+            amazonQuotes={pick.amazonQuotes}
+            reviewHref={`#${pick.reviewSectionId}`}
+          />
+        </div>
 
         <section className="mt-7">
           <ProductComments
@@ -363,6 +297,8 @@ export async function PlattangProductReviewPage({
             ))}
           </div>
         </section>
+
+        <AmazonCta href={pick.product.amazonUrl} panel className="mt-7" />
 
         <Link
           href="/skonhet/plattang"

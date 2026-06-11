@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MessageCircle, Quote, ShieldCheck, Star } from "lucide-react";
+import { MessageCircle, Quote, Star } from "lucide-react";
 
 type AmazonQuote = {
   text: string;
@@ -7,35 +7,18 @@ type AmazonQuote = {
 };
 
 type TrustReviewLayersProps = {
-  editorialVerdict: string;
   amazonSummary: string;
   amazonQuotes?: AmazonQuote[];
   reviewHref?: string;
 };
 
 export function TrustReviewLayers({
-  editorialVerdict,
   amazonSummary,
   amazonQuotes = [],
   reviewHref = "#recensioner",
 }: TrustReviewLayersProps) {
   return (
-    <section className="grid gap-4 lg:grid-cols-3">
-      <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
-        <div className="flex items-center gap-3">
-          <span className="grid h-11 w-11 place-items-center rounded-2xl bg-[#F9DDE2] text-[#B983A6]">
-            <ShieldCheck size={21} aria-hidden="true" />
-          </span>
-          <div>
-            <p className="text-xs font-black uppercase tracking-[0.14em] text-[#D8788D]">
-              Redaktionellt urval
-            </p>
-            <h2 className="font-display text-3xl text-[#4B2838]">Elins val</h2>
-          </div>
-        </div>
-        <p className="mt-5 leading-8 text-[#6f5a64]">{editorialVerdict}</p>
-      </article>
-
+    <section className="grid gap-4 lg:grid-cols-2">
       <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
         <div className="flex items-center gap-3">
           <span className="grid h-11 w-11 place-items-center rounded-2xl bg-[#F9DDE2] text-[#B983A6]">

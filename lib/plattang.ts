@@ -54,7 +54,6 @@ export const plattangComparisonRows = [
   ["Bäst för", "Hemma, alla hårtyper, kvalitet", "Resa, lugg/kort hår, snabba fix"],
   ["Storlek/vikt", "Fullstorlek, breda plattor", "0,21 kg, ultralätt"],
   ["Värmelägen", "9 lägen + PRO+", "Ett läge (200°C)"],
-  ["Omdöme", "4,5/5 (21 473)", "4,1/5 (4 050)"],
 ] as const;
 
 export const plattangPicks: PlattangPick[] = [
@@ -67,7 +66,7 @@ export const plattangPicks: PlattangPick[] = [
       "Ett känt märke som skyddar håret - till ett vänligt pris.",
     valueHook: "Ett känt märke som skyddar håret - till ett vänligt pris.",
     valueStatement:
-      "Keramik med keratin och mandelolja som skyddar håret, 9 värmelägen (150-230°C) plus ett skonsamt PRO+-läge, klar på 15 sekunder - och över 21 000 omdömen med 4,5 i snitt.",
+      "Keramik med keratin och mandelolja som skyddar håret, 9 värmelägen (150-230°C), PRO+-läge och snabb uppvärmning på cirka 15 sekunder.",
     reviewIntro:
       "Remington S8540 känns som ett smart köp när du vill ha en fullstor plattång för hemma utan att gå upp i premiumkänsla eller premiumpris. Den stora poängen är kombinationen: känt märke, hårskydd, flera värmelägen och ett skonsammare läge för vanlig vardagsanvändning.",
     pros: [

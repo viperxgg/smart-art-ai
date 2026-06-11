@@ -38,7 +38,7 @@ export function ElinsScoreCard({ score, className = "" }: ElinsScoreCardProps) {
       <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-            Redaktionell poäng
+            Elins poäng
           </p>
           <h2
             id="elins-poang-heading"

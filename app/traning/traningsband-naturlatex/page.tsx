@@ -1,13 +1,12 @@
 import Link from "next/link";
 import {
   ArrowLeft,
-  ArrowUpRight,
   Dumbbell,
-  ShieldCheck,
   Sparkles,
   TriangleAlert,
 } from "lucide-react";
 
+import { AmazonCta } from "@/components/AmazonCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { ElinsScoreCard } from "@/components/ElinsScoreCard";
 import { JsonLd } from "@/components/JsonLd";
@@ -190,21 +189,14 @@ export default async function TraningBandReviewPage() {
               Om du handlar via våra länkar kan vi få en provision – utan någon
               extra kostnad för dig.
             </p>
-            <a
-              href={amazonUrl}
-              target="_blank"
-              rel="sponsored nofollow noopener noreferrer"
-              className="mt-7 inline-flex min-h-16 w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#D8788D] to-[#EAA3AD] px-6 text-lg font-black text-white shadow-[0_20px_48px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
-            >
-              Se aktuellt pris på Amazon
-              <ArrowUpRight size={21} aria-hidden="true" />
-            </a>
           </article>
         </section>
 
         {editorialScore ? (
           <ElinsScoreCard score={editorialScore} className="mt-7" />
         ) : null}
+
+        <AmazonCta href={amazonUrl} className="mt-5" />
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-[#F9E9E9]/82 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
@@ -220,6 +212,37 @@ export default async function TraningBandReviewPage() {
           <p className="mt-5 max-w-4xl rounded-2xl bg-white/60 p-5 text-lg font-semibold leading-8 text-[#5f4a54]">
             Ett smart förstaval för hemmaträning – mycket för pengarna.
           </p>
+          <div className="mt-6 grid gap-3 sm:grid-cols-2">
+            {moments.map((moment) => (
+              <div
+                key={moment}
+                className="flex min-h-14 items-center gap-4 rounded-2xl bg-white/60 px-4 font-bold text-[#5f4a54]"
+              >
+                <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#F9DDE2] text-[#B983A6]">
+                  <Dumbbell size={20} aria-hidden="true" />
+                </span>
+                {moment}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mt-7">
+          <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+            <h2 className="font-display text-3xl text-[#4B2838]">
+              Inte perfekt, men bra att veta
+            </h2>
+            <div className="mt-6 grid gap-3">
+              <div className="flex min-h-14 items-start gap-4 rounded-2xl bg-[#FFF4F5] px-4 py-4 text-[#5f4a54]">
+                <TriangleAlert
+                  className="mt-1 shrink-0 text-[#D8788D]"
+                  size={22}
+                  aria-hidden="true"
+                />
+                <span className="font-semibold leading-7">{valueCaveat}</span>
+              </div>
+            </div>
+          </article>
         </section>
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
@@ -257,46 +280,8 @@ export default async function TraningBandReviewPage() {
           </div>
         </section>
 
-        <section className="mt-7 grid gap-5 lg:grid-cols-[1fr_1fr]">
-          <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-            <h2 className="font-display text-3xl text-[#4B2838]">
-              När passar de?
-            </h2>
-            <div className="mt-6 grid gap-3">
-              {moments.map((moment) => (
-                <div
-                  key={moment}
-                  className="flex min-h-14 items-center gap-4 rounded-2xl bg-[#FFF4F5] px-4 font-bold text-[#5f4a54]"
-                >
-                  <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#F9DDE2] text-[#B983A6]">
-                    <Dumbbell size={20} aria-hidden="true" />
-                  </span>
-                  {moment}
-                </div>
-              ))}
-            </div>
-          </article>
-
-          <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-            <h2 className="font-display text-3xl text-[#4B2838]">
-              Inte perfekt, men bra att veta
-            </h2>
-            <div className="mt-6 grid gap-3">
-              <div className="flex min-h-14 items-start gap-4 rounded-2xl bg-[#FFF4F5] px-4 py-4 text-[#5f4a54]">
-                <TriangleAlert
-                  className="mt-1 shrink-0 text-[#D8788D]"
-                  size={22}
-                  aria-hidden="true"
-                />
-                <span className="font-semibold leading-7">{valueCaveat}</span>
-              </div>
-            </div>
-          </article>
-        </section>
-
         <div className="mt-7">
           <TrustReviewLayers
-            editorialVerdict={`Mycket träningsband för en låg peng. Fyra motståndsnivåer (8–85 lbs) i 100% naturlatex - det de flesta vill ha, utan premiumpris. ${valueCaveat} Ett smart förstaval för hemmaträning - mycket för pengarna.`}
             amazonSummary="4,5/5 baserat på 628 omdömen på Amazon. Kunderna lyfter framför allt prisvärdhet, enkel användning och att de olika motståndsnivåerna gör setet lätt att anpassa."
             amazonQuotes={[
               {
@@ -311,32 +296,6 @@ export default async function TraningBandReviewPage() {
             reviewHref="#recensioner"
           />
         </div>
-
-        <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-[#FFF4F5] p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-          <div className="flex items-start gap-4">
-            <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-[#F9DDE2] text-[#B983A6]">
-              <ShieldCheck size={24} aria-hidden="true" />
-            </span>
-            <div>
-              <h2 className="font-display text-3xl text-[#4B2838]">
-                Se produkten
-              </h2>
-              <p className="mt-4 max-w-3xl text-lg leading-8 text-[#6f5a64]">
-                Priset och lagerstatus kan ändras. Kontrollera alltid aktuell
-                information på Amazon innan du köper.
-              </p>
-              <a
-                href={amazonUrl}
-                target="_blank"
-                rel="sponsored nofollow noopener noreferrer"
-                className="mt-7 inline-flex min-h-14 items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#D8788D] to-[#EAA3AD] px-7 font-black text-white shadow-[0_20px_48px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
-              >
-                Se aktuellt pris på Amazon
-                <ArrowUpRight size={19} aria-hidden="true" />
-              </a>
-            </div>
-          </div>
-        </section>
 
         <section className="mt-7">
           <ProductComments
@@ -379,6 +338,8 @@ export default async function TraningBandReviewPage() {
             ))}
           </div>
         </section>
+
+        <AmazonCta href={amazonUrl} panel className="mt-7" />
 
         <Link
           href="/traning"
