@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowUpRight, Heart } from "lucide-react";
 
 import { getProductPageHref, type Product } from "@/lib/products";
+import { getEditorialScore } from "@/lib/scores";
 import { SaveProductButton } from "@/components/SaveProductButton";
 
 type ProductCardProps = {
@@ -14,6 +15,7 @@ type ProductCardProps = {
 
 export function ProductCard({ product, priority = false }: ProductCardProps) {
   const productHref = getProductPageHref(product);
+  const score = getEditorialScore(product.slug);
 
   return (
     <article className="overflow-hidden rounded-[2.4rem] border border-[#f0c8ce] bg-white/56 shadow-[0_30px_90px_rgba(216,131,146,0.17)] backdrop-blur-xl">
@@ -53,6 +55,11 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
         <p className="mt-5 text-lg leading-9 text-[#74636a]">
           {product.summary}
         </p>
+        {score ? (
+          <p className="mt-5 inline-flex min-h-10 items-center rounded-full border border-[#F1D8DD] bg-[#FFF4F5] px-4 text-sm font-black text-[#9E5E73]">
+            Elins poäng: {score.total}/100
+          </p>
+        ) : null}
         <p className="mt-5 text-xs font-bold uppercase tracking-[0.14em] text-[#a96876]">
           Annons · Amazon-länken är en reklamlänk.
         </p>

@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { ElinsScoreCard } from "@/components/ElinsScoreCard";
 import { JsonLd } from "@/components/JsonLd";
 import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
@@ -21,6 +22,7 @@ import {
   type PlattangPick,
 } from "@/lib/plattang";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
+import { getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type PlattangProductReviewPageProps = {
@@ -69,6 +71,7 @@ export async function PlattangProductReviewPage({
 }: PlattangProductReviewPageProps) {
   const approvedReviews = await getApprovedReviews(pick.product.slug);
   const productSchema = buildProductSchema(pick);
+  const editorialScore = getEditorialScore(pick.product.slug);
   const breadcrumbItems = [
     { name: "Hem", href: "/" },
     { name: "Skönhet", href: "/skonhet" },
@@ -148,6 +151,10 @@ export async function PlattangProductReviewPage({
             </p>
           </article>
         </section>
+
+        {editorialScore ? (
+          <ElinsScoreCard score={editorialScore} className="mt-7" />
+        ) : null}
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-[#F9E9E9]/82 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
