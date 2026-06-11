@@ -4,7 +4,6 @@ import {
   ArrowLeft,
   ArrowUpRight,
   Dumbbell,
-  Heart,
   Home,
   Share2,
   Sparkles,
@@ -18,6 +17,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { ProductComments } from "@/components/ProductComments";
 import { RelatedLinks } from "@/components/RelatedLinks";
+import { SaveProductButton } from "@/components/SaveProductButton";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import {
   genericProductPages,
@@ -189,13 +189,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </Link>
 
           <div className="flex shrink-0 items-center gap-2 sm:gap-3">
-            <button
-              type="button"
-              className="grid min-h-10 min-w-10 place-items-center rounded-full border border-[#E9CDD3] bg-white/62 text-[#6b4755] shadow-[0_14px_36px_rgba(185,131,166,0.12)] sm:min-h-12 sm:min-w-12"
-              aria-label="Spara i Elins val"
-            >
-              <Heart size={20} aria-hidden="true" />
-            </button>
+            <SaveProductButton
+              productSlug={product.slug}
+              productTitle={product.title}
+              className="grid min-h-10 min-w-10 place-items-center rounded-full border border-[#E9CDD3] bg-white/62 text-[#6b4755] shadow-[0_14px_36px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-white sm:min-h-12 sm:min-w-12"
+            />
             <button
               type="button"
               className="grid min-h-10 min-w-10 place-items-center rounded-full border border-[#E9CDD3] bg-white/62 text-[#6b4755] shadow-[0_14px_36px_rgba(185,131,166,0.12)] sm:min-h-12 sm:min-w-12"

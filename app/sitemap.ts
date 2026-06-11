@@ -29,6 +29,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
     {
+      url: `${siteConfig.url}/kategorier`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.55,
+    },
+    {
+      url: `${siteConfig.url}/elins-val`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.65,
+    },
+    {
       url: `${siteConfig.url}/traning`,
       lastModified: new Date(),
       changeFrequency: "weekly",

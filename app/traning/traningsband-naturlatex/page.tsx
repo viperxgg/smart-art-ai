@@ -13,6 +13,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { RelatedLinks } from "@/components/RelatedLinks";
+import { SaveProductButton } from "@/components/SaveProductButton";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { createSeoMetadata } from "@/lib/metadata";
 import { featuredProduct } from "@/lib/products";
@@ -149,9 +150,16 @@ export default async function TraningBandReviewPage() {
             <ArrowLeft size={18} aria-hidden="true" />
             Tillbaka till träning
           </Link>
-          <p className="rounded-full border border-[#E9CDD3] bg-white/70 px-4 py-2 text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
-            Annons
-          </p>
+          <div className="flex shrink-0 items-center gap-2">
+            <SaveProductButton
+              productSlug={featuredProduct.slug}
+              productTitle={featuredProduct.title}
+              className="grid min-h-11 min-w-11 place-items-center rounded-full border border-[#E9CDD3] bg-white/70 text-[#9E5E73] shadow-[0_14px_36px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-white"
+            />
+            <p className="rounded-full border border-[#E9CDD3] bg-white/70 px-4 py-2 text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
+              Annons
+            </p>
+          </div>
         </header>
 
         <section className="mt-8 grid gap-7 lg:grid-cols-[1fr_0.92fr] lg:items-center">

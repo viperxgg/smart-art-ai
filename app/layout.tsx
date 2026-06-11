@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 
+import { BottomNav } from "@/components/BottomNav";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { defaultOgImage } from "@/lib/metadata";
@@ -96,6 +97,7 @@ export default function RootLayout({
         <JsonLd data={websiteSchema} />
         {children}
         <SiteFooter />
+        <BottomNav />
       </body>
     </html>
   );

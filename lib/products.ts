@@ -1,6 +1,7 @@
 export type Product = {
   slug: string;
   title: string;
+  category: ProductCategorySlug;
   asin: string;
   brand: string;
   price: string;
@@ -20,6 +21,15 @@ export type Product = {
   peopleLike: string[];
   honestCheck: string[];
   comments: ProductComment[];
+};
+
+export type ProductCategorySlug = "traning" | "halsa" | "skonhet";
+
+export type ProductCategory = {
+  slug: ProductCategorySlug;
+  label: string;
+  href: string;
+  description: string;
 };
 
 export type ProductImage = {
@@ -72,6 +82,7 @@ export type ProductVideo = {
 export const featuredProduct: Product = {
   slug: "traningsband-4-nivaer",
   title: "Träningsband med 4 motståndsnivåer",
+  category: "traning",
   asin: "B0CQXFWMH5",
   brand: "WuGU",
   price: "Se aktuellt pris på Amazon",
@@ -194,6 +205,7 @@ export const featuredProduct: Product = {
 export const beurerMassagepistolProduct: Product = {
   slug: "beurer-mg-99-massagepistol",
   title: "Beurer MG 99 massagepistol",
+  category: "halsa",
   asin: "BEURER_MG_99",
   brand: "Beurer",
   price: "Se aktuellt pris på Amazon",
@@ -253,6 +265,7 @@ export const beurerMassagepistolProduct: Product = {
 export const bdbkmgMassagepistolProduct: Product = {
   slug: "bdbkmg-massagepistol",
   title: "Muscle Massage Gun (BDBKMG)",
+  category: "halsa",
   asin: "BDBKMG",
   brand: "BDBKMG",
   price: "Se aktuellt pris på Amazon",
@@ -314,6 +327,40 @@ export const products = [
   beurerMassagepistolProduct,
   bdbkmgMassagepistolProduct,
 ] as const;
+
+export const productCategories: readonly ProductCategory[] = [
+  {
+    slug: "traning",
+    label: "Träning",
+    href: "/traning",
+    description: "Smarta val för hemmaträning, rörelse och enkla rutiner.",
+  },
+  {
+    slug: "halsa",
+    label: "Hälsa & återhämtning",
+    href: "/halsa",
+    description: "Produkter för återhämtning, välmående och vardagskänsla.",
+  },
+  {
+    slug: "skonhet",
+    label: "Skönhet",
+    href: "/skonhet",
+    description: "Skönhetsval kommer när Elin lägger till rätt produkter.",
+  },
+];
+
+export const activeProductCategories = productCategories.filter((category) =>
+  products.some((product) => product.category === category.slug),
+);
+
+export function getProductsByCategory(categorySlug: ProductCategorySlug) {
+  return products.filter((product) => product.category === categorySlug);
+}
+
+export function getProductPageHref(product: Pick<Product, "slug" | "pageHref">) {
+  return product.pageHref ?? `/product/${product.slug}`;
+}
+
 export const genericProductPages = [featuredProduct] as const;
 export const reviewableProducts = products;
 

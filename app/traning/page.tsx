@@ -1,9 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Dumbbell, Heart, Home } from "lucide-react";
+import { Dumbbell, Home } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { ProductCard } from "@/components/ProductCard";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { createSeoMetadata } from "@/lib/metadata";
 import { featuredProduct } from "@/lib/products";
@@ -37,7 +37,7 @@ export default function TraningHubPage() {
     >
       <JsonLd data={breadcrumbSchema} />
 
-      <div className="mx-auto w-full max-w-5xl">
+      <div className="mx-auto w-full max-w-5xl pb-24">
         <div className="mb-5">
           <Breadcrumbs items={breadcrumbItems} />
         </div>
@@ -64,41 +64,7 @@ export default function TraningHubPage() {
             </p>
           </div>
 
-          <Link
-            href="/traning/traningsband-naturlatex"
-            className="group overflow-hidden rounded-[2.2rem] border border-[#F1D8DD] bg-white/72 shadow-[0_28px_80px_rgba(185,131,166,0.14)] transition hover:-translate-y-1"
-          >
-            <div className="relative aspect-[4/3] overflow-hidden bg-[#F6F0EC]">
-              <Image
-                src={featuredProduct.image}
-                alt={featuredProduct.imageAlt}
-                fill
-                sizes="(max-width: 768px) 92vw, 520px"
-                className="object-cover transition duration-500 group-hover:scale-[1.025]"
-                priority
-              />
-              <span className="absolute left-5 top-5 inline-flex min-h-10 items-center gap-2 rounded-full bg-[#D8A7B1]/95 px-5 text-sm font-black text-white">
-                <Heart size={16} fill="currentColor" aria-hidden="true" />
-                Elin valde
-              </span>
-            </div>
-            <div className="p-6">
-              <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-                {featuredProduct.brand}
-              </p>
-              <h2 className="mt-3 font-display text-3xl leading-tight text-[#4B2838]">
-                Träningsband i naturlatex
-              </h2>
-              <p className="mt-4 text-lg leading-8 text-[#6f5a64]">
-                Fyra motståndsnivåer för uppvärmning, hemmaträning, rehab och
-                tyngre övningar.
-              </p>
-              <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-[#D8A7B1] px-5 font-black text-white">
-                Läs Elins genomgång
-                <ArrowUpRight size={18} aria-hidden="true" />
-              </span>
-            </div>
-          </Link>
+          <ProductCard product={featuredProduct} priority />
         </section>
 
         <section className="mt-10 rounded-[2rem] border border-[#F1D8DD] bg-white/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">

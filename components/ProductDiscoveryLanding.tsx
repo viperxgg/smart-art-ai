@@ -1,29 +1,11 @@
-import Image from "next/image";
 import Link from "next/link";
+import { ArrowUpRight, Camera, Heart, Music2 } from "lucide-react";
+
+import { ProductCard } from "@/components/ProductCard";
 import {
-  ArrowUpRight,
-  Bookmark,
-  Camera,
-  Heart,
-  Home,
-  Music2,
-  UserRound,
-} from "lucide-react";
-
-import { products } from "@/lib/products";
-
-function getProductPageHref(slug: string) {
-  const product = products.find((item) => item.slug === slug);
-
-  return product?.pageHref ?? `/product/${slug}`;
-}
-
-const navItems = [
-  { label: "Hem", icon: Home },
-  { label: "Elins val", icon: Heart },
-  { label: "Sparat", icon: Bookmark },
-  { label: "Elin", icon: UserRound },
-];
+  activeProductCategories,
+  getProductsByCategory,
+} from "@/lib/products";
 
 export function ProductDiscoveryLanding() {
   return (
@@ -65,6 +47,21 @@ export function ProductDiscoveryLanding() {
           </div>
         </header>
 
+        <nav
+          aria-label="Produktkategorier"
+          className="mt-7 hidden gap-2 overflow-x-auto pb-1 md:flex"
+        >
+          {activeProductCategories.map((category) => (
+            <Link
+              key={category.slug}
+              href={category.href}
+              className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-[#efc6cc] bg-white/50 px-5 text-sm font-black text-[#7b4656] shadow-[0_12px_32px_rgba(216,131,146,0.12)] backdrop-blur transition hover:-translate-y-0.5 hover:bg-white"
+            >
+              {category.label}
+            </Link>
+          ))}
+        </nav>
+
         <div className="mt-12 min-w-0 text-center">
           <div className="mx-auto inline-flex min-h-12 max-w-full items-center gap-3 rounded-full border border-[#efc6cc] bg-white/44 px-5 text-sm font-semibold text-[#a96876] shadow-[0_18px_50px_rgba(216,131,146,0.12)] backdrop-blur sm:px-6 sm:text-base">
             <Heart size={20} aria-hidden="true" />
@@ -104,92 +101,42 @@ export function ProductDiscoveryLanding() {
           </div>
         </div>
 
-        <section className="mt-10 grid w-full gap-8">
-          {products.map((product) => {
-            const productHref = getProductPageHref(product.slug);
+        <div className="mt-12 grid gap-12">
+          {activeProductCategories.map((category) => {
+            const categoryProducts = getProductsByCategory(category.slug);
 
             return (
-            <article
-              key={product.slug}
-              className="overflow-hidden rounded-[2.4rem] border border-[#f0c8ce] bg-white/56 shadow-[0_30px_90px_rgba(216,131,146,0.17)] backdrop-blur-xl"
-            >
-              <Link
-                href={productHref}
-                className="group relative block aspect-[4/3] overflow-hidden bg-[#fdebed]"
-                aria-label={`Öppna ${product.title}`}
-              >
-                <Image
-                  src={product.image}
-                  alt={product.imageAlt}
-                  fill
-                  sizes="(max-width: 768px) 92vw, 650px"
-                  className="object-cover transition duration-500 group-hover:scale-[1.025]"
-                  priority={product === products[0]}
-                />
-                <span className="absolute left-5 top-5 inline-flex min-h-10 items-center gap-2 rounded-full bg-[#c8919b]/90 px-5 text-sm font-black text-white shadow-[0_14px_34px_rgba(120,60,72,0.2)] backdrop-blur">
-                  <Heart size={16} fill="currentColor" aria-hidden="true" />
-                  Elin valde
-                </span>
-              </Link>
-
-              <div className="p-6 sm:p-8">
-                <p className="text-sm font-black uppercase tracking-[0.16em] text-[#d7778b]">
-                  {product.brand}
-                </p>
-                <h2 className="mt-3 font-display text-[2.05rem] leading-tight tracking-[-0.025em] text-[#5b3441] sm:text-4xl sm:tracking-[-0.035em]">
-                  {product.title}
-                </h2>
-                <p className="mt-5 text-lg leading-9 text-[#74636a]">
-                  {product.summary}
-                </p>
-
-                <div className="mt-7 grid gap-4 sm:grid-cols-2">
+              <section key={category.slug} aria-labelledby={`${category.slug}-title`}>
+                <div className="flex items-end justify-between gap-4">
+                  <div className="min-w-0">
+                    <h2
+                      id={`${category.slug}-title`}
+                      className="font-display text-4xl leading-tight text-[#5b3441]"
+                    >
+                      {category.label}
+                    </h2>
+                    <p className="mt-2 text-base leading-7 text-[#7e6970]">
+                      {category.description}
+                    </p>
+                  </div>
                   <Link
-                    href={productHref}
-                    className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#d8788d] to-[#efa4ad] px-6 text-base font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
+                    href={category.href}
+                    className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full bg-white/56 px-4 text-sm font-black text-[#b06072] transition hover:-translate-y-0.5 hover:bg-white"
                   >
-                    Se Elins koll
-                    <ArrowUpRight size={18} aria-hidden="true" />
+                    Se alla
+                    <ArrowUpRight size={16} aria-hidden="true" />
                   </Link>
-                  <a
-                    href={product.amazonUrl}
-                    target="_blank"
-                    rel="sponsored nofollow noopener noreferrer"
-                    className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full border border-[#d98a99] bg-white/58 px-6 text-base font-black text-[#b06072] transition hover:-translate-y-0.5 hover:bg-white"
-                  >
-                    Amazon
-                    <ArrowUpRight size={18} aria-hidden="true" />
-                  </a>
                 </div>
-              </div>
-            </article>
+
+                <div className="mt-6 grid w-full gap-8">
+                  {categoryProducts.map((product) => (
+                    <ProductCard key={product.slug} product={product} />
+                  ))}
+                </div>
+              </section>
             );
           })}
-        </section>
-
-        <nav
-          aria-label="Primär navigering"
-          className="fixed bottom-4 left-4 right-auto z-20 grid w-[calc(100%-2rem)] max-w-[22.5rem] grid-cols-4 rounded-full border border-[#efc6cc] bg-white/76 p-2 shadow-[0_18px_60px_rgba(122,71,83,0.18)] backdrop-blur-2xl sm:left-1/2 sm:max-w-[39rem] sm:-translate-x-1/2"
-        >
-          {navItems.map((item, index) => {
-            const Icon = item.icon;
-
-            return (
-              <Link
-                key={item.label}
-                href={index === 0 ? "/" : "#content"}
-                className={`flex min-h-14 items-center justify-center gap-2 rounded-full px-2 text-sm font-semibold transition ${
-                  index === 0
-                    ? "bg-[#ffe4e8] text-[#6b3d4a]"
-                    : "text-[#8b737a] hover:bg-[#fff1f3] hover:text-[#6b3d4a]"
-                }`}
-              >
-                <Icon size={20} aria-hidden="true" />
-                <span className="hidden min-[430px]:inline">{item.label}</span>
-              </Link>
-            );
-          })}
-        </nav>
+        </div>
       </section>
     </main>
   );
