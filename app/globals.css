@@ -35,6 +35,16 @@ body {
   font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
+.mobile-bottom-nav {
+  bottom: calc(1rem + env(safe-area-inset-bottom));
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-bottom: calc(6.75rem + env(safe-area-inset-bottom));
+  }
+}
+
 a {
   text-decoration: none;
 }

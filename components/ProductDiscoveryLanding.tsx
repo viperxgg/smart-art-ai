@@ -79,8 +79,9 @@ export function ProductDiscoveryLanding() {
           </h1>
 
           <p className="mx-auto mt-7 max-w-[33rem] text-balance px-1 text-lg leading-8 text-[#7e6970] sm:text-xl sm:leading-9">
-            Produkter från TikTok-flödet, nedskalade till det viktigaste:
-            varför de känns intressanta, när de passar och var du kan läsa mer.
+            Handplockade produkter, utvalda efter en enkel princip: mest värde
+            för pengarna. Inte allt som hypas på TikTok - bara det som faktiskt
+            är värt det.
           </p>
         </div>
 

@@ -322,10 +322,112 @@ export const bdbkmgMassagepistolProduct: Product = {
   comments: [],
 };
 
+export const remingtonS8540Product: Product = {
+  slug: "remington-s8540-plattang",
+  title: "Remington S8540 Keratin Protect",
+  category: "skonhet",
+  asin: "REMINGTON_S8540",
+  brand: "Remington",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/hair-straighteners/remington-s8540.svg",
+  imageAlt: "Remington S8540 plattång i mjuk rosa miljö",
+  images: [
+    {
+      src: "/products/hair-straighteners/remington-s8540.svg",
+      alt: "Remington S8540 plattång i mjuk rosa miljö",
+      label: "S8540",
+    },
+    {
+      src: "/products/hair-straighteners/remington-s8540-detail.svg",
+      alt: "Detaljbild som visar fullstor plattång",
+      label: "Fullstorlek",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4om1013",
+  pageHref: "/skonhet/plattang/remington-s8540",
+  summary:
+    "Ett känt märke som skyddar håret till ett vänligt pris: keramik, keratin och 9 värmelägen.",
+  evaluation: {
+    headline: "Prisvärt vardagsval",
+    intro:
+      "Remington S8540 passar dig som vill ha märkeskänsla, hårskydd och flera värmelägen för hemmabruk.",
+    verdict:
+      "Ett tryggt, prisvärt vardagsval för alla hårtyper.",
+    checks: [],
+  },
+  specSectionEyebrow: "Plattång",
+  specSectionTitle: "Remington S8540",
+  specs: [],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4om1013",
+    ratingSummary: "4,5/5 baserat på 21 473 omdömen på Amazon.",
+    highlights: [],
+    cautions: [],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const remingtonMiniS2880Product: Product = {
+  slug: "remington-mini-s2880-plattang",
+  title: "Remington Mini S2880 On The Go",
+  category: "skonhet",
+  asin: "REMINGTON_S2880",
+  brand: "Remington",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/hair-straighteners/remington-mini-s2880.svg",
+  imageAlt: "Remington Mini S2880 kompakt plattång för resa",
+  images: [
+    {
+      src: "/products/hair-straighteners/remington-mini-s2880.svg",
+      alt: "Remington Mini S2880 kompakt plattång för resa",
+      label: "Mini S2880",
+    },
+    {
+      src: "/products/hair-straighteners/remington-mini-travel.svg",
+      alt: "Kompakt reseplattång med mjuk rosa bakgrund",
+      label: "Resa",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3RSmpDd",
+  pageHref: "/skonhet/plattang/remington-mini-s2880",
+  summary:
+    "Riktigt smidig plattång för en låg peng: ultralätt, kompakt och enkel att ta med.",
+  evaluation: {
+    headline: "Smart litet fynd",
+    intro:
+      "Mini S2880 passar dig som reser, har lugg eller vill fixa kort hår snabbt utan fullstor plattång.",
+    verdict:
+      "Ett smart litet fynd för resan och snabba fix.",
+    checks: [],
+  },
+  specSectionEyebrow: "Plattång",
+  specSectionTitle: "Remington Mini S2880",
+  specs: [],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3RSmpDd",
+    ratingSummary: "4,1/5 baserat på 4 050 omdömen på Amazon.",
+    highlights: [],
+    cautions: [],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   beurerMassagepistolProduct,
   bdbkmgMassagepistolProduct,
+  remingtonS8540Product,
+  remingtonMiniS2880Product,
 ] as const;
 
 export const productCategories: readonly ProductCategory[] = [
@@ -345,7 +447,7 @@ export const productCategories: readonly ProductCategory[] = [
     slug: "skonhet",
     label: "Skönhet",
     href: "/skonhet",
-    description: "Skönhetsval kommer när Elin lägger till rätt produkter.",
+    description: "Prisvärda skönhetsval för hår, vardag och smarta rutiner.",
   },
 ];
 
