@@ -1,21 +1,33 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, HeartPulse, Home, Sparkles } from "lucide-react";
 
+import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { JsonLd } from "@/components/JsonLd";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import { massagepistolPicks } from "@/lib/massagepistol";
+import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "Hälsa | Elins val",
-  },
+export const metadata = createSeoMetadata({
+  title: "Hälsa | Elins val",
   description:
     "Elins val inom hälsa, återhämtning och vardagsprodukter som är lätta att förstå och faktiskt kan passa in hemma.",
-  alternates: {
-    canonical: `${siteConfig.url}/halsa`,
+  url: `${siteConfig.url}/halsa`,
+  image: {
+    url: `${siteConfig.url}${massagepistolPicks[0].product.image}`,
+    width: 1024,
+    height: 1024,
+    alt: massagepistolPicks[0].product.imageAlt,
   },
-};
+});
+
+const breadcrumbItems = [
+  { name: "Hem", href: "/" },
+  { name: "Hälsa", href: "/halsa" },
+];
+
+const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
 
 export default function HalsaHubPage() {
   return (
@@ -23,7 +35,12 @@ export default function HalsaHubPage() {
       id="content"
       className="min-h-screen bg-[#FFF9F7] px-4 py-8 text-[#3E2F3A]"
     >
+      <JsonLd data={breadcrumbSchema} />
+
       <div className="mx-auto w-full max-w-5xl">
+        <div className="mb-5">
+          <Breadcrumbs items={breadcrumbItems} />
+        </div>
         <Link
           href="/"
           className="inline-flex min-h-11 items-center gap-2 rounded-full text-sm font-bold text-[#6b4755] transition hover:text-[#B983A6]"
@@ -142,6 +159,21 @@ export default function HalsaHubPage() {
             </div>
           </div>
         </section>
+
+        <RelatedLinks
+          links={[
+            {
+              href: "/traning/traningsband-naturlatex",
+              label: "Träning",
+              text: "Läs Elins genomgång av träningsband i naturlatex.",
+            },
+            {
+              href: "/traning",
+              label: "Hemmaträning",
+              text: "Se fler enkla val för träning som faktiskt får plats hemma.",
+            },
+          ]}
+        />
       </div>
     </main>
   );

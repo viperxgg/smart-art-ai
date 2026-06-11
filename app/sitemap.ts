@@ -23,6 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
     {
+      url: `${siteConfig.url}/cookies`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
+    {
       url: `${siteConfig.url}/traning`,
       lastModified: new Date(),
       changeFrequency: "weekly",

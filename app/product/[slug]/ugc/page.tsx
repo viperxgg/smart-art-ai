@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, MessageCircle, PlayCircle } from "lucide-react";
 import { notFound } from "next/navigation";
 
+import { createSeoMetadata } from "@/lib/metadata";
 import { genericProductPages, getListedProductBySlug } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
@@ -26,37 +27,26 @@ export async function generateMetadata({
   const description =
     "Korta praktiska videor som visar hur produkten kan användas i vardagen innan kunden går vidare till Amazon.";
 
-  return {
+  const image = product.ugcVideos[0]
+    ? {
+        url: `${siteConfig.url}${product.ugcVideos[0].poster}`,
+        width: 720,
+        height: 1280,
+        alt: product.ugcVideos[0].title,
+      }
+    : {
+        url: `${siteConfig.url}${product.image}`,
+        width: 1024,
+        height: 1024,
+        alt: product.imageAlt,
+      };
+
+  return createSeoMetadata({
     title,
     description,
-    alternates: {
-      canonical: `${siteConfig.url}/product/${product.slug}/ugc`,
-    },
-    openGraph: {
-      title,
-      description,
-      url: `${siteConfig.url}/product/${product.slug}/ugc`,
-      siteName: siteConfig.name,
-      type: "video.other",
-      images: product.ugcVideos[0]
-        ? [
-            {
-              url: `${siteConfig.url}${product.ugcVideos[0].poster}`,
-              width: 720,
-              height: 1280,
-              alt: product.ugcVideos[0].title,
-            },
-          ]
-        : [
-            {
-              url: `${siteConfig.url}${product.image}`,
-              width: 1200,
-              height: 900,
-              alt: product.imageAlt,
-            },
-          ],
-    },
-  };
+    url: `${siteConfig.url}/product/${product.slug}/ugc`,
+    image,
+  });
 }
 
 export async function generateStaticParams() {
@@ -102,7 +92,7 @@ export default async function ProductUgcPage({ params }: ProductUgcPageProps) {
               <a
                 href={product.amazonUrl}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored nofollow noopener noreferrer"
                 className="primary-action"
               >
                 Se på Amazon

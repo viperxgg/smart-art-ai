@@ -5,6 +5,7 @@ import { ArrowLeft, ShieldCheck } from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { ReviewForm } from "@/components/ReviewForm";
+import { createSeoMetadata } from "@/lib/metadata";
 import { genericProductPages, getListedProductBySlug } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
@@ -24,14 +25,18 @@ export async function generateMetadata({
     return {};
   }
 
-  return {
+  return createSeoMetadata({
     title: `Lämna kommentar om ${product.title}`,
     description:
       "Lämna en ärlig kommentar om produkten och hjälp andra att förstå om den passar dem.",
-    alternates: {
-      canonical: `${siteConfig.url}/review/${product.slug}`,
+    url: `${siteConfig.url}/review/${product.slug}`,
+    image: {
+      url: `${siteConfig.url}${product.image}`,
+      width: 1024,
+      height: 1024,
+      alt: product.imageAlt,
     },
-  };
+  });
 }
 
 export async function generateStaticParams() {

@@ -17,11 +17,12 @@ export const metadata: Metadata = {
     url: siteConfig.url,
     siteName: siteConfig.name,
     type: "website",
+    locale: "sv_SE",
     images: [
       {
         url: `${siteConfig.url}${featuredProduct.image}`,
-        width: 1200,
-        height: 900,
+        width: 1024,
+        height: 1024,
         alt: featuredProduct.imageAlt,
       },
     ],

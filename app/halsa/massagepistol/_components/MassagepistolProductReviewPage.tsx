@@ -8,9 +8,11 @@ import {
   TriangleAlert,
 } from "lucide-react";
 
+import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import {
   massagepistolComparisonRows,
@@ -66,6 +68,13 @@ export async function MassagepistolProductReviewPage({
 }: MassagepistolProductReviewPageProps) {
   const approvedReviews = await getApprovedReviews(pick.product.slug);
   const productSchema = buildProductSchema(pick);
+  const breadcrumbItems = [
+    { name: "Hem", href: "/" },
+    { name: "Hälsa", href: "/halsa" },
+    { name: "Massagepistol", href: "/halsa/massagepistol" },
+    { name: pick.product.title, href: pick.path },
+  ];
+  const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
 
   return (
     <main
@@ -74,8 +83,12 @@ export async function MassagepistolProductReviewPage({
     >
       <JsonLd data={productSchema} />
       <JsonLd data={faqSchema} />
+      <JsonLd data={breadcrumbSchema} />
 
       <div className="mx-auto w-full max-w-5xl">
+        <div className="mb-5">
+          <Breadcrumbs items={breadcrumbItems} />
+        </div>
         <header className="flex items-center justify-between gap-4">
           <Link
             href="/halsa/massagepistol"
@@ -302,6 +315,21 @@ export async function MassagepistolProductReviewPage({
             formId={pick.reviewFormId}
           />
         </section>
+
+        <RelatedLinks
+          links={[
+            {
+              href: otherPick.path,
+              label: "Jämför",
+              text: `Se hur ${otherPick.product.title} skiljer sig från den här modellen.`,
+            },
+            {
+              href: "/traning/traningsband-naturlatex",
+              label: "Träning",
+              text: "Ett enkelt träningsval om du vill kombinera återhämtning med hemmaträning.",
+            },
+          ]}
+        />
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <h2 className="font-display text-3xl text-[#4B2838]">

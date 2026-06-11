@@ -65,7 +65,7 @@ export function ProductImageGallery({ images }: { images: ProductImage[] }) {
           >
             <Image
               src={image.src}
-              alt=""
+              alt={`Miniatyr: ${image.alt}`}
               fill
               sizes="72px"
               className="object-cover"

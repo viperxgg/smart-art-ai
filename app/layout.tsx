@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 
 import { JsonLd } from "@/components/JsonLd";
+import { SiteFooter } from "@/components/SiteFooter";
+import { defaultOgImage } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
@@ -36,6 +38,21 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: siteConfig.url,
+  },
+  openGraph: {
+    title: siteConfig.title,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    siteName: siteConfig.name,
+    type: "website",
+    locale: "sv_SE",
+    images: [defaultOgImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.title,
+    description: siteConfig.description,
+    images: [defaultOgImage.url],
   },
   robots: {
     index: true,
@@ -74,10 +91,11 @@ export default function RootLayout({
     <html lang="sv" className={`${inter.variable} ${playfair.variable}`}>
       <body>
         <a className="skip-link" href="#content">
-          Skip to content
+          Hoppa till innehåll
         </a>
         <JsonLd data={websiteSchema} />
         {children}
+        <SiteFooter />
       </body>
     </html>
   );

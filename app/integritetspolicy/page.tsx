@@ -1,17 +1,15 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, ShieldCheck } from "lucide-react";
 
+import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata = createSeoMetadata({
   title: "Integritetspolicy | Elins val",
   description:
     "Hur Smart Art AI hanterar personuppgifter, recensioner och affiliatelänkar på Elins val.",
-  alternates: {
-    canonical: `${siteConfig.url}/integritetspolicy`,
-  },
-};
+  url: `${siteConfig.url}/integritetspolicy`,
+});
 
 export default function PrivacyPolicyPage() {
   return (
@@ -65,11 +63,42 @@ export default function PrivacyPolicyPage() {
 
             <article className="rounded-3xl bg-[#FFF4F5] p-5">
               <h2 className="font-display text-2xl text-[#4B2838]">
+                Formulärskydd och cookies
+              </h2>
+              <p className="mt-3 leading-7 text-[#6f5a64]">
+                Vi använder inte annonseringspixlar eller analyscookies i koden
+                i dag. Om Cloudflare Turnstile är aktiverat laddas det på
+                recensionsformulär som en strikt nödvändig anti-spam-tjänst för
+                att minska spam och kontrollera att formuläret skickas av en
+                människa. Det är den enda tredjepartstjänst som kan sätta en
+                cookie på sidan, och eftersom webbplatsen bara använder
+                nödvändiga funktioner behövs ingen samtyckesbanner.
+              </p>
+              <p className="mt-3 leading-7 text-[#6f5a64]">
+                Vid recensioner kan IP-adressen behandlas tillfälligt för att
+                skapa en hash som används för rate limiting. Vi sparar inte
+                IP-adressen i klartext i recensionsraden.
+              </p>
+            </article>
+
+            <article className="rounded-3xl bg-[#FFF4F5] p-5">
+              <h2 className="font-display text-2xl text-[#4B2838]">
                 Affiliatelänkar
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">
                 Vissa länkar går till Amazon och kan ge Smart Art AI provision
                 om du handlar via länken. Detta påverkar inte priset för dig.
+              </p>
+            </article>
+
+            <article className="rounded-3xl bg-[#FFF4F5] p-5">
+              <h2 className="font-display text-2xl text-[#4B2838]">
+                Dina rättigheter
+              </h2>
+              <p className="mt-3 leading-7 text-[#6f5a64]">
+                Du kan kontakta oss för att begära information, rättelse eller
+                radering av uppgifter kopplade till en recension. Vi säljer inte
+                dina uppgifter vidare.
               </p>
             </article>
           </div>

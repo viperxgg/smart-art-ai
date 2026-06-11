@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -9,10 +8,13 @@ import {
   TriangleAlert,
 } from "lucide-react";
 
+import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
+import { createSeoMetadata } from "@/lib/metadata";
 import { featuredProduct } from "@/lib/products";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
 import { siteConfig } from "@/lib/site";
@@ -96,32 +98,29 @@ const moments = ["Hemma", "Gymmet", "Morgonpasset", "Yoga, pilates & rehab"];
 const valueCaveat =
   "Banden levereras vakuumförpackade så små märken kan förekomma, och en mycket van lyftare vill kanske kombinera två band - men för priset är det svårt att klaga.";
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "Träningsband i naturlatex – 4 motståndsnivåer | Elins val",
+const breadcrumbItems = [
+  { name: "Hem", href: "/" },
+  { name: "Träning", href: "/traning" },
+  {
+    name: "Träningsband i naturlatex",
+    href: "/traning/traningsband-naturlatex",
   },
+];
+
+const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
+
+export const metadata = createSeoMetadata({
+  title: "Träningsband i naturlatex – 4 motståndsnivåer | Elins val",
   description:
     "Elin har gått igenom hundratals omdömen och TikTok-reaktioner – här är den ärliga sammanfattningen om träningsband i naturlatex med fyra motståndsnivåer.",
-  alternates: {
-    canonical: pageUrl,
+  url: pageUrl,
+  image: {
+    url: pageImage,
+    width: 1024,
+    height: 1024,
+    alt: "Träningsband i naturlatex för hemmaträning",
   },
-  openGraph: {
-    title: "Träningsband i naturlatex – 4 motståndsnivåer | Elins val",
-    description:
-      "Elins ärliga genomgång av WuGU träningsband i naturlatex med fyra motståndsnivåer.",
-    url: pageUrl,
-    siteName: siteConfig.name,
-    type: "article",
-    images: [
-      {
-        url: pageImage,
-        width: 1500,
-        height: 1500,
-        alt: "Träningsband i naturlatex för hemmaträning",
-      },
-    ],
-  },
-};
+});
 
 export const revalidate = 300;
 
@@ -136,8 +135,12 @@ export default async function TraningBandReviewPage() {
     >
       <JsonLd data={productSchema} />
       <JsonLd data={faqSchema} />
+      <JsonLd data={breadcrumbSchema} />
 
       <div className="mx-auto w-full max-w-5xl">
+        <div className="mb-5">
+          <Breadcrumbs items={breadcrumbItems} />
+        </div>
         <header className="flex items-center justify-between gap-4">
           <Link
             href="/traning"
@@ -327,6 +330,21 @@ export default async function TraningBandReviewPage() {
             turnstileSiteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
           />
         </section>
+
+        <RelatedLinks
+          links={[
+            {
+              href: "/traning",
+              label: "Fler träningsval",
+              text: "Tillbaka till Elins samlade produkter för enkel hemmaträning.",
+            },
+            {
+              href: "/halsa/massagepistol",
+              label: "Återhämtning",
+              text: "Jämför massagepistoler om du vill komplettera träningen med återhämtning.",
+            },
+          ]}
+        />
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <h2 className="font-display text-3xl text-[#4B2838]">

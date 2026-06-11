@@ -1,17 +1,15 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, Heart, Sparkles } from "lucide-react";
 
+import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata = createSeoMetadata({
   title: "Om oss | Elins val",
   description:
     "Elins val samlar personligt utvalda produkter från TikTok-flödet med enkel, ärlig och vardagsnära produktkoll.",
-  alternates: {
-    canonical: `${siteConfig.url}/om-oss`,
-  },
-};
+  url: `${siteConfig.url}/om-oss`,
+});
 
 export default function AboutPage() {
   return (

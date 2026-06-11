@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -9,12 +8,15 @@ import {
   SlidersHorizontal,
 } from "lucide-react";
 
+import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import {
   massagepistolComparisonRows,
   massagepistolFaqItems,
   massagepistolPicks,
 } from "@/lib/massagepistol";
+import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/halsa/massagepistol`;
@@ -32,24 +34,26 @@ const faqSchema = {
   })),
 };
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "Massagepistol - Elins guide till rätt val 2026 | Elins val",
-  },
+export const metadata = createSeoMetadata({
+  title: "Massagepistol - Elins guide till rätt val 2026 | Elins val",
   description:
     "En kort guide till massagepistol: hur du väljer mellan ett tryggt märkesval och ett kraftfullt prisvärt alternativ.",
-  alternates: {
-    canonical: pageUrl,
+  url: pageUrl,
+  image: {
+    url: `${siteConfig.url}${massagepistolPicks[0].product.image}`,
+    width: 1024,
+    height: 1024,
+    alt: massagepistolPicks[0].product.imageAlt,
   },
-  openGraph: {
-    title: "Massagepistol - Elins guide till rätt val 2026 | Elins val",
-    description:
-      "Se skillnaden mellan Beurer MG 99 och BDBKMG innan du läser den fulla recensionen.",
-    url: pageUrl,
-    siteName: siteConfig.name,
-    type: "article",
-  },
-};
+});
+
+const breadcrumbItems = [
+  { name: "Hem", href: "/" },
+  { name: "Hälsa", href: "/halsa" },
+  { name: "Massagepistol", href: "/halsa/massagepistol" },
+];
+
+const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
 
 export default function MassagepistolHubPage() {
   return (
@@ -58,8 +62,12 @@ export default function MassagepistolHubPage() {
       className="min-h-screen bg-[#FFF9F7] px-4 py-7 text-[#3E2F3A]"
     >
       <JsonLd data={faqSchema} />
+      <JsonLd data={breadcrumbSchema} />
 
       <div className="mx-auto w-full max-w-5xl">
+        <div className="mb-5">
+          <Breadcrumbs items={breadcrumbItems} />
+        </div>
         <header className="flex items-center justify-between gap-4">
           <Link
             href="/halsa"
@@ -204,6 +212,21 @@ export default function MassagepistolHubPage() {
             </div>
           </div>
         </section>
+
+        <RelatedLinks
+          links={[
+            {
+              href: "/traning/traningsband-naturlatex",
+              label: "Träning",
+              text: "Ett enkelt val för hemmaträning med fyra motståndsnivåer.",
+            },
+            {
+              href: "/halsa",
+              label: "Hälsa",
+              text: "Gå tillbaka till Elins samlade hälsoval.",
+            },
+          ]}
+        />
       </div>
     </main>
   );

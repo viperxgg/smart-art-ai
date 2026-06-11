@@ -1,21 +1,33 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Dumbbell, Heart, Home } from "lucide-react";
 
+import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { JsonLd } from "@/components/JsonLd";
+import { RelatedLinks } from "@/components/RelatedLinks";
+import { createSeoMetadata } from "@/lib/metadata";
 import { featuredProduct } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "Träning hemma | Elins val",
-  },
+export const metadata = createSeoMetadata({
+  title: "Träning hemma | Elins val",
   description:
     "Elins val inom enkel hemmaträning: produkter som tar lite plats, är lätta att förstå och faktiskt passar i vardagen.",
-  alternates: {
-    canonical: `${siteConfig.url}/traning`,
+  url: `${siteConfig.url}/traning`,
+  image: {
+    url: `${siteConfig.url}${featuredProduct.image}`,
+    width: 1024,
+    height: 1024,
+    alt: featuredProduct.imageAlt,
   },
-};
+});
+
+const breadcrumbItems = [
+  { name: "Hem", href: "/" },
+  { name: "Träning", href: "/traning" },
+];
+
+const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
 
 export default function TraningHubPage() {
   return (
@@ -23,7 +35,12 @@ export default function TraningHubPage() {
       id="content"
       className="min-h-screen bg-[#FFF9F7] px-4 py-8 text-[#3E2F3A]"
     >
+      <JsonLd data={breadcrumbSchema} />
+
       <div className="mx-auto w-full max-w-5xl">
+        <div className="mb-5">
+          <Breadcrumbs items={breadcrumbItems} />
+        </div>
         <Link
           href="/"
           className="inline-flex min-h-11 items-center gap-2 rounded-full text-sm font-bold text-[#6b4755] transition hover:text-[#B983A6]"
@@ -100,6 +117,21 @@ export default function TraningHubPage() {
             </div>
           </div>
         </section>
+
+        <RelatedLinks
+          links={[
+            {
+              href: "/halsa/massagepistol",
+              label: "Återhämtning",
+              text: "Jämför två massagepistoler för hemmabruk och återhämtning.",
+            },
+            {
+              href: "/halsa",
+              label: "Hälsa",
+              text: "Se fler produkter inom hälsa, välmående och vardagsrutiner.",
+            },
+          ]}
+        />
       </div>
     </main>
   );

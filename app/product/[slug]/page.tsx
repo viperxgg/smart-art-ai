@@ -13,20 +13,19 @@ import {
 } from "lucide-react";
 import { notFound } from "next/navigation";
 
+import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { ProductComments } from "@/components/ProductComments";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import {
   genericProductPages,
   getListedProductBySlug,
   type Product,
 } from "@/lib/products";
-import {
-  getApprovedReviewAggregate,
-  getApprovedReviews,
-  type ReviewAggregate,
-} from "@/lib/reviews/reviews";
+import { getApprovedReviews } from "@/lib/reviews/reviews";
+import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
 type ProductPageProps = {
@@ -101,11 +100,8 @@ function getAmazonQuotes(product: Product) {
   return [];
 }
 
-function buildProductSchema(
-  product: Product,
-  reviewAggregate: ReviewAggregate | null,
-) {
-  const schema: Record<string, unknown> = {
+function buildProductSchema(product: Product) {
+  return {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.title,
@@ -119,18 +115,6 @@ function buildProductSchema(
       priceCurrency: "SEK",
     },
   };
-
-  if (reviewAggregate) {
-    schema.aggregateRating = {
-      "@type": "AggregateRating",
-      ratingValue: reviewAggregate.average,
-      reviewCount: reviewAggregate.count,
-      bestRating: "5",
-      worstRating: "1",
-    };
-  }
-
-  return schema;
 }
 
 export async function generateMetadata({
@@ -143,28 +127,17 @@ export async function generateMetadata({
     return {};
   }
 
-  return {
+  return createSeoMetadata({
     title: `${product.title} | Elins val`,
     description: product.summary,
-    alternates: {
-      canonical: `${siteConfig.url}/product/${product.slug}`,
+    url: `${siteConfig.url}/product/${product.slug}`,
+    image: {
+      url: `${siteConfig.url}${product.image}`,
+      width: 1024,
+      height: 1024,
+      alt: product.imageAlt,
     },
-    openGraph: {
-      title: `${product.title} | Elins val`,
-      description: product.summary,
-      url: `${siteConfig.url}/product/${product.slug}`,
-      siteName: siteConfig.name,
-      type: "article",
-      images: [
-        {
-          url: `${siteConfig.url}${product.image}`,
-          width: 1200,
-          height: 900,
-          alt: product.imageAlt,
-        },
-      ],
-    },
-  };
+  });
 }
 
 export async function generateStaticParams() {
@@ -182,11 +155,14 @@ export default async function ProductPage({ params }: ProductPageProps) {
   }
 
   const story = getProductStory();
-  const [approvedReviews, approvedReviewAggregate] = await Promise.all([
-    getApprovedReviews(product.slug),
-    getApprovedReviewAggregate(product.slug),
-  ]);
-  const productSchema = buildProductSchema(product, approvedReviewAggregate);
+  const approvedReviews = await getApprovedReviews(product.slug);
+  const productSchema = buildProductSchema(product);
+  const breadcrumbItems = [
+    { name: "Hem", href: "/" },
+    { name: "Träning", href: "/traning" },
+    { name: product.title, href: `/product/${product.slug}` },
+  ];
+  const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
   const galleryImages =
     product.images.length > 0
       ? product.images
@@ -198,7 +174,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
       className="min-h-screen max-w-full overflow-hidden bg-[#FFF9F7] px-4 py-7 text-[#3E2F3A]"
     >
       <JsonLd data={productSchema} />
+      <JsonLd data={breadcrumbSchema} />
       <div className="mx-0 w-full max-w-[22rem] min-w-0 sm:mx-auto sm:max-w-6xl">
+        <div className="mb-5">
+          <Breadcrumbs items={breadcrumbItems} />
+        </div>
         <header className="flex min-w-0 items-center justify-between gap-3">
           <Link
             href="/"
@@ -373,6 +353,21 @@ export default async function ProductPage({ params }: ProductPageProps) {
             turnstileSiteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
           />
         </section>
+
+        <RelatedLinks
+          links={[
+            {
+              href: "/traning/traningsband-naturlatex",
+              label: "Ny produktsida",
+              text: "Läs den uppdaterade genomgången med samma produkt i Elins nya format.",
+            },
+            {
+              href: "/halsa/massagepistol",
+              label: "Återhämtning",
+              text: "Jämför massagepistoler om du vill komplettera hemmaträningen.",
+            },
+          ]}
+        />
       </div>
     </main>
   );
