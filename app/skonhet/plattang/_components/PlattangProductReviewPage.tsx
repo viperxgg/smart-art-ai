@@ -41,12 +41,6 @@ function buildProductSchema(pick: PlattangPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Plattång",
-    offers: {
-      "@type": "Offer",
-      url: pick.product.amazonUrl,
-      priceCurrency: "SEK",
-      availability: "https://schema.org/InStock",
-    },
   };
 }
 

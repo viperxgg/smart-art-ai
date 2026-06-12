@@ -109,11 +109,6 @@ function buildProductSchema(product: Product) {
     sku: product.asin,
     image: `${siteConfig.url}${product.image}`,
     description: product.summary,
-    offers: {
-      "@type": "Offer",
-      url: product.amazonUrl,
-      priceCurrency: "SEK",
-    },
   };
 }
 

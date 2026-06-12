@@ -37,12 +37,6 @@ function buildProductSchema(pick: EpilatorPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Epilator",
-    offers: {
-      "@type": "Offer",
-      url: pick.product.amazonUrl,
-      priceCurrency: "SEK",
-      availability: "https://schema.org/InStock",
-    },
   };
 }
 

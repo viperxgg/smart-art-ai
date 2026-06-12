@@ -52,11 +52,6 @@ const productSchema = {
   sku: featuredProduct.asin,
   image: `${siteConfig.url}${featuredProduct.image}`,
   description: featuredProduct.summary,
-  offers: {
-    "@type": "Offer",
-    url: featuredProduct.amazonUrl,
-    priceCurrency: "SEK",
-  },
 };
 
 export default function Home() {

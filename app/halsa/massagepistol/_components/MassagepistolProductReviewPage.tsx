@@ -41,12 +41,6 @@ function buildProductSchema(pick: MassagepistolPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Massagepistol",
-    offers: {
-      "@type": "Offer",
-      url: pick.product.amazonUrl,
-      priceCurrency: "SEK",
-      availability: "https://schema.org/InStock",
-    },
   };
 }
 

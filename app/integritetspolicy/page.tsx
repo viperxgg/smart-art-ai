@@ -63,6 +63,17 @@ export default function PrivacyPolicyPage() {
 
             <article className="rounded-3xl bg-[#FFF4F5] p-5">
               <h2 className="font-display text-2xl text-[#4B2838]">
+                Kontakt och samarbete
+              </h2>
+              <p className="mt-3 leading-7 text-[#6f5a64]">
+                Uppgifter som skickas via kontaktformulär, som e-post och
+                meddelande, används endast för att svara på din förfrågan. De
+                säljs aldrig vidare och raderas på begäran.
+              </p>
+            </article>
+
+            <article className="rounded-3xl bg-[#FFF4F5] p-5">
+              <h2 className="font-display text-2xl text-[#4B2838]">
                 Formulärskydd och cookies
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">

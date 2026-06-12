@@ -42,6 +42,12 @@ export function SiteFooter() {
             >
               Cookies
             </Link>
+            <Link
+              href="/kontakt"
+              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+            >
+              Kontakt
+            </Link>
             <a
               href={`mailto:${siteConfig.email}`}
               className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
