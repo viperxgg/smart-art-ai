@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Camera, Heart, Music2 } from "lucide-react";
+import { ArrowUpRight, Camera, Heart, Mail, Music2 } from "lucide-react";
 
 import { ProductCard } from "@/components/ProductCard";
 import {
@@ -26,6 +26,13 @@ export function ProductDiscoveryLanding() {
           </Link>
 
           <div className="flex shrink-0 items-center gap-2 sm:gap-3">
+            <Link
+              href="/kontakt"
+              className="grid min-h-9 min-w-9 place-items-center rounded-full bg-[#ffe1e4] text-[#7b4656] shadow-[0_16px_40px_rgba(216,131,146,0.16)] transition hover:-translate-y-0.5 sm:min-h-14 sm:min-w-14"
+              aria-label="Kontakta oss"
+            >
+              <Mail size={18} aria-hidden="true" />
+            </Link>
             <a
               href="https://www.instagram.com/elinsorenstyle/"
               target="_blank"
