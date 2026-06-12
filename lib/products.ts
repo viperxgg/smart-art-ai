@@ -681,6 +681,124 @@ export const beurerHc25Product: Product = {
   comments: [],
 };
 
+export const babylissAs126eProduct: Product = {
+  slug: "babyliss-as126e-varmluftsborste",
+  title: "BaByliss AS126E varmluftsborste",
+  category: "skonhet",
+  asin: "BABYLISS_AS126E",
+  brand: "BaByliss",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/hot-air-brushes/babyliss-as126e-thumbnail.png",
+  imageAlt: "BaByliss AS126E varmluftsborste används för volym i håret",
+  images: [
+    {
+      src: "/products/hot-air-brushes/babyliss-as126e-thumbnail.png",
+      alt: "BaByliss AS126E varmluftsborste används för volym i håret",
+      label: "AS126E",
+    },
+    {
+      src: "/products/hot-air-brushes/babyliss-as126e-gallery-1.png",
+      alt: "BaByliss AS126E varmluftsborste med stylingtillbehör",
+      label: "Tillbehör",
+    },
+    {
+      src: "/products/hot-air-brushes/babyliss-as126e-gallery-2.png",
+      alt: "BaByliss AS126E varmluftsborste med tillbehör på badrumsbänk",
+      label: "Detalj",
+    },
+    {
+      src: "/products/hot-air-brushes/babyliss-as126e-gallery-3.png",
+      alt: "BaByliss AS126E varmluftsborste och tillbehör på ljus bakgrund",
+      label: "4-i-1",
+    },
+  ],
+  amazonUrl: "https://amzn.to/49Xp7NQ",
+  pageHref: "/skonhet/varmluftsborste/babyliss-as126e",
+  summary:
+    "En borste, fyra sätt att styla: 4-i-1-varmluftsborste för volym, brushing och enklare formning.",
+  evaluation: {
+    headline: "Elins mångsidiga val",
+    intro:
+      "BaByliss AS126E passar dig som vill ha flera stylingmöjligheter i ett verktyg utan att köpa premiumdyrt.",
+    verdict: "Elins val – mångsidig 4-i-1 för volym och brushing.",
+    checks: [],
+  },
+  specSectionEyebrow: "Varmluftsborste",
+  specSectionTitle: "BaByliss AS126E",
+  specs: [],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/49Xp7NQ",
+    ratingSummary: "Populär modell, högt betyg.",
+    highlights: [],
+    cautions: [],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const remingtonAs7100Product: Product = {
+  slug: "remington-as7100-varmluftsborste",
+  title: "Remington AS7100 varmluftsborste",
+  category: "skonhet",
+  asin: "REMINGTON_AS7100",
+  brand: "Remington",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/hot-air-brushes/remington-as7100-thumbnail.png",
+  imageAlt: "Remington AS7100 varmluftsborste används för att forma kort hår",
+  images: [
+    {
+      src: "/products/hot-air-brushes/remington-as7100-thumbnail.png",
+      alt: "Remington AS7100 varmluftsborste används för att forma kort hår",
+      label: "AS7100",
+    },
+    {
+      src: "/products/hot-air-brushes/remington-as7100-gallery-1.png",
+      alt: "Remington AS7100 varmluftsborste med borsttillbehör på marmorbänk",
+      label: "Tillbehör",
+    },
+    {
+      src: "/products/hot-air-brushes/remington-as7100-gallery-2.png",
+      alt: "Remington AS7100 varmluftsborste hålls på badrumsbänk",
+      label: "Detalj",
+    },
+    {
+      src: "/products/hot-air-brushes/remington-as7100-gallery-3.png",
+      alt: "Remington AS7100 varmluftsborste med extra borsthuvud",
+      label: "2 borstar",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4e3IxTH",
+  pageHref: "/skonhet/varmluftsborste/remington-as7100",
+  summary:
+    "Billigast i klassen och gjord för kort hår, lugg och bob när du vill forma snabbt.",
+  evaluation: {
+    headline: "Budgetvalet för kort hår",
+    intro:
+      "Remington AS7100 passar dig som vill ha ett enkelt och billigt stylingverktyg för kortare hår.",
+    verdict: "Budgetvalet – billigast och bäst på kort hår.",
+    checks: [],
+  },
+  specSectionEyebrow: "Varmluftsborste",
+  specSectionTitle: "Remington AS7100",
+  specs: [],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4e3IxTH",
+    ratingSummary: "Många omdömen, bra betyg för priset.",
+    highlights: [],
+    cautions: [],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const babylissC325eProduct: Product = {
   slug: "babyliss-c325e-locktang",
   title: "BaByliss C325E locktång",
@@ -799,6 +917,8 @@ export const products = [
   braunSilkEpil9Product,
   remingtonProluxeAc9140Product,
   beurerHc25Product,
+  babylissAs126eProduct,
+  remingtonAs7100Product,
   babylissC325eProduct,
   tymoCurlproProduct,
 ] as const;

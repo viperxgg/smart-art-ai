@@ -154,5 +154,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.82,
     },
+    {
+      url: `${siteConfig.url}/skonhet/varmluftsborste`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/varmluftsborste/babyliss-as126e`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/varmluftsborste/remington-as7100`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
   ];
 }

@@ -103,6 +103,22 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 83,
     verdict: "Premiumvalet - effortless för långt och tjockt hår",
   },
+  "babyliss-as126e-varmluftsborste": {
+    value: 25,
+    performance: 23,
+    promise: 20,
+    proven: 12,
+    total: 80,
+    verdict: "Elins val - mångsidig 4-i-1 för volym och brushing",
+  },
+  "remington-as7100-varmluftsborste": {
+    value: 27,
+    performance: 18,
+    promise: 19,
+    proven: 12,
+    total: 76,
+    verdict: "Budgetvalet - billigast och bäst på kort hår",
+  },
 };
 
 export function getEditorialScore(productSlug: string) {
