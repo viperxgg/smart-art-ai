@@ -681,6 +681,114 @@ export const beurerHc25Product: Product = {
   comments: [],
 };
 
+export const babylissC325eProduct: Product = {
+  slug: "babyliss-c325e-locktang",
+  title: "BaByliss C325E locktång",
+  category: "skonhet",
+  asin: "BABYLISS_C325E",
+  brand: "BaByliss",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/curling-irons/babyliss-c325e-thumbnail.png",
+  imageAlt: "BaByliss C325E locktång används för att forma lockar",
+  images: [
+    {
+      src: "/products/curling-irons/babyliss-c325e-gallery-1.png",
+      alt: "BaByliss C325E locktång i rosa och svart design",
+      label: "Produkt",
+    },
+    {
+      src: "/products/curling-irons/babyliss-c325e-gallery-2.png",
+      alt: "BaByliss C325E locktång hålls i badrumsmiljö",
+      label: "Detalj",
+    },
+    {
+      src: "/products/curling-irons/babyliss-c325e-gallery-3.png",
+      alt: "BaByliss C325E locktång på ljus stylingyta",
+      label: "Miljö",
+    },
+  ],
+  amazonUrl: "https://amzn.to/440odN4",
+  pageHref: "/skonhet/locktang/babyliss-c325e",
+  summary:
+    "Stora, fina lockar till ett riktigt lågt pris: keramisk yta, 10 värmelägen och snabb uppvärmning.",
+  evaluation: {
+    headline: "Elins värdeval",
+    intro:
+      "BaByliss C325E passar dig som vill ha klassiska lockar till lågt pris och inte stör dig på lite manuell teknik.",
+    verdict: "Elins val - mest locktång för pengarna.",
+    checks: [],
+  },
+  specSectionEyebrow: "Locktång",
+  specSectionTitle: "BaByliss C325E",
+  specs: [],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/440odN4",
+    ratingSummary: "Marknadens mest sålda locktång, mycket högt betyg.",
+    highlights: [],
+    cautions: [],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const tymoCurlproProduct: Product = {
+  slug: "tymo-curlpro-locktang",
+  title: "TYMO CURLPRO locktång",
+  category: "skonhet",
+  asin: "TYMO_CURLPRO",
+  brand: "TYMO",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/curling-irons/tymo-curlpro-thumbnail.png",
+  imageAlt: "TYMO CURLPRO automatisk locktång används för att locka hår",
+  images: [
+    {
+      src: "/products/curling-irons/tymo-curlpro-gallery-1.png",
+      alt: "TYMO CURLPRO automatisk locktång på ljus stylingyta",
+      label: "Produkt",
+    },
+    {
+      src: "/products/curling-irons/tymo-curlpro-gallery-2.png",
+      alt: "TYMO CURLPRO automatisk locktång i mjuk badrumsmiljö",
+      label: "Detalj",
+    },
+    {
+      src: "/products/curling-irons/tymo-curlpro-gallery-3.png",
+      alt: "TYMO CURLPRO automatisk locktång med hårslinga",
+      label: "Miljö",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4xo0OT5",
+  pageHref: "/skonhet/locktang/tymo-curlpro",
+  summary:
+    "Automatisk locktång för dig som vill ha effortless styling: roterar själv, har anti-tangle och jonteknik.",
+  evaluation: {
+    headline: "Automatiskt premiumval",
+    intro:
+      "TYMO CURLPRO passar dig som vill ha automatiska lockar utan mycket teknik, särskilt för längre eller tjockare hår.",
+    verdict: "Premiumvalet - effortless för långt och tjockt hår.",
+    checks: [],
+  },
+  specSectionEyebrow: "Locktång",
+  specSectionTitle: "TYMO CURLPRO",
+  specs: [],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4xo0OT5",
+    ratingSummary: "Mycket högt betyg, en av de mest sålda.",
+    highlights: [],
+    cautions: [],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   beurerMassagepistolProduct,
@@ -691,6 +799,8 @@ export const products = [
   braunSilkEpil9Product,
   remingtonProluxeAc9140Product,
   beurerHc25Product,
+  babylissC325eProduct,
+  tymoCurlproProduct,
 ] as const;
 
 export const productCategories: readonly ProductCategory[] = [

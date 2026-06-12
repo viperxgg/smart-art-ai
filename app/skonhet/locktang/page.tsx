@@ -1,29 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  ArrowLeft,
-  ArrowUpRight,
-  Sparkles,
-  WandSparkles,
-} from "lucide-react";
+import { ArrowLeft, ArrowUpRight, Sparkles, WandSparkles } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import {
-  plattangComparisonRows,
-  plattangFaqItems,
-  plattangPicks,
-} from "@/lib/plattang";
+  locktangComparisonRows,
+  locktangFaqItems,
+  locktangPicks,
+} from "@/lib/locktang";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
-const pageUrl = `${siteConfig.url}/skonhet/plattang`;
+const pageUrl = `${siteConfig.url}/skonhet/locktang`;
 
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: plattangFaqItems.map((item) => ({
+  mainEntity: locktangFaqItems.map((item) => ({
     "@type": "Question",
     name: item.question,
     acceptedAnswer: {
@@ -33,28 +28,28 @@ const faqSchema = {
   })),
 };
 
-export const metadata = createSeoMetadata({
-  title: "Plattång - Elins guide till bästa valen 2026 | Elins val",
-  description:
-    "Elin har gått igenom omdömen och specifikationer och valt ut två plattänger - en för hemma och alla hårtyper, en smidig för resan. Se vilken som passar dig.",
-  url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${plattangPicks[0].product.image}`,
-    width: 1200,
-    height: 900,
-    alt: plattangPicks[0].product.imageAlt,
-  },
-});
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Skönhet", href: "/skonhet" },
-  { name: "Plattång", href: "/skonhet/plattang" },
+  { name: "Locktång", href: "/skonhet/locktang" },
 ];
 
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
 
-export default function PlattangHubPage() {
+export const metadata = createSeoMetadata({
+  title: "Locktång - Elins guide till bästa valen 2026 | Elins val",
+  description:
+    "Elin jämför två prisvärda locktänger: BaByliss C325E för klassiska lockar till lågt pris och TYMO CURLPRO för automatisk styling.",
+  url: pageUrl,
+  image: {
+    url: `${siteConfig.url}${locktangPicks[0].product.image}`,
+    width: 1200,
+    height: 900,
+    alt: locktangPicks[0].product.imageAlt,
+  },
+});
+
+export default function LocktangHubPage() {
   return (
     <main
       id="content"
@@ -86,12 +81,12 @@ export default function PlattangHubPage() {
             Elins guide 2026
           </p>
           <h1 className="mt-6 max-w-4xl font-display text-5xl leading-[1.02] tracking-[-0.04em] text-[#4B2838] sm:text-7xl">
-            Plattång - två enkla val
+            Locktång - två enkla val
           </h1>
           <p className="mt-6 max-w-3xl text-xl leading-9 text-[#6f5a64]">
-            Elin har gått igenom omdömen och specifikationer och valt ut två
-            tydliga spår: en fullstor plattång för hemma och alla hårtyper, och
-            en liten modell för resa, lugg och snabba fix.
+            Elin har valt två tydliga spår: BaByliss för klassiska lockar och
+            bäst värde, och TYMO när du vill ha automatisk styling som gör mer
+            av jobbet åt dig.
           </p>
           <p className="mt-6 rounded-3xl border border-[#F1D8DD] bg-[#FFF4F5] p-4 text-sm leading-7 text-[#6f5a64]">
             <strong>Annons</strong> · Våra produktsidor innehåller
@@ -110,17 +105,16 @@ export default function PlattangHubPage() {
                 Hur väljer du?
               </h2>
               <p className="mt-4 max-w-3xl text-lg leading-8 text-[#6f5a64]">
-                Vill du ha en plattång för hemma, olika hårtyper och mer
-                temperaturkontroll: börja med Remington S8540. Vill du ha något
-                litet för resan, luggen eller kort hår: Mini S2880 är det
-                smidigare valet.
+                För de flesta är BaByliss det smartaste köpet: låg prislapp,
+                klassisk teknik och fina lockar. Välj TYMO om du hellre vill ha
+                automatisk rotation och slippa tekniken.
               </p>
             </div>
           </div>
         </section>
 
         <section className="mt-8 grid gap-6 md:grid-cols-2">
-          {plattangPicks.map((pick) => (
+          {locktangPicks.map((pick) => (
             <Link
               key={pick.product.slug}
               href={pick.path}
@@ -171,24 +165,24 @@ export default function PlattangHubPage() {
                     Punkt
                   </th>
                   <th className="px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-[#9E5E73]">
-                    Remington S8540
+                    BaByliss C325E
                   </th>
                   <th className="px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-[#9E5E73]">
-                    Mini S2880
+                    TYMO CURLPRO
                   </th>
                 </tr>
               </thead>
               <tbody>
-                {plattangComparisonRows.map(([label, s8540, mini]) => (
+                {locktangComparisonRows.map(([label, babyliss, tymo]) => (
                   <tr key={label} className="border-b border-[#F1D8DD]">
                     <th className="px-6 py-5 font-black text-[#4B2838]">
                       {label}
                     </th>
                     <td className="px-6 py-5 leading-7 text-[#6f5a64]">
-                      {s8540}
+                      {babyliss}
                     </td>
                     <td className="px-6 py-5 leading-7 text-[#6f5a64]">
-                      {mini}
+                      {tymo}
                     </td>
                   </tr>
                 ))}
@@ -202,18 +196,18 @@ export default function PlattangHubPage() {
             Elins korta dom
           </h2>
           <p className="mt-4 max-w-4xl text-lg leading-8 text-[#6f5a64]">
-            S8540 är det trygga vardagsvalet för hemma och olika hårtyper. Mini
-            S2880 är den smarta lilla modellen när plats, resa och snabba fix är
-            viktigast.
+            För de flesta är BaByliss bäst värde: låg prislapp, enkel teknik
+            och klassiska lockar. Vill du ha automatisk styling och ett mer
+            effortless flöde är TYMO det roligare valet.
           </p>
         </section>
 
         <RelatedLinks
           links={[
             {
-              href: "/skonhet/locktang",
+              href: "/skonhet/plattang",
               label: "Hårstyling",
-              text: "Se Elins locktångsguide i samma hårstyling-kluster.",
+              text: "Se Elins plattångsguide i samma hårstyling-kluster.",
             },
             {
               href: "/skonhet",

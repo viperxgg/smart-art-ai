@@ -87,6 +87,22 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 86,
     verdict: "Det prisvärda rese- och budgetvalet",
   },
+  "babyliss-c325e-locktang": {
+    value: 27,
+    performance: 23,
+    promise: 21,
+    proven: 14,
+    total: 85,
+    verdict: "Elins val - mest locktång för pengarna",
+  },
+  "tymo-curlpro-locktang": {
+    value: 20,
+    performance: 28,
+    promise: 21,
+    proven: 14,
+    total: 83,
+    verdict: "Premiumvalet - effortless för långt och tjockt hår",
+  },
 };
 
 export function getEditorialScore(productSlug: string) {
