@@ -56,6 +56,21 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     badges: ["13 mm komfort", "Bra grepp", "Balans"],
   },
   {
+    slug: "foam-roller",
+    title: "BODYMATE CARE vs Elvire Deep Tissue foam roller",
+    shortTitle: "Foam roller",
+    category: "traning",
+    categoryLabel: "TrÃ¤ning",
+    href: "/traning/foam-roller",
+    description:
+      "En enkel slÃ¤t rulle med ryggrÃ¤nna mot ett komplett texturerat Ã¥terhÃ¤mtningsset.",
+    productSlugs: [
+      "bodymate-foam-roller-care",
+      "elvire-deep-tissue-massageset",
+    ],
+    badges: ["Mest vÃ¤rde", "Komplett set", "Deep-tissue"],
+  },
+  {
     slug: "massagepistol",
     title: "Beurer MG 99 vs BDBKMG massagepistol",
     shortTitle: "Massagepistol",

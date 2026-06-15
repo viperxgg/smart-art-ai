@@ -131,6 +131,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.82,
     },
     {
+      url: `${siteConfig.url}/traning/foam-roller`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/traning/foam-roller/bodymate-care`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/traning/foam-roller/elvire-deep-tissue`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
       url: `${siteConfig.url}/halsa`,
       lastModified: new Date(),
       changeFrequency: "weekly",

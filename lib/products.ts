@@ -1320,6 +1320,140 @@ export const yogatiTpeYogaMatProduct: Product = {
   comments: [],
 };
 
+export const bodymateFoamRollerCareProduct: Product = {
+  slug: "bodymate-foam-roller-care",
+  title: "BODYMATE foam roller CARE",
+  category: "traning",
+  asin: "B089N9Q18W",
+  brand: "BODYMATE",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Mest värde", "Ryggränna", "Fast densitet"],
+  image: "/products/foam-rollers/bodymate-foam-roller-care-thumbnail.webp",
+  imageAlt: "BODYMATE foam roller CARE i svart EPP-skum med ryggränna",
+  images: [
+    {
+      src: "/products/foam-rollers/bodymate-foam-roller-care-thumbnail.webp",
+      alt: "BODYMATE foam roller CARE i svart EPP-skum",
+      label: "Elins val",
+    },
+    {
+      src: "/products/foam-rollers/bodymate-foam-roller-care-gallery-1.webp",
+      alt: "BODYMATE foam roller med centrumränna för ryggraden",
+      label: "Ryggränna",
+    },
+    {
+      src: "/products/foam-rollers/bodymate-foam-roller-care-gallery-2.webp",
+      alt: "BODYMATE foam roller CARE för rygg och återhämtning",
+      label: "Fast",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4fMEcFQ",
+  pageHref: "/traning/foam-roller/bodymate-care",
+  summary:
+    "En enkel, fast foam roller med ryggränna: mest värde om du vill ha en bra rulle för rygg och återhämtning hemma.",
+  evaluation: {
+    headline: "Elins värdeval",
+    intro:
+      "BODYMATE CARE passar dig som vill ha en enda bra rulle, inte ett helt massagekit.",
+    verdict: "Elins val - enkel, fast och prisvärd.",
+    checks: [],
+  },
+  specSectionEyebrow: "Foam roller",
+  specSectionTitle: "BODYMATE CARE",
+  specs: [
+    { label: "Material", caption: "Skum", value: "EPP-skum" },
+    { label: "Storlek", caption: "Längd x diameter", value: "35 x 14 cm" },
+    { label: "Extra", caption: "Rygg", value: "Centrumränna" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4fMEcFQ",
+    ratingSummary:
+      "Amazon visar 4,5 av 5 från 6 324 recensioner och #7 i Foam Rollers.",
+    highlights: [
+      "Köpare beskriver rullen som fast, stabil och tydlig för ryggen.",
+      "Centrumrännan lyfts som en fördel för ryggraden.",
+      "Passar bäst när du vill ha djupare tryck i en enkel slät rulle.",
+    ],
+    cautions: [
+      "Den är ganska hård och kan bli för intensiv om du vill ha något mjukt.",
+      "Ingen förvaringspåse ingår.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const elvireDeepTissueMassageSetProduct: Product = {
+  slug: "elvire-deep-tissue-massageset",
+  title: "Elvire Deep Tissue massageset",
+  category: "traning",
+  asin: "B085XB9HX6",
+  brand: "ELVIRE SPORT",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Komplett set", "Deep-tissue", "Massageboll + fotrulle ingår"],
+  image: "/products/foam-rollers/elvire-deep-tissue-set-thumbnail.webp",
+  imageAlt: "Elvire Deep Tissue massageset med foam roller, boll och fotrulle",
+  images: [
+    {
+      src: "/products/foam-rollers/elvire-deep-tissue-set-thumbnail.webp",
+      alt: "Elvire Deep Tissue massageset med flera återhämtningsverktyg",
+      label: "Set",
+    },
+    {
+      src: "/products/foam-rollers/elvire-deep-tissue-set-gallery-1.webp",
+      alt: "Elvire texturerad foam roller och massageboll",
+      label: "Deep-tissue",
+    },
+    {
+      src: "/products/foam-rollers/elvire-deep-tissue-set-gallery-2.webp",
+      alt: "Elvire massageset med fotmassör och gympapåse",
+      label: "Tillbehör",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3QiZ794",
+  pageHref: "/traning/foam-roller/elvire-deep-tissue",
+  summary:
+    "Ett komplett deep-tissue-set med texturerad rulle, stickrulle, massageboll och fotmassör för dig som vill ha fler verktyg.",
+  evaluation: {
+    headline: "Komplett återhämtningsset",
+    intro:
+      "Elvire passar dig som vill ha mer än en rulle och komma åt fötter, vader och mindre triggerpunkter.",
+    verdict: "Mångsidigt set - men med hållbarhetsreservation.",
+    checks: [],
+  },
+  specSectionEyebrow: "Foam roller-set",
+  specSectionTitle: "Elvire Deep Tissue",
+  specs: [
+    { label: "Material", caption: "Rulle", value: "EVA" },
+    { label: "Typ", caption: "Yta", value: "Texturerad extra-fast" },
+    { label: "Extra", caption: "Set", value: "Boll, stickrulle, fotrulle" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3QiZ794",
+    ratingSummary:
+      "Amazon visar 4,4 av 5 från 2 673 recensioner och #4 i Foam Rollers.",
+    highlights: [
+      "Köpare lyfter värdet i att få flera delar i ett paket.",
+      "Massagebollen och fotrullen gör setet mer mångsidigt än en ensam rulle.",
+      "Den texturerade rullen passar dig som vill ha mer intensiv massage.",
+    ],
+    cautions: [
+      "Några köpare rapporterar att rullen sprack efter ungefär en månad.",
+      "Ytan är hård och taggig, vilket kan vara för intensivt för känsliga användare.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   amazonBasicsKettlebellProduct,
@@ -1328,6 +1462,8 @@ export const products = [
   songmicsDumbbellSetProduct,
   prosourcefitYogaMatProduct,
   yogatiTpeYogaMatProduct,
+  bodymateFoamRollerCareProduct,
+  elvireDeepTissueMassageSetProduct,
   beurerMassagepistolProduct,
   bdbkmgMassagepistolProduct,
   remingtonS8540Product,

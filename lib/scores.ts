@@ -92,6 +92,22 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 83,
     verdict: "Greppvalet fÃ¶r yoga och balans",
   },
+  "bodymate-foam-roller-care": {
+    value: 27,
+    performance: 22,
+    promise: 21,
+    proven: 14,
+    total: 84,
+    verdict: "Elins val - enkel, fast och prisvärd foam roller",
+  },
+  "elvire-deep-tissue-massageset": {
+    value: 24,
+    performance: 23,
+    promise: 20,
+    proven: 13,
+    total: 80,
+    verdict: "Komplett deep-tissue-set med tydlig caveat",
+  },
   "beurer-mg-99-massagepistol": {
     value: 21,
     performance: 22,
