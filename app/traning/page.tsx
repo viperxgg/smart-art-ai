@@ -11,7 +11,9 @@ import {
   featuredProduct,
   proironSoftKettlebellProduct,
   proironNeopreneDumbbellsProduct,
+  prosourcefitYogaMatProduct,
   songmicsDumbbellSetProduct,
+  yogatiTpeYogaMatProduct,
 } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
@@ -144,8 +146,40 @@ export default function TraningHubPage() {
           </div>
         </section>
 
+        <section className="mt-10">
+          <div className="flex items-end justify-between gap-4">
+            <div>
+              <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                Yogamatta
+              </p>
+              <h2 className="mt-2 font-display text-4xl text-[#4B2838]">
+                Mjuk komfort eller bättre grepp?
+              </h2>
+              <p className="mt-3 max-w-2xl text-lg leading-8 text-[#6f5a64]">
+                Elin jämför en extra tjock matta för pilates och golvövningar
+                med en greppigare TPE-matta för yoga och balans.
+              </p>
+            </div>
+            <Link
+              href="/traning/yogamatta"
+              className="hidden min-h-11 shrink-0 items-center rounded-full border border-[#E9CDD3] bg-white/70 px-5 text-sm font-black text-[#9E5E73] transition hover:-translate-y-0.5 hover:bg-white sm:inline-flex"
+            >
+              Se guiden
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-6 md:grid-cols-2">
+            <ProductCard product={prosourcefitYogaMatProduct} />
+            <ProductCard product={yogatiTpeYogaMatProduct} />
+          </div>
+        </section>
+
         <RelatedLinks
           links={[
+            {
+              href: "/traning/yogamatta",
+              label: "Yogamatta",
+              text: "Jämför extra dämpning mot bättre grepp och stabilitet.",
+            },
             {
               href: "/traning/hantlar",
               label: "Hantlar",

@@ -1169,12 +1169,145 @@ export const songmicsDumbbellSetProduct: Product = {
   comments: [],
 };
 
+export const prosourcefitYogaMatProduct: Product = {
+  slug: "prosourcefit-extra-tjock-yogamatta",
+  title: "ProSourceFit extra tjock yoga- och pilatesmatta",
+  category: "traning",
+  asin: "B00FY0GW08",
+  brand: "ProSourceFit",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/yoga-mats/prosourcefit-thick-yoga-mat-thumbnail.webp",
+  imageAlt: "ProSourceFit extra tjock yoga- och pilatesmatta med bärrem",
+  images: [
+    {
+      src: "/products/yoga-mats/prosourcefit-thick-yoga-mat-thumbnail.webp",
+      alt: "ProSourceFit extra tjock yogamatta ihoprullad med bärrem",
+      label: "Elins val",
+    },
+    {
+      src: "/products/yoga-mats/prosourcefit-thick-yoga-mat-gallery-1.webp",
+      alt: "ProSourceFit yogamatta med extra tjock NBR-skumkudde",
+      label: "13 mm",
+    },
+    {
+      src: "/products/yoga-mats/prosourcefit-thick-yoga-mat-gallery-2.webp",
+      alt: "ProSourceFit yoga- och pilatesmatta för golvövningar",
+      label: "Komfort",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4enoyOu",
+  pageHref: "/traning/yogamatta/prosourcefit-13mm",
+  summary:
+    "Extra tjock 13 mm yogamatta för dig som vill ha mer stöd för knän, rygg och golvövningar hemma.",
+  evaluation: {
+    headline: "Elins komfortval",
+    intro:
+      "ProSourceFit passar dig som vill ha en mjukare matta för pilates, stretch och golvövningar där lederna behöver mer dämpning.",
+    verdict: "Elins val - mest komfort för pengarna.",
+    checks: [],
+  },
+  specSectionEyebrow: "Yogamatta",
+  specSectionTitle: "ProSourceFit 13 mm",
+  specs: [
+    { label: "Material", caption: "Skum", value: "High-density NBR" },
+    { label: "Tjocklek", caption: "Komfort", value: "13 mm" },
+    { label: "Storlek", caption: "Längd x bredd", value: "180 x 61 cm" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4enoyOu",
+    ratingSummary:
+      "Amazon visar 4,6 av 5 från 7 461 recensioner och #3 i Yoga Mats.",
+    highlights: [
+      "Köpare lyfter den extra dämpningen för rygg och knän.",
+      "Den tjocka NBR-skummattan passar särskilt bra för pilates och golvövningar.",
+      "Bärrem ingår enligt produktsidan.",
+    ],
+    cautions: [
+      "En mycket tjock och mjuk matta är mindre stabil i stående balanspositioner.",
+      "Skum kan få märken över tid och några köpare rapporterar saknad bärrem vid leverans.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const yogatiTpeYogaMatProduct: Product = {
+  slug: "yogati-tpe-yogamatta",
+  title: "YOGATI yogamatta i TPE",
+  category: "traning",
+  asin: "B07ML1VMPD",
+  brand: "YOGATI",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/yoga-mats/yogati-tpe-yoga-mat-thumbnail.webp",
+  imageAlt: "YOGATI TPE-yogamatta med markeringslinjer och bärrem",
+  images: [
+    {
+      src: "/products/yoga-mats/yogati-tpe-yoga-mat-thumbnail.webp",
+      alt: "YOGATI yogamatta i TPE med markeringslinjer",
+      label: "Grepp",
+    },
+    {
+      src: "/products/yoga-mats/yogati-tpe-yoga-mat-gallery-1.webp",
+      alt: "YOGATI yogamatta med dubbelsidig halkfri yta",
+      label: "Linjer",
+    },
+    {
+      src: "/products/yoga-mats/yogati-tpe-yoga-mat-gallery-2.webp",
+      alt: "YOGATI yogamatta för balanspositioner och yoga hemma",
+      label: "Stabil",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3ScRxgI",
+  pageHref: "/traning/yogamatta/yogati-tpe",
+  summary:
+    "Greppigare TPE-matta med markeringslinjer för dig som gör yoga, balanspositioner och vill ha mer stabilitet.",
+  evaluation: {
+    headline: "Greppvalet för yoga",
+    intro:
+      "YOGATI passar dig som prioriterar grepp, stabilitet och linjer som hjälper kroppen att hamna rätt på mattan.",
+    verdict: "Bästa valet för faktisk yoga och balans.",
+    checks: [],
+  },
+  specSectionEyebrow: "Yogamatta",
+  specSectionTitle: "YOGATI TPE 6 mm",
+  specs: [
+    { label: "Material", caption: "Yta", value: "TPE" },
+    { label: "Tjocklek", caption: "Stabilitet", value: "6 mm" },
+    { label: "Storlek", caption: "Längd x bredd", value: "183 x 61 cm" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3ScRxgI",
+    ratingSummary: "Amazon visar 4,6 av 5 från 5 542 recensioner.",
+    highlights: [
+      "Köpare beskriver mattan som greppig och stabil för balans.",
+      "Markeringslinjerna hjälper positionering vid yoga.",
+      "TPE-materialet är dubbelsidigt halkfritt och mer stabilt än väldigt mjukt skum.",
+    ],
+    cautions: [
+      "En ny TPE-matta kan kännas något hal innan den torkats av eller använts in.",
+      "6 mm är bekvämt men inte lika mjukt som en 13 mm skummatta.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   amazonBasicsKettlebellProduct,
   proironSoftKettlebellProduct,
   proironNeopreneDumbbellsProduct,
   songmicsDumbbellSetProduct,
+  prosourcefitYogaMatProduct,
+  yogatiTpeYogaMatProduct,
   beurerMassagepistolProduct,
   bdbkmgMassagepistolProduct,
   remingtonS8540Product,

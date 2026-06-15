@@ -55,6 +55,22 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 86,
     verdict: "FÃ¤rdigt startset med stÃ¤llning fÃ¶r hemmatrÃ¤ning",
   },
+  "prosourcefit-extra-tjock-yogamatta": {
+    value: 28,
+    performance: 23,
+    promise: 22,
+    proven: 14,
+    total: 87,
+    verdict: "Elins val - mest komfort fÃ¶r pengarna",
+  },
+  "yogati-tpe-yogamatta": {
+    value: 24,
+    performance: 27,
+    promise: 22,
+    proven: 13,
+    total: 86,
+    verdict: "Greppvalet fÃ¶r yoga och balans",
+  },
   "beurer-mg-99-massagepistol": {
     value: 22,
     performance: 23,
