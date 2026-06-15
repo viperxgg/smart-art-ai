@@ -32,6 +32,8 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             sizes="(max-width: 768px) 92vw, 650px"
             className="object-cover transition duration-500 group-hover:scale-[1.025]"
             priority={priority}
+            {...(priority ? {} : { loading: "lazy" as const })}
+            quality={70}
           />
           <span className="absolute left-5 top-5 inline-flex min-h-10 items-center gap-2 rounded-full bg-[#c8919b]/90 px-5 text-sm font-black text-white shadow-[0_14px_34px_rgba(120,60,72,0.2)] backdrop-blur">
             <Heart size={16} fill="currentColor" aria-hidden="true" />

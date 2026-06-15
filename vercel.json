@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "smartartai.se" }],
+      "destination": "https://www.smartartai.se/:path*",
+      "permanent": true
+    }
+  ]
+}

@@ -2,19 +2,25 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: ["127.0.0.1", "localhost", "192.168.8.127"],
+  images: {
+    formats: ["image/avif", "image/webp"],
+    deviceSizes: [640, 768, 1024, 1280],
+    imageSizes: [48, 64, 96, 160, 256, 384, 480],
+    qualities: [66, 70, 72, 75],
+  },
   async redirects() {
     return [
       {
         source: "/",
         has: [{ type: "host", value: "smartartai.se" }],
         destination: "https://www.smartartai.se/",
-        statusCode: 301,
+        statusCode: 308,
       },
       {
         source: "/:path*",
         has: [{ type: "host", value: "smartartai.se" }],
         destination: "https://www.smartartai.se/:path*",
-        statusCode: 301,
+        statusCode: 308,
       },
       {
         source: "/",
