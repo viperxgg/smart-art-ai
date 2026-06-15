@@ -23,6 +23,22 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 84,
     verdict: "Smart förstaval för hemmaträning",
   },
+  "amazon-basics-gjutjarns-kettlebell": {
+    value: 29,
+    performance: 26,
+    promise: 20,
+    proven: 14,
+    total: 89,
+    verdict: "Elins val - mest kettlebell fÃ¶r pengarna",
+  },
+  "proiron-mjuk-kettlebell": {
+    value: 22,
+    performance: 25,
+    promise: 24,
+    proven: 14,
+    total: 85,
+    verdict: "GolvsnÃ¤llt nybÃ¶rjarval fÃ¶r hemmet",
+  },
   "beurer-mg-99-massagepistol": {
     value: 22,
     performance: 23,

@@ -907,8 +907,141 @@ export const tymoCurlproProduct: Product = {
   comments: [],
 };
 
+export const amazonBasicsKettlebellProduct: Product = {
+  slug: "amazon-basics-gjutjarns-kettlebell",
+  title: "Amazon Basics gjutjärns-kettlebell",
+  category: "traning",
+  asin: "B076QJY2FN",
+  brand: "Amazon Basics",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/kettlebells/amazon-basics-kettlebell-thumbnail.webp",
+  imageAlt: "Amazon Basics svart gjutjärns-kettlebell",
+  images: [
+    {
+      src: "/products/kettlebells/amazon-basics-kettlebell-thumbnail.webp",
+      alt: "Amazon Basics svart gjutjärns-kettlebell framifrån",
+      label: "Elins val",
+    },
+    {
+      src: "/products/kettlebells/amazon-basics-kettlebell-gallery-1.webp",
+      alt: "Amazon Basics gjutjärns-kettlebell med texturerat handtag",
+      label: "Handtag",
+    },
+    {
+      src: "/products/kettlebells/amazon-basics-kettlebell-gallery-2.webp",
+      alt: "Amazon Basics kettlebell i produktvy",
+      label: "Gjutjärn",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4fM64tv",
+  pageHref: "/traning/kettlebell/amazon-basics",
+  summary:
+    "Mest kettlebell för pengarna: solid gjutjärnskänsla, flera vikter och ett beprövat basval för riktig hemmaträning.",
+  evaluation: {
+    headline: "Elins värdeval",
+    intro:
+      "Amazon Basics passar dig som vill ha en enkel, tålig kettlebell utan mjuka premiumdetaljer eller onödigt hög prislapp.",
+    verdict: "Elins val - mest kettlebell för pengarna.",
+    checks: [],
+  },
+  specSectionEyebrow: "Kettlebell",
+  specSectionTitle: "Amazon Basics gjutjärn",
+  specs: [
+    { label: "Material", caption: "Kropp", value: "Solid gjutjärn" },
+    { label: "Vikter", caption: "Varianter", value: "6/10/12/16/20 kg" },
+    { label: "Grepp", caption: "Handtag", value: "Texturerat och målat" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4fM64tv",
+    ratingSummary:
+      "Amazon visar 4,7 av 5 från 12 275 recensioner och #1 Best Seller i Kettlebells.",
+    highlights: [
+      "Köpare lyfter kvaliteten och värdet för pengarna.",
+      "Flera beskriver den som liten, tät och enkel att förstå.",
+      "Passar bäst när hållbarhet och träningskänsla går före mjuk yta.",
+    ],
+    cautions: [
+      "Gjutjärn är hårt mot golv och tår.",
+      "En köpare rapporterar lackskada på handtaget vid leverans.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const proironSoftKettlebellProduct: Product = {
+  slug: "proiron-mjuk-kettlebell",
+  title: "PROIRON mjuk kettlebell",
+  category: "traning",
+  asin: "B09BDQK6G4",
+  brand: "PROIRON",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/kettlebells/proiron-soft-kettlebell-thumbnail.webp",
+  imageAlt: "PROIRON mjuk kettlebell med svart handtag",
+  images: [
+    {
+      src: "/products/kettlebells/proiron-soft-kettlebell-thumbnail.webp",
+      alt: "PROIRON mjuk kettlebell framifrån",
+      label: "Mjuk",
+    },
+    {
+      src: "/products/kettlebells/proiron-soft-kettlebell-gallery-1.webp",
+      alt: "PROIRON mjuk kettlebell med grepp och mjuk kropp",
+      label: "Grepp",
+    },
+    {
+      src: "/products/kettlebells/proiron-soft-kettlebell-gallery-2-optimized.webp",
+      alt: "PROIRON mjuk kettlebell för hemmaträning",
+      label: "Hemma",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3S7YmjG",
+  pageHref: "/traning/kettlebell/proiron-mjuk",
+  summary:
+    "Mjukare, tystare och snällare mot golv: ett smart val för lägenhet, nybörjare och hem med barn eller husdjur.",
+  evaluation: {
+    headline: "Det golvsnälla valet",
+    intro:
+      "PROIRON passar dig som hellre skyddar golv och tår än maxar kilo per krona.",
+    verdict: "Tryggt nybörjarval - särskilt i lägenhet.",
+    checks: [],
+  },
+  specSectionEyebrow: "Kettlebell",
+  specSectionTitle: "PROIRON mjuk kettlebell",
+  specs: [
+    { label: "Material", caption: "Kropp", value: "PVC + järnsand" },
+    { label: "Vikter", caption: "Varianter", value: "2/4/6/8/10 kg" },
+    { label: "Extra", caption: "Hemma", value: "Tystare och golvsnäll" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3S7YmjG",
+    ratingSummary: "Amazon visar 4,6 av 5 från 1 185 recensioner.",
+    highlights: [
+      "Köpare uppskattar att den inte skadar golvet.",
+      "Den mjuka kroppen gör den tryggare i hem med barn och husdjur.",
+      "Passar när ljudnivå och säkerhet väger tyngre än lägsta pris per kilo.",
+    ],
+    cautions: [
+      "Det är PVC och järnsand, inte gjutjärn.",
+      "Den kostar mer per kilo än enklare gjutjärnsalternativ.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
+  amazonBasicsKettlebellProduct,
+  proironSoftKettlebellProduct,
   beurerMassagepistolProduct,
   bdbkmgMassagepistolProduct,
   remingtonS8540Product,
