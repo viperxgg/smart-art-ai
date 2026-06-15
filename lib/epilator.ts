@@ -51,6 +51,7 @@ export const epilatorFaqItems = [
 ];
 
 export const epilatorComparisonRows = [
+  ["Snabba signaler", "Wet/Dry; Sladdlös; Brett huvud", "Premiumval; MicroGrip; Många tillbehör"],
   ["Bäst för", "Mest för pengarna (Elins val)", "Premium – det yppersta"],
   ["Pincetter", "60", "40 MicroGrip (fångar 0,5 mm)"],
   ["Wet/Dry", "Ja", "Ja"],
@@ -60,7 +61,7 @@ export const epilatorComparisonRows = [
     "Massagerulle, pivoterande huvud, lady shaver-huvud, 5 års garanti",
   ],
   ["Pris", "Lägre", "Högre"],
-  ["Elins poäng", "87/100", "84/100"],
+  ["Elins poäng", "84/100", "81/100"],
 ] as const;
 
 export const epilatorPicks: EpilatorPick[] = [

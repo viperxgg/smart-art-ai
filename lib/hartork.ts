@@ -51,6 +51,7 @@ export const hartorkFaqItems = [
 ];
 
 export const hartorkComparisonRows = [
+  ["Snabba signaler", "Resvänlig; Hopfällbar; Budgetval", "2400 W; AC-motor; Salongskänsla hemma"],
   ["Bäst för", "Budget & resa", "Salongskvalitet (Elins val)"],
   ["Effekt", "1600 W", "2400 W AC-motor"],
   ["Vikt", "430 g", "580 g"],
@@ -59,7 +60,7 @@ export const hartorkComparisonRows = [
     "Hopfällbar, internationell spänning",
     "3 munstycken, jon, 3 m sladd, diffusor",
   ],
-  ["Elins poäng", "86/100", "95/100"],
+  ["Elins poäng", "80/100", "88/100"],
 ] as const;
 
 export const hartorkPicks: HartorkPick[] = [

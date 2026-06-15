@@ -51,6 +51,7 @@ export const kettlebellFaqItems = [
 ];
 
 export const kettlebellComparisonRows = [
+  ["Snabba signaler", "Mest värde; Tusentals omdömen; Solid gjutjärn", "Golvvänligt; Tystare hemma; Bäst för nybörjare"],
   [
     "Bäst för",
     "Bäst värde, hållbar träning (Elins val)",
@@ -60,10 +61,10 @@ export const kettlebellComparisonRows = [
   ["Vikter", "6/10/12/16/20 kg", "2/4/6/8/10 kg"],
   [
     "Extra",
-    "#1 Best Seller i Kettlebells, texturerat handtag",
+    "Tusentals omdömen, texturerat handtag",
     "Tystare, golv- och tåvänlig mjuk kropp",
   ],
-  ["Elins poäng", "89/100", "85/100"],
+  ["Elins poäng", "86/100", "79/100"],
 ] as const;
 
 export const kettlebellPicks: KettlebellPick[] = [
@@ -86,7 +87,7 @@ export const kettlebellPicks: KettlebellPick[] = [
       "Gjutjärn är hårt. Det är tuffare mot golv och tår än en mjuk kettlebell. En köpare nämner också att lacken på handtaget kom fram kantstött, så QC och frakt kan variera.",
     verdict: "Elins val - billigast, tåligast och mest beprövad för de flesta.",
     amazonSummary:
-      "Amazon visar 4,7 av 5 från 12 275 recensioner och #1 Best Seller i Kettlebells.",
+      "Amazon visar 4,7 av 5 från 12 275 recensioner på produktsidan.",
     amazonQuotes: [
       {
         text: "Good quality, very happy with it.",

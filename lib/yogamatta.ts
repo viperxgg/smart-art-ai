@@ -56,11 +56,12 @@ export const yogamattaFaqItems = [
 ];
 
 export const yogamattaComparisonRows = [
+  ["Snabba signaler", "13 mm komfort; Bäst för pilates", "Bra grepp; Markeringslinjer; Stabil för yoga"],
   ["Bäst för", "Komfort, pilates och golvövningar (Elins val)", "Grepp, yoga och balans"],
   ["Material", "High-density NBR-skum", "TPE"],
   ["Tjocklek", "13 mm", "6 mm"],
   ["Grepp", "Mjukt och dämpande, mindre stabilt i balans", "Dubbelsidigt halkfritt med markeringslinjer"],
-  ["Elins poäng", "87/100", "86/100"],
+  ["Elins poäng", "84/100", "83/100"],
 ] as const;
 
 export const yogamattaPicks: YogamattaPick[] = [
@@ -116,7 +117,7 @@ export const yogamattaPicks: YogamattaPick[] = [
   {
     product: yogatiTpeYogaMatProduct,
     path: "/traning/yogamatta/yogati-tpe",
-    badge: "Bäst grepp",
+    badge: "Bra grepp",
     headline: "YOGATI TPE - greppigare matta för riktig yoga",
     shortBody:
       "En stabilare TPE-matta med markeringslinjer för dig som gör yoga, balanspositioner och vill ha bättre grepp än en extra tjock skummatta.",

@@ -51,6 +51,7 @@ export const massagepistolFaqItems = [
 ];
 
 export const massagepistolComparisonRows = [
+  ["Snabba signaler", "Känt märke; Kompakt; Lätt i handen", "99 lägen; 6 massagehuvuden; Mest funktioner"],
   ["Bäst för", "Trygga märkesvalet", "Mest för pengarna"],
   ["Vikt", "620 g (lätt)", "ca 1 kg (tyngre)"],
   ["Lägen", "5", "99 (mer kontroll)"],

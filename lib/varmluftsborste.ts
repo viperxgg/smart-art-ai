@@ -51,6 +51,7 @@ export const varmluftsborsteFaqItems = [
 ];
 
 export const varmluftsborsteComparisonRows = [
+  ["Snabba signaler", "4-i-1; Volym & brushing; Elins val", "Budgetval; Kort hår; Enkel styling"],
   ["Bäst för", "Mångsidig 4-i-1 (Elins val)", "Billigast, kort hår"],
   ["Effekt", "1000 W", "400 W"],
   [
@@ -58,7 +59,7 @@ export const varmluftsborsteComparisonRows = [
     "4 (volym, rätning, kort hår, munstycke)",
     "2 (19/25 mm)",
   ],
-  ["Elins poäng", "80/100", "76/100"],
+  ["Elins poäng", "78/100", "72/100"],
 ] as const;
 
 export const varmluftsborstePicks: VarmluftsborstePick[] = [

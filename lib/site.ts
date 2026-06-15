@@ -1,7 +1,8 @@
 export const siteConfig = {
   name: "Elins val",
-  brand: "Smart Art AI",
-  title: "Elins val | Smart Art AI",
+  brand: "Elins val",
+  legalName: "Smart Art AI",
+  title: "Elins val",
   url: "https://www.smartartai.se",
   email: "hello@smartartai.se",
   description:

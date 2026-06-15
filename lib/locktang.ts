@@ -51,11 +51,12 @@ export const locktangFaqItems = [
 ];
 
 export const locktangComparisonRows = [
+  ["Snabba signaler", "Mest värde; 10 värmelägen; Stora lockar", "Automatisk; Anti-tangle; För långt hår"],
   ["Bäst för", "Bäst värde, klassiska lockar (Elins val)", "Automatisk, effortless"],
   ["Typ", "Manuell tång", "Automatisk (roterar själv)"],
   ["Temp", "10 lägen (110-180°C)", "3 lägen (160-210°C)"],
-  ["Extra", "#1 bästsäljare, flera storlekar", "Anti-tangle, en-knapp, jon"],
-  ["Elins poäng", "85/100", "83/100"],
+  ["Extra", "Flera storlekar och tusentals omdömen", "Anti-tangle, en-knapp, jon"],
+  ["Elins poäng", "81/100", "80/100"],
 ] as const;
 
 export const locktangPicks: LocktangPick[] = [

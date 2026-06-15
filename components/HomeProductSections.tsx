@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 import { SaveProductButton } from "@/components/SaveProductButton";
+import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import {
   activeProductCategories,
   getProductPageHref,
@@ -213,12 +214,11 @@ function HomeProductCard({ product }: { product: Product }) {
         <p className="mt-3 text-[13px] leading-5 text-[#7e6970] sm:text-sm sm:leading-6">
           {product.summary}
         </p>
+        <ProductBadges badges={product.badges.slice(0, 2)} className="mt-4" />
 
         <div className="mt-4 flex flex-wrap items-center gap-2 text-[0.68rem] font-black text-[#8b5a66] sm:text-xs">
           {score ? (
-            <span className="rounded-full bg-[#ffe5e8] px-3 py-2">
-              Elins poÃ¤ng: {score.total}/100
-            </span>
+            <ScoreBadge score={score} className="text-[0.68rem] sm:text-xs" />
           ) : null}
           <span className="rounded-full bg-white/72 px-3 py-2">Annons</span>
         </div>

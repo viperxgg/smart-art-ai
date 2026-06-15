@@ -31,6 +31,18 @@ export function SiteFooter() {
               Om Elins val
             </Link>
             <Link
+              href="/jamforelser"
+              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+            >
+              Jämförelser
+            </Link>
+            <Link
+              href="/elins-poang"
+              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+            >
+              Så sätter vi Elins poäng
+            </Link>
+            <Link
               href="/integritetspolicy"
               className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
             >

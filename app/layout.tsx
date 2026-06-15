@@ -35,7 +35,6 @@ export const metadata: Metadata = {
     "Amazon fynd Sverige",
     "ärliga produktkommentarer",
     "personliga produktval",
-    "Smart Art AI",
   ],
   alternates: {
     canonical: siteConfig.url,

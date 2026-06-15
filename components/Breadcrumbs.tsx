@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 
+import { ElinByline } from "@/components/ElinByline";
 import { siteConfig } from "@/lib/site";
 
 export type BreadcrumbItem = {
@@ -14,37 +15,43 @@ type BreadcrumbsProps = {
 
 export function Breadcrumbs({ items }: BreadcrumbsProps) {
   return (
-    <nav aria-label="Brödsmulor" className="min-w-0">
-      <ol className="flex min-w-0 flex-wrap items-center gap-2 text-sm font-bold text-[#8a6d78]">
-        {items.map((item, index) => {
-          const isLast = index === items.length - 1;
+    <div className="flex min-w-0 flex-wrap items-center justify-between gap-3">
+      <nav aria-label="Brödsmulor" className="min-w-0">
+        <ol className="flex min-w-0 flex-wrap items-center gap-2 text-sm font-bold text-[#8a6d78]">
+          {items.map((item, index) => {
+            const isLast = index === items.length - 1;
 
-          return (
-            <li key={item.href} className="inline-flex min-w-0 items-center gap-2">
-              {index > 0 ? (
-                <ChevronRight
-                  size={15}
-                  className="shrink-0 text-[#D8A7B1]"
-                  aria-hidden="true"
-                />
-              ) : null}
-              {isLast ? (
-                <span className="truncate text-[#4B2838]" aria-current="page">
-                  {item.name}
-                </span>
-              ) : (
-                <Link
-                  href={item.href}
-                  className="truncate transition hover:text-[#B983A6]"
-                >
-                  {item.name}
-                </Link>
-              )}
-            </li>
-          );
-        })}
-      </ol>
-    </nav>
+            return (
+              <li
+                key={item.href}
+                className="inline-flex min-w-0 items-center gap-2"
+              >
+                {index > 0 ? (
+                  <ChevronRight
+                    size={15}
+                    className="shrink-0 text-[#D8A7B1]"
+                    aria-hidden="true"
+                  />
+                ) : null}
+                {isLast ? (
+                  <span className="truncate text-[#4B2838]" aria-current="page">
+                    {item.name}
+                  </span>
+                ) : (
+                  <Link
+                    href={item.href}
+                    className="truncate transition hover:text-[#B983A6]"
+                  >
+                    {item.name}
+                  </Link>
+                )}
+              </li>
+            );
+          })}
+        </ol>
+      </nav>
+      <ElinByline />
+    </div>
   );
 }
 

@@ -53,6 +53,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.65,
     },
     {
+      url: `${siteConfig.url}/jamforelser`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.72,
+    },
+    {
+      url: `${siteConfig.url}/elins-poang`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.45,
+    },
+    {
       url: `${siteConfig.url}/traning`,
       lastModified: new Date(),
       changeFrequency: "weekly",

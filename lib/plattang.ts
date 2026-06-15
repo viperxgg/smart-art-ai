@@ -51,6 +51,7 @@ export const plattangFaqItems = [
 ];
 
 export const plattangComparisonRows = [
+  ["Snabba signaler", "Keratinplattor; 9 värmelägen; Beprövat val", "Resvänlig; Kompakt; För kort hår"],
   ["Bäst för", "Hemma, alla hårtyper, kvalitet", "Resa, lugg/kort hår, snabba fix"],
   ["Storlek/vikt", "Fullstorlek, breda plattor", "0,21 kg, ultralätt"],
   ["Värmelägen", "9 lägen + PRO+", "Ett läge (200°C)"],

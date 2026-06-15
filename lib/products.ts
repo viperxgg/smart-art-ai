@@ -5,6 +5,7 @@ export type Product = {
   asin: string;
   brand: string;
   price: string;
+  badges: string[];
   image: string;
   imageAlt: string;
   images: ProductImage[];
@@ -86,6 +87,7 @@ export const featuredProduct: Product = {
   asin: "B0CQXFWMH5",
   brand: "WuGU",
   price: "Se aktuellt pris på Amazon",
+  badges: ["4 motståndsnivåer", "Lätt att börja", "Tar liten plats"],
   image: "/products/resistance-bands/elin-resistance-band-thumbnail.webp",
   imageAlt: "Person som tränar hemma med lila träningsband",
   images: [
@@ -209,6 +211,7 @@ export const beurerMassagepistolProduct: Product = {
   asin: "BEURER_MG_99",
   brand: "Beurer",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Känt märke", "Kompakt", "Lätt i handen"],
   image: "/products/massage-guns/beurer-mg99-thumbnail.webp",
   imageAlt: "Beurer MG 99 massagepistol med utbytbara massagehuvuden",
   images: [
@@ -269,6 +272,7 @@ export const bdbkmgMassagepistolProduct: Product = {
   asin: "BDBKMG",
   brand: "BDBKMG",
   price: "Se aktuellt pris på Amazon",
+  badges: ["99 lägen", "6 massagehuvuden", "Mest funktioner"],
   image: "/products/massage-guns/muscle-massage-gun-thumbnail.webp",
   imageAlt: "Person som använder en massagepistol på axeln hemma",
   images: [
@@ -329,6 +333,7 @@ export const remingtonS8540Product: Product = {
   asin: "REMINGTON_S8540",
   brand: "Remington",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Keratinplattor", "9 värmelägen", "Beprövat val"],
   image: "/products/hair-straighteners/remington-s8540-main.webp",
   imageAlt: "Remington S8540 Keratin Protect plattång på ljus marmoryta",
   images: [
@@ -399,6 +404,7 @@ export const remingtonMiniS2880Product: Product = {
   asin: "REMINGTON_S2880",
   brand: "Remington",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Resvänlig", "Kompakt", "För kort hår"],
   image: "/products/hair-straighteners/remington-mini-s2880-main.webp",
   imageAlt: "Remington Mini S2880 plattång på ljus marmoryta med blommor",
   images: [
@@ -464,6 +470,7 @@ export const panasonicEsEy30EpilatorProduct: Product = {
   asin: "PANASONIC_ES_EY30",
   brand: "Panasonic",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Wet/Dry", "Sladdlös", "Brett huvud"],
   image: "/products/epilators/panasonic-es-ey30-thumbnail.webp",
   imageAlt: "Panasonic ES-EY30 epilator i lila och vitt på ett ljust badrumsbord",
   images: [
@@ -520,6 +527,7 @@ export const braunSilkEpil9Product: Product = {
   asin: "BRAUN_SILK_EPIL_9",
   brand: "Braun",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Premiumval", "MicroGrip", "Många tillbehör"],
   image: "/products/epilators/braun-silk-epil-9-thumbnail.webp",
   imageAlt: "Braun Silk-épil 9 epilator i vit och silver",
   images: [
@@ -579,6 +587,7 @@ export const remingtonProluxeAc9140Product: Product = {
   asin: "REMINGTON_AC9140",
   brand: "Remington",
   price: "Se aktuellt pris på Amazon",
+  badges: ["2400 W", "AC-motor", "Salongskänsla hemma"],
   image: "/products/hair-dryers/remington-proluxe-ac9140-main.webp",
   imageAlt: "Remington PROluxe AC9140 hårtork med diffusor och munstycken",
   images: [
@@ -634,6 +643,7 @@ export const beurerHc25Product: Product = {
   asin: "BEURER_HC_25",
   brand: "Beurer",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Resvänlig", "Hopfällbar", "Budgetval"],
   image: "/products/hair-dryers/beurer-hc-25-main.webp",
   imageAlt: "Beurer HC 25 hårtork på ljus badrumsbänk",
   images: [
@@ -688,6 +698,7 @@ export const babylissAs126eProduct: Product = {
   asin: "BABYLISS_AS126E",
   brand: "BaByliss",
   price: "Se aktuellt pris på Amazon",
+  badges: ["4-i-1", "Volym & brushing", "Elins val"],
   image: "/products/hot-air-brushes/babyliss-as126e-thumbnail.webp",
   imageAlt: "BaByliss AS126E varmluftsborste används för volym i håret",
   images: [
@@ -747,6 +758,7 @@ export const remingtonAs7100Product: Product = {
   asin: "REMINGTON_AS7100",
   brand: "Remington",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Budgetval", "Kort hår", "Enkel styling"],
   image: "/products/hot-air-brushes/remington-as7100-thumbnail.webp",
   imageAlt: "Remington AS7100 varmluftsborste används för att forma kort hår",
   images: [
@@ -806,6 +818,7 @@ export const babylissC325eProduct: Product = {
   asin: "BABYLISS_C325E",
   brand: "BaByliss",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Mest värde", "10 värmelägen", "Stora lockar"],
   image: "/products/curling-irons/babyliss-c325e-thumbnail.webp",
   imageAlt: "BaByliss C325E locktång används för att forma lockar",
   images: [
@@ -860,6 +873,7 @@ export const tymoCurlproProduct: Product = {
   asin: "TYMO_CURLPRO",
   brand: "TYMO",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Automatisk", "Anti-tangle", "För långt hår"],
   image: "/products/curling-irons/tymo-curlpro-thumbnail.webp",
   imageAlt: "TYMO CURLPRO automatisk locktång används för att locka hår",
   images: [
@@ -914,6 +928,7 @@ export const amazonBasicsKettlebellProduct: Product = {
   asin: "B076QJY2FN",
   brand: "Amazon Basics",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Mest värde", "Tusentals omdömen", "Solid gjutjärn"],
   image: "/products/kettlebells/amazon-basics-kettlebell-thumbnail.webp",
   imageAlt: "Amazon Basics svart gjutjärns-kettlebell",
   images: [
@@ -955,7 +970,7 @@ export const amazonBasicsKettlebellProduct: Product = {
     sourceLabel: "Amazon-köpare",
     sourceUrl: "https://amzn.to/4fM64tv",
     ratingSummary:
-      "Amazon visar 4,7 av 5 från 12 275 recensioner och #1 Best Seller i Kettlebells.",
+      "Amazon visar 4,7 av 5 från 12 275 recensioner på produktsidan.",
     highlights: [
       "Köpare lyfter kvaliteten och värdet för pengarna.",
       "Flera beskriver den som liten, tät och enkel att förstå.",
@@ -980,6 +995,7 @@ export const proironSoftKettlebellProduct: Product = {
   asin: "B09BDQK6G4",
   brand: "PROIRON",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Golvvänligt", "Tystare hemma", "Bäst för nybörjare"],
   image: "/products/kettlebells/proiron-soft-kettlebell-thumbnail.webp",
   imageAlt: "PROIRON mjuk kettlebell med svart handtag",
   images: [
@@ -1045,6 +1061,7 @@ export const proironNeopreneDumbbellsProduct: Product = {
   asin: "B01BEVZZZS",
   brand: "PROIRON",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Mest beprövad", "Välj exakt vikt", "Mjukt grepp"],
   image: "/products/dumbbells/proiron-neoprene-dumbbells-thumbnail.webp",
   imageAlt: "PROIRON neoprenhantlar i rosa par",
   images: [
@@ -1111,6 +1128,7 @@ export const songmicsDumbbellSetProduct: Product = {
   asin: "B0FMR69BZ6",
   brand: "SONGMICS",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Set + ställning", "Rollsäker hexagon", "Minihemmagym"],
   image: "/products/dumbbells/songmics-dumbbell-set-thumbnail.webp",
   imageAlt: "SONGMICS neoprenhantlar med ställning",
   images: [
@@ -1176,6 +1194,7 @@ export const prosourcefitYogaMatProduct: Product = {
   asin: "B00FY0GW08",
   brand: "ProSourceFit",
   price: "Se aktuellt pris på Amazon",
+  badges: ["13 mm komfort", "Bäst för pilates"],
   image: "/products/yoga-mats/prosourcefit-thick-yoga-mat-thumbnail.webp",
   imageAlt: "ProSourceFit extra tjock yoga- och pilatesmatta med bärrem",
   images: [
@@ -1221,7 +1240,7 @@ export const prosourcefitYogaMatProduct: Product = {
     highlights: [
       "Köpare lyfter den extra dämpningen för rygg och knän.",
       "Den tjocka NBR-skummattan passar särskilt bra för pilates och golvövningar.",
-      "Bärrem ingår enligt produktsidan.",
+      "Produktsidan anger bärrem, men leveransen bör dubbelkollas vid mottagning.",
     ],
     cautions: [
       "En mycket tjock och mjuk matta är mindre stabil i stående balanspositioner.",
@@ -1242,6 +1261,7 @@ export const yogatiTpeYogaMatProduct: Product = {
   asin: "B07ML1VMPD",
   brand: "YOGATI",
   price: "Se aktuellt pris på Amazon",
+  badges: ["Bra grepp", "Markeringslinjer", "Stabil för yoga"],
   image: "/products/yoga-mats/yogati-tpe-yoga-mat-thumbnail.webp",
   imageAlt: "YOGATI TPE-yogamatta med markeringslinjer och bärrem",
   images: [

@@ -16,11 +16,22 @@ export function RelatedLinks({
   title = "Läs även",
   links,
 }: RelatedLinksProps) {
+  const visibleLinks = links.some((link) => link.href === "/jamforelser")
+    ? links
+    : [
+        ...links,
+        {
+          href: "/jamforelser",
+          label: "Jämförelser",
+          text: "Se alla Elins jämförelser samlade efter kategori.",
+        },
+      ];
+
   return (
     <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
       <h2 className="font-display text-3xl text-[#4B2838]">{title}</h2>
       <div className="mt-5 grid gap-3 md:grid-cols-2">
-        {links.map((link) => (
+        {visibleLinks.map((link) => (
           <Link
             key={link.href}
             href={link.href}

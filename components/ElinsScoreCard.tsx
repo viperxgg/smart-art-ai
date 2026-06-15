@@ -1,5 +1,7 @@
+import Link from "next/link";
+
 import type { EditorialScore } from "@/lib/scores";
-import { scoreWeights } from "@/lib/scores";
+import { getScoreTier, scoreWeights } from "@/lib/scores";
 
 type ElinsScoreCardProps = {
   score: EditorialScore;
@@ -30,6 +32,8 @@ const scoreRows = [
 ] as const;
 
 export function ElinsScoreCard({ score, className = "" }: ElinsScoreCardProps) {
+  const tier = getScoreTier(score.total);
+
   return (
     <section
       className={`rounded-[2rem] border border-[#F1D8DD] bg-white/76 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8 ${className}`}
@@ -47,9 +51,15 @@ export function ElinsScoreCard({ score, className = "" }: ElinsScoreCardProps) {
             Elins poäng
           </h2>
         </div>
-        <p className="rounded-full bg-gradient-to-r from-[#D8788D] to-[#EAA3AD] px-5 py-3 text-lg font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.22)]">
+        <Link
+          href="/elins-poang"
+          className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#D8788D] to-[#EAA3AD] px-5 py-3 text-lg font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.22)] transition hover:-translate-y-0.5"
+        >
           🎯 {score.total}/100
-        </p>
+          <span className="rounded-full bg-white/22 px-2 py-1 text-xs uppercase tracking-[0.12em]">
+            {tier.label}
+          </span>
+        </Link>
       </div>
 
       <div className="mt-6 grid gap-4">
@@ -80,7 +90,7 @@ export function ElinsScoreCard({ score, className = "" }: ElinsScoreCardProps) {
       </div>
 
       <p className="mt-6 rounded-2xl bg-[#FFF4F5] p-4 text-lg font-black leading-8 text-[#4B2838]">
-        🎯 Elins poäng: {score.total}/100 — “{score.verdict}”
+        🎯 Elins poäng: {score.total}/100 ({tier.label}) — “{score.verdict}”
       </p>
 
       <details className="mt-4 rounded-2xl border border-[#F1D8DD] bg-[#FFF9F7] p-4 text-sm leading-7 text-[#6f5a64]">
@@ -92,6 +102,13 @@ export function ElinsScoreCard({ score, className = "" }: ElinsScoreCardProps) {
           värde för pengarna, prestanda, hur väl produkten håller vad den lovar
           enligt omdömen, och hur beprövad den är. Det är vår bedömning – inte
           ett kundbetyg.
+          {" "}
+          <Link
+            href="/elins-poang"
+            className="font-black text-[#9E5E73] underline underline-offset-4"
+          >
+            Läs hela metoden.
+          </Link>
         </p>
       </details>
     </section>

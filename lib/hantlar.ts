@@ -56,11 +56,12 @@ export const hantlarFaqItems = [
 ];
 
 export const hantlarComparisonRows = [
+  ["Snabba signaler", "Mest beprövad; Välj exakt vikt; Mjukt grepp", "Set + ställning; Rollsäker hexagon; Minihemmagym"],
   ["Bäst för", "Enkelt par i exakt vikt (Elins val)", "Färdigt minihemmagym"],
   ["Typ", "Enkelt par", "Set + ställning"],
   ["Material", "Gjutjärn med neoprenyta", "Gjutjärn med neoprenyta"],
   ["Vikter", "Par från 1-10 kg", "2x1 kg, 2x3 kg, 2x5 kg"],
-  ["Elins poäng", "88/100", "86/100"],
+  ["Elins poäng", "84/100", "82/100"],
 ] as const;
 
 export const hantlarPicks: HantlarPick[] = [

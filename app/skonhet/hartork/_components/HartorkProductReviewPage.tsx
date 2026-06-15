@@ -4,6 +4,7 @@ import { ArrowLeft, HeartPulse, TriangleAlert } from "lucide-react";
 import { AmazonCta } from "@/components/AmazonCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { ElinsScoreCard } from "@/components/ElinsScoreCard";
+import { ProductBadges } from "@/components/ProductBadges";
 import { JsonLd } from "@/components/JsonLd";
 import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
@@ -111,6 +112,7 @@ export async function HartorkProductReviewPage({
             <p className="mt-4 inline-flex min-h-10 items-center rounded-full border border-[#E9CDD3] bg-[#FFF4F5] px-4 text-sm font-black text-[#9E5E73]">
               {pick.badge}
             </p>
+            <ProductBadges badges={pick.product.badges} className="mt-4" />
             <h1 className="mt-4 font-display text-4xl leading-[1.05] tracking-[-0.035em] text-[#4B2838] sm:text-6xl">
               {pick.headline}
             </h1>
