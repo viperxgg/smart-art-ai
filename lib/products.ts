@@ -1038,10 +1038,143 @@ export const proironSoftKettlebellProduct: Product = {
   comments: [],
 };
 
+export const proironNeopreneDumbbellsProduct: Product = {
+  slug: "proiron-neoprenhantlar",
+  title: "PROIRON neoprenhantlar",
+  category: "traning",
+  asin: "B01BEVZZZS",
+  brand: "PROIRON",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/dumbbells/proiron-neoprene-dumbbells-thumbnail.webp",
+  imageAlt: "PROIRON neoprenhantlar i rosa par",
+  images: [
+    {
+      src: "/products/dumbbells/proiron-neoprene-dumbbells-thumbnail.webp",
+      alt: "PROIRON neoprenhantlar i par",
+      label: "Elins val",
+    },
+    {
+      src: "/products/dumbbells/proiron-neoprene-dumbbells-gallery-1.webp",
+      alt: "PROIRON neoprenhantel med mjuk yta och grepp",
+      label: "Grepp",
+    },
+    {
+      src: "/products/dumbbells/proiron-neoprene-dumbbells-gallery-2.webp",
+      alt: "PROIRON neoprenhantlar i flera färger och vikter",
+      label: "Vikter",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vJMOS3",
+  pageHref: "/traning/hantlar/proiron-neopren",
+  summary:
+    "Ett enkelt par hantlar i rätt vikt: mjuk neopren, många färger och ett beprövat val för lätt till medeltung hemmaträning.",
+  evaluation: {
+    headline: "Elins värdeval",
+    intro:
+      "PROIRON passar dig som vill köpa exakt den vikt du behöver utan att börja med ett helt set.",
+    verdict: "Elins val - enklast och mest beprövat för pengarna.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hantlar",
+  specSectionTitle: "PROIRON neoprenhantlar",
+  specs: [
+    { label: "Material", caption: "Kärna", value: "Gjutjärn + neopren" },
+    { label: "Vikter", caption: "Par", value: "1-10 kg" },
+    { label: "Grepp", caption: "Yta", value: "Mjuk, halkfri neopren" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vJMOS3",
+    ratingSummary:
+      "Amazon visar 4,6 av 5 från 24 861 recensioner och #4 i Dumbbells.",
+    highlights: [
+      "Köpare lyfter att hantlarna håller vad de lovar.",
+      "Neoprenytan gör dem bekväma och enkla att greppa.",
+      "Passar bäst för lätt till medeltung hemmaträning, cardio och rutiner.",
+    ],
+    cautions: [
+      "Neoprenhantlar är inte gjorda för tung lyftning eller att släppas i golvet.",
+      "En vanlig invändning är att priset per kilo kan kännas högt.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const songmicsDumbbellSetProduct: Product = {
+  slug: "songmics-hantelset-med-stallning",
+  title: "SONGMICS hantelset med ställning",
+  category: "traning",
+  asin: "B0FMR69BZ6",
+  brand: "SONGMICS",
+  price: "Se aktuellt pris på Amazon",
+  image: "/products/dumbbells/songmics-dumbbell-set-thumbnail.webp",
+  imageAlt: "SONGMICS neoprenhantlar med ställning",
+  images: [
+    {
+      src: "/products/dumbbells/songmics-dumbbell-set-thumbnail.webp",
+      alt: "SONGMICS hantelset med sex neoprenhantlar och ställning",
+      label: "Set",
+    },
+    {
+      src: "/products/dumbbells/songmics-dumbbell-set-gallery-1.webp",
+      alt: "SONGMICS hexagonhantlar i olika vikter",
+      label: "Vikter",
+    },
+    {
+      src: "/products/dumbbells/songmics-dumbbell-set-gallery-2.webp",
+      alt: "SONGMICS hantelset med displayställ för hemmaträning",
+      label: "Ställning",
+    },
+  ],
+  amazonUrl: "https://amzn.to/449gCfb",
+  pageHref: "/traning/hantlar/songmics-set",
+  summary:
+    "Ett färdigt minihemmagym: sex neoprenhantlar i 1, 3 och 5 kg med ställning och hexagonform som inte rullar iväg.",
+  evaluation: {
+    headline: "Färdigt hemmakit",
+    intro:
+      "SONGMICS passar dig som vill ha ett komplett startset direkt, inte bara ett par i en vikt.",
+    verdict: "Bästa färdiga startsetet med ställning.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hantelset",
+  specSectionTitle: "SONGMICS med ställning",
+  specs: [
+    { label: "Material", caption: "Kärna", value: "Gjutjärn + neopren" },
+    { label: "Vikter", caption: "Set", value: "2x1, 2x3, 2x5 kg" },
+    { label: "Extra", caption: "Förvaring", value: "PP-ställning" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/449gCfb",
+    ratingSummary: "Amazon visar 4,6 av 5 från 2 839 recensioner och #23 i Dumbbells.",
+    highlights: [
+      "Köpare uppskattar setet som ett färdigt och prisvärt hemmakit.",
+      "Hexagonformen gör hantlarna mer roll-säkra på golvet.",
+      "Greppvänlig neopren och ställning gör det lättare att hålla ordning.",
+    ],
+    cautions: [
+      "Plastställningen kunde vara stabilare.",
+      "Viktavvikelse runt 3% kan förekomma och hantlarna bör inte tappas direkt på hårda trägolv.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   amazonBasicsKettlebellProduct,
   proironSoftKettlebellProduct,
+  proironNeopreneDumbbellsProduct,
+  songmicsDumbbellSetProduct,
   beurerMassagepistolProduct,
   bdbkmgMassagepistolProduct,
   remingtonS8540Product,

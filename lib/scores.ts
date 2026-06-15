@@ -39,6 +39,22 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 85,
     verdict: "GolvsnÃ¤llt nybÃ¶rjarval fÃ¶r hemmet",
   },
+  "proiron-neoprenhantlar": {
+    value: 28,
+    performance: 24,
+    promise: 22,
+    proven: 14,
+    total: 88,
+    verdict: "Elins val - enklast och mest beprÃ¶vat fÃ¶r pengarna",
+  },
+  "songmics-hantelset-med-stallning": {
+    value: 25,
+    performance: 24,
+    promise: 23,
+    proven: 14,
+    total: 86,
+    verdict: "FÃ¤rdigt startset med stÃ¤llning fÃ¶r hemmatrÃ¤ning",
+  },
   "beurer-mg-99-massagepistol": {
     value: 22,
     performance: 23,

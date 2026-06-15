@@ -83,6 +83,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.82,
     },
     {
+      url: `${siteConfig.url}/traning/hantlar`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/traning/hantlar/proiron-neopren`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/traning/hantlar/songmics-set`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
       url: `${siteConfig.url}/halsa`,
       lastModified: new Date(),
       changeFrequency: "weekly",
