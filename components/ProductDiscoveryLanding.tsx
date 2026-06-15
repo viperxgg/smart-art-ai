@@ -132,7 +132,7 @@ function CategoryNav() {
 function Hero() {
   return (
     <section className="mt-8 grid gap-6 rounded-[2.4rem] border border-[#efc6cc] bg-white/52 p-4 shadow-[0_30px_90px_rgba(216,131,146,0.16)] backdrop-blur-xl sm:mt-12 sm:p-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:p-8">
-      <div className="relative aspect-square overflow-hidden rounded-[2rem] border border-[#f0c8ce] bg-[#FFF4F5] shadow-[0_24px_70px_rgba(185,131,166,0.12)] lg:aspect-[5/4]">
+      <div className="relative mx-auto aspect-square w-full max-w-[34rem] overflow-hidden rounded-full shadow-[0_24px_70px_rgba(185,131,166,0.12)]">
         <Image
           src={elinHeroSrc}
           alt="Elin från Elins val"
