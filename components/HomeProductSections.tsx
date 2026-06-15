@@ -134,7 +134,7 @@ function ProductRail({
         <div className="min-w-0">
           <h2
             id={`${id}-title`}
-            className="font-display text-[1.65rem] leading-tight text-[#5b3441] sm:text-4xl"
+            className="editorial-color-kiss font-display text-[1.65rem] leading-tight sm:text-4xl"
           >
             {title}
           </h2>
@@ -208,8 +208,10 @@ function HomeProductCard({ product }: { product: Product }) {
         <p className="text-xs font-black uppercase tracking-[0.14em] text-[#d97d91]">
           {product.brand}
         </p>
-        <h3 className="mt-2 font-display text-[1.35rem] leading-[1.08] tracking-[-0.02em] text-[#5b3441] sm:text-[1.7rem]">
-          <Link href={productHref}>{product.title}</Link>
+        <h3 className="mt-2 font-display text-[1.35rem] leading-[1.08] tracking-[-0.02em] sm:text-[1.7rem]">
+          <Link href={productHref} className="editorial-color-kiss">
+            {product.title}
+          </Link>
         </h3>
         <p className="mt-3 text-[13px] leading-5 text-[#7e6970] sm:text-sm sm:leading-6">
           {product.summary}

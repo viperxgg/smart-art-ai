@@ -39,7 +39,7 @@ export function AmazonCta({ href, className = "", panel = false }: AmazonCtaProp
           <ShieldCheck size={24} aria-hidden="true" />
         </span>
         <div className="w-full">
-          <h2 className="font-display text-3xl text-[#4B2838]">
+          <h2 className="editorial-color-kiss font-display text-3xl">
             Se produkten
           </h2>
           <p className="mt-4 max-w-3xl text-lg leading-8 text-[#6f5a64]">

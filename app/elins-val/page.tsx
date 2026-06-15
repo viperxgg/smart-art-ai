@@ -39,7 +39,7 @@ export default function ElinsValPage() {
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
             Elins urval
           </p>
-          <h1 className="mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] text-[#4B2838] sm:text-7xl">
+          <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
             Produkter som fastnade.
           </h1>
           <p className="mt-6 max-w-2xl text-xl leading-9 text-[#6f5a64]">

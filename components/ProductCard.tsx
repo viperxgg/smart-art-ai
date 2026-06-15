@@ -52,7 +52,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
         <p className="text-sm font-black uppercase tracking-[0.16em] text-[#d7778b]">
           {product.brand}
         </p>
-        <h3 className="mt-3 font-display text-[2.05rem] leading-tight tracking-[-0.025em] text-[#5b3441] sm:text-4xl sm:tracking-[-0.035em]">
+        <h3 className="editorial-color-kiss mt-3 font-display text-[2.05rem] leading-tight tracking-[-0.025em] sm:text-4xl sm:tracking-[-0.035em]">
           {product.title}
         </h3>
         <p className="mt-5 text-lg leading-9 text-[#74636a]">

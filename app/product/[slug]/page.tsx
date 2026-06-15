@@ -208,7 +208,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <p className="text-sm font-black uppercase tracking-[0.12em] text-[#D8788D]">
               Elins produktkoll
             </p>
-            <h1 className="mt-4 break-words font-display text-[2.45rem] leading-[1.04] tracking-[-0.025em] text-[#4B2838] md:text-[4rem] md:tracking-[-0.035em]">
+            <h1 className="editorial-color-kiss mt-4 break-words font-display text-[2.45rem] leading-[1.04] tracking-[-0.025em] md:text-[4rem] md:tracking-[-0.035em]">
               {product.title}
             </h1>
             <p className="mt-5 break-words text-lg leading-8 text-[#5f4a54] md:text-xl md:leading-9">
@@ -261,7 +261,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
         <section className="mt-6 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
           <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-            <h2 className="font-display text-3xl leading-tight text-[#4B2838]">
+            <h2 className="editorial-color-kiss font-display text-3xl leading-tight">
               Varför den hamnade på Elins lista
             </h2>
             <div className="mt-7 grid gap-5 sm:grid-cols-3">
@@ -286,7 +286,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </article>
 
           <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-            <h2 className="font-display text-3xl leading-tight text-[#4B2838]">
+            <h2 className="editorial-color-kiss font-display text-3xl leading-tight">
               När passar den?
             </h2>
             <div className="mt-6 grid gap-3">
@@ -310,7 +310,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         </section>
 
         <section className="mt-6 rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-          <h2 className="font-display text-3xl leading-tight text-[#4B2838]">
+          <h2 className="editorial-color-kiss font-display text-3xl leading-tight">
             Inte perfekt, men bra att veta
           </h2>
           <div className="mt-6 grid gap-4 md:grid-cols-2">

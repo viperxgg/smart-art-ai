@@ -17,7 +17,7 @@ export function SavedProductsClient() {
         <div className="mx-auto grid h-16 w-16 place-items-center rounded-full bg-[#F9E0E3] text-[#B983A6]">
           <Heart size={28} aria-hidden="true" />
         </div>
-        <h1 className="mt-5 font-display text-4xl text-[#4B2838]">
+        <h1 className="editorial-color-kiss mt-5 font-display text-4xl">
           Inget sparat än
         </h1>
         <p className="mx-auto mt-4 max-w-xl text-lg leading-8 text-[#6f5a64]">

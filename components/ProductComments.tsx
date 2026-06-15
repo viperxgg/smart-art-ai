@@ -37,7 +37,7 @@ export function ProductComments({
           <p className="text-xs font-black uppercase tracking-[0.14em] text-[#D8788D]">
             Community
           </p>
-          <h2 className="mt-2 font-display text-3xl leading-tight text-[#4B2838]">
+          <h2 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
             Recensioner från våra besökare
           </h2>
           <p className="mt-3 max-w-3xl leading-7 text-[#6f5a64]">
@@ -99,7 +99,7 @@ export function ProductComments({
         id={formId}
         className="mt-7 rounded-[1.6rem] border border-[#F1D8DD] bg-[#FFF9F7] p-5"
       >
-        <h3 className="font-display text-2xl text-[#4B2838]">
+        <h3 className="editorial-color-kiss font-display text-2xl">
           Dela din ärliga åsikt
         </h3>
         <p className="mt-2 leading-7 text-[#6f5a64]">

@@ -27,7 +27,7 @@ export default function PrivacyPolicyPage() {
           <p className="text-sm font-black uppercase tracking-[0.14em] text-[#D8788D]">
             Integritet
           </p>
-          <h1 className="mt-4 font-display text-5xl leading-none text-[#4B2838] md:text-7xl">
+          <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-none md:text-7xl">
             Integritetspolicy
           </h1>
           <p className="mt-6 text-lg leading-8 text-[#5f4a54]">
@@ -38,9 +38,9 @@ export default function PrivacyPolicyPage() {
 
           <div className="mt-8 grid gap-5">
             <article className="rounded-3xl bg-[#FFF4F5] p-5">
-              <h2 className="flex items-center gap-3 font-display text-2xl text-[#4B2838]">
-                <ShieldCheck size={24} aria-hidden="true" />
-                Recensioner från besökare
+              <h2 className="flex items-center gap-3 font-display text-2xl">
+                <ShieldCheck className="text-[#B983A6]" size={24} aria-hidden="true" />
+                <span className="editorial-color-kiss">Recensioner från besökare</span>
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">
                 När du skickar en recension sparar vi ditt offentliga alias,
@@ -62,7 +62,7 @@ export default function PrivacyPolicyPage() {
             </article>
 
             <article className="rounded-3xl bg-[#FFF4F5] p-5">
-              <h2 className="font-display text-2xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss font-display text-2xl">
                 Kontakt och samarbete
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">
@@ -73,7 +73,7 @@ export default function PrivacyPolicyPage() {
             </article>
 
             <article className="rounded-3xl bg-[#FFF4F5] p-5">
-              <h2 className="font-display text-2xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss font-display text-2xl">
                 Formulärskydd och cookies
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">
@@ -93,7 +93,7 @@ export default function PrivacyPolicyPage() {
             </article>
 
             <article className="rounded-3xl bg-[#FFF4F5] p-5">
-              <h2 className="font-display text-2xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss font-display text-2xl">
                 Affiliatelänkar
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">
@@ -103,7 +103,7 @@ export default function PrivacyPolicyPage() {
             </article>
 
             <article className="rounded-3xl bg-[#FFF4F5] p-5">
-              <h2 className="font-display text-2xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss font-display text-2xl">
                 Dina rättigheter
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">

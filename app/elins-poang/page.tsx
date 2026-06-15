@@ -58,7 +58,7 @@ export default function ElinsScoreMethodPage() {
           <p className="text-sm font-black uppercase tracking-[0.14em] text-[#D8788D]">
             Metod
           </p>
-          <h1 className="mt-4 font-display text-5xl leading-none text-[#4B2838] md:text-7xl">
+          <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-none md:text-7xl">
             Så sätter vi Elins poäng
           </h1>
           <p className="mt-6 text-lg leading-8 text-[#5f4a54]">
@@ -81,7 +81,7 @@ export default function ElinsScoreMethodPage() {
               className="rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_20px_60px_rgba(185,131,166,0.08)]"
             >
               <div className="flex items-start justify-between gap-4">
-                <h2 className="font-display text-3xl text-[#4B2838]">
+                <h2 className="editorial-color-kiss font-display text-3xl">
                   {row.label}
                 </h2>
                 <span className="rounded-full bg-[#FFF4F5] px-4 py-2 text-sm font-black text-[#9E5E73]">
@@ -94,7 +94,7 @@ export default function ElinsScoreMethodPage() {
         </section>
 
         <section className="mt-8 rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_20px_60px_rgba(185,131,166,0.08)] md:p-8">
-          <h2 className="font-display text-4xl text-[#4B2838]">Nivåer</h2>
+          <h2 className="editorial-color-kiss font-display text-4xl">Nivåer</h2>
           <div className="mt-5 grid gap-3">
             {tiers.map(([range, label, text]) => (
               <div
@@ -102,7 +102,7 @@ export default function ElinsScoreMethodPage() {
                 className="grid gap-2 rounded-2xl bg-[#FFF4F5] p-4 sm:grid-cols-[7rem_10rem_1fr] sm:items-center"
               >
                 <p className="font-black text-[#9E5E73]">{range}</p>
-                <p className="font-display text-2xl text-[#4B2838]">{label}</p>
+                <p className="editorial-color-kiss font-display text-2xl">{label}</p>
                 <p className="leading-7 text-[#6f5a64]">{text}</p>
               </div>
             ))}

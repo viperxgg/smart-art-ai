@@ -20,6 +20,7 @@ import {
   type Product,
 } from "@/lib/products";
 import { getEditorialScore } from "@/lib/scores";
+import { siteConfig } from "@/lib/site";
 
 const elinHeroSrc = "/elin/elin-hero.webp";
 
@@ -63,7 +64,7 @@ function SiteHeader() {
     <header className="flex min-w-0 items-center justify-between gap-2 rounded-full border border-white/70 bg-white/55 p-2 shadow-[0_18px_50px_rgba(216,131,146,0.12)] backdrop-blur-xl">
       <Link
         href="/"
-        className="min-w-0 shrink pl-2 font-display text-[1.35rem] leading-none tracking-[-0.01em] text-[#5b3441] sm:text-[2rem] sm:tracking-[-0.03em]"
+        className="editorial-color-kiss min-w-0 shrink pl-2 font-display text-[1.35rem] leading-none tracking-[-0.01em] sm:text-[2rem] sm:tracking-[-0.03em]"
       >
         Elins val
         <span className="ml-1 align-top text-base text-[#d88392] sm:ml-2 sm:text-lg">
@@ -72,13 +73,13 @@ function SiteHeader() {
       </Link>
 
       <div className="flex shrink-0 items-center gap-1 sm:gap-3">
-        <Link
-          href="/kontakt"
+        <a
+          href={`mailto:${siteConfig.email}`}
           className="grid size-10 place-items-center rounded-full bg-[#ffe1e4] text-[#7b4656] shadow-[0_16px_40px_rgba(216,131,146,0.16)] transition hover:-translate-y-0.5 sm:size-14"
           aria-label="Kontakta oss"
         >
           <Mail className="size-4 sm:size-[18px]" aria-hidden="true" />
-        </Link>
+        </a>
         <a
           href="https://www.instagram.com/elinsorenstyle/"
           target="_blank"
@@ -148,16 +149,27 @@ function Hero() {
           <Sparkles size={17} aria-hidden="true" />
           Utvald av Elin
         </p>
-        <h1 className="mt-6 font-display text-[3rem] leading-[0.98] tracking-normal text-[#5b3441] sm:text-[5.8rem] sm:tracking-[-0.045em]">
+        <h1 className="editorial-color-kiss mt-6 font-display text-[3rem] leading-[0.98] tracking-normal sm:text-[5.8rem] sm:tracking-[-0.045em]">
           Hej, jag är Elin.
         </h1>
-        <p className="mt-5 max-w-2xl text-lg leading-8 text-[#6f5a64] sm:text-xl sm:leading-9">
-          Jag letar efter produkter som faktiskt är värda pengarna.
-        </p>
-        <p className="mt-4 max-w-2xl text-base leading-7 text-[#7e6970] sm:text-lg sm:leading-8">
-          Jag jämför betyg, specifikationer och tusentals recensioner så att du
-          slipper välja i blindo.
-        </p>
+        <div className="mt-6 max-w-2xl border-l-[3px] border-[#e4a4b1] pl-5 sm:pl-6">
+          <p className="font-display text-[1.95rem] leading-[1.12] text-[#6d3c4d] sm:text-[2.55rem]">
+            Jag letar efter produkter som faktiskt är{" "}
+            <span className="rounded-[1.2rem] bg-[#ffe0e7] px-2 text-[#bf5d73] shadow-[0_12px_30px_rgba(216,120,141,0.14)]">
+              värda pengarna
+            </span>
+            .
+          </p>
+          <p className="mt-4 font-display text-[1.25rem] leading-8 text-[#8a6670] sm:text-[1.55rem] sm:leading-9">
+            Jag jämför{" "}
+            <span className="text-[#b85b89]">betyg</span>,{" "}
+            <span className="text-[#8b6aa5]">specifikationer</span> och{" "}
+            <span className="rounded-full bg-[#fff0c7] px-2 text-[#8a6641]">
+              tusentals recensioner
+            </span>{" "}
+            så att du slipper välja i blindo.
+          </p>
+        </div>
         <div className="mt-6 grid gap-3 sm:flex sm:flex-wrap">
           <Link
             href="/om-oss"
@@ -189,7 +201,7 @@ function Favorites() {
           </p>
           <h2
             id="favorites-title"
-            className="mt-2 font-display text-4xl leading-tight text-[#5b3441]"
+            className="editorial-color-kiss mt-2 font-display text-4xl leading-tight"
           >
             Starkast val just nu
           </h2>
@@ -247,7 +259,7 @@ function FeaturedPick({
         <p className="text-xs font-black uppercase tracking-[0.16em] text-[#d97d91]">
           {product.brand}
         </p>
-        <h3 className="mt-2 font-display text-3xl leading-tight text-[#5b3441]">
+        <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
           <Link href={productHref}>{product.title}</Link>
         </h3>
         <p className="mt-3 text-sm leading-6 text-[#7e6970]">{product.summary}</p>
@@ -273,7 +285,7 @@ function SelectedComparisons() {
           </p>
           <h2
             id="comparisons-title"
-            className="mt-2 font-display text-4xl leading-tight text-[#5b3441]"
+            className="editorial-color-kiss mt-2 font-display text-4xl leading-tight"
           >
             När valet står mellan två
           </h2>
@@ -294,7 +306,7 @@ function SelectedComparisons() {
             className="rounded-[1.6rem] border border-[#efc6cc] bg-white/62 p-5 shadow-[0_20px_58px_rgba(216,131,146,0.12)] transition hover:-translate-y-1 hover:bg-white"
           >
             <ProductBadges badges={comparison.badges.slice(0, 2)} />
-            <h3 className="mt-4 font-display text-3xl leading-tight text-[#5b3441]">
+            <h3 className="editorial-color-kiss mt-4 font-display text-3xl leading-tight">
               {comparison.shortTitle}
             </h3>
             <p className="mt-3 text-sm leading-6 text-[#7e6970]">
@@ -319,7 +331,7 @@ function CategoryBand() {
           <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
             Kategori
           </p>
-          <h2 className="mt-2 font-display text-3xl text-[#5b3441]">
+          <h2 className="editorial-color-kiss mt-2 font-display text-3xl">
             {category.label}
           </h2>
           <p className="mt-3 text-sm leading-6 text-[#7e6970]">
@@ -360,7 +372,7 @@ function TrustBand() {
           return (
             <Link key={item.title} href={item.href} className="block">
               <Icon className="text-[#B983A6]" size={24} aria-hidden="true" />
-              <h2 className="mt-3 font-display text-2xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss mt-3 font-display text-2xl">
                 {item.title}
               </h2>
               <p className="mt-2 text-sm leading-6 text-[#6f5a64]">

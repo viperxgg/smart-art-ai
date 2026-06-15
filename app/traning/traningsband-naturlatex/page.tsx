@@ -178,7 +178,7 @@ export default async function TraningBandReviewPage() {
               Prisvärt val
             </p>
             <ProductBadges badges={featuredProduct.badges} className="mt-4" />
-            <h1 className="mt-4 font-display text-4xl leading-[1.05] tracking-[-0.035em] text-[#4B2838] sm:text-6xl">
+            <h1 className="editorial-color-kiss mt-4 font-display text-4xl leading-[1.05] tracking-[-0.035em] sm:text-6xl">
               Träningsband i naturlatex – 4 motståndsnivåer
             </h1>
             <p className="mt-5 text-lg leading-8 text-[#6f5a64]">
@@ -204,7 +204,7 @@ export default async function TraningBandReviewPage() {
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
             Prisvärt val
           </p>
-          <h2 className="mt-2 font-display text-3xl text-[#4B2838]">
+          <h2 className="editorial-color-kiss mt-2 font-display text-3xl">
             Mycket träningsband för en låg peng.
           </h2>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-[#6f5a64]">
@@ -231,7 +231,7 @@ export default async function TraningBandReviewPage() {
 
         <section className="mt-7">
           <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-            <h2 className="font-display text-3xl text-[#4B2838]">
+            <h2 className="editorial-color-kiss font-display text-3xl">
               Inte perfekt, men bra att veta
             </h2>
             <div className="mt-6 grid gap-3">
@@ -248,7 +248,7 @@ export default async function TraningBandReviewPage() {
         </section>
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-          <h2 className="font-display text-3xl text-[#4B2838]">
+          <h2 className="editorial-color-kiss font-display text-3xl">
             De fyra nivåerna
           </h2>
           <div className="mt-6 overflow-hidden rounded-[1.5rem] border border-[#F1D8DD]">
@@ -323,7 +323,7 @@ export default async function TraningBandReviewPage() {
         />
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-          <h2 className="font-display text-3xl text-[#4B2838]">
+          <h2 className="editorial-color-kiss font-display text-3xl">
             Vanliga frågor
           </h2>
           <div className="mt-6 grid gap-4">

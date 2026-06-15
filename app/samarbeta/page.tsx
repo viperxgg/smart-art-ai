@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowDown, ArrowLeft, ShieldCheck } from "lucide-react";
+import { ArrowLeft, ShieldCheck } from "lucide-react";
 
 import { InquiryForm } from "@/components/InquiryForm";
 import { createSeoMetadata } from "@/lib/metadata";
@@ -28,7 +28,7 @@ export default function CollaboratePage() {
           <p className="text-sm font-black uppercase tracking-[0.14em] text-[#D8788D]">
             Standard först
           </p>
-          <h1 className="mt-4 font-display text-5xl leading-none text-[#4B2838] md:text-7xl">
+          <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-none md:text-7xl">
             Samarbeta med oss
           </h1>
 
@@ -77,11 +77,10 @@ export default function CollaboratePage() {
           </div>
 
           <a
-            href="#kontaktformular"
+            href={`mailto:${siteConfig.email}`}
             className="mt-7 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#D8788D] px-6 font-black text-white shadow-[0_20px_50px_rgba(216,120,141,0.28)] transition hover:bg-[#B983A6]"
           >
             Låt oss prata mer
-            <ArrowDown size={18} aria-hidden="true" />
           </a>
         </section>
 

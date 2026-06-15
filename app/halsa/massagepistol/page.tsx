@@ -86,7 +86,7 @@ export default function MassagepistolHubPage() {
             <HeartPulse size={18} aria-hidden="true" />
             Elins guide 2026
           </p>
-          <h1 className="mt-6 max-w-4xl font-display text-5xl leading-[1.02] tracking-[-0.04em] text-[#4B2838] sm:text-7xl">
+          <h1 className="editorial-color-kiss mt-6 max-w-4xl font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
             Massagepistol - välj rätt utan krångel
           </h1>
           <p className="mt-6 max-w-3xl text-xl leading-9 text-[#6f5a64]">
@@ -107,7 +107,7 @@ export default function MassagepistolHubPage() {
               <SlidersHorizontal size={24} aria-hidden="true" />
             </span>
             <div>
-              <h2 className="font-display text-4xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss font-display text-4xl">
                 Hur väljer du?
               </h2>
               <p className="mt-4 max-w-3xl text-lg leading-8 text-[#6f5a64]">
@@ -142,7 +142,7 @@ export default function MassagepistolHubPage() {
                 <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
                   {pick.product.brand}
                 </p>
-                <h2 className="mt-3 font-display text-3xl leading-tight text-[#4B2838]">
+                <h2 className="editorial-color-kiss mt-3 font-display text-3xl leading-tight">
                   {pick.headline}
                 </h2>
                 <p className="mt-4 leading-8 text-[#6f5a64]">
@@ -159,7 +159,7 @@ export default function MassagepistolHubPage() {
 
         <section className="mt-10 overflow-hidden rounded-[2rem] border border-[#F1D8DD] bg-white/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
           <div className="p-6 md:p-8">
-            <h2 className="font-display text-4xl text-[#4B2838]">
+            <h2 className="editorial-color-kiss font-display text-4xl">
               Snabb jämförelse
             </h2>
           </div>
@@ -201,7 +201,7 @@ export default function MassagepistolHubPage() {
           <div className="flex items-start gap-4">
             <ShieldCheck className="mt-1 shrink-0 text-[#B983A6]" size={24} />
             <div>
-              <h2 className="font-display text-4xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss font-display text-4xl">
                 Elins korta dom
               </h2>
               <p className="mt-4 max-w-4xl text-lg leading-8 text-[#6f5a64]">

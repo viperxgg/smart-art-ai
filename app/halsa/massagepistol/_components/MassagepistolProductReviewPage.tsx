@@ -119,7 +119,7 @@ export async function MassagepistolProductReviewPage({
               Prisvärt val
             </p>
             <ProductBadges badges={pick.product.badges} className="mt-4" />
-            <h1 className="mt-4 font-display text-4xl leading-[1.05] tracking-[-0.035em] text-[#4B2838] sm:text-6xl">
+            <h1 className="editorial-color-kiss mt-4 font-display text-4xl leading-[1.05] tracking-[-0.035em] sm:text-6xl">
               {pick.headline}
             </h1>
             <p className="mt-5 text-lg leading-8 text-[#6f5a64]">
@@ -143,7 +143,7 @@ export async function MassagepistolProductReviewPage({
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
             Prisvärt val
           </p>
-          <h2 className="mt-2 font-display text-3xl text-[#4B2838]">
+          <h2 className="editorial-color-kiss mt-2 font-display text-3xl">
             {pick.valueHook}
           </h2>
           <p className="mt-5 max-w-4xl text-lg leading-8 text-[#6f5a64]">
@@ -152,7 +152,7 @@ export async function MassagepistolProductReviewPage({
           <p className="mt-5 max-w-4xl rounded-2xl bg-white/60 p-5 text-lg font-semibold leading-8 text-[#5f4a54]">
             {pick.verdict}
           </p>
-          <h3 className="mt-7 font-display text-2xl text-[#4B2838]">
+          <h3 className="editorial-color-kiss mt-7 font-display text-2xl">
               Passar dig som...
           </h3>
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
@@ -172,7 +172,7 @@ export async function MassagepistolProductReviewPage({
 
         <section className="mt-7">
           <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-            <h2 className="font-display text-3xl text-[#4B2838]">
+            <h2 className="editorial-color-kiss font-display text-3xl">
               Bra att veta
             </h2>
             <div className="mt-6 flex min-h-14 items-start gap-4 rounded-2xl bg-[#FFF4F5] px-4 py-4 text-[#5f4a54]">
@@ -188,7 +188,7 @@ export async function MassagepistolProductReviewPage({
 
         <section className="mt-7 overflow-hidden rounded-[2rem] border border-[#F1D8DD] bg-white/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
           <div className="p-6 md:p-8">
-            <h2 className="font-display text-3xl text-[#4B2838]">
+            <h2 className="editorial-color-kiss font-display text-3xl">
               Beurer MG 99 vs BDBKMG - vilken ska du välja?
             </h2>
             <p className="mt-4 max-w-3xl leading-8 text-[#6f5a64]">
@@ -277,7 +277,7 @@ export async function MassagepistolProductReviewPage({
         />
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-          <h2 className="font-display text-3xl text-[#4B2838]">
+          <h2 className="editorial-color-kiss font-display text-3xl">
             Vanliga frågor
           </h2>
           <div className="mt-6 grid gap-4">

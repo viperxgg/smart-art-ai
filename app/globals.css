@@ -82,6 +82,53 @@ a {
   font-weight: 900;
 }
 
+main :where(h1, h2, h3).font-display {
+  letter-spacing: 0;
+  text-wrap: balance;
+  text-shadow: 0.035em 0.025em 0 rgba(216, 120, 141, 0.14);
+}
+
+main :where(h1, h2).font-display::first-letter {
+  color: #c95f7c;
+}
+
+main :where(h1, h2, h3).font-display :where(a, span) {
+  text-shadow: inherit;
+}
+
+main :where(p, li) strong {
+  color: #6d3c4d;
+}
+
+main :where(p, li) strong:first-child {
+  color: #9e5e73;
+}
+
+.editorial-color-kiss {
+  background: linear-gradient(105deg, #6d3c4d 0%, #c95f7c 48%, #7c628f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.editorial-soft-mark {
+  border-radius: 999px;
+  background: #fff0c7;
+  color: #8a6641;
+  padding-inline: 0.45em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.editorial-rose-mark {
+  border-radius: 0.75em;
+  background: #ffe0e7;
+  color: #bf5d73;
+  padding-inline: 0.35em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 .text-balance {
   text-wrap: balance;
 }

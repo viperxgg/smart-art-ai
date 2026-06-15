@@ -43,7 +43,7 @@ export default function CategoriesPage() {
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
             Hitta rätt snabbt
           </p>
-          <h1 className="mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] text-[#4B2838] sm:text-7xl">
+          <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
             Kategorier
           </h1>
           <p className="mt-6 max-w-2xl text-xl leading-9 text-[#6f5a64]">
@@ -65,7 +65,7 @@ export default function CategoriesPage() {
                 <span className="grid h-14 w-14 place-items-center rounded-2xl bg-[#F9E0E3] text-[#B983A6]">
                   <FolderOpen size={26} aria-hidden="true" />
                 </span>
-                <h2 className="mt-5 font-display text-4xl text-[#4B2838]">
+                <h2 className="editorial-color-kiss mt-5 font-display text-4xl">
                   {category.label}
                 </h2>
                 <p className="mt-3 text-lg leading-8 text-[#6f5a64]">

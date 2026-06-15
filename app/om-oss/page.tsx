@@ -28,18 +28,29 @@ export default function AboutPage() {
             <p className="text-sm font-black uppercase tracking-[0.14em] text-[#D8788D]">
               Om Elin
             </p>
-            <h1 className="mt-4 font-display text-5xl leading-none text-[#4B2838] md:text-7xl">
-              Jag letar efter värde i bruset.
+            <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-none md:text-7xl">
+              Jag letar efter{" "}
+              <span className="text-[#c95f7c]">värde</span> i{" "}
+              <span className="text-[#7c628f]">bruset</span>.
             </h1>
             <p className="mt-6 text-lg leading-8 text-[#5f4a54]">
-              Elin är guiden bakom Elins val: en röst som jämför produkter,
-              köpsignaler och tusentals verkliga omdömen för att hitta det som
-              faktiskt verkar värt pengarna.
+              Elin är guiden bakom Elins val: en röst som jämför{" "}
+              <span className="font-semibold text-[#b85b89]">produkter</span>,
+              köpsignaler och{" "}
+              <span className="rounded-full bg-[#fff0c7] px-2 font-semibold text-[#8a6641]">
+                tusentals verkliga omdömen
+              </span>{" "}
+              för att hitta det som faktiskt verkar värt pengarna.
             </p>
             <p className="mt-5 text-lg leading-8 text-[#5f4a54]">
-              Målet är inte att lista allt. Målet är att göra valet lugnare:
+              Målet är inte att lista allt. Målet är att göra valet{" "}
+              <span className="font-semibold text-[#7f668e]">lugnare</span>:
               varför något är intressant, vem det passar, vilken kompromiss som
-              finns och när ett billigare eller enklare alternativ räcker.
+              finns och när ett{" "}
+              <span className="font-semibold text-[#c76f80]">
+                billigare eller enklare
+              </span>{" "}
+              alternativ räcker.
             </p>
             <p className="mt-5 rounded-3xl border border-[#F1D8DD] bg-[#FFF4F5] p-5 leading-7 text-[#6f5a64]">
               <strong>Annons och transparens:</strong> Elins val kan få provision
@@ -55,21 +66,30 @@ export default function AboutPage() {
                 <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
                   Elins löfte
                 </p>
-                <h2 className="mt-3 font-display text-4xl leading-tight text-[#4B2838]">
+                <h2 className="editorial-color-kiss mt-3 font-display text-4xl leading-tight">
                   Hellre ett tydligt nej än en lång lista.
                 </h2>
               </div>
               <div className="mt-8 grid gap-3">
                 {[
-                  "Värde före hype.",
-                  "Caveats innan klick.",
-                  "Annons märks tydligt.",
+                  {
+                    text: "Värde före hype.",
+                    className: "border-[#f0bfcb] bg-[#fff4f6] text-[#7a3f50]",
+                  },
+                  {
+                    text: "Caveats innan klick.",
+                    className: "border-[#e4d2ef] bg-[#fbf7ff] text-[#684f78]",
+                  },
+                  {
+                    text: "Annons märks tydligt.",
+                    className: "border-[#f2ddb2] bg-[#fff9eb] text-[#755b35]",
+                  },
                 ].map((item) => (
                   <div
-                    key={item}
-                    className="rounded-2xl border border-[#F1D8DD] bg-[#FFF9F7] px-4 py-3 font-black text-[#6f3f4d]"
+                    key={item.text}
+                    className={`rounded-2xl border px-4 py-3 font-black ${item.className}`}
                   >
-                    {item}
+                    {item.text}
                   </div>
                 ))}
               </div>
@@ -103,7 +123,7 @@ export default function AboutPage() {
                 className="rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_20px_60px_rgba(185,131,166,0.08)]"
               >
                 <Icon className="text-[#B983A6]" size={24} aria-hidden="true" />
-                <h2 className="mt-4 font-display text-2xl text-[#4B2838]">
+                <h2 className="editorial-color-kiss mt-4 font-display text-2xl">
                   {item.title}
                 </h2>
                 <p className="mt-2 leading-7 text-[#6f5a64]">{item.text}</p>

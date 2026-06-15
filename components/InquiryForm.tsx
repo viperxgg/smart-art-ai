@@ -128,7 +128,7 @@ export function InquiryForm({ turnstileSiteKey }: InquiryFormProps) {
           <Mail size={20} aria-hidden="true" />
         </span>
         <div>
-          <h2 className="font-display text-3xl text-[#4B2838]">Skriv till oss</h2>
+          <h2 className="editorial-color-kiss font-display text-3xl">Skriv till oss</h2>
           <p className="mt-2 leading-7 text-[#6f5a64]">
             Skicka ett kort meddelande så svarar vi via e-post. Det här är bara
             starten på samtalet, inte en produktinlämning.

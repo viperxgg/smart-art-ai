@@ -27,7 +27,7 @@ export default function CookiesPage() {
           <p className="text-sm font-black uppercase tracking-[0.14em] text-[#D8788D]">
             Cookies
           </p>
-          <h1 className="mt-4 font-display text-5xl leading-none text-[#4B2838] md:text-7xl">
+          <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-none md:text-7xl">
             Enkel cookieinformation
           </h1>
           <p className="mt-6 text-lg leading-8 text-[#5f4a54]">
@@ -39,9 +39,9 @@ export default function CookiesPage() {
 
           <div className="mt-8 grid gap-5">
             <article className="rounded-3xl bg-[#FFF4F5] p-5">
-              <h2 className="flex items-center gap-3 font-display text-2xl text-[#4B2838]">
-                <ShieldCheck size={24} aria-hidden="true" />
-                Nödvändiga funktioner
+              <h2 className="flex items-center gap-3 font-display text-2xl">
+                <ShieldCheck className="text-[#B983A6]" size={24} aria-hidden="true" />
+                <span className="editorial-color-kiss">Nödvändiga funktioner</span>
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">
                 Om Cloudflare Turnstile är aktiverat laddas det på
@@ -53,7 +53,7 @@ export default function CookiesPage() {
             </article>
 
             <article className="rounded-3xl bg-[#FFF4F5] p-5">
-              <h2 className="font-display text-2xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss font-display text-2xl">
                 Externa länkar
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">
@@ -64,7 +64,7 @@ export default function CookiesPage() {
             </article>
 
             <article className="rounded-3xl bg-[#FFF4F5] p-5">
-              <h2 className="font-display text-2xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss font-display text-2xl">
                 Frågor eller radering
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">

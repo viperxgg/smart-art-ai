@@ -28,7 +28,7 @@ export function TrustReviewLayers({
             <p className="text-xs font-black uppercase tracking-[0.14em] text-[#D8788D]">
               Amazon
             </p>
-            <h2 className="font-display text-3xl text-[#4B2838]">
+            <h2 className="editorial-color-kiss font-display text-3xl">
               Vad Amazon-köparna säger
             </h2>
           </div>
@@ -72,7 +72,7 @@ export function TrustReviewLayers({
             <p className="text-xs font-black uppercase tracking-[0.14em] text-[#D8788D]">
               Riktiga läsare
             </p>
-            <h2 className="font-display text-3xl text-[#4B2838]">
+            <h2 className="editorial-color-kiss font-display text-3xl">
               Vår community
             </h2>
           </div>

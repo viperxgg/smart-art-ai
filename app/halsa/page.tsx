@@ -54,7 +54,7 @@ export default function HalsaHubPage() {
             <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
               Elins hälsoval
             </p>
-            <h1 className="mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] text-[#4B2838] sm:text-7xl">
+            <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
               Hälsa som känns enkel.
             </h1>
             <p className="mt-6 max-w-2xl text-xl leading-9 text-[#6f5a64]">
@@ -76,7 +76,7 @@ export default function HalsaHubPage() {
                 <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
                   Guide 2026
                 </p>
-                <h2 className="mt-3 font-display text-4xl leading-tight text-[#4B2838]">
+                <h2 className="editorial-color-kiss mt-3 font-display text-4xl leading-tight">
                   Massagepistol
                 </h2>
                 <p className="mt-4 text-lg leading-8 text-[#6f5a64]">
@@ -97,7 +97,7 @@ export default function HalsaHubPage() {
             <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
               Produktkort
             </p>
-            <h2 className="mt-2 font-display text-4xl text-[#4B2838]">
+            <h2 className="editorial-color-kiss mt-2 font-display text-4xl">
               Massagepistoler Elin jämför
             </h2>
           </div>
@@ -115,7 +115,7 @@ export default function HalsaHubPage() {
               <Sparkles size={24} aria-hidden="true" />
             </span>
             <div>
-              <h2 className="font-display text-3xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss font-display text-3xl">
                 Mindre hype. Mer vardagsnytta.
               </h2>
               <p className="mt-3 text-lg leading-8 text-[#6f5a64]">

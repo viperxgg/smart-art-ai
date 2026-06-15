@@ -46,7 +46,7 @@ export function ElinsScoreCard({ score, className = "" }: ElinsScoreCardProps) {
           </p>
           <h2
             id="elins-poang-heading"
-            className="mt-2 font-display text-3xl text-[#4B2838]"
+            className="editorial-color-kiss mt-2 font-display text-3xl"
           >
             Elins poäng
           </h2>

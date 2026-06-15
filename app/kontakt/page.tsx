@@ -27,7 +27,7 @@ export default function ContactPage() {
           <p className="text-sm font-black uppercase tracking-[0.14em] text-[#D8788D]">
             Kontakt
           </p>
-          <h1 className="mt-4 font-display text-5xl leading-none text-[#4B2838] md:text-7xl">
+          <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-none md:text-7xl">
             Kontakta oss
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-[#5f4a54]">
@@ -42,7 +42,7 @@ export default function ContactPage() {
                 size={28}
                 aria-hidden="true"
               />
-              <h2 className="mt-4 font-display text-3xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss mt-4 font-display text-3xl">
                 För varumärken & säljare
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">
@@ -59,7 +59,7 @@ export default function ContactPage() {
 
             <article className="rounded-[1.75rem] border border-[#F1D8DD] bg-white/80 p-5">
               <Mail className="text-[#B983A6]" size={28} aria-hidden="true" />
-              <h2 className="mt-4 font-display text-3xl text-[#4B2838]">
+              <h2 className="editorial-color-kiss mt-4 font-display text-3xl">
                 Direkt e-post
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">

@@ -34,7 +34,7 @@ export default function ComparisonsIndexPage() {
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
             Jämförelser
           </p>
-          <h1 className="mt-4 max-w-4xl font-display text-5xl leading-[1.02] tracking-[-0.04em] text-[#4B2838] sm:text-7xl">
+          <h1 className="editorial-color-kiss mt-4 max-w-4xl font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
             Två val. En tydligare väg.
           </h1>
           <p className="mt-6 max-w-3xl text-xl leading-9 text-[#6f5a64]">
@@ -60,7 +60,7 @@ export default function ComparisonsIndexPage() {
                   <div>
                     <h2
                       id={`${category.slug}-title`}
-                      className="font-display text-4xl text-[#4B2838]"
+                      className="editorial-color-kiss font-display text-4xl"
                     >
                       {category.label}
                     </h2>
@@ -109,7 +109,7 @@ function ComparisonCard({
       className="group flex h-full flex-col rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-5 shadow-[0_24px_70px_rgba(185,131,166,0.1)] transition hover:-translate-y-1 hover:bg-white"
     >
       <ProductBadges badges={comparison.badges} />
-      <h3 className="mt-5 font-display text-3xl leading-tight text-[#4B2838]">
+      <h3 className="editorial-color-kiss mt-5 font-display text-3xl leading-tight">
         {comparison.shortTitle}
       </h3>
       <p className="mt-3 leading-7 text-[#6f5a64]">{comparison.description}</p>
