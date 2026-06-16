@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { JsonLd } from "@/components/JsonLd";
 import { ProductDiscoveryLanding } from "@/components/ProductDiscoveryLanding";
+import { defaultOgImage } from "@/lib/metadata";
 import { featuredProduct } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
@@ -18,20 +19,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     type: "website",
     locale: "sv_SE",
-    images: [
-      {
-        url: `${siteConfig.url}${featuredProduct.image}`,
-        width: 1024,
-        height: 1024,
-        alt: featuredProduct.imageAlt,
-      },
-    ],
+    images: [defaultOgImage],
   },
   twitter: {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
-    images: [`${siteConfig.url}${featuredProduct.image}`],
+    images: [defaultOgImage.url],
   },
 };
 

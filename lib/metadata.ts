@@ -19,10 +19,10 @@ type SeoMetadataInput = {
 };
 
 export const defaultOgImage: SeoImage = {
-  url: `${siteConfig.url}/products/resistance-bands/elin-resistance-band-thumbnail.webp`,
+  url: `${siteConfig.url}/elin/elin-hero.webp`,
   width: 1024,
   height: 1024,
-  alt: "Person som tränar hemma med ett lila träningsband",
+  alt: "Elin från Elins val",
 };
 
 export function createSeoMetadata({
