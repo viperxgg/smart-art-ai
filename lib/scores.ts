@@ -212,6 +212,30 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 72,
     verdict: "Budgetvalet - billigast och bäst på kort hår",
   },
+  "st-tropez-self-tan-express": {
+    value: 20,
+    performance: 27,
+    promise: 22,
+    proven: 14,
+    total: 83,
+    verdict: "Premiumvalet för en naturlig sommarglow",
+  },
+  "elf-skin-bronzing-drops": {
+    value: 26,
+    performance: 22,
+    promise: 21,
+    proven: 12,
+    total: 81,
+    verdict: "Prisvärt glow-val du blandar själv",
+  },
+  "nivea-sun-after-sun-lotion": {
+    value: 28,
+    performance: 24,
+    promise: 22,
+    proven: 14,
+    total: 88,
+    verdict: "Prisvärt och beprövat after sun-val",
+  },
 };
 
 export function getEditorialScore(productSlug: string) {

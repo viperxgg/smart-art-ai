@@ -1531,6 +1531,188 @@ export const elvireDeepTissueMassageSetProduct: Product = {
   comments: [],
 };
 
+export const stTropezSelfTanExpressProduct: Product = {
+  slug: "st-tropez-self-tan-express",
+  title: "St.Tropez Self Tan Express Bronzing Mousse (200 ml)",
+  category: "skonhet",
+  asin: "B00KSS3MJ0",
+  brand: "St.Tropez",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Elins sommarfavorit", "Naturlig glow", "Vegansk"],
+  image:
+    "/products/brun-utan-sol-st-tropez/brun-utan-sol-st-tropez-thumbnail.webp",
+  imageAlt: "St.Tropez Self Tan Express brun-utan-sol-mousse, 200 ml",
+  images: [
+    {
+      src: "/products/brun-utan-sol-st-tropez/tan-1-bottle.webp",
+      alt: "St.Tropez Self Tan Express brun-utan-sol-mousse, 200 ml",
+      label: "Mousse",
+    },
+    {
+      src: "/products/brun-utan-sol-st-tropez/tan-2-packaging.webp",
+      alt: "St.Tropez Self Tan Express - två förpackningsvarianter",
+      label: "Förpackning",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4a4R9XR",
+  pageHref: "/skonhet/brun-utan-sol",
+  summary:
+    "En beprövad brun-utan-sol-mousse där du styr färgen efter 1, 2 eller 3 timmar.",
+  evaluation: {
+    headline: "Premiumvalet för naturlig glow",
+    intro:
+      "Elin går igenom Amazon-signaler, innehåll och användning för en brun-utan-sol som ska kännas trygg inför sommaren.",
+    verdict:
+      "Premiumvalet för dig som vill ha en naturlig, jämn glow utan att sola.",
+    checks: [],
+  },
+  specSectionEyebrow: "Brun utan sol",
+  specSectionTitle: "St.Tropez Self Tan Express",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Mousse, 200 ml" },
+    { label: "Utveckling", caption: "Tid", value: "1-3 timmar" },
+    { label: "Profil", caption: "Hudvård", value: "Vegansk, cruelty-free" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4a4R9XR",
+    ratingSummary:
+      "Amazon visar 4,4 av 5 från 15 327 recensioner och #14 bland Body Self-Tanners.",
+    highlights: [
+      "Köpare lyfter den naturliga färgen.",
+      "Moussen beskrivs som lätt att applicera.",
+      "Flera uppskattar doften och att färgen går att styra med tiden.",
+    ],
+    cautions: [
+      "Applicering utan handske kan bli ojämn.",
+      "Färgen tonas gradvis ut och behöver fyllas på.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const elfSkinBronzingDropsProduct: Product = {
+  slug: "elf-skin-bronzing-drops",
+  title: "e.l.f. SKIN Bronzing Drops (Rose Gold, 30 ml)",
+  category: "skonhet",
+  asin: "",
+  brand: "e.l.f.",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Prisvärt glow-val", "Vegansk", "Blandas i kräm"],
+  image: "/products/bronzing-drops-elf/bronzing-drops-elf-thumbnail.webp",
+  imageAlt:
+    "e.l.f. SKIN Bronzing Drops i fyra nyanser, från fair gold till copper gold",
+  images: [
+    {
+      src: "/products/bronzing-drops-elf/elf-shades.webp",
+      alt: "e.l.f. SKIN Bronzing Drops i fyra nyanser, från fair gold till copper gold",
+      label: "Nyanser",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4fR8LKl",
+  pageHref: "/skonhet/bronzing-drops",
+  summary:
+    "Pigmenterade bronzing-droppar som blandas i kräm för en naturlig glow du doserar själv.",
+  evaluation: {
+    headline: "Prisvärt glow i droppform",
+    intro:
+      "Elin sammanfattar Amazon-signalerna för ett budgetvänligt glow-val som blandas med egen kräm.",
+    verdict: "Prisvärt glow-val för dig som vill bygga färgen själv.",
+    checks: [],
+  },
+  specSectionEyebrow: "Bronzing drops",
+  specSectionTitle: "e.l.f. SKIN Bronzing Drops",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Pigmenterad vätska, 30 ml" },
+    { label: "Innehåll", caption: "Hudvård", value: "E-vitamin, solrosfröolja" },
+    { label: "Profil", caption: "Hudvård", value: "Vegansk, cruelty-free" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4fR8LKl",
+    ratingSummary: "Amazon visar 4,3 av 5 från 1 550 omdömen.",
+    highlights: [
+      "Köpare lyfter den naturliga lystern.",
+      "Dropparna blandas med egen kräm eller olja.",
+      "Lite produkt beskrivs räcka långt.",
+    ],
+    cautions: [
+      "Färgen är pigmenterad och kan bli mörk.",
+      "Resultatet kan bli ojämnt om dropparna inte blandas väl.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const niveaSunAfterSunLotionProduct: Product = {
+  slug: "nivea-sun-after-sun-lotion",
+  title: "NIVEA SUN After Sun Moisturising Soothing Lotion (200 ml)",
+  category: "skonhet",
+  asin: "B000RO5EXC",
+  brand: "NIVEA Sun",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Prisvärt val", "Aloe vera", "After sun"],
+  image: "/products/aftersun-nivea/aftersun-nivea-thumbnail.webp",
+  imageAlt: "NIVEA SUN After Sun Moisturising Soothing Lotion, 200 ml",
+  images: [
+    {
+      src: "/products/aftersun-nivea/nivea-after-sun-1.webp",
+      alt: "NIVEA SUN After Sun Moisturising Soothing Lotion, 200 ml",
+      label: "After sun",
+    },
+    {
+      src: "/products/aftersun-nivea/nivea-after-sun-2.webp",
+      alt: "NIVEA SUN After Sun - återfuktande lotion med aloe vera",
+      label: "Aloe vera",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3SbyO5f",
+  pageHref: "/skonhet/aftersun",
+  summary:
+    "Ett prisvärt after sun-val med aloe vera för fukt och en svalkande känsla efter solen.",
+  evaluation: {
+    headline: "Prisvärt och beprövat after sun-val",
+    intro:
+      "Elin går igenom Amazon-signalerna för ett enkelt after sun-val inför sommarens stranddagar.",
+    verdict: "Prisvärt och beprövat after sun-val för hela sommaren.",
+    checks: [],
+  },
+  specSectionEyebrow: "After sun",
+  specSectionTitle: "NIVEA SUN After Sun",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Lotion, 200 ml" },
+    { label: "Innehåll", caption: "Hudvård", value: "Aloe vera, avokadoolja" },
+    { label: "Känsla", caption: "Efter solen", value: "Svalkande, lätt" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3SbyO5f",
+    ratingSummary: "Amazon visar 4,6 av 5 från 3 237 omdömen.",
+    highlights: [
+      "Köpare lyfter den svalkande känslan.",
+      "Lotionen beskrivs absorberas snabbt.",
+      "Flera uppskattar doften och det prisvärda formatet.",
+    ],
+    cautions: [
+      "After sun ersätter inte separat solskydd.",
+      "Produkten innehåller parfym och parabener.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   jakkofoxxLoopbandProduct,
@@ -1554,6 +1736,9 @@ export const products = [
   remingtonAs7100Product,
   babylissC325eProduct,
   tymoCurlproProduct,
+  stTropezSelfTanExpressProduct,
+  elfSkinBronzingDropsProduct,
+  niveaSunAfterSunLotionProduct,
 ] as const;
 
 export const productCategories: readonly ProductCategory[] = [

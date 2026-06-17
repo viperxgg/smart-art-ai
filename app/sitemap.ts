@@ -59,6 +59,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.72,
     },
     {
+      url: `${siteConfig.url}/sommar`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.78,
+    },
+    {
       url: `${siteConfig.url}/elins-poang`,
       lastModified: new Date(),
       changeFrequency: "monthly",
@@ -189,6 +195,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.7,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/brun-utan-sol`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/bronzing-drops`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/aftersun`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
     },
     {
       url: `${siteConfig.url}/skonhet/plattang`,
