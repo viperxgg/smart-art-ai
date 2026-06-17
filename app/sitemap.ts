@@ -77,6 +77,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${siteConfig.url}/traning/traningsband`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/traning/traningsband/loopband-jakkofoxx`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
       url: `${siteConfig.url}/traning/kettlebell`,
       lastModified: new Date(),
       changeFrequency: "weekly",

@@ -44,6 +44,14 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 80,
     verdict: "Smart förstaval för hemmaträning",
   },
+  "jakkofoxx-loopband": {
+    value: 27,
+    performance: 21,
+    promise: 20,
+    proven: 14,
+    total: 82,
+    verdict: "Mest beprövade loop-bandet för ben och rumpa",
+  },
   "amazon-basics-gjutjarns-kettlebell": {
     value: 28,
     performance: 25,

@@ -204,6 +204,83 @@ export const featuredProduct: Product = {
   comments: [],
 };
 
+export const jakkofoxxLoopbandProduct: Product = {
+  slug: "jakkofoxx-loopband",
+  title: "JAKKOFOXX loop band - set med 5 motståndsnivåer",
+  category: "traning",
+  asin: "B097JQYZR1",
+  brand: "JAKKOFOXX",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["5 nivåer", "Ben & rumpa", "Mest beprövad"],
+  image: "/products/loopband-jakkofoxx/loopband-jakkofoxx-thumbnail.webp",
+  imageAlt:
+    "JAKKOFOXX loop band med fem motståndsnivåer från X-light till X-heavy",
+  images: [
+    {
+      src: "/products/loopband-jakkofoxx/loop-1-levels.webp",
+      alt: "JAKKOFOXX loop band - fem motståndsnivåer från X-light till X-heavy",
+      label: "5 nivåer",
+    },
+    {
+      src: "/products/loopband-jakkofoxx/loop-2-glute.webp",
+      alt: "Kvinna tränar rumpa och ben med JAKKOFOXX loop band",
+      label: "Ben & rumpa",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3Srw43F",
+  pageHref: "/traning/traningsband/loopband-jakkofoxx",
+  summary:
+    "Fem korta loop-band för ben, rumpa, höfter, pilates och rehab: kompakt, billigt och beprövat av tusentals Amazon-köpare.",
+  evaluation: {
+    headline: "Elins loop-band-val",
+    intro:
+      "JAKKOFOXX passar dig som vill ha flera motståndsnivåer för riktad benträning hemma eller på resan.",
+    verdict:
+      "Elins val för ben och rumpa - mest beprövade loop-bandet för pengarna.",
+    checks: [],
+  },
+  specSectionEyebrow: "Loop-band",
+  specSectionTitle: "JAKKOFOXX 5 nivåer",
+  specs: [
+    { label: "Typ", caption: "Format", value: "Korta loop-band, 30 cm" },
+    { label: "Motstånd", caption: "Nivåer", value: "X-light till X-heavy" },
+    { label: "Material", caption: "Band", value: "TPE" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3Srw43F",
+    ratingSummary:
+      "Amazon visar 4,4 av 5 från 8 138 recensioner och #3 i Resistance Bands.",
+    highlights: [
+      "Köpare lyfter de tydliga motståndsnivåerna.",
+      "Setet är kompakt och enkelt att ta med.",
+      "Passar bäst för ben, rumpa, höfter, pilates och rehab.",
+    ],
+    cautions: [
+      "Det är korta loop-band, inte långa band för helkroppsstyrka.",
+      "Gummiband kan rulla ihop vid tyngre benövningar.",
+      "En mindre andel köpare tycker att spänsten avtar över tid.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Riktad träning för ben, rumpa och höfter hemma.",
+    "Pilates, uppvärmning och rehab-liknande övningar.",
+    "Reseträning där utrustningen måste ta minimalt med plats.",
+  ],
+  peopleLike: [
+    "Fem nivåer gör det lätt att börja mjukt och öka motståndet.",
+    "Formatet är enkelt för glute bridges, sidogång och höftaktivering.",
+    "Kompakt set som ryms i väskan.",
+  ],
+  honestCheck: [
+    "Välj långa träningsband om du vill träna hela kroppen.",
+    "TPE-band kan rulla mer på låren än tygband.",
+    "Kontrollera alltid bandens skick före användning.",
+  ],
+  comments: [],
+};
+
 export const beurerMassagepistolProduct: Product = {
   slug: "beurer-mg-99-massagepistol",
   title: "Beurer MG 99 massagepistol",
@@ -1456,6 +1533,7 @@ export const elvireDeepTissueMassageSetProduct: Product = {
 
 export const products = [
   featuredProduct,
+  jakkofoxxLoopbandProduct,
   amazonBasicsKettlebellProduct,
   proironSoftKettlebellProduct,
   proironNeopreneDumbbellsProduct,

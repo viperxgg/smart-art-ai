@@ -310,6 +310,16 @@ export default async function TraningBandReviewPage() {
         <RelatedLinks
           links={[
             {
+              href: "/traning/traningsband",
+              label: "Jämför träningsband",
+              text: "Se skillnaden mellan långa band i naturlatex och korta loop-band.",
+            },
+            {
+              href: "/traning/traningsband/loopband-jakkofoxx",
+              label: "Loop-band",
+              text: "Se JAKKOFOXX loop band om fokus är ben, rumpa, pilates och rehab.",
+            },
+            {
               href: "/traning",
               label: "Fler träningsval",
               text: "Tillbaka till Elins samlade produkter för enkel hemmaträning.",

@@ -11,6 +11,7 @@ import {
   bodymateFoamRollerCareProduct,
   elvireDeepTissueMassageSetProduct,
   featuredProduct,
+  jakkofoxxLoopbandProduct,
   proironSoftKettlebellProduct,
   proironNeopreneDumbbellsProduct,
   prosourcefitYogaMatProduct,
@@ -91,6 +92,33 @@ export default function TraningHubPage() {
                 bli använda även när vardagen är full.
               </p>
             </div>
+          </div>
+        </section>
+
+        <section className="mt-10">
+          <div className="flex items-end justify-between gap-4">
+            <div>
+              <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                Träningsband
+              </p>
+              <h2 className="editorial-color-kiss mt-2 font-display text-4xl">
+                Helkropp eller ben och rumpa?
+              </h2>
+              <p className="mt-3 max-w-2xl text-lg leading-8 text-[#6f5a64]">
+                Elin jämför långa band i naturlatex för helkropp mot korta
+                loop-band för ben, rumpa, pilates och rehab.
+              </p>
+            </div>
+            <Link
+              href="/traning/traningsband"
+              className="hidden min-h-11 shrink-0 items-center rounded-full border border-[#E9CDD3] bg-white/70 px-5 text-sm font-black text-[#9E5E73] transition hover:-translate-y-0.5 hover:bg-white sm:inline-flex"
+            >
+              Se guiden
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-6 md:grid-cols-2">
+            <ProductCard product={featuredProduct} />
+            <ProductCard product={jakkofoxxLoopbandProduct} />
           </div>
         </section>
 
@@ -204,6 +232,11 @@ export default function TraningHubPage() {
 
         <RelatedLinks
           links={[
+            {
+              href: "/traning/traningsband",
+              label: "Träningsband",
+              text: "Jämför långa band i naturlatex med korta loop-band för ben och rumpa.",
+            },
             {
               href: "/traning/foam-roller",
               label: "Foam roller",

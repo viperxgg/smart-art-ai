@@ -14,6 +14,18 @@ export type ComparisonEntry = {
 
 export const comparisonEntries: readonly ComparisonEntry[] = [
   {
+    slug: "traningsband",
+    title: "Långa träningsband vs JAKKOFOXX loop-band",
+    shortTitle: "Träningsband",
+    category: "traning",
+    categoryLabel: "Träning",
+    href: "/traning/traningsband",
+    description:
+      "Långa band i naturlatex för helkropp mot loop-band för ben och rumpa.",
+    productSlugs: ["traningsband-4-nivaer", "jakkofoxx-loopband"],
+    badges: ["Helkropp", "Ben & rumpa", "Mest beprövad"],
+  },
+  {
     slug: "kettlebell",
     title: "Amazon Basics vs PROIRON mjuk kettlebell",
     shortTitle: "Kettlebell",
