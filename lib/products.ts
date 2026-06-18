@@ -1713,6 +1713,260 @@ export const niveaSunAfterSunLotionProduct: Product = {
   comments: [],
 };
 
+export const moroccanoilHaroljaProduct: Product = {
+  slug: "moroccanoil-harolja",
+  title: "Moroccanoil Treatment Original - hårolja (25 ml)",
+  category: "skonhet",
+  asin: "B003JKFEL8",
+  brand: "Moroccanoil",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Elins premiumval", "Mest beprövad", "Hårolja"],
+  image: "/products/moroccanoil-harolja/harolja-moroccanoil-thumbnail.webp",
+  imageAlt: "Moroccanoil Treatment hårolja, 25 ml",
+  images: [
+    {
+      src: "/products/moroccanoil-harolja/harolja-moroccanoil-1.webp",
+      alt: "Moroccanoil hårolja med gyllene oljedroppe",
+      label: "Oljedroppe",
+    },
+    {
+      src: "/products/moroccanoil-harolja/harolja-moroccanoil-2.webp",
+      alt: "Moroccanoil hårolja med kam och hårslinga",
+      label: "Glans",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3QzkqTI",
+  pageHref: "/skonhet/harolja",
+  summary:
+    "Ikonisk arganoljebaserad hårolja för glans, mjukhet och mindre frizz i torrt sommarhår.",
+  evaluation: {
+    headline: "Premiumvalet för glans",
+    intro:
+      "Elin går igenom Amazon-signaler, formula och användning för en ikonisk hårolja med ovanligt många omdömen.",
+    verdict:
+      "Premiumvalet för dig som vill ha glans, mjukhet och mindre frizz.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hårolja",
+  specSectionTitle: "Moroccanoil Treatment",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Hårolja, 25 ml" },
+    { label: "Formula", caption: "Bas", value: "Arganoljebaserad" },
+    { label: "Profil", caption: "Hårvård", value: "Alkoholfri, premium beauty" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3QzkqTI",
+    ratingSummary:
+      "Amazon visar 4,7 av 5 från 88 528 omdömen och #1 hair care oil i USA.",
+    highlights: [
+      "Köpare lyfter doften, glansen och den silkeslena känslan.",
+      "Många beskriver den som en favorit för torrt eller frissigt hår.",
+      "Lite produkt beskrivs räcka långt.",
+    ],
+    cautions: [
+      "Det är ett premiumval med högre pris.",
+      "Formulan är silikonbaserad med arganolja, inte en ren naturolja.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const moroccanoilTorrschampoProduct: Product = {
+  slug: "moroccanoil-torrschampo",
+  title: "Moroccanoil Torrschampo för ljust hår (205 ml)",
+  category: "skonhet",
+  asin: "",
+  brand: "Moroccanoil",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Elins premiumval", "För ljust hår", "Torrschampo"],
+  image:
+    "/products/moroccanoil-torrschampo/torrschampo-moroccanoil-thumbnail.webp",
+  imageAlt: "Moroccanoil torrschampo för ljust hår, 205 ml",
+  images: [
+    {
+      src: "/products/moroccanoil-torrschampo/torrschampo-moroccanoil-1.webp",
+      alt: "Moroccanoil torrschampo med borste och ljust hår",
+      label: "Ljust hår",
+    },
+    {
+      src: "/products/moroccanoil-torrschampo/torrschampo-moroccanoil-2.webp",
+      alt: "Moroccanoil torrschampo på sand",
+      label: "Fräsch finish",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4uNk3mG",
+  pageHref: "/skonhet/torrschampo",
+  summary:
+    "Premium-torrschampo med risstärkelse och lila pigment för ljust hår mellan tvättar.",
+  evaluation: {
+    headline: "Premiumvalet för ljust hår",
+    intro:
+      "Elin går igenom Amazon-signaler och användning för ett torrschampo som fräschar upp ljust hår utan synliga puderrester.",
+    verdict:
+      "Premiumvalet för ljust hår - fräscht, fett-mattande och utan puderrester.",
+    checks: [],
+  },
+  specSectionEyebrow: "Torrschampo",
+  specSectionTitle: "Moroccanoil Light Tones",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Spray, 205 ml" },
+    { label: "Innehåll", caption: "Absorberar", value: "Risstärkelse" },
+    { label: "Ton", caption: "Hårfärg", value: "Lila pigment för ljust hår" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4uNk3mG",
+    ratingSummary: "Amazon visar 4,5 av 5 från 12 895 omdömen.",
+    highlights: [
+      "Köpare lyfter att det suger upp fett snabbt.",
+      "Lila pigment hjälper till att matta gulton i ljust och blont hår.",
+      "Flera uppskattar doften och att det inte lämnar puderrester.",
+    ],
+    cautions: [
+      "Light Tones är gjord för ljust eller blont hår, inte mörkt hår.",
+      "Det är en mellanlösning mellan tvättar, inte en ersättning för hårtvätt.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const vxdoirkElektriskFotfilProduct: Product = {
+  slug: "vxdoirk-elektrisk-fotfil",
+  title: "VXDOIRK Elektrisk Fotfil (laddbar)",
+  category: "skonhet",
+  asin: "B09NKW9V58",
+  brand: "VXDOIRK",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Smart sommarfynd", "Laddbar", "3 sliprullar"],
+  image:
+    "/products/vxdoirk-elektrisk-fotfil/elektrisk-fotfil-vxdoirk-thumbnail.webp",
+  imageAlt: "VXDOIRK elektrisk fotfil, laddbar",
+  images: [
+    {
+      src: "/products/vxdoirk-elektrisk-fotfil/elektrisk-fotfil-vxdoirk-1.webp",
+      alt: "Elektrisk fotfil med tre utbytbara sliprullar",
+      label: "3 sliprullar",
+    },
+    {
+      src: "/products/vxdoirk-elektrisk-fotfil/elektrisk-fotfil-vxdoirk-2.webp",
+      alt: "Elektrisk fotfil på sand med handduk",
+      label: "Sandalfina fötter",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4oBzEUP",
+  pageHref: "/skonhet/elektrisk-fotfil",
+  summary:
+    "Laddbar, vattentät elektrisk fotfil med två hastigheter och tre sliprullar för hård hud hemma.",
+  evaluation: {
+    headline: "Smart sommarfynd för fötterna",
+    intro:
+      "Elin går igenom Amazon-signaler och funktioner för en prisvärd elektrisk fotfil inför sandalsäsongen.",
+    verdict:
+      "Smart sommarfynd - laddbart och prisvärt för sandalfina fötter.",
+    checks: [],
+  },
+  specSectionEyebrow: "Elektrisk fotfil",
+  specSectionTitle: "VXDOIRK laddbar fotfil",
+  specs: [
+    { label: "Drift", caption: "Laddning", value: "USB-laddbar" },
+    { label: "Lägen", caption: "Hastighet", value: "2 hastigheter" },
+    { label: "Tillbehör", caption: "Slipning", value: "3 utbytbara sliprullar" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4oBzEUP",
+    ratingSummary:
+      "Amazon visar 4,4 av 5 från 1 762 omdömen och #9 i Foot Files.",
+    highlights: [
+      "Köpare lyfter att den är laddbar och har batteridisplay.",
+      "Tre sliprullar gör den lätt att anpassa efter hårdhet.",
+      "IPX5-klassning gör den användbar wet & dry och enkel att skölja.",
+    ],
+    cautions: [
+      "Vid mycket lång användning kan den bli varm.",
+      "Använd lätt tryck och överdriv inte slipningen.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const lorealElvitalVarmeskyddProduct: Product = {
+  slug: "loreal-elvital-varmeskydd",
+  title: "L'Oréal Elvital Dream Length Värmeskyddsspray (150 ml)",
+  category: "skonhet",
+  asin: "",
+  brand: "L'Oréal Paris",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Elins prisvärda val", "Värmeskydd", "Leave-in"],
+  image:
+    "/products/loreal-elvital-varmeskydd/varmeskydd-loreal-thumbnail.webp",
+  imageAlt:
+    "L'Oréal Elvital Dream Length värmeskyddsspray, 150 ml",
+  images: [
+    {
+      src: "/products/loreal-elvital-varmeskydd/varmeskydd-loreal-1.webp",
+      alt: "Värmeskyddsspray med borste och ljust hår",
+      label: "Inför styling",
+    },
+    {
+      src: "/products/loreal-elvital-varmeskydd/varmeskydd-loreal-2.webp",
+      alt: "Värmeskyddsspray på sand",
+      label: "Prisvärt val",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4exjGqr",
+  pageHref: "/skonhet/varmeskydd",
+  summary:
+    "Prisvärd leave-in-värmeskyddsspray för styling med fön, plattång, locktång eller varmluftsborste.",
+  evaluation: {
+    headline: "Prisvärt värmeskydd inför styling",
+    intro:
+      "Elin går igenom Amazon-signaler och användning för ett värmeskydd som passar innan vanliga värmeverktyg.",
+    verdict:
+      "Prisvärda valet - ett enkelt, effektivt värmeskydd innan värmestyling.",
+    checks: [],
+  },
+  specSectionEyebrow: "Värmeskydd",
+  specSectionTitle: "L'Oréal Elvital Dream Length",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Leave-in-spray, 150 ml" },
+    { label: "Styling", caption: "Värme", value: "Upp till 230°C" },
+    { label: "Innehåll", caption: "Hårvård", value: "Vitaminer och ricinolja" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4exjGqr",
+    ratingSummary: "Amazon visar 4,5 av 5 från 2 975 omdömen.",
+    highlights: [
+      "Köpare lyfter att håret blir lättare att reda ut.",
+      "Flera nämner mindre frizz och mer glans.",
+      "Priset beskrivs som vänligt jämfört med många stylingprodukter.",
+    ],
+    cautions: [
+      "För mycket produkt kan ge en lätt hinna.",
+      "Doft och resultat upplevs olika.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   jakkofoxxLoopbandProduct,
@@ -1739,6 +1993,10 @@ export const products = [
   stTropezSelfTanExpressProduct,
   elfSkinBronzingDropsProduct,
   niveaSunAfterSunLotionProduct,
+  moroccanoilHaroljaProduct,
+  moroccanoilTorrschampoProduct,
+  vxdoirkElektriskFotfilProduct,
+  lorealElvitalVarmeskyddProduct,
 ] as const;
 
 export const productCategories: readonly ProductCategory[] = [

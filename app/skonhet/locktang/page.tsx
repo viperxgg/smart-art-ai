@@ -210,6 +210,11 @@ export default function LocktangHubPage() {
               text: "Se Elins plattångsguide i samma hårstyling-kluster.",
             },
             {
+              href: "/skonhet/varmeskydd",
+              label: "Värmeskydd",
+              text: "Skydda håret innan du stylar med locktång.",
+            },
+            {
               href: "/skonhet",
               label: "Skönhet",
               text: "Gå tillbaka till Elins samlade skönhetsval.",

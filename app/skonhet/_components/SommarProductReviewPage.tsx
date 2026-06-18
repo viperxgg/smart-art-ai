@@ -197,6 +197,7 @@ export async function SommarProductReviewPage({
 
         <RelatedLinks
           links={[
+            ...(pick.relatedLinks ?? []),
             {
               href: "/sommar",
               label: "Sommar-glow",

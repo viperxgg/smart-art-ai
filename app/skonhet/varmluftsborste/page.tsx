@@ -220,6 +220,11 @@ export default function VarmluftsborsteHubPage() {
               text: "Se hårtorksguiden om du vill torka håret snabbare.",
             },
             {
+              href: "/skonhet/varmeskydd",
+              label: "Värmeskydd",
+              text: "Skydda håret innan du stylar med varmluftsborste.",
+            },
+            {
               href: "/skonhet",
               label: "Skönhet",
               text: "Gå tillbaka till Elins samlade skönhetsval.",

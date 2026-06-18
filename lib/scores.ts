@@ -236,6 +236,38 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 88,
     verdict: "Prisvärt och beprövat after sun-val",
   },
+  "moroccanoil-harolja": {
+    value: 19,
+    performance: 28,
+    promise: 23,
+    proven: 15,
+    total: 85,
+    verdict: "Premiumvalet - ikonisk hårolja för glans och mjukhet",
+  },
+  "moroccanoil-torrschampo": {
+    value: 19,
+    performance: 25,
+    promise: 22,
+    proven: 14,
+    total: 80,
+    verdict: "Premium torrschampo som mattar fett och gulton för ljust hår",
+  },
+  "vxdoirk-elektrisk-fotfil": {
+    value: 26,
+    performance: 23,
+    promise: 21,
+    proven: 12,
+    total: 82,
+    verdict: "Prisvärt och laddbart - mjuka, sandalfina fötter hemma",
+  },
+  "loreal-elvital-varmeskydd": {
+    value: 27,
+    performance: 24,
+    promise: 22,
+    proven: 14,
+    total: 87,
+    verdict: "Prisvärt värmeskydd som skyddar håret vid styling",
+  },
 };
 
 export function getEditorialScore(productSlug: string) {

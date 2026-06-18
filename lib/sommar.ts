@@ -1,8 +1,12 @@
 import {
   elfSkinBronzingDropsProduct,
+  lorealElvitalVarmeskyddProduct,
+  moroccanoilHaroljaProduct,
+  moroccanoilTorrschampoProduct,
   niveaSunAfterSunLotionProduct,
   stTropezSelfTanExpressProduct,
   type Product,
+  vxdoirkElektriskFotfilProduct,
 } from "@/lib/products";
 
 export type SommarQuote = {
@@ -39,6 +43,11 @@ export type SommarPick = {
   targetKeyword: string;
   metaTitle: string;
   metaDescription: string;
+  relatedLinks?: {
+    href: string;
+    label: string;
+    text: string;
+  }[];
 };
 
 export const sommarSectionCopy = {
@@ -252,6 +261,284 @@ export const sommarPicks: SommarPick[] = [
     metaTitle: "Aftersun bäst i test - NIVEA SUN After Sun lotion | Elins val",
     metaDescription:
       "Elin går igenom NIVEA SUN After Sun: ett prisvärt, svalkande after sun med aloe vera (4,6 av 5, 3 000+ omdömen) - och varför det inte ersätter solskydd.",
+  },
+  {
+    productSlug: moroccanoilHaroljaProduct.slug,
+    href: "/skonhet/harolja",
+    cardBadge: "Mest beprövad",
+    cardHook: "Ikonisk hårolja för glans & mjukhet - 88 000+ omdömen.",
+    cardImage: "/products/moroccanoil-harolja/harolja-moroccanoil-thumbnail.webp",
+    cardImageAlt: "Moroccanoil Treatment hårolja, 25 ml",
+    product: moroccanoilHaroljaProduct,
+    badge: "Elins premiumval",
+    headline: "Moroccanoil Treatment - hårolja för glans och mjukhet",
+    shortBody:
+      "Den ikoniska arganoljebaserade håroljan som gör håret silkeslent, mjukare och mindre frissigt - perfekt för torrt sommarhår.",
+    valueHook: "Den mest beprövade håroljan för glans och mjukhet.",
+    valueStatement:
+      "Moroccanoil Treatment är den ikoniska håroljan - 4,7 av 5 från över 88 000 omdömen. Den arganoljebaserade formulan gör håret silkeslent, mjukare och mer glansigt, tämjer frizz och absorberas lätt utan att tynga. Den är inte billig, men lite räcker långt och många kallar den sin absoluta favorit. Perfekt för torrt, soltrött sommarhår.",
+    passFor: [
+      "Vill ha glansigt, mjukt hår utan frizz - särskilt torrt eller soltrött sommarhår.",
+      "Föredrar en ikonisk, mycket beprövad produkt.",
+      "Vill ha en liten flaska som räcker länge (några droppar per gång).",
+    ],
+    caution:
+      'Det här är ett premiumval - priset är högt (många köpare skriver "dyr men bra"). Formulan är silikonbaserad med arganolja, inte en ren naturolja. Lite räcker långt, så en liten flaska håller länge.',
+    verdict:
+      "Premiumvalet - ikonisk hårolja för dig som vill ha glans, mjukhet och mindre frizz.",
+    amazonSummary:
+      "Amazon visar 4,7 av 5 från 88 528 omdömen. Köparna lyfter den härliga doften, glansen och att håret känns silkeslent - flera kallar den sin favorit, även om många noterar att den är dyr.",
+    amazonQuotes: [
+      {
+        text: "Bästa håroljan! Härlig doft och känsla i håret. Vårdar utan att göra håret fett - min absoluta favoritprodukt!",
+        attribution: "Helena, Amazon (Sverige)",
+      },
+      {
+        text: "Dyr men bra! Fantastisk doft och gör håret silkeslent.",
+        attribution: "Nico, Amazon (Sverige)",
+      },
+      {
+        text: "Softer hair with less frizz, adds a nice shine and smells amazing - worth the premium price.",
+        attribution: "Köpare, Amazon",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Hur använder jag hårolja?",
+        answer:
+          "Värm några droppar mellan händerna och fördela från mitten av håret ut mot topparna, på fuktigt eller torrt hår. Börja med lite - det räcker långt.",
+      },
+      {
+        question: "Gör den håret fett?",
+        answer:
+          "Köparna beskriver att den absorberas lätt och inte tynger om du doserar lagom. Börja med få droppar och bygg på vid behov.",
+      },
+      {
+        question: "Är den värd priset?",
+        answer:
+          'Det är ett premiumval. Många tycker den är värd det ("dyr men bra"), men det finns billigare håroljor om priset är viktigast.',
+      },
+    ],
+    reviewSectionId: "moroccanoil-harolja-recensioner",
+    reviewFormId: "moroccanoil-harolja-skriv-recension",
+    targetKeyword: "hårolja bäst i test",
+    metaTitle: "Hårolja bäst i test - Moroccanoil Treatment | Elins val",
+    metaDescription:
+      "Elin går igenom Moroccanoil Treatment - den ikoniska håroljan (4,7 av 5, 88 000+ omdömen). Glans, mjukhet och mindre frizz för sommarhåret - och vad du bör veta om priset.",
+  },
+  {
+    productSlug: moroccanoilTorrschampoProduct.slug,
+    href: "/skonhet/torrschampo",
+    cardBadge: "För ljust hår",
+    cardHook: "Fräschar upp fett hår mellan tvättar - mattar gulton i blont.",
+    cardImage:
+      "/products/moroccanoil-torrschampo/torrschampo-moroccanoil-thumbnail.webp",
+    cardImageAlt: "Moroccanoil torrschampo för ljust hår, 205 ml",
+    product: moroccanoilTorrschampoProduct,
+    badge: "Elins premiumval",
+    headline: "Moroccanoil Torrschampo - fräscht, fett-mattande för ljust hår",
+    shortBody:
+      "Ett premium-torrschampo med risstärkelse som suger upp fett och fräschar upp håret mellan tvättar - med lila pigment som mattar gulton i ljust och blont hår.",
+    valueHook: "Det fräscha torrschampot för ljust hår mellan tvättar.",
+    valueStatement:
+      "Moroccanoil Torrschampo (Light Tones) suger upp fett och fräschar upp håret snabbt mellan tvättar, utan tråkiga puderrester. Den finmalda risstärkelsen ger en mjuk, silkeslen finish, och de lila pigmenten hjälper till att matta gulton i ljust och blont hår. 4,5 av 5 från nästan 13 000 omdömen och en härlig signaturdoft - ett premiumval för soliga sommardagar då håret behöver en snabb uppfräschning.",
+    passFor: [
+      "Har ljust eller blont hår och vill matta gulton mellan tvättar.",
+      "Vill fräscha upp fett hår snabbt - på resan eller mellan tvättar.",
+      "Föredrar en finish utan synliga puderrester.",
+    ],
+    caution:
+      'Premiumpris för ett torrschampo, och varianten "Light Tones" är gjord för ljust/blont hår - inte mörkt. Som alla torrschampon är det en mellanlösning mellan tvättar, inte en ersättning för att tvätta håret. En liten andel köpare är inte nöjda.',
+    verdict:
+      "Premiumvalet för ljust hår - fräscht, fett-mattande och utan puderrester.",
+    amazonSummary:
+      "Amazon visar 4,5 av 5 från 12 895 omdömen (inga svenska ännu, men tusentals internationella). Köparna lyfter att det suger upp fett direkt, doftar härligt och inte lämnar puderrester - flera med ljust hår kallar det det bästa torrschampot de provat.",
+    amazonQuotes: [
+      {
+        text: "Best dry shampoo out there. For light hair it's purple-pigmented to take brassiness out of blonde hair. The smell is divine.",
+        attribution: "Köpare, Amazon",
+      },
+      {
+        text: "Lite dyr, men för mitt ljusa hår - klockren! Håret ser helt naturligt ut med fin glans, utan puderrester.",
+        attribution: "Köpare, Amazon",
+      },
+      {
+        text: "Not happy with this product.",
+        attribution: "Köpare, Amazon",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Hur använder jag torrschampo?",
+        answer:
+          "Skaka väl och spraya 15-20 cm från torra rötter. Låt det verka en stund, massera in i hårbotten och borsta ur.",
+      },
+      {
+        question: "Passar det mörkt hår?",
+        answer:
+          'Den här varianten "Light Tones" är gjord för ljust och blont hår och har lila pigment som mattar gulton. För mörkt hår finns andra varianter.',
+      },
+      {
+        question: "Ersätter det vanlig hårtvätt?",
+        answer:
+          "Nej. Torrschampo fräschar upp håret mellan tvättar, men ersätter inte att tvätta håret.",
+      },
+    ],
+    reviewSectionId: "moroccanoil-torrschampo-recensioner",
+    reviewFormId: "moroccanoil-torrschampo-skriv-recension",
+    targetKeyword: "bästa torrschampo",
+    metaTitle: "Bästa torrschampo för ljust hår - Moroccanoil | Elins val",
+    metaDescription:
+      "Elin går igenom Moroccanoil Torrschampo (Light Tones): suger upp fett, mattar gulton i blont hår och lämnar inga puderrester (4,5 av 5, 12 000+ omdömen) - och vad du bör veta om pris och hårfärg.",
+  },
+  {
+    productSlug: vxdoirkElektriskFotfilProduct.slug,
+    href: "/skonhet/elektrisk-fotfil",
+    cardBadge: "Sandalfina fötter",
+    cardHook:
+      "Ta bort hård hud hemma - laddbar, 3 sliprullar, sandalfina fötter.",
+    cardImage:
+      "/products/vxdoirk-elektrisk-fotfil/elektrisk-fotfil-vxdoirk-thumbnail.webp",
+    cardImageAlt: "VXDOIRK elektrisk fotfil, laddbar",
+    product: vxdoirkElektriskFotfilProduct,
+    badge: "Smart sommarfynd",
+    headline: "VXDOIRK Elektrisk Fotfil - sandalfina fötter hemma",
+    shortBody:
+      "En laddbar, vattentät elektrisk fotfil som tar bort hård hud snabbt - för släta, sandalfina fötter inför sommaren.",
+    valueHook: "Prisvärt sätt att få sandalfina fötter hemma.",
+    valueStatement:
+      "VXDOIRK elektriska fotfil tar bort hård hud och förhårdnader hemma - snabbt, utan att du behöver göra jobbet manuellt. Den är laddbar via USB, vattentät (IPX5) för wet & dry, har två hastigheter, en batteridisplay och tre utbytbara sliprullar för olika hårdhet. 4,4 av 5 från över 1 700 omdömen - ett prisvärt sätt att slippa dyra fotvårdsbesök inför sandalsäsongen.",
+    passFor: [
+      "Vill ha släta, sandalfina fötter inför sommaren.",
+      "Vill slippa manuell fotfil eller dyra fotvårdsbesök.",
+      "Gillar laddbart och vattentätt (kan sköljas under vatten).",
+    ],
+    caution:
+      "Vid långvarig användning (20+ min) kan den bli varm - låt den vila vid behov. Använd lätt tryck och överdriv inte; en kort stund ungefär en gång i veckan räcker oftast. Det är hudvård för fötter, inte en medicinsk behandling.",
+    verdict: "Smart sommarfynd - laddbart och prisvärt för sandalfina fötter.",
+    amazonSummary:
+      "Amazon visar 4,4 av 5 från 1 762 omdömen. Köparna lyfter att den är laddbar med batteridisplay, har sliprullar i olika hårdhet och fungerar lika bra som dyrare märken - en köpare noterar att den kan bli varm vid mycket lång användning.",
+    amazonQuotes: [
+      {
+        text: "Förutom att den är bra är att den är laddbar - sliprullar med olika styrka, och en display visar laddningen.",
+        attribution: "Tommy, Amazon (Sverige)",
+      },
+      {
+        text: "Bra fotfil.",
+        attribution: "Daniel, Amazon (Sverige)",
+      },
+      {
+        text: "Works just as well as the expensive brands. It does heat up after prolonged use (20+ min), but cools down fine.",
+        attribution: "Köpare, Amazon",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Hur ofta ska jag använda den?",
+        answer:
+          "Oftast räcker en kort stund ungefär en gång i veckan, med lätt tryck. Överdriv inte - för mycket nötning kan irritera huden.",
+      },
+      {
+        question: "Kan den användas blöt/i duschen?",
+        answer:
+          "Den är vattentät (IPX5) och kan användas både torr och våt samt sköljas under rinnande vatten.",
+      },
+      {
+        question: "Blir den varm?",
+        answer:
+          "Vid mycket lång användning kan den bli varm - låt den då vila en stund innan du fortsätter.",
+      },
+    ],
+    reviewSectionId: "vxdoirk-elektrisk-fotfil-recensioner",
+    reviewFormId: "vxdoirk-elektrisk-fotfil-skriv-recension",
+    targetKeyword: "elektrisk fotfil bäst i test",
+    metaTitle: "Elektrisk fotfil bäst i test - VXDOIRK laddbar | Elins val",
+    metaDescription:
+      "Elin går igenom VXDOIRK elektriska fotfil: laddbar, vattentät, 3 sliprullar och 2 hastigheter för sandalfina fötter (4,4 av 5, 1 700+ omdömen) - och vad du bör veta.",
+  },
+  {
+    productSlug: lorealElvitalVarmeskyddProduct.slug,
+    href: "/skonhet/varmeskydd",
+    cardBadge: "Skydda håret",
+    cardHook:
+      "Skyddar håret mot värme vid fön & plattång - prisvärt favoritval.",
+    cardImage:
+      "/products/loreal-elvital-varmeskydd/varmeskydd-loreal-thumbnail.webp",
+    cardImageAlt: "L'Oréal Elvital Dream Length värmeskyddsspray, 150 ml",
+    product: lorealElvitalVarmeskyddProduct,
+    badge: "Elins prisvärda val",
+    headline: "L'Oréal Elvital Dream Length - värmeskydd upp till 230°C",
+    shortBody:
+      "Ett prisvärt leave-in-värmeskydd som lägger ett skyddande lager innan du fönar, plattar eller lockar håret - med mindre frizz och mer glans.",
+    valueHook: "Prisvärt värmeskydd innan du stylar håret.",
+    valueStatement:
+      "L'Oréal Elvital Dream Length är ett prisvärt värmeskydd som lägger ett skyddande lager innan du fönar eller plattar håret - upp till 230°C. Leave-in-sprayen med vitaminer och ricinolja gör håret lättare att reda ut, tämjer frizz och ger glans. 4,5 av 5 från nästan 3 000 omdömen och ett mycket vänligt pris - ett smart komplement innan du stylar med locktång, plattång eller varmluftsborste.",
+    passFor: [
+      "Stylar håret med fön, plattång eller locktång och vill skydda mot värmen.",
+      "Vill ha mindre frizz och lättare utredning - särskilt långt hår.",
+      "Vill ha ett effektivt värmeskydd till ett lågt pris.",
+    ],
+    caution:
+      'En del köpare tycker att det kan lämna en lätt hinna om man sprayar för mycket - använd en lagom mängd. Doft och resultat upplevs olika; några tycker det finns bättre alternativ. Varianten passar bäst långt, rakt hår.',
+    verdict:
+      "Prisvärda valet - ett enkelt, effektivt värmeskydd innan värmestyling.",
+    amazonSummary:
+      "Amazon visar 4,5 av 5 från 2 975 omdömen. Köparna lyfter att håret blir lättare att reda ut, mindre frissigt och får glans - till ett lågt pris. Några tycker att det kan kännas lite för mycket om man överdoserar.",
+    amazonQuotes: [
+      {
+        text: "Bra produkt och priset är rimligt.",
+        attribution: "Köpare, Amazon (Sverige)",
+      },
+      {
+        text: "Reder ut håret lätt - spraya på fuktigt hår och låt verka några minuter innan värmen. Bra produkt till bra pris.",
+        attribution: "Köpare, Amazon (Sverige)",
+      },
+      {
+        text: "Finns så mycket bättre.",
+        attribution: "Alexandra, Amazon (Sverige)",
+      },
+    ],
+    faqItems: [
+      {
+        question: "När använder jag värmeskydd?",
+        answer:
+          "Spraya på fuktigt eller torrt hår innan du fönar, plattar eller lockar. Fördela jämnt i längderna och styla sedan.",
+      },
+      {
+        question: "Skyddar det vid plattång och locktång?",
+        answer:
+          "Ja, det är gjort för värmestyling upp till 230°C - ett bra steg innan du använder plattång, locktång eller varmluftsborste.",
+      },
+      {
+        question: "Gör det håret kladdigt?",
+        answer:
+          "Använd en lagom mängd - för mycket kan ge en lätt hinna. Börja sparsamt och bygg på vid behov.",
+      },
+    ],
+    reviewSectionId: "loreal-elvital-varmeskydd-recensioner",
+    reviewFormId: "loreal-elvital-varmeskydd-skriv-recension",
+    targetKeyword: "värmeskydd hår bäst i test",
+    metaTitle:
+      "Värmeskydd hår bäst i test - L'Oréal Elvital Dream Length | Elins val",
+    metaDescription:
+      "Elin går igenom L'Oréal Elvital Dream Length värmeskyddsspray: skyddar håret upp till 230°C vid fön, plattång och locktång, mindre frizz och prisvärt (4,5 av 5, 2 900+ omdömen).",
+    relatedLinks: [
+      {
+        href: "/skonhet/locktang",
+        label: "Locktång",
+        text: "Skydda håret innan du stylar med locktång.",
+      },
+      {
+        href: "/skonhet/plattang",
+        label: "Plattång",
+        text: "Skydda håret innan du stylar med plattång.",
+      },
+      {
+        href: "/skonhet/varmluftsborste",
+        label: "Varmluftsborste",
+        text: "Skydda håret innan du stylar med varmluftsborste.",
+      },
+    ],
   },
 ];
 
