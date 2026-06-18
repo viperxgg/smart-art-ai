@@ -1554,7 +1554,7 @@ export const stTropezSelfTanExpressProduct: Product = {
       label: "Förpackning",
     },
   ],
-  amazonUrl: "https://amzn.to/4a4R9XR",
+  amazonUrl: "https://amzn.to/43J16GS",
   pageHref: "/skonhet/brun-utan-sol",
   summary:
     "En beprövad brun-utan-sol-mousse där du styr färgen efter 1, 2 eller 3 timmar.",
@@ -1575,7 +1575,7 @@ export const stTropezSelfTanExpressProduct: Product = {
   ],
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4a4R9XR",
+    sourceUrl: "https://amzn.to/43J16GS",
     ratingSummary:
       "Amazon visar 4,4 av 5 från 15 327 recensioner och #14 bland Body Self-Tanners.",
     highlights: [
@@ -1613,7 +1613,7 @@ export const elfSkinBronzingDropsProduct: Product = {
       label: "Nyanser",
     },
   ],
-  amazonUrl: "https://amzn.to/4fR8LKl",
+  amazonUrl: "https://amzn.to/4fTXUiN",
   pageHref: "/skonhet/bronzing-drops",
   summary:
     "Pigmenterade bronzing-droppar som blandas i kräm för en naturlig glow du doserar själv.",
@@ -1633,7 +1633,7 @@ export const elfSkinBronzingDropsProduct: Product = {
   ],
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4fR8LKl",
+    sourceUrl: "https://amzn.to/4fTXUiN",
     ratingSummary: "Amazon visar 4,3 av 5 från 1 550 omdömen.",
     highlights: [
       "Köpare lyfter den naturliga lystern.",
@@ -1674,7 +1674,7 @@ export const niveaSunAfterSunLotionProduct: Product = {
       label: "Aloe vera",
     },
   ],
-  amazonUrl: "https://amzn.to/3SbyO5f",
+  amazonUrl: "https://amzn.to/44makJ6",
   pageHref: "/skonhet/aftersun",
   summary:
     "Ett prisvärt after sun-val med aloe vera för fukt och en svalkande känsla efter solen.",
@@ -1694,7 +1694,7 @@ export const niveaSunAfterSunLotionProduct: Product = {
   ],
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/3SbyO5f",
+    sourceUrl: "https://amzn.to/44makJ6",
     ratingSummary: "Amazon visar 4,6 av 5 från 3 237 omdömen.",
     highlights: [
       "Köpare lyfter den svalkande känslan.",
@@ -1735,7 +1735,7 @@ export const moroccanoilHaroljaProduct: Product = {
       label: "Glans",
     },
   ],
-  amazonUrl: "https://amzn.to/3QzkqTI",
+  amazonUrl: "https://amzn.to/3ScSTbq",
   pageHref: "/skonhet/harolja",
   summary:
     "Ikonisk arganoljebaserad hårolja för glans, mjukhet och mindre frizz i torrt sommarhår.",
@@ -1756,7 +1756,7 @@ export const moroccanoilHaroljaProduct: Product = {
   ],
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/3QzkqTI",
+    sourceUrl: "https://amzn.to/3ScSTbq",
     ratingSummary:
       "Amazon visar 4,7 av 5 från 88 528 omdömen och #1 hair care oil i USA.",
     highlights: [
@@ -1799,7 +1799,7 @@ export const moroccanoilTorrschampoProduct: Product = {
       label: "Fräsch finish",
     },
   ],
-  amazonUrl: "https://amzn.to/4uNk3mG",
+  amazonUrl: "https://amzn.to/3SgdN9v",
   pageHref: "/skonhet/torrschampo",
   summary:
     "Premium-torrschampo med risstärkelse och lila pigment för ljust hår mellan tvättar.",
@@ -1820,7 +1820,7 @@ export const moroccanoilTorrschampoProduct: Product = {
   ],
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4uNk3mG",
+    sourceUrl: "https://amzn.to/3SgdN9v",
     ratingSummary: "Amazon visar 4,5 av 5 från 12 895 omdömen.",
     highlights: [
       "Köpare lyfter att det suger upp fett snabbt.",
@@ -1862,7 +1862,7 @@ export const vxdoirkElektriskFotfilProduct: Product = {
       label: "Sandalfina fötter",
     },
   ],
-  amazonUrl: "https://amzn.to/4oBzEUP",
+  amazonUrl: "https://amzn.to/3SPO0Fh",
   pageHref: "/skonhet/elektrisk-fotfil",
   summary:
     "Laddbar, vattentät elektrisk fotfil med två hastigheter och tre sliprullar för hård hud hemma.",
@@ -1883,7 +1883,7 @@ export const vxdoirkElektriskFotfilProduct: Product = {
   ],
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4oBzEUP",
+    sourceUrl: "https://amzn.to/3SPO0Fh",
     ratingSummary:
       "Amazon visar 4,4 av 5 från 1 762 omdömen och #9 i Foot Files.",
     highlights: [
@@ -1927,7 +1927,7 @@ export const lorealElvitalVarmeskyddProduct: Product = {
       label: "Prisvärt val",
     },
   ],
-  amazonUrl: "https://amzn.to/4exjGqr",
+  amazonUrl: "https://amzn.to/4vXpSz4",
   pageHref: "/skonhet/varmeskydd",
   summary:
     "Prisvärd leave-in-värmeskyddsspray för styling med fön, plattång, locktång eller varmluftsborste.",
@@ -1948,7 +1948,7 @@ export const lorealElvitalVarmeskyddProduct: Product = {
   ],
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4exjGqr",
+    sourceUrl: "https://amzn.to/4vXpSz4",
     ratingSummary: "Amazon visar 4,5 av 5 från 2 975 omdömen.",
     highlights: [
       "Köpare lyfter att håret blir lättare att reda ut.",
