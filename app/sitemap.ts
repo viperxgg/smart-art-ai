@@ -173,6 +173,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${siteConfig.url}/halsa/kobo-clara-bw`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
       url: `${siteConfig.url}/halsa/massagepistol`,
       lastModified: new Date(),
       changeFrequency: "weekly",

@@ -1,5 +1,6 @@
 import {
   elfSkinBronzingDropsProduct,
+  koboClaraBwProduct,
   lorealElvitalVarmeskyddProduct,
   moroccanoilHaroljaProduct,
   moroccanoilTorrschampoProduct,
@@ -59,6 +60,16 @@ export const sommarSectionCopy = {
     "Elins sommar-glow - sommarfynd för hud, hår & glow | Elins val",
   metaDescription:
     "Elins utvalda sommarfavoriter: brun utan sol, glow och vård inför sommaren och midsommar - med Elins poäng och vad tusentals Amazon-köpare tycker.",
+};
+
+export const smartSommarSectionCopy = {
+  eyebrow: "Smart sommarro",
+  title: "Smart sommarro",
+  intro:
+    "Sommarens lugna stunder förtjänar rätt prylar. Här samlar Elin smarta favoriter för avkoppling - sånt som gör latdagarna i solstolen och midsommarledigheten skönare. Listan fylls på under sommaren.",
+  metaTitle: "Smart sommarro - smarta favoriter för avkoppling | Elins val",
+  metaDescription:
+    "Elins smarta sommarfavoriter för avkoppling och läsro - med Elins poäng och vad tusentals Amazon-köpare tycker.",
 };
 
 export const sommarPicks: SommarPick[] = [
@@ -542,6 +553,77 @@ export const sommarPicks: SommarPick[] = [
   },
 ];
 
+export const smartSommarPicks: SommarPick[] = [
+  {
+    productSlug: koboClaraBwProduct.slug,
+    href: "/halsa/kobo-clara-bw",
+    cardBadge: "Smart sommarro",
+    cardHook: "Tusentals böcker i fickformat - matt skärm som syns i solen.",
+    cardImage: "/products/kobo-clara-bw/kobo-clara-bw-thumbnail.webp",
+    cardImageAlt: "Kobo Clara BW e-boksläsare i en svensk sommarträdgård",
+    product: koboClaraBwProduct,
+    badge: "Elins sommarval",
+    headline: "Kobo Clara BW - skärmfri läsro i solstolen",
+    shortBody:
+      "En kompakt e-boksläsare med matt E Ink-skärm som syns även i solen - tusentals böcker i fickformat för latdagar och midsommarledighet.",
+    valueHook: "Skärmfri läsro - tusentals böcker som syns i solen.",
+    valueStatement:
+      "Kobo Clara BW är en kompakt 6-tums e-boksläsare med en matt, antireflex E Ink Carta 1300-skärm som är behaglig att läsa på även i starkt solljus - perfekt för solstolen. Med ComfortLight Pro justerar du ljusstyrkan och en varmare ton till kvällsläsningen, och 16 GB rymmer tusentals böcker i fickformat. Den är vattentät (IPX8), stödjer ljudböcker via Bluetooth och är delvis tillverkad av återvunnen och havsbunden plast. 4,6 av 5 från över 2 500 omdömen och topp-3 bland e-boksläsare - ett smart val för skärmfri läsro i sommar.",
+    passFor: [
+      "Vill läsa skärmfritt i solstolen utan att bländas av en mobilskärm.",
+      "Vill ha tusentals böcker i ett lätt, fickvänligt format på resan.",
+      "Läser gärna på kvällen och vill kunna värma upp skärmljuset.",
+    ],
+    caution:
+      "Det här är text i svartvitt - gjord för böcker, inte färgserier eller webbsurf. Du behöver ett (gratis) Kobo-konto för att komma igång. Ljudböcker spelas via Bluetooth-hörlurar, inte inbyggd högtalare.",
+    verdict:
+      "Sommarens avkopplingsval - papperslik läsro som syns i solen och får plats i fickan.",
+    amazonSummary:
+      "Amazon visar 4,6 av 5 från 2 534 omdömen och produkten ligger topp-3 bland e-boksläsare. Köparna lyfter den skarpa, papperslika skärmen, den behagliga läsupplevelsen och att den är lätt och kompakt. Flera som bytt från Kindle tycker den är minst lika bra.",
+    amazonQuotes: [
+      {
+        text: "Det här är min tredje e-boksläsare och den bästa. Känns snabbare att byta sida och lätt att hålla i handen. Prisvärd.",
+        attribution: "karl fant, Amazon (Sverige)",
+      },
+      {
+        text: "Bra kontrast och ljus display.",
+        attribution: "Hans Peterson, Amazon (Sverige)",
+      },
+      {
+        text: "It's a great ereader. I'm moving from a Kindle, and it works better. Battery life is really good, and screen quality looks better than my old Paperwhite.",
+        attribution: "Sebastian, Amazon",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Syns skärmen i solen?",
+        answer:
+          "Ja, E Ink-skärmen är matt och antireflex, vilket gör den behaglig att läsa på även utomhus i solljus - till skillnad från en blank mobilskärm.",
+      },
+      {
+        question: "Är den vattentät?",
+        answer:
+          "Ja, Kobo Clara BW är vattentät enligt IPX8 och tål kortare nedsänkning - praktiskt vid poolen eller bryggan. Torka av den efteråt.",
+      },
+      {
+        question: "Kan jag läsa egna och lånade böcker?",
+        answer:
+          "Du kan köpa böcker i Kobos butik, läsa egna filer (EPUB, PDF m.fl.) och i många länder låna biblioteksböcker via OverDrive. Ett gratis Kobo-konto behövs.",
+      },
+    ],
+    reviewSectionId: "kobo-clara-bw-recensioner",
+    reviewFormId: "kobo-clara-bw-skriv-recension",
+    targetKeyword: "kobo clara bw",
+    metaTitle: "Kobo Clara BW i test - e-boksläsare för sommaren | Elins val",
+    metaDescription:
+      "Elin går igenom Kobo Clara BW: en kompakt e-boksläsare med matt antireflex-skärm som syns i solen, ComfortLight Pro och IPX8 (4,6 av 5, 2 500+ omdömen) - smart läsro i sommar.",
+  },
+];
+
 export function getSommarPickBySlug(productSlug: string) {
   return sommarPicks.find((pick) => pick.productSlug === productSlug);
+}
+
+export function getSmartSommarPickBySlug(productSlug: string) {
+  return smartSommarPicks.find((pick) => pick.productSlug === productSlug);
 }

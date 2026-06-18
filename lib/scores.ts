@@ -268,6 +268,14 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 87,
     verdict: "Prisvärt värmeskydd som skyddar håret vid styling",
   },
+  "kobo-clara-bw": {
+    value: 24,
+    performance: 27,
+    promise: 22,
+    proven: 15,
+    total: 88,
+    verdict: "Smart sommarro - papperslik läsro som syns i solen",
+  },
 };
 
 export function getEditorialScore(productSlug: string) {

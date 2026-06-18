@@ -8,7 +8,12 @@ import { ScoreBadge } from "@/components/ProductBadges";
 import { createSeoMetadata } from "@/lib/metadata";
 import { getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
-import { sommarPicks, sommarSectionCopy } from "@/lib/sommar";
+import {
+  smartSommarPicks,
+  smartSommarSectionCopy,
+  sommarPicks,
+  sommarSectionCopy,
+} from "@/lib/sommar";
 
 const pageUrl = `${siteConfig.url}/sommar`;
 
@@ -173,6 +178,83 @@ export default function SommarPage() {
                 </article>
               );
             })}
+          </div>
+        </section>
+
+        <section className="mt-8" aria-labelledby="smart-sommarro-grid-title">
+          <div className="overflow-hidden rounded-[2.4rem] border border-[#F1D8DD] bg-[#FFF4F5] p-6 shadow-[0_30px_90px_rgba(216,131,146,0.16)] md:p-8">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <p className="inline-flex min-h-10 items-center rounded-full border border-[#E9CDD3] bg-white/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
+                  {smartSommarSectionCopy.eyebrow}
+                </p>
+                <h2
+                  id="smart-sommarro-grid-title"
+                  className="editorial-color-kiss mt-4 font-display text-4xl leading-tight"
+                >
+                  {smartSommarSectionCopy.title}
+                </h2>
+                <p className="mt-4 max-w-3xl text-lg leading-8 text-[#6f5a64]">
+                  {smartSommarSectionCopy.intro}
+                </p>
+              </div>
+              <span className="inline-flex min-h-10 w-fit items-center rounded-full border border-[#E9CDD3] bg-white/70 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
+                Annons
+              </span>
+            </div>
+
+            <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {smartSommarPicks.map((pick, index) => {
+                const score = getEditorialScore(pick.productSlug);
+
+                return (
+                  <article
+                    key={pick.productSlug}
+                    className="overflow-hidden rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-3 shadow-[0_24px_70px_rgba(185,131,166,0.12)]"
+                  >
+                    <Link
+                      href={pick.href}
+                      className="relative block aspect-[4/3] overflow-hidden rounded-[1.55rem] bg-[#FFF4F5]"
+                      aria-label={`Läs Elins omdöme om ${pick.product.title}`}
+                    >
+                      <Image
+                        src={pick.cardImage}
+                        alt={pick.cardImageAlt}
+                        fill
+                        sizes="(min-width: 1024px) 340px, (min-width: 640px) 45vw, 100vw"
+                        className="object-cover"
+                        loading={index === 0 ? "eager" : "lazy"}
+                      />
+                      <span className="absolute left-3 top-3 rounded-full bg-white/90 px-3 py-1.5 text-xs font-black text-[#8c5260] shadow-[0_12px_32px_rgba(91,52,65,0.12)] backdrop-blur">
+                        {pick.cardBadge}
+                      </span>
+                    </Link>
+
+                    <div className="p-3">
+                      <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                        {pick.product.brand}
+                      </p>
+                      <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
+                        <Link href={pick.href}>{pick.product.title}</Link>
+                      </h3>
+                      <p className="mt-3 text-sm leading-6 text-[#7e6970]">
+                        {pick.cardHook}
+                      </p>
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        {score ? <ScoreBadge score={score} /> : null}
+                      </div>
+                      <Link
+                        href={pick.href}
+                        className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#D8788D] px-5 text-sm font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.24)] transition hover:-translate-y-0.5"
+                      >
+                        Läs Elins omdöme
+                        <ArrowUpRight size={17} aria-hidden="true" />
+                      </Link>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
           </div>
         </section>
 

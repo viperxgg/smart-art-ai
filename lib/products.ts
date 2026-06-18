@@ -1967,6 +1967,69 @@ export const lorealElvitalVarmeskyddProduct: Product = {
   comments: [],
 };
 
+export const koboClaraBwProduct: Product = {
+  slug: "kobo-clara-bw",
+  title: 'Kobo Clara BW - e-boksläsare (6", 16 GB)',
+  category: "halsa",
+  asin: "B0CZXYV8GT",
+  brand: "Kobo",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Smart sommarro", "Skärmfri läsning", "Vattentät IPX8"],
+  image: "/products/kobo-clara-bw/kobo-clara-bw-thumbnail.webp",
+  imageAlt: "Kobo Clara BW e-boksläsare i en svensk sommarträdgård",
+  images: [
+    {
+      src: "/products/kobo-clara-bw/kobo-clara-bw-1.webp",
+      alt: "Kobo Clara BW på linne med kaffe och sommarblommor",
+      label: "Sommarro",
+    },
+    {
+      src: "/products/kobo-clara-bw/kobo-clara-bw-2.webp",
+      alt: "Avslappnad läsning på Kobo Clara BW i sommarträdgården",
+      label: "Skärmfri läsning",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4wifpyr",
+  pageHref: "/halsa/kobo-clara-bw",
+  summary:
+    "En kompakt e-boksläsare med matt, antireflex E Ink-skärm och justerbart ComfortLight Pro - för skärmfri läsro i solstolen hela sommaren.",
+  evaluation: {
+    headline: "Smart sommarro - läsglädje utan skärmstress",
+    intro:
+      "Elin går igenom Amazon-signaler, innehåll och funktioner för en e-boksläsare som passar lata sommardagar och midsommarledigheten.",
+    verdict:
+      "Sommarens avkopplingsval - en matt, antireflex skärm som syns i solen och tusentals böcker i fickformat.",
+    checks: [],
+  },
+  specSectionEyebrow: "E-boksläsare",
+  specSectionTitle: "Kobo Clara BW",
+  specs: [
+    { label: "Skärm", caption: "Display", value: '6" E Ink Carta 1300, antireflex' },
+    { label: "Lagring", caption: "Minne", value: "16 GB" },
+    { label: "Tålighet", caption: "Vattentät", value: "IPX8" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4wifpyr",
+    ratingSummary:
+      "Amazon visar 4,6 av 5 från 2 534 omdömen och topp-3 bland e-boksläsare.",
+    highlights: [
+      "Köpare lyfter den skarpa, papperslika svartvita skärmen.",
+      "Många beskriver läsningen som behaglig och papperslik.",
+      "Lätt och kompakt - enkel att hålla i en hand.",
+    ],
+    cautions: [
+      "Kräver ett (gratis) Kobo-konto för att komma igång.",
+      "Svartvit skärm - gjord för text, inte serier i färg.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   jakkofoxxLoopbandProduct,
@@ -1997,6 +2060,7 @@ export const products = [
   moroccanoilTorrschampoProduct,
   vxdoirkElektriskFotfilProduct,
   lorealElvitalVarmeskyddProduct,
+  koboClaraBwProduct,
 ] as const;
 
 export const productCategories: readonly ProductCategory[] = [

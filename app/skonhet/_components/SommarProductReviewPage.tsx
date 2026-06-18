@@ -20,6 +20,18 @@ type SommarProductReviewPageProps = {
   pick: SommarPick;
 };
 
+const categoryLabels = {
+  traning: "Träning",
+  halsa: "Hälsa",
+  skonhet: "Skönhet",
+} as const;
+
+const categoryHrefs = {
+  traning: "/traning",
+  halsa: "/halsa",
+  skonhet: "/skonhet",
+} as const;
+
 function buildProductSchema(pick: SommarPick) {
   return {
     "@context": "https://schema.org",
@@ -32,7 +44,7 @@ function buildProductSchema(pick: SommarPick) {
     ...(pick.product.asin ? { sku: pick.product.asin } : {}),
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
-    category: "Skönhet",
+    category: categoryLabels[pick.product.category],
   };
 }
 
@@ -56,10 +68,12 @@ export async function SommarProductReviewPage({
 }: SommarProductReviewPageProps) {
   const approvedReviews = await getApprovedReviews(pick.product.slug);
   const editorialScore = getEditorialScore(pick.product.slug);
+  const categoryLabel = categoryLabels[pick.product.category];
+  const categoryHref = categoryHrefs[pick.product.category];
   const breadcrumbItems = [
     { name: "Hem", href: "/" },
-    { name: "Skönhet", href: "/skonhet" },
-    { name: "Elins sommar-glow", href: "/sommar" },
+    { name: categoryLabel, href: categoryHref },
+    { name: "Sommar", href: "/sommar" },
     { name: pick.product.title, href: pick.href },
   ];
 
