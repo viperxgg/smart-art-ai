@@ -1984,7 +1984,7 @@ export const koboClaraBwProduct: Product = {
       label: "Sommarro",
     },
     {
-      src: "/products/kobo-clara-bw/kobo-clara-bw-2.webp",
+      src: "/products/kobo-clara-bw/kobo-clara-bw-reading.webp",
       alt: "Avslappnad läsning på Kobo Clara BW i sommarträdgården",
       label: "Skärmfri läsning",
     },
