@@ -58,7 +58,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 20,
     proven: 13,
     total: 86,
-    verdict: "Elins val - mest kettlebell fÃ¶r pengarna",
+    verdict: "Elins val - mest kettlebell för pengarna",
   },
   "proiron-mjuk-kettlebell": {
     value: 20,
@@ -66,7 +66,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 22,
     proven: 14,
     total: 79,
-    verdict: "GolvsnÃ¤llt nybÃ¶rjarval fÃ¶r hemmet",
+    verdict: "Golvsnällt nybörjarval för hemmet",
   },
   "proiron-neoprenhantlar": {
     value: 26,
@@ -74,7 +74,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 21,
     proven: 14,
     total: 84,
-    verdict: "Elins val - enklast och mest beprÃ¶vat fÃ¶r pengarna",
+    verdict: "Elins val - enklast och mest beprövat för pengarna",
   },
   "songmics-hantelset-med-stallning": {
     value: 23,
@@ -82,7 +82,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 22,
     proven: 14,
     total: 82,
-    verdict: "FÃ¤rdigt startset med stÃ¤llning fÃ¶r hemmatrÃ¤ning",
+    verdict: "Färdigt startset med ställning för hemmaträning",
   },
   "prosourcefit-extra-tjock-yogamatta": {
     value: 27,
@@ -90,7 +90,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 21,
     proven: 14,
     total: 84,
-    verdict: "Elins val - mest komfort fÃ¶r pengarna",
+    verdict: "Elins val - mest komfort för pengarna",
   },
   "yogati-tpe-yogamatta": {
     value: 23,
@@ -98,7 +98,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 21,
     proven: 13,
     total: 83,
-    verdict: "Greppvalet fÃ¶r yoga och balans",
+    verdict: "Greppvalet för yoga och balans",
   },
   "bodymate-foam-roller-care": {
     value: 27,

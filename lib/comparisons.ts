@@ -72,15 +72,15 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     title: "BODYMATE CARE vs Elvire Deep Tissue foam roller",
     shortTitle: "Foam roller",
     category: "traning",
-    categoryLabel: "TrÃ¤ning",
+    categoryLabel: "Träning",
     href: "/traning/foam-roller",
     description:
-      "En enkel slÃ¤t rulle med ryggrÃ¤nna mot ett komplett texturerat Ã¥terhÃ¤mtningsset.",
+      "En enkel slät rulle med ryggränna mot ett komplett texturerat återhämtningsset.",
     productSlugs: [
       "bodymate-foam-roller-care",
       "elvire-deep-tissue-massageset",
     ],
-    badges: ["Mest vÃ¤rde", "Komplett set", "Deep-tissue"],
+    badges: ["Mest värde", "Komplett set", "Deep-tissue"],
   },
   {
     slug: "massagepistol",
@@ -156,6 +156,69 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
       "remington-as7100-varmluftsborste",
     ],
     badges: ["4-i-1", "Budgetval", "Kort hår"],
+  },
+  {
+    slug: "platta-eller-locka",
+    title: "Platta eller locka?",
+    shortTitle: "Platta eller locka?",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/platta-eller-locka",
+    description:
+      "Slätt, polerat och mjuka vågor mot definierade klassiska lockar.",
+    productSlugs: ["remington-s8540-plattang", "babyliss-c325e-locktang"],
+    badges: ["Rakt & vågor", "Definierade lockar", "Mångsidig"],
+  },
+  {
+    slug: "varmluftsborste-eller-fon",
+    title: "Varmluftsborste eller vanlig fön?",
+    shortTitle: "Varmluftsborste eller fön",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/varmluftsborste-eller-fon",
+    description:
+      "Torka och styla i samma moment mot ren, kraftfull torkning.",
+    productSlugs: [
+      "babyliss-as126e-varmluftsborste",
+      "remington-proluxe-ac9140-hartork",
+    ],
+    badges: ["Torka + styla", "Mest torkkraft", "Volym"],
+  },
+  {
+    slug: "sommarglow-utan-sol",
+    title: "Sommarglow utan sol",
+    shortTitle: "Sommarglow utan sol",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/sommarglow-utan-sol",
+    description:
+      "Hållbar självbruna som utvecklas mot flexibel, tvättbar glow.",
+    productSlugs: ["st-tropez-self-tan-express", "elf-skin-bronzing-drops"],
+    badges: ["Håller i dagar", "Tvättbar glow", "Sommar"],
+  },
+  {
+    slug: "harolja-eller-varmeskydd",
+    title: "Hårolja eller värmeskydd?",
+    shortTitle: "Hårolja eller värmeskydd",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/harolja-eller-varmeskydd",
+    description:
+      "Glans och mjukhet för torrt hår mot skydd före värmestyling.",
+    productSlugs: ["moroccanoil-harolja", "loreal-elvital-varmeskydd"],
+    badges: ["Skyddar vid värme", "Glans & mjukhet", "Sommarvård"],
+  },
+  {
+    slug: "varmluftsborste-eller-plattang",
+    title: "Varmluftsborste eller plattång?",
+    shortTitle: "Varmluftsborste eller plattång",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/varmluftsborste-eller-plattang",
+    description:
+      "Volym och böj i ett steg mot slätt, polerat och mer mångsidigt.",
+    productSlugs: ["babyliss-as126e-varmluftsborste", "remington-s8540-plattang"],
+    badges: ["Allt-i-ett", "Slätt & polerat", "Volym"],
   },
 ];
 

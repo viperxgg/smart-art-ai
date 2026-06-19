@@ -107,7 +107,7 @@ function getHomeSections(): ProductSection[] {
     {
       id: "elins-toppval",
       title: "Fler toppval",
-      subtitle: "De val som just nu fÃ¥r hÃ¶gst redaktionell poÃ¤ng.",
+      subtitle: "De val som just nu får högst redaktionell poäng.",
       href: "/elins-val",
       items: topPicks.slice(1),
     },
@@ -179,7 +179,7 @@ function HomeProductCard({ product }: { product: Product }) {
         <Link
           href={productHref}
           className="block h-full w-full"
-          aria-label={`LÃ¤s mer om ${product.title}`}
+          aria-label={`Läs mer om ${product.title}`}
         >
           <Image
             src={product.image}
@@ -238,7 +238,7 @@ function HomeProductCard({ product }: { product: Product }) {
             target="_blank"
             rel="sponsored nofollow noopener noreferrer"
             className="inline-flex min-h-10 items-center justify-center rounded-full border border-[#e8b8c1] bg-white/70 px-4 text-xs font-black text-[#9b5b6a] transition hover:-translate-y-0.5 hover:bg-white sm:min-h-11 sm:text-sm"
-            aria-label={`Se ${product.title} pÃ¥ Amazon`}
+            aria-label={`Se ${product.title} på Amazon`}
           >
             Amazon
           </a>
