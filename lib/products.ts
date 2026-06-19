@@ -1713,6 +1713,74 @@ export const niveaSunAfterSunLotionProduct: Product = {
   comments: [],
 };
 
+export const naissanceAloeVeraGelProduct: Product = {
+  slug: "naissance-aloe-vera-gel",
+  title: "Naissance Skin Soothing Aloe Vera Gel (250 ml)",
+  category: "skonhet",
+  asin: "B00ENFL7CS",
+  brand: "Naissance",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Elins prisvärda val", "After sun", "Vegansk"],
+  image:
+    "/products/naissance-aloe-vera-gel/naissance-aloe-vera-gel-thumbnail.webp",
+  imageAlt: "Naissance Skin Soothing Aloe Vera Gel, 250 ml",
+  images: [
+    {
+      src: "/products/naissance-aloe-vera-gel/naissance-aloe-vera-gel-1.webp",
+      alt: "Naissance Aloe Vera Gel med färskt aloe vera-blad",
+      label: "Svalkande",
+    },
+    {
+      src: "/products/naissance-aloe-vera-gel/naissance-aloe-vera-gel-2.webp",
+      alt: "Naissance Aloe Vera Gel med klar gel i skål",
+      label: "99% naturligt",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4eDlAWv",
+  pageHref: "/skonhet/aloe-vera-gel",
+  summary:
+    "En kylande, vegansk aloe vera-gel (99% naturligt ursprung) som svalkar och återfuktar huden efter sol, bad och rakning - för ansikte, kropp och hår.",
+  evaluation: {
+    headline: "Svalkande aloe vera efter solen",
+    intro:
+      "Elin går igenom Amazon-signaler, innehåll och användning för en aloe vera-gel som passar svalka och återfuktning efter en dag i solen.",
+    verdict:
+      "Prisvärt och mångsidigt - en svalkande, vegansk aloe vera-gel för hela sommaren.",
+    checks: [],
+  },
+  specSectionEyebrow: "After sun",
+  specSectionTitle: "Naissance Aloe Vera Gel",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Aloe vera-gel, 250 ml" },
+    {
+      label: "Innehåll",
+      caption: "Profil",
+      value: "99% naturligt ursprung, vegansk",
+    },
+    { label: "Passar", caption: "Användning", value: "Ansikte, kropp & hår" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4eDlAWv",
+    ratingSummary:
+      "Amazon visar 4,5 av 5 från 3 309 omdömen och topp-2 bland After Sun Care.",
+    highlights: [
+      "Köpare lyfter den svalkande, återfuktande känslan efter sol.",
+      "Många med känslig hud uppskattar att den är fri från parfym och alkohol.",
+      "Mångsidig - används på ansikte, kropp och i håret.",
+    ],
+    cautions: [
+      "Gjord på aloe-extrakt, inte ren pressad aloe-juice.",
+      "Kan kännas lite klibbig vid första applicering tills den torkat in.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const moroccanoilHaroljaProduct: Product = {
   slug: "moroccanoil-harolja",
   title: "Moroccanoil Treatment Original - hårolja (25 ml)",
@@ -2119,6 +2187,7 @@ export const products = [
   stTropezSelfTanExpressProduct,
   elfSkinBronzingDropsProduct,
   niveaSunAfterSunLotionProduct,
+  naissanceAloeVeraGelProduct,
   moroccanoilHaroljaProduct,
   lorealAbsolutRepairProduct,
   moroccanoilTorrschampoProduct,

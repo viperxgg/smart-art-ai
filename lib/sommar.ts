@@ -5,6 +5,7 @@ import {
   lorealElvitalVarmeskyddProduct,
   moroccanoilHaroljaProduct,
   moroccanoilTorrschampoProduct,
+  naissanceAloeVeraGelProduct,
   niveaSunAfterSunLotionProduct,
   stTropezSelfTanExpressProduct,
   type Product,
@@ -273,6 +274,84 @@ export const sommarPicks: SommarPick[] = [
     metaTitle: "Aftersun bäst i test - NIVEA SUN After Sun lotion | Elins val",
     metaDescription:
       "Elin går igenom NIVEA SUN After Sun: ett prisvärt, svalkande after sun med aloe vera (4,6 av 5, 3 000+ omdömen) - och varför det inte ersätter solskydd.",
+  },
+  {
+    productSlug: naissanceAloeVeraGelProduct.slug,
+    href: "/skonhet/aloe-vera-gel",
+    cardBadge: "Svalka efter solen",
+    cardHook: "Kylande, vegansk aloe vera - 3 300+ omdömen.",
+    cardImage:
+      "/products/naissance-aloe-vera-gel/naissance-aloe-vera-gel-thumbnail.webp",
+    cardImageAlt: "Naissance Skin Soothing Aloe Vera Gel, 250 ml",
+    product: naissanceAloeVeraGelProduct,
+    badge: "Elins prisvärda val",
+    headline: "Naissance Aloe Vera Gel - svalkande fukt efter solen",
+    shortBody:
+      "En kylande, vegansk aloe vera-gel (99% naturligt ursprung) som svalkar och återfuktar efter sol, bad och rakning - för ansikte, kropp och hår.",
+    valueHook:
+      "Svalkande, vegansk aloe vera efter solen - prisvärd och mångsidig.",
+    valueStatement:
+      "Naissance Skin Soothing Aloe Vera Gel är en av de mest sålda aloe vera-gelerna på Amazon - 4,5 av 5 från över 3 300 omdömen och topp-2 bland After Sun Care. Gelen (99% naturligt ursprung, vegansk och fri från parfym, alkohol och tillsatser) svalkar och återfuktar huden efter en dag i solen, och kan användas på ansikte, kropp och till och med i håret. Köparna - många med känslig hud - lyfter den svalkande, lugnande känslan och att lite räcker långt. Ett prisvärt sommarbasplagg för svalka efter sol och bad.",
+    passFor: [
+      "Vill ha en svalkande, återfuktande gel efter sol, bad eller rakning.",
+      "Har känslig hud och föredrar parfym- och alkoholfritt, veganskt.",
+      "Vill ha en mångsidig gel för ansikte, kropp och hår.",
+    ],
+    caution:
+      "Det här är hudvård efter solen, inte solskydd - den ersätter inte solkräm. Gelen är gjord på aloe-extrakt snarare än ren pressad juice, och kan kännas lite klibbig tills den absorberats. En liten mängd räcker.",
+    verdict:
+      "Prisvärt och mångsidigt - en svalkande, vegansk aloe vera-gel för hela sommaren.",
+    amazonSummary:
+      "Amazon visar 4,5 av 5 från 3 309 omdömen och produkten ligger topp-2 bland After Sun Care. Köparna lyfter den svalkande, återfuktande känslan efter sol, att den är parfym- och alkoholfri (uppskattat av känslig hud) och att den är mångsidig för ansikte, kropp och hår.",
+    amazonQuotes: [
+      {
+        text: "Huden blir kylig och skön.",
+        attribution: "Kobrah, Amazon (Sverige)",
+      },
+      {
+        text: "Använder den till håret, blandar med balsam och olja innan jag tvättar håret. Rekommenderar till alla.",
+        attribution: "Köpare, Amazon (Sverige)",
+      },
+      {
+        text: "Love Naissance products. I use it on my face and body - it dries leaving skin so soft and hydrated.",
+        attribution: "Christer S, Amazon",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Kan jag använda aloe vera-gelen efter solen?",
+        answer:
+          "Ja, den är gjord för att svalka och återfukta huden efter en dag i solen. Tänk på att den inte är solskydd och inte ersätter solkräm.",
+      },
+      {
+        question: "Passar den känslig hud?",
+        answer:
+          "Den är fri från parfym, alkohol och tillsatser och vegansk, vilket många med känslig hud uppskattar. Testa gärna på en liten yta först.",
+      },
+      {
+        question: "Kan den användas i håret?",
+        answer:
+          "Ja, flera köpare använder den även i håret för fukt - blanda gärna med balsam eller olja.",
+      },
+    ],
+    reviewSectionId: "naissance-aloe-vera-gel-recensioner",
+    reviewFormId: "naissance-aloe-vera-gel-skriv-recension",
+    targetKeyword: "aloe vera gel",
+    metaTitle: "Aloe vera gel bäst i test - Naissance Skin Soothing | Elins val",
+    metaDescription:
+      "Elin går igenom Naissance Aloe Vera Gel: svalkande, vegansk gel (99% naturligt ursprung) för huden efter solen (4,5 av 5, 3 300+ omdömen) - och varför den inte ersätter solskydd.",
+    relatedLinks: [
+      {
+        href: "/skonhet/aftersun",
+        label: "After Sun",
+        text: "Återfukta huden efter solen med en svalkande lotion.",
+      },
+      {
+        href: "/skonhet/brun-utan-sol",
+        label: "Brun utan sol",
+        text: "Få sommarfärgen utan att sola.",
+      },
+    ],
   },
   {
     productSlug: moroccanoilHaroljaProduct.slug,

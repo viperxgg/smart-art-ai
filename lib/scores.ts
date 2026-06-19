@@ -236,6 +236,14 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 88,
     verdict: "Prisvärt och beprövat after sun-val",
   },
+  "naissance-aloe-vera-gel": {
+    value: 27,
+    performance: 23,
+    promise: 21,
+    proven: 14,
+    total: 85,
+    verdict: "Prisvärd, vegansk aloe vera som svalkar efter solen",
+  },
   "moroccanoil-harolja": {
     value: 19,
     performance: 28,
