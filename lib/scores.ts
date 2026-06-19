@@ -268,6 +268,14 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 87,
     verdict: "Prisvärt värmeskydd som skyddar håret vid styling",
   },
+  "loreal-absolut-repair": {
+    value: 23,
+    performance: 27,
+    promise: 22,
+    proven: 14,
+    total: 86,
+    verdict: "Premium hårinpackning som räddar torrt sommarhår",
+  },
   "kobo-clara-bw": {
     value: 24,
     performance: 27,

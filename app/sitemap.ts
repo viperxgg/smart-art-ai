@@ -257,6 +257,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.82,
     },
     {
+      url: `${siteConfig.url}/skonhet/harinpackning`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
       url: `${siteConfig.url}/skonhet/torrschampo`,
       lastModified: new Date(),
       changeFrequency: "weekly",

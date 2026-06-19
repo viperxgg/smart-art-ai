@@ -68,7 +68,7 @@ export function ProductDiscoveryLanding() {
 }
 
 function SommarGlowFeature() {
-  const featuredPicks = sommarPicks.slice(0, 3);
+  const featuredPicks = sommarPicks.slice(0, 5);
 
   return (
     <section
@@ -107,7 +107,7 @@ function SommarGlowFeature() {
           </Link>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {featuredPicks.map((pick, index) => {
             const score = getEditorialScore(pick.productSlug);
 

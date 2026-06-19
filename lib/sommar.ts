@@ -1,6 +1,7 @@
 import {
   elfSkinBronzingDropsProduct,
   koboClaraBwProduct,
+  lorealAbsolutRepairProduct,
   lorealElvitalVarmeskyddProduct,
   moroccanoilHaroljaProduct,
   moroccanoilTorrschampoProduct,
@@ -336,6 +337,89 @@ export const sommarPicks: SommarPick[] = [
     metaTitle: "Hårolja bäst i test - Moroccanoil Treatment | Elins val",
     metaDescription:
       "Elin går igenom Moroccanoil Treatment - den ikoniska håroljan (4,7 av 5, 88 000+ omdömen). Glans, mjukhet och mindre frizz för sommarhåret - och vad du bör veta om priset.",
+  },
+  {
+    productSlug: lorealAbsolutRepairProduct.slug,
+    href: "/skonhet/harinpackning",
+    cardBadge: "Räddar torrt hår",
+    cardHook: "Återuppbygger torrt & soltrött hår - 2 900+ omdömen.",
+    cardImage:
+      "/products/loreal-absolut-repair/loreal-absolut-repair-thumbnail.webp",
+    cardImageAlt: "L'Oréal Professionnel Absolut Repair hårinpackning, 250 ml",
+    product: lorealAbsolutRepairProduct,
+    badge: "Elins premiumval",
+    headline:
+      "L'Oréal Absolut Repair - hårinpackning för torrt & skadat hår",
+    shortBody:
+      "En proteinrik hårinpackning med Gold Quinoa som återuppbygger torrt, skadat och soltrött hår - för mjukhet, glans och lättare utredning.",
+    valueHook: "Räddar torrt, soltrött hår - mjukt och blankt igen.",
+    valueStatement:
+      "L'Oréal Professionnel Absolut Repair är en av de mest älskade hårinpackningarna på Amazon - 4,6 av 5 från nästan 3 000 omdömen. Den proteinrika formulan med Gold Quinoa återuppbygger torrt, skadat och kemiskt behandlat hår, gör det silkeslent, blankare och lättare att reda ut. Perfekt för soltrött sommarhår efter sol, bad och klor. Köparna - flera med ljust eller blekt hår - lyfter mjukheten, glansen och den lyxiga doften. Det är ett premiumval, men en liten mängd räcker långt.",
+    passFor: [
+      "Har torrt, blekt eller soltrött sommarhår som behöver återfuktning.",
+      "Vill ha en proteinrik mask som gör håret mjukt och lättare att reda ut.",
+      "Föredrar en beprövad salongsfavorit (Serie Expert).",
+    ],
+    caution:
+      "Det här är ett premiumval och dyrare än ett vanligt balsam. Den är rik - använd en lagom mängd och fokusera på längder och toppar, inte hårbotten. Låt verka några minuter och skölj ur.",
+    verdict:
+      "Premiumvalet för sommaren - återuppbyggande hårmask för torrt och skadat hår.",
+    amazonSummary:
+      "Amazon visar 4,6 av 5 från 2 949 omdömen och produkten ligger topp-5 bland Hair Deep Conditioners. Köparna lyfter att håret blir mjukt, silkeslent och lättare att reda ut - flera med ljust eller blekt hår rekommenderar den, och doften får mycket beröm.",
+    amazonQuotes: [
+      {
+        text: "Håret blir mjukt o slätt.",
+        attribution: "Ulrika Hagberg, Amazon (Sverige)",
+      },
+      {
+        text: "Älskar! Funkar även för mig med tunt hår!",
+        attribution: "Amanda, Amazon (Sverige)",
+      },
+      {
+        text: "Min frisör rekommenderade denna för blekt hår. Doftar riktigt gott och håret blir så mjukt.",
+        attribution: "Almedina, Amazon (Sverige)",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Hur ofta ska jag använda hårinpackningen?",
+        answer:
+          "Använd den 1-2 gånger i veckan på rentvättat, fuktigt hår. Fördela i längder och toppar, låt verka några minuter och skölj ur.",
+      },
+      {
+        question: "Passar den ljust eller blekt hår?",
+        answer:
+          "Ja, flera köpare med ljust och blekt hår rekommenderar den. Den återfuktar och gör håret mjukare, men ändrar inte färgen.",
+      },
+      {
+        question: "Tynger den fint hår?",
+        answer:
+          "Den är rik, så fint hår kan tyngas om man tar för mycket. Använd en liten mängd och fokusera på längderna, inte hårbotten.",
+      },
+    ],
+    reviewSectionId: "loreal-absolut-repair-recensioner",
+    reviewFormId: "loreal-absolut-repair-skriv-recension",
+    targetKeyword: "hårinpackning bäst i test",
+    metaTitle: "Hårinpackning bäst i test - L'Oréal Absolut Repair | Elins val",
+    metaDescription:
+      "Elin går igenom L'Oréal Professionnel Absolut Repair: en proteinrik hårinpackning för torrt och skadat sommarhår (4,6 av 5, 2 900+ omdömen) - mjukhet, glans och vad du bör veta om pris.",
+    relatedLinks: [
+      {
+        href: "/skonhet/harolja",
+        label: "Hårolja",
+        text: "Lås in mjukheten med några droppar hårolja.",
+      },
+      {
+        href: "/skonhet/torrschampo",
+        label: "Torrschampo",
+        text: "Fräscha upp håret mellan tvättar.",
+      },
+      {
+        href: "/skonhet/varmeskydd",
+        label: "Värmeskydd",
+        text: "Skydda håret innan du värmestylar.",
+      },
+    ],
   },
   {
     productSlug: moroccanoilTorrschampoProduct.slug,

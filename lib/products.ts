@@ -1776,6 +1776,69 @@ export const moroccanoilHaroljaProduct: Product = {
   comments: [],
 };
 
+export const lorealAbsolutRepairProduct: Product = {
+  slug: "loreal-absolut-repair",
+  title: "L'Oréal Professionnel Absolut Repair hårinpackning (250 ml)",
+  category: "skonhet",
+  asin: "B0918D9TWM",
+  brand: "L'Oréal Professionnel",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Elins premiumval", "Hårinpackning", "Torrt & skadat hår"],
+  image: "/products/loreal-absolut-repair/loreal-absolut-repair-thumbnail.webp",
+  imageAlt: "L'Oréal Professionnel Absolut Repair hårinpackning, 250 ml",
+  images: [
+    {
+      src: "/products/loreal-absolut-repair/loreal-absolut-repair-1.webp",
+      alt: "Absolut Repair hårinpackning med kam och glansigt ljust hår",
+      label: "Mjukt & blankt",
+    },
+    {
+      src: "/products/loreal-absolut-repair/loreal-absolut-repair-2.webp",
+      alt: "Absolut Repair hårmask med krämig konsistens",
+      label: "Rik konsistens",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3ShJgrW",
+  pageHref: "/skonhet/harinpackning",
+  summary:
+    "En proteinrik hårinpackning (Gold Quinoa + protein) som återuppbygger torrt, skadat och soltrött hår - för mjukhet, glans och lättare utredning.",
+  evaluation: {
+    headline: "Premium hårinpackning för torrt & skadat hår",
+    intro:
+      "Elin går igenom Amazon-signaler, innehåll och användning för en hårinpackning som passar torrt, blekt och soltrött sommarhår.",
+    verdict:
+      "Premiumvalet för sommaren - återuppbyggande mask som gör torrt hår mjukt, blankt och lättare att reda ut.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hårinpackning",
+  specSectionTitle: "L'Oréal Absolut Repair",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Hårmask, 250 ml" },
+    { label: "Innehåll", caption: "Aktivt", value: "Protein + Gold Quinoa" },
+    { label: "Passar", caption: "Hårtyp", value: "Torrt & skadat hår" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3ShJgrW",
+    ratingSummary:
+      "Amazon visar 4,6 av 5 från 2 949 omdömen och topp-5 bland Hair Deep Conditioners.",
+    highlights: [
+      "Köpare lyfter att håret blir mjukt, silkeslent och lättare att reda ut.",
+      "Flera med blekt eller ljust hår rekommenderar den.",
+      "Doften och den rika konsistensen får mycket beröm.",
+    ],
+    cautions: [
+      "Det är ett premiumval - dyrare än vanliga balsam.",
+      "Gjord för torrt/skadat hår; fint hår kan tyngas om man tar för mycket.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const moroccanoilTorrschampoProduct: Product = {
   slug: "moroccanoil-torrschampo",
   title: "Moroccanoil Torrschampo för ljust hår (205 ml)",
@@ -2057,6 +2120,7 @@ export const products = [
   elfSkinBronzingDropsProduct,
   niveaSunAfterSunLotionProduct,
   moroccanoilHaroljaProduct,
+  lorealAbsolutRepairProduct,
   moroccanoilTorrschampoProduct,
   vxdoirkElektriskFotfilProduct,
   lorealElvitalVarmeskyddProduct,
