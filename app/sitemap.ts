@@ -179,6 +179,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.82,
     },
     {
+      url: `${siteConfig.url}/halsa/aromdiffuser`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
       url: `${siteConfig.url}/halsa/massagepistol`,
       lastModified: new Date(),
       changeFrequency: "weekly",

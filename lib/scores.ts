@@ -292,6 +292,14 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 88,
     verdict: "Smart sommarro - papperslik läsro som syns i solen",
   },
+  "salking-aromadiffuser": {
+    value: 26,
+    performance: 21,
+    promise: 20,
+    proven: 13,
+    total: 80,
+    verdict: "Prisvärd mys-diffuser med varmt sken och doft",
+  },
 };
 
 export function getEditorialScore(productSlug: string) {

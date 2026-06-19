@@ -7,6 +7,7 @@ import {
   moroccanoilTorrschampoProduct,
   naissanceAloeVeraGelProduct,
   niveaSunAfterSunLotionProduct,
+  salkingAromadiffuserProduct,
   stTropezSelfTanExpressProduct,
   type Product,
   vxdoirkElektriskFotfilProduct,
@@ -780,6 +781,78 @@ export const smartSommarPicks: SommarPick[] = [
     metaTitle: "Kobo Clara BW i test - e-boksläsare för sommaren | Elins val",
     metaDescription:
       "Elin går igenom Kobo Clara BW: en kompakt e-boksläsare med matt antireflex-skärm som syns i solen, ComfortLight Pro och IPX8 (4,6 av 5, 2 500+ omdömen) - smart läsro i sommar.",
+  },
+  {
+    productSlug: salkingAromadiffuserProduct.slug,
+    href: "/halsa/aromdiffuser",
+    cardBadge: "Mys & doft",
+    cardHook: "Varmt sken + behaglig doft - mysig sommarkväll. 1 800+ omdömen.",
+    cardImage:
+      "/products/salking-aromadiffuser/salking-aromadiffuser-thumbnail.webp",
+    cardImageAlt: "SALKING aromadiffuser med varmt sken, 100 ml",
+    product: salkingAromadiffuserProduct,
+    badge: "Smart sommarro",
+    headline: "SALKING Aromadiffuser - mys och doft för lugna kvällar",
+    shortBody:
+      "En liten ultraljudsdiffuser med varmt sken i 7 färger som sprider doft och skapar mys-stämning - perfekt för sommarkvällen hemma.",
+    valueHook: "Varmt sken och doft - mysig stämning på sekunder.",
+    valueStatement:
+      "SALKING Aromadiffuser är en prisvärd liten ultraljudsdiffuser med nordisk, minimalistisk design - 4,2 av 5 från över 1 800 omdömen. Med en enkel knapp styr du dimma, ett varmt sken i 7 färger och automatisk avstängning, och den sprider en behaglig doft som skapar mys-stämning. Köparna lyfter att den är liten, snygg och prisvärd - några tycker materialet känns lite plastigt. Ett mysigt, prisvärt val för lugna sommarkvällar hemma.",
+    passFor: [
+      "Vill skapa mysig stämning och behaglig doft hemma på sommarkvällen.",
+      "Vill ha en liten, snygg diffuser med varmt sken och färgljus.",
+      "Föredrar enkel, prisvärd drift med auto-avstängning.",
+    ],
+    caution:
+      "Det är en prisvärd modell - materialet upplevs som lite plastigt av vissa, och någon enstaka tycker att den inte är helt 'ultra-tyst'. Den är liten (100 ml) och passar mindre rum. Använd några droppar eterisk olja i vatten.",
+    verdict:
+      "Prisvärt mys-val - varmt sken och doft för lugna sommarkvällar.",
+    amazonSummary:
+      "Amazon visar 4,2 av 5 från 1 841 omdömen och produkten ligger topp-3 bland Scented Oil Diffusers. Köparna lyfter den nätta nordiska designen, det varma skenet och att den är prisvärd - några tycker att materialet känns lite plastigt.",
+    amazonQuotes: [
+      {
+        text: "Jättenöjd.",
+        attribution: "Aga, Amazon (Sverige)",
+      },
+      {
+        text: "Funkar bra som beskrivningen säger, enkel att använda och luktar gott.",
+        attribution: "Arvid, Amazon (Sverige)",
+      },
+      {
+        text: "Perfekt liten och billig doftspridare.",
+        attribution: "Emma, Amazon (Sverige)",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Hur använder jag aromadiffusern?",
+        answer:
+          "Fyll på vatten, tillsätt några droppar eterisk olja och tryck på knappen för dimma och ljus. En knapp styr dimma, färger och varmt sken.",
+      },
+      {
+        question: "Är den tyst?",
+        answer:
+          "De flesta beskriver den som tyst med en mjuk dimma. Någon enstaka tycker att den inte är helt 'ultra-tyst'.",
+      },
+      {
+        question: "Hur stor yta räcker den till?",
+        answer:
+          "Den är liten (100 ml) och passar bäst i mindre rum, sovrum eller en arbetshörna.",
+      },
+    ],
+    reviewSectionId: "salking-aromadiffuser-recensioner",
+    reviewFormId: "salking-aromadiffuser-skriv-recension",
+    targetKeyword: "aromadiffuser",
+    metaTitle: "Aromadiffuser bäst i test - SALKING ultraljud | Elins val",
+    metaDescription:
+      "Elin går igenom SALKING Aromadiffuser: liten ultraljudsdiffuser med varmt sken i 7 färger och auto-avstängning för mys och doft (4,2 av 5, 1 800+ omdömen) - och vad du bör veta.",
+    relatedLinks: [
+      {
+        href: "/halsa/kobo-clara-bw",
+        label: "Kobo Clara BW",
+        text: "Läs en bok i lugn och ro medan diffusern går.",
+      },
+    ],
   },
 ];
 

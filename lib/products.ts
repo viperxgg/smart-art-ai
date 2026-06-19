@@ -2161,6 +2161,69 @@ export const koboClaraBwProduct: Product = {
   comments: [],
 };
 
+export const salkingAromadiffuserProduct: Product = {
+  slug: "salking-aromadiffuser",
+  title: "SALKING Aromadiffuser (100 ml, trälook)",
+  category: "halsa",
+  asin: "B0C5852YCQ",
+  brand: "SALKING",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Smart sommarro", "Mys & doft", "7 färger"],
+  image: "/products/salking-aromadiffuser/salking-aromadiffuser-thumbnail.webp",
+  imageAlt: "SALKING aromadiffuser med varmt sken, 100 ml",
+  images: [
+    {
+      src: "/products/salking-aromadiffuser/salking-aromadiffuser-1.webp",
+      alt: "SALKING aromadiffuser med varmt sken, ljus och eukalyptus",
+      label: "Mys-stämning",
+    },
+    {
+      src: "/products/salking-aromadiffuser/salking-aromadiffuser-2.webp",
+      alt: "SALKING aromadiffuser i fönster i kvällsljus",
+      label: "Varmt sken",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vXbjv4",
+  pageHref: "/halsa/aromdiffuser",
+  summary:
+    "En liten ultraljudsdiffuser med varmt sken i 7 färger och automatisk avstängning - sprider en behaglig doft och skapar mys-stämning hemma.",
+  evaluation: {
+    headline: "Mys och doft för lugna sommarkvällar",
+    intro:
+      "Elin går igenom Amazon-signaler, design och funktioner för en liten aromadiffuser som skapar mysig stämning hemma.",
+    verdict:
+      "Prisvärt mys-val - varmt sken och behaglig doft för lugna sommarkvällar.",
+    checks: [],
+  },
+  specSectionEyebrow: "Aromadiffuser",
+  specSectionTitle: "SALKING Aromadiffuser",
+  specs: [
+    { label: "Typ", caption: "Teknik", value: "Ultraljud, 100 ml" },
+    { label: "Ljus", caption: "Sken", value: "7 färger, varmt sken" },
+    { label: "Funktion", caption: "Smart", value: "Auto-avstängning, tyst" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vXbjv4",
+    ratingSummary:
+      "Amazon visar 4,2 av 5 från 1 841 omdömen och topp-3 bland Scented Oil Diffusers.",
+    highlights: [
+      "Köpare lyfter den nätta, snygga nordiska designen.",
+      "Enkel knapp för dimma, ljus och färger.",
+      "Prisvärd och uppskattad för doft och mys.",
+    ],
+    cautions: [
+      "Materialet upplevs som lite plastigt av vissa.",
+      "Någon enstaka tycker att den inte är helt 'ultra-tyst'.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   jakkofoxxLoopbandProduct,
@@ -2194,6 +2257,7 @@ export const products = [
   vxdoirkElektriskFotfilProduct,
   lorealElvitalVarmeskyddProduct,
   koboClaraBwProduct,
+  salkingAromadiffuserProduct,
 ] as const;
 
 export const productCategories: readonly ProductCategory[] = [
