@@ -2224,6 +2224,194 @@ export const salkingAromadiffuserProduct: Product = {
   comments: [],
 };
 
+export const solnedgangslampaProduct: Product = {
+  slug: "solnedgangslampa",
+  title: "Solnedgångslampa - sunset-projektor (24 färger, fjärrkontroll)",
+  category: "halsa",
+  asin: "B09P8HS8CK",
+  brand: "Aniepaa",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Smart sommarro", "Viral aesthetic", "24 färger"],
+  image: "/products/solnedgangslampa/solnedgangslampa-thumbnail.webp",
+  imageAlt: "Solnedgångslampa som kastar ett gyllene sunset-sken på väggen",
+  images: [
+    {
+      src: "/products/solnedgangslampa/solnedgangslampa-1.webp",
+      alt: "Solnedgångslampa med drömigt rosa och lila sken i ett rum",
+      label: "24 färger",
+    },
+    {
+      src: "/products/solnedgangslampa/solnedgangslampa-2.webp",
+      alt: "Närbild på solnedgångslampans lysande lins och gyllene halo",
+      label: "Gyllene sken",
+    },
+  ],
+  amazonUrl: "https://amzn.to/43LWXC4",
+  pageHref: "/halsa/solnedgangslampa",
+  summary:
+    "En viral solnedgångslampa som badar rummet i ett varmt, gyllene sken - 24 färger, 4 ljuslägen och fjärrkontroll. Drömmig stämning för mysiga sommarkvällar och snygga bilder.",
+  evaluation: {
+    headline: "Drömmigt sunset-sken på en knapptryckning",
+    intro:
+      "Elin går igenom Amazon-signaler, funktioner och vad köparna tycker om den virala solnedgångslampan.",
+    verdict:
+      "Prisvärt och scroll-stoppande - förvandlar rummet till en gyllene solnedgång på sekunder.",
+    checks: [],
+  },
+  specSectionEyebrow: "Stämningsbelysning",
+  specSectionTitle: "Solnedgångslampa",
+  specs: [
+    { label: "Färger", caption: "Ljus", value: "24 färger, 4 lägen" },
+    { label: "Styrning", caption: "Smart", value: "Fjärrkontroll, 180° vridbar" },
+    { label: "Höjd", caption: "Justerbar", value: "25-37 cm, USB" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/43LWXC4",
+    ratingSummary: "Amazon visar 4,2 av 5 från 753 omdömen.",
+    highlights: [
+      "Köpare lyfter den mysiga, drömmiga stämningen den skapar.",
+      "Populär för bilder, stories och fester - snygg på hyllan.",
+      "Justerbar ljusstyrka och många färger via fjärrkontroll.",
+    ],
+    cautions: [
+      "Ett par köpare tycker ljuset är svagt i ljusa rum (syns bäst i mörker).",
+      "Enstaka nämner att fjärrkontrollen kan strula eller att lampan slutat fungera efter en tid.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const miniProjektorProduct: Product = {
+  slug: "mini-projektor",
+  title: "Mini-projektor - portabel WiFi 6, Bluetooth, Android (720p)",
+  category: "halsa",
+  asin: "B0DTP9QJZH",
+  brand: "Alwtniet",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Smart sommarro", "Bärbar bio", "WiFi & Bluetooth"],
+  image: "/products/mini-projektor/mini-projektor-thumbnail.webp",
+  imageAlt: "Mini-projektor som visar film på väggen i ett mysigt rum",
+  images: [
+    {
+      src: "/products/mini-projektor/mini-projektor-1.webp",
+      alt: "Mini-projektor på utomhusbio i trädgården på kvällen",
+      label: "Utomhusbio",
+    },
+    {
+      src: "/products/mini-projektor/mini-projektor-2.webp",
+      alt: "Närbild på mini-projektorn med ljusstråle och fjärrkontroll",
+      label: "Portabel & smart",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3SkP2ci",
+  pageHref: "/halsa/mini-projektor",
+  summary:
+    "En kompakt, bärbar mini-projektor med WiFi 6, Bluetooth och Android - streama film och serier direkt på väggen, hemma eller ute i sommarkvällen. Native 720p med stöd för 4K-filer, auto-keystone och 180° vridbar.",
+  evaluation: {
+    headline: "Bärbar bio - film på väggen var du vill",
+    intro:
+      "Elin går igenom Amazon-signaler, funktioner och vad köparna tycker om den populära mini-projektorn.",
+    verdict:
+      "Prisvärd och scroll-stoppande - hemmabio och utomhusbio i en liten, smart pryl.",
+    checks: [],
+  },
+  specSectionEyebrow: "Mini-projektor",
+  specSectionTitle: "Alwtniet Mini-projektor",
+  specs: [
+    { label: "Upplösning", caption: "Bild", value: "Native 720p, 4K-stöd" },
+    { label: "Smart", caption: "Anslutning", value: "WiFi 6, Bluetooth, Android" },
+    { label: "Praktiskt", caption: "Design", value: "180° vridbar, auto-keystone" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3SkP2ci",
+    ratingSummary:
+      "Amazon visar 4,3 av 5 från 4 802 omdömen och topp-2 bland projektorer.",
+    highlights: [
+      "Köpare lyfter den skarpa bilden och fina färgerna för priset.",
+      "Lätt att komma igång - Android, WiFi och Bluetooth inbyggt.",
+      "Liten och portabel - funkar både hemma och utomhus.",
+    ],
+    cautions: [
+      "Native-upplösningen är 720p (spelar upp 4K-filer men projicerar i 720p).",
+      "Bäst i ett nedsläckt rum eller på kvällen - ljusstyrkan räcker inte i starkt dagsljus.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const stjarnprojektorProduct: Product = {
+  slug: "stjarnprojektor",
+  title: "Stjärnprojektor - galaxprojektor (12 HD-skivor)",
+  category: "halsa",
+  asin: "B0C1BX79XW",
+  brand: "Mexllex",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Smart sommarro", "Viral aesthetic", "12 galaxskivor"],
+  image: "/products/stjarnprojektor/stjarnprojektor-thumbnail.webp",
+  imageAlt: "Stjärnprojektor som projicerar en galax på sovrumstaket",
+  images: [
+    {
+      src: "/products/stjarnprojektor/stjarnprojektor-1.webp",
+      alt: "Stjärnprojektor med grönt norrsken i ett mysigt rum",
+      label: "12 motiv",
+    },
+    {
+      src: "/products/stjarnprojektor/stjarnprojektor-2.webp",
+      alt: "Närbild på galaxprojektorn med stjärnhimmel på väggen",
+      label: "Drömmig galax",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vhDOUs",
+  pageHref: "/halsa/stjarnprojektor",
+  summary:
+    "En viral galax-/stjärnprojektor som förvandlar taket till en drömmig stjärnhimmel - 12 HD-skivor med galaxer, nebulosor och måne, 360° vridbar och med avstängningstimer.",
+  evaluation: {
+    headline: "Förvandla taket till en stjärnhimmel",
+    intro:
+      "Elin går igenom Amazon-signaler, funktioner och vad köparna tycker om den virala stjärnprojektorn.",
+    verdict:
+      "Scroll-stoppande och prisvärd - en drömmig galaxhimmel i rummet på sekunder.",
+    checks: [],
+  },
+  specSectionEyebrow: "Stjärnprojektor",
+  specSectionTitle: "Galaxprojektor",
+  specs: [
+    { label: "Skivor", caption: "Motiv", value: "12 HD-skivor" },
+    { label: "Rörlig", caption: "Vinkel", value: "360° vridbar" },
+    { label: "Smart", caption: "Timer", value: "1/2/4 h, USB-C" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vhDOUs",
+    ratingSummary:
+      "Amazon visar 4,1 av 5 från 1 800 omdömen och #1 bland Children's Mood Lights.",
+    highlights: [
+      "Köpare lyfter den drömmiga stjärnhimlen och rumsstämningen.",
+      "Många olika skivor (galaxer, nebulosor, måne) ger variation.",
+      "360° vridbar projektor och timer uppskattas.",
+    ],
+    cautions: [
+      "Skärpan beror på avståndet - några tycker bilden blir lite suddig om den inte ställs rätt.",
+      "Den syns bäst i ett helt nedsläckt rum.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   jakkofoxxLoopbandProduct,
@@ -2258,6 +2446,9 @@ export const products = [
   lorealElvitalVarmeskyddProduct,
   koboClaraBwProduct,
   salkingAromadiffuserProduct,
+  solnedgangslampaProduct,
+  miniProjektorProduct,
+  stjarnprojektorProduct,
 ] as const;
 
 export const productCategories: readonly ProductCategory[] = [

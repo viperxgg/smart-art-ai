@@ -3,11 +3,14 @@ import {
   koboClaraBwProduct,
   lorealAbsolutRepairProduct,
   lorealElvitalVarmeskyddProduct,
+  miniProjektorProduct,
   moroccanoilHaroljaProduct,
   moroccanoilTorrschampoProduct,
   naissanceAloeVeraGelProduct,
   niveaSunAfterSunLotionProduct,
   salkingAromadiffuserProduct,
+  solnedgangslampaProduct,
+  stjarnprojektorProduct,
   stTropezSelfTanExpressProduct,
   type Product,
   vxdoirkElektriskFotfilProduct,
@@ -851,6 +854,234 @@ export const smartSommarPicks: SommarPick[] = [
         href: "/halsa/kobo-clara-bw",
         label: "Kobo Clara BW",
         text: "Läs en bok i lugn och ro medan diffusern går.",
+      },
+    ],
+  },
+  {
+    productSlug: solnedgangslampaProduct.slug,
+    href: "/halsa/solnedgangslampa",
+    cardBadge: "Viral aesthetic",
+    cardHook: "Badar rummet i gyllene sunset-sken - på en knapp.",
+    cardImage: "/products/solnedgangslampa/solnedgangslampa-thumbnail.webp",
+    cardImageAlt: "Solnedgångslampa som kastar ett gyllene sunset-sken på väggen",
+    product: solnedgangslampaProduct,
+    badge: "Smart sommarro",
+    headline: "Solnedgångslampa - drömmigt sunset-sken hemma",
+    shortBody:
+      "En viral sunset-projektor som badar rummet i varmt gyllene sken - 24 färger, fjärrkontroll och justerbar höjd. Drömmig mys på sekunder.",
+    valueHook: "Förvandla rummet till en gyllene solnedgång - på en knapp.",
+    valueStatement:
+      "Solnedgångslampan är en av de mest virala aesthetic-prylarna just nu - den projicerar ett varmt, gyllene solnedgångssken över väggen och badar hela rummet i drömmig stämning. Med 24 färger, fyra ljuslägen och fjärrkontroll byter du lätt mellan solnedgång, regnbåge och lugna toner, och stativet är justerbart (25-37 cm) och USB-drivet. 4,2 av 5 från över 750 omdömen - köparna älskar stämningen och hur snygg den är för bilder och stories. Den syns bäst i ett nedsläckt rum. Ett prisvärt, scroll-stoppande sätt att fixa mys på sekunder.",
+    passFor: [
+      "Vill skapa en drömmig, mysig stämning hemma på sommarkvällen.",
+      "Gillar snygg aesthetic-belysning för bilder, stories och reels.",
+      "Vill ha många färger och lägen styrda med fjärrkontroll.",
+    ],
+    caution:
+      "Den syns bäst i ett nedsläckt rum - i starkt dagsljus blir effekten svagare. Ett par köpare har haft problem med fjärrkontrollen eller hållbarheten över tid. Det är dekorationsbelysning, inte en huvudljuskälla.",
+    verdict:
+      "Prisvärt och scroll-stoppande - förvandlar rummet till en gyllene solnedgång på sekunder.",
+    amazonSummary:
+      "Amazon visar 4,2 av 5 från 753 omdömen. Köparna lyfter den mysiga, drömmiga stämningen, de många färgerna via fjärrkontroll och hur snygg den är för bilder och stories - några noterar att ljuset syns bäst i ett nedsläckt rum.",
+    amazonQuotes: [
+      {
+        text: "Schysst lampa som ger ett härligt ljus.",
+        attribution: "Köpare, Amazon (Sverige)",
+      },
+      {
+        text: "Creates a cozy atmosphere with beautiful colors and soft lighting. Looks amazing at night!",
+        attribution: "Luqman, Amazon",
+      },
+      {
+        text: "Svagt ljus, fjärrkontrollen funkar bara ibland.",
+        attribution: "Hjalmar, Amazon (Sverige)",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Syns effekten i dagsljus?",
+        answer:
+          "Den syns bäst i ett nedsläckt eller dämpat rum. I starkt dagsljus blir solnedgångseffekten svagare.",
+      },
+      {
+        question: "Hur byter jag färg och läge?",
+        answer:
+          "Med den medföljande fjärrkontrollen växlar du mellan 24 färger och fyra ljuslägen, och justerar ljusstyrkan.",
+      },
+      {
+        question: "Hur driver jag lampan?",
+        answer:
+          "Den drivs via USB-kabel, och stativet kan justeras i höjd från 25 till 37 cm.",
+      },
+    ],
+    reviewSectionId: "solnedgangslampa-recensioner",
+    reviewFormId: "solnedgangslampa-skriv-recension",
+    targetKeyword: "solnedgångslampa",
+    metaTitle: "Solnedgångslampa - viral sunset-lampa i test | Elins val",
+    metaDescription:
+      "Elin går igenom den virala solnedgångslampan: gyllene sunset-sken, 24 färger och fjärrkontroll för drömmig mys (4,2 av 5, 750+ omdömen) - och vad du bör veta.",
+    relatedLinks: [
+      {
+        href: "/halsa/aromdiffuser",
+        label: "Aromadiffuser",
+        text: "Lägg till doft och varmt sken för extra mys.",
+      },
+      {
+        href: "/halsa/kobo-clara-bw",
+        label: "Kobo Clara BW",
+        text: "Läs en bok i det mysiga skenet.",
+      },
+    ],
+  },
+  {
+    productSlug: miniProjektorProduct.slug,
+    href: "/halsa/mini-projektor",
+    cardBadge: "Bärbar bio",
+    cardHook: "Film på väggen var du vill - 4 800+ omdömen, topp-2 projektor.",
+    cardImage: "/products/mini-projektor/mini-projektor-thumbnail.webp",
+    cardImageAlt: "Mini-projektor som visar film på väggen i ett mysigt rum",
+    product: miniProjektorProduct,
+    badge: "Smart sommarro",
+    headline: "Mini-projektor - bärbar bio för sommarkvällen",
+    shortBody:
+      "En kompakt mini-projektor med WiFi 6, Bluetooth och Android - film på väggen hemma eller mysig utomhusbio i trädgården. Native 720p, 180° vridbar.",
+    valueHook: "Bärbar bio - film på väggen, hemma eller under stjärnorna.",
+    valueStatement:
+      "Den här mini-projektorn är en av de mest sålda på Amazon - 4,3 av 5 från över 4 800 omdömen och topp-2 bland projektorer. Den är liten, portabel och smart: WiFi 6, Bluetooth 5.4, inbyggt Android och en 5W-högtalare, så du streamar film och serier direkt på väggen utan extra prylar. Automatisk keystone och 180° vridbart fäste gör den enkel att rikta mot vägg eller tak. Native-upplösningen är 720p (med stöd för 4K-filer) och den syns bäst i mörker. Köparna lyfter den skarpa bilden och priset - en scroll-stoppande pryl för hemmabio och mysig utomhusbio i sommarkvällen.",
+    passFor: [
+      "Vill ha bärbar hemmabio - film på väggen eller taket var du vill.",
+      "Drömmer om mysig utomhusbio i trädgården på sommarkvällen.",
+      "Vill ha WiFi, Bluetooth och Android-appar i en liten, prisvärd pryl.",
+    ],
+    caution:
+      "Native-upplösningen är 720p - den spelar upp 4K-filer men projicerar i 720p, vilket räcker gott för film och serier men inte är skarp 4K-bild. Den syns bäst i ett mörkt rum eller på kvällen. Inbyggda högtalaren är liten (5W) - koppla en Bluetooth-högtalare för biokänsla.",
+    verdict:
+      "Prisvärd och scroll-stoppande - hemmabio och utomhusbio i en liten, smart pryl.",
+    amazonSummary:
+      "Amazon visar 4,3 av 5 från 4 802 omdömen och produkten ligger topp-2 bland projektorer. Köparna lyfter den skarpa bilden och fina färgerna för priset, att den är lätt att komma igång med (Android, WiFi, Bluetooth) och att den är liten och portabel - några påminner om att den syns bäst i mörker.",
+    amazonQuotes: [
+      {
+        text: "Riktigt bra projektor, bra bild, bra och högt ljud. Fina färger, lätt att komma igång.",
+        attribution: "H, Amazon (Sverige)",
+      },
+      {
+        text: "Mycket bra för det priset.",
+        attribution: "Emil, Amazon (Sverige)",
+      },
+      {
+        text: "Perfect for the price.",
+        attribution: "Dejan, Amazon (Sverige)",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Är det en riktig 4K-projektor?",
+        answer:
+          "Nej. Den spelar upp 4K-filer men projicerar i native 720p. Bilden räcker gott för film och serier, men det är inte skarp 4K-upplösning.",
+      },
+      {
+        question: "Behöver jag en separat enhet för att streama?",
+        answer:
+          "Nej, den har inbyggt Android, WiFi 6 och Bluetooth, så du kan streama appar direkt. Du kan även koppla telefon, USB eller HDMI.",
+      },
+      {
+        question: "Funkar den utomhus?",
+        answer:
+          "Ja, den är liten och portabel och passar för utomhusbio på kvällen - men den syns bäst när det är mörkt.",
+      },
+    ],
+    reviewSectionId: "mini-projektor-recensioner",
+    reviewFormId: "mini-projektor-skriv-recension",
+    targetKeyword: "mini-projektor bäst i test",
+    metaTitle: "Mini-projektor bäst i test - portabel WiFi-projektor | Elins val",
+    metaDescription:
+      "Elin går igenom den populära mini-projektorn: WiFi 6, Bluetooth, Android och 180° vridbar för hemmabio och utomhusbio (4,3 av 5, 4 800+ omdömen) - och vad du bör veta om 720p.",
+    relatedLinks: [
+      {
+        href: "/halsa/solnedgangslampa",
+        label: "Solnedgångslampa",
+        text: "Sätt stämningen med ett varmt sunset-sken.",
+      },
+      {
+        href: "/halsa/aromdiffuser",
+        label: "Aromadiffuser",
+        text: "Lägg till doft och mys till filmkvällen.",
+      },
+    ],
+  },
+  {
+    productSlug: stjarnprojektorProduct.slug,
+    href: "/halsa/stjarnprojektor",
+    cardBadge: "Viral aesthetic",
+    cardHook: "Förvandlar taket till en drömmig stjärnhimmel - 12 galaxskivor.",
+    cardImage: "/products/stjarnprojektor/stjarnprojektor-thumbnail.webp",
+    cardImageAlt: "Stjärnprojektor som projicerar en galax på sovrumstaket",
+    product: stjarnprojektorProduct,
+    badge: "Smart sommarro",
+    headline: "Stjärnprojektor - en galaxhimmel i rummet",
+    shortBody:
+      "En viral galaxprojektor som förvandlar taket till en stjärnhimmel - 12 HD-skivor, 360° vridbar och timer. Drömmig mys på sekunder.",
+    valueHook: "Förvandla taket till en stjärnhimmel - på sekunder.",
+    valueStatement:
+      "Den här galax-/stjärnprojektorn är en av de mest virala aesthetic-prylarna - den projicerar en drömmig stjärnhimmel över taket och väggarna med 12 utbytbara HD-skivor (galaxer, nebulosor, Vintergatan, måne och mer). Det 360° vridbara fästet låter dig rikta den mot tak eller vägg, och timern (1/2/4 h) stänger av den automatiskt. 4,1 av 5 från 1 800 omdömen och #1 bland Children's Mood Lights - köparna gillar den drömmiga stämningen och variationen i motiven. Skärpan beror på avståndet och den syns bäst i mörker. Ett scroll-stoppande, prisvärt sätt att fixa en magisk galaxhimmel hemma.",
+    passFor: [
+      "Vill förvandla taket till en drömmig stjärnhimmel hemma.",
+      "Gillar aesthetic-belysning för mys, fester och snygga reels.",
+      "Vill ha variation med många galax- och nebulosaskivor.",
+    ],
+    caution:
+      "Bilden blir skarpast på rätt avstånd - ställ projektorn så att fokus stämmer, annars kan stjärnorna se lite suddiga ut. Den syns bäst i ett helt mörkt rum. Drivs via USB-C.",
+    verdict:
+      "Scroll-stoppande och prisvärd - en drömmig galaxhimmel i rummet på sekunder.",
+    amazonSummary:
+      "Amazon visar 4,1 av 5 från 1 800 omdömen och produkten är #1 bland Children's Mood Lights. Köparna lyfter den drömmiga stjärnhimlen, de många utbytbara skivorna och timern - några påminner om att skärpan beror på avståndet och att den syns bäst i mörker.",
+    amazonQuotes: [
+      {
+        text: "Fungerar perfekt, till barnbarn som ligger och tittar på himlen.",
+        attribution: "Bertil, Amazon (Sverige)",
+      },
+      {
+        text: "Verkar göra sin grej och det fanns massor av skivor med olika motiv, det var ett plus.",
+        attribution: "Camilla, Amazon (Sverige)",
+      },
+      {
+        text: "Blurry image, can't hardly see them.",
+        attribution: "Camilla B, Amazon (Sverige)",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Hur får jag en skarp bild?",
+        answer:
+          "Skärpan beror på avståndet. Ställ projektorn på rätt avstånd från taket eller väggen och justera fokus tills stjärnorna blir skarpa. Den syns bäst i mörker.",
+      },
+      {
+        question: "Kan jag byta motiv?",
+        answer:
+          "Ja, den kommer med 12 utbytbara HD-skivor med olika galaxer, nebulosor och måne, så du kan variera stjärnhimlen.",
+      },
+      {
+        question: "Stänger den av sig själv?",
+        answer:
+          "Ja, den har en timer på 1, 2 eller 4 timmar och stängs av automatiskt. Den drivs via USB-C.",
+      },
+    ],
+    reviewSectionId: "stjarnprojektor-recensioner",
+    reviewFormId: "stjarnprojektor-skriv-recension",
+    targetKeyword: "stjärnprojektor",
+    metaTitle: "Stjärnprojektor - viral galaxprojektor i test | Elins val",
+    metaDescription:
+      "Elin går igenom den virala stjärnprojektorn: 12 HD-galaxskivor, 360° vridbar och timer för en drömmig stjärnhimmel (4,1 av 5, 1 800+ omdömen).",
+    relatedLinks: [
+      {
+        href: "/halsa/solnedgangslampa",
+        label: "Solnedgångslampa",
+        text: "Byt galaxhimlen mot ett varmt sunset-sken.",
+      },
+      {
+        href: "/halsa/mini-projektor",
+        label: "Mini-projektor",
+        text: "Visa film på väggen under stjärnhimlen.",
       },
     ],
   },

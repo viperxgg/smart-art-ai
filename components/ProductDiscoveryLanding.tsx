@@ -155,8 +155,6 @@ function SommarGlowFeature() {
 }
 
 function SmartSommarRoFeature() {
-  const featuredPicks = smartSommarPicks.slice(0, 3);
-
   return (
     <section
       className="mt-8 overflow-hidden rounded-[2.2rem] border border-[#efc6cc] bg-[#fff4df]/82 shadow-[0_28px_86px_rgba(214,139,92,0.18)] backdrop-blur-xl"
@@ -195,7 +193,7 @@ function SmartSommarRoFeature() {
         </div>
 
         <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-3">
-          {featuredPicks.map((pick, index) => {
+          {smartSommarPicks.map((pick, index) => {
             const score = getEditorialScore(pick.productSlug);
 
             return (

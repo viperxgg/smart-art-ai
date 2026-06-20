@@ -300,6 +300,30 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 80,
     verdict: "Prisvärd mys-diffuser med varmt sken och doft",
   },
+  "solnedgangslampa": {
+    value: 27,
+    performance: 20,
+    promise: 21,
+    proven: 12,
+    total: 80,
+    verdict: "Prisvärt, scroll-stoppande sunset-sken för mys",
+  },
+  "mini-projektor": {
+    value: 27,
+    performance: 22,
+    promise: 22,
+    proven: 13,
+    total: 84,
+    verdict: "Prisvärd bärbar bio - film på väggen var du vill",
+  },
+  "stjarnprojektor": {
+    value: 26,
+    performance: 20,
+    promise: 21,
+    proven: 12,
+    total: 79,
+    verdict: "Scroll-stoppande galaxhimmel - drömmig mys för rummet",
+  },
 };
 
 export function getEditorialScore(productSlug: string) {
