@@ -2453,6 +2453,12 @@ export const products = [
 
 export const productCategories: readonly ProductCategory[] = [
   {
+    slug: "skonhet",
+    label: "Skönhet",
+    href: "/skonhet",
+    description: "Prisvärda skönhetsval för hår, vardag och smarta rutiner.",
+  },
+  {
     slug: "traning",
     label: "Träning",
     href: "/traning",
@@ -2460,15 +2466,9 @@ export const productCategories: readonly ProductCategory[] = [
   },
   {
     slug: "halsa",
-    label: "Hälsa & återhämtning",
+    label: "Hälsa & livsstil",
     href: "/halsa",
-    description: "Produkter för återhämtning, välmående och vardagskänsla.",
-  },
-  {
-    slug: "skonhet",
-    label: "Skönhet",
-    href: "/skonhet",
-    description: "Prisvärda skönhetsval för hår, vardag och smarta rutiner.",
+    description: "Produkter för återhämtning, smart hem och vardagskänsla.",
   },
 ];
 

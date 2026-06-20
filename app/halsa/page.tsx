@@ -2,17 +2,17 @@ import Link from "next/link";
 import { ArrowUpRight, HeartPulse, Home, Sparkles } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { CategoryProductSections } from "@/components/CategoryProductSections";
 import { JsonLd } from "@/components/JsonLd";
-import { ProductCard } from "@/components/ProductCard";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { massagepistolPicks } from "@/lib/massagepistol";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
 export const metadata = createSeoMetadata({
-  title: "Hälsa | Elins val",
+  title: "Hälsa & livsstil | Elins val",
   description:
-    "Elins val inom hälsa, återhämtning och vardagsprodukter som är lätta att förstå och faktiskt kan passa in hemma.",
+    "Elins val inom hälsa, återhämtning och smarta vardagsprodukter som är lätta att förstå och faktiskt kan passa in hemma.",
   url: `${siteConfig.url}/halsa`,
   image: {
     url: `${siteConfig.url}${massagepistolPicks[0].product.image}`,
@@ -24,7 +24,7 @@ export const metadata = createSeoMetadata({
 
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
-  { name: "Hälsa", href: "/halsa" },
+  { name: "Hälsa & livsstil", href: "/halsa" },
 ];
 
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
@@ -52,14 +52,14 @@ export default function HalsaHubPage() {
         <section className="mt-10 grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-              Elins hälsoval
+              Elins hälsa & livsstil
             </p>
             <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
-              Hälsa som känns enkel.
+              Återhämtning och smart vardag.
             </h1>
             <p className="mt-6 max-w-2xl text-xl leading-9 text-[#6f5a64]">
-              Här samlar Elin produkter för återhämtning, välmående och
-              vardagsrutiner. Inte allt som trendar, bara det som känns rimligt
+              Här samlar Elin produkter för återhämtning, smart hem och
+              vardagskänsla. Inte allt som trendar, bara det som känns rimligt
               att faktiskt använda.
             </p>
           </div>
@@ -92,22 +92,7 @@ export default function HalsaHubPage() {
           </Link>
         </section>
 
-        <section className="mt-10">
-          <div>
-            <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-              Produktkort
-            </p>
-            <h2 className="editorial-color-kiss mt-2 font-display text-4xl">
-              Massagepistoler Elin jämför
-            </h2>
-          </div>
-
-          <div className="mt-6 grid gap-6 md:grid-cols-2">
-            {massagepistolPicks.map((pick) => (
-              <ProductCard key={pick.product.slug} product={pick.product} />
-            ))}
-          </div>
-        </section>
+        <CategoryProductSections categorySlug="halsa" />
 
         <section className="mt-10 rounded-[2rem] border border-[#F1D8DD] bg-white/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
           <div className="flex items-start gap-4">
@@ -119,8 +104,8 @@ export default function HalsaHubPage() {
                 Mindre hype. Mer vardagsnytta.
               </h2>
               <p className="mt-3 text-lg leading-8 text-[#6f5a64]">
-                Varje guide ska hjälpa dig förstå vad produkten passar för,
-                vem som bör avstå och var du kan läsa mer innan köp.
+                Varje guide ska hjälpa dig förstå vad produkten passar för, vem
+                som bör avstå och var du kan läsa mer innan köp.
               </p>
             </div>
           </div>
@@ -137,6 +122,11 @@ export default function HalsaHubPage() {
               href: "/traning",
               label: "Hemmaträning",
               text: "Se fler enkla val för träning som faktiskt får plats hemma.",
+            },
+            {
+              href: "/sommar",
+              label: "Smart sommarro",
+              text: "Se hela sommarguiden med smarta prylar för lugna stunder.",
             },
           ]}
         />

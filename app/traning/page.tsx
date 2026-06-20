@@ -2,22 +2,12 @@ import Link from "next/link";
 import { Dumbbell, Home } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { CategoryProductSections } from "@/components/CategoryProductSections";
 import { JsonLd } from "@/components/JsonLd";
 import { ProductCard } from "@/components/ProductCard";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { createSeoMetadata } from "@/lib/metadata";
-import {
-  amazonBasicsKettlebellProduct,
-  bodymateFoamRollerCareProduct,
-  elvireDeepTissueMassageSetProduct,
-  featuredProduct,
-  jakkofoxxLoopbandProduct,
-  proironSoftKettlebellProduct,
-  proironNeopreneDumbbellsProduct,
-  prosourcefitYogaMatProduct,
-  songmicsDumbbellSetProduct,
-  yogatiTpeYogaMatProduct,
-} from "@/lib/products";
+import { featuredProduct } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
 export const metadata = createSeoMetadata({
@@ -95,140 +85,7 @@ export default function TraningHubPage() {
           </div>
         </section>
 
-        <section className="mt-10">
-          <div className="flex items-end justify-between gap-4">
-            <div>
-              <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-                Träningsband
-              </p>
-              <h2 className="editorial-color-kiss mt-2 font-display text-4xl">
-                Helkropp eller ben och rumpa?
-              </h2>
-              <p className="mt-3 max-w-2xl text-lg leading-8 text-[#6f5a64]">
-                Elin jämför långa band i naturlatex för helkropp mot korta
-                loop-band för ben, rumpa, pilates och rehab.
-              </p>
-            </div>
-            <Link
-              href="/traning/traningsband"
-              className="hidden min-h-11 shrink-0 items-center rounded-full border border-[#E9CDD3] bg-white/70 px-5 text-sm font-black text-[#9E5E73] transition hover:-translate-y-0.5 hover:bg-white sm:inline-flex"
-            >
-              Se guiden
-            </Link>
-          </div>
-          <div className="mt-6 grid gap-6 md:grid-cols-2">
-            <ProductCard product={featuredProduct} />
-            <ProductCard product={jakkofoxxLoopbandProduct} />
-          </div>
-        </section>
-
-        <section className="mt-10">
-          <div className="flex items-end justify-between gap-4">
-            <div>
-              <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-                Kettlebell
-              </p>
-              <h2 className="editorial-color-kiss mt-2 font-display text-4xl">
-                Gjutjärn eller mjuk?
-              </h2>
-              <p className="mt-3 max-w-2xl text-lg leading-8 text-[#6f5a64]">
-                Elin jämför bästa värdet för riktig träning med ett mjukare val
-                för lägenhet, golv och nybörjare.
-              </p>
-            </div>
-            <Link
-              href="/traning/kettlebell"
-              className="hidden min-h-11 shrink-0 items-center rounded-full border border-[#E9CDD3] bg-white/70 px-5 text-sm font-black text-[#9E5E73] transition hover:-translate-y-0.5 hover:bg-white sm:inline-flex"
-            >
-              Se guiden
-            </Link>
-          </div>
-          <div className="mt-6 grid gap-6 md:grid-cols-2">
-            <ProductCard product={amazonBasicsKettlebellProduct} />
-            <ProductCard product={proironSoftKettlebellProduct} />
-          </div>
-        </section>
-
-        <section className="mt-10">
-          <div className="flex items-end justify-between gap-4">
-            <div>
-              <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-                Hantlar
-              </p>
-              <h2 className="editorial-color-kiss mt-2 font-display text-4xl">
-                Ett par eller ett helt set?
-              </h2>
-              <p className="mt-3 max-w-2xl text-lg leading-8 text-[#6f5a64]">
-                Elin jämför enklaste vägen in med ett par i rätt vikt mot ett
-                komplett hantelset med ställning.
-              </p>
-            </div>
-            <Link
-              href="/traning/hantlar"
-              className="hidden min-h-11 shrink-0 items-center rounded-full border border-[#E9CDD3] bg-white/70 px-5 text-sm font-black text-[#9E5E73] transition hover:-translate-y-0.5 hover:bg-white sm:inline-flex"
-            >
-              Se guiden
-            </Link>
-          </div>
-          <div className="mt-6 grid gap-6 md:grid-cols-2">
-            <ProductCard product={proironNeopreneDumbbellsProduct} />
-            <ProductCard product={songmicsDumbbellSetProduct} />
-          </div>
-        </section>
-
-        <section className="mt-10">
-          <div className="flex items-end justify-between gap-4">
-            <div>
-              <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-                Yogamatta
-              </p>
-              <h2 className="editorial-color-kiss mt-2 font-display text-4xl">
-                Mjuk komfort eller bättre grepp?
-              </h2>
-              <p className="mt-3 max-w-2xl text-lg leading-8 text-[#6f5a64]">
-                Elin jämför en extra tjock matta för pilates och golvövningar
-                med en greppigare TPE-matta för yoga och balans.
-              </p>
-            </div>
-            <Link
-              href="/traning/yogamatta"
-              className="hidden min-h-11 shrink-0 items-center rounded-full border border-[#E9CDD3] bg-white/70 px-5 text-sm font-black text-[#9E5E73] transition hover:-translate-y-0.5 hover:bg-white sm:inline-flex"
-            >
-              Se guiden
-            </Link>
-          </div>
-          <div className="mt-6 grid gap-6 md:grid-cols-2">
-            <ProductCard product={prosourcefitYogaMatProduct} />
-            <ProductCard product={yogatiTpeYogaMatProduct} />
-          </div>
-        </section>
-
-        <section className="mt-10">
-          <div className="flex items-end justify-between gap-4">
-            <div>
-              <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-                Foam roller
-              </p>
-              <h2 className="editorial-color-kiss mt-2 font-display text-4xl">
-                Enkel rulle eller helt set?
-              </h2>
-              <p className="mt-3 max-w-2xl text-lg leading-8 text-[#6f5a64]">
-                Elin jämför en slät, fast rulle med ryggränna mot ett komplett
-                deep-tissue-set med boll, stickrulle och fotmassör.
-              </p>
-            </div>
-            <Link
-              href="/traning/foam-roller"
-              className="hidden min-h-11 shrink-0 items-center rounded-full border border-[#E9CDD3] bg-white/70 px-5 text-sm font-black text-[#9E5E73] transition hover:-translate-y-0.5 hover:bg-white sm:inline-flex"
-            >
-              Se guiden
-            </Link>
-          </div>
-          <div className="mt-6 grid gap-6 md:grid-cols-2">
-            <ProductCard product={bodymateFoamRollerCareProduct} />
-            <ProductCard product={elvireDeepTissueMassageSetProduct} />
-          </div>
-        </section>
+        <CategoryProductSections categorySlug="traning" />
 
         <RelatedLinks
           links={[
@@ -264,8 +121,8 @@ export default function TraningHubPage() {
             },
             {
               href: "/halsa",
-              label: "Hälsa",
-              text: "Se fler produkter inom hälsa, välmående och vardagsrutiner.",
+              label: "Hälsa & livsstil",
+              text: "Se fler produkter inom återhämtning, smart hem och vardagskänsla.",
             },
           ]}
         />

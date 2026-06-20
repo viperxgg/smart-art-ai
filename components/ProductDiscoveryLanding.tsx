@@ -1,16 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  ArrowUpRight,
-  Camera,
-  Heart,
-  Mail,
-  Music2,
-  ShieldCheck,
-  Sparkles,
-} from "lucide-react";
+import { ArrowUpRight, Camera, Mail, Music2, Sparkles } from "lucide-react";
 
-import { HomeProductSections } from "@/components/HomeProductSections";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { comparisonEntries } from "@/lib/comparisons";
 import {
@@ -21,12 +12,7 @@ import {
 } from "@/lib/products";
 import { getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
-import {
-  smartSommarPicks,
-  smartSommarSectionCopy,
-  sommarPicks,
-  sommarSectionCopy,
-} from "@/lib/sommar";
+import { sommarPicks, sommarSectionCopy } from "@/lib/sommar";
 
 const elinHeroSrc = "/elin/elin-hero.webp";
 
@@ -52,190 +38,12 @@ export function ProductDiscoveryLanding() {
         <SiteHeader />
         <CategoryNav />
         <Hero />
-        <SommarGlowFeature />
-        <SmartSommarRoFeature />
+        <CategoryGateway />
+        <SeasonalStrip />
         <Favorites />
         <SelectedComparisons />
-        <CategoryBand />
-        <TrustBand />
-
-        <div className="mt-9 space-y-9 sm:mt-14 lg:space-y-14">
-          <HomeProductSections />
-        </div>
       </section>
     </main>
-  );
-}
-
-function SommarGlowFeature() {
-  const featuredPicks = sommarPicks.slice(0, 6);
-
-  return (
-    <section
-      className="mt-8 overflow-hidden rounded-[2.2rem] border border-[#efc6cc] bg-[#fff4df]/82 shadow-[0_28px_86px_rgba(214,139,92,0.18)] backdrop-blur-xl"
-      aria-labelledby="sommar-glow-title"
-    >
-      <div className="grid gap-5 p-5 sm:p-6 lg:grid-cols-[0.88fr_1.12fr] lg:items-center lg:p-7">
-        <div className="min-w-0">
-          <div className="flex flex-wrap items-center gap-2">
-            <p className="inline-flex min-h-10 items-center rounded-full border border-[#efc6cc] bg-white/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#a96876]">
-              {sommarSectionCopy.eyebrow}
-            </p>
-            <span className="inline-flex min-h-10 items-center rounded-full border border-[#efc6cc] bg-white/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#a96876]">
-              Annons
-            </span>
-          </div>
-          <h2
-            id="sommar-glow-title"
-            className="editorial-color-kiss mt-4 font-display text-4xl leading-tight sm:text-5xl"
-          >
-            Sommarens glow-val, samlade av Elin.
-          </h2>
-          <p className="mt-4 text-base leading-7 text-[#765965] sm:text-lg sm:leading-8">
-            {sommarSectionCopy.intro}
-          </p>
-          <p className="mt-4 rounded-3xl border border-[#efc6cc] bg-white/62 p-4 text-sm leading-7 text-[#765965]">
-            <strong>Annons</strong> · Innehåller reklamlänkar. Om du handlar via
-            våra länkar kan vi få en provision - utan extra kostnad för dig.
-          </p>
-          <Link
-            href="/sommar"
-            className="mt-5 inline-flex min-h-13 items-center justify-center gap-2 rounded-full bg-[#d97d91] px-6 text-sm font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
-          >
-            Se hela sommarguiden
-            <ArrowUpRight size={17} aria-hidden="true" />
-          </Link>
-        </div>
-
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
-          {featuredPicks.map((pick, index) => {
-            const score = getEditorialScore(pick.productSlug);
-
-            return (
-              <article
-                key={pick.productSlug}
-                className="min-w-0 overflow-hidden rounded-[1.7rem] border border-[#efc6cc] bg-white/72 p-3 shadow-[0_20px_58px_rgba(216,131,146,0.12)]"
-              >
-                <Link
-                  href={pick.href}
-                  className="relative block aspect-[4/3] overflow-hidden rounded-[1.25rem] bg-[#fff9f7]"
-                  aria-label={`Läs Elins omdöme om ${pick.product.title}`}
-                >
-                  <Image
-                    src={pick.cardImage}
-                    alt={pick.cardImageAlt}
-                    fill
-                    sizes="(min-width: 1024px) 220px, (min-width: 640px) 30vw, 100vw"
-                    className="object-cover"
-                    priority={index === 0}
-                    {...(index === 0 ? {} : { loading: "lazy" as const })}
-                  />
-                </Link>
-                <div className="p-2">
-                  <p className="text-xs font-black uppercase tracking-[0.14em] text-[#D8788D]">
-                    {pick.cardBadge}
-                  </p>
-                  <h3 className="mt-2 font-display text-[1.45rem] leading-tight text-[#5f4a54]">
-                    <Link href={pick.href}>{pick.product.brand}</Link>
-                  </h3>
-                  <p className="mt-2 text-sm leading-6 text-[#7e6970]">
-                    {pick.cardHook}
-                  </p>
-                  {score ? (
-                    <ScoreBadge score={score} className="mt-3 w-full justify-center" />
-                  ) : null}
-                </div>
-              </article>
-            );
-          })}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function SmartSommarRoFeature() {
-  return (
-    <section
-      className="mt-8 overflow-hidden rounded-[2.2rem] border border-[#efc6cc] bg-[#fff4df]/82 shadow-[0_28px_86px_rgba(214,139,92,0.18)] backdrop-blur-xl"
-      aria-labelledby="smart-sommarro-title"
-    >
-      <div className="grid gap-5 p-5 sm:p-6 lg:grid-cols-[0.88fr_1.12fr] lg:items-center lg:p-7">
-        <div className="min-w-0">
-          <div className="flex flex-wrap items-center gap-2">
-            <p className="inline-flex min-h-10 items-center rounded-full border border-[#efc6cc] bg-white/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#a96876]">
-              {smartSommarSectionCopy.eyebrow}
-            </p>
-            <span className="inline-flex min-h-10 items-center rounded-full border border-[#efc6cc] bg-white/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#a96876]">
-              Annons
-            </span>
-          </div>
-          <h2
-            id="smart-sommarro-title"
-            className="editorial-color-kiss mt-4 font-display text-4xl leading-tight sm:text-5xl"
-          >
-            Smart sommarro, samlad av Elin.
-          </h2>
-          <p className="mt-4 text-base leading-7 text-[#765965] sm:text-lg sm:leading-8">
-            {smartSommarSectionCopy.intro}
-          </p>
-          <p className="mt-4 rounded-3xl border border-[#efc6cc] bg-white/62 p-4 text-sm leading-7 text-[#765965]">
-            <strong>Annons</strong> · Innehåller reklamlänkar. Om du handlar via
-            våra länkar kan vi få en provision - utan extra kostnad för dig.
-          </p>
-          <Link
-            href="/sommar"
-            className="mt-5 inline-flex min-h-13 items-center justify-center gap-2 rounded-full bg-[#d97d91] px-6 text-sm font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
-          >
-            Se smart sommarro
-            <ArrowUpRight size={17} aria-hidden="true" />
-          </Link>
-        </div>
-
-        <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-3">
-          {smartSommarPicks.map((pick, index) => {
-            const score = getEditorialScore(pick.productSlug);
-
-            return (
-              <article
-                key={pick.productSlug}
-                className="min-w-0 overflow-hidden rounded-[1.7rem] border border-[#efc6cc] bg-white/72 p-3 shadow-[0_20px_58px_rgba(216,131,146,0.12)]"
-              >
-                <Link
-                  href={pick.href}
-                  className="relative block aspect-[4/3] overflow-hidden rounded-[1.25rem] bg-[#fff9f7]"
-                  aria-label={`Läs Elins omdöme om ${pick.product.title}`}
-                >
-                  <Image
-                    src={pick.cardImage}
-                    alt={pick.cardImageAlt}
-                    fill
-                    sizes="(min-width: 1024px) 220px, (min-width: 640px) 30vw, 100vw"
-                    className="object-cover"
-                    priority={false}
-                    loading={index === 0 ? "eager" : "lazy"}
-                  />
-                </Link>
-                <div className="p-2">
-                  <p className="text-xs font-black uppercase tracking-[0.14em] text-[#D8788D]">
-                    {pick.cardBadge}
-                  </p>
-                  <h3 className="mt-2 font-display text-[1.45rem] leading-tight text-[#5f4a54]">
-                    <Link href={pick.href}>{pick.product.brand}</Link>
-                  </h3>
-                  <p className="mt-2 text-sm leading-6 text-[#7e6970]">
-                    {pick.cardHook}
-                  </p>
-                  {score ? (
-                    <ScoreBadge score={score} className="mt-3 w-full justify-center" />
-                  ) : null}
-                </div>
-              </article>
-            );
-          })}
-        </div>
-      </div>
-    </section>
   );
 }
 
@@ -299,7 +107,7 @@ function CategoryNav() {
         {activeProductCategories.map((category) => (
           <Link
             key={category.slug}
-            href={`#${category.slug}`}
+            href={category.href}
             className="inline-flex min-h-10 shrink-0 snap-start items-center rounded-full border border-[#efc6cc] bg-white/70 px-4 text-sm font-black text-[#7b4656] shadow-[0_12px_32px_rgba(216,131,146,0.12)] backdrop-blur transition hover:-translate-y-0.5 hover:bg-white sm:min-h-11 sm:px-5"
           >
             {category.label}
@@ -341,8 +149,7 @@ function Hero() {
             .
           </p>
           <p className="mt-4 font-display text-[1.25rem] leading-8 text-[#8a6670] sm:text-[1.55rem] sm:leading-9">
-            Jag jämför{" "}
-            <span className="text-[#b85b89]">betyg</span>,{" "}
+            Jag jämför <span className="text-[#b85b89]">betyg</span>,{" "}
             <span className="text-[#8b6aa5]">specifikationer</span> och{" "}
             <span className="rounded-full bg-[#fff0c7] px-2 text-[#8a6641]">
               tusentals recensioner
@@ -366,6 +173,129 @@ function Hero() {
             <ArrowUpRight size={17} aria-hidden="true" />
           </Link>
         </div>
+      </div>
+    </section>
+  );
+}
+
+function CategoryGateway() {
+  return (
+    <section className="mt-8" aria-labelledby="category-gateway-title">
+      <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
+        Kategorier
+      </p>
+      <h2
+        id="category-gateway-title"
+        className="editorial-color-kiss mt-2 font-display text-4xl leading-tight"
+      >
+        Börja där du vill jämföra.
+      </h2>
+
+      <div className="mt-5 grid gap-4 md:grid-cols-3">
+        {activeProductCategories.map((category) => (
+          <Link
+            key={category.slug}
+            href={category.href}
+            className="rounded-[1.8rem] border border-[#efc6cc] bg-white/58 p-6 shadow-[0_20px_58px_rgba(216,131,146,0.1)] transition hover:-translate-y-1 hover:bg-white"
+          >
+            <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
+              Kategori
+            </p>
+            <h3 className="editorial-color-kiss mt-2 font-display text-4xl leading-tight">
+              {category.label}
+            </h3>
+            <p className="mt-3 text-sm leading-6 text-[#7e6970]">
+              {category.description}
+            </p>
+            <span className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full bg-[#d97d91] px-5 text-sm font-black text-white">
+              Gå till {category.label}
+              <ArrowUpRight size={16} aria-hidden="true" />
+            </span>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function SeasonalStrip() {
+  const featuredPicks = sommarPicks.slice(0, 3);
+
+  return (
+    <section
+      className="mt-8 overflow-hidden rounded-[2.2rem] border border-[#efc6cc] bg-[#fff4df]/82 p-5 shadow-[0_28px_86px_rgba(214,139,92,0.18)] backdrop-blur-xl sm:p-6 lg:p-7"
+      aria-labelledby="seasonal-strip-title"
+    >
+      <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+        <div className="min-w-0 max-w-3xl">
+          <div className="flex flex-wrap items-center gap-2">
+            <p className="inline-flex min-h-10 items-center rounded-full border border-[#efc6cc] bg-white/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#a96876]">
+              Elins sommar
+            </p>
+            <span className="inline-flex min-h-10 items-center rounded-full border border-[#efc6cc] bg-white/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#a96876]">
+              Annons
+            </span>
+          </div>
+          <h2
+            id="seasonal-strip-title"
+            className="editorial-color-kiss mt-4 font-display text-4xl leading-tight"
+          >
+            Sommarens snabbaste genväg.
+          </h2>
+          <p className="mt-3 text-base leading-7 text-[#765965] sm:text-lg sm:leading-8">
+            {sommarSectionCopy.intro}
+          </p>
+        </div>
+        <Link
+          href="/sommar"
+          className="inline-flex min-h-13 shrink-0 items-center justify-center gap-2 rounded-full bg-[#d97d91] px-6 text-sm font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
+        >
+          Se hela sommarguiden
+          <ArrowUpRight size={17} aria-hidden="true" />
+        </Link>
+      </div>
+
+      <div className="mt-5 grid gap-4 sm:grid-cols-3">
+        {featuredPicks.map((pick, index) => {
+          const score = getEditorialScore(pick.productSlug);
+
+          return (
+            <article
+              key={pick.productSlug}
+              className="min-w-0 overflow-hidden rounded-[1.7rem] border border-[#efc6cc] bg-white/72 p-3 shadow-[0_20px_58px_rgba(216,131,146,0.12)]"
+            >
+              <Link
+                href={pick.href}
+                className="relative block aspect-[4/3] overflow-hidden rounded-[1.25rem] bg-[#fff9f7]"
+                aria-label={`Läs Elins omdöme om ${pick.product.title}`}
+              >
+                <Image
+                  src={pick.cardImage}
+                  alt={pick.cardImageAlt}
+                  fill
+                  sizes="(min-width: 1024px) 220px, (min-width: 640px) 30vw, 100vw"
+                  className="object-cover"
+                  priority={index === 0}
+                  {...(index === 0 ? {} : { loading: "lazy" as const })}
+                />
+              </Link>
+              <div className="p-2">
+                <p className="text-xs font-black uppercase tracking-[0.14em] text-[#D8788D]">
+                  {pick.cardBadge}
+                </p>
+                <h3 className="mt-2 font-display text-[1.45rem] leading-tight text-[#5f4a54]">
+                  <Link href={pick.href}>{pick.product.brand}</Link>
+                </h3>
+                <p className="mt-2 text-sm leading-6 text-[#7e6970]">
+                  {pick.cardHook}
+                </p>
+                {score ? (
+                  <ScoreBadge score={score} className="mt-3 w-full justify-center" />
+                ) : null}
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
@@ -494,73 +424,6 @@ function SelectedComparisons() {
             </p>
           </Link>
         ))}
-      </div>
-    </section>
-  );
-}
-
-function CategoryBand() {
-  return (
-    <section className="mt-10 grid gap-4 md:grid-cols-3" aria-label="Kategorier">
-      {activeProductCategories.map((category) => (
-        <Link
-          key={category.slug}
-          href={category.href}
-          className="rounded-[1.6rem] border border-[#efc6cc] bg-white/58 p-5 shadow-[0_20px_58px_rgba(216,131,146,0.1)] transition hover:-translate-y-1 hover:bg-white"
-        >
-          <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
-            Kategori
-          </p>
-          <h2 className="editorial-color-kiss mt-2 font-display text-3xl">
-            {category.label}
-          </h2>
-          <p className="mt-3 text-sm leading-6 text-[#7e6970]">
-            {category.description}
-          </p>
-        </Link>
-      ))}
-    </section>
-  );
-}
-
-function TrustBand() {
-  return (
-    <section className="mt-10 rounded-[2rem] border border-[#efc6cc] bg-white/60 p-6 shadow-[0_24px_70px_rgba(216,131,146,0.13)] backdrop-blur-xl">
-      <div className="grid gap-5 md:grid-cols-3">
-        {[
-          {
-            icon: ShieldCheck,
-            title: "Elins poäng",
-            text: "Värde, funktion, löfte och beprövad signal vägs öppet.",
-            href: "/elins-poang",
-          },
-          {
-            icon: Heart,
-            title: "Tre lager",
-            text: "Elins urval, Amazon-köparnas signaler och vår community hålls isär.",
-            href: "/om-oss",
-          },
-          {
-            icon: Sparkles,
-            title: "Annons",
-            text: "Amazon-länkar märks tydligt och priser visas bara aktuellt hos Amazon.",
-            href: "/om-oss",
-          },
-        ].map((item) => {
-          const Icon = item.icon;
-
-          return (
-            <Link key={item.title} href={item.href} className="block">
-              <Icon className="text-[#B983A6]" size={24} aria-hidden="true" />
-              <h2 className="editorial-color-kiss mt-3 font-display text-2xl">
-                {item.title}
-              </h2>
-              <p className="mt-2 text-sm leading-6 text-[#6f5a64]">
-                {item.text}
-              </p>
-            </Link>
-          );
-        })}
       </div>
     </section>
   );

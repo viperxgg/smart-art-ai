@@ -2,12 +2,11 @@ import Link from "next/link";
 import { ArrowUpRight, Home, Sparkles, WandSparkles } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { CategoryProductSections } from "@/components/CategoryProductSections";
 import { JsonLd } from "@/components/JsonLd";
-import { ProductCard } from "@/components/ProductCard";
 import { RelatedLinks } from "@/components/RelatedLinks";
-import { plattangPicks } from "@/lib/plattang";
 import { createSeoMetadata } from "@/lib/metadata";
-import { getProductsByCategory } from "@/lib/products";
+import { plattangPicks } from "@/lib/plattang";
 import { siteConfig } from "@/lib/site";
 
 export const metadata = createSeoMetadata({
@@ -31,8 +30,6 @@ const breadcrumbItems = [
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
 
 export default function SkonhetHubPage() {
-  const beautyProducts = getProductsByCategory("skonhet");
-
   return (
     <main
       id="content"
@@ -61,9 +58,9 @@ export default function SkonhetHubPage() {
               Skönhet utan överköp.
             </h1>
             <p className="mt-6 max-w-2xl text-xl leading-9 text-[#6f5a64]">
-              Här samlar Elin skönhetsprodukter som känns enkla att förstå:
-              vad de passar för, när de är värda pengarna och när du hellre
-              ska välja något annat.
+              Här samlar Elin skönhetsprodukter som känns enkla att förstå: vad
+              de passar för, när de är värda pengarna och när du hellre ska
+              välja något annat.
             </p>
           </div>
 
@@ -95,22 +92,7 @@ export default function SkonhetHubPage() {
           </Link>
         </section>
 
-        <section className="mt-10">
-          <div>
-            <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-              Produktkort
-            </p>
-            <h2 className="editorial-color-kiss mt-2 font-display text-4xl">
-              Skönhetsval Elin jämför
-            </h2>
-          </div>
-
-          <div className="mt-6 grid gap-6 md:grid-cols-2">
-            {beautyProducts.map((product) => (
-              <ProductCard key={product.slug} product={product} />
-            ))}
-          </div>
-        </section>
+        <CategoryProductSections categorySlug="skonhet" />
 
         <section className="mt-10 rounded-[2rem] border border-[#F1D8DD] bg-white/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
           <div className="flex items-start gap-4">
@@ -122,9 +104,8 @@ export default function SkonhetHubPage() {
                 Mer värde. Mindre badrumslåda.
               </h2>
               <p className="mt-3 text-lg leading-8 text-[#6f5a64]">
-                Varje skönhetsval ska snabbt förklara vem produkten passar,
-                vad som gör den prisvärd och vilken liten nackdel du bör känna
-                till.
+                Varje skönhetsval ska snabbt förklara vem produkten passar, vad
+                som gör den prisvärd och vilken liten nackdel du bör känna till.
               </p>
             </div>
           </div>
@@ -134,8 +115,8 @@ export default function SkonhetHubPage() {
           links={[
             {
               href: "/halsa",
-              label: "Hälsa",
-              text: "Se Elins val för återhämtning och vardagsvälmående.",
+              label: "Hälsa & livsstil",
+              text: "Se Elins val för återhämtning, smart hem och vardagskänsla.",
             },
             {
               href: "/traning",
