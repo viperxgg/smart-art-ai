@@ -101,6 +101,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${siteConfig.url}/traning/kettlebell-eller-hantlar`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
       url: `${siteConfig.url}/traning/kettlebell/amazon-basics`,
       lastModified: new Date(),
       changeFrequency: "weekly",
@@ -150,6 +156,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${siteConfig.url}/traning/foam-roller`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/traning/foam-roller-eller-massagepistol`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.85,
@@ -209,6 +221,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${siteConfig.url}/halsa/mini-projektor-eller-stjarnprojektor`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
       url: `${siteConfig.url}/halsa/massagepistol/beurer-mg-99`,
       lastModified: new Date(),
       changeFrequency: "weekly",
@@ -252,6 +270,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${siteConfig.url}/skonhet/varmluftsborste-eller-plattang`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/aftersun-eller-aloe-vera`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/harinpackning-eller-harolja`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.85,

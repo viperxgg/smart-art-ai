@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight, HeartPulse, Home, Sparkles } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { CategoryComparisonSections } from "@/components/CategoryComparisonSections";
 import { CategoryProductSections } from "@/components/CategoryProductSections";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
@@ -93,6 +94,7 @@ export default function HalsaHubPage() {
         </section>
 
         <CategoryProductSections categorySlug="halsa" />
+        <CategoryComparisonSections categorySlug="halsa" />
 
         <section className="mt-10 rounded-[2rem] border border-[#F1D8DD] bg-white/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
           <div className="flex items-start gap-4">

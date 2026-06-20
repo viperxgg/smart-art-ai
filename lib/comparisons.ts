@@ -220,6 +220,69 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     productSlugs: ["babyliss-as126e-varmluftsborste", "remington-s8540-plattang"],
     badges: ["Allt-i-ett", "Slätt & polerat", "Volym"],
   },
+  {
+    slug: "aftersun-eller-aloe-vera",
+    title: "Aftersun eller aloe vera?",
+    shortTitle: "Aftersun eller aloe vera",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/aftersun-eller-aloe-vera",
+    description:
+      "Mjukgörande after sun-lotion för kroppen mot en lätt, svalkande aloe vera-gel.",
+    productSlugs: ["nivea-sun-after-sun-lotion", "naissance-aloe-vera-gel"],
+    badges: ["Svalkar", "Återfuktar", "Sommar"],
+  },
+  {
+    slug: "harinpackning-eller-harolja",
+    title: "Hårinpackning eller hårolja?",
+    shortTitle: "Hårinpackning eller hårolja",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/harinpackning-eller-harolja",
+    description:
+      "Intensiv inpackning som sköljs ur mot glansgivande leave-in-olja.",
+    productSlugs: ["loreal-absolut-repair", "moroccanoil-harolja"],
+    badges: ["Djup kur", "Glans & mjukhet", "Sommarvård"],
+  },
+  {
+    slug: "kettlebell-eller-hantlar",
+    title: "Kettlebell eller hantlar?",
+    shortTitle: "Kettlebell eller hantlar",
+    category: "traning",
+    categoryLabel: "Träning",
+    href: "/traning/kettlebell-eller-hantlar",
+    description:
+      "Ett mångsidigt redskap för svingar mot ett komplett hantelset med ställning.",
+    productSlugs: [
+      "amazon-basics-gjutjarns-kettlebell",
+      "songmics-hantelset-med-stallning",
+    ],
+    badges: ["Helkropp", "Set + ställning", "Hemmaträning"],
+  },
+  {
+    slug: "foam-roller-eller-massagepistol",
+    title: "Foam roller eller massagepistol?",
+    shortTitle: "Foam roller eller massagepistol",
+    category: "traning",
+    categoryLabel: "Träning",
+    href: "/traning/foam-roller-eller-massagepistol",
+    description:
+      "Enkel återhämtning för stora muskelgrupper mot riktad vibration på enskilda punkter.",
+    productSlugs: ["bodymate-foam-roller-care", "beurer-mg-99-massagepistol"],
+    badges: ["Återhämtning", "Billigast", "Riktad"],
+  },
+  {
+    slug: "mini-projektor-eller-stjarnprojektor",
+    title: "Mini-projektor eller stjärnprojektor?",
+    shortTitle: "Mini- eller stjärnprojektor",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/mini-projektor-eller-stjarnprojektor",
+    description:
+      "Bärbar bio för film på väggen mot en drömmig galaxhimmel på taket.",
+    productSlugs: ["mini-projektor", "stjarnprojektor"],
+    badges: ["Film på väggen", "Galaxhimmel", "Mys"],
+  },
 ];
 
 export function getComparisonsByCategory(category: ProductCategorySlug) {

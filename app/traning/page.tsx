@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Dumbbell, Home } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { CategoryComparisonSections } from "@/components/CategoryComparisonSections";
 import { CategoryProductSections } from "@/components/CategoryProductSections";
 import { JsonLd } from "@/components/JsonLd";
 import { ProductCard } from "@/components/ProductCard";
@@ -86,6 +87,7 @@ export default function TraningHubPage() {
         </section>
 
         <CategoryProductSections categorySlug="traning" />
+        <CategoryComparisonSections categorySlug="traning" />
 
         <RelatedLinks
           links={[
