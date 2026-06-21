@@ -244,6 +244,22 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 85,
     verdict: "Prisvärd, vegansk aloe vera som svalkar efter solen",
   },
+  "minimalist-hyaluronsyra-serum": {
+    value: 25,
+    performance: 24,
+    promise: 22,
+    proven: 13,
+    total: 84,
+    verdict: "Prisvärt fukt-serum som återfuktar på flera nivåer",
+  },
+  "kanzy-jojobaolja": {
+    value: 26,
+    performance: 23,
+    promise: 22,
+    proven: 14,
+    total: 85,
+    verdict: "Mångsidig, prisvärd jojobaolja för hud, hår & naglar",
+  },
   "moroccanoil-harolja": {
     value: 19,
     performance: 28,

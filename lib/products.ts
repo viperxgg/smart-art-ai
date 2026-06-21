@@ -1781,6 +1781,137 @@ export const naissanceAloeVeraGelProduct: Product = {
   comments: [],
 };
 
+export const minimalistHyaluronsyraSerumProduct: Product = {
+  slug: "minimalist-hyaluronsyra-serum",
+  title: "Minimalist 2% Hyaluronic Acid + PGA Face Serum (30 ml)",
+  category: "skonhet",
+  asin: "",
+  brand: "Minimalist",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Återfuktar", "Parfymfri", "Alla hudtyper"],
+  image:
+    "/products/minimalist-hyaluronsyra-serum/minimalist-hyaluronsyra-serum-thumbnail.webp",
+  imageAlt: "Minimalist 2% Hyaluronic Acid + PGA Face Serum, 30 ml",
+  images: [
+    {
+      src: "/products/minimalist-hyaluronsyra-serum/minimalist-hyaluronsyra-serum-1.webp",
+      alt: "Minimalist hyaluronsyra-serum med 2% HA + PGA",
+      label: "Ansiktsserum",
+    },
+    {
+      src: "/products/minimalist-hyaluronsyra-serum/minimalist-hyaluronsyra-serum-2.webp",
+      alt: "Minimalist hyaluronsyra-serum appliceras med pipett",
+      label: "Lätt textur",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4agYhR0",
+  pageHref: "/skonhet/hyaluronsyra-serum",
+  summary:
+    "Ett prisvärt, parfymfritt fukt-serum med 2% hyaluronsyra och PGA som binder och håller kvar fukt på flera nivåer - för alla hudtyper, även känslig och fet/kombinerad hud.",
+  evaluation: {
+    headline: "Prisvärt fukt-serum som återfuktar på flera nivåer",
+    intro:
+      "Elin går igenom signalerna kring Minimalists hyaluronsyra-serum: 2% hyaluronsyra i flera molekylstorlekar plus PGA (polyglutaminsyra) och vitamin B5 för att binda och hålla kvar fukt. Parfymfritt och icke-komedogent - ett enkelt, prisvärt fuktsteg för sommarhud.",
+    verdict:
+      "Prisvärt fukt-serum som återfuktar på flera nivåer.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hudvård",
+  specSectionTitle: "Minimalist Hyaluronic Acid + PGA",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Ansiktsserum, 30 ml" },
+    { label: "Formula", caption: "Fukt", value: "2% HA + PGA, vitamin B5" },
+    {
+      label: "Profil",
+      caption: "Hudvård",
+      value: "Parfymfri, silikonfri, icke-komedogen",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4agYhR0",
+    ratingSummary:
+      "Amazon visar 4,3 av 5 från över 7 000 omdömen.",
+    highlights: [
+      "Köpare lyfter den lätta känslan och att serumet passar som ett enkelt fuktsteg.",
+      "Formulan är parfymfri, silikonfri och icke-komedogen.",
+      "2% hyaluronsyra, PGA och vitamin B5 hjälper huden att kännas återfuktad.",
+    ],
+    cautions: [
+      "Applicera på lätt fuktig hud och följ upp med fuktkräm.",
+      "Resultat och känsla varierar mellan hudtyper.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const kanzyJojobaoljaProduct: Product = {
+  slug: "kanzy-jojobaolja",
+  title: "Kanzy Jojoba Oil Cold Pressed 100% Pure (120 ml)",
+  category: "skonhet",
+  asin: "B07BYPW7LZ",
+  brand: "Kanzy",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Mångsidig", "Kallpressad", "Vegansk"],
+  image: "/products/kanzy-jojobaolja/kanzy-jojobaolja-thumbnail.webp",
+  imageAlt: "Kanzy Jojoba Oil Cold Pressed 100% Pure, 120 ml",
+  images: [
+    {
+      src: "/products/kanzy-jojobaolja/kanzy-jojobaolja-1.webp",
+      alt: "Kanzy jojobaolja med jojobafrön",
+      label: "100% jojoba",
+    },
+    {
+      src: "/products/kanzy-jojobaolja/kanzy-jojobaolja-2.webp",
+      alt: "Kanzy jojobaolja förpackning och flaska",
+      label: "Kallpressad",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3SpI3Pi",
+  pageHref: "/skonhet/jojobaolja",
+  summary:
+    "En mångsidig, kallpressad och vegansk jojobaolja för hud, hår och naglar. Lätt och icke-fet - jojoba liknar hudens eget sebum, vilket gör den enkel att använda även på fet och kombinerad hy.",
+  evaluation: {
+    headline: "Mångsidig, prisvärd jojobaolja för hud, hår & naglar",
+    intro:
+      "Elin går igenom signalerna kring Kanzys kallpressade jojobaolja: en ren, vegansk olja som mjukgör och vårdar hud, hår och naglar. Lätt textur som absorberas snabbt och inte känns fet.",
+    verdict:
+      "Mångsidig, prisvärd jojobaolja för hud, hår & naglar.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hudvård",
+  specSectionTitle: "Kanzy Jojoba Oil",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Jojobaolja, 120 ml" },
+    { label: "Formula", caption: "Innehåll", value: "100% ren jojobaolja" },
+    { label: "Profil", caption: "Hudvård", value: "Kallpressad, hexanfri, vegansk" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3SpI3Pi",
+    ratingSummary:
+      "Amazon visar 4,4 av 5 från över 40 000 omdömen och den är en bästsäljare bland kroppsoljor.",
+    highlights: [
+      "Köpare lyfter den lätta, mjukgörande känslan på hud och hår.",
+      "100% ren, kallpressad och hexanfri jojobaolja.",
+      "Mångsidig användning för hud, hår och naglar.",
+    ],
+    cautions: [
+      "Några droppar räcker - för mycket olja kan kännas blankt.",
+      "Doft, absorption och känsla varierar mellan hud- och hårtyper.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const moroccanoilHaroljaProduct: Product = {
   slug: "moroccanoil-harolja",
   title: "Moroccanoil Treatment Original - hårolja (25 ml)",
@@ -2439,6 +2570,8 @@ export const products = [
   elfSkinBronzingDropsProduct,
   niveaSunAfterSunLotionProduct,
   naissanceAloeVeraGelProduct,
+  minimalistHyaluronsyraSerumProduct,
+  kanzyJojobaoljaProduct,
   moroccanoilHaroljaProduct,
   lorealAbsolutRepairProduct,
   moroccanoilTorrschampoProduct,

@@ -191,6 +191,19 @@ export async function SommarProductReviewPage({
           </article>
         </section>
 
+        {pick.usageGuidance ? (
+          <section className="mt-7">
+            <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+              <h2 className="editorial-color-kiss font-display text-3xl">
+                {pick.usageGuidance.title}
+              </h2>
+              <p className="mt-5 max-w-4xl text-lg leading-8 text-[#6f5a64]">
+                {pick.usageGuidance.text}
+              </p>
+            </article>
+          </section>
+        ) : null}
+
         <div className="mt-7">
           <TrustReviewLayers
             amazonSummary={pick.amazonSummary}

@@ -1,9 +1,11 @@
 import {
   elfSkinBronzingDropsProduct,
+  kanzyJojobaoljaProduct,
   koboClaraBwProduct,
   lorealAbsolutRepairProduct,
   lorealElvitalVarmeskyddProduct,
   miniProjektorProduct,
+  minimalistHyaluronsyraSerumProduct,
   moroccanoilHaroljaProduct,
   moroccanoilTorrschampoProduct,
   naissanceAloeVeraGelProduct,
@@ -41,6 +43,10 @@ export type SommarPick = {
   valueStatement: string;
   passFor: string[];
   caution: string;
+  usageGuidance?: {
+    title: string;
+    text: string;
+  };
   verdict: string;
   amazonSummary: string;
   amazonQuotes: SommarQuote[];
@@ -354,6 +360,144 @@ export const sommarPicks: SommarPick[] = [
         href: "/skonhet/brun-utan-sol",
         label: "Brun utan sol",
         text: "Få sommarfärgen utan att sola.",
+      },
+    ],
+  },
+  {
+    productSlug: minimalistHyaluronsyraSerumProduct.slug,
+    href: "/skonhet/hyaluronsyra-serum",
+    cardBadge: "Parfymfritt fukt-serum",
+    cardHook: "2% hyaluronsyra + PGA - 7 000+ omdömen.",
+    cardImage:
+      "/products/minimalist-hyaluronsyra-serum/minimalist-hyaluronsyra-serum-thumbnail.webp",
+    cardImageAlt: "Minimalist 2% Hyaluronic Acid + PGA Face Serum, 30 ml",
+    product: minimalistHyaluronsyraSerumProduct,
+    badge: "Prisvärt fukt-serum",
+    headline: "Minimalist Hyaluronsyra-serum - fukt på flera nivåer",
+    shortBody:
+      "Ett prisvärt, parfymfritt fukt-serum med 2% hyaluronsyra och PGA som binder och håller kvar fukt på flera nivåer - för alla hudtyper.",
+    valueHook:
+      "Prisvärt fukt-serum som återfuktar på flera nivåer.",
+    valueStatement:
+      "Minimalist 2% Hyaluronic Acid + PGA Face Serum är ett enkelt fuktsteg för dig som vill ha återfuktning utan parfym och onödigt krångel. Formulan kombinerar 2% hyaluronsyra i flera molekylstorlekar med PGA (polyglutaminsyra) och vitamin B5 för att hjälpa huden att kännas mjukare och mer återfuktad. Amazon visar 4,3 av 5 från över 7 000 omdömen, och profilen är parfymfri, silikonfri och icke-komedogen.",
+    passFor: [
+      "Vill ha ett prisvärt, parfymfritt fukt-serum för ansiktet.",
+      "Har känslig, fet eller kombinerad hud och vill hålla rutinen enkel.",
+      "Vill ha ett lätt serum att lägga under fuktkräm.",
+    ],
+    caution:
+      "Det här är ett fukt-serum, inte en komplett rutin på egen hand. Hyaluronsyra fungerar bäst när den får fukt att binda och en kräm ovanpå som låser in känslan. Testa på en liten yta först om huden lätt reagerar.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Vanligaste misstaget: att applicera hyaluronsyra på helt torr hud. Hyaluronsyra drar åt sig fukt - på torr hud i torr luft kan den istället dra fukt från hudens djupare lager. Applicera på lätt fuktig hud och lås in direkt med en fuktkräm.",
+    },
+    verdict:
+      "Prisvärt, parfymfritt och lätt att förstå - ett starkt fuktsteg för ansiktet.",
+    amazonSummary:
+      "Amazon visar 4,3 av 5 från över 7 000 omdömen. Köparsignalerna pekar på ett lätt, prisvärt fukt-serum med parfymfri, silikonfri och icke-komedogen profil.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "När i rutinen använder jag hyaluronsyra-serum?",
+        answer:
+          "Applicera efter rengöring på lätt fuktig hud och följ upp med fuktkräm. Det gör serumet lättare att använda som ett tydligt fuktsteg.",
+      },
+      {
+        question: "Passar det fet eller kombinerad hud?",
+        answer:
+          "Ja, formulan beskrivs som lätt, parfymfri och icke-komedogen, vilket gör den relevant även för fet och kombinerad hud. Känslan kan ändå variera mellan hudtyper.",
+      },
+      {
+        question: "Behöver jag fortfarande fuktkräm?",
+        answer:
+          "Ja. Serumet binder fukt, men en fuktkräm ovanpå hjälper till att låsa in den mjuka känslan.",
+      },
+    ],
+    reviewSectionId: "minimalist-hyaluronsyra-serum-recensioner",
+    reviewFormId: "minimalist-hyaluronsyra-serum-skriv-recension",
+    targetKeyword: "hyaluronsyra serum",
+    metaTitle:
+      "Hyaluronsyra serum - Minimalist 2% Hyaluronic Acid + PGA | Elins val",
+    metaDescription:
+      "Elin går igenom Minimalist 2% Hyaluronic Acid + PGA: ett prisvärt, parfymfritt fukt-serum för alla hudtyper (4,3 av 5, 7 000+ omdömen) - och hur du använder hyaluronsyra rätt.",
+    relatedLinks: [
+      {
+        href: "/skonhet/jojobaolja",
+        label: "Jojobaolja",
+        text: "Lås in mjukheten med några droppar lätt olja.",
+      },
+      {
+        href: "/skonhet/aloe-vera-gel",
+        label: "Aloe vera gel",
+        text: "Svalkande gel för hud som vill ha lätt fukt.",
+      },
+    ],
+  },
+  {
+    productSlug: kanzyJojobaoljaProduct.slug,
+    href: "/skonhet/jojobaolja",
+    cardBadge: "Kallpressad jojobaolja",
+    cardHook: "Mångsidig olja för hud, hår och naglar - 40 000+ omdömen.",
+    cardImage: "/products/kanzy-jojobaolja/kanzy-jojobaolja-thumbnail.webp",
+    cardImageAlt: "Kanzy Jojoba Oil Cold Pressed 100% Pure, 120 ml",
+    product: kanzyJojobaoljaProduct,
+    badge: "Mångsidigt hudvårdsval",
+    headline: "Kanzy Jojobaolja - lätt olja för hud, hår & naglar",
+    shortBody:
+      "En mångsidig, kallpressad och vegansk jojobaolja för hud, hår och naglar. Lätt och icke-fet - enkel att dosera i en minimalistisk rutin.",
+    valueHook:
+      "Mångsidig, prisvärd jojobaolja för hud, hår & naglar.",
+    valueStatement:
+      "Kanzy Jojoba Oil är en ren, kallpressad och vegansk jojobaolja som fungerar som ett enkelt mjukgörande steg för hud, hår och naglar. Jojoba liknar hudens eget sebum, vilket gör den lätt att använda även när huden är fet eller kombinerad. Amazon visar 4,4 av 5 från över 40 000 omdömen, och produkten lyfts som bästsäljare bland kroppsoljor med 100% ren, hexanfri profil.",
+    passFor: [
+      "Vill ha en ren, mångsidig olja för hud, hår och naglar.",
+      "Föredrar kallpressad, vegansk och hexanfri jojobaolja.",
+      "Vill kunna dosera några droppar i en enkel hudvårdsrutin.",
+    ],
+    caution:
+      "Börja med mycket liten mängd. För mycket olja kan kännas blankt eller tungt, särskilt i ansiktet och i fint hår. Applicera några droppar och bygg upp bara om huden eller håret behöver mer mjukhet.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Vanligaste myten: \"har du fet hy ska du undvika olja\". Jojobaolja liknar faktiskt hudens eget sebum och kan hjälpa till att balansera fet och kombinerad hy istället för att täppa till. Några droppar räcker - på hud, i håret eller på naglarna.",
+    },
+    verdict:
+      "Mångsidig och prisvärd - en lätt jojobaolja som passar flera delar av rutinen.",
+    amazonSummary:
+      "Amazon visar 4,4 av 5 från över 40 000 omdömen. Köparsignalerna pekar på en mångsidig, ren och kallpressad jojobaolja för hud, hår och naglar.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Kan jojobaolja användas i ansiktet?",
+        answer:
+          "Ja, använd några droppar på lätt fuktad hud eller ovanpå fuktkräm. Börja lågt och öka bara om huden vill ha mer mjukhet.",
+      },
+      {
+        question: "Passar den fet eller kombinerad hy?",
+        answer:
+          "Jojoba liknar hudens eget sebum och kan därför vara enklare att använda än många tyngre oljor. Känslan varierar, så börja med en liten mängd.",
+      },
+      {
+        question: "Kan den användas i hår och på naglar?",
+        answer:
+          "Ja. Några droppar kan användas i längder, på torra toppar eller masseras in på nagelband.",
+      },
+    ],
+    reviewSectionId: "kanzy-jojobaolja-recensioner",
+    reviewFormId: "kanzy-jojobaolja-skriv-recension",
+    targetKeyword: "jojobaolja",
+    metaTitle: "Jojobaolja - Kanzy Cold Pressed 100% Pure | Elins val",
+    metaDescription:
+      "Elin går igenom Kanzy Jojoba Oil: kallpressad, vegansk jojobaolja för hud, hår och naglar (4,4 av 5, 40 000+ omdömen) - och hur några droppar används rätt.",
+    relatedLinks: [
+      {
+        href: "/skonhet/hyaluronsyra-serum",
+        label: "Hyaluronsyra-serum",
+        text: "Lägg fukt först och lås in känslan efteråt.",
+      },
+      {
+        href: "/skonhet/harolja",
+        label: "Hårolja",
+        text: "Jämför med ett mer klassiskt hårvårdsval.",
       },
     ],
   },

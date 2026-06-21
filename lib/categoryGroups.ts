@@ -39,6 +39,13 @@ export const categoryProductGroups = {
       ],
     },
     {
+      title: "Hudvård",
+      productSlugs: [
+        "minimalist-hyaluronsyra-serum",
+        "kanzy-jojobaolja",
+      ],
+    },
+    {
       title: "Hårborttagning",
       productSlugs: ["panasonic-es-ey30-epilator", "braun-silk-epil-9"],
     },
