@@ -1,5 +1,6 @@
 import {
   elfSkinBronzingDropsProduct,
+  inkeyNiacinamideSerumProduct,
   kanzyJojobaoljaProduct,
   koboClaraBwProduct,
   lorealAbsolutRepairProduct,
@@ -430,6 +431,75 @@ export const sommarPicks: SommarPick[] = [
         href: "/skonhet/aloe-vera-gel",
         label: "Aloe vera gel",
         text: "Svalkande gel för hud som vill ha lätt fukt.",
+      },
+    ],
+  },
+  {
+    productSlug: inkeyNiacinamideSerumProduct.slug,
+    href: "/skonhet/niacinamide-serum",
+    cardBadge: "Mattande niacinamide-serum",
+    cardHook: "10% niacinamide i lätt gel - 1 500+ omdömen.",
+    cardImage:
+      "/products/inkey-niacinamide-serum/inkey-niacinamide-serum-thumbnail.webp",
+    cardImageAlt: "The INKEY List 10% Niacinamide Serum, 30 ml",
+    product: inkeyNiacinamideSerumProduct,
+    badge: "Prisvärt serum för fet & blandhy",
+    headline: "The INKEY List Niacinamide-serum - lätt gel för glans",
+    shortBody:
+      "Ett lätt, prisvärt gel-serum med 10% niacinamide (vitamin B3) och en touch hyaluronsyra. Mattar fett och glans och hjälper till att jämna ut hudtonen – ett enkelt steg för fet och blandhy.",
+    valueHook: "Prisvärt niacinamide-serum för fet och blandhy",
+    valueStatement:
+      "The INKEY List 10% Niacinamide Serum är ett lätt, prisvärt gel-serum med 10% niacinamide (vitamin B3) och en touch hyaluronsyra. Mattar fett och glans och hjälper till att jämna ut hudtonen – ett enkelt steg för fet och blandhy. Amazon visar 4,2 av 5 från över 1 500 omdömen, och profilen är parfymfri med en lätt gel som lägger sig osynligt under annan hudvård.",
+    passFor: [
+      "Vill ha ett prisvärt niacinamide-serum för fet eller blandad hy.",
+      "Vill matta fett och glans utan en tung känsla.",
+      "Vill ha en parfymfri gel som fungerar under annan hudvård.",
+    ],
+    caution:
+      "Mer aktiv ingrediens är inte alltid bättre. Börja med en ärtstor mängd och följ upp med fuktkräm. Dra ned på frekvensen om huden känns irriterad.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Vanligaste myten: \"mer niacinamide = bättre\". Nej – 10% är lagom. För hög halt kan reta huden istället för att hjälpa. En ärtstor mängd efter rengöring räcker, morgon eller kväll, följt av fuktkräm.",
+    },
+    verdict:
+      "Prisvärt, lätt och enkelt att dosera - ett starkt serumsteg för fet och blandhy.",
+    amazonSummary:
+      "Amazon visar 4,2 av 5 från över 1 500 omdömen. Köparsignalerna pekar på ett parfymfritt, lätt gel-serum som lägger sig osynligt under annan hudvård.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "När i rutinen använder jag niacinamide-serum?",
+        answer:
+          "Applicera en ärtstor mängd efter rengöring, morgon eller kväll, och följ upp med fuktkräm.",
+      },
+      {
+        question: "Passar det fet eller kombinerad hy?",
+        answer:
+          "Ja, profilen är särskilt relevant för fet och blandad hy eftersom serumet är lätt, parfymfritt och mattar fett och glans.",
+      },
+      {
+        question: "Är mer niacinamide bättre?",
+        answer:
+          "Nej. 10% är redan en tydlig nivå, och för hög halt kan göra huden irriterad. Börja hellre konsekvent och med liten mängd.",
+      },
+    ],
+    reviewSectionId: "inkey-niacinamide-serum-recensioner",
+    reviewFormId: "inkey-niacinamide-serum-skriv-recension",
+    targetKeyword: "niacinamide serum",
+    metaTitle:
+      "Niacinamide serum - The INKEY List 10% Niacinamide | Elins val",
+    metaDescription:
+      "Elin går igenom The INKEY List 10% Niacinamide Serum: ett lätt, prisvärt gel-serum för fet och blandhy (4,2 av 5, 1 500+ omdömen) - och hur du använder niacinamide rätt.",
+    relatedLinks: [
+      {
+        href: "/skonhet/hyaluronsyra-serum",
+        label: "Hyaluronsyra-serum",
+        text: "Lägg till ett enkelt fuktsteg i samma minimalistiska rutin.",
+      },
+      {
+        href: "/skonhet/jojobaolja",
+        label: "Jojobaolja",
+        text: "Jämför med en lätt olja för hud, hår och naglar.",
       },
     ],
   },

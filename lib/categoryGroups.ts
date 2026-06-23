@@ -43,6 +43,7 @@ export const categoryProductGroups = {
       productSlugs: [
         "minimalist-hyaluronsyra-serum",
         "kanzy-jojobaolja",
+        "inkey-niacinamide-serum",
       ],
     },
     {

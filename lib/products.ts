@@ -1912,6 +1912,78 @@ export const kanzyJojobaoljaProduct: Product = {
   comments: [],
 };
 
+export const inkeyNiacinamideSerumProduct: Product = {
+  slug: "inkey-niacinamide-serum",
+  title: "The INKEY List 10% Niacinamide Serum (30 ml)",
+  category: "skonhet",
+  asin: "B09PP2DK5W",
+  brand: "The INKEY List",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Mattar fett", "Prisvärt", "Fet & blandhy"],
+  image:
+    "/products/inkey-niacinamide-serum/inkey-niacinamide-serum-thumbnail.webp",
+  imageAlt: "The INKEY List 10% Niacinamide Serum, 30 ml",
+  images: [
+    {
+      src: "/products/inkey-niacinamide-serum/inkey-niacinamide-serum-1.webp",
+      alt: "The INKEY List niacinamide-serum 10%",
+      label: "10% niacinamide",
+    },
+    {
+      src: "/products/inkey-niacinamide-serum/inkey-niacinamide-serum-2.webp",
+      alt: "Niacinamide-serum lätt gel-textur",
+      label: "Lätt gel",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3SsHtAk",
+  pageHref: "/skonhet/niacinamide-serum",
+  summary:
+    "Ett lätt, prisvärt gel-serum med 10% niacinamide (vitamin B3) och en touch hyaluronsyra. Mattar fett och glans och hjälper till att jämna ut hudtonen – ett enkelt steg för fet och blandhy.",
+  evaluation: {
+    headline: "Prisvärt niacinamide-serum för fet och blandhy",
+    intro:
+      "Elin går igenom signalerna kring The INKEY List 10% niacinamide-serum: ett lätt, prisvärt gel-serum med 10% niacinamide (B3) plus en touch hyaluronsyra. Mattar fett och glans och hjälper till att jämna ut hudtonen – ett smidigt steg för fet och blandhy.",
+    verdict:
+      "Prisvärt niacinamide-serum som mattar fett och jämnar hudtonen.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hudvård",
+  specSectionTitle: "The INKEY List 10% Niacinamide Serum",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Ansiktsserum, 30 ml" },
+    {
+      label: "Formula",
+      caption: "Innehåll",
+      value: "10% niacinamide (B3), hyaluronsyra",
+    },
+    {
+      label: "Profil",
+      caption: "Hudvård",
+      value: "Parfymfri, lätt gel, fet & blandhy",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3SsHtAk",
+    ratingSummary:
+      "Amazon visar 4,2 av 5 från över 1 500 omdömen.",
+    highlights: [
+      "Köparsignalerna pekar på ett lätt gel-serum som lägger sig osynligt under annan hudvård.",
+      "Formulan är parfymfri och enkel att lägga in i en minimalistisk rutin.",
+      "10% niacinamide och en touch hyaluronsyra gör den relevant för fet och blandhy.",
+    ],
+    cautions: [
+      "Mer niacinamide är inte automatiskt bättre - börja med en ärtstor mängd.",
+      "Följ upp med fuktkräm och justera frekvensen om huden känns irriterad.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const moroccanoilHaroljaProduct: Product = {
   slug: "moroccanoil-harolja",
   title: "Moroccanoil Treatment Original - hårolja (25 ml)",
@@ -2572,6 +2644,7 @@ export const products = [
   naissanceAloeVeraGelProduct,
   minimalistHyaluronsyraSerumProduct,
   kanzyJojobaoljaProduct,
+  inkeyNiacinamideSerumProduct,
   moroccanoilHaroljaProduct,
   lorealAbsolutRepairProduct,
   moroccanoilTorrschampoProduct,

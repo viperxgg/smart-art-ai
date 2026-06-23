@@ -260,6 +260,14 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 85,
     verdict: "Mångsidig, prisvärd jojobaolja för hud, hår & naglar",
   },
+  "inkey-niacinamide-serum": {
+    value: 26,
+    performance: 22,
+    promise: 21,
+    proven: 13,
+    total: 82,
+    verdict: "Prisvärt niacinamide-serum som mattar fett och jämnar hudtonen",
+  },
   "moroccanoil-harolja": {
     value: 19,
     performance: 28,
