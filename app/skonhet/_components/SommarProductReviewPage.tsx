@@ -223,6 +223,7 @@ export async function SommarProductReviewPage({
         </section>
 
         <RelatedLinks
+          title="Relaterat"
           links={[
             ...(pick.relatedLinks ?? []),
             {

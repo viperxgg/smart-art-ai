@@ -211,6 +211,16 @@ export default function PlattangHubPage() {
         <RelatedLinks
           links={[
             {
+              href: "/skonhet/plattang/remington-s8540",
+              label: "Remington S8540",
+              text: "Läs om Remington Keratin Protect S8540 plattång.",
+            },
+            {
+              href: "/skonhet/plattang/remington-mini-s2880",
+              label: "Remington Mini S2880",
+              text: "Jämför med mini-plattången för resa och snabba fix.",
+            },
+            {
               href: "/skonhet/locktang",
               label: "Hårstyling",
               text: "Se Elins locktångsguide i samma hårstyling-kluster.",

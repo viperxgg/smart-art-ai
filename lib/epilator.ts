@@ -150,9 +150,9 @@ export const epilatorPicks: EpilatorPick[] = [
     reviewSectionId: "braun-silk-epil-9-recensioner",
     reviewFormId: "braun-silk-epil-9-skriv-recension",
     targetKeyword: "braun silk epil 9",
-    metaTitle: "Braun Silk-épil 9 epilator – Elins recension | Elins val",
+    metaTitle: "Braun Silk-épil 9 epilator omdöme | Elins val",
     metaDescription:
-      "Elins genomgång av Braun Silk-épil 9: MicroGrip-pincetter, pivoterande huvud, tillbehör, Amazon-signaler och när premiumvalet är värt det.",
+      "Braun Silk-épil 9 epilator omdöme: MicroGrip, pivoterande huvud, tillbehör och när premiumvalet är värt priset.",
   },
 ];
 

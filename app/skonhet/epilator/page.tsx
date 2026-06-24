@@ -37,9 +37,9 @@ const breadcrumbItems = [
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
 
 export const metadata = createSeoMetadata({
-  title: "Epilator - Elins guide till bästa valen 2026 | Elins val",
+  title: "Braun Silk-épil 9 epilator bäst i test | Elins val",
   description:
-    "Elin har gått igenom omdömen och specifikationer och valt ut två tydliga epilatorval: Panasonic ES-EY30 för mest värde och Braun Silk-épil 9 som premiumval.",
+    "Braun Silk-épil 9 epilator bäst i test? Elin jämför premiumvalet med Panasonic ES-EY30 och visar vilket köp som passar bäst.",
   url: pageUrl,
   image: {
     url: `${siteConfig.url}${epilatorPicks[0].product.image}`,
@@ -81,12 +81,13 @@ export default function EpilatorHubPage() {
             Elins guide 2026
           </p>
           <h1 className="editorial-color-kiss mt-6 max-w-4xl font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
-            Epilator - två enkla val
+            Epilator bäst i test: Braun Silk-épil 9 eller Panasonic?
           </h1>
           <p className="mt-6 max-w-3xl text-xl leading-9 text-[#6f5a64]">
             Elin har gått igenom omdömen och specifikationer och valt ut två
             tydliga spår: Panasonic ES-EY30 för mest värde för pengarna och
-            Braun Silk-épil 9 för dig som vill ha premiumkänslan.
+            Braun Silk-épil 9 epilator för dig som söker premiumkänslan i ett
+            bäst i test-val.
           </p>
           <p className="mt-6 rounded-3xl border border-[#F1D8DD] bg-[#FFF4F5] p-4 text-sm leading-7 text-[#6f5a64]">
             <strong>Annons</strong> · Våra produktsidor innehåller
@@ -205,6 +206,16 @@ export default function EpilatorHubPage() {
 
         <RelatedLinks
           links={[
+            {
+              href: "/skonhet/epilator/braun-silk-epil-9",
+              label: "Braun Silk-épil 9",
+              text: "Läs om Braun Silk-épil 9 som premiumepilator.",
+            },
+            {
+              href: "/skonhet/epilator/panasonic-es-ey30",
+              label: "Panasonic ES-EY30",
+              text: "Jämför med Panasonic ES-EY30 som prisvärt epilatorval.",
+            },
             {
               href: "/skonhet/plattang",
               label: "Hår",

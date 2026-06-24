@@ -62,9 +62,9 @@ export const plattangPicks: PlattangPick[] = [
     product: remingtonS8540Product,
     path: "/skonhet/plattang/remington-s8540",
     badge: "Prisvärt vardagsval",
-    headline: "Remington S8540 - trygg plattång för vardagen",
+    headline: "Remington Keratin Protect S8540 plattång - omdöme",
     shortBody:
-      "Ett känt märke som skyddar håret - till ett vänligt pris.",
+      "Remington Keratin Protect S8540 är en plattång för vardagen med keratinplattor, 9 värmelägen och ett vänligt pris.",
     valueHook: "Ett känt märke som skyddar håret - till ett vänligt pris.",
     valueStatement:
       "Keramik med keratin och mandelolja som skyddar håret, 9 värmelägen (150-230°C), PRO+-läge och snabb uppvärmning på cirka 15 sekunder.",
@@ -98,10 +98,10 @@ export const plattangPicks: PlattangPick[] = [
     ],
     reviewSectionId: "s8540-recensioner",
     reviewFormId: "s8540-skriv-recension",
-    targetKeyword: "remington plattång",
-    metaTitle: "Remington S8540 plattång - Elins recension | Elins val",
+    targetKeyword: "plattång remington keratin protect s8540",
+    metaTitle: "Remington Keratin Protect S8540 plattång | Elins val",
     metaDescription:
-      "Elins genomgång av Remington S8540: keratin, 9 värmelägen, PRO+-läge, Amazon-signaler och när den passar bättre än en mini-plattång.",
+      "Plattång Remington Keratin Protect S8540: Elins omdöme om keratinplattor, 9 värmelägen, PRO+-läge och när den passar bäst.",
     passFor: [
       "Du vill ha märkeskvalitet för hemmabruk.",
       "Du vill kunna välja mellan flera temperaturer.",

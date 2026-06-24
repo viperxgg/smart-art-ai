@@ -37,9 +37,9 @@ const breadcrumbItems = [
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
 
 export const metadata = createSeoMetadata({
-  title: "Varmluftsborste - Elins guide till bästa valen 2026 | Elins val",
+  title: "Varmluftsborste bäst i test 2026 | Elins val",
   description:
-    "Elin jämför två prisvärda varmluftsborstar: BaByliss AS126E för mångsidig 4-i-1-styling och Remington AS7100 för kort hår och lägsta pris.",
+    "Varmluftsborste bäst i test 2026: Elin jämför BaByliss AS126E och Remington AS7100 för volym, kort hår och pris.",
   url: pageUrl,
   image: {
     url: `${siteConfig.url}${varmluftsborstePicks[0].product.image}`,
@@ -81,12 +81,12 @@ export default function VarmluftsborsteHubPage() {
             Elins guide 2026
           </p>
           <h1 className="editorial-color-kiss mt-6 max-w-4xl font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
-            Varmluftsborste - två enkla val
+            Varmluftsborste bäst i test 2026
           </h1>
           <p className="mt-6 max-w-3xl text-xl leading-9 text-[#6f5a64]">
-            Elin har valt två tydliga spår: BaByliss AS126E för dig som vill ha
-            en mångsidig 4-i-1 för volym, brushing och lockar, och Remington
-            AS7100 när kort hår och lägsta pris är viktigast.
+            I Elins varmluftsborste bäst i test 2026 står valet mellan BaByliss
+            AS126E för mångsidig 4-i-1-styling och Remington AS7100 när kort hår
+            och lägsta pris är viktigast.
           </p>
           <p className="mt-6 rounded-3xl border border-[#F1D8DD] bg-[#FFF4F5] p-4 text-sm leading-7 text-[#6f5a64]">
             <strong>Annons</strong> · Våra produktsidor innehåller
@@ -204,6 +204,16 @@ export default function VarmluftsborsteHubPage() {
 
         <RelatedLinks
           links={[
+            {
+              href: "/skonhet/varmluftsborste/babyliss-as126e",
+              label: "BaByliss AS126E",
+              text: "Läs om BaByliss AS126E som mångsidig varmluftsborste.",
+            },
+            {
+              href: "/skonhet/varmluftsborste/remington-as7100",
+              label: "Remington AS7100",
+              text: "Jämför med Remington AS7100 för kort hår och lägre pris.",
+            },
             {
               href: "/skonhet/plattang",
               label: "Hår",

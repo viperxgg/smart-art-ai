@@ -231,9 +231,9 @@ export const sommarPicks: SommarPick[] = [
     cardImageAlt: "NIVEA SUN After Sun Moisturising Soothing Lotion, 200 ml",
     product: niveaSunAfterSunLotionProduct,
     badge: "Prisvärt val",
-    headline: "NIVEA SUN After Sun - svalkande fukt efter solen",
+    headline: "NIVEA Sun After Sun - omdöme & betyg",
     shortBody:
-      "Ett prisvärt, beprövat after sun som kyler och återfuktar huden efter en dag i solen, med aloe vera.",
+      "NIVEA Sun After Sun Moisturising Lotion är ett prisvärt, beprövat after sun som kyler och återfuktar huden efter en dag i solen.",
     valueHook: "Mest beprövade after sun för pengarna.",
     valueStatement:
       "NIVEA SUN After Sun är ett av de mest älskade after sun-valen på Amazon - 4,6 av 5 från över 3 000 omdömen. Den svalkande lotionen med aloe vera och avokadoolja absorberas snabbt, återfuktar och hjälper huden att kännas mjuk efter solen. Köparna lyfter att den kyler skönt, doftar fräscht och inte känns fet.",
@@ -281,10 +281,22 @@ export const sommarPicks: SommarPick[] = [
     ],
     reviewSectionId: "nivea-after-sun-recensioner",
     reviewFormId: "nivea-after-sun-skriv-recension",
-    targetKeyword: "aftersun",
-    metaTitle: "Aftersun bäst i test - NIVEA SUN After Sun lotion | Elins val",
+    targetKeyword: "nivea moisturising after sun lotion",
+    metaTitle: "NIVEA Sun After Sun omdöme & betyg | Elins val",
     metaDescription:
-      "Elin går igenom NIVEA SUN After Sun: ett prisvärt, svalkande after sun med aloe vera (4,6 av 5, 3 000+ omdömen) - och varför det inte ersätter solskydd.",
+      "NIVEA Moisturising After Sun Lotion omdöme: Elins betyg, köparsignaler och varför den är ett prisvärt val efter solen.",
+    relatedLinks: [
+      {
+        href: "/skonhet/aftersun-eller-aloe-vera",
+        label: "After sun eller aloe vera",
+        text: "Jämför NIVEA After Sun med aloe vera gel.",
+      },
+      {
+        href: "/skonhet/aloe-vera-gel",
+        label: "Aloe vera gel",
+        text: "Se Naissance Aloe Vera Gel som lättare alternativ.",
+      },
+    ],
   },
   {
     productSlug: naissanceAloeVeraGelProduct.slug,
@@ -296,9 +308,9 @@ export const sommarPicks: SommarPick[] = [
     cardImageAlt: "Naissance Skin Soothing Aloe Vera Gel, 250 ml",
     product: naissanceAloeVeraGelProduct,
     badge: "Elins prisvärda val",
-    headline: "Naissance Aloe Vera Gel - svalkande fukt efter solen",
+    headline: "Naissance Aloe Vera Gel - omdöme & betyg",
     shortBody:
-      "En kylande, vegansk aloe vera-gel (99% naturligt ursprung) som svalkar och återfuktar efter sol, bad och rakning - för ansikte, kropp och hår.",
+      "Naissance Aloe Vera Gel är en kylande, vegansk aloe vera gel (99% naturligt ursprung) som svalkar efter sol, bad och rakning.",
     valueHook:
       "Svalkande, vegansk aloe vera efter solen - prisvärd och mångsidig.",
     valueStatement:
@@ -348,10 +360,15 @@ export const sommarPicks: SommarPick[] = [
     reviewSectionId: "naissance-aloe-vera-gel-recensioner",
     reviewFormId: "naissance-aloe-vera-gel-skriv-recension",
     targetKeyword: "aloe vera gel",
-    metaTitle: "Aloe vera gel bäst i test - Naissance Skin Soothing | Elins val",
+    metaTitle: "Naissance Aloe Vera Gel omdöme & betyg | Elins val",
     metaDescription:
-      "Elin går igenom Naissance Aloe Vera Gel: svalkande, vegansk gel (99% naturligt ursprung) för huden efter solen (4,5 av 5, 3 300+ omdömen) - och varför den inte ersätter solskydd.",
+      "Aloe vera gel omdöme: Elin går igenom Naissance Aloe Vera Gel, betyg, svalkande känsla och när den passar bättre än after sun.",
     relatedLinks: [
+      {
+        href: "/skonhet/aftersun-eller-aloe-vera",
+        label: "After sun eller aloe vera",
+        text: "Jämför aloe vera gel med after sun-lotion.",
+      },
       {
         href: "/skonhet/aftersun",
         label: "After Sun",
@@ -428,9 +445,9 @@ export const sommarPicks: SommarPick[] = [
         text: "Lås in mjukheten med några droppar lätt olja.",
       },
       {
-        href: "/skonhet/aloe-vera-gel",
-        label: "Aloe vera gel",
-        text: "Svalkande gel för hud som vill ha lätt fukt.",
+        href: "/skonhet/niacinamide-serum",
+        label: "Niacinamide-serum",
+        text: "Jämför med ett mattande serum för fet och blandad hy.",
       },
     ],
   },
@@ -565,9 +582,9 @@ export const sommarPicks: SommarPick[] = [
         text: "Lägg fukt först och lås in känslan efteråt.",
       },
       {
-        href: "/skonhet/harolja",
-        label: "Hårolja",
-        text: "Jämför med ett mer klassiskt hårvårdsval.",
+        href: "/skonhet/niacinamide-serum",
+        label: "Niacinamide-serum",
+        text: "Jämför med ett lätt serum för fet och blandad hy.",
       },
     ],
   },
@@ -634,6 +651,18 @@ export const sommarPicks: SommarPick[] = [
     metaTitle: "Hårolja bäst i test - Moroccanoil Treatment | Elins val",
     metaDescription:
       "Elin går igenom Moroccanoil Treatment - den ikoniska håroljan (4,7 av 5, 88 000+ omdömen). Glans, mjukhet och mindre frizz för sommarhåret - och vad du bör veta om priset.",
+    relatedLinks: [
+      {
+        href: "/skonhet/harolja-eller-varmeskydd",
+        label: "Hårolja med värmeskydd",
+        text: "Se när hårolja och värmeskydd ska användas tillsammans.",
+      },
+      {
+        href: "/skonhet/varmeskydd",
+        label: "Värmeskydd",
+        text: "Jämför med L'Oréal Elvital Dream Length före värmestyling.",
+      },
+    ],
   },
   {
     productSlug: lorealAbsolutRepairProduct.slug,
@@ -728,9 +757,9 @@ export const sommarPicks: SommarPick[] = [
     cardImageAlt: "Moroccanoil torrschampo för ljust hår, 205 ml",
     product: moroccanoilTorrschampoProduct,
     badge: "Elins premiumval",
-    headline: "Moroccanoil Torrschampo - fräscht, fett-mattande för ljust hår",
+    headline: "Moroccanoil torrschampo Light - för ljust hår",
     shortBody:
-      "Ett premium-torrschampo med risstärkelse som suger upp fett och fräschar upp håret mellan tvättar - med lila pigment som mattar gulton i ljust och blont hår.",
+      "Moroccanoil torrschampo Light är ett premium-torrschampo för ljust hår som suger upp fett mellan tvättar och mattar gulton i blont hår.",
     valueHook: "Det fräscha torrschampot för ljust hår mellan tvättar.",
     valueStatement:
       "Moroccanoil Torrschampo (Light Tones) suger upp fett och fräschar upp håret snabbt mellan tvättar, utan tråkiga puderrester. Den finmalda risstärkelsen ger en mjuk, silkeslen finish, och de lila pigmenten hjälper till att matta gulton i ljust och blont hår. 4,5 av 5 från nästan 13 000 omdömen och en härlig signaturdoft - ett premiumval för soliga sommardagar då håret behöver en snabb uppfräschning.",
@@ -778,10 +807,22 @@ export const sommarPicks: SommarPick[] = [
     ],
     reviewSectionId: "moroccanoil-torrschampo-recensioner",
     reviewFormId: "moroccanoil-torrschampo-skriv-recension",
-    targetKeyword: "bästa torrschampo",
-    metaTitle: "Bästa torrschampo för ljust hår - Moroccanoil | Elins val",
+    targetKeyword: "moroccanoil torrschampo",
+    metaTitle: "Moroccanoil torrschampo Light för ljust hår | Elins val",
     metaDescription:
-      "Elin går igenom Moroccanoil Torrschampo (Light Tones): suger upp fett, mattar gulton i blont hår och lämnar inga puderrester (4,5 av 5, 12 000+ omdömen) - och vad du bör veta om pris och hårfärg.",
+      "Moroccanoil torrschampo Light för ljust hår: Elins omdöme om fett-mattande effekt, lila pigment, pris och hårfärg.",
+    relatedLinks: [
+      {
+        href: "/skonhet/harolja",
+        label: "Hårolja",
+        text: "Jämför med Moroccanoil hårolja för glans och mjukhet.",
+      },
+      {
+        href: "/skonhet/varmeskydd",
+        label: "Värmeskydd",
+        text: "Se värmeskyddet att använda innan styling.",
+      },
+    ],
   },
   {
     productSlug: vxdoirkElektriskFotfilProduct.slug,
@@ -915,6 +956,11 @@ export const sommarPicks: SommarPick[] = [
     metaDescription:
       "Elin går igenom L'Oréal Elvital Dream Length värmeskyddsspray: skyddar håret upp till 230°C vid fön, plattång och locktång, mindre frizz och prisvärt (4,5 av 5, 2 900+ omdömen).",
     relatedLinks: [
+      {
+        href: "/skonhet/harolja-eller-varmeskydd",
+        label: "Hårolja med värmeskydd",
+        text: "Se när hårolja och värmeskydd kompletterar varandra.",
+      },
       {
         href: "/skonhet/locktang",
         label: "Locktång",

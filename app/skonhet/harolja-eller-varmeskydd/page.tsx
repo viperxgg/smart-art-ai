@@ -17,9 +17,9 @@ const breadcrumbItems = [
 ];
 
 export const metadata = createSeoMetadata({
-  title: "Hårolja eller värmeskydd - vad behöver ditt sommarhår? | Elins val",
+  title: "Hårolja med värmeskydd? Så väljer du | Elins val",
   description:
-    "Elin jämför Moroccanoil hårolja och L'Oréal Elvital värmeskydd: glans och mjukhet eller skydd före värmestyling.",
+    "Hårolja med värmeskydd? Elin visar när du ska välja hårolja, när värmeskydd räcker och varför många använder båda.",
   url: pageUrl,
   image: {
     url: `${siteConfig.url}${haroljaEllerVarmeskyddPicks[1].product.image}`,
@@ -32,8 +32,8 @@ export const metadata = createSeoMetadata({
 export default function HaroljaEllerVarmeskyddPage() {
   return (
     <DecisionComparisonPage
-      h1="Hårolja eller värmeskydd?"
-      intro="De löser olika problem. Värmeskydd skyddar håret vid föning, plattång och locktång. Hårolja vårdar, ger glans och tämjer torrt eller solslitet hår."
+      h1="Hårolja med värmeskydd?"
+      intro="Hårolja med värmeskydd låter som en genväg, men de löser olika problem. Värmeskydd används före föning, plattång och locktång, medan hårolja ger glans, mjukhet och finish efteråt."
       badges={["Skyddar vid värme", "Glans & mjukhet", "Sommarvård"]}
       howToChoose="Prioritera L'Oréal Elvital Dream Length om du värmestylar ofta. Prioritera Moroccanoil Treatment om håret främst känns torrt, frissigt eller soltrött. Många använder båda: värmeskydd före styling och hårolja efteråt."
       verdict="Det här är inte en vinnare-tar-allt-jämförelse. Värmeskyddet har högre poäng och är viktigast när värmeverktyg används. Håroljan är det bättre komplementet för mjukhet, glans och finish i torrt sommarhår."

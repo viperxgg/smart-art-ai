@@ -205,6 +205,16 @@ export default function LocktangHubPage() {
         <RelatedLinks
           links={[
             {
+              href: "/skonhet/locktang/tymo-curlpro",
+              label: "TYMO CurlPro",
+              text: "Läs om TYMO CurlPro locktång med omdöme och betyg.",
+            },
+            {
+              href: "/skonhet/locktang/babyliss-c325e",
+              label: "BaByliss C325E",
+              text: "Jämför med BaByliss C325E för klassiska lockar.",
+            },
+            {
               href: "/skonhet/plattang",
               label: "Hårstyling",
               text: "Se Elins plattångsguide i samma hårstyling-kluster.",

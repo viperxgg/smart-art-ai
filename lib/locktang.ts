@@ -107,9 +107,9 @@ export const locktangPicks: LocktangPick[] = [
     product: tymoCurlproProduct,
     path: "/skonhet/locktang/tymo-curlpro",
     badge: "Automatisk",
-    headline: "TYMO CURLPRO - automatisk locktång utan teknik",
+    headline: "TYMO CurlPro locktång - omdöme & betyg",
     shortBody:
-      "För dig som vill ha effortless styling: TYMO roterar själv, har anti-tangle och jonteknik för enklare lockar.",
+      "TYMO CurlPro locktång är för dig som vill ha effortless styling: den roterar själv, har anti-tangle och jonteknik för enklare lockar.",
     valueHook: "Automatisk locktång - lockar utan teknik.",
     valueStatement:
       "TYMO roterar själv med ett knapptryck och har ett smart anti-tangle-system. Tre temperaturlägen (160-210°C) för alla hårtyper och jonteknik för glans - ett prisvärt alternativ till de riktigt dyra automatiska modellerna.",
@@ -141,10 +141,10 @@ export const locktangPicks: LocktangPick[] = [
     comparisonHref: "/skonhet/locktang/babyliss-c325e",
     reviewSectionId: "tymo-curlpro-recensioner",
     reviewFormId: "tymo-curlpro-skriv-recension",
-    targetKeyword: "tymo curlpro",
-    metaTitle: "TYMO CURLPRO locktång - Elins recension | Elins val",
+    targetKeyword: "tymo locktång",
+    metaTitle: "TYMO CurlPro locktång omdöme & betyg | Elins val",
     metaDescription:
-      "Elins genomgång av TYMO CURLPRO: automatisk locktång med anti-tangle, tre temperaturlägen och när den är värd att välja framför en vanlig tång.",
+      "TYMO locktång omdöme: Elin går igenom TYMO CurlPro med anti-tangle, tre temperaturlägen, betyg och när den är värd priset.",
   },
 ];
 

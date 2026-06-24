@@ -116,6 +116,31 @@ export default function SkonhetHubPage() {
         <RelatedLinks
           links={[
             {
+              href: "/skonhet/varmluftsborste",
+              label: "Varmluftsborste",
+              text: "Varmluftsborste bäst i test 2026.",
+            },
+            {
+              href: "/skonhet/epilator",
+              label: "Epilator",
+              text: "Braun Silk-épil 9 och Panasonic i epilatorguiden.",
+            },
+            {
+              href: "/skonhet/harolja-eller-varmeskydd",
+              label: "Hårvård",
+              text: "Hårolja med värmeskydd - så väljer du rätt.",
+            },
+            {
+              href: "/skonhet/aftersun-eller-aloe-vera",
+              label: "Efter solen",
+              text: "After sun eller aloe vera för svalka och fukt.",
+            },
+            {
+              href: "/skonhet/torrschampo",
+              label: "Torrschampo",
+              text: "Moroccanoil torrschampo Light för ljust hår.",
+            },
+            {
               href: "/halsa",
               label: "Hälsa & livsstil",
               text: "Se Elins val för återhämtning, smart hem och vardagskänsla.",
