@@ -59,6 +59,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.72,
     },
     {
+      url: `${siteConfig.url}/guider`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: `${siteConfig.url}/guider/dyson-airwrap-eller-varmluftsborste`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.78,
+    },
+    {
       url: `${siteConfig.url}/sommar`,
       lastModified: new Date(),
       changeFrequency: "weekly",

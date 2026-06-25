@@ -34,13 +34,16 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
                   />
                 ) : null}
                 {isLast ? (
-                  <span className="truncate text-[#4B2838]" aria-current="page">
+                  <span
+                    className="max-w-[12rem] truncate text-[#4B2838] sm:max-w-none"
+                    aria-current="page"
+                  >
                     {item.name}
                   </span>
                 ) : (
                   <Link
                     href={item.href}
-                    className="truncate transition hover:text-[#B983A6]"
+                    className="max-w-[9rem] truncate transition hover:text-[#B983A6] sm:max-w-none"
                   >
                     {item.name}
                   </Link>

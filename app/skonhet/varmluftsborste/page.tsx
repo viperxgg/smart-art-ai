@@ -113,6 +113,32 @@ export default function VarmluftsborsteHubPage() {
           </div>
         </section>
 
+        <section className="mt-8 rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+            <div className="max-w-3xl">
+              <p className="inline-flex min-h-10 items-center gap-2 rounded-full border border-[#E9CDD3] bg-[#FFF4F5] px-4 text-sm font-black text-[#9E5E73]">
+                <Sparkles size={16} aria-hidden="true" />
+                Värt priset?
+              </p>
+              <h2 className="editorial-color-kiss mt-4 font-display text-4xl">
+                Dyson Airwrap eller varmluftsborste?
+              </h2>
+              <p className="mt-4 text-lg leading-8 text-[#6f5a64]">
+                Elin jämför vad premiumverktyget faktiskt erbjuder och när en
+                prisvärd varmluftsborste räcker för vardagens torkning och
+                volym.
+              </p>
+            </div>
+            <Link
+              href="/guider/dyson-airwrap-eller-varmluftsborste"
+              className="inline-flex min-h-12 shrink-0 items-center justify-center gap-2 rounded-full bg-[#D8788D] px-5 font-black text-white shadow-[0_16px_38px_rgba(217,125,145,0.24)] transition hover:-translate-y-0.5"
+            >
+              Läs guiden
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </Link>
+          </div>
+        </section>
+
         <section className="mt-8 grid gap-6 md:grid-cols-2">
           {varmluftsborstePicks.map((pick) => (
             <Link
