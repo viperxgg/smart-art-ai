@@ -1,10 +1,5 @@
 import Link from "next/link";
-import {
-  ArrowLeft,
-  ArrowUpRight,
-  CheckCircle2,
-  Sparkles,
-} from "lucide-react";
+import { ArrowLeft, ArrowUpRight } from "lucide-react";
 
 import {
   Breadcrumbs,
@@ -53,6 +48,8 @@ type GuidePageProps = {
   breadcrumbItems: BreadcrumbItem[];
   relatedLinks: GuideRelatedLink[];
   eyebrow?: string;
+  /** Optional transparency note shown under the intro (e.g. "länkar bara till våra egna sidor"). */
+  transparencyNote?: string;
 };
 
 export function buildGuideSchemas({
@@ -89,6 +86,7 @@ export function GuidePage({
   breadcrumbItems,
   relatedLinks,
   eyebrow = "Värt priset?",
+  transparencyNote,
 }: GuidePageProps) {
   const { breadcrumbSchema, faqSchema } = buildGuideSchemas({
     breadcrumbItems,
@@ -98,134 +96,138 @@ export function GuidePage({
   return (
     <main
       id="content"
-      className="min-h-screen bg-[#FFF9F7] px-4 py-7 text-[#3E2F3A]"
+      className="min-h-screen bg-[#FFF9F7] px-5 py-8 text-[#3E2F3A] sm:py-12"
     >
       <JsonLd data={faqSchema} />
       <JsonLd data={breadcrumbSchema} />
 
-      <div className="mx-auto w-full max-w-5xl">
-        <div className="mb-5">
-          <Breadcrumbs items={breadcrumbItems} />
-        </div>
+      <article className="mx-auto w-full max-w-2xl">
+        <Breadcrumbs items={breadcrumbItems} />
 
-        <header className="flex items-center justify-between gap-4">
-          <Link
-            href="/guider"
-            className="inline-flex min-h-11 items-center gap-2 rounded-full text-sm font-bold text-[#6b4755] transition hover:text-[#B983A6]"
-          >
-            <ArrowLeft size={18} aria-hidden="true" />
-            Tillbaka till guider
-          </Link>
-          <p className="rounded-full border border-[#E9CDD3] bg-white/70 px-4 py-2 text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
-            Guide
-          </p>
-        </header>
+        <Link
+          href="/guider"
+          className="mt-5 inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-[#9b8290] transition hover:text-[#B983A6]"
+        >
+          <ArrowLeft size={17} aria-hidden="true" />
+          Alla guider
+        </Link>
 
-        <section className="mt-9 overflow-hidden rounded-[2.4rem] border border-[#F1D8DD] bg-white/72 p-7 shadow-[0_30px_90px_rgba(185,131,166,0.12)] md:p-10">
-          <p className="inline-flex min-h-11 items-center gap-2 rounded-full border border-[#E9CDD3] bg-[#FFF4F5] px-5 text-sm font-black text-[#9E5E73]">
-            <Sparkles size={18} aria-hidden="true" />
+        {/* Hero — open on the page, no card */}
+        <header className="mt-6">
+          <p className="text-xs font-black uppercase tracking-[0.22em] text-[#B983A6]">
             {eyebrow}
           </p>
-          <h1 className="editorial-color-kiss mt-6 max-w-4xl break-words font-display text-4xl leading-[1.02] tracking-[-0.04em] [overflow-wrap:anywhere] sm:text-7xl">
+          <h1 className="editorial-color-kiss mt-4 break-words font-display text-4xl leading-[1.05] tracking-[-0.03em] [overflow-wrap:anywhere] sm:text-5xl">
             {h1}
           </h1>
-          <p className="mt-6 max-w-3xl text-xl leading-9 text-[#6f5a64]">
-            {intro}
-          </p>
-          <p className="mt-6 rounded-3xl border border-[#F1D8DD] bg-[#FFF4F5] p-4 text-sm leading-7 text-[#6f5a64]">
-            <strong>Transparens</strong> · Den här guiden länkar bara vidare
-            till våra egna varmluftsborste-sidor, inte till Dyson.
-          </p>
-        </section>
+          <p className="mt-5 text-lg leading-8 text-[#6f5a64]">{intro}</p>
+          {transparencyNote ? (
+            <p className="mt-5 border-l-2 border-[#E8A8B6] pl-4 text-sm leading-7 text-[#9b8290]">
+              <strong className="font-bold text-[#9E5E73]">Transparens.</strong>{" "}
+              {transparencyNote}
+            </p>
+          ) : null}
+        </header>
 
-        <div className="mt-8 grid gap-6">
-          {sections.map((section) => (
-            <section
-              key={section.heading}
-              className="rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8"
-            >
-              <h2 className="editorial-color-kiss font-display text-4xl">
-                {section.heading}
-              </h2>
-              {section.body ? (
-                <p className="mt-5 max-w-4xl text-lg leading-8 text-[#6f5a64]">
-                  {section.body}
-                </p>
-              ) : null}
-              <ul className="mt-5 grid gap-3">
-                {section.bullets.map((bullet) => (
-                  <li
-                    key={bullet}
-                    className="flex items-start gap-3 rounded-2xl bg-[#FFF4F5] p-4 text-[#5f4a54]"
-                  >
-                    <CheckCircle2
-                      size={20}
-                      className="mt-1 shrink-0 text-[#D8788D]"
-                      aria-hidden="true"
-                    />
-                    <span className="leading-7">{bullet}</span>
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-5 rounded-2xl bg-[#F9E9E9]/82 p-5 font-semibold leading-8 text-[#5f4a54]">
-                {section.closing}
+        <hr className="mt-10 border-t border-[#F1D8DD]" />
+
+        {/* Body — flowing sections separated by hairlines, no nested boxes */}
+        {sections.map((section, index) => (
+          <section
+            key={section.heading}
+            className={index === 0 ? "mt-10" : "mt-10 border-t border-[#F1D8DD] pt-10"}
+          >
+            <h2 className="font-display text-2xl tracking-[-0.01em] text-[#4B2838] sm:text-3xl">
+              {section.heading}
+            </h2>
+            {section.body ? (
+              <p className="mt-4 text-base leading-8 text-[#6f5a64]">
+                {section.body}
               </p>
-            </section>
-          ))}
-        </div>
+            ) : null}
+            <ul className="mt-5 space-y-3">
+              {section.bullets.map((bullet) => (
+                <li key={bullet} className="flex items-start gap-3">
+                  <span
+                    aria-hidden="true"
+                    className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#D8788D]"
+                  />
+                  <span className="text-base leading-8 text-[#5f4a54]">
+                    {bullet}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-5 border-l-2 border-[#E8A8B6] pl-4 text-base font-medium leading-8 text-[#4B2838]">
+              {section.closing}
+            </p>
+          </section>
+        ))}
 
-        <section className="mt-8 rounded-[2rem] border border-[#F1D8DD] bg-[#F9E9E9]/82 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
-          <h2 className="editorial-color-kiss font-display text-4xl">
+        {/* Verdict — the single highlighted block, the payoff */}
+        <section className="mt-12 rounded-3xl bg-gradient-to-br from-[#FFF1F3] to-[#FBE6EC] p-6 sm:p-8">
+          <p className="text-xs font-black uppercase tracking-[0.22em] text-[#B983A6]">
             {verdict.heading}
-          </h2>
-          <p className="mt-4 max-w-4xl text-lg leading-8 text-[#6f5a64]">
-            {verdict.text}
           </p>
+          <p className="mt-4 text-lg leading-8 text-[#4B2838]">{verdict.text}</p>
         </section>
 
-        <section className="mt-8 rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-          <h2 className="editorial-color-kiss font-display text-4xl">
+        {/* CTA — clean link rows, not boxes */}
+        <section className="mt-12">
+          <h2 className="font-display text-2xl tracking-[-0.01em] text-[#4B2838]">
             {cta.heading}
           </h2>
-          <div className="mt-5 grid gap-3 md:grid-cols-3">
+          <ul className="mt-4">
             {cta.links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="group flex min-h-24 items-center justify-between gap-4 rounded-3xl bg-[#FFF4F5] p-5 font-black leading-tight text-[#5f4a54] transition hover:-translate-y-0.5 hover:bg-[#F9E0E3]"
-              >
-                <span>{link.label}</span>
-                <ArrowUpRight
-                  size={20}
-                  className="shrink-0 text-[#B983A6] transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                  aria-hidden="true"
-                />
-              </Link>
+              <li key={link.href}>
+                <Link
+                  href={link.href}
+                  className="group flex min-h-14 items-center justify-between gap-4 border-b border-[#F1D8DD] py-4 text-base font-semibold text-[#4B2838] transition hover:text-[#B983A6]"
+                >
+                  <span>{link.label}</span>
+                  <ArrowUpRight
+                    size={19}
+                    className="shrink-0 text-[#B983A6] transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                    aria-hidden="true"
+                  />
+                </Link>
+              </li>
             ))}
-          </div>
+          </ul>
         </section>
 
-        <section className="mt-8 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-          <h2 className="editorial-color-kiss font-display text-4xl">
+        {/* FAQ — minimal accordion */}
+        <section className="mt-12">
+          <h2 className="font-display text-2xl tracking-[-0.01em] text-[#4B2838]">
             Vanliga frågor
           </h2>
-          <div className="mt-6 grid gap-4">
+          <div className="mt-4">
             {faqItems.map((item) => (
               <details
                 key={item.question}
-                className="rounded-2xl bg-[#FFF4F5] p-5"
+                className="group border-b border-[#F1D8DD] py-4"
               >
-                <summary className="cursor-pointer font-black text-[#4B2838]">
+                <summary className="flex cursor-pointer items-center justify-between gap-4 text-base font-semibold text-[#4B2838] [&::-webkit-details-marker]:hidden">
                   {item.question}
+                  <span
+                    aria-hidden="true"
+                    className="shrink-0 text-[#B983A6] transition group-open:rotate-45"
+                  >
+                    +
+                  </span>
                 </summary>
-                <p className="mt-3 leading-7 text-[#6f5a64]">{item.answer}</p>
+                <p className="mt-3 text-base leading-8 text-[#6f5a64]">
+                  {item.answer}
+                </p>
               </details>
             ))}
           </div>
         </section>
 
-        <RelatedLinks links={relatedLinks} />
-      </div>
+        <div className="mt-12">
+          <RelatedLinks links={relatedLinks} />
+        </div>
+      </article>
     </main>
   );
 }

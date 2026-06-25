@@ -77,6 +77,7 @@ export default function DysonAirwrapEllerVarmluftsborstePage() {
     <GuidePage
       h1="Dyson Airwrap eller varmluftsborste – värt priset?"
       intro="Dyson Airwrap har en premium-prislapp, medan en varmluftsborste kostar en bråkdel. Men gör de samma jobb? Elin går igenom den ärliga skillnaden – vad du faktiskt betalar för, och när det billigare alternativet räcker."
+      transparencyNote="Den här guiden länkar bara vidare till våra egna varmluftsborste-sidor, inte till Dyson."
       sections={sections}
       verdict={{
         heading: "Elins dom: värt priset?",
