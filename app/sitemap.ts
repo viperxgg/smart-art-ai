@@ -125,6 +125,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.74,
     },
     {
+      url: `${siteConfig.url}/guider/kettlebell-mjuk-vs-gjutjarn`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
+      url: `${siteConfig.url}/guider/dyr-massagepistol-vs-budget`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
+      url: `${siteConfig.url}/guider/premium-yogamatta-vs-budget`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
+      url: `${siteConfig.url}/guider/traningsband-dyrt-vs-billigt`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
+      url: `${siteConfig.url}/guider/foam-roller-dyr-vs-billig`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
       url: `${siteConfig.url}/sommar`,
       lastModified: new Date(),
       changeFrequency: "weekly",

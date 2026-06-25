@@ -72,6 +72,36 @@ const guides = [
     description:
       "Elin går igenom jojobaolja ärligt – varför en enda olja kan ersätta flera produkter, och var den inte räcker.",
   },
+  {
+    href: "/guider/kettlebell-mjuk-vs-gjutjarn",
+    title: "Mjuk kettlebell vs gjutjärn – värt det golvvänliga?",
+    description:
+      "Elin jämför mjuk och gjutjärns-kettlebell ärligt – när det golvvänliga är värt en högre peng och när gjutjärn räcker.",
+  },
+  {
+    href: "/guider/dyr-massagepistol-vs-budget",
+    title: "Dyr massagepistol eller budget – behöver du premiummärket?",
+    description:
+      "Elin jämför dyra och billiga massagepistoler ärligt – vad premium ger och när en budgetmodell räcker.",
+  },
+  {
+    href: "/guider/premium-yogamatta-vs-budget",
+    title: "Dyr yogamatta eller budget – värd skillnaden?",
+    description:
+      "Elin jämför premium- och budgetyogamattor ärligt – vad du betalar för och när en prisvärd matta räcker.",
+  },
+  {
+    href: "/guider/traningsband-dyrt-vs-billigt",
+    title: "Dyra träningsband vs billiga – värt skillnaden?",
+    description:
+      "Elin jämför dyra tygband och billiga latexband ärligt – vad du betalar för och när de billiga räcker.",
+  },
+  {
+    href: "/guider/foam-roller-dyr-vs-billig",
+    title: "Foam roller: dyr vs billig – värt skillnaden?",
+    description:
+      "Elin jämför dyra och billiga foam rollers ärligt – vad du betalar extra för och när en enkel rulle räcker.",
+  },
 ];
 
 export default function GuidesIndexPage() {
