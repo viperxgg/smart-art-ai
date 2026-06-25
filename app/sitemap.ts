@@ -71,6 +71,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.78,
     },
     {
+      url: `${siteConfig.url}/guider/moroccanoil-vart-priset`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
+      url: `${siteConfig.url}/guider/dyr-plattang-eller-budget`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
+      url: `${siteConfig.url}/guider/torrschampo-dyrt-vs-billigt`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
+      url: `${siteConfig.url}/guider/harinpackning-salongsmarke-vart-det`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
       url: `${siteConfig.url}/sommar`,
       lastModified: new Date(),
       changeFrequency: "weekly",

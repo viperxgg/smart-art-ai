@@ -18,6 +18,30 @@ const guides = [
     description:
       "Elin går igenom vad du faktiskt får med premiumverktyget och när en prisvärd varmluftsborste räcker.",
   },
+  {
+    href: "/guider/moroccanoil-vart-priset",
+    title: "Moroccanoil hårolja – värt priset?",
+    description:
+      "Elin går igenom Moroccanoils ingredienser ärligt – varför håroljan ger glans, och om en billigare olja gör samma jobb.",
+  },
+  {
+    href: "/guider/dyr-plattang-eller-budget",
+    title: "Dyr plattång eller budget – behöver du den dyra?",
+    description:
+      "Elin jämför dyra och billiga plattänger ärligt – när premium är värt det, och när en prisvärd plattång räcker.",
+  },
+  {
+    href: "/guider/torrschampo-dyrt-vs-billigt",
+    title: "Torrschampo: dyrt vs billigt – värt skillnaden?",
+    description:
+      "Elin jämför premium- och budgettorrschampo ärligt – vad du betalar extra för och när det billiga räcker.",
+  },
+  {
+    href: "/guider/harinpackning-salongsmarke-vart-det",
+    title: "Hårinpackning – är salongsmärket värt det?",
+    description:
+      "Elin jämför salongs- och budgethårinpackningar ärligt – när den dyrare masken är värd det.",
+  },
 ];
 
 export default function GuidesIndexPage() {
