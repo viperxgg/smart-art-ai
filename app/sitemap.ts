@@ -95,6 +95,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.74,
     },
     {
+      url: `${siteConfig.url}/guider/hyaluronsyra-dyrt-vs-budget`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
+      url: `${siteConfig.url}/guider/niacinamide-10-vs-20`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
+      url: `${siteConfig.url}/guider/brun-utan-sol-vart-det`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
+      url: `${siteConfig.url}/guider/after-sun-eller-fuktkram`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
+      url: `${siteConfig.url}/guider/jojobaolja-multitalang`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
       url: `${siteConfig.url}/sommar`,
       lastModified: new Date(),
       changeFrequency: "weekly",

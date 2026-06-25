@@ -42,6 +42,36 @@ const guides = [
     description:
       "Elin jämför salongs- och budgethårinpackningar ärligt – när den dyrare masken är värd det.",
   },
+  {
+    href: "/guider/hyaluronsyra-dyrt-vs-budget",
+    title: "Hyaluronsyra: dyrt vs budget – värt skillnaden?",
+    description:
+      "Elin jämför dyra och billiga hyaluronsyra-serum ärligt – vad du betalar för och när ett budgetserum räcker.",
+  },
+  {
+    href: "/guider/niacinamide-10-vs-20",
+    title: "Niacinamide 10% vs 20% – behöver du den starka?",
+    description:
+      "Elin går igenom niacinamide-styrkor ärligt – varför 10% oftast räcker och när mer inte är bättre.",
+  },
+  {
+    href: "/guider/brun-utan-sol-vart-det",
+    title: "Brun utan sol – värt det?",
+    description:
+      "Elin går igenom brun-utan-sol ärligt – vad den gör, vad den INTE gör, och när premium är värt det.",
+  },
+  {
+    href: "/guider/after-sun-eller-fuktkram",
+    title: "After sun eller fuktkräm – behöver du båda?",
+    description:
+      "Elin jämför after sun och fuktkräm ärligt – vad after sun tillför och när en fuktkräm räcker.",
+  },
+  {
+    href: "/guider/jojobaolja-multitalang",
+    title: "Jojobaolja – multitalangen värd plats?",
+    description:
+      "Elin går igenom jojobaolja ärligt – varför en enda olja kan ersätta flera produkter, och var den inte räcker.",
+  },
 ];
 
 export default function GuidesIndexPage() {
