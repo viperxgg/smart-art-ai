@@ -1984,6 +1984,82 @@ export const inkeyNiacinamideSerumProduct: Product = {
   comments: [],
 };
 
+export const cosrxSnailEssenceProduct: Product = {
+  slug: "cosrx-snail-mucin-essence",
+  title: "COSRX Snail Mucin 74% + Niacinamide Dual Essence (80 ml)",
+  category: "skonhet",
+  asin: "B08FSWVXRD",
+  brand: "COSRX",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["K-beauty-favorit", "Snigelsekret + niacinamide", "Fukt & lyster"],
+  image: "/products/cosrx-snail-essence/cosrx-snail-thumbnail.webp",
+  imageAlt: "COSRX Advanced Snail Radiance Dual Essence, 80 ml",
+  images: [
+    {
+      src: "/products/cosrx-snail-essence/cosrx-snail-thumbnail.webp",
+      alt: "COSRX Advanced Snail Radiance Dual Essence, 80 ml",
+      label: "COSRX Snail Essence",
+    },
+    {
+      src: "/products/cosrx-snail-essence/cosrx-snail-1.webp",
+      alt: "COSRX Snail Mucin Dual Essence med tvådelad formula",
+      label: "Dual essence",
+    },
+    {
+      src: "/products/cosrx-snail-essence/cosrx-snail-2.webp",
+      alt: "COSRX Snail Mucin Essence med lätt textur",
+      label: "Lätt textur",
+    },
+    {
+      src: "/products/cosrx-snail-essence/cosrx-snail-3.webp",
+      alt: "Detaljbild av COSRX Snail Mucin Dual Essence",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4eLSwfk",
+  pageHref: "/skonhet/snail-mucin-essence",
+  summary:
+    "En viral K-beauty dual-essence med 74% snigelsekret och 5% niacinamide - återfuktar, ger lyster och hjälper jämna ut hudtonen. Lätt och icke-klibbig.",
+  evaluation: {
+    headline: "K-beauty-favoriten för fukt och lyster",
+    intro:
+      "Elin går igenom signalerna kring COSRX populära dual-essence: 74% snigelsekret för fukt och en dewy lyster, plus 5% niacinamide som hjälper jämna ut hudtonen. Lätt textur som absorberas snabbt.",
+    verdict:
+      "Prisvärd K-beauty-essence för återfuktning och lyster.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hudvård",
+  specSectionTitle: "COSRX Snail Mucin Dual Essence",
+  specs: [
+    { label: "Format", caption: "Typ", value: "Dual-essence, 80 ml" },
+    {
+      label: "Innehåll",
+      caption: "Aktivt",
+      value: "74% snigelsekret + 5% niacinamide",
+    },
+    { label: "Profil", caption: "Hudvård", value: "Hudvänlig, cruelty-free" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4eLSwfk",
+    ratingSummary: "Amazon visar 4,5 av 5 från 7 238 omdömen.",
+    highlights: [
+      "Köpare beskriver huden som silkeslen och slät.",
+      "Återfuktar utan att kännas klibbig - lätt och snabbabsorberad.",
+      "Niacinamide + snigelsekret upplevs ge en jämnare, mer dewy hudton.",
+    ],
+    cautions: [
+      "Snigel-konsistensen kan kännas ovan i början.",
+      "Blanda de två essenserna före applicering; resultat och känsla varierar mellan hudtyper.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const moroccanoilHaroljaProduct: Product = {
   slug: "moroccanoil-harolja",
   title: "Moroccanoil Treatment Original - hårolja (25 ml)",
@@ -2894,6 +2970,7 @@ export const products = [
   minimalistHyaluronsyraSerumProduct,
   kanzyJojobaoljaProduct,
   inkeyNiacinamideSerumProduct,
+  cosrxSnailEssenceProduct,
   moroccanoilHaroljaProduct,
   lorealAbsolutRepairProduct,
   moroccanoilTorrschampoProduct,

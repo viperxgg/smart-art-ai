@@ -37,6 +37,24 @@ type LatestUpdate = {
 const latestUpdates = [
   {
     type: "Guide",
+    title: "Snail mucin – värt hypen?",
+    href: "/guider/snail-mucin-vart-hypen",
+    date: "2026-06-26",
+    image: "/products/cosrx-snail-essence/cosrx-snail-1.webp",
+    blurb:
+      "Elin går igenom snigelsekret ärligt – fukt, lyster och var hypen landar.",
+  },
+  {
+    type: "Hudvård",
+    title: "COSRX Snail Mucin Dual Essence",
+    href: "/skonhet/snail-mucin-essence",
+    date: "2026-06-26",
+    image: "/products/cosrx-snail-essence/cosrx-snail-thumbnail.webp",
+    blurb:
+      "Viral K-beauty-essence med snigelsekret, niacinamide och dewy lyster.",
+  },
+  {
+    type: "Guide",
     title: "Tyst fläkt för sovrummet",
     href: "/guider/tyst-flakt-sovrum",
     date: "2026-06-26",

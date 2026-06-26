@@ -1,5 +1,12 @@
 import Link from "next/link";
-import { ArrowLeft, HeartPulse, Sparkles, TriangleAlert } from "lucide-react";
+import {
+  ArrowLeft,
+  CheckCircle2,
+  HeartPulse,
+  SlidersHorizontal,
+  Sparkles,
+  TriangleAlert,
+} from "lucide-react";
 
 import { AmazonCta } from "@/components/AmazonCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
@@ -76,6 +83,10 @@ export async function SommarProductReviewPage({
     { name: "Sommar", href: "/sommar" },
     { name: pick.product.title, href: pick.href },
   ];
+  const hasProductSpecs = pick.product.specs.length > 0;
+  const hasAmazonSignalDetails =
+    pick.product.amazonReviewSignal.highlights.length > 0 ||
+    pick.product.amazonReviewSignal.cautions.length > 0;
 
   return (
     <main
@@ -175,6 +186,40 @@ export async function SommarProductReviewPage({
           </div>
         </section>
 
+        {hasProductSpecs ? (
+          <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+            <div className="flex items-start gap-4">
+              <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-[#F9E0E3] text-[#B983A6]">
+                <SlidersHorizontal size={24} aria-hidden="true" />
+              </span>
+              <div>
+                <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                  {pick.product.specSectionEyebrow}
+                </p>
+                <h2 className="editorial-color-kiss mt-2 font-display text-3xl">
+                  {pick.product.specSectionTitle}
+                </h2>
+              </div>
+            </div>
+            <div className="mt-6 grid gap-4 sm:grid-cols-2">
+              {pick.product.specs.map((spec) => (
+                <div
+                  key={`${spec.label}-${spec.value}`}
+                  className="rounded-2xl bg-[#FFF4F5] p-5"
+                >
+                  <p className="text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
+                    {spec.caption}
+                  </p>
+                  <h3 className="mt-2 font-black text-[#4B2838]">
+                    {spec.label}
+                  </h3>
+                  <p className="mt-2 leading-7 text-[#6f5a64]">{spec.value}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        ) : null}
+
         <section className="mt-7">
           <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
             <h2 className="editorial-color-kiss font-display text-3xl">
@@ -211,6 +256,63 @@ export async function SommarProductReviewPage({
             reviewHref={`#${pick.reviewSectionId}`}
           />
         </div>
+
+        {hasAmazonSignalDetails ? (
+          <section className="mt-7 grid gap-4 lg:grid-cols-2">
+            <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+              <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                {pick.product.amazonReviewSignal.sourceLabel}
+              </p>
+              <h2 className="editorial-color-kiss mt-2 font-display text-3xl">
+                Amazon-signaler
+              </h2>
+              <p className="mt-4 leading-8 text-[#6f5a64]">
+                {pick.product.amazonReviewSignal.ratingSummary}
+              </p>
+              <a
+                href={pick.product.amazonReviewSignal.sourceUrl}
+                target="_blank"
+                rel="sponsored nofollow noopener noreferrer"
+                className="mt-5 inline-flex min-h-11 items-center rounded-full border border-[#E1A5B0] bg-white/72 px-5 text-sm font-black text-[#9E5E73] transition hover:bg-[#FFF4F5]"
+              >
+                Se källan på Amazon
+              </a>
+            </article>
+            <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+              <h2 className="editorial-color-kiss font-display text-3xl">
+                Höjdpunkter och reservationer
+              </h2>
+              <div className="mt-6 grid gap-4">
+                {pick.product.amazonReviewSignal.highlights.map((highlight) => (
+                  <div
+                    key={highlight}
+                    className="flex items-start gap-3 rounded-2xl bg-[#FFF4F5] p-4"
+                  >
+                    <CheckCircle2
+                      className="mt-1 shrink-0 text-[#B983A6]"
+                      size={20}
+                      aria-hidden="true"
+                    />
+                    <p className="leading-7 text-[#5f4a54]">{highlight}</p>
+                  </div>
+                ))}
+                {pick.product.amazonReviewSignal.cautions.map((caution) => (
+                  <div
+                    key={caution}
+                    className="flex items-start gap-3 rounded-2xl bg-[#FFF4F5] p-4"
+                  >
+                    <TriangleAlert
+                      className="mt-1 shrink-0 text-[#D8788D]"
+                      size={20}
+                      aria-hidden="true"
+                    />
+                    <p className="leading-7 text-[#5f4a54]">{caution}</p>
+                  </div>
+                ))}
+              </div>
+            </article>
+          </section>
+        ) : null}
 
         <section className="mt-7">
           <ProductComments

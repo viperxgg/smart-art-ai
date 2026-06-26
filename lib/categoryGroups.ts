@@ -41,6 +41,7 @@ export const categoryProductGroups = {
     {
       title: "Hudvård",
       productSlugs: [
+        "cosrx-snail-mucin-essence",
         "minimalist-hyaluronsyra-serum",
         "kanzy-jojobaolja",
         "inkey-niacinamide-serum",

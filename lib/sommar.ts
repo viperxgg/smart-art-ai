@@ -1,4 +1,5 @@
 import {
+  cosrxSnailEssenceProduct,
   elfSkinBronzingDropsProduct,
   inkeyNiacinamideSerumProduct,
   kanzyJojobaoljaProduct,
@@ -378,6 +379,78 @@ export const sommarPicks: SommarPick[] = [
         href: "/skonhet/brun-utan-sol",
         label: "Brun utan sol",
         text: "Få sommarfärgen utan att sola.",
+      },
+    ],
+  },
+  {
+    productSlug: cosrxSnailEssenceProduct.slug,
+    href: "/skonhet/snail-mucin-essence",
+    cardBadge: "K-beauty-favorit",
+    cardHook: "74% snigelsekret + 5% niacinamide - viral fukt och lyster.",
+    cardImage: "/products/cosrx-snail-essence/cosrx-snail-thumbnail.webp",
+    cardImageAlt: "COSRX Advanced Snail Radiance Dual Essence, 80 ml",
+    product: cosrxSnailEssenceProduct,
+    badge: "Elins K-beauty-favorit",
+    headline: "COSRX Snail Mucin Essence - fukt och dewy lyster",
+    shortBody:
+      "En viral K-beauty dual-essence med 74% snigelsekret och 5% niacinamide. Lätt, icke-klibbig och gjord för fukt, lyster och en jämnare hudton.",
+    valueHook: "K-beauty-favoriten för fukt och lyster",
+    valueStatement:
+      "COSRX Snail Mucin 74% + Niacinamide Dual Essence är en lätt essence för dig som vill lägga till återfuktning och dewy lyster utan tung känsla. Formulan kombinerar 74% snigelsekret med 5% niacinamide, en kombination som hjälper huden att kännas slätare och hudtonen att se jämnare ut. Amazon visar 4,5 av 5 från 7 238 omdömen, och köpare lyfter framför allt den silkeslena känslan, snabb absorption och att den inte känns klibbig.",
+    passFor: [
+      "Vill ha en viral K-beauty-essence för fukt och lyster.",
+      "Gillar lätta lager under fuktkräm och makeup.",
+      "Vill kombinera snigelsekret med niacinamide i ett enda steg.",
+    ],
+    caution:
+      "Snigel-konsistensen kan kännas ovan i början och upplevelsen varierar mellan hudtyper. Blanda de två essenserna före applicering och börja med en liten mängd om huden lätt reagerar.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Tryck ut en liten mängd, blanda de två essenserna mellan fingrarna och applicera efter rengöring eller toner, före kräm. Följ upp med fuktkräm om huden vill ha mer komfort.",
+    },
+    verdict:
+      "Prisvärd K-beauty-essence för återfuktning och lyster.",
+    amazonSummary:
+      "Amazon visar 4,5 av 5 från 7 238 omdömen. Köpare beskriver känslan som silkeslen, lätt och snabbabsorberad, men konsistensen kan kännas ovan i början.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "När i rutinen använder jag snail mucin essence?",
+        answer:
+          "Applicera efter rengöring eller toner och före fuktkräm. Blanda de två essenserna mellan fingrarna först så blir formulan jämnare.",
+      },
+      {
+        question: "Känns COSRX snail mucin klibbig?",
+        answer:
+          "Många köpare beskriver den som lätt och snabbabsorberad, men snigel-konsistensen kan kännas ovan i början. Börja med en liten mängd.",
+      },
+      {
+        question: "Vad gör niacinamide i formulan?",
+        answer:
+          "Niacinamide är ett hudvårdsämne som hjälper hudtonen att se jämnare ut. Här kombineras det med snigelsekret för fukt och lyster.",
+      },
+    ],
+    reviewSectionId: "cosrx-snail-mucin-essence-recensioner",
+    reviewFormId: "cosrx-snail-mucin-essence-skriv-recension",
+    targetKeyword: "snail mucin",
+    metaTitle: "COSRX Snail Mucin Essence - K-beauty för fukt | Elins val",
+    metaDescription:
+      "Elin går igenom COSRX Snail Mucin 74% + Niacinamide Dual Essence: en viral, lätt K-beauty-essence för fukt och lyster (4,5 av 5, 7 238 omdömen) - och vad du bör veta om konsistensen.",
+    relatedLinks: [
+      {
+        href: "/guider/snail-mucin-vart-hypen",
+        label: "Guide",
+        text: "Snail mucin – värt hypen?",
+      },
+      {
+        href: "/skonhet/niacinamide-serum",
+        label: "Niacinamide-serum",
+        text: "Jämför med ett riktat serum för fet och blandad hy.",
+      },
+      {
+        href: "/skonhet/hyaluronsyra-serum",
+        label: "Hyaluronsyra-serum",
+        text: "Lägg till ett enkelt fuktsteg i rutinen.",
       },
     ],
   },

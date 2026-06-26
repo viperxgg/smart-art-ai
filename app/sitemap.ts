@@ -65,6 +65,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${siteConfig.url}/guider/snail-mucin-vart-hypen`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.74,
+    },
+    {
       url: `${siteConfig.url}/guider/tyst-flakt-sovrum`,
       lastModified: new Date(),
       changeFrequency: "weekly",
@@ -444,6 +450,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${siteConfig.url}/skonhet/hyaluronsyra-serum`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/snail-mucin-essence`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.82,

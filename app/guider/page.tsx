@@ -13,6 +13,12 @@ export const metadata = createSeoMetadata({
 
 const guides = [
   {
+    href: "/guider/snail-mucin-vart-hypen",
+    title: "Snail mucin – värt hypen?",
+    description:
+      "Elin går igenom snigelsekret (snail mucin) ärligt – vad det gör för huden och om det virala ryktet håller.",
+  },
+  {
     href: "/guider/tyst-flakt-sovrum",
     title: "Tyst fläkt för sovrummet – vilken ska du välja?",
     description:
