@@ -88,6 +88,7 @@ export const categoryProductGroups = {
       productSlugs: [
         "dreo-cruiser-pro-tornflakt",
         "honeywell-turboforce-ht900e",
+        "midea-fz10-tornflakt",
       ],
     },
     {

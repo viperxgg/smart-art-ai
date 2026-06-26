@@ -13,6 +13,12 @@ export const metadata = createSeoMetadata({
 
 const guides = [
   {
+    href: "/guider/tyst-flakt-sovrum",
+    title: "Tyst fläkt för sovrummet – vilken ska du välja?",
+    description:
+      "Elin jämför tysta fläktar för sovrummet ärligt – nattläge, ljudnivå och när premium är värt det.",
+  },
+  {
     href: "/guider/flakt-dyr-vs-billig",
     title: "Fläkt: dyr vs billig – värt det?",
     description:

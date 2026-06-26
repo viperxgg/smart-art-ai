@@ -214,11 +214,12 @@ export async function FlaktProductReviewPage({
         <section className="mt-7 overflow-hidden rounded-[2rem] border border-[#F1D8DD] bg-white/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
           <div className="p-6 md:p-8">
             <h2 className="editorial-color-kiss font-display text-3xl">
-              Dreo vs Honeywell - vilken ska du välja?
+              Dreo vs Midea vs Honeywell - vilken ska du välja?
             </h2>
             <p className="mt-4 max-w-3xl leading-8 text-[#6f5a64]">
-              De löser olika behov: Dreo är den tystare helrumsfläkten,
-              Honeywell är den mer riktade budgetfläkten.
+              De löser olika behov: Dreo är den tystare premiumfläkten, Midea
+              är sovrumsvänligt värde och Honeywell är den mer riktade
+              budgetfläkten.
             </p>
           </div>
           <div className="overflow-x-auto">
@@ -232,18 +233,24 @@ export async function FlaktProductReviewPage({
                     Dreo Cruiser Pro
                   </th>
                   <th className="px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-[#9E5E73]">
+                    Midea FZ10
+                  </th>
+                  <th className="px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-[#9E5E73]">
                     Honeywell TurboForce
                   </th>
                 </tr>
               </thead>
               <tbody>
-                {flaktComparisonRows.map(([label, dreo, honeywell]) => (
+                {flaktComparisonRows.map(([label, dreo, midea, honeywell]) => (
                   <tr key={label} className="border-b border-[#F1D8DD]">
                     <th className="px-6 py-5 font-black text-[#4B2838]">
                       {label}
                     </th>
                     <td className="px-6 py-5 leading-7 text-[#6f5a64]">
                       {dreo}
+                    </td>
+                    <td className="px-6 py-5 leading-7 text-[#6f5a64]">
+                      {midea}
                     </td>
                     <td className="px-6 py-5 leading-7 text-[#6f5a64]">
                       {honeywell}

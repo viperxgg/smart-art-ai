@@ -86,8 +86,8 @@ export default function FlaktHubPage() {
             Fläkt - dyr vs billig utan krångel
           </h1>
           <p className="mt-6 max-w-3xl text-xl leading-9 text-[#6f5a64]">
-            Två tydliga val för sommarvärme hemma: en tyst tornfläkt för hela
-            rummet och en kraftfull bordsfläkt för riktad svalka.
+            Tre tydliga val för sommarvärme hemma: tyst premium, sovrumsvänligt
+            värde och kraftfull budget för riktad svalka.
           </p>
           <p className="mt-6 rounded-3xl border border-[#F1D8DD] bg-[#FFF4F5] p-4 text-sm leading-7 text-[#6f5a64]">
             <strong>Annons</strong> · Våra produktsidor innehåller
@@ -106,15 +106,16 @@ export default function FlaktHubPage() {
                 Hur väljer du?
               </h2>
               <p className="mt-4 max-w-3xl text-lg leading-8 text-[#6f5a64]">
-                Börja med ljudnivån. Vill du ha svalka i sovrummet eller ett
-                helt rum är Dreo mer bekväm. Vill du ha stark riktad luft vid
-                skrivbordet räcker Honeywell långt.
+                Börja med ljudnivån. Vill du ha absolut tystast drift är Dreo
+                mer bekväm. Vill du ha nattläge och timer till mellanpris är
+                Midea stark. Vill du ha riktad luft vid skrivbordet räcker
+                Honeywell långt.
               </p>
             </div>
           </div>
         </section>
 
-        <section className="mt-8 grid gap-6 md:grid-cols-2">
+        <section className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {flaktPicks.map((pick) => (
             <Link
               key={pick.product.slug}
@@ -169,18 +170,24 @@ export default function FlaktHubPage() {
                     Dreo Cruiser Pro
                   </th>
                   <th className="px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-[#9E5E73]">
+                    Midea FZ10
+                  </th>
+                  <th className="px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-[#9E5E73]">
                     Honeywell TurboForce
                   </th>
                 </tr>
               </thead>
               <tbody>
-                {flaktComparisonRows.map(([label, dreo, honeywell]) => (
+                {flaktComparisonRows.map(([label, dreo, midea, honeywell]) => (
                   <tr key={label} className="border-b border-[#F1D8DD]">
                     <th className="px-6 py-5 font-black text-[#4B2838]">
                       {label}
                     </th>
                     <td className="px-6 py-5 leading-7 text-[#6f5a64]">
                       {dreo}
+                    </td>
+                    <td className="px-6 py-5 leading-7 text-[#6f5a64]">
+                      {midea}
                     </td>
                     <td className="px-6 py-5 leading-7 text-[#6f5a64]">
                       {honeywell}
@@ -200,9 +207,10 @@ export default function FlaktHubPage() {
                 Elins korta dom
               </h2>
               <p className="mt-4 max-w-4xl text-lg leading-8 text-[#6f5a64]">
-                Dreo är det bekvämare premiumvalet om tystnad och helrumsflöde
-                spelar roll. Honeywell är budgetvalet om du mest vill ha snabb,
-                riktad svalka och accepterar mer ljud.
+                Dreo är premiumvalet om tystnad och helrumsflöde spelar roll.
+                Midea är värdevalet för sovrum med nattläge och timer.
+                Honeywell är budgetvalet om du mest vill ha snabb, riktad
+                svalka och accepterar mer ljud.
               </p>
             </div>
           </div>

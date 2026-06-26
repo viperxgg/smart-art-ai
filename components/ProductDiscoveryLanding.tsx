@@ -37,6 +37,23 @@ type LatestUpdate = {
 const latestUpdates = [
   {
     type: "Guide",
+    title: "Tyst fläkt för sovrummet",
+    href: "/guider/tyst-flakt-sovrum",
+    date: "2026-06-26",
+    image: "/products/flakt-midea/midea-fz10-1.webp",
+    blurb:
+      "Nattläge, ljudnivå och när premiumfläkt faktiskt är värt det.",
+  },
+  {
+    type: "Hälsa",
+    title: "Midea FZ10-17JR tornfläkt",
+    href: "/halsa/flakt/midea-fz10",
+    date: "2026-06-26",
+    image: "/products/flakt-midea/midea-fz10-thumbnail.webp",
+    blurb: "Prisvärd tornfläkt med nattläge, timer och fjärrkontroll.",
+  },
+  {
+    type: "Guide",
     title: "Fläkt: dyr vs billig – värt det?",
     href: "/guider/flakt-dyr-vs-billig",
     date: "2026-06-26",

@@ -2779,6 +2779,88 @@ export const honeywellTurboforceFlaktProduct: Product = {
   comments: [],
 };
 
+export const mideaFz10FlaktProduct: Product = {
+  slug: "midea-fz10-tornflakt",
+  title: "Midea FZ10-17JR tornfläkt (96,5 cm)",
+  category: "halsa",
+  asin: "B07P6QYW66",
+  brand: "Midea",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["#1 Bästsäljare", "Nattläge & timer", "Bäst värde"],
+  image: "/products/flakt-midea/midea-fz10-thumbnail.webp",
+  imageAlt: "Midea FZ10-17JR svart tornfläkt med fjärrkontroll",
+  images: [
+    {
+      src: "/products/flakt-midea/midea-fz10-thumbnail.webp",
+      alt: "Midea FZ10-17JR svart tornfläkt med fjärrkontroll",
+      label: "Midea FZ10",
+    },
+    {
+      src: "/products/flakt-midea/midea-fz10-1.webp",
+      alt: "Midea FZ10-17JR svart tornfläkt",
+      label: "Tornfläkt",
+    },
+    {
+      src: "/products/flakt-midea/midea-fz10-2.webp",
+      alt: "Kontroll och display på Midea FZ10-17JR tornfläkt",
+      label: "Kontroll & display",
+    },
+    {
+      src: "/products/flakt-midea/midea-fz10-3.webp",
+      alt: "Detalj på Midea FZ10-17JR tornfläkt",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4eL99rA",
+  pageHref: "/halsa/flakt/midea-fz10",
+  summary:
+    "En prisvärd tornfläkt med oscillering, fjärrkontroll, 7-timmarstimer och ett tystare nattläge – #1 bästsäljare bland tornfläktar.",
+  evaluation: {
+    headline: "Bäst värde – och sovrumsvänlig",
+    intro:
+      "Midea FZ10 passar dig som vill ha en tyst-nog tornfläkt med nattläge och timer till ett mellanpris.",
+    verdict:
+      "Bäst värde – prisvärd tornfläkt med nattläge för sovrummet.",
+    checks: [],
+  },
+  specSectionEyebrow: "Tornfläkt",
+  specSectionTitle: "Midea FZ10-17JR",
+  specs: [
+    { label: "Typ", caption: "Design", value: "Tornfläkt, 96,5 cm" },
+    { label: "Ljudnivå", caption: "Drift", value: "ca 38 dB" },
+    {
+      label: "Lägen",
+      caption: "Hastigheter",
+      value: "3 + 3 lägen (inkl. nattläge)",
+    },
+    {
+      label: "Extra",
+      caption: "Bekvämt",
+      value: "90° oscillering, 7h timer, fjärrkontroll",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4eL99rA",
+    ratingSummary:
+      "Amazon visar 4,4 av 5 från 2 659 omdömen och #1 bästsäljare bland tornfläktar.",
+    highlights: [
+      "Köpare lyfter att den är kylande när det är varmt och fuktigt – 'bästa köpet'.",
+      "Bra med fjärrkontroll, 7h-timer och ett tystare nattläge.",
+      "Tyst på de lägre hastigheterna – funkar i sovrummet.",
+    ],
+    cautions: [
+      "Den låter mer på högsta läget (3).",
+      "Enstaka köpare har fått fjärrkontrollen saknad i paketet.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   jakkofoxxLoopbandProduct,
@@ -2794,6 +2876,7 @@ export const products = [
   bdbkmgMassagepistolProduct,
   dreoCruiserProFlaktProduct,
   honeywellTurboforceFlaktProduct,
+  mideaFz10FlaktProduct,
   remingtonS8540Product,
   remingtonMiniS2880Product,
   panasonicEsEy30EpilatorProduct,

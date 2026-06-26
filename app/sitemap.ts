@@ -65,6 +65,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${siteConfig.url}/guider/tyst-flakt-sovrum`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.78,
+    },
+    {
       url: `${siteConfig.url}/guider/flakt-dyr-vs-billig`,
       lastModified: new Date(),
       changeFrequency: "weekly",
@@ -354,6 +360,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${siteConfig.url}/halsa/flakt/honeywell-turboforce`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/halsa/flakt/midea-fz10`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.82,

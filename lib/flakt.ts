@@ -1,6 +1,7 @@
 import {
   dreoCruiserProFlaktProduct,
   honeywellTurboforceFlaktProduct,
+  mideaFz10FlaktProduct,
   type Product,
 } from "@/lib/products";
 
@@ -37,11 +38,36 @@ export const flaktFaqItems = [
 ] as const;
 
 export const flaktComparisonRows = [
-  ["Bäst för", "Tyst svalka i hela rummet", "Riktad svalka vid skrivbord eller litet rum"],
-  ["Ljud", "Runt 20 dB på låg nivå", "Mer ljud, särskilt nattetid"],
-  ["Funktioner", "Oscillering, timer, 9 hastigheter, fjärrkontroll", "3 hastigheter och 90° lutning"],
-  ["Format", "Slimmad tornfläkt på golvet", "Kompakt bordsfläkt, även för vägg"],
-  ["Kompromiss", "Du betalar för tystnad och bekvämlighet", "Du får kraft men inte premiumkänsla"],
+  [
+    "Bäst för",
+    "Tyst svalka i hela rummet",
+    "Sovrumsvänligt värdeval",
+    "Riktad svalka vid skrivbord eller litet rum",
+  ],
+  [
+    "Ljud",
+    "Runt 20 dB på låg nivå",
+    "Ca 38 dB och tystare nattläge",
+    "Mer ljud, särskilt nattetid",
+  ],
+  [
+    "Funktioner",
+    "Oscillering, timer, 9 hastigheter, fjärrkontroll",
+    "Oscillering, 7h timer, fjärrkontroll, nattläge",
+    "3 hastigheter och 90° lutning",
+  ],
+  [
+    "Format",
+    "Slimmad tornfläkt på golvet",
+    "Tornfläkt med mellanpris",
+    "Kompakt bordsfläkt, även för vägg",
+  ],
+  [
+    "Kompromiss",
+    "Du betalar för tystnad och bekvämlighet",
+    "Inte lika tyst som premium på högsta läget",
+    "Du får kraft men inte premiumkänsla",
+  ],
 ] as const;
 
 export const flaktPicks: FlaktPick[] = [
@@ -100,6 +126,34 @@ export const flaktPicks: FlaktPick[] = [
     metaTitle: "Honeywell TurboForce HT900E - Elins recension | Elins val",
     metaDescription:
       "Elin går igenom Honeywell TurboForce HT900E: starkt luftflöde, 3 hastigheter, ljudnivå, Amazon-signaler och när budgetfläkten räcker.",
+  },
+  {
+    product: mideaFz10FlaktProduct,
+    path: "/halsa/flakt/midea-fz10",
+    badge: "Bäst värde",
+    headline: "Midea FZ10 – bäst värde för sovrummet",
+    shortBody:
+      "En prisvärd tornfläkt med nattläge, timer och fjärrkontroll för dig som vill ha sovrumsvänlig svalka utan premiumpris.",
+    valueHook: "Bäst värde – och sovrumsvänlig",
+    valueStatement:
+      "Midea FZ10 passar när du vill ha en tornfläkt med oscillering, fjärrkontroll, 7-timmarstimer och ett tystare nattläge till ett mellanpris.",
+    caution:
+      "Den är tystare på de lägre lägena, men räkna med mer ljud på högsta hastigheten. Vill du ha absolut tystast drift är Dreo mer relevant.",
+    verdict:
+      "Bäst värde – prisvärd tornfläkt med nattläge för sovrummet.",
+    passFor: [
+      "Du vill ha en tornfläkt med nattläge och timer.",
+      "Du vill ha mer sovrumskomfort än en enkel bordsfläkt.",
+      "Du vill hålla priset lägre än ett tydligt premiumval.",
+    ],
+    comparisonVerdict:
+      "Välj Midea om du vill ha nattläge, timer och tornfläktens bekvämlighet till ett mellanpris. Är du extremt ljudkänslig är Dreo tystare, och vill du bara ha billig riktad luft är Honeywell enklare.",
+    reviewSectionId: "midea-fz10-recensioner",
+    reviewFormId: "midea-fz10-skriv-recension",
+    targetKeyword: "midea fz10 tornfläkt",
+    metaTitle: "Midea FZ10 tornfläkt - Elins recension | Elins val",
+    metaDescription:
+      "Elin går igenom Midea FZ10-17JR: nattläge, timer, ljudnivå, Amazon-signaler och när den är ett prisvärt val för sovrummet.",
   },
 ];
 
