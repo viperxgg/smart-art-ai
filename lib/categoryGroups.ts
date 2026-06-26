@@ -84,6 +84,13 @@ export const categoryProductGroups = {
       productSlugs: ["beurer-mg-99-massagepistol", "bdbkmg-massagepistol"],
     },
     {
+      title: "Fläkt",
+      productSlugs: [
+        "dreo-cruiser-pro-tornflakt",
+        "honeywell-turboforce-ht900e",
+      ],
+    },
+    {
       title: "Smart hem & livsstil",
       productSlugs: [
         "kobo-clara-bw",

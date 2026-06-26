@@ -13,6 +13,12 @@ export const metadata = createSeoMetadata({
 
 const guides = [
   {
+    href: "/guider/flakt-dyr-vs-billig",
+    title: "Fläkt: dyr vs billig – värt det?",
+    description:
+      "Elin jämför en dyr tornfläkt och en billig bordsfläkt ärligt – vad du betalar för och när budget räcker.",
+  },
+  {
     href: "/guider/dyson-airwrap-eller-varmluftsborste",
     title: "Dyson Airwrap eller varmluftsborste – värt priset?",
     description:

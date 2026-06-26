@@ -2615,6 +2615,170 @@ export const stjarnprojektorProduct: Product = {
   comments: [],
 };
 
+export const dreoCruiserProFlaktProduct: Product = {
+  slug: "dreo-cruiser-pro-tornflakt",
+  title: "Dreo Cruiser Pro T1 tornfläkt (106 cm)",
+  category: "halsa",
+  asin: "B08PDDSDHY",
+  brand: "Dreo",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["Tyst ~20 dB", "9 hastigheter", "Premiumval"],
+  image: "/products/flakt-dreo/dreo-cruiser-thumbnail.webp",
+  imageAlt: "Dreo Cruiser Pro T1 svart tornfläkt med fjärrkontroll",
+  images: [
+    {
+      src: "/products/flakt-dreo/dreo-cruiser-thumbnail.webp",
+      alt: "Dreo Cruiser Pro T1 svart tornfläkt med fjärrkontroll",
+      label: "Dreo Cruiser Pro",
+    },
+    {
+      src: "/products/flakt-dreo/dreo-cruiser-1.webp",
+      alt: "Dreo Cruiser Pro T1 svart tornfläkt",
+      label: "Tornfläkt",
+    },
+    {
+      src: "/products/flakt-dreo/dreo-cruiser-2.webp",
+      alt: "Detalj på Dreo Cruiser Pro T1 tornfläkt",
+      label: "Detalj",
+    },
+    {
+      src: "/products/flakt-dreo/dreo-cruiser-3.webp",
+      alt: "Fjärrkontroll till Dreo Cruiser Pro T1 tornfläkt",
+      label: "Fjärrkontroll",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4xGELr0",
+  pageHref: "/halsa/flakt/dreo-cruiser-pro",
+  summary:
+    "En tyst, slimmad tornfläkt som svalkar hela rummet – 9 hastigheter, oscillering, timer och fjärrkontroll.",
+  evaluation: {
+    headline: "Den tysta premiumfläkten",
+    intro:
+      "Dreo Cruiser Pro passar dig som vill svalka hela rummet utan oljud – särskilt i sovrummet.",
+    verdict:
+      "Premiumvalet – tyst, mångsidig tornfläkt för hela rummet.",
+    checks: [],
+  },
+  specSectionEyebrow: "Tornfläkt",
+  specSectionTitle: "Dreo Cruiser Pro T1",
+  specs: [
+    { label: "Typ", caption: "Design", value: "Bladlös tornfläkt, 106 cm" },
+    { label: "Ljudnivå", caption: "Tyst", value: "ca 20 dB" },
+    {
+      label: "Lägen",
+      caption: "Hastigheter",
+      value: "9 + oscillering, timer",
+    },
+    {
+      label: "Styrning",
+      caption: "Extra",
+      value: "Fjärrkontroll, display som slocknar",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4xGELr0",
+    ratingSummary:
+      "Amazon visar 4,6 av 5 från 25 944 omdömen och topp-5 bland tornfläktar.",
+    highlights: [
+      "Köpare lyfter att den är tyst – 'tystare än min gamla AC'.",
+      "Svalkar hela lägenheten och ser stilren ut.",
+      "Display som slocknar uppskattas nattetid.",
+    ],
+    cautions: [
+      "Någon tycker basen känns plastig/ostadig.",
+      "Den låter mer på högsta läget (9).",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const honeywellTurboforceFlaktProduct: Product = {
+  slug: "honeywell-turboforce-ht900e",
+  title: "Honeywell TurboForce HT900E bordsfläkt",
+  category: "halsa",
+  asin: "B003KHJO6G",
+  brand: "Honeywell",
+  price: "Se aktuellt pris på Amazon",
+  badges: ["#1 Bästsäljare", "Kraftfull", "Budgetval"],
+  image: "/products/flakt-honeywell/honeywell-ht900e-thumbnail.webp",
+  imageAlt: "Honeywell TurboForce HT900E svart kompakt bordsfläkt",
+  images: [
+    {
+      src: "/products/flakt-honeywell/honeywell-ht900e-thumbnail.webp",
+      alt: "Honeywell TurboForce HT900E svart kompakt bordsfläkt",
+      label: "Honeywell HT900E",
+    },
+    {
+      src: "/products/flakt-honeywell/honeywell-ht900e-1.webp",
+      alt: "Kompakt Honeywell TurboForce HT900E bordsfläkt",
+      label: "Kompakt",
+    },
+    {
+      src: "/products/flakt-honeywell/honeywell-ht900e-2.webp",
+      alt: "Honeywell TurboForce HT900E för bord eller vägg",
+      label: "Vägg & bord",
+    },
+    {
+      src: "/products/flakt-honeywell/honeywell-ht900e-3.webp",
+      alt: "Detalj på Honeywell TurboForce HT900E bordsfläkt",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3SvaTOn",
+  pageHref: "/halsa/flakt/honeywell-turboforce",
+  summary:
+    "Liten men kraftfull bordsfläkt till budgetpris – starkt luftflöde, 3 hastigheter och väggmontering. Men den är ingen tystfläkt.",
+  evaluation: {
+    headline: "Mest kraft för pengarna",
+    intro:
+      "Honeywell TurboForce passar dig som vill ha snabb, riktad svalka vid skrivbordet eller i ett mindre rum till lågt pris.",
+    verdict:
+      "Budgetvalet – kraftfull och prisvärd, men räkna med mer ljud.",
+    checks: [],
+  },
+  specSectionEyebrow: "Bordsfläkt",
+  specSectionTitle: "Honeywell TurboForce HT900E",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Design",
+      value: "Kompakt bordsfläkt, 27,7 cm",
+    },
+    {
+      label: "Luftflöde",
+      caption: "Kraft",
+      value: "Starkt, känns på flera meter",
+    },
+    { label: "Lägen", caption: "Hastigheter", value: "3 + 90° lutning" },
+    { label: "Montering", caption: "Flexibel", value: "Bord eller vägg" },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3SvaTOn",
+    ratingSummary:
+      "Amazon visar 4,4 av 5 från 28 253 omdömen och #1 bästsäljare bland bordsfläktar.",
+    highlights: [
+      "Kraftfullt luftflöde för en så liten fläkt.",
+      "Prisvärd och smidig att flytta eller väggmontera.",
+      "Många köper den som en billig, effektiv svalka.",
+    ],
+    cautions: [
+      "Den är bullrig (runt 56 dB) – inte 'tyst' trots marknadsföringen, särskilt nattetid.",
+      "Plastig känsla, ingen oscillering eller fjärrkontroll.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
   featuredProduct,
   jakkofoxxLoopbandProduct,
@@ -2628,6 +2792,8 @@ export const products = [
   elvireDeepTissueMassageSetProduct,
   beurerMassagepistolProduct,
   bdbkmgMassagepistolProduct,
+  dreoCruiserProFlaktProduct,
+  honeywellTurboforceFlaktProduct,
   remingtonS8540Product,
   remingtonMiniS2880Product,
   panasonicEsEy30EpilatorProduct,

@@ -25,7 +25,7 @@ const topPicks = [...products]
 const selectedComparisons = comparisonEntries.slice(0, 6);
 
 type LatestUpdate = {
-  type: "Guide" | "Hudvård";
+  type: "Guide" | "Hälsa" | "Hudvård";
   title: string;
   href: string;
   date: `${number}-${number}-${number}`;
@@ -34,6 +34,21 @@ type LatestUpdate = {
 
 // Lägg till nyaste överst
 const latestUpdates = [
+  {
+    type: "Guide",
+    title: "Fläkt: dyr vs billig – värt det?",
+    href: "/guider/flakt-dyr-vs-billig",
+    date: "2026-06-26",
+    blurb:
+      "Elin jämför tyst premium mot kraftfull budget – vad du betalar för.",
+  },
+  {
+    type: "Hälsa",
+    title: "Dreo Cruiser Pro T1 tornfläkt",
+    href: "/halsa/flakt/dreo-cruiser-pro",
+    date: "2026-06-26",
+    blurb: "Tyst premiumfläkt för svalka i hela rummet.",
+  },
   {
     type: "Guide",
     title: "15 ärliga köpråd – Värt priset?",

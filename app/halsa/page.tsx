@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, HeartPulse, Home, Sparkles } from "lucide-react";
+import { ArrowUpRight, HeartPulse, Home, Sparkles, Wind } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { CategoryComparisonSections } from "@/components/CategoryComparisonSections";
@@ -65,32 +65,61 @@ export default function HalsaHubPage() {
             </p>
           </div>
 
-          <Link
-            href="/halsa/massagepistol"
-            className="group overflow-hidden rounded-[2.2rem] border border-[#F1D8DD] bg-white/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.14)] transition hover:-translate-y-1"
-          >
-            <div className="flex items-start gap-5">
-              <span className="grid h-16 w-16 shrink-0 place-items-center rounded-3xl bg-[#F9E0E3] text-[#B983A6]">
-                <HeartPulse size={30} aria-hidden="true" />
-              </span>
-              <div>
-                <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-                  Guide 2026
-                </p>
-                <h2 className="editorial-color-kiss mt-3 font-display text-4xl leading-tight">
-                  Massagepistol
-                </h2>
-                <p className="mt-4 text-lg leading-8 text-[#6f5a64]">
-                  Två tydliga val: ett tryggt märkesval och ett kraftfullt
-                  prisvärt alternativ.
-                </p>
-                <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-[#D8A7B1] px-5 font-black text-white">
-                  Läs Elins guide
-                  <ArrowUpRight size={18} aria-hidden="true" />
+          <div className="grid gap-4">
+            <Link
+              href="/halsa/massagepistol"
+              className="group overflow-hidden rounded-[2.2rem] border border-[#F1D8DD] bg-white/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.14)] transition hover:-translate-y-1"
+            >
+              <div className="flex items-start gap-5">
+                <span className="grid h-16 w-16 shrink-0 place-items-center rounded-3xl bg-[#F9E0E3] text-[#B983A6]">
+                  <HeartPulse size={30} aria-hidden="true" />
                 </span>
+                <div>
+                  <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                    Guide 2026
+                  </p>
+                  <h2 className="editorial-color-kiss mt-3 font-display text-4xl leading-tight">
+                    Massagepistol
+                  </h2>
+                  <p className="mt-4 text-lg leading-8 text-[#6f5a64]">
+                    Två tydliga val: ett tryggt märkesval och ett kraftfullt
+                    prisvärt alternativ.
+                  </p>
+                  <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-[#D8A7B1] px-5 font-black text-white">
+                    Läs Elins guide
+                    <ArrowUpRight size={18} aria-hidden="true" />
+                  </span>
+                </div>
               </div>
-            </div>
-          </Link>
+            </Link>
+
+            <Link
+              href="/halsa/flakt"
+              className="group overflow-hidden rounded-[2.2rem] border border-[#F1D8DD] bg-white/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.14)] transition hover:-translate-y-1"
+            >
+              <div className="flex items-start gap-5">
+                <span className="grid h-16 w-16 shrink-0 place-items-center rounded-3xl bg-[#F9E0E3] text-[#B983A6]">
+                  <Wind size={30} aria-hidden="true" />
+                </span>
+                <div>
+                  <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                    Sommar 2026
+                  </p>
+                  <h2 className="editorial-color-kiss mt-3 font-display text-4xl leading-tight">
+                    Fläkt
+                  </h2>
+                  <p className="mt-4 text-lg leading-8 text-[#6f5a64]">
+                    Två tydliga val: tyst premium-tornfläkt och kraftfull
+                    budgetfläkt för riktad svalka.
+                  </p>
+                  <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-[#D8A7B1] px-5 font-black text-white">
+                    Läs fläktguiden
+                    <ArrowUpRight size={18} aria-hidden="true" />
+                  </span>
+                </div>
+              </div>
+            </Link>
+          </div>
         </section>
 
         <CategoryProductSections categorySlug="halsa" />

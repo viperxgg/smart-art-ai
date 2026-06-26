@@ -65,6 +65,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${siteConfig.url}/guider/flakt-dyr-vs-billig`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.78,
+    },
+    {
       url: `${siteConfig.url}/guider/dyson-airwrap-eller-varmluftsborste`,
       lastModified: new Date(),
       changeFrequency: "weekly",
@@ -317,6 +323,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${siteConfig.url}/halsa/flakt`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
       url: `${siteConfig.url}/halsa/mini-projektor-eller-stjarnprojektor`,
       lastModified: new Date(),
       changeFrequency: "weekly",
@@ -330,6 +342,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${siteConfig.url}/halsa/massagepistol/kraftfull`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/halsa/flakt/dreo-cruiser-pro`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/halsa/flakt/honeywell-turboforce`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.82,
