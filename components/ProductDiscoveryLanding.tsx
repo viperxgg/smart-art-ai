@@ -29,6 +29,7 @@ type LatestUpdate = {
   title: string;
   href: string;
   date: `${number}-${number}-${number}`;
+  image: string;
   blurb: string;
 };
 
@@ -39,6 +40,7 @@ const latestUpdates = [
     title: "Fläkt: dyr vs billig – värt det?",
     href: "/guider/flakt-dyr-vs-billig",
     date: "2026-06-26",
+    image: "/products/flakt-dreo/dreo-cruiser-1.webp",
     blurb:
       "Elin jämför tyst premium mot kraftfull budget – vad du betalar för.",
   },
@@ -47,6 +49,7 @@ const latestUpdates = [
     title: "Dreo Cruiser Pro T1 tornfläkt",
     href: "/halsa/flakt/dreo-cruiser-pro",
     date: "2026-06-26",
+    image: "/products/flakt-dreo/dreo-cruiser-thumbnail.webp",
     blurb: "Tyst premiumfläkt för svalka i hela rummet.",
   },
   {
@@ -54,6 +57,7 @@ const latestUpdates = [
     title: "15 ärliga köpråd – Värt priset?",
     href: "/guider",
     date: "2026-06-26",
+    image: "/products/moroccanoil-harolja/harolja-moroccanoil-thumbnail.webp",
     blurb:
       "Är premium värt det, eller räcker budget? Elin går igenom det ärligt.",
   },
@@ -62,6 +66,8 @@ const latestUpdates = [
     title: "Hyaluronsyra: dyrt vs budget",
     href: "/guider/hyaluronsyra-dyrt-vs-budget",
     date: "2026-06-26",
+    image:
+      "/products/minimalist-hyaluronsyra-serum/minimalist-hyaluronsyra-serum-thumbnail.webp",
     blurb: "Betalar du för mer än fukt? Den ärliga skillnaden.",
   },
   {
@@ -69,6 +75,7 @@ const latestUpdates = [
     title: "Dyson Airwrap eller varmluftsborste?",
     href: "/guider/dyson-airwrap-eller-varmluftsborste",
     date: "2026-06-25",
+    image: "/products/hot-air-brushes/babyliss-as126e-thumbnail.webp",
     blurb: "Vad du faktiskt får – och när det billigare räcker.",
   },
   {
@@ -76,6 +83,8 @@ const latestUpdates = [
     title: "The INKEY List 10% Niacinamide",
     href: "/skonhet/niacinamide-serum",
     date: "2026-06-24",
+    image:
+      "/products/inkey-niacinamide-serum/inkey-niacinamide-serum-thumbnail.webp",
     blurb: "Prisvärt serum som mattar fett och jämnar hudtonen.",
   },
   {
@@ -83,6 +92,8 @@ const latestUpdates = [
     title: "Minimalist Hyaluronsyra-serum",
     href: "/skonhet/hyaluronsyra-serum",
     date: "2026-06-20",
+    image:
+      "/products/minimalist-hyaluronsyra-serum/minimalist-hyaluronsyra-serum-thumbnail.webp",
     blurb: "Parfymfritt fukt-serum som återfuktar på flera nivåer.",
   },
 ] satisfies LatestUpdate[];
@@ -218,30 +229,41 @@ function LatestUpdates() {
             <Link
               key={`${item.href}-${item.date}`}
               href={item.href}
-              className="group grid min-h-[13rem] rounded-[1.8rem] border border-[#efc6cc] bg-white/58 p-5 shadow-[0_20px_58px_rgba(216,131,146,0.1)] transition hover:-translate-y-1 hover:bg-white sm:p-6"
+              className="group flex flex-col overflow-hidden rounded-[1.8rem] border border-[#efc6cc] bg-white/58 shadow-[0_20px_58px_rgba(216,131,146,0.1)] transition hover:-translate-y-1 hover:bg-white"
             >
-              <div className="flex items-start justify-between gap-3">
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
-                    {item.type}
-                  </span>
-                  {isNew ? (
-                    <span className="rounded-full bg-[#ffe1e4] px-2.5 py-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-[#a95468]">
-                      Nytt
-                    </span>
-                  ) : null}
-                </div>
-                <ArrowUpRight
-                  className="size-4 shrink-0 text-[#D8788D] transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-                  aria-hidden="true"
+              <div className="relative h-40 w-full overflow-hidden bg-[#fff4f5] sm:h-44">
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  fill
+                  sizes="(min-width: 768px) 24rem, 92vw"
+                  className="object-contain p-4 transition duration-300 group-hover:scale-[1.03]"
                 />
               </div>
-              <h2 className="editorial-color-kiss mt-4 font-display text-2xl leading-tight sm:text-3xl">
-                {item.title}
-              </h2>
-              <p className="mt-3 line-clamp-2 text-sm leading-6 text-[#7e6970]">
-                {item.blurb}
-              </p>
+              <div className="flex flex-1 flex-col p-5 sm:p-6">
+                <div className="flex items-start justify-between gap-3">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                      {item.type}
+                    </span>
+                    {isNew ? (
+                      <span className="rounded-full bg-[#ffe1e4] px-2.5 py-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-[#a95468]">
+                        Nytt
+                      </span>
+                    ) : null}
+                  </div>
+                  <ArrowUpRight
+                    className="size-4 shrink-0 text-[#D8788D] transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                    aria-hidden="true"
+                  />
+                </div>
+                <h2 className="editorial-color-kiss mt-4 font-display text-2xl leading-tight sm:text-3xl">
+                  {item.title}
+                </h2>
+                <p className="mt-3 line-clamp-2 text-sm leading-6 text-[#7e6970]">
+                  {item.blurb}
+                </p>
+              </div>
             </Link>
           );
         })}
