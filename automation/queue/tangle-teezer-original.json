@@ -1,0 +1,111 @@
+{
+  "exportName": "tangleTeezerOriginalProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårstyling (verktyg)",
+  "route": "skonhet/tangle-teezer",
+  "pageComponentName": "TangleTeezerPage",
+  "product": {
+    "slug": "tangle-teezer-original",
+    "title": "Tangle Teezer The Original – utredande hårborste",
+    "category": "skonhet",
+    "asin": "B0086QEO7K",
+    "brand": "Tangle Teezer",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Reder ut tovor", "Vått & torrt hår", "Nätt & greppvänlig"],
+    "image": "/products/tangle-teezer-original/tangle-teezer-thumbnail.webp",
+    "imageAlt": "Tangle Teezer The Original utredande hårborste",
+    "images": [
+      { "src": "/products/tangle-teezer-original/tangle-teezer-thumbnail.webp", "alt": "Tangle Teezer The Original utredande hårborste", "label": "The Original" },
+      { "src": "/products/tangle-teezer-original/tangle-teezer-1.webp", "alt": "Tangle Teezer The Original med flexibla tänder som reder ut tovor", "label": "Flexibla tänder" },
+      { "src": "/products/tangle-teezer-original/tangle-teezer-2.webp", "alt": "Tangle Teezer The Original nätt och greppvänlig form", "label": "Greppvänlig" },
+      { "src": "/products/tangle-teezer-original/tangle-teezer-3.webp", "alt": "Detaljbild av Tangle Teezer The Original utredande hårborste", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4aqEZZn",
+    "pageHref": "/skonhet/tangle-teezer",
+    "summary": "En ikonisk utredande hårborste vars flexibla tänder reder ut tovor skonsamt på både vått och torrt hår – med mindre drag och mindre brott. Nätt och greppvänlig form som passar i necessären och på resan.",
+    "evaluation": {
+      "headline": "Utredande borste för skonsam utredning",
+      "intro": "Elin går igenom Tangle Teezer The Original: en utredande hårborste med flexibla tänder i två längder som reder ut tovor steg för steg, på både vått och torrt hår. Det är en omtyckt klassiker som ofta lyfts fram för att den ger mindre drag i håret än en vanlig borste.",
+      "verdict": "En skonsam, greppvänlig utredande borste för vardagligt bruk – med enormt socialt stöd.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårstyling (verktyg)",
+    "specSectionTitle": "Tangle Teezer The Original",
+    "specs": [
+      { "label": "Typ", "caption": "Verktyg", "value": "Utredande hårborste" },
+      { "label": "Tänder", "caption": "Konstruktion", "value": "Flexibla tänder i två längder" },
+      { "label": "Form", "caption": "Hantering", "value": "Nätt, greppvänlig, utan handtag" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4aqEZZn",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 44 850 omdömen.",
+      "highlights": [
+        "Köpare upplever att tovor reds ut med mindre drag i håret.",
+        "Uppskattas på både vått och torrt hår i den dagliga rutinen.",
+        "Den nätta, greppvänliga formen lyfts fram som smidig att hålla i."
+      ],
+      "cautions": [
+        "Ingen mirakelborste för väldigt långt eller mycket lockigt hår – jobba i sektioner och nedifrån och upp.",
+        "Tänderna fångar lossnat hår; rengör borsten regelbundet för bästa funktion."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/tangle-teezer",
+    "cardBadge": "Reder ut tovor",
+    "cardHook": "Flexibla tänder som reder ut tovor skonsamt på vått och torrt hår.",
+    "cardImage": "/products/tangle-teezer-original/tangle-teezer-thumbnail.webp",
+    "cardImageAlt": "Tangle Teezer The Original utredande hårborste",
+    "badge": "Elins utredningsfavorit",
+    "headline": "Tangle Teezer The Original – skonsam utredning",
+    "shortBody": "En ikonisk utredande hårborste med flexibla tänder som reder ut tovor steg för steg, på både vått och torrt hår. Nätt och greppvänlig form som ger mindre drag och mindre brott.",
+    "valueHook": "Utredande borste för skonsam utredning",
+    "valueStatement": "Tangle Teezer The Original är en utredande hårborste för dig som vill reda ut tovor utan onödigt drag. De flexibla tänderna i två längder arbetar sig igenom håret steg för steg och hjälper till att lossa trassel skonsamt, på både vått och torrt hår – vilket många upplever ger mindre brott än en vanlig borste. Formen är nätt och greppvänlig och får plats i necessären eller väskan. Amazon visar 4,7 av 5 från 44 850 omdömen, och köpare lyfter framför allt fram den skonsamma utredningen, det mindre draget och hur smidig den är att hålla i.",
+    "passFor": [
+      "Vill reda ut tovor skonsamt med mindre drag i håret.",
+      "Borstar både på vått och torrt hår och vill ha ett verktyg till båda.",
+      "Söker en nätt, greppvänlig borste som ryms i necessären och på resan."
+    ],
+    "caution": "Det är ingen mirakelborste för väldigt långt eller mycket lockigt hår – där lönar det sig att jobba i sektioner och börja nedifrån och upp. Tänderna fångar dessutom lossnat hår, så borsten behöver rengöras regelbundet för att fungera bra.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Borsta i mindre sektioner och börja längst ner i topparna, arbeta dig sedan uppåt mot rötterna. På vått hår blir utredningen ofta extra skonsam. Rengör borsten från lossnat hår med jämna mellanrum."
+    },
+    "verdict": "En skonsam, greppvänlig utredande borste för vardagligt bruk – med enormt socialt stöd.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 44 850 omdömen. Köpare beskriver att tovor reds ut med mindre drag på både vått och torrt hår, men det är ingen mirakelborste för väldigt långt eller mycket lockigt hår.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Kan jag använda Tangle Teezer på vått hår?", "answer": "Ja, The Original används på både vått och torrt hår. Många upplever att utredningen blir extra skonsam på vått hår – borsta i mindre sektioner och börja i topparna." },
+      { "question": "Passar borsten långt eller lockigt hår?", "answer": "Den fungerar för många hårtyper, men är ingen mirakelborste för väldigt långt eller mycket lockigt hår. Jobba i sektioner och börja nedifrån och upp så blir utredningen skonsammare." },
+      { "question": "Hur rengör jag borsten?", "answer": "Tänderna fångar lossnat hår, så plocka bort hårstrån regelbundet och skölj vid behov. En ren borste reder ut tovor mer effektivt och håller längre." }
+    ],
+    "reviewSectionId": "tangle-teezer-original-recensioner",
+    "reviewFormId": "tangle-teezer-original-skriv-recension",
+    "targetKeyword": "tangle teezer",
+    "metaTitle": "Tangle Teezer The Original – utredande hårborste | Elins val",
+    "metaDescription": "Elin går igenom Tangle Teezer The Original: en utredande hårborste med flexibla tänder som reder ut tovor skonsamt på vått och torrt hår (4,7 av 5, 44 850 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Vårdande olja för glans och mjukt hår." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret vid värmestyling." }
+    ]
+  },
+  "images": {
+    "dir": "tangle-teezer-original",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71bdngI1EhL._SL1500_.jpg", "out": "tangle-teezer-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51q8rCD4cPL._SL1500_.jpg", "out": "tangle-teezer-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41J0MEiUSfL._SL1500_.jpg", "out": "tangle-teezer-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51f+HLBqlOL._SL1500_.jpg", "out": "tangle-teezer-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Tangle Teezer The Original", "href": "/skonhet/tangle-teezer", "date": "2026-06-26", "image": "/products/tangle-teezer-original/tangle-teezer-thumbnail.webp", "blurb": "Populär utredande hårborste med flexibla tänder som reder ut tovor skonsamt på vått och torrt hår." }
+  ]
+}

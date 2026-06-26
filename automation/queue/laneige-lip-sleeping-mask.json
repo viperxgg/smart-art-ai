@@ -1,0 +1,111 @@
+{
+  "exportName": "laneigeLipSleepingMaskProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/laneige-lappmask",
+  "pageComponentName": "LaneigeLappmaskPage",
+  "product": {
+    "slug": "laneige-lip-sleeping-mask",
+    "title": "LANEIGE Lip Sleeping Mask – läppmask (Berry, 20 g)",
+    "category": "skonhet",
+    "asin": "B09WCTJ113",
+    "brand": "LANEIGE",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["K-beauty-favorit", "Nattläppmask", "Berry-doft"],
+    "image": "/products/laneige-lip-sleeping-mask/laneige-thumbnail.webp",
+    "imageAlt": "LANEIGE Lip Sleeping Mask Berry, 20 g",
+    "images": [
+      { "src": "/products/laneige-lip-sleeping-mask/laneige-thumbnail.webp", "alt": "LANEIGE Lip Sleeping Mask Berry, 20 g", "label": "Lip Sleeping Mask" },
+      { "src": "/products/laneige-lip-sleeping-mask/laneige-1.webp", "alt": "LANEIGE Lip Sleeping Mask nattläppmask med berry-doft", "label": "Berry-doft" },
+      { "src": "/products/laneige-lip-sleeping-mask/laneige-2.webp", "alt": "LANEIGE Lip Sleeping Mask textur och konsistens", "label": "Mjuk konsistens" },
+      { "src": "/products/laneige-lip-sleeping-mask/laneige-3.webp", "alt": "Detaljbild av LANEIGE Lip Sleeping Mask, 20 g", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4xRztZY",
+    "pageHref": "/skonhet/laneige-lappmask",
+    "summary": "En viral K-beauty-läppmask som du lägger på före läggdags och låter vårda läpparna över natten. Med berry-doft, bär-extrakt och vårdande oljor som återfuktar och mjukgör – så att du vaknar med mjuka, smidiga läppar.",
+    "evaluation": {
+      "headline": "Nattläppmask som återfuktar medan du sover",
+      "intro": "Elin går igenom LANEIGE Lip Sleeping Mask: en viral K-beauty-favorit som du masserar in på läpparna före läggdags. Den innehåller bär-extrakt och vårdande oljor som återfuktar och mjukgör, och berry-doften gör steget lite extra mysigt. Tanken är enkel – läpparna får vårdas i lugn och ro medan du sover.",
+      "verdict": "Mysig K-beauty-läppmask som återfuktar och mjukgör läpparna över natten.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "LANEIGE Lip Sleeping Mask",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Läppmask, 20 g" },
+      { "label": "Doft", "caption": "Variant", "value": "Berry" },
+      { "label": "Användning", "caption": "Rutin", "value": "Nattmask, läggs på före läggdags" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4xRztZY",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 388 omdömen.",
+      "highlights": [
+        "Köpare beskriver mjukare, smidigare läppar på morgonen.",
+        "Berry-doften lyfts ofta fram som mysig och behaglig.",
+        "Lite produkt räcker länge, så burken håller i många månader."
+      ],
+      "cautions": [
+        "Doft och smak är en smaksak – gillar du inte söta toner kan den kännas mycket.",
+        "Konsistensen är ganska tjock och balsamliknande, vilket inte passar alla."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/laneige-lappmask",
+    "cardBadge": "Nattläppmask",
+    "cardHook": "Viral K-beauty-läppmask som återfuktar läpparna medan du sover.",
+    "cardImage": "/products/laneige-lip-sleeping-mask/laneige-thumbnail.webp",
+    "cardImageAlt": "LANEIGE Lip Sleeping Mask Berry, 20 g",
+    "badge": "Elins K-beauty-favorit",
+    "headline": "LANEIGE Lip Sleeping Mask – mjuka läppar över natten",
+    "shortBody": "En viral K-beauty-läppmask med berry-doft som du masserar in före läggdags. Bär-extrakt och vårdande oljor återfuktar och mjukgör läpparna medan du sover, så att du vaknar med en mjuk, smidig känsla.",
+    "valueHook": "Återfuktande nattläppmask för mjuka läppar",
+    "valueStatement": "LANEIGE Lip Sleeping Mask är en viral K-beauty-favorit för dig som vill ge torra läppar lite extra omsorg på natten. Du lägger på ett lager före läggdags och låter berry-doftande bär-extrakt och vårdande oljor återfukta och mjukgöra medan du sover. Amazon visar 4,6 av 5 från 388 omdömen – ett hyfsat betyg snarare än ett enormt antal – och köpare lyfter framför allt mjukare läppar på morgonen och den mysiga doften.",
+    "passFor": [
+      "Vill vårda torra läppar medan du sover.",
+      "Gillar K-beauty-rutiner och ett mysigt extrasteg på kvällen.",
+      "Letar efter en återfuktande läppmask med behaglig berry-doft."
+    ],
+    "caution": "Doft och smak är en smaksak – den söta berry-tonen känns mycket för en del. Konsistensen är dessutom ganska tjock och balsamliknande, så känns den klibbig kan du lägga på lite mindre.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Massera in ett lager på rena läppar som sista steg före läggdags och låt den verka över natten. Torka eller skölj bort resterna på morgonen. Lite produkt räcker långt, så du behöver inte ta mycket."
+    },
+    "verdict": "Mysig K-beauty-läppmask som återfuktar och mjukgör läpparna över natten.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 388 omdömen. Köpare beskriver mjukare läppar på morgonen och en mysig berry-doft, men doften och den tjocka konsistensen är en smaksak.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag LANEIGE Lip Sleeping Mask?", "answer": "Massera in ett lager på rena läppar som sista steg före läggdags och låt den verka över natten. På morgonen torkar eller sköljer du bort resterna. Lite produkt räcker långt." },
+      { "question": "Varför är den en K-beauty-favorit?", "answer": "Det är en viral nattläppmask i koreansk hudvårdsstil med berry-doft, bär-extrakt och vårdande oljor. Idén är att läpparna får återfuktas och mjukgöras i lugn och ro medan du sover." },
+      { "question": "Hur länge räcker en burk?", "answer": "Eftersom det räcker med ett tunt lager varje kväll håller de 20 grammen ofta i många månader, vilket många köpare uppskattar." }
+    ],
+    "reviewSectionId": "laneige-lip-sleeping-mask-recensioner",
+    "reviewFormId": "laneige-lip-sleeping-mask-skriv-recension",
+    "targetKeyword": "läppmask",
+    "metaTitle": "LANEIGE Lip Sleeping Mask – nattläppmask | Elins val",
+    "metaDescription": "Elin går igenom LANEIGE Lip Sleeping Mask: en viral K-beauty-läppmask med berry-doft som återfuktar läpparna över natten (4,6 av 5, 388 omdömen) – och vad du bör veta om doft och konsistens.",
+    "relatedLinks": [
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Enkelt fuktsteg i rutinen." },
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "C-vitamin för lyster och glow." }
+    ]
+  },
+  "images": {
+    "dir": "laneige-lip-sleeping-mask",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51xm1r1o8kL._SL1500_.jpg", "out": "laneige-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/610+upN7iHL._SL1500_.jpg", "out": "laneige-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31wlQYYMDML._SL1500_.jpg", "out": "laneige-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41p-duW50pL._SL1500_.jpg", "out": "laneige-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "LANEIGE Lip Sleeping Mask", "href": "/skonhet/laneige-lappmask", "date": "2026-06-26", "image": "/products/laneige-lip-sleeping-mask/laneige-thumbnail.webp", "blurb": "Viral återfuktande nattläppmask med berry-doft som mjukgör läpparna medan du sover." }
+  ]
+}

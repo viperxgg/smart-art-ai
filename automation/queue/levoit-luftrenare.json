@@ -1,0 +1,112 @@
+{
+  "exportName": "levoitCore200sProduct",
+  "system": "smart",
+  "category": "halsa",
+  "categoryGroup": "Smart hem & livsstil",
+  "route": "halsa/luftrenare",
+  "pageComponentName": "LuftrenarePage",
+  "product": {
+    "slug": "levoit-core-200s-luftrenare",
+    "title": "Levoit Core 200S luftrenare med HEPA-filter",
+    "category": "halsa",
+    "asin": "B08FJ678YK",
+    "brand": "Levoit",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["HEPA-filter", "Tyst nattläge", "App & röststyrning"],
+    "image": "/products/levoit-luftrenare/levoit-thumbnail.webp",
+    "imageAlt": "Levoit Core 200S luftrenare med HEPA-filter, vit",
+    "images": [
+      { "src": "/products/levoit-luftrenare/levoit-thumbnail.webp", "alt": "Levoit Core 200S luftrenare med HEPA-filter, vit", "label": "Levoit Core 200S" },
+      { "src": "/products/levoit-luftrenare/levoit-1.webp", "alt": "Levoit Core 200S luftrenare med 3-lagers HEPA-filter", "label": "3-lagers filter" },
+      { "src": "/products/levoit-luftrenare/levoit-2.webp", "alt": "Levoit Core 200S med app- och röststyrning", "label": "App-styrning" },
+      { "src": "/products/levoit-luftrenare/levoit-3.webp", "alt": "Detaljbild av Levoit Core 200S luftrenare", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4aTddF2",
+    "pageHref": "/halsa/luftrenare",
+    "summary": "En kompakt smart luftrenare med 3-lagers HEPA-filter som fångar damm, pollen och partiklar för renare luft hemma. Tyst nattläge plus app- och röststyrning.",
+    "evaluation": {
+      "headline": "Renare luft med tyst nattläge",
+      "intro": "Elin går igenom Levoit Core 200S: en kompakt smart luftrenare med 3-lagers HEPA-filter som fångar damm, pollen och partiklar i luften. Tyst nattläge och styrning via app eller röst gör den enkel att ha igång i sovrum och mindre rum.",
+      "verdict": "Prisvärd, smart luftrenare för renare luft i sovrum och mindre rum.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Smart hem",
+    "specSectionTitle": "Levoit Core 200S luftrenare",
+    "specs": [
+      { "label": "Filter", "caption": "Typ", "value": "3-lagers HEPA-filter" },
+      { "label": "Ljud", "caption": "Nattläge", "value": "Tyst drift, dämpad display" },
+      { "label": "Smart", "caption": "Styrning", "value": "App + röststyrning, timer" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4aTddF2",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 31 901 omdömen.",
+      "highlights": [
+        "Köpare upplever luften som fräschare och mindre dammig.",
+        "Uppskattas för att vara riktigt tyst på nattläget.",
+        "Kompakt storlek och enkel app- och röststyrning lyfts ofta fram."
+      ],
+      "cautions": [
+        "Passar bäst i sovrum och mindre rum, inte stora ytor.",
+        "HEPA-filtret är en förbrukningsvara som behöver bytas med jämna mellanrum."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/luftrenare",
+    "cardBadge": "Renare luft",
+    "cardHook": "HEPA-filter som fångar damm och pollen – med tyst nattläge.",
+    "cardImage": "/products/levoit-luftrenare/levoit-thumbnail.webp",
+    "cardImageAlt": "Levoit Core 200S luftrenare med HEPA-filter, vit",
+    "badge": "Elins smarta val",
+    "headline": "Levoit Core 200S – renare luft i sovrummet",
+    "shortBody": "En kompakt smart luftrenare med 3-lagers HEPA-filter som fångar damm, pollen och partiklar. Tyst nattläge och app- och röststyrning gör den enkel att ha igång där du sover.",
+    "valueHook": "Renare luft med tyst nattläge",
+    "valueStatement": "Levoit Core 200S är en smart luftrenare för dig som vill ha renare luft i sovrum eller mindre rum. Det 3-lagers HEPA-filtret fångar damm, pollen och partiklar i luften, och det tysta nattläget med dämpad display gör att den kan stå på medan du sover. Med app- och röststyrning plus timer är den enkel att styra i vardagen. Amazon visar 4,6 av 5 från 31 901 omdömen, och köpare lyfter framför allt den tysta driften och den fräschare luftkänslan.",
+    "passFor": [
+      "Vill ha renare luft i sovrum eller mindre rum.",
+      "Är känslig för damm och pollen och vill fånga partiklar i luften.",
+      "Gillar tyst nattläge och smart app- eller röststyrning."
+    ],
+    "caution": "Den är gjord för sovrum och mindre rum, så för stora ytor räcker den inte till. Tänk också på att HEPA-filtret är en förbrukningsvara som behöver bytas med jämna mellanrum för bästa effekt.",
+    "usageGuidance": {
+      "title": "Så får du ut mest av den",
+      "text": "Ställ luftrenaren fritt en bit från väggen i rummet du vistas mest i, kör nattläget när du sover och håll koll på filterindikatorn så att filtret byts i tid."
+    },
+    "verdict": "Prisvärd, smart luftrenare för renare luft i sovrum och mindre rum.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 31 901 omdömen. Köpare beskriver luften som fräschare och driften som mycket tyst, men den passar bäst i mindre rum.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur stort rum passar Levoit Core 200S för?", "answer": "Den är gjord för sovrum och mindre rum. För större ytor behöver du en modell med högre kapacitet." },
+      { "question": "Är luftrenaren tyst på natten?", "answer": "Ja, nattläget är gjort för tyst drift med dämpad display, så den kan stå på medan du sover. Många köpare lyfter just den tysta driften." },
+      { "question": "Hur ofta behöver filtret bytas?", "answer": "HEPA-filtret är en förbrukningsvara som behöver bytas med jämna mellanrum. Appen och filterindikatorn hjälper dig hålla koll på när det är dags." }
+    ],
+    "reviewSectionId": "levoit-core-200s-recensioner",
+    "reviewFormId": "levoit-core-200s-skriv-recension",
+    "targetKeyword": "luftrenare",
+    "metaTitle": "Levoit Core 200S luftrenare – tyst & smart | Elins val",
+    "metaDescription": "Elin går igenom Levoit Core 200S: en kompakt smart luftrenare med HEPA-filter för renare luft i sovrummet (4,6 av 5, 31 901 omdömen) – tyst nattläge och app-styrning.",
+    "relatedLinks": [
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Skön doft och lugn stämning hemma." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Mjukt ljus för en lugnare kväll." },
+      { "href": "/guider/tyst-flakt-sovrum", "label": "Guide", "text": "Tyst fläkt för sovrummet – vilken ska du välja?" }
+    ]
+  },
+  "images": {
+    "dir": "levoit-luftrenare",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61YVFzh9kLL._SL1500_.jpg", "out": "levoit-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51oTzcWmWZL._SL1500_.jpg", "out": "levoit-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51qX3nCsMYL._SL1500_.jpg", "out": "levoit-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51EaSjQMapL._SL1500_.jpg", "out": "levoit-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Levoit Core 200S luftrenare", "href": "/halsa/luftrenare", "date": "2026-06-26", "image": "/products/levoit-luftrenare/levoit-thumbnail.webp", "blurb": "Kompakt smart luftrenare med HEPA-filter och tyst nattläge för renare luft." }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "exportName": "ceraveHydratingCleanserProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/cerave-rengoring",
+  "pageComponentName": "CeraveRengoringPage",
+  "product": {
+    "slug": "cerave-hydrating-cleanser",
+    "title": "CeraVe Hydrating Cleanser – ansiktsrengöring (236 ml)",
+    "category": "skonhet",
+    "asin": "B07C5R51Q9",
+    "brand": "CeraVe",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Ceramider + hyaluronsyra", "Skonsam rengöring", "Oparfymerad"],
+    "image": "/products/cerave-hydrating-cleanser/cerave-thumbnail.webp",
+    "imageAlt": "CeraVe Hydrating Cleanser ansiktsrengöring, 236 ml",
+    "images": [
+      { "src": "/products/cerave-hydrating-cleanser/cerave-thumbnail.webp", "alt": "CeraVe Hydrating Cleanser ansiktsrengöring, 236 ml", "label": "CeraVe rengöring" },
+      { "src": "/products/cerave-hydrating-cleanser/cerave-1.webp", "alt": "CeraVe Hydrating Cleanser med ceramider och hyaluronsyra", "label": "Ceramider" },
+      { "src": "/products/cerave-hydrating-cleanser/cerave-2.webp", "alt": "CeraVe Hydrating Cleanser textur och konsistens", "label": "Krämig textur" },
+      { "src": "/products/cerave-hydrating-cleanser/cerave-3.webp", "alt": "Detaljbild av CeraVe Hydrating Cleanser", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4y9hKgT",
+    "pageHref": "/skonhet/cerave-rengoring",
+    "summary": "En mild daglig ansiktsrengöring med ceramider och hyaluronsyra som rengör utan att torka ut. Lämnar huden mjuk och len – för normal till torr hud, och helt oparfymerad.",
+    "evaluation": {
+      "headline": "Skonsam daglig rengöring som inte torkar ut",
+      "intro": "Elin går igenom CeraVe Hydrating Cleanser: en viral, mild rengöring med ceramider och hyaluronsyra. Den rengör huden utan att dra åt eller torka ut, och lämnar den mjuk och len. Formulan är oparfymerad och gjord för normal till torr hud, vilket gör den enkel att lägga in i en daglig rutin.",
+      "verdict": "Skonsam vardagsrengöring för normal till torr hud, oparfymerad och mild.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "CeraVe Hydrating Cleanser",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Ansiktsrengöring, 236 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Ceramider + hyaluronsyra" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Normal till torr hud, oparfymerad" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4y9hKgT",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 35 098 omdömen.",
+      "highlights": [
+        "Köpare upplever att huden känns ren men inte uttorkad efteråt.",
+        "Krämig, mild textur som de flesta tycker sköljs av enkelt.",
+        "Uppskattas för att vara oparfymerad och skonsam i vardagen."
+      ],
+      "cautions": [
+        "Den löddrar inte mycket, vilket kan kännas ovant om du gillar rik lödder.",
+        "Är du väldigt fet i huden kan du föredra en lättare gel-rengöring."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/cerave-rengoring",
+    "cardBadge": "Skonsam rengöring",
+    "cardHook": "Mild rengöring med ceramider som inte torkar ut huden.",
+    "cardImage": "/products/cerave-hydrating-cleanser/cerave-thumbnail.webp",
+    "cardImageAlt": "CeraVe Hydrating Cleanser ansiktsrengöring, 236 ml",
+    "badge": "Elins milda favorit",
+    "headline": "CeraVe Hydrating Cleanser – skonsam daglig rengöring",
+    "shortBody": "En viral, mild ansiktsrengöring med ceramider och hyaluronsyra. Rengör utan att torka ut och lämnar huden mjuk – för normal till torr hud, och helt oparfymerad.",
+    "valueHook": "Skonsam rengöring som inte torkar ut",
+    "valueStatement": "CeraVe Hydrating Cleanser är en mild daglig rengöring för dig som vill rengöra huden utan att den känns stram eller uttorkad efteråt. Formulan bygger på ceramider och hyaluronsyra, en kombination som hjälper huden att kännas mjuk och len medan den rengörs. Den är oparfymerad och passar normal till torr hud. Amazon visar 4,5 av 5 från 35 098 omdömen, och köpare lyfter framför allt att huden känns ren men ändå återfuktad och att den är skonsam i vardagen.",
+    "passFor": [
+      "Vill ha en mild rengöring som inte torkar ut huden.",
+      "Har normal till torr hud och föredrar något oparfymerat.",
+      "Vill ha ett enkelt, skonsamt första steg i rutinen."
+    ],
+    "caution": "Den här rengöringen löddrar inte mycket, vilket kan kännas ovant om du är van vid rik lödder. Är du väldigt fet i huden kan du i stället föredra en lättare gel-rengöring.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Massera in en liten mängd på fuktig eller torr hud morgon och kväll, och skölj av med ljummet vatten. Följ gärna upp med fuktkräm medan huden fortfarande är lite fuktig."
+    },
+    "verdict": "Skonsam vardagsrengöring för normal till torr hud, oparfymerad och mild.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 35 098 omdömen. Köpare beskriver en hud som känns ren men inte uttorkad och en mild, oparfymerad formula, men rengöringen löddrar inte mycket.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Torkar CeraVe Hydrating Cleanser ut huden?", "answer": "Nej, den är gjord för att rengöra skonsamt utan att dra åt. Ceramider och hyaluronsyra hjälper huden att kännas mjuk och len efteråt, även för normal till torr hud." },
+      { "question": "Passar rengöringen känslig och torr hud?", "answer": "Den är oparfymerad och mild, vilket gör den till ett enkelt val för normal till torr hud. Är du väldigt fet i huden kan du i stället föredra en lättare gel-rengöring." },
+      { "question": "Varför löddrar CeraVe Hydrating Cleanser så lite?", "answer": "Den är gjord som en mild, krämig rengöring snarare än en löddrande tvål. Det kan kännas ovant i början, men huden blir ren och känns mjuk utan att torka ut." }
+    ],
+    "reviewSectionId": "cerave-hydrating-cleanser-recensioner",
+    "reviewFormId": "cerave-hydrating-cleanser-skriv-recension",
+    "targetKeyword": "cerave",
+    "metaTitle": "CeraVe Hydrating Cleanser – skonsam rengöring | Elins val",
+    "metaDescription": "Elin går igenom CeraVe Hydrating Cleanser: en mild ansiktsrengöring med ceramider och hyaluronsyra som inte torkar ut huden (4,5 av 5, 35 098 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg." },
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." }
+    ]
+  },
+  "images": {
+    "dir": "cerave-hydrating-cleanser",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61pwYY8Hp7L._SL1500_.jpg", "out": "cerave-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41koNoLf3EL._SL1500_.jpg", "out": "cerave-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41M00hiA28L._SL1500_.jpg", "out": "cerave-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51D8Tp84MtL._SL1500_.jpg", "out": "cerave-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "CeraVe Hydrating Cleanser", "href": "/skonhet/cerave-rengoring", "date": "2026-06-26", "image": "/products/cerave-hydrating-cleanser/cerave-thumbnail.webp", "blurb": "Mild återfuktande ansiktsrengöring med ceramider som rengör utan att torka ut." }
+  ]
+}

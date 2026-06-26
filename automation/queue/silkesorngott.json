@@ -1,0 +1,111 @@
+{
+  "exportName": "silkesorngottProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/silkesorngott",
+  "pageComponentName": "SilkesorngottPage",
+  "product": {
+    "slug": "silkesorngott-mullbarssilke",
+    "title": "Örngott i 100% mullbärssilke (19 momme, 40x60 cm)",
+    "category": "skonhet",
+    "asin": "B0792378YQ",
+    "brand": "townssilk",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["100% mullbärssilke", "19 momme", "Mindre friktion"],
+    "image": "/products/silkesorngott/silkesorngott-thumbnail.webp",
+    "imageAlt": "Örngott i 100% mullbärssilke, 40x60 cm",
+    "images": [
+      { "src": "/products/silkesorngott/silkesorngott-thumbnail.webp", "alt": "Örngott i 100% mullbärssilke, 40x60 cm", "label": "Silkesörngott" },
+      { "src": "/products/silkesorngott/silkesorngott-1.webp", "alt": "Örngott i 100% mullbärssilke med slät yta", "label": "Slät yta" },
+      { "src": "/products/silkesorngott/silkesorngott-2.webp", "alt": "Silkesörngott i 19 momme mullbärssilke", "label": "19 momme" },
+      { "src": "/products/silkesorngott/silkesorngott-3.webp", "alt": "Detaljbild av örngott i 100% mullbärssilke", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4vR9513",
+    "pageHref": "/skonhet/silkesorngott",
+    "summary": "Ett örngott i 100% mullbärssilke (19 momme) med en slät yta som ger mindre friktion mot hår och hud. Det innebär ofta mindre frizz, färre bäddveck och färre tovor på morgonen – och det känns skönt och svalt att sova på.",
+    "evaluation": {
+      "headline": "Slät silkesyta för mindre frizz",
+      "intro": "Elin går igenom örngottet i 100% mullbärssilke: 19 momme och en len, slät yta som ger mindre friktion mot håret och huden medan du sover. Mindre friktion betyder ofta mindre frizz, färre bäddveck och färre tovor på morgonen, plus en svalare känsla mot kinden.",
+      "verdict": "Skönt silkesörngott för mindre frizz och mjukare morgnar – med stark social proof.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Örngott i 100% mullbärssilke",
+    "specs": [
+      { "label": "Material", "caption": "Tyg", "value": "100% mullbärssilke, 19 momme" },
+      { "label": "Storlek", "caption": "Mått", "value": "40x60 cm" },
+      { "label": "Effekt", "caption": "Känsla", "value": "Slät yta, mindre friktion mot hår och hud" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4vR9513",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 6 754 omdömen.",
+      "highlights": [
+        "Köpare upplever mindre frizz och färre tovor i håret på morgonen.",
+        "Den släta silkesytan beskrivs som len och sval mot huden.",
+        "Många tycker att de vaknar med färre bäddveck i ansiktet."
+      ],
+      "cautions": [
+        "Silke kräver skonsam tvätt – följ silkesprogram eller handtvätt så håller örngottet längre.",
+        "Mullbärssilke ligger i en högre prisklass än vanliga bomullsörngott."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/silkesorngott",
+    "cardBadge": "Mindre frizz",
+    "cardHook": "Slät yta i 100% mullbärssilke för mindre friktion mot hår och hud.",
+    "cardImage": "/products/silkesorngott/silkesorngott-thumbnail.webp",
+    "cardImageAlt": "Örngott i 100% mullbärssilke, 40x60 cm",
+    "badge": "Elins silkes-favorit",
+    "headline": "Silkesörngott i mullbärssilke – mindre frizz och mjukare morgnar",
+    "shortBody": "Ett örngott i 100% mullbärssilke (19 momme) med en len, slät yta. Den ger mindre friktion mot håret och huden, vilket ofta betyder mindre frizz, färre bäddveck och färre tovor – och en svalare känsla att sova på.",
+    "valueHook": "Slät silkesyta för mindre frizz",
+    "valueStatement": "Örngottet i 100% mullbärssilke är för dig som vill ha en mjukare morgon för både hår och hud. Tyget är 19 momme mullbärssilke med en slät yta som ger mindre friktion när du rör dig i sömnen – det innebär ofta mindre frizz, färre tovor och färre bäddveck i ansiktet. Det känns dessutom svalt och len mot kinden. Amazon visar starka 4,5 av 5 från 6 754 omdömen, där köpare framför allt lyfter mindre frizz, den sköna silkeskänslan och färre bäddveck på morgonen.",
+    "passFor": [
+      "Vill ha mindre frizz och färre tovor i håret på morgonen.",
+      "Sover gärna svalt och vill ha en len yta mot huden.",
+      "Vill minska bäddveck och friktion i ansiktet under natten."
+    ],
+    "caution": "Silke kräver lite mer omsorg än bomull: tvätta skonsamt på silkesprogram eller för hand så håller örngottet längre. Mullbärssilke ligger också i en högre prisklass än vanliga örngott.",
+    "usageGuidance": {
+      "title": "Så får du mest nytta av det",
+      "text": "Använd örngottet på din vanliga kudde och vänd gärna på det mellan tvättarna. Tvätta skonsamt på silkesprogram eller för hand, och låt lufttorka så behåller silket sin släta yta."
+    },
+    "verdict": "Skönt silkesörngott för mindre frizz och mjukare morgnar – med stark social proof.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 6 754 omdömen. Köpare beskriver mindre frizz, en len och sval silkeskänsla och färre bäddveck, men silke kräver skonsam tvätt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur hjälper ett silkesörngott mot frizz?", "answer": "Den släta silkesytan ger mindre friktion mot håret när du rör dig i sömnen. Mindre friktion betyder ofta mindre frizz och färre tovor på morgonen jämfört med ett vanligt bomullsörngott." },
+      { "question": "Hur tvättar jag ett örngott i mullbärssilke?", "answer": "Tvätta skonsamt på silkesprogram eller för hand i ljummet vatten med ett milt medel, och låt lufttorka. Då behåller silket sin släta yta och örngottet håller längre." },
+      { "question": "Vad betyder 19 momme?", "answer": "Momme är ett mått på silkets täthet och vikt. 19 momme är en vanlig och hållbar kvalitet för örngott som känns len och slät utan att bli för tunn." }
+    ],
+    "reviewSectionId": "silkesorngott-recensioner",
+    "reviewFormId": "silkesorngott-skriv-recension",
+    "targetKeyword": "silkesörngott",
+    "metaTitle": "Silkesörngott i mullbärssilke – mindre frizz | Elins val",
+    "metaDescription": "Elin går igenom ett örngott i 100% mullbärssilke (19 momme): slät yta för mindre frizz och färre bäddveck (4,5 av 5, 6 754 omdömen) – och vad du bör veta om skötsel.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Vårdande olja för glans och mjukt hår." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret vid värmestyling." }
+    ]
+  },
+  "images": {
+    "dir": "silkesorngott",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61EBBH2z6VL._SL1500_.jpg", "out": "silkesorngott-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/5101MtZ5HiL._SL1500_.jpg", "out": "silkesorngott-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41esCOLLLEL._SL1500_.jpg", "out": "silkesorngott-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51nrnGANs2L._SL1500_.jpg", "out": "silkesorngott-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Örngott i 100% mullbärssilke", "href": "/skonhet/silkesorngott", "date": "2026-06-26", "image": "/products/silkesorngott/silkesorngott-thumbnail.webp", "blurb": "Silkesörngott i 19 momme mullbärssilke för mindre frizz och mindre hårbrott." }
+  ]
+}

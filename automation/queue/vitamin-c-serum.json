@@ -1,0 +1,111 @@
+{
+  "exportName": "larochePosayVitaminC10Product",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/vitamin-c-serum",
+  "pageComponentName": "VitaminC10SerumPage",
+  "product": {
+    "slug": "la-roche-posay-vitamin-c10-serum",
+    "title": "La Roche-Posay Pure Vitamin C10 Serum (30 ml)",
+    "category": "skonhet",
+    "asin": "B07QL32ZLR",
+    "brand": "La Roche-Posay",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["10% ren C-vitamin", "Lyster & glow", "Antioxidant"],
+    "image": "/products/la-roche-posay-vitamin-c10/vitamin-c10-thumbnail.webp",
+    "imageAlt": "La Roche-Posay Pure Vitamin C10 Serum, 30 ml",
+    "images": [
+      { "src": "/products/la-roche-posay-vitamin-c10/vitamin-c10-thumbnail.webp", "alt": "La Roche-Posay Pure Vitamin C10 Serum, 30 ml", "label": "Vitamin C10" },
+      { "src": "/products/la-roche-posay-vitamin-c10/vitamin-c10-1.webp", "alt": "La Roche-Posay Vitamin C10 serum med 10% ren C-vitamin", "label": "10% C-vitamin" },
+      { "src": "/products/la-roche-posay-vitamin-c10/vitamin-c10-2.webp", "alt": "La Roche-Posay Vitamin C10 textur och konsistens", "label": "Lätt textur" },
+      { "src": "/products/la-roche-posay-vitamin-c10/vitamin-c10-3.webp", "alt": "Detaljbild av La Roche-Posay Pure Vitamin C10 Serum", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4oMLk7m",
+    "pageHref": "/skonhet/vitamin-c-serum",
+    "summary": "Ett antioxidantserum med 10% ren C-vitamin som hjälper huden att se piggare och mer strålande ut – för lyster, glow och en jämnare hudton. Lätt textur för känslig hud.",
+    "evaluation": {
+      "headline": "C-vitamin för lyster och glow",
+      "intro": "Elin går igenom La Roche-Posay Pure Vitamin C10: 10% ren C-vitamin plus hyaluronsyra för en piggare, mer strålande hud. C-vitamin är en omtyckt antioxidant-ingrediens för lyster och en jämnare hudton, och formulan är gjord med tanke på känslig hud.",
+      "verdict": "Prisvärt apoteksserum för lyster och glow, även för känslig hud.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "La Roche-Posay Pure Vitamin C10",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Serum, 30 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "10% ren C-vitamin + hyaluronsyra" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Känslig hud, allergitestad" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4oMLk7m",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 256 omdömen.",
+      "highlights": [
+        "Köpare upplever en piggare, mer strålande hud med tiden.",
+        "Lätt textur som de flesta tycker absorberas snabbt.",
+        "Uppskattas för att vara skonsam nog även för känslig hud."
+      ],
+      "cautions": [
+        "Ren C-vitamin kan svida lätt i början – börja gärna varannan dag.",
+        "C-vitamin oxiderar med tiden; förvara mörkt och svalt och använd inom rimlig tid."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/vitamin-c-serum",
+    "cardBadge": "Lyster & glow",
+    "cardHook": "10% ren C-vitamin för en piggare, mer strålande hud.",
+    "cardImage": "/products/la-roche-posay-vitamin-c10/vitamin-c10-thumbnail.webp",
+    "cardImageAlt": "La Roche-Posay Pure Vitamin C10 Serum, 30 ml",
+    "badge": "Elins glow-favorit",
+    "headline": "La Roche-Posay Vitamin C10 – lyster och glow",
+    "shortBody": "Ett apoteksserum med 10% ren C-vitamin och hyaluronsyra. Gjort för lyster, glow och en jämnare hudton, med en lätt textur som passar även känslig hud.",
+    "valueHook": "C-vitamin för lyster och glow",
+    "valueStatement": "La Roche-Posay Pure Vitamin C10 är ett antioxidantserum för dig som vill ge huden mer lyster och en piggare, mer strålande look. Formulan bygger på 10% ren C-vitamin tillsammans med hyaluronsyra, en kombination som hjälper huden att se mer utvilad ut och hudtonen att verka jämnare. Amazon visar 4,4 av 5 från 256 omdömen, och köpare lyfter framför allt glowen, den lätta texturen och att den känns skonsam även för känslig hud.",
+    "passFor": [
+      "Vill ge huden mer lyster och glow i morgonrutinen.",
+      "Har känslig hud och vill ha ett mildare C-vitaminserum.",
+      "Gillar en lätt textur under fuktkräm och makeup."
+    ],
+    "caution": "Ren C-vitamin kan svida lätt i början och upplevelsen varierar mellan hudtyper. Börja gärna varannan dag, förvara serumet mörkt och svalt eftersom C-vitamin oxiderar med tiden.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera några droppar på ren hud på morgonen, före fuktkräm. C-vitamin trivs bäst på dagen och passar fint ihop med ett återfuktande lager ovanpå."
+    },
+    "verdict": "Prisvärt apoteksserum för lyster och glow, även för känslig hud.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 256 omdömen. Köpare beskriver en piggare, mer strålande hud och en lätt textur, men ren C-vitamin kan svida lätt i början.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När på dygnet använder jag C-vitaminserum?", "answer": "C-vitamin passar bäst på morgonen, på ren hud före fuktkräm. Då får du glow under dagen och kan följa upp med ett återfuktande lager." },
+      { "question": "Passar La Roche-Posay Vitamin C10 känslig hud?", "answer": "Den är gjord med tanke på känslig hud och beskrivs som skonsam, men ren C-vitamin kan svida lätt i början. Börja gärna varannan dag." },
+      { "question": "Varför blir C-vitaminserum mörkare med tiden?", "answer": "Ren C-vitamin oxiderar i kontakt med luft och ljus. Förvara serumet mörkt och svalt och använd det inom rimlig tid för bäst lyster." }
+    ],
+    "reviewSectionId": "la-roche-posay-vitamin-c10-recensioner",
+    "reviewFormId": "la-roche-posay-vitamin-c10-skriv-recension",
+    "targetKeyword": "vitamin c serum",
+    "metaTitle": "La Roche-Posay Vitamin C10 Serum – lyster & glow | Elins val",
+    "metaDescription": "Elin går igenom La Roche-Posay Pure Vitamin C10: ett apoteksserum med 10% ren C-vitamin för lyster och glow (4,4 av 5, 256 omdömen) – och vad du bör veta om känslig hud.",
+    "relatedLinks": [
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg i rutinen." },
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." }
+    ]
+  },
+  "images": {
+    "dir": "la-roche-posay-vitamin-c10",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/412blI5kxxL._SL1500_.jpg", "out": "vitamin-c10-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/414JVKLdMAL._SL1500_.jpg", "out": "vitamin-c10-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41bdVoWR4xL._SL1500_.jpg", "out": "vitamin-c10-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61WnAnHJChL._SL1500_.jpg", "out": "vitamin-c10-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "La Roche-Posay Vitamin C10 Serum", "href": "/skonhet/vitamin-c-serum", "date": "2026-06-26", "image": "/products/la-roche-posay-vitamin-c10/vitamin-c10-thumbnail.webp", "blurb": "Antioxidantserum med 10% ren C-vitamin för lyster och glow." }
+  ]
+}

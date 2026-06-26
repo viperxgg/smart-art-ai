@@ -1,0 +1,172 @@
+{
+  "__doc__": "Reference spec — copy this to automation/queue/<slug>.json, fill it, then run: node automation/add-product.mjs automation/queue/<slug>.json --dry-run  (then without --dry-run). 'pick' must NOT include productSlug/product — the script injects those as code refs. All copy must follow brand rules: no prices, cosmetic framing only, Elin jämför/väljer (never 'jag har testat').",
+  "exportName": "cosrxSnailEssenceProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/snail-mucin-essence",
+  "pageComponentName": "SnailMucinEssencePage",
+  "product": {
+    "slug": "cosrx-snail-mucin-essence",
+    "title": "COSRX Snail Mucin 74% + Niacinamide Dual Essence (80 ml)",
+    "category": "skonhet",
+    "asin": "B08FSWVXRD",
+    "brand": "COSRX",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["K-beauty-favorit", "Snigelsekret + niacinamide", "Fukt & lyster"],
+    "image": "/products/cosrx-snail-essence/cosrx-snail-thumbnail.webp",
+    "imageAlt": "COSRX Advanced Snail Radiance Dual Essence, 80 ml",
+    "images": [
+      { "src": "/products/cosrx-snail-essence/cosrx-snail-thumbnail.webp", "alt": "COSRX Advanced Snail Radiance Dual Essence, 80 ml", "label": "COSRX Snail Essence" },
+      { "src": "/products/cosrx-snail-essence/cosrx-snail-1.webp", "alt": "COSRX Snail Mucin Dual Essence med tvådelad formula", "label": "Dual essence" },
+      { "src": "/products/cosrx-snail-essence/cosrx-snail-2.webp", "alt": "COSRX Snail Mucin Essence med lätt textur", "label": "Lätt textur" },
+      { "src": "/products/cosrx-snail-essence/cosrx-snail-3.webp", "alt": "Detaljbild av COSRX Snail Mucin Dual Essence", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eLSwfk",
+    "pageHref": "/skonhet/snail-mucin-essence",
+    "summary": "En viral K-beauty dual-essence med 74% snigelsekret och 5% niacinamide – återfuktar, ger lyster och hjälper jämna ut hudtonen. Lätt och icke-klibbig.",
+    "evaluation": {
+      "headline": "K-beauty-favoriten för fukt och lyster",
+      "intro": "Elin går igenom signalerna kring COSRX populära dual-essence: 74% snigelsekret för fukt och en dewy lyster, plus 5% niacinamide som hjälper jämna ut hudtonen. Lätt textur som absorberas snabbt.",
+      "verdict": "Prisvärd K-beauty-essence för återfuktning och lyster.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "COSRX Snail Mucin Dual Essence",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Dual-essence, 80 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "74% snigelsekret + 5% niacinamide" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Hudvänlig, cruelty-free" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eLSwfk",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 7 238 omdömen.",
+      "highlights": [
+        "Köpare beskriver huden som silkeslen och slät.",
+        "Återfuktar utan att kännas klibbig – lätt och snabbabsorberad.",
+        "Niacinamide + snigelsekret upplevs ge en jämnare, mer dewy hudton."
+      ],
+      "cautions": [
+        "Snigel-konsistensen kan kännas ovan i början.",
+        "Blanda de två essenserna före applicering; resultat och känsla varierar mellan hudtyper."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/snail-mucin-essence",
+    "cardBadge": "K-beauty-favorit",
+    "cardHook": "74% snigelsekret + 5% niacinamide – viral fukt och lyster.",
+    "cardImage": "/products/cosrx-snail-essence/cosrx-snail-thumbnail.webp",
+    "cardImageAlt": "COSRX Advanced Snail Radiance Dual Essence, 80 ml",
+    "badge": "Elins K-beauty-favorit",
+    "headline": "COSRX Snail Mucin Essence – fukt och dewy lyster",
+    "shortBody": "En viral K-beauty dual-essence med 74% snigelsekret och 5% niacinamide. Lätt, icke-klibbig och gjord för fukt, lyster och en jämnare hudton.",
+    "valueHook": "K-beauty-favoriten för fukt och lyster",
+    "valueStatement": "COSRX Snail Mucin 74% + Niacinamide Dual Essence är en lätt essence för dig som vill lägga till återfuktning och dewy lyster utan tung känsla. Formulan kombinerar 74% snigelsekret med 5% niacinamide, en kombination som hjälper huden att kännas slätare och hudtonen att se jämnare ut. Amazon visar 4,5 av 5 från 7 238 omdömen, och köpare lyfter framför allt den silkeslena känslan, snabb absorption och att den inte känns klibbig.",
+    "passFor": [
+      "Vill ha en viral K-beauty-essence för fukt och lyster.",
+      "Gillar lätta lager under fuktkräm och makeup.",
+      "Vill kombinera snigelsekret med niacinamide i ett enda steg."
+    ],
+    "caution": "Snigel-konsistensen kan kännas ovan i början och upplevelsen varierar mellan hudtyper. Blanda de två essenserna före applicering och börja med en liten mängd om huden lätt reagerar.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Tryck ut en liten mängd, blanda de två essenserna mellan fingrarna och applicera efter rengöring eller toner, före kräm. Följ upp med fuktkräm om huden vill ha mer komfort."
+    },
+    "verdict": "Prisvärd K-beauty-essence för återfuktning och lyster.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 7 238 omdömen. Köpare beskriver känslan som silkeslen, lätt och snabbabsorberad, men konsistensen kan kännas ovan i början.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När i rutinen använder jag snail mucin essence?", "answer": "Applicera efter rengöring eller toner och före fuktkräm. Blanda de två essenserna mellan fingrarna först så blir formulan jämnare." },
+      { "question": "Känns COSRX snail mucin klibbig?", "answer": "Många köpare beskriver den som lätt och snabbabsorberad, men snigel-konsistensen kan kännas ovan i början. Börja med en liten mängd." },
+      { "question": "Vad gör niacinamide i formulan?", "answer": "Niacinamide är ett hudvårdsämne som hjälper hudtonen att se jämnare ut. Här kombineras det med snigelsekret för fukt och lyster." }
+    ],
+    "reviewSectionId": "cosrx-snail-mucin-essence-recensioner",
+    "reviewFormId": "cosrx-snail-mucin-essence-skriv-recension",
+    "targetKeyword": "snail mucin",
+    "metaTitle": "COSRX Snail Mucin Essence – K-beauty för fukt | Elins val",
+    "metaDescription": "Elin går igenom COSRX Snail Mucin 74% + Niacinamide Dual Essence: en viral, lätt K-beauty-essence för fukt och lyster (4,5 av 5, 7 238 omdömen) – och vad du bör veta om konsistensen.",
+    "relatedLinks": [
+      { "href": "/guider/snail-mucin-vart-hypen", "label": "Guide", "text": "Snail mucin – värt hypen?" },
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Jämför med ett riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "cosrx-snail-essence",
+    "files": [
+      { "src": "./src-images/cosrx-thumb.jpg", "out": "cosrx-snail-thumbnail.webp" },
+      { "src": "./src-images/cosrx-1.jpg", "out": "cosrx-snail-1.webp" },
+      { "src": "./src-images/cosrx-2.jpg", "out": "cosrx-snail-2.webp" },
+      { "src": "./src-images/cosrx-3.jpg", "out": "cosrx-snail-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Guide", "title": "Snail mucin – värt hypen?", "href": "/guider/snail-mucin-vart-hypen", "date": "2026-06-26", "image": "/products/cosrx-snail-essence/cosrx-snail-1.webp", "blurb": "Elin går igenom snigelsekret ärligt – fukt, lyster och var hypen landar." },
+    { "type": "Hudvård", "title": "COSRX Snail Mucin Dual Essence", "href": "/skonhet/snail-mucin-essence", "date": "2026-06-26", "image": "/products/cosrx-snail-essence/cosrx-snail-thumbnail.webp", "blurb": "Viral K-beauty-essence med snigelsekret, niacinamide och dewy lyster." }
+  ],
+  "guide": {
+    "slug": "snail-mucin-vart-hypen",
+    "componentName": "SnailMucinVartHypenPage",
+    "title": "Snail mucin – värt hypen?",
+    "description": "Elin går igenom snigelsekret (snail mucin) ärligt – vad det gör för huden och om det virala ryktet håller.",
+    "metaTitle": "Snail mucin – värt hypen? | Elins val",
+    "metaDescription": "Elin går igenom snigelsekret (snail mucin) ärligt – vad det gör för huden och om det virala ryktet håller.",
+    "h1": "Snail mucin – värt hypen?",
+    "intro": "Snigelsekret (snail mucin) har blivit en av de mest virala hudvårdsingredienserna. Men håller hypen? Elin går igenom det ärligt.",
+    "sections": [
+      {
+        "heading": "Vad snail mucin faktiskt gör",
+        "bullets": [
+          "Snigelsekret är en fukt-magnet som hjälper huden att kännas återfuktad och slätare.",
+          "Det ger ofta en dewy lyster och en lugnande känsla, utan att kännas fett.",
+          "I COSRX dual-essence kombineras det med niacinamide som hjälper jämna ut hudtonen."
+        ],
+        "closing": "I grunden är det en lätt, återfuktande ingrediens som ger glow."
+      },
+      {
+        "heading": "Vem passar det – och vem inte",
+        "bullets": [
+          "Bra för dig som vill ha fukt och lyster och gillar en lätt essence i rutinen.",
+          "Konsistensen kan kännas lite \"slajmig\" i början – men den absorberas snabbt."
+        ],
+        "closing": "Det är ingen mirakelkur – men ett trevligt fukt- och lyster-steg."
+      },
+      {
+        "heading": "Den ärliga domen",
+        "body": "Snail mucin gör samma grundjobb som andra fukt-ingredienser, fast med en egen dewy finish:",
+        "bullets": [
+          "Vill du ha en viral, prisvärd fukt-essence med lyster? Då är den värd att testa.",
+          "Vill du lösa ett specifikt mål (fett/glans, ojämn ton)? Då gör ett riktat serum mer."
+        ],
+        "closing": "Hypen handlar mest om den sköna, dewy återfuktningen – och den levererar den."
+      }
+    ],
+    "faqItems": [
+      { "question": "Vad är snail mucin?", "answer": "Det är filtrerat snigelsekret som används i hudvård för att återfukta och ge lyster. I COSRX dual-essence kombineras det med niacinamide." },
+      { "question": "Är snail mucin värt hypen?", "answer": "För återfuktning och en dewy lyster, ja – det är en prisvärd, omtyckt ingrediens. Men det är ett fukt- och lyster-steg, inte en mirakelkur." }
+    ],
+    "verdict": {
+      "heading": "Elins dom: värt priset?",
+      "text": "Vill du ha en prisvärd, viral fukt-essence som ger lyster och en slät känsla är COSRX snail mucin värd hypen. Förvänta dig återfuktning och glow – inte mirakel."
+    },
+    "cta": {
+      "heading": "Elins val",
+      "links": [
+        { "href": "/skonhet/snail-mucin-essence", "label": "COSRX – Elins K-beauty-favorit" },
+        { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide för fet & blandhy" },
+        { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra för fukt" }
+      ]
+    },
+    "relatedLinks": [
+      { "href": "/skonhet/snail-mucin-essence", "label": "Elins val", "text": "COSRX – Elins K-beauty-favorit" },
+      { "href": "/skonhet/niacinamide-serum", "label": "Hudvård", "text": "Niacinamide för fet & blandhy" },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hudvård", "text": "Hyaluronsyra för fukt" }
+    ]
+  }
+}

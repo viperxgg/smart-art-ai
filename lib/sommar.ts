@@ -1,4 +1,14 @@
 import {
+  ericFlagViktvastProduct,
+  portentumHoppRepProduct,
+  levoitCore200sProduct,
+  tangleTeezerOriginalProduct,
+  silkesorngottProduct,
+  guaShaRosenkvartsProduct,
+  laneigeLipSleepingMaskProduct,
+  larochePosayCicaplastB5Product,
+  ceraveHydratingCleanserProduct,
+  larochePosayVitaminC10Product,
   cosrxSnailEssenceProduct,
   elfSkinBronzingDropsProduct,
   inkeyNiacinamideSerumProduct,
@@ -87,6 +97,447 @@ export const smartSommarSectionCopy = {
 };
 
 export const sommarPicks: SommarPick[] = [
+  {
+    productSlug: tangleTeezerOriginalProduct.slug,
+    product: tangleTeezerOriginalProduct,
+    href: "/skonhet/tangle-teezer",
+    cardBadge: "Reder ut tovor",
+    cardHook: "Flexibla tänder som reder ut tovor skonsamt på vått och torrt hår.",
+    cardImage: "/products/tangle-teezer-original/tangle-teezer-thumbnail.webp",
+    cardImageAlt: "Tangle Teezer The Original utredande hårborste",
+    badge: "Elins utredningsfavorit",
+    headline: "Tangle Teezer The Original – skonsam utredning",
+    shortBody: "En ikonisk utredande hårborste med flexibla tänder som reder ut tovor steg för steg, på både vått och torrt hår. Nätt och greppvänlig form som ger mindre drag och mindre brott.",
+    valueHook: "Utredande borste för skonsam utredning",
+    valueStatement: "Tangle Teezer The Original är en utredande hårborste för dig som vill reda ut tovor utan onödigt drag. De flexibla tänderna i två längder arbetar sig igenom håret steg för steg och hjälper till att lossa trassel skonsamt, på både vått och torrt hår – vilket många upplever ger mindre brott än en vanlig borste. Formen är nätt och greppvänlig och får plats i necessären eller väskan. Amazon visar 4,7 av 5 från 44 850 omdömen, och köpare lyfter framför allt fram den skonsamma utredningen, det mindre draget och hur smidig den är att hålla i.",
+    passFor: [
+      "Vill reda ut tovor skonsamt med mindre drag i håret.",
+      "Borstar både på vått och torrt hår och vill ha ett verktyg till båda.",
+      "Söker en nätt, greppvänlig borste som ryms i necessären och på resan.",
+    ],
+    caution: "Det är ingen mirakelborste för väldigt långt eller mycket lockigt hår – där lönar det sig att jobba i sektioner och börja nedifrån och upp. Tänderna fångar dessutom lossnat hår, så borsten behöver rengöras regelbundet för att fungera bra.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Borsta i mindre sektioner och börja längst ner i topparna, arbeta dig sedan uppåt mot rötterna. På vått hår blir utredningen ofta extra skonsam. Rengör borsten från lossnat hår med jämna mellanrum.",
+    },
+    verdict: "En skonsam, greppvänlig utredande borste för vardagligt bruk – med enormt socialt stöd.",
+    amazonSummary: "Amazon visar 4,7 av 5 från 44 850 omdömen. Köpare beskriver att tovor reds ut med mindre drag på både vått och torrt hår, men det är ingen mirakelborste för väldigt långt eller mycket lockigt hår.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Kan jag använda Tangle Teezer på vått hår?",
+        answer: "Ja, The Original används på både vått och torrt hår. Många upplever att utredningen blir extra skonsam på vått hår – borsta i mindre sektioner och börja i topparna.",
+      },
+      {
+        question: "Passar borsten långt eller lockigt hår?",
+        answer: "Den fungerar för många hårtyper, men är ingen mirakelborste för väldigt långt eller mycket lockigt hår. Jobba i sektioner och börja nedifrån och upp så blir utredningen skonsammare.",
+      },
+      {
+        question: "Hur rengör jag borsten?",
+        answer: "Tänderna fångar lossnat hår, så plocka bort hårstrån regelbundet och skölj vid behov. En ren borste reder ut tovor mer effektivt och håller längre.",
+      },
+    ],
+    reviewSectionId: "tangle-teezer-original-recensioner",
+    reviewFormId: "tangle-teezer-original-skriv-recension",
+    targetKeyword: "tangle teezer",
+    metaTitle: "Tangle Teezer The Original – utredande hårborste | Elins val",
+    metaDescription: "Elin går igenom Tangle Teezer The Original: en utredande hårborste med flexibla tänder som reder ut tovor skonsamt på vått och torrt hår (4,7 av 5, 44 850 omdömen) – och vad du bör veta.",
+    relatedLinks: [
+      {
+        href: "/skonhet/harolja",
+        label: "Hårolja",
+        text: "Vårdande olja för glans och mjukt hår.",
+      },
+      {
+        href: "/skonhet/torrschampo",
+        label: "Torrschampo",
+        text: "Fräscha upp håret mellan tvättarna.",
+      },
+      {
+        href: "/skonhet/varmeskydd",
+        label: "Värmeskydd",
+        text: "Skydda håret vid värmestyling.",
+      },
+    ],
+  },
+  {
+    productSlug: silkesorngottProduct.slug,
+    product: silkesorngottProduct,
+    href: "/skonhet/silkesorngott",
+    cardBadge: "Mindre frizz",
+    cardHook: "Slät yta i 100% mullbärssilke för mindre friktion mot hår och hud.",
+    cardImage: "/products/silkesorngott/silkesorngott-thumbnail.webp",
+    cardImageAlt: "Örngott i 100% mullbärssilke, 40x60 cm",
+    badge: "Elins silkes-favorit",
+    headline: "Silkesörngott i mullbärssilke – mindre frizz och mjukare morgnar",
+    shortBody: "Ett örngott i 100% mullbärssilke (19 momme) med en len, slät yta. Den ger mindre friktion mot håret och huden, vilket ofta betyder mindre frizz, färre bäddveck och färre tovor – och en svalare känsla att sova på.",
+    valueHook: "Slät silkesyta för mindre frizz",
+    valueStatement: "Örngottet i 100% mullbärssilke är för dig som vill ha en mjukare morgon för både hår och hud. Tyget är 19 momme mullbärssilke med en slät yta som ger mindre friktion när du rör dig i sömnen – det innebär ofta mindre frizz, färre tovor och färre bäddveck i ansiktet. Det känns dessutom svalt och len mot kinden. Amazon visar starka 4,5 av 5 från 6 754 omdömen, där köpare framför allt lyfter mindre frizz, den sköna silkeskänslan och färre bäddveck på morgonen.",
+    passFor: [
+      "Vill ha mindre frizz och färre tovor i håret på morgonen.",
+      "Sover gärna svalt och vill ha en len yta mot huden.",
+      "Vill minska bäddveck och friktion i ansiktet under natten.",
+    ],
+    caution: "Silke kräver lite mer omsorg än bomull: tvätta skonsamt på silkesprogram eller för hand så håller örngottet längre. Mullbärssilke ligger också i en högre prisklass än vanliga örngott.",
+    usageGuidance: {
+      title: "Så får du mest nytta av det",
+      text: "Använd örngottet på din vanliga kudde och vänd gärna på det mellan tvättarna. Tvätta skonsamt på silkesprogram eller för hand, och låt lufttorka så behåller silket sin släta yta.",
+    },
+    verdict: "Skönt silkesörngott för mindre frizz och mjukare morgnar – med stark social proof.",
+    amazonSummary: "Amazon visar 4,5 av 5 från 6 754 omdömen. Köpare beskriver mindre frizz, en len och sval silkeskänsla och färre bäddveck, men silke kräver skonsam tvätt.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Hur hjälper ett silkesörngott mot frizz?",
+        answer: "Den släta silkesytan ger mindre friktion mot håret när du rör dig i sömnen. Mindre friktion betyder ofta mindre frizz och färre tovor på morgonen jämfört med ett vanligt bomullsörngott.",
+      },
+      {
+        question: "Hur tvättar jag ett örngott i mullbärssilke?",
+        answer: "Tvätta skonsamt på silkesprogram eller för hand i ljummet vatten med ett milt medel, och låt lufttorka. Då behåller silket sin släta yta och örngottet håller längre.",
+      },
+      {
+        question: "Vad betyder 19 momme?",
+        answer: "Momme är ett mått på silkets täthet och vikt. 19 momme är en vanlig och hållbar kvalitet för örngott som känns len och slät utan att bli för tunn.",
+      },
+    ],
+    reviewSectionId: "silkesorngott-recensioner",
+    reviewFormId: "silkesorngott-skriv-recension",
+    targetKeyword: "silkesörngott",
+    metaTitle: "Silkesörngott i mullbärssilke – mindre frizz | Elins val",
+    metaDescription: "Elin går igenom ett örngott i 100% mullbärssilke (19 momme): slät yta för mindre frizz och färre bäddveck (4,5 av 5, 6 754 omdömen) – och vad du bör veta om skötsel.",
+    relatedLinks: [
+      {
+        href: "/skonhet/harolja",
+        label: "Hårolja",
+        text: "Vårdande olja för glans och mjukt hår.",
+      },
+      {
+        href: "/skonhet/torrschampo",
+        label: "Torrschampo",
+        text: "Fräscha upp håret mellan tvättarna.",
+      },
+      {
+        href: "/skonhet/varmeskydd",
+        label: "Värmeskydd",
+        text: "Skydda håret vid värmestyling.",
+      },
+    ],
+  },
+  {
+    productSlug: guaShaRosenkvartsProduct.slug,
+    product: guaShaRosenkvartsProduct,
+    href: "/skonhet/gua-sha",
+    cardBadge: "Lugn ritual",
+    cardHook: "Ett ansiktsverktyg i rosenkvarts för en skön, avslappnande massage.",
+    cardImage: "/products/gua-sha-rosenkvarts/gua-sha-thumbnail.webp",
+    cardImageAlt: "Gua sha-sten i rosenkvarts för ansiktsmassage",
+    badge: "Elins lugna favorit",
+    headline: "Gua sha i rosenkvarts – en lugn kvällsritual",
+    shortBody: "En gua sha-sten i rosenkvarts som många använder för en skön, avslappnande ansiktsmassage. Använd den med ansiktsolja eller serum så glider den lätt – en rofylld stund i kvällsrutinen. Effekten är subjektiv, men ritualen i sig är det fina.",
+    valueHook: "En skön, avslappnande ansiktsmassage",
+    valueStatement: "Den här gua sha-stenen i rosenkvarts är för dig som vill lägga till en lugn stund i kvällsrutinen. Du för stenen mjukt över ansiktet med lite ansiktsolja eller serum, så att den glider lätt mot huden – många upplever själva massagen som skön och avkopplande. Det handlar inte om något medicinskt, utan om en rofylld ritual som är lätt att tycka om. Amazon visar 4,2 av 5 från 49 omdömen; det är ett ganska lågt antal, så var medveten om att helhetsbilden fortfarande är osäker. Hur stenen känns är subjektivt och varierar från person till person.",
+    passFor: [
+      "Vill ha en lugn, avkopplande stund i kvällsrutinen.",
+      "Gillar att massera in ansiktsolja eller serum med ett verktyg.",
+      "Tycker om idén med en enkel ritual snarare än snabba resultat.",
+    ],
+    caution: "Det här är ett nyare köp med få omdömen (4,2 av 5 från 49), så helhetsbilden är osäker – läs gärna flera recensioner själv. Rosenkvarts är natursten och kan spricka om du tappar den mot ett hårt underlag, så hantera den varsamt. Rengör stenen efter användning. Effekten är subjektiv och varierar mellan olika personer.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Applicera först några droppar ansiktsolja eller serum på ren hud så att stenen glider lätt. För den sedan mjukt utåt över kinder, käke och panna – lugnt och utan att pressa. Rengör stenen efteråt och låt den torka.",
+    },
+    verdict: "Ett trevligt litet ansiktsverktyg för en lugn massageritual – men ett nyare köp med få omdömen.",
+    amazonSummary: "Amazon visar 4,2 av 5 från 49 omdömen – ett ganska lågt antal. Köpare beskriver massagestunden som skön och avkopplande, men helhetsbilden är fortfarande osäker och effekten är subjektiv.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Hur använder jag en gua sha-sten?",
+        answer: "Lägg först på lite ansiktsolja eller serum på ren hud så att stenen glider lätt. För den sedan mjukt utåt över ansiktet – lugnt och utan att pressa. Se det som en avkopplande stund snarare än en kur.",
+      },
+      {
+        question: "Vad gör en gua sha egentligen?",
+        answer: "För många handlar det främst om en skön, avslappnande ansiktsmassage och en lugn ritual i kvällsrutinen. Hur det upplevs är subjektivt och varierar från person till person.",
+      },
+      {
+        question: "Hur sköter jag om en gua sha i rosenkvarts?",
+        answer: "Rosenkvarts är natursten och kan spricka om den tappas mot ett hårt underlag, så hantera den varsamt. Rengör stenen efter varje användning och låt den torka.",
+      },
+    ],
+    reviewSectionId: "gua-sha-rosenkvarts-recensioner",
+    reviewFormId: "gua-sha-rosenkvarts-skriv-recension",
+    targetKeyword: "gua sha",
+    metaTitle: "Gua sha i rosenkvarts – lugn ansiktsmassage | Elins val",
+    metaDescription: "Elin går igenom en gua sha-sten i rosenkvarts: ett ansiktsverktyg för en skön, avslappnande massage och en lugn kvällsritual (4,2 av 5, 49 omdömen) – och vad du bör veta innan du köper.",
+    relatedLinks: [
+      {
+        href: "/skonhet/snail-mucin-essence",
+        label: "Snail mucin-essence",
+        text: "K-beauty-favorit för fukt och dewy lyster.",
+      },
+      {
+        href: "/skonhet/vitamin-c-serum",
+        label: "Vitamin C-serum",
+        text: "C-vitamin för lyster och glow.",
+      },
+      {
+        href: "/skonhet/hyaluronsyra-serum",
+        label: "Hyaluronsyra-serum",
+        text: "Enkelt fuktsteg i rutinen.",
+      },
+    ],
+  },
+  {
+    productSlug: laneigeLipSleepingMaskProduct.slug,
+    product: laneigeLipSleepingMaskProduct,
+    href: "/skonhet/laneige-lappmask",
+    cardBadge: "Nattläppmask",
+    cardHook: "Viral K-beauty-läppmask som återfuktar läpparna medan du sover.",
+    cardImage: "/products/laneige-lip-sleeping-mask/laneige-thumbnail.webp",
+    cardImageAlt: "LANEIGE Lip Sleeping Mask Berry, 20 g",
+    badge: "Elins K-beauty-favorit",
+    headline: "LANEIGE Lip Sleeping Mask – mjuka läppar över natten",
+    shortBody: "En viral K-beauty-läppmask med berry-doft som du masserar in före läggdags. Bär-extrakt och vårdande oljor återfuktar och mjukgör läpparna medan du sover, så att du vaknar med en mjuk, smidig känsla.",
+    valueHook: "Återfuktande nattläppmask för mjuka läppar",
+    valueStatement: "LANEIGE Lip Sleeping Mask är en viral K-beauty-favorit för dig som vill ge torra läppar lite extra omsorg på natten. Du lägger på ett lager före läggdags och låter berry-doftande bär-extrakt och vårdande oljor återfukta och mjukgöra medan du sover. Amazon visar 4,6 av 5 från 388 omdömen – ett hyfsat betyg snarare än ett enormt antal – och köpare lyfter framför allt mjukare läppar på morgonen och den mysiga doften.",
+    passFor: [
+      "Vill vårda torra läppar medan du sover.",
+      "Gillar K-beauty-rutiner och ett mysigt extrasteg på kvällen.",
+      "Letar efter en återfuktande läppmask med behaglig berry-doft.",
+    ],
+    caution: "Doft och smak är en smaksak – den söta berry-tonen känns mycket för en del. Konsistensen är dessutom ganska tjock och balsamliknande, så känns den klibbig kan du lägga på lite mindre.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Massera in ett lager på rena läppar som sista steg före läggdags och låt den verka över natten. Torka eller skölj bort resterna på morgonen. Lite produkt räcker långt, så du behöver inte ta mycket.",
+    },
+    verdict: "Mysig K-beauty-läppmask som återfuktar och mjukgör läpparna över natten.",
+    amazonSummary: "Amazon visar 4,6 av 5 från 388 omdömen. Köpare beskriver mjukare läppar på morgonen och en mysig berry-doft, men doften och den tjocka konsistensen är en smaksak.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Hur använder jag LANEIGE Lip Sleeping Mask?",
+        answer: "Massera in ett lager på rena läppar som sista steg före läggdags och låt den verka över natten. På morgonen torkar eller sköljer du bort resterna. Lite produkt räcker långt.",
+      },
+      {
+        question: "Varför är den en K-beauty-favorit?",
+        answer: "Det är en viral nattläppmask i koreansk hudvårdsstil med berry-doft, bär-extrakt och vårdande oljor. Idén är att läpparna får återfuktas och mjukgöras i lugn och ro medan du sover.",
+      },
+      {
+        question: "Hur länge räcker en burk?",
+        answer: "Eftersom det räcker med ett tunt lager varje kväll håller de 20 grammen ofta i många månader, vilket många köpare uppskattar.",
+      },
+    ],
+    reviewSectionId: "laneige-lip-sleeping-mask-recensioner",
+    reviewFormId: "laneige-lip-sleeping-mask-skriv-recension",
+    targetKeyword: "läppmask",
+    metaTitle: "LANEIGE Lip Sleeping Mask – nattläppmask | Elins val",
+    metaDescription: "Elin går igenom LANEIGE Lip Sleeping Mask: en viral K-beauty-läppmask med berry-doft som återfuktar läpparna över natten (4,6 av 5, 388 omdömen) – och vad du bör veta om doft och konsistens.",
+    relatedLinks: [
+      {
+        href: "/skonhet/snail-mucin-essence",
+        label: "Snail mucin-essence",
+        text: "K-beauty-favorit för fukt och dewy lyster.",
+      },
+      {
+        href: "/skonhet/hyaluronsyra-serum",
+        label: "Hyaluronsyra-serum",
+        text: "Enkelt fuktsteg i rutinen.",
+      },
+      {
+        href: "/skonhet/vitamin-c-serum",
+        label: "Vitamin C-serum",
+        text: "C-vitamin för lyster och glow.",
+      },
+    ],
+  },
+  {
+    productSlug: larochePosayCicaplastB5Product.slug,
+    product: larochePosayCicaplastB5Product,
+    href: "/skonhet/cicaplast-b5",
+    cardBadge: "Lugnar & mjukgör",
+    cardHook: "Panthenol (B5) och shea som lugnar och återfuktar torr hud.",
+    cardImage: "/products/la-roche-posay-cicaplast-b5/cicaplast-thumbnail.webp",
+    cardImageAlt: "La Roche-Posay Cicaplast Baume B5+, 40 ml",
+    badge: "Elins lugna-favorit",
+    headline: "La Roche-Posay Cicaplast B5+ – lugnar och mjukgör",
+    shortBody: "En multifunktionell balm med panthenol (B5) och shea. Gjord för att lugna, återfukta och mjukgöra torr och stram hud, och fungerar fint på torra partier som läppar och händer.",
+    valueHook: "Lugnande balm för torr och stram hud",
+    valueStatement: "La Roche-Posay Cicaplast Baume B5+ är en mångsidig balm för dig som vill lugna och återfukta torr, stram och ovan hud. Formulan bygger på panthenol (B5) tillsammans med shea, en kombination som mjukgör uttorkade partier och hjälper huden att kännas mer komfortabel. Den kan användas på flera ställen – torra läppar, händer och torra partier på kroppen. Amazon visar 4,7 av 5 från 16 635 omdömen, en av de starkaste sociala bevisen i kategorin, och köpare lyfter framför allt hur lugnande och mjukgörande den känns.",
+    passFor: [
+      "Har torr, stram eller ovan hud och vill ha en lugnande balm.",
+      "Vill ha en multipurpose-balm för torra läppar, händer och torra partier.",
+      "Gillar en rik textur som mjukgör uttorkad hud.",
+    ],
+    caution: "Balmen är rik och kan kännas fet om du tar för mycket eller har fukttörstig hud – en liten mängd räcker långt. Som med all ny hudvård: testa gärna på en liten yta först om du har känslig hud.",
+    usageGuidance: {
+      title: "Så använder du det rätt",
+      text: "Ta en liten mängd och massera in på torra, strama partier vid behov – på ansikte, läppar, händer eller torra ställen på kroppen. Lite räcker långt, så lägg på tunt och bygg på vid behov.",
+    },
+    verdict: "Mångsidig, lugnande balm för torra partier – med riktigt stark social proof.",
+    amazonSummary: "Amazon visar 4,7 av 5 från 16 635 omdömen. Köpare beskriver en lugnande, mjukgörande balm för torr hud som funkar på flera ställen, men texturen är rik och en liten mängd räcker.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Var kan jag använda Cicaplast B5+?",
+        answer: "Den är multifunktionell och kan användas på torra, strama partier – som läppar, händer och torra ställen på kroppen. Ta en liten mängd och massera in vid behov.",
+      },
+      {
+        question: "Passar Cicaplast B5+ torr och stram hud?",
+        answer: "Ja, den är gjord för att lugna, återfukta och mjukgöra torr, stram och ovan hud tack vare panthenol (B5) och shea. Texturen är rik, så lite räcker långt.",
+      },
+      {
+        question: "Hur mycket ska jag ta?",
+        answer: "Eftersom balmen är rik räcker en liten mängd. Lägg på tunt på torra partier och bygg på vid behov så att den inte känns för fet.",
+      },
+    ],
+    reviewSectionId: "la-roche-posay-cicaplast-b5-recensioner",
+    reviewFormId: "la-roche-posay-cicaplast-b5-skriv-recension",
+    targetKeyword: "cicaplast",
+    metaTitle: "La Roche-Posay Cicaplast B5+ – lugnar & mjukgör | Elins val",
+    metaDescription: "Elin går igenom La Roche-Posay Cicaplast Baume B5+: en lugnande balm med panthenol (B5) och shea för torr och stram hud (4,7 av 5, 16 635 omdömen) – och vad du bör veta.",
+    relatedLinks: [
+      {
+        href: "/skonhet/snail-mucin-essence",
+        label: "Snail mucin-essence",
+        text: "K-beauty-favorit för fukt och dewy lyster.",
+      },
+      {
+        href: "/skonhet/hyaluronsyra-serum",
+        label: "Hyaluronsyra-serum",
+        text: "Enkelt fuktsteg i rutinen.",
+      },
+      {
+        href: "/skonhet/vitamin-c-serum",
+        label: "Vitamin C-serum",
+        text: "C-vitamin för lyster och glow.",
+      },
+    ],
+  },
+  {
+    productSlug: ceraveHydratingCleanserProduct.slug,
+    product: ceraveHydratingCleanserProduct,
+    href: "/skonhet/cerave-rengoring",
+    cardBadge: "Skonsam rengöring",
+    cardHook: "Mild rengöring med ceramider som inte torkar ut huden.",
+    cardImage: "/products/cerave-hydrating-cleanser/cerave-thumbnail.webp",
+    cardImageAlt: "CeraVe Hydrating Cleanser ansiktsrengöring, 236 ml",
+    badge: "Elins milda favorit",
+    headline: "CeraVe Hydrating Cleanser – skonsam daglig rengöring",
+    shortBody: "En viral, mild ansiktsrengöring med ceramider och hyaluronsyra. Rengör utan att torka ut och lämnar huden mjuk – för normal till torr hud, och helt oparfymerad.",
+    valueHook: "Skonsam rengöring som inte torkar ut",
+    valueStatement: "CeraVe Hydrating Cleanser är en mild daglig rengöring för dig som vill rengöra huden utan att den känns stram eller uttorkad efteråt. Formulan bygger på ceramider och hyaluronsyra, en kombination som hjälper huden att kännas mjuk och len medan den rengörs. Den är oparfymerad och passar normal till torr hud. Amazon visar 4,5 av 5 från 35 098 omdömen, och köpare lyfter framför allt att huden känns ren men ändå återfuktad och att den är skonsam i vardagen.",
+    passFor: [
+      "Vill ha en mild rengöring som inte torkar ut huden.",
+      "Har normal till torr hud och föredrar något oparfymerat.",
+      "Vill ha ett enkelt, skonsamt första steg i rutinen.",
+    ],
+    caution: "Den här rengöringen löddrar inte mycket, vilket kan kännas ovant om du är van vid rik lödder. Är du väldigt fet i huden kan du i stället föredra en lättare gel-rengöring.",
+    usageGuidance: {
+      title: "Så använder du det rätt",
+      text: "Massera in en liten mängd på fuktig eller torr hud morgon och kväll, och skölj av med ljummet vatten. Följ gärna upp med fuktkräm medan huden fortfarande är lite fuktig.",
+    },
+    verdict: "Skonsam vardagsrengöring för normal till torr hud, oparfymerad och mild.",
+    amazonSummary: "Amazon visar 4,5 av 5 från 35 098 omdömen. Köpare beskriver en hud som känns ren men inte uttorkad och en mild, oparfymerad formula, men rengöringen löddrar inte mycket.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Torkar CeraVe Hydrating Cleanser ut huden?",
+        answer: "Nej, den är gjord för att rengöra skonsamt utan att dra åt. Ceramider och hyaluronsyra hjälper huden att kännas mjuk och len efteråt, även för normal till torr hud.",
+      },
+      {
+        question: "Passar rengöringen känslig och torr hud?",
+        answer: "Den är oparfymerad och mild, vilket gör den till ett enkelt val för normal till torr hud. Är du väldigt fet i huden kan du i stället föredra en lättare gel-rengöring.",
+      },
+      {
+        question: "Varför löddrar CeraVe Hydrating Cleanser så lite?",
+        answer: "Den är gjord som en mild, krämig rengöring snarare än en löddrande tvål. Det kan kännas ovant i början, men huden blir ren och känns mjuk utan att torka ut.",
+      },
+    ],
+    reviewSectionId: "cerave-hydrating-cleanser-recensioner",
+    reviewFormId: "cerave-hydrating-cleanser-skriv-recension",
+    targetKeyword: "cerave",
+    metaTitle: "CeraVe Hydrating Cleanser – skonsam rengöring | Elins val",
+    metaDescription: "Elin går igenom CeraVe Hydrating Cleanser: en mild ansiktsrengöring med ceramider och hyaluronsyra som inte torkar ut huden (4,5 av 5, 35 098 omdömen) – och vad du bör veta.",
+    relatedLinks: [
+      {
+        href: "/skonhet/hyaluronsyra-serum",
+        label: "Hyaluronsyra-serum",
+        text: "Lägg till ett enkelt fuktsteg.",
+      },
+      {
+        href: "/skonhet/niacinamide-serum",
+        label: "Niacinamide-serum",
+        text: "Riktat serum för fet och blandad hy.",
+      },
+      {
+        href: "/skonhet/snail-mucin-essence",
+        label: "Snail mucin-essence",
+        text: "K-beauty-favorit för fukt och dewy lyster.",
+      },
+    ],
+  },
+  {
+    productSlug: larochePosayVitaminC10Product.slug,
+    product: larochePosayVitaminC10Product,
+    href: "/skonhet/vitamin-c-serum",
+    cardBadge: "Lyster & glow",
+    cardHook: "10% ren C-vitamin för en piggare, mer strålande hud.",
+    cardImage: "/products/la-roche-posay-vitamin-c10/vitamin-c10-thumbnail.webp",
+    cardImageAlt: "La Roche-Posay Pure Vitamin C10 Serum, 30 ml",
+    badge: "Elins glow-favorit",
+    headline: "La Roche-Posay Vitamin C10 – lyster och glow",
+    shortBody: "Ett apoteksserum med 10% ren C-vitamin och hyaluronsyra. Gjort för lyster, glow och en jämnare hudton, med en lätt textur som passar även känslig hud.",
+    valueHook: "C-vitamin för lyster och glow",
+    valueStatement: "La Roche-Posay Pure Vitamin C10 är ett antioxidantserum för dig som vill ge huden mer lyster och en piggare, mer strålande look. Formulan bygger på 10% ren C-vitamin tillsammans med hyaluronsyra, en kombination som hjälper huden att se mer utvilad ut och hudtonen att verka jämnare. Amazon visar 4,4 av 5 från 256 omdömen, och köpare lyfter framför allt glowen, den lätta texturen och att den känns skonsam även för känslig hud.",
+    passFor: [
+      "Vill ge huden mer lyster och glow i morgonrutinen.",
+      "Har känslig hud och vill ha ett mildare C-vitaminserum.",
+      "Gillar en lätt textur under fuktkräm och makeup.",
+    ],
+    caution: "Ren C-vitamin kan svida lätt i början och upplevelsen varierar mellan hudtyper. Börja gärna varannan dag, förvara serumet mörkt och svalt eftersom C-vitamin oxiderar med tiden.",
+    usageGuidance: {
+      title: "Så använder du det rätt",
+      text: "Applicera några droppar på ren hud på morgonen, före fuktkräm. C-vitamin trivs bäst på dagen och passar fint ihop med ett återfuktande lager ovanpå.",
+    },
+    verdict: "Prisvärt apoteksserum för lyster och glow, även för känslig hud.",
+    amazonSummary: "Amazon visar 4,4 av 5 från 256 omdömen. Köpare beskriver en piggare, mer strålande hud och en lätt textur, men ren C-vitamin kan svida lätt i början.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "När på dygnet använder jag C-vitaminserum?",
+        answer: "C-vitamin passar bäst på morgonen, på ren hud före fuktkräm. Då får du glow under dagen och kan följa upp med ett återfuktande lager.",
+      },
+      {
+        question: "Passar La Roche-Posay Vitamin C10 känslig hud?",
+        answer: "Den är gjord med tanke på känslig hud och beskrivs som skonsam, men ren C-vitamin kan svida lätt i början. Börja gärna varannan dag.",
+      },
+      {
+        question: "Varför blir C-vitaminserum mörkare med tiden?",
+        answer: "Ren C-vitamin oxiderar i kontakt med luft och ljus. Förvara serumet mörkt och svalt och använd det inom rimlig tid för bäst lyster.",
+      },
+    ],
+    reviewSectionId: "la-roche-posay-vitamin-c10-recensioner",
+    reviewFormId: "la-roche-posay-vitamin-c10-skriv-recension",
+    targetKeyword: "vitamin c serum",
+    metaTitle: "La Roche-Posay Vitamin C10 Serum – lyster & glow | Elins val",
+    metaDescription: "Elin går igenom La Roche-Posay Pure Vitamin C10: ett apoteksserum med 10% ren C-vitamin för lyster och glow (4,4 av 5, 256 omdömen) – och vad du bör veta om känslig hud.",
+    relatedLinks: [
+      {
+        href: "/skonhet/niacinamide-serum",
+        label: "Niacinamide-serum",
+        text: "Riktat serum för fet och blandad hy.",
+      },
+      {
+        href: "/skonhet/hyaluronsyra-serum",
+        label: "Hyaluronsyra-serum",
+        text: "Lägg till ett enkelt fuktsteg i rutinen.",
+      },
+      {
+        href: "/skonhet/snail-mucin-essence",
+        label: "Snail mucin-essence",
+        text: "K-beauty-favorit för fukt och dewy lyster.",
+      },
+    ],
+  },
   {
     productSlug: stTropezSelfTanExpressProduct.slug,
     href: "/skonhet/brun-utan-sol",
@@ -1055,6 +1506,69 @@ export const sommarPicks: SommarPick[] = [
 
 export const smartSommarPicks: SommarPick[] = [
   {
+    productSlug: levoitCore200sProduct.slug,
+    product: levoitCore200sProduct,
+    href: "/halsa/luftrenare",
+    cardBadge: "Renare luft",
+    cardHook: "HEPA-filter som fångar damm och pollen – med tyst nattläge.",
+    cardImage: "/products/levoit-luftrenare/levoit-thumbnail.webp",
+    cardImageAlt: "Levoit Core 200S luftrenare med HEPA-filter, vit",
+    badge: "Elins smarta val",
+    headline: "Levoit Core 200S – renare luft i sovrummet",
+    shortBody: "En kompakt smart luftrenare med 3-lagers HEPA-filter som fångar damm, pollen och partiklar. Tyst nattläge och app- och röststyrning gör den enkel att ha igång där du sover.",
+    valueHook: "Renare luft med tyst nattläge",
+    valueStatement: "Levoit Core 200S är en smart luftrenare för dig som vill ha renare luft i sovrum eller mindre rum. Det 3-lagers HEPA-filtret fångar damm, pollen och partiklar i luften, och det tysta nattläget med dämpad display gör att den kan stå på medan du sover. Med app- och röststyrning plus timer är den enkel att styra i vardagen. Amazon visar 4,6 av 5 från 31 901 omdömen, och köpare lyfter framför allt den tysta driften och den fräschare luftkänslan.",
+    passFor: [
+      "Vill ha renare luft i sovrum eller mindre rum.",
+      "Är känslig för damm och pollen och vill fånga partiklar i luften.",
+      "Gillar tyst nattläge och smart app- eller röststyrning.",
+    ],
+    caution: "Den är gjord för sovrum och mindre rum, så för stora ytor räcker den inte till. Tänk också på att HEPA-filtret är en förbrukningsvara som behöver bytas med jämna mellanrum för bästa effekt.",
+    usageGuidance: {
+      title: "Så får du ut mest av den",
+      text: "Ställ luftrenaren fritt en bit från väggen i rummet du vistas mest i, kör nattläget när du sover och håll koll på filterindikatorn så att filtret byts i tid.",
+    },
+    verdict: "Prisvärd, smart luftrenare för renare luft i sovrum och mindre rum.",
+    amazonSummary: "Amazon visar 4,6 av 5 från 31 901 omdömen. Köpare beskriver luften som fräschare och driften som mycket tyst, men den passar bäst i mindre rum.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Hur stort rum passar Levoit Core 200S för?",
+        answer: "Den är gjord för sovrum och mindre rum. För större ytor behöver du en modell med högre kapacitet.",
+      },
+      {
+        question: "Är luftrenaren tyst på natten?",
+        answer: "Ja, nattläget är gjort för tyst drift med dämpad display, så den kan stå på medan du sover. Många köpare lyfter just den tysta driften.",
+      },
+      {
+        question: "Hur ofta behöver filtret bytas?",
+        answer: "HEPA-filtret är en förbrukningsvara som behöver bytas med jämna mellanrum. Appen och filterindikatorn hjälper dig hålla koll på när det är dags.",
+      },
+    ],
+    reviewSectionId: "levoit-core-200s-recensioner",
+    reviewFormId: "levoit-core-200s-skriv-recension",
+    targetKeyword: "luftrenare",
+    metaTitle: "Levoit Core 200S luftrenare – tyst & smart | Elins val",
+    metaDescription: "Elin går igenom Levoit Core 200S: en kompakt smart luftrenare med HEPA-filter för renare luft i sovrummet (4,6 av 5, 31 901 omdömen) – tyst nattläge och app-styrning.",
+    relatedLinks: [
+      {
+        href: "/halsa/aromdiffuser",
+        label: "Aromdiffuser",
+        text: "Skön doft och lugn stämning hemma.",
+      },
+      {
+        href: "/halsa/solnedgangslampa",
+        label: "Solnedgångslampa",
+        text: "Mjukt ljus för en lugnare kväll.",
+      },
+      {
+        href: "/guider/tyst-flakt-sovrum",
+        label: "Guide",
+        text: "Tyst fläkt för sovrummet – vilken ska du välja?",
+      },
+    ],
+  },
+  {
     productSlug: koboClaraBwProduct.slug,
     href: "/halsa/kobo-clara-bw",
     cardBadge: "Smart sommarro",
@@ -1426,4 +1940,139 @@ export function getSommarPickBySlug(productSlug: string) {
 
 export function getSmartSommarPickBySlug(productSlug: string) {
   return smartSommarPicks.find((pick) => pick.productSlug === productSlug);
+}
+
+// Träningsprodukter som använder samma produktsida (SommarProductReviewPage)
+// men INTE visas i de säsongsbetonade sommar-sektionerna.
+export const traningsPicks: SommarPick[] = [
+  {
+    productSlug: ericFlagViktvastProduct.slug,
+    product: ericFlagViktvastProduct,
+    href: "/traning/viktvast",
+    cardBadge: "Justerbar vikt",
+    cardHook: "Löstagbara järnvikter och tajt kardborrespänne för stabil passform.",
+    cardImage: "/products/eric-flag-viktvast/viktvast-thumbnail.webp",
+    cardImageAlt: "Eric Flag viktväst med justerbar vikt och löstagbara järnvikter",
+    badge: "Elins val för hemmaträning",
+    headline: "Eric Flag viktväst – justera tyngden själv",
+    shortBody: "En justerbar viktväst med löstagbara järnvikter som ökar belastningen vid promenad och hemmaträning. Kardborrespännet håller västen tajt och stabil mot kroppen.",
+    valueHook: "Justerbar viktväst för mer belastning",
+    valueStatement: "Eric Flag viktväst är ett enkelt sätt att öka belastningen i vardagen och i träningen. Du justerar tyngden genom att lägga till eller ta bort järnvikter, och kardborrespännet håller västen tajt mot kroppen så att den sitter stabilt under rörelse. Amazon visar 4,7 av 5 från 1 237 omdömen, och köpare lyfter framför allt den stabila passformen och flexibiliteten att ändra vikten.",
+    passFor: [
+      "Vill öka belastningen vid promenad, gång eller hemmaträning.",
+      "Gillar att kunna justera tyngden med löstagbara vikter.",
+      "Vill ha en väst som sitter tajt och stabilt under rörelse.",
+    ],
+    caution: "Full vikt kan kännas mycket i början, så börja lägre och öka gradvis. Passform och storlek upplevs olika beroende på kroppstyp – kontrollera måtten innan du väljer.",
+    usageGuidance: {
+      title: "Så använder du den smart",
+      text: "Börja med en lägre vikt och spänn kardborrebandet så att västen sitter tajt utan att klämma. Öka tyngden gradvis i takt med att du blir starkare.",
+    },
+    verdict: "Stabil, justerbar viktväst för promenad och hemmaträning.",
+    amazonSummary: "Amazon visar 4,7 av 5 från 1 237 omdömen. Köpare beskriver passformen som stabil och uppskattar att vikten går att justera, men full vikt kan kännas mycket i början.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Hur justerar jag vikten på västen?",
+        answer: "Du lägger till eller tar bort de löstagbara järnvikterna för att ändra tyngden. Börja gärna lägre och öka gradvis när du blir starkare.",
+      },
+      {
+        question: "Sitter viktvästen stabilt under träning?",
+        answer: "Ja, kardborrespännet håller västen tajt mot kroppen så att den sitter stabilt under rörelse. Många köpare lyfter just den stabila passformen.",
+      },
+      {
+        question: "Passar viktvästen för promenad?",
+        answer: "Ja, den används ofta för att öka belastningen vid promenad och gång. Börja med en lägre vikt tills du vänjer dig vid känslan.",
+      },
+    ],
+    reviewSectionId: "eric-flag-viktvast-recensioner",
+    reviewFormId: "eric-flag-viktvast-skriv-recension",
+    targetKeyword: "viktväst",
+    metaTitle: "Eric Flag viktväst – justerbar tyngd | Elins val",
+    metaDescription: "Elin går igenom Eric Flag viktväst: löstagbara järnvikter och tajt kardborrespänne för stabil passform (4,7 av 5, 1 237 omdömen) – för promenad och hemmaträning.",
+    relatedLinks: [
+      {
+        href: "/traning/hantlar",
+        label: "Hantlar",
+        text: "Bygg styrka med justerbara vikter.",
+      },
+      {
+        href: "/traning/kettlebell",
+        label: "Kettlebell",
+        text: "Mångsidig styrka och kondition.",
+      },
+      {
+        href: "/traning/traningsband",
+        label: "Träningsband",
+        text: "Mångsidig styrketräning hemma.",
+      },
+    ],
+  },
+  {
+    productSlug: portentumHoppRepProduct.slug,
+    product: portentumHoppRepProduct,
+    href: "/traning/hopprep",
+    cardBadge: "Kondition",
+    cardHook: "Kullager och justerbar vajer för jämn, snabb rotation.",
+    cardImage: "/products/portentum-hopprep/hopprep-thumbnail.webp",
+    cardImageAlt: "PORTENTUM hopprep med kullager och halkfritt skumgrepp",
+    badge: "Elins prisvärda val",
+    headline: "PORTENTUM hopprep – smidig kondition hemma",
+    shortBody: "Ett prisvärt hopprep med kullager och justerbar stålvajer för jämn, snabb rotation. Halkfritt skumgrepp gör det skönt att hålla i, både hemma och på gymmet.",
+    valueHook: "Prisvärt hopprep för kondition hemma",
+    valueStatement: "PORTENTUM hopprep är ett enkelt, prisvärt sätt att få in mer kondition i vardagen. Kullagren ger en jämn och snabb rotation, den justerbara stålvajern kapar du till din egen längd och det halkfria skumgreppet sitter skönt även när händerna blir svettiga. Amazon visar 4,4 av 5 från 911 omdömen, och köpare lyfter framför allt den jämna rotationen och det stadiga greppet.",
+    passFor: [
+      "Vill ha ett prisvärt sätt att träna kondition hemma eller på gymmet.",
+      "Gillar jämn, snabb rotation tack vare kullager.",
+      "Vill kunna justera repets längd efter sin egen kroppslängd.",
+    ],
+    caution: "Vajern behöver kapas till rätt längd vid första användning, och stålvajern passar bäst på jämnt underlag eftersom grov asfalt sliter mer. Börja i lugnt tempo tills tekniken sitter.",
+    usageGuidance: {
+      title: "Så kommer du igång",
+      text: "Ställ dig mitt på repet och kapa vajern så att handtagen når ungefär till armhålorna. Börja med korta intervaller på jämnt underlag och öka tempot när tekniken sitter.",
+    },
+    verdict: "Prisvärt, smidigt hopprep för kondition och uppvärmning.",
+    amazonSummary: "Amazon visar 4,4 av 5 från 911 omdömen. Köpare beskriver rotationen som jämn och greppet som halkfritt, men vajern behöver kapas till rätt längd först.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Hur justerar jag längden på hopprepet?",
+        answer: "Ställ dig mitt på vajern och kapa den så att handtagen når ungefär upp till armhålorna. Då får du en längd som passar din kroppslängd.",
+      },
+      {
+        question: "Passar repet för nybörjare?",
+        answer: "Ja, börja i lugnt tempo med korta intervaller tills tekniken sitter. Kullagren gör rotationen jämn vilket underlättar i början.",
+      },
+      {
+        question: "Kan jag hoppa utomhus med det?",
+        answer: "Det går bra på jämnt underlag. Tänk på att grov asfalt sliter mer på stålvajern, så ett jämnt golv eller en matta håller repet längre.",
+      },
+    ],
+    reviewSectionId: "portentum-hopprep-recensioner",
+    reviewFormId: "portentum-hopprep-skriv-recension",
+    targetKeyword: "hopprep",
+    metaTitle: "PORTENTUM hopprep – prisvärt med kullager | Elins val",
+    metaDescription: "Elin går igenom PORTENTUM hopprep: justerbar stålvajer, kullager för jämn rotation och halkfritt grepp (4,4 av 5, 911 omdömen) – smidig kondition hemma.",
+    relatedLinks: [
+      {
+        href: "/traning/traningsband",
+        label: "Träningsband",
+        text: "Mångsidig styrketräning hemma.",
+      },
+      {
+        href: "/traning/yogamatta",
+        label: "Yogamatta",
+        text: "Skönt underlag för golvövningar.",
+      },
+      {
+        href: "/traning/hantlar",
+        label: "Hantlar",
+        text: "Bygg styrka med justerbara vikter.",
+      },
+    ],
+  },
+];
+
+export function getTraningsPickBySlug(productSlug: string) {
+  return traningsPicks.find((pick) => pick.productSlug === productSlug);
 }

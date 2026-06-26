@@ -25,7 +25,7 @@ const topPicks = [...products]
 const selectedComparisons = comparisonEntries.slice(0, 6);
 
 type LatestUpdate = {
-  type: "Guide" | "Hälsa" | "Hudvård";
+  type: "Guide" | "Hälsa" | "Hudvård" | "Hårvård" | "Träning";
   title: string;
   href: string;
   date: `${number}-${number}-${number}`;
@@ -35,6 +35,86 @@ type LatestUpdate = {
 
 // Lägg till nyaste överst
 const latestUpdates = [
+  {
+    type: "Träning",
+    title: "Eric Flag viktväst",
+    href: "/traning/viktvast",
+    date: "2026-06-26",
+    image: "/products/eric-flag-viktvast/viktvast-thumbnail.webp",
+    blurb: "Justerbar viktväst med löstagbara järnvikter för promenad och hemmaträning.",
+  },
+  {
+    type: "Träning",
+    title: "PORTENTUM hopprep",
+    href: "/traning/hopprep",
+    date: "2026-06-26",
+    image: "/products/portentum-hopprep/hopprep-thumbnail.webp",
+    blurb: "Prisvärt hopprep med kullager och justerbar vajer för jämn rotation.",
+  },
+  {
+    type: "Hälsa",
+    title: "Levoit Core 200S luftrenare",
+    href: "/halsa/luftrenare",
+    date: "2026-06-26",
+    image: "/products/levoit-luftrenare/levoit-thumbnail.webp",
+    blurb: "Kompakt smart luftrenare med HEPA-filter och tyst nattläge för renare luft.",
+  },
+  {
+    type: "Hårvård",
+    title: "Tangle Teezer The Original",
+    href: "/skonhet/tangle-teezer",
+    date: "2026-06-26",
+    image: "/products/tangle-teezer-original/tangle-teezer-thumbnail.webp",
+    blurb: "Populär utredande hårborste med flexibla tänder som reder ut tovor skonsamt på vått och torrt hår.",
+  },
+  {
+    type: "Hårvård",
+    title: "Örngott i 100% mullbärssilke",
+    href: "/skonhet/silkesorngott",
+    date: "2026-06-26",
+    image: "/products/silkesorngott/silkesorngott-thumbnail.webp",
+    blurb: "Silkesörngott i 19 momme mullbärssilke för mindre frizz och mindre hårbrott.",
+  },
+  {
+    type: "Hudvård",
+    title: "Gua sha-sten i rosenkvarts",
+    href: "/skonhet/gua-sha",
+    date: "2026-06-26",
+    image: "/products/gua-sha-rosenkvarts/gua-sha-thumbnail.webp",
+    blurb: "Ett viralt ansiktsverktyg i rosenkvarts för en skön, avslappnande ansiktsmassage och en lugn kvällsritual.",
+  },
+  {
+    type: "Hudvård",
+    title: "LANEIGE Lip Sleeping Mask",
+    href: "/skonhet/laneige-lappmask",
+    date: "2026-06-26",
+    image: "/products/laneige-lip-sleeping-mask/laneige-thumbnail.webp",
+    blurb: "Viral återfuktande nattläppmask med berry-doft som mjukgör läpparna medan du sover.",
+  },
+  {
+    type: "Hudvård",
+    title: "La Roche-Posay Cicaplast Baume B5+",
+    href: "/skonhet/cicaplast-b5",
+    date: "2026-06-26",
+    image: "/products/la-roche-posay-cicaplast-b5/cicaplast-thumbnail.webp",
+    blurb: "Lugnande, återfuktande balm med panthenol (B5) och shea för torr och stram hud.",
+  },
+  {
+    type: "Hudvård",
+    title: "CeraVe Hydrating Cleanser",
+    href: "/skonhet/cerave-rengoring",
+    date: "2026-06-26",
+    image: "/products/cerave-hydrating-cleanser/cerave-thumbnail.webp",
+    blurb: "Mild återfuktande ansiktsrengöring med ceramider som rengör utan att torka ut.",
+  },
+  {
+    type: "Hudvård",
+    title: "La Roche-Posay Vitamin C10 Serum",
+    href: "/skonhet/vitamin-c-serum",
+    date: "2026-06-26",
+    image: "/products/la-roche-posay-vitamin-c10/vitamin-c10-thumbnail.webp",
+    blurb: "Antioxidantserum med 10% ren C-vitamin för lyster och glow.",
+  },
   {
     type: "Guide",
     title: "Snail mucin – värt hypen?",

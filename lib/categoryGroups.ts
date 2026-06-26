@@ -10,6 +10,7 @@ export const categoryProductGroups = {
     {
       title: "Hårstyling (verktyg)",
       productSlugs: [
+        "tangle-teezer-original",
         "remington-s8540-plattang",
         "remington-mini-s2880-plattang",
         "babyliss-c325e-locktang",
@@ -23,6 +24,7 @@ export const categoryProductGroups = {
     {
       title: "Hårvård",
       productSlugs: [
+        "silkesorngott-mullbarssilke",
         "moroccanoil-harolja",
         "loreal-absolut-repair",
         "moroccanoil-torrschampo",
@@ -41,6 +43,11 @@ export const categoryProductGroups = {
     {
       title: "Hudvård",
       productSlugs: [
+        "gua-sha-rosenkvarts",
+        "laneige-lip-sleeping-mask",
+        "la-roche-posay-cicaplast-b5",
+        "cerave-hydrating-cleanser",
+        "la-roche-posay-vitamin-c10-serum",
         "cosrx-snail-mucin-essence",
         "minimalist-hyaluronsyra-serum",
         "kanzy-jojobaolja",
@@ -58,12 +65,18 @@ export const categoryProductGroups = {
   ],
   traning: [
     {
+      title: "Kondition",
+      productSlugs: [
+        "portentum-hopprep",],
+    },
+    {
       title: "Träningsband",
       productSlugs: ["traningsband-4-nivaer", "jakkofoxx-loopband"],
     },
     {
       title: "Vikter",
       productSlugs: [
+        "eric-flag-viktvast",
         "amazon-basics-gjutjarns-kettlebell",
         "proiron-mjuk-kettlebell",
         "proiron-neoprenhantlar",
@@ -95,6 +108,7 @@ export const categoryProductGroups = {
     {
       title: "Smart hem & livsstil",
       productSlugs: [
+        "levoit-core-200s-luftrenare",
         "kobo-clara-bw",
         "salking-aromadiffuser",
         "solnedgangslampa",

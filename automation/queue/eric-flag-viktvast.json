@@ -1,0 +1,112 @@
+{
+  "exportName": "ericFlagViktvastProduct",
+  "system": "traning",
+  "category": "traning",
+  "categoryGroup": "Vikter",
+  "route": "traning/viktvast",
+  "pageComponentName": "ViktvastPage",
+  "product": {
+    "slug": "eric-flag-viktvast",
+    "title": "Eric Flag viktväst med justerbar vikt (10/20 kg)",
+    "category": "traning",
+    "asin": "B09WB1BF81",
+    "brand": "Eric Flag",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Justerbar vikt", "Löstagbara vikter", "Kardborrespänne"],
+    "image": "/products/eric-flag-viktvast/viktvast-thumbnail.webp",
+    "imageAlt": "Eric Flag viktväst med justerbar vikt och löstagbara järnvikter",
+    "images": [
+      { "src": "/products/eric-flag-viktvast/viktvast-thumbnail.webp", "alt": "Eric Flag viktväst med justerbar vikt och löstagbara järnvikter", "label": "Eric Flag viktväst" },
+      { "src": "/products/eric-flag-viktvast/viktvast-1.webp", "alt": "Eric Flag viktväst med löstagbara järnvikter", "label": "Löstagbara vikter" },
+      { "src": "/products/eric-flag-viktvast/viktvast-2.webp", "alt": "Eric Flag viktväst med justerbart kardborrespänne", "label": "Justerbar passform" },
+      { "src": "/products/eric-flag-viktvast/viktvast-3.webp", "alt": "Detaljbild av Eric Flag viktväst", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3QBWm2N",
+    "pageHref": "/traning/viktvast",
+    "summary": "En justerbar viktväst med löstagbara järnvikter som ökar belastningen vid promenad, gång och hemmaträning. Sitter tajt med kardborrespänne för stabil passform.",
+    "evaluation": {
+      "headline": "Justerbar viktväst för mer belastning",
+      "intro": "Elin går igenom Eric Flag viktväst: löstagbara järnvikter som låter dig justera tyngden, och ett kardborrespänne som håller västen tajt mot kroppen. Ett enkelt sätt att öka belastningen vid promenad, gång och hemmaträning.",
+      "verdict": "Stabil, justerbar viktväst för promenad och hemmaträning.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Vikter",
+    "specSectionTitle": "Eric Flag viktväst",
+    "specs": [
+      { "label": "Vikt", "caption": "Alternativ", "value": "Justerbar, 10 eller 20 kg" },
+      { "label": "Vikter", "caption": "Typ", "value": "Löstagbara järnvikter" },
+      { "label": "Passform", "caption": "Spänne", "value": "Justerbart kardborrespänne" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3QBWm2N",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 1 237 omdömen.",
+      "highlights": [
+        "Köpare upplever att västen sitter stabilt och tajt under träning.",
+        "Möjligheten att ta bort och lägga till vikter uppskattas mycket.",
+        "Bra upplevd kvalitet och sömnad för priset."
+      ],
+      "cautions": [
+        "Full vikt kan kännas mycket i början – börja lägre och öka gradvis.",
+        "Storlek och passform upplevs olika beroende på kroppstyp."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/viktvast",
+    "cardBadge": "Justerbar vikt",
+    "cardHook": "Löstagbara järnvikter och tajt kardborrespänne för stabil passform.",
+    "cardImage": "/products/eric-flag-viktvast/viktvast-thumbnail.webp",
+    "cardImageAlt": "Eric Flag viktväst med justerbar vikt och löstagbara järnvikter",
+    "badge": "Elins val för hemmaträning",
+    "headline": "Eric Flag viktväst – justera tyngden själv",
+    "shortBody": "En justerbar viktväst med löstagbara järnvikter som ökar belastningen vid promenad och hemmaträning. Kardborrespännet håller västen tajt och stabil mot kroppen.",
+    "valueHook": "Justerbar viktväst för mer belastning",
+    "valueStatement": "Eric Flag viktväst är ett enkelt sätt att öka belastningen i vardagen och i träningen. Du justerar tyngden genom att lägga till eller ta bort järnvikter, och kardborrespännet håller västen tajt mot kroppen så att den sitter stabilt under rörelse. Amazon visar 4,7 av 5 från 1 237 omdömen, och köpare lyfter framför allt den stabila passformen och flexibiliteten att ändra vikten.",
+    "passFor": [
+      "Vill öka belastningen vid promenad, gång eller hemmaträning.",
+      "Gillar att kunna justera tyngden med löstagbara vikter.",
+      "Vill ha en väst som sitter tajt och stabilt under rörelse."
+    ],
+    "caution": "Full vikt kan kännas mycket i början, så börja lägre och öka gradvis. Passform och storlek upplevs olika beroende på kroppstyp – kontrollera måtten innan du väljer.",
+    "usageGuidance": {
+      "title": "Så använder du den smart",
+      "text": "Börja med en lägre vikt och spänn kardborrebandet så att västen sitter tajt utan att klämma. Öka tyngden gradvis i takt med att du blir starkare."
+    },
+    "verdict": "Stabil, justerbar viktväst för promenad och hemmaträning.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 1 237 omdömen. Köpare beskriver passformen som stabil och uppskattar att vikten går att justera, men full vikt kan kännas mycket i början.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur justerar jag vikten på västen?", "answer": "Du lägger till eller tar bort de löstagbara järnvikterna för att ändra tyngden. Börja gärna lägre och öka gradvis när du blir starkare." },
+      { "question": "Sitter viktvästen stabilt under träning?", "answer": "Ja, kardborrespännet håller västen tajt mot kroppen så att den sitter stabilt under rörelse. Många köpare lyfter just den stabila passformen." },
+      { "question": "Passar viktvästen för promenad?", "answer": "Ja, den används ofta för att öka belastningen vid promenad och gång. Börja med en lägre vikt tills du vänjer dig vid känslan." }
+    ],
+    "reviewSectionId": "eric-flag-viktvast-recensioner",
+    "reviewFormId": "eric-flag-viktvast-skriv-recension",
+    "targetKeyword": "viktväst",
+    "metaTitle": "Eric Flag viktväst – justerbar tyngd | Elins val",
+    "metaDescription": "Elin går igenom Eric Flag viktväst: löstagbara järnvikter och tajt kardborrespänne för stabil passform (4,7 av 5, 1 237 omdömen) – för promenad och hemmaträning.",
+    "relatedLinks": [
+      { "href": "/traning/hantlar", "label": "Hantlar", "text": "Bygg styrka med justerbara vikter." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Mångsidig styrka och kondition." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Mångsidig styrketräning hemma." }
+    ]
+  },
+  "images": {
+    "dir": "eric-flag-viktvast",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81SMG0mk-yL._SL1500_.jpg", "out": "viktvast-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41FE8Cw2YOL._SL1500_.jpg", "out": "viktvast-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51uNoQwvcEL._SL1500_.jpg", "out": "viktvast-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/510Hc+pypjL._SL1500_.jpg", "out": "viktvast-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Eric Flag viktväst", "href": "/traning/viktvast", "date": "2026-06-26", "image": "/products/eric-flag-viktvast/viktvast-thumbnail.webp", "blurb": "Justerbar viktväst med löstagbara järnvikter för promenad och hemmaträning." }
+  ]
+}

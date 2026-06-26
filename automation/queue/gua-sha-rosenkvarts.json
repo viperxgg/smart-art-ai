@@ -1,0 +1,111 @@
+{
+  "exportName": "guaShaRosenkvartsProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/gua-sha",
+  "pageComponentName": "GuaShaPage",
+  "product": {
+    "slug": "gua-sha-rosenkvarts",
+    "title": "Gua sha-sten i rosenkvarts – ansiktsverktyg",
+    "category": "skonhet",
+    "asin": "B0DT18P85H",
+    "brand": "YANKUIRUI",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Rosenkvarts", "Lugn kvällsritual", "Skön ansiktsmassage"],
+    "image": "/products/gua-sha-rosenkvarts/gua-sha-thumbnail.webp",
+    "imageAlt": "Gua sha-sten i rosenkvarts för ansiktsmassage",
+    "images": [
+      { "src": "/products/gua-sha-rosenkvarts/gua-sha-thumbnail.webp", "alt": "Gua sha-sten i rosenkvarts för ansiktsmassage", "label": "Rosenkvarts" },
+      { "src": "/products/gua-sha-rosenkvarts/gua-sha-1.webp", "alt": "Gua sha-sten i rosenkvarts med rundade kanter", "label": "Rundade kanter" },
+      { "src": "/products/gua-sha-rosenkvarts/gua-sha-2.webp", "alt": "Gua sha-sten i rosenkvarts som hålls i handen", "label": "Behändigt grepp" },
+      { "src": "/products/gua-sha-rosenkvarts/gua-sha-3.webp", "alt": "Detaljbild av gua sha-sten i rosenkvarts", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4gdHTEJ",
+    "pageHref": "/skonhet/gua-sha",
+    "summary": "Ett ansiktsverktyg i rosenkvarts för en skön, avslappnande ansiktsmassage. Många gillar att göra det till en lugn ritual i kvällsrutinen – använd den med ansiktsolja eller serum så glider stenen lätt mot huden. Effekten är subjektiv, men själva stunden upplevs ofta som rofylld.",
+    "evaluation": {
+      "headline": "En lugn ritual för kvällsrutinen",
+      "intro": "Elin går igenom den här gua sha-stenen i rosenkvarts: ett enkelt ansiktsverktyg som många använder för en skön, avslappnande ansiktsmassage. Det handlar inte om mirakel utan om en lugn stund – du för stenen mjukt över ansiktet med lite ansiktsolja eller serum så att den glider lätt. Hur det känns är subjektivt, men själva ritualen är det som de flesta uppskattar.",
+      "verdict": "Ett trevligt litet ansiktsverktyg för en lugn massageritual – men ett nyare köp med få omdömen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Gua sha-sten i rosenkvarts",
+    "specs": [
+      { "label": "Material", "caption": "Sten", "value": "Naturlig rosenkvarts" },
+      { "label": "Användning", "caption": "Så funkar det", "value": "Med ansiktsolja eller serum" },
+      { "label": "Form", "caption": "Design", "value": "Rundade kanter för ansiktet" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4gdHTEJ",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 49 omdömen – ett ganska lågt antal, så betyget kan ändras framöver.",
+      "highlights": [
+        "Många beskriver massagestunden som skön och avkopplande.",
+        "Uppskattas som en enkel, lugn ritual i kvällsrutinen.",
+        "Stenen ligger fint i handen och glider lätt med lite ansiktsolja."
+      ],
+      "cautions": [
+        "Få omdömen ännu (49 st), så helhetsbilden är osäker – läs gärna flera recensioner själv.",
+        "Natursten är skör – tappa den inte mot hårt underlag, och rengör den efter användning."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/gua-sha",
+    "cardBadge": "Lugn ritual",
+    "cardHook": "Ett ansiktsverktyg i rosenkvarts för en skön, avslappnande massage.",
+    "cardImage": "/products/gua-sha-rosenkvarts/gua-sha-thumbnail.webp",
+    "cardImageAlt": "Gua sha-sten i rosenkvarts för ansiktsmassage",
+    "badge": "Elins lugna favorit",
+    "headline": "Gua sha i rosenkvarts – en lugn kvällsritual",
+    "shortBody": "En gua sha-sten i rosenkvarts som många använder för en skön, avslappnande ansiktsmassage. Använd den med ansiktsolja eller serum så glider den lätt – en rofylld stund i kvällsrutinen. Effekten är subjektiv, men ritualen i sig är det fina.",
+    "valueHook": "En skön, avslappnande ansiktsmassage",
+    "valueStatement": "Den här gua sha-stenen i rosenkvarts är för dig som vill lägga till en lugn stund i kvällsrutinen. Du för stenen mjukt över ansiktet med lite ansiktsolja eller serum, så att den glider lätt mot huden – många upplever själva massagen som skön och avkopplande. Det handlar inte om något medicinskt, utan om en rofylld ritual som är lätt att tycka om. Amazon visar 4,2 av 5 från 49 omdömen; det är ett ganska lågt antal, så var medveten om att helhetsbilden fortfarande är osäker. Hur stenen känns är subjektivt och varierar från person till person.",
+    "passFor": [
+      "Vill ha en lugn, avkopplande stund i kvällsrutinen.",
+      "Gillar att massera in ansiktsolja eller serum med ett verktyg.",
+      "Tycker om idén med en enkel ritual snarare än snabba resultat."
+    ],
+    "caution": "Det här är ett nyare köp med få omdömen (4,2 av 5 från 49), så helhetsbilden är osäker – läs gärna flera recensioner själv. Rosenkvarts är natursten och kan spricka om du tappar den mot ett hårt underlag, så hantera den varsamt. Rengör stenen efter användning. Effekten är subjektiv och varierar mellan olika personer.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Applicera först några droppar ansiktsolja eller serum på ren hud så att stenen glider lätt. För den sedan mjukt utåt över kinder, käke och panna – lugnt och utan att pressa. Rengör stenen efteråt och låt den torka."
+    },
+    "verdict": "Ett trevligt litet ansiktsverktyg för en lugn massageritual – men ett nyare köp med få omdömen.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från 49 omdömen – ett ganska lågt antal. Köpare beskriver massagestunden som skön och avkopplande, men helhetsbilden är fortfarande osäker och effekten är subjektiv.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag en gua sha-sten?", "answer": "Lägg först på lite ansiktsolja eller serum på ren hud så att stenen glider lätt. För den sedan mjukt utåt över ansiktet – lugnt och utan att pressa. Se det som en avkopplande stund snarare än en kur." },
+      { "question": "Vad gör en gua sha egentligen?", "answer": "För många handlar det främst om en skön, avslappnande ansiktsmassage och en lugn ritual i kvällsrutinen. Hur det upplevs är subjektivt och varierar från person till person." },
+      { "question": "Hur sköter jag om en gua sha i rosenkvarts?", "answer": "Rosenkvarts är natursten och kan spricka om den tappas mot ett hårt underlag, så hantera den varsamt. Rengör stenen efter varje användning och låt den torka." }
+    ],
+    "reviewSectionId": "gua-sha-rosenkvarts-recensioner",
+    "reviewFormId": "gua-sha-rosenkvarts-skriv-recension",
+    "targetKeyword": "gua sha",
+    "metaTitle": "Gua sha i rosenkvarts – lugn ansiktsmassage | Elins val",
+    "metaDescription": "Elin går igenom en gua sha-sten i rosenkvarts: ett ansiktsverktyg för en skön, avslappnande massage och en lugn kvällsritual (4,2 av 5, 49 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." },
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "C-vitamin för lyster och glow." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Enkelt fuktsteg i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "gua-sha-rosenkvarts",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51dDZfP8hdL._SL1500_.jpg", "out": "gua-sha-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ZZE69rA5L._SL1500_.jpg", "out": "gua-sha-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41HSxsRMCQL._SL1500_.jpg", "out": "gua-sha-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51pqWbhPl9L._SL1500_.jpg", "out": "gua-sha-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Gua sha-sten i rosenkvarts", "href": "/skonhet/gua-sha", "date": "2026-06-26", "image": "/products/gua-sha-rosenkvarts/gua-sha-thumbnail.webp", "blurb": "Ett viralt ansiktsverktyg i rosenkvarts för en skön, avslappnande ansiktsmassage och en lugn kvällsritual." }
+  ]
+}

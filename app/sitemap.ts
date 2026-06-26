@@ -5,6 +5,66 @@ import { siteConfig } from "@/lib/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
+      url: `${siteConfig.url}/traning/viktvast`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/traning/hopprep`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/halsa/luftrenare`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/tangle-teezer`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/silkesorngott`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/gua-sha`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/laneige-lappmask`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/cicaplast-b5`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/cerave-rengoring`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/vitamin-c-serum`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
       url: siteConfig.url,
       lastModified: new Date(),
       changeFrequency: "monthly",

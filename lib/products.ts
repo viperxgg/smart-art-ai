@@ -2937,7 +2937,862 @@ export const mideaFz10FlaktProduct: Product = {
   comments: [],
 };
 
+export const larochePosayVitaminC10Product: Product = {
+  slug: "la-roche-posay-vitamin-c10-serum",
+  title: "La Roche-Posay Pure Vitamin C10 Serum (30 ml)",
+  category: "skonhet",
+  asin: "B07QL32ZLR",
+  brand: "La Roche-Posay",
+  price: "Se aktuellt pris på Amazon",
+  badges: [
+    "10% ren C-vitamin",
+    "Lyster & glow",
+    "Antioxidant",
+  ],
+  image: "/products/la-roche-posay-vitamin-c10/vitamin-c10-thumbnail.webp",
+  imageAlt: "La Roche-Posay Pure Vitamin C10 Serum, 30 ml",
+  images: [
+    {
+      src: "/products/la-roche-posay-vitamin-c10/vitamin-c10-thumbnail.webp",
+      alt: "La Roche-Posay Pure Vitamin C10 Serum, 30 ml",
+      label: "Vitamin C10",
+    },
+    {
+      src: "/products/la-roche-posay-vitamin-c10/vitamin-c10-1.webp",
+      alt: "La Roche-Posay Vitamin C10 serum med 10% ren C-vitamin",
+      label: "10% C-vitamin",
+    },
+    {
+      src: "/products/la-roche-posay-vitamin-c10/vitamin-c10-2.webp",
+      alt: "La Roche-Posay Vitamin C10 textur och konsistens",
+      label: "Lätt textur",
+    },
+    {
+      src: "/products/la-roche-posay-vitamin-c10/vitamin-c10-3.webp",
+      alt: "Detaljbild av La Roche-Posay Pure Vitamin C10 Serum",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4oMLk7m",
+  pageHref: "/skonhet/vitamin-c-serum",
+  summary: "Ett antioxidantserum med 10% ren C-vitamin som hjälper huden att se piggare och mer strålande ut – för lyster, glow och en jämnare hudton. Lätt textur för känslig hud.",
+  evaluation: {
+    headline: "C-vitamin för lyster och glow",
+    intro: "Elin går igenom La Roche-Posay Pure Vitamin C10: 10% ren C-vitamin plus hyaluronsyra för en piggare, mer strålande hud. C-vitamin är en omtyckt antioxidant-ingrediens för lyster och en jämnare hudton, och formulan är gjord med tanke på känslig hud.",
+    verdict: "Prisvärt apoteksserum för lyster och glow, även för känslig hud.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hudvård",
+  specSectionTitle: "La Roche-Posay Pure Vitamin C10",
+  specs: [
+    {
+      label: "Format",
+      caption: "Typ",
+      value: "Serum, 30 ml",
+    },
+    {
+      label: "Innehåll",
+      caption: "Aktivt",
+      value: "10% ren C-vitamin + hyaluronsyra",
+    },
+    {
+      label: "Profil",
+      caption: "Hudvård",
+      value: "Känslig hud, allergitestad",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4oMLk7m",
+    ratingSummary: "Amazon visar 4,4 av 5 från 256 omdömen.",
+    highlights: [
+      "Köpare upplever en piggare, mer strålande hud med tiden.",
+      "Lätt textur som de flesta tycker absorberas snabbt.",
+      "Uppskattas för att vara skonsam nog även för känslig hud.",
+    ],
+    cautions: [
+      "Ren C-vitamin kan svida lätt i början – börja gärna varannan dag.",
+      "C-vitamin oxiderar med tiden; förvara mörkt och svalt och använd inom rimlig tid.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const ceraveHydratingCleanserProduct: Product = {
+  slug: "cerave-hydrating-cleanser",
+  title: "CeraVe Hydrating Cleanser – ansiktsrengöring (236 ml)",
+  category: "skonhet",
+  asin: "B07C5R51Q9",
+  brand: "CeraVe",
+  price: "Se aktuellt pris på Amazon",
+  badges: [
+    "Ceramider + hyaluronsyra",
+    "Skonsam rengöring",
+    "Oparfymerad",
+  ],
+  image: "/products/cerave-hydrating-cleanser/cerave-thumbnail.webp",
+  imageAlt: "CeraVe Hydrating Cleanser ansiktsrengöring, 236 ml",
+  images: [
+    {
+      src: "/products/cerave-hydrating-cleanser/cerave-thumbnail.webp",
+      alt: "CeraVe Hydrating Cleanser ansiktsrengöring, 236 ml",
+      label: "CeraVe rengöring",
+    },
+    {
+      src: "/products/cerave-hydrating-cleanser/cerave-1.webp",
+      alt: "CeraVe Hydrating Cleanser med ceramider och hyaluronsyra",
+      label: "Ceramider",
+    },
+    {
+      src: "/products/cerave-hydrating-cleanser/cerave-2.webp",
+      alt: "CeraVe Hydrating Cleanser textur och konsistens",
+      label: "Krämig textur",
+    },
+    {
+      src: "/products/cerave-hydrating-cleanser/cerave-3.webp",
+      alt: "Detaljbild av CeraVe Hydrating Cleanser",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4y9hKgT",
+  pageHref: "/skonhet/cerave-rengoring",
+  summary: "En mild daglig ansiktsrengöring med ceramider och hyaluronsyra som rengör utan att torka ut. Lämnar huden mjuk och len – för normal till torr hud, och helt oparfymerad.",
+  evaluation: {
+    headline: "Skonsam daglig rengöring som inte torkar ut",
+    intro: "Elin går igenom CeraVe Hydrating Cleanser: en viral, mild rengöring med ceramider och hyaluronsyra. Den rengör huden utan att dra åt eller torka ut, och lämnar den mjuk och len. Formulan är oparfymerad och gjord för normal till torr hud, vilket gör den enkel att lägga in i en daglig rutin.",
+    verdict: "Skonsam vardagsrengöring för normal till torr hud, oparfymerad och mild.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hudvård",
+  specSectionTitle: "CeraVe Hydrating Cleanser",
+  specs: [
+    {
+      label: "Format",
+      caption: "Typ",
+      value: "Ansiktsrengöring, 236 ml",
+    },
+    {
+      label: "Innehåll",
+      caption: "Aktivt",
+      value: "Ceramider + hyaluronsyra",
+    },
+    {
+      label: "Profil",
+      caption: "Hudvård",
+      value: "Normal till torr hud, oparfymerad",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4y9hKgT",
+    ratingSummary: "Amazon visar 4,5 av 5 från 35 098 omdömen.",
+    highlights: [
+      "Köpare upplever att huden känns ren men inte uttorkad efteråt.",
+      "Krämig, mild textur som de flesta tycker sköljs av enkelt.",
+      "Uppskattas för att vara oparfymerad och skonsam i vardagen.",
+    ],
+    cautions: [
+      "Den löddrar inte mycket, vilket kan kännas ovant om du gillar rik lödder.",
+      "Är du väldigt fet i huden kan du föredra en lättare gel-rengöring.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const larochePosayCicaplastB5Product: Product = {
+  slug: "la-roche-posay-cicaplast-b5",
+  title: "La Roche-Posay Cicaplast Baume B5+ (40 ml)",
+  category: "skonhet",
+  asin: "B00ST2GSRK",
+  brand: "La Roche-Posay",
+  price: "Se aktuellt pris på Amazon",
+  badges: [
+    "Panthenol (B5)",
+    "Lugnar & mjukgör",
+    "Multipurpose",
+  ],
+  image: "/products/la-roche-posay-cicaplast-b5/cicaplast-thumbnail.webp",
+  imageAlt: "La Roche-Posay Cicaplast Baume B5+, 40 ml",
+  images: [
+    {
+      src: "/products/la-roche-posay-cicaplast-b5/cicaplast-thumbnail.webp",
+      alt: "La Roche-Posay Cicaplast Baume B5+, 40 ml",
+      label: "Cicaplast B5+",
+    },
+    {
+      src: "/products/la-roche-posay-cicaplast-b5/cicaplast-1.webp",
+      alt: "La Roche-Posay Cicaplast Baume B5+ med panthenol och shea",
+      label: "Panthenol + shea",
+    },
+    {
+      src: "/products/la-roche-posay-cicaplast-b5/cicaplast-2.webp",
+      alt: "La Roche-Posay Cicaplast Baume B5+ textur och konsistens",
+      label: "Rik balm",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4ar8wSS",
+  pageHref: "/skonhet/cicaplast-b5",
+  summary: "En multifunktionell lugnande balm med panthenol (B5) och shea som återfuktar och mjukgör uttorkad och stram hud. Kan användas på torra läppar, händer och torra partier – med stark 4,7 av 5 från 16 635 omdömen.",
+  evaluation: {
+    headline: "Lugnande balm för torr och stram hud",
+    intro: "Elin går igenom La Roche-Posay Cicaplast Baume B5+: en multifunktionell balm med panthenol (B5) och shea. Den är gjord för att lugna, återfukta och mjukgöra torr, stram och ovan hud, och kan användas på torra partier som läppar och händer. Det stora antalet omdömen, 4,7 av 5 från 16 635, gör den till en av de mest omtyckta balmerna på Amazon.",
+    verdict: "Mångsidig, lugnande balm för torra partier – med riktigt stark social proof.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hudvård",
+  specSectionTitle: "La Roche-Posay Cicaplast Baume B5+",
+  specs: [
+    {
+      label: "Format",
+      caption: "Typ",
+      value: "Balm, 40 ml",
+    },
+    {
+      label: "Innehåll",
+      caption: "Aktivt",
+      value: "Panthenol (B5) + shea",
+    },
+    {
+      label: "Profil",
+      caption: "Hudvård",
+      value: "Torr, stram och ovan hud",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4ar8wSS",
+    ratingSummary: "Amazon visar 4,7 av 5 från 16 635 omdömen.",
+    highlights: [
+      "Köpare upplever att torr och stram hud känns lugnare och mjukare.",
+      "Många använder den på flera ställen – torra läppar, händer och torra partier.",
+      "Den rika texturen uppskattas för uttorkad hud, lite räcker långt.",
+    ],
+    cautions: [
+      "Balmen är rik och kan kännas fet på fukttörstig hud – ta en liten mängd.",
+      "Som med all ny hudvård: testa på en liten yta först om du har känslig hud.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const laneigeLipSleepingMaskProduct: Product = {
+  slug: "laneige-lip-sleeping-mask",
+  title: "LANEIGE Lip Sleeping Mask – läppmask (Berry, 20 g)",
+  category: "skonhet",
+  asin: "B09WCTJ113",
+  brand: "LANEIGE",
+  price: "Se aktuellt pris på Amazon",
+  badges: [
+    "K-beauty-favorit",
+    "Nattläppmask",
+    "Berry-doft",
+  ],
+  image: "/products/laneige-lip-sleeping-mask/laneige-thumbnail.webp",
+  imageAlt: "LANEIGE Lip Sleeping Mask Berry, 20 g",
+  images: [
+    {
+      src: "/products/laneige-lip-sleeping-mask/laneige-thumbnail.webp",
+      alt: "LANEIGE Lip Sleeping Mask Berry, 20 g",
+      label: "Lip Sleeping Mask",
+    },
+    {
+      src: "/products/laneige-lip-sleeping-mask/laneige-1.webp",
+      alt: "LANEIGE Lip Sleeping Mask nattläppmask med berry-doft",
+      label: "Berry-doft",
+    },
+    {
+      src: "/products/laneige-lip-sleeping-mask/laneige-2.webp",
+      alt: "LANEIGE Lip Sleeping Mask textur och konsistens",
+      label: "Mjuk konsistens",
+    },
+    {
+      src: "/products/laneige-lip-sleeping-mask/laneige-3.webp",
+      alt: "Detaljbild av LANEIGE Lip Sleeping Mask, 20 g",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4xRztZY",
+  pageHref: "/skonhet/laneige-lappmask",
+  summary: "En viral K-beauty-läppmask som du lägger på före läggdags och låter vårda läpparna över natten. Med berry-doft, bär-extrakt och vårdande oljor som återfuktar och mjukgör – så att du vaknar med mjuka, smidiga läppar.",
+  evaluation: {
+    headline: "Nattläppmask som återfuktar medan du sover",
+    intro: "Elin går igenom LANEIGE Lip Sleeping Mask: en viral K-beauty-favorit som du masserar in på läpparna före läggdags. Den innehåller bär-extrakt och vårdande oljor som återfuktar och mjukgör, och berry-doften gör steget lite extra mysigt. Tanken är enkel – läpparna får vårdas i lugn och ro medan du sover.",
+    verdict: "Mysig K-beauty-läppmask som återfuktar och mjukgör läpparna över natten.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hudvård",
+  specSectionTitle: "LANEIGE Lip Sleeping Mask",
+  specs: [
+    {
+      label: "Format",
+      caption: "Typ",
+      value: "Läppmask, 20 g",
+    },
+    {
+      label: "Doft",
+      caption: "Variant",
+      value: "Berry",
+    },
+    {
+      label: "Användning",
+      caption: "Rutin",
+      value: "Nattmask, läggs på före läggdags",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4xRztZY",
+    ratingSummary: "Amazon visar 4,6 av 5 från 388 omdömen.",
+    highlights: [
+      "Köpare beskriver mjukare, smidigare läppar på morgonen.",
+      "Berry-doften lyfts ofta fram som mysig och behaglig.",
+      "Lite produkt räcker länge, så burken håller i många månader.",
+    ],
+    cautions: [
+      "Doft och smak är en smaksak – gillar du inte söta toner kan den kännas mycket.",
+      "Konsistensen är ganska tjock och balsamliknande, vilket inte passar alla.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const guaShaRosenkvartsProduct: Product = {
+  slug: "gua-sha-rosenkvarts",
+  title: "Gua sha-sten i rosenkvarts – ansiktsverktyg",
+  category: "skonhet",
+  asin: "B0DT18P85H",
+  brand: "YANKUIRUI",
+  price: "Se aktuellt pris på Amazon",
+  badges: [
+    "Rosenkvarts",
+    "Lugn kvällsritual",
+    "Skön ansiktsmassage",
+  ],
+  image: "/products/gua-sha-rosenkvarts/gua-sha-thumbnail.webp",
+  imageAlt: "Gua sha-sten i rosenkvarts för ansiktsmassage",
+  images: [
+    {
+      src: "/products/gua-sha-rosenkvarts/gua-sha-thumbnail.webp",
+      alt: "Gua sha-sten i rosenkvarts för ansiktsmassage",
+      label: "Rosenkvarts",
+    },
+    {
+      src: "/products/gua-sha-rosenkvarts/gua-sha-1.webp",
+      alt: "Gua sha-sten i rosenkvarts med rundade kanter",
+      label: "Rundade kanter",
+    },
+    {
+      src: "/products/gua-sha-rosenkvarts/gua-sha-2.webp",
+      alt: "Gua sha-sten i rosenkvarts som hålls i handen",
+      label: "Behändigt grepp",
+    },
+    {
+      src: "/products/gua-sha-rosenkvarts/gua-sha-3.webp",
+      alt: "Detaljbild av gua sha-sten i rosenkvarts",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4gdHTEJ",
+  pageHref: "/skonhet/gua-sha",
+  summary: "Ett ansiktsverktyg i rosenkvarts för en skön, avslappnande ansiktsmassage. Många gillar att göra det till en lugn ritual i kvällsrutinen – använd den med ansiktsolja eller serum så glider stenen lätt mot huden. Effekten är subjektiv, men själva stunden upplevs ofta som rofylld.",
+  evaluation: {
+    headline: "En lugn ritual för kvällsrutinen",
+    intro: "Elin går igenom den här gua sha-stenen i rosenkvarts: ett enkelt ansiktsverktyg som många använder för en skön, avslappnande ansiktsmassage. Det handlar inte om mirakel utan om en lugn stund – du för stenen mjukt över ansiktet med lite ansiktsolja eller serum så att den glider lätt. Hur det känns är subjektivt, men själva ritualen är det som de flesta uppskattar.",
+    verdict: "Ett trevligt litet ansiktsverktyg för en lugn massageritual – men ett nyare köp med få omdömen.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hudvård",
+  specSectionTitle: "Gua sha-sten i rosenkvarts",
+  specs: [
+    {
+      label: "Material",
+      caption: "Sten",
+      value: "Naturlig rosenkvarts",
+    },
+    {
+      label: "Användning",
+      caption: "Så funkar det",
+      value: "Med ansiktsolja eller serum",
+    },
+    {
+      label: "Form",
+      caption: "Design",
+      value: "Rundade kanter för ansiktet",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4gdHTEJ",
+    ratingSummary: "Amazon visar 4,2 av 5 från 49 omdömen – ett ganska lågt antal, så betyget kan ändras framöver.",
+    highlights: [
+      "Många beskriver massagestunden som skön och avkopplande.",
+      "Uppskattas som en enkel, lugn ritual i kvällsrutinen.",
+      "Stenen ligger fint i handen och glider lätt med lite ansiktsolja.",
+    ],
+    cautions: [
+      "Få omdömen ännu (49 st), så helhetsbilden är osäker – läs gärna flera recensioner själv.",
+      "Natursten är skör – tappa den inte mot hårt underlag, och rengör den efter användning.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const silkesorngottProduct: Product = {
+  slug: "silkesorngott-mullbarssilke",
+  title: "Örngott i 100% mullbärssilke (19 momme, 40x60 cm)",
+  category: "skonhet",
+  asin: "B0792378YQ",
+  brand: "townssilk",
+  price: "Se aktuellt pris på Amazon",
+  badges: [
+    "100% mullbärssilke",
+    "19 momme",
+    "Mindre friktion",
+  ],
+  image: "/products/silkesorngott/silkesorngott-thumbnail.webp",
+  imageAlt: "Örngott i 100% mullbärssilke, 40x60 cm",
+  images: [
+    {
+      src: "/products/silkesorngott/silkesorngott-thumbnail.webp",
+      alt: "Örngott i 100% mullbärssilke, 40x60 cm",
+      label: "Silkesörngott",
+    },
+    {
+      src: "/products/silkesorngott/silkesorngott-1.webp",
+      alt: "Örngott i 100% mullbärssilke med slät yta",
+      label: "Slät yta",
+    },
+    {
+      src: "/products/silkesorngott/silkesorngott-2.webp",
+      alt: "Silkesörngott i 19 momme mullbärssilke",
+      label: "19 momme",
+    },
+    {
+      src: "/products/silkesorngott/silkesorngott-3.webp",
+      alt: "Detaljbild av örngott i 100% mullbärssilke",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vR9513",
+  pageHref: "/skonhet/silkesorngott",
+  summary: "Ett örngott i 100% mullbärssilke (19 momme) med en slät yta som ger mindre friktion mot hår och hud. Det innebär ofta mindre frizz, färre bäddveck och färre tovor på morgonen – och det känns skönt och svalt att sova på.",
+  evaluation: {
+    headline: "Slät silkesyta för mindre frizz",
+    intro: "Elin går igenom örngottet i 100% mullbärssilke: 19 momme och en len, slät yta som ger mindre friktion mot håret och huden medan du sover. Mindre friktion betyder ofta mindre frizz, färre bäddveck och färre tovor på morgonen, plus en svalare känsla mot kinden.",
+    verdict: "Skönt silkesörngott för mindre frizz och mjukare morgnar – med stark social proof.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hårvård",
+  specSectionTitle: "Örngott i 100% mullbärssilke",
+  specs: [
+    {
+      label: "Material",
+      caption: "Tyg",
+      value: "100% mullbärssilke, 19 momme",
+    },
+    {
+      label: "Storlek",
+      caption: "Mått",
+      value: "40x60 cm",
+    },
+    {
+      label: "Effekt",
+      caption: "Känsla",
+      value: "Slät yta, mindre friktion mot hår och hud",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vR9513",
+    ratingSummary: "Amazon visar 4,5 av 5 från 6 754 omdömen.",
+    highlights: [
+      "Köpare upplever mindre frizz och färre tovor i håret på morgonen.",
+      "Den släta silkesytan beskrivs som len och sval mot huden.",
+      "Många tycker att de vaknar med färre bäddveck i ansiktet.",
+    ],
+    cautions: [
+      "Silke kräver skonsam tvätt – följ silkesprogram eller handtvätt så håller örngottet längre.",
+      "Mullbärssilke ligger i en högre prisklass än vanliga bomullsörngott.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const tangleTeezerOriginalProduct: Product = {
+  slug: "tangle-teezer-original",
+  title: "Tangle Teezer The Original – utredande hårborste",
+  category: "skonhet",
+  asin: "B0086QEO7K",
+  brand: "Tangle Teezer",
+  price: "Se aktuellt pris på Amazon",
+  badges: [
+    "Reder ut tovor",
+    "Vått & torrt hår",
+    "Nätt & greppvänlig",
+  ],
+  image: "/products/tangle-teezer-original/tangle-teezer-thumbnail.webp",
+  imageAlt: "Tangle Teezer The Original utredande hårborste",
+  images: [
+    {
+      src: "/products/tangle-teezer-original/tangle-teezer-thumbnail.webp",
+      alt: "Tangle Teezer The Original utredande hårborste",
+      label: "The Original",
+    },
+    {
+      src: "/products/tangle-teezer-original/tangle-teezer-1.webp",
+      alt: "Tangle Teezer The Original med flexibla tänder som reder ut tovor",
+      label: "Flexibla tänder",
+    },
+    {
+      src: "/products/tangle-teezer-original/tangle-teezer-2.webp",
+      alt: "Tangle Teezer The Original nätt och greppvänlig form",
+      label: "Greppvänlig",
+    },
+    {
+      src: "/products/tangle-teezer-original/tangle-teezer-3.webp",
+      alt: "Detaljbild av Tangle Teezer The Original utredande hårborste",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4aqEZZn",
+  pageHref: "/skonhet/tangle-teezer",
+  summary: "En ikonisk utredande hårborste vars flexibla tänder reder ut tovor skonsamt på både vått och torrt hår – med mindre drag och mindre brott. Nätt och greppvänlig form som passar i necessären och på resan.",
+  evaluation: {
+    headline: "Utredande borste för skonsam utredning",
+    intro: "Elin går igenom Tangle Teezer The Original: en utredande hårborste med flexibla tänder i två längder som reder ut tovor steg för steg, på både vått och torrt hår. Det är en omtyckt klassiker som ofta lyfts fram för att den ger mindre drag i håret än en vanlig borste.",
+    verdict: "En skonsam, greppvänlig utredande borste för vardagligt bruk – med enormt socialt stöd.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hårstyling (verktyg)",
+  specSectionTitle: "Tangle Teezer The Original",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Verktyg",
+      value: "Utredande hårborste",
+    },
+    {
+      label: "Tänder",
+      caption: "Konstruktion",
+      value: "Flexibla tänder i två längder",
+    },
+    {
+      label: "Form",
+      caption: "Hantering",
+      value: "Nätt, greppvänlig, utan handtag",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4aqEZZn",
+    ratingSummary: "Amazon visar 4,7 av 5 från 44 850 omdömen.",
+    highlights: [
+      "Köpare upplever att tovor reds ut med mindre drag i håret.",
+      "Uppskattas på både vått och torrt hår i den dagliga rutinen.",
+      "Den nätta, greppvänliga formen lyfts fram som smidig att hålla i.",
+    ],
+    cautions: [
+      "Ingen mirakelborste för väldigt långt eller mycket lockigt hår – jobba i sektioner och nedifrån och upp.",
+      "Tänderna fångar lossnat hår; rengör borsten regelbundet för bästa funktion.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const levoitCore200sProduct: Product = {
+  slug: "levoit-core-200s-luftrenare",
+  title: "Levoit Core 200S luftrenare med HEPA-filter",
+  category: "halsa",
+  asin: "B08FJ678YK",
+  brand: "Levoit",
+  price: "Se aktuellt pris på Amazon",
+  badges: [
+    "HEPA-filter",
+    "Tyst nattläge",
+    "App & röststyrning",
+  ],
+  image: "/products/levoit-luftrenare/levoit-thumbnail.webp",
+  imageAlt: "Levoit Core 200S luftrenare med HEPA-filter, vit",
+  images: [
+    {
+      src: "/products/levoit-luftrenare/levoit-thumbnail.webp",
+      alt: "Levoit Core 200S luftrenare med HEPA-filter, vit",
+      label: "Levoit Core 200S",
+    },
+    {
+      src: "/products/levoit-luftrenare/levoit-1.webp",
+      alt: "Levoit Core 200S luftrenare med 3-lagers HEPA-filter",
+      label: "3-lagers filter",
+    },
+    {
+      src: "/products/levoit-luftrenare/levoit-2.webp",
+      alt: "Levoit Core 200S med app- och röststyrning",
+      label: "App-styrning",
+    },
+    {
+      src: "/products/levoit-luftrenare/levoit-3.webp",
+      alt: "Detaljbild av Levoit Core 200S luftrenare",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4aTddF2",
+  pageHref: "/halsa/luftrenare",
+  summary: "En kompakt smart luftrenare med 3-lagers HEPA-filter som fångar damm, pollen och partiklar för renare luft hemma. Tyst nattläge plus app- och röststyrning.",
+  evaluation: {
+    headline: "Renare luft med tyst nattläge",
+    intro: "Elin går igenom Levoit Core 200S: en kompakt smart luftrenare med 3-lagers HEPA-filter som fångar damm, pollen och partiklar i luften. Tyst nattläge och styrning via app eller röst gör den enkel att ha igång i sovrum och mindre rum.",
+    verdict: "Prisvärd, smart luftrenare för renare luft i sovrum och mindre rum.",
+    checks: [],
+  },
+  specSectionEyebrow: "Smart hem",
+  specSectionTitle: "Levoit Core 200S luftrenare",
+  specs: [
+    {
+      label: "Filter",
+      caption: "Typ",
+      value: "3-lagers HEPA-filter",
+    },
+    {
+      label: "Ljud",
+      caption: "Nattläge",
+      value: "Tyst drift, dämpad display",
+    },
+    {
+      label: "Smart",
+      caption: "Styrning",
+      value: "App + röststyrning, timer",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4aTddF2",
+    ratingSummary: "Amazon visar 4,6 av 5 från 31 901 omdömen.",
+    highlights: [
+      "Köpare upplever luften som fräschare och mindre dammig.",
+      "Uppskattas för att vara riktigt tyst på nattläget.",
+      "Kompakt storlek och enkel app- och röststyrning lyfts ofta fram.",
+    ],
+    cautions: [
+      "Passar bäst i sovrum och mindre rum, inte stora ytor.",
+      "HEPA-filtret är en förbrukningsvara som behöver bytas med jämna mellanrum.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const portentumHoppRepProduct: Product = {
+  slug: "portentum-hopprep",
+  title: "PORTENTUM hopprep med kullager (justerbart, 2,8 m)",
+  category: "traning",
+  asin: "B0DCT1PYCM",
+  brand: "PORTENTUM",
+  price: "Se aktuellt pris på Amazon",
+  badges: [
+    "Justerbar längd",
+    "Kullager",
+    "Halkfritt grepp",
+  ],
+  image: "/products/portentum-hopprep/hopprep-thumbnail.webp",
+  imageAlt: "PORTENTUM hopprep med kullager och halkfritt skumgrepp",
+  images: [
+    {
+      src: "/products/portentum-hopprep/hopprep-thumbnail.webp",
+      alt: "PORTENTUM hopprep med kullager och halkfritt skumgrepp",
+      label: "PORTENTUM hopprep",
+    },
+    {
+      src: "/products/portentum-hopprep/hopprep-1.webp",
+      alt: "PORTENTUM hopprep med justerbar stålvajer",
+      label: "Justerbar vajer",
+    },
+    {
+      src: "/products/portentum-hopprep/hopprep-2.webp",
+      alt: "PORTENTUM hopprep med kullager för jämn rotation",
+      label: "Kullager",
+    },
+    {
+      src: "/products/portentum-hopprep/hopprep-3.webp",
+      alt: "Detaljbild av PORTENTUM hopprep med skumgrepp",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3SxKQGf",
+  pageHref: "/traning/hopprep",
+  summary: "Ett prisvärt hopprep med kullager och justerbar stålvajer för jämn, snabb rotation. Halkfritt skumgrepp gör det skönt att hålla i – smidig kondition hemma eller på gymmet.",
+  evaluation: {
+    headline: "Prisvärt hopprep för kondition hemma",
+    intro: "Elin går igenom PORTENTUM hopprep: kullager för jämn rotation, justerbar stålvajer som du kapar till din längd och ett halkfritt skumgrepp. Ett enkelt, prisvärt sätt att få in mer puls i vardagen, hemma eller på gymmet.",
+    verdict: "Prisvärt, smidigt hopprep för kondition och uppvärmning.",
+    checks: [],
+  },
+  specSectionEyebrow: "Kondition",
+  specSectionTitle: "PORTENTUM hopprep",
+  specs: [
+    {
+      label: "Vajer",
+      caption: "Längd",
+      value: "Justerbar stålvajer, upp till 2,8 m",
+    },
+    {
+      label: "Rotation",
+      caption: "Lager",
+      value: "Kullager för jämn rotation",
+    },
+    {
+      label: "Grepp",
+      caption: "Handtag",
+      value: "Halkfritt skumgrepp",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3SxKQGf",
+    ratingSummary: "Amazon visar 4,4 av 5 från 911 omdömen.",
+    highlights: [
+      "Köpare upplever rotationen som jämn och snabb tack vare kullagren.",
+      "Greppet beskrivs som skönt och halkfritt även med svettiga händer.",
+      "Enkelt att justera vajern till sin egen längd.",
+    ],
+    cautions: [
+      "Du behöver kapa vajern till rätt längd vid första användning.",
+      "Stålvajern passar bäst på jämnt underlag – slitage ökar på grov asfalt.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const ericFlagViktvastProduct: Product = {
+  slug: "eric-flag-viktvast",
+  title: "Eric Flag viktväst med justerbar vikt (10/20 kg)",
+  category: "traning",
+  asin: "B09WB1BF81",
+  brand: "Eric Flag",
+  price: "Se aktuellt pris på Amazon",
+  badges: [
+    "Justerbar vikt",
+    "Löstagbara vikter",
+    "Kardborrespänne",
+  ],
+  image: "/products/eric-flag-viktvast/viktvast-thumbnail.webp",
+  imageAlt: "Eric Flag viktväst med justerbar vikt och löstagbara järnvikter",
+  images: [
+    {
+      src: "/products/eric-flag-viktvast/viktvast-thumbnail.webp",
+      alt: "Eric Flag viktväst med justerbar vikt och löstagbara järnvikter",
+      label: "Eric Flag viktväst",
+    },
+    {
+      src: "/products/eric-flag-viktvast/viktvast-1.webp",
+      alt: "Eric Flag viktväst med löstagbara järnvikter",
+      label: "Löstagbara vikter",
+    },
+    {
+      src: "/products/eric-flag-viktvast/viktvast-2.webp",
+      alt: "Eric Flag viktväst med justerbart kardborrespänne",
+      label: "Justerbar passform",
+    },
+    {
+      src: "/products/eric-flag-viktvast/viktvast-3.webp",
+      alt: "Detaljbild av Eric Flag viktväst",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3QBWm2N",
+  pageHref: "/traning/viktvast",
+  summary: "En justerbar viktväst med löstagbara järnvikter som ökar belastningen vid promenad, gång och hemmaträning. Sitter tajt med kardborrespänne för stabil passform.",
+  evaluation: {
+    headline: "Justerbar viktväst för mer belastning",
+    intro: "Elin går igenom Eric Flag viktväst: löstagbara järnvikter som låter dig justera tyngden, och ett kardborrespänne som håller västen tajt mot kroppen. Ett enkelt sätt att öka belastningen vid promenad, gång och hemmaträning.",
+    verdict: "Stabil, justerbar viktväst för promenad och hemmaträning.",
+    checks: [],
+  },
+  specSectionEyebrow: "Vikter",
+  specSectionTitle: "Eric Flag viktväst",
+  specs: [
+    {
+      label: "Vikt",
+      caption: "Alternativ",
+      value: "Justerbar, 10 eller 20 kg",
+    },
+    {
+      label: "Vikter",
+      caption: "Typ",
+      value: "Löstagbara järnvikter",
+    },
+    {
+      label: "Passform",
+      caption: "Spänne",
+      value: "Justerbart kardborrespänne",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3QBWm2N",
+    ratingSummary: "Amazon visar 4,7 av 5 från 1 237 omdömen.",
+    highlights: [
+      "Köpare upplever att västen sitter stabilt och tajt under träning.",
+      "Möjligheten att ta bort och lägga till vikter uppskattas mycket.",
+      "Bra upplevd kvalitet och sömnad för priset.",
+    ],
+    cautions: [
+      "Full vikt kan kännas mycket i början – börja lägre och öka gradvis.",
+      "Storlek och passform upplevs olika beroende på kroppstyp.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
+  ericFlagViktvastProduct,
+  portentumHoppRepProduct,
+  levoitCore200sProduct,
+  tangleTeezerOriginalProduct,
+  silkesorngottProduct,
+  guaShaRosenkvartsProduct,
+  laneigeLipSleepingMaskProduct,
+  larochePosayCicaplastB5Product,
+  ceraveHydratingCleanserProduct,
+  larochePosayVitaminC10Product,
   featuredProduct,
   jakkofoxxLoopbandProduct,
   amazonBasicsKettlebellProduct,

@@ -1,0 +1,112 @@
+{
+  "exportName": "portentumHoppRepProduct",
+  "system": "traning",
+  "category": "traning",
+  "categoryGroup": "Kondition",
+  "route": "traning/hopprep",
+  "pageComponentName": "HoppRepPage",
+  "product": {
+    "slug": "portentum-hopprep",
+    "title": "PORTENTUM hopprep med kullager (justerbart, 2,8 m)",
+    "category": "traning",
+    "asin": "B0DCT1PYCM",
+    "brand": "PORTENTUM",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Justerbar längd", "Kullager", "Halkfritt grepp"],
+    "image": "/products/portentum-hopprep/hopprep-thumbnail.webp",
+    "imageAlt": "PORTENTUM hopprep med kullager och halkfritt skumgrepp",
+    "images": [
+      { "src": "/products/portentum-hopprep/hopprep-thumbnail.webp", "alt": "PORTENTUM hopprep med kullager och halkfritt skumgrepp", "label": "PORTENTUM hopprep" },
+      { "src": "/products/portentum-hopprep/hopprep-1.webp", "alt": "PORTENTUM hopprep med justerbar stålvajer", "label": "Justerbar vajer" },
+      { "src": "/products/portentum-hopprep/hopprep-2.webp", "alt": "PORTENTUM hopprep med kullager för jämn rotation", "label": "Kullager" },
+      { "src": "/products/portentum-hopprep/hopprep-3.webp", "alt": "Detaljbild av PORTENTUM hopprep med skumgrepp", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3SxKQGf",
+    "pageHref": "/traning/hopprep",
+    "summary": "Ett prisvärt hopprep med kullager och justerbar stålvajer för jämn, snabb rotation. Halkfritt skumgrepp gör det skönt att hålla i – smidig kondition hemma eller på gymmet.",
+    "evaluation": {
+      "headline": "Prisvärt hopprep för kondition hemma",
+      "intro": "Elin går igenom PORTENTUM hopprep: kullager för jämn rotation, justerbar stålvajer som du kapar till din längd och ett halkfritt skumgrepp. Ett enkelt, prisvärt sätt att få in mer puls i vardagen, hemma eller på gymmet.",
+      "verdict": "Prisvärt, smidigt hopprep för kondition och uppvärmning.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Kondition",
+    "specSectionTitle": "PORTENTUM hopprep",
+    "specs": [
+      { "label": "Vajer", "caption": "Längd", "value": "Justerbar stålvajer, upp till 2,8 m" },
+      { "label": "Rotation", "caption": "Lager", "value": "Kullager för jämn rotation" },
+      { "label": "Grepp", "caption": "Handtag", "value": "Halkfritt skumgrepp" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3SxKQGf",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 911 omdömen.",
+      "highlights": [
+        "Köpare upplever rotationen som jämn och snabb tack vare kullagren.",
+        "Greppet beskrivs som skönt och halkfritt även med svettiga händer.",
+        "Enkelt att justera vajern till sin egen längd."
+      ],
+      "cautions": [
+        "Du behöver kapa vajern till rätt längd vid första användning.",
+        "Stålvajern passar bäst på jämnt underlag – slitage ökar på grov asfalt."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/hopprep",
+    "cardBadge": "Kondition",
+    "cardHook": "Kullager och justerbar vajer för jämn, snabb rotation.",
+    "cardImage": "/products/portentum-hopprep/hopprep-thumbnail.webp",
+    "cardImageAlt": "PORTENTUM hopprep med kullager och halkfritt skumgrepp",
+    "badge": "Elins prisvärda val",
+    "headline": "PORTENTUM hopprep – smidig kondition hemma",
+    "shortBody": "Ett prisvärt hopprep med kullager och justerbar stålvajer för jämn, snabb rotation. Halkfritt skumgrepp gör det skönt att hålla i, både hemma och på gymmet.",
+    "valueHook": "Prisvärt hopprep för kondition hemma",
+    "valueStatement": "PORTENTUM hopprep är ett enkelt, prisvärt sätt att få in mer kondition i vardagen. Kullagren ger en jämn och snabb rotation, den justerbara stålvajern kapar du till din egen längd och det halkfria skumgreppet sitter skönt även när händerna blir svettiga. Amazon visar 4,4 av 5 från 911 omdömen, och köpare lyfter framför allt den jämna rotationen och det stadiga greppet.",
+    "passFor": [
+      "Vill ha ett prisvärt sätt att träna kondition hemma eller på gymmet.",
+      "Gillar jämn, snabb rotation tack vare kullager.",
+      "Vill kunna justera repets längd efter sin egen kroppslängd."
+    ],
+    "caution": "Vajern behöver kapas till rätt längd vid första användning, och stålvajern passar bäst på jämnt underlag eftersom grov asfalt sliter mer. Börja i lugnt tempo tills tekniken sitter.",
+    "usageGuidance": {
+      "title": "Så kommer du igång",
+      "text": "Ställ dig mitt på repet och kapa vajern så att handtagen når ungefär till armhålorna. Börja med korta intervaller på jämnt underlag och öka tempot när tekniken sitter."
+    },
+    "verdict": "Prisvärt, smidigt hopprep för kondition och uppvärmning.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 911 omdömen. Köpare beskriver rotationen som jämn och greppet som halkfritt, men vajern behöver kapas till rätt längd först.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur justerar jag längden på hopprepet?", "answer": "Ställ dig mitt på vajern och kapa den så att handtagen når ungefär upp till armhålorna. Då får du en längd som passar din kroppslängd." },
+      { "question": "Passar repet för nybörjare?", "answer": "Ja, börja i lugnt tempo med korta intervaller tills tekniken sitter. Kullagren gör rotationen jämn vilket underlättar i början." },
+      { "question": "Kan jag hoppa utomhus med det?", "answer": "Det går bra på jämnt underlag. Tänk på att grov asfalt sliter mer på stålvajern, så ett jämnt golv eller en matta håller repet längre." }
+    ],
+    "reviewSectionId": "portentum-hopprep-recensioner",
+    "reviewFormId": "portentum-hopprep-skriv-recension",
+    "targetKeyword": "hopprep",
+    "metaTitle": "PORTENTUM hopprep – prisvärt med kullager | Elins val",
+    "metaDescription": "Elin går igenom PORTENTUM hopprep: justerbar stålvajer, kullager för jämn rotation och halkfritt grepp (4,4 av 5, 911 omdömen) – smidig kondition hemma.",
+    "relatedLinks": [
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Mångsidig styrketräning hemma." },
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Skönt underlag för golvövningar." },
+      { "href": "/traning/hantlar", "label": "Hantlar", "text": "Bygg styrka med justerbara vikter." }
+    ]
+  },
+  "images": {
+    "dir": "portentum-hopprep",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81WrtOsLB9L._SL1500_.jpg", "out": "hopprep-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/516X0nqLEML._SL1500_.jpg", "out": "hopprep-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51hyHnd3nxL._SL1500_.jpg", "out": "hopprep-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51fakJHF+UL._SL1500_.jpg", "out": "hopprep-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "PORTENTUM hopprep", "href": "/traning/hopprep", "date": "2026-06-26", "image": "/products/portentum-hopprep/hopprep-thumbnail.webp", "blurb": "Prisvärt hopprep med kullager och justerbar vajer för jämn rotation." }
+  ]
+}

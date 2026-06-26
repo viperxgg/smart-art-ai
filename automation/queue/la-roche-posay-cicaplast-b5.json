@@ -1,0 +1,109 @@
+{
+  "exportName": "larochePosayCicaplastB5Product",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/cicaplast-b5",
+  "pageComponentName": "CicaplastB5Page",
+  "product": {
+    "slug": "la-roche-posay-cicaplast-b5",
+    "title": "La Roche-Posay Cicaplast Baume B5+ (40 ml)",
+    "category": "skonhet",
+    "asin": "B00ST2GSRK",
+    "brand": "La Roche-Posay",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Panthenol (B5)", "Lugnar & mjukgör", "Multipurpose"],
+    "image": "/products/la-roche-posay-cicaplast-b5/cicaplast-thumbnail.webp",
+    "imageAlt": "La Roche-Posay Cicaplast Baume B5+, 40 ml",
+    "images": [
+      { "src": "/products/la-roche-posay-cicaplast-b5/cicaplast-thumbnail.webp", "alt": "La Roche-Posay Cicaplast Baume B5+, 40 ml", "label": "Cicaplast B5+" },
+      { "src": "/products/la-roche-posay-cicaplast-b5/cicaplast-1.webp", "alt": "La Roche-Posay Cicaplast Baume B5+ med panthenol och shea", "label": "Panthenol + shea" },
+      { "src": "/products/la-roche-posay-cicaplast-b5/cicaplast-2.webp", "alt": "La Roche-Posay Cicaplast Baume B5+ textur och konsistens", "label": "Rik balm" }
+    ],
+    "amazonUrl": "https://amzn.to/4ar8wSS",
+    "pageHref": "/skonhet/cicaplast-b5",
+    "summary": "En multifunktionell lugnande balm med panthenol (B5) och shea som återfuktar och mjukgör uttorkad och stram hud. Kan användas på torra läppar, händer och torra partier – med stark 4,7 av 5 från 16 635 omdömen.",
+    "evaluation": {
+      "headline": "Lugnande balm för torr och stram hud",
+      "intro": "Elin går igenom La Roche-Posay Cicaplast Baume B5+: en multifunktionell balm med panthenol (B5) och shea. Den är gjord för att lugna, återfukta och mjukgöra torr, stram och ovan hud, och kan användas på torra partier som läppar och händer. Det stora antalet omdömen, 4,7 av 5 från 16 635, gör den till en av de mest omtyckta balmerna på Amazon.",
+      "verdict": "Mångsidig, lugnande balm för torra partier – med riktigt stark social proof.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "La Roche-Posay Cicaplast Baume B5+",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Balm, 40 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Panthenol (B5) + shea" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Torr, stram och ovan hud" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4ar8wSS",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 16 635 omdömen.",
+      "highlights": [
+        "Köpare upplever att torr och stram hud känns lugnare och mjukare.",
+        "Många använder den på flera ställen – torra läppar, händer och torra partier.",
+        "Den rika texturen uppskattas för uttorkad hud, lite räcker långt."
+      ],
+      "cautions": [
+        "Balmen är rik och kan kännas fet på fukttörstig hud – ta en liten mängd.",
+        "Som med all ny hudvård: testa på en liten yta först om du har känslig hud."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/cicaplast-b5",
+    "cardBadge": "Lugnar & mjukgör",
+    "cardHook": "Panthenol (B5) och shea som lugnar och återfuktar torr hud.",
+    "cardImage": "/products/la-roche-posay-cicaplast-b5/cicaplast-thumbnail.webp",
+    "cardImageAlt": "La Roche-Posay Cicaplast Baume B5+, 40 ml",
+    "badge": "Elins lugna-favorit",
+    "headline": "La Roche-Posay Cicaplast B5+ – lugnar och mjukgör",
+    "shortBody": "En multifunktionell balm med panthenol (B5) och shea. Gjord för att lugna, återfukta och mjukgöra torr och stram hud, och fungerar fint på torra partier som läppar och händer.",
+    "valueHook": "Lugnande balm för torr och stram hud",
+    "valueStatement": "La Roche-Posay Cicaplast Baume B5+ är en mångsidig balm för dig som vill lugna och återfukta torr, stram och ovan hud. Formulan bygger på panthenol (B5) tillsammans med shea, en kombination som mjukgör uttorkade partier och hjälper huden att kännas mer komfortabel. Den kan användas på flera ställen – torra läppar, händer och torra partier på kroppen. Amazon visar 4,7 av 5 från 16 635 omdömen, en av de starkaste sociala bevisen i kategorin, och köpare lyfter framför allt hur lugnande och mjukgörande den känns.",
+    "passFor": [
+      "Har torr, stram eller ovan hud och vill ha en lugnande balm.",
+      "Vill ha en multipurpose-balm för torra läppar, händer och torra partier.",
+      "Gillar en rik textur som mjukgör uttorkad hud."
+    ],
+    "caution": "Balmen är rik och kan kännas fet om du tar för mycket eller har fukttörstig hud – en liten mängd räcker långt. Som med all ny hudvård: testa gärna på en liten yta först om du har känslig hud.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Ta en liten mängd och massera in på torra, strama partier vid behov – på ansikte, läppar, händer eller torra ställen på kroppen. Lite räcker långt, så lägg på tunt och bygg på vid behov."
+    },
+    "verdict": "Mångsidig, lugnande balm för torra partier – med riktigt stark social proof.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 16 635 omdömen. Köpare beskriver en lugnande, mjukgörande balm för torr hud som funkar på flera ställen, men texturen är rik och en liten mängd räcker.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Var kan jag använda Cicaplast B5+?", "answer": "Den är multifunktionell och kan användas på torra, strama partier – som läppar, händer och torra ställen på kroppen. Ta en liten mängd och massera in vid behov." },
+      { "question": "Passar Cicaplast B5+ torr och stram hud?", "answer": "Ja, den är gjord för att lugna, återfukta och mjukgöra torr, stram och ovan hud tack vare panthenol (B5) och shea. Texturen är rik, så lite räcker långt." },
+      { "question": "Hur mycket ska jag ta?", "answer": "Eftersom balmen är rik räcker en liten mängd. Lägg på tunt på torra partier och bygg på vid behov så att den inte känns för fet." }
+    ],
+    "reviewSectionId": "la-roche-posay-cicaplast-b5-recensioner",
+    "reviewFormId": "la-roche-posay-cicaplast-b5-skriv-recension",
+    "targetKeyword": "cicaplast",
+    "metaTitle": "La Roche-Posay Cicaplast B5+ – lugnar & mjukgör | Elins val",
+    "metaDescription": "Elin går igenom La Roche-Posay Cicaplast Baume B5+: en lugnande balm med panthenol (B5) och shea för torr och stram hud (4,7 av 5, 16 635 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Enkelt fuktsteg i rutinen." },
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "C-vitamin för lyster och glow." }
+    ]
+  },
+  "images": {
+    "dir": "la-roche-posay-cicaplast-b5",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51HyPOxCQGL._SL1500_.jpg", "out": "cicaplast-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31jL57JqCgL._SL1500_.jpg", "out": "cicaplast-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51zvdEzyfnL._SL1500_.jpg", "out": "cicaplast-2.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "La Roche-Posay Cicaplast Baume B5+", "href": "/skonhet/cicaplast-b5", "date": "2026-06-26", "image": "/products/la-roche-posay-cicaplast-b5/cicaplast-thumbnail.webp", "blurb": "Lugnande, återfuktande balm med panthenol (B5) och shea för torr och stram hud." }
+  ]
+}
