@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Camera, Mail, Music2, Sparkles } from "lucide-react";
+import { ArrowUpRight, Camera, Mail, Music2 } from "lucide-react";
 
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { comparisonEntries } from "@/lib/comparisons";
@@ -14,8 +14,6 @@ import { getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 import { sommarPicks, sommarSectionCopy } from "@/lib/sommar";
 
-const elinHeroSrc = "/elin/elin-hero.webp";
-
 const topPicks = [...products]
   .sort(
     (a, b) =>
@@ -25,6 +23,54 @@ const topPicks = [...products]
   .slice(0, 6);
 
 const selectedComparisons = comparisonEntries.slice(0, 6);
+
+type LatestUpdate = {
+  type: "Guide" | "Hudvård";
+  title: string;
+  href: string;
+  date: `${number}-${number}-${number}`;
+  blurb: string;
+};
+
+// Lägg till nyaste överst
+const latestUpdates = [
+  {
+    type: "Guide",
+    title: "15 ärliga köpråd – Värt priset?",
+    href: "/guider",
+    date: "2026-06-26",
+    blurb:
+      "Är premium värt det, eller räcker budget? Elin går igenom det ärligt.",
+  },
+  {
+    type: "Guide",
+    title: "Hyaluronsyra: dyrt vs budget",
+    href: "/guider/hyaluronsyra-dyrt-vs-budget",
+    date: "2026-06-26",
+    blurb: "Betalar du för mer än fukt? Den ärliga skillnaden.",
+  },
+  {
+    type: "Guide",
+    title: "Dyson Airwrap eller varmluftsborste?",
+    href: "/guider/dyson-airwrap-eller-varmluftsborste",
+    date: "2026-06-25",
+    blurb: "Vad du faktiskt får – och när det billigare räcker.",
+  },
+  {
+    type: "Hudvård",
+    title: "The INKEY List 10% Niacinamide",
+    href: "/skonhet/niacinamide-serum",
+    date: "2026-06-24",
+    blurb: "Prisvärt serum som mattar fett och jämnar hudtonen.",
+  },
+  {
+    type: "Hudvård",
+    title: "Minimalist Hyaluronsyra-serum",
+    href: "/skonhet/hyaluronsyra-serum",
+    date: "2026-06-20",
+    blurb: "Parfymfritt fukt-serum som återfuktar på flera nivåer.",
+  },
+] satisfies LatestUpdate[];
 
 export function ProductDiscoveryLanding() {
   return (
@@ -37,7 +83,7 @@ export function ProductDiscoveryLanding() {
       <section className="relative mx-auto box-border w-full max-w-[27rem] min-w-0 overflow-hidden px-4 pb-[calc(7.5rem+env(safe-area-inset-bottom))] pt-5 sm:max-w-[46rem] sm:px-8 lg:max-w-6xl">
         <SiteHeader />
         <CategoryNav />
-        <Hero />
+        <LatestUpdates />
         <CategoryGateway />
         <SeasonalStrip />
         <Favorites />
@@ -118,62 +164,81 @@ function CategoryNav() {
   );
 }
 
-function Hero() {
+function LatestUpdates() {
+  const latest = [...latestUpdates]
+    .sort(
+      (a, b) =>
+        new Date(`${b.date}T00:00:00`).getTime() -
+        new Date(`${a.date}T00:00:00`).getTime(),
+    )
+    .slice(0, 4);
+
+  const now = new Date();
+  const newBadgeWindowMs = 14 * 24 * 60 * 60 * 1000;
+
   return (
-    <section className="mt-8 grid gap-6 rounded-[2.4rem] border border-[#efc6cc] bg-white/52 p-4 shadow-[0_30px_90px_rgba(216,131,146,0.16)] backdrop-blur-xl sm:mt-12 sm:p-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:p-8">
-      <div className="relative mx-auto aspect-square w-full max-w-[34rem] overflow-hidden rounded-full shadow-[0_24px_70px_rgba(185,131,166,0.12)]">
-        <Image
-          src={elinHeroSrc}
-          alt="Elin från Elins val"
-          fill
-          sizes="(min-width: 1024px) 420px, 92vw"
-          className="object-cover object-center"
-          priority
-        />
+    <section className="mt-8 sm:mt-10" aria-labelledby="latest-updates-title">
+      <div className="max-w-3xl">
+        <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
+          Senast tillagt
+        </p>
+        <h1
+          id="latest-updates-title"
+          className="editorial-color-kiss mt-2 font-display text-[2.65rem] leading-[1.02] tracking-normal sm:text-6xl"
+        >
+          Nytt hos Elin – värt priset?
+        </h1>
+        <p className="mt-3 max-w-2xl text-base leading-7 text-[#765965] sm:text-lg sm:leading-8">
+          De senaste guiderna och fynden – så du slipper leta.
+        </p>
       </div>
 
-      <div className="min-w-0">
-        <p className="inline-flex min-h-11 items-center gap-2 rounded-full border border-[#efc6cc] bg-white/72 px-4 text-xs font-black uppercase tracking-[0.12em] text-[#a96876] shadow-[0_18px_50px_rgba(216,131,146,0.12)] backdrop-blur">
-          <Sparkles size={17} aria-hidden="true" />
-          Utvald av Elin
-        </p>
-        <h1 className="editorial-color-kiss mt-6 font-display text-[3rem] leading-[0.98] tracking-normal sm:text-[5.8rem] sm:tracking-[-0.045em]">
-          Hej, jag är Elin.
-        </h1>
-        <div className="mt-6 max-w-2xl border-l-[3px] border-[#e4a4b1] pl-5 sm:pl-6">
-          <p className="font-display text-[1.95rem] leading-[1.12] text-[#6d3c4d] sm:text-[2.55rem]">
-            Jag letar efter produkter som faktiskt är{" "}
-            <span className="rounded-[1.2rem] bg-[#ffe0e7] px-2 text-[#bf5d73] shadow-[0_12px_30px_rgba(216,120,141,0.14)]">
-              värda pengarna
-            </span>
-            .
-          </p>
-          <p className="mt-4 font-display text-[1.25rem] leading-8 text-[#8a6670] sm:text-[1.55rem] sm:leading-9">
-            Jag jämför <span className="text-[#b85b89]">betyg</span>,{" "}
-            <span className="text-[#8b6aa5]">specifikationer</span> och{" "}
-            <span className="rounded-full bg-[#fff0c7] px-2 text-[#8a6641]">
-              tusentals recensioner
-            </span>{" "}
-            så att du slipper välja i blindo.
-          </p>
-        </div>
-        <div className="mt-6 grid gap-3 sm:flex sm:flex-wrap">
-          <Link
-            href="/om-oss"
-            className="inline-flex min-h-13 items-center justify-center gap-2 rounded-full bg-[#d97d91] px-6 text-sm font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
-          >
-            Vem är Elin?
-            <ArrowUpRight size={17} aria-hidden="true" />
-          </Link>
-          <Link
-            href="/jamforelser"
-            className="inline-flex min-h-13 items-center justify-center gap-2 rounded-full border border-[#e8b8c1] bg-white/70 px-6 text-sm font-black text-[#9b5b6a] transition hover:-translate-y-0.5 hover:bg-white"
-          >
-            Se jämförelser
-            <ArrowUpRight size={17} aria-hidden="true" />
-          </Link>
-        </div>
+      <div className="mt-5 grid gap-4 md:grid-cols-2">
+        {latest.map((item) => {
+          const itemDate = new Date(`${item.date}T00:00:00`);
+          const itemAgeMs = now.getTime() - itemDate.getTime();
+          const isNew = itemAgeMs >= 0 && itemAgeMs <= newBadgeWindowMs;
+
+          return (
+            <Link
+              key={`${item.href}-${item.date}`}
+              href={item.href}
+              className="group grid min-h-[13rem] rounded-[1.8rem] border border-[#efc6cc] bg-white/58 p-5 shadow-[0_20px_58px_rgba(216,131,146,0.1)] transition hover:-translate-y-1 hover:bg-white sm:p-6"
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                    {item.type}
+                  </span>
+                  {isNew ? (
+                    <span className="rounded-full bg-[#ffe1e4] px-2.5 py-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-[#a95468]">
+                      Nytt
+                    </span>
+                  ) : null}
+                </div>
+                <ArrowUpRight
+                  className="size-4 shrink-0 text-[#D8788D] transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                  aria-hidden="true"
+                />
+              </div>
+              <h2 className="editorial-color-kiss mt-4 font-display text-2xl leading-tight sm:text-3xl">
+                {item.title}
+              </h2>
+              <p className="mt-3 line-clamp-2 text-sm leading-6 text-[#7e6970]">
+                {item.blurb}
+              </p>
+            </Link>
+          );
+        })}
       </div>
+
+      <Link
+        href="/guider"
+        className="mt-5 inline-flex min-h-13 items-center justify-center gap-2 rounded-full bg-[#d97d91] px-6 text-sm font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
+      >
+        Se alla guider
+        <ArrowUpRight size={17} aria-hidden="true" />
+      </Link>
     </section>
   );
 }
