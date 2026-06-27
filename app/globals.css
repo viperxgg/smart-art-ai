@@ -39,9 +39,17 @@ body {
   bottom: calc(1rem + env(safe-area-inset-bottom));
 }
 
+.fraga-elin-active .mobile-bottom-nav {
+  display: none;
+}
+
 @media (max-width: 767px) {
   body {
     padding-bottom: calc(6.75rem + env(safe-area-inset-bottom));
+  }
+
+  body.fraga-elin-active {
+    padding-bottom: 0;
   }
 }
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Camera, Mail, Music2 } from "lucide-react";
+import { ArrowUpRight, Camera, Mail, MessageCircle, Music2 } from "lucide-react";
 
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { comparisonEntries } from "@/lib/comparisons";
@@ -1040,6 +1040,14 @@ function SiteHeader() {
       </Link>
 
       <div className="flex shrink-0 items-center gap-1 sm:gap-3">
+        <Link
+          href="/fraga-elin"
+          className="inline-flex min-h-10 items-center justify-center gap-2 rounded-full bg-[#d97d91] px-4 text-sm font-black text-white shadow-[0_16px_40px_rgba(216,131,146,0.2)] transition hover:-translate-y-0.5 sm:min-h-14 sm:px-5"
+        >
+          <MessageCircle className="size-4 sm:size-[18px]" aria-hidden="true" />
+          <span className="sm:hidden">Fråga</span>
+          <span className="hidden sm:inline">Fråga Elin</span>
+        </Link>
         <a
           href={`mailto:${siteConfig.email}`}
           className="grid size-10 place-items-center rounded-full bg-[#ffe1e4] text-[#7b4656] shadow-[0_16px_40px_rgba(216,131,146,0.16)] transition hover:-translate-y-0.5 sm:size-14"
