@@ -4,6 +4,7 @@ import { ArrowUpRight, Sparkles } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { ScoreBadge } from "@/components/ProductBadges";
 import { createSeoMetadata } from "@/lib/metadata";
 import { getEditorialScore } from "@/lib/scores";
@@ -167,6 +168,9 @@ export default function SommarPage() {
                     <div className="mt-4 flex flex-wrap gap-2">
                       {score ? <ScoreBadge score={score} /> : null}
                     </div>
+                    <div className="mt-3">
+                      <PriceTierBadge product={pick.product} showContext />
+                    </div>
                     <Link
                       href={pick.href}
                       className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#D8788D] px-5 text-sm font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.24)] transition hover:-translate-y-0.5"
@@ -242,6 +246,9 @@ export default function SommarPage() {
                       </p>
                       <div className="mt-4 flex flex-wrap gap-2">
                         {score ? <ScoreBadge score={score} /> : null}
+                      </div>
+                      <div className="mt-3">
+                        <PriceTierBadge product={pick.product} showContext />
                       </div>
                       <Link
                         href={pick.href}

@@ -130,6 +130,12 @@ if (missing.length) {
 }
 const slug = spec.product.slug;
 const exportName = spec.exportName;
+const priceTiers = new Set(["budget", "mellan", "premium"]);
+
+if (spec.product.priceTier !== undefined && !priceTiers.has(spec.product.priceTier)) {
+  console.error('✗ product.priceTier must be "budget", "mellan" or "premium" when set.');
+  process.exit(1);
+}
 
 // Guard: slug must not already exist.
 if (read("lib/products.ts").includes(`slug: "${slug}"`) || read("lib/products.ts").includes(`export const ${exportName}`)) {

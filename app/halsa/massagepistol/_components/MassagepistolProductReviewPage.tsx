@@ -137,7 +137,7 @@ export async function MassagepistolProductReviewPage({
           <ElinsScoreCard score={editorialScore} className="mt-7" />
         ) : null}
 
-        <AmazonCta href={pick.product.amazonUrl} className="mt-5" />
+        <AmazonCta href={pick.product.amazonUrl} product={pick.product} className="mt-5" />
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-[#F9E9E9]/82 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
@@ -295,7 +295,7 @@ export async function MassagepistolProductReviewPage({
           </div>
         </section>
 
-        <AmazonCta href={pick.product.amazonUrl} panel className="mt-7" />
+        <AmazonCta href={pick.product.amazonUrl} product={pick.product} panel className="mt-7" />
 
         <Link
           href="/halsa/massagepistol"

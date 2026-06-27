@@ -8,6 +8,7 @@ import {
   type BreadcrumbItem,
 } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import type {
@@ -164,6 +165,9 @@ export function DecisionComparisonPage({
                     {pick.shortBody}
                   </p>
                   {score ? <ScoreBadge score={score} className="mt-5" /> : null}
+                  <div className="mt-3">
+                    <PriceTierBadge product={pick.product} showContext />
+                  </div>
                   <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-[#D8A7B1] px-5 font-black text-white">
                     Läs recensionen
                     <ArrowUpRight size={18} aria-hidden="true" />

@@ -5,6 +5,7 @@ export type Product = {
   asin: string;
   brand: string;
   price: string;
+  priceTier?: "budget" | "mellan" | "premium";
   badges: string[];
   image: string;
   imageAlt: string;

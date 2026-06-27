@@ -4,6 +4,7 @@ import { ArrowUpRight, Camera, Mail, MessageCircle, Music2 } from "lucide-react"
 
 import { ElinHomeHero } from "@/components/elin/ElinHomeHero";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
+import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { comparisonEntries } from "@/lib/comparisons";
 import {
   activeProductCategories,
@@ -1398,6 +1399,9 @@ function FeaturedPick({
           <span className="inline-flex min-h-10 items-center rounded-full bg-white/72 px-3 text-xs font-black text-[#8b5a66]">
             Annons
           </span>
+        </div>
+        <div className="mt-3">
+          <PriceTierBadge product={product} showContext />
         </div>
       </div>
     </article>

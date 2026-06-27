@@ -7,6 +7,7 @@ import { ArrowUpRight } from "lucide-react";
 
 import { SaveProductButton } from "@/components/SaveProductButton";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
+import { PriceTierBadge } from "@/components/PriceTierBadge";
 import {
   activeProductCategories,
   getProductPageHref,
@@ -242,6 +243,9 @@ function HomeProductCard({ product }: { product: Product }) {
           >
             Amazon
           </a>
+        </div>
+        <div className="mt-3">
+          <PriceTierBadge product={product} showContext />
         </div>
       </div>
     </article>

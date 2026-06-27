@@ -17,6 +17,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { ProductComments } from "@/components/ProductComments";
 import { RelatedLinks } from "@/components/RelatedLinks";
+import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { SaveProductButton } from "@/components/SaveProductButton";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import {
@@ -222,6 +223,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
               <span className="rounded-full bg-[#F6F0EC] px-5 py-3 text-sm font-bold text-[#6b4755]">
                 Se aktuellt pris på Amazon
               </span>
+              <PriceTierBadge product={product} />
               <span className="rounded-full bg-[#F6F0EC] px-5 py-3 text-sm font-bold text-[#6b4755]">
                 Amazon.se
               </span>

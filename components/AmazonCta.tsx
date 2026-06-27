@@ -1,12 +1,16 @@
 import { ArrowUpRight, ShieldCheck } from "lucide-react";
 
+import { PriceTierBadge } from "@/components/PriceTierBadge";
+import type { Product } from "@/lib/products";
+
 type AmazonCtaProps = {
   href: string;
+  product?: Product;
   className?: string;
   panel?: boolean;
 };
 
-export function AmazonCta({ href, className = "", panel = false }: AmazonCtaProps) {
+export function AmazonCta({ href, product, className = "", panel = false }: AmazonCtaProps) {
   const button = (
     <a
       href={href}
@@ -23,6 +27,11 @@ export function AmazonCta({ href, className = "", panel = false }: AmazonCtaProp
     return (
       <div className={className}>
         {button}
+        {product ? (
+          <div className="mt-3">
+            <PriceTierBadge product={product} />
+          </div>
+        ) : null}
         <p className="mt-3 text-sm leading-6 text-[#8a6d78]">
           Priset visas inte här eftersom Amazon kan ändra pris och lagerstatus.
         </p>
@@ -46,6 +55,11 @@ export function AmazonCta({ href, className = "", panel = false }: AmazonCtaProp
             Kontrollera alltid aktuell information på Amazon innan köp.
           </p>
           <div className="mt-7">{button}</div>
+          {product ? (
+            <div className="mt-4">
+              <PriceTierBadge product={product} />
+            </div>
+          ) : null}
         </div>
       </div>
     </section>

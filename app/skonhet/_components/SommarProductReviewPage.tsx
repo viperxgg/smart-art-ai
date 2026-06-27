@@ -154,7 +154,7 @@ export async function SommarProductReviewPage({
           <ElinsScoreCard score={editorialScore} className="mt-7" />
         ) : null}
 
-        <AmazonCta href={pick.product.amazonUrl} className="mt-5" />
+        <AmazonCta href={pick.product.amazonUrl} product={pick.product} className="mt-5" />
         <div className="mt-4">
           <ElinProductButton
             product={{
@@ -370,7 +370,7 @@ export async function SommarProductReviewPage({
           </div>
         </section>
 
-        <AmazonCta href={pick.product.amazonUrl} panel className="mt-7" />
+        <AmazonCta href={pick.product.amazonUrl} product={pick.product} panel className="mt-7" />
 
         <Link
           href="/sommar"

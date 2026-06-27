@@ -7,6 +7,7 @@ import { ArrowUpRight, Heart } from "lucide-react";
 import { getProductPageHref, type Product } from "@/lib/products";
 import { getEditorialScore } from "@/lib/scores";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
+import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { SaveProductButton } from "@/components/SaveProductButton";
 
 type ProductCardProps = {
@@ -83,6 +84,9 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             Amazon
             <ArrowUpRight size={18} aria-hidden="true" />
           </a>
+        </div>
+        <div className="mt-3">
+          <PriceTierBadge product={product} showContext />
         </div>
       </div>
     </article>

@@ -1,4 +1,5 @@
 import { categoryProductGroups } from "@/lib/categoryGroups";
+import { getPriceTier, type PriceTier } from "@/lib/price-tier";
 import {
   activeProductCategories,
   getProductBySlug,
@@ -13,6 +14,7 @@ export type ElinKnowledgeProduct = {
   title: string;
   brand: string;
   category: ProductCategorySlug;
+  priceTier: PriceTier;
   badges: string[];
   summary: string;
   evaluation: {
@@ -42,6 +44,7 @@ function toKnowledgeProduct(product: Product): ElinKnowledgeProduct {
     title: product.title,
     brand: product.brand,
     category: product.category,
+    priceTier: getPriceTier(product),
     badges: product.badges,
     summary: product.summary,
     evaluation: {
