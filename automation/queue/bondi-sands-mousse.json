@@ -1,0 +1,111 @@
+{
+  "exportName": "bondiSandsMousseProduct",
+  "category": "skonhet",
+  "categoryGroup": "Sol & glow",
+  "route": "skonhet/brun-utan-sol-mousse",
+  "pageComponentName": "BrunUtanSolMoussePage",
+  "product": {
+    "slug": "bondi-sands-mousse",
+    "title": "Bondi Sands Self Tanning Foam Ultra Dark – brun utan sol",
+    "category": "skonhet",
+    "asin": "B09T2MF7K5",
+    "brand": "Bondi Sands",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Självbrunande mousse", "Ultra Dark", "Jämn färg"],
+    "image": "/products/bondi-sands-mousse/bondi-mousse-thumbnail.webp",
+    "imageAlt": "Bondi Sands Self Tanning Foam Ultra Dark, brun utan sol-mousse",
+    "images": [
+      { "src": "/products/bondi-sands-mousse/bondi-mousse-thumbnail.webp", "alt": "Bondi Sands Self Tanning Foam Ultra Dark, brun utan sol-mousse", "label": "Bondi Sands mousse" },
+      { "src": "/products/bondi-sands-mousse/bondi-mousse-1.webp", "alt": "Bondi Sands Ultra Dark självbrunande mousse för en djup färg", "label": "Ultra Dark" },
+      { "src": "/products/bondi-sands-mousse/bondi-mousse-2.webp", "alt": "Bondi Sands mousse textur och konsistens", "label": "Lätt mousse" },
+      { "src": "/products/bondi-sands-mousse/bondi-mousse-3.webp", "alt": "Detaljbild av Bondi Sands Self Tanning Foam Ultra Dark", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4aq21zE",
+    "pageHref": "/skonhet/brun-utan-sol-mousse",
+    "summary": "En självbrunande mousse som ger en djup, jämn färg utan sol – för en bronzad look hela året. Bra att veta: en brun utan sol-mousse ger färg, inte solskydd, så du behöver fortfarande ditt vanliga solskydd ute i solen.",
+    "evaluation": {
+      "headline": "Brun utan sol med djup, jämn färg",
+      "intro": "Elin går igenom Bondi Sands Self Tanning Foam Ultra Dark: en självbrunande mousse som ger en djup, jämn färg utan sol. Moussen läggs på med handske för en jämn täckning och bygger upp en bronzad look över några timmar. Viktigt att komma ihåg är att en brun utan sol-produkt enbart ger färg – den ger inget solskydd.",
+      "verdict": "Lättapplicerad mousse för en djup, jämn brun utan sol-färg – men kom ihåg att den inte ersätter solskydd.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Sol & glow",
+    "specSectionTitle": "Bondi Sands Self Tanning Foam Ultra Dark",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Självbrunande mousse, Ultra Dark" },
+      { "label": "Resultat", "caption": "Färg", "value": "Djup, jämn brun utan sol-färg" },
+      { "label": "Bra att veta", "caption": "Färg, ej solskydd", "value": "Ger färg – inte solskydd" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4aq21zE",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 533 omdömen.",
+      "highlights": [
+        "Köpare upplever en djup, jämn färg utan ränder vid rätt applicering.",
+        "Lätt mousse som de flesta tycker är enkel att fördela med handske.",
+        "Uppskattas för en bronzad look som håller i flera dagar."
+      ],
+      "cautions": [
+        "Brun utan sol ger färg, inte solskydd – använd ditt vanliga solskydd i solen.",
+        "Exfoliera och fukta torra partier innan du lägger på, annars kan färgen bli ojämn."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/brun-utan-sol-mousse",
+    "cardBadge": "Brun utan sol",
+    "cardHook": "Självbrunande mousse för en djup, jämn färg utan sol.",
+    "cardImage": "/products/bondi-sands-mousse/bondi-mousse-thumbnail.webp",
+    "cardImageAlt": "Bondi Sands Self Tanning Foam Ultra Dark, brun utan sol-mousse",
+    "badge": "Elins glow-favorit",
+    "headline": "Bondi Sands Ultra Dark – djup färg utan sol",
+    "shortBody": "En självbrunande mousse i Ultra Dark som ger en djup, jämn färg utan sol. Läggs på med handske för en bronzad look hela året. Tänk på att en brun utan sol-mousse ger färg och inte solskydd.",
+    "valueHook": "Brun utan sol med djup, jämn färg",
+    "valueStatement": "Bondi Sands Self Tanning Foam Ultra Dark är en självbrunande mousse för dig som vill ha en djup, jämn färg utan sol. Moussen fördelas enkelt med handske och bygger upp en bronzad look över några timmar, vilket gör det lätt att styra hur mörk färgen blir. Amazon visar 4,3 av 5 från 533 omdömen, och köpare lyfter framför allt den jämna färgen, den lätta moussen och att resultatet håller i flera dagar. Bra att veta: en brun utan sol-mousse ger färg, inte solskydd – så ute i solen behöver du fortfarande ditt vanliga solskydd.",
+    "passFor": [
+      "Vill ha en djup, jämn färg utan att vara i solen.",
+      "Gillar en mousse som är enkel att fördela med handske.",
+      "Vill ha en bronzad look som håller i flera dagar."
+    ],
+    "caution": "En brun utan sol-mousse ger färg, inte solskydd, så du behöver fortfarande ditt vanliga solskydd ute i solen. Exfoliera och fukta torra partier som knän och armbågar innan du lägger på, annars kan färgen bli ojämn.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Exfoliera huden och fukta torra partier innan du börjar. Lägg på moussen jämnt med en appliceringshandske, jobba i sektioner och låt den sätta sig enligt förpackningen. Kom ihåg att färgen inte ersätter solskydd ute i solen."
+    },
+    "verdict": "Lättapplicerad mousse för en djup, jämn brun utan sol-färg – men kom ihåg att den inte ersätter solskydd.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 533 omdömen. Köpare beskriver en djup, jämn färg och en lätt mousse, men kom ihåg att brun utan sol ger färg och inte solskydd.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Ger en brun utan sol-mousse något solskydd?", "answer": "Nej. En självbrunande mousse ger bara färg på huden, inte solskydd. Ute i solen behöver du fortfarande ditt vanliga solskydd som vanligt." },
+      { "question": "Hur får jag en jämn färg utan ränder?", "answer": "Exfoliera huden och fukta torra partier som knän och armbågar innan du lägger på. Fördela moussen jämnt med en handske och jobba i sektioner för en jämn täckning." },
+      { "question": "Hur länge håller färgen?", "answer": "Många köpare upplever att färgen håller i flera dagar. Färgen tonas av efter hand, och du kan bygga på den igen när den börjar blekna." }
+    ],
+    "reviewSectionId": "bondi-sands-mousse-recensioner",
+    "reviewFormId": "bondi-sands-mousse-skriv-recension",
+    "targetKeyword": "brun utan sol mousse",
+    "metaTitle": "Bondi Sands Ultra Dark – brun utan sol-mousse | Elins val",
+    "metaDescription": "Elin går igenom Bondi Sands Self Tanning Foam Ultra Dark: en självbrunande mousse för en djup, jämn färg utan sol (4,3 av 5, 533 omdömen) – och varför färg inte är samma sak som solskydd.",
+    "relatedLinks": [
+      { "href": "/skonhet/sommarglow-utan-sol", "label": "Sommarglow", "text": "Fler sätt att få en bronzad glow utan sol." },
+      { "href": "/skonhet/aloe-vera-gel", "label": "Aloe vera-gel", "text": "Svalkande gel för huden efter solen." },
+      { "href": "/skonhet/aftersun", "label": "After sun", "text": "Återfukta huden efter en dag ute." }
+    ]
+  },
+  "images": {
+    "dir": "bondi-sands-mousse",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61fF1ZbeIaL._SL1500_.jpg", "out": "bondi-mousse-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31xAP-4lvcL._SL1500_.jpg", "out": "bondi-mousse-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ZZZlIFmFL._SL1500_.jpg", "out": "bondi-mousse-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/419SQ3QlGOL._SL1500_.jpg", "out": "bondi-mousse-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Bondi Sands Ultra Dark – brun utan sol-mousse", "href": "/skonhet/brun-utan-sol-mousse", "date": "2026-06-27", "image": "/products/bondi-sands-mousse/bondi-mousse-thumbnail.webp", "blurb": "Självbrunande mousse som ger en djup, jämn färg utan sol – inte solskydd." }
+  ]
+}

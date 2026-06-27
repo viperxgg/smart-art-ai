@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "gorillaSlidersProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/core-slider",
+  "pageComponentName": "CoreSliderPage",
+  "product": {
+    "slug": "gorilla-core-slider",
+    "title": "Gorilla Sports core sliders (2-pack)",
+    "category": "traning",
+    "asin": "B08THT9W5L",
+    "brand": "Gorilla Sports",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Dubbelsidiga", "2-pack", "Core & mage"],
+    "image": "/products/gorilla-sliders/sliders-thumbnail.webp",
+    "imageAlt": "Gorilla Sports core sliders, 2-pack",
+    "images": [
+      { "src": "/products/gorilla-sliders/sliders-thumbnail.webp", "alt": "Gorilla Sports core sliders, 2-pack", "label": "Core sliders" },
+      { "src": "/products/gorilla-sliders/sliders-1.webp", "alt": "Gorilla Sports dubbelsidiga sliders för golv och matta", "label": "Dubbelsidiga" },
+      { "src": "/products/gorilla-sliders/sliders-2.webp", "alt": "Gorilla Sports sliders i bruk för mage- och rumpövningar", "label": "Core & rumpa" },
+      { "src": "/products/gorilla-sliders/sliders-3.webp", "alt": "Detaljbild av Gorilla Sports core sliders", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4v5OuVn",
+    "pageHref": "/traning/core-slider",
+    "summary": "Ett par dubbelsidiga sliders för core-, mage- och rumpövningar på golv. Den ena sidan glider på hårt golv och den andra på matta, så att du kan träna stabilt hemma med liten utrustning.",
+    "evaluation": {
+      "headline": "Smidiga sliders för coreträning hemma",
+      "intro": "Elin går igenom Gorilla Sports core sliders: ett 2-pack dubbelsidiga sliders som glider mjukt på både hårt golv och matta. De passar mountain climbers, utfall och magövningar, och tar nästan ingen plats i hemmagymmet.",
+      "verdict": "Enkla, prisvärda sliders för core- och stabilitetsträning hemma.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Träning",
+    "specSectionTitle": "Gorilla Sports core sliders",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Sliders, 2-pack" },
+      { "label": "Underlag", "caption": "Dubbelsidiga", "value": "Hårt golv och matta" },
+      { "label": "Användning", "caption": "Fokus", "value": "Core, mage och rumpa" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4v5OuVn",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 11 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att de glider mjukt på flera underlag.",
+        "Smidig storlek som tar liten plats hemma.",
+        "Bra komplement för core- och magövningar."
+      ],
+      "cautions": [
+        "Få omdömen ännu, så helhetsbilden är ännu begränsad.",
+        "På hala golv kan de glida mer än väntat – håll spänning i kroppen."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/core-slider",
+    "cardBadge": "Core & mage",
+    "cardHook": "Dubbelsidiga sliders för core- och magövningar på golv.",
+    "cardImage": "/products/gorilla-sliders/sliders-thumbnail.webp",
+    "cardImageAlt": "Gorilla Sports core sliders, 2-pack",
+    "badge": "Elins core-tips",
+    "headline": "Gorilla Sports core sliders – glid dig till starkare core",
+    "shortBody": "Ett 2-pack dubbelsidiga sliders för core-, mage- och rumpövningar. Den ena sidan glider på hårt golv, den andra på matta, så att du kan träna stabilt hemma med minimal utrustning.",
+    "valueHook": "Smidiga sliders för coreträning hemma",
+    "valueStatement": "Gorilla Sports core sliders är ett par dubbelsidiga gliders för dig som vill träna core, mage och rumpa på golvet hemma. Den ena sidan är gjord för hårt golv och den andra för matta, vilket gör att de fungerar i de flesta hem. De tar nästan ingen plats och passar fint till övningar som mountain climbers, utfall och magövningar. Amazon visar 4,5 av 5 från 11 omdömen, vilket är mycket få – ta betyget med en nypa salt tills fler har recenserat.",
+    "passFor": [
+      "Vill träna core och mage på golvet hemma.",
+      "Har lite plats och vill ha smidig, billig utrustning.",
+      "Gillar att variera med utfall och glidövningar för rumpan."
+    ],
+    "caution": "Antalet omdömen är ännu mycket lågt, så helhetsbilden är begränsad. På väldigt hala golv kan sliders glida mer än väntat – håll kroppen spänd och börja försiktigt.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Lägg en slider under varje hand eller fot beroende på övning, med rätt sida mot underlaget. Håll spänning i magen och rör dig långsamt och kontrollerat för stabilitet."
+    },
+    "verdict": "Enkla, prisvärda sliders för core- och stabilitetsträning hemma.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 11 omdömen. Köpare beskriver mjuk glidning på flera underlag och smidig storlek, men antalet omdömen är ännu mycket lågt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Fungerar sliders på alla golv?", "answer": "De är dubbelsidiga med en sida för hårt golv och en för matta, så de fungerar i de flesta hem. På väldigt hala golv kan de glida mer, så håll kroppen spänd och börja försiktigt." },
+      { "question": "Vilka övningar passar core sliders?", "answer": "De passar core- och magövningar som mountain climbers och knäindrag, samt utfall och glidövningar för rumpan. Du styr glidningen med kroppsspänningen." },
+      { "question": "Är 4,5 av 5 ett tillförlitligt betyg?", "answer": "Betyget bygger på endast 11 omdömen, vilket är mycket få. Det ger en fingervisning men ingen fullständig bild – ta det med en nypa salt tills fler har recenserat." }
+    ],
+    "reviewSectionId": "gorilla-core-slider-recensioner",
+    "reviewFormId": "gorilla-core-slider-skriv-recension",
+    "targetKeyword": "core slider gliders",
+    "metaTitle": "Gorilla Sports core sliders (2-pack) – core & mage | Elins val",
+    "metaDescription": "Elin går igenom Gorilla Sports core sliders: dubbelsidiga gliders för core-, mage- och rumpövningar hemma (4,5 av 5, endast 11 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Mjukt underlag för golv- och coreträning." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Lätt motstånd för core och rumpa hemma." },
+      { "href": "/traning/hantlar", "label": "Hantlar", "text": "Lägg till motstånd i hemmaträningen." }
+    ]
+  },
+  "images": {
+    "dir": "gorilla-sliders",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/719bTCuO3rL._SL1500_.jpg", "out": "sliders-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41Z9moCdbPL._SL1500_.jpg", "out": "sliders-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31TdmEVU8aL._SL1500_.jpg", "out": "sliders-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31V5iJaaiIL._SL1500_.jpg", "out": "sliders-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Gorilla Sports core sliders (2-pack)", "href": "/traning/core-slider", "date": "2026-06-27", "image": "/products/gorilla-sliders/sliders-thumbnail.webp", "blurb": "Dubbelsidiga sliders för core-, mage- och rumpövningar hemma." }
+  ]
+}

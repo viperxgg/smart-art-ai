@@ -1,0 +1,109 @@
+{
+  "exportName": "wellaEimiMousseProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/harmousse",
+  "pageComponentName": "HarmoussePage",
+  "product": {
+    "slug": "wella-eimi-mousse",
+    "title": "Wella EIMI Extra Volume Mousse (300 ml)",
+    "category": "skonhet",
+    "asin": "B00X5N25AM",
+    "brand": "Wella",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Volym", "Fyllighet", "Hållbar styling"],
+    "image": "/products/wella-eimi-mousse/wella-thumbnail.webp",
+    "imageAlt": "Wella EIMI Extra Volume Mousse, 300 ml",
+    "images": [
+      { "src": "/products/wella-eimi-mousse/wella-thumbnail.webp", "alt": "Wella EIMI Extra Volume Mousse, 300 ml", "label": "EIMI Mousse" },
+      { "src": "/products/wella-eimi-mousse/wella-1.webp", "alt": "Wella EIMI volymmousse för fyllighet", "label": "Volym" },
+      { "src": "/products/wella-eimi-mousse/wella-2.webp", "alt": "Wella EIMI mousse för hållbar styling", "label": "Hållbar styling" }
+    ],
+    "amazonUrl": "https://amzn.to/4vK6Xru",
+    "pageHref": "/skonhet/harmousse",
+    "summary": "En volymmousse för fyllighet och hållbar styling. Arbeta in i fuktigt hår för lyft och en fylligare look som håller genom dagen, perfekt för dig som vill ha mer volym.",
+    "evaluation": {
+      "headline": "Volymmousse för fyllighet",
+      "intro": "Elin går igenom Wella EIMI Extra Volume Mousse: en volymmousse som arbetas in i fuktigt hår för fyllighet och en hållbar styling. Den är populär för att ge plattare hår mer lyft och en fylligare look som håller genom dagen.",
+      "verdict": "Volymmousse för fyllighet och hållbar styling.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Wella EIMI Extra Volume Mousse",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Mousse, 300 ml" },
+      { "label": "Effekt", "caption": "Styling", "value": "Volym och fyllighet" },
+      { "label": "Håll", "caption": "Resultat", "value": "Hållbar styling" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4vK6Xru",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 2986 omdömen.",
+      "highlights": [
+        "Köpare upplever mer volym och fyllighet i håret.",
+        "Stylingen beskrivs som hållbar genom dagen.",
+        "Moussen uppskattas för att ge lyft utan att kännas tung."
+      ],
+      "cautions": [
+        "För mycket mousse kan göra håret stelt – dosera lagom.",
+        "Effekten varierar med hårtyp och hur den föns in i håret."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/harmousse",
+    "cardBadge": "Volym",
+    "cardHook": "Volymmousse för fyllighet och hållbar styling.",
+    "cardImage": "/products/wella-eimi-mousse/wella-thumbnail.webp",
+    "cardImageAlt": "Wella EIMI Extra Volume Mousse, 300 ml",
+    "badge": "Elins volymfavorit",
+    "headline": "Wella EIMI – volym och fyllighet",
+    "shortBody": "En volymmousse som arbetas in i fuktigt hår för fyllighet och hållbar styling. Ger plattare hår mer lyft och en fylligare look som håller genom dagen.",
+    "valueHook": "Volymmousse för fyllighet",
+    "valueStatement": "Wella EIMI Extra Volume Mousse är en volymmousse för dig som vill ge håret mer fyllighet och lyft. Den arbetas in i fuktigt hår före föningen och bygger volym med en hållbar styling som håller genom dagen. Amazon visar 4,5 av 5 från 2986 omdömen, och köpare lyfter framför allt den ökade volymen, hållbarheten och att moussen ger lyft utan att kännas tung.",
+    "passFor": [
+      "Vill ge plattare hår mer volym och fyllighet.",
+      "Söker en hållbar styling som håller genom dagen.",
+      "Gillar att bygga volym med mousse i fuktigt hår."
+    ],
+    "caution": "För mycket mousse kan göra håret stelt, så dosera lagom. Effekten varierar med hårtyp och hur du fönar in den, så testa dig fram till rätt mängd.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Fördela en lagom mängd mousse i fuktigt hår, gärna i rötterna, och fön sedan håret för lyft. Börja med en mindre klick och bygg på vid behov."
+    },
+    "verdict": "Volymmousse för fyllighet och hållbar styling.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 2986 omdömen. Köpare beskriver mer volym och en hållbar styling, men för mycket mousse kan göra håret stelt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag volymmousse?", "answer": "Fördela en lagom mängd i fuktigt hår, gärna i rötterna, och fön sedan för lyft. Börja med en mindre klick och bygg på vid behov." },
+      { "question": "Hur mycket mousse behöver jag?", "answer": "Dosera lagom – för mycket mousse kan göra håret stelt. En klick i storlek av en golfboll brukar räcka, men det varierar med hårlängd." },
+      { "question": "Håller volymen genom dagen?", "answer": "Köpare beskriver stylingen som hållbar genom dagen. Effekten varierar dock med hårtyp och hur du fönar in moussen." }
+    ],
+    "reviewSectionId": "wella-eimi-mousse-recensioner",
+    "reviewFormId": "wella-eimi-mousse-skriv-recension",
+    "targetKeyword": "hårmousse volym",
+    "metaTitle": "Wella EIMI Extra Volume Mousse – volym & fyllighet | Elins val",
+    "metaDescription": "Elin går igenom Wella EIMI Extra Volume Mousse: volymmousse för fyllighet och hållbar styling (4,5 av 5, 2986 omdömen) – och vad du bör veta om doseringen.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Lägg till lyster och mjukhet i längderna." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret innan du värmestylar." }
+    ]
+  },
+  "images": {
+    "dir": "wella-eimi-mousse",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61ZsGGFHRYL._SL1500_.jpg", "out": "wella-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/21npMhzVQfL._SL1500_.jpg", "out": "wella-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31khAZojO-L._SL1500_.jpg", "out": "wella-2.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Wella EIMI Extra Volume Mousse", "href": "/skonhet/harmousse", "date": "2026-06-27", "image": "/products/wella-eimi-mousse/wella-thumbnail.webp", "blurb": "Volymmousse för fyllighet och hållbar styling." }
+  ]
+}

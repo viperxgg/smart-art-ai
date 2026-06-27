@@ -1,0 +1,111 @@
+{
+  "exportName": "got2bVarmeskyddProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/varmeskyddsspray",
+  "pageComponentName": "VarmeskyddssprayPage",
+  "product": {
+    "slug": "värmeskyddsspray-got2b",
+    "title": "Got2b Guardian Angel värmeskyddsspray (200 ml)",
+    "category": "skonhet",
+    "asin": "B0BRJR7BN1",
+    "brand": "Got2b",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Skydd upp till 220°C", "Fön & plattång", "Lätt spray"],
+    "image": "/products/got2b-varmeskydd/got2b-vs-thumbnail.webp",
+    "imageAlt": "Got2b Guardian Angel värmeskyddsspray, 200 ml",
+    "images": [
+      { "src": "/products/got2b-varmeskydd/got2b-vs-thumbnail.webp", "alt": "Got2b Guardian Angel värmeskyddsspray, 200 ml", "label": "Got2b värmeskydd" },
+      { "src": "/products/got2b-varmeskydd/got2b-vs-1.webp", "alt": "Got2b värmeskyddsspray skyddar håret vid fön och plattång", "label": "Upp till 220°C" },
+      { "src": "/products/got2b-varmeskydd/got2b-vs-2.webp", "alt": "Got2b värmeskyddsspray lätt textur som sprayas i håret", "label": "Lätt spray" },
+      { "src": "/products/got2b-varmeskydd/got2b-vs-3.webp", "alt": "Detaljbild av Got2b Guardian Angel värmeskyddsspray", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4g5f7Gd",
+    "pageHref": "/skonhet/varmeskyddsspray",
+    "summary": "En lätt värmeskyddsspray som lägger ett skyddande lager mellan håret och värmen från fön, plattång och locktång – upp till 220°C. Enkel att spraya in i fuktigt eller torrt hår innan du stylar.",
+    "evaluation": {
+      "headline": "Värmeskydd upp till 220°C",
+      "intro": "Elin går igenom Got2b Guardian Angel: en värmeskyddsspray som lägger ett skyddande lager mellan håret och värmen vid fön, plattång och locktång upp till 220°C. En lätt spray som är enkel att fördela jämnt innan du stylar.",
+      "verdict": "Prisvärd värmeskyddsspray för dig som föner, plattar eller lockar håret ofta.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Got2b Guardian Angel värmeskyddsspray",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Spray, 200 ml" },
+      { "label": "Skydd", "caption": "Värme", "value": "Upp till 220°C" },
+      { "label": "Användning", "caption": "Styling", "value": "Fön, plattång, locktång" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4g5f7Gd",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 1043 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att håret känns skyddat vid fön och plattång.",
+        "Lätt spray som de flesta tycker fördelas jämnt utan att tynga håret.",
+        "Många använder den dagligen innan styling och tycker den räcker länge."
+      ],
+      "cautions": [
+        "Spraya jämnt och inte för nära – för mycket produkt kan göra håret klibbigt.",
+        "Värmeskydd minskar påverkan men hög värme sliter ändå på håret över tid."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/varmeskyddsspray",
+    "cardBadge": "Skydd upp till 220°C",
+    "cardHook": "Lägger ett skyddande lager mellan håret och värmen vid styling.",
+    "cardImage": "/products/got2b-varmeskydd/got2b-vs-thumbnail.webp",
+    "cardImageAlt": "Got2b Guardian Angel värmeskyddsspray, 200 ml",
+    "badge": "Elins värmeskydd-favorit",
+    "headline": "Got2b Guardian Angel – värmeskydd upp till 220°C",
+    "shortBody": "En lätt värmeskyddsspray som lägger ett skyddande lager mellan håret och värmen från fön, plattång och locktång – upp till 220°C. Enkel att fördela jämnt innan styling.",
+    "valueHook": "Värmeskydd upp till 220°C",
+    "valueStatement": "Got2b Guardian Angel är en värmeskyddsspray för dig som föner, plattar eller lockar håret ofta. Den lägger ett skyddande lager mellan håret och värmen upp till 220°C, och den lätta texturen gör den enkel att fördela jämnt utan att tynga håret. Amazon visar 4,2 av 5 från 1043 omdömen, och köpare lyfter framför allt att håret känns skyddat, att sprayen är lätt och att den räcker länge.",
+    "passFor": [
+      "Föner, plattar eller lockar håret ofta och vill skydda det mot värmen.",
+      "Vill ha en lätt spray som inte tynger eller klibbar ner håret.",
+      "Söker ett enkelt steg att lägga till innan styling."
+    ],
+    "caution": "Värmeskydd minskar påverkan men tar inte bort den – hög värme sliter ändå på håret över tid. Spraya jämnt och inte för nära håret, eftersom för mycket produkt kan göra håret klibbigt.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Spraya jämnt i fuktigt eller torrt hår på cirka 20 cm avstånd innan du föner, plattar eller lockar. Fördela med en kam så att hela längden täcks innan du tar fram värmeverktyget."
+    },
+    "verdict": "Prisvärd värmeskyddsspray för dig som föner, plattar eller lockar håret ofta.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från 1043 omdömen. Köpare beskriver att håret känns skyddat och att sprayen är lätt, men för mycket produkt kan göra håret klibbigt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När i rutinen använder jag värmeskyddsspray?", "answer": "Spraya in den innan du använder värme – i fuktigt eller torrt hår, före fön, plattång eller locktång. Då hinner det lägga ett skyddande lager innan värmen kommer." },
+      { "question": "Hur mycket Got2b värmeskydd ska jag använda?", "answer": "Spraya jämnt på cirka 20 cm avstånd och fördela med en kam. För mycket produkt kan göra håret klibbigt, så börja sparsamt och lägg på mer vid behov." },
+      { "question": "Tar värmeskydd bort all skada från plattången?", "answer": "Nej. Sprayen minskar påverkan upp till 220°C men hög värme sliter ändå på håret över tid. Använd den som ett skydd, men håll gärna värmen så låg som möjligt." }
+    ],
+    "reviewSectionId": "värmeskyddsspray-got2b-recensioner",
+    "reviewFormId": "värmeskyddsspray-got2b-skriv-recension",
+    "targetKeyword": "värmeskyddsspray",
+    "metaTitle": "Got2b Guardian Angel värmeskyddsspray – skydd upp till 220°C | Elins val",
+    "metaDescription": "Elin går igenom Got2b Guardian Angel: en lätt värmeskyddsspray som skyddar håret vid fön, plattång och locktång upp till 220°C (4,2 av 5, 1043 omdömen).",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Ger lyster och tämjer torra toppar efter styling." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräschar upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Fler alternativ som skyddar håret mot värme." }
+    ]
+  },
+  "images": {
+    "dir": "got2b-varmeskydd",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/617tYcBAvwL._SL1500_.jpg", "out": "got2b-vs-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/5127IN618fL._SL1500_.jpg", "out": "got2b-vs-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51oa-Jvs5aL._SL1500_.jpg", "out": "got2b-vs-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51uLEoVKVlL._SL1500_.jpg", "out": "got2b-vs-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Got2b Guardian Angel värmeskyddsspray", "href": "/skonhet/varmeskyddsspray", "date": "2026-06-27", "image": "/products/got2b-varmeskydd/got2b-vs-thumbnail.webp", "blurb": "Lätt värmeskyddsspray som skyddar håret vid fön, plattång och locktång upp till 220°C." }
+  ]
+}

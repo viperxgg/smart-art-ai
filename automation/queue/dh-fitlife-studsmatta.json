@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "dhFitlifeTrampolineProduct",
+  "category": "traning",
+  "categoryGroup": "Kondition",
+  "route": "traning/studsmatta",
+  "pageComponentName": "StudsmattaPage",
+  "product": {
+    "slug": "dh-fitlife-studsmatta",
+    "title": "DH FitLife fitnesstudsmatta med handtag (Ø102 cm)",
+    "category": "traning",
+    "asin": "B0DXQG2CJL",
+    "brand": "DH FitLife",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Med handtag", "Ø102 cm", "Skonsam kondition"],
+    "image": "/products/dh-trampoline/trampoline-thumbnail.webp",
+    "imageAlt": "DH FitLife fitnesstudsmatta med handtag, Ø102 cm",
+    "images": [
+      { "src": "/products/dh-trampoline/trampoline-thumbnail.webp", "alt": "DH FitLife fitnesstudsmatta med handtag, Ø102 cm", "label": "Studsmatta" },
+      { "src": "/products/dh-trampoline/trampoline-1.webp", "alt": "DH FitLife studsmatta med justerbart handtag", "label": "Handtag" },
+      { "src": "/products/dh-trampoline/trampoline-2.webp", "alt": "DH FitLife studsmatta i bruk inomhus", "label": "Inomhus" },
+      { "src": "/products/dh-trampoline/trampoline-3.webp", "alt": "Detaljbild av DH FitLife fitnesstudsmatta", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4oPNd3l",
+    "pageHref": "/traning/studsmatta",
+    "summary": "En fitnesstudsmatta med handtag för skonsam kondition inomhus. Den runda mattan på Ø102 cm ger fjädrande studsträning med stöd från ett handtag, så att du kan röra på dig hemma året runt.",
+    "evaluation": {
+      "headline": "Studsmatta med handtag för kondition inomhus",
+      "intro": "Elin går igenom DH FitLife fitnesstudsmatta: en rund matta på Ø102 cm med ett handtag som ger extra stöd när du studsar. Den passar dig som vill ha skonsam, fjädrande kondition hemma utan att vara beroende av väder eller gym.",
+      "verdict": "Smidig studsmatta för skonsam kondition inomhus, med handtag för extra stöd.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Träning",
+    "specSectionTitle": "DH FitLife fitnesstudsmatta",
+    "specs": [
+      { "label": "Storlek", "caption": "Diameter", "value": "Ø102 cm, rund" },
+      { "label": "Stöd", "caption": "Tillbehör", "value": "Handtag för balans" },
+      { "label": "Användning", "caption": "Fokus", "value": "Kondition inomhus" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4oPNd3l",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 207 omdömen.",
+      "highlights": [
+        "Köpare uppskattar den fjädrande, skonsamma känslan vid studs.",
+        "Handtaget ger trygghet och balans under passet.",
+        "Smidig storlek för träning inomhus hemma."
+      ],
+      "cautions": [
+        "Kontrollera fritt takutrymme innan du studsar inomhus.",
+        "Montering och åtdragning bör göras noga enligt instruktionerna."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/studsmatta",
+    "cardBadge": "Skonsam kondition",
+    "cardHook": "Studsmatta med handtag för skonsam kondition inomhus.",
+    "cardImage": "/products/dh-trampoline/trampoline-thumbnail.webp",
+    "cardImageAlt": "DH FitLife fitnesstudsmatta med handtag, Ø102 cm",
+    "badge": "Elins konditionstips",
+    "headline": "DH FitLife studsmatta – skonsam kondition hemma",
+    "shortBody": "En rund fitnesstudsmatta på Ø102 cm med handtag. Den ger fjädrande, skonsam studsträning inomhus och handtaget hjälper dig att hålla balansen under passet.",
+    "valueHook": "Studsmatta med handtag för kondition inomhus",
+    "valueStatement": "DH FitLife fitnesstudsmatta är en rund studsmatta på Ø102 cm för dig som vill ha skonsam kondition inomhus året runt. Det medföljande handtaget ger extra stöd och balans när du studsar, vilket många upplever som tryggt. Mattan är smidig att ställa hemma och passar korta, fjädrande konditionspass framför skärmen. Amazon visar 4,5 av 5 från 207 omdömen, och köpare lyfter framför allt den skonsamma känslan och stödet från handtaget.",
+    "passFor": [
+      "Vill träna kondition inomhus oavsett väder.",
+      "Föredrar en skonsam, fjädrande träningsform.",
+      "Vill ha ett handtag för extra balans under passet."
+    ],
+    "caution": "Se till att du har fritt utrymme upp mot taket innan du studsar inomhus, och montera mattan noga enligt instruktionerna. Börja lugnt tills du känner dig stadig på mattan.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ställ mattan på ett plant golv med fritt utrymme runt om och upp mot taket. Håll i handtaget tills du känner dig stadig, och börja med korta pass i lugnt tempo."
+    },
+    "verdict": "Smidig studsmatta för skonsam kondition inomhus, med handtag för extra stöd.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 207 omdömen. Köpare beskriver en fjädrande, skonsam känsla och trygghet från handtaget, men det är bra att säkra fritt takutrymme inomhus.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Behöver jag mycket plats för studsmattan?", "answer": "Mattan är Ø102 cm och tar måttlig golvyta, men du behöver fritt utrymme runt om och upp mot taket eftersom du studsar uppåt. Mät gärna innan du börjar." },
+      { "question": "Vad är handtaget bra för?", "answer": "Handtaget ger extra stöd och balans medan du studsar, vilket många upplever som tryggt särskilt i början. Du kan hålla i det tills du känner dig stadig." },
+      { "question": "Passar studsmattan nybörjare?", "answer": "Ja, den passar dig som vill ha en skonsam, fjädrande konditionsform. Börja med korta pass i lugnt tempo och öka efter hand som du blir stadigare." }
+    ],
+    "reviewSectionId": "dh-fitlife-studsmatta-recensioner",
+    "reviewFormId": "dh-fitlife-studsmatta-skriv-recension",
+    "targetKeyword": "fitness studsmatta trampolin",
+    "metaTitle": "DH FitLife fitnesstudsmatta med handtag (Ø102 cm) | Elins val",
+    "metaDescription": "Elin går igenom DH FitLife fitnesstudsmatta: en rund matta på Ø102 cm med handtag för skonsam kondition inomhus (4,5 av 5, 207 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/traning/hopprep", "label": "Hopprep", "text": "Enkel kondition med liten utrustning." },
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Mjukt underlag för uppvärmning och stretch." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Lätt motstånd som komplement hemma." }
+    ]
+  },
+  "images": {
+    "dir": "dh-trampoline",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/6184IRM9KDL._SL1500_.jpg", "out": "trampoline-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31pAN+oZCML._SL1500_.jpg", "out": "trampoline-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51airSTAWrL._SL1500_.jpg", "out": "trampoline-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51xaesDzVnL._SL1500_.jpg", "out": "trampoline-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "DH FitLife fitnesstudsmatta med handtag (Ø102 cm)", "href": "/traning/studsmatta", "date": "2026-06-27", "image": "/products/dh-trampoline/trampoline-thumbnail.webp", "blurb": "Studsmatta med handtag för skonsam kondition inomhus." }
+  ]
+}

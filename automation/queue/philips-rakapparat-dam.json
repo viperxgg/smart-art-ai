@@ -1,0 +1,111 @@
+{
+  "exportName": "philipsLadyShaverProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårborttagning",
+  "route": "skonhet/rakapparat-dam",
+  "pageComponentName": "RakapparatDamPage",
+  "product": {
+    "slug": "philips-rakapparat-dam",
+    "title": "Philips Lady Shaver Series 8000 (våt/torr)",
+    "category": "skonhet",
+    "asin": "B0FJFS513J",
+    "brand": "Philips",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Våt/torr", "Slät hud", "Smidig hemma"],
+    "image": "/products/philips-lady-shaver/philips-shaver-thumbnail.webp",
+    "imageAlt": "Philips Lady Shaver Series 8000, våt/torr rakapparat",
+    "images": [
+      { "src": "/products/philips-lady-shaver/philips-shaver-thumbnail.webp", "alt": "Philips Lady Shaver Series 8000, våt/torr rakapparat", "label": "Lady Shaver" },
+      { "src": "/products/philips-lady-shaver/philips-shaver-1.webp", "alt": "Philips Lady Shaver för slät hud på ben och kropp", "label": "Våt/torr" },
+      { "src": "/products/philips-lady-shaver/philips-shaver-2.webp", "alt": "Philips Lady Shaver rakhuvud och detaljer", "label": "Rakhuvud" },
+      { "src": "/products/philips-lady-shaver/philips-shaver-3.webp", "alt": "Detaljbild av Philips Lady Shaver Series 8000", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4grVQz1",
+    "pageHref": "/skonhet/rakapparat-dam",
+    "summary": "En våt/torr rakapparat för slät hud på ben och kropp. Smidig att använda hemma både i och utanför duschen, för en snabb och skonsam rakning utan krångel.",
+    "evaluation": {
+      "headline": "Våt/torr rakapparat för slät hud",
+      "intro": "Elin går igenom Philips Lady Shaver Series 8000: en våt/torr rakapparat för slät hud på ben och kropp. Den fungerar både torrt och i duschen med raklödder, vilket gör hårborttagning hemma snabb och smidig utan att du behöver krångla med rakhyvel och blad.",
+      "verdict": "Smidig våt/torr rakapparat för slät hud hemma, både i och utanför duschen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårborttagning",
+    "specSectionTitle": "Philips Lady Shaver Series 8000",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Rakapparat, våt/torr" },
+      { "label": "Användning", "caption": "Område", "value": "Ben och kropp" },
+      { "label": "Profil", "caption": "Hårborttagning", "value": "Smidig hemma, sladdlös" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4grVQz1",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 479 omdömen.",
+      "highlights": [
+        "Köpare tycker den ger slät hud snabbt och skonsamt.",
+        "Många uppskattar att den kan användas både torrt och i duschen.",
+        "Smidig och enkel att hantera hemma utan krångel."
+      ],
+      "cautions": [
+        "En rakapparat ger inte lika långvarigt resultat som vaxning eller epilering.",
+        "Rakhuvudet behöver rengöras och bytas med tiden för bästa resultat."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/rakapparat-dam",
+    "cardBadge": "Våt/torr",
+    "cardHook": "Våt/torr rakapparat för slät hud på ben och kropp.",
+    "cardImage": "/products/philips-lady-shaver/philips-shaver-thumbnail.webp",
+    "cardImageAlt": "Philips Lady Shaver Series 8000, våt/torr rakapparat",
+    "badge": "Elins smidiga val",
+    "headline": "Philips Lady Shaver Series 8000 – slät hud hemma",
+    "shortBody": "En våt/torr rakapparat för slät hud på ben och kropp. Den fungerar både torrt och i duschen med raklödder, vilket gör hårborttagning hemma snabb och smidig utan rakhyvel.",
+    "valueHook": "Våt/torr rakapparat för slät hud",
+    "valueStatement": "Philips Lady Shaver Series 8000 är en rakapparat för dig som vill ha slät hud på ben och kropp på ett smidigt sätt hemma. Den kan användas både torrt och vått i duschen med raklödder, vilket gör rakningen snabb och skonsam. Sladdlös och enkel att hantera passar den fint i vardagsrutinen. Amazon visar 4,4 av 5 från 479 omdömen, och köpare lyfter framför allt den släta känslan, flexibiliteten våt/torr och hur enkel den är att använda.",
+    "passFor": [
+      "Vill ha slät hud på ben och kropp snabbt hemma.",
+      "Föredrar en rakapparat som fungerar både torrt och i duschen.",
+      "Söker ett smidigt alternativ till rakhyvel i vardagen."
+    ],
+    "caution": "En rakapparat ger ett kortvarigare resultat än vaxning eller epilering och upplevelsen varierar mellan hudtyper. Rengör rakhuvudet regelbundet och byt det med tiden för bästa resultat.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Använd den på ren hud, antingen torrt eller i duschen med raklödder. För extra slät känsla kan du raka mot hårväxtens riktning och skölja rakhuvudet efteråt."
+    },
+    "verdict": "Smidig våt/torr rakapparat för slät hud hemma, både i och utanför duschen.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 479 omdömen. Köpare beskriver slät hud och smidig användning våt/torr, men en rakapparat ger ett kortvarigare resultat än epilering.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Kan jag använda rakapparaten i duschen?", "answer": "Ja, den är våt/torr och fungerar både torrt och i duschen med raklödder. Det gör rakningen mjuk och smidig." },
+      { "question": "Hur länge håller resultatet?", "answer": "En rakapparat ger ett kortvarigare resultat än vaxning eller epilering, så du behöver raka oftare. Till gengäld är det snabbt och skonsamt." },
+      { "question": "Behöver jag byta rakhuvud?", "answer": "Rakhuvudet håller länge men behöver rengöras regelbundet och bytas med tiden för att fortsätta ge en slät rakning." }
+    ],
+    "reviewSectionId": "philips-rakapparat-dam-recensioner",
+    "reviewFormId": "philips-rakapparat-dam-skriv-recension",
+    "targetKeyword": "rakapparat dam",
+    "metaTitle": "Philips Lady Shaver Series 8000 – slät hud hemma | Elins val",
+    "metaDescription": "Elin går igenom Philips Lady Shaver Series 8000: en våt/torr rakapparat för slät hud på ben och kropp (4,4 av 5, 479 omdömen) – smidig hårborttagning hemma.",
+    "relatedLinks": [
+      { "href": "/skonhet/epilator", "label": "Epilator", "text": "Längre slät känsla genom att ta håret från roten." },
+      { "href": "/skonhet/elektrisk-fotfil", "label": "Elektrisk fotfil", "text": "Slipa bort sträv hud på hälarna hemma." },
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som komplement i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "philips-lady-shaver",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71mJQmQ3UsL._SL1500_.jpg", "out": "philips-shaver-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41tWtLRG0JL._SL1500_.jpg", "out": "philips-shaver-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41dFK+JAMXL._SL1500_.jpg", "out": "philips-shaver-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41yhbHSaMEL._SL1500_.jpg", "out": "philips-shaver-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Philips Lady Shaver Series 8000", "href": "/skonhet/rakapparat-dam", "date": "2026-06-27", "image": "/products/philips-lady-shaver/philips-shaver-thumbnail.webp", "blurb": "Våt/torr rakapparat för slät hud på ben och kropp, smidig hemma." }
+  ]
+}

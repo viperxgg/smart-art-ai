@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "eufyRobovacProduct",
+  "category": "halsa",
+  "categoryGroup": "Smart hem & livsstil",
+  "route": "halsa/robotdammsugare",
+  "pageComponentName": "RobotdammsugarePage",
+  "product": {
+    "slug": "eufy-robotdammsugare",
+    "title": "eufy C10 robotdammsugare",
+    "category": "halsa",
+    "asin": "B0DRFRJPWY",
+    "brand": "eufy",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Appstyrning", "Automatisk golvstädning", "Prisvärd"],
+    "image": "/products/eufy-robovac/robot-thumbnail.webp",
+    "imageAlt": "eufy C10 robotdammsugare",
+    "images": [
+      { "src": "/products/eufy-robovac/robot-thumbnail.webp", "alt": "eufy C10 robotdammsugare", "label": "eufy C10" },
+      { "src": "/products/eufy-robovac/robot-1.webp", "alt": "eufy C10 robotdammsugare som städar golvet automatiskt", "label": "Automatisk städning" },
+      { "src": "/products/eufy-robovac/robot-2.webp", "alt": "eufy C10 robotdammsugare med appstyrning", "label": "Appstyrning" },
+      { "src": "/products/eufy-robovac/robot-3.webp", "alt": "Detaljbild av eufy C10 robotdammsugare", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4oTgpq4",
+    "pageHref": "/halsa/robotdammsugare",
+    "summary": "En prisvärd robotdammsugare som sköter golvstädningen automatiskt med appstyrning. Du startar och schemalägger städningen direkt i appen och låter roboten ta hand om vardagsdammet.",
+    "evaluation": {
+      "headline": "Prisvärd robotdammsugare med appstyrning",
+      "intro": "Elin går igenom eufy C10: en robotdammsugare i budgetklassen som sköter golvstädningen automatiskt och styrs via appen. Du kan schemalägga städningen och låta roboten hålla golvet rent i vardagen, utan att du själv behöver dra fram dammsugaren.",
+      "verdict": "Prisvärd robotdammsugare som sköter golvstädningen automatiskt med appstyrning.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Smart hem & livsstil",
+    "specSectionTitle": "eufy C10 robotdammsugare",
+    "specs": [
+      { "label": "Typ", "caption": "Produkt", "value": "Robotdammsugare" },
+      { "label": "Styrning", "caption": "Smart", "value": "Appstyrning och schemaläggning" },
+      { "label": "Användning", "caption": "Golv", "value": "Automatisk golvstädning" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4oTgpq4",
+      "ratingSummary": "Amazon visar 4,1 av 5 från 421 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att roboten sköter golvstädningen automatiskt.",
+        "Appstyrningen gör det enkelt att schemalägga och starta städningen.",
+        "Beskrivs som prisvärd för dig som vill prova en robotdammsugare."
+      ],
+      "cautions": [
+        "En robotdammsugare i budgetklassen klarar inte alltid riktigt höga trösklar och trassliga sladdar.",
+        "Behållaren är liten och behöver tömmas regelbundet i större hem."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/robotdammsugare",
+    "cardBadge": "Automatisk golvstädning",
+    "cardHook": "Prisvärd robotdammsugare som sköter golvet med appstyrning.",
+    "cardImage": "/products/eufy-robovac/robot-thumbnail.webp",
+    "cardImageAlt": "eufy C10 robotdammsugare",
+    "badge": "Elins smarta-hem-val",
+    "headline": "eufy C10 robotdammsugare – automatisk golvstädning",
+    "shortBody": "En prisvärd robotdammsugare som sköter golvstädningen automatiskt. Du startar och schemalägger städningen i appen och låter roboten ta hand om vardagsdammet på golvet.",
+    "valueHook": "Prisvärd robotdammsugare med appstyrning",
+    "valueStatement": "eufy C10 är en robotdammsugare för dig som vill slippa dra fram dammsugaren varje dag. Den sköter golvstädningen automatiskt och styrs via appen, där du kan schemalägga städningen så att roboten håller golvet rent i vardagen. Amazon visar 4,1 av 5 från 421 omdömen, och köpare lyfter framför allt att den är prisvärd, enkel att styra via appen och praktisk för automatisk golvstädning.",
+    "passFor": [
+      "Vill ha hjälp med den dagliga golvstädningen utan att lyfta ett finger.",
+      "Gillar att kunna schemalägga och starta städningen direkt i appen.",
+      "Letar efter en prisvärd robotdammsugare att börja med."
+    ],
+    "caution": "En robotdammsugare i budgetklassen passar bäst på jämna golv och kan ha svårt med höga trösklar och trassliga sladdar. Behållaren är liten, så töm den regelbundet i större hem.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Plocka undan lösa sladdar och småsaker från golvet och låt roboten köra ett rum i taget i början. Schemalägg städningen i appen och töm behållaren regelbundet för bäst resultat."
+    },
+    "verdict": "Prisvärd robotdammsugare som sköter golvstädningen automatiskt med appstyrning.",
+    "amazonSummary": "Amazon visar 4,1 av 5 från 421 omdömen. Köpare beskriver en prisvärd robotdammsugare som sköter golvstädningen automatiskt och är enkel att styra via appen, men en budgetmodell kan ha svårt med höga trösklar.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur styr jag eufy C10 robotdammsugare?", "answer": "Du styr roboten via appen, där du kan starta städningen och schemalägga den så att roboten kör automatiskt vid de tider som passar dig." },
+      { "question": "Passar en robotdammsugare alla golv?", "answer": "Den fungerar bäst på jämna golv. Plocka undan lösa sladdar och småsaker, och tänk på att en budgetmodell kan ha svårt med riktigt höga trösklar." },
+      { "question": "Hur ofta behöver jag tömma behållaren?", "answer": "Behållaren är liten, så töm den regelbundet för bäst resultat. I större hem behöver du tömma oftare än i en mindre lägenhet." }
+    ],
+    "reviewSectionId": "eufy-robotdammsugare-recensioner",
+    "reviewFormId": "eufy-robotdammsugare-skriv-recension",
+    "targetKeyword": "robotdammsugare budget",
+    "metaTitle": "eufy C10 robotdammsugare – prisvärd & appstyrd | Elins val",
+    "metaDescription": "Elin går igenom eufy C10: en prisvärd robotdammsugare som sköter golvstädningen automatiskt med appstyrning (4,1 av 5, 421 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma i vardagsrummet." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Skön doft och lugn stämning i rummet." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Mysigt ljus för en lugnare kväll." }
+    ]
+  },
+  "images": {
+    "dir": "eufy-robovac",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61ElBNPaQXL._SL1500_.jpg", "out": "robot-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/311V1dKmflL._SL1500_.jpg", "out": "robot-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31SvWf2AEIL._SL1500_.jpg", "out": "robot-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41cdLcmu3RL._SL1500_.jpg", "out": "robot-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "eufy C10 robotdammsugare", "href": "/halsa/robotdammsugare", "date": "2026-06-27", "image": "/products/eufy-robovac/robot-thumbnail.webp", "blurb": "Prisvärd robotdammsugare som sköter golvstädningen automatiskt med appstyrning." }
+  ]
+}

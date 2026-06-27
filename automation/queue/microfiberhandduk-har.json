@@ -1,0 +1,111 @@
+{
+  "exportName": "kitschMicrofiberTowelProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårstyling (verktyg)",
+  "route": "skonhet/microfiberhandduk",
+  "pageComponentName": "MicrofiberhanddukPage",
+  "product": {
+    "slug": "microfiberhandduk-har",
+    "title": "Kitsch Microfiber Hair Towel Wrap",
+    "category": "skonhet",
+    "asin": "B07XBTWPVP",
+    "brand": "Kitsch",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Snabbtorkande", "Skonsam mot håret", "Mindre frizz"],
+    "image": "/products/kitsch-microfiber-towel/kitsch-towel-thumbnail.webp",
+    "imageAlt": "Kitsch Microfiber Hair Towel Wrap mikrofiberhandduk för hår",
+    "images": [
+      { "src": "/products/kitsch-microfiber-towel/kitsch-towel-thumbnail.webp", "alt": "Kitsch Microfiber Hair Towel Wrap mikrofiberhandduk för hår", "label": "Microfiberhandduk" },
+      { "src": "/products/kitsch-microfiber-towel/kitsch-towel-1.webp", "alt": "Kitsch mikrofiberhandduk som lindas runt håret efter dusch", "label": "Lindas runt" },
+      { "src": "/products/kitsch-microfiber-towel/kitsch-towel-2.webp", "alt": "Kitsch snabbtorkande mikrofiberhandduk skonsam mot håret", "label": "Snabbtorkande" },
+      { "src": "/products/kitsch-microfiber-towel/kitsch-towel-3.webp", "alt": "Detaljbild av Kitsch Microfiber Hair Towel Wrap", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4xSHA8A",
+    "pageHref": "/skonhet/microfiberhandduk",
+    "summary": "En snabbtorkande mikrofiberhandduk som lindas runt det blöta håret efter duschen. Den suger upp fukt skonsamt utan att gnugga håret hårt, vilket hjälper till att minska frizz och korta ner torktiden.",
+    "evaluation": {
+      "headline": "Snabbtorkande och skonsam mot håret",
+      "intro": "Elin går igenom Kitsch Microfiber Hair Towel Wrap: en snabbtorkande mikrofiberhandduk som lindas runt det blöta håret. Den suger upp fukt skonsamt i stället för att gnugga håret hårt, vilket många upplever ger mindre frizz och kortare torktid.",
+      "verdict": "Prisvärd mikrofiberhandduk för dig som vill torka håret skonsammare och minska frizz.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårstyling (verktyg)",
+    "specSectionTitle": "Kitsch Microfiber Hair Towel Wrap",
+    "specs": [
+      { "label": "Material", "caption": "Typ", "value": "Mikrofiber" },
+      { "label": "Funktion", "caption": "Torkning", "value": "Snabbtorkande, suger upp fukt" },
+      { "label": "Fäste", "caption": "Användning", "value": "Lindas och knäpps runt håret" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4xSHA8A",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 8357 omdömen.",
+      "highlights": [
+        "Köpare upplever att håret torkar snabbare än med en vanlig handduk.",
+        "Många tycker att den är skonsam mot håret och ger mindre frizz.",
+        "Uppskattas för att den sitter stadigt och håller håret ur vägen."
+      ],
+      "cautions": [
+        "Mikrofiber kan kännas tunn – den passar bäst för att suga upp fukt, inte torka helt.",
+        "Följ tvättråden och undsek sköljmedel, som kan minska mikrofiberns uppsugningsförmåga."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/microfiberhandduk",
+    "cardBadge": "Snabbtorkande",
+    "cardHook": "Suger upp fukt skonsamt och hjälper till att minska frizz.",
+    "cardImage": "/products/kitsch-microfiber-towel/kitsch-towel-thumbnail.webp",
+    "cardImageAlt": "Kitsch Microfiber Hair Towel Wrap mikrofiberhandduk för hår",
+    "badge": "Elins favorit efter duschen",
+    "headline": "Kitsch Microfiber Hair Towel – snabbtorkande och skonsam",
+    "shortBody": "En snabbtorkande mikrofiberhandduk som lindas runt det blöta håret. Den suger upp fukt skonsamt utan att gnugga håret hårt, vilket hjälper till att minska frizz och korta ner torktiden.",
+    "valueHook": "Snabbtorkande och skonsam mot håret",
+    "valueStatement": "Kitsch Microfiber Hair Towel Wrap är en mikrofiberhandduk för dig som vill torka håret skonsammare. Den lindas runt det blöta håret och suger upp fukt i stället för att gnugga håret hårt, vilket många upplever ger mindre frizz och kortare torktid. Amazon visar 4,6 av 5 från 8357 omdömen, och köpare lyfter framför allt att håret torkar snabbare, att den är skonsam och att den sitter stadigt.",
+    "passFor": [
+      "Vill torka håret skonsammare och slippa gnugga med en grov handduk.",
+      "Har frizzigt eller lockigt hår och vill hålla nere frizzen.",
+      "Vill ha håret ur vägen medan du gör resten av rutinen."
+    ],
+    "caution": "Mikrofiber är tunt och passar bäst för att suga upp fukt, inte torka håret helt. Följ tvättråden och undvik sköljmedel, som kan minska mikrofiberns uppsugningsförmåga med tiden.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Klappa eller krama försiktigt ut det mesta vattnet ur håret, linda sedan in håret i handduken och knäpp fast den. Låt den suga upp fukt en stund i stället för att gnugga håret torrt."
+    },
+    "verdict": "Prisvärd mikrofiberhandduk för dig som vill torka håret skonsammare och minska frizz.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 8357 omdömen. Köpare beskriver snabbare torktid och mindre frizz, men handduken passar bäst för att suga upp fukt snarare än att torka håret helt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag en mikrofiberhandduk för håret?", "answer": "Klappa ut det mesta vattnet, linda sedan in håret och knäpp fast handduken. Låt den suga upp fukt en stund i stället för att gnugga håret, så håller du nere frizzen." },
+      { "question": "Torkar mikrofiberhandduken håret helt?", "answer": "Den suger upp en stor del av fukten och kortar torktiden, men den är inte tänkt att torka håret helt. De flesta lufttorkar eller fönar klart efteråt." },
+      { "question": "Hur tvättar jag Kitsch mikrofiberhandduk?", "answer": "Följ tvättråden på etiketten och undvik sköljmedel, eftersom det kan lägga sig i fibrerna och minska uppsugningsförmågan över tid." }
+    ],
+    "reviewSectionId": "microfiberhandduk-har-recensioner",
+    "reviewFormId": "microfiberhandduk-har-skriv-recension",
+    "targetKeyword": "microfiberhandduk för hår",
+    "metaTitle": "Kitsch Microfiber Hair Towel – snabbtorkande & skonsam | Elins val",
+    "metaDescription": "Elin går igenom Kitsch Microfiber Hair Towel Wrap: en snabbtorkande mikrofiberhandduk som är skonsam mot håret och hjälper till att minska frizz (4,6 av 5, 8357 omdömen).",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Ger lyster och tämjer torra toppar efter styling." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräschar upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skyddar håret när du fönar eller plattar." }
+    ]
+  },
+  "images": {
+    "dir": "kitsch-microfiber-towel",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81noAQgv6BL._SL1500_.jpg", "out": "kitsch-towel-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51xND9VlwFL._SL1500_.jpg", "out": "kitsch-towel-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41WmNa3m2gL._SL1500_.jpg", "out": "kitsch-towel-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51R8bIpHavL._SL1500_.jpg", "out": "kitsch-towel-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Kitsch Microfiber Hair Towel Wrap", "href": "/skonhet/microfiberhandduk", "date": "2026-06-27", "image": "/products/kitsch-microfiber-towel/kitsch-towel-thumbnail.webp", "blurb": "Snabbtorkande mikrofiberhandduk som är skonsam mot håret och hjälper till att minska frizz." }
+  ]
+}

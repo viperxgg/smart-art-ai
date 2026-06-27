@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "mattibiAcupressureProduct",
+  "category": "halsa",
+  "categoryGroup": "Återhämtning",
+  "route": "halsa/spikmatta",
+  "pageComponentName": "SpikmattaPage",
+  "product": {
+    "slug": "mattibi-spikmatta",
+    "title": "Mattibi spikmatta / akupressurmatta med kudde",
+    "category": "halsa",
+    "asin": "B094QVJ69W",
+    "brand": "Mattibi",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Matta & kudde", "Stund av avkoppling", "Skön efter dagen"],
+    "image": "/products/mattibi-spikmatta/spikmatta-thumbnail.webp",
+    "imageAlt": "Mattibi spikmatta och akupressurmatta med kudde",
+    "images": [
+      { "src": "/products/mattibi-spikmatta/spikmatta-thumbnail.webp", "alt": "Mattibi spikmatta och akupressurmatta med kudde", "label": "Spikmatta" },
+      { "src": "/products/mattibi-spikmatta/spikmatta-1.webp", "alt": "Mattibi spikmatta med akupressurpunkter", "label": "Akupressur" },
+      { "src": "/products/mattibi-spikmatta/spikmatta-2.webp", "alt": "Mattibi spikmatta med tillhörande kudde", "label": "Matta & kudde" },
+      { "src": "/products/mattibi-spikmatta/spikmatta-3.webp", "alt": "Detaljbild av Mattibi spikmatta / akupressurmatta", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4vzUMgU",
+    "pageHref": "/halsa/spikmatta",
+    "summary": "En spikmatta med tillhörande kudde för en stunds avslappning. Många tycker det känns skönt att ligga på mattan en stund efter en lång dag. Det handlar om avkoppling och en skön känsla – inte om någon form av behandling.",
+    "evaluation": {
+      "headline": "Spikmatta för en stund av avkoppling",
+      "intro": "Elin tittar närmare på Mattibi spikmatta med kudde: en akupressurmatta som många använder för en stunds avslappning. Det är en enkel sak att rulla ut på golvet eller sängen och ligga på en stund när du vill varva ner. Många tycker det känns skönt efter en lång dag – det handlar om avkoppling, inte behandling.",
+      "verdict": "Populär spikmatta med kudde för en skön stund av avkoppling efter dagen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Återhämtning",
+    "specSectionTitle": "Mattibi spikmatta med kudde",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Spikmatta / akupressurmatta" },
+      { "label": "Innehåll", "caption": "Set", "value": "Matta och tillhörande kudde" },
+      { "label": "Användning", "caption": "Avkoppling", "value": "Ligg en stund för att varva ner" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4vzUMgU",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 452 omdömen.",
+      "highlights": [
+        "Många tycker det känns skönt att ligga på mattan en stund efter en lång dag.",
+        "Den tillhörande kudden uppskattas för att kunna varva ner även nacke och axlar.",
+        "Enkel att rulla ut på golvet eller sängen för en stund av avkoppling."
+      ],
+      "cautions": [
+        "Spikarna kan kännas vassa de första gångerna – många lägger på ett tunt tyg och börjar med korta stunder.",
+        "Det handlar om avkoppling och en skön känsla, inte om behandling – upplevelsen är väldigt personlig."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/spikmatta",
+    "cardBadge": "Stund av avkoppling",
+    "cardHook": "Spikmatta med kudde för en skön stund efter dagen.",
+    "cardImage": "/products/mattibi-spikmatta/spikmatta-thumbnail.webp",
+    "cardImageAlt": "Mattibi spikmatta och akupressurmatta med kudde",
+    "badge": "Elins varva ner-tips",
+    "headline": "Mattibi spikmatta – en stund av avkoppling",
+    "shortBody": "En spikmatta med tillhörande kudde för en stunds avslappning. Rulla ut den på golvet eller sängen och ligg en stund för att varva ner. Många tycker det känns skönt efter en lång dag – avkoppling, inte behandling.",
+    "valueHook": "En skön stund av avkoppling",
+    "valueStatement": "Mattibi spikmatta med kudde är för dig som vill ha en enkel sak att ta till när du vill varva ner. Du rullar ut mattan på golvet eller sängen och ligger på den en stund, och den tillhörande kudden gör det lätt att varva ner även nacke och axlar. Amazon visar 4,5 av 5 från 452 omdömen, och många tycker det känns skönt att ligga på efter en lång dag. Det handlar om avkoppling och en skön känsla – inte om någon form av behandling.",
+    "passFor": [
+      "Vill ha en enkel rutin för att varva ner efter en lång dag.",
+      "Söker en stund av avkoppling på golvet eller i sängen.",
+      "Gillar tanken på en matta och kudde att ligga på en stund i lugn och ro."
+    ],
+    "caution": "Spikarna kan kännas vassa de första gångerna – många börjar med korta stunder och lägger på ett tunt tyg i början. Upplevelsen är väldigt personlig. Mattan är till för avkoppling och en skön känsla, inte för behandling.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Rulla ut mattan på golvet eller sängen och lägg dig lugnt ner på den. Börja med korta stunder och lägg gärna på ett tunt tyg i början om spikarna känns vassa. Använd kudden för nacke och axlar och ta det i din egen takt för att varva ner."
+    },
+    "verdict": "Populär spikmatta med kudde för en skön stund av avkoppling efter dagen.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 452 omdömen. Många tycker det känns skönt att ligga på mattan en stund för att varva ner, men spikarna kan kännas vassa de första gångerna – börja kort. Det handlar om avkoppling, inte behandling.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad använder man en spikmatta till?", "answer": "Många använder den för en stunds avslappning – du ligger på mattan en stund för att varva ner efter en lång dag. Det handlar om avkoppling och en skön känsla, inte om behandling." },
+      { "question": "Gör spikmattan ont?", "answer": "Spikarna kan kännas vassa de första gångerna. Många börjar med korta stunder och lägger på ett tunt tyg i början, så känns det mjukare tills man vänjer sig." },
+      { "question": "Vad är kudden till för?", "answer": "Den tillhörande kudden gör det lätt att varva ner även nacke och axlar. Du kan använda den tillsammans med mattan för en skön stund av avkoppling." }
+    ],
+    "reviewSectionId": "mattibi-spikmatta-recensioner",
+    "reviewFormId": "mattibi-spikmatta-skriv-recension",
+    "targetKeyword": "spikmatta akupressur",
+    "metaTitle": "Mattibi spikmatta / akupressurmatta med kudde – varva ner | Elins val",
+    "metaDescription": "Elin går igenom Mattibi spikmatta med kudde: en akupressurmatta för en skön stund av avkoppling efter dagen (4,5 av 5, 452 omdömen) – och hur du börjar mjukt.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft inomhus för en skönare känsla." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Mjuk doft och fukt för en lugn stämning." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt, avkopplande ljus för kvällsmyset." }
+    ]
+  },
+  "images": {
+    "dir": "mattibi-spikmatta",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71Ft2xQwjHL._SL1500_.jpg", "out": "spikmatta-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51pbsrLzmEL._SL1500_.jpg", "out": "spikmatta-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51TWgB6LwXL._SL1500_.jpg", "out": "spikmatta-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51P-Zd0qDnL._SL1500_.jpg", "out": "spikmatta-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Mattibi spikmatta / akupressurmatta med kudde", "href": "/halsa/spikmatta", "date": "2026-06-27", "image": "/products/mattibi-spikmatta/spikmatta-thumbnail.webp", "blurb": "Spikmatta med kudde för en skön stund av avkoppling efter en lång dag." }
+  ]
+}

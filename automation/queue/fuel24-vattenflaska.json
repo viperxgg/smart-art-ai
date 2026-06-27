@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "fuel24JugProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/vattenflaska",
+  "pageComponentName": "VattenflaskaPage",
+  "product": {
+    "slug": "fuel24-vattenflaska",
+    "title": "Fuel24 vattenflaska / gym jug (2,2 L)",
+    "category": "traning",
+    "asin": "B09YVCP5GK",
+    "brand": "Fuel24",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["2,2 liter", "För gym & vardag", "Koll på vätskeintaget"],
+    "image": "/products/fuel24-jug/jug-thumbnail.webp",
+    "imageAlt": "Fuel24 vattenflaska / gym jug på 2,2 liter",
+    "images": [
+      { "src": "/products/fuel24-jug/jug-thumbnail.webp", "alt": "Fuel24 vattenflaska / gym jug på 2,2 liter", "label": "Gym jug 2,2 L" },
+      { "src": "/products/fuel24-jug/jug-1.webp", "alt": "Fuel24 vattenflaska med stor volym för gym och vardag", "label": "Stor volym" },
+      { "src": "/products/fuel24-jug/jug-2.webp", "alt": "Fuel24 gym jug med markeringar för vätskeintag", "label": "Markeringar" },
+      { "src": "/products/fuel24-jug/jug-3.webp", "alt": "Detaljbild av Fuel24 vattenflaska", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4vzUjeE",
+    "pageHref": "/traning/vattenflaska",
+    "summary": "En stor vattenflaska på 2,2 liter för gym och vardag, gjord för att hjälpa dig hålla koll på ditt vätskeintag under dagen utan att behöva fylla på hela tiden.",
+    "evaluation": {
+      "headline": "Stor vattenflaska för koll på vätskeintaget",
+      "intro": "Elin går igenom Fuel24 gym jug: en rymlig vattenflaska på 2,2 liter för gymmet och vardagen. Den stora volymen gör att du sällan behöver fylla på, och flaskan är tänkt att hjälpa dig hålla koll på hur mycket du dricker under dagen.",
+      "verdict": "Rymlig vattenflaska som gör det enkelt att hålla koll på vätskeintaget.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Tillbehör",
+    "specSectionTitle": "Fuel24 vattenflaska / gym jug",
+    "specs": [
+      { "label": "Volym", "caption": "Storlek", "value": "2,2 liter" },
+      { "label": "Användning", "caption": "Passar", "value": "Gym och vardag" },
+      { "label": "Funktion", "caption": "Hjälp", "value": "Koll på vätskeintaget" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4vzUjeE",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 2269 omdömen.",
+      "highlights": [
+        "Köpare uppskattar den stora volymen så att de slipper fylla på ofta.",
+        "Markeringarna gör det lätt att följa hur mycket man druckit.",
+        "Beskrivs som praktisk att ha med både på gymmet och i vardagen."
+      ],
+      "cautions": [
+        "2,2 liter blir tungt och skrymmande när flaskan är helt full.",
+        "Stora flaskor behöver rengöras regelbundet för att hållas fräscha."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/vattenflaska",
+    "cardBadge": "2,2 liter",
+    "cardHook": "Stor vattenflaska för gym och vardag med koll på vätskeintaget.",
+    "cardImage": "/products/fuel24-jug/jug-thumbnail.webp",
+    "cardImageAlt": "Fuel24 vattenflaska / gym jug på 2,2 liter",
+    "badge": "Elins val för vätskekoll",
+    "headline": "Fuel24 gym jug – stor vattenflaska för koll på vätskeintaget",
+    "shortBody": "En rymlig vattenflaska på 2,2 liter för gym och vardag. Den stora volymen gör att du sällan behöver fylla på, och markeringarna hjälper dig hålla koll på hur mycket du dricker under dagen.",
+    "valueHook": "Stor vattenflaska för koll på vätskeintaget",
+    "valueStatement": "Fuel24 gym jug är en stor vattenflaska på 2,2 liter för dig som vill hålla koll på ditt vätskeintag under dagen. Den rymliga volymen gör att du slipper fylla på hela tiden, och flaskan passar lika bra på gymmet som i vardagen. Amazon visar 4,5 av 5 från 2269 omdömen, och köpare lyfter framför allt storleken, markeringarna som gör det lätt att följa hur mycket man druckit och att den är praktisk att ha med sig.",
+    "passFor": [
+      "Vill hålla koll på hur mycket vatten du dricker under dagen.",
+      "Tröttnar på att fylla på en liten flaska hela tiden.",
+      "Vill ha en flaska som funkar både på gymmet och i vardagen."
+    ],
+    "caution": "Fylld med 2,2 liter blir flaskan tung och tar plats, och upplevelsen varierar beroende på hur du bär den. Räkna med att rengöra den regelbundet så att den hålls fräsch.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Fyll flaskan på morgonen och använd markeringarna som riktmärken under dagen. Skölj ur den dagligen och rengör ordentligt med jämna mellanrum så håller den sig fräsch längre."
+    },
+    "verdict": "Rymlig vattenflaska som gör det enkelt att hålla koll på vätskeintaget.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 2269 omdömen. Köpare beskriver en praktisk, stor flaska med tydliga markeringar, men full blir den tung och tar plats.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur mycket rymmer Fuel24 vattenflaska?", "answer": "Flaskan rymmer 2,2 liter, vilket gör att du sällan behöver fylla på under dagen. Det är en stor volym som passar dig som vill ha rikligt med vatten lätt tillgängligt." },
+      { "question": "Hjälper flaskan mig att dricka mer vatten?", "answer": "Flaskan har markeringar som gör det lätt att följa hur mycket du druckit. Många använder dem som riktmärken under dagen för att hålla bättre koll på sitt vätskeintag." },
+      { "question": "Hur håller jag flaskan fräsch?", "answer": "Skölj ur flaskan dagligen och rengör den ordentligt med jämna mellanrum. Stora flaskor behöver regelbunden rengöring för att hållas fräscha över tid." }
+    ],
+    "reviewSectionId": "fuel24-vattenflaska-recensioner",
+    "reviewFormId": "fuel24-vattenflaska-skriv-recension",
+    "targetKeyword": "vattenflaska gym 2 liter",
+    "metaTitle": "Fuel24 vattenflaska / gym jug 2,2 L – vätskekoll | Elins val",
+    "metaDescription": "Elin går igenom Fuel24 gym jug: en stor vattenflaska på 2,2 liter för gym och vardag som hjälper dig hålla koll på vätskeintaget (4,5 av 5, 2269 omdömen).",
+    "relatedLinks": [
+      { "href": "/traning/loparvast", "label": "Löparväst", "text": "Bär vätska och småsaker nära på längre löprundor." },
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Mjukt underlag för yoga, stretch och golvträning." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Lätt utrustning för styrka och uppvärmning hemma." }
+    ]
+  },
+  "images": {
+    "dir": "fuel24-jug",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/6144HdhVIWL._SL1500_.jpg", "out": "jug-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31BUUFTGpOL._SL1500_.jpg", "out": "jug-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41bTs71rF0L._SL1500_.jpg", "out": "jug-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41TQgW0c05L._SL1500_.jpg", "out": "jug-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Fuel24 vattenflaska / gym jug", "href": "/traning/vattenflaska", "date": "2026-06-27", "image": "/products/fuel24-jug/jug-thumbnail.webp", "blurb": "Stor vattenflaska på 2,2 liter för gym och vardag med koll på vätskeintaget." }
+  ]
+}

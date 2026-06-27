@@ -1,0 +1,111 @@
+{
+  "exportName": "philipsFacialTrimmerProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårborttagning",
+  "route": "skonhet/ansiktstrimmer",
+  "pageComponentName": "AnsiktstrimmerPage",
+  "product": {
+    "slug": "philips-ansiktstrimmer",
+    "title": "Philips Facial Hair Remover 5000 Series (BRR454)",
+    "category": "skonhet",
+    "asin": "B0B9RQB3NQ",
+    "brand": "Philips",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Tar bort fjun", "Skonsam", "Snabb"],
+    "image": "/products/philips-facial-trimmer/philips-trimmer-thumbnail.webp",
+    "imageAlt": "Philips Facial Hair Remover 5000 Series, BRR454",
+    "images": [
+      { "src": "/products/philips-facial-trimmer/philips-trimmer-thumbnail.webp", "alt": "Philips Facial Hair Remover 5000 Series, BRR454", "label": "Ansiktstrimmer" },
+      { "src": "/products/philips-facial-trimmer/philips-trimmer-1.webp", "alt": "Philips ansiktstrimmer som tar bort fjun snabbt och enkelt", "label": "Tar bort fjun" },
+      { "src": "/products/philips-facial-trimmer/philips-trimmer-2.webp", "alt": "Philips Facial Hair Remover trimmerhuvud och detaljer", "label": "Trimmerhuvud" },
+      { "src": "/products/philips-facial-trimmer/philips-trimmer-3.webp", "alt": "Detaljbild av Philips Facial Hair Remover 5000 Series", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4g4BImc",
+    "pageHref": "/skonhet/ansiktstrimmer",
+    "summary": "En skonsam ansiktstrimmer som tar bort fjun snabbt och enkelt. Smidig att använda hemma för en slätare hud i ansiktet, utan krångel och med en len känsla efteråt.",
+    "evaluation": {
+      "headline": "Skonsam ansiktstrimmer för fjun",
+      "intro": "Elin går igenom Philips Facial Hair Remover 5000 Series: en skonsam ansiktstrimmer som tar bort fjun snabbt och enkelt. Den är smidig att använda hemma och ger en slätare hud i ansiktet, vilket många gillar inför makeup eller för en len känsla i vardagen.",
+      "verdict": "Smidig och skonsam ansiktstrimmer som tar bort fjun snabbt hemma.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårborttagning",
+    "specSectionTitle": "Philips Facial Hair Remover 5000 Series",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Ansiktstrimmer" },
+      { "label": "Användning", "caption": "Område", "value": "Ansikte och fjun" },
+      { "label": "Profil", "caption": "Hårborttagning", "value": "Skonsam, snabb hemma" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4g4BImc",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 997 omdömen.",
+      "highlights": [
+        "Köpare tycker den tar bort fjun snabbt och enkelt.",
+        "Många upplever den som skonsam mot huden i ansiktet.",
+        "Smidig och lätt att hantera, fin inför makeup."
+      ],
+      "cautions": [
+        "Trimmern tar fjun ytligt, så resultatet håller kortare än vaxning.",
+        "Gå mjukt och varsamt över känsliga partier för bästa känsla."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/ansiktstrimmer",
+    "cardBadge": "Tar bort fjun",
+    "cardHook": "Skonsam ansiktstrimmer som tar bort fjun snabbt och enkelt.",
+    "cardImage": "/products/philips-facial-trimmer/philips-trimmer-thumbnail.webp",
+    "cardImageAlt": "Philips Facial Hair Remover 5000 Series, BRR454",
+    "badge": "Elins smidiga val",
+    "headline": "Philips Facial Hair Remover 5000 Series – slät hud i ansiktet",
+    "shortBody": "En skonsam ansiktstrimmer som tar bort fjun snabbt och enkelt. Smidig att använda hemma för en slätare hud i ansiktet och en len känsla, fin inför makeup.",
+    "valueHook": "Skonsam ansiktstrimmer för fjun",
+    "valueStatement": "Philips Facial Hair Remover 5000 Series är en ansiktstrimmer för dig som snabbt och enkelt vill ta bort fjun i ansiktet. Den är skonsam mot huden och smidig att hantera hemma, vilket ger en slätare yta och en len känsla – många använder den inför makeup för ett jämnare resultat. Amazon visar 4,3 av 5 från 997 omdömen, och köpare lyfter framför allt hur snabbt den tar fjun, att den känns skonsam och hur enkel den är att använda.",
+    "passFor": [
+      "Vill ta bort fjun i ansiktet snabbt och enkelt hemma.",
+      "Söker en skonsam trimmer för en slätare hud.",
+      "Gillar en len yta inför makeup."
+    ],
+    "caution": "Trimmern tar fjun ytligt, så resultatet håller kortare än vaxning och upplevelsen varierar mellan hudtyper. Gå mjukt och varsamt över känsliga partier för bästa känsla.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Använd den på ren, torr hud och för trimmern mjukt över de partier där du vill ta bort fjun. Rengör huvudet efteråt så håller den fint länge."
+    },
+    "verdict": "Smidig och skonsam ansiktstrimmer som tar bort fjun snabbt hemma.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 997 omdömen. Köpare beskriver att den tar fjun snabbt och känns skonsam, men resultatet håller kortare än vaxning eftersom håret tas ytligt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Tar ansiktstrimmern bort fjun snabbt?", "answer": "Ja, köpare upplever att den tar bort fjun snabbt och enkelt. Den är smidig att hantera och fin att använda inför makeup." },
+      { "question": "Är trimmern skonsam mot huden?", "answer": "Den beskrivs som skonsam, men upplevelsen varierar mellan hudtyper. Gå mjukt och varsamt över känsliga partier för bästa känsla." },
+      { "question": "Hur länge håller resultatet?", "answer": "Trimmern tar fjun ytligt, så resultatet håller kortare än vaxning. Till gengäld är det snabbt och enkelt att fräscha upp vid behov." }
+    ],
+    "reviewSectionId": "philips-ansiktstrimmer-recensioner",
+    "reviewFormId": "philips-ansiktstrimmer-skriv-recension",
+    "targetKeyword": "ansiktstrimmer dam",
+    "metaTitle": "Philips Facial Hair Remover 5000 – ansiktstrimmer | Elins val",
+    "metaDescription": "Elin går igenom Philips Facial Hair Remover 5000 Series: en skonsam ansiktstrimmer som tar bort fjun snabbt och enkelt (4,3 av 5, 997 omdömen) – slät hud hemma.",
+    "relatedLinks": [
+      { "href": "/skonhet/epilator", "label": "Epilator", "text": "Slät hud genom att ta håret från roten." },
+      { "href": "/skonhet/elektrisk-fotfil", "label": "Elektrisk fotfil", "text": "Slipa bort sträv hud på hälarna hemma." },
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som komplement i ansiktsrutinen." }
+    ]
+  },
+  "images": {
+    "dir": "philips-facial-trimmer",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/710NI+YfvbL._SL1500_.jpg", "out": "philips-trimmer-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41NkwuvybGL._SL1500_.jpg", "out": "philips-trimmer-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41WxTh4JQoL._SL1500_.jpg", "out": "philips-trimmer-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41C7sDQKh2L._SL1500_.jpg", "out": "philips-trimmer-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Philips Facial Hair Remover 5000 Series", "href": "/skonhet/ansiktstrimmer", "date": "2026-06-27", "image": "/products/philips-facial-trimmer/philips-trimmer-thumbnail.webp", "blurb": "Skonsam ansiktstrimmer som tar bort fjun snabbt och enkelt." }
+  ]
+}

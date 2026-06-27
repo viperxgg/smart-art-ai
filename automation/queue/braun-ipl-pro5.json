@@ -1,0 +1,111 @@
+{
+  "exportName": "braunIplPro5Product",
+  "category": "skonhet",
+  "categoryGroup": "Hårborttagning",
+  "route": "skonhet/ipl-harborttagning",
+  "pageComponentName": "IplHarborttagningPage",
+  "product": {
+    "slug": "braun-ipl-pro5",
+    "title": "Braun Silk-expert Pro 5 IPL (PL5267)",
+    "category": "skonhet",
+    "asin": "B09QQR17MZ",
+    "brand": "Braun",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["IPL hemma", "Mindre hårväxt", "Skonsam"],
+    "image": "/products/braun-ipl-pro5/braun-ipl-thumbnail.webp",
+    "imageAlt": "Braun Silk-expert Pro 5 IPL, PL5267",
+    "images": [
+      { "src": "/products/braun-ipl-pro5/braun-ipl-thumbnail.webp", "alt": "Braun Silk-expert Pro 5 IPL, PL5267", "label": "Silk-expert Pro 5" },
+      { "src": "/products/braun-ipl-pro5/braun-ipl-1.webp", "alt": "Braun Silk-expert Pro 5 IPL för hårborttagning hemma", "label": "IPL hemma" },
+      { "src": "/products/braun-ipl-pro5/braun-ipl-2.webp", "alt": "Braun Silk-expert Pro 5 IPL behandlingshuvud och detaljer", "label": "Behandlingshuvud" },
+      { "src": "/products/braun-ipl-pro5/braun-ipl-3.webp", "alt": "Detaljbild av Braun Silk-expert Pro 5 IPL", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4ex2LWb",
+    "pageHref": "/skonhet/ipl-harborttagning",
+    "summary": "En IPL för hårborttagning hemma som ger synligt mindre hårväxt över tid. Smidig att använda på egen hand i lugn och ro, för en jämnare och slätare känsla på behandlade områden.",
+    "evaluation": {
+      "headline": "IPL för hårborttagning hemma",
+      "intro": "Elin går igenom Braun Silk-expert Pro 5 IPL: en IPL för hårborttagning hemma som med regelbunden användning ger synligt mindre hårväxt över tid. Du behandlar i lugn och ro på egen hand, och många uppskattar att slippa raka lika ofta. Det här handlar om utseende och en slätare känsla, inte om någon permanent eller medicinsk effekt.",
+      "verdict": "Smidig IPL för hårborttagning hemma som ger synligt mindre hårväxt över tid.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårborttagning",
+    "specSectionTitle": "Braun Silk-expert Pro 5 IPL",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "IPL för hemmabruk" },
+      { "label": "Användning", "caption": "Område", "value": "Ben, kropp och ansikte" },
+      { "label": "Profil", "caption": "Hårborttagning", "value": "Mindre hårväxt över tid" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4ex2LWb",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 1586 omdömen.",
+      "highlights": [
+        "Köpare upplever synligt mindre hårväxt efter regelbunden användning över tid.",
+        "Många uppskattar att kunna behandla hemma i lugn och ro.",
+        "Beskrivs som smidig och skonsam med flera intensitetslägen."
+      ],
+      "cautions": [
+        "IPL kräver regelbundenhet under flera veckor innan du ser skillnad – resultatet varierar.",
+        "Fungerar bäst på mörkare hår och ljusare hud; läs alltid bruksanvisningen först."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/ipl-harborttagning",
+    "cardBadge": "IPL hemma",
+    "cardHook": "IPL för hårborttagning hemma med synligt mindre hårväxt över tid.",
+    "cardImage": "/products/braun-ipl-pro5/braun-ipl-thumbnail.webp",
+    "cardImageAlt": "Braun Silk-expert Pro 5 IPL, PL5267",
+    "badge": "Elins smidiga val",
+    "headline": "Braun Silk-expert Pro 5 IPL – mindre hårväxt över tid",
+    "shortBody": "En IPL för hårborttagning hemma som med regelbunden användning ger synligt mindre hårväxt över tid. Du behandlar i lugn och ro på egen hand, för en slätare känsla på behandlade områden.",
+    "valueHook": "IPL för hårborttagning hemma",
+    "valueStatement": "Braun Silk-expert Pro 5 IPL är till för dig som vill sköta hårborttagning hemma och få synligt mindre hårväxt över tid. Med regelbunden användning under flera veckor upplever många att håret växer tillbaka glesare, vilket ger en slätare känsla på behandlade områden. Det handlar om utseende och bekvämlighet, inte om någon permanent eller medicinsk effekt. Amazon visar 4,3 av 5 från 1586 omdömen, och köpare lyfter framför allt mindre hårväxt, hur smidig den är att använda hemma och de olika intensitetslägena.",
+    "passFor": [
+      "Vill sköta hårborttagning hemma i lugn och ro.",
+      "Söker synligt mindre hårväxt över tid på ben och kropp.",
+      "Föredrar att slippa raka lika ofta i vardagen."
+    ],
+    "caution": "IPL kräver tålamod och regelbundenhet under flera veckor innan du ser skillnad, och resultatet varierar mellan personer. Den fungerar bäst på mörkare hår och ljusare hud – läs alltid bruksanvisningen först. Det här ger en kosmetisk effekt på utseendet, inte någon permanent eller medicinsk borttagning.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Raka området innan du behandlar, välj rätt intensitetsläge för din hud och kör regelbundet enligt schemat i bruksanvisningen. Tålamod under de första veckorna ger bäst känsla över tid."
+    },
+    "verdict": "Smidig IPL för hårborttagning hemma som ger synligt mindre hårväxt över tid.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 1586 omdömen. Köpare beskriver synligt mindre hårväxt över tid och smidig användning hemma, men IPL kräver regelbundenhet i flera veckor och resultatet varierar.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur snabbt ser jag resultat med IPL?", "answer": "De flesta märker synligt mindre hårväxt först efter flera veckors regelbunden användning. Tålamod och ett fast schema ger bäst känsla över tid." },
+      { "question": "Passar IPL alla hud- och hårtyper?", "answer": "IPL fungerar bäst på mörkare hår och ljusare hud. Läs alltid bruksanvisningen och gör hudtonstesten innan du börjar." },
+      { "question": "Tar IPL bort håret för alltid?", "answer": "Nej, det här ger en kosmetisk effekt med synligt mindre hårväxt över tid, inte någon permanent eller medicinsk borttagning. Du behöver underhållsbehandlingar." }
+    ],
+    "reviewSectionId": "braun-ipl-pro5-recensioner",
+    "reviewFormId": "braun-ipl-pro5-skriv-recension",
+    "targetKeyword": "IPL hårborttagning hemma",
+    "metaTitle": "Braun Silk-expert Pro 5 IPL – hårborttagning hemma | Elins val",
+    "metaDescription": "Elin går igenom Braun Silk-expert Pro 5 IPL: hårborttagning hemma med synligt mindre hårväxt över tid (4,3 av 5, 1586 omdömen) – och vad du bör veta först.",
+    "relatedLinks": [
+      { "href": "/skonhet/epilator", "label": "Epilator", "text": "Slät hud genom att ta håret från roten." },
+      { "href": "/skonhet/elektrisk-fotfil", "label": "Elektrisk fotfil", "text": "Slipa bort sträv hud på hälarna hemma." },
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som komplement i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "braun-ipl-pro5",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/91fW8SzmKYL._SL1500_.jpg", "out": "braun-ipl-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51QmmCtIYzL._SL1500_.jpg", "out": "braun-ipl-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51sZVxKe-IL._SL1500_.jpg", "out": "braun-ipl-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51avZ7fxBNL._SL1500_.jpg", "out": "braun-ipl-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Braun Silk-expert Pro 5 IPL", "href": "/skonhet/ipl-harborttagning", "date": "2026-06-27", "image": "/products/braun-ipl-pro5/braun-ipl-thumbnail.webp", "blurb": "IPL för hårborttagning hemma med synligt mindre hårväxt över tid." }
+  ]
+}

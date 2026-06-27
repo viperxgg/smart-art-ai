@@ -1,0 +1,111 @@
+{
+  "exportName": "candureFrisorsaxProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårstyling (verktyg)",
+  "route": "skonhet/frisorsax",
+  "pageComponentName": "FrisorsaxPage",
+  "product": {
+    "slug": "candure-frisorsax",
+    "title": "Candure frisörsax i rostfritt stål",
+    "category": "skonhet",
+    "asin": "B00CP3EA5G",
+    "brand": "Candure",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Rostfritt stål", "Vass egg", "För lugg & toppar"],
+    "image": "/products/candure-frisorsax/candure-thumbnail.webp",
+    "imageAlt": "Candure frisörsax i rostfritt stål",
+    "images": [
+      { "src": "/products/candure-frisorsax/candure-thumbnail.webp", "alt": "Candure frisörsax i rostfritt stål", "label": "Frisörsax" },
+      { "src": "/products/candure-frisorsax/candure-1.webp", "alt": "Candure frisörsax med vass egg för att putsa lugg", "label": "Vass egg" },
+      { "src": "/products/candure-frisorsax/candure-2.webp", "alt": "Candure frisörsax i rostfritt stål, närbild på bladen", "label": "Rostfritt stål" },
+      { "src": "/products/candure-frisorsax/candure-3.webp", "alt": "Detaljbild av Candure frisörsax handtag", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/43Z46is",
+    "pageHref": "/skonhet/frisorsax",
+    "summary": "En vass frisörsax i rostfritt stål för att putsa lugg och toppar hemma. Skarp egg och stadigt grepp gör det enklare att ta små, jämna klipp mellan frisörbesöken.",
+    "evaluation": {
+      "headline": "Frisörsax för att putsa lugg och toppar hemma",
+      "intro": "Elin går igenom Candure frisörsax i rostfritt stål: en vass sax gjord för att putsa lugg och toppar mellan klippningarna. Den skarpa eggen och det stadiga greppet gör det lättare att ta små, kontrollerade klipp hemma.",
+      "verdict": "Vass och prisvärd frisörsax för att putsa lugg och toppar hemma.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårstyling (verktyg)",
+    "specSectionTitle": "Candure frisörsax",
+    "specs": [
+      { "label": "Material", "caption": "Konstruktion", "value": "Rostfritt stål" },
+      { "label": "Egg", "caption": "Funktion", "value": "Vass för precisa klipp" },
+      { "label": "Användning", "caption": "Styling", "value": "Putsa lugg och toppar hemma" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/43Z46is",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 19465 omdömen.",
+      "highlights": [
+        "Köpare beskriver saxen som vass och lätt att klippa med.",
+        "Uppskattas för att putsa lugg och toppar mellan frisörbesöken.",
+        "Stadigt grepp som många tycker ger bra kontroll."
+      ],
+      "cautions": [
+        "En vass sax kräver försiktighet – ta små klipp åt gången.",
+        "Förvara saxen torrt så att eggen håller sig skarp längre."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/frisorsax",
+    "cardBadge": "Vass egg",
+    "cardHook": "Frisörsax i rostfritt stål för att putsa lugg hemma.",
+    "cardImage": "/products/candure-frisorsax/candure-thumbnail.webp",
+    "cardImageAlt": "Candure frisörsax i rostfritt stål",
+    "badge": "Elins verktygsfavorit",
+    "headline": "Candure frisörsax – putsa lugg och toppar hemma",
+    "shortBody": "En vass frisörsax i rostfritt stål med skarp egg och stadigt grepp. Gjord för att ta små, jämna klipp på lugg och toppar mellan frisörbesöken.",
+    "valueHook": "Frisörsax för att putsa lugg och toppar hemma",
+    "valueStatement": "Candure frisörsax i rostfritt stål är ett verktyg för dig som vill putsa lugg och toppar själv mellan klippningarna. Den vassa eggen och det stadiga greppet gör det lättare att ta små, kontrollerade klipp utan att slita i håret. Amazon visar 4,6 av 5 från 19465 omdömen, och köpare lyfter framför allt hur vass saxen är och att den känns enkel att klippa med hemma.",
+    "passFor": [
+      "Vill putsa lugg och toppar själv mellan frisörbesöken.",
+      "Letar efter en vass sax i rostfritt stål med bra grepp.",
+      "Gillar att ta små, kontrollerade klipp hemma."
+    ],
+    "caution": "En vass sax kräver försiktighet och upplevelsen varierar beroende på vana. Ta små klipp åt gången, klipp på torrt hår för bättre kontroll och förvara saxen torrt så att eggen håller sig skarp.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Klipp på torrt hår och ta små sektioner i taget för bästa kontroll. Håll saxen i vinkel mot topparna och putsa lite åt gången – det är lättare att ta bort mer än att klippa för mycket på en gång."
+    },
+    "verdict": "Vass och prisvärd frisörsax för att putsa lugg och toppar hemma.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 19465 omdömen. Köpare beskriver saxen som vass och lätt att klippa med, men en skarp egg kräver att du tar små klipp åt gången.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur putsar jag luggen själv med en frisörsax?", "answer": "Klipp på torrt hår och ta små sektioner i taget. Håll saxen i vinkel och putsa lite åt gången – det är lättare att ta bort mer än att klippa för mycket på en gång." },
+      { "question": "Är Candure frisörsax tillräckligt vass?", "answer": "Köpare beskriver eggen som vass och enkel att klippa med. En skarp sax ger jämnare klipp, men kräver också att du är försiktig och tar små klipp." },
+      { "question": "Hur håller jag saxen skarp längre?", "answer": "Förvara saxen torrt och torka av bladen efter användning. Det hjälper det rostfria stålet att hålla sig skarpt och fritt från fukt över tid." }
+    ],
+    "reviewSectionId": "candure-frisorsax-recensioner",
+    "reviewFormId": "candure-frisorsax-skriv-recension",
+    "targetKeyword": "frisörsax klippa lugg",
+    "metaTitle": "Candure frisörsax i rostfritt stål – putsa lugg hemma | Elins val",
+    "metaDescription": "Elin går igenom Candure frisörsax i rostfritt stål: en vass sax för att putsa lugg och toppar hemma (4,6 av 5, 19465 omdömen) – och hur du klipper kontrollerat.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Återfuktande steg för torra toppar." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret innan du värmestylar." }
+    ]
+  },
+  "images": {
+    "dir": "candure-frisorsax",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/614wa7N50RL._SL1500_.jpg", "out": "candure-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41QBFubfNKL._SL1500_.jpg", "out": "candure-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51LAPRBbLeL._SL1500_.jpg", "out": "candure-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41zcAbfw9+L._SL1500_.jpg", "out": "candure-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Candure frisörsax i rostfritt stål", "href": "/skonhet/frisorsax", "date": "2026-06-26", "image": "/products/candure-frisorsax/candure-thumbnail.webp", "blurb": "Vass frisörsax i rostfritt stål för att putsa lugg och toppar hemma." }
+  ]
+}

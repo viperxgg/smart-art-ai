@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "goveeHygrometerProduct",
+  "category": "halsa",
+  "categoryGroup": "Smart hem & livsstil",
+  "route": "halsa/hygrometer",
+  "pageComponentName": "HygrometerPage",
+  "product": {
+    "slug": "govee-hygrometer",
+    "title": "Govee WiFi termometer/hygrometer (2-pack)",
+    "category": "halsa",
+    "asin": "B0CS3967DX",
+    "brand": "Govee",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["WiFi", "Temp & luftfuktighet", "Larm i appen"],
+    "image": "/products/govee-hygrometer/hygrometer-thumbnail.webp",
+    "imageAlt": "Govee WiFi termometer/hygrometer, 2-pack",
+    "images": [
+      { "src": "/products/govee-hygrometer/hygrometer-thumbnail.webp", "alt": "Govee WiFi termometer/hygrometer, 2-pack", "label": "Govee 2-pack" },
+      { "src": "/products/govee-hygrometer/hygrometer-1.webp", "alt": "Govee hygrometer som visar temperatur och luftfuktighet", "label": "Temp & fukt" },
+      { "src": "/products/govee-hygrometer/hygrometer-2.webp", "alt": "Govee hygrometer kopplad till app med larm", "label": "App och larm" },
+      { "src": "/products/govee-hygrometer/hygrometer-3.webp", "alt": "Detaljbild av Govee WiFi termometer/hygrometer", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4w4CLak",
+    "pageHref": "/halsa/hygrometer",
+    "summary": "En smart WiFi-termometer och hygrometer i 2-pack som mäter temperatur och luftfuktighet och kan larma i appen. Smidig för dig som vill hålla koll på inomhusklimatet på flera platser.",
+    "evaluation": {
+      "headline": "Smart termometer och hygrometer med larm i appen",
+      "intro": "Elin går igenom Govee WiFi termometer/hygrometer i 2-pack: den mäter temperatur och luftfuktighet och kan larma i appen om värdena går utanför det du ställt in. Smidigt för dig som vill hålla koll på inomhusklimatet på flera platser.",
+      "verdict": "Smidig smart hygrometer i 2-pack som mäter och larmar i appen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Smart hem & livsstil",
+    "specSectionTitle": "Govee WiFi termometer/hygrometer",
+    "specs": [
+      { "label": "Mäter", "caption": "Funktion", "value": "Temperatur och luftfuktighet" },
+      { "label": "Anslutning", "caption": "Smart", "value": "WiFi med app och larm" },
+      { "label": "Antal", "caption": "Förpackning", "value": "2-pack för flera rum" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4w4CLak",
+      "ratingSummary": "Amazon visar ett gott snittbetyg från många köpare.",
+      "highlights": [
+        "Köpare uppskattar att kunna följa temperatur och luftfuktighet direkt i appen.",
+        "Larmfunktionen lyfts fram som praktisk för att fånga upp värden i tid.",
+        "2-packet ses som smidigt för att hålla koll på flera rum samtidigt."
+      ],
+      "cautions": [
+        "Funktioner som app och larm bygger på WiFi och en uppkoppling som fungerar.",
+        "Sensorer av den här typen behöver batteri och kan behöva kalibreras för bästa noggrannhet."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/hygrometer",
+    "cardBadge": "Smart & WiFi",
+    "cardHook": "Mäter temperatur och luftfuktighet och larmar i appen.",
+    "cardImage": "/products/govee-hygrometer/hygrometer-thumbnail.webp",
+    "cardImageAlt": "Govee WiFi termometer/hygrometer, 2-pack",
+    "badge": "Elins koll-på-klimatet-favorit",
+    "headline": "Govee WiFi termometer/hygrometer – smart 2-pack",
+    "shortBody": "En smart WiFi-termometer och hygrometer i 2-pack. Mäter temperatur och luftfuktighet och kan larma i appen – smidigt för dig som vill hålla koll på inomhusklimatet på flera platser.",
+    "valueHook": "Smart termometer och hygrometer med larm i appen",
+    "valueStatement": "Govee WiFi termometer/hygrometer är ett 2-pack för dig som vill hålla koll på inomhusklimatet utan krångel. Sensorerna mäter temperatur och luftfuktighet och kopplas till en app där du kan följa värdena och få larm om de går utanför det du ställt in. Att det är ett 2-pack gör det enkelt att placera en sensor i olika rum. Amazon visar ett gott snittbetyg från många köpare, som framför allt lyfter appen, larmfunktionen och hur smidigt det är att se värdena på flera platser.",
+    "passFor": [
+      "Vill följa temperatur och luftfuktighet direkt i en app.",
+      "Önskar larm som hjälper dig fånga upp värden i tid.",
+      "Gillar att kunna hålla koll på flera rum med ett 2-pack."
+    ],
+    "caution": "App och larm bygger på WiFi och en uppkoppling som fungerar, så funktionerna är beroende av nätverket. Sensorerna behöver batteri och kan behöva kalibreras för bästa noggrannhet.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Placera sensorerna i de rum du vill hålla koll på och koppla dem till appen via WiFi. Ställ in larmgränser för temperatur och luftfuktighet så att du får en signal när värdena ändras."
+    },
+    "verdict": "Smidig smart hygrometer i 2-pack som mäter och larmar i appen.",
+    "amazonSummary": "Amazon visar ett gott snittbetyg från många köpare. De lyfter appen och larmfunktionen, men funktionerna bygger på WiFi och sensorerna behöver batteri.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad mäter Govee-sensorn?", "answer": "Den mäter temperatur och luftfuktighet och visar värdena i appen, där du också kan ställa in larm om de går utanför dina gränser." },
+      { "question": "Behöver jag WiFi för att använda den?", "answer": "App- och larmfunktionerna bygger på WiFi och en uppkoppling som fungerar, så en stabil anslutning ger den bästa upplevelsen." },
+      { "question": "Vad är fördelen med ett 2-pack?", "answer": "Med två sensorer kan du hålla koll på flera rum samtidigt, till exempel sovrum och förråd, och följa värdena på alla platser i samma app." }
+    ],
+    "reviewSectionId": "govee-hygrometer-recensioner",
+    "reviewFormId": "govee-hygrometer-skriv-recension",
+    "targetKeyword": "smart hygrometer",
+    "metaTitle": "Govee WiFi termometer/hygrometer 2-pack – smart koll | Elins val",
+    "metaDescription": "Elin går igenom Govee WiFi termometer/hygrometer i 2-pack: mäter temperatur och luftfuktighet och larmar i appen – smidigt för att hålla koll på inomhusklimatet på flera platser.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma för en skönare vardag." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Doft och fukt för en lugnare stämning." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Mjukt ljus som hjälper dig att varva ner." }
+    ]
+  },
+  "images": {
+    "dir": "govee-hygrometer",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61lFeUo46AL._SL1500_.jpg", "out": "hygrometer-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41PbSPXgMOL._SL1500_.jpg", "out": "hygrometer-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41jN5Dl1IeL._SL1500_.jpg", "out": "hygrometer-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41INmo2OC9L._SL1500_.jpg", "out": "hygrometer-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Govee WiFi termometer/hygrometer (2-pack)", "href": "/halsa/hygrometer", "date": "2026-06-27", "image": "/products/govee-hygrometer/hygrometer-thumbnail.webp", "blurb": "Smart termometer och hygrometer som mäter temperatur och luftfuktighet och larmar i appen." }
+  ]
+}

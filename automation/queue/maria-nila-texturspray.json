@@ -1,0 +1,111 @@
+{
+  "exportName": "mariaNilaTextureProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/texturspray",
+  "pageComponentName": "TextursprayPage",
+  "product": {
+    "slug": "maria-nila-texturspray",
+    "title": "Maria Nila Texture Spray (250 ml)",
+    "category": "skonhet",
+    "asin": "B0CKHQZZGN",
+    "brand": "Maria Nila",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Matt volym", "Beach waves-känsla", "Vegansk"],
+    "image": "/products/maria-nila-texture/maria-nila-thumbnail.webp",
+    "imageAlt": "Maria Nila Texture Spray, 250 ml",
+    "images": [
+      { "src": "/products/maria-nila-texture/maria-nila-thumbnail.webp", "alt": "Maria Nila Texture Spray, 250 ml", "label": "Texture Spray" },
+      { "src": "/products/maria-nila-texture/maria-nila-1.webp", "alt": "Maria Nila Texture Spray för matt volym i håret", "label": "Matt volym" },
+      { "src": "/products/maria-nila-texture/maria-nila-2.webp", "alt": "Maria Nila Texture Spray textur och dimma", "label": "Lätt dimma" },
+      { "src": "/products/maria-nila-texture/maria-nila-3.webp", "alt": "Detaljbild av Maria Nila Texture Spray flaska", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4oT98GM",
+    "pageHref": "/skonhet/texturspray",
+    "summary": "En texturspray av salt spray-typ som ger matt volym och en avslappnad beach waves-känsla. Bygger struktur och grepp i håret utan att tynga ner, för en sval, ostylad look.",
+    "evaluation": {
+      "headline": "Texturspray för matt volym och beach waves",
+      "intro": "Elin går igenom Maria Nila Texture Spray: en salt spray-baserad texturspray som ger matt volym och grepp för en avslappnad beach waves-känsla. Den bygger struktur i håret och hjälper lugg och slingor att hålla formen, med ett veganskt innehåll.",
+      "verdict": "Smidig texturspray för matt volym och en ostylad beach waves-look.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Maria Nila Texture Spray",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Texturspray (salt spray), 250 ml" },
+      { "label": "Effekt", "caption": "Styling", "value": "Matt volym och grepp" },
+      { "label": "Profil", "caption": "Hårvård", "value": "Vegansk, för beach waves-känsla" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4oT98GM",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 84 omdömen.",
+      "highlights": [
+        "Köpare gillar den matta volymen och greppet i håret.",
+        "Ger en avslappnad beach waves-känsla utan att kännas hård.",
+        "Lätt dimma som de flesta tycker är enkel att fördela."
+      ],
+      "cautions": [
+        "Antalet omdömen är fortfarande lågt, så helhetsbilden kan ändras över tid.",
+        "Salt spray kan kännas torrt i längden – varva gärna med ett återfuktande steg."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/texturspray",
+    "cardBadge": "Matt volym",
+    "cardHook": "Salt spray som ger matt volym och beach waves-känsla.",
+    "cardImage": "/products/maria-nila-texture/maria-nila-thumbnail.webp",
+    "cardImageAlt": "Maria Nila Texture Spray, 250 ml",
+    "badge": "Elins stylingfavorit",
+    "headline": "Maria Nila Texture Spray – matt volym och beach waves",
+    "shortBody": "En texturspray av salt spray-typ som bygger struktur och grepp i håret. Gjord för matt volym och en avslappnad beach waves-känsla, med ett veganskt innehåll.",
+    "valueHook": "Texturspray för matt volym och beach waves",
+    "valueStatement": "Maria Nila Texture Spray är en salt spray-baserad texturspray för dig som vill ha matt volym och en avslappnad, ostylad look. Den bygger struktur och grepp i håret så att slingor och lugg håller formen och får en beach waves-känsla. Innehållet är veganskt. Amazon visar 4,3 av 5 från 84 omdömen, ett ännu lågt antal, men köpare lyfter framför allt den matta volymen och den enkla dimman.",
+    "passFor": [
+      "Vill ha matt volym och grepp i håret utan tunga produkter.",
+      "Gillar en avslappnad beach waves-känsla i vardagen.",
+      "Letar efter en vegansk texturspray att styla med."
+    ],
+    "caution": "Salt spray kan kännas torrt i längden och upplevelsen varierar mellan hårtyper. Antalet omdömen är fortfarande lågt, så varva gärna med ett återfuktande steg och börja sparsamt.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Spreja på torrt eller fuktigt hår och knåda in med fingrarna för matt volym. Håll avstånd till hårbotten och bygg upp effekten lager för lager för en naturlig beach waves-look."
+    },
+    "verdict": "Smidig texturspray för matt volym och en ostylad beach waves-look.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 84 omdömen. Köpare beskriver matt volym och en avslappnad beach waves-känsla, men antalet omdömen är ännu lågt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag en texturspray för beach waves?", "answer": "Spreja på torrt eller lätt fuktigt hår och knåda in med fingrarna. Bygg upp effekten lager för lager för matt volym och en avslappnad beach waves-känsla." },
+      { "question": "Tynger Maria Nila Texture Spray ner håret?", "answer": "Den är gjord för att ge matt volym och grepp utan att kännas tung. Börja sparsamt och lägg på mer vid behov så undviker du att håret känns belastat." },
+      { "question": "Kan salt spray torka ut håret?", "answer": "Salt spray kan kännas torrt i längden, särskilt vid daglig användning. Varva gärna med ett återfuktande steg i rutinen för balans." }
+    ],
+    "reviewSectionId": "maria-nila-texturspray-recensioner",
+    "reviewFormId": "maria-nila-texturspray-skriv-recension",
+    "targetKeyword": "texturspray salt spray",
+    "metaTitle": "Maria Nila Texture Spray – matt volym & beach waves | Elins val",
+    "metaDescription": "Elin går igenom Maria Nila Texture Spray: en vegansk salt spray för matt volym och beach waves-känsla (4,3 av 5, 84 omdömen) – och vad du bör veta innan du stylar.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Återfuktande steg för torra toppar." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret innan du värmestylar." }
+    ]
+  },
+  "images": {
+    "dir": "maria-nila-texture",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61RhTc9O5YL._SL1500_.jpg", "out": "maria-nila-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31znTUTL95L._SL1500_.jpg", "out": "maria-nila-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/412B-Xdo1cL._SL1500_.jpg", "out": "maria-nila-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41+p4FONT7L._SL1500_.jpg", "out": "maria-nila-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Maria Nila Texture Spray", "href": "/skonhet/texturspray", "date": "2026-06-26", "image": "/products/maria-nila-texture/maria-nila-thumbnail.webp", "blurb": "Salt spray-baserad texturspray för matt volym och beach waves-känsla." }
+  ]
+}

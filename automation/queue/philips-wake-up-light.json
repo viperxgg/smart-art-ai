@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "philipsWakeUpLightProduct",
+  "category": "halsa",
+  "categoryGroup": "Sömn & avkoppling",
+  "route": "halsa/wake-up-light",
+  "pageComponentName": "WakeUpLightPage",
+  "product": {
+    "slug": "philips-wake-up-light",
+    "title": "Philips Wake-up Light HF3651/01",
+    "category": "halsa",
+    "asin": "B074TP48WY",
+    "brand": "Philips",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Soluppgångssimulering", "Mjuk väckning", "Ljus som ökar gradvis"],
+    "image": "/products/philips-wakeup/wakeup-thumbnail.webp",
+    "imageAlt": "Philips Wake-up Light HF3651/01 ljusväckarklocka",
+    "images": [
+      { "src": "/products/philips-wakeup/wakeup-thumbnail.webp", "alt": "Philips Wake-up Light HF3651/01 ljusväckarklocka", "label": "Wake-up Light" },
+      { "src": "/products/philips-wakeup/wakeup-1.webp", "alt": "Philips Wake-up Light med soluppgångssimulering", "label": "Soluppgång" },
+      { "src": "/products/philips-wakeup/wakeup-2.webp", "alt": "Philips Wake-up Light sett från sidan med display", "label": "Display" },
+      { "src": "/products/philips-wakeup/wakeup-3.webp", "alt": "Detaljbild av Philips Wake-up Light HF3651/01", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eGiXmM",
+    "pageHref": "/halsa/wake-up-light",
+    "summary": "En ljusväckarklocka med soluppgångssimulering som väcker dig mjukt med ljus som gradvis ökar inför väckningen. Ett behagligare sätt att börja morgonen än en plötslig larmsignal.",
+    "evaluation": {
+      "headline": "Mjuk väckning med ljus som ökar gradvis",
+      "intro": "Elin går igenom Philips Wake-up Light HF3651/01: en ljusväckarklocka som simulerar en soluppgång. Ljuset ökar gradvis innan din väckningstid så att morgonen kan kännas mjukare och mindre abrupt än med ett vanligt larm.",
+      "verdict": "Skön ljusväckarklocka för dig som vill ha en mjukare start på morgonen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Sömn & avkoppling",
+    "specSectionTitle": "Philips Wake-up Light HF3651/01",
+    "specs": [
+      { "label": "Funktion", "caption": "Ljus", "value": "Soluppgångssimulering" },
+      { "label": "Väckning", "caption": "Upplevelse", "value": "Ljus som ökar gradvis" },
+      { "label": "Användning", "caption": "Tillfälle", "value": "Morgonrutin på nattduksbordet" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eGiXmM",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 1525 omdömen.",
+      "highlights": [
+        "Köpare beskriver en mjukare, mer behaglig väckning med det gradvisa ljuset.",
+        "Många uppskattar soluppgångssimuleringen, särskilt på mörka mornar.",
+        "Ses som ett trevligare alternativ till en plötslig larmsignal."
+      ],
+      "cautions": [
+        "Hur väl en ljusväckning fungerar är individuellt – vissa vill ha kvar ett ljudlarm också.",
+        "Placera lampan så att ljuset når dig, annars märks soluppgången sämre."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/wake-up-light",
+    "cardBadge": "Soluppgångssimulering",
+    "cardHook": "Väcker dig mjukt med ljus som gradvis ökar inför väckningen.",
+    "cardImage": "/products/philips-wakeup/wakeup-thumbnail.webp",
+    "cardImageAlt": "Philips Wake-up Light HF3651/01 ljusväckarklocka",
+    "badge": "Elins morgonfavorit",
+    "headline": "Philips Wake-up Light – mjuk väckning med ljus",
+    "shortBody": "En ljusväckarklocka med soluppgångssimulering som väcker dig mjukt med ljus som gradvis ökar. För dig som vill ha en behagligare start på morgonen än en plötslig larmsignal, särskilt under de mörka månaderna.",
+    "valueHook": "Mjuk väckning med ljus som ökar gradvis",
+    "valueStatement": "Philips Wake-up Light HF3651/01 är gjord för dig som vill ha en mjukare morgon. Lampan simulerar en soluppgång och låter ljuset öka gradvis inför din väckningstid, så att uppvaknandet kan kännas lugnare och mindre abrupt. Amazon visar 4,4 av 5 från 1525 omdömen, och köpare lyfter framför allt den behagliga väckningen, soluppgångssimuleringen på mörka mornar och att den känns trevligare än ett vanligt larm.",
+    "passFor": [
+      "Vill ha en mjukare, mer behaglig start på morgonen.",
+      "Tycker det är jobbigt att vakna till mörker och plötsliga larm.",
+      "Gillar tanken på ett ljus som gradvis ökar inför väckningen."
+    ],
+    "caution": "Hur väl en ljusväckning fungerar är individuellt, och vissa vill behålla ett ljudlarm som backup. Placera lampan så att ljuset faktiskt når dig i sängen, annars märks soluppgången sämre.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ställ lampan på nattduksbordet i höjd med ansiktet och ställ in väckningstiden. Låt ljuset börja öka en stund innan du vill vakna, så hinner morgonen kännas mjuk."
+    },
+    "verdict": "Skön ljusväckarklocka för dig som vill ha en mjukare start på morgonen.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 1525 omdömen. Köpare beskriver en mjukare väckning med det gradvisa ljuset, men hur väl en ljusväckning fungerar är individuellt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur fungerar en ljusväckarklocka?", "answer": "Den simulerar en soluppgång genom att låta ljuset öka gradvis inför din väckningstid. Tanken är att uppvaknandet ska kännas mjukare än med en plötslig larmsignal." },
+      { "question": "Passar Philips Wake-up Light mörka mornar?", "answer": "Många köpare uppskattar den just på mörka mornar, eftersom det gradvisa ljuset ger en behagligare start när det är mörkt ute. Placera lampan så att ljuset når dig." },
+      { "question": "Finns det ett ljudlarm också?", "answer": "Lampan väcker främst med ljus, men många väljer att behålla ett ljudlarm som backup. Hur väl en ren ljusväckning passar dig är individuellt, så prova dig fram." }
+    ],
+    "reviewSectionId": "philips-wake-up-light-recensioner",
+    "reviewFormId": "philips-wake-up-light-skriv-recension",
+    "targetKeyword": "wake-up light ljusväckarklocka",
+    "metaTitle": "Philips Wake-up Light HF3651/01 – mjuk ljusväckning | Elins val",
+    "metaDescription": "Elin går igenom Philips Wake-up Light HF3651/01: ljusväckarklocka med soluppgångssimulering för en mjukare morgon (4,4 av 5, 1525 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma för en skönare miljö." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Skapa en lugn doftkuliss i rummet." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt, mjukt ljus för en avkopplad kväll." }
+    ]
+  },
+  "images": {
+    "dir": "philips-wakeup",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61N66HR6PPL._SL1500_.jpg", "out": "wakeup-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41SlkitHtvL._SL1500_.jpg", "out": "wakeup-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31H4+O0An4L._SL1500_.jpg", "out": "wakeup-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/410bnZDpteL._SL1500_.jpg", "out": "wakeup-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Philips Wake-up Light HF3651/01", "href": "/halsa/wake-up-light", "date": "2026-06-27", "image": "/products/philips-wakeup/wakeup-thumbnail.webp", "blurb": "Ljusväckarklocka med soluppgångssimulering som väcker dig mjukt med ljus som ökar gradvis." }
+  ]
+}

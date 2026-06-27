@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "g5PilatesringProduct",
+  "category": "traning",
+  "categoryGroup": "Yoga",
+  "route": "traning/pilatesring",
+  "pageComponentName": "PilatesringPage",
+  "product": {
+    "slug": "g5-pilatesring",
+    "title": "G5 HT Sport pilatesring (med handtag)",
+    "category": "traning",
+    "asin": "B0D7J1MS35",
+    "brand": "G5 HT Sport",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Dubbla handtag", "Inre lår & core", "Lätt motstånd"],
+    "image": "/products/g5-pilatesring/pilatesring-thumbnail.webp",
+    "imageAlt": "G5 HT Sport pilatesring (med handtag)",
+    "images": [
+      { "src": "/products/g5-pilatesring/pilatesring-thumbnail.webp", "alt": "G5 HT Sport pilatesring (med handtag)", "label": "Pilatesring" },
+      { "src": "/products/g5-pilatesring/pilatesring-1.webp", "alt": "G5 HT Sport pilatesring med dubbla handtag", "label": "Dubbla handtag" },
+      { "src": "/products/g5-pilatesring/pilatesring-2.webp", "alt": "G5 HT Sport pilatesring i användning för inre lår", "label": "Inre lår" },
+      { "src": "/products/g5-pilatesring/pilatesring-3.webp", "alt": "Detaljbild av G5 HT Sport pilatesring", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eN97Qc",
+    "pageHref": "/traning/pilatesring",
+    "summary": "En pilatesring med dubbla handtag som ger ett lätt motstånd för inre lår, core och armar. Greppvänlig och smidig att ta med, bra för pilates- och kroppsviktspass hemma.",
+    "evaluation": {
+      "headline": "Pilatesring för inre lår, core och armar",
+      "intro": "Elin går igenom G5 HT Sport pilatesring med dubbla handtag: en ring som ger ett lätt motstånd när du klämmer ihop den, vilket aktiverar inre lår, core och armar. Handtagen gör den greppvänlig och den är smidig att ta med för pilates hemma.",
+      "verdict": "Greppvänlig pilatesring som ger lätt motstånd för inre lår, core och armar.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Yoga",
+    "specSectionTitle": "G5 HT Sport pilatesring",
+    "specs": [
+      { "label": "Typ", "caption": "Format", "value": "Pilatesring med handtag" },
+      { "label": "Fokus", "caption": "Områden", "value": "Inre lår, core och armar" },
+      { "label": "Motstånd", "caption": "Nivå", "value": "Lätt motstånd vid kläm" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eN97Qc",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 300 omdömen.",
+      "highlights": [
+        "Köpare upplever bra aktivering av inre lår och core.",
+        "Dubbla handtag gör ringen greppvänlig och bekväm att hålla.",
+        "Smidig storlek som många tycker är lätt att ta med och förvara."
+      ],
+      "cautions": [
+        "Motståndet är lätt – tänk komplement, inte tung styrketräning.",
+        "Klämkraften kan kännas hård mot greppet, ta det lugnt i början."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/pilatesring",
+    "cardBadge": "Inre lår & core",
+    "cardHook": "Pilatesring med handtag för inre lår, core och armar.",
+    "cardImage": "/products/g5-pilatesring/pilatesring-thumbnail.webp",
+    "cardImageAlt": "G5 HT Sport pilatesring (med handtag)",
+    "badge": "Elins pilatesval",
+    "headline": "G5 HT Sport pilatesring – inre lår, core och armar",
+    "shortBody": "En pilatesring med dubbla handtag som ger ett lätt motstånd när du klämmer ihop den. Tanken är att aktivera inre lår, core och armar, och handtagen gör den greppvänlig för pilatespass hemma.",
+    "valueHook": "Pilatesring för inre lår, core och armar",
+    "valueStatement": "G5 HT Sport pilatesring med dubbla handtag är ett smidigt redskap för dig som tränar pilates hemma. När du klämmer ihop ringen får du ett lätt motstånd som aktiverar inre lår, core och armar beroende på hur du håller den. Handtagen gör den greppvänlig och den är lätt att ta med och förvara. Amazon visar 4,5 av 5 från 300 omdömen, där köpare framför allt lyfter aktiveringen och att handtagen sitter bra i händerna.",
+    "passFor": [
+      "Tränar pilates hemma och vill aktivera inre lår och core.",
+      "Vill ha ett smidigt redskap med lätt motstånd och bra grepp.",
+      "Söker omväxling till mattan med en greppvänlig ring."
+    ],
+    "caution": "Motståndet är lätt, så se ringen som ett komplement snarare än tung styrketräning. Klämkraften kan kännas hård mot greppet i början – ta det lugnt och bygg upp antalet repetitioner gradvis.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Placera ringen mellan knäna, vristerna eller händerna och kläm lugnt ihop den i kontrollerade repetitioner. Håll core spänd och undvik att rycka, fokusera på jämn rörelse."
+    },
+    "verdict": "Greppvänlig pilatesring som ger lätt motstånd för inre lår, core och armar.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 300 omdömen. Köpare beskriver bra aktivering av inre lår och core och uppskattar de greppvänliga handtagen, men motståndet är lätt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad tränar jag med en pilatesring?", "answer": "Ringen ger ett lätt motstånd när du klämmer ihop den och aktiverar framför allt inre lår, core och armar beroende på hur du håller den. Den passar bra i pilatespass." },
+      { "question": "Är handtagen viktiga på en pilatesring?", "answer": "Handtag gör ringen greppvänlig och bekvämare att hålla mellan händerna, vilket gör fler övningar tillgängliga. Det blir lättare att kontrollera rörelsen." },
+      { "question": "Hur hårt är motståndet?", "answer": "Motståndet är lätt och tänkt som ett komplement, inte tung styrketräning. Du styr känslan med hur mycket du klämmer och hur många repetitioner du gör." }
+    ],
+    "reviewSectionId": "g5-pilatesring-recensioner",
+    "reviewFormId": "g5-pilatesring-skriv-recension",
+    "targetKeyword": "pilatesring",
+    "metaTitle": "G5 HT Sport pilatesring – inre lår, core & armar | Elins val",
+    "metaDescription": "Elin går igenom G5 HT Sport pilatesring med handtag: lätt motstånd för inre lår, core och armar (4,5 av 5, 300 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Halksäkert underlag för pilates och stretch." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Mjukt motstånd för rörlighet och styrka." },
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Bekvämt underlag för golvövningar hemma." }
+    ]
+  },
+  "images": {
+    "dir": "g5-pilatesring",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/41r0sz5a5+L._SL1500_.jpg", "out": "pilatesring-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41p1ll-dviL._SL1500_.jpg", "out": "pilatesring-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41XTVULqCFL._SL1500_.jpg", "out": "pilatesring-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41y3R-WaulL._SL1500_.jpg", "out": "pilatesring-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "G5 HT Sport pilatesring (med handtag)", "href": "/traning/pilatesring", "date": "2026-06-27", "image": "/products/g5-pilatesring/pilatesring-thumbnail.webp", "blurb": "Pilatesring med dubbla handtag för inre lår, core och armar." }
+  ]
+}

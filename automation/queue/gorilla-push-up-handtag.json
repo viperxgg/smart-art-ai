@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "gorillaPushUpProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/push-up-handtag",
+  "pageComponentName": "PushUpHandtagPage",
+  "product": {
+    "slug": "gorilla-push-up-handtag",
+    "title": "Gorilla Sports push up-handtag (skumgrepp)",
+    "category": "traning",
+    "asin": "B005KAROLI",
+    "brand": "Gorilla Sports",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Skonar handlederna", "Ökat rörelseomfång", "Mjuka skumgrepp"],
+    "image": "/products/gorilla-pushup/pushup-h-thumbnail.webp",
+    "imageAlt": "Gorilla Sports push up-handtag med skumgrepp",
+    "images": [
+      { "src": "/products/gorilla-pushup/pushup-h-thumbnail.webp", "alt": "Gorilla Sports push up-handtag med skumgrepp", "label": "Push up-handtag" },
+      { "src": "/products/gorilla-pushup/pushup-h-1.webp", "alt": "Gorilla Sports push up-handtag i neutralt grepp", "label": "Neutralt grepp" },
+      { "src": "/products/gorilla-pushup/pushup-h-2.webp", "alt": "Gorilla Sports push up-handtag halkfri bas", "label": "Halkfri bas" },
+      { "src": "/products/gorilla-pushup/pushup-h-3.webp", "alt": "Detaljbild av Gorilla Sports push up-handtag", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4vEiEQE",
+    "pageHref": "/traning/push-up-handtag",
+    "summary": "Ett par push up-handtag med mjuka skumgrepp som lyfter händerna från golvet. Det neutrala greppet skonar handlederna och ökar rörelseomfånget vid armhävningar.",
+    "evaluation": {
+      "headline": "Push up-handtag som skonar handlederna",
+      "intro": "Elin jämför Gorilla Sports push up-handtag: ett par handtag med skumgrepp som lyfter händerna från golvet. Det neutrala greppet gör att handlederna kan hållas rakt, vilket många upplever som skonsammare, och det djupare läget ger ett större rörelseomfång i bröst och axlar vid armhävningar.",
+      "verdict": "Enkla handtag som skonar handlederna och ger djupare armhävningar.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Tillbehör",
+    "specSectionTitle": "Gorilla Sports push up-handtag",
+    "specs": [
+      { "label": "Grepp", "caption": "Komfort", "value": "Neutralt grepp med mjukt skum" },
+      { "label": "Användning", "caption": "Övning", "value": "Armhävningar med större rörelseomfång" },
+      { "label": "Bas", "caption": "Stabilitet", "value": "Bred bas för stadigt stöd" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4vEiEQE",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 279 omdömen.",
+      "highlights": [
+        "Köpare tycker att det neutrala greppet känns skönare för handlederna.",
+        "Det större rörelseomfånget upplevs ge mer i bröst och axlar.",
+        "Skumgreppen beskrivs som bekväma även vid fler repetitioner."
+      ],
+      "cautions": [
+        "På hala golv kan handtagen glida – använd dem på matta eller stadigt underlag.",
+        "Plast i konstruktionen gör att stabiliteten upplevs olika av tyngre användare."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/push-up-handtag",
+    "cardBadge": "Skonar handlederna",
+    "cardHook": "Neutralt grepp och djupare armhävningar utan att belasta handlederna.",
+    "cardImage": "/products/gorilla-pushup/pushup-h-thumbnail.webp",
+    "cardImageAlt": "Gorilla Sports push up-handtag med skumgrepp",
+    "badge": "Elins val för armhävningar",
+    "headline": "Gorilla Sports push up-handtag – skonsamt grepp",
+    "shortBody": "Ett par push up-handtag med mjuka skumgrepp som lyfter händerna från golvet. Det neutrala greppet skonar handlederna och det djupare läget ökar rörelseomfånget vid armhävningar.",
+    "valueHook": "Push up-handtag som skonar handlederna",
+    "valueStatement": "Gorilla Sports push up-handtag är till för dig som vill träna armhävningar utan att pressa handlederna i en böjd vinkel. Med ett neutralt grepp kan du hålla handlederna rakt, och eftersom händerna lyfts från golvet får du ett större rörelseomfång i bröst och axlar. Amazon visar 4,2 av 5 från 279 omdömen, och köpare lyfter framför allt det skonsammare greppet och de bekväma skumhandtagen.",
+    "passFor": [
+      "Känner av handlederna vid vanliga armhävningar på golvet.",
+      "Vill ha ett större rörelseomfång i bröst och axlar.",
+      "Gillar ett mjukt, neutralt grepp under hemmaträningen."
+    ],
+    "caution": "På hala golv kan handtagen glida, så använd dem på en matta eller ett stadigt underlag. Tyngre användare kan uppleva plastdelarna som mindre stabila – kontrollera att basen står stadigt innan du belastar fullt.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Placera handtagen i axelbredd på ett stadigt underlag, håll greppet neutralt och sänk dig kontrollerat tills du känner sträckningen i bröstet. Backa belastningen om handlederna eller axlarna gör ont."
+    },
+    "verdict": "Enkla handtag som skonar handlederna och ger djupare armhävningar.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från 279 omdömen. Köpare beskriver ett skonsammare grepp och större rörelseomfång, men på hala golv kan handtagen glida.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur skonar push up-handtag handlederna?", "answer": "Med ett neutralt grepp kan du hålla handlederna rakt istället för böjda mot golvet. Många upplever det som skonsammare, särskilt vid fler repetitioner." },
+      { "question": "Ger handtagen verkligen ett större rörelseomfång?", "answer": "Eftersom händerna lyfts från golvet kan du sänka bröstet djupare än mellan dem, vilket ger ett större rörelseomfång i bröst och axlar." },
+      { "question": "Står handtagen stadigt?", "answer": "På ett stadigt underlag står de bra. På hala golv kan de glida, så använd dem på en matta och kontrollera basen innan du belastar fullt." }
+    ],
+    "reviewSectionId": "gorilla-push-up-handtag-recensioner",
+    "reviewFormId": "gorilla-push-up-handtag-skriv-recension",
+    "targetKeyword": "push-up handtag armhävningar",
+    "metaTitle": "Gorilla Sports push up-handtag – skonar handlederna | Elins val",
+    "metaDescription": "Elin jämför Gorilla Sports push up-handtag: neutralt skumgrepp som skonar handlederna och ökar rörelseomfånget vid armhävningar (4,2 av 5, 279 omdömen).",
+    "relatedLinks": [
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Bygg på överkroppspasset med motstånd." },
+      { "href": "/traning/hantlar", "label": "Hantlar", "text": "Komplettera armhävningarna med fria vikter." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Ett mångsidigt redskap för helkroppsträning." }
+    ]
+  },
+  "images": {
+    "dir": "gorilla-pushup",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61bCBiOMGtL._SL1500_.jpg", "out": "pushup-h-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31d72Zc6ubL._SL1500_.jpg", "out": "pushup-h-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31SCJlvyozL._SL1500_.jpg", "out": "pushup-h-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41mJj1HJ4pL._SL1500_.jpg", "out": "pushup-h-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Gorilla Sports push up-handtag", "href": "/traning/push-up-handtag", "date": "2026-06-27", "image": "/products/gorilla-pushup/pushup-h-thumbnail.webp", "blurb": "Push up-handtag med neutralt skumgrepp som skonar handlederna." }
+  ]
+}

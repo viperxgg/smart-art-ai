@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "bodymateYogastrapProduct",
+  "category": "traning",
+  "categoryGroup": "Yoga",
+  "route": "traning/yogabalte",
+  "pageComponentName": "YogabaltePage",
+  "product": {
+    "slug": "bodymate-yogabalte",
+    "title": "BODYMATE yogabälte / yoga strap (bomull)",
+    "category": "traning",
+    "asin": "B09DL2RSY2",
+    "brand": "BODYMATE",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Bomull", "Längre i stretch", "Justerbart spänne"],
+    "image": "/products/bodymate-yogastrap/yogastrap-thumbnail.webp",
+    "imageAlt": "BODYMATE yogabälte / yoga strap (bomull)",
+    "images": [
+      { "src": "/products/bodymate-yogastrap/yogastrap-thumbnail.webp", "alt": "BODYMATE yogabälte / yoga strap (bomull)", "label": "Yogabälte" },
+      { "src": "/products/bodymate-yogastrap/yogastrap-1.webp", "alt": "BODYMATE yoga strap i bomull med spänne", "label": "Bomull" },
+      { "src": "/products/bodymate-yogastrap/yogastrap-2.webp", "alt": "BODYMATE yogabälte detalj på spänne och justering", "label": "Justerbart" },
+      { "src": "/products/bodymate-yogastrap/yogastrap-3.webp", "alt": "Detaljbild av BODYMATE yogabälte i bomull", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4bfBPYL",
+    "pageHref": "/traning/yogabalte",
+    "summary": "Ett yogabälte i bomull som hjälper dig nå längre i stretch och rörlighet. Med ett justerbart spänne kan du fånga upp avståndet i positioner där du inte når med händerna ännu.",
+    "evaluation": {
+      "headline": "Yogabälte för längre räckvidd i stretch",
+      "intro": "Elin går igenom BODYMATE yogabälte / yoga strap i bomull: ett enkelt hjälpmedel som hjälper dig nå längre i stretch och rörlighet. När du inte når foten eller händerna i en position kan bältet fånga upp avståndet, och spännet gör att du kan justera längden.",
+      "verdict": "Enkelt och stabilt yogabälte i bomull som hjälper dig nå längre i stretch.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Yoga",
+    "specSectionTitle": "BODYMATE yogabälte / yoga strap",
+    "specs": [
+      { "label": "Material", "caption": "Tyg", "value": "Bomull" },
+      { "label": "Justering", "caption": "Spänne", "value": "Justerbart spänne" },
+      { "label": "Användning", "caption": "Syfte", "value": "Stretch och rörlighet" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4bfBPYL",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 321 omdömen.",
+      "highlights": [
+        "Köpare upplever att de når längre i stretch med bältet.",
+        "Bomullsbandet beskrivs som stadigt och behagligt i händerna.",
+        "Spännet håller längden och är enkelt att justera enligt många."
+      ],
+      "cautions": [
+        "Ett bälte ersätter inte uppvärmning; töj lugnt och utan att tvinga.",
+        "Bomull kan tänjas något över tid – kontrollera att spännet sitter."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/yogabalte",
+    "cardBadge": "Längre i stretch",
+    "cardHook": "Yogabälte i bomull som hjälper dig nå längre i stretch.",
+    "cardImage": "/products/bodymate-yogastrap/yogastrap-thumbnail.webp",
+    "cardImageAlt": "BODYMATE yogabälte / yoga strap (bomull)",
+    "badge": "Elins val för rörlighet",
+    "headline": "BODYMATE yogabälte – nå längre i stretch och rörlighet",
+    "shortBody": "Ett yogabälte i bomull med justerbart spänne. Tanken är att fånga upp avståndet i positioner där du inte når med händerna ännu, så du kan jobba med stretch och rörlighet på ett stadigt sätt.",
+    "valueHook": "Yogabälte för längre räckvidd i stretch",
+    "valueStatement": "BODYMATE yogabälte / yoga strap i bomull är ett enkelt hjälpmedel för dig som vill jobba med stretch och rörlighet. När du inte når foten eller händerna i en position kan bältet fånga upp avståndet så att du kan hålla formen utan att tvinga rörelsen. Bomullsbandet känns stadigt och spännet håller längden. Amazon visar 4,7 av 5 från 321 omdömen, där köpare framför allt lyfter att de når längre och att materialet känns behagligt.",
+    "passFor": [
+      "Vill nå längre i stretch utan att tvinga rörelsen.",
+      "Jobbar med rörlighet och vill ha en stadig kontaktpunkt.",
+      "Gillar ett enkelt bomullsbälte med justerbart spänne."
+    ],
+    "caution": "Ett yogabälte ersätter inte uppvärmning – töj lugnt och låt rörligheten komma över tid. Bomull kan tänjas något efter mycket användning, så kontrollera då och då att spännet sitter stadigt.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Lägg bältet runt foten eller mellan händerna i positioner där du inte når, och justera längden med spännet. Dra dig lugnt närmare istället för att rycka i bandet."
+    },
+    "verdict": "Enkelt och stabilt yogabälte i bomull som hjälper dig nå längre i stretch.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 321 omdömen. Köpare beskriver att de når längre i stretch och att bomullsbandet känns stadigt, med ett spänne som håller längden.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad använder jag ett yogabälte till?", "answer": "Bältet fångar upp avståndet i positioner där du inte når foten eller händerna ännu. Det hjälper dig hålla formen och jobba med stretch och rörlighet utan att tvinga rörelsen." },
+      { "question": "Passar bomull bra i ett yogabälte?", "answer": "Bomull känns stadigt och behagligt i händerna och greppar bra. Det kan tänjas något över tid, men ett justerbart spänne gör att du kan fånga upp längden igen." },
+      { "question": "Hur justerar jag längden?", "answer": "Du trär bandet genom spännet och drar åt eller släpper efter för önskad längd. Ställ in en kortare längd för mer kontroll eller längre för positioner där du behöver mer räckvidd." }
+    ],
+    "reviewSectionId": "bodymate-yogabalte-recensioner",
+    "reviewFormId": "bodymate-yogabalte-skriv-recension",
+    "targetKeyword": "yogabälte yoga strap",
+    "metaTitle": "BODYMATE yogabälte / yoga strap – nå längre i stretch | Elins val",
+    "metaDescription": "Elin går igenom BODYMATE yogabälte i bomull: ett enkelt hjälpmedel för stretch och rörlighet (4,7 av 5, 321 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Halksäkert underlag för yoga och stretch." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Mjukt motstånd för rörlighet och styrka." },
+      { "href": "/traning/hopprep", "label": "Hopprep", "text": "Enkel kondition att varva med yogapassen." }
+    ]
+  },
+  "images": {
+    "dir": "bodymate-yogastrap",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/91uiT2vMqrL._SL1500_.jpg", "out": "yogastrap-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51O9Q4X5ixL._SL1500_.jpg", "out": "yogastrap-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/417pfIzOEUL._SL1500_.jpg", "out": "yogastrap-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41uovYokpGL._SL1500_.jpg", "out": "yogastrap-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "BODYMATE yogabälte / yoga strap (bomull)", "href": "/traning/yogabalte", "date": "2026-06-27", "image": "/products/bodymate-yogastrap/yogastrap-thumbnail.webp", "blurb": "Yogabälte i bomull som hjälper dig nå längre i stretch och rörlighet." }
+  ]
+}

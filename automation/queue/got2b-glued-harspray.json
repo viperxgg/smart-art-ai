@@ -1,0 +1,111 @@
+{
+  "exportName": "got2bGluedProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/harspray",
+  "pageComponentName": "HarsprayPage",
+  "product": {
+    "slug": "got2b-glued-harspray",
+    "title": "Got2b Glued hårspray (300 ml)",
+    "category": "skonhet",
+    "asin": "B002CB56SG",
+    "brand": "Got2b",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Extra stark", "Håller hela dagen", "Styling"],
+    "image": "/products/got2b-glued/got2b-glued-thumbnail.webp",
+    "imageAlt": "Got2b Glued hårspray, 300 ml",
+    "images": [
+      { "src": "/products/got2b-glued/got2b-glued-thumbnail.webp", "alt": "Got2b Glued hårspray, 300 ml", "label": "Got2b Glued" },
+      { "src": "/products/got2b-glued/got2b-glued-1.webp", "alt": "Got2b Glued extra stark hårspray för styling", "label": "Extra stark" },
+      { "src": "/products/got2b-glued/got2b-glued-2.webp", "alt": "Got2b Glued hårspray som håller hela dagen", "label": "Håller hela dagen" },
+      { "src": "/products/got2b-glued/got2b-glued-3.webp", "alt": "Detaljbild av Got2b Glued hårspray", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4w6poGK",
+    "pageHref": "/skonhet/harspray",
+    "summary": "En extra stark hårspray för styling som håller hela dagen. Lås fast frisyren med ett stadigt grepp, perfekt för slick-looks och styling som ska hålla formen länge.",
+    "evaluation": {
+      "headline": "Extra stark spray som håller",
+      "intro": "Elin går igenom Got2b Glued hårspray: en extra stark spray gjord för styling som håller hela dagen. Den är populär för slick-looks och frisyrer som ska sitta länge, med ett stadigt grepp som låser formen.",
+      "verdict": "Extra stark hårspray för styling som håller hela dagen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Got2b Glued hårspray",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Hårspray, 300 ml" },
+      { "label": "Styrka", "caption": "Håll", "value": "Extra stark hållbarhet" },
+      { "label": "Användning", "caption": "Styling", "value": "Slick-looks och fast styling" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4w6poGK",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 10603 omdömen.",
+      "highlights": [
+        "Köpare upplever ett mycket stadigt grepp som håller hela dagen.",
+        "Populär för slick-looks och frisyrer som ska sitta länge.",
+        "Många tycker att den låser formen bättre än vanlig spray."
+      ],
+      "cautions": [
+        "Mycket stark hållbarhet – en lätt hand räcker långt.",
+        "Stark fixering kan kännas stel; borsta ur ordentligt vid tvätt."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/harspray",
+    "cardBadge": "Extra stark",
+    "cardHook": "Extra stark hårspray för styling som håller hela dagen.",
+    "cardImage": "/products/got2b-glued/got2b-glued-thumbnail.webp",
+    "cardImageAlt": "Got2b Glued hårspray, 300 ml",
+    "badge": "Elins hållbarhetsfavorit",
+    "headline": "Got2b Glued – extra stark hårspray",
+    "shortBody": "En extra stark hårspray för styling som håller hela dagen. Lås fast frisyren med ett stadigt grepp, perfekt för slick-looks och styling som ska hålla formen länge.",
+    "valueHook": "Extra stark spray som håller",
+    "valueStatement": "Got2b Glued hårspray är en extra stark spray för dig som vill att frisyren ska sitta hela dagen. Den ger ett stadigt grepp som låser formen, vilket gör den populär för slick-looks och styling som ska hålla länge. Amazon visar 4,6 av 5 från 10603 omdömen, och köpare lyfter framför allt det starka greppet, hållbarheten genom dagen och hur väl den låser formen.",
+    "passFor": [
+      "Vill att frisyren ska hålla formen hela dagen.",
+      "Söker en extra stark spray för slick-looks.",
+      "Gillar ett stadigt grepp som låser stylingen."
+    ],
+    "caution": "Hållbarheten är mycket stark, så en lätt hand räcker långt. Stark fixering kan kännas stel, så borsta ur håret ordentligt vid tvätt.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Spraya på ett par sekunders avstånd över den färdiga frisyren för att låsa formen. Bygg på sparsamt – för mycket spray kan kännas stelt."
+    },
+    "verdict": "Extra stark hårspray för styling som håller hela dagen.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 10603 omdömen. Köpare beskriver ett stadigt grepp och hållbarhet hela dagen, men den starka fixeringen kan kännas stel.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur stark är Got2b Glued hårspray?", "answer": "Den har en extra stark hållbarhet och låser formen stadigt. En lätt hand räcker långt eftersom fixeringen är kraftig." },
+      { "question": "Vad passar sprayen bäst till?", "answer": "Den är populär för slick-looks och frisyrer som ska sitta länge. Spraya över den färdiga frisyren för att låsa formen hela dagen." },
+      { "question": "Blir håret stelt av sprayen?", "answer": "Den starka fixeringen kan kännas stel om man använder mycket. Bygg på sparsamt och borsta ur håret ordentligt vid tvätt." }
+    ],
+    "reviewSectionId": "got2b-glued-harspray-recensioner",
+    "reviewFormId": "got2b-glued-harspray-skriv-recension",
+    "targetKeyword": "hårspray stark hållbarhet",
+    "metaTitle": "Got2b Glued hårspray – extra stark hållbarhet | Elins val",
+    "metaDescription": "Elin går igenom Got2b Glued hårspray: extra stark spray för styling som håller hela dagen (4,6 av 5, 10603 omdömen) – och vad du bör veta om den starka fixeringen.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Lägg till lyster och mjukhet i längderna." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret innan du värmestylar." }
+    ]
+  },
+  "images": {
+    "dir": "got2b-glued",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61sURVv8uCL._SL1500_.jpg", "out": "got2b-glued-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31d9224adtL._SL1500_.jpg", "out": "got2b-glued-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ptwouJ9VL._SL1500_.jpg", "out": "got2b-glued-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41oPkbclYnL._SL1500_.jpg", "out": "got2b-glued-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Got2b Glued hårspray", "href": "/skonhet/harspray", "date": "2026-06-27", "image": "/products/got2b-glued/got2b-glued-thumbnail.webp", "blurb": "Extra stark hårspray för styling som håller hela dagen." }
+  ]
+}

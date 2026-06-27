@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "beurerFm90Product",
+  "category": "halsa",
+  "categoryGroup": "Återhämtning",
+  "route": "halsa/fotmassage",
+  "pageComponentName": "FotmassagePage",
+  "product": {
+    "slug": "beurer-fotmassage",
+    "title": "Beurer FM 90 shiatsu fotmassage",
+    "category": "halsa",
+    "asin": "B07H7QZVSP",
+    "brand": "Beurer",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Shiatsu-känsla", "Mjuk värme", "Sköna fötter"],
+    "image": "/products/beurer-fm90/fotmassage-thumbnail.webp",
+    "imageAlt": "Beurer FM 90 shiatsu fotmassage med värme",
+    "images": [
+      { "src": "/products/beurer-fm90/fotmassage-thumbnail.webp", "alt": "Beurer FM 90 shiatsu fotmassage med värme", "label": "Fotmassage" },
+      { "src": "/products/beurer-fm90/fotmassage-1.webp", "alt": "Beurer FM 90 fotmassage med shiatsu-noder", "label": "Shiatsu-noder" },
+      { "src": "/products/beurer-fm90/fotmassage-2.webp", "alt": "Beurer FM 90 fotmassage använd för trötta fötter", "label": "Trötta fötter" },
+      { "src": "/products/beurer-fm90/fotmassage-3.webp", "alt": "Detaljbild av Beurer FM 90 shiatsu fotmassage", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4v033Kc",
+    "pageHref": "/halsa/fotmassage",
+    "summary": "En shiatsu-fotmassage med mjuk värme som ger en skön, avslappnande stund för trötta fötter. Ställ ner fötterna och låt de roterande noderna och värmen göra stunden mysig i soffan. Tänk komfort och avkoppling – inte en ersättning för vård.",
+    "evaluation": {
+      "headline": "Shiatsu-fotmassage för en skön stund",
+      "intro": "Elin tittar närmare på Beurer FM 90 shiatsu fotmassage: roterande noder och mjuk värme för en avslappnande, skön känsla för trötta fötter. Det är en behändig sak att ställa fram framför soffan när du vill unna dig en lugn, varm stund. Den är gjord för komfort och avkoppling.",
+      "verdict": "Skön shiatsu-fotmassage med värme för en avkopplande stund efter en lång dag.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Återhämtning",
+    "specSectionTitle": "Beurer FM 90 fotmassage",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Shiatsu-fotmassage med värme" },
+      { "label": "Funktion", "caption": "Känsla", "value": "Roterande noder och mjuk värme" },
+      { "label": "Placering", "caption": "Komfort", "value": "För fötter, framför soffan eller stolen" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4v033Kc",
+      "ratingSummary": "Amazon visar 3,9 av 5 från 704 omdömen.",
+      "highlights": [
+        "Många tycker att den ger en skön, avslappnande känsla för trötta fötter.",
+        "Den mjuka värmen uppskattas för en extra mysig stund.",
+        "Behändig att ställa fram framför soffan efter en lång dag."
+      ],
+      "cautions": [
+        "Betyget ligger nära snittet (3,9 av 5) – trycket kan kännas starkt och passformen passar inte alla fötter lika bra.",
+        "Det är en komfortprodukt för avkoppling, inte en ersättning för vård eller behandling."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/fotmassage",
+    "cardBadge": "Sköna fötter",
+    "cardHook": "Shiatsu-fotmassage med mjuk värme för en avslappnande stund.",
+    "cardImage": "/products/beurer-fm90/fotmassage-thumbnail.webp",
+    "cardImageAlt": "Beurer FM 90 shiatsu fotmassage med värme",
+    "badge": "Elins kvällsmys-tips",
+    "headline": "Beurer FM 90 – shiatsu fotmassage med värme",
+    "shortBody": "En shiatsu-fotmassage med roterande noder och mjuk värme som ger en skön, avslappnande stund för trötta fötter. Ställ fram den framför soffan och luta dig tillbaka för en lugn stund efter en lång dag.",
+    "valueHook": "Skön fotmassage med värme",
+    "valueStatement": "Beurer FM 90 shiatsu fotmassage är för dig som vill unna dina trötta fötter en skön, avslappnande stund. De roterande noderna och den mjuka värmen ger en behaglig känsla, och den är lätt att ställa fram framför soffan eller stolen. Amazon visar 3,9 av 5 från 704 omdömen, vilket ligger nära snittet – köpare lyfter den avslappnande känslan och värmen, men passformen och trycket passar inte alla fötter lika bra. Se den som en komfortprodukt för avkoppling.",
+    "passFor": [
+      "Vill unna trötta fötter en skön, varm och avslappnande stund.",
+      "Söker en mjuk shiatsu-känsla att ta fram på kvällen.",
+      "Gillar tanken på lite kvällsmys framför soffan efter en lång dag."
+    ],
+    "caution": "Betyget ligger nära snittet (3,9 av 5 från 704 omdömen). Trycket från noderna kan kännas starkt och passformen passar inte alla fötter lika bra – börja med korta stunder. Den är gjord för komfort och avkoppling, inte som en ersättning för vård eller behandling.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ställ fotmassagen på golvet framför soffan eller stolen och placera fötterna lugnt i den. Börja med korta stunder och slå på värmen för en extra mysig känsla. Lyssna på vad som känns skönt och anpassa hur länge du använder den."
+    },
+    "verdict": "Skön shiatsu-fotmassage med värme för en avkopplande stund efter en lång dag.",
+    "amazonSummary": "Amazon visar 3,9 av 5 från 704 omdömen, nära snittet. Köpare beskriver en skön, avslappnande känsla för trötta fötter och uppskattar värmen, men trycket kan kännas starkt och passformen passar inte alla fötter lika bra.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad är Beurer FM 90 bra för?", "answer": "Den ger en skön, avslappnande känsla för trötta fötter med hjälp av roterande shiatsu-noder och mjuk värme. Den är gjord för komfort och avkoppling, till exempel framför soffan på kvällen." },
+      { "question": "Vad gör värmefunktionen?", "answer": "Den mjuka värmen ger en extra behaglig, mysig känsla tillsammans med noderna. Många tycker det gör stunden mer avslappnande efter en lång dag." },
+      { "question": "Passar den alla fötter?", "answer": "Passformen passar inte alla lika bra och trycket kan kännas starkt i början. Börja med korta stunder och se vad som känns skönt för just dina fötter." }
+    ],
+    "reviewSectionId": "beurer-fotmassage-recensioner",
+    "reviewFormId": "beurer-fotmassage-skriv-recension",
+    "targetKeyword": "fotmassage",
+    "metaTitle": "Beurer FM 90 shiatsu fotmassage med värme – sköna fötter | Elins val",
+    "metaDescription": "Elin går igenom Beurer FM 90 shiatsu fotmassage med värme: en avslappnande stund för trötta fötter (3,9 av 5, 704 omdömen) – och vad du bör veta om passform och tryck.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft inomhus för en skönare känsla." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Mjuk doft och fukt för en lugn stämning." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt, avkopplande ljus för kvällsmyset." }
+    ]
+  },
+  "images": {
+    "dir": "beurer-fm90",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81PqxMYWVFL._SL1500_.jpg", "out": "fotmassage-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41LxpolLyCL._SL1500_.jpg", "out": "fotmassage-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41vNAx9EMzL._SL1500_.jpg", "out": "fotmassage-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41BYcEjeUtL._SL1500_.jpg", "out": "fotmassage-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Beurer FM 90 shiatsu fotmassage", "href": "/halsa/fotmassage", "date": "2026-06-27", "image": "/products/beurer-fm90/fotmassage-thumbnail.webp", "blurb": "Shiatsu-fotmassage med mjuk värme för en skön, avslappnande stund för trötta fötter." }
+  ]
+}

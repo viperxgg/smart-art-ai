@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "twsoulWaterBottleProduct",
+  "category": "halsa",
+  "categoryGroup": "Smart hem & livsstil",
+  "route": "halsa/motiverande-vattenflaska",
+  "pageComponentName": "MotiverandeVattenflaskaPage",
+  "product": {
+    "slug": "twsoul-vattenflaska",
+    "title": "TWSOUL motiverande vattenflaska 2 L (tidsmarkerad)",
+    "category": "halsa",
+    "asin": "B0BVB3GDHG",
+    "brand": "TWSOUL",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Tidsmarkerad", "2 liter", "Påminner att dricka"],
+    "image": "/products/twsoul-bottle/bottle-thumbnail.webp",
+    "imageAlt": "TWSOUL motiverande vattenflaska 2 L, tidsmarkerad",
+    "images": [
+      { "src": "/products/twsoul-bottle/bottle-thumbnail.webp", "alt": "TWSOUL motiverande vattenflaska 2 L, tidsmarkerad", "label": "TWSOUL 2 L" },
+      { "src": "/products/twsoul-bottle/bottle-1.webp", "alt": "TWSOUL vattenflaska med tidsmarkeringar längs sidan", "label": "Tidsmarkering" },
+      { "src": "/products/twsoul-bottle/bottle-2.webp", "alt": "TWSOUL vattenflaska 2 liter med lock och rem", "label": "Lock och rem" },
+      { "src": "/products/twsoul-bottle/bottle-3.webp", "alt": "Detaljbild av TWSOUL motiverande vattenflaska", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3QNcm1P",
+    "pageHref": "/halsa/motiverande-vattenflaska",
+    "summary": "En tidsmarkerad vattenflaska på 2 liter med markeringar längs sidan som påminner dig att dricka jämnt över dagen. En enkel hjälp för dig som vill hålla koll på vätskan.",
+    "evaluation": {
+      "headline": "Tidsmarkerad vattenflaska som påminner dig att dricka jämnt",
+      "intro": "Elin går igenom TWSOUL motiverande vattenflaska 2 L: tidsmarkeringar längs sidan visar hur mycket du druckit under dagen och påminner dig att fylla på jämnt. En enkel hjälp för dig som lätt glömmer att dricka.",
+      "verdict": "Enkel tidsmarkerad flaska som påminner dig att dricka jämnt över dagen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Smart hem & livsstil",
+    "specSectionTitle": "TWSOUL motiverande vattenflaska",
+    "specs": [
+      { "label": "Volym", "caption": "Storlek", "value": "2 liter" },
+      { "label": "Funktion", "caption": "Markering", "value": "Tidsmarkeringar längs sidan" },
+      { "label": "Syfte", "caption": "Påminnelse", "value": "Hjälper dig dricka jämnt över dagen" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3QNcm1P",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 81 omdömen, alltså ännu ganska få omdömen att luta sig mot.",
+      "highlights": [
+        "Köpare beskriver att tidsmarkeringarna gör det lättare att komma ihåg att dricka.",
+        "Den stora volymen uppskattas för att räcka en stor del av dagen.",
+        "Flera tycker att flaskan är en enkel knuff för att dricka jämnare."
+      ],
+      "cautions": [
+        "Antalet omdömen är ännu få, så helhetsbilden är inte lika säker som för storsäljare.",
+        "2 liter blir relativt stort och tungt att bära med sig fullt."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/motiverande-vattenflaska",
+    "cardBadge": "Tidsmarkerad",
+    "cardHook": "Tidsmarkeringar som påminner dig att dricka jämnt över dagen.",
+    "cardImage": "/products/twsoul-bottle/bottle-thumbnail.webp",
+    "cardImageAlt": "TWSOUL motiverande vattenflaska 2 L, tidsmarkerad",
+    "badge": "Elins enkla knuff",
+    "headline": "TWSOUL motiverande vattenflaska 2 L – tidsmarkerad",
+    "shortBody": "En tidsmarkerad vattenflaska på 2 liter med markeringar längs sidan. Påminner dig att dricka jämnt över dagen – en enkel hjälp för dig som lätt glömmer att fylla på.",
+    "valueHook": "Tidsmarkerad vattenflaska som påminner dig att dricka jämnt",
+    "valueStatement": "TWSOUL motiverande vattenflaska 2 L är en enkel hjälp för dig som vill dricka jämnare över dagen. Tidsmarkeringarna längs sidan visar ungefär hur mycket du druckit och påminner dig att fylla på i lagom takt. Den stora volymen gör att den räcker en stor del av dagen. Här ska vi vara ärliga: Amazon visar 4,2 av 5 från endast 81 omdömen, så underlaget är ännu ganska litet och helhetsbilden inte lika säker som för en storsäljare.",
+    "passFor": [
+      "Vill ha en enkel påminnelse om att dricka jämnt över dagen.",
+      "Önskar en stor flaska som räcker en stor del av dagen.",
+      "Gillar tanken med tidsmarkeringar som visuell knuff."
+    ],
+    "caution": "Antalet omdömen är ännu få (81), så helhetsbilden är inte lika säker som för en storsäljare. 2 liter blir dessutom relativt stort och tungt att bära med sig när flaskan är full.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Fyll flaskan på morgonen och låt tidsmarkeringarna guida dig till att dricka jämnt under dagen. Skölj och rengör flaskan regelbundet så håller den sig fräsch."
+    },
+    "verdict": "Enkel tidsmarkerad flaska som påminner dig att dricka jämnt över dagen.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från endast 81 omdömen, alltså ett ganska litet underlag. Köpare beskriver att tidsmarkeringarna hjälper, men 2 liter blir stort och tungt att bära fullt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur fungerar tidsmarkeringarna?", "answer": "Markeringarna längs sidan visar ungefär hur mycket du druckit vid olika tidpunkter och påminner dig att fylla på jämnt över dagen." },
+      { "question": "Är 2 liter för mycket?", "answer": "Det beror på dig. Den stora volymen räcker en stor del av dagen, men flaskan blir relativt stor och tung att bära med sig när den är full." },
+      { "question": "Hur säkra är omdömena?", "answer": "Vi vill vara ärliga: flaskan har ännu ganska få omdömen (81), så helhetsbilden är inte lika säker som för en storsäljare med tusentals omdömen." }
+    ],
+    "reviewSectionId": "twsoul-vattenflaska-recensioner",
+    "reviewFormId": "twsoul-vattenflaska-skriv-recension",
+    "targetKeyword": "motiverande vattenflaska",
+    "metaTitle": "TWSOUL motiverande vattenflaska 2 L – tidsmarkerad | Elins val",
+    "metaDescription": "Elin går igenom TWSOUL motiverande vattenflaska 2 L: tidsmarkeringar som påminner dig att dricka jämnt (4,2 av 5, ännu få omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma för en skönare vardag." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Doft och fukt för en lugnare stämning." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Mjukt ljus som hjälper dig att varva ner." }
+    ]
+  },
+  "images": {
+    "dir": "twsoul-bottle",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71PiE0pWYQL._SL1500_.jpg", "out": "bottle-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51Adx7o00ML._SL1500_.jpg", "out": "bottle-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61PfZbwMWYL._SL1500_.jpg", "out": "bottle-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41pft51GDJL._SL1500_.jpg", "out": "bottle-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "TWSOUL motiverande vattenflaska 2 L", "href": "/halsa/motiverande-vattenflaska", "date": "2026-06-27", "image": "/products/twsoul-bottle/bottle-thumbnail.webp", "blurb": "Tidsmarkerad vattenflaska som påminner dig att dricka jämnt över dagen." }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "ironGymPullUpProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/pull-up-bar",
+  "pageComponentName": "PullUpBarPage",
+  "product": {
+    "slug": "iron-gym-pull-up-bar",
+    "title": "Iron Gym chins-/pull-up-stång för dörr",
+    "category": "traning",
+    "asin": "B01DZVV9CS",
+    "brand": "Iron Gym",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Monteras i dörrkarm", "Utan borrning", "Dragövningar"],
+    "image": "/products/iron-gym-pullup/pullup-thumbnail.webp",
+    "imageAlt": "Iron Gym chins- och pull-up-stång för dörr",
+    "images": [
+      { "src": "/products/iron-gym-pullup/pullup-thumbnail.webp", "alt": "Iron Gym chins- och pull-up-stång för dörr", "label": "Pull-up-stång" },
+      { "src": "/products/iron-gym-pullup/pullup-1.webp", "alt": "Iron Gym chinsstång monterad i dörrkarm utan borrning", "label": "Utan borrning" },
+      { "src": "/products/iron-gym-pullup/pullup-2.webp", "alt": "Iron Gym pull-up-stång använd för dragövningar", "label": "Dragövningar" },
+      { "src": "/products/iron-gym-pullup/pullup-3.webp", "alt": "Detaljbild av Iron Gym chinsstång för dörr", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4wbYPjo",
+    "pageHref": "/traning/pull-up-bar",
+    "summary": "En chins-/pull-up-stång som monteras i dörrkarmen utan borrning, för dragövningar som pull-ups och chins. Praktisk för den som vill träna rygg och armar hemma utan fast montering. Obs: mycket få omdömen på Amazon ännu.",
+    "evaluation": {
+      "headline": "Chinsstång för dörren – utan borrning",
+      "intro": "Elin går igenom Iron Gym chins-/pull-up-stång: en stång som monteras i dörrkarmen utan borrning, för dragövningar som pull-ups och chins. Den passar den som vill träna rygg och armar hemma utan fast montering. Notera att underlaget av omdömen på Amazon är mycket tunt.",
+      "verdict": "Praktisk dörrstång för dragövningar hemma – men nästan inga omdömen ännu.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Träning",
+    "specSectionTitle": "Iron Gym pull-up-stång",
+    "specs": [
+      { "label": "Montering", "caption": "Placering", "value": "Dörrkarm, utan borrning" },
+      { "label": "Övningar", "caption": "Användning", "value": "Pull-ups och chins" },
+      { "label": "Träning", "caption": "Fokus", "value": "Rygg och armar" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4wbYPjo",
+      "ratingSummary": "Amazon visar 4,0 av 5 från endast 1 omdöme, så betyget bygger på ett enda omdöme och säger nästan ingenting.",
+      "highlights": [
+        "Tanken är att stången ska monteras i dörrkarmen utan borrning.",
+        "Gjord för dragövningar som pull-ups och chins hemma.",
+        "Praktisk för den som vill träna rygg och armar utan fast montering."
+      ],
+      "cautions": [
+        "Det finns bara 1 omdöme på Amazon, så betyget är i praktiken oanvändbart som vägledning.",
+        "Dörrmonterade stänger belastar dörrkarmen hårt – kontrollera att karmen är stadig och att stången sitter ordentligt innan du hänger med full tyngd."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/pull-up-bar",
+    "cardBadge": "Dragövningar",
+    "cardHook": "Chinsstång för dörren utan borrning – för pull-ups och chins.",
+    "cardImage": "/products/iron-gym-pullup/pullup-thumbnail.webp",
+    "cardImageAlt": "Iron Gym chins- och pull-up-stång för dörr",
+    "badge": "Elins dörrstångsval",
+    "headline": "Iron Gym pull-up-stång – dragövningar i dörren",
+    "shortBody": "En chins-/pull-up-stång som monteras i dörrkarmen utan borrning, för dragövningar som pull-ups och chins. Praktisk för rygg- och armträning hemma. Obs: mycket få omdömen ännu.",
+    "valueHook": "Dragövningar hemma utan fast montering",
+    "valueStatement": "Iron Gym chins-/pull-up-stång monteras i dörrkarmen utan borrning och är till för dragövningar som pull-ups och chins. Den passar dig som vill träna rygg och armar hemma utan att montera något fast i väggen. Var dock medveten om att det bara finns 1 omdöme på Amazon (4,0 av 5), vilket är alldeles för lite för att säga något säkert om kvalitet eller hållbarhet – betyget bör närmast bortses ifrån. Bedöm produkten på funktionen och kontrollera att din dörrkarm är stadig innan du använder den.",
+    "passFor": [
+      "Vill kunna göra pull-ups och chins hemma utan att borra.",
+      "Söker en enkel lösning för rygg- och armträning på liten yta.",
+      "Föredrar en stång som går att ta ner när den inte används."
+    ],
+    "caution": "Det finns bara 1 omdöme på Amazon, så betyget säger i praktiken ingenting om hur stången håller – väg in det innan du köper. Dörrmonterade stänger belastar dörrkarmen hårt: kontrollera att karmen är stadig och att stången sitter helt rätt innan du hänger med full tyngd, och testa försiktigt först.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Montera stången enligt anvisningen och kontrollera att den sitter stadigt i en hel och stabil dörrkarm. Belasta försiktigt först för att se att allt håller, och ta ner stången om karmen känns svag."
+    },
+    "verdict": "Praktisk dörrstång för dragövningar hemma – men nästan inga omdömen ännu.",
+    "amazonSummary": "Amazon visar 4,0 av 5 men det bygger på endast 1 omdöme, så betyget säger nästan ingenting. Bedöm stången på funktionen och kontrollera att dörrkarmen är stadig innan du belastar den fullt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Behöver jag borra för att montera Iron Gym-stången?", "answer": "Nej, stången är gjord för att monteras i dörrkarmen utan borrning. Kontrollera dock att karmen är hel och stadig innan du belastar stången med full tyngd." },
+      { "question": "Vilka övningar kan jag göra med en pull-up-stång i dörren?", "answer": "Du kan göra dragövningar som pull-ups och chins för rygg och armar. Belasta försiktigt först för att se att stången och karmen håller." },
+      { "question": "Kan jag lita på betyget med bara 1 omdöme?", "answer": "Nej, 1 omdöme är alldeles för lite för att säga något säkert om kvalitet eller hållbarhet. Se betyget 4,0 av 5 som i princip oanvändbart och bedöm produkten på funktionen i stället." }
+    ],
+    "reviewSectionId": "iron-gym-pull-up-bar-recensioner",
+    "reviewFormId": "iron-gym-pull-up-bar-skriv-recension",
+    "targetKeyword": "pull-up bar dörr chinsstång",
+    "metaTitle": "Iron Gym pull-up-stång för dörr – test & guide | Elins val",
+    "metaDescription": "Elin går igenom Iron Gym chins-/pull-up-stång som monteras i dörren utan borrning. Obs: endast 1 omdöme på Amazon – bedöm den på funktionen.",
+    "relatedLinks": [
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Lätt motstånd som hjälper dig in i pull-ups." },
+      { "href": "/traning/viktvast", "label": "Viktväst", "text": "Lägg på extra belastning i dragövningarna." },
+      { "href": "/traning/hopprep", "label": "Hopprep", "text": "Enkel konditionsträning på liten yta." }
+    ]
+  },
+  "images": {
+    "dir": "iron-gym-pullup",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51edQMir2iL._SL1500_.jpg", "out": "pullup-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31hWR1g08fL._SL1500_.jpg", "out": "pullup-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61JFev5-F1L._SL1500_.jpg", "out": "pullup-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ho4DjNqzL._SL1500_.jpg", "out": "pullup-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Iron Gym chins-/pull-up-stång för dörr", "href": "/traning/pull-up-bar", "date": "2026-06-27", "image": "/products/iron-gym-pullup/pullup-thumbnail.webp", "blurb": "Chinsstång som monteras i dörrkarmen utan borrning, för dragövningar." }
+  ]
+}

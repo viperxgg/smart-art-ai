@@ -1,0 +1,111 @@
+{
+  "exportName": "treeHutScrubProduct",
+  "category": "skonhet",
+  "categoryGroup": "Sol & glow",
+  "route": "skonhet/kroppsskrubb",
+  "pageComponentName": "KroppsskrubbPage",
+  "product": {
+    "slug": "tree-hut-kroppsskrubb",
+    "title": "Tree Hut Vanilla Shea Sugar Scrub (510 g)",
+    "category": "skonhet",
+    "asin": "B0BX2TZZWG",
+    "brand": "Tree Hut",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Sockerskrubb", "Sheasmör", "Mjuk hud"],
+    "image": "/products/tree-hut-scrub/tree-hut-thumbnail.webp",
+    "imageAlt": "Tree Hut Vanilla Shea Sugar Scrub, 510 g",
+    "images": [
+      { "src": "/products/tree-hut-scrub/tree-hut-thumbnail.webp", "alt": "Tree Hut Vanilla Shea Sugar Scrub, 510 g", "label": "Sockerskrubb" },
+      { "src": "/products/tree-hut-scrub/tree-hut-1.webp", "alt": "Tree Hut sockerskrubb med sheasmör som exfolierar kroppen", "label": "Sheasmör" },
+      { "src": "/products/tree-hut-scrub/tree-hut-2.webp", "alt": "Tree Hut kroppsskrubb textur och konsistens", "label": "Textur" },
+      { "src": "/products/tree-hut-scrub/tree-hut-3.webp", "alt": "Detaljbild av Tree Hut Vanilla Shea Sugar Scrub", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4baRZCE",
+    "pageHref": "/skonhet/kroppsskrubb",
+    "summary": "En sockerskrubb med sheasmör som exfolierar och mjukgör kroppen. Tar bort torr, sträv hud och lämnar huden len och slät – perfekt steg innan brun-utan-sol för ett jämnare resultat.",
+    "evaluation": {
+      "headline": "Sockerskrubb för len och slät kropp",
+      "intro": "Elin går igenom Tree Hut Vanilla Shea Sugar Scrub: en sockerskrubb med sheasmör som exfolierar bort torr, sträv hud och mjukgör kroppen. Sockerkornen putsar mjukt medan sheasmöret återfuktar, vilket gör den till ett populärt steg innan brun-utan-sol för ett jämnare resultat.",
+      "verdict": "Mysig sockerskrubb som gör kroppen len och mjuk, fin innan brun-utan-sol.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Sol & glow",
+    "specSectionTitle": "Tree Hut Vanilla Shea Sugar Scrub",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Sockerskrubb, 510 g" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Socker + sheasmör" },
+      { "label": "Profil", "caption": "Kroppsvård", "value": "Exfolierar och mjukgör" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4baRZCE",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 6379 omdömen.",
+      "highlights": [
+        "Köpare tycker huden känns len och slät direkt efter användning.",
+        "Många lyfter den goda vaniljdoften och den mjukgörande känslan.",
+        "Uppskattas som steg innan brun-utan-sol för ett jämnare resultat."
+      ],
+      "cautions": [
+        "Sockerkornen kan kännas grova – massera mjukt och undvik nyrakad eller skadad hud.",
+        "Den oljiga konsistensen kan göra duschgolvet halt, skölj noga efteråt."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/kroppsskrubb",
+    "cardBadge": "Sockerskrubb",
+    "cardHook": "Sockerskrubb med sheasmör som gör kroppen len och slät.",
+    "cardImage": "/products/tree-hut-scrub/tree-hut-thumbnail.webp",
+    "cardImageAlt": "Tree Hut Vanilla Shea Sugar Scrub, 510 g",
+    "badge": "Elins glow-favorit",
+    "headline": "Tree Hut Vanilla Shea Sugar Scrub – len och slät hud",
+    "shortBody": "En sockerskrubb med sheasmör som exfolierar bort torr, sträv hud och mjukgör kroppen. Ett mysigt steg i duschen som gör huden len – och en favorit innan brun-utan-sol.",
+    "valueHook": "Sockerskrubb för len och slät kropp",
+    "valueStatement": "Tree Hut Vanilla Shea Sugar Scrub är en sockerskrubb för dig som vill ha en len och mjuk kropp. Sockerkornen putsar mjukt bort torr, sträv hud medan sheasmöret återfuktar, vilket lämnar huden slät och mjuk. Många använder den som ett förberedande steg innan brun-utan-sol för ett jämnare resultat. Amazon visar 4,7 av 5 från 6379 omdömen, och köpare lyfter framför allt den lena känslan, vaniljdoften och hur mjuk huden blir.",
+    "passFor": [
+      "Vill exfoliera bort torr, sträv hud och få kroppen len.",
+      "Förbereder huden innan brun-utan-sol för ett jämnare resultat.",
+      "Gillar en mysig sockerskrubb med god doft i duschrutinen."
+    ],
+    "caution": "Sockerkornen kan kännas grova och upplevelsen varierar mellan hudtyper. Massera mjukt, undvik nyrakad eller skadad hud och skölj duschgolvet noga eftersom den oljiga konsistensen kan göra det halt.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Massera in skrubben på fuktig hud i duschen med cirkelrörelser, skölj av och klappa torrt. Använd någon eller ett par gånger i veckan – och gärna innan du applicerar brun-utan-sol."
+    },
+    "verdict": "Mysig sockerskrubb som gör kroppen len och mjuk, fin innan brun-utan-sol.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 6379 omdömen. Köpare beskriver len, slät hud och en god vaniljdoft, men sockerkornen kan kännas grova på känslig hud.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur ofta ska jag använda kroppsskrubben?", "answer": "Någon eller ett par gånger i veckan brukar räcka. Massera mjukt på fuktig hud i duschen, skölj av och klappa torrt." },
+      { "question": "Kan jag använda skrubben innan brun-utan-sol?", "answer": "Ja, många använder den som ett steg innan brun-utan-sol. Den slätar ut huden så att färgen kan lägga sig jämnare." },
+      { "question": "Passar sockerskrubben känslig hud?", "answer": "Sockerkornen är ganska grova, så massera mjukt och undvik nyrakad eller skadad hud. Upplevelsen varierar mellan hudtyper." }
+    ],
+    "reviewSectionId": "tree-hut-kroppsskrubb-recensioner",
+    "reviewFormId": "tree-hut-kroppsskrubb-skriv-recension",
+    "targetKeyword": "kroppsskrubb sockerskrubb",
+    "metaTitle": "Tree Hut Vanilla Shea Sugar Scrub – len & slät hud | Elins val",
+    "metaDescription": "Elin går igenom Tree Hut Vanilla Shea Sugar Scrub: en sockerskrubb med sheasmör som mjukgör kroppen (4,7 av 5, 6379 omdömen) – och varför den är fin innan brun-utan-sol.",
+    "relatedLinks": [
+      { "href": "/skonhet/elektrisk-fotfil", "label": "Elektrisk fotfil", "text": "Slipa bort sträv hud på hälarna hemma." },
+      { "href": "/skonhet/epilator", "label": "Epilator", "text": "Slät hud på ben och kropp utan rakning." },
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som komplement i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "tree-hut-scrub",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61VUBV04PzL._SL1500_.jpg", "out": "tree-hut-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31o1cgeLDEL._SL1500_.jpg", "out": "tree-hut-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41T2TgkD2cL._SL1500_.jpg", "out": "tree-hut-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41El4hHIRzL._SL1500_.jpg", "out": "tree-hut-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Tree Hut Vanilla Shea Sugar Scrub", "href": "/skonhet/kroppsskrubb", "date": "2026-06-27", "image": "/products/tree-hut-scrub/tree-hut-thumbnail.webp", "blurb": "Sockerskrubb med sheasmör som exfolierar och mjukgör kroppen." }
+  ]
+}

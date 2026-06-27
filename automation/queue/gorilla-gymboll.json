@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "gorillaGymbollProduct",
+  "category": "traning",
+  "categoryGroup": "Yoga",
+  "route": "traning/gymboll",
+  "pageComponentName": "GymbollPage",
+  "product": {
+    "slug": "gorilla-gymboll",
+    "title": "Gorilla Sports gymboll / pilatesboll (anti-burst, med pump)",
+    "category": "traning",
+    "asin": "B01MSB4UKB",
+    "brand": "Gorilla Sports",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Anti-burst", "Pump ingår", "Core & balans"],
+    "image": "/products/gorilla-gymboll/gymboll-thumbnail.webp",
+    "imageAlt": "Gorilla Sports gymboll och pilatesboll med pump",
+    "images": [
+      { "src": "/products/gorilla-gymboll/gymboll-thumbnail.webp", "alt": "Gorilla Sports gymboll och pilatesboll med pump", "label": "Gymboll" },
+      { "src": "/products/gorilla-gymboll/gymboll-1.webp", "alt": "Gorilla Sports anti-burst träningsboll för core och balans", "label": "Anti-burst" },
+      { "src": "/products/gorilla-gymboll/gymboll-2.webp", "alt": "Gorilla Sports gymboll med medföljande pump", "label": "Pump ingår" },
+      { "src": "/products/gorilla-gymboll/gymboll-3.webp", "alt": "Detaljbild av Gorilla Sports pilatesboll", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/43Yfs6g",
+    "pageHref": "/traning/gymboll",
+    "summary": "En anti-burst träningsboll för core, balans och pilates. Pump ingår så att du enkelt kan blåsa upp den hemma. Bra för bålträning, stretch och som sittboll vid skrivbordet.",
+    "evaluation": {
+      "headline": "Mångsidig träningsboll för core och balans",
+      "intro": "Elin går igenom Gorilla Sports gymboll: en anti-burst träningsboll för core, balans och pilates med medföljande pump. Den passar för bålträning, stretch och balansövningar och kan även användas som sittboll.",
+      "verdict": "Prisvärd allround-boll för core, balans och pilates – pump ingår.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Träning",
+    "specSectionTitle": "Gorilla Sports gymboll",
+    "specs": [
+      { "label": "Material", "caption": "Konstruktion", "value": "Anti-burst träningsboll" },
+      { "label": "Tillbehör", "caption": "Ingår", "value": "Pump för uppblåsning" },
+      { "label": "Användning", "caption": "Träning", "value": "Core, balans och pilates" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/43Yfs6g",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 10 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att bollen är stadig och känns trygg att använda.",
+        "Att pumpen ingår gör det enkelt att komma igång direkt.",
+        "Flera använder den både för pilates och som sittboll hemma."
+      ],
+      "cautions": [
+        "Få omdömen ännu (endast 10), så betyget bör tolkas försiktigt.",
+        "Välj rätt storlek efter din längd och pumpa till lagom fasthet för bäst stöd."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/gymboll",
+    "cardBadge": "Core & balans",
+    "cardHook": "Anti-burst träningsboll för core och pilates – pump ingår.",
+    "cardImage": "/products/gorilla-gymboll/gymboll-thumbnail.webp",
+    "cardImageAlt": "Gorilla Sports gymboll och pilatesboll med pump",
+    "badge": "Elins allround-val",
+    "headline": "Gorilla Sports gymboll – core, balans och pilates",
+    "shortBody": "En anti-burst träningsboll för core, balans och pilates med medföljande pump. Bra för bålträning, stretch och som sittboll hemma.",
+    "valueHook": "Mångsidig boll för core och balans",
+    "valueStatement": "Gorilla Sports gymboll är en anti-burst träningsboll för dig som vill träna core, balans och pilates hemma. Pump ingår så att du kan blåsa upp den direkt, och bollen fungerar lika bra för bålträning och stretch som för balansövningar eller som sittboll vid skrivbordet. Amazon visar 4,5 av 5 från 10 omdömen – få ännu, så ta betyget med viss försiktighet – men köpare lyfter att den känns stadig och att pumpen gör det enkelt att komma igång.",
+    "passFor": [
+      "Vill träna core och bål med en mångsidig boll hemma.",
+      "Gillar pilates och balansövningar och vill ha pumpen på köpet.",
+      "Söker en boll som även går att använda som sittboll."
+    ],
+    "caution": "Det finns bara 10 omdömen ännu, så betyget säger ännu lite om hur bollen håller över tid. Välj rätt storlek efter din längd och pumpa till lagom fasthet – en för hårt eller för löst pumpad boll ger sämre stöd.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Blås upp bollen med medföljande pump till lagom fasthet och låt materialet vila en stund efter första uppblåsningen. Använd den på ett halkfritt underlag för core-, balans- och pilatesövningar."
+    },
+    "verdict": "Prisvärd allround-boll för core, balans och pilates – pump ingår.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från endast 10 omdömen, så underlaget är litet. Köpare som lämnat omdöme tycker att bollen känns stadig och uppskattar att pumpen ingår.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad betyder anti-burst på en gymboll?", "answer": "Anti-burst innebär att bollen är gjord för att sjunka ihop långsamt i stället för att spricka plötsligt om den skadas, vilket känns tryggare under träning." },
+      { "question": "Ingår pump till Gorilla Sports gymboll?", "answer": "Ja, en pump följer med så att du kan blåsa upp bollen direkt hemma. Pumpa till lagom fasthet för bäst stöd." },
+      { "question": "Är 10 omdömen tillräckligt för att lita på betyget?", "answer": "Nej, 10 omdömen är få. Betyget 4,5 av 5 ser bra ut men säger ännu lite om hur bollen håller över tid – se det som en tidig signal." }
+    ],
+    "reviewSectionId": "gorilla-gymboll-recensioner",
+    "reviewFormId": "gorilla-gymboll-skriv-recension",
+    "targetKeyword": "gymboll pilatesboll",
+    "metaTitle": "Gorilla Sports gymboll / pilatesboll – test & guide | Elins val",
+    "metaDescription": "Elin går igenom Gorilla Sports gymboll: en anti-burst pilatesboll för core och balans med pump som ingår. Obs: endast 10 omdömen ännu.",
+    "relatedLinks": [
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Mjukt underlag för golvövningar och stretch." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Lätt motstånd för core och rehab hemma." },
+      { "href": "/traning/hopprep", "label": "Hopprep", "text": "Enkel konditionsträning på liten yta." }
+    ]
+  },
+  "images": {
+    "dir": "gorilla-gymboll",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71cPq8VwULL._SL1500_.jpg", "out": "gymboll-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31vNuIY6OyL._SL1500_.jpg", "out": "gymboll-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41czU0JO5TL._SL1500_.jpg", "out": "gymboll-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31vInaEEH7L._SL1500_.jpg", "out": "gymboll-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Gorilla Sports gymboll / pilatesboll", "href": "/traning/gymboll", "date": "2026-06-27", "image": "/products/gorilla-gymboll/gymboll-thumbnail.webp", "blurb": "Anti-burst träningsboll för core, balans och pilates – pump ingår." }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "reebokStepProduct",
+  "category": "traning",
+  "categoryGroup": "Kondition",
+  "route": "traning/stepbrada",
+  "pageComponentName": "StepbradaPage",
+  "product": {
+    "slug": "reebok-stepbrada",
+    "title": "Reebok Step justerbar stepbräda",
+    "category": "traning",
+    "asin": "B01KUX49Z8",
+    "brand": "Reebok",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Tre höjder", "Step & HIIT", "Halksäker yta"],
+    "image": "/products/reebok-step/step-thumbnail.webp",
+    "imageAlt": "Reebok Step justerbar stepbräda",
+    "images": [
+      { "src": "/products/reebok-step/step-thumbnail.webp", "alt": "Reebok Step justerbar stepbräda", "label": "Stepbräda" },
+      { "src": "/products/reebok-step/step-1.webp", "alt": "Reebok Step stepbräda med justerbara ben", "label": "Justerbara ben" },
+      { "src": "/products/reebok-step/step-2.webp", "alt": "Reebok Step stepbräda inställd på olika höjder", "label": "Tre höjder" },
+      { "src": "/products/reebok-step/step-3.webp", "alt": "Detaljbild av Reebok Step stepbräda och halksäker yta", "label": "Halksäker yta" }
+    ],
+    "amazonUrl": "https://amzn.to/4wcZ1ij",
+    "pageHref": "/traning/stepbrada",
+    "summary": "En justerbar stepbräda i tre höjder för step-, kondition- och HIIT-pass. Halksäker yta och stabila ben gör den användbar för både uppstig och varierad träning hemma.",
+    "evaluation": {
+      "headline": "Justerbar stepbräda för step, kondition och HIIT",
+      "intro": "Elin går igenom Reebok Step: en justerbar stepbräda i tre höjder som passar för step-, kondition- och HIIT-pass. Med flera höjdlägen kan du anpassa svårighetsgraden, och den halksäkra ytan gör uppstig och steg mer stabila hemma.",
+      "verdict": "Stabil och justerbar stepbräda i tre höjder för varierade step- och konditionspass.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Kondition",
+    "specSectionTitle": "Reebok Step justerbar stepbräda",
+    "specs": [
+      { "label": "Höjder", "caption": "Justering", "value": "Tre höjdlägen" },
+      { "label": "Yta", "caption": "Grepp", "value": "Halksäker ovansida" },
+      { "label": "Användning", "caption": "Pass", "value": "Step, kondition och HIIT" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4wcZ1ij",
+      "ratingSummary": "Amazon visar 4,8 av 5 från 3774 omdömen.",
+      "highlights": [
+        "Köpare upplever att brädan känns stabil att stiga upp på.",
+        "Tre höjder uppskattas för att kunna variera passen.",
+        "Halksäkra ytan ger trygg känsla under step och HIIT enligt många."
+      ],
+      "cautions": [
+        "Höjdbenen ska klickas fast ordentligt innan du börjar.",
+        "Ta gärna step i lugnt tempo i början för att vänja in tekniken."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/stepbrada",
+    "cardBadge": "Step & HIIT",
+    "cardHook": "Justerbar stepbräda i tre höjder för step och kondition.",
+    "cardImage": "/products/reebok-step/step-thumbnail.webp",
+    "cardImageAlt": "Reebok Step justerbar stepbräda",
+    "badge": "Elins konditionsval",
+    "headline": "Reebok Step – justerbar stepbräda i tre höjder",
+    "shortBody": "En justerbar stepbräda i tre höjder för step-, kondition- och HIIT-pass. Tanken är att du kan anpassa svårighetsgraden med höjdläget, och den halksäkra ytan gör uppstig och steg stabilare hemma.",
+    "valueHook": "Justerbar stepbräda för step, kondition och HIIT",
+    "valueStatement": "Reebok Step är en justerbar stepbräda i tre höjder för dig som vill köra step-, kondition- och HIIT-pass hemma. Med flera höjdlägen kan du öka eller minska svårighetsgraden, och den halksäkra ovansidan gör uppstig och steg mer stabila. Stabila ben håller brädan på plats under passet. Amazon visar 4,8 av 5 från 3774 omdömen, där köpare framför allt lyfter stabiliteten och att höjderna gör passen lätta att variera.",
+    "passFor": [
+      "Vill köra step-, kondition- och HIIT-pass hemma.",
+      "Gillar att kunna variera svårighetsgraden med tre höjder.",
+      "Söker en stabil bräda med halksäker yta för uppstig."
+    ],
+    "caution": "Kontrollera att höjdbenen är ordentligt fastklickade innan du börjar, så att brädan står stadigt. Ta gärna stegen i lugnt tempo i början för att vänja in tekniken innan du ökar tempot.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ställ in önskad höjd och kontrollera att benen sitter fast. Sätt hela foten på brädan vid uppstig och håll blicken framåt. Börja lågt och öka höjden när du känner dig stadig."
+    },
+    "verdict": "Stabil och justerbar stepbräda i tre höjder för varierade step- och konditionspass.",
+    "amazonSummary": "Amazon visar 4,8 av 5 från 3774 omdömen. Köpare beskriver en stabil bräda med halksäker yta och uppskattar att de tre höjderna gör passen lätta att variera.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad använder jag en stepbräda till?", "answer": "En stepbräda används för step-, kondition- och HIIT-pass där du stiger upp och ner i olika tempon. Med justerbar höjd kan du anpassa svårighetsgraden efter passet." },
+      { "question": "Hur många höjder har Reebok Step?", "answer": "Brädan har tre höjdlägen som du ställer in med benen. Lägre höjd passar för inlärning och längre pass, högre höjd ger mer intensitet och utmaning." },
+      { "question": "Är stepbrädan halksäker?", "answer": "Ovansidan är halksäker för att ge ett tryggare grepp under step och HIIT. Kontrollera ändå att benen sitter fast och stå stadigt med hela foten på brädan." }
+    ],
+    "reviewSectionId": "reebok-stepbrada-recensioner",
+    "reviewFormId": "reebok-stepbrada-skriv-recension",
+    "targetKeyword": "stepbräda step up",
+    "metaTitle": "Reebok Step justerbar stepbräda – step, kondition & HIIT | Elins val",
+    "metaDescription": "Elin går igenom Reebok Step: en justerbar stepbräda i tre höjder för step-, kondition- och HIIT-pass (4,8 av 5, 3774 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/traning/hopprep", "label": "Hopprep", "text": "Enkel kondition att varva med stegpassen." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Mångsidig redskap för styrka och kondition." },
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Bekvämt underlag för golvövningar hemma." }
+    ]
+  },
+  "images": {
+    "dir": "reebok-step",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71Gd8iDcHoL._SL1500_.jpg", "out": "step-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41Los+Ibp8L._SL1500_.jpg", "out": "step-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41q+o5+vqIL._SL1500_.jpg", "out": "step-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41orXb0oQ6L._SL1500_.jpg", "out": "step-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Reebok Step justerbar stepbräda", "href": "/traning/stepbrada", "date": "2026-06-27", "image": "/products/reebok-step/step-thumbnail.webp", "blurb": "Justerbar stepbräda i tre höjder för step-, kondition- och HIIT-pass." }
+  ]
+}

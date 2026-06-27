@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "oralBIo5Product",
+  "category": "halsa",
+  "categoryGroup": "Smart hem & livsstil",
+  "route": "halsa/eltandborste",
+  "pageComponentName": "EltandborstePage",
+  "product": {
+    "slug": "oralb-tandborste",
+    "title": "Oral-B iO 5S eltandborste",
+    "category": "halsa",
+    "asin": "B0B5V7RNX3",
+    "brand": "Oral-B",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Rund borste", "Tryckvakt", "Magnetteknik"],
+    "image": "/products/oralb-io5/tandborste-thumbnail.webp",
+    "imageAlt": "Oral-B iO 5S eltandborste",
+    "images": [
+      { "src": "/products/oralb-io5/tandborste-thumbnail.webp", "alt": "Oral-B iO 5S eltandborste", "label": "Oral-B iO 5S" },
+      { "src": "/products/oralb-io5/tandborste-1.webp", "alt": "Oral-B iO 5S med rund borste och magnetteknik", "label": "Rund borste" },
+      { "src": "/products/oralb-io5/tandborste-2.webp", "alt": "Oral-B iO 5S med tryckvakt som visar tryck", "label": "Tryckvakt" },
+      { "src": "/products/oralb-io5/tandborste-3.webp", "alt": "Detaljbild av Oral-B iO 5S eltandborste", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4gIRpQf",
+    "pageHref": "/halsa/eltandborste",
+    "summary": "En elektrisk tandborste med rund borste och tryckvakt som hjälper dig att borsta lagom hårt för en skön, ren känsla i munnen. Magnetteknik och flera borstlägen i en smidig vardagsmodell.",
+    "evaluation": {
+      "headline": "Elektrisk tandborste med rund borste och tryckvakt",
+      "intro": "Elin går igenom Oral-B iO 5S: en eltandborste med rund borste och magnetteknik som tillsammans med tryckvakten hjälper dig att hitta lagom borsttryck. En vardagsmodell som många väljer för den sköna, rena känslan i munnen.",
+      "verdict": "Smidig eltandborste med rund borste och tryckvakt för en skön, ren känsla.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Smart hem & livsstil",
+    "specSectionTitle": "Oral-B iO 5S",
+    "specs": [
+      { "label": "Typ", "caption": "Format", "value": "Elektrisk tandborste, rund borste" },
+      { "label": "Funktion", "caption": "Tryck", "value": "Tryckvakt som varnar vid för hårt tryck" },
+      { "label": "Teknik", "caption": "Rörelse", "value": "Magnetteknik med flera borstlägen" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4gIRpQf",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 401 omdömen.",
+      "highlights": [
+        "Köpare beskriver en skön, ren känsla i munnen efter borstning.",
+        "Tryckvakten uppskattas för att hjälpa till att borsta lagom hårt.",
+        "Den runda borsten upplevs som lätt att föra runt tänderna."
+      ],
+      "cautions": [
+        "Borsthuvuden behöver bytas med jämna mellanrum, vilket är en löpande kostnad.",
+        "Den som är van vid en vanlig tandborste kan behöva några dagar att vänja sig vid känslan."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/eltandborste",
+    "cardBadge": "Rund borste",
+    "cardHook": "Rund borste och tryckvakt för en skön, ren känsla i munnen.",
+    "cardImage": "/products/oralb-io5/tandborste-thumbnail.webp",
+    "cardImageAlt": "Oral-B iO 5S eltandborste",
+    "badge": "Elins vardagsfavorit",
+    "headline": "Oral-B iO 5S – rund borste och tryckvakt",
+    "shortBody": "En elektrisk tandborste med rund borste och magnetteknik. Tryckvakten hjälper dig att borsta lagom hårt, för en skön och ren känsla i munnen i den dagliga rutinen.",
+    "valueHook": "Elektrisk tandborste med rund borste och tryckvakt",
+    "valueStatement": "Oral-B iO 5S är en eltandborste för dig som vill ha en skön, ren känsla i munnen utan att borsta för hårt. Den runda borsten är gjord för att föras runt varje tand, och magnettekniken ger en jämn rörelse. Tryckvakten varnar när du trycker för hårt, vilket gör det enklare att hitta lagom tryck. Amazon visar 4,6 av 5 från 401 omdömen, och köpare lyfter framför allt den rena känslan, tryckvakten och hur lätt den är att hantera i vardagen.",
+    "passFor": [
+      "Vill ha en elektrisk tandborste med rund borste till vardagsrutinen.",
+      "Önskar en tryckvakt som hjälper dig att inte borsta för hårt.",
+      "Gillar en smidig modell med flera borstlägen att välja mellan."
+    ],
+    "caution": "Borsthuvuden behöver bytas med jämna mellanrum, vilket är en löpande kostnad att räkna med. Den som är van vid en vanlig tandborste kan behöva några dagar för att vänja sig vid känslan och vibrationerna.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "För borsten långsamt runt varje tand och låt tryckvakten guida dig till lagom tryck. Byt borsthuvud med jämna mellanrum och ladda borsten enligt anvisningarna för bästa resultat."
+    },
+    "verdict": "Smidig eltandborste med rund borste och tryckvakt för en skön, ren känsla.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 401 omdömen. Köpare beskriver en skön, ren känsla och uppskattar tryckvakten, men borsthuvuden behöver bytas med jämna mellanrum.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad är fördelen med en rund borste?", "answer": "Den runda borsten är gjord för att föras runt en tand i taget, vilket många upplever ger en skön och ren känsla i munnen efter borstning." },
+      { "question": "Vad gör tryckvakten?", "answer": "Tryckvakten varnar när du trycker för hårt, så att du lättare hittar ett lagom borsttryck under den dagliga rutinen." },
+      { "question": "Hur ofta byter jag borsthuvud?", "answer": "Borsthuvuden behöver bytas med jämna mellanrum när stråna börjar bli slitna. Följ tillverkarens anvisningar för när det är dags." }
+    ],
+    "reviewSectionId": "oralb-tandborste-recensioner",
+    "reviewFormId": "oralb-tandborste-skriv-recension",
+    "targetKeyword": "elektrisk tandborste",
+    "metaTitle": "Oral-B iO 5S eltandborste – rund borste & tryckvakt | Elins val",
+    "metaDescription": "Elin går igenom Oral-B iO 5S: en elektrisk tandborste med rund borste och tryckvakt för en skön, ren känsla (4,6 av 5, 401 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma för en skönare vardag." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Doft och fukt för en lugnare stämning." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Mjukt ljus som hjälper dig att varva ner." }
+    ]
+  },
+  "images": {
+    "dir": "oralb-io5",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81wj-0wKRCL._SL1500_.jpg", "out": "tandborste-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41knhrwoTVL._SL1500_.jpg", "out": "tandborste-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51gyz1cj-OL._SL1500_.jpg", "out": "tandborste-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41OiXpFgRyL._SL1500_.jpg", "out": "tandborste-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Oral-B iO 5S eltandborste", "href": "/halsa/eltandborste", "date": "2026-06-27", "image": "/products/oralb-io5/tandborste-thumbnail.webp", "blurb": "Elektrisk tandborste med rund borste och tryckvakt för en skön, ren känsla." }
+  ]
+}

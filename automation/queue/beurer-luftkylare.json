@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "beurerLv50Product",
+  "category": "halsa",
+  "categoryGroup": "Fläkt",
+  "route": "halsa/luftkylare",
+  "pageComponentName": "LuftkylarePage",
+  "product": {
+    "slug": "beurer-luftkylare",
+    "title": "Beurer LV 50 Fresh Breeze luftkylare",
+    "category": "halsa",
+    "asin": "B094ZMJFW6",
+    "brand": "Beurer",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Portabel bordsmodell", "Svalkande bris", "Vattentank för extra sval luft"],
+    "image": "/products/beurer-lv50/kylare-thumbnail.webp",
+    "imageAlt": "Beurer LV 50 Fresh Breeze luftkylare för bordet",
+    "images": [
+      { "src": "/products/beurer-lv50/kylare-thumbnail.webp", "alt": "Beurer LV 50 Fresh Breeze luftkylare för bordet", "label": "Luftkylare" },
+      { "src": "/products/beurer-lv50/kylare-1.webp", "alt": "Beurer LV 50 portabel bordsluftkylare framifrån", "label": "Portabel" },
+      { "src": "/products/beurer-lv50/kylare-2.webp", "alt": "Beurer LV 50 luftkylare med vattentank för svalare luft", "label": "Vattentank" },
+      { "src": "/products/beurer-lv50/kylare-3.webp", "alt": "Detaljbild av Beurer LV 50 Fresh Breeze luftkylare", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4vaeuz6",
+    "pageHref": "/halsa/luftkylare",
+    "summary": "En liten, portabel bordsluftkylare som ger en svalkande bris vid skrivbordet eller soffan. Fyll på vatten i tanken för en extra sval känsla under varma dagar. En enkel, behändig fläkt – men det är just en personlig bordsmodell, inte en kraftfull rumskylare.",
+    "evaluation": {
+      "headline": "Liten bordsfläkt med svalkande bris",
+      "intro": "Elin tittar närmare på Beurer LV 50 Fresh Breeze: en kompakt luftkylare för bordet som ger en personlig, svalkande bris. Du kan fylla på vatten i tanken för en extra sval luft alldeles framför dig. Det är en behändig modell att ha på skrivbordet eller nattduksbordet under varma dagar.",
+      "verdict": "Behändig personlig bordsfläkt för en svalkande bris – men håll förväntningarna i nivå med storleken.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Fläkt",
+    "specSectionTitle": "Beurer LV 50 Fresh Breeze",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Portabel bordsluftkylare" },
+      { "label": "Funktion", "caption": "Sval luft", "value": "Vattentank för en extra sval bris" },
+      { "label": "Placering", "caption": "Personlig", "value": "Skrivbord, nattduksbord eller soffbord" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4vaeuz6",
+      "ratingSummary": "Amazon visar 3,6 av 5 från 242 omdömen.",
+      "highlights": [
+        "Behändig och liten – många uppskattar att den får plats på skrivbordet.",
+        "Ger en svalkande, personlig bris alldeles framför dig.",
+        "Enkel att fylla på med vatten för en lite svalare känsla."
+      ],
+      "cautions": [
+        "Betyget är lägre än snittet (3,6 av 5) – flera köpare tycker att den är svag och mest märks på nära håll, inte i hela rummet.",
+        "Det är en liten personlig bordsmodell, inte en kraftfull rumskylare – ställ förväntningarna därefter."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/luftkylare",
+    "cardBadge": "Svalkande bris",
+    "cardHook": "Liten bordsfläkt med vattentank för en personlig, sval bris.",
+    "cardImage": "/products/beurer-lv50/kylare-thumbnail.webp",
+    "cardImageAlt": "Beurer LV 50 Fresh Breeze luftkylare för bordet",
+    "badge": "Elins lilla svalka-tips",
+    "headline": "Beurer LV 50 – portabel bordsluftkylare",
+    "shortBody": "En kompakt luftkylare för bordet som ger en svalkande, personlig bris. Fyll på vatten i tanken för en extra sval känsla under varma dagar. Behändig att flytta mellan skrivbord, soffa och nattduksbord.",
+    "valueHook": "Svalkande bris för skrivbordet",
+    "valueStatement": "Beurer LV 50 Fresh Breeze är en liten, portabel bordsluftkylare för dig som vill ha en personlig, svalkande bris alldeles framför dig. Du fyller på vatten i tanken för en extra sval känsla, och den är lätt att flytta mellan skrivbord, soffbord och nattduksbord. Amazon visar 3,6 av 5 från 242 omdömen, vilket är lägre än snittet – många tycker den är behändig, men flera tycker också att den är svag och mest gör skillnad på nära håll. Se den som en personlig bordsfläkt snarare än en rumskylare.",
+    "passFor": [
+      "Vill ha en liten, personlig svalka vid skrivbordet under varma dagar.",
+      "Söker en behändig bordsmodell som är lätt att flytta runt.",
+      "Gillar tanken på en sval bris alldeles framför dig, inte i hela rummet."
+    ],
+    "caution": "Betyget är lägre än snittet (3,6 av 5 från 242 omdömen) och flera köpare tycker att den känns svag. Det är en liten personlig bordsmodell som mest märks på nära håll – den kyler inte ett helt rum. Ställ förväntningarna efter storleken.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ställ den nära dig på skrivbordet eller soffbordet och rikta brisen mot dig själv. Fyll på vatten i tanken för en lite svalare känsla. Den är gjord för personlig svalka på nära håll, inte för att kyla hela rummet."
+    },
+    "verdict": "Behändig personlig bordsfläkt för en svalkande bris – men håll förväntningarna i nivå med storleken.",
+    "amazonSummary": "Amazon visar 3,6 av 5 från 242 omdömen, vilket är lägre än snittet. Köpare gillar att den är liten och behändig och ger en personlig, svalkande bris, men flera tycker att den är svag och mest märks på nära håll – det är en bordsmodell, inte en rumskylare.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Kyler Beurer LV 50 ett helt rum?", "answer": "Nej, det är en liten personlig bordsluftkylare. Den ger en svalkande bris alldeles framför dig och märks bäst på nära håll – den är inte gjord för att kyla ett helt rum." },
+      { "question": "Vad gör vattentanken?", "answer": "Du fyller på vatten i tanken för att ge brisen en extra sval känsla. Det är en enkel funktion för personlig svalka på skrivbordet eller soffbordet." },
+      { "question": "Varför har den lägre betyg på Amazon?", "answer": "Amazon visar 3,6 av 5 från 242 omdömen. Flera köpare tycker att den känns svag och mest gör skillnad på nära håll. Den passar dig som vill ha personlig svalka, inte en kraftfull rumskylare." }
+    ],
+    "reviewSectionId": "beurer-luftkylare-recensioner",
+    "reviewFormId": "beurer-luftkylare-skriv-recension",
+    "targetKeyword": "luftkylare",
+    "metaTitle": "Beurer LV 50 luftkylare – svalkande bordsbris | Elins val",
+    "metaDescription": "Elin går igenom Beurer LV 50 Fresh Breeze: en liten, portabel bordsluftkylare för en svalkande bris (3,6 av 5, 242 omdömen) – och varför det är en personlig modell, inte en rumskylare.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft inomhus för en skönare känsla." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Mjuk doft och fukt för en lugn stämning." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt, avkopplande ljus för kvällsmyset." }
+    ]
+  },
+  "images": {
+    "dir": "beurer-lv50",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61w0-oWr66L._SL1500_.jpg", "out": "kylare-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41+s2ZcEtGL._SL1500_.jpg", "out": "kylare-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41GMFXVVFGL._SL1500_.jpg", "out": "kylare-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41cACj-H0UL._SL1500_.jpg", "out": "kylare-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Beurer LV 50 Fresh Breeze luftkylare", "href": "/halsa/luftkylare", "date": "2026-06-27", "image": "/products/beurer-lv50/kylare-thumbnail.webp", "blurb": "Liten, portabel bordsluftkylare för en svalkande, personlig bris." }
+  ]
+}

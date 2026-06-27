@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "levoitHumidifierProduct",
+  "category": "halsa",
+  "categoryGroup": "Klimat",
+  "route": "halsa/luftfuktare",
+  "pageComponentName": "LuftfuktarePage",
+  "product": {
+    "slug": "levoit-luftfuktare",
+    "title": "Levoit Smart 6L luftfuktare (Classic 300S)",
+    "category": "halsa",
+    "asin": "B08HS45N13",
+    "brand": "Levoit",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["6 liters tank", "Tyst nattläge", "Appstyrning"],
+    "image": "/products/levoit-humidifier/humid-thumbnail.webp",
+    "imageAlt": "Levoit Smart 6L luftfuktare (Classic 300S)",
+    "images": [
+      { "src": "/products/levoit-humidifier/humid-thumbnail.webp", "alt": "Levoit Smart 6L luftfuktare (Classic 300S)", "label": "Luftfuktare" },
+      { "src": "/products/levoit-humidifier/humid-1.webp", "alt": "Levoit luftfuktare med fukt i sovrummet", "label": "Mer fukt" },
+      { "src": "/products/levoit-humidifier/humid-2.webp", "alt": "6 liters vattentank på Levoit luftfuktare", "label": "6 L tank" },
+      { "src": "/products/levoit-humidifier/humid-3.webp", "alt": "Appstyrning av Levoit Smart luftfuktare", "label": "Appstyrning" }
+    ],
+    "amazonUrl": "https://amzn.to/3Su77Vr",
+    "pageHref": "/halsa/luftfuktare",
+    "summary": "En smart luftfuktare som tillför fukt till torr inomhusluft, gjord för sovrum och vardagsrum. Stor 6-liters tank, tyst nattläge och appstyrning så att du kan ställa in luftfuktigheten på avstånd för en behagligare inomhuskänsla.",
+    "evaluation": {
+      "headline": "Tillför fukt till torr inomhusluft",
+      "intro": "Elin går igenom Levoit Smart 6L luftfuktare (Classic 300S). Den tillför fukt till torr inomhusluft, vilket många uppskattar under vinterhalvåret när element och kyla gör luften torr. Med tyst nattläge och appstyrning är den gjord för att smälta in i sovrummet och kunna ställas in på avstånd.",
+      "verdict": "Smart och tyst luftfuktare för dig som vill tillföra fukt till torr inomhusluft i sovrummet.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Klimat",
+    "specSectionTitle": "Levoit Smart 6L luftfuktare (Classic 300S)",
+    "specs": [
+      { "label": "Tank", "caption": "Kapacitet", "value": "6 liter" },
+      { "label": "Ljud", "caption": "Nattläge", "value": "Tyst läge för sovrum" },
+      { "label": "Styrning", "caption": "Smart", "value": "App och röststyrning" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3Su77Vr",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 24 562 omdömen.",
+      "highlights": [
+        "Köpare upplever en behagligare och mindre torr luft i sovrummet.",
+        "Det tysta nattläget uppskattas av många som vill ha den nära sängen.",
+        "Appstyrningen gör det enkelt att ställa in luftfuktigheten på avstånd."
+      ],
+      "cautions": [
+        "Tanken behöver fyllas på och rengöras regelbundet för bästa resultat.",
+        "Använd gärna rent eller kokat vatten för att undvika vita avlagringar."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/luftfuktare",
+    "cardBadge": "Mer fukt",
+    "cardHook": "Tillför fukt till torr inomhusluft med tyst nattläge.",
+    "cardImage": "/products/levoit-humidifier/humid-thumbnail.webp",
+    "cardImageAlt": "Levoit Smart 6L luftfuktare (Classic 300S)",
+    "badge": "Elins sovrums-val",
+    "headline": "Levoit Smart 6L luftfuktare – fukt till torr luft",
+    "shortBody": "En smart luftfuktare med 6-liters tank, tyst nattläge och appstyrning. Gjord för att tillföra fukt till torr inomhusluft i sovrum och vardagsrum.",
+    "valueHook": "Tillför fukt till torr inomhusluft",
+    "valueStatement": "Levoit Smart 6L luftfuktare är till för dig som tycker att inomhusluften känns torr, särskilt under vinterhalvåret när element och kyla tar fukten ur luften. Den stora 6-liters tanken räcker länge, det tysta nattläget gör den behaglig nära sängen och appstyrningen låter dig ställa in luftfuktigheten på avstånd. Amazon visar 4,4 av 5 från 24 562 omdömen, och köpare lyfter framför allt den behagligare luften och det tysta läget.",
+    "passFor": [
+      "Tycker att inomhusluften känns torr, särskilt på vintern.",
+      "Vill ha en tyst luftfuktare som kan stå nära sängen.",
+      "Gillar att styra luftfuktigheten via app och röst."
+    ],
+    "caution": "En luftfuktare behöver fyllas på och rengöras regelbundet för att hålla sig fräsch. Använd gärna rent eller kokat vatten för att undvika vita avlagringar i rummet.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ställ luftfuktaren en bit från väggar och möbler så att fukten sprids fritt. Använd nattläget för en tystare upplevelse i sovrummet, och töm och rengör tanken med jämna mellanrum."
+    },
+    "verdict": "Smart och tyst luftfuktare för dig som vill tillföra fukt till torr inomhusluft i sovrummet.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 24 562 omdömen. Köpare beskriver en behagligare och mindre torr luft och ett tyst nattläge, men tanken behöver fyllas på och rengöras regelbundet.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När passar det att använda en luftfuktare?", "answer": "Den passar bäst när inomhusluften känns torr, ofta under vinterhalvåret då element och kyla tar fukten ur luften. Då kan luften kännas behagligare i sovrum och vardagsrum." },
+      { "question": "Är Levoit luftfuktare tyst nog för sovrummet?", "answer": "Ja, den har ett tyst nattläge som många uppskattar när de vill ha den nära sängen. Då dämpas både ljud och displayljus." },
+      { "question": "Hur sköter jag luftfuktaren?", "answer": "Fyll på tanken regelbundet och rengör den med jämna mellanrum. Använd gärna rent eller kokat vatten för att undvika vita avlagringar i rummet." }
+    ],
+    "reviewSectionId": "levoit-luftfuktare-recensioner",
+    "reviewFormId": "levoit-luftfuktare-skriv-recension",
+    "targetKeyword": "luftfuktare sovrum",
+    "metaTitle": "Levoit Smart 6L luftfuktare – fukt till torr luft | Elins val",
+    "metaDescription": "Elin går igenom Levoit Smart 6L luftfuktare (Classic 300S): tillför fukt till torr inomhusluft med tyst nattläge och appstyrning (4,4 av 5, 24 562 omdömen).",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare inomhusluft för allergivänligare rum." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Mild doft och en lugnare stämning hemma." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt ljus för en mjukare kvällsstund." }
+    ]
+  },
+  "images": {
+    "dir": "levoit-humidifier",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71YxUFC4ZlL._SL1500_.jpg", "out": "humid-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41MUaFxwGuL._SL1500_.jpg", "out": "humid-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41V65hCNK0L._SL1500_.jpg", "out": "humid-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51wo6hKUCKL._SL1500_.jpg", "out": "humid-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Levoit Smart 6L luftfuktare (Classic 300S)", "href": "/halsa/luftfuktare", "date": "2026-06-27", "image": "/products/levoit-humidifier/humid-thumbnail.webp", "blurb": "Smart luftfuktare som tillför fukt till torr inomhusluft med tyst nattläge." }
+  ]
+}

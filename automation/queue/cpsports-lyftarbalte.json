@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "cpSportsBeltProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/lyftarbalte",
+  "pageComponentName": "LyftarbaltePage",
+  "product": {
+    "slug": "cpsports-lyftarbalte",
+    "title": "C.P. Sports lyftarbälte / träningsbälte (T9)",
+    "category": "traning",
+    "asin": "B005GP8I8A",
+    "brand": "C.P. Sports",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Stöd för bålen", "Marklyft & knäböj", "Justerbart spänne"],
+    "image": "/products/cpsports-belt/balte-thumbnail.webp",
+    "imageAlt": "C.P. Sports lyftarbälte / träningsbälte (T9)",
+    "images": [
+      { "src": "/products/cpsports-belt/balte-thumbnail.webp", "alt": "C.P. Sports lyftarbälte / träningsbälte (T9)", "label": "Lyftarbälte" },
+      { "src": "/products/cpsports-belt/balte-1.webp", "alt": "C.P. Sports lyftarbälte sett framifrån med spänne", "label": "Stabilt spänne" },
+      { "src": "/products/cpsports-belt/balte-2.webp", "alt": "C.P. Sports träningsbälte detalj på bredd och stöd", "label": "Brett stöd" },
+      { "src": "/products/cpsports-belt/balte-3.webp", "alt": "Detaljbild av C.P. Sports lyftarbälte", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4g97XRo",
+    "pageHref": "/traning/lyftarbalte",
+    "summary": "Ett stödjande lyftarbälte för marklyft och knäböj som hjälper dig spänna bålen och hålla en stabilare hållning under tunga lyft. Justerbart spänne för en stadig passform.",
+    "evaluation": {
+      "headline": "Lyftarbälte för stabil bål under tunga lyft",
+      "intro": "Elin går igenom C.P. Sports lyftarbälte (T9): ett träningsbälte som ger stöd kring bålen vid marklyft och knäböj. Tanken med ett bälte är att hjälpa dig spänna upp och hålla en stadig hållning under tunga set, med ett justerbart spänne för en bra passform.",
+      "verdict": "Stödjande lyftarbälte för dig som vill ha extra bålstabilitet i marklyft och knäböj.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Tillbehör",
+    "specSectionTitle": "C.P. Sports lyftarbälte (T9)",
+    "specs": [
+      { "label": "Typ", "caption": "Format", "value": "Lyftarbälte / träningsbälte" },
+      { "label": "Användning", "caption": "Övningar", "value": "Marklyft, knäböj, tunga lyft" },
+      { "label": "Passform", "caption": "Justering", "value": "Justerbart spänne" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4g97XRo",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 20 omdömen.",
+      "highlights": [
+        "Köpare upplever bra stöd kring bålen vid marklyft och knäböj.",
+        "Spännet beskrivs som stabilt och enkelt att justera.",
+        "Bältet känns stadigt för tunga lyft enligt flera köpare."
+      ],
+      "cautions": [
+        "Få omdömen ännu, så helhetsbilden är begränsad – läs gärna fler källor.",
+        "Ett bälte ersätter inte teknik; bygg upp belastningen lugnt."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/lyftarbalte",
+    "cardBadge": "Stöd för bålen",
+    "cardHook": "Stödjande lyftarbälte för marklyft och knäböj.",
+    "cardImage": "/products/cpsports-belt/balte-thumbnail.webp",
+    "cardImageAlt": "C.P. Sports lyftarbälte / träningsbälte (T9)",
+    "badge": "Elins val för tunga lyft",
+    "headline": "C.P. Sports lyftarbälte – stabil bål i marklyft och knäböj",
+    "shortBody": "Ett träningsbälte som ger stöd kring bålen vid tunga lyft. Tanken är att hjälpa dig spänna upp och hålla en stadig hållning i marklyft och knäböj, med ett justerbart spänne för en stadig passform.",
+    "valueHook": "Lyftarbälte för stabil bål under tunga lyft",
+    "valueStatement": "C.P. Sports lyftarbälte (T9) är ett stödjande träningsbälte för dig som lyfter tungt i marklyft och knäböj. Ett bälte är tänkt att hjälpa dig spänna bålen och hålla en stadigare hållning under tunga set, och spännet är justerbart för en bra passform. Amazon visar 4,4 av 5 från 20 omdömen – fortfarande ganska få – och köpare lyfter framför allt stödet kring bålen och det stabila spännet.",
+    "passFor": [
+      "Lyfter tungt i marklyft och knäböj och vill ha extra bålstöd.",
+      "Vill ha ett enkelt bälte med stadigt, justerbart spänne.",
+      "Söker mer stabilitet i de tunga seten utan krångel."
+    ],
+    "caution": "Ett bälte ersätter inte god teknik och bålspänst – det är ett komplement. Antalet omdömen är ännu lågt, så helhetsbilden är begränsad. Bygg upp belastningen lugnt och lär dig spänna bålen även utan bälte.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Spänn bältet stadigt kring midjan vid tunga set, ta ett djupt andetag och tryck ut mot bältet för att spänna bålen. Lossa det mellan seten så du inte bär det i onödan."
+    },
+    "verdict": "Stödjande lyftarbälte för dig som vill ha extra bålstabilitet i marklyft och knäböj.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 20 omdömen. Köpare beskriver bra stöd kring bålen och ett stabilt spänne, men antalet omdömen är ännu lågt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När använder jag ett lyftarbälte?", "answer": "Ett bälte används främst vid tunga set i marklyft och knäböj, där du vill ha extra stöd för bålen. På lättare uppvärmningsset behövs det oftast inte." },
+      { "question": "Hjälper ett bälte mig att spänna bålen?", "answer": "Tanken är att du andas in och trycker ut mot bältet, vilket kan hjälpa dig hålla en stadigare hållning. Det ersätter dock inte att träna bålstabilitet även utan bälte." },
+      { "question": "Hur hårt ska bältet sitta?", "answer": "Det ska sitta stadigt men så att du kan andas in och spänna ut mot det. Sitter det för löst ger det lite stöd, för hårt blir det svårt att andas korrekt." }
+    ],
+    "reviewSectionId": "cpsports-lyftarbalte-recensioner",
+    "reviewFormId": "cpsports-lyftarbalte-skriv-recension",
+    "targetKeyword": "lyftarbälte träningsbälte",
+    "metaTitle": "C.P. Sports lyftarbälte – stöd i marklyft & knäböj | Elins val",
+    "metaDescription": "Elin går igenom C.P. Sports lyftarbälte (T9): ett stödjande träningsbälte för marklyft och knäböj (4,4 av 5, 20 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/traning/viktvast", "label": "Viktväst", "text": "Lägg på extra belastning i kroppsviktsträning." },
+      { "href": "/traning/hantlar", "label": "Hantlar", "text": "Bygg styrka hemma med justerbara hantlar." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Mångsidig redskap för styrka och kondition." }
+    ]
+  },
+  "images": {
+    "dir": "cpsports-belt",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/91ZqB0wJ+mL._SL1500_.jpg", "out": "balte-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51AHNJf-BoL._SL1500_.jpg", "out": "balte-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41eSYLO1WKL._SL1500_.jpg", "out": "balte-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41bcpID8gwL._SL1500_.jpg", "out": "balte-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "C.P. Sports lyftarbälte (T9)", "href": "/traning/lyftarbalte", "date": "2026-06-27", "image": "/products/cpsports-belt/balte-thumbnail.webp", "blurb": "Stödjande lyftarbälte för marklyft och knäböj som stabiliserar bålen." }
+  ]
+}

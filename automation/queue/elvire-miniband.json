@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "elvireMinibandProduct",
+  "category": "traning",
+  "categoryGroup": "Träningsband",
+  "route": "traning/miniband",
+  "pageComponentName": "MinibandPage",
+  "product": {
+    "slug": "elvire-miniband",
+    "title": "Elvire Sport miniband / booty band (3-pack)",
+    "category": "traning",
+    "asin": "B07NK18M4J",
+    "brand": "Elvire Sport",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["3 motstånd", "Halkfria", "Rumpa & ben"],
+    "image": "/products/elvire-miniband/miniband-thumbnail.webp",
+    "imageAlt": "Elvire Sport miniband / booty band i 3-pack",
+    "images": [
+      { "src": "/products/elvire-miniband/miniband-thumbnail.webp", "alt": "Elvire Sport miniband / booty band i 3-pack", "label": "Miniband" },
+      { "src": "/products/elvire-miniband/miniband-1.webp", "alt": "Elvire Sport miniband i tre olika motstånd", "label": "Tre motstånd" },
+      { "src": "/products/elvire-miniband/miniband-2.webp", "alt": "Elvire Sport miniband halkfri insida", "label": "Halkfri insida" },
+      { "src": "/products/elvire-miniband/miniband-3.webp", "alt": "Detaljbild av Elvire Sport miniband i tyg", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4anqRjJ",
+    "pageHref": "/traning/miniband",
+    "summary": "Tre miniband i tyg med olika motstånd för rumpa, ben och uppvärmning. Den halkfria insidan håller banden på plats vid utfall, sidosteg och höftlyft – hemma eller på gymmet.",
+    "evaluation": {
+      "headline": "Miniband i tyg för rumpa och ben",
+      "intro": "Elin jämför Elvire Sport miniband: ett 3-pack i tyg med tre olika motstånd för rumpa, ben och uppvärmning. Tygbanden upplevs ofta som skönare mot huden än latex, och den halkfria insidan håller dem på plats vid utfall, sidosteg och höftlyft.",
+      "verdict": "Sköna tygband i tre motstånd som håller sig på plats.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Träningsband",
+    "specSectionTitle": "Elvire Sport miniband",
+    "specs": [
+      { "label": "Innehåll", "caption": "Förpackning", "value": "3 band i tyg" },
+      { "label": "Motstånd", "caption": "Nivåer", "value": "Tre olika motståndsgrader" },
+      { "label": "Grepp", "caption": "Komfort", "value": "Halkfri insida som håller på plats" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4anqRjJ",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 10 300 omdömen.",
+      "highlights": [
+        "Köpare tycker att tygbanden känns skönare mot huden än latex.",
+        "Den halkfria insidan upplevs hålla banden på plats utan att rulla upp.",
+        "De tre motstånden uppskattas för att kunna trappa upp över tid."
+      ],
+      "cautions": [
+        "Tygband ger ett annat motstånd än latex och kan kännas styvare i början.",
+        "Storleken kan upplevas olika beroende på lårens omfång – jämför måtten."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/miniband",
+    "cardBadge": "Rumpa & ben",
+    "cardHook": "Tre halkfria tygband för rumpa, ben och uppvärmning.",
+    "cardImage": "/products/elvire-miniband/miniband-thumbnail.webp",
+    "cardImageAlt": "Elvire Sport miniband / booty band i 3-pack",
+    "badge": "Elins favorit för rumpträning",
+    "headline": "Elvire Sport miniband – tre halkfria motstånd",
+    "shortBody": "Tre miniband i tyg med olika motstånd för rumpa, ben och uppvärmning. Den halkfria insidan håller banden på plats vid utfall, sidosteg och höftlyft.",
+    "valueHook": "Miniband i tyg för rumpa och ben",
+    "valueStatement": "Elvire Sport miniband är ett 3-pack tygband för dig som vill träna rumpa och ben hemma eller på gymmet. De tre motstånden gör att du kan börja lätt och trappa upp, och den halkfria insidan håller banden på plats vid sidosteg, utfall och höftlyft istället för att rulla upp. Tygmaterialet upplevs ofta som skönare mot huden än latex. Amazon visar 4,7 av 5 från 10 300 omdömen, och köpare lyfter framför allt komforten och att banden sitter still.",
+    "passFor": [
+      "Vill träna rumpa och ben hemma eller på gymmet.",
+      "Föredrar tygband som känns skönare mot huden än latex.",
+      "Vill kunna trappa upp motståndet i takt med träningen."
+    ],
+    "caution": "Tygband ger ett annat, ofta styvare motstånd än latexband och kan kännas ovant i början. Storleken upplevs också olika beroende på lårens omfång, så jämför måtten innan du väljer.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Placera bandet ovanför knäna eller runt anklarna beroende på övning och börja med det lättaste motståndet. Håll spänningen i bandet genom hela rörelsen och öka motståndet först när tekniken sitter."
+    },
+    "verdict": "Sköna tygband i tre motstånd som håller sig på plats.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 10 300 omdömen. Köpare beskriver sköna tygband som sitter still, men motståndet skiljer sig från latex.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad är skillnaden mot latexband?", "answer": "Tygband upplevs ofta som skönare mot huden och rullar inte upp lika lätt. Motståndet känns däremot annorlunda, ofta styvare, än hos elastiska latexband." },
+      { "question": "Vilket motstånd ska jag börja med?", "answer": "Börja med det lättaste av de tre banden för att lära in tekniken, och trappa upp till tyngre motstånd när rörelsen känns kontrollerad." },
+      { "question": "Glider banden upp under övningarna?", "answer": "Insidan är halkfri och beskrivs av köpare som att den håller banden på plats vid sidosteg och utfall. Rätt storlek hjälper också till att hålla dem stilla." }
+    ],
+    "reviewSectionId": "elvire-miniband-recensioner",
+    "reviewFormId": "elvire-miniband-skriv-recension",
+    "targetKeyword": "miniband booty band",
+    "metaTitle": "Elvire Sport miniband – tre halkfria tygband | Elins val",
+    "metaDescription": "Elin jämför Elvire Sport miniband (3-pack): halkfria tygband i tre motstånd för rumpa, ben och uppvärmning (4,7 av 5, 10 300 omdömen).",
+    "relatedLinks": [
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Längre band för fler övningar och assistans." },
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Ett stadigt underlag för golvövningarna." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Lägg till belastning i rumpa och ben." }
+    ]
+  },
+  "images": {
+    "dir": "elvire-miniband",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71OJpmdCoTL._SL1500_.jpg", "out": "miniband-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41tjlFurNwL._SL1500_.jpg", "out": "miniband-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51Cr-Oz9W8L._SL1500_.jpg", "out": "miniband-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/516EQFh+n5L._SL1500_.jpg", "out": "miniband-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Elvire Sport miniband", "href": "/traning/miniband", "date": "2026-06-27", "image": "/products/elvire-miniband/miniband-thumbnail.webp", "blurb": "Halkfria tygband i tre motstånd för rumpa, ben och uppvärmning." }
+  ]
+}

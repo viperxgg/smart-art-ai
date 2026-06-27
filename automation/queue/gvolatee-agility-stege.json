@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "gvolateeAgilityProduct",
+  "category": "traning",
+  "categoryGroup": "Kondition",
+  "route": "traning/agility-stege",
+  "pageComponentName": "AgilityStegePage",
+  "product": {
+    "slug": "gvolatee-agility-stege",
+    "title": "Gvolatee agility-stege med koner (4,5 m)",
+    "category": "traning",
+    "asin": "B0BQ33JCYX",
+    "brand": "Gvolatee",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["4,5 m", "Med koner", "Snabbhet & fotarbete"],
+    "image": "/products/gvolatee-agility/agility-thumbnail.webp",
+    "imageAlt": "Gvolatee agility-stege med koner, 4,5 m",
+    "images": [
+      { "src": "/products/gvolatee-agility/agility-thumbnail.webp", "alt": "Gvolatee agility-stege med koner, 4,5 m", "label": "Agility-stege" },
+      { "src": "/products/gvolatee-agility/agility-1.webp", "alt": "Gvolatee koordinationsstege utlagd på marken", "label": "4,5 meter" },
+      { "src": "/products/gvolatee-agility/agility-2.webp", "alt": "Gvolatee agility-stege med medföljande koner", "label": "Koner" },
+      { "src": "/products/gvolatee-agility/agility-3.webp", "alt": "Detaljbild av Gvolatee agility-stege", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4akj7yT",
+    "pageHref": "/traning/agility-stege",
+    "summary": "En koordinationsstege på 4,5 m med koner för snabbhet, fotarbete och uppvärmning. Den rullas enkelt ut på gräs eller golv och passar fartfyllda övningar både inne och ute.",
+    "evaluation": {
+      "headline": "Koordinationsstege för snabbhet och fotarbete",
+      "intro": "Elin går igenom Gvolatee agility-stege: en 4,5 m lång stege med medföljande koner som passar snabbhets-, fotarbets- och uppvärmningsövningar. Den är lätt att rulla ut och packa ihop, och fungerar både inomhus och utomhus.",
+      "verdict": "Prisvärd koordinationsstege för snabbhet och fotarbete inne som ute.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Träning",
+    "specSectionTitle": "Gvolatee agility-stege",
+    "specs": [
+      { "label": "Längd", "caption": "Mått", "value": "4,5 meter" },
+      { "label": "Tillbehör", "caption": "Ingår", "value": "Koner för markering" },
+      { "label": "Användning", "caption": "Fokus", "value": "Snabbhet och fotarbete" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4akj7yT",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 1148 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att stegen är lätt att rulla ut och packa ihop.",
+        "Konerna är ett uppskattat komplement för fartövningar.",
+        "Fungerar bra både inomhus och utomhus."
+      ],
+      "cautions": [
+        "Pinnarna kan flytta sig något under intensiva övningar.",
+        "På hala golv kan stegen glida – fäst eller placera den stadigt."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/agility-stege",
+    "cardBadge": "Snabbhet & fotarbete",
+    "cardHook": "Koordinationsstege med koner för snabbhet och fotarbete.",
+    "cardImage": "/products/gvolatee-agility/agility-thumbnail.webp",
+    "cardImageAlt": "Gvolatee agility-stege med koner, 4,5 m",
+    "badge": "Elins fartfavorit",
+    "headline": "Gvolatee agility-stege – snabbhet och fotarbete",
+    "shortBody": "En 4,5 m lång koordinationsstege med medföljande koner för snabbhet, fotarbete och uppvärmning. Den rullas enkelt ut på gräs eller golv och passar fartfyllda pass inne som ute.",
+    "valueHook": "Koordinationsstege för snabbhet och fotarbete",
+    "valueStatement": "Gvolatee agility-stege är en 4,5 m lång stege med koner för dig som vill träna snabbhet, fotarbete och koordination. Den är lätt att rulla ut på gräs eller golv och lika enkel att packa ihop efteråt, vilket gör den praktisk både inomhus och utomhus. Konerna ger dig fler sätt att bygga banor och uppvärmningar. Amazon visar 4,5 av 5 från 1148 omdömen, och köpare lyfter framför allt hur smidig den är att använda och ta med.",
+    "passFor": [
+      "Vill träna snabbhet och fotarbete inför eller mellan pass.",
+      "Behöver smidig uppvärmningsutrustning som tar liten plats.",
+      "Tränar både inomhus och utomhus och vill kunna flytta utrustningen."
+    ],
+    "caution": "Pinnarna kan flytta sig något under intensiva övningar, och på hala golv kan stegen glida. Placera den stadigt eller fäst den, och håll koll på underlaget för att undvika att snubbla.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Rulla ut stegen på ett plant, halkfritt underlag och justera pinnarna jämnt. Värm upp först och börja i lugnt tempo innan du ökar farten i fotarbetsövningarna."
+    },
+    "verdict": "Prisvärd koordinationsstege för snabbhet och fotarbete inne som ute.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 1148 omdömen. Köpare beskriver en smidig stege som är lätt att rulla ut och ta med, men pinnarna kan flytta sig under intensiva övningar.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Kan jag använda agility-stegen inomhus?", "answer": "Ja, den fungerar både inomhus och utomhus. På hala inomhusgolv kan den glida, så placera den stadigt eller fäst den och håll koll på underlaget." },
+      { "question": "Vad används konerna till?", "answer": "Konerna är markörer som du kan placera ut för att bygga banor, vändningar och uppvärmningar runt själva stegen, vilket ger fler varianter av fart- och fotarbetsövningar." },
+      { "question": "Hur lång är stegen?", "answer": "Stegen är 4,5 meter lång och rullas enkelt ut på gräs eller golv. Den går att packa ihop till ett litet format mellan passen." }
+    ],
+    "reviewSectionId": "gvolatee-agility-stege-recensioner",
+    "reviewFormId": "gvolatee-agility-stege-skriv-recension",
+    "targetKeyword": "agility-stege koordinationsstege",
+    "metaTitle": "Gvolatee agility-stege med koner (4,5 m) – snabbhet | Elins val",
+    "metaDescription": "Elin går igenom Gvolatee agility-stege: en 4,5 m koordinationsstege med koner för snabbhet och fotarbete (4,5 av 5, 1148 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/traning/hopprep", "label": "Hopprep", "text": "Fartfylld kondition med liten utrustning." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Lätt motstånd för uppvärmning och styrka." },
+      { "href": "/traning/viktvast", "label": "Viktväst", "text": "Lägg till belastning i fart- och styrkepass." }
+    ]
+  },
+  "images": {
+    "dir": "gvolatee-agility",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51dUezf0NuL._SL1500_.jpg", "out": "agility-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41-a2tY-1tL._SL1500_.jpg", "out": "agility-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41rx42rCxmL._SL1500_.jpg", "out": "agility-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41YdWOn-HIL._SL1500_.jpg", "out": "agility-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Gvolatee agility-stege med koner (4,5 m)", "href": "/traning/agility-stege", "date": "2026-06-27", "image": "/products/gvolatee-agility/agility-thumbnail.webp", "blurb": "Koordinationsstege med koner för snabbhet, fotarbete och uppvärmning." }
+  ]
+}

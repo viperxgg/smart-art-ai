@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "gritinReadingLightProduct",
+  "category": "halsa",
+  "categoryGroup": "Smart hem & livsstil",
+  "route": "halsa/laslampa",
+  "pageComponentName": "LaslampaPage",
+  "product": {
+    "slug": "gritin-laslampa",
+    "title": "Gritin 19 LED uppladdningsbar läslampa / klämlampa",
+    "category": "halsa",
+    "asin": "B0CBPL4RKH",
+    "brand": "Gritin",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Uppladdningsbar", "Flera ljuslägen", "Klämbar"],
+    "image": "/products/gritin-reading-light/laslampa-thumbnail.webp",
+    "imageAlt": "Gritin 19 LED uppladdningsbar läslampa / klämlampa",
+    "images": [
+      { "src": "/products/gritin-reading-light/laslampa-thumbnail.webp", "alt": "Gritin 19 LED uppladdningsbar läslampa / klämlampa", "label": "Gritin klämlampa" },
+      { "src": "/products/gritin-reading-light/laslampa-1.webp", "alt": "Gritin klämlampa med flera ljuslägen för läsning", "label": "Flera ljuslägen" },
+      { "src": "/products/gritin-reading-light/laslampa-2.webp", "alt": "Gritin läslampa klämd fast vid en bok", "label": "Klämbar" },
+      { "src": "/products/gritin-reading-light/laslampa-3.webp", "alt": "Detaljbild av Gritin uppladdningsbar läslampa", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4f6zwtq",
+    "pageHref": "/halsa/laslampa",
+    "summary": "En uppladdningsbar klämlampa med flera ljuslägen, gjord för att läsa i sängen utan att störa den som sover bredvid. Lätt att klämma fast på boken eller sänggaveln.",
+    "evaluation": {
+      "headline": "Klämlampa för läsning i sängen",
+      "intro": "Elin går igenom Gritin 19 LED: en uppladdningsbar klämlampa med flera ljuslägen, tänkt för att läsa i sängen utan att tända taklampan. Den kläms enkelt fast på boken eller sänggaveln och riktas dit du vill ha ljuset.",
+      "verdict": "Smidig uppladdningsbar klämlampa med flera ljuslägen för mysig läsning i sängen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Smart hem & livsstil",
+    "specSectionTitle": "Gritin 19 LED läslampa",
+    "specs": [
+      { "label": "Typ", "caption": "Format", "value": "Klämbar läslampa, 19 LED" },
+      { "label": "Ljus", "caption": "Lägen", "value": "Flera ljuslägen och nivåer" },
+      { "label": "Ström", "caption": "Drift", "value": "Uppladdningsbar via USB" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4f6zwtq",
+      "ratingSummary": "Amazon visar 4,8 av 5 från 17872 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att kunna läsa i sängen utan att störa partnern.",
+        "Flera ljuslägen gör att man hittar en behaglig ljusstyrka.",
+        "Smidig klämma som sitter fast på både bok och sänggavel."
+      ],
+      "cautions": [
+        "Klämman passar bäst på tunnare kanter – mät gärna sänggaveln först.",
+        "Som med all uppladdningsbar belysning behöver den laddas med jämna mellanrum."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/laslampa",
+    "cardBadge": "Uppladdningsbar",
+    "cardHook": "Klämlampa med flera ljuslägen – läs i sängen utan att störa.",
+    "cardImage": "/products/gritin-reading-light/laslampa-thumbnail.webp",
+    "cardImageAlt": "Gritin 19 LED uppladdningsbar läslampa / klämlampa",
+    "badge": "Elins läsfavorit",
+    "headline": "Gritin 19 LED – klämlampa för sängläsning",
+    "shortBody": "En uppladdningsbar klämlampa med flera ljuslägen, gjord för att läsa i sängen utan att störa den som sover bredvid. Lätt att klämma fast på boken eller sänggaveln.",
+    "valueHook": "Läs i sängen utan att störa",
+    "valueStatement": "Gritin 19 LED är klämlampan för dig som gillar att läsa en stund innan du somnar utan att tända taklampan. Den är uppladdningsbar, har flera ljuslägen och kläms enkelt fast på boken eller sänggaveln så att ljuset hamnar precis där du vill. Amazon visar 4,8 av 5 från 17872 omdömen, och köpare lyfter framför allt att man kan läsa utan att störa partnern, de olika ljuslägena och den smidiga klämman.",
+    "passFor": [
+      "Vill läsa i sängen utan att störa den som sover bredvid.",
+      "Önskar flera ljuslägen för att ställa in en behaglig ljusstyrka.",
+      "Gillar en uppladdningsbar lampa utan sladd i vägen."
+    ],
+    "caution": "Klämman passar bäst på tunnare kanter, så mät gärna sänggaveln innan. Som all uppladdningsbar belysning behöver den laddas med jämna mellanrum för att alltid vara redo.",
+    "usageGuidance": {
+      "title": "Så använder du den bäst",
+      "text": "Kläm fast lampan på boken eller sänggaveln och vinkla ljuset ner mot sidorna. Välj ett varmare ljusläge på kvällen för en lugnare känsla, och ladda den via USB när den börjar bli svag."
+    },
+    "verdict": "Smidig uppladdningsbar klämlampa med flera ljuslägen för mysig läsning i sängen.",
+    "amazonSummary": "Amazon visar 4,8 av 5 från 17872 omdömen. Köpare beskriver en smidig klämlampa med flera ljuslägen, men klämman passar bäst på tunnare kanter.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Kan jag läsa i sängen utan att störa den bredvid?", "answer": "Ja, det är precis vad klämlampan är gjord för. Du riktar ljuset mot boken och kan välja ett mjukare ljusläge så att resten av rummet förblir mörkt." },
+      { "question": "Hur laddar jag Gritin läslampa?", "answer": "Lampan är uppladdningsbar och laddas via USB. Ladda den när ljuset börjar bli svagare så är den redo nästa kväll." },
+      { "question": "Passar klämman på min sänggavel?", "answer": "Klämman sitter bäst på tunnare kanter som en bok eller en smalare sänggavel. Mät gärna kanten först om sänggaveln är tjock." }
+    ],
+    "reviewSectionId": "gritin-laslampa-recensioner",
+    "reviewFormId": "gritin-laslampa-skriv-recension",
+    "targetKeyword": "klämlampa läslampa",
+    "metaTitle": "Gritin 19 LED läslampa / klämlampa – läs i sängen | Elins val",
+    "metaDescription": "Elin går igenom Gritin 19 LED: en uppladdningsbar klämlampa med flera ljuslägen (4,8 av 5, 17872 omdömen) – för att läsa i sängen utan att störa.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma i sovrummet." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Mysig doft och stämning i rummet." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt kvällsljus för en lugn stämning." }
+    ]
+  },
+  "images": {
+    "dir": "gritin-reading-light",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71A3c74fhML._SL1500_.jpg", "out": "laslampa-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51Yewx7f84L._SL1500_.jpg", "out": "laslampa-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51nKrUi70ZL._SL1500_.jpg", "out": "laslampa-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51lWj2qUsBL._SL1500_.jpg", "out": "laslampa-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Gritin 19 LED uppladdningsbar läslampa / klämlampa", "href": "/halsa/laslampa", "date": "2026-06-27", "image": "/products/gritin-reading-light/laslampa-thumbnail.webp", "blurb": "Uppladdningsbar klämlampa med flera ljuslägen för läsning i sängen utan att störa." }
+  ]
+}

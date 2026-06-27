@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "bowflexSelectTech552iProduct",
+  "category": "traning",
+  "categoryGroup": "Vikter",
+  "route": "traning/justerbara-hantlar",
+  "pageComponentName": "JusterbaraHantlarPage",
+  "product": {
+    "slug": "bowflex-selecttech-552i",
+    "title": "BowFlex SelectTech 552i justerbara hantlar (par, 2–24 kg)",
+    "category": "traning",
+    "asin": "B0FHKB3QCK",
+    "brand": "BowFlex",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Ersätter flera vikter", "2–24 kg per hantel", "Sparar plats"],
+    "image": "/products/bowflex-552i/bowflex-thumbnail.webp",
+    "imageAlt": "BowFlex SelectTech 552i justerbara hantlar, par 2–24 kg",
+    "images": [
+      { "src": "/products/bowflex-552i/bowflex-thumbnail.webp", "alt": "BowFlex SelectTech 552i justerbara hantlar, par 2–24 kg", "label": "BowFlex 552i" },
+      { "src": "/products/bowflex-552i/bowflex-1.webp", "alt": "BowFlex 552i hantel med vridratt för att byta belastning", "label": "Vrid för att byta" },
+      { "src": "/products/bowflex-552i/bowflex-2.webp", "alt": "BowFlex 552i hantlar i bruk för hemmaträning", "label": "Hemmaträning" },
+      { "src": "/products/bowflex-552i/bowflex-3.webp", "alt": "Detaljbild av BowFlex SelectTech 552i justerbar hantel", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4xT3VCK",
+    "pageHref": "/traning/justerbara-hantlar",
+    "summary": "Ett par justerbara hantlar som ersätter flera fasta vikter. Du vrider på ratten för att byta belastning mellan 2 och 24 kg per hantel, vilket sparar plats hemma och gör det enkelt att ändra vikt mellan övningar.",
+    "evaluation": {
+      "headline": "Ett par hantlar som ersätter en hel hantelställning",
+      "intro": "Elin går igenom BowFlex SelectTech 552i: ett par justerbara hantlar där du vrider på en ratt för att ställa in vikten mellan 2 och 24 kg per hantel. Tanken är att ett enda par ska ersätta flera fasta hantlar och spara plats hemma.",
+      "verdict": "Platssmart lösning för hemmaträning där ett par hantlar täcker många vikter.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Träning",
+    "specSectionTitle": "BowFlex SelectTech 552i",
+    "specs": [
+      { "label": "Viktintervall", "caption": "Per hantel", "value": "2–24 kg, justerbart" },
+      { "label": "Byte av vikt", "caption": "Mekanism", "value": "Vridratt för snabbt byte" },
+      { "label": "Användning", "caption": "Plats", "value": "Ett par ersätter flera vikter hemma" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4xT3VCK",
+      "ratingSummary": "Amazon visar 5,0 av 5 från 9 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att ett par ersätter en hel rad fasta hantlar.",
+        "Vridratten gör det enkelt och snabbt att byta belastning mellan set.",
+        "Flera lyfter att de sparar mycket plats jämfört med vanliga hantlar."
+      ],
+      "cautions": [
+        "Mycket få omdömen ännu (endast 9), så betyget bör tolkas försiktigt.",
+        "Justerbara hantlar är mer skrymmande per hantel än enkla fasta vikter och kräver att låsmekanismen sitter rätt innan lyft."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/justerbara-hantlar",
+    "cardBadge": "Sparar plats",
+    "cardHook": "Ett par hantlar som ersätter många vikter – vrid för att byta.",
+    "cardImage": "/products/bowflex-552i/bowflex-thumbnail.webp",
+    "cardImageAlt": "BowFlex SelectTech 552i justerbara hantlar, par 2–24 kg",
+    "badge": "Elins platssmarta val",
+    "headline": "BowFlex SelectTech 552i – justerbara hantlar för hemmet",
+    "shortBody": "Ett par justerbara hantlar där du vrider på ratten för att ställa in vikten mellan 2 och 24 kg per hantel. Ett par ersätter flera fasta vikter och sparar plats hemma.",
+    "valueHook": "Ett par hantlar som täcker många vikter",
+    "valueStatement": "BowFlex SelectTech 552i är ett par justerbara hantlar för dig som vill träna hemma utan en hel ställning med fasta vikter. Du vrider på ratten för att byta belastning mellan 2 och 24 kg per hantel, vilket gör att ett par täcker många övningar och samtidigt sparar plats. Amazon visar 5,0 av 5 från 9 omdömen – väldigt få ännu, så ta betyget med en nypa salt – men köpare som lämnat omdöme lyfter platsbesparingen och hur smidigt det är att byta vikt.",
+    "passFor": [
+      "Vill träna hemma men har inte plats för en hel hantelställning.",
+      "Gillar att snabbt kunna byta belastning mellan olika övningar.",
+      "Föredrar ett par hantlar som täcker många vikter framför flera fasta."
+    ],
+    "caution": "Det finns bara 9 omdömen ännu, så betyget säger ännu inte så mycket om hur de håller över tid. Justerbara hantlar är också mer skrymmande per hantel än enkla fasta vikter – kontrollera alltid att låsmekanismen sitter rätt innan du lyfter.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Ställ hantlarna på basplattan, vrid ratten till önskad vikt och kontrollera att vikten verkligen låst fast innan du lyfter. Börja med en lägre vikt för att vänja dig vid mekaniken."
+    },
+    "verdict": "Platssmart lösning för hemmaträning där ett par hantlar täcker många vikter.",
+    "amazonSummary": "Amazon visar 5,0 av 5 från endast 9 omdömen, så underlaget är litet. Köpare som lämnat omdöme lyfter platsbesparingen och hur enkelt det är att byta vikt med vridratten.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur byter jag vikt på BowFlex 552i?", "answer": "Du vrider på en ratt på varje sida för att ställa in önskad belastning mellan 2 och 24 kg per hantel. Kontrollera alltid att vikten låst fast innan du lyfter." },
+      { "question": "Ersätter ett par verkligen flera hantlar?", "answer": "Tanken är att ett par täcker många vikter inom intervallet 2–24 kg per hantel, så att du slipper en hel rad fasta hantlar och sparar plats hemma." },
+      { "question": "Är 9 omdömen tillräckligt för att lita på betyget?", "answer": "Nej, 9 omdömen är väldigt få. Betyget 5,0 av 5 ser fint ut men säger ännu lite om hur hantlarna håller över tid – se det som en tidig signal snarare än en säker dom." }
+    ],
+    "reviewSectionId": "bowflex-selecttech-552i-recensioner",
+    "reviewFormId": "bowflex-selecttech-552i-skriv-recension",
+    "targetKeyword": "justerbara hantlar",
+    "metaTitle": "BowFlex SelectTech 552i justerbara hantlar – test & guide | Elins val",
+    "metaDescription": "Elin går igenom BowFlex SelectTech 552i: ett par justerbara hantlar 2–24 kg som ersätter flera vikter och sparar plats hemma. Obs: endast 9 omdömen ännu.",
+    "relatedLinks": [
+      { "href": "/traning/hantlar", "label": "Hantlar", "text": "Fasta hantlar för enkel styrketräning hemma." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Mångsidig vikt för svingar och helkroppsövningar." },
+      { "href": "/traning/viktvast", "label": "Viktväst", "text": "Lägg på extra belastning i kroppsviktsträningen." }
+    ]
+  },
+  "images": {
+    "dir": "bowflex-552i",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51HkXrHxYAL._SL1500_.jpg", "out": "bowflex-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41bcpg-HS1L._SL1500_.jpg", "out": "bowflex-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51FlQN75cHL._SL1500_.jpg", "out": "bowflex-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/510jDFKcdbL._SL1500_.jpg", "out": "bowflex-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "BowFlex SelectTech 552i justerbara hantlar", "href": "/traning/justerbara-hantlar", "date": "2026-06-27", "image": "/products/bowflex-552i/bowflex-thumbnail.webp", "blurb": "Ett par justerbara hantlar 2–24 kg som ersätter flera vikter och sparar plats hemma." }
+  ]
+}

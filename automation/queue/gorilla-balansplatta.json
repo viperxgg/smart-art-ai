@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "gorillaBalansplattaProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/balansplatta",
+  "pageComponentName": "BalansplattaPage",
+  "product": {
+    "slug": "gorilla-balansplatta",
+    "title": "Gorilla Sports balansbräda i trä (Ø40 cm)",
+    "category": "traning",
+    "asin": "B0DBV72564",
+    "brand": "Gorilla Sports",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Trä, Ø40 cm", "Balans & core", "Fotledsträning"],
+    "image": "/products/gorilla-balansplatta/balans-thumbnail.webp",
+    "imageAlt": "Gorilla Sports balansbräda i trä, Ø40 cm",
+    "images": [
+      { "src": "/products/gorilla-balansplatta/balans-thumbnail.webp", "alt": "Gorilla Sports balansbräda i trä, Ø40 cm", "label": "Balansbräda" },
+      { "src": "/products/gorilla-balansplatta/balans-1.webp", "alt": "Gorilla Sports balansbräda i trä för balans- och coreträning", "label": "Balans & core" },
+      { "src": "/products/gorilla-balansplatta/balans-2.webp", "alt": "Gorilla Sports balansbräda använd för fotledsträning", "label": "Fotledsträning" },
+      { "src": "/products/gorilla-balansplatta/balans-3.webp", "alt": "Detaljbild av Gorilla Sports balansbräda i trä", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3SOp9BM",
+    "pageHref": "/traning/balansplatta",
+    "summary": "En balansbräda i trä med diametern 40 cm för balans-, core- och fotledsträning. Du står på brädan och utmanar balansen, vilket aktiverar bålen och de små stabiliserande musklerna runt fotleden.",
+    "evaluation": {
+      "headline": "Enkel balansbräda för balans, core och fotled",
+      "intro": "Elin går igenom Gorilla Sports balansbräda i trä (Ø40 cm): ett enkelt redskap för balans-, core- och fotledsträning. Du står på brädan och utmanar balansen, vilket aktiverar bålen och de stabiliserande musklerna runt fotleden.",
+      "verdict": "Enkel träbalansbräda för balans, core och fotledsträning hemma.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Träning",
+    "specSectionTitle": "Gorilla Sports balansbräda",
+    "specs": [
+      { "label": "Material", "caption": "Konstruktion", "value": "Balansbräda i trä" },
+      { "label": "Diameter", "caption": "Storlek", "value": "Ø40 cm" },
+      { "label": "Användning", "caption": "Träning", "value": "Balans, core och fotled" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3SOp9BM",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 15 omdömen.",
+      "highlights": [
+        "Köpare tycker att brädan känns stabil och gediget gjord i trä.",
+        "Bra storlek för balans- och coreövningar hemma.",
+        "Flera använder den i rehab för att träna upp fotleden."
+      ],
+      "cautions": [
+        "Få omdömen ännu (endast 15), så betyget bör tolkas försiktigt.",
+        "Ett underlag som rör sig kräver att du börjar försiktigt och gärna har stöd nära till hands i början."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/balansplatta",
+    "cardBadge": "Balans & core",
+    "cardHook": "Balansbräda i trä för balans-, core- och fotledsträning.",
+    "cardImage": "/products/gorilla-balansplatta/balans-thumbnail.webp",
+    "cardImageAlt": "Gorilla Sports balansbräda i trä, Ø40 cm",
+    "badge": "Elins balansval",
+    "headline": "Gorilla Sports balansbräda – balans, core och fotled",
+    "shortBody": "En balansbräda i trä (Ø40 cm) för balans-, core- och fotledsträning. Du står på brädan och utmanar balansen, vilket aktiverar bålen och musklerna runt fotleden.",
+    "valueHook": "Enkelt redskap för balans och stabilitet",
+    "valueStatement": "Gorilla Sports balansbräda i trä är ett enkelt redskap för dig som vill träna balans, core och fotled hemma. Du står på den runda brädan (Ø40 cm) och utmanar balansen, vilket aktiverar bålen och de små stabiliserande musklerna runt fotleden. Amazon visar 4,2 av 5 från 15 omdömen – få ännu, så ta betyget med viss försiktighet – men köpare tycker att den känns stabil och gediget gjord och flera använder den i rehab för fotleden.",
+    "passFor": [
+      "Vill träna balans och stabilitet i bål och fotled hemma.",
+      "Söker ett enkelt träredskap som tar liten plats.",
+      "Vill komplettera core-träningen med ett rörligt underlag."
+    ],
+    "caution": "Det finns bara 15 omdömen ännu, så betyget säger ännu lite om hur brädan håller över tid. Ett underlag som rör sig kan kännas ovant – börja försiktigt, gärna med stöd av en vägg eller stol nära till hands tills du vant dig.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ställ brädan på ett halkfritt underlag och håll gärna i något stadigt de första gångerna. Börja med korta pass och öka tiden allt eftersom balansen blir bättre."
+    },
+    "verdict": "Enkel träbalansbräda för balans, core och fotledsträning hemma.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från endast 15 omdömen, så underlaget är litet. Köpare som lämnat omdöme tycker att brädan känns stabil och gediget gjord i trä.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad tränar man med en balansbräda?", "answer": "Du tränar främst balans och stabilitet i bålen och musklerna runt fotleden. Den används både i vanlig träning och i rehab efter till exempel en fotledsstukning." },
+      { "question": "Hur stor är Gorilla Sports balansbräda?", "answer": "Brädan har en diameter på cirka 40 cm, vilket ger en lagom yta att stå på för balans- och coreövningar hemma." },
+      { "question": "Är 15 omdömen tillräckligt för att lita på betyget?", "answer": "Nej, 15 omdömen är få. Betyget 4,2 av 5 ger en fingervisning men säger ännu lite om hur brädan håller över tid – se det som en tidig signal." }
+    ],
+    "reviewSectionId": "gorilla-balansplatta-recensioner",
+    "reviewFormId": "gorilla-balansplatta-skriv-recension",
+    "targetKeyword": "balansplatta",
+    "metaTitle": "Gorilla Sports balansbräda i trä – test & guide | Elins val",
+    "metaDescription": "Elin går igenom Gorilla Sports balansbräda i trä (Ø40 cm) för balans-, core- och fotledsträning. Obs: endast 15 omdömen ännu.",
+    "relatedLinks": [
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Mjukt underlag för golv- och balansövningar." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Lätt motstånd för core och rehab hemma." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Mångsidig vikt för styrka och stabilitet." }
+    ]
+  },
+  "images": {
+    "dir": "gorilla-balansplatta",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81VKQ5tZJUL._SL1500_.jpg", "out": "balans-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/414xEKvyleL._SL1500_.jpg", "out": "balans-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51c0dF3zMNL._SL1500_.jpg", "out": "balans-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41IygaAQjEL._SL1500_.jpg", "out": "balans-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Gorilla Sports balansbräda i trä", "href": "/traning/balansplatta", "date": "2026-06-27", "image": "/products/gorilla-balansplatta/balans-thumbnail.webp", "blurb": "Balansbräda i trä (Ø40 cm) för balans-, core- och fotledsträning." }
+  ]
+}

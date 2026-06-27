@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "gorillaRingsProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/gymnastikringar",
+  "pageComponentName": "GymnastikringarPage",
+  "product": {
+    "slug": "gorilla-gymnastikringar",
+    "title": "Gorilla Sports gymnastikringar (2-pack med remmar)",
+    "category": "traning",
+    "asin": "B00EXL7P0U",
+    "brand": "Gorilla Sports",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Justerbara remmar", "Calisthenics", "Kroppsviktsträning"],
+    "image": "/products/gorilla-rings/ringar-thumbnail.webp",
+    "imageAlt": "Gorilla Sports gymnastikringar i 2-pack med remmar",
+    "images": [
+      { "src": "/products/gorilla-rings/ringar-thumbnail.webp", "alt": "Gorilla Sports gymnastikringar i 2-pack med remmar", "label": "Gymnastikringar" },
+      { "src": "/products/gorilla-rings/ringar-1.webp", "alt": "Gorilla Sports gymnastikringar med justerbara remmar", "label": "Justerbara remmar" },
+      { "src": "/products/gorilla-rings/ringar-2.webp", "alt": "Gorilla Sports gymnastikringar spänne för längdjustering", "label": "Spänne" },
+      { "src": "/products/gorilla-rings/ringar-3.webp", "alt": "Detaljbild av Gorilla Sports gymnastikringar", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3Su6v25",
+    "pageHref": "/traning/gymnastikringar",
+    "summary": "Ett par gymnastikringar med justerbara remmar för calisthenics och kroppsviktsträning. Ringarna hängs upp och längden ställs in med spänne, så att du kan träna dips, rodd och pull-ups hemma eller ute.",
+    "evaluation": {
+      "headline": "Gymnastikringar för calisthenics",
+      "intro": "Elin jämför Gorilla Sports gymnastikringar: ett 2-pack med justerbara remmar för calisthenics och kroppsviktsträning. Ringarna kan hängas i en stång, ett räcke eller en gren, och längden ställs in med spänne. Det rörliga greppet utmanar bål och stabilitet på ett sätt som fasta stänger inte gör.",
+      "verdict": "Mångsidiga ringar för dips, rodd och pull-ups hemma eller ute.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Tillbehör",
+    "specSectionTitle": "Gorilla Sports gymnastikringar",
+    "specs": [
+      { "label": "Innehåll", "caption": "Förpackning", "value": "2 ringar med remmar" },
+      { "label": "Remmar", "caption": "Justering", "value": "Längdjustering med spänne" },
+      { "label": "Användning", "caption": "Träning", "value": "Calisthenics och kroppsviktsträning" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3Su6v25",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 54 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att remmarna är enkla att justera i längd.",
+        "Ringarna beskrivs som mångsidiga för dips, rodd och pull-ups.",
+        "Det rörliga greppet upplevs utmana bål och stabilitet mer."
+      ],
+      "cautions": [
+        "Relativt få omdömen ännu, så underlaget att luta sig mot är begränsat.",
+        "Du behöver en stadig upphängning – kontrollera infästningen innan du belastar."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/gymnastikringar",
+    "cardBadge": "Calisthenics",
+    "cardHook": "Justerbara ringar för dips, rodd och pull-ups hemma eller ute.",
+    "cardImage": "/products/gorilla-rings/ringar-thumbnail.webp",
+    "cardImageAlt": "Gorilla Sports gymnastikringar i 2-pack med remmar",
+    "badge": "Elins val för kroppsvikt",
+    "headline": "Gorilla Sports gymnastikringar – för calisthenics",
+    "shortBody": "Ett par gymnastikringar med justerbara remmar för calisthenics och kroppsviktsträning. Ringarna hängs upp och längden ställs in med spänne, så att du kan träna dips, rodd och pull-ups.",
+    "valueHook": "Gymnastikringar för calisthenics",
+    "valueStatement": "Gorilla Sports gymnastikringar är till för dig som vill bygga styrka med din egen kroppsvikt. Ringarna hängs i en stång, ett räcke eller en gren, och de justerbara remmarna gör att du snabbt kan ställa in höjden för dips, rodd eller pull-ups. Det rörliga greppet tvingar bålen att stabilisera mer än en fast stång. Amazon visar 4,3 av 5 från 54 omdömen, vilket är relativt få ännu, men köpare lyfter mångsidigheten och de lättjusterade remmarna.",
+    "passFor": [
+      "Vill träna calisthenics och kroppsvikt hemma eller utomhus.",
+      "Gillar ett rörligt grepp som utmanar bål och stabilitet.",
+      "Vill enkelt kunna justera höjden mellan olika övningar."
+    ],
+    "caution": "Antalet omdömen är ännu relativt lågt, så det finns mindre underlag att gå på än för mer etablerade produkter. Du behöver också en stadig upphängning – kontrollera alltid att infästningen håller innan du belastar ringarna.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Häng ringarna i en stadig punkt och ställ in samma längd på båda remmarna. Börja med enklare varianter nära golvet och öka svårighetsgraden först när greppet och stabiliteten känns trygga."
+    },
+    "verdict": "Mångsidiga ringar för dips, rodd och pull-ups hemma eller ute.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 54 omdömen, alltså relativt få ännu. Köpare beskriver mångsidiga ringar med lättjusterade remmar för calisthenics.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad kan jag träna med gymnastikringar?", "answer": "Ringarna passar för dips, rodd, pull-ups och en mängd kroppsviktsövningar. Det rörliga greppet utmanar bål och stabilitet mer än en fast stång." },
+      { "question": "Hur justerar jag höjden på ringarna?", "answer": "Längden ställs in med spänne på remmarna. Ställ in samma längd på båda sidor så att ringarna hänger jämnt innan du börjar." },
+      { "question": "Hur många omdömen har ringarna?", "answer": "Amazon visar 4,3 av 5 från 54 omdömen, vilket är relativt få ännu. Underlaget är därför mindre än för mer etablerade produkter." }
+    ],
+    "reviewSectionId": "gorilla-gymnastikringar-recensioner",
+    "reviewFormId": "gorilla-gymnastikringar-skriv-recension",
+    "targetKeyword": "gymnastikringar",
+    "metaTitle": "Gorilla Sports gymnastikringar – för calisthenics | Elins val",
+    "metaDescription": "Elin jämför Gorilla Sports gymnastikringar (2-pack): justerbara remmar för dips, rodd och pull-ups i din kroppsviktsträning (4,3 av 5, 54 omdömen).",
+    "relatedLinks": [
+      { "href": "/traning/hopprep", "label": "Hopprep", "text": "Lägg till kondition mellan styrkepassen." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Assistera pull-ups och dips med motstånd." },
+      { "href": "/traning/viktvast", "label": "Viktväst", "text": "Öka belastningen i din kroppsviktsträning." }
+    ]
+  },
+  "images": {
+    "dir": "gorilla-rings",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/717Xg4vHYCL._SL1500_.jpg", "out": "ringar-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/317ocvU6E1L._SL1500_.jpg", "out": "ringar-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41SY4aF2udL._SL1500_.jpg", "out": "ringar-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41KXAB-qLyL._SL1500_.jpg", "out": "ringar-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Gorilla Sports gymnastikringar", "href": "/traning/gymnastikringar", "date": "2026-06-27", "image": "/products/gorilla-rings/ringar-thumbnail.webp", "blurb": "Gymnastikringar med justerbara remmar för calisthenics och kroppsvikt." }
+  ]
+}

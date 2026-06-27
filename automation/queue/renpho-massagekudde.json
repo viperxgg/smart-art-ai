@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "renphoMassagePillowProduct",
+  "category": "halsa",
+  "categoryGroup": "Återhämtning",
+  "route": "halsa/massagekudde",
+  "pageComponentName": "MassagekuddePage",
+  "product": {
+    "slug": "renpho-massagekudde",
+    "title": "RENPHO shiatsu massagekudde med värme",
+    "category": "halsa",
+    "asin": "B07PMK1XZ4",
+    "brand": "RENPHO",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Shiatsu-känsla", "Mjuk värme", "Nacke, axlar & rygg"],
+    "image": "/products/renpho-massage-pillow/massagekudde-thumbnail.webp",
+    "imageAlt": "RENPHO shiatsu massagekudde med värme för nacke och axlar",
+    "images": [
+      { "src": "/products/renpho-massage-pillow/massagekudde-thumbnail.webp", "alt": "RENPHO shiatsu massagekudde med värme för nacke och axlar", "label": "Massagekudde" },
+      { "src": "/products/renpho-massage-pillow/massagekudde-1.webp", "alt": "RENPHO massagekudde med roterande shiatsu-noder", "label": "Shiatsu-noder" },
+      { "src": "/products/renpho-massage-pillow/massagekudde-2.webp", "alt": "RENPHO massagekudde använd mot nacke och axlar", "label": "Nacke & axlar" },
+      { "src": "/products/renpho-massage-pillow/massagekudde-3.webp", "alt": "Detaljbild av RENPHO shiatsu massagekudde med värme", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/443sQWK",
+    "pageHref": "/halsa/massagekudde",
+    "summary": "En shiatsu-massagekudde med mjuk värme som ger en skön, avslappnande känsla i nacke, axlar och rygg. De roterande noderna och värmen gör den till en mysig stund i soffan efter en lång dag. Tänk avkoppling och komfort – inte en ersättning för vård.",
+    "evaluation": {
+      "headline": "Shiatsu-kudde för en skön, varm stund",
+      "intro": "Elin går igenom RENPHO shiatsu massagekudde: roterande noder och mjuk värme som ger en avslappnande känsla i nacke, axlar och rygg. Det är en behändig kudde att luta sig mot i soffan när du vill unna dig en lugn, varm stund. Den är gjord för komfort och avkoppling.",
+      "verdict": "Mysig shiatsu-kudde med värme för en skön, avslappnande stund hemma.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Återhämtning",
+    "specSectionTitle": "RENPHO shiatsu massagekudde",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Shiatsu-massagekudde med värme" },
+      { "label": "Funktion", "caption": "Känsla", "value": "Roterande noder och mjuk värme" },
+      { "label": "Placering", "caption": "Komfort", "value": "Nacke, axlar och rygg" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/443sQWK",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 6362 omdömen.",
+      "highlights": [
+        "Många tycker att den ger en skön, avslappnande känsla i nacke och axlar.",
+        "Den mjuka värmen uppskattas för en extra mysig stund.",
+        "Behändig att placera mot soffan eller stolen efter en lång dag."
+      ],
+      "cautions": [
+        "Trycket från noderna kan kännas starkt till en början – börja kort och anpassa läget.",
+        "Det är en komfortprodukt för avkoppling, inte en ersättning för vård eller behandling."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/massagekudde",
+    "cardBadge": "Skön & varm",
+    "cardHook": "Shiatsu-kudde med mjuk värme för en avslappnande stund.",
+    "cardImage": "/products/renpho-massage-pillow/massagekudde-thumbnail.webp",
+    "cardImageAlt": "RENPHO shiatsu massagekudde med värme för nacke och axlar",
+    "badge": "Elins mys-favorit",
+    "headline": "RENPHO shiatsu massagekudde – skön värme",
+    "shortBody": "En shiatsu-massagekudde med roterande noder och mjuk värme som ger en skön, avslappnande känsla i nacke, axlar och rygg. Perfekt att luta sig mot i soffan för en lugn stund efter en lång dag.",
+    "valueHook": "Skön shiatsu-känsla med värme",
+    "valueStatement": "RENPHO shiatsu massagekudde är för dig som vill unna dig en skön, avslappnande stund hemma. De roterande noderna och den mjuka värmen ger en behaglig känsla i nacke, axlar och rygg, och kudden är lätt att placera mot soffan eller stolen. Amazon visar 4,2 av 5 från 6362 omdömen, och köpare lyfter framför allt den avslappnande känslan, värmen och hur mysig den är efter en lång dag. Se den som en komfortprodukt för avkoppling.",
+    "passFor": [
+      "Vill unna dig en skön, varm och avslappnande stund i soffan.",
+      "Söker en mjuk shiatsu-känsla för nacke, axlar och rygg.",
+      "Gillar tanken på en behändig kudde att ta fram efter en lång dag."
+    ],
+    "caution": "Trycket från de roterande noderna kan kännas starkt i början – börja med korta stunder och anpassa läget tills det känns skönt. Kudden är gjord för komfort och avkoppling, inte som en ersättning för vård eller behandling.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Placera kudden mot ryggstödet och luta dig lugnt mot noderna. Börja med korta stunder och slå på värmen för en extra mysig känsla. Lyssna på vad som känns skönt och justera trycket genom hur hårt du lutar dig."
+    },
+    "verdict": "Mysig shiatsu-kudde med värme för en skön, avslappnande stund hemma.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från 6362 omdömen. Köpare beskriver en skön, avslappnande känsla i nacke och axlar och uppskattar den mjuka värmen, men trycket kan kännas starkt i början – börja kort och anpassa läget.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Var kan jag använda RENPHO massagekudde?", "answer": "Den passar för nacke, axlar och rygg. Luta dig mot kudden i soffan eller stolen för en skön, avslappnande känsla. Den är gjord för komfort och avkoppling." },
+      { "question": "Vad gör värmefunktionen?", "answer": "Den mjuka värmen ger en extra behaglig, mysig känsla tillsammans med de roterande noderna. Många tycker det gör stunden mer avslappnande efter en lång dag." },
+      { "question": "Kan trycket kännas för starkt?", "answer": "I början kan trycket från noderna kännas kraftigt. Börja med korta stunder och anpassa läget genom hur hårt du lutar dig, tills det känns skönt." }
+    ],
+    "reviewSectionId": "renpho-massagekudde-recensioner",
+    "reviewFormId": "renpho-massagekudde-skriv-recension",
+    "targetKeyword": "massagekudde nacke",
+    "metaTitle": "RENPHO shiatsu massagekudde med värme – skön & varm | Elins val",
+    "metaDescription": "Elin går igenom RENPHO shiatsu massagekudde med värme: en avslappnande kudde för nacke, axlar och rygg (4,2 av 5, 6362 omdömen) – och hur du använder den rätt.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft inomhus för en skönare känsla." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Mjuk doft och fukt för en lugn stämning." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt, avkopplande ljus för kvällsmyset." }
+    ]
+  },
+  "images": {
+    "dir": "renpho-massage-pillow",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/719VINcd-vL._SL1500_.jpg", "out": "massagekudde-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41BTj-v9z1L._SL1500_.jpg", "out": "massagekudde-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41caYjPaJIL._SL1500_.jpg", "out": "massagekudde-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51rsPUojeQL._SL1500_.jpg", "out": "massagekudde-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "RENPHO shiatsu massagekudde med värme", "href": "/halsa/massagekudde", "date": "2026-06-27", "image": "/products/renpho-massage-pillow/massagekudde-thumbnail.webp", "blurb": "Shiatsu-massagekudde med mjuk värme för en skön, avslappnande stund." }
+  ]
+}

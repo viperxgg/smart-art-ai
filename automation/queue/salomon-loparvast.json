@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "salomonActiveSkinProduct",
+  "category": "traning",
+  "categoryGroup": "Kondition",
+  "route": "traning/loparvast",
+  "pageComponentName": "LoparvastPage",
+  "product": {
+    "slug": "salomon-loparvast",
+    "title": "Salomon Active Skin 4 löparväst (med flaskor)",
+    "category": "traning",
+    "asin": "B0C5LZPRB2",
+    "brand": "Salomon",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Tätt sittande", "Med vätskeflaskor", "Fickor för långrundor"],
+    "image": "/products/salomon-loparvast/loparvast-thumbnail.webp",
+    "imageAlt": "Salomon Active Skin 4 löparväst med vätskeflaskor",
+    "images": [
+      { "src": "/products/salomon-loparvast/loparvast-thumbnail.webp", "alt": "Salomon Active Skin 4 löparväst med vätskeflaskor", "label": "Active Skin 4" },
+      { "src": "/products/salomon-loparvast/loparvast-1.webp", "alt": "Salomon Active Skin löparväst med tätt sittande passform", "label": "Tät passform" },
+      { "src": "/products/salomon-loparvast/loparvast-2.webp", "alt": "Salomon Active Skin löparväst med flaskor och fickor fram", "label": "Flaskor & fickor" },
+      { "src": "/products/salomon-loparvast/loparvast-3.webp", "alt": "Detaljbild av Salomon Active Skin löparväst", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4gJrKqB",
+    "pageHref": "/traning/loparvast",
+    "summary": "En tätt sittande löparväst med medföljande vätskeflaskor och flera fickor, gjord för längre löprundor där du vill ha vätska och småsaker nära till hands utan att det studsar.",
+    "evaluation": {
+      "headline": "Löparväst med vätska nära till hands",
+      "intro": "Elin går igenom Salomon Active Skin 4: en tätt sittande löparväst med medföljande mjuka vätskeflaskor och fickor fram. Den är gjord för dig som springer längre rundor och vill ha vätska och små grejer lättåtkomliga, med en passform som sitter nära kroppen för att minska studs.",
+      "verdict": "Genomtänkt löparväst för längre rundor när du vill bära vätska smidigt.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Kondition",
+    "specSectionTitle": "Salomon Active Skin 4 löparväst",
+    "specs": [
+      { "label": "Volym", "caption": "Storlek", "value": "4 liter, med flaskor" },
+      { "label": "Passform", "caption": "Känsla", "value": "Tätt sittande, studsar lite" },
+      { "label": "Förvaring", "caption": "Fickor", "value": "Flera fickor fram och bak" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4gJrKqB",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 72 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att västen sitter tätt och studsar lite på språng.",
+        "De medföljande flaskorna gör vätska lätt att nå under rundan.",
+        "Fickorna beskrivs som smidiga för telefon, gels och nycklar."
+      ],
+      "cautions": [
+        "Tätt sittande passform – kontrollera storleksguiden så att den inte blir för trång.",
+        "Mjuka flaskor kan behöva fyllas på under riktigt långa pass."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/loparvast",
+    "cardBadge": "Tätt sittande",
+    "cardHook": "Löparväst med flaskor och fickor för längre löprundor.",
+    "cardImage": "/products/salomon-loparvast/loparvast-thumbnail.webp",
+    "cardImageAlt": "Salomon Active Skin 4 löparväst med vätskeflaskor",
+    "badge": "Elins val för långrundor",
+    "headline": "Salomon Active Skin 4 – löparväst med vätska nära till hands",
+    "shortBody": "En tätt sittande löparväst med medföljande mjuka vätskeflaskor och flera fickor. Gjord för längre löprundor där du vill ha vätska och småsaker lättåtkomliga utan att det studsar.",
+    "valueHook": "Löparväst med vätska nära till hands",
+    "valueStatement": "Salomon Active Skin 4 är en löparväst för dig som springer längre rundor och vill bära med dig vätska smidigt. Den sitter tätt mot kroppen för att minska studs och kommer med mjuka vätskeflaskor samt flera fickor fram och bak för telefon, gels och nycklar. Amazon visar 4,7 av 5 från 72 omdömen, och köpare lyfter framför allt den nära passformen, att flaskorna är lätta att nå och att fickorna gör det enkelt att ha med det viktigaste.",
+    "passFor": [
+      "Springer längre rundor och vill ha vätska nära till hands.",
+      "Vill ha en väst som sitter tätt och studsar lite.",
+      "Behöver fickor för telefon, gels och nycklar på språng."
+    ],
+    "caution": "Passformen är tätt sittande och upplevelsen varierar mellan kroppstyper. Kolla storleksguiden noga så att den inte blir för trång, och räkna med att fylla på de mjuka flaskorna under riktigt långa pass.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Justera remmarna så att västen sitter nära kroppen innan du springer, då minskar studsen. Fyll flaskorna lagom fulla och fördela vikten jämnt fram, så känns rundan smidigare."
+    },
+    "verdict": "Genomtänkt löparväst för längre rundor när du vill bära vätska smidigt.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 72 omdömen. Köpare beskriver en tät, stabil passform och smidig vätska, men den tätt sittande designen gör att storleken är viktig att kolla.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur mycket vätska rymmer Salomon Active Skin 4?", "answer": "Västen är gjord för de medföljande mjuka flaskorna fram och har totalt runt 4 liters förvaring med plats för vätska, telefon och småsaker. För riktigt långa pass kan du behöva fylla på under vägen." },
+      { "question": "Studsar löparvästen när man springer?", "answer": "Den sitter tätt mot kroppen just för att minska studs. Justera remmarna så att västen sitter nära och fördela vikten jämnt fram, så känns den stabil på språng." },
+      { "question": "Hur väljer jag rätt storlek?", "answer": "Passformen är tätt sittande, så följ Salomons storleksguide noga. Är du mellan storlekar kan det vara värt att kontrollera måtten extra så att den inte blir för trång." }
+    ],
+    "reviewSectionId": "salomon-loparvast-recensioner",
+    "reviewFormId": "salomon-loparvast-skriv-recension",
+    "targetKeyword": "löparväst hydration",
+    "metaTitle": "Salomon Active Skin 4 löparväst – med flaskor | Elins val",
+    "metaDescription": "Elin går igenom Salomon Active Skin 4: en tätt sittande löparväst med vätskeflaskor och fickor för längre rundor (4,7 av 5, 72 omdömen) – och vad du bör veta om passformen.",
+    "relatedLinks": [
+      { "href": "/traning/hopprep", "label": "Hopprep", "text": "Smidig kondition när du vill träna hemma eller på resa." },
+      { "href": "/traning/viktvast", "label": "Viktväst", "text": "Lägg på extra motstånd i promenaden eller löprundan." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Lätt utrustning för styrka och uppvärmning före passet." }
+    ]
+  },
+  "images": {
+    "dir": "salomon-loparvast",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/91+x4JC3hPL._SL1500_.jpg", "out": "loparvast-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51UQQbk6jXL._SL1500_.jpg", "out": "loparvast-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/415zOWcXr0L._SL1500_.jpg", "out": "loparvast-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41boBU1dRFL._SL1500_.jpg", "out": "loparvast-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Salomon Active Skin 4 löparväst", "href": "/traning/loparvast", "date": "2026-06-27", "image": "/products/salomon-loparvast/loparvast-thumbnail.webp", "blurb": "Tätt sittande löparväst med vätskeflaskor och fickor för längre löprundor." }
+  ]
+}

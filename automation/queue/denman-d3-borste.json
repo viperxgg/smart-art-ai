@@ -1,0 +1,111 @@
+{
+  "exportName": "denmanD3Product",
+  "category": "skonhet",
+  "categoryGroup": "Hårstyling (verktyg)",
+  "route": "skonhet/denman-borste",
+  "pageComponentName": "DenmanBorstePage",
+  "product": {
+    "slug": "denman-d3-borste",
+    "title": "Denman D3 Original Styler – 7 rader",
+    "category": "skonhet",
+    "asin": "B00197623M",
+    "brand": "Denman",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["7 rader", "Lockdefinition", "Klassisk styler"],
+    "image": "/products/denman-d3/denman-thumbnail.webp",
+    "imageAlt": "Denman D3 Original Styler stylingborste med 7 rader",
+    "images": [
+      { "src": "/products/denman-d3/denman-thumbnail.webp", "alt": "Denman D3 Original Styler stylingborste med 7 rader", "label": "Denman D3" },
+      { "src": "/products/denman-d3/denman-1.webp", "alt": "Denman D3 stylingborste populär för lockdefinition", "label": "Lockdefinition" },
+      { "src": "/products/denman-d3/denman-2.webp", "alt": "Denman D3 med 7 rader för utredning och styling", "label": "7 rader" },
+      { "src": "/products/denman-d3/denman-3.webp", "alt": "Detaljbild av Denman D3 Original Styler", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4xS5ykm",
+    "pageHref": "/skonhet/denman-borste",
+    "summary": "En klassisk stylingborste med 7 rader, populär för lockdefinition och utredning. Ett välkänt verktyg för dig som vill forma och definiera lockigt hår i den dagliga rutinen.",
+    "evaluation": {
+      "headline": "Klassisk styler för lockdefinition",
+      "intro": "Elin går igenom Denman D3 Original Styler: en klassisk stylingborste med 7 rader som är populär för lockdefinition och utredning. Den är ett välkänt verktyg i lockcommunityt och används för att forma och definiera lockigt hår.",
+      "verdict": "Klassisk stylingborste för lockdefinition och utredning.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårstyling (verktyg)",
+    "specSectionTitle": "Denman D3 Original Styler",
+    "specs": [
+      { "label": "Typ", "caption": "Verktyg", "value": "Stylingborste, 7 rader" },
+      { "label": "Funktion", "caption": "Styling", "value": "Lockdefinition och utredning" },
+      { "label": "Hår", "caption": "Profil", "value": "Populär för lockigt hår" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4xS5ykm",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 59551 omdömen.",
+      "highlights": [
+        "Köpare uppskattar borsten för tydligare lockdefinition.",
+        "De 7 raderna ger bra grepp vid både styling och utredning.",
+        "Många ser den som en klassiker för lockigt hår."
+      ],
+      "cautions": [
+        "Stadiga rader kan kännas hårda om man drar för snabbt – ta det varsamt.",
+        "Resultatet varierar med håracktyp och teknik; det kan ta lite övning."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/denman-borste",
+    "cardBadge": "Lockdefinition",
+    "cardHook": "Klassisk stylingborste med 7 rader för lockdefinition och utredning.",
+    "cardImage": "/products/denman-d3/denman-thumbnail.webp",
+    "cardImageAlt": "Denman D3 Original Styler stylingborste med 7 rader",
+    "badge": "Elins lockfavorit",
+    "headline": "Denman D3 – klassiker för lockdefinition",
+    "shortBody": "En klassisk stylingborste med 7 rader, populär för lockdefinition och utredning. Ett välkänt verktyg för dig som vill forma och definiera lockigt hår i den dagliga rutinen.",
+    "valueHook": "Klassisk styler för lockdefinition",
+    "valueStatement": "Denman D3 Original Styler är en stylingborste för dig som vill forma och definiera lockigt hår. Med 7 rader ger den bra grepp om håret, vilket gör den populär både för lockdefinition och för att reda ut. Amazon visar 4,6 av 5 från 59551 omdömen, och köpare lyfter framför allt den tydligare lockdefinitionen, det stadiga greppet och statusen som klassiker i lockcommunityt.",
+    "passFor": [
+      "Vill forma och definiera lockigt hår i rutinen.",
+      "Söker en klassisk stylingborste med stadigt grepp.",
+      "Använder borsten både för styling och utredning."
+    ],
+    "caution": "De stadiga raderna kan kännas hårda om man drar för snabbt, så ta det varsamt. Resultatet varierar med håracktyp och teknik, och det kan ta lite övning att hitta rätt.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Arbeta i mindre sektioner och borsta lugnt för att forma lockarna. Många använder den på fuktigt hår med en stylingprodukt för tydligare lockdefinition."
+    },
+    "verdict": "Klassisk stylingborste för lockdefinition och utredning.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 59551 omdömen. Köpare beskriver tydligare lockdefinition och ett stadigt grepp, men de stadiga raderna kräver en varsam teknik.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad används Denman D3 till?", "answer": "Den är en klassisk stylingborste med 7 rader som är populär för lockdefinition och utredning. Många använder den för att forma och definiera lockigt hår." },
+      { "question": "Hur får jag bäst lockdefinition med borsten?", "answer": "Arbeta i mindre sektioner och borsta lugnt, gärna på fuktigt hår med en stylingprodukt. Tekniken kan ta lite övning att hitta." },
+      { "question": "Passar Denman D3 alla hårtyper?", "answer": "Den är särskilt populär för lockigt hår, men resultatet varierar med håracktyp och teknik. Ta det varsamt eftersom raderna är stadiga." }
+    ],
+    "reviewSectionId": "denman-d3-borste-recensioner",
+    "reviewFormId": "denman-d3-borste-skriv-recension",
+    "targetKeyword": "paddelborste lockigt hår",
+    "metaTitle": "Denman D3 Original Styler – borste för lockigt hår | Elins val",
+    "metaDescription": "Elin går igenom Denman D3 Original Styler: klassisk stylingborste med 7 rader för lockdefinition och utredning (4,6 av 5, 59551 omdömen) – och vad du bör veta om tekniken.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Lägg till lyster och mjukhet i längderna." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret innan du värmestylar." }
+    ]
+  },
+  "images": {
+    "dir": "denman-d3",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61iF5WKAwtL._SL1500_.jpg", "out": "denman-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/317wxYNPkFL._SL1500_.jpg", "out": "denman-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41MlrLUt9sL._SL1500_.jpg", "out": "denman-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51kAVHYpNlL._SL1500_.jpg", "out": "denman-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Denman D3 Original Styler", "href": "/skonhet/denman-borste", "date": "2026-06-27", "image": "/products/denman-d3/denman-thumbnail.webp", "blurb": "Klassisk stylingborste med 7 rader, populär för lockdefinition och utredning." }
+  ]
+}

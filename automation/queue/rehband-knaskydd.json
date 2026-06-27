@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "rehbandKneeProduct",
+  "category": "traning",
+  "categoryGroup": "Återhämtning",
+  "route": "traning/knaskydd",
+  "pageComponentName": "KnaskyddPage",
+  "product": {
+    "slug": "rehband-knaskydd",
+    "title": "Rehband RX knäskydd 5 mm",
+    "category": "traning",
+    "asin": "B07PFK6N8H",
+    "brand": "Rehband",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["5 mm neopren", "Stöd & värme", "Tunga lyft"],
+    "image": "/products/rehband-knee/knaskydd-thumbnail.webp",
+    "imageAlt": "Rehband RX knäskydd 5 mm",
+    "images": [
+      { "src": "/products/rehband-knee/knaskydd-thumbnail.webp", "alt": "Rehband RX knäskydd 5 mm", "label": "Knäskydd" },
+      { "src": "/products/rehband-knee/knaskydd-1.webp", "alt": "Rehband RX knäskydd i 5 mm neopren", "label": "Neopren" },
+      { "src": "/products/rehband-knee/knaskydd-2.webp", "alt": "Rehband knäskydd i bruk vid tunga lyft", "label": "Vid lyft" },
+      { "src": "/products/rehband-knee/knaskydd-3.webp", "alt": "Detaljbild av Rehband RX knäskydd", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4ezgXOk",
+    "pageHref": "/traning/knaskydd",
+    "summary": "Ett knäskydd i 5 mm neopren som ger stöd och värme vid tunga lyft och löpning. Det ger en stadig, komprimerande känsla runt knät för komfort under passet – det är ett stöd för träningen, inte en medicinsk behandling.",
+    "evaluation": {
+      "headline": "Knäskydd i neopren för stöd och värme",
+      "intro": "Elin går igenom Rehband RX knäskydd 5 mm: ett neoprenskydd som ger en stadig, komprimerande känsla och värme runt knät vid tunga lyft och löpning. Det handlar om komfort och stöd under träningen – inte om att behandla eller läka skador.",
+      "verdict": "Stabilt neoprenknäskydd för stöd och värme vid tung träning.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Träning",
+    "specSectionTitle": "Rehband RX knäskydd 5 mm",
+    "specs": [
+      { "label": "Material", "caption": "Tjocklek", "value": "Neopren, 5 mm" },
+      { "label": "Känsla", "caption": "Funktion", "value": "Stöd, värme och kompression" },
+      { "label": "Användning", "caption": "Fokus", "value": "Tunga lyft och löpning" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4ezgXOk",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 87 omdömen.",
+      "highlights": [
+        "Köpare uppskattar den stadiga, komprimerande känslan vid lyft.",
+        "Neoprenet håller knät varmt under passet.",
+        "Upplevs som hållbart i materialet."
+      ],
+      "cautions": [
+        "Storleken är viktig – följ måtttabellen för rätt passform.",
+        "5 mm ger en fastare känsla; vill du ha mjukare kompression kan tunnare passa bättre."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/knaskydd",
+    "cardBadge": "Stöd & värme",
+    "cardHook": "Knäskydd i 5 mm neopren för stöd och värme vid tunga lyft.",
+    "cardImage": "/products/rehband-knee/knaskydd-thumbnail.webp",
+    "cardImageAlt": "Rehband RX knäskydd 5 mm",
+    "badge": "Elins stödtips",
+    "headline": "Rehband RX knäskydd 5 mm – stöd och värme vid lyft",
+    "shortBody": "Ett knäskydd i 5 mm neopren som ger en stadig, komprimerande känsla och värme runt knät vid tunga lyft och löpning. Det är ett komfort- och stödplagg för träningen, inte en medicinsk behandling.",
+    "valueHook": "Knäskydd i neopren för stöd och värme",
+    "valueStatement": "Rehband RX knäskydd 5 mm är ett neoprenplagg för dig som vill ha stöd, värme och en stadig, komprimerande känsla runt knät vid tunga lyft och löpning. Tjockleken på 5 mm ger en fastare känsla som många upplever som trygg under passet, och neoprenet håller knät varmt. Tänk på att det handlar om komfort och stöd under träningen, inte om att behandla eller läka skador. Amazon visar 4,4 av 5 från 87 omdömen, och köpare lyfter framför allt den stadiga känslan och materialets hållbarhet.",
+    "passFor": [
+      "Vill ha stöd och en stadig känsla runt knät vid tunga lyft.",
+      "Gillar att hålla knät varmt under löpning och styrkepass.",
+      "Föredrar en fastare 5 mm-kompression framför en tunnare modell."
+    ],
+    "caution": "Knäskyddet är ett stöd och komfortplagg för träningen, inte en medicinsk behandling. Har du knäbesvär bör du rådgöra med vårdpersonal. Välj rätt storlek enligt måtttabellen, eftersom passformen avgör hur stödet känns.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Mät enligt tillverkarens tabell och dra på skyddet så att det sitter stadigt men inte stramar obekvämt. Använd det under tunga lyft eller löpning för stöd och värme, och ta av det mellan passen."
+    },
+    "verdict": "Stabilt neoprenknäskydd för stöd och värme vid tung träning.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 87 omdömen. Köpare beskriver en stadig, komprimerande känsla och hållbart material, men rätt storlek är viktig för passformen.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Behandlar knäskyddet en knäskada?", "answer": "Nej. Det är ett stöd- och komfortplagg som ger värme och en stadig känsla under träningen, inte en medicinsk behandling. Har du knäbesvär bör du rådgöra med vårdpersonal." },
+      { "question": "Vad ger 5 mm jämfört med tunnare knäskydd?", "answer": "5 mm ger en fastare, mer komprimerande känsla som många föredrar vid tunga lyft. Vill du ha mjukare kompression och mer rörlighet kan ett tunnare skydd passa bättre." },
+      { "question": "Hur väljer jag rätt storlek?", "answer": "Följ tillverkarens måtttabell och mät runt benet enligt anvisningen. Rätt storlek är avgörande för att stödet ska kännas stadigt utan att strama obekvämt." }
+    ],
+    "reviewSectionId": "rehband-knaskydd-recensioner",
+    "reviewFormId": "rehband-knaskydd-skriv-recension",
+    "targetKeyword": "knäskydd knästöd",
+    "metaTitle": "Rehband RX knäskydd 5 mm – stöd och värme | Elins val",
+    "metaDescription": "Elin går igenom Rehband RX knäskydd 5 mm: ett neoprenskydd för stöd och värme vid tunga lyft och löpning (4,4 av 5, 87 omdömen) – komfort och stöd, inte medicinsk behandling.",
+    "relatedLinks": [
+      { "href": "/traning/hantlar", "label": "Hantlar", "text": "Bygg styrka i hemmaträningen." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Mångsidig redskap för tunga lyft." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Lätt motstånd för uppvärmning och stöd." }
+    ]
+  },
+  "images": {
+    "dir": "rehband-knee",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71CJa3trO3L._SL1500_.jpg", "out": "knaskydd-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41npabqB2RL._SL1500_.jpg", "out": "knaskydd-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31B6EhLRa2L._SL1500_.jpg", "out": "knaskydd-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/415-YIMF7xL._SL1500_.jpg", "out": "knaskydd-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Rehband RX knäskydd 5 mm", "href": "/traning/knaskydd", "date": "2026-06-27", "image": "/products/rehband-knee/knaskydd-thumbnail.webp", "blurb": "Knäskydd i neopren som ger stöd och värme vid tunga lyft och löpning." }
+  ]
+}

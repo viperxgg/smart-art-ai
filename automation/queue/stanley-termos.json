@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "stanleyClassicProduct",
+  "category": "halsa",
+  "categoryGroup": "Smart hem & livsstil",
+  "route": "halsa/termos",
+  "pageComponentName": "TermosPage",
+  "product": {
+    "slug": "stanley-termos",
+    "title": "Stanley Classic termos 1,0 L",
+    "category": "halsa",
+    "asin": "B000T21JFE",
+    "brand": "Stanley",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Rostfritt stål", "Håller länge varmt", "Robust"],
+    "image": "/products/stanley-termos/termos-thumbnail.webp",
+    "imageAlt": "Stanley Classic termos 1,0 L",
+    "images": [
+      { "src": "/products/stanley-termos/termos-thumbnail.webp", "alt": "Stanley Classic termos 1,0 L", "label": "Stanley Classic" },
+      { "src": "/products/stanley-termos/termos-1.webp", "alt": "Stanley Classic termos i robust rostfritt stål", "label": "Rostfritt stål" },
+      { "src": "/products/stanley-termos/termos-2.webp", "alt": "Stanley Classic termos med kopp i locket", "label": "Lock som kopp" },
+      { "src": "/products/stanley-termos/termos-3.webp", "alt": "Detaljbild av Stanley Classic termos 1,0 L", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eNwGs7",
+    "pageHref": "/halsa/termos",
+    "summary": "En robust rostfri termos på 1,0 liter som håller dryck varm eller kall i timmar. Klassisk, tålig design som passar lika bra på utflykten som på jobbet.",
+    "evaluation": {
+      "headline": "Robust rostfri termos som håller länge varmt eller kallt",
+      "intro": "Elin går igenom Stanley Classic 1,0 L: en klassisk termos i rostfritt stål som håller dryck varm eller kall i timmar. En tålig vardagsföljeslagare som många väljer för utflykten, jobbet och långa dagar ute.",
+      "verdict": "Tålig rostfri termos som håller dryck varm eller kall i timmar.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Smart hem & livsstil",
+    "specSectionTitle": "Stanley Classic 1,0 L",
+    "specs": [
+      { "label": "Volym", "caption": "Storlek", "value": "1,0 liter" },
+      { "label": "Material", "caption": "Konstruktion", "value": "Robust rostfritt stål" },
+      { "label": "Funktion", "caption": "Värmehållning", "value": "Håller varmt eller kallt i timmar" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eNwGs7",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 21679 omdömen.",
+      "highlights": [
+        "Köpare beskriver att drycken håller sig varm eller kall i många timmar.",
+        "Den robusta konstruktionen uppskattas för att tåla en tuff vardag.",
+        "Många använder den till utflykt, jobb och långa dagar utomhus."
+      ],
+      "cautions": [
+        "Den är relativt stor och tung när den är fylld, vilket inte passar alla.",
+        "Locket och korken behöver rengöras noga för att hålla sig fräscha över tid."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/termos",
+    "cardBadge": "Robust & rostfri",
+    "cardHook": "Håller dryck varm eller kall i timmar, perfekt för utflykt och jobb.",
+    "cardImage": "/products/stanley-termos/termos-thumbnail.webp",
+    "cardImageAlt": "Stanley Classic termos 1,0 L",
+    "badge": "Elins utflyktsfavorit",
+    "headline": "Stanley Classic 1,0 L – robust rostfri termos",
+    "shortBody": "En klassisk termos i robust rostfritt stål på 1,0 liter. Håller dryck varm eller kall i timmar och är gjord för att tåla utflykten, jobbet och långa dagar ute.",
+    "valueHook": "Robust rostfri termos som håller länge varmt eller kallt",
+    "valueStatement": "Stanley Classic 1,0 L är en termos för dig som vill ha varmt kaffe eller kall dryck långt in på dagen. Den robusta konstruktionen i rostfritt stål är gjord för att tåla en tuff vardag, och värmehållningen gör att drycken håller sig varm eller kall i timmar. Locket fungerar som kopp, vilket gör den smidig på språng. Amazon visar 4,6 av 5 från 21679 omdömen, och köpare lyfter framför allt värmehållningen, hållbarheten och hur väl den passar för utflykt och jobb.",
+    "passFor": [
+      "Vill ha varm eller kall dryck långt in på dagen på utflykten.",
+      "Önskar en robust termos som tål en tuff vardag på jobbet.",
+      "Gillar en klassisk rostfri design med lock som fungerar som kopp."
+    ],
+    "caution": "Den är relativt stor och tung när den är fylld, vilket inte passar alla väskor eller tillfällen. Lock och kork behöver rengöras noga för att hålla sig fräscha över tid.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Skölj termosen med varmt vatten innan du fyller på, så håller den temperaturen ännu bättre. Skruva åt locket ordentligt och rengör korken regelbundet för att den ska hålla sig fräsch."
+    },
+    "verdict": "Tålig rostfri termos som håller dryck varm eller kall i timmar.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 21679 omdömen. Köpare beskriver lång värmehållning och robust konstruktion, men den är relativt stor och tung när den är fylld.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur länge håller termosen drycken varm?", "answer": "Köpare beskriver att drycken håller sig varm eller kall i många timmar. Skölj termosen med varmt vatten innan du fyller på för bästa resultat." },
+      { "question": "Passar den för utflykt och jobb?", "answer": "Ja, den robusta rostfria konstruktionen är gjord för att tåla en tuff vardag och passar fint både på utflykten och på jobbet." },
+      { "question": "Hur rengör jag termosen?", "answer": "Skölj termosen efter användning och rengör lock och kork noga med jämna mellanrum, så håller den sig fräsch över tid." }
+    ],
+    "reviewSectionId": "stanley-termos-recensioner",
+    "reviewFormId": "stanley-termos-skriv-recension",
+    "targetKeyword": "termos rostfri",
+    "metaTitle": "Stanley Classic termos 1,0 L – robust & rostfri | Elins val",
+    "metaDescription": "Elin går igenom Stanley Classic 1,0 L: en robust rostfri termos som håller dryck varm eller kall i timmar (4,6 av 5, 21679 omdömen) – perfekt för utflykt och jobb.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma för en skönare vardag." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Doft och fukt för en lugnare stämning." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Mjukt ljus som hjälper dig att varva ner." }
+    ]
+  },
+  "images": {
+    "dir": "stanley-termos",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71Dvum8Z0SL._SL1500_.jpg", "out": "termos-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/311-v4VjlAL._SL1500_.jpg", "out": "termos-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51s8gvnD0ZL._SL1500_.jpg", "out": "termos-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31AdMo5wh+L._SL1500_.jpg", "out": "termos-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Stanley Classic termos 1,0 L", "href": "/halsa/termos", "date": "2026-06-27", "image": "/products/stanley-termos/termos-thumbnail.webp", "blurb": "Robust rostfri termos som håller dryck varm eller kall i timmar." }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "exportName": "osisDustItProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/volympuder",
+  "pageComponentName": "VolympuderPage",
+  "product": {
+    "slug": "osis-volympuder",
+    "title": "Schwarzkopf OSiS+ Dust It – volympuder",
+    "category": "skonhet",
+    "asin": "B0BYBFGJ41",
+    "brand": "Schwarzkopf Professional",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Rotvolym", "Matt finish", "Snabbt grepp"],
+    "image": "/products/osis-dust-it/osis-thumbnail.webp",
+    "imageAlt": "Schwarzkopf OSiS+ Dust It volympuder",
+    "images": [
+      { "src": "/products/osis-dust-it/osis-thumbnail.webp", "alt": "Schwarzkopf OSiS+ Dust It volympuder", "label": "OSiS+ Dust It" },
+      { "src": "/products/osis-dust-it/osis-1.webp", "alt": "OSiS+ Dust It matt volympuder för rotvolym", "label": "Rotvolym" },
+      { "src": "/products/osis-dust-it/osis-2.webp", "alt": "OSiS+ Dust It puder som ger grepp och fyllighet", "label": "Grepp" },
+      { "src": "/products/osis-dust-it/osis-3.webp", "alt": "Detaljbild av Schwarzkopf OSiS+ Dust It", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3R7IGN4",
+    "pageHref": "/skonhet/volympuder",
+    "summary": "Ett matt volympuder som ger snabb rotvolym och grepp. Strö ut i rötterna för fyllighet och en mattare finish, perfekt för dig som vill ge plattare hår mer lyft.",
+    "evaluation": {
+      "headline": "Matt puder för snabb rotvolym",
+      "intro": "Elin går igenom Schwarzkopf OSiS+ Dust It: ett matt volympuder som ströas i rötterna för att ge snabb rotvolym och grepp. Det är populärt för att lyfta plattare hår och ge fyllighet utan tunga produkter.",
+      "verdict": "Matt volympuder för snabb rotvolym och grepp.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Schwarzkopf OSiS+ Dust It",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Volympuder" },
+      { "label": "Effekt", "caption": "Styling", "value": "Rotvolym och grepp" },
+      { "label": "Finish", "caption": "Look", "value": "Matt finish" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3R7IGN4",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 1256 omdömen.",
+      "highlights": [
+        "Köpare upplever snabb rotvolym med bara en liten mängd.",
+        "Ger grepp och fyllighet som gör håret lättare att forma.",
+        "Den matta finishen uppskattas för en naturlig look."
+      ],
+      "cautions": [
+        "Lite räcker långt – för mycket puder kan kännas torrt eller kladdigt.",
+        "Effekten varierar med hårtyp och hur mycket som doseras i rötterna."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/volympuder",
+    "cardBadge": "Rotvolym",
+    "cardHook": "Matt volympuder som ger snabb rotvolym och grepp.",
+    "cardImage": "/products/osis-dust-it/osis-thumbnail.webp",
+    "cardImageAlt": "Schwarzkopf OSiS+ Dust It volympuder",
+    "badge": "Elins volymfavorit",
+    "headline": "OSiS+ Dust It – snabb rotvolym",
+    "shortBody": "Ett matt volympuder som ströas i rötterna för snabb rotvolym och grepp. Ger fyllighet och en mattare finish, perfekt för dig som vill ge plattare hår mer lyft.",
+    "valueHook": "Matt puder för snabb rotvolym",
+    "valueStatement": "Schwarzkopf OSiS+ Dust It är ett volympuder för dig som vill ge håret snabb rotvolym utan tunga produkter. Pudret ströas i rötterna och ger grepp och fyllighet med en matt finish som ser naturlig ut. Amazon visar 4,4 av 5 från 1256 omdömen, och köpare lyfter framför allt den snabba rotvolymen, greppet och hur lite produkt som behövs.",
+    "passFor": [
+      "Vill ge plattare hår snabb rotvolym i rötterna.",
+      "Söker grepp och fyllighet inför styling.",
+      "Gillar en matt, naturlig finish snarare än blank."
+    ],
+    "caution": "Lite räcker långt – för mycket puder kan göra håret torrt eller kladdigt. Effekten varierar med hårtyp och hur mycket du doserar, så börja sparsamt.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Strö en liten mängd direkt i rötterna och massera in med fingrarna för lyft och grepp. Bygg på försiktigt om du vill ha mer volym."
+    },
+    "verdict": "Matt volympuder för snabb rotvolym och grepp.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 1256 omdömen. Köpare beskriver snabb rotvolym och bra grepp, men lite räcker långt och för mycket kan kännas torrt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag volympuder?", "answer": "Strö en liten mängd direkt i rötterna och massera in med fingrarna. Det ger lyft och grepp – bygg på sparsamt om du vill ha mer volym." },
+      { "question": "Hur mycket puder behöver jag?", "answer": "Lite räcker långt. För mycket puder kan göra håret torrt eller kladdigt, så börja med en liten mängd och dosera efter behov." },
+      { "question": "Vilken finish ger OSiS+ Dust It?", "answer": "Det ger en matt finish som ser naturlig ut, samtidigt som det skapar grepp och fyllighet i rötterna." }
+    ],
+    "reviewSectionId": "osis-volympuder-recensioner",
+    "reviewFormId": "osis-volympuder-skriv-recension",
+    "targetKeyword": "volympuder rötter",
+    "metaTitle": "Schwarzkopf OSiS+ Dust It – volympuder för rötter | Elins val",
+    "metaDescription": "Elin går igenom Schwarzkopf OSiS+ Dust It: matt volympuder som ger snabb rotvolym och grepp (4,4 av 5, 1256 omdömen) – och vad du bör veta om doseringen.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Lägg till lyster och mjukhet i längderna." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret innan du värmestylar." }
+    ]
+  },
+  "images": {
+    "dir": "osis-dust-it",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51FMeM6g-uL._SL1500_.jpg", "out": "osis-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/310VSVdIhlL._SL1500_.jpg", "out": "osis-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41kWGf55TcL._SL1500_.jpg", "out": "osis-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41hpdY+NXJL._SL1500_.jpg", "out": "osis-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Schwarzkopf OSiS+ Dust It", "href": "/skonhet/volympuder", "date": "2026-06-27", "image": "/products/osis-dust-it/osis-thumbnail.webp", "blurb": "Matt volympuder som ger snabb rotvolym och grepp." }
+  ]
+}

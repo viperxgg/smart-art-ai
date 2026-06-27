@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "fitgriffStrapsProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/lifting-straps",
+  "pageComponentName": "LiftingStrapsPage",
+  "product": {
+    "slug": "fitgriff-lifting-straps",
+    "title": "Fitgriff lifting straps / dragremmar (vadderade)",
+    "category": "traning",
+    "asin": "B01F2OGJQM",
+    "brand": "Fitgriff",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Vadderade", "Bättre grepp", "För marklyft & rodd"],
+    "image": "/products/fitgriff-straps/straps-thumbnail.webp",
+    "imageAlt": "Fitgriff lifting straps / dragremmar med vaddering",
+    "images": [
+      { "src": "/products/fitgriff-straps/straps-thumbnail.webp", "alt": "Fitgriff lifting straps / dragremmar med vaddering", "label": "Dragremmar" },
+      { "src": "/products/fitgriff-straps/straps-1.webp", "alt": "Fitgriff vadderade dragremmar för bättre grepp", "label": "Vaddering" },
+      { "src": "/products/fitgriff-straps/straps-2.webp", "alt": "Fitgriff lifting straps i användning vid marklyft", "label": "Marklyft" },
+      { "src": "/products/fitgriff-straps/straps-3.webp", "alt": "Detaljbild av Fitgriff dragremmar", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eR5f0v",
+    "pageHref": "/traning/lifting-straps",
+    "summary": "Vadderade lifting straps som hjälper dig att hålla greppet vid tunga drag som marklyft och rodd, så att greppstyrkan inte blir det som begränsar setet i förtid.",
+    "evaluation": {
+      "headline": "Dragremmar för bättre grepp vid tunga drag",
+      "intro": "Elin går igenom Fitgriff lifting straps: vadderade dragremmar som lindas runt stången för att avlasta greppet vid tunga drag som marklyft och rodd. Vadderingen är till för att göra det bekvämare runt handlederna, så att du kan fokusera på själva lyftet i stället för att tappa greppet.",
+      "verdict": "Praktiska dragremmar för dig som vill att greppet inte ska begränsa tunga drag.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Tillbehör",
+    "specSectionTitle": "Fitgriff lifting straps / dragremmar",
+    "specs": [
+      { "label": "Typ", "caption": "Format", "value": "Lifting straps, ett par" },
+      { "label": "Komfort", "caption": "Detalj", "value": "Vadderade runt handleden" },
+      { "label": "Användning", "caption": "Passar", "value": "Marklyft, rodd och drag" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eR5f0v",
+      "ratingSummary": "Amazon visar ett gott snittbetyg från många köpare.",
+      "highlights": [
+        "Köpare upplever att remmarna hjälper greppet att hålla längre vid tunga drag.",
+        "Vadderingen beskrivs som skön och avlastande runt handlederna.",
+        "Uppskattas för att vara enkla att linda på och få sig en känsla för."
+      ],
+      "cautions": [
+        "Det tar lite övning att linda remmarna rätt runt stången i början.",
+        "Dragremmar tränar inte greppstyrkan – varva gärna med set utan dem."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/lifting-straps",
+    "cardBadge": "Vadderade",
+    "cardHook": "Dragremmar som förbättrar greppet vid marklyft och rodd.",
+    "cardImage": "/products/fitgriff-straps/straps-thumbnail.webp",
+    "cardImageAlt": "Fitgriff lifting straps / dragremmar med vaddering",
+    "badge": "Elins val för tunga drag",
+    "headline": "Fitgriff lifting straps – bättre grepp vid tunga drag",
+    "shortBody": "Vadderade dragremmar som lindas runt stången för att avlasta greppet vid tunga drag som marklyft och rodd. Vadderingen gör dem bekvämare runt handlederna så att greppet inte blir det som begränsar setet.",
+    "valueHook": "Dragremmar för bättre grepp vid tunga drag",
+    "valueStatement": "Fitgriff lifting straps är vadderade dragremmar för dig som vill att greppet inte ska begränsa tunga drag som marklyft och rodd. Remmarna lindas runt stången och avlastar greppet, medan vadderingen gör dem bekvämare runt handlederna. Köpare beskriver att remmarna hjälper greppet att hålla längre och att vadderingen känns skön, även om det tar lite övning att linda dem rätt i början.",
+    "passFor": [
+      "Vill att greppet inte ska begränsa marklyft och rodd.",
+      "Föredrar vadderade remmar som är bekväma runt handleden.",
+      "Tränar tunga drag och vill kunna fokusera på lyftet."
+    ],
+    "caution": "Det tar lite övning att linda remmarna rätt, och upplevelsen varierar mellan olika övningar. Tänk på att dragremmar inte tränar greppstyrkan i sig – varva gärna med set helt utan remmar.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Linda remmen runt stången och dra åt så att den sitter stadigt innan du börjar lyfta. Använd dem främst på dina tyngsta set och kör gärna en del set utan remmar så att greppstyrkan får jobba."
+    },
+    "verdict": "Praktiska dragremmar för dig som vill att greppet inte ska begränsa tunga drag.",
+    "amazonSummary": "Amazon visar ett gott snittbetyg från många köpare. De beskriver att remmarna hjälper greppet att hålla och att vadderingen känns skön, men det tar lite övning att linda dem rätt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad används lifting straps till?", "answer": "Dragremmar lindas runt stången för att avlasta greppet vid tunga drag som marklyft och rodd. De hjälper dig att hålla kvar stången när greppet annars hade blivit den begränsande faktorn." },
+      { "question": "Hur lindar jag dragremmarna rätt?", "answer": "Trä handen genom öglan, linda remmen runt stången och dra åt så att den sitter stadigt innan du lyfter. Det tar lite övning i början, men brukar snabbt sitta i ryggmärgen." },
+      { "question": "Försämrar dragremmar min greppstyrka?", "answer": "Remmarna tränar inte greppet i sig, så använd dem främst på dina tyngsta set. Varva gärna med set helt utan remmar så att greppstyrkan fortfarande får jobba." }
+    ],
+    "reviewSectionId": "fitgriff-lifting-straps-recensioner",
+    "reviewFormId": "fitgriff-lifting-straps-skriv-recension",
+    "targetKeyword": "lifting straps dragremmar",
+    "metaTitle": "Fitgriff lifting straps / dragremmar – bättre grepp | Elins val",
+    "metaDescription": "Elin går igenom Fitgriff lifting straps: vadderade dragremmar som förbättrar greppet vid marklyft och rodd – och hur du lindar och använder dem rätt.",
+    "relatedLinks": [
+      { "href": "/traning/hantlar", "label": "Hantlar", "text": "Bygg styrka hemma med justerbara eller fasta hantlar." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Mångsidig vikt för svingar, marklyft och helkroppspass." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Lätt utrustning för styrka och uppvärmning före passet." }
+    ]
+  },
+  "images": {
+    "dir": "fitgriff-straps",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81ZDizb0wEL._SL1500_.jpg", "out": "straps-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41oF6yJtWgL._SL1500_.jpg", "out": "straps-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41-KL1E52hL._SL1500_.jpg", "out": "straps-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41Hh4QMl-cL._SL1500_.jpg", "out": "straps-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Fitgriff lifting straps / dragremmar", "href": "/traning/lifting-straps", "date": "2026-06-27", "image": "/products/fitgriff-straps/straps-thumbnail.webp", "blurb": "Vadderade dragremmar som förbättrar greppet vid marklyft och rodd." }
+  ]
+}

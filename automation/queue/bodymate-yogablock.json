@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "bodymateYogablockProduct",
+  "category": "traning",
+  "categoryGroup": "Yoga",
+  "route": "traning/yogablock",
+  "pageComponentName": "YogablockPage",
+  "product": {
+    "slug": "bodymate-yogablock",
+    "title": "BODYMATE yogablock i kork (2-pack)",
+    "category": "traning",
+    "asin": "B08TMV463P",
+    "brand": "BODYMATE",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Naturkork", "2-pack", "Stöd & rätt höjd"],
+    "image": "/products/bodymate-yogablock/yogablock-thumbnail.webp",
+    "imageAlt": "BODYMATE yogablock i kork (2-pack)",
+    "images": [
+      { "src": "/products/bodymate-yogablock/yogablock-thumbnail.webp", "alt": "BODYMATE yogablock i kork (2-pack)", "label": "Yogablock" },
+      { "src": "/products/bodymate-yogablock/yogablock-1.webp", "alt": "BODYMATE yogablock i naturkork sett från sidan", "label": "Naturkork" },
+      { "src": "/products/bodymate-yogablock/yogablock-2.webp", "alt": "BODYMATE yogablock 2-pack staplade", "label": "2-pack" },
+      { "src": "/products/bodymate-yogablock/yogablock-3.webp", "alt": "Detaljbild av BODYMATE yogablock i kork", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3SyND1R",
+    "pageHref": "/traning/yogablock",
+    "summary": "Stabila yogablock i kork som ger stöd och rätt höjd i positioner där du inte når ända ner. Levereras som 2-pack och hjälper dig hålla en bekväm, stadig form i yogan.",
+    "evaluation": {
+      "headline": "Yogablock i kork för stöd och rätt höjd",
+      "intro": "Elin går igenom BODYMATE yogablock i kork (2-pack): block som ger dig stöd och rätt höjd i positioner där du inte når ända ner i mattan. Kork känns stabilt och halksäkert, och 2-pack gör att du kan använda ett block under varje hand.",
+      "verdict": "Stabila korkblock som ger bra stöd och rätt höjd i yogan, som prisvärt 2-pack.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Yoga",
+    "specSectionTitle": "BODYMATE yogablock i kork",
+    "specs": [
+      { "label": "Material", "caption": "Yta", "value": "Naturkork" },
+      { "label": "Antal", "caption": "Förpackning", "value": "2-pack" },
+      { "label": "Användning", "caption": "Syfte", "value": "Stöd och rätt höjd i positioner" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3SyND1R",
+      "ratingSummary": "Amazon visar 4,8 av 5 från 767 omdömen.",
+      "highlights": [
+        "Köpare upplever att korken känns stabil och halksäker.",
+        "Uppskattas för att ge bra stöd och rätt höjd i positioner.",
+        "Många tycker att 2-pack är praktiskt och prisvärt."
+      ],
+      "cautions": [
+        "Kork kan kännas hårdare än skumblock – en smaksak för vissa.",
+        "Naturkork kan dofta lätt i början; vädra gärna innan användning."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/yogablock",
+    "cardBadge": "Stöd & rätt höjd",
+    "cardHook": "Stabila korkblock som ger stöd och rätt höjd i yogan.",
+    "cardImage": "/products/bodymate-yogablock/yogablock-thumbnail.webp",
+    "cardImageAlt": "BODYMATE yogablock i kork (2-pack)",
+    "badge": "Elins yogafavorit",
+    "headline": "BODYMATE yogablock i kork – stöd och rätt höjd",
+    "shortBody": "Stabila yogablock i naturkork som 2-pack. Tanken är att ge dig stöd och rätt höjd i positioner där du inte når ända ner, så du kan hålla en bekväm och stadig form i yogan.",
+    "valueHook": "Yogablock i kork för stöd och rätt höjd",
+    "valueStatement": "BODYMATE yogablock i kork är ett 2-pack stabila block för dig som vill ha stöd och rätt höjd i yogan. I positioner där du inte når ända ner kan ett block ge en stadig kontaktpunkt så att du kan hålla formen utan att tappa balansen. Korken känns halksäker och stabil, och Amazon visar 4,8 av 5 från 767 omdömen där köpare framför allt lyfter stabiliteten och att 2-pack är praktiskt.",
+    "passFor": [
+      "Vill ha stöd och rätt höjd i positioner du inte når ända ner i.",
+      "Föredrar stabila korkblock framför mjukare skumblock.",
+      "Gillar att ha två block så du kan stötta båda händerna."
+    ],
+    "caution": "Kork känns hårdare än skumblock, vilket vissa gillar och andra inte. Naturkork kan dofta lätt i början – vädra gärna blocken innan du använder dem första gången.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Placera blocket under hand, höft eller rygg för att korta avståndet till mattan i positioner där du inte når ner. Vänd blocket på olika sidor för låg, mellan eller hög höjd."
+    },
+    "verdict": "Stabila korkblock som ger bra stöd och rätt höjd i yogan, som prisvärt 2-pack.",
+    "amazonSummary": "Amazon visar 4,8 av 5 från 767 omdömen. Köpare beskriver stabila, halksäkra korkblock som ger bra stöd och rätt höjd, och uppskattar att det är ett 2-pack.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad använder jag yogablock till?", "answer": "Ett yogablock ger stöd och rätt höjd i positioner där du inte når ända ner till mattan. Det hjälper dig hålla en stadig och bekväm form utan att tappa balansen." },
+      { "question": "Är korkblock bättre än skumblock?", "answer": "Kork känns stabilare och hårdare, vilket många föredrar för bra stöd. Skumblock är mjukare och lättare. Vilket som passar är en smaksak och beror på hur du tränar." },
+      { "question": "Varför 2-pack yogablock?", "answer": "Med två block kan du stötta båda händerna eller använda ett under höften och ett under handen samtidigt. Det gör fler positioner mer tillgängliga." }
+    ],
+    "reviewSectionId": "bodymate-yogablock-recensioner",
+    "reviewFormId": "bodymate-yogablock-skriv-recension",
+    "targetKeyword": "yogablock kork",
+    "metaTitle": "BODYMATE yogablock i kork (2-pack) – stöd & höjd | Elins val",
+    "metaDescription": "Elin går igenom BODYMATE yogablock i kork (2-pack): stabila block för stöd och rätt höjd i yogan (4,8 av 5, 767 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Halksäkert underlag för yoga och stretch." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Mjukt motstånd för rörlighet och styrka." },
+      { "href": "/traning/hopprep", "label": "Hopprep", "text": "Enkel kondition att varva med yogapassen." }
+    ]
+  },
+  "images": {
+    "dir": "bodymate-yogablock",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/91Aep6XBWJL._SL1500_.jpg", "out": "yogablock-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/418Nk1DlMCL._SL1500_.jpg", "out": "yogablock-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41Gj2Ys-X4L._SL1500_.jpg", "out": "yogablock-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41cGbIiNU8L._SL1500_.jpg", "out": "yogablock-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "BODYMATE yogablock i kork (2-pack)", "href": "/traning/yogablock", "date": "2026-06-27", "image": "/products/bodymate-yogablock/yogablock-thumbnail.webp", "blurb": "Stabila yogablock i kork som ger stöd och rätt höjd i positioner." }
+  ]
+}

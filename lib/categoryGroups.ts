@@ -10,6 +10,13 @@ export const categoryProductGroups = {
     {
       title: "Hårstyling (verktyg)",
       productSlugs: [
+        "candure-frisorsax",
+        "denman-d3-borste",
+        "wet-brush-original",
+        "kitsch-claw-clips",
+        "kitsch-heatless-curls",
+        "cantu-satin-bonnet",
+        "microfiberhandduk-har",
         "tangle-teezer-original",
         "remington-s8540-plattang",
         "remington-mini-s2880-plattang",
@@ -24,6 +31,11 @@ export const categoryProductGroups = {
     {
       title: "Hårvård",
       productSlugs: [
+        "maria-nila-texturspray",
+        "got2b-glued-harspray",
+        "wella-eimi-mousse",
+        "osis-volympuder",
+        "värmeskyddsspray-got2b",
         "maui-curl-smoothie",
         "cantu-leave-in-conditioner",
         "inkey-scalp-scrub",
@@ -41,6 +53,10 @@ export const categoryProductGroups = {
     {
       title: "Sol & glow",
       productSlugs: [
+        "tree-hut-kroppsskrubb",
+        "bondi-sands-vante",
+        "tanologist-tan-drops",
+        "bondi-sands-mousse",
         "st-tropez-self-tan-express",
         "elf-skin-bronzing-drops",
         "nivea-sun-after-sun-lotion",
@@ -85,26 +101,49 @@ export const categoryProductGroups = {
     },
     {
       title: "Hårborttagning",
-      productSlugs: ["panasonic-es-ey30-epilator", "braun-silk-epil-9"],
+      productSlugs: [
+        "philips-ansiktstrimmer",
+        "braun-ipl-pro5",
+        "philips-rakapparat-dam","panasonic-es-ey30-epilator", "braun-silk-epil-9"],
     },
     {
       title: "Fötter",
-      productSlugs: ["vxdoirk-elektrisk-fotfil"],
+      productSlugs: [
+        "flexitol-halkram",
+        "plantifique-foot-peel","vxdoirk-elektrisk-fotfil"],
+    },
+    {
+      title: "Naglar",
+      productSlugs: [
+        "press-on-naglar",
+        "beurer-nagelvard-set",],
+    },
+    {
+      title: "Makeup",
+      productSlugs: [
+        "real-techniques-svamp",
+        "real-techniques-borstar",],
     },
   ],
   traning: [
     {
       title: "Kondition",
       productSlugs: [
+        "salomon-loparvast",
+        "gvolatee-agility-stege",
+        "dh-fitlife-studsmatta",
+        "reebok-stepbrada",
         "portentum-hopprep",],
     },
     {
       title: "Träningsband",
-      productSlugs: ["traningsband-4-nivaer", "jakkofoxx-loopband"],
+      productSlugs: [
+        "elvire-miniband","traningsband-4-nivaer", "jakkofoxx-loopband"],
     },
     {
       title: "Vikter",
       productSlugs: [
+        "bowflex-selecttech-552i",
         "eric-flag-viktvast",
         "amazon-basics-gjutjarns-kettlebell",
         "proiron-mjuk-kettlebell",
@@ -114,29 +153,80 @@ export const categoryProductGroups = {
     },
     {
       title: "Yoga",
-      productSlugs: ["prosourcefit-extra-tjock-yogamatta", "yogati-tpe-yogamatta"],
+      productSlugs: [
+        "g5-pilatesring",
+        "bodymate-yogabalte",
+        "bodymate-yogablock",
+        "gorilla-gymboll","prosourcefit-extra-tjock-yogamatta", "yogati-tpe-yogamatta"],
     },
     {
       title: "Återhämtning",
-      productSlugs: ["bodymate-foam-roller-care", "elvire-deep-tissue-massageset"],
+      productSlugs: [
+        "rehband-knaskydd","bodymate-foam-roller-care", "elvire-deep-tissue-massageset"],
+    },
+    {
+      title: "Tillbehör",
+      productSlugs: [
+        "fitgriff-lifting-straps",
+        "fuel24-vattenflaska",
+        "gorilla-core-slider",
+        "cpsports-lyftarbalte",
+        "asipro-handledslindor",
+        "ihuan-traningshandskar",
+        "gorilla-gymnastikringar",
+        "gorilla-push-up-handtag",
+        "iron-gym-pull-up-bar",
+        "amonax-maghjul",
+        "gorilla-balansplatta",],
     },
   ],
   halsa: [
     {
       title: "Återhämtning",
-      productSlugs: ["beurer-mg-99-massagepistol", "bdbkmg-massagepistol"],
+      productSlugs: [
+        "mattibi-spikmatta",
+        "beurer-varmedyna",
+        "beurer-fotmassage",
+        "renpho-massagekudde","beurer-mg-99-massagepistol", "bdbkmg-massagepistol"],
     },
     {
       title: "Fläkt",
       productSlugs: [
+        "beurer-luftkylare",
+        "xiaomi-bordsflakt",
+        "jisulife-handflakt",
         "dreo-cruiser-pro-tornflakt",
         "honeywell-turboforce-ht900e",
         "midea-fz10-tornflakt",
       ],
     },
     {
+      title: "Klimat",
+      productSlugs: [
+        "levoit-luftfuktare",
+        "pro-breeze-luftavfuktare",],
+    },
+    {
+      title: "Sömn & avkoppling",
+      productSlugs: [
+        "loop-oronproppar",
+        "manta-sovmask",
+        "philips-wake-up-light",
+        "magicteam-white-noise",
+        "ella-tyngdtacke",],
+    },
+    {
       title: "Smart hem & livsstil",
       productSlugs: [
+        "govee-hygrometer",
+        "twsoul-vattenflaska",
+        "stanley-termos",
+        "oralb-tandborste",
+        "eufy-robotdammsugare",
+        "govee-led-list",
+        "gritin-laslampa",
+        "soundcore-hogtalare",
+        "withings-personvag",
         "levoit-core-200s-luftrenare",
         "kobo-clara-bw",
         "salking-aromadiffuser",

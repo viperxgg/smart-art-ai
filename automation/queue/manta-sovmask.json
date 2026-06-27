@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "mantaSleepMaskProduct",
+  "category": "halsa",
+  "categoryGroup": "Sömn & avkoppling",
+  "route": "halsa/sovmask",
+  "pageComponentName": "SovmaskPage",
+  "product": {
+    "slug": "manta-sovmask",
+    "title": "Manta Sleep Mask – 100% mörkläggande sovmask",
+    "category": "halsa",
+    "asin": "B07PRG2CQY",
+    "brand": "Manta Sleep",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["100% mörkläggande", "Justerbar passform", "Inget tryck mot ögonen"],
+    "image": "/products/manta-sleep-mask/sovmask-thumbnail.webp",
+    "imageAlt": "Manta Sleep Mask mörkläggande sovmask",
+    "images": [
+      { "src": "/products/manta-sleep-mask/sovmask-thumbnail.webp", "alt": "Manta Sleep Mask mörkläggande sovmask", "label": "Sleep Mask" },
+      { "src": "/products/manta-sleep-mask/sovmask-1.webp", "alt": "Manta Sleep Mask med formade ögonkåpor", "label": "Formade kåpor" },
+      { "src": "/products/manta-sleep-mask/sovmask-2.webp", "alt": "Manta Sleep Mask med justerbar rem", "label": "Justerbar" },
+      { "src": "/products/manta-sleep-mask/sovmask-3.webp", "alt": "Detaljbild av Manta Sleep Mask sovmask", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4uYflm2",
+    "pageHref": "/halsa/sovmask",
+    "summary": "En justerbar sovmask med formade ögonkåpor som blockar ljus helt utan att trycka mot ögonen. För dig som vill ha riktigt mörkt när du sover, hemma eller på resa.",
+    "evaluation": {
+      "headline": "Mörkläggande sovmask utan tryck mot ögonen",
+      "intro": "Elin går igenom Manta Sleep Mask: en justerbar sovmask med formade ögonkåpor som blockar ljus helt. Kåporna gör att masken kan ligga mörkt utan att trycka mot ögonen, vilket många tycker gör den behaglig att ha på under natten.",
+      "verdict": "Genomtänkt sovmask för dig som vill ha helt mörkt utan tryck mot ögonen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Sömn & avkoppling",
+    "specSectionTitle": "Manta Sleep Mask",
+    "specs": [
+      { "label": "Ljus", "caption": "Mörkläggning", "value": "100% mörkläggande" },
+      { "label": "Passform", "caption": "Justering", "value": "Justerbar rem och ögonkåpor" },
+      { "label": "Komfort", "caption": "Känsla", "value": "Inget tryck mot ögonen" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4uYflm2",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 14443 omdömen.",
+      "highlights": [
+        "Köpare lyfter att masken blockar ljus riktigt bra.",
+        "Många uppskattar att kåporna inte trycker mot ögonen.",
+        "Den justerbara passformen beskrivs som bekväm för olika ansikten."
+      ],
+      "cautions": [
+        "Passformen är personlig – det kan ta någon natt att ställa in remmen rätt.",
+        "Formade kåpor känns ovant i början för den som är van vid platt mask."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/sovmask",
+    "cardBadge": "100% mörkläggande",
+    "cardHook": "Formade ögonkåpor blockar ljus helt utan tryck mot ögonen.",
+    "cardImage": "/products/manta-sleep-mask/sovmask-thumbnail.webp",
+    "cardImageAlt": "Manta Sleep Mask mörkläggande sovmask",
+    "badge": "Elins mörka favorit",
+    "headline": "Manta Sleep Mask – helt mörkt utan tryck mot ögonen",
+    "shortBody": "En justerbar sovmask med formade ögonkåpor som blockar ljus helt. Kåporna gör att den kan ligga mörkt utan att trycka mot ögonen, för dig som vill ha riktigt mörkt när du sover, hemma eller på resa.",
+    "valueHook": "Mörkläggande sovmask utan tryck mot ögonen",
+    "valueStatement": "Manta Sleep Mask är gjord för dig som vill ha det riktigt mörkt när du sover. De formade ögonkåporna blockar ljus helt samtidigt som de lämnar plats runt ögonen, så att masken kan kännas behaglig utan att trycka. Med en justerbar rem går passformen att anpassa efter ditt ansikte. Amazon visar 4,4 av 5 från 14443 omdömen, och köpare lyfter framför allt den effektiva mörkläggningen, att kåporna inte trycker mot ögonen och den bekväma, justerbara passformen.",
+    "passFor": [
+      "Vill ha det helt mörkt när du sover, hemma eller på resa.",
+      "Tycker vanliga sovmasker trycker obekvämt mot ögonen.",
+      "Vill kunna justera passformen efter ditt eget ansikte."
+    ],
+    "caution": "Passformen är personlig och det kan ta någon natt att ställa in remmen rätt. Är du van vid en platt mask kan de formade kåporna kännas ovana i början innan du vant dig.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Justera remmen så att kåporna sluter tätt mot ansiktet men utan att klämma. Ge dig själv ett par nätter att vänja dig vid känslan innan du bedömer hur den passar."
+    },
+    "verdict": "Genomtänkt sovmask för dig som vill ha helt mörkt utan tryck mot ögonen.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 14443 omdömen. Köpare beskriver effektiv mörkläggning och att kåporna inte trycker mot ögonen, men passformen kan ta en natt att ställa in.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur mörkläggande är Manta Sleep Mask?", "answer": "Den är gjord för att blocka ljus helt med formade ögonkåpor. Många köpare upplever att det blir riktigt mörkt, vilket är det masken är till för." },
+      { "question": "Trycker masken mot ögonen?", "answer": "Kåporna är formade så att de lämnar plats runt ögonen, vilket gör att masken kan ligga mörkt utan att trycka. Det är en av de saker köpare uppskattar mest." },
+      { "question": "Går passformen att justera?", "answer": "Ja, både remmen och ögonkåporna går att justera så att masken kan anpassas efter ditt ansikte. Det kan ta någon natt att hitta rätt inställning." }
+    ],
+    "reviewSectionId": "manta-sovmask-recensioner",
+    "reviewFormId": "manta-sovmask-skriv-recension",
+    "targetKeyword": "sovmask",
+    "metaTitle": "Manta Sleep Mask – 100% mörkläggande sovmask | Elins val",
+    "metaDescription": "Elin går igenom Manta Sleep Mask: en justerbar, 100% mörkläggande sovmask med formade ögonkåpor utan tryck mot ögonen (4,4 av 5, 14443 omdömen).",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma för en skönare miljö." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Skapa en lugn doftkuliss i rummet." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt, mjukt ljus för en avkopplad kväll." }
+    ]
+  },
+  "images": {
+    "dir": "manta-sleep-mask",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/91j-EDBgLGL._SL1500_.jpg", "out": "sovmask-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51mmrmQGHcL._SL1500_.jpg", "out": "sovmask-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41nyAZy146L._SL1500_.jpg", "out": "sovmask-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/413ih+BUFUL._SL1500_.jpg", "out": "sovmask-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Manta Sleep Mask – 100% mörkläggande sovmask", "href": "/halsa/sovmask", "date": "2026-06-27", "image": "/products/manta-sleep-mask/sovmask-thumbnail.webp", "blurb": "Justerbar sovmask med formade ögonkåpor som blockar ljus helt utan tryck mot ögonen." }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "exportName": "wetBrushOriginalProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårstyling (verktyg)",
+  "route": "skonhet/wet-brush",
+  "pageComponentName": "WetBrushPage",
+  "product": {
+    "slug": "wet-brush-original",
+    "title": "Wet Brush Original Detangler – utredningsborste",
+    "category": "skonhet",
+    "asin": "B005LPN8R6",
+    "brand": "Wet Brush",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Flexibla borst", "Blött & torrt hår", "Mindre drag"],
+    "image": "/products/wet-brush/wet-brush-thumbnail.webp",
+    "imageAlt": "Wet Brush Original Detangler utredningsborste",
+    "images": [
+      { "src": "/products/wet-brush/wet-brush-thumbnail.webp", "alt": "Wet Brush Original Detangler utredningsborste", "label": "Wet Brush" },
+      { "src": "/products/wet-brush/wet-brush-1.webp", "alt": "Wet Brush med flexibla borst som reder ut tovor", "label": "Flexibla borst" },
+      { "src": "/products/wet-brush/wet-brush-2.webp", "alt": "Wet Brush utredningsborste för blött och torrt hår", "label": "Blött & torrt" },
+      { "src": "/products/wet-brush/wet-brush-3.webp", "alt": "Detaljbild av Wet Brush Original Detangler", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4wdwg5o",
+    "pageHref": "/skonhet/wet-brush",
+    "summary": "En utredningsborste med flexibla borst som reder ut tovor skonsamt på både blött och torrt hår. Gjord för mindre drag och en mjukare borstupplevelse, även i trassligt hår.",
+    "evaluation": {
+      "headline": "Reder ut tovor med mindre drag",
+      "intro": "Elin går igenom Wet Brush Original Detangler: en utredningsborste med flexibla borst som glider genom håret och reder ut tovor skonsamt. Den är populär för att kunna användas på både blött och torrt hår, vilket gör den mångsidig i den dagliga rutinen.",
+      "verdict": "Skonsam utredningsborste för mindre drag på blött och torrt hår.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårstyling (verktyg)",
+    "specSectionTitle": "Wet Brush Original Detangler",
+    "specs": [
+      { "label": "Typ", "caption": "Verktyg", "value": "Utredningsborste" },
+      { "label": "Borst", "caption": "Funktion", "value": "Flexibla borst, mindre drag" },
+      { "label": "Användning", "caption": "Hår", "value": "Blött och torrt hår" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4wdwg5o",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 23433 omdömen.",
+      "highlights": [
+        "Köpare upplever att tovor reds ut med mindre drag och smärta.",
+        "Uppskattas för att kunna användas på både blött och torrt hår.",
+        "Många tycker att borsten glider mjukt genom håret."
+      ],
+      "cautions": [
+        "Flexibla borst passar utredning men ger mindre stadga vid styling.",
+        "Mycket trassligt hår kan behöva delas upp i sektioner för bästa resultat."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/wet-brush",
+    "cardBadge": "Mindre drag",
+    "cardHook": "Flexibla borst som reder ut tovor skonsamt på blött och torrt hår.",
+    "cardImage": "/products/wet-brush/wet-brush-thumbnail.webp",
+    "cardImageAlt": "Wet Brush Original Detangler utredningsborste",
+    "badge": "Elins utredningsfavorit",
+    "headline": "Wet Brush Original – reder ut tovor skonsamt",
+    "shortBody": "En utredningsborste med flexibla borst som glider genom håret och reder ut tovor med mindre drag. Fungerar på både blött och torrt hår och passar fint i den dagliga rutinen.",
+    "valueHook": "Reder ut tovor med mindre drag",
+    "valueStatement": "Wet Brush Original Detangler är en utredningsborste för dig som vill borsta ut tovor skonsamt utan onödigt drag. De flexibla borsten ger efter och glider genom håret, vilket gör den behaglig att använda på både blött och torrt hår. Amazon visar 4,7 av 5 från 23433 omdömen, och köpare lyfter framför allt det mindre draget, mångsidigheten och hur mjukt borsten tar sig genom trassligt hår.",
+    "passFor": [
+      "Vill reda ut tovor med mindre drag i den dagliga rutinen.",
+      "Borstar håret både blött efter dusch och torrt.",
+      "Söker en mjukare borstupplevelse för trassligt hår."
+    ],
+    "caution": "Flexibla borst är gjorda för utredning och ger mindre stadga vid formande styling. Mycket trassligt hår kan behöva delas upp i mindre sektioner för bästa resultat.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Börja borsta från topparna och arbeta dig uppåt mot rötterna i mindre sektioner. På blött hår reds tovor ut lättare, men borsten fungerar lika fint på torrt hår."
+    },
+    "verdict": "Skonsam utredningsborste för mindre drag på blött och torrt hår.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 23433 omdömen. Köpare beskriver mindre drag och en mjuk borstupplevelse, men flexibla borst ger mindre stadga vid styling.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Kan jag använda Wet Brush på blött hår?", "answer": "Ja, den är gjord för att fungera på både blött och torrt hår. På blött hår reds tovor ofta ut lättare, men borsten tar sig fint genom torrt hår också." },
+      { "question": "Hur borstar jag ut tovor med minst drag?", "answer": "Börja från topparna och arbeta dig uppåt mot rötterna i mindre sektioner. Då reds tovor ut bit för bit med mindre drag." },
+      { "question": "Passar Wet Brush till styling?", "answer": "Den är främst en utredningsborste med flexibla borst. För formande styling ger borst med mer stadga bättre grepp, men för att reda ut tovor är den mjuk och skonsam." }
+    ],
+    "reviewSectionId": "wet-brush-original-recensioner",
+    "reviewFormId": "wet-brush-original-skriv-recension",
+    "targetKeyword": "wet brush utredningsborste",
+    "metaTitle": "Wet Brush Original Detangler – utredningsborste | Elins val",
+    "metaDescription": "Elin går igenom Wet Brush Original Detangler: flexibla borst som reder ut tovor skonsamt på blött och torrt hår (4,7 av 5, 23433 omdömen) – och vad du bör veta om mindre drag.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Lägg till lyster och mjukhet i längderna." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret innan du värmestylar." }
+    ]
+  },
+  "images": {
+    "dir": "wet-brush",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61rewWtNBCL._SL1500_.jpg", "out": "wet-brush-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31V7FpvP07L._SL1500_.jpg", "out": "wet-brush-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31g6qn9KMaL._SL1500_.jpg", "out": "wet-brush-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51eAJwm6NTL._SL1500_.jpg", "out": "wet-brush-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Wet Brush Original Detangler", "href": "/skonhet/wet-brush", "date": "2026-06-27", "image": "/products/wet-brush/wet-brush-thumbnail.webp", "blurb": "Utredningsborste med flexibla borst som reder ut tovor skonsamt på blött och torrt hår." }
+  ]
+}

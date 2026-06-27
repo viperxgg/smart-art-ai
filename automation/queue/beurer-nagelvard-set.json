@@ -1,0 +1,111 @@
+{
+  "exportName": "beurerManiPediProduct",
+  "category": "skonhet",
+  "categoryGroup": "Naglar",
+  "route": "skonhet/nagelvard-set",
+  "pageComponentName": "NagelvardSetPage",
+  "product": {
+    "slug": "beurer-nagelvard-set",
+    "title": "Beurer MP 62 manikyr- och pedikyrset",
+    "category": "skonhet",
+    "asin": "B00N9BOOZ4",
+    "brand": "Beurer",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Elektriskt set", "Flera sliphuvuden", "Mani & pedi"],
+    "image": "/products/beurer-mani-pedi/beurer-mp62-thumbnail.webp",
+    "imageAlt": "Beurer MP 62 manikyr- och pedikyrset",
+    "images": [
+      { "src": "/products/beurer-mani-pedi/beurer-mp62-thumbnail.webp", "alt": "Beurer MP 62 manikyr- och pedikyrset", "label": "Mani & pedi" },
+      { "src": "/products/beurer-mani-pedi/beurer-mp62-1.webp", "alt": "Beurer MP 62 med flera sliphuvuden för naglar", "label": "Sliphuvuden" },
+      { "src": "/products/beurer-mani-pedi/beurer-mp62-2.webp", "alt": "Beurer MP 62 elektriskt nagelvård-set i bruk", "label": "Elektriskt" },
+      { "src": "/products/beurer-mani-pedi/beurer-mp62-3.webp", "alt": "Detaljbild av Beurer MP 62 manikyr- och pedikyrset", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3R9jqWN",
+    "pageHref": "/skonhet/nagelvard-set",
+    "summary": "Ett elektriskt mani- och pedikyrset med flera sliphuvuden för naglar och förhårdnader. Gör det enkelt att fila, forma och putsa naglar hemma – ett praktiskt allt-i-ett-set för nagelvård.",
+    "evaluation": {
+      "headline": "Elektriskt mani- och pedikyrset för hemmabruk",
+      "intro": "Elin går igenom Beurer MP 62: ett elektriskt nagelvård-set med flera utbytbara sliphuvuden för naglar och förhårdnader. Setet är gjort för att göra det enkelt att fila, forma och putsa naglar både på händer och fötter hemma.",
+      "verdict": "Praktiskt elektriskt mani- och pedikyrset för enkel nagelvård hemma.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Beurer MP 62 manikyr- och pedikyrset",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Elektriskt mani-/pedikyrset" },
+      { "label": "Innehåll", "caption": "Tillbehör", "value": "Flera utbytbara sliphuvuden" },
+      { "label": "Profil", "caption": "Nagelvård", "value": "Naglar och förhårdnader" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3R9jqWN",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 16304 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att flera sliphuvuden täcker både naglar och förhårdnader.",
+        "Många tycker det är enkelt att fila och forma naglar hemma.",
+        "Smidigt format som de flesta tycker känns hanterbart att hålla i."
+      ],
+      "cautions": [
+        "Det tar lite övning att hitta rätt sliphuvud och tryck i början.",
+        "Sliphuvuden för förhårdnader bör användas varsamt och i korta pass."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/nagelvard-set",
+    "cardBadge": "Mani & pedi",
+    "cardHook": "Elektriskt set med flera sliphuvuden för naglar och förhårdnader.",
+    "cardImage": "/products/beurer-mani-pedi/beurer-mp62-thumbnail.webp",
+    "cardImageAlt": "Beurer MP 62 manikyr- och pedikyrset",
+    "badge": "Elins nagelvårdsfavorit",
+    "headline": "Beurer MP 62 – elektriskt mani- och pedikyrset",
+    "shortBody": "Ett elektriskt nagelvård-set med flera utbytbara sliphuvuden för naglar och förhårdnader. Gör det enkelt att fila, forma och putsa naglar hemma, både på händer och fötter.",
+    "valueHook": "Flera sliphuvuden för naglar och fötter",
+    "valueStatement": "Beurer MP 62 är ett elektriskt mani- och pedikyrset för dig som vill sköta naglarna hemma. Med flera utbytbara sliphuvuden kan du fila, forma och putsa naglar och jobba med förhårdnader på fötterna. Det är ett praktiskt allt-i-ett-set som gör det enkelt att hålla naglarna i ordning. Amazon visar 4,5 av 5 från 16304 omdömen, och köpare lyfter framför allt bredden av sliphuvuden och hur enkelt det är att använda hemma.",
+    "passFor": [
+      "Vill sköta mani och pedi hemma utan salongsbesök.",
+      "Föredrar ett elektriskt set med flera sliphuvuden.",
+      "Vill kunna jobba med både naglar och förhårdnader."
+    ],
+    "caution": "Det tar lite övning att hitta rätt sliphuvud och lagom tryck i början. Använd sliphuvuden för förhårdnader varsamt och i korta pass, och upplevelsen varierar mellan olika naglar och fötter.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Börja med ett mildare sliphuvud och lågt tryck på rena, torra naglar. Jobba i korta pass och byt huvud efter behov – det är lättare att ta lite i taget än att slipa för mycket på en gång."
+    },
+    "verdict": "Praktiskt elektriskt mani- och pedikyrset för enkel nagelvård hemma.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 16304 omdömen. Köpare beskriver ett mångsidigt set som är enkelt att använda hemma, men det tar lite övning att hitta rätt sliphuvud och tryck.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad ingår i Beurer MP 62?", "answer": "Setet är ett elektriskt mani- och pedikyrset med flera utbytbara sliphuvuden för naglar och förhårdnader, så du kan fila, forma och putsa både på händer och fötter." },
+      { "question": "Är det svårt att använda hemma?", "answer": "De flesta tycker det är enkelt, men det tar lite övning att hitta rätt sliphuvud och lagom tryck. Börja mildt och jobba i korta pass." },
+      { "question": "Kan jag använda det på fötterna?", "answer": "Ja, setet är ett kombinerat mani- och pedikyrset med sliphuvuden gjorda för både naglar och förhårdnader. Använd huvudena för förhårdnader varsamt." }
+    ],
+    "reviewSectionId": "beurer-nagelvard-set-recensioner",
+    "reviewFormId": "beurer-nagelvard-set-skriv-recension",
+    "targetKeyword": "elektrisk nagelvård-set",
+    "metaTitle": "Beurer MP 62 mani- & pedikyrset – elektrisk nagelvård | Elins val",
+    "metaDescription": "Elin går igenom Beurer MP 62: ett elektriskt mani- och pedikyrset med flera sliphuvuden för naglar och förhårdnader (4,5 av 5, 16304 omdömen) – och hur du använder det rätt.",
+    "relatedLinks": [
+      { "href": "/skonhet/elektrisk-fotfil", "label": "Elektrisk fotfil", "text": "Slipa bort hård hud på fötterna." },
+      { "href": "/skonhet/foot-peel-mask", "label": "Foot peel mask", "text": "Mjukgörande fotmask för slätare fötter." },
+      { "href": "/skonhet/halkram", "label": "Hälkräm", "text": "Mjukgör torra hälar efter pedikyren." }
+    ]
+  },
+  "images": {
+    "dir": "beurer-mani-pedi",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81vM2DSZKiL._SL1500_.jpg", "out": "beurer-mp62-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41MmQGm+fRL._SL1500_.jpg", "out": "beurer-mp62-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41Lwj6NaDXL._SL1500_.jpg", "out": "beurer-mp62-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/613va8NONAL._SL1500_.jpg", "out": "beurer-mp62-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Beurer MP 62 manikyr- och pedikyrset", "href": "/skonhet/nagelvard-set", "date": "2026-06-27", "image": "/products/beurer-mani-pedi/beurer-mp62-thumbnail.webp", "blurb": "Elektriskt mani- och pedikyrset med flera sliphuvuden för naglar och förhårdnader." }
+  ]
+}

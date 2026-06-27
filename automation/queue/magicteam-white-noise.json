@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "magicteamWhiteNoiseProduct",
+  "category": "halsa",
+  "categoryGroup": "Sömn & avkoppling",
+  "route": "halsa/white-noise",
+  "pageComponentName": "WhiteNoisePage",
+  "product": {
+    "slug": "magicteam-white-noise",
+    "title": "Magicteam white noise-maskin (40 ljud)",
+    "category": "halsa",
+    "asin": "B07RQWQBXY",
+    "brand": "Magicteam",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["40 ljud", "För sömn & fokus", "Lugn ljudkuliss"],
+    "image": "/products/magicteam-white-noise/whitenoise-thumbnail.webp",
+    "imageAlt": "Magicteam white noise-maskin med 40 ljud",
+    "images": [
+      { "src": "/products/magicteam-white-noise/whitenoise-thumbnail.webp", "alt": "Magicteam white noise-maskin med 40 ljud", "label": "White noise" },
+      { "src": "/products/magicteam-white-noise/whitenoise-1.webp", "alt": "Magicteam white noise-maskin med knappar och kontroller", "label": "Enkla kontroller" },
+      { "src": "/products/magicteam-white-noise/whitenoise-2.webp", "alt": "Magicteam white noise-maskin sett från sidan", "label": "Kompakt" },
+      { "src": "/products/magicteam-white-noise/whitenoise-3.webp", "alt": "Detaljbild av Magicteam white noise-maskin", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4aoe14I",
+    "pageHref": "/halsa/white-noise",
+    "summary": "En white noise-maskin med många olika ljud som ger en lugn ljudkuliss för sömn och fokus. Smidig att ställa in och kompakt nog att ha på nattduksbordet eller skrivbordet.",
+    "evaluation": {
+      "headline": "Lugn ljudkuliss för sömn och fokus",
+      "intro": "Elin går igenom Magicteam white noise-maskin: 40 ljud att välja bland, från jämnt brus till mjuka naturljud. Tanken är att skapa en jämn, lugn ljudkuliss som hjälper till att dämpa störande ljud när du vill sova eller fokusera.",
+      "verdict": "Prisvärd white noise-maskin med många ljud för en lugnare ljudmiljö.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Sömn & avkoppling",
+    "specSectionTitle": "Magicteam white noise-maskin",
+    "specs": [
+      { "label": "Ljud", "caption": "Urval", "value": "40 olika ljud" },
+      { "label": "Användning", "caption": "Tillfälle", "value": "Sömn, fokus och avkoppling" },
+      { "label": "Format", "caption": "Storlek", "value": "Kompakt för nattduksbord" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4aoe14I",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 11312 omdömen.",
+      "highlights": [
+        "Köpare uppskattar det stora utbudet av ljud att välja bland.",
+        "Många tycker den skapar en skön, jämn ljudkuliss i rummet.",
+        "Beskrivs som enkel att ställa in och lagom kompakt."
+      ],
+      "cautions": [
+        "Vad som känns avkopplande är personligt – testa dig fram bland ljuden.",
+        "Vissa vill ha en timer eller automatisk avstängning, så kolla inställningarna."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/white-noise",
+    "cardBadge": "40 ljud",
+    "cardHook": "Lugn ljudkuliss för sömn och fokus, med många ljud att välja bland.",
+    "cardImage": "/products/magicteam-white-noise/whitenoise-thumbnail.webp",
+    "cardImageAlt": "Magicteam white noise-maskin med 40 ljud",
+    "badge": "Elins lugna val",
+    "headline": "Magicteam white noise – lugn ljudkuliss för sömn och fokus",
+    "shortBody": "En white noise-maskin med 40 ljud som skapar en jämn, lugn ljudkuliss. Smidig att ställa in och kompakt nog för nattduksbordet, för dig som vill ha en skönare ljudmiljö när du sover eller fokuserar.",
+    "valueHook": "Lugn ljudkuliss för sömn och fokus",
+    "valueStatement": "Magicteam white noise-maskin är gjord för dig som vill ha en jämnare, lugnare ljudmiljö hemma. Med 40 ljud att välja bland kan du hitta en ljudkuliss som passar dig, oavsett om du vill varva ner på kvällen eller fokusera vid skrivbordet. Amazon visar 4,4 av 5 från 11312 omdömen, och köpare lyfter framför allt det stora ljudutbudet, den sköna jämna ljudbilden och hur enkel den är att ställa in.",
+    "passFor": [
+      "Vill ha en lugn ljudkuliss när du sover eller varvar ner.",
+      "Gillar att kunna välja mellan många olika ljud.",
+      "Vill ha en kompakt maskin för nattduksbord eller skrivbord."
+    ],
+    "caution": "Vad som känns avkopplande är personligt, så testa dig fram bland ljuden för att hitta din favorit. Vill du att den ska stänga av sig själv på natten är det värt att kolla timer- och avstängningsinställningarna.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ställ maskinen en bit ifrån sängen och börja på en låg volym. Prova några olika ljud under ett par kvällar tills du hittar en ljudkuliss som känns skön och jämn."
+    },
+    "verdict": "Prisvärd white noise-maskin med många ljud för en lugnare ljudmiljö.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 11312 omdömen. Köpare beskriver ett stort ljudutbud och en skön jämn ljudkuliss, men vad som känns avkopplande är personligt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad är en white noise-maskin?", "answer": "Det är en liten apparat som spelar upp jämna ljud, till exempel brus eller naturljud. Tanken är att skapa en lugn, jämn ljudkuliss som dämpar störande ljud i rummet." },
+      { "question": "Hur många ljud har Magicteam-maskinen?", "answer": "Den har 40 olika ljud att välja bland, från jämnt brus till mjukare naturljud. Då kan du hitta en ljudbild som känns skön för just dig." },
+      { "question": "Var passar den bäst att stå?", "answer": "Den är kompakt och passar bra på nattduksbordet eller skrivbordet. Ställ den gärna en bit ifrån dig och börja på låg volym för en behaglig ljudkuliss." }
+    ],
+    "reviewSectionId": "magicteam-white-noise-recensioner",
+    "reviewFormId": "magicteam-white-noise-skriv-recension",
+    "targetKeyword": "white noise maskin",
+    "metaTitle": "Magicteam white noise-maskin – 40 ljud för sömn & fokus | Elins val",
+    "metaDescription": "Elin går igenom Magicteam white noise-maskin: 40 ljud för en lugn ljudkuliss till sömn och fokus (4,4 av 5, 11312 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma för en skönare miljö." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Skapa en lugn doftkuliss i rummet." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt, mjukt ljus för en avkopplad kväll." }
+    ]
+  },
+  "images": {
+    "dir": "magicteam-white-noise",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71V+ufVRWQL._SL1500_.jpg", "out": "whitenoise-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41Yjb37KHcL._SL1500_.jpg", "out": "whitenoise-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/4120nuG+IEL._SL1500_.jpg", "out": "whitenoise-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41YdO0PL+0L._SL1500_.jpg", "out": "whitenoise-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Magicteam white noise-maskin (40 ljud)", "href": "/halsa/white-noise", "date": "2026-06-27", "image": "/products/magicteam-white-noise/whitenoise-thumbnail.webp", "blurb": "White noise-maskin med 40 ljud för en lugn ljudkuliss till sömn och fokus." }
+  ]
+}

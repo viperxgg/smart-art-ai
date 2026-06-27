@@ -1,0 +1,109 @@
+{
+  "exportName": "cantuSatinBonnetProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårstyling (verktyg)",
+  "route": "skonhet/satinmossa",
+  "pageComponentName": "SatinmossaPage",
+  "product": {
+    "slug": "cantu-satin-bonnet",
+    "title": "Cantu Satin Nightcap – satinmössa",
+    "category": "skonhet",
+    "asin": "B0B4SKR9TN",
+    "brand": "Cantu",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Satin", "För natten", "Mindre frizz"],
+    "image": "/products/cantu-bonnet/cantu-bonnet-thumbnail.webp",
+    "imageAlt": "Cantu Satin Nightcap satinmössa för håret på natten",
+    "images": [
+      { "src": "/products/cantu-bonnet/cantu-bonnet-thumbnail.webp", "alt": "Cantu Satin Nightcap satinmössa för håret på natten", "label": "Satinmössa" },
+      { "src": "/products/cantu-bonnet/cantu-bonnet-1.webp", "alt": "Cantu satinmössa som skyddar håret och minskar friktion mot kudden", "label": "Skyddar håret" },
+      { "src": "/products/cantu-bonnet/cantu-bonnet-2.webp", "alt": "Detaljbild av Cantu satinmössa med mjuk satininsida", "label": "Satininsida" }
+    ],
+    "amazonUrl": "https://amzn.to/43VlF2X",
+    "pageHref": "/skonhet/satinmossa",
+    "summary": "En satinmössa som du har på håret medan du sover. Den släta satinen ger mindre friktion mot kudden, vilket många använder för att hålla nere frizz och hjälpa frisyren att hålla sig bättre över natten.",
+    "evaluation": {
+      "headline": "Satinmössa som skyddar håret på natten",
+      "intro": "Elin går igenom Cantu Satin Nightcap: en mössa med slät satininsida som du sover med. Tanken är enkel – satin ger mindre friktion mot kudden än ett vanligt bomullslakan, vilket många upplever ger mindre frizz på morgonen och en frisyr som håller sig längre.",
+      "verdict": "Enkel satinmössa för dig som vill skydda håret på natten och minska frizz – men få omdömen och ett lägre betyg gör att underlaget är tunt.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Cantu Satin Nightcap",
+    "specs": [
+      { "label": "Typ", "caption": "Produkt", "value": "Satinmössa för natten" },
+      { "label": "Material", "caption": "Insida", "value": "Slät satin för mindre friktion" },
+      { "label": "Användning", "caption": "När", "value": "På håret medan du sover" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/43VlF2X",
+      "ratingSummary": "Amazon visar 3,7 av 5 från 69 omdömen.",
+      "highlights": [
+        "Den släta satinen ger mindre friktion mot kudden över natten.",
+        "Flera använder den för att hålla nere frizz på morgonen.",
+        "Smidig att ta på och bär medan du sover."
+      ],
+      "cautions": [
+        "Betyget är lägre (3,7 av 5) och bygger på få omdömen (69) – ta det som en fingervisning, inte ett facit.",
+        "Passform och storlek upplevs olika beroende på hårmängd och huvudform – kolla måtten innan du köper."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/satinmossa",
+    "cardBadge": "För natten",
+    "cardHook": "Satinmössa som ger mindre friktion och frizz medan du sover.",
+    "cardImage": "/products/cantu-bonnet/cantu-bonnet-thumbnail.webp",
+    "cardImageAlt": "Cantu Satin Nightcap satinmössa för håret på natten",
+    "badge": "Elin jämför",
+    "headline": "Cantu Satin Nightcap – satinmössa för natten",
+    "shortBody": "En enkel satinmössa som du sover med. Den släta satinen ger mindre friktion mot kudden, vilket många använder för att hålla nere frizz och låta frisyren hålla sig bättre till morgonen.",
+    "valueHook": "Skydda håret på natten med satin",
+    "valueStatement": "Cantu Satin Nightcap är en mössa med slät satininsida som du har på håret medan du sover. Idén är enkel: satin ger mindre friktion mot kudden än vanlig bomull, och många upplever att det betyder mindre frizz på morgonen och en frisyr som håller sig längre. Här ska vi vara ärliga – Amazon visar 3,7 av 5 från 69 omdömen, vilket både är ett lägre betyg och ett tunt underlag. Det gör att den passar dig som vill testa en prisvärd satinmössa, men med rimliga förväntningar.",
+    "passFor": [
+      "Vill skydda håret på natten och minska friktion mot kudden.",
+      "Märker frizz på morgonen och vill testa en enkel satinmössa.",
+      "Vill att frisyren ska hålla sig bättre över natten."
+    ],
+    "caution": "Var ärlig med förväntningarna: betyget är lägre (3,7 av 5) och bygger på få omdömen (69), så underlaget är tunt. Passformen upplevs också olika beroende på hårmängd och huvudform – kolla måtten innan du beställer.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Sätt på mössan när du lägger dig och se till att håret får plats utan att dras åt för hårt. Den släta satinen ska ligga mot håret för att minska friktionen mot kudden under natten."
+    },
+    "verdict": "Enkel satinmössa för dig som vill skydda håret på natten och minska frizz – men få omdömen och ett lägre betyg gör att underlaget är tunt.",
+    "amazonSummary": "Amazon visar 3,7 av 5 från 69 omdömen. Det är både ett lägre betyg och få omdömen, så ta siffran som en fingervisning. Köpare lyfter mindre friktion och frizz, men passformen upplevs olika.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad gör en satinmössa för håret på natten?", "answer": "Den släta satinen ger mindre friktion mot kudden än vanlig bomull. Många upplever att det betyder mindre frizz på morgonen och att frisyren håller sig bättre över natten." },
+      { "question": "Är 3,7 av 5 ett bra betyg?", "answer": "Det är ett lägre betyg, och det bygger dessutom på bara 69 omdömen. Ta det som en fingervisning snarare än ett facit, och köp med rimliga förväntningar." },
+      { "question": "Passar satinmössan alla hårtyper?", "answer": "Tanken med satin passar de flesta som vill minska friktion på natten, men passform och storlek upplevs olika beroende på hårmängd och huvudform. Kolla måtten innan du köper." }
+    ],
+    "reviewSectionId": "cantu-satin-bonnet-recensioner",
+    "reviewFormId": "cantu-satin-bonnet-skriv-recension",
+    "targetKeyword": "satinmössa bonnet",
+    "metaTitle": "Cantu Satin Nightcap – satinmössa för natten | Elins val",
+    "metaDescription": "Elin jämför Cantu Satin Nightcap: en satinmössa som ger mindre friktion och frizz på natten (3,7 av 5, 69 omdömen) – och varför du bör köpa med rimliga förväntningar.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Mjukgör och tämjer torra toppar." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret innan du värmestylar." }
+    ]
+  },
+  "images": {
+    "dir": "cantu-bonnet",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61ObJl-YWCL._SL1500_.jpg", "out": "cantu-bonnet-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31KKEoNiI8L._SL1500_.jpg", "out": "cantu-bonnet-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31gcqVIfrIL._SL1500_.jpg", "out": "cantu-bonnet-2.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Cantu Satin Nightcap – satinmössa", "href": "/skonhet/satinmossa", "date": "2026-06-27", "image": "/products/cantu-bonnet/cantu-bonnet-thumbnail.webp", "blurb": "Satinmössa som ger mindre friktion och frizz medan du sover." }
+  ]
+}

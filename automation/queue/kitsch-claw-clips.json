@@ -1,0 +1,111 @@
+{
+  "exportName": "kitschClawClipsProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårstyling (verktyg)",
+  "route": "skonhet/claw-clips",
+  "pageComponentName": "ClawClipsPage",
+  "product": {
+    "slug": "kitsch-claw-clips",
+    "title": "Kitsch Jumbo Claw Clips (2-pack)",
+    "category": "skonhet",
+    "asin": "B09GYPV213",
+    "brand": "Kitsch",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Jumbo-storlek", "För tjockt hår", "2-pack"],
+    "image": "/products/kitsch-claw-clips/kitsch-claw-thumbnail.webp",
+    "imageAlt": "Kitsch Jumbo Claw Clips, 2-pack",
+    "images": [
+      { "src": "/products/kitsch-claw-clips/kitsch-claw-thumbnail.webp", "alt": "Kitsch Jumbo Claw Clips, 2-pack", "label": "Jumbo claw clips" },
+      { "src": "/products/kitsch-claw-clips/kitsch-claw-1.webp", "alt": "Kitsch Jumbo Claw Clips i stor storlek för tjockt hår", "label": "Stor storlek" },
+      { "src": "/products/kitsch-claw-clips/kitsch-claw-2.webp", "alt": "Kitsch Jumbo Claw Clips greppar håret stadigt", "label": "Stadigt grepp" },
+      { "src": "/products/kitsch-claw-clips/kitsch-claw-3.webp", "alt": "Detaljbild av Kitsch Jumbo Claw Clips", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eyD0EZ",
+    "pageHref": "/skonhet/claw-clips",
+    "summary": "Stora kloklämmor i 2-pack som håller upp tjockt hår stadigt och snyggt. Jumbo-storleken ger ett rejält grepp för en uppsatt look som sitter hela dagen.",
+    "evaluation": {
+      "headline": "Jumbo-klämmor som håller tjockt hår på plats",
+      "intro": "Elin går igenom Kitsch Jumbo Claw Clips: stora kloklämmor i 2-pack som är gjorda för att hålla upp tjockt och rikligt hår stadigt och snyggt. Jumbo-storleken ger ett rejält grepp, och den enkla designen passar både en vardaglig knut och en mer uppsatt look.",
+      "verdict": "Rejäla jumbo-klämmor för tjockt hår, i ett praktiskt 2-pack.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårstyling (verktyg)",
+    "specSectionTitle": "Kitsch Jumbo Claw Clips",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Kloklämmor, 2-pack" },
+      { "label": "Storlek", "caption": "Mått", "value": "Jumbo, för tjockt hår" },
+      { "label": "Profil", "caption": "Hårstyling", "value": "Stadigt grepp, vardag till uppsatt" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eyD0EZ",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 850 omdömen.",
+      "highlights": [
+        "Köpare tycker att de greppar tjockt hår stadigt utan att glida.",
+        "Jumbo-storleken uppskattas för att den rymmer mycket hår.",
+        "Många gillar att de håller upp en knut snyggt hela dagen."
+      ],
+      "cautions": [
+        "Mycket stora klämmor kan kännas för rejäla för tunt eller fint hår.",
+        "Som hårverktyg i plast bör de hanteras varsamt så att tänderna inte bryts."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/claw-clips",
+    "cardBadge": "För tjockt hår",
+    "cardHook": "Jumbo-klämmor som håller upp tjockt hår stadigt och snyggt.",
+    "cardImage": "/products/kitsch-claw-clips/kitsch-claw-thumbnail.webp",
+    "cardImageAlt": "Kitsch Jumbo Claw Clips, 2-pack",
+    "badge": "Elins favorit för tjockt hår",
+    "headline": "Kitsch Jumbo Claw Clips – stadigt grepp för tjockt hår",
+    "shortBody": "Stora kloklämmor i 2-pack, gjorda för att hålla upp tjockt och rikligt hår. Jumbo-storleken ger ett rejält grepp för en uppsatt look som sitter, från vardag till lite finare.",
+    "valueHook": "Jumbo-klämmor som håller tjockt hår på plats",
+    "valueStatement": "Kitsch Jumbo Claw Clips är ett 2-pack stora kloklämmor för dig som har tjockt eller rikligt hår och vill ha ett stadigt grepp. Jumbo-storleken rymmer mycket hår och håller upp en knut snyggt under dagen, oavsett om du vill ha en avslappnad vardagslook eller något mer uppsatt. Amazon visar 4,5 av 5 från 850 omdömen, och köpare lyfter framför allt det stadiga greppet, den rejäla storleken och att de håller håret på plats utan att glida.",
+    "passFor": [
+      "Har tjockt eller rikligt hår och vill ha ett stadigt grepp.",
+      "Vill kunna sätta upp håret snabbt i en knut som sitter.",
+      "Gillar ett praktiskt 2-pack till vardag och lite finare tillfällen."
+    ],
+    "caution": "Jumbo-storleken är gjord för mycket hår och kan kännas för rejäl för tunt eller fint hår. Som klämmor i plast håller de längst om du hanterar dem varsamt så att tänderna inte bryts.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Tvinna upp håret i en lös knut och öppna klämman helt innan du sätter fast den, så fördelas greppet jämnt. För tjockt hår ger jumbo-storleken bäst hållbarhet under dagen."
+    },
+    "verdict": "Rejäla jumbo-klämmor för tjockt hår, i ett praktiskt 2-pack.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 850 omdömen. Köpare beskriver ett stadigt grepp och en rejäl storlek som håller tjockt hår på plats, men jumbo-klämmorna kan kännas för stora för tunt hår.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Passar Kitsch Jumbo Claw Clips tjockt hår?", "answer": "Ja, jumbo-storleken är gjord just för tjockt och rikligt hår. Den rymmer mycket hår och håller upp en knut stadigt under dagen." },
+      { "question": "Hur sätter jag upp håret så att klämman sitter?", "answer": "Tvinna upp håret i en lös knut och öppna klämman helt innan du fäster den, så fördelas greppet jämnt och håret sitter bättre." },
+      { "question": "Funkar de stora klämmorna även för tunt hår?", "answer": "Jumbo-storleken är anpassad för mycket hår och kan kännas för rejäl för tunt eller fint hår. Då kan en mindre klämma sitta bekvämare." }
+    ],
+    "reviewSectionId": "kitsch-claw-clips-recensioner",
+    "reviewFormId": "kitsch-claw-clips-skriv-recension",
+    "targetKeyword": "claw clips stora hårklämmor",
+    "metaTitle": "Kitsch Jumbo Claw Clips (2-pack) – stora hårklämmor | Elins val",
+    "metaDescription": "Elin går igenom Kitsch Jumbo Claw Clips: stora kloklämmor i 2-pack som håller upp tjockt hår stadigt och snyggt (4,5 av 5, 850 omdömen) – och vad du bör veta före köp.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Ge tjockt hår mer lyster och mjukhet." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret innan du värmestylar." }
+    ]
+  },
+  "images": {
+    "dir": "kitsch-claw-clips",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61Rt1PXBB+L._SL1500_.jpg", "out": "kitsch-claw-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41Ce9ZAJvyL._SL1500_.jpg", "out": "kitsch-claw-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41EUu8RCcpL._SL1500_.jpg", "out": "kitsch-claw-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41NV4Wv5geL._SL1500_.jpg", "out": "kitsch-claw-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Kitsch Jumbo Claw Clips (2-pack)", "href": "/skonhet/claw-clips", "date": "2026-06-27", "image": "/products/kitsch-claw-clips/kitsch-claw-thumbnail.webp", "blurb": "Stora kloklämmor som håller upp tjockt hår stadigt och snyggt." }
+  ]
+}

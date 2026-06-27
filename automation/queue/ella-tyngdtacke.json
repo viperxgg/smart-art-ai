@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "ellaWeightedBlanketProduct",
+  "category": "halsa",
+  "categoryGroup": "Sömn & avkoppling",
+  "route": "halsa/tyngdtacke",
+  "pageComponentName": "TyngdtackePage",
+  "product": {
+    "slug": "ella-tyngdtacke",
+    "title": "Ella tyngdtäcke 9 kg (150x200 cm)",
+    "category": "halsa",
+    "asin": "B093WY4SJ4",
+    "brand": "Ella",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["9 kg jämn tyngd", "Skön avkoppling", "150x200 cm"],
+    "image": "/products/ella-weighted-blanket/tyngdtacke-thumbnail.webp",
+    "imageAlt": "Ella tyngdtäcke 9 kg, 150x200 cm",
+    "images": [
+      { "src": "/products/ella-weighted-blanket/tyngdtacke-thumbnail.webp", "alt": "Ella tyngdtäcke 9 kg, 150x200 cm", "label": "Tyngdtäcke" },
+      { "src": "/products/ella-weighted-blanket/tyngdtacke-1.webp", "alt": "Ella tyngdtäcke med jämn, omslutande tyngd", "label": "Jämn tyngd" },
+      { "src": "/products/ella-weighted-blanket/tyngdtacke-2.webp", "alt": "Ella tyngdtäcke material och konsistens", "label": "Mjukt tyg" },
+      { "src": "/products/ella-weighted-blanket/tyngdtacke-3.webp", "alt": "Detaljbild av Ella tyngdtäcke 9 kg", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4uXriIM",
+    "pageHref": "/halsa/tyngdtacke",
+    "summary": "Ett tyngdtäcke på 9 kg (150x200 cm) som ger en jämn, omslutande tyngd för en skön och avkopplande känsla i sängen. Mjukt tyg och jämnt fördelad vikt för en lugn stund.",
+    "evaluation": {
+      "headline": "Jämn tyngd för en skön avkoppling",
+      "intro": "Elin går igenom Ella tyngdtäcke på 9 kg i storleken 150x200 cm. Tanken med ett tyngdtäcke är den jämna, omslutande tyngden som många upplever som mysig och avkopplande i sängen eller i soffan. Vikten är jämnt fördelad och tyget är mjukt mot huden.",
+      "verdict": "Mysigt tyngdtäcke för dig som vill ha en jämn, omslutande känsla och skön avkoppling.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Sömn & avkoppling",
+    "specSectionTitle": "Ella tyngdtäcke 9 kg",
+    "specs": [
+      { "label": "Vikt", "caption": "Tyngd", "value": "9 kg, jämnt fördelad" },
+      { "label": "Storlek", "caption": "Mått", "value": "150x200 cm" },
+      { "label": "Material", "caption": "Tyg", "value": "Mjukt, hudvänligt tyg" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4uXriIM",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 1 532 omdömen.",
+      "highlights": [
+        "Köpare beskriver den jämna tyngden som skön och avkopplande.",
+        "Vikten upplevs jämnt fördelad över hela täcket.",
+        "Mjukt tyg som de flesta tycker känns mysigt mot huden."
+      ],
+      "cautions": [
+        "9 kg passar inte alla – välj en vikt som känns bekväm för dig.",
+        "Ett tyngre täcke kan kännas varmt; vädra och lufta det vid behov."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/tyngdtacke",
+    "cardBadge": "Skön avkoppling",
+    "cardHook": "9 kg jämn tyngd för en omslutande och avkopplande känsla.",
+    "cardImage": "/products/ella-weighted-blanket/tyngdtacke-thumbnail.webp",
+    "cardImageAlt": "Ella tyngdtäcke 9 kg, 150x200 cm",
+    "badge": "Elins avkopplingsfavorit",
+    "headline": "Ella tyngdtäcke 9 kg – jämn tyngd och skön avkoppling",
+    "shortBody": "Ett tyngdtäcke på 9 kg i storleken 150x200 cm. Den jämnt fördelade vikten ger en omslutande känsla och det mjuka tyget gör stunden i sängen eller soffan extra mysig.",
+    "valueHook": "Jämn tyngd för en skön avkoppling",
+    "valueStatement": "Ella tyngdtäcke är ett tyngdtäcke på 9 kg (150x200 cm) för dig som vill ha en jämn, omslutande tyngd och en skön, avkopplande känsla i sängen. Vikten är jämnt fördelad och tyget är mjukt mot huden, vilket många upplever som mysigt och lugnande. Amazon visar 4,5 av 5 från 1 532 omdömen, och köpare lyfter framför allt den jämna tyngden, den omslutande känslan och det mjuka tyget.",
+    "passFor": [
+      "Vill ha en jämn, omslutande tyngd för en skön avkoppling i sängen.",
+      "Gillar känslan av ett mysigt täcke i soffan på kvällen.",
+      "Letar efter ett tyngdtäcke i storleken 150x200 cm på 9 kg."
+    ],
+    "caution": "9 kg passar inte alla och upplevelsen varierar från person till person. Välj en vikt som känns bekväm för dig, och vädra täcket vid behov eftersom ett tyngre täcke kan kännas varmt.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Lägg tyngdtäcket över dig i sängen eller soffan när du vill koppla av. Börja gärna med kortare stunder för att vänja dig vid känslan, och välj en vikt som känns bekväm för just dig."
+    },
+    "verdict": "Mysigt tyngdtäcke för dig som vill ha en jämn, omslutande känsla och skön avkoppling.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 1 532 omdömen. Köpare beskriver en jämn, omslutande tyngd och ett mjukt tyg, men 9 kg passar inte alla – välj en vikt som känns bekväm.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur tungt ska ett tyngdtäcke vara?", "answer": "Det handlar om vad som känns bekvämt för dig. Ella tyngdtäcke väger 9 kg, och många väljer en vikt utifrån egen preferens. Börja gärna med kortare stunder för att vänja dig vid känslan." },
+      { "question": "Vilken storlek har Ella tyngdtäcke?", "answer": "Täcket har måtten 150x200 cm och väger 9 kg, med vikten jämnt fördelad över hela täcket för en omslutande känsla." },
+      { "question": "Kan ett tyngdtäcke kännas varmt?", "answer": "Ett tyngre täcke kan upplevas varmare än ett vanligt täcke. Vädra och lufta det vid behov, och anpassa efter hur varmt du har det i sovrummet." }
+    ],
+    "reviewSectionId": "ella-tyngdtacke-recensioner",
+    "reviewFormId": "ella-tyngdtacke-skriv-recension",
+    "targetKeyword": "tyngdtäcke",
+    "metaTitle": "Ella tyngdtäcke 9 kg (150x200 cm) – jämn tyngd & avkoppling | Elins val",
+    "metaDescription": "Elin går igenom Ella tyngdtäcke 9 kg (150x200 cm): jämn, omslutande tyngd för en skön avkoppling (4,5 av 5, 1 532 omdömen) – och vad du bör veta innan du väljer.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft för ett skönare sovrum." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Lugn doft för en avkopplande kvällsrutin." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Mjukt ljus för en lugn stund innan läggdags." }
+    ]
+  },
+  "images": {
+    "dir": "ella-weighted-blanket",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/717Cp6r9gwL._SL1500_.jpg", "out": "tyngdtacke-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41TMG5XTCfL._SL1500_.jpg", "out": "tyngdtacke-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41qfj0i8E2L._SL1500_.jpg", "out": "tyngdtacke-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51XPkJVdRGL._SL1500_.jpg", "out": "tyngdtacke-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Ella tyngdtäcke 9 kg (150x200 cm)", "href": "/halsa/tyngdtacke", "date": "2026-06-27", "image": "/products/ella-weighted-blanket/tyngdtacke-thumbnail.webp", "blurb": "Tyngdtäcke med jämn, omslutande tyngd för en skön avkoppling." }
+  ]
+}

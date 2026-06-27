@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "beurerHeatingPadProduct",
+  "category": "halsa",
+  "categoryGroup": "Återhämtning",
+  "route": "halsa/varmedyna",
+  "pageComponentName": "VarmedynaPage",
+  "product": {
+    "slug": "beurer-varmedyna",
+    "title": "Beurer HK Comfort värmedyna",
+    "category": "halsa",
+    "asin": "B00AAW1VKQ",
+    "brand": "Beurer",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Skön värme", "Mjukt tyg", "Rygg, mage & axlar"],
+    "image": "/products/beurer-varmedyna/varmedyna-thumbnail.webp",
+    "imageAlt": "Beurer HK Comfort värmedyna i mjukt tyg",
+    "images": [
+      { "src": "/products/beurer-varmedyna/varmedyna-thumbnail.webp", "alt": "Beurer HK Comfort värmedyna i mjukt tyg", "label": "Värmedyna" },
+      { "src": "/products/beurer-varmedyna/varmedyna-1.webp", "alt": "Beurer HK Comfort värmedyna med flera värmelägen", "label": "Värmelägen" },
+      { "src": "/products/beurer-varmedyna/varmedyna-2.webp", "alt": "Beurer värmedyna mot rygg för en avkopplande känsla", "label": "För ryggen" },
+      { "src": "/products/beurer-varmedyna/varmedyna-3.webp", "alt": "Detaljbild av Beurer HK Comfort värmedyna", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4oOQYpL",
+    "pageHref": "/halsa/varmedyna",
+    "summary": "En mjuk värmedyna som ger skön värme och en avkopplande känsla för rygg, mage eller axlar. Lägg den tillrätta i soffan, välj värmeläge och luta dig tillbaka för en lugn, varm stund. Tänk komfort och avkoppling – inte en ersättning för vård.",
+    "evaluation": {
+      "headline": "Mjuk värmedyna för en avkopplande stund",
+      "intro": "Elin går igenom Beurer HK Comfort värmedyna: ett mjukt tyg och flera värmelägen som ger skön värme och en avkopplande känsla för rygg, mage eller axlar. Det är en behändig dyna att ta fram i soffan när du vill unna dig en lugn, varm stund. Den är gjord för komfort och avkoppling.",
+      "verdict": "Mysig, mjuk värmedyna för skön värme och en avkopplande stund hemma.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Återhämtning",
+    "specSectionTitle": "Beurer HK Comfort värmedyna",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Värmedyna i mjukt tyg" },
+      { "label": "Funktion", "caption": "Känsla", "value": "Flera värmelägen för skön värme" },
+      { "label": "Placering", "caption": "Komfort", "value": "Rygg, mage eller axlar" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4oOQYpL",
+      "ratingSummary": "Amazon visar 4,1 av 5 från 4981 omdömen.",
+      "highlights": [
+        "Många tycker att den ger en skön, avkopplande värme för rygg och mage.",
+        "Det mjuka tyget uppskattas för en mysig känsla mot kroppen.",
+        "Behändig att ta fram i soffan eller sängen för en lugn stund."
+      ],
+      "cautions": [
+        "Upplevelsen av värmenivåerna varierar – vissa tycker högsta läget blir för varmt, andra lagom.",
+        "Det är en komfortprodukt för värme och avkoppling, inte en ersättning för vård eller behandling."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/varmedyna",
+    "cardBadge": "Skön värme",
+    "cardHook": "Mjuk värmedyna för en avkopplande, varm stund.",
+    "cardImage": "/products/beurer-varmedyna/varmedyna-thumbnail.webp",
+    "cardImageAlt": "Beurer HK Comfort värmedyna i mjukt tyg",
+    "badge": "Elins värme-favorit",
+    "headline": "Beurer HK Comfort – mjuk värmedyna",
+    "shortBody": "En mjuk värmedyna med flera värmelägen som ger skön värme och en avkopplande känsla för rygg, mage eller axlar. Lägg den tillrätta i soffan, välj värmeläge och luta dig tillbaka för en lugn, varm stund.",
+    "valueHook": "Skön värme för en avkopplande stund",
+    "valueStatement": "Beurer HK Comfort värmedyna är för dig som vill unna dig skön värme och en avkopplande känsla hemma. Det mjuka tyget och flera värmelägen gör den behaglig mot rygg, mage eller axlar, och den är lätt att ta fram i soffan eller sängen. Amazon visar 4,1 av 5 från 4981 omdömen, och köpare lyfter framför allt den sköna värmen och det mjuka tyget – även om upplevelsen av värmenivåerna varierar. Se den som en komfortprodukt för värme och avkoppling.",
+    "passFor": [
+      "Vill ha skön värme och en avkopplande känsla för rygg, mage eller axlar.",
+      "Söker en mjuk dyna att ta fram i soffan eller sängen på kvällen.",
+      "Gillar tanken på flera värmelägen för en lugn, varm stund."
+    ],
+    "caution": "Upplevelsen av värmenivåerna varierar – vissa tycker högsta läget blir för varmt, andra lagom. Börja på ett lägre läge och känn efter. Den är gjord för komfort och avkoppling, inte som en ersättning för vård eller behandling.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Lägg värmedynan tillrätta mot rygg, mage eller axlar i soffan eller sängen. Börja på ett lägre värmeläge och höj vid behov tills det känns skönt och lagom varmt. Luta dig tillbaka och låt värmen ge en lugn, avkopplande stund."
+    },
+    "verdict": "Mysig, mjuk värmedyna för skön värme och en avkopplande stund hemma.",
+    "amazonSummary": "Amazon visar 4,1 av 5 från 4981 omdömen. Köpare beskriver en skön, avkopplande värme och uppskattar det mjuka tyget, men upplevelsen av värmenivåerna varierar – vissa tycker högsta läget blir för varmt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Var kan jag använda Beurer värmedyna?", "answer": "Den passar för rygg, mage eller axlar. Lägg den tillrätta i soffan eller sängen och välj värmeläge för en skön, avkopplande känsla. Den är gjord för komfort och avkoppling." },
+      { "question": "Hur varm blir värmedynan?", "answer": "Den har flera värmelägen. Upplevelsen varierar – vissa tycker högsta läget blir för varmt, andra lagom. Börja på ett lägre läge och höj tills det känns skönt." },
+      { "question": "Är värmedynan mjuk mot kroppen?", "answer": "Ja, det mjuka tyget uppskattas av många för en mysig känsla mot kroppen. Det gör den behaglig att lägga tillrätta mot rygg, mage eller axlar." }
+    ],
+    "reviewSectionId": "beurer-varmedyna-recensioner",
+    "reviewFormId": "beurer-varmedyna-skriv-recension",
+    "targetKeyword": "värmedyna",
+    "metaTitle": "Beurer HK Comfort värmedyna – skön värme & komfort | Elins val",
+    "metaDescription": "Elin går igenom Beurer HK Comfort värmedyna: mjukt tyg och flera värmelägen för en avkopplande, varm stund (4,1 av 5, 4981 omdömen) – och hur du använder den rätt.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft inomhus för en skönare känsla." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Mjuk doft och fukt för en lugn stämning." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt, avkopplande ljus för kvällsmyset." }
+    ]
+  },
+  "images": {
+    "dir": "beurer-varmedyna",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81H6y0dm5QL._SL1500_.jpg", "out": "varmedyna-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51T4v7d7rsL._SL1500_.jpg", "out": "varmedyna-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41JsDJVXU2L._SL1500_.jpg", "out": "varmedyna-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41jvgXdegCL._SL1500_.jpg", "out": "varmedyna-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Beurer HK Comfort värmedyna", "href": "/halsa/varmedyna", "date": "2026-06-27", "image": "/products/beurer-varmedyna/varmedyna-thumbnail.webp", "blurb": "Mjuk värmedyna för skön värme och en avkopplande känsla för rygg, mage eller axlar." }
+  ]
+}

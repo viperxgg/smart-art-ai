@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "loopQuietProduct",
+  "category": "halsa",
+  "categoryGroup": "Sömn & avkoppling",
+  "route": "halsa/oronproppar",
+  "pageComponentName": "OronpropparPage",
+  "product": {
+    "slug": "loop-oronproppar",
+    "title": "Loop Quiet 2 öronproppar för sömn",
+    "category": "halsa",
+    "asin": "B0D3V61JC8",
+    "brand": "Loop",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Återanvändbara", "Dämpar ljud", "För sömn, fokus & resor"],
+    "image": "/products/loop-quiet/oronproppar-thumbnail.webp",
+    "imageAlt": "Loop Quiet 2 öronproppar för sömn",
+    "images": [
+      { "src": "/products/loop-quiet/oronproppar-thumbnail.webp", "alt": "Loop Quiet 2 öronproppar för sömn", "label": "Loop Quiet 2" },
+      { "src": "/products/loop-quiet/oronproppar-1.webp", "alt": "Loop Quiet 2 öronproppar med olika öronkuddar", "label": "Flera storlekar" },
+      { "src": "/products/loop-quiet/oronproppar-2.webp", "alt": "Loop Quiet 2 öronproppar i förvaringsfodral", "label": "Fodral" },
+      { "src": "/products/loop-quiet/oronproppar-3.webp", "alt": "Detaljbild av Loop Quiet 2 öronproppar", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4ezhz6A",
+    "pageHref": "/halsa/oronproppar",
+    "summary": "Återanvändbara öronproppar som dämpar ljud för lugnare sömn, fokus och resor. Diskreta att ha i öronen och levereras med flera storlekar på öronkuddarna för en bekväm passform.",
+    "evaluation": {
+      "headline": "Dämpar ljud för lugnare sömn, fokus och resor",
+      "intro": "Elin går igenom Loop Quiet 2: återanvändbara öronproppar som dämpar ljud runt omkring dig. Tanken är en lugnare ljudmiljö när du vill sova, fokusera eller resa, med flera storlekar på öronkuddarna så att du kan hitta en passform som sitter bekvämt.",
+      "verdict": "Smidiga, återanvändbara öronproppar för en lugnare ljudmiljö.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Sömn & avkoppling",
+    "specSectionTitle": "Loop Quiet 2 öronproppar",
+    "specs": [
+      { "label": "Användning", "caption": "Tillfälle", "value": "Sömn, fokus och resor" },
+      { "label": "Passform", "caption": "Storlekar", "value": "Flera öronkuddar i kartongen" },
+      { "label": "Typ", "caption": "Material", "value": "Återanvändbara, mjuka proppar" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4ezhz6A",
+      "ratingSummary": "Amazon visar 4,1 av 5 från 28787 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att propparna dämpar ljud för en lugnare miljö.",
+        "Många tycker de sitter diskret och bekvämt även under sömn.",
+        "De olika storlekarna gör det lättare att hitta rätt passform."
+      ],
+      "cautions": [
+        "Passform och upplevd dämpning varierar mellan olika öron – prova storlekarna.",
+        "De tar inte bort allt ljud, utan dämpar det till en lugnare nivå."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/oronproppar",
+    "cardBadge": "Återanvändbara",
+    "cardHook": "Dämpar ljud för lugnare sömn, fokus och resor.",
+    "cardImage": "/products/loop-quiet/oronproppar-thumbnail.webp",
+    "cardImageAlt": "Loop Quiet 2 öronproppar för sömn",
+    "badge": "Elins lugna val",
+    "headline": "Loop Quiet 2 – dämpa ljud för lugnare sömn",
+    "shortBody": "Återanvändbara öronproppar som dämpar ljud för lugnare sömn, fokus och resor. Diskreta att ha i öronen och med flera storlekar på öronkuddarna, så att du kan hitta en passform som sitter bekvämt.",
+    "valueHook": "Dämpar ljud för lugnare sömn, fokus och resor",
+    "valueStatement": "Loop Quiet 2 är återanvändbara öronproppar för dig som vill ha en lugnare ljudmiljö. De dämpar ljud runt omkring dig så att det kan bli skönare att sova, fokusera eller resa, och de levereras med flera storlekar på öronkuddarna för en bekväm passform. Amazon visar 4,1 av 5 från 28787 omdömen, och köpare lyfter framför allt ljuddämpningen, att propparna sitter diskret och bekvämt och att det går att finjustera passformen med de olika storlekarna.",
+    "passFor": [
+      "Vill ha en lugnare ljudmiljö när du sover eller fokuserar.",
+      "Reser ofta och vill dämpa ljud på tåg, flyg eller hotell.",
+      "Föredrar återanvändbara proppar framför engångsproppar."
+    ],
+    "caution": "Passform och upplevd dämpning varierar mellan olika öron, så prova de medföljande storlekarna för att hitta rätt. Propparna tar inte bort allt ljud utan dämpar det till en lugnare nivå.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Börja med mellanstorleken och byt öronkudde tills propparna sitter tätt men bekvämt. En bra passform gör stor skillnad för hur mycket ljud du upplever att de dämpar."
+    },
+    "verdict": "Smidiga, återanvändbara öronproppar för en lugnare ljudmiljö.",
+    "amazonSummary": "Amazon visar 4,1 av 5 från 28787 omdömen. Köpare beskriver skön ljuddämpning och en diskret passform, men passform och upplevd dämpning varierar mellan öron.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad används Loop Quiet 2 till?", "answer": "De är öronproppar som dämpar ljud för en lugnare miljö. Många använder dem för sömn, fokus och resor, när de vill ha det tystare omkring sig." },
+      { "question": "Hur hittar jag rätt passform?", "answer": "Propparna levereras med flera storlekar på öronkuddarna. Prova dig fram tills de sitter tätt men bekvämt, eftersom passformen påverkar hur mycket ljud du upplever att de dämpar." },
+      { "question": "Tar propparna bort allt ljud?", "answer": "Nej, de dämpar ljudet till en lugnare nivå snarare än att ta bort det helt. Hur mycket du upplever att de dämpar varierar mellan olika öron och passformer." }
+    ],
+    "reviewSectionId": "loop-oronproppar-recensioner",
+    "reviewFormId": "loop-oronproppar-skriv-recension",
+    "targetKeyword": "öronproppar för sömn",
+    "metaTitle": "Loop Quiet 2 öronproppar för sömn – dämpar ljud | Elins val",
+    "metaDescription": "Elin går igenom Loop Quiet 2: återanvändbara öronproppar som dämpar ljud för lugnare sömn, fokus och resor (4,1 av 5, 28787 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma för en skönare miljö." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Skapa en lugn doftkuliss i rummet." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt, mjukt ljus för en avkopplad kväll." }
+    ]
+  },
+  "images": {
+    "dir": "loop-quiet",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51vun8qtNlL._SL1500_.jpg", "out": "oronproppar-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31mS8Ivu97L._SL1500_.jpg", "out": "oronproppar-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51AbMgqUAWL._SL1500_.jpg", "out": "oronproppar-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31XJQoZjsML._SL1500_.jpg", "out": "oronproppar-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Loop Quiet 2 öronproppar för sömn", "href": "/halsa/oronproppar", "date": "2026-06-27", "image": "/products/loop-quiet/oronproppar-thumbnail.webp", "blurb": "Återanvändbara öronproppar som dämpar ljud för lugnare sömn, fokus och resor." }
+  ]
+}

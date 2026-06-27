@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "goveeNeonRopeProduct",
+  "category": "halsa",
+  "categoryGroup": "Smart hem & livsstil",
+  "route": "halsa/led-list",
+  "pageComponentName": "LedListPage",
+  "product": {
+    "slug": "govee-led-list",
+    "title": "Govee Neon Rope Light 2 RGBIC (5 m)",
+    "category": "halsa",
+    "asin": "B0CQRBC3Y2",
+    "brand": "Govee",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Böjbar neon", "RGBIC-färger", "Appstyrning"],
+    "image": "/products/govee-neon-rope/ledlist-thumbnail.webp",
+    "imageAlt": "Govee Neon Rope Light 2 RGBIC, 5 m",
+    "images": [
+      { "src": "/products/govee-neon-rope/ledlist-thumbnail.webp", "alt": "Govee Neon Rope Light 2 RGBIC, 5 m", "label": "Neon LED-list" },
+      { "src": "/products/govee-neon-rope/ledlist-1.webp", "alt": "Govee Neon Rope Light 2 böjbar neon LED-list i färg", "label": "Böjbar neon" },
+      { "src": "/products/govee-neon-rope/ledlist-2.webp", "alt": "Govee Neon Rope Light 2 med RGBIC-färger för stämningsbelysning", "label": "RGBIC-färger" },
+      { "src": "/products/govee-neon-rope/ledlist-3.webp", "alt": "Detaljbild av Govee Neon Rope Light 2 med appstyrning", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4uXCuVW",
+    "pageHref": "/halsa/led-list",
+    "summary": "En böjbar neon LED-list med RGBIC-färger och appstyrning som ger mjuk stämningsbelysning och en mysig kvällskänsla. Forma den fritt längs väggar, hyllor eller bakom tv:n.",
+    "evaluation": {
+      "headline": "Böjbar neon för mysig stämningsbelysning",
+      "intro": "Elin går igenom Govee Neon Rope Light 2: en böjbar neon LED-list med RGBIC-färger och appstyrning. Den går att forma fritt och skapar en mjuk, färgstark stämningsbelysning som passar fint för en mysig kvällskänsla i hemmet.",
+      "verdict": "Flexibel neon LED-list för stämningsbelysning och mysig kvällskänsla.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Smart hem & livsstil",
+    "specSectionTitle": "Govee Neon Rope Light 2 RGBIC",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Böjbar neon LED-list, 5 m" },
+      { "label": "Ljus", "caption": "Färger", "value": "RGBIC, flera färger samtidigt" },
+      { "label": "Styrning", "caption": "Smart", "value": "Appstyrning via Govee-appen" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4uXCuVW",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 550 omdömen.",
+      "highlights": [
+        "Köpare uppskattar den mjuka neonkänslan och de färgstarka RGBIC-färgerna.",
+        "Lätt att forma längs väggar och hyllor för egna mönster.",
+        "Appstyrningen beskrivs som enkel för att byta färg och stämning."
+      ],
+      "cautions": [
+        "Forma listen försiktigt i mjuka kurvor så att neon-höljet inte tar skada.",
+        "Planera dragningen i förväg eftersom fästet sitter bäst på rena, släta ytor."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/led-list",
+    "cardBadge": "Stämningsbelysning",
+    "cardHook": "Böjbar neon med RGBIC-färger och appstyrning för mysig kvällskänsla.",
+    "cardImage": "/products/govee-neon-rope/ledlist-thumbnail.webp",
+    "cardImageAlt": "Govee Neon Rope Light 2 RGBIC, 5 m",
+    "badge": "Elins mys-favorit",
+    "headline": "Govee Neon Rope Light 2 – böjbar neon för stämningsbelysning",
+    "shortBody": "En böjbar neon LED-list med RGBIC-färger och appstyrning. Forma den fritt längs väggar, hyllor eller bakom tv:n för en mjuk stämningsbelysning och en mysig kvällskänsla.",
+    "valueHook": "Böjbar neon för mysig stämningsbelysning",
+    "valueStatement": "Govee Neon Rope Light 2 är en böjbar neon LED-list för dig som vill skapa en mjuk, färgstark stämningsbelysning hemma. Med RGBIC-färger kan flera färger visas samtidigt längs listen, och appstyrningen gör det enkelt att byta färg och stämning för en mysig kvällskänsla. Listen går att forma fritt längs väggar, hyllor eller bakom tv:n. Amazon visar 4,6 av 5 från 550 omdömen, och köpare lyfter framför allt den mjuka neonkänslan, färgerna och hur lätt det är att forma den.",
+    "passFor": [
+      "Vill skapa en mjuk stämningsbelysning och en mysig kvällskänsla.",
+      "Gillar att forma neon fritt längs väggar, hyllor eller bakom tv:n.",
+      "Vill styra färg och stämning enkelt via app."
+    ],
+    "caution": "Forma listen i mjuka kurvor så att neon-höljet inte tar skada, och planera dragningen i förväg. Fästet sitter bäst på rena, släta ytor.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Planera dragningen först, rengör ytan och forma listen i mjuka kurvor längs väggen eller hyllan. Använd Govee-appen för att välja färg och stämning för kvällens mys."
+    },
+    "verdict": "Flexibel neon LED-list för stämningsbelysning och mysig kvällskänsla.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 550 omdömen. Köpare beskriver en mjuk neonkänsla, färgstarka RGBIC-färger och att den är lätt att forma, men neon-höljet bör formas försiktigt i mjuka kurvor.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur formar jag en böjbar neon LED-list?", "answer": "Planera dragningen i förväg och forma listen i mjuka kurvor längs väggen eller hyllan. Undvik tvära veck så att neon-höljet inte tar skada." },
+      { "question": "Vad betyder RGBIC på en LED-list?", "answer": "RGBIC innebär att flera färger kan visas samtidigt längs listen i stället för en enda färg. Det ger en mer levande stämningsbelysning för en mysig kvällskänsla." },
+      { "question": "Kan jag styra Govee Neon Rope Light 2 via app?", "answer": "Ja, listen styrs via Govee-appen där du enkelt byter färg och stämning. Det gör det smidigt att anpassa ljuset efter kvällen." }
+    ],
+    "reviewSectionId": "govee-led-list-recensioner",
+    "reviewFormId": "govee-led-list-skriv-recension",
+    "targetKeyword": "ljusslinga LED-list",
+    "metaTitle": "Govee Neon Rope Light 2 RGBIC – böjbar neon LED-list | Elins val",
+    "metaDescription": "Elin går igenom Govee Neon Rope Light 2: en böjbar neon LED-list med RGBIC-färger och appstyrning för stämningsbelysning (4,6 av 5, 550 omdömen) – och hur du formar den rätt.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft för ett skönare hem." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Mjuk doft för en lugn stämning." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt ljus för en mysig kvällskänsla." }
+    ]
+  },
+  "images": {
+    "dir": "govee-neon-rope",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71KYJ0THxLL._SL1500_.jpg", "out": "ledlist-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/518A4VFJolL._SL1500_.jpg", "out": "ledlist-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41LTCAvtnoL._SL1500_.jpg", "out": "ledlist-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41K4b+eIBnL._SL1500_.jpg", "out": "ledlist-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Govee Neon Rope Light 2 RGBIC", "href": "/halsa/led-list", "date": "2026-06-27", "image": "/products/govee-neon-rope/ledlist-thumbnail.webp", "blurb": "Böjbar neon LED-list med appstyrning för stämningsbelysning och mysig kvällskänsla." }
+  ]
+}

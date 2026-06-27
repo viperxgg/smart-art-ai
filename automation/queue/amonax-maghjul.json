@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "amonaxAbWheelProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/maghjul",
+  "pageComponentName": "MaghjulPage",
+  "product": {
+    "slug": "amonax-maghjul",
+    "title": "Amonax maghjul / ab wheel med knämatta",
+    "category": "traning",
+    "asin": "B098B22J3W",
+    "brand": "Amonax",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Core & bål", "Knämatta ingår", "Stabilt grepp"],
+    "image": "/products/amonax-maghjul/maghjul-thumbnail.webp",
+    "imageAlt": "Amonax maghjul / ab wheel med knämatta",
+    "images": [
+      { "src": "/products/amonax-maghjul/maghjul-thumbnail.webp", "alt": "Amonax maghjul / ab wheel med knämatta", "label": "Maghjul" },
+      { "src": "/products/amonax-maghjul/maghjul-1.webp", "alt": "Amonax ab wheel för core- och bålträning", "label": "Core & bål" },
+      { "src": "/products/amonax-maghjul/maghjul-2.webp", "alt": "Amonax maghjul med medföljande knämatta", "label": "Knämatta ingår" },
+      { "src": "/products/amonax-maghjul/maghjul-3.webp", "alt": "Detaljbild av Amonax maghjul med stabilt grepp", "label": "Stabilt grepp" }
+    ],
+    "amazonUrl": "https://amzn.to/4uVYWP1",
+    "pageHref": "/traning/maghjul",
+    "summary": "Ett maghjul (ab wheel) för core- och bålträning. Du rullar hjulet framåt och tillbaka för att utmana magmusklerna och bålen. Knämatta ingår och greppen är gjorda för att kännas stabila under övningen.",
+    "evaluation": {
+      "headline": "Klassiskt maghjul för core och bål",
+      "intro": "Elin går igenom Amonax maghjul: ett ab wheel för core- och bålträning där du rullar hjulet framåt och tillbaka för att utmana magmusklerna. Knämatta ingår och greppen är gjorda för att kännas stabila under övningen.",
+      "verdict": "Prisvärt maghjul för core och bål med knämatta på köpet.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Träning",
+    "specSectionTitle": "Amonax maghjul",
+    "specs": [
+      { "label": "Typ", "caption": "Redskap", "value": "Maghjul / ab wheel" },
+      { "label": "Tillbehör", "caption": "Ingår", "value": "Knämatta" },
+      { "label": "Användning", "caption": "Träning", "value": "Core och bål" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4uVYWP1",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 2 175 omdömen.",
+      "highlights": [
+        "Många köpare tycker att hjulet känns stadigt och greppen sitter bra.",
+        "Uppskattat att knämattan ingår så att man kan börja direkt.",
+        "Populärt val för core- och bålträning hemma till låg kostnad."
+      ],
+      "cautions": [
+        "Maghjul är krävande – börja med korta rörelser och håll bålen spänd.",
+        "Rulla på ett halkfritt underlag och undvik att svanka i ryggen under övningen."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/maghjul",
+    "cardBadge": "Core & bål",
+    "cardHook": "Maghjul för core- och bålträning – knämatta ingår.",
+    "cardImage": "/products/amonax-maghjul/maghjul-thumbnail.webp",
+    "cardImageAlt": "Amonax maghjul / ab wheel med knämatta",
+    "badge": "Elins core-favorit",
+    "headline": "Amonax maghjul – core- och bålträning hemma",
+    "shortBody": "Ett maghjul (ab wheel) för core- och bålträning. Du rullar hjulet framåt och tillbaka för att utmana magmusklerna. Knämatta ingår och greppen är gjorda för att kännas stabila.",
+    "valueHook": "Enkelt redskap för core och bål",
+    "valueStatement": "Amonax maghjul är ett klassiskt ab wheel för dig som vill träna core och bål hemma. Du rullar hjulet framåt och tillbaka för att utmana magmusklerna, och greppen är gjorda för att kännas stabila under rörelsen. En knämatta ingår så att du kan börja direkt. Amazon visar 4,4 av 5 från 2 175 omdömen, och köpare lyfter att hjulet känns stadigt, att greppen sitter bra och att det är ett prisvärt sätt att träna bålen.",
+    "passFor": [
+      "Vill träna core och bål med ett enkelt och prisvärt redskap.",
+      "Gillar att ha knämatta på köpet för att kunna börja direkt.",
+      "Söker ett kompakt redskap som tar liten plats hemma."
+    ],
+    "caution": "Maghjul är ett krävande redskap. Börja med korta rörelser och håll bålen spänd, rulla på ett halkfritt underlag och undvik att svanka i ryggen – ta det lugnt tills tekniken sitter.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Placera knämattan under knäna, greppa hjulet med båda händerna och rulla långsamt framåt bara så långt du behåller kontrollen. Håll bålen spänd och dra dig tillbaka utan att svanka."
+    },
+    "verdict": "Prisvärt maghjul för core och bål med knämatta på köpet.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 2 175 omdömen. Köpare tycker att hjulet känns stadigt och att greppen sitter bra, och uppskattar att knämattan ingår.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vilka muskler tränar man med ett maghjul?", "answer": "Maghjulet tränar främst magmusklerna och bålen, men även axlar och armar får jobba för att hålla rörelsen stabil. Håll bålen spänd genom hela rörelsen." },
+      { "question": "Ingår knämatta till Amonax maghjul?", "answer": "Ja, en knämatta följer med så att du slipper trycka knäna direkt mot golvet under övningen." },
+      { "question": "Är maghjul bra för nybörjare?", "answer": "Det går bra att börja som nybörjare, men övningen är krävande. Börja med korta rörelser nära golvet och öka räckvidden i takt med att bålstyrkan ökar." }
+    ],
+    "reviewSectionId": "amonax-maghjul-recensioner",
+    "reviewFormId": "amonax-maghjul-skriv-recension",
+    "targetKeyword": "maghjul ab wheel",
+    "metaTitle": "Amonax maghjul / ab wheel med knämatta – test & guide | Elins val",
+    "metaDescription": "Elin går igenom Amonax maghjul: ett ab wheel för core- och bålträning med knämatta som ingår (4,4 av 5, 2 175 omdömen) – och tips för att rulla säkert.",
+    "relatedLinks": [
+      { "href": "/traning/yogamatta", "label": "Yogamatta", "text": "Mjukt underlag för golvövningar och stretch." },
+      { "href": "/traning/traningsband", "label": "Träningsband", "text": "Lätt motstånd för core och stabilitet hemma." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Mångsidig vikt för bål och helkropp." }
+    ]
+  },
+  "images": {
+    "dir": "amonax-maghjul",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/712YjfIgcIL._SL1500_.jpg", "out": "maghjul-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/515fdRTfReL._SL1500_.jpg", "out": "maghjul-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51tlYCdCG3L._SL1500_.jpg", "out": "maghjul-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51vXU4kDABL._SL1500_.jpg", "out": "maghjul-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "Amonax maghjul / ab wheel", "href": "/traning/maghjul", "date": "2026-06-27", "image": "/products/amonax-maghjul/maghjul-thumbnail.webp", "blurb": "Maghjul för core- och bålträning med knämatta som ingår." }
+  ]
+}

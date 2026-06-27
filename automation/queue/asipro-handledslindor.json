@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "asiproWristWrapsProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/handledslindor",
+  "pageComponentName": "HandledslindorPage",
+  "product": {
+    "slug": "asipro-handledslindor",
+    "title": "ASIPRO handledslindor / wrist wraps (18\")",
+    "category": "traning",
+    "asin": "B09WJ5QZQ8",
+    "brand": "ASIPRO",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Stöd vid tunga lyft", "18 tum", "Kardborreknäppning"],
+    "image": "/products/asipro-wraps/wraps-thumbnail.webp",
+    "imageAlt": "ASIPRO handledslindor / wrist wraps i 18 tum",
+    "images": [
+      { "src": "/products/asipro-wraps/wraps-thumbnail.webp", "alt": "ASIPRO handledslindor / wrist wraps i 18 tum", "label": "Handledslindor" },
+      { "src": "/products/asipro-wraps/wraps-1.webp", "alt": "ASIPRO handledslindor med kardborreknäppning", "label": "Kardborre" },
+      { "src": "/products/asipro-wraps/wraps-2.webp", "alt": "ASIPRO handledslindor med tumögla", "label": "Tumögla" },
+      { "src": "/products/asipro-wraps/wraps-3.webp", "alt": "Detaljbild av ASIPRO handledslindor", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eJaq2n",
+    "pageHref": "/traning/handledslindor",
+    "summary": "Stödjande handledslindor på 18 tum för tunga lyft som bänkpress och axelpress. Tumöglan och kardborreknäppningen gör att du snabbt kan spänna stödet för ett stadigare handledsläge.",
+    "evaluation": {
+      "headline": "Handledslindor för tunga lyft",
+      "intro": "Elin jämför ASIPRO handledslindor: ett par 18 tum långa wrist wraps för tunga lyft som bänkpress och axelpress. Lindorna spänns med kardborre och hålls på plats med en tumögla, vilket ger ett stadigare handledsläge när belastningen blir hög.",
+      "verdict": "Stadiga handledslindor som ger stöd vid tunga pressövningar.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Tillbehör",
+    "specSectionTitle": "ASIPRO handledslindor",
+    "specs": [
+      { "label": "Längd", "caption": "Mått", "value": "18 tum per linda" },
+      { "label": "Fäste", "caption": "Justering", "value": "Kardborre och tumögla" },
+      { "label": "Användning", "caption": "Övning", "value": "Tunga lyft som bänk- och axelpress" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eJaq2n",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 1 116 omdömen.",
+      "highlights": [
+        "Köpare upplever ett stadigare handledsläge vid tunga pressövningar.",
+        "Kardborren beskrivs som stark och håller spänningen genom seten.",
+        "Längden på 18 tum ger lagom mycket stöd för de flesta."
+      ],
+      "cautions": [
+        "Hårt åtdragna lindor kan kännas obekväma – lossa mellan seten.",
+        "Lindor är ett stöd vid tunga lyft, inte en ersättning för teknik."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/handledslindor",
+    "cardBadge": "Stöd vid tunga lyft",
+    "cardHook": "18 tum långa wrist wraps för ett stadigare handledsläge.",
+    "cardImage": "/products/asipro-wraps/wraps-thumbnail.webp",
+    "cardImageAlt": "ASIPRO handledslindor / wrist wraps i 18 tum",
+    "badge": "Elins val för pressövningar",
+    "headline": "ASIPRO handledslindor – stöd vid tunga lyft",
+    "shortBody": "Stödjande handledslindor på 18 tum för tunga lyft som bänkpress och axelpress. Tumöglan och kardborreknäppningen gör att du snabbt kan spänna stödet för ett stadigare handledsläge.",
+    "valueHook": "Handledslindor för tunga lyft",
+    "valueStatement": "ASIPRO handledslindor är till för dig som lyfter tungt i pressövningar som bänkpress och axelpress. De 18 tum långa lindorna spänns med en stark kardborre och hålls på plats med en tumögla, så att handleden hålls i ett stadigare läge när belastningen blir hög. Amazon visar 4,5 av 5 från 1 116 omdömen, och köpare lyfter framför allt det stadiga stödet och att kardborren håller spänningen genom seten.",
+    "passFor": [
+      "Lyfter tungt i bänkpress, axelpress och liknande övningar.",
+      "Vill ha ett stadigare handledsläge under de tyngsta seten.",
+      "Vill snabbt kunna spänna och lossa stödet mellan seten."
+    ],
+    "caution": "Hårt åtdragna lindor kan kännas obekväma och strypa blodflödet, så lossa dem mellan seten. Lindor är ett stöd vid tunga lyft och ersätter inte god teknik – backa belastningen om handleden gör ont.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Trä tumöglan över tummen och linda runt handleden så att den hålls stadigt utan att blodflödet stryps. Spänn lindorna inför de tyngsta seten och lossa dem däremellan."
+    },
+    "verdict": "Stadiga handledslindor som ger stöd vid tunga pressövningar.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 1 116 omdömen. Köpare beskriver ett stadigt stöd vid tunga lyft, men hårt åtdragna lindor kan kännas obekväma.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När behöver jag handledslindor?", "answer": "Lindor används främst vid tunga pressövningar som bänkpress och axelpress, där de håller handleden i ett stadigare läge under de tyngsta seten." },
+      { "question": "Hur hårt ska jag dra åt lindorna?", "answer": "Spänn dem så att handleden känns stadig utan att blodflödet stryps. Lossa lindorna mellan seten så att de inte blir obekväma." },
+      { "question": "Ersätter lindor bra lyftteknik?", "answer": "Nej, lindor är ett stöd vid tunga lyft, inte en ersättning för teknik. Backa belastningen om handleden gör ont istället för att enbart spänna hårdare." }
+    ],
+    "reviewSectionId": "asipro-handledslindor-recensioner",
+    "reviewFormId": "asipro-handledslindor-skriv-recension",
+    "targetKeyword": "handledslindor wrist wraps",
+    "metaTitle": "ASIPRO handledslindor / wrist wraps (18\") | Elins val",
+    "metaDescription": "Elin jämför ASIPRO handledslindor (18\"): stödjande wrist wraps för tunga lyft som bänkpress och axelpress (4,5 av 5, 1 116 omdömen).",
+    "relatedLinks": [
+      { "href": "/traning/hantlar", "label": "Hantlar", "text": "Fria vikter för press och axelövningar." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Tunga lyft som belastar handlederna." },
+      { "href": "/traning/viktvast", "label": "Viktväst", "text": "Öka belastningen i kroppsviktsträningen." }
+    ]
+  },
+  "images": {
+    "dir": "asipro-wraps",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71Dsao9mDFL._SL1500_.jpg", "out": "wraps-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41LhVEqI4RL._SL1500_.jpg", "out": "wraps-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51e0n9qs4lL._SL1500_.jpg", "out": "wraps-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51yDjGnLAqL._SL1500_.jpg", "out": "wraps-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "ASIPRO handledslindor", "href": "/traning/handledslindor", "date": "2026-06-27", "image": "/products/asipro-wraps/wraps-thumbnail.webp", "blurb": "Stödjande wrist wraps på 18 tum för tunga lyft som bänk- och axelpress." }
+  ]
+}

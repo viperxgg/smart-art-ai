@@ -1,0 +1,109 @@
+{
+  "exportName": "realTechniquesSpongeProduct",
+  "category": "skonhet",
+  "categoryGroup": "Makeup",
+  "route": "skonhet/sminksvamp",
+  "pageComponentName": "SminksvampPage",
+  "product": {
+    "slug": "real-techniques-svamp",
+    "title": "Real Techniques Miracle Complexion Sponge (2-pack)",
+    "category": "skonhet",
+    "asin": "B00QPNVC0I",
+    "brand": "Real Techniques",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Mjuk svamp", "Jämn finish", "2-pack"],
+    "image": "/products/rt-sponge/rt-sponge-thumbnail.webp",
+    "imageAlt": "Real Techniques Miracle Complexion Sponge 2-pack",
+    "images": [
+      { "src": "/products/rt-sponge/rt-sponge-thumbnail.webp", "alt": "Real Techniques Miracle Complexion Sponge 2-pack", "label": "Sminksvamp" },
+      { "src": "/products/rt-sponge/rt-sponge-1.webp", "alt": "Real Techniques Miracle Complexion Sponge mjuk svamp", "label": "Mjuk svamp" },
+      { "src": "/products/rt-sponge/rt-sponge-2.webp", "alt": "Real Techniques sminksvamp för jämn foundationfinish", "label": "Jämn finish" }
+    ],
+    "amazonUrl": "https://amzn.to/3QIh4hu",
+    "pageHref": "/skonhet/sminksvamp",
+    "summary": "En mjuk sminksvamp i 2-pack för en jämn, naturlig finish av foundation. Svampen är gjord för att blanda ut och jämna till makeupen så att den lägger sig fint mot huden.",
+    "evaluation": {
+      "headline": "Mjuk sminksvamp för en jämn foundationfinish",
+      "intro": "Elin går igenom Real Techniques Miracle Complexion Sponge: en mjuk sminksvamp i 2-pack som är gjord för att blanda ut foundation till en jämn, naturlig finish. Den fuktas innan användning och hjälper makeupen att lägga sig fint mot huden.",
+      "verdict": "Mjuk, prisvärd sminksvamp för en jämn och naturlig foundationfinish.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Real Techniques Miracle Complexion Sponge",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Sminksvamp, 2-pack" },
+      { "label": "Användning", "caption": "Makeup", "value": "Foundation och concealer" },
+      { "label": "Profil", "caption": "Finish", "value": "Jämn, naturlig" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3QIh4hu",
+      "ratingSummary": "Amazon visar ett högt snittbetyg från många köpare.",
+      "highlights": [
+        "Köpare beskriver svampen som mjuk och skön att jobba med.",
+        "Många tycker den ger en jämn, naturlig finish av foundation.",
+        "Att den kommer i 2-pack uppskattas som prisvärt av flera köpare."
+      ],
+      "cautions": [
+        "Sminksvampar bör rengöras ofta och bytas ut med jämna mellanrum.",
+        "Fukta svampen före användning – torr svamp ger en annan, mindre jämn finish."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/sminksvamp",
+    "cardBadge": "Jämn finish",
+    "cardHook": "Mjuk sminksvamp i 2-pack för en jämn, naturlig finish.",
+    "cardImage": "/products/rt-sponge/rt-sponge-thumbnail.webp",
+    "cardImageAlt": "Real Techniques Miracle Complexion Sponge 2-pack",
+    "badge": "Elins finish-favorit",
+    "headline": "Real Techniques Miracle Complexion Sponge – jämn finish",
+    "shortBody": "En mjuk sminksvamp i 2-pack för en jämn, naturlig finish av foundation. Gjord för att blanda ut och jämna till makeupen så att den lägger sig fint mot huden.",
+    "valueHook": "Mjuk svamp för en naturlig finish",
+    "valueStatement": "Real Techniques Miracle Complexion Sponge är en mjuk sminksvamp för dig som vill ha en jämn, naturlig finish av foundation. Svampen fuktas innan användning och blandar ut makeupen så att den lägger sig fint mot huden. Att den kommer i 2-pack gör den prisvärd. Köpare beskriver den ofta som mjuk och skön att jobba med, och Amazon visar ett högt snittbetyg från många köpare som lyfter just den jämna finishen.",
+    "passFor": [
+      "Vill ha en jämn, naturlig finish av foundation.",
+      "Föredrar en mjuk sminksvamp framför borste för basen.",
+      "Gillar att ha en svamp i reserv tack vare 2-pack."
+    ],
+    "caution": "Sminksvampar bör rengöras ofta och bytas ut med jämna mellanrum för att hålla sig fräscha. Fukta svampen före användning – en torr svamp ger en annan, mindre jämn finish.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Fukta svampen och krama ur överflödigt vatten innan du klickar ut foundation över huden för en jämn finish. Rengör den efter användning med mild tvål och låt den lufttorka."
+    },
+    "verdict": "Mjuk, prisvärd sminksvamp för en jämn och naturlig foundationfinish.",
+    "amazonSummary": "Amazon visar ett högt snittbetyg från många köpare. De beskriver en mjuk svamp som ger en jämn, naturlig finish, men sminksvampar behöver rengöras ofta och bytas ut med jämna mellanrum.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Ska sminksvampen vara fuktig eller torr?", "answer": "Fukta svampen och krama ur överflödigt vatten innan du använder den. En fuktig svamp ger en jämnare, mer naturlig finish än en torr svamp." },
+      { "question": "Hur rengör jag sminksvampen?", "answer": "Tvätta den efter användning med mild tvål eller svamprengöring, skölj noga och låt den lufttorka. Rengör ofta och byt ut svampen med jämna mellanrum." },
+      { "question": "Vad använder jag svampen till?", "answer": "Den är gjord för att blanda ut och jämna till foundation och concealer för en naturlig finish. Klicka ut produkten över huden i stället för att dra för bästa resultat." }
+    ],
+    "reviewSectionId": "real-techniques-svamp-recensioner",
+    "reviewFormId": "real-techniques-svamp-skriv-recension",
+    "targetKeyword": "sminksvamp beauty blender",
+    "metaTitle": "Real Techniques Miracle Complexion Sponge – sminksvamp | Elins val",
+    "metaDescription": "Elin går igenom Real Techniques Miracle Complexion Sponge: en mjuk sminksvamp i 2-pack för en jämn, naturlig foundationfinish – och hur du fuktar och rengör den rätt.",
+    "relatedLinks": [
+      { "href": "/skonhet/sminkborstar", "label": "Sminkborstar", "text": "Mjuka borstar för foundation, puder och rouge." },
+      { "href": "/skonhet/press-on-naglar", "label": "Press-on naglar", "text": "Snabb salongslook för naglarna hemma." },
+      { "href": "/skonhet/nagelvard-set", "label": "Nagelvård-set", "text": "Elektriskt set för fil och form av naglar." }
+    ]
+  },
+  "images": {
+    "dir": "rt-sponge",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71Ksm67rYzL._SL1500_.jpg", "out": "rt-sponge-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31MOrCA9xBL._SL1500_.jpg", "out": "rt-sponge-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51M8CcZm8PL._SL1500_.jpg", "out": "rt-sponge-2.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Real Techniques Miracle Complexion Sponge", "href": "/skonhet/sminksvamp", "date": "2026-06-27", "image": "/products/rt-sponge/rt-sponge-thumbnail.webp", "blurb": "Mjuk sminksvamp i 2-pack för en jämn, naturlig foundationfinish." }
+  ]
+}

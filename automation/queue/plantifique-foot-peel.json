@@ -1,0 +1,111 @@
+{
+  "exportName": "plantifiqueFootPeelProduct",
+  "category": "skonhet",
+  "categoryGroup": "Fötter",
+  "route": "skonhet/foot-peel-mask",
+  "pageComponentName": "FootPeelMaskPage",
+  "product": {
+    "slug": "plantifique-foot-peel",
+    "title": "Plantifique Peach Foot Exfoliation Mask (2-pack)",
+    "category": "skonhet",
+    "asin": "B07G75DJTC",
+    "brand": "Plantifique",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Foot peel", "Mjukgör", "Silkeslena fötter"],
+    "image": "/products/plantifique-foot-peel/foot-peel-thumbnail.webp",
+    "imageAlt": "Plantifique Peach Foot Exfoliation Mask, 2-pack",
+    "images": [
+      { "src": "/products/plantifique-foot-peel/foot-peel-thumbnail.webp", "alt": "Plantifique Peach Foot Exfoliation Mask, 2-pack", "label": "Foot peel" },
+      { "src": "/products/plantifique-foot-peel/foot-peel-1.webp", "alt": "Plantifique foot peel mask som mjukgör torr, sträv hud på fötterna", "label": "Mjukgör" },
+      { "src": "/products/plantifique-foot-peel/foot-peel-2.webp", "alt": "Plantifique foot peel sockor och användning", "label": "Sockor" },
+      { "src": "/products/plantifique-foot-peel/foot-peel-3.webp", "alt": "Detaljbild av Plantifique Peach Foot Exfoliation Mask", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4ex2ORR",
+    "pageHref": "/skonhet/foot-peel-mask",
+    "summary": "En exfolierande fotmask i sockform som mjukgör torr, sträv hud och ger silkeslena fötter. Kosmetisk fotvård som lyfter bort förhårdnader över ett par veckor för en len känsla.",
+    "evaluation": {
+      "headline": "Foot peel för silkeslena fötter",
+      "intro": "Elin går igenom Plantifique Peach Foot Exfoliation Mask: en exfolierande fotmask i sockform som mjukgör torr, sträv hud på fötterna. Efter användning lossnar gammal, sträv hud gradvis under ett par veckor och lämnar fötterna lena och mjuka. Det här är kosmetisk fotvård för utseende och känsla, inte någon behandling som läker.",
+      "verdict": "Effektiv foot peel som mjukgör sträv hud och ger lena, mjuka fötter.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Fötter",
+    "specSectionTitle": "Plantifique Peach Foot Exfoliation Mask",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Foot peel-mask, 2-pack" },
+      { "label": "Användning", "caption": "Område", "value": "Fötter och hälar" },
+      { "label": "Profil", "caption": "Fotvård", "value": "Exfolierar och mjukgör" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4ex2ORR",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 31300 omdömen.",
+      "highlights": [
+        "Köpare upplever att torr, sträv hud lossnar och fötterna blir lena.",
+        "Många lyfter att resultatet syns efter ett par veckor.",
+        "Uppskattas som enkel kosmetisk fotvård med behaglig persikodoft."
+      ],
+      "cautions": [
+        "Huden flagnar i flera dagar efteråt – planera in tiden och undvik att dra i den.",
+        "Resultatet varierar mellan personer; använd inte på sårig eller irriterad hud."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/foot-peel-mask",
+    "cardBadge": "Foot peel",
+    "cardHook": "Exfolierande fotmask som mjukgör sträv hud och ger lena fötter.",
+    "cardImage": "/products/plantifique-foot-peel/foot-peel-thumbnail.webp",
+    "cardImageAlt": "Plantifique Peach Foot Exfoliation Mask, 2-pack",
+    "badge": "Elins fotvårdsfavorit",
+    "headline": "Plantifique Peach Foot Exfoliation Mask – silkeslena fötter",
+    "shortBody": "En exfolierande fotmask i sockform som mjukgör torr, sträv hud och ger silkeslena fötter. Kosmetisk fotvård där gammal, sträv hud lossnar gradvis för en len känsla.",
+    "valueHook": "Foot peel för silkeslena fötter",
+    "valueStatement": "Plantifique Peach Foot Exfoliation Mask är en foot peel för dig som vill mjukgöra torr, sträv hud och få silkeslena fötter. Du har masken på som ett par sockor en stund, och under de följande dagarna lossnar gammal, sträv hud gradvis tills fötterna känns lena och mjuka. Det här är kosmetisk fotvård för utseende och känsla, inte någon behandling som läker. Amazon visar 4,4 av 5 från 31300 omdömen, och köpare lyfter framför allt hur lena fötterna blir, den enkla användningen och den behagliga persikodoften.",
+    "passFor": [
+      "Vill mjukgöra torr, sträv hud och få lena fötter.",
+      "Söker en enkel kosmetisk fotvård att göra hemma.",
+      "Gillar idén att gammal, sträv hud lossnar gradvis."
+    ],
+    "caution": "Huden flagnar i flera dagar efter behandlingen, så planera in tiden och dra inte i lös hud. Resultatet varierar mellan personer och masken ska inte användas på sårig eller irriterad hud. Det här är kosmetisk fotvård som mjukgör – inte något som läker.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ha masksockorna på rena, torra fötter den tid som anges, skölj av noga efteråt och låt sedan huden flagna naturligt under de följande dagarna. Ett fotbad mellan dagarna kan hjälpa processen på traven."
+    },
+    "verdict": "Effektiv foot peel som mjukgör sträv hud och ger lena, mjuka fötter.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 31300 omdömen. Köpare beskriver lena, mjuka fötter och enkel användning, men huden flagnar i flera dagar och resultatet varierar mellan personer.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur fungerar en foot peel-mask?", "answer": "Du har masksockorna på en stund, och under de följande dagarna lossnar gammal, sträv hud gradvis tills fötterna känns lena. Det är kosmetisk fotvård som mjukgör." },
+      { "question": "Hur länge flagnar huden efteråt?", "answer": "Huden brukar flagna i flera dagar efter behandlingen. Planera in tiden och låt huden lossna naturligt utan att dra i den." },
+      { "question": "Passar foot peel alla fötter?", "answer": "Resultatet varierar mellan personer, och masken ska inte användas på sårig eller irriterad hud. Vid tveksamhet, gör ett mindre test först." }
+    ],
+    "reviewSectionId": "plantifique-foot-peel-recensioner",
+    "reviewFormId": "plantifique-foot-peel-skriv-recension",
+    "targetKeyword": "foot peel mask",
+    "metaTitle": "Plantifique Peach Foot Peel Mask – silkeslena fötter | Elins val",
+    "metaDescription": "Elin går igenom Plantifique Peach Foot Exfoliation Mask: en foot peel som mjukgör torr, sträv hud och ger lena fötter (4,4 av 5, 31300 omdömen) – så funkar den.",
+    "relatedLinks": [
+      { "href": "/skonhet/elektrisk-fotfil", "label": "Elektrisk fotfil", "text": "Slipa bort sträv hud på hälarna mellan peelingarna." },
+      { "href": "/skonhet/epilator", "label": "Epilator", "text": "Slät hud på ben och kropp utan rakning." },
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som komplement i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "plantifique-foot-peel",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/618D7o7uUtL._SL1500_.jpg", "out": "foot-peel-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41mUEQo3oSL._SL1500_.jpg", "out": "foot-peel-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/5173d+vlnGL._SL1500_.jpg", "out": "foot-peel-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41JfevXz26L._SL1500_.jpg", "out": "foot-peel-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Plantifique Peach Foot Exfoliation Mask", "href": "/skonhet/foot-peel-mask", "date": "2026-06-27", "image": "/products/plantifique-foot-peel/foot-peel-thumbnail.webp", "blurb": "Exfolierande fotmask som mjukgör torr, sträv hud och ger lena fötter." }
+  ]
+}

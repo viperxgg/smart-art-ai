@@ -1,0 +1,112 @@
+{
+  "system": "traning",
+  "exportName": "ihuanGlovesProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/traningshandskar",
+  "pageComponentName": "TraningshandskarPage",
+  "product": {
+    "slug": "ihuan-traningshandskar",
+    "title": "ihuan träningshandskar med handledsstöd",
+    "category": "traning",
+    "asin": "B07D2XMDJB",
+    "brand": "ihuan",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Handledsstöd", "Bättre grepp", "Ventilerade"],
+    "image": "/products/ihuan-gloves/handskar-thumbnail.webp",
+    "imageAlt": "ihuan träningshandskar med handledsstöd",
+    "images": [
+      { "src": "/products/ihuan-gloves/handskar-thumbnail.webp", "alt": "ihuan träningshandskar med handledsstöd", "label": "Träningshandskar" },
+      { "src": "/products/ihuan-gloves/handskar-1.webp", "alt": "ihuan träningshandskar med integrerat handledsstöd", "label": "Handledsstöd" },
+      { "src": "/products/ihuan-gloves/handskar-2.webp", "alt": "ihuan träningshandskar med ventilerad ovansida", "label": "Ventilerade" },
+      { "src": "/products/ihuan-gloves/handskar-3.webp", "alt": "Detaljbild av ihuan träningshandskar grepp", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4v02kIY",
+    "pageHref": "/traning/traningshandskar",
+    "summary": "Ventilerade gymhandskar med integrerat handledsstöd för bättre grepp och skydd. Stödet sluter runt handleden vid tyngre lyft och den luftiga ovansidan håller händerna svalare under passet.",
+    "evaluation": {
+      "headline": "Gymhandskar med handledsstöd",
+      "intro": "Elin jämför ihuan träningshandskar: ventilerade gymhandskar med integrerat handledsstöd. Handflatan ger ett fastare grepp och skyddar mot förhårdnader, medan den justerbara remmen sluter runt handleden vid tyngre lyft. Den luftiga ovansidan håller händerna svalare under passet.",
+      "verdict": "Ventilerade handskar med stöd för bättre grepp vid tyngre lyft.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Tillbehör",
+    "specSectionTitle": "ihuan träningshandskar",
+    "specs": [
+      { "label": "Stöd", "caption": "Handled", "value": "Integrerat justerbart handledsstöd" },
+      { "label": "Material", "caption": "Komfort", "value": "Ventilerad ovansida som släpper ut värme" },
+      { "label": "Grepp", "caption": "Handflata", "value": "Greppvänlig yta som skyddar händerna" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4v02kIY",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 33 595 omdömen.",
+      "highlights": [
+        "Köpare upplever ett fastare grepp och mindre förhårdnader i händerna.",
+        "Handledsstödet uppskattas vid tyngre lyft som press och rodd.",
+        "Den ventilerade ovansidan beskrivs som svalare än täta handskar."
+      ],
+      "cautions": [
+        "Storleken upplevs olika – jämför måtten innan du väljer modell.",
+        "Handledsstödet är ett komfortstöd, inte en ersättning för bra teknik."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/traningshandskar",
+    "cardBadge": "Handledsstöd",
+    "cardHook": "Ventilerade gymhandskar med stöd för bättre grepp och skydd.",
+    "cardImage": "/products/ihuan-gloves/handskar-thumbnail.webp",
+    "cardImageAlt": "ihuan träningshandskar med handledsstöd",
+    "badge": "Elins val för gymmet",
+    "headline": "ihuan träningshandskar – grepp och handledsstöd",
+    "shortBody": "Ventilerade gymhandskar med integrerat handledsstöd för bättre grepp och skydd. Stödet sluter runt handleden vid tyngre lyft och den luftiga ovansidan håller händerna svalare.",
+    "valueHook": "Gymhandskar med handledsstöd",
+    "valueStatement": "ihuan träningshandskar är till för dig som vill ha ett fastare grepp och slippa förhårdnader vid gymträning. Handflatan ger bra grepp om stänger och hantlar, och det integrerade handledsstödet sluter runt handleden vid tyngre lyft som press och rodd. Den ventilerade ovansidan släpper ut värme så att händerna hålls svalare. Amazon visar 4,5 av 5 från 33 595 omdömen, och köpare lyfter framför allt greppet, stödet och att handskarna andas bättre än täta modeller.",
+    "passFor": [
+      "Vill ha ett fastare grepp och skydd mot förhårdnader på gymmet.",
+      "Gör tyngre lyft och vill ha extra stöd runt handleden.",
+      "Föredrar handskar som andas och håller händerna svalare."
+    ],
+    "caution": "Storleken upplevs olika mellan användare, så jämför måtten innan du väljer. Handledsstödet är ett komfortstöd och ersätter inte god teknik – backa belastningen om handleden gör ont.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Dra åt handledsremmen så att den ger stöd utan att strypa blodflödet, och kontrollera att fingrarna sitter bekvämt. Använd handskarna som komplement till bra teknik snarare än för att lyfta tyngre än du klarar utan dem."
+    },
+    "verdict": "Ventilerade handskar med stöd för bättre grepp vid tyngre lyft.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 33 595 omdömen. Köpare beskriver ett fastare grepp och uppskattat handledsstöd, men storleken upplevs olika.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad gör handledsstödet i handskarna?", "answer": "En justerbar rem sluter runt handleden och ger ett komfortstöd vid tyngre lyft som press och rodd. Det ersätter dock inte bra lyftteknik." },
+      { "question": "Blir händerna svettiga i handskarna?", "answer": "Ovansidan är ventilerad och beskrivs av köpare som svalare än täta handskar. Den släpper ut värme och hjälper händerna att hållas torrare." },
+      { "question": "Hur väljer jag rätt storlek?", "answer": "Storleken upplevs olika mellan användare, så jämför måtten mot din hand innan du beställer istället för att enbart gå på storleksbokstaven." }
+    ],
+    "reviewSectionId": "ihuan-traningshandskar-recensioner",
+    "reviewFormId": "ihuan-traningshandskar-skriv-recension",
+    "targetKeyword": "träningshandskar gymhandskar",
+    "metaTitle": "ihuan träningshandskar med handledsstöd | Elins val",
+    "metaDescription": "Elin jämför ihuan träningshandskar: ventilerade gymhandskar med handledsstöd för bättre grepp och skydd vid tyngre lyft (4,5 av 5, 33 595 omdömen).",
+    "relatedLinks": [
+      { "href": "/traning/hantlar", "label": "Hantlar", "text": "Fria vikter där greppet gör skillnad." },
+      { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Svingar och lyft som sliter på händerna." },
+      { "href": "/traning/viktvast", "label": "Viktväst", "text": "Öka belastningen i kroppsviktsträningen." }
+    ]
+  },
+  "images": {
+    "dir": "ihuan-gloves",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81N59tEqwXL._SL1500_.jpg", "out": "handskar-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51fmsk073iL._SL1500_.jpg", "out": "handskar-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/517WXmqaANL._SL1500_.jpg", "out": "handskar-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51QOhRBVr9L._SL1500_.jpg", "out": "handskar-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "ihuan träningshandskar", "href": "/traning/traningshandskar", "date": "2026-06-27", "image": "/products/ihuan-gloves/handskar-thumbnail.webp", "blurb": "Ventilerade gymhandskar med handledsstöd för bättre grepp och skydd." }
+  ]
+}

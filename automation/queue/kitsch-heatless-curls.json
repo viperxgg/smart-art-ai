@@ -1,0 +1,111 @@
+{
+  "exportName": "kitschHeatlessCurlsProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårstyling (verktyg)",
+  "route": "skonhet/heatless-curls",
+  "pageComponentName": "HeatlessCurlsPage",
+  "product": {
+    "slug": "kitsch-heatless-curls",
+    "title": "Kitsch Heatless Satin Curling Set",
+    "category": "skonhet",
+    "asin": "B0CF76VGD5",
+    "brand": "Kitsch",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Locka utan värme", "Satinband", "Skonsamt mot håret"],
+    "image": "/products/kitsch-heatless/kitsch-heatless-thumbnail.webp",
+    "imageAlt": "Kitsch Heatless Satin Curling Set",
+    "images": [
+      { "src": "/products/kitsch-heatless/kitsch-heatless-thumbnail.webp", "alt": "Kitsch Heatless Satin Curling Set", "label": "Curling Set" },
+      { "src": "/products/kitsch-heatless/kitsch-heatless-1.webp", "alt": "Kitsch satinband för att locka håret utan värme", "label": "Satinband" },
+      { "src": "/products/kitsch-heatless/kitsch-heatless-2.webp", "alt": "Kitsch heatless curling set med clips och band", "label": "Komplett set" },
+      { "src": "/products/kitsch-heatless/kitsch-heatless-3.webp", "alt": "Detaljbild av Kitsch Heatless Satin Curling Set", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4p0W7ej",
+    "pageHref": "/skonhet/heatless-curls",
+    "summary": "Ett satinband som lockar håret utan värme medan du sover. Du lindar håret runt bandet på kvällen och vaknar till mjuka lockar – skonsamt mot håret eftersom det slipper både värme och hårda spännen.",
+    "evaluation": {
+      "headline": "Lockar utan värme medan du sover",
+      "intro": "Elin går igenom Kitsch Heatless Satin Curling Set: ett satinband som du lindar håret runt på kvällen för att vakna till lockar utan att använda en enda grad värme. Satin är mjukt mot håret och hela poängen är att slippa locktång och plattång på dagar då du vill vara skonsam.",
+      "verdict": "Skonsamt sätt att få lockar över natten – helt utan värme.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårstyling (verktyg)",
+    "specSectionTitle": "Kitsch Heatless Satin Curling Set",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Satinband + clips" },
+      { "label": "Metod", "caption": "Styling", "value": "Lockar utan värme, över natten" },
+      { "label": "Material", "caption": "Tyg", "value": "Satin, mjukt mot håret" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4p0W7ej",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 20 785 omdömen.",
+      "highlights": [
+        "Köpare gillar att få lockar utan värme medan de sover.",
+        "Satinbandet upplevs som skonsamt och bekvämt mot håret.",
+        "Många tycker att lockarna håller fint hela dagen."
+      ],
+      "cautions": [
+        "Det tar lite övning att linda håret jämnt första gångerna.",
+        "Resultatet varierar med hårlängd och hårtjocklek."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/heatless-curls",
+    "cardBadge": "Locka utan värme",
+    "cardHook": "Linda håret runt satinbandet på kvällen och vakna till mjuka lockar.",
+    "cardImage": "/products/kitsch-heatless/kitsch-heatless-thumbnail.webp",
+    "cardImageAlt": "Kitsch Heatless Satin Curling Set",
+    "badge": "Elins skonsamma favorit",
+    "headline": "Kitsch Heatless Curls – lockar utan värme",
+    "shortBody": "Ett satinband som lockar håret medan du sover. Du lindar håret runt bandet på kvällen och vaknar till mjuka lockar – helt utan locktång och utan värme, så att håret slipper en extra het dag.",
+    "valueHook": "Lockar utan värme medan du sover",
+    "valueStatement": "Kitsch Heatless Satin Curling Set är för dig som vill ha lockar utan att ta fram locktången. Du lindar fuktigt hår runt det mjuka satinbandet på kvällen, sover på det och tar loss det på morgonen för mjuka, vågiga lockar. Eftersom det varken använder värme eller hårda spännen är det ett skonsamt val på dagar då du vill vara snäll mot håret. Amazon visar 4,2 av 5 från 20 785 omdömen, och köpare lyfter framför allt att det är bekvämt att sova med och att lockarna håller fint.",
+    "passFor": [
+      "Vill ha lockar utan att använda värme eller locktång.",
+      "Föredrar att styla håret över natten medan du sover.",
+      "Letar efter ett skonsamt alternativ med mjukt satinband."
+    ],
+    "caution": "Det tar lite övning att linda håret jämnt de första gångerna, och resultatet varierar med hårlängd och hårtjocklek. Håret bör vara lätt fuktigt när du lindar för bäst form.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Linda lätt fuktigt hår runt satinbandet på kvällen, börja vid ansiktet och arbeta nedåt, och fäst med clips. Sov på det och ta försiktigt loss bandet på morgonen för mjuka lockar."
+    },
+    "verdict": "Skonsamt sätt att få lockar över natten – helt utan värme.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från 20 785 omdömen. Köpare beskriver mjuka lockar utan värme och att bandet är bekvämt att sova med, men det tar lite övning att linda jämnt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur lockar jag håret utan värme med satinbandet?", "answer": "Linda lätt fuktigt hår runt bandet på kvällen, börja vid ansiktet och arbeta nedåt, och fäst med clips. Sov på det och ta loss bandet på morgonen för mjuka lockar." },
+      { "question": "Är heatless curls skonsamt mot håret?", "answer": "Ja, hela poängen är att slippa värme. Satinbandet är mjukt mot håret och du undviker locktång och plattång, vilket många upplever som skonsamt." },
+      { "question": "Hur länge håller lockarna?", "answer": "Det varierar med hårlängd och hårtjocklek, men många köpare tycker att lockarna håller fint hela dagen. Lätt fuktigt hår när du lindar ger ofta bäst form." }
+    ],
+    "reviewSectionId": "kitsch-heatless-curls-recensioner",
+    "reviewFormId": "kitsch-heatless-curls-skriv-recension",
+    "targetKeyword": "heatless curls set",
+    "metaTitle": "Kitsch Heatless Satin Curling Set – lockar utan värme | Elins val",
+    "metaDescription": "Elin går igenom Kitsch Heatless Satin Curling Set: ett satinband som lockar håret utan värme medan du sover (4,2 av 5, 20 785 omdömen) – och hur du lindar för bäst lockar.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Ge lockarna mjukhet och lyster på dagen." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "För dagar då du ändå tar fram styling med värme." }
+    ]
+  },
+  "images": {
+    "dir": "kitsch-heatless",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/816ylKVvU-L._SL1500_.jpg", "out": "kitsch-heatless-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51IQV9z0OXL._SL1500_.jpg", "out": "kitsch-heatless-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41tvVTObLvL._SL1500_.jpg", "out": "kitsch-heatless-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51M39s3YB+L._SL1500_.jpg", "out": "kitsch-heatless-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Kitsch Heatless Satin Curling Set", "href": "/skonhet/heatless-curls", "date": "2026-06-27", "image": "/products/kitsch-heatless/kitsch-heatless-thumbnail.webp", "blurb": "Satinband som lockar håret utan värme medan du sover." }
+  ]
+}

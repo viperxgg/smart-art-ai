@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "jisulifeHandfanProduct",
+  "category": "halsa",
+  "categoryGroup": "Fläkt",
+  "route": "halsa/handflakt",
+  "pageComponentName": "HandflaktPage",
+  "product": {
+    "slug": "jisulife-handflakt",
+    "title": "JISULIFE Pro1 handfläkt (uppladdningsbar)",
+    "category": "halsa",
+    "asin": "B0GQ45ZZHB",
+    "brand": "JISULIFE",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Kraftfull men tyst", "Långt batteri", "Svalka på språng"],
+    "image": "/products/jisulife-handfan/handflakt-thumbnail.webp",
+    "imageAlt": "JISULIFE Pro1 handfläkt, uppladdningsbar",
+    "images": [
+      { "src": "/products/jisulife-handfan/handflakt-thumbnail.webp", "alt": "JISULIFE Pro1 handfläkt, uppladdningsbar", "label": "Handfläkt" },
+      { "src": "/products/jisulife-handfan/handflakt-1.webp", "alt": "JISULIFE Pro1 handfläkt med kraftfullt och tyst luftflöde", "label": "Tyst & stark" },
+      { "src": "/products/jisulife-handfan/handflakt-2.webp", "alt": "JISULIFE Pro1 handfläkt med uppladdningsbart batteri", "label": "Långt batteri" },
+      { "src": "/products/jisulife-handfan/handflakt-3.webp", "alt": "Detaljbild av JISULIFE Pro1 handfläkt", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4uZqraA",
+    "pageHref": "/halsa/handflakt",
+    "summary": "En kraftfull men tyst handfläkt med långt batteri som ger svalka på språng i sommarvärmen. Uppladdningsbar och lätt att ta med i väskan när det blir varmt.",
+    "evaluation": {
+      "headline": "Kraftfull men tyst svalka på språng",
+      "intro": "Elin går igenom JISULIFE Pro1: en uppladdningsbar handfläkt som vill ge ett kraftfullt men tyst luftflöde med långt batteri. En smidig följeslagare för varma dagar, pendling och utomhusstunder när sommarvärmen blir för mycket.",
+      "verdict": "Smidig och tyst handfläkt med långt batteri för svalka på språng.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Fläkt",
+    "specSectionTitle": "JISULIFE Pro1 handfläkt",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Uppladdningsbar handfläkt" },
+      { "label": "Ljudnivå", "caption": "Drift", "value": "Kraftfullt men tyst luftflöde" },
+      { "label": "Batteri", "caption": "Användning", "value": "Långt batteri för hela dagen" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4uZqraA",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 121 omdömen.",
+      "highlights": [
+        "Köpare upplever ett kraftfullt luftflöde som svalkar bra.",
+        "Många uppskattar att den är tyst nog att använda nära andra.",
+        "Det långa batteriet lyfts fram för långa dagar utan laddning."
+      ],
+      "cautions": [
+        "Upplevd svalka varierar med temperatur och hur den används.",
+        "Laddtiden och batteritiden beror på vilket hastighetsläge du kör."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/handflakt",
+    "cardBadge": "Svalka på språng",
+    "cardHook": "Kraftfull men tyst handfläkt med långt batteri.",
+    "cardImage": "/products/jisulife-handfan/handflakt-thumbnail.webp",
+    "cardImageAlt": "JISULIFE Pro1 handfläkt, uppladdningsbar",
+    "badge": "Elins sommarfavorit",
+    "headline": "JISULIFE Pro1 handfläkt – svalka på språng",
+    "shortBody": "En uppladdningsbar handfläkt som vill ge ett kraftfullt men tyst luftflöde. Långt batteri och smidig storlek gör den lätt att ta med när sommarvärmen blir för mycket.",
+    "valueHook": "Kraftfull men tyst svalka på språng",
+    "valueStatement": "JISULIFE Pro1 är en uppladdningsbar handfläkt för dig som vill ha svalka på språng utan att den hörs överallt. Den vill kombinera ett kraftfullt luftflöde med en tyst drift och ett långt batteri, så att den orkar med pendling, utomhusstunder och varma dagar. Amazon visar 4,3 av 5 från 121 omdömen, och köpare lyfter framför allt det kraftfulla luftflödet, den tysta driften och hur länge batteriet håller.",
+    "passFor": [
+      "Vill ha svalka på språng under varma sommardagar.",
+      "Behöver en tyst fläkt som går att använda nära andra.",
+      "Vill ha långt batteri så den räcker hela dagen."
+    ],
+    "caution": "Upplevd svalka varierar med temperatur och hur du håller fläkten, och batteritiden beror på vilket hastighetsläge du kör. Ladda den gärna fullt innan en lång dag ute.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ladda fläkten fullt innan du går ut och börja på ett lägre läge för att spara batteri. Höj hastigheten när det blir riktigt varmt, så håller laddningen längre under dagen."
+    },
+    "verdict": "Smidig och tyst handfläkt med långt batteri för svalka på språng.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 121 omdömen. Köpare beskriver ett kraftfullt men tyst luftflöde och ett långt batteri, men upplevd svalka varierar med temperatur och användning.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur länge håller batteriet på JISULIFE Pro1?", "answer": "Det beror på vilket hastighetsläge du kör. Ett lägre läge ger längre batteritid, medan högsta läget drar mer. Ladda fullt innan en lång dag ute för bästa resultat." },
+      { "question": "Är handfläkten tyst nog att använda nära andra?", "answer": "Många köpare beskriver den som tyst nog att använda i kollektivtrafik och nära andra, även om upplevelsen varierar mellan hastighetslägen." },
+      { "question": "Är JISULIFE Pro1 lätt att ta med?", "answer": "Ja, den är gjord för svalka på språng och får plats i väskan. Den är uppladdningsbar, så du slipper byta batterier under dagen." }
+    ],
+    "reviewSectionId": "jisulife-handflakt-recensioner",
+    "reviewFormId": "jisulife-handflakt-skriv-recension",
+    "targetKeyword": "handfläkt",
+    "metaTitle": "JISULIFE Pro1 handfläkt – kraftfull & tyst | Elins val",
+    "metaDescription": "Elin går igenom JISULIFE Pro1: en uppladdningsbar handfläkt med kraftfullt men tyst luftflöde och långt batteri (4,3 av 5, 121 omdömen) – svalka på språng i sommarvärmen.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma under pollensäsongen." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Doft och fukt för ett lugnare rum." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Mjukt ljus för en skönare kvällsrutin." }
+    ]
+  },
+  "images": {
+    "dir": "jisulife-handfan",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71TWp5i8oBL._SL1500_.jpg", "out": "handflakt-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/413Lh8XVDcL._SL1500_.jpg", "out": "handflakt-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41qz4KqkltL._SL1500_.jpg", "out": "handflakt-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51f3-9EvdoL._SL1500_.jpg", "out": "handflakt-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "JISULIFE Pro1 handfläkt", "href": "/halsa/handflakt", "date": "2026-06-27", "image": "/products/jisulife-handfan/handflakt-thumbnail.webp", "blurb": "Uppladdningsbar handfläkt med kraftfullt men tyst luftflöde och långt batteri." }
+  ]
+}

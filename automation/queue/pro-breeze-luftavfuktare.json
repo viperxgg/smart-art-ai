@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "proBreezeDehumidifierProduct",
+  "category": "halsa",
+  "categoryGroup": "Klimat",
+  "route": "halsa/luftavfuktare",
+  "pageComponentName": "LuftavfuktarePage",
+  "product": {
+    "slug": "pro-breeze-luftavfuktare",
+    "title": "Pro Breeze luftavfuktare 20 l/dygn",
+    "category": "halsa",
+    "asin": "B0F13YQHWJ",
+    "brand": "Pro Breeze",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Upp till 20 l/dygn", "För fuktiga rum", "Auto-avstängning"],
+    "image": "/products/pro-breeze-dehumidifier/dehumid-thumbnail.webp",
+    "imageAlt": "Pro Breeze luftavfuktare 20 l/dygn",
+    "images": [
+      { "src": "/products/pro-breeze-dehumidifier/dehumid-thumbnail.webp", "alt": "Pro Breeze luftavfuktare 20 l/dygn", "label": "Luftavfuktare" },
+      { "src": "/products/pro-breeze-dehumidifier/dehumid-1.webp", "alt": "Pro Breeze luftavfuktare i ett fuktigt rum", "label": "Torrare luft" },
+      { "src": "/products/pro-breeze-dehumidifier/dehumid-2.webp", "alt": "Vattentank på Pro Breeze luftavfuktare", "label": "Vattentank" },
+      { "src": "/products/pro-breeze-dehumidifier/dehumid-3.webp", "alt": "Kontrollpanel på Pro Breeze luftavfuktare", "label": "Kontrollpanel" }
+    ],
+    "amazonUrl": "https://amzn.to/4v1XR8B",
+    "pageHref": "/halsa/luftavfuktare",
+    "summary": "En luftavfuktare som drar ur fukt ur luften för en torrare och fräschare känsla i fuktiga rum som tvättstuga, källare och sovrum. Tar upp till 20 liter per dygn och stänger av sig automatiskt när tanken är full.",
+    "evaluation": {
+      "headline": "Drar ur fukt för en torrare inomhusluft",
+      "intro": "Elin går igenom Pro Breeze luftavfuktare med en kapacitet på upp till 20 liter per dygn. Den är tänkt för fuktiga rum där luften känns rå, som tvättstuga, källare och badrum, och hjälper till att hålla luftfuktigheten på en behagligare nivå för en fräschare inomhuskänsla.",
+      "verdict": "Stadig luftavfuktare för fuktiga rum när du vill ha en torrare och fräschare inomhusluft.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Klimat",
+    "specSectionTitle": "Pro Breeze luftavfuktare 20 l/dygn",
+    "specs": [
+      { "label": "Kapacitet", "caption": "Avfuktning", "value": "Upp till 20 l/dygn" },
+      { "label": "Användning", "caption": "Rum", "value": "Tvättstuga, källare, sovrum" },
+      { "label": "Funktion", "caption": "Säkerhet", "value": "Auto-avstängning vid full tank" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4v1XR8B",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 285 omdömen.",
+      "highlights": [
+        "Köpare upplever en märkbart torrare och fräschare luft i fuktiga rum.",
+        "Auto-avstängningen när tanken är full uppskattas i vardagen.",
+        "Kompakt format som är lätt att flytta mellan rum."
+      ],
+      "cautions": [
+        "Tanken behöver tömmas regelbundet i riktigt fuktiga rum.",
+        "Avfuktare låter en del när de jobbar – tänk på placeringen i sovrum."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/luftavfuktare",
+    "cardBadge": "Torrare luft",
+    "cardHook": "Drar ur fukt för en fräschare känsla i fuktiga rum.",
+    "cardImage": "/products/pro-breeze-dehumidifier/dehumid-thumbnail.webp",
+    "cardImageAlt": "Pro Breeze luftavfuktare 20 l/dygn",
+    "badge": "Elins klimat-val",
+    "headline": "Pro Breeze luftavfuktare – torrare och fräschare luft",
+    "shortBody": "En luftavfuktare med kapacitet på upp till 20 liter per dygn. Gjord för fuktiga rum som tvättstuga, källare och sovrum, med auto-avstängning när tanken blir full.",
+    "valueHook": "Drar ur fukt för en torrare inomhusluft",
+    "valueStatement": "Pro Breeze luftavfuktare är till för dig som har fuktiga rum där luften känns rå och tung. Den drar ur fukt ur luften med en kapacitet på upp till 20 liter per dygn, vilket hjälper till att hålla luftfuktigheten på en behagligare nivå i tvättstuga, källare och sovrum. Amazon visar 4,3 av 5 från 285 omdömen, och köpare lyfter framför allt den torrare och fräschare luften och den praktiska auto-avstängningen.",
+    "passFor": [
+      "Har ett fuktigt rum där luften känns rå och tung.",
+      "Vill ha en torrare och fräschare känsla i tvättstuga eller källare.",
+      "Uppskattar auto-avstängning så du slipper hålla koll hela tiden."
+    ],
+    "caution": "En luftavfuktare låter en del när den jobbar, så tänk på placeringen om du vill ha den i sovrummet. I riktigt fuktiga rum behöver tanken tömmas ganska ofta.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Placera avfuktaren centralt i rummet med fritt utrymme runt luftintaget, och stäng dörren så att den jobbar med rätt luftvolym. Töm tanken regelbundet för jämn effekt."
+    },
+    "verdict": "Stadig luftavfuktare för fuktiga rum när du vill ha en torrare och fräschare inomhusluft.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 285 omdömen. Köpare beskriver en torrare och fräschare luft i fuktiga rum, men avfuktare låter en del och tanken behöver tömmas regelbundet.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vilka rum passar Pro Breeze luftavfuktare bäst i?", "answer": "Den är tänkt för fuktiga rum som tvättstuga, källare, badrum och sovrum där luften känns rå. Stäng gärna dörren så att den jobbar med rätt luftvolym." },
+      { "question": "Hur ofta behöver jag tömma tanken?", "answer": "Det beror på hur fuktigt rummet är. I riktigt fuktiga rum kan tanken bli full ganska snabbt, och då stänger avfuktaren av sig automatiskt tills du tömt den." },
+      { "question": "Är luftavfuktaren tyst nog för sovrummet?", "answer": "Den låter en del när den jobbar, ungefär som en fläkt. Det går bra i sovrummet om du inte är ljudkänslig – ställ den gärna en bit från sängen." }
+    ],
+    "reviewSectionId": "pro-breeze-luftavfuktare-recensioner",
+    "reviewFormId": "pro-breeze-luftavfuktare-skriv-recension",
+    "targetKeyword": "luftavfuktare",
+    "metaTitle": "Pro Breeze luftavfuktare 20 l/dygn – torrare luft | Elins val",
+    "metaDescription": "Elin går igenom Pro Breeze luftavfuktare: drar ur fukt för en torrare och fräschare känsla i fuktiga rum (4,3 av 5, 285 omdömen) – och vad du bör veta om ljud och tömning.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare inomhusluft för allergivänligare rum." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Mild doft och en lugnare stämning hemma." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt ljus för en mjukare kvällsstund." }
+    ]
+  },
+  "images": {
+    "dir": "pro-breeze-dehumidifier",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61rwPnEE7KL._SL1500_.jpg", "out": "dehumid-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41+woL7qQ4L._SL1500_.jpg", "out": "dehumid-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41SE1qgrFLL._SL1500_.jpg", "out": "dehumid-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41my1uGkyEL._SL1500_.jpg", "out": "dehumid-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Pro Breeze luftavfuktare 20 l/dygn", "href": "/halsa/luftavfuktare", "date": "2026-06-27", "image": "/products/pro-breeze-dehumidifier/dehumid-thumbnail.webp", "blurb": "Luftavfuktare som drar ur fukt för en torrare och fräschare inomhusluft." }
+  ]
+}

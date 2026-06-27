@@ -1,0 +1,109 @@
+{
+  "exportName": "flexitolHeelBalmProduct",
+  "category": "skonhet",
+  "categoryGroup": "Fötter",
+  "route": "skonhet/halkram",
+  "pageComponentName": "HalkramPage",
+  "product": {
+    "slug": "flexitol-halkram",
+    "title": "Flexitol Heel Balm 25% Urea (75 g)",
+    "category": "skonhet",
+    "asin": "B0046U95GU",
+    "brand": "Flexitol",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["25% urea", "Mjukgör torra hälar", "Rik fotkräm"],
+    "image": "/products/flexitol-heel-balm/flexitol-thumbnail.webp",
+    "imageAlt": "Flexitol Heel Balm 25% Urea, 75 g",
+    "images": [
+      { "src": "/products/flexitol-heel-balm/flexitol-thumbnail.webp", "alt": "Flexitol Heel Balm 25% Urea, 75 g", "label": "Hälkräm" },
+      { "src": "/products/flexitol-heel-balm/flexitol-1.webp", "alt": "Flexitol Heel Balm med 25% urea för torra hälar", "label": "25% urea" },
+      { "src": "/products/flexitol-heel-balm/flexitol-2.webp", "alt": "Flexitol Heel Balm rik textur för fötter", "label": "Rik textur" }
+    ],
+    "amazonUrl": "https://amzn.to/4uY8JEe",
+    "pageHref": "/skonhet/halkram",
+    "summary": "En rik hälkräm med 25% urea som mjukgör mycket torra, strävа hälar. Kosmetisk fotvård för hudens komfort – urea hjälper huden att hålla kvar fukt och kännas mjukare och slätare.",
+    "evaluation": {
+      "headline": "Rik hälkräm för torra, strävа hälar",
+      "intro": "Elin går igenom Flexitol Heel Balm: en rik fotkräm med 25% urea, en omtyckt kosmetisk ingrediens för att mjukgöra mycket torr och sträv hud på hälarna. Krämen är gjord för att smörja in och ge fötterna en mjukare, slätare känsla.",
+      "verdict": "Rik, prisvärd hälkräm som mjukgör torra och strävа hälar.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Flexitol Heel Balm 25% Urea",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Hälkräm, 75 g" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "25% urea" },
+      { "label": "Profil", "caption": "Fotvård", "value": "Torra, strävа hälar" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4uY8JEe",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 818 omdömen.",
+      "highlights": [
+        "Köpare upplever att torra, strävа hälar känns mjukare med tiden.",
+        "Rik kräm som de flesta tycker ger en slätare hälkänsla.",
+        "Lite räcker långt enligt många återkommande köpare."
+      ],
+      "cautions": [
+        "Krämen är rik och kan kännas lite fet direkt efter applicering.",
+        "Resultatet kommer gradvis – jämn, daglig användning brukar fungera bäst."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/halkram",
+    "cardBadge": "Mjukgör torra hälar",
+    "cardHook": "Rik hälkräm med 25% urea för mycket torra, strävа hälar.",
+    "cardImage": "/products/flexitol-heel-balm/flexitol-thumbnail.webp",
+    "cardImageAlt": "Flexitol Heel Balm 25% Urea, 75 g",
+    "badge": "Elins fotvårdsfavorit",
+    "headline": "Flexitol Heel Balm – rik hälkräm med 25% urea",
+    "shortBody": "En rik fotkräm med 25% urea som mjukgör mycket torra, strävа hälar. Kosmetisk fotvård som hjälper huden att kännas mjukare och slätare med daglig användning.",
+    "valueHook": "25% urea för mjukare hälar",
+    "valueStatement": "Flexitol Heel Balm är en rik hälkräm för dig som har mycket torra och strävа hälar. Formulan bygger på 25% urea, en omtyckt kosmetisk ingrediens som hjälper huden att hålla kvar fukt och kännas mjukare. Det här är kosmetisk fotvård för hudens komfort, inte en behandling – krämen smörjer in och mjukgör. Amazon visar 4,6 av 5 från 818 omdömen, och köpare lyfter framför allt att hälarna känns slätare och mjukare med tiden.",
+    "passFor": [
+      "Har mycket torra, strävа hälar och vill mjukgöra huden.",
+      "Vill ha en rik fotkräm för daglig kvällsrutin.",
+      "Föredrar en kosmetisk fotvård med hög ureahalt."
+    ],
+    "caution": "Krämen är rik och kan kännas lite fet direkt efter applicering. Resultatet kommer gradvis, så jämn daglig användning brukar fungera bäst – och upplevelsen varierar mellan olika hudtyper.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Massera in krämen på rena, torra hälar, gärna på kvällen. Ett par sockor över hjälper krämen att stanna kvar medan du sover, och daglig användning ger den mjukaste känslan."
+    },
+    "verdict": "Rik, prisvärd hälkräm som mjukgör torra och strävа hälar.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 818 omdömen. Köpare beskriver mjukare, slätare hälar med tiden, men krämen är rik och kan kännas lite fet direkt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad gör urea i en hälkräm?", "answer": "Urea är en omtyckt kosmetisk ingrediens som hjälper huden att hålla kvar fukt och kännas mjukare. I en hög halt som 25% är den gjord för att mjukgöra mycket torr och sträv hud på hälarna." },
+      { "question": "Hur ofta använder jag Flexitol Heel Balm?", "answer": "Daglig användning brukar fungera bäst. Massera in krämen på rena hälar, gärna på kvällen, så hinner huden ta upp den medan du sover." },
+      { "question": "Känns krämen fet?", "answer": "Den är rik och kan kännas lite fet direkt efter applicering. Använd gärna ett tunt lager och låt den sjunka in, eller dra på ett par sockor över." }
+    ],
+    "reviewSectionId": "flexitol-halkram-recensioner",
+    "reviewFormId": "flexitol-halkram-skriv-recension",
+    "targetKeyword": "hälkräm spruckna hälar",
+    "metaTitle": "Flexitol Heel Balm 25% Urea – hälkräm för torra hälar | Elins val",
+    "metaDescription": "Elin går igenom Flexitol Heel Balm: en rik hälkräm med 25% urea som mjukgör mycket torra, strävа hälar (4,6 av 5, 818 omdömen) – och hur du använder den rätt.",
+    "relatedLinks": [
+      { "href": "/skonhet/elektrisk-fotfil", "label": "Elektrisk fotfil", "text": "Slipa bort hård hud före hälkrämen." },
+      { "href": "/skonhet/foot-peel-mask", "label": "Foot peel mask", "text": "Mjukgörande fotmask för slätare fötter." },
+      { "href": "/skonhet/kroppslotion", "label": "Kroppslotion", "text": "Återfukta resten av kroppen i samma rutin." }
+    ]
+  },
+  "images": {
+    "dir": "flexitol-heel-balm",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61mRMGN8j1L._SL1500_.jpg", "out": "flexitol-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ilFa5PBKL._SL1500_.jpg", "out": "flexitol-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/414ISgDyCgL._SL1500_.jpg", "out": "flexitol-2.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Flexitol Heel Balm 25% Urea", "href": "/skonhet/halkram", "date": "2026-06-27", "image": "/products/flexitol-heel-balm/flexitol-thumbnail.webp", "blurb": "Rik hälkräm med 25% urea som mjukgör mycket torra, strävа hälar." }
+  ]
+}

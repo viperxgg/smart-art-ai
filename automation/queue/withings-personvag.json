@@ -1,0 +1,112 @@
+{
+  "system": "smart",
+  "exportName": "withingsBodySmartProduct",
+  "category": "halsa",
+  "categoryGroup": "Smart hem & livsstil",
+  "route": "halsa/personvag",
+  "pageComponentName": "PersonvagPage",
+  "product": {
+    "slug": "withings-personvag",
+    "title": "Withings Body Smart digital personvåg",
+    "category": "halsa",
+    "asin": "B0GKB7DYHV",
+    "brand": "Withings",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Synkar till appen", "Mäter kroppssammansättning", "Följ utvecklingen"],
+    "image": "/products/withings-scale/vag-thumbnail.webp",
+    "imageAlt": "Withings Body Smart digital personvåg",
+    "images": [
+      { "src": "/products/withings-scale/vag-thumbnail.webp", "alt": "Withings Body Smart digital personvåg", "label": "Body Smart" },
+      { "src": "/products/withings-scale/vag-1.webp", "alt": "Withings Body Smart våg som visar vikt på displayen", "label": "Tydlig display" },
+      { "src": "/products/withings-scale/vag-2.webp", "alt": "Withings Body Smart våg sett ovanifrån", "label": "Design" },
+      { "src": "/products/withings-scale/vag-3.webp", "alt": "Detaljbild av Withings Body Smart personvåg", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4wanqVP",
+    "pageHref": "/halsa/personvag",
+    "summary": "En smart personvåg som mäter vikt och kroppssammansättning och synkar mätningarna till appen, så att du enkelt kan följa din utveckling över tid. Tydlig display och smidig uppkoppling.",
+    "evaluation": {
+      "headline": "Smart våg som följer din utveckling",
+      "intro": "Elin går igenom Withings Body Smart: en uppkopplad personvåg som mäter vikt och kroppssammansättning och samlar siffrorna i appen. Det gör det lätt att se trender över tid och hålla ordning på dina mätvärden på ett ställe, helt som data utan extra krångel.",
+      "verdict": "Smidig smart våg för dig som vill samla vikt och kroppsdata i appen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Smart hem & livsstil",
+    "specSectionTitle": "Withings Body Smart personvåg",
+    "specs": [
+      { "label": "Mätning", "caption": "Data", "value": "Vikt och kroppssammansättning" },
+      { "label": "Uppkoppling", "caption": "Sync", "value": "Synkar till appen via wifi/bluetooth" },
+      { "label": "Display", "caption": "Avläsning", "value": "Tydlig skärm med dina värden" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4wanqVP",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 109 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att vågen synkar mätningarna automatiskt till appen.",
+        "Många tycker det är enkelt att följa sin utveckling över tid.",
+        "Displayen beskrivs som tydlig och lätt att läsa av."
+      ],
+      "cautions": [
+        "Kroppssammansättning är uppskattade värden och ska ses som trenddata, inte exakta siffror.",
+        "Vissa funktioner kräver att du skapar konto och kopplar upp vågen i appen."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/halsa/personvag",
+    "cardBadge": "Synkar till appen",
+    "cardHook": "Mäter vikt och kroppssammansättning och samlar allt i appen.",
+    "cardImage": "/products/withings-scale/vag-thumbnail.webp",
+    "cardImageAlt": "Withings Body Smart digital personvåg",
+    "badge": "Elins smarta val",
+    "headline": "Withings Body Smart – följ din utveckling i appen",
+    "shortBody": "En smart personvåg som mäter vikt och kroppssammansättning och synkar siffrorna till appen. Tydlig display och enkel uppkoppling som gör det lätt att hålla koll på dina mätvärden över tid.",
+    "valueHook": "Smart våg som följer din utveckling",
+    "valueStatement": "Withings Body Smart är en uppkopplad personvåg för dig som vill ha dina vikt- och kroppsdata samlade på ett ställe. Vågen mäter vikt och kroppssammansättning och synkar mätningarna automatiskt till appen, där du enkelt kan följa trender över tid. Amazon visar 4,4 av 5 från 109 omdömen, och köpare lyfter framför allt den smidiga synkningen, den tydliga displayen och hur lätt det är att hålla ordning på sina siffror.",
+    "passFor": [
+      "Vill ha vikt och kroppsdata samlade i en app.",
+      "Gillar att följa sin utveckling i tydliga trender över tid.",
+      "Vill ha en smart våg med enkel uppkoppling och tydlig display."
+    ],
+    "caution": "Kroppssammansättning är uppskattade värden och passar bäst som trenddata snarare än exakta siffror. Vissa funktioner kräver konto och uppkoppling i appen, så räkna med en liten installation i början.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ställ vågen på ett plant, hårt underlag och väg dig vid ungefär samma tid på dygnet för jämförbara värden. Då blir trenderna i appen mest meningsfulla att följa."
+    },
+    "verdict": "Smidig smart våg för dig som vill samla vikt och kroppsdata i appen.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 109 omdömen. Köpare beskriver smidig synkning till appen och en tydlig display, men kroppssammansättning ska ses som trenddata.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad mäter Withings Body Smart?", "answer": "Vågen mäter vikt och kroppssammansättning och synkar siffrorna till appen. Där kan du följa dina värden som data och se hur de utvecklas över tid." },
+      { "question": "Hur synkar vågen till appen?", "answer": "Du kopplar upp vågen och dina mätningar förs automatiskt över till appen via uppkoppling. Då samlas alla värden på ett ställe utan att du behöver skriva in dem manuellt." },
+      { "question": "Är värdena för kroppssammansättning exakta?", "answer": "Kroppssammansättning är uppskattade värden och passar bäst som trenddata. Väg dig vid samma tid på dygnet på ett plant underlag för mest jämförbara siffror." }
+    ],
+    "reviewSectionId": "withings-personvag-recensioner",
+    "reviewFormId": "withings-personvag-skriv-recension",
+    "targetKeyword": "smart personvåg",
+    "metaTitle": "Withings Body Smart personvåg – följ din utveckling | Elins val",
+    "metaDescription": "Elin går igenom Withings Body Smart: en smart personvåg som mäter vikt och kroppssammansättning och synkar till appen (4,4 av 5, 109 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/halsa/luftrenare", "label": "Luftrenare", "text": "Renare luft hemma för en skönare miljö." },
+      { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Skapa en lugn doftkuliss i rummet." },
+      { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Varmt, mjukt ljus för en avkopplad kväll." }
+    ]
+  },
+  "images": {
+    "dir": "withings-scale",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51v4aqOaEHL._SL1500_.jpg", "out": "vag-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31Zoansy4nL._SL1500_.jpg", "out": "vag-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ZO+B9TW9L._SL1500_.jpg", "out": "vag-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41wqtg2SeeL._SL1500_.jpg", "out": "vag-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hälsa", "title": "Withings Body Smart digital personvåg", "href": "/halsa/personvag", "date": "2026-06-27", "image": "/products/withings-scale/vag-thumbnail.webp", "blurb": "Smart personvåg som mäter vikt och kroppssammansättning och synkar till appen." }
+  ]
+}

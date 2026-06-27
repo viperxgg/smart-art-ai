@@ -1,0 +1,111 @@
+{
+  "exportName": "bondiSandsMittProduct",
+  "category": "skonhet",
+  "categoryGroup": "Sol & glow",
+  "route": "skonhet/sjalvbrun-vante",
+  "pageComponentName": "SjalvbrunVantePage",
+  "product": {
+    "slug": "bondi-sands-vante",
+    "title": "Bondi Sands Self Tan Application Mitt – appliceringsvante",
+    "category": "skonhet",
+    "asin": "B019HR6JUQ",
+    "brand": "Bondi Sands",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Jämn applicering", "Återanvändbar", "Fläckfritt"],
+    "image": "/products/bondi-sands-mitt/bondi-mitt-thumbnail.webp",
+    "imageAlt": "Bondi Sands Self Tan Application Mitt, appliceringsvante",
+    "images": [
+      { "src": "/products/bondi-sands-mitt/bondi-mitt-thumbnail.webp", "alt": "Bondi Sands Self Tan Application Mitt, appliceringsvante", "label": "Appliceringsvante" },
+      { "src": "/products/bondi-sands-mitt/bondi-mitt-1.webp", "alt": "Bondi Sands appliceringsvante för jämn brun-utan-sol", "label": "Jämn applicering" },
+      { "src": "/products/bondi-sands-mitt/bondi-mitt-2.webp", "alt": "Bondi Sands vante med mjuk sida för fläckfri applicering", "label": "Mjuk sida" },
+      { "src": "/products/bondi-sands-mitt/bondi-mitt-3.webp", "alt": "Detaljbild av Bondi Sands Self Tan Application Mitt", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3SmtZpX",
+    "pageHref": "/skonhet/sjalvbrun-vante",
+    "summary": "En återanvändbar appliceringsvante för brun-utan-sol som hjälper dig att lägga produkten jämnt och fläckfritt – utan färgade handflator. Mjuk yta som fördelar mousse och lotion smidigt över kroppen.",
+    "evaluation": {
+      "headline": "Vanten för jämn, fläckfri brun-utan-sol",
+      "intro": "Elin jämför Bondi Sands Self Tan Application Mitt: en återanvändbar vante som fördelar brun-utan-sol jämnt över huden och håller handflatorna fria från färg. Den mjuka ytan gör att mousse och lotion glider på smidigt, vilket är nyckeln till ett jämnt resultat utan ränder.",
+      "verdict": "En enkel vante som gör brun-utan-sol jämnare och mindre kladdig.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Sol & glow",
+    "specSectionTitle": "Bondi Sands Self Tan Application Mitt",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Appliceringsvante" },
+      { "label": "Användning", "caption": "Funktion", "value": "Fördelar mousse och lotion jämnt" },
+      { "label": "Profil", "caption": "Praktiskt", "value": "Återanvändbar, fria handflator" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3SmtZpX",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 21 143 omdömen.",
+      "highlights": [
+        "Köpare tycker den ger en jämnare applicering utan ränder.",
+        "Den mjuka ytan upplevs fördela produkten smidigt över kroppen.",
+        "Uppskattas för att handflatorna hålls fria från färg."
+      ],
+      "cautions": [
+        "Skölj vanten direkt efter användning så håller den längre.",
+        "Lägg produkten i tunna lager för jämnast resultat på knän och armbågar."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/sjalvbrun-vante",
+    "cardBadge": "Jämn applicering",
+    "cardHook": "Återanvändbar vante för jämn, fläckfri brun-utan-sol.",
+    "cardImage": "/products/bondi-sands-mitt/bondi-mitt-thumbnail.webp",
+    "cardImageAlt": "Bondi Sands Self Tan Application Mitt, appliceringsvante",
+    "badge": "Elins glow-tips",
+    "headline": "Bondi Sands appliceringsvante – jämn brun-utan-sol",
+    "shortBody": "En återanvändbar vante som fördelar mousse och lotion jämnt över huden. Gjord för en fläckfri applicering utan ränder – och håller handflatorna fria från färg.",
+    "valueHook": "Vanten för jämn, fläckfri brun-utan-sol",
+    "valueStatement": "Bondi Sands Self Tan Application Mitt är en återanvändbar appliceringsvante för dig som vill lägga brun-utan-sol jämnt och slippa färgade handflator. Den mjuka ytan fördelar mousse och lotion smidigt över kroppen, vilket gör det enklare att undvika ränder och fläckar – särskilt på knän, armbågar och vrister. Amazon visar 4,7 av 5 från 21 143 omdömen, och köpare lyfter framför allt den jämna appliceringen, att produkten glider på smidigt och att handflatorna hålls rena.",
+    "passFor": [
+      "Vill lägga brun-utan-sol jämnt utan ränder och fläckar.",
+      "Vill slippa färgade handflator vid appliceringen.",
+      "Föredrar en återanvändbar vante framför att applicera med händerna."
+    ],
+    "caution": "Resultatet beror mycket på hur du förbereder huden och fördelar produkten. Lägg gärna i tunna lager och var extra noga på knän och armbågar, och skölj vanten direkt efter användning så håller den längre.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Applicera brun-utan-sol på ren, exfolierad och torr hud. Lägg produkten på vanten och arbeta i jämna, cirkulära rörelser sektion för sektion, och var sparsam vid knän, armbågar och vrister."
+    },
+    "verdict": "En enkel vante som gör brun-utan-sol jämnare och mindre kladdig.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 21 143 omdömen. Köpare beskriver en jämnare applicering och rena handflator, men resultatet beror på hur du förbereder huden och fördelar produkten.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag en appliceringsvante för brun-utan-sol?", "answer": "Lägg produkten på vantens mjuka sida och arbeta i jämna, cirkulära rörelser sektion för sektion. Var sparsam vid knän, armbågar och vrister för ett jämnt resultat." },
+      { "question": "Hur rengör jag vanten efter användning?", "answer": "Skölj vanten direkt efter användning och låt den lufttorka. Då håller den sig fräsch och kan återanvändas många gånger." },
+      { "question": "Slipper jag färgade handflator med vanten?", "answer": "Ja, det är hela poängen. Vanten håller produkten borta från handflatorna och fördelar den jämnt över huden i stället." }
+    ],
+    "reviewSectionId": "bondi-sands-vante-recensioner",
+    "reviewFormId": "bondi-sands-vante-skriv-recension",
+    "targetKeyword": "brun-utan-sol-vante",
+    "metaTitle": "Bondi Sands appliceringsvante – jämn brun-utan-sol | Elins val",
+    "metaDescription": "Elin jämför Bondi Sands Self Tan Application Mitt: en återanvändbar vante för jämn, fläckfri brun-utan-sol (4,7 av 5, 21 143 omdömen) – och hur du använder den rätt.",
+    "relatedLinks": [
+      { "href": "/skonhet/brun-utan-sol-mousse", "label": "Brun utan sol-mousse", "text": "Moussen att applicera jämnt med vanten." },
+      { "href": "/skonhet/sommarglow-utan-sol", "label": "Sommarglow", "text": "Bygg en sommarglow utan sol steg för steg." },
+      { "href": "/skonhet/bronzing-drops", "label": "Bronzing drops", "text": "Droppar för en anpassningsbar glow i ansiktet." }
+    ]
+  },
+  "images": {
+    "dir": "bondi-sands-mitt",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71ofmANlWOS._SL1500_.jpg", "out": "bondi-mitt-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31hMHy5qp3S._SL1500_.jpg", "out": "bondi-mitt-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41Ie-vSMVAL._SL1500_.jpg", "out": "bondi-mitt-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/416NdwTKXQL._SL1500_.jpg", "out": "bondi-mitt-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Bondi Sands appliceringsvante", "href": "/skonhet/sjalvbrun-vante", "date": "2026-06-27", "image": "/products/bondi-sands-mitt/bondi-mitt-thumbnail.webp", "blurb": "Återanvändbar vante för jämn, fläckfri applicering av brun-utan-sol." }
+  ]
+}

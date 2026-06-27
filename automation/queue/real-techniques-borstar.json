@@ -1,0 +1,111 @@
+{
+  "exportName": "realTechniquesBrushesProduct",
+  "category": "skonhet",
+  "categoryGroup": "Makeup",
+  "route": "skonhet/sminkborstar",
+  "pageComponentName": "SminkborstarPage",
+  "product": {
+    "slug": "real-techniques-borstar",
+    "title": "Real Techniques Everyday Essentials – sminkborstar & svamp",
+    "category": "skonhet",
+    "asin": "B07FTXBNVL",
+    "brand": "Real Techniques",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Nybörjarset", "Mjuka borstar", "Med svamp"],
+    "image": "/products/rt-brushes/rt-brushes-thumbnail.webp",
+    "imageAlt": "Real Techniques Everyday Essentials sminkborstar och svamp",
+    "images": [
+      { "src": "/products/rt-brushes/rt-brushes-thumbnail.webp", "alt": "Real Techniques Everyday Essentials sminkborstar och svamp", "label": "Borstset" },
+      { "src": "/products/rt-brushes/rt-brushes-1.webp", "alt": "Real Techniques mjuka sminkborstar i set", "label": "Mjuka borstar" },
+      { "src": "/products/rt-brushes/rt-brushes-2.webp", "alt": "Real Techniques Everyday Essentials med svamp", "label": "Med svamp" },
+      { "src": "/products/rt-brushes/rt-brushes-3.webp", "alt": "Detaljbild av Real Techniques Everyday Essentials borstset", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4v42iQ1",
+    "pageHref": "/skonhet/sminkborstar",
+    "summary": "Ett prisvärt nybörjarset med mjuka sminkborstar och en svamp som täcker det mesta i en vardagsrutin. Borstarna är gjorda för att lägga foundation, puder och rouge enkelt och jämnt.",
+    "evaluation": {
+      "headline": "Prisvärt nybörjarset med mjuka sminkborstar",
+      "intro": "Elin går igenom Real Techniques Everyday Essentials: ett prisvärt set med mjuka sminkborstar och en svamp. Det är gjort för att täcka grunderna i en vardagsrutin – foundation, puder och rouge – och är ett bra startset för den som vill komma igång.",
+      "verdict": "Prisvärt och mjukt nybörjarset som täcker grunderna i sminkrutinen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Real Techniques Everyday Essentials",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Sminkborstar + svamp, set" },
+      { "label": "Innehåll", "caption": "Tillbehör", "value": "Flera borstar och en svamp" },
+      { "label": "Profil", "caption": "Makeup", "value": "Nybörjare, vardagsrutin" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4v42iQ1",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 54446 omdömen.",
+      "highlights": [
+        "Köpare beskriver borstarna som mjuka och sköna mot huden.",
+        "Många tycker setet är prisvärt och täcker grunderna i en vardagsrutin.",
+        "Uppskattas ofta som ett bra startset för nybörjare."
+      ],
+      "cautions": [
+        "Som med alla borstar lossnar enstaka hårstrån i början för vissa köpare.",
+        "Borstarna behöver rengöras regelbundet för att hålla sig mjuka och fräscha."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/sminkborstar",
+    "cardBadge": "Nybörjarset",
+    "cardHook": "Prisvärt set med mjuka sminkborstar och svamp.",
+    "cardImage": "/products/rt-brushes/rt-brushes-thumbnail.webp",
+    "cardImageAlt": "Real Techniques Everyday Essentials sminkborstar och svamp",
+    "badge": "Elins nybörjarfavorit",
+    "headline": "Real Techniques Everyday Essentials – mjuka sminkborstar",
+    "shortBody": "Ett prisvärt nybörjarset med mjuka sminkborstar och en svamp som täcker grunderna i en vardagsrutin. Gjort för att lägga foundation, puder och rouge enkelt och jämnt.",
+    "valueHook": "Mjuka borstar till ett bra pris",
+    "valueStatement": "Real Techniques Everyday Essentials är ett prisvärt startset för dig som vill komma igång med sminkborstar. Setet innehåller flera mjuka borstar och en svamp som tillsammans täcker grunderna – foundation, puder och rouge – i en vardagsrutin. Borstarna lyfts ofta fram för att vara mjuka och sköna mot huden. Amazon visar 4,7 av 5 från 54446 omdömen, och köpare uppskattar framför allt mjukheten, prisvärdheten och att det fungerar bra för nybörjare.",
+    "passFor": [
+      "Vill ha ett prisvärt startset med sminkborstar.",
+      "Föredrar mjuka borstar som känns sköna mot huden.",
+      "Vill täcka grunderna som foundation, puder och rouge."
+    ],
+    "caution": "Som med alla borstar kan enstaka hårstrån lossna i början, och upplevelsen varierar. Borstarna behöver rengöras regelbundet för att hålla sig mjuka och fräscha.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Använd de större borstarna för foundation och puder och de mindre för detaljer. Rengör borstarna regelbundet med mild tvål och låt dem lufttorka liggande så håller de sig mjuka längre."
+    },
+    "verdict": "Prisvärt och mjukt nybörjarset som täcker grunderna i sminkrutinen.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 54446 omdömen. Köpare beskriver mjuka, prisvärda borstar som passar nybörjare, men som med alla borstar behöver de rengöras regelbundet.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Passar setet för nybörjare?", "answer": "Ja, det är ett populärt startset. Borstarna täcker grunderna som foundation, puder och rouge och beskrivs ofta som mjuka och enkla att jobba med." },
+      { "question": "Hur rengör jag sminkborstarna?", "answer": "Tvätta dem regelbundet med mild tvål eller borstrengöring, skölj försiktigt och låt dem lufttorka liggande. Då håller de sig mjuka och fräscha längre." },
+      { "question": "Ingår en svamp i setet?", "answer": "Ja, Everyday Essentials innehåller både mjuka sminkborstar och en svamp, så du kan jobba med både borstar och svamp i din vardagsrutin." }
+    ],
+    "reviewSectionId": "real-techniques-borstar-recensioner",
+    "reviewFormId": "real-techniques-borstar-skriv-recension",
+    "targetKeyword": "sminkborstar set",
+    "metaTitle": "Real Techniques Everyday Essentials – sminkborstar set | Elins val",
+    "metaDescription": "Elin går igenom Real Techniques Everyday Essentials: ett prisvärt nybörjarset med mjuka sminkborstar och svamp (4,7 av 5, 54446 omdömen) – och hur du sköter borstarna.",
+    "relatedLinks": [
+      { "href": "/skonhet/sminksvamp", "label": "Sminksvamp", "text": "Mjuk svamp för en jämn makeupfinish." },
+      { "href": "/skonhet/press-on-naglar", "label": "Press-on naglar", "text": "Snabb salongslook för naglarna hemma." },
+      { "href": "/skonhet/nagelvard-set", "label": "Nagelvård-set", "text": "Elektriskt set för fil och form av naglar." }
+    ]
+  },
+  "images": {
+    "dir": "rt-brushes",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81byWsc0lYL._SL1500_.jpg", "out": "rt-brushes-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51RNs8jiVBL._SL1500_.jpg", "out": "rt-brushes-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51VyzdGznIL._SL1500_.jpg", "out": "rt-brushes-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51QVE7ndv9L._SL1500_.jpg", "out": "rt-brushes-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Real Techniques Everyday Essentials", "href": "/skonhet/sminkborstar", "date": "2026-06-27", "image": "/products/rt-brushes/rt-brushes-thumbnail.webp", "blurb": "Prisvärt nybörjarset med mjuka sminkborstar och svamp." }
+  ]
+}

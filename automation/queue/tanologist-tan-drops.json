@@ -1,0 +1,111 @@
+{
+  "exportName": "tanologistDropsProduct",
+  "category": "skonhet",
+  "categoryGroup": "Sol & glow",
+  "route": "skonhet/tanning-drops",
+  "pageComponentName": "TanningDropsPage",
+  "product": {
+    "slug": "tanologist-tan-drops",
+    "title": "Tanologist Self Tan Drops Dark – tanning drops",
+    "category": "skonhet",
+    "asin": "B089JC1JTT",
+    "brand": "Tanologist",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Gradvis färg", "Blandas i fuktkräm", "Naturlig glow"],
+    "image": "/products/tanologist-drops/tanologist-thumbnail.webp",
+    "imageAlt": "Tanologist Self Tan Drops Dark, självbrunande droppar",
+    "images": [
+      { "src": "/products/tanologist-drops/tanologist-thumbnail.webp", "alt": "Tanologist Self Tan Drops Dark, självbrunande droppar", "label": "Tan Drops" },
+      { "src": "/products/tanologist-drops/tanologist-1.webp", "alt": "Tanologist tanning drops som blandas i fuktkräm", "label": "Blandas i kräm" },
+      { "src": "/products/tanologist-drops/tanologist-2.webp", "alt": "Tanologist självbrunande droppar för gradvis färg", "label": "Gradvis färg" },
+      { "src": "/products/tanologist-drops/tanologist-3.webp", "alt": "Detaljbild av Tanologist Self Tan Drops Dark", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4f6lXKt",
+    "pageHref": "/skonhet/tanning-drops",
+    "summary": "Självbrunande droppar som du blandar i din vanliga fuktkräm för en gradvis, naturlig färg. Du doserar själv hur mörk färgen blir och bygger upp glowen steg för steg.",
+    "evaluation": {
+      "headline": "Självbrunande droppar för en gradvis glow",
+      "intro": "Elin går igenom Tanologist Self Tan Drops Dark: självbrunande droppar som blandas i din fuktkräm för en gradvis, naturlig färg. Du styr själv intensiteten genom antalet droppar, vilket gör det enkelt att bygga upp färgen i din egen takt.",
+      "verdict": "Smidiga tanning drops för dig som vill bygga en naturlig färg steg för steg.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Sol & glow",
+    "specSectionTitle": "Tanologist Self Tan Drops Dark",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Självbrunande droppar" },
+      { "label": "Användning", "caption": "Så funkar det", "value": "Blandas i fuktkräm" },
+      { "label": "Resultat", "caption": "Färg", "value": "Gradvis, naturlig" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4f6lXKt",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 2 150 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att färgen blir gradvis och ser naturlig ut.",
+        "Smidigt att blanda dropparna i sin vanliga fuktkräm.",
+        "Lätt att dosera själv hur mörk färgen ska bli."
+      ],
+      "cautions": [
+        "Dropparna ger färg, inte solskydd – komplettera med separat solskydd i solen.",
+        "Tvätta händerna noga efter applicering så att handflatorna inte färgas."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/tanning-drops",
+    "cardBadge": "Naturlig glow",
+    "cardHook": "Självbrunande droppar som blandas i din fuktkräm för en gradvis färg.",
+    "cardImage": "/products/tanologist-drops/tanologist-thumbnail.webp",
+    "cardImageAlt": "Tanologist Self Tan Drops Dark, självbrunande droppar",
+    "badge": "Elins glow-favorit",
+    "headline": "Tanologist Self Tan Drops Dark – tanning drops",
+    "shortBody": "Självbrunande droppar som du blandar i din vanliga fuktkräm. Gjort för en gradvis, naturlig färg där du själv styr hur mörk glowen blir genom antalet droppar.",
+    "valueHook": "Tanning drops för en gradvis, naturlig färg",
+    "valueStatement": "Tanologist Self Tan Drops Dark är självbrunande droppar för dig som vill ha en naturlig glow utan sol. Du blandar dropparna i din egen fuktkräm och doserar själv hur mörk färgen blir, vilket gör det enkelt att bygga upp färgen steg för steg i din egen takt. Amazon visar 4,3 av 5 från 2 150 omdömen, och köpare lyfter framför allt den gradvisa, naturliga färgen och hur smidigt det är att blanda dropparna i fuktkrämen.",
+    "passFor": [
+      "Vill bygga en gradvis, naturlig färg i din egen takt.",
+      "Gillar att blanda självbruna i din vanliga fuktkräm.",
+      "Vill själv styra hur mörk färgen blir genom antalet droppar."
+    ],
+    "caution": "Tanologist Self Tan Drops ger färg, inte solskydd – använd alltid ett separat solskydd när du är i solen. Tvätta händerna noga efter applicering så att handflatorna inte färgas, och bygg upp färgen gradvis för ett jämnt resultat.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Blanda några droppar i din vanliga fuktkräm och applicera jämnt på ren hud. Börja med få droppar och öka tills du når önskad färg, och tvätta händerna direkt efteråt."
+    },
+    "verdict": "Smidiga tanning drops för dig som vill bygga en naturlig färg steg för steg.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 2 150 omdömen. Köpare beskriver en gradvis, naturlig färg och att det är smidigt att blanda dropparna i fuktkrämen, men kom ihåg att de ger färg och inte solskydd.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag Tanologist tanning drops?", "answer": "Blanda några droppar i din vanliga fuktkräm och applicera jämnt på ren hud. Du styr själv hur mörk färgen blir genom antalet droppar och kan bygga upp den gradvis." },
+      { "question": "Ger tanning drops även solskydd?", "answer": "Nej, dropparna ger bara färg och inte något solskydd. Använd alltid ett separat solskydd när du vistas i solen." },
+      { "question": "Hur undviker jag fläckar på händerna?", "answer": "Tvätta händerna noga direkt efter att du applicerat, så att handflatorna inte färgas. Applicera jämnt och bygg upp färgen gradvis för ett naturligt resultat." }
+    ],
+    "reviewSectionId": "tanologist-tan-drops-recensioner",
+    "reviewFormId": "tanologist-tan-drops-skriv-recension",
+    "targetKeyword": "tanning drops ansikte",
+    "metaTitle": "Tanologist Self Tan Drops Dark – tanning drops | Elins val",
+    "metaDescription": "Elin går igenom Tanologist Self Tan Drops Dark: självbrunande droppar som blandas i fuktkrämen för en gradvis, naturlig färg (4,3 av 5, 2 150 omdömen).",
+    "relatedLinks": [
+      { "href": "/skonhet/bronzing-drops", "label": "Bronzing drops", "text": "Droppar för en glow direkt i makeupen." },
+      { "href": "/skonhet/sommarglow-utan-sol", "label": "Sommarglow", "text": "Få en solkysst look helt utan sol." },
+      { "href": "/skonhet/aloe-vera-gel", "label": "Aloe vera-gel", "text": "Svalkande gel för huden efter sol." }
+    ]
+  },
+  "images": {
+    "dir": "tanologist-drops",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61Ee2wZLYFL._SL1500_.jpg", "out": "tanologist-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31g5iP-qZ2L._SL1500_.jpg", "out": "tanologist-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41rrd1pWdXL._SL1500_.jpg", "out": "tanologist-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/412iHu8klwL._SL1500_.jpg", "out": "tanologist-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Tanologist Self Tan Drops Dark – tanning drops", "href": "/skonhet/tanning-drops", "date": "2026-06-27", "image": "/products/tanologist-drops/tanologist-thumbnail.webp", "blurb": "Självbrunande droppar som blandas i fuktkrämen för en gradvis, naturlig färg." }
+  ]
+}

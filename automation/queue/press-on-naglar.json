@@ -1,0 +1,111 @@
+{
+  "exportName": "pressOnNaglarProduct",
+  "category": "skonhet",
+  "categoryGroup": "Naglar",
+  "route": "skonhet/press-on-naglar",
+  "pageComponentName": "PressOnNaglarPage",
+  "product": {
+    "slug": "press-on-naglar",
+    "title": "Press-on naglar – Classic Black French",
+    "category": "skonhet",
+    "asin": "B0D4DVBDLQ",
+    "brand": "Ellie Vincy",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Återanvändbara", "Salongslook hemma", "Snabbt att sätta på"],
+    "image": "/products/press-on-naglar/press-on-thumbnail.webp",
+    "imageAlt": "Press-on naglar Classic Black French",
+    "images": [
+      { "src": "/products/press-on-naglar/press-on-thumbnail.webp", "alt": "Press-on naglar Classic Black French", "label": "Press-on" },
+      { "src": "/products/press-on-naglar/press-on-1.webp", "alt": "Press-on naglar i Classic Black French-design", "label": "Black French" },
+      { "src": "/products/press-on-naglar/press-on-2.webp", "alt": "Press-on naglar applicerade för salongslook hemma", "label": "Salongslook" },
+      { "src": "/products/press-on-naglar/press-on-3.webp", "alt": "Detaljbild av press-on naglar Classic Black French", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4oRDXLR",
+    "pageHref": "/skonhet/press-on-naglar",
+    "summary": "Återanvändbara press-on naglar i en Classic Black French-design för en snabb salongslook hemma. Klickas på utan torktid – ett enkelt sätt att fixa naglarna inför en kväll eller ett tillfälle.",
+    "evaluation": {
+      "headline": "Press-on naglar för en snabb salongslook hemma",
+      "intro": "Elin går igenom de här press-on naglarna i Classic Black French: återanvändbara lösnaglar som klickas på utan torktid. De är gjorda för att ge en snabb, putsad look hemma inför en kväll eller ett tillfälle.",
+      "verdict": "Snabba, återanvändbara press-on naglar för en salongslook hemma.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Press-on naglar Classic Black French",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Press-on naglar, set" },
+      { "label": "Design", "caption": "Stil", "value": "Classic Black French" },
+      { "label": "Profil", "caption": "Naglar", "value": "Återanvändbara, snabb applicering" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4oRDXLR",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 95 omdömen – ännu ganska få, så betyget kan ändras när fler köpare lämnar omdöme.",
+      "highlights": [
+        "Köpare uppskattar att naglarna går snabbt att sätta på hemma.",
+        "Den klassiska black french-designen beskrivs som snygg och putsad.",
+        "Att de är återanvändbara lyfts som ett plus av flera köpare."
+      ],
+      "cautions": [
+        "Det är ännu ganska få omdömen, så helhetsbilden är osäkrare än för mer beprövade produkter.",
+        "Håll- och passform beror på hur de appliceras och varierar mellan olika nagelformer."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/press-on-naglar",
+    "cardBadge": "Salongslook hemma",
+    "cardHook": "Återanvändbara press-on naglar för en snabb look hemma.",
+    "cardImage": "/products/press-on-naglar/press-on-thumbnail.webp",
+    "cardImageAlt": "Press-on naglar Classic Black French",
+    "badge": "Elins snabbfix-favorit",
+    "headline": "Press-on naglar – Classic Black French",
+    "shortBody": "Återanvändbara press-on naglar i en Classic Black French-design för en snabb salongslook hemma. Klickas på utan torktid och är enkla att fixa inför en kväll eller ett tillfälle.",
+    "valueHook": "Snabb salongslook utan torktid",
+    "valueStatement": "De här press-on naglarna är ett enkelt sätt att fixa en putsad look hemma. Den klassiska black french-designen ger en salongskänsla, och eftersom naglarna klickas på slipper du torktid. De är dessutom återanvändbara. Amazon visar 4,6 av 5 från 95 omdömen – det är ännu ganska få, så betyget kan röra sig när fler köpare lämnar omdöme, men de som testat lyfter framför allt hur snabbt det går och hur snygg designen är.",
+    "passFor": [
+      "Vill ha en snabb salongslook hemma utan torktid.",
+      "Gillar en klassisk black french-design.",
+      "Föredrar återanvändbara press-on naglar inför olika tillfällen."
+    ],
+    "caution": "Det är ännu ganska få omdömen, så helhetsbilden är osäkrare än för mer beprövade produkter. Håll- och passform beror på hur du applicerar dem och varierar mellan olika nagelformer.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Rengör naglarna och välj rätt storlek per nagel innan du klickar på dem. Tryck fast ordentligt en stund för bästa fäste, och ta av dem varsamt så håller de längre för nästa gång."
+    },
+    "verdict": "Snabba, återanvändbara press-on naglar för en salongslook hemma.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 95 omdömen – ännu ganska få. Köpare beskriver en snabb, snygg salongslook och uppskattar att naglarna är återanvändbara, men helhetsbilden är osäkrare med så få omdömen.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur sätter jag på press-on naglar?", "answer": "Rengör naglarna, välj rätt storlek per nagel och tryck fast ordentligt en stund. Eftersom de klickas på slipper du torktid och är klar på några minuter." },
+      { "question": "Är press-on naglarna återanvändbara?", "answer": "Ja, de är gjorda för att kunna återanvändas. Ta av dem varsamt och förvara dem så håller de bättre inför nästa gång." },
+      { "question": "Hur länge sitter de på?", "answer": "Hållbarheten beror på hur de appliceras och varierar mellan olika nagelformer. Ren nagelyta och ett ordentligt tryck vid applicering brukar ge bäst fäste." }
+    ],
+    "reviewSectionId": "press-on-naglar-recensioner",
+    "reviewFormId": "press-on-naglar-skriv-recension",
+    "targetKeyword": "press on naglar",
+    "metaTitle": "Press-on naglar Classic Black French – salongslook hemma | Elins val",
+    "metaDescription": "Elin går igenom press-on naglar i Classic Black French: återanvändbara lösnaglar för en snabb salongslook hemma (4,6 av 5, 95 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/nagelvard-set", "label": "Nagelvård-set", "text": "Fila och forma naglarna före appliceringen." },
+      { "href": "/skonhet/sminkborstar", "label": "Sminkborstar", "text": "Komplettera looken med mjuka sminkborstar." },
+      { "href": "/skonhet/sminksvamp", "label": "Sminksvamp", "text": "Mjuk svamp för en jämn makeupfinish." }
+    ]
+  },
+  "images": {
+    "dir": "press-on-naglar",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71ZSjwsvVdL._SL1500_.jpg", "out": "press-on-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41joSMoaBPL._SL1500_.jpg", "out": "press-on-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41gD5Xg-SeL._SL1500_.jpg", "out": "press-on-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51dC0zxsXaL._SL1500_.jpg", "out": "press-on-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Press-on naglar – Classic Black French", "href": "/skonhet/press-on-naglar", "date": "2026-06-27", "image": "/products/press-on-naglar/press-on-thumbnail.webp", "blurb": "Återanvändbara press-on naglar för en snabb salongslook hemma." }
+  ]
+}
