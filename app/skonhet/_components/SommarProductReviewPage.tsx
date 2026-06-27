@@ -10,6 +10,7 @@ import {
 
 import { AmazonCta } from "@/components/AmazonCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { ElinProductButton } from "@/components/elin/ElinProductButton";
 import { ElinsScoreCard } from "@/components/ElinsScoreCard";
 import { JsonLd } from "@/components/JsonLd";
 import { ProductBadges } from "@/components/ProductBadges";
@@ -154,6 +155,15 @@ export async function SommarProductReviewPage({
         ) : null}
 
         <AmazonCta href={pick.product.amazonUrl} className="mt-5" />
+        <div className="mt-4">
+          <ElinProductButton
+            product={{
+              slug: pick.product.slug,
+              title: pick.product.title,
+              category: pick.product.category,
+            }}
+          />
+        </div>
 
         <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-[#F9E9E9]/82 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
