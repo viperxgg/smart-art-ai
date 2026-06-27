@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import { ElinChat, type ElinFocus } from "@/components/elin/ElinChat";
 
 type ElinContextValue = {
-  openElin: (focus?: ElinFocus) => void;
+  openElin: (focus?: ElinFocus, initialPrompt?: string) => void;
   closeElin: () => void;
 };
 
@@ -27,13 +27,15 @@ export function ElinProvider({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [focus, setFocus] = useState<ElinFocus | null>(null);
+  const [manualPrompt, setManualPrompt] = useState<string | null>(null);
   const [prefillKey, setPrefillKey] = useState(0);
   const isDedicatedPage = pathname === "/fraga-elin";
 
   const value = useMemo<ElinContextValue>(
     () => ({
-      openElin(nextFocus) {
+      openElin(nextFocus, nextPrompt) {
         setFocus(nextFocus ?? null);
+        setManualPrompt(nextPrompt ?? null);
         setIsOpen(true);
         setPrefillKey((current) => current + 1);
       },
@@ -44,7 +46,7 @@ export function ElinProvider({ children }: { children: ReactNode }) {
     [],
   );
 
-  const initialPrompt = focus ? `Passar ${focus.title} för mig?` : undefined;
+  const initialPrompt = manualPrompt ?? (focus ? `Passar ${focus.title} för mig?` : undefined);
 
   return (
     <ElinContext.Provider value={value}>
@@ -56,7 +58,7 @@ export function ElinProvider({ children }: { children: ReactNode }) {
             <button
               type="button"
               onClick={() => value.openElin()}
-              className="fixed right-4 z-[80] grid min-h-16 min-w-16 place-items-center rounded-full border border-white/18 bg-[#7b3f55] text-white shadow-[0_22px_70px_rgba(91,52,65,0.32)] transition hover:-translate-y-0.5 hover:bg-[#9a5364] bottom-[calc(104px+env(safe-area-inset-bottom))] md:bottom-6 md:right-6 md:min-h-[4.5rem] md:min-w-[4.5rem]"
+              className="fixed right-4 z-[80] grid min-h-16 min-w-16 place-items-center rounded-full border border-[#F1D8DD] bg-[#D8788D] text-[#FFF9F7] shadow-[0_22px_70px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5 hover:bg-[#c96b80] bottom-[calc(104px+env(safe-area-inset-bottom))] md:bottom-6 md:right-6 md:min-h-[4.5rem] md:min-w-[4.5rem]"
               aria-label="Fråga Elin"
             >
               <MessageCircle className="size-7" aria-hidden="true" />
@@ -69,23 +71,23 @@ export function ElinProvider({ children }: { children: ReactNode }) {
                 type="button"
                 aria-label="Stäng Elin"
                 onClick={value.closeElin}
-                className="absolute inset-0 bg-[#120b12]/45 backdrop-blur-sm"
+                className="absolute inset-0 bg-[#4B2838]/20 backdrop-blur-sm"
               />
-              <aside className="absolute inset-x-3 bottom-[calc(0.75rem+env(safe-area-inset-bottom))] top-3 flex min-h-0 flex-col overflow-hidden rounded-[1.65rem] border border-white/12 bg-[#130e12] shadow-[0_34px_120px_rgba(0,0,0,0.48)] md:inset-auto md:bottom-6 md:right-6 md:h-[70vh] md:max-h-[46rem] md:w-[25rem]">
-                <header className="flex shrink-0 items-center justify-between gap-3 border-b border-white/10 bg-white/[0.06] px-4 py-3">
+              <aside className="absolute inset-x-3 bottom-[calc(0.75rem+env(safe-area-inset-bottom))] top-3 flex min-h-0 flex-col overflow-hidden rounded-[1.65rem] border border-[#F1D8DD] bg-[#FFF9F7] shadow-[0_34px_120px_rgba(75,40,56,0.22)] md:inset-auto md:bottom-6 md:right-6 md:h-[70vh] md:max-h-[46rem] md:w-[25rem]">
+                <header className="flex shrink-0 items-center justify-between gap-3 border-b border-[#F1D8DD] bg-white/72 px-4 py-3">
                   <div className="min-w-0">
-                    <p className="inline-flex items-center gap-2 text-sm font-black text-white">
-                      <Sparkles className="size-4 text-[#efa4ad]" aria-hidden="true" />
+                    <p className="inline-flex items-center gap-2 text-sm font-black text-[#4B2838]">
+                      <Sparkles className="size-4 text-[#D8788D]" aria-hidden="true" />
                       Fråga Elin
                     </p>
-                    <p className="mt-1 truncate text-xs text-white/50">
+                    <p className="mt-1 truncate text-xs text-[#6f5a64]">
                       Elin är en AI-rådgivare. Annons: affiliatelänkar.
                     </p>
                   </div>
                   <button
                     type="button"
                     onClick={value.closeElin}
-                    className="grid min-h-10 min-w-10 shrink-0 place-items-center rounded-full border border-white/10 bg-white/[0.08] text-white transition hover:bg-white/[0.14]"
+                    className="grid min-h-10 min-w-10 shrink-0 place-items-center rounded-full border border-[#F1D8DD] bg-white text-[#4B2838] transition hover:bg-[#FFF1F3]"
                     aria-label="Stäng Elin"
                   >
                     <X className="size-5" aria-hidden="true" />

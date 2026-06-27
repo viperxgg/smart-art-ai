@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Camera, Mail, MessageCircle, Music2 } from "lucide-react";
 
+import { ElinHomeHero } from "@/components/elin/ElinHomeHero";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { comparisonEntries } from "@/lib/comparisons";
 import {
@@ -1016,6 +1017,7 @@ export function ProductDiscoveryLanding() {
       <section className="relative mx-auto box-border w-full max-w-[27rem] min-w-0 overflow-hidden px-4 pb-[calc(7.5rem+env(safe-area-inset-bottom))] pt-5 sm:max-w-[46rem] sm:px-8 lg:max-w-6xl">
         <SiteHeader />
         <CategoryNav />
+        <ElinHomeHero />
         <LatestUpdates />
         <CategoryGateway />
         <SeasonalStrip />
