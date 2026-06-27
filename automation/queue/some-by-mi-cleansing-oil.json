@@ -1,0 +1,111 @@
+{
+  "exportName": "someByMiCleansingOilProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/rengoringsolja",
+  "pageComponentName": "RengoringsoljaPage",
+  "product": {
+    "slug": "some-by-mi-cleansing-oil",
+    "title": "Some By Mi Lacto Soy Cleansing Oil (200 ml)",
+    "category": "skonhet",
+    "asin": "B0DGVYM26L",
+    "brand": "SOME BY MI",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Rengöringsolja", "Double cleansing", "Löser smink"],
+    "image": "/products/cleansing-oil/cleansing-oil-thumbnail.webp",
+    "imageAlt": "Some By Mi Lacto Soy Cleansing Oil, 200 ml",
+    "images": [
+      { "src": "/products/cleansing-oil/cleansing-oil-thumbnail.webp", "alt": "Some By Mi Lacto Soy Cleansing Oil, 200 ml", "label": "Cleansing oil" },
+      { "src": "/products/cleansing-oil/cleansing-oil-1.webp", "alt": "Some By Mi rengöringsolja för double cleansing", "label": "Double cleanse" },
+      { "src": "/products/cleansing-oil/cleansing-oil-2.webp", "alt": "Some By Mi Lacto Soy cleansing oil textur och konsistens", "label": "Olja-textur" },
+      { "src": "/products/cleansing-oil/cleansing-oil-3.webp", "alt": "Detaljbild av Some By Mi Lacto Soy Cleansing Oil", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4f61VzO",
+    "pageHref": "/skonhet/rengoringsolja",
+    "summary": "En rengöringsolja för det första steget i double cleansing. Den löser upp smink och solkräm och sköljs sedan av rent, så att din vanliga rengöring får jobba på ren hud.",
+    "evaluation": {
+      "headline": "Rengöringsolja som löser smink och sköljs av rent",
+      "intro": "Elin går igenom Some By Mi Lacto Soy Cleansing Oil: en rengöringsolja som används som första steg i double cleansing. Oljan löser upp smink och solkräm och emulgerar med vatten så att den sköljs av rent, utan en fet hinna. Det är ett omtyckt steg för dig som vill ha ren hud före din vanliga rengöring.",
+      "verdict": "Rengöringsolja som löser smink fint och sköljs av rent – steg ett i rutinen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Some By Mi Lacto Soy Cleansing Oil",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Rengöringsolja, 200 ml" },
+      { "label": "Innehåll", "caption": "Användning", "value": "Steg ett i double cleansing" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Löser smink, sköljs av rent" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4f61VzO",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 99 omdömen.",
+      "highlights": [
+        "De första köparna upplever att den löser smink och solkräm fint.",
+        "Beskrivs som lätt att skölja av utan en fet hinna kvar.",
+        "Uppskattas som ett enkelt första steg i double cleansing."
+      ],
+      "cautions": [
+        "Ännu ganska få omdömen, så helhetsbilden är fortfarande begränsad.",
+        "Rengöringsolja behöver oftast följas av en vanlig rengöring efteråt."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/rengoringsolja",
+    "cardBadge": "Double cleansing",
+    "cardHook": "Rengöringsolja som löser smink och solkräm – sköljs av rent.",
+    "cardImage": "/products/cleansing-oil/cleansing-oil-thumbnail.webp",
+    "cardImageAlt": "Some By Mi Lacto Soy Cleansing Oil, 200 ml",
+    "badge": "Elins steg-ett-val",
+    "headline": "Some By Mi Lacto Soy Cleansing Oil",
+    "shortBody": "En rengöringsolja för det första steget i double cleansing. Den löser upp smink och solkräm och sköljs sedan av rent, så att din vanliga rengöring får jobba på ren hud.",
+    "valueHook": "Rengöringsolja som löser smink och sköljs av rent",
+    "valueStatement": "Some By Mi Lacto Soy Cleansing Oil är till för dig som vill lägga till ett första steg i rengöringen. Oljan löser upp smink och solkräm och emulgerar med vatten så att den sköljs av rent, utan fet hinna, och sedan följer du upp med din vanliga rengöring. Amazon visar 4,3 av 5 från 99 omdömen, vilket fortfarande är ett ganska litet antal, men de första köparna beskriver att den löser smink fint och är lätt att skölja av.",
+    "passFor": [
+      "Vill prova double cleansing med ett enkelt första steg.",
+      "Använder smink eller solkräm och vill lösa upp det skonsamt.",
+      "Föredrar en olja som sköljs av rent utan fet hinna."
+    ],
+    "caution": "Produkten har ännu ganska få omdömen, så helhetsbilden är fortfarande begränsad. En rengöringsolja är dessutom tänkt som steg ett och behöver oftast följas av en vanlig rengöring efteråt.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Massera in oljan på torr hud för att lösa upp smink och solkräm, tillsätt sedan lite vatten så att den emulgerar och skölj av. Följ upp med din vanliga rengöring som steg två."
+    },
+    "verdict": "Rengöringsolja som löser smink fint och sköljs av rent – steg ett i rutinen.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 99 omdömen, alltså fortfarande ett litet antal. De första köparna beskriver att den löser smink och solkräm fint och sköljs av rent.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad är double cleansing?", "answer": "Double cleansing betyder att du rengör i två steg: först en rengöringsolja som löser upp smink och solkräm, sedan din vanliga rengöring. Den här oljan är tänkt som steg ett." },
+      { "question": "Lämnar rengöringsoljan en fet hinna?", "answer": "Oljan emulgerar med vatten och sköljs av, och de första köparna beskriver att den går av rent utan fet hinna. Följ ändå upp med en vanlig rengöring för bästa resultat." },
+      { "question": "Hur tillförlitliga är omdömena?", "answer": "Amazon visar 4,3 av 5, men ännu bara från 99 omdömen. Det är ett ganska litet antal, så se betyget som en tidig fingervisning snarare än ett etablerat helhetsomdöme." }
+    ],
+    "reviewSectionId": "some-by-mi-cleansing-oil-recensioner",
+    "reviewFormId": "some-by-mi-cleansing-oil-skriv-recension",
+    "targetKeyword": "rengöringsolja cleansing oil",
+    "metaTitle": "Some By Mi Lacto Soy Cleansing Oil – double cleanse | Elins val",
+    "metaDescription": "Elin går igenom Some By Mi Lacto Soy Cleansing Oil: en rengöringsolja som löser smink och sköljs av rent (4,3 av 5, 99 omdömen) – och hur du använder den.",
+    "relatedLinks": [
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som steg två efter oljan." },
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balsam för stressad och torr hud." },
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Lägg till lyster och glow på ren hud." }
+    ]
+  },
+  "images": {
+    "dir": "cleansing-oil",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61frdEG+1SL._SL1500_.jpg", "out": "cleansing-oil-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ZsOgGMaiL._SL1500_.jpg", "out": "cleansing-oil-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/417yotwHIvL._SL1500_.jpg", "out": "cleansing-oil-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31EQb8QYdzL._SL1500_.jpg", "out": "cleansing-oil-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Some By Mi Lacto Soy Cleansing Oil", "href": "/skonhet/rengoringsolja", "date": "2026-06-27", "image": "/products/cleansing-oil/cleansing-oil-thumbnail.webp", "blurb": "Rengöringsolja för double cleansing som löser smink och solkräm och sköljs av rent." }
+  ]
+}

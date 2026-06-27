@@ -1,0 +1,111 @@
+{
+  "exportName": "cosrxCentellaAmpouleProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/centella-serum",
+  "pageComponentName": "CentellaSerumPage",
+  "product": {
+    "slug": "cosrx-centella-ampoule",
+    "title": "COSRX Centella Aqua Soothing Ampoule (centella-serum)",
+    "category": "skonhet",
+    "asin": "B091T71HVD",
+    "brand": "COSRX",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Centella asiatica", "Lugnande", "Lätt & vattnig"],
+    "image": "/products/cosrx-centella/cosrx-centella-thumbnail.webp",
+    "imageAlt": "COSRX Centella Aqua Soothing Ampoule, centella-serum",
+    "images": [
+      { "src": "/products/cosrx-centella/cosrx-centella-thumbnail.webp", "alt": "COSRX Centella Aqua Soothing Ampoule, centella-serum", "label": "Centella-ampoule" },
+      { "src": "/products/cosrx-centella/cosrx-centella-1.webp", "alt": "COSRX Centella ampoule med lugnande centella asiatica", "label": "Lugnande" },
+      { "src": "/products/cosrx-centella/cosrx-centella-2.webp", "alt": "COSRX Centella ampoule lätt och vattnig textur", "label": "Lätt textur" },
+      { "src": "/products/cosrx-centella/cosrx-centella-3.webp", "alt": "Detaljbild av COSRX Centella Aqua Soothing Ampoule", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4basIbK",
+    "pageHref": "/skonhet/centella-serum",
+    "summary": "En lugnande centella-ampoule med lätt, vattnig textur som passar känslig, lättirriterad hud. Centella asiatica ger en lugn och behaglig känsla, och den tunna konsistensen lägger sig snabbt utan att kännas tung.",
+    "evaluation": {
+      "headline": "Centella-ampoule för känslig hud",
+      "intro": "Elin går igenom COSRX Centella Aqua Soothing Ampoule: en lätt, vattnig ampoule med centella asiatica. Centella är en omtyckt ingrediens för en lugn och behaglig känsla, och den tunna texturen är gjord för känslig, lättirriterad hud som vill ha något milt och absorberbart.",
+      "verdict": "Mild, lätt centella-ampoule för känslig och lättirriterad hud.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "COSRX Centella Aqua Soothing Ampoule",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Ampoule / serum" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Centella asiatica-extrakt" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Känslig, lättirriterad hud" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4basIbK",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 272 omdömen.",
+      "highlights": [
+        "Köpare upplever en lugn och behaglig känsla, särskilt vid lättirriterad hud.",
+        "Lätt, vattnig textur som de flesta tycker absorberas snabbt.",
+        "Uppskattas som ett milt steg som känns skonsamt även för känslig hud."
+      ],
+      "cautions": [
+        "Den lätta texturen kan kännas för tunn om du föredrar ett rikare serum.",
+        "Som med all ny hudvård kan känslig hud reagera olika – testa gärna en liten yta först."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/centella-serum",
+    "cardBadge": "Lugnande",
+    "cardHook": "Lätt centella-ampoule för känslig, lättirriterad hud.",
+    "cardImage": "/products/cosrx-centella/cosrx-centella-thumbnail.webp",
+    "cardImageAlt": "COSRX Centella Aqua Soothing Ampoule, centella-serum",
+    "badge": "Elins lugn-favorit",
+    "headline": "COSRX Centella Ampoule – lugn och lätt",
+    "shortBody": "En lätt, vattnig ampoule med centella asiatica. Gjord för känslig, lättirriterad hud som vill ha ett milt steg med en lugn och behaglig känsla, utan att det känns tungt.",
+    "valueHook": "Centella-ampoule för känslig hud",
+    "valueStatement": "COSRX Centella Aqua Soothing Ampoule är en ampoule för dig med känslig, lättirriterad hud som vill ha något milt och lätt. Formulan bygger på centella asiatica, en omtyckt ingrediens för en lugn och behaglig känsla, och texturen är tunn och vattnig så att den lägger sig snabbt. Amazon visar 4,5 av 5 från 272 omdömen, och köpare lyfter framför allt den lugnande känslan och den lätta texturen.",
+    "passFor": [
+      "Har känslig eller lättirriterad hud och vill ha ett milt steg.",
+      "Gillar centella asiatica för en lugn, behaglig känsla.",
+      "Föredrar en lätt, vattnig textur framför ett tungt serum."
+    ],
+    "caution": "Den lätta, vattniga texturen kan kännas för tunn om du gillar ett rikare serum. Som med all ny hudvård kan känslig hud reagera olika, så testa gärna på en liten yta först.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Applicera några droppar på ren hud, morgon eller kväll, före fuktkräm. Den lätta texturen passar fint som ett tidigt steg och kan följas upp med ett rikare lager ovanpå."
+    },
+    "verdict": "Mild, lätt centella-ampoule för känslig och lättirriterad hud.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 272 omdömen. Köpare beskriver en lugn känsla och en lätt textur, men den tunna konsistensen kan kännas för lätt om du föredrar ett rikare serum.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Passar COSRX Centella Ampoule känslig hud?", "answer": "Den är gjord med tanke på känslig, lättirriterad hud och bygger på centella asiatica för en lugn känsla. Som med all ny hudvård kan du testa på en liten yta först." },
+      { "question": "När använder jag centella-ampoule?", "answer": "Den passar både morgon och kväll på ren hud, före fuktkräm. Den lätta texturen gör den enkel att lägga som ett tidigt steg i rutinen." },
+      { "question": "Vad är centella asiatica bra för?", "answer": "Centella asiatica är en omtyckt ingrediens i hudvård för en lugn och behaglig känsla i huden, och passar fint i en mild ampoule för känslig hud." }
+    ],
+    "reviewSectionId": "cosrx-centella-ampoule-recensioner",
+    "reviewFormId": "cosrx-centella-ampoule-skriv-recension",
+    "targetKeyword": "centella cica serum",
+    "metaTitle": "COSRX Centella Ampoule – lugn & lätt | Elins val",
+    "metaDescription": "Elin går igenom COSRX Centella Aqua Soothing Ampoule: en mild, lätt centella-ampoule för känslig hud (4,5 av 5, 272 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balsam för torr och stressad hud." },
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." }
+    ]
+  },
+  "images": {
+    "dir": "cosrx-centella",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61DpxN7NEYL._SL1500_.jpg", "out": "cosrx-centella-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31HjPyWHvFL._SL1500_.jpg", "out": "cosrx-centella-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ZBZ5zVqoL._SL1500_.jpg", "out": "cosrx-centella-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41vQJ0NLyOL._SL1500_.jpg", "out": "cosrx-centella-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "COSRX Centella Aqua Soothing Ampoule", "href": "/skonhet/centella-serum", "date": "2026-06-27", "image": "/products/cosrx-centella/cosrx-centella-thumbnail.webp", "blurb": "Lugnande centella-ampoule med lätt, vattnig textur för känslig, lättirriterad hud." }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "exportName": "divainCaffeineEyeSerumProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/ogonserum",
+  "pageComponentName": "OgonserumPage",
+  "product": {
+    "slug": "divain-caffeine-eye-serum",
+    "title": "DIVAIN Caffeine Eye Serum – ögonserum (30 ml)",
+    "category": "skonhet",
+    "asin": "B0G15MV1BD",
+    "brand": "DIVAIN",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Koffein", "Ögonpartiet", "Lätt serum"],
+    "image": "/products/divain-eye-serum/divain-thumbnail.webp",
+    "imageAlt": "DIVAIN Caffeine Eye Serum ögonserum, 30 ml",
+    "images": [
+      { "src": "/products/divain-eye-serum/divain-thumbnail.webp", "alt": "DIVAIN Caffeine Eye Serum ögonserum, 30 ml", "label": "Ögonserum" },
+      { "src": "/products/divain-eye-serum/divain-1.webp", "alt": "DIVAIN Caffeine Eye Serum med koffein för ögonpartiet", "label": "Koffein" },
+      { "src": "/products/divain-eye-serum/divain-2.webp", "alt": "DIVAIN Caffeine Eye Serum textur och konsistens", "label": "Lätt textur" },
+      { "src": "/products/divain-eye-serum/divain-3.webp", "alt": "Detaljbild av DIVAIN Caffeine Eye Serum flaska", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eyKPuc",
+    "pageHref": "/skonhet/ogonserum",
+    "summary": "Ett lätt ögonserum med koffein som hjälper till att fräscha upp ögonpartiet och mildra synliga mörka ringar. Tänkt som ett kosmetiskt steg som ger en piggare look kring ögonen.",
+    "evaluation": {
+      "headline": "Koffeinserum för ögonpartiet",
+      "intro": "Elin går igenom DIVAIN Caffeine Eye Serum: ett lätt ögonserum med koffein som är tänkt att fräscha upp ögonpartiet och mildra synliga mörka ringar på ett kosmetiskt sätt. Det här är en nyare produkt med få omdömen på Amazon, så Elin väljer den med försiktighet.",
+      "verdict": "Lätt koffeinserum för en piggare look kring ögonen – men ännu få omdömen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "DIVAIN Caffeine Eye Serum",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Ögonserum, 30 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Koffein" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Ögonpartiet, lätt textur" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eyKPuc",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 42 omdömen.",
+      "highlights": [
+        "Tidiga köpare upplever ett piggare ögonparti.",
+        "Lätt textur som de flesta tycker absorberas snabbt.",
+        "Uppskattas som ett enkelt steg kring ögonen."
+      ],
+      "cautions": [
+        "Produkten har ännu mycket få omdömen, så helhetsbilden är osäker.",
+        "Var försiktig nära ögonen och prova gärna på en liten yta först."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/ogonserum",
+    "cardBadge": "Koffein",
+    "cardHook": "Lätt ögonserum med koffein för en piggare look kring ögonen.",
+    "cardImage": "/products/divain-eye-serum/divain-thumbnail.webp",
+    "cardImageAlt": "DIVAIN Caffeine Eye Serum ögonserum, 30 ml",
+    "badge": "Elin har koll på nyheten",
+    "headline": "DIVAIN Caffeine Eye Serum – piggare ögonparti",
+    "shortBody": "Ett lätt ögonserum med koffein som är tänkt att fräscha upp ögonpartiet och mildra synliga mörka ringar. En nyare produkt med ännu få omdömen på Amazon.",
+    "valueHook": "Koffeinserum för ögonpartiet",
+    "valueStatement": "DIVAIN Caffeine Eye Serum är ett lätt ögonserum för dig som vill fräscha upp ögonpartiet på ett kosmetiskt sätt. Koffein är en omtyckt ingrediens för att mildra synliga mörka ringar och ge en piggare look kring ögonen. Det här är dock en nyare produkt: Amazon visar 4,3 av 5 från endast 42 omdömen, så helhetsbilden är fortfarande osäker och Elin väljer den med försiktighet.",
+    "passFor": [
+      "Vill fräscha upp ögonpartiet med ett lätt serum.",
+      "Är nyfiken på koffein mot synliga mörka ringar.",
+      "Gillar en lätt textur kring ögonen morgon och kväll."
+    ],
+    "caution": "Produkten har ännu mycket få omdömen på Amazon, så det går inte att dra säkra slutsatser om hur den fungerar för de flesta. Var försiktig nära ögonen och prova gärna på en liten yta först.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Klicka in en liten mängd försiktigt kring ögonbenet morgon och kväll, utan att komma för nära ögonkanten. Låt det absorberas innan du går vidare med resten av rutinen."
+    },
+    "verdict": "Lätt koffeinserum för en piggare look kring ögonen – men ännu få omdömen.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från endast 42 omdömen, så bilden är ännu osäker. Tidiga köpare beskriver ett piggare ögonparti och en lätt textur, men underlaget är litet.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag DIVAIN Caffeine Eye Serum?", "answer": "Klicka in en liten mängd försiktigt kring ögonbenet morgon och kväll, utan att komma för nära ögonkanten. Låt det absorberas innan resten av rutinen." },
+      { "question": "Är det många som har recenserat serumet?", "answer": "Nej, det är en nyare produkt med ännu mycket få omdömen på Amazon. Det betyder att helhetsbilden är osäker och bör tas med en nypa salt." },
+      { "question": "Vad gör koffein i ett ögonserum?", "answer": "Koffein är en omtyckt kosmetisk ingrediens för att fräscha upp ögonpartiet och mildra synliga mörka ringar för en piggare look." }
+    ],
+    "reviewSectionId": "divain-caffeine-eye-serum-recensioner",
+    "reviewFormId": "divain-caffeine-eye-serum-skriv-recension",
+    "targetKeyword": "ögonkräm koffein mörka ringar",
+    "metaTitle": "DIVAIN Caffeine Eye Serum – koffein för ögonpartiet | Elins val",
+    "metaDescription": "Elin går igenom DIVAIN Caffeine Eye Serum: ett lätt koffeinserum för ögonpartiet och synliga mörka ringar (4,3 av 5, endast 42 omdömen) – och varför hon väljer det med försiktighet.",
+    "relatedLinks": [
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg i rutinen." },
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Antioxidantserum för lyster och glow." }
+    ]
+  },
+  "images": {
+    "dir": "divain-eye-serum",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61Aw3PgulEL._SL1500_.jpg", "out": "divain-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31NFPRHWxPL._SL1500_.jpg", "out": "divain-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41dY-h5owHL._SL1500_.jpg", "out": "divain-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31fLNE+iZxL._SL1500_.jpg", "out": "divain-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "DIVAIN Caffeine Eye Serum – ögonserum", "href": "/skonhet/ogonserum", "date": "2026-06-27", "image": "/products/divain-eye-serum/divain-thumbnail.webp", "blurb": "Lätt koffeinserum för ögonpartiet och synliga mörka ringar – men ännu få omdömen." }
+  ]
+}

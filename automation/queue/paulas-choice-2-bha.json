@@ -1,0 +1,111 @@
+{
+  "exportName": "paulasChoiceBhaProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/bha-exfoliant",
+  "pageComponentName": "BhaExfoliantPage",
+  "product": {
+    "slug": "paulas-choice-2-bha",
+    "title": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant (30 ml)",
+    "category": "skonhet",
+    "asin": "B07PQSRXR6",
+    "brand": "Paula's Choice",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["2% salicylsyra", "Porer & lyster", "Kultfavorit"],
+    "image": "/products/paulas-choice-bha/bha-thumbnail.webp",
+    "imageAlt": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant, 30 ml",
+    "images": [
+      { "src": "/products/paulas-choice-bha/bha-thumbnail.webp", "alt": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant, 30 ml", "label": "2% BHA" },
+      { "src": "/products/paulas-choice-bha/bha-1.webp", "alt": "Paula's Choice 2% BHA exfoliant med salicylsyra", "label": "Salicylsyra" },
+      { "src": "/products/paulas-choice-bha/bha-2.webp", "alt": "Paula's Choice BHA flytande textur och konsistens", "label": "Flytande" },
+      { "src": "/products/paulas-choice-bha/bha-3.webp", "alt": "Detaljbild av Paula's Choice 2% BHA Liquid Exfoliant", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4wioG9H",
+    "pageHref": "/skonhet/bha-exfoliant",
+    "summary": "Ett ikoniskt flytande exfoliant med 2% salicylsyra (BHA) som mjukt exfolierar huden för renare porer, mer lyster och en slätare yta. En av de mest omtyckta exfolianterna på marknaden.",
+    "evaluation": {
+      "headline": "Salicylsyra för porer, lyster och slät hud",
+      "intro": "Elin går igenom Paula's Choice 2% BHA Liquid Exfoliant: ett flytande exfoliant med 2% salicylsyra som är känt för att hjälpa porer att se renare ut och ge huden mer lyster och en slätare yta. BHA är en omtyckt syra för blandad och fet hud, och just den här produkten är något av en kultfavorit.",
+      "verdict": "Kultfavorit-exfoliant för renare porer, lyster och slätare hud.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Paula's Choice Skin Perfecting 2% BHA",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Flytande exfoliant, 30 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "2% salicylsyra (BHA)" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Porer, blandad och fet hud" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4wioG9H",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 24 373 omdömen.",
+      "highlights": [
+        "Tusentals köpare upplever renare porer och en slätare hudyta.",
+        "Mycket uppskattad för mer lyster och en jämnare hudton.",
+        "Lätt flytande textur som de flesta tycker absorberas snabbt."
+      ],
+      "cautions": [
+        "Salicylsyra kan svida lätt i början – börja varannan dag.",
+        "Trappa upp användningen gradvis och lyssna på hur huden känns."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/bha-exfoliant",
+    "cardBadge": "Porer & lyster",
+    "cardHook": "2% salicylsyra för renare porer, lyster och slätare hud.",
+    "cardImage": "/products/paulas-choice-bha/bha-thumbnail.webp",
+    "cardImageAlt": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant, 30 ml",
+    "badge": "Elins kultfavorit",
+    "headline": "Paula's Choice 2% BHA – porer och lyster",
+    "shortBody": "Ett ikoniskt flytande exfoliant med 2% salicylsyra som mjukt exfolierar huden för renare porer, mer lyster och en slätare yta. En av de mest omtyckta exfolianterna som finns.",
+    "valueHook": "Salicylsyra för renare porer och lyster",
+    "valueStatement": "Paula's Choice 2% BHA Liquid Exfoliant är en av de mest omtyckta exfolianterna på marknaden. Den bygger på 2% salicylsyra, en BHA-syra som hjälper porer att se renare ut och ger huden mer lyster och en slätare yta. Den passar särskilt blandad och fet hud. Amazon visar 4,3 av 5 från hela 24 373 omdömen, och köpare lyfter framför allt renare porer, mer lyster och den lätta flytande texturen.",
+    "passFor": [
+      "Vill ha renare porer och en slätare hudyta.",
+      "Har blandad eller fet hud och gillar kemisk exfoliering.",
+      "Söker mer lyster med en lätt, flytande produkt."
+    ],
+    "caution": "Salicylsyra kan svida lätt i början och upplevelsen varierar mellan hudtyper. Börja varannan dag, trappa upp gradvis och lyssna på hur huden känns innan du använder den oftare.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera en liten mängd på ren hud med en bomullsrondell eller fingrarna, undvik ögonområdet. Börja varannan dag och följ upp med ett återfuktande lager. Salicylsyra fungerar fint både morgon och kväll."
+    },
+    "verdict": "Kultfavorit-exfoliant för renare porer, lyster och slätare hud.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 24 373 omdömen. Tusentals köpare beskriver renare porer, mer lyster och en slätare hud, men salicylsyra kan svida lätt i början.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad gör 2% BHA/salicylsyra för huden?", "answer": "Salicylsyra är en BHA som exfolierar mjukt och hjälper porer att se renare ut. Den är omtyckt för att ge mer lyster och en slätare hudyta, särskilt på blandad och fet hud." },
+      { "question": "Hur ofta ska jag använda exfolianten?", "answer": "Börja varannan dag och trappa upp gradvis om huden mår bra. Många använder den dagligen med tiden, men lyssna alltid på hur huden känns." },
+      { "question": "Kan jag använda den både morgon och kväll?", "answer": "Salicylsyra fungerar fint vid båda tillfällena. Applicera på ren hud och följ upp med ett återfuktande lager, oavsett när på dygnet du använder den." }
+    ],
+    "reviewSectionId": "paulas-choice-2-bha-recensioner",
+    "reviewFormId": "paulas-choice-2-bha-skriv-recension",
+    "targetKeyword": "bha exfoliant salicylsyra",
+    "metaTitle": "Paula's Choice 2% BHA Exfoliant – porer & lyster | Elins val",
+    "metaDescription": "Elin går igenom Paula's Choice 2% BHA Liquid Exfoliant: salicylsyra för renare porer, lyster och slätare hud (4,3 av 5, 24 373 omdömen) – och hur du använder den.",
+    "relatedLinks": [
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Antioxidant för lyster och glow på morgonen." },
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som grund i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "paulas-choice-bha",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61NrRc98TEL._SL1500_.jpg", "out": "bha-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31IZi6I3rmL._SL1500_.jpg", "out": "bha-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41Muo0jw+5L._SL1500_.jpg", "out": "bha-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/413d17DWQYL._SL1500_.jpg", "out": "bha-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Paula's Choice Skin Perfecting 2% BHA", "href": "/skonhet/bha-exfoliant", "date": "2026-06-27", "image": "/products/paulas-choice-bha/bha-thumbnail.webp", "blurb": "Ikoniskt exfoliant med 2% salicylsyra för renare porer, lyster och slätare hud." }
+  ]
+}

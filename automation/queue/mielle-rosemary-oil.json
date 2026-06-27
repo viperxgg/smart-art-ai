@@ -1,0 +1,111 @@
+{
+  "exportName": "mielleRosemaryOilProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/rosmarinolja",
+  "pageComponentName": "RosmarinoljaPage",
+  "product": {
+    "slug": "mielle-rosemary-oil",
+    "title": "Mielle Rosemary Mint Scalp & Hair Strengthening Oil (58 g)",
+    "category": "skonhet",
+    "asin": "B0CJM8546H",
+    "brand": "Mielle Organics",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Rosmarin & mynta", "Uppfriskande", "Viral favorit"],
+    "image": "/products/mielle-rosemary/mielle-thumbnail.webp",
+    "imageAlt": "Mielle Rosemary Mint Scalp & Hair Oil, 58 g",
+    "images": [
+      { "src": "/products/mielle-rosemary/mielle-thumbnail.webp", "alt": "Mielle Rosemary Mint Scalp & Hair Oil, 58 g", "label": "Mielle olja" },
+      { "src": "/products/mielle-rosemary/mielle-1.webp", "alt": "Mielle Rosemary Mint olja med rosmarin och mynta", "label": "Rosmarin & mynta" },
+      { "src": "/products/mielle-rosemary/mielle-2.webp", "alt": "Mielle hårbottenolja textur och pipettflaska", "label": "Pipettflaska" },
+      { "src": "/products/mielle-rosemary/mielle-3.webp", "alt": "Detaljbild av Mielle Rosemary Mint Scalp & Hair Oil", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4ePbPVi",
+    "pageHref": "/skonhet/rosmarinolja",
+    "summary": "En viral hårbottenolja med rosmarin och mynta som ger en uppfriskande känsla i hårbotten och vårdar längderna. En populär favorit för dig som gillar en lätt svalkande olja i håret.",
+    "evaluation": {
+      "headline": "Hårbottenolja med rosmarin och mynta",
+      "intro": "Elin går igenom Mielle Rosemary Mint Scalp & Hair Oil: en viral hårbottenolja med rosmarin och mynta. Den masseras in i hårbotten för en uppfriskande, lätt svalkande känsla och kan även användas i längderna för omvårdnad.",
+      "verdict": "Uppfriskande hårbottenolja för dig som gillar rosmarin och mynta.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Mielle Rosemary Mint Scalp & Hair Oil",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Hårbottenolja, 58 g" },
+      { "label": "Doft", "caption": "Profil", "value": "Rosmarin och mynta" },
+      { "label": "Profil", "caption": "Hårvård", "value": "Hårbotten och längder" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4ePbPVi",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 2 413 omdömen.",
+      "highlights": [
+        "Köpare gillar den uppfriskande, lätt svalkande känslan i hårbotten.",
+        "Doften av rosmarin och mynta är en favorit hos många.",
+        "Pipettflaskan gör det enkelt att dosera direkt på hårbotten."
+      ],
+      "cautions": [
+        "Det är en olja – använd sparsamt så att håret inte känns tyngt.",
+        "Doften av mynta är tydlig och upplevs olika från person till person."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/rosmarinolja",
+    "cardBadge": "Rosmarin & mynta",
+    "cardHook": "Viral hårbottenolja med en uppfriskande, svalkande känsla.",
+    "cardImage": "/products/mielle-rosemary/mielle-thumbnail.webp",
+    "cardImageAlt": "Mielle Rosemary Mint Scalp & Hair Oil, 58 g",
+    "badge": "Elins favorit för hårbotten",
+    "headline": "Mielle Rosemary Mint – olja för hårbotten och längder",
+    "shortBody": "En viral hårbottenolja med rosmarin och mynta som ger en uppfriskande känsla i hårbotten och vårdar längderna. En populär favorit för dig som gillar en lätt svalkande olja.",
+    "valueHook": "Hårbottenolja med rosmarin och mynta",
+    "valueStatement": "Mielle Rosemary Mint Scalp & Hair Oil är en viral hårbottenolja för dig som vill ge hårbotten och längder lite extra omvårdnad. Rosmarin och mynta ger en uppfriskande, lätt svalkande känsla när oljan masseras in. Amazon visar 4,4 av 5 från 2 413 omdömen, och köpare lyfter framför allt den svalkande känslan och doften.",
+    "passFor": [
+      "Gillar en uppfriskande, lätt svalkande känsla i hårbotten.",
+      "Tycker om doften av rosmarin och mynta i hårvården.",
+      "Vill ha en olja som går att använda både på hårbotten och längder."
+    ],
+    "caution": "Det här är en olja, så använd den sparsamt så att håret inte känns tyngt. Doften av mynta är tydlig och upplevs olika från person till person, och resultatet varierar med hårtyp.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Droppa lite olja direkt på hårbotten och massera in med fingertopparna. Du kan även stryka en liten mängd genom längderna. Börja sparsamt och justera mängden efter hur håret känns."
+    },
+    "verdict": "Uppfriskande hårbottenolja för dig som gillar rosmarin och mynta.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 2 413 omdömen. Köpare beskriver en uppfriskande, svalkande känsla och uppskattar doften, men det är en olja som bör doseras sparsamt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag Mielle Rosemary Mint-oljan?", "answer": "Droppa lite olja direkt på hårbotten och massera in med fingertopparna. Du kan även stryka en liten mängd genom längderna. Börja sparsamt och justera efter hur håret känns." },
+      { "question": "Känns oljan tung i håret?", "answer": "Det beror på hur mycket du använder. Eftersom det är en olja är det bäst att börja med en liten mängd och öka vid behov, så att längderna inte känns tyngda." },
+      { "question": "Hur ofta kan jag använda den?", "answer": "Många använder den några gånger i veckan. Lyssna på hur hårbotten och längderna känns och anpassa frekvensen efter din egen rutin." }
+    ],
+    "reviewSectionId": "mielle-rosemary-oil-recensioner",
+    "reviewFormId": "mielle-rosemary-oil-skriv-recension",
+    "targetKeyword": "rosmarinolja för håret",
+    "metaTitle": "Mielle Rosemary Mint Scalp & Hair Oil – rosmarinolja | Elins val",
+    "metaDescription": "Elin går igenom Mielle Rosemary Mint Scalp & Hair Oil: en viral hårbottenolja med rosmarin och mynta för en uppfriskande känsla (4,4 av 5, 2 413 omdömen) – och hur du använder den.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Närande olja för torra längder och toppar." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret före föntork och plattång." }
+    ]
+  },
+  "images": {
+    "dir": "mielle-rosemary",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61v4u4fYHkL._SL1500_.jpg", "out": "mielle-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31lkFHhA3-L._SL1500_.jpg", "out": "mielle-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31+ptTEyCrL._SL1500_.jpg", "out": "mielle-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31ThEMGae2L._SL1500_.jpg", "out": "mielle-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Mielle Rosemary Mint Scalp & Hair Oil", "href": "/skonhet/rosmarinolja", "date": "2026-06-27", "image": "/products/mielle-rosemary/mielle-thumbnail.webp", "blurb": "Viral hårbottenolja med rosmarin och mynta för en uppfriskande känsla i hårbotten." }
+  ]
+}

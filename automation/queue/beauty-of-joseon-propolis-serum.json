@@ -1,0 +1,111 @@
+{
+  "exportName": "beautyOfJoseonPropolisProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/propolis-serum",
+  "pageComponentName": "PropolisSerumPage",
+  "product": {
+    "slug": "beauty-of-joseon-propolis-serum",
+    "title": "Beauty of Joseon Glow Serum – Propolis + Niacinamide (30 ml)",
+    "category": "skonhet",
+    "asin": "B086VKZZZY",
+    "brand": "Beauty of Joseon",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Propolis + niacinamide", "Lyster & glow", "Jämnare hudton"],
+    "image": "/products/boj-propolis/boj-propolis-thumbnail.webp",
+    "imageAlt": "Beauty of Joseon Glow Serum med propolis och niacinamide, 30 ml",
+    "images": [
+      { "src": "/products/boj-propolis/boj-propolis-thumbnail.webp", "alt": "Beauty of Joseon Glow Serum med propolis och niacinamide, 30 ml", "label": "Glow Serum" },
+      { "src": "/products/boj-propolis/boj-propolis-1.webp", "alt": "Beauty of Joseon Glow Serum med propolis för lyster", "label": "Propolis" },
+      { "src": "/products/boj-propolis/boj-propolis-2.webp", "alt": "Beauty of Joseon Glow Serum textur och konsistens", "label": "Textur" },
+      { "src": "/products/boj-propolis/boj-propolis-3.webp", "alt": "Detaljbild av Beauty of Joseon Glow Serum propolis niacinamide", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eJCDpX",
+    "pageHref": "/skonhet/propolis-serum",
+    "summary": "Ett lystergivande serum med propolis och niacinamide för glow och en jämnare hudton. Den lätt sirapsaktiga texturen ger en behaglig, dewy känsla och passar fint i en rutin där du vill lyfta hudens lyster.",
+    "evaluation": {
+      "headline": "Propolis-serum för glow och jämnare hudton",
+      "intro": "Elin går igenom Beauty of Joseon Glow Serum: propolis tillsammans med niacinamide, en omtyckt kombination för lyster och en jämnare hudton. Tanken är ett serum som ger huden en piggare, mer strålande look med en behaglig, dewy känsla.",
+      "verdict": "Omtyckt glow-serum med propolis och niacinamide för lyster och jämnare hudton.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Beauty of Joseon Glow Serum",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Serum, 30 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Propolis + niacinamide" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Lyster och jämnare hudton" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eJCDpX",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 3973 omdömen.",
+      "highlights": [
+        "Köpare upplever mer glow och en piggare, mer strålande hud med tiden.",
+        "Många tycker att hudtonen ser jämnare och mer utvilad ut.",
+        "Den lätt sirapsaktiga texturen ger en behaglig, dewy känsla."
+      ],
+      "cautions": [
+        "Den lätt sirapsaktiga texturen kan kännas klibbig för den som gillar ett torrt finish.",
+        "Innehåller propolis (bibaserad ingrediens) – undvik om du är allergisk mot bi-produkter."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/propolis-serum",
+    "cardBadge": "Lyster & glow",
+    "cardHook": "Propolis och niacinamide för glow och en jämnare hudton.",
+    "cardImage": "/products/boj-propolis/boj-propolis-thumbnail.webp",
+    "cardImageAlt": "Beauty of Joseon Glow Serum med propolis och niacinamide, 30 ml",
+    "badge": "Elins glow-favorit",
+    "headline": "Beauty of Joseon Glow Serum – propolis och glow",
+    "shortBody": "Ett populärt serum med propolis och niacinamide. Gjort för lyster, glow och en jämnare hudton, med en lätt sirapsaktig textur som ger en behaglig, dewy känsla i huden.",
+    "valueHook": "Propolis-serum för glow och jämnare hudton",
+    "valueStatement": "Beauty of Joseon Glow Serum är ett serum för dig som vill ge huden mer lyster och en piggare, mer strålande look. Formulan bygger på propolis tillsammans med niacinamide, en omtyckt kombination för glow och en jämnare hudton. Amazon visar 4,4 av 5 från 3973 omdömen, och köpare lyfter framför allt glowen, den jämnare hudtonen och den behagliga, dewy känslan.",
+    "passFor": [
+      "Vill ge huden mer lyster och glow i rutinen.",
+      "Gillar propolis och niacinamide för en jämnare hudton.",
+      "Tycker om en lätt dewy, behaglig känsla snarare än ett torrt finish."
+    ],
+    "caution": "Den lätt sirapsaktiga texturen kan kännas klibbig om du föredrar ett torrt finish. Serumet innehåller propolis, en bibaserad ingrediens, så undvik det om du är allergisk mot bi-produkter.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera några droppar på ren hud, morgon eller kväll, före fuktkräm. Den dewy texturen passar fint som ett lystergivande steg och kan följas upp med ett återfuktande lager ovanpå."
+    },
+    "verdict": "Omtyckt glow-serum med propolis och niacinamide för lyster och jämnare hudton.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 3973 omdömen. Köpare beskriver mer glow och en jämnare hudton, men den lätt sirapsaktiga texturen kan kännas klibbig för den som gillar ett torrt finish.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När använder jag propolis-serum?", "answer": "Det passar både morgon och kväll på ren hud, före fuktkräm. På morgonen ger det glow under dagen och på kvällen en behaglig, dewy känsla." },
+      { "question": "Vad gör propolis och niacinamide i serumet?", "answer": "Propolis och niacinamide är en omtyckt kombination för lyster och en jämnare hudton, och bidrar till en piggare, mer strålande look." },
+      { "question": "Passar Glow Serum om jag är allergisk mot bi-produkter?", "answer": "Serumet innehåller propolis, som är en bibaserad ingrediens. Är du allergisk mot bi-produkter bör du undvika det och välja ett annat lyster-serum." }
+    ],
+    "reviewSectionId": "beauty-of-joseon-propolis-serum-recensioner",
+    "reviewFormId": "beauty-of-joseon-propolis-serum-skriv-recension",
+    "targetKeyword": "propolis serum",
+    "metaTitle": "Beauty of Joseon Glow Serum – propolis & glow | Elins val",
+    "metaDescription": "Elin går igenom Beauty of Joseon Glow Serum: propolis och niacinamide för glow och en jämnare hudton (4,4 av 5, 3973 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Antioxidantserum för lyster och glow." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "boj-propolis",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/619pJvn1MUL._SL1500_.jpg", "out": "boj-propolis-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31HXkzj1hmL._SL1500_.jpg", "out": "boj-propolis-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41QWsFPtGGL._SL1500_.jpg", "out": "boj-propolis-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/418clpTRHcL._SL1500_.jpg", "out": "boj-propolis-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Beauty of Joseon Glow Serum", "href": "/skonhet/propolis-serum", "date": "2026-06-27", "image": "/products/boj-propolis/boj-propolis-thumbnail.webp", "blurb": "Lystergivande serum med propolis och niacinamide för glow och en jämnare hudton." }
+  ]
+}

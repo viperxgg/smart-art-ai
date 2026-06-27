@@ -1,0 +1,111 @@
+{
+  "exportName": "biothermBodyLotionProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/kroppslotion",
+  "pageComponentName": "KroppslotionPage",
+  "product": {
+    "slug": "biotherm-lait-corporel",
+    "title": "Biotherm Lait Corporel – återfuktande kroppslotion",
+    "category": "skonhet",
+    "asin": "B00017Y63O",
+    "brand": "Biotherm",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Återfuktar & mjukgör", "Lättabsorberad", "Frisk doft"],
+    "image": "/products/biotherm-body-lotion/biotherm-thumbnail.webp",
+    "imageAlt": "Biotherm Lait Corporel återfuktande kroppslotion",
+    "images": [
+      { "src": "/products/biotherm-body-lotion/biotherm-thumbnail.webp", "alt": "Biotherm Lait Corporel återfuktande kroppslotion", "label": "Lait Corporel" },
+      { "src": "/products/biotherm-body-lotion/biotherm-1.webp", "alt": "Biotherm Lait Corporel kroppslotion som återfuktar och mjukgör", "label": "Återfuktande" },
+      { "src": "/products/biotherm-body-lotion/biotherm-2.webp", "alt": "Biotherm Lait Corporel lätt textur och konsistens", "label": "Lätt textur" },
+      { "src": "/products/biotherm-body-lotion/biotherm-3.webp", "alt": "Detaljbild av Biotherm Lait Corporel kroppslotion", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4vA2t72",
+    "pageHref": "/skonhet/kroppslotion",
+    "summary": "En klassisk kroppslotion som återfuktar och mjukgör huden med en lätt, snabbt insjunkande textur och en frisk doft. Ett enkelt sätt att hålla huden len och smidig varje dag.",
+    "evaluation": {
+      "headline": "Klassisk kroppslotion för len, mjuk hud",
+      "intro": "Elin går igenom Biotherm Lait Corporel: en omtyckt kroppslotion som återfuktar och mjukgör med en lätt textur som absorberas snabbt. Den friska doften och den smidiga konsistensen gör den enkel att använda dagligen efter dusch.",
+      "verdict": "En klassisk, lättabsorberad kroppslotion som håller huden len och återfuktad.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Biotherm Lait Corporel",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Kroppslotion" },
+      { "label": "Effekt", "caption": "Hudvård", "value": "Återfuktar och mjukgör huden" },
+      { "label": "Textur", "caption": "Känsla", "value": "Lätt och snabbt insjunkande" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4vA2t72",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 4002 omdömen.",
+      "highlights": [
+        "Köpare upplever att huden känns len och återfuktad efter användning.",
+        "Lätt textur som de flesta tycker absorberas snabbt utan att kännas klibbig.",
+        "Den friska doften är mycket uppskattad i omdömena."
+      ],
+      "cautions": [
+        "Doften är märkbar och passar inte alla – gilla doft är en smaksak.",
+        "Vid mycket torr hud kan ett rikare lager eller daglig användning behövas."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/kroppslotion",
+    "cardBadge": "Återfuktar & mjukgör",
+    "cardHook": "Lättabsorberad kroppslotion som håller huden len och smidig.",
+    "cardImage": "/products/biotherm-body-lotion/biotherm-thumbnail.webp",
+    "cardImageAlt": "Biotherm Lait Corporel återfuktande kroppslotion",
+    "badge": "Elins favorit för kroppen",
+    "headline": "Biotherm Lait Corporel – återfuktande kroppslotion",
+    "shortBody": "En klassisk kroppslotion som återfuktar och mjukgör med en lätt, snabbt insjunkande textur. Den friska doften och smidiga konsistensen gör den enkel att använda varje dag efter dusch.",
+    "valueHook": "Klassisk kroppslotion för len, mjuk hud",
+    "valueStatement": "Biotherm Lait Corporel är en omtyckt kroppslotion för dig som vill hålla huden len, mjuk och återfuktad i vardagen. Den lätta texturen sjunker in snabbt utan att kännas klibbig, och den friska doften gör den till ett trevligt steg efter duschen. Amazon visar 4,7 av 5 från 4002 omdömen, och köpare lyfter framför allt hur återfuktad huden känns, den lätta känslan och doften.",
+    "passFor": [
+      "Vill ha en lättabsorberad kroppslotion till dagligt bruk.",
+      "Gillar en frisk doft och en len, smidig hudkänsla.",
+      "Söker en klassisk lotion som återfuktar och mjukgör huden."
+    ],
+    "caution": "Doften är märkbar och om du föredrar oparfymerat passar den mindre bra. Vid mycket torr hud kan du behöva applicera ett rikare lager eller använda lotionen dagligen för bästa resultat.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Applicera på ren, lätt fuktig hud direkt efter dusch eller bad. Då låser du in fukten bäst och huden hinner kännas len och mjuk innan du klär på dig."
+    },
+    "verdict": "En klassisk, lättabsorberad kroppslotion som håller huden len och återfuktad.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 4002 omdömen. Köpare beskriver en len, återfuktad hud och en lätt textur som absorberas snabbt, men doften är en smaksak.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När använder jag kroppslotionen bäst?", "answer": "Bäst effekt får du på ren, lätt fuktig hud direkt efter dusch eller bad. Då låses fukten in och huden känns len och mjuk en längre stund." },
+      { "question": "Känns Biotherm Lait Corporel klibbig?", "answer": "Texturen är lätt och beskrivs som snabbt insjunkande i omdömena, så de flesta upplever den inte som klibbig. Använd ett tunt lager och låt den sjunka in innan du klär på dig." },
+      { "question": "Passar lotionen torr hud?", "answer": "Den återfuktar och mjukgör och passar fint till daglig vård. Vid mycket torr hud kan du applicera ett rikare lager eller använda den varje dag för bästa känsla." }
+    ],
+    "reviewSectionId": "biotherm-lait-corporel-recensioner",
+    "reviewFormId": "biotherm-lait-corporel-skriv-recension",
+    "targetKeyword": "kroppslotion",
+    "metaTitle": "Biotherm Lait Corporel – återfuktande kroppslotion | Elins val",
+    "metaDescription": "Elin går igenom Biotherm Lait Corporel: en klassisk kroppslotion som återfuktar och mjukgör med lätt textur (4,7 av 5, 4002 omdömen) – och vad du bör veta om doft och hudkänsla.",
+    "relatedLinks": [
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som tar dagen utan att torka ut." },
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balsam för torr och stressad hud." },
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Antioxidantserum för lyster och glow." }
+    ]
+  },
+  "images": {
+    "dir": "biotherm-body-lotion",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61h77hdFTEL._SL1500_.jpg", "out": "biotherm-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31RgvSbTXCL._SL1500_.jpg", "out": "biotherm-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41W59mVqlaL._SL1500_.jpg", "out": "biotherm-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41qfo8RcfOL._SL1500_.jpg", "out": "biotherm-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Biotherm Lait Corporel kroppslotion", "href": "/skonhet/kroppslotion", "date": "2026-06-27", "image": "/products/biotherm-body-lotion/biotherm-thumbnail.webp", "blurb": "Klassisk, lättabsorberad kroppslotion som återfuktar och mjukgör huden." }
+  ]
+}

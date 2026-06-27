@@ -1,0 +1,111 @@
+{
+  "exportName": "purestAhaBhaPeelingProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/ansiktspeeling",
+  "pageComponentName": "AnsiktspeelingPage",
+  "product": {
+    "slug": "purest-aha-bha-peeling",
+    "title": "The Purest Solutions AHA 10% + BHA 2% Exfoliating Peeling (30 ml)",
+    "category": "skonhet",
+    "asin": "B08K5H5451",
+    "brand": "The Purest Solutions",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["AHA 10% + BHA 2%", "Lyster", "Jämnare hudton"],
+    "image": "/products/aha-bha-peeling/peeling-thumbnail.webp",
+    "imageAlt": "The Purest Solutions AHA 10% + BHA 2% Exfoliating Peeling, 30 ml",
+    "images": [
+      { "src": "/products/aha-bha-peeling/peeling-thumbnail.webp", "alt": "The Purest Solutions AHA 10% + BHA 2% Exfoliating Peeling, 30 ml", "label": "AHA + BHA" },
+      { "src": "/products/aha-bha-peeling/peeling-1.webp", "alt": "The Purest Solutions kemisk peeling med 10% AHA och 2% BHA", "label": "10% + 2%" },
+      { "src": "/products/aha-bha-peeling/peeling-2.webp", "alt": "The Purest Solutions peeling textur och konsistens", "label": "Textur" },
+      { "src": "/products/aha-bha-peeling/peeling-3.webp", "alt": "Detaljbild av The Purest Solutions AHA BHA peeling", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4et2FPi",
+    "pageHref": "/skonhet/ansiktspeeling",
+    "summary": "En kemisk ansiktspeeling med 10% AHA och 2% BHA som exfolierar huden för mer lyster och en jämnare hudton. Tänkt att användas varannan vecka som ett extrasteg i rutinen.",
+    "evaluation": {
+      "headline": "Kemisk peeling för lyster och jämnare hudton",
+      "intro": "Elin går igenom The Purest Solutions AHA 10% + BHA 2%: en kemisk peeling som exfolierar ytligt för att ge huden mer lyster och en jämnare hudton. AHA och BHA är omtyckta syror för att mjuka upp och fräscha till huden, och den här används som ett extrasteg ungefär varannan vecka.",
+      "verdict": "Prisvärd kemisk peeling för lyster och jämnare hudton – använd varannan vecka.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "The Purest Solutions AHA + BHA Peeling",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Peeling, 30 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "10% AHA + 2% BHA" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Exfoliering, varannan vecka" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4et2FPi",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 504 omdömen.",
+      "highlights": [
+        "Köpare upplever mer lyster och en jämnare hudton efter användning.",
+        "Uppskattas för att kännas som ett enkelt extrasteg i rutinen.",
+        "Många tycker huden känns slätare och fräschare dagen efter."
+      ],
+      "cautions": [
+        "Starka syror kan svida – börja försiktigt och använd inte för ofta.",
+        "Använd den på kvällen och hoppa över om huden känns irriterad."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/ansiktspeeling",
+    "cardBadge": "Lyster",
+    "cardHook": "Kemisk peeling med 10% AHA + 2% BHA för lyster och jämnare hudton.",
+    "cardImage": "/products/aha-bha-peeling/peeling-thumbnail.webp",
+    "cardImageAlt": "The Purest Solutions AHA 10% + BHA 2% Exfoliating Peeling, 30 ml",
+    "badge": "Elins glow-favorit",
+    "headline": "The Purest Solutions AHA + BHA – peeling för lyster",
+    "shortBody": "En kemisk peeling med 10% AHA och 2% BHA som exfolierar huden för mer lyster och en jämnare hudton. Tänkt som ett extrasteg ungefär varannan vecka, inte varje dag.",
+    "valueHook": "Kemisk peeling för lyster och jämnare hudton",
+    "valueStatement": "The Purest Solutions AHA 10% + BHA 2% är till för dig som vill ge huden ett lystergivande extrasteg utan att skrubba. AHA och BHA är omtyckta exfolierande syror som mjukar upp ytan och kan göra hudtonen jämnare. Det här är en peeling man använder med måtta, ungefär varannan vecka. Amazon visar 4,4 av 5 från 504 omdömen, och köpare lyfter framför allt lystern och att huden känns slätare och fräschare dagen efter.",
+    "passFor": [
+      "Vill ge huden mer lyster med ett enkelt extrasteg.",
+      "Gillar kemisk exfoliering framför fysiska skrubb.",
+      "Söker en jämnare hudton över tid, varannan vecka."
+    ],
+    "caution": "Det här är starka syror, så börja försiktigt och använd inte för ofta. Använd peelingen på kvällen, hoppa över den om huden känns irriterad, och upplevelsen varierar mellan hudtyper.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera på ren, torr hud på kvällen ungefär varannan vecka, undvik ögonområdet och skölj av enligt förpackningens anvisning. Följ upp med ett återfuktande lager efteråt."
+    },
+    "verdict": "Prisvärd kemisk peeling för lyster och jämnare hudton – använd varannan vecka.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 504 omdömen. Köpare beskriver mer lyster och en jämnare, slätare hud, men starka syror kräver att man tar det försiktigt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur ofta använder jag en AHA/BHA-peeling?", "answer": "Den här peelingen är tänkt som ett extrasteg ungefär varannan vecka, inte dagligen. Börja försiktigt och känn av hur huden reagerar innan du använder den oftare." },
+      { "question": "Vad gör AHA och BHA i en peeling?", "answer": "AHA och BHA är exfolierande syror som mjukar upp hudens yta. De är omtyckta för att ge mer lyster och en jämnare hudton när de används med måtta." },
+      { "question": "När på dygnet ska peelingen användas?", "answer": "Använd den på kvällen på ren hud och följ upp med ett återfuktande lager. Hoppa över den om huden känns irriterad eller stram." }
+    ],
+    "reviewSectionId": "purest-aha-bha-peeling-recensioner",
+    "reviewFormId": "purest-aha-bha-peeling-skriv-recension",
+    "targetKeyword": "ansiktspeeling aha bha",
+    "metaTitle": "The Purest Solutions AHA + BHA Peeling – lyster | Elins val",
+    "metaDescription": "Elin går igenom The Purest Solutions AHA 10% + BHA 2%: en kemisk peeling för lyster och jämnare hudton (4,4 av 5, 504 omdömen) – och hur du använder den rätt.",
+    "relatedLinks": [
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Antioxidant för lyster och glow på morgonen." },
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som grund i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "aha-bha-peeling",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71TRkXLgsSL._SL1500_.jpg", "out": "peeling-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/413DMnjgxZL._SL1500_.jpg", "out": "peeling-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41HkC8zhsuL._SL1500_.jpg", "out": "peeling-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/412WNTh4FyL._SL1500_.jpg", "out": "peeling-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "The Purest Solutions AHA + BHA Peeling", "href": "/skonhet/ansiktspeeling", "date": "2026-06-27", "image": "/products/aha-bha-peeling/peeling-thumbnail.webp", "blurb": "Kemisk peeling med 10% AHA och 2% BHA för lyster och en jämnare hudton." }
+  ]
+}

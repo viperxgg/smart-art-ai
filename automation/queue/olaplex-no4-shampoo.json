@@ -1,0 +1,111 @@
+{
+  "exportName": "olaplexNo4ShampooProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/olaplex-schampo",
+  "pageComponentName": "OlaplexSchampoPage",
+  "product": {
+    "slug": "olaplex-no4-shampoo",
+    "title": "Olaplex No.4 Bond Maintenance Shampoo (250 ml)",
+    "category": "skonhet",
+    "asin": "B08TWQ37XF",
+    "brand": "Olaplex",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Återuppbyggande", "För färgat hår", "Stärker slitna längder"],
+    "image": "/products/olaplex-no4/olaplex4-thumbnail.webp",
+    "imageAlt": "Olaplex No.4 Bond Maintenance Shampoo, 250 ml",
+    "images": [
+      { "src": "/products/olaplex-no4/olaplex4-thumbnail.webp", "alt": "Olaplex No.4 Bond Maintenance Shampoo, 250 ml", "label": "Olaplex No.4" },
+      { "src": "/products/olaplex-no4/olaplex4-1.webp", "alt": "Olaplex No.4 schampo för slitet och färgat hår", "label": "Färgat hår" },
+      { "src": "/products/olaplex-no4/olaplex4-2.webp", "alt": "Olaplex No.4 schampo textur och konsistens", "label": "Krämig lödder" },
+      { "src": "/products/olaplex-no4/olaplex4-3.webp", "alt": "Detaljbild av Olaplex No.4 Bond Maintenance Shampoo", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4f6HpyY",
+    "pageHref": "/skonhet/olaplex-schampo",
+    "summary": "Ett återuppbyggande schampo som är gjort för att stärka och vårda slitet, färgat hår. Olaplex No.4 rengör samtidigt som det jobbar med håret från längder till toppar för en mjukare och mer hanterbar känsla.",
+    "evaluation": {
+      "headline": "Återuppbyggande schampo för slitet, färgat hår",
+      "intro": "Elin går igenom Olaplex No.4 Bond Maintenance Shampoo: ett schampo som är gjort för att stärka och vårda hår som blivit slitet av färgning, blekning och värme. Det rengör skonsamt och jobbar med längder och toppar för en mjukare, mer hanterbar känsla.",
+      "verdict": "Återuppbyggande schampo som många väljer för slitet och färgat hår.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Olaplex No.4 Bond Maintenance Shampoo",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Schampo, 250 ml" },
+      { "label": "Hårtyp", "caption": "Passar", "value": "Slitet och färgat hår" },
+      { "label": "Profil", "caption": "Hårvård", "value": "Återuppbyggande, vårdande" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4f6HpyY",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 13 375 omdömen.",
+      "highlights": [
+        "Köpare upplever att slitet och färgat hår känns starkare och mjukare med tiden.",
+        "Lite produkt räcker långt och löddrar krämigt.",
+        "Uppskattas som ett bra steg före balsam och inpackning i samma serie."
+      ],
+      "cautions": [
+        "Ett vårdande schampo räcker inte alltid ensamt – kombinera gärna med balsam för bäst känsla.",
+        "Upplevelsen varierar mellan hårtyper och hur slitet håret är från början."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/olaplex-schampo",
+    "cardBadge": "För färgat hår",
+    "cardHook": "Återuppbyggande schampo som stärker slitna, färgade längder.",
+    "cardImage": "/products/olaplex-no4/olaplex4-thumbnail.webp",
+    "cardImageAlt": "Olaplex No.4 Bond Maintenance Shampoo, 250 ml",
+    "badge": "Elins favorit för slitet hår",
+    "headline": "Olaplex No.4 – återuppbyggande schampo för färgat hår",
+    "shortBody": "Ett schampo som är gjort för att stärka och vårda slitet, färgat hår. Det rengör skonsamt och jobbar med längder och toppar för en mjukare, mer hanterbar känsla.",
+    "valueHook": "Stärker och vårdar slitet, färgat hår",
+    "valueStatement": "Olaplex No.4 Bond Maintenance Shampoo är ett återuppbyggande schampo för dig med hår som blivit slitet av färgning, blekning och värme. Det rengör skonsamt samtidigt som det jobbar med längder och toppar, så att håret känns starkare, mjukare och mer hanterbart. Amazon visar 4,5 av 5 från 13 375 omdömen, och köpare lyfter framför allt att slitna, färgade längder känns starkare med tiden och att lite produkt räcker långt.",
+    "passFor": [
+      "Har färgat eller blekt hår och vill vårda slitna längder.",
+      "Vill ha ett återuppbyggande schampo som känns mjukgörande.",
+      "Gillar att lite produkt räcker långt och löddrar krämigt."
+    ],
+    "caution": "Ett vårdande schampo gör mest nytta tillsammans med rätt rutin, och upplevelsen varierar mellan hårtyper och hur slitet håret är. Kombinera gärna med balsam för en mjukare känsla i topparna.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Massera in en liten klick i blött hår, skölj och upprepa vid behov. Följ gärna upp med balsam eller inpackning i samma serie för extra vård i längder och toppar."
+    },
+    "verdict": "Återuppbyggande schampo som många väljer för slitet och färgat hår.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 13 375 omdömen. Köpare beskriver starkare, mjukare längder med tiden och att lite produkt räcker långt, men upplevelsen varierar mellan hårtyper.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Passar Olaplex No.4 färgat hår?", "answer": "Ja, schampot är gjort för slitet och färgat hår. Det rengör skonsamt och jobbar med längder och toppar för en starkare och mjukare känsla." },
+      { "question": "Hur mycket schampo behöver jag?", "answer": "En liten klick räcker oftast långt eftersom det löddrar krämigt. Massera in i blött hår, skölj och upprepa vid behov." },
+      { "question": "Behöver jag balsam också?", "answer": "Ett vårdande schampo gör mest nytta i en rutin. Följ gärna upp med balsam eller inpackning i samma serie för en mjukare känsla i längder och toppar." }
+    ],
+    "reviewSectionId": "olaplex-no4-shampoo-recensioner",
+    "reviewFormId": "olaplex-no4-shampoo-skriv-recension",
+    "targetKeyword": "schampo bäst i test",
+    "metaTitle": "Olaplex No.4 Bond Maintenance Shampoo – för färgat hår | Elins val",
+    "metaDescription": "Elin går igenom Olaplex No.4 Bond Maintenance Shampoo: ett återuppbyggande schampo för slitet och färgat hår (4,5 av 5, 13 375 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Extra vård och lyster för torra längder och toppar." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret innan du använder värmeverktyg." }
+    ]
+  },
+  "images": {
+    "dir": "olaplex-no4",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71Ewhhl+tJL._SL1500_.jpg", "out": "olaplex4-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31XcpINHW1L._SL1500_.jpg", "out": "olaplex4-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41X4WrOvzuL._SL1500_.jpg", "out": "olaplex4-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41wHxR651cL._SL1500_.jpg", "out": "olaplex4-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Olaplex No.4 Bond Maintenance Shampoo", "href": "/skonhet/olaplex-schampo", "date": "2026-06-27", "image": "/products/olaplex-no4/olaplex4-thumbnail.webp", "blurb": "Återuppbyggande schampo som stärker och vårdar slitet, färgat hår." }
+  ]
+}

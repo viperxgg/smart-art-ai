@@ -1,0 +1,111 @@
+{
+  "exportName": "cetaphilGentleCleanserProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/cetaphil-rengoring",
+  "pageComponentName": "CetaphilRengoringPage",
+  "product": {
+    "slug": "cetaphil-gentle-cleanser",
+    "title": "Cetaphil Gentle Skin Cleanser – mild ansiktsrengöring (460 ml)",
+    "category": "skonhet",
+    "asin": "B004CRN3BA",
+    "brand": "Cetaphil",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Mild rengöring", "Oparfymerad", "Känslig hud"],
+    "image": "/products/cetaphil-cleanser/cetaphil-thumbnail.webp",
+    "imageAlt": "Cetaphil Gentle Skin Cleanser, 460 ml",
+    "images": [
+      { "src": "/products/cetaphil-cleanser/cetaphil-thumbnail.webp", "alt": "Cetaphil Gentle Skin Cleanser, 460 ml", "label": "Cetaphil" },
+      { "src": "/products/cetaphil-cleanser/cetaphil-1.webp", "alt": "Cetaphil mild oparfymerad ansiktsrengöring för känslig hud", "label": "Oparfymerad" },
+      { "src": "/products/cetaphil-cleanser/cetaphil-2.webp", "alt": "Cetaphil rengöring textur och konsistens", "label": "Mild textur" },
+      { "src": "/products/cetaphil-cleanser/cetaphil-3.webp", "alt": "Detaljbild av Cetaphil Gentle Skin Cleanser", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4argDii",
+    "pageHref": "/skonhet/cetaphil-rengoring",
+    "summary": "En mild, oparfymerad ansiktsrengöring i stor 460 ml-förpackning, gjord med tanke på känslig och torr hud. Rengör skonsamt utan att torka ut, som ett tryggt första steg i rutinen.",
+    "evaluation": {
+      "headline": "Mild rengöring för känslig och torr hud",
+      "intro": "Elin går igenom Cetaphil Gentle Skin Cleanser: en mild, oparfymerad rengöring som är gjord med tanke på känslig och torr hud. Den rengör skonsamt utan att lämna huden stram, och är ett omtyckt basval för dig som vill ha ett enkelt och tryggt första steg i rutinen.",
+      "verdict": "Trygg, mild rengöring för känslig och torr hud – rengör utan att torka ut.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Cetaphil Gentle Skin Cleanser",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Rengöring, 460 ml" },
+      { "label": "Innehåll", "caption": "Profil", "value": "Mild, oparfymerad" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Känslig och torr hud" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4argDii",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 554 omdömen.",
+      "highlights": [
+        "Köpare upplever att den rengör skonsamt utan att torka ut huden.",
+        "Uppskattas för att vara oparfymerad och mild mot känslig hud.",
+        "Den stora förpackningen tycker många räcker länge."
+      ],
+      "cautions": [
+        "Mild rengöring tar inte alltid bort vattenfast smink på egen hand.",
+        "Vill du ha rik lödder kan den kännas mild – den skummar lite."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/cetaphil-rengoring",
+    "cardBadge": "Känslig hud",
+    "cardHook": "Mild, oparfymerad rengöring som rengör utan att torka ut.",
+    "cardImage": "/products/cetaphil-cleanser/cetaphil-thumbnail.webp",
+    "cardImageAlt": "Cetaphil Gentle Skin Cleanser, 460 ml",
+    "badge": "Elins trygga basval",
+    "headline": "Cetaphil Gentle Skin Cleanser – mild rengöring",
+    "shortBody": "En mild, oparfymerad ansiktsrengöring i stor 460 ml-förpackning, gjord med tanke på känslig och torr hud. Rengör skonsamt utan att lämna huden stram.",
+    "valueHook": "Mild rengöring som inte torkar ut",
+    "valueStatement": "Cetaphil Gentle Skin Cleanser är ett tryggt basval för dig som vill ha ett enkelt och milt första steg i hudvårdsrutinen. Den är oparfymerad och gjord med tanke på känslig och torr hud, och rengör skonsamt utan att lämna huden stram. Den stora 460 ml-förpackningen räcker länge. Amazon visar 4,7 av 5 från 554 omdömen, och köpare lyfter framför allt att den känns mild och inte torkar ut huden.",
+    "passFor": [
+      "Har känslig eller torr hud och vill ha en mild rengöring.",
+      "Föredrar oparfymerade produkter i rutinen.",
+      "Vill ha ett enkelt och tryggt första steg som räcker länge."
+    ],
+    "caution": "En mild rengöring tar inte alltid bort vattenfast smink på egen hand, så vid mycket makeup kan du behöva ett extra steg först. Den skummar lite, vilket kan kännas ovant om du gillar rik lödder.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Massera in en liten mängd på fuktad hud morgon och kväll och skölj av med ljummet vatten, eller torka av med en mjuk handduk. Följ upp med en fuktkräm efteråt."
+    },
+    "verdict": "Trygg, mild rengöring för känslig och torr hud – rengör utan att torka ut.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 554 omdömen. Köpare beskriver en mild, oparfymerad rengöring som inte torkar ut huden, men den skummar lite mindre än många väntar sig.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Passar Cetaphil känslig och torr hud?", "answer": "Den är oparfymerad och gjord med tanke på känslig och torr hud. Köpare beskriver den som mild och skonsam, och den lämnar vanligen inte huden stram efter rengöring." },
+      { "question": "Tar rengöringen bort smink?", "answer": "Den tar bort vanligt smink och smuts vid daglig rengöring, men vattenfast makeup kan behöva ett extra steg först, till exempel en rengöringsolja." },
+      { "question": "Hur ofta ska jag använda den?", "answer": "Den passar för daglig användning morgon och kväll. Massera in på fuktad hud, skölj av och följ upp med en fuktkräm." }
+    ],
+    "reviewSectionId": "cetaphil-gentle-cleanser-recensioner",
+    "reviewFormId": "cetaphil-gentle-cleanser-skriv-recension",
+    "targetKeyword": "ansiktsrengöring känslig hud",
+    "metaTitle": "Cetaphil Gentle Skin Cleanser – mild rengöring | Elins val",
+    "metaDescription": "Elin går igenom Cetaphil Gentle Skin Cleanser: en mild, oparfymerad ansiktsrengöring för känslig och torr hud (4,7 av 5, 554 omdömen) – och hur du använder den.",
+    "relatedLinks": [
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som grund i rutinen." },
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balsam för stressad och torr hud." },
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." }
+    ]
+  },
+  "images": {
+    "dir": "cetaphil-cleanser",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71gk5yXIlhL._SL1500_.jpg", "out": "cetaphil-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41YyPI2r-vL._SL1500_.jpg", "out": "cetaphil-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31uUd9q1qLL._SL1500_.jpg", "out": "cetaphil-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51eRJNFUEfL._SL1500_.jpg", "out": "cetaphil-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Cetaphil Gentle Skin Cleanser", "href": "/skonhet/cetaphil-rengoring", "date": "2026-06-27", "image": "/products/cetaphil-cleanser/cetaphil-thumbnail.webp", "blurb": "Mild, oparfymerad ansiktsrengöring för känslig och torr hud som rengör utan att torka ut." }
+  ]
+}

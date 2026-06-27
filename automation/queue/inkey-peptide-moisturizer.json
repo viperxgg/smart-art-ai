@@ -1,0 +1,111 @@
+{
+  "exportName": "inkeyPeptideMoisturizerProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/peptidserum",
+  "pageComponentName": "PeptidserumPage",
+  "product": {
+    "slug": "inkey-peptide-moisturizer",
+    "title": "The INKEY List Peptide Moisturiser (50 ml)",
+    "category": "skonhet",
+    "asin": "B09PP3BCKW",
+    "brand": "The INKEY List",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Peptider", "Återfuktande", "Smidigare känsla"],
+    "image": "/products/inkey-peptide/inkey-peptide-thumbnail.webp",
+    "imageAlt": "The INKEY List Peptide Moisturiser, 50 ml",
+    "images": [
+      { "src": "/products/inkey-peptide/inkey-peptide-thumbnail.webp", "alt": "The INKEY List Peptide Moisturiser, 50 ml", "label": "Peptidkräm" },
+      { "src": "/products/inkey-peptide/inkey-peptide-1.webp", "alt": "The INKEY List Peptide Moisturiser med peptider för smidigare känsla", "label": "Peptider" },
+      { "src": "/products/inkey-peptide/inkey-peptide-2.webp", "alt": "The INKEY List Peptide Moisturiser textur och konsistens", "label": "Textur" },
+      { "src": "/products/inkey-peptide/inkey-peptide-3.webp", "alt": "Detaljbild av The INKEY List Peptide Moisturiser", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eN0Pb1",
+    "pageHref": "/skonhet/peptidserum",
+    "summary": "En återfuktande peptidkräm som ger huden en smidigare, fylligare känsla. Peptider tillsammans med ett rejält fuktsteg gör att huden känns mjuk och välmående, perfekt som ett enkelt sista lager i rutinen.",
+    "evaluation": {
+      "headline": "Peptidkräm för smidigare, fylligare känsla",
+      "intro": "Elin går igenom The INKEY List Peptide Moisturiser: en återfuktande kräm med peptider. Peptider är en omtyckt ingrediens för en smidigare, fylligare känsla i huden, och krämen är gjord för att ge ett behagligt fuktsteg som låser in mjukheten.",
+      "verdict": "Återfuktande peptidkräm för en smidigare, fylligare och mjukare känsla.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "The INKEY List Peptide Moisturiser",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Fuktkräm, 50 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Peptider" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Återfuktande, smidigare känsla" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eN0Pb1",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 438 omdömen.",
+      "highlights": [
+        "Köpare upplever en smidigare, fylligare känsla i huden.",
+        "Krämen ger ett behagligt fuktsteg som känns mjukt och välmående.",
+        "Uppskattas som ett enkelt sista lager både morgon och kväll."
+      ],
+      "cautions": [
+        "Den återfuktande texturen kan kännas för rik om du har väldigt fet hud.",
+        "Som med all ny hudvård kan känslig hud reagera olika – testa gärna en liten yta först."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/peptidserum",
+    "cardBadge": "Peptider",
+    "cardHook": "Återfuktande peptidkräm för en smidigare, fylligare känsla.",
+    "cardImage": "/products/inkey-peptide/inkey-peptide-thumbnail.webp",
+    "cardImageAlt": "The INKEY List Peptide Moisturiser, 50 ml",
+    "badge": "Elins fukt-favorit",
+    "headline": "The INKEY List Peptide Moisturiser – smidig och mjuk",
+    "shortBody": "En återfuktande kräm med peptider. Gjord för en smidigare, fylligare känsla i huden och ett behagligt fuktsteg som gör huden mjuk, perfekt som ett enkelt sista lager i rutinen.",
+    "valueHook": "Peptidkräm för smidigare, fylligare känsla",
+    "valueStatement": "The INKEY List Peptide Moisturiser är en fuktkräm för dig som vill ge huden en smidigare, fylligare och mjukare känsla. Formulan bygger på peptider tillsammans med ett rejält fuktsteg, en kombination som gör att huden känns välmående och balanserad. Amazon visar 4,2 av 5 från 438 omdömen, och köpare lyfter framför allt den smidiga känslan och det behagliga fuktsteget.",
+    "passFor": [
+      "Vill ge huden en smidigare, fylligare och mjukare känsla.",
+      "Gillar peptider och söker en enkel återfuktande kräm.",
+      "Vill ha ett behagligt sista lager både morgon och kväll."
+    ],
+    "caution": "Den återfuktande texturen kan kännas för rik om du har väldigt fet hud. Som med all ny hudvård kan känslig hud reagera olika, så testa gärna på en liten yta först.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Applicera ett lager på ren hud efter serum, morgon eller kväll, som sista steg i rutinen. Krämen passar fint för att låsa in fukt och ge en mjuk, smidig känsla."
+    },
+    "verdict": "Återfuktande peptidkräm för en smidigare, fylligare och mjukare känsla.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från 438 omdömen. Köpare beskriver en smidigare känsla och ett behagligt fuktsteg, men texturen kan kännas för rik om du har väldigt fet hud.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När använder jag peptidkrämen?", "answer": "Den passar både morgon och kväll på ren hud, efter serum och som sista steg i rutinen för att låsa in fukt och ge en mjuk känsla." },
+      { "question": "Vad gör peptider i en fuktkräm?", "answer": "Peptider är en omtyckt ingrediens för en smidigare, fylligare känsla i huden, och tillsammans med fukt gör de att huden känns mjuk och välmående." },
+      { "question": "Passar krämen fet hud?", "answer": "Den är återfuktande och kan kännas rik för väldigt fet hud, medan torr och normal hud ofta uppskattar fuktsteget. Testa gärna på en liten yta först." }
+    ],
+    "reviewSectionId": "inkey-peptide-moisturizer-recensioner",
+    "reviewFormId": "inkey-peptide-moisturizer-skriv-recension",
+    "targetKeyword": "peptidserum peptider",
+    "metaTitle": "The INKEY List Peptide Moisturiser – smidig & mjuk | Elins val",
+    "metaDescription": "Elin går igenom The INKEY List Peptide Moisturiser: en återfuktande peptidkräm för en smidigare, fylligare känsla (4,2 av 5, 438 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Antioxidantserum för lyster och glow." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg i rutinen." },
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balsam för torr och stressad hud." }
+    ]
+  },
+  "images": {
+    "dir": "inkey-peptide",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61p8hjEEXqL._SL1500_.jpg", "out": "inkey-peptide-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/21RqXUAL+UL._SL1500_.jpg", "out": "inkey-peptide-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41hzZzzAtOL._SL1500_.jpg", "out": "inkey-peptide-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51kwsUpLd5L._SL1500_.jpg", "out": "inkey-peptide-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "The INKEY List Peptide Moisturiser", "href": "/skonhet/peptidserum", "date": "2026-06-27", "image": "/products/inkey-peptide/inkey-peptide-thumbnail.webp", "blurb": "Återfuktande peptidkräm för en smidigare, fylligare och mjukare känsla i huden." }
+  ]
+}

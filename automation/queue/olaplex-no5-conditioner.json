@@ -1,0 +1,111 @@
+{
+  "exportName": "olaplexNo5ConditionerProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/olaplex-balsam",
+  "pageComponentName": "OlaplexBalsamPage",
+  "product": {
+    "slug": "olaplex-no5-conditioner",
+    "title": "Olaplex No.5 Bond Maintenance Conditioner (250 ml)",
+    "category": "skonhet",
+    "asin": "B08TWV3S41",
+    "brand": "Olaplex",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Återfuktande balsam", "Stärker slitet hår", "Mindre frizz"],
+    "image": "/products/olaplex-no5/olaplex5-thumbnail.webp",
+    "imageAlt": "Olaplex No.5 Bond Maintenance Conditioner, 250 ml",
+    "images": [
+      { "src": "/products/olaplex-no5/olaplex5-thumbnail.webp", "alt": "Olaplex No.5 Bond Maintenance Conditioner, 250 ml", "label": "Olaplex No.5" },
+      { "src": "/products/olaplex-no5/olaplex5-1.webp", "alt": "Olaplex No.5 balsam som återfuktar torrt hår", "label": "Återfuktande" },
+      { "src": "/products/olaplex-no5/olaplex5-2.webp", "alt": "Olaplex No.5 textur och konsistens", "label": "Krämig textur" },
+      { "src": "/products/olaplex-no5/olaplex5-3.webp", "alt": "Detaljbild av Olaplex No.5 Bond Maintenance Conditioner", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/44BUV7C",
+    "pageHref": "/skonhet/olaplex-balsam",
+    "summary": "Ett återfuktande balsam som stärker och mjukgör torrt, slitet hår och ger mindre frizz. Krämig formula som hjälper håret att kännas mjukare, mer hanterbart och lättare att reda ut.",
+    "evaluation": {
+      "headline": "Återfuktande balsam för torrt, slitet hår",
+      "intro": "Elin går igenom Olaplex No.5 Bond Maintenance Conditioner: ett återfuktande balsam som är gjort för att stärka och mjukgöra torrt, slitet hår. Den krämiga formulan hjälper håret att kännas mjukare och mer hanterbart, samtidigt som den jobbar mot frizz för en lugnare yta.",
+      "verdict": "Återfuktande balsam som stärker och mjukgör torrt, slitet hår.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Olaplex No.5 Bond Maintenance Conditioner",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Balsam, 250 ml" },
+      { "label": "För", "caption": "Hårtyp", "value": "Torrt och slitet hår" },
+      { "label": "Effekt", "caption": "Hårvård", "value": "Stärker, mjukgör och minskar frizz" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/44BUV7C",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 10 723 omdömen.",
+      "highlights": [
+        "Köpare beskriver mjukare, mer hanterbart hår efter användning.",
+        "Många upplever mindre frizz och en lugnare yta.",
+        "Uppskattas för att hjälpa torrt, slitet hår att kännas starkare."
+      ],
+      "cautions": [
+        "Tunt hår kan behöva en mindre mängd för att inte kännas tyngt.",
+        "Resultatet varierar mellan hårtyper – ge balsamet några tvättar innan du dömer."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/olaplex-balsam",
+    "cardBadge": "Återfuktande balsam",
+    "cardHook": "Stärker och mjukgör torrt, slitet hår med mindre frizz.",
+    "cardImage": "/products/olaplex-no5/olaplex5-thumbnail.webp",
+    "cardImageAlt": "Olaplex No.5 Bond Maintenance Conditioner, 250 ml",
+    "badge": "Elins favorit för torrt hår",
+    "headline": "Olaplex No.5 – återfuktande balsam för torrt hår",
+    "shortBody": "Ett återfuktande balsam som stärker och mjukgör torrt, slitet hår. Den krämiga formulan hjälper håret att kännas mjukare och mer hanterbart, samtidigt som den jobbar mot frizz.",
+    "valueHook": "Återfuktande balsam för torrt, slitet hår",
+    "valueStatement": "Olaplex No.5 Bond Maintenance Conditioner är ett återfuktande balsam för dig som vill ge torrt, slitet hår mer mjukhet och styrka. Den krämiga formulan hjälper håret att kännas mjukare och mer hanterbart, samtidigt som den jobbar mot frizz för en lugnare yta. Amazon visar 4,5 av 5 från 10 723 omdömen, och köpare lyfter framför allt att håret känns mjukare, mer hanterbart och mindre frissigt efter användning.",
+    "passFor": [
+      "Har torrt, slitet hår och vill ha ett mer återfuktande balsam.",
+      "Vill ha mjukare, mer hanterbart hår som är lättare att reda ut.",
+      "Önskar mindre frizz och en lugnare yta i längderna."
+    ],
+    "caution": "Tunt hår kan behöva en mindre mängd för att inte kännas tyngt, och upplevelsen varierar mellan hårtyper. Ge balsamet några tvättar innan du dömer ut det.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Använd efter schampo på det blöta håret. Fördela i längder och toppar, låt verka en stund och skölj ur. Fokusera på de torra partierna och undvik för mycket vid hårbotten om håret är tunt."
+    },
+    "verdict": "Återfuktande balsam som stärker och mjukgör torrt, slitet hår.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 10 723 omdömen. Köpare beskriver mjukare, mer hanterbart hår och mindre frizz, men tunt hår kan behöva en mindre mängd.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Passar Olaplex No.5 torrt hår?", "answer": "Ja, det är ett återfuktande balsam som är gjort för att mjukgöra och stärka torrt, slitet hår. Fördela i längder och toppar och låt verka en stund före sköljning." },
+      { "question": "Hjälper balsamet mot frizz?", "answer": "Många köpare upplever mindre frizz och en lugnare yta. Resultatet varierar mellan hårtyper, så ge det gärna några tvättar." },
+      { "question": "Hur använder jag Olaplex No.5 balsam?", "answer": "Använd efter schampo på blött hår. Fördela i längder och toppar, låt verka en stund och skölj ur. Använd mindre mängd om håret är tunt." }
+    ],
+    "reviewSectionId": "olaplex-no5-conditioner-recensioner",
+    "reviewFormId": "olaplex-no5-conditioner-skriv-recension",
+    "targetKeyword": "balsam torrt hår",
+    "metaTitle": "Olaplex No.5 Balsam – återfuktar torrt hår | Elins val",
+    "metaDescription": "Elin går igenom Olaplex No.5 Bond Maintenance Conditioner: ett återfuktande balsam som stärker och mjukgör torrt, slitet hår med mindre frizz (4,5 av 5, 10 723 omdömen).",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Extra näring och lyster för torra toppar." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret innan du värmestylar." }
+    ]
+  },
+  "images": {
+    "dir": "olaplex-no5",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61XZqr8r4iL._SL1500_.jpg", "out": "olaplex5-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31Uk8BjZdJL._SL1500_.jpg", "out": "olaplex5-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31EAxcOewBL._SL1500_.jpg", "out": "olaplex5-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41P6rkmm6oL._SL1500_.jpg", "out": "olaplex5-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Olaplex No.5 Bond Maintenance Conditioner", "href": "/skonhet/olaplex-balsam", "date": "2026-06-27", "image": "/products/olaplex-no5/olaplex5-thumbnail.webp", "blurb": "Återfuktande balsam som stärker och mjukgör torrt, slitet hår." }
+  ]
+}

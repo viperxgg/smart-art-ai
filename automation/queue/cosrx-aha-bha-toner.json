@@ -1,0 +1,111 @@
+{
+  "exportName": "cosrxAhaBhaTonerProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/exfolierande-toner",
+  "pageComponentName": "ExfolierandeTonerPage",
+  "product": {
+    "slug": "cosrx-aha-bha-toner",
+    "title": "COSRX AHA/BHA Clarifying Treatment Toner (150 ml)",
+    "category": "skonhet",
+    "asin": "B00OZ63ODA",
+    "brand": "COSRX",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["AHA/BHA", "Lyster", "Dagligt steg"],
+    "image": "/products/cosrx-toner/cosrx-toner-thumbnail.webp",
+    "imageAlt": "COSRX AHA/BHA Clarifying Treatment Toner, 150 ml",
+    "images": [
+      { "src": "/products/cosrx-toner/cosrx-toner-thumbnail.webp", "alt": "COSRX AHA/BHA Clarifying Treatment Toner, 150 ml", "label": "AHA/BHA Toner" },
+      { "src": "/products/cosrx-toner/cosrx-toner-1.webp", "alt": "COSRX AHA/BHA toner med mild exfoliering", "label": "Mild exfoliering" },
+      { "src": "/products/cosrx-toner/cosrx-toner-2.webp", "alt": "COSRX AHA/BHA toner textur och konsistens", "label": "Lätt textur" },
+      { "src": "/products/cosrx-toner/cosrx-toner-3.webp", "alt": "Detaljbild av COSRX AHA/BHA Clarifying Treatment Toner", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4bbto0u",
+    "pageHref": "/skonhet/exfolierande-toner",
+    "summary": "En mild exfolierande toner med AHA och BHA som hjälper huden att se jämnare ut och få mer lyster. Tänkt som ett dagligt steg efter rengöring, före serum och fuktkräm.",
+    "evaluation": {
+      "headline": "Exfolierande toner för lyster",
+      "intro": "Elin går igenom COSRX AHA/BHA Clarifying Treatment Toner: en mild toner med AHA och BHA som mjukt jämnar ut hudens yta. Syrorna hjälper huden att se mer strålande ut och hudtonen att verka jämnare, och formulan är gjord för att kunna användas dagligen.",
+      "verdict": "Mild, prisvärd AHA/BHA-toner för lyster och en jämnare hudton i vardagen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "COSRX AHA/BHA Clarifying Treatment Toner",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Toner, 150 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "AHA och BHA" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Dagligt steg, mild exfoliering" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4bbto0u",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 7750 omdömen.",
+      "highlights": [
+        "Köpare upplever en jämnare och mer strålande hud med tiden.",
+        "Uppskattas som ett milt, dagligt exfolieringssteg.",
+        "Lätt textur som de flesta tycker absorberas snabbt."
+      ],
+      "cautions": [
+        "AHA/BHA kan svida lätt i början – börja gärna varannan dag.",
+        "Syror gör huden mer solkänslig; var noga med din vanliga dagrutin."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/exfolierande-toner",
+    "cardBadge": "Lyster",
+    "cardHook": "Mild AHA/BHA-toner för en jämnare hudton som dagligt steg.",
+    "cardImage": "/products/cosrx-toner/cosrx-toner-thumbnail.webp",
+    "cardImageAlt": "COSRX AHA/BHA Clarifying Treatment Toner, 150 ml",
+    "badge": "Elins val för mild exfoliering",
+    "headline": "COSRX AHA/BHA Toner – lyster och jämnare hudton",
+    "shortBody": "En mild exfolierande toner med AHA och BHA för lyster och en jämnare hudton. Tänkt som ett dagligt steg efter rengöring, med en lätt textur som absorberas snabbt.",
+    "valueHook": "Exfolierande toner för lyster",
+    "valueStatement": "COSRX AHA/BHA Clarifying Treatment Toner är en mild exfolierande toner för dig som vill ge huden mer lyster och en jämnare hudton. Kombinationen av AHA och BHA jämnar mjukt ut hudens yta och kan användas som ett dagligt steg efter rengöring. Amazon visar 4,5 av 5 från 7750 omdömen, och köpare lyfter framför allt lystern, den milda känslan och den lätta texturen.",
+    "passFor": [
+      "Vill lägga till ett milt exfolieringssteg i rutinen.",
+      "Önskar mer lyster och en jämnare hudton.",
+      "Gillar en lätt toner före serum och fuktkräm."
+    ],
+    "caution": "AHA/BHA kan svida lätt i början och göra huden mer solkänslig. Börja gärna varannan dag och var noga med din vanliga dagrutin.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera tonern på ren hud efter rengöring, före serum och fuktkräm. Börja varannan dag och öka frekvensen efterhand som huden vänjer sig."
+    },
+    "verdict": "Mild, prisvärd AHA/BHA-toner för lyster och en jämnare hudton i vardagen.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 7750 omdömen. Köpare beskriver en jämnare, mer strålande hud och en mild känsla, men AHA/BHA kan svida lätt i början.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur ofta använder jag COSRX AHA/BHA Toner?", "answer": "Börja gärna varannan dag och öka efterhand som huden vänjer sig. Den är tänkt att kunna användas dagligen som ett milt exfolieringssteg." },
+      { "question": "När i rutinen passar tonern?", "answer": "Applicera den på ren hud efter rengöring, före serum och fuktkräm. Då förbereder du huden för resten av rutinen." },
+      { "question": "Behöver jag tänka på solen när jag använder syror?", "answer": "Ja, AHA/BHA kan göra huden mer solkänslig. Var noga med din vanliga dagrutin medan du använder tonern." }
+    ],
+    "reviewSectionId": "cosrx-aha-bha-toner-recensioner",
+    "reviewFormId": "cosrx-aha-bha-toner-skriv-recension",
+    "targetKeyword": "exfolierande toner",
+    "metaTitle": "COSRX AHA/BHA Toner – mild exfoliering för lyster | Elins val",
+    "metaDescription": "Elin går igenom COSRX AHA/BHA Clarifying Treatment Toner: en mild exfolierande toner för lyster och jämnare hudton (4,5 av 5, 7750 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring inför ditt exfolieringssteg." },
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Antioxidantserum för lyster och glow." }
+    ]
+  },
+  "images": {
+    "dir": "cosrx-toner",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/6129xvpwnpL._SL1500_.jpg", "out": "cosrx-toner-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31KESmTMqDL._SL1500_.jpg", "out": "cosrx-toner-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41cK5ry7QCL._SL1500_.jpg", "out": "cosrx-toner-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41XDrybYHOL._SL1500_.jpg", "out": "cosrx-toner-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "COSRX AHA/BHA Clarifying Treatment Toner", "href": "/skonhet/exfolierande-toner", "date": "2026-06-27", "image": "/products/cosrx-toner/cosrx-toner-thumbnail.webp", "blurb": "Mild exfolierande toner med AHA/BHA för lyster och en jämnare hudton." }
+  ]
+}

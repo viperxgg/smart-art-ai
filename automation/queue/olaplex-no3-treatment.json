@@ -1,0 +1,111 @@
+{
+  "exportName": "olaplexNo3Product",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/olaplex-no3",
+  "pageComponentName": "OlaplexNo3Page",
+  "product": {
+    "slug": "olaplex-no3-treatment",
+    "title": "Olaplex No.3 Hair Perfector – inpackning för skadat hår",
+    "category": "skonhet",
+    "asin": "B0GHSXYY3Z",
+    "brand": "Olaplex",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Återuppbyggande", "Pre-schampo", "Klassisk favorit"],
+    "image": "/products/olaplex-no3/olaplex3-thumbnail.webp",
+    "imageAlt": "Olaplex No.3 Hair Perfector inpackning för skadat hår",
+    "images": [
+      { "src": "/products/olaplex-no3/olaplex3-thumbnail.webp", "alt": "Olaplex No.3 Hair Perfector inpackning för skadat hår", "label": "Olaplex No.3" },
+      { "src": "/products/olaplex-no3/olaplex3-1.webp", "alt": "Olaplex No.3 återuppbyggande inpackning som används före schampo", "label": "Pre-schampo" },
+      { "src": "/products/olaplex-no3/olaplex3-2.webp", "alt": "Olaplex No.3 textur och konsistens i handen", "label": "Krämig textur" },
+      { "src": "/products/olaplex-no3/olaplex3-3.webp", "alt": "Detaljbild av Olaplex No.3 Hair Perfector", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4vtr5Ox",
+    "pageHref": "/skonhet/olaplex-no3",
+    "summary": "En återuppbyggande inpackning som används före schampo för att stärka slitet och skadat hår. Olaplex No.3 är en klassisk favorit för dig med blekt, färgat eller värmestylat hår som behöver extra omvårdnad.",
+    "evaluation": {
+      "headline": "Inpackning som stärker skadat hår",
+      "intro": "Elin går igenom Olaplex No.3 Hair Perfector: en pre-schampo-inpackning som är gjord för att stärka och vårda slitet, skadat hår. Den används på fuktigt hår före schampo och har blivit en klassisk favorit hos många med blekt, färgat eller värmestylat hår.",
+      "verdict": "Klassisk återuppbyggande inpackning för slitet och skadat hår.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Olaplex No.3 Hair Perfector",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Inpackning (pre-schampo)" },
+      { "label": "Användning", "caption": "Steg", "value": "På fuktigt hår före schampo" },
+      { "label": "Profil", "caption": "Hårvård", "value": "Slitet, skadat och färgat hår" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4vtr5Ox",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 551 omdömen.",
+      "highlights": [
+        "Köpare tycker att håret känns starkare och mjukare efter användning.",
+        "Uppskattas av många med blekt eller färgat hår som extra omvårdnad.",
+        "Enkel att använda som ett steg före schampo i veckorutinen."
+      ],
+      "cautions": [
+        "Det är en inpackning före schampo – inte en balsam eller leave-in.",
+        "Resultatet varierar med hårtyp och hur slitet håret är från början."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/olaplex-no3",
+    "cardBadge": "Återuppbyggande",
+    "cardHook": "Pre-schampo-inpackning som stärker slitet och skadat hår.",
+    "cardImage": "/products/olaplex-no3/olaplex3-thumbnail.webp",
+    "cardImageAlt": "Olaplex No.3 Hair Perfector inpackning för skadat hår",
+    "badge": "Elins favorit för skadat hår",
+    "headline": "Olaplex No.3 – inpackning för skadat hår",
+    "shortBody": "En återuppbyggande inpackning som används före schampo för att stärka slitet, skadat hår. En klassisk favorit för dig med blekt, färgat eller värmestylat hår.",
+    "valueHook": "Inpackning som stärker skadat hår",
+    "valueStatement": "Olaplex No.3 Hair Perfector är en återuppbyggande inpackning för dig som vill ge slitet och skadat hår extra omvårdnad. Den används på fuktigt hår före schampo och har blivit en klassisk favorit hos många med blekt, färgat eller värmestylat hår. Amazon visar 4,5 av 5 från 551 omdömen, och köpare lyfter framför allt att håret känns starkare och mjukare med tiden.",
+    "passFor": [
+      "Har blekt, färgat eller värmestylat hår som känns slitet.",
+      "Vill lägga till ett återuppbyggande steg före schampo.",
+      "Letar efter en klassisk, omtyckt inpackning för skadat hår."
+    ],
+    "caution": "Olaplex No.3 är en inpackning som används före schampo – inte en balsam eller leave-in. Resultatet varierar med hårtyp och hur slitet håret är från början, så ge det gärna några användningar.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera på fuktigt, handduktorkat hår, fördela från längder till toppar och låt verka en stund. Skölj ur och fortsätt sedan med schampo och balsam som vanligt."
+    },
+    "verdict": "Klassisk återuppbyggande inpackning för slitet och skadat hår.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 551 omdömen. Köpare beskriver att håret känns starkare och mjukare, men det är en inpackning före schampo och resultatet varierar med hårtyp.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När använder jag Olaplex No.3?", "answer": "Olaplex No.3 används på fuktigt hår före schampo. Fördela från längder till toppar, låt verka en stund och skölj sedan ur innan du schamponerar som vanligt." },
+      { "question": "Passar Olaplex No.3 blekt och färgat hår?", "answer": "Ja, det är en favorit hos många med blekt, färgat eller värmestylat hår som vill ge slitna längder extra omvårdnad. Resultatet varierar dock med hur slitet håret är." },
+      { "question": "Är Olaplex No.3 en balsam?", "answer": "Nej, det är en återuppbyggande inpackning som används före schampo – inte en balsam eller leave-in. Du fortsätter med din vanliga balsam efteråt." }
+    ],
+    "reviewSectionId": "olaplex-no3-treatment-recensioner",
+    "reviewFormId": "olaplex-no3-treatment-skriv-recension",
+    "targetKeyword": "hårinpackning skadat hår",
+    "metaTitle": "Olaplex No.3 Hair Perfector – inpackning för skadat hår | Elins val",
+    "metaDescription": "Elin går igenom Olaplex No.3 Hair Perfector: en återuppbyggande pre-schampo-inpackning för slitet och skadat hår (4,5 av 5, 551 omdömen) – och hur du använder den rätt.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Närande olja för torra längder och toppar." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret före föntork och plattång." }
+    ]
+  },
+  "images": {
+    "dir": "olaplex-no3",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/610sljWCCzL._SL1500_.jpg", "out": "olaplex3-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31yKPzEsBjL._SL1500_.jpg", "out": "olaplex3-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51R2HAourPL._SL1500_.jpg", "out": "olaplex3-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41g35NUodnL._SL1500_.jpg", "out": "olaplex3-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Olaplex No.3 Hair Perfector", "href": "/skonhet/olaplex-no3", "date": "2026-06-27", "image": "/products/olaplex-no3/olaplex3-thumbnail.webp", "blurb": "Återuppbyggande pre-schampo-inpackning som stärker slitet och skadat hår." }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "exportName": "inkeyScalpScrubProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/scalp-scrub",
+  "pageComponentName": "ScalpScrubPage",
+  "product": {
+    "slug": "inkey-scalp-scrub",
+    "title": "The INKEY List Glycolic Acid Exfoliating Scalp Scrub (150 ml)",
+    "category": "skonhet",
+    "asin": "B09K8CYJ7B",
+    "brand": "The INKEY List",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Exfolierande", "Ren hårbotten", "Glykolsyra"],
+    "image": "/products/inkey-scalp-scrub/inkey-scrub-thumbnail.webp",
+    "imageAlt": "The INKEY List Glycolic Acid Exfoliating Scalp Scrub, 150 ml",
+    "images": [
+      { "src": "/products/inkey-scalp-scrub/inkey-scrub-thumbnail.webp", "alt": "The INKEY List Glycolic Acid Exfoliating Scalp Scrub, 150 ml", "label": "INKEY scrub" },
+      { "src": "/products/inkey-scalp-scrub/inkey-scrub-1.webp", "alt": "The INKEY List scalp scrub med glykolsyra för hårbotten", "label": "Glykolsyra" },
+      { "src": "/products/inkey-scalp-scrub/inkey-scrub-2.webp", "alt": "The INKEY List scalp scrub textur och konsistens", "label": "Exfolierande textur" },
+      { "src": "/products/inkey-scalp-scrub/inkey-scrub-3.webp", "alt": "Detaljbild av The INKEY List Glycolic Acid Scalp Scrub", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4y9rpEb",
+    "pageHref": "/skonhet/scalp-scrub",
+    "summary": "En exfolierande hårbottenpeeling med glykolsyra som rengör hårbotten från produktrester och fjäll för en fräschare känsla. Ett enkelt steg för dig som vill ge hårbotten en ordentlig rengöring.",
+    "evaluation": {
+      "headline": "Hårbottenpeeling för en fräschare hårbotten",
+      "intro": "Elin går igenom The INKEY List Glycolic Acid Exfoliating Scalp Scrub: en exfolierande hårbottenpeeling med glykolsyra. Den masseras in i hårbotten i duschen för att rengöra från produktrester och fjäll och ge en fräschare känsla.",
+      "verdict": "Exfolierande hårbottenpeeling för en ren och fräsch hårbotten.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "The INKEY List Glycolic Acid Scalp Scrub",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Hårbottenpeeling, 150 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Glykolsyra för exfoliering" },
+      { "label": "Profil", "caption": "Hårvård", "value": "Hårbotten med produktrester och fjäll" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4y9rpEb",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 1 940 omdömen.",
+      "highlights": [
+        "Köpare upplever en fräschare och renare känsla i hårbotten.",
+        "Uppskattas för att rengöra bort produktrester och fjäll.",
+        "Enkel att massera in i duschen som ett steg före schampo."
+      ],
+      "cautions": [
+        "Det är en peeling – använd ett par gånger i veckan, inte varje dag.",
+        "Glykolsyra kan kännas pirrigt; undvik om hårbotten är sårig eller irriterad."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/scalp-scrub",
+    "cardBadge": "Exfolierande",
+    "cardHook": "Hårbottenpeeling med glykolsyra för en fräschare hårbotten.",
+    "cardImage": "/products/inkey-scalp-scrub/inkey-scrub-thumbnail.webp",
+    "cardImageAlt": "The INKEY List Glycolic Acid Exfoliating Scalp Scrub, 150 ml",
+    "badge": "Elins favorit för ren hårbotten",
+    "headline": "The INKEY List Scalp Scrub – peeling för hårbotten",
+    "shortBody": "En exfolierande hårbottenpeeling med glykolsyra som rengör hårbotten från produktrester och fjäll för en fräschare känsla. Ett enkelt steg för en ordentlig rengöring.",
+    "valueHook": "Hårbottenpeeling för en fräschare hårbotten",
+    "valueStatement": "The INKEY List Glycolic Acid Exfoliating Scalp Scrub är en hårbottenpeeling för dig som vill ge hårbotten en ordentlig rengöring. Glykolsyra hjälper till att exfoliera och lösa upp produktrester och fjäll, för en fräschare känsla. Amazon visar 4,2 av 5 från 1 940 omdömen, och köpare lyfter framför allt den rena, fräscha känslan efteråt.",
+    "passFor": [
+      "Vill rengöra hårbotten från produktrester och fjäll.",
+      "Gillar en fräsch, ren känsla i hårbotten efter duschen.",
+      "Letar efter ett enkelt exfolierande steg i hårvårdsrutinen."
+    ],
+    "caution": "Det här är en peeling, så använd den ett par gånger i veckan snarare än varje dag. Glykolsyra kan kännas lätt pirrigt, och du bör undvika produkten om hårbotten är sårig eller irriterad.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Massera in scrubben i blött hår direkt på hårbotten i duschen, låt verka en kort stund och skölj ur. Använd ett par gånger i veckan och följ upp med schampo som vanligt."
+    },
+    "verdict": "Exfolierande hårbottenpeeling för en ren och fräsch hårbotten.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från 1 940 omdömen. Köpare beskriver en fräschare, renare hårbotten, men det är en peeling som bör användas ett par gånger i veckan och inte på irriterad hårbotten.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur ofta använder jag en hårbottenpeeling?", "answer": "Ett par gånger i veckan räcker oftast. Det är en exfolierande peeling, så den behöver inte användas varje dag – lyssna på hur hårbotten känns och anpassa efter behov." },
+      { "question": "Hur använder jag scalp scrubben?", "answer": "Massera in den i blött hår direkt på hårbotten i duschen, låt verka en kort stund och skölj ur. Följ sedan upp med schampo som vanligt." },
+      { "question": "Passar den om jag har irriterad hårbotten?", "answer": "Undvik produkten om hårbotten är sårig eller irriterad, eftersom glykolsyra kan kännas pirrigt. Vänta tills hårbotten känns lugn igen innan du exfolierar." }
+    ],
+    "reviewSectionId": "inkey-scalp-scrub-recensioner",
+    "reviewFormId": "inkey-scalp-scrub-skriv-recension",
+    "targetKeyword": "scalp scrub hårbottenpeeling",
+    "metaTitle": "The INKEY List Glycolic Acid Scalp Scrub – hårbottenpeeling | Elins val",
+    "metaDescription": "Elin går igenom The INKEY List Glycolic Acid Scalp Scrub: en exfolierande hårbottenpeeling med glykolsyra för en fräschare hårbotten (4,2 av 5, 1 940 omdömen) – och hur du använder den.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Närande olja för torra längder och toppar." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret före föntork och plattång." }
+    ]
+  },
+  "images": {
+    "dir": "inkey-scalp-scrub",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61qU2ql5u5L._SL1500_.jpg", "out": "inkey-scrub-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31fk0yvpOnL._SL1500_.jpg", "out": "inkey-scrub-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41I0yYVawkL._SL1500_.jpg", "out": "inkey-scrub-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41GRj4giv7L._SL1500_.jpg", "out": "inkey-scrub-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "The INKEY List Glycolic Acid Scalp Scrub", "href": "/skonhet/scalp-scrub", "date": "2026-06-27", "image": "/products/inkey-scalp-scrub/inkey-scrub-thumbnail.webp", "blurb": "Exfolierande hårbottenpeeling med glykolsyra som rengör hårbotten för en fräschare känsla." }
+  ]
+}

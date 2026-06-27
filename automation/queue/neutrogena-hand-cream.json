@@ -1,0 +1,111 @@
+{
+  "exportName": "neutrogenaHandCreamProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/handkram",
+  "pageComponentName": "HandkramPage",
+  "product": {
+    "slug": "neutrogena-hand-cream",
+    "title": "Neutrogena Norwegian Formula – handkräm (75 ml)",
+    "category": "skonhet",
+    "asin": "B00DYP8YM4",
+    "brand": "Neutrogena",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Koncentrerad", "För torra händer", "Lite räcker långt"],
+    "image": "/products/neutrogena-hand-cream/neutrogena-thumbnail.webp",
+    "imageAlt": "Neutrogena Norwegian Formula handkräm, 75 ml",
+    "images": [
+      { "src": "/products/neutrogena-hand-cream/neutrogena-thumbnail.webp", "alt": "Neutrogena Norwegian Formula handkräm, 75 ml", "label": "Norwegian Formula" },
+      { "src": "/products/neutrogena-hand-cream/neutrogena-1.webp", "alt": "Neutrogena koncentrerad handkräm för mycket torra händer", "label": "Koncentrerad" },
+      { "src": "/products/neutrogena-hand-cream/neutrogena-2.webp", "alt": "Neutrogena handkräm textur och konsistens", "label": "Rik textur" },
+      { "src": "/products/neutrogena-hand-cream/neutrogena-3.webp", "alt": "Detaljbild av Neutrogena Norwegian Formula handkräm", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4f4d04q",
+    "pageHref": "/skonhet/handkram",
+    "summary": "En koncentrerad handkräm för mycket torra händer där lite räcker långt. Den sjunker in snabbt och hjälper torra, sträva händer att kännas mjuka och smidiga igen.",
+    "evaluation": {
+      "headline": "Koncentrerad handkräm för mycket torra händer",
+      "intro": "Elin går igenom Neutrogena Norwegian Formula: en klassisk, koncentrerad handkräm gjord för mycket torra händer. En liten mängd räcker långt, och de flesta upplever att den sjunker in snabbt och lämnar händerna mjuka snarare än feta.",
+      "verdict": "En koncentrerad, dryg handkräm som hjälper mycket torra händer att kännas mjuka.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Neutrogena Norwegian Formula",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Handkräm, 75 ml" },
+      { "label": "Profil", "caption": "Hudvård", "value": "För mycket torra händer" },
+      { "label": "Textur", "caption": "Känsla", "value": "Koncentrerad, snabbt insjunkande" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4f4d04q",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 9248 omdömen.",
+      "highlights": [
+        "Köpare upplever att även mycket torra händer känns mjuka igen.",
+        "Lite räcker långt, så en tub håller länge enligt omdömena.",
+        "Sjunker in snabbt och lämnar händerna mjuka snarare än feta."
+      ],
+      "cautions": [
+        "Krämen är koncentrerad – använd bara en liten klick åt gången.",
+        "Doften är märkbar och passar inte alla som föredrar oparfymerat."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/handkram",
+    "cardBadge": "För torra händer",
+    "cardHook": "Koncentrerad handkräm där lite räcker långt.",
+    "cardImage": "/products/neutrogena-hand-cream/neutrogena-thumbnail.webp",
+    "cardImageAlt": "Neutrogena Norwegian Formula handkräm, 75 ml",
+    "badge": "Elins favorit för torra händer",
+    "headline": "Neutrogena Norwegian Formula – handkräm för torra händer",
+    "shortBody": "En koncentrerad handkräm för mycket torra händer där en liten mängd räcker långt. Den sjunker in snabbt och hjälper strävа händer att kännas mjuka och smidiga igen.",
+    "valueHook": "Koncentrerad handkräm för mycket torra händer",
+    "valueStatement": "Neutrogena Norwegian Formula är en klassisk handkräm för dig med mycket torra händer som vill ha något dryg och effektivt. Formulan är koncentrerad, så en liten klick räcker långt, och de flesta upplever att den sjunker in snabbt och lämnar händerna mjuka snarare än feta. Amazon visar 4,6 av 5 från 9248 omdömen, och köpare lyfter framför allt hur mjuka torra händer känns och hur länge tuben räcker.",
+    "passFor": [
+      "Har mycket torra händer och vill ha en koncentrerad handkräm.",
+      "Vill ha en dryg produkt där lite räcker långt.",
+      "Föredrar en kräm som sjunker in snabbt utan att kännas fet."
+    ],
+    "caution": "Krämen är koncentrerad, så använd bara en liten klick åt gången för att undvika en fet känsla. Doften är märkbar och om du föredrar oparfymerat passar den mindre bra.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Massera in en liten klick på rena, torra händer, gärna efter handtvätt och innan läggdags. En liten mängd räcker långt eftersom krämen är koncentrerad."
+    },
+    "verdict": "En koncentrerad, dryg handkräm som hjälper mycket torra händer att kännas mjuka.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 9248 omdömen. Köpare beskriver mjuka händer och att lite räcker långt, men krämen är koncentrerad och doften en smaksak.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur mycket handkräm ska jag använda?", "answer": "Krämen är koncentrerad, så en liten klick räcker. Massera in den på rena, torra händer och lägg på mer bara om det behövs." },
+      { "question": "När passar det bäst att använda krämen?", "answer": "Bra tillfällen är efter handtvätt och innan läggdags. Då hinner händerna ta upp fukten och känns mjuka och smidiga längre." },
+      { "question": "Känns Neutrogena-handkrämen fet?", "answer": "Texturen är koncentrerad men beskrivs som snabbt insjunkande i omdömena. Använd en liten mängd så lämnar den händerna mjuka snarare än feta." }
+    ],
+    "reviewSectionId": "neutrogena-hand-cream-recensioner",
+    "reviewFormId": "neutrogena-hand-cream-skriv-recension",
+    "targetKeyword": "handkräm torra händer",
+    "metaTitle": "Neutrogena Norwegian Formula handkräm – torra händer | Elins val",
+    "metaDescription": "Elin går igenom Neutrogena Norwegian Formula: en koncentrerad handkräm för mycket torra händer där lite räcker långt (4,6 av 5, 9248 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som tar dagen utan att torka ut." },
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balsam för torr och stressad hud." },
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Antioxidantserum för lyster och glow." }
+    ]
+  },
+  "images": {
+    "dir": "neutrogena-hand-cream",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61E5lIOXoAL._SL1500_.jpg", "out": "neutrogena-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/315i5QlyiFL._SL1500_.jpg", "out": "neutrogena-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51exlQaqcnL._SL1500_.jpg", "out": "neutrogena-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51xLwt+osbL._SL1500_.jpg", "out": "neutrogena-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Neutrogena Norwegian Formula handkräm", "href": "/skonhet/handkram", "date": "2026-06-27", "image": "/products/neutrogena-hand-cream/neutrogena-thumbnail.webp", "blurb": "Koncentrerad handkräm för mycket torra händer där lite räcker långt." }
+  ]
+}

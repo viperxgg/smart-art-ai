@@ -1,0 +1,111 @@
+{
+  "exportName": "beautyOfJoseonCentellaMaskProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/sheet-mask",
+  "pageComponentName": "SheetMaskPage",
+  "product": {
+    "slug": "beauty-of-joseon-centella-mask",
+    "title": "Beauty of Joseon Centella Asiatica Calming Mask (sheet mask)",
+    "category": "skonhet",
+    "asin": "B08LLBKL7J",
+    "brand": "Beauty of Joseon",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Centella asiatica", "Lugnande", "Fukt-boost"],
+    "image": "/products/boj-centella-mask/boj-mask-thumbnail.webp",
+    "imageAlt": "Beauty of Joseon Centella Asiatica Calming Mask, sheet mask",
+    "images": [
+      { "src": "/products/boj-centella-mask/boj-mask-thumbnail.webp", "alt": "Beauty of Joseon Centella Asiatica Calming Mask, sheet mask", "label": "Centella-mask" },
+      { "src": "/products/boj-centella-mask/boj-mask-1.webp", "alt": "Beauty of Joseon Centella sheet mask med lugnande centella asiatica", "label": "Lugnande" },
+      { "src": "/products/boj-centella-mask/boj-mask-2.webp", "alt": "Beauty of Joseon Centella mask förpackning och innehåll", "label": "Förpackning" },
+      { "src": "/products/boj-centella-mask/boj-mask-3.webp", "alt": "Detaljbild av Beauty of Joseon Centella Asiatica Calming Mask", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eJCpPD",
+    "pageHref": "/skonhet/sheet-mask",
+    "summary": "En lugnande sheet mask med centella asiatica som ger huden en snabb boost av fukt och comfort. Perfekt när huden känns torr eller stressad och du vill ha en lugn, mer återhämtad känsla på några minuter.",
+    "evaluation": {
+      "headline": "Centella sheet mask för fukt och comfort",
+      "intro": "Elin går igenom Beauty of Joseon Centella Asiatica Calming Mask: en sheet mask indränkt i serum med centella asiatica, en omtyckt ingrediens för en lugn och behaglig känsla i huden. Tanken är en snabb fukt-boost när huden känns torr eller stressad.",
+      "verdict": "Lugnande fukt-boost för stunder när huden behöver lite extra comfort.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Beauty of Joseon Centella Calming Mask",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Sheet mask" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Centella asiatica-extrakt" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Lugnande fukt-boost för alla hudtyper" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eJCpPD",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 22 omdömen.",
+      "highlights": [
+        "Köpare upplever en lugn och behaglig känsla efter användning.",
+        "Masken är väl indränkt i serum och ger en tydlig fukt-boost.",
+        "Uppskattas som en snabb pigg-upp-stund för torr eller stressad hud."
+      ],
+      "cautions": [
+        "Få omdömen ännu, så helhetsbilden är begränsad och upplevelsen kan variera.",
+        "En sheet mask ger en tillfällig boost snarare än ett permanent resultat."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/sheet-mask",
+    "cardBadge": "Lugnande",
+    "cardHook": "Centella sheet mask för en snabb boost av fukt och comfort.",
+    "cardImage": "/products/boj-centella-mask/boj-mask-thumbnail.webp",
+    "cardImageAlt": "Beauty of Joseon Centella Asiatica Calming Mask, sheet mask",
+    "badge": "Elins lugn-stund",
+    "headline": "Beauty of Joseon Centella Mask – fukt och comfort",
+    "shortBody": "En sheet mask med centella asiatica för en lugn, behaglig känsla. Gjord för en snabb fukt-boost när huden känns torr eller stressad och du vill ge den lite extra comfort.",
+    "valueHook": "Centella sheet mask för fukt och comfort",
+    "valueStatement": "Beauty of Joseon Centella Asiatica Calming Mask är en sheet mask för dig som vill ge huden en snabb stund av fukt och comfort. Masken är indränkt i ett serum med centella asiatica, en omtyckt ingrediens för en lugn och behaglig känsla. Amazon visar 4,2 av 5 från 22 omdömen – ännu ett ganska litet antal – men de som lämnat omdöme lyfter framför allt den lugnande känslan och fukt-boosten.",
+    "passFor": [
+      "Vill ha en snabb fukt-boost när huden känns torr eller stressad.",
+      "Gillar centella asiatica för en lugn, behaglig känsla.",
+      "Vill ha en enkel pigg-upp-stund inför en kväll eller efter en lång dag."
+    ],
+    "caution": "Det finns ännu ganska få omdömen, så helhetsbilden är begränsad och upplevelsen kan variera mellan hudtyper. En sheet mask ger en tillfällig boost snarare än ett bestående resultat.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Lägg masken på ren hud och låt den sitta i 15–20 minuter. Ta bort masken och massera in resten av serumet i huden, följ gärna upp med fuktkräm för att låsa in fukten."
+    },
+    "verdict": "Lugnande fukt-boost för stunder när huden behöver lite extra comfort.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från 22 omdömen. Köpare beskriver en lugn känsla och en tydlig fukt-boost, men antalet omdömen är ännu litet så helhetsbilden är begränsad.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur länge ska jag ha masken på?", "answer": "Lägg masken på ren hud och låt den sitta i 15–20 minuter. Ta sedan bort den och massera in resten av serumet, följ gärna upp med fuktkräm." },
+      { "question": "Hur ofta kan jag använda en sheet mask?", "answer": "Den passar fint som en snabb fukt-boost när huden känns torr eller stressad, till exempel några gånger i veckan eller inför en speciell kväll." },
+      { "question": "Vad är centella asiatica bra för?", "answer": "Centella asiatica är en omtyckt ingrediens i hudvård för en lugn och behaglig känsla i huden, och passar fint i en lugnande mask." }
+    ],
+    "reviewSectionId": "beauty-of-joseon-centella-mask-recensioner",
+    "reviewFormId": "beauty-of-joseon-centella-mask-skriv-recension",
+    "targetKeyword": "sheet mask centella",
+    "metaTitle": "Beauty of Joseon Centella Mask – fukt & comfort | Elins val",
+    "metaDescription": "Elin går igenom Beauty of Joseon Centella Asiatica Calming Mask: en lugnande sheet mask för en snabb fukt-boost (4,2 av 5, 22 omdömen) – och vad du bör veta innan du köper.",
+    "relatedLinks": [
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balsam för torr och stressad hud." },
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "boj-centella-mask",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51Bj+tFIT-L._SL1500_.jpg", "out": "boj-mask-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31xHuP5BqQL._SL1500_.jpg", "out": "boj-mask-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41Eyrz6U+SL._SL1500_.jpg", "out": "boj-mask-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/21NbC2sZMGL._SL1500_.jpg", "out": "boj-mask-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Beauty of Joseon Centella Calming Mask", "href": "/skonhet/sheet-mask", "date": "2026-06-27", "image": "/products/boj-centella-mask/boj-mask-thumbnail.webp", "blurb": "Lugnande sheet mask med centella asiatica för en snabb boost av fukt och comfort." }
+  ]
+}

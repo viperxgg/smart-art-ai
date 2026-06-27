@@ -1,0 +1,111 @@
+{
+  "exportName": "biodermaSensibioProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/micellart-vatten",
+  "pageComponentName": "MicellartVattenPage",
+  "product": {
+    "slug": "bioderma-sensibio-h2o",
+    "title": "Bioderma Sensibio H2O – micellärt vatten (500 ml)",
+    "category": "skonhet",
+    "asin": "B002XZLAWM",
+    "brand": "Bioderma",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Micellärt vatten", "Tar bort smink", "Känslig hud"],
+    "image": "/products/bioderma-sensibio/bioderma-thumbnail.webp",
+    "imageAlt": "Bioderma Sensibio H2O micellärt vatten, 500 ml",
+    "images": [
+      { "src": "/products/bioderma-sensibio/bioderma-thumbnail.webp", "alt": "Bioderma Sensibio H2O micellärt vatten, 500 ml", "label": "Sensibio H2O" },
+      { "src": "/products/bioderma-sensibio/bioderma-1.webp", "alt": "Bioderma Sensibio H2O micellärt vatten för känslig hud", "label": "Känslig hud" },
+      { "src": "/products/bioderma-sensibio/bioderma-2.webp", "alt": "Bioderma Sensibio H2O som rengör och tar bort smink", "label": "Rengör & sminkbort" },
+      { "src": "/products/bioderma-sensibio/bioderma-3.webp", "alt": "Detaljbild av Bioderma Sensibio H2O flaska", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3QIZ4U0",
+    "pageHref": "/skonhet/micellart-vatten",
+    "summary": "Ett skonsamt micellärt vatten som rengör huden och tar bort smink i ett steg – framtaget med tanke på känslig hud. Inget behov av att skölja, bara att svepa över med en bomullsrondell.",
+    "evaluation": {
+      "headline": "Micellärt vatten för känslig hud",
+      "intro": "Elin går igenom Bioderma Sensibio H2O: ett micellärt vatten som lyfter bort smink och smuts utan att skölja. Micellerna fångar upp orenheter på ett mjukt sätt, och formulan är gjord för känslig hud som lätt blir irriterad av starkare rengöring.",
+      "verdict": "Klassiskt, skonsamt micellärt vatten som passar känslig hud i vardagen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Bioderma Sensibio H2O",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Micellärt vatten, 500 ml" },
+      { "label": "Funktion", "caption": "Steg", "value": "Rengör och tar bort smink" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Känslig hud, ingen sköljning" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3QIZ4U0",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 34142 omdömen.",
+      "highlights": [
+        "Köpare upplever att det tar bort smink mjukt och effektivt.",
+        "Uppskattas för att kännas skonsamt även för känslig hud.",
+        "Många gillar den stora flaskan som räcker länge."
+      ],
+      "cautions": [
+        "Tar inte alltid bort vattenfast mascara i ett enda svep – kan behöva en extra rondell.",
+        "Vissa föredrar att skölja ansiktet efteråt även om det inte krävs."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/micellart-vatten",
+    "cardBadge": "Känslig hud",
+    "cardHook": "Micellärt vatten som rengör och tar bort smink i ett steg.",
+    "cardImage": "/products/bioderma-sensibio/bioderma-thumbnail.webp",
+    "cardImageAlt": "Bioderma Sensibio H2O micellärt vatten, 500 ml",
+    "badge": "Elins favorit för känslig hud",
+    "headline": "Bioderma Sensibio H2O – micellärt vatten",
+    "shortBody": "Ett skonsamt micellärt vatten som rengör och tar bort smink utan sköljning. Framtaget med tanke på känslig hud och med en stor flaska som räcker länge.",
+    "valueHook": "Micellärt vatten för känslig hud",
+    "valueStatement": "Bioderma Sensibio H2O är ett micellärt vatten för dig som vill rengöra huden och ta bort smink på ett mjukt sätt. Micellerna lyfter bort smuts och makeup utan att du behöver skölja, och formulan är gjord med tanke på känslig hud. Amazon visar 4,7 av 5 från 34142 omdömen, och köpare lyfter framför allt den skonsamma känslan, hur enkelt sminket försvinner och den stora flaskan som räcker länge.",
+    "passFor": [
+      "Har känslig hud och vill ha en mild rengöring.",
+      "Vill ta bort smink och rengöra i ett enda steg.",
+      "Gillar att slippa skölja efter rengöringen."
+    ],
+    "caution": "Vattenfast mascara kan behöva en extra rondell, och även om sköljning inte krävs föredrar vissa att skölja ansiktet efteråt. Använd en ren bomullsrondell varje gång.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Fukta en bomullsrondell med Sensibio H2O och svep mjukt över ansikte och ögon morgon och kväll. Du behöver inte skölja efteråt, men kan följa upp med fuktkräm."
+    },
+    "verdict": "Klassiskt, skonsamt micellärt vatten som passar känslig hud i vardagen.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 34142 omdömen. Köpare beskriver en skonsam rengöring som tar bort smink mjukt, men vattenfast mascara kan behöva en extra rondell.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Behöver jag skölja efter Bioderma Sensibio H2O?", "answer": "Nej, micellärt vatten behöver inte sköljas. Du kan svepa över med en bomullsrondell och sedan gå vidare med din rutin, men det går bra att skölja om du vill." },
+      { "question": "Passar Sensibio H2O känslig hud?", "answer": "Den är gjord med tanke på känslig hud och beskrivs som skonsam. Som alltid är det klokt att prova på en liten yta först om din hud är lättirriterad." },
+      { "question": "Tar det bort smink ordentligt?", "answer": "Köpare upplever att det tar bort de flesta sorters smink mjukt. Vattenfast mascara kan behöva en extra rondell." }
+    ],
+    "reviewSectionId": "bioderma-sensibio-h2o-recensioner",
+    "reviewFormId": "bioderma-sensibio-h2o-skriv-recension",
+    "targetKeyword": "micellärt vatten",
+    "metaTitle": "Bioderma Sensibio H2O – micellärt vatten för känslig hud | Elins val",
+    "metaDescription": "Elin går igenom Bioderma Sensibio H2O: ett skonsamt micellärt vatten som rengör och tar bort smink (4,7 av 5, 34142 omdömen) – och vad du bör veta vid känslig hud.",
+    "relatedLinks": [
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring att kombinera med micellärt vatten." },
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balsam för känslig och stressad hud." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "bioderma-sensibio",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51LkAI9bswL._SL1500_.jpg", "out": "bioderma-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31c-FJTm33L._SL1500_.jpg", "out": "bioderma-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41cdUfqlKZL._SL1500_.jpg", "out": "bioderma-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/410sFQVd7hL._SL1500_.jpg", "out": "bioderma-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Bioderma Sensibio H2O – micellärt vatten", "href": "/skonhet/micellart-vatten", "date": "2026-06-27", "image": "/products/bioderma-sensibio/bioderma-thumbnail.webp", "blurb": "Skonsamt micellärt vatten som rengör och tar bort smink för känslig hud." }
+  ]
+}

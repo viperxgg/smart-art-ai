@@ -1,0 +1,111 @@
+{
+  "exportName": "cetaphilMoisturizingCreamProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/fuktkram",
+  "pageComponentName": "FuktkramPage",
+  "product": {
+    "slug": "cetaphil-moisturizing-cream",
+    "title": "Cetaphil Moisturising Cream – fuktkräm för torr hud (453 g)",
+    "category": "skonhet",
+    "asin": "B003IO05U0",
+    "brand": "Cetaphil",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Rik fuktkräm", "Torr hud", "Ansikte & kropp"],
+    "image": "/products/cetaphil-moisturizer/cetaphil-cream-thumbnail.webp",
+    "imageAlt": "Cetaphil Moisturising Cream fuktkräm, 453 g",
+    "images": [
+      { "src": "/products/cetaphil-moisturizer/cetaphil-cream-thumbnail.webp", "alt": "Cetaphil Moisturising Cream fuktkräm, 453 g", "label": "Fuktkräm" },
+      { "src": "/products/cetaphil-moisturizer/cetaphil-cream-1.webp", "alt": "Cetaphil Moisturising Cream för torr och känslig hud", "label": "Torr hud" },
+      { "src": "/products/cetaphil-moisturizer/cetaphil-cream-2.webp", "alt": "Cetaphil Moisturising Cream textur och konsistens", "label": "Rik textur" },
+      { "src": "/products/cetaphil-moisturizer/cetaphil-cream-3.webp", "alt": "Detaljbild av Cetaphil Moisturising Cream burk", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3QsHOCC",
+    "pageHref": "/skonhet/fuktkram",
+    "summary": "En rik, återfuktande kräm för torr och känslig hud som kan användas på både ansikte och kropp. Den stora burken räcker länge och passar dig som vill ha enkel, mättande fukt.",
+    "evaluation": {
+      "headline": "Rik fuktkräm för torr hud",
+      "intro": "Elin går igenom Cetaphil Moisturising Cream: en rik kräm som ger mättande fukt till torr och känslig hud. Den är gjord för att kunna användas på både ansikte och kropp, och den stora burken gör den till ett enkelt val för hela kroppen.",
+      "verdict": "Rik, prisvärd fuktkräm för torr hud på både ansikte och kropp.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Cetaphil Moisturising Cream",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Fuktkräm, 453 g" },
+      { "label": "Funktion", "caption": "Steg", "value": "Mättande fukt för torr hud" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Torr och känslig hud, ansikte och kropp" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3QsHOCC",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 1742 omdömen.",
+      "highlights": [
+        "Köpare upplever att den ger mättande fukt åt torr hud.",
+        "Uppskattas för att kännas mild på känslig hud.",
+        "Många gillar den stora burken som räcker länge."
+      ],
+      "cautions": [
+        "Den rika texturen kan kännas tung för dig med fet eller blandad hy.",
+        "Burkformatet gör det svårare att hålla helt hygieniskt – använd gärna ren spatel."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/fuktkram",
+    "cardBadge": "Torr hud",
+    "cardHook": "Rik fuktkräm för torr hud – till både ansikte och kropp.",
+    "cardImage": "/products/cetaphil-moisturizer/cetaphil-cream-thumbnail.webp",
+    "cardImageAlt": "Cetaphil Moisturising Cream fuktkräm, 453 g",
+    "badge": "Elins val för torr hud",
+    "headline": "Cetaphil Moisturising Cream – rik fukt för torr hud",
+    "shortBody": "En rik, återfuktande kräm för torr och känslig hud, till både ansikte och kropp. Den stora burken räcker länge och passar dig som vill ha enkel, mättande fukt.",
+    "valueHook": "Rik fuktkräm för torr hud",
+    "valueStatement": "Cetaphil Moisturising Cream är en rik fuktkräm för dig med torr eller känslig hud. Den ger mättande fukt och kan användas på både ansikte och kropp, vilket gör den enkel att ha i hela rutinen. Amazon visar 4,7 av 5 från 1742 omdömen, och köpare lyfter framför allt den mättande fukten, den milda känslan och den stora burken som räcker länge.",
+    "passFor": [
+      "Har torr hud och vill ha en rik, mättande fuktkräm.",
+      "Vill kunna använda samma kräm på ansikte och kropp.",
+      "Önskar en stor burk som räcker länge."
+    ],
+    "caution": "Den rika texturen kan kännas tung för dig med fet eller blandad hy. Burkformatet blir mest hygieniskt om du använder en ren spatel i stället för fingrarna.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Massera in krämen på ren, lätt fuktig hud morgon och kväll. På torra partier kan du lägga ett extra lager, och för ansiktet räcker ofta en mindre mängd."
+    },
+    "verdict": "Rik, prisvärd fuktkräm för torr hud på både ansikte och kropp.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 1742 omdömen. Köpare beskriver mättande fukt för torr hud och en mild känsla, men den rika texturen kan kännas tung för fet hy.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Passar Cetaphil Moisturising Cream torr hud?", "answer": "Ja, den är en rik kräm som ger mättande fukt och är tänkt för torr och känslig hud. Den kan användas både morgon och kväll." },
+      { "question": "Kan jag använda krämen på kroppen också?", "answer": "Ja, den är gjord för både ansikte och kropp. Den stora burken gör den smidig att använda på större hudpartier." },
+      { "question": "Är krämen lämplig för fet hy?", "answer": "Den rika texturen kan kännas tung om du har fet eller blandad hy. Då kan en lättare fuktkräm passa bättre i ansiktet." }
+    ],
+    "reviewSectionId": "cetaphil-moisturizing-cream-recensioner",
+    "reviewFormId": "cetaphil-moisturizing-cream-skriv-recension",
+    "targetKeyword": "fuktkräm torr hud",
+    "metaTitle": "Cetaphil Moisturising Cream – rik fuktkräm för torr hud | Elins val",
+    "metaDescription": "Elin går igenom Cetaphil Moisturising Cream: en rik fuktkräm för torr och känslig hud, till ansikte och kropp (4,7 av 5, 1742 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balsam för känslig och stressad hud." },
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring inför ditt fuktsteg." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "cetaphil-moisturizer",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71vgyRjmhkL._SL1500_.jpg", "out": "cetaphil-cream-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51zbshl4TpL._SL1500_.jpg", "out": "cetaphil-cream-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51CliAUYPzL._SL1500_.jpg", "out": "cetaphil-cream-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/413gxBqVm9L._SL1500_.jpg", "out": "cetaphil-cream-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Cetaphil Moisturising Cream – fuktkräm för torr hud", "href": "/skonhet/fuktkram", "date": "2026-06-27", "image": "/products/cetaphil-moisturizer/cetaphil-cream-thumbnail.webp", "blurb": "Rik, återfuktande kräm för torr och känslig hud, till ansikte och kropp." }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "exportName": "mauiCurlSmoothieProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/curl-cream",
+  "pageComponentName": "CurlCreamPage",
+  "product": {
+    "slug": "maui-curl-smoothie",
+    "title": "Maui Moisture Curl Quench+ Coconut Oil Curl Smoothie",
+    "category": "skonhet",
+    "asin": "B01MFHHD33",
+    "brand": "Maui Moisture",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Kokosolja", "Definierar lockar", "Tämjer frizz"],
+    "image": "/products/maui-curl-cream/maui-thumbnail.webp",
+    "imageAlt": "Maui Moisture Curl Quench+ Coconut Oil Curl Smoothie",
+    "images": [
+      { "src": "/products/maui-curl-cream/maui-thumbnail.webp", "alt": "Maui Moisture Curl Quench+ Coconut Oil Curl Smoothie", "label": "Maui curl cream" },
+      { "src": "/products/maui-curl-cream/maui-1.webp", "alt": "Maui Moisture curl smoothie med kokosolja för lockar", "label": "Kokosolja" },
+      { "src": "/products/maui-curl-cream/maui-2.webp", "alt": "Maui Moisture curl cream textur och konsistens", "label": "Krämig textur" },
+      { "src": "/products/maui-curl-cream/maui-3.webp", "alt": "Detaljbild av Maui Moisture Curl Quench+ Curl Smoothie", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4f5Z2yV",
+    "pageHref": "/skonhet/curl-cream",
+    "summary": "En fuktgivande curl cream med kokosolja som definierar lockar och tämjer frizz. En populär favorit för dig som vill ge lockarna mer form och fukt utan att de känns stela.",
+    "evaluation": {
+      "headline": "Curl cream med kokosolja för definierade lockar",
+      "intro": "Elin går igenom Maui Moisture Curl Quench+ Coconut Oil Curl Smoothie: en fuktgivande curl cream med kokosolja. Den appliceras i fuktigt hår för att definiera lockar, ge fukt och tämja frizz, och är en omtyckt favorit i många lockrutiner.",
+      "verdict": "Fuktgivande curl cream som definierar lockar och tämjer frizz.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Maui Moisture Curl Quench+ Curl Smoothie",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Curl cream (smoothie)" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Kokosolja för fukt" },
+      { "label": "Profil", "caption": "Hårvård", "value": "Lockigt hår och frizz" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4f5Z2yV",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 11 372 omdömen.",
+      "highlights": [
+        "Köpare tycker att lockarna blir mer definierade och får mer form.",
+        "Uppskattas för att tämja frizz och ge fukt åt torra längder.",
+        "En favorit i lockrutiner för att forma lockar i fuktigt hår."
+      ],
+      "cautions": [
+        "Dosera efter hårtyp så att lockarna inte känns tyngda.",
+        "Resultatet varierar med lockmönster och hur torrt håret är."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/curl-cream",
+    "cardBadge": "Kokosolja",
+    "cardHook": "Fuktgivande curl cream som definierar lockar och tämjer frizz.",
+    "cardImage": "/products/maui-curl-cream/maui-thumbnail.webp",
+    "cardImageAlt": "Maui Moisture Curl Quench+ Coconut Oil Curl Smoothie",
+    "badge": "Elins favorit för lockar",
+    "headline": "Maui Moisture Curl Smoothie – curl cream med kokosolja",
+    "shortBody": "En fuktgivande curl cream med kokosolja som definierar lockar och tämjer frizz. En populär favorit för dig som vill ge lockarna mer form och fukt utan att de känns stela.",
+    "valueHook": "Curl cream med kokosolja för definierade lockar",
+    "valueStatement": "Maui Moisture Curl Quench+ Coconut Oil Curl Smoothie är en fuktgivande curl cream för dig med lockigt hår. Kokosolja ger fukt åt torra längder samtidigt som creamen hjälper till att definiera lockar och tämja frizz. Amazon visar 4,6 av 5 från 11 372 omdömen, och köpare lyfter framför allt mer definierade lockar och mindre frizz.",
+    "passFor": [
+      "Har lockigt hår och vill ge lockarna mer form och definition.",
+      "Vill tämja frizz och ge torra längder mer fukt.",
+      "Letar efter en curl cream att forma lockarna med i fuktigt hår."
+    ],
+    "caution": "Dosera efter din hårtyp så att lockarna inte känns tyngda – fint hår behöver oftast mindre. Resultatet varierar med lockmönster och hur torrt håret är, så testa dig fram till rätt mängd.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera i fuktigt hår och fördela genom längderna, gärna med scrunch-teknik för att forma lockarna. Lufttorka eller diffusera. Börja med en lagom mängd och justera efter hur lockarna känns."
+    },
+    "verdict": "Fuktgivande curl cream som definierar lockar och tämjer frizz.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 11 372 omdömen. Köpare beskriver mer definierade lockar och mindre frizz, men mängden bör doseras efter hårtyp så att lockarna inte känns tyngda.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag Maui curl cream?", "answer": "Applicera i fuktigt hår och fördela genom längderna, gärna med scrunch-teknik för att forma lockarna. Lufttorka eller diffusera och justera mängden efter hur lockarna känns." },
+      { "question": "Gör creamen lockarna stela?", "answer": "Det är en fuktgivande curl cream snarare än en stark gel, men för mycket produkt kan tynga lockarna. Börja med en lagom mängd och öka bara vid behov." },
+      { "question": "Passar den alla lockmönster?", "answer": "Den används i många olika lockrutiner, men resultatet varierar med lockmönster och hur torrt håret är. Testa dig fram till den mängd och teknik som passar dina lockar." }
+    ],
+    "reviewSectionId": "maui-curl-smoothie-recensioner",
+    "reviewFormId": "maui-curl-smoothie-skriv-recension",
+    "targetKeyword": "lockcreme curl cream",
+    "metaTitle": "Maui Moisture Curl Smoothie – curl cream med kokosolja | Elins val",
+    "metaDescription": "Elin går igenom Maui Moisture Curl Quench+ Coconut Oil Curl Smoothie: en fuktgivande curl cream med kokosolja som definierar lockar och tämjer frizz (4,6 av 5, 11 372 omdömen).",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Närande olja för torra längder och toppar." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret före föntork och plattång." }
+    ]
+  },
+  "images": {
+    "dir": "maui-curl-cream",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81uTj9BaegL._SL1500_.jpg", "out": "maui-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41GivH6d-dL._SL1500_.jpg", "out": "maui-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51f0eGmsZGL._SL1500_.jpg", "out": "maui-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51FMqEPm08L._SL1500_.jpg", "out": "maui-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Maui Moisture Curl Quench+ Curl Smoothie", "href": "/skonhet/curl-cream", "date": "2026-06-27", "image": "/products/maui-curl-cream/maui-thumbnail.webp", "blurb": "Fuktgivande curl cream med kokosolja som definierar lockar och tämjer frizz." }
+  ]
+}

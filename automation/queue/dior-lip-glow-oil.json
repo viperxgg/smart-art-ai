@@ -1,0 +1,105 @@
+{
+  "exportName": "diorLipGlowOilProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/lip-oil",
+  "pageComponentName": "LipOilPage",
+  "product": {
+    "slug": "dior-lip-glow-oil",
+    "title": "Dior Addict Lip Glow Oil – läppolja (000 Universal Clear)",
+    "category": "skonhet",
+    "asin": "B0B1Q6BCDG",
+    "brand": "Dior",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Vårdande läppolja", "Naturlig lyster", "Premium-favorit"],
+    "image": "/products/dior-lip-oil/dior-lip-thumbnail.webp",
+    "imageAlt": "Dior Addict Lip Glow Oil läppolja, 000 Universal Clear",
+    "images": [
+      { "src": "/products/dior-lip-oil/dior-lip-thumbnail.webp", "alt": "Dior Addict Lip Glow Oil läppolja, 000 Universal Clear", "label": "Läppolja" }
+    ],
+    "amazonUrl": "https://amzn.to/3QJ03DG",
+    "pageHref": "/skonhet/lip-oil",
+    "summary": "En vårdande, glansig läppolja som återfuktar och ger läpparna en naturlig lyster. En premium-favorit i nyansen 000 Universal Clear som ger glans utan att kännas klibbig.",
+    "evaluation": {
+      "headline": "Vårdande läppolja för naturlig lyster",
+      "intro": "Elin går igenom Dior Addict Lip Glow Oil i nyansen 000 Universal Clear: en vårdande läppolja som återfuktar och ger en glansig, naturlig lyster. En premium-favorit för dig som vill ha mjuka läppar med glans utan en klibbig känsla.",
+      "verdict": "Lyxig, vårdande läppolja för naturlig lyster och mjuka läppar – men få omdömen ännu.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Dior Addict Lip Glow Oil",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Läppolja, 000 Universal Clear" },
+      { "label": "Finish", "caption": "Resultat", "value": "Glansig, naturlig lyster" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Vårdande och återfuktande" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3QJ03DG",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 65 omdömen.",
+      "highlights": [
+        "Köpare beskriver mjuka läppar med en glansig, naturlig lyster.",
+        "Den klara nyansen uppskattas för att passa de flesta.",
+        "Flera tycker den känns vårdande utan att vara klibbig."
+      ],
+      "cautions": [
+        "Antalet omdömen är ännu lågt, så helhetsbilden är begränsad.",
+        "Glansen är en kosmetisk finish som mattas av med tiden och behöver läggas om."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/lip-oil",
+    "cardBadge": "Naturlig lyster",
+    "cardHook": "Vårdande läppolja som återfuktar och ger en glansig, naturlig lyster.",
+    "cardImage": "/products/dior-lip-oil/dior-lip-thumbnail.webp",
+    "cardImageAlt": "Dior Addict Lip Glow Oil läppolja, 000 Universal Clear",
+    "badge": "Elins premium-favorit",
+    "headline": "Dior Addict Lip Glow Oil – naturlig lyster",
+    "shortBody": "En vårdande, glansig läppolja i nyansen 000 Universal Clear. Återfuktar läpparna och ger en naturlig lyster med glans utan att kännas klibbig – en premium-favorit.",
+    "valueHook": "Vårdande läppolja för naturlig lyster",
+    "valueStatement": "Dior Addict Lip Glow Oil är en vårdande läppolja för dig som vill ha mjuka läppar med en glansig, naturlig lyster. I nyansen 000 Universal Clear ger den glans utan att kännas klibbig och passar de flesta. Det är en premium-favorit som ofta lyfts fram för känslan och finishen. Amazon visar 4,5 av 5 från 65 omdömen, vilket är få omdömen ännu – så betyget är positivt men helhetsbilden fortfarande begränsad. Köpare beskriver framför allt mjuka läppar och en fin lyster.",
+    "passFor": [
+      "Vill ha mjuka läppar med en glansig, naturlig lyster.",
+      "Önskar en klar nyans som passar de flesta.",
+      "Letar efter en vårdande premium-läppolja utan klibbig känsla."
+    ],
+    "caution": "Antalet omdömen är ännu lågt, så helhetsbilden är begränsad. Glansen är en kosmetisk finish som mattas av med tiden och behöver läggas om under dagen.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Stryk ett tunt lager över rena läppar när du vill ha glans och en mjuk känsla. Lägg om under dagen vid behov – en liten mängd räcker för en naturlig lyster."
+    },
+    "verdict": "Lyxig, vårdande läppolja för naturlig lyster och mjuka läppar – men få omdömen ännu.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 65 omdömen – få ännu. Köpare beskriver mjuka läppar och en fin lyster, men helhetsbilden är fortfarande begränsad.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vilken nyans är 000 Universal Clear?", "answer": "Det är en klar, transparent nyans som ger glans och lyster utan färg. Den beskrivs som lätt att bära och passar de flesta." },
+      { "question": "Känns läppoljan klibbig?", "answer": "Flera köpare tycker den känns vårdande snarare än klibbig. Ett tunt lager räcker för en mjuk, glansig finish." },
+      { "question": "Hur tillförlitligt är betyget?", "answer": "Betyget är positivt men bygger på få omdömen ännu, så helhetsbilden är begränsad. Se det som en tidig signal snarare än ett etablerat snitt." }
+    ],
+    "reviewSectionId": "dior-lip-glow-oil-recensioner",
+    "reviewFormId": "dior-lip-glow-oil-skriv-recension",
+    "targetKeyword": "lip oil läppolja",
+    "metaTitle": "Dior Addict Lip Glow Oil – läppolja & lyster | Elins val",
+    "metaDescription": "Elin går igenom Dior Addict Lip Glow Oil (000 Universal Clear): en vårdande läppolja för naturlig lyster och mjuka läppar (4,5 av 5, men endast 65 omdömen).",
+    "relatedLinks": [
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Apoteksserum för lyster och glow på morgonen." },
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." },
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balm för stressad och torr hud." }
+    ]
+  },
+  "images": {
+    "dir": "dior-lip-oil",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/31cZM4Ul4PL._SL1500_.jpg", "out": "dior-lip-thumbnail.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Dior Addict Lip Glow Oil", "href": "/skonhet/lip-oil", "date": "2026-06-27", "image": "/products/dior-lip-oil/dior-lip-thumbnail.webp", "blurb": "Vårdande läppolja som återfuktar och ger läpparna en naturlig lyster – en premium-favorit." }
+  ]
+}

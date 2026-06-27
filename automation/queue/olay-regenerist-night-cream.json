@@ -1,0 +1,111 @@
+{
+  "exportName": "olayRegeneristNightProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/nattkram",
+  "pageComponentName": "NattkramPage",
+  "product": {
+    "slug": "olay-regenerist-night-cream",
+    "title": "Olay Regenerist Night Recovery – nattkräm (50 g)",
+    "category": "skonhet",
+    "asin": "B01M4R7CC5",
+    "brand": "Olay",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Rik nattkräm", "Återfuktande", "Smidigare känsla"],
+    "image": "/products/olay-night-cream/olay-night-thumbnail.webp",
+    "imageAlt": "Olay Regenerist Night Recovery nattkräm, 50 g",
+    "images": [
+      { "src": "/products/olay-night-cream/olay-night-thumbnail.webp", "alt": "Olay Regenerist Night Recovery nattkräm, 50 g", "label": "Nattkräm" },
+      { "src": "/products/olay-night-cream/olay-night-1.webp", "alt": "Olay Regenerist Night Recovery rik, återfuktande nattkräm", "label": "Återfuktande" },
+      { "src": "/products/olay-night-cream/olay-night-2.webp", "alt": "Olay Regenerist Night Recovery textur och konsistens", "label": "Rik textur" },
+      { "src": "/products/olay-night-cream/olay-night-3.webp", "alt": "Detaljbild av Olay Regenerist Night Recovery nattkräm", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4wdCzG0",
+    "pageHref": "/skonhet/nattkram",
+    "summary": "En rik, återfuktande nattkräm som ger huden fukt under natten och en smidigare känsla till morgonen. Krämig textur som sjunker in och hjälper huden att kännas mjuk och utvilad.",
+    "evaluation": {
+      "headline": "Rik nattkräm för fukt över natten",
+      "intro": "Elin går igenom Olay Regenerist Night Recovery: en rik, återfuktande nattkräm. Tanken är enkel – ge huden fukt under natten så att den känns smidigare och mer utvilad till morgonen. En krämig textur som sjunker in som sista steg på kvällen.",
+      "verdict": "Rik, återfuktande nattkräm som ger huden fukt och en smidigare känsla till morgonen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Olay Regenerist Night Recovery",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Nattkräm, 50 g" },
+      { "label": "Textur", "caption": "Konsistens", "value": "Rik och krämig" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Återfuktande, för natten" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4wdCzG0",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 17 614 omdömen.",
+      "highlights": [
+        "Köpare beskriver en mjuk, smidigare känsla i huden till morgonen.",
+        "Den rika krämen uppskattas särskilt under den torra årstiden.",
+        "Många tycker att texturen sjunker in fint utan att kännas tung."
+      ],
+      "cautions": [
+        "En rik kräm kan kännas för mycket för väldigt fet hud – börja gärna med ett tunt lager.",
+        "Doften finns med i produkten; är du känslig för parfym, prova försiktigt först."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/nattkram",
+    "cardBadge": "Återfuktande",
+    "cardHook": "Rik nattkräm som ger huden fukt och en smidigare känsla till morgonen.",
+    "cardImage": "/products/olay-night-cream/olay-night-thumbnail.webp",
+    "cardImageAlt": "Olay Regenerist Night Recovery nattkräm, 50 g",
+    "badge": "Elins nattfavorit",
+    "headline": "Olay Regenerist Night Recovery – fukt över natten",
+    "shortBody": "En rik, återfuktande nattkräm med krämig textur som sjunker in. Gjord för att ge huden fukt under natten så att den känns smidigare och mer utvilad till morgonen.",
+    "valueHook": "Rik nattkräm för fukt och en smidigare känsla",
+    "valueStatement": "Olay Regenerist Night Recovery är en rik, återfuktande nattkräm för dig som vill ge huden ordentligt med fukt under natten. Den krämiga texturen sjunker in som sista steg på kvällen och hjälper huden att kännas smidigare och mer utvilad till morgonen. Amazon visar 4,6 av 5 från 17 614 omdömen, och köpare lyfter framför allt den mjuka känslan till morgonen, hur återfuktande krämen är och att texturen sjunker in fint.",
+    "passFor": [
+      "Vill ge huden ordentligt med fukt under natten.",
+      "Önskar en smidigare, mjukare känsla i huden till morgonen.",
+      "Gillar en rik kräm som sista steg i kvällsrutinen."
+    ],
+    "caution": "En rik kräm kan kännas för mycket för väldigt fet hud – börja gärna med ett tunt lager. Produkten innehåller doft, så är du känslig för parfym kan det vara bra att prova försiktigt först.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Massera in ett lagom lager på ren hud som sista steg på kvällen. Börja gärna tunt om huden är fet och öka vid behov – krämen får verka och ge huden fukt under natten."
+    },
+    "verdict": "Rik, återfuktande nattkräm som ger huden fukt och en smidigare känsla till morgonen.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 17 614 omdömen. Köpare beskriver en återfuktande kräm och en smidigare känsla till morgonen, men den kan kännas rik för fet hud.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När använder jag nattkrämen?", "answer": "Som sista steg på kvällen, på ren hud. Massera in ett lagom lager och låt krämen verka och ge huden fukt under natten." },
+      { "question": "Passar nattkrämen fet hud?", "answer": "Den är rik, vilket många med normal till torr hud uppskattar. Har du fet hud kan du börja med ett tunt lager och se hur huden känns." },
+      { "question": "Innehåller krämen doft?", "answer": "Ja, produkten innehåller doft. Är du känslig för parfym kan det vara bra att prova försiktigt på en liten yta först." }
+    ],
+    "reviewSectionId": "olay-regenerist-night-cream-recensioner",
+    "reviewFormId": "olay-regenerist-night-cream-skriv-recension",
+    "targetKeyword": "nattkräm",
+    "metaTitle": "Olay Regenerist Night Recovery – nattkräm | Elins val",
+    "metaDescription": "Elin går igenom Olay Regenerist Night Recovery: en rik, återfuktande nattkräm som ger huden fukt och en smidigare känsla till morgonen (4,6 av 5, 17 614 omdömen).",
+    "relatedLinks": [
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "C-vitamin för lyster och glow på morgonen." },
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balm för stressad och torr hud." },
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg i rutinen." }
+    ]
+  },
+  "images": {
+    "dir": "olay-night-cream",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71pgwm95q1L._SL1500_.jpg", "out": "olay-night-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41NtQhEA+NL._SL1500_.jpg", "out": "olay-night-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41Aho+yr2IL._SL1500_.jpg", "out": "olay-night-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41KNHansv7L._SL1500_.jpg", "out": "olay-night-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Olay Regenerist Night Recovery", "href": "/skonhet/nattkram", "date": "2026-06-27", "image": "/products/olay-night-cream/olay-night-thumbnail.webp", "blurb": "Rik, återfuktande nattkräm som ger huden fukt och en smidigare känsla till morgonen." }
+  ]
+}

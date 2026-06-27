@@ -1,0 +1,111 @@
+{
+  "exportName": "someByMiMatchaClayMaskProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/lermask",
+  "pageComponentName": "LermaskPage",
+  "product": {
+    "slug": "some-by-mi-matcha-clay-mask",
+    "title": "Some By Mi Super Matcha Pore Clean Clay Mask (100 g)",
+    "category": "skonhet",
+    "asin": "B08KPZH3JR",
+    "brand": "SOME BY MI",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Lermask", "Matcha", "Porer"],
+    "image": "/products/matcha-clay-mask/clay-mask-thumbnail.webp",
+    "imageAlt": "Some By Mi Super Matcha Pore Clean Clay Mask, 100 g",
+    "images": [
+      { "src": "/products/matcha-clay-mask/clay-mask-thumbnail.webp", "alt": "Some By Mi Super Matcha Pore Clean Clay Mask, 100 g", "label": "Lermask" },
+      { "src": "/products/matcha-clay-mask/clay-mask-1.webp", "alt": "Some By Mi matcha lermask som rengör porerna", "label": "Rengör porer" },
+      { "src": "/products/matcha-clay-mask/clay-mask-2.webp", "alt": "Some By Mi matcha lermask textur och konsistens", "label": "Krämig lera" },
+      { "src": "/products/matcha-clay-mask/clay-mask-3.webp", "alt": "Detaljbild av Some By Mi Super Matcha Pore Clean Clay Mask", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4g4Rmhv",
+    "pageHref": "/skonhet/lermask",
+    "summary": "En lermask med matcha som rengör porerna på djupet och mattar glans. Tänkt som en behandling 1–2 gånger i veckan för en renare känsla och en mer mattad hud.",
+    "evaluation": {
+      "headline": "Lermask med matcha för porerna",
+      "intro": "Elin går igenom Some By Mi Super Matcha Pore Clean Clay Mask: en lermask med matcha som rengör porerna och mattar glans. Leran drar åt sig orenheter och fett, och masken är tänkt som ett behandlingssteg 1–2 gånger i veckan snarare än varje dag.",
+      "verdict": "Rengörande lermask med matcha för porerna och en mattare hud, 1–2 ggr/vecka.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Some By Mi Super Matcha Pore Clean Clay Mask",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Lermask, 100 g" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Matcha och lera" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Porer, glans, 1–2 ggr/vecka" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4g4Rmhv",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 271 omdömen.",
+      "highlights": [
+        "Köpare upplever en renare känsla och mindre synlig glans.",
+        "Uppskattas för att porerna känns rengjorda efter användning.",
+        "Många gillar den krämiga leran som är lätt att applicera."
+      ],
+      "cautions": [
+        "Lermasker kan kännas uttorkande – följ upp med fuktkräm efteråt.",
+        "Använd inte för ofta; 1–2 gånger i veckan räcker för de flesta."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/lermask",
+    "cardBadge": "Porer",
+    "cardHook": "Lermask med matcha som rengör porerna och mattar glans.",
+    "cardImage": "/products/matcha-clay-mask/clay-mask-thumbnail.webp",
+    "cardImageAlt": "Some By Mi Super Matcha Pore Clean Clay Mask, 100 g",
+    "badge": "Elins val för porerna",
+    "headline": "Some By Mi Matcha Clay Mask – ren känsla för porerna",
+    "shortBody": "En lermask med matcha som rengör porerna och mattar glans. Tänkt som en behandling 1–2 gånger i veckan för en renare känsla och en mer mattad hud.",
+    "valueHook": "Lermask med matcha för porerna",
+    "valueStatement": "Some By Mi Super Matcha Pore Clean Clay Mask är en lermask för dig som vill rengöra porerna och matta glans. Leran drar åt sig orenheter och fett, och matchan ger masken sin gröna profil. Den är tänkt som ett behandlingssteg 1–2 gånger i veckan. Amazon visar 4,5 av 5 från 271 omdömen, och köpare lyfter framför allt den renare känslan, mindre synlig glans och den krämiga leran som är lätt att applicera.",
+    "passFor": [
+      "Vill rengöra porerna med en lermask 1–2 gånger i veckan.",
+      "Har en hud som lätt blir glansig och vill mattas av.",
+      "Gillar en krämig lera som är lätt att applicera."
+    ],
+    "caution": "Lermasker kan kännas uttorkande om de används för ofta. Håll dig till 1–2 gånger i veckan och följ alltid upp med en fuktkräm efteråt.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera ett jämnt lager på ren, torr hud och låt verka några minuter innan du sköljer av med ljummet vatten. Använd 1–2 gånger i veckan och avsluta med fuktkräm."
+    },
+    "verdict": "Rengörande lermask med matcha för porerna och en mattare hud, 1–2 ggr/vecka.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 271 omdömen. Köpare beskriver en renare känsla och mindre synlig glans, men lermasker kan kännas uttorkande om de används för ofta.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur ofta använder jag Some By Mi Matcha Clay Mask?", "answer": "1–2 gånger i veckan räcker för de flesta. Lermasker kan kännas uttorkande om de används för ofta, så håll dig till några gånger i veckan." },
+      { "question": "Hur applicerar jag lermasken?", "answer": "Lägg ett jämnt lager på ren, torr hud och låt verka några minuter innan du sköljer av med ljummet vatten. Avsluta med fuktkräm." },
+      { "question": "Behöver jag fuktkräm efter masken?", "answer": "Ja, en lermask kan kännas torr efteråt. Följ upp med en fuktkräm för att hålla huden balanserad." }
+    ],
+    "reviewSectionId": "some-by-mi-matcha-clay-mask-recensioner",
+    "reviewFormId": "some-by-mi-matcha-clay-mask-skriv-recension",
+    "targetKeyword": "lermask porer",
+    "metaTitle": "Some By Mi Matcha Clay Mask – lermask för porerna | Elins val",
+    "metaDescription": "Elin går igenom Some By Mi Super Matcha Pore Clean Clay Mask: en lermask med matcha som rengör porerna och mattar glans (4,5 av 5, 271 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring inför ditt masksteg." },
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." }
+    ]
+  },
+  "images": {
+    "dir": "matcha-clay-mask",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61pMf+mGxEL._SL1500_.jpg", "out": "clay-mask-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41jl1706mZL._SL1500_.jpg", "out": "clay-mask-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ELpN2WPnL._SL1500_.jpg", "out": "clay-mask-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51pWqFzwbaL._SL1500_.jpg", "out": "clay-mask-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Some By Mi Super Matcha Pore Clean Clay Mask", "href": "/skonhet/lermask", "date": "2026-06-27", "image": "/products/matcha-clay-mask/clay-mask-thumbnail.webp", "blurb": "Lermask med matcha som rengör porerna och mattar glans, 1–2 gånger i veckan." }
+  ]
+}

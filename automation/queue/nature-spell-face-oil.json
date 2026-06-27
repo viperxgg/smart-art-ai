@@ -1,0 +1,111 @@
+{
+  "exportName": "natureSpellFaceOilProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/ansiktsolja",
+  "pageComponentName": "AnsiktsoljaPage",
+  "product": {
+    "slug": "nature-spell-face-oil",
+    "title": "Nature Spell Vitamin Boost Face Oil (30 ml)",
+    "category": "skonhet",
+    "asin": "B0CG7DR94R",
+    "brand": "Nature Spell",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Vårdande olja", "Glow", "Sista steget på kvällen"],
+    "image": "/products/nature-spell-oil/nature-oil-thumbnail.webp",
+    "imageAlt": "Nature Spell Vitamin Boost Face Oil, 30 ml",
+    "images": [
+      { "src": "/products/nature-spell-oil/nature-oil-thumbnail.webp", "alt": "Nature Spell Vitamin Boost Face Oil, 30 ml", "label": "Ansiktsolja" },
+      { "src": "/products/nature-spell-oil/nature-oil-1.webp", "alt": "Nature Spell Vitamin Boost Face Oil för glow och återfuktning", "label": "Glow" },
+      { "src": "/products/nature-spell-oil/nature-oil-2.webp", "alt": "Nature Spell Vitamin Boost Face Oil textur och pipett", "label": "Pipett" },
+      { "src": "/products/nature-spell-oil/nature-oil-3.webp", "alt": "Detaljbild av Nature Spell Vitamin Boost Face Oil", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4wdWCUJ",
+    "pageHref": "/skonhet/ansiktsolja",
+    "summary": "En vårdande ansiktsolja för glow och återfuktning. Några droppar som sista steg på kvällen ger huden ett mjukt, lyster-fyllt finish och en mer återfuktad känsla till morgonen.",
+    "evaluation": {
+      "headline": "Vårdande olja för glow på kvällen",
+      "intro": "Elin går igenom Nature Spell Vitamin Boost Face Oil: en lätt ansiktsolja tänkt som sista steg i kvällsrutinen. Några droppar för glow och återfuktning, en kombination som hjälper huden att se mjuk och utvilad ut till morgonen.",
+      "verdict": "Vårdande ansiktsolja för glow och en mer återfuktad känsla, men mycket få omdömen ännu.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Nature Spell Vitamin Boost Face Oil",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Ansiktsolja, 30 ml" },
+      { "label": "Användning", "caption": "Steg", "value": "Sista steget på kvällen" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Glow och återfuktning" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4wdWCUJ",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 35 omdömen.",
+      "highlights": [
+        "Köpare beskriver en mjuk, glow-fylld känsla efter användning.",
+        "Den lätta oljan uppskattas som sista steg på kvällen.",
+        "Flera tycker att huden känns mer återfuktad till morgonen."
+      ],
+      "cautions": [
+        "Antalet omdömen är ännu mycket lågt, så helhetsbilden är begränsad.",
+        "Oljor passar inte alla hudtyper – känns huden tung, räcker ofta några få droppar."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/ansiktsolja",
+    "cardBadge": "Glow",
+    "cardHook": "Några droppar som sista steg på kvällen för glow och återfuktning.",
+    "cardImage": "/products/nature-spell-oil/nature-oil-thumbnail.webp",
+    "cardImageAlt": "Nature Spell Vitamin Boost Face Oil, 30 ml",
+    "badge": "Elins glow-favorit",
+    "headline": "Nature Spell Vitamin Boost Face Oil – glow på kvällen",
+    "shortBody": "En vårdande ansiktsolja tänkt som sista steg på kvällen. Några droppar för glow och återfuktning, så att huden känns mjuk och ser mer utvilad ut till morgonen.",
+    "valueHook": "Vårdande olja för glow och återfuktning",
+    "valueStatement": "Nature Spell Vitamin Boost Face Oil är en vårdande ansiktsolja för dig som vill ge huden glow och återfuktning som sista steg på kvällen. Några droppar räcker ofta, och oljan hjälper huden att se mjuk och utvilad ut till morgonen. Amazon visar 4,7 av 5 från 35 omdömen, vilket är mycket få omdömen ännu – så betyget är positivt men helhetsbilden fortfarande begränsad. Köpare lyfter främst glowen och den återfuktade känslan.",
+    "passFor": [
+      "Vill avsluta kvällsrutinen med en vårdande olja för glow.",
+      "Önskar en mer återfuktad känsla i huden till morgonen.",
+      "Gillar att jobba med några få droppar som sista steg."
+    ],
+    "caution": "Antalet omdömen är ännu mycket lågt, så helhetsbilden är begränsad. Oljor passar inte heller alla hudtyper – känns huden tung räcker det ofta med några få droppar.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Värm några droppar mellan fingertopparna och tryck försiktigt in oljan som sista steg på kvällen, efter fuktkräm. Börja med lite och öka vid behov så att huden inte känns för tung."
+    },
+    "verdict": "Vårdande ansiktsolja för glow och en mer återfuktad känsla, men mycket få omdömen ännu.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 35 omdömen – mycket få ännu. Köpare beskriver glow och en mer återfuktad känsla, men helhetsbilden är fortfarande begränsad.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När använder jag ansiktsoljan?", "answer": "Som sista steg på kvällen, efter fuktkräm. Några droppar tryckta in i huden hjälper till att låsa in fukten och ge en mjuk glow till morgonen." },
+      { "question": "Hur mycket olja behöver jag?", "answer": "Börja med några få droppar. Värm dem mellan fingertopparna och tryck in i huden – du kan öka lite vid behov så att huden inte känns för tung." },
+      { "question": "Hur tillförlitligt är betyget?", "answer": "Betyget är positivt men bygger på mycket få omdömen ännu, så helhetsbilden är begränsad. Se det som en tidig signal snarare än ett etablerat snitt." }
+    ],
+    "reviewSectionId": "nature-spell-face-oil-recensioner",
+    "reviewFormId": "nature-spell-face-oil-skriv-recension",
+    "targetKeyword": "ansiktsolja glow",
+    "metaTitle": "Nature Spell Vitamin Boost Face Oil – glow | Elins val",
+    "metaDescription": "Elin går igenom Nature Spell Vitamin Boost Face Oil: en vårdande ansiktsolja för glow och återfuktning som sista steg på kvällen (4,7 av 5, men endast 35 omdömen).",
+    "relatedLinks": [
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg i rutinen." },
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Apoteksserum för lyster och glow på morgonen." },
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." }
+    ]
+  },
+  "images": {
+    "dir": "nature-spell-oil",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71Ja9lX6j1L._SL1500_.jpg", "out": "nature-oil-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31lLMXgV2bL._SL1500_.jpg", "out": "nature-oil-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51VCEMltP6L._SL1500_.jpg", "out": "nature-oil-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51bVXO1YtTL._SL1500_.jpg", "out": "nature-oil-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Nature Spell Vitamin Boost Face Oil", "href": "/skonhet/ansiktsolja", "date": "2026-06-27", "image": "/products/nature-spell-oil/nature-oil-thumbnail.webp", "blurb": "Vårdande ansiktsolja för glow och återfuktning – några droppar som sista steg på kvällen." }
+  ]
+}

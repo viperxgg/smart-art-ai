@@ -1,0 +1,111 @@
+{
+  "exportName": "cosrxPimplePatchProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/pimple-patches",
+  "pageComponentName": "PimplePatchesPage",
+  "product": {
+    "slug": "cosrx-acne-pimple-patch",
+    "title": "COSRX Acne Pimple Master Patch (24 patches)",
+    "category": "skonhet",
+    "asin": "B014SAB948",
+    "brand": "COSRX",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Hydrokolloid", "Täcker & skyddar", "24 patches"],
+    "image": "/products/cosrx-pimple-patch/cosrx-patch-thumbnail.webp",
+    "imageAlt": "COSRX Acne Pimple Master Patch, 24 patches",
+    "images": [
+      { "src": "/products/cosrx-pimple-patch/cosrx-patch-thumbnail.webp", "alt": "COSRX Acne Pimple Master Patch, 24 patches", "label": "Pimple patches" },
+      { "src": "/products/cosrx-pimple-patch/cosrx-patch-1.webp", "alt": "COSRX Acne Pimple Master Patch hydrokolloid-plåster", "label": "Hydrokolloid" },
+      { "src": "/products/cosrx-pimple-patch/cosrx-patch-2.webp", "alt": "COSRX Acne Pimple Master Patch olika storlekar", "label": "Olika storlekar" },
+      { "src": "/products/cosrx-pimple-patch/cosrx-patch-3.webp", "alt": "Detaljbild av COSRX Acne Pimple Master Patch", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4vyAc0z",
+    "pageHref": "/skonhet/pimple-patches",
+    "summary": "Hydrokolloid-plåster som täcker och skyddar en finne och gör det lättare att låta den vara i fred. Tunna, diskreta patches i olika storlekar som sitter bra över dagen eller natten.",
+    "evaluation": {
+      "headline": "Hydrokolloid-plåster som täcker och skyddar",
+      "intro": "Elin går igenom COSRX Acne Pimple Master Patch: tunna hydrokolloid-plåster i olika storlekar. Tanken är enkel – de täcker och skyddar finnen och gör det lättare att inte peta. En diskret patch att sätta på över dagen eller natten.",
+      "verdict": "Praktiska, diskreta plåster som täcker och skyddar finnen och hjälper dig låta den vara.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "COSRX Acne Pimple Master Patch",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Hydrokolloid-plåster, 24 patches" },
+      { "label": "Storlekar", "caption": "Variation", "value": "Tre storlekar per ark" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Täcker och skyddar, diskret" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4vyAc0z",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 32 859 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att plåstren är tunna och diskreta att ha på.",
+        "Många tycker de sitter bra över både dag och natt.",
+        "Lyfts ofta fram som ett enkelt sätt att låta finnen vara i fred."
+      ],
+      "cautions": [
+        "Plåstren täcker och skyddar – de är ingen behandling och tar inte bort orsaken.",
+        "Vidhäftningen varierar på fuktig eller väldigt fet hud; rengör och torka huden först."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/pimple-patches",
+    "cardBadge": "Täcker & skyddar",
+    "cardHook": "Tunna hydrokolloid-plåster som täcker finnen och gör det lättare att inte peta.",
+    "cardImage": "/products/cosrx-pimple-patch/cosrx-patch-thumbnail.webp",
+    "cardImageAlt": "COSRX Acne Pimple Master Patch, 24 patches",
+    "badge": "Elins praktiska favorit",
+    "headline": "COSRX Acne Pimple Master Patch – täcker och skyddar",
+    "shortBody": "Tunna hydrokolloid-plåster i olika storlekar som täcker och skyddar finnen. Diskreta att ha på över dagen eller natten och ett enkelt sätt att låta finnen vara i fred.",
+    "valueHook": "Hydrokolloid-plåster som täcker och skyddar",
+    "valueStatement": "COSRX Acne Pimple Master Patch är ett ark med tunna hydrokolloid-plåster i olika storlekar. De täcker och skyddar finnen och gör det lättare att inte peta, vilket många tycker är hela poängen. Plåstren är diskreta nog att ha på både dag och natt. Amazon visar 4,5 av 5 från 32 859 omdömen, och köpare lyfter framför allt hur tunna och diskreta de är och hur enkelt det blir att låta finnen vara i fred.",
+    "passFor": [
+      "Vill täcka och skydda en finne och slippa peta på den.",
+      "Önskar ett diskret plåster att ha på över dagen eller natten.",
+      "Gillar en enkel, snabb lösning i necessären."
+    ],
+    "caution": "Plåstren täcker och skyddar men är ingen behandling och tar inte bort orsaken till finnen. Vidhäftningen kan variera på fuktig eller väldigt fet hud – rengör och torka huden innan du sätter på en patch.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Rengör och torka huden noga. Välj en patch som täcker finnen, tryck fast den och låt sitta några timmar eller över natten. Byt till en ny vid behov och sätt den på ren, torr hud för bästa vidhäftning."
+    },
+    "verdict": "Praktiska, diskreta plåster som täcker och skyddar finnen och hjälper dig låta den vara.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 32 859 omdömen. Köpare beskriver tunna, diskreta plåster som täcker finnen, men de är inget som tar bort orsaken.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag plåstren?", "answer": "Rengör och torka huden, välj en patch som täcker finnen och tryck fast den. Låt sitta några timmar eller över natten och byt till en ny vid behov." },
+      { "question": "Vad gör hydrokolloid-plåstren?", "answer": "De täcker och skyddar finnen och gör det lättare att låta den vara i fred. De är ingen behandling och tar inte bort orsaken." },
+      { "question": "Kan jag ha plåstret under makeup?", "answer": "Många tycker de tunna plåstren är diskreta nog att ha på dagtid. Sätt dem på ren, torr hud så sitter de bättre och syns mindre." }
+    ],
+    "reviewSectionId": "cosrx-acne-pimple-patch-recensioner",
+    "reviewFormId": "cosrx-acne-pimple-patch-skriv-recension",
+    "targetKeyword": "pimple patches",
+    "metaTitle": "COSRX Acne Pimple Master Patch – täcker & skyddar | Elins val",
+    "metaDescription": "Elin går igenom COSRX Acne Pimple Master Patch: tunna hydrokolloid-plåster som täcker och skyddar finnen (4,5 av 5, 32 859 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som passar fint i rutinen." },
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balm för stressad och torr hud." }
+    ]
+  },
+  "images": {
+    "dir": "cosrx-pimple-patch",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61hvQKKCbpL._SL1500_.jpg", "out": "cosrx-patch-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41zTiOpkvOL._SL1500_.jpg", "out": "cosrx-patch-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51lN5N77UfL._SL1500_.jpg", "out": "cosrx-patch-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51H31brz1EL._SL1500_.jpg", "out": "cosrx-patch-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "COSRX Acne Pimple Master Patch", "href": "/skonhet/pimple-patches", "date": "2026-06-27", "image": "/products/cosrx-pimple-patch/cosrx-patch-thumbnail.webp", "blurb": "Tunna hydrokolloid-plåster som täcker och skyddar finnen och gör det lättare att inte peta." }
+  ]
+}

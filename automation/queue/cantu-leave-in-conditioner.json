@@ -1,0 +1,111 @@
+{
+  "exportName": "cantuLeaveInProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårvård",
+  "route": "skonhet/leave-in-conditioner",
+  "pageComponentName": "LeaveInConditionerPage",
+  "product": {
+    "slug": "cantu-leave-in-conditioner",
+    "title": "Cantu Shea Butter Leave-In Conditioning Repair Cream (453 g)",
+    "category": "skonhet",
+    "asin": "B00449W12S",
+    "brand": "Cantu",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Sheasmör", "Leave-in", "Torrt & lockigt hår"],
+    "image": "/products/cantu-leave-in/cantu-thumbnail.webp",
+    "imageAlt": "Cantu Shea Butter Leave-In Conditioning Repair Cream, 453 g",
+    "images": [
+      { "src": "/products/cantu-leave-in/cantu-thumbnail.webp", "alt": "Cantu Shea Butter Leave-In Conditioning Repair Cream, 453 g", "label": "Cantu leave-in" },
+      { "src": "/products/cantu-leave-in/cantu-1.webp", "alt": "Cantu leave-in med sheasmör för torrt och lockigt hår", "label": "Sheasmör" },
+      { "src": "/products/cantu-leave-in/cantu-2.webp", "alt": "Cantu leave-in cream textur och konsistens", "label": "Krämig textur" },
+      { "src": "/products/cantu-leave-in/cantu-3.webp", "alt": "Detaljbild av Cantu Shea Butter Leave-In Repair Cream", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3R5KWED",
+    "pageHref": "/skonhet/leave-in-conditioner",
+    "summary": "En närande leave-in med sheasmör för torrt och lockigt hår. Den mjukgör och underlättar utredning, och är en populär favorit för dig som vill ge torra längder extra fukt utan att skölja ur.",
+    "evaluation": {
+      "headline": "Leave-in med sheasmör för torrt hår",
+      "intro": "Elin går igenom Cantu Shea Butter Leave-In Conditioning Repair Cream: en närande leave-in med sheasmör för torrt och lockigt hår. Den appliceras i fuktigt hår utan att sköljas ur, mjukgör längderna och gör det lättare att reda ut håret.",
+      "verdict": "Närande leave-in för torrt och lockigt hår som behöver fukt.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårvård",
+    "specSectionTitle": "Cantu Shea Butter Leave-In Repair Cream",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Leave-in cream, 453 g" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Sheasmör för mjukgörande fukt" },
+      { "label": "Profil", "caption": "Hårvård", "value": "Torrt och lockigt hår" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3R5KWED",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 22 030 omdömen.",
+      "highlights": [
+        "Köpare tycker att torra längder känns mjukare och mer återfuktade.",
+        "Uppskattas för att underlätta utredning av lockigt och tjockt hår.",
+        "En favorit i många lockrutiner som ett fuktgivande bassteg."
+      ],
+      "cautions": [
+        "Det är en rik cream – dosera efter hårtyp så att håret inte känns tyngt.",
+        "Fint och tunt hår kan behöva en mindre mängd för bästa känsla."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/leave-in-conditioner",
+    "cardBadge": "Sheasmör",
+    "cardHook": "Närande leave-in som mjukgör torrt och lockigt hår.",
+    "cardImage": "/products/cantu-leave-in/cantu-thumbnail.webp",
+    "cardImageAlt": "Cantu Shea Butter Leave-In Conditioning Repair Cream, 453 g",
+    "badge": "Elins favorit för torra lockar",
+    "headline": "Cantu Shea Butter Leave-In – cream för torrt hår",
+    "shortBody": "En närande leave-in med sheasmör för torrt och lockigt hår. Den mjukgör och underlättar utredning, en populär favorit för dig som vill ge torra längder extra fukt.",
+    "valueHook": "Leave-in med sheasmör för torrt hår",
+    "valueStatement": "Cantu Shea Butter Leave-In Conditioning Repair Cream är en närande leave-in för dig med torrt och lockigt hår. Sheasmör mjukgör längderna och gör det lättare att reda ut håret, utan att du behöver skölja ur. Amazon visar 4,4 av 5 från hela 22 030 omdömen, och köpare lyfter framför allt mjukheten och att håret blir lättare att hantera.",
+    "passFor": [
+      "Har torrt och lockigt hår som behöver extra fukt.",
+      "Vill ha en leave-in som underlättar utredning av längderna.",
+      "Letar efter ett mjukgörande basssteg i lockrutinen."
+    ],
+    "caution": "Det här är en rik cream, så dosera efter din hårtyp så att håret inte känns tyngt. Fint och tunt hår kan behöva en mindre mängd, medan tjockt och lockigt hår tål mer.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera en lagom mängd i fuktigt, nytvättat hår och fördela genom längder och toppar. Skölj inte ur. Lufttorka eller styla som vanligt och justera mängden efter hur håret känns."
+    },
+    "verdict": "Närande leave-in för torrt och lockigt hår som behöver fukt.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 22 030 omdömen. Köpare beskriver mjukare, mer återfuktade längder som är lättare att reda ut, men det är en rik cream som bör doseras efter hårtyp.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag Cantu leave-in?", "answer": "Applicera en lagom mängd i fuktigt, nytvättat hår och fördela genom längder och toppar. Den ska inte sköljas ur – lufttorka eller styla sedan som vanligt." },
+      { "question": "Passar Cantu leave-in fint hår?", "answer": "Det fungerar, men eftersom det är en rik cream kan fint och tunt hår behöva en mindre mängd så att längderna inte känns tyngda. Börja sparsamt och öka vid behov." },
+      { "question": "Är den bra för lockigt hår?", "answer": "Ja, den är en favorit i många lockrutiner som ett fuktgivande basssteg. Sheasmör mjukgör torra längder och gör det lättare att reda ut lockigt hår." }
+    ],
+    "reviewSectionId": "cantu-leave-in-conditioner-recensioner",
+    "reviewFormId": "cantu-leave-in-conditioner-skriv-recension",
+    "targetKeyword": "leave-in conditioner",
+    "metaTitle": "Cantu Shea Butter Leave-In Conditioner – för torrt hår | Elins val",
+    "metaDescription": "Elin går igenom Cantu Shea Butter Leave-In Conditioning Repair Cream: en närande leave-in med sheasmör för torrt och lockigt hår (4,4 av 5, 22 030 omdömen) – och hur du använder den.",
+    "relatedLinks": [
+      { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Närande olja för torra längder och toppar." },
+      { "href": "/skonhet/torrschampo", "label": "Torrschampo", "text": "Fräscha upp håret mellan tvättarna." },
+      { "href": "/skonhet/varmeskydd", "label": "Värmeskydd", "text": "Skydda håret före föntork och plattång." }
+    ]
+  },
+  "images": {
+    "dir": "cantu-leave-in",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71f4BRQy63L._SL1500_.jpg", "out": "cantu-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41zHJ5KLDjL._SL1500_.jpg", "out": "cantu-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/415+n-XZi5L._SL1500_.jpg", "out": "cantu-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51mUvWoTZ6L._SL1500_.jpg", "out": "cantu-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hårvård", "title": "Cantu Shea Butter Leave-In Repair Cream", "href": "/skonhet/leave-in-conditioner", "date": "2026-06-27", "image": "/products/cantu-leave-in/cantu-thumbnail.webp", "blurb": "Närande leave-in med sheasmör som mjukgör torrt och lockigt hår och underlättar utredning." }
+  ]
+}

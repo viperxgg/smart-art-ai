@@ -1,0 +1,111 @@
+{
+  "exportName": "marioBadescuFacialSprayProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/ansiktsmist",
+  "pageComponentName": "AnsiktsmistPage",
+  "product": {
+    "slug": "mario-badescu-facial-spray",
+    "title": "Mario Badescu Facial Spray – Aloe, Herbs & Rosewater (236 ml)",
+    "category": "skonhet",
+    "asin": "B07RQ7D5QC",
+    "brand": "Mario Badescu",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Aloe & rosvatten", "Uppfräschande", "Fukt under dagen"],
+    "image": "/products/mario-badescu-mist/mario-mist-thumbnail.webp",
+    "imageAlt": "Mario Badescu Facial Spray med aloe, örter och rosvatten, 236 ml",
+    "images": [
+      { "src": "/products/mario-badescu-mist/mario-mist-thumbnail.webp", "alt": "Mario Badescu Facial Spray med aloe, örter och rosvatten, 236 ml", "label": "Ansiktsmist" },
+      { "src": "/products/mario-badescu-mist/mario-mist-1.webp", "alt": "Mario Badescu Facial Spray med aloe och rosvatten", "label": "Aloe & rosvatten" },
+      { "src": "/products/mario-badescu-mist/mario-mist-2.webp", "alt": "Mario Badescu Facial Spray sprayflaska närbild", "label": "Sprayflaska" },
+      { "src": "/products/mario-badescu-mist/mario-mist-3.webp", "alt": "Detaljbild av Mario Badescu Facial Spray", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4v3vtmq",
+    "pageHref": "/skonhet/ansiktsmist",
+    "summary": "En uppfräschande ansiktsmist med aloe och rosvatten som ger huden fukt och en pigg känsla mitt på dagen. Lätt att spreja över ren hud eller ovanpå makeup för en snabb boost.",
+    "evaluation": {
+      "headline": "Uppfräschande mist med aloe och rosvatten",
+      "intro": "Elin går igenom Mario Badescu Facial Spray: en lätt ansiktsmist med aloe, örter och rosvatten. Tanken är en snabb fuktboost och en pigg känsla under dagen – ett enkelt steg att spreja över ren hud eller ovanpå makeup när huden känns torr eller trött.",
+      "verdict": "Trevlig uppfräschande mist för fukt och en pigg känsla under dagen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Mario Badescu Facial Spray",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Ansiktsmist, 236 ml" },
+      { "label": "Innehåll", "caption": "Nyckelingredienser", "value": "Aloe, örter och rosvatten" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Uppfräschande, alla hudtyper" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4v3vtmq",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 168 omdömen.",
+      "highlights": [
+        "Köpare beskriver en uppfräschande, pigg känsla under dagen.",
+        "Den lätta misten uppskattas både på ren hud och ovanpå makeup.",
+        "Doften av rosvatten lyfts ofta fram som trevlig och mild."
+      ],
+      "cautions": [
+        "Doften av rosvatten passar inte alla – känns du dig känslig för dofter, prova försiktigt först.",
+        "En mist ersätter inte ett fuktlager; lås gärna in fukten med fuktkräm vid torr hud."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/ansiktsmist",
+    "cardBadge": "Uppfräschande",
+    "cardHook": "Aloe och rosvatten för fukt och en pigg känsla under dagen.",
+    "cardImage": "/products/mario-badescu-mist/mario-mist-thumbnail.webp",
+    "cardImageAlt": "Mario Badescu Facial Spray med aloe, örter och rosvatten, 236 ml",
+    "badge": "Elins uppfräschande favorit",
+    "headline": "Mario Badescu Facial Spray – aloe och rosvatten",
+    "shortBody": "En lätt ansiktsmist med aloe, örter och rosvatten. Gjord för en snabb fuktboost och en pigg känsla under dagen, enkel att spreja över ren hud eller ovanpå makeup.",
+    "valueHook": "Uppfräschande mist för fukt och en pigg känsla",
+    "valueStatement": "Mario Badescu Facial Spray är en uppfräschande ansiktsmist för dig som vill ge huden fukt och en pigg känsla mitt på dagen. Formulan bygger på aloe, örter och rosvatten, en kombination som gör misten lätt och behaglig att spreja över ansiktet både på ren hud och ovanpå makeup. Amazon visar 4,6 av 5 från 168 omdömen, och köpare lyfter framför allt den uppfräschande känslan, den milda doften och hur enkelt det är att ge huden en snabb boost.",
+    "passFor": [
+      "Vill ge huden en snabb fuktboost mitt på dagen.",
+      "Gillar en uppfräschande mist över makeup eller ren hud.",
+      "Tycker om en mild doft av rosvatten i rutinen."
+    ],
+    "caution": "Doften av rosvatten passar inte alla och upplevelsen varierar mellan hudtyper. En mist ger en pigg känsla men ersätter inte ett fuktlager – lås gärna in fukten med fuktkräm om huden känns torr.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Håll flaskan en bit från ansiktet och spreja ett lätt lager över ren hud eller ovanpå makeup när huden känns torr eller trött. Låt lufttorka eller klappa in försiktigt och följ gärna upp med fuktkräm vid behov."
+    },
+    "verdict": "Trevlig uppfräschande mist för fukt och en pigg känsla under dagen.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 168 omdömen. Köpare beskriver en uppfräschande, pigg känsla och en mild doft, men rosvattnets doft passar inte alla.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När använder jag ansiktsmisten?", "answer": "När som helst på dagen då huden känns torr eller trött. Spreja ett lätt lager över ren hud eller ovanpå makeup för en snabb, uppfräschande boost." },
+      { "question": "Kan jag spreja den ovanpå makeup?", "answer": "Ja, många använder den just så. Håll flaskan en bit från ansiktet och spreja ett tunt lager så att makeupen inte blir blöt." },
+      { "question": "Ersätter misten min fuktkräm?", "answer": "Nej, en mist ger en pigg känsla och lite fukt men ersätter inte fuktkrämen. Lås gärna in fukten med fuktkräm om huden känns torr." }
+    ],
+    "reviewSectionId": "mario-badescu-facial-spray-recensioner",
+    "reviewFormId": "mario-badescu-facial-spray-skriv-recension",
+    "targetKeyword": "ansiktsmist",
+    "metaTitle": "Mario Badescu Facial Spray – aloe & rosvatten | Elins val",
+    "metaDescription": "Elin går igenom Mario Badescu Facial Spray: en uppfräschande ansiktsmist med aloe och rosvatten för fukt och en pigg känsla (4,6 av 5, 168 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra-serum", "text": "Lägg till ett enkelt fuktsteg i rutinen." },
+      { "href": "/skonhet/cerave-rengoring", "label": "CeraVe rengöring", "text": "Mild rengöring som passar fint före misten." },
+      { "href": "/skonhet/snail-mucin-essence", "label": "Snail mucin-essence", "text": "K-beauty-favorit för fukt och dewy lyster." }
+    ]
+  },
+  "images": {
+    "dir": "mario-badescu-mist",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51-arObBydL._SL1500_.jpg", "out": "mario-mist-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31Lm9BDUeeL._SL1500_.jpg", "out": "mario-mist-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/412G+RuHNZL._SL1500_.jpg", "out": "mario-mist-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51OhHM9VnxL._SL1500_.jpg", "out": "mario-mist-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Mario Badescu Facial Spray", "href": "/skonhet/ansiktsmist", "date": "2026-06-27", "image": "/products/mario-badescu-mist/mario-mist-thumbnail.webp", "blurb": "Uppfräschande ansiktsmist med aloe och rosvatten för fukt och en pigg känsla under dagen." }
+  ]
+}

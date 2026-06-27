@@ -1,0 +1,111 @@
+{
+  "exportName": "celdyqueBakuchiolProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/bakuchiol-serum",
+  "pageComponentName": "BakuchiolSerumPage",
+  "product": {
+    "slug": "celdyque-bakuchiol-serum",
+    "title": "CELDYQUE Bakuchiol Concentrate Serum – retinol-alternativ (30 ml)",
+    "category": "skonhet",
+    "asin": "B0DC6H8MSW",
+    "brand": "CELDYQUE",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Växtbaserat bakuchiol", "Mildt alternativ", "Lyster"],
+    "image": "/products/bakuchiol-serum/bakuchiol-thumbnail.webp",
+    "imageAlt": "CELDYQUE Bakuchiol Concentrate Serum, 30 ml",
+    "images": [
+      { "src": "/products/bakuchiol-serum/bakuchiol-thumbnail.webp", "alt": "CELDYQUE Bakuchiol Concentrate Serum, 30 ml", "label": "Bakuchiol" },
+      { "src": "/products/bakuchiol-serum/bakuchiol-1.webp", "alt": "CELDYQUE bakuchiolserum som ett milt växtbaserat alternativ", "label": "Växtbaserat" },
+      { "src": "/products/bakuchiol-serum/bakuchiol-2.webp", "alt": "CELDYQUE bakuchiol textur och konsistens", "label": "Lätt textur" },
+      { "src": "/products/bakuchiol-serum/bakuchiol-3.webp", "alt": "Detaljbild av CELDYQUE Bakuchiol Concentrate Serum", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/3QokGFl",
+    "pageHref": "/skonhet/bakuchiol-serum",
+    "summary": "Ett serum med bakuchiol – ett milt, växtbaserat alternativ till retinol – för dig som vill ha slätare, mer lystrande hud utan den irritation som retinol ibland ger. Lätt textur som passar känslig hud.",
+    "evaluation": {
+      "headline": "Bakuchiol – mildt växtbaserat alternativ",
+      "intro": "Elin går igenom CELDYQUE Bakuchiol Concentrate Serum: bakuchiol är en växtbaserad ingrediens som ofta beskrivs som ett mildare alternativ till retinol. Det är omtyckt för att ge slätare, mer lystrande hud och en jämnare hudton, utan den svidning och flagning som retinol kan ge känslig hud.",
+      "verdict": "Milt växtbaserat serum för slätare, lystrande hud – fint för känslig hy.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "CELDYQUE Bakuchiol Concentrate",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Serum, 30 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "Bakuchiol, växtbaserat" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Känslig hud, milt alternativ" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3QokGFl",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 847 omdömen.",
+      "highlights": [
+        "Köpare upplever slätare och mer lystrande hud med tiden.",
+        "Beskrivs som mildare än retinol och skonsamt mot känslig hud.",
+        "Lätt textur som de flesta tycker absorberas snabbt."
+      ],
+      "cautions": [
+        "Bakuchiol verkar gradvis – ge det några veckor för att märka skillnad.",
+        "Som med alla nya serum: prova på en liten yta först om du har känslig hud."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/bakuchiol-serum",
+    "cardBadge": "Mildt alternativ",
+    "cardHook": "Växtbaserat bakuchiol för slätare, lystrande hud – mildare än retinol.",
+    "cardImage": "/products/bakuchiol-serum/bakuchiol-thumbnail.webp",
+    "cardImageAlt": "CELDYQUE Bakuchiol Concentrate Serum, 30 ml",
+    "badge": "Elins milda favorit",
+    "headline": "CELDYQUE Bakuchiol – mildt växtbaserat serum",
+    "shortBody": "Ett serum med bakuchiol, en växtbaserad ingrediens som ofta ses som ett mildare alternativ till retinol. Gjort för slätare hud, mer lyster och en jämnare hudton, med en lätt textur som passar även känslig hy.",
+    "valueHook": "Bakuchiol för slätare, lystrande hud",
+    "valueStatement": "CELDYQUE Bakuchiol Concentrate Serum är till för dig som vill ge huden mer lyster och en slätare, jämnare yta, men som tycker att retinol känns för starkt. Bakuchiol är växtbaserat och beskrivs ofta som ett mildare alternativ, vilket gör det till ett tryggt val för känslig hud. Amazon visar 4,6 av 5 från 847 omdömen, och köpare lyfter framför allt att huden känns slätare och mer lystrande, samtidigt som serumet är skonsamt.",
+    "passFor": [
+      "Vill ha slätare, mer lystrande hud utan stark retinol.",
+      "Har känslig hud och söker ett mildare alternativ.",
+      "Gillar en lätt textur under fuktkräm på kvällen."
+    ],
+    "caution": "Bakuchiol verkar gradvis, så ge det några veckor innan du bedömer resultatet. Upplevelsen varierar mellan hudtyper, och har du känslig hud är det klokt att testa på en liten yta först.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera några droppar på ren hud, gärna på kvällen, före fuktkräm. Bakuchiol passar fint ihop med ett återfuktande lager ovanpå och kräver ingen lång inkörningsperiod."
+    },
+    "verdict": "Milt växtbaserat serum för slätare, lystrande hud – fint för känslig hy.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 847 omdömen. Köpare beskriver slätare, mer lystrande hud och att serumet känns mildare än retinol, men effekten kommer gradvis.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad är bakuchiol?", "answer": "Bakuchiol är en växtbaserad ingrediens som ofta beskrivs som ett mildare alternativ till retinol. Det används i hudvård för slätare hud och mer lyster, och uppfattas vanligen som skonsamt." },
+      { "question": "Passar bakuchiolserum känslig hud?", "answer": "Bakuchiol ses ofta som mildare än retinol och kan därför passa känslig hud bra. Prova ändå på en liten yta först och bygg upp användningen gradvis." },
+      { "question": "När på dygnet använder jag serumet?", "answer": "Du kan använda det på kvällen på ren hud, före fuktkräm. Ge det några veckors regelbunden användning för att märka skillnad i lyster och jämnhet." }
+    ],
+    "reviewSectionId": "celdyque-bakuchiol-serum-recensioner",
+    "reviewFormId": "celdyque-bakuchiol-serum-skriv-recension",
+    "targetKeyword": "bakuchiol serum",
+    "metaTitle": "CELDYQUE Bakuchiol Serum – mildt retinol-alternativ | Elins val",
+    "metaDescription": "Elin går igenom CELDYQUE Bakuchiol Concentrate Serum: ett växtbaserat, milt alternativ för slätare och lystrande hud (4,6 av 5, 847 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Antioxidant för lyster och glow på morgonen." },
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balsam för stressad och torr hud." }
+    ]
+  },
+  "images": {
+    "dir": "bakuchiol-serum",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/717Tna2tfHL._SL1500_.jpg", "out": "bakuchiol-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51yGeQ1I08L._SL1500_.jpg", "out": "bakuchiol-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51aniLegWrL._SL1500_.jpg", "out": "bakuchiol-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41gSiPfCHqL._SL1500_.jpg", "out": "bakuchiol-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "CELDYQUE Bakuchiol Concentrate Serum", "href": "/skonhet/bakuchiol-serum", "date": "2026-06-27", "image": "/products/bakuchiol-serum/bakuchiol-thumbnail.webp", "blurb": "Växtbaserat bakuchiolserum – ett milt alternativ för slätare och lystrande hud." }
+  ]
+}

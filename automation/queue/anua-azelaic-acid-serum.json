@@ -1,0 +1,111 @@
+{
+  "exportName": "anuaAzelaicSerumProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hudvård",
+  "route": "skonhet/azelainsyra-serum",
+  "pageComponentName": "AzelainsyraSerumPage",
+  "product": {
+    "slug": "anua-azelaic-acid-serum",
+    "title": "Anua Azelaic Acid 10 + Hyaluron Soothing Serum (30 ml)",
+    "category": "skonhet",
+    "asin": "B0DX122DHW",
+    "brand": "ANUA",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["10% azelainsyra", "Hyaluron", "Jämnare hudton"],
+    "image": "/products/anua-azelaic/anua-azelaic-thumbnail.webp",
+    "imageAlt": "Anua Azelaic Acid 10 + Hyaluron Soothing Serum, 30 ml",
+    "images": [
+      { "src": "/products/anua-azelaic/anua-azelaic-thumbnail.webp", "alt": "Anua Azelaic Acid 10 + Hyaluron Soothing Serum, 30 ml", "label": "Azelainsyra-serum" },
+      { "src": "/products/anua-azelaic/anua-azelaic-1.webp", "alt": "Anua serum med 10% azelainsyra för jämnare hudton", "label": "10% azelainsyra" },
+      { "src": "/products/anua-azelaic/anua-azelaic-2.webp", "alt": "Anua Azelaic serum textur och konsistens", "label": "Textur" },
+      { "src": "/products/anua-azelaic/anua-azelaic-3.webp", "alt": "Detaljbild av Anua Azelaic Acid 10 Soothing Serum", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4xSjD1a",
+    "pageHref": "/skonhet/azelainsyra-serum",
+    "summary": "Ett serum med 10% azelainsyra och hyaluron för en jämnare hudton, mer lyster och en lugnare, mindre rödflammig look. Hyaluron ger samtidigt ett fuktsteg så att huden känns balanserad och behaglig.",
+    "evaluation": {
+      "headline": "Azelainsyra-serum för jämnare hudton",
+      "intro": "Elin går igenom Anua Azelaic Acid 10 + Hyaluron Soothing Serum: 10% azelainsyra tillsammans med hyaluron. Azelainsyra är en omtyckt ingrediens för en jämnare hudton och en lugnare look, och hyaluron lägger till ett återfuktande steg för en behaglig känsla.",
+      "verdict": "Azelainsyra-serum för jämnare hudton, lyster och en lugnare look.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Anua Azelaic Acid 10 + Hyaluron Serum",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Serum, 30 ml" },
+      { "label": "Innehåll", "caption": "Aktivt", "value": "10% azelainsyra + hyaluron" },
+      { "label": "Profil", "caption": "Hudvård", "value": "Jämnare hudton och lugnare look" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4xSjD1a",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 1521 omdömen.",
+      "highlights": [
+        "Köpare upplever en jämnare hudton och mer lyster med tiden.",
+        "Många tycker att huden ser lugnare och mindre rödflammig ut.",
+        "Hyaluron ger ett återfuktande steg som känns behagligt och balanserat."
+      ],
+      "cautions": [
+        "Azelainsyra kan kännas lätt vid första introduktionen – börja gärna varannan dag.",
+        "Som med all ny hudvård kan känslig hud reagera olika – testa gärna en liten yta först."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/azelainsyra-serum",
+    "cardBadge": "Jämnare hudton",
+    "cardHook": "10% azelainsyra och hyaluron för jämnare hudton och lyster.",
+    "cardImage": "/products/anua-azelaic/anua-azelaic-thumbnail.webp",
+    "cardImageAlt": "Anua Azelaic Acid 10 + Hyaluron Soothing Serum, 30 ml",
+    "badge": "Elins jämnhets-favorit",
+    "headline": "Anua Azelaic Acid 10 – jämnare hudton och lyster",
+    "shortBody": "Ett serum med 10% azelainsyra och hyaluron. Gjort för en jämnare hudton, mer lyster och en lugnare, mindre rödflammig look, med ett återfuktande hyaluron-steg som känns balanserat.",
+    "valueHook": "Azelainsyra-serum för jämnare hudton",
+    "valueStatement": "Anua Azelaic Acid 10 + Hyaluron Soothing Serum är ett serum för dig som vill ge huden en jämnare hudton och en lugnare, mindre rödflammig look. Formulan bygger på 10% azelainsyra tillsammans med hyaluron, en kombination för lyster och ett samtidigt fuktsteg. Amazon visar 4,5 av 5 från 1521 omdömen, och köpare lyfter framför allt den jämnare hudtonen, lystern och den lugnare looken.",
+    "passFor": [
+      "Vill ha en jämnare hudton och en lugnare, mindre rödflammig look.",
+      "Gillar azelainsyra och vill ha hyaluron som fuktsteg i samma serum.",
+      "Letar efter mer lyster utan ett tungt, oljigt finish."
+    ],
+    "caution": "Azelainsyra kan kännas lätt vid första introduktionen, så börja gärna varannan dag. Som med all ny hudvård kan känslig hud reagera olika, testa gärna på en liten yta först.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera några droppar på ren hud, morgon eller kväll, före fuktkräm. Vill du introducera azelainsyra varsamt kan du börja varannan dag och bygga upp i takt med att huden vänjer sig."
+    },
+    "verdict": "Azelainsyra-serum för jämnare hudton, lyster och en lugnare look.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 1521 omdömen. Köpare beskriver en jämnare hudton och en lugnare look, men azelainsyra kan kännas lätt i början så det kan vara klokt att börja varannan dag.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När använder jag azelainsyra-serum?", "answer": "Det passar både morgon och kväll på ren hud, före fuktkräm. Vill du introducera azelainsyra varsamt kan du börja varannan dag och bygga upp långsamt." },
+      { "question": "Vad gör azelainsyra och hyaluron i serumet?", "answer": "Azelainsyra är en omtyckt ingrediens för en jämnare hudton och en lugnare look, medan hyaluron lägger till ett återfuktande steg för en behaglig känsla." },
+      { "question": "Passar serumet känslig hud?", "answer": "Det är formulerat som ett soothing-serum med hyaluron, men azelainsyra kan kännas lätt i början. Börja gärna varannan dag och testa på en liten yta först." }
+    ],
+    "reviewSectionId": "anua-azelaic-acid-serum-recensioner",
+    "reviewFormId": "anua-azelaic-acid-serum-skriv-recension",
+    "targetKeyword": "azelainsyra serum",
+    "metaTitle": "Anua Azelaic Acid 10 – jämnare hudton & lyster | Elins val",
+    "metaDescription": "Elin går igenom Anua Azelaic Acid 10 + Hyaluron Serum: 10% azelainsyra och hyaluron för en jämnare hudton och lyster (4,5 av 5, 1521 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide-serum", "text": "Riktat serum för fet och blandad hy." },
+      { "href": "/skonhet/vitamin-c-serum", "label": "Vitamin C-serum", "text": "Antioxidantserum för lyster och glow." },
+      { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast B5", "text": "Lugnande balsam för torr och stressad hud." }
+    ]
+  },
+  "images": {
+    "dir": "anua-azelaic",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/612vFZbbN+L._SL1500_.jpg", "out": "anua-azelaic-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31YFOaZXbyL._SL1500_.jpg", "out": "anua-azelaic-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51erSC31ppL._SL1500_.jpg", "out": "anua-azelaic-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41P3aPBlVkL._SL1500_.jpg", "out": "anua-azelaic-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Anua Azelaic Acid 10 + Hyaluron Serum", "href": "/skonhet/azelainsyra-serum", "date": "2026-06-27", "image": "/products/anua-azelaic/anua-azelaic-thumbnail.webp", "blurb": "Serum med 10% azelainsyra och hyaluron för en jämnare hudton, lyster och en lugnare look." }
+  ]
+}
