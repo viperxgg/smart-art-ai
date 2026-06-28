@@ -1,0 +1,112 @@
+{
+  "exportName": "essieNailStrengthenerProduct",
+  "category": "skonhet",
+  "categoryGroup": "Naglar",
+  "route": "skonhet/nagelhardare",
+  "pageComponentName": "NagelhardarePage",
+  "product": {
+    "slug": "essie-nagelhardare",
+    "title": "essie Hard To Resist stärkande nagellack (15 ml)",
+    "category": "skonhet",
+    "asin": "B0BMGLVF6Z",
+    "brand": "essie",
+    "priceTier": "mellan",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Stärkande baslack", "För sköra naglar", "Slätare yta"],
+    "image": "/products/essie-strengthener/essie-thumbnail.webp",
+    "imageAlt": "essie Hard To Resist stärkande nagellack, 15 ml",
+    "images": [
+      { "src": "/products/essie-strengthener/essie-thumbnail.webp", "alt": "essie Hard To Resist stärkande nagellack, 15 ml", "label": "Hard To Resist" },
+      { "src": "/products/essie-strengthener/essie-1.webp", "alt": "essie Hard To Resist stärkande baslack för sköra naglar", "label": "Stärkande" },
+      { "src": "/products/essie-strengthener/essie-2.webp", "alt": "essie Hard To Resist textur och konsistens", "label": "Lätt textur" },
+      { "src": "/products/essie-strengthener/essie-3.webp", "alt": "Detaljbild av essie Hard To Resist nagellack", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4gtt01d",
+    "pageHref": "/skonhet/nagelhardare",
+    "summary": "Ett stärkande baslack för sköra, flisande naglar som hjälper naglarna att kännas hårdare och se slätare ut med tiden. Används som bas under färg eller ensamt för en naturlig finish.",
+    "evaluation": {
+      "headline": "Stärkande baslack för sköra naglar",
+      "intro": "Elin går igenom essie Hard To Resist: ett stärkande nagellack tänkt för sköra och flisande naglar. Det läggs som baslack och hjälper naglarna att kännas hårdare och se slätare ut med tiden – en kosmetisk effekt för dig som vill ge svaga naglar lite extra stöd.",
+      "verdict": "Prisvärt stärkande baslack för dig med sköra, flisande naglar.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Naglar",
+    "specSectionTitle": "essie Hard To Resist",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Stärkande baslack, 15 ml" },
+      { "label": "För", "caption": "Naglar", "value": "Sköra, flisande naglar" },
+      { "label": "Användning", "caption": "Steg", "value": "Som bas eller ensamt" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4gtt01d",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 868 omdömen.",
+      "highlights": [
+        "Köpare upplever att naglarna känns hårdare och mindre sköra med tiden.",
+        "Lätt textur som de flesta tycker är enkel att applicera jämnt.",
+        "Uppskattas som bas under färg för en slätare och jämnare yta."
+      ],
+      "cautions": [
+        "Effekten kommer gradvis – ge det några veckors regelbunden användning.",
+        "Resultatet varierar mellan olika nagelstyper och rutiner."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/nagelhardare",
+    "cardBadge": "För sköra naglar",
+    "cardHook": "Stärkande baslack som hjälper sköra naglar att kännas hårdare.",
+    "cardImage": "/products/essie-strengthener/essie-thumbnail.webp",
+    "cardImageAlt": "essie Hard To Resist stärkande nagellack, 15 ml",
+    "badge": "Elins val för sköra naglar",
+    "headline": "essie Hard To Resist – stärkande baslack",
+    "shortBody": "Ett stärkande nagellack för sköra och flisande naglar. Läggs som baslack och hjälper naglarna att kännas hårdare och se slätare ut med tiden, med en lätt textur som är enkel att applicera.",
+    "valueHook": "Stärkande baslack för sköra naglar",
+    "valueStatement": "essie Hard To Resist är ett stärkande nagellack för dig med sköra och flisande naglar som vill ge dem lite extra stöd. Det läggs som baslack under färg eller ensamt, och hjälper naglarna att kännas hårdare och se slätare ut med tiden. Amazon visar 4,4 av 5 från 868 omdömen, och köpare lyfter framför allt att naglarna känns starkare, den lätta texturen och hur fint det fungerar som bas under färg.",
+    "passFor": [
+      "Har sköra, flisande naglar och vill ge dem extra stöd.",
+      "Vill ha ett stärkande baslack under färgen i nagelrutinen.",
+      "Gillar en lätt textur som är enkel att applicera jämnt."
+    ],
+    "caution": "Effekten kommer gradvis och upplevelsen varierar mellan olika nagelstyper. Ge det några veckors regelbunden användning och se det som ett kosmetiskt stöd snarare än en snabb lösning.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Lägg ett tunt lager på rena, torra naglar som baslack innan du målar färg – eller använd det ensamt för en naturlig finish. Återapplicera regelbundet för bäst resultat över tid."
+    },
+    "verdict": "Prisvärt stärkande baslack för dig med sköra, flisande naglar.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 868 omdömen. Köpare beskriver hårdare, mindre sköra naglar och en lätt textur, men effekten kommer gradvis över tid.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag essie Hard To Resist?", "answer": "Lägg ett tunt lager på rena, torra naglar som baslack innan du målar färg, eller använd det ensamt för en naturlig finish. Återapplicera regelbundet för bäst resultat." },
+      { "question": "Passar det sköra och flisande naglar?", "answer": "Ja, det är tänkt just för sköra och flisande naglar och hjälper dem att kännas hårdare och se slätare ut med tiden. Effekten är kosmetisk och kommer gradvis." },
+      { "question": "Hur snabbt ser jag resultat?", "answer": "Effekten kommer gradvis, så ge det några veckors regelbunden användning. Resultatet varierar mellan olika nagelstyper och rutiner." }
+    ],
+    "reviewSectionId": "essie-nagelhardare-recensioner",
+    "reviewFormId": "essie-nagelhardare-skriv-recension",
+    "targetKeyword": "stärkande nagellack sköra naglar",
+    "metaTitle": "essie Hard To Resist – stärkande nagellack för sköra naglar | Elins val",
+    "metaDescription": "Elin går igenom essie Hard To Resist: ett stärkande baslack för sköra, flisande naglar (4,4 av 5, 868 omdömen) – hårdare och slätare naglar med tiden, och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/nagelvard-set", "label": "Nagelvård-set", "text": "Komplett set för en hel nagelrutin." },
+      { "href": "/skonhet/press-on-naglar", "label": "Press-on naglar", "text": "Snabb finish när naglarna behöver vila." },
+      { "href": "/skonhet/halkram", "label": "Hälkräm", "text": "Mjukgörande omsorg för torra hälar." }
+    ]
+  },
+  "images": {
+    "dir": "essie-strengthener",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61E6WnGq6yL._AC_SL1500_.jpg", "out": "essie-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31C2ZdOcvpL._AC_SL1500_.jpg", "out": "essie-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31EA7xzwF7L._AC_SL1500_.jpg", "out": "essie-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41La2TEqP1L._AC_SL1500_.jpg", "out": "essie-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "essie Hard To Resist stärkande nagellack", "href": "/skonhet/nagelhardare", "date": "2026-06-27", "image": "/products/essie-strengthener/essie-thumbnail.webp", "blurb": "Stärkande baslack för sköra, flisande naglar – hårdare och slätare naglar med tiden." }
+  ]
+}

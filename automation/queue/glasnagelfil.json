@@ -1,0 +1,112 @@
+{
+  "exportName": "glasnagelfilProduct",
+  "category": "skonhet",
+  "categoryGroup": "Naglar",
+  "route": "skonhet/glasnagelfil",
+  "pageComponentName": "GlasnagelfilPage",
+  "priceTier": "budget",
+  "product": {
+    "slug": "glasnagelfil",
+    "title": "Tweezerman glasnagelfil",
+    "category": "skonhet",
+    "asin": "B09MV83X1K",
+    "brand": "Tweezerman",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Sluter nagelkanten", "Slät kant", "Håller länge"],
+    "image": "/products/glass-nail-file/fil-thumbnail.webp",
+    "imageAlt": "Tweezerman glasnagelfil",
+    "images": [
+      { "src": "/products/glass-nail-file/fil-thumbnail.webp", "alt": "Tweezerman glasnagelfil", "label": "Glasnagelfil" },
+      { "src": "/products/glass-nail-file/fil-1.webp", "alt": "Tweezerman glasnagelfil som sluter nagelkanten", "label": "Sluter kanten" },
+      { "src": "/products/glass-nail-file/fil-2.webp", "alt": "Tweezerman glasnagelfil med slät filyta", "label": "Slät filyta" },
+      { "src": "/products/glass-nail-file/fil-3.webp", "alt": "Detaljbild av Tweezerman glasnagelfil", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4eLNjnL",
+    "pageHref": "/skonhet/glasnagelfil",
+    "summary": "En skonsam glasnagelfil som sluter nagelkanten och ger en slät kant utan att naglarna flisar sig. Glasytan håller länge och är enkel att rengöra.",
+    "evaluation": {
+      "headline": "Skonsam fil för en slät nagelkant",
+      "intro": "Elin går igenom Tweezerman glasnagelfil: en fil i glas som sluter nagelkanten i stället för att riva upp den. Tanken är en jämn, slät kant som gör att naglarna flisar sig mindre, och glasytan är gjord för att hålla länge.",
+      "verdict": "Skonsam glasnagelfil som ger en slät kant och håller länge.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Naglar",
+    "specSectionTitle": "Tweezerman glasnagelfil",
+    "specs": [
+      { "label": "Material", "caption": "Typ", "value": "Glasfil" },
+      { "label": "Filyta", "caption": "Funktion", "value": "Sluter nagelkanten, slät kant" },
+      { "label": "Hållbarhet", "caption": "Användning", "value": "Håller länge, lätt att rengöra" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4eLNjnL",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 465 omdömen.",
+      "highlights": [
+        "Köpare upplever att naglarna flisar sig mindre med en slät kant.",
+        "Glasytan beskrivs som skonsam mot nageln vid filning.",
+        "Uppskattas för att hålla länge och vara enkel att rengöra."
+      ],
+      "cautions": [
+        "Glas kan spricka om filen tappas på hårt underlag – förvara den i fodralet.",
+        "Fila i en riktning för bästa resultat och en jämn kant."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/glasnagelfil",
+    "cardBadge": "Slät kant",
+    "cardHook": "Skonsam glasfil som sluter kanten så naglarna flisar sig mindre.",
+    "cardImage": "/products/glass-nail-file/fil-thumbnail.webp",
+    "cardImageAlt": "Tweezerman glasnagelfil",
+    "badge": "Elins skonsamma val",
+    "headline": "Tweezerman glasnagelfil – slät kant utan flis",
+    "shortBody": "En glasnagelfil som sluter nagelkanten och ger en slät kant utan att naglarna flisar sig. Glasytan håller länge och är enkel att rengöra.",
+    "valueHook": "Skonsam fil för en slät nagelkant",
+    "valueStatement": "Tweezerman glasnagelfil är för dig som vill ha en jämn, slät nagelkant utan att naglarna flisar sig. Glasytan sluter nagelkanten i stället för att riva upp den, vilket gör filningen skonsammare än med en vanlig sandpappersfil. Filen är gjord för att hålla länge och är enkel att rengöra. Amazon visar 4,5 av 5 från 465 omdömen, och köpare lyfter framför allt den släta kanten, att naglarna flisar sig mindre och att glasytan håller.",
+    "passFor": [
+      "Vill ha en slät nagelkant och slippa naglar som flisar sig.",
+      "Söker en skonsam fil i glas i stället för sandpappersfil.",
+      "Vill ha en fil som håller länge och är lätt att rengöra."
+    ],
+    "caution": "Glas kan spricka om filen tappas på ett hårt underlag, så förvara den i fodralet. Fila i en riktning för en jämn kant och bästa resultat.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Fila på torra naglar och dra filen i en riktning längs kanten. Glasytan sluter kanten skonsamt, så du behöver inte fila fram och tillbaka."
+    },
+    "verdict": "Skonsam glasnagelfil som ger en slät kant och håller länge.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 465 omdömen. Köpare beskriver en slät kant och att naglarna flisar sig mindre, men glas kan spricka om filen tappas.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Varför flisar naglarna sig mindre med en glasnagelfil?", "answer": "Glasytan sluter nagelkanten i stället för att riva upp den. Det ger en jämnare, slät kant som gör att naglarna flisar sig mindre än med en vanlig sandpappersfil." },
+      { "question": "Hur filar jag rätt med en glasnagelfil?", "answer": "Fila på torra naglar och dra filen i en riktning längs kanten. Du behöver inte fila fram och tillbaka, eftersom glasytan sluter kanten skonsamt." },
+      { "question": "Hur sköter jag och förvarar glasnagelfilen?", "answer": "Glasfilen är enkel att rengöra och håller länge. Förvara den i fodralet, eftersom glas kan spricka om filen tappas på ett hårt underlag." }
+    ],
+    "reviewSectionId": "glasnagelfil-recensioner",
+    "reviewFormId": "glasnagelfil-skriv-recension",
+    "targetKeyword": "glasnagelfil flisande naglar",
+    "metaTitle": "Tweezerman glasnagelfil – slät kant utan flis | Elins val",
+    "metaDescription": "Elin går igenom Tweezerman glasnagelfil: en skonsam glasfil som sluter nagelkanten och ger en slät kant så naglarna flisar sig mindre (4,5 av 5, 465 omdömen).",
+    "relatedLinks": [
+      { "href": "/skonhet/nagelvard-set", "label": "Nagelvård-set", "text": "Komplett set för en hel nagelrutin." },
+      { "href": "/skonhet/press-on-naglar", "label": "Press-on-naglar", "text": "Snabb manikyr hemma utan torktid." },
+      { "href": "/skonhet/elektrisk-fotfil", "label": "Elektrisk fotfil", "text": "Slät hälar med en enkel elektrisk fil." }
+    ]
+  },
+  "images": {
+    "dir": "glass-nail-file",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/41FBw+MTHCL._AC_SL1500_.jpg", "out": "fil-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/11P0xTMvIRL._AC_SL1500_.jpg", "out": "fil-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/21Tf1Q5QCFL._AC_SL1500_.jpg", "out": "fil-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31-7sMCdbiL._AC_SL1500_.jpg", "out": "fil-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Tweezerman glasnagelfil", "href": "/skonhet/glasnagelfil", "date": "2026-06-27", "image": "/products/glass-nail-file/fil-thumbnail.webp", "blurb": "Skonsam glasnagelfil som sluter nagelkanten för en slät kant utan flis." }
+  ]
+}

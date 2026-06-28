@@ -1,0 +1,112 @@
+{
+  "exportName": "gehwolFotpuderProduct",
+  "category": "skonhet",
+  "categoryGroup": "Fötter",
+  "route": "skonhet/fotpuder",
+  "pageComponentName": "FotpuderPage",
+  "priceTier": "mellan",
+  "product": {
+    "slug": "gehwol-fotpuder",
+    "title": "Gehwol fotpuder (100 g)",
+    "category": "skonhet",
+    "asin": "B001NZH6GW",
+    "brand": "Gehwol",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Torra fötter", "Motverkar fuktkänsla", "Fräsch komfort"],
+    "image": "/products/gehwol-fotpuder/fotpuder-thumbnail.webp",
+    "imageAlt": "Gehwol fotpuder, 100 g",
+    "images": [
+      { "src": "/products/gehwol-fotpuder/fotpuder-thumbnail.webp", "alt": "Gehwol fotpuder, 100 g", "label": "Fotpuder" },
+      { "src": "/products/gehwol-fotpuder/fotpuder-1.webp", "alt": "Gehwol fotpuder som håller fötterna torra och fräscha", "label": "Torr känsla" },
+      { "src": "/products/gehwol-fotpuder/fotpuder-2.webp", "alt": "Gehwol fotpuder textur och konsistens", "label": "Fin puder" },
+      { "src": "/products/gehwol-fotpuder/fotpuder-3.webp", "alt": "Detaljbild av Gehwol fotpuder", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4arC9n0",
+    "pageHref": "/skonhet/fotpuder",
+    "summary": "Ett fotpuder som hjälper till att hålla fötterna torra och fräscha och motverkar fuktkänsla i skon. För dig som vill ha en skön, torr komfort under dagen, särskilt vid svettiga fötter.",
+    "evaluation": {
+      "headline": "Fotpuder för torra och fräscha fötter",
+      "intro": "Elin går igenom Gehwol fotpuder: ett finkornigt puder som hjälper huden på fötterna att kännas torrare och fräschare. Det motverkar fuktkänsla i skon och passar dig som vill ha en skön, torr komfort under dagen, särskilt om du upplever svettiga fötter.",
+      "verdict": "Klassiskt fotpuder för torr, fräsch komfort i skon.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hudvård",
+    "specSectionTitle": "Gehwol fotpuder",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Fotpuder, 100 g" },
+      { "label": "Funktion", "caption": "Komfort", "value": "Torra fötter, motverkar fuktkänsla" },
+      { "label": "Profil", "caption": "Fötter", "value": "Fräsch känsla i skon" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4arC9n0",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 708 omdömen.",
+      "highlights": [
+        "Köpare upplever att fötterna känns torrare och fräschare under dagen.",
+        "Många tycker att pudret motverkar fuktkänsla i skon.",
+        "Uppskattas för den fina, lättfördelade konsistensen."
+      ],
+      "cautions": [
+        "Strö gärna på en lagom mängd – ett tunt lager räcker långt.",
+        "Effekten varierar mellan olika fötter och skor, så prova dig fram till din mängd."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/fotpuder",
+    "cardBadge": "Torra fötter",
+    "cardHook": "Fotpuder som håller fötterna torra och fräscha i skon.",
+    "cardImage": "/products/gehwol-fotpuder/fotpuder-thumbnail.webp",
+    "cardImageAlt": "Gehwol fotpuder, 100 g",
+    "badge": "Elins komfortfavorit",
+    "headline": "Gehwol fotpuder – torra och fräscha fötter",
+    "shortBody": "Ett finkornigt fotpuder som hjälper fötterna att kännas torra och fräscha. Gjort för att motverka fuktkänsla i skon och ge en skön, torr komfort under dagen.",
+    "valueHook": "Fotpuder för torra och fräscha fötter",
+    "valueStatement": "Gehwol fotpuder är ett klassiskt val för dig som vill hålla fötterna torra och fräscha under dagen. Det finkorniga pudret hjälper huden att kännas torrare och motverkar fuktkänsla i skon, något som är skönt särskilt vid svettiga fötter. Amazon visar 4,6 av 5 från 708 omdömen, och köpare lyfter framför allt den torra, fräscha känslan, att fuktkänslan i skon motverkas och den fina, lättfördelade konsistensen.",
+    "passFor": [
+      "Vill hålla fötterna torra och fräscha under dagen.",
+      "Upplever svettiga fötter och vill motverka fuktkänsla i skon.",
+      "Gillar ett finkornigt puder som är lätt att fördela."
+    ],
+    "caution": "Effekten varierar mellan olika fötter och skor, och upplevelsen är individuell. Strö på en lagom mängd – ett tunt lager räcker långt – och prova dig fram till vad som känns bäst för dig.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Strö ett tunt lager puder på rena, torra fötter, gärna på morgonen innan du tar på dig strumpor och skor. Du kan även pudra lätt inuti skon för en extra fräsch känsla."
+    },
+    "verdict": "Klassiskt fotpuder för torr, fräsch komfort i skon.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 708 omdömen. Köpare beskriver torrare, fräschare fötter och mindre fuktkänsla i skon, men effekten varierar mellan olika fötter och skor.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag Gehwol fotpuder?", "answer": "Strö ett tunt lager på rena, torra fötter, gärna på morgonen innan strumpor och skor. Du kan även pudra lätt inuti skon för en extra fräsch känsla under dagen." },
+      { "question": "Hjälper fotpuder mot svettiga fötter?", "answer": "Pudret är gjort för att hålla fötterna torra och fräscha och motverka fuktkänsla i skon, vilket många upplever som skönt vid svettiga fötter. Effekten är individuell, så prova dig fram till din mängd." },
+      { "question": "Hur mycket puder ska jag använda?", "answer": "Ett tunt lager räcker oftast långt. Börja med en lagom mängd och justera efter hur torra och fräscha fötterna känns i dina skor." }
+    ],
+    "reviewSectionId": "gehwol-fotpuder-recensioner",
+    "reviewFormId": "gehwol-fotpuder-skriv-recension",
+    "targetKeyword": "fotpuder svettiga fötter",
+    "metaTitle": "Gehwol fotpuder – torra & fräscha fötter | Elins val",
+    "metaDescription": "Elin går igenom Gehwol fotpuder: ett finkornigt puder som håller fötterna torra och fräscha och motverkar fuktkänsla i skon (4,6 av 5, 708 omdömen) – och hur du använder det rätt.",
+    "relatedLinks": [
+      { "href": "/skonhet/halkram", "label": "Hälkräm", "text": "Mjukgörande kräm för torra hälar." },
+      { "href": "/skonhet/elektrisk-fotfil", "label": "Elektrisk fotfil", "text": "Slipa bort hård hud snabbt och enkelt." },
+      { "href": "/skonhet/foot-peel-mask", "label": "Foot peel mask", "text": "Peelingmask för len och mjuk fothud." }
+    ]
+  },
+  "images": {
+    "dir": "gehwol-fotpuder",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71TSOEjskQL._AC_SL1500_.jpg", "out": "fotpuder-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41suwyUE6-L._AC_SL1500_.jpg", "out": "fotpuder-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ObFNm935L._AC_SL1500_.jpg", "out": "fotpuder-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41-AXuge0VL._AC_SL1500_.jpg", "out": "fotpuder-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Gehwol fotpuder", "href": "/skonhet/fotpuder", "date": "2026-06-27", "image": "/products/gehwol-fotpuder/fotpuder-thumbnail.webp", "blurb": "Finkornigt fotpuder som håller fötterna torra och fräscha och motverkar fuktkänsla i skon." }
+  ]
+}

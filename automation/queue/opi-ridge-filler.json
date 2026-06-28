@@ -1,0 +1,110 @@
+{
+  "exportName": "opiRidgeFillerProduct",
+  "category": "skonhet",
+  "categoryGroup": "Naglar",
+  "route": "skonhet/ridge-filler",
+  "pageComponentName": "RidgeFillerPage",
+  "priceTier": "mellan",
+  "product": {
+    "slug": "opi-ridge-filler",
+    "title": "OPI Start-To-Finish 3-in-1 utjämnande baslack (15 ml)",
+    "category": "skonhet",
+    "asin": "B0013L94NE",
+    "brand": "OPI",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Fyller räfflor", "3-i-1 bas + topp", "Slät nagelyta"],
+    "image": "/products/opi-ridge-filler/ridge-thumbnail.webp",
+    "imageAlt": "OPI Start-To-Finish 3-in-1 utjämnande baslack, 15 ml",
+    "images": [
+      { "src": "/products/opi-ridge-filler/ridge-thumbnail.webp", "alt": "OPI Start-To-Finish 3-in-1 utjämnande baslack, 15 ml", "label": "Ridge filler" },
+      { "src": "/products/opi-ridge-filler/ridge-1.webp", "alt": "OPI Start-To-Finish baslack som fyller räfflor på naglarna", "label": "Fyller räfflor" },
+      { "src": "/products/opi-ridge-filler/ridge-2.webp", "alt": "OPI Start-To-Finish 3-i-1 bas, topp och stärkande lack", "label": "3-i-1" }
+    ],
+    "amazonUrl": "https://amzn.to/4aVj1xO",
+    "pageHref": "/skonhet/ridge-filler",
+    "summary": "Ett utjämnande baslack som fyller räfflor så att nagelytan blir slätare och nagellacket lägger sig jämnare. Fungerar 3-i-1 som bas, topp och stärkande lager.",
+    "evaluation": {
+      "headline": "Utjämnande baslack för räfflade naglar",
+      "intro": "Elin går igenom OPI Start-To-Finish: ett 3-i-1-lack som fyller räfflor i nageln så att ytan blir slätare och lacket lägger sig jämnare. Samma flaska fungerar som bas, topp och stärkande lager, vilket gör manikyren enklare.",
+      "verdict": "Praktiskt 3-i-1-baslack som jämnar ut räfflade naglar för en slätare yta.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Naglar",
+    "specSectionTitle": "OPI Start-To-Finish 3-in-1",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Baslack, 15 ml" },
+      { "label": "Funktion", "caption": "3-i-1", "value": "Bas, topp och stärkande" },
+      { "label": "Effekt", "caption": "Yta", "value": "Fyller räfflor för slätare nagelyta" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4aVj1xO",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 1 697 omdömen.",
+      "highlights": [
+        "Köpare upplever att räfflor blir mindre synliga och nagelytan slätare.",
+        "Uppskattas för att lacket lägger sig jämnare ovanpå basen.",
+        "Många gillar att samma flaska fungerar som bas, topp och stärkande lager."
+      ],
+      "cautions": [
+        "Lägg ett tunt lager och låt torka ordentligt för jämnast resultat.",
+        "Räfflor jämnas ut optiskt på ytan – det förändrar inte själva nageln."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/ridge-filler",
+    "cardBadge": "Slät nagelyta",
+    "cardHook": "Fyller räfflor så att nagellacket lägger sig jämnt.",
+    "cardImage": "/products/opi-ridge-filler/ridge-thumbnail.webp",
+    "cardImageAlt": "OPI Start-To-Finish 3-in-1 utjämnande baslack, 15 ml",
+    "badge": "Elins jämna-yta-val",
+    "headline": "OPI Start-To-Finish – utjämnande baslack för räfflade naglar",
+    "shortBody": "Ett 3-i-1-baslack som fyller räfflor så att nagelytan blir slätare och lacket lägger sig jämnare. Samma flaska fungerar som bas, topp och stärkande lager.",
+    "valueHook": "Utjämnande baslack som fyller räfflor",
+    "valueStatement": "OPI Start-To-Finish är ett baslack för dig som har räfflade naglar och vill ha en slätare yta innan du lägger nagellack. Lacket fyller räfflorna optiskt så att ytan blir jämnare och nagellacket lägger sig mer slätt ovanpå. Som 3-i-1 fungerar samma flaska dessutom som bas, topp och stärkande lager, vilket gör manikyren enklare. Amazon visar 4,5 av 5 från 1 697 omdömen, och köpare lyfter framför allt den slätare nagelytan och att lacket lägger sig jämnare.",
+    "passFor": [
+      "Har räfflade naglar och vill ha en slätare yta före nagellack.",
+      "Vill ha ett enkelt 3-i-1-lack som är bas, topp och stärkande i ett.",
+      "Önskar att nagellacket ska lägga sig jämnare ovanpå basen."
+    ],
+    "caution": "Lacket jämnar ut räfflor optiskt på nagelytan – det förändrar inte själva nageln. Lägg ett tunt lager och låt det torka ordentligt innan du fortsätter, så blir resultatet jämnast.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Stryk på ett tunt lager på rena, torra naglar som baslack och låt torka. Lägg sedan ditt nagellack ovanpå – och använd samma flaska som topplack om du vill avsluta jämnt."
+    },
+    "verdict": "Praktiskt 3-i-1-baslack som jämnar ut räfflade naglar för en slätare yta.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 1 697 omdömen. Köpare beskriver en slätare nagelyta och att lacket lägger sig jämnare, men räfflor jämnas ut optiskt och själva nageln förändras inte.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad gör ett utjämnande baslack?", "answer": "Det fyller räfflor i nageln så att ytan blir slätare. Då lägger sig nagellacket jämnare ovanpå och manikyren ser mer slät ut." },
+      { "question": "Hur använder jag OPI Start-To-Finish som 3-i-1?", "answer": "Använd det som baslack på rena naglar, lägg ditt nagellack ovanpå och avsluta med samma flaska som topplack. Samma produkt fungerar dessutom som ett stärkande lager." },
+      { "question": "Försvinner räfflorna helt med ett ridge filler-baslack?", "answer": "Lacket jämnar ut räfflor optiskt på ytan så att de syns mindre, men det förändrar inte själva nageln. Lägg ett tunt lager och låt torka för jämnast resultat." }
+    ],
+    "reviewSectionId": "opi-ridge-filler-recensioner",
+    "reviewFormId": "opi-ridge-filler-skriv-recension",
+    "targetKeyword": "ridge filler basecoat räfflade naglar",
+    "metaTitle": "OPI Start-To-Finish 3-in-1 baslack – räfflade naglar | Elins val",
+    "metaDescription": "Elin går igenom OPI Start-To-Finish: ett 3-i-1-baslack som fyller räfflor för en slätare nagelyta (4,5 av 5, 1 697 omdömen) – och hur du använder det som bas, topp och stärkande.",
+    "relatedLinks": [
+      { "href": "/skonhet/nagelvard-set", "label": "Nagelvård-set", "text": "Bygg ut nagelrutinen med ett komplett set." },
+      { "href": "/skonhet/press-on-naglar", "label": "Press-on naglar", "text": "Snabb fix för en hel manikyr utan torktid." },
+      { "href": "/skonhet/halkram", "label": "Hälkräm", "text": "Mjuka upp torra hälar i samma vårdrutin." }
+    ]
+  },
+  "images": {
+    "dir": "opi-ridge-filler",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/613YOMDJStL._AC_SL1500_.jpg", "out": "ridge-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31nPegqQIqL._AC_SL1500_.jpg", "out": "ridge-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41dZjPk88kL._AC_SL1500_.jpg", "out": "ridge-2.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "OPI Start-To-Finish 3-in-1 baslack", "href": "/skonhet/ridge-filler", "date": "2026-06-27", "image": "/products/opi-ridge-filler/ridge-thumbnail.webp", "blurb": "Utjämnande 3-i-1-baslack som fyller räfflor för en slätare nagelyta." }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "exportName": "nanobrowBrynserumProduct",
+  "category": "skonhet",
+  "categoryGroup": "Fransar & bryn",
+  "route": "skonhet/brynserum",
+  "pageComponentName": "BrynserumPage",
+  "priceTier": "premium",
+  "product": {
+    "slug": "nanobrow-brynserum",
+    "title": "Nanobrow brynserum (5 ml)",
+    "category": "skonhet",
+    "asin": "B08W8VZ687",
+    "brand": "Nanobrow",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Fylligare uttryck", "För glesa bryn", "Daglig brynvård"],
+    "image": "/products/nanobrow-brynserum/nanobrow-thumbnail.webp",
+    "imageAlt": "Nanobrow brynserum, 5 ml",
+    "images": [
+      { "src": "/products/nanobrow-brynserum/nanobrow-thumbnail.webp", "alt": "Nanobrow brynserum, 5 ml", "label": "Nanobrow" },
+      { "src": "/products/nanobrow-brynserum/nanobrow-1.webp", "alt": "Nanobrow brynserum för ett tätare, mer välvårdat uttryck", "label": "Tätare uttryck" },
+      { "src": "/products/nanobrow-brynserum/nanobrow-2.webp", "alt": "Nanobrow brynserum med precisionsborste för bryn", "label": "Precisionsborste" },
+      { "src": "/products/nanobrow-brynserum/nanobrow-3.webp", "alt": "Detaljbild av Nanobrow brynserum, 5 ml", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4pbV1g5",
+    "pageHref": "/skonhet/brynserum",
+    "summary": "Ett kosmetiskt brynserum som hjälper ögonbrynen att se tätare och mer välvårdade ut – för dig med glesa eller överplockade bryn. Stryks enkelt på med precisionsborste i kvällsrutinen.",
+    "evaluation": {
+      "headline": "Brynserum för ett fylligare uttryck",
+      "intro": "Elin går igenom Nanobrow brynserum: ett kosmetiskt brynserum som ramar in och vårdar ögonbrynen så att de ser tätare och mer välvårdade ut. Tanken är ett fylligare, mer samlat uttryck för glesa eller överplockade bryn, applicerat med en precisionsborste längs brynlinjen.",
+      "verdict": "Kosmetiskt brynserum för ett tätare, mer välvårdat uttryck på glesa bryn.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Brynvård",
+    "specSectionTitle": "Nanobrow brynserum",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Brynserum, 5 ml" },
+      { "label": "Applicering", "caption": "Verktyg", "value": "Precisionsborste för bryn" },
+      { "label": "Profil", "caption": "Passar", "value": "Glesa eller överplockade bryn" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4pbV1g5",
+      "ratingSummary": "Amazon visar 4,0 av 5 från 698 omdömen.",
+      "highlights": [
+        "Köpare tycker brynen ser tätare och mer välvårdade ut med tiden.",
+        "Precisionsborsten uppskattas för att lägga serumet exakt längs brynlinjen.",
+        "Lättanvänt steg som många bygger in i kvällsrutinen."
+      ],
+      "cautions": [
+        "Upplevelsen varierar mellan personer och beror på hur bryn används och sköts.",
+        "Det är en kosmetisk brynvård för utseendet – inga löften om resultat ges."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/brynserum",
+    "cardBadge": "Fylligare uttryck",
+    "cardHook": "Kosmetiskt brynserum för ett tätare, mer välvårdat uttryck.",
+    "cardImage": "/products/nanobrow-brynserum/nanobrow-thumbnail.webp",
+    "cardImageAlt": "Nanobrow brynserum, 5 ml",
+    "badge": "Elins brynfavorit",
+    "headline": "Nanobrow brynserum – för ett fylligare uttryck",
+    "shortBody": "Ett kosmetiskt brynserum som hjälper glesa eller överplockade bryn att se tätare och mer välvårdade ut. Stryks enkelt på med en precisionsborste längs brynlinjen i kvällsrutinen.",
+    "valueHook": "Brynserum för ett fylligare uttryck",
+    "valueStatement": "Nanobrow brynserum är en kosmetisk brynvård för dig som vill att ögonbrynen ska se tätare och mer välvårdade ut. Serumet ramar in brynen och ger ett fylligare, mer samlat uttryck, vilket många uppskattar vid glesa eller överplockade bryn. Det läggs på med en precisionsborste längs brynlinjen och passar fint som ett enkelt steg i kvällsrutinen. Amazon visar 4,0 av 5 från 698 omdömen, där köpare framför allt lyfter det mer välvårdade utseendet och den lättanvända borsten.",
+    "passFor": [
+      "Har glesa eller överplockade bryn och vill ha ett fylligare uttryck.",
+      "Vill ha ett enkelt brynsteg med precisionsborste i kvällsrutinen.",
+      "Gillar en mer välvårdad och inramad brynlinje i vardagen."
+    ],
+    "caution": "Det här är en kosmetisk brynvård som handlar om utseendet, och upplevelsen varierar mellan personer. Använd serumet enligt instruktionerna och undvik att få det i ögonen.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Stryk på en tunn linje längs rena, torra bryn på kvällen med precisionsborsten. Använd regelbundet enligt förpackningens instruktioner och undvik att få serumet i ögonen."
+    },
+    "verdict": "Kosmetiskt brynserum för ett tätare, mer välvårdat uttryck på glesa bryn.",
+    "amazonSummary": "Amazon visar 4,0 av 5 från 698 omdömen. Köpare beskriver tätare, mer välvårdade bryn och en smidig precisionsborste, men upplevelsen varierar mellan personer.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad är Nanobrow brynserum?", "answer": "Det är ett kosmetiskt brynserum som ramar in och vårdar ögonbrynen så att de ser tätare och mer välvårdade ut. Det handlar om utseendet och läggs på med en precisionsborste längs brynlinjen." },
+      { "question": "Vem passar brynserumet för?", "answer": "Det passar dig med glesa eller överplockade bryn som vill ha ett fylligare, mer samlat uttryck. Det är ett enkelt steg att bygga in i kvällsrutinen." },
+      { "question": "Hur använder jag Nanobrow brynserum?", "answer": "Stryk på en tunn linje längs rena, torra bryn på kvällen med precisionsborsten och använd regelbundet enligt förpackningens instruktioner. Undvik att få serumet i ögonen." }
+    ],
+    "reviewSectionId": "nanobrow-brynserum-recensioner",
+    "reviewFormId": "nanobrow-brynserum-skriv-recension",
+    "targetKeyword": "brynserum fylligare ögonbryn",
+    "metaTitle": "Nanobrow brynserum – fylligare ögonbryn-uttryck | Elins val",
+    "metaDescription": "Elin går igenom Nanobrow brynserum: ett kosmetiskt brynserum för ett tätare, mer välvårdat uttryck på glesa bryn (4,0 av 5, 698 omdömen) – och vad du bör veta innan du väljer.",
+    "relatedLinks": [
+      { "href": "/skonhet/fransserum", "label": "Fransserum", "text": "Kosmetiskt serum för ett fylligare fransuttryck." },
+      { "href": "/skonhet/sminkborstar", "label": "Sminkborstar", "text": "Bra borstar för precisa bryn och ögon." },
+      { "href": "/skonhet/gua-sha", "label": "Gua sha", "text": "Lugn ansiktsrutin för avslappning och lyster." }
+    ]
+  },
+  "images": {
+    "dir": "nanobrow-brynserum",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71WJWL+rKUL._AC_SL1500_.jpg", "out": "nanobrow-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ap4Pt-seL._AC_SL1500_.jpg", "out": "nanobrow-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51ufcXUJbUL._AC_SL1500_.jpg", "out": "nanobrow-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51H9Tjr0kNL._AC_SL1500_.jpg", "out": "nanobrow-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Nanobrow brynserum", "href": "/skonhet/brynserum", "date": "2026-06-27", "image": "/products/nanobrow-brynserum/nanobrow-thumbnail.webp", "blurb": "Kosmetiskt brynserum för ett tätare, mer välvårdat uttryck på glesa bryn." }
+  ]
+}

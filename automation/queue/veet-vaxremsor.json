@@ -1,0 +1,112 @@
+{
+  "exportName": "veetWaxStripsProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårborttagning",
+  "route": "skonhet/vaxremsor",
+  "pageComponentName": "VaxremsorPage",
+  "priceTier": "budget",
+  "product": {
+    "slug": "veet-vaxremsor",
+    "title": "Veet Expert vaxremsor för ben och kropp (20 st)",
+    "category": "skonhet",
+    "asin": "B08MZLP4K3",
+    "brand": "Veet",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Färdiga kallvaxremsor", "Ben & kropp", "Ingen värmare"],
+    "image": "/products/veet-wax-strips/veet-thumbnail.webp",
+    "imageAlt": "Veet Expert vaxremsor för ben och kropp, 20 st",
+    "images": [
+      { "src": "/products/veet-wax-strips/veet-thumbnail.webp", "alt": "Veet Expert vaxremsor för ben och kropp, 20 st", "label": "Vaxremsor" },
+      { "src": "/products/veet-wax-strips/veet-1.webp", "alt": "Veet kallvaxremsor färdiga att använda hemma", "label": "Kallvax" },
+      { "src": "/products/veet-wax-strips/veet-2.webp", "alt": "Veet vaxremsor för ben och kropp", "label": "Ben & kropp" },
+      { "src": "/products/veet-wax-strips/veet-3.webp", "alt": "Detaljbild av Veet Expert vaxremsor", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4xTyGri",
+    "pageHref": "/skonhet/vaxremsor",
+    "summary": "Färdiga kallvaxremsor för ben och kropp – slät hud i veckor utan värmare, smidigt att använda hemma. Klart att börja direkt: värm remsan mellan händerna, tryck fast och dra av.",
+    "evaluation": {
+      "headline": "Kallvaxremsor för slät hud hemma",
+      "intro": "Elin går igenom Veet Expert vaxremsor: färdiga kallvaxremsor för ben och kropp som du använder utan värmare. Du värmer remsan mellan händerna, trycker fast den och drar av – en enkel metod för slät hud hemma i veckor framåt.",
+      "verdict": "Smidiga kallvaxremsor för slät hud på ben och kropp utan värmare.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårborttagning",
+    "specSectionTitle": "Veet Expert vaxremsor",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Kallvaxremsor, 20 st" },
+      { "label": "Område", "caption": "Användning", "value": "Ben och kropp" },
+      { "label": "Metod", "caption": "Smidigt hemma", "value": "Ingen värmare – värm mellan händerna" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4xTyGri",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 386 omdömen.",
+      "highlights": [
+        "Köpare uppskattar slät hud som håller i veckor.",
+        "Smidigt att använda hemma utan värmare eller extra utrustning.",
+        "Färdiga remsor som många tycker är enkla att komma igång med."
+      ],
+      "cautions": [
+        "Vaxremsor kan svida när du drar av – håll huden spänd och dra snabbt.",
+        "Håret behöver vara några millimeter långt för att remsan ska få bra grepp."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/vaxremsor",
+    "cardBadge": "Ben & kropp",
+    "cardHook": "Färdiga kallvaxremsor för slät hud hemma – utan värmare.",
+    "cardImage": "/products/veet-wax-strips/veet-thumbnail.webp",
+    "cardImageAlt": "Veet Expert vaxremsor för ben och kropp, 20 st",
+    "badge": "Elins smidiga val",
+    "headline": "Veet Expert vaxremsor – slät hud utan värmare",
+    "shortBody": "Färdiga kallvaxremsor för ben och kropp. Du värmer remsan mellan händerna, trycker fast och drar av – en enkel metod för slät hud hemma i veckor framåt, helt utan värmare.",
+    "valueHook": "Kallvaxremsor för slät hud hemma",
+    "valueStatement": "Veet Expert vaxremsor är för dig som vill ha slät hud på ben och kropp utan krångel. Det är färdiga kallvaxremsor, så du slipper både värmare och extra utrustning – du värmer helt enkelt remsan mellan händerna, trycker fast den och drar av. Resultatet håller i veckor framåt eftersom håret tas bort vid roten. Amazon visar 4,6 av 5 från 386 omdömen, och köpare lyfter framför allt hur smidigt det är att göra hemma och att huden känns slät länge.",
+    "passFor": [
+      "Vill ha slät hud på ben och kropp utan att köpa en värmare.",
+      "Föredrar att sköta hårborttagningen smidigt hemma.",
+      "Gillar färdiga remsor som är enkla att komma igång med."
+    ],
+    "caution": "Vaxremsor kan svida när du drar av, särskilt de första gångerna, och upplevelsen varierar. Håll huden spänd och dra av snabbt i hårets riktning. Håret behöver vara några millimeter långt för att remsan ska få bra grepp.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Värm remsan mellan händerna några sekunder, tryck fast den i hårets växtriktning på torr, ren hud och dra av snabbt i motsatt riktning medan du håller huden spänd. Avsluta gärna med en lugnande lotion."
+    },
+    "verdict": "Smidiga kallvaxremsor för slät hud på ben och kropp utan värmare.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 386 omdömen. Köpare beskriver slät hud som håller i veckor och att det är smidigt att göra hemma, men remsorna kan svida när du drar av.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Behöver jag en värmare till Veet vaxremsor?", "answer": "Nej, det är kallvaxremsor. Du värmer remsan mellan händerna några sekunder, trycker fast den och drar av – ingen värmare eller extra utrustning behövs." },
+      { "question": "Hur länge håller resultatet?", "answer": "Eftersom håret tas bort vid roten håller sig huden slät i veckor framåt. När håret växt ut några millimeter kan du vaxa igen." },
+      { "question": "Hur långt måste håret vara?", "answer": "Håret behöver vara några millimeter långt för att remsan ska få bra grepp. Är det för kort fastnar inte vaxet ordentligt, är det väldigt långt kan du trimma lite först." }
+    ],
+    "reviewSectionId": "veet-vaxremsor-recensioner",
+    "reviewFormId": "veet-vaxremsor-skriv-recension",
+    "targetKeyword": "vaxremsor kallvax hårborttagning ben",
+    "metaTitle": "Veet Expert vaxremsor – slät hud utan värmare | Elins val",
+    "metaDescription": "Elin går igenom Veet Expert vaxremsor: färdiga kallvaxremsor för ben och kropp (4,6 av 5, 386 omdömen) – slät hud i veckor utan värmare, och vad du bör veta innan du börjar.",
+    "relatedLinks": [
+      { "href": "/skonhet/rakapparat-dam", "label": "Rakapparat dam", "text": "Snabb och smärtfri hårborttagning i vardagen." },
+      { "href": "/skonhet/ipl-harborttagning", "label": "IPL hårborttagning", "text": "Mer långsiktig hårborttagning hemma." },
+      { "href": "/skonhet/epilator", "label": "Epilator", "text": "Tar håret vid roten utan vax." }
+    ]
+  },
+  "images": {
+    "dir": "veet-wax-strips",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61AvdsglcSL._AC_SL1500_.jpg", "out": "veet-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41roXL8HPfL._AC_SL1500_.jpg", "out": "veet-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51ppAhWI6kL._AC_SL1500_.jpg", "out": "veet-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41hmaInD1PL._AC_SL1500_.jpg", "out": "veet-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Veet Expert vaxremsor", "href": "/skonhet/vaxremsor", "date": "2026-06-27", "image": "/products/veet-wax-strips/veet-thumbnail.webp", "blurb": "Färdiga kallvaxremsor för ben och kropp – slät hud i veckor utan värmare." }
+  ]
+}

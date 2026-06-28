@@ -1,0 +1,112 @@
+{
+  "exportName": "merkurSafetyRazorProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårborttagning",
+  "route": "skonhet/safety-razor",
+  "pageComponentName": "SafetyRazorPage",
+  "priceTier": "mellan",
+  "product": {
+    "slug": "merkur-safety-razor",
+    "title": "Merkur 34C safety razor (rakhyvel)",
+    "category": "skonhet",
+    "asin": "B002A8JO1Q",
+    "brand": "Merkur",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Klassisk metallhyvel", "Utbytbara blad", "Nära & slät rakning"],
+    "image": "/products/merkur-34c/merkur-thumbnail.webp",
+    "imageAlt": "Merkur 34C safety razor i metall",
+    "images": [
+      { "src": "/products/merkur-34c/merkur-thumbnail.webp", "alt": "Merkur 34C safety razor i metall", "label": "Merkur 34C" },
+      { "src": "/products/merkur-34c/merkur-1.webp", "alt": "Merkur 34C safety razor med kort handtag", "label": "Kort handtag" },
+      { "src": "/products/merkur-34c/merkur-2.webp", "alt": "Merkur 34C rakhuvud med utbytbart blad", "label": "Utbytbart blad" },
+      { "src": "/products/merkur-34c/merkur-3.webp", "alt": "Detaljbild av Merkur 34C safety razor", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4v2qPVN",
+    "pageHref": "/skonhet/safety-razor",
+    "summary": "En klassisk safety razor i metall som ger en nära, slät rakning med utbytbara blad – mindre stubb och mer hållbart än engångshyvlar. Stabil tyngd och ett kort, balanserat handtag.",
+    "evaluation": {
+      "headline": "Klassisk metallhyvel för en nära rakning",
+      "intro": "Elin går igenom Merkur 34C: en safety razor helt i metall med ett enkelt utbytbart blad. Tanken är en nära, slät rakning som lämnar mindre stubb än engångshyvlar, samtidigt som du byter blad i stället för hela hyveln. Tyngden och det korta handtaget ger en stadig känsla i handen.",
+      "verdict": "Hållbar metallhyvel för en nära, slät rakning med utbytbara blad.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårborttagning",
+    "specSectionTitle": "Merkur 34C safety razor",
+    "specs": [
+      { "label": "Typ", "caption": "Hyvel", "value": "Safety razor i metall" },
+      { "label": "Blad", "caption": "System", "value": "Utbytbara dubbeleggade blad" },
+      { "label": "Handtag", "caption": "Format", "value": "Kort, balanserat med tyngd" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4v2qPVN",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 7 344 omdömen.",
+      "highlights": [
+        "Köpare upplever en närmare, slätare rakning än med engångshyvlar.",
+        "Tyngden och det korta handtaget ger en stadig, kontrollerad känsla.",
+        "Uppskattas för att vara hållbar – du byter blad i stället för hela hyveln."
+      ],
+      "cautions": [
+        "Tekniken skiljer sig från engångshyvlar – ta det lugnt de första gångerna.",
+        "Blad köps separat; tänk på att ha extra blad hemma."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/safety-razor",
+    "cardBadge": "Nära & slät",
+    "cardHook": "Klassisk metallhyvel med utbytbara blad för en nära rakning.",
+    "cardImage": "/products/merkur-34c/merkur-thumbnail.webp",
+    "cardImageAlt": "Merkur 34C safety razor i metall",
+    "badge": "Elins hållbara val",
+    "headline": "Merkur 34C – nära, slät rakning med utbytbara blad",
+    "shortBody": "En klassisk safety razor helt i metall med utbytbara blad. Gjord för en nära, slät rakning med mindre stubb, och ett mer hållbart alternativ än engångshyvlar.",
+    "valueHook": "Klassisk metallhyvel för en nära rakning",
+    "valueStatement": "Merkur 34C är en safety razor i metall för dig som vill ha en nära, slät rakning och samtidigt slippa kasta hela hyveln varje gång. Du byter bara det dubbeleggade bladet, vilket gör den mer hållbar än engångshyvlar och kan ge mindre stubb mellan raken. Tyngden och det korta, balanserade handtaget ger en stadig känsla i handen. Amazon visar 4,5 av 5 från 7 344 omdömen, och köpare lyfter framför allt den nära rakningen, den stabila känslan och att den håller länge.",
+    "passFor": [
+      "Vill ha en nära, slät rakning med mindre stubb.",
+      "Föredrar utbytbara blad framför engångshyvlar.",
+      "Gillar en metallhyvel med tyngd och stadig känsla i handen."
+    ],
+    "caution": "Tekniken skiljer sig från engångshyvlar och upplevelsen varierar i början. Ta det lugnt de första gångerna och ha extra blad hemma, eftersom blad köps separat.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Raka på ren, fuktig hud och låt hyvelns egen tyngd göra jobbet utan att trycka. Håll en jämn vinkel och ta korta drag, så blir rakningen nära utan onödig irritation."
+    },
+    "verdict": "Hållbar metallhyvel för en nära, slät rakning med utbytbara blad.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 7 344 omdömen. Köpare beskriver en nära, slät rakning och en stabil känsla, men tekniken skiljer sig från engångshyvlar och tar några gånger att vänja sig vid.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur får jag en nära rakning med en safety razor?", "answer": "Raka på ren, fuktig hud och låt hyvelns tyngd göra jobbet utan att trycka. Håll en jämn vinkel och ta korta drag, så blir rakningen nära utan onödig irritation." },
+      { "question": "Måste jag köpa blad separat till Merkur 34C?", "answer": "Ja, hyveln använder utbytbara dubbeleggade blad som köps separat. Det gör den mer hållbar än engångshyvlar – du byter bara bladet och behåller hyveln." },
+      { "question": "Passar en safety razor om jag aldrig använt en förut?", "answer": "Den fungerar fint för nybörjare, men tekniken skiljer sig från engångshyvlar. Ta det lugnt de första gångerna och håll en jämn vinkel så vänjer du dig snabbt." }
+    ],
+    "reviewSectionId": "merkur-safety-razor-recensioner",
+    "reviewFormId": "merkur-safety-razor-skriv-recension",
+    "targetKeyword": "safety razor rakhyvel slät rakning",
+    "metaTitle": "Merkur 34C safety razor – nära & slät rakning | Elins val",
+    "metaDescription": "Elin går igenom Merkur 34C: en klassisk safety razor i metall med utbytbara blad för en nära, slät rakning (4,5 av 5, 7 344 omdömen) – och vad du bör veta innan du byter från engångshyvel.",
+    "relatedLinks": [
+      { "href": "/skonhet/rakapparat-dam", "label": "Rakapparat dam", "text": "Smidig rakapparat för snabb rakning hemma." },
+      { "href": "/skonhet/ipl-harborttagning", "label": "IPL hårborttagning", "text": "Mer långsiktig hårborttagning steg för steg." },
+      { "href": "/skonhet/ansiktstrimmer", "label": "Ansiktstrimmer", "text": "Mild trimmer för ansiktets finare hår." }
+    ]
+  },
+  "images": {
+    "dir": "merkur-34c",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/617wDfKN1TL._AC_SL1500_.jpg", "out": "merkur-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/410XbGhKsyL._AC_SL1500_.jpg", "out": "merkur-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/21DhaPtl16L._AC_SL1500_.jpg", "out": "merkur-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31oRA83KkWL._AC_SL1500_.jpg", "out": "merkur-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Merkur 34C safety razor (rakhyvel)", "href": "/skonhet/safety-razor", "date": "2026-06-27", "image": "/products/merkur-34c/merkur-thumbnail.webp", "blurb": "Klassisk safety razor i metall med utbytbara blad för en nära, slät rakning." }
+  ]
+}

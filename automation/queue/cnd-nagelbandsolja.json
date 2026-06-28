@@ -1,0 +1,112 @@
+{
+  "exportName": "cndCuticleOilProduct",
+  "category": "skonhet",
+  "categoryGroup": "Naglar",
+  "route": "skonhet/nagelbandsolja",
+  "pageComponentName": "NagelbandsoljaPage",
+  "priceTier": "mellan",
+  "product": {
+    "slug": "cnd-nagelbandsolja",
+    "title": "CND SolarOil nagelband- och nagelolja (penna, 2 ml)",
+    "category": "skonhet",
+    "asin": "B07P57ZFG8",
+    "brand": "CND",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Jojoba & E-vitamin", "Smidig penna", "Mjukar upp nagelband"],
+    "image": "/products/cnd-solaroil/cnd-thumbnail.webp",
+    "imageAlt": "CND SolarOil nagelband- och nagelolja, penna 2 ml",
+    "images": [
+      { "src": "/products/cnd-solaroil/cnd-thumbnail.webp", "alt": "CND SolarOil nagelband- och nagelolja, penna 2 ml", "label": "SolarOil" },
+      { "src": "/products/cnd-solaroil/cnd-1.webp", "alt": "CND SolarOil med jojoba och E-vitamin för torra nagelband", "label": "Jojoba & E-vitamin" },
+      { "src": "/products/cnd-solaroil/cnd-2.webp", "alt": "CND SolarOil penna att ha med sig", "label": "Smidig penna" },
+      { "src": "/products/cnd-solaroil/cnd-3.webp", "alt": "Detaljbild av CND SolarOil nagelbandsolja", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4wd6pub",
+    "pageHref": "/skonhet/nagelbandsolja",
+    "summary": "En vårdande nagelbandsolja med jojoba och E-vitamin som mjukar upp torra nagelband. Den smidiga pennan är lätt att ha med sig och stryka på var som helst.",
+    "evaluation": {
+      "headline": "Vårdande olja för torra nagelband",
+      "intro": "Elin går igenom CND SolarOil: en nagelband- och nagelolja med jojoba och E-vitamin som mjukar upp torra nagelband. Den kommer i en smidig penna som är lätt att ha med sig och stryka på direkt på nagelbanden när du behöver det.",
+      "verdict": "Smidig penna med jojoba och E-vitamin som mjukar upp torra nagelband.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Naglar",
+    "specSectionTitle": "CND SolarOil",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Penna, 2 ml" },
+      { "label": "Innehåll", "caption": "Vårdande", "value": "Jojoba + E-vitamin" },
+      { "label": "Profil", "caption": "Naglar", "value": "Torra nagelband, att ha med sig" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4wd6pub",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 1 437 omdömen.",
+      "highlights": [
+        "Köpare tycker att torra nagelband känns mjukare med tiden.",
+        "Pennan beskrivs som smidig att ha i väskan och stryka på var som helst.",
+        "Många uppskattar att en liten mängd räcker långt."
+      ],
+      "cautions": [
+        "Oljan kan kännas lite blank en stund – stryk in den och torka av överskott.",
+        "Pennspetsen behöver vridas fram lagom mycket så att det inte kommer för mycket olja."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/nagelbandsolja",
+    "cardBadge": "Mjukar upp nagelband",
+    "cardHook": "Jojoba och E-vitamin i en smidig penna för torra nagelband.",
+    "cardImage": "/products/cnd-solaroil/cnd-thumbnail.webp",
+    "cardImageAlt": "CND SolarOil nagelband- och nagelolja, penna 2 ml",
+    "badge": "Elins nagelband-favorit",
+    "headline": "CND SolarOil – vårdande olja för torra nagelband",
+    "shortBody": "En nagelband- och nagelolja med jojoba och E-vitamin som mjukar upp torra nagelband. Kommer i en smidig penna som är lätt att ha med sig och stryka på direkt.",
+    "valueHook": "Vårdande olja för torra nagelband",
+    "valueStatement": "CND SolarOil är en nagelband- och nagelolja för dig som har torra nagelband och vill ge dem lite extra omvårdnad. Formulan bygger på jojoba och E-vitamin som mjukar upp nagelbanden, och den kommer i en smidig penna som är lätt att ha med sig och stryka på var som helst. Amazon visar 4,6 av 5 från 1 437 omdömen, och köpare lyfter framför allt att nagelbanden känns mjukare, att pennan är smidig och att en liten mängd räcker långt.",
+    "passFor": [
+      "Har torra nagelband och vill mjuka upp dem i vardagen.",
+      "Vill ha en smidig penna att stryka på var som helst.",
+      "Gillar enkla vårdande oljor med jojoba och E-vitamin."
+    ],
+    "caution": "En nagelbandsolja vårdar och mjukar upp men gör inte underverk över en natt – använd den regelbundet för bäst resultat. Oljan kan kännas lite blank en stund, så stryk in den ordentligt och torka av eventuellt överskott.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Vrid fram lite olja och stryk på nagelbanden, gärna varje dag. Massera in oljan runt nageln så att den hinner sjunka in, och torka av eventuellt överskott."
+    },
+    "verdict": "Smidig penna med jojoba och E-vitamin som mjukar upp torra nagelband.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 1 437 omdömen. Köpare beskriver att torra nagelband känns mjukare och att pennan är smidig att ha med sig, men oljan kan kännas lite blank en stund.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur ofta använder jag nagelbandsolja?", "answer": "Stryk gärna på lite olja varje dag, på rena nagelband. Massera in den runt nageln så att den hinner sjunka in, så håller du nagelbanden mjuka över tid." },
+      { "question": "Vad innehåller CND SolarOil?", "answer": "Den bygger på jojoba och E-vitamin, en kombination som mjukar upp torra nagelband. Pennformatet gör det lätt att stryka på en lagom mängd direkt." },
+      { "question": "Varför känns oljan blank efter att jag strukit på den?", "answer": "Det är vanligt med nagelbandsolja en kort stund. Massera in oljan ordentligt runt nageln och torka av eventuellt överskott, så sjunker den in." }
+    ],
+    "reviewSectionId": "cnd-nagelbandsolja-recensioner",
+    "reviewFormId": "cnd-nagelbandsolja-skriv-recension",
+    "targetKeyword": "nagelbandsolja torra nagelband",
+    "metaTitle": "CND SolarOil nagelbandsolja – mjukar upp torra nagelband | Elins val",
+    "metaDescription": "Elin går igenom CND SolarOil: en nagelband- och nagelolja med jojoba och E-vitamin för torra nagelband (4,6 av 5, 1 437 omdömen) – i en smidig penna att ha med sig.",
+    "relatedLinks": [
+      { "href": "/skonhet/nagelvard-set", "label": "Nagelvård-set", "text": "Komplettera rutinen med ett enkelt nagelvård-set." },
+      { "href": "/skonhet/press-on-naglar", "label": "Press-on-naglar", "text": "Snabb manikyr hemma utwithout lim på riktigt." },
+      { "href": "/skonhet/handkram", "label": "Handkräm", "text": "Vårda händer och naglar med ett enkelt fuktsteg." }
+    ]
+  },
+  "images": {
+    "dir": "cnd-solaroil",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71YYz+fkJEL._AC_SL1500_.jpg", "out": "cnd-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/412zT7FJ8SL._AC_SL1500_.jpg", "out": "cnd-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51q3C5XVJJL._AC_SL1500_.jpg", "out": "cnd-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41KACXeeIDL._AC_SL1500_.jpg", "out": "cnd-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "CND SolarOil nagelbandsolja", "href": "/skonhet/nagelbandsolja", "date": "2026-06-27", "image": "/products/cnd-solaroil/cnd-thumbnail.webp", "blurb": "Vårdande nagelband- och nagelolja med jojoba och E-vitamin för torra nagelband." }
+  ]
+}

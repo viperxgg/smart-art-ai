@@ -1,0 +1,112 @@
+{
+  "exportName": "beurerMp48LampProduct",
+  "category": "skonhet",
+  "categoryGroup": "Naglar",
+  "route": "skonhet/nagellampa",
+  "pageComponentName": "NagellampaPage",
+  "priceTier": "mellan",
+  "product": {
+    "slug": "beurer-mp48-nagellampa",
+    "title": "Beurer MP 48 UV/LED nagellampa",
+    "category": "skonhet",
+    "asin": "B075V888FN",
+    "brand": "Beurer",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["UV/LED-härdning", "Flera timerlägen", "Manikyr hemma"],
+    "image": "/products/beurer-mp48/lampa-thumbnail.webp",
+    "imageAlt": "Beurer MP 48 UV/LED nagellampa för gelnaglar",
+    "images": [
+      { "src": "/products/beurer-mp48/lampa-thumbnail.webp", "alt": "Beurer MP 48 UV/LED nagellampa för gelnaglar", "label": "MP 48" },
+      { "src": "/products/beurer-mp48/lampa-1.webp", "alt": "Beurer MP 48 nagellampa med UV/LED-ljus för gellack", "label": "UV/LED" },
+      { "src": "/products/beurer-mp48/lampa-2.webp", "alt": "Beurer MP 48 nagellampa med flera timerlägen", "label": "Timerlägen" },
+      { "src": "/products/beurer-mp48/lampa-3.webp", "alt": "Detaljbild av Beurer MP 48 UV/LED nagellampa", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4vBmrhu",
+    "pageHref": "/skonhet/nagellampa",
+    "summary": "En UV/LED-nagellampa som härdar gellack jämnt hemma, med flera timerlägen för en mer salongslik manikyr. Praktisk för dig som vill göra gelnaglar på egen hand.",
+    "evaluation": {
+      "headline": "UV/LED-lampa för gelnaglar hemma",
+      "intro": "Elin går igenom Beurer MP 48: en UV/LED-nagellampa som härdar gellack jämnt hemma. Flera timerlägen gör det enklare att styra härdningen för en mer salongslik manikyr, så att du kan göra gelnaglar på egen hand.",
+      "verdict": "Smidig UV/LED-lampa för dig som vill härda gellack jämnt och göra gelnaglar hemma.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Naglar",
+    "specSectionTitle": "Beurer MP 48 UV/LED nagellampa",
+    "specs": [
+      { "label": "Ljuskälla", "caption": "Typ", "value": "UV/LED för gellack" },
+      { "label": "Timer", "caption": "Funktion", "value": "Flera timerlägen" },
+      { "label": "Användning", "caption": "Naglar", "value": "Härdar gellack hemma" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4vBmrhu",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 206 omdömen.",
+      "highlights": [
+        "Köpare upplever att gellacket härdar jämnt hemma.",
+        "Flera timerlägen uppskattas för att styra härdningen.",
+        "Smidig att använda för manikyr på egen hand."
+      ],
+      "cautions": [
+        "Följ härdningstiderna för det gellack du använder för bäst resultat.",
+        "Storleken passar olika händer olika bra – kolla måtten innan köp."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/nagellampa",
+    "cardBadge": "UV/LED-härdning",
+    "cardHook": "Härdar gellack jämnt hemma med flera timerlägen.",
+    "cardImage": "/products/beurer-mp48/lampa-thumbnail.webp",
+    "cardImageAlt": "Beurer MP 48 UV/LED nagellampa för gelnaglar",
+    "badge": "Elins val för gelnaglar hemma",
+    "headline": "Beurer MP 48 – UV/LED nagellampa för gelnaglar hemma",
+    "shortBody": "En UV/LED-nagellampa som härdar gellack jämnt hemma. Flera timerlägen gör det enklare att styra härdningen för en mer salongslik manikyr på egen hand.",
+    "valueHook": "UV/LED-lampa för gelnaglar hemma",
+    "valueStatement": "Beurer MP 48 är en UV/LED-nagellampa för dig som vill härda gellack jämnt och göra gelnaglar hemma. Lampan kombinerar UV- och LED-ljus och har flera timerlägen, så att du kan styra härdningen för en mer salongslik manikyr. Amazon visar 4,5 av 5 från 206 omdömen, och köpare lyfter framför allt den jämna härdningen, timerlägena och att den är smidig att använda på egen hand.",
+    "passFor": [
+      "Vill göra gelnaglar hemma och härda gellack jämnt.",
+      "Gillar flera timerlägen för att styra härdningen.",
+      "Söker en smidig nagellampa för en mer salongslik manikyr."
+    ],
+    "caution": "Resultatet beror på vilket gellack du använder och att du följer dess härdningstider. Kolla även måtten så att lampan passar din hand innan köp.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Applicera gellacket i tunna lager och härda varje lager i lampan enligt tiderna för ditt gellack. Välj timerläge efter behov och låt händerna ligga still under härdningen för ett jämnt resultat."
+    },
+    "verdict": "Smidig UV/LED-lampa för dig som vill härda gellack jämnt och göra gelnaglar hemma.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 206 omdömen. Köpare beskriver en jämn härdning och smidiga timerlägen, men resultatet beror på vilket gellack du använder.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad är skillnaden mellan UV och LED i en nagellampa?", "answer": "En UV/LED-lampa som Beurer MP 48 kombinerar båda ljustyperna, vilket gör att den kan härda många olika sorters gellack. LED härdar ofta snabbare, medan UV passar ett bredare urval av lacker." },
+      { "question": "Hur lång härdningstid behöver gellacket?", "answer": "Det beror på gellacket. Följ alltid tiderna som anges för just ditt gellack och använd lampans timerlägen för att styra härdningen lager för lager." },
+      { "question": "Kan jag göra gelnaglar hemma med en sådan här lampa?", "answer": "Ja, lampan är gjord för att härda gellack hemma. Applicera i tunna lager, härda varje lager och håll händerna stilla under härdningen för ett jämnt resultat." }
+    ],
+    "reviewSectionId": "beurer-mp48-nagellampa-recensioner",
+    "reviewFormId": "beurer-mp48-nagellampa-skriv-recension",
+    "targetKeyword": "uv led nagellampa gelnaglar hemma",
+    "metaTitle": "Beurer MP 48 UV/LED nagellampa – gelnaglar hemma | Elins val",
+    "metaDescription": "Elin går igenom Beurer MP 48: en UV/LED-nagellampa som härdar gellack jämnt hemma med flera timerlägen (4,5 av 5, 206 omdömen) – och vad du bör veta innan köp.",
+    "relatedLinks": [
+      { "href": "/skonhet/gel-topcoat", "label": "Gel-topplack", "text": "Förseglar manikyren med en blank finish." },
+      { "href": "/skonhet/nagelvard-set", "label": "Nagelvård-set", "text": "Verktyg för att förbereda naglarna hemma." },
+      { "href": "/skonhet/press-on-naglar", "label": "Press-on-naglar", "text": "Snabbt alternativ när du vill slippa härda." }
+    ]
+  },
+  "images": {
+    "dir": "beurer-mp48",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/619z+gbE9mL._AC_SL1500_.jpg", "out": "lampa-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41sFBRY+sRL._AC_SL1500_.jpg", "out": "lampa-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31vsz7RX+NL._AC_SL1500_.jpg", "out": "lampa-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51rPsLAwRcL._AC_SL1500_.jpg", "out": "lampa-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Beurer MP 48 UV/LED nagellampa", "href": "/skonhet/nagellampa", "date": "2026-06-27", "image": "/products/beurer-mp48/lampa-thumbnail.webp", "blurb": "UV/LED-nagellampa som härdar gellack jämnt hemma med flera timerlägen." }
+  ]
+}

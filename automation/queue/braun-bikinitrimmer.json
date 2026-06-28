@@ -1,0 +1,112 @@
+{
+  "exportName": "braunBikiniTrimmerProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårborttagning",
+  "route": "skonhet/bikinitrimmer",
+  "pageComponentName": "BikinitrimmerPage",
+  "priceTier": "mellan",
+  "product": {
+    "slug": "braun-bikinitrimmer",
+    "title": "Braun Silk-épil bikinitrimmer (3-202)",
+    "category": "skonhet",
+    "asin": "B0CQRX2KHZ",
+    "brand": "Braun",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Smal precisionskam", "Skonsam mot huden", "Lätt att styra"],
+    "image": "/products/braun-bikini/braunbikini-thumbnail.webp",
+    "imageAlt": "Braun Silk-épil bikinitrimmer 3-202",
+    "images": [
+      { "src": "/products/braun-bikini/braunbikini-thumbnail.webp", "alt": "Braun Silk-épil bikinitrimmer 3-202", "label": "Bikinitrimmer" },
+      { "src": "/products/braun-bikini/braunbikini-1.webp", "alt": "Braun bikinitrimmer med smal precisionskam för bikinilinjen", "label": "Precisionskam" },
+      { "src": "/products/braun-bikini/braunbikini-2.webp", "alt": "Braun bikinitrimmer i handen för enkel styrning", "label": "Lätt att styra" },
+      { "src": "/products/braun-bikini/braunbikini-3.webp", "alt": "Detaljbild av Braun Silk-épil bikinitrimmer 3-202", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4oRvubD",
+    "pageHref": "/skonhet/bikinitrimmer",
+    "summary": "En skonsam bikinitrimmer med smal precisionskam som hjälper dig att snabbt och bekvämt trimma bikinilinjen hemma. Smidig att styra för jämna kanter, även på känsliga ställen.",
+    "evaluation": {
+      "headline": "Skonsam trimning av bikinilinjen hemma",
+      "intro": "Elin går igenom Braun Silk-épil bikinitrimmer 3-202: en smal precisionskam gjord för att forma och trimma bikinilinjen snabbt och bekvämt hemma. Den är liten och lätt att styra, vilket hjälper dig att komma åt även på känsliga ställen.",
+      "verdict": "Smidig och skonsam bikinitrimmer för dig som vill trimma bikinilinjen själv hemma.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårborttagning",
+    "specSectionTitle": "Braun Silk-épil bikinitrimmer 3-202",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Bikinitrimmer med precisionskam" },
+      { "label": "Användning", "caption": "Område", "value": "Bikinilinjen och känsliga ytor" },
+      { "label": "Profil", "caption": "Känsla", "value": "Skonsam och lätt att styra" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4oRvubD",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 347 omdömen.",
+      "highlights": [
+        "Köpare tycker att den smala kammen gör det enkelt att trimma jämnt längs bikinilinjen.",
+        "Liten och lätt att styra, vilket uppskattas på känsliga ställen.",
+        "Många upplever trimningen som skonsam och bekväm hemma."
+      ],
+      "cautions": [
+        "En trimmer kortar håret men tar inte bort det vid roten, så resultatet håller kortare tid.",
+        "Gå försiktigt fram på känslig hud och rengör kammen efter varje användning."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/bikinitrimmer",
+    "cardBadge": "Skonsam trimning",
+    "cardHook": "Smal precisionskam för att snabbt trimma bikinilinjen hemma.",
+    "cardImage": "/products/braun-bikini/braunbikini-thumbnail.webp",
+    "cardImageAlt": "Braun Silk-épil bikinitrimmer 3-202",
+    "badge": "Elins val för bikinilinjen",
+    "headline": "Braun Silk-épil bikinitrimmer – skonsam trimning hemma",
+    "shortBody": "En bikinitrimmer med smal precisionskam för att forma och trimma bikinilinjen själv hemma. Liten och lätt att styra, gjord för att kännas skonsam även på känsliga ställen.",
+    "valueHook": "Skonsam trimning av bikinilinjen hemma",
+    "valueStatement": "Braun Silk-épil bikinitrimmer 3-202 är till för dig som vill trimma bikinilinjen snabbt och bekvämt hemma. Den smala precisionskammen gör det lättare att komma åt och få jämna kanter, och den lilla formen gör trimmern smidig att styra även på känsliga ytor. Amazon visar 4,2 av 5 från 347 omdömen, och köpare lyfter framför allt den smala kammen, hur lätt den är att styra och att trimningen känns skonsam.",
+    "passFor": [
+      "Vill trimma och forma bikinilinjen själv hemma.",
+      "Föredrar en smal precisionskam för jämna kanter på känsliga ställen.",
+      "Vill ha en liten trimmer som är lätt att styra."
+    ],
+    "caution": "En trimmer kortar håret men tar inte bort det vid roten, så resultatet håller kortare tid än andra metoder. Gå försiktigt fram på känslig hud och rengör kammen efter varje användning.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Trimma på torr, ren hud och börja med längre hår innan du går närmare. Dra trimmern lugnt längs bikinilinjen, följ riktningen som känns bekväm och rengör kammen efteråt."
+    },
+    "verdict": "Smidig och skonsam bikinitrimmer för dig som vill trimma bikinilinjen själv hemma.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från 347 omdömen. Köpare beskriver en smal kam som gör det enkelt att trimma jämnt och en trimmer som är lätt att styra, men en trimmer tar inte bort håret vid roten.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur trimmar jag bikinilinjen med en bikinitrimmer?", "answer": "Trimma på torr, ren hud och börja med en längre inställning innan du går närmare. Dra trimmern lugnt längs bikinilinjen och följ den riktning som känns bekväm för jämna kanter." },
+      { "question": "Är en bikinitrimmer skonsam mot känslig hud?", "answer": "Braun Silk-épil bikinitrimmer är gjord för att kännas skonsam och har en smal kam som hjälper dig att gå försiktigt fram. Testa lugnt första gången och rengör kammen efter varje användning." },
+      { "question": "Hur länge håller resultatet med en bikinitrimmer?", "answer": "En trimmer kortar håret men tar inte bort det vid roten, så resultatet håller kortare tid än vid metoder som går djupare. Du trimmar enkelt om igen vid behov." }
+    ],
+    "reviewSectionId": "braun-bikinitrimmer-recensioner",
+    "reviewFormId": "braun-bikinitrimmer-skriv-recension",
+    "targetKeyword": "bikinitrimmer trimma bikinilinjen",
+    "metaTitle": "Braun Silk-épil bikinitrimmer 3-202 – trimma bikinilinjen | Elins val",
+    "metaDescription": "Elin går igenom Braun Silk-épil bikinitrimmer 3-202: en skonsam trimmer med smal precisionskam för att trimma bikinilinjen hemma (4,2 av 5, 347 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/ansiktstrimmer", "label": "Ansiktstrimmer", "text": "Smidig trimmer för fina hårstrån i ansiktet." },
+      { "href": "/skonhet/rakapparat-dam", "label": "Rakapparat dam", "text": "Snabb och skonsam rakning av större ytor." },
+      { "href": "/skonhet/epilator", "label": "Epilator", "text": "Tar håret vid roten för ett resultat som håller längre." }
+    ]
+  },
+  "images": {
+    "dir": "braun-bikini",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71gvyI1fUnL._AC_SL1500_.jpg", "out": "braunbikini-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41L0ddkamKL._AC_SL1500_.jpg", "out": "braunbikini-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ENIfvAb-L._AC_SL1500_.jpg", "out": "braunbikini-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/416RK+-KRgL._AC_SL1500_.jpg", "out": "braunbikini-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Braun Silk-épil bikinitrimmer 3-202", "href": "/skonhet/bikinitrimmer", "date": "2026-06-27", "image": "/products/braun-bikini/braunbikini-thumbnail.webp", "blurb": "Skonsam bikinitrimmer med smal precisionskam för att trimma bikinilinjen hemma." }
+  ]
+}

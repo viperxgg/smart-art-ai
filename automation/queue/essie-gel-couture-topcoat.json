@@ -1,0 +1,112 @@
+{
+  "exportName": "essieGelCoutureProduct",
+  "category": "skonhet",
+  "categoryGroup": "Naglar",
+  "route": "skonhet/gel-topcoat",
+  "pageComponentName": "GelTopcoatPage",
+  "priceTier": "mellan",
+  "product": {
+    "slug": "essie-gel-couture-topcoat",
+    "title": "essie Gel Couture topplack – gel-effekt utan lampa (15 ml)",
+    "category": "skonhet",
+    "asin": "B07BBQ6K84",
+    "brand": "essie",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Gel-liknande glans", "Ingen UV-lampa", "Längre håll"],
+    "image": "/products/essie-gel-topcoat/topcoat-thumbnail.webp",
+    "imageAlt": "essie Gel Couture topplack, 15 ml",
+    "images": [
+      { "src": "/products/essie-gel-topcoat/topcoat-thumbnail.webp", "alt": "essie Gel Couture topplack, 15 ml", "label": "Gel Couture" },
+      { "src": "/products/essie-gel-topcoat/topcoat-1.webp", "alt": "essie Gel Couture topplack med gel-liknande glans", "label": "Gel-glans" },
+      { "src": "/products/essie-gel-topcoat/topcoat-2.webp", "alt": "essie Gel Couture topplack textur och pensel", "label": "Pensel" },
+      { "src": "/products/essie-gel-topcoat/topcoat-3.webp", "alt": "Detaljbild av essie Gel Couture topplack", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4vvndMZ",
+    "pageHref": "/skonhet/gel-topcoat",
+    "summary": "Ett topplack som ger manikyren en gel-liknande glans och hjälper färgen att hålla längre – helt utan UV-lampa. Läggs som vanligt topplack ovanpå ditt nagellack.",
+    "evaluation": {
+      "headline": "Gel-effekt hemma utan lampa",
+      "intro": "Elin går igenom essie Gel Couture topplack: ett topplack som ger en gel-liknande glans och hjälper manikyren att hålla längre, utan att du behöver en UV-lampa. Det läggs ovanpå ditt vanliga nagellack som ett sista steg.",
+      "verdict": "Smidigt topplack för dig som vill ha gel-look och längre håll utan lampa.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Naglar",
+    "specSectionTitle": "essie Gel Couture topplack",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Topplack, 15 ml" },
+      { "label": "Användning", "caption": "Steg", "value": "Läggs ovanpå nagellack, ingen lampa" },
+      { "label": "Profil", "caption": "Naglar", "value": "Gel-liknande glans, längre håll" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4vvndMZ",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 1 394 omdömen.",
+      "highlights": [
+        "Köpare uppskattar den blanka, gel-liknande finishen.",
+        "Många tycker att manikyren håller längre med detta topplack.",
+        "Smidigt att lägga hemma eftersom ingen UV-lampa behövs."
+      ],
+      "cautions": [
+        "Låt varje lager torka ordentligt för bästa håll.",
+        "Resultatet varierar beroende på underliggande lack och naglarnas skick."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/gel-topcoat",
+    "cardBadge": "Gel-look utan lampa",
+    "cardHook": "Gel-liknande glans och längre håll – ingen UV-lampa behövs.",
+    "cardImage": "/products/essie-gel-topcoat/topcoat-thumbnail.webp",
+    "cardImageAlt": "essie Gel Couture topplack, 15 ml",
+    "badge": "Elins favorit för naglar",
+    "headline": "essie Gel Couture topplack – gel-effekt utan lampa",
+    "shortBody": "Ett topplack som ger manikyren en gel-liknande glans och hjälper färgen att hålla längre. Läggs som ett sista steg ovanpå ditt vanliga nagellack, helt utan UV-lampa.",
+    "valueHook": "Gel-look och längre håll utan lampa",
+    "valueStatement": "essie Gel Couture topplack är till för dig som vill ha en gel-liknande glans hemma utan att investera i en UV-lampa. Det läggs som ett sista steg ovanpå ditt vanliga nagellack och ger manikyren en blank finish samtidigt som det hjälper färgen att hålla längre. Amazon visar 4,6 av 5 från 1 394 omdömen, och köpare lyfter framför allt den blanka finishen, det längre hållet och hur smidigt det är att använda hemma.",
+    "passFor": [
+      "Vill ha en gel-liknande glans på naglarna utan UV-lampa.",
+      "Önskar att manikyren håller längre mellan ommålningarna.",
+      "Vill lägga sista steget hemma med ett enkelt topplack."
+    ],
+    "caution": "Resultatet varierar beroende på underliggande lack och naglarnas skick. Låt varje lager torka ordentligt innan du lägger nästa för bästa håll och glans.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Lägg ditt vanliga nagellack och låt det torka. Avsluta med ett tunt, jämnt lager av topplacket över hela nageln. Låt torka ordentligt så får du den blanka finishen och ett längre håll."
+    },
+    "verdict": "Smidigt topplack för dig som vill ha gel-look och längre håll utan lampa.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 1 394 omdömen. Köpare beskriver en blank, gel-liknande finish och ett längre håll, men resultatet varierar beroende på underliggande lack och naglarnas skick.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Behöver jag en UV-lampa för essie Gel Couture topplack?", "answer": "Nej. Topplacket är gjort för att ge en gel-liknande glans utan UV-lampa. Du lägger det som ett vanligt topplack ovanpå ditt nagellack och låter det torka." },
+      { "question": "Hur lägger jag topplacket för bästa håll?", "answer": "Lägg ditt vanliga nagellack och låt det torka. Avsluta med ett tunt, jämnt lager topplack över hela nageln och låt det torka ordentligt." },
+      { "question": "Hur länge håller manikyren?", "answer": "Många köpare tycker att manikyren håller längre med detta topplack, men resultatet varierar beroende på underliggande lack och hur naglarna mår." }
+    ],
+    "reviewSectionId": "essie-gel-couture-topcoat-recensioner",
+    "reviewFormId": "essie-gel-couture-topcoat-skriv-recension",
+    "targetKeyword": "gellack hemma utan lampa långhållbart",
+    "metaTitle": "essie Gel Couture topplack – gel-effekt utan lampa | Elins val",
+    "metaDescription": "Elin går igenom essie Gel Couture topplack: gel-liknande glans och längre håll utan UV-lampa (4,6 av 5, 1 394 omdömen) – och hur du lägger det för bästa resultat.",
+    "relatedLinks": [
+      { "href": "/skonhet/nagelvard-set", "label": "Nagelvård-set", "text": "Sköt om naglar och nagelband mellan manikyrerna." },
+      { "href": "/skonhet/press-on-naglar", "label": "Press-on-naglar", "text": "Snabb manikyr utan torktid." },
+      { "href": "/skonhet/glasnagelfil", "label": "Glasnagelfil", "text": "Skonsam fil för jämna nagelkanter." }
+    ]
+  },
+  "images": {
+    "dir": "essie-gel-topcoat",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51oryceYxoL._AC_SL1500_.jpg", "out": "topcoat-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/21nm88YhOQL._AC_SL1500_.jpg", "out": "topcoat-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41wPu5JoQTL._AC_SL1500_.jpg", "out": "topcoat-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41TFKhtzRYL._AC_SL1500_.jpg", "out": "topcoat-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "essie Gel Couture topplack", "href": "/skonhet/gel-topcoat", "date": "2026-06-27", "image": "/products/essie-gel-topcoat/topcoat-thumbnail.webp", "blurb": "Topplack med gel-liknande glans och längre håll – utan UV-lampa." }
+  ]
+}

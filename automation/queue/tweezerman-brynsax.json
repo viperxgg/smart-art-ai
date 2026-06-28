@@ -1,0 +1,112 @@
+{
+  "exportName": "tweezermanBrowScissorsProduct",
+  "category": "skonhet",
+  "categoryGroup": "Fransar & bryn",
+  "route": "skonhet/brynsax",
+  "pageComponentName": "BrynsaxPage",
+  "priceTier": "mellan",
+  "product": {
+    "slug": "tweezerman-brynsax",
+    "title": "Tweezerman brynsax med borste (precision)",
+    "category": "skonhet",
+    "asin": "B000WHYB1A",
+    "brand": "Tweezerman",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Precisionsblad", "Spoolie-borste", "Välvårdad form"],
+    "image": "/products/tweezerman-brynsax/brynsax-thumbnail.webp",
+    "imageAlt": "Tweezerman brynsax med borste för ögonbryn",
+    "images": [
+      { "src": "/products/tweezerman-brynsax/brynsax-thumbnail.webp", "alt": "Tweezerman brynsax med borste för ögonbryn", "label": "Brynsax" },
+      { "src": "/products/tweezerman-brynsax/brynsax-1.webp", "alt": "Tweezerman brynsax med spoolie-borste för att kamma brynen", "label": "Spoolie" },
+      { "src": "/products/tweezerman-brynsax/brynsax-2.webp", "alt": "Tweezerman brynsax med precisionsblad för att trimma bryn", "label": "Precisionsblad" },
+      { "src": "/products/tweezerman-brynsax/brynsax-3.webp", "alt": "Detaljbild av Tweezerman brynsax med borste", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4xSjfQ3",
+    "pageHref": "/skonhet/brynsax",
+    "summary": "En precis brynsax med spoolie-borste för att kamma upp och trimma brynen till en ren, välvårdad form hemma. Smala precisionsblad och en borste i ena änden gör det enkelt att forma bryn steg för steg.",
+    "evaluation": {
+      "headline": "Precis brynsax för en välvårdad form",
+      "intro": "Elin går igenom Tweezerman brynsax: en liten sax med spoolie-borste i ena änden. Du kammar först upp brynen med borsten och trimmar sedan av det som sticker ut med de smala bladen – ett enkelt sätt att forma ögonbrynen hemma utan att ta bort för mycket.",
+      "verdict": "Smidig precisionssax med borste för dig som vill forma och trimma brynen själv.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Fransar & bryn",
+    "specSectionTitle": "Tweezerman brynsax med borste",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Brynsax med spoolie-borste" },
+      { "label": "Blad", "caption": "Funktion", "value": "Smala precisionsblad för bryn" },
+      { "label": "Användning", "caption": "Bryn", "value": "Kamma upp och trimma till önskad form" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4xSjfQ3",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 6 404 omdömen.",
+      "highlights": [
+        "Köpare uppskattar att borsten och saxen sitter ihop i ett verktyg.",
+        "Precisionsbladen gör det lätt att bara trimma av det som sticker ut.",
+        "Många tycker att den hjälper dem hålla brynen i en ren form mellan besök."
+      ],
+      "cautions": [
+        "Trimma lite i taget – det är lättare att ta bort mer än att vänta in återväxt.",
+        "Kamma upp brynet med borsten först så att du ser den naturliga formen innan du klipper."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/brynsax",
+    "cardBadge": "Välvårdad form",
+    "cardHook": "Precis brynsax med borste för att forma brynen hemma.",
+    "cardImage": "/products/tweezerman-brynsax/brynsax-thumbnail.webp",
+    "cardImageAlt": "Tweezerman brynsax med borste för ögonbryn",
+    "badge": "Elins brynval",
+    "headline": "Tweezerman brynsax – forma brynen själv",
+    "shortBody": "En precis brynsax med spoolie-borste i ena änden. Du kammar upp brynen med borsten och trimmar av det som sticker ut med de smala bladen – för en ren, välvårdad form hemma.",
+    "valueHook": "Precis brynsax för en välvårdad form",
+    "valueStatement": "Tweezerman brynsax är ett litet verktyg för dig som vill forma och trimma ögonbrynen själv. Du har en spoolie-borste i ena änden för att kamma upp brynen och smala precisionsblad för att klippa av det som sticker ut, så att du kan följa brynets naturliga form steg för steg. Amazon visar 4,7 av 5 från 6 404 omdömen, och köpare lyfter framför allt precisionen, att borsten sitter ihop med saxen och att den hjälper dem hålla en ren form mellan besök.",
+    "passFor": [
+      "Vill forma och trimma ögonbrynen själv hemma.",
+      "Gillar att kamma upp brynen och klippa av det som sticker ut för en ren linje.",
+      "Vill ha borste och sax i samma verktyg för enkel brynvård."
+    ],
+    "caution": "Det är lätt att ta bort för mycket på en gång. Kamma upp brynet med borsten först, trimma lite i taget och följ brynets naturliga form så slipper du vänta in återväxt.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Kamma upp brynet med spoolie-borsten så att håren reser sig. Klipp sedan försiktigt av det som sticker ut ovanför brynlinjen med precisionsbladen, lite i taget tills formen känns ren."
+    },
+    "verdict": "Smidig precisionssax med borste för dig som vill forma och trimma brynen själv.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 6 404 omdömen. Köpare beskriver en precis sax med praktisk borste som hjälper dem forma brynen hemma, men det gäller att trimma lite i taget.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag brynsaxen utan att klippa för mycket?", "answer": "Kamma först upp brynet med spoolie-borsten så att du ser den naturliga formen. Trimma sedan av bara det som sticker ut ovanför brynlinjen, lite i taget." },
+      { "question": "Vad är borsten på brynsaxen till för?", "answer": "Spoolie-borsten i ena änden kammar upp och reder ut brynhåren så att de ligger åt rätt håll innan du trimmar – det gör det lättare att se formen." },
+      { "question": "Passar Tweezerman brynsax för att forma ögonbrynen hemma?", "answer": "Ja, den är gjord för att forma och trimma bryn själv. De smala precisionsbladen gör det enkelt att klippa av enstaka hår och hålla en ren form mellan besök." }
+    ],
+    "reviewSectionId": "tweezerman-brynsax-recensioner",
+    "reviewFormId": "tweezerman-brynsax-skriv-recension",
+    "targetKeyword": "brynsax forma ögonbryn",
+    "metaTitle": "Tweezerman brynsax med borste – forma brynen | Elins val",
+    "metaDescription": "Elin går igenom Tweezerman brynsax med spoolie-borste: ett precist verktyg för att forma och trimma ögonbrynen hemma (4,7 av 5, 6 404 omdömen) – och hur du trimmar rätt.",
+    "relatedLinks": [
+      { "href": "/skonhet/brynserum", "label": "Brynserum", "text": "Kosmetiskt serum för ett fylligare brynuttryck." },
+      { "href": "/skonhet/brynlaminering", "label": "Brynlaminering", "text": "Lägg brynen i form för en lyftande look." },
+      { "href": "/skonhet/sminkborstar", "label": "Sminkborstar", "text": "Bygg ut verktygslådan för smink och bryn." }
+    ]
+  },
+  "images": {
+    "dir": "tweezerman-brynsax",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61CCQ+fuo8L._AC_SL1500_.jpg", "out": "brynsax-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31cm0i+IsqL._AC_SL1500_.jpg", "out": "brynsax-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/415Jk7Qe4DL._AC_SL1500_.jpg", "out": "brynsax-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31kw1xRAuML._AC_SL1500_.jpg", "out": "brynsax-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Tweezerman brynsax med borste", "href": "/skonhet/brynsax", "date": "2026-06-27", "image": "/products/tweezerman-brynsax/brynsax-thumbnail.webp", "blurb": "Precis brynsax med spoolie-borste för att forma och trimma ögonbrynen hemma." }
+  ]
+}

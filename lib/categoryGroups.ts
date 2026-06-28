@@ -102,6 +102,10 @@ export const categoryProductGroups = {
     {
       title: "Hårborttagning",
       productSlugs: [
+        "braun-bikinitrimmer",
+        "veet-vaxremsor",
+        "satincare-rakgel",
+        "merkur-safety-razor",
         "philips-ansiktstrimmer",
         "braun-ipl-pro5",
         "philips-rakapparat-dam","panasonic-es-ey30-epilator", "braun-silk-epil-9"],
@@ -109,12 +113,19 @@ export const categoryProductGroups = {
     {
       title: "Fötter",
       productSlugs: [
+        "gehwol-fotpuder",
         "flexitol-halkram",
         "plantifique-foot-peel","vxdoirk-elektrisk-fotfil"],
     },
     {
       title: "Naglar",
       productSlugs: [
+        "beurer-mp48-nagellampa",
+        "essie-gel-couture-topcoat",
+        "glasnagelfil",
+        "cnd-nagelbandsolja",
+        "opi-ridge-filler",
+        "essie-nagelhardare",
         "press-on-naglar",
         "beurer-nagelvard-set",],
     },
@@ -123,6 +134,14 @@ export const categoryProductGroups = {
       productSlugs: [
         "real-techniques-svamp",
         "real-techniques-borstar",],
+    },
+    {
+      title: "Fransar & bryn",
+      productSlugs: [
+        "tweezerman-brynsax",
+        "sorella-brynlaminering",
+        "nanobrow-brynserum",
+        "xlash-fransserum",],
     },
   ],
   traning: [

@@ -1,0 +1,112 @@
+{
+  "exportName": "xlashFransserumProduct",
+  "category": "skonhet",
+  "categoryGroup": "Fransar & bryn",
+  "route": "skonhet/fransserum",
+  "pageComponentName": "FransserumPage",
+  "priceTier": "premium",
+  "product": {
+    "slug": "xlash-fransserum",
+    "title": "Xlash fransserum (5 ml)",
+    "category": "skonhet",
+    "asin": "B015R32CXW",
+    "brand": "Xlash",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Kosmetiskt fransserum", "Fylligare utseende", "Kvällsrutin"],
+    "image": "/products/xlash-fransserum/xlash-thumbnail.webp",
+    "imageAlt": "Xlash fransserum, 5 ml",
+    "images": [
+      { "src": "/products/xlash-fransserum/xlash-thumbnail.webp", "alt": "Xlash fransserum, 5 ml", "label": "Xlash fransserum" },
+      { "src": "/products/xlash-fransserum/xlash-1.webp", "alt": "Xlash fransserum förpackning, 5 ml", "label": "5 ml" },
+      { "src": "/products/xlash-fransserum/xlash-2.webp", "alt": "Xlash fransserum applikator vid lashlinjen", "label": "Applikator" },
+      { "src": "/products/xlash-fransserum/xlash-3.webp", "alt": "Detaljbild av Xlash fransserum", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4gHJ6UL",
+    "pageHref": "/skonhet/fransserum",
+    "summary": "Ett kosmetiskt fransserum som ger fransarna ett fylligare, mer välmående utseende. Appliceras som en tunn linje vid lashlinjen på kvällen och passar in i en enkel kvällsrutin för vårdade, välansade fransar.",
+    "evaluation": {
+      "headline": "Kosmetiskt serum för fylligare fransar i utseendet",
+      "intro": "Elin går igenom Xlash fransserum: ett kosmetiskt serum som du applicerar som en tunn linje vid lashlinjen på kvällen, för fransar som ser fylligare och mer välmående ut. Det här är en utseendeprodukt för vårdade, välansade fransar – inte en medicinsk behandling.",
+      "verdict": "Kosmetiskt fransserum för dig som vill ge fransarna ett fylligare, mer vårdat utseende i kvällsrutinen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Fransar & bryn",
+    "specSectionTitle": "Xlash fransserum",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Fransserum, 5 ml" },
+      { "label": "Applicering", "caption": "Användning", "value": "Tunn linje vid lashlinjen, kväll" },
+      { "label": "Profil", "caption": "Kategori", "value": "Kosmetiskt serum för fransarnas utseende" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4gHJ6UL",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 1 305 omdömen.",
+      "highlights": [
+        "Många köpare tycker att fransarna ser fylligare och mer vårdade ut.",
+        "Den lilla applikatorn upplevs som enkel att rita en tunn linje vid lashlinjen med.",
+        "Uppskattas som ett enkelt steg att lägga till i kvällsrutinen."
+      ],
+      "cautions": [
+        "Resultatet i utseendet varierar mellan olika personer och kräver regelbunden användning.",
+        "Applicera bara en tunn linje vid lashlinjen och undvik att få produkt i ögat."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/fransserum",
+    "cardBadge": "Fylligare utseende",
+    "cardHook": "Kosmetiskt serum som ger fransarna ett fylligare, mer vårdat utseende.",
+    "cardImage": "/products/xlash-fransserum/xlash-thumbnail.webp",
+    "cardImageAlt": "Xlash fransserum, 5 ml",
+    "badge": "Elins fransfavorit",
+    "headline": "Xlash fransserum – fylligare fransar i utseendet",
+    "shortBody": "Ett kosmetiskt fransserum som du applicerar som en tunn linje vid lashlinjen på kvällen. Gjort för fransar som ser fylligare och mer välmående ut, som ett enkelt steg i kvällsrutinen.",
+    "valueHook": "Kosmetiskt serum för fylligare fransar i utseendet",
+    "valueStatement": "Xlash fransserum är ett kosmetiskt serum för dig som vill ge fransarna ett fylligare och mer vårdat utseende. Du applicerar en tunn linje vid lashlinjen på kvällen, som ett enkelt steg i kvällsrutinen för välansade fransar. Amazon visar 4,3 av 5 från 1 305 omdömen, och köpare lyfter framför allt att fransarna ser fylligare och mer välmående ut samt att applikatorn är enkel att använda.",
+    "passFor": [
+      "Vill ge fransarna ett fylligare, mer vårdat utseende.",
+      "Gillar att lägga till ett enkelt kosmetiskt steg i kvällsrutinen.",
+      "Söker en utseendeprodukt för välansade, mer välmående fransar."
+    ],
+    "caution": "Det här är en kosmetisk produkt för fransarnas utseende och resultatet varierar mellan olika personer. Applicera bara en tunn linje vid lashlinjen, undvik att få produkt i ögat och använd regelbundet enligt förpackningen.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Applicera en tunn linje vid lashlinjen på ren, torr hud på kvällen, ungefär som en eyeliner längs basen av fransarna. Låt torka innan du lägger dig och använd regelbundet för bästa utseende."
+    },
+    "verdict": "Kosmetiskt fransserum för dig som vill ge fransarna ett fylligare, mer vårdat utseende i kvällsrutinen.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 1 305 omdömen. Köpare beskriver fransar som ser fylligare och mer vårdade ut och en applikator som är enkel att använda, men utseenderesultatet varierar mellan olika personer.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "När och hur använder jag Xlash fransserum?", "answer": "Applicera en tunn linje vid lashlinjen på ren, torr hud på kvällen, ungefär som en eyeliner längs basen av fransarna. Låt torka innan du lägger dig och använd regelbundet för bästa utseende." },
+      { "question": "Vad gör Xlash fransserum?", "answer": "Det är ett kosmetiskt serum som är tänkt att ge fransarna ett fylligare och mer vårdat utseende. Det är en utseendeprodukt för välansade fransar i kvällsrutinen." },
+      { "question": "Hur lång tid tar det innan man ser skillnad i utseendet?", "answer": "Upplevelsen varierar mellan olika personer och kräver regelbunden användning. Följ instruktionerna på förpackningen och ge rutinen tid." }
+    ],
+    "reviewSectionId": "xlash-fransserum-recensioner",
+    "reviewFormId": "xlash-fransserum-skriv-recension",
+    "targetKeyword": "fransserum fylligare fransar",
+    "metaTitle": "Xlash fransserum – fylligare fransar i utseendet | Elins val",
+    "metaDescription": "Elin går igenom Xlash fransserum: ett kosmetiskt serum för fransar som ser fylligare och mer vårdade ut (4,3 av 5, 1 305 omdömen) – och hur du applicerar det vid lashlinjen.",
+    "relatedLinks": [
+      { "href": "/skonhet/sminkborstar", "label": "Sminkborstar", "text": "Borstar för en jämn och proffsig makeup." },
+      { "href": "/skonhet/sminksvamp", "label": "Sminksvamp", "text": "För ett jämnt och naturligt foundationresultat." },
+      { "href": "/skonhet/gua-sha", "label": "Gua sha", "text": "Ansiktsverktyg för en lugn hudvårdsrutin." }
+    ]
+  },
+  "images": {
+    "dir": "xlash-fransserum",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51f+P-PUVCS._AC_SL1500_.jpg", "out": "xlash-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/31Faa28XO0S._AC_SL1500_.jpg", "out": "xlash-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41VahfTnafS._AC_SL1500_.jpg", "out": "xlash-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41cOCRLB0kS._AC_SL1500_.jpg", "out": "xlash-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Xlash fransserum", "href": "/skonhet/fransserum", "date": "2026-06-27", "image": "/products/xlash-fransserum/xlash-thumbnail.webp", "blurb": "Kosmetiskt fransserum som ger fransarna ett fylligare, mer vårdat utseende." }
+  ]
+}

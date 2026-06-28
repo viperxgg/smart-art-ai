@@ -5,6 +5,96 @@ import { siteConfig } from "@/lib/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
+      url: `${siteConfig.url}/skonhet/fotpuder`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/bikinitrimmer`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/vaxremsor`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/rakgel`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/safety-razor`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/brynsax`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/brynlaminering`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/brynserum`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/fransserum`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/nagellampa`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/gel-topcoat`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/glasnagelfil`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/nagelbandsolja`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/ridge-filler`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
+      url: `${siteConfig.url}/skonhet/nagelhardare`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.82,
+    },
+    {
       url: `${siteConfig.url}/halsa/hygrometer`,
       lastModified: new Date(),
       changeFrequency: "weekly",

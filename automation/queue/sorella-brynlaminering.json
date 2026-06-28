@@ -1,0 +1,112 @@
+{
+  "exportName": "sorellaBrowLamProduct",
+  "category": "skonhet",
+  "categoryGroup": "Fransar & bryn",
+  "route": "skonhet/brynlaminering",
+  "pageComponentName": "BrynlamineringPage",
+  "priceTier": "mellan",
+  "product": {
+    "slug": "sorella-brynlaminering",
+    "title": "Sorella brynlamineringskit för hemmabruk",
+    "category": "skonhet",
+    "asin": "B0BNQYMRFG",
+    "brand": "Sorella",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Brynlaminering hemma", "Fixerar bryn uppåt", "Komplett kit"],
+    "image": "/products/sorella-brow-lam/sorella-thumbnail.webp",
+    "imageAlt": "Sorella brynlamineringskit för hemmabruk",
+    "images": [
+      { "src": "/products/sorella-brow-lam/sorella-thumbnail.webp", "alt": "Sorella brynlamineringskit för hemmabruk", "label": "Brynlaminering" },
+      { "src": "/products/sorella-brow-lam/sorella-1.webp", "alt": "Sorella brynlamineringskit med flera steg för hemmabruk", "label": "Komplett kit" },
+      { "src": "/products/sorella-brow-lam/sorella-2.webp", "alt": "Sorella brynlaminering fixerar bryn uppåt för fylligare form", "label": "Fixerar uppåt" },
+      { "src": "/products/sorella-brow-lam/sorella-3.webp", "alt": "Detaljbild av Sorella brynlamineringskit", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/4g5ZcHF",
+    "pageHref": "/skonhet/brynlaminering",
+    "summary": "Ett brynlamineringskit för hemmabruk som hjälper dig fixera brynen uppåt för en fylligare, mer välkammad form. Tanken är att tämja spretiga bryn och hålla dem på plats utan salongsbesök.",
+    "evaluation": {
+      "headline": "Brynlaminering hemma för spretiga bryn",
+      "intro": "Elin går igenom Sorella brynlamineringskit: ett kit för dig som vill testa brynlaminering hemma och få brynen att ligga uppåt och samlat. Idén är att fixera brynhåren i en fylligare, mer välkammad form så att spretiga bryn ser mer ordnade ut. Observera att kitet ännu har få omdömen på Amazon, så bilden är inte helt klar.",
+      "verdict": "Ett prisvärt kit för dig som vill testa brynlaminering hemma – men få omdömen gör att det är svårt att säga något säkert ännu.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Fransar & bryn",
+    "specSectionTitle": "Sorella brynlamineringskit",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Brynlamineringskit för hemmabruk" },
+      { "label": "Användning", "caption": "Effekt", "value": "Fixerar bryn uppåt i en fylligare form" },
+      { "label": "Profil", "caption": "Passar", "value": "Spretiga bryn som behöver mer fäste" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4g5ZcHF",
+      "ratingSummary": "Amazon visar 4,2 av 5 från 119 omdömen.",
+      "highlights": [
+        "Flera köpare tycker att brynen ligger uppåt och ser fylligare ut efter laminering.",
+        "Uppskattas som ett sätt att testa brynlaminering hemma utan salongsbesök.",
+        "Beskrivs som ett komplett kit med stegen du behöver i en förpackning."
+      ],
+      "cautions": [
+        "Kitet har ännu ganska få omdömen, så det är svårt att säga något säkert om resultatet.",
+        "Brynlaminering hemma kräver noggrannhet med tiderna – följ instruktionen och testa gärna på en liten yta först."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/brynlaminering",
+    "cardBadge": "Brynlaminering hemma",
+    "cardHook": "Fixerar spretiga bryn uppåt för en fylligare, mer välkammad form.",
+    "cardImage": "/products/sorella-brow-lam/sorella-thumbnail.webp",
+    "cardImageAlt": "Sorella brynlamineringskit för hemmabruk",
+    "badge": "Elin tipsar",
+    "headline": "Sorella brynlaminering – tämj spretiga bryn hemma",
+    "shortBody": "Ett brynlamineringskit för hemmabruk som fixerar brynhåren uppåt i en fylligare, mer välkammad form. Ett sätt att testa brynlaminering hemma och tämja spretiga bryn mellan salongsbesök.",
+    "valueHook": "Brynlaminering hemma för fylligare bryn",
+    "valueStatement": "Sorella brynlamineringskit är för dig som vill testa brynlaminering hemma och få spretiga bryn att ligga uppåt i en fylligare, mer välkammad form. Tanken är att fixera brynhåren på plats så att brynen ser mer samlade och ordnade ut. Amazon visar 4,2 av 5 från 119 omdömen – det är fortfarande ganska få omdömen, så Elin vill vara ärlig: bilden är inte helt klar ännu, men de som lämnat omdöme lyfter framför allt att brynen blir mer välkammade.",
+    "passFor": [
+      "Har spretiga bryn och vill få dem att ligga uppåt i en fylligare form.",
+      "Vill testa brynlaminering hemma istället för att boka salong varje gång.",
+      "Gillar ett komplett kit där stegen finns i samma förpackning."
+    ],
+    "caution": "Kitet har ännu ganska få omdömen (119), så det är svårt att dra säkra slutsatser om resultatet. Brynlaminering hemma kräver också noggrannhet med tiderna – följ instruktionen noga och testa gärna på en liten yta först.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Följ stegen i kitet i rätt ordning och håll koll på tiderna för varje steg. Borsta brynen uppåt i den form du vill ha innan du fixerar, och testa gärna på en liten yta först om du är osäker."
+    },
+    "verdict": "Ett prisvärt kit för dig som vill testa brynlaminering hemma – men få omdömen gör att det är svårt att säga något säkert ännu.",
+    "amazonSummary": "Amazon visar 4,2 av 5 från 119 omdömen. Det är fortfarande ganska få omdömen, men de som lämnat ett lyfter att brynen ligger uppåt och ser mer välkammade ut.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad gör ett brynlamineringskit?", "answer": "Det fixerar brynhåren uppåt i en fylligare, mer välkammad form så att spretiga bryn ser mer samlade och ordnade ut. Effekten håller en tid och sköts sedan om igen." },
+      { "question": "Är 119 omdömen tillräckligt för att lita på resultatet?", "answer": "Det är ärligt sagt ganska få omdömen, så bilden är inte helt klar ännu. Betyget på 4,2 av 5 är positivt, men Elin rekommenderar att du läser flera omdömen och börjar försiktigt." },
+      { "question": "Kan jag göra brynlaminering hemma själv?", "answer": "Ja, kitet är gjort för hemmabruk, men det kräver noggrannhet med tiderna i varje steg. Följ instruktionen noga och testa gärna på en liten yta först." }
+    ],
+    "reviewSectionId": "sorella-brynlaminering-recensioner",
+    "reviewFormId": "sorella-brynlaminering-skriv-recension",
+    "targetKeyword": "brynlaminering hemma kit spretiga bryn",
+    "metaTitle": "Sorella brynlaminering – kit för hemmabruk | Elins val",
+    "metaDescription": "Elin går igenom Sorella brynlamineringskit för hemmabruk: fixerar spretiga bryn uppåt för en fylligare form (4,2 av 5, 119 omdömen) – och varför få omdömen gör bilden osäker.",
+    "relatedLinks": [
+      { "href": "/skonhet/brynserum", "label": "Brynserum", "text": "Kosmetiskt serum för ett fylligare brynuttryck." },
+      { "href": "/skonhet/fransserum", "label": "Fransserum", "text": "Kosmetiskt serum för fylligare, mer markerade fransar." },
+      { "href": "/skonhet/sminkborstar", "label": "Sminkborstar", "text": "Borstar för att forma och fylla i brynen." }
+    ]
+  },
+  "images": {
+    "dir": "sorella-brow-lam",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/719WQMPHukL._AC_SL1500_.jpg", "out": "sorella-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41m8aKLVOVL._AC_SL1500_.jpg", "out": "sorella-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/4165bPUNNDL._AC_SL1500_.jpg", "out": "sorella-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41OE61NMgoL._AC_SL1500_.jpg", "out": "sorella-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Sorella brynlamineringskit för hemmabruk", "href": "/skonhet/brynlaminering", "date": "2026-06-27", "image": "/products/sorella-brow-lam/sorella-thumbnail.webp", "blurb": "Brynlamineringskit för hemmabruk som fixerar spretiga bryn uppåt i en fylligare form." }
+  ]
+}

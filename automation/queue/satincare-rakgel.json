@@ -1,0 +1,112 @@
+{
+  "exportName": "satinCareShavingGelProduct",
+  "category": "skonhet",
+  "categoryGroup": "Hårborttagning",
+  "route": "skonhet/rakgel",
+  "pageComponentName": "RakgelPage",
+  "priceTier": "budget",
+  "product": {
+    "slug": "satincare-rakgel",
+    "title": "Gillette Satin Care rakgel för kvinnor (190 ml)",
+    "category": "skonhet",
+    "asin": "B09R28P67T",
+    "brand": "Satin Care",
+    "price": "Se aktuellt pris på Amazon",
+    "badges": ["Fuktgivande gel", "Len hud efteråt", "Mindre skav"],
+    "image": "/products/satin-care-gel/rakgel-thumbnail.webp",
+    "imageAlt": "Gillette Satin Care rakgel för kvinnor, 190 ml",
+    "images": [
+      { "src": "/products/satin-care-gel/rakgel-thumbnail.webp", "alt": "Gillette Satin Care rakgel för kvinnor, 190 ml", "label": "Satin Care" },
+      { "src": "/products/satin-care-gel/rakgel-1.webp", "alt": "Gillette Satin Care fuktgivande rakgel för len hud", "label": "Fuktgivande" },
+      { "src": "/products/satin-care-gel/rakgel-2.webp", "alt": "Gillette Satin Care rakgel textur och lödder", "label": "Len gel" },
+      { "src": "/products/satin-care-gel/rakgel-3.webp", "alt": "Detaljbild av Gillette Satin Care rakgel", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://amzn.to/441EZeN",
+    "pageHref": "/skonhet/rakgel",
+    "summary": "En fuktgivande rakgel som gör att hyveln glider lättare över huden och som hjälper till att minska skav och irritation vid rakningen. Huden känns len efteråt – ett enkelt extra steg för en mer behaglig rakning.",
+    "evaluation": {
+      "headline": "Fuktgivande rakgel för len hud",
+      "intro": "Elin går igenom Gillette Satin Care rakgel: en fuktgivande gel som gör att hyveln glider lättare och huden känns len efteråt. Tanken är enkel – ett glidande lager mellan hud och hyvel som hjälper till att minska skav och irritation vid rakningen, utan onödiga steg.",
+      "verdict": "Prisvärd fuktgivande rakgel för en len och behaglig rakning.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hårborttagning",
+    "specSectionTitle": "Gillette Satin Care rakgel",
+    "specs": [
+      { "label": "Format", "caption": "Typ", "value": "Rakgel, 190 ml" },
+      { "label": "Effekt", "caption": "Känsla", "value": "Fuktgivande, len hud efteråt" },
+      { "label": "Profil", "caption": "Användning", "value": "För rakning av kropp och ben" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/441EZeN",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 923 omdömen.",
+      "highlights": [
+        "Köpare upplever att hyveln glider lättare och att rakningen känns smidigare.",
+        "Många tycker att huden känns len och mjuk efteråt.",
+        "Uppskattas för att ge mindre skav jämfört med att raka torrt eller med tvål."
+      ],
+      "cautions": [
+        "En liten mängd räcker långt – ta lite i taget så det inte tar slut i onödan.",
+        "Upplevelsen varierar mellan hudtyper; testa gärna på en mindre yta först."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/skonhet/rakgel",
+    "cardBadge": "Len hud efteråt",
+    "cardHook": "Fuktgivande rakgel som gör att hyveln glider lättare.",
+    "cardImage": "/products/satin-care-gel/rakgel-thumbnail.webp",
+    "cardImageAlt": "Gillette Satin Care rakgel för kvinnor, 190 ml",
+    "badge": "Elins val för len rakning",
+    "headline": "Gillette Satin Care rakgel – len och behaglig rakning",
+    "shortBody": "En fuktgivande rakgel som lägger ett glidande lager mellan hud och hyvel. Gjord för att rakningen ska kännas smidigare och huden len efteråt, med mindre skav och irritation.",
+    "valueHook": "Fuktgivande rakgel för len hud",
+    "valueStatement": "Gillette Satin Care är en fuktgivande rakgel för dig som vill ha en mer behaglig rakning. Gelen lägger ett glidande lager mellan hud och hyvel så att hyveln glider lättare, vilket hjälper till att minska skav och irritation och gör att huden känns len efteråt. Amazon visar 4,4 av 5 från 923 omdömen, och köpare lyfter framför allt att rakningen känns smidigare, att huden blir len och att de upplever mindre skav.",
+    "passFor": [
+      "Vill ha en smidigare rakning där hyveln glider lättare.",
+      "Tycker att huden känns skavd eller torr efter torrakning.",
+      "Vill ha en len och mjuk känsla i huden efteråt."
+    ],
+    "caution": "Upplevelsen varierar mellan hudtyper och rakvanor. En liten mängd räcker långt, så ta lite i taget, och testa gärna gelen på en mindre yta först om du har känslig hud.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Fukta huden, fördela ett tunt lager gel över området du ska raka och raka med lätta drag. Skölj av och klappa huden torr – ett återfuktande lager efteråt håller huden len längre."
+    },
+    "verdict": "Prisvärd fuktgivande rakgel för en len och behaglig rakning.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 923 omdömen. Köpare beskriver en smidigare rakning och len hud efteråt, men en liten mängd räcker långt och upplevelsen varierar mellan hudtyper.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur använder jag rakgel bäst?", "answer": "Fukta huden, fördela ett tunt lager gel över området och raka med lätta drag. Skölj av och klappa huden torr. Ett tunt lager räcker för att hyveln ska glida lättare." },
+      { "question": "Gör rakgel att rakningen känns mildare?", "answer": "Gelen lägger ett glidande lager mellan hud och hyvel, vilket många upplever ger en smidigare rakning med mindre skav. Upplevelsen varierar dock mellan hudtyper." },
+      { "question": "Räcker en flaska Satin Care länge?", "answer": "En liten mängd räcker långt, så en flaska på 190 ml håller oftast en bra stund. Ta lite i taget så att den inte tar slut i onödan." }
+    ],
+    "reviewSectionId": "satincare-rakgel-recensioner",
+    "reviewFormId": "satincare-rakgel-skriv-recension",
+    "targetKeyword": "rakgel dam mot rakbränna",
+    "metaTitle": "Gillette Satin Care rakgel – len rakning för dam | Elins val",
+    "metaDescription": "Elin går igenom Gillette Satin Care rakgel: en fuktgivande gel som gör att hyveln glider lättare och huden känns len efteråt (4,4 av 5, 923 omdömen) – och vad du bör veta.",
+    "relatedLinks": [
+      { "href": "/skonhet/safety-razor", "label": "Safety razor", "text": "Klassisk hyvel för en nära rakning." },
+      { "href": "/skonhet/rakapparat-dam", "label": "Rakapparat dam", "text": "Smidigt alternativ för torr rakning." },
+      { "href": "/skonhet/kroppslotion", "label": "Kroppslotion", "text": "Återfukta huden efter rakningen." }
+    ]
+  },
+  "images": {
+    "dir": "satin-care-gel",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/31kjp+n0gTL._AC_SL1500_.jpg", "out": "rakgel-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51DCEMV61WL._AC_SL1500_.jpg", "out": "rakgel-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41o-gMpLSbL._AC_SL1500_.jpg", "out": "rakgel-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61cm3EmfouL._AC_SL1500_.jpg", "out": "rakgel-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Hudvård", "title": "Gillette Satin Care rakgel", "href": "/skonhet/rakgel", "date": "2026-06-27", "image": "/products/satin-care-gel/rakgel-thumbnail.webp", "blurb": "Fuktgivande rakgel som gör att hyveln glider lättare och huden känns len efteråt." }
+  ]
+}
