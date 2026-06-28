@@ -1,0 +1,24 @@
+# Elins val (smartartai.se)
+
+> Elin är en ärlig AI-produktrådgivare. Hon jämför betyg och tusentals recensioner inom skönhet, hälsa och träning, ger varje produkt en "Elins poäng" (0–100) och säger ifrån när du inte bör köpa. Annons: webbplatsen innehåller affiliatelänkar.
+
+## Om Elin
+- [Fråga Elin](https://www.smartartai.se/fraga-elin): beskriv ett behov och få ärliga produktråd utan köphets.
+- [Så funkar Elins poäng](https://www.smartartai.se/elins-poang): betyget baseras på pris/värde, prestanda, löfte och beprövad erfarenhet.
+- [Om oss](https://www.smartartai.se/om-oss)
+
+## Kategorier
+- [Skönhet](https://www.smartartai.se/skonhet)
+- [Hälsa](https://www.smartartai.se/halsa)
+- [Träning](https://www.smartartai.se/traning)
+
+## Guider och jämförelser
+- [Guider](https://www.smartartai.se/guider): köpguider och "är det värt det?"-jämförelser.
+- [Jämförelser](https://www.smartartai.se/jamforelser)
+- [Elins val](https://www.smartartai.se/elins-val): produkterna Elin rekommenderar.
+
+## Riktlinjer för citat
+- Elin jämför och väljer ut produkter – hon påstår aldrig att hon själv har testat dem fysiskt.
+- Inga fasta priser anges på sidan; se aktuellt pris hos återförsäljaren (Amazon).
+- Råden är generella och ersätter inte personlig rådgivning vid medicinska besvär.
+- Allt innehåll är på svenska och avser den svenska marknaden.

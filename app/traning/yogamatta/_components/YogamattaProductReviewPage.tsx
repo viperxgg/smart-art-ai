@@ -17,7 +17,7 @@ import {
   type YogamattaPick,
 } from "@/lib/yogamatta";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type YogamattaProductReviewPageProps = {
@@ -38,6 +38,7 @@ function buildProductSchema(pick: YogamattaPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Yogamatta",
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 

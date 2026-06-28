@@ -29,14 +29,6 @@ export const metadata: Metadata = {
   applicationName: siteConfig.name,
   creator: siteConfig.brand,
   authors: [{ name: siteConfig.brand, url: siteConfig.url }],
-  keywords: [
-    "Elins val",
-    "Elins TikTok val",
-    "TikTok produkter Sverige",
-    "Amazon fynd Sverige",
-    "ärliga produktkommentarer",
-    "personliga produktval",
-  ],
   alternates: {
     canonical: siteConfig.url,
   },

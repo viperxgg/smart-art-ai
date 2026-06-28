@@ -353,3 +353,37 @@ export const editorialScores: Record<string, EditorialScore> = {
 export function getEditorialScore(productSlug: string) {
   return editorialScores[productSlug];
 }
+
+/**
+ * Builds a schema.org Review node from Elins poäng for a product slug.
+ * Returns undefined when no editorial score exists (JSON.stringify drops it,
+ * so it is safe to spread directly into a Product schema's `review` field).
+ *
+ * Compliance: a single editorial review authored by "Elins val" — never an
+ * AggregateRating with a fabricated review count.
+ */
+export function buildElinReviewNode(productSlug: string) {
+  const score = editorialScores[productSlug];
+
+  if (!score) {
+    return undefined;
+  }
+
+  const tier = getScoreTier(score.total);
+
+  return {
+    "@type": "Review",
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: score.total,
+      bestRating: 100,
+      worstRating: 0,
+    },
+    author: {
+      "@type": "Organization",
+      name: "Elins val",
+    },
+    name: `Elins poäng: ${score.total}/100 – ${tier.label}`,
+    reviewBody: score.verdict,
+  };
+}

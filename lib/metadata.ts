@@ -19,9 +19,9 @@ type SeoMetadataInput = {
 };
 
 export const defaultOgImage: SeoImage = {
-  url: `${siteConfig.url}/elin/elin-hero.webp`,
-  width: 1024,
-  height: 1024,
+  url: `${siteConfig.url}/og/elin-og.jpg`,
+  width: 1200,
+  height: 630,
   alt: "Elin från Elins val",
 };
 

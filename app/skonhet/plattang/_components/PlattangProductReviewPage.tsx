@@ -21,7 +21,7 @@ import {
   type PlattangPick,
 } from "@/lib/plattang";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type PlattangProductReviewPageProps = {
@@ -42,6 +42,7 @@ function buildProductSchema(pick: PlattangPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Plattång",
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 

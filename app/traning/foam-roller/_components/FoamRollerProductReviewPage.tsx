@@ -17,7 +17,7 @@ import {
   type FoamRollerPick,
 } from "@/lib/foam-roller";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type FoamRollerProductReviewPageProps = {
@@ -38,6 +38,7 @@ function buildProductSchema(pick: FoamRollerPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Foam roller",
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 

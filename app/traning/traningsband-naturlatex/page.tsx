@@ -19,7 +19,7 @@ import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { createSeoMetadata } from "@/lib/metadata";
 import { featuredProduct } from "@/lib/products";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/traning/traningsband-naturlatex`;
@@ -54,6 +54,7 @@ function buildProductSchema() {
     image: pageImage,
     description:
       "Set med fyra träningsband i 100% naturlatex, motstånd 8–85 lbs.",
+    review: buildElinReviewNode("traningsband-4-nivaer"),
   };
 }
 

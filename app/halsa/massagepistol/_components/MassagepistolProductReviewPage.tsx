@@ -21,7 +21,7 @@ import {
   type MassagepistolPick,
 } from "@/lib/massagepistol";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type MassagepistolProductReviewPageProps = {
@@ -42,6 +42,7 @@ function buildProductSchema(pick: MassagepistolPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Massagepistol",
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 

@@ -4,6 +4,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { ProductDiscoveryLanding } from "@/components/ProductDiscoveryLanding";
 import { defaultOgImage } from "@/lib/metadata";
 import { featuredProduct } from "@/lib/products";
+import { buildElinReviewNode } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -46,6 +47,7 @@ const productSchema = {
   sku: featuredProduct.asin,
   image: `${siteConfig.url}${featuredProduct.image}`,
   description: featuredProduct.summary,
+  review: buildElinReviewNode(featuredProduct.slug),
 };
 
 export default function Home() {

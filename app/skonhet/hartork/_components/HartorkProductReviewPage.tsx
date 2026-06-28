@@ -17,7 +17,7 @@ import {
   type HartorkPick,
 } from "@/lib/hartork";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type HartorkProductReviewPageProps = {
@@ -38,6 +38,7 @@ function buildProductSchema(pick: HartorkPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Hårtork",
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 

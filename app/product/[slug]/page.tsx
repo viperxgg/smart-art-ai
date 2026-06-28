@@ -27,6 +27,7 @@ import {
 } from "@/lib/products";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
 import { createSeoMetadata } from "@/lib/metadata";
+import { buildElinReviewNode } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type ProductPageProps = {
@@ -110,6 +111,7 @@ function buildProductSchema(product: Product) {
     sku: product.asin,
     image: `${siteConfig.url}${product.image}`,
     description: product.summary,
+    review: buildElinReviewNode(product.slug),
   };
 }
 

@@ -17,7 +17,7 @@ import {
   type KettlebellPick,
 } from "@/lib/kettlebell";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type KettlebellProductReviewPageProps = {
@@ -38,6 +38,7 @@ function buildProductSchema(pick: KettlebellPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Kettlebell",
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 

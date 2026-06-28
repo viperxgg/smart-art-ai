@@ -17,7 +17,7 @@ import {
   type HantlarPick,
 } from "@/lib/hantlar";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type HantlarProductReviewPageProps = {
@@ -38,6 +38,7 @@ function buildProductSchema(pick: HantlarPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Hantlar",
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 

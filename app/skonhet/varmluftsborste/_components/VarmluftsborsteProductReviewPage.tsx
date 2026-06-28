@@ -17,7 +17,7 @@ import {
   type VarmluftsborstePick,
 } from "@/lib/varmluftsborste";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type VarmluftsborsteProductReviewPageProps = {
@@ -38,6 +38,7 @@ function buildProductSchema(pick: VarmluftsborstePick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Varmluftsborste",
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 

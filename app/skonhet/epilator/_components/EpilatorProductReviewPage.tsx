@@ -17,7 +17,7 @@ import {
   type EpilatorPick,
 } from "@/lib/epilator";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type EpilatorProductReviewPageProps = {
@@ -38,6 +38,7 @@ function buildProductSchema(pick: EpilatorPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Epilator",
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 

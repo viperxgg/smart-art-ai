@@ -20,7 +20,7 @@ import { RelatedLinks } from "@/components/RelatedLinks";
 import { SaveProductButton } from "@/components/SaveProductButton";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 import type { SommarPick } from "@/lib/sommar";
 
@@ -53,6 +53,7 @@ function buildProductSchema(pick: SommarPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: categoryLabels[pick.product.category],
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 

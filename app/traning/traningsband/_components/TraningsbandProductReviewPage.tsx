@@ -17,7 +17,7 @@ import {
   type TraningsbandPick,
 } from "@/lib/traningsband";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type TraningsbandProductReviewPageProps = {
@@ -38,6 +38,7 @@ function buildProductSchema(pick: TraningsbandPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Träningsband",
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 

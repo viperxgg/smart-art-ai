@@ -17,7 +17,7 @@ import {
   type LocktangPick,
 } from "@/lib/locktang";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 type LocktangProductReviewPageProps = {
@@ -38,6 +38,7 @@ function buildProductSchema(pick: LocktangPick) {
     image: `${siteConfig.url}${pick.product.image}`,
     description: pick.metaDescription,
     category: "Locktång",
+    review: buildElinReviewNode(pick.product.slug),
   };
 }
 
