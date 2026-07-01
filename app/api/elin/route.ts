@@ -41,7 +41,10 @@ type SearchProductsInput = {
 type TerminalRecommendation = {
   slug: string;
   varfor: string;
+  steg?: number;
 };
+
+type ElinVariant = "A" | "B";
 
 const maxMessages = 6;
 const maxUserInputLength = 500;
@@ -72,6 +75,19 @@ const budgetLabels: Record<PriceTier, string> = {
   budget: "budget",
   mellan: "mellan",
   premium: "premium",
+};
+
+const variantCookieName = "elin_variant";
+
+const variantCopy: Record<ElinVariant, { systemNote: string }> = {
+  A: {
+    systemNote:
+      "COPY VARIANT A: Håll öppningen extra rak och kort innan du ger rådet.",
+  },
+  B: {
+    systemNote:
+      "COPY VARIANT B: Börja gärna med en kort varm bekräftelse, men håll svaret lika konkret och kort.",
+  },
 };
 
 // Per-IP throttle (best-effort, per warm instance).
@@ -113,7 +129,8 @@ Format:
 - Anropa "search_products" bara när du behöver hitta eller filtrera produkter i sortimentet. Hoppa över sökning för enkla frågor, rutinråd eller när produktdatan redan räcker.
 - Skriv svaret som vanlig svensk text (markdown: **fet**, punktlistor, [länktext](/sökväg) för interna sidor).
 - Avsluta ALLTID med att anropa verktyget "visa_rekommendation" med:
-  - rekommendationer: 0–3 objekt {slug, varfor}. varfor = kort personlig anledning (max ~15 ord) som knyter produkten till DET personen sa – skriv bara anledningen, inte orden "Perfekt för dig eftersom". Tom lista om ingen produkt passar.
+  - rekommendationer: 0–3 objekt {slug, varfor, steg?}. varfor = kort personlig anledning (max ~15 ord) som knyter produkten till DET personen sa – skriv bara anledningen, inte orden "Perfekt för dig eftersom". Tom lista om ingen produkt passar.
+  - steg: valfritt heltal 1–3. Använd steg bara när användaren ber om en rutin, ordning eller ett paket; sätt då produkterna i tydlig användningsordning.
   - foljdfragor: 2–3 korta följdfrågor nära personens behov, gärna EN förtydligande fråga.
 - Produktkorten visar automatiskt fördelar, användning (så använder du den) och vad folk tycker – så upprepa inte all den datan i texten, och rada inte upp samma produktlänkar i onödan.`;
 
@@ -165,6 +182,13 @@ const tools: Anthropic.Tool[] = [
                 type: "string",
                 description:
                   "Kort personlig anledning (max ~15 ord) som knyter produkten till DET personen sa. Skriv BARA själva anledningen (t.ex. 'skonsamt och prisvärt för torr hy') – inte inledningen 'Perfekt för dig eftersom'.",
+              },
+              steg: {
+                type: "integer",
+                minimum: 1,
+                maximum: 3,
+                description:
+                  "Valfritt stegnummer 1-3 nar anvandaren ber om en rutin, ordning eller ett paket.",
               },
             },
             required: ["slug", "varfor"],
@@ -436,7 +460,7 @@ function parseTerminalToolInput(input: unknown) {
   if (Array.isArray(data.rekommendationer)) {
     output.rekommendationer = data.rekommendationer
       .filter(
-        (item): item is { slug: string; varfor?: unknown } =>
+        (item): item is { slug: string; varfor?: unknown; steg?: unknown } =>
           Boolean(item) &&
           typeof item === "object" &&
           typeof (item as { slug?: unknown }).slug === "string",
@@ -444,6 +468,9 @@ function parseTerminalToolInput(input: unknown) {
       .map((item) => ({
         slug: item.slug,
         varfor: typeof item.varfor === "string" ? item.varfor : "",
+        ...(typeof item.steg === "number" && Number.isInteger(item.steg) && item.steg > 0
+          ? { steg: Math.min(item.steg, 3) }
+          : {}),
       }));
   }
 
@@ -460,9 +487,11 @@ function buildSystemBlocks(
   productJson: string,
   focus: ElinFocus | null,
   preferences: ElinPreferences | null,
+  variant: ElinVariant,
 ): Anthropic.TextBlockParam[] {
   const blocks: Anthropic.TextBlockParam[] = [
     { type: "text", text: persona },
+    { type: "text", text: variantCopy[variant].systemNote },
     {
       type: "text",
       text: `PRODUKTER (JSON):\n${productJson}`,
@@ -497,7 +526,7 @@ function hasBestsellerSignal(review: {
   return /bästsäljare|bäst\s+säljande|#\s*1(?!\d)/i.test(text);
 }
 
-function toRichCard(slug: string, varfor: string) {
+function toRichCard(slug: string, varfor: string, steg?: number) {
   const product = getProductBySlug(slug);
   if (!product) {
     return null;
@@ -521,6 +550,9 @@ function toRichCard(slug: string, varfor: string) {
     tierLabel: display.label,
     tierIcon: display.icon,
     verdict: score?.verdict ?? product.evaluation.verdict ?? "",
+    ...(typeof steg === "number" && Number.isInteger(steg) && steg > 0
+      ? { steg: Math.min(steg, 3) }
+      : {}),
     varfor: (typeof varfor === "string" ? varfor : "")
       .replace(/^\s*perfekt för dig eftersom[\s:,-]*/i, "")
       .trim()
@@ -557,6 +589,54 @@ function getClientIp(request: Request): string {
     return forwarded.split(",")[0]?.trim() || "unknown";
   }
   return request.headers.get("x-real-ip") ?? "unknown";
+}
+
+function getCookieValue(cookieHeader: string | null, name: string) {
+  if (!cookieHeader) {
+    return null;
+  }
+
+  const prefix = `${name}=`;
+  return (
+    cookieHeader
+      .split(";")
+      .map((part) => part.trim())
+      .find((part) => part.startsWith(prefix))
+      ?.slice(prefix.length) ?? null
+  );
+}
+
+function hashToVariant(value: string): ElinVariant {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+
+  return (hash >>> 0) % 2 === 0 ? "A" : "B";
+}
+
+function getElinVariant(
+  request: Request,
+  clientIp: string,
+): { variant: ElinVariant; shouldSetCookie: boolean } {
+  const cookieVariant = getCookieValue(
+    request.headers.get("cookie"),
+    variantCookieName,
+  );
+  if (cookieVariant === "A" || cookieVariant === "B") {
+    return { variant: cookieVariant, shouldSetCookie: false };
+  }
+
+  const userAgent = request.headers.get("user-agent") ?? "";
+  return {
+    variant: hashToVariant(`${clientIp}:${userAgent}`),
+    shouldSetCookie: true,
+  };
+}
+
+function isRoutineRequest(text: string) {
+  return /rutin|steg|ordning|morgon|kväll|kvall|paket|bundle|bygg/i.test(text);
 }
 
 function parseToolInput(value: string) {
@@ -689,7 +769,9 @@ export async function POST(request: Request) {
     );
   }
 
-  const limit = rateLimit(`elin:${getClientIp(request)}`, rateLimitConfig);
+  const clientIp = getClientIp(request);
+  const { variant, shouldSetCookie } = getElinVariant(request, clientIp);
+  const limit = rateLimit(`elin:${clientIp}`, rateLimitConfig);
   if (!limit.ok) {
     return NextResponse.json(
       {
@@ -707,7 +789,7 @@ export async function POST(request: Request) {
   const preferences = sanitizePreferences(payload);
   const knowledge = getElinKnowledge();
   const allowedSlugs = new Set(knowledge.map((product) => product.slug));
-  const system = buildSystemBlocks(JSON.stringify(knowledge), focus, preferences);
+  const system = buildSystemBlocks(JSON.stringify(knowledge), focus, preferences, variant);
   const conversation: Anthropic.MessageParam[] = messages.map((message) => ({
     role: message.role,
     content: message.content,
@@ -780,10 +862,20 @@ export async function POST(request: Request) {
           searchTurns += 1;
         }
 
+        const routineMode =
+          isRoutineRequest(lastUserMessage) ||
+          rekommendationer.some((item) => typeof item.steg === "number");
+
         const produkter = rekommendationer
           .filter((item) => allowedSlugs.has(item.slug))
           .slice(0, 3)
-          .map((item) => toRichCard(item.slug, item.varfor))
+          .map((item, index) =>
+            toRichCard(
+              item.slug,
+              item.varfor,
+              routineMode ? item.steg ?? index + 1 : item.steg,
+            ),
+          )
           .filter((card): card is RichCard => Boolean(card));
 
         send({ type: "meta", produkter, foljdfragor: foljdfragor.slice(0, 3) });
@@ -797,6 +889,7 @@ export async function POST(request: Request) {
           productSlugs: produkter.map((product) => product.slug),
           answered: answerText.trim().length > 0,
           focusSlug: focus?.slug ?? null,
+          variant,
         });
       } catch (error) {
         const message = error instanceof Error ? error.message : "Unknown Anthropic error";
@@ -821,12 +914,19 @@ export async function POST(request: Request) {
     },
   });
 
+  const responseHeaders: Record<string, string> = {
+    "Content-Type": "text/event-stream; charset=utf-8",
+    "Cache-Control": "no-cache, no-transform",
+    Connection: "keep-alive",
+    "X-Accel-Buffering": "no",
+  };
+
+  if (shouldSetCookie) {
+    responseHeaders["Set-Cookie"] =
+      `${variantCookieName}=${variant}; Path=/; Max-Age=31536000; SameSite=Lax`;
+  }
+
   return new Response(stream, {
-    headers: {
-      "Content-Type": "text/event-stream; charset=utf-8",
-      "Cache-Control": "no-cache, no-transform",
-      Connection: "keep-alive",
-      "X-Accel-Buffering": "no",
-    },
+    headers: responseHeaders,
   });
 }

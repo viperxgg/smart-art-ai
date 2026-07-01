@@ -31,9 +31,30 @@ type ApprovedProductReviewRow = Pick<
   | "approved_at"
 >;
 
+type ElinLogRow = {
+  id: string;
+  question: string;
+  category: string | null;
+  product_slugs: string[];
+  answered: boolean;
+  focus_slug: string | null;
+  variant: "A" | "B" | null;
+  created_at: string;
+};
+
 export type ReviewsDatabase = {
   public: {
     Tables: {
+      elin_logs: {
+        Row: ElinLogRow;
+        Insert: Omit<ElinLogRow, "id" | "created_at" | "variant"> & {
+          id?: string;
+          variant?: ElinLogRow["variant"];
+          created_at?: string;
+        };
+        Update: Partial<ElinLogRow>;
+        Relationships: [];
+      };
       product_reviews: {
         Row: ProductReviewRow;
         Insert: Omit<

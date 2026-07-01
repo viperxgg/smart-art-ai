@@ -34,6 +34,7 @@ type ProductCard = {
   tierLabel: string;
   tierIcon: string;
   verdict: string;
+  steg?: number;
   varfor?: string;
   fordelar?: string[];
   uses?: string[];
@@ -140,7 +141,8 @@ function isProductCard(value: unknown): value is ProductCard {
     (card.tier === "budget" || card.tier === "mellan" || card.tier === "premium") &&
     typeof card.tierLabel === "string" &&
     typeof card.tierIcon === "string" &&
-    typeof card.verdict === "string"
+    typeof card.verdict === "string" &&
+    (typeof card.steg === "number" || typeof card.steg === "undefined")
   );
 }
 
@@ -364,6 +366,20 @@ function describePreferences(preferences: ElinPreferences) {
   return parts.join(" · ");
 }
 
+function hasRoutineSteps(products: ProductCard[] | undefined) {
+  return Boolean(products?.some((product) => typeof product.steg === "number"));
+}
+
+function getDisplayProducts(products: ProductCard[]) {
+  if (!hasRoutineSteps(products)) {
+    return products;
+  }
+
+  return [...products].sort(
+    (left, right) => (left.steg ?? 99) - (right.steg ?? 99),
+  );
+}
+
 function renderInlineMarkdown(text: string) {
   const elements: ReactNode[] = [];
   const pattern = /(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g;
@@ -476,6 +492,11 @@ function ProductCardView({
         </span>
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-2">
+            {typeof product.steg === "number" ? (
+              <span className="rounded-full bg-[#4B2838] px-2 py-0.5 text-[0.65rem] font-black text-[#FFF9F7]">
+                Steg {product.steg}
+              </span>
+            ) : null}
             <span className="text-xs font-black uppercase tracking-[0.12em] text-[#D8788D]">
               {product.brand}
             </span>
@@ -922,6 +943,18 @@ export function ElinChat({
     });
   }
 
+  function saveProductsToWishlist(products: ProductCard[]) {
+    const cards = products.map(toWishlistCard);
+    const slugs = new Set(cards.map((item) => item.slug));
+
+    setWishlist((current) =>
+      [
+        ...cards,
+        ...current.filter((item) => !slugs.has(item.slug)),
+      ].slice(0, maxWishlistItems),
+    );
+  }
+
   function removeFromWishlist(slug: string) {
     setWishlist((current) => current.filter((item) => item.slug !== slug));
   }
@@ -1127,7 +1160,7 @@ export function ElinChat({
             />
             Min lista ({wishlist.length})
           </button>
-          {messages.length > 0 ? (
+          {messages.length > 0 || hasStoredPreferences ? (
             <button
               type="button"
               onClick={clearChat}
@@ -1215,7 +1248,7 @@ export function ElinChat({
                     {message.products && message.products.length > 0 ? (
                       <div className="mt-4 space-y-3">
                         <div className="grid gap-3">
-                          {message.products.map((product) => (
+                          {getDisplayProducts(message.products).map((product) => (
                             <ProductCardView
                               key={product.slug}
                               product={product}
@@ -1225,12 +1258,41 @@ export function ElinChat({
                             />
                           ))}
                         </div>
+                        {hasRoutineSteps(message.products) ? (
+                          <button
+                            type="button"
+                            onClick={() =>
+                              saveProductsToWishlist(getDisplayProducts(message.products ?? []))
+                            }
+                            disabled={getDisplayProducts(message.products ?? []).every(
+                              (product) => savedSlugs.has(product.slug),
+                            )}
+                            className="inline-flex min-h-9 items-center gap-1.5 rounded-full border border-[#D8788D] bg-white px-3 text-xs font-black text-[#D8788D] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3] disabled:cursor-not-allowed disabled:opacity-60"
+                          >
+                            <Heart
+                              className="size-3.5"
+                              fill={
+                                getDisplayProducts(message.products ?? []).every((product) =>
+                                  savedSlugs.has(product.slug),
+                                )
+                                  ? "currentColor"
+                                  : "none"
+                              }
+                              aria-hidden="true"
+                            />
+                            {getDisplayProducts(message.products ?? []).every((product) =>
+                              savedSlugs.has(product.slug),
+                            )
+                              ? "Rutinen är sparad"
+                              : "Spara hela rutinen"}
+                          </button>
+                        ) : null}
                         {message.products.length >= 2 ? (
                           <button
                             type="button"
                             onClick={() =>
                               void sendMessage(
-                                `Jämför ${(message.products ?? [])
+                                `Jämför ${getDisplayProducts(message.products ?? [])
                                   .map((product) => product.title)
                                   .join(" och ")} – vilken passar mig bäst?`,
                               )

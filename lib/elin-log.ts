@@ -10,6 +10,7 @@ export type ElinLogEntry = {
   productSlugs: string[];
   answered: boolean;
   focusSlug: string | null;
+  variant?: "A" | "B";
 };
 
 // Fire-and-forget analytics of Elin questions → feeds the content-gap loop
@@ -29,13 +30,22 @@ export async function logElinInteraction(entry: ElinLogEntry): Promise<void> {
       auth: { persistSession: false, autoRefreshToken: false },
     });
 
-    await client.from("elin_logs").insert({
+    const payload = {
       question: entry.question.slice(0, 500),
       category: entry.category,
       product_slugs: entry.productSlugs,
       answered: entry.answered,
       focus_slug: entry.focusSlug,
+    };
+
+    const { error } = await client.from("elin_logs").insert({
+      ...payload,
+      ...(entry.variant ? { variant: entry.variant } : {}),
     });
+
+    if (error && entry.variant && /variant|column|schema cache/i.test(error.message)) {
+      await client.from("elin_logs").insert(payload);
+    }
   } catch {
     // Logging must never affect the user experience — swallow all errors.
   }
