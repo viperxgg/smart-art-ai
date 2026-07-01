@@ -19,6 +19,12 @@ type ProductCard = {
   brand: string;
   pageHref: string;
   image: string;
+  amazonUrl: string;
+  poang: number | null;
+  tier: "budget" | "mellan" | "premium";
+  tierLabel: string;
+  tierIcon: string;
+  verdict: string;
 };
 
 type ConversationMessage = {
@@ -26,12 +32,14 @@ type ConversationMessage = {
   role: "user" | "assistant";
   content: string;
   products?: ProductCard[];
+  followUps?: string[];
 };
 
-type ApiResponse = {
-  svar?: string;
-  produkter?: ProductCard[];
-};
+type StreamEvent =
+  | { type: "delta"; value: string }
+  | { type: "meta"; produkter?: ProductCard[]; foljdfragor?: string[] }
+  | { type: "error"; value: string }
+  | { type: "done" };
 
 type ElinChatProps = {
   focus?: ElinFocus | null;
@@ -50,6 +58,9 @@ const examples = [
   "Är en dyr massagepistol värt det?",
   "Billigare alternativ till ett dyrt serum?",
 ];
+
+const storageKey = "elin-chat-v1";
+const maxStoredMessages = 20;
 
 function createMessageId() {
   return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
@@ -128,6 +139,63 @@ function MarkdownText({ text }: { text: string }) {
   );
 }
 
+function ProductCardView({ product }: { product: ProductCard }) {
+  return (
+    <div className="rounded-[1rem] border border-[#F1D8DD] bg-[#FFF9F7] p-3">
+      <div className="flex min-w-0 gap-3">
+        <span className="relative size-16 shrink-0 overflow-hidden rounded-[0.85rem] bg-white">
+          <Image
+            src={product.image}
+            alt={product.title}
+            fill
+            sizes="64px"
+            className="object-cover"
+          />
+        </span>
+        <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-xs font-black uppercase tracking-[0.12em] text-[#D8788D]">
+              {product.brand}
+            </span>
+            {product.poang != null ? (
+              <span className="rounded-full bg-[#4B2838] px-2 py-0.5 text-[0.65rem] font-black text-[#FFF9F7]">
+                Elins poäng {product.poang}
+              </span>
+            ) : null}
+          </div>
+          <Link
+            href={product.pageHref}
+            className="mt-1 block text-sm font-black leading-5 text-[#4B2838] hover:underline"
+          >
+            {product.title}
+          </Link>
+          <p className="mt-0.5 text-xs text-[#6f5a64]">
+            <span className="font-bold">{product.tierIcon} {product.tierLabel}</span>
+            {product.verdict ? ` · ${product.verdict}` : ""}
+          </p>
+        </div>
+      </div>
+      <div className="mt-3 flex flex-wrap gap-2">
+        <a
+          href={product.amazonUrl}
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          className="inline-flex min-h-9 items-center gap-1 rounded-full bg-[#D8788D] px-3 text-xs font-black text-[#FFF9F7] transition hover:-translate-y-0.5 hover:bg-[#c96b80]"
+        >
+          Se aktuellt pris
+          <ArrowUpRight className="size-3.5" aria-hidden="true" />
+        </a>
+        <Link
+          href={product.pageHref}
+          className="inline-flex min-h-9 items-center rounded-full border border-[#F1D8DD] bg-white px-3 text-xs font-bold text-[#4B2838] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
+        >
+          Läs Elins recension
+        </Link>
+      </div>
+    </div>
+  );
+}
+
 export function ElinChat({
   focus = null,
   initialPrompt,
@@ -143,6 +211,7 @@ export function ElinChat({
   const [input, setInput] = useState("");
   const [isSending, setIsSending] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const persist = !focus;
 
   useEffect(() => {
     if (!hideMobileNav) {
@@ -156,6 +225,39 @@ export function ElinChat({
     };
   }, [hideMobileNav]);
 
+  // Restore an earlier session (general advisor chat only).
+  useEffect(() => {
+    if (!persist) {
+      return;
+    }
+    try {
+      const raw = window.localStorage.getItem(storageKey);
+      if (!raw) {
+        return;
+      }
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed)) {
+        setMessages(parsed.slice(-maxStoredMessages));
+      }
+    } catch {
+      // ignore corrupt storage
+    }
+  }, [persist]);
+
+  useEffect(() => {
+    if (!persist) {
+      return;
+    }
+    try {
+      window.localStorage.setItem(
+        storageKey,
+        JSON.stringify(messages.slice(-maxStoredMessages)),
+      );
+    } catch {
+      // storage may be full or unavailable — non-critical
+    }
+  }, [messages, persist]);
+
   useEffect(() => {
     if (!initialPrompt) {
       return;
@@ -167,10 +269,12 @@ export function ElinChat({
 
   const history = useMemo(
     () =>
-      messages.map((message) => ({
-        role: message.role,
-        content: message.content,
-      })),
+      messages
+        .filter((message) => message.content.trim().length > 0)
+        .map((message) => ({
+          role: message.role,
+          content: message.content,
+        })),
     [messages],
   );
 
@@ -185,51 +289,113 @@ export function ElinChat({
       role: "user",
       content: trimmed,
     };
-
+    const assistantId = createMessageId();
     const nextHistory = [...history, { role: "user" as const, content: trimmed }];
-    setMessages((current) => [...current, userMessage]);
+
+    setMessages((current) => [
+      ...current,
+      userMessage,
+      { id: assistantId, role: "assistant", content: "", products: [], followUps: [] },
+    ]);
     setInput("");
     setIsSending(true);
+
+    const updateAssistant = (
+      updater: (message: ConversationMessage) => ConversationMessage,
+    ) =>
+      setMessages((current) =>
+        current.map((message) => (message.id === assistantId ? updater(message) : message)),
+      );
 
     try {
       const response = await fetch("/api/elin", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           messages: nextHistory,
           ...(focus ? { focus } : {}),
         }),
       });
 
-      const data = (await response.json()) as ApiResponse;
-      setMessages((current) => [
-        ...current,
-        {
-          id: createMessageId(),
-          role: "assistant",
-          content:
-            data.svar ??
-            "Jag kunde inte läsa svaret just nu. Prova att formulera frågan lite kortare.",
-          products: data.produkter ?? [],
-        },
-      ]);
+      const contentType = response.headers.get("content-type") ?? "";
+      if (!response.ok || !response.body || !contentType.includes("text/event-stream")) {
+        let fallback = "Något gick fel. Prova igen om en stund.";
+        try {
+          const data = (await response.json()) as { svar?: string };
+          if (typeof data.svar === "string" && data.svar.trim()) {
+            fallback = data.svar;
+          }
+        } catch {
+          // keep default fallback
+        }
+        updateAssistant((message) => ({ ...message, content: fallback }));
+        return;
+      }
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+
+      const handleEvent = (event: StreamEvent) => {
+        if (event.type === "delta") {
+          updateAssistant((message) => ({ ...message, content: message.content + event.value }));
+        } else if (event.type === "meta") {
+          updateAssistant((message) => ({
+            ...message,
+            products: event.produkter ?? [],
+            followUps: event.foljdfragor ?? [],
+          }));
+        } else if (event.type === "error") {
+          updateAssistant((message) => ({
+            ...message,
+            content: message.content || event.value,
+          }));
+        }
+      };
+
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) {
+          break;
+        }
+        buffer += decoder.decode(value, { stream: true });
+        const parts = buffer.split("\n\n");
+        buffer = parts.pop() ?? "";
+        for (const part of parts) {
+          const line = part.trim();
+          if (!line.startsWith("data:")) {
+            continue;
+          }
+          const raw = line.slice(5).trim();
+          if (!raw) {
+            continue;
+          }
+          try {
+            handleEvent(JSON.parse(raw) as StreamEvent);
+          } catch {
+            // ignore malformed chunk
+          }
+        }
+      }
+
+      updateAssistant((message) =>
+        message.content.trim()
+          ? message
+          : {
+              ...message,
+              content:
+                "Jag kunde inte formulera ett svar just nu. Prova att fråga lite kortare.",
+            },
+      );
     } catch {
-      setMessages((current) => [
-        ...current,
-        {
-          id: createMessageId(),
-          role: "assistant",
-          content: "Något gick fel när jag skulle jämföra produkterna. Prova igen.",
-          products: [],
-        },
-      ]);
+      updateAssistant((message) => ({
+        ...message,
+        content: message.content || "Något gick fel när jag skulle svara. Prova igen.",
+      }));
     } finally {
       setIsSending(false);
       window.requestAnimationFrame(() => {
         textareaRef.current?.focus();
-        textareaRef.current?.scrollIntoView({ block: "center" });
       });
     }
   }
@@ -239,17 +405,41 @@ export function ElinChat({
     void sendMessage(input);
   }
 
+  function clearChat() {
+    setMessages([]);
+    if (persist) {
+      try {
+        window.localStorage.removeItem(storageKey);
+      } catch {
+        // ignore
+      }
+    }
+  }
+
+  const lastIndex = messages.length - 1;
+
   return (
     <section
       className={`flex min-h-0 flex-1 flex-col overflow-hidden rounded-[1.55rem] border border-[#F1D8DD] bg-[#FFF9F7] shadow-[0_28px_80px_rgba(75,40,56,0.12)] ${className}`}
     >
-      <div className="border-b border-[#F1D8DD] bg-white/64 px-4 py-4 sm:px-5">
-        <p className="text-sm font-black text-[#4B2838]">Elin</p>
-        <p className="mt-1 text-xs text-[#6f5a64]">
-          {focus
-            ? `Utgår från ${focus.title}`
-            : "Svarar kort, ärligt och produktdatastyrt"}
-        </p>
+      <div className="flex items-center justify-between gap-3 border-b border-[#F1D8DD] bg-white/64 px-4 py-4 sm:px-5">
+        <div>
+          <p className="text-sm font-black text-[#4B2838]">Elin</p>
+          <p className="mt-1 text-xs text-[#6f5a64]">
+            {focus
+              ? `Utgår från ${focus.title}`
+              : "Svarar kort, ärligt och produktdatastyrt"}
+          </p>
+        </div>
+        {messages.length > 0 ? (
+          <button
+            type="button"
+            onClick={clearChat}
+            className="shrink-0 rounded-full border border-[#F1D8DD] bg-white px-3 py-1.5 text-xs font-bold text-[#6f5a64] transition hover:bg-[#FFF1F3]"
+          >
+            Rensa
+          </button>
+        ) : null}
       </div>
 
       <div className="flex-1 space-y-4 overflow-y-auto bg-[#FFF9F7] px-4 py-5 sm:px-5">
@@ -284,7 +474,7 @@ export function ElinChat({
             </div>
           </div>
         ) : (
-          messages.map((message) => (
+          messages.map((message, index) => (
             <article
               key={message.id}
               className={`flex ${message.role === "user" ? "justify-end" : "justify-start"}`}
@@ -300,37 +490,42 @@ export function ElinChat({
                   <p className="text-sm font-bold leading-6">{message.content}</p>
                 ) : (
                   <>
-                    <MarkdownText text={message.content} />
+                    {message.content.trim() ? (
+                      <MarkdownText text={message.content} />
+                    ) : (
+                      <span className="inline-flex items-center gap-2 text-sm font-bold text-[#6f5a64]">
+                        <Loader2 className="size-4 animate-spin" aria-hidden="true" />
+                        Elin skriver…
+                      </span>
+                    )}
+
                     {message.products && message.products.length > 0 ? (
-                      <div className="mt-4 grid gap-3">
-                        {message.products.map((product) => (
-                          <Link
-                            key={product.slug}
-                            href={product.pageHref}
-                            className="group flex min-w-0 gap-3 rounded-[1rem] border border-[#F1D8DD] bg-[#FFF9F7] p-3 transition hover:-translate-y-0.5 hover:bg-white"
+                      <div className="mt-4 space-y-3">
+                        <div className="grid gap-3">
+                          {message.products.map((product) => (
+                            <ProductCardView key={product.slug} product={product} />
+                          ))}
+                        </div>
+                        <p className="text-[0.65rem] text-[#9b818b]">
+                          Annons · innehåller affiliatelänkar
+                        </p>
+                      </div>
+                    ) : null}
+
+                    {index === lastIndex &&
+                    !isSending &&
+                    message.followUps &&
+                    message.followUps.length > 0 ? (
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        {message.followUps.map((question) => (
+                          <button
+                            key={question}
+                            type="button"
+                            onClick={() => void sendMessage(question)}
+                            className="min-h-9 rounded-full border border-[#F1D8DD] bg-[#FFF9F7] px-3 text-left text-xs font-bold text-[#4B2838] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
                           >
-                            <span className="relative size-16 shrink-0 overflow-hidden rounded-[0.85rem] bg-white">
-                              <Image
-                                src={product.image}
-                                alt={product.title}
-                                fill
-                                sizes="64px"
-                                className="object-cover"
-                              />
-                            </span>
-                            <span className="min-w-0 flex-1">
-                              <span className="block text-xs font-black uppercase tracking-[0.12em] text-[#D8788D]">
-                                {product.brand}
-                              </span>
-                              <span className="mt-1 block text-sm font-black leading-5 text-[#4B2838]">
-                                {product.title}
-                              </span>
-                            </span>
-                            <ArrowUpRight
-                              className="mt-1 size-4 shrink-0 text-[#D8788D] transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-                              aria-hidden="true"
-                            />
-                          </Link>
+                            {question}
+                          </button>
                         ))}
                       </div>
                     ) : null}
@@ -340,15 +535,6 @@ export function ElinChat({
             </article>
           ))
         )}
-
-        {isSending ? (
-          <div className="flex justify-start">
-            <div className="inline-flex min-h-11 items-center gap-2 rounded-full border border-[#F1D8DD] bg-white px-4 text-sm font-bold text-[#6f5a64]">
-              <Loader2 className="size-4 animate-spin" aria-hidden="true" />
-              Elin jämför
-            </div>
-          </div>
-        ) : null}
       </div>
 
       <form
@@ -360,6 +546,12 @@ export function ElinChat({
             ref={textareaRef}
             value={input}
             onChange={(event) => setInput(event.target.value.slice(0, 500))}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" && !event.shiftKey) {
+                event.preventDefault();
+                void sendMessage(input);
+              }
+            }}
             placeholder="Beskriv behov, budget eller produkten du undrar över..."
             rows={compact ? 1 : 2}
             className="min-h-12 flex-1 resize-none bg-transparent px-3 py-2 text-sm leading-6 text-[#4B2838] outline-none placeholder:text-[#9b818b]"

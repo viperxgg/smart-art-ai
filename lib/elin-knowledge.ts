@@ -8,6 +8,7 @@ import {
   type Product,
   type ProductCategorySlug,
 } from "@/lib/products";
+import { getEditorialScore } from "@/lib/scores";
 
 export type ElinKnowledgeProduct = {
   slug: string;
@@ -15,6 +16,7 @@ export type ElinKnowledgeProduct = {
   brand: string;
   category: ProductCategorySlug;
   priceTier: PriceTier;
+  poang: number | null;
   badges: string[];
   summary: string;
   evaluation: {
@@ -45,6 +47,7 @@ function toKnowledgeProduct(product: Product): ElinKnowledgeProduct {
     brand: product.brand,
     category: product.category,
     priceTier: getPriceTier(product),
+    poang: getEditorialScore(product.slug)?.total ?? null,
     badges: product.badges,
     summary: product.summary,
     evaluation: {
