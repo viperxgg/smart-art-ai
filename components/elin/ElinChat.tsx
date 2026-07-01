@@ -25,6 +25,15 @@ type ProductCard = {
   tierLabel: string;
   tierIcon: string;
   verdict: string;
+  varfor?: string;
+  fordelar?: string[];
+  uses?: string[];
+  rating?: string;
+  ratingShort?: string;
+  reviewHighlights?: string[];
+  caution?: string;
+  video?: { src: string; poster: string; title: string } | null;
+  reviewQuote?: { name: string; text: string; rating: number } | null;
 };
 
 type ConversationMessage = {
@@ -55,6 +64,7 @@ type ElinChatProps = {
 
 const examples = [
   "Kombinerad, känslig hud – var börjar jag?",
+  "💫 Bygg en rutin åt mig",
   "Är en dyr massagepistol värt det?",
   "Billigare alternativ till ett dyrt serum?",
 ];
@@ -139,7 +149,27 @@ function MarkdownText({ text }: { text: string }) {
   );
 }
 
-function ProductCardView({ product }: { product: ProductCard }) {
+function ProductCardView({
+  product,
+  onAsk,
+}: {
+  product: ProductCard;
+  onAsk: (question: string) => void;
+}) {
+  const [open, setOpen] = useState<"fordelar" | "anvandning" | "folk" | "video" | null>(null);
+
+  const fordelar = product.fordelar ?? [];
+  const uses = product.uses ?? [];
+  const highlights = product.reviewHighlights ?? [];
+  const hasFolk = Boolean(product.rating || highlights.length || product.reviewQuote);
+  const video = product.video ?? null;
+
+  const tabs: { key: "fordelar" | "anvandning" | "folk" | "video"; label: string }[] = [];
+  if (fordelar.length) tabs.push({ key: "fordelar", label: "✨ Fördelar" });
+  if (uses.length) tabs.push({ key: "anvandning", label: "🧴 Så använder du den" });
+  if (hasFolk) tabs.push({ key: "folk", label: "💬 Vad folk säger" });
+  if (video) tabs.push({ key: "video", label: "▶ Se videon" });
+
   return (
     <div className="rounded-[1rem] border border-[#F1D8DD] bg-[#FFF9F7] p-3">
       <div className="flex min-w-0 gap-3">
@@ -162,6 +192,11 @@ function ProductCardView({ product }: { product: ProductCard }) {
                 Elins poäng {product.poang}
               </span>
             ) : null}
+            {product.ratingShort ? (
+              <span className="rounded-full bg-[#FFF1F3] px-2 py-0.5 text-[0.65rem] font-black text-[#D8788D]">
+                ★ {product.ratingShort}
+              </span>
+            ) : null}
           </div>
           <Link
             href={product.pageHref}
@@ -175,6 +210,95 @@ function ProductCardView({ product }: { product: ProductCard }) {
           </p>
         </div>
       </div>
+
+      {product.varfor ? (
+        <p className="mt-3 rounded-[0.8rem] bg-[#FFF1F3] px-3 py-2 text-xs leading-5 text-[#4B2838]">
+          <span className="font-black text-[#D8788D]">Perfekt för dig eftersom </span>
+          {product.varfor}
+        </p>
+      ) : null}
+
+      {tabs.length ? (
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {tabs.map((tab) => (
+            <button
+              key={tab.key}
+              type="button"
+              onClick={() => setOpen((current) => (current === tab.key ? null : tab.key))}
+              className={`min-h-8 rounded-full border px-2.5 text-[0.7rem] font-bold transition ${
+                open === tab.key
+                  ? "border-[#D8788D] bg-[#D8788D] text-[#FFF9F7]"
+                  : "border-[#F1D8DD] bg-white text-[#4B2838] hover:bg-[#FFF1F3]"
+              }`}
+            >
+              {tab.label}
+            </button>
+          ))}
+        </div>
+      ) : null}
+
+      {open === "fordelar" && fordelar.length ? (
+        <ul className="mt-2 space-y-1 rounded-[0.8rem] bg-white p-3 text-xs leading-5 text-[#4B2838]">
+          {fordelar.map((item) => (
+            <li key={item} className="flex gap-2">
+              <span aria-hidden="true">✓</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      ) : null}
+
+      {open === "anvandning" && uses.length ? (
+        <ul className="mt-2 space-y-1 rounded-[0.8rem] bg-white p-3 text-xs leading-5 text-[#4B2838]">
+          {uses.map((item) => (
+            <li key={item} className="flex gap-2">
+              <span aria-hidden="true">•</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      ) : null}
+
+      {open === "folk" && hasFolk ? (
+        <div className="mt-2 space-y-2 rounded-[0.8rem] bg-white p-3 text-xs leading-5 text-[#4B2838]">
+          {product.rating ? <p className="font-bold">{product.rating}</p> : null}
+          {highlights.length ? (
+            <ul className="space-y-1">
+              {highlights.map((item) => (
+                <li key={item} className="flex gap-2">
+                  <span aria-hidden="true">💬</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          ) : null}
+          {product.reviewQuote ? (
+            <p className="rounded-[0.7rem] bg-[#FFF9F7] p-2 italic text-[#6f5a64]">
+              «{product.reviewQuote.text}» — {product.reviewQuote.name}
+            </p>
+          ) : null}
+          {product.caution ? (
+            <p className="text-[#8a6d75]">
+              <span className="font-bold">Att tänka på:</span> {product.caution}
+            </p>
+          ) : null}
+        </div>
+      ) : null}
+
+      {open === "video" && video ? (
+        <div className="mt-2 rounded-[0.8rem] bg-white p-2">
+          <video
+            controls
+            playsInline
+            preload="none"
+            poster={video.poster}
+            className="w-full rounded-[0.6rem]"
+          >
+            <source src={video.src} type="video/mp4" />
+          </video>
+        </div>
+      ) : null}
+
       <div className="mt-3 flex flex-wrap gap-2">
         <a
           href={product.amazonUrl}
@@ -182,7 +306,7 @@ function ProductCardView({ product }: { product: ProductCard }) {
           rel="noopener noreferrer sponsored"
           className="inline-flex min-h-9 items-center gap-1 rounded-full bg-[#D8788D] px-3 text-xs font-black text-[#FFF9F7] transition hover:-translate-y-0.5 hover:bg-[#c96b80]"
         >
-          Se aktuellt pris
+          Kolla priset på Amazon
           <ArrowUpRight className="size-3.5" aria-hidden="true" />
         </a>
         <Link
@@ -191,6 +315,13 @@ function ProductCardView({ product }: { product: ProductCard }) {
         >
           Läs Elins recension
         </Link>
+        <button
+          type="button"
+          onClick={() => onAsk(`Berätta mer om ${product.title} – passar den mig?`)}
+          className="inline-flex min-h-9 items-center rounded-full border border-[#F1D8DD] bg-white px-3 text-xs font-bold text-[#4B2838] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
+        >
+          Fråga om den här
+        </button>
       </div>
     </div>
   );
@@ -503,9 +634,28 @@ export function ElinChat({
                       <div className="mt-4 space-y-3">
                         <div className="grid gap-3">
                           {message.products.map((product) => (
-                            <ProductCardView key={product.slug} product={product} />
+                            <ProductCardView
+                              key={product.slug}
+                              product={product}
+                              onAsk={(question) => void sendMessage(question)}
+                            />
                           ))}
                         </div>
+                        {message.products.length >= 2 ? (
+                          <button
+                            type="button"
+                            onClick={() =>
+                              void sendMessage(
+                                `Jämför ${(message.products ?? [])
+                                  .map((product) => product.title)
+                                  .join(" och ")} – vilken passar mig bäst?`,
+                              )
+                            }
+                            className="min-h-9 rounded-full border border-[#D8788D] bg-white px-3 text-xs font-black text-[#D8788D] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
+                          >
+                            ⚖️ Jämför dessa
+                          </button>
+                        ) : null}
                         <p className="text-[0.65rem] text-[#9b818b]">
                           Annons · innehåller affiliatelänkar
                         </p>

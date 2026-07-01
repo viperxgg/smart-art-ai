@@ -50,7 +50,7 @@ VIKTIGT – din gräns (du är expert, inte läkare):
 - Vid tecken på något medicinskt – svår eller plötslig akne, eksem, utslag, klåda, sår, smärta, svullnad, något som sprider sig, en allergisk reaktion eller en träningsskada – säg det ärligt och hänvisa till läkare, apotek, hudterapeut eller fysioterapeut. Gissa aldrig om sånt.
 
 Ton & regler:
-- Varm, lugn, rakt på sak. Som en kunnig kompis, inte en säljare. Korrekt svenska (å ä ö). Var koncis – hellre tydlig än lång.
+- Varm, lugn, rakt på sak. Som en omtänksam väninna, inte en säljare. Möt personen där de är – en kort empatisk mening om deras situation när det passar ("Åh, torr hud i värmen – jag fattar"), sedan rådet. Använd "du/dig", var uppmuntrande. Korrekt svenska (å ä ö). Var koncis – hellre tydlig än lång.
 - Skönhet: endast kosmetiska formuleringar (fukt, lyster, dewy, slät, jämnare hudton). Aldrig medicinska påståenden (läker/botar/behandlar), aldrig SPF/solskyddslöften, aldrig anti-age/"tar bort rynkor".
 - Träning/Hälsa: funktion, komfort, avkoppling. Aldrig medicinska eller hälsopåståenden.
 - Inga fasta priser – tala relativt ("prisvärd", "ett billigare alternativ", "se aktuellt pris på Amazon"). Nämn ALDRIG kronor eller prissiffror.
@@ -67,30 +67,46 @@ Håll dig till ditt uppdrag:
 
 Format:
 - Skriv svaret som vanlig svensk text (markdown: **fet**, punktlistor, [länktext](/sökväg) för interna sidor).
-- Avsluta ALLTID med att anropa verktyget "visa_rekommendation" med: slugs (0–3 produkter ur sortimentet som verkligen passar – tom lista om ingen passar) och foljdfragor (2–3 korta följdfrågor användaren troligen vill ställa härnäst). Produktkorten visas automatiskt under svaret – rada inte upp samma produktlänkar i texten i onödan.`;
+- Avsluta ALLTID med att anropa verktyget "visa_rekommendation" med:
+  - rekommendationer: 0–3 objekt {slug, varfor}. varfor = kort personlig anledning (max ~15 ord) som knyter produkten till DET personen sa – skriv bara anledningen, inte orden "Perfekt för dig eftersom". Tom lista om ingen produkt passar.
+  - foljdfragor: 2–3 korta följdfrågor nära personens behov, gärna EN förtydligande fråga.
+- Produktkorten visar automatiskt fördelar, användning (så använder du den) och vad folk tycker – så upprepa inte all den datan i texten, och rada inte upp samma produktlänkar i onödan.`;
 
 const tools: Anthropic.Tool[] = [
   {
     name: "visa_rekommendation",
     description:
-      "Anropa detta EN gång i slutet av varje svar för att visa produktkort och föreslå följdfrågor. Skicka en tom slug-lista om ingen produkt verkligen passar.",
+      "Anropa detta EN gång i slutet av varje svar för att visa produktkort och föreslå följdfrågor. Skicka en tom lista om ingen produkt verkligen passar.",
     input_schema: {
       type: "object",
       properties: {
-        slugs: {
+        rekommendationer: {
           type: "array",
-          items: { type: "string" },
-          description:
-            "0–3 produkt-slugs ur sortimentet som ska visas som kort. Endast slugs som finns i produktdatan.",
+          description: "0–3 produkter ur sortimentet som verkligen passar personen.",
+          items: {
+            type: "object",
+            properties: {
+              slug: {
+                type: "string",
+                description: "Produktens slug, exakt som i produktdatan.",
+              },
+              varfor: {
+                type: "string",
+                description:
+                  "Kort personlig anledning (max ~15 ord) som knyter produkten till DET personen sa. Skriv BARA själva anledningen (t.ex. 'skonsamt och prisvärt för torr hy') – inte inledningen 'Perfekt för dig eftersom'.",
+              },
+            },
+            required: ["slug", "varfor"],
+          },
         },
         foljdfragor: {
           type: "array",
           items: { type: "string" },
           description:
-            "2–3 korta svenska följdfrågor användaren troligen vill ställa härnäst (max ~6 ord styck).",
+            "2–3 korta svenska följdfrågor. Gör dem nära personens behov – gärna EN förtydligande fråga som gör rådet bättre (t.ex. 'Har du färgat hår?', 'Vad är din budget?').",
         },
       },
-      required: ["slugs", "foljdfragor"],
+      required: ["rekommendationer", "foljdfragor"],
     },
   },
 ];
@@ -183,7 +199,7 @@ function buildSystemBlocks(
   return blocks;
 }
 
-function toRichCard(slug: string) {
+function toRichCard(slug: string, varfor: string) {
   const product = getProductBySlug(slug);
   if (!product) {
     return null;
@@ -192,6 +208,8 @@ function toRichCard(slug: string) {
   const score = getEditorialScore(slug);
   const tier = getPriceTier(product);
   const display = priceTierDisplay[tier];
+  const review = product.amazonReviewSignal;
+  const topComment = [...product.comments].sort((a, b) => b.rating - a.rating)[0];
 
   return {
     slug: product.slug,
@@ -205,6 +223,30 @@ function toRichCard(slug: string) {
     tierLabel: display.label,
     tierIcon: display.icon,
     verdict: score?.verdict ?? product.evaluation.verdict ?? "",
+    varfor: (typeof varfor === "string" ? varfor : "")
+      .replace(/^\s*perfekt för dig eftersom[\s:,-]*/i, "")
+      .trim()
+      .slice(0, 240),
+    fordelar: product.badges.slice(0, 4),
+    uses: product.uses.slice(0, 4),
+    rating: review.ratingSummary,
+    ratingShort: review.ratingSummary.match(/(\d+[.,]\d+)\s*av\s*5/)?.[1] ?? "",
+    reviewHighlights: review.highlights.slice(0, 2),
+    caution: review.cautions[0] ?? "",
+    video: product.ugcVideos[0]
+      ? {
+          src: product.ugcVideos[0].src,
+          poster: product.ugcVideos[0].poster,
+          title: product.ugcVideos[0].title,
+        }
+      : null,
+    reviewQuote: topComment
+      ? {
+          name: topComment.name,
+          text: topComment.text.slice(0, 220),
+          rating: topComment.rating,
+        }
+      : null,
   };
 }
 
@@ -316,16 +358,26 @@ export async function POST(request: Request) {
           }
         }
 
-        let slugs: string[] = [];
+        let rekommendationer: { slug: string; varfor: string }[] = [];
         let foljdfragor: string[] = [];
         if (toolJson.trim()) {
           try {
             const parsed = JSON.parse(toolJson) as {
-              slugs?: unknown;
+              rekommendationer?: unknown;
               foljdfragor?: unknown;
             };
-            if (Array.isArray(parsed.slugs)) {
-              slugs = parsed.slugs.filter((slug): slug is string => typeof slug === "string");
+            if (Array.isArray(parsed.rekommendationer)) {
+              rekommendationer = parsed.rekommendationer
+                .filter(
+                  (item): item is { slug: string; varfor?: unknown } =>
+                    Boolean(item) &&
+                    typeof item === "object" &&
+                    typeof (item as { slug?: unknown }).slug === "string",
+                )
+                .map((item) => ({
+                  slug: item.slug,
+                  varfor: typeof item.varfor === "string" ? item.varfor : "",
+                }));
             }
             if (Array.isArray(parsed.foljdfragor)) {
               foljdfragor = parsed.foljdfragor.filter(
@@ -337,10 +389,10 @@ export async function POST(request: Request) {
           }
         }
 
-        const produkter = slugs
-          .filter((slug) => allowedSlugs.has(slug))
+        const produkter = rekommendationer
+          .filter((item) => allowedSlugs.has(item.slug))
           .slice(0, 3)
-          .map(toRichCard)
+          .map((item) => toRichCard(item.slug, item.varfor))
           .filter((card): card is RichCard => Boolean(card));
 
         send({ type: "meta", produkter, foljdfragor: foljdfragor.slice(0, 3) });
