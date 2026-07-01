@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Loader2, Send } from "lucide-react";
+import { ArrowUpRight, Heart, Loader2, Send, Trash2 } from "lucide-react";
 import { FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from "react";
 
 import type { ProductCategorySlug } from "@/lib/products";
@@ -30,11 +30,28 @@ type ProductCard = {
   uses?: string[];
   rating?: string;
   ratingShort?: string;
+  bestseller?: boolean;
   reviewHighlights?: string[];
   caution?: string;
   video?: { src: string; poster: string; title: string } | null;
   reviewQuote?: { name: string; text: string; rating: number } | null;
 };
+
+type WishlistCard = Pick<
+  ProductCard,
+  | "slug"
+  | "title"
+  | "brand"
+  | "pageHref"
+  | "image"
+  | "amazonUrl"
+  | "poang"
+  | "tierLabel"
+  | "tierIcon"
+  | "verdict"
+  | "ratingShort"
+  | "bestseller"
+>;
 
 type ConversationMessage = {
   id: string;
@@ -70,10 +87,142 @@ const examples = [
 ];
 
 const storageKey = "elin-chat-v1";
+const wishlistStorageKey = "elin-wishlist-v1";
 const maxStoredMessages = 20;
+const maxWishlistItems = 30;
+const elinAvatarSrc = "/elin/elin-avatar.webp";
 
 function createMessageId() {
   return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+}
+
+function isProductCard(value: unknown): value is ProductCard {
+  if (!value || typeof value !== "object") {
+    return false;
+  }
+
+  const card = value as Record<string, unknown>;
+
+  return (
+    typeof card.slug === "string" &&
+    typeof card.title === "string" &&
+    typeof card.brand === "string" &&
+    typeof card.pageHref === "string" &&
+    typeof card.image === "string" &&
+    typeof card.amazonUrl === "string" &&
+    (typeof card.poang === "number" || card.poang === null) &&
+    (card.tier === "budget" || card.tier === "mellan" || card.tier === "premium") &&
+    typeof card.tierLabel === "string" &&
+    typeof card.tierIcon === "string" &&
+    typeof card.verdict === "string"
+  );
+}
+
+function isConversationMessage(value: unknown): value is ConversationMessage {
+  if (!value || typeof value !== "object") {
+    return false;
+  }
+
+  const message = value as Record<string, unknown>;
+  return (
+    typeof message.id === "string" &&
+    (message.role === "user" || message.role === "assistant") &&
+    typeof message.content === "string" &&
+    (typeof message.products === "undefined" ||
+      (Array.isArray(message.products) && message.products.every(isProductCard))) &&
+    (typeof message.followUps === "undefined" ||
+      (Array.isArray(message.followUps) &&
+        message.followUps.every((item) => typeof item === "string")))
+  );
+}
+
+function isWishlistCard(value: unknown): value is WishlistCard {
+  if (!value || typeof value !== "object") {
+    return false;
+  }
+
+  const card = value as Record<string, unknown>;
+
+  return (
+    typeof card.slug === "string" &&
+    typeof card.title === "string" &&
+    typeof card.brand === "string" &&
+    typeof card.pageHref === "string" &&
+    typeof card.image === "string" &&
+    typeof card.amazonUrl === "string" &&
+    (typeof card.poang === "number" || card.poang === null) &&
+    typeof card.tierLabel === "string" &&
+    typeof card.tierIcon === "string" &&
+    typeof card.verdict === "string" &&
+    (typeof card.ratingShort === "string" || typeof card.ratingShort === "undefined") &&
+    (typeof card.bestseller === "boolean" || typeof card.bestseller === "undefined")
+  );
+}
+
+function toWishlistCard(product: ProductCard): WishlistCard {
+  return {
+    slug: product.slug,
+    title: product.title,
+    brand: product.brand,
+    pageHref: product.pageHref,
+    image: product.image,
+    amazonUrl: product.amazonUrl,
+    poang: product.poang,
+    tierLabel: product.tierLabel,
+    tierIcon: product.tierIcon,
+    verdict: product.verdict,
+    ratingShort: product.ratingShort,
+    bestseller: product.bestseller,
+  };
+}
+
+function useElinAvatarAvailable() {
+  const [isAvailable, setIsAvailable] = useState(false);
+
+  useEffect(() => {
+    let isMounted = true;
+
+    fetch(elinAvatarSrc, { method: "HEAD", cache: "force-cache" })
+      .then((response) => {
+        if (isMounted) {
+          setIsAvailable(response.ok);
+        }
+      })
+      .catch(() => {
+        if (isMounted) {
+          setIsAvailable(false);
+        }
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
+  return isAvailable;
+}
+
+function ElinAvatar({
+  visible,
+  size = "md",
+}: {
+  visible: boolean;
+  size?: "sm" | "md";
+}) {
+  if (!visible) {
+    return null;
+  }
+
+  const sizeClass = size === "sm" ? "size-8" : "size-11";
+
+  return (
+    <span
+      className={`${sizeClass} relative shrink-0 overflow-hidden rounded-full border border-[#F1D8DD] bg-[#FFF1F3] shadow-[0_10px_24px_rgba(216,120,141,0.18)]`}
+      aria-hidden="true"
+    >
+      <Image src={elinAvatarSrc} alt="" fill sizes="44px" className="object-cover" />
+    </span>
+  );
 }
 
 function renderInlineMarkdown(text: string) {
@@ -151,9 +300,13 @@ function MarkdownText({ text }: { text: string }) {
 
 function ProductCardView({
   product,
+  isSaved,
+  onToggleSave,
   onAsk,
 }: {
   product: ProductCard;
+  isSaved: boolean;
+  onToggleSave: (product: ProductCard) => void;
   onAsk: (question: string) => void;
 }) {
   const [open, setOpen] = useState<"fordelar" | "anvandning" | "folk" | "video" | null>(null);
@@ -197,6 +350,11 @@ function ProductCardView({
                 ★ {product.ratingShort}
               </span>
             ) : null}
+            {product.bestseller ? (
+              <span className="rounded-full border border-[#F4D9A5] bg-[#FFF4D6] px-2 py-0.5 text-[0.65rem] font-black text-[#8A5B12]">
+                Populärast just nu
+              </span>
+            ) : null}
           </div>
           <Link
             href={product.pageHref}
@@ -209,6 +367,23 @@ function ProductCardView({
             {product.verdict ? ` · ${product.verdict}` : ""}
           </p>
         </div>
+        <button
+          type="button"
+          onClick={() => onToggleSave(product)}
+          aria-label={isSaved ? "Ta bort från min lista" : "Spara till min lista"}
+          aria-pressed={isSaved}
+          className={`grid min-h-10 min-w-10 shrink-0 place-items-center rounded-full border transition hover:-translate-y-0.5 ${
+            isSaved
+              ? "border-[#D8788D] bg-[#D8788D] text-[#FFF9F7]"
+              : "border-[#F1D8DD] bg-white text-[#D8788D] hover:bg-[#FFF1F3]"
+          }`}
+        >
+          <Heart
+            className="size-4"
+            fill={isSaved ? "currentColor" : "none"}
+            aria-hidden="true"
+          />
+        </button>
       </div>
 
       {product.varfor ? (
@@ -306,14 +481,14 @@ function ProductCardView({
           rel="noopener noreferrer sponsored"
           className="inline-flex min-h-9 items-center gap-1 rounded-full bg-[#D8788D] px-3 text-xs font-black text-[#FFF9F7] transition hover:-translate-y-0.5 hover:bg-[#c96b80]"
         >
-          Kolla priset på Amazon
+          Se aktuellt pris på Amazon
           <ArrowUpRight className="size-3.5" aria-hidden="true" />
         </a>
         <Link
           href={product.pageHref}
           className="inline-flex min-h-9 items-center rounded-full border border-[#F1D8DD] bg-white px-3 text-xs font-bold text-[#4B2838] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
         >
-          Läs Elins recension
+          Läs recension
         </Link>
         <button
           type="button"
@@ -323,6 +498,105 @@ function ProductCardView({
           Fråga om den här
         </button>
       </div>
+    </div>
+  );
+}
+
+function WishlistPanel({
+  items,
+  onRemove,
+}: {
+  items: WishlistCard[];
+  onRemove: (slug: string) => void;
+}) {
+  return (
+    <div className="border-b border-[#F1D8DD] bg-white/82 px-4 py-4 sm:px-5">
+      {items.length === 0 ? (
+        <div className="rounded-[1rem] border border-dashed border-[#F1D8DD] bg-[#FFF9F7] p-4 text-sm leading-6 text-[#6f5a64]">
+          <p className="font-black text-[#4B2838]">Din lista är tom än så länge.</p>
+          <p className="mt-1">
+            Spara produkter med hjärtat så hittar du dem här när du vill jämföra igen.
+          </p>
+        </div>
+      ) : (
+        <div className="space-y-3">
+          <div className="max-h-72 space-y-2 overflow-y-auto pr-1">
+            {items.map((item) => (
+              <div
+                key={item.slug}
+                className="rounded-[1rem] border border-[#F1D8DD] bg-[#FFF9F7] p-3"
+              >
+                <div className="flex min-w-0 gap-3">
+                  <span className="relative size-14 shrink-0 overflow-hidden rounded-[0.8rem] bg-white">
+                    <Image
+                      src={item.image}
+                      alt={item.title}
+                      fill
+                      sizes="56px"
+                      className="object-cover"
+                    />
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex flex-wrap items-center gap-1.5">
+                      <span className="text-[0.65rem] font-black uppercase tracking-[0.12em] text-[#D8788D]">
+                        {item.brand}
+                      </span>
+                      {item.poang != null ? (
+                        <span className="rounded-full bg-[#4B2838] px-2 py-0.5 text-[0.6rem] font-black text-[#FFF9F7]">
+                          Elins poäng {item.poang}
+                        </span>
+                      ) : null}
+                      {item.bestseller ? (
+                        <span className="rounded-full border border-[#F4D9A5] bg-[#FFF4D6] px-2 py-0.5 text-[0.6rem] font-black text-[#8A5B12]">
+                          Populärast just nu
+                        </span>
+                      ) : null}
+                    </div>
+                    <Link
+                      href={item.pageHref}
+                      className="mt-1 block text-sm font-black leading-5 text-[#4B2838] hover:underline"
+                    >
+                      {item.title}
+                    </Link>
+                    <p className="mt-0.5 text-xs text-[#6f5a64]">
+                      <span className="font-bold">
+                        {item.tierIcon} {item.tierLabel}
+                      </span>
+                      {item.verdict ? ` · ${item.verdict}` : ""}
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => onRemove(item.slug)}
+                    aria-label={`Ta bort ${item.title} från min lista`}
+                    className="grid min-h-9 min-w-9 shrink-0 place-items-center rounded-full border border-[#F1D8DD] bg-white text-[#6f5a64] transition hover:bg-[#FFF1F3] hover:text-[#D8788D]"
+                  >
+                    <Trash2 className="size-4" aria-hidden="true" />
+                  </button>
+                </div>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  <a
+                    href={item.amazonUrl}
+                    target="_blank"
+                    rel="noopener noreferrer sponsored"
+                    className="inline-flex min-h-9 items-center gap-1 rounded-full bg-[#D8788D] px-3 text-xs font-black text-[#FFF9F7] transition hover:-translate-y-0.5 hover:bg-[#c96b80]"
+                  >
+                    Se aktuellt pris på Amazon
+                    <ArrowUpRight className="size-3.5" aria-hidden="true" />
+                  </a>
+                  <Link
+                    href={item.pageHref}
+                    className="inline-flex min-h-9 items-center rounded-full border border-[#F1D8DD] bg-white px-3 text-xs font-bold text-[#4B2838] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
+                  >
+                    Läs recension
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-[0.65rem] text-[#9b818b]">Annons · innehåller affiliatelänkar</p>
+        </div>
+      )}
     </div>
   );
 }
@@ -343,6 +617,12 @@ export function ElinChat({
   const [isSending, setIsSending] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const persist = !focus;
+  const [isStorageReady, setIsStorageReady] = useState(!persist);
+  const [hadStoredSession, setHadStoredSession] = useState(false);
+  const [wishlist, setWishlist] = useState<WishlistCard[]>([]);
+  const [isWishlistReady, setIsWishlistReady] = useState(false);
+  const [isWishlistOpen, setIsWishlistOpen] = useState(false);
+  const hasElinAvatar = useElinAvatarAvailable();
 
   useEffect(() => {
     if (!hideMobileNav) {
@@ -359,24 +639,37 @@ export function ElinChat({
   // Restore an earlier session (general advisor chat only).
   useEffect(() => {
     if (!persist) {
+      setIsStorageReady(true);
+      setHadStoredSession(false);
       return;
     }
+
+    setIsStorageReady(false);
     try {
       const raw = window.localStorage.getItem(storageKey);
       if (!raw) {
+        setHadStoredSession(false);
+        setIsStorageReady(true);
         return;
       }
       const parsed = JSON.parse(raw);
       if (Array.isArray(parsed)) {
-        setMessages(parsed.slice(-maxStoredMessages));
+        const restored = parsed.filter(isConversationMessage).slice(-maxStoredMessages);
+        setMessages(restored);
+        setHadStoredSession(restored.length > 0);
+      } else {
+        setHadStoredSession(false);
       }
     } catch {
+      setHadStoredSession(false);
       // ignore corrupt storage
+    } finally {
+      setIsStorageReady(true);
     }
   }, [persist]);
 
   useEffect(() => {
-    if (!persist) {
+    if (!persist || !isStorageReady) {
       return;
     }
     try {
@@ -387,7 +680,43 @@ export function ElinChat({
     } catch {
       // storage may be full or unavailable — non-critical
     }
-  }, [messages, persist]);
+  }, [isStorageReady, messages, persist]);
+
+  useEffect(() => {
+    try {
+      const raw = window.localStorage.getItem(wishlistStorageKey);
+      if (!raw) {
+        setWishlist([]);
+        return;
+      }
+
+      const parsed = JSON.parse(raw);
+      setWishlist(
+        Array.isArray(parsed)
+          ? parsed.filter(isWishlistCard).slice(0, maxWishlistItems)
+          : [],
+      );
+    } catch {
+      setWishlist([]);
+    } finally {
+      setIsWishlistReady(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!isWishlistReady) {
+      return;
+    }
+
+    try {
+      window.localStorage.setItem(
+        wishlistStorageKey,
+        JSON.stringify(wishlist.slice(0, maxWishlistItems)),
+      );
+    } catch {
+      // storage may be full or unavailable — non-critical
+    }
+  }, [isWishlistReady, wishlist]);
 
   useEffect(() => {
     if (!initialPrompt) {
@@ -408,6 +737,25 @@ export function ElinChat({
         })),
     [messages],
   );
+
+  const savedSlugs = useMemo(() => new Set(wishlist.map((item) => item.slug)), [wishlist]);
+
+  function toggleWishlist(product: ProductCard) {
+    setWishlist((current) => {
+      if (current.some((item) => item.slug === product.slug)) {
+        return current.filter((item) => item.slug !== product.slug);
+      }
+
+      return [
+        toWishlistCard(product),
+        ...current.filter((item) => item.slug !== product.slug),
+      ].slice(0, maxWishlistItems);
+    });
+  }
+
+  function removeFromWishlist(slug: string) {
+    setWishlist((current) => current.filter((item) => item.slug !== slug));
+  }
 
   async function sendMessage(messageText: string) {
     const trimmed = messageText.trim().slice(0, 500);
@@ -430,6 +778,7 @@ export function ElinChat({
     ]);
     setInput("");
     setIsSending(true);
+    setHadStoredSession(false);
 
     const updateAssistant = (
       updater: (message: ConversationMessage) => ConversationMessage,
@@ -538,6 +887,7 @@ export function ElinChat({
 
   function clearChat() {
     setMessages([]);
+    setHadStoredSession(false);
     if (persist) {
       try {
         window.localStorage.removeItem(storageKey);
@@ -553,28 +903,66 @@ export function ElinChat({
     <section
       className={`flex min-h-0 flex-1 flex-col overflow-hidden rounded-[1.55rem] border border-[#F1D8DD] bg-[#FFF9F7] shadow-[0_28px_80px_rgba(75,40,56,0.12)] ${className}`}
     >
-      <div className="flex items-center justify-between gap-3 border-b border-[#F1D8DD] bg-white/64 px-4 py-4 sm:px-5">
-        <div>
-          <p className="text-sm font-black text-[#4B2838]">Elin</p>
-          <p className="mt-1 text-xs text-[#6f5a64]">
-            {focus
-              ? `Utgår från ${focus.title}`
-              : "Svarar kort, ärligt och produktdatastyrt"}
-          </p>
+      <div className="flex flex-col gap-3 border-b border-[#F1D8DD] bg-white/64 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-5">
+        <div className="flex min-w-0 items-center gap-3">
+          <ElinAvatar visible={hasElinAvatar} />
+          <div className="min-w-0">
+            <p className="text-sm font-black text-[#4B2838]">Elin</p>
+            <p className="mt-1 truncate text-xs text-[#6f5a64]">
+              {focus
+                ? `Utgår från ${focus.title}`
+                : "Svarar kort, ärligt och produktdatastyrt"}
+            </p>
+            {hadStoredSession && messages.length > 0 ? (
+              <p className="mt-1 text-[0.7rem] font-bold text-[#D8788D]">
+                Fortsätt där du var
+              </p>
+            ) : null}
+          </div>
         </div>
-        {messages.length > 0 ? (
+        <div className="flex flex-wrap items-center gap-2 sm:shrink-0">
           <button
             type="button"
-            onClick={clearChat}
-            className="shrink-0 rounded-full border border-[#F1D8DD] bg-white px-3 py-1.5 text-xs font-bold text-[#6f5a64] transition hover:bg-[#FFF1F3]"
+            onClick={() => setIsWishlistOpen((current) => !current)}
+            aria-expanded={isWishlistOpen}
+            className={`inline-flex min-h-9 items-center gap-1.5 rounded-full border px-3 text-xs font-black transition hover:-translate-y-0.5 ${
+              isWishlistOpen
+                ? "border-[#D8788D] bg-[#D8788D] text-[#FFF9F7]"
+                : "border-[#F1D8DD] bg-white text-[#4B2838] hover:bg-[#FFF1F3]"
+            }`}
           >
-            Rensa
+            <Heart
+              className="size-3.5"
+              fill={wishlist.length > 0 ? "currentColor" : "none"}
+              aria-hidden="true"
+            />
+            Min lista ({wishlist.length})
           </button>
-        ) : null}
+          {messages.length > 0 ? (
+            <button
+              type="button"
+              onClick={clearChat}
+              className="shrink-0 rounded-full border border-[#F1D8DD] bg-white px-3 py-1.5 text-xs font-bold text-[#6f5a64] transition hover:bg-[#FFF1F3]"
+            >
+              Rensa
+            </button>
+          ) : null}
+        </div>
       </div>
 
+      {isWishlistOpen ? (
+        <WishlistPanel items={wishlist} onRemove={removeFromWishlist} />
+      ) : null}
+
       <div className="flex-1 space-y-4 overflow-y-auto bg-[#FFF9F7] px-4 py-5 sm:px-5">
-        {messages.length === 0 ? (
+        {!isStorageReady ? (
+          <div className="grid h-full min-h-[14rem] place-items-center rounded-[1.25rem] border border-dashed border-[#F1D8DD] bg-white/70 p-5 text-center">
+            <span className="inline-flex items-center gap-2 text-sm font-bold text-[#6f5a64]">
+              <Loader2 className="size-4 animate-spin" aria-hidden="true" />
+              Laddar samtalet…
+            </span>
+          </div>
+        ) : messages.length === 0 ? (
           <div className="grid h-full min-h-[14rem] place-items-center rounded-[1.25rem] border border-dashed border-[#F1D8DD] bg-white/70 p-5 text-center">
             <div className="max-w-md">
               <p
@@ -608,8 +996,13 @@ export function ElinChat({
           messages.map((message, index) => (
             <article
               key={message.id}
-              className={`flex ${message.role === "user" ? "justify-end" : "justify-start"}`}
+              className={`flex items-start gap-2 ${
+                message.role === "user" ? "justify-end" : "justify-start"
+              }`}
             >
+              {message.role === "assistant" ? (
+                <ElinAvatar visible={hasElinAvatar} size="sm" />
+              ) : null}
               <div
                 className={`max-w-[88%] rounded-[1.25rem] px-4 py-3 sm:max-w-[78%] ${
                   message.role === "user"
@@ -637,6 +1030,8 @@ export function ElinChat({
                             <ProductCardView
                               key={product.slug}
                               product={product}
+                              isSaved={savedSlugs.has(product.slug)}
+                              onToggleSave={toggleWishlist}
                               onAsk={(question) => void sendMessage(question)}
                             />
                           ))}

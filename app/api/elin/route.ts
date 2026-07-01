@@ -199,6 +199,15 @@ function buildSystemBlocks(
   return blocks;
 }
 
+function hasBestsellerSignal(review: {
+  ratingSummary: string;
+  highlights: string[];
+}) {
+  const text = [review.ratingSummary, ...review.highlights].join(" ").toLocaleLowerCase("sv-SE");
+
+  return /bästsäljare|bäst\s+säljande|#\s*1(?!\d)/i.test(text);
+}
+
 function toRichCard(slug: string, varfor: string) {
   const product = getProductBySlug(slug);
   if (!product) {
@@ -231,6 +240,7 @@ function toRichCard(slug: string, varfor: string) {
     uses: product.uses.slice(0, 4),
     rating: review.ratingSummary,
     ratingShort: review.ratingSummary.match(/(\d+[.,]\d+)\s*av\s*5/)?.[1] ?? "",
+    bestseller: hasBestsellerSignal(review),
     reviewHighlights: review.highlights.slice(0, 2),
     caution: review.cautions[0] ?? "",
     video: product.ugcVideos[0]
