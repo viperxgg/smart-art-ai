@@ -1335,7 +1335,7 @@ export function ElinChat({
 
       <form
         onSubmit={onSubmit}
-        className="sticky bottom-0 border-t border-[#F1D8DD] bg-[#FFF9F7] p-3 sm:p-4"
+        className="sticky bottom-0 z-10 border-t border-[#F1D8DD] bg-[#FFF9F7] p-3 sm:p-4"
       >
         <div className="mb-2 flex flex-wrap gap-1.5 px-1">
           {budgetFilterChips.map((chip) => {

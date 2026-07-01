@@ -14,13 +14,13 @@ export default function FragaElinPage() {
   return (
     <main
       id="content"
-      className="min-h-screen w-full max-w-full overflow-x-hidden bg-[#FFF9F7] text-[#4B2838]"
+      className="w-full max-w-full overflow-x-hidden bg-[#FFF9F7] text-[#4B2838]"
     >
       <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(255,214,219,0.72),transparent_30rem),radial-gradient(circle_at_8%_76%,rgba(255,237,232,0.78),transparent_24rem),linear-gradient(90deg,rgba(241,216,221,0.34)_1px,transparent_1px)] bg-[length:auto,auto,4.4rem_4.4rem]" />
 
-      <section className="relative mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 pb-[calc(8rem+env(safe-area-inset-bottom))] pt-5 sm:px-6 lg:px-8">
-        <div className="grid flex-1 gap-6 py-7 lg:grid-cols-[0.82fr_1.18fr] lg:items-stretch lg:py-10">
-          <aside className="flex flex-col justify-between rounded-[1.8rem] border border-[#F1D8DD] bg-white/70 p-5 shadow-[0_26px_80px_rgba(216,120,141,0.12)] backdrop-blur-xl sm:p-7">
+      <section className="relative mx-auto flex h-[100dvh] w-full max-w-6xl flex-col px-4 pb-[env(safe-area-inset-bottom)] pt-4 sm:px-6 lg:h-auto lg:min-h-screen lg:px-8 lg:pb-[calc(8rem+env(safe-area-inset-bottom))] lg:pt-5">
+        <div className="grid min-h-0 flex-1 gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:items-stretch lg:py-10">
+          <aside className="hidden flex-col justify-between rounded-[1.8rem] border border-[#F1D8DD] bg-white/70 p-5 shadow-[0_26px_80px_rgba(216,120,141,0.12)] backdrop-blur-xl sm:p-7 lg:flex">
             <div>
               <span className="inline-flex min-h-10 items-center rounded-full border border-[#F1D8DD] bg-white px-4 text-xs font-black uppercase tracking-[0.14em] text-[#D8788D]">
                 Fråga Elin
@@ -46,11 +46,23 @@ export default function FragaElinPage() {
             </div>
           </aside>
 
-          <ElinChat
-            hideMobileNav
-            className="mt-16 min-h-[36rem] lg:mt-0"
-            emptyText="Fråga om en produkt, en rutin eller om ett billigare alternativ inom skönhet, träning eller hälsa."
-          />
+          <div className="flex min-h-0 flex-1 flex-col">
+            <div className="mb-3 shrink-0 lg:hidden">
+              <p className="font-display text-2xl leading-tight text-[#4B2838]">
+                Fråga Elin – ärliga råd utan köphets
+              </p>
+              <p className="mt-1 text-xs leading-5 text-[#6f5a64]">
+                Annons: sidan innehåller affiliatelänkar. Råden ersätter inte personlig
+                medicinsk rådgivning.
+              </p>
+            </div>
+
+            <ElinChat
+              hideMobileNav
+              className="min-h-0 flex-1 lg:min-h-[36rem]"
+              emptyText="Fråga om en produkt, en rutin eller om ett billigare alternativ inom skönhet, träning eller hälsa."
+            />
+          </div>
         </div>
       </section>
     </main>
