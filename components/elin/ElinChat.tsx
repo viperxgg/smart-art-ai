@@ -13,6 +13,15 @@ export type ElinFocus = {
   category: ProductCategorySlug;
 };
 
+type PriceTier = "budget" | "mellan" | "premium";
+
+type ElinPreferences = {
+  skinType?: "torr" | "fet" | "kombinerad" | "känslig" | "normal";
+  hairLength?: "kort" | "axellångt" | "långt";
+  budget?: PriceTier;
+  category?: ProductCategorySlug;
+};
+
 type ProductCard = {
   slug: string;
   title: string;
@@ -70,10 +79,140 @@ const examples = [
 ];
 
 const storageKey = "elin-chat-v1";
+const prefsStorageKey = "elin-prefs-v1";
 const maxStoredMessages = 20;
+
+const budgetFilterChips: { value: PriceTier; label: string; prompt: string }[] = [
+  { value: "budget", label: "Budget", prompt: "budgetnivå" },
+  { value: "mellan", label: "Mellan", prompt: "mellannivå" },
+  { value: "premium", label: "Premium", prompt: "premium" },
+];
+
+const categoryFilterChips: {
+  value: ProductCategorySlug;
+  label: string;
+  prompt: string;
+}[] = [
+  { value: "skonhet", label: "Skönhet", prompt: "skönhet" },
+  { value: "traning", label: "Träning", prompt: "träning" },
+  { value: "halsa", label: "Hälsa", prompt: "hälsa" },
+];
 
 function createMessageId() {
   return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+}
+
+function hasPreferences(preferences: ElinPreferences) {
+  return Object.values(preferences).some(Boolean);
+}
+
+function isElinPreferences(value: unknown): value is ElinPreferences {
+  if (!value || typeof value !== "object") {
+    return false;
+  }
+
+  const data = value as Record<string, unknown>;
+  const validSkinTypes = new Set(["torr", "fet", "kombinerad", "känslig", "normal"]);
+  const validHairLengths = new Set(["kort", "axellångt", "långt"]);
+  const validBudgets = new Set(["budget", "mellan", "premium"]);
+  const validCategories = new Set(["skonhet", "traning", "halsa"]);
+
+  return (
+    (!data.skinType || validSkinTypes.has(data.skinType as string)) &&
+    (!data.hairLength || validHairLengths.has(data.hairLength as string)) &&
+    (!data.budget || validBudgets.has(data.budget as string)) &&
+    (!data.category || validCategories.has(data.category as string))
+  );
+}
+
+function mergePreferences(
+  current: ElinPreferences,
+  next: ElinPreferences,
+): ElinPreferences {
+  return {
+    ...current,
+    ...next,
+  };
+}
+
+function inferPreferences(
+  text: string,
+  selectedBudget: PriceTier | null,
+  selectedCategory: ProductCategorySlug | null,
+): ElinPreferences {
+  const normalized = text.toLocaleLowerCase("sv-SE");
+  const preferences: ElinPreferences = {};
+
+  if (selectedBudget) {
+    preferences.budget = selectedBudget;
+  } else if (/\bbudget\b|billig|prisvärd/.test(normalized)) {
+    preferences.budget = "budget";
+  } else if (/\bpremium\b|lyx|dyr/.test(normalized)) {
+    preferences.budget = "premium";
+  } else if (/\bmellan\b|mellannivå/.test(normalized)) {
+    preferences.budget = "mellan";
+  }
+
+  if (selectedCategory) {
+    preferences.category = selectedCategory;
+  } else if (/hud|serum|kräm|skönhet|beauty|hår/.test(normalized)) {
+    preferences.category = "skonhet";
+  } else if (/träning|massagepistol|gym|återhämtning/.test(normalized)) {
+    preferences.category = "traning";
+  } else if (/hälsa|avkoppling|wellness/.test(normalized)) {
+    preferences.category = "halsa";
+  }
+
+  if (/känslig/.test(normalized)) {
+    preferences.skinType = "känslig";
+  } else if (/kombinerad/.test(normalized)) {
+    preferences.skinType = "kombinerad";
+  } else if (/\btorr\b|torr hud|torr hy/.test(normalized)) {
+    preferences.skinType = "torr";
+  } else if (/\bfet\b|oljig/.test(normalized)) {
+    preferences.skinType = "fet";
+  } else if (/\bnormal\b/.test(normalized)) {
+    preferences.skinType = "normal";
+  }
+
+  if (/axellång/.test(normalized)) {
+    preferences.hairLength = "axellångt";
+  } else if (/kort hår|kortare hår/.test(normalized)) {
+    preferences.hairLength = "kort";
+  } else if (/långt hår|långt/.test(normalized)) {
+    preferences.hairLength = "långt";
+  }
+
+  return preferences;
+}
+
+function buildScopePrefix(
+  selectedBudget: PriceTier | null,
+  selectedCategory: ProductCategorySlug | null,
+) {
+  const parts = [
+    selectedBudget
+      ? `budget: ${budgetFilterChips.find((chip) => chip.value === selectedBudget)?.prompt}`
+      : null,
+    selectedCategory
+      ? `område: ${categoryFilterChips.find((chip) => chip.value === selectedCategory)?.prompt}`
+      : null,
+  ].filter(Boolean);
+
+  return parts.length ? `[Valda filter: ${parts.join(", ")}]` : "";
+}
+
+function describePreferences(preferences: ElinPreferences) {
+  const parts = [
+    preferences.budget ? `budget ${preferences.budget}` : null,
+    preferences.category
+      ? categoryFilterChips.find((chip) => chip.value === preferences.category)?.label
+      : null,
+    preferences.skinType ? `${preferences.skinType} hud` : null,
+    preferences.hairLength ? `${preferences.hairLength} hår` : null,
+  ].filter(Boolean);
+
+  return parts.join(" · ");
 }
 
 function renderInlineMarkdown(text: string) {
@@ -306,7 +445,7 @@ function ProductCardView({
           rel="noopener noreferrer sponsored"
           className="inline-flex min-h-9 items-center gap-1 rounded-full bg-[#D8788D] px-3 text-xs font-black text-[#FFF9F7] transition hover:-translate-y-0.5 hover:bg-[#c96b80]"
         >
-          Kolla priset på Amazon
+          Se aktuellt pris på Amazon
           <ArrowUpRight className="size-3.5" aria-hidden="true" />
         </a>
         <Link
@@ -341,6 +480,9 @@ export function ElinChat({
   const [messages, setMessages] = useState<ConversationMessage[]>([]);
   const [input, setInput] = useState("");
   const [isSending, setIsSending] = useState(false);
+  const [preferences, setPreferences] = useState<ElinPreferences>({});
+  const [selectedBudget, setSelectedBudget] = useState<PriceTier | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<ProductCategorySlug | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const persist = !focus;
 
@@ -390,6 +532,33 @@ export function ElinChat({
   }, [messages, persist]);
 
   useEffect(() => {
+    try {
+      const raw = window.localStorage.getItem(prefsStorageKey);
+      if (!raw) {
+        return;
+      }
+      const parsed = JSON.parse(raw);
+      if (isElinPreferences(parsed)) {
+        setPreferences(parsed);
+      }
+    } catch {
+      // ignore corrupt storage
+    }
+  }, []);
+
+  useEffect(() => {
+    try {
+      if (!hasPreferences(preferences)) {
+        window.localStorage.removeItem(prefsStorageKey);
+        return;
+      }
+      window.localStorage.setItem(prefsStorageKey, JSON.stringify(preferences));
+    } catch {
+      // storage may be unavailable
+    }
+  }, [preferences]);
+
+  useEffect(() => {
     if (!initialPrompt) {
       return;
     }
@@ -410,18 +579,24 @@ export function ElinChat({
   );
 
   async function sendMessage(messageText: string) {
-    const trimmed = messageText.trim().slice(0, 500);
+    const trimmed = messageText.trim();
     if (!trimmed || isSending) {
       return;
     }
 
+    const scopePrefix = buildScopePrefix(selectedBudget, selectedCategory);
+    const scopedText = `${scopePrefix ? `${scopePrefix} ` : ""}${trimmed}`.slice(0, 500);
+    const nextPreferences = mergePreferences(
+      preferences,
+      inferPreferences(scopedText, selectedBudget, selectedCategory),
+    );
     const userMessage: ConversationMessage = {
       id: createMessageId(),
       role: "user",
-      content: trimmed,
+      content: scopedText,
     };
     const assistantId = createMessageId();
-    const nextHistory = [...history, { role: "user" as const, content: trimmed }];
+    const nextHistory = [...history, { role: "user" as const, content: scopedText }];
 
     setMessages((current) => [
       ...current,
@@ -429,6 +604,9 @@ export function ElinChat({
       { id: assistantId, role: "assistant", content: "", products: [], followUps: [] },
     ]);
     setInput("");
+    setPreferences(nextPreferences);
+    setSelectedBudget(null);
+    setSelectedCategory(null);
     setIsSending(true);
 
     const updateAssistant = (
@@ -444,6 +622,7 @@ export function ElinChat({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           messages: nextHistory,
+          ...(hasPreferences(nextPreferences) ? { preferences: nextPreferences } : {}),
           ...(focus ? { focus } : {}),
         }),
       });
@@ -538,6 +717,9 @@ export function ElinChat({
 
   function clearChat() {
     setMessages([]);
+    setPreferences({});
+    setSelectedBudget(null);
+    setSelectedCategory(null);
     if (persist) {
       try {
         window.localStorage.removeItem(storageKey);
@@ -545,9 +727,16 @@ export function ElinChat({
         // ignore
       }
     }
+    try {
+      window.localStorage.removeItem(prefsStorageKey);
+    } catch {
+      // ignore
+    }
   }
 
   const lastIndex = messages.length - 1;
+  const preferenceText = describePreferences(preferences);
+  const hasStoredPreferences = hasPreferences(preferences);
 
   return (
     <section
@@ -562,7 +751,7 @@ export function ElinChat({
               : "Svarar kort, ärligt och produktdatastyrt"}
           </p>
         </div>
-        {messages.length > 0 ? (
+        {messages.length > 0 || hasStoredPreferences ? (
           <button
             type="button"
             onClick={clearChat}
@@ -691,6 +880,55 @@ export function ElinChat({
         onSubmit={onSubmit}
         className="sticky bottom-0 border-t border-[#F1D8DD] bg-[#FFF9F7] p-3 sm:p-4"
       >
+        <div className="mb-2 flex flex-wrap gap-1.5 px-1">
+          {budgetFilterChips.map((chip) => {
+            const active = selectedBudget === chip.value;
+            return (
+              <button
+                key={chip.value}
+                type="button"
+                aria-pressed={active}
+                disabled={isSending}
+                onClick={() =>
+                  setSelectedBudget((current) => (current === chip.value ? null : chip.value))
+                }
+                className={`min-h-8 rounded-full border px-3 text-[0.72rem] font-black transition ${
+                  active
+                    ? "border-[#D8788D] bg-[#D8788D] text-[#FFF9F7]"
+                    : "border-[#F1D8DD] bg-white text-[#4B2838] hover:bg-[#FFF1F3]"
+                } disabled:cursor-not-allowed disabled:opacity-55`}
+              >
+                {chip.label}
+              </button>
+            );
+          })}
+          {categoryFilterChips.map((chip) => {
+            const active = selectedCategory === chip.value;
+            return (
+              <button
+                key={chip.value}
+                type="button"
+                aria-pressed={active}
+                disabled={isSending}
+                onClick={() =>
+                  setSelectedCategory((current) => (current === chip.value ? null : chip.value))
+                }
+                className={`min-h-8 rounded-full border px-3 text-[0.72rem] font-bold transition ${
+                  active
+                    ? "border-[#4B2838] bg-[#4B2838] text-[#FFF9F7]"
+                    : "border-[#F1D8DD] bg-white text-[#4B2838] hover:bg-[#FFF1F3]"
+                } disabled:cursor-not-allowed disabled:opacity-55`}
+              >
+                {chip.label}
+              </button>
+            );
+          })}
+        </div>
+        {preferenceText ? (
+          <p className="mb-2 px-2 text-xs font-bold text-[#6f5a64]">
+            Kommer ihåg: {preferenceText}
+          </p>
+        ) : null}
         <div className="flex items-end gap-2 rounded-[1.3rem] border border-[#F1D8DD] bg-white p-2">
           <textarea
             ref={textareaRef}
