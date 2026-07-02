@@ -2,6 +2,14 @@ import "server-only";
 
 import { createClient } from "@supabase/supabase-js";
 
+export type Json =
+  | string
+  | number
+  | boolean
+  | null
+  | { [key: string]: Json | undefined }
+  | Json[];
+
 type ProductReviewRow = {
   id: string;
   product_slug: string;
@@ -42,9 +50,27 @@ type ElinLogRow = {
   created_at: string;
 };
 
+type ElinSubscriberRow = {
+  id: string;
+  email: string;
+  source: string | null;
+  context: Json | null;
+  consent_text: string;
+  created_at: string;
+};
+
 export type ReviewsDatabase = {
   public: {
     Tables: {
+      elin_subscribers: {
+        Row: ElinSubscriberRow;
+        Insert: Omit<ElinSubscriberRow, "id" | "created_at"> & {
+          id?: string;
+          created_at?: string;
+        };
+        Update: Partial<ElinSubscriberRow>;
+        Relationships: [];
+      };
       elin_logs: {
         Row: ElinLogRow;
         Insert: Omit<ElinLogRow, "id" | "created_at" | "variant"> & {

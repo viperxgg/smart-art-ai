@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { MessageCircle, Quote, Star } from "lucide-react";
 
+import { formatRatingSummary } from "@/lib/ratings";
+
 type AmazonQuote = {
   text: string;
   attribution: string;
@@ -8,12 +10,14 @@ type AmazonQuote = {
 
 type TrustReviewLayersProps = {
   amazonSummary: string;
+  ratingCheckedAt?: string;
   amazonQuotes?: AmazonQuote[];
   reviewHref?: string;
 };
 
 export function TrustReviewLayers({
   amazonSummary,
+  ratingCheckedAt,
   amazonQuotes = [],
   reviewHref = "#recensioner",
 }: TrustReviewLayersProps) {
@@ -33,7 +37,9 @@ export function TrustReviewLayers({
             </h2>
           </div>
         </div>
-        <p className="mt-5 leading-8 text-[#6f5a64]">{amazonSummary}</p>
+        <p className="mt-5 leading-8 text-[#6f5a64]">
+          {formatRatingSummary(amazonSummary, ratingCheckedAt)}
+        </p>
         {amazonQuotes.length > 0 ? (
           <div className="mt-5 space-y-3">
             {amazonQuotes.map((quote) => (

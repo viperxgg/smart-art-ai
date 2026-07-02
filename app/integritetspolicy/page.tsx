@@ -74,6 +74,31 @@ export default function PrivacyPolicyPage() {
 
             <article className="rounded-3xl bg-[#FFF4F5] p-5">
               <h2 className="editorial-color-kiss font-display text-2xl">
+                Sparade val i Elin-chatten
+              </h2>
+              <p className="mt-3 leading-7 text-[#6f5a64]">
+                Om du frivilligt lämnar din mejladress i Elin-chatten sparar vi
+                mejladressen, källan, det samtycke du godkände och enkel kontext
+                som produktval eller sparade rutinsluggar. Syftet är att kunna
+                spara dina val och senare tipsa om prisdroppar eller rutiner du
+                bett om.
+              </p>
+              <p className="mt-3 leading-7 text-[#6f5a64]">
+                Du kan när som helst begära radering eller avregistrera dig
+                genom att mejla{" "}
+                <a
+                  href={`mailto:${siteConfig.email}`}
+                  className="font-black text-[#9E5E73] underline"
+                >
+                  {siteConfig.email}
+                </a>
+                . Vi använder inte uppgifterna för något annat och säljer dem
+                inte vidare.
+              </p>
+            </article>
+
+            <article className="rounded-3xl bg-[#FFF4F5] p-5">
+              <h2 className="editorial-color-kiss font-display text-2xl">
                 Formulärskydd och cookies
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">

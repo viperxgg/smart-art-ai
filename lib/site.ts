@@ -8,3 +8,5 @@ export const siteConfig = {
   description:
     "Elin jämför betyg och tusentals recensioner och ger varje produkt en Elins poäng – så hittar du det som faktiskt är värt pengarna. Skönhet, hälsa och träning.",
 } as const;
+
+export const DEFAULT_RATING_CHECKED_AT = "juni 2026";

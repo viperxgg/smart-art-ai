@@ -1,6 +1,7 @@
 import { AlertTriangle, CheckCircle2, Star } from "lucide-react";
 
 import type { AmazonReviewSignal } from "@/lib/products";
+import { formatRatingSummary } from "@/lib/ratings";
 
 export function AmazonReviewSignals({
   signal,
@@ -30,7 +31,7 @@ export function AmazonReviewSignals({
           className="rating-badge"
         >
           <Star size={16} fill="currentColor" aria-hidden="true" />
-          {signal.ratingSummary}
+          {formatRatingSummary(signal.ratingSummary, signal.ratingCheckedAt)}
         </a>
       </div>
 

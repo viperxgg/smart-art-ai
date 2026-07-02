@@ -20,6 +20,7 @@ import {
   flaktFaqItems,
   type FlaktPick,
 } from "@/lib/flakt";
+import { formatRatingSummary } from "@/lib/ratings";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
 import { siteConfig } from "@/lib/site";
 
@@ -283,7 +284,10 @@ export async function FlaktProductReviewPage({
               Amazon-signaler
             </h2>
             <p className="mt-4 leading-8 text-[#6f5a64]">
-              {pick.product.amazonReviewSignal.ratingSummary}
+              {formatRatingSummary(
+                pick.product.amazonReviewSignal.ratingSummary,
+                pick.product.amazonReviewSignal.ratingCheckedAt,
+              )}
             </p>
             <a
               href={pick.product.amazonReviewSignal.sourceUrl}

@@ -60,6 +60,7 @@ export type AmazonReviewSignal = {
   sourceLabel: string;
   sourceUrl: string;
   ratingSummary: string;
+  ratingCheckedAt?: string;
   highlights: string[];
   cautions: string[];
 };
@@ -1815,7 +1816,20 @@ export const minimalistHyaluronsyraSerumProduct: Product = {
       "Elin går igenom signalerna kring Minimalists hyaluronsyra-serum: 2% hyaluronsyra i flera molekylstorlekar plus PGA (polyglutaminsyra) och vitamin B5 för att binda och hålla kvar fukt. Parfymfritt och icke-komedogent - ett enkelt, prisvärt fuktsteg för sommarhud.",
     verdict:
       "Prisvärt fukt-serum som återfuktar på flera nivåer.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Lägger till ett enkelt fuktsteg när huden känns stram, yttorr eller behöver mer mjukhet under kräm.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Prisvärd, parfymfri och lätt att kombinera med annat. Det är precis den sortens serum som gör en rutin mer stabil utan att kännas lyxkrånglig.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Hyaluronsyra behöver fukt och ett låsande steg. På torr hud utan fuktkräm kan effekten kännas mindre imponerande.",
+      },
+    ],
   },
   specSectionEyebrow: "Hudvård",
   specSectionTitle: "Minimalist Hyaluronic Acid + PGA",
@@ -1844,9 +1858,22 @@ export const minimalistHyaluronsyraSerumProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "På lätt fuktig hud före fuktkräm.",
+    "Under dagkräm när huden känns yttorr men du inte vill ha en tung olja.",
+    "I en minimalistisk rutin med rengöring, serum och kräm.",
+    "Som extra fuktlager efter dusch eller rengöring.",
+  ],
+  peopleLike: [
+    "Köpare lyfter den lätta känslan som ett enkelt fuktsteg.",
+    "Parfymfri och silikonfri formula uppskattas av många.",
+    "Hyaluronsyra, PGA och vitamin B5 kopplas till en mer återfuktad känsla.",
+  ],
+  honestCheck: [
+    "Följ upp med fuktkräm så att fukten stannar kvar.",
+    "Resultat och känsla varierar mellan hudtyper.",
+    "Mer serum gör inte automatiskt mer nytta; några droppar räcker ofta.",
+  ],
   comments: [],
 };
 
@@ -1946,7 +1973,20 @@ export const inkeyNiacinamideSerumProduct: Product = {
       "Elin går igenom signalerna kring The INKEY List 10% niacinamide-serum: ett lätt, prisvärt gel-serum med 10% niacinamide (B3) plus en touch hyaluronsyra. Mattar fett och glans och hjälper till att jämna ut hudtonen – ett smidigt steg för fet och blandhy.",
     verdict:
       "Prisvärt niacinamide-serum som mattar fett och jämnar hudtonen.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ger ett lätt serumsteg för fet eller blandad hy när du vill matta glans och få en jämnare kosmetisk look.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "10% niacinamide, gelkänsla och ett rimligt pris gör den lätt att rekommendera som första niacinamide-produkt.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Hög procent passar inte alla. Börja sparsamt och öka bara om huden känns bekväm.",
+      },
+    ],
   },
   specSectionEyebrow: "Hudvård",
   specSectionTitle: "The INKEY List 10% Niacinamide Serum",
@@ -1979,9 +2019,22 @@ export const inkeyNiacinamideSerumProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Som serum efter rengöring och före fuktkräm.",
+    "I morgonrutinen när du vill dämpa glans under dagen.",
+    "I en enkel rutin för fet eller blandad hy.",
+    "Några gånger i veckan först om du är ovan vid niacinamide.",
+  ],
+  peopleLike: [
+    "Köparsignalerna pekar på en lätt gel som försvinner under annan hudvård.",
+    "Parfymfri formula uppskattas i enkla rutiner.",
+    "Niacinamide och hyaluronsyra gör den relevant för fet och blandad hy.",
+  ],
+  honestCheck: [
+    "Börja med en liten mängd; mer niacinamide är inte alltid bättre.",
+    "Följ upp med fuktkräm om huden känns stram.",
+    "Justera frekvensen om huden känns irriterad.",
+  ],
   comments: [],
 };
 
@@ -2156,7 +2209,20 @@ export const lorealAbsolutRepairProduct: Product = {
       "Elin går igenom Amazon-signaler, innehåll och användning för en hårinpackning som passar torrt, blekt och soltrött sommarhår.",
     verdict:
       "Premiumvalet för sommaren - återuppbyggande mask som gör torrt hår mjukt, blankt och lättare att reda ut.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ger ett rikare vårdsteg när längderna känns torra, soltrötta eller svåra att reda ut.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Den passar tydligt för hår som behöver mer än vanligt balsam, och signalerna lyfter mjukhet, glans och enklare utredning.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Det är ett premiumval. Fint hår kan tyngas om du tar för mycket, så börja i längderna och dosera sparsamt.",
+      },
+    ],
   },
   specSectionEyebrow: "Hårinpackning",
   specSectionTitle: "L'Oréal Absolut Repair",
@@ -2181,9 +2247,22 @@ export const lorealAbsolutRepairProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Som inpackning en gång i veckan när håret känns torrt.",
+    "Efter sol, bad eller mycket värmestyling.",
+    "I blekt eller ljust hår som lätt blir strävt.",
+    "När du vill reda ut längderna lättare inför styling.",
+  ],
+  peopleLike: [
+    "Köpare beskriver håret som mjukt, silkeslent och lättare att reda ut.",
+    "Flera med blekt eller ljust hår rekommenderar den.",
+    "Doft och rik konsistens får positiva signaler.",
+  ],
+  honestCheck: [
+    "Dyrare än vanligt balsam, så den ska lösa ett tydligt behov.",
+    "Fint hår kan tyngas av för mycket produkt.",
+    "Fokusera på längder och toppar snarare än hårbotten.",
+  ],
   comments: [],
 };
 
@@ -2348,7 +2427,20 @@ export const lorealElvitalVarmeskyddProduct: Product = {
       "Elin går igenom Amazon-signaler och användning för ett värmeskydd som passar innan vanliga värmeverktyg.",
     verdict:
       "Prisvärda valet - ett enkelt, effektivt värmeskydd innan värmestyling.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Lägger ett prisvärt skyddande stylingsteg före fön, plattång, locktång eller varmluftsborste.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Den är lätt att förstå i vardagen: spraya före värme, få mer glid i håret och slipp betala premiumpris för ett bassteg.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Värmeskydd minskar inte behovet av varsam styling. För mycket produkt kan ge hinna och hög värme sliter ändå över tid.",
+      },
+    ],
   },
   specSectionEyebrow: "Värmeskydd",
   specSectionTitle: "L'Oréal Elvital Dream Length",
@@ -2372,9 +2464,22 @@ export const lorealElvitalVarmeskyddProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Före föning när håret ska formas eller slätas ut.",
+    "Före plattång eller locktång i längderna.",
+    "Innan varmluftsborste för mer glid och mindre frizz-känsla.",
+    "Som budgetvänligt bassteg i en stylingrutin.",
+  ],
+  peopleLike: [
+    "Köpare lyfter att håret blir lättare att reda ut.",
+    "Mindre frizz och mer glans återkommer i signalerna.",
+    "Priset beskrivs som vänligare än många stylingprodukter.",
+  ],
+  honestCheck: [
+    "Spraya jämnt och undvik att överdosera.",
+    "Doft och finish upplevs olika.",
+    "Använd fortfarande rimlig värme och värmestyla inte mer än håret klarar.",
+  ],
   comments: [],
 };
 
@@ -2981,7 +3086,20 @@ export const larochePosayVitaminC10Product: Product = {
     headline: "C-vitamin för lyster och glow",
     intro: "Elin går igenom La Roche-Posay Pure Vitamin C10: 10% ren C-vitamin plus hyaluronsyra för en piggare, mer strålande hud. C-vitamin är en omtyckt antioxidant-ingrediens för lyster och en jämnare hudton, och formulan är gjord med tanke på känslig hud.",
     verdict: "Prisvärt apoteksserum för lyster och glow, även för känslig hud.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ger ett fokuserat glow-steg för hud som ser trött ut och där du vill ha mer lyster i rutinen.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "10% ren C-vitamin i en lätt textur gör produkten tydlig: den är för lyster och en piggare look, inte för att stapla många serum.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Ren C-vitamin kan kännas aktiv. Börja försiktigt och förvara serumet rätt så att formulan håller sig fräsch.",
+      },
+    ],
   },
   specSectionEyebrow: "Hudvård",
   specSectionTitle: "La Roche-Posay Pure Vitamin C10",
@@ -3017,9 +3135,22 @@ export const larochePosayVitaminC10Product: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Som morgonserum under fuktkräm när du vill ha mer lyster.",
+    "Varannan dag i början om huden lätt reagerar på aktiva ingredienser.",
+    "När du vill hålla rutinen kort: rengöring, serum, fuktkräm.",
+    "För hud som behöver en piggare kosmetisk finish snarare än ännu ett rikt krämsteg.",
+  ],
+  peopleLike: [
+    "Köpare beskriver huden som piggare och mer strålande med tiden.",
+    "Den lätta texturen upplevs snabbabsorberande.",
+    "Flera uppskattar att den känns skonsam nog för känsligare hud.",
+  ],
+  honestCheck: [
+    "Ren C-vitamin kan svida lätt i början.",
+    "Förvara mörkt och svalt eftersom C-vitamin kan oxidera.",
+    "Testa på liten yta först om huden är känslig.",
+  ],
   comments: [],
 };
 
@@ -3571,7 +3702,20 @@ export const levoitCore200sProduct: Product = {
     headline: "Renare luft med tyst nattläge",
     intro: "Elin går igenom Levoit Core 200S: en kompakt smart luftrenare med 3-lagers HEPA-filter som fångar damm, pollen och partiklar i luften. Tyst nattläge och styrning via app eller röst gör den enkel att ha igång i sovrum och mindre rum.",
     verdict: "Prisvärd, smart luftrenare för renare luft i sovrum och mindre rum.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Hjälper dig få en fräschare inomhuskänsla i mindre rum där damm och instängd luft snabbt märks.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Kombinationen av kompakt format, tyst nattläge och appstyrning gör den lätt att placera i sovrum utan att kännas tekniskt krånglig.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Den är gjord för mindre ytor. För stora öppna rum behöver du kontrollera kapacitet och räkna med filterbyten.",
+      },
+    ],
   },
   specSectionEyebrow: "Smart hem",
   specSectionTitle: "Levoit Core 200S luftrenare",
@@ -3607,9 +3751,22 @@ export const levoitCore200sProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "I sovrum där du vill ha tyst nattläge och fräschare luftkänsla.",
+    "I hemmakontor eller mindre vardagsrum där damm samlas snabbt.",
+    "När du vill kunna styra fläkten från app eller röststyrning.",
+    "Som kompakt luftrenare nära där du faktiskt vistas, inte i hela bostaden.",
+  ],
+  peopleLike: [
+    "Köpare upplever luften som fräschare och mindre dammig.",
+    "Nattläget beskrivs som riktigt tyst.",
+    "Kompakt format och enkel appstyrning återkommer i signalerna.",
+  ],
+  honestCheck: [
+    "Passar bäst för mindre rum och nära placering.",
+    "HEPA-filter behöver bytas, vilket ger en återkommande kostnad.",
+    "Placera den så luftflödet inte blockeras av möbler eller gardiner.",
+  ],
   comments: [],
 };
 
@@ -3826,7 +3983,20 @@ export const celdyqueBakuchiolProduct: Product = {
     headline: "Bakuchiol – mildt växtbaserat alternativ",
     intro: "Elin går igenom CELDYQUE Bakuchiol Concentrate Serum: bakuchiol är en växtbaserad ingrediens som ofta beskrivs som ett mildare alternativ till retinol. Det är omtyckt för att ge slätare, mer lystrande hud och en jämnare hudton, utan den svidning och flagning som retinol kan ge känslig hud.",
     verdict: "Milt växtbaserat serum för slätare, lystrande hud – fint för känslig hy.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ger ett mildare serumalternativ när du vill ha en slätare och mer lystrande kosmetisk hudkänsla utan att börja med retinol.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Bakuchiol-positioneringen är tydlig och lätt att förstå för känsligare hud: gradvis, mjukt och med lätt textur.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Bakuchiol verkar inte över en natt. Ge det tid och testa först om huden brukar reagera på nya serum.",
+      },
+    ],
   },
   specSectionEyebrow: "Hudvård",
   specSectionTitle: "CELDYQUE Bakuchiol Concentrate",
@@ -3862,9 +4032,22 @@ export const celdyqueBakuchiolProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Som kvällsserum innan fuktkräm.",
+    "När du vill prova ett retinol-alternativ i en lugnare rutin.",
+    "På liten yta först om huden är känslig.",
+    "Några kvällar i veckan innan du ökar frekvensen.",
+  ],
+  peopleLike: [
+    "Köpare beskriver huden som slätare och mer lystrande med tiden.",
+    "Flera upplever den mildare än retinol.",
+    "Den lätta texturen sägs absorberas snabbt.",
+  ],
+  honestCheck: [
+    "Ge serumet några veckor innan du bedömer känslan.",
+    "Testa på liten yta först vid känslig hud.",
+    "Håll rutinen enkel så att du vet vad huden reagerar på.",
+  ],
   comments: [],
 };
 
@@ -3996,7 +4179,20 @@ export const paulasChoiceBhaProduct: Product = {
     headline: "Salicylsyra för porer, lyster och slät hud",
     intro: "Elin går igenom Paula's Choice 2% BHA Liquid Exfoliant: ett flytande exfoliant med 2% salicylsyra som är känt för att hjälpa porer att se renare ut och ge huden mer lyster och en slätare yta. BHA är en omtyckt syra för blandad och fet hud, och just den här produkten är något av en kultfavorit.",
     verdict: "Kultfavorit-exfoliant för renare porer, lyster och slätare hud.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ger ett tydligt exfolierande steg för dig som vill ha en slätare hudyta och en renare por-känsla i rutinen.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Det stora review-underlaget och den enkla flytande texturen gör produkten lätt att förstå: aktivt steg, inte vardagskräm.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Syror kräver respekt. Börja glest, undvik att stapla för många aktiva steg och lyssna på huden.",
+      },
+    ],
   },
   specSectionEyebrow: "Hudvård",
   specSectionTitle: "Paula's Choice Skin Perfecting 2% BHA",
@@ -4032,9 +4228,22 @@ export const paulasChoiceBhaProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Efter rengöring några kvällar i veckan i början.",
+    "När du vill ha ett separat exfolierande steg i stället för skrubb.",
+    "På områden där huden känns ojämn eller blank.",
+    "Under en enkel fuktkräm, inte tillsammans med många nya aktiva produkter på en gång.",
+  ],
+  peopleLike: [
+    "Tusentals köpare beskriver renare por-känsla och slätare yta.",
+    "Mer lyster och jämnare hudton återkommer i signalerna.",
+    "Den lätta flytande texturen upplevs snabbabsorberande.",
+  ],
+  honestCheck: [
+    "Salicylsyra kan svida lätt i början.",
+    "Trappa upp gradvis och pausa om huden känns stressad.",
+    "Det är lätt att överanvända exfoliering; mer är inte alltid bättre.",
+  ],
   comments: [],
 };
 
@@ -4421,7 +4630,20 @@ export const cetaphilMoisturizingCreamProduct: Product = {
     headline: "Rik fuktkräm för torr hud",
     intro: "Elin går igenom Cetaphil Moisturising Cream: en rik kräm som ger mättande fukt till torr och känslig hud. Den är gjord för att kunna användas på både ansikte och kropp, och den stora burken gör den till ett enkelt val för hela kroppen.",
     verdict: "Rik, prisvärd fuktkräm för torr hud på både ansikte och kropp.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ger mättande fukt när huden känns torr och du vill ha en enkel kräm som fungerar på flera områden.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Den stora burken och milda profilen gör den praktisk för hemmet: ansikte, kropp, händer och torra partier utan att köpa flera små tuber.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Rik kräm är inte allas favorit. Fet eller blandad hy kan tycka att den känns tung, särskilt i ansiktet.",
+      },
+    ],
   },
   specSectionEyebrow: "Hudvård",
   specSectionTitle: "Cetaphil Moisturising Cream",
@@ -4457,9 +4679,22 @@ export const cetaphilMoisturizingCreamProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "På torra kinder eller torra partier efter rengöring.",
+    "Som kroppskräm efter dusch när huden känns stram.",
+    "På händer, armbågar och ben under torrare perioder.",
+    "Som familjekräm där en stor burk är mer praktisk än små tuber.",
+  ],
+  peopleLike: [
+    "Köpare beskriver mättande fukt för torr hud.",
+    "Mild känsla på känslig hud lyfts ofta.",
+    "Den stora burken uppskattas för att räcka länge.",
+  ],
+  honestCheck: [
+    "Den rika texturen kan kännas tung på fet eller blandad hy.",
+    "Burkformatet kräver ren hand eller spatel för en fräschare känsla.",
+    "Börja med en mindre mängd och bygg upp vid behov.",
+  ],
   comments: [],
 };
 
@@ -5681,7 +5916,20 @@ export const olaplexNo4ShampooProduct: Product = {
     headline: "Återuppbyggande schampo för slitet, färgat hår",
     intro: "Elin går igenom Olaplex No.4 Bond Maintenance Shampoo: ett schampo som är gjort för att stärka och vårda hår som blivit slitet av färgning, blekning och värme. Det rengör skonsamt och jobbar med längder och toppar för en mjukare, mer hanterbar känsla.",
     verdict: "Återuppbyggande schampo som många väljer för slitet och färgat hår.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Rengör samtidigt som längderna för en mer vårdande känsla än med ett enklare vardagsschampo.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Det är ett premiumschampo där lite produkt räcker långt, vilket gör priset lättare att förstå om håret verkligen behöver extra vård.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Schampo ensamt gör inte hela rutinen. Torrt eller behandlat hår behöver ofta balsam och ibland inpackning för bäst känsla.",
+      },
+    ],
   },
   specSectionEyebrow: "Hårvård",
   specSectionTitle: "Olaplex No.4 Bond Maintenance Shampoo",
@@ -5717,9 +5965,22 @@ export const olaplexNo4ShampooProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Som huvudschampo i färgat, blekt eller värmestylat hår.",
+    "När du vill att rengöringen ska kännas mer vårdande än stram.",
+    "Tillsammans med balsam eller No.3 i en mer komplett Olaplex-rutin.",
+    "När en liten mängd produkt och krämigt lödder passar din tvättvana.",
+  ],
+  peopleLike: [
+    "Köpare beskriver färgat och slitet hår som mjukare med tiden.",
+    "Flera tycker att lite produkt räcker långt.",
+    "Många använder det som första steg före balsam och inpackning i samma serie.",
+  ],
+  honestCheck: [
+    "Kombinera gärna med balsam om håret lätt blir torrt.",
+    "Upplevelsen varierar mellan hårtyper och hur skadat håret är.",
+    "Premiumpriset är lättare att motivera för behandlat hår än för helt okomplicerade längder.",
+  ],
   comments: [],
 };
 
@@ -5851,7 +6112,20 @@ export const olaplexNo3Product: Product = {
     headline: "Inpackning som stärker skadat hår",
     intro: "Elin går igenom Olaplex No.3 Hair Perfector: en pre-schampo-inpackning som är gjord för att stärka och vårda slitet, skadat hår. Den används på fuktigt hår före schampo och har blivit en klassisk favorit hos många med blekt, färgat eller värmestylat hår.",
     verdict: "Klassisk återuppbyggande inpackning för slitet och skadat hår.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ger extra omvårdnad till längder som känns slitna efter färg, blekning eller värmestyling.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "No.3 har en tydlig plats i rutinen före schampo, vilket gör den lätt att förstå om du redan har ett vårdande schampo och balsam.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Det är inte en leave-in och inte en engångslösning. Hårtyp, slitage och hur ofta du använder den påverkar känslan.",
+      },
+    ],
   },
   specSectionEyebrow: "Hårvård",
   specSectionTitle: "Olaplex No.3 Hair Perfector",
@@ -5887,9 +6161,22 @@ export const olaplexNo3Product: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Som veckosteg före schampo när längderna känns torra eller trötta.",
+    "Efter perioder med mycket värmestyling.",
+    "I färgat eller blekt hår som behöver mer omvårdnad än vanligt balsam.",
+    "Inför styling när du vill att håret ska kännas mjukare och mer följsamt.",
+  ],
+  peopleLike: [
+    "Köpare beskriver håret som starkare och mjukare efter användning.",
+    "Många med blekt eller färgat hår lyfter den som extra omvårdnad.",
+    "Den tydliga platsen före schampo gör rutinen enkel att följa.",
+  ],
+  honestCheck: [
+    "Använd före schampo, inte som balsam eller leave-in.",
+    "Resultatet varierar beroende på hårtyp och hur slitet håret är.",
+    "Premiumkänslan gör mest nytta om du faktiskt använder den regelbundet.",
+  ],
   comments: [],
 };
 
@@ -7711,7 +7998,20 @@ export const braunIplPro5Product: Product = {
     headline: "IPL för hårborttagning hemma",
     intro: "Elin går igenom Braun Silk-expert Pro 5 IPL: en IPL för hårborttagning hemma som med regelbunden användning ger synligt mindre hårväxt över tid. Du behandlar i lugn och ro på egen hand, och många uppskattar att slippa raka lika ofta. Det här handlar om utseende och en slätare känsla, inte om någon permanent eller medicinsk effekt.",
     verdict: "Smidig IPL för hårborttagning hemma som ger synligt mindre hårväxt över tid.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ger ett hemma-alternativ för dig som vill minska synlig hårväxt över tid utan att boka salongstid för varje behandling.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Den är mer seriös än många enklare hårborttagningsprylar eftersom den kräver schema, hud-/hårmatchning och flera intensitetslägen.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "IPL är tålamod, inte snabbfix. Resultatet varierar och tekniken passar inte alla hår- och hudkombinationer.",
+      },
+    ],
   },
   specSectionEyebrow: "Hårborttagning",
   specSectionTitle: "Braun Silk-expert Pro 5 IPL",
@@ -7747,9 +8047,22 @@ export const braunIplPro5Product: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Planerade behandlingar hemma enligt bruksanvisningens schema.",
+    "På områden där hår- och hudtyp passar IPL-tekniken.",
+    "När du vill göra behandlingen i lugn och ro utan salongsbokning.",
+    "Som långsiktigare rutin än rakning, men med mer förarbete.",
+  ],
+  peopleLike: [
+    "Köpare beskriver mindre synlig hårväxt efter regelbunden användning.",
+    "Många gillar friheten att behandla hemma.",
+    "Flera uppskattar att intensiteten gör att anpassa.",
+  ],
+  honestCheck: [
+    "Läs bruksanvisningen noga innan första behandling.",
+    "Fungerar bäst på mörkare hår och ljusare hud; alla kombinationer passar inte.",
+    "Du behöver vara regelbunden i flera veckor innan du utvärderar känslan.",
+  ],
   comments: [],
 };
 
@@ -8381,7 +8694,20 @@ export const bowflexSelectTech552iProduct: Product = {
     headline: "Ett par hantlar som ersätter en hel hantelställning",
     intro: "Elin går igenom BowFlex SelectTech 552i: ett par justerbara hantlar där du vrider på en ratt för att ställa in vikten mellan 2 och 24 kg per hantel. Tanken är att ett enda par ska ersätta flera fasta hantlar och spara plats hemma.",
     verdict: "Platssmart lösning för hemmaträning där ett par hantlar täcker många vikter.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ersätter många fasta hantlar i ett hemmagym där golvyta och förvaring är begränsad.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Vridratten gör viktbyten snabba mellan övningar, och spannet 2-24 kg per hantel täcker många vanliga styrkepass hemma.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Betygsunderlaget är mycket tunt och justerbara hantlar är mer skrymmande än fasta. Mekaniken måste kännas rätt innan lyft.",
+      },
+    ],
   },
   specSectionEyebrow: "Träning",
   specSectionTitle: "BowFlex SelectTech 552i",
@@ -8417,9 +8743,22 @@ export const bowflexSelectTech552iProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Helkroppspass hemma när du vill växla vikt mellan övningar.",
+    "Superset där snabba viktbyten sparar tid.",
+    "Små hemmagym där en hantelställning inte får plats.",
+    "Progression från lätta till tyngre vikter utan att köpa nya par hela tiden.",
+  ],
+  peopleLike: [
+    "Köpare uppskattar att ett par ersätter många fasta hantlar.",
+    "Vridratten lyfts för snabba viktbyten.",
+    "Platsbesparingen är en återkommande positiv signal.",
+  ],
+  honestCheck: [
+    "Endast 9 omdömen i den registrerade Amazon-signalen, så var försiktig med betyget.",
+    "Kontrollera alltid att låsmekanismen sitter innan du lyfter.",
+    "De är större per hantel än fasta hantlar och kan kännas klumpigare i vissa övningar.",
+  ],
   comments: [],
 };
 
@@ -8721,7 +9060,20 @@ export const ironGymPullUpProduct: Product = {
     headline: "Chinsstång för dörren – utan borrning",
     intro: "Elin går igenom Iron Gym chins-/pull-up-stång: en stång som monteras i dörrkarmen utan borrning, för dragövningar som pull-ups och chins. Den passar den som vill träna rygg och armar hemma utan fast montering. Notera att underlaget av omdömen på Amazon är mycket tunt.",
     verdict: "Praktisk dörrstång för dragövningar hemma – men nästan inga omdömen ännu.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Gör dragövningar möjliga hemma utan att borra fast en stång permanent i väggen.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Idén är stark för hemmaträning: pull-ups och chins på liten yta. Men datan är för tunn för att kalla den tryggt beprövad.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Ett enda omdöme räcker inte som köparsignal. Dörrkarmen och monteringen är viktigare än produkttexten.",
+      },
+    ],
   },
   specSectionEyebrow: "Träning",
   specSectionTitle: "Iron Gym pull-up-stång",
@@ -8757,9 +9109,22 @@ export const ironGymPullUpProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Pull-ups och chins i en stabil dörrkarm.",
+    "Kortare rygg- och armpass hemma utan fast montering.",
+    "Som test av dragträning innan du bygger ett större hemmagym.",
+    "Endast där dörrkarmen passar och känns stadig.",
+  ],
+  peopleLike: [
+    "Produktens idé är borrfri montering i dörrkarm.",
+    "Den är gjord för pull-ups och chins hemma.",
+    "Den kan vara praktisk för rygg- och armträning utan fast installation.",
+  ],
+  honestCheck: [
+    "Den registrerade Amazon-signalen bygger på bara ett omdöme.",
+    "Kontrollera dörrkarmens stabilitet noga innan belastning.",
+    "Fel montering eller olämplig karm gör produkten riskabel att använda.",
+  ],
   comments: [],
 };
 
@@ -9741,7 +10106,20 @@ export const dhFitlifeTrampolineProduct: Product = {
     headline: "Studsmatta med handtag för kondition inomhus",
     intro: "Elin går igenom DH FitLife fitnesstudsmatta: en rund matta på Ø102 cm med ett handtag som ger extra stöd när du studsar. Den passar dig som vill ha skonsam, fjädrande kondition hemma utan att vara beroende av väder eller gym.",
     verdict: "Smidig studsmatta för skonsam kondition inomhus, med handtag för extra stöd.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ger ett roligare konditionspass hemma när du vill röra på dig utan löpband eller stora maskiner.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Handtaget gör studsträningen mer lättillgänglig, särskilt om du vill ha balansstöd medan du vänjer dig vid rörelsen.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Inomhusstuds kräver utrymme, stabil montering och takhöjd. Den är inte lika diskret som ett miniband eller en matta.",
+      },
+    ],
   },
   specSectionEyebrow: "Träning",
   specSectionTitle: "DH FitLife fitnesstudsmatta",
@@ -9777,9 +10155,22 @@ export const dhFitlifeTrampolineProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Korta konditionspass hemma när vädret eller tiden stoppar uteträning.",
+    "Lugna intervaller med handtaget som balansstöd.",
+    "Som variation från promenader och vanliga golvövningar.",
+    "I rum med fritt tak- och golvutrymme.",
+  ],
+  peopleLike: [
+    "Köpare uppskattar den fjädrande och skonsamma känslan.",
+    "Handtaget beskrivs som tryggt för balans.",
+    "Storleken ses som smidig för inomhusträning.",
+  ],
+  honestCheck: [
+    "Kontrollera takhöjd och fri yta runt mattan innan användning.",
+    "Montering och åtdragning behöver göras noggrant.",
+    "Börja lugnt tills balans och studs känns stabilt.",
+  ],
   comments: [],
 };
 
@@ -9911,7 +10302,20 @@ export const rehbandKneeProduct: Product = {
     headline: "Knäskydd i neopren för stöd och värme",
     intro: "Elin går igenom Rehband RX knäskydd 5 mm: ett neoprenskydd som ger en stadig, komprimerande känsla och värme runt knät vid tunga lyft och löpning. Det handlar om komfort och stöd under träningen – inte om att behandla eller läka skador.",
     verdict: "Stabilt neoprenknäskydd för stöd och värme vid tung träning.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ger knät en fastare och varmare känsla under pass där du vill ha mer stöd runt leden.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "5 mm neopren ger en tydlig kompressionskänsla som passar lyft och träning bättre än ett tunt, löst vardagsstöd.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Det är ett träningsstöd för komfort och känsla, inte en behandling. Storlek och passform avgör om det blir bra.",
+      },
+    ],
   },
   specSectionEyebrow: "Träning",
   specSectionTitle: "Rehband RX knäskydd 5 mm",
@@ -9947,9 +10351,22 @@ export const rehbandKneeProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Vid knäböj, utfall och annan styrketräning där du vill ha kompression.",
+    "Under löppass där en varm och stadig känsla är viktig.",
+    "Som stöd i gymväskan för pass där knäna belastas extra.",
+    "När du har mätt benet och valt storlek enligt tabellen.",
+  ],
+  peopleLike: [
+    "Köpare lyfter en stadig och komprimerande känsla.",
+    "Neoprenet uppskattas för värme under passet.",
+    "Materialet beskrivs som hållbart.",
+  ],
+  honestCheck: [
+    "Följ måtttabellen; fel storlek blir snabbt obekväm.",
+    "5 mm känns fastare än tunnare skydd och passar inte alla.",
+    "Använd det som komfortstöd, inte som ersättning för bra teknik eller rådgivning vid besvär.",
+  ],
   comments: [],
 };
 
@@ -10336,7 +10753,20 @@ export const levoitHumidifierProduct: Product = {
     headline: "Tillför fukt till torr inomhusluft",
     intro: "Elin går igenom Levoit Smart 6L luftfuktare (Classic 300S). Den tillför fukt till torr inomhusluft, vilket många uppskattar under vinterhalvåret när element och kyla gör luften torr. Med tyst nattläge och appstyrning är den gjord för att smälta in i sovrummet och kunna ställas in på avstånd.",
     verdict: "Smart och tyst luftfuktare för dig som vill tillföra fukt till torr inomhusluft i sovrummet.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Tillför fukt när inomhusluften känns torr, särskilt i sovrum och vardagsrum under perioder med torr luft.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Stor 6-liters tank, tyst nattläge och appstyrning gör den mer praktisk i vardagen än en liten manuell modell som behöver fyllas hela tiden.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "En luftfuktare kräver skötsel. Fyll på, rengör och håll koll på nivåerna så att den inte blir ännu en pryl som bara står.",
+      },
+    ],
   },
   specSectionEyebrow: "Klimat",
   specSectionTitle: "Levoit Smart 6L luftfuktare (Classic 300S)",
@@ -10372,9 +10802,22 @@ export const levoitHumidifierProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "I sovrummet när luften känns torr och du vill ha tyst drift nära sängen.",
+    "I vardagsrum där du vill styra luftfuktigheten från appen.",
+    "Under vintern när element och kall luft gör hemmet torrare.",
+    "För längre körning tack vare den större tanken.",
+  ],
+  peopleLike: [
+    "Köpare beskriver luften i sovrummet som mindre torr.",
+    "Det tysta nattläget uppskattas nära sängen.",
+    "Appstyrningen lyfts som smidig för justering på avstånd.",
+  ],
+  honestCheck: [
+    "Tanken behöver fyllas och rengöras regelbundet.",
+    "Rent eller kokat vatten minskar risken för vita avlagringar.",
+    "För hög luftfuktighet är inte målet; håll koll på rummet och vädra vid behov.",
+  ],
   comments: [],
 };
 
@@ -10421,7 +10864,20 @@ export const ellaWeightedBlanketProduct: Product = {
     headline: "Jämn tyngd för en skön avkoppling",
     intro: "Elin går igenom Ella tyngdtäcke på 9 kg i storleken 150x200 cm. Tanken med ett tyngdtäcke är den jämna, omslutande tyngden som många upplever som mysig och avkopplande i sängen eller i soffan. Vikten är jämnt fördelad och tyget är mjukt mot huden.",
     verdict: "Mysigt tyngdtäcke för dig som vill ha en jämn, omslutande känsla och skön avkoppling.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Ger en jämn och omslutande tyngd i sängen när du vill ha en lugnare, mer ombonad känsla på kvällen.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Det tydliga 9 kg-formatet och den jämnt fördelade vikten gör det lätt att förstå vem täcket passar: dig som vill ha tyngd, inte bara extra värme.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Tyngd är personligt. Fel vikt kan kännas för tung eller varm, så välj efter kropp och känsla snarare än bara betyg.",
+      },
+    ],
   },
   specSectionEyebrow: "Sömn & avkoppling",
   specSectionTitle: "Ella tyngdtäcke 9 kg",
@@ -10457,9 +10913,22 @@ export const ellaWeightedBlanketProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Kvällar när du vill ha en mer omslutande känsla än ett vanligt täcke.",
+    "I sängen under svalare perioder när extra tyngd också känns mysigt.",
+    "Som vardagstäcke om 9 kg känns bekvämt för din kropp.",
+    "För lugna stunder i soffan om storleken fungerar praktiskt hemma.",
+  ],
+  peopleLike: [
+    "Köpare beskriver tyngden som jämn och avkopplande.",
+    "Viktfördelningen över täcket för positiva signaler.",
+    "Det mjuka tyget lyfts som mysigt mot huden.",
+  ],
+  honestCheck: [
+    "9 kg passar inte alla; välj hellre lättare om du är osäker.",
+    "Ett tyngre täcke kan kännas varmt, särskilt under sommaren.",
+    "Vädra och lufta täcket regelbundet för en fräschare känsla.",
+  ],
   comments: [],
 };
 
@@ -11781,7 +12250,20 @@ export const eufyRobovacProduct: Product = {
     headline: "Prisvärd robotdammsugare med appstyrning",
     intro: "Elin går igenom eufy C10: en robotdammsugare i budgetklassen som sköter golvstädningen automatiskt och styrs via appen. Du kan schemalägga städningen och låta roboten hålla golvet rent i vardagen, utan att du själv behöver dra fram dammsugaren.",
     verdict: "Prisvärd robotdammsugare som sköter golvstädningen automatiskt med appstyrning.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Tar hand om vardagsdammet mellan de större städpassen så att golven inte kräver lika mycket manuell dammsugning varje dag.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Den kombinerar appstyrning, schemaläggning och ett mer tillgängligt pris, vilket gör den intressant för den som vill prova robotdammsugare utan premiumkostnad.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Budgetrobotar är bäst i enklare hem. Höga trösklar, sladdar och små behållare kräver fortfarande att du förbereder ytan.",
+      },
+    ],
   },
   specSectionEyebrow: "Smart hem & livsstil",
   specSectionTitle: "eufy C10 robotdammsugare",
@@ -11817,9 +12299,22 @@ export const eufyRobovacProduct: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Schemalagd snabbkörning när du är på jobbet eller ute en stund.",
+    "Daglig uppfräschning i hall, kök och vardagsrum där damm syns fort.",
+    "Som första robotdammsugare i en mindre lägenhet eller på ett öppet våningsplan.",
+    "För att minska mängden vardagsdammsugning, inte ersätta all djuprengöring.",
+  ],
+  peopleLike: [
+    "Köpare uppskattar att golvstädningen sker automatiskt.",
+    "Appstyrningen beskrivs som praktisk för start och schema.",
+    "Flera ser den som prisvärd för att testa robotdammsugare.",
+  ],
+  honestCheck: [
+    "Plocka undan sladdar och småsaker innan körning så att roboten inte fastnar.",
+    "Räkna med att tömma behållaren ofta i större hem eller där det samlas mycket damm.",
+    "Höga trösklar kan fortfarande behöva manuell hjälp.",
+  ],
   comments: [],
 };
 
@@ -11866,7 +12361,20 @@ export const oralBIo5Product: Product = {
     headline: "Elektrisk tandborste med rund borste och tryckvakt",
     intro: "Elin går igenom Oral-B iO 5S: en eltandborste med rund borste och magnetteknik som tillsammans med tryckvakten hjälper dig att hitta lagom borsttryck. En vardagsmodell som många väljer för den sköna, rena känslan i munnen.",
     verdict: "Smidig eltandborste med rund borste och tryckvakt för en skön, ren känsla.",
-    checks: [],
+    checks: [
+      {
+        label: "Problemet den löser",
+        text: "Gör den dagliga borstningen mer konsekvent med rund borste, tryckvakt och flera lägen i stället för att du ska gissa hur hårt du borstar.",
+      },
+      {
+        label: "Varför Elin fastnade",
+        text: "Tryckvakten är den tydligaste värdepoängen: den hjälper dig att hålla en lugnare hand och gör modellen mer lättbegriplig än en vanlig eltandborste utan feedback.",
+      },
+      {
+        label: "Det vi inte vill överdriva",
+        text: "Det är fortfarande en tandborste som kräver rutin, rätt borsthuvud och byte av borsthuvuden över tid. Den gör inte jobbet åt dig.",
+      },
+    ],
   },
   specSectionEyebrow: "Smart hem & livsstil",
   specSectionTitle: "Oral-B iO 5S",
@@ -11902,9 +12410,22 @@ export const oralBIo5Product: Product = {
     ],
   },
   ugcVideos: [],
-  uses: [],
-  peopleLike: [],
-  honestCheck: [],
+  uses: [
+    "Morgon- och kvällsborstning när du vill ha samma rena känsla varje gång.",
+    "När du brukar trycka hårt med vanlig tandborste och vill ha tydligare feedback.",
+    "För att växla mellan borstlägen beroende på hur mjuk eller intensiv känsla du vill ha.",
+    "Som uppgradering från en enklare eltandborste utan tryckvakt.",
+  ],
+  peopleLike: [
+    "Många beskriver munnen som ren och fräsch efter borstning.",
+    "Tryckvakten lyfts som ett stöd för att inte borsta för hårt.",
+    "Den runda borsten upplevs enkel att föra runt tänderna.",
+  ],
+  honestCheck: [
+    "Borsthuvuden behöver bytas regelbundet och blir en löpande kostnad.",
+    "Känslan från rund borste och vibrationer kan ta några dagar att vänja sig vid.",
+    "Den ersätter inte en jämn borstningsrutin; den gör rutinen lättare att hålla.",
+  ],
   comments: [],
 };
 

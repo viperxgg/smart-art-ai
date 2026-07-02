@@ -2,10 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Heart, Loader2, Send, Trash2 } from "lucide-react";
+import { ArrowUpRight, Heart, Loader2, Mail, Send, Trash2, X } from "lucide-react";
 import { FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from "react";
 
 import type { ProductCategorySlug } from "@/lib/products";
+import { siteConfig } from "@/lib/site";
 
 export type ElinFocus = {
   slug: string;
@@ -89,6 +90,8 @@ type ElinChatProps = {
   className?: string;
 };
 
+type SubscribeStatus = "idle" | "submitting" | "success" | "error";
+
 const examples = [
   "Kombinerad, känslig hud – var börjar jag?",
   "💫 Bygg en rutin åt mig",
@@ -99,9 +102,11 @@ const examples = [
 const storageKey = "elin-chat-v1";
 const wishlistStorageKey = "elin-wishlist-v1";
 const prefsStorageKey = "elin-prefs-v1";
+const subscribeDismissedStorageKey = "elin-subscribe-dismissed-v1";
 const maxStoredMessages = 20;
 const maxWishlistItems = 30;
 const elinAvatarSrc = "/elin/elin-avatar.webp";
+const subscriberConsentText = `Jag samtycker till att Smart Art AI sparar min mejladress och mina valda produkt- och rutinuppgifter för att kunna tipsa om prisdroppar och sparade rutiner. Jag kan när som helst begära radering eller avregistrera mig via mejl till ${siteConfig.email}.`;
 
 const budgetFilterChips: { value: PriceTier; label: string; prompt: string }[] = [
   { value: "budget", label: "Budget", prompt: "budgetnivå" },
@@ -638,7 +643,7 @@ function ProductCardView({
         <a
           href={product.amazonUrl}
           target="_blank"
-          rel="noopener noreferrer sponsored"
+          rel="sponsored nofollow noopener noreferrer"
           className="inline-flex min-h-9 items-center gap-1 rounded-full bg-[#D8788D] px-3 text-xs font-black text-[#FFF9F7] transition hover:-translate-y-0.5 hover:bg-[#c96b80]"
         >
           Se aktuellt pris på Amazon
@@ -738,7 +743,7 @@ function WishlistPanel({
                   <a
                     href={item.amazonUrl}
                     target="_blank"
-                    rel="noopener noreferrer sponsored"
+                    rel="sponsored nofollow noopener noreferrer"
                     className="inline-flex min-h-9 items-center gap-1 rounded-full bg-[#D8788D] px-3 text-xs font-black text-[#FFF9F7] transition hover:-translate-y-0.5 hover:bg-[#c96b80]"
                   >
                     Se aktuellt pris på Amazon
@@ -758,6 +763,99 @@ function WishlistPanel({
         </div>
       )}
     </div>
+  );
+}
+
+function SubscriberCard({
+  email,
+  consent,
+  status,
+  error,
+  onEmailChange,
+  onConsentChange,
+  onDismiss,
+  onSubmit,
+}: {
+  email: string;
+  consent: boolean;
+  status: SubscribeStatus;
+  error: string;
+  onEmailChange: (value: string) => void;
+  onConsentChange: (value: boolean) => void;
+  onDismiss: () => void;
+  onSubmit: (event: FormEvent<HTMLFormElement>) => void;
+}) {
+  const isSubmitting = status === "submitting";
+
+  return (
+    <aside className="rounded-[1.2rem] border border-[#F1D8DD] bg-white p-4 shadow-[0_16px_42px_rgba(75,40,56,0.08)]">
+      <div className="flex items-start gap-3">
+        <span className="grid size-10 shrink-0 place-items-center rounded-full bg-[#FFF1F3] text-[#D8788D]">
+          <Mail className="size-4" aria-hidden="true" />
+        </span>
+        <div className="min-w-0 flex-1">
+          <div className="flex items-start justify-between gap-3">
+            <div>
+              <p className="text-sm font-black text-[#4B2838]">
+                Vill du att jag sparar dina val och tipsar när något blir billigare?
+              </p>
+              <p className="mt-1 text-xs leading-5 text-[#6f5a64]">Lämna din mejl.</p>
+            </div>
+            <button
+              type="button"
+              onClick={onDismiss}
+              className="grid min-h-9 min-w-9 shrink-0 place-items-center rounded-full border border-[#F1D8DD] bg-[#FFF9F7] text-[#6f5a64] transition hover:bg-[#FFF1F3] hover:text-[#D8788D]"
+              aria-label="Stäng mejlfrågan"
+            >
+              <X className="size-4" aria-hidden="true" />
+            </button>
+          </div>
+
+          {status === "success" ? (
+            <p className="mt-3 rounded-[0.9rem] bg-[#F1FAF4] p-3 text-sm font-bold leading-6 text-[#3E6B4E]">
+              Klart. Jag har sparat mejlen och samtycket.
+            </p>
+          ) : (
+            <form onSubmit={onSubmit} className="mt-3 space-y-3">
+              <label className="block">
+                <span className="sr-only">Mejladress</span>
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(event) => onEmailChange(event.target.value.slice(0, 254))}
+                  placeholder="dinmejl@exempel.se"
+                  autoComplete="email"
+                  className="min-h-11 w-full rounded-full border border-[#F1D8DD] bg-[#FFF9F7] px-4 text-sm font-bold text-[#4B2838] outline-none transition focus:border-[#D8788D]"
+                />
+              </label>
+
+              <label className="flex items-start gap-3 rounded-[1rem] border border-[#F1D8DD] bg-[#FFF9F7] p-3 text-xs leading-5 text-[#6f5a64]">
+                <input
+                  type="checkbox"
+                  checked={consent}
+                  onChange={(event) => onConsentChange(event.target.checked)}
+                  className="mt-1 size-4 shrink-0 accent-[#D8788D]"
+                />
+                <span>{subscriberConsentText}</span>
+              </label>
+
+              {error ? <p className="text-xs font-bold text-[#B94A62]">{error}</p> : null}
+
+              <button
+                type="submit"
+                disabled={isSubmitting || !email.trim() || !consent}
+                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-[#4B2838] px-4 text-sm font-black text-[#FFF9F7] transition hover:-translate-y-0.5 hover:bg-[#3E2230] disabled:cursor-not-allowed disabled:opacity-55"
+              >
+                {isSubmitting ? (
+                  <Loader2 className="size-4 animate-spin" aria-hidden="true" />
+                ) : null}
+                Spara mina val
+              </button>
+            </form>
+          )}
+        </div>
+      </div>
+    </aside>
   );
 }
 
@@ -785,6 +883,12 @@ export function ElinChat({
   const [wishlist, setWishlist] = useState<WishlistCard[]>([]);
   const [isWishlistReady, setIsWishlistReady] = useState(false);
   const [isWishlistOpen, setIsWishlistOpen] = useState(false);
+  const [isSubscribeReady, setIsSubscribeReady] = useState(false);
+  const [isSubscribeDismissed, setIsSubscribeDismissed] = useState(false);
+  const [subscriberEmail, setSubscriberEmail] = useState("");
+  const [subscriberConsent, setSubscriberConsent] = useState(false);
+  const [subscribeStatus, setSubscribeStatus] = useState<SubscribeStatus>("idle");
+  const [subscribeError, setSubscribeError] = useState("");
   const hasElinAvatar = useElinAvatarAvailable();
 
   useEffect(() => {
@@ -883,6 +987,18 @@ export function ElinChat({
 
   useEffect(() => {
     try {
+      setIsSubscribeDismissed(
+        window.localStorage.getItem(subscribeDismissedStorageKey) === "1",
+      );
+    } catch {
+      setIsSubscribeDismissed(false);
+    } finally {
+      setIsSubscribeReady(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    try {
       const raw = window.localStorage.getItem(prefsStorageKey);
       if (!raw) {
         return;
@@ -929,6 +1045,19 @@ export function ElinChat({
   );
 
   const savedSlugs = useMemo(() => new Set(wishlist.map((item) => item.slug)), [wishlist]);
+  const recommendedSlugs = useMemo(
+    () =>
+      Array.from(
+        new Set(
+          messages.flatMap((message) => (message.products ?? []).map((product) => product.slug)),
+        ),
+      ).slice(0, 20),
+    [messages],
+  );
+  const showSubscriberCard =
+    isSubscribeReady &&
+    recommendedSlugs.length > 0 &&
+    (!isSubscribeDismissed || subscribeStatus === "success");
 
   function toggleWishlist(product: ProductCard) {
     setWishlist((current) => {
@@ -957,6 +1086,72 @@ export function ElinChat({
 
   function removeFromWishlist(slug: string) {
     setWishlist((current) => current.filter((item) => item.slug !== slug));
+  }
+
+  function dismissSubscriberCard() {
+    setIsSubscribeDismissed(true);
+    setSubscribeStatus("idle");
+    try {
+      window.localStorage.setItem(subscribeDismissedStorageKey, "1");
+    } catch {
+      // storage may be unavailable
+    }
+  }
+
+  async function submitSubscriber(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const email = subscriberEmail.trim();
+    if (!email || !subscriberConsent || subscribeStatus === "submitting") {
+      return;
+    }
+
+    setSubscribeStatus("submitting");
+    setSubscribeError("");
+
+    try {
+      const response = await fetch("/api/elin/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email,
+          consent: subscriberConsent,
+          consentText: subscriberConsentText,
+          source: "elin-chat",
+          context: {
+            productSlugs: recommendedSlugs,
+            wishlistSlugs: wishlist.map((item) => item.slug).slice(0, 20),
+            ...(focus
+              ? {
+                  focusSlug: focus.slug,
+                  focusTitle: focus.title,
+                }
+              : {}),
+          },
+        }),
+      });
+
+      if (!response.ok) {
+        setSubscribeStatus("error");
+        setSubscribeError(
+          response.status === 429
+            ? "För många försök just nu. Prova igen lite senare."
+            : "Jag kunde inte spara mejlen just nu. Prova igen om en stund.",
+        );
+        return;
+      }
+
+      setSubscribeStatus("success");
+      setSubscriberEmail("");
+      setSubscriberConsent(false);
+      try {
+        window.localStorage.setItem(subscribeDismissedStorageKey, "1");
+      } catch {
+        // storage may be unavailable
+      }
+    } catch {
+      setSubscribeStatus("error");
+      setSubscribeError("Jag kunde inte spara mejlen just nu. Prova igen om en stund.");
+    }
   }
 
   async function sendMessage(messageText: string) {
@@ -1331,6 +1526,19 @@ export function ElinChat({
             </article>
           ))
         )}
+
+        {showSubscriberCard ? (
+          <SubscriberCard
+            email={subscriberEmail}
+            consent={subscriberConsent}
+            status={subscribeStatus}
+            error={subscribeError}
+            onEmailChange={setSubscriberEmail}
+            onConsentChange={setSubscriberConsent}
+            onDismiss={dismissSubscriberCard}
+            onSubmit={submitSubscriber}
+          />
+        ) : null}
       </div>
 
       <form

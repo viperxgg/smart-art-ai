@@ -10,11 +10,11 @@ export type SitemapEntry = {
 };
 
 export const sitemapEntries: SitemapEntry[] = [
-  { path: "", lastModified: "2026-06-16", changeFrequency: "monthly", priority: 1 },
+  { path: "", lastModified: "2026-06-28", changeFrequency: "monthly", priority: 1 },
   { path: "/cookies", lastModified: "2026-06-15", changeFrequency: "monthly", priority: 0.3 },
   { path: "/elins-poang", lastModified: "2026-06-15", changeFrequency: "monthly", priority: 0.45 },
   { path: "/elins-val", lastModified: "2026-06-15", changeFrequency: "weekly", priority: 0.65 },
-  { path: "/fraga-elin", lastModified: "2026-06-27", changeFrequency: "weekly", priority: 0.9 },
+  { path: "/fraga-elin", lastModified: "2026-07-01", changeFrequency: "weekly", priority: 0.9 },
   { path: "/guider", lastModified: "2026-06-26", changeFrequency: "weekly", priority: 0.7 },
   { path: "/guider/after-sun-eller-fuktkram", lastModified: "2026-06-25", changeFrequency: "weekly", priority: 0.75 },
   { path: "/guider/brun-utan-sol-vart-det", lastModified: "2026-06-25", changeFrequency: "weekly", priority: 0.75 },
@@ -223,7 +223,7 @@ export const sitemapEntries: SitemapEntry[] = [
   { path: "/traning/stepbrada", lastModified: "2026-06-27", changeFrequency: "weekly", priority: 0.82 },
   { path: "/traning/studsmatta", lastModified: "2026-06-27", changeFrequency: "weekly", priority: 0.82 },
   { path: "/traning/traningsband", lastModified: "2026-06-17", changeFrequency: "weekly", priority: 0.82 },
-  { path: "/traning/traningsband-naturlatex", lastModified: "2026-06-27", changeFrequency: "weekly", priority: 0.82 },
+  { path: "/traning/traningsband-naturlatex", lastModified: "2026-06-28", changeFrequency: "weekly", priority: 0.82 },
   { path: "/traning/traningsband/loopband-jakkofoxx", lastModified: "2026-06-17", changeFrequency: "weekly", priority: 0.82 },
   { path: "/traning/traningshandskar", lastModified: "2026-06-27", changeFrequency: "weekly", priority: 0.82 },
   { path: "/traning/vattenflaska", lastModified: "2026-06-27", changeFrequency: "weekly", priority: 0.82 },

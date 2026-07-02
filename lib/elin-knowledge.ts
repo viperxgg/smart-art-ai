@@ -16,21 +16,9 @@ export type ElinKnowledgeProduct = {
   brand: string;
   category: ProductCategorySlug;
   priceTier: PriceTier;
-  poang: number | null;
+  poang: number;
   badges: string[];
   summary: string;
-  evaluation: {
-    verdict: string;
-  };
-  specs: {
-    label: string;
-    value: string;
-  }[];
-  amazonReviewSignal: {
-    ratingSummary: string;
-    highlights: string[];
-    cautions: string[];
-  };
   pageHref: string;
 };
 
@@ -40,28 +28,23 @@ type ElinKnowledgeOptions = {
 
 const activeCategorySlugs = new Set(activeProductCategories.map((category) => category.slug));
 
+function oneLineSummary(value: string) {
+  const normalized = value.replace(/\s+/g, " ").trim();
+  return normalized.length > 140 ? `${normalized.slice(0, 137).trimEnd()}...` : normalized;
+}
+
 function toKnowledgeProduct(product: Product): ElinKnowledgeProduct {
+  const score = getEditorialScore(product.slug);
+
   return {
     slug: product.slug,
     title: product.title,
     brand: product.brand,
     category: product.category,
     priceTier: getPriceTier(product),
-    poang: getEditorialScore(product.slug)?.total ?? null,
-    badges: product.badges,
-    summary: product.summary,
-    evaluation: {
-      verdict: product.evaluation.verdict,
-    },
-    specs: product.specs.map((spec) => ({
-      label: spec.label,
-      value: spec.value,
-    })),
-    amazonReviewSignal: {
-      ratingSummary: product.amazonReviewSignal.ratingSummary,
-      highlights: product.amazonReviewSignal.highlights,
-      cautions: product.amazonReviewSignal.cautions,
-    },
+    poang: score?.total ?? 0,
+    badges: product.badges.slice(0, 3),
+    summary: oneLineSummary(product.summary),
     pageHref: getProductPageHref(product),
   };
 }

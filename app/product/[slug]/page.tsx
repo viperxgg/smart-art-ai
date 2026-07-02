@@ -337,6 +337,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <section className="mt-6">
           <TrustReviewLayers
             amazonSummary={product.amazonReviewSignal.ratingSummary}
+            ratingCheckedAt={product.amazonReviewSignal.ratingCheckedAt}
             amazonQuotes={getAmazonQuotes(product)}
             reviewHref="#recensioner"
           />
