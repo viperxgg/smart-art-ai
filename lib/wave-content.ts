@@ -1388,6 +1388,354 @@ export const waveProductPicks: SommarPick[] = [
       },
     ],
   },
+  {
+    productSlug: "philips-oneblade-360",
+    product: productBySlug("philips-oneblade-360"),
+    href: "/skonhet/grooming/oneblade-360",
+    cardBadge: "Hybrid",
+    cardHook: "En hybridtrimmer för stubb, kanter och snabb grooming när babyslätt inte är målet.",
+    cardImage: "/products/philips-oneblade-360/philips-oneblade-360-thumbnail.webp",
+    cardImageAlt: "Philips OneBlade 360",
+    badge: "Elins mellanval",
+    headline: "Philips OneBlade 360",
+    shortBody: "En hybridtrimmer för stubb, kanter och snabb grooming när babyslätt inte är målet.",
+    valueHook: "Hybrid · 360-blad · Skägg",
+    valueStatement: "En hybridtrimmer för stubb, kanter och snabb grooming när babyslätt inte är målet. Bladen byts regelbundet och kostar över tid. Den rakar inte lika slätt som en klassisk rakapparat.",
+    passFor: [
+      "Vill ha grooming utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Bladen byts regelbundet och kostar över tid. Den rakar inte lika slätt som en klassisk rakapparat.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Bästa hybridvalet, men bladkostnaden ska räknas in.",
+    amazonSummary: "Amazon visar 4.6 av 5 (53 436!).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Philips OneBlade 360 värd att köpa?",
+        answer: "Bästa hybridvalet, men bladkostnaden ska räknas in.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "philips-oneblade-360-recensioner",
+    reviewFormId: "philips-oneblade-360-skriv-recension",
+    targetKeyword: "philips oneblade 360",
+    metaTitle: "Philips OneBlade 360 – Elins ärliga koll | Elins val",
+    metaDescription: "Philips OneBlade 360: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "philips-skaggtrimmer-3000",
+    product: productBySlug("philips-skaggtrimmer-3000"),
+    href: "/skonhet/grooming/philips-skaggtrimmer",
+    cardBadge: "Självslipande blad",
+    cardHook: "En prisvärd skäggtrimmer för längdkontroll och vardagsunderhåll utan löpande bladkostnad.",
+    cardImage: "/products/philips-skaggtrimmer-3000/philips-skaggtrimmer-3000-thumbnail.webp",
+    cardImageAlt: "Philips skäggtrimmer 3000",
+    badge: "Elins budgetval",
+    headline: "Philips skäggtrimmer 3000",
+    shortBody: "En prisvärd skäggtrimmer för längdkontroll och vardagsunderhåll utan löpande bladkostnad.",
+    valueHook: "Självslipande blad · Skägg · Prisvärd",
+    valueStatement: "En prisvärd skäggtrimmer för längdkontroll och vardagsunderhåll utan löpande bladkostnad. Den är mindre flexibel än OneBlade för kanter och kropp, men mer ekonomisk för vanligt skägg.",
+    passFor: [
+      "Vill ha grooming utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Den är mindre flexibel än OneBlade för kanter och kropp, men mer ekonomisk för vanligt skägg.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Bästa ekonomiska skäggvalet i grooming-paret.",
+    amazonSummary: "Amazon visar 4.2 av 5 (17 965).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Philips skäggtrimmer 3000 värd att köpa?",
+        answer: "Bästa ekonomiska skäggvalet i grooming-paret.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "philips-skaggtrimmer-3000-recensioner",
+    reviewFormId: "philips-skaggtrimmer-3000-skriv-recension",
+    targetKeyword: "philips skäggtrimmer 3000",
+    metaTitle: "Philips skäggtrimmer 3000 – Elins ärliga koll | Elins val",
+    metaDescription: "Philips skäggtrimmer 3000: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "remington-harklippare",
+    product: productBySlug("remington-harklippare"),
+    href: "/skonhet/grooming/remington-harklippare",
+    cardBadge: "Hårklippning",
+    cardHook: "En enkel hårklippare för hemmaklippning där pris och många kammar väger tyngre än sladdlös frihet.",
+    cardImage: "/products/remington-harklippare/remington-harklippare-thumbnail.webp",
+    cardImageAlt: "Remington hårklippare HC5035",
+    badge: "Elins budgetval",
+    headline: "Remington hårklippare HC5035",
+    shortBody: "En enkel hårklippare för hemmaklippning där pris och många kammar väger tyngre än sladdlös frihet.",
+    valueHook: "Hårklippning · Många kammar · Sladd",
+    valueStatement: "En enkel hårklippare för hemmaklippning där pris och många kammar väger tyngre än sladdlös frihet. Den har sladd. Det är stabilt för drift men sämre om du vill klippa fritt utan kabel.",
+    passFor: [
+      "Vill ha grooming utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Den har sladd. Det är stabilt för drift men sämre om du vill klippa fritt utan kabel.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Prisvärd hemmaklippare, med sladden som tydlig kompromiss.",
+    amazonSummary: "Amazon visar 4.4 av 5 (38 705).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Remington hårklippare HC5035 värd att köpa?",
+        answer: "Prisvärd hemmaklippare, med sladden som tydlig kompromiss.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "remington-harklippare-recensioner",
+    reviewFormId: "remington-harklippare-skriv-recension",
+    targetKeyword: "remington hårklippare hc5035",
+    metaTitle: "Remington hårklippare HC5035 – Elins ärliga koll | Elins val",
+    metaDescription: "Remington hårklippare HC5035: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "philips-rakapparat-5000",
+    product: productBySlug("philips-rakapparat-5000"),
+    href: "/skonhet/grooming/philips-rakapparat",
+    cardBadge: "Rakapparat",
+    cardHook: "En roterande rakapparat för dig som vill ha jämnare rakrutin än hybridtrimning.",
+    cardImage: "/products/philips-rakapparat-5000/philips-rakapparat-5000-thumbnail.webp",
+    cardImageAlt: "Philips rakapparat 5000",
+    badge: "Elins premiumval",
+    headline: "Philips rakapparat 5000",
+    shortBody: "En roterande rakapparat för dig som vill ha jämnare rakrutin än hybridtrimning.",
+    valueHook: "Rakapparat · Philips · Våt/torr",
+    valueStatement: "En roterande rakapparat för dig som vill ha jämnare rakrutin än hybridtrimning. Roterande rakapparater har inlärningskurva och passar inte alla hud- och skäggtyper lika bra.",
+    passFor: [
+      "Vill ha grooming utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Roterande rakapparater har inlärningskurva och passar inte alla hud- och skäggtyper lika bra.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Bra rakapparat när slätare resultat är viktigare än hybridflex.",
+    amazonSummary: "Amazon visar 4.3 av 5 (11 652).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Philips rakapparat 5000 värd att köpa?",
+        answer: "Bra rakapparat när slätare resultat är viktigare än hybridflex.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "philips-rakapparat-5000-recensioner",
+    reviewFormId: "philips-rakapparat-5000-skriv-recension",
+    targetKeyword: "philips rakapparat 5000",
+    metaTitle: "Philips rakapparat 5000 – Elins ärliga koll | Elins val",
+    metaDescription: "Philips rakapparat 5000: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "winsea-nasharstrimmer",
+    product: productBySlug("winsea-nasharstrimmer"),
+    href: "/skonhet/grooming/nasharstrimmer",
+    cardBadge: "Budget",
+    cardHook: "En billig detaljtrimmer för näsa och små groomingjobb som ofta blir bra som extraköp.",
+    cardImage: "/products/winsea-nasharstrimmer/winsea-nasharstrimmer-thumbnail.webp",
+    cardImageAlt: "Winsea näshårstrimmer",
+    badge: "Elins budgetval",
+    headline: "Winsea näshårstrimmer",
+    shortBody: "En billig detaljtrimmer för näsa och små groomingjobb som ofta blir bra som extraköp.",
+    valueHook: "Budget · USB · Detaljtrim",
+    valueStatement: "En billig detaljtrimmer för näsa och små groomingjobb som ofta blir bra som extraköp. Det här är en smal specialprodukt. Köp den för detaljtrim, inte som ersättning för skäggtrimmer.",
+    passFor: [
+      "Vill ha grooming utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Det här är en smal specialprodukt. Köp den för detaljtrim, inte som ersättning för skäggtrimmer.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Prisvärd liten groomingprodukt med tydligt avgränsat jobb.",
+    amazonSummary: "Amazon visar 4.2 av 5 (5 201).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Winsea näshårstrimmer värd att köpa?",
+        answer: "Prisvärd liten groomingprodukt med tydligt avgränsat jobb.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "winsea-nasharstrimmer-recensioner",
+    reviewFormId: "winsea-nasharstrimmer-skriv-recension",
+    targetKeyword: "winsea näshårstrimmer",
+    metaTitle: "Winsea näshårstrimmer – Elins ärliga koll | Elins val",
+    metaDescription: "Winsea näshårstrimmer: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "loreal-skaggolja",
+    product: productBySlug("loreal-skaggolja"),
+    href: "/skonhet/grooming/skaggolja",
+    cardBadge: "Skäggolja",
+    cardHook: "En enkel skäggolja för mjukare känsla och mer vårdad finish i skägget.",
+    cardImage: "/products/loreal-skaggolja/loreal-skaggolja-thumbnail.webp",
+    cardImageAlt: "L'Oréal Barber Club skäggolja",
+    badge: "Elins budgetval",
+    headline: "L'Oréal Barber Club skäggolja",
+    shortBody: "En enkel skäggolja för mjukare känsla och mer vårdad finish i skägget.",
+    valueHook: "Skäggolja · Budget · Mjuk känsla",
+    valueStatement: "En enkel skäggolja för mjukare känsla och mer vårdad finish i skägget. Referensen har bara en produktbild, så bildgalleriet bygger på beskärningar. Inga hudlöften används.",
+    passFor: [
+      "Vill ha grooming utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Referensen har bara en produktbild, så bildgalleriet bygger på beskärningar. Inga hudlöften används.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Bra budgetolja för mjukare skäggkänsla, men enkel presentation.",
+    amazonSummary: "Amazon visar 4.5 av 5 (4 007).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är L'Oréal Barber Club skäggolja värd att köpa?",
+        answer: "Bra budgetolja för mjukare skäggkänsla, men enkel presentation.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "loreal-skaggolja-recensioner",
+    reviewFormId: "loreal-skaggolja-skriv-recension",
+    targetKeyword: "l'oréal barber club skäggolja",
+    metaTitle: "L'Oréal Barber Club skäggolja – Elins ärliga koll | Elins val",
+    metaDescription: "L'Oréal Barber Club skäggolja: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
 ];
 
 export const waveGuides: WaveGuide[] = [
@@ -3279,6 +3627,304 @@ export const waveGuides: WaveGuide[] = [
     metaTitle: "Bio-Oil eller jojobaolja? | Elins val",
     metaDescription: "Bio-Oil eller jojobaolja?: Parfymerad klassiker mot renare naturolja. Annons, utan hårdkodade priser.",
   },
+  {
+    id: "grooming",
+    href: "/skonhet/grooming",
+    category: "skonhet",
+    label: "Guide",
+    title: "Grooming för honom",
+    intro: "Sex prisvärda groomingval, från skäggolja till rakapparat.",
+    badges: [
+      "För honom",
+      "Grooming",
+      "Presenter",
+    ],
+    productSlugs: [
+      "loreal-skaggolja",
+      "winsea-nasharstrimmer",
+      "philips-skaggtrimmer-3000",
+      "philips-oneblade-360",
+      "remington-harklippare",
+      "philips-rakapparat-5000",
+    ],
+    pickBadges: {
+      "loreal-skaggolja": "Skäggolja",
+      "winsea-nasharstrimmer": "Budget",
+      "philips-skaggtrimmer-3000": "Självslipande blad",
+      "philips-oneblade-360": "Hybrid",
+      "remington-harklippare": "Hårklippning",
+      "philips-rakapparat-5000": "Rakapparat",
+    },
+    choiceTitle: "Välj efter uppgift",
+    choiceText: "Skäggolja och nästrimmer är små extraköp. Skäggtrimmer och OneBlade löser vardagsgrooming. Rakapparat och hårklippare är mer specifika behov.",
+    rows: [
+      {
+        label: "Bäst för",
+        values: [
+          "Mjuk skäggkänsla",
+          "Detaljer",
+          "Skägglängd",
+          "Hybridkanter",
+          "Hår hemma",
+          "Slätare rakrutin",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "En bild",
+          "Smalt behov",
+          "Mindre hybrid",
+          "Bladkostnad",
+          "Sladd",
+          "Inlärningskurva",
+        ],
+      },
+    ],
+    verdict: "OneBlade är mest flexibel, skäggtrimmern mest ekonomisk.",
+    faqItems: [
+      {
+        question: "Grooming guide.",
+        answer: "Skäggolja och nästrimmer är små extraköp. Skäggtrimmer och OneBlade löser vardagsgrooming. Rakapparat och hårklippare är mer specifika behov.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Grooming för honom | Elins val",
+    metaDescription: "Grooming för honom: Sex prisvärda groomingval, från skäggolja till rakapparat. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "oneblade-eller-skaggtrimmer",
+    href: "/skonhet/oneblade-eller-skaggtrimmer",
+    category: "skonhet",
+    label: "Jämförelse",
+    title: "OneBlade eller skäggtrimmer?",
+    intro: "Hybridblad med löpande kostnad mot självslipande trimmerblad.",
+    badges: [
+      "OneBlade",
+      "Skäggtrimmer",
+      "Bladekonomi",
+    ],
+    productSlugs: [
+      "philips-oneblade-360",
+      "philips-skaggtrimmer-3000",
+    ],
+    pickBadges: {
+      "philips-oneblade-360": "Hybrid",
+      "philips-skaggtrimmer-3000": "Självslipande blad",
+    },
+    choiceTitle: "Bladekonomin avgör",
+    choiceText: "OneBlade är bäst för hybridjobb och kanter. Skäggtrimmern är billigare över tid för längdkontroll.",
+    rows: [
+      {
+        label: "Styrka",
+        values: [
+          "Hybrid och kanter",
+          "Skägglängd",
+        ],
+      },
+      {
+        label: "Löpande kostnad",
+        values: [
+          "Byt blad",
+          "Självslipande blad",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Inte babyslätt",
+          "Mindre flexibel",
+        ],
+      },
+    ],
+    verdict: "Välj OneBlade för flexibilitet, skäggtrimmer för ekonomi.",
+    faqItems: [
+      {
+        question: "OneBlade eller skäggtrimmer?",
+        answer: "OneBlade är bäst för hybridjobb och kanter. Skäggtrimmern är billigare över tid för längdkontroll.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "OneBlade eller skäggtrimmer? | Elins val",
+    metaDescription: "OneBlade eller skäggtrimmer?: Hybridblad med löpande kostnad mot självslipande trimmerblad. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "rakapparat-eller-oneblade",
+    href: "/skonhet/rakapparat-eller-oneblade",
+    category: "skonhet",
+    label: "Jämförelse",
+    title: "Rakapparat eller OneBlade?",
+    intro: "Slätare rakrutin mot hybridtrimning.",
+    badges: [
+      "Rakapparat",
+      "OneBlade",
+      "Grooming",
+    ],
+    productSlugs: [
+      "philips-rakapparat-5000",
+      "philips-oneblade-360",
+    ],
+    pickBadges: {
+      "philips-rakapparat-5000": "Rakapparat",
+      "philips-oneblade-360": "Hybrid",
+    },
+    choiceTitle: "Slätt eller hybrid?",
+    choiceText: "Rakapparaten är rätt när du prioriterar en jämn rakrutin. OneBlade är rätt när stubb, kanter och flexibilitet är viktigare.",
+    rows: [
+      {
+        label: "Resultat",
+        values: [
+          "Slätare",
+          "Stubb och kanter",
+        ],
+      },
+      {
+        label: "Flexibilitet",
+        values: [
+          "Rakning",
+          "Hybrid",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Inlärningskurva",
+          "Bladkostnad",
+        ],
+      },
+    ],
+    verdict: "Rakapparat är mer specialiserad. OneBlade är mer användbar för flera groomingjobb.",
+    faqItems: [
+      {
+        question: "Rakapparat eller OneBlade?",
+        answer: "Rakapparaten är rätt när du prioriterar en jämn rakrutin. OneBlade är rätt när stubb, kanter och flexibilitet är viktigare.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Rakapparat eller OneBlade? | Elins val",
+    metaDescription: "Rakapparat eller OneBlade?: Slätare rakrutin mot hybridtrimning. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "julklapp-till-honom",
+    href: "/guider/julklapp-till-honom",
+    category: "skonhet",
+    label: "Guide",
+    title: "Julklapp till honom",
+    intro: "Prisvärda groomingnivåer utan att låsa texten till dagspriser.",
+    badges: [
+      "Julklapp",
+      "Grooming",
+      "För honom",
+    ],
+    productSlugs: [
+      "loreal-skaggolja",
+      "winsea-nasharstrimmer",
+      "philips-skaggtrimmer-3000",
+      "philips-oneblade-360",
+      "philips-rakapparat-5000",
+    ],
+    pickBadges: {
+      "loreal-skaggolja": "Skäggolja",
+      "winsea-nasharstrimmer": "Budget",
+      "philips-skaggtrimmer-3000": "Självslipande blad",
+      "philips-oneblade-360": "Hybrid",
+      "philips-rakapparat-5000": "Rakapparat",
+    },
+    choiceTitle: "Tänk nivå, inte prisrad",
+    choiceText: "Små groomingprodukter passar som komplettering. Trimmer och OneBlade är säkrare huvudpresenter. Rakapparat kräver att du vet att mottagaren vill ha just den typen.",
+    rows: [
+      {
+        label: "Nivå",
+        values: [
+          "Liten present",
+          "Liten present",
+          "Trygg huvudpresent",
+          "Flexibel huvudpresent",
+          "Mer specifik present",
+        ],
+      },
+      {
+        label: "Risk",
+        values: [
+          "Doftsmak",
+          "Smalt behov",
+          "Låg",
+          "Bladkostnad",
+          "Fel rakstil",
+        ],
+      },
+    ],
+    verdict: "Skäggtrimmern är säkrast. OneBlade är roligare om flexibilitet lockar.",
+    faqItems: [
+      {
+        question: "Julklapp till honom.",
+        answer: "Små groomingprodukter passar som komplettering. Trimmer och OneBlade är säkrare huvudpresenter. Rakapparat kräver att du vet att mottagaren vill ha just den typen.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Julklapp till honom | Elins val",
+    metaDescription: "Julklapp till honom: Prisvärda groomingnivåer utan att låsa texten till dagspriser. Annons, utan hårdkodade priser.",
+  },
 ];
 
 export const waveComparisonEntries: readonly ComparisonEntry[] = [
@@ -3716,6 +4362,64 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
       "Hudvård",
     ],
   },
+  {
+    slug: "grooming",
+    title: "Grooming för honom",
+    shortTitle: "Grooming för honom",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/grooming",
+    description: "Sex prisvärda groomingval, från skäggolja till rakapparat.",
+    productSlugs: [
+      "loreal-skaggolja",
+      "winsea-nasharstrimmer",
+      "philips-skaggtrimmer-3000",
+      "philips-oneblade-360",
+      "remington-harklippare",
+      "philips-rakapparat-5000",
+    ],
+    badges: [
+      "För honom",
+      "Grooming",
+      "Presenter",
+    ],
+  },
+  {
+    slug: "oneblade-eller-skaggtrimmer",
+    title: "OneBlade eller skäggtrimmer?",
+    shortTitle: "OneBlade eller skäggtrimmer?",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/oneblade-eller-skaggtrimmer",
+    description: "Hybridblad med löpande kostnad mot självslipande trimmerblad.",
+    productSlugs: [
+      "philips-oneblade-360",
+      "philips-skaggtrimmer-3000",
+    ],
+    badges: [
+      "OneBlade",
+      "Skäggtrimmer",
+      "Bladekonomi",
+    ],
+  },
+  {
+    slug: "rakapparat-eller-oneblade",
+    title: "Rakapparat eller OneBlade?",
+    shortTitle: "Rakapparat eller OneBlade?",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/rakapparat-eller-oneblade",
+    description: "Slätare rakrutin mot hybridtrimning.",
+    productSlugs: [
+      "philips-rakapparat-5000",
+      "philips-oneblade-360",
+    ],
+    badges: [
+      "Rakapparat",
+      "OneBlade",
+      "Grooming",
+    ],
+  },
 ];
 
 export const waveCategoryProductGroups: Partial<Record<ProductCategorySlug, CategoryProductGroup[]>> = {
@@ -3745,6 +4449,17 @@ export const waveCategoryProductGroups: Partial<Record<ProductCategorySlug, Cate
       productSlugs: [
         "beurer-fb35-fotbad",
         "deanic-fotbad",
+      ],
+    },
+    {
+      title: "Grooming",
+      productSlugs: [
+        "philips-oneblade-360",
+        "philips-skaggtrimmer-3000",
+        "remington-harklippare",
+        "philips-rakapparat-5000",
+        "winsea-nasharstrimmer",
+        "loreal-skaggolja",
       ],
     },
   ],

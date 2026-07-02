@@ -2256,6 +2256,594 @@ export const bioOilProduct: Product = {
   comments: [],
 };
 
+export const philipsOneblade360Product: Product = {
+  slug: "philips-oneblade-360",
+  title: "Philips OneBlade 360",
+  category: "skonhet",
+  asin: "B0DCFYVR1Z",
+  brand: "Philips",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Hybrid",
+    "360-blad",
+    "Skägg",
+  ],
+  image: "/products/philips-oneblade-360/philips-oneblade-360-thumbnail.webp",
+  imageAlt: "Philips OneBlade 360",
+  images: [
+    {
+      src: "/products/philips-oneblade-360/philips-oneblade-360-thumbnail.webp",
+      alt: "Philips OneBlade 360",
+      label: "Produkt",
+    },
+    {
+      src: "/products/philips-oneblade-360/philips-oneblade-360-1.webp",
+      alt: "Philips OneBlade 360 i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/philips-oneblade-360/philips-oneblade-360-2.webp",
+      alt: "Philips OneBlade 360 med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4gcv4dI",
+  pageHref: "/skonhet/grooming/oneblade-360",
+  summary: "En hybridtrimmer för stubb, kanter och snabb grooming när babyslätt inte är målet.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Philips OneBlade 360 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Bästa hybridvalet, men bladkostnaden ska räknas in.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En hybridtrimmer för stubb, kanter och snabb grooming när babyslätt inte är målet.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Bladen byts regelbundet och kostar över tid. Den rakar inte lika slätt som en klassisk rakapparat.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Grooming",
+  specSectionTitle: "Philips OneBlade 360",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Grooming",
+      value: "Hybridtrimmer",
+    },
+    {
+      label: "Blad",
+      caption: "Grooming",
+      value: "Utbytbara OneBlade-blad",
+    },
+    {
+      label: "Resultat",
+      caption: "Grooming",
+      value: "Inte babyslätt",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4gcv4dI",
+    ratingSummary: "Amazon visar 4.6 av 5 (53 436!).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Philips OneBlade 360 är valt för hybrid och 360-blad.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Bladen byts regelbundet och kostar över tid. Den rakar inte lika slätt som en klassisk rakapparat.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En hybridtrimmer för stubb, kanter och snabb grooming när babyslätt inte är målet.",
+    "Passar dig som söker grooming med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Hybrid, 360-blad, Skägg",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Bladen byts regelbundet och kostar över tid. Den rakar inte lika slätt som en klassisk rakapparat.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const philipsSkaggtrimmer3000Product: Product = {
+  slug: "philips-skaggtrimmer-3000",
+  title: "Philips skäggtrimmer 3000",
+  category: "skonhet",
+  asin: "B079RRVLGQ",
+  brand: "Philips",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Självslipande blad",
+    "Skägg",
+    "Prisvärd",
+  ],
+  image: "/products/philips-skaggtrimmer-3000/philips-skaggtrimmer-3000-thumbnail.webp",
+  imageAlt: "Philips skäggtrimmer 3000",
+  images: [
+    {
+      src: "/products/philips-skaggtrimmer-3000/philips-skaggtrimmer-3000-thumbnail.webp",
+      alt: "Philips skäggtrimmer 3000",
+      label: "Produkt",
+    },
+    {
+      src: "/products/philips-skaggtrimmer-3000/philips-skaggtrimmer-3000-1.webp",
+      alt: "Philips skäggtrimmer 3000 i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/philips-skaggtrimmer-3000/philips-skaggtrimmer-3000-2.webp",
+      alt: "Philips skäggtrimmer 3000 med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4wq0RNd",
+  pageHref: "/skonhet/grooming/philips-skaggtrimmer",
+  summary: "En prisvärd skäggtrimmer för längdkontroll och vardagsunderhåll utan löpande bladkostnad.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Philips skäggtrimmer 3000 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Bästa ekonomiska skäggvalet i grooming-paret.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En prisvärd skäggtrimmer för längdkontroll och vardagsunderhåll utan löpande bladkostnad.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Den är mindre flexibel än OneBlade för kanter och kropp, men mer ekonomisk för vanligt skägg.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Grooming",
+  specSectionTitle: "Philips skäggtrimmer 3000",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Grooming",
+      value: "Skäggtrimmer",
+    },
+    {
+      label: "Blad",
+      caption: "Grooming",
+      value: "Självslipande enligt referens",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Grooming",
+      value: "Längdkontroll",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4wq0RNd",
+    ratingSummary: "Amazon visar 4.2 av 5 (17 965).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Philips skäggtrimmer 3000 är valt för självslipande blad och skägg.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Den är mindre flexibel än OneBlade för kanter och kropp, men mer ekonomisk för vanligt skägg.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En prisvärd skäggtrimmer för längdkontroll och vardagsunderhåll utan löpande bladkostnad.",
+    "Passar dig som söker grooming med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Självslipande blad, Skägg, Prisvärd",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Den är mindre flexibel än OneBlade för kanter och kropp, men mer ekonomisk för vanligt skägg.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const remingtonHarklippareProduct: Product = {
+  slug: "remington-harklippare",
+  title: "Remington hårklippare HC5035",
+  category: "skonhet",
+  asin: "B013GH0AE4",
+  brand: "Remington",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Hårklippning",
+    "Många kammar",
+    "Sladd",
+  ],
+  image: "/products/remington-harklippare/remington-harklippare-thumbnail.webp",
+  imageAlt: "Remington hårklippare HC5035",
+  images: [
+    {
+      src: "/products/remington-harklippare/remington-harklippare-thumbnail.webp",
+      alt: "Remington hårklippare HC5035",
+      label: "Produkt",
+    },
+    {
+      src: "/products/remington-harklippare/remington-harklippare-1.webp",
+      alt: "Remington hårklippare HC5035 i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/remington-harklippare/remington-harklippare-2.webp",
+      alt: "Remington hårklippare HC5035 med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4fgs4Mg",
+  pageHref: "/skonhet/grooming/remington-harklippare",
+  summary: "En enkel hårklippare för hemmaklippning där pris och många kammar väger tyngre än sladdlös frihet.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Remington hårklippare HC5035 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Prisvärd hemmaklippare, med sladden som tydlig kompromiss.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En enkel hårklippare för hemmaklippning där pris och många kammar väger tyngre än sladdlös frihet.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Den har sladd. Det är stabilt för drift men sämre om du vill klippa fritt utan kabel.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Grooming",
+  specSectionTitle: "Remington hårklippare HC5035",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Grooming",
+      value: "Hårklippare",
+    },
+    {
+      label: "Drift",
+      caption: "Grooming",
+      value: "Sladd",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Grooming",
+      value: "Hemmaklippning",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4fgs4Mg",
+    ratingSummary: "Amazon visar 4.4 av 5 (38 705).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Remington hårklippare HC5035 är valt för hårklippning och många kammar.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Den har sladd. Det är stabilt för drift men sämre om du vill klippa fritt utan kabel.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En enkel hårklippare för hemmaklippning där pris och många kammar väger tyngre än sladdlös frihet.",
+    "Passar dig som söker grooming med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Hårklippning, Många kammar, Sladd",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Den har sladd. Det är stabilt för drift men sämre om du vill klippa fritt utan kabel.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const philipsRakapparat5000Product: Product = {
+  slug: "philips-rakapparat-5000",
+  title: "Philips rakapparat 5000",
+  category: "skonhet",
+  asin: "B095H9X4K3",
+  brand: "Philips",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "premium",
+  badges: [
+    "Rakapparat",
+    "Philips",
+    "Våt/torr",
+  ],
+  image: "/products/philips-rakapparat-5000/philips-rakapparat-5000-thumbnail.webp",
+  imageAlt: "Philips rakapparat 5000",
+  images: [
+    {
+      src: "/products/philips-rakapparat-5000/philips-rakapparat-5000-thumbnail.webp",
+      alt: "Philips rakapparat 5000",
+      label: "Produkt",
+    },
+    {
+      src: "/products/philips-rakapparat-5000/philips-rakapparat-5000-1.webp",
+      alt: "Philips rakapparat 5000 i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/philips-rakapparat-5000/philips-rakapparat-5000-2.webp",
+      alt: "Philips rakapparat 5000 med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4av9fSZ",
+  pageHref: "/skonhet/grooming/philips-rakapparat",
+  summary: "En roterande rakapparat för dig som vill ha jämnare rakrutin än hybridtrimning.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Philips rakapparat 5000 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Bra rakapparat när slätare resultat är viktigare än hybridflex.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En roterande rakapparat för dig som vill ha jämnare rakrutin än hybridtrimning.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Roterande rakapparater har inlärningskurva och passar inte alla hud- och skäggtyper lika bra.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Grooming",
+  specSectionTitle: "Philips rakapparat 5000",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Grooming",
+      value: "Roterande rakapparat",
+    },
+    {
+      label: "Användning",
+      caption: "Grooming",
+      value: "Våt/torr enligt referens",
+    },
+    {
+      label: "Kompromiss",
+      caption: "Grooming",
+      value: "Inlärningskurva",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4av9fSZ",
+    ratingSummary: "Amazon visar 4.3 av 5 (11 652).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Philips rakapparat 5000 är valt för rakapparat och philips.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Roterande rakapparater har inlärningskurva och passar inte alla hud- och skäggtyper lika bra.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En roterande rakapparat för dig som vill ha jämnare rakrutin än hybridtrimning.",
+    "Passar dig som söker grooming med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Rakapparat, Philips, Våt/torr",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Roterande rakapparater har inlärningskurva och passar inte alla hud- och skäggtyper lika bra.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const winseaNasharstrimmerProduct: Product = {
+  slug: "winsea-nasharstrimmer",
+  title: "Winsea näshårstrimmer",
+  category: "skonhet",
+  asin: "B0D2DRS9KY",
+  brand: "Winsea",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Budget",
+    "USB",
+    "Detaljtrim",
+  ],
+  image: "/products/winsea-nasharstrimmer/winsea-nasharstrimmer-thumbnail.webp",
+  imageAlt: "Winsea näshårstrimmer",
+  images: [
+    {
+      src: "/products/winsea-nasharstrimmer/winsea-nasharstrimmer-thumbnail.webp",
+      alt: "Winsea näshårstrimmer",
+      label: "Produkt",
+    },
+    {
+      src: "/products/winsea-nasharstrimmer/winsea-nasharstrimmer-1.webp",
+      alt: "Winsea näshårstrimmer i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/winsea-nasharstrimmer/winsea-nasharstrimmer-2.webp",
+      alt: "Winsea näshårstrimmer med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4fe0lMd",
+  pageHref: "/skonhet/grooming/nasharstrimmer",
+  summary: "En billig detaljtrimmer för näsa och små groomingjobb som ofta blir bra som extraköp.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Winsea näshårstrimmer utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Prisvärd liten groomingprodukt med tydligt avgränsat jobb.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En billig detaljtrimmer för näsa och små groomingjobb som ofta blir bra som extraköp.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Det här är en smal specialprodukt. Köp den för detaljtrim, inte som ersättning för skäggtrimmer.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Grooming",
+  specSectionTitle: "Winsea näshårstrimmer",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Grooming",
+      value: "Näshårstrimmer",
+    },
+    {
+      label: "Laddning",
+      caption: "Grooming",
+      value: "USB enligt referens",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Grooming",
+      value: "Detaljtrim",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4fe0lMd",
+    ratingSummary: "Amazon visar 4.2 av 5 (5 201).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Winsea näshårstrimmer är valt för budget och usb.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Det här är en smal specialprodukt. Köp den för detaljtrim, inte som ersättning för skäggtrimmer.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En billig detaljtrimmer för näsa och små groomingjobb som ofta blir bra som extraköp.",
+    "Passar dig som söker grooming med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Budget, USB, Detaljtrim",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Det här är en smal specialprodukt. Köp den för detaljtrim, inte som ersättning för skäggtrimmer.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const lorealSkaggoljaProduct: Product = {
+  slug: "loreal-skaggolja",
+  title: "L'Oréal Barber Club skäggolja",
+  category: "skonhet",
+  asin: "B0766DZ367",
+  brand: "L'Oréal",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Skäggolja",
+    "Budget",
+    "Mjuk känsla",
+  ],
+  image: "/products/loreal-skaggolja/loreal-skaggolja-thumbnail.webp",
+  imageAlt: "L'Oréal Barber Club skäggolja",
+  images: [
+    {
+      src: "/products/loreal-skaggolja/loreal-skaggolja-thumbnail.webp",
+      alt: "L'Oréal Barber Club skäggolja",
+      label: "Produkt",
+    },
+    {
+      src: "/products/loreal-skaggolja/loreal-skaggolja-1.webp",
+      alt: "L'Oréal Barber Club skäggolja i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/loreal-skaggolja/loreal-skaggolja-2.webp",
+      alt: "L'Oréal Barber Club skäggolja med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3Svog17",
+  pageHref: "/skonhet/grooming/skaggolja",
+  summary: "En enkel skäggolja för mjukare känsla och mer vårdad finish i skägget.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom L'Oréal Barber Club skäggolja utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Bra budgetolja för mjukare skäggkänsla, men enkel presentation.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En enkel skäggolja för mjukare känsla och mer vårdad finish i skägget.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Referensen har bara en produktbild, så bildgalleriet bygger på beskärningar. Inga hudlöften används.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Grooming",
+  specSectionTitle: "L'Oréal Barber Club skäggolja",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Grooming",
+      value: "Skäggolja",
+    },
+    {
+      label: "Doft",
+      caption: "Grooming",
+      value: "Kontrollera Amazon",
+    },
+    {
+      label: "Caveat",
+      caption: "Grooming",
+      value: "En källbild",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3Svog17",
+    ratingSummary: "Amazon visar 4.5 av 5 (4 007).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "L'Oréal Barber Club skäggolja är valt för skäggolja och budget.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Referensen har bara en produktbild, så bildgalleriet bygger på beskärningar. Inga hudlöften används.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En enkel skäggolja för mjukare känsla och mer vårdad finish i skägget.",
+    "Passar dig som söker grooming med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Skäggolja, Budget, Mjuk känsla",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Referensen har bara en produktbild, så bildgalleriet bygger på beskärningar. Inga hudlöften används.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
 export const waveProducts: Product[] = [
   sportconicLopbandProduct,
   citysportsGabandProduct,
@@ -2280,6 +2868,12 @@ export const waveProducts: Product[] = [
   beurerFb35FotbadProduct,
   deanicFotbadProduct,
   bioOilProduct,
+  philipsOneblade360Product,
+  philipsSkaggtrimmer3000Product,
+  remingtonHarklippareProduct,
+  philipsRakapparat5000Product,
+  winseaNasharstrimmerProduct,
+  lorealSkaggoljaProduct,
 ];
 
 export const waveEditorialScores: Record<string, EditorialScore> = {
@@ -2466,5 +3060,53 @@ export const waveEditorialScores: Record<string, EditorialScore> = {
     proven: 12,
     total: 82,
     verdict: "Stark klassiker för kroppsglow, men jojoba är renare och mer neutral.",
+  },
+  "philips-oneblade-360": {
+    value: 25,
+    performance: 24,
+    promise: 21,
+    proven: 14,
+    total: 84,
+    verdict: "Bästa hybridvalet, men bladkostnaden ska räknas in.",
+  },
+  "philips-skaggtrimmer-3000": {
+    value: 25,
+    performance: 24,
+    promise: 21,
+    proven: 12,
+    total: 82,
+    verdict: "Bästa ekonomiska skäggvalet i grooming-paret.",
+  },
+  "remington-harklippare": {
+    value: 23,
+    performance: 22,
+    promise: 19,
+    proven: 13,
+    total: 77,
+    verdict: "Prisvärd hemmaklippare, med sladden som tydlig kompromiss.",
+  },
+  "philips-rakapparat-5000": {
+    value: 24,
+    performance: 23,
+    promise: 20,
+    proven: 13,
+    total: 80,
+    verdict: "Bra rakapparat när slätare resultat är viktigare än hybridflex.",
+  },
+  "winsea-nasharstrimmer": {
+    value: 24,
+    performance: 23,
+    promise: 20,
+    proven: 12,
+    total: 79,
+    verdict: "Prisvärd liten groomingprodukt med tydligt avgränsat jobb.",
+  },
+  "loreal-skaggolja": {
+    value: 23,
+    performance: 23,
+    promise: 20,
+    proven: 12,
+    total: 78,
+    verdict: "Bra budgetolja för mjukare skäggkänsla, men enkel presentation.",
   },
 };

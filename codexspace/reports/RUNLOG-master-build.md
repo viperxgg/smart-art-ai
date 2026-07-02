@@ -134,3 +134,35 @@ Decisions:
 - Kept Bio-Oil cosmetic only; no scar, stretch-mark or pregnancy advice.
 
 Skipped items: none.
+
+## Wave 3 / Batch 1 - grooming for honom
+
+Routes added:
+- `/skonhet/grooming/oneblade-360`
+- `/skonhet/grooming/philips-skaggtrimmer`
+- `/skonhet/grooming/remington-harklippare`
+- `/skonhet/grooming/philips-rakapparat`
+- `/skonhet/grooming/nasharstrimmer`
+- `/skonhet/grooming/skaggolja`
+- `/skonhet/grooming`
+- `/skonhet/oneblade-eller-skaggtrimmer`
+- `/skonhet/rakapparat-eller-oneblade`
+- `/guider/julklapp-till-honom`
+
+Verification:
+- `npm run lint`: pass
+- `npm run typecheck`: pass
+- `npm run build`: pass
+- HTTP 200: pass for all 10 routes
+- 390px overflow: pass for all 10 routes (`scrollWidth=390`, `clientWidth=390`)
+- Mojibake grep `rg "Ã" lib app components`: clean
+- Banned medical-claim scan over generated wave files: clean
+- Affiliate links: exact match against `INTAKE-STATUS.md`
+
+Decisions:
+- Kept the gift guide as level-based instead of hardcoded-price-based to respect the no hardcoded prices rule.
+- Used one-image-derived gallery crops for L'Oreal skaggolja, as allowed by the reference caveat.
+- Kept grooming copy to function, blade economy and buyer caveats; no skin or itch claims.
+- Reflected OneBlade blade-cost caveat, Remington corded caveat and Philips shaver learning-curve caveat.
+
+Skipped items: none.
