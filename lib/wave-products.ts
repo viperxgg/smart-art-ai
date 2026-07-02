@@ -2844,6 +2844,986 @@ export const lorealSkaggoljaProduct: Product = {
   comments: [],
 };
 
+export const yankeeCandleCleanCottonProduct: Product = {
+  slug: "yankee-candle-clean-cotton",
+  title: "Yankee Candle Clean Cotton",
+  category: "halsa",
+  asin: "B00W8NNH34",
+  brand: "Yankee",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Doftljus",
+    "Stor burk",
+    "Clean Cotton",
+  ],
+  image: "/products/yankee-candle-clean-cotton/yankee-candle-clean-cotton-thumbnail.webp",
+  imageAlt: "Yankee Candle Clean Cotton",
+  images: [
+    {
+      src: "/products/yankee-candle-clean-cotton/yankee-candle-clean-cotton-thumbnail.webp",
+      alt: "Yankee Candle Clean Cotton",
+      label: "Produkt",
+    },
+    {
+      src: "/products/yankee-candle-clean-cotton/yankee-candle-clean-cotton-1.webp",
+      alt: "Yankee Candle Clean Cotton i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/yankee-candle-clean-cotton/yankee-candle-clean-cotton-2.webp",
+      alt: "Yankee Candle Clean Cotton med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3STIGkj",
+  pageHref: "/halsa/doftljus/yankee-clean-cotton",
+  summary: "Ett stort doftljus för dig som vill ha ren tvättkänsla och långsam vardagsmys.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Yankee Candle Clean Cotton utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Mysig klassiker, men tredjepart och doftsmak gör den mindre självklar.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "Ett stort doftljus för dig som vill ha ren tvättkänsla och långsam vardagsmys.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Referensen markerar tredjepart. Doft är personlig och stor burk är inte alltid rätt för små rum.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Mys",
+  specSectionTitle: "Yankee Candle Clean Cotton",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Mys",
+      value: "Doftljus",
+    },
+    {
+      label: "Doft",
+      caption: "Mys",
+      value: "Clean Cotton",
+    },
+    {
+      label: "Format",
+      caption: "Mys",
+      value: "Stor burk",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3STIGkj",
+    ratingSummary: "Amazon visar 4.6 av 5 (12 510).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Yankee Candle Clean Cotton är valt för doftljus och stor burk.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Referensen markerar tredjepart. Doft är personlig och stor burk är inte alltid rätt för små rum.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Ett stort doftljus för dig som vill ha ren tvättkänsla och långsam vardagsmys.",
+    "Passar dig som söker mys med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Doftljus, Stor burk, Clean Cotton",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Referensen markerar tredjepart. Doft är personlig och stor burk är inte alltid rätt för små rum.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const ritualsSakuraPresentsetProduct: Product = {
+  slug: "rituals-sakura-presentset",
+  title: "Rituals Sakura presentset",
+  category: "skonhet",
+  asin: "B0CFBD2G5F",
+  brand: "Rituals",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "premium",
+  badges: [
+    "Presentset",
+    "Sakura",
+    "Premiumkänsla",
+  ],
+  image: "/products/rituals-sakura-presentset/rituals-sakura-presentset-thumbnail.webp",
+  imageAlt: "Rituals Sakura presentset",
+  images: [
+    {
+      src: "/products/rituals-sakura-presentset/rituals-sakura-presentset-thumbnail.webp",
+      alt: "Rituals Sakura presentset",
+      label: "Produkt",
+    },
+    {
+      src: "/products/rituals-sakura-presentset/rituals-sakura-presentset-1.webp",
+      alt: "Rituals Sakura presentset i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/rituals-sakura-presentset/rituals-sakura-presentset-2.webp",
+      alt: "Rituals Sakura presentset med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/443ZO9z",
+  pageHref: "/skonhet/presentset/rituals-sakura",
+  summary: "Ett färdigt presentset när du vill ge något som känns genomtänkt utan att bygga egen korg.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Rituals Sakura presentset utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Fin presentkänsla, men säljarkontroll krävs.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "Ett färdigt presentset när du vill ge något som känns genomtänkt utan att bygga egen korg.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Referensen markerar tredjepart. Kontrollera säljare, förpackning och leveransdatum extra noga inför presentköp.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Presenter",
+  specSectionTitle: "Rituals Sakura presentset",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Presenter",
+      value: "Presentset",
+    },
+    {
+      label: "Profil",
+      caption: "Presenter",
+      value: "Kroppsvård",
+    },
+    {
+      label: "Caveat",
+      caption: "Presenter",
+      value: "Tredjepart enligt referens",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/443ZO9z",
+    ratingSummary: "Amazon visar 4.8 av 5 (2 434).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Rituals Sakura presentset är valt för presentset och sakura.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Referensen markerar tredjepart. Kontrollera säljare, förpackning och leveransdatum extra noga inför presentköp.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Ett färdigt presentset när du vill ge något som känns genomtänkt utan att bygga egen korg.",
+    "Passar dig som söker presenter med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Presentset, Sakura, Premiumkänsla",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Referensen markerar tredjepart. Kontrollera säljare, förpackning och leveransdatum extra noga inför presentköp.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const solDeJaneiroJetSetProduct: Product = {
+  slug: "sol-de-janeiro-jet-set",
+  title: "Sol de Janeiro Jet Set",
+  category: "skonhet",
+  asin: "B089R5T26N",
+  brand: "Sol",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "premium",
+  badges: [
+    "Viral",
+    "Resestorlek",
+    "Doft",
+  ],
+  image: "/products/sol-de-janeiro-jet-set/sol-de-janeiro-jet-set-thumbnail.webp",
+  imageAlt: "Sol de Janeiro Jet Set",
+  images: [
+    {
+      src: "/products/sol-de-janeiro-jet-set/sol-de-janeiro-jet-set-thumbnail.webp",
+      alt: "Sol de Janeiro Jet Set",
+      label: "Produkt",
+    },
+    {
+      src: "/products/sol-de-janeiro-jet-set/sol-de-janeiro-jet-set-1.webp",
+      alt: "Sol de Janeiro Jet Set i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/sol-de-janeiro-jet-set/sol-de-janeiro-jet-set-2.webp",
+      alt: "Sol de Janeiro Jet Set med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4fcUEhE",
+  pageHref: "/skonhet/sol-de-janeiro-jet-set",
+  summary: "Ett viralt doft- och kroppsvårdsset i reseformat för dig som vill ge eller testa Sol de Janeiro utan fullstorlek.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Sol de Janeiro Jet Set utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Stark present och viral favorit, med doften som avgörande fråga.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "Ett viralt doft- och kroppsvårdsset i reseformat för dig som vill ge eller testa Sol de Janeiro utan fullstorlek.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Doften är starkt personlig. Välj inte bara för hypen om mottagaren föredrar diskreta dofter.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Presenter",
+  specSectionTitle: "Sol de Janeiro Jet Set",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Presenter",
+      value: "Mini-set",
+    },
+    {
+      label: "Profil",
+      caption: "Presenter",
+      value: "Doft och kroppsvård",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Presenter",
+      value: "Present eller teststorlek",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4fcUEhE",
+    ratingSummary: "Amazon visar 4.5 av 5 (2 389).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Sol de Janeiro Jet Set är valt för viral och resestorlek.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Doften är starkt personlig. Välj inte bara för hypen om mottagaren föredrar diskreta dofter.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Ett viralt doft- och kroppsvårdsset i reseformat för dig som vill ge eller testa Sol de Janeiro utan fullstorlek.",
+    "Passar dig som söker presenter med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Viral, Resestorlek, Doft",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Doften är starkt personlig. Välj inte bara för hypen om mottagaren föredrar diskreta dofter.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const kindlePaperwhiteProduct: Product = {
+  slug: "kindle-paperwhite",
+  title: "Kindle Paperwhite 16 GB",
+  category: "halsa",
+  asin: "B0CFPWLGF2",
+  brand: "Kindle",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "premium",
+  badges: [
+    "E-ink",
+    "16 GB",
+    "Amazon",
+  ],
+  image: "/products/kindle-paperwhite/kindle-paperwhite-thumbnail.webp",
+  imageAlt: "Kindle Paperwhite 16 GB",
+  images: [
+    {
+      src: "/products/kindle-paperwhite/kindle-paperwhite-thumbnail.webp",
+      alt: "Kindle Paperwhite 16 GB",
+      label: "Produkt",
+    },
+    {
+      src: "/products/kindle-paperwhite/kindle-paperwhite-1.webp",
+      alt: "Kindle Paperwhite 16 GB i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/kindle-paperwhite/kindle-paperwhite-2.webp",
+      alt: "Kindle Paperwhite 16 GB med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vdp6NA",
+  pageHref: "/halsa/kindle-paperwhite",
+  summary: "En e-läsare för dig som vill ha fokuserad läsning, lång batteritid och Amazons ekosystem.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Kindle Paperwhite 16 GB utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Bästa valet för Amazon-läsaren, men inte mest öppet.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En e-läsare för dig som vill ha fokuserad läsning, lång batteritid och Amazons ekosystem.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Kindle är starkast om du trivs i Amazons bokvärld. Välj Kobo om öppenhet och bibliotekslån väger tyngre.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Smart hem & livsstil",
+  specSectionTitle: "Kindle Paperwhite 16 GB",
+  specs: [
+    {
+      label: "Skärm",
+      caption: "Smart hem & livsstil",
+      value: "E-ink",
+    },
+    {
+      label: "Lagring",
+      caption: "Smart hem & livsstil",
+      value: "16 GB",
+    },
+    {
+      label: "Ekosystem",
+      caption: "Smart hem & livsstil",
+      value: "Amazon Kindle",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vdp6NA",
+    ratingSummary: "Amazon visar 4.6 av 5 (16 126).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Kindle Paperwhite 16 GB är valt för e-ink och 16 gb.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Kindle är starkast om du trivs i Amazons bokvärld. Välj Kobo om öppenhet och bibliotekslån väger tyngre.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En e-läsare för dig som vill ha fokuserad läsning, lång batteritid och Amazons ekosystem.",
+    "Passar dig som söker smart hem & livsstil med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "E-ink, 16 GB, Amazon",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Kindle är starkast om du trivs i Amazons bokvärld. Välj Kobo om öppenhet och bibliotekslån väger tyngre.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const renphoOgonmassagerProduct: Product = {
+  slug: "renpho-ogonmassager",
+  title: "RENPHO ögonmassager",
+  category: "halsa",
+  asin: "B07SM61FCT",
+  brand: "RENPHO",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Värme",
+    "Pausprodukt",
+    "Bluetooth",
+  ],
+  image: "/products/renpho-ogonmassager/renpho-ogonmassager-thumbnail.webp",
+  imageAlt: "RENPHO ögonmassager",
+  images: [
+    {
+      src: "/products/renpho-ogonmassager/renpho-ogonmassager-thumbnail.webp",
+      alt: "RENPHO ögonmassager",
+      label: "Produkt",
+    },
+    {
+      src: "/products/renpho-ogonmassager/renpho-ogonmassager-1.webp",
+      alt: "RENPHO ögonmassager i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/renpho-ogonmassager/renpho-ogonmassager-2.webp",
+      alt: "RENPHO ögonmassager med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3SHStdd",
+  pageHref: "/halsa/ogonmassager/renpho",
+  summary: "En pausprodukt för ögonområdet med värme och tryckkänsla när du vill stänga ute vardagen en stund.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom RENPHO ögonmassager utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Helt okej som pausprodukt, men compliance och passform gör den känslig.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En pausprodukt för ögonområdet med värme och tryckkänsla när du vill stänga ute vardagen en stund.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Inga löften om syn, sömn eller medicinska effekter. Passform, tryck och ljud passar inte alla.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Mys",
+  specSectionTitle: "RENPHO ögonmassager",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Mys",
+      value: "Ögonmassager",
+    },
+    {
+      label: "Funktion",
+      caption: "Mys",
+      value: "Värme och tryckkänsla",
+    },
+    {
+      label: "Caveat",
+      caption: "Mys",
+      value: "Passform är personlig",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3SHStdd",
+    ratingSummary: "Amazon visar 4.4 av 5 (31 532).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "RENPHO ögonmassager är valt för värme och pausprodukt.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Inga löften om syn, sömn eller medicinska effekter. Passform, tryck och ljud passar inte alla.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En pausprodukt för ögonområdet med värme och tryckkänsla när du vill stänga ute vardagen en stund.",
+    "Passar dig som söker mys med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Värme, Pausprodukt, Bluetooth",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Inga löften om syn, sömn eller medicinska effekter. Passform, tryck och ljud passar inte alla.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const comfierMassagesitsProduct: Product = {
+  slug: "comfier-massagesits",
+  title: "Comfier massagesits",
+  category: "halsa",
+  asin: "B07JH7GS76",
+  brand: "Comfier",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Stolformat",
+    "Värme",
+    "Hemmapaus",
+  ],
+  image: "/products/comfier-massagesits/comfier-massagesits-thumbnail.webp",
+  imageAlt: "Comfier massagesits",
+  images: [
+    {
+      src: "/products/comfier-massagesits/comfier-massagesits-thumbnail.webp",
+      alt: "Comfier massagesits",
+      label: "Produkt",
+    },
+    {
+      src: "/products/comfier-massagesits/comfier-massagesits-1.webp",
+      alt: "Comfier massagesits i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/comfier-massagesits/comfier-massagesits-2.webp",
+      alt: "Comfier massagesits med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4feQuG3",
+  pageHref: "/halsa/massagesits/comfier",
+  summary: "En massagesits för soffan eller kontorsstolen när du vill ha en större, stilla pausprodukt än massagepistol.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Comfier massagesits utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Bra present till rätt stol, men mindre flexibel än massagepistol.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En massagesits för soffan eller kontorsstolen när du vill ha en större, stilla pausprodukt än massagepistol.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Det är komfort och avkoppling, inte behandling. Storlek, stolens form och trycket avgör upplevelsen.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Återhämtning",
+  specSectionTitle: "Comfier massagesits",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Återhämtning",
+      value: "Massagesits",
+    },
+    {
+      label: "Placering",
+      caption: "Återhämtning",
+      value: "Stol eller soffa",
+    },
+    {
+      label: "Kompromiss",
+      caption: "Återhämtning",
+      value: "Kräver rätt stol",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4feQuG3",
+    ratingSummary: "Amazon visar 4.2 av 5 (13 978).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Comfier massagesits är valt för stolformat och värme.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Det är komfort och avkoppling, inte behandling. Storlek, stolens form och trycket avgör upplevelsen.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En massagesits för soffan eller kontorsstolen när du vill ha en större, stilla pausprodukt än massagepistol.",
+    "Passar dig som söker återhämtning med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Stolformat, Värme, Hemmapaus",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Det är komfort och avkoppling, inte behandling. Storlek, stolens form och trycket avgör upplevelsen.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const wirelumeHanddammsugareProduct: Product = {
+  slug: "wirelume-handdammsugare",
+  title: "Wirelume handdammsugare",
+  category: "halsa",
+  asin: "B0D45V1YXT",
+  brand: "Wirelume",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Handdammsugare",
+    "Snabbfix",
+    "Hem",
+  ],
+  image: "/products/wirelume-handdammsugare/wirelume-handdammsugare-thumbnail.webp",
+  imageAlt: "Wirelume handdammsugare",
+  images: [
+    {
+      src: "/products/wirelume-handdammsugare/wirelume-handdammsugare-thumbnail.webp",
+      alt: "Wirelume handdammsugare",
+      label: "Produkt",
+    },
+    {
+      src: "/products/wirelume-handdammsugare/wirelume-handdammsugare-1.webp",
+      alt: "Wirelume handdammsugare i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/wirelume-handdammsugare/wirelume-handdammsugare-2.webp",
+      alt: "Wirelume handdammsugare med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3SXBUdk",
+  pageHref: "/halsa/handdammsugare/wirelume",
+  summary: "En liten handdammsugare för smulor, bil och snabba städjobb där robotdammsugaren inte kommer åt.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Wirelume handdammsugare utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Praktiskt komplement för småstädning.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En liten handdammsugare för smulor, bil och snabba städjobb där robotdammsugaren inte kommer åt.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Det är ett komplement, inte en fullstor dammsugare. Batteritid och behållare sätter gränsen.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Smart hem & livsstil",
+  specSectionTitle: "Wirelume handdammsugare",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Smart hem & livsstil",
+      value: "Handdammsugare",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Smart hem & livsstil",
+      value: "Smulor och bil",
+    },
+    {
+      label: "Kompromiss",
+      caption: "Smart hem & livsstil",
+      value: "Begränsad behållare",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3SXBUdk",
+    ratingSummary: "Amazon visar 4.3 av 5 (2 291).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Wirelume handdammsugare är valt för handdammsugare och snabbfix.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Det är ett komplement, inte en fullstor dammsugare. Batteritid och behållare sätter gränsen.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En liten handdammsugare för smulor, bil och snabba städjobb där robotdammsugaren inte kommer åt.",
+    "Passar dig som söker smart hem & livsstil med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Handdammsugare, Snabbfix, Hem",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Det är ett komplement, inte en fullstor dammsugare. Batteritid och behållare sätter gränsen.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const auxmirSminkspegelProduct: Product = {
+  slug: "auxmir-sminkspegel",
+  title: "Auxmir kompakt sminkspegel",
+  category: "skonhet",
+  asin: "B0CHM7TG8G",
+  brand: "Auxmir",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "LED",
+    "Kompakt",
+    "Makeup",
+  ],
+  image: "/products/auxmir-sminkspegel/auxmir-sminkspegel-thumbnail.webp",
+  imageAlt: "Auxmir kompakt sminkspegel",
+  images: [
+    {
+      src: "/products/auxmir-sminkspegel/auxmir-sminkspegel-thumbnail.webp",
+      alt: "Auxmir kompakt sminkspegel",
+      label: "Produkt",
+    },
+    {
+      src: "/products/auxmir-sminkspegel/auxmir-sminkspegel-1.webp",
+      alt: "Auxmir kompakt sminkspegel i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/auxmir-sminkspegel/auxmir-sminkspegel-2.webp",
+      alt: "Auxmir kompakt sminkspegel med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vHFPcH",
+  pageHref: "/skonhet/sminkspegel/auxmir",
+  summary: "En kompakt LED-sminkspegel för badrum, skrivbord och resor där storlek är viktigare än Hollywoodkänsla.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Auxmir kompakt sminkspegel utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Smidig spegel för små ytor och vardagsmakeup.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En kompakt LED-sminkspegel för badrum, skrivbord och resor där storlek är viktigare än Hollywoodkänsla.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Ljuset och förstoring är hjälpmedel, inte garanti för perfekt makeup. Kontrollera mått före köp.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Makeup",
+  specSectionTitle: "Auxmir kompakt sminkspegel",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Makeup",
+      value: "Kompakt sminkspegel",
+    },
+    {
+      label: "Ljus",
+      caption: "Makeup",
+      value: "LED",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Makeup",
+      value: "Små ytor",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vHFPcH",
+    ratingSummary: "Amazon visar 4.5 av 5 (2 863).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Auxmir kompakt sminkspegel är valt för led och kompakt.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Ljuset och förstoring är hjälpmedel, inte garanti för perfekt makeup. Kontrollera mått före köp.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En kompakt LED-sminkspegel för badrum, skrivbord och resor där storlek är viktigare än Hollywoodkänsla.",
+    "Passar dig som söker makeup med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "LED, Kompakt, Makeup",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Ljuset och förstoring är hjälpmedel, inte garanti för perfekt makeup. Kontrollera mått före köp.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const baytHollywoodSpegelProduct: Product = {
+  slug: "bayt-hollywood-spegel",
+  title: "Bayt Hollywood-spegel",
+  category: "skonhet",
+  asin: "B0CTD1D9NQ",
+  brand: "Bayt",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "premium",
+  badges: [
+    "Hollywood",
+    "Stor spegel",
+    "LED",
+  ],
+  image: "/products/bayt-hollywood-spegel/bayt-hollywood-spegel-thumbnail.webp",
+  imageAlt: "Bayt Hollywood-spegel",
+  images: [
+    {
+      src: "/products/bayt-hollywood-spegel/bayt-hollywood-spegel-thumbnail.webp",
+      alt: "Bayt Hollywood-spegel",
+      label: "Produkt",
+    },
+    {
+      src: "/products/bayt-hollywood-spegel/bayt-hollywood-spegel-1.webp",
+      alt: "Bayt Hollywood-spegel i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/bayt-hollywood-spegel/bayt-hollywood-spegel-2.webp",
+      alt: "Bayt Hollywood-spegel med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4bgmA1F",
+  pageHref: "/skonhet/sminkspegel/bayt",
+  summary: "En större sminkspegel med Hollywoodkänsla för dig som vill ha fast makeupstation hemma.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Bayt Hollywood-spegel utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Helt okej för makeupstation, men QC-risken gör att Elin sänker poängen.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En större sminkspegel med Hollywoodkänsla för dig som vill ha fast makeupstation hemma.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Referensen har QC-risk kring lampor. Köp bara om storleken och returvillkoren känns trygga.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Makeup",
+  specSectionTitle: "Bayt Hollywood-spegel",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Makeup",
+      value: "Hollywood-spegel",
+    },
+    {
+      label: "Ljus",
+      caption: "Makeup",
+      value: "LED-lampor",
+    },
+    {
+      label: "Caveat",
+      caption: "Makeup",
+      value: "QC-risk enligt referens",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4bgmA1F",
+    ratingSummary: "Amazon visar 4.4 av 5 (213).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Bayt Hollywood-spegel är valt för hollywood och stor spegel.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Referensen har QC-risk kring lampor. Köp bara om storleken och returvillkoren känns trygga.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En större sminkspegel med Hollywoodkänsla för dig som vill ha fast makeupstation hemma.",
+    "Passar dig som söker makeup med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Hollywood, Stor spegel, LED",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Referensen har QC-risk kring lampor. Köp bara om storleken och returvillkoren känns trygga.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const plantifiqueAnsiktsrulleProduct: Product = {
+  slug: "plantifique-ansiktsrulle",
+  title: "Plantifique ansiktsrulle och gua sha",
+  category: "skonhet",
+  asin: "B07PHZS8MV",
+  brand: "Plantifique",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Roller",
+    "Gua sha",
+    "Kylkänsla",
+  ],
+  image: "/products/plantifique-ansiktsrulle/plantifique-ansiktsrulle-thumbnail.webp",
+  imageAlt: "Plantifique ansiktsrulle och gua sha",
+  images: [
+    {
+      src: "/products/plantifique-ansiktsrulle/plantifique-ansiktsrulle-thumbnail.webp",
+      alt: "Plantifique ansiktsrulle och gua sha",
+      label: "Produkt",
+    },
+    {
+      src: "/products/plantifique-ansiktsrulle/plantifique-ansiktsrulle-1.webp",
+      alt: "Plantifique ansiktsrulle och gua sha i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/plantifique-ansiktsrulle/plantifique-ansiktsrulle-2.webp",
+      alt: "Plantifique ansiktsrulle och gua sha med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4eHLwBD",
+  pageHref: "/skonhet/ansiktsrulle/plantifique",
+  summary: "Ett set med ansiktsrulle och gua sha för en sval, taktil stund i hudvårdsrutinen.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Plantifique ansiktsrulle och gua sha utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Prisvärt rutinset, men claims runt kategorin kräver lågmäld copy.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "Ett set med ansiktsrulle och gua sha för en sval, taktil stund i hudvårdsrutinen.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Håll det kosmetiskt: verktygen ger känsla och rutin, inte medicinska effekter eller avgiftande löften.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Hudvård",
+  specSectionTitle: "Plantifique ansiktsrulle och gua sha",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Hudvård",
+      value: "Ansiktsrulle + gua sha",
+    },
+    {
+      label: "Material",
+      caption: "Hudvård",
+      value: "Sten enligt referens",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Hudvård",
+      value: "Sval rutin",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4eHLwBD",
+    ratingSummary: "Amazon visar 4.6 av 5 (3 553).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Plantifique ansiktsrulle och gua sha är valt för roller och gua sha.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Håll det kosmetiskt: verktygen ger känsla och rutin, inte medicinska effekter eller avgiftande löften.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Ett set med ansiktsrulle och gua sha för en sval, taktil stund i hudvårdsrutinen.",
+    "Passar dig som söker hudvård med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Roller, Gua sha, Kylkänsla",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Håll det kosmetiskt: verktygen ger känsla och rutin, inte medicinska effekter eller avgiftande löften.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
 export const waveProducts: Product[] = [
   sportconicLopbandProduct,
   citysportsGabandProduct,
@@ -2874,6 +3854,16 @@ export const waveProducts: Product[] = [
   philipsRakapparat5000Product,
   winseaNasharstrimmerProduct,
   lorealSkaggoljaProduct,
+  yankeeCandleCleanCottonProduct,
+  ritualsSakuraPresentsetProduct,
+  solDeJaneiroJetSetProduct,
+  kindlePaperwhiteProduct,
+  renphoOgonmassagerProduct,
+  comfierMassagesitsProduct,
+  wirelumeHanddammsugareProduct,
+  auxmirSminkspegelProduct,
+  baytHollywoodSpegelProduct,
+  plantifiqueAnsiktsrulleProduct,
 ];
 
 export const waveEditorialScores: Record<string, EditorialScore> = {
@@ -3108,5 +4098,85 @@ export const waveEditorialScores: Record<string, EditorialScore> = {
     proven: 12,
     total: 78,
     verdict: "Bra budgetolja för mjukare skäggkänsla, men enkel presentation.",
+  },
+  "yankee-candle-clean-cotton": {
+    value: 23,
+    performance: 22,
+    promise: 19,
+    proven: 12,
+    total: 76,
+    verdict: "Mysig klassiker, men tredjepart och doftsmak gör den mindre självklar.",
+  },
+  "rituals-sakura-presentset": {
+    value: 23,
+    performance: 23,
+    promise: 20,
+    proven: 12,
+    total: 78,
+    verdict: "Fin presentkänsla, men säljarkontroll krävs.",
+  },
+  "sol-de-janeiro-jet-set": {
+    value: 25,
+    performance: 24,
+    promise: 21,
+    proven: 12,
+    total: 82,
+    verdict: "Stark present och viral favorit, med doften som avgörande fråga.",
+  },
+  "kindle-paperwhite": {
+    value: 26,
+    performance: 25,
+    promise: 22,
+    proven: 14,
+    total: 87,
+    verdict: "Bästa valet för Amazon-läsaren, men inte mest öppet.",
+  },
+  "renpho-ogonmassager": {
+    value: 22,
+    performance: 21,
+    promise: 18,
+    proven: 11,
+    total: 72,
+    verdict: "Helt okej som pausprodukt, men compliance och passform gör den känslig.",
+  },
+  "comfier-massagesits": {
+    value: 24,
+    performance: 23,
+    promise: 20,
+    proven: 12,
+    total: 79,
+    verdict: "Bra present till rätt stol, men mindre flexibel än massagepistol.",
+  },
+  "wirelume-handdammsugare": {
+    value: 24,
+    performance: 23,
+    promise: 20,
+    proven: 13,
+    total: 80,
+    verdict: "Praktiskt komplement för småstädning.",
+  },
+  "auxmir-sminkspegel": {
+    value: 25,
+    performance: 24,
+    promise: 21,
+    proven: 12,
+    total: 82,
+    verdict: "Smidig spegel för små ytor och vardagsmakeup.",
+  },
+  "bayt-hollywood-spegel": {
+    value: 20,
+    performance: 20,
+    promise: 17,
+    proven: 11,
+    total: 68,
+    verdict: "Helt okej för makeupstation, men QC-risken gör att Elin sänker poängen.",
+  },
+  "plantifique-ansiktsrulle": {
+    value: 22,
+    performance: 21,
+    promise: 19,
+    proven: 12,
+    total: 74,
+    verdict: "Prisvärt rutinset, men claims runt kategorin kräver lågmäld copy.",
   },
 };

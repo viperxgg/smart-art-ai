@@ -166,3 +166,45 @@ Decisions:
 - Reflected OneBlade blade-cost caveat, Remington corded caveat and Philips shaver learning-curve caveat.
 
 Skipped items: none.
+
+## Wave 3 / Batch 2 - jul and mys
+
+Routes added:
+- `/halsa/doftljus/yankee-clean-cotton`
+- `/skonhet/presentset/rituals-sakura`
+- `/skonhet/sol-de-janeiro-jet-set`
+- `/halsa/kindle-paperwhite`
+- `/halsa/ogonmassager/renpho`
+- `/halsa/massagesits/comfier`
+- `/halsa/handdammsugare/wirelume`
+- `/skonhet/sminkspegel/auxmir`
+- `/skonhet/sminkspegel/bayt`
+- `/skonhet/ansiktsrulle/plantifique`
+- `/halsa/kindle-eller-kobo`
+- `/halsa/doftljus-eller-aromadiffuser`
+- `/skonhet/gua-sha-eller-ansiktsrulle`
+- `/halsa/massagesits-eller-massagepistol`
+- `/skonhet/sminkspegel`
+- `/skonhet/hollywood-eller-kompakt-sminkspegel`
+- `/halsa/robot-eller-handdammsugare`
+- `/guider/julklapp-till-henne`
+- `/guider/julklappar-budget-mellan-premium`
+
+Verification:
+- `npm run lint`: pass
+- `npm run typecheck`: pass
+- `npm run build`: pass
+- HTTP 200: pass for all 19 routes
+- 390px overflow: pass for all 19 routes (`scrollWidth=390`, `clientWidth=390`)
+- Mojibake grep `rg "Ã" lib app components`: clean
+- Banned medical-claim scan over generated wave files: clean
+- Affiliate links: exact match against `INTAKE-STATUS.md`
+
+Decisions:
+- Used `/guider/julklappar-budget-mellan-premium` instead of hardcoded under-100/300/700 naming because pages must not rely on hardcoded prices.
+- Kept Renpho to heat, massage format and pause language; no eye strain, dark circles, dry eyes or sleep claims.
+- Kept Plantifique to cosmetic tool/routine language; no toxins, swelling, anti-aging or circulation claims.
+- Logged third-party seller review needs for Yankee Candle, Rituals Sakura and Bayt Hollywood mirror.
+- Kept Kindle/Kobo focused on ecosystem and library/open-format tradeoffs.
+
+Skipped items: none.

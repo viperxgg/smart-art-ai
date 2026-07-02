@@ -1736,6 +1736,586 @@ export const waveProductPicks: SommarPick[] = [
       },
     ],
   },
+  {
+    productSlug: "yankee-candle-clean-cotton",
+    product: productBySlug("yankee-candle-clean-cotton"),
+    href: "/halsa/doftljus/yankee-clean-cotton",
+    cardBadge: "Doftljus",
+    cardHook: "Ett stort doftljus för dig som vill ha ren tvättkänsla och långsam vardagsmys.",
+    cardImage: "/products/yankee-candle-clean-cotton/yankee-candle-clean-cotton-thumbnail.webp",
+    cardImageAlt: "Yankee Candle Clean Cotton",
+    badge: "Elins mellanval",
+    headline: "Yankee Candle Clean Cotton",
+    shortBody: "Ett stort doftljus för dig som vill ha ren tvättkänsla och långsam vardagsmys.",
+    valueHook: "Doftljus · Stor burk · Clean Cotton",
+    valueStatement: "Ett stort doftljus för dig som vill ha ren tvättkänsla och långsam vardagsmys. Referensen markerar tredjepart. Doft är personlig och stor burk är inte alltid rätt för små rum.",
+    passFor: [
+      "Vill ha mys utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Referensen markerar tredjepart. Doft är personlig och stor burk är inte alltid rätt för små rum.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Mysig klassiker, men tredjepart och doftsmak gör den mindre självklar.",
+    amazonSummary: "Amazon visar 4.6 av 5 (12 510).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Yankee Candle Clean Cotton värd att köpa?",
+        answer: "Mysig klassiker, men tredjepart och doftsmak gör den mindre självklar.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "yankee-candle-clean-cotton-recensioner",
+    reviewFormId: "yankee-candle-clean-cotton-skriv-recension",
+    targetKeyword: "yankee candle clean cotton",
+    metaTitle: "Yankee Candle Clean Cotton – Elins ärliga koll | Elins val",
+    metaDescription: "Yankee Candle Clean Cotton: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "rituals-sakura-presentset",
+    product: productBySlug("rituals-sakura-presentset"),
+    href: "/skonhet/presentset/rituals-sakura",
+    cardBadge: "Presentset",
+    cardHook: "Ett färdigt presentset när du vill ge något som känns genomtänkt utan att bygga egen korg.",
+    cardImage: "/products/rituals-sakura-presentset/rituals-sakura-presentset-thumbnail.webp",
+    cardImageAlt: "Rituals Sakura presentset",
+    badge: "Elins premiumval",
+    headline: "Rituals Sakura presentset",
+    shortBody: "Ett färdigt presentset när du vill ge något som känns genomtänkt utan att bygga egen korg.",
+    valueHook: "Presentset · Sakura · Premiumkänsla",
+    valueStatement: "Ett färdigt presentset när du vill ge något som känns genomtänkt utan att bygga egen korg. Referensen markerar tredjepart. Kontrollera säljare, förpackning och leveransdatum extra noga inför presentköp.",
+    passFor: [
+      "Vill ha presenter utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Referensen markerar tredjepart. Kontrollera säljare, förpackning och leveransdatum extra noga inför presentköp.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Fin presentkänsla, men säljarkontroll krävs.",
+    amazonSummary: "Amazon visar 4.8 av 5 (2 434).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Rituals Sakura presentset värd att köpa?",
+        answer: "Fin presentkänsla, men säljarkontroll krävs.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "rituals-sakura-presentset-recensioner",
+    reviewFormId: "rituals-sakura-presentset-skriv-recension",
+    targetKeyword: "rituals sakura presentset",
+    metaTitle: "Rituals Sakura presentset – Elins ärliga koll | Elins val",
+    metaDescription: "Rituals Sakura presentset: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "sol-de-janeiro-jet-set",
+    product: productBySlug("sol-de-janeiro-jet-set"),
+    href: "/skonhet/sol-de-janeiro-jet-set",
+    cardBadge: "Viral",
+    cardHook: "Ett viralt doft- och kroppsvårdsset i reseformat för dig som vill ge eller testa Sol de Janeiro utan fullstorlek.",
+    cardImage: "/products/sol-de-janeiro-jet-set/sol-de-janeiro-jet-set-thumbnail.webp",
+    cardImageAlt: "Sol de Janeiro Jet Set",
+    badge: "Elins premiumval",
+    headline: "Sol de Janeiro Jet Set",
+    shortBody: "Ett viralt doft- och kroppsvårdsset i reseformat för dig som vill ge eller testa Sol de Janeiro utan fullstorlek.",
+    valueHook: "Viral · Resestorlek · Doft",
+    valueStatement: "Ett viralt doft- och kroppsvårdsset i reseformat för dig som vill ge eller testa Sol de Janeiro utan fullstorlek. Doften är starkt personlig. Välj inte bara för hypen om mottagaren föredrar diskreta dofter.",
+    passFor: [
+      "Vill ha presenter utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Doften är starkt personlig. Välj inte bara för hypen om mottagaren föredrar diskreta dofter.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Stark present och viral favorit, med doften som avgörande fråga.",
+    amazonSummary: "Amazon visar 4.5 av 5 (2 389).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Sol de Janeiro Jet Set värd att köpa?",
+        answer: "Stark present och viral favorit, med doften som avgörande fråga.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "sol-de-janeiro-jet-set-recensioner",
+    reviewFormId: "sol-de-janeiro-jet-set-skriv-recension",
+    targetKeyword: "sol de janeiro jet set",
+    metaTitle: "Sol de Janeiro Jet Set – Elins ärliga koll | Elins val",
+    metaDescription: "Sol de Janeiro Jet Set: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "kindle-paperwhite",
+    product: productBySlug("kindle-paperwhite"),
+    href: "/halsa/kindle-paperwhite",
+    cardBadge: "E-ink",
+    cardHook: "En e-läsare för dig som vill ha fokuserad läsning, lång batteritid och Amazons ekosystem.",
+    cardImage: "/products/kindle-paperwhite/kindle-paperwhite-thumbnail.webp",
+    cardImageAlt: "Kindle Paperwhite 16 GB",
+    badge: "Elins premiumval",
+    headline: "Kindle Paperwhite 16 GB",
+    shortBody: "En e-läsare för dig som vill ha fokuserad läsning, lång batteritid och Amazons ekosystem.",
+    valueHook: "E-ink · 16 GB · Amazon",
+    valueStatement: "En e-läsare för dig som vill ha fokuserad läsning, lång batteritid och Amazons ekosystem. Kindle är starkast om du trivs i Amazons bokvärld. Välj Kobo om öppenhet och bibliotekslån väger tyngre.",
+    passFor: [
+      "Vill ha smart hem & livsstil utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Kindle är starkast om du trivs i Amazons bokvärld. Välj Kobo om öppenhet och bibliotekslån väger tyngre.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Bästa valet för Amazon-läsaren, men inte mest öppet.",
+    amazonSummary: "Amazon visar 4.6 av 5 (16 126).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Kindle Paperwhite 16 GB värd att köpa?",
+        answer: "Bästa valet för Amazon-läsaren, men inte mest öppet.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "kindle-paperwhite-recensioner",
+    reviewFormId: "kindle-paperwhite-skriv-recension",
+    targetKeyword: "kindle paperwhite 16 gb",
+    metaTitle: "Kindle Paperwhite 16 GB – Elins ärliga koll | Elins val",
+    metaDescription: "Kindle Paperwhite 16 GB: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "renpho-ogonmassager",
+    product: productBySlug("renpho-ogonmassager"),
+    href: "/halsa/ogonmassager/renpho",
+    cardBadge: "Värme",
+    cardHook: "En pausprodukt för ögonområdet med värme och tryckkänsla när du vill stänga ute vardagen en stund.",
+    cardImage: "/products/renpho-ogonmassager/renpho-ogonmassager-thumbnail.webp",
+    cardImageAlt: "RENPHO ögonmassager",
+    badge: "Elins mellanval",
+    headline: "RENPHO ögonmassager",
+    shortBody: "En pausprodukt för ögonområdet med värme och tryckkänsla när du vill stänga ute vardagen en stund.",
+    valueHook: "Värme · Pausprodukt · Bluetooth",
+    valueStatement: "En pausprodukt för ögonområdet med värme och tryckkänsla när du vill stänga ute vardagen en stund. Inga löften om syn, sömn eller medicinska effekter. Passform, tryck och ljud passar inte alla.",
+    passFor: [
+      "Vill ha mys utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Inga löften om syn, sömn eller medicinska effekter. Passform, tryck och ljud passar inte alla.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Helt okej som pausprodukt, men compliance och passform gör den känslig.",
+    amazonSummary: "Amazon visar 4.4 av 5 (31 532).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är RENPHO ögonmassager värd att köpa?",
+        answer: "Helt okej som pausprodukt, men compliance och passform gör den känslig.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "renpho-ogonmassager-recensioner",
+    reviewFormId: "renpho-ogonmassager-skriv-recension",
+    targetKeyword: "renpho ögonmassager",
+    metaTitle: "RENPHO ögonmassager – Elins ärliga koll | Elins val",
+    metaDescription: "RENPHO ögonmassager: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "comfier-massagesits",
+    product: productBySlug("comfier-massagesits"),
+    href: "/halsa/massagesits/comfier",
+    cardBadge: "Stolformat",
+    cardHook: "En massagesits för soffan eller kontorsstolen när du vill ha en större, stilla pausprodukt än massagepistol.",
+    cardImage: "/products/comfier-massagesits/comfier-massagesits-thumbnail.webp",
+    cardImageAlt: "Comfier massagesits",
+    badge: "Elins mellanval",
+    headline: "Comfier massagesits",
+    shortBody: "En massagesits för soffan eller kontorsstolen när du vill ha en större, stilla pausprodukt än massagepistol.",
+    valueHook: "Stolformat · Värme · Hemmapaus",
+    valueStatement: "En massagesits för soffan eller kontorsstolen när du vill ha en större, stilla pausprodukt än massagepistol. Det är komfort och avkoppling, inte behandling. Storlek, stolens form och trycket avgör upplevelsen.",
+    passFor: [
+      "Vill ha återhämtning utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Det är komfort och avkoppling, inte behandling. Storlek, stolens form och trycket avgör upplevelsen.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Bra present till rätt stol, men mindre flexibel än massagepistol.",
+    amazonSummary: "Amazon visar 4.2 av 5 (13 978).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Comfier massagesits värd att köpa?",
+        answer: "Bra present till rätt stol, men mindre flexibel än massagepistol.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "comfier-massagesits-recensioner",
+    reviewFormId: "comfier-massagesits-skriv-recension",
+    targetKeyword: "comfier massagesits",
+    metaTitle: "Comfier massagesits – Elins ärliga koll | Elins val",
+    metaDescription: "Comfier massagesits: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "wirelume-handdammsugare",
+    product: productBySlug("wirelume-handdammsugare"),
+    href: "/halsa/handdammsugare/wirelume",
+    cardBadge: "Handdammsugare",
+    cardHook: "En liten handdammsugare för smulor, bil och snabba städjobb där robotdammsugaren inte kommer åt.",
+    cardImage: "/products/wirelume-handdammsugare/wirelume-handdammsugare-thumbnail.webp",
+    cardImageAlt: "Wirelume handdammsugare",
+    badge: "Elins mellanval",
+    headline: "Wirelume handdammsugare",
+    shortBody: "En liten handdammsugare för smulor, bil och snabba städjobb där robotdammsugaren inte kommer åt.",
+    valueHook: "Handdammsugare · Snabbfix · Hem",
+    valueStatement: "En liten handdammsugare för smulor, bil och snabba städjobb där robotdammsugaren inte kommer åt. Det är ett komplement, inte en fullstor dammsugare. Batteritid och behållare sätter gränsen.",
+    passFor: [
+      "Vill ha smart hem & livsstil utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Det är ett komplement, inte en fullstor dammsugare. Batteritid och behållare sätter gränsen.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Praktiskt komplement för småstädning.",
+    amazonSummary: "Amazon visar 4.3 av 5 (2 291).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Wirelume handdammsugare värd att köpa?",
+        answer: "Praktiskt komplement för småstädning.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "wirelume-handdammsugare-recensioner",
+    reviewFormId: "wirelume-handdammsugare-skriv-recension",
+    targetKeyword: "wirelume handdammsugare",
+    metaTitle: "Wirelume handdammsugare – Elins ärliga koll | Elins val",
+    metaDescription: "Wirelume handdammsugare: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "auxmir-sminkspegel",
+    product: productBySlug("auxmir-sminkspegel"),
+    href: "/skonhet/sminkspegel/auxmir",
+    cardBadge: "LED",
+    cardHook: "En kompakt LED-sminkspegel för badrum, skrivbord och resor där storlek är viktigare än Hollywoodkänsla.",
+    cardImage: "/products/auxmir-sminkspegel/auxmir-sminkspegel-thumbnail.webp",
+    cardImageAlt: "Auxmir kompakt sminkspegel",
+    badge: "Elins mellanval",
+    headline: "Auxmir kompakt sminkspegel",
+    shortBody: "En kompakt LED-sminkspegel för badrum, skrivbord och resor där storlek är viktigare än Hollywoodkänsla.",
+    valueHook: "LED · Kompakt · Makeup",
+    valueStatement: "En kompakt LED-sminkspegel för badrum, skrivbord och resor där storlek är viktigare än Hollywoodkänsla. Ljuset och förstoring är hjälpmedel, inte garanti för perfekt makeup. Kontrollera mått före köp.",
+    passFor: [
+      "Vill ha makeup utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Ljuset och förstoring är hjälpmedel, inte garanti för perfekt makeup. Kontrollera mått före köp.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Smidig spegel för små ytor och vardagsmakeup.",
+    amazonSummary: "Amazon visar 4.5 av 5 (2 863).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Auxmir kompakt sminkspegel värd att köpa?",
+        answer: "Smidig spegel för små ytor och vardagsmakeup.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "auxmir-sminkspegel-recensioner",
+    reviewFormId: "auxmir-sminkspegel-skriv-recension",
+    targetKeyword: "auxmir kompakt sminkspegel",
+    metaTitle: "Auxmir kompakt sminkspegel – Elins ärliga koll | Elins val",
+    metaDescription: "Auxmir kompakt sminkspegel: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "bayt-hollywood-spegel",
+    product: productBySlug("bayt-hollywood-spegel"),
+    href: "/skonhet/sminkspegel/bayt",
+    cardBadge: "Hollywood",
+    cardHook: "En större sminkspegel med Hollywoodkänsla för dig som vill ha fast makeupstation hemma.",
+    cardImage: "/products/bayt-hollywood-spegel/bayt-hollywood-spegel-thumbnail.webp",
+    cardImageAlt: "Bayt Hollywood-spegel",
+    badge: "Elins premiumval",
+    headline: "Bayt Hollywood-spegel",
+    shortBody: "En större sminkspegel med Hollywoodkänsla för dig som vill ha fast makeupstation hemma.",
+    valueHook: "Hollywood · Stor spegel · LED",
+    valueStatement: "En större sminkspegel med Hollywoodkänsla för dig som vill ha fast makeupstation hemma. Referensen har QC-risk kring lampor. Köp bara om storleken och returvillkoren känns trygga.",
+    passFor: [
+      "Vill ha makeup utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Referensen har QC-risk kring lampor. Köp bara om storleken och returvillkoren känns trygga.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Helt okej för makeupstation, men QC-risken gör att Elin sänker poängen.",
+    amazonSummary: "Amazon visar 4.4 av 5 (213).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Bayt Hollywood-spegel värd att köpa?",
+        answer: "Helt okej för makeupstation, men QC-risken gör att Elin sänker poängen.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "bayt-hollywood-spegel-recensioner",
+    reviewFormId: "bayt-hollywood-spegel-skriv-recension",
+    targetKeyword: "bayt hollywood-spegel",
+    metaTitle: "Bayt Hollywood-spegel – Elins ärliga koll | Elins val",
+    metaDescription: "Bayt Hollywood-spegel: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "plantifique-ansiktsrulle",
+    product: productBySlug("plantifique-ansiktsrulle"),
+    href: "/skonhet/ansiktsrulle/plantifique",
+    cardBadge: "Roller",
+    cardHook: "Ett set med ansiktsrulle och gua sha för en sval, taktil stund i hudvårdsrutinen.",
+    cardImage: "/products/plantifique-ansiktsrulle/plantifique-ansiktsrulle-thumbnail.webp",
+    cardImageAlt: "Plantifique ansiktsrulle och gua sha",
+    badge: "Elins budgetval",
+    headline: "Plantifique ansiktsrulle och gua sha",
+    shortBody: "Ett set med ansiktsrulle och gua sha för en sval, taktil stund i hudvårdsrutinen.",
+    valueHook: "Roller · Gua sha · Kylkänsla",
+    valueStatement: "Ett set med ansiktsrulle och gua sha för en sval, taktil stund i hudvårdsrutinen. Håll det kosmetiskt: verktygen ger känsla och rutin, inte medicinska effekter eller avgiftande löften.",
+    passFor: [
+      "Vill ha hudvård utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Håll det kosmetiskt: verktygen ger känsla och rutin, inte medicinska effekter eller avgiftande löften.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Prisvärt rutinset, men claims runt kategorin kräver lågmäld copy.",
+    amazonSummary: "Amazon visar 4.6 av 5 (3 553).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Plantifique ansiktsrulle och gua sha värd att köpa?",
+        answer: "Prisvärt rutinset, men claims runt kategorin kräver lågmäld copy.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "plantifique-ansiktsrulle-recensioner",
+    reviewFormId: "plantifique-ansiktsrulle-skriv-recension",
+    targetKeyword: "plantifique ansiktsrulle och gua sha",
+    metaTitle: "Plantifique ansiktsrulle och gua sha – Elins ärliga koll | Elins val",
+    metaDescription: "Plantifique ansiktsrulle och gua sha: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
 ];
 
 export const waveGuides: WaveGuide[] = [
@@ -3925,6 +4505,659 @@ export const waveGuides: WaveGuide[] = [
     metaTitle: "Julklapp till honom | Elins val",
     metaDescription: "Julklapp till honom: Prisvärda groomingnivåer utan att låsa texten till dagspriser. Annons, utan hårdkodade priser.",
   },
+  {
+    id: "kindle-eller-kobo",
+    href: "/halsa/kindle-eller-kobo",
+    category: "halsa",
+    label: "Jämförelse",
+    title: "Kindle eller Kobo?",
+    intro: "Amazon-ekosystem mot mer öppen läslogik.",
+    badges: [
+      "E-läsare",
+      "Kindle",
+      "Kobo",
+    ],
+    productSlugs: [
+      "kindle-paperwhite",
+      "kobo-clara-bw",
+    ],
+    pickBadges: {
+      "kindle-paperwhite": "E-ink",
+      "kobo-clara-bw": "Elins val",
+    },
+    choiceTitle: "Ekosystem först",
+    choiceText: "Välj Kindle om du köper och läser i Amazons värld. Välj Kobo om öppenhet och biblioteksvänlighet väger tyngre.",
+    rows: [
+      {
+        label: "Ekosystem",
+        values: [
+          "Amazon",
+          "Mer öppet",
+        ],
+      },
+      {
+        label: "Styrka",
+        values: [
+          "Paperwhite-känsla",
+          "Biblioteksvänligare",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Låser mer",
+          "Inte Amazon-first",
+        ],
+      },
+    ],
+    verdict: "Kindle är starkast för Amazon-läsare, Kobo för den som vill hålla vägarna öppna.",
+    faqItems: [
+      {
+        question: "Kindle eller Kobo?",
+        answer: "Välj Kindle om du köper och läser i Amazons värld. Välj Kobo om öppenhet och biblioteksvänlighet väger tyngre.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Kindle eller Kobo? | Elins val",
+    metaDescription: "Kindle eller Kobo?: Amazon-ekosystem mot mer öppen läslogik. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "doftljus-eller-aromadiffuser",
+    href: "/halsa/doftljus-eller-aromadiffuser",
+    category: "halsa",
+    label: "Jämförelse",
+    title: "Doftljus eller aromadiffuser?",
+    intro: "Klassisk låga och doft mot vattenbaserad diffuser med ljus.",
+    badges: [
+      "Mys",
+      "Doft",
+      "Hem",
+    ],
+    productSlugs: [
+      "yankee-candle-clean-cotton",
+      "salking-aromadiffuser",
+    ],
+    pickBadges: {
+      "yankee-candle-clean-cotton": "Doftljus",
+      "salking-aromadiffuser": "Elins val",
+    },
+    choiceTitle: "Låga eller diffuser?",
+    choiceText: "Doftljus ger klassisk mysfaktor. Aromadiffuser är mer flexibel om du vill byta doftolja och ha mjukt ljus.",
+    rows: [
+      {
+        label: "Känsla",
+        values: [
+          "Låga och klassisk doft",
+          "Ljus och dimma",
+        ],
+      },
+      {
+        label: "Skötsel",
+        values: [
+          "Passa lågan",
+          "Rengör tank",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Tredjepart och doftsmak",
+          "Oljor köps separat",
+        ],
+      },
+    ],
+    verdict: "Salking är mer flexibel. Yankee är mer klassisk presentkänsla.",
+    faqItems: [
+      {
+        question: "Doftljus eller aromadiffuser?",
+        answer: "Doftljus ger klassisk mysfaktor. Aromadiffuser är mer flexibel om du vill byta doftolja och ha mjukt ljus.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Doftljus eller aromadiffuser? | Elins val",
+    metaDescription: "Doftljus eller aromadiffuser?: Klassisk låga och doft mot vattenbaserad diffuser med ljus. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "gua-sha-eller-ansiktsrulle",
+    href: "/skonhet/gua-sha-eller-ansiktsrulle",
+    category: "skonhet",
+    label: "Jämförelse",
+    title: "Gua sha eller ansiktsrulle?",
+    intro: "Plantifique-setet innehåller båda, så valet handlar om känsla och rutin.",
+    badges: [
+      "Gua sha",
+      "Ansiktsrulle",
+      "Hudvårdsrutin",
+    ],
+    productSlugs: [
+      "plantifique-ansiktsrulle",
+      "gua-sha-rosenkvarts",
+    ],
+    pickBadges: {
+      "plantifique-ansiktsrulle": "Roller",
+      "gua-sha-rosenkvarts": "Elins val",
+    },
+    choiceTitle: "Verktyg efter handlag",
+    choiceText: "Ansiktsrulle är enklast och svalast. Gua sha kräver mer teknik men ger mer kontrollerad handkänsla.",
+    rows: [
+      {
+        label: "Lättast",
+        values: [
+          "Roller",
+          "Gua sha kräver mer handlag",
+        ],
+      },
+      {
+        label: "Känsla",
+        values: [
+          "Sval och rullande",
+          "Mer formad rörelse",
+        ],
+      },
+      {
+        label: "Copygräns",
+        values: [
+          "Kosmetisk rutin",
+          "Kosmetisk rutin",
+        ],
+      },
+    ],
+    verdict: "Setet är smart om du vill prova båda, men håll förväntningarna lågmälda.",
+    faqItems: [
+      {
+        question: "Gua sha eller ansiktsrulle?",
+        answer: "Ansiktsrulle är enklast och svalast. Gua sha kräver mer teknik men ger mer kontrollerad handkänsla.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Gua sha eller ansiktsrulle? | Elins val",
+    metaDescription: "Gua sha eller ansiktsrulle?: Plantifique-setet innehåller båda, så valet handlar om känsla och rutin. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "massagesits-eller-massagepistol",
+    href: "/halsa/massagesits-eller-massagepistol",
+    category: "halsa",
+    label: "Jämförelse",
+    title: "Massagesits eller massagepistol?",
+    intro: "Stolburen komfort mot handhållen punktkontroll.",
+    badges: [
+      "Massage",
+      "Pausprodukt",
+      "Hem",
+    ],
+    productSlugs: [
+      "comfier-massagesits",
+      "beurer-mg-99-massagepistol",
+    ],
+    pickBadges: {
+      "comfier-massagesits": "Stolformat",
+      "beurer-mg-99-massagepistol": "Elins val",
+    },
+    choiceTitle: "Stol eller hand?",
+    choiceText: "Massagesits passar när du vill luta dig tillbaka. Massagepistol passar när du vill styra plats och intensitet själv.",
+    rows: [
+      {
+        label: "Format",
+        values: [
+          "Stol/sits",
+          "Handhållen",
+        ],
+      },
+      {
+        label: "Styrka",
+        values: [
+          "Bekväm paus",
+          "Riktad kontroll",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Kräver rätt stol",
+          "Mer aktiv användning",
+        ],
+      },
+    ],
+    verdict: "Massagesits är bättre present. Massagepistol är mer flexibel.",
+    faqItems: [
+      {
+        question: "Massagesits eller massagepistol?",
+        answer: "Massagesits passar när du vill luta dig tillbaka. Massagepistol passar när du vill styra plats och intensitet själv.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Massagesits eller massagepistol? | Elins val",
+    metaDescription: "Massagesits eller massagepistol?: Stolburen komfort mot handhållen punktkontroll. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "sminkspegel",
+    href: "/skonhet/sminkspegel",
+    category: "skonhet",
+    label: "Guide",
+    title: "Sminkspegel: Hollywood eller kompakt?",
+    intro: "Bayt ger makeupstation, Auxmir ger smidig vardagsspegel.",
+    badges: [
+      "Sminkspegel",
+      "LED",
+      "Makeup",
+    ],
+    productSlugs: [
+      "auxmir-sminkspegel",
+      "bayt-hollywood-spegel",
+    ],
+    pickBadges: {
+      "auxmir-sminkspegel": "LED",
+      "bayt-hollywood-spegel": "Hollywood",
+    },
+    choiceTitle: "Yta först",
+    choiceText: "Välj Auxmir om spegeln ska kunna flyttas och passa små ytor. Välj Bayt om du bygger en fast makeupplats.",
+    rows: [
+      {
+        label: "Format",
+        values: [
+          "Kompakt",
+          "Hollywood",
+        ],
+      },
+      {
+        label: "Styrka",
+        values: [
+          "Smidig vardag",
+          "Mer station",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Mindre wow",
+          "QC-risk",
+        ],
+      },
+    ],
+    verdict: "Auxmir är säkrare köp. Bayt är roligare men mer riskfylld.",
+    faqItems: [
+      {
+        question: "Sminkspegel guide.",
+        answer: "Välj Auxmir om spegeln ska kunna flyttas och passa små ytor. Välj Bayt om du bygger en fast makeupplats.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Sminkspegel: Hollywood eller kompakt? | Elins val",
+    metaDescription: "Sminkspegel: Hollywood eller kompakt?: Bayt ger makeupstation, Auxmir ger smidig vardagsspegel. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "hollywood-eller-kompakt-sminkspegel",
+    href: "/skonhet/hollywood-eller-kompakt-sminkspegel",
+    category: "skonhet",
+    label: "Jämförelse",
+    title: "Hollywood eller kompakt sminkspegel?",
+    intro: "Stor makeupstation mot liten flexibel spegel.",
+    badges: [
+      "Sminkspegel",
+      "Hollywood",
+      "Kompakt",
+    ],
+    productSlugs: [
+      "bayt-hollywood-spegel",
+      "auxmir-sminkspegel",
+    ],
+    pickBadges: {
+      "bayt-hollywood-spegel": "Hollywood",
+      "auxmir-sminkspegel": "LED",
+    },
+    choiceTitle: "Fast plats eller flyttbar?",
+    choiceText: "Hollywoodspegeln är för en fast station. Den kompakta spegeln är för badrum, skrivbord och resa.",
+    rows: [
+      {
+        label: "Plats",
+        values: [
+          "Fast station",
+          "Flyttbar",
+        ],
+      },
+      {
+        label: "Risk",
+        values: [
+          "QC-risk lampor",
+          "Lägre risk",
+        ],
+      },
+      {
+        label: "Elins val",
+        values: [
+          "För rätt setup",
+          "Säkrare köp",
+        ],
+      },
+    ],
+    verdict: "Auxmir är det pragmatiska valet. Bayt kräver mer granskning före köp.",
+    faqItems: [
+      {
+        question: "Hollywood eller kompakt sminkspegel?",
+        answer: "Hollywoodspegeln är för en fast station. Den kompakta spegeln är för badrum, skrivbord och resa.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Hollywood eller kompakt sminkspegel? | Elins val",
+    metaDescription: "Hollywood eller kompakt sminkspegel?: Stor makeupstation mot liten flexibel spegel. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "robot-eller-handdammsugare",
+    href: "/halsa/robot-eller-handdammsugare",
+    category: "halsa",
+    label: "Guide",
+    title: "Robotdammsugare och handdammsugare gör olika jobb",
+    intro: "Robot för golvrutin, handdammsugare för snabba småjobb.",
+    badges: [
+      "Hem",
+      "Dammsugare",
+      "Smart städning",
+    ],
+    productSlugs: [
+      "eufy-robotdammsugare",
+      "wirelume-handdammsugare",
+    ],
+    pickBadges: {
+      "eufy-robotdammsugare": "Elins val",
+      "wirelume-handdammsugare": "Handdammsugare",
+    },
+    choiceTitle: "Komplettera, jämför inte för hårt",
+    choiceText: "Robotdammsugaren tar återkommande golvjobb. Handdammsugaren tar smulor, bil och det roboten missar.",
+    rows: [
+      {
+        label: "Bäst för",
+        values: [
+          "Golv över tid",
+          "Små snabba jobb",
+        ],
+      },
+      {
+        label: "Kompromiss",
+        values: [
+          "Klarar inte allt",
+          "Inte helgolv",
+        ],
+      },
+      {
+        label: "Elins råd",
+        values: [
+          "Rutinstäd",
+          "Komplement",
+        ],
+      },
+    ],
+    verdict: "De ersätter inte varandra. Tillsammans löser de fler vardagssituationer.",
+    faqItems: [
+      {
+        question: "Robot eller handdammsugare?",
+        answer: "Robotdammsugaren tar återkommande golvjobb. Handdammsugaren tar smulor, bil och det roboten missar.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Robotdammsugare och handdammsugare gör olika jobb | Elins val",
+    metaDescription: "Robotdammsugare och handdammsugare gör olika jobb: Robot för golvrutin, handdammsugare för snabba småjobb. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "julklapp-till-henne",
+    href: "/guider/julklapp-till-henne",
+    category: "skonhet",
+    label: "Guide",
+    title: "Julklapp till henne",
+    intro: "Presenter som länkar till egna produktval: doft, hudvård, speglar, läsning och mys.",
+    badges: [
+      "Julklapp",
+      "Presenter",
+      "Skönhet",
+    ],
+    productSlugs: [
+      "rituals-sakura-presentset",
+      "sol-de-janeiro-jet-set",
+      "auxmir-sminkspegel",
+      "plantifique-ansiktsrulle",
+      "yankee-candle-clean-cotton",
+      "renpho-ogonmassager",
+    ],
+    pickBadges: {
+      "rituals-sakura-presentset": "Presentset",
+      "sol-de-janeiro-jet-set": "Viral",
+      "auxmir-sminkspegel": "LED",
+      "plantifique-ansiktsrulle": "Roller",
+      "yankee-candle-clean-cotton": "Doftljus",
+      "renpho-ogonmassager": "Värme",
+    },
+    choiceTitle: "Välj efter risk",
+    choiceText: "Doft och hudvård är personligare. Spegel och Kindle-liknande teknik är mer funktionspresenter. Pausprodukter kräver att mottagaren gillar formatet.",
+    rows: [
+      {
+        label: "Presenttyp",
+        values: [
+          "Färdigt set",
+          "Viral doft",
+          "Funktion",
+          "Hudvårdsrutin",
+          "Mys",
+          "Pausprodukt",
+        ],
+      },
+      {
+        label: "Risk",
+        values: [
+          "Säljare",
+          "Doftsmak",
+          "Mått",
+          "Claims",
+          "Doftsmak",
+          "Passform",
+        ],
+      },
+    ],
+    verdict: "Rituals och Sol de Janeiro är mest presentiga. Auxmir är säkrast om du vill minska doftrisk.",
+    faqItems: [
+      {
+        question: "Julklapp till henne.",
+        answer: "Doft och hudvård är personligare. Spegel och Kindle-liknande teknik är mer funktionspresenter. Pausprodukter kräver att mottagaren gillar formatet.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Julklapp till henne | Elins val",
+    metaDescription: "Julklapp till henne: Presenter som länkar till egna produktval: doft, hudvård, speglar, läsning och mys. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "julklappar-budget-mellan-premium",
+    href: "/guider/julklappar-budget-mellan-premium",
+    category: "skonhet",
+    label: "Guide",
+    title: "Julklappar i tre prislägen",
+    intro: "Budget, mellan och premium utan hårdkodade produktpriser.",
+    badges: [
+      "Julklapp",
+      "Budget",
+      "Premium",
+    ],
+    productSlugs: [
+      "loreal-skaggolja",
+      "winsea-nasharstrimmer",
+      "philips-skaggtrimmer-3000",
+      "philips-oneblade-360",
+      "kindle-paperwhite",
+    ],
+    pickBadges: {
+      "loreal-skaggolja": "Skäggolja",
+      "winsea-nasharstrimmer": "Budget",
+      "philips-skaggtrimmer-3000": "Självslipande blad",
+      "philips-oneblade-360": "Hybrid",
+      "kindle-paperwhite": "E-ink",
+    },
+    choiceTitle: "Tänk nivåer",
+    choiceText: "Små produkter fungerar som komplettering. Mellannivån passar huvudpresenter. Premium ska bara väljas när mottagarens behov är tydligt.",
+    rows: [
+      {
+        label: "Nivå",
+        values: [
+          "Liten komplettering",
+          "Liten komplettering",
+          "Huvudpresent",
+          "Flexibel present",
+          "Premium",
+        ],
+      },
+      {
+        label: "Risk",
+        values: [
+          "Doft",
+          "Smalt behov",
+          "Låg",
+          "Bladkostnad",
+          "Ekosystem",
+        ],
+      },
+    ],
+    verdict: "Bra presenter minskar felköpsrisk. Välj hellre tydlig nytta än störst paket.",
+    faqItems: [
+      {
+        question: "Julklappar budget mellan premium.",
+        answer: "Små produkter fungerar som komplettering. Mellannivån passar huvudpresenter. Premium ska bara väljas när mottagarens behov är tydligt.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Julklappar i tre prislägen | Elins val",
+    metaDescription: "Julklappar i tre prislägen: Budget, mellan och premium utan hårdkodade produktpriser. Annons, utan hårdkodade priser.",
+  },
 ];
 
 export const waveComparisonEntries: readonly ComparisonEntry[] = [
@@ -4420,6 +5653,132 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
       "Grooming",
     ],
   },
+  {
+    slug: "kindle-eller-kobo",
+    title: "Kindle eller Kobo?",
+    shortTitle: "Kindle eller Kobo?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/kindle-eller-kobo",
+    description: "Amazon-ekosystem mot mer öppen läslogik.",
+    productSlugs: [
+      "kindle-paperwhite",
+      "kobo-clara-bw",
+    ],
+    badges: [
+      "E-läsare",
+      "Kindle",
+      "Kobo",
+    ],
+  },
+  {
+    slug: "doftljus-eller-aromadiffuser",
+    title: "Doftljus eller aromadiffuser?",
+    shortTitle: "Doftljus eller aromadiffuser?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/doftljus-eller-aromadiffuser",
+    description: "Klassisk låga och doft mot vattenbaserad diffuser med ljus.",
+    productSlugs: [
+      "yankee-candle-clean-cotton",
+      "salking-aromadiffuser",
+    ],
+    badges: [
+      "Mys",
+      "Doft",
+      "Hem",
+    ],
+  },
+  {
+    slug: "gua-sha-eller-ansiktsrulle",
+    title: "Gua sha eller ansiktsrulle?",
+    shortTitle: "Gua sha eller ansiktsrulle?",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/gua-sha-eller-ansiktsrulle",
+    description: "Plantifique-setet innehåller båda, så valet handlar om känsla och rutin.",
+    productSlugs: [
+      "plantifique-ansiktsrulle",
+      "gua-sha-rosenkvarts",
+    ],
+    badges: [
+      "Gua sha",
+      "Ansiktsrulle",
+      "Hudvårdsrutin",
+    ],
+  },
+  {
+    slug: "massagesits-eller-massagepistol",
+    title: "Massagesits eller massagepistol?",
+    shortTitle: "Massagesits eller massagepistol?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/massagesits-eller-massagepistol",
+    description: "Stolburen komfort mot handhållen punktkontroll.",
+    productSlugs: [
+      "comfier-massagesits",
+      "beurer-mg-99-massagepistol",
+    ],
+    badges: [
+      "Massage",
+      "Pausprodukt",
+      "Hem",
+    ],
+  },
+  {
+    slug: "sminkspegel",
+    title: "Sminkspegel: Hollywood eller kompakt?",
+    shortTitle: "Sminkspegel: Hollywood eller kompakt?",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/sminkspegel",
+    description: "Bayt ger makeupstation, Auxmir ger smidig vardagsspegel.",
+    productSlugs: [
+      "auxmir-sminkspegel",
+      "bayt-hollywood-spegel",
+    ],
+    badges: [
+      "Sminkspegel",
+      "LED",
+      "Makeup",
+    ],
+  },
+  {
+    slug: "hollywood-eller-kompakt-sminkspegel",
+    title: "Hollywood eller kompakt sminkspegel?",
+    shortTitle: "Hollywood eller kompakt sminkspegel?",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/hollywood-eller-kompakt-sminkspegel",
+    description: "Stor makeupstation mot liten flexibel spegel.",
+    productSlugs: [
+      "bayt-hollywood-spegel",
+      "auxmir-sminkspegel",
+    ],
+    badges: [
+      "Sminkspegel",
+      "Hollywood",
+      "Kompakt",
+    ],
+  },
+  {
+    slug: "robot-eller-handdammsugare",
+    title: "Robotdammsugare och handdammsugare gör olika jobb",
+    shortTitle: "Robotdammsugare och handdammsugare gör olika jobb",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/robot-eller-handdammsugare",
+    description: "Robot för golvrutin, handdammsugare för snabba småjobb.",
+    productSlugs: [
+      "eufy-robotdammsugare",
+      "wirelume-handdammsugare",
+    ],
+    badges: [
+      "Hem",
+      "Dammsugare",
+      "Smart städning",
+    ],
+  },
 ];
 
 export const waveCategoryProductGroups: Partial<Record<ProductCategorySlug, CategoryProductGroup[]>> = {
@@ -4430,12 +5789,15 @@ export const waveCategoryProductGroups: Partial<Record<ProductCategorySlug, Cate
         "inkey-retinol-serum",
         "cerave-resurfacing-retinol",
         "bio-oil",
+        "plantifique-ansiktsrulle",
       ],
     },
     {
       title: "Makeup",
       productSlugs: [
         "physicians-formula-bronzer",
+        "auxmir-sminkspegel",
+        "bayt-hollywood-spegel",
       ],
     },
     {
@@ -4460,6 +5822,13 @@ export const waveCategoryProductGroups: Partial<Record<ProductCategorySlug, Cate
         "philips-rakapparat-5000",
         "winsea-nasharstrimmer",
         "loreal-skaggolja",
+      ],
+    },
+    {
+      title: "Presenter",
+      productSlugs: [
+        "rituals-sakura-presentset",
+        "sol-de-janeiro-jet-set",
       ],
     },
   ],
@@ -4506,6 +5875,26 @@ export const waveCategoryProductGroups: Partial<Record<ProductCategorySlug, Cate
         "oralb-io6",
         "philips-power-flosser",
         "surfou-water-flosser",
+      ],
+    },
+    {
+      title: "Mys",
+      productSlugs: [
+        "yankee-candle-clean-cotton",
+        "renpho-ogonmassager",
+      ],
+    },
+    {
+      title: "Smart hem & livsstil",
+      productSlugs: [
+        "kindle-paperwhite",
+        "wirelume-handdammsugare",
+      ],
+    },
+    {
+      title: "Återhämtning",
+      productSlugs: [
+        "comfier-massagesits",
       ],
     },
   ],
