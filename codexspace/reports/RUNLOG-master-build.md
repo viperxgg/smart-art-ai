@@ -248,3 +248,36 @@ Decisions:
 - Kept TYMO and Color Wow copy cosmetic-only, with heat/routine caveats.
 
 Skipped items: none.
+
+## Wave fix - content enrichment
+
+Changed:
+- Enriched `lib/wave-content.ts` for all 49 wave products from each product's `PRODUCT-REFERENCE.md`.
+- Filled 49 `amazonQuotes` arrays with 3-4 attributed buyer quotes.
+- Replaced copied `passFor`, `caution`, `usageGuidance`, `shortBody`, `valueStatement`, and FAQ copy with product-specific content.
+- Normalized all 49 `amazonSummary` strings to `Amazon visar X.X av 5 (N NNN betyg).`
+- Removed internal `referensfil` wording from user-facing FAQ copy.
+
+Verification:
+- `amazonQuotes: []`: 0 in `lib/wave-content.ts`
+- Old template phrases: 0
+- `referensfil`: 0
+- Broken `betyg."`: 0
+- Exact `amazonSummary` format: 49/49
+- Quote counts: 49/49 products have 3-5 quotes
+- Critical quote coverage: pass for all warning-marked buyer sections
+- Banned-claim scan over `lib/wave-content.ts`: clean
+- Hardcoded numeric price scan over `lib/wave-content.ts`: clean
+- Mojibake grep `rg "Ã" lib app components`: clean
+- `npm run lint`: pass
+- `npm run typecheck`: pass
+- `npm run build`: pass
+- HTTP 200: pass on 10 spot-check routes
+- 390px overflow: pass on the same 10 routes (`overflow=0`)
+
+Decisions:
+- Did not use the explicitly excluded Good Nite child-usage note; used the valid Pekka 3-star caveat instead.
+- Kept price-bearing source bullets out of site copy.
+- Kept compliance-sensitive products neutral in Elin copy and attributed buyer wording only.
+
+Skipped items: none.
