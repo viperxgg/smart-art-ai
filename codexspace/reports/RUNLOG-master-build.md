@@ -208,3 +208,43 @@ Decisions:
 - Kept Kindle/Kobo focused on ecosystem and library/open-format tradeoffs.
 
 Skipped items: none.
+
+## Wave 4 - traning and har
+
+Routes added:
+- `/traning/motionscykel/ultrasport-f-bike`
+- `/traning/motionscykel/zipro`
+- `/traning/skivstang/proiron-2i1`
+- `/traning/skivstang/gorilla`
+- `/traning/roddmaskin`
+- `/traning/xiaomi-smart-band`
+- `/traning/pusselmatta`
+- `/skonhet/utratningsborste`
+- `/skonhet/hardiffusor`
+- `/skonhet/color-wow`
+- `/traning/motionscykel`
+- `/traning/hopfallbar-eller-kompakt-motionscykel`
+- `/traning/skivstang`
+- `/traning/2-i-1-eller-riktig-skivstang`
+- `/traning/gaband-motionscykel-eller-roddmaskin`
+- `/skonhet/utratningsborste-eller-plattang`
+- `/skonhet/tiktok-produkter-som-haller`
+
+Verification:
+- `npm run lint`: pass
+- `npm run typecheck`: pass
+- `npm run build`: pass
+- HTTP 200: pass for all 17 routes
+- 390px overflow: pass for all 17 routes (`scrollWidth=390`, `clientWidth=390`)
+- Mojibake grep `rg "Ã" lib app components`: clean
+- Banned medical-claim scan over generated wave files: clean
+- Affiliate links: exact match against `INTAKE-STATUS.md`
+
+Decisions:
+- Built the cardio-trio guide at `/traning/gaband-motionscykel-eller-roddmaskin`.
+- Kept Ultrasport max 100 kg and Zipro size caveats visible in copy and scoring.
+- Kept MERACH rowing copy neutral; no fat-burning or muscle-percentage claims.
+- Kept Xiaomi copy to training tracking; no health-measurement claims.
+- Kept TYMO and Color Wow copy cosmetic-only, with heat/routine caveats.
+
+Skipped items: none.

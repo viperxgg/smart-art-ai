@@ -3824,6 +3824,986 @@ export const plantifiqueAnsiktsrulleProduct: Product = {
   comments: [],
 };
 
+export const ultrasportFBikeProduct: Product = {
+  slug: "ultrasport-f-bike",
+  title: "Ultrasport F-Bike Advanced",
+  category: "traning",
+  asin: "B003FSTA0U",
+  brand: "Ultrasport",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Hopfällbar",
+    "Ryggstöd",
+    "100 kg max",
+  ],
+  image: "/products/ultrasport-f-bike/ultrasport-f-bike-thumbnail.webp",
+  imageAlt: "Ultrasport F-Bike Advanced",
+  images: [
+    {
+      src: "/products/ultrasport-f-bike/ultrasport-f-bike-thumbnail.webp",
+      alt: "Ultrasport F-Bike Advanced",
+      label: "Produkt",
+    },
+    {
+      src: "/products/ultrasport-f-bike/ultrasport-f-bike-1.webp",
+      alt: "Ultrasport F-Bike Advanced i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/ultrasport-f-bike/ultrasport-f-bike-2.webp",
+      alt: "Ultrasport F-Bike Advanced med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4p1neWK",
+  pageHref: "/traning/motionscykel/ultrasport-f-bike",
+  summary: "En hopfällbar motionscykel för hemmakondition när låg platsåtgång och enkel användning är viktigare än studiokänsla.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Ultrasport F-Bike Advanced utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Starkt platsbesparande cykelval med tydlig viktgräns.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En hopfällbar motionscykel för hemmakondition när låg platsåtgång och enkel användning är viktigare än studiokänsla.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Max användarvikt 100 kg måste matcha användaren. Hopfällbar känsla är inte lika stabil som större cyklar.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Kondition",
+  specSectionTitle: "Ultrasport F-Bike Advanced",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Kondition",
+      value: "Hopfällbar motionscykel",
+    },
+    {
+      label: "Max användarvikt",
+      caption: "Kondition",
+      value: "100 kg enligt referens",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Kondition",
+      value: "Hem med begränsad plats",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4p1neWK",
+    ratingSummary: "Amazon visar 4.3 av 5 (34 021.",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Ultrasport F-Bike Advanced är valt för hopfällbar och ryggstöd.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Max användarvikt 100 kg måste matcha användaren. Hopfällbar känsla är inte lika stabil som större cyklar.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En hopfällbar motionscykel för hemmakondition när låg platsåtgång och enkel användning är viktigare än studiokänsla.",
+    "Passar dig som söker kondition med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Hopfällbar, Ryggstöd, 100 kg max",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Max användarvikt 100 kg måste matcha användaren. Hopfällbar känsla är inte lika stabil som större cyklar.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const ziproMotionscykelProduct: Product = {
+  slug: "zipro-motionscykel",
+  title: "Zipro motionscykel",
+  category: "traning",
+  asin: "B07T7L8YZK",
+  brand: "Zipro",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Kompakt",
+    "Budget",
+    "Liten",
+  ],
+  image: "/products/zipro-motionscykel/zipro-motionscykel-thumbnail.webp",
+  imageAlt: "Zipro motionscykel",
+  images: [
+    {
+      src: "/products/zipro-motionscykel/zipro-motionscykel-thumbnail.webp",
+      alt: "Zipro motionscykel",
+      label: "Produkt",
+    },
+    {
+      src: "/products/zipro-motionscykel/zipro-motionscykel-1.webp",
+      alt: "Zipro motionscykel i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/zipro-motionscykel/zipro-motionscykel-2.webp",
+      alt: "Zipro motionscykel med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4fbe7iN",
+  pageHref: "/traning/motionscykel/zipro",
+  summary: "En kompakt budgetcykel för kortare hemmepass och mindre ytor.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Zipro motionscykel utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Helt okej budgetcykel för kortare personer, men storleken sänker poängen.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En kompakt budgetcykel för kortare hemmepass och mindre ytor.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Referensen lyfter storleksproblem för längre personer. Välj hellre större modell om du är lång.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Kondition",
+  specSectionTitle: "Zipro motionscykel",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Kondition",
+      value: "Kompakt motionscykel",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Kondition",
+      value: "Mindre ytor",
+    },
+    {
+      label: "Caveat",
+      caption: "Kondition",
+      value: "Kan bli liten för långa",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4fbe7iN",
+    ratingSummary: "Amazon visar 4.1 av 5 (1 425).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Zipro motionscykel är valt för kompakt och budget.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Referensen lyfter storleksproblem för längre personer. Välj hellre större modell om du är lång.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En kompakt budgetcykel för kortare hemmepass och mindre ytor.",
+    "Passar dig som söker kondition med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Kompakt, Budget, Liten",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Referensen lyfter storleksproblem för längre personer. Välj hellre större modell om du är lång.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const proironSkivstangSetProduct: Product = {
+  slug: "proiron-skivstang-set",
+  title: "PROIRON 2-i-1 skivstångsset",
+  category: "traning",
+  asin: "B01C9YD3I0",
+  brand: "PROIRON",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "2-i-1",
+    "Hantlar",
+    "Hemmagym",
+  ],
+  image: "/products/proiron-skivstang-set/proiron-skivstang-set-thumbnail.webp",
+  imageAlt: "PROIRON 2-i-1 skivstångsset",
+  images: [
+    {
+      src: "/products/proiron-skivstang-set/proiron-skivstang-set-thumbnail.webp",
+      alt: "PROIRON 2-i-1 skivstångsset",
+      label: "Produkt",
+    },
+    {
+      src: "/products/proiron-skivstang-set/proiron-skivstang-set-1.webp",
+      alt: "PROIRON 2-i-1 skivstångsset i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/proiron-skivstang-set/proiron-skivstang-set-2.webp",
+      alt: "PROIRON 2-i-1 skivstångsset med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4ePs7gM",
+  pageHref: "/traning/skivstang/proiron-2i1",
+  summary: "Ett 2-i-1-set för dig som vill kombinera hantlar och skivstångskänsla utan full utrustningsvägg.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom PROIRON 2-i-1 skivstångsset utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Smart hemmagym-set när flexibilitet går före maximal skivstångskänsla.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "Ett 2-i-1-set för dig som vill kombinera hantlar och skivstångskänsla utan full utrustningsvägg.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "2-i-1 är praktiskt men inte samma sak som en riktig skivstång med gymkänsla och snabb viktväxling.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Vikter",
+  specSectionTitle: "PROIRON 2-i-1 skivstångsset",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Vikter",
+      value: "2-i-1 set",
+    },
+    {
+      label: "Format",
+      caption: "Vikter",
+      value: "Hantlar + skivstång",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Vikter",
+      value: "Flexibelt hemmagym",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4ePs7gM",
+    ratingSummary: "Amazon visar 4.5 av 5 (14 171).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "PROIRON 2-i-1 skivstångsset är valt för 2-i-1 och hantlar.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "2-i-1 är praktiskt men inte samma sak som en riktig skivstång med gymkänsla och snabb viktväxling.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Ett 2-i-1-set för dig som vill kombinera hantlar och skivstångskänsla utan full utrustningsvägg.",
+    "Passar dig som söker vikter med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "2-i-1, Hantlar, Hemmagym",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "2-i-1 är praktiskt men inte samma sak som en riktig skivstång med gymkänsla och snabb viktväxling.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const gorillaSkivstangProduct: Product = {
+  slug: "gorilla-skivstang",
+  title: "Gorilla Sports skivstångsset",
+  category: "traning",
+  asin: "B00EZWGA8U",
+  brand: "Gorilla",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Riktig stång",
+    "Viktskivor",
+    "2 paket",
+  ],
+  image: "/products/gorilla-skivstang/gorilla-skivstang-thumbnail.webp",
+  imageAlt: "Gorilla Sports skivstångsset",
+  images: [
+    {
+      src: "/products/gorilla-skivstang/gorilla-skivstang-thumbnail.webp",
+      alt: "Gorilla Sports skivstångsset",
+      label: "Produkt",
+    },
+    {
+      src: "/products/gorilla-skivstang/gorilla-skivstang-1.webp",
+      alt: "Gorilla Sports skivstångsset i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/gorilla-skivstang/gorilla-skivstang-2.webp",
+      alt: "Gorilla Sports skivstångsset med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4y1YiCi",
+  pageHref: "/traning/skivstang/gorilla",
+  summary: "Ett mer klassiskt skivstångsset för dig som vill ha riktig stångkänsla hemma.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Gorilla Sports skivstångsset utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Mer riktig stångkänsla, men svagare köparunderlag och leveranscaveat.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "Ett mer klassiskt skivstångsset för dig som vill ha riktig stångkänsla hemma.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Referensen nämner tvåpaketsleverans. Färre betyg gör också valet mindre beprövat än PROIRON.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Vikter",
+  specSectionTitle: "Gorilla Sports skivstångsset",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Vikter",
+      value: "Skivstångsset",
+    },
+    {
+      label: "Leverans",
+      caption: "Vikter",
+      value: "Två paket enligt referens",
+    },
+    {
+      label: "Kompromiss",
+      caption: "Vikter",
+      value: "Färre betyg",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4y1YiCi",
+    ratingSummary: "Amazon visar 4.1 av 5 (168).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Gorilla Sports skivstångsset är valt för riktig stång och viktskivor.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Referensen nämner tvåpaketsleverans. Färre betyg gör också valet mindre beprövat än PROIRON.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Ett mer klassiskt skivstångsset för dig som vill ha riktig stångkänsla hemma.",
+    "Passar dig som söker vikter med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Riktig stång, Viktskivor, 2 paket",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Referensen nämner tvåpaketsleverans. Färre betyg gör också valet mindre beprövat än PROIRON.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const merachRoddmaskinProduct: Product = {
+  slug: "merach-roddmaskin",
+  title: "MERACH roddmaskin",
+  category: "traning",
+  asin: "B0C1S7GWKN",
+  brand: "MERACH",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "premium",
+  badges: [
+    "Rodd hemma",
+    "Hopfällbar",
+    "App",
+  ],
+  image: "/products/merach-roddmaskin/merach-roddmaskin-thumbnail.webp",
+  imageAlt: "MERACH roddmaskin",
+  images: [
+    {
+      src: "/products/merach-roddmaskin/merach-roddmaskin-thumbnail.webp",
+      alt: "MERACH roddmaskin",
+      label: "Produkt",
+    },
+    {
+      src: "/products/merach-roddmaskin/merach-roddmaskin-1.webp",
+      alt: "MERACH roddmaskin i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/merach-roddmaskin/merach-roddmaskin-2.webp",
+      alt: "MERACH roddmaskin med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vLx0yK",
+  pageHref: "/traning/roddmaskin",
+  summary: "En roddmaskin för dig som vill ha helkroppsrörelse hemma och föredrar sittande kondition framför gång eller cykel.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom MERACH roddmaskin utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Starkt cardioalternativ hemma om du har plats för roddrörelsen.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En roddmaskin för dig som vill ha helkroppsrörelse hemma och föredrar sittande kondition framför gång eller cykel.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Inga fett- eller kroppslöften används. Kontrollera mått, ljud och förvaring innan köp.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Kondition",
+  specSectionTitle: "MERACH roddmaskin",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Kondition",
+      value: "Roddmaskin",
+    },
+    {
+      label: "Förvaring",
+      caption: "Kondition",
+      value: "Kontrollera mått",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Kondition",
+      value: "Sittande kondition hemma",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vLx0yK",
+    ratingSummary: "Amazon visar 4.6 av 5 (1 315).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "MERACH roddmaskin är valt för rodd hemma och hopfällbar.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Inga fett- eller kroppslöften används. Kontrollera mått, ljud och förvaring innan köp.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En roddmaskin för dig som vill ha helkroppsrörelse hemma och föredrar sittande kondition framför gång eller cykel.",
+    "Passar dig som söker kondition med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Rodd hemma, Hopfällbar, App",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Inga fett- eller kroppslöften används. Kontrollera mått, ljud och förvaring innan köp.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const xiaomiSmartBand10Product: Product = {
+  slug: "xiaomi-smart-band-10",
+  title: "Xiaomi Smart Band 10",
+  category: "traning",
+  asin: "B0DYF82545",
+  brand: "Xiaomi",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Aktivitetsband",
+    "AMOLED",
+    "Aviseringar",
+  ],
+  image: "/products/xiaomi-smart-band-10/xiaomi-smart-band-10-thumbnail.webp",
+  imageAlt: "Xiaomi Smart Band 10",
+  images: [
+    {
+      src: "/products/xiaomi-smart-band-10/xiaomi-smart-band-10-thumbnail.webp",
+      alt: "Xiaomi Smart Band 10",
+      label: "Produkt",
+    },
+    {
+      src: "/products/xiaomi-smart-band-10/xiaomi-smart-band-10-1.webp",
+      alt: "Xiaomi Smart Band 10 i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/xiaomi-smart-band-10/xiaomi-smart-band-10-2.webp",
+      alt: "Xiaomi Smart Band 10 med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vCUaHn",
+  pageHref: "/traning/xiaomi-smart-band",
+  summary: "Ett prisvärt aktivitetsband för vardagsdata, timer, aviseringar och enkel träningslogg.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Xiaomi Smart Band 10 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Prisvärt smartband för vardag och träning, med rätt förväntningar på data.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "Ett prisvärt aktivitetsband för vardagsdata, timer, aviseringar och enkel träningslogg.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Mätvärden från aktivitetsband ska ses som konsumentdata, inte medicinska mätningar.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Tillbehör",
+  specSectionTitle: "Xiaomi Smart Band 10",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Tillbehör",
+      value: "Aktivitetsband",
+    },
+    {
+      label: "Skärm",
+      caption: "Tillbehör",
+      value: "AMOLED enligt referens",
+    },
+    {
+      label: "Data",
+      caption: "Tillbehör",
+      value: "Konsumentdata",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vCUaHn",
+    ratingSummary: "Amazon visar 4.4 av 5 (5 983).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Xiaomi Smart Band 10 är valt för aktivitetsband och amoled.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Mätvärden från aktivitetsband ska ses som konsumentdata, inte medicinska mätningar.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Ett prisvärt aktivitetsband för vardagsdata, timer, aviseringar och enkel träningslogg.",
+    "Passar dig som söker tillbehör med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Aktivitetsband, AMOLED, Aviseringar",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Mätvärden från aktivitetsband ska ses som konsumentdata, inte medicinska mätningar.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const bemaxxPusselmattaProduct: Product = {
+  slug: "bemaxx-pusselmatta",
+  title: "bemaxx pusselmatta",
+  category: "traning",
+  asin: "B019DZDM3O",
+  brand: "bemaxx",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "18 delar",
+    "Golvskydd",
+    "Hemmagym",
+  ],
+  image: "/products/bemaxx-pusselmatta/bemaxx-pusselmatta-thumbnail.webp",
+  imageAlt: "bemaxx pusselmatta",
+  images: [
+    {
+      src: "/products/bemaxx-pusselmatta/bemaxx-pusselmatta-thumbnail.webp",
+      alt: "bemaxx pusselmatta",
+      label: "Produkt",
+    },
+    {
+      src: "/products/bemaxx-pusselmatta/bemaxx-pusselmatta-1.webp",
+      alt: "bemaxx pusselmatta i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/bemaxx-pusselmatta/bemaxx-pusselmatta-2.webp",
+      alt: "bemaxx pusselmatta med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4xZowWj",
+  pageHref: "/traning/pusselmatta",
+  summary: "Ett golvskydd för träningsmaskiner, vikter och hemmagym där underlaget behöver lite mer tålighet.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom bemaxx pusselmatta utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Starkt tillbehörsköp för hemmagym och maskiner.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "Ett golvskydd för träningsmaskiner, vikter och hemmagym där underlaget behöver lite mer tålighet.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Pusselmattor kan glida eller få märken av tung utrustning. Mät ytan och bygg hellre för stort än för snålt.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Tillbehör",
+  specSectionTitle: "bemaxx pusselmatta",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Tillbehör",
+      value: "Pusselmatta",
+    },
+    {
+      label: "Antal",
+      caption: "Tillbehör",
+      value: "18 delar enligt referens",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Tillbehör",
+      value: "Golvskydd",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4xZowWj",
+    ratingSummary: "Amazon visar 4.4 av 5 (22 345).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "bemaxx pusselmatta är valt för 18 delar och golvskydd.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Pusselmattor kan glida eller få märken av tung utrustning. Mät ytan och bygg hellre för stort än för snålt.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Ett golvskydd för träningsmaskiner, vikter och hemmagym där underlaget behöver lite mer tålighet.",
+    "Passar dig som söker tillbehör med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "18 delar, Golvskydd, Hemmagym",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Pusselmattor kan glida eller få märken av tung utrustning. Mät ytan och bygg hellre för stort än för snålt.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const tymoUtratningsborsteProduct: Product = {
+  slug: "tymo-utratningsborste",
+  title: "TYMO RING uträtningsborste",
+  category: "skonhet",
+  asin: "B07MMQ4BZH",
+  brand: "TYMO",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Värmeborste",
+    "Snabb styling",
+    "Viral",
+  ],
+  image: "/products/tymo-utratningsborste/tymo-utratningsborste-thumbnail.webp",
+  imageAlt: "TYMO RING uträtningsborste",
+  images: [
+    {
+      src: "/products/tymo-utratningsborste/tymo-utratningsborste-thumbnail.webp",
+      alt: "TYMO RING uträtningsborste",
+      label: "Produkt",
+    },
+    {
+      src: "/products/tymo-utratningsborste/tymo-utratningsborste-1.webp",
+      alt: "TYMO RING uträtningsborste i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/tymo-utratningsborste/tymo-utratningsborste-2.webp",
+      alt: "TYMO RING uträtningsborste med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4eTDHY6",
+  pageHref: "/skonhet/utratningsborste",
+  summary: "En uträtningsborste för dig som vill släta ut och polera håret snabbare än med klassisk plattångsteknik.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom TYMO RING uträtningsborste utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Starkt snabbval för mjukare släthet, inte för maximal plattångsfinish.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En uträtningsborste för dig som vill släta ut och polera håret snabbare än med klassisk plattångsteknik.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Resultatet blir mer borstat och mjukt än superplatt. Använd värmeskydd och välj temperatur efter hårtyp.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Hårstyling",
+  specSectionTitle: "TYMO RING uträtningsborste",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Hårstyling",
+      value: "Uträtningsborste",
+    },
+    {
+      label: "Känsla",
+      caption: "Hårstyling",
+      value: "Mjuk släthet",
+    },
+    {
+      label: "Rutin",
+      caption: "Hårstyling",
+      value: "Värmeskydd före styling",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4eTDHY6",
+    ratingSummary: "Amazon visar 4.3 av 5 (80 101.",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "TYMO RING uträtningsborste är valt för värmeborste och snabb styling.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Resultatet blir mer borstat och mjukt än superplatt. Använd värmeskydd och välj temperatur efter hårtyp.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En uträtningsborste för dig som vill släta ut och polera håret snabbare än med klassisk plattångsteknik.",
+    "Passar dig som söker hårstyling med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Värmeborste, Snabb styling, Viral",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Resultatet blir mer borstat och mjukt än superplatt. Använd värmeskydd och välj temperatur efter hårtyp.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const gihaliHardiffusorProduct: Product = {
+  slug: "gihali-hardiffusor",
+  title: "GIHALI hårdiffusor universal",
+  category: "skonhet",
+  asin: "B07ZFBF8MK",
+  brand: "GIHALI",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Universal",
+    "Lockar",
+    "Fön-tillbehör",
+  ],
+  image: "/products/gihali-hardiffusor/gihali-hardiffusor-thumbnail.webp",
+  imageAlt: "GIHALI hårdiffusor universal",
+  images: [
+    {
+      src: "/products/gihali-hardiffusor/gihali-hardiffusor-thumbnail.webp",
+      alt: "GIHALI hårdiffusor universal",
+      label: "Produkt",
+    },
+    {
+      src: "/products/gihali-hardiffusor/gihali-hardiffusor-1.webp",
+      alt: "GIHALI hårdiffusor universal i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/gihali-hardiffusor/gihali-hardiffusor-2.webp",
+      alt: "GIHALI hårdiffusor universal med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vCE7cE",
+  pageHref: "/skonhet/hardiffusor",
+  summary: "En universell diffusor för lockrutinen när du vill sprida luftflödet från fönen mjukare.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom GIHALI hårdiffusor universal utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Bra billig lockkompis om den passar din fön.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En universell diffusor för lockrutinen när du vill sprida luftflödet från fönen mjukare.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Universal passform betyder inte att den sitter perfekt på alla fönar. Kontrollera måtten noga.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Hårvård",
+  specSectionTitle: "GIHALI hårdiffusor universal",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Hårvård",
+      value: "Hårdiffusor",
+    },
+    {
+      label: "Passform",
+      caption: "Hårvård",
+      value: "Universal enligt referens",
+    },
+    {
+      label: "Caveat",
+      caption: "Hårvård",
+      value: "Kontrollera mått",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vCE7cE",
+    ratingSummary: "Amazon visar 4.3 av 5 (3 874).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "GIHALI hårdiffusor universal är valt för universal och lockar.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Universal passform betyder inte att den sitter perfekt på alla fönar. Kontrollera måtten noga.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En universell diffusor för lockrutinen när du vill sprida luftflödet från fönen mjukare.",
+    "Passar dig som söker hårvård med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Universal, Lockar, Fön-tillbehör",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Universal passform betyder inte att den sitter perfekt på alla fönar. Kontrollera måtten noga.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const colorWowDreamCoatProduct: Product = {
+  slug: "color-wow-dream-coat",
+  title: "Color Wow Dream Coat",
+  category: "skonhet",
+  asin: "B073CWSQ51",
+  brand: "Color",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "premium",
+  badges: [
+    "Anti-frizz",
+    "Viral",
+    "Spray",
+  ],
+  image: "/products/color-wow-dream-coat/color-wow-dream-coat-thumbnail.webp",
+  imageAlt: "Color Wow Dream Coat",
+  images: [
+    {
+      src: "/products/color-wow-dream-coat/color-wow-dream-coat-thumbnail.webp",
+      alt: "Color Wow Dream Coat",
+      label: "Produkt",
+    },
+    {
+      src: "/products/color-wow-dream-coat/color-wow-dream-coat-1.webp",
+      alt: "Color Wow Dream Coat i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/color-wow-dream-coat/color-wow-dream-coat-2.webp",
+      alt: "Color Wow Dream Coat med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4eIhr4W",
+  pageHref: "/skonhet/color-wow",
+  summary: "En viral hårspray för dig som vill ha slätare, glansigare finish vid föning.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Color Wow Dream Coat utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Premiumsprayen med starkast viral tyngd, men kräver rätt rutin.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En viral hårspray för dig som vill ha slätare, glansigare finish vid föning.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Det är en stylingprodukt som aktiveras med värme. Förvänta dig inte mirakel utan rätt applicering och föning.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Hårvård",
+  specSectionTitle: "Color Wow Dream Coat",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Hårvård",
+      value: "Styling spray",
+    },
+    {
+      label: "Rutin",
+      caption: "Hårvård",
+      value: "Fönas in",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Hårvård",
+      value: "Slätare finish",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4eIhr4W",
+    ratingSummary: "Amazon visar 4.3 av 5 (95 479.",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Color Wow Dream Coat är valt för anti-frizz och viral.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Det är en stylingprodukt som aktiveras med värme. Förvänta dig inte mirakel utan rätt applicering och föning.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En viral hårspray för dig som vill ha slätare, glansigare finish vid föning.",
+    "Passar dig som söker hårvård med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Anti-frizz, Viral, Spray",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Det är en stylingprodukt som aktiveras med värme. Förvänta dig inte mirakel utan rätt applicering och föning.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
 export const waveProducts: Product[] = [
   sportconicLopbandProduct,
   citysportsGabandProduct,
@@ -3864,6 +4844,16 @@ export const waveProducts: Product[] = [
   auxmirSminkspegelProduct,
   baytHollywoodSpegelProduct,
   plantifiqueAnsiktsrulleProduct,
+  ultrasportFBikeProduct,
+  ziproMotionscykelProduct,
+  proironSkivstangSetProduct,
+  gorillaSkivstangProduct,
+  merachRoddmaskinProduct,
+  xiaomiSmartBand10Product,
+  bemaxxPusselmattaProduct,
+  tymoUtratningsborsteProduct,
+  gihaliHardiffusorProduct,
+  colorWowDreamCoatProduct,
 ];
 
 export const waveEditorialScores: Record<string, EditorialScore> = {
@@ -4178,5 +5168,85 @@ export const waveEditorialScores: Record<string, EditorialScore> = {
     proven: 12,
     total: 74,
     verdict: "Prisvärt rutinset, men claims runt kategorin kräver lågmäld copy.",
+  },
+  "ultrasport-f-bike": {
+    value: 25,
+    performance: 24,
+    promise: 21,
+    proven: 14,
+    total: 84,
+    verdict: "Starkt platsbesparande cykelval med tydlig viktgräns.",
+  },
+  "zipro-motionscykel": {
+    value: 21,
+    performance: 20,
+    promise: 17,
+    proven: 11,
+    total: 69,
+    verdict: "Helt okej budgetcykel för kortare personer, men storleken sänker poängen.",
+  },
+  "proiron-skivstang-set": {
+    value: 25,
+    performance: 24,
+    promise: 21,
+    proven: 13,
+    total: 83,
+    verdict: "Smart hemmagym-set när flexibilitet går före maximal skivstångskänsla.",
+  },
+  "gorilla-skivstang": {
+    value: 22,
+    performance: 21,
+    promise: 18,
+    proven: 12,
+    total: 73,
+    verdict: "Mer riktig stångkänsla, men svagare köparunderlag och leveranscaveat.",
+  },
+  "merach-roddmaskin": {
+    value: 25,
+    performance: 24,
+    promise: 21,
+    proven: 12,
+    total: 82,
+    verdict: "Starkt cardioalternativ hemma om du har plats för roddrörelsen.",
+  },
+  "xiaomi-smart-band-10": {
+    value: 24,
+    performance: 23,
+    promise: 20,
+    proven: 14,
+    total: 81,
+    verdict: "Prisvärt smartband för vardag och träning, med rätt förväntningar på data.",
+  },
+  "bemaxx-pusselmatta": {
+    value: 26,
+    performance: 25,
+    promise: 21,
+    proven: 13,
+    total: 85,
+    verdict: "Starkt tillbehörsköp för hemmagym och maskiner.",
+  },
+  "tymo-utratningsborste": {
+    value: 25,
+    performance: 24,
+    promise: 21,
+    proven: 14,
+    total: 84,
+    verdict: "Starkt snabbval för mjukare släthet, inte för maximal plattångsfinish.",
+  },
+  "gihali-hardiffusor": {
+    value: 23,
+    performance: 22,
+    promise: 19,
+    proven: 13,
+    total: 77,
+    verdict: "Bra billig lockkompis om den passar din fön.",
+  },
+  "color-wow-dream-coat": {
+    value: 26,
+    performance: 25,
+    promise: 22,
+    proven: 13,
+    total: 86,
+    verdict: "Premiumsprayen med starkast viral tyngd, men kräver rätt rutin.",
   },
 };
