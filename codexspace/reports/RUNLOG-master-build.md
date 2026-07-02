@@ -54,3 +54,44 @@ Decisions:
 - Did not add the skipped portabel AC item.
 
 Skipped items: none.
+
+## Wave 2 / Batch 1 - vinterklimat
+
+Routes added:
+- `/halsa/dagsljuslampa/beurer-tl35`
+- `/halsa/dagsljuslampa/beurer-tl30`
+- `/halsa/elfilt`
+- `/halsa/varmeflakt`
+- `/halsa/oljefyllt-element`
+- `/halsa/luftfuktare/beurer-lb200`
+- `/halsa/luftrenare/philips-600`
+- `/halsa/tyngdtacke/good-nite`
+- `/halsa/fotvarmare`
+- `/halsa/dagsljuslampa`
+- `/halsa/beurer-tl30-eller-tl35`
+- `/halsa/morka-morgnar`
+- `/halsa/luftfuktare-guide`
+- `/halsa/ultraljud-eller-evaporativ-luftfuktare`
+- `/halsa/luftrenare-guide`
+- `/halsa/levoit-eller-philips-luftrenare`
+- `/halsa/tyngdtacke-guide`
+- `/halsa/ella-eller-good-nite-tyngdtacke`
+- `/halsa/varmeflakt-eller-oljefyllt-element`
+- `/halsa/elfilt-eller-varmedyna`
+
+Verification:
+- `npm run lint`: pass
+- `npm run typecheck`: pass
+- `npm run build`: pass
+- HTTP 200: pass for all 20 routes
+- 390px overflow: pass for all 20 routes (`scrollWidth=390`, `clientWidth=390`)
+- Mojibake grep `rg "Ã" lib app components`: clean
+- Affiliate links: exact match against `INTAKE-STATUS.md`
+
+Decisions:
+- Used `*-guide` hub routes for luftfuktare, luftrenare and tyngdtacke because `/halsa/luftfuktare`, `/halsa/luftrenare` and `/halsa/tyngdtacke` already exist as single-product routes.
+- Kept dagsljuslampa copy non-medical and avoided treatment, mood and therapy language.
+- Kept luftrenare and tyngdtacke copy focused on room comfort, filters, size, weight and buyer caveats rather than health outcomes.
+- Scored documented caveat products lower, including Beurer FW20 in Helt okej territory.
+
+Skipped items: none.

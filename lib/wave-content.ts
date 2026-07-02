@@ -460,6 +460,528 @@ export const waveProductPicks: SommarPick[] = [
       },
     ],
   },
+  {
+    productSlug: "beurer-tl35-dagsljuslampa",
+    product: productBySlug("beurer-tl35-dagsljuslampa"),
+    href: "/halsa/dagsljuslampa/beurer-tl35",
+    cardBadge: "Kompakt",
+    cardHook: "En kompakt dagsljuslampa för mörka morgnar när du vill ha ett tydligare ljusinslag vid skrivbordet.",
+    cardImage: "/products/beurer-tl35-dagsljuslampa/beurer-tl35-dagsljuslampa-thumbnail.webp",
+    cardImageAlt: "Beurer TL35 dagsljuslampa",
+    badge: "Elins mellanval",
+    headline: "Beurer TL35 dagsljuslampa",
+    shortBody: "En kompakt dagsljuslampa för mörka morgnar när du vill ha ett tydligare ljusinslag vid skrivbordet.",
+    valueHook: "Kompakt · Beurer · Extra ljus",
+    valueStatement: "En kompakt dagsljuslampa för mörka morgnar när du vill ha ett tydligare ljusinslag vid skrivbordet. Det här är extra ljus i vardagen, inte ett löfte om medicinsk effekt. Följ alltid produktens instruktioner.",
+    passFor: [
+      "Vill ha mörka morgnar utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Det här är extra ljus i vardagen, inte ett löfte om medicinsk effekt. Följ alltid produktens instruktioner.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Smidigt Beurer-val för extra ljus utan stor apparat.",
+    amazonSummary: "Amazon visar 4.6 av 5 (823).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Beurer TL35 dagsljuslampa värd att köpa?",
+        answer: "Smidigt Beurer-val för extra ljus utan stor apparat.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "beurer-tl35-dagsljuslampa-recensioner",
+    reviewFormId: "beurer-tl35-dagsljuslampa-skriv-recension",
+    targetKeyword: "beurer tl35 dagsljuslampa",
+    metaTitle: "Beurer TL35 dagsljuslampa – Elins ärliga koll | Elins val",
+    metaDescription: "Beurer TL35 dagsljuslampa: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "beurer-tl30-dagsljuslampa",
+    product: productBySlug("beurer-tl30-dagsljuslampa"),
+    href: "/halsa/dagsljuslampa/beurer-tl30",
+    cardBadge: "Resefodral",
+    cardHook: "Ett litet och beprövat Beurer-alternativ för dig som vill ha extra ljus utan att ta upp mycket plats.",
+    cardImage: "/products/beurer-tl30-dagsljuslampa/beurer-tl30-dagsljuslampa-thumbnail.webp",
+    cardImageAlt: "Beurer TL30 dagsljuslampa",
+    badge: "Elins mellanval",
+    headline: "Beurer TL30 dagsljuslampa",
+    shortBody: "Ett litet och beprövat Beurer-alternativ för dig som vill ha extra ljus utan att ta upp mycket plats.",
+    valueHook: "Resefodral · Beprövad · Extra ljus",
+    valueStatement: "Ett litet och beprövat Beurer-alternativ för dig som vill ha extra ljus utan att ta upp mycket plats. Välj inte efter stora behandlingslöften. Här bedöms format, användbarhet och köparsignaler.",
+    passFor: [
+      "Vill ha mörka morgnar utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Välj inte efter stora behandlingslöften. Här bedöms format, användbarhet och köparsignaler.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Det mest beprövade dagsljusvalet i paret.",
+    amazonSummary: "Amazon visar 4.5 av 5 (9 042 betyg.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Beurer TL30 dagsljuslampa värd att köpa?",
+        answer: "Det mest beprövade dagsljusvalet i paret.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "beurer-tl30-dagsljuslampa-recensioner",
+    reviewFormId: "beurer-tl30-dagsljuslampa-skriv-recension",
+    targetKeyword: "beurer tl30 dagsljuslampa",
+    metaTitle: "Beurer TL30 dagsljuslampa – Elins ärliga koll | Elins val",
+    metaDescription: "Beurer TL30 dagsljuslampa: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "beurer-hd75-elfilt",
+    product: productBySlug("beurer-hd75-elfilt"),
+    href: "/halsa/elfilt",
+    cardBadge: "Mysvärme",
+    cardHook: "En elektrisk filt för soffan när du vill ha jämn mysvärme utan att värma upp hela rummet.",
+    cardImage: "/products/beurer-hd75-elfilt/beurer-hd75-elfilt-thumbnail.webp",
+    cardImageAlt: "Beurer HD75 elfilt",
+    badge: "Elins mellanval",
+    headline: "Beurer HD75 elfilt",
+    shortBody: "En elektrisk filt för soffan när du vill ha jämn mysvärme utan att värma upp hela rummet.",
+    valueHook: "Mysvärme · Beurer · Stor filt",
+    valueStatement: "En elektrisk filt för soffan när du vill ha jämn mysvärme utan att värma upp hela rummet. Mysvärme, inte het värme. Läs säkerhetsinstruktionerna och använd aldrig produkten på ett sätt som tillverkaren avråder från.",
+    passFor: [
+      "Vill ha värme utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Mysvärme, inte het värme. Läs säkerhetsinstruktionerna och använd aldrig produkten på ett sätt som tillverkaren avråder från.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Bra soffvärme med tydligt säkerhetsfokus.",
+    amazonSummary: "Amazon visar 4.1 av 5 (3 390).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Beurer HD75 elfilt värd att köpa?",
+        answer: "Bra soffvärme med tydligt säkerhetsfokus.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "beurer-hd75-elfilt-recensioner",
+    reviewFormId: "beurer-hd75-elfilt-skriv-recension",
+    targetKeyword: "beurer hd75 elfilt",
+    metaTitle: "Beurer HD75 elfilt – Elins ärliga koll | Elins val",
+    metaDescription: "Beurer HD75 elfilt: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "emerio-varmeflakt",
+    product: productBySlug("emerio-varmeflakt"),
+    href: "/halsa/varmeflakt",
+    cardBadge: "Snabb punktvärme",
+    cardHook: "En kompakt värmefläkt för snabb punktvärme i ett kallt hörn eller ett tillfälligt arbetsrum.",
+    cardImage: "/products/emerio-varmeflakt/emerio-varmeflakt-thumbnail.webp",
+    cardImageAlt: "Emerio värmefläkt",
+    badge: "Elins budgetval",
+    headline: "Emerio värmefläkt",
+    shortBody: "En kompakt värmefläkt för snabb punktvärme i ett kallt hörn eller ett tillfälligt arbetsrum.",
+    valueHook: "Snabb punktvärme · Kompakt · Budget",
+    valueStatement: "En kompakt värmefläkt för snabb punktvärme i ett kallt hörn eller ett tillfälligt arbetsrum. Värmefläktar ska användas under uppsikt och enligt säkerhetsråd. Ljud och luftdrag hör till kompromissen.",
+    passFor: [
+      "Vill ha värme utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Värmefläktar ska användas under uppsikt och enligt säkerhetsråd. Ljud och luftdrag hör till kompromissen.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Helt okej snabbvärme, men inte lika behaglig för långa pass.",
+    amazonSummary: "Amazon visar 4.0 av 5 (2 179).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Emerio värmefläkt värd att köpa?",
+        answer: "Helt okej snabbvärme, men inte lika behaglig för långa pass.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "emerio-varmeflakt-recensioner",
+    reviewFormId: "emerio-varmeflakt-skriv-recension",
+    targetKeyword: "emerio värmefläkt",
+    metaTitle: "Emerio värmefläkt – Elins ärliga koll | Elins val",
+    metaDescription: "Emerio värmefläkt: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "delonghi-oljefyllt-element",
+    product: productBySlug("delonghi-oljefyllt-element"),
+    href: "/halsa/oljefyllt-element",
+    cardBadge: "Tyst värme",
+    cardHook: "Ett oljefyllt element för tystare och mer uthållig värme när snabb luftström inte är målet.",
+    cardImage: "/products/delonghi-oljefyllt-element/delonghi-oljefyllt-element-thumbnail.webp",
+    cardImageAlt: "De'Longhi oljefyllt element",
+    badge: "Elins mellanval",
+    headline: "De'Longhi oljefyllt element",
+    shortBody: "Ett oljefyllt element för tystare och mer uthållig värme när snabb luftström inte är målet.",
+    valueHook: "Tyst värme · Långsam värme · De'Longhi",
+    valueStatement: "Ett oljefyllt element för tystare och mer uthållig värme när snabb luftström inte är målet. Referensen har tredjeparts- och fraktcaveat. Det värmer långsammare än en fläkt och kräver plats.",
+    passFor: [
+      "Vill ha värme utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Referensen har tredjeparts- och fraktcaveat. Det värmer långsammare än en fläkt och kräver plats.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Bra för tyst långtidsvärme, men säljare/frakt och tempo drar ned.",
+    amazonSummary: "Amazon visar 4.5 av 5 (4 877).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är De'Longhi oljefyllt element värd att köpa?",
+        answer: "Bra för tyst långtidsvärme, men säljare/frakt och tempo drar ned.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "delonghi-oljefyllt-element-recensioner",
+    reviewFormId: "delonghi-oljefyllt-element-skriv-recension",
+    targetKeyword: "de'longhi oljefyllt element",
+    metaTitle: "De'Longhi oljefyllt element – Elins ärliga koll | Elins val",
+    metaDescription: "De'Longhi oljefyllt element: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "beurer-lb200-luftfuktare",
+    product: productBySlug("beurer-lb200-luftfuktare"),
+    href: "/halsa/luftfuktare/beurer-lb200",
+    cardBadge: "Evaporativ",
+    cardHook: "En evaporativ luftfuktare för dig som hellre vill ha en mer självreglerande typ än ultraljudsdimma.",
+    cardImage: "/products/beurer-lb200-luftfuktare/beurer-lb200-luftfuktare-thumbnail.webp",
+    cardImageAlt: "Beurer LB200 luftfuktare",
+    badge: "Elins mellanval",
+    headline: "Beurer LB200 luftfuktare",
+    shortBody: "En evaporativ luftfuktare för dig som hellre vill ha en mer självreglerande typ än ultraljudsdimma.",
+    valueHook: "Evaporativ · Beurer · Diskret drift",
+    valueStatement: "En evaporativ luftfuktare för dig som hellre vill ha en mer självreglerande typ än ultraljudsdimma. Den är inte lika visuellt direkt som ultraljud. Filter, rengöring och rumsmiljö avgör hur nöjd du blir.",
+    passFor: [
+      "Vill ha klimat utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Den är inte lika visuellt direkt som ultraljud. Filter, rengöring och rumsmiljö avgör hur nöjd du blir.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Smart typval för rätt hem, men kräver mer förståelse än en enkel dimmaskin.",
+    amazonSummary: "Amazon visar 4.3 av 5 (463).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Beurer LB200 luftfuktare värd att köpa?",
+        answer: "Smart typval för rätt hem, men kräver mer förståelse än en enkel dimmaskin.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "beurer-lb200-luftfuktare-recensioner",
+    reviewFormId: "beurer-lb200-luftfuktare-skriv-recension",
+    targetKeyword: "beurer lb200 luftfuktare",
+    metaTitle: "Beurer LB200 luftfuktare – Elins ärliga koll | Elins val",
+    metaDescription: "Beurer LB200 luftfuktare: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "philips-600-luftrenare",
+    product: productBySlug("philips-600-luftrenare"),
+    href: "/halsa/luftrenare/philips-600",
+    cardBadge: "HEPA-filter",
+    cardHook: "En kompakt luftrenare för mindre ytor där filter, ljudnivå och enkel placering är viktigare än smarta extrafunktioner.",
+    cardImage: "/products/philips-600-luftrenare/philips-600-luftrenare-thumbnail.webp",
+    cardImageAlt: "Philips 600 luftrenare",
+    badge: "Elins mellanval",
+    headline: "Philips 600 luftrenare",
+    shortBody: "En kompakt luftrenare för mindre ytor där filter, ljudnivå och enkel placering är viktigare än smarta extrafunktioner.",
+    valueHook: "HEPA-filter · Kompakt · Philips",
+    valueStatement: "En kompakt luftrenare för mindre ytor där filter, ljudnivå och enkel placering är viktigare än smarta extrafunktioner. Inga löften om medicinska effekter. Filterbyten och rumsstorlek är avgörande för om den passar.",
+    passFor: [
+      "Vill ha klimat utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Inga löften om medicinska effekter. Filterbyten och rumsstorlek är avgörande för om den passar.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Trygg kompakt luftrenare med tydlig filtercaveat.",
+    amazonSummary: "Amazon visar 4.4 av 5 (4 039).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Philips 600 luftrenare värd att köpa?",
+        answer: "Trygg kompakt luftrenare med tydlig filtercaveat.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "philips-600-luftrenare-recensioner",
+    reviewFormId: "philips-600-luftrenare-skriv-recension",
+    targetKeyword: "philips 600 luftrenare",
+    metaTitle: "Philips 600 luftrenare – Elins ärliga koll | Elins val",
+    metaDescription: "Philips 600 luftrenare: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "good-nite-tyngdtacke",
+    product: productBySlug("good-nite-tyngdtacke"),
+    href: "/halsa/tyngdtacke/good-nite",
+    cardBadge: "8 kg",
+    cardHook: "Ett tyngdtäcke för vuxna som vill ha en ombonad och tyngre känsla i sängen.",
+    cardImage: "/products/good-nite-tyngdtacke/good-nite-tyngdtacke-thumbnail.webp",
+    cardImageAlt: "Good Nite tyngdtäcke",
+    badge: "Elins mellanval",
+    headline: "Good Nite tyngdtäcke",
+    shortBody: "Ett tyngdtäcke för vuxna som vill ha en ombonad och tyngre känsla i sängen.",
+    valueHook: "8 kg · Mjuk känsla · Vuxen",
+    valueStatement: "Ett tyngdtäcke för vuxna som vill ha en ombonad och tyngre känsla i sängen. Tyngdtäcken är personliga. Välj inte för barn här och utgå från vikt, värmekänsla och tvättråd.",
+    passFor: [
+      "Vill ha sömn & avkoppling utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Tyngdtäcken är personliga. Välj inte för barn här och utgå från vikt, värmekänsla och tvättråd.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Bra vuxenval om du vill ha tydlig tyngd, men personligt i känslan.",
+    amazonSummary: "Amazon visar 4.5 av 5 (1 631).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Good Nite tyngdtäcke värd att köpa?",
+        answer: "Bra vuxenval om du vill ha tydlig tyngd, men personligt i känslan.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "good-nite-tyngdtacke-recensioner",
+    reviewFormId: "good-nite-tyngdtacke-skriv-recension",
+    targetKeyword: "good nite tyngdtäcke",
+    metaTitle: "Good Nite tyngdtäcke – Elins ärliga koll | Elins val",
+    metaDescription: "Good Nite tyngdtäcke: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "beurer-fw20-fotvarmare",
+    product: productBySlug("beurer-fw20-fotvarmare"),
+    href: "/halsa/fotvarmare",
+    cardBadge: "Fotmys",
+    cardHook: "En enkel fotvärmare för kalla kvällar vid skrivbordet eller soffan.",
+    cardImage: "/products/beurer-fw20-fotvarmare/beurer-fw20-fotvarmare-thumbnail.webp",
+    cardImageAlt: "Beurer FW20 fotvärmare",
+    badge: "Elins budgetval",
+    headline: "Beurer FW20 fotvärmare",
+    shortBody: "En enkel fotvärmare för kalla kvällar vid skrivbordet eller soffan.",
+    valueHook: "Fotmys · Beurer · Mjuk värme",
+    valueStatement: "En enkel fotvärmare för kalla kvällar vid skrivbordet eller soffan. Referensen pekar på tredjepart och tunt lager. Förvänta dig mild fotmys, inte kraftig värme.",
+    passFor: [
+      "Vill ha värme utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Referensen pekar på tredjepart och tunt lager. Förvänta dig mild fotmys, inte kraftig värme.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Helt okej för frusna fötter, men tunt lager och säljare håller nere poängen.",
+    amazonSummary: "Amazon visar 4.2 av 5 (1 884).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Beurer FW20 fotvärmare värd att köpa?",
+        answer: "Helt okej för frusna fötter, men tunt lager och säljare håller nere poängen.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "beurer-fw20-fotvarmare-recensioner",
+    reviewFormId: "beurer-fw20-fotvarmare-skriv-recension",
+    targetKeyword: "beurer fw20 fotvärmare",
+    metaTitle: "Beurer FW20 fotvärmare – Elins ärliga koll | Elins val",
+    metaDescription: "Beurer FW20 fotvärmare: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
 ];
 
 export const waveGuides: WaveGuide[] = [
@@ -894,6 +1416,792 @@ export const waveGuides: WaveGuide[] = [
     metaTitle: "Golvfläkt eller tornfläkt? | Elins val",
     metaDescription: "Golvfläkt eller tornfläkt?: Midea mot Midea: klassiskt luftflöde på fot eller smal tornform. Annons, utan hårdkodade priser.",
   },
+  {
+    id: "dagsljuslampa",
+    href: "/halsa/dagsljuslampa",
+    category: "halsa",
+    label: "Guide",
+    title: "Dagsljuslampa för mörka morgnar",
+    intro: "Två Beurer-lampor för extra ljus under mörka morgnar, utan behandlingslöften.",
+    badges: [
+      "Extra ljus",
+      "Beurer",
+      "Mörka morgnar",
+    ],
+    productSlugs: [
+      "beurer-tl30-dagsljuslampa",
+      "beurer-tl35-dagsljuslampa",
+    ],
+    pickBadges: {
+      "beurer-tl30-dagsljuslampa": "Resefodral",
+      "beurer-tl35-dagsljuslampa": "Kompakt",
+    },
+    choiceTitle: "TL30 eller TL35?",
+    choiceText: "TL30 är det mer beprövade lilla valet. TL35 passar om du vill ha ett något annorlunda format och kompakt skrivbordskänsla.",
+    rows: [
+      {
+        label: "Styrka",
+        values: [
+          "Mest beprövad",
+          "Kompakt alternativ",
+        ],
+      },
+      {
+        label: "Placering",
+        values: [
+          "Liten yta",
+          "Skrivbord",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Inga medicinska löften",
+          "Inga medicinska löften",
+        ],
+      },
+    ],
+    verdict: "Båda ska beskrivas som extra ljus i vardagen. TL30 får övertaget på social proof.",
+    faqItems: [
+      {
+        question: "Dagsljuslampa utan medicinska claims.",
+        answer: "TL30 är det mer beprövade lilla valet. TL35 passar om du vill ha ett något annorlunda format och kompakt skrivbordskänsla.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Dagsljuslampa för mörka morgnar | Elins val",
+    metaDescription: "Dagsljuslampa för mörka morgnar: Två Beurer-lampor för extra ljus under mörka morgnar, utan behandlingslöften. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "beurer-tl30-eller-tl35",
+    href: "/halsa/beurer-tl30-eller-tl35",
+    category: "halsa",
+    label: "Jämförelse",
+    title: "Beurer TL30 eller TL35?",
+    intro: "Två kompakta Beurer-val för mörka morgnar, med skillnaden i format och beprövning.",
+    badges: [
+      "Beurer",
+      "TL30",
+      "TL35",
+    ],
+    productSlugs: [
+      "beurer-tl30-dagsljuslampa",
+      "beurer-tl35-dagsljuslampa",
+    ],
+    pickBadges: {
+      "beurer-tl30-dagsljuslampa": "Resefodral",
+      "beurer-tl35-dagsljuslampa": "Kompakt",
+    },
+    choiceTitle: "Elins korta val",
+    choiceText: "Välj TL30 om du vill ha det mest beprövade valet. Välj TL35 om formatet och placeringen passar bättre hos dig.",
+    rows: [
+      {
+        label: "Köparsignal",
+        values: [
+          "Starkast",
+          "Stark",
+        ],
+      },
+      {
+        label: "Format",
+        values: [
+          "Litet och etablerat",
+          "Kompakt panel",
+        ],
+      },
+      {
+        label: "Copygräns",
+        values: [
+          "Extra ljus",
+          "Extra ljus",
+        ],
+      },
+    ],
+    verdict: "TL30 är förstavalet, TL35 är nära bakom när formatet passar bättre.",
+    faqItems: [
+      {
+        question: "Beurer TL30 eller TL35?",
+        answer: "Välj TL30 om du vill ha det mest beprövade valet. Välj TL35 om formatet och placeringen passar bättre hos dig.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Beurer TL30 eller TL35? | Elins val",
+    metaDescription: "Beurer TL30 eller TL35?: Två kompakta Beurer-val för mörka morgnar, med skillnaden i format och beprövning. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "morka-morgnar",
+    href: "/halsa/morka-morgnar",
+    category: "halsa",
+    label: "Guide",
+    title: "Mörka morgnar: ljus, väckning och kvällsro",
+    intro: "En liten guide till extra ljus, wake-up light och mjukt kvällssken under mörka månader.",
+    badges: [
+      "Mörka morgnar",
+      "Ljus",
+      "Vardag",
+    ],
+    productSlugs: [
+      "beurer-tl30-dagsljuslampa",
+      "philips-wake-up-light",
+      "solnedgangslampa",
+    ],
+    pickBadges: {
+      "beurer-tl30-dagsljuslampa": "Resefodral",
+      "philips-wake-up-light": "Elins val",
+      solnedgangslampa: "Elins val",
+    },
+    choiceTitle: "Bygg efter tid på dagen",
+    choiceText: "Dagsljuslampa hör hemma på morgon eller skrivbord. Wake-up light hjälper rutinen runt uppvakning. Solnedgångslampa är mer kvälls- och mysprodukt.",
+    rows: [
+      {
+        label: "Bäst för",
+        values: [
+          "Extra ljus",
+          "Väckningsrutin",
+          "Kvällskänsla",
+        ],
+      },
+      {
+        label: "Placering",
+        values: [
+          "Skrivbord",
+          "Nattduksbord",
+          "Vardagsrum",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Inga behandlingslöften",
+          "Inte dagsljus",
+          "Mest stämning",
+        ],
+      },
+    ],
+    verdict: "Kombinera efter situation, inte efter stora löften.",
+    faqItems: [
+      {
+        question: "Mörka morgnar guide.",
+        answer: "Dagsljuslampa hör hemma på morgon eller skrivbord. Wake-up light hjälper rutinen runt uppvakning. Solnedgångslampa är mer kvälls- och mysprodukt.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Mörka morgnar: ljus, väckning och kvällsro | Elins val",
+    metaDescription: "Mörka morgnar: ljus, väckning och kvällsro: En liten guide till extra ljus, wake-up light och mjukt kvällssken under mörka månader. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "luftfuktare-guide",
+    href: "/halsa/luftfuktare-guide",
+    category: "halsa",
+    label: "Guide",
+    title: "Luftfuktare: ultraljud eller evaporativ?",
+    intro: "Levoit ger synlig dimma och smart styrning. Beurer LB200 är det evaporativa alternativet med annan logik.",
+    badges: [
+      "Luftfuktare",
+      "Ultraljud",
+      "Evaporativ",
+    ],
+    productSlugs: [
+      "levoit-luftfuktare",
+      "beurer-lb200-luftfuktare",
+    ],
+    pickBadges: {
+      "levoit-luftfuktare": "Elins val",
+      "beurer-lb200-luftfuktare": "Evaporativ",
+    },
+    choiceTitle: "Välj typ först",
+    choiceText: "Ultraljud känns direkt och synligt. Evaporativ luftfuktning är mer lågmäld och kräver mer förståelse för filter och skötsel.",
+    rows: [
+      {
+        label: "Typ",
+        values: [
+          "Ultraljud",
+          "Evaporativ",
+        ],
+      },
+      {
+        label: "Känsla",
+        values: [
+          "Synlig dimma",
+          "Mer lågmäld",
+        ],
+      },
+      {
+        label: "Skötsel",
+        values: [
+          "Rengöring viktig",
+          "Filter och rengöring",
+        ],
+      },
+    ],
+    verdict: "Levoit är enklare att förstå direkt. Beurer är intressant för dig som aktivt vill ha evaporativ typ.",
+    faqItems: [
+      {
+        question: "Luftfuktare guide.",
+        answer: "Ultraljud känns direkt och synligt. Evaporativ luftfuktning är mer lågmäld och kräver mer förståelse för filter och skötsel.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Luftfuktare: ultraljud eller evaporativ? | Elins val",
+    metaDescription: "Luftfuktare: ultraljud eller evaporativ?: Levoit ger synlig dimma och smart styrning. Beurer LB200 är det evaporativa alternativet med annan logik. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "ultraljud-eller-evaporativ-luftfuktare",
+    href: "/halsa/ultraljud-eller-evaporativ-luftfuktare",
+    category: "halsa",
+    label: "Jämförelse",
+    title: "Ultraljud eller evaporativ luftfuktare?",
+    intro: "Två tekniker med olika vardagskänsla, skötsel och synlighet.",
+    badges: [
+      "Typguide",
+      "Luftfuktare",
+      "Klimat",
+    ],
+    productSlugs: [
+      "levoit-luftfuktare",
+      "beurer-lb200-luftfuktare",
+    ],
+    pickBadges: {
+      "levoit-luftfuktare": "Elins val",
+      "beurer-lb200-luftfuktare": "Evaporativ",
+    },
+    choiceTitle: "Tekniken styr vardagen",
+    choiceText: "Välj ultraljud för synlig dimma och direkt känsla. Välj evaporativ om du vill ha ett mer lågmält system och accepterar filter.",
+    rows: [
+      {
+        label: "Synlighet",
+        values: [
+          "Synlig dimma",
+          "Lågmäld",
+        ],
+      },
+      {
+        label: "Skötsel",
+        values: [
+          "Tankrengöring",
+          "Filter",
+        ],
+      },
+      {
+        label: "Elins val",
+        values: [
+          "Enklast för de flesta",
+          "För den typmedvetna",
+        ],
+      },
+    ],
+    verdict: "Det finns inget universellt bästa val. Välj tekniken du faktiskt orkar sköta.",
+    faqItems: [
+      {
+        question: "Ultraljud eller evaporativ luftfuktare?",
+        answer: "Välj ultraljud för synlig dimma och direkt känsla. Välj evaporativ om du vill ha ett mer lågmält system och accepterar filter.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Ultraljud eller evaporativ luftfuktare? | Elins val",
+    metaDescription: "Ultraljud eller evaporativ luftfuktare?: Två tekniker med olika vardagskänsla, skötsel och synlighet. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "luftrenare-guide",
+    href: "/halsa/luftrenare-guide",
+    category: "halsa",
+    label: "Guide",
+    title: "Luftrenare: Levoit eller Philips?",
+    intro: "Levoit Core 200S mot Philips 600: smartare appval eller kompakt märkesval.",
+    badges: [
+      "Luftrenare",
+      "Levoit",
+      "Philips",
+    ],
+    productSlugs: [
+      "levoit-core-200s-luftrenare",
+      "philips-600-luftrenare",
+    ],
+    pickBadges: {
+      "levoit-core-200s-luftrenare": "Elins val",
+      "philips-600-luftrenare": "HEPA-filter",
+    },
+    choiceTitle: "Så väljer du",
+    choiceText: "Välj Levoit om smart styrning och beprövning lockar. Välj Philips om du vill ha ett kompakt, enkelt märkesval.",
+    rows: [
+      {
+        label: "Profil",
+        values: [
+          "Smart och beprövad",
+          "Kompakt och enkel",
+        ],
+      },
+      {
+        label: "Filter",
+        values: [
+          "Kontrollera filterpris",
+          "Kontrollera filterpris",
+        ],
+      },
+      {
+        label: "Copygräns",
+        values: [
+          "Inga medicinska löften",
+          "Inga medicinska löften",
+        ],
+      },
+    ],
+    verdict: "Levoit behåller högst poäng, Philips är ett rimligt enklare alternativ.",
+    faqItems: [
+      {
+        question: "Luftrenare guide med lågmäld copy.",
+        answer: "Välj Levoit om smart styrning och beprövning lockar. Välj Philips om du vill ha ett kompakt, enkelt märkesval.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Luftrenare: Levoit eller Philips? | Elins val",
+    metaDescription: "Luftrenare: Levoit eller Philips?: Levoit Core 200S mot Philips 600: smartare appval eller kompakt märkesval. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "levoit-eller-philips-luftrenare",
+    href: "/halsa/levoit-eller-philips-luftrenare",
+    category: "halsa",
+    label: "Jämförelse",
+    title: "Levoit eller Philips luftrenare?",
+    intro: "Smart luftrenare mot kompakt luftrenare, utan stora hälsolöften.",
+    badges: [
+      "Luftrenare",
+      "Filter",
+      "Kompakt",
+    ],
+    productSlugs: [
+      "levoit-core-200s-luftrenare",
+      "philips-600-luftrenare",
+    ],
+    pickBadges: {
+      "levoit-core-200s-luftrenare": "Elins val",
+      "philips-600-luftrenare": "HEPA-filter",
+    },
+    choiceTitle: "Välj efter styrning",
+    choiceText: "Levoit är starkare om du vill ha app och etablerat val. Philips passar om du vill hålla det enkelt.",
+    rows: [
+      {
+        label: "Styrning",
+        values: [
+          "Smart",
+          "Enklare",
+        ],
+      },
+      {
+        label: "Styrka",
+        values: [
+          "Högre poäng",
+          "Kompakt märke",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Filterkostnad",
+          "Filterkostnad",
+        ],
+      },
+    ],
+    verdict: "Levoit är förstavalet, Philips är alternativet när formatet avgör.",
+    faqItems: [
+      {
+        question: "Levoit eller Philips luftrenare?",
+        answer: "Levoit är starkare om du vill ha app och etablerat val. Philips passar om du vill hålla det enkelt.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Levoit eller Philips luftrenare? | Elins val",
+    metaDescription: "Levoit eller Philips luftrenare?: Smart luftrenare mot kompakt luftrenare, utan stora hälsolöften. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "tyngdtacke-guide",
+    href: "/halsa/tyngdtacke-guide",
+    category: "halsa",
+    label: "Guide",
+    title: "Tyngdtäcke: Ella eller Good Nite?",
+    intro: "Två vuxenval där vikt, värmekänsla och tvättråd betyder mer än stora löften.",
+    badges: [
+      "Tyngdtäcke",
+      "Vuxen",
+      "Sömnmiljö",
+    ],
+    productSlugs: [
+      "ella-tyngdtacke",
+      "good-nite-tyngdtacke",
+    ],
+    pickBadges: {
+      "ella-tyngdtacke": "Elins val",
+      "good-nite-tyngdtacke": "8 kg",
+    },
+    choiceTitle: "Välj med kroppen",
+    choiceText: "Ella har högre poäng i katalogen. Good Nite är det nya alternativet om vikt och känsla matchar bättre.",
+    rows: [
+      {
+        label: "Profil",
+        values: [
+          "Högre poäng",
+          "Nytt alternativ",
+        ],
+      },
+      {
+        label: "Viktigast",
+        values: [
+          "Vikt och värme",
+          "Vikt och värme",
+        ],
+      },
+      {
+        label: "Gräns",
+        values: [
+          "Vuxenval",
+          "Vuxenval",
+        ],
+      },
+    ],
+    verdict: "Tyngdtäcke är personligt. Elin väljer hellre efter viktmatchning än efter säljrubrik.",
+    faqItems: [
+      {
+        question: "Tyngdtäcke guide.",
+        answer: "Ella har högre poäng i katalogen. Good Nite är det nya alternativet om vikt och känsla matchar bättre.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Tyngdtäcke: Ella eller Good Nite? | Elins val",
+    metaDescription: "Tyngdtäcke: Ella eller Good Nite?: Två vuxenval där vikt, värmekänsla och tvättråd betyder mer än stora löften. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "ella-eller-good-nite-tyngdtacke",
+    href: "/halsa/ella-eller-good-nite-tyngdtacke",
+    category: "halsa",
+    label: "Jämförelse",
+    title: "Ella eller Good Nite tyngdtäcke?",
+    intro: "Två tyngdtäcken för vuxna, jämförda på känsla, vikt och caveats.",
+    badges: [
+      "Tyngdtäcke",
+      "Vuxen",
+      "Jämförelse",
+    ],
+    productSlugs: [
+      "ella-tyngdtacke",
+      "good-nite-tyngdtacke",
+    ],
+    pickBadges: {
+      "ella-tyngdtacke": "Elins val",
+      "good-nite-tyngdtacke": "8 kg",
+    },
+    choiceTitle: "Elins korta val",
+    choiceText: "Välj Ella om du vill ha det starkare katalogvalet. Välj Good Nite om vikten och materialkänslan stämmer bättre för dig.",
+    rows: [
+      {
+        label: "Poäng",
+        values: [
+          "Högre",
+          "Bra",
+        ],
+      },
+      {
+        label: "Vikt",
+        values: [
+          "Kontrollera variant",
+          "8 kg enligt referens",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Personlig känsla",
+          "Kan kännas varmt",
+        ],
+      },
+    ],
+    verdict: "Ella är förstavalet, Good Nite är fullt rimligt när vikten matchar.",
+    faqItems: [
+      {
+        question: "Ella eller Good Nite?",
+        answer: "Välj Ella om du vill ha det starkare katalogvalet. Välj Good Nite om vikten och materialkänslan stämmer bättre för dig.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Ella eller Good Nite tyngdtäcke? | Elins val",
+    metaDescription: "Ella eller Good Nite tyngdtäcke?: Två tyngdtäcken för vuxna, jämförda på känsla, vikt och caveats. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "varmeflakt-eller-oljefyllt-element",
+    href: "/halsa/varmeflakt-eller-oljefyllt-element",
+    category: "halsa",
+    label: "Jämförelse",
+    title: "Värmefläkt eller oljefyllt element?",
+    intro: "Snabb punktvärme mot tystare långtidsvärme.",
+    badges: [
+      "Värme",
+      "Vinter",
+      "Typval",
+    ],
+    productSlugs: [
+      "emerio-varmeflakt",
+      "delonghi-oljefyllt-element",
+    ],
+    pickBadges: {
+      "emerio-varmeflakt": "Snabb punktvärme",
+      "delonghi-oljefyllt-element": "Tyst värme",
+    },
+    choiceTitle: "Snabbt eller tyst?",
+    choiceText: "Värmefläkt är bäst när du vill känna värme snabbt. Oljefyllt element är bättre när låg ljudnivå och längre pass väger tyngre.",
+    rows: [
+      {
+        label: "Styrka",
+        values: [
+          "Snabb punktvärme",
+          "Tystare långtidsvärme",
+        ],
+      },
+      {
+        label: "Kompromiss",
+        values: [
+          "Ljud och luftdrag",
+          "Långsammare start",
+        ],
+      },
+      {
+        label: "Säkerhet",
+        values: [
+          "Uppsikt",
+          "Plats runt elementet",
+        ],
+      },
+    ],
+    verdict: "Emerio är snabbast och billigare. De'Longhi är mer behaglig över tid men har säljare/frakt-caveat.",
+    faqItems: [
+      {
+        question: "Värmefläkt eller oljefyllt element?",
+        answer: "Värmefläkt är bäst när du vill känna värme snabbt. Oljefyllt element är bättre när låg ljudnivå och längre pass väger tyngre.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Värmefläkt eller oljefyllt element? | Elins val",
+    metaDescription: "Värmefläkt eller oljefyllt element?: Snabb punktvärme mot tystare långtidsvärme. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "elfilt-eller-varmedyna",
+    href: "/halsa/elfilt-eller-varmedyna",
+    category: "halsa",
+    label: "Jämförelse",
+    title: "Elfilt eller värmedyna?",
+    intro: "Stor soffvärme mot mindre riktad värme.",
+    badges: [
+      "Värme",
+      "Soffa",
+      "Mys",
+    ],
+    productSlugs: [
+      "beurer-hd75-elfilt",
+      "beurer-varmedyna",
+    ],
+    pickBadges: {
+      "beurer-hd75-elfilt": "Mysvärme",
+      "beurer-varmedyna": "Elins val",
+    },
+    choiceTitle: "Yta eller punkt?",
+    choiceText: "Välj elfilt när du vill värma större del av kroppen i soffan. Välj värmedyna när du vill ha mindre format och riktad värme.",
+    rows: [
+      {
+        label: "Format",
+        values: [
+          "Stor filt",
+          "Mindre dyna",
+        ],
+      },
+      {
+        label: "Passar bäst",
+        values: [
+          "Soffan",
+          "Riktad plats",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Mild mysvärme",
+          "Mindre yta",
+        ],
+      },
+    ],
+    verdict: "Elfilt är mysigare för soffan. Värmedyna är smidigare när formatet ska vara litet.",
+    faqItems: [
+      {
+        question: "Elfilt eller värmedyna?",
+        answer: "Välj elfilt när du vill värma större del av kroppen i soffan. Välj värmedyna när du vill ha mindre format och riktad värme.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Elfilt eller värmedyna? | Elins val",
+    metaDescription: "Elfilt eller värmedyna?: Stor soffvärme mot mindre riktad värme. Annons, utan hårdkodade priser.",
+  },
 ];
 
 export const waveComparisonEntries: readonly ComparisonEntry[] = [
@@ -1006,6 +2314,186 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
       "Sovrum",
     ],
   },
+  {
+    slug: "dagsljuslampa",
+    title: "Dagsljuslampa för mörka morgnar",
+    shortTitle: "Dagsljuslampa för mörka morgnar",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/dagsljuslampa",
+    description: "Två Beurer-lampor för extra ljus under mörka morgnar, utan behandlingslöften.",
+    productSlugs: [
+      "beurer-tl30-dagsljuslampa",
+      "beurer-tl35-dagsljuslampa",
+    ],
+    badges: [
+      "Extra ljus",
+      "Beurer",
+      "Mörka morgnar",
+    ],
+  },
+  {
+    slug: "beurer-tl30-eller-tl35",
+    title: "Beurer TL30 eller TL35?",
+    shortTitle: "Beurer TL30 eller TL35?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/beurer-tl30-eller-tl35",
+    description: "Två kompakta Beurer-val för mörka morgnar, med skillnaden i format och beprövning.",
+    productSlugs: [
+      "beurer-tl30-dagsljuslampa",
+      "beurer-tl35-dagsljuslampa",
+    ],
+    badges: [
+      "Beurer",
+      "TL30",
+      "TL35",
+    ],
+  },
+  {
+    slug: "luftfuktare-guide",
+    title: "Luftfuktare: ultraljud eller evaporativ?",
+    shortTitle: "Luftfuktare: ultraljud eller evaporativ?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/luftfuktare-guide",
+    description: "Levoit ger synlig dimma och smart styrning. Beurer LB200 är det evaporativa alternativet med annan logik.",
+    productSlugs: [
+      "levoit-luftfuktare",
+      "beurer-lb200-luftfuktare",
+    ],
+    badges: [
+      "Luftfuktare",
+      "Ultraljud",
+      "Evaporativ",
+    ],
+  },
+  {
+    slug: "ultraljud-eller-evaporativ-luftfuktare",
+    title: "Ultraljud eller evaporativ luftfuktare?",
+    shortTitle: "Ultraljud eller evaporativ luftfuktare?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/ultraljud-eller-evaporativ-luftfuktare",
+    description: "Två tekniker med olika vardagskänsla, skötsel och synlighet.",
+    productSlugs: [
+      "levoit-luftfuktare",
+      "beurer-lb200-luftfuktare",
+    ],
+    badges: [
+      "Typguide",
+      "Luftfuktare",
+      "Klimat",
+    ],
+  },
+  {
+    slug: "luftrenare-guide",
+    title: "Luftrenare: Levoit eller Philips?",
+    shortTitle: "Luftrenare: Levoit eller Philips?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/luftrenare-guide",
+    description: "Levoit Core 200S mot Philips 600: smartare appval eller kompakt märkesval.",
+    productSlugs: [
+      "levoit-core-200s-luftrenare",
+      "philips-600-luftrenare",
+    ],
+    badges: [
+      "Luftrenare",
+      "Levoit",
+      "Philips",
+    ],
+  },
+  {
+    slug: "levoit-eller-philips-luftrenare",
+    title: "Levoit eller Philips luftrenare?",
+    shortTitle: "Levoit eller Philips luftrenare?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/levoit-eller-philips-luftrenare",
+    description: "Smart luftrenare mot kompakt luftrenare, utan stora hälsolöften.",
+    productSlugs: [
+      "levoit-core-200s-luftrenare",
+      "philips-600-luftrenare",
+    ],
+    badges: [
+      "Luftrenare",
+      "Filter",
+      "Kompakt",
+    ],
+  },
+  {
+    slug: "tyngdtacke-guide",
+    title: "Tyngdtäcke: Ella eller Good Nite?",
+    shortTitle: "Tyngdtäcke: Ella eller Good Nite?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/tyngdtacke-guide",
+    description: "Två vuxenval där vikt, värmekänsla och tvättråd betyder mer än stora löften.",
+    productSlugs: [
+      "ella-tyngdtacke",
+      "good-nite-tyngdtacke",
+    ],
+    badges: [
+      "Tyngdtäcke",
+      "Vuxen",
+      "Sömnmiljö",
+    ],
+  },
+  {
+    slug: "ella-eller-good-nite-tyngdtacke",
+    title: "Ella eller Good Nite tyngdtäcke?",
+    shortTitle: "Ella eller Good Nite tyngdtäcke?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/ella-eller-good-nite-tyngdtacke",
+    description: "Två tyngdtäcken för vuxna, jämförda på känsla, vikt och caveats.",
+    productSlugs: [
+      "ella-tyngdtacke",
+      "good-nite-tyngdtacke",
+    ],
+    badges: [
+      "Tyngdtäcke",
+      "Vuxen",
+      "Jämförelse",
+    ],
+  },
+  {
+    slug: "varmeflakt-eller-oljefyllt-element",
+    title: "Värmefläkt eller oljefyllt element?",
+    shortTitle: "Värmefläkt eller oljefyllt element?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/varmeflakt-eller-oljefyllt-element",
+    description: "Snabb punktvärme mot tystare långtidsvärme.",
+    productSlugs: [
+      "emerio-varmeflakt",
+      "delonghi-oljefyllt-element",
+    ],
+    badges: [
+      "Värme",
+      "Vinter",
+      "Typval",
+    ],
+  },
+  {
+    slug: "elfilt-eller-varmedyna",
+    title: "Elfilt eller värmedyna?",
+    shortTitle: "Elfilt eller värmedyna?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/elfilt-eller-varmedyna",
+    description: "Stor soffvärme mot mindre riktad värme.",
+    productSlugs: [
+      "beurer-hd75-elfilt",
+      "beurer-varmedyna",
+    ],
+    badges: [
+      "Värme",
+      "Soffa",
+      "Mys",
+    ],
+  },
 ];
 
 export const waveCategoryProductGroups: Partial<Record<ProductCategorySlug, CategoryProductGroup[]>> = {
@@ -1035,6 +2523,35 @@ export const waveCategoryProductGroups: Partial<Record<ProductCategorySlug, Cate
       title: "Fläkt",
       productSlugs: [
         "midea-golvflakt",
+      ],
+    },
+    {
+      title: "Mörka morgnar",
+      productSlugs: [
+        "beurer-tl35-dagsljuslampa",
+        "beurer-tl30-dagsljuslampa",
+      ],
+    },
+    {
+      title: "Värme",
+      productSlugs: [
+        "beurer-hd75-elfilt",
+        "emerio-varmeflakt",
+        "delonghi-oljefyllt-element",
+        "beurer-fw20-fotvarmare",
+      ],
+    },
+    {
+      title: "Klimat",
+      productSlugs: [
+        "beurer-lb200-luftfuktare",
+        "philips-600-luftrenare",
+      ],
+    },
+    {
+      title: "Sömn & avkoppling",
+      productSlugs: [
+        "good-nite-tyngdtacke",
       ],
     },
   ],
