@@ -95,3 +95,42 @@ Decisions:
 - Scored documented caveat products lower, including Beurer FW20 in Helt okej territory.
 
 Skipped items: none.
+
+## Wave 2 / Batch 2 - munvard, fotvard and Bio-Oil
+
+Routes added:
+- `/halsa/eltandborste/sonicare-5300`
+- `/halsa/eltandborste/oralb-io6`
+- `/halsa/munskoljare/philips-3000`
+- `/halsa/munskoljare/surfou`
+- `/skonhet/fotbad/beurer-fb35`
+- `/skonhet/fotbad/deanic`
+- `/skonhet/bio-oil`
+- `/halsa/eltandborste-guide`
+- `/halsa/oral-b-eller-sonicare`
+- `/halsa/oralb-io6-vart-priset`
+- `/halsa/munskoljare`
+- `/halsa/billig-eller-dyr-water-flosser`
+- `/skonhet/fotbad`
+- `/skonhet/elektriskt-eller-enkelt-fotbad`
+- `/skonhet/skona-fotter-i-vinter`
+- `/skonhet/bio-oil-eller-jojobaolja`
+
+Verification:
+- `npm run lint`: pass
+- `npm run typecheck`: pass
+- `npm run build`: pass
+- HTTP 200: pass for all 16 routes
+- 390px overflow: pass for all 16 routes (`scrollWidth=390`, `clientWidth=390`)
+- Mojibake grep `rg "Ã" lib app components`: clean
+- Banned medical-claim scan over generated wave files: clean
+- Affiliate links: exact match against `INTAKE-STATUS.md`
+
+Decisions:
+- Used `/halsa/eltandborste-guide` for the new eltandborste guide because `/halsa/eltandborste` already exists as a single-product route.
+- Added exact attributed buyer-signal rows for the Oral-B/Sonicare guide from the reference files, without turning those into Elins own claims.
+- Kept munvard copy to features, buyer signals and borsthuvudsekonomi; no gum-health or disease claims.
+- Kept FB35 caveat explicit: it holds warmth rather than heating cold water.
+- Kept Bio-Oil cosmetic only; no scar, stretch-mark or pregnancy advice.
+
+Skipped items: none.

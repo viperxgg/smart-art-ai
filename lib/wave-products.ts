@@ -1570,6 +1570,692 @@ export const beurerFw20FotvarmareProduct: Product = {
   comments: [],
 };
 
+export const philipsSonicare5300Product: Product = {
+  slug: "philips-sonicare-5300",
+  title: "Philips Sonicare 5300",
+  category: "halsa",
+  asin: "B0DCGK4MT7",
+  brand: "Philips",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Sonicare",
+    "Trycksensor",
+    "Resefodral",
+  ],
+  image: "/products/philips-sonicare-5300/philips-sonicare-5300-thumbnail.webp",
+  imageAlt: "Philips Sonicare 5300",
+  images: [
+    {
+      src: "/products/philips-sonicare-5300/philips-sonicare-5300-thumbnail.webp",
+      alt: "Philips Sonicare 5300",
+      label: "Produkt",
+    },
+    {
+      src: "/products/philips-sonicare-5300/philips-sonicare-5300-1.webp",
+      alt: "Philips Sonicare 5300 i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/philips-sonicare-5300/philips-sonicare-5300-2.webp",
+      alt: "Philips Sonicare 5300 med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4ff7Q5B",
+  pageHref: "/halsa/eltandborste/sonicare-5300",
+  summary: "En Sonicare-borste för dig som föredrar slank känsla, tydliga lägen och ett mer mjukt borstsätt.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Philips Sonicare 5300 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Starkt Sonicare-val med bra funktionsnivå.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En Sonicare-borste för dig som föredrar slank känsla, tydliga lägen och ett mer mjukt borstsätt.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Munvård är individuell. Här bedöms funktioner, borsthuvudsekonomi och köparsignaler, inte tandhälsolöften.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Munvård",
+  specSectionTitle: "Philips Sonicare 5300",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Munvård",
+      value: "Eltandborste",
+    },
+    {
+      label: "System",
+      caption: "Munvård",
+      value: "Sonicare",
+    },
+    {
+      label: "Ekonomi",
+      caption: "Munvård",
+      value: "Kontrollera borsthuvuden",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4ff7Q5B",
+    ratingSummary: "Amazon visar 4.4 av 5 (2 879).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Philips Sonicare 5300 är valt för sonicare och trycksensor.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Munvård är individuell. Här bedöms funktioner, borsthuvudsekonomi och köparsignaler, inte tandhälsolöften.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En Sonicare-borste för dig som föredrar slank känsla, tydliga lägen och ett mer mjukt borstsätt.",
+    "Passar dig som söker munvård med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Sonicare, Trycksensor, Resefodral",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Munvård är individuell. Här bedöms funktioner, borsthuvudsekonomi och köparsignaler, inte tandhälsolöften.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const oralbIo6Product: Product = {
+  slug: "oralb-io6",
+  title: "Oral-B iO Series 6",
+  category: "halsa",
+  asin: "B0B4SGMNZT",
+  brand: "Oral-B",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "premium",
+  badges: [
+    "iO-system",
+    "Display",
+    "Premiumkänsla",
+  ],
+  image: "/products/oralb-io6/oralb-io6-thumbnail.webp",
+  imageAlt: "Oral-B iO Series 6",
+  images: [
+    {
+      src: "/products/oralb-io6/oralb-io6-thumbnail.webp",
+      alt: "Oral-B iO Series 6",
+      label: "Produkt",
+    },
+    {
+      src: "/products/oralb-io6/oralb-io6-1.webp",
+      alt: "Oral-B iO Series 6 i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/oralb-io6/oralb-io6-2.webp",
+      alt: "Oral-B iO Series 6 med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4f0fGPv",
+  pageHref: "/halsa/eltandborste/oralb-io6",
+  summary: "En mer påkostad Oral-B-borste för dig som vill ha iO-känsla, display och tydlig feedback.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Oral-B iO Series 6 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Fin borste, men borsthuvudsekonomin gör valet mindre självklart.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En mer påkostad Oral-B-borste för dig som vill ha iO-känsla, display och tydlig feedback.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "iO-borsthuvuden kostar mer än enklare Oral-B-huvuden. Räkna på förbrukningen, inte bara själva borsten.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Munvård",
+  specSectionTitle: "Oral-B iO Series 6",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Munvård",
+      value: "Eltandborste",
+    },
+    {
+      label: "System",
+      caption: "Munvård",
+      value: "Oral-B iO",
+    },
+    {
+      label: "Kompromiss",
+      caption: "Munvård",
+      value: "Dyrare borsthuvuden",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4f0fGPv",
+    ratingSummary: "Amazon visar 4.4 av 5 (378).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Oral-B iO Series 6 är valt för io-system och display.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "iO-borsthuvuden kostar mer än enklare Oral-B-huvuden. Räkna på förbrukningen, inte bara själva borsten.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En mer påkostad Oral-B-borste för dig som vill ha iO-känsla, display och tydlig feedback.",
+    "Passar dig som söker munvård med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "iO-system, Display, Premiumkänsla",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "iO-borsthuvuden kostar mer än enklare Oral-B-huvuden. Räkna på förbrukningen, inte bara själva borsten.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const philipsPowerFlosserProduct: Product = {
+  slug: "philips-power-flosser",
+  title: "Philips Power Flosser 3000",
+  category: "halsa",
+  asin: "B0CDB2TS8M",
+  brand: "Philips",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Vattenflosser",
+    "Philips",
+    "Bänkenhet",
+  ],
+  image: "/products/philips-power-flosser/philips-power-flosser-thumbnail.webp",
+  imageAlt: "Philips Power Flosser 3000",
+  images: [
+    {
+      src: "/products/philips-power-flosser/philips-power-flosser-thumbnail.webp",
+      alt: "Philips Power Flosser 3000",
+      label: "Produkt",
+    },
+    {
+      src: "/products/philips-power-flosser/philips-power-flosser-1.webp",
+      alt: "Philips Power Flosser 3000 i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/philips-power-flosser/philips-power-flosser-2.webp",
+      alt: "Philips Power Flosser 3000 med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4wpZHBl",
+  pageHref: "/halsa/munskoljare/philips-3000",
+  summary: "En stationär water flosser för dig som vill ha mer vattentank och stabil känsla vid handfatet.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Philips Power Flosser 3000 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Stabilt premiumval för dig som har plats vid handfatet.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En stationär water flosser för dig som vill ha mer vattentank och stabil känsla vid handfatet.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Den tar plats på badrumshyllan och ersätter inte vanliga råd från tandvården. Fokus här är funktion och vardagskänsla.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Munvård",
+  specSectionTitle: "Philips Power Flosser 3000",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Munvård",
+      value: "Water flosser",
+    },
+    {
+      label: "Format",
+      caption: "Munvård",
+      value: "Bänkenhet",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Munvård",
+      value: "Stabil hemmarutin",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4wpZHBl",
+    ratingSummary: "Amazon visar 4.4 av 5 (2 360).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Philips Power Flosser 3000 är valt för vattenflosser och philips.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Den tar plats på badrumshyllan och ersätter inte vanliga råd från tandvården. Fokus här är funktion och vardagskänsla.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En stationär water flosser för dig som vill ha mer vattentank och stabil känsla vid handfatet.",
+    "Passar dig som söker munvård med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Vattenflosser, Philips, Bänkenhet",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Den tar plats på badrumshyllan och ersätter inte vanliga råd från tandvården. Fokus här är funktion och vardagskänsla.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const surfouWaterFlosserProduct: Product = {
+  slug: "surfou-water-flosser",
+  title: "SURFOU water flosser",
+  category: "halsa",
+  asin: "B0BZ85SJ26",
+  brand: "SURFOU",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Portabel",
+    "Budget",
+    "Vattentank",
+  ],
+  image: "/products/surfou-water-flosser/surfou-water-flosser-thumbnail.webp",
+  imageAlt: "SURFOU water flosser",
+  images: [
+    {
+      src: "/products/surfou-water-flosser/surfou-water-flosser-thumbnail.webp",
+      alt: "SURFOU water flosser",
+      label: "Produkt",
+    },
+    {
+      src: "/products/surfou-water-flosser/surfou-water-flosser-1.webp",
+      alt: "SURFOU water flosser i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/surfou-water-flosser/surfou-water-flosser-2.webp",
+      alt: "SURFOU water flosser med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vTmbuk",
+  pageHref: "/halsa/munskoljare/surfou",
+  summary: "En billigare portabel water flosser för dig som vill testa kategorin utan stationär bänkenhet.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom SURFOU water flosser utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Helt okej budgettest, men inte lika stabil som bänkenhet.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En billigare portabel water flosser för dig som vill testa kategorin utan stationär bänkenhet.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Budgetformatet innebär mindre tank och enklare känsla. Välj Philips om du vill ha mer stabilitet hemma.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Munvård",
+  specSectionTitle: "SURFOU water flosser",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Munvård",
+      value: "Water flosser",
+    },
+    {
+      label: "Format",
+      caption: "Munvård",
+      value: "Portabel",
+    },
+    {
+      label: "Kompromiss",
+      caption: "Munvård",
+      value: "Mindre tank",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vTmbuk",
+    ratingSummary: "Amazon visar 4.1 av 5 (1 909).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "SURFOU water flosser är valt för portabel och budget.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Budgetformatet innebär mindre tank och enklare känsla. Välj Philips om du vill ha mer stabilitet hemma.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En billigare portabel water flosser för dig som vill testa kategorin utan stationär bänkenhet.",
+    "Passar dig som söker munvård med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Portabel, Budget, Vattentank",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Budgetformatet innebär mindre tank och enklare känsla. Välj Philips om du vill ha mer stabilitet hemma.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const beurerFb35FotbadProduct: Product = {
+  slug: "beurer-fb35-fotbad",
+  title: "Beurer FB35 fotbad",
+  category: "skonhet",
+  asin: "B00NSW2SV6",
+  brand: "Beurer",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Fotbad",
+    "Massagekänsla",
+    "Beurer",
+  ],
+  image: "/products/beurer-fb35-fotbad/beurer-fb35-fotbad-thumbnail.webp",
+  imageAlt: "Beurer FB35 fotbad",
+  images: [
+    {
+      src: "/products/beurer-fb35-fotbad/beurer-fb35-fotbad-thumbnail.webp",
+      alt: "Beurer FB35 fotbad",
+      label: "Produkt",
+    },
+    {
+      src: "/products/beurer-fb35-fotbad/beurer-fb35-fotbad-1.webp",
+      alt: "Beurer FB35 fotbad i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/beurer-fb35-fotbad/beurer-fb35-fotbad-2.webp",
+      alt: "Beurer FB35 fotbad med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4y24VVe",
+  pageHref: "/skonhet/fotbad/beurer-fb35",
+  summary: "Ett elektriskt fotbad för vinterrutinen när du vill ha bubblor, vibration och varmhållning i samma balja.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Beurer FB35 fotbad utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Bra om du förstår varmhållningen, svagare om du förväntar dig uppvärmning från kallt.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "Ett elektriskt fotbad för vinterrutinen när du vill ha bubblor, vibration och varmhållning i samma balja.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Viktig caveat: det värmer inte upp kallt vatten, utan håller främst värmen. Börja med lagom varmt vatten.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Fötter",
+  specSectionTitle: "Beurer FB35 fotbad",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Fötter",
+      value: "Elektriskt fotbad",
+    },
+    {
+      label: "Värme",
+      caption: "Fötter",
+      value: "Varmhållning",
+    },
+    {
+      label: "Caveat",
+      caption: "Fötter",
+      value: "Värmer inte kallt vatten",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4y24VVe",
+    ratingSummary: "Amazon visar 4.2 av 5 (3 570).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Beurer FB35 fotbad är valt för fotbad och massagekänsla.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Viktig caveat: det värmer inte upp kallt vatten, utan håller främst värmen. Börja med lagom varmt vatten.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Ett elektriskt fotbad för vinterrutinen när du vill ha bubblor, vibration och varmhållning i samma balja.",
+    "Passar dig som söker fötter med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Fotbad, Massagekänsla, Beurer",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Viktig caveat: det värmer inte upp kallt vatten, utan håller främst värmen. Börja med lagom varmt vatten.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const deanicFotbadProduct: Product = {
+  slug: "deanic-fotbad",
+  title: "DEANIC hopfällbart fotbad",
+  category: "skonhet",
+  asin: "B0BM8R9G2R",
+  brand: "DEANIC",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Hopfällbart",
+    "Enkelt",
+    "Tar liten plats",
+  ],
+  image: "/products/deanic-fotbad/deanic-fotbad-thumbnail.webp",
+  imageAlt: "DEANIC hopfällbart fotbad",
+  images: [
+    {
+      src: "/products/deanic-fotbad/deanic-fotbad-thumbnail.webp",
+      alt: "DEANIC hopfällbart fotbad",
+      label: "Produkt",
+    },
+    {
+      src: "/products/deanic-fotbad/deanic-fotbad-1.webp",
+      alt: "DEANIC hopfällbart fotbad i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/deanic-fotbad/deanic-fotbad-2.webp",
+      alt: "DEANIC hopfällbart fotbad med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vdgYwh",
+  pageHref: "/skonhet/fotbad/deanic",
+  summary: "Ett enkelt hopfällbart fotbad för dig som vill spara plats och inte behöver elfunktioner.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom DEANIC hopfällbart fotbad utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Prisvärt och platsbesparande när enkelhet är poängen.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "Ett enkelt hopfällbart fotbad för dig som vill spara plats och inte behöver elfunktioner.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Det är en smart balja snarare än ett elektriskt spa. Komforten beror på vattnet du fyller i och hur du använder den.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Fötter",
+  specSectionTitle: "DEANIC hopfällbart fotbad",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Fötter",
+      value: "Hopfällbart fotbad",
+    },
+    {
+      label: "El",
+      caption: "Fötter",
+      value: "Ingen elfunktion",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Fötter",
+      value: "Platsbrist",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vdgYwh",
+    ratingSummary: "Amazon visar 4.4 av 5 (432).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "DEANIC hopfällbart fotbad är valt för hopfällbart och enkelt.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Det är en smart balja snarare än ett elektriskt spa. Komforten beror på vattnet du fyller i och hur du använder den.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Ett enkelt hopfällbart fotbad för dig som vill spara plats och inte behöver elfunktioner.",
+    "Passar dig som söker fötter med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Hopfällbart, Enkelt, Tar liten plats",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Det är en smart balja snarare än ett elektriskt spa. Komforten beror på vattnet du fyller i och hur du använder den.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const bioOilProduct: Product = {
+  slug: "bio-oil",
+  title: "Bio-Oil hudvårdsolja",
+  category: "skonhet",
+  asin: "B004AI97MA",
+  brand: "Bio-Oil",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Kroppsolja",
+    "Klassiker",
+    "Parfymerad",
+  ],
+  image: "/products/bio-oil/bio-oil-thumbnail.webp",
+  imageAlt: "Bio-Oil hudvårdsolja",
+  images: [
+    {
+      src: "/products/bio-oil/bio-oil-thumbnail.webp",
+      alt: "Bio-Oil hudvårdsolja",
+      label: "Produkt",
+    },
+    {
+      src: "/products/bio-oil/bio-oil-1.webp",
+      alt: "Bio-Oil hudvårdsolja i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/bio-oil/bio-oil-2.webp",
+      alt: "Bio-Oil hudvårdsolja med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4ffsbYA",
+  pageHref: "/skonhet/bio-oil",
+  summary: "En parfymerad klassiker för mjukare hudkänsla och glow på kroppen.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Bio-Oil hudvårdsolja utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Stark klassiker för kroppsglow, men jojoba är renare och mer neutral.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En parfymerad klassiker för mjukare hudkänsla och glow på kroppen.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Håll förväntningarna kosmetiska. Doft och oljig finish passar inte alla, särskilt om du vill ha en helt ren olja.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Hudvård",
+  specSectionTitle: "Bio-Oil hudvårdsolja",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Hudvård",
+      value: "Kroppsolja",
+    },
+    {
+      label: "Doft",
+      caption: "Hudvård",
+      value: "Parfymerad",
+    },
+    {
+      label: "Känsla",
+      caption: "Hudvård",
+      value: "Mjukare hudkänsla",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4ffsbYA",
+    ratingSummary: "Amazon visar 4.6 av 5 (65 241 betyg.",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Bio-Oil hudvårdsolja är valt för kroppsolja och klassiker.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Håll förväntningarna kosmetiska. Doft och oljig finish passar inte alla, särskilt om du vill ha en helt ren olja.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En parfymerad klassiker för mjukare hudkänsla och glow på kroppen.",
+    "Passar dig som söker hudvård med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Kroppsolja, Klassiker, Parfymerad",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Håll förväntningarna kosmetiska. Doft och oljig finish passar inte alla, särskilt om du vill ha en helt ren olja.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
 export const waveProducts: Product[] = [
   sportconicLopbandProduct,
   citysportsGabandProduct,
@@ -1587,6 +2273,13 @@ export const waveProducts: Product[] = [
   philips600LuftrenareProduct,
   goodNiteTyngdtackeProduct,
   beurerFw20FotvarmareProduct,
+  philipsSonicare5300Product,
+  oralbIo6Product,
+  philipsPowerFlosserProduct,
+  surfouWaterFlosserProduct,
+  beurerFb35FotbadProduct,
+  deanicFotbadProduct,
+  bioOilProduct,
 ];
 
 export const waveEditorialScores: Record<string, EditorialScore> = {
@@ -1717,5 +2410,61 @@ export const waveEditorialScores: Record<string, EditorialScore> = {
     proven: 10,
     total: 66,
     verdict: "Helt okej för frusna fötter, men tunt lager och säljare håller nere poängen.",
+  },
+  "philips-sonicare-5300": {
+    value: 25,
+    performance: 24,
+    promise: 21,
+    proven: 13,
+    total: 83,
+    verdict: "Starkt Sonicare-val med bra funktionsnivå.",
+  },
+  "oralb-io6": {
+    value: 23,
+    performance: 23,
+    promise: 20,
+    proven: 12,
+    total: 78,
+    verdict: "Fin borste, men borsthuvudsekonomin gör valet mindre självklart.",
+  },
+  "philips-power-flosser": {
+    value: 24,
+    performance: 23,
+    promise: 20,
+    proven: 14,
+    total: 81,
+    verdict: "Stabilt premiumval för dig som har plats vid handfatet.",
+  },
+  "surfou-water-flosser": {
+    value: 22,
+    performance: 21,
+    promise: 18,
+    proven: 12,
+    total: 73,
+    verdict: "Helt okej budgettest, men inte lika stabil som bänkenhet.",
+  },
+  "beurer-fb35-fotbad": {
+    value: 23,
+    performance: 22,
+    promise: 19,
+    proven: 12,
+    total: 76,
+    verdict: "Bra om du förstår varmhållningen, svagare om du förväntar dig uppvärmning från kallt.",
+  },
+  "deanic-fotbad": {
+    value: 24,
+    performance: 23,
+    promise: 20,
+    proven: 13,
+    total: 80,
+    verdict: "Prisvärt och platsbesparande när enkelhet är poängen.",
+  },
+  "bio-oil": {
+    value: 25,
+    performance: 24,
+    promise: 21,
+    proven: 12,
+    total: 82,
+    verdict: "Stark klassiker för kroppsglow, men jojoba är renare och mer neutral.",
   },
 };
