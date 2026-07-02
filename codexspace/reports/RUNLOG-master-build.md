@@ -30,3 +30,27 @@ Decisions:
 - Registered the retinol/bakuchiol comparison with three products by widening comparison index product slugs from a strict pair to a product list.
 
 Skipped items: none.
+
+## Wave 1 / Batch 2 - saltvattenspray and golvfläkt
+
+Routes added:
+- `/skonhet/saltvattenspray`
+- `/halsa/flakt/midea-golvflakt`
+- `/skonhet/saltvattenspray-eller-texturspray`
+- `/halsa/golvflakt-eller-tornflakt`
+
+Verification:
+- `npm run lint`: pass
+- `npm run typecheck`: pass
+- `npm run build`: pass
+- HTTP 200: pass for all 4 routes
+- 390px overflow: pass for all 4 routes (`scrollWidth=390`, `clientWidth=390`)
+- Mojibake grep `rg "Ã" lib app components`: clean
+- Affiliate links: exact match against `INTAKE-STATUS.md`
+
+Decisions:
+- Kept saltvattenspray positioned for beach texture, with curl-routine caveat and links toward curl alternatives.
+- Placed Midea golvfläkt under existing `/halsa/flakt/...` structure rather than introducing a separate fläkt section.
+- Did not add the skipped portabel AC item.
+
+Skipped items: none.

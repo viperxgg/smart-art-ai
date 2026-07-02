@@ -492,12 +492,210 @@ export const physiciansFormulaBronzerProduct: Product = {
   comments: [],
 };
 
+export const jeanLenSaltvattensprayProduct: Product = {
+  slug: "jean-len-saltvattenspray",
+  title: "Jean & Len saltvattenspray",
+  category: "skonhet",
+  asin: "B0FNMRFJLZ",
+  brand: "Jean & Len",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Beach waves",
+    "Vegan",
+    "Budget",
+  ],
+  image: "/products/jean-len-saltvattenspray/jean-len-saltvattenspray-thumbnail.webp",
+  imageAlt: "Jean & Len saltvattenspray",
+  images: [
+    {
+      src: "/products/jean-len-saltvattenspray/jean-len-saltvattenspray-thumbnail.webp",
+      alt: "Jean & Len saltvattenspray",
+      label: "Produkt",
+    },
+    {
+      src: "/products/jean-len-saltvattenspray/jean-len-saltvattenspray-1.webp",
+      alt: "Jean & Len saltvattenspray i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/jean-len-saltvattenspray/jean-len-saltvattenspray-2.webp",
+      alt: "Jean & Len saltvattenspray med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4bjY1ks",
+  pageHref: "/skonhet/saltvattenspray",
+  summary: "En enkel saltvattenspray för strävare textur och beach waves-känsla utan salongspris.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Jean & Len saltvattenspray utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Prisvärd för beach texture, svagare för lockdefinition.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En enkel saltvattenspray för strävare textur och beach waves-känsla utan salongspris.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Inte rätt val för definierade lockar. Referensen beskriver en pudrig känsla som kan störa lockrutiner.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Hårvård",
+  specSectionTitle: "Jean & Len saltvattenspray",
+  specs: [
+    {
+      label: "Format",
+      caption: "Hårvård",
+      value: "Spray",
+    },
+    {
+      label: "Känsla",
+      caption: "Hårvård",
+      value: "Sträv textur",
+    },
+    {
+      label: "Passar bäst",
+      caption: "Hårvård",
+      value: "Beach waves och lätt stadga",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4bjY1ks",
+    ratingSummary: "Amazon visar 4.3 av 5 (133 betyg).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Jean & Len saltvattenspray är valt för beach waves och vegan.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Inte rätt val för definierade lockar. Referensen beskriver en pudrig känsla som kan störa lockrutiner.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En enkel saltvattenspray för strävare textur och beach waves-känsla utan salongspris.",
+    "Passar dig som söker hårvård med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "Beach waves, Vegan, Budget",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Inte rätt val för definierade lockar. Referensen beskriver en pudrig känsla som kan störa lockrutiner.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
+export const mideaGolvflaktProduct: Product = {
+  slug: "midea-golvflakt",
+  title: "Midea MFS400 golvfläkt",
+  category: "halsa",
+  asin: "B0CPSPXN9W",
+  brand: "Midea",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "DC-motor",
+    "Fjärrkontroll",
+    "8h timer",
+  ],
+  image: "/products/midea-golvflakt/midea-golvflakt-thumbnail.webp",
+  imageAlt: "Midea MFS400 golvfläkt",
+  images: [
+    {
+      src: "/products/midea-golvflakt/midea-golvflakt-thumbnail.webp",
+      alt: "Midea MFS400 golvfläkt",
+      label: "Produkt",
+    },
+    {
+      src: "/products/midea-golvflakt/midea-golvflakt-1.webp",
+      alt: "Midea MFS400 golvfläkt i produktgalleri",
+      label: "Detalj",
+    },
+    {
+      src: "/products/midea-golvflakt/midea-golvflakt-2.webp",
+      alt: "Midea MFS400 golvfläkt med funktioner från Amazon-bilder",
+      label: "Funktion",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4vHHoYa",
+  pageHref: "/halsa/flakt/midea-golvflakt",
+  summary: "En tystare golvfläkt med fjärrkontroll och timer för dig som vill ha mer luft än en liten bordsfläkt.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Midea MFS400 golvfläkt utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    verdict: "Starkt fläktval när luftflöde och låg ljudnivå prioriteras.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "En tystare golvfläkt med fjärrkontroll och timer för dig som vill ha mer luft än en liten bordsfläkt.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Golvformatet tar mer plats än en tornfläkt. dB-uppgifter behandlas som köpar- och säljarinformation, inte som egen mätning.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Fläkt",
+  specSectionTitle: "Midea MFS400 golvfläkt",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Fläkt",
+      value: "Golvfläkt",
+    },
+    {
+      label: "Motor",
+      caption: "Fläkt",
+      value: "DC",
+    },
+    {
+      label: "Styrning",
+      caption: "Fläkt",
+      value: "Fjärrkontroll och timer",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4vHHoYa",
+    ratingSummary: "Amazon visar 4.5 av 5 (658 betyg).",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Midea MFS400 golvfläkt är valt för dc-motor och fjärrkontroll.",
+      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+    ],
+    cautions: [
+      "Golvformatet tar mer plats än en tornfläkt. dB-uppgifter behandlas som köpar- och säljarinformation, inte som egen mätning.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "En tystare golvfläkt med fjärrkontroll och timer för dig som vill ha mer luft än en liten bordsfläkt.",
+    "Passar dig som söker fläkt med tydlig kompromiss innan köp.",
+  ],
+  peopleLike: [
+    "DC-motor, Fjärrkontroll, 8h timer",
+    "Tydligare val när du jämför mot alternativen i samma guide.",
+  ],
+  honestCheck: [
+    "Golvformatet tar mer plats än en tornfläkt. dB-uppgifter behandlas som köpar- och säljarinformation, inte som egen mätning.",
+    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
+  ],
+  comments: [],
+};
+
 export const waveProducts: Product[] = [
   sportconicLopbandProduct,
   citysportsGabandProduct,
   inkeyRetinolSerumProduct,
   ceraveResurfacingRetinolProduct,
   physiciansFormulaBronzerProduct,
+  jeanLenSaltvattensprayProduct,
+  mideaGolvflaktProduct,
 ];
 
 export const waveEditorialScores: Record<string, EditorialScore> = {
@@ -540,5 +738,21 @@ export const waveEditorialScores: Record<string, EditorialScore> = {
     proven: 14,
     total: 81,
     verdict: "Fin glow-bronzer om nyansen stämmer, men inte ett säkert val för den ljusaste huden.",
+  },
+  "jean-len-saltvattenspray": {
+    value: 24,
+    performance: 23,
+    promise: 20,
+    proven: 12,
+    total: 79,
+    verdict: "Prisvärd för beach texture, svagare för lockdefinition.",
+  },
+  "midea-golvflakt": {
+    value: 25,
+    performance: 24,
+    promise: 21,
+    proven: 13,
+    total: 83,
+    verdict: "Starkt fläktval när luftflöde och låg ljudnivå prioriteras.",
   },
 };

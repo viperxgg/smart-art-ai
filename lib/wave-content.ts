@@ -334,6 +334,132 @@ export const waveProductPicks: SommarPick[] = [
       },
     ],
   },
+  {
+    productSlug: "jean-len-saltvattenspray",
+    product: productBySlug("jean-len-saltvattenspray"),
+    href: "/skonhet/saltvattenspray",
+    cardBadge: "Beach waves",
+    cardHook: "En enkel saltvattenspray för strävare textur och beach waves-känsla utan salongspris.",
+    cardImage: "/products/jean-len-saltvattenspray/jean-len-saltvattenspray-thumbnail.webp",
+    cardImageAlt: "Jean & Len saltvattenspray",
+    badge: "Elins budgetval",
+    headline: "Jean & Len saltvattenspray",
+    shortBody: "En enkel saltvattenspray för strävare textur och beach waves-känsla utan salongspris.",
+    valueHook: "Beach waves · Vegan · Budget",
+    valueStatement: "En enkel saltvattenspray för strävare textur och beach waves-känsla utan salongspris. Inte rätt val för definierade lockar. Referensen beskriver en pudrig känsla som kan störa lockrutiner.",
+    passFor: [
+      "Vill ha hårvård utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Inte rätt val för definierade lockar. Referensen beskriver en pudrig känsla som kan störa lockrutiner.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Prisvärd för beach texture, svagare för lockdefinition.",
+    amazonSummary: "Amazon visar 4.3 av 5 (133 betyg).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Jean & Len saltvattenspray värd att köpa?",
+        answer: "Prisvärd för beach texture, svagare för lockdefinition.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "jean-len-saltvattenspray-recensioner",
+    reviewFormId: "jean-len-saltvattenspray-skriv-recension",
+    targetKeyword: "jean & len saltvattenspray",
+    metaTitle: "Jean & Len saltvattenspray – Elins ärliga koll | Elins val",
+    metaDescription: "Jean & Len saltvattenspray: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/skonhet/curl-cream",
+        label: "Lockar",
+        text: "För definierade lockar är curl cream ofta bättre.",
+      },
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
+  {
+    productSlug: "midea-golvflakt",
+    product: productBySlug("midea-golvflakt"),
+    href: "/halsa/flakt/midea-golvflakt",
+    cardBadge: "DC-motor",
+    cardHook: "En tystare golvfläkt med fjärrkontroll och timer för dig som vill ha mer luft än en liten bordsfläkt.",
+    cardImage: "/products/midea-golvflakt/midea-golvflakt-thumbnail.webp",
+    cardImageAlt: "Midea MFS400 golvfläkt",
+    badge: "Elins mellanval",
+    headline: "Midea MFS400 golvfläkt",
+    shortBody: "En tystare golvfläkt med fjärrkontroll och timer för dig som vill ha mer luft än en liten bordsfläkt.",
+    valueHook: "DC-motor · Fjärrkontroll · 8h timer",
+    valueStatement: "En tystare golvfläkt med fjärrkontroll och timer för dig som vill ha mer luft än en liten bordsfläkt. Golvformatet tar mer plats än en tornfläkt. dB-uppgifter behandlas som köpar- och säljarinformation, inte som egen mätning.",
+    passFor: [
+      "Vill ha fläkt utan att översäljas.",
+      "Vill se caveaten före Amazon-klicket.",
+      "Vill jämföra mot närliggande alternativ i katalogen.",
+    ],
+    caution: "Golvformatet tar mer plats än en tornfläkt. dB-uppgifter behandlas som köpar- och säljarinformation, inte som egen mätning.",
+    usageGuidance: {
+      title: "Så tänker Elin före köp",
+      text: "Matcha produkten mot behovet, kontrollera variant och säljare på Amazon och välj bort den om caveaten träffar din situation.",
+    },
+    verdict: "Starkt fläktval när luftflöde och låg ljudnivå prioriteras.",
+    amazonSummary: "Amazon visar 4.5 av 5 (658 betyg).",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är Midea MFS400 golvfläkt värd att köpa?",
+        answer: "Starkt fläktval när luftflöde och låg ljudnivå prioriteras.",
+      },
+      {
+        question: "Varför visar ni inget pris?",
+        answer: "Amazon kan ändra pris och lagerstatus. Därför länkar vi till aktuell Amazon-sida i stället för att hårdkoda pris.",
+      },
+      {
+        question: "Har Elin testat produkten själv?",
+        answer: "Nej. Elin curerar och jämför utifrån referensfil, specifikationer, köparsignaler och dokumenterade caveats.",
+      },
+    ],
+    reviewSectionId: "midea-golvflakt-recensioner",
+    reviewFormId: "midea-golvflakt-skriv-recension",
+    targetKeyword: "midea mfs400 golvfläkt",
+    metaTitle: "Midea MFS400 golvfläkt – Elins ärliga koll | Elins val",
+    metaDescription: "Midea MFS400 golvfläkt: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    relatedLinks: [
+      {
+        href: "/halsa/flakt",
+        label: "Fläktguiden",
+        text: "Se fler fläktar i samma kluster.",
+      },
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+  },
 ];
 
 export const waveGuides: WaveGuide[] = [
@@ -626,6 +752,148 @@ export const waveGuides: WaveGuide[] = [
     metaTitle: "Retinol eller bakuchiol? | Elins val",
     metaDescription: "Retinol eller bakuchiol?: Retinol är retinoidspåret. Bakuchiol är det växtbaserade, mildare alternativet utan retinoid. Annons, utan hårdkodade priser.",
   },
+  {
+    id: "saltvattenspray-eller-texturspray",
+    href: "/skonhet/saltvattenspray-eller-texturspray",
+    category: "skonhet",
+    label: "Jämförelse",
+    title: "Saltvattenspray eller texturspray?",
+    intro: "Beach waves-känsla mot mer salongsaktig textur och volym.",
+    badges: [
+      "Hårtextur",
+      "Beach waves",
+      "Volym",
+    ],
+    productSlugs: [
+      "jean-len-saltvattenspray",
+      "maria-nila-texturspray",
+    ],
+    pickBadges: {
+      "jean-len-saltvattenspray": "Beach waves",
+      "maria-nila-texturspray": "Elins val",
+    },
+    choiceTitle: "Välj efter finish",
+    choiceText: "Saltvattenspray ger strävare strandkänsla. Texturspray passar bättre när du vill ha torrare volym och mer stylingfinish.",
+    rows: [
+      {
+        label: "Finish",
+        values: [
+          "Sträv beach texture",
+          "Torr volym och stadga",
+        ],
+      },
+      {
+        label: "Prisbild",
+        values: [
+          "Budget",
+          "Salongsvarumärke",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Inte för definierade lockar",
+          "Svagare underlag och dyrare",
+        ],
+      },
+    ],
+    verdict: "Jean & Len är budgetvalet för beach waves. Maria Nila är mer stylingprodukt för volym.",
+    faqItems: [
+      {
+        question: "Saltvattenspray eller texturspray?",
+        answer: "Saltvattenspray ger strävare strandkänsla. Texturspray passar bättre när du vill ha torrare volym och mer stylingfinish.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/skonhet",
+        label: "Skönhet",
+        text: "Se fler skönhetsval.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Saltvattenspray eller texturspray? | Elins val",
+    metaDescription: "Saltvattenspray eller texturspray?: Beach waves-känsla mot mer salongsaktig textur och volym. Annons, utan hårdkodade priser.",
+  },
+  {
+    id: "golvflakt-eller-tornflakt",
+    href: "/halsa/golvflakt-eller-tornflakt",
+    category: "halsa",
+    label: "Jämförelse",
+    title: "Golvfläkt eller tornfläkt?",
+    intro: "Midea mot Midea: klassiskt luftflöde på fot eller smal tornform.",
+    badges: [
+      "Golvfläkt",
+      "Tornfläkt",
+      "Sovrum",
+    ],
+    productSlugs: [
+      "midea-golvflakt",
+      "midea-fz10-tornflakt",
+    ],
+    pickBadges: {
+      "midea-golvflakt": "DC-motor",
+      "midea-fz10-tornflakt": "Elins val",
+    },
+    choiceTitle: "Typen avgör",
+    choiceText: "Välj golvfläkt för mer riktat luftflöde och klassisk fläktkänsla. Välj tornfläkt om smal placering och diskret format är viktigare.",
+    rows: [
+      {
+        label: "Format",
+        values: [
+          "Rund fläkt på stativ",
+          "Smal tornfläkt",
+        ],
+      },
+      {
+        label: "Styrka",
+        values: [
+          "Mer direkt luft",
+          "Mer diskret spridning",
+        ],
+      },
+      {
+        label: "Caveat",
+        values: [
+          "Tar golvyta",
+          "Mindre klassiskt fläkttryck",
+        ],
+      },
+    ],
+    verdict: "Midea golvfläkt är starkare som nytt val, medan FZ10 fortfarande är smidigare där platsen är trång.",
+    faqItems: [
+      {
+        question: "Tyst fläkt till sovrummet?",
+        answer: "Välj golvfläkt för mer riktat luftflöde och klassisk fläktkänsla. Välj tornfläkt om smal placering och diskret format är viktigare.",
+      },
+      {
+        question: "Varför visar ni inga priser?",
+        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
+      },
+    ],
+    relatedLinks: [
+      {
+        href: "/halsa",
+        label: "Hälsa",
+        text: "Se fler val för hem och vardag.",
+      },
+      {
+        href: "/jamforelser",
+        label: "Jämförelser",
+        text: "Alla Elins jämförelser samlade.",
+      },
+    ],
+    metaTitle: "Golvfläkt eller tornfläkt? | Elins val",
+    metaDescription: "Golvfläkt eller tornfläkt?: Midea mot Midea: klassiskt luftflöde på fot eller smal tornform. Annons, utan hårdkodade priser.",
+  },
 ];
 
 export const waveComparisonEntries: readonly ComparisonEntry[] = [
@@ -702,6 +970,42 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
       "Mildare alternativ",
     ],
   },
+  {
+    slug: "saltvattenspray-eller-texturspray",
+    title: "Saltvattenspray eller texturspray?",
+    shortTitle: "Saltvattenspray eller texturspray?",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/saltvattenspray-eller-texturspray",
+    description: "Beach waves-känsla mot mer salongsaktig textur och volym.",
+    productSlugs: [
+      "jean-len-saltvattenspray",
+      "maria-nila-texturspray",
+    ],
+    badges: [
+      "Hårtextur",
+      "Beach waves",
+      "Volym",
+    ],
+  },
+  {
+    slug: "golvflakt-eller-tornflakt",
+    title: "Golvfläkt eller tornfläkt?",
+    shortTitle: "Golvfläkt eller tornfläkt?",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/golvflakt-eller-tornflakt",
+    description: "Midea mot Midea: klassiskt luftflöde på fot eller smal tornform.",
+    productSlugs: [
+      "midea-golvflakt",
+      "midea-fz10-tornflakt",
+    ],
+    badges: [
+      "Golvfläkt",
+      "Tornfläkt",
+      "Sovrum",
+    ],
+  },
 ];
 
 export const waveCategoryProductGroups: Partial<Record<ProductCategorySlug, CategoryProductGroup[]>> = {
@@ -717,6 +1021,20 @@ export const waveCategoryProductGroups: Partial<Record<ProductCategorySlug, Cate
       title: "Makeup",
       productSlugs: [
         "physicians-formula-bronzer",
+      ],
+    },
+    {
+      title: "Hårvård",
+      productSlugs: [
+        "jean-len-saltvattenspray",
+      ],
+    },
+  ],
+  halsa: [
+    {
+      title: "Fläkt",
+      productSlugs: [
+        "midea-golvflakt",
       ],
     },
   ],
