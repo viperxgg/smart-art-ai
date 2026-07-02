@@ -1,4 +1,5 @@
 import type { ProductCategorySlug } from "@/lib/products";
+import { waveComparisonEntries } from "@/lib/wave-content";
 
 export type ComparisonEntry = {
   slug: string;
@@ -8,11 +9,12 @@ export type ComparisonEntry = {
   categoryLabel: string;
   href: string;
   description: string;
-  productSlugs: [string, string];
+  productSlugs: string[];
   badges: string[];
 };
 
 export const comparisonEntries: readonly ComparisonEntry[] = [
+  ...waveComparisonEntries,
   {
     slug: "traningsband",
     title: "Långa träningsband vs JAKKOFOXX loop-band",

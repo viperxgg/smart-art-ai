@@ -1,3 +1,5 @@
+import { waveProducts } from "@/lib/wave-products";
+
 export type Product = {
   slug: string;
   title: string;
@@ -13970,6 +13972,7 @@ export const gehwolFotpuderProduct: Product = {
 };
 
 export const products = [
+  ...waveProducts,
   gehwolFotpuderProduct,
   braunBikiniTrimmerProduct,
   veetWaxStripsProduct,

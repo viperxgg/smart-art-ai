@@ -1,3 +1,5 @@
+import { waveEditorialScores } from "@/lib/wave-products";
+
 export type EditorialScore = {
   value: number;
   performance: number;
@@ -36,6 +38,7 @@ export function getScoreTier(total: number): ScoreTier {
 }
 
 export const editorialScores: Record<string, EditorialScore> = {
+  ...waveEditorialScores,
   "traningsband-4-nivaer": {
     value: 26,
     performance: 22,

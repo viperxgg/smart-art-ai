@@ -1,4 +1,5 @@
 import { getProductBySlug, type Product, type ProductCategorySlug } from "@/lib/products";
+import { waveCategoryProductGroups } from "@/lib/wave-content";
 
 export type CategoryProductGroup = {
   title: string;
@@ -258,7 +259,10 @@ export const categoryProductGroups = {
 } satisfies Record<ProductCategorySlug, CategoryProductGroup[]>;
 
 export function getCategoryProductGroups(categorySlug: ProductCategorySlug) {
-  return categoryProductGroups[categorySlug].map((group) => ({
+  return [
+    ...categoryProductGroups[categorySlug],
+    ...(waveCategoryProductGroups[categorySlug] ?? []),
+  ].map((group) => ({
     ...group,
     products: group.productSlugs
       .map((slug) => getProductBySlug(slug))
