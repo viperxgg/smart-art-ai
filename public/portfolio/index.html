@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Azzam Khalaf – Utvalda projekt</title>
+    <meta name="description" content="Utvalda webbprojekt av Azzam Khalaf – webbutvecklare & digital kreatör. Bokningssystem, QR-beställning, AI-rådgivare och mer." />
+    <meta name="robots" content="noindex" />
+    <meta property="og:title" content="Azzam Khalaf – Utvalda projekt" />
+    <meta property="og:description" content="Webbutvecklare & digital kreatör. Se live-projekt och projektblad." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.smartartai.se/portfolio/" />
+    <style>
+      :root {
+        --ink: #1c2734;
+        --muted: #5b6774;
+        --line: #e2e7ee;
+        --accent: #1f3f73;
+        --accent-soft: #eaf0f8;
+        --paper: #ffffff;
+        --bg: #f4f6f9;
+      }
+
+      * { box-sizing: border-box; margin: 0; }
+
+      body {
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .wrap {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 40px 22px 56px;
+      }
+
+      /* ---------- Header ---------- */
+      header {
+        padding-bottom: 26px;
+        border-bottom: 2px solid var(--accent);
+      }
+
+      .kicker {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      h1 {
+        margin-top: 10px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(30px, 8vw, 44px);
+        font-weight: 400;
+        line-height: 1.05;
+        letter-spacing: 0.2px;
+      }
+
+      .tagline {
+        margin-top: 12px;
+        font-size: 16px;
+        color: var(--muted);
+        max-width: 30em;
+      }
+
+      .contact {
+        margin-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .contact a {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 13.5px;
+        font-weight: 600;
+      }
+
+      /* ---------- Projects ---------- */
+      .projects { margin-top: 8px; }
+
+      .project {
+        padding: 26px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .project-index {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #aab3c0;
+      }
+
+      .project h2 {
+        margin-top: 4px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.2;
+      }
+
+      .project h2 .sub {
+        display: block;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 14px;
+        color: var(--accent);
+        margin-top: 3px;
+        letter-spacing: 0.3px;
+      }
+
+      .project p {
+        margin-top: 10px;
+        color: #35424f;
+        font-size: 15px;
+      }
+
+      .tags {
+        margin-top: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+      }
+
+      .tags span {
+        font-size: 12px;
+        color: var(--muted);
+        background: #eef1f5;
+        border-radius: 6px;
+        padding: 3px 9px;
+      }
+
+      .actions {
+        margin-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 9px 16px;
+        border-radius: 9px;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: transform 0.12s ease, background 0.12s ease;
+      }
+
+      .btn:active { transform: translateY(1px); }
+
+      .btn-primary {
+        background: var(--accent);
+        color: #fff;
+      }
+      .btn-primary:hover { background: #182f57; }
+
+      .btn-ghost {
+        background: #fff;
+        color: var(--accent);
+        border: 1px solid #cdd7e4;
+      }
+      .btn-ghost:hover { background: var(--accent-soft); }
+
+      .arrow { font-size: 15px; line-height: 1; }
+
+      /* ---------- Footer ---------- */
+      footer {
+        margin-top: 34px;
+        padding-top: 22px;
+        border-top: 1px solid var(--line);
+        font-size: 13.5px;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <p class="kicker">Portfolio</p>
+        <h1>Azzam Khalaf</h1>
+        <p class="tagline">Webbutvecklare &amp; digital kreatör &ndash; från idé till publicerad lösning. Här är ett urval av projekt jag byggt.</p>
+        <div class="contact">
+          <a href="mailto:hello@smartartai.se">hello@smartartai.se</a>
+          <a href="https://www.smartartai.se" target="_blank" rel="noopener">www.smartartai.se</a>
+        </div>
+      </header>
+
+      <main class="projects">
+        <article class="project">
+          <span class="project-index">01</span>
+          <h2>smartartai.se<span class="sub">Produktguide med egen AI-rådgivare</span></h2>
+          <p>Egen produktguide med 300+ publicerade sidor, ett datadrivet betygssystem (&rdquo;Elins poäng&rdquo;) och AI-rådgivaren &rdquo;Fråga Elin&rdquo; &ndash; byggd med Claude API, streaming och egna skyddsregler.</p>
+          <div class="tags"><span>Next.js</span><span>React</span><span>Supabase</span><span>Claude API</span><span>SEO</span></div>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://www.smartartai.se" target="_blank" rel="noopener">Se live <span class="arrow">&rarr;</span></a>
+            <a class="btn btn-ghost" href="smartartai-se.pdf" target="_blank" rel="noopener">Projektblad (PDF)</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <span class="project-index">02</span>
+          <h2>Rättvis Demokrati<span class="sub">Kampanjsajt på under sex timmar</span></h2>
+          <p>Komplett kampanjsajt för ett lokalt parti inför kommunvalet 2026 &ndash; från idé till publicerad sajt med eget domännamn på under sex timmar.</p>
+          <div class="tags"><span>HTML/CSS</span><span>GitHub Pages</span><span>Design</span><span>Innehåll</span></div>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://rattvisdemokrati.pro/" target="_blank" rel="noopener">Se live <span class="arrow">&rarr;</span></a>
+            <a class="btn btn-ghost" href="rattvis-demokrati.pdf" target="_blank" rel="noopener">Projektblad (PDF)</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <span class="project-index">03</span>
+          <h2>RSMH Fjällsjö<span class="sub">Bokning &amp; matbeställning</span></h2>
+          <p>Rumsbokning och matbeställning med tillgänglighets- och datumlogik. Bokningar och beställningar skickas direkt till föreningens e-post &ndash; utan konton och extra administration.</p>
+          <div class="tags"><span>Vercel</span><span>Formulär &rarr; e-post</span><span>Bokningslogik</span></div>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://www.rsmhfjallsjo.se/" target="_blank" rel="noopener">Se live <span class="arrow">&rarr;</span></a>
+            <a class="btn btn-ghost" href="rsmh-fjallsjo.pdf" target="_blank" rel="noopener">Projektblad (PDF)</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <span class="project-index">04</span>
+          <h2>Premium Menu<span class="sub">Digital QR-meny med realtidspanel</span></h2>
+          <p>Digital meny för restauranger: gästen scannar en QR-kod, beställer mat och dryck och kan ropa på servitören. Personal och kök får beställningarna i realtid via en live-panel.</p>
+          <div class="tags"><span>Vite</span><span>JavaScript</span><span>Supabase (realtid)</span></div>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://premium-menu-8fij.vercel.app/" target="_blank" rel="noopener">Testa demon <span class="arrow">&rarr;</span></a>
+            <a class="btn btn-ghost" href="premium-menu.pdf" target="_blank" rel="noopener">Projektblad (PDF)</a>
+          </div>
+        </article>
+      </main>
+
+      <footer>
+        Byggt av Azzam Khalaf &middot; <a href="mailto:hello@smartartai.se">hello@smartartai.se</a>
+      </footer>
+    </div>
+  </body>
+</html>
