@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "fitFlipMikrofiberhandukProduct",
+  "category": "resa",
+  "categoryGroup": "Strand & bad",
+  "route": "sommar/resa/mikrofiberhandduk",
+  "pageComponentName": "MikrofiberhandukPage",
+  "product": {
+    "slug": "fit-flip-mikrofiberhandduk",
+    "title": "Fit-Flip mikrofiberhandduk – kompakt & snabbtorkande",
+    "category": "resa",
+    "asin": "B0B945VBJJ",
+    "brand": "Fit-Flip",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["Snabbtorkande", "Ultralätt", "Kompakt"],
+    "image": "/products/fit-flip-mikrofiberhandduk/handduk-thumbnail.webp",
+    "imageAlt": "Fit-Flip mikrofiberhandduk hopvikt för resa och strand",
+    "images": [
+      { "src": "/products/fit-flip-mikrofiberhandduk/handduk-thumbnail.webp", "alt": "Fit-Flip mikrofiberhandduk för strand och resa", "label": "Handduk" },
+      { "src": "/products/fit-flip-mikrofiberhandduk/handduk-1.webp", "alt": "Mikrofiberhandduk hopvikt i liten storlek", "label": "Kompakt" },
+      { "src": "/products/fit-flip-mikrofiberhandduk/handduk-2.webp", "alt": "Snabbtorkande mikrofiberhandduk utbredd på stranden", "label": "Utbredd" },
+      { "src": "/products/fit-flip-mikrofiberhandduk/handduk-3.webp", "alt": "Mikrofiberhandduk i olika färger", "label": "Färger" },
+      { "src": "/products/fit-flip-mikrofiberhandduk/handduk-4.webp", "alt": "Detalj av Fit-Flip mikrofiberhandduk med förvaringspåse", "label": "Påse" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0B945VBJJ?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/mikrofiberhandduk",
+    "summary": "En lätt mikrofiberhandduk som torkar snabbt och packas ihop till en liten storlek – perfekt för stranden, poolen och resan. Den tar mycket mindre plats än en vanlig frottéhandduk och torkar snabbt i solen. Bra att veta: det är en funktionell handduk, en del föredrar den mjukare känslan av en tjock frottéhandduk.",
+    "evaluation": {
+      "headline": "Snabbtorkande resehandduk som knappt tar plats",
+      "intro": "Elin tittar närmare på Fit-Flip mikrofiberhandduk: en lätt, snabbtorkande handduk som viks ihop till en liten storlek och får plats i vilken strandväska som helst. Den torkar snabbt i solen och väger nästan ingenting, vilket gör den smidig för strand, pool och resa.",
+      "verdict": "Lätt och snabbtorkande resehandduk som tar minimalt med plats.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Mikrofiberhandduk",
+    "specSectionTitle": "Fit-Flip mikrofiber",
+    "specs": [
+      { "label": "Material", "caption": "Tyg", "value": "Mikrofiber – snabbtorkande" },
+      { "label": "Format", "caption": "Packmått", "value": "Viks ihop litet, med påse" },
+      { "label": "Vikt", "caption": "Bärbarhet", "value": "Ultralätt att ta med" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0B945VBJJ?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 35 103 omdömen.",
+      "highlights": [
+        "Mjuk, lätt och snabbtorkande – torkar snabbt i solen.",
+        "Kompakt och ultralätt, tar liten plats i strandväskan.",
+        "Väldigt många nöjda köpare (4,5 av 5 från 35 103 omdömen)."
+      ],
+      "cautions": [
+        "Det är en funktionell mikrofiberhandduk – en del föredrar känslan av en tjockare frottéhandduk."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/mikrofiberhandduk",
+    "cardBadge": "Snabbtorkande",
+    "cardHook": "Lätt mikrofiberhandduk som torkar snabbt och knappt tar plats i väskan.",
+    "cardImage": "/products/fit-flip-mikrofiberhandduk/handduk-thumbnail.webp",
+    "cardImageAlt": "Fit-Flip mikrofiberhandduk hopvikt för resa och strand",
+    "badge": "Elins strandfavorit",
+    "headline": "Fit-Flip mikrofiberhandduk – lätt och smidig",
+    "shortBody": "En lätt, snabbtorkande mikrofiberhandduk som viks ihop till en liten storlek. Perfekt för strand, pool och resa när du vill slippa släpa på en tung frottéhandduk.",
+    "valueHook": "Slipp den tunga frottéhandduken",
+    "valueStatement": "Fit-Flip mikrofiberhandduk är en lätt, snabbtorkande handduk för dig som vill spara plats i strandväskan. Den viks ihop litet och torkar snabbt i solen. Amazon visar 4,5 av 5 från hela 35 103 omdömen, och köpare lyfter att den är mjuk, lätt och snabbtorkande. Tänk på att det är en funktionell mikrofiberhandduk – vissa föredrar känslan av en tjockare frottéhandduk.",
+    "passFor": [
+      "Vill spara plats och vikt i strand- eller resväskan.",
+      "Vill ha en handduk som torkar snabbt i solen.",
+      "Reser, tränar eller badar och behöver något kompakt."
+    ],
+    "caution": "Det är en tunn, funktionell mikrofiberhandduk. Den torkar snabbt och tar liten plats, men känns inte lika mjuk och tjock som en vanlig frottéhandduk – det är en avvägning för att spara plats.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Skaka ur handduken och häng den i solen efter bad så torkar den snabbt. Vik ner den i medföljande påse när den är torr, så håller den strandväskan fräsch och kompakt."
+    },
+    "verdict": "Lätt och snabbtorkande resehandduk som tar minimalt med plats.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 35 103 omdömen. Köpare gillar att den är mjuk, lätt och snabbtorkande – kom ihåg att det är en mikrofiberhandduk, inte en tjock frottéhandduk.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Torkar den snabbt?", "answer": "Ja, mikrofiber torkar betydligt snabbare än vanlig frotté. Häng den i solen efter bad så är den ofta torr på kort tid." },
+      { "question": "Hur liten blir den?", "answer": "Den viks ihop till en kompakt storlek och följer med i en påse, så den tar mycket mindre plats än en vanlig frottéhandduk i strandväskan." },
+      { "question": "Känns den som en vanlig handduk?", "answer": "Den är tunnare och mer funktionell. Många älskar hur lätt och smidig den är, men om du vill ha känslan av en tjock, mjuk frottéhandduk är det en avvägning att vara medveten om." }
+    ],
+    "reviewSectionId": "fit-flip-mikrofiberhandduk-recensioner",
+    "reviewFormId": "fit-flip-mikrofiberhandduk-skriv-recension",
+    "targetKeyword": "mikrofiberhandduk",
+    "metaTitle": "Fit-Flip mikrofiberhandduk – snabbtorkande & kompakt | Elins val",
+    "metaDescription": "Elin går igenom Fit-Flip mikrofiberhandduk (4,5 av 5 från 35 103 omdömen): lätt, snabbtorkande och kompakt för strand och resa – och vad du bör tänka på.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/strandfilt", "label": "Sandfri strandfilt", "text": "Slipp sanden med en lätt, snabbtorkande strandfilt." },
+      { "href": "/sommar/resa/kylvaska", "label": "Kylväska", "text": "Håll drycken sval hela stranddagen." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan och stranden." }
+    ]
+  },
+  "images": {
+    "dir": "fit-flip-mikrofiberhandduk",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71PBYgXx6bL._AC_SL1500_.jpg", "out": "handduk-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/713CvUAYNQL._AC_SL1500_.jpg", "out": "handduk-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81VqcOVFrfL._AC_SL1500_.jpg", "out": "handduk-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71ei1d0yfkL._AC_SL1500_.jpg", "out": "handduk-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81i19rvBX3L._AC_SL1500_.jpg", "out": "handduk-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Fit-Flip mikrofiberhandduk", "href": "/sommar/resa/mikrofiberhandduk", "date": "2026-07-05", "image": "/products/fit-flip-mikrofiberhandduk/handduk-thumbnail.webp", "blurb": "Lätt, snabbtorkande mikrofiberhandduk som knappt tar plats i strandväskan." }
+  ]
+}

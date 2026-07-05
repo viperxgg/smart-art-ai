@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "lifewitKylvaskaProduct",
+  "category": "resa",
+  "categoryGroup": "Strand & bad",
+  "route": "sommar/resa/kylvaska",
+  "pageComponentName": "KylvaskaPage",
+  "product": {
+    "slug": "lifewit-kylvaska-ryggsack",
+    "title": "Lifewit kylväska ryggsäck (24 L, isolerad)",
+    "category": "resa",
+    "asin": "B07B8GRWMC",
+    "brand": "Lifewit",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "mellan",
+    "badges": ["24 liter", "Ryggsäck", "Isolerad"],
+    "image": "/products/lifewit-kylvaska/kylvaska-thumbnail.webp",
+    "imageAlt": "Lifewit kylväska ryggsäck för strand och picknick",
+    "images": [
+      { "src": "/products/lifewit-kylvaska/kylvaska-thumbnail.webp", "alt": "Lifewit kylväska ryggsäck", "label": "Kylryggsäck" },
+      { "src": "/products/lifewit-kylvaska/kylvaska-1.webp", "alt": "Isolerad kylryggsäck fylld med dryck och mat", "label": "Fylld" },
+      { "src": "/products/lifewit-kylvaska/kylvaska-2.webp", "alt": "Kylryggsäck buren på ryggen till stranden", "label": "På ryggen" },
+      { "src": "/products/lifewit-kylvaska/kylvaska-3.webp", "alt": "Isolerat foder i kylväskan", "label": "Isolering" },
+      { "src": "/products/lifewit-kylvaska/kylvaska-4.webp", "alt": "Detalj av Lifewit kylväska", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B07B8GRWMC?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/kylvaska",
+    "summary": "En isolerad kylväska i ryggsäcksmodell på 24 liter som håller dryck och mat sval på väg till stranden, picknicken eller campingen. Du bär den bekvämt på ryggen och har händerna fria. Bra att veta: det är en mjuk kylväska – den håller kylan i timmar, inte hela dagen i stekande sol. Använd kylklampar för bästa effekt.",
+    "evaluation": {
+      "headline": "Sval dryck hela vägen till stranden",
+      "intro": "Elin tittar närmare på Lifewit kylväska: en isolerad kylryggsäck på 24 liter som håller mat och dryck sval på utflykten. Ryggsäcksmodellen gör den bekväm att bära längre sträckor, och den rymmer tillräckligt för hela sällskapet.",
+      "verdict": "Rymlig, bekväm kylryggsäck för strand och picknick – använd kylklampar.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Kylväska",
+    "specSectionTitle": "Lifewit kylryggsäck",
+    "specs": [
+      { "label": "Volym", "caption": "Storlek", "value": "24 liter" },
+      { "label": "Modell", "caption": "Bärsätt", "value": "Ryggsäck med axelband" },
+      { "label": "Funktion", "caption": "Kyla", "value": "Isolerat foder – bäst med kylklampar" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B07B8GRWMC?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 9 411 omdömen.",
+      "highlights": [
+        "Håller kylan bra och rymmer mycket (24 liter) – räddar utflykten till stranden.",
+        "Ryggsäcksmodell med bekväma axelband, skönt att bära längre sträckor.",
+        "Väldigt populär (4,6 av 5 från 9 411 omdömen)."
+      ],
+      "cautions": [
+        "Det är en mjuk kylväska – den håller kylan i timmar, inte hela dagen i stekande sol. Använd kylklampar för bäst effekt."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/kylvaska",
+    "cardBadge": "24 liter",
+    "cardHook": "Isolerad kylryggsäck som håller drycken sval hela vägen till stranden.",
+    "cardImage": "/products/lifewit-kylvaska/kylvaska-thumbnail.webp",
+    "cardImageAlt": "Lifewit kylväska ryggsäck för strand och picknick",
+    "badge": "Elins utflyktsfavorit",
+    "headline": "Lifewit kylväska – sval dryck, fria händer",
+    "shortBody": "En isolerad kylryggsäck på 24 liter som håller mat och dryck sval på väg till stranden eller picknicken. Bärs bekvämt på ryggen så du har händerna fria.",
+    "valueHook": "Sval dryck utan att släpa på en kylbox",
+    "valueStatement": "Lifewit kylväska är en isolerad kylryggsäck på 24 liter för dig som vill ha sval dryck och mat på utflykten utan att bära en klumpig kylbox. Ryggsäcksmodellen gör den bekväm på längre sträckor. Amazon visar 4,6 av 5 från hela 9 411 omdömen. Tänk på att det är en mjuk kylväska – den håller kylan i timmar, inte hela dagen i stekande sol, så använd kylklampar.",
+    "passFor": [
+      "Vill ha sval dryck och mat på stranden, picknicken eller campingen.",
+      "Vill bära utflyktspackningen bekvämt på ryggen.",
+      "Behöver rejäl volym för hela sällskapet."
+    ],
+    "caution": "Det är en mjuk, isolerad kylväska – inte en elektrisk kylbox. Den håller kylan i några timmar, inte hela dagen i stekande sol. Använd frysta kylklampar och håll den i skuggan för bäst effekt.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Förkyl väskan och lägg i frysta kylklampar tillsammans med redan kalla drycker och mat. Öppna den så sällan som möjligt och ställ den i skuggan, så håller kylan längre."
+    },
+    "verdict": "Rymlig, bekväm kylryggsäck för strand och picknick – använd kylklampar.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 9 411 omdömen. Köpare lyfter att den håller kylan bra, rymmer mycket och är skön att bära – kom ihåg att det är en mjuk kylväska som funkar bäst med kylklampar.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur länge håller den kylan?", "answer": "Det är en mjuk, isolerad kylväska som håller kylan i några timmar. Använd frysta kylklampar, förkyl innehållet och håll väskan i skuggan för bäst resultat." },
+      { "question": "Hur mycket rymmer den?", "answer": "Den rymmer 24 liter, vilket räcker för dryck och mat till hela sällskapet på en strand- eller picknickdag." },
+      { "question": "Är den skön att bära?", "answer": "Ja, det är en ryggsäcksmodell med axelband, så du bär den bekvämt på ryggen och har händerna fria på vägen." }
+    ],
+    "reviewSectionId": "lifewit-kylvaska-recensioner",
+    "reviewFormId": "lifewit-kylvaska-skriv-recension",
+    "targetKeyword": "kylväska",
+    "metaTitle": "Lifewit kylväska ryggsäck – sval dryck på stranden | Elins val",
+    "metaDescription": "Elin går igenom Lifewit kylväska ryggsäck (24 L, 4,6 av 5 från 9 411 omdömen): håll mat och dryck sval på utflykten – och hur du får kylan att hålla längre.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/strandfilt", "label": "Sandfri strandfilt", "text": "Extra stor, lätt och sandfri filt för picknicken." },
+      { "href": "/sommar/resa/mikrofiberhandduk", "label": "Mikrofiberhandduk", "text": "Snabbtorkande handduk som knappt tar plats." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan och stranden." }
+    ]
+  },
+  "images": {
+    "dir": "lifewit-kylvaska",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/812aqkQZE+L._AC_SL1500_.jpg", "out": "kylvaska-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81yq2Z3t3lL._AC_SL1500_.jpg", "out": "kylvaska-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81CTxNLtuuL._AC_SL1500_.jpg", "out": "kylvaska-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/715PW0YROqL._AC_SL1500_.jpg", "out": "kylvaska-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/8115MyI9mAL._AC_SL1500_.jpg", "out": "kylvaska-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Lifewit kylväska ryggsäck (24 L)", "href": "/sommar/resa/kylvaska", "date": "2026-07-05", "image": "/products/lifewit-kylvaska/kylvaska-thumbnail.webp", "blurb": "Isolerad kylryggsäck som håller dryck och mat sval på stranden och picknicken." }
+  ]
+}

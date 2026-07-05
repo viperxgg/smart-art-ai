@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "strandklammorProduct",
+  "category": "resa",
+  "categoryGroup": "Strand & bad",
+  "route": "sommar/resa/strandklammor",
+  "pageComponentName": "StrandklammorPage",
+  "product": {
+    "slug": "strandklammor-9-pack",
+    "title": "Strandklämmor för badlakan (9-pack, vindtåliga)",
+    "category": "resa",
+    "asin": "B0CZDL42LK",
+    "brand": "Vindtåliga klämmor",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["9-pack", "Vindtåliga", "Multiuse"],
+    "image": "/products/strandklammor/strandklammor-thumbnail.webp",
+    "imageAlt": "Strandklämmor som håller badlakanet på plats på solstolen",
+    "images": [
+      { "src": "/products/strandklammor/strandklammor-thumbnail.webp", "alt": "Strandklämmor i 9-pack", "label": "9-pack" },
+      { "src": "/products/strandklammor/strandklammor-1.webp", "alt": "Strandklämma som fäster badlakan på solstol", "label": "På stolen" },
+      { "src": "/products/strandklammor/strandklammor-2.webp", "alt": "Färgglada strandklämmor", "label": "Färger" },
+      { "src": "/products/strandklammor/strandklammor-3.webp", "alt": "Strandklämma greppar tjockt badlakan", "label": "Grepp" },
+      { "src": "/products/strandklammor/strandklammor-4.webp", "alt": "Detalj av strandklämmor", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0CZDL42LK?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/strandklammor",
+    "summary": "Vindtåliga klämmor i 9-pack som håller badlakanet på plats på solstolen även när det blåser. De greppar rejält och funkar även som stora klädnypor hemma eller för att hänga blöta plagg på resan. Bra att veta: det är enkla plastklämmor – vid riktigt hård vind eller väldigt tjocka dynor kan greppet utmanas.",
+    "evaluation": {
+      "headline": "Slut på badlakanet som blåser bort",
+      "intro": "Elin tittar närmare på dessa strandklämmor: ett 9-pack vindtåliga klämmor som håller badlakanet på plats på solstolen. De greppar rejält och kan även användas som stora klädnypor hemma eller för blöta plagg på resan.",
+      "verdict": "Enkla, vindtåliga klämmor som håller badlakanet på plats – litet men skönt.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Strandklämmor",
+    "specSectionTitle": "Vindtåliga strandklämmor",
+    "specs": [
+      { "label": "Innehåll", "caption": "Antal", "value": "9-pack" },
+      { "label": "Funktion", "caption": "Grepp", "value": "Håller badlakan på solstolen" },
+      { "label": "Extra", "caption": "Multiuse", "value": "Fungerar som stora klädnypor" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0CZDL42LK?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 353 omdömen.",
+      "highlights": [
+        "Håller badlakanet på plats på solstolen även när det blåser.",
+        "Bra storlek och greppar rejält – funkar även som stora klädnypor hemma.",
+        "9-pack, uppskattade av många (4,6 av 5 från 353 omdömen)."
+      ],
+      "cautions": [
+        "Det är enkla plastklämmor – vid riktigt hård vind eller väldigt tjocka dynor kan greppet utmanas."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/strandklammor",
+    "cardBadge": "Vindtåliga",
+    "cardHook": "Håll badlakanet på plats på solstolen även när det blåser – 9-pack.",
+    "cardImage": "/products/strandklammor/strandklammor-thumbnail.webp",
+    "cardImageAlt": "Strandklämmor som håller badlakanet på plats på solstolen",
+    "badge": "Elins litet-men-skönt-tips",
+    "headline": "Strandklämmor – slut på badlakanet som blåser bort",
+    "shortBody": "Ett 9-pack vindtåliga klämmor som håller badlakanet på plats på solstolen. De greppar rejält och funkar även som stora klädnypor hemma eller för blöta plagg på resan.",
+    "valueHook": "En liten sak som räddar stranddagen",
+    "valueStatement": "Dessa strandklämmor är ett 9-pack vindtåliga klämmor för dig som är trött på att badlakanet blåser av solstolen. De greppar rejält och kan även användas som stora klädnypor. Amazon visar 4,6 av 5 från 353 omdömen. Tänk på att det är enkla plastklämmor – vid riktigt hård vind eller väldigt tjocka dynor kan greppet utmanas.",
+    "passFor": [
+      "Vill hålla badlakanet på plats på solstolen i blåst.",
+      "Vill ha något litet och billigt som löser ett vanligt strandbekymmer.",
+      "Har nytta av stora klädnypor även hemma eller på resan."
+    ],
+    "caution": "Det är enkla plastklämmor. De håller bra i normal vind, men vid riktigt hård blåst eller väldigt tjocka solstolsdynor kan greppet utmanas. Se dem som en smidig hjälp, inte en garanti.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Kläm fast badlakanet i solstolens kant eller ryggstöd i minst två hörn. Använd fler klämmor vid blåsigt väder. De fungerar även för att hänga blöta baddräkter eller som stora klädnypor."
+    },
+    "verdict": "Enkla, vindtåliga klämmor som håller badlakanet på plats – litet men skönt.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 353 omdömen. Köpare gillar att de håller badlakanet på plats och greppar rejält – det är enkla plastklämmor som passar de flesta lägen.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Håller de i blåst?", "answer": "Ja, de är gjorda för att hålla badlakanet på plats på solstolen i normal vind. Vid riktigt hård blåst hjälper det att använda fler klämmor." },
+      { "question": "Går de att använda till annat?", "answer": "Ja, de fungerar som stora klädnypor hemma, för att hänga blöta baddräkter eller fästa saker på resan." },
+      { "question": "Hur många ingår?", "answer": "Det är ett 9-pack, så du har gott om klämmor för hela sällskapets solstolar." }
+    ],
+    "reviewSectionId": "strandklammor-recensioner",
+    "reviewFormId": "strandklammor-skriv-recension",
+    "targetKeyword": "strandklämmor",
+    "metaTitle": "Strandklämmor för badlakan – vindtåliga 9-pack | Elins val",
+    "metaDescription": "Elin går igenom vindtåliga strandklämmor (9-pack, 4,6 av 5 från 353 omdömen): håll badlakanet på plats på solstolen även i blåst – litet men skönt.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/strandfilt", "label": "Sandfri strandfilt", "text": "Extra stor, lätt och sandfri filt för hela sällskapet." },
+      { "href": "/sommar/resa/mikrofiberhandduk", "label": "Mikrofiberhandduk", "text": "Snabbtorkande handduk som knappt tar plats." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan och stranden." }
+    ]
+  },
+  "images": {
+    "dir": "strandklammor",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61ALorZgnQL._AC_SL1500_.jpg", "out": "strandklammor-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81jSIkonakL._AC_SL1500_.jpg", "out": "strandklammor-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61q24fJGlxL._AC_SL1500_.jpg", "out": "strandklammor-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71znOhab0gL._AC_SL1500_.jpg", "out": "strandklammor-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/713UqaIAPrL._AC_SL1500_.jpg", "out": "strandklammor-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Strandklämmor (9-pack)", "href": "/sommar/resa/strandklammor", "date": "2026-07-05", "image": "/products/strandklammor/strandklammor-thumbnail.webp", "blurb": "Vindtåliga klämmor som håller badlakanet på plats på solstolen." }
+  ]
+}

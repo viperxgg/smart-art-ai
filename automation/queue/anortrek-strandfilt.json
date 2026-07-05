@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "anortrekStrandfiltProduct",
+  "category": "resa",
+  "categoryGroup": "Strand & bad",
+  "route": "sommar/resa/strandfilt",
+  "pageComponentName": "StrandfiltPage",
+  "product": {
+    "slug": "anortrek-sandfri-strandfilt",
+    "title": "AnorTrek sandfri strandfilt (extra stor, 300x300 cm)",
+    "category": "resa",
+    "asin": "B0C9CVWZPC",
+    "brand": "AnorTrek",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["Sandfri", "Extra stor", "Snabbtorkande"],
+    "image": "/products/anortrek-strandfilt/strandfilt-thumbnail.webp",
+    "imageAlt": "AnorTrek sandfri strandfilt utbredd på stranden",
+    "images": [
+      { "src": "/products/anortrek-strandfilt/strandfilt-thumbnail.webp", "alt": "AnorTrek sandfri strandfilt", "label": "Strandfilt" },
+      { "src": "/products/anortrek-strandfilt/strandfilt-1.webp", "alt": "Extra stor strandfilt med plats för flera personer", "label": "Extra stor" },
+      { "src": "/products/anortrek-strandfilt/strandfilt-2.webp", "alt": "Sanden borstas lätt av den sandfria filten", "label": "Sandfri" },
+      { "src": "/products/anortrek-strandfilt/strandfilt-3.webp", "alt": "Strandfilt hopvikt till liten påse", "label": "Kompakt" },
+      { "src": "/products/anortrek-strandfilt/strandfilt-4.webp", "alt": "Strandfilt med fästpinnar i hörnen", "label": "Fästen" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0C9CVWZPC?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/strandfilt",
+    "summary": "En extra stor sandfri strandfilt (300x300 cm) i lätt, snabbtorkande material – sanden borstas lätt av och filten viks ihop till en liten påse. Det finns gott om plats för hela sällskapet, och den är smidig att ta med. Bra att veta: det är en tunn, lätt filt – på stenig mark känner du underlaget, och du bör fästa hörnen i blåst.",
+    "evaluation": {
+      "headline": "Extra stor strandfilt utan sandkladd",
+      "intro": "Elin tittar närmare på AnorTrek sandfria strandfilt: en extra stor filt (300x300 cm) i lätt, snabbtorkande material. Sanden borstas lätt av, den viks ihop kompakt och rymmer hela sällskapet – en smidig bas för stranddagen.",
+      "verdict": "Stor, lätt och sandfri strandfilt – perfekt för sällskapet, tunn på stenig mark.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Strandfilt",
+    "specSectionTitle": "AnorTrek sandfri filt",
+    "specs": [
+      { "label": "Storlek", "caption": "Mått", "value": "Extra stor, 300x300 cm" },
+      { "label": "Material", "caption": "Tyg", "value": "Lätt, snabbtorkande, sandfritt" },
+      { "label": "Packmått", "caption": "Bärbarhet", "value": "Viks ihop litet, med påse" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0C9CVWZPC?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 390 omdömen.",
+      "highlights": [
+        "Sandfri och extra stor (300x300 cm) – får plats för hela sällskapet.",
+        "Lätt, snabbtorkande och vikbar – kompakt att ta med till stranden.",
+        "Uppskattad av köpare (4,4 av 5 från 390 omdömen)."
+      ],
+      "cautions": [
+        "Det är en tunn, lätt filt – på stenig mark känner du underlaget. Fäst hörnen i blåst."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/strandfilt",
+    "cardBadge": "Sandfri",
+    "cardHook": "Extra stor, lätt och sandfri filt – plats för hela sällskapet.",
+    "cardImage": "/products/anortrek-strandfilt/strandfilt-thumbnail.webp",
+    "cardImageAlt": "AnorTrek sandfri strandfilt utbredd på stranden",
+    "badge": "Elins strandbas",
+    "headline": "AnorTrek strandfilt – stor, lätt och sandfri",
+    "shortBody": "En extra stor sandfri strandfilt (300x300 cm) i lätt, snabbtorkande material. Sanden borstas lätt av och filten viks ihop till en liten påse – smidig att ta med.",
+    "valueHook": "Slipp sanden i allt",
+    "valueStatement": "AnorTrek sandfria strandfilt är en extra stor filt (300x300 cm) för dig som vill ha en rymlig, sandfri bas på stranden. Den är lätt, snabbtorkande och viks ihop kompakt. Amazon visar 4,4 av 5 från 390 omdömen, och köpare gillar storleken och att den är lätt att ta med. Tänk på att det är en tunn filt – på stenig mark känner du underlaget, och du bör fästa hörnen i blåst.",
+    "passFor": [
+      "Vill ha en rymlig, sandfri bas för hela sällskapet på stranden.",
+      "Vill ha något lätt och kompakt att bära med sig.",
+      "Använder filten även för picknick i parken."
+    ],
+    "caution": "Det är en tunn, lätt strandfilt gjord för att vara sandfri och kompakt – inte vadderad. På stenig eller ojämn mark känner du underlaget. Använd de medföljande fästena eller något tungt i hörnen när det blåser.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Bred ut filten och fäst hörnen med de medföljande pinnarna eller något tungt om det blåser. Skaka av sanden innan du viker ihop den, så håller den sig fräsch i påsen till nästa gång."
+    },
+    "verdict": "Stor, lätt och sandfri strandfilt – perfekt för sällskapet, tunn på stenig mark.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 390 omdömen. Köpare gillar att den är stor, lätt och sandfri – kom ihåg att det är en tunn filt som du bör fästa i blåst.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Är den verkligen sandfri?", "answer": "Materialet är gjort så att sanden lätt borstas eller skakas av istället för att fastna. Det håller filten och väskan fräschare än en vanlig filt." },
+      { "question": "Hur stor är den?", "answer": "Den är extra stor, 300x300 cm, med gott om plats för hela sällskapet – och den viks ändå ihop till en liten påse." },
+      { "question": "Håller den på plats i blåst?", "answer": "Den har fästen i hörnen. Eftersom den är tunn och lätt bör du använda dem eller lägga något tungt i hörnen när det blåser." }
+    ],
+    "reviewSectionId": "anortrek-strandfilt-recensioner",
+    "reviewFormId": "anortrek-strandfilt-skriv-recension",
+    "targetKeyword": "strandfilt",
+    "metaTitle": "AnorTrek sandfri strandfilt – extra stor & lätt | Elins val",
+    "metaDescription": "Elin går igenom AnorTrek sandfria strandfilt (300x300 cm, 4,4 av 5 från 390 omdömen): stor, lätt och sandfri bas för stranden – och vad du bör tänka på.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/mikrofiberhandduk", "label": "Mikrofiberhandduk", "text": "Snabbtorkande handduk som knappt tar plats." },
+      { "href": "/sommar/resa/kylvaska", "label": "Kylväska", "text": "Håll drycken sval hela stranddagen." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan och stranden." }
+    ]
+  },
+  "images": {
+    "dir": "anortrek-strandfilt",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51bcyT7BC2L._AC_SL1000_.jpg", "out": "strandfilt-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81L0UhaUw2L._AC_SL1500_.jpg", "out": "strandfilt-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81PJEXQgfQL._AC_SL1500_.jpg", "out": "strandfilt-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/618Ot2we2-L._AC_SL1000_.jpg", "out": "strandfilt-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81kFoLOSHiL._AC_SL1500_.jpg", "out": "strandfilt-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "AnorTrek sandfri strandfilt (300x300 cm)", "href": "/sommar/resa/strandfilt", "date": "2026-07-05", "image": "/products/anortrek-strandfilt/strandfilt-thumbnail.webp", "blurb": "Extra stor, lätt och sandfri strandfilt med plats för hela sällskapet." }
+  ]
+}

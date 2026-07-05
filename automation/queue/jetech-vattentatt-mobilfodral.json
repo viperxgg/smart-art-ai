@@ -1,0 +1,115 @@
+{
+  "system": "resa",
+  "exportName": "jetechMobilfodralProduct",
+  "category": "resa",
+  "categoryGroup": "Strand & bad",
+  "route": "sommar/resa/vattentatt-mobilfodral",
+  "pageComponentName": "MobilfodralPage",
+  "product": {
+    "slug": "jetech-vattentatt-mobilfodral",
+    "title": "JETech vattentätt mobilfodral (2-pack, IPX8)",
+    "category": "resa",
+    "asin": "B0D1DMSFBN",
+    "brand": "JETech",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["IPX8", "2-pack", "Touch genom fodralet"],
+    "image": "/products/jetech-vattentatt-mobilfodral/mobilfodral-thumbnail.webp",
+    "imageAlt": "JETech vattentätt mobilfodral för strand och pool",
+    "images": [
+      { "src": "/products/jetech-vattentatt-mobilfodral/mobilfodral-thumbnail.webp", "alt": "JETech vattentätt mobilfodral", "label": "Mobilfodral" },
+      { "src": "/products/jetech-vattentatt-mobilfodral/mobilfodral-1.webp", "alt": "Mobil i vattentätt fodral vid poolkanten", "label": "Vid vattnet" },
+      { "src": "/products/jetech-vattentatt-mobilfodral/mobilfodral-2.webp", "alt": "Vattentätt fodral med lås som sluter tätt", "label": "Lås" },
+      { "src": "/products/jetech-vattentatt-mobilfodral/mobilfodral-3.webp", "alt": "Två vattentäta mobilfodral i 2-pack", "label": "2-pack" },
+      { "src": "/products/jetech-vattentatt-mobilfodral/mobilfodral-4.webp", "alt": "Detalj av JETech vattentätt mobilfodral", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0D1DMSFBN?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/vattentatt-mobilfodral",
+    "summary": "Ett IPX8-klassat vattentätt fodral i 2-pack som skyddar mobilen mot vatten och sand vid strand och pool. Du kan använda skärmen genom plasten och hänga fodralet runt halsen. Bra att veta: kontrollera alltid att låset sluter tätt innan du utsätter mobilen för vatten, och testa gärna fodralet tomt först.",
+    "evaluation": {
+      "headline": "Vattentätt skydd för mobilen vid vattnet",
+      "intro": "Elin tittar närmare på JETech vattentäta mobilfodral: ett 2-pack IPX8-klassade fodral som skyddar mobilen mot vatten, sand och stänk. Du kan svara och fota genom plasten och bära fodralet runt halsen vid stranden eller poolen.",
+      "verdict": "Prisvärt vattentätt mobilskydd i 2-pack – stäng låset noga före bad.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Mobilfodral",
+    "specSectionTitle": "JETech vattentätt fodral",
+    "specs": [
+      { "label": "Skydd", "caption": "Klass", "value": "IPX8 – vattentätt enligt tillverkaren" },
+      { "label": "Innehåll", "caption": "Antal", "value": "2-pack" },
+      { "label": "Passar", "caption": "Storlek", "value": "De flesta mobiler upp till ca 7,2 tum" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0D1DMSFBN?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 1 739 omdömen.",
+      "highlights": [
+        "IPX8-klassat – håller vatten ute enligt tillverkaren, uppskattat vid bad och strand.",
+        "Kommer i 2-pack och passar de flesta större mobiler.",
+        "Bra kvalitet enligt många köpare (4,5 av 5 från 1 739 omdömen)."
+      ],
+      "cautions": [
+        "Stäng fodralet noga och kolla alltid att låset sluter tätt innan du badar.",
+        "Bild- och touchkänsla genom plasten kan variera."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/vattentatt-mobilfodral",
+    "cardBadge": "IPX8",
+    "cardHook": "Håll mobilen torr och sandfri vid stranden och poolen – 2-pack.",
+    "cardImage": "/products/jetech-vattentatt-mobilfodral/mobilfodral-thumbnail.webp",
+    "cardImageAlt": "JETech vattentätt mobilfodral för strand och pool",
+    "badge": "Elins trygghet-vid-vattnet",
+    "headline": "JETech vattentätt mobilfodral – lugn vid vattnet",
+    "shortBody": "Ett IPX8-klassat vattentätt fodral i 2-pack som skyddar mobilen mot vatten och sand. Du kan använda skärmen genom plasten och bära det runt halsen vid strand och pool.",
+    "valueHook": "Slipp oroa dig för mobilen på stranden",
+    "valueStatement": "JETech vattentäta mobilfodral är ett 2-pack IPX8-klassade fodral för dig som vill skydda mobilen mot vatten och sand vid stranden eller poolen. Du kan svara och fota genom plasten. Amazon visar 4,5 av 5 från 1 739 omdömen och köpare beskriver god kvalitet. Viktigt: kontrollera alltid att låset sluter tätt innan du utsätter mobilen för vatten.",
+    "passFor": [
+      "Vill skydda mobilen mot vatten och sand på stranden.",
+      "Vill kunna fota och svara utan att ta ut mobilen.",
+      "Gillar att få två fodral så hela sällskapet täcks."
+    ],
+    "caution": "IPX8 innebär att det ska tåla vatten enligt tillverkaren, men förslutningen avgör allt. Stäng låset noga, testa gärna fodralet tomt först och kontrollera alltid att det sluter tätt innan du badar med mobilen i.",
+    "usageGuidance": {
+      "title": "Så använder du det rätt",
+      "text": "Stäng låsmekanismen enligt anvisningen och tryck ut luften. Testa gärna fodralet tomt i vatten först för att se att det håller tätt. Kontrollera förslutningen varje gång innan du använder det med mobilen i."
+    },
+    "verdict": "Prisvärt vattentätt mobilskydd i 2-pack – stäng låset noga före bad.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 1 739 omdömen. Köpare lyfter kvaliteten och att det håller vatten ute – kom ihåg att alltid kontrollera att förslutningen sluter tätt.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Kan jag använda mobilen genom fodralet?", "answer": "Ja, du kan använda skärmen och fota genom plasten. Touch- och bildkänslan kan variera något, men de flesta funktioner fungerar." },
+      { "question": "Hur vet jag att det är tätt?", "answer": "Stäng låset enligt anvisningen och testa gärna fodralet tomt i vatten först. Kontrollera alltid att förslutningen sluter tätt innan du badar med mobilen i." },
+      { "question": "Passar det min mobil?", "answer": "Det passar de flesta mobiler upp till cirka 7,2 tum. Kolla din mobils mått mot fodralets angivna storlek innan." }
+    ],
+    "reviewSectionId": "jetech-vattentatt-mobilfodral-recensioner",
+    "reviewFormId": "jetech-vattentatt-mobilfodral-skriv-recension",
+    "targetKeyword": "vattentätt mobilfodral",
+    "metaTitle": "JETech vattentätt mobilfodral – skydd på stranden | Elins val",
+    "metaDescription": "Elin går igenom JETech vattentäta mobilfodral (2-pack, IPX8, 4,5 av 5 från 1 739 omdömen): skydda mobilen mot vatten och sand – och varför förslutningen är allt.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/mikrofiberhandduk", "label": "Mikrofiberhandduk", "text": "Snabbtorkande handduk som knappt tar plats." },
+      { "href": "/sommar/resa/strandklammor", "label": "Strandklämmor", "text": "Håll badlakanet på plats i blåsten." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan och stranden." }
+    ]
+  },
+  "images": {
+    "dir": "jetech-vattentatt-mobilfodral",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/91XBtimX4pL._AC_SL1500_.jpg", "out": "mobilfodral-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71hywFxBTgL._AC_SL1500_.jpg", "out": "mobilfodral-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71DqQN4YrhL._AC_SL1500_.jpg", "out": "mobilfodral-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71DkVCYqgEL._AC_SL1500_.jpg", "out": "mobilfodral-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71ARMWOXhqL._AC_SL1500_.jpg", "out": "mobilfodral-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "JETech vattentätt mobilfodral (2-pack)", "href": "/sommar/resa/vattentatt-mobilfodral", "date": "2026-07-05", "image": "/products/jetech-vattentatt-mobilfodral/mobilfodral-thumbnail.webp", "blurb": "IPX8-klassat vattentätt fodral som skyddar mobilen mot vatten och sand." }
+  ]
+}

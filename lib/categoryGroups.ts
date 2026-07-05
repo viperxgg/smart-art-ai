@@ -267,6 +267,15 @@ export const categoryProductGroups = {
         "myhodo-kompressionspase",
         "travel-dude-packkuber",],
     },
+    {
+      title: "Strand & bad",
+      productSlugs: [
+        "anortrek-sandfri-strandfilt",
+        "lifewit-kylvaska-ryggsack",
+        "strandklammor-9-pack",
+        "jetech-vattentatt-mobilfodral",
+        "fit-flip-mikrofiberhandduk",],
+    },
   ],
 } satisfies Record<ProductCategorySlug, CategoryProductGroup[]>;
 

@@ -14516,7 +14516,463 @@ export const epickaReseadapterProduct: Product = {
   comments: [],
 };
 
+export const fitFlipMikrofiberhandukProduct: Product = {
+  slug: "fit-flip-mikrofiberhandduk",
+  title: "Fit-Flip mikrofiberhandduk – kompakt & snabbtorkande",
+  category: "resa",
+  asin: "B0B945VBJJ",
+  brand: "Fit-Flip",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Snabbtorkande",
+    "Ultralätt",
+    "Kompakt",
+  ],
+  image: "/products/fit-flip-mikrofiberhandduk/handduk-thumbnail.webp",
+  imageAlt: "Fit-Flip mikrofiberhandduk hopvikt för resa och strand",
+  images: [
+    {
+      src: "/products/fit-flip-mikrofiberhandduk/handduk-thumbnail.webp",
+      alt: "Fit-Flip mikrofiberhandduk för strand och resa",
+      label: "Handduk",
+    },
+    {
+      src: "/products/fit-flip-mikrofiberhandduk/handduk-1.webp",
+      alt: "Mikrofiberhandduk hopvikt i liten storlek",
+      label: "Kompakt",
+    },
+    {
+      src: "/products/fit-flip-mikrofiberhandduk/handduk-2.webp",
+      alt: "Snabbtorkande mikrofiberhandduk utbredd på stranden",
+      label: "Utbredd",
+    },
+    {
+      src: "/products/fit-flip-mikrofiberhandduk/handduk-3.webp",
+      alt: "Mikrofiberhandduk i olika färger",
+      label: "Färger",
+    },
+    {
+      src: "/products/fit-flip-mikrofiberhandduk/handduk-4.webp",
+      alt: "Detalj av Fit-Flip mikrofiberhandduk med förvaringspåse",
+      label: "Påse",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0B945VBJJ?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/mikrofiberhandduk",
+  summary: "En lätt mikrofiberhandduk som torkar snabbt och packas ihop till en liten storlek – perfekt för stranden, poolen och resan. Den tar mycket mindre plats än en vanlig frottéhandduk och torkar snabbt i solen. Bra att veta: det är en funktionell handduk, en del föredrar den mjukare känslan av en tjock frottéhandduk.",
+  evaluation: {
+    headline: "Snabbtorkande resehandduk som knappt tar plats",
+    intro: "Elin tittar närmare på Fit-Flip mikrofiberhandduk: en lätt, snabbtorkande handduk som viks ihop till en liten storlek och får plats i vilken strandväska som helst. Den torkar snabbt i solen och väger nästan ingenting, vilket gör den smidig för strand, pool och resa.",
+    verdict: "Lätt och snabbtorkande resehandduk som tar minimalt med plats.",
+    checks: [],
+  },
+  specSectionEyebrow: "Mikrofiberhandduk",
+  specSectionTitle: "Fit-Flip mikrofiber",
+  specs: [
+    {
+      label: "Material",
+      caption: "Tyg",
+      value: "Mikrofiber – snabbtorkande",
+    },
+    {
+      label: "Format",
+      caption: "Packmått",
+      value: "Viks ihop litet, med påse",
+    },
+    {
+      label: "Vikt",
+      caption: "Bärbarhet",
+      value: "Ultralätt att ta med",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0B945VBJJ?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,5 av 5 från 35 103 omdömen.",
+    highlights: [
+      "Mjuk, lätt och snabbtorkande – torkar snabbt i solen.",
+      "Kompakt och ultralätt, tar liten plats i strandväskan.",
+      "Väldigt många nöjda köpare (4,5 av 5 från 35 103 omdömen).",
+    ],
+    cautions: [
+      "Det är en funktionell mikrofiberhandduk – en del föredrar känslan av en tjockare frottéhandduk.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const jetechMobilfodralProduct: Product = {
+  slug: "jetech-vattentatt-mobilfodral",
+  title: "JETech vattentätt mobilfodral (2-pack, IPX8)",
+  category: "resa",
+  asin: "B0D1DMSFBN",
+  brand: "JETech",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "IPX8",
+    "2-pack",
+    "Touch genom fodralet",
+  ],
+  image: "/products/jetech-vattentatt-mobilfodral/mobilfodral-thumbnail.webp",
+  imageAlt: "JETech vattentätt mobilfodral för strand och pool",
+  images: [
+    {
+      src: "/products/jetech-vattentatt-mobilfodral/mobilfodral-thumbnail.webp",
+      alt: "JETech vattentätt mobilfodral",
+      label: "Mobilfodral",
+    },
+    {
+      src: "/products/jetech-vattentatt-mobilfodral/mobilfodral-1.webp",
+      alt: "Mobil i vattentätt fodral vid poolkanten",
+      label: "Vid vattnet",
+    },
+    {
+      src: "/products/jetech-vattentatt-mobilfodral/mobilfodral-2.webp",
+      alt: "Vattentätt fodral med lås som sluter tätt",
+      label: "Lås",
+    },
+    {
+      src: "/products/jetech-vattentatt-mobilfodral/mobilfodral-3.webp",
+      alt: "Två vattentäta mobilfodral i 2-pack",
+      label: "2-pack",
+    },
+    {
+      src: "/products/jetech-vattentatt-mobilfodral/mobilfodral-4.webp",
+      alt: "Detalj av JETech vattentätt mobilfodral",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0D1DMSFBN?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/vattentatt-mobilfodral",
+  summary: "Ett IPX8-klassat vattentätt fodral i 2-pack som skyddar mobilen mot vatten och sand vid strand och pool. Du kan använda skärmen genom plasten och hänga fodralet runt halsen. Bra att veta: kontrollera alltid att låset sluter tätt innan du utsätter mobilen för vatten, och testa gärna fodralet tomt först.",
+  evaluation: {
+    headline: "Vattentätt skydd för mobilen vid vattnet",
+    intro: "Elin tittar närmare på JETech vattentäta mobilfodral: ett 2-pack IPX8-klassade fodral som skyddar mobilen mot vatten, sand och stänk. Du kan svara och fota genom plasten och bära fodralet runt halsen vid stranden eller poolen.",
+    verdict: "Prisvärt vattentätt mobilskydd i 2-pack – stäng låset noga före bad.",
+    checks: [],
+  },
+  specSectionEyebrow: "Mobilfodral",
+  specSectionTitle: "JETech vattentätt fodral",
+  specs: [
+    {
+      label: "Skydd",
+      caption: "Klass",
+      value: "IPX8 – vattentätt enligt tillverkaren",
+    },
+    {
+      label: "Innehåll",
+      caption: "Antal",
+      value: "2-pack",
+    },
+    {
+      label: "Passar",
+      caption: "Storlek",
+      value: "De flesta mobiler upp till ca 7,2 tum",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0D1DMSFBN?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,5 av 5 från 1 739 omdömen.",
+    highlights: [
+      "IPX8-klassat – håller vatten ute enligt tillverkaren, uppskattat vid bad och strand.",
+      "Kommer i 2-pack och passar de flesta större mobiler.",
+      "Bra kvalitet enligt många köpare (4,5 av 5 från 1 739 omdömen).",
+    ],
+    cautions: [
+      "Stäng fodralet noga och kolla alltid att låset sluter tätt innan du badar.",
+      "Bild- och touchkänsla genom plasten kan variera.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const strandklammorProduct: Product = {
+  slug: "strandklammor-9-pack",
+  title: "Strandklämmor för badlakan (9-pack, vindtåliga)",
+  category: "resa",
+  asin: "B0CZDL42LK",
+  brand: "Vindtåliga klämmor",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "9-pack",
+    "Vindtåliga",
+    "Multiuse",
+  ],
+  image: "/products/strandklammor/strandklammor-thumbnail.webp",
+  imageAlt: "Strandklämmor som håller badlakanet på plats på solstolen",
+  images: [
+    {
+      src: "/products/strandklammor/strandklammor-thumbnail.webp",
+      alt: "Strandklämmor i 9-pack",
+      label: "9-pack",
+    },
+    {
+      src: "/products/strandklammor/strandklammor-1.webp",
+      alt: "Strandklämma som fäster badlakan på solstol",
+      label: "På stolen",
+    },
+    {
+      src: "/products/strandklammor/strandklammor-2.webp",
+      alt: "Färgglada strandklämmor",
+      label: "Färger",
+    },
+    {
+      src: "/products/strandklammor/strandklammor-3.webp",
+      alt: "Strandklämma greppar tjockt badlakan",
+      label: "Grepp",
+    },
+    {
+      src: "/products/strandklammor/strandklammor-4.webp",
+      alt: "Detalj av strandklämmor",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0CZDL42LK?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/strandklammor",
+  summary: "Vindtåliga klämmor i 9-pack som håller badlakanet på plats på solstolen även när det blåser. De greppar rejält och funkar även som stora klädnypor hemma eller för att hänga blöta plagg på resan. Bra att veta: det är enkla plastklämmor – vid riktigt hård vind eller väldigt tjocka dynor kan greppet utmanas.",
+  evaluation: {
+    headline: "Slut på badlakanet som blåser bort",
+    intro: "Elin tittar närmare på dessa strandklämmor: ett 9-pack vindtåliga klämmor som håller badlakanet på plats på solstolen. De greppar rejält och kan även användas som stora klädnypor hemma eller för blöta plagg på resan.",
+    verdict: "Enkla, vindtåliga klämmor som håller badlakanet på plats – litet men skönt.",
+    checks: [],
+  },
+  specSectionEyebrow: "Strandklämmor",
+  specSectionTitle: "Vindtåliga strandklämmor",
+  specs: [
+    {
+      label: "Innehåll",
+      caption: "Antal",
+      value: "9-pack",
+    },
+    {
+      label: "Funktion",
+      caption: "Grepp",
+      value: "Håller badlakan på solstolen",
+    },
+    {
+      label: "Extra",
+      caption: "Multiuse",
+      value: "Fungerar som stora klädnypor",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0CZDL42LK?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 353 omdömen.",
+    highlights: [
+      "Håller badlakanet på plats på solstolen även när det blåser.",
+      "Bra storlek och greppar rejält – funkar även som stora klädnypor hemma.",
+      "9-pack, uppskattade av många (4,6 av 5 från 353 omdömen).",
+    ],
+    cautions: [
+      "Det är enkla plastklämmor – vid riktigt hård vind eller väldigt tjocka dynor kan greppet utmanas.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const lifewitKylvaskaProduct: Product = {
+  slug: "lifewit-kylvaska-ryggsack",
+  title: "Lifewit kylväska ryggsäck (24 L, isolerad)",
+  category: "resa",
+  asin: "B07B8GRWMC",
+  brand: "Lifewit",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "24 liter",
+    "Ryggsäck",
+    "Isolerad",
+  ],
+  image: "/products/lifewit-kylvaska/kylvaska-thumbnail.webp",
+  imageAlt: "Lifewit kylväska ryggsäck för strand och picknick",
+  images: [
+    {
+      src: "/products/lifewit-kylvaska/kylvaska-thumbnail.webp",
+      alt: "Lifewit kylväska ryggsäck",
+      label: "Kylryggsäck",
+    },
+    {
+      src: "/products/lifewit-kylvaska/kylvaska-1.webp",
+      alt: "Isolerad kylryggsäck fylld med dryck och mat",
+      label: "Fylld",
+    },
+    {
+      src: "/products/lifewit-kylvaska/kylvaska-2.webp",
+      alt: "Kylryggsäck buren på ryggen till stranden",
+      label: "På ryggen",
+    },
+    {
+      src: "/products/lifewit-kylvaska/kylvaska-3.webp",
+      alt: "Isolerat foder i kylväskan",
+      label: "Isolering",
+    },
+    {
+      src: "/products/lifewit-kylvaska/kylvaska-4.webp",
+      alt: "Detalj av Lifewit kylväska",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B07B8GRWMC?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/kylvaska",
+  summary: "En isolerad kylväska i ryggsäcksmodell på 24 liter som håller dryck och mat sval på väg till stranden, picknicken eller campingen. Du bär den bekvämt på ryggen och har händerna fria. Bra att veta: det är en mjuk kylväska – den håller kylan i timmar, inte hela dagen i stekande sol. Använd kylklampar för bästa effekt.",
+  evaluation: {
+    headline: "Sval dryck hela vägen till stranden",
+    intro: "Elin tittar närmare på Lifewit kylväska: en isolerad kylryggsäck på 24 liter som håller mat och dryck sval på utflykten. Ryggsäcksmodellen gör den bekväm att bära längre sträckor, och den rymmer tillräckligt för hela sällskapet.",
+    verdict: "Rymlig, bekväm kylryggsäck för strand och picknick – använd kylklampar.",
+    checks: [],
+  },
+  specSectionEyebrow: "Kylväska",
+  specSectionTitle: "Lifewit kylryggsäck",
+  specs: [
+    {
+      label: "Volym",
+      caption: "Storlek",
+      value: "24 liter",
+    },
+    {
+      label: "Modell",
+      caption: "Bärsätt",
+      value: "Ryggsäck med axelband",
+    },
+    {
+      label: "Funktion",
+      caption: "Kyla",
+      value: "Isolerat foder – bäst med kylklampar",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B07B8GRWMC?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 9 411 omdömen.",
+    highlights: [
+      "Håller kylan bra och rymmer mycket (24 liter) – räddar utflykten till stranden.",
+      "Ryggsäcksmodell med bekväma axelband, skönt att bära längre sträckor.",
+      "Väldigt populär (4,6 av 5 från 9 411 omdömen).",
+    ],
+    cautions: [
+      "Det är en mjuk kylväska – den håller kylan i timmar, inte hela dagen i stekande sol. Använd kylklampar för bäst effekt.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const anortrekStrandfiltProduct: Product = {
+  slug: "anortrek-sandfri-strandfilt",
+  title: "AnorTrek sandfri strandfilt (extra stor, 300x300 cm)",
+  category: "resa",
+  asin: "B0C9CVWZPC",
+  brand: "AnorTrek",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Sandfri",
+    "Extra stor",
+    "Snabbtorkande",
+  ],
+  image: "/products/anortrek-strandfilt/strandfilt-thumbnail.webp",
+  imageAlt: "AnorTrek sandfri strandfilt utbredd på stranden",
+  images: [
+    {
+      src: "/products/anortrek-strandfilt/strandfilt-thumbnail.webp",
+      alt: "AnorTrek sandfri strandfilt",
+      label: "Strandfilt",
+    },
+    {
+      src: "/products/anortrek-strandfilt/strandfilt-1.webp",
+      alt: "Extra stor strandfilt med plats för flera personer",
+      label: "Extra stor",
+    },
+    {
+      src: "/products/anortrek-strandfilt/strandfilt-2.webp",
+      alt: "Sanden borstas lätt av den sandfria filten",
+      label: "Sandfri",
+    },
+    {
+      src: "/products/anortrek-strandfilt/strandfilt-3.webp",
+      alt: "Strandfilt hopvikt till liten påse",
+      label: "Kompakt",
+    },
+    {
+      src: "/products/anortrek-strandfilt/strandfilt-4.webp",
+      alt: "Strandfilt med fästpinnar i hörnen",
+      label: "Fästen",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0C9CVWZPC?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/strandfilt",
+  summary: "En extra stor sandfri strandfilt (300x300 cm) i lätt, snabbtorkande material – sanden borstas lätt av och filten viks ihop till en liten påse. Det finns gott om plats för hela sällskapet, och den är smidig att ta med. Bra att veta: det är en tunn, lätt filt – på stenig mark känner du underlaget, och du bör fästa hörnen i blåst.",
+  evaluation: {
+    headline: "Extra stor strandfilt utan sandkladd",
+    intro: "Elin tittar närmare på AnorTrek sandfria strandfilt: en extra stor filt (300x300 cm) i lätt, snabbtorkande material. Sanden borstas lätt av, den viks ihop kompakt och rymmer hela sällskapet – en smidig bas för stranddagen.",
+    verdict: "Stor, lätt och sandfri strandfilt – perfekt för sällskapet, tunn på stenig mark.",
+    checks: [],
+  },
+  specSectionEyebrow: "Strandfilt",
+  specSectionTitle: "AnorTrek sandfri filt",
+  specs: [
+    {
+      label: "Storlek",
+      caption: "Mått",
+      value: "Extra stor, 300x300 cm",
+    },
+    {
+      label: "Material",
+      caption: "Tyg",
+      value: "Lätt, snabbtorkande, sandfritt",
+    },
+    {
+      label: "Packmått",
+      caption: "Bärbarhet",
+      value: "Viks ihop litet, med påse",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0C9CVWZPC?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,4 av 5 från 390 omdömen.",
+    highlights: [
+      "Sandfri och extra stor (300x300 cm) – får plats för hela sällskapet.",
+      "Lätt, snabbtorkande och vikbar – kompakt att ta med till stranden.",
+      "Uppskattad av köpare (4,4 av 5 från 390 omdömen).",
+    ],
+    cautions: [
+      "Det är en tunn, lätt filt – på stenig mark känner du underlaget. Fäst hörnen i blåst.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
+  anortrekStrandfiltProduct,
+  lifewitKylvaskaProduct,
+  strandklammorProduct,
+  jetechMobilfodralProduct,
+  fitFlipMikrofiberhandukProduct,
   epickaReseadapterProduct,
   traxentaNecessarProduct,
   grifemaBagagevagProduct,
