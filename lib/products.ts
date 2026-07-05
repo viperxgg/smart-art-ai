@@ -15239,7 +15239,189 @@ export const anker735VaggladdareProduct: Product = {
   comments: [],
 };
 
+export const anyooRegnponchoProduct: Product = {
+  slug: "anyoo-regnponcho",
+  title: "Anyoo regnponcho – återanvändbar med huva",
+  category: "resa",
+  asin: "B09WHLXYS6",
+  brand: "Anyoo",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Återanvändbar",
+    "Med huva",
+    "Packbar",
+  ],
+  image: "/products/anyoo-regnponcho/regnponcho-thumbnail.webp",
+  imageAlt: "Anyoo återanvändbar regnponcho med huva",
+  images: [
+    {
+      src: "/products/anyoo-regnponcho/regnponcho-thumbnail.webp",
+      alt: "Anyoo regnponcho med huva",
+      label: "Regnponcho",
+    },
+    {
+      src: "/products/anyoo-regnponcho/regnponcho-1.webp",
+      alt: "Person i regnponcho på festival i regn",
+      label: "På festival",
+    },
+    {
+      src: "/products/anyoo-regnponcho/regnponcho-2.webp",
+      alt: "Regnponcho med justerbar huva",
+      label: "Huva",
+    },
+    {
+      src: "/products/anyoo-regnponcho/regnponcho-3.webp",
+      alt: "Regnponcho hopvikt i liten påse",
+      label: "Packbar",
+    },
+    {
+      src: "/products/anyoo-regnponcho/regnponcho-4.webp",
+      alt: "Regnponcho i olika färger",
+      label: "Färger",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B09WHLXYS6?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/regnponcho",
+  summary: "En lätt, återanvändbar regnponcho med huva som håller regn och blåst borta på festivalen, vandringen eller utflykten. Den viks ihop litet och får plats i väskan, så du alltid har regnskyddet med. Bra att veta: det är en lätt poncho, inte en tjock regnjacka – i riktigt hård vind kan den fladdra.",
+  evaluation: {
+    headline: "Regnskyddet som räddar festivaldagen",
+    intro: "Elin tittar närmare på Anyoo regnponcho: en lätt, återanvändbar poncho med huva som du enkelt drar på när vädret vänder. Den packas ihop litet, så den får plats i väskan inför festivalen eller utflykten. Flera köpare nämner att den räddade just en musikfestival.",
+    verdict: "Lätt, packbar regnponcho som alltid är värd platsen i väskan.",
+    checks: [],
+  },
+  specSectionEyebrow: "Regnponcho",
+  specSectionTitle: "Anyoo regnponcho",
+  specs: [
+    {
+      label: "Typ",
+      caption: "Modell",
+      value: "Återanvändbar poncho med huva",
+    },
+    {
+      label: "Format",
+      caption: "Packmått",
+      value: "Viks ihop litet, med påse",
+    },
+    {
+      label: "Använd till",
+      caption: "Passar",
+      value: "Festival, vandring, utflykt",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B09WHLXYS6?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,5 av 5 från 24 458 omdömen.",
+    highlights: [
+      "Håller regn och blåst borta – flera nämner att den räddade musikfestivalen.",
+      "Återanvändbar med huva, lätt och packbar – tar liten plats i väskan.",
+      "Enormt populär (4,5 av 5 från 24 458 omdömen).",
+    ],
+    cautions: [
+      "Det är en lätt poncho, inte en tjock regnjacka – i hård vind kan den fladdra.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const blukarPannlampaProduct: Product = {
+  slug: "blukar-pannlampa",
+  title: "Blukar pannlampa – uppladdningsbar LED med 8 lägen",
+  category: "resa",
+  asin: "B0CBPHGWJ2",
+  brand: "Blukar",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Uppladdningsbar",
+    "8 ljuslägen",
+    "Sensorstyrning",
+  ],
+  image: "/products/blukar-pannlampa/pannlampa-thumbnail.webp",
+  imageAlt: "Blukar uppladdningsbar pannlampa för camping",
+  images: [
+    {
+      src: "/products/blukar-pannlampa/pannlampa-thumbnail.webp",
+      alt: "Blukar pannlampa",
+      label: "Pannlampa",
+    },
+    {
+      src: "/products/blukar-pannlampa/pannlampa-1.webp",
+      alt: "Pannlampa som lyser upp i mörkret på campingen",
+      label: "I mörkret",
+    },
+    {
+      src: "/products/blukar-pannlampa/pannlampa-2.webp",
+      alt: "Pannlampa med rött ljus och flera lägen",
+      label: "Lägen",
+    },
+    {
+      src: "/products/blukar-pannlampa/pannlampa-3.webp",
+      alt: "Uppladdningsbar pannlampa med USB",
+      label: "USB-laddning",
+    },
+    {
+      src: "/products/blukar-pannlampa/pannlampa-4.webp",
+      alt: "Pannlampa buren på pannan",
+      label: "På pannan",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0CBPHGWJ2?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/pannlampa",
+  summary: "En uppladdningsbar LED-pannlampa med flera ljuslägen, sensorstyrning och rött ljus – så du har händerna fria i mörkret på campingen, festivalen eller kvällspromenaden. Den laddas via USB, så du slipper byta batteri. Bra att veta: sensorstyrningen kan vara känslig och slå på/av när du rör vid ansiktet.",
+  evaluation: {
+    headline: "Händerna fria när mörkret faller",
+    intro: "Elin tittar närmare på Blukar pannlampa: en uppladdningsbar LED-lampa med åtta ljuslägen, sensorstyrning och rött ljus. Den ger bra ljus när du sätter upp tältet, letar i väskan eller går på toa i mörkret – med händerna fria. Väldigt populär med över 12 000 omdömen.",
+    verdict: "Prisvärd, uppladdningsbar pannlampa med bra ljus – sensorn kan vara pillig.",
+    checks: [],
+  },
+  specSectionEyebrow: "Pannlampa",
+  specSectionTitle: "Blukar pannlampa",
+  specs: [
+    {
+      label: "Ström",
+      caption: "Laddning",
+      value: "Uppladdningsbar via USB",
+    },
+    {
+      label: "Lägen",
+      caption: "Ljus",
+      value: "8 ljuslägen inkl. rött ljus",
+    },
+    {
+      label: "Extra",
+      caption: "Funktion",
+      value: "Sensorstyrning, vattentålig",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0CBPHGWJ2?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,5 av 5 från 12 344 omdömen.",
+    highlights: [
+      "Ger mycket bra ljus med flera lägen (bl.a. sensor och rött ljus) – händerna fria i mörkret.",
+      "Uppladdningsbar via USB – slipp byta batteri på campingen.",
+      "Väldigt populär (4,5 av 5 från 12 344 omdömen).",
+    ],
+    cautions: [
+      "Sensorstyrningen kan vara känslig – vissa tycker den slår på/av av misstag när man rör vid ansiktet.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
+  blukarPannlampaProduct,
+  anyooRegnponchoProduct,
   anker735VaggladdareProduct,
   raviadUsbCKabelProduct,
   ankerZoloPowerbankProduct,

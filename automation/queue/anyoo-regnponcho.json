@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "anyooRegnponchoProduct",
+  "category": "resa",
+  "categoryGroup": "Festival & camping",
+  "route": "sommar/resa/regnponcho",
+  "pageComponentName": "RegnponchoPage",
+  "product": {
+    "slug": "anyoo-regnponcho",
+    "title": "Anyoo regnponcho – återanvändbar med huva",
+    "category": "resa",
+    "asin": "B09WHLXYS6",
+    "brand": "Anyoo",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["Återanvändbar", "Med huva", "Packbar"],
+    "image": "/products/anyoo-regnponcho/regnponcho-thumbnail.webp",
+    "imageAlt": "Anyoo återanvändbar regnponcho med huva",
+    "images": [
+      { "src": "/products/anyoo-regnponcho/regnponcho-thumbnail.webp", "alt": "Anyoo regnponcho med huva", "label": "Regnponcho" },
+      { "src": "/products/anyoo-regnponcho/regnponcho-1.webp", "alt": "Person i regnponcho på festival i regn", "label": "På festival" },
+      { "src": "/products/anyoo-regnponcho/regnponcho-2.webp", "alt": "Regnponcho med justerbar huva", "label": "Huva" },
+      { "src": "/products/anyoo-regnponcho/regnponcho-3.webp", "alt": "Regnponcho hopvikt i liten påse", "label": "Packbar" },
+      { "src": "/products/anyoo-regnponcho/regnponcho-4.webp", "alt": "Regnponcho i olika färger", "label": "Färger" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B09WHLXYS6?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/regnponcho",
+    "summary": "En lätt, återanvändbar regnponcho med huva som håller regn och blåst borta på festivalen, vandringen eller utflykten. Den viks ihop litet och får plats i väskan, så du alltid har regnskyddet med. Bra att veta: det är en lätt poncho, inte en tjock regnjacka – i riktigt hård vind kan den fladdra.",
+    "evaluation": {
+      "headline": "Regnskyddet som räddar festivaldagen",
+      "intro": "Elin tittar närmare på Anyoo regnponcho: en lätt, återanvändbar poncho med huva som du enkelt drar på när vädret vänder. Den packas ihop litet, så den får plats i väskan inför festivalen eller utflykten. Flera köpare nämner att den räddade just en musikfestival.",
+      "verdict": "Lätt, packbar regnponcho som alltid är värd platsen i väskan.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Regnponcho",
+    "specSectionTitle": "Anyoo regnponcho",
+    "specs": [
+      { "label": "Typ", "caption": "Modell", "value": "Återanvändbar poncho med huva" },
+      { "label": "Format", "caption": "Packmått", "value": "Viks ihop litet, med påse" },
+      { "label": "Använd till", "caption": "Passar", "value": "Festival, vandring, utflykt" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B09WHLXYS6?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 24 458 omdömen.",
+      "highlights": [
+        "Håller regn och blåst borta – flera nämner att den räddade musikfestivalen.",
+        "Återanvändbar med huva, lätt och packbar – tar liten plats i väskan.",
+        "Enormt populär (4,5 av 5 från 24 458 omdömen)."
+      ],
+      "cautions": [
+        "Det är en lätt poncho, inte en tjock regnjacka – i hård vind kan den fladdra."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/regnponcho",
+    "cardBadge": "Återanvändbar",
+    "cardHook": "Lätt regnponcho med huva som räddar festivaldagen när vädret vänder.",
+    "cardImage": "/products/anyoo-regnponcho/regnponcho-thumbnail.webp",
+    "cardImageAlt": "Anyoo återanvändbar regnponcho med huva",
+    "badge": "Elins väder-räddare",
+    "headline": "Anyoo regnponcho – packa ner, slipp bli blöt",
+    "shortBody": "En lätt, återanvändbar regnponcho med huva som håller regn och blåst borta på festivalen eller utflykten. Den viks ihop litet och får plats i väskan.",
+    "valueHook": "Inte glamoröst – bara smart när vädret vänder",
+    "valueStatement": "Anyoo regnponcho är en lätt, återanvändbar poncho med huva för dig som inte vill låta regnet förstöra festivalen eller utflykten. Den packas ihop litet och får plats i väskan, så du alltid har regnskyddet med. Amazon visar 4,5 av 5 från hela 24 458 omdömen, och flera köpare nämner att den räddade en regnig festivaldag. Tänk på att det är en lätt poncho som kan fladdra i hård vind.",
+    "passFor": [
+      "Vill ha ett lätt regnskydd som alltid får plats i väskan.",
+      "Går på festival, vandrar eller är mycket utomhus.",
+      "Föredrar en återanvändbar poncho framför engångsplast."
+    ],
+    "caution": "Det är en lätt poncho, inte en tjock regnjacka. Den håller regnet borta bra, men i riktigt hård vind kan den fladdra. Se den som ett smidigt regnskydd att alltid ha med, inte som ett byte mot en riktig skaljacka.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ha ponchon nedpackad i väskan så du snabbt kan dra på den när det börjar regna. Fäll upp huvan och dra åt om det blåser. Låt den torka innan du viker ner den igen, så håller den sig fräsch."
+    },
+    "verdict": "Lätt, packbar regnponcho som alltid är värd platsen i väskan.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 24 458 omdömen. Köpare gillar att den är lätt, packbar och räddar regniga festivaldagar – kom ihåg att en lätt poncho kan fladdra i hård vind.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Är den återanvändbar?", "answer": "Ja, till skillnad från engångsponchos är den gjord för att användas om och om igen. Låt den torka innan du viker ner den så håller den längre." },
+      { "question": "Tar den mycket plats?", "answer": "Nej, den viks ihop litet och följer med i en påse, så den får lätt plats i festivalväskan eller ryggsäcken." },
+      { "question": "Ersätter den en regnjacka?", "answer": "Den är ett lätt regnskydd, inte en tjock skaljacka. Den håller regnet borta bra, men i mycket blåsigt väder kan den fladdra." }
+    ],
+    "reviewSectionId": "anyoo-regnponcho-recensioner",
+    "reviewFormId": "anyoo-regnponcho-skriv-recension",
+    "targetKeyword": "regnponcho",
+    "metaTitle": "Anyoo regnponcho – återanvändbar för festival | Elins val",
+    "metaDescription": "Elin går igenom Anyoo regnponcho (4,5 av 5 från 24 458 omdömen): lätt, återanvändbar och packbar med huva – räddar festivaldagen när vädret vänder.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/pannlampa", "label": "Pannlampa", "text": "Händerna fria i mörkret på campingen." },
+      { "href": "/sommar/resa/powerbank", "label": "Powerbank", "text": "Håll mobilen laddad hela festivalen." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan och festivalen." }
+    ]
+  },
+  "images": {
+    "dir": "anyoo-regnponcho",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61g54MEfo7L._AC_SL1500_.jpg", "out": "regnponcho-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71v8VSEnx3L._AC_SL1500_.jpg", "out": "regnponcho-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71eGkXn63eL._AC_SL1500_.jpg", "out": "regnponcho-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/814Y0XfhDaL._AC_SL1500_.jpg", "out": "regnponcho-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71C34T8oHpL._AC_SL1500_.jpg", "out": "regnponcho-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Anyoo regnponcho", "href": "/sommar/resa/regnponcho", "date": "2026-07-05", "image": "/products/anyoo-regnponcho/regnponcho-thumbnail.webp", "blurb": "Lätt, återanvändbar regnponcho med huva som räddar festivaldagen när vädret vänder." }
+  ]
+}

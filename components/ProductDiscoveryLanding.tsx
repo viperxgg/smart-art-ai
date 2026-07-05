@@ -39,6 +39,22 @@ type LatestUpdate = {
 const latestUpdates = [
   {
     type: "Resa",
+    title: "Blukar pannlampa (uppladdningsbar)",
+    href: "/sommar/resa/pannlampa",
+    date: "2026-07-05",
+    image: "/products/blukar-pannlampa/pannlampa-thumbnail.webp",
+    blurb: "Uppladdningsbar LED-pannlampa med 8 lägen - händerna fria i mörkret på campingen.",
+  },
+  {
+    type: "Resa",
+    title: "Anyoo regnponcho",
+    href: "/sommar/resa/regnponcho",
+    date: "2026-07-05",
+    image: "/products/anyoo-regnponcho/regnponcho-thumbnail.webp",
+    blurb: "Lätt, återanvändbar regnponcho med huva som räddar festivaldagen när vädret vänder.",
+  },
+  {
+    type: "Resa",
     title: "Anker 735 väggladdare (65W)",
     href: "/sommar/resa/vaggladdare",
     date: "2026-07-05",

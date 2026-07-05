@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "blukarPannlampaProduct",
+  "category": "resa",
+  "categoryGroup": "Festival & camping",
+  "route": "sommar/resa/pannlampa",
+  "pageComponentName": "PannlampaPage",
+  "product": {
+    "slug": "blukar-pannlampa",
+    "title": "Blukar pannlampa – uppladdningsbar LED med 8 lägen",
+    "category": "resa",
+    "asin": "B0CBPHGWJ2",
+    "brand": "Blukar",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["Uppladdningsbar", "8 ljuslägen", "Sensorstyrning"],
+    "image": "/products/blukar-pannlampa/pannlampa-thumbnail.webp",
+    "imageAlt": "Blukar uppladdningsbar pannlampa för camping",
+    "images": [
+      { "src": "/products/blukar-pannlampa/pannlampa-thumbnail.webp", "alt": "Blukar pannlampa", "label": "Pannlampa" },
+      { "src": "/products/blukar-pannlampa/pannlampa-1.webp", "alt": "Pannlampa som lyser upp i mörkret på campingen", "label": "I mörkret" },
+      { "src": "/products/blukar-pannlampa/pannlampa-2.webp", "alt": "Pannlampa med rött ljus och flera lägen", "label": "Lägen" },
+      { "src": "/products/blukar-pannlampa/pannlampa-3.webp", "alt": "Uppladdningsbar pannlampa med USB", "label": "USB-laddning" },
+      { "src": "/products/blukar-pannlampa/pannlampa-4.webp", "alt": "Pannlampa buren på pannan", "label": "På pannan" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0CBPHGWJ2?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/pannlampa",
+    "summary": "En uppladdningsbar LED-pannlampa med flera ljuslägen, sensorstyrning och rött ljus – så du har händerna fria i mörkret på campingen, festivalen eller kvällspromenaden. Den laddas via USB, så du slipper byta batteri. Bra att veta: sensorstyrningen kan vara känslig och slå på/av när du rör vid ansiktet.",
+    "evaluation": {
+      "headline": "Händerna fria när mörkret faller",
+      "intro": "Elin tittar närmare på Blukar pannlampa: en uppladdningsbar LED-lampa med åtta ljuslägen, sensorstyrning och rött ljus. Den ger bra ljus när du sätter upp tältet, letar i väskan eller går på toa i mörkret – med händerna fria. Väldigt populär med över 12 000 omdömen.",
+      "verdict": "Prisvärd, uppladdningsbar pannlampa med bra ljus – sensorn kan vara pillig.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Pannlampa",
+    "specSectionTitle": "Blukar pannlampa",
+    "specs": [
+      { "label": "Ström", "caption": "Laddning", "value": "Uppladdningsbar via USB" },
+      { "label": "Lägen", "caption": "Ljus", "value": "8 ljuslägen inkl. rött ljus" },
+      { "label": "Extra", "caption": "Funktion", "value": "Sensorstyrning, vattentålig" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0CBPHGWJ2?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 12 344 omdömen.",
+      "highlights": [
+        "Ger mycket bra ljus med flera lägen (bl.a. sensor och rött ljus) – händerna fria i mörkret.",
+        "Uppladdningsbar via USB – slipp byta batteri på campingen.",
+        "Väldigt populär (4,5 av 5 från 12 344 omdömen)."
+      ],
+      "cautions": [
+        "Sensorstyrningen kan vara känslig – vissa tycker den slår på/av av misstag när man rör vid ansiktet."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/pannlampa",
+    "cardBadge": "Uppladdningsbar",
+    "cardHook": "Bra ljus och händerna fria i mörkret – laddas via USB.",
+    "cardImage": "/products/blukar-pannlampa/pannlampa-thumbnail.webp",
+    "cardImageAlt": "Blukar uppladdningsbar pannlampa för camping",
+    "badge": "Elins mörker-tips",
+    "headline": "Blukar pannlampa – ljus när du behöver det",
+    "shortBody": "En uppladdningsbar LED-pannlampa med åtta ljuslägen, sensorstyrning och rött ljus. Ger bra ljus på campingen eller festivalen med händerna fria – och laddas via USB.",
+    "valueHook": "Smart när det blir mörkt",
+    "valueStatement": "Blukar pannlampa är en uppladdningsbar LED-lampa för dig som vill ha händerna fria i mörkret – på campingen, festivalen eller kvällspromenaden. Åtta ljuslägen, sensorstyrning och rött ljus ger flexibilitet, och USB-laddning gör att du slipper byta batteri. Amazon visar 4,5 av 5 från över 12 000 omdömen. Tänk på att sensorstyrningen kan vara känslig och slå på/av av misstag.",
+    "passFor": [
+      "Vill ha händerna fria i mörkret på camping eller festival.",
+      "Föredrar en uppladdningsbar lampa framför batteribyten.",
+      "Vill ha flera ljuslägen och rött ljus för olika situationer."
+    ],
+    "caution": "Sensorstyrningen, där du vinkar för att tända/släcka, kan vara känslig och reagera av misstag när du rör vid ansiktet. Du kan stänga av sensorläget om det stör. Ladda den full innan du åker så den räcker hela vistelsen.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ladda pannlampan full via USB innan resan. Använd rött ljus i tältet för att inte blända, och sänk ljusstyrkan för att spara ström. Stäng av sensorläget om den tänds/släcks av misstag."
+    },
+    "verdict": "Prisvärd, uppladdningsbar pannlampa med bra ljus – sensorn kan vara pillig.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 12 344 omdömen. Köpare lyfter det bra ljuset, de många lägena och USB-laddningen – sensorstyrningen kan dock vara lite känslig.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Behöver jag byta batteri?", "answer": "Nej, den laddas via USB. Ladda den full innan resan så slipper du batteribyten på campingen." },
+      { "question": "Vad är rött ljus bra för?", "answer": "Rött ljus bländar mindre i mörkret, vilket är skönt i tältet och stör inte nattseendet lika mycket som vitt ljus." },
+      { "question": "Hur funkar sensorstyrningen?", "answer": "Du vinkar med handen för att tända eller släcka utan att röra lampan. Den kan vara känslig, men du kan stänga av sensorläget om den reagerar av misstag." }
+    ],
+    "reviewSectionId": "blukar-pannlampa-recensioner",
+    "reviewFormId": "blukar-pannlampa-skriv-recension",
+    "targetKeyword": "pannlampa",
+    "metaTitle": "Blukar pannlampa – uppladdningsbar för camping | Elins val",
+    "metaDescription": "Elin går igenom Blukar pannlampa (4,5 av 5 från 12 344 omdömen): uppladdningsbar LED med 8 lägen och rött ljus – händerna fria i mörkret, och vad du bör veta om sensorn.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/regnponcho", "label": "Regnponcho", "text": "Håll dig torr när vädret vänder på festivalen." },
+      { "href": "/sommar/resa/powerbank", "label": "Powerbank", "text": "Ladda mobil och pannlampa på campingen." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan och festivalen." }
+    ]
+  },
+  "images": {
+    "dir": "blukar-pannlampa",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71cEdbO4RdL._AC_SL1500_.jpg", "out": "pannlampa-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81PxkQMKhJL._AC_SL1500_.jpg", "out": "pannlampa-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81DSgkAgRmL._AC_SL1500_.jpg", "out": "pannlampa-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71ShpUQ-0kL._AC_SL1500_.jpg", "out": "pannlampa-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71-w1DaN1LL._AC_SL1500_.jpg", "out": "pannlampa-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Blukar pannlampa (uppladdningsbar)", "href": "/sommar/resa/pannlampa", "date": "2026-07-05", "image": "/products/blukar-pannlampa/pannlampa-thumbnail.webp", "blurb": "Uppladdningsbar LED-pannlampa med 8 lägen - händerna fria i mörkret på campingen." }
+  ]
+}

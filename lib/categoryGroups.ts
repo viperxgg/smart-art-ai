@@ -283,6 +283,12 @@ export const categoryProductGroups = {
         "raviad-usb-c-kabel-kort",
         "anker-zolo-powerbank",],
     },
+    {
+      title: "Festival & camping",
+      productSlugs: [
+        "blukar-pannlampa",
+        "anyoo-regnponcho",],
+    },
   ],
 } satisfies Record<ProductCategorySlug, CategoryProductGroup[]>;
 

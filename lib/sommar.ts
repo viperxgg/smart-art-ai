@@ -1,4 +1,6 @@
 import {
+  blukarPannlampaProduct,
+  anyooRegnponchoProduct,
   anker735VaggladdareProduct,
   raviadUsbCKabelProduct,
   ankerZoloPowerbankProduct,
@@ -9422,6 +9424,132 @@ export const resaSectionCopy = {
 };
 
 export const resaPicks: SommarPick[] = [
+  {
+    productSlug: blukarPannlampaProduct.slug,
+    product: blukarPannlampaProduct,
+    href: "/sommar/resa/pannlampa",
+    cardBadge: "Uppladdningsbar",
+    cardHook: "Bra ljus och händerna fria i mörkret – laddas via USB.",
+    cardImage: "/products/blukar-pannlampa/pannlampa-thumbnail.webp",
+    cardImageAlt: "Blukar uppladdningsbar pannlampa för camping",
+    badge: "Elins mörker-tips",
+    headline: "Blukar pannlampa – ljus när du behöver det",
+    shortBody: "En uppladdningsbar LED-pannlampa med åtta ljuslägen, sensorstyrning och rött ljus. Ger bra ljus på campingen eller festivalen med händerna fria – och laddas via USB.",
+    valueHook: "Smart när det blir mörkt",
+    valueStatement: "Blukar pannlampa är en uppladdningsbar LED-lampa för dig som vill ha händerna fria i mörkret – på campingen, festivalen eller kvällspromenaden. Åtta ljuslägen, sensorstyrning och rött ljus ger flexibilitet, och USB-laddning gör att du slipper byta batteri. Amazon visar 4,5 av 5 från över 12 000 omdömen. Tänk på att sensorstyrningen kan vara känslig och slå på/av av misstag.",
+    passFor: [
+      "Vill ha händerna fria i mörkret på camping eller festival.",
+      "Föredrar en uppladdningsbar lampa framför batteribyten.",
+      "Vill ha flera ljuslägen och rött ljus för olika situationer.",
+    ],
+    caution: "Sensorstyrningen, där du vinkar för att tända/släcka, kan vara känslig och reagera av misstag när du rör vid ansiktet. Du kan stänga av sensorläget om det stör. Ladda den full innan du åker så den räcker hela vistelsen.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Ladda pannlampan full via USB innan resan. Använd rött ljus i tältet för att inte blända, och sänk ljusstyrkan för att spara ström. Stäng av sensorläget om den tänds/släcks av misstag.",
+    },
+    verdict: "Prisvärd, uppladdningsbar pannlampa med bra ljus – sensorn kan vara pillig.",
+    amazonSummary: "Amazon visar 4,5 av 5 från 12 344 omdömen. Köpare lyfter det bra ljuset, de många lägena och USB-laddningen – sensorstyrningen kan dock vara lite känslig.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Behöver jag byta batteri?",
+        answer: "Nej, den laddas via USB. Ladda den full innan resan så slipper du batteribyten på campingen.",
+      },
+      {
+        question: "Vad är rött ljus bra för?",
+        answer: "Rött ljus bländar mindre i mörkret, vilket är skönt i tältet och stör inte nattseendet lika mycket som vitt ljus.",
+      },
+      {
+        question: "Hur funkar sensorstyrningen?",
+        answer: "Du vinkar med handen för att tända eller släcka utan att röra lampan. Den kan vara känslig, men du kan stänga av sensorläget om den reagerar av misstag.",
+      },
+    ],
+    reviewSectionId: "blukar-pannlampa-recensioner",
+    reviewFormId: "blukar-pannlampa-skriv-recension",
+    targetKeyword: "pannlampa",
+    metaTitle: "Blukar pannlampa – uppladdningsbar för camping | Elins val",
+    metaDescription: "Elin går igenom Blukar pannlampa (4,5 av 5 från 12 344 omdömen): uppladdningsbar LED med 8 lägen och rött ljus – händerna fria i mörkret, och vad du bör veta om sensorn.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/regnponcho",
+        label: "Regnponcho",
+        text: "Håll dig torr när vädret vänder på festivalen.",
+      },
+      {
+        href: "/sommar/resa/powerbank",
+        label: "Powerbank",
+        text: "Ladda mobil och pannlampa på campingen.",
+      },
+      {
+        href: "/sommar/resa",
+        label: "Elins reseval",
+        text: "Fler smarta prylar för resan och festivalen.",
+      },
+    ],
+  },
+  {
+    productSlug: anyooRegnponchoProduct.slug,
+    product: anyooRegnponchoProduct,
+    href: "/sommar/resa/regnponcho",
+    cardBadge: "Återanvändbar",
+    cardHook: "Lätt regnponcho med huva som räddar festivaldagen när vädret vänder.",
+    cardImage: "/products/anyoo-regnponcho/regnponcho-thumbnail.webp",
+    cardImageAlt: "Anyoo återanvändbar regnponcho med huva",
+    badge: "Elins väder-räddare",
+    headline: "Anyoo regnponcho – packa ner, slipp bli blöt",
+    shortBody: "En lätt, återanvändbar regnponcho med huva som håller regn och blåst borta på festivalen eller utflykten. Den viks ihop litet och får plats i väskan.",
+    valueHook: "Inte glamoröst – bara smart när vädret vänder",
+    valueStatement: "Anyoo regnponcho är en lätt, återanvändbar poncho med huva för dig som inte vill låta regnet förstöra festivalen eller utflykten. Den packas ihop litet och får plats i väskan, så du alltid har regnskyddet med. Amazon visar 4,5 av 5 från hela 24 458 omdömen, och flera köpare nämner att den räddade en regnig festivaldag. Tänk på att det är en lätt poncho som kan fladdra i hård vind.",
+    passFor: [
+      "Vill ha ett lätt regnskydd som alltid får plats i väskan.",
+      "Går på festival, vandrar eller är mycket utomhus.",
+      "Föredrar en återanvändbar poncho framför engångsplast.",
+    ],
+    caution: "Det är en lätt poncho, inte en tjock regnjacka. Den håller regnet borta bra, men i riktigt hård vind kan den fladdra. Se den som ett smidigt regnskydd att alltid ha med, inte som ett byte mot en riktig skaljacka.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Ha ponchon nedpackad i väskan så du snabbt kan dra på den när det börjar regna. Fäll upp huvan och dra åt om det blåser. Låt den torka innan du viker ner den igen, så håller den sig fräsch.",
+    },
+    verdict: "Lätt, packbar regnponcho som alltid är värd platsen i väskan.",
+    amazonSummary: "Amazon visar 4,5 av 5 från 24 458 omdömen. Köpare gillar att den är lätt, packbar och räddar regniga festivaldagar – kom ihåg att en lätt poncho kan fladdra i hård vind.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Är den återanvändbar?",
+        answer: "Ja, till skillnad från engångsponchos är den gjord för att användas om och om igen. Låt den torka innan du viker ner den så håller den längre.",
+      },
+      {
+        question: "Tar den mycket plats?",
+        answer: "Nej, den viks ihop litet och följer med i en påse, så den får lätt plats i festivalväskan eller ryggsäcken.",
+      },
+      {
+        question: "Ersätter den en regnjacka?",
+        answer: "Den är ett lätt regnskydd, inte en tjock skaljacka. Den håller regnet borta bra, men i mycket blåsigt väder kan den fladdra.",
+      },
+    ],
+    reviewSectionId: "anyoo-regnponcho-recensioner",
+    reviewFormId: "anyoo-regnponcho-skriv-recension",
+    targetKeyword: "regnponcho",
+    metaTitle: "Anyoo regnponcho – återanvändbar för festival | Elins val",
+    metaDescription: "Elin går igenom Anyoo regnponcho (4,5 av 5 från 24 458 omdömen): lätt, återanvändbar och packbar med huva – räddar festivaldagen när vädret vänder.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/pannlampa",
+        label: "Pannlampa",
+        text: "Händerna fria i mörkret på campingen.",
+      },
+      {
+        href: "/sommar/resa/powerbank",
+        label: "Powerbank",
+        text: "Håll mobilen laddad hela festivalen.",
+      },
+      {
+        href: "/sommar/resa",
+        label: "Elins reseval",
+        text: "Fler smarta prylar för resan och festivalen.",
+      },
+    ],
+  },
   {
     productSlug: anker735VaggladdareProduct.slug,
     product: anker735VaggladdareProduct,
