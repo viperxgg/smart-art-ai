@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "ipelyBilskrappaseProduct",
+  "category": "resa",
+  "categoryGroup": "Road trip & bilen",
+  "route": "sommar/resa/bilskrappase",
+  "pageComponentName": "BilskrappasePage",
+  "product": {
+    "slug": "ipely-bilskrappase",
+    "title": "IPELY bilskräppåse för nackstöd (läcksäker)",
+    "category": "resa",
+    "asin": "B01L5E7OB2",
+    "brand": "IPELY",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["Hängs på nackstöd", "Kompakt", "Lätt"],
+    "image": "/products/ipely-bilskrappase/bilskrappase-thumbnail.webp",
+    "imageAlt": "IPELY bilskräppåse hängd på nackstödet",
+    "images": [
+      { "src": "/products/ipely-bilskrappase/bilskrappase-thumbnail.webp", "alt": "IPELY bilskräppåse", "label": "Skräppåse" },
+      { "src": "/products/ipely-bilskrappase/bilskrappase-1.webp", "alt": "Skräppåse hängd på växelspaken", "label": "Fram" },
+      { "src": "/products/ipely-bilskrappase/bilskrappase-2.webp", "alt": "Skräppåse hängd på nackstödet bak", "label": "Bak" },
+      { "src": "/products/ipely-bilskrappase/bilskrappase-3.webp", "alt": "Skräp i bilskräppåsen", "label": "I bruk" },
+      { "src": "/products/ipely-bilskrappase/bilskrappase-4.webp", "alt": "Detalj av IPELY bilskräppåse", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B01L5E7OB2?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/bilskrappase",
+    "summary": "En lätt bilskräppåse som hängs på nackstödet, växelspaken eller dörren och håller skräpet på ett ställe istället för på golvet. Perfekt för road tripen med snacks och smått avfall. Bra att veta: det är en mjuk påse för lätt skräp – inte en stadig soptunna, och inte gjord för blött eller tungt avfall.",
+    "evaluation": {
+      "headline": "Skräpet på ett ställe – inte på golvet",
+      "intro": "Elin tittar närmare på IPELY bilskräppåse: en lätt påse som hängs på nackstödet, växelspaken eller dörrhandtaget. Den samlar snacksförpackningar och smått skräp på ett ställe, så bilen håller sig fräsch på långresan.",
+      "verdict": "Smidig, lätt bilskräppåse för snacks och smått – inte för blött eller tungt.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Bilskräppåse",
+    "specSectionTitle": "IPELY bilskräppåse",
+    "specs": [
+      { "label": "Fäste", "caption": "Placering", "value": "Nackstöd, växelspak eller dörr" },
+      { "label": "Typ", "caption": "Modell", "value": "Mjuk, lätt påse" },
+      { "label": "Bäst för", "caption": "Avfall", "value": "Snacks och lätt torrt skräp" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B01L5E7OB2?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 4 005 omdömen.",
+      "highlights": [
+        "Håller skräpet på ett ställe – hänger smidigt utan att vara i vägen.",
+        "Lätt och lagom stor, rymmer en hel del smått skräp.",
+        "Populär (4,6 av 5 från 4 005 omdömen)."
+      ],
+      "cautions": [
+        "Det är en mjuk påse för lätt, torrt skräp – inte en stadig soptunna och inte gjord för blött avfall."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/bilskrappase",
+    "cardBadge": "Håll rent",
+    "cardHook": "Samlar snacks och skräp på ett ställe istället för på bilgolvet.",
+    "cardImage": "/products/ipely-bilskrappase/bilskrappase-thumbnail.webp",
+    "cardImageAlt": "IPELY bilskräppåse hängd på nackstödet",
+    "badge": "Elins håll-bilen-fräsch-tips",
+    "headline": "IPELY bilskräppåse – slut på skräpet på golvet",
+    "shortBody": "En lätt bilskräppåse som hängs på nackstödet, växelspaken eller dörren. Samlar snacksförpackningar och smått skräp på ett ställe, så bilen håller sig fräsch på road tripen.",
+    "valueHook": "Bilen blir semester eller stress – småsakerna avgör",
+    "valueStatement": "IPELY bilskräppåse är en lätt påse som hängs på nackstödet eller växelspaken och samlar skräpet på ett ställe istället för på golvet. Perfekt för snacks och smått på road tripen. Amazon visar 4,6 av 5 från 4 005 omdömen, och köpare gillar att den håller bilen fräsch utan att vara i vägen. Tänk på att det är en mjuk påse för lätt, torrt skräp – inte en stadig soptunna.",
+    "passFor": [
+      "Vill hålla bilen fräsch på långresan med barn eller snacks.",
+      "Vill samla skräpet på ett ställe istället för på golvet.",
+      "Vill ha något lätt som går att flytta mellan fram- och baksäte."
+    ],
+    "caution": "Det är en mjuk påse för lätt, torrt skräp – inte en stadig soptunna. Undvik blött eller vasst avfall som kan läcka eller riva. Töm den regelbundet så den inte blir för tung.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Häng påsen på nackstödet bak eller växelspaken fram, där den inte är i vägen. Använd den för snacksförpackningar och torrt skräp, och töm den när ni tankar eller stannar."
+    },
+    "verdict": "Smidig, lätt bilskräppåse för snacks och smått – inte för blött eller tungt.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 4 005 omdömen. Köpare gillar att den håller skräpet på ett ställe och inte är i vägen – det är en mjuk påse för lätt, torrt skräp.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Var hänger jag den?", "answer": "Den kan hängas på nackstödet bak, på växelspaken eller på ett dörrhandtag fram – där den inte är i vägen. Många har en fram och en bak." },
+      { "question": "Läcker den?", "answer": "Den är gjord för lätt, torrt skräp som snacksförpackningar. Undvik blött avfall, som kan läcka. Använd gärna en liten plastpåse inuti för säkerhets skull." },
+      { "question": "Hur mycket rymmer den?", "answer": "Den är lagom stor för en resa och rymmer en hel del smått skräp. Töm den regelbundet så den inte blir tung." }
+    ],
+    "reviewSectionId": "ipely-bilskrappase-recensioner",
+    "reviewFormId": "ipely-bilskrappase-skriv-recension",
+    "targetKeyword": "bilsoptunna",
+    "metaTitle": "IPELY bilskräppåse – håll bilen fräsch på resan | Elins val",
+    "metaDescription": "Elin går igenom IPELY bilskräppåse (4,6 av 5 från 4 005 omdömen): samla snacks och skräp på ett ställe på road tripen – och vad den inte passar för.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/bilorganisator", "label": "Bilorganiser", "text": "Ordning i baksätet med fickor och surfplattehållare." },
+      { "href": "/sommar/resa/billaddare", "label": "Billaddare", "text": "Håll mobilen laddad medan du kör." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan." }
+    ]
+  },
+  "images": {
+    "dir": "ipely-bilskrappase",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81QNs9Ud0rL._SL1500_.jpg", "out": "bilskrappase-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/7175zUGMX7L._SL1000_.jpg", "out": "bilskrappase-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/717KsAx5dPL._SL1000_.jpg", "out": "bilskrappase-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61AqecMF9tL._SL1000_.jpg", "out": "bilskrappase-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61tOmy7HGKL._SL1000_.jpg", "out": "bilskrappase-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "IPELY bilskräppåse", "href": "/sommar/resa/bilskrappase", "date": "2026-07-05", "image": "/products/ipely-bilskrappase/bilskrappase-thumbnail.webp", "blurb": "Lätt bilskräppåse som samlar skräpet på ett ställe - håll bilen fräsch på road tripen." }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "otrakiTvattpaseProduct",
+  "category": "resa",
+  "categoryGroup": "Smarta reseprylar",
+  "route": "sommar/resa/tvattpase",
+  "pageComponentName": "TvattpasePage",
+  "product": {
+    "slug": "otraki-tvattpase",
+    "title": "OTraki tvättpåse för resa (2-pack, med dragsko)",
+    "category": "resa",
+    "asin": "B0B1ZZWCR8",
+    "brand": "OTraki",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["2-pack", "Dragsko", "Vikbar"],
+    "image": "/products/otraki-tvattpase/tvattpase-thumbnail.webp",
+    "imageAlt": "OTraki tvättpåse för resa med dragsko",
+    "images": [
+      { "src": "/products/otraki-tvattpase/tvattpase-thumbnail.webp", "alt": "OTraki tvättpåse med dragsko", "label": "Tvättpåse" },
+      { "src": "/products/otraki-tvattpase/tvattpase-1.webp", "alt": "Tvättpåse fylld med kläder", "label": "Fylld" },
+      { "src": "/products/otraki-tvattpase/tvattpase-2.webp", "alt": "Två tvättpåsar i 2-pack", "label": "2-pack" },
+      { "src": "/products/otraki-tvattpase/tvattpase-3.webp", "alt": "Tvättpåse hopvikt kompakt", "label": "Vikbar" },
+      { "src": "/products/otraki-tvattpase/tvattpase-4.webp", "alt": "Dragskon på tvättpåsen", "label": "Dragsko" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0B1ZZWCR8?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/tvattpase",
+    "summary": "Ett 2-pack tvättpåsar med dragsko som håller isär smutstvätt från rena kläder i väskan på resan. Tomma tar de nästan ingen plats, och de fungerar även som förvaring hemma. Bra att veta: det är enkla tygpåsar med dragsko, inte vattentäta – för torr smutstvätt, inte blött.",
+    "evaluation": {
+      "headline": "Håll smutstvätten för sig i väskan",
+      "intro": "Elin tittar närmare på OTraki tvättpåsar: ett 2-pack tygpåsar med dragsko som håller smutstvätten skild från rena kläder i väskan. De väger nästan ingenting tomma och kan även användas till förvaring hemma – smidigt både på resan och i vardagen.",
+      "verdict": "Enkla, smidiga tvättpåsar som håller ordning i väskan – för torr tvätt.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Tvättpåse",
+    "specSectionTitle": "OTraki tvättpåse",
+    "specs": [
+      { "label": "Innehåll", "caption": "Antal", "value": "2-pack (ca 50x60 cm)" },
+      { "label": "Stängning", "caption": "Funktion", "value": "Dragsko" },
+      { "label": "Material", "caption": "Tyg", "value": "Lätt nylon, vikbar" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0B1ZZWCR8?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 2 279 omdömen.",
+      "highlights": [
+        "2-pack med dragsko – separera smutstvätt från rena kläder i väskan.",
+        "Vikbara och tar liten plats tomma, funkar även som förvaring hemma.",
+        "Bra kvalitet enligt köpare (4,6 av 5 från 2 279 omdömen)."
+      ],
+      "cautions": [
+        "Det är enkla tygpåsar med dragsko, inte vattentäta – för torr smutstvätt, inte blött."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/tvattpase",
+    "cardBadge": "Håll isär",
+    "cardHook": "Separera smutstvätt från rena kläder i väskan – 2-pack med dragsko.",
+    "cardImage": "/products/otraki-tvattpase/tvattpase-thumbnail.webp",
+    "cardImageAlt": "OTraki tvättpåse för resa med dragsko",
+    "badge": "Elins ordning-i-väskan-tips",
+    "headline": "OTraki tvättpåse – smutstvätten för sig",
+    "shortBody": "Ett 2-pack tvättpåsar med dragsko som håller smutstvätt skild från rena kläder i väskan. Tomma tar de nästan ingen plats och fungerar även som förvaring hemma.",
+    "valueHook": "Slipp blanda smutsigt och rent",
+    "valueStatement": "OTraki tvättpåsar är ett 2-pack tygpåsar med dragsko för dig som vill hålla smutstvätten skild från de rena kläderna i väskan. De väger nästan ingenting tomma och kan även användas till förvaring hemma. Amazon visar 4,6 av 5 från 2 279 omdömen. Tänk på att det är enkla, icke vattentäta tygpåsar – för torr smutstvätt, inte blött.",
+    "passFor": [
+      "Vill hålla smutstvätt skild från rena kläder på resan.",
+      "Vill ha något lätt som viks ihop till nästan ingenting.",
+      "Har nytta av extra förvaringspåsar även hemma."
+    ],
+    "caution": "Det är enkla tygpåsar med dragsko, inte vattentäta. De passar för torr smutstvätt men inte för blöta plagg eller baddräkter – till det behöver du en riktig våtpåse.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Lägg smutstvätten i den ena påsen och håll de rena kläderna för sig, så slipper du blanda. Dra åt dragskon och lägg påsen längst ner i väskan. Vädra eller tvätta påsen mellan resorna."
+    },
+    "verdict": "Enkla, smidiga tvättpåsar som håller ordning i väskan – för torr tvätt.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 2 279 omdömen. Köpare gillar att de håller isär smutstvätt och rena kläder och är vikbara – det är tygpåsar för torr tvätt, inte vattentäta.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Är de vattentäta?", "answer": "Nej, det är enkla tygpåsar med dragsko. De passar för torr smutstvätt. För blöta baddräkter eller handdukar behöver du en riktig våtpåse." },
+      { "question": "Hur mycket rymmer de?", "answer": "Varje påse är cirka 50x60 cm och rymmer en hel del kläder. Du får två i paketet, så du kan dela upp mörkt och ljust eller smutsigt och rent." },
+      { "question": "Tar de plats i väskan?", "answer": "Nej, tomma viks de ihop till nästan ingenting och väger väldigt lite, så de är lätta att ha med i beredskap." }
+    ],
+    "reviewSectionId": "otraki-tvattpase-recensioner",
+    "reviewFormId": "otraki-tvattpase-skriv-recension",
+    "targetKeyword": "tvättpåse resa",
+    "metaTitle": "OTraki tvättpåse för resa (2-pack) – håll ordning | Elins val",
+    "metaDescription": "Elin går igenom OTraki tvättpåsar (2-pack, 4,6 av 5 från 2 279 omdömen): håll smutstvätt skild från rena kläder i väskan – och vad de inte passar för.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/skopasar", "label": "Skopåsar", "text": "Håll skorna för sig från kläderna i väskan." },
+      { "href": "/sommar/resa/packkuber", "label": "Packkuber", "text": "Packa strukturerat och håll ordning." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan." }
+    ]
+  },
+  "images": {
+    "dir": "otraki-tvattpase",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61zpBh5Og-L._AC_SL1500_.jpg", "out": "tvattpase-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61LgwUkCE0L._AC_SL1500_.jpg", "out": "tvattpase-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71iULvi3TNL._AC_SL1500_.jpg", "out": "tvattpase-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71Yr3UodwmL._AC_SL1500_.jpg", "out": "tvattpase-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71CLckq8C4L._AC_SL1500_.jpg", "out": "tvattpase-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "OTraki tvättpåse för resa (2-pack)", "href": "/sommar/resa/tvattpase", "date": "2026-07-05", "image": "/products/otraki-tvattpase/tvattpase-thumbnail.webp", "blurb": "Tvättpåsar med dragsko som håller smutstvätt skild från rena kläder i väskan." }
+  ]
+}

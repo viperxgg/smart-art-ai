@@ -1,0 +1,115 @@
+{
+  "system": "resa",
+  "exportName": "iniuBilladdareProduct",
+  "category": "resa",
+  "categoryGroup": "Road trip & bilen",
+  "route": "sommar/resa/billaddare",
+  "pageComponentName": "BilladdarePage",
+  "product": {
+    "slug": "iniu-billaddare",
+    "title": "INIU billaddare 66W (USB-C + USB-A)",
+    "category": "resa",
+    "asin": "B0CB1D68V4",
+    "brand": "INIU",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["66W", "2 portar", "Metallhölje"],
+    "image": "/products/iniu-billaddare/billaddare-thumbnail.webp",
+    "imageAlt": "INIU billaddare med USB-C och USB-A",
+    "images": [
+      { "src": "/products/iniu-billaddare/billaddare-thumbnail.webp", "alt": "INIU billaddare", "label": "Billaddare" },
+      { "src": "/products/iniu-billaddare/billaddare-1.webp", "alt": "Billaddare i 12V-uttaget", "label": "I uttaget" },
+      { "src": "/products/iniu-billaddare/billaddare-2.webp", "alt": "USB-C och USB-A portar på billaddaren", "label": "Portar" },
+      { "src": "/products/iniu-billaddare/billaddare-3.webp", "alt": "Billaddare laddar mobil i bilen", "label": "Laddar" },
+      { "src": "/products/iniu-billaddare/billaddare-4.webp", "alt": "Metallhölje på INIU billaddare", "label": "Metall" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0CB1D68V4?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/billaddare",
+    "summary": "En kompakt billaddare på totalt 66W med en USB-C- och en USB-A-port, i ett gediget metallhölje. Den laddar mobilen snabbt medan du kör – skönt när navigeringen drar batteri på road tripen. Bra att veta: de 66W delas mellan portarna, och faktisk hastighet beror på bilens 12V-uttag och din enhet.",
+    "evaluation": {
+      "headline": "Ström till mobilen medan du kör",
+      "intro": "Elin tittar närmare på INIU billaddare: en kompakt laddare i metall med USB-C och USB-A på totalt 66W. Den sitter i bilens 12V-uttag och laddar mobilen snabbt medan navigeringen är igång – praktiskt på långresan.",
+      "verdict": "Gedigen billaddare med snabb laddning – effekten delas mellan portarna.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Billaddare",
+    "specSectionTitle": "INIU 66W",
+    "specs": [
+      { "label": "Effekt", "caption": "Totalt", "value": "66W (USB-C 36W + USB-A 30W)" },
+      { "label": "Portar", "caption": "Antal", "value": "USB-C + USB-A" },
+      { "label": "Material", "caption": "Hölje", "value": "Gediget metallhölje" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0CB1D68V4?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 953 omdömen.",
+      "highlights": [
+        "66W totalt (USB-C + USB-A) – laddar mobilen snabbt medan du kör.",
+        "Metallhölje som känns gediget och högkvalitativt enligt köpare.",
+        "Högt betyg (4,7 av 5 från 953 omdömen)."
+      ],
+      "cautions": [
+        "De 66W delas mellan portarna – laddar du två enheter samtidigt sjunker hastigheten per enhet.",
+        "Faktisk hastighet beror på bilens 12V-uttag och din enhet."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/billaddare",
+    "cardBadge": "66W",
+    "cardHook": "Laddar mobilen snabbt medan du kör – gediget metallhölje.",
+    "cardImage": "/products/iniu-billaddare/billaddare-thumbnail.webp",
+    "cardImageAlt": "INIU billaddare med USB-C och USB-A",
+    "badge": "Elins road-trip-tips",
+    "headline": "INIU billaddare – ström till navigeringen",
+    "shortBody": "En kompakt billaddare på 66W med USB-C och USB-A i metallhölje. Laddar mobilen snabbt medan du kör – skönt när navigeringen drar batteri på road tripen.",
+    "valueHook": "Om mobilen dör mitt i navigeringen",
+    "valueStatement": "INIU billaddare är en kompakt 66W-laddare med USB-C och USB-A i ett gediget metallhölje. Den sitter i bilens 12V-uttag och laddar mobilen snabbt medan navigeringen går. Amazon visar 4,7 av 5 från 953 omdömen, och köpare lyfter den höga kvaliteten. Tänk på att 66W delas mellan portarna, så laddar du två enheter samtidigt blir det långsammare per enhet.",
+    "passFor": [
+      "Kör långt och vill hålla mobilen laddad under navigering.",
+      "Vill ladda både mobil och en passagerares enhet.",
+      "Föredrar en gedigen laddare i metall."
+    ],
+    "caution": "De 66W delas mellan portarna – en enhet får full effekt, två delar på den. Faktisk laddhastighet beror också på bilens 12V-uttag och din enhet. Dra ur den när bilen står länge, så den inte drar ström i onödan.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Sätt laddaren i bilens 12V-uttag och anslut mobilen i USB-C-porten för snabbast laddning. Ladda en enhet i taget när du behöver full fart. Dra ur laddaren när bilen står parkerad länge."
+    },
+    "verdict": "Gedigen billaddare med snabb laddning – effekten delas mellan portarna.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 953 omdömen. Köpare lyfter den snabba laddningen och det gedigna metallhöljet – kom ihåg att 66W delas mellan portarna.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Laddar den snabbt?", "answer": "Den ger totalt 66W med USB-C 36W och USB-A 30W. En enhet i USB-C-porten laddar snabbast; två enheter samtidigt delar på effekten." },
+      { "question": "Passar den min bil?", "answer": "Den sitter i ett vanligt 12V-uttag (cigarettändaruttag) som finns i de flesta bilar. Faktisk hastighet beror på bilens uttag och din enhet." },
+      { "question": "Kan den ladda en laptop?", "answer": "Den är främst gjord för mobil och surfplatta. Mindre laptops kan ladda långsamt via USB-C, men den ersätter inte en riktig laptopladdare." }
+    ],
+    "reviewSectionId": "iniu-billaddare-recensioner",
+    "reviewFormId": "iniu-billaddare-skriv-recension",
+    "targetKeyword": "billaddare",
+    "metaTitle": "INIU billaddare 66W – snabb laddning i bilen | Elins val",
+    "metaDescription": "Elin går igenom INIU billaddare (66W, 4,7 av 5 från 953 omdömen): ladda mobilen snabbt medan du kör på road tripen – och varför effekten delas mellan portarna.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/mobilhallare", "label": "Mobilhållare", "text": "Håll mobilen i sikte medan den laddar." },
+      { "href": "/sommar/resa/bilorganisator", "label": "Bilorganiser", "text": "Ordning i baksätet på långresan." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan." }
+    ]
+  },
+  "images": {
+    "dir": "iniu-billaddare",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/715yXItwHtL._AC_SL1500_.jpg", "out": "billaddare-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71poAY+ha1L._AC_SL1500_.jpg", "out": "billaddare-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71bDvB4nfLL._AC_SL1500_.jpg", "out": "billaddare-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71+gEF63V2L._AC_SL1500_.jpg", "out": "billaddare-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/711q4OWaJsL._AC_SL1500_.jpg", "out": "billaddare-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "INIU billaddare (66W)", "href": "/sommar/resa/billaddare", "date": "2026-07-05", "image": "/products/iniu-billaddare/billaddare-thumbnail.webp", "blurb": "Kompakt 66W billaddare i metall - laddar mobilen snabbt medan du kör." }
+  ]
+}

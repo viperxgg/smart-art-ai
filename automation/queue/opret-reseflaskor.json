@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "opretReseflaskorProduct",
+  "category": "resa",
+  "categoryGroup": "Smarta reseprylar",
+  "route": "sommar/resa/reseflaskor",
+  "pageComponentName": "ReseflaskorPage",
+  "product": {
+    "slug": "opret-reseflaskor",
+    "title": "Opret reseflaskor i silikon (60 ml, läcksäkra)",
+    "category": "resa",
+    "asin": "B0C3B7WCXQ",
+    "brand": "Opret",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["Silikon", "Läcksäkra", "Påfyllningsbara"],
+    "image": "/products/opret-reseflaskor/reseflaskor-thumbnail.webp",
+    "imageAlt": "Opret reseflaskor i silikon för toalettsaker",
+    "images": [
+      { "src": "/products/opret-reseflaskor/reseflaskor-thumbnail.webp", "alt": "Opret reseflaskor i silikon", "label": "Reseflaskor" },
+      { "src": "/products/opret-reseflaskor/reseflaskor-1.webp", "alt": "Silikonflaska som trycks ihop", "label": "Mjuk silikon" },
+      { "src": "/products/opret-reseflaskor/reseflaskor-2.webp", "alt": "Reseflaskor i genomskinlig necessär", "label": "I necessären" },
+      { "src": "/products/opret-reseflaskor/reseflaskor-3.webp", "alt": "Flaskor med etiketter för shampoo och balsam", "label": "Etiketter" },
+      { "src": "/products/opret-reseflaskor/reseflaskor-4.webp", "alt": "Detalj av Opret reseflaska", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0C3B7WCXQ?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/reseflaskor",
+    "summary": "Ett set påfyllningsbara reseflaskor i mjuk silikon (60 ml) som du fyller med shampoo, balsam och kräm. De är läcksäkra, BPA-fria och lätta att trycka ihop för att få ut sista droppen. Bra att veta: flaskorna rymmer 60 ml – kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
+    "evaluation": {
+      "headline": "Fyll dina egna favoriter på resan",
+      "intro": "Elin tittar närmare på Opret reseflaskor: ett set mjuka silikonflaskor på 60 ml som du fyller med dina egna produkter istället för att köpa reseförpackningar. De är läcksäkra och lätta att trycka ihop, och etiketter håller isär shampoo och balsam.",
+      "verdict": "Smidiga, läcksäkra silikonflaskor – kolla alltid flygplatsens vätskeregler.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Reseflaskor",
+    "specSectionTitle": "Opret silikonflaskor",
+    "specs": [
+      { "label": "Volym", "caption": "Storlek", "value": "60 ml per flaska" },
+      { "label": "Material", "caption": "Silikon", "value": "Mjuk, BPA-fri, tryckbar" },
+      { "label": "Funktion", "caption": "Läcksäker", "value": "Tät förslutning, med etiketter" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0C3B7WCXQ?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 779 omdömen.",
+      "highlights": [
+        "Mjuk silikon som är lätt att trycka ut – fyll med shampoo, balsam och kräm.",
+        "Läcksäkra och BPA-fria med etiketter så du håller isär innehållet.",
+        "Uppskattade av köpare (4,5 av 5 från 779 omdömen)."
+      ],
+      "cautions": [
+        "Flaskorna rymmer 60 ml – kolla alltid flygplatsens aktuella regler för vätskor i handbagage."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/reseflaskor",
+    "cardBadge": "Läcksäkra",
+    "cardHook": "Fyll dina egna favoriter i mjuka silikonflaskor – slipp köpa reseförpackningar.",
+    "cardImage": "/products/opret-reseflaskor/reseflaskor-thumbnail.webp",
+    "cardImageAlt": "Opret reseflaskor i silikon för toalettsaker",
+    "badge": "Elins necessär-tips",
+    "headline": "Opret reseflaskor – dina egna produkter, litet format",
+    "shortBody": "Ett set påfyllningsbara silikonflaskor (60 ml) för shampoo, balsam och kräm. Läcksäkra, BPA-fria och lätta att trycka ihop – med etiketter så du håller isär innehållet.",
+    "valueHook": "Ta med dina egna favoriter",
+    "valueStatement": "Opret reseflaskor är ett set mjuka silikonflaskor på 60 ml för dig som vill ta med dina egna produkter istället för att köpa reseförpackningar. De är läcksäkra, BPA-fria och lätta att trycka ihop, och etiketterna håller isär shampoo och balsam. Amazon visar 4,5 av 5 från 779 omdömen. Kom ihåg att flaskorna rymmer 60 ml – kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
+    "passFor": [
+      "Vill ta med egna produkter istället för att köpa reseförpackningar.",
+      "Vill ha läcksäkra flaskor som inte spiller i necessären.",
+      "Gillar mjuk silikon som är lätt att klämma ut sista droppen ur."
+    ],
+    "caution": "Flaskorna rymmer 60 ml. Reglerna för vätskor i handbagage varierar och ändras – kolla alltid flygplatsens aktuella regler innan du reser, och räkna med totalmängden vätska du tar med.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Fyll flaskorna genom den breda öppningen och stäng ordentligt. Märk upp dem med etiketterna så du inte blandar ihop shampoo och balsam. Testa att de är täta över en handduk innan du packar ner dem."
+    },
+    "verdict": "Smidiga, läcksäkra silikonflaskor – kolla alltid flygplatsens vätskeregler.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 779 omdömen. Köpare gillar den mjuka silikonen, att de är läcksäkra och lätta att klämma – kom ihåg att kolla flygplatsens vätskeregler.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Läcker de?", "answer": "De är gjorda för att vara läcksäkra med tät förslutning. Testa gärna att de sluter tätt över en handduk innan du packar, så känner du dig trygg." },
+      { "question": "Får jag ta dem i handbagaget?", "answer": "Flaskorna rymmer 60 ml. Reglerna för vätskor i handbagage varierar mellan flygplatser och kan ändras – kolla alltid de aktuella reglerna innan du reser." },
+      { "question": "Vad kan jag fylla i dem?", "answer": "Shampoo, balsam, duschtvål, kräm och liknande. Den mjuka silikonen gör att du lätt klämmer ut innehållet, och etiketterna hjälper dig hålla isär dem." }
+    ],
+    "reviewSectionId": "opret-reseflaskor-recensioner",
+    "reviewFormId": "opret-reseflaskor-skriv-recension",
+    "targetKeyword": "reseflaskor",
+    "metaTitle": "Opret reseflaskor i silikon (60 ml) – läcksäkra | Elins val",
+    "metaDescription": "Elin går igenom Opret reseflaskor i silikon (60 ml, 4,5 av 5 från 779 omdömen): fyll egna produkter, läcksäkra och BPA-fria – och tänk på flygplatsens vätskeregler.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/necessar", "label": "Genomskinlig necessär", "text": "Se innehållet direkt i säkerhetskontrollen." },
+      { "href": "/sommar/resa/hangande-necessar", "label": "Hängande necessär", "text": "Häng upp och nå allt utan att rota." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan." }
+    ]
+  },
+  "images": {
+    "dir": "opret-reseflaskor",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51NQRRb+XYL._AC_SL1500_.jpg", "out": "reseflaskor-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/617DLmEYk1L._AC_SL1500_.jpg", "out": "reseflaskor-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61qT2ADljXL._AC_SL1500_.jpg", "out": "reseflaskor-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61shGu2HSQL._AC_SL1500_.jpg", "out": "reseflaskor-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/51C0WUOp8+L._AC_SL1500_.jpg", "out": "reseflaskor-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Opret reseflaskor i silikon (60 ml)", "href": "/sommar/resa/reseflaskor", "date": "2026-07-05", "image": "/products/opret-reseflaskor/reseflaskor-thumbnail.webp", "blurb": "Läcksäkra silikonflaskor att fylla med egna produkter - kolla flygplatsens vätskeregler." }
+  ]
+}

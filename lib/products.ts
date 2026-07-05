@@ -15419,7 +15419,736 @@ export const blukarPannlampaProduct: Product = {
   comments: [],
 };
 
+export const surdocaBilorganisatorProduct: Product = {
+  slug: "surdoca-bilorganisator",
+  title: "SURDOCA bilorganiser för baksätet (8 fickor)",
+  category: "resa",
+  asin: "B08BHYPPZ6",
+  brand: "SURDOCA",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "8 fickor",
+    "Surfplattehållare",
+    "Baksäte",
+  ],
+  image: "/products/surdoca-bilorganisator/bilorganisator-thumbnail.webp",
+  imageAlt: "SURDOCA bilorganiser för baksätet med flera fickor",
+  images: [
+    {
+      src: "/products/surdoca-bilorganisator/bilorganisator-thumbnail.webp",
+      alt: "SURDOCA bilorganiser för baksätet",
+      label: "Organiser",
+    },
+    {
+      src: "/products/surdoca-bilorganisator/bilorganisator-1.webp",
+      alt: "Bilorganiser med surfplatta i hållaren",
+      label: "Surfplatta",
+    },
+    {
+      src: "/products/surdoca-bilorganisator/bilorganisator-2.webp",
+      alt: "Fickor fyllda med saker i baksätet",
+      label: "Fickor",
+    },
+    {
+      src: "/products/surdoca-bilorganisator/bilorganisator-3.webp",
+      alt: "Bilorganiser fäst på framstolens rygg",
+      label: "Monterad",
+    },
+    {
+      src: "/products/surdoca-bilorganisator/bilorganisator-4.webp",
+      alt: "Detalj av SURDOCA bilorganiser",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B08BHYPPZ6?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/bilorganisator",
+  summary: "En bilorganiser med åtta fickor och surfplattehållare som fäster på framstolens rygg och håller ordning i baksätet på road tripen. Barnen når sina saker och skräpet hamnar inte på golvet. Bra att veta: en köpare tycker att den nedre remmen är lite kort – kolla att den passar din bilmodell.",
+  evaluation: {
+    headline: "Ordning i baksätet på långresan",
+    intro: "Elin tittar närmare på SURDOCA bilorganiser: en hållare med åtta fickor och plats för surfplatta som fäster på framstolens rygg. Den håller leksaker, flaskor och smått på plats så baksätet inte blir ett kaos på road tripen – särskilt skönt med barn.",
+    verdict: "Rejäl bilorganiser som håller ordning i baksätet – kolla passformen.",
+    checks: [],
+  },
+  specSectionEyebrow: "Bilorganiser",
+  specSectionTitle: "SURDOCA baksätesorganiser",
+  specs: [
+    {
+      label: "Fickor",
+      caption: "Förvaring",
+      value: "8 fickor + surfplattehållare",
+    },
+    {
+      label: "Montering",
+      caption: "Placering",
+      value: "Fäster på framstolens rygg",
+    },
+    {
+      label: "Passar",
+      caption: "Bäst för",
+      value: "Barnfamilj och långresa",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B08BHYPPZ6?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,3 av 5 från 15 978 omdömen.",
+    highlights: [
+      "Massor av fickor (inkl. surfplattehållare) – håller ordning i baksätet på road tripen.",
+      "Tålig och bra för barnfamiljen enligt köpare.",
+      "Väldigt populär (4,3 av 5 från 15 978 omdömen).",
+    ],
+    cautions: [
+      "En köpare tycker att den nedre remmen är lite kort – kolla att den passar din bilmodell.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const iniuBilladdareProduct: Product = {
+  slug: "iniu-billaddare",
+  title: "INIU billaddare 66W (USB-C + USB-A)",
+  category: "resa",
+  asin: "B0CB1D68V4",
+  brand: "INIU",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "66W",
+    "2 portar",
+    "Metallhölje",
+  ],
+  image: "/products/iniu-billaddare/billaddare-thumbnail.webp",
+  imageAlt: "INIU billaddare med USB-C och USB-A",
+  images: [
+    {
+      src: "/products/iniu-billaddare/billaddare-thumbnail.webp",
+      alt: "INIU billaddare",
+      label: "Billaddare",
+    },
+    {
+      src: "/products/iniu-billaddare/billaddare-1.webp",
+      alt: "Billaddare i 12V-uttaget",
+      label: "I uttaget",
+    },
+    {
+      src: "/products/iniu-billaddare/billaddare-2.webp",
+      alt: "USB-C och USB-A portar på billaddaren",
+      label: "Portar",
+    },
+    {
+      src: "/products/iniu-billaddare/billaddare-3.webp",
+      alt: "Billaddare laddar mobil i bilen",
+      label: "Laddar",
+    },
+    {
+      src: "/products/iniu-billaddare/billaddare-4.webp",
+      alt: "Metallhölje på INIU billaddare",
+      label: "Metall",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0CB1D68V4?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/billaddare",
+  summary: "En kompakt billaddare på totalt 66W med en USB-C- och en USB-A-port, i ett gediget metallhölje. Den laddar mobilen snabbt medan du kör – skönt när navigeringen drar batteri på road tripen. Bra att veta: de 66W delas mellan portarna, och faktisk hastighet beror på bilens 12V-uttag och din enhet.",
+  evaluation: {
+    headline: "Ström till mobilen medan du kör",
+    intro: "Elin tittar närmare på INIU billaddare: en kompakt laddare i metall med USB-C och USB-A på totalt 66W. Den sitter i bilens 12V-uttag och laddar mobilen snabbt medan navigeringen är igång – praktiskt på långresan.",
+    verdict: "Gedigen billaddare med snabb laddning – effekten delas mellan portarna.",
+    checks: [],
+  },
+  specSectionEyebrow: "Billaddare",
+  specSectionTitle: "INIU 66W",
+  specs: [
+    {
+      label: "Effekt",
+      caption: "Totalt",
+      value: "66W (USB-C 36W + USB-A 30W)",
+    },
+    {
+      label: "Portar",
+      caption: "Antal",
+      value: "USB-C + USB-A",
+    },
+    {
+      label: "Material",
+      caption: "Hölje",
+      value: "Gediget metallhölje",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0CB1D68V4?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,7 av 5 från 953 omdömen.",
+    highlights: [
+      "66W totalt (USB-C + USB-A) – laddar mobilen snabbt medan du kör.",
+      "Metallhölje som känns gediget och högkvalitativt enligt köpare.",
+      "Högt betyg (4,7 av 5 från 953 omdömen).",
+    ],
+    cautions: [
+      "De 66W delas mellan portarna – laddar du två enheter samtidigt sjunker hastigheten per enhet.",
+      "Faktisk hastighet beror på bilens 12V-uttag och din enhet.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const lamicallMobilhallareBilProduct: Product = {
+  slug: "lamicall-mobilhallare-bil",
+  title: "Lamicall magnetisk mobilhållare för bil (MagSafe)",
+  category: "resa",
+  asin: "B0BQRJ6Y5P",
+  brand: "Lamicall",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Magnetisk",
+    "Luftventil",
+    "MagSafe",
+  ],
+  image: "/products/lamicall-mobilhallare/mobilhallare-thumbnail.webp",
+  imageAlt: "Lamicall magnetisk mobilhållare i bilens luftventil",
+  images: [
+    {
+      src: "/products/lamicall-mobilhallare/mobilhallare-thumbnail.webp",
+      alt: "Lamicall magnetisk mobilhållare för bil",
+      label: "Mobilhållare",
+    },
+    {
+      src: "/products/lamicall-mobilhallare/mobilhallare-1.webp",
+      alt: "Mobil fäst magnetiskt i hållaren",
+      label: "Magnet",
+    },
+    {
+      src: "/products/lamicall-mobilhallare/mobilhallare-2.webp",
+      alt: "Hållare monterad i luftventilen",
+      label: "Luftventil",
+    },
+    {
+      src: "/products/lamicall-mobilhallare/mobilhallare-3.webp",
+      alt: "Mobil i landskapsläge i hållaren",
+      label: "Vridbar",
+    },
+    {
+      src: "/products/lamicall-mobilhallare/mobilhallare-4.webp",
+      alt: "Detalj av Lamicall mobilhållare",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0BQRJ6Y5P?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/mobilhallare",
+  summary: "En magnetisk mobilhållare med starka N52-magneter som fäster i bilens luftventil och håller mobilen i sikte för navigeringen. Den är enkel att sätta upp och ta av med en hand. Bra att veta: det är en MagSafe-hållare – iPhone med MagSafe fäster direkt, medan andra mobiler behöver en magnetring eller ett MagSafe-skal.",
+  evaluation: {
+    headline: "Mobilen i sikte hela resan",
+    intro: "Elin tittar närmare på Lamicall magnetiska mobilhållare: en hållare med starka magneter som fäster i luftventilen och håller mobilen stadigt i blickfånget. Du sätter fast och tar loss mobilen med en hand – smidigt för navigering på road tripen.",
+    verdict: "Stadig magnetisk mobilhållare för navigering – kräver MagSafe eller magnetring.",
+    checks: [],
+  },
+  specSectionEyebrow: "Mobilhållare",
+  specSectionTitle: "Lamicall magnethållare",
+  specs: [
+    {
+      label: "Fäste",
+      caption: "Placering",
+      value: "Bilens luftventil",
+    },
+    {
+      label: "Magnet",
+      caption: "Styrka",
+      value: "Starka N52-magneter",
+    },
+    {
+      label: "Passar",
+      caption: "Mobil",
+      value: "MagSafe eller magnetring krävs",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0BQRJ6Y5P?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 16 134 omdömen.",
+    highlights: [
+      "Håller mobilen stadigt i luftventilen – perfekt för navigering på road tripen.",
+      "Stark magnet, många beskriver den som den bästa hållaren de haft.",
+      "Väldigt populär (4,6 av 5 från 16 134 omdömen).",
+    ],
+    cautions: [
+      "Det är en magnetisk MagSafe-hållare – andra mobiler behöver en magnetring eller ett MagSafe-skal för att fästa.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const ipelyBilskrappaseProduct: Product = {
+  slug: "ipely-bilskrappase",
+  title: "IPELY bilskräppåse för nackstöd (läcksäker)",
+  category: "resa",
+  asin: "B01L5E7OB2",
+  brand: "IPELY",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Hängs på nackstöd",
+    "Kompakt",
+    "Lätt",
+  ],
+  image: "/products/ipely-bilskrappase/bilskrappase-thumbnail.webp",
+  imageAlt: "IPELY bilskräppåse hängd på nackstödet",
+  images: [
+    {
+      src: "/products/ipely-bilskrappase/bilskrappase-thumbnail.webp",
+      alt: "IPELY bilskräppåse",
+      label: "Skräppåse",
+    },
+    {
+      src: "/products/ipely-bilskrappase/bilskrappase-1.webp",
+      alt: "Skräppåse hängd på växelspaken",
+      label: "Fram",
+    },
+    {
+      src: "/products/ipely-bilskrappase/bilskrappase-2.webp",
+      alt: "Skräppåse hängd på nackstödet bak",
+      label: "Bak",
+    },
+    {
+      src: "/products/ipely-bilskrappase/bilskrappase-3.webp",
+      alt: "Skräp i bilskräppåsen",
+      label: "I bruk",
+    },
+    {
+      src: "/products/ipely-bilskrappase/bilskrappase-4.webp",
+      alt: "Detalj av IPELY bilskräppåse",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B01L5E7OB2?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/bilskrappase",
+  summary: "En lätt bilskräppåse som hängs på nackstödet, växelspaken eller dörren och håller skräpet på ett ställe istället för på golvet. Perfekt för road tripen med snacks och smått avfall. Bra att veta: det är en mjuk påse för lätt skräp – inte en stadig soptunna, och inte gjord för blött eller tungt avfall.",
+  evaluation: {
+    headline: "Skräpet på ett ställe – inte på golvet",
+    intro: "Elin tittar närmare på IPELY bilskräppåse: en lätt påse som hängs på nackstödet, växelspaken eller dörrhandtaget. Den samlar snacksförpackningar och smått skräp på ett ställe, så bilen håller sig fräsch på långresan.",
+    verdict: "Smidig, lätt bilskräppåse för snacks och smått – inte för blött eller tungt.",
+    checks: [],
+  },
+  specSectionEyebrow: "Bilskräppåse",
+  specSectionTitle: "IPELY bilskräppåse",
+  specs: [
+    {
+      label: "Fäste",
+      caption: "Placering",
+      value: "Nackstöd, växelspak eller dörr",
+    },
+    {
+      label: "Typ",
+      caption: "Modell",
+      value: "Mjuk, lätt påse",
+    },
+    {
+      label: "Bäst för",
+      caption: "Avfall",
+      value: "Snacks och lätt torrt skräp",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B01L5E7OB2?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 4 005 omdömen.",
+    highlights: [
+      "Håller skräpet på ett ställe – hänger smidigt utan att vara i vägen.",
+      "Lätt och lagom stor, rymmer en hel del smått skräp.",
+      "Populär (4,6 av 5 från 4 005 omdömen).",
+    ],
+    cautions: [
+      "Det är en mjuk påse för lätt, torrt skräp – inte en stadig soptunna och inte gjord för blött avfall.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const otrakiTvattpaseProduct: Product = {
+  slug: "otraki-tvattpase",
+  title: "OTraki tvättpåse för resa (2-pack, med dragsko)",
+  category: "resa",
+  asin: "B0B1ZZWCR8",
+  brand: "OTraki",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "2-pack",
+    "Dragsko",
+    "Vikbar",
+  ],
+  image: "/products/otraki-tvattpase/tvattpase-thumbnail.webp",
+  imageAlt: "OTraki tvättpåse för resa med dragsko",
+  images: [
+    {
+      src: "/products/otraki-tvattpase/tvattpase-thumbnail.webp",
+      alt: "OTraki tvättpåse med dragsko",
+      label: "Tvättpåse",
+    },
+    {
+      src: "/products/otraki-tvattpase/tvattpase-1.webp",
+      alt: "Tvättpåse fylld med kläder",
+      label: "Fylld",
+    },
+    {
+      src: "/products/otraki-tvattpase/tvattpase-2.webp",
+      alt: "Två tvättpåsar i 2-pack",
+      label: "2-pack",
+    },
+    {
+      src: "/products/otraki-tvattpase/tvattpase-3.webp",
+      alt: "Tvättpåse hopvikt kompakt",
+      label: "Vikbar",
+    },
+    {
+      src: "/products/otraki-tvattpase/tvattpase-4.webp",
+      alt: "Dragskon på tvättpåsen",
+      label: "Dragsko",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0B1ZZWCR8?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/tvattpase",
+  summary: "Ett 2-pack tvättpåsar med dragsko som håller isär smutstvätt från rena kläder i väskan på resan. Tomma tar de nästan ingen plats, och de fungerar även som förvaring hemma. Bra att veta: det är enkla tygpåsar med dragsko, inte vattentäta – för torr smutstvätt, inte blött.",
+  evaluation: {
+    headline: "Håll smutstvätten för sig i väskan",
+    intro: "Elin tittar närmare på OTraki tvättpåsar: ett 2-pack tygpåsar med dragsko som håller smutstvätten skild från rena kläder i väskan. De väger nästan ingenting tomma och kan även användas till förvaring hemma – smidigt både på resan och i vardagen.",
+    verdict: "Enkla, smidiga tvättpåsar som håller ordning i väskan – för torr tvätt.",
+    checks: [],
+  },
+  specSectionEyebrow: "Tvättpåse",
+  specSectionTitle: "OTraki tvättpåse",
+  specs: [
+    {
+      label: "Innehåll",
+      caption: "Antal",
+      value: "2-pack (ca 50x60 cm)",
+    },
+    {
+      label: "Stängning",
+      caption: "Funktion",
+      value: "Dragsko",
+    },
+    {
+      label: "Material",
+      caption: "Tyg",
+      value: "Lätt nylon, vikbar",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0B1ZZWCR8?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 2 279 omdömen.",
+    highlights: [
+      "2-pack med dragsko – separera smutstvätt från rena kläder i väskan.",
+      "Vikbara och tar liten plats tomma, funkar även som förvaring hemma.",
+      "Bra kvalitet enligt köpare (4,6 av 5 från 2 279 omdömen).",
+    ],
+    cautions: [
+      "Det är enkla tygpåsar med dragsko, inte vattentäta – för torr smutstvätt, inte blött.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const opretReseflaskorProduct: Product = {
+  slug: "opret-reseflaskor",
+  title: "Opret reseflaskor i silikon (60 ml, läcksäkra)",
+  category: "resa",
+  asin: "B0C3B7WCXQ",
+  brand: "Opret",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Silikon",
+    "Läcksäkra",
+    "Påfyllningsbara",
+  ],
+  image: "/products/opret-reseflaskor/reseflaskor-thumbnail.webp",
+  imageAlt: "Opret reseflaskor i silikon för toalettsaker",
+  images: [
+    {
+      src: "/products/opret-reseflaskor/reseflaskor-thumbnail.webp",
+      alt: "Opret reseflaskor i silikon",
+      label: "Reseflaskor",
+    },
+    {
+      src: "/products/opret-reseflaskor/reseflaskor-1.webp",
+      alt: "Silikonflaska som trycks ihop",
+      label: "Mjuk silikon",
+    },
+    {
+      src: "/products/opret-reseflaskor/reseflaskor-2.webp",
+      alt: "Reseflaskor i genomskinlig necessär",
+      label: "I necessären",
+    },
+    {
+      src: "/products/opret-reseflaskor/reseflaskor-3.webp",
+      alt: "Flaskor med etiketter för shampoo och balsam",
+      label: "Etiketter",
+    },
+    {
+      src: "/products/opret-reseflaskor/reseflaskor-4.webp",
+      alt: "Detalj av Opret reseflaska",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0C3B7WCXQ?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/reseflaskor",
+  summary: "Ett set påfyllningsbara reseflaskor i mjuk silikon (60 ml) som du fyller med shampoo, balsam och kräm. De är läcksäkra, BPA-fria och lätta att trycka ihop för att få ut sista droppen. Bra att veta: flaskorna rymmer 60 ml – kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
+  evaluation: {
+    headline: "Fyll dina egna favoriter på resan",
+    intro: "Elin tittar närmare på Opret reseflaskor: ett set mjuka silikonflaskor på 60 ml som du fyller med dina egna produkter istället för att köpa reseförpackningar. De är läcksäkra och lätta att trycka ihop, och etiketter håller isär shampoo och balsam.",
+    verdict: "Smidiga, läcksäkra silikonflaskor – kolla alltid flygplatsens vätskeregler.",
+    checks: [],
+  },
+  specSectionEyebrow: "Reseflaskor",
+  specSectionTitle: "Opret silikonflaskor",
+  specs: [
+    {
+      label: "Volym",
+      caption: "Storlek",
+      value: "60 ml per flaska",
+    },
+    {
+      label: "Material",
+      caption: "Silikon",
+      value: "Mjuk, BPA-fri, tryckbar",
+    },
+    {
+      label: "Funktion",
+      caption: "Läcksäker",
+      value: "Tät förslutning, med etiketter",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0C3B7WCXQ?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,5 av 5 från 779 omdömen.",
+    highlights: [
+      "Mjuk silikon som är lätt att trycka ut – fyll med shampoo, balsam och kräm.",
+      "Läcksäkra och BPA-fria med etiketter så du håller isär innehållet.",
+      "Uppskattade av köpare (4,5 av 5 från 779 omdömen).",
+    ],
+    cautions: [
+      "Flaskorna rymmer 60 ml – kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const narweyHangandeNecessarProduct: Product = {
+  slug: "narwey-hangande-necessar",
+  title: "Narwey hängande necessär (vattentålig, med krok)",
+  category: "resa",
+  asin: "B0DKH8DLGG",
+  brand: "Narwey",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Hängbar",
+    "Flera fack",
+    "Vattentålig",
+  ],
+  image: "/products/narwey-hangande-necessar/necessar-thumbnail.webp",
+  imageAlt: "Narwey hängande necessär med krok",
+  images: [
+    {
+      src: "/products/narwey-hangande-necessar/necessar-thumbnail.webp",
+      alt: "Narwey hängande necessär",
+      label: "Necessär",
+    },
+    {
+      src: "/products/narwey-hangande-necessar/necessar-1.webp",
+      alt: "Necessär hängd på krok i badrummet",
+      label: "Upphängd",
+    },
+    {
+      src: "/products/narwey-hangande-necessar/necessar-2.webp",
+      alt: "Necessär med flera fack fylld med toalettsaker",
+      label: "Fack",
+    },
+    {
+      src: "/products/narwey-hangande-necessar/necessar-3.webp",
+      alt: "Necessär hopvikt för packning",
+      label: "Hopvikt",
+    },
+    {
+      src: "/products/narwey-hangande-necessar/necessar-4.webp",
+      alt: "Kroken på Narwey necessär",
+      label: "Krok",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0DKH8DLGG?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/hangande-necessar",
+  summary: "En rymlig necessär med krok och flera fack som du hänger på dörren eller kroken i badrummet – så når du allt utan att rota. Materialet är vattentåligt och lätt att torka av. Bra att veta: full blir den ganska rymlig, så kolla att den får plats i din väska.",
+  evaluation: {
+    headline: "Häng upp och nå allt direkt",
+    intro: "Elin tittar närmare på Narwey hängande necessär: en rymlig necessär med krok och flera fack. Du hänger den på dörren eller en krok, öppnar upp och når toalettsaker och smått utan att rota i väskan. Materialet är vattentåligt och lätt att torka rent. Väldigt populär med nära 45 000 omdömen.",
+    verdict: "Rymlig, praktisk hängnecessär med bra ordning – blir stor när den är full.",
+    checks: [],
+  },
+  specSectionEyebrow: "Hängande necessär",
+  specSectionTitle: "Narwey necessär",
+  specs: [
+    {
+      label: "Upphängning",
+      caption: "Krok",
+      value: "Krok för dörr eller stång",
+    },
+    {
+      label: "Fack",
+      caption: "Förvaring",
+      value: "Flera fack för toalettsaker",
+    },
+    {
+      label: "Material",
+      caption: "Yta",
+      value: "Vattentåligt, lätt att torka av",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0DKH8DLGG?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 44 900 omdömen.",
+    highlights: [
+      "Hängbar med krok – häng på dörren och nå allt utan att rota.",
+      "Rymlig med flera fack, får plats med toalettsaker och smått för resan.",
+      "Enormt populär (4,6 av 5 från 44 900 omdömen).",
+    ],
+    cautions: [
+      "När den är full blir den ganska rymlig – kolla att den får plats i din väska.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const prezonSkopasarProduct: Product = {
+  slug: "prezon-skopasar",
+  title: "Prezon skopåsar för resa (2-pack, vattentåliga)",
+  category: "resa",
+  asin: "B0C1GCZHNT",
+  brand: "Prezon",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "2-pack",
+    "Vattentåliga",
+    "YKK-dragkedja",
+  ],
+  image: "/products/prezon-skopasar/skopasar-thumbnail.webp",
+  imageAlt: "Prezon skopåsar för resa med dragkedja",
+  images: [
+    {
+      src: "/products/prezon-skopasar/skopasar-thumbnail.webp",
+      alt: "Prezon skopåsar i 2-pack",
+      label: "Skopåsar",
+    },
+    {
+      src: "/products/prezon-skopasar/skopasar-1.webp",
+      alt: "Sko i skopåse med nätfönster",
+      label: "Nätfönster",
+    },
+    {
+      src: "/products/prezon-skopasar/skopasar-2.webp",
+      alt: "Skopåse med YKK-dragkedja",
+      label: "YKK-dragkedja",
+    },
+    {
+      src: "/products/prezon-skopasar/skopasar-3.webp",
+      alt: "Skopåsar packade i resväskan",
+      label: "I väskan",
+    },
+    {
+      src: "/products/prezon-skopasar/skopasar-4.webp",
+      alt: "Detalj av Prezon skopåse",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0C1GCZHNT?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/skopasar",
+  summary: "Ett 2-pack vattentåliga skopåsar i TPU med nätfönster och stadig YKK-dragkedja, som håller skorna för sig från kläderna i väskan. De rymmer även vuxenskor och luktar inte plast. Bra att veta: det är M-storlek i 2-pack – har du större kängor eller fler par kan du behöva komplettera.",
+  evaluation: {
+    headline: "Håll skorna borta från de rena kläderna",
+    intro: "Elin tittar närmare på Prezon skopåsar: ett 2-pack vattentåliga påsar i TPU med nätfönster och YKK-dragkedja. De håller skorna åtskilda från kläderna i väskan, rymmer även vuxenskor och känns stadiga. Ett litet men skönt sätt att hålla ordning på resan.",
+    verdict: "Stadiga, vattentåliga skopåsar som håller skorna för sig – M-storlek i 2-pack.",
+    checks: [],
+  },
+  specSectionEyebrow: "Skopåsar",
+  specSectionTitle: "Prezon skopåsar",
+  specs: [
+    {
+      label: "Innehåll",
+      caption: "Antal",
+      value: "2-pack, storlek M",
+    },
+    {
+      label: "Material",
+      caption: "Yta",
+      value: "Vattentåligt TPU med nätfönster",
+    },
+    {
+      label: "Dragkedja",
+      caption: "Kvalitet",
+      value: "Stadig YKK-dragkedja",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0C1GCZHNT?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,7 av 5 från 718 omdömen.",
+    highlights: [
+      "Håller skorna åtskilda från de rena kläderna i väskan.",
+      "Rymliga nog för vuxenskor och luktar inte plast enligt köpare.",
+      "Stadig YKK-dragkedja och högt betyg (4,7 av 5 från 718 omdömen).",
+    ],
+    cautions: [
+      "Det är M-storlek i 2-pack – har du större kängor eller fler par kan du behöva komplettera.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
+  prezonSkopasarProduct,
+  narweyHangandeNecessarProduct,
+  opretReseflaskorProduct,
+  otrakiTvattpaseProduct,
+  ipelyBilskrappaseProduct,
+  lamicallMobilhallareBilProduct,
+  iniuBilladdareProduct,
+  surdocaBilorganisatorProduct,
   blukarPannlampaProduct,
   anyooRegnponchoProduct,
   anker735VaggladdareProduct,

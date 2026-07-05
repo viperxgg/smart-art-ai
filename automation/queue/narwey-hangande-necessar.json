@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "narweyHangandeNecessarProduct",
+  "category": "resa",
+  "categoryGroup": "Smarta reseprylar",
+  "route": "sommar/resa/hangande-necessar",
+  "pageComponentName": "HangandeNecessarPage",
+  "product": {
+    "slug": "narwey-hangande-necessar",
+    "title": "Narwey hängande necessär (vattentålig, med krok)",
+    "category": "resa",
+    "asin": "B0DKH8DLGG",
+    "brand": "Narwey",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["Hängbar", "Flera fack", "Vattentålig"],
+    "image": "/products/narwey-hangande-necessar/necessar-thumbnail.webp",
+    "imageAlt": "Narwey hängande necessär med krok",
+    "images": [
+      { "src": "/products/narwey-hangande-necessar/necessar-thumbnail.webp", "alt": "Narwey hängande necessär", "label": "Necessär" },
+      { "src": "/products/narwey-hangande-necessar/necessar-1.webp", "alt": "Necessär hängd på krok i badrummet", "label": "Upphängd" },
+      { "src": "/products/narwey-hangande-necessar/necessar-2.webp", "alt": "Necessär med flera fack fylld med toalettsaker", "label": "Fack" },
+      { "src": "/products/narwey-hangande-necessar/necessar-3.webp", "alt": "Necessär hopvikt för packning", "label": "Hopvikt" },
+      { "src": "/products/narwey-hangande-necessar/necessar-4.webp", "alt": "Kroken på Narwey necessär", "label": "Krok" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0DKH8DLGG?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/hangande-necessar",
+    "summary": "En rymlig necessär med krok och flera fack som du hänger på dörren eller kroken i badrummet – så når du allt utan att rota. Materialet är vattentåligt och lätt att torka av. Bra att veta: full blir den ganska rymlig, så kolla att den får plats i din väska.",
+    "evaluation": {
+      "headline": "Häng upp och nå allt direkt",
+      "intro": "Elin tittar närmare på Narwey hängande necessär: en rymlig necessär med krok och flera fack. Du hänger den på dörren eller en krok, öppnar upp och når toalettsaker och smått utan att rota i väskan. Materialet är vattentåligt och lätt att torka rent. Väldigt populär med nära 45 000 omdömen.",
+      "verdict": "Rymlig, praktisk hängnecessär med bra ordning – blir stor när den är full.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Hängande necessär",
+    "specSectionTitle": "Narwey necessär",
+    "specs": [
+      { "label": "Upphängning", "caption": "Krok", "value": "Krok för dörr eller stång" },
+      { "label": "Fack", "caption": "Förvaring", "value": "Flera fack för toalettsaker" },
+      { "label": "Material", "caption": "Yta", "value": "Vattentåligt, lätt att torka av" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0DKH8DLGG?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 44 900 omdömen.",
+      "highlights": [
+        "Hängbar med krok – häng på dörren och nå allt utan att rota.",
+        "Rymlig med flera fack, får plats med toalettsaker och smått för resan.",
+        "Enormt populär (4,6 av 5 från 44 900 omdömen)."
+      ],
+      "cautions": [
+        "När den är full blir den ganska rymlig – kolla att den får plats i din väska."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/hangande-necessar",
+    "cardBadge": "Hängbar",
+    "cardHook": "Häng på dörren och nå allt utan att rota – rymlig med flera fack.",
+    "cardImage": "/products/narwey-hangande-necessar/necessar-thumbnail.webp",
+    "cardImageAlt": "Narwey hängande necessär med krok",
+    "badge": "Elins hotellrums-tips",
+    "headline": "Narwey hängande necessär – ordning på liten yta",
+    "shortBody": "En rymlig necessär med krok och flera fack som du hänger på dörren eller kroken i badrummet. Du når allt direkt utan att rota, och materialet är vattentåligt och lätt att torka av.",
+    "valueHook": "Slipp rota på det trånga hotellbadrummet",
+    "valueStatement": "Narwey hängande necessär är en rymlig necessär med krok och flera fack för dig som vill ha ordning även på ett trångt hotellbadrum. Du hänger upp den och når toalettsaker och smått direkt. Amazon visar 4,6 av 5 från nära 45 000 omdömen, och köpare lyfter att den är rymlig och praktisk. Tänk på att den blir ganska stor när den är full – kolla att den ryms i din väska.",
+    "passFor": [
+      "Vill ha ordning på toalettsakerna även på ett trångt badrum.",
+      "Vill kunna hänga upp necessären och nå allt utan att rota.",
+      "Reser ofta och vill ha en rymlig, hållbar necessär."
+    ],
+    "caution": "När necessären är fullpackad blir den ganska rymlig och tar en del plats i väskan. Fyll den efter behov, och kolla att den får plats innan. Materialet är vattentåligt men necessären är inte helt vattentät.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Häng necessären på en krok eller dörr i badrummet så du når allt direkt. Lägg det du använder ofta i de främre facken. Torka av insidan om något läcker, så håller den sig fräsch."
+    },
+    "verdict": "Rymlig, praktisk hängnecessär med bra ordning – blir stor när den är full.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 44 900 omdömen. Köpare gillar att den går att hänga upp, är rymlig och håller ordning – kom ihåg att den blir stor fullpackad.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Var kan jag hänga den?", "answer": "Den har en krok som passar på de flesta dörrar, handdukskrokar eller stänger i badrummet, så du kan nå allt utan att lägga ut sakerna på en trång yta." },
+      { "question": "Hur mycket rymmer den?", "answer": "Den är rymlig med flera fack och får plats med toalettsaker och smått för hela resan. Full blir den ganska stor, så kolla att den ryms i din väska." },
+      { "question": "Är den vattentät?", "answer": "Materialet är vattentåligt och lätt att torka av, men necessären är inte helt vattentät. Torka av insidan om något skulle läcka." }
+    ],
+    "reviewSectionId": "narwey-hangande-necessar-recensioner",
+    "reviewFormId": "narwey-hangande-necessar-skriv-recension",
+    "targetKeyword": "hängande necessär",
+    "metaTitle": "Narwey hängande necessär – ordning på badrummet | Elins val",
+    "metaDescription": "Elin går igenom Narwey hängande necessär (4,6 av 5 från 44 900 omdömen): häng upp och nå allt utan att rota, rymlig med flera fack – och vad du bör tänka på.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/reseflaskor", "label": "Reseflaskor", "text": "Fyll egna produkter i läcksäkra silikonflaskor." },
+      { "href": "/sommar/resa/necessar", "label": "Genomskinlig necessär", "text": "Se innehållet direkt i säkerhetskontrollen." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan." }
+    ]
+  },
+  "images": {
+    "dir": "narwey-hangande-necessar",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71+3OehfuKL._AC_SL1500_.jpg", "out": "necessar-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71Xi0u-nWkL._AC_SL1500_.jpg", "out": "necessar-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71DnpnBUgeL._AC_SL1500_.jpg", "out": "necessar-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71RX5Lk3d5L._AC_SL1500_.jpg", "out": "necessar-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71O5r-0JavL._AC_SL1500_.jpg", "out": "necessar-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Narwey hängande necessär", "href": "/sommar/resa/hangande-necessar", "date": "2026-07-05", "image": "/products/narwey-hangande-necessar/necessar-thumbnail.webp", "blurb": "Rymlig necessär med krok - häng upp och nå allt utan att rota på hotellbadrummet." }
+  ]
+}

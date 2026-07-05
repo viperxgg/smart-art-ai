@@ -289,6 +289,22 @@ export const categoryProductGroups = {
         "blukar-pannlampa",
         "anyoo-regnponcho",],
     },
+    {
+      title: "Road trip & bilen",
+      productSlugs: [
+        "ipely-bilskrappase",
+        "lamicall-mobilhallare-bil",
+        "iniu-billaddare",
+        "surdoca-bilorganisator",],
+    },
+    {
+      title: "Smarta reseprylar",
+      productSlugs: [
+        "prezon-skopasar",
+        "narwey-hangande-necessar",
+        "opret-reseflaskor",
+        "otraki-tvattpase",],
+    },
   ],
 } satisfies Record<ProductCategorySlug, CategoryProductGroup[]>;
 

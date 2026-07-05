@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "lamicallMobilhallareBilProduct",
+  "category": "resa",
+  "categoryGroup": "Road trip & bilen",
+  "route": "sommar/resa/mobilhallare",
+  "pageComponentName": "MobilhallarePage",
+  "product": {
+    "slug": "lamicall-mobilhallare-bil",
+    "title": "Lamicall magnetisk mobilhållare för bil (MagSafe)",
+    "category": "resa",
+    "asin": "B0BQRJ6Y5P",
+    "brand": "Lamicall",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["Magnetisk", "Luftventil", "MagSafe"],
+    "image": "/products/lamicall-mobilhallare/mobilhallare-thumbnail.webp",
+    "imageAlt": "Lamicall magnetisk mobilhållare i bilens luftventil",
+    "images": [
+      { "src": "/products/lamicall-mobilhallare/mobilhallare-thumbnail.webp", "alt": "Lamicall magnetisk mobilhållare för bil", "label": "Mobilhållare" },
+      { "src": "/products/lamicall-mobilhallare/mobilhallare-1.webp", "alt": "Mobil fäst magnetiskt i hållaren", "label": "Magnet" },
+      { "src": "/products/lamicall-mobilhallare/mobilhallare-2.webp", "alt": "Hållare monterad i luftventilen", "label": "Luftventil" },
+      { "src": "/products/lamicall-mobilhallare/mobilhallare-3.webp", "alt": "Mobil i landskapsläge i hållaren", "label": "Vridbar" },
+      { "src": "/products/lamicall-mobilhallare/mobilhallare-4.webp", "alt": "Detalj av Lamicall mobilhållare", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0BQRJ6Y5P?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/mobilhallare",
+    "summary": "En magnetisk mobilhållare med starka N52-magneter som fäster i bilens luftventil och håller mobilen i sikte för navigeringen. Den är enkel att sätta upp och ta av med en hand. Bra att veta: det är en MagSafe-hållare – iPhone med MagSafe fäster direkt, medan andra mobiler behöver en magnetring eller ett MagSafe-skal.",
+    "evaluation": {
+      "headline": "Mobilen i sikte hela resan",
+      "intro": "Elin tittar närmare på Lamicall magnetiska mobilhållare: en hållare med starka magneter som fäster i luftventilen och håller mobilen stadigt i blickfånget. Du sätter fast och tar loss mobilen med en hand – smidigt för navigering på road tripen.",
+      "verdict": "Stadig magnetisk mobilhållare för navigering – kräver MagSafe eller magnetring.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Mobilhållare",
+    "specSectionTitle": "Lamicall magnethållare",
+    "specs": [
+      { "label": "Fäste", "caption": "Placering", "value": "Bilens luftventil" },
+      { "label": "Magnet", "caption": "Styrka", "value": "Starka N52-magneter" },
+      { "label": "Passar", "caption": "Mobil", "value": "MagSafe eller magnetring krävs" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0BQRJ6Y5P?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 16 134 omdömen.",
+      "highlights": [
+        "Håller mobilen stadigt i luftventilen – perfekt för navigering på road tripen.",
+        "Stark magnet, många beskriver den som den bästa hållaren de haft.",
+        "Väldigt populär (4,6 av 5 från 16 134 omdömen)."
+      ],
+      "cautions": [
+        "Det är en magnetisk MagSafe-hållare – andra mobiler behöver en magnetring eller ett MagSafe-skal för att fästa."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/mobilhallare",
+    "cardBadge": "Magnetisk",
+    "cardHook": "Håller mobilen i sikte för navigeringen – fäster i luftventilen.",
+    "cardImage": "/products/lamicall-mobilhallare/mobilhallare-thumbnail.webp",
+    "cardImageAlt": "Lamicall magnetisk mobilhållare i bilens luftventil",
+    "badge": "Elins navigering-tips",
+    "headline": "Lamicall mobilhållare – mobilen i blickfånget",
+    "shortBody": "En magnetisk mobilhållare med starka N52-magneter som fäster i luftventilen och håller mobilen i sikte för navigeringen. Enkel att sätta fast och ta av med en hand.",
+    "valueHook": "Slipp fippla med mobilen medan du kör",
+    "valueStatement": "Lamicall magnetiska mobilhållare håller mobilen stadigt i bilens luftventil, så du kan följa navigeringen utan att hålla i den. Starka magneter gör att du fäster och tar loss mobilen med en hand. Amazon visar 4,6 av 5 från hela 16 134 omdömen, och många kallar den den bästa hållaren de haft. Viktigt: det är en MagSafe-hållare, så andra mobiler behöver en magnetring eller ett MagSafe-skal.",
+    "passFor": [
+      "Vill ha mobilen i sikte för navigeringen på road tripen.",
+      "Har iPhone med MagSafe eller en magnetring på mobilen.",
+      "Vill kunna fästa och ta loss mobilen med en hand."
+    ],
+    "caution": "Det är en magnetisk hållare gjord för MagSafe. En iPhone med MagSafe fäster direkt, men andra mobiler (eller iPhone utan MagSafe-skal) behöver en självhäftande magnetring för att sitta fast. Kolla att du har det som krävs innan.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Kläm fast hållaren i en stabil luftventil. Har du inte MagSafe, fäst först den medföljande eller en separat magnetring centrerat på mobilens baksida. Placera hållaren så mobilen sitter i blickfånget utan att skymma sikten."
+    },
+    "verdict": "Stadig magnetisk mobilhållare för navigering – kräver MagSafe eller magnetring.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 16 134 omdömen. Köpare lyfter den starka magneten och hur stadigt mobilen sitter – kom ihåg att den kräver MagSafe eller en magnetring.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Fungerar den med min mobil?", "answer": "iPhone med MagSafe fäster direkt. Andra mobiler, inklusive iPhone utan MagSafe-skal, behöver en självhäftande magnetring på baksidan för att sitta fast." },
+      { "question": "Sitter mobilen stadigt?", "answer": "Ja, den har starka N52-magneter och köpare beskriver att mobilen sitter stadigt även på gropig väg. Se till att luftventilen du fäster den i är stabil." },
+      { "question": "Skymmer den sikten?", "answer": "Placera den på en luftventil så mobilen hamnar i blickfånget utan att skymma vägen. Undvik att montera den så att den stör sikten framåt." }
+    ],
+    "reviewSectionId": "lamicall-mobilhallare-bil-recensioner",
+    "reviewFormId": "lamicall-mobilhallare-bil-skriv-recension",
+    "targetKeyword": "mobilhållare bil",
+    "metaTitle": "Lamicall magnetisk mobilhållare för bil – MagSafe | Elins val",
+    "metaDescription": "Elin går igenom Lamicall magnetiska mobilhållare (4,6 av 5 från 16 134 omdömen): håll mobilen i sikte för navigeringen – och varför du behöver MagSafe eller en magnetring.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/billaddare", "label": "Billaddare", "text": "Ladda mobilen medan navigeringen går." },
+      { "href": "/sommar/resa/bilorganisator", "label": "Bilorganiser", "text": "Ordning i baksätet på långresan." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan." }
+    ]
+  },
+  "images": {
+    "dir": "lamicall-mobilhallare",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61Oi6IyXdhL._AC_SL1300_.jpg", "out": "mobilhallare-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71qVi2wRr0L._AC_SL1500_.jpg", "out": "mobilhallare-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61drUo0+kDL._AC_SL1500_.jpg", "out": "mobilhallare-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71MzDpwG9EL._AC_SL1500_.jpg", "out": "mobilhallare-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71eezFPFKTL._AC_SL1500_.jpg", "out": "mobilhallare-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Lamicall magnetisk mobilhållare för bil", "href": "/sommar/resa/mobilhallare", "date": "2026-07-05", "image": "/products/lamicall-mobilhallare/mobilhallare-thumbnail.webp", "blurb": "Magnetisk mobilhållare som håller mobilen i sikte för navigeringen på road tripen." }
+  ]
+}

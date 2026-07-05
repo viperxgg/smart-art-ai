@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "prezonSkopasarProduct",
+  "category": "resa",
+  "categoryGroup": "Smarta reseprylar",
+  "route": "sommar/resa/skopasar",
+  "pageComponentName": "SkopasarPage",
+  "product": {
+    "slug": "prezon-skopasar",
+    "title": "Prezon skopåsar för resa (2-pack, vattentåliga)",
+    "category": "resa",
+    "asin": "B0C1GCZHNT",
+    "brand": "Prezon",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["2-pack", "Vattentåliga", "YKK-dragkedja"],
+    "image": "/products/prezon-skopasar/skopasar-thumbnail.webp",
+    "imageAlt": "Prezon skopåsar för resa med dragkedja",
+    "images": [
+      { "src": "/products/prezon-skopasar/skopasar-thumbnail.webp", "alt": "Prezon skopåsar i 2-pack", "label": "Skopåsar" },
+      { "src": "/products/prezon-skopasar/skopasar-1.webp", "alt": "Sko i skopåse med nätfönster", "label": "Nätfönster" },
+      { "src": "/products/prezon-skopasar/skopasar-2.webp", "alt": "Skopåse med YKK-dragkedja", "label": "YKK-dragkedja" },
+      { "src": "/products/prezon-skopasar/skopasar-3.webp", "alt": "Skopåsar packade i resväskan", "label": "I väskan" },
+      { "src": "/products/prezon-skopasar/skopasar-4.webp", "alt": "Detalj av Prezon skopåse", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0C1GCZHNT?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/skopasar",
+    "summary": "Ett 2-pack vattentåliga skopåsar i TPU med nätfönster och stadig YKK-dragkedja, som håller skorna för sig från kläderna i väskan. De rymmer även vuxenskor och luktar inte plast. Bra att veta: det är M-storlek i 2-pack – har du större kängor eller fler par kan du behöva komplettera.",
+    "evaluation": {
+      "headline": "Håll skorna borta från de rena kläderna",
+      "intro": "Elin tittar närmare på Prezon skopåsar: ett 2-pack vattentåliga påsar i TPU med nätfönster och YKK-dragkedja. De håller skorna åtskilda från kläderna i väskan, rymmer även vuxenskor och känns stadiga. Ett litet men skönt sätt att hålla ordning på resan.",
+      "verdict": "Stadiga, vattentåliga skopåsar som håller skorna för sig – M-storlek i 2-pack.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Skopåsar",
+    "specSectionTitle": "Prezon skopåsar",
+    "specs": [
+      { "label": "Innehåll", "caption": "Antal", "value": "2-pack, storlek M" },
+      { "label": "Material", "caption": "Yta", "value": "Vattentåligt TPU med nätfönster" },
+      { "label": "Dragkedja", "caption": "Kvalitet", "value": "Stadig YKK-dragkedja" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0C1GCZHNT?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 718 omdömen.",
+      "highlights": [
+        "Håller skorna åtskilda från de rena kläderna i väskan.",
+        "Rymliga nog för vuxenskor och luktar inte plast enligt köpare.",
+        "Stadig YKK-dragkedja och högt betyg (4,7 av 5 från 718 omdömen)."
+      ],
+      "cautions": [
+        "Det är M-storlek i 2-pack – har du större kängor eller fler par kan du behöva komplettera."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/skopasar",
+    "cardBadge": "Vattentåliga",
+    "cardHook": "Håll skorna för sig från de rena kläderna – 2-pack med YKK-dragkedja.",
+    "cardImage": "/products/prezon-skopasar/skopasar-thumbnail.webp",
+    "cardImageAlt": "Prezon skopåsar för resa med dragkedja",
+    "badge": "Elins håll-rent-tips",
+    "headline": "Prezon skopåsar – skorna borta från kläderna",
+    "shortBody": "Ett 2-pack vattentåliga skopåsar i TPU med nätfönster och stadig YKK-dragkedja. De håller skorna åtskilda från kläderna i väskan och rymmer även vuxenskor.",
+    "valueHook": "Slipp skosulorna mot de rena kläderna",
+    "valueStatement": "Prezon skopåsar är ett 2-pack vattentåliga påsar i TPU för dig som vill hålla skorna borta från de rena kläderna i väskan. Nätfönstret gör att du ser vad som är i, och YKK-dragkedjan känns stadig. Amazon visar 4,7 av 5 från 718 omdömen, och köpare gillar att de rymmer vuxenskor och inte luktar plast. Tänk på att det är M-storlek i 2-pack – har du större kängor eller fler par kan du behöva komplettera.",
+    "passFor": [
+      "Vill hålla skorna åtskilda från de rena kläderna i väskan.",
+      "Vill ha vattentåliga påsar som tål lite smuts.",
+      "Packar ofta skor och vill ha ordning."
+    ],
+    "caution": "Det är storlek M i 2-pack. De rymmer vanliga vuxenskor bra, men har du stora kängor eller reser flera personer kan du behöva fler eller en större storlek. De är vattentåliga men inte helt vattentäta.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Lägg ett par skor per påse med sulorna mot varandra och dra igen dragkedjan. Packa dem längst ner eller vid sidan i väskan, så håller de skosulorna borta från kläderna. Torka av insidan vid behov."
+    },
+    "verdict": "Stadiga, vattentåliga skopåsar som håller skorna för sig – M-storlek i 2-pack.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 718 omdömen. Köpare gillar att de håller skorna åtskilda, rymmer vuxenskor och har en stadig YKK-dragkedja – det är M-storlek i 2-pack.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Rymmer de vuxenskor?", "answer": "Ja, storlek M rymmer vanliga vuxenskor som sneakers bra. Har du stora kängor eller vandringskängor kan du behöva en större storlek." },
+      { "question": "Är de vattentäta?", "answer": "De är i vattentåligt TPU och tål lite smuts och fukt, men de är inte helt vattentäta. Nätfönstret gör att du ser vad som ligger i." },
+      { "question": "Hur många får jag?", "answer": "Det är ett 2-pack, alltså två påsar. Reser ni flera eller har många par skor kan det vara värt att komplettera med fler." }
+    ],
+    "reviewSectionId": "prezon-skopasar-recensioner",
+    "reviewFormId": "prezon-skopasar-skriv-recension",
+    "targetKeyword": "skopåsar resa",
+    "metaTitle": "Prezon skopåsar för resa (2-pack) – håll skorna för sig | Elins val",
+    "metaDescription": "Elin går igenom Prezon skopåsar (2-pack, 4,7 av 5 från 718 omdömen): vattentåliga med YKK-dragkedja som håller skorna borta från kläderna – och vad du bör tänka på.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/tvattpase", "label": "Tvättpåse", "text": "Håll smutstvätt skild från rena kläder." },
+      { "href": "/sommar/resa/packkuber", "label": "Packkuber", "text": "Packa strukturerat och håll ordning." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan." }
+    ]
+  },
+  "images": {
+    "dir": "prezon-skopasar",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/812RhN-4NtL._AC_SL1500_.jpg", "out": "skopasar-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71pkp-IJnbL._AC_SL1500_.jpg", "out": "skopasar-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81Hr91HVd2L._AC_SL1500_.jpg", "out": "skopasar-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71K2qjzwzZL._AC_SL1500_.jpg", "out": "skopasar-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81uRKtsxagL._AC_SL1500_.jpg", "out": "skopasar-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Prezon skopåsar för resa (2-pack)", "href": "/sommar/resa/skopasar", "date": "2026-07-05", "image": "/products/prezon-skopasar/skopasar-thumbnail.webp", "blurb": "Vattentåliga skopåsar med YKK-dragkedja - håll skorna borta från de rena kläderna." }
+  ]
+}

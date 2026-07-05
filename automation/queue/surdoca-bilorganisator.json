@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "surdocaBilorganisatorProduct",
+  "category": "resa",
+  "categoryGroup": "Road trip & bilen",
+  "route": "sommar/resa/bilorganisator",
+  "pageComponentName": "BilorganisatorPage",
+  "product": {
+    "slug": "surdoca-bilorganisator",
+    "title": "SURDOCA bilorganiser för baksätet (8 fickor)",
+    "category": "resa",
+    "asin": "B08BHYPPZ6",
+    "brand": "SURDOCA",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["8 fickor", "Surfplattehållare", "Baksäte"],
+    "image": "/products/surdoca-bilorganisator/bilorganisator-thumbnail.webp",
+    "imageAlt": "SURDOCA bilorganiser för baksätet med flera fickor",
+    "images": [
+      { "src": "/products/surdoca-bilorganisator/bilorganisator-thumbnail.webp", "alt": "SURDOCA bilorganiser för baksätet", "label": "Organiser" },
+      { "src": "/products/surdoca-bilorganisator/bilorganisator-1.webp", "alt": "Bilorganiser med surfplatta i hållaren", "label": "Surfplatta" },
+      { "src": "/products/surdoca-bilorganisator/bilorganisator-2.webp", "alt": "Fickor fyllda med saker i baksätet", "label": "Fickor" },
+      { "src": "/products/surdoca-bilorganisator/bilorganisator-3.webp", "alt": "Bilorganiser fäst på framstolens rygg", "label": "Monterad" },
+      { "src": "/products/surdoca-bilorganisator/bilorganisator-4.webp", "alt": "Detalj av SURDOCA bilorganiser", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B08BHYPPZ6?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/bilorganisator",
+    "summary": "En bilorganiser med åtta fickor och surfplattehållare som fäster på framstolens rygg och håller ordning i baksätet på road tripen. Barnen når sina saker och skräpet hamnar inte på golvet. Bra att veta: en köpare tycker att den nedre remmen är lite kort – kolla att den passar din bilmodell.",
+    "evaluation": {
+      "headline": "Ordning i baksätet på långresan",
+      "intro": "Elin tittar närmare på SURDOCA bilorganiser: en hållare med åtta fickor och plats för surfplatta som fäster på framstolens rygg. Den håller leksaker, flaskor och smått på plats så baksätet inte blir ett kaos på road tripen – särskilt skönt med barn.",
+      "verdict": "Rejäl bilorganiser som håller ordning i baksätet – kolla passformen.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Bilorganiser",
+    "specSectionTitle": "SURDOCA baksätesorganiser",
+    "specs": [
+      { "label": "Fickor", "caption": "Förvaring", "value": "8 fickor + surfplattehållare" },
+      { "label": "Montering", "caption": "Placering", "value": "Fäster på framstolens rygg" },
+      { "label": "Passar", "caption": "Bäst för", "value": "Barnfamilj och långresa" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B08BHYPPZ6?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 15 978 omdömen.",
+      "highlights": [
+        "Massor av fickor (inkl. surfplattehållare) – håller ordning i baksätet på road tripen.",
+        "Tålig och bra för barnfamiljen enligt köpare.",
+        "Väldigt populär (4,3 av 5 från 15 978 omdömen)."
+      ],
+      "cautions": [
+        "En köpare tycker att den nedre remmen är lite kort – kolla att den passar din bilmodell."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/bilorganisator",
+    "cardBadge": "8 fickor",
+    "cardHook": "Håller ordning i baksätet på road tripen – med surfplattehållare.",
+    "cardImage": "/products/surdoca-bilorganisator/bilorganisator-thumbnail.webp",
+    "cardImageAlt": "SURDOCA bilorganiser för baksätet med flera fickor",
+    "badge": "Elins ordning-i-bilen-tips",
+    "headline": "SURDOCA bilorganiser – slut på kaoset i baksätet",
+    "shortBody": "En bilorganiser med åtta fickor och surfplattehållare som fäster på framstolens rygg. Håller leksaker, flaskor och smått på plats i baksätet – särskilt skönt med barn på långresan.",
+    "valueHook": "Bilen blir semester eller stress",
+    "valueStatement": "SURDOCA bilorganiser håller ordning i baksätet på road tripen med åtta fickor och en surfplattehållare. Barnen når sina saker och skräpet hamnar inte överallt. Amazon visar 4,3 av 5 från hela 15 978 omdömen, och köpare lyfter mängden fickor och tåligheten. Tänk på att någon tycker den nedre remmen är lite kort – kolla att den passar just din bil.",
+    "passFor": [
+      "Kör långt med barn och vill ha ordning i baksätet.",
+      "Vill ha en surfplattehållare för resan.",
+      "Vill slippa leksaker och skräp på golvet."
+    ],
+    "caution": "Passformen varierar mellan bilmodeller – en köpare tycker den nedre remmen är lite kort. Kolla måtten och hur den fästs mot din framstol innan. Det är en textilorganiser, så tunga saker bör läggas lågt.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Fäst de övre remmarna runt nackstödet och den nedre runt stolens fot så den sitter stadigt. Lägg tunga saker lågt och lätta saker högt. Använd surfplattehållaren i ögonhöjd för barnen."
+    },
+    "verdict": "Rejäl bilorganiser som håller ordning i baksätet – kolla passformen.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 15 978 omdömen. Köpare gillar mängden fickor, surfplattehållaren och tåligheten – passformen kan variera mellan bilmodeller.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Passar den min bil?", "answer": "Den fäster på framstolens rygg och passar de flesta bilar, men passformen varierar. En köpare tycker den nedre remmen är lite kort, så kolla måtten mot din stol innan." },
+      { "question": "Har den plats för surfplatta?", "answer": "Ja, den har en särskild hållare för surfplatta, vilket är uppskattat för att hålla barnen sysselsatta på långresan." },
+      { "question": "Hur mycket rymmer den?", "answer": "Den har åtta fickor i olika storlekar, inklusive isolerade fack, så du får plats med flaskor, leksaker, snacks och smått." }
+    ],
+    "reviewSectionId": "surdoca-bilorganisator-recensioner",
+    "reviewFormId": "surdoca-bilorganisator-skriv-recension",
+    "targetKeyword": "bilorganisatör",
+    "metaTitle": "SURDOCA bilorganiser för baksätet – ordning på resan | Elins val",
+    "metaDescription": "Elin går igenom SURDOCA bilorganiser (8 fickor, 4,3 av 5 från 15 978 omdömen): håll ordning i baksätet på road tripen med surfplattehållare – och kolla passformen.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/billaddare", "label": "Billaddare", "text": "Ladda mobilen medan du kör." },
+      { "href": "/sommar/resa/mobilhallare", "label": "Mobilhållare", "text": "Håll mobilen i sikte för navigeringen." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan." }
+    ]
+  },
+  "images": {
+    "dir": "surdoca-bilorganisator",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71glATkNF-L._AC_SL1500_.jpg", "out": "bilorganisator-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81CWgVxPxsL._AC_SL1500_.jpg", "out": "bilorganisator-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71mDfotu5DL._AC_SL1500_.jpg", "out": "bilorganisator-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81k6mSLoXtL._AC_SL1500_.jpg", "out": "bilorganisator-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81+QEwgh-XL._AC_SL1500_.jpg", "out": "bilorganisator-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "SURDOCA bilorganiser (8 fickor)", "href": "/sommar/resa/bilorganisator", "date": "2026-07-05", "image": "/products/surdoca-bilorganisator/bilorganisator-thumbnail.webp", "blurb": "Bilorganiser med 8 fickor och surfplattehållare - ordning i baksätet på road tripen." }
+  ]
+}
