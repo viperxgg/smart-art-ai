@@ -276,6 +276,13 @@ export const categoryProductGroups = {
         "jetech-vattentatt-mobilfodral",
         "fit-flip-mikrofiberhandduk",],
     },
+    {
+      title: "Reseelektronik",
+      productSlugs: [
+        "anker-735-vaggladdare",
+        "raviad-usb-c-kabel-kort",
+        "anker-zolo-powerbank",],
+    },
   ],
 } satisfies Record<ProductCategorySlug, CategoryProductGroup[]>;
 

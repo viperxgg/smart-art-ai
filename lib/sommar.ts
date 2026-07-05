@@ -1,4 +1,7 @@
 import {
+  anker735VaggladdareProduct,
+  raviadUsbCKabelProduct,
+  ankerZoloPowerbankProduct,
   anortrekStrandfiltProduct,
   lifewitKylvaskaProduct,
   strandklammorProduct,
@@ -9419,6 +9422,195 @@ export const resaSectionCopy = {
 };
 
 export const resaPicks: SommarPick[] = [
+  {
+    productSlug: anker735VaggladdareProduct.slug,
+    product: anker735VaggladdareProduct,
+    href: "/sommar/resa/vaggladdare",
+    cardBadge: "65W GaN",
+    cardHook: "En liten laddare för mobil och laptop – lämna resten hemma.",
+    cardImage: "/products/anker-735-vaggladdare/vaggladdare-thumbnail.webp",
+    cardImageAlt: "Anker 735 väggladdare med tre portar",
+    badge: "Elins packa-lätt-tips",
+    headline: "Anker 735 väggladdare – en laddare för allt",
+    shortBody: "En kompakt GaN-väggladdare på 65W med tre portar och hopfällbara stift. Den laddar mobil, surfplatta och många laptops, så du kan lämna de andra laddarna hemma.",
+    valueHook: "Byt tre laddare mot en",
+    valueStatement: "Anker 735 är en kompakt 65W GaN-laddare för dig som vill packa lätt och ändå kunna ladda allt. Med tre portar laddar den mobil, surfplatta och många laptops samtidigt, och de hopfällbara stiften gör den reseklar. Amazon visar 4,6 av 5 från hela 13 137 omdömen. Tänk på att 65W delas mellan portarna, så laddar du flera enheter samtidigt blir det långsammare per enhet.",
+    passFor: [
+      "Vill ersätta flera laddare med en enda liten på resan.",
+      "Behöver ladda både mobil och laptop.",
+      "Vill ha en kompakt laddare med hopfällbara stift.",
+    ],
+    caution: "De 65W delas mellan portarna. En enhet får full effekt, men laddar du mobil, surfplatta och laptop samtidigt blir det långsammare per enhet. Kolla att din laptops effektbehov ryms inom 65W.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Anslut din mest strömkrävande enhet (t.ex. laptop) i USB-C-porten för bäst effekt. Fäll ut stiften och vik in dem igen när du packar. Ladda gärna en enhet i taget när du behöver full hastighet.",
+    },
+    verdict: "Kompakt 65W-laddare som ersätter flera – effekten delas mellan portarna.",
+    amazonSummary: "Amazon visar 4,6 av 5 från 13 137 omdömen. Köpare lyfter att den laddar allt från mobil till laptop och är kompakt och robust – kom ihåg att 65W delas mellan portarna.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Kan den ladda min laptop?",
+        answer: "Den laddar många laptops via USB-C tack vare 65W. Kolla att din laptops effektbehov ryms inom 65W, särskilt för större modeller.",
+      },
+      {
+        question: "Hur många enheter samtidigt?",
+        answer: "Den har tre portar, men de 65W delas mellan dem. Ladda en enhet för full hastighet, eller flera samtidigt lite långsammare.",
+      },
+      {
+        question: "Är den bra för resa?",
+        answer: "Ja, den är kompakt med hopfällbara stift och ersätter flera laddare, vilket gör den populär just för resan.",
+      },
+    ],
+    reviewSectionId: "anker-735-vaggladdare-recensioner",
+    reviewFormId: "anker-735-vaggladdare-skriv-recension",
+    targetKeyword: "usb c väggladdare",
+    metaTitle: "Anker 735 väggladdare 65W – en laddare för allt | Elins val",
+    metaDescription: "Elin går igenom Anker 735 Nano II 65W väggladdare (4,6 av 5 från 13 137 omdömen): kompakt 3-portsladdare för mobil och laptop – och varför effekten delas mellan portarna.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/powerbank",
+        label: "Powerbank",
+        text: "Ström på språng när det inte finns uttag.",
+      },
+      {
+        href: "/sommar/resa/usb-c-kabel",
+        label: "USB-C-kabel",
+        text: "Korta, hållbara kablar till laddaren.",
+      },
+      {
+        href: "/sommar/resa",
+        label: "Elins reseval",
+        text: "Fler smarta prylar för resan.",
+      },
+    ],
+  },
+  {
+    productSlug: raviadUsbCKabelProduct.slug,
+    product: raviadUsbCKabelProduct,
+    href: "/sommar/resa/usb-c-kabel",
+    cardBadge: "Kort & smidig",
+    cardHook: "Korta nylonkablar (50 cm) – perfekta ihop med powerbanken i fickan.",
+    cardImage: "/products/raviad-usb-c-kabel/kabel-thumbnail.webp",
+    cardImageAlt: "RAVIAD korta USB-C-kablar i 2-pack för resa",
+    badge: "Elins slipp-trassel-tips",
+    headline: "RAVIAD USB-C-kabel – kort, hållbar, smidig",
+    shortBody: "Ett 2-pack korta (50 cm) nylonflätade USB-C-kablar med PD-stöd. Den korta längden är perfekt ihop med en powerbank – du slipper trassel med långa sladdar i väskan.",
+    valueHook: "Rätt kabel till powerbanken",
+    valueStatement: "RAVIAD USB-C-kablar är ett 2-pack korta, nylonflätade kablar för dig som vill ha rätt sladd till powerbanken utan trassel. 50 cm räcker precis när powerbanken ligger i fickan eller väskan. Amazon visar 4,8 av 5 från 586 omdömen, och köpare gillar längden och den hållbara känslan. Tänk på att 50 cm är för kort om du vill använda mobilen långt från uttaget.",
+    passFor: [
+      "Använder powerbank och vill ha en kort kabel som inte trasslar.",
+      "Vill ha en hållbar reservkabel i väskan.",
+      "Föredrar nylonflätade kablar som tål lite mer.",
+    ],
+    caution: "Det är korta kablar (50 cm). Perfekt ihop med en powerbank, men för kort om du vill ligga i soffan och använda mobilen medan den laddar. Laddhastigheten beror på din laddare och enhet.",
+    usageGuidance: {
+      title: "Så använder du dem rätt",
+      text: "Använd kabeln mellan powerbank och mobil när du är på språng. Rulla ihop den i väskan så håller den sig fin. För laddning hemma vid uttaget kan en längre kabel vara skönare.",
+    },
+    verdict: "Korta, hållbara USB-C-kablar – perfekta till powerbank, för korta för soffan.",
+    amazonSummary: "Amazon visar 4,8 av 5 från 586 omdömen. Köpare gillar den korta, smidiga längden och den hållbara nylonflätningen – kom ihåg att 50 cm är för kort för att använda mobilen på håll.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Varför korta kablar?",
+        answer: "Korta kablar är smidiga ihop med en powerbank i fickan eller väskan och trasslar mindre. De är gjorda för laddning på språng snarare än för att sitta långt från uttaget.",
+      },
+      {
+        question: "Tål de att slängas i väskan?",
+        answer: "De är nylonflätade, vilket köpare beskriver som hållbart och tåligt för vardagen och resan.",
+      },
+      {
+        question: "Hur snabbt laddar de?",
+        answer: "De stödjer PD-snabbladdning upp till 100W, men den faktiska hastigheten avgörs av din laddare och enhet.",
+      },
+    ],
+    reviewSectionId: "raviad-usb-c-kabel-recensioner",
+    reviewFormId: "raviad-usb-c-kabel-skriv-recension",
+    targetKeyword: "usb-c kabel kort",
+    metaTitle: "RAVIAD USB-C-kabel kort (2-pack) – smidig till resa | Elins val",
+    metaDescription: "Elin går igenom RAVIAD korta USB-C-kablar (2-pack, 50 cm, 4,8 av 5 från 586 omdömen): perfekta ihop med powerbank utan sladdtrassel – och när de blir för korta.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/powerbank",
+        label: "Powerbank",
+        text: "Ström på resdagen med kabeln redan inbyggd.",
+      },
+      {
+        href: "/sommar/resa/vaggladdare",
+        label: "Väggladdare",
+        text: "Kompakt laddare för mobil och laptop.",
+      },
+      {
+        href: "/sommar/resa",
+        label: "Elins reseval",
+        text: "Fler smarta prylar för resan.",
+      },
+    ],
+  },
+  {
+    productSlug: ankerZoloPowerbankProduct.slug,
+    product: ankerZoloPowerbankProduct,
+    href: "/sommar/resa/powerbank",
+    cardBadge: "Inbyggda kablar",
+    cardHook: "Powerbank med kabeln redan inbyggd – slipp leta efter lös sladd.",
+    cardImage: "/products/anker-zolo-powerbank/powerbank-thumbnail.webp",
+    cardImageAlt: "Anker Zolo powerbank med inbyggda USB-C-kablar",
+    badge: "Elins trygghet-på-resdagen",
+    headline: "Anker Zolo powerbank – kabeln sitter redan i",
+    shortBody: "En powerbank med två inbyggda USB-C-kablar och 45W snabbladdning, plus extra USB-C- och USB-A-port. Du slipper leta efter en lös sladd när mobilen behöver ström på resan.",
+    valueHook: "Om mobilen dör på resdagen känns allt dyrare",
+    valueStatement: "Anker Zolo är en powerbank för dig som vill slippa leta efter en lös laddsladd på resan – två USB-C-kablar sitter redan inbyggda. Med 45W snabbladdning och extra portar laddar du flera enheter. Amazon visar 4,6 av 5 från 989 omdömen och köpare beskriver den som en pålitlig reskompis. Tänk på att det är en kraftfull modell som väger en del, och att antalet laddningar beror på din enhet.",
+    passFor: [
+      "Vill ha en powerbank där kabeln redan sitter i.",
+      "Vill snabbladda mobilen och kunna ladda flera enheter.",
+      "Reser och vill inte riskera att mobilen dör på vägen.",
+    ],
+    caution: "Det är en kraftfull powerbank, så den väger mer än en minimodell. Hur många laddningar du får beror på din enhet. Kolla alltid ditt flygbolags regler för powerbanks i handbagaget (de får inte checkas in).",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Ladda powerbanken fullt innan resan och använd de inbyggda kablarna för mobilen. Ta den alltid i handbagaget – powerbanks får inte checkas in. Ladda den via USB-C när den tar slut.",
+    },
+    verdict: "Smidig powerbank med inbyggda kablar och snabbladdning – väger en del.",
+    amazonSummary: "Amazon visar 4,6 av 5 från 989 omdömen. Köpare gillar de inbyggda kablarna, snabbladdningen och att den är pålitlig – kom ihåg att den väger en del och ska med i handbagaget.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Slipper jag ta med en sladd?",
+        answer: "Ja, två USB-C-kablar sitter inbyggda i powerbanken. Det finns även en extra USB-C- och USB-A-port om du vill ladda fler enheter med egna kablar.",
+      },
+      {
+        question: "Får jag ha den i flyget?",
+        answer: "Powerbanks ska tas med i handbagaget, inte checkas in. Kolla alltid ditt flygbolags aktuella regler för kapacitet och antal powerbanks innan resan.",
+      },
+      {
+        question: "Hur många gånger laddar den mobilen?",
+        answer: "Det beror på din mobils batteri och hur mycket den laddar per gång. Köpare beskriver den som pålitlig för en resdag, men exakt antal laddningar varierar mellan enheter.",
+      },
+    ],
+    reviewSectionId: "anker-zolo-powerbank-recensioner",
+    reviewFormId: "anker-zolo-powerbank-skriv-recension",
+    targetKeyword: "powerbank",
+    metaTitle: "Anker Zolo powerbank – inbyggda kablar & 45W | Elins val",
+    metaDescription: "Elin går igenom Anker Zolo powerbank (4,6 av 5 från 989 omdömen): två inbyggda USB-C-kablar och 45W snabbladdning för resan – och vad du bör tänka på i flyget.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/usb-c-kabel",
+        label: "USB-C-kabel",
+        text: "Korta, hållbara kablar när du behöver en extra.",
+      },
+      {
+        href: "/sommar/resa/vaggladdare",
+        label: "Väggladdare",
+        text: "Ladda mobil och laptop från samma kompakta laddare.",
+      },
+      {
+        href: "/sommar/resa",
+        label: "Elins reseval",
+        text: "Fler smarta prylar för resan.",
+      },
+    ],
+  },
   {
     productSlug: anortrekStrandfiltProduct.slug,
     product: anortrekStrandfiltProduct,

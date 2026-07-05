@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "anker735VaggladdareProduct",
+  "category": "resa",
+  "categoryGroup": "Reseelektronik",
+  "route": "sommar/resa/vaggladdare",
+  "pageComponentName": "VaggladdarePage",
+  "product": {
+    "slug": "anker-735-vaggladdare",
+    "title": "Anker 735 väggladdare (Nano II 65W, 3 portar)",
+    "category": "resa",
+    "asin": "B09LLRNGSD",
+    "brand": "Anker",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "mellan",
+    "badges": ["65W", "3 portar", "Hopfällbar"],
+    "image": "/products/anker-735-vaggladdare/vaggladdare-thumbnail.webp",
+    "imageAlt": "Anker 735 väggladdare med tre portar",
+    "images": [
+      { "src": "/products/anker-735-vaggladdare/vaggladdare-thumbnail.webp", "alt": "Anker 735 väggladdare", "label": "Väggladdare" },
+      { "src": "/products/anker-735-vaggladdare/vaggladdare-1.webp", "alt": "Kompakt väggladdare med hopfällbar stift", "label": "Hopfällbar" },
+      { "src": "/products/anker-735-vaggladdare/vaggladdare-2.webp", "alt": "Tre portar på Anker 735", "label": "3 portar" },
+      { "src": "/products/anker-735-vaggladdare/vaggladdare-3.webp", "alt": "Väggladdare laddar mobil och laptop", "label": "Mobil + laptop" },
+      { "src": "/products/anker-735-vaggladdare/vaggladdare-4.webp", "alt": "Anker 735 väggladdare i handen", "label": "Kompakt" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B09LLRNGSD?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/vaggladdare",
+    "summary": "En kompakt GaN-väggladdare på 65W med tre portar och hopfällbara stift. Den laddar allt från mobil till laptop och ersätter flera laddare med en enda liten enhet – perfekt för resan. Bra att veta: de 65W delas mellan portarna, så laddar du flera enheter samtidigt sjunker maxhastigheten per enhet.",
+    "evaluation": {
+      "headline": "En liten laddare för mobil och laptop",
+      "intro": "Elin tittar närmare på Anker 735 (Nano II 65W): en kompakt GaN-laddare med tre portar och hopfällbara stift. Den laddar mobil, surfplatta och många laptops, så du kan lämna de andra laddarna hemma. Mycket populär med över 13 000 omdömen.",
+      "verdict": "Kompakt 65W-laddare som ersätter flera – effekten delas mellan portarna.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Väggladdare",
+    "specSectionTitle": "Anker 735 Nano II",
+    "specs": [
+      { "label": "Effekt", "caption": "Max", "value": "65W (GaN)" },
+      { "label": "Portar", "caption": "Antal", "value": "3 portar (USB-C + USB-A)" },
+      { "label": "Format", "caption": "Resa", "value": "Kompakt med hopfällbara stift" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B09LLRNGSD?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 13 137 omdömen.",
+      "highlights": [
+        "Laddar allt från mobil till laptop – ersätter flera laddare med en.",
+        "Kompakt och hopfällbar, robust kvalitet enligt köpare.",
+        "Väldigt populär (4,6 av 5 från 13 137 omdömen)."
+      ],
+      "cautions": [
+        "De 65W delas mellan portarna – laddar du flera enheter samtidigt sjunker maxhastigheten per enhet."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/vaggladdare",
+    "cardBadge": "65W GaN",
+    "cardHook": "En liten laddare för mobil och laptop – lämna resten hemma.",
+    "cardImage": "/products/anker-735-vaggladdare/vaggladdare-thumbnail.webp",
+    "cardImageAlt": "Anker 735 väggladdare med tre portar",
+    "badge": "Elins packa-lätt-tips",
+    "headline": "Anker 735 väggladdare – en laddare för allt",
+    "shortBody": "En kompakt GaN-väggladdare på 65W med tre portar och hopfällbara stift. Den laddar mobil, surfplatta och många laptops, så du kan lämna de andra laddarna hemma.",
+    "valueHook": "Byt tre laddare mot en",
+    "valueStatement": "Anker 735 är en kompakt 65W GaN-laddare för dig som vill packa lätt och ändå kunna ladda allt. Med tre portar laddar den mobil, surfplatta och många laptops samtidigt, och de hopfällbara stiften gör den reseklar. Amazon visar 4,6 av 5 från hela 13 137 omdömen. Tänk på att 65W delas mellan portarna, så laddar du flera enheter samtidigt blir det långsammare per enhet.",
+    "passFor": [
+      "Vill ersätta flera laddare med en enda liten på resan.",
+      "Behöver ladda både mobil och laptop.",
+      "Vill ha en kompakt laddare med hopfällbara stift."
+    ],
+    "caution": "De 65W delas mellan portarna. En enhet får full effekt, men laddar du mobil, surfplatta och laptop samtidigt blir det långsammare per enhet. Kolla att din laptops effektbehov ryms inom 65W.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Anslut din mest strömkrävande enhet (t.ex. laptop) i USB-C-porten för bäst effekt. Fäll ut stiften och vik in dem igen när du packar. Ladda gärna en enhet i taget när du behöver full hastighet."
+    },
+    "verdict": "Kompakt 65W-laddare som ersätter flera – effekten delas mellan portarna.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 13 137 omdömen. Köpare lyfter att den laddar allt från mobil till laptop och är kompakt och robust – kom ihåg att 65W delas mellan portarna.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Kan den ladda min laptop?", "answer": "Den laddar många laptops via USB-C tack vare 65W. Kolla att din laptops effektbehov ryms inom 65W, särskilt för större modeller." },
+      { "question": "Hur många enheter samtidigt?", "answer": "Den har tre portar, men de 65W delas mellan dem. Ladda en enhet för full hastighet, eller flera samtidigt lite långsammare." },
+      { "question": "Är den bra för resa?", "answer": "Ja, den är kompakt med hopfällbara stift och ersätter flera laddare, vilket gör den populär just för resan." }
+    ],
+    "reviewSectionId": "anker-735-vaggladdare-recensioner",
+    "reviewFormId": "anker-735-vaggladdare-skriv-recension",
+    "targetKeyword": "usb c väggladdare",
+    "metaTitle": "Anker 735 väggladdare 65W – en laddare för allt | Elins val",
+    "metaDescription": "Elin går igenom Anker 735 Nano II 65W väggladdare (4,6 av 5 från 13 137 omdömen): kompakt 3-portsladdare för mobil och laptop – och varför effekten delas mellan portarna.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/powerbank", "label": "Powerbank", "text": "Ström på språng när det inte finns uttag." },
+      { "href": "/sommar/resa/usb-c-kabel", "label": "USB-C-kabel", "text": "Korta, hållbara kablar till laddaren." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan." }
+    ]
+  },
+  "images": {
+    "dir": "anker-735-vaggladdare",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61DG0fLuHHL._AC_SL1500_.jpg", "out": "vaggladdare-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/712duET1KSL._AC_SL1500_.jpg", "out": "vaggladdare-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71rr8pVnnOL._AC_SL1500_.jpg", "out": "vaggladdare-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/816bN+X3qCL._AC_SL1500_.jpg", "out": "vaggladdare-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71g26I4L2uL._AC_SL1500_.jpg", "out": "vaggladdare-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Anker 735 väggladdare (65W)", "href": "/sommar/resa/vaggladdare", "date": "2026-07-05", "image": "/products/anker-735-vaggladdare/vaggladdare-thumbnail.webp", "blurb": "Kompakt 65W GaN-laddare med tre portar - laddar mobil och laptop på resan." }
+  ]
+}

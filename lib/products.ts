@@ -14967,7 +14967,282 @@ export const anortrekStrandfiltProduct: Product = {
   comments: [],
 };
 
+export const ankerZoloPowerbankProduct: Product = {
+  slug: "anker-zolo-powerbank",
+  title: "Anker Zolo Power Bank (45W, inbyggda USB-C-kablar)",
+  category: "resa",
+  asin: "B0DSZKKJTK",
+  brand: "Anker",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Inbyggda kablar",
+    "45W",
+    "Flera portar",
+  ],
+  image: "/products/anker-zolo-powerbank/powerbank-thumbnail.webp",
+  imageAlt: "Anker Zolo powerbank med inbyggda USB-C-kablar",
+  images: [
+    {
+      src: "/products/anker-zolo-powerbank/powerbank-thumbnail.webp",
+      alt: "Anker Zolo powerbank",
+      label: "Powerbank",
+    },
+    {
+      src: "/products/anker-zolo-powerbank/powerbank-1.webp",
+      alt: "Powerbank med två inbyggda USB-C-kablar",
+      label: "Inbyggda kablar",
+    },
+    {
+      src: "/products/anker-zolo-powerbank/powerbank-2.webp",
+      alt: "Powerbank laddar mobil på resan",
+      label: "Laddar mobil",
+    },
+    {
+      src: "/products/anker-zolo-powerbank/powerbank-3.webp",
+      alt: "Portar på Anker Zolo powerbank",
+      label: "Portar",
+    },
+    {
+      src: "/products/anker-zolo-powerbank/powerbank-4.webp",
+      alt: "Kompakt powerbank i handen",
+      label: "Kompakt",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0DSZKKJTK?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/powerbank",
+  summary: "En powerbank med två inbyggda USB-C-kablar och 45W snabbladdning, plus en extra USB-C- och USB-A-port. Poängen är att du slipper leta efter en lös sladd – kabeln sitter redan i. Perfekt för resdagen när mobilen måste hålla hela vägen. Bra att veta: det är en kraftfull modell som väger en del, och hur många laddningar du får beror på din enhet.",
+  evaluation: {
+    headline: "Powerbank med kabeln redan inbyggd",
+    intro: "Elin tittar närmare på Anker Zolo: en powerbank med två inbyggda USB-C-kablar och 45W snabbladdning. Du slipper leta efter en lös sladd eftersom kabeln sitter i, och du kan ladda flera enheter via de extra portarna. Smidigt när mobilen måste hålla hela resdagen.",
+    verdict: "Smidig powerbank med inbyggda kablar och snabbladdning – väger en del.",
+    checks: [],
+  },
+  specSectionEyebrow: "Powerbank",
+  specSectionTitle: "Anker Zolo",
+  specs: [
+    {
+      label: "Kablar",
+      caption: "Inbyggt",
+      value: "Två inbyggda USB-C-kablar",
+    },
+    {
+      label: "Effekt",
+      caption: "Laddning",
+      value: "45W snabbladdning",
+    },
+    {
+      label: "Portar",
+      caption: "Extra",
+      value: "1 USB-C + 1 USB-A",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0DSZKKJTK?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 989 omdömen.",
+    highlights: [
+      "Två inbyggda USB-C-kablar – du slipper leta efter lös sladd på resan.",
+      "45W snabbladdning och flera portar, laddar mobilen snabbt.",
+      "Pålitlig reskompis enligt köpare (4,6 av 5 från 989 omdömen).",
+    ],
+    cautions: [
+      "Hur många laddningar du får beror på din enhet.",
+      "Det är en kraftfull powerbank som väger en del – kolla reglerna för powerbanks i handbagaget.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const raviadUsbCKabelProduct: Product = {
+  slug: "raviad-usb-c-kabel-kort",
+  title: "RAVIAD USB-C-kabel kort (2-pack, 50 cm, nylonflätad)",
+  category: "resa",
+  asin: "B0DK8XM3NZ",
+  brand: "RAVIAD",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "2-pack",
+    "50 cm",
+    "Nylonflätad",
+  ],
+  image: "/products/raviad-usb-c-kabel/kabel-thumbnail.webp",
+  imageAlt: "RAVIAD korta USB-C-kablar i 2-pack för resa",
+  images: [
+    {
+      src: "/products/raviad-usb-c-kabel/kabel-thumbnail.webp",
+      alt: "RAVIAD korta USB-C-kablar i 2-pack",
+      label: "2-pack",
+    },
+    {
+      src: "/products/raviad-usb-c-kabel/kabel-1.webp",
+      alt: "Kort nylonflätad USB-C-kabel",
+      label: "Nylon",
+    },
+    {
+      src: "/products/raviad-usb-c-kabel/kabel-2.webp",
+      alt: "USB-C-kabel ansluten till powerbank",
+      label: "Till powerbank",
+    },
+    {
+      src: "/products/raviad-usb-c-kabel/kabel-3.webp",
+      alt: "USB-C-kontakter i närbild",
+      label: "Kontakter",
+    },
+    {
+      src: "/products/raviad-usb-c-kabel/kabel-4.webp",
+      alt: "Kabeln hoprullad kompakt",
+      label: "Kompakt",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0DK8XM3NZ?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/usb-c-kabel",
+  summary: "Ett 2-pack korta (50 cm) nylonflätade USB-C-kablar som stödjer PD-snabbladdning upp till 100W. Den korta längden är perfekt ihop med en powerbank i fickan eller väskan – du slipper trassel med långa sladdar. Bra att veta: 50 cm är smidigt på resan men för kort om du vill använda mobilen långt från uttaget, och faktisk laddhastighet beror på din laddare och enhet.",
+  evaluation: {
+    headline: "Korta kablar utan sladdtrassel",
+    intro: "Elin tittar närmare på RAVIAD USB-C-kablar: ett 2-pack korta, nylonflätade kablar (50 cm) med PD-stöd. Den korta längden gör dem perfekta ihop med en powerbank, och nylonflätningen känns hållbar. Smidigt att ha en reserv i väskan.",
+    verdict: "Korta, hållbara USB-C-kablar – perfekta till powerbank, för korta för soffan.",
+    checks: [],
+  },
+  specSectionEyebrow: "USB-C-kabel",
+  specSectionTitle: "RAVIAD kabelkort",
+  specs: [
+    {
+      label: "Innehåll",
+      caption: "Antal",
+      value: "2-pack",
+    },
+    {
+      label: "Längd",
+      caption: "Format",
+      value: "Kort, 50 cm",
+    },
+    {
+      label: "Material",
+      caption: "Hållbarhet",
+      value: "Nylonflätad, PD upp till 100W",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0DK8XM3NZ?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,8 av 5 från 586 omdömen.",
+    highlights: [
+      "Perfekt längd för powerbank och resa – slipper trassel med långa sladdar.",
+      "Nylonflätade och känns hållbara enligt köpare.",
+      "Väldigt högt betyg (4,8 av 5 från 586 omdömen).",
+    ],
+    cautions: [
+      "Det är korta kablar (50 cm) – smidiga till powerbank men inte för att använda mobilen på håll.",
+      "Faktisk laddhastighet beror på din laddare och enhet.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const anker735VaggladdareProduct: Product = {
+  slug: "anker-735-vaggladdare",
+  title: "Anker 735 väggladdare (Nano II 65W, 3 portar)",
+  category: "resa",
+  asin: "B09LLRNGSD",
+  brand: "Anker",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "65W",
+    "3 portar",
+    "Hopfällbar",
+  ],
+  image: "/products/anker-735-vaggladdare/vaggladdare-thumbnail.webp",
+  imageAlt: "Anker 735 väggladdare med tre portar",
+  images: [
+    {
+      src: "/products/anker-735-vaggladdare/vaggladdare-thumbnail.webp",
+      alt: "Anker 735 väggladdare",
+      label: "Väggladdare",
+    },
+    {
+      src: "/products/anker-735-vaggladdare/vaggladdare-1.webp",
+      alt: "Kompakt väggladdare med hopfällbar stift",
+      label: "Hopfällbar",
+    },
+    {
+      src: "/products/anker-735-vaggladdare/vaggladdare-2.webp",
+      alt: "Tre portar på Anker 735",
+      label: "3 portar",
+    },
+    {
+      src: "/products/anker-735-vaggladdare/vaggladdare-3.webp",
+      alt: "Väggladdare laddar mobil och laptop",
+      label: "Mobil + laptop",
+    },
+    {
+      src: "/products/anker-735-vaggladdare/vaggladdare-4.webp",
+      alt: "Anker 735 väggladdare i handen",
+      label: "Kompakt",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B09LLRNGSD?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/vaggladdare",
+  summary: "En kompakt GaN-väggladdare på 65W med tre portar och hopfällbara stift. Den laddar allt från mobil till laptop och ersätter flera laddare med en enda liten enhet – perfekt för resan. Bra att veta: de 65W delas mellan portarna, så laddar du flera enheter samtidigt sjunker maxhastigheten per enhet.",
+  evaluation: {
+    headline: "En liten laddare för mobil och laptop",
+    intro: "Elin tittar närmare på Anker 735 (Nano II 65W): en kompakt GaN-laddare med tre portar och hopfällbara stift. Den laddar mobil, surfplatta och många laptops, så du kan lämna de andra laddarna hemma. Mycket populär med över 13 000 omdömen.",
+    verdict: "Kompakt 65W-laddare som ersätter flera – effekten delas mellan portarna.",
+    checks: [],
+  },
+  specSectionEyebrow: "Väggladdare",
+  specSectionTitle: "Anker 735 Nano II",
+  specs: [
+    {
+      label: "Effekt",
+      caption: "Max",
+      value: "65W (GaN)",
+    },
+    {
+      label: "Portar",
+      caption: "Antal",
+      value: "3 portar (USB-C + USB-A)",
+    },
+    {
+      label: "Format",
+      caption: "Resa",
+      value: "Kompakt med hopfällbara stift",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B09LLRNGSD?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 13 137 omdömen.",
+    highlights: [
+      "Laddar allt från mobil till laptop – ersätter flera laddare med en.",
+      "Kompakt och hopfällbar, robust kvalitet enligt köpare.",
+      "Väldigt populär (4,6 av 5 från 13 137 omdömen).",
+    ],
+    cautions: [
+      "De 65W delas mellan portarna – laddar du flera enheter samtidigt sjunker maxhastigheten per enhet.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
+  anker735VaggladdareProduct,
+  raviadUsbCKabelProduct,
+  ankerZoloPowerbankProduct,
   anortrekStrandfiltProduct,
   lifewitKylvaskaProduct,
   strandklammorProduct,

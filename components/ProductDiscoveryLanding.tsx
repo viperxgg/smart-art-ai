@@ -39,6 +39,30 @@ type LatestUpdate = {
 const latestUpdates = [
   {
     type: "Resa",
+    title: "Anker 735 väggladdare (65W)",
+    href: "/sommar/resa/vaggladdare",
+    date: "2026-07-05",
+    image: "/products/anker-735-vaggladdare/vaggladdare-thumbnail.webp",
+    blurb: "Kompakt 65W GaN-laddare med tre portar - laddar mobil och laptop på resan.",
+  },
+  {
+    type: "Resa",
+    title: "RAVIAD USB-C-kabel kort (2-pack)",
+    href: "/sommar/resa/usb-c-kabel",
+    date: "2026-07-05",
+    image: "/products/raviad-usb-c-kabel/kabel-thumbnail.webp",
+    blurb: "Korta nylonflätade USB-C-kablar, perfekta ihop med powerbanken på resan.",
+  },
+  {
+    type: "Resa",
+    title: "Anker Zolo powerbank (45W)",
+    href: "/sommar/resa/powerbank",
+    date: "2026-07-05",
+    image: "/products/anker-zolo-powerbank/powerbank-thumbnail.webp",
+    blurb: "Powerbank med två inbyggda USB-C-kablar och 45W snabbladdning för resan.",
+  },
+  {
+    type: "Resa",
     title: "AnorTrek sandfri strandfilt (300x300 cm)",
     href: "/sommar/resa/strandfilt",
     date: "2026-07-05",

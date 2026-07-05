@@ -1,0 +1,115 @@
+{
+  "system": "resa",
+  "exportName": "raviadUsbCKabelProduct",
+  "category": "resa",
+  "categoryGroup": "Reseelektronik",
+  "route": "sommar/resa/usb-c-kabel",
+  "pageComponentName": "UsbCKabelPage",
+  "product": {
+    "slug": "raviad-usb-c-kabel-kort",
+    "title": "RAVIAD USB-C-kabel kort (2-pack, 50 cm, nylonflätad)",
+    "category": "resa",
+    "asin": "B0DK8XM3NZ",
+    "brand": "RAVIAD",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["2-pack", "50 cm", "Nylonflätad"],
+    "image": "/products/raviad-usb-c-kabel/kabel-thumbnail.webp",
+    "imageAlt": "RAVIAD korta USB-C-kablar i 2-pack för resa",
+    "images": [
+      { "src": "/products/raviad-usb-c-kabel/kabel-thumbnail.webp", "alt": "RAVIAD korta USB-C-kablar i 2-pack", "label": "2-pack" },
+      { "src": "/products/raviad-usb-c-kabel/kabel-1.webp", "alt": "Kort nylonflätad USB-C-kabel", "label": "Nylon" },
+      { "src": "/products/raviad-usb-c-kabel/kabel-2.webp", "alt": "USB-C-kabel ansluten till powerbank", "label": "Till powerbank" },
+      { "src": "/products/raviad-usb-c-kabel/kabel-3.webp", "alt": "USB-C-kontakter i närbild", "label": "Kontakter" },
+      { "src": "/products/raviad-usb-c-kabel/kabel-4.webp", "alt": "Kabeln hoprullad kompakt", "label": "Kompakt" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0DK8XM3NZ?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/usb-c-kabel",
+    "summary": "Ett 2-pack korta (50 cm) nylonflätade USB-C-kablar som stödjer PD-snabbladdning upp till 100W. Den korta längden är perfekt ihop med en powerbank i fickan eller väskan – du slipper trassel med långa sladdar. Bra att veta: 50 cm är smidigt på resan men för kort om du vill använda mobilen långt från uttaget, och faktisk laddhastighet beror på din laddare och enhet.",
+    "evaluation": {
+      "headline": "Korta kablar utan sladdtrassel",
+      "intro": "Elin tittar närmare på RAVIAD USB-C-kablar: ett 2-pack korta, nylonflätade kablar (50 cm) med PD-stöd. Den korta längden gör dem perfekta ihop med en powerbank, och nylonflätningen känns hållbar. Smidigt att ha en reserv i väskan.",
+      "verdict": "Korta, hållbara USB-C-kablar – perfekta till powerbank, för korta för soffan.",
+      "checks": []
+    },
+    "specSectionEyebrow": "USB-C-kabel",
+    "specSectionTitle": "RAVIAD kabelkort",
+    "specs": [
+      { "label": "Innehåll", "caption": "Antal", "value": "2-pack" },
+      { "label": "Längd", "caption": "Format", "value": "Kort, 50 cm" },
+      { "label": "Material", "caption": "Hållbarhet", "value": "Nylonflätad, PD upp till 100W" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0DK8XM3NZ?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,8 av 5 från 586 omdömen.",
+      "highlights": [
+        "Perfekt längd för powerbank och resa – slipper trassel med långa sladdar.",
+        "Nylonflätade och känns hållbara enligt köpare.",
+        "Väldigt högt betyg (4,8 av 5 från 586 omdömen)."
+      ],
+      "cautions": [
+        "Det är korta kablar (50 cm) – smidiga till powerbank men inte för att använda mobilen på håll.",
+        "Faktisk laddhastighet beror på din laddare och enhet."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/usb-c-kabel",
+    "cardBadge": "Kort & smidig",
+    "cardHook": "Korta nylonkablar (50 cm) – perfekta ihop med powerbanken i fickan.",
+    "cardImage": "/products/raviad-usb-c-kabel/kabel-thumbnail.webp",
+    "cardImageAlt": "RAVIAD korta USB-C-kablar i 2-pack för resa",
+    "badge": "Elins slipp-trassel-tips",
+    "headline": "RAVIAD USB-C-kabel – kort, hållbar, smidig",
+    "shortBody": "Ett 2-pack korta (50 cm) nylonflätade USB-C-kablar med PD-stöd. Den korta längden är perfekt ihop med en powerbank – du slipper trassel med långa sladdar i väskan.",
+    "valueHook": "Rätt kabel till powerbanken",
+    "valueStatement": "RAVIAD USB-C-kablar är ett 2-pack korta, nylonflätade kablar för dig som vill ha rätt sladd till powerbanken utan trassel. 50 cm räcker precis när powerbanken ligger i fickan eller väskan. Amazon visar 4,8 av 5 från 586 omdömen, och köpare gillar längden och den hållbara känslan. Tänk på att 50 cm är för kort om du vill använda mobilen långt från uttaget.",
+    "passFor": [
+      "Använder powerbank och vill ha en kort kabel som inte trasslar.",
+      "Vill ha en hållbar reservkabel i väskan.",
+      "Föredrar nylonflätade kablar som tål lite mer."
+    ],
+    "caution": "Det är korta kablar (50 cm). Perfekt ihop med en powerbank, men för kort om du vill ligga i soffan och använda mobilen medan den laddar. Laddhastigheten beror på din laddare och enhet.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Använd kabeln mellan powerbank och mobil när du är på språng. Rulla ihop den i väskan så håller den sig fin. För laddning hemma vid uttaget kan en längre kabel vara skönare."
+    },
+    "verdict": "Korta, hållbara USB-C-kablar – perfekta till powerbank, för korta för soffan.",
+    "amazonSummary": "Amazon visar 4,8 av 5 från 586 omdömen. Köpare gillar den korta, smidiga längden och den hållbara nylonflätningen – kom ihåg att 50 cm är för kort för att använda mobilen på håll.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Varför korta kablar?", "answer": "Korta kablar är smidiga ihop med en powerbank i fickan eller väskan och trasslar mindre. De är gjorda för laddning på språng snarare än för att sitta långt från uttaget." },
+      { "question": "Tål de att slängas i väskan?", "answer": "De är nylonflätade, vilket köpare beskriver som hållbart och tåligt för vardagen och resan." },
+      { "question": "Hur snabbt laddar de?", "answer": "De stödjer PD-snabbladdning upp till 100W, men den faktiska hastigheten avgörs av din laddare och enhet." }
+    ],
+    "reviewSectionId": "raviad-usb-c-kabel-recensioner",
+    "reviewFormId": "raviad-usb-c-kabel-skriv-recension",
+    "targetKeyword": "usb-c kabel kort",
+    "metaTitle": "RAVIAD USB-C-kabel kort (2-pack) – smidig till resa | Elins val",
+    "metaDescription": "Elin går igenom RAVIAD korta USB-C-kablar (2-pack, 50 cm, 4,8 av 5 från 586 omdömen): perfekta ihop med powerbank utan sladdtrassel – och när de blir för korta.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/powerbank", "label": "Powerbank", "text": "Ström på resdagen med kabeln redan inbyggd." },
+      { "href": "/sommar/resa/vaggladdare", "label": "Väggladdare", "text": "Kompakt laddare för mobil och laptop." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan." }
+    ]
+  },
+  "images": {
+    "dir": "raviad-usb-c-kabel",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61isRWGLdeL._SL1500_.jpg", "out": "kabel-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71369dD-d4L._SL1500_.jpg", "out": "kabel-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71kj8PMfuUL._SL1500_.jpg", "out": "kabel-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71fzG4uc01L._SL1500_.jpg", "out": "kabel-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71y5AS7-51L._SL1500_.jpg", "out": "kabel-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "RAVIAD USB-C-kabel kort (2-pack)", "href": "/sommar/resa/usb-c-kabel", "date": "2026-07-05", "image": "/products/raviad-usb-c-kabel/kabel-thumbnail.webp", "blurb": "Korta nylonflätade USB-C-kablar, perfekta ihop med powerbanken på resan." }
+  ]
+}

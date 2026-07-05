@@ -1,0 +1,115 @@
+{
+  "system": "resa",
+  "exportName": "ankerZoloPowerbankProduct",
+  "category": "resa",
+  "categoryGroup": "Reseelektronik",
+  "route": "sommar/resa/powerbank",
+  "pageComponentName": "PowerbankPage",
+  "product": {
+    "slug": "anker-zolo-powerbank",
+    "title": "Anker Zolo Power Bank (45W, inbyggda USB-C-kablar)",
+    "category": "resa",
+    "asin": "B0DSZKKJTK",
+    "brand": "Anker",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "mellan",
+    "badges": ["Inbyggda kablar", "45W", "Flera portar"],
+    "image": "/products/anker-zolo-powerbank/powerbank-thumbnail.webp",
+    "imageAlt": "Anker Zolo powerbank med inbyggda USB-C-kablar",
+    "images": [
+      { "src": "/products/anker-zolo-powerbank/powerbank-thumbnail.webp", "alt": "Anker Zolo powerbank", "label": "Powerbank" },
+      { "src": "/products/anker-zolo-powerbank/powerbank-1.webp", "alt": "Powerbank med två inbyggda USB-C-kablar", "label": "Inbyggda kablar" },
+      { "src": "/products/anker-zolo-powerbank/powerbank-2.webp", "alt": "Powerbank laddar mobil på resan", "label": "Laddar mobil" },
+      { "src": "/products/anker-zolo-powerbank/powerbank-3.webp", "alt": "Portar på Anker Zolo powerbank", "label": "Portar" },
+      { "src": "/products/anker-zolo-powerbank/powerbank-4.webp", "alt": "Kompakt powerbank i handen", "label": "Kompakt" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0DSZKKJTK?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/powerbank",
+    "summary": "En powerbank med två inbyggda USB-C-kablar och 45W snabbladdning, plus en extra USB-C- och USB-A-port. Poängen är att du slipper leta efter en lös sladd – kabeln sitter redan i. Perfekt för resdagen när mobilen måste hålla hela vägen. Bra att veta: det är en kraftfull modell som väger en del, och hur många laddningar du får beror på din enhet.",
+    "evaluation": {
+      "headline": "Powerbank med kabeln redan inbyggd",
+      "intro": "Elin tittar närmare på Anker Zolo: en powerbank med två inbyggda USB-C-kablar och 45W snabbladdning. Du slipper leta efter en lös sladd eftersom kabeln sitter i, och du kan ladda flera enheter via de extra portarna. Smidigt när mobilen måste hålla hela resdagen.",
+      "verdict": "Smidig powerbank med inbyggda kablar och snabbladdning – väger en del.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Powerbank",
+    "specSectionTitle": "Anker Zolo",
+    "specs": [
+      { "label": "Kablar", "caption": "Inbyggt", "value": "Två inbyggda USB-C-kablar" },
+      { "label": "Effekt", "caption": "Laddning", "value": "45W snabbladdning" },
+      { "label": "Portar", "caption": "Extra", "value": "1 USB-C + 1 USB-A" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0DSZKKJTK?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 989 omdömen.",
+      "highlights": [
+        "Två inbyggda USB-C-kablar – du slipper leta efter lös sladd på resan.",
+        "45W snabbladdning och flera portar, laddar mobilen snabbt.",
+        "Pålitlig reskompis enligt köpare (4,6 av 5 från 989 omdömen)."
+      ],
+      "cautions": [
+        "Hur många laddningar du får beror på din enhet.",
+        "Det är en kraftfull powerbank som väger en del – kolla reglerna för powerbanks i handbagaget."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/powerbank",
+    "cardBadge": "Inbyggda kablar",
+    "cardHook": "Powerbank med kabeln redan inbyggd – slipp leta efter lös sladd.",
+    "cardImage": "/products/anker-zolo-powerbank/powerbank-thumbnail.webp",
+    "cardImageAlt": "Anker Zolo powerbank med inbyggda USB-C-kablar",
+    "badge": "Elins trygghet-på-resdagen",
+    "headline": "Anker Zolo powerbank – kabeln sitter redan i",
+    "shortBody": "En powerbank med två inbyggda USB-C-kablar och 45W snabbladdning, plus extra USB-C- och USB-A-port. Du slipper leta efter en lös sladd när mobilen behöver ström på resan.",
+    "valueHook": "Om mobilen dör på resdagen känns allt dyrare",
+    "valueStatement": "Anker Zolo är en powerbank för dig som vill slippa leta efter en lös laddsladd på resan – två USB-C-kablar sitter redan inbyggda. Med 45W snabbladdning och extra portar laddar du flera enheter. Amazon visar 4,6 av 5 från 989 omdömen och köpare beskriver den som en pålitlig reskompis. Tänk på att det är en kraftfull modell som väger en del, och att antalet laddningar beror på din enhet.",
+    "passFor": [
+      "Vill ha en powerbank där kabeln redan sitter i.",
+      "Vill snabbladda mobilen och kunna ladda flera enheter.",
+      "Reser och vill inte riskera att mobilen dör på vägen."
+    ],
+    "caution": "Det är en kraftfull powerbank, så den väger mer än en minimodell. Hur många laddningar du får beror på din enhet. Kolla alltid ditt flygbolags regler för powerbanks i handbagaget (de får inte checkas in).",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Ladda powerbanken fullt innan resan och använd de inbyggda kablarna för mobilen. Ta den alltid i handbagaget – powerbanks får inte checkas in. Ladda den via USB-C när den tar slut."
+    },
+    "verdict": "Smidig powerbank med inbyggda kablar och snabbladdning – väger en del.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 989 omdömen. Köpare gillar de inbyggda kablarna, snabbladdningen och att den är pålitlig – kom ihåg att den väger en del och ska med i handbagaget.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Slipper jag ta med en sladd?", "answer": "Ja, två USB-C-kablar sitter inbyggda i powerbanken. Det finns även en extra USB-C- och USB-A-port om du vill ladda fler enheter med egna kablar." },
+      { "question": "Får jag ha den i flyget?", "answer": "Powerbanks ska tas med i handbagaget, inte checkas in. Kolla alltid ditt flygbolags aktuella regler för kapacitet och antal powerbanks innan resan." },
+      { "question": "Hur många gånger laddar den mobilen?", "answer": "Det beror på din mobils batteri och hur mycket den laddar per gång. Köpare beskriver den som pålitlig för en resdag, men exakt antal laddningar varierar mellan enheter." }
+    ],
+    "reviewSectionId": "anker-zolo-powerbank-recensioner",
+    "reviewFormId": "anker-zolo-powerbank-skriv-recension",
+    "targetKeyword": "powerbank",
+    "metaTitle": "Anker Zolo powerbank – inbyggda kablar & 45W | Elins val",
+    "metaDescription": "Elin går igenom Anker Zolo powerbank (4,6 av 5 från 989 omdömen): två inbyggda USB-C-kablar och 45W snabbladdning för resan – och vad du bör tänka på i flyget.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/usb-c-kabel", "label": "USB-C-kabel", "text": "Korta, hållbara kablar när du behöver en extra." },
+      { "href": "/sommar/resa/vaggladdare", "label": "Väggladdare", "text": "Ladda mobil och laptop från samma kompakta laddare." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan." }
+    ]
+  },
+  "images": {
+    "dir": "anker-zolo-powerbank",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71iQIOCsEzL._AC_SL1500_.jpg", "out": "powerbank-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71l0NqqIUzL._AC_SL1500_.jpg", "out": "powerbank-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81MUfEGmn4L._AC_SL1500_.jpg", "out": "powerbank-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71cg1863VYL._AC_SL1500_.jpg", "out": "powerbank-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61bYLqqqYHL._AC_SL1500_.jpg", "out": "powerbank-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Anker Zolo powerbank (45W)", "href": "/sommar/resa/powerbank", "date": "2026-07-05", "image": "/products/anker-zolo-powerbank/powerbank-thumbnail.webp", "blurb": "Powerbank med två inbyggda USB-C-kablar och 45W snabbladdning för resan." }
+  ]
+}
