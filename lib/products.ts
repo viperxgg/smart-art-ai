@@ -3859,7 +3859,7 @@ export const portentumHoppRepProduct: Product = {
 
 export const ericFlagViktvastProduct: Product = {
   slug: "eric-flag-viktvast",
-  title: "Eric Flag viktväst med justerbar vikt (10/20 kg)",
+  title: "Eric Flag tyngdväst / viktväst med justerbar vikt (10/20 kg)",
   category: "traning",
   asin: "B09WB1BF81",
   brand: "Eric Flag",
@@ -3870,7 +3870,7 @@ export const ericFlagViktvastProduct: Product = {
     "Kardborrespänne",
   ],
   image: "/products/eric-flag-viktvast/viktvast-thumbnail.webp",
-  imageAlt: "Eric Flag viktväst med justerbar vikt och löstagbara järnvikter",
+  imageAlt: "Eric Flag tyngdväst med justerbar vikt och löstagbara järnvikter",
   images: [
     {
       src: "/products/eric-flag-viktvast/viktvast-thumbnail.webp",
@@ -3895,7 +3895,7 @@ export const ericFlagViktvastProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/3QBWm2N",
   pageHref: "/traning/viktvast",
-  summary: "En justerbar viktväst med löstagbara järnvikter som ökar belastningen vid promenad, gång och hemmaträning. Sitter tajt med kardborrespänne för stabil passform.",
+  summary: "En justerbar tyngdväst (viktväst) med löstagbara järnvikter som ökar belastningen vid promenad, gång och hemmaträning. Sitter tajt med kardborrespänne för stabil passform.",
   evaluation: {
     headline: "Justerbar viktväst för mer belastning",
     intro: "Elin går igenom Eric Flag viktväst: löstagbara järnvikter som låter dig justera tyngden, och ett kardborrespänne som håller västen tajt mot kroppen. Ett enkelt sätt att öka belastningen vid promenad, gång och hemmaträning.",

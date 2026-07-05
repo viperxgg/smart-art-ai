@@ -9250,8 +9250,8 @@ export const traningsPicks: SommarPick[] = [
     cardImage: "/products/eric-flag-viktvast/viktvast-thumbnail.webp",
     cardImageAlt: "Eric Flag viktväst med justerbar vikt och löstagbara järnvikter",
     badge: "Elins val för hemmaträning",
-    headline: "Eric Flag viktväst – justera tyngden själv",
-    shortBody: "En justerbar viktväst med löstagbara järnvikter som ökar belastningen vid promenad och hemmaträning. Kardborrespännet håller västen tajt och stabil mot kroppen.",
+    headline: "Eric Flag tyngdväst – justerbar viktväst (10/20 kg)",
+    shortBody: "En justerbar tyngdväst (viktväst) med löstagbara järnvikter som ökar belastningen vid promenad och hemmaträning. Kardborrespännet håller västen tajt och stabil mot kroppen.",
     valueHook: "Justerbar viktväst för mer belastning",
     valueStatement: "Eric Flag viktväst är ett enkelt sätt att öka belastningen i vardagen och i träningen. Du justerar tyngden genom att lägga till eller ta bort järnvikter, och kardborrespännet håller västen tajt mot kroppen så att den sitter stabilt under rörelse. Amazon visar 4,7 av 5 från 1 237 omdömen, och köpare lyfter framför allt den stabila passformen och flexibiliteten att ändra vikten.",
     passFor: [
@@ -9284,8 +9284,8 @@ export const traningsPicks: SommarPick[] = [
     reviewSectionId: "eric-flag-viktvast-recensioner",
     reviewFormId: "eric-flag-viktvast-skriv-recension",
     targetKeyword: "viktväst",
-    metaTitle: "Eric Flag viktväst – justerbar tyngd | Elins val",
-    metaDescription: "Elin går igenom Eric Flag viktväst: löstagbara järnvikter och tajt kardborrespänne för stabil passform (4,7 av 5, 1 237 omdömen) – för promenad och hemmaträning.",
+    metaTitle: "Tyngdväst med justerbar vikt – Eric Flag (10/20 kg) | Elins val",
+    metaDescription: "Elin går igenom Eric Flags justerbara tyngdväst (viktväst): vikter, passform och vad köparna säger – och om den är värd pengarna.",
     relatedLinks: [
       {
         href: "/traning/hantlar",
