@@ -29,6 +29,16 @@ const groupIntro: Record<string, string> = {
   "Smarta reseprylar": "Detaljerna som gör packningen enklare.",
 };
 
+// Stable anchor per scenario so kampanjlänkar kan deep-linka till en sektion.
+const groupAnchor: Record<string, string> = {
+  "Kabinväska & packning": "kabinvaska",
+  "Strand & bad": "strand",
+  "Reseelektronik": "reseelektronik",
+  "Festival & camping": "festival",
+  "Road trip & bilen": "roadtrip",
+  "Smarta reseprylar": "smarta-reseprylar",
+};
+
 const resaGroups = categoryProductGroups.resa
   .map((group) => ({
     title: group.title,
@@ -93,11 +103,15 @@ export default function SommarResaPage() {
           </div>
         </section>
 
-        {resaGroups.map((group, groupIndex) => (
+        {resaGroups.map((group, groupIndex) => {
+          const anchor = groupAnchor[group.title] ?? `grupp-${groupIndex}`;
+
+          return (
           <section
             key={group.title}
-            className="mt-10"
-            aria-labelledby={`resa-group-${groupIndex}`}
+            id={anchor}
+            className="mt-10 scroll-mt-24"
+            aria-labelledby={`${anchor}-rubrik`}
           >
             <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
               <div>
@@ -107,7 +121,7 @@ export default function SommarResaPage() {
                   </p>
                 ) : null}
                 <h2
-                  id={`resa-group-${groupIndex}`}
+                  id={`${anchor}-rubrik`}
                   className="editorial-color-kiss mt-2 font-display text-4xl leading-tight"
                 >
                   {group.title}
@@ -176,7 +190,8 @@ export default function SommarResaPage() {
               })}
             </div>
           </section>
-        ))}
+          );
+        })}
       </div>
     </main>
   );
