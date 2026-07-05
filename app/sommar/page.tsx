@@ -12,6 +12,7 @@ import { siteConfig } from "@/lib/site";
 import {
   smartSommarPicks,
   smartSommarSectionCopy,
+  sommarFanLinks,
   sommarPicks,
   sommarSectionCopy,
 } from "@/lib/sommar";
@@ -262,6 +263,36 @@ export default function SommarPage() {
                 );
               })}
             </div>
+          </div>
+        </section>
+
+        <section
+          className="mt-8 rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8"
+          aria-labelledby="sommar-fan-links-title"
+        >
+          <h2
+            id="sommar-fan-links-title"
+            className="editorial-color-kiss font-display text-3xl"
+          >
+            Håll dig sval i värmen
+          </h2>
+          <div className="mt-5 grid gap-3 md:grid-cols-2">
+            {sommarFanLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="group flex min-h-20 items-center justify-between gap-4 rounded-3xl bg-[#FFF4F5] p-5 transition hover:-translate-y-0.5 hover:bg-[#F9E0E3]"
+              >
+                <span className="font-display text-[1.35rem] font-black leading-tight text-[#5f4a54]">
+                  {link.label}
+                </span>
+                <ArrowUpRight
+                  size={20}
+                  className="shrink-0 text-[#B983A6] transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  aria-hidden="true"
+                />
+              </Link>
+            ))}
           </div>
         </section>
 

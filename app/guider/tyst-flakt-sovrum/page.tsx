@@ -48,7 +48,7 @@ const faqItems = [
   {
     question: "Hur tyst behöver en sovrumsfläkt vara?",
     answer:
-      "Runt 20–35 dB upplevs som tyst nattetid. En tornfläkt på lågt läge eller med nattläge stör sällan; billiga bordsfläktar ligger ofta högre.",
+      "En tystgående fläkt ligger runt 20–35 dB upplevs som tyst nattetid. En tornfläkt på lågt läge eller med nattläge stör sällan; billiga bordsfläktar ligger ofta högre.",
   },
   {
     question: "Spelar nattläge och timer roll?",
@@ -68,7 +68,7 @@ export default function TystFlaktSovrumPage() {
   return (
     <GuidePage
       h1="Tyst fläkt för sovrummet – vilken ska du välja?"
-      intro="En fläkt i sovrummet får inte störa sömnen. Elin går igenom vad som gör en fläkt sovrumsvänlig – och jämför ett prisvärt värde-val mot det tysta premiumvalet."
+      intro="En fläkt i sovrummet får inte störa sömnen. Elin går igenom vad som gör en fläkt sovrumsvänlig – och jämför ett prisvärt värde-val mot det tysta premiumvalet. En tystgående fläkt i sovrummet handlar om jämnt, dämpat ljud – inte bara låga decibel."
       sections={sections}
       verdict={{
         heading: "Elins dom: värt priset?",

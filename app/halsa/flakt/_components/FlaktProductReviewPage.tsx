@@ -355,6 +355,16 @@ export async function FlaktProductReviewPage({
               label: "Guide",
               text: "Läs den ärliga jämförelsen mellan dyr och billig fläkt.",
             },
+            {
+              href: "/guider/tyst-flakt-sovrum",
+              label: "Guide",
+              text: "Guide: tyst fläkt för sovrummet",
+            },
+            {
+              href: "/halsa/flakt",
+              label: "Fläkt",
+              text: "Till fläktguiden",
+            },
           ]}
         />
 

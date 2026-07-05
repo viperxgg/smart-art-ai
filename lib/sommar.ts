@@ -210,6 +210,25 @@ export const smartSommarSectionCopy = {
     "Elins smarta sommarfavoriter för avkoppling och läsro - med Elins poäng och vad tusentals Amazon-köpare tycker.",
 };
 
+export const sommarFanLinks = [
+  {
+    href: "/halsa/flakt/dreo-cruiser-pro",
+    label: "Dreo Cruiser Pro – tystast",
+  },
+  {
+    href: "/halsa/flakt/midea-fz10",
+    label: "Midea FZ10 – bäst värde",
+  },
+  {
+    href: "/halsa/flakt/honeywell-turboforce",
+    label: "Honeywell HT900E – kompakt",
+  },
+  {
+    href: "/guider/tyst-flakt-sovrum",
+    label: "Guide: tyst fläkt för sovrummet",
+  },
+] as const;
+
 export const sommarPicks: SommarPick[] = [
   {
     productSlug: gehwolFotpuderProduct.slug,
