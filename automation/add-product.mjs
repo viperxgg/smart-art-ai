@@ -74,7 +74,9 @@ function toTs(v, ind = 0) {
 // ---------------------------------------------------------------------------
 const cache = {};
 const read = (rel) => {
-  if (!(rel in cache)) cache[rel] = fs.readFileSync(path.join(ROOT, rel), "utf8");
+  // Normalize to LF on load: the working tree may be CRLF (core.autocrlf=true),
+  // but git stores LF and our anchors/inserts use LF. Flushing LF keeps diffs clean.
+  if (!(rel in cache)) cache[rel] = fs.readFileSync(path.join(ROOT, rel), "utf8").replace(/\r\n/g, "\n");
   return cache[rel];
 };
 const set = (rel, content) => {
@@ -193,6 +195,8 @@ const picksAnchor =
     ? "export const smartSommarPicks: SommarPick[] = [\n"
     : spec.system === "traning"
     ? "export const traningsPicks: SommarPick[] = [\n"
+    : spec.system === "resa"
+    ? "export const resaPicks: SommarPick[] = [\n"
     : "export const sommarPicks: SommarPick[] = [\n";
 set("lib/sommar.ts", insertAfter(read("lib/sommar.ts"), picksAnchor, pickLiteral));
 
@@ -220,7 +224,13 @@ const smBlock = (href, priority) =>
   "    },\n";
 let sitemapAdd = smBlock(spec.pick.href, 0.82);
 if (spec.guide) sitemapAdd = smBlock(`/guider/${spec.guide.slug}`, 0.74) + sitemapAdd;
-set("app/sitemap.ts", insertAfter(read("app/sitemap.ts"), "  return [\n", sitemapAdd));
+// app/sitemap.ts is now auto-generated from the filesystem (scripts/generate-sitemap.mjs
+// on prebuild), so only hand-insert if the legacy inline `return [` array still exists.
+if (read("app/sitemap.ts").includes("  return [\n")) {
+  set("app/sitemap.ts", insertAfter(read("app/sitemap.ts"), "  return [\n", sitemapAdd));
+} else {
+  console.log("  (sitemap.ts is auto-generated — new page will be picked up on build)");
+}
 
 // 5) components/ProductDiscoveryLanding.tsx — Senast tillagt (prepend)
 if (Array.isArray(spec.latestUpdates) && spec.latestUpdates.length) {
@@ -237,6 +247,8 @@ const getter =
     ? "getSmartSommarPickBySlug"
     : spec.system === "traning"
     ? "getTraningsPickBySlug"
+    : spec.system === "resa"
+    ? "getResaPickBySlug"
     : "getSommarPickBySlug";
 const productPage = `import { notFound } from "next/navigation";
 

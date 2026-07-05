@@ -1,0 +1,115 @@
+{
+  "system": "resa",
+  "exportName": "travelDudePackkuberProduct",
+  "category": "resa",
+  "categoryGroup": "Kabinväska & packning",
+  "route": "sommar/resa/packkuber",
+  "pageComponentName": "PackkuberPage",
+  "product": {
+    "slug": "travel-dude-packkuber",
+    "title": "Travel Dude Packing Cubes Compression Set (7 delar)",
+    "category": "resa",
+    "asin": "B0BY4QJL6J",
+    "brand": "Travel Dude",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "mellan",
+    "badges": ["7 delar", "Kompression", "Återvunnet material"],
+    "image": "/products/travel-dude-packkuber/packkuber-thumbnail.webp",
+    "imageAlt": "Travel Dude packkuber i set om 7 delar för resväskan",
+    "images": [
+      { "src": "/products/travel-dude-packkuber/packkuber-thumbnail.webp", "alt": "Travel Dude packkuber i set om 7 delar", "label": "Set om 7" },
+      { "src": "/products/travel-dude-packkuber/packkuber-1.webp", "alt": "Packkuber med kompression som pressar ihop kläderna", "label": "Kompression" },
+      { "src": "/products/travel-dude-packkuber/packkuber-2.webp", "alt": "Packkuber i olika storlekar packade i en resväska", "label": "I väskan" },
+      { "src": "/products/travel-dude-packkuber/packkuber-3.webp", "alt": "Travel Dude packkuber i olika färger och storlekar", "label": "Storlekar" },
+      { "src": "/products/travel-dude-packkuber/packkuber-4.webp", "alt": "Detalj av dragkedja på Travel Dude packkub", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0BY4QJL6J?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/packkuber",
+    "summary": "Ett set med sju packkuber med kompression som hjälper dig hålla ordning och pressa ihop kläderna så de tar mindre plats i kabinväskan. Du delar upp plagg efter typ och drar åt kompressionsdragkedjan för att spara utrymme. Praktiskt för den som vill packa strukturerat – men de gör inte väskan större, de hjälper dig utnyttja platsen bättre.",
+    "evaluation": {
+      "headline": "Packkuber med kompression för en tydligare packning",
+      "intro": "Elin tittar närmare på Travel Dude Packing Cubes: ett set om sju kuber där du delar upp kläderna efter typ och drar åt en kompressionsdragkedja för att pressa ut luften. Det gör packningen mer överskådlig och hjälper dig få plats med mer i kabinväskan. Setet är dessutom tillverkat av återvunna plastflaskor.",
+      "verdict": "Smidiga kompressionskuber som gör kabinväskan mer överskådlig och plats­effektiv.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Packkuber",
+    "specSectionTitle": "Travel Dude Packing Cubes",
+    "specs": [
+      { "label": "Innehåll", "caption": "Set", "value": "7 delar i olika storlekar" },
+      { "label": "Funktion", "caption": "Kompression", "value": "Dragkedja pressar ihop kläderna" },
+      { "label": "Material", "caption": "Hållbart", "value": "Tillverkade av återvunna plastflaskor" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0BY4QJL6J?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 3 819 omdömen.",
+      "highlights": [
+        "Bra kompression – packar ihop kläderna och sparar plats i väskan.",
+        "Håller ordning och gör packningen snabbare och mer överskådlig.",
+        "Tillverkade av återvunna plastflaskor – uppskattat miljöplus."
+      ],
+      "cautions": [
+        "En köpare hade gärna sett att de var lite djupare så att de rymde mer.",
+        "Kuberna gör inte väskan större – de hjälper dig utnyttja platsen bättre."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/packkuber",
+    "cardBadge": "Kompression",
+    "cardHook": "Sju packkuber som pressar ihop kläderna och håller ordning i kabinväskan.",
+    "cardImage": "/products/travel-dude-packkuber/packkuber-thumbnail.webp",
+    "cardImageAlt": "Travel Dude packkuber i set om 7 delar för resväskan",
+    "badge": "Elins packfavorit",
+    "headline": "Travel Dude packkuber – ordning och kompression",
+    "shortBody": "Ett set om sju kuber där du delar upp kläderna efter typ och drar åt kompressionsdragkedjan för att spara plats. Gör packningen mer överskådlig och hjälper dig få plats med mer i kabinväskan.",
+    "valueHook": "Packa strukturerat och spar plats",
+    "valueStatement": "Travel Dude Packing Cubes är ett set om sju kuber för dig som vill packa strukturerat och få plats med mer i kabinväskan. Du delar upp plagg efter typ och drar åt kompressionsdragkedjan för att pressa ut luften. Amazon visar 4,6 av 5 från 3 819 omdömen, och köpare lyfter framför allt den bra kompressionen, ordningen i väskan och att de är gjorda av återvunna plastflaskor. Kom ihåg att kuberna inte gör väskan större – de hjälper dig utnyttja platsen du redan har.",
+    "passFor": [
+      "Vill packa strukturerat och hitta lätt i kabinväskan.",
+      "Vill pressa ihop kläderna och få plats med lite mer.",
+      "Gillar tanken på ett set i återvunnet material."
+    ],
+    "caution": "Packkuber gör inte väskan större – de hjälper dig utnyttja platsen bättre. Någon enstaka köpare hade önskat att de var lite djupare. Kolla att storlekarna passar din väska innan du packar allt.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Dela upp kläderna efter typ – en kub för överdelar, en för underdelar och så vidare. Rulla eller vik plaggen, lägg i kuben och dra åt kompressionsdragkedjan för att pressa ut luften. Packa de tyngsta kuberna längst ner i väskan."
+    },
+    "verdict": "Smidiga kompressionskuber som gör kabinväskan mer överskådlig och plats­effektiv.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 3 819 omdömen. Köpare gillar kompressionen, ordningen och det återvunna materialet – en enstaka röst hade velat ha lite djupare kuber.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Gör packkuberna att jag får plats med mer?", "answer": "De gör inte väskan större, men de hjälper dig utnyttja platsen bättre. Genom att pressa ihop kläderna med kompressionsdragkedjan tar plaggen mindre plats, och du får en mer överskådlig packning." },
+      { "question": "Hur många delar ingår?", "answer": "Setet innehåller sju kuber i olika storlekar, så du kan dela upp överdelar, underdelar, underkläder och smått var för sig." },
+      { "question": "Vad är de gjorda av?", "answer": "Enligt tillverkaren är kuberna gjorda av återvunna plastflaskor, vilket flera köpare lyfter fram som ett plus." }
+    ],
+    "reviewSectionId": "travel-dude-packkuber-recensioner",
+    "reviewFormId": "travel-dude-packkuber-skriv-recension",
+    "targetKeyword": "packkuber",
+    "metaTitle": "Travel Dude packkuber – kompression för kabinväskan | Elins val",
+    "metaDescription": "Elin går igenom Travel Dude packkuber (7 delar, 4,6 av 5 från 3 819 omdömen): kompression, ordning och återvunnet material – och varför de inte gör väskan större.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/kompressionspase", "label": "Kompressionspåsar", "text": "Rulla ut luften och pressa ihop kläderna ännu mer." },
+      { "href": "/sommar/resa/bagagevag", "label": "Bagagevåg", "text": "Väg väskan hemma så du slipper övervikt vid gaten." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för kabinväskan." }
+    ]
+  },
+  "images": {
+    "dir": "travel-dude-packkuber",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81Fb0mxATOL._AC_SL1500_.jpg", "out": "packkuber-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81Xj8gIs2HL._AC_SL1500_.jpg", "out": "packkuber-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81Y5kPn-UAL._AC_SL1500_.jpg", "out": "packkuber-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81gKkQcIBEL._AC_SL1500_.jpg", "out": "packkuber-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/819o5Egsg8L._AC_SL1500_.jpg", "out": "packkuber-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Travel Dude packkuber (7 delar)", "href": "/sommar/resa/packkuber", "date": "2026-07-05", "image": "/products/travel-dude-packkuber/packkuber-thumbnail.webp", "blurb": "Packkuber med kompression som håller ordning och sparar plats i kabinväskan." }
+  ]
+}

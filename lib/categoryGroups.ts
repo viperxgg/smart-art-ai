@@ -256,6 +256,18 @@ export const categoryProductGroups = {
       ],
     },
   ],
+  resa: [
+    {
+      title: "Kabinväska & packning",
+      productSlugs: [
+        "epicka-reseadapter",
+        "traxenta-necessar",
+        "grifema-bagagevag",
+        "tomtoc-kabelorganizer",
+        "myhodo-kompressionspase",
+        "travel-dude-packkuber",],
+    },
+  ],
 } satisfies Record<ProductCategorySlug, CategoryProductGroup[]>;
 
 export function getCategoryProductGroups(categorySlug: ProductCategorySlug) {

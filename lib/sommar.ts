@@ -1,4 +1,10 @@
 import {
+  epickaReseadapterProduct,
+  traxentaNecessarProduct,
+  grifemaBagagevagProduct,
+  tomtocKabelorganizerProduct,
+  myHodoKompressionspaseProduct,
+  travelDudePackkuberProduct,
   gehwolFotpuderProduct,
   braunBikiniTrimmerProduct,
   veetWaxStripsProduct,
@@ -9390,4 +9396,404 @@ export const traningsPicks: SommarPick[] = [
 
 export function getTraningsPickBySlug(productSlug: string) {
   return traningsPicks.find((pick) => pick.productSlug === productSlug);
+}
+
+// ---------------------------------------------------------------------------
+// Resa & packning — smarta reseprylar för kabinväskan. Använder samma
+// produktsida (SommarProductReviewPage) och visas på hubben /sommar/resa.
+// ---------------------------------------------------------------------------
+export const resaSectionCopy = {
+  eyebrow: "🧳 Elins reseval",
+  title: "Packa lätt för kabinväskan",
+  intro:
+    "Res smart utan att släpa på halva lägenheten. Här samlar Elin små reseprylar som faktiskt löser ett problem i kabinväskan – och säger också åt dig vad du kan hoppa över. Med Elins poäng och vad tusentals Amazon-köpare tycker.",
+  metaTitle:
+    "Elins reseval – smarta prylar för kabinväskan | Elins val",
+  metaDescription:
+    "Elins utvalda reseprylar för kabinväska och flyg: packkuber, kompressionspåsar, kabelorganizer, bagagevåg och mer – med Elins poäng och ärliga hoppa-över-tips.",
+};
+
+export const resaPicks: SommarPick[] = [
+  {
+    productSlug: epickaReseadapterProduct.slug,
+    product: epickaReseadapterProduct,
+    href: "/sommar/resa/reseadapter",
+    cardBadge: "Världen runt",
+    cardHook: "En adapter för hela resan, med fem USB-portar för flera enheter.",
+    cardImage: "/products/epicka-reseadapter/reseadapter-thumbnail.webp",
+    cardImageAlt: "EPICKA universal reseadapter med flera USB-portar",
+    badge: "Elins reskompis",
+    headline: "EPICKA reseadapter – en för hela världen",
+    shortBody: "En allt-i-ett reseadapter med utfällbara kontakter som passar uttag i de flesta länder, plus fem USB-portar (3x USB-C, 2x USB-A) så du laddar flera enheter samtidigt.",
+    valueHook: "Slipp en adapter per land",
+    valueStatement: "EPICKA Universal är en reseadapter för dig som reser mellan olika länder och vill slippa köpa en ny adapter varje gång. Utfällbara kontakter passar uttag i de flesta länder, och fem USB-portar gör att du kan ladda flera enheter samtidigt. Amazon visar 4,7 av 5 från 602 omdömen, och köpare beskriver den som pålitlig och kompatibel med det mesta. Viktigt: adaptern byter bara kontakttyp – den omvandlar inte spänning, så kolla att dina laddare klarar landets voltantal.",
+    passFor: [
+      "Reser mellan olika länder och vill ha en adapter som räcker.",
+      "Vill ladda flera enheter samtidigt (mobil, hörlurar, klocka).",
+      "Vill slippa köpa en ny adapter för varje destination.",
+    ],
+    caution: "En reseadapter byter bara kontakttyp – den omvandlar inte spänning. Kolla att dina laddare är märkta för landets voltantal (de flesta mobil- och laptopladdare klarar 100–240 V). Använd den inte till strömkrävande apparater som hårfön eller vattenkokare.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Fäll ut kontakten som passar landet du är i och anslut dina laddare via uttaget eller USB-portarna. Kontrollera att varje laddare är märkt för landets voltantal (t.ex. 100–240 V). Undvik strömkrävande apparater – adaptern är gjord för laddare och elektronik.",
+    },
+    verdict: "Smidig allt-i-ett-adapter för resan – men den omvandlar inte spänning.",
+    amazonSummary: "Amazon visar 4,7 av 5 från 602 omdömen. Köpare beskriver den som pålitlig och kompatibel med det mesta – kom ihåg att den byter kontakt men inte omvandlar spänning.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Fungerar den i alla länder?",
+        answer: "Den har utfällbara kontakter som passar uttag i de flesta länder, som USA, Storbritannien, Australien och EU. Kolla att just ditt resmål täcks innan du åker.",
+      },
+      {
+        question: "Omvandlar adaptern spänningen?",
+        answer: "Nej. En reseadapter byter bara kontakttyp, den omvandlar inte spänning. Kolla att dina laddare är märkta för landets voltantal – de flesta mobil- och laptopladdare klarar 100–240 V.",
+      },
+      {
+        question: "Kan jag ladda flera saker samtidigt?",
+        answer: "Ja, den har fem USB-portar (3x USB-C och 2x USB-A) förutom själva uttaget, så du kan ladda flera enheter på en gång. Undvik strömkrävande apparater som hårfön.",
+      },
+    ],
+    reviewSectionId: "epicka-reseadapter-recensioner",
+    reviewFormId: "epicka-reseadapter-skriv-recension",
+    targetKeyword: "reseadapter",
+    metaTitle: "EPICKA reseadapter – en adapter för hela världen | Elins val",
+    metaDescription: "Elin går igenom EPICKA universal reseadapter (4,7 av 5 från 602 omdömen): passar de flesta länder, 5 USB-portar – och varför den byter kontakt men inte omvandlar spänning.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/kabelorganizer",
+        label: "Kabelorganizer",
+        text: "Håll adaptern och alla kablar i ordning på resan.",
+      },
+      {
+        href: "/sommar/resa/packkuber",
+        label: "Packkuber",
+        text: "Packa strukturerat och håll ordning i väskan.",
+      },
+      {
+        href: "/sommar/resa",
+        label: "Elins reseval",
+        text: "Fler smarta prylar för kabinväskan.",
+      },
+    ],
+  },
+  {
+    productSlug: traxentaNecessarProduct.slug,
+    product: traxentaNecessarProduct,
+    href: "/sommar/resa/necessar",
+    cardBadge: "Genomskinlig",
+    cardHook: "Transparenta necessärer där du ser innehållet direkt – smidigt i kontrollen.",
+    cardImage: "/products/traxenta-necessar/necessar-thumbnail.webp",
+    cardImageAlt: "Traxenta genomskinliga necessärer i set om 5 delar",
+    badge: "Elins ordning-tips",
+    headline: "Traxenta genomskinlig necessär – ordning som syns",
+    shortBody: "Ett set om fem transparenta necessärer i olika storlekar. Du ser innehållet direkt, vilket gör det enkelt att hålla ordning på toalettsaker och smått – och smidigt att plocka fram i säkerhetskontrollen.",
+    valueHook: "Se innehållet – slipp rota",
+    valueStatement: "Traxenta genomskinliga necessärer är ett set om fem transparenta påsar i olika storlekar, för dig som vill hålla ordning på toalettsaker och smått. Eftersom de är genomskinliga ser du direkt vad som finns i, vilket är smidigt både i necessären och när den ska fram i säkerhetskontrollen. Amazon visar 4,6 av 5 från 187 omdömen, och köpare tycker de är praktiska och rymliga. Tänk på att påsarna är relativt små och gjorda för smått – och kolla alltid flygplatsens aktuella regler för vätskor.",
+    passFor: [
+      "Vill hålla ordning på toalettsaker och smått i necessären.",
+      "Gillar att se innehållet direkt utan att rota.",
+      "Vill ha flera storlekar att dela upp i.",
+    ],
+    caution: "Påsarna är relativt små (runt 20x20 cm) och gjorda för att organisera smått, inte stora flaskor. Reglerna för vätskor i handbagage varierar – kolla alltid flygplatsens aktuella regler innan du reser.",
+    usageGuidance: {
+      title: "Så använder du dem rätt",
+      text: "Dela upp innehållet efter typ – en påse för toalettsaker, en för smått och en för sladdar eller smink. Eftersom de är genomskinliga hittar du snabbt rätt påse. Kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
+    },
+    verdict: "Praktiskt set av genomskinliga necessärer för ordning och enkel säkerhetskontroll.",
+    amazonSummary: "Amazon visar 4,6 av 5 från 187 omdömen. Köpare tycker de är praktiska, rymliga och tåliga – påsarna är relativt små och gjorda för att organisera smått.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Varför genomskinlig necessär?",
+        answer: "Eftersom du ser innehållet direkt blir det enkelt att hitta rätt utan att rota, och smidigt när necessären ska fram i säkerhetskontrollen. Kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
+      },
+      {
+        question: "Hur stora är påsarna?",
+        answer: "De är relativt små, runt 20x20 cm, och gjorda för att organisera smått som toalettsaker och accessoarer snarare än stora flaskor.",
+      },
+      {
+        question: "Hur många ingår?",
+        answer: "Setet innehåller fem påsar i olika storlekar, så du kan dela upp innehållet efter typ.",
+      },
+    ],
+    reviewSectionId: "traxenta-necessar-recensioner",
+    reviewFormId: "traxenta-necessar-skriv-recension",
+    targetKeyword: "genomskinlig necessär",
+    metaTitle: "Traxenta genomskinlig necessär – ordning på resan | Elins val",
+    metaDescription: "Elin går igenom Traxenta genomskinliga necessärer (5 delar, 4,6 av 5 från 187 omdömen): se innehållet direkt och håll ordning på smått – smidigt i säkerhetskontrollen.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/packkuber",
+        label: "Packkuber",
+        text: "Håll ordning även på kläderna i väskan.",
+      },
+      {
+        href: "/sommar/resa/kabelorganizer",
+        label: "Kabelorganizer",
+        text: "Samma ordning – fast för kablar och laddare.",
+      },
+      {
+        href: "/sommar/resa",
+        label: "Elins reseval",
+        text: "Fler smarta prylar för kabinväskan.",
+      },
+    ],
+  },
+  {
+    productSlug: grifemaBagagevagProduct.slug,
+    product: grifemaBagagevagProduct,
+    href: "/sommar/resa/bagagevag",
+    cardBadge: "Mot övervikt",
+    cardHook: "Väg väskan hemma och slipp dyra överviktsavgifter vid gaten.",
+    cardImage: "/products/grifema-bagagevag/bagagevag-thumbnail.webp",
+    cardImageAlt: "GRIFEMA digital bagagevåg med LCD-display",
+    badge: "Elins slipp-krångel-tips",
+    headline: "GRIFEMA bagagevåg – väg hemma, res lugnare",
+    shortBody: "En liten digital bagagevåg som väger upp till 50 kg med bakgrundsbelyst display och tara-funktion. Kolla vikten hemma innan du åker så att gaten inte bjuder på en dyr överraskning.",
+    valueHook: "Undvik överraskningen vid incheckningen",
+    valueStatement: "GRIFEMA GA2006 är en kompakt digital bagagevåg för dig som vill slippa oroa dig för övervikt vid incheckningen. Du fäster remmen, lyfter väskan och läser av vikten på den belysta displayen. Amazon visar 4,7 av 5 från 457 omdömen, och köpare beskriver den som lätt, noggrann och enkel att ta med. Tänk på att du lyfter väskan för hand, så det kan bli lite otympligt med riktigt tunga väskor.",
+    passFor: [
+      "Vill väga väskan hemma och undvika överviktsavgift.",
+      "Flyger med bolag som har strikta viktgränser för handbagage.",
+      "Vill ha en liten våg som får plats i väskan på resan.",
+    ],
+    caution: "Du lyfter väskan i vågen för hand, vilket kan kännas otympligt med riktigt tunga väskor. Den drivs med batteri – ha koll på att den fungerar innan avresa. Kolla alltid ditt flygbolags aktuella viktgränser.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Fäst remmen runt väskans handtag, lyft väskan rakt upp och håll stilla tills siffran låser sig. Väg på ett jämnt underlag och gärna dagen innan resan, så hinner du packa om om väskan är för tung.",
+    },
+    verdict: "Enkel, kompakt bagagevåg som hjälper dig undvika överviktsavgift.",
+    amazonSummary: "Amazon visar 4,7 av 5 från 457 omdömen. Köpare beskriver den som lätt, noggrann och smidig – men du lyfter väskan för hand, vilket kan vara otympligt med tunga väskor.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Hur mycket klarar vågen?",
+        answer: "Den väger upp till 50 kg, vilket räcker för både handbagage och incheckat bagage. Displayen är bakgrundsbelyst och lätt att läsa av.",
+      },
+      {
+        question: "Hur väger jag väskan?",
+        answer: "Du fäster remmen runt handtaget, lyfter väskan rakt upp och håller stilla tills vikten låser sig på displayen. Väg gärna hemma dagen innan så hinner du packa om vid behov.",
+      },
+      {
+        question: "Hjälper den mot överviktsavgift?",
+        answer: "Ja, tanken är att du kollar vikten hemma innan du åker. Kolla alltid ditt flygbolags aktuella viktgränser, eftersom de skiljer sig mellan bolag och biljettyper.",
+      },
+    ],
+    reviewSectionId: "grifema-bagagevag-recensioner",
+    reviewFormId: "grifema-bagagevag-skriv-recension",
+    targetKeyword: "bagagevåg",
+    metaTitle: "GRIFEMA bagagevåg – väg väskan & slipp övervikt | Elins val",
+    metaDescription: "Elin går igenom GRIFEMA digital bagagevåg (50 kg, 4,7 av 5 från 457 omdömen): väg väskan hemma, slipp överviktsavgift vid gaten – och vad du bör tänka på.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/packkuber",
+        label: "Packkuber",
+        text: "Packa strukturerat och håll ordning i väskan.",
+      },
+      {
+        href: "/sommar/resa/kompressionspase",
+        label: "Kompressionspåsar",
+        text: "Pressa ihop skrymmande plagg och spara plats.",
+      },
+      {
+        href: "/sommar/resa",
+        label: "Elins reseval",
+        text: "Fler smarta prylar för kabinväskan.",
+      },
+    ],
+  },
+  {
+    productSlug: tomtocKabelorganizerProduct.slug,
+    product: tomtocKabelorganizerProduct,
+    href: "/sommar/resa/kabelorganizer",
+    cardBadge: "Kabelordning",
+    cardHook: "Kompakt fodral som håller kablar och laddare i ordning – slut på trasslet.",
+    cardImage: "/products/tomtoc-kabelorganizer/kabelorganizer-thumbnail.webp",
+    cardImageAlt: "tomtoc kabelorganizer för resa med fack för kablar och laddare",
+    badge: "Elins ordning-i-väskan-tips",
+    headline: "tomtoc kabelorganizer – ordning på elektroniken",
+    shortBody: "Ett kompakt fodral med elastiska band och fack för kablar, laddare, adaptrar och smått. Allt får sin plats så du snabbt hittar rätt sladd på resan, utan trassel i väskan.",
+    valueHook: "Slut på kabeltrasslet i väskan",
+    valueStatement: "tomtoc Accessory Case är en kompakt kabelorganizer för dig som är trött på att rota efter rätt sladd i botten av väskan. Elastiska band och fack håller kablar, laddare, adaptrar och minneskort på plats. Amazon visar hela 4,8 av 5 från 3 430 omdömen – ovanligt starkt – och köpare lyfter kvaliteten och den genomtänkta storleken. Tänk på att det är ett smalt, kompakt fodral, gjort för smått snarare än skrymmande tillbehör.",
+    passFor: [
+      "Reser med flera kablar, laddare och adaptrar och vill ha ordning.",
+      "Vill snabbt hitta rätt sladd utan att rota i väskan.",
+      "Gillar en kompakt lösning som ryms i handbagaget.",
+    ],
+    caution: "Det är en smal, kompakt organizer. Den är gjord för kablar, laddare och smått – inte för skrymmande tillbehör eller större powerbanks. Kolla att dina prylar får plats innan.",
+    usageGuidance: {
+      title: "Så använder du den rätt",
+      text: "Fäst kablar och laddare under de elastiska banden och lägg minneskort och smått i fickorna. Rulla ihop längre kablar så håller de sig på plats. Packa fodralet stående i väskan så håller allt ordningen.",
+    },
+    verdict: "Genomtänkt, kompakt kabelorganizer som håller elektroniken i ordning på resan.",
+    amazonSummary: "Amazon visar 4,8 av 5 från 3 430 omdömen. Köpare lyfter kvaliteten, ordningen och den genomtänkta storleken – det är en kompakt organizer för smått, inte skrymmande saker.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Vad får plats i den?",
+        answer: "Kablar, laddare, adaptrar, minneskort, USB-minnen och liknande smått. Den är gjord för att hålla ordning på elektronikens tillbehör, inte för skrymmande föremål.",
+      },
+      {
+        question: "Är den bra att ha i handbagaget?",
+        answer: "Ja, den är kompakt och lätt att lägga stående i väskan. Många använder den just för att slippa kabeltrassel när de reser.",
+      },
+      {
+        question: "Varför så högt betyg?",
+        answer: "Amazon visar 4,8 av 5 från 3 430 omdömen. Köpare uppskattar särskilt kvaliteten och den genomtänkta indelningen som gör att allt har sin plats.",
+      },
+    ],
+    reviewSectionId: "tomtoc-kabelorganizer-recensioner",
+    reviewFormId: "tomtoc-kabelorganizer-skriv-recension",
+    targetKeyword: "kabelorganizer resa",
+    metaTitle: "tomtoc kabelorganizer – ordning på resan | Elins val",
+    metaDescription: "Elin går igenom tomtoc Accessory Case kabelorganizer (4,8 av 5 från 3 430 omdömen): håll kablar, laddare och adaptrar i ordning i handbagaget – slut på trasslet.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/reseadapter",
+        label: "Reseadapter",
+        text: "Ladda dina prylar var du än landar i världen.",
+      },
+      {
+        href: "/sommar/resa/packkuber",
+        label: "Packkuber",
+        text: "Håll ordning även på kläderna i väskan.",
+      },
+      {
+        href: "/sommar/resa",
+        label: "Elins reseval",
+        text: "Fler smarta prylar för kabinväskan.",
+      },
+    ],
+  },
+  {
+    productSlug: myHodoKompressionspaseProduct.slug,
+    product: myHodoKompressionspaseProduct,
+    href: "/sommar/resa/kompressionspase",
+    cardBadge: "Utan pump",
+    cardHook: "Rulla ut luften och pressa ihop skrymmande kläder – ingen pump behövs.",
+    cardImage: "/products/myhodo-kompressionspase/kompressionspase-thumbnail.webp",
+    cardImageAlt: "myHodo kompressionspåsar för resa i tre storlekar",
+    badge: "Elins plats­spar-tips",
+    headline: "myHodo kompressionspåsar – rulla, pressa, spara plats",
+    shortBody: "Rullkompressionspåsar där du pressar ut luften genom att rulla ihop påsen – ingen pump behövs. Bra för att pressa ihop skrymmande tröjor och jackor i kabinväskan. 14 påsar i tre storlekar.",
+    valueHook: "Pressa ihop skrymmande plagg",
+    valueStatement: "myHodo Rolling är kompressionspåsar för dig som vill pressa ihop skrymmande kläder utan att släpa på en pump. Du lägger i plaggen, stänger dragkedjan och rullar ihop påsen för att trycka ut luften. Amazon visar 4,4 av 5 från 1 247 omdömen, och köpare gillar att de håller tätt och sparar plats. Tänk på att du inte får ut lika mycket luft som med en vakuumpump – men tillräckligt för att skrymmande plagg ska ta betydligt mindre plats.",
+    passFor: [
+      "Vill pressa ihop skrymmande tröjor och jackor i väskan.",
+      "Vill slippa släpa på en pump eller dammsugare på resan.",
+      "Packar ofta och vill ha flera storlekar att välja på.",
+    ],
+    caution: "Rullmetoden kräver lite handkraft och ger inte lika mycket komprimering som en vakuumpump. Flera köpare tycker påsarna är mindre än de såg ut på bilden – kolla måtten (70x50 / 60x40 / 50x35 cm) innan.",
+    usageGuidance: {
+      title: "Så använder du dem rätt",
+      text: "Lägg de vikta kläderna i påsen, stäng den vanliga dragkedjan och rulla sedan ihop påsen från stängda änden mot ventilerna så att luften pressas ut. Bäst effekt på mjuka, skrymmande plagg som tröjor och jackor.",
+    },
+    verdict: "Smidig rullkompression utan pump – pressar ihop skrymmande plagg och sparar plats.",
+    amazonSummary: "Amazon visar 4,4 av 5 från 1 247 omdömen. Köpare gillar att de rullas utan pump och håller tätt, men några tycker att påsarna är mindre än väntat.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Behöver jag en pump?",
+        answer: "Nej. Du pressar ut luften genom att rulla ihop påsen, så ingen pump eller dammsugare behövs. Det gör dem smidiga att använda även på hotellrummet inför hemresan.",
+      },
+      {
+        question: "Hur mycket plats sparar de?",
+        answer: "På mjuka, skrymmande plagg som tröjor och jackor sparar de rejält med plats. Du får inte ut lika mycket luft som med en vakuumpump, men tillräckligt för att märka stor skillnad.",
+      },
+      {
+        question: "Vilka storlekar ingår?",
+        answer: "Setet har 14 påsar i tre storlekar (ungefär 70x50, 60x40 och 50x35 cm), så du kan välja storlek efter plagg och väska.",
+      },
+    ],
+    reviewSectionId: "myhodo-kompressionspase-recensioner",
+    reviewFormId: "myhodo-kompressionspase-skriv-recension",
+    targetKeyword: "kompressionspåsar resa",
+    metaTitle: "myHodo kompressionspåsar – rulla utan pump | Elins val",
+    metaDescription: "Elin går igenom myHodo Rolling kompressionspåsar (14 delar, 4,4 av 5 från 1 247 omdömen): rulla ut luften utan pump och pressa ihop skrymmande plagg i kabinväskan.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/packkuber",
+        label: "Packkuber",
+        text: "Håll ordning och dela upp kläderna efter typ.",
+      },
+      {
+        href: "/sommar/resa/bagagevag",
+        label: "Bagagevåg",
+        text: "Väg väskan hemma så du slipper övervikt vid gaten.",
+      },
+      {
+        href: "/sommar/resa",
+        label: "Elins reseval",
+        text: "Fler smarta prylar för kabinväskan.",
+      },
+    ],
+  },
+  {
+    productSlug: travelDudePackkuberProduct.slug,
+    product: travelDudePackkuberProduct,
+    href: "/sommar/resa/packkuber",
+    cardBadge: "Kompression",
+    cardHook: "Sju packkuber som pressar ihop kläderna och håller ordning i kabinväskan.",
+    cardImage: "/products/travel-dude-packkuber/packkuber-thumbnail.webp",
+    cardImageAlt: "Travel Dude packkuber i set om 7 delar för resväskan",
+    badge: "Elins packfavorit",
+    headline: "Travel Dude packkuber – ordning och kompression",
+    shortBody: "Ett set om sju kuber där du delar upp kläderna efter typ och drar åt kompressionsdragkedjan för att spara plats. Gör packningen mer överskådlig och hjälper dig få plats med mer i kabinväskan.",
+    valueHook: "Packa strukturerat och spar plats",
+    valueStatement: "Travel Dude Packing Cubes är ett set om sju kuber för dig som vill packa strukturerat och få plats med mer i kabinväskan. Du delar upp plagg efter typ och drar åt kompressionsdragkedjan för att pressa ut luften. Amazon visar 4,6 av 5 från 3 819 omdömen, och köpare lyfter framför allt den bra kompressionen, ordningen i väskan och att de är gjorda av återvunna plastflaskor. Kom ihåg att kuberna inte gör väskan större – de hjälper dig utnyttja platsen du redan har.",
+    passFor: [
+      "Vill packa strukturerat och hitta lätt i kabinväskan.",
+      "Vill pressa ihop kläderna och få plats med lite mer.",
+      "Gillar tanken på ett set i återvunnet material.",
+    ],
+    caution: "Packkuber gör inte väskan större – de hjälper dig utnyttja platsen bättre. Någon enstaka köpare hade önskat att de var lite djupare. Kolla att storlekarna passar din väska innan du packar allt.",
+    usageGuidance: {
+      title: "Så använder du dem rätt",
+      text: "Dela upp kläderna efter typ – en kub för överdelar, en för underdelar och så vidare. Rulla eller vik plaggen, lägg i kuben och dra åt kompressionsdragkedjan för att pressa ut luften. Packa de tyngsta kuberna längst ner i väskan.",
+    },
+    verdict: "Smidiga kompressionskuber som gör kabinväskan mer överskådlig och plats­effektiv.",
+    amazonSummary: "Amazon visar 4,6 av 5 från 3 819 omdömen. Köpare gillar kompressionen, ordningen och det återvunna materialet – en enstaka röst hade velat ha lite djupare kuber.",
+    amazonQuotes: [],
+    faqItems: [
+      {
+        question: "Gör packkuberna att jag får plats med mer?",
+        answer: "De gör inte väskan större, men de hjälper dig utnyttja platsen bättre. Genom att pressa ihop kläderna med kompressionsdragkedjan tar plaggen mindre plats, och du får en mer överskådlig packning.",
+      },
+      {
+        question: "Hur många delar ingår?",
+        answer: "Setet innehåller sju kuber i olika storlekar, så du kan dela upp överdelar, underdelar, underkläder och smått var för sig.",
+      },
+      {
+        question: "Vad är de gjorda av?",
+        answer: "Enligt tillverkaren är kuberna gjorda av återvunna plastflaskor, vilket flera köpare lyfter fram som ett plus.",
+      },
+    ],
+    reviewSectionId: "travel-dude-packkuber-recensioner",
+    reviewFormId: "travel-dude-packkuber-skriv-recension",
+    targetKeyword: "packkuber",
+    metaTitle: "Travel Dude packkuber – kompression för kabinväskan | Elins val",
+    metaDescription: "Elin går igenom Travel Dude packkuber (7 delar, 4,6 av 5 från 3 819 omdömen): kompression, ordning och återvunnet material – och varför de inte gör väskan större.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/kompressionspase",
+        label: "Kompressionspåsar",
+        text: "Rulla ut luften och pressa ihop kläderna ännu mer.",
+      },
+      {
+        href: "/sommar/resa/bagagevag",
+        label: "Bagagevåg",
+        text: "Väg väskan hemma så du slipper övervikt vid gaten.",
+      },
+      {
+        href: "/sommar/resa",
+        label: "Elins reseval",
+        text: "Fler smarta prylar för kabinväskan.",
+      },
+    ],
+  },
+];
+
+export function getResaPickBySlug(productSlug: string) {
+  return resaPicks.find((pick) => pick.productSlug === productSlug);
 }

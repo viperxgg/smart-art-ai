@@ -1,0 +1,115 @@
+{
+  "system": "resa",
+  "exportName": "epickaReseadapterProduct",
+  "category": "resa",
+  "categoryGroup": "Kabinväska & packning",
+  "route": "sommar/resa/reseadapter",
+  "pageComponentName": "ReseadapterPage",
+  "product": {
+    "slug": "epicka-reseadapter",
+    "title": "EPICKA Universal reseadapter (3x USB-C, 2x USB-A)",
+    "category": "resa",
+    "asin": "B0CS2TK111",
+    "brand": "EPICKA",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "mellan",
+    "badges": ["Världsomspännande", "5 USB-portar", "Allt-i-ett"],
+    "image": "/products/epicka-reseadapter/reseadapter-thumbnail.webp",
+    "imageAlt": "EPICKA universal reseadapter med flera USB-portar",
+    "images": [
+      { "src": "/products/epicka-reseadapter/reseadapter-thumbnail.webp", "alt": "EPICKA universal reseadapter med flera USB-portar", "label": "Reseadapter" },
+      { "src": "/products/epicka-reseadapter/reseadapter-1.webp", "alt": "Reseadapter med utfällbara kontakter för olika länder", "label": "Kontakter" },
+      { "src": "/products/epicka-reseadapter/reseadapter-2.webp", "alt": "USB-C och USB-A portar på reseadaptern", "label": "USB-portar" },
+      { "src": "/products/epicka-reseadapter/reseadapter-3.webp", "alt": "Reseadapter som laddar flera enheter samtidigt", "label": "Laddar flera" },
+      { "src": "/products/epicka-reseadapter/reseadapter-4.webp", "alt": "Kompakt reseadapter i handen", "label": "Kompakt" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0CS2TK111?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/reseadapter",
+    "summary": "En allt-i-ett reseadapter som passar uttag i de flesta länder (som USA, Storbritannien, Australien och EU) med utfällbara kontakter och fem USB-portar (3x USB-C och 2x USB-A) så du kan ladda flera enheter samtidigt. Viktigt att veta: en reseadapter byter bara kontakttyp – den omvandlar inte spänning. Kolla att dina laddare klarar landets voltantal, och använd den inte till strömkrävande apparater.",
+    "evaluation": {
+      "headline": "En adapter för hela resan",
+      "intro": "Elin tittar närmare på EPICKA Universal: en reseadapter med utfällbara kontakter som passar uttag i de flesta länder, plus fem USB-portar för att ladda flera enheter samtidigt. Praktiskt för dig som reser mellan olika länder och vill slippa en adapter per destination. Kom ihåg att en adapter byter kontakttyp men inte omvandlar spänning.",
+      "verdict": "Smidig allt-i-ett-adapter för resan – men den omvandlar inte spänning.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Reseadapter",
+    "specSectionTitle": "EPICKA Universal",
+    "specs": [
+      { "label": "Täckning", "caption": "Länder", "value": "Passar uttag i de flesta länder" },
+      { "label": "Portar", "caption": "USB", "value": "3x USB-C + 2x USB-A" },
+      { "label": "Viktigt", "caption": "Funktion", "value": "Byter kontakt – omvandlar inte spänning" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0CS2TK111?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 602 omdömen.",
+      "highlights": [
+        "Fungerar i de flesta länder – en adapter för hela resan.",
+        "Flera portar (3x USB-C + 2x USB-A) så du laddar flera enheter samtidigt.",
+        "Upplevs som pålitlig och kompatibel med det mesta – en trygg reskompis."
+      ],
+      "cautions": [
+        "En reseadapter byter bara kontakttyp – den omvandlar INTE spänning. Kolla att laddaren klarar landets volttal.",
+        "Inte gjord för strömkrävande apparater – mest för laddare och elektronik."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/reseadapter",
+    "cardBadge": "Världen runt",
+    "cardHook": "En adapter för hela resan, med fem USB-portar för flera enheter.",
+    "cardImage": "/products/epicka-reseadapter/reseadapter-thumbnail.webp",
+    "cardImageAlt": "EPICKA universal reseadapter med flera USB-portar",
+    "badge": "Elins reskompis",
+    "headline": "EPICKA reseadapter – en för hela världen",
+    "shortBody": "En allt-i-ett reseadapter med utfällbara kontakter som passar uttag i de flesta länder, plus fem USB-portar (3x USB-C, 2x USB-A) så du laddar flera enheter samtidigt.",
+    "valueHook": "Slipp en adapter per land",
+    "valueStatement": "EPICKA Universal är en reseadapter för dig som reser mellan olika länder och vill slippa köpa en ny adapter varje gång. Utfällbara kontakter passar uttag i de flesta länder, och fem USB-portar gör att du kan ladda flera enheter samtidigt. Amazon visar 4,7 av 5 från 602 omdömen, och köpare beskriver den som pålitlig och kompatibel med det mesta. Viktigt: adaptern byter bara kontakttyp – den omvandlar inte spänning, så kolla att dina laddare klarar landets voltantal.",
+    "passFor": [
+      "Reser mellan olika länder och vill ha en adapter som räcker.",
+      "Vill ladda flera enheter samtidigt (mobil, hörlurar, klocka).",
+      "Vill slippa köpa en ny adapter för varje destination."
+    ],
+    "caution": "En reseadapter byter bara kontakttyp – den omvandlar inte spänning. Kolla att dina laddare är märkta för landets voltantal (de flesta mobil- och laptopladdare klarar 100–240 V). Använd den inte till strömkrävande apparater som hårfön eller vattenkokare.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Fäll ut kontakten som passar landet du är i och anslut dina laddare via uttaget eller USB-portarna. Kontrollera att varje laddare är märkt för landets voltantal (t.ex. 100–240 V). Undvik strömkrävande apparater – adaptern är gjord för laddare och elektronik."
+    },
+    "verdict": "Smidig allt-i-ett-adapter för resan – men den omvandlar inte spänning.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 602 omdömen. Köpare beskriver den som pålitlig och kompatibel med det mesta – kom ihåg att den byter kontakt men inte omvandlar spänning.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Fungerar den i alla länder?", "answer": "Den har utfällbara kontakter som passar uttag i de flesta länder, som USA, Storbritannien, Australien och EU. Kolla att just ditt resmål täcks innan du åker." },
+      { "question": "Omvandlar adaptern spänningen?", "answer": "Nej. En reseadapter byter bara kontakttyp, den omvandlar inte spänning. Kolla att dina laddare är märkta för landets voltantal – de flesta mobil- och laptopladdare klarar 100–240 V." },
+      { "question": "Kan jag ladda flera saker samtidigt?", "answer": "Ja, den har fem USB-portar (3x USB-C och 2x USB-A) förutom själva uttaget, så du kan ladda flera enheter på en gång. Undvik strömkrävande apparater som hårfön." }
+    ],
+    "reviewSectionId": "epicka-reseadapter-recensioner",
+    "reviewFormId": "epicka-reseadapter-skriv-recension",
+    "targetKeyword": "reseadapter",
+    "metaTitle": "EPICKA reseadapter – en adapter för hela världen | Elins val",
+    "metaDescription": "Elin går igenom EPICKA universal reseadapter (4,7 av 5 från 602 omdömen): passar de flesta länder, 5 USB-portar – och varför den byter kontakt men inte omvandlar spänning.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/kabelorganizer", "label": "Kabelorganizer", "text": "Håll adaptern och alla kablar i ordning på resan." },
+      { "href": "/sommar/resa/packkuber", "label": "Packkuber", "text": "Packa strukturerat och håll ordning i väskan." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för kabinväskan." }
+    ]
+  },
+  "images": {
+    "dir": "epicka-reseadapter",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61CSmc4N+-L._AC_SL1216_.jpg", "out": "reseadapter-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71ck6tOGHzL._AC_SL1500_.jpg", "out": "reseadapter-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71wRunyvoXL._AC_SL1500_.jpg", "out": "reseadapter-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61QlOZBLphL._AC_SL1500_.jpg", "out": "reseadapter-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/6153k+WCH-L._AC_SL1500_.jpg", "out": "reseadapter-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "EPICKA universal reseadapter", "href": "/sommar/resa/reseadapter", "date": "2026-07-05", "image": "/products/epicka-reseadapter/reseadapter-thumbnail.webp", "blurb": "En reseadapter för de flesta länder med fem USB-portar för flera enheter." }
+  ]
+}

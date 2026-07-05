@@ -33,12 +33,14 @@ const categoryLabels = {
   traning: "Träning",
   halsa: "Hälsa",
   skonhet: "Skönhet",
+  resa: "Resa",
 } as const;
 
 const categoryHrefs = {
   traning: "/traning",
   halsa: "/halsa",
   skonhet: "/skonhet",
+  resa: "/sommar/resa",
 } as const;
 
 function buildProductSchema(pick: SommarPick) {

@@ -27,7 +27,7 @@ export type Product = {
   comments: ProductComment[];
 };
 
-export type ProductCategorySlug = "traning" | "halsa" | "skonhet";
+export type ProductCategorySlug = "traning" | "halsa" | "skonhet" | "resa";
 
 export type ProductCategory = {
   slug: ProductCategorySlug;
@@ -13971,7 +13971,558 @@ export const gehwolFotpuderProduct: Product = {
   comments: [],
 };
 
+export const travelDudePackkuberProduct: Product = {
+  slug: "travel-dude-packkuber",
+  title: "Travel Dude Packing Cubes Compression Set (7 delar)",
+  category: "resa",
+  asin: "B0BY4QJL6J",
+  brand: "Travel Dude",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "7 delar",
+    "Kompression",
+    "Återvunnet material",
+  ],
+  image: "/products/travel-dude-packkuber/packkuber-thumbnail.webp",
+  imageAlt: "Travel Dude packkuber i set om 7 delar för resväskan",
+  images: [
+    {
+      src: "/products/travel-dude-packkuber/packkuber-thumbnail.webp",
+      alt: "Travel Dude packkuber i set om 7 delar",
+      label: "Set om 7",
+    },
+    {
+      src: "/products/travel-dude-packkuber/packkuber-1.webp",
+      alt: "Packkuber med kompression som pressar ihop kläderna",
+      label: "Kompression",
+    },
+    {
+      src: "/products/travel-dude-packkuber/packkuber-2.webp",
+      alt: "Packkuber i olika storlekar packade i en resväska",
+      label: "I väskan",
+    },
+    {
+      src: "/products/travel-dude-packkuber/packkuber-3.webp",
+      alt: "Travel Dude packkuber i olika färger och storlekar",
+      label: "Storlekar",
+    },
+    {
+      src: "/products/travel-dude-packkuber/packkuber-4.webp",
+      alt: "Detalj av dragkedja på Travel Dude packkub",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0BY4QJL6J?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/packkuber",
+  summary: "Ett set med sju packkuber med kompression som hjälper dig hålla ordning och pressa ihop kläderna så de tar mindre plats i kabinväskan. Du delar upp plagg efter typ och drar åt kompressionsdragkedjan för att spara utrymme. Praktiskt för den som vill packa strukturerat – men de gör inte väskan större, de hjälper dig utnyttja platsen bättre.",
+  evaluation: {
+    headline: "Packkuber med kompression för en tydligare packning",
+    intro: "Elin tittar närmare på Travel Dude Packing Cubes: ett set om sju kuber där du delar upp kläderna efter typ och drar åt en kompressionsdragkedja för att pressa ut luften. Det gör packningen mer överskådlig och hjälper dig få plats med mer i kabinväskan. Setet är dessutom tillverkat av återvunna plastflaskor.",
+    verdict: "Smidiga kompressionskuber som gör kabinväskan mer överskådlig och plats­effektiv.",
+    checks: [],
+  },
+  specSectionEyebrow: "Packkuber",
+  specSectionTitle: "Travel Dude Packing Cubes",
+  specs: [
+    {
+      label: "Innehåll",
+      caption: "Set",
+      value: "7 delar i olika storlekar",
+    },
+    {
+      label: "Funktion",
+      caption: "Kompression",
+      value: "Dragkedja pressar ihop kläderna",
+    },
+    {
+      label: "Material",
+      caption: "Hållbart",
+      value: "Tillverkade av återvunna plastflaskor",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0BY4QJL6J?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 3 819 omdömen.",
+    highlights: [
+      "Bra kompression – packar ihop kläderna och sparar plats i väskan.",
+      "Håller ordning och gör packningen snabbare och mer överskådlig.",
+      "Tillverkade av återvunna plastflaskor – uppskattat miljöplus.",
+    ],
+    cautions: [
+      "En köpare hade gärna sett att de var lite djupare så att de rymde mer.",
+      "Kuberna gör inte väskan större – de hjälper dig utnyttja platsen bättre.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const myHodoKompressionspaseProduct: Product = {
+  slug: "myhodo-kompressionspase",
+  title: "myHodo Rolling kompressionspåsar (14 delar, 3 storlekar)",
+  category: "resa",
+  asin: "B0863YHNMB",
+  brand: "myHodo",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "14 delar",
+    "Utan pump",
+    "3 storlekar",
+  ],
+  image: "/products/myhodo-kompressionspase/kompressionspase-thumbnail.webp",
+  imageAlt: "myHodo kompressionspåsar för resa i tre storlekar",
+  images: [
+    {
+      src: "/products/myhodo-kompressionspase/kompressionspase-thumbnail.webp",
+      alt: "myHodo kompressionspåsar för resa i tre storlekar",
+      label: "14 delar",
+    },
+    {
+      src: "/products/myhodo-kompressionspase/kompressionspase-1.webp",
+      alt: "Kompressionspåse som rullas ihop för att pressa ut luften",
+      label: "Rulla",
+    },
+    {
+      src: "/products/myhodo-kompressionspase/kompressionspase-2.webp",
+      alt: "Kläder komprimerade i myHodo resepåse",
+      label: "Komprimerat",
+    },
+    {
+      src: "/products/myhodo-kompressionspase/kompressionspase-3.webp",
+      alt: "myHodo kompressionspåsar i olika storlekar",
+      label: "Storlekar",
+    },
+    {
+      src: "/products/myhodo-kompressionspase/kompressionspase-4.webp",
+      alt: "Resepåsar packade i en väska",
+      label: "I väskan",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0863YHNMB?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/kompressionspase",
+  summary: "Rullkompressionspåsar där du pressar ut luften genom att rulla ihop påsen – ingen pump eller dammsugare behövs. Praktiskt på resan när du vill pressa ihop skrymmande kläder som tröjor och jackor så de tar mindre plats i kabinväskan. Setet har 14 påsar i tre storlekar. Bra att veta: du får inte ut lika mycket luft som med en vakuumpump, men tillräckligt för att spara rejält med plats.",
+  evaluation: {
+    headline: "Rullkompression utan pump för resan",
+    intro: "Elin tittar närmare på myHodo Rolling: kompressionspåsar där du lägger i kläderna, stänger dragkedjan och rullar ihop påsen för att pressa ut luften. Ingen pump behövs, vilket gör dem smidiga att använda på hotellrummet inför hemresan. Setet innehåller 14 påsar i tre storlekar.",
+    verdict: "Smidig rullkompression utan pump – pressar ihop skrymmande plagg och sparar plats.",
+    checks: [],
+  },
+  specSectionEyebrow: "Kompressionspåsar",
+  specSectionTitle: "myHodo Rolling",
+  specs: [
+    {
+      label: "Innehåll",
+      caption: "Set",
+      value: "14 påsar i 3 storlekar",
+    },
+    {
+      label: "Funktion",
+      caption: "Kompression",
+      value: "Rulla ihop – ingen pump behövs",
+    },
+    {
+      label: "Storlekar",
+      caption: "Mått",
+      value: "70x50 / 60x40 / 50x35 cm",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0863YHNMB?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,4 av 5 från 1 247 omdömen.",
+    highlights: [
+      "Rullkompression utan pump – du pressar ut luften genom att rulla, praktiskt på resan.",
+      "Håller tätt och komprimerar kläderna så de tar mindre plats.",
+      "Tre storlekar och många påsar – flexibelt för olika plagg.",
+    ],
+    cautions: [
+      "Flera tycker påsarna är mindre än de såg ut på bilden – kolla måtten innan.",
+      "Rullmetoden kräver lite handkraft för att få ut all luft.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const tomtocKabelorganizerProduct: Product = {
+  slug: "tomtoc-kabelorganizer",
+  title: "tomtoc Accessory Case – kabel- och elektronikorganizer",
+  category: "resa",
+  asin: "B0CMQ3L1QD",
+  brand: "tomtoc",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Kabelordning",
+    "Kompakt",
+    "Reseväska",
+  ],
+  image: "/products/tomtoc-kabelorganizer/kabelorganizer-thumbnail.webp",
+  imageAlt: "tomtoc kabelorganizer för resa med fack för kablar och laddare",
+  images: [
+    {
+      src: "/products/tomtoc-kabelorganizer/kabelorganizer-thumbnail.webp",
+      alt: "tomtoc kabelorganizer för resa",
+      label: "Organizer",
+    },
+    {
+      src: "/products/tomtoc-kabelorganizer/kabelorganizer-1.webp",
+      alt: "Kablar och laddare organiserade i tomtoc-fodralet",
+      label: "Fack",
+    },
+    {
+      src: "/products/tomtoc-kabelorganizer/kabelorganizer-2.webp",
+      alt: "tomtoc kabelfodral uppfällt med elastiska band",
+      label: "Uppfällt",
+    },
+    {
+      src: "/products/tomtoc-kabelorganizer/kabelorganizer-3.webp",
+      alt: "Kompakt kabelorganizer som ryms i handbagaget",
+      label: "Kompakt",
+    },
+    {
+      src: "/products/tomtoc-kabelorganizer/kabelorganizer-4.webp",
+      alt: "Detalj av tomtoc kabelorganizer",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0CMQ3L1QD?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/kabelorganizer",
+  summary: "Ett kompakt fodral som håller ordning på kablar, laddare, adaptrar och annat smått på resan. Elastiska band och fack gör att allt har sin plats, så du slipper leta bland trasslet i väskan. Bra att veta: det är en smal, kompakt organizer – gjord för kablar och laddare, inte för skrymmande tillbehör.",
+  evaluation: {
+    headline: "Kompakt organizer som stoppar kabeltrasslet",
+    intro: "Elin tittar närmare på tomtoc Accessory Case: ett kompakt fodral med elastiska band och fack för kablar, laddare, adaptrar, minnesstickor och annat smått. Allt får sin plats så att du snabbt hittar rätt sladd på resan, utan trassel i botten av väskan. Ett väldigt högt betyg på Amazon (4,8 av 5).",
+    verdict: "Genomtänkt, kompakt kabelorganizer som håller elektroniken i ordning på resan.",
+    checks: [],
+  },
+  specSectionEyebrow: "Kabelorganizer",
+  specSectionTitle: "tomtoc Accessory Case",
+  specs: [
+    {
+      label: "Format",
+      caption: "Storlek",
+      value: "Kompakt fodral för handbagaget",
+    },
+    {
+      label: "Funktion",
+      caption: "Ordning",
+      value: "Elastiska band och fack för smått",
+    },
+    {
+      label: "Passar",
+      caption: "Innehåll",
+      value: "Kablar, laddare, adaptrar, minneskort",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0CMQ3L1QD?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,8 av 5 från 3 430 omdömen.",
+    highlights: [
+      "Håller ordning på alla kablar, laddare och adaptrar på resan – slut på trasslet.",
+      "Mycket bra kvalitet och genomtänkt storlek – många får med sig allt.",
+      "Ovanligt högt betyg (4,8 av 5 från 3 430 omdömen).",
+    ],
+    cautions: [
+      "Det är en smal, kompakt organizer – bäst för kablar, laddare och smått, inte skrymmande tillbehör.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const grifemaBagagevagProduct: Product = {
+  slug: "grifema-bagagevag",
+  title: "GRIFEMA GA2006 digital bagagevåg (50 kg)",
+  category: "resa",
+  asin: "B0F3HP95V8",
+  brand: "GRIFEMA",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Upp till 50 kg",
+    "LCD-display",
+    "Kompakt",
+  ],
+  image: "/products/grifema-bagagevag/bagagevag-thumbnail.webp",
+  imageAlt: "GRIFEMA digital bagagevåg med LCD-display",
+  images: [
+    {
+      src: "/products/grifema-bagagevag/bagagevag-thumbnail.webp",
+      alt: "GRIFEMA digital bagagevåg med LCD-display",
+      label: "Bagagevåg",
+    },
+    {
+      src: "/products/grifema-bagagevag/bagagevag-1.webp",
+      alt: "Bagagevåg som väger en resväska i handen",
+      label: "Väger",
+    },
+    {
+      src: "/products/grifema-bagagevag/bagagevag-2.webp",
+      alt: "Närbild på LCD-displayen med vikt i kg",
+      label: "Display",
+    },
+    {
+      src: "/products/grifema-bagagevag/bagagevag-3.webp",
+      alt: "Kompakt bagagevåg som ryms i väskan",
+      label: "Kompakt",
+    },
+    {
+      src: "/products/grifema-bagagevag/bagagevag-4.webp",
+      alt: "Bagagevåg med rem och krok",
+      label: "Rem",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0F3HP95V8?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/bagagevag",
+  summary: "En liten digital bagagevåg som väger väskan upp till 50 kg med en bakgrundsbelyst LCD-display och tara-funktion. Du fäster remmen, lyfter väskan och ser vikten – smidigt hemma innan du åker så att du slipper överraskas av övervikt vid incheckningen. Bra att veta: du lyfter väskan för hand, vilket kan vara lite otympligt med riktigt tunga väskor.",
+  evaluation: {
+    headline: "Liten bagagevåg som räddar dig från övervikt",
+    intro: "Elin tittar närmare på GRIFEMA GA2006: en kompakt digital bagagevåg som väger upp till 50 kg. Du fäster remmen runt handtaget, lyfter väskan och läser av vikten på den bakgrundsbelysta displayen. Ett enkelt sätt att kolla vikten hemma innan resan, så att gaten inte bjuder på en dyr överraskning.",
+    verdict: "Enkel, kompakt bagagevåg som hjälper dig undvika överviktsavgift.",
+    checks: [],
+  },
+  specSectionEyebrow: "Bagagevåg",
+  specSectionTitle: "GRIFEMA GA2006",
+  specs: [
+    {
+      label: "Kapacitet",
+      caption: "Max",
+      value: "Upp till 50 kg",
+    },
+    {
+      label: "Display",
+      caption: "Avläsning",
+      value: "Bakgrundsbelyst LCD med tara",
+    },
+    {
+      label: "Format",
+      caption: "Storlek",
+      value: "Kompakt och lätt att ta med",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0F3HP95V8?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,7 av 5 från 457 omdömen.",
+    highlights: [
+      "Lätt och enkel att använda – väg väskan hemma och slipp överviktsavgift vid gaten.",
+      "Upplevs som noggrann med en tydlig, bakgrundsbelyst display.",
+      "Kompakt och lätt att ta med i väskan på resan.",
+    ],
+    cautions: [
+      "Du lyfter väskan i vågen för hand – lite otympligt med riktigt tunga väskor.",
+      "Drivs med batteri, så ha koll på att den fungerar innan avresa.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const traxentaNecessarProduct: Product = {
+  slug: "traxenta-necessar",
+  title: "Traxenta genomskinlig necessär (5 delar)",
+  category: "resa",
+  asin: "B0CZDTZ51V",
+  brand: "Traxenta",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "5 delar",
+    "Genomskinlig",
+    "Olika storlekar",
+  ],
+  image: "/products/traxenta-necessar/necessar-thumbnail.webp",
+  imageAlt: "Traxenta genomskinliga necessärer i set om 5 delar",
+  images: [
+    {
+      src: "/products/traxenta-necessar/necessar-thumbnail.webp",
+      alt: "Traxenta genomskinliga necessärer i set om 5 delar",
+      label: "Set om 5",
+    },
+    {
+      src: "/products/traxenta-necessar/necessar-1.webp",
+      alt: "Genomskinlig necessär där innehållet syns tydligt",
+      label: "Genomskinlig",
+    },
+    {
+      src: "/products/traxenta-necessar/necessar-2.webp",
+      alt: "Transparenta påsar i olika storlekar",
+      label: "Storlekar",
+    },
+    {
+      src: "/products/traxenta-necessar/necessar-3.webp",
+      alt: "Necessär packad med toalettsaker",
+      label: "Packad",
+    },
+    {
+      src: "/products/traxenta-necessar/necessar-4.webp",
+      alt: "Detalj av dragkedja på genomskinlig necessär",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0CZDTZ51V?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/necessar",
+  summary: "Ett set med fem genomskinliga necessärer i olika storlekar. Eftersom de är transparenta ser du direkt vad som finns i, vilket gör det enkelt att hålla ordning på toalettsaker och smått – och smidigt att plocka fram i säkerhetskontrollen. Bra att veta: påsarna är relativt små (runt 20x20 cm), gjorda för att organisera smått. Kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
+  evaluation: {
+    headline: "Genomskinlig necessär som håller ordning",
+    intro: "Elin tittar närmare på Traxenta genomskinliga necessärer: ett set om fem transparenta påsar i olika storlekar. Eftersom du ser innehållet direkt blir det enkelt att hålla ordning på toalettsaker och smått, och smidigt när necessären ska fram i säkerhetskontrollen. Kolla alltid flygplatsens aktuella regler för vätskor.",
+    verdict: "Praktiskt set av genomskinliga necessärer för ordning och enkel säkerhetskontroll.",
+    checks: [],
+  },
+  specSectionEyebrow: "Necessär",
+  specSectionTitle: "Traxenta genomskinlig necessär",
+  specs: [
+    {
+      label: "Innehåll",
+      caption: "Set",
+      value: "5 påsar i olika storlekar",
+    },
+    {
+      label: "Material",
+      caption: "Genomskinligt",
+      value: "Transparent – du ser innehållet",
+    },
+    {
+      label: "Storlek",
+      caption: "Ungefär",
+      value: "Runt 20x20 cm – för smått",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0CZDTZ51V?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 187 omdömen.",
+    highlights: [
+      "Genomskinlig så du snabbt ser vad som finns i – smidigt i säkerhetskontrollen och necessären.",
+      "Flera storlekar i setet – lätt att dela upp smått, accessoarer och toalettsaker.",
+      "Upplevs som praktiska, rymliga och tåliga.",
+    ],
+    cautions: [
+      "Påsarna är relativt små (runt 20x20 cm) – för att organisera smått, inte stora flaskor.",
+      "Kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const epickaReseadapterProduct: Product = {
+  slug: "epicka-reseadapter",
+  title: "EPICKA Universal reseadapter (3x USB-C, 2x USB-A)",
+  category: "resa",
+  asin: "B0CS2TK111",
+  brand: "EPICKA",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Världsomspännande",
+    "5 USB-portar",
+    "Allt-i-ett",
+  ],
+  image: "/products/epicka-reseadapter/reseadapter-thumbnail.webp",
+  imageAlt: "EPICKA universal reseadapter med flera USB-portar",
+  images: [
+    {
+      src: "/products/epicka-reseadapter/reseadapter-thumbnail.webp",
+      alt: "EPICKA universal reseadapter med flera USB-portar",
+      label: "Reseadapter",
+    },
+    {
+      src: "/products/epicka-reseadapter/reseadapter-1.webp",
+      alt: "Reseadapter med utfällbara kontakter för olika länder",
+      label: "Kontakter",
+    },
+    {
+      src: "/products/epicka-reseadapter/reseadapter-2.webp",
+      alt: "USB-C och USB-A portar på reseadaptern",
+      label: "USB-portar",
+    },
+    {
+      src: "/products/epicka-reseadapter/reseadapter-3.webp",
+      alt: "Reseadapter som laddar flera enheter samtidigt",
+      label: "Laddar flera",
+    },
+    {
+      src: "/products/epicka-reseadapter/reseadapter-4.webp",
+      alt: "Kompakt reseadapter i handen",
+      label: "Kompakt",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0CS2TK111?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/reseadapter",
+  summary: "En allt-i-ett reseadapter som passar uttag i de flesta länder (som USA, Storbritannien, Australien och EU) med utfällbara kontakter och fem USB-portar (3x USB-C och 2x USB-A) så du kan ladda flera enheter samtidigt. Viktigt att veta: en reseadapter byter bara kontakttyp – den omvandlar inte spänning. Kolla att dina laddare klarar landets voltantal, och använd den inte till strömkrävande apparater.",
+  evaluation: {
+    headline: "En adapter för hela resan",
+    intro: "Elin tittar närmare på EPICKA Universal: en reseadapter med utfällbara kontakter som passar uttag i de flesta länder, plus fem USB-portar för att ladda flera enheter samtidigt. Praktiskt för dig som reser mellan olika länder och vill slippa en adapter per destination. Kom ihåg att en adapter byter kontakttyp men inte omvandlar spänning.",
+    verdict: "Smidig allt-i-ett-adapter för resan – men den omvandlar inte spänning.",
+    checks: [],
+  },
+  specSectionEyebrow: "Reseadapter",
+  specSectionTitle: "EPICKA Universal",
+  specs: [
+    {
+      label: "Täckning",
+      caption: "Länder",
+      value: "Passar uttag i de flesta länder",
+    },
+    {
+      label: "Portar",
+      caption: "USB",
+      value: "3x USB-C + 2x USB-A",
+    },
+    {
+      label: "Viktigt",
+      caption: "Funktion",
+      value: "Byter kontakt – omvandlar inte spänning",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0CS2TK111?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,7 av 5 från 602 omdömen.",
+    highlights: [
+      "Fungerar i de flesta länder – en adapter för hela resan.",
+      "Flera portar (3x USB-C + 2x USB-A) så du laddar flera enheter samtidigt.",
+      "Upplevs som pålitlig och kompatibel med det mesta – en trygg reskompis.",
+    ],
+    cautions: [
+      "En reseadapter byter bara kontakttyp – den omvandlar INTE spänning. Kolla att laddaren klarar landets volttal.",
+      "Inte gjord för strömkrävande apparater – mest för laddare och elektronik.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
+  epickaReseadapterProduct,
+  traxentaNecessarProduct,
+  grifemaBagagevagProduct,
+  tomtocKabelorganizerProduct,
+  myHodoKompressionspaseProduct,
+  travelDudePackkuberProduct,
   ...waveProducts,
   gehwolFotpuderProduct,
   braunBikiniTrimmerProduct,
@@ -14160,6 +14711,12 @@ export const productCategories: readonly ProductCategory[] = [
     label: "Hälsa & livsstil",
     href: "/halsa",
     description: "Produkter för återhämtning, smart hem och vardagskänsla.",
+  },
+  {
+    slug: "resa",
+    label: "Resa & packning",
+    href: "/sommar/resa",
+    description: "Smarta reseprylar för kabinväskan – packa lätt och res smart.",
   },
 ];
 

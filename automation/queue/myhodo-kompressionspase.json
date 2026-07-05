@@ -1,0 +1,115 @@
+{
+  "system": "resa",
+  "exportName": "myHodoKompressionspaseProduct",
+  "category": "resa",
+  "categoryGroup": "Kabinväska & packning",
+  "route": "sommar/resa/kompressionspase",
+  "pageComponentName": "KompressionspasePage",
+  "product": {
+    "slug": "myhodo-kompressionspase",
+    "title": "myHodo Rolling kompressionspåsar (14 delar, 3 storlekar)",
+    "category": "resa",
+    "asin": "B0863YHNMB",
+    "brand": "myHodo",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["14 delar", "Utan pump", "3 storlekar"],
+    "image": "/products/myhodo-kompressionspase/kompressionspase-thumbnail.webp",
+    "imageAlt": "myHodo kompressionspåsar för resa i tre storlekar",
+    "images": [
+      { "src": "/products/myhodo-kompressionspase/kompressionspase-thumbnail.webp", "alt": "myHodo kompressionspåsar för resa i tre storlekar", "label": "14 delar" },
+      { "src": "/products/myhodo-kompressionspase/kompressionspase-1.webp", "alt": "Kompressionspåse som rullas ihop för att pressa ut luften", "label": "Rulla" },
+      { "src": "/products/myhodo-kompressionspase/kompressionspase-2.webp", "alt": "Kläder komprimerade i myHodo resepåse", "label": "Komprimerat" },
+      { "src": "/products/myhodo-kompressionspase/kompressionspase-3.webp", "alt": "myHodo kompressionspåsar i olika storlekar", "label": "Storlekar" },
+      { "src": "/products/myhodo-kompressionspase/kompressionspase-4.webp", "alt": "Resepåsar packade i en väska", "label": "I väskan" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0863YHNMB?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/kompressionspase",
+    "summary": "Rullkompressionspåsar där du pressar ut luften genom att rulla ihop påsen – ingen pump eller dammsugare behövs. Praktiskt på resan när du vill pressa ihop skrymmande kläder som tröjor och jackor så de tar mindre plats i kabinväskan. Setet har 14 påsar i tre storlekar. Bra att veta: du får inte ut lika mycket luft som med en vakuumpump, men tillräckligt för att spara rejält med plats.",
+    "evaluation": {
+      "headline": "Rullkompression utan pump för resan",
+      "intro": "Elin tittar närmare på myHodo Rolling: kompressionspåsar där du lägger i kläderna, stänger dragkedjan och rullar ihop påsen för att pressa ut luften. Ingen pump behövs, vilket gör dem smidiga att använda på hotellrummet inför hemresan. Setet innehåller 14 påsar i tre storlekar.",
+      "verdict": "Smidig rullkompression utan pump – pressar ihop skrymmande plagg och sparar plats.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Kompressionspåsar",
+    "specSectionTitle": "myHodo Rolling",
+    "specs": [
+      { "label": "Innehåll", "caption": "Set", "value": "14 påsar i 3 storlekar" },
+      { "label": "Funktion", "caption": "Kompression", "value": "Rulla ihop – ingen pump behövs" },
+      { "label": "Storlekar", "caption": "Mått", "value": "70x50 / 60x40 / 50x35 cm" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0863YHNMB?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 1 247 omdömen.",
+      "highlights": [
+        "Rullkompression utan pump – du pressar ut luften genom att rulla, praktiskt på resan.",
+        "Håller tätt och komprimerar kläderna så de tar mindre plats.",
+        "Tre storlekar och många påsar – flexibelt för olika plagg."
+      ],
+      "cautions": [
+        "Flera tycker påsarna är mindre än de såg ut på bilden – kolla måtten innan.",
+        "Rullmetoden kräver lite handkraft för att få ut all luft."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/kompressionspase",
+    "cardBadge": "Utan pump",
+    "cardHook": "Rulla ut luften och pressa ihop skrymmande kläder – ingen pump behövs.",
+    "cardImage": "/products/myhodo-kompressionspase/kompressionspase-thumbnail.webp",
+    "cardImageAlt": "myHodo kompressionspåsar för resa i tre storlekar",
+    "badge": "Elins plats­spar-tips",
+    "headline": "myHodo kompressionspåsar – rulla, pressa, spara plats",
+    "shortBody": "Rullkompressionspåsar där du pressar ut luften genom att rulla ihop påsen – ingen pump behövs. Bra för att pressa ihop skrymmande tröjor och jackor i kabinväskan. 14 påsar i tre storlekar.",
+    "valueHook": "Pressa ihop skrymmande plagg",
+    "valueStatement": "myHodo Rolling är kompressionspåsar för dig som vill pressa ihop skrymmande kläder utan att släpa på en pump. Du lägger i plaggen, stänger dragkedjan och rullar ihop påsen för att trycka ut luften. Amazon visar 4,4 av 5 från 1 247 omdömen, och köpare gillar att de håller tätt och sparar plats. Tänk på att du inte får ut lika mycket luft som med en vakuumpump – men tillräckligt för att skrymmande plagg ska ta betydligt mindre plats.",
+    "passFor": [
+      "Vill pressa ihop skrymmande tröjor och jackor i väskan.",
+      "Vill slippa släpa på en pump eller dammsugare på resan.",
+      "Packar ofta och vill ha flera storlekar att välja på."
+    ],
+    "caution": "Rullmetoden kräver lite handkraft och ger inte lika mycket komprimering som en vakuumpump. Flera köpare tycker påsarna är mindre än de såg ut på bilden – kolla måtten (70x50 / 60x40 / 50x35 cm) innan.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Lägg de vikta kläderna i påsen, stäng den vanliga dragkedjan och rulla sedan ihop påsen från stängda änden mot ventilerna så att luften pressas ut. Bäst effekt på mjuka, skrymmande plagg som tröjor och jackor."
+    },
+    "verdict": "Smidig rullkompression utan pump – pressar ihop skrymmande plagg och sparar plats.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 1 247 omdömen. Köpare gillar att de rullas utan pump och håller tätt, men några tycker att påsarna är mindre än väntat.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Behöver jag en pump?", "answer": "Nej. Du pressar ut luften genom att rulla ihop påsen, så ingen pump eller dammsugare behövs. Det gör dem smidiga att använda även på hotellrummet inför hemresan." },
+      { "question": "Hur mycket plats sparar de?", "answer": "På mjuka, skrymmande plagg som tröjor och jackor sparar de rejält med plats. Du får inte ut lika mycket luft som med en vakuumpump, men tillräckligt för att märka stor skillnad." },
+      { "question": "Vilka storlekar ingår?", "answer": "Setet har 14 påsar i tre storlekar (ungefär 70x50, 60x40 och 50x35 cm), så du kan välja storlek efter plagg och väska." }
+    ],
+    "reviewSectionId": "myhodo-kompressionspase-recensioner",
+    "reviewFormId": "myhodo-kompressionspase-skriv-recension",
+    "targetKeyword": "kompressionspåsar resa",
+    "metaTitle": "myHodo kompressionspåsar – rulla utan pump | Elins val",
+    "metaDescription": "Elin går igenom myHodo Rolling kompressionspåsar (14 delar, 4,4 av 5 från 1 247 omdömen): rulla ut luften utan pump och pressa ihop skrymmande plagg i kabinväskan.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/packkuber", "label": "Packkuber", "text": "Håll ordning och dela upp kläderna efter typ." },
+      { "href": "/sommar/resa/bagagevag", "label": "Bagagevåg", "text": "Väg väskan hemma så du slipper övervikt vid gaten." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för kabinväskan." }
+    ]
+  },
+  "images": {
+    "dir": "myhodo-kompressionspase",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81q9qhK3dFL._AC_SL1500_.jpg", "out": "kompressionspase-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81EfyqQ5YnL._AC_SL1500_.jpg", "out": "kompressionspase-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81CK2rNe1dL._AC_SL1500_.jpg", "out": "kompressionspase-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81J76CMnAfL._AC_SL1500_.jpg", "out": "kompressionspase-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/91YKQyjOwqL._AC_SL1500_.jpg", "out": "kompressionspase-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "myHodo kompressionspåsar (14 delar)", "href": "/sommar/resa/kompressionspase", "date": "2026-07-05", "image": "/products/myhodo-kompressionspase/kompressionspase-thumbnail.webp", "blurb": "Rullkompression utan pump som pressar ihop skrymmande plagg i kabinväskan." }
+  ]
+}

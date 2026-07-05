@@ -50,7 +50,7 @@ type ElinVariant = "A" | "B";
 const maxMessages = 12;
 const maxUserInputLength = 500;
 const model = "claude-sonnet-4-6";
-const categories = new Set<ProductCategorySlug>(["skonhet", "traning", "halsa"]);
+const categories = new Set<ProductCategorySlug>(["skonhet", "traning", "halsa", "resa"]);
 const priceTiers = new Set<PriceTier>(["budget", "mellan", "premium"]);
 const skinTypes = new Set<NonNullable<ElinPreferences["skinType"]>>([
   "torr",
@@ -70,6 +70,7 @@ const categoryLabels: Record<ProductCategorySlug, string> = {
   skonhet: "skönhet",
   traning: "träning",
   halsa: "hälsa",
+  resa: "resa",
 };
 
 const budgetLabels: Record<PriceTier, string> = {
@@ -151,7 +152,7 @@ const tools: Anthropic.Tool[] = [
         },
         kategori: {
           type: "string",
-          enum: ["skonhet", "traning", "halsa"],
+          enum: ["skonhet", "traning", "halsa", "resa"],
           description: "Valfri kategorifilter.",
         },
         tier: {

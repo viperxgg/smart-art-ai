@@ -1,0 +1,114 @@
+{
+  "system": "resa",
+  "exportName": "tomtocKabelorganizerProduct",
+  "category": "resa",
+  "categoryGroup": "Kabinväska & packning",
+  "route": "sommar/resa/kabelorganizer",
+  "pageComponentName": "KabelorganizerPage",
+  "product": {
+    "slug": "tomtoc-kabelorganizer",
+    "title": "tomtoc Accessory Case – kabel- och elektronikorganizer",
+    "category": "resa",
+    "asin": "B0CMQ3L1QD",
+    "brand": "tomtoc",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "mellan",
+    "badges": ["Kabelordning", "Kompakt", "Reseväska"],
+    "image": "/products/tomtoc-kabelorganizer/kabelorganizer-thumbnail.webp",
+    "imageAlt": "tomtoc kabelorganizer för resa med fack för kablar och laddare",
+    "images": [
+      { "src": "/products/tomtoc-kabelorganizer/kabelorganizer-thumbnail.webp", "alt": "tomtoc kabelorganizer för resa", "label": "Organizer" },
+      { "src": "/products/tomtoc-kabelorganizer/kabelorganizer-1.webp", "alt": "Kablar och laddare organiserade i tomtoc-fodralet", "label": "Fack" },
+      { "src": "/products/tomtoc-kabelorganizer/kabelorganizer-2.webp", "alt": "tomtoc kabelfodral uppfällt med elastiska band", "label": "Uppfällt" },
+      { "src": "/products/tomtoc-kabelorganizer/kabelorganizer-3.webp", "alt": "Kompakt kabelorganizer som ryms i handbagaget", "label": "Kompakt" },
+      { "src": "/products/tomtoc-kabelorganizer/kabelorganizer-4.webp", "alt": "Detalj av tomtoc kabelorganizer", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0CMQ3L1QD?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/kabelorganizer",
+    "summary": "Ett kompakt fodral som håller ordning på kablar, laddare, adaptrar och annat smått på resan. Elastiska band och fack gör att allt har sin plats, så du slipper leta bland trasslet i väskan. Bra att veta: det är en smal, kompakt organizer – gjord för kablar och laddare, inte för skrymmande tillbehör.",
+    "evaluation": {
+      "headline": "Kompakt organizer som stoppar kabeltrasslet",
+      "intro": "Elin tittar närmare på tomtoc Accessory Case: ett kompakt fodral med elastiska band och fack för kablar, laddare, adaptrar, minnesstickor och annat smått. Allt får sin plats så att du snabbt hittar rätt sladd på resan, utan trassel i botten av väskan. Ett väldigt högt betyg på Amazon (4,8 av 5).",
+      "verdict": "Genomtänkt, kompakt kabelorganizer som håller elektroniken i ordning på resan.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Kabelorganizer",
+    "specSectionTitle": "tomtoc Accessory Case",
+    "specs": [
+      { "label": "Format", "caption": "Storlek", "value": "Kompakt fodral för handbagaget" },
+      { "label": "Funktion", "caption": "Ordning", "value": "Elastiska band och fack för smått" },
+      { "label": "Passar", "caption": "Innehåll", "value": "Kablar, laddare, adaptrar, minneskort" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0CMQ3L1QD?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,8 av 5 från 3 430 omdömen.",
+      "highlights": [
+        "Håller ordning på alla kablar, laddare och adaptrar på resan – slut på trasslet.",
+        "Mycket bra kvalitet och genomtänkt storlek – många får med sig allt.",
+        "Ovanligt högt betyg (4,8 av 5 från 3 430 omdömen)."
+      ],
+      "cautions": [
+        "Det är en smal, kompakt organizer – bäst för kablar, laddare och smått, inte skrymmande tillbehör."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/kabelorganizer",
+    "cardBadge": "Kabelordning",
+    "cardHook": "Kompakt fodral som håller kablar och laddare i ordning – slut på trasslet.",
+    "cardImage": "/products/tomtoc-kabelorganizer/kabelorganizer-thumbnail.webp",
+    "cardImageAlt": "tomtoc kabelorganizer för resa med fack för kablar och laddare",
+    "badge": "Elins ordning-i-väskan-tips",
+    "headline": "tomtoc kabelorganizer – ordning på elektroniken",
+    "shortBody": "Ett kompakt fodral med elastiska band och fack för kablar, laddare, adaptrar och smått. Allt får sin plats så du snabbt hittar rätt sladd på resan, utan trassel i väskan.",
+    "valueHook": "Slut på kabeltrasslet i väskan",
+    "valueStatement": "tomtoc Accessory Case är en kompakt kabelorganizer för dig som är trött på att rota efter rätt sladd i botten av väskan. Elastiska band och fack håller kablar, laddare, adaptrar och minneskort på plats. Amazon visar hela 4,8 av 5 från 3 430 omdömen – ovanligt starkt – och köpare lyfter kvaliteten och den genomtänkta storleken. Tänk på att det är ett smalt, kompakt fodral, gjort för smått snarare än skrymmande tillbehör.",
+    "passFor": [
+      "Reser med flera kablar, laddare och adaptrar och vill ha ordning.",
+      "Vill snabbt hitta rätt sladd utan att rota i väskan.",
+      "Gillar en kompakt lösning som ryms i handbagaget."
+    ],
+    "caution": "Det är en smal, kompakt organizer. Den är gjord för kablar, laddare och smått – inte för skrymmande tillbehör eller större powerbanks. Kolla att dina prylar får plats innan.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Fäst kablar och laddare under de elastiska banden och lägg minneskort och smått i fickorna. Rulla ihop längre kablar så håller de sig på plats. Packa fodralet stående i väskan så håller allt ordningen."
+    },
+    "verdict": "Genomtänkt, kompakt kabelorganizer som håller elektroniken i ordning på resan.",
+    "amazonSummary": "Amazon visar 4,8 av 5 från 3 430 omdömen. Köpare lyfter kvaliteten, ordningen och den genomtänkta storleken – det är en kompakt organizer för smått, inte skrymmande saker.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Vad får plats i den?", "answer": "Kablar, laddare, adaptrar, minneskort, USB-minnen och liknande smått. Den är gjord för att hålla ordning på elektronikens tillbehör, inte för skrymmande föremål." },
+      { "question": "Är den bra att ha i handbagaget?", "answer": "Ja, den är kompakt och lätt att lägga stående i väskan. Många använder den just för att slippa kabeltrassel när de reser." },
+      { "question": "Varför så högt betyg?", "answer": "Amazon visar 4,8 av 5 från 3 430 omdömen. Köpare uppskattar särskilt kvaliteten och den genomtänkta indelningen som gör att allt har sin plats." }
+    ],
+    "reviewSectionId": "tomtoc-kabelorganizer-recensioner",
+    "reviewFormId": "tomtoc-kabelorganizer-skriv-recension",
+    "targetKeyword": "kabelorganizer resa",
+    "metaTitle": "tomtoc kabelorganizer – ordning på resan | Elins val",
+    "metaDescription": "Elin går igenom tomtoc Accessory Case kabelorganizer (4,8 av 5 från 3 430 omdömen): håll kablar, laddare och adaptrar i ordning i handbagaget – slut på trasslet.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/reseadapter", "label": "Reseadapter", "text": "Ladda dina prylar var du än landar i världen." },
+      { "href": "/sommar/resa/packkuber", "label": "Packkuber", "text": "Håll ordning även på kläderna i väskan." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för kabinväskan." }
+    ]
+  },
+  "images": {
+    "dir": "tomtoc-kabelorganizer",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81MwcyOXUDL._AC_SL1500_.jpg", "out": "kabelorganizer-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/8128hL8-OiL._AC_SL1500_.jpg", "out": "kabelorganizer-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81Ki0JEYPJL._AC_SL1500_.jpg", "out": "kabelorganizer-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81sSANzr8hL._AC_SL1500_.jpg", "out": "kabelorganizer-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81JwOO3IQtL._AC_SL1500_.jpg", "out": "kabelorganizer-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "tomtoc kabelorganizer", "href": "/sommar/resa/kabelorganizer", "date": "2026-07-05", "image": "/products/tomtoc-kabelorganizer/kabelorganizer-thumbnail.webp", "blurb": "Kompakt fodral som håller kablar och laddare i ordning på resan." }
+  ]
+}

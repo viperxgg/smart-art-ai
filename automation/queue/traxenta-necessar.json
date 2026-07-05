@@ -1,0 +1,115 @@
+{
+  "system": "resa",
+  "exportName": "traxentaNecessarProduct",
+  "category": "resa",
+  "categoryGroup": "Kabinväska & packning",
+  "route": "sommar/resa/necessar",
+  "pageComponentName": "NecessarPage",
+  "product": {
+    "slug": "traxenta-necessar",
+    "title": "Traxenta genomskinlig necessär (5 delar)",
+    "category": "resa",
+    "asin": "B0CZDTZ51V",
+    "brand": "Traxenta",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["5 delar", "Genomskinlig", "Olika storlekar"],
+    "image": "/products/traxenta-necessar/necessar-thumbnail.webp",
+    "imageAlt": "Traxenta genomskinliga necessärer i set om 5 delar",
+    "images": [
+      { "src": "/products/traxenta-necessar/necessar-thumbnail.webp", "alt": "Traxenta genomskinliga necessärer i set om 5 delar", "label": "Set om 5" },
+      { "src": "/products/traxenta-necessar/necessar-1.webp", "alt": "Genomskinlig necessär där innehållet syns tydligt", "label": "Genomskinlig" },
+      { "src": "/products/traxenta-necessar/necessar-2.webp", "alt": "Transparenta påsar i olika storlekar", "label": "Storlekar" },
+      { "src": "/products/traxenta-necessar/necessar-3.webp", "alt": "Necessär packad med toalettsaker", "label": "Packad" },
+      { "src": "/products/traxenta-necessar/necessar-4.webp", "alt": "Detalj av dragkedja på genomskinlig necessär", "label": "Detalj" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0CZDTZ51V?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/necessar",
+    "summary": "Ett set med fem genomskinliga necessärer i olika storlekar. Eftersom de är transparenta ser du direkt vad som finns i, vilket gör det enkelt att hålla ordning på toalettsaker och smått – och smidigt att plocka fram i säkerhetskontrollen. Bra att veta: påsarna är relativt små (runt 20x20 cm), gjorda för att organisera smått. Kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
+    "evaluation": {
+      "headline": "Genomskinlig necessär som håller ordning",
+      "intro": "Elin tittar närmare på Traxenta genomskinliga necessärer: ett set om fem transparenta påsar i olika storlekar. Eftersom du ser innehållet direkt blir det enkelt att hålla ordning på toalettsaker och smått, och smidigt när necessären ska fram i säkerhetskontrollen. Kolla alltid flygplatsens aktuella regler för vätskor.",
+      "verdict": "Praktiskt set av genomskinliga necessärer för ordning och enkel säkerhetskontroll.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Necessär",
+    "specSectionTitle": "Traxenta genomskinlig necessär",
+    "specs": [
+      { "label": "Innehåll", "caption": "Set", "value": "5 påsar i olika storlekar" },
+      { "label": "Material", "caption": "Genomskinligt", "value": "Transparent – du ser innehållet" },
+      { "label": "Storlek", "caption": "Ungefär", "value": "Runt 20x20 cm – för smått" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0CZDTZ51V?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 187 omdömen.",
+      "highlights": [
+        "Genomskinlig så du snabbt ser vad som finns i – smidigt i säkerhetskontrollen och necessären.",
+        "Flera storlekar i setet – lätt att dela upp smått, accessoarer och toalettsaker.",
+        "Upplevs som praktiska, rymliga och tåliga."
+      ],
+      "cautions": [
+        "Påsarna är relativt små (runt 20x20 cm) – för att organisera smått, inte stora flaskor.",
+        "Kolla alltid flygplatsens aktuella regler för vätskor i handbagage."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/necessar",
+    "cardBadge": "Genomskinlig",
+    "cardHook": "Transparenta necessärer där du ser innehållet direkt – smidigt i kontrollen.",
+    "cardImage": "/products/traxenta-necessar/necessar-thumbnail.webp",
+    "cardImageAlt": "Traxenta genomskinliga necessärer i set om 5 delar",
+    "badge": "Elins ordning-tips",
+    "headline": "Traxenta genomskinlig necessär – ordning som syns",
+    "shortBody": "Ett set om fem transparenta necessärer i olika storlekar. Du ser innehållet direkt, vilket gör det enkelt att hålla ordning på toalettsaker och smått – och smidigt att plocka fram i säkerhetskontrollen.",
+    "valueHook": "Se innehållet – slipp rota",
+    "valueStatement": "Traxenta genomskinliga necessärer är ett set om fem transparenta påsar i olika storlekar, för dig som vill hålla ordning på toalettsaker och smått. Eftersom de är genomskinliga ser du direkt vad som finns i, vilket är smidigt både i necessären och när den ska fram i säkerhetskontrollen. Amazon visar 4,6 av 5 från 187 omdömen, och köpare tycker de är praktiska och rymliga. Tänk på att påsarna är relativt små och gjorda för smått – och kolla alltid flygplatsens aktuella regler för vätskor.",
+    "passFor": [
+      "Vill hålla ordning på toalettsaker och smått i necessären.",
+      "Gillar att se innehållet direkt utan att rota.",
+      "Vill ha flera storlekar att dela upp i."
+    ],
+    "caution": "Påsarna är relativt små (runt 20x20 cm) och gjorda för att organisera smått, inte stora flaskor. Reglerna för vätskor i handbagage varierar – kolla alltid flygplatsens aktuella regler innan du reser.",
+    "usageGuidance": {
+      "title": "Så använder du dem rätt",
+      "text": "Dela upp innehållet efter typ – en påse för toalettsaker, en för smått och en för sladdar eller smink. Eftersom de är genomskinliga hittar du snabbt rätt påse. Kolla alltid flygplatsens aktuella regler för vätskor i handbagage."
+    },
+    "verdict": "Praktiskt set av genomskinliga necessärer för ordning och enkel säkerhetskontroll.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 187 omdömen. Köpare tycker de är praktiska, rymliga och tåliga – påsarna är relativt små och gjorda för att organisera smått.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Varför genomskinlig necessär?", "answer": "Eftersom du ser innehållet direkt blir det enkelt att hitta rätt utan att rota, och smidigt när necessären ska fram i säkerhetskontrollen. Kolla alltid flygplatsens aktuella regler för vätskor i handbagage." },
+      { "question": "Hur stora är påsarna?", "answer": "De är relativt små, runt 20x20 cm, och gjorda för att organisera smått som toalettsaker och accessoarer snarare än stora flaskor." },
+      { "question": "Hur många ingår?", "answer": "Setet innehåller fem påsar i olika storlekar, så du kan dela upp innehållet efter typ." }
+    ],
+    "reviewSectionId": "traxenta-necessar-recensioner",
+    "reviewFormId": "traxenta-necessar-skriv-recension",
+    "targetKeyword": "genomskinlig necessär",
+    "metaTitle": "Traxenta genomskinlig necessär – ordning på resan | Elins val",
+    "metaDescription": "Elin går igenom Traxenta genomskinliga necessärer (5 delar, 4,6 av 5 från 187 omdömen): se innehållet direkt och håll ordning på smått – smidigt i säkerhetskontrollen.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/packkuber", "label": "Packkuber", "text": "Håll ordning även på kläderna i väskan." },
+      { "href": "/sommar/resa/kabelorganizer", "label": "Kabelorganizer", "text": "Samma ordning – fast för kablar och laddare." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för kabinväskan." }
+    ]
+  },
+  "images": {
+    "dir": "traxenta-necessar",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71uN+yvTjkL._AC_SL1500_.jpg", "out": "necessar-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61rfdcEytpL._AC_SL1500_.jpg", "out": "necessar-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71AGmLgRoDL._AC_SL1500_.jpg", "out": "necessar-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71l7rViQVTL._AC_SL1500_.jpg", "out": "necessar-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61r954X-FNL._AC_SL1500_.jpg", "out": "necessar-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Traxenta genomskinlig necessär (5 delar)", "href": "/sommar/resa/necessar", "date": "2026-07-05", "image": "/products/traxenta-necessar/necessar-thumbnail.webp", "blurb": "Transparenta necessärer där du ser innehållet direkt – smidigt i säkerhetskontrollen." }
+  ]
+}

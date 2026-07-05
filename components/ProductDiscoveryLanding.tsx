@@ -27,7 +27,7 @@ const topPicks = [...products]
 const selectedComparisons = comparisonEntries.slice(0, 6);
 
 type LatestUpdate = {
-  type: "Guide" | "Hälsa" | "Hudvård" | "Hårvård" | "Träning";
+  type: "Guide" | "Hälsa" | "Hudvård" | "Hårvård" | "Träning" | "Resa";
   title: string;
   href: string;
   date: `${number}-${number}-${number}`;
@@ -37,6 +37,54 @@ type LatestUpdate = {
 
 // Lägg till nyaste överst
 const latestUpdates = [
+  {
+    type: "Resa",
+    title: "EPICKA universal reseadapter",
+    href: "/sommar/resa/reseadapter",
+    date: "2026-07-05",
+    image: "/products/epicka-reseadapter/reseadapter-thumbnail.webp",
+    blurb: "En reseadapter för de flesta länder med fem USB-portar för flera enheter.",
+  },
+  {
+    type: "Resa",
+    title: "Traxenta genomskinlig necessär (5 delar)",
+    href: "/sommar/resa/necessar",
+    date: "2026-07-05",
+    image: "/products/traxenta-necessar/necessar-thumbnail.webp",
+    blurb: "Transparenta necessärer där du ser innehållet direkt – smidigt i säkerhetskontrollen.",
+  },
+  {
+    type: "Resa",
+    title: "GRIFEMA digital bagagevåg",
+    href: "/sommar/resa/bagagevag",
+    date: "2026-07-05",
+    image: "/products/grifema-bagagevag/bagagevag-thumbnail.webp",
+    blurb: "Liten digital bagagevåg – väg väskan hemma och slipp övervikt vid gaten.",
+  },
+  {
+    type: "Resa",
+    title: "tomtoc kabelorganizer",
+    href: "/sommar/resa/kabelorganizer",
+    date: "2026-07-05",
+    image: "/products/tomtoc-kabelorganizer/kabelorganizer-thumbnail.webp",
+    blurb: "Kompakt fodral som håller kablar och laddare i ordning på resan.",
+  },
+  {
+    type: "Resa",
+    title: "myHodo kompressionspåsar (14 delar)",
+    href: "/sommar/resa/kompressionspase",
+    date: "2026-07-05",
+    image: "/products/myhodo-kompressionspase/kompressionspase-thumbnail.webp",
+    blurb: "Rullkompression utan pump som pressar ihop skrymmande plagg i kabinväskan.",
+  },
+  {
+    type: "Resa",
+    title: "Travel Dude packkuber (7 delar)",
+    href: "/sommar/resa/packkuber",
+    date: "2026-07-05",
+    image: "/products/travel-dude-packkuber/packkuber-thumbnail.webp",
+    blurb: "Packkuber med kompression som håller ordning och sparar plats i kabinväskan.",
+  },
   {
     type: "Hudvård",
     title: "Gehwol fotpuder",

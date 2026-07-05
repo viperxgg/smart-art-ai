@@ -22,12 +22,14 @@ const categoryLabels: Record<ProductCategorySlug, string> = {
   traning: "Träning",
   halsa: "Hälsa",
   skonhet: "Skönhet",
+  resa: "Resa",
 };
 
 const categoryHrefs: Record<ProductCategorySlug, string> = {
   traning: "/traning",
   halsa: "/halsa",
   skonhet: "/skonhet",
+  resa: "/sommar/resa",
 };
 
 export function createWaveGuideMetadata(guideId: string) {

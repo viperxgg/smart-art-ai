@@ -1,0 +1,115 @@
+{
+  "system": "resa",
+  "exportName": "grifemaBagagevagProduct",
+  "category": "resa",
+  "categoryGroup": "Kabinväska & packning",
+  "route": "sommar/resa/bagagevag",
+  "pageComponentName": "BagagevagPage",
+  "product": {
+    "slug": "grifema-bagagevag",
+    "title": "GRIFEMA GA2006 digital bagagevåg (50 kg)",
+    "category": "resa",
+    "asin": "B0F3HP95V8",
+    "brand": "GRIFEMA",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["Upp till 50 kg", "LCD-display", "Kompakt"],
+    "image": "/products/grifema-bagagevag/bagagevag-thumbnail.webp",
+    "imageAlt": "GRIFEMA digital bagagevåg med LCD-display",
+    "images": [
+      { "src": "/products/grifema-bagagevag/bagagevag-thumbnail.webp", "alt": "GRIFEMA digital bagagevåg med LCD-display", "label": "Bagagevåg" },
+      { "src": "/products/grifema-bagagevag/bagagevag-1.webp", "alt": "Bagagevåg som väger en resväska i handen", "label": "Väger" },
+      { "src": "/products/grifema-bagagevag/bagagevag-2.webp", "alt": "Närbild på LCD-displayen med vikt i kg", "label": "Display" },
+      { "src": "/products/grifema-bagagevag/bagagevag-3.webp", "alt": "Kompakt bagagevåg som ryms i väskan", "label": "Kompakt" },
+      { "src": "/products/grifema-bagagevag/bagagevag-4.webp", "alt": "Bagagevåg med rem och krok", "label": "Rem" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0F3HP95V8?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/bagagevag",
+    "summary": "En liten digital bagagevåg som väger väskan upp till 50 kg med en bakgrundsbelyst LCD-display och tara-funktion. Du fäster remmen, lyfter väskan och ser vikten – smidigt hemma innan du åker så att du slipper överraskas av övervikt vid incheckningen. Bra att veta: du lyfter väskan för hand, vilket kan vara lite otympligt med riktigt tunga väskor.",
+    "evaluation": {
+      "headline": "Liten bagagevåg som räddar dig från övervikt",
+      "intro": "Elin tittar närmare på GRIFEMA GA2006: en kompakt digital bagagevåg som väger upp till 50 kg. Du fäster remmen runt handtaget, lyfter väskan och läser av vikten på den bakgrundsbelysta displayen. Ett enkelt sätt att kolla vikten hemma innan resan, så att gaten inte bjuder på en dyr överraskning.",
+      "verdict": "Enkel, kompakt bagagevåg som hjälper dig undvika överviktsavgift.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Bagagevåg",
+    "specSectionTitle": "GRIFEMA GA2006",
+    "specs": [
+      { "label": "Kapacitet", "caption": "Max", "value": "Upp till 50 kg" },
+      { "label": "Display", "caption": "Avläsning", "value": "Bakgrundsbelyst LCD med tara" },
+      { "label": "Format", "caption": "Storlek", "value": "Kompakt och lätt att ta med" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0F3HP95V8?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 457 omdömen.",
+      "highlights": [
+        "Lätt och enkel att använda – väg väskan hemma och slipp överviktsavgift vid gaten.",
+        "Upplevs som noggrann med en tydlig, bakgrundsbelyst display.",
+        "Kompakt och lätt att ta med i väskan på resan."
+      ],
+      "cautions": [
+        "Du lyfter väskan i vågen för hand – lite otympligt med riktigt tunga väskor.",
+        "Drivs med batteri, så ha koll på att den fungerar innan avresa."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/bagagevag",
+    "cardBadge": "Mot övervikt",
+    "cardHook": "Väg väskan hemma och slipp dyra överviktsavgifter vid gaten.",
+    "cardImage": "/products/grifema-bagagevag/bagagevag-thumbnail.webp",
+    "cardImageAlt": "GRIFEMA digital bagagevåg med LCD-display",
+    "badge": "Elins slipp-krångel-tips",
+    "headline": "GRIFEMA bagagevåg – väg hemma, res lugnare",
+    "shortBody": "En liten digital bagagevåg som väger upp till 50 kg med bakgrundsbelyst display och tara-funktion. Kolla vikten hemma innan du åker så att gaten inte bjuder på en dyr överraskning.",
+    "valueHook": "Undvik överraskningen vid incheckningen",
+    "valueStatement": "GRIFEMA GA2006 är en kompakt digital bagagevåg för dig som vill slippa oroa dig för övervikt vid incheckningen. Du fäster remmen, lyfter väskan och läser av vikten på den belysta displayen. Amazon visar 4,7 av 5 från 457 omdömen, och köpare beskriver den som lätt, noggrann och enkel att ta med. Tänk på att du lyfter väskan för hand, så det kan bli lite otympligt med riktigt tunga väskor.",
+    "passFor": [
+      "Vill väga väskan hemma och undvika överviktsavgift.",
+      "Flyger med bolag som har strikta viktgränser för handbagage.",
+      "Vill ha en liten våg som får plats i väskan på resan."
+    ],
+    "caution": "Du lyfter väskan i vågen för hand, vilket kan kännas otympligt med riktigt tunga väskor. Den drivs med batteri – ha koll på att den fungerar innan avresa. Kolla alltid ditt flygbolags aktuella viktgränser.",
+    "usageGuidance": {
+      "title": "Så använder du den rätt",
+      "text": "Fäst remmen runt väskans handtag, lyft väskan rakt upp och håll stilla tills siffran låser sig. Väg på ett jämnt underlag och gärna dagen innan resan, så hinner du packa om om väskan är för tung."
+    },
+    "verdict": "Enkel, kompakt bagagevåg som hjälper dig undvika överviktsavgift.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 457 omdömen. Köpare beskriver den som lätt, noggrann och smidig – men du lyfter väskan för hand, vilket kan vara otympligt med tunga väskor.",
+    "amazonQuotes": [],
+    "faqItems": [
+      { "question": "Hur mycket klarar vågen?", "answer": "Den väger upp till 50 kg, vilket räcker för både handbagage och incheckat bagage. Displayen är bakgrundsbelyst och lätt att läsa av." },
+      { "question": "Hur väger jag väskan?", "answer": "Du fäster remmen runt handtaget, lyfter väskan rakt upp och håller stilla tills vikten låser sig på displayen. Väg gärna hemma dagen innan så hinner du packa om vid behov." },
+      { "question": "Hjälper den mot överviktsavgift?", "answer": "Ja, tanken är att du kollar vikten hemma innan du åker. Kolla alltid ditt flygbolags aktuella viktgränser, eftersom de skiljer sig mellan bolag och biljettyper." }
+    ],
+    "reviewSectionId": "grifema-bagagevag-recensioner",
+    "reviewFormId": "grifema-bagagevag-skriv-recension",
+    "targetKeyword": "bagagevåg",
+    "metaTitle": "GRIFEMA bagagevåg – väg väskan & slipp övervikt | Elins val",
+    "metaDescription": "Elin går igenom GRIFEMA digital bagagevåg (50 kg, 4,7 av 5 från 457 omdömen): väg väskan hemma, slipp överviktsavgift vid gaten – och vad du bör tänka på.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/packkuber", "label": "Packkuber", "text": "Packa strukturerat och håll ordning i väskan." },
+      { "href": "/sommar/resa/kompressionspase", "label": "Kompressionspåsar", "text": "Pressa ihop skrymmande plagg och spara plats." },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för kabinväskan." }
+    ]
+  },
+  "images": {
+    "dir": "grifema-bagagevag",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/612u+RLIQ4L._AC_SL1500_.jpg", "out": "bagagevag-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61aZ3JnlGOL._AC_SL1500_.jpg", "out": "bagagevag-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/610TgxMDPgL._AC_SL1500_.jpg", "out": "bagagevag-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/712UY5lWqeL._AC_SL1500_.jpg", "out": "bagagevag-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/611+f3DUKmL._AC_SL1500_.jpg", "out": "bagagevag-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "GRIFEMA digital bagagevåg", "href": "/sommar/resa/bagagevag", "date": "2026-07-05", "image": "/products/grifema-bagagevag/bagagevag-thumbnail.webp", "blurb": "Liten digital bagagevåg – väg väskan hemma och slipp övervikt vid gaten." }
+  ]
+}
