@@ -1578,13 +1578,22 @@ function SeasonalStrip() {
             {sommarSectionCopy.intro}
           </p>
         </div>
-        <Link
-          href="/sommar"
-          className="inline-flex min-h-13 shrink-0 items-center justify-center gap-2 rounded-full bg-[#d97d91] px-6 text-sm font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
-        >
-          Se hela sommarguiden
-          <ArrowUpRight size={17} aria-hidden="true" />
-        </Link>
+        <div className="flex shrink-0 flex-col gap-2 sm:flex-row lg:flex-col">
+          <Link
+            href="/sommar"
+            className="inline-flex min-h-13 items-center justify-center gap-2 rounded-full bg-[#d97d91] px-6 text-sm font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
+          >
+            Se hela sommarguiden
+            <ArrowUpRight size={17} aria-hidden="true" />
+          </Link>
+          <Link
+            href="/sommar/resa"
+            className="inline-flex min-h-13 items-center justify-center gap-2 rounded-full border border-[#d97d91] bg-white/70 px-6 text-sm font-black text-[#a0566a] transition hover:-translate-y-0.5 hover:bg-white"
+          >
+            Reser du? Elins reseval
+            <ArrowUpRight size={17} aria-hidden="true" />
+          </Link>
+        </div>
       </div>
 
       <div className="mt-5 grid gap-4 sm:grid-cols-3">

@@ -110,6 +110,25 @@ export default function SommarPage() {
           </div>
         </section>
 
+        <Link
+          href="/sommar/resa"
+          className="mt-6 flex items-center justify-between gap-4 rounded-[1.8rem] border border-[#F1D8DD] bg-white/72 p-5 shadow-[0_18px_54px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-white"
+        >
+          <span className="min-w-0">
+            <span className="block text-xs font-black uppercase tracking-[0.14em] text-[#D8788D]">
+              Reser du i sommar?
+            </span>
+            <span className="mt-1 block font-display text-2xl leading-tight text-[#5f4a54]">
+              Elins reseval – smarta prylar för kabinväskan
+            </span>
+          </span>
+          <ArrowUpRight
+            size={22}
+            aria-hidden="true"
+            className="shrink-0 text-[#d97d91]"
+          />
+        </Link>
+
         <section className="mt-8" aria-labelledby="sommar-grid-title">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
