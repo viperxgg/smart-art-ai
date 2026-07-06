@@ -16,6 +16,17 @@ export type ComparisonEntry = {
 export const comparisonEntries: readonly ComparisonEntry[] = [
   ...waveComparisonEntries,
   {
+    slug: "packkuber-eller-kompressionspasar",
+    title: "Packkuber eller kompressionspåsar?",
+    shortTitle: "Packkuber eller kompressionspåsar",
+    category: "resa",
+    categoryLabel: "Resa",
+    href: "/sommar/resa/packkuber-eller-kompressionspasar",
+    description: "Ordning och överblick mot maximal platsbesparing för skrymmande plagg.",
+    productSlugs: ["travel-dude-packkuber","myhodo-kompressionspase"],
+    badges: ["Ordning","Spara plats","Resa"],
+  },
+  {
     slug: "powerbank-eller-vaggladdare",
     title: "Powerbank eller väggladdare?",
     shortTitle: "Powerbank eller väggladdare",

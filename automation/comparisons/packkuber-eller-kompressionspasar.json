@@ -1,0 +1,65 @@
+{
+  "slug": "packkuber-eller-kompressionspasar",
+  "routePrefix": "sommar/resa",
+  "category": "resa",
+  "categoryLabel": "Resa",
+  "backHref": "/sommar/resa",
+  "backLabel": "Tillbaka till Elins reseval",
+  "exportBaseName": "packkuberEllerKompressionspasar",
+  "h1": "Packkuber eller kompressionspåsar?",
+  "intro": "Packkuber och kompressionspåsar hjälper båda dig att packa smartare, men löser olika saker. Packkuber delar upp kläderna och håller ordning i väskan, medan kompressionspåsar pressar ut luften och sparar mest plats på skrymmande plagg.",
+  "badges": ["Ordning", "Spara plats", "Resa"],
+  "howToChoose": "Välj packkuber om du vill ha ordning och lätt hitta rätt i väskan – en kub för överdelar, en för underdelar och så vidare. Välj kompressionspåsar om du reser med skrymmande plagg som tröjor och jackor och vill pressa ihop dem så mycket som möjligt. Många packar smartast med båda: vardagskläder i kuber och det skrymmande i kompressionspåsar.",
+  "verdict": "De löser olika problem. Packkuber vinner på ordning och överblick, medan kompressionspåsar vinner på ren platsbesparing för skrymmande kläder. Vill du bara ha en – välj packkuber för korta resor och kompressionspåsar när du behöver klämma in mycket.",
+  "metaTitle": "Packkuber eller kompressionspåsar? | Elins val",
+  "metaDescription": "Packkuber eller kompressionspåsar? Elin jämför ordning i väskan mot maximal platsbesparing så du packar kabinväskan smartast inför resan.",
+  "picks": [
+    {
+      "exportName": "travelDudePackkuberProduct",
+      "path": "/sommar/resa/packkuber",
+      "badge": "Bäst ordning",
+      "headline": "Travel Dude packkuber – ordning och överblick",
+      "shortBody": "Välj packkuber om du vill dela upp kläderna och snabbt hitta rätt i väskan. De håller packningen överskådlig och pressar ihop plaggen lätt på köpet.",
+      "img": "public/products/travel-dude-packkuber/packkuber-thumbnail.webp",
+      "brand": "Packkuber"
+    },
+    {
+      "exportName": "myHodoKompressionspaseProduct",
+      "path": "/sommar/resa/kompressionspase",
+      "badge": "Mest platsbesparing",
+      "headline": "myHodo kompressionspåsar – pressa ut luften",
+      "shortBody": "Välj kompressionspåsar om du vill spara mest plats. Du rullar ut luften utan pump och pressar ihop skrymmande tröjor och jackor rejält.",
+      "img": "public/products/myhodo-kompressionspase/kompressionspase-thumbnail.webp",
+      "brand": "Kompressionspåsar"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Delar upp och håller ordning; lätt komprimering", "Pressar ut luften; mest platsbesparing"],
+    ["Bäst för", "Överblick och att hitta rätt i väskan", "Skrymmande plagg som tröjor och jackor"],
+    ["Platsbesparing", "Bra – pressar ihop lite", "Mest – rullar ut luften helt"],
+    ["Ordning", "Utmärkt – en kub per kategori", "Mindre – allt i samma påse"],
+    ["Behöver pump?", "Nej", "Nej – du rullar ut luften för hand"],
+    ["Passar bäst", "Korta resor och weekend", "Långresor och mycket packning"],
+    ["Elins poäng", "88/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på packkuber och kompressionspåsar?", "answer": "Packkuber delar upp kläderna i fack så du håller ordning och hittar lätt, med en lätt komprimering. Kompressionspåsar fokuserar på att pressa ut luften och spara så mycket plats som möjligt, men ger mindre ordning." },
+    { "question": "Vilken sparar mest plats?", "answer": "Kompressionspåsar sparar mest plats, särskilt på skrymmande plagg som tröjor och jackor, eftersom du rullar ut luften helt. Packkuber pressar ihop lite men är mer till för ordning." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, många packar smartast med båda: vardagskläder i packkuber för ordning och skrymmande plagg i kompressionspåsar för att spara plats." },
+    { "question": "Behöver kompressionspåsar en pump?", "answer": "Nej, rullkompressionspåsar som myHodo pressar ut luften när du rullar ihop dem för hand, så du slipper släpa på en pump eller dammsugare på resan." }
+  ],
+  "relatedLinks": [
+    { "href": "/sommar/resa/packkuber", "label": "Packkuber", "text": "Läs Elins recension av Travel Dude packkuber." },
+    { "href": "/sommar/resa/kompressionspase", "label": "Kompressionspåsar", "text": "Läs Elins recension av myHodo kompressionspåsar." },
+    { "href": "/sommar/resa/bagagevag", "label": "Bagagevåg", "text": "Väg väskan hemma så du slipper övervikt." },
+    { "href": "/sommar/resa", "label": "Resa", "text": "Se alla Elins smarta reseprylar." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["travel-dude-packkuber", "myhodo-kompressionspase"],
+  "shortTitle": "Packkuber eller kompressionspåsar",
+  "description": "Ordning och överblick mot maximal platsbesparing för skrymmande plagg."
+}
