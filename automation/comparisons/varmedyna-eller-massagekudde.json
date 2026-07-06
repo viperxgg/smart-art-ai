@@ -1,0 +1,65 @@
+{
+  "slug": "varmedyna-eller-massagekudde",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "varmedynaEllerMassagekudde",
+  "h1": "Värmedyna eller massagekudde?",
+  "intro": "Värmedyna och massagekudde ger båda skön avslappning för spänd nacke och rygg, men på olika sätt. En värmedyna sprider mjuk värme som slappnar av musklerna, medan en massagekudde knådar med roterande noder för en mer aktiv massage.",
+  "badges": ["Avslappning", "Värme vs knådning", "Återhämtning"],
+  "howToChoose": "Välj en värmedyna om du gillar mjuk, avslappnande värme mot en spänd nacke eller rygg och vill ha något enkelt att bara luta dig mot. Välj en massagekudde om du vill ha en mer aktiv knådande massage som jobbar på spända punkter. Många har en värmedyna för lugn värme och en massagekudde när musklerna behöver mer bearbetning.",
+  "verdict": "Det handlar om vilken känsla du vill ha. Värmedynan vinner för mjuk, avslappnande värme, medan massagekudden vinner för aktiv knådning av spända muskler. Vill du bara varva ner – värme. Vill du bearbeta spänningar – massage.",
+  "metaTitle": "Värmedyna eller massagekudde? Bäst avslappning | Elins val",
+  "metaDescription": "Värmedyna eller massagekudde? Elin jämför mjuk värme mot aktiv knådning så du väljer rätt för en spänd nacke och rygg.",
+  "picks": [
+    {
+      "exportName": "beurerHeatingPadProduct",
+      "path": "/halsa/varmedyna",
+      "badge": "Mjuk värme",
+      "headline": "Beurer värmedyna – avslappnande värme",
+      "shortBody": "Välj värmedynan om du gillar mjuk, avslappnande värme mot en spänd nacke eller rygg. Enkel att luta sig mot för lugn och nedvarvning.",
+      "img": "public/products/beurer-varmedyna/varmedyna-thumbnail.webp",
+      "brand": "Värmedyna (Beurer)"
+    },
+    {
+      "exportName": "renphoMassagePillowProduct",
+      "path": "/halsa/massagekudde",
+      "badge": "Aktiv knådning",
+      "headline": "RENPHO massagekudde – knådar spända punkter",
+      "shortBody": "Välj massagekudden om du vill ha en aktiv, knådande massage. De roterande noderna jobbar på spända punkter i nacke och rygg, ofta med värme också.",
+      "img": "public/products/renpho-massage-pillow/massagekudde-thumbnail.webp",
+      "brand": "Massagekudde (RENPHO)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Sprider mjuk värme; avslappnande", "Knådar med roterande noder; aktiv"],
+    ["Typ", "Passiv värme", "Aktiv massage"],
+    ["Bäst för", "Lugn och nedvarvning", "Bearbeta spända muskler"],
+    ["Känsla", "Mjuk och skön", "Kraftigare knådning"],
+    ["Har värme?", "Ja – huvudfunktion", "Ofta som tillägg"],
+    ["När", "Kväll och avkoppling", "Efter stel dag eller träning"],
+    ["Elins poäng", "84/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på värmedyna och massagekudde?", "answer": "En värmedyna sprider mjuk värme som hjälper spända muskler att slappna av. En massagekudde knådar aktivt med roterande noder och bearbetar spända punkter, ofta med värme som tillägg." },
+    { "question": "Vilken är bäst för en spänd nacke?", "answer": "Vill du bara varva ner och mjuka upp med värme är en värmedyna skön. Behöver nacken mer bearbetning på spända punkter ger en massagekudde en kraftigare, knådande känsla." },
+    { "question": "Har massagekudden också värme?", "answer": "Många massagekuddar har en värmefunktion som tillägg till knådningen. Är det främst värme du vill ha räcker dock en värmedyna, som är enklare och billigare." },
+    { "question": "Kan jag använda dem varje dag?", "answer": "Ja, båda går bra att använda regelbundet för avslappning. Med massagekudden, börja med kortare pass och lyssna på kroppen så det känns skönt, inte överdrivet." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/varmedyna", "label": "Värmedyna", "text": "Läs Elins recension av Beurer värmedyna." },
+    { "href": "/halsa/massagekudde", "label": "Massagekudde", "text": "Läs Elins recension av RENPHO massagekudde." },
+    { "href": "/halsa/massagepistol-eller-spikmatta", "label": "Jämförelse", "text": "Massagepistol eller spikmatta? Se den jämförelsen." },
+    { "href": "/halsa", "label": "Hälsa", "text": "Se alla Elins val för återhämtning." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["beurer-varmedyna", "renpho-massagekudde"],
+  "shortTitle": "Värmedyna eller massagekudde",
+  "description": "Mjuk, avslappnande värme mot aktiv knådning av spända muskler."
+}

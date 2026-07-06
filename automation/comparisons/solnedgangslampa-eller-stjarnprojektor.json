@@ -1,0 +1,65 @@
+{
+  "slug": "solnedgangslampa-eller-stjarnprojektor",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "solnedgangslampaEllerStjarnprojektor",
+  "h1": "Solnedgångslampa eller stjärnprojektor?",
+  "intro": "Solnedgångslampa och stjärnprojektor skapar båda en mysig stämning i rummet, men med olika effekt. En solnedgångslampa kastar ett varmt, gyllene ljus på väggen som en solnedgång, medan en stjärnprojektor fyller taket med rörliga stjärnor och nebulosor för en drömlik känsla.",
+  "badges": ["Stämningsljus", "Solnedgång vs stjärnhimmel", "Mys"],
+  "howToChoose": "Välj en solnedgångslampa om du vill ha ett varmt, gyllene ljus och den där lugna solnedgångskänslan – snyggt för mys, avkoppling och estetiska bilder. Välj en stjärnprojektor om du vill fylla hela taket med stjärnor och färger för en drömlik känsla – populärt i barnrummet, sovrummet eller för fest. De ger olika slags mys.",
+  "verdict": "Det handlar om vilken stämning du vill ha. Solnedgångslampan vinner för ett varmt, stilrent ljus, medan stjärnprojektorn vinner för en lekfull, drömlik stjärnhimmel. Lugnt och stilrent – solnedgång. Drömlikt och lekfullt – stjärnprojektor.",
+  "metaTitle": "Solnedgångslampa eller stjärnprojektor? | Elins val",
+  "metaDescription": "Solnedgångslampa eller stjärnprojektor? Elin jämför varmt solnedgångsljus mot en stjärnhimmel i taket så du väljer rätt stämningsljus.",
+  "picks": [
+    {
+      "exportName": "solnedgangslampaProduct",
+      "path": "/halsa/solnedgangslampa",
+      "badge": "Varmt & stilrent",
+      "headline": "Solnedgångslampa – gyllene ljus på väggen",
+      "shortBody": "Välj solnedgångslampan om du vill ha ett varmt, gyllene ljus och en lugn solnedgångskänsla. Snyggt för mys, avkoppling och estetiska bilder.",
+      "img": "public/products/solnedgangslampa/solnedgangslampa-thumbnail.webp",
+      "brand": "Solnedgångslampa"
+    },
+    {
+      "exportName": "stjarnprojektorProduct",
+      "path": "/halsa/stjarnprojektor",
+      "badge": "Drömlik stjärnhimmel",
+      "headline": "Stjärnprojektor – fyll taket med stjärnor",
+      "shortBody": "Välj stjärnprojektorn om du vill fylla taket med rörliga stjärnor och färger. Drömlikt och lekfullt – populärt i sovrummet, barnrummet eller på fest.",
+      "img": "public/products/stjarnprojektor/stjarnprojektor-thumbnail.webp",
+      "brand": "Stjärnprojektor"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Varmt, gyllene ljus på väggen", "Rörliga stjärnor och färger i taket"],
+    ["Känsla", "Lugn solnedgång", "Drömlik stjärnhimmel"],
+    ["Bäst för", "Mys och stilrena bilder", "Sovrum, barnrum, fest"],
+    ["Rörligt ljus?", "Nej – stilla sken", "Ja – rörliga stjärnor"],
+    ["Färger", "Varma toner", "Flera färger och lägen"],
+    ["Stil", "Stilren och lugn", "Lekfull och effektfull"],
+    ["Elins poäng", "84/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på solnedgångslampa och stjärnprojektor?", "answer": "En solnedgångslampa kastar ett varmt, gyllene ljus på väggen som en solnedgång. En stjärnprojektor fyller taket med rörliga stjärnor och färger för en drömlik känsla. De ger olika slags stämning." },
+    { "question": "Vilken är bäst för sovrummet?", "answer": "Vill du ha ett lugnt, stilrent ljus passar en solnedgångslampa fint. Vill du ha en drömlik stjärnhimmel att somna under är en stjärnprojektor mysigare, särskilt om du gillar rörligt ljus." },
+    { "question": "Vilken är bäst för bilder och video?", "answer": "Solnedgångslampan ger en snygg, varm ljuseffekt på väggen som är populär i estetiska bilder. Stjärnprojektorn ger en mer effektfull, färgstark bakgrund." },
+    { "question": "Passar de i barnrummet?", "answer": "En stjärnprojektor är ofta uppskattad i barnrummet eftersom stjärnorna i taket är lugnande och roliga vid läggdags. En solnedgångslampa passar mer som stämningsljus för äldre." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Läs Elins recension av solnedgångslampan." },
+    { "href": "/halsa/stjarnprojektor", "label": "Stjärnprojektor", "text": "Läs Elins recension av stjärnprojektorn." },
+    { "href": "/halsa/mini-projektor-eller-stjarnprojektor", "label": "Jämförelse", "text": "Mini-projektor eller stjärnprojektor? Se den jämförelsen." },
+    { "href": "/halsa", "label": "Hälsa", "text": "Se alla Elins val för mys och avkoppling." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["solnedgangslampa", "stjarnprojektor"],
+  "shortTitle": "Solnedgångslampa eller stjärnprojektor",
+  "description": "Varmt, stilrent solnedgångsljus mot en drömlik, lekfull stjärnhimmel i taket."
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "satinmossa-eller-sidenorngott",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "satinmossaEllerSidenorngott",
+  "h1": "Satinmössa eller sidenörngott?",
+  "intro": "Satinmössa och sidenörngott skyddar båda håret medan du sover och minskar frissighet och slitage, men på olika sätt. En satinmössa håller ihop håret i en mjuk mössa medan du sover, medan ett sidenörngott låter håret ligga fritt mot en len yta som ger mindre friktion mot hela huvudet.",
+  "badges": ["Hårvård natten", "Samla vs fritt", "Mys"],
+  "howToChoose": "Välj en satinmössa om du vill hålla ihop håret och skydda en frisyr, utsläppt eller uppsatt, medan du sover – smidigt och billigt. Välj ett sidenörngott om du vill ha en len yta som är snäll mot både hår och hud, och gilla att håret ligger fritt. Många använder mössa för att skydda en look och örngott för allround-mjukhet.",
+  "verdict": "Båda minskar frissighet och slitage nattetid. Satinmössan vinner för att hålla ihop och skydda en frisyr, medan sidenörngottet vinner för en len yta som är snäll mot både hår och hud. Skydda en look – mössa. Allround mjukhet – örngott.",
+  "metaTitle": "Satinmössa eller sidenörngott? Skydda håret på natten | Elins val",
+  "metaDescription": "Satinmössa eller sidenörngott? Elin jämför att samla håret mot en len yta så du väljer rätt för mindre frissigt hår och slitage medan du sover.",
+  "picks": [
+    {
+      "exportName": "cantuSatinBonnetProduct",
+      "path": "/skonhet/satinmossa",
+      "badge": "Håller ihop håret",
+      "headline": "Cantu satinmössa – skydda frisyren i sömnen",
+      "shortBody": "Välj satinmössan om du vill hålla ihop håret och skydda en frisyr medan du sover. Den samlar håret i en mjuk mössa och minskar frissighet.",
+      "img": "public/products/cantu-bonnet/cantu-bonnet-thumbnail.webp",
+      "brand": "Satinmössa (Cantu)"
+    },
+    {
+      "exportName": "silkesorngottProduct",
+      "path": "/skonhet/silkesorngott",
+      "badge": "Len yta",
+      "headline": "Sidenörngott – snällt mot hår och hud",
+      "shortBody": "Välj sidenörngottet om du vill ha en len yta som är snäll mot både hår och hud. Håret ligger fritt mot silket och glider utan att slita.",
+      "img": "public/products/silkesorngott/silkesorngott-thumbnail.webp",
+      "brand": "Sidenörngott"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Samlar håret i mjuk mössa", "Len yta; håret ligger fritt"],
+    ["Bäst för", "Skydda en frisyr", "Allround mjukhet för hår och hud"],
+    ["Snällt mot huden?", "Skyddar mest håret", "Ja – len mot ansiktet"],
+    ["Håller frisyr", "Ja", "Delvis"],
+    ["Passar rörlig sömn", "Kan glida av", "Ligger kvar på kudden"],
+    ["Pris", "Budget", "Mellan"],
+    ["Elins poäng", "84/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på satinmössa och sidenörngott?", "answer": "En satinmössa samlar håret i en mjuk mössa och skyddar en frisyr medan du sover. Ett sidenörngott låter håret ligga fritt mot en len yta, vilket ger mindre friktion mot både hår och hud." },
+    { "question": "Vilken minskar frissighet bäst?", "answer": "Båda minskar friktion och därmed frissighet jämfört med en vanlig bomullskudde. Mössan håller ihop håret, medan örngottet ger en len yta oavsett hur du rör dig i sömnen." },
+    { "question": "Vilken är bäst för huden?", "answer": "Ett sidenörngott är snällt mot ansiktshuden eftersom huden glider mot den lena ytan istället för att gnuggas mot bomull. Satinmössan skyddar främst håret." },
+    { "question": "Vilken passar om jag rör mig mycket i sömnen?", "answer": "Ett sidenörngott ligger kvar på kudden oavsett hur du rör dig, medan en mössa kan glida av. Vill du vara säker på skydd hela natten är örngottet ett tryggt val." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/satinmossa", "label": "Satinmössa", "text": "Läs Elins recension av Cantu satinmössa." },
+    { "href": "/skonhet/silkesorngott", "label": "Sidenörngott", "text": "Läs Elins recension av sidenörngottet." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hår- och hudvårdsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["cantu-satin-bonnet", "silkesorngott-mullbarssilke"],
+  "shortTitle": "Satinmössa eller sidenörngott",
+  "description": "Samla och skydda frisyren med en satinmössa mot en len sidenyta som är snäll mot hår och hud."
+}

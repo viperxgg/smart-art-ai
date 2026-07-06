@@ -1,0 +1,64 @@
+{
+  "slug": "wake-up-light-eller-solnedgangslampa",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "wakeUpLightEllerSolnedgangslampa",
+  "h1": "Wake-up light eller solnedgångslampa?",
+  "intro": "Wake-up light och solnedgångslampa jobbar båda med ljus och stämning, men vid motsatta tider på dygnet. En wake-up light simulerar en gryning som gradvis ljusnar för att väcka dig mjukare på morgonen, medan en solnedgångslampa kastar ett varmt, färgat ljus för mysig stämning på kvällen.",
+  "badges": ["Ljus & stämning", "Morgon vs kväll", "Sömn & mys"],
+  "howToChoose": "Välj en wake-up light om du har svårt att vakna i mörka morgnar och vill väckas mjukare av ett ljus som ljusnar gradvis. Välj en solnedgångslampa om du vill ha en mysig, varm stämning på kvällen och gilla den där gyllene ljuseffekten på väggen. De löser olika saker – väckning respektive kvällsmys.",
+  "verdict": "De hör hemma i var sin ände av dagen. Wake-up light vinner för mjukare morgnar och mörka vintrar, medan solnedgångslampan vinner för kvällsmys och stämning. Svårt att vakna – wake-up light. Vill ha mys – solnedgångslampa.",
+  "metaTitle": "Wake-up light eller solnedgångslampa? | Elins val",
+  "metaDescription": "Wake-up light eller solnedgångslampa? Elin jämför en mjukare väckning på morgonen mot varmt kvällsmys så du väljer rätt ljus för ditt behov.",
+  "picks": [
+    {
+      "exportName": "philipsWakeUpLightProduct",
+      "path": "/halsa/wake-up-light",
+      "badge": "Mjukare morgnar",
+      "headline": "Philips wake-up light – vakna med en gryning",
+      "shortBody": "Välj wake-up light om du har svårt att vakna i mörkret. Ljuset ljusnar gradvis som en gryning och väcker dig mjukare, skönt på mörka vintermornar.",
+      "img": "public/products/philips-wakeup/wakeup-thumbnail.webp",
+      "brand": "Wake-up light (Philips)"
+    },
+    {
+      "exportName": "solnedgangslampaProduct",
+      "path": "/halsa/solnedgangslampa",
+      "badge": "Kvällsmys",
+      "headline": "Solnedgångslampa – varm, gyllene stämning",
+      "shortBody": "Välj solnedgångslampan om du vill ha mysig kvällsstämning. Den kastar ett varmt, färgat ljus på väggen – populärt för TikTok-estetik och avkoppling.",
+      "img": "public/products/solnedgangslampa/solnedgangslampa-thumbnail.webp",
+      "brand": "Solnedgångslampa"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Gryning som ljusnar; väcker mjukt", "Varmt, färgat ljus; kvällsmys"],
+    ["Tid på dygnet", "Morgon", "Kväll"],
+    ["Syfte", "Vakna lättare", "Stämning och mys"],
+    ["Bäst för", "Mörka vintermornar", "Avkoppling och estetik"],
+    ["Effekt", "Simulerad soluppgång", "Solnedgångsljus på väggen"],
+    ["Väcker dig?", "Ja", "Nej – för mys"],
+    ["Elins poäng", "86/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på wake-up light och solnedgångslampa?", "answer": "En wake-up light simulerar en gryning som ljusnar gradvis för att väcka dig mjukare på morgonen. En solnedgångslampa kastar ett varmt, färgat ljus för mysig stämning på kvällen – de används vid motsatta tider." },
+    { "question": "Hjälper en wake-up light mot mörka morgnar?", "answer": "Många upplever att det är skönare att vakna till ett ljus som ljusnar gradvis, särskilt under mörka vintermornar, jämfört med att slitas upp av en vanlig väckarklocka i beckmörker." },
+    { "question": "Vad använder man en solnedgångslampa till?", "answer": "Den skapar en varm, gyllene stämning på kvällen och är populär för mys, avkoppling och som effektfull bakgrund i bilder och videor. Den väcker dig inte utan är till för stämning." },
+    { "question": "Kan jag ha båda?", "answer": "Ja, de kompletterar varandra – wake-up light för en mjukare morgon och solnedgångslampa för mys på kvällen. Tillsammans ramar de in dagen med skönt ljus." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/wake-up-light", "label": "Wake-up light", "text": "Läs Elins recension av Philips wake-up light." },
+    { "href": "/halsa/solnedgangslampa", "label": "Solnedgångslampa", "text": "Läs Elins recension av solnedgångslampan." },
+    { "href": "/halsa", "label": "Hälsa", "text": "Se alla Elins val för sömn och avkoppling." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["philips-wake-up-light", "solnedgangslampa"],
+  "shortTitle": "Wake-up light eller solnedgångslampa",
+  "description": "En mjukare väckning på morgonen mot varmt, gyllene kvällsmys."
+}

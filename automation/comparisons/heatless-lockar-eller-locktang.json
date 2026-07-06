@@ -1,0 +1,65 @@
+{
+  "slug": "heatless-lockar-eller-locktang",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "heatlessLockarEllerLocktang",
+  "h1": "Heatless lockar eller locktång?",
+  "intro": "Heatless lockar och locktång ger båda fina lockar, men på motsatt sätt. Ett heatless curl-set formar lockarna helt utan värme – du sätter upp håret och sover eller väntar – medan en locktång ger snygga lockar på minuter med värme, men sliter mer på håret.",
+  "badges": ["Lockar", "Utan värme vs snabbt", "Ung"],
+  "howToChoose": "Välj heatless lockar om du vill vara snäll mot håret och gilla att slippa värme – perfekt att sätta upp på kvällen och vakna med mjuka vågor. Välj en locktång om du vill ha lockar snabbt när det är bråttom och gilla att kunna styra formen exakt. Många använder heatless i vardagen och locktången när det ska gå fort.",
+  "verdict": "Det handlar om håret mot tiden. Heatless lockar vinner för att de är skonsamma och kräver ingen värme, medan locktången vinner för snabbhet och kontroll. Vill du skona håret – heatless. Vill du ha lockar på minuter – locktång.",
+  "metaTitle": "Heatless lockar eller locktång? Skonsamt eller snabbt | Elins val",
+  "metaDescription": "Heatless lockar eller locktång? Elin jämför lockar utan värme mot snabba lockar med värme så du väljer rätt för håret och tempot.",
+  "picks": [
+    {
+      "exportName": "kitschHeatlessCurlsProduct",
+      "path": "/skonhet/heatless-curls",
+      "badge": "Snällt mot håret",
+      "headline": "Kitsch heatless curls – lockar utan värme",
+      "shortBody": "Välj heatless lockar om du vill skona håret. Du sätter upp håret på kvällen och vaknar med mjuka vågor – helt utan värme och slitage.",
+      "img": "public/products/kitsch-heatless/kitsch-heatless-thumbnail.webp",
+      "brand": "Heatless curls (Kitsch)"
+    },
+    {
+      "exportName": "babylissC325eProduct",
+      "path": "/skonhet/locktang/babyliss-c325e",
+      "badge": "Snabbt & exakt",
+      "headline": "BaByliss locktång – lockar på minuter",
+      "shortBody": "Välj locktången om du vill ha lockar snabbt. Den formar snygga lockar på minuter och låter dig styra formen exakt när det är bråttom.",
+      "img": "public/products/curling-irons/babyliss-c325e-thumbnail.webp",
+      "brand": "Locktång (BaByliss)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Formar utan värme; skonsamt", "Formar med värme; snabbt och exakt"],
+    ["Snällt mot håret", "Ja – ingen värme", "Mer slitage av värmen"],
+    ["Tid", "Sitter i timmar/över natten", "Klart på minuter"],
+    ["Kontroll över formen", "Mjuka vågor", "Exakt, olika lockstorlekar"],
+    ["Bäst för", "Vardag och skonsamhet", "När det ska gå fort"],
+    ["Nybörjarvänligt", "Ja", "Bra – lite övning"],
+    ["Elins poäng", "84/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på heatless lockar och locktång?", "answer": "Heatless lockar formar håret helt utan värme – du sätter upp håret och väntar eller sover. En locktång formar lockar snabbt med värme, men sliter mer på håret." },
+    { "question": "Vilken är skonsammast för håret?", "answer": "Heatless lockar är klart skonsammast eftersom de inte använder någon värme. En locktång ger snabbare resultat men värmen kan torka ut och slita på håret över tid – använd gärna värmeskydd." },
+    { "question": "Hur länge behöver heatless lockar sitta?", "answer": "Ofta några timmar, och många sätter upp dem på kvällen och sover med dem för att vakna med lockar. Ju längre de sitter på lätt fuktigt hår, desto tydligare blir vågorna." },
+    { "question": "Vilken ger snabbast resultat?", "answer": "Locktången, som formar lockar på minuter. Heatless lockar tar längre tid men är skonsammare. Många använder heatless i vardagen och locktången när det ska gå fort." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/heatless-curls", "label": "Heatless curls", "text": "Läs Elins recension av Kitsch heatless curls." },
+    { "href": "/skonhet/locktang/babyliss-c325e", "label": "Locktång", "text": "Läs Elins recension av BaByliss locktång." },
+    { "href": "/skonhet/platta-eller-locka", "label": "Jämförelse", "text": "Platta eller locka? Se den jämförelsen." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hårstylingval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["kitsch-heatless-curls", "babyliss-c325e-locktang"],
+  "shortTitle": "Heatless lockar eller locktång",
+  "description": "Skonsamma lockar utan värme mot snabba, exakta lockar med locktång."
+}

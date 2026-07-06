@@ -1,0 +1,64 @@
+{
+  "slug": "tangle-teezer-eller-harborste",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "tangleTeezerEllerHarborste",
+  "h1": "Tangle Teezer eller vanlig hårborste?",
+  "intro": "Tangle Teezer och en vanlig detangling-borste reder båda ut tovor, men känns lite olika. Tangle Teezer har korta, flexibla borst i olika längder som glider genom trassel, medan en Wet Brush har mjuka, fjädrande borst som är extra snälla mot blött hår.",
+  "badges": ["Håret", "Reder ut tovor", "Vardag"],
+  "howToChoose": "Välj en Tangle Teezer om du vill ha en kompakt borste som effektivt glider genom tovor på både torrt och fuktigt hår. Välj en Wet Brush om du främst borstar blött hår och vill ha extra mjuka, fjädrande borst som ger mindre drag. Båda är snällare mot håret än en vanlig hård borste.",
+  "verdict": "Båda är sköna uppgraderingar från en hård borste. Tangle Teezer vinner på den kompakta formen och hur den glider genom trassel, medan Wet Brush vinner för blött hår med sina mjuka, fjädrande borst. Blött hår ofta – Wet Brush. Allround kompakt – Tangle Teezer.",
+  "metaTitle": "Tangle Teezer eller vanlig hårborste? | Elins val",
+  "metaDescription": "Tangle Teezer eller Wet Brush? Elin jämför två skonsamma detangling-borstar så du väljer rätt för att reda ut tovor utan att slita på håret.",
+  "picks": [
+    {
+      "exportName": "tangleTeezerOriginalProduct",
+      "path": "/skonhet/tangle-teezer",
+      "badge": "Glider genom tovor",
+      "headline": "Tangle Teezer – kompakt och effektiv",
+      "shortBody": "Välj Tangle Teezer om du vill ha en kompakt borste som glider genom trassel på både torrt och fuktigt hår. De korta borsten i olika längder reder ut effektivt.",
+      "img": "public/products/tangle-teezer-original/tangle-teezer-thumbnail.webp",
+      "brand": "Tangle Teezer"
+    },
+    {
+      "exportName": "wetBrushOriginalProduct",
+      "path": "/skonhet/wet-brush",
+      "badge": "Snällast mot blött hår",
+      "headline": "Wet Brush – mjuk mot blött hår",
+      "shortBody": "Välj Wet Brush om du främst borstar blött hår. De mjuka, fjädrande borsten ger mindre drag och är extra snälla när håret är som skörast.",
+      "img": "public/products/wet-brush/wet-brush-thumbnail.webp",
+      "brand": "Wet Brush"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Korta borst i olika längder; glider", "Mjuka, fjädrande borst; snällt mot blött"],
+    ["Bäst för", "Allround, torrt och fuktigt hår", "Blött hår och känslig hårbotten"],
+    ["Form", "Kompakt, greppvänlig", "Klassisk borstform"],
+    ["Drag i håret", "Litet", "Väldigt litet på blött hår"],
+    ["Ta med i väskan", "Ja – liten", "Något större"],
+    ["Snällare än hård borste", "Ja", "Ja"],
+    ["Elins poäng", "86/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på Tangle Teezer och en vanlig borste?", "answer": "Tangle Teezer har korta, flexibla borst i olika längder som glider genom tovor med mindre drag än en hård, vanlig borste. Det gör den skonsammare mot håret när du reder ut trassel." },
+    { "question": "Vilken är bäst för blött hår?", "answer": "En Wet Brush är särskilt bra på blött hår tack vare de mjuka, fjädrande borsten som ger mindre drag när håret är som skörast. Tangle Teezer fungerar också på fuktigt hår." },
+    { "question": "Är de snällare mot håret?", "answer": "Ja, båda är snällare än en hård borste eftersom borsten ger efter och glider genom tovor istället för att dra. Börja alltid borsta från topparna och jobba dig uppåt." },
+    { "question": "Vilken passar i necessären?", "answer": "Tangle Teezer är kompakt och passar fint i necessären eller väskan. Wet Brush är något större men fortfarande smidig att ta med." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/tangle-teezer", "label": "Tangle Teezer", "text": "Läs Elins recension av Tangle Teezer." },
+    { "href": "/skonhet/wet-brush", "label": "Wet Brush", "text": "Läs Elins recension av Wet Brush." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hårval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["tangle-teezer-original", "wet-brush-original"],
+  "shortTitle": "Tangle Teezer eller hårborste",
+  "description": "En kompakt borste som glider genom tovor mot en Wet Brush som är extra snäll mot blött hår."
+}
