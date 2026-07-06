@@ -1,0 +1,65 @@
+{
+  "slug": "press-on-eller-gelnaglar",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "pressOnEllerGelnaglar",
+  "h1": "Press-on naglar eller gelnaglar hemma?",
+  "intro": "Press-on naglar och gelnaglar hemma ger båda en fin manikyr utan salong, men på olika sätt. Press-on naglar trycker du bara fast på några minuter och tar av när du vill, medan gelnaglar med UV/LED-lampa håller i veckor men tar längre tid att göra.",
+  "badges": ["Naglar hemma", "Snabbt vs hållbart", "Ung"],
+  "howToChoose": "Välj press-on naglar om du vill ha en snygg manikyr på några minuter inför en kväll eller helg, och gilla att kunna byta färg ofta. Välj gelnaglar hemma om du vill att manikyren ska hålla i veckor och inte har något emot att lägga lite mer tid med baslack, färg och lampa.",
+  "verdict": "Det handlar om tid mot hållbarhet. Press-on vinner för snabbhet och flexibilitet – perfekt när du vill fixa naglarna sista minuten. Gelnaglar hemma vinner om du vill ha en manikyr som håller i veckor och är beredd att lägga tiden.",
+  "metaTitle": "Press-on naglar eller gelnaglar hemma? | Elins val",
+  "metaDescription": "Press-on naglar eller gelnaglar hemma? Elin jämför snabb manikyr på minuter mot hållbara gelnaglar i veckor så du väljer rätt för dina naglar.",
+  "picks": [
+    {
+      "exportName": "pressOnNaglarProduct",
+      "path": "/skonhet/press-on-naglar",
+      "badge": "Snabbast",
+      "headline": "Press-on naglar – fin manikyr på minuter",
+      "shortBody": "Välj press-on om du vill ha snygga naglar snabbt. Du trycker fast dem på några minuter, byter färg när du vill och tar av dem utan lampa.",
+      "img": "public/products/press-on-naglar/press-on-thumbnail.webp",
+      "brand": "Press-on naglar"
+    },
+    {
+      "exportName": "beurerMp48LampProduct",
+      "path": "/skonhet/nagellampa",
+      "badge": "Håller i veckor",
+      "headline": "Gelnaglar hemma med Beurer MP 48 – håller längre",
+      "shortBody": "Välj gelnaglar hemma om du vill att manikyren ska hålla i veckor. Med UV/LED-lampan härdar du gellacket för ett salongsliknande, hållbart resultat.",
+      "img": "public/products/beurer-mp48/lampa-thumbnail.webp",
+      "brand": "Nagellampa (Beurer)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Tryck fast på minuter; byt ofta", "Härdas i lampa; håller i veckor"],
+    ["Tid att göra", "Några minuter", "Längre – baslack, färg, lampa"],
+    ["Håller", "En dag till någon vecka", "Ofta 2–3 veckor"],
+    ["Byta look", "Enkelt – ta av och byt", "Kräver borttagning"],
+    ["Utrustning", "Ingen lampa behövs", "UV/LED-lampa + gellack"],
+    ["Bäst för", "Snabbt inför kväll/helg", "Hållbar vardagsmanikyr"],
+    ["Elins poäng", "84/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad håller längst – press-on eller gelnaglar?", "answer": "Gelnaglar hemma håller längst, ofta två till tre veckor eftersom gellacket härdas i lampa. Press-on håller från en dag upp till någon vecka beroende på lim och hur du använder händerna." },
+    { "question": "Vilket är enklast och snabbast?", "answer": "Press-on naglar är klart snabbast – du trycker bara fast dem på några minuter utan lampa. Gelnaglar tar längre tid eftersom du bygger upp med baslack, färg och härdning." },
+    { "question": "Skadar gelnaglar naglarna?", "answer": "Naglarna mår bäst om du tar bort gellacket varsamt genom att blöta upp det istället för att peta bort det, och ger naglarna vilopauser mellan omgångar. Press-on är skonsammare eftersom de tas av lättare." },
+    { "question": "Vilket passar bäst för nybörjare?", "answer": "Press-on är lättast att lyckas med för nybörjare eftersom det inte kräver teknik eller lampa. Gelnaglar hemma går bra att lära sig men kräver lite övning för ett jämnt resultat." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/press-on-naglar", "label": "Press-on", "text": "Läs Elins recension av press-on naglar." },
+    { "href": "/skonhet/nagellampa", "label": "Nagellampa", "text": "Läs Elins recension av Beurer MP 48 nagellampa." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins nagelval." },
+    { "href": "/sommar", "label": "Sommar", "text": "Fler snygga sommarfixar från Elin." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["press-on-naglar", "beurer-mp48-nagellampa"],
+  "shortTitle": "Press-on eller gelnaglar",
+  "description": "Snabb manikyr på minuter mot hållbara gelnaglar som sitter i veckor."
+}

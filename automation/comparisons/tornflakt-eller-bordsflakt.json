@@ -1,0 +1,65 @@
+{
+  "slug": "tornflakt-eller-bordsflakt",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "tornflaktEllerBordsflakt",
+  "h1": "Tornfläkt eller bordsfläkt?",
+  "intro": "Tornfläkt och bordsfläkt svalkar båda under varma dagar, men på olika sätt. En tornfläkt är hög och smal, oscillerar och sprider luften brett över rummet, medan en bordsfläkt är liten, riktad och ger sval luft precis där du sitter.",
+  "badges": ["Svalka", "Hela rummet vs punktkyla", "Sommar"],
+  "howToChoose": "Välj en tornfläkt om du vill svalka ett helt sovrum eller vardagsrum och gillar att luften sprids brett, ofta med tystare gång. Välj en bordsfläkt om du mest vill ha sval luft riktad mot dig själv vid skrivbordet eller sängen, i ett litet format som är lätt att flytta.",
+  "verdict": "Det handlar om hur du vill bli sval. Tornfläkten vinner för att svalka hela rummet och för en snyggare, mer diskret placering, medan bordsfläkten är smidigast och billigast för riktad svalka precis där du sitter.",
+  "metaTitle": "Tornfläkt eller bordsfläkt? Vilken fläkt ska du välja | Elins val",
+  "metaDescription": "Tornfläkt eller bordsfläkt? Elin jämför svalka för hela rummet mot riktad punktkyla så du väljer rätt fläkt för sovrummet eller skrivbordet.",
+  "picks": [
+    {
+      "exportName": "mideaFz10FlaktProduct",
+      "path": "/halsa/flakt/midea-fz10",
+      "badge": "Hela rummet",
+      "headline": "Midea FZ10 tornfläkt – sprider svalkan brett",
+      "shortBody": "Välj tornfläkten om du vill svalka hela rummet. Den oscillerar och sprider luften brett, och den höga, smala formen tar liten golvyta.",
+      "img": "public/products/flakt-midea/midea-fz10-thumbnail.webp",
+      "brand": "Tornfläkt (Midea)"
+    },
+    {
+      "exportName": "xiaomiStandingFanProduct",
+      "path": "/halsa/bordsflakt",
+      "badge": "Riktad svalka",
+      "headline": "Xiaomi bordsfläkt – sval luft där du sitter",
+      "shortBody": "Välj bordsfläkten om du mest vill ha sval luft riktad mot dig själv. Den är liten, lätt att flytta och ger snabb punktkyla vid skrivbordet.",
+      "img": "public/products/xiaomi-fan/xiaomi-fan-thumbnail.webp",
+      "brand": "Bordsfläkt (Xiaomi)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Hög och smal; oscillerar; hela rummet", "Liten och riktad; sval luft där du sitter"],
+    ["Bäst för", "Svalka sovrum och vardagsrum", "Punktkyla vid skrivbord och säng"],
+    ["Luftspridning", "Brett, oscillerande", "Riktad mot dig"],
+    ["Placering", "Golv, tar liten yta", "Bord, hylla – lätt att flytta"],
+    ["Ljud", "Ofta tystare", "Beror på modell och läge"],
+    ["Prisläge", "Mellan", "Budget"],
+    ["Elins poäng", "86/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på tornfläkt och bordsfläkt?", "answer": "En tornfläkt är hög och smal, oscillerar och sprider luften brett för att svalka ett helt rum. En bordsfläkt är liten och ger en riktad luftström precis där du sitter, och är lätt att flytta." },
+    { "question": "Vilken svalkar hela sovrummet bäst?", "answer": "Tornfläkten, eftersom den oscillerar och sprider luften brett över rummet. En bordsfläkt svalkar mest dig själv och når inte hela rummet på samma sätt." },
+    { "question": "Vilken är tystast?", "answer": "Tornfläktar är ofta byggda för tystare gång, vilket gör dem populära i sovrummet. Ljudnivån varierar dock mellan modeller och hur högt du kör fläkten." },
+    { "question": "Vilken tar minst plats?", "answer": "En bordsfläkt tar minst plats och får plats på skrivbordet eller en hylla. En tornfläkt står på golvet men tar liten golvyta tack vare den smala formen." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/flakt/midea-fz10", "label": "Tornfläkt", "text": "Läs Elins recension av Midea FZ10 tornfläkt." },
+    { "href": "/halsa/bordsflakt", "label": "Bordsfläkt", "text": "Läs Elins recension av Xiaomi bordsfläkt." },
+    { "href": "/halsa/dreo-cruiser-pro-eller-honeywell-ht900e", "label": "Fläkt-jämförelse", "text": "Dreo eller Honeywell? Se den jämförelsen." },
+    { "href": "/halsa/flakt", "label": "Fläkt", "text": "Se alla Elins fläktar för sommaren." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["midea-fz10-tornflakt", "xiaomi-bordsflakt"],
+  "shortTitle": "Tornfläkt eller bordsfläkt",
+  "description": "Bred svalka för hela rummet mot riktad punktkyla precis där du sitter."
+}

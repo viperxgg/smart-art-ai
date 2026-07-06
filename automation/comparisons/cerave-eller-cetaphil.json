@@ -1,0 +1,65 @@
+{
+  "slug": "cerave-eller-cetaphil",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "ceraveEllerCetaphil",
+  "h1": "CeraVe eller Cetaphil?",
+  "intro": "CeraVe och Cetaphil är två av de mest köpta milda ansiktsrengöringarna – båda skonsamma nog för daglig användning, men med lite olika känsla. CeraVe innehåller ceramider och hyaluronsyra för en mer återfuktande rengöring, medan Cetaphil är extra mild och basic för känslig hud.",
+  "badges": ["Mild rengöring", "Känslig hud", "Vardag"],
+  "howToChoose": "Välj CeraVe om du har torr eller normal hud och vill att rengöringen också ska återfukta, tack vare ceramider och hyaluronsyra. Välj Cetaphil om du har känslig eller lättirriterad hud och vill ha en så mild och avskalad rengöring som möjligt. Båda passar för daglig användning morgon och kväll.",
+  "verdict": "Två trygga val för olika hud. CeraVe får ett litet försprång för torr hud tack vare de återfuktande ceramiderna, medan Cetaphil är förstahandsvalet för dig med känslig, reaktiv hud som vill hålla det så enkelt som möjligt.",
+  "metaTitle": "CeraVe eller Cetaphil? Vilken rengöring passar dig | Elins val",
+  "metaDescription": "CeraVe eller Cetaphil? Elin jämför de två mest köpta milda ansiktsrengöringarna så du väljer rätt för torr, normal eller känslig hud.",
+  "picks": [
+    {
+      "exportName": "ceraveHydratingCleanserProduct",
+      "path": "/skonhet/cerave-rengoring",
+      "badge": "Återfuktande",
+      "headline": "CeraVe Hydrating Cleanser – för torr hud",
+      "shortBody": "Välj CeraVe om du vill att rengöringen ska återfukta. Ceramider och hyaluronsyra gör den skön för torr och normal hud som lätt känns stram.",
+      "img": "public/products/cerave-hydrating-cleanser/cerave-thumbnail.webp",
+      "brand": "CeraVe"
+    },
+    {
+      "exportName": "cetaphilGentleCleanserProduct",
+      "path": "/skonhet/cetaphil-rengoring",
+      "badge": "Extra mild",
+      "headline": "Cetaphil Gentle Cleanser – för känslig hud",
+      "shortBody": "Välj Cetaphil om du har känslig eller lättirriterad hud. Den är avskalad och mild, gjord för att rengöra utan att reta huden.",
+      "img": "public/products/cetaphil-cleanser/cetaphil-thumbnail.webp",
+      "brand": "Cetaphil"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Ceramider + hyaluronsyra; återfuktar", "Extra mild och avskalad; för känslig hud"],
+    ["Bäst för", "Torr och normal hud", "Känslig, lättirriterad hud"],
+    ["Känsla", "Krämig, huden känns mjuk efteråt", "Väldigt mild, enkel och neutral"],
+    ["Skummar", "Nej – len gel/kräm", "Nej – mild lotion-rengöring"],
+    ["Använd morgon/kväll", "Ja", "Ja"],
+    ["Doft", "Parfymfri", "Mild/parfymfri"],
+    ["Elins poäng", "88/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på CeraVe och Cetaphil?", "answer": "CeraVe rengöring innehåller ceramider och hyaluronsyra som hjälper huden att kännas återfuktad, vilket passar torr hud. Cetaphil är extra mild och avskalad, vilket gör den till ett tryggt val för känslig hud som lätt blir irriterad." },
+    { "question": "Vilken är bäst för torr hud?", "answer": "CeraVe är oftast det bättre valet för torr hud eftersom ceramiderna hjälper hudbarriären och den känns mer återfuktande. Cetaphil rengör milt men är mer neutral." },
+    { "question": "Vilken är bäst för känslig hud?", "answer": "Cetaphil brukar rekommenderas för känslig, reaktiv hud tack vare den milda, avskalade formeln. CeraVe är också skonsam men innehåller fler aktiva ingredienser." },
+    { "question": "Kan jag använda dem morgon och kväll?", "answer": "Ja, båda är gjorda för daglig användning morgon och kväll. Skölj med ljummet vatten och klappa huden torr efteråt." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/cerave-rengoring", "label": "CeraVe", "text": "Läs Elins recension av CeraVe Hydrating Cleanser." },
+    { "href": "/skonhet/cetaphil-rengoring", "label": "Cetaphil", "text": "Läs Elins recension av Cetaphil Gentle Cleanser." },
+    { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra", "text": "Nästa steg: återfuktande serum." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hudvårdsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["cerave-hydrating-cleanser", "cetaphil-gentle-cleanser"],
+  "shortTitle": "CeraVe eller Cetaphil",
+  "description": "Återfuktande ceramid-rengöring för torr hud mot extra mild rengöring för känslig hud."
+}

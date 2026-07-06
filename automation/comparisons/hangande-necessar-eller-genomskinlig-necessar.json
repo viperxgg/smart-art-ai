@@ -1,0 +1,65 @@
+{
+  "slug": "hangande-necessar-eller-genomskinlig-necessar",
+  "routePrefix": "sommar/resa",
+  "category": "resa",
+  "categoryLabel": "Resa",
+  "backHref": "/sommar/resa",
+  "backLabel": "Tillbaka till Elins reseval",
+  "exportBaseName": "hangandeEllerGenomskinligNecessar",
+  "h1": "Hängande necessär eller genomskinlig necessär?",
+  "intro": "Hängande och genomskinlig necessär håller båda ordning på toalettsakerna på resan, men löser olika saker. Den hängande necessären hänger du på en krok och når allt utan att rota, medan den genomskinliga necessären låter dig se innehållet direkt – smidigt i säkerhetskontrollen.",
+  "badges": ["Ordning på resan", "Hänga vs se igenom", "Resa"],
+  "howToChoose": "Välj en hängande necessär om du vill ha maximal ordning på hotellbadrummet – häng upp den och nå allt utan att lägga ut sakerna på en trång yta. Välj en genomskinlig necessär om du vill se innehållet direkt och ha en smidig necessär att plocka fram i säkerhetskontrollen. Många reser med en hängande necessär för det mesta och en liten genomskinlig för vätskorna.",
+  "verdict": "De kompletterar varandra. Den hängande necessären vinner på ordning och överblick på plats, medan den genomskinliga necessären är smartast för säkerhetskontrollen och för att snabbt hitta smått. Kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
+  "metaTitle": "Hängande eller genomskinlig necessär? | Elins val",
+  "metaDescription": "Hängande necessär eller genomskinlig necessär? Elin jämför ordning på hotellbadrummet mot smidighet i säkerhetskontrollen så du packar necessären smart.",
+  "picks": [
+    {
+      "exportName": "narweyHangandeNecessarProduct",
+      "path": "/sommar/resa/hangande-necessar",
+      "badge": "Mest ordning",
+      "headline": "Narwey hängande necessär – häng och nå allt",
+      "shortBody": "Välj den hängande necessären om du vill ha ordning på hotellbadrummet. Häng den på en krok och nå toalettsaker och smått utan att rota i väskan.",
+      "img": "public/products/narwey-hangande-necessar/necessar-thumbnail.webp",
+      "brand": "Hängande (Narwey)"
+    },
+    {
+      "exportName": "traxentaNecessarProduct",
+      "path": "/sommar/resa/necessar",
+      "badge": "Smidig i kontrollen",
+      "headline": "Traxenta genomskinlig necessär – se innehållet direkt",
+      "shortBody": "Välj den genomskinliga necessären om du vill se innehållet direkt. Den är smidig att plocka fram i säkerhetskontrollen och lätt att hålla ordning i.",
+      "img": "public/products/traxenta-necessar/necessar-thumbnail.webp",
+      "brand": "Genomskinlig (Traxenta)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Hängs på krok; nå allt utan att rota", "Genomskinlig; se innehållet direkt"],
+    ["Bäst för", "Ordning på hotellbadrummet", "Säkerhetskontroll och smått"],
+    ["Storlek", "Rymlig, blir stor fullpackad", "Mindre, för smått"],
+    ["Ser du innehållet?", "Delvis, via fack", "Ja – helt genomskinlig"],
+    ["Antal", "En necessär", "Set med flera storlekar"],
+    ["Bäst tillsammans", "Ja – för det mesta", "Ja – för vätskorna"],
+    ["Elins poäng", "88/100", "85/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på en hängande och en genomskinlig necessär?", "answer": "En hängande necessär hänger du på en krok så du når allt utan att rota, vilket är skönt på trånga hotellbadrum. En genomskinlig necessär låter dig se innehållet direkt, vilket är smidigt i säkerhetskontrollen." },
+    { "question": "Vilken är bäst för flyget?", "answer": "En liten genomskinlig necessär är smidigast i säkerhetskontrollen eftersom personalen och du själv ser innehållet. Kolla alltid flygplatsens aktuella regler för vätskor i handbagage, eftersom de varierar och kan ändras." },
+    { "question": "Kan jag ha båda?", "answer": "Ja, många reser med en hängande necessär för det mesta och en liten genomskinlig för vätskorna som ska genom säkerhetskontrollen. Då får du både ordning på plats och smidighet i kontrollen." },
+    { "question": "Vilken rymmer mest?", "answer": "Den hängande necessären är rymligast och passar för en hel resas toalettsaker, men blir ganska stor fullpackad. Den genomskinliga är mindre och gjord för att organisera smått." }
+  ],
+  "relatedLinks": [
+    { "href": "/sommar/resa/hangande-necessar", "label": "Hängande", "text": "Läs Elins recension av Narwey hängande necessär." },
+    { "href": "/sommar/resa/necessar", "label": "Genomskinlig", "text": "Läs Elins recension av Traxenta genomskinlig necessär." },
+    { "href": "/sommar/resa/reseflaskor", "label": "Reseflaskor", "text": "Fyll egna produkter i läcksäkra silikonflaskor." },
+    { "href": "/sommar/resa", "label": "Resa", "text": "Se alla Elins smarta reseprylar." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["narwey-hangande-necessar", "traxenta-necessar"],
+  "shortTitle": "Hängande eller genomskinlig necessär",
+  "description": "Häng-och-nå-allt-ordning på hotellbadrummet mot en genomskinlig necessär som är smidig i säkerhetskontrollen."
+}

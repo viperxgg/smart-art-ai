@@ -1,0 +1,65 @@
+{
+  "slug": "epilator-eller-rakhyvel",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "epilatorEllerRakhyvel",
+  "h1": "Epilator eller rakhyvel?",
+  "intro": "Epilator och rakhyvel tar båda bort hår, men resultatet håller olika länge. En epilator drar upp håret med roten så du är slät i veckor, medan en rakhyvel klipper håret vid ytan – snabbt och smärtfritt, men växer tillbaka snabbare.",
+  "badges": ["Hårborttagning", "Slät längre vs smärtfritt", "Vardag"],
+  "howToChoose": "Välj en epilator om du vill vara slät länge och inte har något emot lite känsla i början – resultatet håller i veckor och håret växer tillbaka finare med tiden. Välj en rakhyvel om du vill ha en snabb, smärtfri lösning som funkar precis innan du ska ut, även om du behöver göra om det oftare.",
+  "verdict": "Det beror på vad du prioriterar. Epilatorn vinner om du vill vara slät i veckor och slippa raka ofta, medan rakhyveln är oslagbar för snabb, smärtfri hårborttagning här och nu. Många använder rakhyvel i vardagen och epilator inför längre slätt.",
+  "metaTitle": "Epilator eller rakhyvel? Vilken ska du välja | Elins val",
+  "metaDescription": "Epilator eller rakhyvel? Elin jämför slät hud i veckor mot snabb, smärtfri rakning så du väljer rätt metod för hårborttagning.",
+  "picks": [
+    {
+      "exportName": "braunSilkEpil9Product",
+      "path": "/skonhet/epilator/braun-silk-epil-9",
+      "badge": "Slät i veckor",
+      "headline": "Braun Silk-épil 9 – slät längre",
+      "shortBody": "Välj epilatorn om du vill vara slät i veckor. Den drar upp håret med roten, och med tiden brukar håret växa tillbaka finare och glesare.",
+      "img": "public/products/epilators/braun-silk-epil-9-thumbnail.webp",
+      "brand": "Epilator (Braun)"
+    },
+    {
+      "exportName": "merkurSafetyRazorProduct",
+      "path": "/skonhet/safety-razor",
+      "badge": "Snabbt & smärtfritt",
+      "headline": "Merkur safety razor – snabb och skonsam rakning",
+      "shortBody": "Välj rakhyveln om du vill ha en snabb, smärtfri lösning. En klassisk safety razor ger en nära rakning och är dessutom snäll mot både plånbok och miljö.",
+      "img": "public/products/merkur-34c/merkur-thumbnail.webp",
+      "brand": "Rakhyvel (Merkur)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Drar upp håret med roten; slät i veckor", "Klipper vid ytan; snabbt och smärtfritt"],
+    ["Håller", "Veckor", "Några dagar"],
+    ["Känsla", "Lite känsla, särskilt i början", "Smärtfritt"],
+    ["Med tiden", "Håret växer ofta tillbaka finare", "Växer tillbaka som vanligt"],
+    ["Snabbhet", "Tar lite längre tid", "Mycket snabbt"],
+    ["Bäst för", "Slät länge inför sommar/resa", "Snabb koll innan du ska ut"],
+    ["Elins poäng", "88/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Gör epilering ont?", "answer": "Det kan kännas lite, särskilt de första gångerna, eftersom epilatorn drar upp håret med roten. De flesta tycker att det blir mindre kännbart med tiden. Rakning med hyvel är smärtfritt." },
+    { "question": "Vilken håller längst?", "answer": "Epilatorn håller klart längst – ofta flera veckor – eftersom håret tas med roten. Rakhyveln klipper vid ytan, så håret växer tillbaka på några dagar." },
+    { "question": "Växer håret tillbaka finare med epilator?", "answer": "Många upplever att håret växer tillbaka finare och glesare med tiden när man epilerar regelbundet, eftersom håret tas med roten. Med rakhyvel växer det tillbaka som vanligt." },
+    { "question": "Vilken är bäst inför en resa?", "answer": "Epilatorn om du vill vara slät hela resan utan att behöva raka varje dag. Rakhyveln om du vill göra en snabb koll precis innan avresa." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/epilator/braun-silk-epil-9", "label": "Epilator", "text": "Läs Elins recension av Braun Silk-épil 9." },
+    { "href": "/skonhet/safety-razor", "label": "Safety razor", "text": "Läs Elins recension av Merkur safety razor." },
+    { "href": "/skonhet/ipl-harborttagning", "label": "IPL", "text": "Vill du ha mer långvarigt? Läs om IPL." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hårborttagningsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["braun-silk-epil-9", "merkur-safety-razor"],
+  "shortTitle": "Epilator eller rakhyvel",
+  "description": "Slät hud i veckor med roten borta mot snabb, smärtfri rakning här och nu."
+}
