@@ -48,6 +48,7 @@ export const sitemapEntries: SitemapEntry[] = [
   { path: "/halsa/dagsljuslampa/beurer-tl35", lastModified: "2026-07-02", changeFrequency: "weekly", priority: 0.82 },
   { path: "/halsa/doftljus-eller-aromadiffuser", lastModified: "2026-07-02", changeFrequency: "weekly", priority: 0.85 },
   { path: "/halsa/doftljus/yankee-clean-cotton", lastModified: "2026-07-02", changeFrequency: "weekly", priority: 0.82 },
+  { path: "/halsa/dreo-cruiser-pro-eller-honeywell-ht900e", lastModified: "2026-06-28", changeFrequency: "weekly", priority: 0.85 },
   { path: "/halsa/elfilt", lastModified: "2026-07-02", changeFrequency: "weekly", priority: 0.82 },
   { path: "/halsa/elfilt-eller-varmedyna", lastModified: "2026-07-02", changeFrequency: "weekly", priority: 0.85 },
   { path: "/halsa/ella-eller-good-nite-tyngdtacke", lastModified: "2026-07-02", changeFrequency: "weekly", priority: 0.85 },

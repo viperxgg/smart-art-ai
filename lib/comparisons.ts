@@ -16,6 +16,18 @@ export type ComparisonEntry = {
 export const comparisonEntries: readonly ComparisonEntry[] = [
   ...waveComparisonEntries,
   {
+    slug: "dreo-cruiser-pro-eller-honeywell-ht900e",
+    title: "Dreo Cruiser Pro eller Honeywell HT900E?",
+    shortTitle: "Dreo eller Honeywell",
+    category: "halsa",
+    categoryLabel: "Hälsa",
+    href: "/halsa/dreo-cruiser-pro-eller-honeywell-ht900e",
+    description:
+      "Tyst tornfläkt för hela rummet mot kompakt kraftfläkt för riktad punktkyla.",
+    productSlugs: ["dreo-cruiser-pro-tornflakt", "honeywell-turboforce-ht900e"],
+    badges: ["Tyst i sovrummet", "Kraftfull", "Sommar"],
+  },
+  {
     slug: "traningsband",
     title: "Långa träningsband vs JAKKOFOXX loop-band",
     shortTitle: "Träningsband",

@@ -29,6 +29,12 @@ type DecisionComparisonPageProps = {
   faqItems: readonly DecisionComparisonFaqItem[];
   breadcrumbItems: BreadcrumbItem[];
   relatedLinks: DecisionComparisonRelatedLink[];
+  // Optional single Elin illustration (split-screen comparison thumbnail).
+  // When set, the two product images are replaced by this one image and a
+  // note links to the real product photos on Amazon.
+  heroImage?: { src: string; alt: string };
+  backHref?: string;
+  backLabel?: string;
 };
 
 export function buildDecisionComparisonSchemas({
@@ -66,6 +72,9 @@ export function DecisionComparisonPage({
   faqItems,
   breadcrumbItems,
   relatedLinks,
+  heroImage,
+  backHref = "/skonhet",
+  backLabel = "Tillbaka till skönhet",
 }: DecisionComparisonPageProps) {
   const { breadcrumbSchema, faqSchema } = buildDecisionComparisonSchemas({
     breadcrumbItems,
@@ -86,11 +95,11 @@ export function DecisionComparisonPage({
         </div>
         <header className="flex items-center justify-between gap-4">
           <Link
-            href="/skonhet"
+            href={backHref}
             className="inline-flex min-h-11 items-center gap-2 rounded-full text-sm font-bold text-[#6b4755] transition hover:text-[#B983A6]"
           >
             <ArrowLeft size={18} aria-hidden="true" />
-            Tillbaka till skönhet
+            {backLabel}
           </Link>
           <p className="rounded-full border border-[#E9CDD3] bg-white/70 px-4 py-2 text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
             Guide
@@ -115,6 +124,43 @@ export function DecisionComparisonPage({
             utan extra kostnad för dig.
           </p>
         </section>
+
+        {heroImage ? (
+          <figure className="mt-8 overflow-hidden rounded-[2.4rem] border border-[#F1D8DD] bg-white/72 shadow-[0_30px_90px_rgba(185,131,166,0.12)]">
+            <div className="relative aspect-[16/10] bg-[#FFF4F5]">
+              <Image
+                src={heroImage.src}
+                alt={heroImage.alt}
+                fill
+                sizes="(max-width: 1024px) 100vw, 960px"
+                className="object-cover"
+                priority
+              />
+            </div>
+            <figcaption className="p-4 text-sm leading-7 text-[#6f5a64] md:px-6">
+              Bilden är Elins illustration av jämförelsen. Vill du se de riktiga
+              produktbilderna?{" "}
+              <a
+                href={picks[0].product.amazonUrl}
+                target="_blank"
+                rel="sponsored nofollow noopener"
+                className="font-bold text-[#B983A6] underline"
+              >
+                Se {picks[0].product.brand} på Amazon
+              </a>{" "}
+              och{" "}
+              <a
+                href={picks[1].product.amazonUrl}
+                target="_blank"
+                rel="sponsored nofollow noopener"
+                className="font-bold text-[#B983A6] underline"
+              >
+                {picks[1].product.brand} på Amazon
+              </a>
+              .
+            </figcaption>
+          </figure>
+        ) : null}
 
         <section className="mt-8 rounded-[2rem] border border-[#F1D8DD] bg-white/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <div className="flex items-start gap-4">
@@ -142,20 +188,27 @@ export function DecisionComparisonPage({
                 href={pick.path}
                 className="group overflow-hidden rounded-[2.2rem] border border-[#F1D8DD] bg-white/72 shadow-[0_28px_90px_rgba(185,131,166,0.1)] transition hover:-translate-y-1"
               >
-                <div className="relative aspect-[4/3] bg-[#FFF4F5]">
-                  <Image
-                    src={pick.product.image}
-                    alt={pick.product.imageAlt}
-                    fill
-                    sizes="(max-width: 768px) 92vw, 470px"
-                    className="object-cover transition duration-500 group-hover:scale-[1.025]"
-                  />
-                  <span className="absolute left-5 top-5 rounded-full bg-[#c8919b]/90 px-4 py-2 text-sm font-black text-white backdrop-blur">
-                    {pick.badge}
-                  </span>
-                </div>
+                {heroImage ? null : (
+                  <div className="relative aspect-[4/3] bg-[#FFF4F5]">
+                    <Image
+                      src={pick.product.image}
+                      alt={pick.product.imageAlt}
+                      fill
+                      sizes="(max-width: 768px) 92vw, 470px"
+                      className="object-cover transition duration-500 group-hover:scale-[1.025]"
+                    />
+                    <span className="absolute left-5 top-5 rounded-full bg-[#c8919b]/90 px-4 py-2 text-sm font-black text-white backdrop-blur">
+                      {pick.badge}
+                    </span>
+                  </div>
+                )}
                 <div className="p-6">
-                  <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                  {heroImage ? (
+                    <span className="inline-flex rounded-full bg-[#c8919b]/90 px-4 py-1.5 text-xs font-black uppercase tracking-[0.12em] text-white">
+                      {pick.badge}
+                    </span>
+                  ) : null}
+                  <p className="mt-3 text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
                     {pick.product.brand}
                   </p>
                   <h2 className="editorial-color-kiss mt-3 font-display text-3xl leading-tight">
