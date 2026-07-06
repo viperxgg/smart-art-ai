@@ -1,0 +1,64 @@
+{
+  "slug": "lappmask-eller-lappolja",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "lappmaskEllerLappolja",
+  "h1": "Läppmask eller läppolja?",
+  "intro": "Läppmask och läppolja vårdar båda torra läppar, men vid olika tillfällen. En läppmask är en tjock nattbehandling som återfuktar medan du sover, medan en läppolja är en lätt, glansig vård du bär på dagen och som ofta ger en fin lyster.",
+  "badges": ["Läppvård", "Natt vs dag", "Glow"],
+  "howToChoose": "Välj en läppmask om dina läppar ofta känns torra och du vill ha en djup nattbehandling som gör dem mjuka till morgonen. Välj en läppolja om du vill ha en lätt, glansig vård med lyster som du bär hela dagen, gärna ovanpå läppstift eller för sig själv. Många har en läppmask på natten och en läppolja på dagen.",
+  "verdict": "De kompletterar varandra. Läppmasken vinner för djup återfuktning över natten, medan läppoljan vinner för daglig glans och lyster. Vill du ha en – välj läppmask för torra läppar och läppolja för glow.",
+  "metaTitle": "Läppmask eller läppolja? Bäst för läpparna | Elins val",
+  "metaDescription": "Läppmask eller läppolja? Elin jämför djup nattvård mot glansig dagvård så du väljer rätt för mjuka, fina läppar.",
+  "picks": [
+    {
+      "exportName": "laneigeLipSleepingMaskProduct",
+      "path": "/skonhet/laneige-lappmask",
+      "badge": "Djup nattvård",
+      "headline": "LANEIGE läppmask – mjuka läppar till morgonen",
+      "shortBody": "Välj läppmasken om dina läppar ofta är torra. Den tjocka nattbehandlingen återfuktar medan du sover så läpparna känns mjuka när du vaknar.",
+      "img": "public/products/laneige-lip-sleeping-mask/laneige-thumbnail.webp",
+      "brand": "Läppmask (LANEIGE)"
+    },
+    {
+      "exportName": "diorLipGlowOilProduct",
+      "path": "/skonhet/lip-oil",
+      "badge": "Glans för dagen",
+      "headline": "Dior lip oil – lätt, glansig vård med lyster",
+      "shortBody": "Välj läppoljan om du vill ha en lätt, glansig vård med lyster på dagen. Den känns len, ger en fin glow och kan bäras för sig själv eller ovanpå läppstift.",
+      "img": "public/products/dior-lip-oil/dior-lip-thumbnail.webp",
+      "brand": "Läppolja (Dior)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Tjock nattmask; djup återfuktning", "Lätt olja; glans och lyster på dagen"],
+    ["När", "På natten", "På dagen"],
+    ["Känsla", "Rik och närande", "Lätt och glansig"],
+    ["Ger glow?", "Nej – vårdande", "Ja – fin lyster"],
+    ["Bäst för", "Torra, spruckna läppar", "Daglig glans och vård"],
+    ["Bär ovanpå läppstift?", "Nej", "Ja, ofta"],
+    ["Elins poäng", "88/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på läppmask och läppolja?", "answer": "En läppmask är en tjock nattbehandling som återfuktar läpparna djupt medan du sover. En läppolja är en lätt, glansig vård du bär på dagen som ger lyster och en len känsla." },
+    { "question": "Vilken är bäst för torra läppar?", "answer": "Läppmasken är bäst för riktigt torra eller spruckna läppar eftersom den återfuktar djupt över natten. Läppoljan vårdar också men är lättare och mer inriktad på glans." },
+    { "question": "Kan jag ha läppolja ovanpå läppstift?", "answer": "Ja, en läppolja fungerar fint ovanpå läppstift för en glansig finish, eller för sig själv för en naturlig glow. Läppmasken används oftast ensam på natten." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, ett vanligt upplägg är läppmask på natten för djup återfuktning och läppolja på dagen för glans och vård. Då är läpparna både mjuka och fina." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/laneige-lappmask", "label": "Läppmask", "text": "Läs Elins recension av LANEIGE läppmask." },
+    { "href": "/skonhet/lip-oil", "label": "Läppolja", "text": "Läs Elins recension av Dior lip oil." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins läpp- och hudvårdsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["laneige-lip-sleeping-mask", "dior-lip-glow-oil"],
+  "shortTitle": "Läppmask eller läppolja",
+  "description": "Djup nattlig återfuktning med läppmask mot glansig dagvård med lyster med läppolja."
+}

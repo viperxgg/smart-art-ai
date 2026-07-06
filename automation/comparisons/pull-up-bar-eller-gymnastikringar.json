@@ -1,0 +1,64 @@
+{
+  "slug": "pull-up-bar-eller-gymnastikringar",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "pullUpBarEllerGymnastikringar",
+  "h1": "Pull-up bar eller gymnastikringar?",
+  "intro": "Pull-up bar och gymnastikringar tränar båda överkroppen hemma, men på olika sätt. En pull-up bar sitter fast i dörrkarmen och är enkel för raka pull-ups och chins, medan gymnastikringar hänger fritt och tränar fler muskler samtidigt eftersom de utmanar stabiliteten.",
+  "badges": ["Överkropp hemma", "Enkelt vs utmanande", "Kroppsvikt"],
+  "howToChoose": "Välj en pull-up bar om du vill ha en enkel, stabil lösning för pull-ups och chins direkt i dörrkarmen. Välj gymnastikringar om du vill utmana dig mer och träna fler muskler samtidigt – de rör sig fritt, kräver mer stabilitet och kan hängas i dörrkarm, tak eller utomhus. Många börjar med en bar och lägger till ringar.",
+  "verdict": "Det handlar om nivå och variation. Pull-up baren vinner för enkelhet och att bara komma igång, medan gymnastikringarna vinner för variation och att de utmanar stabiliteten mer. Nybörjare – bar. Vill du ha mer utmaning och fler övningar – ringar.",
+  "metaTitle": "Pull-up bar eller gymnastikringar? Överkropp hemma | Elins val",
+  "metaDescription": "Pull-up bar eller gymnastikringar? Elin jämför enkel pull-up-träning mot mer utmanande ringträning så du väljer rätt för överkroppen hemma.",
+  "picks": [
+    {
+      "exportName": "ironGymPullUpProduct",
+      "path": "/traning/pull-up-bar",
+      "badge": "Enklast",
+      "headline": "Iron Gym pull-up bar – pull-ups i dörrkarmen",
+      "shortBody": "Välj pull-up baren om du vill ha en enkel, stabil lösning. Den sätts i dörrkarmen och gör det lätt att köra pull-ups och chins hemma.",
+      "img": "public/products/iron-gym-pullup/pullup-thumbnail.webp",
+      "brand": "Pull-up bar (Iron Gym)"
+    },
+    {
+      "exportName": "gorillaRingsProduct",
+      "path": "/traning/gymnastikringar",
+      "badge": "Mest utmaning",
+      "headline": "Gorilla Sports gymnastikringar – fler muskler",
+      "shortBody": "Välj gymnastikringar om du vill utmana dig mer. De hänger fritt, tränar fler muskler samtidigt och ger fler övningar när du blir starkare.",
+      "img": "public/products/gorilla-rings/ringar-thumbnail.webp",
+      "brand": "Gymnastikringar (Gorilla)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Fast stång; enkelt för pull-ups", "Hänger fritt; utmanar stabiliteten"],
+    ["Bäst för", "Pull-ups och chins direkt", "Fler muskler och övningar"],
+    ["Nivå", "Nybörjarvänligt", "Mer utmanande"],
+    ["Montering", "I dörrkarmen", "Dörrkarm, tak eller utomhus"],
+    ["Variation", "Mest drag-övningar", "Många övningar för hela överkroppen"],
+    ["Tar med ut?", "Nej", "Ja – hängs var som helst stadigt"],
+    ["Elins poäng", "84/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på pull-up bar och gymnastikringar?", "answer": "En pull-up bar är en fast stång, oftast i dörrkarmen, som är enkel för pull-ups och chins. Gymnastikringar hänger fritt och rör sig, vilket tränar fler muskler samtidigt eftersom du måste stabilisera dig mer." },
+    { "question": "Vilken är bäst för nybörjare?", "answer": "En pull-up bar är enklast att börja med eftersom den är stabil och du bara hänger och drar. Gymnastikringar är mer utmanande då de rör sig och kräver mer kontroll." },
+    { "question": "Kan jag träna mer än pull-ups med ringar?", "answer": "Ja, gymnastikringar ger många övningar för hela överkroppen – dips, rows, push-ups och mer – tack vare att de hänger fritt. En pull-up bar fokuserar mest på dragövningar." },
+    { "question": "Håller en pull-up bar i dörrkarmen?", "answer": "En pull-up bar för dörrkarm håller bra om karmen är stabil och du monterar den enligt anvisningen. Kolla att din dörrkarm tål belastningen innan du börjar." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/pull-up-bar", "label": "Pull-up bar", "text": "Läs Elins recension av Iron Gym pull-up bar." },
+    { "href": "/traning/gymnastikringar", "label": "Gymnastikringar", "text": "Läs Elins recension av Gorilla Sports gymnastikringar." },
+    { "href": "/traning", "label": "Träning", "text": "Se alla Elins val för hemmaträning." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["iron-gym-pull-up-bar", "gorilla-gymnastikringar"],
+  "shortTitle": "Pull-up bar eller gymnastikringar",
+  "description": "Enkel pull-up-träning i dörrkarmen mot mer utmanande ringträning för hela överkroppen."
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "yogablock-eller-yogabalte",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "yogablockEllerYogabalte",
+  "h1": "Yogablock eller yogabälte?",
+  "intro": "Yogablock och yogabälte är två klassiska yogaredskap som hjälper dig i olika positioner. Ett yogablock ger stöd och höjd så du når golvet lättare och håller balansen, medan ett yogabälte förlänger räckvidden så du kan komma djupare i stretch utan att tvinga rörelsen.",
+  "badges": ["Yoga", "Stöd vs räckvidd", "Nybörjare"],
+  "howToChoose": "Välj ett yogablock om du vill ha stöd och höjd i positioner där du inte når golvet eller vill hålla balansen bättre. Välj ett yogabälte om du vill förlänga räckvidden i stretch – till exempel nå fötterna – och komma djupare utan att runda ryggen. Många nybörjare har nytta av båda, de kompletterar varandra.",
+  "verdict": "De gör olika saker och krockar inte. Yogablocket vinner för stöd och stabilitet, medan yogabältet vinner för att förlänga räckvidden i stretch. Vill du ha ett – block för stöd, bälte för stretch. Har du plats, ta gärna båda.",
+  "metaTitle": "Yogablock eller yogabälte? Vilket behöver du | Elins val",
+  "metaDescription": "Yogablock eller yogabälte? Elin reder ut skillnaden – stöd och höjd mot längre räckvidd i stretch – så du väljer rätt yogaredskap.",
+  "picks": [
+    {
+      "exportName": "bodymateYogablockProduct",
+      "path": "/traning/yogablock",
+      "badge": "Stöd & höjd",
+      "headline": "BODYMATE yogablock – nå golvet och håll balansen",
+      "shortBody": "Välj yogablocket om du vill ha stöd och höjd. Det hjälper dig nå golvet i positioner där du annars inte når, och ger stabilitet i balansövningar.",
+      "img": "public/products/bodymate-yogablock/yogablock-thumbnail.webp",
+      "brand": "Yogablock (BODYMATE)"
+    },
+    {
+      "exportName": "bodymateYogastrapProduct",
+      "path": "/traning/yogabalte",
+      "badge": "Längre räckvidd",
+      "headline": "BODYMATE yogabälte – kom djupare i stretch",
+      "shortBody": "Välj yogabältet om du vill förlänga räckvidden i stretch. Det hjälper dig nå fötterna och komma djupare utan att runda ryggen eller tvinga rörelsen.",
+      "img": "public/products/bodymate-yogastrap/yogastrap-thumbnail.webp",
+      "brand": "Yogabälte (BODYMATE)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Ger stöd och höjd", "Förlänger räckvidden i stretch"],
+    ["Bäst för", "Balans och att nå golvet", "Djupare stretch, nå fötterna"],
+    ["Typ av hjälp", "Stabilitet", "Räckvidd"],
+    ["Nybörjarvänligt", "Ja", "Ja"],
+    ["Plats", "Litet block", "Vikbart band – tar nästan ingen plats"],
+    ["Kompletterar varandra", "Ja", "Ja"],
+    ["Elins poäng", "84/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på yogablock och yogabälte?", "answer": "Ett yogablock ger stöd och höjd, till exempel så du når golvet lättare eller håller balansen. Ett yogabälte förlänger räckvidden så du kan komma djupare i en stretch utan att tvinga rörelsen." },
+    { "question": "Vilket behöver jag som nybörjare?", "answer": "Många nybörjare har nytta av båda. Blocket hjälper i positioner där du inte når golvet, och bältet hjälper i stretchövningar där du inte når fötterna. Börjar du med ett, välj efter var du känner dig mest begränsad." },
+    { "question": "Kan ett yogabälte hjälpa mig bli rörligare?", "answer": "Ja, bältet låter dig komma in i en stretch med god hållning utan att runda ryggen, vilket gör det lättare att jobba med rörligheten över tid. Tvinga aldrig – använd bältet för att gå lagom långt." },
+    { "question": "Behöver jag båda?", "answer": "Inte nödvändigtvis, men de kompletterar varandra bra och tar liten plats. Vill du ha maximal hjälp i både balans och stretch är båda ett smart och billigt tillägg." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/yogablock", "label": "Yogablock", "text": "Läs Elins recension av BODYMATE yogablock." },
+    { "href": "/traning/yogabalte", "label": "Yogabälte", "text": "Läs Elins recension av BODYMATE yogabälte." },
+    { "href": "/traning", "label": "Träning", "text": "Se alla Elins val för yoga och rörlighet." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["bodymate-yogablock", "bodymate-yogabalte"],
+  "shortTitle": "Yogablock eller yogabälte",
+  "description": "Stöd och höjd med ett yogablock mot längre räckvidd i stretch med ett yogabälte."
+}

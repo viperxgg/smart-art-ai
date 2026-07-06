@@ -1,0 +1,65 @@
+{
+  "slug": "vaxremsor-eller-rakhyvel",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "vaxremsorEllerRakhyvel",
+  "h1": "Vaxremsor eller rakhyvel?",
+  "intro": "Vaxremsor och rakhyvel tar båda bort hår, men resultatet håller olika länge. Vaxremsor drar bort håret med roten så du är slät i veckor, medan en rakhyvel klipper vid ytan – snabbt och smärtfritt, men växer tillbaka snabbare.",
+  "badges": ["Hårborttagning", "Slät längre vs smärtfritt", "Vardag"],
+  "howToChoose": "Välj vaxremsor om du vill vara slät i veckor och inte har något emot en kort stunds känsla när du drar – bra inför sommar och resa. Välj en rakhyvel om du vill ha en snabb, smärtfri lösning som funkar precis innan du ska ut, även om du får göra om det oftare. Många vaxar inför längre slätt och rakar i vardagen.",
+  "verdict": "Det handlar om hur länge du vill vara slät. Vaxremsor vinner för ett resultat som håller i veckor, medan rakhyveln vinner för snabb, smärtfri hårborttagning här och nu. Vaxa inför tillfällen, raka i vardagen.",
+  "metaTitle": "Vaxremsor eller rakhyvel? Vilken ska du välja | Elins val",
+  "metaDescription": "Vaxremsor eller rakhyvel? Elin jämför slät hud i veckor mot snabb, smärtfri rakning så du väljer rätt metod för hårborttagning.",
+  "picks": [
+    {
+      "exportName": "veetWaxStripsProduct",
+      "path": "/skonhet/vaxremsor",
+      "badge": "Slät i veckor",
+      "headline": "Veet vaxremsor – slät längre utan värmare",
+      "shortBody": "Välj vaxremsor om du vill vara slät i veckor. De drar bort håret med roten och behöver ingen värmare – du gnuggar bara varma remsorna mellan händerna.",
+      "img": "public/products/veet-wax-strips/veet-thumbnail.webp",
+      "brand": "Vaxremsor (Veet)"
+    },
+    {
+      "exportName": "merkurSafetyRazorProduct",
+      "path": "/skonhet/safety-razor",
+      "badge": "Snabbt & smärtfritt",
+      "headline": "Merkur safety razor – snabb, skonsam rakning",
+      "shortBody": "Välj rakhyveln om du vill ha en snabb, smärtfri lösning. En klassisk safety razor ger en nära rakning och är snäll mot både plånbok och miljö.",
+      "img": "public/products/merkur-34c/merkur-thumbnail.webp",
+      "brand": "Rakhyvel (Merkur)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Drar håret med roten; slät i veckor", "Klipper vid ytan; snabbt och smärtfritt"],
+    ["Håller", "Veckor", "Några dagar"],
+    ["Känsla", "Kort stund av känsla när du drar", "Smärtfritt"],
+    ["Förberedelse", "Ingen värmare behövs", "Blöt hud och rakgel"],
+    ["Snabbhet", "Tar en stund", "Mycket snabbt"],
+    ["Bäst för", "Slät länge inför sommar/resa", "Snabb koll innan du ska ut"],
+    ["Elins poäng", "84/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Gör vaxremsor ont?", "answer": "Det kan svida till en kort stund när du drar av remsan, eftersom håret tas med roten. De flesta tycker att det går fort över. Rakning med hyvel är smärtfritt." },
+    { "question": "Vilken håller längst?", "answer": "Vaxremsor håller klart längst – ofta flera veckor – eftersom håret tas med roten. Rakhyveln klipper vid ytan, så håret växer tillbaka på några dagar." },
+    { "question": "Behöver vaxremsor en värmare?", "answer": "Nej, färdiga vaxremsor värms genom att du gnuggar dem mellan händerna. Du slipper alltså krångel med en vaxvärmare. Håret behöver vara några millimeter långt för att fästa." },
+    { "question": "Vilken är bäst inför en resa?", "answer": "Vaxremsor om du vill vara slät hela resan utan att raka varje dag. Rakhyveln om du bara vill göra en snabb koll precis innan avresa." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/vaxremsor", "label": "Vaxremsor", "text": "Läs Elins recension av Veet vaxremsor." },
+    { "href": "/skonhet/safety-razor", "label": "Safety razor", "text": "Läs Elins recension av Merkur safety razor." },
+    { "href": "/skonhet/epilator-eller-rakhyvel", "label": "Jämförelse", "text": "Epilator eller rakhyvel? Se den jämförelsen." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hårborttagningsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["veet-vaxremsor", "merkur-safety-razor"],
+  "shortTitle": "Vaxremsor eller rakhyvel",
+  "description": "Slät hud i veckor med roten borta mot snabb, smärtfri rakning här och nu."
+}

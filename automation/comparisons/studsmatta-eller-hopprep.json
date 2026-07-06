@@ -1,0 +1,64 @@
+{
+  "slug": "studsmatta-eller-hopprep",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "studsmattaEllerHopprep",
+  "h1": "Studsmatta eller hopprep?",
+  "intro": "Studsmatta och hopprep ger båda pulshöjande konditionsträning hemma, men känns olika. En liten fitness-studsmatta är skonsam mot lederna och kul att studsa på, medan ett hopprep är billigt, tar ingen plats och ger snabbt hög puls.",
+  "badges": ["Kondition hemma", "Skonsamt vs effektivt", "Kul"],
+  "howToChoose": "Välj en studsmatta om du vill ha skonsam, ledvänlig kondition och gilla att det känns lekfullt – skönt för knän och rygg. Välj ett hopprep om du vill ha maximal effekt på minimal yta och budget, och inte har något emot lite mer stöt i varje hopp. Studsmatta för skonsamt och kul, hopprep för snabbt och platssnålt.",
+  "verdict": "Båda höjer pulsen hemma. Studsmattan vinner för skonsam, ledvänlig och rolig träning, medan hopprepet vinner för pris, plats och ren effektivitet. Har du ont om plats eller pengar – hopprep. Vill du skona lederna och ha kul – studsmatta.",
+  "metaTitle": "Studsmatta eller hopprep? Bäst kondition hemma | Elins val",
+  "metaDescription": "Studsmatta eller hopprep? Elin jämför skonsam, kul studsträning mot billig, platssnål hoppträning så du väljer rätt för kondition hemma.",
+  "picks": [
+    {
+      "exportName": "dhFitlifeTrampolineProduct",
+      "path": "/traning/studsmatta",
+      "badge": "Skonsamt & kul",
+      "headline": "DH FitLife studsmatta – ledvänlig kondition",
+      "shortBody": "Välj studsmattan om du vill ha skonsam, rolig kondition. Studsandet är snällt mot knän och rygg och gör det lätt att hålla igång längre.",
+      "img": "public/products/dh-trampoline/trampoline-thumbnail.webp",
+      "brand": "Studsmatta (DH FitLife)"
+    },
+    {
+      "exportName": "portentumHoppRepProduct",
+      "path": "/traning/hopprep",
+      "badge": "Billigt & effektivt",
+      "headline": "PORTENTUM hopprep – hög puls på minimal yta",
+      "shortBody": "Välj hopprepet om du vill ha maximal effekt på minimal plats och budget. Det ger snabbt hög puls och ryms i fickan.",
+      "img": "public/products/portentum-hopprep/hopprep-thumbnail.webp",
+      "brand": "Hopprep (PORTENTUM)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Skonsam studsträning; ledvänlig", "Billig hoppträning; snabb puls"],
+    ["Ledvänligt", "Ja – mjuk studs", "Mer stöt i varje hopp"],
+    ["Plats", "Tar en bit golv", "Tar nästan ingen plats"],
+    ["Pris", "Mellan", "Budget"],
+    ["Kul-faktor", "Hög – lekfullt", "Enkelt och rakt på"],
+    ["Ta med på resa", "Nej", "Ja – ryms i fickan"],
+    ["Elins poäng", "86/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på studsmatta och hopprep?", "answer": "En fitness-studsmatta ger skonsam, ledvänlig kondition där du studsar mjukt, medan ett hopprep ger snabb, effektiv pulsträning men med mer stöt i varje hopp. Båda tränar kondition hemma." },
+    { "question": "Vilken är skonsammast för knän och rygg?", "answer": "Studsmattan är klart skonsammast eftersom mattan tar upp stöten. Hopprep ger mer belastning i varje landning, vilket kan kännas i knän och vader om du hoppar länge." },
+    { "question": "Vilken tar minst plats?", "answer": "Hopprepet tar minst plats – det ryms i fickan och kan tas med överallt. En studsmatta kräver en bit golv men är fortfarande lätt att ställa undan." },
+    { "question": "Vilken ger bäst konditionsträning?", "answer": "Båda höjer pulsen effektivt. Hopprep är väldigt effektivt på kort tid, medan studsmattan gör det lättare att hålla igång längre eftersom det känns skonsammare och roligare." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/studsmatta", "label": "Studsmatta", "text": "Läs Elins recension av DH FitLife studsmatta." },
+    { "href": "/traning/hopprep", "label": "Hopprep", "text": "Läs Elins recension av PORTENTUM hopprep." },
+    { "href": "/traning", "label": "Träning", "text": "Se alla Elins val för hemmaträning." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["dh-fitlife-studsmatta", "portentum-hopprep"],
+  "shortTitle": "Studsmatta eller hopprep",
+  "description": "Skonsam, kul studsträning mot billig, platssnål hoppträning för kondition hemma."
+}

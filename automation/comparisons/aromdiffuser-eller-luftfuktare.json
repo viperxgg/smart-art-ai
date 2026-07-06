@@ -1,0 +1,65 @@
+{
+  "slug": "aromdiffuser-eller-luftfuktare",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "aromdiffuserEllerLuftfuktare",
+  "h1": "Aromdiffuser eller luftfuktare?",
+  "intro": "Aromdiffuser och luftfuktare sprider båda en fin dimma i rummet, men med olika syfte. En aromdiffuser är liten och gjord för doft – du droppar i eterisk olja för en mysig, doftande stämning – medan en luftfuktare har en större tank och fokuserar på att tillföra fukt till torr inomhusluft.",
+  "badges": ["Inomhusklimat", "Doft vs fukt", "Mys"],
+  "howToChoose": "Välj en aromdiffuser om du främst vill ha doft och mysig stämning – den är liten, snygg och passar på nattduksbordet eller skrivbordet. Välj en luftfuktare om ditt mål är att göra torr inomhusluft mindre torr, med en större tank som räcker längre. En aromdiffuser fuktar bara marginellt, så vill du verkligen höja luftfuktigheten är det en luftfuktare du behöver.",
+  "verdict": "De löser olika saker trots att båda dimmar. Aromdiffusern vinner för doft och mys, medan luftfuktaren vinner för att faktiskt tillföra fukt till torr luft. Mys och doft – aromdiffuser. Torr luft – luftfuktare.",
+  "metaTitle": "Aromdiffuser eller luftfuktare? Vad behöver du | Elins val",
+  "metaDescription": "Aromdiffuser eller luftfuktare? Elin reder ut skillnaden – doft och mys mot fukt till torr luft – så du väljer rätt apparat för ditt rum.",
+  "picks": [
+    {
+      "exportName": "salkingAromadiffuserProduct",
+      "path": "/halsa/aromdiffuser",
+      "badge": "Doft & mys",
+      "headline": "SALKING aromdiffuser – doftande, mysig stämning",
+      "shortBody": "Välj aromdiffusern om du främst vill ha doft och mys. Droppa i eterisk olja för en skön stämning – liten och snygg på nattduksbordet eller skrivbordet.",
+      "img": "public/products/salking-aromadiffuser/salking-aromadiffuser-thumbnail.webp",
+      "brand": "Aromdiffuser (SALKING)"
+    },
+    {
+      "exportName": "levoitHumidifierProduct",
+      "path": "/halsa/luftfuktare",
+      "badge": "Mot torr luft",
+      "headline": "Levoit luftfuktare – tillför fukt på riktigt",
+      "shortBody": "Välj luftfuktaren om du vill göra torr inomhusluft mindre torr. Den större tanken räcker längre och fokuserar på fukt snarare än doft.",
+      "img": "public/products/levoit-humidifier/humid-thumbnail.webp",
+      "brand": "Luftfuktare (Levoit)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Liten, för doft och mys", "Större tank, tillför fukt"],
+    ["Huvudsyfte", "Doft och stämning", "Fukt till torr luft"],
+    ["Tank", "Liten", "Större – räcker längre"],
+    ["Höjer luftfuktighet?", "Bara marginellt", "Ja"],
+    ["Använd eterisk olja?", "Ja", "Oftast inte"],
+    ["Bäst för", "Nattduksbord, mys", "Torra rum, vintern"],
+    ["Elins poäng", "84/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på aromdiffuser och luftfuktare?", "answer": "En aromdiffuser är liten och gjord för doft – du droppar i eterisk olja för mysig stämning. En luftfuktare har en större tank och fokuserar på att tillföra fukt till torr inomhusluft." },
+    { "question": "Höjer en aromdiffuser luftfuktigheten?", "answer": "Bara marginellt. Dimman är främst till för att sprida doft. Vill du verkligen göra torr luft mindre torr behöver du en luftfuktare med större kapacitet." },
+    { "question": "Kan jag använda eterisk olja i en luftfuktare?", "answer": "De flesta luftfuktare är inte gjorda för eteriska oljor, som kan skada plasten eller tanken. Vill du ha doft, använd en aromdiffuser som är byggd för det." },
+    { "question": "Vilken är bäst på vintern?", "answer": "Känns luften torr när elementen är på är en luftfuktare mest till nytta. En aromdiffuser är mer för mys och doft året runt, och ersätter inte en luftfuktare." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/aromdiffuser", "label": "Aromdiffuser", "text": "Läs Elins recension av SALKING aromdiffuser." },
+    { "href": "/halsa/luftfuktare", "label": "Luftfuktare", "text": "Läs Elins recension av Levoit luftfuktare." },
+    { "href": "/halsa/luftfuktare-eller-luftrenare", "label": "Jämförelse", "text": "Luftfuktare eller luftrenare? Se den jämförelsen." },
+    { "href": "/halsa", "label": "Hälsa", "text": "Se alla Elins val för smart hem och klimat." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["salking-aromadiffuser", "levoit-luftfuktare"],
+  "shortTitle": "Aromdiffuser eller luftfuktare",
+  "description": "Doft och mysig stämning med en aromdiffuser mot fukt till torr luft med en luftfuktare."
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "maghjul-eller-core-slider",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "maghjulEllerCoreSlider",
+  "h1": "Maghjul eller core slider?",
+  "intro": "Maghjul och core slider tränar båda magen och bålen hemma, men på olika sätt. Ett maghjul rullar du ut och in för en intensiv, tydlig magövning, medan core sliders är små tallrikar du glider med på golvet för mjukare, mångsidiga bål- och helkroppsövningar.",
+  "badges": ["Bål & mage", "Intensivt vs mångsidigt", "Kroppsvikt"],
+  "howToChoose": "Välj ett maghjul om du vill ha en intensiv, tydlig magövning och redan har lite bålstyrka – det utmanar rejält. Välj core sliders om du vill ha mjukare, mer varierade övningar för bål, ben och helkropp, och gilla att kunna anpassa svårighetsgraden. Nybörjare kan börja med sliders och bygga upp till maghjulet.",
+  "verdict": "Det handlar om intensitet mot variation. Maghjulet vinner för en tuff, effektiv magövning, medan core sliders vinner för mångsidighet och att kunna börja mjukare. Vill du ha en enda hård övning – maghjul. Vill du ha variation – sliders.",
+  "metaTitle": "Maghjul eller core slider? Bäst för magen | Elins val",
+  "metaDescription": "Maghjul eller core slider? Elin jämför en intensiv magövning mot mångsidiga glidövningar så du väljer rätt för bål och mage hemma.",
+  "picks": [
+    {
+      "exportName": "amonaxAbWheelProduct",
+      "path": "/traning/maghjul",
+      "badge": "Intensivt",
+      "headline": "Amonax maghjul – tuff, tydlig magövning",
+      "shortBody": "Välj maghjulet om du vill ha en intensiv magövning. Du rullar ut och in och utmanar bålen rejält – effektivt när du redan har lite grundstyrka.",
+      "img": "public/products/amonax-maghjul/maghjul-thumbnail.webp",
+      "brand": "Maghjul (Amonax)"
+    },
+    {
+      "exportName": "gorillaSlidersProduct",
+      "path": "/traning/core-slider",
+      "badge": "Mångsidigt",
+      "headline": "Gorilla core sliders – glid för bål och helkropp",
+      "shortBody": "Välj core sliders om du vill ha mjukare, varierade övningar för bål, ben och helkropp. Du glider på golvet och kan anpassa svårighetsgraden själv.",
+      "img": "public/products/gorilla-sliders/sliders-thumbnail.webp",
+      "brand": "Core sliders (Gorilla)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Rulla ut/in; intensiv magövning", "Glid på golvet; mångsidiga bålövningar"],
+    ["Fokus", "Mage och bål, tydligt", "Bål, ben och helkropp"],
+    ["Nivå", "Utmanande – kräver grundstyrka", "Kan börja mjukare"],
+    ["Variation", "Mest en övning", "Många övningar"],
+    ["Plats", "Litet – rullar undan", "Väldigt litet – två tallrikar"],
+    ["Nybörjarvänligt", "Mindre – börja försiktigt", "Ja – anpassningsbart"],
+    ["Elins poäng", "84/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på maghjul och core slider?", "answer": "Ett maghjul rullas ut och in för en intensiv, tydlig magövning. Core sliders är små tallrikar du glider med på golvet för mjukare och mer varierade övningar för bål, ben och helkropp." },
+    { "question": "Vilket är bäst för nybörjare?", "answer": "Core sliders är lättare att börja med eftersom du själv styr hur långt du glider och kan hålla övningarna mjuka. Maghjulet är mer krävande och passar bäst när du har lite grundstyrka i bålen." },
+    { "question": "Vilket ger tuffast magträning?", "answer": "Maghjulet ger en väldigt intensiv magövning eftersom hela bålen jobbar när du rullar ut. Börja med korta utrullningar och öka gradvis för att skona ryggen." },
+    { "question": "Tar de mycket plats?", "answer": "Nej, båda tar minimalt med plats. Core sliders är två små tallrikar, och maghjulet rullar du undan i en låda eller garderob." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/maghjul", "label": "Maghjul", "text": "Läs Elins recension av Amonax maghjul." },
+    { "href": "/traning/core-slider", "label": "Core slider", "text": "Läs Elins recension av Gorilla core sliders." },
+    { "href": "/traning", "label": "Träning", "text": "Se alla Elins val för hemmaträning." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["amonax-maghjul", "gorilla-core-slider"],
+  "shortTitle": "Maghjul eller core slider",
+  "description": "En intensiv, tydlig magövning mot mångsidiga glidövningar för bål och helkropp."
+}
