@@ -25,6 +25,12 @@ export function SiteFooter() {
 
           <nav aria-label="Sidfot" className="grid content-start gap-3">
             <Link
+              href="/sok"
+              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+            >
+              Sök produkter
+            </Link>
+            <Link
               href="/om-oss"
               className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
             >

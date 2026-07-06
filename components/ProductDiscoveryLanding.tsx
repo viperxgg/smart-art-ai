@@ -1,6 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Camera, Mail, MessageCircle, Music2 } from "lucide-react";
+import {
+  ArrowUpRight,
+  Camera,
+  Mail,
+  MessageCircle,
+  Music2,
+  Search,
+} from "lucide-react";
 
 import { ElinHomeHero } from "@/components/elin/ElinHomeHero";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
@@ -1330,6 +1337,7 @@ export function ProductDiscoveryLanding() {
       <section className="relative mx-auto box-border w-full max-w-[27rem] min-w-0 overflow-hidden px-4 pb-[calc(7.5rem+env(safe-area-inset-bottom))] pt-5 sm:max-w-[46rem] sm:px-8 lg:max-w-6xl">
         <SiteHeader />
         <CategoryNav />
+        <SearchBar />
         <ElinHomeHero />
         <LatestUpdates />
         <CategoryGateway />
@@ -1417,6 +1425,43 @@ function CategoryNav() {
         ))}
       </div>
     </nav>
+  );
+}
+
+function SearchBar() {
+  return (
+    <form
+      role="search"
+      action="/sok"
+      method="get"
+      className="relative mt-4"
+    >
+      <label htmlFor="home-search" className="sr-only">
+        Sök bland Elins produkter
+      </label>
+      <Search
+        size={20}
+        aria-hidden="true"
+        className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-[#c8919b]"
+      />
+      <input
+        id="home-search"
+        type="search"
+        name="q"
+        inputMode="search"
+        autoComplete="off"
+        enterKeyHint="search"
+        placeholder="Sök på produkt, märke eller kategori…"
+        className="min-h-14 w-full rounded-full border border-[#efc6cc] bg-white/70 py-3 pl-14 pr-24 text-base font-semibold text-[#5b3441] shadow-[0_14px_40px_rgba(216,131,146,0.12)] outline-none backdrop-blur-xl transition placeholder:text-[#b79aa1] focus:border-[#d98a99] focus:bg-white"
+      />
+      <button
+        type="submit"
+        className="absolute right-2 top-1/2 inline-flex min-h-11 -translate-y-1/2 items-center gap-1.5 rounded-full bg-[#d97d91] px-5 text-sm font-black text-white shadow-[0_16px_40px_rgba(216,131,146,0.2)] transition hover:-translate-y-[calc(50%+2px)]"
+      >
+        <Search className="size-4 sm:hidden" aria-hidden="true" />
+        <span className="hidden sm:inline">Sök</span>
+      </button>
+    </form>
   );
 }
 
