@@ -1,0 +1,65 @@
+{
+  "slug": "billaddare-eller-powerbank",
+  "routePrefix": "sommar/resa",
+  "category": "resa",
+  "categoryLabel": "Resa",
+  "backHref": "/sommar/resa",
+  "backLabel": "Tillbaka till Elins reseval",
+  "exportBaseName": "billaddareEllerPowerbank",
+  "h1": "Billaddare eller powerbank?",
+  "intro": "På road tripen vill du hålla mobilen laddad – men en billaddare och en powerbank löser det olika. Billaddaren sitter i bilens 12V-uttag och laddar snabbt medan du kör, medan powerbanken ger ström även när du lämnat bilen och är ute utan uttag.",
+  "badges": ["Ladda på resan", "I bilen vs överallt", "Resa"],
+  "howToChoose": "Välj en billaddare om du mest laddar medan du kör och vill ha snabb laddning direkt från bilens uttag. Välj en powerbank om du också behöver ström när du lämnat bilen – på stranden, vandringen eller festivalen. Många har en billaddare fast i bilen och en powerbank i väskan för allt annat.",
+  "verdict": "De kompletterar varandra. Billaddaren vinner för snabb laddning medan du kör, medan powerbanken är oslagbar när du är ute utan uttag. Ska du bara välja en – utgå från om du oftast är i bilen eller på språng.",
+  "metaTitle": "Billaddare eller powerbank? Ladda smart på resan | Elins val",
+  "metaDescription": "Billaddare eller powerbank på road tripen? Elin jämför snabb laddning i bilen mot ström överallt så du väljer rätt för att hålla mobilen igång.",
+  "picks": [
+    {
+      "exportName": "iniuBilladdareProduct",
+      "path": "/sommar/resa/billaddare",
+      "badge": "Snabbt i bilen",
+      "headline": "INIU billaddare – ström medan du kör",
+      "shortBody": "Välj billaddaren om du mest laddar medan du kör. Den sitter i 12V-uttaget och laddar mobilen snabbt så navigeringen inte tar slut på batteriet.",
+      "img": "public/products/iniu-billaddare/billaddare-thumbnail.webp",
+      "brand": "Billaddare (INIU)"
+    },
+    {
+      "exportName": "ankerZoloPowerbankProduct",
+      "path": "/sommar/resa/powerbank",
+      "badge": "Ström överallt",
+      "headline": "Anker Zolo powerbank – ladda utan uttag",
+      "shortBody": "Välj powerbanken om du behöver ström även borta från bilen. Med inbyggda kablar håller den mobilen igång på stranden, vandringen eller festivalen.",
+      "img": "public/products/anker-zolo-powerbank/powerbank-thumbnail.webp",
+      "brand": "Powerbank (Anker)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Sitter i 12V-uttaget; laddar medan du kör", "Eget batteri; ström även utan uttag"],
+    ["Bäst för", "Laddning i bilen på road tripen", "Utflykter borta från uttag"],
+    ["Kräver bil/uttag?", "Ja – bilens uttag", "Nej"],
+    ["Vikt & plats", "Liten, sitter fast i bilen", "Tyngre – ett laddat batteri väger"],
+    ["Räcker när bilen står", "Nej", "Ja"],
+    ["I flyget", "Behövs inte", "Ska med i handbagaget"],
+    ["Elins poäng", "86/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på billaddare och powerbank?", "answer": "En billaddare sitter i bilens 12V-uttag och laddar mobilen medan du kör. En powerbank har ett eget batteri och ger ström även när du är borta från bilen och saknar uttag." },
+    { "question": "Vilken är bäst på road trip?", "answer": "Har du en lång bilresa räcker ofta en billaddare för att hålla mobilen laddad medan du kör. Ska du sen vara ute på stranden eller vandra kompletterar en powerbank bra." },
+    { "question": "Behöver jag båda?", "answer": "Många har en billaddare fast i bilen och en powerbank i väskan. Då är mobilen laddad både under körningen och när du lämnat bilen." },
+    { "question": "Får jag ta powerbanken i flyget?", "answer": "Powerbanks ska tas med i handbagaget och får inte checkas in. En billaddare har inga sådana begränsningar. Kolla alltid ditt flygbolags aktuella regler." }
+  ],
+  "relatedLinks": [
+    { "href": "/sommar/resa/billaddare", "label": "Billaddare", "text": "Läs Elins recension av INIU billaddare." },
+    { "href": "/sommar/resa/powerbank", "label": "Powerbank", "text": "Läs Elins recension av Anker Zolo powerbank." },
+    { "href": "/sommar/resa/powerbank-eller-vaggladdare", "label": "Jämförelse", "text": "Powerbank eller väggladdare? Se den jämförelsen." },
+    { "href": "/sommar/resa", "label": "Resa", "text": "Se alla Elins smarta reseprylar." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["iniu-billaddare", "anker-zolo-powerbank"],
+  "shortTitle": "Billaddare eller powerbank",
+  "description": "Snabb laddning i bilen medan du kör mot ström överallt även utan uttag."
+}

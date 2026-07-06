@@ -1,0 +1,65 @@
+{
+  "slug": "handflakt-eller-bordsflakt",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "handflaktEllerBordsflakt",
+  "h1": "Handfläkt eller bordsfläkt?",
+  "intro": "Handfläkt och bordsfläkt ger båda snabb svalka, men på olika platser. En handfläkt är liten och laddningsbar så du kan ta den med ut – på festivalen, bussen eller stan – medan en bordsfläkt står still och svalkar dig vid skrivbordet eller sängen.",
+  "badges": ["Svalka", "Bärbar vs på plats", "Sommar"],
+  "howToChoose": "Välj en handfläkt om du vill ha svalka på språng när det är varmt ute – den ryms i väskan och laddas via USB. Välj en bordsfläkt om du mest vill ha en stadig, lite starkare luftström där du sitter hemma eller på jobbet. Många har en handfläkt i väskan för sommaren och en bordsfläkt hemma.",
+  "verdict": "Det handlar om var du behöver svalkan. Handfläkten vinner för att ta med ut, medan bordsfläkten ger en stadigare och ofta starkare luftström på plats. Vill du ha en av dem – välj efter om du mest är ute eller hemma.",
+  "metaTitle": "Handfläkt eller bordsfläkt? Vilken svalka passar dig | Elins val",
+  "metaDescription": "Handfläkt eller bordsfläkt? Elin jämför bärbar svalka på språng mot en stadig fläkt vid skrivbordet så du väljer rätt för sommarvärmen.",
+  "picks": [
+    {
+      "exportName": "jisulifeHandfanProduct",
+      "path": "/halsa/handflakt",
+      "badge": "Ta med ut",
+      "headline": "JISULIFE handfläkt – svalka på språng",
+      "shortBody": "Välj handfläkten om du vill ha svalka utomhus. Den är liten, laddningsbar och ryms i väskan – perfekt på festivalen, bussen eller en varm promenad.",
+      "img": "public/products/jisulife-handfan/handflakt-thumbnail.webp",
+      "brand": "Handfläkt (JISULIFE)"
+    },
+    {
+      "exportName": "xiaomiStandingFanProduct",
+      "path": "/halsa/bordsflakt",
+      "badge": "Stadig på plats",
+      "headline": "Xiaomi bordsfläkt – sval luft där du sitter",
+      "shortBody": "Välj bordsfläkten om du mest vill ha en stadig, lite starkare luftström hemma eller på jobbet. Den står still och svalkar dig vid skrivbordet eller sängen.",
+      "img": "public/products/xiaomi-fan/xiaomi-fan-thumbnail.webp",
+      "brand": "Bordsfläkt (Xiaomi)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Liten och laddningsbar; ta med ut", "Står still; stadig luftström på plats"],
+    ["Bäst för", "Festival, buss, stan – på språng", "Skrivbord och säng hemma"],
+    ["Ström", "Laddningsbar via USB", "Vägg eller USB beroende på modell"],
+    ["Styrka", "Personlig, riktad svalka", "Oftast starkare luftström"],
+    ["Plats", "Ryms i väskan", "Står på bord eller hylla"],
+    ["Prisläge", "Budget", "Budget–mellan"],
+    ["Elins poäng", "84/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på handfläkt och bordsfläkt?", "answer": "En handfläkt är liten och laddningsbar så du kan ta med den ut och få svalka på språng. En bordsfläkt står still och ger en stadigare, ofta starkare luftström där du sitter." },
+    { "question": "Vilken är bäst för festival?", "answer": "Handfläkten, eftersom den ryms i väskan och laddas via USB så du kan svalka dig var du än är. En bordsfläkt kräver en plats att stå på och passar bättre hemma." },
+    { "question": "Håller handfläkten laddningen en hel dag?", "answer": "Det beror på modell och hur högt du kör den. Ladda den full innan du går ut och kör på ett lägre läge så räcker batteriet längre under dagen." },
+    { "question": "Vilken ger starkast svalka?", "answer": "En bordsfläkt ger oftast en starkare och stadigare luftström eftersom den är större. Handfläkten ger en personlig, riktad svalka som räcker gott när du är på språng." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/handflakt", "label": "Handfläkt", "text": "Läs Elins recension av JISULIFE handfläkt." },
+    { "href": "/halsa/bordsflakt", "label": "Bordsfläkt", "text": "Läs Elins recension av Xiaomi bordsfläkt." },
+    { "href": "/halsa/tornflakt-eller-bordsflakt", "label": "Jämförelse", "text": "Tornfläkt eller bordsfläkt? Se den jämförelsen." },
+    { "href": "/halsa/flakt", "label": "Fläkt", "text": "Se alla Elins fläktar för sommaren." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["jisulife-handflakt", "xiaomi-bordsflakt"],
+  "shortTitle": "Handfläkt eller bordsfläkt",
+  "description": "Bärbar svalka på språng mot en stadig fläkt vid skrivbordet."
+}

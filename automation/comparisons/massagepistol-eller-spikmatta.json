@@ -1,0 +1,65 @@
+{
+  "slug": "massagepistol-eller-spikmatta",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "massagepistolEllerSpikmatta",
+  "h1": "Massagepistol eller spikmatta?",
+  "intro": "Massagepistol och spikmatta används båda för återhämtning och avslappning, men på olika sätt. En massagepistol ger riktad, aktiv bearbetning av spända muskler, medan en spikmatta är passiv – du ligger på den och låter trycket från spikarna slappna av kroppen.",
+  "badges": ["Återhämtning", "Aktiv vs passiv", "Avslappning"],
+  "howToChoose": "Välj en massagepistol om du vill bearbeta spända muskler riktat efter träning eller en lång dag, och gilla att styra själv var och hur mycket. Välj en spikmatta om du vill slappna av passivt – lägg dig ner, andas och låt kroppen mjukna – och vill ha ett lugnt kvällsritual. Många har nytta av båda för olika stunder.",
+  "verdict": "De fyller olika behov. Massagepistolen vinner för riktad muskelbearbetning efter träning, medan spikmattan vinner för passiv avslappning och nedvarvning på kvällen. Vill du ha en – välj efter om du helst är aktiv eller vill bara ligga ner och koppla av.",
+  "metaTitle": "Massagepistol eller spikmatta? Bäst återhämtning | Elins val",
+  "metaDescription": "Massagepistol eller spikmatta? Elin jämför aktiv muskelbearbetning mot passiv avslappning så du väljer rätt för återhämtning och nedvarvning.",
+  "picks": [
+    {
+      "exportName": "beurerMassagepistolProduct",
+      "path": "/halsa/massagepistol/beurer-mg-99",
+      "badge": "Aktiv & riktad",
+      "headline": "Beurer MG 99 massagepistol – bearbeta spända muskler",
+      "shortBody": "Välj massagepistolen om du vill bearbeta spända muskler riktat. Du styr själv var och hur mycket, skönt efter träning eller en lång dag.",
+      "img": "public/products/massage-guns/beurer-mg99-thumbnail.webp",
+      "brand": "Massagepistol (Beurer)"
+    },
+    {
+      "exportName": "mattibiAcupressureProduct",
+      "path": "/halsa/spikmatta",
+      "badge": "Passiv avslappning",
+      "headline": "Mattibi spikmatta – ligg ner och varva ner",
+      "shortBody": "Välj spikmattan om du vill slappna av passivt. Du lägger dig ner och låter trycket från spikarna hjälpa kroppen att mjukna – ett lugnt kvällsritual.",
+      "img": "public/products/mattibi-spikmatta/spikmatta-thumbnail.webp",
+      "brand": "Spikmatta (Mattibi)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Riktad, aktiv muskelbearbetning", "Passiv avslappning; du ligger ner"],
+    ["Bäst för", "Spända muskler efter träning", "Nedvarvning och lugn på kvällen"],
+    ["Aktiv/passiv", "Aktiv – du styr", "Passiv – du ligger stilla"],
+    ["Använd när", "Efter träning eller stelhet", "På kvällen för att varva ner"],
+    ["Ljud", "Motorljud", "Helt tyst"],
+    ["Batteri behövs?", "Ja – laddningsbar", "Nej"],
+    ["Elins poäng", "86/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på massagepistol och spikmatta?", "answer": "En massagepistol ger riktad, aktiv bearbetning av spända muskler där du styr själv. En spikmatta är passiv – du ligger på den och låter trycket från spikarna hjälpa kroppen att slappna av." },
+    { "question": "Vilken är bäst efter träning?", "answer": "Massagepistolen passar bäst efter träning eftersom du kan rikta den mot specifika, spända muskler. Spikmattan är mer till för allmän avslappning och nedvarvning." },
+    { "question": "Vilken är bäst för att varva ner på kvällen?", "answer": "Spikmattan, eftersom den är passiv och tyst. Du lägger dig ner, andas lugnt och låter kroppen mjukna – ett skönt kvällsritual innan sömnen." },
+    { "question": "Kan jag ha nytta av båda?", "answer": "Ja, många använder massagepistolen för riktad bearbetning efter träning och spikmattan för passiv avslappning på kvällen. De kompletterar varandra bra." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/massagepistol/beurer-mg-99", "label": "Massagepistol", "text": "Läs Elins recension av Beurer MG 99." },
+    { "href": "/halsa/spikmatta", "label": "Spikmatta", "text": "Läs Elins recension av Mattibi spikmatta." },
+    { "href": "/traning/foam-roller-eller-massagepistol", "label": "Jämförelse", "text": "Foam roller eller massagepistol? Se den jämförelsen." },
+    { "href": "/halsa", "label": "Hälsa", "text": "Se alla Elins val för återhämtning." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["beurer-mg-99-massagepistol", "mattibi-spikmatta"],
+  "shortTitle": "Massagepistol eller spikmatta",
+  "description": "Aktiv, riktad muskelbearbetning efter träning mot passiv avslappning på kvällen."
+}

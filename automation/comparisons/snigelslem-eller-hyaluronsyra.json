@@ -1,0 +1,65 @@
+{
+  "slug": "snigelslem-eller-hyaluronsyra",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "snigelslemEllerHyaluronsyra",
+  "h1": "Snigelslem eller hyaluronsyra?",
+  "intro": "Snigelslem (snail mucin) och hyaluronsyra är två populära återfuktande favoriter, men känns lite olika på huden. Snigelslem ger en mjuk, närande och lite geggig fukt som huden suger åt sig, medan hyaluronsyra är en lätt fuktbomb som drar åt sig och binder vatten i huden.",
+  "badges": ["Återfuktning", "Närande vs lätt", "K-beauty"],
+  "howToChoose": "Välj snigelslem om du vill ha en närande, mjukgörande fukt och gillar den lite geggiga känslan som huden suger upp – populärt för torr, trött hud. Välj hyaluronsyra om du vill ha en lätt, snabbt insugen fuktboost som fungerar bra under fuktkräm. Många lagrar faktiskt hyaluronsyra först och snigelslem ovanpå.",
+  "verdict": "Båda är snälla fuktgivare. Snigelslem vinner för en närande, mjukgörande känsla, medan hyaluronsyra vinner för en lätt, snabb fuktboost. Vill du bara ha en – välj snigelslem för torr hud och hyaluronsyra om du vill ha något lätt under kräm.",
+  "metaTitle": "Snigelslem eller hyaluronsyra? Bästa fukten | Elins val",
+  "metaDescription": "Snigelslem eller hyaluronsyra? Elin jämför närande K-beauty-fukt mot en lätt hyaluronsyra-boost så du väljer rätt återfuktning för din hud.",
+  "picks": [
+    {
+      "exportName": "cosrxSnailEssenceProduct",
+      "path": "/skonhet/snail-mucin-essence",
+      "badge": "Närande fukt",
+      "headline": "COSRX snigelslem – mjukgörande och närande",
+      "shortBody": "Välj snigelslem om du vill ha en närande, mjukgörande fukt. Den lite geggiga essensen suger huden åt sig och är populär för torr, trött hud.",
+      "img": "public/products/cosrx-snail-essence/cosrx-snail-thumbnail.webp",
+      "brand": "Snigelslem (COSRX)"
+    },
+    {
+      "exportName": "minimalistHyaluronsyraSerumProduct",
+      "path": "/skonhet/hyaluronsyra-serum",
+      "badge": "Lätt fuktboost",
+      "headline": "Minimalist hyaluronsyra – lätt och snabb fukt",
+      "shortBody": "Välj hyaluronsyra om du vill ha en lätt fuktbomb som suger in snabbt. Den binder vatten i huden och fungerar bra under fuktkräm.",
+      "img": "public/products/minimalist-hyaluronsyra-serum/minimalist-hyaluronsyra-serum-thumbnail.webp",
+      "brand": "Hyaluronsyra (Minimalist)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Närande, mjukgörande, lite geggig", "Lätt fuktbomb; suger in snabbt"],
+    ["Bäst för", "Torr, trött hud", "Alla hudtyper, under kräm"],
+    ["Känsla", "Fyllig och närande", "Lätt och snabb"],
+    ["Konsistens", "Geléaktig essens", "Lätt serum"],
+    ["Använd", "Efter rengöring, morgon/kväll", "På lätt fuktig hud, före kräm"],
+    ["Nybörjarvänligt", "Ja", "Ja"],
+    ["Elins poäng", "88/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på snigelslem och hyaluronsyra?", "answer": "Snigelslem (snail mucin) ger en närande, mjukgörande fukt med en lite geggig känsla som huden suger åt sig. Hyaluronsyra är en lätt fuktboost som snabbt sugs in och binder vatten i huden." },
+    { "question": "Vilken är bäst för torr hud?", "answer": "Snigelslem upplevs ofta som mer närande och mjukgörande, vilket passar torr och trött hud. Hyaluronsyra ger en lätt fuktboost men behöver oftast en fuktkräm ovanpå för att låsa in fukten." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, en vanlig rutin är att lägga hyaluronsyra på lätt fuktig hud först och snigelslem ovanpå, och avsluta med fuktkräm. Inför en produkt i taget så du ser hur huden trivs." },
+    { "question": "Hur använder jag hyaluronsyra rätt?", "answer": "Applicera hyaluronsyra på lätt fuktig hud och lås sedan in fukten med en fuktkräm. På helt torr hud kan den kännas mindre effektiv." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/snail-mucin-essence", "label": "Snigelslem", "text": "Läs Elins recension av COSRX snigelslem-essens." },
+    { "href": "/skonhet/hyaluronsyra-serum", "label": "Hyaluronsyra", "text": "Läs Elins recension av Minimalist hyaluronsyra." },
+    { "href": "/skonhet/vitamin-c-eller-niacinamid", "label": "Serum", "text": "Vitamin C eller niacinamid? Se den jämförelsen." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hudvårdsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["cosrx-snail-mucin-essence", "minimalist-hyaluronsyra-serum"],
+  "shortTitle": "Snigelslem eller hyaluronsyra",
+  "description": "Närande, mjukgörande K-beauty-fukt mot en lätt hyaluronsyra-boost under kräm."
+}

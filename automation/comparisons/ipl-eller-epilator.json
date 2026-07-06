@@ -1,0 +1,65 @@
+{
+  "slug": "ipl-eller-epilator",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "iplEllerEpilator",
+  "h1": "IPL eller epilator?",
+  "intro": "IPL och epilator tar båda bort hår mer långvarigt än rakning, men fungerar helt olika. IPL använder ljuspulser för att med tiden minska hårväxten, medan en epilator drar upp håret med roten varje gång så du är slät i veckor.",
+  "badges": ["Långvarig hårborttagning", "Ljus vs mekaniskt", "Skönhet"],
+  "howToChoose": "Välj IPL om du är beredd att köra regelbundna behandlingar under några månader och vill se hårväxten minska med tiden. Välj en epilator om du vill ha ett resultat direkt som håller i veckor, utan väntetid, och inte har något emot lite känsla i början. IPL passar bäst på ljus hud med mörkare hår.",
+  "verdict": "Det handlar om tidsperspektiv. IPL vinner om du vill investera i minskad hårväxt på sikt, medan epilatorn vinner om du vill vara slät i veckor direkt utan en längre kur. Kolla att IPL passar din hud- och hårfärg innan du väljer.",
+  "metaTitle": "IPL eller epilator? Vilken hårborttagning passar dig | Elins val",
+  "metaDescription": "IPL eller epilator? Elin jämför minskad hårväxt på sikt mot slät hud i veckor direkt så du väljer rätt metod för hårborttagning hemma.",
+  "picks": [
+    {
+      "exportName": "braunIplPro5Product",
+      "path": "/skonhet/ipl-harborttagning",
+      "badge": "Minskar hårväxten",
+      "headline": "Braun IPL Pro 5 – långsiktigt resultat",
+      "shortBody": "Välj IPL om du vill minska hårväxten på sikt. Med regelbundna behandlingar under några månader upplever många att håret blir glesare och tunnare.",
+      "img": "public/products/braun-ipl-pro5/braun-ipl-thumbnail.webp",
+      "brand": "IPL (Braun)"
+    },
+    {
+      "exportName": "braunSilkEpil9Product",
+      "path": "/skonhet/epilator/braun-silk-epil-9",
+      "badge": "Slät direkt",
+      "headline": "Braun Silk-épil 9 – slät i veckor",
+      "shortBody": "Välj epilatorn om du vill ha ett resultat direkt som håller i veckor. Den drar upp håret med roten, utan väntetid på en längre kur.",
+      "img": "public/products/epilators/braun-silk-epil-9-thumbnail.webp",
+      "brand": "Epilator (Braun)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Ljuspulser; minskar hårväxt på sikt", "Drar upp håret med roten; slät i veckor"],
+    ["Resultat", "Gradvis minskning över månader", "Direkt, håller i veckor"],
+    ["Tid att se effekt", "Efter flera behandlingar", "Genast"],
+    ["Passar bäst", "Ljus hud med mörkare hår", "De flesta hud- och hårtyper"],
+    ["Underhåll", "Regelbundna kurer först, sen sällan", "Var tredje–fjärde vecka"],
+    ["Känsla", "Milda ljuspulser", "Lite känsla, särskilt i början"],
+    ["Elins poäng", "86/100", "88/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på IPL och epilator?", "answer": "IPL använder ljuspulser för att gradvis minska hårväxten över flera behandlingar. En epilator drar mekaniskt upp håret med roten varje gång, så du blir slät i veckor direkt men håret växer tillbaka." },
+    { "question": "Vilken ger mest långvarigt resultat?", "answer": "IPL kan ge det mest långvariga resultatet eftersom målet är att minska hårväxten på sikt. Det kräver dock regelbundna behandlingar under några månader innan du ser tydlig effekt." },
+    { "question": "Passar IPL alla?", "answer": "IPL fungerar bäst på ljus hud med mörkare hår, eftersom ljuset riktar in sig på pigmentet i håret. Kolla tillverkarens hud- och hårfärgsguide innan du väljer IPL." },
+    { "question": "Vilken är snabbast att komma igång med?", "answer": "Epilatorn ger resultat direkt utan väntetid. IPL kräver att du kör en kur under några månader innan du ser att hårväxten minskar." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/ipl-harborttagning", "label": "IPL", "text": "Läs Elins recension av Braun IPL Pro 5." },
+    { "href": "/skonhet/epilator/braun-silk-epil-9", "label": "Epilator", "text": "Läs Elins recension av Braun Silk-épil 9." },
+    { "href": "/skonhet/epilator-eller-rakhyvel", "label": "Jämförelse", "text": "Epilator eller rakhyvel? Se den jämförelsen." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hårborttagningsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["braun-ipl-pro5", "braun-silk-epil-9"],
+  "shortTitle": "IPL eller epilator",
+  "description": "Minskad hårväxt på sikt med ljuspulser mot slät hud i veckor direkt."
+}

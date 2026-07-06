@@ -1,0 +1,65 @@
+{
+  "slug": "oronproppar-eller-white-noise",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "oronpropparEllerWhiteNoise",
+  "h1": "Öronproppar eller white noise?",
+  "intro": "Öronproppar och en white noise-maskin hjälper båda dig att sova bättre när det är stökigt runt omkring, men på motsatt sätt. Öronproppar dämpar ljudet du hör, medan en white noise-maskin lägger till ett jämnt bakgrundsljud som maskerar störande ljud.",
+  "badges": ["Bättre sömn", "Dämpa vs maskera", "Avslappning"],
+  "howToChoose": "Välj öronproppar om du vill ha det så tyst som möjligt och gillar känslan av dämpat ljud – smidigt på resan, i sovrummet eller mot snarkningar. Välj en white noise-maskin om du hellre somnar till ett jämnt, lugnande ljud som suddar ut plötsliga ljud som trafik eller grannar. Vissa kombinerar båda.",
+  "verdict": "Det handlar om hur du helst somnar. Öronproppar vinner om du vill ha tystnad och något att ta med överallt, medan white noise vinner om du somnar bäst till ett jämnt bakgrundsljud. Testa vad din hjärna gillar – helt tyst eller ett mjukt sus.",
+  "metaTitle": "Öronproppar eller white noise? Bäst för sömnen | Elins val",
+  "metaDescription": "Öronproppar eller white noise-maskin? Elin jämför att dämpa ljud mot att maskera störande ljud så du väljer rätt för att sova bättre.",
+  "picks": [
+    {
+      "exportName": "loopQuietProduct",
+      "path": "/halsa/oronproppar",
+      "badge": "Dämpar ljud",
+      "headline": "Loop Quiet öronproppar – tystare runt omkring",
+      "shortBody": "Välj öronproppar om du vill ha det så tyst som möjligt. De dämpar ljudet, är sköna att sova med och lätta att ta med på resan eller mot snarkningar.",
+      "img": "public/products/loop-quiet/oronproppar-thumbnail.webp",
+      "brand": "Öronproppar (Loop)"
+    },
+    {
+      "exportName": "magicteamWhiteNoiseProduct",
+      "path": "/halsa/white-noise",
+      "badge": "Maskerar ljud",
+      "headline": "Magicteam white noise – jämnt sömnljud",
+      "shortBody": "Välj en white noise-maskin om du somnar bäst till ett jämnt ljud. Den lägger ett lugnande sus som suddar ut plötsliga störande ljud som trafik och grannar.",
+      "img": "public/products/magicteam-white-noise/whitenoise-thumbnail.webp",
+      "brand": "White noise (Magicteam)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Dämpar ljudet du hör", "Lägger till jämnt maskerande ljud"],
+    ["Bäst för", "Tystnad, resa, mot snarkningar", "Somna till ett lugnande sus"],
+    ["Metod", "Blockerar/dämpar", "Maskerar med bakgrundsljud"],
+    ["Ta med på resa", "Ja – ryms i fickan", "Mindre smidigt att bära"],
+    ["Stör partner?", "Nej", "Kan höras i rummet"],
+    ["Bra mot plötsliga ljud", "Dämpar dem", "Maskerar dem"],
+    ["Elins poäng", "88/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på öronproppar och white noise?", "answer": "Öronproppar dämpar ljudet du hör så det blir tystare. En white noise-maskin gör tvärtom – den lägger till ett jämnt bakgrundsljud som maskerar och suddar ut störande, plötsliga ljud." },
+    { "question": "Vilken är bäst mot snarkningar?", "answer": "Öronproppar dämpar snarkljudet direkt och är smidiga att sova med. En white noise-maskin kan hjälpa genom att maskera snarkningarna med ett jämnare ljud, men dämpar dem inte lika direkt." },
+    { "question": "Vilken är bäst på resan?", "answer": "Öronproppar, eftersom de ryms i fickan och funkar överallt – på flyget, hotellet eller vandrarhemmet. En white noise-maskin är mindre smidig att bära med." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, vissa kombinerar öronproppar med ett svagt white noise för att både dämpa och maskera. Testa dig fram till vad din sömn mår bäst av." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/oronproppar", "label": "Öronproppar", "text": "Läs Elins recension av Loop Quiet öronproppar." },
+    { "href": "/halsa/white-noise", "label": "White noise", "text": "Läs Elins recension av Magicteam white noise." },
+    { "href": "/halsa", "label": "Hälsa", "text": "Se alla Elins val för sömn och avkoppling." },
+    { "href": "/halsa/massagepistol-eller-spikmatta", "label": "Återhämtning", "text": "Massagepistol eller spikmatta? Se den jämförelsen." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["loop-oronproppar", "magicteam-white-noise"],
+  "shortTitle": "Öronproppar eller white noise",
+  "description": "Dämpa ljudet med öronproppar mot att maskera störande ljud med ett jämnt sömnljud."
+}
