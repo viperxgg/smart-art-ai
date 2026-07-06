@@ -1,0 +1,65 @@
+{
+  "slug": "luftkylare-eller-flakt",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "luftkylareEllerFlakt",
+  "h1": "Luftkylare eller fläkt?",
+  "intro": "Luftkylare och fläkt svalkar båda under varma dagar, men på lite olika sätt. En fläkt rör luften så det känns svalare, medan en liten luftkylare drar luft genom vatten för en extra sval, fuktad bris precis framför dig.",
+  "badges": ["Svalka", "Bris vs fuktad kyla", "Sommar"],
+  "howToChoose": "Välj en fläkt om du vill ha en enkel, stark luftström som rör om luften i rummet eller riktas mot dig. Välj en liten luftkylare om du vill ha en extra sval, fuktad bris precis framför dig vid skrivbordet – men ha rätt förväntningar, det är en personlig modell, inte en AC. Båda är personliga svalkalösningar snarare än rumskylare.",
+  "verdict": "Det handlar om vilken känsla du vill ha. Fläkten vinner för en enkel, stark luftström och är oftast billigare, medan den lilla luftkylaren ger en extra sval, fuktad bris på nära håll. Ingen av dem kyler ett helt rum som en AC – båda är personlig svalka.",
+  "metaTitle": "Luftkylare eller fläkt? Vilken svalka ska du välja | Elins val",
+  "metaDescription": "Luftkylare eller fläkt? Elin jämför en enkel luftström mot en fuktad, sval bris så du väljer rätt personlig svalka för sommarvärmen.",
+  "picks": [
+    {
+      "exportName": "beurerLv50Product",
+      "path": "/halsa/luftkylare",
+      "badge": "Fuktad kyla",
+      "headline": "Beurer LV 50 luftkylare – sval bris med vattentank",
+      "shortBody": "Välj luftkylaren om du vill ha en extra sval, fuktad bris precis framför dig vid skrivbordet. Fyll på vatten i tanken – men se den som en personlig modell.",
+      "img": "public/products/beurer-lv50/kylare-thumbnail.webp",
+      "brand": "Luftkylare (Beurer)"
+    },
+    {
+      "exportName": "xiaomiStandingFanProduct",
+      "path": "/halsa/bordsflakt",
+      "badge": "Enkel luftström",
+      "headline": "Xiaomi fläkt – enkel, stark svalka",
+      "shortBody": "Välj fläkten om du vill ha en enkel, stark luftström. Den rör om luften och svalkar dig direkt, ofta till ett lägre pris än en luftkylare.",
+      "img": "public/products/xiaomi-fan/xiaomi-fan-thumbnail.webp",
+      "brand": "Fläkt (Xiaomi)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Drar luft genom vatten; sval, fuktad bris", "Rör luften; enkel, stark luftström"],
+    ["Känsla", "Extra sval på nära håll", "Svalkande luftström"],
+    ["Vatten behövs?", "Ja – vattentank", "Nej"],
+    ["Räckvidd", "Personlig, nära håll", "Kan riktas eller sprida i rummet"],
+    ["Kyler ett helt rum?", "Nej – personlig", "Nej – personlig/rummet delvis"],
+    ["Prisläge", "Mellan", "Budget"],
+    ["Elins poäng", "82/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på luftkylare och fläkt?", "answer": "En fläkt rör bara luften så det känns svalare. En liten luftkylare drar luft genom vatten och ger en extra sval, fuktad bris framför dig. Ingen av dem är en AC som kyler ett helt rum." },
+    { "question": "Kyler en luftkylare på riktigt?", "answer": "En liten bordsluftkylare ger en svalare känsla på nära håll tack vare det fuktade luftflödet, men den kyler inte ett helt rum. Se den som en personlig svalka, inte en luftkonditionering." },
+    { "question": "Vilken är billigast?", "answer": "En vanlig fläkt är oftast billigare och enklare. Luftkylaren kostar lite mer och kräver att du fyller på vatten, men ger en extra sval känsla precis framför dig." },
+    { "question": "Vilken är bäst vid skrivbordet?", "answer": "Båda fungerar vid skrivbordet. Vill du ha maximal, sval känsla på nära håll är luftkylaren skön. Vill du ha en enkel, stark luftström räcker en fläkt gott." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/luftkylare", "label": "Luftkylare", "text": "Läs Elins recension av Beurer LV 50 luftkylare." },
+    { "href": "/halsa/bordsflakt", "label": "Fläkt", "text": "Läs Elins recension av Xiaomi bordsfläkt." },
+    { "href": "/halsa/tornflakt-eller-bordsflakt", "label": "Jämförelse", "text": "Tornfläkt eller bordsfläkt? Se den jämförelsen." },
+    { "href": "/halsa/flakt", "label": "Fläkt", "text": "Se alla Elins fläktar för sommaren." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["beurer-luftkylare", "xiaomi-bordsflakt"],
+  "shortTitle": "Luftkylare eller fläkt",
+  "description": "En fuktad, extra sval bris på nära håll mot en enkel, stark luftström."
+}

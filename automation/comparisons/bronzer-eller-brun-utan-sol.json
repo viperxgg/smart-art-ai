@@ -1,0 +1,65 @@
+{
+  "slug": "bronzer-eller-brun-utan-sol",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "bronzerEllerBrunUtanSol",
+  "h1": "Bronzer eller brun utan sol?",
+  "intro": "Bronzer och brun-utan-sol ger båda en solkysst look utan sol, men på olika sätt och tidsskala. Bronzing drops blandar du i din kräm för en direkt glow som tvättas av på kvällen, medan brun-utan-sol utvecklas till en verklig färg som håller i flera dagar.",
+  "badges": ["Solkysst utan sol", "Direkt vs håller", "Sommar"],
+  "howToChoose": "Välj bronzer/bronzing drops om du vill ha en glow för dagen som du sköljer av på kvällen och gilla att kunna styra intensiteten från gång till gång. Välj brun-utan-sol om du vill ha en verklig, jämn färg som håller i flera dagar utan att sminka om. Många har bronzing drops för snabb glow och brun-utan-sol inför längre tillfällen.",
+  "verdict": "Det handlar om hur länge du vill vara solkysst. Bronzing drops vinner för en snabb, tvättbar glow, medan brun-utan-sol vinner för en färg som håller i dagar. Vill du ha en – välj drops för flexibel glow och brun-utan-sol för hållbar färg.",
+  "metaTitle": "Bronzer eller brun utan sol? Solkysst utan sol | Elins val",
+  "metaDescription": "Bronzer eller brun utan sol? Elin jämför en tvättbar glow för dagen mot en färg som håller i flera dagar så du väljer rätt för din solkyssta look.",
+  "picks": [
+    {
+      "exportName": "elfSkinBronzingDropsProduct",
+      "path": "/skonhet/bronzing-drops",
+      "badge": "Glow för dagen",
+      "headline": "e.l.f. bronzing drops – solkysst direkt",
+      "shortBody": "Välj bronzing drops om du vill ha en glow för dagen. Du blandar dem i kräm eller foundation, styr intensiteten och sköljer av på kvällen.",
+      "img": "public/products/bronzing-drops-elf/bronzing-drops-elf-thumbnail.webp",
+      "brand": "Bronzing drops (e.l.f.)"
+    },
+    {
+      "exportName": "bondiSandsMousseProduct",
+      "path": "/skonhet/brun-utan-sol-mousse",
+      "badge": "Håller i dagar",
+      "headline": "Bondi Sands brun utan sol – verklig färg som sitter",
+      "shortBody": "Välj brun-utan-sol om du vill ha en verklig, jämn färg som håller i flera dagar. Moussen är enkel att lägga jämnt och ger en solbränd ton.",
+      "img": "public/products/bondi-sands-mousse/bondi-mousse-thumbnail.webp",
+      "brand": "Brun utan sol (Bondi Sands)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Glow i kräm; tvättas av", "Utvecklas till färg som håller"],
+    ["Håller", "Tills du tvättar av (samma dag)", "Flera dagar"],
+    ["Styr intensitet", "Ja – doseras i kräm", "Delvis – via lagertjocklek"],
+    ["Applicering", "Bland i din kräm/foundation", "Applicera med vante på ren hud"],
+    ["Bäst för", "Snabb glow inför en dag", "Hållbar färg inför tillfällen"],
+    ["Nybörjarvänligt", "Mycket", "Bra – exfoliera först"],
+    ["Elins poäng", "86/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på bronzer och brun utan sol?", "answer": "Bronzing drops ger en glow som du blandar i kräm och sköljer av på kvällen. Brun-utan-sol utvecklas till en verklig färg som håller i flera dagar innan den tonas bort." },
+    { "question": "Vilken är enklast för nybörjare?", "answer": "Bronzing drops är väldigt lättanvända – du doserar dem själv i din kräm. Brun-utan-sol kräver lite mer teknik, men en färgad mousse gör det enklare att lägga jämnt." },
+    { "question": "Vilken ser mest naturlig ut?", "answer": "Bägge kan se naturliga ut om du bygger upp försiktigt. Bronzing drops ger en subtil glow, medan brun-utan-sol ger en tydligare, mer solbränd färg. Börja lätt och bygg på." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, många har bronzing drops för snabb glow i vardagen och brun-utan-sol inför tillfällen då de vill ha en hållbar färg som sitter i flera dagar." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/bronzing-drops", "label": "Bronzing drops", "text": "Läs Elins recension av e.l.f. bronzing drops." },
+    { "href": "/skonhet/brun-utan-sol-mousse", "label": "Brun utan sol", "text": "Läs Elins recension av Bondi Sands mousse." },
+    { "href": "/skonhet/st-tropez-eller-bondi-sands", "label": "Jämförelse", "text": "St.Tropez eller Bondi Sands? Se den jämförelsen." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins sommar-glow-favoriter." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["elf-skin-bronzing-drops", "bondi-sands-mousse"],
+  "shortTitle": "Bronzer eller brun utan sol",
+  "description": "En tvättbar glow för dagen mot en verklig färg som håller i flera dagar."
+}

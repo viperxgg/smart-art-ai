@@ -1,0 +1,64 @@
+{
+  "slug": "brynserum-eller-brynlaminering",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "brynserumEllerBrynlaminering",
+  "h1": "Brynserum eller brynlaminering?",
+  "intro": "Brynserum och brynlaminering ger båda fylligare bryn, men på olika sätt och tidsskala. Ett brynserum används dagligen för att med tiden ge intrycket av tätare, fylligare bryn, medan brynlaminering hemma sätter och borstar upp håren för en fyllig, uppborstad look direkt som håller i veckor.",
+  "badges": ["Fylligare bryn", "Långsiktigt vs direkt", "Bryn"],
+  "howToChoose": "Välj ett brynserum om du vill jobba långsiktigt och gilla en enkel daglig rutin – du stryker på och låter tiden göra jobbet. Välj brynlaminering hemma om du vill ha en fyllig, uppborstad bryn-look direkt som håller i veckor, och inte har något emot ett par steg med kit. Många använder serum dagligen och laminering då och då.",
+  "verdict": "Det handlar om direkt look mot långsiktigt uttryck. Brynserumet vinner för en enkel daglig rutin, medan brynlamineringen vinner för en fyllig, uppborstad effekt direkt. Vill du ha båda: serum i vardagen och laminering inför tillfällen.",
+  "metaTitle": "Brynserum eller brynlaminering? Fylligare bryn | Elins val",
+  "metaDescription": "Brynserum eller brynlaminering hemma? Elin jämför en daglig rutin mot en fyllig, uppborstad look direkt så du väljer rätt för dina bryn.",
+  "picks": [
+    {
+      "exportName": "nanobrowBrynserumProduct",
+      "path": "/skonhet/brynserum",
+      "badge": "Daglig rutin",
+      "headline": "Nanobrow brynserum – fylligare uttryck med tiden",
+      "shortBody": "Välj brynserum om du vill ha en enkel daglig rutin. Du stryker på och låter tiden ge intrycket av tätare, fylligare bryn.",
+      "img": "public/products/nanobrow-brynserum/nanobrow-thumbnail.webp",
+      "brand": "Brynserum (Nanobrow)"
+    },
+    {
+      "exportName": "sorellaBrowLamProduct",
+      "path": "/skonhet/brynlaminering",
+      "badge": "Fyllig look direkt",
+      "headline": "Sorella brynlaminering – uppborstat direkt",
+      "shortBody": "Välj brynlaminering hemma om du vill ha en fyllig, uppborstad look direkt som håller i veckor. Kitet sätter håren på plats i ett par enkla steg.",
+      "img": "public/products/sorella-brow-lam/sorella-thumbnail.webp",
+      "brand": "Brynlaminering (Sorella)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Dagligt serum; fylligt uttryck med tiden", "Kit som sätter håren; fyllig look direkt"],
+    ["Resultat", "Gradvis, med daglig användning", "Direkt, håller i veckor"],
+    ["Insats", "Enkel daglig rutin", "Ett par steg med kit"],
+    ["Håller", "Så länge du fortsätter", "Ofta några veckor per laminering"],
+    ["Bäst för", "Långsiktigt uttryck", "Fyllig look inför tillfällen"],
+    ["Nybörjarvänligt", "Mycket", "Bra – följ stegen noga"],
+    ["Elins poäng", "86/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på brynserum och brynlaminering?", "answer": "Ett brynserum används dagligen och ger med tiden intrycket av tätare, fylligare bryn. Brynlaminering hemma sätter och borstar upp håren för en fyllig look direkt som håller i några veckor." },
+    { "question": "Vilken ger resultat direkt?", "answer": "Brynlaminering ger en fyllig, uppborstad look direkt, medan ett brynserum jobbar långsiktigt och märks först efter en tids daglig användning." },
+    { "question": "Hur ofta gör man om en laminering?", "answer": "En brynlaminering håller ofta i några veckor. Sedan gör du om den. Följ tiderna i kitet noga, eftersom håren är känsliga för hur länge produkterna sitter på." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, många använder ett brynserum i vardagen för det långsiktiga uttrycket och lamineringen inför tillfällen då de vill ha en extra fyllig look." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/brynserum", "label": "Brynserum", "text": "Läs Elins recension av Nanobrow brynserum." },
+    { "href": "/skonhet/brynlaminering", "label": "Brynlaminering", "text": "Läs Elins recension av Sorella brynlaminering." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins bryn- och fransval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["nanobrow-brynserum", "sorella-brynlaminering"],
+  "shortTitle": "Brynserum eller brynlaminering",
+  "description": "En enkel daglig rutin för fylligare uttryck mot en fyllig, uppborstad look direkt."
+}

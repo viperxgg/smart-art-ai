@@ -1,0 +1,65 @@
+{
+  "slug": "foot-peel-eller-elektrisk-fotfil",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "footPeelEllerElektriskFotfil",
+  "h1": "Foot peel mask eller elektrisk fotfil?",
+  "intro": "Foot peel mask och elektrisk fotfil ger båda sandalfina fötter, men jobbar helt olika. En foot peel mask får torr hud på fötterna att flagna av av sig själv under en till två veckor, medan en elektrisk fotfil filar bort hård hud direkt när du vill.",
+  "badges": ["Sandalfina fötter", "Flagnar vs filar", "Sommar"],
+  "howToChoose": "Välj en foot peel mask om du vill ha ett djupare resultat och inte har något emot att fötterna flagnar under en tid – planera den ett par veckor innan sommaren. Välj en elektrisk fotfil om du vill file bort hård hud direkt och underhålla lite då och då, utan flagningsperiod.",
+  "verdict": "Det handlar om tålamod mot direkt resultat. Foot peel mask vinner för ett djupare, jämnare resultat om du planerar i tid, medan den elektriska fotfilen vinner för snabbt, kontrollerat underhåll när du vill. Många gör en peel inför sommaren och underhåller sedan med fotfil.",
+  "metaTitle": "Foot peel mask eller elektrisk fotfil? | Elins val",
+  "metaDescription": "Foot peel mask eller elektrisk fotfil? Elin jämför djup flagning över tid mot direkt filning så du får sandalfina fötter till sommaren.",
+  "picks": [
+    {
+      "exportName": "plantifiqueFootPeelProduct",
+      "path": "/skonhet/foot-peel-mask",
+      "badge": "Djupare resultat",
+      "headline": "Plantifique foot peel mask – fötterna flagnar rena",
+      "shortBody": "Välj foot peel mask om du vill ha ett djupare resultat. Torr hud flagnar av av sig själv under en till två veckor och lämnar mjukare fötter. Planera i tid.",
+      "img": "public/products/plantifique-foot-peel/foot-peel-thumbnail.webp",
+      "brand": "Foot peel (Plantifique)"
+    },
+    {
+      "exportName": "vxdoirkElektriskFotfilProduct",
+      "path": "/skonhet/elektrisk-fotfil",
+      "badge": "Direkt & kontrollerat",
+      "headline": "VXDOIRK elektrisk fotfil – fila bort direkt",
+      "shortBody": "Välj den elektriska fotfilen om du vill ta bort hård hud direkt och underhålla då och då. Du styr själv och slipper flagningsperiod.",
+      "img": "public/products/vxdoirk-elektrisk-fotfil/elektrisk-fotfil-vxdoirk-thumbnail.webp",
+      "brand": "Fotfil (VXDOIRK)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Huden flagnar av sig själv över tid", "Filar bort hård hud direkt"],
+    ["Resultat", "Djupare, jämnare", "Snabbt och kontrollerat"],
+    ["Tid", "Flagnar under 1–2 veckor", "Klart på några minuter"],
+    ["Flagningsperiod?", "Ja – planera i tid", "Nej"],
+    ["Underhåll", "Några gånger per säsong", "Lite då och då"],
+    ["Bäst inför", "Sommaren, med framförhållning", "Snabb koll innan sandalerna"],
+    ["Elins poäng", "86/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Hur funkar en foot peel mask?", "answer": "Du har fötterna i maskerna en stund, och under den kommande en till två veckorna flagnar torr hud av av sig själv, vilket lämnar mjukare fötter. Ryck aldrig i huden – låt den flagna naturligt." },
+    { "question": "Gör en foot peel att fötterna ser konstiga ut ett tag?", "answer": "Ja, under flagningsperioden kan fötterna se lite skalande ut. Därför är det smart att göra den ett par veckor innan du ska visa fötterna, till exempel inför sommaren." },
+    { "question": "Vilken ger snabbast resultat?", "answer": "Den elektriska fotfilen, eftersom den filar bort hård hud direkt på några minuter utan flagningsperiod. Foot peel-masken ger ett djupare men långsammare resultat." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, ett vanligt upplägg är att göra en foot peel inför sommaren för ett djupare resultat och sedan underhålla med den elektriska fotfilen då och då." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/foot-peel-mask", "label": "Foot peel", "text": "Läs Elins recension av Plantifique foot peel mask." },
+    { "href": "/skonhet/elektrisk-fotfil", "label": "Elektrisk fotfil", "text": "Läs Elins recension av VXDOIRK elektrisk fotfil." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins fotvårdsval." },
+    { "href": "/sommar", "label": "Sommar", "text": "Fler av Elins sommarfixar." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["plantifique-foot-peel", "vxdoirk-elektrisk-fotfil"],
+  "shortTitle": "Foot peel eller elektrisk fotfil",
+  "description": "Djup flagning över ett par veckor mot direkt, kontrollerad filning av hård hud."
+}
