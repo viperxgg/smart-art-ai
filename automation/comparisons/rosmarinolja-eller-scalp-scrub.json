@@ -1,0 +1,64 @@
+{
+  "slug": "rosmarinolja-eller-scalp-scrub",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "rosmarinoljaEllerScalpScrub",
+  "h1": "Rosmarinolja eller scalp scrub?",
+  "intro": "Rosmarinolja och scalp scrub är två populära sätt att pyssla om hårbotten, men de gör olika saker. Rosmarinolja masserar du in för att pyssla om hårbotten och ge håret liv, medan en scalp scrub exfolierar hårbotten och tar bort produktrester och flagor för en renare känsla.",
+  "badges": ["Hårbotten", "Vårda vs rengöra", "Hår"],
+  "howToChoose": "Välj rosmarinolja om du vill massera in en omtyckt olja i hårbotten som en del av din hårrutin och gilla en avslappnande massage. Välj en scalp scrub om hårbotten känns fet, kladdig eller full av produktrester och du vill exfoliera för en renare, fräschare känsla. Många exfolierar med scrub ibland och masserar in rosmarinolja däremellan.",
+  "verdict": "De kompletterar varandra. Rosmarinoljan vinner för att pyssla om och massera hårbotten, medan scalp scrub vinner för att exfoliera och fräscha upp. Vårda och massera – rosmarinolja. Rengöra och exfoliera – scalp scrub.",
+  "metaTitle": "Rosmarinolja eller scalp scrub? Vårda hårbotten | Elins val",
+  "metaDescription": "Rosmarinolja eller scalp scrub? Elin jämför att vårda och massera hårbotten mot att exfoliera och rengöra den så du väljer rätt för håret.",
+  "picks": [
+    {
+      "exportName": "mielleRosemaryOilProduct",
+      "path": "/skonhet/rosmarinolja",
+      "badge": "Vårdar & masserar",
+      "headline": "Mielle rosmarinolja – pyssla om hårbotten",
+      "shortBody": "Välj rosmarinoljan om du vill massera in en omtyckt olja i hårbotten som en del av din rutin. Skönt, avslappnande och ger håret liv.",
+      "img": "public/products/mielle-rosemary/mielle-thumbnail.webp",
+      "brand": "Rosmarinolja (Mielle)"
+    },
+    {
+      "exportName": "inkeyScalpScrubProduct",
+      "path": "/skonhet/scalp-scrub",
+      "badge": "Exfolierar & rengör",
+      "headline": "The INKEY List scalp scrub – renare hårbotten",
+      "shortBody": "Välj scalp scrub om hårbotten känns fet eller kladdig. Den exfolierar och tar bort produktrester och flagor för en renare, fräschare känsla.",
+      "img": "public/products/inkey-scalp-scrub/inkey-scrub-thumbnail.webp",
+      "brand": "Scalp scrub (INKEY)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Massera in i hårbotten; vårdar", "Exfolierar; tar bort produktrester"],
+    ["Bäst för", "Pyssla om och massera hårbotten", "Fet, kladdig hårbotten eller flagor"],
+    ["Typ", "Olja att massera in", "Peeling i duschen"],
+    ["Hur ofta", "Några gånger i veckan", "Ungefär en gång i veckan"],
+    ["Känsla", "Avslappnande massage", "Renare och fräschare"],
+    ["Sköljs av?", "Kan lämnas eller tvättas ur", "Ja – sköljs ur"],
+    ["Elins poäng", "84/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på rosmarinolja och scalp scrub?", "answer": "Rosmarinolja masserar du in i hårbotten som en omtyckt del av hårrutinen. En scalp scrub exfolierar hårbotten och tar bort produktrester och flagor för en renare känsla. De gör alltså olika saker." },
+    { "question": "Hur ofta ska jag använda dem?", "answer": "Rosmarinolja masseras ofta in några gånger i veckan. En scalp scrub används mer sällan, ungefär en gång i veckan, eftersom du inte vill överexfoliera hårbotten." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, många exfolierar med scalp scrub ibland för en ren hårbotten och masserar in rosmarinolja däremellan som en skön rutin. Anpassa efter hur hårbotten känns." },
+    { "question": "Hur masserar jag in rosmarinolja?", "answer": "Applicera några droppar på hårbotten och massera in med fingertopparna i cirkelrörelser en stund. Det är både skönt och hjälper produkten att fördelas jämnt." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/rosmarinolja", "label": "Rosmarinolja", "text": "Läs Elins recension av Mielle rosmarinolja." },
+    { "href": "/skonhet/scalp-scrub", "label": "Scalp scrub", "text": "Läs Elins recension av INKEY scalp scrub." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hår- och hårbottenval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["mielle-rosemary-oil", "inkey-scalp-scrub"],
+  "shortTitle": "Rosmarinolja eller scalp scrub",
+  "description": "Vårda och massera hårbotten med rosmarinolja mot att exfoliera och rengöra den med en scalp scrub."
+}

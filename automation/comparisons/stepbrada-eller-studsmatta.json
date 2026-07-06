@@ -1,0 +1,65 @@
+{
+  "slug": "stepbrada-eller-studsmatta",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "stepbradaEllerStudsmatta",
+  "h1": "Stepbräda eller studsmatta?",
+  "intro": "Stepbräda och studsmatta ger båda pulshöjande konditionsträning hemma, men på olika sätt. En stepbräda tränar puls och ben med upp- och nedsteg i justerbar höjd, medan en fitness-studsmatta ger skonsam, lekfull studsträning som är snäll mot lederna.",
+  "badges": ["Kondition hemma", "Steg vs studs", "Kul"],
+  "howToChoose": "Välj en stepbräda om du vill ha en tydlig, justerbar konditionsträning för ben och puls och gilla step-pass och styrkeövningar med höjd. Välj en studsmatta om du vill ha skonsam, rolig kondition som är snäll mot knän och rygg. Stepbräda för strukturerad benträning, studsmatta för lekfull och ledvänlig puls.",
+  "verdict": "Båda höjer pulsen hemma. Stepbrädan vinner för justerbar, strukturerad benträning, medan studsmattan vinner för skonsam, kul kondition. Vill du träna ben och styra intensiteten – stepbräda. Vill du skona lederna och ha kul – studsmatta.",
+  "metaTitle": "Stepbräda eller studsmatta? Bäst kondition hemma | Elins val",
+  "metaDescription": "Stepbräda eller studsmatta? Elin jämför justerbar benträning mot skonsam studsträning så du väljer rätt för kondition hemma.",
+  "picks": [
+    {
+      "exportName": "reebokStepProduct",
+      "path": "/traning/stepbrada",
+      "badge": "Justerbar benträning",
+      "headline": "Reebok stepbräda – puls och ben med höjd",
+      "shortBody": "Välj stepbrädan om du vill ha justerbar konditionsträning för ben och puls. Upp- och nedsteg i valbar höjd passar step-pass och styrkeövningar.",
+      "img": "public/products/reebok-step/step-thumbnail.webp",
+      "brand": "Stepbräda (Reebok)"
+    },
+    {
+      "exportName": "dhFitlifeTrampolineProduct",
+      "path": "/traning/studsmatta",
+      "badge": "Skonsamt & kul",
+      "headline": "DH FitLife studsmatta – ledvänlig kondition",
+      "shortBody": "Välj studsmattan om du vill ha skonsam, rolig kondition. Studsandet är snällt mot knän och rygg och gör det lätt att hålla igång längre.",
+      "img": "public/products/dh-trampoline/trampoline-thumbnail.webp",
+      "brand": "Studsmatta (DH FitLife)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Upp- och nedsteg; justerbar höjd", "Skonsam studsträning; ledvänlig"],
+    ["Bäst för", "Ben, puls, step-pass", "Skonsam, rolig kondition"],
+    ["Ledvänligt", "Medel – landningar i steg", "Ja – mjuk studs"],
+    ["Justerbart", "Ja – höjden", "Nej"],
+    ["Kul-faktor", "Strukturerat", "Lekfullt"],
+    ["Plats", "Tar en bit golv", "Tar en bit golv"],
+    ["Elins poäng", "84/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på stepbräda och studsmatta?", "answer": "En stepbräda tränar ben och puls med upp- och nedsteg i justerbar höjd, ofta i step-pass. En fitness-studsmatta ger skonsam, lekfull studsträning som är snäll mot lederna." },
+    { "question": "Vilken är skonsammast för lederna?", "answer": "Studsmattan är skonsammare eftersom mattan tar upp stöten i varje studs. Stepbrädan ger tydlig benträning men landningarna belastar knän lite mer, särskilt på högre höjd." },
+    { "question": "Vilken ger bäst benträning?", "answer": "Stepbrädan är mer inriktad på ben och kan även användas för styrkeövningar med höjd. Studsmattan tränar också ben och kondition men med fokus på skonsam puls." },
+    { "question": "Kan jag justera intensiteten?", "answer": "På stepbrädan justerar du höjden för att öka eller minska intensiteten. På studsmattan styr du intensiteten genom hur högt och snabbt du studsar." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/stepbrada", "label": "Stepbräda", "text": "Läs Elins recension av Reebok stepbräda." },
+    { "href": "/traning/studsmatta", "label": "Studsmatta", "text": "Läs Elins recension av DH FitLife studsmatta." },
+    { "href": "/traning/studsmatta-eller-hopprep", "label": "Jämförelse", "text": "Studsmatta eller hopprep? Se den jämförelsen." },
+    { "href": "/traning", "label": "Träning", "text": "Se alla Elins val för kondition hemma." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["reebok-stepbrada", "dh-fitlife-studsmatta"],
+  "shortTitle": "Stepbräda eller studsmatta",
+  "description": "Justerbar benträning med stepbräda mot skonsam, lekfull studsträning."
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "leave-in-eller-harolja",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "leaveInEllerHarolja",
+  "h1": "Leave-in eller hårolja?",
+  "intro": "Leave-in conditioner och hårolja vårdar båda torrt hår, men vid olika tillfällen och på olika sätt. En leave-in är en lätt, återfuktande vård du sprayar eller applicerar i fuktigt hår för att reda ut och skydda, medan en hårolja är en mer koncentrerad vård som tämjer frissighet och ger glans, oftast i topparna.",
+  "badges": ["Hårvård", "Återfukta vs glans", "Vardag"],
+  "howToChoose": "Välj en leave-in om du vill återfukta och göra håret lättkammat direkt efter duschen, särskilt om det lätt blir torrt eller trassligt. Välj en hårolja om du vill tämja frissighet och ge glans, gärna på lite torra toppar. Många använder en leave-in i fuktigt hår och avslutar med några droppar hårolja i topparna.",
+  "verdict": "De kompletterar varandra. Leave-in vinner för lätt återfuktning och utredning i hela håret, medan håroljan vinner för glans och att tämja frissighet i topparna. Torrt, trassligt hår – leave-in. Frissigt, matt hår – hårolja.",
+  "metaTitle": "Leave-in eller hårolja? Vilken hårvård passar dig | Elins val",
+  "metaDescription": "Leave-in eller hårolja? Elin jämför lätt återfuktning mot glans och antifriss så du väljer rätt vård för torrt eller frissigt hår.",
+  "picks": [
+    {
+      "exportName": "cantuLeaveInProduct",
+      "path": "/skonhet/leave-in-conditioner",
+      "badge": "Återfuktar & reder ut",
+      "headline": "Cantu leave-in – mjukt, lättkammat hår",
+      "shortBody": "Välj leave-in om du vill återfukta och göra håret lättkammat direkt efter duschen. Skönt för torrt eller trassligt hår som behöver fukt och skydd.",
+      "img": "public/products/cantu-leave-in/cantu-thumbnail.webp",
+      "brand": "Leave-in (Cantu)"
+    },
+    {
+      "exportName": "moroccanoilHaroljaProduct",
+      "path": "/skonhet/harolja",
+      "badge": "Glans & antifriss",
+      "headline": "Moroccanoil hårolja – glans och tämjd frissighet",
+      "shortBody": "Välj håroljan om du vill tämja frissighet och ge glans. Några droppar i topparna gör håret blankare och mjukare utan att tynga.",
+      "img": "public/products/moroccanoil-harolja/harolja-moroccanoil-thumbnail.webp",
+      "brand": "Hårolja (Moroccanoil)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Lätt återfuktning; reder ut", "Koncentrerad glans; tämjer frissighet"],
+    ["Bäst för", "Torrt, trassligt hår", "Frissigt, matt hår"],
+    ["Applicering", "I fuktigt hår, hela längden", "På lite torra toppar"],
+    ["Känsla", "Lätt och återfuktande", "Rik men bör doseras sparsamt"],
+    ["Risk att tynga", "Låg", "Om du tar för mycket"],
+    ["När", "Efter dusch", "Efter dusch eller på torrt hår"],
+    ["Elins poäng", "84/100", "88/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på leave-in och hårolja?", "answer": "En leave-in är en lätt, återfuktande vård du applicerar i fuktigt hår för att reda ut och skydda. En hårolja är mer koncentrerad och används oftast i topparna för glans och att tämja frissighet." },
+    { "question": "Vilken är bäst för torrt hår?", "answer": "En leave-in ger lätt återfuktning i hela håret och är skön för torrt, trassligt hår. En hårolja tillför glans men fokuserar mer på topparna och frissighet." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, ett vanligt upplägg är leave-in i fuktigt hår efter duschen och sedan några droppar hårolja i topparna när håret torkat. Då får du både fukt och glans." },
+    { "question": "Hur mycket hårolja ska jag använda?", "answer": "Börja med några få droppar och jobba in i topparna. Tar du för mycket kan håret kännas tyngt eller flottigt. Det är lättare att lägga till än att tvätta bort." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/leave-in-conditioner", "label": "Leave-in", "text": "Läs Elins recension av Cantu leave-in." },
+    { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Läs Elins recension av Moroccanoil hårolja." },
+    { "href": "/skonhet/harolja-eller-varmeskydd", "label": "Jämförelse", "text": "Hårolja eller värmeskydd? Se den jämförelsen." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hårvårdsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["cantu-leave-in-conditioner", "moroccanoil-harolja"],
+  "shortTitle": "Leave-in eller hårolja",
+  "description": "Lätt återfuktning och utredning med leave-in mot glans och antifriss med hårolja."
+}

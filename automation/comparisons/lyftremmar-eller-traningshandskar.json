@@ -1,0 +1,64 @@
+{
+  "slug": "lyftremmar-eller-traningshandskar",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "lyftremmarEllerTraningshandskar",
+  "h1": "Lyftremmar eller träningshandskar?",
+  "intro": "Lyftremmar och träningshandskar hjälper båda greppet i gymmet, men på olika sätt. Lyftremmar avlastar greppet vid tunga lyft som marklyft och rodd så du orkar fler repetitioner, medan träningshandskar skyddar handflatorna mot skavsår och ger ett stadigare grepp.",
+  "badges": ["Gymtillbehör", "Avlasta grepp vs skydda händer", "Styrka"],
+  "howToChoose": "Välj lyftremmar om du lyfter tungt och märker att greppet ger upp innan musklerna – de hjälper dig hålla i stången längre i drag- och lyftövningar. Välj träningshandskar om du främst vill skydda händerna mot skavsår och valkar och ha ett stadigare grepp i allmän träning. Många använder handskar till vardags och remmar för de tyngsta lyften.",
+  "verdict": "Det handlar om ditt behov. Lyftremmar vinner för tunga lyft där greppet är begränsningen, medan träningshandskar vinner för handskydd och komfort i allmän träning. Tunga drag – remmar. Skydda händerna – handskar.",
+  "metaTitle": "Lyftremmar eller träningshandskar? Vilket behöver du | Elins val",
+  "metaDescription": "Lyftremmar eller träningshandskar? Elin jämför att avlasta greppet vid tunga lyft mot att skydda händerna så du väljer rätt gymtillbehör.",
+  "picks": [
+    {
+      "exportName": "fitgriffStrapsProduct",
+      "path": "/traning/lifting-straps",
+      "badge": "Avlastar greppet",
+      "headline": "Fitgriff lyftremmar – håll i stången längre",
+      "shortBody": "Välj lyftremmar om du lyfter tungt och greppet ger upp innan musklerna. De avlastar greppet i marklyft och rodd så du orkar fler repetitioner.",
+      "img": "public/products/fitgriff-straps/straps-thumbnail.webp",
+      "brand": "Lyftremmar (Fitgriff)"
+    },
+    {
+      "exportName": "ihuanGlovesProduct",
+      "path": "/traning/traningshandskar",
+      "badge": "Skyddar händerna",
+      "headline": "ihuan träningshandskar – skydd och stadigt grepp",
+      "shortBody": "Välj träningshandskar om du vill skydda handflatorna mot skavsår och valkar och ha ett stadigare grepp i allmän träning.",
+      "img": "public/products/ihuan-gloves/handskar-thumbnail.webp",
+      "brand": "Träningshandskar (ihuan)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Avlastar greppet vid tunga lyft", "Skyddar händerna; stadigare grepp"],
+    ["Bäst för", "Marklyft, rodd, tunga drag", "Allmän träning, handskydd"],
+    ["Löser", "Greppet ger upp före musklerna", "Skavsår och valkar"],
+    ["När", "De tyngsta lyften", "Vardagsträning"],
+    ["Passform", "Runt handled och stång", "På händerna"],
+    ["Nybörjarvänligt", "Bra – lär dig tekniken", "Ja"],
+    ["Elins poäng", "86/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på lyftremmar och träningshandskar?", "answer": "Lyftremmar avlastar greppet vid tunga lyft så du orkar hålla i stången längre. Träningshandskar skyddar handflatorna mot skavsår och valkar och ger ett stadigare grepp i allmän träning." },
+    { "question": "Vilket behöver jag för tunga marklyft?", "answer": "Lyftremmar, om du märker att greppet ger upp innan musklerna i drag- och lyftövningar. De hjälper dig få ut mer av ryggen och benen utan att greppet blir begränsningen." },
+    { "question": "Skyddar handskar mot valkar?", "answer": "Ja, träningshandskar minskar risken för skavsår och valkar i handflatorna, vilket många uppskattar i allmän styrketräning och när man tränar ofta." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, många har handskar för komfort i vardagsträningen och lyftremmar för de allra tyngsta lyften. De löser olika saker och kompletterar varandra bra." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/lifting-straps", "label": "Lyftremmar", "text": "Läs Elins recension av Fitgriff lyftremmar." },
+    { "href": "/traning/traningshandskar", "label": "Träningshandskar", "text": "Läs Elins recension av ihuan träningshandskar." },
+    { "href": "/traning", "label": "Träning", "text": "Se alla Elins gymtillbehör." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["fitgriff-lifting-straps", "ihuan-traningshandskar"],
+  "shortTitle": "Lyftremmar eller träningshandskar",
+  "description": "Avlasta greppet vid tunga lyft med remmar mot att skydda händerna med träningshandskar."
+}

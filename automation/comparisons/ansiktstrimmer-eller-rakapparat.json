@@ -1,0 +1,65 @@
+{
+  "slug": "ansiktstrimmer-eller-rakapparat-dam",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "ansiktstrimmerEllerRakapparat",
+  "h1": "Ansiktstrimmer eller rakapparat för dam?",
+  "intro": "Ansiktstrimmer och rakapparat för dam tar båda bort fina hår i ansiktet, men på olika sätt. En ansiktstrimmer är liten och exakt för att snygga till bryn, överläpp och kinder, medan en rakapparat för dam täcker större ytor snabbt och skonsamt på både ansikte och kropp.",
+  "badges": ["Ansiktshår", "Exakt vs snabbt", "Skonsamt"],
+  "howToChoose": "Välj en ansiktstrimmer om du vill ha ett litet, exakt verktyg för att forma bryn och ta bort fina hår på överläpp och kinder med precision. Välj en rakapparat för dam om du vill kunna raka större ytor snabbt och skonsamt, i ansiktet eller på kroppen. Många har en trimmer för detaljer och en rakapparat för större ytor.",
+  "verdict": "Det handlar om precision mot yta. Ansiktstrimmern vinner för exakt formning av små områden, medan rakapparaten vinner för att snabbt sköta större ytor. Detaljer och bryn – trimmer. Större ytor snabbt – rakapparat.",
+  "metaTitle": "Ansiktstrimmer eller rakapparat för dam? | Elins val",
+  "metaDescription": "Ansiktstrimmer eller rakapparat för dam? Elin jämför exakt formning av fina hår mot snabb, skonsam rakning av större ytor så du väljer rätt.",
+  "picks": [
+    {
+      "exportName": "philipsFacialTrimmerProduct",
+      "path": "/skonhet/ansiktstrimmer",
+      "badge": "Exakt",
+      "headline": "Philips ansiktstrimmer – forma med precision",
+      "shortBody": "Välj ansiktstrimmern om du vill ha ett litet, exakt verktyg. Perfekt för att snygga till bryn och ta bort fina hår på överläpp och kinder.",
+      "img": "public/products/philips-facial-trimmer/philips-trimmer-thumbnail.webp",
+      "brand": "Ansiktstrimmer (Philips)"
+    },
+    {
+      "exportName": "philipsLadyShaverProduct",
+      "path": "/skonhet/rakapparat-dam",
+      "badge": "Snabbt & skonsamt",
+      "headline": "Philips rakapparat för dam – större ytor snabbt",
+      "shortBody": "Välj rakapparaten om du vill sköta större ytor snabbt och skonsamt, i ansiktet eller på kroppen, utan risk för skärsår.",
+      "img": "public/products/philips-lady-shaver/philips-shaver-thumbnail.webp",
+      "brand": "Rakapparat (Philips)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Litet och exakt; för detaljer", "Täcker större ytor snabbt"],
+    ["Bäst för", "Bryn, överläpp, fina hår", "Ansikte och kropp, större ytor"],
+    ["Precision", "Hög", "Medel"],
+    ["Snabbhet", "Långsammare, exakt", "Snabbt"],
+    ["Skonsamt", "Ja", "Ja – ingen risk för skärsår"],
+    ["Torr användning", "Ja", "Oftast ja"],
+    ["Elins poäng", "84/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på ansiktstrimmer och rakapparat för dam?", "answer": "En ansiktstrimmer är liten och exakt för detaljer som bryn, överläpp och fina hår. En rakapparat för dam täcker större ytor snabbt och skonsamt, både i ansiktet och på kroppen." },
+    { "question": "Vilken är bäst för överläppen?", "answer": "En ansiktstrimmer är ofta bäst för överläpp och andra små, känsliga områden eftersom den är exakt. En rakapparat fungerar också men är främst gjord för större ytor." },
+    { "question": "Kan jag använda en rakapparat i ansiktet?", "answer": "Många rakapparater för dam går bra att använda i ansiktet på fina hår, men kolla att just din modell är avsedd för ansiktet. För exakt formning är en trimmer smidigare." },
+    { "question": "Är de skonsamma?", "answer": "Ja, båda är skonsamma och ger ingen risk för skärsår som en rakhyvel. Rengör bladen regelbundet och var extra försiktig runt känsliga områden." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/ansiktstrimmer", "label": "Ansiktstrimmer", "text": "Läs Elins recension av Philips ansiktstrimmer." },
+    { "href": "/skonhet/rakapparat-dam", "label": "Rakapparat", "text": "Läs Elins recension av Philips rakapparat för dam." },
+    { "href": "/skonhet/epilator-eller-rakhyvel", "label": "Jämförelse", "text": "Epilator eller rakhyvel? Se den jämförelsen." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hårborttagningsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["philips-ansiktstrimmer", "philips-rakapparat-dam"],
+  "shortTitle": "Ansiktstrimmer eller rakapparat",
+  "description": "Exakt formning av fina hår mot snabb, skonsam rakning av större ytor."
+}

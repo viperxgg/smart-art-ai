@@ -1,0 +1,64 @@
+{
+  "slug": "balansplatta-eller-gymboll",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "balansplattaEllerGymboll",
+  "h1": "Balansplatta eller gymboll?",
+  "intro": "Balansplatta och gymboll tränar båda balans och bål, men på olika sätt. En balansplatta är liten och utmanar balansen med små, kontrollerade rörelser, medan en gymboll är stor och används för fler övningar för bål, rygg och stabilitet – och som sittboll.",
+  "badges": ["Balans & bål", "Kompakt vs mångsidig", "Stabilitet"],
+  "howToChoose": "Välj en balansplatta om du vill träna balans och fotled på liten yta med kontrollerade rörelser, bra som komplement och för rehab. Välj en gymboll om du vill ha ett mångsidigt redskap för bål, rygg och stabilitet, och gilla att kunna sitta på den vid skrivbordet. Balansplatta för fokuserad balans, gymboll för fler övningar.",
+  "verdict": "Det handlar om fokus mot mångsidighet. Balansplattan vinner för fokuserad balansträning på liten yta, medan gymbollen vinner för fler bål- och stabilitetsövningar. Fokuserad balans – platta. Mångsidigt – gymboll.",
+  "metaTitle": "Balansplatta eller gymboll? Bäst för balans och bål | Elins val",
+  "metaDescription": "Balansplatta eller gymboll? Elin jämför fokuserad balansträning mot mångsidig bål- och stabilitetsträning så du väljer rätt för hemmaträningen.",
+  "picks": [
+    {
+      "exportName": "gorillaBalansplattaProduct",
+      "path": "/traning/balansplatta",
+      "badge": "Fokuserad balans",
+      "headline": "Gorilla balansplatta – träna balansen på liten yta",
+      "shortBody": "Välj balansplattan om du vill träna balans och fotled med kontrollerade rörelser på liten yta. Bra som komplement och för rehab.",
+      "img": "public/products/gorilla-balansplatta/balans-thumbnail.webp",
+      "brand": "Balansplatta (Gorilla)"
+    },
+    {
+      "exportName": "gorillaGymbollProduct",
+      "path": "/traning/gymboll",
+      "badge": "Mångsidig",
+      "headline": "Gorilla gymboll – bål, rygg och sittboll",
+      "shortBody": "Välj gymbollen om du vill ha ett mångsidigt redskap för bål, rygg och stabilitet. Du kan även sitta på den vid skrivbordet för mer rörelse.",
+      "img": "public/products/gorilla-gymboll/gymboll-thumbnail.webp",
+      "brand": "Gymboll (Gorilla)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Liten; utmanar balansen kontrollerat", "Stor; många bål- och stabilitetsövningar"],
+    ["Bäst för", "Balans, fotled, rehab", "Bål, rygg, stabilitet, sittboll"],
+    ["Storlek", "Kompakt", "Stor – tar plats"],
+    ["Mångsidighet", "Fokuserad", "Bred – många övningar"],
+    ["Extra användning", "Nej", "Sittboll vid skrivbordet"],
+    ["Nybörjarvänligt", "Ja", "Ja"],
+    ["Elins poäng", "84/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på balansplatta och gymboll?", "answer": "En balansplatta är liten och utmanar balansen med små, kontrollerade rörelser. En gymboll är stor och används för fler övningar för bål, rygg och stabilitet, och kan även fungera som sittboll." },
+    { "question": "Vilken är bäst för balansträning?", "answer": "Balansplattan är mest fokuserad på just balans och fotled, vilket gör den bra som komplement och för rehab. Gymbollen tränar också stabilitet men är mer mångsidig." },
+    { "question": "Kan jag sitta på en gymboll vid skrivbordet?", "answer": "Ja, många använder gymbollen som sittboll för att få in mer rörelse och aktivera bålen under dagen. Välj rätt storlek efter din längd så du sitter bekvämt." },
+    { "question": "Vilken tar minst plats?", "answer": "Balansplattan tar klart minst plats och är lätt att ställa undan. En gymboll är stor och tar mer utrymme, även om du kan tömma den på luft för förvaring." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/balansplatta", "label": "Balansplatta", "text": "Läs Elins recension av Gorilla balansplatta." },
+    { "href": "/traning/gymboll", "label": "Gymboll", "text": "Läs Elins recension av Gorilla gymboll." },
+    { "href": "/traning", "label": "Träning", "text": "Se alla Elins val för bål och balans." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["gorilla-balansplatta", "gorilla-gymboll"],
+  "shortTitle": "Balansplatta eller gymboll",
+  "description": "Fokuserad balansträning på liten yta mot en mångsidig gymboll för bål och stabilitet."
+}

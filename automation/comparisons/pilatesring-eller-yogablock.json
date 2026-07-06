@@ -1,0 +1,65 @@
+{
+  "slug": "pilatesring-eller-yogablock",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "pilatesringEllerYogablock",
+  "h1": "Pilatesring eller yogablock?",
+  "intro": "Pilatesring och yogablock används båda i lugn hemmaträning, men på olika sätt. En pilatesring ger ett lätt motstånd att pressa mot, vilket aktiverar muskler i lår, bål och armar, medan ett yogablock ger stöd och höjd så du håller balansen och når golvet i olika positioner.",
+  "badges": ["Pilates & yoga", "Motstånd vs stöd", "Nybörjare"],
+  "howToChoose": "Välj en pilatesring om du vill lägga till ett lätt motstånd i pilates- och bålövningar och känna att musklerna jobbar mer när du pressar. Välj ett yogablock om du vill ha stöd och stabilitet i yoga och stretch, till exempel för att nå golvet eller hålla balansen. De hör till olika slags träning men båda är nybörjarvänliga.",
+  "verdict": "Det handlar om vilken träning du gör. Pilatesringen vinner för att lägga till motstånd i pilates, medan yogablocket vinner för stöd och stabilitet i yoga. Pilates med extra jobb – ring. Yoga med stöd – block.",
+  "metaTitle": "Pilatesring eller yogablock? Vilket behöver du | Elins val",
+  "metaDescription": "Pilatesring eller yogablock? Elin jämför lätt motstånd i pilates mot stöd och stabilitet i yoga så du väljer rätt redskap för lugn hemmaträning.",
+  "picks": [
+    {
+      "exportName": "g5PilatesringProduct",
+      "path": "/traning/pilatesring",
+      "badge": "Lätt motstånd",
+      "headline": "G5 pilatesring – aktivera musklerna mer",
+      "shortBody": "Välj pilatesringen om du vill lägga till motstånd i pilates- och bålövningar. Du pressar mot ringen och känner hur lår, bål och armar jobbar mer.",
+      "img": "public/products/g5-pilatesring/pilatesring-thumbnail.webp",
+      "brand": "Pilatesring (G5)"
+    },
+    {
+      "exportName": "bodymateYogablockProduct",
+      "path": "/traning/yogablock",
+      "badge": "Stöd & stabilitet",
+      "headline": "BODYMATE yogablock – stöd i yoga och stretch",
+      "shortBody": "Välj yogablocket om du vill ha stöd och stabilitet i yoga. Det hjälper dig nå golvet och hålla balansen i positioner där du annars inte når.",
+      "img": "public/products/bodymate-yogablock/yogablock-thumbnail.webp",
+      "brand": "Yogablock (BODYMATE)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Lätt motstånd att pressa mot", "Ger stöd och höjd"],
+    ["Bäst för", "Pilates och bålövningar", "Yoga och stretch"],
+    ["Typ av hjälp", "Aktiverar muskler mer", "Stabilitet och räckvidd"],
+    ["Nivå", "Nybörjarvänligt", "Nybörjarvänligt"],
+    ["Plats", "Litet – hänger undan", "Litet block"],
+    ["Träningsstil", "Aktiv muskelkänsla", "Lugn och stödjande"],
+    ["Elins poäng", "84/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på pilatesring och yogablock?", "answer": "En pilatesring ger ett lätt motstånd du pressar mot, vilket aktiverar musklerna mer i pilates- och bålövningar. Ett yogablock ger stöd och höjd så du håller balansen och når golvet i yoga och stretch." },
+    { "question": "Vilket passar pilates bäst?", "answer": "Pilatesringen är gjord för pilates och lägger till motstånd i övningarna. Ett yogablock kan också användas, men det ger stöd snarare än motstånd." },
+    { "question": "Är de nybörjarvänliga?", "answer": "Ja, båda är nybörjarvänliga och tar liten plats. Ringen hjälper dig känna musklerna jobba, och blocket gör svårare positioner mer tillgängliga." },
+    { "question": "Behöver jag båda?", "answer": "Inte nödvändigtvis – det beror på om du mest gör pilates eller yoga. Gör du båda är de ett billigt och platssnålt komplement som täcker olika behov." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/pilatesring", "label": "Pilatesring", "text": "Läs Elins recension av G5 pilatesring." },
+    { "href": "/traning/yogablock", "label": "Yogablock", "text": "Läs Elins recension av BODYMATE yogablock." },
+    { "href": "/traning/yogablock-eller-yogabalte", "label": "Jämförelse", "text": "Yogablock eller yogabälte? Se den jämförelsen." },
+    { "href": "/traning", "label": "Träning", "text": "Se alla Elins val för yoga och pilates." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["g5-pilatesring", "bodymate-yogablock"],
+  "shortTitle": "Pilatesring eller yogablock",
+  "description": "Lätt motstånd för pilates mot stöd och stabilitet för yoga."
+}

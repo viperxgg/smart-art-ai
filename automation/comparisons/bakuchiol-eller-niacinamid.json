@@ -1,0 +1,65 @@
+{
+  "slug": "bakuchiol-eller-niacinamid",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "bakuchiolEllerNiacinamid",
+  "h1": "Bakuchiol eller niacinamid?",
+  "intro": "Bakuchiol och niacinamid är två milda, populära hudvårdsingredienser, men med olika fokus. Bakuchiol är känt som ett skonsamt, växtbaserat alternativ som ger huden ett slätare, jämnare intryck, medan niacinamid är en allround-favorit som hjälper huden att kännas balanserad och mindre glansig.",
+  "badges": ["Serum", "Skonsamt vs balans", "Hudvård"],
+  "howToChoose": "Välj bakuchiol om du vill ha en mild ingrediens som ger huden ett slätare, jämnare uttryck och gilla växtbaserat och skonsamt, även på kvällen. Välj niacinamid om du vill ha en allround-ingrediens som balanserar och lugnar, bra om huden lätt blir glansig. Båda är snälla och kan användas dagligen.",
+  "verdict": "Båda är milda och lätta att gilla. Bakuchiol vinner om du vill ha ett skonsamt, slätande alternativ, medan niacinamid vinner som balanserande allrounder. Vill du ha ett slätare uttryck – bakuchiol. Vill du jämna ut och matta glans – niacinamid.",
+  "metaTitle": "Bakuchiol eller niacinamid? Vilket serum passar dig | Elins val",
+  "metaDescription": "Bakuchiol eller niacinamid? Elin jämför ett skonsamt, slätande alternativ mot en balanserande allrounder så du väljer rätt serum för din hud.",
+  "picks": [
+    {
+      "exportName": "celdyqueBakuchiolProduct",
+      "path": "/skonhet/bakuchiol-serum",
+      "badge": "Skonsamt & slätande",
+      "headline": "CELDYQUE bakuchiol – mild och växtbaserad",
+      "shortBody": "Välj bakuchiol om du vill ha en mild, växtbaserad ingrediens som ger huden ett slätare, jämnare intryck. Skonsam nog att använda även på kvällen.",
+      "img": "public/products/bakuchiol-serum/bakuchiol-thumbnail.webp",
+      "brand": "Bakuchiol (CELDYQUE)"
+    },
+    {
+      "exportName": "inkeyNiacinamideSerumProduct",
+      "path": "/skonhet/niacinamide-serum",
+      "badge": "Balanserar",
+      "headline": "The INKEY List niacinamid – allround-favorit",
+      "shortBody": "Välj niacinamid om du vill ha en allrounder som hjälper huden att kännas balanserad och mindre glansig. Mild och lätt att lägga in i rutinen.",
+      "img": "public/products/inkey-niacinamide-serum/inkey-niacinamide-serum-thumbnail.webp",
+      "brand": "Niacinamid (INKEY)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Mild, växtbaserad; slätare intryck", "Allround; balanserar och lugnar"],
+    ["Bäst för", "Slätare, jämnare uttryck", "Glansig eller ojämn hud"],
+    ["Skonsamhet", "Väldigt skonsamt", "Väldigt skonsamt"],
+    ["När", "Morgon eller kväll", "Morgon eller kväll"],
+    ["Nybörjarvänligt", "Ja", "Ja"],
+    ["Kan kombineras", "Ja", "Ja"],
+    ["Elins poäng", "84/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på bakuchiol och niacinamid?", "answer": "Bakuchiol är en mild, växtbaserad ingrediens som ger huden ett slätare, jämnare intryck. Niacinamid är en allround-favorit som hjälper huden att kännas balanserad och mindre glansig. Båda är skonsamma." },
+    { "question": "Vilket är skonsammast?", "answer": "Båda är milda och passar de flesta, även känsligare hud. Bakuchiol marknadsförs ofta som ett extra skonsamt alternativ, medan niacinamid är väldigt lätt att tolerera i låga halter." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, de går bra att kombinera. Många lägger niacinamid tidigt i rutinen och bakuchiol efter. Inför en ny produkt i taget så du ser hur huden reagerar." },
+    { "question": "När på dygnet ska jag använda dem?", "answer": "Båda fungerar morgon och kväll. Avsluta alltid med en fuktkräm och sköt din vanliga dagrutin." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/bakuchiol-serum", "label": "Bakuchiol", "text": "Läs Elins recension av CELDYQUE bakuchiol." },
+    { "href": "/skonhet/niacinamide-serum", "label": "Niacinamid", "text": "Läs Elins recension av INKEY niacinamid." },
+    { "href": "/skonhet/vitamin-c-eller-niacinamid", "label": "Jämförelse", "text": "Vitamin C eller niacinamid? Se den jämförelsen." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hudvårdsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["celdyque-bakuchiol-serum", "inkey-niacinamide-serum"],
+  "shortTitle": "Bakuchiol eller niacinamid",
+  "description": "Ett skonsamt, växtbaserat och slätande alternativ mot en balanserande allrounder."
+}

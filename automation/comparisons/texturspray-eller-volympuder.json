@@ -1,0 +1,64 @@
+{
+  "slug": "texturspray-eller-volympuder",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "texturaprayEllerVolympuder",
+  "h1": "Texturspray eller volympuder?",
+  "intro": "Texturspray och volympuder ger båda mer liv i håret, men med olika känsla. En texturspray ger grepp, matt struktur och lätt fyllighet i hela håret, medan ett volympuder ger snabb lyft och volym vid rötterna där håret är plattast.",
+  "badges": ["Hårstyling", "Struktur vs lyft", "Volym"],
+  "howToChoose": "Välj en texturspray om du vill ha grepp och matt, sladdrig struktur i hela håret – bra för beach-look och uppsatt hår som håller. Välj ett volympuder om du främst vill ha snabb volym och lyft vid rötterna, till exempel om håret snabbt blir platt. Många använder texturspray för struktur och pudret för lyft vid behov.",
+  "verdict": "Det handlar om vad håret behöver. Texturspray vinner för struktur och grepp i hela håret, medan volympuder vinner för snabbt rotlyft. Vill du ha textur och håll – spray. Vill du bara ha volym vid rötterna – puder.",
+  "metaTitle": "Texturspray eller volympuder? Mer volym i håret | Elins val",
+  "metaDescription": "Texturspray eller volympuder? Elin jämför grepp och matt struktur mot snabbt rotlyft så du väljer rätt för mer liv och volym i håret.",
+  "picks": [
+    {
+      "exportName": "mariaNilaTextureProduct",
+      "path": "/skonhet/texturspray",
+      "badge": "Struktur & grepp",
+      "headline": "Maria Nila texturspray – matt textur och håll",
+      "shortBody": "Välj texturspray om du vill ha grepp och matt struktur i hela håret. Bra för beach-look och uppsatt hår som håller formen längre.",
+      "img": "public/products/maria-nila-texture/maria-nila-thumbnail.webp",
+      "brand": "Texturspray (Maria Nila)"
+    },
+    {
+      "exportName": "osisDustItProduct",
+      "path": "/skonhet/volympuder",
+      "badge": "Snabbt rotlyft",
+      "headline": "OSiS volympuder – lyft vid rötterna",
+      "shortBody": "Välj volympuder om du främst vill ha snabb volym vid rötterna. Strö lite där håret är plattast och massera in för direkt lyft.",
+      "img": "public/products/osis-dust-it/osis-thumbnail.webp",
+      "brand": "Volympuder (OSiS)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Grepp och matt textur i hela håret", "Snabbt lyft och volym vid rötterna"],
+    ["Bäst för", "Beach-look, uppsatt hår, håll", "Platt hår som behöver rotvolym"],
+    ["Var i håret", "Hela längden", "Vid rötterna"],
+    ["Känsla", "Matt, sladdrig struktur", "Volym och grepp vid rötterna"],
+    ["Applicering", "Spraya och skrynkla in", "Strö och massera in"],
+    ["Bäst för uppsatt hår", "Ja – ger grepp", "Ja – lyft vid fästet"],
+    ["Elins poäng", "86/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på texturspray och volympuder?", "answer": "En texturspray ger grepp och matt struktur i hela håret, bra för beach-look och håll. Ett volympuder ger snabb volym och lyft vid rötterna där håret är plattast." },
+    { "question": "Vilken ger mest volym vid rötterna?", "answer": "Volympuder är bäst för snabbt rotlyft – du strör lite vid rötterna och masserar in för direkt volym. Texturspray ger mer struktur och grepp i hela håret." },
+    { "question": "Hur mycket volympuder ska jag använda?", "answer": "Börja med en liten mängd vid rötterna och massera in. För mycket kan göra håret klibbigt eller grått i tonen på mörkt hår, så bygg upp försiktigt." },
+    { "question": "Kan jag använda båda?", "answer": "Ja, många använder texturspray för struktur i längderna och volympuder för extra lyft vid rötterna. Tillsammans ger de både volym och håll." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/texturspray", "label": "Texturspray", "text": "Läs Elins recension av Maria Nila texturspray." },
+    { "href": "/skonhet/volympuder", "label": "Volympuder", "text": "Läs Elins recension av OSiS volympuder." },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hårstylingval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["maria-nila-texturspray", "osis-volympuder"],
+  "shortTitle": "Texturspray eller volympuder",
+  "description": "Grepp och matt struktur i hela håret mot snabbt rotlyft där håret är plattast."
+}
