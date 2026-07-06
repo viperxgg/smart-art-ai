@@ -16,6 +16,17 @@ export type ComparisonEntry = {
 export const comparisonEntries: readonly ComparisonEntry[] = [
   ...waveComparisonEntries,
   {
+    slug: "powerbank-eller-vaggladdare",
+    title: "Powerbank eller väggladdare?",
+    shortTitle: "Powerbank eller väggladdare",
+    category: "resa",
+    categoryLabel: "Resa",
+    href: "/sommar/resa/powerbank-eller-vaggladdare",
+    description: "Ström på språng utan uttag mot snabb laddning av flera enheter vid uttaget.",
+    productSlugs: ["anker-zolo-powerbank","anker-735-vaggladdare"],
+    badges: ["Ström på språng","Ladda flera","Resa"],
+  },
+  {
     slug: "dreo-cruiser-pro-eller-honeywell-ht900e",
     title: "Dreo Cruiser Pro eller Honeywell HT900E?",
     shortTitle: "Dreo eller Honeywell",
