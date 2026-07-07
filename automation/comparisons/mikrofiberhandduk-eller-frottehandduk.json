@@ -1,0 +1,64 @@
+{
+  "slug": "mikrofiberhandduk-eller-frottehandduk",
+  "routePrefix": "sommar/resa",
+  "category": "resa",
+  "categoryLabel": "Resa",
+  "backHref": "/sommar/resa",
+  "backLabel": "Tillbaka till Elins reseval",
+  "exportBaseName": "mikrofiberhanddukEllerFrottehandduk",
+  "h1": "Mikrofiberhandduk eller frottéhandduk?",
+  "intro": "Båda torkar dig efter duschen, poolen och stranden – men de gör det på helt olika sätt. En mikrofiberhandduk är tunn, ultralätt och snabbtorkande och packar ihop till nästan ingenting, medan en frottéhandduk är den mjuka, sugande bomullsklassikern som känns lyxig mot huden men tar mer plats och torkar långsammare.",
+  "badges": ["Packvänligt vs komfort", "Snabbtork vs mjukhet", "Resa & strand"],
+  "howToChoose": "Välj en mikrofiberhandduk om du reser lätt och vill spara plats och vikt i väskan – den torkar snabbt och är perfekt för gym, strand och backpacking. Välj en frottéhandduk om du prioriterar den mjuka, sugande komforten hemma, på hotellet eller vid poolen och inte bryr dig om att den tar mer plats. Många har en mikrofiberhandduk i resväskan och frotté hemma.",
+  "verdict": "Det handlar om plats mot komfort. Mikrofibern vinner om målet är att packa lätt och torka snabbt, medan frottén vinner om du vill ha den mjuka, sugande känslan. Packa lätt – mikrofiber. Mysig komfort – frotté.",
+  "metaTitle": "Mikrofiberhandduk eller frottéhandduk? Vilken välja | Elins val",
+  "metaDescription": "Mikrofiberhandduk eller frottéhandduk? Elin jämför packvänlig snabbtork mot mjuk, sugande bomull så du väljer rätt handduk för resan och stranden.",
+  "picks": [
+    {
+      "exportName": "fitFlipMikrofiberhandukProduct",
+      "path": "/sommar/resa/mikrofiberhandduk",
+      "badge": "Packar minimalt",
+      "headline": "Fit-Flip mikrofiberhandduk – lätt och snabbtorkande",
+      "shortBody": "Välj mikrofibern om du vill spara plats och vikt. Den är tunn, ultralätt och torkar snabbt – perfekt för gym, strand och resa.",
+      "img": "public/products/fit-flip-mikrofiberhandduk/handduk-thumbnail.webp",
+      "brand": "Mikrofiber (Fit-Flip)"
+    },
+    {
+      "exportName": "utopiaCabanaStrandhandduk",
+      "path": "/sommar/resa/frottehandduk",
+      "badge": "Mjuk & sugande",
+      "headline": "Utopia frottéhandduk – mjuk bomullskomfort",
+      "shortBody": "Välj frottén om du vill ha den mjuka, sugande känslan mot huden. Skön hemma, på hotellet och vid poolen – men tar mer plats och torkar långsammare.",
+      "img": "public/products/utopia-cabana-strandhandduk/frotte-thumbnail.webp",
+      "brand": "Frotté (Utopia)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Tunn, ultralätt; snabbtork", "Mjuk, sugande bomull; tar plats"],
+    ["Bäst för", "Packa lätt, gym, resa", "Komfort hemma, hotell, pool"],
+    ["Packmått", "Mycket litet", "Skrymmande"],
+    ["Torktid", "Torkar snabbt", "Torkar långsammare"],
+    ["Känsla mot huden", "Tunnare", "Mjuk och lyxig"],
+    ["Vikt", "Ultralätt", "Tyngre"],
+    ["Elins poäng", "80/100", "77/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på mikrofiber och frotté?", "answer": "Mikrofiber är ett tunt, lätt syntetmaterial som torkar snabbt och packar mycket litet. Frotté är vävd bomull som är mjuk och sugande men tjockare, tyngre och långsammare att torka." },
+    { "question": "Vilken är bäst för resan?", "answer": "Mikrofiberhanduken, eftersom den knappt tar plats och torkar snabbt mellan baden. Frotté är skönare mot huden men tar upp mycket mer plats i väskan." },
+    { "question": "Suger mikrofiber lika bra som frotté?", "answer": "Mikrofiber suger effektivt och torkar snabbt, men känns tunnare. Många upplever frotté som mjukare och mer 'insvept', vilket är dess styrka hemma och vid poolen." },
+    { "question": "Kan jag ha båda?", "answer": "Ja, en vanlig lösning är en mikrofiberhandduk i resväskan och gymväskan, och frottéhanddukar hemma för den mjuka komforten efter duschen." }
+  ],
+  "relatedLinks": [
+    { "href": "/sommar/resa/mikrofiberhandduk", "label": "Mikrofiberhandduk", "text": "Läs Elins genomgång av Fit-Flip mikrofiberhandduk." },
+    { "href": "/sommar/resa/frottehandduk", "label": "Frottéhandduk", "text": "Läs Elins genomgång av Utopia frottéhandduk." },
+    { "href": "/sommar/resa", "label": "Resa", "text": "Se alla Elins val för resan och stranden." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["fit-flip-mikrofiberhandduk", "utopia-cabana-strandhandduk"],
+  "shortTitle": "Mikrofiberhandduk eller frottéhandduk",
+  "description": "Packvänlig snabbtork mot mjuk, sugande bomull – vilken handduk ska du ta med?"
+}

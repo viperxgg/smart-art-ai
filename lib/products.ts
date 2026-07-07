@@ -16140,7 +16140,271 @@ export const prezonSkopasarProduct: Product = {
   comments: [],
 };
 
+export const utopiaCabanaStrandhandduk: Product = {
+  slug: "utopia-cabana-strandhandduk",
+  title: "Utopia Towels frottéhandduk – cabana strandhandduk (4-pack)",
+  category: "resa",
+  asin: "B08BZD5MCK",
+  brand: "Utopia Towels",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "100% bomull",
+    "Mjuk & sugande",
+    "4-pack",
+  ],
+  image: "/products/utopia-cabana-strandhandduk/frotte-thumbnail.webp",
+  imageAlt: "Utopia Towels cabana frottéhanddukar i randigt bomullsfrotté",
+  images: [
+    {
+      src: "/products/utopia-cabana-strandhandduk/frotte-thumbnail.webp",
+      alt: "Utopia Towels cabana frottéhanddukar i randigt bomullsfrotté",
+      label: "Frottéhandduk",
+    },
+    {
+      src: "/products/utopia-cabana-strandhandduk/frotte-1.webp",
+      alt: "Randig frottéhandduk i 100% ringspunnen bomull",
+      label: "100% bomull",
+    },
+    {
+      src: "/products/utopia-cabana-strandhandduk/frotte-2.webp",
+      alt: "Mjuk och sugande cabana-strandhandduk utbredd",
+      label: "Sugande",
+    },
+    {
+      src: "/products/utopia-cabana-strandhandduk/frotte-3.webp",
+      alt: "Cabana-randiga frottéhanddukar i fyra färger",
+      label: "4-pack",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4p5fsLo",
+  pageHref: "/sommar/resa/frottehandduk",
+  summary: "En klassisk frottéhandduk i 100% ringspunnen bomull – mjuk mot huden och riktigt sugande. Cabana-modellen kommer som 4-pack (76x152 cm) i sköna färger och är en trygg strand- och baddhandduk. Bra att veta: frotté är tjockare och tar mer plats i väskan än en mikrofiberhandduk, och den behöver längre tid på tork.",
+  evaluation: {
+    headline: "Mjuk frottéhandduk som suger på riktigt",
+    intro: "Elin tittar närmare på Utopia Towels cabana-frottéhanddukar: 100% ringspunnen bomull, mjuk känsla mot huden och bra sugförmåga. Ett 4-pack (76x152 cm) i randiga färger för stranden, poolen och badrummet.",
+    verdict: "Mjuk, sugande bomullsfrotté till bra pris – tar mer plats och torkar långsammare än mikrofiber.",
+    checks: [],
+  },
+  specSectionEyebrow: "Frottéhandduk",
+  specSectionTitle: "Utopia cabana frotté",
+  specs: [
+    {
+      label: "Material",
+      caption: "Tyg",
+      value: "100% ringspunnen bomull (frotté)",
+    },
+    {
+      label: "Storlek",
+      caption: "Mått",
+      value: "76x152 cm, 4-pack",
+    },
+    {
+      label: "Känsla",
+      caption: "Profil",
+      value: "Mjuk mot huden, sugande",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4p5fsLo",
+    ratingSummary: "Amazon visar 4,4 av 5 från 15 015 omdömen.",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Mjuka mot huden och sugande – köpare beskriver dem som sköna och lena.",
+      "Cabana-ränderna och färgerna stämmer med beskrivningen.",
+      "Uppskattade av köpare (4,4 av 5 från 15 015 omdömen).",
+    ],
+    cautions: [
+      "En del köpare nämner att de luddar lite i början – tvätta separat de första gångerna.",
+      "Frotté tar mer plats och torkar långsammare än en mikrofiberhandduk.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const cabinMaxAnodeKabinvaska: Product = {
+  slug: "cabin-max-anode-kabinvaska",
+  title: "Cabin Max Anode kabinväska – hardcase med 4 hjul (40x30x20 cm)",
+  category: "resa",
+  asin: "B0GF98VVGN",
+  brand: "Cabin Max",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Kabinstorlek",
+    "Hardcase",
+    "Endast 2 kg",
+  ],
+  image: "/products/cabin-max-anode-kabinvaska/kabinvaska-thumbnail.webp",
+  imageAlt: "Cabin Max Anode kabinväska i creme med fyra hjul",
+  images: [
+    {
+      src: "/products/cabin-max-anode-kabinvaska/kabinvaska-thumbnail.webp",
+      alt: "Cabin Max Anode kabinväska i creme med fyra hjul",
+      label: "Kabinväska",
+    },
+    {
+      src: "/products/cabin-max-anode-kabinvaska/kabinvaska-1.webp",
+      alt: "Hardcase kabinväska med hårt skal och dragkedja",
+      label: "Hardcase",
+    },
+    {
+      src: "/products/cabin-max-anode-kabinvaska/kabinvaska-2.webp",
+      alt: "Kabinväska med fyra 360-graders hjul",
+      label: "4 hjul",
+    },
+    {
+      src: "/products/cabin-max-anode-kabinvaska/kabinvaska-3.webp",
+      alt: "Öppen kabinväska med packfack och innerfickor",
+      label: "Packfack",
+    },
+  ],
+  amazonUrl: "https://amzn.to/3SNX1in",
+  pageHref: "/sommar/resa/kabinvaska",
+  summary: "En lätt hardcase-kabinväska (40x30x20 cm) som möter kabinmåtten hos de flesta flygbolag, bland annat Ryanair och Wizz Air – ofta gratis under stolen. Väger bara 2 kg, har fyra 360-graders hjul, kombinationslås och ett hårt skal som skyddar innehållet. Bra att veta: 40x30x20 cm är underseat-storlek – toppen för weekend och korta resor, men snålt för längre resor.",
+  evaluation: {
+    headline: "Lätt hardcase i exakt kabinstorlek",
+    intro: "Elin tittar närmare på Cabin Max Anode: en hardcase-kabinväska på 40x30x20 cm som matchar Ryanair och Wizz Air. Den väger bara 2 kg, rullar på fyra hjul och har kombinationslås – en smidig weekendväska med hårt skal.",
+    verdict: "Lätt, smidig hardcase i kabinstorlek – perfekt för weekend, snål för längre resor.",
+    checks: [],
+  },
+  specSectionEyebrow: "Kabinväska",
+  specSectionTitle: "Cabin Max Anode",
+  specs: [
+    {
+      label: "Mått",
+      caption: "Storlek",
+      value: "40x30x20 cm (underseat)",
+    },
+    {
+      label: "Vikt",
+      caption: "Egenvikt",
+      value: "Cirka 2 kg",
+    },
+    {
+      label: "Skal & hjul",
+      caption: "Konstruktion",
+      value: "Hårt ABS-skal, 4 hjul, kombinationslås",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/3SNX1in",
+    ratingSummary: "Amazon visar 4,6 av 5 från 14 285 omdömen.",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Passar Ryanairs mått och känns lätt men förvånansvärt rymlig.",
+      "Stabilt hårt skal, smidiga hjul och kombinationslås.",
+      "Mycket uppskattad av köpare (4,6 av 5 från 14 285 omdömen).",
+    ],
+    cautions: [
+      "40x30x20 cm är underseat-storlek – toppen för weekend, snålt för längre resor.",
+      "Hårt skal kan få repor med tiden.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const taygeerKabinryggsack: Product = {
+  slug: "taygeer-kabinryggsack",
+  title: "Taygeer kabinryggsäck 44L – handbagage 55x40x20 cm",
+  category: "resa",
+  asin: "B0DPM2JCZV",
+  brand: "Taygeer",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "44 liter",
+    "Handbagage",
+    "Händerna fria",
+  ],
+  image: "/products/taygeer-kabinryggsack/ryggsack-thumbnail.webp",
+  imageAlt: "Taygeer kabinryggsäck 44L som handbagage",
+  images: [
+    {
+      src: "/products/taygeer-kabinryggsack/ryggsack-thumbnail.webp",
+      alt: "Taygeer kabinryggsäck 44L som handbagage",
+      label: "Kabinryggsäck",
+    },
+    {
+      src: "/products/taygeer-kabinryggsack/ryggsack-1.webp",
+      alt: "Ryggsäck som öppnas helt som en resväska",
+      label: "Öppnas helt",
+    },
+    {
+      src: "/products/taygeer-kabinryggsack/ryggsack-2.webp",
+      alt: "Kabinryggsäck med många fack och laptopficka",
+      label: "Många fack",
+    },
+    {
+      src: "/products/taygeer-kabinryggsack/ryggsack-3.webp",
+      alt: "Taygeer ryggsäck buren på ryggen på resa",
+      label: "På ryggen",
+    },
+  ],
+  amazonUrl: "https://amzn.to/4f0YObj",
+  pageHref: "/sommar/resa/resryggsack",
+  summary: "En rymlig kabinryggsäck på 44 liter (55x40x20 cm) som möter handbagagemåtten hos bland annat Ryanair, Lufthansa och KLM. Den öppnas helt som en resväska, har många fack, laptopficka (18,4 tum) och vattenavvisande tyg – och gör händerna fria. Bra att veta: en fullpackad 44L bärs på ryggen, vilket blir tyngre på längre sträckor än att rulla en väska.",
+  evaluation: {
+    headline: "Rymlig kabinryggsäck som öppnas som en väska",
+    intro: "Elin tittar närmare på Taygeer kabinryggsäck: 44 liter i handbagageformat (55x40x20 cm) som matchar Ryanair, Lufthansa och KLM. Den öppnas helt som en resväska, har gott om fack och laptopficka – en flexibel ryggsäck som gör händerna fria.",
+    verdict: "Rymlig, prisvärd kabinryggsäck som gör händerna fria – tyngre på ryggen fullpackad än att rulla.",
+    checks: [],
+  },
+  specSectionEyebrow: "Kabinryggsäck",
+  specSectionTitle: "Taygeer 44L",
+  specs: [
+    {
+      label: "Volym",
+      caption: "Kapacitet",
+      value: "44 liter",
+    },
+    {
+      label: "Mått",
+      caption: "Storlek",
+      value: "55x40x20 cm (handbagage)",
+    },
+    {
+      label: "Fack",
+      caption: "Funktion",
+      value: "Öppnas helt, laptopficka 18,4 tum, vattenavvisande",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://amzn.to/4f0YObj",
+    ratingSummary: "Amazon visar 4,7 av 5 från 21 892 omdömen.",
+    ratingCheckedAt: "juli 2026",
+    highlights: [
+      "Rätt mått för Ryanair och rymmer förvånansvärt mycket för storleken.",
+      "Många fack och öppnas helt som en resväska – lätt att packa.",
+      "Mycket uppskattad av köpare (4,7 av 5 från 21 892 omdömen).",
+    ],
+    cautions: [
+      "En fullpackad 44L bärs på ryggen – tyngre på längre sträckor än att rulla en väska.",
+      "Enstaka köpare nämner att en dragkedja kan kärva och att måtten inte stämde exakt för dem.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
+  taygeerKabinryggsack,
+  cabinMaxAnodeKabinvaska,
+  utopiaCabanaStrandhandduk,
   prezonSkopasarProduct,
   narweyHangandeNecessarProduct,
   opretReseflaskorProduct,

@@ -1,0 +1,118 @@
+{
+  "system": "resa",
+  "exportName": "taygeerKabinryggsack",
+  "category": "resa",
+  "categoryGroup": "Kabinväska & packning",
+  "route": "sommar/resa/resryggsack",
+  "pageComponentName": "ResryggsackPage",
+  "product": {
+    "slug": "taygeer-kabinryggsack",
+    "title": "Taygeer kabinryggsäck 44L – handbagage 55x40x20 cm",
+    "category": "resa",
+    "asin": "B0DPM2JCZV",
+    "brand": "Taygeer",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["44 liter", "Handbagage", "Händerna fria"],
+    "image": "/products/taygeer-kabinryggsack/ryggsack-thumbnail.webp",
+    "imageAlt": "Taygeer kabinryggsäck 44L som handbagage",
+    "images": [
+      { "src": "/products/taygeer-kabinryggsack/ryggsack-thumbnail.webp", "alt": "Taygeer kabinryggsäck 44L som handbagage", "label": "Kabinryggsäck" },
+      { "src": "/products/taygeer-kabinryggsack/ryggsack-1.webp", "alt": "Ryggsäck som öppnas helt som en resväska", "label": "Öppnas helt" },
+      { "src": "/products/taygeer-kabinryggsack/ryggsack-2.webp", "alt": "Kabinryggsäck med många fack och laptopficka", "label": "Många fack" },
+      { "src": "/products/taygeer-kabinryggsack/ryggsack-3.webp", "alt": "Taygeer ryggsäck buren på ryggen på resa", "label": "På ryggen" }
+    ],
+    "amazonUrl": "https://amzn.to/4f0YObj",
+    "pageHref": "/sommar/resa/resryggsack",
+    "summary": "En rymlig kabinryggsäck på 44 liter (55x40x20 cm) som möter handbagagemåtten hos bland annat Ryanair, Lufthansa och KLM. Den öppnas helt som en resväska, har många fack, laptopficka (18,4 tum) och vattenavvisande tyg – och gör händerna fria. Bra att veta: en fullpackad 44L bärs på ryggen, vilket blir tyngre på längre sträckor än att rulla en väska.",
+    "evaluation": {
+      "headline": "Rymlig kabinryggsäck som öppnas som en väska",
+      "intro": "Elin tittar närmare på Taygeer kabinryggsäck: 44 liter i handbagageformat (55x40x20 cm) som matchar Ryanair, Lufthansa och KLM. Den öppnas helt som en resväska, har gott om fack och laptopficka – en flexibel ryggsäck som gör händerna fria.",
+      "verdict": "Rymlig, prisvärd kabinryggsäck som gör händerna fria – tyngre på ryggen fullpackad än att rulla.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Kabinryggsäck",
+    "specSectionTitle": "Taygeer 44L",
+    "specs": [
+      { "label": "Volym", "caption": "Kapacitet", "value": "44 liter" },
+      { "label": "Mått", "caption": "Storlek", "value": "55x40x20 cm (handbagage)" },
+      { "label": "Fack", "caption": "Funktion", "value": "Öppnas helt, laptopficka 18,4 tum, vattenavvisande" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4f0YObj",
+      "ratingSummary": "Amazon visar 4,7 av 5 från 21 892 omdömen.",
+      "ratingCheckedAt": "juli 2026",
+      "highlights": [
+        "Rätt mått för Ryanair och rymmer förvånansvärt mycket för storleken.",
+        "Många fack och öppnas helt som en resväska – lätt att packa.",
+        "Mycket uppskattad av köpare (4,7 av 5 från 21 892 omdömen)."
+      ],
+      "cautions": [
+        "En fullpackad 44L bärs på ryggen – tyngre på längre sträckor än att rulla en väska.",
+        "Enstaka köpare nämner att en dragkedja kan kärva och att måtten inte stämde exakt för dem."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/resryggsack",
+    "cardBadge": "44 liter",
+    "cardHook": "Rymlig kabinryggsäck som öppnas helt – händerna fria genom hela resan.",
+    "cardImage": "/products/taygeer-kabinryggsack/ryggsack-thumbnail.webp",
+    "cardImageAlt": "Taygeer kabinryggsäck 44L som handbagage",
+    "badge": "Elins ryggsäcksval",
+    "headline": "Taygeer kabinryggsäck 44L – rymlig och handsfree",
+    "shortBody": "En rymlig kabinryggsäck på 44 liter (55x40x20 cm) som möter Ryanair, Lufthansa och KLM. Öppnas helt som en resväska, många fack och laptopficka – och gör händerna fria.",
+    "valueHook": "Allt på ryggen, händerna fria",
+    "valueStatement": "Taygeer kabinryggsäck är en rymlig 44-litersryggsäck i handbagageformat (55x40x20 cm) för dig som hellre har händerna fria än rullar en väska. Den öppnas helt som en resväska, har många fack, laptopficka och vattenavvisande tyg. Amazon visar 4,7 av 5 från 21 892 omdömen, och köpare lyfter att den är rymlig, har rätt mått och är lätt att packa. Tänk på att en fullpackad 44L bärs på ryggen – tyngre på längre sträckor än att rulla.",
+    "passFor": [
+      "Vill ha händerna fria och slippa dra en väska.",
+      "Reser med Ryanair, Lufthansa eller KLM som handbagage.",
+      "Vill kunna packa mycket och öppna ryggsäcken som en resväska."
+    ],
+    "caution": "En ryggsäck saknar hjul, så en fullpackad 44L rider på axlar och rygg – det blir tyngre på längre promenader än att rulla en väska. Enstaka köpare nämner att en dragkedja kan kärva, och att måtten inte stämde exakt för dem – väg och mät mot ditt flygbolags regler.",
+    "usageGuidance": {
+      "title": "Så packar du smart",
+      "text": "Lägg det tyngsta närmast ryggen och använd facken för att fördela vikten jämnt. Spänn höft- och bröstremmarna så avlastas axlarna när du bär den fullpackad."
+    },
+    "verdict": "Rymlig, prisvärd kabinryggsäck som gör händerna fria – tyngre på ryggen fullpackad än att rulla.",
+    "amazonSummary": "Amazon visar 4,7 av 5 från 21 892 omdömen. Köpare gillar att den är rymlig, har rätt mått och öppnas helt – kom ihåg att en fullpackad ryggsäck bärs på ryggen.",
+    "amazonQuotes": [
+      { "text": "Rätt mått för Ryanair, många fack, snygg och fungerade bra en resa. En dragkedja krånglade några gånger men nu bra.", "attribution": "Köpare, Amazon" },
+      { "text": "So soft to the touch, barely weighed anything and so many pockets. Great to use as a backpack.", "attribution": "Köpare, Amazon" },
+      { "text": "Beskrivningen stämde inte exakt för mig.", "attribution": "Kritisk köpare, Amazon" }
+    ],
+    "faqItems": [
+      { "question": "Räknas Taygeer som handbagage?", "answer": "Ja, den är 55x40x20 cm och möter handbagagemåtten hos bland annat Ryanair, Lufthansa och KLM. Kontrollera alltid ditt flygbolags aktuella mått innan resan." },
+      { "question": "Hur mycket rymmer 44 liter?", "answer": "Gott om plats för flera dagars kläder eftersom ryggsäcken öppnas helt som en resväska. Den rymmer mer än en typisk underseat-kabinväska på 40x30x20 cm." },
+      { "question": "Ryggsäck eller kabinväska?", "answer": "Ryggsäcken gör händerna fria och rymmer ofta mer, medan en kabinväska rullar smidigt och skyddar innehållet i hårt skal. Väljer du att bära eller rulla avgör vilken som passar dig." }
+    ],
+    "reviewSectionId": "taygeer-kabinryggsack-recensioner",
+    "reviewFormId": "taygeer-kabinryggsack-skriv-recension",
+    "targetKeyword": "kabinryggsäck",
+    "metaTitle": "Taygeer kabinryggsäck 44L – handbagage | Elins val",
+    "metaDescription": "Elin går igenom Taygeer kabinryggsäck 44L (55x40x20 cm, 4,7 av 5 från 21 892 omdömen): rymlig handbagageryggsäck – och när en kabinväska passar bättre.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/kabinvaska", "label": "Kabinväska", "text": "Lätt hardcase som rullar genom flygplatsen." },
+      { "href": "/sommar/resa/kabinvaska-eller-ryggsack", "label": "Jämförelse", "text": "Kabinväska eller ryggsäck – vilken passar din resa?" },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan och stranden." }
+    ]
+  },
+  "images": {
+    "dir": "taygeer-kabinryggsack",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/61lWVJraPRL._AC_SL1500_.jpg", "out": "ryggsack-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71XazRcx6GL._AC_SL1500_.jpg", "out": "ryggsack-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71hp4mwZjmL._AC_SL1500_.jpg", "out": "ryggsack-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/715ZTjT6jkL._AC_SL1500_.jpg", "out": "ryggsack-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Taygeer kabinryggsäck 44L (handbagage)", "href": "/sommar/resa/resryggsack", "date": "2026-07-07", "image": "/products/taygeer-kabinryggsack/ryggsack-thumbnail.webp", "blurb": "Rymlig 44L-kabinryggsäck som öppnas som en väska och gör händerna fria." }
+  ]
+}

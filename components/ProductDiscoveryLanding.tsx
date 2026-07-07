@@ -46,6 +46,30 @@ type LatestUpdate = {
 const latestUpdates = [
   {
     type: "Resa",
+    title: "Taygeer kabinryggsäck 44L (handbagage)",
+    href: "/sommar/resa/resryggsack",
+    date: "2026-07-07",
+    image: "/products/taygeer-kabinryggsack/ryggsack-thumbnail.webp",
+    blurb: "Rymlig 44L-kabinryggsäck som öppnas som en väska och gör händerna fria.",
+  },
+  {
+    type: "Resa",
+    title: "Cabin Max Anode kabinväska (40x30x20 cm)",
+    href: "/sommar/resa/kabinvaska",
+    date: "2026-07-07",
+    image: "/products/cabin-max-anode-kabinvaska/kabinvaska-thumbnail.webp",
+    blurb: "Lätt hardcase i exakt kabinstorlek för Ryanair och Wizz Air.",
+  },
+  {
+    type: "Resa",
+    title: "Utopia frottéhandduk (cabana 4-pack)",
+    href: "/sommar/resa/frottehandduk",
+    date: "2026-07-07",
+    image: "/products/utopia-cabana-strandhandduk/frotte-thumbnail.webp",
+    blurb: "Mjuk, sugande bomullsfrotté för stranden – och när mikrofiber packar smartare.",
+  },
+  {
+    type: "Resa",
     title: "Prezon skopåsar för resa (2-pack)",
     href: "/sommar/resa/skopasar",
     date: "2026-07-05",

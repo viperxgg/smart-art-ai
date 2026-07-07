@@ -39,6 +39,38 @@ export function getScoreTier(total: number): ScoreTier {
 
 export const editorialScores: Record<string, EditorialScore> = {
   ...waveEditorialScores,
+  "utopia-cabana-strandhandduk": {
+    value: 23,
+    performance: 21,
+    promise: 20,
+    proven: 13,
+    total: 77,
+    verdict: "Mjuk, sugande bomullsfrotté – tar mer plats än mikrofiber",
+  },
+  "fit-flip-mikrofiberhandduk": {
+    value: 25,
+    performance: 22,
+    promise: 20,
+    proven: 13,
+    total: 80,
+    verdict: "Snabbtorkande och kompakt – smart packval, tunnare känsla",
+  },
+  "cabin-max-anode-kabinvaska": {
+    value: 25,
+    performance: 23,
+    promise: 21,
+    proven: 13,
+    total: 82,
+    verdict: "Lätt hardcase i exakt kabinstorlek – toppval för weekend",
+  },
+  "taygeer-kabinryggsack": {
+    value: 26,
+    performance: 23,
+    promise: 21,
+    proven: 13,
+    total: 83,
+    verdict: "Rymlig 44L kabinryggsäck som gör händerna fria",
+  },
   "traningsband-4-nivaer": {
     value: 26,
     performance: 22,

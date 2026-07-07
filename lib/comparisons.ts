@@ -16,6 +16,28 @@ export type ComparisonEntry = {
 export const comparisonEntries: readonly ComparisonEntry[] = [
   ...waveComparisonEntries,
   {
+    slug: "kabinvaska-eller-ryggsack",
+    title: "Kabinväska eller ryggsäck?",
+    shortTitle: "Kabinväska eller ryggsäck",
+    category: "resa",
+    categoryLabel: "Resa",
+    href: "/sommar/resa/kabinvaska-eller-ryggsack",
+    description: "Rulla ett hårt skal eller bära en rymlig ryggsäck – vilken passar din resa?",
+    productSlugs: ["cabin-max-anode-kabinvaska","taygeer-kabinryggsack"],
+    badges: ["Rulla vs bära","Hårt skal vs mer plats","Handbagage"],
+  },
+  {
+    slug: "mikrofiberhandduk-eller-frottehandduk",
+    title: "Mikrofiberhandduk eller frottéhandduk?",
+    shortTitle: "Mikrofiberhandduk eller frottéhandduk",
+    category: "resa",
+    categoryLabel: "Resa",
+    href: "/sommar/resa/mikrofiberhandduk-eller-frottehandduk",
+    description: "Packvänlig snabbtork mot mjuk, sugande bomull – vilken handduk ska du ta med?",
+    productSlugs: ["fit-flip-mikrofiberhandduk","utopia-cabana-strandhandduk"],
+    badges: ["Packvänligt vs komfort","Snabbtork vs mjukhet","Resa & strand"],
+  },
+  {
     slug: "bha-eller-aha-bha-peeling",
     title: "BHA eller AHA/BHA-peeling?",
     shortTitle: "BHA eller AHA/BHA-peeling",

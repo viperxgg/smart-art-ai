@@ -1,0 +1,118 @@
+{
+  "system": "resa",
+  "exportName": "cabinMaxAnodeKabinvaska",
+  "category": "resa",
+  "categoryGroup": "Kabinväska & packning",
+  "route": "sommar/resa/kabinvaska",
+  "pageComponentName": "KabinvaskaPage",
+  "product": {
+    "slug": "cabin-max-anode-kabinvaska",
+    "title": "Cabin Max Anode kabinväska – hardcase med 4 hjul (40x30x20 cm)",
+    "category": "resa",
+    "asin": "B0GF98VVGN",
+    "brand": "Cabin Max",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "mellan",
+    "badges": ["Kabinstorlek", "Hardcase", "Endast 2 kg"],
+    "image": "/products/cabin-max-anode-kabinvaska/kabinvaska-thumbnail.webp",
+    "imageAlt": "Cabin Max Anode kabinväska i creme med fyra hjul",
+    "images": [
+      { "src": "/products/cabin-max-anode-kabinvaska/kabinvaska-thumbnail.webp", "alt": "Cabin Max Anode kabinväska i creme med fyra hjul", "label": "Kabinväska" },
+      { "src": "/products/cabin-max-anode-kabinvaska/kabinvaska-1.webp", "alt": "Hardcase kabinväska med hårt skal och dragkedja", "label": "Hardcase" },
+      { "src": "/products/cabin-max-anode-kabinvaska/kabinvaska-2.webp", "alt": "Kabinväska med fyra 360-graders hjul", "label": "4 hjul" },
+      { "src": "/products/cabin-max-anode-kabinvaska/kabinvaska-3.webp", "alt": "Öppen kabinväska med packfack och innerfickor", "label": "Packfack" }
+    ],
+    "amazonUrl": "https://amzn.to/3SNX1in",
+    "pageHref": "/sommar/resa/kabinvaska",
+    "summary": "En lätt hardcase-kabinväska (40x30x20 cm) som möter kabinmåtten hos de flesta flygbolag, bland annat Ryanair och Wizz Air – ofta gratis under stolen. Väger bara 2 kg, har fyra 360-graders hjul, kombinationslås och ett hårt skal som skyddar innehållet. Bra att veta: 40x30x20 cm är underseat-storlek – toppen för weekend och korta resor, men snålt för längre resor.",
+    "evaluation": {
+      "headline": "Lätt hardcase i exakt kabinstorlek",
+      "intro": "Elin tittar närmare på Cabin Max Anode: en hardcase-kabinväska på 40x30x20 cm som matchar Ryanair och Wizz Air. Den väger bara 2 kg, rullar på fyra hjul och har kombinationslås – en smidig weekendväska med hårt skal.",
+      "verdict": "Lätt, smidig hardcase i kabinstorlek – perfekt för weekend, snål för längre resor.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Kabinväska",
+    "specSectionTitle": "Cabin Max Anode",
+    "specs": [
+      { "label": "Mått", "caption": "Storlek", "value": "40x30x20 cm (underseat)" },
+      { "label": "Vikt", "caption": "Egenvikt", "value": "Cirka 2 kg" },
+      { "label": "Skal & hjul", "caption": "Konstruktion", "value": "Hårt ABS-skal, 4 hjul, kombinationslås" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/3SNX1in",
+      "ratingSummary": "Amazon visar 4,6 av 5 från 14 285 omdömen.",
+      "ratingCheckedAt": "juli 2026",
+      "highlights": [
+        "Passar Ryanairs mått och känns lätt men förvånansvärt rymlig.",
+        "Stabilt hårt skal, smidiga hjul och kombinationslås.",
+        "Mycket uppskattad av köpare (4,6 av 5 från 14 285 omdömen)."
+      ],
+      "cautions": [
+        "40x30x20 cm är underseat-storlek – toppen för weekend, snålt för längre resor.",
+        "Hårt skal kan få repor med tiden."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/kabinvaska",
+    "cardBadge": "Kabinstorlek",
+    "cardHook": "Lätt hardcase på 40x30x20 cm – rullar smidigt genom flygplatsen.",
+    "cardImage": "/products/cabin-max-anode-kabinvaska/kabinvaska-thumbnail.webp",
+    "cardImageAlt": "Cabin Max Anode kabinväska i creme med fyra hjul",
+    "badge": "Elins kabinval",
+    "headline": "Cabin Max Anode – lätt hardcase i kabinstorlek",
+    "shortBody": "En lätt hardcase-kabinväska (40x30x20 cm) som möter Ryanair och Wizz Air. Fyra hjul, kombinationslås och hårt skal – väger bara 2 kg och rullar smidigt.",
+    "valueHook": "Rulla, lås, kliv på planet",
+    "valueStatement": "Cabin Max Anode är en lätt hardcase-kabinväska (40x30x20 cm) för dig som vill rulla väskan istället för att bära den. Den möter kabinmåtten hos de flesta flygbolag som Ryanair och Wizz Air, väger bara 2 kg och har fyra hjul samt kombinationslås. Amazon visar 4,6 av 5 från 14 285 omdömen, och köpare lyfter att den är lätt, stabil och förvånansvärt rymlig. Tänk på att 40x30x20 cm är underseat-storlek – perfekt för weekend, men snål för längre resor.",
+    "passFor": [
+      "Vill rulla väskan istället för att bära allt på ryggen.",
+      "Reser weekend och korta resor med Ryanair eller Wizz Air.",
+      "Vill ha hårt skal och kombinationslås som skyddar innehållet."
+    ],
+    "caution": "40x30x20 cm är underseat-storlek – den rymmer en weekend men blir snål för längre resor eller mycket vinterkläder. Det hårda skalet skyddar bra men kan få ytliga repor med tiden, och du drar den istället för att ha händerna fria.",
+    "usageGuidance": {
+      "title": "Så får du ut mest av den",
+      "text": "Packa med paketeringsteknik (rulla kläderna) och använd innerbanden så håller allt på plats. Ställ den under stolen på Ryanair och Wizz Air för att slippa avgifter för större bagage."
+    },
+    "verdict": "Lätt, smidig hardcase i kabinstorlek – perfekt för weekend, snål för längre resor.",
+    "amazonSummary": "Amazon visar 4,6 av 5 från 14 285 omdömen. Köpare gillar att den är lätt, stabil och rymlig för storleken – kom ihåg att det är underseat-mått för korta resor.",
+    "amazonQuotes": [
+      { "text": "Passar perfekt till Ryanairs Priority & 2 Cabin Bags, bra kvalitet och helt okej för resor på upp till 4 dagar.", "attribution": "Köpare, Amazon" },
+      { "text": "Stylish, light, surprisingly roomy. Sturdy zipper and lock.", "attribution": "Köpare, Amazon" },
+      { "text": "Väldigt lätt, ändå rymlig och stabil. Kan nog locka en till att proppa ner mer.", "attribution": "Köpare, Amazon" }
+    ],
+    "faqItems": [
+      { "question": "Får Cabin Max Anode plats som handbagage?", "answer": "Ja, den är 40x30x20 cm och möter kabinmåtten hos de flesta flygbolag, bland annat Ryanair och Wizz Air, där den ofta får plats gratis under stolen. Kontrollera alltid ditt flygbolags aktuella mått." },
+      { "question": "Hur mycket rymmer den?", "answer": "Runt 21 liter – lagom för en weekend eller några dagar när du packar smart. För längre resor med mycket kläder blir den snål." },
+      { "question": "Kabinväska eller ryggsäck – vad är bäst?", "answer": "Väskan rullar smidigt och skyddar innehållet i hårt skal, medan en kabinryggsäck ofta rymmer mer och gör händerna fria. Vill du rulla väljer du väskan; vill du ha händerna fria väljer du ryggsäcken." }
+    ],
+    "reviewSectionId": "cabin-max-anode-kabinvaska-recensioner",
+    "reviewFormId": "cabin-max-anode-kabinvaska-skriv-recension",
+    "targetKeyword": "kabinväska",
+    "metaTitle": "Cabin Max Anode kabinväska – lätt hardcase | Elins val",
+    "metaDescription": "Elin går igenom Cabin Max Anode kabinväska (40x30x20 cm, 4,6 av 5 från 14 285 omdömen): lätt hardcase för Ryanair – och när en ryggsäck packar smartare.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/resryggsack", "label": "Kabinryggsäck", "text": "Rymlig 44L-ryggsäck som gör händerna fria." },
+      { "href": "/sommar/resa/kabinvaska-eller-ryggsack", "label": "Jämförelse", "text": "Kabinväska eller ryggsäck – vilken passar din resa?" },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan och stranden." }
+    ]
+  },
+  "images": {
+    "dir": "cabin-max-anode-kabinvaska",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/81OBnmO+wrL._AC_SL1500_.jpg", "out": "kabinvaska-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81ZSoauLH5L._AC_SL1500_.jpg", "out": "kabinvaska-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71nwSAfnqWL._AC_SL1500_.jpg", "out": "kabinvaska-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81-razt+7XL._AC_SL1500_.jpg", "out": "kabinvaska-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Cabin Max Anode kabinväska (40x30x20 cm)", "href": "/sommar/resa/kabinvaska", "date": "2026-07-07", "image": "/products/cabin-max-anode-kabinvaska/kabinvaska-thumbnail.webp", "blurb": "Lätt hardcase i exakt kabinstorlek för Ryanair och Wizz Air." }
+  ]
+}

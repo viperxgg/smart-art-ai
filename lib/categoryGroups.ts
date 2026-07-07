@@ -260,6 +260,8 @@ export const categoryProductGroups = {
     {
       title: "Kabinväska & packning",
       productSlugs: [
+        "taygeer-kabinryggsack",
+        "cabin-max-anode-kabinvaska",
         "epicka-reseadapter",
         "traxenta-necessar",
         "grifema-bagagevag",
@@ -270,6 +272,7 @@ export const categoryProductGroups = {
     {
       title: "Strand & bad",
       productSlugs: [
+        "utopia-cabana-strandhandduk",
         "anortrek-sandfri-strandfilt",
         "lifewit-kylvaska-ryggsack",
         "strandklammor-9-pack",

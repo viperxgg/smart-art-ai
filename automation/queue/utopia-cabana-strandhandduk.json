@@ -1,0 +1,118 @@
+{
+  "system": "resa",
+  "exportName": "utopiaCabanaStrandhandduk",
+  "category": "resa",
+  "categoryGroup": "Strand & bad",
+  "route": "sommar/resa/frottehandduk",
+  "pageComponentName": "FrottehanddukPage",
+  "product": {
+    "slug": "utopia-cabana-strandhandduk",
+    "title": "Utopia Towels frottéhandduk – cabana strandhandduk (4-pack)",
+    "category": "resa",
+    "asin": "B08BZD5MCK",
+    "brand": "Utopia Towels",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["100% bomull", "Mjuk & sugande", "4-pack"],
+    "image": "/products/utopia-cabana-strandhandduk/frotte-thumbnail.webp",
+    "imageAlt": "Utopia Towels cabana frottéhanddukar i randigt bomullsfrotté",
+    "images": [
+      { "src": "/products/utopia-cabana-strandhandduk/frotte-thumbnail.webp", "alt": "Utopia Towels cabana frottéhanddukar i randigt bomullsfrotté", "label": "Frottéhandduk" },
+      { "src": "/products/utopia-cabana-strandhandduk/frotte-1.webp", "alt": "Randig frottéhandduk i 100% ringspunnen bomull", "label": "100% bomull" },
+      { "src": "/products/utopia-cabana-strandhandduk/frotte-2.webp", "alt": "Mjuk och sugande cabana-strandhandduk utbredd", "label": "Sugande" },
+      { "src": "/products/utopia-cabana-strandhandduk/frotte-3.webp", "alt": "Cabana-randiga frottéhanddukar i fyra färger", "label": "4-pack" }
+    ],
+    "amazonUrl": "https://amzn.to/4p5fsLo",
+    "pageHref": "/sommar/resa/frottehandduk",
+    "summary": "En klassisk frottéhandduk i 100% ringspunnen bomull – mjuk mot huden och riktigt sugande. Cabana-modellen kommer som 4-pack (76x152 cm) i sköna färger och är en trygg strand- och baddhandduk. Bra att veta: frotté är tjockare och tar mer plats i väskan än en mikrofiberhandduk, och den behöver längre tid på tork.",
+    "evaluation": {
+      "headline": "Mjuk frottéhandduk som suger på riktigt",
+      "intro": "Elin tittar närmare på Utopia Towels cabana-frottéhanddukar: 100% ringspunnen bomull, mjuk känsla mot huden och bra sugförmåga. Ett 4-pack (76x152 cm) i randiga färger för stranden, poolen och badrummet.",
+      "verdict": "Mjuk, sugande bomullsfrotté till bra pris – tar mer plats och torkar långsammare än mikrofiber.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Frottéhandduk",
+    "specSectionTitle": "Utopia cabana frotté",
+    "specs": [
+      { "label": "Material", "caption": "Tyg", "value": "100% ringspunnen bomull (frotté)" },
+      { "label": "Storlek", "caption": "Mått", "value": "76x152 cm, 4-pack" },
+      { "label": "Känsla", "caption": "Profil", "value": "Mjuk mot huden, sugande" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://amzn.to/4p5fsLo",
+      "ratingSummary": "Amazon visar 4,4 av 5 från 15 015 omdömen.",
+      "ratingCheckedAt": "juli 2026",
+      "highlights": [
+        "Mjuka mot huden och sugande – köpare beskriver dem som sköna och lena.",
+        "Cabana-ränderna och färgerna stämmer med beskrivningen.",
+        "Uppskattade av köpare (4,4 av 5 från 15 015 omdömen)."
+      ],
+      "cautions": [
+        "En del köpare nämner att de luddar lite i början – tvätta separat de första gångerna.",
+        "Frotté tar mer plats och torkar långsammare än en mikrofiberhandduk."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/frottehandduk",
+    "cardBadge": "100% bomull",
+    "cardHook": "Mjuk, sugande frotté – den klassiska strand- och baddhandduken.",
+    "cardImage": "/products/utopia-cabana-strandhandduk/frotte-thumbnail.webp",
+    "cardImageAlt": "Utopia Towels cabana frottéhanddukar i randigt bomullsfrotté",
+    "badge": "Elins frottéval",
+    "headline": "Utopia frottéhandduk – mjuk och sugande",
+    "shortBody": "En klassisk frottéhandduk i 100% ringspunnen bomull. Mjuk mot huden, riktigt sugande och skön att svepa in sig i – kommer som 4-pack i cabana-ränder.",
+    "valueHook": "Mjuk komfort som suger",
+    "valueStatement": "Utopia Towels cabana-frottéhandduk är en mjuk, sugande bomullshandduk för dig som gillar den sköna, lyxiga känslan på stranden och i badrummet. Den kommer som 4-pack (76x152 cm) i 100% ringspunnen bomull. Amazon visar 4,4 av 5 från 15 015 omdömen, och köpare lyfter framför allt att de är mjuka och sköna. Tänk på att frotté tar mer plats och torkar långsammare än en mikrofiberhandduk.",
+    "passFor": [
+      "Vill ha den mjuka, sugande komforten av riktig bomullsfrotté.",
+      "Använder handduken hemma, på stranden och vid poolen.",
+      "Vill ha flera handdukar på en gång (4-pack)."
+    ],
+    "caution": "Frotté är tjockare, tyngre och tar mer plats i väskan än mikrofiber, och den behöver längre tid på tork. En del köpare nämner också att den luddar lite i början – tvätta separat de första gångerna så minskar det.",
+    "usageGuidance": {
+      "title": "Så sköter du den",
+      "text": "Tvätta separat de första gångerna för att minska ludd, och hoppa över sköljmedel som annars kan göra frottén mindre sugande. Låt handduken lufttorka helt mellan baden så håller den sig fräsch."
+    },
+    "verdict": "Mjuk, sugande bomullsfrotté till bra pris – tar mer plats och torkar långsammare än mikrofiber.",
+    "amazonSummary": "Amazon visar 4,4 av 5 från 15 015 omdömen. Köpare beskriver dem som mjuka och sköna – kom ihåg att de luddar lite i början och tar mer plats än mikrofiber.",
+    "amazonQuotes": [
+      { "text": "Really soft and nice towels!", "attribution": "Köpare, Amazon" },
+      { "text": "Färg och material stämde med beskrivning. Perfekt.", "attribution": "Köpare, Amazon" },
+      { "text": "The quality of the towels is not good, while using the lint is coming out.", "attribution": "Kritisk köpare, Amazon" }
+    ],
+    "faqItems": [
+      { "question": "Vad är skillnaden mellan frotté och mikrofiber?", "answer": "Frotté är vävd bomull som är mjuk och sugande men tjockare och långsammare att torka. Mikrofiber är tunn, lätt och snabbtorkande och packar mycket mindre – men känns tunnare mot huden." },
+      { "question": "Luddar frottéhanddukarna?", "answer": "Några köpare nämner lite ludd i början. Tvätta dem separata de första gångerna och skippa sköljmedel, så minskar luddet och sugförmågan bevaras." },
+      { "question": "Passar de som strandhandduk?", "answer": "Ja, cabana-modellen är 76x152 cm, lagom för stranden och poolen, och kommer som 4-pack så hela sällskapet får varsin." }
+    ],
+    "reviewSectionId": "utopia-cabana-strandhandduk-recensioner",
+    "reviewFormId": "utopia-cabana-strandhandduk-skriv-recension",
+    "targetKeyword": "frottéhandduk",
+    "metaTitle": "Utopia frottéhandduk – mjuk cabana-strandhandduk | Elins val",
+    "metaDescription": "Elin går igenom Utopia Towels frottéhandduk (4-pack, 4,4 av 5 från 15 015 omdömen): mjuk, sugande bomull – och när mikrofiber packar smartare.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/mikrofiberhandduk", "label": "Mikrofiberhandduk", "text": "Snabbtorkande handduk som knappt tar plats." },
+      { "href": "/sommar/resa/mikrofiberhandduk-eller-frottehandduk", "label": "Jämförelse", "text": "Mikrofiber eller frotté – vilken ska du ta med?" },
+      { "href": "/sommar/resa", "label": "Elins reseval", "text": "Fler smarta prylar för resan och stranden." }
+    ]
+  },
+  "images": {
+    "dir": "utopia-cabana-strandhandduk",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/91Lh8oZpb5L._AC_SL1500_.jpg", "out": "frotte-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/91FfusYLLZL._AC_SL1500_.jpg", "out": "frotte-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71osGq3WqqL._AC_SL1500_.jpg", "out": "frotte-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/A1Yi5j9wHoL._AC_SL1500_.jpg", "out": "frotte-3.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Utopia frottéhandduk (cabana 4-pack)", "href": "/sommar/resa/frottehandduk", "date": "2026-07-07", "image": "/products/utopia-cabana-strandhandduk/frotte-thumbnail.webp", "blurb": "Mjuk, sugande bomullsfrotté för stranden – och när mikrofiber packar smartare." }
+  ]
+}
