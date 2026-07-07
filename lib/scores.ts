@@ -47,6 +47,14 @@ export const editorialScores: Record<string, EditorialScore> = {
     total: 77,
     verdict: "Mjuk, sugande bomullsfrotté – tar mer plats än mikrofiber",
   },
+  "anortrek-sandfri-strandfilt": {
+    value: 24,
+    performance: 21,
+    promise: 20,
+    proven: 12,
+    total: 77,
+    verdict: "Stor, lätt och sandfri strandbas – tunn på stenig mark",
+  },
   "fit-flip-mikrofiberhandduk": {
     value: 25,
     performance: 22,

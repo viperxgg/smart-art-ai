@@ -16,6 +16,17 @@ export type ComparisonEntry = {
 export const comparisonEntries: readonly ComparisonEntry[] = [
   ...waveComparisonEntries,
   {
+    slug: "strandfilt-eller-strandhandduk",
+    title: "Strandfilt eller strandhandduk?",
+    shortTitle: "Strandfilt eller strandhandduk",
+    category: "resa",
+    categoryLabel: "Resa",
+    href: "/sommar/resa/strandfilt-eller-strandhandduk",
+    description: "En sandfri sittyta för sällskapet mot en mjuk handduk att torka sig med – vad ska du packa?",
+    productSlugs: ["anortrek-sandfri-strandfilt","utopia-cabana-strandhandduk"],
+    badges: ["Sittplats vs torkning","Sandfri bas vs komfort","Strand & bad"],
+  },
+  {
     slug: "kabinvaska-eller-ryggsack",
     title: "Kabinväska eller ryggsäck?",
     shortTitle: "Kabinväska eller ryggsäck",
