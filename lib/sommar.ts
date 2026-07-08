@@ -1,4 +1,7 @@
 import {
+  blukarMobilhallareProduct,
+  haisskyLoparbalteProduct,
+  colemanXtremeKylboxProduct,
   taygeerKabinryggsack,
   cabinMaxAnodeKabinvaska,
   utopiaCabanaStrandhandduk,
@@ -7907,6 +7910,78 @@ export function getSmartSommarPickBySlug(productSlug: string) {
 // men INTE visas i de säsongsbetonade sommar-sektionerna.
 export const traningsPicks: SommarPick[] = [
   {
+    productSlug: haisskyLoparbalteProduct.slug,
+    product: haisskyLoparbalteProduct,
+    href: "/traning/loparbalte",
+    cardBadge: "Ultralätt",
+    cardHook: "Mobil, nycklar och kort på rundan – utan att det studsar.",
+    cardImage: "/products/haissky-loparbalte/loparbalte-thumbnail.webp",
+    cardImageAlt: "HAISSKY löparbälte med tre dragkedjefickor",
+    badge: "Elins budgetval",
+    headline: "HAISSKY löparbälte – allt du behöver på rundan",
+    shortBody: "Ultralätt midjeväska med tre dragkedjefickor, plats för mobiler upp till 6,9 tum och reflexdetaljer. Elastiskt band som sitter tätt utan att studsa.",
+    valueHook: "Slipp mobilen i handen på rundan",
+    valueStatement: "HAISSKY löparbälte är en ultralätt midjeväska för dig som vill ha mobil, nycklar och kort med på rundan utan att hålla något i handen. Tre dragkedjefickor, hål för hörlurskabel och ett elastiskt band som sitter tätt mot kroppen. Amazon visar 4,3 av 5 från 4 083 omdömen, och köpare lyfter att den sitter bekvämt utan att studsa. Tänk på att den är vattenavvisande – inte vattentät – och att den inte rymmer någon vattenflaska.",
+    passFor: [
+      "Springer kortare rundor och vill ha mobil och nycklar säkert med.",
+      "Vill ha något lätt som inte studsar eller skaver.",
+      "Vill hellre betala budgetpris än köpa en hel löparväst.",
+    ],
+    caution: "Ingen plats för vattenflaska – ska du springa långt och behöver vätska är en löparväst rätt verktyg. Dragkedjorna är vattenavvisande men inte vattentäta, så skydda mobilen i störtregn. Packar du bältet fullt med tunga saker kan det kännas mer på rundan.",
+    usageGuidance: {
+      title: "Så sitter det bäst",
+      text: "Spänn bandet så bältet ligger tätt mot kroppen – gärna med fickorna bak eller på höften. Lägg mobilen i huvudfickan och dra hörlurskabeln genom hålet så slipper du trassel.",
+    },
+    verdict: "Billigt, lätt och gör jobbet på rundan – men vatten får du bära på annat sätt.",
+    amazonSummary: "Amazon visar 4,3 av 5 från 4 083 omdömen. Köpare lyfter passformen och att den inte studsar – kom ihåg att den saknar plats för vattenflaska.",
+    amazonQuotes: [
+      {
+        text: "Jättenöjd med denna väska. Bra resår och kardborre som fäster ordentligt.",
+        attribution: "Köpare, Amazon (Sverige)",
+      },
+      {
+        text: "Perfect product for carrying my phone and door key whilst running. It fits snugly and is so comfortable.",
+        attribution: "Köpare, Amazon (Storbritannien)",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Får en stor mobil plats?",
+        answer: "Ja, huvudfickan rymmer smartphones upp till 6,9 tum – även större modeller med skal. Det finns dessutom ett hål att dra hörlurskabeln genom.",
+      },
+      {
+        question: "Studsar det när jag springer?",
+        answer: "Bandet är elastiskt och spänns tätt mot kroppen, och köpare lyfter just att det sitter still. Packa det inte för tungt så håller det sig på plats även i högre tempo.",
+      },
+      {
+        question: "Löparbälte eller löparväst?",
+        answer: "Bältet räcker gott för mobil, nycklar och kort på vanliga rundor. Löparvästen är för långpass där du vill bära vatten och mer packning – den kostar mer och är varmare.",
+      },
+    ],
+    reviewSectionId: "haissky-loparbalte-recensioner",
+    reviewFormId: "haissky-loparbalte-skriv-recension",
+    targetKeyword: "löparbälte",
+    metaTitle: "HAISSKY löparbälte – midjeväska för rundan | Elins val",
+    metaDescription: "Elin går igenom HAISSKY löparbälte (4,3 av 5 från 4 083 omdömen): ultralätt midjeväska för mobil och nycklar på rundan – och när en löparväst passar bättre.",
+    relatedLinks: [
+      {
+        href: "/traning/loparvast-eller-midjevaska",
+        label: "Jämförelse",
+        text: "Löparväst eller midjeväska – vad behöver du på rundan?",
+      },
+      {
+        href: "/traning/loparvast",
+        label: "Löparväst",
+        text: "Salomon löparväst – när du vill bära vatten på långpasset.",
+      },
+      {
+        href: "/traning",
+        label: "Träning",
+        text: "Se alla Elins träningsval.",
+      },
+    ],
+  },
+  {
     productSlug: fitgriffStrapsProduct.slug,
     product: fitgriffStrapsProduct,
     href: "/traning/lifting-straps",
@@ -9440,6 +9515,146 @@ export const resaSectionCopy = {
 };
 
 export const resaPicks: SommarPick[] = [
+  {
+    productSlug: blukarMobilhallareProduct.slug,
+    product: blukarMobilhallareProduct,
+    href: "/sommar/resa/mobilhallare-ventil",
+    cardBadge: "Alla mobiler",
+    cardHook: "Klämhållaren som passar alla mobiler – ingen magnet behövs.",
+    cardImage: "/products/blukar-mobilhallare/mobilhallare-thumbnail.webp",
+    cardImageAlt: "Blukar mobilhållare med klämma för ventilationsgallret",
+    badge: "Elins budgetval",
+    headline: "Blukar klämhållare – funkar med allt",
+    shortBody: "Mobilhållare med förstärkt metallkrok, stabilt triangelgrepp och en-knapps-release. Passar alla mobiler 4–7 tum – inga magneter eller skal krävs.",
+    valueHook: "Ingen magnet? Inget problem",
+    valueStatement: "Blukar klämhållare är för dig som vill ha en mobilhållare som bara funkar – oavsett mobil och utan tillbehör. Klämarmarna håller mobilen i ett triangelgrepp, en knapp släpper den med en hand och 360-graderskulleden vinklar fritt. Amazon visar 4,5 av 5 från 25 829 omdömen. Tänk på att klämman tar ett handgrepp mer än en magnethållare, och att hållaren sitter i en ventil.",
+    passFor: [
+      "Har Android eller iPhone utan MagSafe-skal och vill slippa köpa magnetring.",
+      "Flera i familjen delar bil och har olika mobiler.",
+      "Vill ha ett stabilt, billigt standardval till semesterkörningen.",
+    ],
+    caution: "Du klämmer fast mobilen istället för att bara släppa den mot en magnet – det tar ett extra handgrepp varje gång. Väldigt tjocka eller ojämna skal kan sitta trängre i klämarmarna, och som alla ventilhållare täcker den en av bilens ventiler.",
+    usageGuidance: {
+      title: "Så sitter den bäst",
+      text: "Fäst kroken på ett stadigt lamellgaller och justera stödfötterna mot mobilens underkant. Tryck ihop armarna tills greppet känns stadigt och använd knappen på baksidan för att släppa mobilen med en hand.",
+    },
+    verdict: "Passar alla mobiler utan tillbehör – klämman tar bara ett handgrepp mer än magneten.",
+    amazonSummary: "Amazon visar 4,5 av 5 från 25 829 omdömen. Svenska köpare sammanfattar: fungerar som den lovar – kom ihåg att klämman tar ett extra handgrepp.",
+    amazonQuotes: [
+      {
+        text: "Har haft den någon månad nu och funkar bra.",
+        attribution: "Köpare, Amazon (Sverige)",
+      },
+      {
+        text: "Fungerar som den lovar!",
+        attribution: "Köpare, Amazon (Sverige)",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Passar den min mobil?",
+        answer: "Klämarmarna passar alla mobiler mellan 4,0 och 7,0 tum – med eller utan skal, ingen magnet eller ring behövs. Väldigt tjocka skal kan sitta lite trängre.",
+      },
+      {
+        question: "Hur tar jag loss mobilen med en hand?",
+        answer: "Hållaren har en release-knapp: tryck på den så öppnas klämarmarna och mobilen släpps. Att sätta dit mobilen kräver att du klämmer ihop armarna igen.",
+      },
+      {
+        question: "Sitter den stadigt i gallret?",
+        answer: "Kroken är gjord i metall och passar de flesta vågräta och lodräta lamellgaller. Triangelgreppet håller mobilen stabil även på ojämn väg, enligt köparna.",
+      },
+    ],
+    reviewSectionId: "blukar-mobilhallare-recensioner",
+    reviewFormId: "blukar-mobilhallare-skriv-recension",
+    targetKeyword: "mobilhållare bil",
+    metaTitle: "Blukar mobilhållare bil – klämman för alla mobiler | Elins val",
+    metaDescription: "Elin går igenom Blukar mobilhållare med ventilklämma (4,5 av 5 från 25 829 omdömen): passar alla mobiler utan magnet – och när MagSafe-hållaren är smidigare.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/magnetisk-mobilhallare-eller-ventilklamma",
+        label: "Jämförelse",
+        text: "Magnetisk mobilhållare eller ventilklämma – vilken ska du välja?",
+      },
+      {
+        href: "/sommar/resa/mobilhallare",
+        label: "MagSafe",
+        text: "Lamicall magnethållare – smidigast om du har MagSafe.",
+      },
+      {
+        href: "/sommar/resa/billaddare",
+        label: "Billaddare",
+        text: "Ladda mobilen medan du kör.",
+      },
+    ],
+  },
+  {
+    productSlug: colemanXtremeKylboxProduct.slug,
+    product: colemanXtremeKylboxProduct,
+    href: "/sommar/resa/kylbox",
+    cardBadge: "Kyla i dagar",
+    cardHook: "Hård kylbox på 49 liter – håller kylan i upp till 4 dagar på campingen.",
+    cardImage: "/products/coleman-xtreme-kylbox/kylbox-thumbnail.webp",
+    cardImageAlt: "Coleman Xtreme hård kylbox 49 liter i blått",
+    badge: "Elins basstation",
+    headline: "Coleman Xtreme – kylan som håller hela helgen",
+    shortBody: "En hård passiv kylbox på 49 liter med PU-skumisolering även i locket. Håller kylan i upp till 4 dagar – och locket tål att sittas på.",
+    valueHook: "När en dag med kyla inte räcker",
+    valueStatement: "Coleman Xtreme är en hård kylbox på 49 liter för dig som behöver kyla som håller mer än en dag – camping, festival eller långhelg vid stranden. PU-skumisolering i både kropp och lock ger upp till 4 dagars kyla med rätt packning, och det robusta HDPE-skalet tål att sittas på. Amazon visar 4,5 av 5 från 1 037 omdömen. Tänk på att den väger 5,5 kg tom – det här är bilens och baslägrets kylbox, inte den du bär till stranden varje dag.",
+    passFor: [
+      "Campar, åker på festival eller är borta flera dagar i sträck.",
+      "Vill ha en kylbox som även funkar som extra sittplats.",
+      "Packar bilen och behöver rejäl volym för hela sällskapet.",
+    ],
+    caution: "Den är tung (5,5 kg tom) och skrymmande – fullpackad bärs den helst av två. För en vanlig stranddag nära bilen är den perfekt, men ska du gå långt är en mjuk kylryggsäck smidigare. Kyltiden på upp till 4 dagar förutsätter förkylt innehåll, is eller kylklampar och att locket hålls stängt.",
+    usageGuidance: {
+      title: "Så håller kylan längst",
+      text: "Förkyl boxen och innehållet, använd rikligt med is eller kylklampar och öppna locket så sällan som möjligt. Ställ den i skugga – då kommer du närmast de fyra dagarna.",
+    },
+    verdict: "Håller kylan i dagar och tål att sittas på – men den bär du inte långt.",
+    amazonSummary: "Amazon visar 4,5 av 5 från 1 037 omdömen. Köpare lyfter att den håller kylan länge och är robust – kom ihåg att den är tung och skrymmande.",
+    amazonQuotes: [
+      {
+        text: "Precis den stl vi önskade.",
+        attribution: "Köpare, Amazon (Sverige)",
+      },
+    ],
+    faqItems: [
+      {
+        question: "Hur länge håller den kylan?",
+        answer: "Upp till 4 dagar med rätt packning: förkylt innehåll, gott om is eller kylklampar, locket stängt och boxen i skugga. I stekande sol och med många locköppningar blir tiden kortare.",
+      },
+      {
+        question: "Hur mycket rymmer 49 liter?",
+        answer: "Gott om plats för mat och dryck till hela sällskapet i flera dagar – innermåtten är 47x31x38 cm. Locket har dessutom plats för burkar eller flaskor.",
+      },
+      {
+        question: "Kylbox eller kylväska – vad ska jag välja?",
+        answer: "Kylboxen håller kylan i dagar och tål att sittas på men är tung att bära. En mjuk kylryggsäck bärs bekvämt men håller kylan i timmar, inte dagar. Långhelg = box, dagsutflykt till fots = ryggsäck.",
+      },
+    ],
+    reviewSectionId: "coleman-xtreme-kylbox-recensioner",
+    reviewFormId: "coleman-xtreme-kylbox-skriv-recension",
+    targetKeyword: "kylbox",
+    metaTitle: "Coleman Xtreme kylbox 49 L – kyla i dagar | Elins val",
+    metaDescription: "Elin går igenom Coleman Xtreme hård kylbox (49 L, 4,5 av 5 från 1 037 omdömen): upp till 4 dagars kyla för camping och långhelg – och när en kylväska passar bättre.",
+    relatedLinks: [
+      {
+        href: "/sommar/resa/mjuk-kylvaska-eller-hard-kylbox",
+        label: "Jämförelse",
+        text: "Mjuk kylväska eller hård kylbox – vilken passar din utflykt?",
+      },
+      {
+        href: "/sommar/resa/kylvaska",
+        label: "Kylryggsäck",
+        text: "Lifewit kylryggsäck – sval dryck när du går till stranden.",
+      },
+      {
+        href: "/sommar/resa/strandfilt",
+        label: "Strandfilt",
+        text: "Sandfri bas för hela sällskapet på stranden.",
+      },
+    ],
+  },
   {
     productSlug: taygeerKabinryggsack.slug,
     product: taygeerKabinryggsack,

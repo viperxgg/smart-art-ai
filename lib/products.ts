@@ -16401,7 +16401,280 @@ export const taygeerKabinryggsack: Product = {
   comments: [],
 };
 
+export const colemanXtremeKylboxProduct: Product = {
+  slug: "coleman-xtreme-kylbox",
+  title: "Coleman Xtreme kylbox (49 L, hård passiv kylbox)",
+  category: "resa",
+  asin: "B09MKQ713Y",
+  brand: "Coleman",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Håller kylan i dagar",
+    "49 liter",
+    "Tål att sittas på",
+  ],
+  image: "/products/coleman-xtreme-kylbox/kylbox-thumbnail.webp",
+  imageAlt: "Coleman Xtreme hård kylbox 49 liter i blått",
+  images: [
+    {
+      src: "/products/coleman-xtreme-kylbox/kylbox-thumbnail.webp",
+      alt: "Coleman Xtreme kylbox 49 liter",
+      label: "Kylbox",
+    },
+    {
+      src: "/products/coleman-xtreme-kylbox/kylbox-1.webp",
+      alt: "Coleman Xtreme kylbox packad med dryck och is",
+      label: "Rymlig",
+    },
+    {
+      src: "/products/coleman-xtreme-kylbox/kylbox-2.webp",
+      alt: "Coleman Xtreme kylbox med bärhandtag",
+      label: "Handtag",
+    },
+    {
+      src: "/products/coleman-xtreme-kylbox/kylbox-3.webp",
+      alt: "Coleman Xtreme kylbox lock med plats för flaskor",
+      label: "Locket",
+    },
+    {
+      src: "/products/coleman-xtreme-kylbox/kylbox-4.webp",
+      alt: "Coleman Xtreme kylbox på camping",
+      label: "Camping",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B09MKQ713Y?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/kylbox",
+  summary: "Coleman Xtreme är en hård passiv kylbox på 49 liter med PU-skumisolering även i locket – den håller kylan i upp till 4 dagar med rätt packning. Robust HDPE-plast, två rejäla bärhandtag och ett lock som tål att sittas på (upp till 113 kg). Bra att veta: den väger 5,5 kg tom och är skrymmande – det här är basstationen för camping och långhelg, inte något du bär långt.",
+  evaluation: {
+    headline: "Basstationen som håller kylan i dagar",
+    intro: "Elin tittar närmare på Coleman Xtreme 49 L: en klassisk hård kylbox med PU-skumisolering i både kropp och lock, byggd för camping, festival och långa stranddagar där kylan ska hålla mer än en dag.",
+    verdict: "Håller kylan i dagar och tål att sittas på – men den bär du inte långt.",
+    checks: [],
+  },
+  specSectionEyebrow: "Kylbox",
+  specSectionTitle: "Coleman Xtreme 49 L",
+  specs: [
+    {
+      label: "Volym",
+      caption: "Kapacitet",
+      value: "49 liter (innermått 47x31x38 cm)",
+    },
+    {
+      label: "Kyltid",
+      caption: "Isolering",
+      value: "Upp till 4 dagar med PU-skum i kropp och lock",
+    },
+    {
+      label: "Vikt & tålighet",
+      caption: "Konstruktion",
+      value: "5,5 kg, HDPE-plast, locket tål upp till 113 kg",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B09MKQ713Y?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,5 av 5 från 1 037 omdömen.",
+    highlights: [
+      "Håller kylan i flera dagar med rätt packning – köpare använder den för camping och långresor.",
+      "Robust bygge i HDPE-plast som även funkar som sittplats.",
+      "4,5 av 5 från över 1 000 omdömen.",
+    ],
+    cautions: [
+      "Den väger 5,5 kg tom och är skrymmande – gjord för bilen och basläget, inte för att bäras längre sträckor.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const haisskyLoparbalteProduct: Product = {
+  slug: "haissky-loparbalte",
+  title: "HAISSKY löparbälte – midjeväska för mobil och nycklar",
+  category: "traning",
+  asin: "B08HYWNG9H",
+  brand: "HAISSKY",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Ultralätt",
+    "3 fickor",
+    "Reflex",
+  ],
+  image: "/products/haissky-loparbalte/loparbalte-thumbnail.webp",
+  imageAlt: "HAISSKY löparbälte med tre dragkedjefickor",
+  images: [
+    {
+      src: "/products/haissky-loparbalte/loparbalte-thumbnail.webp",
+      alt: "HAISSKY löparbälte midjeväska",
+      label: "Löparbälte",
+    },
+    {
+      src: "/products/haissky-loparbalte/loparbalte-1.webp",
+      alt: "HAISSKY löparbälte med mobil i huvudfickan",
+      label: "Mobilficka",
+    },
+    {
+      src: "/products/haissky-loparbalte/loparbalte-2.webp",
+      alt: "HAISSKY löparbälte fickor med dragkedja",
+      label: "3 fickor",
+    },
+    {
+      src: "/products/haissky-loparbalte/loparbalte-3.webp",
+      alt: "HAISSKY löparbälte justerbart midjeband",
+      label: "Justerbart",
+    },
+    {
+      src: "/products/haissky-loparbalte/loparbalte-4.webp",
+      alt: "HAISSKY löparbälte används på löprunda",
+      label: "På rundan",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B08HYWNG9H?tag=azzamkhalaf-21",
+  pageHref: "/traning/loparbalte",
+  summary: "HAISSKY löparbälte är en ultralätt midjeväska för löprundan med tre dragkedjefickor och hål för hörlurskabel. Huvudfickan rymmer mobiler upp till 6,9 tum, bandet är elastiskt och justerbart, och reflexdetaljer syns i mörkret. Bra att veta: tyget är vattenavvisande – inte vattentätt – och bältet har ingen plats för vattenflaska.",
+  evaluation: {
+    headline: "Mobil, nycklar och kort – utan att studsa",
+    intro: "Elin tittar närmare på HAISSKY löparbälte: en enkel, prisvärd midjeväska som löser det vanligaste problemet på rundan – var gör jag av mobilen och nycklarna?",
+    verdict: "Billigt, lätt och gör jobbet på rundan – men vatten får du bära på annat sätt.",
+    checks: [],
+  },
+  specSectionEyebrow: "Löparbälte",
+  specSectionTitle: "HAISSKY midjeväska",
+  specs: [
+    {
+      label: "Fickor",
+      caption: "Förvaring",
+      value: "3 dragkedjefickor + hål för hörlurskabel",
+    },
+    {
+      label: "Mobil",
+      caption: "Passar",
+      value: "Smartphones upp till 6,9 tum",
+    },
+    {
+      label: "Band",
+      caption: "Passform",
+      value: "Elastiskt, justerbart från ca 72 cm midja",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B08HYWNG9H?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,3 av 5 från 4 083 omdömen.",
+    highlights: [
+      "Sitter tätt mot kroppen utan att studsa – köpare bär mobil, nycklar och kort.",
+      "Bra resår och kardborre som fäster ordentligt, enligt svenska köpare.",
+      "4,3 av 5 från över 4 000 omdömen.",
+    ],
+    cautions: [
+      "Vattenavvisande dragkedjor, inte vattentätt – och ingen plats för vattenflaska. För långpass med vätska är en löparväst smartare.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
+export const blukarMobilhallareProduct: Product = {
+  slug: "blukar-mobilhallare-ventil",
+  title: "Blukar mobilhållare med ventilklämma (alla mobiler)",
+  category: "resa",
+  asin: "B0C1NK79FK",
+  brand: "Blukar",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Alla mobiler",
+    "En-knapps-release",
+    "360° rotation",
+  ],
+  image: "/products/blukar-mobilhallare/mobilhallare-thumbnail.webp",
+  imageAlt: "Blukar mobilhållare med klämma för bilens ventilationsgaller",
+  images: [
+    {
+      src: "/products/blukar-mobilhallare/mobilhallare-thumbnail.webp",
+      alt: "Blukar mobilhållare med ventilklämma",
+      label: "Klämhållare",
+    },
+    {
+      src: "/products/blukar-mobilhallare/mobilhallare-1.webp",
+      alt: "Blukar mobilhållare klämarmar runt mobil",
+      label: "Klämarmar",
+    },
+    {
+      src: "/products/blukar-mobilhallare/mobilhallare-2.webp",
+      alt: "Blukar mobilhållare knapp för att släppa mobilen",
+      label: "En knapp",
+    },
+    {
+      src: "/products/blukar-mobilhallare/mobilhallare-3.webp",
+      alt: "Blukar mobilhållare 360 graders rotation",
+      label: "360°",
+    },
+    {
+      src: "/products/blukar-mobilhallare/mobilhallare-4.webp",
+      alt: "Blukar mobilhållare med mobil i bilen",
+      label: "I bilen",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0C1NK79FK?tag=azzamkhalaf-21",
+  pageHref: "/sommar/resa/mobilhallare-ventil",
+  summary: "Blukar mobilhållare är klassikern med klämma: metallkroken fäster i ventilationsgallret, klämarmarna håller mobilen i ett stabilt triangelgrepp och en knapp släpper den med en hand. 360-graders kulled låter dig vinkla fritt, och den passar alla mobiler mellan 4 och 7 tum – helt utan magneter eller extra tillbehör. Bra att veta: det tar ett extra handgrepp jämfört med en magnethållare, och hållaren täcker en ventil.",
+  evaluation: {
+    headline: "Klassikern som passar alla mobiler – utan magnet",
+    intro: "Elin tittar närmare på Blukar klämhållare: en av Amazons mest köpta mobilhållare för bilen, med förstärkt metallkrok, en-knapps-release och 360-graders rotation.",
+    verdict: "Passar alla mobiler utan tillbehör – klämman tar bara ett handgrepp mer än magneten.",
+    checks: [],
+  },
+  specSectionEyebrow: "Mobilhållare",
+  specSectionTitle: "Blukar ventilklämma",
+  specs: [
+    {
+      label: "Grepp",
+      caption: "Fäste",
+      value: "Klämarmar med triangelstöd, släpps med en knapp",
+    },
+    {
+      label: "Rotation",
+      caption: "Vinkel",
+      value: "360° kulled, vågrätt och lodrätt",
+    },
+    {
+      label: "Passar",
+      caption: "Mobiler",
+      value: "Alla mobiler 4,0–7,0 tum, inga magneter krävs",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0C1NK79FK?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,5 av 5 från 25 829 omdömen.",
+    highlights: [
+      "Passar alla mobiler utan magnetskal eller ring – bara att klämma fast.",
+      "Svenska köpare beskriver den kort och gott: fungerar som den lovar.",
+      "4,5 av 5 från nästan 26 000 omdömen.",
+    ],
+    cautions: [
+      "Klämman tar ett extra handgrepp jämfört med en magnethållare, och väldigt tjocka skal kan sitta trängre i armarna.",
+    ],
+  },
+  ugcVideos: [],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
+  comments: [],
+};
+
 export const products = [
+  blukarMobilhallareProduct,
+  haisskyLoparbalteProduct,
+  colemanXtremeKylboxProduct,
   taygeerKabinryggsack,
   cabinMaxAnodeKabinvaska,
   utopiaCabanaStrandhandduk,

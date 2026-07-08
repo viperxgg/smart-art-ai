@@ -39,6 +39,30 @@ export function getScoreTier(total: number): ScoreTier {
 
 export const editorialScores: Record<string, EditorialScore> = {
   ...waveEditorialScores,
+  "coleman-xtreme-kylbox": {
+    value: 26,
+    performance: 25,
+    promise: 21,
+    proven: 12,
+    total: 84,
+    verdict: "Håller kylan i dagar och tål att sittas på – men den bär du inte långt",
+  },
+  "haissky-loparbalte": {
+    value: 27,
+    performance: 22,
+    promise: 21,
+    proven: 13,
+    total: 83,
+    verdict: "Billigt, lätt och gör jobbet på rundan – utan plats för vatten",
+  },
+  "blukar-mobilhallare-ventil": {
+    value: 27,
+    performance: 23,
+    promise: 21,
+    proven: 14,
+    total: 85,
+    verdict: "Klassikern som passar alla mobiler – utan magnetkrav",
+  },
   "utopia-cabana-strandhandduk": {
     value: 23,
     performance: 21,

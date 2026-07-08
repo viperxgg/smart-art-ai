@@ -1,0 +1,132 @@
+{
+  "system": "traning",
+  "exportName": "haisskyLoparbalteProduct",
+  "category": "traning",
+  "categoryGroup": "Tillbehör",
+  "route": "traning/loparbalte",
+  "pageComponentName": "LoparbaltePage",
+  "product": {
+    "slug": "haissky-loparbalte",
+    "title": "HAISSKY löparbälte – midjeväska för mobil och nycklar",
+    "category": "traning",
+    "asin": "B08HYWNG9H",
+    "brand": "HAISSKY",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["Ultralätt", "3 fickor", "Reflex"],
+    "image": "/products/haissky-loparbalte/loparbalte-thumbnail.webp",
+    "imageAlt": "HAISSKY löparbälte med tre dragkedjefickor",
+    "images": [
+      { "src": "/products/haissky-loparbalte/loparbalte-thumbnail.webp", "alt": "HAISSKY löparbälte midjeväska", "label": "Löparbälte" },
+      { "src": "/products/haissky-loparbalte/loparbalte-1.webp", "alt": "HAISSKY löparbälte med mobil i huvudfickan", "label": "Mobilficka" },
+      { "src": "/products/haissky-loparbalte/loparbalte-2.webp", "alt": "HAISSKY löparbälte fickor med dragkedja", "label": "3 fickor" },
+      { "src": "/products/haissky-loparbalte/loparbalte-3.webp", "alt": "HAISSKY löparbälte justerbart midjeband", "label": "Justerbart" },
+      { "src": "/products/haissky-loparbalte/loparbalte-4.webp", "alt": "HAISSKY löparbälte används på löprunda", "label": "På rundan" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B08HYWNG9H?tag=azzamkhalaf-21",
+    "pageHref": "/traning/loparbalte",
+    "summary": "HAISSKY löparbälte är en ultralätt midjeväska för löprundan med tre dragkedjefickor och hål för hörlurskabel. Huvudfickan rymmer mobiler upp till 6,9 tum, bandet är elastiskt och justerbart, och reflexdetaljer syns i mörkret. Bra att veta: tyget är vattenavvisande – inte vattentätt – och bältet har ingen plats för vattenflaska.",
+    "evaluation": {
+      "headline": "Mobil, nycklar och kort – utan att studsa",
+      "intro": "Elin tittar närmare på HAISSKY löparbälte: en enkel, prisvärd midjeväska som löser det vanligaste problemet på rundan – var gör jag av mobilen och nycklarna?",
+      "verdict": "Billigt, lätt och gör jobbet på rundan – men vatten får du bära på annat sätt.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Löparbälte",
+    "specSectionTitle": "HAISSKY midjeväska",
+    "specs": [
+      { "label": "Fickor", "caption": "Förvaring", "value": "3 dragkedjefickor + hål för hörlurskabel" },
+      { "label": "Mobil", "caption": "Passar", "value": "Smartphones upp till 6,9 tum" },
+      { "label": "Band", "caption": "Passform", "value": "Elastiskt, justerbart från ca 72 cm midja" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B08HYWNG9H?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,3 av 5 från 4 083 omdömen.",
+      "highlights": [
+        "Sitter tätt mot kroppen utan att studsa – köpare bär mobil, nycklar och kort.",
+        "Bra resår och kardborre som fäster ordentligt, enligt svenska köpare.",
+        "4,3 av 5 från över 4 000 omdömen."
+      ],
+      "cautions": [
+        "Vattenavvisande dragkedjor, inte vattentätt – och ingen plats för vattenflaska. För långpass med vätska är en löparväst smartare."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/traning/loparbalte",
+    "cardBadge": "Ultralätt",
+    "cardHook": "Mobil, nycklar och kort på rundan – utan att det studsar.",
+    "cardImage": "/products/haissky-loparbalte/loparbalte-thumbnail.webp",
+    "cardImageAlt": "HAISSKY löparbälte med tre dragkedjefickor",
+    "badge": "Elins budgetval",
+    "headline": "HAISSKY löparbälte – allt du behöver på rundan",
+    "shortBody": "Ultralätt midjeväska med tre dragkedjefickor, plats för mobiler upp till 6,9 tum och reflexdetaljer. Elastiskt band som sitter tätt utan att studsa.",
+    "valueHook": "Slipp mobilen i handen på rundan",
+    "valueStatement": "HAISSKY löparbälte är en ultralätt midjeväska för dig som vill ha mobil, nycklar och kort med på rundan utan att hålla något i handen. Tre dragkedjefickor, hål för hörlurskabel och ett elastiskt band som sitter tätt mot kroppen. Amazon visar 4,3 av 5 från 4 083 omdömen, och köpare lyfter att den sitter bekvämt utan att studsa. Tänk på att den är vattenavvisande – inte vattentät – och att den inte rymmer någon vattenflaska.",
+    "passFor": [
+      "Springer kortare rundor och vill ha mobil och nycklar säkert med.",
+      "Vill ha något lätt som inte studsar eller skaver.",
+      "Vill hellre betala budgetpris än köpa en hel löparväst."
+    ],
+    "caution": "Ingen plats för vattenflaska – ska du springa långt och behöver vätska är en löparväst rätt verktyg. Dragkedjorna är vattenavvisande men inte vattentäta, så skydda mobilen i störtregn. Packar du bältet fullt med tunga saker kan det kännas mer på rundan.",
+    "usageGuidance": {
+      "title": "Så sitter det bäst",
+      "text": "Spänn bandet så bältet ligger tätt mot kroppen – gärna med fickorna bak eller på höften. Lägg mobilen i huvudfickan och dra hörlurskabeln genom hålet så slipper du trassel."
+    },
+    "verdict": "Billigt, lätt och gör jobbet på rundan – men vatten får du bära på annat sätt.",
+    "amazonSummary": "Amazon visar 4,3 av 5 från 4 083 omdömen. Köpare lyfter passformen och att den inte studsar – kom ihåg att den saknar plats för vattenflaska.",
+    "amazonQuotes": [
+      {
+        "text": "Jättenöjd med denna väska. Bra resår och kardborre som fäster ordentligt.",
+        "attribution": "Köpare, Amazon (Sverige)"
+      },
+      {
+        "text": "Perfect product for carrying my phone and door key whilst running. It fits snugly and is so comfortable.",
+        "attribution": "Köpare, Amazon (Storbritannien)"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Får en stor mobil plats?",
+        "answer": "Ja, huvudfickan rymmer smartphones upp till 6,9 tum – även större modeller med skal. Det finns dessutom ett hål att dra hörlurskabeln genom."
+      },
+      {
+        "question": "Studsar det när jag springer?",
+        "answer": "Bandet är elastiskt och spänns tätt mot kroppen, och köpare lyfter just att det sitter still. Packa det inte för tungt så håller det sig på plats även i högre tempo."
+      },
+      {
+        "question": "Löparbälte eller löparväst?",
+        "answer": "Bältet räcker gott för mobil, nycklar och kort på vanliga rundor. Löparvästen är för långpass där du vill bära vatten och mer packning – den kostar mer och är varmare."
+      }
+    ],
+    "reviewSectionId": "haissky-loparbalte-recensioner",
+    "reviewFormId": "haissky-loparbalte-skriv-recension",
+    "targetKeyword": "löparbälte",
+    "metaTitle": "HAISSKY löparbälte – midjeväska för rundan | Elins val",
+    "metaDescription": "Elin går igenom HAISSKY löparbälte (4,3 av 5 från 4 083 omdömen): ultralätt midjeväska för mobil och nycklar på rundan – och när en löparväst passar bättre.",
+    "relatedLinks": [
+      { "href": "/traning/loparvast-eller-midjevaska", "label": "Jämförelse", "text": "Löparväst eller midjeväska – vad behöver du på rundan?" },
+      { "href": "/traning/loparvast", "label": "Löparväst", "text": "Salomon löparväst – när du vill bära vatten på långpasset." },
+      { "href": "/traning", "label": "Träning", "text": "Se alla Elins träningsval." }
+    ]
+  },
+  "images": {
+    "dir": "haissky-loparbalte",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51XulFnEUWL._AC_SL1200_.jpg", "out": "loparbalte-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/612kgAYPVPL._AC_SL1200_.jpg", "out": "loparbalte-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/618bAuKLXqL._AC_SL1500_.jpg", "out": "loparbalte-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71uGzr+5rFL._AC_SL1500_.jpg", "out": "loparbalte-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61q2fV-F4pL._AC_SL1200_.jpg", "out": "loparbalte-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Träning", "title": "HAISSKY löparbälte – midjeväska för rundan", "href": "/traning/loparbalte", "date": "2026-07-08", "image": "/products/haissky-loparbalte/loparbalte-thumbnail.webp", "blurb": "Ultralätt midjeväska med tre fickor – mobil och nycklar på rundan utan studs." }
+  ]
+}

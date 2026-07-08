@@ -1,0 +1,47 @@
+[
+  {
+    "proposedSlug": "lopband",
+    "proposedTitle": "Löpband för hemmaträning",
+    "brand": "TODO_BRAND",
+    "category": "traning",
+    "categoryGroup": "Kondition",
+    "targetKeyword": "löpband",
+    "searchVolume": 14800,
+    "competition": "HIGH",
+    "cpc": 3.54,
+    "compositeScore": 85,
+    "nicheFit": "YES",
+    "dedupeStatus": "new",
+    "notes": "New concept from real keyword export. TODO_ASIN, TODO_AFFILIATE_URL and images required before any add-product work."
+  },
+  {
+    "proposedSlug": "motionscykel",
+    "proposedTitle": "Motionscykel för hemmet",
+    "brand": "TODO_BRAND",
+    "category": "traning",
+    "categoryGroup": "Kondition",
+    "targetKeyword": "motionscykel",
+    "searchVolume": 9900,
+    "competition": "HIGH",
+    "cpc": 1.69,
+    "compositeScore": 75.78,
+    "nicheFit": "YES",
+    "dedupeStatus": "new",
+    "notes": "New concept from real keyword export. TODO_ASIN, TODO_AFFILIATE_URL and images required before any add-product work."
+  },
+  {
+    "proposedSlug": "skivstang",
+    "proposedTitle": "Skivstång för hemmagym",
+    "brand": "TODO_BRAND",
+    "category": "traning",
+    "categoryGroup": "Vikter",
+    "targetKeyword": "skivstång",
+    "searchVolume": 4400,
+    "competition": "HIGH",
+    "cpc": 1.46,
+    "compositeScore": 69.95,
+    "nicheFit": "YES",
+    "dedupeStatus": "new",
+    "notes": "New concept from real keyword export. TODO_ASIN, TODO_AFFILIATE_URL and images required before any add-product work."
+  }
+]

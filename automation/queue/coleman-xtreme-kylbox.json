@@ -1,0 +1,128 @@
+{
+  "system": "resa",
+  "exportName": "colemanXtremeKylboxProduct",
+  "category": "resa",
+  "categoryGroup": "Strand & bad",
+  "route": "sommar/resa/kylbox",
+  "pageComponentName": "KylboxPage",
+  "product": {
+    "slug": "coleman-xtreme-kylbox",
+    "title": "Coleman Xtreme kylbox (49 L, hård passiv kylbox)",
+    "category": "resa",
+    "asin": "B09MKQ713Y",
+    "brand": "Coleman",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "mellan",
+    "badges": ["Håller kylan i dagar", "49 liter", "Tål att sittas på"],
+    "image": "/products/coleman-xtreme-kylbox/kylbox-thumbnail.webp",
+    "imageAlt": "Coleman Xtreme hård kylbox 49 liter i blått",
+    "images": [
+      { "src": "/products/coleman-xtreme-kylbox/kylbox-thumbnail.webp", "alt": "Coleman Xtreme kylbox 49 liter", "label": "Kylbox" },
+      { "src": "/products/coleman-xtreme-kylbox/kylbox-1.webp", "alt": "Coleman Xtreme kylbox packad med dryck och is", "label": "Rymlig" },
+      { "src": "/products/coleman-xtreme-kylbox/kylbox-2.webp", "alt": "Coleman Xtreme kylbox med bärhandtag", "label": "Handtag" },
+      { "src": "/products/coleman-xtreme-kylbox/kylbox-3.webp", "alt": "Coleman Xtreme kylbox lock med plats för flaskor", "label": "Locket" },
+      { "src": "/products/coleman-xtreme-kylbox/kylbox-4.webp", "alt": "Coleman Xtreme kylbox på camping", "label": "Camping" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B09MKQ713Y?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/kylbox",
+    "summary": "Coleman Xtreme är en hård passiv kylbox på 49 liter med PU-skumisolering även i locket – den håller kylan i upp till 4 dagar med rätt packning. Robust HDPE-plast, två rejäla bärhandtag och ett lock som tål att sittas på (upp till 113 kg). Bra att veta: den väger 5,5 kg tom och är skrymmande – det här är basstationen för camping och långhelg, inte något du bär långt.",
+    "evaluation": {
+      "headline": "Basstationen som håller kylan i dagar",
+      "intro": "Elin tittar närmare på Coleman Xtreme 49 L: en klassisk hård kylbox med PU-skumisolering i både kropp och lock, byggd för camping, festival och långa stranddagar där kylan ska hålla mer än en dag.",
+      "verdict": "Håller kylan i dagar och tål att sittas på – men den bär du inte långt.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Kylbox",
+    "specSectionTitle": "Coleman Xtreme 49 L",
+    "specs": [
+      { "label": "Volym", "caption": "Kapacitet", "value": "49 liter (innermått 47x31x38 cm)" },
+      { "label": "Kyltid", "caption": "Isolering", "value": "Upp till 4 dagar med PU-skum i kropp och lock" },
+      { "label": "Vikt & tålighet", "caption": "Konstruktion", "value": "5,5 kg, HDPE-plast, locket tål upp till 113 kg" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B09MKQ713Y?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 1 037 omdömen.",
+      "highlights": [
+        "Håller kylan i flera dagar med rätt packning – köpare använder den för camping och långresor.",
+        "Robust bygge i HDPE-plast som även funkar som sittplats.",
+        "4,5 av 5 från över 1 000 omdömen."
+      ],
+      "cautions": [
+        "Den väger 5,5 kg tom och är skrymmande – gjord för bilen och basläget, inte för att bäras längre sträckor."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/kylbox",
+    "cardBadge": "Kyla i dagar",
+    "cardHook": "Hård kylbox på 49 liter – håller kylan i upp till 4 dagar på campingen.",
+    "cardImage": "/products/coleman-xtreme-kylbox/kylbox-thumbnail.webp",
+    "cardImageAlt": "Coleman Xtreme hård kylbox 49 liter i blått",
+    "badge": "Elins basstation",
+    "headline": "Coleman Xtreme – kylan som håller hela helgen",
+    "shortBody": "En hård passiv kylbox på 49 liter med PU-skumisolering även i locket. Håller kylan i upp till 4 dagar – och locket tål att sittas på.",
+    "valueHook": "När en dag med kyla inte räcker",
+    "valueStatement": "Coleman Xtreme är en hård kylbox på 49 liter för dig som behöver kyla som håller mer än en dag – camping, festival eller långhelg vid stranden. PU-skumisolering i både kropp och lock ger upp till 4 dagars kyla med rätt packning, och det robusta HDPE-skalet tål att sittas på. Amazon visar 4,5 av 5 från 1 037 omdömen. Tänk på att den väger 5,5 kg tom – det här är bilens och baslägrets kylbox, inte den du bär till stranden varje dag.",
+    "passFor": [
+      "Campar, åker på festival eller är borta flera dagar i sträck.",
+      "Vill ha en kylbox som även funkar som extra sittplats.",
+      "Packar bilen och behöver rejäl volym för hela sällskapet."
+    ],
+    "caution": "Den är tung (5,5 kg tom) och skrymmande – fullpackad bärs den helst av två. För en vanlig stranddag nära bilen är den perfekt, men ska du gå långt är en mjuk kylryggsäck smidigare. Kyltiden på upp till 4 dagar förutsätter förkylt innehåll, is eller kylklampar och att locket hålls stängt.",
+    "usageGuidance": {
+      "title": "Så håller kylan längst",
+      "text": "Förkyl boxen och innehållet, använd rikligt med is eller kylklampar och öppna locket så sällan som möjligt. Ställ den i skugga – då kommer du närmast de fyra dagarna."
+    },
+    "verdict": "Håller kylan i dagar och tål att sittas på – men den bär du inte långt.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 1 037 omdömen. Köpare lyfter att den håller kylan länge och är robust – kom ihåg att den är tung och skrymmande.",
+    "amazonQuotes": [
+      {
+        "text": "Precis den stl vi önskade.",
+        "attribution": "Köpare, Amazon (Sverige)"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Hur länge håller den kylan?",
+        "answer": "Upp till 4 dagar med rätt packning: förkylt innehåll, gott om is eller kylklampar, locket stängt och boxen i skugga. I stekande sol och med många locköppningar blir tiden kortare."
+      },
+      {
+        "question": "Hur mycket rymmer 49 liter?",
+        "answer": "Gott om plats för mat och dryck till hela sällskapet i flera dagar – innermåtten är 47x31x38 cm. Locket har dessutom plats för burkar eller flaskor."
+      },
+      {
+        "question": "Kylbox eller kylväska – vad ska jag välja?",
+        "answer": "Kylboxen håller kylan i dagar och tål att sittas på men är tung att bära. En mjuk kylryggsäck bärs bekvämt men håller kylan i timmar, inte dagar. Långhelg = box, dagsutflykt till fots = ryggsäck."
+      }
+    ],
+    "reviewSectionId": "coleman-xtreme-kylbox-recensioner",
+    "reviewFormId": "coleman-xtreme-kylbox-skriv-recension",
+    "targetKeyword": "kylbox",
+    "metaTitle": "Coleman Xtreme kylbox 49 L – kyla i dagar | Elins val",
+    "metaDescription": "Elin går igenom Coleman Xtreme hård kylbox (49 L, 4,5 av 5 från 1 037 omdömen): upp till 4 dagars kyla för camping och långhelg – och när en kylväska passar bättre.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/mjuk-kylvaska-eller-hard-kylbox", "label": "Jämförelse", "text": "Mjuk kylväska eller hård kylbox – vilken passar din utflykt?" },
+      { "href": "/sommar/resa/kylvaska", "label": "Kylryggsäck", "text": "Lifewit kylryggsäck – sval dryck när du går till stranden." },
+      { "href": "/sommar/resa/strandfilt", "label": "Strandfilt", "text": "Sandfri bas för hela sällskapet på stranden." }
+    ]
+  },
+  "images": {
+    "dir": "coleman-xtreme-kylbox",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/51pnqjavccL._AC_SL1000_.jpg", "out": "kylbox-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/91S7oNEBlrL._AC_SL1500_.jpg", "out": "kylbox-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/61M4uOuHk6L._AC_SL1000_.jpg", "out": "kylbox-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/515HR6bMm5L._AC_SL1000_.jpg", "out": "kylbox-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/41ik7gXJjnL._AC_SL1000_.jpg", "out": "kylbox-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Coleman Xtreme kylbox (49 L)", "href": "/sommar/resa/kylbox", "date": "2026-07-08", "image": "/products/coleman-xtreme-kylbox/kylbox-thumbnail.webp", "blurb": "Hård kylbox som håller kylan i upp till 4 dagar – basstationen för camping och långhelg." }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "system": "resa",
+  "exportName": "blukarMobilhallareProduct",
+  "category": "resa",
+  "categoryGroup": "Road trip & bilen",
+  "route": "sommar/resa/mobilhallare-ventil",
+  "pageComponentName": "MobilhallareVentilPage",
+  "product": {
+    "slug": "blukar-mobilhallare-ventil",
+    "title": "Blukar mobilhållare med ventilklämma (alla mobiler)",
+    "category": "resa",
+    "asin": "B0C1NK79FK",
+    "brand": "Blukar",
+    "price": "Se aktuellt pris på Amazon",
+    "priceTier": "budget",
+    "badges": ["Alla mobiler", "En-knapps-release", "360° rotation"],
+    "image": "/products/blukar-mobilhallare/mobilhallare-thumbnail.webp",
+    "imageAlt": "Blukar mobilhållare med klämma för bilens ventilationsgaller",
+    "images": [
+      { "src": "/products/blukar-mobilhallare/mobilhallare-thumbnail.webp", "alt": "Blukar mobilhållare med ventilklämma", "label": "Klämhållare" },
+      { "src": "/products/blukar-mobilhallare/mobilhallare-1.webp", "alt": "Blukar mobilhållare klämarmar runt mobil", "label": "Klämarmar" },
+      { "src": "/products/blukar-mobilhallare/mobilhallare-2.webp", "alt": "Blukar mobilhållare knapp för att släppa mobilen", "label": "En knapp" },
+      { "src": "/products/blukar-mobilhallare/mobilhallare-3.webp", "alt": "Blukar mobilhållare 360 graders rotation", "label": "360°" },
+      { "src": "/products/blukar-mobilhallare/mobilhallare-4.webp", "alt": "Blukar mobilhållare med mobil i bilen", "label": "I bilen" }
+    ],
+    "amazonUrl": "https://www.amazon.se/dp/B0C1NK79FK?tag=azzamkhalaf-21",
+    "pageHref": "/sommar/resa/mobilhallare-ventil",
+    "summary": "Blukar mobilhållare är klassikern med klämma: metallkroken fäster i ventilationsgallret, klämarmarna håller mobilen i ett stabilt triangelgrepp och en knapp släpper den med en hand. 360-graders kulled låter dig vinkla fritt, och den passar alla mobiler mellan 4 och 7 tum – helt utan magneter eller extra tillbehör. Bra att veta: det tar ett extra handgrepp jämfört med en magnethållare, och hållaren täcker en ventil.",
+    "evaluation": {
+      "headline": "Klassikern som passar alla mobiler – utan magnet",
+      "intro": "Elin tittar närmare på Blukar klämhållare: en av Amazons mest köpta mobilhållare för bilen, med förstärkt metallkrok, en-knapps-release och 360-graders rotation.",
+      "verdict": "Passar alla mobiler utan tillbehör – klämman tar bara ett handgrepp mer än magneten.",
+      "checks": []
+    },
+    "specSectionEyebrow": "Mobilhållare",
+    "specSectionTitle": "Blukar ventilklämma",
+    "specs": [
+      { "label": "Grepp", "caption": "Fäste", "value": "Klämarmar med triangelstöd, släpps med en knapp" },
+      { "label": "Rotation", "caption": "Vinkel", "value": "360° kulled, vågrätt och lodrätt" },
+      { "label": "Passar", "caption": "Mobiler", "value": "Alla mobiler 4,0–7,0 tum, inga magneter krävs" }
+    ],
+    "amazonReviewSignal": {
+      "sourceLabel": "Amazon-köpare",
+      "sourceUrl": "https://www.amazon.se/dp/B0C1NK79FK?tag=azzamkhalaf-21",
+      "ratingSummary": "Amazon visar 4,5 av 5 från 25 829 omdömen.",
+      "highlights": [
+        "Passar alla mobiler utan magnetskal eller ring – bara att klämma fast.",
+        "Svenska köpare beskriver den kort och gott: fungerar som den lovar.",
+        "4,5 av 5 från nästan 26 000 omdömen."
+      ],
+      "cautions": [
+        "Klämman tar ett extra handgrepp jämfört med en magnethållare, och väldigt tjocka skal kan sitta trängre i armarna."
+      ]
+    },
+    "ugcVideos": [],
+    "uses": [],
+    "peopleLike": [],
+    "honestCheck": [],
+    "comments": []
+  },
+  "pick": {
+    "href": "/sommar/resa/mobilhallare-ventil",
+    "cardBadge": "Alla mobiler",
+    "cardHook": "Klämhållaren som passar alla mobiler – ingen magnet behövs.",
+    "cardImage": "/products/blukar-mobilhallare/mobilhallare-thumbnail.webp",
+    "cardImageAlt": "Blukar mobilhållare med klämma för ventilationsgallret",
+    "badge": "Elins budgetval",
+    "headline": "Blukar klämhållare – funkar med allt",
+    "shortBody": "Mobilhållare med förstärkt metallkrok, stabilt triangelgrepp och en-knapps-release. Passar alla mobiler 4–7 tum – inga magneter eller skal krävs.",
+    "valueHook": "Ingen magnet? Inget problem",
+    "valueStatement": "Blukar klämhållare är för dig som vill ha en mobilhållare som bara funkar – oavsett mobil och utan tillbehör. Klämarmarna håller mobilen i ett triangelgrepp, en knapp släpper den med en hand och 360-graderskulleden vinklar fritt. Amazon visar 4,5 av 5 från 25 829 omdömen. Tänk på att klämman tar ett handgrepp mer än en magnethållare, och att hållaren sitter i en ventil.",
+    "passFor": [
+      "Har Android eller iPhone utan MagSafe-skal och vill slippa köpa magnetring.",
+      "Flera i familjen delar bil och har olika mobiler.",
+      "Vill ha ett stabilt, billigt standardval till semesterkörningen."
+    ],
+    "caution": "Du klämmer fast mobilen istället för att bara släppa den mot en magnet – det tar ett extra handgrepp varje gång. Väldigt tjocka eller ojämna skal kan sitta trängre i klämarmarna, och som alla ventilhållare täcker den en av bilens ventiler.",
+    "usageGuidance": {
+      "title": "Så sitter den bäst",
+      "text": "Fäst kroken på ett stadigt lamellgaller och justera stödfötterna mot mobilens underkant. Tryck ihop armarna tills greppet känns stadigt och använd knappen på baksidan för att släppa mobilen med en hand."
+    },
+    "verdict": "Passar alla mobiler utan tillbehör – klämman tar bara ett handgrepp mer än magneten.",
+    "amazonSummary": "Amazon visar 4,5 av 5 från 25 829 omdömen. Svenska köpare sammanfattar: fungerar som den lovar – kom ihåg att klämman tar ett extra handgrepp.",
+    "amazonQuotes": [
+      {
+        "text": "Har haft den någon månad nu och funkar bra.",
+        "attribution": "Köpare, Amazon (Sverige)"
+      },
+      {
+        "text": "Fungerar som den lovar!",
+        "attribution": "Köpare, Amazon (Sverige)"
+      }
+    ],
+    "faqItems": [
+      {
+        "question": "Passar den min mobil?",
+        "answer": "Klämarmarna passar alla mobiler mellan 4,0 och 7,0 tum – med eller utan skal, ingen magnet eller ring behövs. Väldigt tjocka skal kan sitta lite trängre."
+      },
+      {
+        "question": "Hur tar jag loss mobilen med en hand?",
+        "answer": "Hållaren har en release-knapp: tryck på den så öppnas klämarmarna och mobilen släpps. Att sätta dit mobilen kräver att du klämmer ihop armarna igen."
+      },
+      {
+        "question": "Sitter den stadigt i gallret?",
+        "answer": "Kroken är gjord i metall och passar de flesta vågräta och lodräta lamellgaller. Triangelgreppet håller mobilen stabil även på ojämn väg, enligt köparna."
+      }
+    ],
+    "reviewSectionId": "blukar-mobilhallare-recensioner",
+    "reviewFormId": "blukar-mobilhallare-skriv-recension",
+    "targetKeyword": "mobilhållare bil",
+    "metaTitle": "Blukar mobilhållare bil – klämman för alla mobiler | Elins val",
+    "metaDescription": "Elin går igenom Blukar mobilhållare med ventilklämma (4,5 av 5 från 25 829 omdömen): passar alla mobiler utan magnet – och när MagSafe-hållaren är smidigare.",
+    "relatedLinks": [
+      { "href": "/sommar/resa/magnetisk-mobilhallare-eller-ventilklamma", "label": "Jämförelse", "text": "Magnetisk mobilhållare eller ventilklämma – vilken ska du välja?" },
+      { "href": "/sommar/resa/mobilhallare", "label": "MagSafe", "text": "Lamicall magnethållare – smidigast om du har MagSafe." },
+      { "href": "/sommar/resa/billaddare", "label": "Billaddare", "text": "Ladda mobilen medan du kör." }
+    ]
+  },
+  "images": {
+    "dir": "blukar-mobilhallare",
+    "files": [
+      { "src": "https://m.media-amazon.com/images/I/71FDDOYxJKL._AC_SL1500_.jpg", "out": "mobilhallare-thumbnail.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71pKCFv73CL._AC_SL1500_.jpg", "out": "mobilhallare-1.webp" },
+      { "src": "https://m.media-amazon.com/images/I/71qD8PqkcUL._AC_SL1500_.jpg", "out": "mobilhallare-2.webp" },
+      { "src": "https://m.media-amazon.com/images/I/710yto11XWL._AC_SL1500_.jpg", "out": "mobilhallare-3.webp" },
+      { "src": "https://m.media-amazon.com/images/I/81wDThqNgEL._AC_SL1500_.jpg", "out": "mobilhallare-4.webp" }
+    ]
+  },
+  "latestUpdates": [
+    { "type": "Resa", "title": "Blukar mobilhållare med ventilklämma", "href": "/sommar/resa/mobilhallare-ventil", "date": "2026-07-08", "image": "/products/blukar-mobilhallare/mobilhallare-thumbnail.webp", "blurb": "Klämhållaren som passar alla mobiler – stabilt grepp och en-knapps-release." }
+  ]
+}

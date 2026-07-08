@@ -46,6 +46,30 @@ type LatestUpdate = {
 const latestUpdates = [
   {
     type: "Resa",
+    title: "Blukar mobilhållare med ventilklämma",
+    href: "/sommar/resa/mobilhallare-ventil",
+    date: "2026-07-08",
+    image: "/products/blukar-mobilhallare/mobilhallare-thumbnail.webp",
+    blurb: "Klämhållaren som passar alla mobiler – stabilt grepp och en-knapps-release.",
+  },
+  {
+    type: "Träning",
+    title: "HAISSKY löparbälte – midjeväska för rundan",
+    href: "/traning/loparbalte",
+    date: "2026-07-08",
+    image: "/products/haissky-loparbalte/loparbalte-thumbnail.webp",
+    blurb: "Ultralätt midjeväska med tre fickor – mobil och nycklar på rundan utan studs.",
+  },
+  {
+    type: "Resa",
+    title: "Coleman Xtreme kylbox (49 L)",
+    href: "/sommar/resa/kylbox",
+    date: "2026-07-08",
+    image: "/products/coleman-xtreme-kylbox/kylbox-thumbnail.webp",
+    blurb: "Hård kylbox som håller kylan i upp till 4 dagar – basstationen för camping och långhelg.",
+  },
+  {
+    type: "Resa",
     title: "Taygeer kabinryggsäck 44L (handbagage)",
     href: "/sommar/resa/resryggsack",
     date: "2026-07-07",

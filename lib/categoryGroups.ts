@@ -187,6 +187,7 @@ export const categoryProductGroups = {
     {
       title: "Tillbehör",
       productSlugs: [
+        "haissky-loparbalte",
         "fitgriff-lifting-straps",
         "fuel24-vattenflaska",
         "gorilla-core-slider",
@@ -272,6 +273,7 @@ export const categoryProductGroups = {
     {
       title: "Strand & bad",
       productSlugs: [
+        "coleman-xtreme-kylbox",
         "utopia-cabana-strandhandduk",
         "anortrek-sandfri-strandfilt",
         "lifewit-kylvaska-ryggsack",
@@ -295,6 +297,7 @@ export const categoryProductGroups = {
     {
       title: "Road trip & bilen",
       productSlugs: [
+        "blukar-mobilhallare-ventil",
         "ipely-bilskrappase",
         "lamicall-mobilhallare-bil",
         "iniu-billaddare",
