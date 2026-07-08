@@ -29,4 +29,4 @@ export const strandfiltEllerStrandhanddukPicks: [DecisionComparisonPick, Decisio
   },
 ];
 
-export const strandfiltEllerStrandhanddukRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/sommar/resa/strandfilt","label":"Strandfilt","text":"Läs Elins genomgång av AnorTrek sandfria strandfilt."},{"href":"/sommar/resa/frottehandduk","label":"Strandhandduk","text":"Läs Elins genomgång av Utopia frottéhandduk."},{"href":"/sommar/resa","label":"Resa","text":"Se alla Elins val för resan och stranden."}];
+export const strandfiltEllerStrandhanddukRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/sommar/resa/strandfilt","label":"Strandfilt","text":"Läs Elins genomgång av AnorTrek sandfria strandfilt."},{"href":"/sommar/resa/frottehandduk","label":"Strandhandduk","text":"Läs Elins genomgång av Utopia frottéhandduk."},{"href":"/skonhet/aftersun-eller-aloe-vera","label":"Efter solen","text":"After sun eller aloe vera – lugna huden efter stranddagen."},{"href":"/sommar/resa","label":"Resa","text":"Se alla Elins val för resan och stranden."}];
