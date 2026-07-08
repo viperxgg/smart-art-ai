@@ -2,11 +2,21 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import { ArrowUpRight, Heart, Loader2, Mail, Send, Trash2, X } from "lucide-react";
 import { FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from "react";
 
 import type { ProductCategorySlug } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
+
+declare global {
+  interface Window {
+    turnstile?: {
+      getResponse: (widgetId?: string) => string | undefined;
+      reset: (widgetId?: string) => void;
+    };
+  }
+}
 
 export type ElinFocus = {
   slug: string;
@@ -890,6 +900,7 @@ export function ElinChat({
   const [subscribeStatus, setSubscribeStatus] = useState<SubscribeStatus>("idle");
   const [subscribeError, setSubscribeError] = useState("");
   const hasElinAvatar = useElinAvatarAvailable();
+  const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
   useEffect(() => {
     if (!hideMobileNav) {
@@ -1194,11 +1205,17 @@ export function ElinChat({
       );
 
     try {
+      const turnstileToken =
+        typeof window !== "undefined" && window.turnstile
+          ? window.turnstile.getResponse()
+          : undefined;
+
       const response = await fetch("/api/elin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           messages: nextHistory,
+          ...(turnstileToken ? { turnstileToken } : {}),
           ...(hasPreferences(nextPreferences) ? { preferences: nextPreferences } : {}),
           ...(focus ? { focus } : {}),
         }),
@@ -1281,6 +1298,13 @@ export function ElinChat({
       }));
     } finally {
       setIsSending(false);
+      if (typeof window !== "undefined" && window.turnstile) {
+        try {
+          window.turnstile.reset();
+        } catch {
+          // widget not ready yet — ignore
+        }
+      }
       window.requestAnimationFrame(() => {
         textareaRef.current?.focus();
       });
@@ -1545,6 +1569,20 @@ export function ElinChat({
         onSubmit={onSubmit}
         className="sticky bottom-0 z-10 border-t border-[#F1D8DD] bg-[#FFF9F7] p-3 sm:p-4"
       >
+        {turnstileSiteKey ? (
+          <>
+            <Script
+              src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+              strategy="lazyOnload"
+            />
+            <div
+              className="cf-turnstile mb-2 px-1"
+              data-sitekey={turnstileSiteKey}
+              data-appearance="interaction-only"
+              data-size="flexible"
+            />
+          </>
+        ) : null}
         <div className="mb-2 flex flex-wrap gap-1.5 px-1">
           {budgetFilterChips.map((chip) => {
             const active = selectedBudget === chip.value;

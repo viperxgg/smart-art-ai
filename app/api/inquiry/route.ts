@@ -2,6 +2,7 @@ import { createHash } from "crypto";
 import nodemailer from "nodemailer";
 import { NextResponse } from "next/server";
 
+import { getTrustedClientIp } from "@/lib/client-ip";
 import { siteConfig } from "@/lib/site";
 
 export const runtime = "nodejs";
@@ -21,18 +22,6 @@ const rateLimitWindowMs = 60 * 60 * 1000;
 const maxSubmissionsPerWindow = 5;
 const submissionAttempts = new Map<string, number[]>();
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-function getClientIp(request: Request) {
-  const forwardedFor = request.headers.get("x-forwarded-for");
-  const firstForwardedIp = forwardedFor?.split(",")[0]?.trim();
-
-  return (
-    firstForwardedIp ||
-    request.headers.get("x-real-ip") ||
-    request.headers.get("cf-connecting-ip") ||
-    null
-  );
-}
 
 function hashIpAddress(ipAddress: string | null) {
   if (!ipAddress) {
@@ -215,7 +204,7 @@ export async function POST(request: Request) {
     );
   }
 
-  const ipAddress = getClientIp(request);
+  const ipAddress = getTrustedClientIp(request);
   const ipHash = hashIpAddress(ipAddress);
 
   if (isRateLimited(ipHash)) {
