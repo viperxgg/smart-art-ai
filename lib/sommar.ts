@@ -11005,6 +11005,11 @@ export const resaPicks: SommarPick[] = [
     metaDescription: "Elin går igenom GRIFEMA digital bagagevåg (50 kg, 4,7 av 5 från 457 omdömen): väg väskan hemma, slipp överviktsavgift vid gaten – och vad du bör tänka på.",
     relatedLinks: [
       {
+        href: "/guider/bagagevag-vart-det",
+        label: "Värt det?",
+        text: "Bagagevåg – värt det eller kan du chansa? Elins ärliga guide.",
+      },
+      {
         href: "/sommar/resa/packkuber",
         label: "Packkuber",
         text: "Packa strukturerat och håll ordning i väskan.",

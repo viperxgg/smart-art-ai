@@ -13,6 +13,12 @@ export const metadata = createSeoMetadata({
 
 const guides = [
   {
+    href: "/guider/bagagevag-vart-det",
+    title: "Bagagevåg – värt det eller kan du chansa?",
+    description:
+      "Elin går igenom när en bagagevåg räddar dig från överviktsavgift – och när badrumsvågen hemma räcker.",
+  },
+  {
     href: "/guider/snail-mucin-vart-hypen",
     title: "Snail mucin – värt hypen?",
     description:
