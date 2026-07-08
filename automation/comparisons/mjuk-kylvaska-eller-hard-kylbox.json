@@ -1,0 +1,65 @@
+{
+  "slug": "mjuk-kylvaska-eller-hard-kylbox",
+  "routePrefix": "sommar/resa",
+  "category": "resa",
+  "categoryLabel": "Resa",
+  "backHref": "/sommar/resa",
+  "backLabel": "Tillbaka till Elins reseval",
+  "exportBaseName": "mjukKylvaskaEllerHardKylbox",
+  "h1": "Mjuk kylväska eller hård kylbox?",
+  "intro": "Mjuk kylväska eller hård kylbox – båda håller maten och drycken kall, men på helt olika villkor. Kylryggsäcken bärs bekvämt till stranden och håller kylan i timmar, medan den hårda kylboxen håller kylan i dagar men väger flera kilo tom. Valet handlar om hur du tar dig dit – och hur länge du stannar.",
+  "badges": ["Strand & picknick", "Camping", "Sommar"],
+  "howToChoose": "Välj den mjuka kylryggsäcken om du går eller cyklar till stranden och kommer hem samma dag – den bärs bekvämt och räcker gott för en dagsutflykt. Välj den hårda kylboxen om du packar bilen för camping, festival eller långhelg – då är dagarna av kyla och den robusta konstruktionen värda vikten.",
+  "verdict": "Det här är inte en vinnare-tar-allt-jämförelse: de löser olika utflykter. Coleman-boxen får en poäng mer tack vare kyltiden och tåligheten, men bär du packningen själv till stranden är Lifewit-ryggsäcken det smartare köpet. Är du borta mer än en dag vinner boxen varje gång.",
+  "metaTitle": "Mjuk kylväska eller hård kylbox? | Elins val",
+  "metaDescription": "Mjuk kylväska eller hård kylbox? Elin jämför Lifewit kylryggsäck mot Coleman Xtreme ärligt – kyltid, vikt och vilken som passar stranddagen respektive campingen.",
+  "picks": [
+    {
+      "exportName": "lifewitKylvaskaProduct",
+      "path": "/sommar/resa/kylvaska",
+      "badge": "Bärs bekvämt",
+      "headline": "Lifewit kylryggsäck – sval dryck, fria händer",
+      "shortBody": "Välj kylryggsäcken för dagsutflykten till fots. 24 liter bärs bekvämt på ryggen och håller drycken sval hela stranddagen med kylklampar.",
+      "img": "public/products/lifewit-kylvaska/kylvaska-thumbnail.webp",
+      "brand": "Mjuk (Lifewit)"
+    },
+    {
+      "exportName": "colemanXtremeKylboxProduct",
+      "path": "/sommar/resa/kylbox",
+      "badge": "Kyla i dagar",
+      "headline": "Coleman Xtreme – basstationen som håller hela helgen",
+      "shortBody": "Välj den hårda kylboxen för camping och långhelg. 49 liter, PU-skumisolering och upp till 4 dagars kyla – och locket tål att sittas på.",
+      "img": "public/products/coleman-xtreme-kylbox/kylbox-thumbnail.webp",
+      "brand": "Hård (Coleman)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Kylryggsäck; lätt att bära; kyla i timmar", "Hård box; kyla i dagar; tål att sittas på"],
+    ["Bäst för", "Dagsutflykt till fots eller cykel", "Camping, festival och bilpackning"],
+    ["Kyltid", "Timmar – med frysta kylklampar", "Upp till 4 dagar med rätt packning"],
+    ["Att bära", "Bekvämt på ryggen, händerna fria", "5,5 kg tom – helst bilen eller två som bär"],
+    ["Volym", "24 liter", "49 liter"],
+    ["Extra", "Viks ihop platt hemma", "Funkar som sittplats, tål 113 kg"],
+    ["Elins poäng", "83/100", "84/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på en mjuk kylväska och en hård kylbox?", "answer": "Den mjuka kylväskan är lätt, bärs som ryggsäck och håller kylan i timmar – perfekt för en dagsutflykt. Den hårda kylboxen har tjock skumisolering som håller kylan i dagar, men den väger flera kilo tom och är skrymmande." },
+    { "question": "Hur länge håller kylan?", "answer": "Kylryggsäcken håller kylan i några timmar med frysta kylklampar och förkylt innehåll. Coleman-boxen klarar upp till 4 dagar med rätt packning: is eller kylklampar, förkylt innehåll, locket stängt och boxen i skugga." },
+    { "question": "Vilken passar bäst för stranden?", "answer": "Går du till stranden är ryggsäcken given – den bärs bekvämt och händerna är fria. Kör du bil ända fram och stannar länge, eller är ni ett stort sällskap, gör boxens volym och kyltid mer nytta." },
+    { "question": "Kan jag ha båda?", "answer": "Ja, de kompletterar varandra: boxen som basstation vid bilen eller tältet och ryggsäcken för det du tar med ner till vattnet. Då håller basen kylan i dagar medan du bara bär det du behöver." }
+  ],
+  "relatedLinks": [
+    { "href": "/sommar/resa/kylvaska", "label": "Kylryggsäck", "text": "Läs Elins genomgång av Lifewit kylryggsäck." },
+    { "href": "/sommar/resa/kylbox", "label": "Kylbox", "text": "Läs Elins genomgång av Coleman Xtreme." },
+    { "href": "/sommar/resa/strandfilt-eller-strandhandduk", "label": "Stranden", "text": "Strandfilt eller strandhandduk – vad passar din stranddag?" },
+    { "href": "/sommar/resa", "label": "Resa", "text": "Se alla Elins val för resan och stranden." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["lifewit-kylvaska", "coleman-xtreme-kylbox"],
+  "shortTitle": "Mjuk kylväska eller hård kylbox",
+  "description": "Kylryggsäcken som bärs bekvämt mot boxen som håller kylan i dagar – Elin reder ut vilken som passar din sommarutflykt."
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "loparvast-eller-midjevaska",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "loparvastEllerMidjevaska",
+  "h1": "Löparväst eller midjeväska?",
+  "intro": "Löparväst eller midjeväska – frågan är egentligen hur långt du springer. Midjeväskan rymmer mobil, nycklar och kort och kostar en bråkdel, medan löparvästen bär vatten och packning för långpassen. Många köper väst när ett bälte hade räckt – och tvärtom.",
+  "badges": ["Löpning", "Sommarrundor", "Budget vs premium"],
+  "howToChoose": "Välj midjeväskan om dina rundor är upp till en timme och du mest vill ha mobil och nycklar säkert med – den är billig, lätt och studsar inte. Välj löparvästen om du springer långpass och behöver vätska med dig – flaskorna fram och packvolymen är hela poängen, och det kan inget bälte ersätta.",
+  "verdict": "Elins ärliga svar: de flesta som springer vardagsrundor behöver bara midjeväskan – därför får den högre poäng som köp. Löparvästen är rätt först när du faktiskt springer så långt att vatten måste med. Köp inte västen för att den ser mer seriös ut.",
+  "metaTitle": "Löparväst eller midjeväska? Så väljer du | Elins val",
+  "metaDescription": "Löparväst eller midjeväska? Elin jämför Salomon Active Skin mot HAISSKY löparbälte ärligt – när vätskan kräver väst och när ett billigt bälte räcker gott.",
+  "picks": [
+    {
+      "exportName": "haisskyLoparbalteProduct",
+      "path": "/traning/loparbalte",
+      "badge": "Räcker för de flesta",
+      "headline": "HAISSKY löparbälte – allt du behöver på rundan",
+      "shortBody": "Välj midjeväskan för vardagsrundorna. Mobil, nycklar och kort sitter tätt utan att studsa – till budgetpris.",
+      "img": "public/products/haissky-loparbalte/loparbalte-thumbnail.webp",
+      "brand": "Midjeväska (HAISSKY)"
+    },
+    {
+      "exportName": "salomonActiveSkinProduct",
+      "path": "/traning/loparvast",
+      "badge": "För långpassen",
+      "headline": "Salomon Active Skin 4 – när vattnet måste med",
+      "shortBody": "Välj löparvästen för långpassen. Flaskor fram, packvolym för vind- jacka och energi – byggd för distans.",
+      "img": "public/products/salomon-loparvast/loparvast-thumbnail.webp",
+      "brand": "Löparväst (Salomon)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Litet bälte; mobil & nycklar; budgetpris", "Väst med flaskor; packvolym; premium"],
+    ["Bäst för", "Rundor upp till en timme", "Långpass där vätska måste med"],
+    ["Vatten", "Ingen plats för flaska", "Flaskor fram ingår"],
+    ["Packvolym", "3 fickor för smått", "Plats för jacka, energi och mer"],
+    ["Komfort i värme", "Svalt – bara ett band", "Varmare – täcker ryggen"],
+    ["Prisläge", "Budget", "Premium"],
+    ["Elins poäng", "83/100", "79/100"]
+  ],
+  "faqItems": [
+    { "question": "Behöver jag en löparväst?", "answer": "Bara om du springer så långt att vätska och packning måste med – typiskt långpass över en timme eller trail. För vardagsrundor med mobil och nycklar räcker en midjeväska gott och kostar en bråkdel." },
+    { "question": "Studsar en midjeväska när jag springer?", "answer": "Ett bra löparbälte sitter tätt mot kroppen och studsar inte om du spänner det rätt och inte packar för tungt. HAISSKY-bältets elastiska band och kardborre får beröm av köpare för just det." },
+    { "question": "Är västen inte varmare på sommaren?", "answer": "Jo, en väst täcker ryggen och blir varmare än ett smalt bälte. På heta sommarrundor är det ett skäl att välja bältet – om du inte behöver bära vatten, för då väger vätskan tyngre än värmen." },
+    { "question": "Kan jag bära vatten med en midjeväska?", "answer": "HAISSKY-bältet har ingen flaskhållare – det är gjort för mobil, nycklar och kort. Behöver du vätska regelbundet på rundan är det västen som gäller, eller en flaska i handen." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/loparbalte", "label": "Midjeväska", "text": "Läs Elins genomgång av HAISSKY löparbälte." },
+    { "href": "/traning/loparvast", "label": "Löparväst", "text": "Läs Elins genomgång av Salomon Active Skin 4." },
+    { "href": "/traning/studsmatta-eller-hopprep", "label": "Kondition", "text": "Studsmatta eller hopprep – kondition hemma." },
+    { "href": "/traning", "label": "Träning", "text": "Se alla Elins träningsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["haissky-loparbalte", "salomon-loparvast"],
+  "shortTitle": "Löparväst eller midjeväska",
+  "description": "Bältet som räcker för vardagsrundan mot västen som bär vattnet på långpassen – Elin säger ärligt vilken du behöver."
+}

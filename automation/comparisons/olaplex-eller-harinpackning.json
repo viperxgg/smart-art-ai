@@ -1,0 +1,64 @@
+{
+  "slug": "olaplex-eller-harinpackning",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "olaplexEllerHarinpackning",
+  "h1": "Olaplex eller hårinpackning – värt det?",
+  "intro": "Olaplex No.3 och en vanlig hårinpackning låter som samma sak, men de gör olika jobb. Olaplex är en bond-kur som jobbar med hårets inre bindningar och används före schamponering, medan en inpackning som L'Oréal Absolut Repair mjukgör och återfuktar efter tvätten. Frågan är vad ditt hår faktiskt behöver.",
+  "badges": ["Skadat hår", "Hype-koll", "Sommarhår"],
+  "howToChoose": "Välj Olaplex om håret är blekt, slingat eller värmeslitet och känns skört – bond-kuren gör något en inpackning inte kan. Välj Absolut Repair om håret mest är torrt och trist av sol och värme och du vill ha omedelbar mjukhet och glans för mindre pengar. Många med riktigt slitet hår använder båda: Olaplex före tvätten, inpackningen efter.",
+  "verdict": "Elins ärliga svar: för de flesta räcker inpackningen – Absolut Repair får högre poäng för att den gör mer för fler till lägre pris. Olaplex är värd premiumpriset först när håret faktiskt är skadat av blekning eller värme, för då jobbar den på djupet där inpackningen bara döljer.",
+  "metaTitle": "Olaplex eller hårinpackning – värt det? | Elins val",
+  "metaDescription": "Olaplex No.3 eller vanlig hårinpackning? Elin jämför bond-kuren mot L'Oréal Absolut Repair ärligt – vad ditt hår behöver och när hypen är värd pengarna.",
+  "picks": [
+    {
+      "exportName": "olaplexNo3Product",
+      "path": "/skonhet/olaplex-no3",
+      "badge": "Bond-reparation",
+      "headline": "Olaplex No.3 – kuren för skadat hår",
+      "shortBody": "Välj Olaplex om håret är blekt, slingat eller värmeslitet. Bond-kuren används före schamponering och stärker hårets inre bindningar över tid.",
+      "img": "public/products/olaplex-no3/olaplex3-thumbnail.webp",
+      "brand": "Olaplex"
+    },
+    {
+      "exportName": "lorealAbsolutRepairProduct",
+      "path": "/skonhet/harinpackning",
+      "badge": "Mjukhet direkt",
+      "headline": "L'Oréal Absolut Repair – inpackningen som gör jobbet",
+      "shortBody": "Välj inpackningen om håret mest är torrt och soltrött. Proteinrik mask som ger mjukhet och glans direkt efter tvätten – för mindre pengar.",
+      "img": "public/products/loreal-absolut-repair/loreal-absolut-repair-thumbnail.webp",
+      "brand": "L'Oréal Professionnel"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Bond-kur före tvätt; bygger styrka över tid", "Proteinrik mask efter tvätt; mjukhet direkt"],
+    ["Bäst för", "Blekt, slingat eller värmeskadat hår", "Torrt, soltrött hår som vill ha glans"],
+    ["När ser du resultat?", "Gradvis, vid regelbunden användning", "Direkt efter första användningen"],
+    ["Användning", "I fuktigt hår före schamponering", "Efter schampo, verkar några minuter"],
+    ["Prisläge", "Premium för 100 ml", "Mellan för 250 ml"],
+    ["Elins poäng", "79/100", "86/100"]
+  ],
+  "faqItems": [
+    { "question": "Är Olaplex bättre än en vanlig hårinpackning?", "answer": "De gör olika saker. Olaplex jobbar med hårets inre bindningar och är bäst när håret faktiskt är skadat av blekning eller värme. En inpackning mjukgör och återfuktar ytan – på torrt men friskt hår ger den ofta mer synligt resultat för mindre pengar." },
+    { "question": "Kan jag använda både Olaplex och inpackning?", "answer": "Ja, de kompletterar varandra: Olaplex i fuktigt hår före schamponering, inpackningen efter tvätten. Många med riktigt slitet hår kör bond-kuren regelbundet och inpackningen för mjukheten." },
+    { "question": "Vilken ska jag välja för solslitet sommarhår?", "answer": "Är håret torrt och trist av sol och bad räcker oftast Absolut Repair – den ger mjukhet och glans direkt. Är håret dessutom blekt eller slingat och känns skört gör Olaplex mer på djupet." },
+    { "question": "Hur ofta ska de användas?", "answer": "Följ anvisningen på respektive förpackning. En inpackning används typiskt vid hårtvätt när håret känns torrt, medan Olaplex används som kur – regelbundet på skadat hår, mer sällan som underhåll." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/olaplex-no3", "label": "Olaplex", "text": "Läs Elins genomgång av Olaplex No.3." },
+    { "href": "/skonhet/harinpackning", "label": "Hårinpackning", "text": "Läs Elins genomgång av L'Oréal Absolut Repair." },
+    { "href": "/guider/harinpackning-salongsmarke-vart-det", "label": "Guide", "text": "Hårinpackning – är salongsmärket värt det?" },
+    { "href": "/skonhet/harolja", "label": "Hårolja", "text": "Lås in mjukheten med några droppar hårolja." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D3E7E4",
+    "elin": "C:/Users/azzam/Documents/codex ad creater/elin/ig_0182b9bb8a8393e3016a4bda7aaf688191bfe6f070cd1e606f.png"
+  },
+  "productSlugs": ["olaplex-no3-treatment", "loreal-absolut-repair"],
+  "shortTitle": "Olaplex eller hårinpackning",
+  "description": "Bond-kuren mot den klassiska inpackningen – Elin reder ut vad ditt hår faktiskt behöver och när hypen är värd pengarna."
+}

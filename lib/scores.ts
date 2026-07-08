@@ -39,6 +39,22 @@ export function getScoreTier(total: number): ScoreTier {
 
 export const editorialScores: Record<string, EditorialScore> = {
   ...waveEditorialScores,
+  "lamicall-mobilhallare-bil": {
+    value: 24,
+    performance: 26,
+    promise: 22,
+    proven: 14,
+    total: 86,
+    verdict: "Magnetens smidighet på riktigt – kräver MagSafe eller magnetring",
+  },
+  "lifewit-kylvaska": {
+    value: 27,
+    performance: 22,
+    promise: 21,
+    proven: 13,
+    total: 83,
+    verdict: "Rymlig kylryggsäck som bärs bekvämt – kylan håller timmar, inte dagar",
+  },
   "coleman-xtreme-kylbox": {
     value: 26,
     performance: 25,

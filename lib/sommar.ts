@@ -3079,6 +3079,11 @@ export const sommarPicks: SommarPick[] = [
     metaDescription: "Elin går igenom Olaplex No.3 Hair Perfector: en återuppbyggande pre-schampo-inpackning för slitet och skadat hår (4,5 av 5, 551 omdömen) – och hur du använder den rätt.",
     relatedLinks: [
       {
+        href: "/skonhet/olaplex-eller-harinpackning",
+        label: "Jämförelse",
+        text: "Olaplex eller vanlig hårinpackning – värt det?",
+      },
+      {
         href: "/skonhet/harolja",
         label: "Hårolja",
         text: "Närande olja för torra längder och toppar.",
@@ -5765,6 +5770,11 @@ export const sommarPicks: SommarPick[] = [
       "Elin går igenom L'Oréal Professionnel Absolut Repair: en proteinrik hårinpackning för torrt och skadat sommarhår (4,6 av 5, 2 900+ omdömen) - mjukhet, glans och vad du bör veta om pris.",
     relatedLinks: [
       {
+        href: "/skonhet/olaplex-eller-harinpackning",
+        label: "Jämförelse",
+        text: "Olaplex eller vanlig hårinpackning – värt det?",
+      },
+      {
         href: "/skonhet/harolja",
         label: "Hårolja",
         text: "Lås in mjukheten med några droppar hårolja.",
@@ -8154,6 +8164,11 @@ export const traningsPicks: SommarPick[] = [
     metaDescription: "Elin går igenom Salomon Active Skin 4: en tätt sittande löparväst med vätskeflaskor och fickor för längre rundor (4,7 av 5, 72 omdömen) – och vad du bör veta om passformen.",
     relatedLinks: [
       {
+        href: "/traning/loparvast-eller-midjevaska",
+        label: "Jämförelse",
+        text: "Löparväst eller midjeväska – vad behöver du på rundan?",
+      },
+      {
         href: "/traning/hopprep",
         label: "Hopprep",
         text: "Smidig kondition när du vill träna hemma eller på resa.",
@@ -10255,6 +10270,11 @@ export const resaPicks: SommarPick[] = [
     metaDescription: "Elin går igenom Lamicall magnetiska mobilhållare (4,6 av 5 från 16 134 omdömen): håll mobilen i sikte för navigeringen – och varför du behöver MagSafe eller en magnetring.",
     relatedLinks: [
       {
+        href: "/sommar/resa/magnetisk-mobilhallare-eller-ventilklamma",
+        label: "Jämförelse",
+        text: "Magnetisk mobilhållare eller ventilklämma – vilken ska du välja?",
+      },
+      {
         href: "/sommar/resa/billaddare",
         label: "Billaddare",
         text: "Ladda mobilen medan navigeringen går.",
@@ -10831,6 +10851,11 @@ export const resaPicks: SommarPick[] = [
     metaTitle: "Lifewit kylväska ryggsäck – sval dryck på stranden | Elins val",
     metaDescription: "Elin går igenom Lifewit kylväska ryggsäck (24 L, 4,6 av 5 från 9 411 omdömen): håll mat och dryck sval på utflykten – och hur du får kylan att hålla längre.",
     relatedLinks: [
+      {
+        href: "/sommar/resa/mjuk-kylvaska-eller-hard-kylbox",
+        label: "Jämförelse",
+        text: "Mjuk kylväska eller hård kylbox – vilken passar din utflykt?",
+      },
       {
         href: "/sommar/resa/strandfilt",
         label: "Sandfri strandfilt",
