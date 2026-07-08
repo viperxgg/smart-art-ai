@@ -5821,6 +5821,11 @@ export const sommarPicks: SommarPick[] = [
     ],
     faqItems: [
       {
+        question: "Fungerar torrschampo på ljust hår utan vita rester?",
+        answer:
+          "Ja, den här varianten är gjord för ljust hår: den finmalda risstärkelsen lämnar ingen synlig puderrest, och de lila pigmenten mattar samtidigt gulton i blont hår.",
+      },
+      {
         question: "Hur använder jag torrschampo?",
         answer:
           "Skaka väl och spraya 15-20 cm från torra rötter. Låt det verka en stund, massera in i hårbotten och borsta ur.",
@@ -9505,6 +9510,11 @@ export const resaPicks: SommarPick[] = [
         text: "Kabinväska eller ryggsäck – vilken passar din resa?",
       },
       {
+        href: "/sommar/resa/packkuber-eller-kompressionspasar",
+        label: "Packning",
+        text: "Packkuber eller kompressionspåsar – packa väskan smart.",
+      },
+      {
         href: "/sommar/resa",
         label: "Elins reseval",
         text: "Fler smarta prylar för resan och stranden.",
@@ -9579,6 +9589,11 @@ export const resaPicks: SommarPick[] = [
         href: "/sommar/resa/kabinvaska-eller-ryggsack",
         label: "Jämförelse",
         text: "Kabinväska eller ryggsäck – vilken passar din resa?",
+      },
+      {
+        href: "/sommar/resa/packkuber-eller-kompressionspasar",
+        label: "Packning",
+        text: "Packkuber eller kompressionspåsar – packa väskan smart.",
       },
       {
         href: "/sommar/resa",

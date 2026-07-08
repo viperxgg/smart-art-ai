@@ -105,6 +105,16 @@ export default function TystFlaktSovrumPage() {
           text: "Dreo Cruiser Pro – tystast",
         },
         {
+          href: "/halsa/flakt/honeywell-turboforce",
+          label: "Budget",
+          text: "Honeywell TurboForce HT900E – kraftfull budgetfläkt",
+        },
+        {
+          href: "/halsa/dreo-cruiser-pro-eller-honeywell-ht900e",
+          label: "Jämför",
+          text: "Dreo Cruiser Pro eller Honeywell HT900E?",
+        },
+        {
           href: "/guider/flakt-dyr-vs-billig",
           label: "Jämför",
           text: "Fläkt: dyr vs billig?",

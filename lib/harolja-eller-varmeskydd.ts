@@ -10,6 +10,11 @@ import {
 
 export const haroljaEllerVarmeskyddFaqItems: DecisionComparisonFaqItem[] = [
   {
+    question: "Finns det hårolja med värmeskydd?",
+    answer:
+      "Vissa håroljor ger ett lätt skydd vid värmestyling, men ett dedikerat värmeskydd som L'Oréal Elvital Dream Length är gjort för värme upp till 230°C och skyddar bättre. Vill du ha båda effekterna: spraya värmeskydd före stylingen och avsluta med hårolja för glans.",
+  },
+  {
     question: "Behöver jag både värmeskydd och hårolja?",
     answer:
       "Många använder båda: värmeskydd före föning, plattång eller locktång, och hårolja efteråt för glans, mjukhet och mindre frizz.",

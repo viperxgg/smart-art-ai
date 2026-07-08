@@ -78,7 +78,7 @@ export const varmluftsborsteEllerFonRelatedLinks: DecisionComparisonRelatedLink[
     {
       href: "/skonhet/varmluftsborste",
       label: "Varmluftsborste",
-      text: "Se Elins guide till varmluftsborstar.",
+      text: "Elins varmluftsborste bäst i test 2026.",
     },
     {
       href: "/skonhet/hartork",

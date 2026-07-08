@@ -34,6 +34,11 @@ export type VarmluftsborstePick = {
 
 export const varmluftsborsteFaqItems = [
   {
+    question: "Vilken varmluftsborste är bäst i test?",
+    answer:
+      "I Elins jämförelse 2026 är BaByliss AS126E bäst i test tack vare mångsidig 4-i-1-styling, 1000 W och jonteknik. Remington AS7100 vinner när kort hår och lägsta pris väger tyngst.",
+  },
+  {
     question: "Vad är en varmluftsborste?",
     answer:
       "En varmluftsborste kombinerar fön och borste så att du kan torka och forma håret samtidigt.",

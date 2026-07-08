@@ -206,6 +206,11 @@ export default function HartorkHubPage() {
         <RelatedLinks
           links={[
             {
+              href: "/skonhet/varmluftsborste",
+              label: "Varmluftsborste",
+              text: "Elins varmluftsborste bäst i test 2026.",
+            },
+            {
               href: "/skonhet/plattang",
               label: "Hår",
               text: "Se Elins plattångsguide för smart hårstyling.",
