@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 
+import { getTrustedClientIp } from "@/lib/client-ip";
 import { rateLimit } from "@/lib/rate-limit";
 import {
   createSupabaseServerClient,
@@ -11,14 +12,6 @@ export const runtime = "nodejs";
 
 const rateLimitConfig = { limit: 5, windowMs: 60 * 60 * 1000 };
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
-
-function getClientIp(request: Request): string {
-  const forwarded = request.headers.get("x-forwarded-for");
-  if (forwarded) {
-    return forwarded.split(",")[0]?.trim() || "unknown";
-  }
-  return request.headers.get("x-real-ip") ?? "unknown";
-}
 
 function sanitizeEmail(value: unknown) {
   if (typeof value !== "string") {
@@ -77,7 +70,7 @@ function sanitizeContext(value: unknown): Json {
 }
 
 export async function POST(request: Request) {
-  const clientIp = getClientIp(request);
+  const clientIp = getTrustedClientIp(request) ?? "unknown";
   const limit = rateLimit(`elin-subscribe:${clientIp}`, rateLimitConfig);
   if (!limit.ok) {
     return NextResponse.json(

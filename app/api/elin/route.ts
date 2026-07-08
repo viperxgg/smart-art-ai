@@ -1,8 +1,14 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { NextResponse } from "next/server";
 
+import { getTrustedClientIp } from "@/lib/client-ip";
 import { getElinKnowledge, type ElinKnowledgeProduct } from "@/lib/elin-knowledge";
 import { logElinInteraction } from "@/lib/elin-log";
+import {
+  buildSessionCookie,
+  MAX_QUESTIONS,
+  readSessionFromCookies,
+} from "@/lib/elin-session";
 import { getPriceTier, priceTierDisplay, type PriceTier } from "@/lib/price-tier";
 import {
   getProductBySlug,
@@ -598,14 +604,6 @@ function toRichCard(slug: string, varfor: string, steg?: number) {
 
 type RichCard = NonNullable<ReturnType<typeof toRichCard>>;
 
-function getClientIp(request: Request): string {
-  const forwarded = request.headers.get("x-forwarded-for");
-  if (forwarded) {
-    return forwarded.split(",")[0]?.trim() || "unknown";
-  }
-  return request.headers.get("x-real-ip") ?? "unknown";
-}
-
 function getCookieValue(cookieHeader: string | null, name: string) {
   if (!cookieHeader) {
     return null;
@@ -756,6 +754,40 @@ async function streamAssistantTurn({
   return { answerText, content, toolUses };
 }
 
+async function verifyTurnstile(token: unknown, ipAddress: string) {
+  const secret = process.env.TURNSTILE_SECRET_KEY;
+  if (!secret) {
+    // Fail-open when unconfigured so the chat keeps working; the 24h quota
+    // still caps cost. Configure TURNSTILE_SECRET_KEY in production.
+    return true;
+  }
+
+  if (typeof token !== "string" || !token) {
+    return false;
+  }
+
+  const formData = new FormData();
+  formData.append("secret", secret);
+  formData.append("response", token);
+  if (ipAddress && ipAddress !== "unknown") {
+    formData.append("remoteip", ipAddress);
+  }
+
+  try {
+    const response = await fetch(
+      "https://challenges.cloudflare.com/turnstile/v0/siteverify",
+      { method: "POST", body: formData },
+    );
+    if (!response.ok) {
+      return false;
+    }
+    const result = (await response.json()) as { success?: boolean };
+    return result.success === true;
+  } catch {
+    return false;
+  }
+}
+
 export async function POST(request: Request) {
   let payload: unknown;
 
@@ -784,7 +816,7 @@ export async function POST(request: Request) {
     );
   }
 
-  const clientIp = getClientIp(request);
+  const clientIp = getTrustedClientIp(request) ?? "unknown";
   const { variant, shouldSetCookie } = getElinVariant(request, clientIp);
   const limit = rateLimit(`elin:${clientIp}`, rateLimitConfig);
   if (!limit.ok) {
@@ -799,6 +831,42 @@ export async function POST(request: Request) {
       },
     );
   }
+
+  const cookieHeader = request.headers.get("cookie");
+  const now = Date.now();
+  const session = readSessionFromCookies(cookieHeader, now);
+
+  // Human-check once per 24h window (skipped when Turnstile is unconfigured).
+  if (!session.verified) {
+    const turnstileOk = await verifyTurnstile(
+      (payload as Record<string, unknown>).turnstileToken,
+      clientIp,
+    );
+    if (!turnstileOk) {
+      return NextResponse.json(
+        {
+          svar: "Bekräfta bara att du inte är en robot, så hjälper jag dig direkt.",
+          produkter: [],
+          needVerification: true,
+        },
+        { status: 403, headers: { "Set-Cookie": buildSessionCookie(session) } },
+      );
+    }
+    session.verified = true;
+  }
+
+  // Cost guard: max 5 questions per visitor per 24h window.
+  if (session.questions >= MAX_QUESTIONS) {
+    return NextResponse.json(
+      {
+        svar: "Du har använt dina 5 frågor för idag 💛 Kom tillbaka imorgon så hjälper jag dig igen.",
+        produkter: [],
+        quotaReached: true,
+      },
+      { status: 429, headers: { "Set-Cookie": buildSessionCookie(session) } },
+    );
+  }
+  session.questions += 1;
 
   const focus = sanitizeFocus(payload);
   const preferences = sanitizePreferences(payload);
@@ -929,16 +997,20 @@ export async function POST(request: Request) {
     },
   });
 
-  const responseHeaders: Record<string, string> = {
+  const responseHeaders = new Headers({
     "Content-Type": "text/event-stream; charset=utf-8",
     "Cache-Control": "no-cache, no-transform",
     Connection: "keep-alive",
     "X-Accel-Buffering": "no",
-  };
+  });
+
+  responseHeaders.append("Set-Cookie", buildSessionCookie(session));
 
   if (shouldSetCookie) {
-    responseHeaders["Set-Cookie"] =
-      `${variantCookieName}=${variant}; Path=/; Max-Age=31536000; SameSite=Lax`;
+    responseHeaders.append(
+      "Set-Cookie",
+      `${variantCookieName}=${variant}; Path=/; Max-Age=31536000; SameSite=Lax; Secure; HttpOnly`,
+    );
   }
 
   return new Response(stream, {

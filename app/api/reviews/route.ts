@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 
+import { getTrustedClientIp } from "@/lib/client-ip";
 import {
   countRecentSubmissionsByIp,
   hashIpAddress,
@@ -8,18 +9,6 @@ import {
 } from "@/lib/reviews/reviews";
 
 export const runtime = "nodejs";
-
-function getClientIp(request: Request) {
-  const forwardedFor = request.headers.get("x-forwarded-for");
-  const firstForwardedIp = forwardedFor?.split(",")[0]?.trim();
-
-  return (
-    firstForwardedIp ||
-    request.headers.get("x-real-ip") ||
-    request.headers.get("cf-connecting-ip") ||
-    null
-  );
-}
 
 async function verifyTurnstile(token: unknown, ipAddress: string | null) {
   const secret = process.env.TURNSTILE_SECRET_KEY;
@@ -67,7 +56,7 @@ export async function POST(request: Request) {
     );
   }
 
-  const ipAddress = getClientIp(request);
+  const ipAddress = getTrustedClientIp(request);
   const ipHash = hashIpAddress(ipAddress);
   const data =
     payload && typeof payload === "object"
