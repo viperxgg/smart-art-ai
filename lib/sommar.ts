@@ -10491,6 +10491,11 @@ export const resaPicks: SommarPick[] = [
         text: "Ladda mobil och laptop från samma kompakta laddare.",
       },
       {
+        href: "/sommar/resa/kabinvaska",
+        label: "Kabinväska",
+        text: "Packa smart – Elins kabinväske-val.",
+      },
+      {
         href: "/sommar/resa",
         label: "Elins reseval",
         text: "Fler smarta prylar för resan.",
@@ -10543,6 +10548,11 @@ export const resaPicks: SommarPick[] = [
     metaTitle: "AnorTrek sandfri strandfilt – extra stor & lätt | Elins val",
     metaDescription: "Elin går igenom AnorTrek sandfria strandfilt (300x300 cm, 4,4 av 5 från 390 omdömen): stor, lätt och sandfri bas för stranden – och vad du bör tänka på.",
     relatedLinks: [
+      {
+        href: "/sommar/resa/strandfilt-eller-strandhandduk",
+        label: "Jämförelse",
+        text: "Strandfilt eller strandhandduk – vad passar din stranddag?",
+      },
       {
         href: "/sommar/resa/mikrofiberhandduk",
         label: "Mikrofiberhandduk",
@@ -10615,6 +10625,11 @@ export const resaPicks: SommarPick[] = [
         href: "/sommar/resa/mikrofiberhandduk",
         label: "Mikrofiberhandduk",
         text: "Snabbtorkande handduk som knappt tar plats.",
+      },
+      {
+        href: "/sommar/resa/kabinvaska-eller-ryggsack",
+        label: "Väskval",
+        text: "Reser du? Kabinväska eller ryggsäck – Elins jämförelse.",
       },
       {
         href: "/sommar/resa",
@@ -10796,14 +10811,19 @@ export const resaPicks: SommarPick[] = [
     metaDescription: "Elin går igenom Fit-Flip mikrofiberhandduk (4,5 av 5 från 35 103 omdömen): lätt, snabbtorkande och kompakt för strand och resa – och vad du bör tänka på.",
     relatedLinks: [
       {
+        href: "/sommar/resa/mikrofiberhandduk-eller-frottehandduk",
+        label: "Jämförelse",
+        text: "Mikrofiberhandduk eller frottéhandduk – vilken passar dig?",
+      },
+      {
+        href: "/sommar/resa/frottehandduk",
+        label: "Frottéhandduk",
+        text: "Mjuk bomullsfrotté när komforten går först.",
+      },
+      {
         href: "/sommar/resa/strandfilt",
         label: "Sandfri strandfilt",
         text: "Slipp sanden med en lätt, snabbtorkande strandfilt.",
-      },
-      {
-        href: "/sommar/resa/kylvaska",
-        label: "Kylväska",
-        text: "Håll drycken sval hela stranddagen.",
       },
       {
         href: "/sommar/resa",

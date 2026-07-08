@@ -29,4 +29,4 @@ export const packkuberEllerKompressionspasarPicks: [DecisionComparisonPick, Deci
   },
 ];
 
-export const packkuberEllerKompressionspasarRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/sommar/resa/packkuber","label":"Packkuber","text":"Läs Elins recension av Travel Dude packkuber."},{"href":"/sommar/resa/kompressionspase","label":"Kompressionspåsar","text":"Läs Elins recension av myHodo kompressionspåsar."},{"href":"/sommar/resa/bagagevag","label":"Bagagevåg","text":"Väg väskan hemma så du slipper övervikt."},{"href":"/sommar/resa","label":"Resa","text":"Se alla Elins smarta reseprylar."}];
+export const packkuberEllerKompressionspasarRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/sommar/resa/packkuber","label":"Packkuber","text":"Läs Elins recension av Travel Dude packkuber."},{"href":"/sommar/resa/kompressionspase","label":"Kompressionspåsar","text":"Läs Elins recension av myHodo kompressionspåsar."},{"href":"/sommar/resa/bagagevag","label":"Bagagevåg","text":"Väg väskan hemma så du slipper övervikt."},{"href":"/sommar/resa/kabinvaska-eller-ryggsack","label":"Väskval","text":"Kabinväska eller ryggsäck – vilken passar din resa?"}];
