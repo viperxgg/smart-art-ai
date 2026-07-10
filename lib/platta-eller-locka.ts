@@ -59,7 +59,7 @@ export const plattaEllerLockaPicks: [
   },
 ];
 
-export const plattaEllerLockaRelatedLinks: DecisionComparisonRelatedLink[] = [
+export const plattaEllerLockaRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/skonhet/harspray","label":"Hårspray","text":"Fixera frisyren: Elins val av hårspray."},
   {
     href: "/skonhet/varmluftsborste-eller-fon",
     label: "Hårverktyg",

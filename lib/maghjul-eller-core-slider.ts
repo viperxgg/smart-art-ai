@@ -29,4 +29,4 @@ export const maghjulEllerCoreSliderPicks: [DecisionComparisonPick, DecisionCompa
   },
 ];
 
-export const maghjulEllerCoreSliderRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/traning/maghjul","label":"Maghjul","text":"Läs Elins recension av Amonax maghjul."},{"href":"/traning/core-slider","label":"Core slider","text":"Läs Elins recension av Gorilla core sliders."},{"href":"/traning","label":"Träning","text":"Se alla Elins val för hemmaträning."}];
+export const maghjulEllerCoreSliderRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/traning/pull-up-bar","label":"Pull-up bar","text":"Träna överkroppen: Elins val av pull-up bar."},{"href":"/traning/maghjul","label":"Maghjul","text":"Läs Elins recension av Amonax maghjul."},{"href":"/traning/core-slider","label":"Core slider","text":"Läs Elins recension av Gorilla core sliders."},{"href":"/traning","label":"Träning","text":"Se alla Elins val för hemmaträning."}];

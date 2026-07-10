@@ -29,4 +29,4 @@ export const bhaEllerAhaBhaPeelingPicks: [DecisionComparisonPick, DecisionCompar
   },
 ];
 
-export const bhaEllerAhaBhaPeelingRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/skonhet/bha-exfoliant","label":"BHA","text":"Läs Elins recension av Paula's Choice BHA."},{"href":"/skonhet/ansiktspeeling","label":"AHA/BHA-peeling","text":"Läs Elins recension av AHA/BHA-peelingen."},{"href":"/skonhet","label":"Skönhet","text":"Se alla Elins hudvårdsval."}];
+export const bhaEllerAhaBhaPeelingRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/skonhet/lermask","label":"Lermask","text":"Rensa porerna på djupet: Elins val av lermask."},{"href":"/skonhet/bha-exfoliant","label":"BHA","text":"Läs Elins recension av Paula's Choice BHA."},{"href":"/skonhet/ansiktspeeling","label":"AHA/BHA-peeling","text":"Läs Elins recension av AHA/BHA-peelingen."},{"href":"/skonhet","label":"Skönhet","text":"Se alla Elins hudvårdsval."}];
