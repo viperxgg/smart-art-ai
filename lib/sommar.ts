@@ -10780,7 +10780,7 @@ export const resaPicks: SommarPick[] = [
     reviewSectionId: "anortrek-strandfilt-recensioner",
     reviewFormId: "anortrek-strandfilt-skriv-recension",
     targetKeyword: "strandfilt",
-    metaTitle: "AnorTrek sandfri strandfilt – extra stor & lätt | Elins val",
+    metaTitle: "AnorTrek strandfilt 300x300 cm – sandfri & lätt | Elins val",
     metaDescription: "Elin går igenom AnorTrek sandfria strandfilt (300x300 cm, 4,4 av 5 från 390 omdömen): stor, lätt och sandfri bas för stranden – och vad du bör tänka på.",
     relatedLinks: [
       {
