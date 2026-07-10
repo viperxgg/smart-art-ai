@@ -94,4 +94,9 @@ export const haroljaEllerVarmeskyddRelatedLinks: DecisionComparisonRelatedLink[]
       label: "Värmeskydd",
       text: "Läs recensionen av L'Oréal Elvital Dream Length.",
     },
+    {
+      href: "/skonhet/varmeskyddsspray",
+      label: "Värmeskyddsspray",
+      text: "Vill du ha spray i stället? Se Elins val av värmeskyddsspray.",
+    },
   ];

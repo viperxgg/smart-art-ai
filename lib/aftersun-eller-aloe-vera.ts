@@ -89,4 +89,9 @@ export const aftersunEllerAloeVeraRelatedLinks: DecisionComparisonRelatedLink[] 
       label: "Sommar",
       text: "Se Elins samlade sommarfavoriter.",
     },
+    {
+      href: "/skonhet/tanning-drops",
+      label: "Tanning drops",
+      text: "Vill du ha glow utan sol? Se Elins recension av tanning drops.",
+    },
   ];

@@ -81,4 +81,9 @@ export const kettlebellEllerHantlarRelatedLinks: DecisionComparisonRelatedLink[]
       label: "Hantelset",
       text: "Läs recensionen av SONGMICS hantelset.",
     },
+    {
+      href: "/traning/justerbara-hantlar",
+      label: "Justerbara hantlar",
+      text: "Vill du spara plats? Se Elins val av justerbara hantlar.",
+    },
   ];
