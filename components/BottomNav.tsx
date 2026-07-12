@@ -61,7 +61,7 @@ export function BottomNav() {
             className={`flex min-h-14 min-w-0 flex-col items-center justify-center gap-1 rounded-full px-0.5 text-[0.6rem] font-bold leading-none tracking-normal transition min-[380px]:text-[0.68rem] ${
               active
                 ? "bg-rose/15 text-wine"
-                : "text-ink-soft hover:bg-rose/8 hover:text-wine"
+                : "text-ink hover:bg-rose/8 hover:text-wine"
             }`}
           >
             <Icon size={20} aria-hidden="true" />
