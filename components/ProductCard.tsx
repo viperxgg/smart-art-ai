@@ -20,7 +20,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
   const score = getEditorialScore(product.slug);
 
   return (
-    <article className="overflow-hidden rounded-[2.4rem] border border-[#f0c8ce] bg-white/56 shadow-[0_30px_90px_rgba(216,131,146,0.17)] backdrop-blur-xl">
+    <article className="overflow-hidden rounded-[2.4rem] border border-line bg-surface/80 shadow-[0_30px_90px_rgba(216,131,146,0.17)] backdrop-blur-xl">
       <div className="relative">
         <Link
           href={productHref}
@@ -37,7 +37,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             {...(priority ? {} : { loading: "lazy" as const })}
             quality={70}
           />
-          <span className="absolute left-5 top-5 inline-flex min-h-10 items-center gap-2 rounded-full bg-[#c8919b]/90 px-5 text-sm font-black text-white shadow-[0_14px_34px_rgba(120,60,72,0.2)] backdrop-blur">
+          <span className="absolute left-5 top-5 inline-flex min-h-10 items-center gap-2 rounded-full bg-wine/90 px-5 text-sm font-black text-bg shadow-[0_14px_34px_rgba(109,60,77,0.28)] backdrop-blur">
             <Heart size={16} fill="currentColor" aria-hidden="true" />
             Elin valde
           </span>
@@ -45,32 +45,32 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
         <SaveProductButton
           productSlug={product.slug}
           productTitle={product.title}
-          className="absolute right-5 top-5 grid min-h-11 min-w-11 place-items-center rounded-full bg-white/82 text-[#9E5E73] shadow-[0_14px_34px_rgba(120,60,72,0.18)] backdrop-blur transition hover:-translate-y-0.5 hover:bg-white"
+          className="absolute right-5 top-5 grid min-h-11 min-w-11 place-items-center rounded-full bg-surface/90 text-wine shadow-[0_14px_34px_rgba(120,60,72,0.18)] backdrop-blur transition hover:-translate-y-0.5 hover:bg-surface"
         />
       </div>
 
       <div className="p-6 sm:p-8">
-        <p className="text-sm font-black uppercase tracking-[0.16em] text-[#d7778b]">
+        <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
           {product.brand}
         </p>
         <h3 className="editorial-color-kiss mt-3 font-display text-[2.05rem] leading-tight tracking-[-0.025em] sm:text-4xl sm:tracking-[-0.035em]">
           {product.title}
         </h3>
-        <p className="mt-5 text-lg leading-9 text-[#74636a]">
+        <p className="mt-5 text-lg leading-9 text-ink-soft">
           {product.summary}
         </p>
         <ProductBadges badges={product.badges} className="mt-5" />
         {score ? (
           <ScoreBadge score={score} className="mt-5" />
         ) : null}
-        <p className="mt-5 text-xs font-bold uppercase tracking-[0.14em] text-[#a96876]">
+        <p className="mt-5 text-xs font-bold uppercase tracking-[0.14em] text-ink-soft">
           Annons · Amazon-länken är en reklamlänk.
         </p>
 
         <div className="mt-5 grid gap-4 sm:grid-cols-2">
           <Link
             href={productHref}
-            className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#d8788d] to-[#efa4ad] px-6 text-base font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
+            className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full bg-wine px-6 text-base font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.32)] transition hover:-translate-y-0.5 hover:bg-wine/90"
           >
             Se Elins koll
             <ArrowUpRight size={18} aria-hidden="true" />
@@ -79,7 +79,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             href={product.amazonUrl}
             target="_blank"
             rel="sponsored nofollow noopener noreferrer"
-            className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full border border-[#d98a99] bg-white/58 px-6 text-base font-black text-[#b06072] transition hover:-translate-y-0.5 hover:bg-white"
+            className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full border border-rose/45 bg-surface/60 px-6 text-base font-black text-wine transition hover:-translate-y-0.5 hover:bg-surface"
           >
             Amazon
             <ArrowUpRight size={18} aria-hidden="true" />

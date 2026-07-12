@@ -29,7 +29,7 @@ export default function SavedPage() {
   return (
     <main
       id="content"
-      className="min-h-screen bg-[#FFF9F7] px-4 py-8 text-[#3E2F3A]"
+      className="min-h-screen bg-bg px-4 py-8 text-ink"
     >
       <JsonLd data={breadcrumbSchema} />
 
@@ -38,14 +38,14 @@ export default function SavedPage() {
           <Breadcrumbs items={breadcrumbItems} />
         </div>
 
-        <section className="mb-8 rounded-[2.4rem] border border-[#F1D8DD] bg-white/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.12)] md:p-10">
-          <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+        <section className="mb-8 rounded-[2.4rem] border border-line bg-surface/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.12)] md:p-10">
+          <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
             Lokalt i din webbläsare
           </p>
           <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
             Sparat
           </h1>
-          <p className="mt-6 max-w-2xl text-xl leading-9 text-[#6f5a64]">
+          <p className="mt-6 max-w-2xl text-xl leading-9 text-ink-soft">
             Dina sparade produkter lagras bara i den här webbläsaren med
             localStorage. Inget konto, ingen cookie och ingen serverlista.
           </p>

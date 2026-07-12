@@ -136,7 +136,7 @@ export default async function TraningBandReviewPage() {
   return (
     <main
       id="content"
-      className="min-h-screen bg-[#FFF9F7] px-4 py-7 text-[#3E2F3A]"
+      className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
       <JsonLd data={productSchema} />
       <JsonLd data={faqSchema} />
@@ -149,7 +149,7 @@ export default async function TraningBandReviewPage() {
         <header className="flex items-center justify-between gap-4">
           <Link
             href="/traning"
-            className="inline-flex min-h-11 items-center gap-2 rounded-full text-sm font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+            className="inline-flex min-h-11 items-center gap-2 rounded-full text-sm font-bold text-ink-soft transition hover:text-wine"
           >
             <ArrowLeft size={18} aria-hidden="true" />
             Tillbaka till träning
@@ -158,36 +158,36 @@ export default async function TraningBandReviewPage() {
             <SaveProductButton
               productSlug={featuredProduct.slug}
               productTitle={featuredProduct.title}
-              className="grid min-h-11 min-w-11 place-items-center rounded-full border border-[#E9CDD3] bg-white/70 text-[#9E5E73] shadow-[0_14px_36px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-white"
+              className="grid min-h-11 min-w-11 place-items-center rounded-full border border-line bg-surface/70 text-wine shadow-[0_14px_36px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-surface"
             />
-            <p className="rounded-full border border-[#E9CDD3] bg-white/70 px-4 py-2 text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
+            <p className="rounded-full border border-line bg-surface/70 px-4 py-2 text-xs font-black uppercase tracking-[0.14em] text-wine">
               Annons
             </p>
           </div>
         </header>
 
         <section className="mt-8 grid gap-7 lg:grid-cols-[1fr_0.92fr] lg:items-center">
-          <div className="overflow-hidden rounded-[2.2rem] border border-[#F1D8DD] bg-[#F6F0EC] shadow-[0_28px_90px_rgba(185,131,166,0.14)]">
+          <div className="overflow-hidden rounded-[2.2rem] border border-line bg-surface shadow-[0_28px_90px_rgba(185,131,166,0.14)]">
             <ProductImageGallery images={featuredProduct.images} />
           </div>
 
-          <article className="rounded-[2.2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_28px_90px_rgba(185,131,166,0.1)] md:p-9">
-            <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+          <article className="rounded-[2.2rem] border border-line bg-surface/72 p-6 shadow-[0_28px_90px_rgba(185,131,166,0.1)] md:p-9">
+            <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
               Elins produktkoll
             </p>
-            <p className="mt-4 inline-flex min-h-10 items-center rounded-full border border-[#E9CDD3] bg-[#FFF4F5] px-4 text-sm font-black text-[#9E5E73]">
+            <p className="mt-4 inline-flex min-h-10 items-center rounded-full border border-line bg-rose/8 px-4 text-sm font-black text-wine">
               Prisvärt val
             </p>
             <ProductBadges badges={featuredProduct.badges} className="mt-4" />
             <h1 className="editorial-color-kiss mt-4 font-display text-4xl leading-[1.05] tracking-[-0.035em] sm:text-6xl">
               Träningsband i naturlatex – 4 motståndsnivåer
             </h1>
-            <p className="mt-5 text-lg leading-8 text-[#6f5a64]">
+            <p className="mt-5 text-lg leading-8 text-ink-soft">
               Mycket träningsband för en låg peng. Fyra motståndsnivåer i
               naturlatex gör det lätt att börja hemma, byta nivå när det behövs
               och få mer användning utan att köpa stora redskap.
             </p>
-            <p className="mt-5 rounded-3xl border border-[#F1D8DD] bg-[#FFF4F5] p-4 text-sm leading-7 text-[#6f5a64]">
+            <p className="mt-5 rounded-3xl border border-line bg-rose/8 p-4 text-sm leading-7 text-ink-soft">
               <strong>Annons</strong> · Den här sidan innehåller reklamlänkar.
               Om du handlar via våra länkar kan vi få en provision – utan någon
               extra kostnad för dig.
@@ -201,27 +201,27 @@ export default async function TraningBandReviewPage() {
 
         <AmazonCta href={amazonUrl} product={featuredProduct} className="mt-5" />
 
-        <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-[#F9E9E9]/82 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
-          <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+        <section className="mt-7 rounded-[2rem] border border-line bg-rose/10 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
+          <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
             Prisvärt val
           </p>
           <h2 className="editorial-color-kiss mt-2 font-display text-3xl">
             Mycket träningsband för en låg peng.
           </h2>
-          <p className="mt-5 max-w-3xl text-lg leading-8 text-[#6f5a64]">
+          <p className="mt-5 max-w-3xl text-lg leading-8 text-ink-soft">
             Fyra motståndsnivåer (8–85 lbs) i 100% naturlatex – det de flesta
             vill ha, utan premiumpris.
           </p>
-          <p className="mt-5 max-w-4xl rounded-2xl bg-white/60 p-5 text-lg font-semibold leading-8 text-[#5f4a54]">
+          <p className="mt-5 max-w-4xl rounded-2xl bg-surface/60 p-5 text-lg font-semibold leading-8 text-ink">
             Ett smart förstaval för hemmaträning – mycket för pengarna.
           </p>
           <div className="mt-6 grid gap-3 sm:grid-cols-2">
             {moments.map((moment) => (
               <div
                 key={moment}
-                className="flex min-h-14 items-center gap-4 rounded-2xl bg-white/60 px-4 font-bold text-[#5f4a54]"
+                className="flex min-h-14 items-center gap-4 rounded-2xl bg-surface/60 px-4 font-bold text-ink"
               >
-                <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#F9DDE2] text-[#B983A6]">
+                <span className="grid h-10 w-10 place-items-center rounded-xl bg-rose/15 text-wine">
                   <Dumbbell size={20} aria-hidden="true" />
                 </span>
                 {moment}
@@ -231,14 +231,14 @@ export default async function TraningBandReviewPage() {
         </section>
 
         <section className="mt-7">
-          <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+          <article className="rounded-[2rem] border border-line bg-surface/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
             <h2 className="editorial-color-kiss font-display text-3xl">
               Inte perfekt, men bra att veta
             </h2>
             <div className="mt-6 grid gap-3">
-              <div className="flex min-h-14 items-start gap-4 rounded-2xl bg-[#FFF4F5] px-4 py-4 text-[#5f4a54]">
+              <div className="flex min-h-14 items-start gap-4 rounded-2xl bg-rose/8 px-4 py-4 text-ink">
                 <TriangleAlert
-                  className="mt-1 shrink-0 text-[#D8788D]"
+                  className="mt-1 shrink-0 text-rose"
                   size={22}
                   aria-hidden="true"
                 />
@@ -248,20 +248,20 @@ export default async function TraningBandReviewPage() {
           </article>
         </section>
 
-        <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+        <section className="mt-7 rounded-[2rem] border border-line bg-surface/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <h2 className="editorial-color-kiss font-display text-3xl">
             De fyra nivåerna
           </h2>
-          <div className="mt-6 overflow-hidden rounded-[1.5rem] border border-[#F1D8DD]">
+          <div className="mt-6 overflow-hidden rounded-[1.5rem] border border-line">
             <table className="w-full border-collapse text-left text-sm md:text-base">
-              <thead className="bg-[#F9E0E3] text-[#4B2838]">
+              <thead className="bg-rose/15 text-ink">
                 <tr>
                   <th className="px-4 py-4 font-black">Färg</th>
                   <th className="px-4 py-4 font-black">Motstånd</th>
                   <th className="px-4 py-4 font-black">Passar för</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-[#F1D8DD] bg-white/70">
+              <tbody className="divide-y divide-line bg-surface/70">
                 {levels.map((level) => (
                   <tr key={level.color}>
                     <td className="px-4 py-4 font-bold">
@@ -272,10 +272,10 @@ export default async function TraningBandReviewPage() {
                         {level.color}
                       </span>
                     </td>
-                    <td className="px-4 py-4 text-[#6f5a64]">
+                    <td className="px-4 py-4 text-ink-soft">
                       {level.resistance}
                     </td>
-                    <td className="px-4 py-4 text-[#6f5a64]">{level.fit}</td>
+                    <td className="px-4 py-4 text-ink-soft">{level.fit}</td>
                   </tr>
                 ))}
               </tbody>
@@ -333,7 +333,7 @@ export default async function TraningBandReviewPage() {
           ]}
         />
 
-        <section className="mt-7 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+        <section className="mt-7 rounded-[2rem] border border-line bg-surface/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <h2 className="editorial-color-kiss font-display text-3xl">
             Vanliga frågor
           </h2>
@@ -341,12 +341,12 @@ export default async function TraningBandReviewPage() {
             {faqItems.map((item) => (
               <details
                 key={item.question}
-                className="rounded-2xl bg-[#FFF4F5] p-5"
+                className="rounded-2xl bg-rose/8 p-5"
               >
-                <summary className="cursor-pointer font-black text-[#4B2838]">
+                <summary className="cursor-pointer font-black text-ink">
                   {item.question}
                 </summary>
-                <p className="mt-3 leading-7 text-[#6f5a64]">{item.answer}</p>
+                <p className="mt-3 leading-7 text-ink-soft">{item.answer}</p>
               </details>
             ))}
           </div>
@@ -356,7 +356,7 @@ export default async function TraningBandReviewPage() {
 
         <Link
           href="/traning"
-          className="mt-8 inline-flex min-h-12 items-center gap-2 rounded-full border border-[#E9CDD3] bg-white/70 px-5 font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+          className="mt-8 inline-flex min-h-12 items-center gap-2 rounded-full border border-line bg-surface/70 px-5 font-bold text-ink-soft transition hover:text-wine"
         >
           <Sparkles size={18} aria-hidden="true" />
           Fler träningsval

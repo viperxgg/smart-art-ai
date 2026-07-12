@@ -109,7 +109,7 @@ export function ProductSearch() {
         <Search
           size={22}
           aria-hidden="true"
-          className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-[#c8919b]"
+          className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-wine"
         />
         <input
           id="product-search"
@@ -122,7 +122,7 @@ export function ProductSearch() {
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Sök på produkt, märke eller kategori…"
-          className="min-h-16 w-full rounded-full border border-[#efc6cc] bg-white/80 py-4 pl-14 pr-14 text-lg font-semibold text-[#5b3441] shadow-[0_18px_50px_rgba(216,131,146,0.12)] outline-none backdrop-blur-xl transition placeholder:text-[#b79aa1] focus:border-[#d98a99] focus:bg-white"
+          className="min-h-16 w-full rounded-full border border-line bg-surface/80 py-4 pl-14 pr-14 text-lg font-semibold text-ink shadow-[0_18px_50px_rgba(216,131,146,0.12)] outline-none backdrop-blur-xl transition placeholder:text-ink-soft focus:border-rose focus:bg-surface"
         />
         {query ? (
           <button
@@ -132,7 +132,7 @@ export function ProductSearch() {
               inputRef.current?.focus();
             }}
             aria-label="Rensa sökningen"
-            className="absolute right-4 top-1/2 grid size-10 -translate-y-1/2 place-items-center rounded-full bg-[#ffe1e4] text-[#7b4656] transition hover:bg-[#ffd0d6]"
+            className="absolute right-4 top-1/2 grid size-10 -translate-y-1/2 place-items-center rounded-full bg-rose/15 text-wine transition hover:bg-rose/20"
           >
             <X size={18} aria-hidden="true" />
           </button>
@@ -140,7 +140,7 @@ export function ProductSearch() {
       </form>
 
       {trimmed ? (
-        <p className="mt-5 text-sm font-bold text-[#8a6d78]" aria-live="polite">
+        <p className="mt-5 text-sm font-bold text-ink-soft" aria-live="polite">
           {results.length > 0
             ? `${results.length} ${
                 results.length === 1 ? "produkt matchar" : "produkter matchar"
@@ -149,7 +149,7 @@ export function ProductSearch() {
         </p>
       ) : (
         <div className="mt-6">
-          <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
+          <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
             Populära sökningar
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
@@ -161,7 +161,7 @@ export function ProductSearch() {
                   setQuery(term);
                   inputRef.current?.focus();
                 }}
-                className="inline-flex min-h-10 items-center rounded-full border border-[#efc6cc] bg-white/70 px-4 text-sm font-black text-[#7b4656] shadow-[0_12px_32px_rgba(216,131,146,0.1)] backdrop-blur transition hover:-translate-y-0.5 hover:bg-white"
+                className="inline-flex min-h-10 items-center rounded-full border border-line bg-surface/70 px-4 text-sm font-black text-wine shadow-[0_12px_32px_rgba(216,131,146,0.1)] backdrop-blur transition hover:-translate-y-0.5 hover:bg-surface"
               >
                 {term}
               </button>
@@ -189,10 +189,10 @@ function SearchResultCard({ product }: { product: Product }) {
   const label = categoryLabel.get(product.category) ?? product.category;
 
   return (
-    <article className="group flex flex-col overflow-hidden rounded-[1.8rem] border border-[#efc6cc] bg-white/62 shadow-[0_20px_58px_rgba(216,131,146,0.1)] transition hover:-translate-y-1 hover:bg-white">
+    <article className="group flex flex-col overflow-hidden rounded-[1.8rem] border border-line bg-surface/62 shadow-[0_20px_58px_rgba(216,131,146,0.1)] transition hover:-translate-y-1 hover:bg-surface">
       <Link
         href={href}
-        className="relative block aspect-[4/3] w-full overflow-hidden bg-[#fdebed]"
+        className="relative block aspect-[4/3] w-full overflow-hidden bg-rose/8"
         aria-label={`Öppna ${product.title}`}
       >
         <Image
@@ -204,24 +204,24 @@ function SearchResultCard({ product }: { product: Product }) {
           loading="lazy"
           quality={70}
         />
-        <span className="absolute left-3 top-3 rounded-full bg-white/88 px-3 py-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-[#a95468] shadow-[0_10px_28px_rgba(120,60,72,0.14)] backdrop-blur">
+        <span className="absolute left-3 top-3 rounded-full bg-surface/88 px-3 py-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-wine shadow-[0_10px_28px_rgba(120,60,72,0.14)] backdrop-blur">
           {label}
         </span>
       </Link>
       <div className="flex flex-1 flex-col p-5">
-        <p className="text-xs font-black uppercase tracking-[0.16em] text-[#d7778b]">
+        <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
           {product.brand}
         </p>
         <h2 className="editorial-color-kiss mt-2 font-display text-2xl leading-tight">
           <Link href={href}>{product.title}</Link>
         </h2>
-        <p className="mt-3 line-clamp-2 flex-1 text-sm leading-6 text-[#7e6970]">
+        <p className="mt-3 line-clamp-2 flex-1 text-sm leading-6 text-ink-soft">
           {product.summary}
         </p>
         {score ? <ScoreBadge score={score} className="mt-4" /> : null}
         <Link
           href={href}
-          className="mt-4 inline-flex items-center gap-1.5 text-sm font-black text-[#b06072]"
+          className="mt-4 inline-flex items-center gap-1.5 text-sm font-black text-wine"
         >
           Se Elins koll
           <ArrowUpRight
@@ -237,25 +237,25 @@ function SearchResultCard({ product }: { product: Product }) {
 
 function NoResults({ query }: { query: string }) {
   return (
-    <div className="mt-6 rounded-[1.8rem] border border-[#efc6cc] bg-white/62 p-6 shadow-[0_20px_58px_rgba(216,131,146,0.1)] sm:p-8">
+    <div className="mt-6 rounded-[1.8rem] border border-line bg-surface/62 p-6 shadow-[0_20px_58px_rgba(216,131,146,0.1)] sm:p-8">
       <h2 className="editorial-color-kiss font-display text-2xl leading-tight">
         Elin har inte den här ännu
       </h2>
-      <p className="mt-3 text-sm leading-6 text-[#7e6970]">
+      <p className="mt-3 text-sm leading-6 text-ink-soft">
         Vi hittade inget som matchar “{query}”. Prova ett kortare ord, ett märke
         eller en kategori – eller fråga Elin direkt.
       </p>
       <div className="mt-5 flex flex-wrap gap-2">
         <Link
           href="/fraga-elin"
-          className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-[#d97d91] px-5 text-sm font-black text-white shadow-[0_16px_40px_rgba(216,131,146,0.2)] transition hover:-translate-y-0.5"
+          className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-wine px-5 text-sm font-black text-bg shadow-[0_16px_40px_rgba(109,60,77,0.28)] transition hover:-translate-y-0.5 hover:bg-wine/90"
         >
           <MessageCircle size={17} aria-hidden="true" />
           Fråga Elin
         </Link>
         <Link
           href="/kategorier"
-          className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-[#d98a99] bg-white/70 px-5 text-sm font-black text-[#a0566a] transition hover:-translate-y-0.5 hover:bg-white"
+          className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-rose bg-surface/70 px-5 text-sm font-black text-wine transition hover:-translate-y-0.5 hover:bg-surface"
         >
           Bläddra kategorier
           <ArrowUpRight size={16} aria-hidden="true" />

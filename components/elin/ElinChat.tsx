@@ -260,7 +260,7 @@ function ElinAvatar({
 
   return (
     <span
-      className={`${sizeClass} relative shrink-0 overflow-hidden rounded-full border border-[#F1D8DD] bg-[#FFF1F3] shadow-[0_10px_24px_rgba(216,120,141,0.18)]`}
+      className={`${sizeClass} relative shrink-0 overflow-hidden rounded-full border border-line bg-rose/8 shadow-[0_10px_24px_rgba(216,120,141,0.18)]`}
       aria-hidden="true"
     >
       <Image src={elinAvatarSrc} alt="" fill sizes="44px" className="object-cover" />
@@ -419,7 +419,7 @@ function renderInlineMarkdown(text: string) {
           href={isSafeHref ? href : "#"}
           target={href.startsWith("https://") ? "_blank" : undefined}
           rel={href.startsWith("https://") ? "noopener noreferrer" : undefined}
-          className="font-black text-[#D8788D] underline decoration-[#F1D8DD] underline-offset-4"
+          className="font-black text-rose underline decoration-line underline-offset-4"
         >
           {linkMatch?.[1] ?? token}
         </a>,
@@ -443,7 +443,7 @@ function MarkdownText({ text }: { text: string }) {
     .filter(Boolean);
 
   return (
-    <div className="space-y-3 text-sm leading-6 text-[#4B2838] sm:text-[0.95rem] sm:leading-7">
+    <div className="space-y-3 text-sm leading-6 text-ink sm:text-[0.95rem] sm:leading-7">
       {blocks.map((block, blockIndex) => {
         const lines = block.split("\n").map((line) => line.trim());
         const listItems = lines
@@ -494,9 +494,9 @@ function ProductCardView({
   if (video) tabs.push({ key: "video", label: "▶ Se videon" });
 
   return (
-    <div className="rounded-[1rem] border border-[#F1D8DD] bg-[#FFF9F7] p-3">
+    <div className="rounded-[1rem] border border-line bg-bg p-3">
       <div className="flex min-w-0 gap-3">
-        <span className="relative size-16 shrink-0 overflow-hidden rounded-[0.85rem] bg-white">
+        <span className="relative size-16 shrink-0 overflow-hidden rounded-[0.85rem] bg-surface">
           <Image
             src={product.image}
             alt={product.title}
@@ -508,36 +508,36 @@ function ProductCardView({
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-2">
             {typeof product.steg === "number" ? (
-              <span className="rounded-full bg-[#4B2838] px-2 py-0.5 text-[0.65rem] font-black text-[#FFF9F7]">
+              <span className="rounded-full bg-ink px-2 py-0.5 text-[0.65rem] font-black text-bg">
                 Steg {product.steg}
               </span>
             ) : null}
-            <span className="text-xs font-black uppercase tracking-[0.12em] text-[#D8788D]">
+            <span className="text-xs font-black uppercase tracking-[0.12em] text-rose">
               {product.brand}
             </span>
             {product.poang != null ? (
-              <span className="rounded-full bg-[#4B2838] px-2 py-0.5 text-[0.65rem] font-black text-[#FFF9F7]">
+              <span className="rounded-full bg-ink px-2 py-0.5 text-[0.65rem] font-black text-bg">
                 Elins poäng {product.poang}
               </span>
             ) : null}
             {product.ratingShort ? (
-              <span className="rounded-full bg-[#FFF1F3] px-2 py-0.5 text-[0.65rem] font-black text-[#D8788D]">
+              <span className="rounded-full bg-rose/8 px-2 py-0.5 text-[0.65rem] font-black text-rose">
                 ★ {product.ratingShort}
               </span>
             ) : null}
             {product.bestseller ? (
-              <span className="rounded-full border border-[#F4D9A5] bg-[#FFF4D6] px-2 py-0.5 text-[0.65rem] font-black text-[#8A5B12]">
+              <span className="rounded-full border border-gold/40 bg-gold/15 px-2 py-0.5 text-[0.65rem] font-black text-[#8A5B12]">
                 Populärast just nu
               </span>
             ) : null}
           </div>
           <Link
             href={product.pageHref}
-            className="mt-1 block text-sm font-black leading-5 text-[#4B2838] hover:underline"
+            className="mt-1 block text-sm font-black leading-5 text-ink hover:underline"
           >
             {product.title}
           </Link>
-          <p className="mt-0.5 text-xs text-[#6f5a64]">
+          <p className="mt-0.5 text-xs text-ink-soft">
             <span className="font-bold">{product.tierIcon} {product.tierLabel}</span>
             {product.verdict ? ` · ${product.verdict}` : ""}
           </p>
@@ -549,8 +549,8 @@ function ProductCardView({
           aria-pressed={isSaved}
           className={`grid min-h-10 min-w-10 shrink-0 place-items-center rounded-full border transition hover:-translate-y-0.5 ${
             isSaved
-              ? "border-[#D8788D] bg-[#D8788D] text-[#FFF9F7]"
-              : "border-[#F1D8DD] bg-white text-[#D8788D] hover:bg-[#FFF1F3]"
+              ? "border-rose bg-rose text-bg"
+              : "border-line bg-surface text-rose hover:bg-rose/8"
           }`}
         >
           <Heart
@@ -562,8 +562,8 @@ function ProductCardView({
       </div>
 
       {product.varfor ? (
-        <p className="mt-3 rounded-[0.8rem] bg-[#FFF1F3] px-3 py-2 text-xs leading-5 text-[#4B2838]">
-          <span className="font-black text-[#D8788D]">Perfekt för dig eftersom </span>
+        <p className="mt-3 rounded-[0.8rem] bg-rose/8 px-3 py-2 text-xs leading-5 text-ink">
+          <span className="font-black text-rose">Perfekt för dig eftersom </span>
           {product.varfor}
         </p>
       ) : null}
@@ -577,8 +577,8 @@ function ProductCardView({
               onClick={() => setOpen((current) => (current === tab.key ? null : tab.key))}
               className={`min-h-8 rounded-full border px-2.5 text-[0.7rem] font-bold transition ${
                 open === tab.key
-                  ? "border-[#D8788D] bg-[#D8788D] text-[#FFF9F7]"
-                  : "border-[#F1D8DD] bg-white text-[#4B2838] hover:bg-[#FFF1F3]"
+                  ? "border-rose bg-rose text-bg"
+                  : "border-line bg-surface text-ink hover:bg-rose/8"
               }`}
             >
               {tab.label}
@@ -588,7 +588,7 @@ function ProductCardView({
       ) : null}
 
       {open === "fordelar" && fordelar.length ? (
-        <ul className="mt-2 space-y-1 rounded-[0.8rem] bg-white p-3 text-xs leading-5 text-[#4B2838]">
+        <ul className="mt-2 space-y-1 rounded-[0.8rem] bg-surface p-3 text-xs leading-5 text-ink">
           {fordelar.map((item) => (
             <li key={item} className="flex gap-2">
               <span aria-hidden="true">✓</span>
@@ -599,7 +599,7 @@ function ProductCardView({
       ) : null}
 
       {open === "anvandning" && uses.length ? (
-        <ul className="mt-2 space-y-1 rounded-[0.8rem] bg-white p-3 text-xs leading-5 text-[#4B2838]">
+        <ul className="mt-2 space-y-1 rounded-[0.8rem] bg-surface p-3 text-xs leading-5 text-ink">
           {uses.map((item) => (
             <li key={item} className="flex gap-2">
               <span aria-hidden="true">•</span>
@@ -610,7 +610,7 @@ function ProductCardView({
       ) : null}
 
       {open === "folk" && hasFolk ? (
-        <div className="mt-2 space-y-2 rounded-[0.8rem] bg-white p-3 text-xs leading-5 text-[#4B2838]">
+        <div className="mt-2 space-y-2 rounded-[0.8rem] bg-surface p-3 text-xs leading-5 text-ink">
           {product.rating ? <p className="font-bold">{product.rating}</p> : null}
           {highlights.length ? (
             <ul className="space-y-1">
@@ -623,12 +623,12 @@ function ProductCardView({
             </ul>
           ) : null}
           {product.reviewQuote ? (
-            <p className="rounded-[0.7rem] bg-[#FFF9F7] p-2 italic text-[#6f5a64]">
+            <p className="rounded-[0.7rem] bg-bg p-2 italic text-ink-soft">
               «{product.reviewQuote.text}» — {product.reviewQuote.name}
             </p>
           ) : null}
           {product.caution ? (
-            <p className="text-[#8a6d75]">
+            <p className="text-ink-soft">
               <span className="font-bold">Att tänka på:</span> {product.caution}
             </p>
           ) : null}
@@ -636,7 +636,7 @@ function ProductCardView({
       ) : null}
 
       {open === "video" && video ? (
-        <div className="mt-2 rounded-[0.8rem] bg-white p-2">
+        <div className="mt-2 rounded-[0.8rem] bg-surface p-2">
           <video
             controls
             playsInline
@@ -654,21 +654,21 @@ function ProductCardView({
           href={product.amazonUrl}
           target="_blank"
           rel="sponsored nofollow noopener noreferrer"
-          className="inline-flex min-h-9 items-center gap-1 rounded-full bg-[#D8788D] px-3 text-xs font-black text-[#FFF9F7] transition hover:-translate-y-0.5 hover:bg-[#c96b80]"
+          className="inline-flex min-h-9 items-center gap-1 rounded-full bg-rose px-3 text-xs font-black text-bg transition hover:-translate-y-0.5 hover:bg-rose/90"
         >
           Se aktuellt pris på Amazon
           <ArrowUpRight className="size-3.5" aria-hidden="true" />
         </a>
         <Link
           href={product.pageHref}
-          className="inline-flex min-h-9 items-center rounded-full border border-[#F1D8DD] bg-white px-3 text-xs font-bold text-[#4B2838] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
+          className="inline-flex min-h-9 items-center rounded-full border border-line bg-surface px-3 text-xs font-bold text-ink transition hover:-translate-y-0.5 hover:bg-rose/8"
         >
           Läs recension
         </Link>
         <button
           type="button"
           onClick={() => onAsk(`Berätta mer om ${product.title} – passar den mig?`)}
-          className="inline-flex min-h-9 items-center rounded-full border border-[#F1D8DD] bg-white px-3 text-xs font-bold text-[#4B2838] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
+          className="inline-flex min-h-9 items-center rounded-full border border-line bg-surface px-3 text-xs font-bold text-ink transition hover:-translate-y-0.5 hover:bg-rose/8"
         >
           Fråga om den här
         </button>
@@ -685,10 +685,10 @@ function WishlistPanel({
   onRemove: (slug: string) => void;
 }) {
   return (
-    <div className="border-b border-[#F1D8DD] bg-white/82 px-4 py-4 sm:px-5">
+    <div className="border-b border-line bg-surface/82 px-4 py-4 sm:px-5">
       {items.length === 0 ? (
-        <div className="rounded-[1rem] border border-dashed border-[#F1D8DD] bg-[#FFF9F7] p-4 text-sm leading-6 text-[#6f5a64]">
-          <p className="font-black text-[#4B2838]">Din lista är tom än så länge.</p>
+        <div className="rounded-[1rem] border border-dashed border-line bg-bg p-4 text-sm leading-6 text-ink-soft">
+          <p className="font-black text-ink">Din lista är tom än så länge.</p>
           <p className="mt-1">
             Spara produkter med hjärtat så hittar du dem här när du vill jämföra igen.
           </p>
@@ -699,10 +699,10 @@ function WishlistPanel({
             {items.map((item) => (
               <div
                 key={item.slug}
-                className="rounded-[1rem] border border-[#F1D8DD] bg-[#FFF9F7] p-3"
+                className="rounded-[1rem] border border-line bg-bg p-3"
               >
                 <div className="flex min-w-0 gap-3">
-                  <span className="relative size-14 shrink-0 overflow-hidden rounded-[0.8rem] bg-white">
+                  <span className="relative size-14 shrink-0 overflow-hidden rounded-[0.8rem] bg-surface">
                     <Image
                       src={item.image}
                       alt={item.title}
@@ -713,27 +713,27 @@ function WishlistPanel({
                   </span>
                   <div className="min-w-0 flex-1">
                     <div className="flex flex-wrap items-center gap-1.5">
-                      <span className="text-[0.65rem] font-black uppercase tracking-[0.12em] text-[#D8788D]">
+                      <span className="text-[0.65rem] font-black uppercase tracking-[0.12em] text-rose">
                         {item.brand}
                       </span>
                       {item.poang != null ? (
-                        <span className="rounded-full bg-[#4B2838] px-2 py-0.5 text-[0.6rem] font-black text-[#FFF9F7]">
+                        <span className="rounded-full bg-ink px-2 py-0.5 text-[0.6rem] font-black text-bg">
                           Elins poäng {item.poang}
                         </span>
                       ) : null}
                       {item.bestseller ? (
-                        <span className="rounded-full border border-[#F4D9A5] bg-[#FFF4D6] px-2 py-0.5 text-[0.6rem] font-black text-[#8A5B12]">
+                        <span className="rounded-full border border-gold/40 bg-gold/15 px-2 py-0.5 text-[0.6rem] font-black text-[#8A5B12]">
                           Populärast just nu
                         </span>
                       ) : null}
                     </div>
                     <Link
                       href={item.pageHref}
-                      className="mt-1 block text-sm font-black leading-5 text-[#4B2838] hover:underline"
+                      className="mt-1 block text-sm font-black leading-5 text-ink hover:underline"
                     >
                       {item.title}
                     </Link>
-                    <p className="mt-0.5 text-xs text-[#6f5a64]">
+                    <p className="mt-0.5 text-xs text-ink-soft">
                       <span className="font-bold">
                         {item.tierIcon} {item.tierLabel}
                       </span>
@@ -744,7 +744,7 @@ function WishlistPanel({
                     type="button"
                     onClick={() => onRemove(item.slug)}
                     aria-label={`Ta bort ${item.title} från min lista`}
-                    className="grid min-h-9 min-w-9 shrink-0 place-items-center rounded-full border border-[#F1D8DD] bg-white text-[#6f5a64] transition hover:bg-[#FFF1F3] hover:text-[#D8788D]"
+                    className="grid min-h-9 min-w-9 shrink-0 place-items-center rounded-full border border-line bg-surface text-ink-soft transition hover:bg-rose/8 hover:text-rose"
                   >
                     <Trash2 className="size-4" aria-hidden="true" />
                   </button>
@@ -754,14 +754,14 @@ function WishlistPanel({
                     href={item.amazonUrl}
                     target="_blank"
                     rel="sponsored nofollow noopener noreferrer"
-                    className="inline-flex min-h-9 items-center gap-1 rounded-full bg-[#D8788D] px-3 text-xs font-black text-[#FFF9F7] transition hover:-translate-y-0.5 hover:bg-[#c96b80]"
+                    className="inline-flex min-h-9 items-center gap-1 rounded-full bg-rose px-3 text-xs font-black text-bg transition hover:-translate-y-0.5 hover:bg-rose/90"
                   >
                     Se aktuellt pris på Amazon
                     <ArrowUpRight className="size-3.5" aria-hidden="true" />
                   </a>
                   <Link
                     href={item.pageHref}
-                    className="inline-flex min-h-9 items-center rounded-full border border-[#F1D8DD] bg-white px-3 text-xs font-bold text-[#4B2838] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
+                    className="inline-flex min-h-9 items-center rounded-full border border-line bg-surface px-3 text-xs font-bold text-ink transition hover:-translate-y-0.5 hover:bg-rose/8"
                   >
                     Läs recension
                   </Link>
@@ -769,7 +769,7 @@ function WishlistPanel({
               </div>
             ))}
           </div>
-          <p className="text-[0.65rem] text-[#9b818b]">Annons · innehåller affiliatelänkar</p>
+          <p className="text-[0.65rem] text-ink-soft">Annons · innehåller affiliatelänkar</p>
         </div>
       )}
     </div>
@@ -798,23 +798,23 @@ function SubscriberCard({
   const isSubmitting = status === "submitting";
 
   return (
-    <aside className="rounded-[1.2rem] border border-[#F1D8DD] bg-white p-4 shadow-[0_16px_42px_rgba(75,40,56,0.08)]">
+    <aside className="rounded-[1.2rem] border border-line bg-surface p-4 shadow-[0_16px_42px_rgba(91,52,65,0.08)]">
       <div className="flex items-start gap-3">
-        <span className="grid size-10 shrink-0 place-items-center rounded-full bg-[#FFF1F3] text-[#D8788D]">
+        <span className="grid size-10 shrink-0 place-items-center rounded-full bg-rose/8 text-rose">
           <Mail className="size-4" aria-hidden="true" />
         </span>
         <div className="min-w-0 flex-1">
           <div className="flex items-start justify-between gap-3">
             <div>
-              <p className="text-sm font-black text-[#4B2838]">
+              <p className="text-sm font-black text-ink">
                 Vill du att jag sparar dina val och tipsar när något blir billigare?
               </p>
-              <p className="mt-1 text-xs leading-5 text-[#6f5a64]">Lämna din mejl.</p>
+              <p className="mt-1 text-xs leading-5 text-ink-soft">Lämna din mejl.</p>
             </div>
             <button
               type="button"
               onClick={onDismiss}
-              className="grid min-h-9 min-w-9 shrink-0 place-items-center rounded-full border border-[#F1D8DD] bg-[#FFF9F7] text-[#6f5a64] transition hover:bg-[#FFF1F3] hover:text-[#D8788D]"
+              className="grid min-h-9 min-w-9 shrink-0 place-items-center rounded-full border border-line bg-bg text-ink-soft transition hover:bg-rose/8 hover:text-rose"
               aria-label="Stäng mejlfrågan"
             >
               <X className="size-4" aria-hidden="true" />
@@ -822,7 +822,7 @@ function SubscriberCard({
           </div>
 
           {status === "success" ? (
-            <p className="mt-3 rounded-[0.9rem] bg-[#F1FAF4] p-3 text-sm font-bold leading-6 text-[#3E6B4E]">
+            <p className="mt-3 rounded-[0.9rem] bg-mint/24 p-3 text-sm font-bold leading-6 text-[#356a5f]">
               Klart. Jag har sparat mejlen och samtycket.
             </p>
           ) : (
@@ -835,16 +835,16 @@ function SubscriberCard({
                   onChange={(event) => onEmailChange(event.target.value.slice(0, 254))}
                   placeholder="dinmejl@exempel.se"
                   autoComplete="email"
-                  className="min-h-11 w-full rounded-full border border-[#F1D8DD] bg-[#FFF9F7] px-4 text-sm font-bold text-[#4B2838] outline-none transition focus:border-[#D8788D]"
+                  className="min-h-11 w-full rounded-full border border-line bg-bg px-4 text-sm font-bold text-ink outline-none transition focus:border-rose"
                 />
               </label>
 
-              <label className="flex items-start gap-3 rounded-[1rem] border border-[#F1D8DD] bg-[#FFF9F7] p-3 text-xs leading-5 text-[#6f5a64]">
+              <label className="flex items-start gap-3 rounded-[1rem] border border-line bg-bg p-3 text-xs leading-5 text-ink-soft">
                 <input
                   type="checkbox"
                   checked={consent}
                   onChange={(event) => onConsentChange(event.target.checked)}
-                  className="mt-1 size-4 shrink-0 accent-[#D8788D]"
+                  className="mt-1 size-4 shrink-0 accent-rose"
                 />
                 <span>{subscriberConsentText}</span>
               </label>
@@ -854,7 +854,7 @@ function SubscriberCard({
               <button
                 type="submit"
                 disabled={isSubmitting || !email.trim() || !consent}
-                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-[#4B2838] px-4 text-sm font-black text-[#FFF9F7] transition hover:-translate-y-0.5 hover:bg-[#3E2230] disabled:cursor-not-allowed disabled:opacity-55"
+                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-ink px-4 text-sm font-black text-bg transition hover:-translate-y-0.5 hover:bg-ink/90 disabled:cursor-not-allowed disabled:opacity-55"
               >
                 {isSubmitting ? (
                   <Loader2 className="size-4 animate-spin" aria-hidden="true" />
@@ -1342,20 +1342,20 @@ export function ElinChat({
 
   return (
     <section
-      className={`flex min-h-0 flex-1 flex-col overflow-hidden rounded-[1.55rem] border border-[#F1D8DD] bg-[#FFF9F7] shadow-[0_28px_80px_rgba(75,40,56,0.12)] ${className}`}
+      className={`flex min-h-0 flex-1 flex-col overflow-hidden rounded-[1.55rem] border border-line bg-bg shadow-[0_28px_80px_rgba(91,52,65,0.12)] ${className}`}
     >
-      <div className="flex flex-col gap-3 border-b border-[#F1D8DD] bg-white/64 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-5">
+      <div className="flex flex-col gap-3 border-b border-line bg-surface/64 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-5">
         <div className="flex min-w-0 items-center gap-3">
           <ElinAvatar visible={hasElinAvatar} />
           <div className="min-w-0">
-            <p className="text-sm font-black text-[#4B2838]">Elin</p>
-            <p className="mt-1 truncate text-xs text-[#6f5a64]">
+            <p className="text-sm font-black text-ink">Elin</p>
+            <p className="mt-1 truncate text-xs text-ink-soft">
               {focus
                 ? `Utgår från ${focus.title}`
                 : "Svarar kort, ärligt och produktdatastyrt"}
             </p>
             {hadStoredSession && messages.length > 0 ? (
-              <p className="mt-1 text-[0.7rem] font-bold text-[#D8788D]">
+              <p className="mt-1 text-[0.7rem] font-bold text-rose">
                 Fortsätt där du var
               </p>
             ) : null}
@@ -1368,8 +1368,8 @@ export function ElinChat({
             aria-expanded={isWishlistOpen}
             className={`inline-flex min-h-9 items-center gap-1.5 rounded-full border px-3 text-xs font-black transition hover:-translate-y-0.5 ${
               isWishlistOpen
-                ? "border-[#D8788D] bg-[#D8788D] text-[#FFF9F7]"
-                : "border-[#F1D8DD] bg-white text-[#4B2838] hover:bg-[#FFF1F3]"
+                ? "border-rose bg-rose text-bg"
+                : "border-line bg-surface text-ink hover:bg-rose/8"
             }`}
           >
             <Heart
@@ -1383,7 +1383,7 @@ export function ElinChat({
             <button
               type="button"
               onClick={clearChat}
-              className="shrink-0 rounded-full border border-[#F1D8DD] bg-white px-3 py-1.5 text-xs font-bold text-[#6f5a64] transition hover:bg-[#FFF1F3]"
+              className="shrink-0 rounded-full border border-line bg-surface px-3 py-1.5 text-xs font-bold text-ink-soft transition hover:bg-rose/8"
             >
               Rensa
             </button>
@@ -1395,25 +1395,25 @@ export function ElinChat({
         <WishlistPanel items={wishlist} onRemove={removeFromWishlist} />
       ) : null}
 
-      <div className="flex-1 space-y-4 overflow-y-auto bg-[#FFF9F7] px-4 py-5 sm:px-5">
+      <div className="flex-1 space-y-4 overflow-y-auto bg-bg px-4 py-5 sm:px-5">
         {!isStorageReady ? (
-          <div className="grid h-full min-h-[14rem] place-items-center rounded-[1.25rem] border border-dashed border-[#F1D8DD] bg-white/70 p-5 text-center">
-            <span className="inline-flex items-center gap-2 text-sm font-bold text-[#6f5a64]">
+          <div className="grid h-full min-h-[14rem] place-items-center rounded-[1.25rem] border border-dashed border-line bg-surface/70 p-5 text-center">
+            <span className="inline-flex items-center gap-2 text-sm font-bold text-ink-soft">
               <Loader2 className="size-4 animate-spin" aria-hidden="true" />
               Laddar samtalet…
             </span>
           </div>
         ) : messages.length === 0 ? (
-          <div className="grid h-full min-h-[14rem] place-items-center rounded-[1.25rem] border border-dashed border-[#F1D8DD] bg-white/70 p-5 text-center">
+          <div className="grid h-full min-h-[14rem] place-items-center rounded-[1.25rem] border border-dashed border-line bg-surface/70 p-5 text-center">
             <div className="max-w-md">
               <p
-                className={`font-display leading-tight text-[#4B2838] ${
+                className={`font-display leading-tight text-ink ${
                   compact ? "text-2xl" : "text-3xl"
                 }`}
               >
                 {emptyTitle}
               </p>
-              <p className="mt-3 text-sm leading-6 text-[#6f5a64]">{emptyText}</p>
+              <p className="mt-3 text-sm leading-6 text-ink-soft">{emptyText}</p>
               {showExamples ? (
                 <div className="mt-5 flex flex-wrap justify-center gap-2">
                   {examples.map((example) => (
@@ -1424,7 +1424,7 @@ export function ElinChat({
                         setInput(example);
                         textareaRef.current?.focus();
                       }}
-                      className="min-h-10 rounded-full border border-[#F1D8DD] bg-white px-3 text-left text-xs font-bold text-[#4B2838] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
+                      className="min-h-10 rounded-full border border-line bg-surface px-3 text-left text-xs font-bold text-ink transition hover:-translate-y-0.5 hover:bg-rose/8"
                     >
                       {example}
                     </button>
@@ -1447,8 +1447,8 @@ export function ElinChat({
               <div
                 className={`max-w-[88%] rounded-[1.25rem] px-4 py-3 sm:max-w-[78%] ${
                   message.role === "user"
-                    ? "bg-[#D8788D] text-[#FFF9F7]"
-                    : "border border-[#F1D8DD] bg-white text-[#4B2838] shadow-[0_14px_34px_rgba(75,40,56,0.08)]"
+                    ? "bg-rose text-bg"
+                    : "border border-line bg-surface text-ink shadow-[0_14px_34px_rgba(91,52,65,0.08)]"
                 }`}
               >
                 {message.role === "user" ? (
@@ -1458,7 +1458,7 @@ export function ElinChat({
                     {message.content.trim() ? (
                       <MarkdownText text={message.content} />
                     ) : (
-                      <span className="inline-flex items-center gap-2 text-sm font-bold text-[#6f5a64]">
+                      <span className="inline-flex items-center gap-2 text-sm font-bold text-ink-soft">
                         <Loader2 className="size-4 animate-spin" aria-hidden="true" />
                         Elin skriver…
                       </span>
@@ -1486,7 +1486,7 @@ export function ElinChat({
                             disabled={getDisplayProducts(message.products ?? []).every(
                               (product) => savedSlugs.has(product.slug),
                             )}
-                            className="inline-flex min-h-9 items-center gap-1.5 rounded-full border border-[#D8788D] bg-white px-3 text-xs font-black text-[#D8788D] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3] disabled:cursor-not-allowed disabled:opacity-60"
+                            className="inline-flex min-h-9 items-center gap-1.5 rounded-full border border-rose bg-surface px-3 text-xs font-black text-rose transition hover:-translate-y-0.5 hover:bg-rose/8 disabled:cursor-not-allowed disabled:opacity-60"
                           >
                             <Heart
                               className="size-3.5"
@@ -1516,12 +1516,12 @@ export function ElinChat({
                                   .join(" och ")} – vilken passar mig bäst?`,
                               )
                             }
-                            className="min-h-9 rounded-full border border-[#D8788D] bg-white px-3 text-xs font-black text-[#D8788D] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
+                            className="min-h-9 rounded-full border border-rose bg-surface px-3 text-xs font-black text-rose transition hover:-translate-y-0.5 hover:bg-rose/8"
                           >
                             ⚖️ Jämför dessa
                           </button>
                         ) : null}
-                        <p className="text-[0.65rem] text-[#9b818b]">
+                        <p className="text-[0.65rem] text-ink-soft">
                           Annons · innehåller affiliatelänkar
                         </p>
                       </div>
@@ -1537,7 +1537,7 @@ export function ElinChat({
                             key={question}
                             type="button"
                             onClick={() => void sendMessage(question)}
-                            className="min-h-9 rounded-full border border-[#F1D8DD] bg-[#FFF9F7] px-3 text-left text-xs font-bold text-[#4B2838] transition hover:-translate-y-0.5 hover:bg-[#FFF1F3]"
+                            className="min-h-9 rounded-full border border-line bg-bg px-3 text-left text-xs font-bold text-ink transition hover:-translate-y-0.5 hover:bg-rose/8"
                           >
                             {question}
                           </button>
@@ -1567,7 +1567,7 @@ export function ElinChat({
 
       <form
         onSubmit={onSubmit}
-        className="sticky bottom-0 z-10 border-t border-[#F1D8DD] bg-[#FFF9F7] p-3 sm:p-4"
+        className="sticky bottom-0 z-10 border-t border-line bg-bg p-3 sm:p-4"
       >
         {turnstileSiteKey ? (
           <>
@@ -1597,8 +1597,8 @@ export function ElinChat({
                 }
                 className={`min-h-8 rounded-full border px-3 text-[0.72rem] font-black transition ${
                   active
-                    ? "border-[#D8788D] bg-[#D8788D] text-[#FFF9F7]"
-                    : "border-[#F1D8DD] bg-white text-[#4B2838] hover:bg-[#FFF1F3]"
+                    ? "border-rose bg-rose text-bg"
+                    : "border-line bg-surface text-ink hover:bg-rose/8"
                 } disabled:cursor-not-allowed disabled:opacity-55`}
               >
                 {chip.label}
@@ -1618,8 +1618,8 @@ export function ElinChat({
                 }
                 className={`min-h-8 rounded-full border px-3 text-[0.72rem] font-bold transition ${
                   active
-                    ? "border-[#4B2838] bg-[#4B2838] text-[#FFF9F7]"
-                    : "border-[#F1D8DD] bg-white text-[#4B2838] hover:bg-[#FFF1F3]"
+                    ? "border-ink bg-ink text-bg"
+                    : "border-line bg-surface text-ink hover:bg-rose/8"
                 } disabled:cursor-not-allowed disabled:opacity-55`}
               >
                 {chip.label}
@@ -1628,11 +1628,11 @@ export function ElinChat({
           })}
         </div>
         {preferenceText ? (
-          <p className="mb-2 px-2 text-xs font-bold text-[#6f5a64]">
+          <p className="mb-2 px-2 text-xs font-bold text-ink-soft">
             Kommer ihåg: {preferenceText}
           </p>
         ) : null}
-        <div className="flex items-end gap-2 rounded-[1.3rem] border border-[#F1D8DD] bg-white p-2">
+        <div className="flex items-end gap-2 rounded-[1.3rem] border border-line bg-surface p-2">
           <textarea
             ref={textareaRef}
             value={input}
@@ -1645,12 +1645,12 @@ export function ElinChat({
             }}
             placeholder="Beskriv behov, budget eller produkten du undrar över..."
             rows={compact ? 1 : 2}
-            className="min-h-12 flex-1 resize-none bg-transparent px-3 py-2 text-sm leading-6 text-[#4B2838] outline-none placeholder:text-[#9b818b]"
+            className="min-h-12 flex-1 resize-none bg-transparent px-3 py-2 text-sm leading-6 text-ink outline-none placeholder:text-ink-soft"
           />
           <button
             type="submit"
             disabled={isSending || !input.trim()}
-            className="grid min-h-12 min-w-12 shrink-0 place-items-center rounded-full bg-[#D8788D] text-[#FFF9F7] shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5 hover:bg-[#c96b80] disabled:cursor-not-allowed disabled:opacity-55"
+            className="grid min-h-12 min-w-12 shrink-0 place-items-center rounded-full bg-rose text-bg shadow-[0_18px_42px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5 hover:bg-rose/90 disabled:cursor-not-allowed disabled:opacity-55"
             aria-label="Skicka fråga"
           >
             {isSending ? (
@@ -1660,7 +1660,7 @@ export function ElinChat({
             )}
           </button>
         </div>
-        <p className="mt-2 px-2 text-right text-xs text-[#6f5a64]">{input.length}/500</p>
+        <p className="mt-2 px-2 text-right text-xs text-ink-soft">{input.length}/500</p>
       </form>
     </section>
   );

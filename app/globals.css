@@ -3,18 +3,43 @@
 @theme {
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+
+  /*
+   * Elins val — approved editorial identity (Wave 1, 2026-07-12).
+   * Light is the only base. A future dark theme belongs behind an
+   * intentional `@media (prefers-color-scheme: dark)` override — do not
+   * reintroduce a dark `:root` above this one.
+   */
+  --color-bg: #fff6f6;
+  --color-surface: #fffbfb;
+  --color-ink: #5b3441;
+  --color-ink-soft: #8f727b;
+  --color-line: rgb(216 131 146 / 24%);
+  --color-rose: #d8788d;
+  --color-rose-soft: #efa4ad;
+  --color-wine: #6d3c4d;
+  --color-mid: #c95f7c;
+  --color-violet: #7c628f;
+  --color-mint: #9fc9bb;
+  --color-gold: #ffd166;
 }
 
 :root {
-  color-scheme: dark;
-  --background: #120b12;
-  --foreground: #ffffff;
-  --muted: rgba(255, 255, 255, 0.68);
-  --line: rgba(255, 255, 255, 0.12);
-  --pink: #ff2d82;
-  --pink-soft: #ff7ab8;
-  --violet: #7a5cff;
-  --mint: #47e6a8;
+  color-scheme: light;
+  --background: var(--color-bg);
+  --foreground: var(--color-ink);
+  --muted: rgb(91 52 65 / 68%);
+  --line: var(--color-line);
+  --pink: var(--color-rose);
+  --pink-soft: var(--color-rose-soft);
+  --violet: var(--color-violet);
+  --mint: var(--color-mint);
+  --gradient-signature: linear-gradient(
+    105deg,
+    var(--color-wine) 0%,
+    var(--color-mid) 48%,
+    var(--color-violet) 100%
+  );
 }
 
 * {
@@ -98,7 +123,7 @@ main :where(h1, h2, h3).font-display {
 }
 
 main :where(h1, h2).font-display::first-letter {
-  color: #c95f7c;
+  color: var(--color-mid);
 }
 
 main :where(h1, h2, h3).font-display :where(a, span) {
@@ -106,7 +131,7 @@ main :where(h1, h2, h3).font-display :where(a, span) {
 }
 
 main :where(p, li) strong {
-  color: #6d3c4d;
+  color: var(--color-wine);
 }
 
 main :where(p, li) strong:first-child {
@@ -114,10 +139,14 @@ main :where(p, li) strong:first-child {
 }
 
 .editorial-color-kiss {
-  background: linear-gradient(105deg, #6d3c4d 0%, #c95f7c 48%, #7c628f 100%);
+  background: var(--gradient-signature);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.bg-gradient-signature {
+  background-image: var(--gradient-signature);
 }
 
 .editorial-soft-mark {
@@ -146,7 +175,13 @@ main :where(p, li) strong:first-child {
   min-width: 0;
   max-width: 100%;
   animation: reveal-fade 650ms both;
-  animation-delay: var(--reveal-delay, 0s);
+  /*
+   * Automatic stagger: callers only ever set `--i` (a plain index, e.g.
+   * style={{ "--i": index }}) — the 60ms step and the 6-item cap both live
+   * here, once, instead of being recomputed per component. min() clamps the
+   * delay so long lists don't leave the last card visibly lagging.
+   */
+  animation-delay: calc(min(var(--i, 0), 6) * 60ms);
 }
 
 @keyframes reveal-fade {
@@ -159,6 +194,36 @@ main :where(p, li) strong:first-child {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/*
+ * Animated underline for inline text links (e.g. footer nav). Transform-only
+ * (scaleX on a ::after), never background-size/text-decoration, so it stays
+ * compositor-driven. Global prefers-reduced-motion block below already
+ * forces this transition to ~0ms.
+ */
+.link-underline {
+  position: relative;
+  text-decoration: none;
+}
+
+.link-underline::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -0.15em;
+  left: 0;
+  height: 0.07em;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 260ms ease;
+}
+
+.link-underline:hover::after,
+.link-underline:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 .app-stage {
@@ -559,12 +624,12 @@ main :where(p, li) strong:first-child {
   font-weight: 850;
   transition:
     color 180ms ease,
-    padding 180ms ease;
+    transform 180ms ease;
 }
 
 .social-link:hover {
   color: var(--pink-soft);
-  padding-inline: 0.5rem;
+  transform: translateX(0.35rem);
 }
 
 .review-form {
@@ -695,22 +760,10 @@ main :where(p, li) strong:first-child {
   }
 }
 
-:root {
-  color-scheme: light;
-  --background: #fff6f6;
-  --foreground: #5b3441;
-  --muted: rgba(91, 52, 65, 0.68);
-  --line: rgba(216, 131, 146, 0.24);
-  --pink: #d8788d;
-  --pink-soft: #efa4ad;
-  --violet: #b98aa1;
-  --mint: #9fc9bb;
-}
-
 body {
   background:
     radial-gradient(circle at 50% 0%, rgba(255, 214, 219, 0.75), transparent 32rem),
-    #fff6f6;
+    var(--background);
   color: var(--foreground);
 }
 
@@ -729,14 +782,44 @@ body {
 }
 
 .app-stage {
+  position: relative;
+  isolation: isolate;
   color: #5b3441;
   background:
-    radial-gradient(circle at 52% 0%, rgba(255, 214, 219, 0.88), transparent 31rem),
-    radial-gradient(circle at 2% 80%, rgba(255, 226, 232, 0.7), transparent 22rem),
     linear-gradient(rgba(216, 131, 146, 0.12) 1px, transparent 1px),
     linear-gradient(90deg, rgba(216, 131, 146, 0.12) 1px, transparent 1px),
     #fff6f6;
-  background-size: auto, auto, 4.4rem 4.4rem, 4.4rem 4.4rem, auto;
+  background-size: 4.4rem 4.4rem, 4.4rem 4.4rem, auto;
+}
+
+/*
+ * The two soft radial blobs move to an oversized, absolutely-positioned
+ * layer behind the content (z-index: -1, clipped by .app-stage's own
+ * overflow: hidden) so the "drift" can animate `transform` only — never
+ * background-position/size, which would repaint this whole (large) surface
+ * every frame. 20-30s ease-in-out loop reads as ambient, not distracting.
+ * prefers-reduced-motion block below already zeroes this out.
+ */
+.app-stage::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  z-index: -1;
+  background:
+    radial-gradient(circle at 52% 0%, rgba(255, 214, 219, 0.88), transparent 31rem),
+    radial-gradient(circle at 2% 80%, rgba(255, 226, 232, 0.7), transparent 22rem);
+  animation: app-stage-drift 28s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes app-stage-drift {
+  from {
+    transform: translate3d(-2%, -1.5%, 0) scale(1.06);
+  }
+
+  to {
+    transform: translate3d(2%, 2%, 0) scale(1.12);
+  }
 }
 
 .app-stage .text-white {
@@ -834,6 +917,7 @@ body {
 .evaluation-check,
 .resistance-row,
 .signal-column {
+  border-color: var(--line);
   background: rgba(255, 244, 246, 0.72);
   color: #5b3441;
 }

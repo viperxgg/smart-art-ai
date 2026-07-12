@@ -210,7 +210,7 @@ export function ReviewForm({ product, turnstileSiteKey }: ReviewFormProps) {
         </p>
       ) : null}
 
-      <p className="flex gap-2 text-sm leading-6 text-[#6f5a64]">
+      <p className="flex gap-2 text-sm leading-6 text-ink-soft">
         <ShieldCheck className="mt-0.5 shrink-0" size={16} aria-hidden="true" />
         Recensioner publiceras först efter manuell granskning. Vi visar bara
         ditt alias offentligt. E-post är frivillig, lagras privat och kan raderas

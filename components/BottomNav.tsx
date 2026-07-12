@@ -47,7 +47,7 @@ export function BottomNav() {
   return (
     <nav
       aria-label="Mobil huvudnavigering"
-      className="mobile-bottom-nav fixed left-4 z-30 grid w-[calc(100%-2rem)] max-w-[24rem] grid-cols-5 rounded-full border border-[#efc6cc] bg-white/82 p-2 shadow-[0_18px_60px_rgba(122,71,83,0.18)] backdrop-blur-2xl sm:left-1/2 sm:-translate-x-1/2 md:hidden"
+      className="mobile-bottom-nav fixed left-4 z-30 grid w-[calc(100%-2rem)] max-w-[24rem] grid-cols-5 rounded-full border border-line bg-surface/82 p-2 shadow-[0_18px_60px_rgba(122,71,83,0.18)] backdrop-blur-2xl sm:left-1/2 sm:-translate-x-1/2 md:hidden"
     >
       {navItems.map((item) => {
         const Icon = item.icon;
@@ -60,8 +60,8 @@ export function BottomNav() {
             aria-current={active ? "page" : undefined}
             className={`flex min-h-14 min-w-0 flex-col items-center justify-center gap-1 rounded-full px-0.5 text-[0.6rem] font-bold leading-none tracking-normal transition min-[380px]:text-[0.68rem] ${
               active
-                ? "bg-[#ffe4e8] text-[#6b3d4a]"
-                : "text-[#8b737a] hover:bg-[#fff1f3] hover:text-[#6b3d4a]"
+                ? "bg-rose/15 text-wine"
+                : "text-ink-soft hover:bg-rose/8 hover:text-wine"
             }`}
           >
             <Icon size={20} aria-hidden="true" />

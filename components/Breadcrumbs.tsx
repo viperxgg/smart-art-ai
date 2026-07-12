@@ -17,7 +17,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
   return (
     <div className="flex min-w-0 flex-wrap items-center justify-between gap-3">
       <nav aria-label="Brödsmulor" className="min-w-0">
-        <ol className="flex min-w-0 flex-wrap items-center gap-2 text-sm font-bold text-[#8a6d78]">
+        <ol className="flex min-w-0 flex-wrap items-center gap-2 text-sm font-bold text-ink-soft">
           {items.map((item, index) => {
             const isLast = index === items.length - 1;
 
@@ -29,13 +29,13 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
                 {index > 0 ? (
                   <ChevronRight
                     size={15}
-                    className="shrink-0 text-[#D8A7B1]"
+                    className="shrink-0 text-rose"
                     aria-hidden="true"
                   />
                 ) : null}
                 {isLast ? (
                   <span
-                    className="max-w-[12rem] truncate text-[#4B2838] sm:max-w-none"
+                    className="max-w-[12rem] truncate text-ink sm:max-w-none"
                     aria-current="page"
                   >
                     {item.name}
@@ -43,7 +43,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
                 ) : (
                   <Link
                     href={item.href}
-                    className="max-w-[9rem] truncate transition hover:text-[#B983A6] sm:max-w-none"
+                    className="max-w-[9rem] truncate transition hover:text-wine sm:max-w-none"
                   >
                     {item.name}
                   </Link>

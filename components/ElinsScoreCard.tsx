@@ -2,6 +2,8 @@ import Link from "next/link";
 
 import type { EditorialScore } from "@/lib/scores";
 import { getScoreTier, scoreWeights } from "@/lib/scores";
+import { ScoreCountUp } from "@/components/ScoreCountUp";
+import { ScoreBarFill } from "@/components/ScoreBarFill";
 
 type ElinsScoreCardProps = {
   score: EditorialScore;
@@ -36,12 +38,12 @@ export function ElinsScoreCard({ score, className = "" }: ElinsScoreCardProps) {
 
   return (
     <section
-      className={`rounded-[2rem] border border-[#F1D8DD] bg-white/76 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8 ${className}`}
+      className={`rounded-[2rem] border border-line bg-surface/85 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8 ${className}`}
       aria-labelledby="elins-poang-heading"
     >
       <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+          <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
             Elins poäng
           </p>
           <h2
@@ -53,10 +55,10 @@ export function ElinsScoreCard({ score, className = "" }: ElinsScoreCardProps) {
         </div>
         <Link
           href="/elins-poang"
-          className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#D8788D] to-[#EAA3AD] px-5 py-3 text-lg font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.22)] transition hover:-translate-y-0.5"
+          className="inline-flex items-center gap-2 rounded-full bg-wine px-5 py-3 text-lg font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition hover:-translate-y-0.5 hover:bg-wine/90"
         >
-          🎯 {score.total}/100
-          <span className="rounded-full bg-white/22 px-2 py-1 text-xs uppercase tracking-[0.12em]">
+          🎯 <ScoreCountUp value={score.total} />/100
+          <span className="rounded-full bg-bg/25 px-2 py-1 text-xs uppercase tracking-[0.12em]">
             {tier.label}
           </span>
         </Link>
@@ -65,36 +67,27 @@ export function ElinsScoreCard({ score, className = "" }: ElinsScoreCardProps) {
       <div className="mt-6 grid gap-4">
         {scoreRows.map((row) => {
           const value = score[row.key];
-          const width = `${Math.round((value / row.max) * 100)}%`;
 
           return (
             <div key={row.key}>
               <div className="flex items-baseline justify-between gap-4">
-                <p className="font-bold text-[#4B2838]">{row.label}</p>
-                <p className="shrink-0 text-sm font-black text-[#9E5E73]">
+                <p className="font-bold text-ink">{row.label}</p>
+                <p className="shrink-0 text-sm font-black text-wine">
                   {value}/{row.max}
                 </p>
               </div>
-              <div
-                className="mt-2 h-3 overflow-hidden rounded-full bg-[#F9E0E3]"
-                aria-hidden="true"
-              >
-                <div
-                  className="h-full rounded-full bg-gradient-to-r from-[#D8788D] to-[#EAA3AD]"
-                  style={{ width }}
-                />
-              </div>
+              <ScoreBarFill value={value} max={row.max} className="mt-2" />
             </div>
           );
         })}
       </div>
 
-      <p className="mt-6 rounded-2xl bg-[#FFF4F5] p-4 text-lg font-black leading-8 text-[#4B2838]">
-        🎯 Elins poäng: {score.total}/100 ({tier.label}) — “{score.verdict}”
+      <p className="mt-6 rounded-2xl bg-rose/8 p-4 text-lg font-black leading-8 text-ink">
+        🎯 Elins poäng: <ScoreCountUp value={score.total} />/100 ({tier.label}) — “{score.verdict}”
       </p>
 
-      <details className="mt-4 rounded-2xl border border-[#F1D8DD] bg-[#FFF9F7] p-4 text-sm leading-7 text-[#6f5a64]">
-        <summary className="cursor-pointer font-black text-[#9E5E73]">
+      <details className="mt-4 rounded-2xl border border-line bg-surface p-4 text-sm leading-7 text-ink-soft">
+        <summary className="cursor-pointer font-black text-wine">
           Så bedömer Elin
         </summary>
         <p className="mt-3">
@@ -105,7 +98,7 @@ export function ElinsScoreCard({ score, className = "" }: ElinsScoreCardProps) {
           {" "}
           <Link
             href="/elins-poang"
-            className="font-black text-[#9E5E73] underline underline-offset-4"
+            className="font-black text-wine underline underline-offset-4"
           >
             Läs hela metoden.
           </Link>

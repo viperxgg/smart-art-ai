@@ -26,7 +26,7 @@ export default function ElinsValPage() {
   return (
     <main
       id="content"
-      className="min-h-screen bg-[#FFF9F7] px-4 py-8 text-[#3E2F3A]"
+      className="min-h-screen bg-bg px-4 py-8 text-ink"
     >
       <JsonLd data={breadcrumbSchema} />
 
@@ -35,14 +35,14 @@ export default function ElinsValPage() {
           <Breadcrumbs items={breadcrumbItems} />
         </div>
 
-        <section className="rounded-[2.4rem] border border-[#F1D8DD] bg-white/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.12)] md:p-10">
-          <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+        <section className="rounded-[2.4rem] border border-line bg-surface/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.12)] md:p-10">
+          <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
             Elins urval
           </p>
           <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
             Produkter som fastnade.
           </h1>
-          <p className="mt-6 max-w-2xl text-xl leading-9 text-[#6f5a64]">
+          <p className="mt-6 max-w-2xl text-xl leading-9 text-ink-soft">
             Inte allt som syns i flödet. Bara produkter som är enkla att förstå,
             rimliga att använda och värda en närmare titt.
           </p>

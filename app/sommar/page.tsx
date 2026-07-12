@@ -43,7 +43,7 @@ export default function SommarPage() {
   return (
     <main
       id="content"
-      className="min-h-screen bg-[#FFF9F7] px-4 py-7 text-[#3E2F3A]"
+      className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
       <JsonLd data={buildBreadcrumbSchema(breadcrumbItems)} />
 
@@ -52,19 +52,19 @@ export default function SommarPage() {
           <Breadcrumbs items={breadcrumbItems} />
         </div>
 
-        <section className="overflow-hidden rounded-[2.4rem] border border-[#F1D8DD] bg-[#FFF4F5] shadow-[0_30px_90px_rgba(216,131,146,0.16)]">
+        <section className="overflow-hidden rounded-[2.4rem] border border-line bg-rose/8 shadow-[0_30px_90px_rgba(216,131,146,0.16)]">
           <div className="grid gap-6 p-6 md:p-9 lg:grid-cols-[0.98fr_1.02fr] lg:items-center">
             <div className="min-w-0">
-              <p className="inline-flex min-h-10 items-center rounded-full border border-[#E9CDD3] bg-white/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
+              <p className="inline-flex min-h-10 items-center rounded-full border border-line bg-surface/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-wine">
                 {sommarSectionCopy.eyebrow}
               </p>
               <h1 className="editorial-color-kiss mt-5 font-display text-5xl leading-[1.02] tracking-normal sm:text-7xl">
                 {sommarSectionCopy.title}
               </h1>
-              <p className="mt-5 max-w-3xl text-lg leading-8 text-[#6f5a64]">
+              <p className="mt-5 max-w-3xl text-lg leading-8 text-ink-soft">
                 {sommarSectionCopy.intro}
               </p>
-              <p className="mt-5 rounded-3xl border border-[#F1D8DD] bg-white/70 p-4 text-sm leading-7 text-[#6f5a64]">
+              <p className="mt-5 rounded-3xl border border-line bg-surface/70 p-4 text-sm leading-7 text-ink-soft">
                 <strong>Annons</strong> · Den här sidan innehåller reklamlänkar.
                 Om du handlar via våra länkar kan vi få en provision - utan extra
                 kostnad för dig.
@@ -79,9 +79,9 @@ export default function SommarPage() {
                   <Link
                     key={pick.productSlug}
                     href={pick.href}
-                    className="group flex min-h-28 items-center gap-4 rounded-[1.6rem] border border-[#F1D8DD] bg-white/72 p-3 shadow-[0_18px_54px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-white"
+                    className="group flex min-h-28 items-center gap-4 rounded-[1.6rem] border border-line bg-surface/72 p-3 shadow-[0_18px_54px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-surface"
                   >
-                    <span className="relative h-20 w-20 shrink-0 overflow-hidden rounded-[1.1rem] bg-[#FFF9F7]">
+                    <span className="relative h-20 w-20 shrink-0 overflow-hidden rounded-[1.1rem] bg-bg">
                       <Image
                         src={pick.cardImage}
                         alt={pick.cardImageAlt}
@@ -91,14 +91,14 @@ export default function SommarPage() {
                       />
                     </span>
                     <span className="min-w-0">
-                      <span className="block text-xs font-black uppercase tracking-[0.12em] text-[#D8788D]">
+                      <span className="block text-xs font-black uppercase tracking-[0.12em] text-rose">
                         {pick.cardBadge}
                       </span>
-                      <span className="mt-1 block font-display text-xl leading-tight text-[#5f4a54]">
+                      <span className="mt-1 block font-display text-xl leading-tight text-ink">
                         {pick.product.brand}
                       </span>
                       {score ? (
-                        <span className="mt-2 block text-sm font-black text-[#9E5E73]">
+                        <span className="mt-2 block text-sm font-black text-wine">
                           {score.total}/100
                         </span>
                       ) : null}
@@ -112,27 +112,27 @@ export default function SommarPage() {
 
         <Link
           href="/sommar/resa"
-          className="mt-6 flex items-center justify-between gap-4 rounded-[1.8rem] border border-[#F1D8DD] bg-white/72 p-5 shadow-[0_18px_54px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-white"
+          className="mt-6 flex items-center justify-between gap-4 rounded-[1.8rem] border border-line bg-surface/72 p-5 shadow-[0_18px_54px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-surface"
         >
           <span className="min-w-0">
-            <span className="block text-xs font-black uppercase tracking-[0.14em] text-[#D8788D]">
+            <span className="block text-xs font-black uppercase tracking-[0.14em] text-rose">
               Reser du i sommar?
             </span>
-            <span className="mt-1 block font-display text-2xl leading-tight text-[#5f4a54]">
+            <span className="mt-1 block font-display text-2xl leading-tight text-ink">
               Elins reseval – smarta prylar för kabinväskan
             </span>
           </span>
           <ArrowUpRight
             size={22}
             aria-hidden="true"
-            className="shrink-0 text-[#d97d91]"
+            className="shrink-0 text-rose"
           />
         </Link>
 
         <section className="mt-8" aria-labelledby="sommar-grid-title">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
+              <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
                 Utvalda sommarfavoriter
               </p>
               <h2
@@ -142,7 +142,7 @@ export default function SommarPage() {
                 Glow, vård och smarta säsongsval
               </h2>
             </div>
-            <span className="inline-flex min-h-10 w-fit items-center rounded-full border border-[#E9CDD3] bg-white/70 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
+            <span className="inline-flex min-h-10 w-fit items-center rounded-full border border-line bg-surface/70 px-4 text-xs font-black uppercase tracking-[0.14em] text-wine">
               Annons
             </span>
           </div>
@@ -154,11 +154,11 @@ export default function SommarPage() {
               return (
                 <article
                   key={pick.productSlug}
-                  className="overflow-hidden rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-3 shadow-[0_24px_70px_rgba(185,131,166,0.12)]"
+                  className="overflow-hidden rounded-[2rem] border border-line bg-surface/72 p-3 shadow-[0_24px_70px_rgba(185,131,166,0.12)]"
                 >
                   <Link
                     href={pick.href}
-                    className="relative block aspect-[4/3] overflow-hidden rounded-[1.55rem] bg-[#FFF4F5]"
+                    className="relative block aspect-[4/3] overflow-hidden rounded-[1.55rem] bg-rose/8"
                     aria-label={`Läs Elins omdöme om ${pick.product.title}`}
                   >
                     <Image
@@ -170,19 +170,19 @@ export default function SommarPage() {
                       priority={index === 0}
                       {...(index === 0 ? {} : { loading: "lazy" as const })}
                     />
-                    <span className="absolute left-3 top-3 rounded-full bg-white/90 px-3 py-1.5 text-xs font-black text-[#8c5260] shadow-[0_12px_32px_rgba(91,52,65,0.12)] backdrop-blur">
+                    <span className="absolute left-3 top-3 rounded-full bg-surface/90 px-3 py-1.5 text-xs font-black text-wine shadow-[0_12px_32px_rgba(91,52,65,0.12)] backdrop-blur">
                       {pick.cardBadge}
                     </span>
                   </Link>
 
                   <div className="p-3">
-                    <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                    <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
                       {pick.product.brand}
                     </p>
                     <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
                       <Link href={pick.href}>{pick.product.title}</Link>
                     </h3>
-                    <p className="mt-3 text-sm leading-6 text-[#7e6970]">
+                    <p className="mt-3 text-sm leading-6 text-ink-soft">
                       {pick.cardHook}
                     </p>
                     <div className="mt-4 flex flex-wrap gap-2">
@@ -193,7 +193,7 @@ export default function SommarPage() {
                     </div>
                     <Link
                       href={pick.href}
-                      className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#D8788D] px-5 text-sm font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.24)] transition hover:-translate-y-0.5"
+                      className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-wine px-5 text-sm font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition hover:-translate-y-0.5 hover:bg-wine/90"
                     >
                       Läs Elins omdöme
                       <ArrowUpRight size={17} aria-hidden="true" />
@@ -206,10 +206,10 @@ export default function SommarPage() {
         </section>
 
         <section className="mt-8" aria-labelledby="smart-sommarro-grid-title">
-          <div className="overflow-hidden rounded-[2.4rem] border border-[#F1D8DD] bg-[#FFF4F5] p-6 shadow-[0_30px_90px_rgba(216,131,146,0.16)] md:p-8">
+          <div className="overflow-hidden rounded-[2.4rem] border border-line bg-rose/8 p-6 shadow-[0_30px_90px_rgba(216,131,146,0.16)] md:p-8">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
               <div>
-                <p className="inline-flex min-h-10 items-center rounded-full border border-[#E9CDD3] bg-white/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
+                <p className="inline-flex min-h-10 items-center rounded-full border border-line bg-surface/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-wine">
                   {smartSommarSectionCopy.eyebrow}
                 </p>
                 <h2
@@ -218,11 +218,11 @@ export default function SommarPage() {
                 >
                   {smartSommarSectionCopy.title}
                 </h2>
-                <p className="mt-4 max-w-3xl text-lg leading-8 text-[#6f5a64]">
+                <p className="mt-4 max-w-3xl text-lg leading-8 text-ink-soft">
                   {smartSommarSectionCopy.intro}
                 </p>
               </div>
-              <span className="inline-flex min-h-10 w-fit items-center rounded-full border border-[#E9CDD3] bg-white/70 px-4 text-xs font-black uppercase tracking-[0.14em] text-[#B983A6]">
+              <span className="inline-flex min-h-10 w-fit items-center rounded-full border border-line bg-surface/70 px-4 text-xs font-black uppercase tracking-[0.14em] text-wine">
                 Annons
               </span>
             </div>
@@ -234,11 +234,11 @@ export default function SommarPage() {
                 return (
                   <article
                     key={pick.productSlug}
-                    className="overflow-hidden rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-3 shadow-[0_24px_70px_rgba(185,131,166,0.12)]"
+                    className="overflow-hidden rounded-[2rem] border border-line bg-surface/72 p-3 shadow-[0_24px_70px_rgba(185,131,166,0.12)]"
                   >
                     <Link
                       href={pick.href}
-                      className="relative block aspect-[4/3] overflow-hidden rounded-[1.55rem] bg-[#FFF4F5]"
+                      className="relative block aspect-[4/3] overflow-hidden rounded-[1.55rem] bg-rose/8"
                       aria-label={`Läs Elins omdöme om ${pick.product.title}`}
                     >
                       <Image
@@ -249,19 +249,19 @@ export default function SommarPage() {
                         className="object-cover"
                         loading={index === 0 ? "eager" : "lazy"}
                       />
-                      <span className="absolute left-3 top-3 rounded-full bg-white/90 px-3 py-1.5 text-xs font-black text-[#8c5260] shadow-[0_12px_32px_rgba(91,52,65,0.12)] backdrop-blur">
+                      <span className="absolute left-3 top-3 rounded-full bg-surface/90 px-3 py-1.5 text-xs font-black text-wine shadow-[0_12px_32px_rgba(91,52,65,0.12)] backdrop-blur">
                         {pick.cardBadge}
                       </span>
                     </Link>
 
                     <div className="p-3">
-                      <p className="text-xs font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                      <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
                         {pick.product.brand}
                       </p>
                       <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
                         <Link href={pick.href}>{pick.product.title}</Link>
                       </h3>
-                      <p className="mt-3 text-sm leading-6 text-[#7e6970]">
+                      <p className="mt-3 text-sm leading-6 text-ink-soft">
                         {pick.cardHook}
                       </p>
                       <div className="mt-4 flex flex-wrap gap-2">
@@ -272,7 +272,7 @@ export default function SommarPage() {
                       </div>
                       <Link
                         href={pick.href}
-                        className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#D8788D] px-5 text-sm font-black text-white shadow-[0_18px_42px_rgba(216,120,141,0.24)] transition hover:-translate-y-0.5"
+                        className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-wine px-5 text-sm font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition hover:-translate-y-0.5 hover:bg-wine/90"
                       >
                         Läs Elins omdöme
                         <ArrowUpRight size={17} aria-hidden="true" />
@@ -286,7 +286,7 @@ export default function SommarPage() {
         </section>
 
         <section
-          className="mt-8 rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8"
+          className="mt-8 rounded-[2rem] border border-line bg-surface/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8"
           aria-labelledby="sommar-fan-links-title"
         >
           <h2
@@ -300,14 +300,14 @@ export default function SommarPage() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="group flex min-h-20 items-center justify-between gap-4 rounded-3xl bg-[#FFF4F5] p-5 transition hover:-translate-y-0.5 hover:bg-[#F9E0E3]"
+                className="group flex min-h-20 items-center justify-between gap-4 rounded-3xl bg-rose/8 p-5 transition hover:-translate-y-0.5 hover:bg-rose/15"
               >
-                <span className="font-display text-[1.35rem] font-black leading-tight text-[#5f4a54]">
+                <span className="font-display text-[1.35rem] font-black leading-tight text-ink">
                   {link.label}
                 </span>
                 <ArrowUpRight
                   size={20}
-                  className="shrink-0 text-[#B983A6] transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  className="shrink-0 text-wine transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                   aria-hidden="true"
                 />
               </Link>
@@ -315,12 +315,12 @@ export default function SommarPage() {
           </div>
         </section>
 
-        <section className="mt-8 rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-          <Sparkles className="text-[#B983A6]" size={24} aria-hidden="true" />
+        <section className="mt-8 rounded-[2rem] border border-line bg-surface/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+          <Sparkles className="text-wine" size={24} aria-hidden="true" />
           <h2 className="editorial-color-kiss mt-3 font-display text-3xl">
             Så väljer Elin
           </h2>
-          <p className="mt-4 max-w-4xl leading-8 text-[#6f5a64]">
+          <p className="mt-4 max-w-4xl leading-8 text-ink-soft">
             Elin går igenom produktdata, Amazon-köpares signaler och vad
             produkten faktiskt verkar lösa inför säsongen. Poängen är en
             redaktionell bedömning - inte ett testlabb och inte ett löfte om att

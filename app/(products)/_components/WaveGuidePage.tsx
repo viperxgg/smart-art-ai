@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -91,7 +92,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
   return (
     <main
       id="content"
-      className="min-h-screen bg-[#FFF9F7] px-4 py-7 text-[#3E2F3A]"
+      className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
       <JsonLd data={faqSchema} />
       <JsonLd data={buildBreadcrumbSchema(breadcrumbItems)} />
@@ -103,18 +104,18 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
         <header className="flex items-center justify-between gap-4">
           <Link
             href={categoryHref}
-            className="inline-flex min-h-11 items-center gap-2 rounded-full text-sm font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+            className="inline-flex min-h-11 items-center gap-2 rounded-full text-sm font-bold text-ink-soft transition hover:text-wine"
           >
             <ArrowLeft size={18} aria-hidden="true" />
             Tillbaka till {categoryLabel.toLowerCase()}
           </Link>
-          <p className="rounded-full border border-[#E9CDD3] bg-white/70 px-4 py-2 text-xs font-black uppercase text-[#B983A6]">
+          <p className="rounded-full border border-line bg-surface/70 px-4 py-2 text-xs font-black uppercase text-wine">
             {guide.label}
           </p>
         </header>
 
-        <section className="mt-9 overflow-hidden rounded-[2.4rem] border border-[#F1D8DD] bg-white/72 p-7 shadow-[0_30px_90px_rgba(185,131,166,0.12)] md:p-10">
-          <p className="inline-flex min-h-11 items-center gap-2 rounded-full border border-[#E9CDD3] bg-[#FFF4F5] px-5 text-sm font-black text-[#9E5E73]">
+        <section className="mt-10 overflow-hidden rounded-[2.4rem] border border-line bg-surface/72 p-7 shadow-[0_30px_90px_rgba(185,131,166,0.12)] md:p-10">
+          <p className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-rose/8 px-5 text-sm font-black text-wine">
             <Sparkles size={18} aria-hidden="true" />
             Elins guide 2026
           </p>
@@ -122,34 +123,34 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
             {guide.title}
           </h1>
           <ProductBadges badges={guide.badges} className="mt-6" />
-          <p className="mt-6 max-w-3xl text-xl leading-9 text-[#6f5a64]">
+          <p className="mt-6 max-w-3xl text-xl leading-9 text-ink-soft">
             {guide.intro}
           </p>
-          <p className="mt-6 rounded-3xl border border-[#F1D8DD] bg-[#FFF4F5] p-4 text-sm leading-7 text-[#6f5a64]">
+          <p className="mt-6 rounded-3xl border border-line bg-rose/8 p-4 text-sm leading-7 text-ink-soft">
             <strong>Annons</strong> · Produktsidorna innehåller reklamlänkar.
             Om du handlar via våra länkar kan vi få en provision, utan extra
             kostnad för dig.
           </p>
         </section>
 
-        <section className="mt-8 rounded-[2rem] border border-[#F1D8DD] bg-white/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+        <section className="reveal-fade mt-10 rounded-[2rem] border border-line bg-surface/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <div className="flex items-start gap-4">
-            <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-[#F9E0E3] text-[#B983A6]">
+            <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-rose/15 text-wine">
               <CheckCircle2 size={24} aria-hidden="true" />
             </span>
             <div>
               <h2 className="editorial-color-kiss font-display text-4xl">
                 {guide.choiceTitle}
               </h2>
-              <p className="mt-4 max-w-3xl text-lg leading-8 text-[#6f5a64]">
+              <p className="mt-4 max-w-3xl text-lg leading-8 text-ink-soft">
                 {guide.choiceText}
               </p>
             </div>
           </div>
         </section>
 
-        <section className="mt-8 grid gap-6 md:grid-cols-2">
-          {products.map((product) => {
+        <section className="mt-10 grid gap-6 md:grid-cols-2">
+          {products.map((product, index) => {
             if (!product) {
               return null;
             }
@@ -160,9 +161,10 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
               <Link
                 key={product.slug}
                 href={getProductPageHref(product)}
-                className="group overflow-hidden rounded-[2.2rem] border border-[#F1D8DD] bg-white/72 shadow-[0_28px_90px_rgba(185,131,166,0.1)] transition hover:-translate-y-1"
+                className="reveal-fade group overflow-hidden rounded-[2.2rem] border border-line bg-surface/72 shadow-[0_28px_90px_rgba(185,131,166,0.1)] transition hover:-translate-y-1"
+                style={{ "--i": index } as CSSProperties}
               >
-                <div className="relative aspect-[4/3] bg-[#FFF4F5]">
+                <div className="relative aspect-[4/3] bg-rose/8">
                   <Image
                     src={product.image}
                     alt={product.imageAlt}
@@ -170,25 +172,27 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
                     sizes="(max-width: 768px) 92vw, 470px"
                     className="object-cover transition duration-500 group-hover:scale-[1.025]"
                   />
-                  <span className="absolute left-5 top-5 rounded-full bg-[#c8919b]/90 px-4 py-2 text-sm font-black text-white backdrop-blur">
+                  <span className="absolute left-5 top-5 rounded-full bg-wine/90 px-4 py-2 text-sm font-black text-bg backdrop-blur">
                     {guide.pickBadges?.[product.slug] ?? product.brand}
                   </span>
                 </div>
                 <div className="p-6">
-                  <p className="text-xs font-black uppercase text-[#D8788D]">
+                  <p className="text-xs font-black uppercase text-rose">
                     {product.brand}
                   </p>
                   <h2 className="editorial-color-kiss mt-3 font-display text-3xl leading-tight">
                     {product.title}
                   </h2>
-                  <p className="mt-4 leading-8 text-[#6f5a64]">
+                  <p className="mt-4 leading-8 text-ink-soft">
                     {product.summary}
                   </p>
-                  {score ? <ScoreBadge score={score} className="mt-5" /> : null}
+                  {score ? (
+                    <ScoreBadge score={score} className="mt-5" as="span" />
+                  ) : null}
                   <div className="mt-3">
                     <PriceTierBadge product={product} showContext />
                   </div>
-                  <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-[#D8A7B1] px-5 font-black text-white">
+                  <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-wine px-5 font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition group-hover:bg-wine/90">
                     Läs Elins koll
                     <ArrowUpRight size={18} aria-hidden="true" />
                   </span>
@@ -199,7 +203,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
         </section>
 
         {guide.rows.length ? (
-          <section className="mt-10 overflow-hidden rounded-[2rem] border border-[#F1D8DD] bg-white/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
+          <section className="reveal-fade mt-12 overflow-hidden rounded-[2rem] border border-line bg-surface/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
             <div className="p-6 md:p-8">
               <h2 className="editorial-color-kiss font-display text-4xl">
                 Snabb jämförelse
@@ -208,15 +212,15 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
             <div className="overflow-x-auto">
               <table className="w-full min-w-[44rem] border-collapse text-left">
                 <thead>
-                  <tr className="border-y border-[#F1D8DD] bg-[#FFF4F5]">
-                    <th className="px-6 py-4 text-sm font-black uppercase text-[#9E5E73]">
+                  <tr className="border-y border-line bg-rose/8">
+                    <th className="px-6 py-4 text-sm font-black uppercase text-wine">
                       Punkt
                     </th>
                     {products.map((product) =>
                       product ? (
                         <th
                           key={product.slug}
-                          className="px-6 py-4 text-sm font-black uppercase text-[#9E5E73]"
+                          className="px-6 py-4 text-sm font-black uppercase text-wine"
                         >
                           {product.brand}
                         </th>
@@ -226,14 +230,14 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
                 </thead>
                 <tbody>
                   {guide.rows.map((row) => (
-                    <tr key={row.label} className="border-b border-[#F1D8DD]">
-                      <th className="px-6 py-5 font-black text-[#4B2838]">
+                    <tr key={row.label} className="border-b border-line">
+                      <th className="px-6 py-5 font-black text-ink">
                         {row.label}
                       </th>
                       {row.values.map((value, index) => (
                         <td
                           key={`${row.label}-${index}`}
-                          className="px-6 py-5 leading-7 text-[#6f5a64]"
+                          className="px-6 py-5 leading-7 text-ink-soft"
                         >
                           {value}
                         </td>
@@ -246,17 +250,17 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
           </section>
         ) : null}
 
-        <section className="mt-10 rounded-[2rem] border border-[#F1D8DD] bg-[#F9E9E9]/82 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
+        <section className="reveal-fade mt-12 rounded-[2rem] border border-line bg-rose/10 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <h2 className="editorial-color-kiss font-display text-4xl">
             Elins korta dom
           </h2>
-          <p className="mt-4 max-w-4xl text-lg leading-8 text-[#6f5a64]">
+          <p className="mt-4 max-w-4xl text-lg leading-8 text-ink-soft">
             {guide.verdict}
           </p>
         </section>
 
         {guide.faqItems.length ? (
-          <section className="mt-10 rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+          <section className="reveal-fade mt-12 rounded-[2rem] border border-line bg-surface/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
             <h2 className="editorial-color-kiss font-display text-4xl">
               Vanliga frågor
             </h2>
@@ -264,12 +268,12 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
               {guide.faqItems.map((item) => (
                 <details
                   key={item.question}
-                  className="rounded-2xl bg-[#FFF4F5] p-5"
+                  className="rounded-2xl bg-rose/8 p-5"
                 >
-                  <summary className="cursor-pointer font-black text-[#4B2838]">
+                  <summary className="cursor-pointer font-black text-ink">
                     {item.question}
                   </summary>
-                  <p className="mt-3 leading-7 text-[#6f5a64]">
+                  <p className="mt-3 leading-7 text-ink-soft">
                     {item.answer}
                   </p>
                 </details>

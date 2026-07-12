@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
@@ -169,7 +170,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
   return (
     <main
       id="content"
-      className="min-h-screen max-w-full overflow-hidden bg-[#FFF9F7] px-4 py-7 text-[#3E2F3A]"
+      className="min-h-screen max-w-full overflow-hidden bg-bg px-4 py-7 text-ink"
     >
       <JsonLd data={productSchema} />
       <JsonLd data={breadcrumbSchema} />
@@ -180,7 +181,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <header className="flex min-w-0 items-center justify-between gap-3">
           <Link
             href="/"
-            className="inline-flex min-h-11 min-w-0 items-center gap-2 rounded-full px-1 text-sm font-semibold text-[#6b4755] transition hover:text-[#B983A6]"
+            className="inline-flex min-h-11 min-w-0 items-center gap-2 rounded-full px-1 text-sm font-semibold text-ink-soft transition hover:text-wine"
           >
             <ArrowLeft size={18} aria-hidden="true" />
             <span className="truncate">Tillbaka till Elins val</span>
@@ -190,11 +191,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <SaveProductButton
               productSlug={product.slug}
               productTitle={product.title}
-              className="grid min-h-10 min-w-10 place-items-center rounded-full border border-[#E9CDD3] bg-white/62 text-[#6b4755] shadow-[0_14px_36px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-white sm:min-h-12 sm:min-w-12"
+              className="grid min-h-10 min-w-10 place-items-center rounded-full border border-line bg-surface/62 text-ink-soft shadow-[0_14px_36px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-surface sm:min-h-12 sm:min-w-12"
             />
             <button
               type="button"
-              className="grid min-h-10 min-w-10 place-items-center rounded-full border border-[#E9CDD3] bg-white/62 text-[#6b4755] shadow-[0_14px_36px_rgba(185,131,166,0.12)] sm:min-h-12 sm:min-w-12"
+              className="grid min-h-10 min-w-10 place-items-center rounded-full border border-line bg-surface/62 text-ink-soft shadow-[0_14px_36px_rgba(185,131,166,0.12)] sm:min-h-12 sm:min-w-12"
               aria-label="Dela produkten"
             >
               <Share2 size={20} aria-hidden="true" />
@@ -202,31 +203,31 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </div>
         </header>
 
-        <section className="mt-7 grid min-w-0 gap-6 lg:grid-cols-[1.04fr_0.96fr] lg:items-stretch">
-          <div className="overflow-hidden rounded-[2rem] border border-[#E9CDD3] bg-[#F6F0EC] shadow-[0_30px_90px_rgba(185,131,166,0.14)]">
+        <section className="mt-8 grid min-w-0 gap-6 lg:grid-cols-[1.04fr_0.96fr] lg:items-stretch">
+          <div className="overflow-hidden rounded-[2rem] border border-line bg-surface shadow-[0_30px_90px_rgba(185,131,166,0.14)]">
             <ProductImageGallery images={galleryImages} />
           </div>
 
-          <article className="min-w-0 rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_30px_90px_rgba(185,131,166,0.1)] backdrop-blur md:p-10">
-            <p className="text-sm font-black uppercase tracking-[0.12em] text-[#D8788D]">
+          <article className="min-w-0 rounded-[2rem] border border-line bg-surface/72 p-6 shadow-[0_30px_90px_rgba(185,131,166,0.1)] backdrop-blur md:p-10">
+            <p className="text-sm font-black uppercase tracking-[0.12em] text-rose">
               Elins produktkoll
             </p>
             <h1 className="editorial-color-kiss mt-4 break-words font-display text-[2.45rem] leading-[1.04] tracking-[-0.025em] md:text-[4rem] md:tracking-[-0.035em]">
               {product.title}
             </h1>
-            <p className="mt-5 break-words text-lg leading-8 text-[#5f4a54] md:text-xl md:leading-9">
+            <p className="mt-5 break-words text-lg leading-8 text-ink md:text-xl md:leading-9">
               {product.summary}
             </p>
 
             <div className="mt-7 flex flex-wrap gap-3">
-              <span className="rounded-full bg-[#F6F0EC] px-5 py-3 text-sm font-bold text-[#6b4755]">
+              <span className="rounded-full bg-surface px-5 py-3 text-sm font-bold text-ink-soft">
                 ASIN {product.asin}
               </span>
-              <span className="rounded-full bg-[#F6F0EC] px-5 py-3 text-sm font-bold text-[#6b4755]">
+              <span className="rounded-full bg-surface px-5 py-3 text-sm font-bold text-ink-soft">
                 Se aktuellt pris på Amazon
               </span>
               <PriceTierBadge product={product} />
-              <span className="rounded-full bg-[#F6F0EC] px-5 py-3 text-sm font-bold text-[#6b4755]">
+              <span className="rounded-full bg-surface px-5 py-3 text-sm font-bold text-ink-soft">
                 Amazon.se
               </span>
             </div>
@@ -235,36 +236,39 @@ export default async function ProductPage({ params }: ProductPageProps) {
               href={product.amazonUrl}
               target="_blank"
               rel="sponsored nofollow noopener noreferrer"
-              className="mt-8 inline-flex min-h-16 w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#D8788D] to-[#EAA3AD] px-6 text-lg font-black text-white shadow-[0_20px_48px_rgba(216,120,141,0.28)] transition hover:-translate-y-0.5"
+              className="mt-8 inline-flex min-h-16 w-full items-center justify-center gap-3 rounded-full bg-wine px-6 text-lg font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition hover:-translate-y-0.5 hover:bg-wine/90"
             >
               Se på Amazon
               <ArrowUpRight size={21} aria-hidden="true" />
             </a>
-            <p className="mt-3 text-center text-xs font-semibold leading-5 text-[#8a6e78]">
+            <p className="mt-3 text-center text-xs font-semibold leading-5 text-ink-soft">
               Annons · Den här sidan innehåller reklamlänkar. Vi kan få
               ersättning om du köper via länken.
             </p>
           </article>
         </section>
 
-        <section className="mt-6 min-w-0 rounded-[2rem] border border-[#F1D8DD] bg-[#F9E9E9]/82 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
+        <section className="reveal-fade mt-7 min-w-0 rounded-[2rem] border border-line bg-rose/10 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <div className="grid gap-5 md:grid-cols-[auto_1fr] md:items-center">
-            <div className="grid h-24 w-24 place-items-center rounded-full bg-white/65 text-5xl shadow-[0_18px_42px_rgba(185,131,166,0.12)]">
-              👩🏻
+            <div className="relative grid h-24 w-24 shrink-0 place-items-center rounded-full bg-gradient-signature shadow-[0_18px_42px_rgba(185,131,166,0.12)]">
+              <span className="absolute inset-[3px] rounded-full bg-bg" />
+              <span className="relative font-display text-4xl font-black text-ink">
+                E
+              </span>
             </div>
             <div>
-              <p className="font-display text-2xl italic text-[#7b4656]">
+              <p className="font-display text-2xl italic text-wine">
                 Elins redaktionella tanke:
               </p>
-              <blockquote className="mt-3 break-words text-[1.65rem] font-black leading-snug text-[#3E2F3A] md:text-3xl">
+              <blockquote className="mt-3 break-words text-[1.65rem] font-black leading-snug text-ink md:text-3xl">
                 {story.elinThought}
               </blockquote>
             </div>
           </div>
         </section>
 
-        <section className="mt-6 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
-          <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+        <section className="mt-7 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
+          <article className="reveal-fade rounded-[2rem] border border-line bg-surface/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
             <h2 className="editorial-color-kiss font-display text-3xl leading-tight">
               Varför den hamnade på Elins lista
             </h2>
@@ -274,13 +278,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
                 return (
                   <div key={reason.label} className="text-center">
-                    <div className="mx-auto grid h-16 w-16 place-items-center rounded-full bg-[#F9E0E3] text-[#9E5E73]">
+                    <div className="mx-auto grid h-16 w-16 place-items-center rounded-full bg-rose/15 text-wine">
                       <Icon size={26} aria-hidden="true" />
                     </div>
-                    <h3 className="mt-4 font-black text-[#4B2838]">
+                    <h3 className="mt-4 font-black text-ink">
                       {reason.label}
                     </h3>
-                    <p className="mt-2 text-sm leading-6 text-[#6f5a64]">
+                    <p className="mt-2 text-sm leading-6 text-ink-soft">
                       {reason.text}
                     </p>
                   </div>
@@ -289,7 +293,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
             </div>
           </article>
 
-          <article className="rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+          <article
+            className="reveal-fade rounded-[2rem] border border-line bg-surface/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8"
+            style={{ "--i": 1 } as CSSProperties}
+          >
             <h2 className="editorial-color-kiss font-display text-3xl leading-tight">
               När passar den?
             </h2>
@@ -300,9 +307,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 return (
                   <div
                     key={moment.label}
-                    className="flex min-h-14 items-center gap-4 rounded-2xl bg-[#FFF4F5] px-4 text-[#5f4a54]"
+                    className="flex min-h-14 items-center gap-4 rounded-2xl bg-rose/8 px-4 text-ink"
                   >
-                    <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#F9DDE2] text-[#B983A6]">
+                    <span className="grid h-10 w-10 place-items-center rounded-xl bg-rose/15 text-wine">
                       <Icon size={20} aria-hidden="true" />
                     </span>
                     <span className="font-bold">{moment.label}</span>
@@ -313,7 +320,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </article>
         </section>
 
-        <section className="mt-6 rounded-[2rem] border border-[#F1D8DD] bg-white/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+        <section className="reveal-fade mt-7 rounded-[2rem] border border-line bg-surface/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <h2 className="editorial-color-kiss font-display text-3xl leading-tight">
             Inte perfekt, men bra att veta
           </h2>
@@ -321,10 +328,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
             {story.cautions.map((caution) => (
               <div
                 key={caution}
-                className="flex min-h-14 items-center gap-4 rounded-2xl bg-[#FFF4F5] px-4 text-[#5f4a54]"
+                className="flex min-h-14 items-center gap-4 rounded-2xl bg-rose/8 px-4 text-ink"
               >
                 <TriangleAlert
-                  className="shrink-0 text-[#D8788D]"
+                  className="shrink-0 text-rose"
                   size={22}
                   aria-hidden="true"
                 />
@@ -334,7 +341,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </div>
         </section>
 
-        <section className="mt-6">
+        <section className="mt-7">
           <TrustReviewLayers
             amazonSummary={product.amazonReviewSignal.ratingSummary}
             ratingCheckedAt={product.amazonReviewSignal.ratingCheckedAt}
@@ -343,7 +350,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           />
         </section>
 
-        <section className="mt-6">
+        <section className="mt-7">
           <ProductComments
             product={product}
             reviews={approvedReviews}

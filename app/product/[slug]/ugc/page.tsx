@@ -62,18 +62,18 @@ export default async function ProductUgcPage({ params }: ProductUgcPageProps) {
   }
 
   return (
-    <main id="content" className="app-stage min-h-screen px-4 py-8 text-white">
+    <main id="content" className="app-stage min-h-screen px-4 py-8 text-ink">
       <div className="mx-auto w-full max-w-6xl">
         <Link
           href={`/product/${product.slug}`}
-          className="inline-flex min-h-11 items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 text-sm font-black backdrop-blur"
+          className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-surface/70 px-4 text-sm font-black backdrop-blur"
         >
           <ArrowLeft size={17} aria-hidden="true" />
           Tillbaka till produkten
         </Link>
 
         <section className="ugc-page-card mt-8">
-          <p className="inline-flex min-h-10 items-center gap-2 rounded-full bg-white/10 px-4 text-sm font-black text-[#ff7ab8]">
+          <p className="inline-flex min-h-10 items-center gap-2 rounded-full bg-surface/70 px-4 text-sm font-black text-rose">
             <PlayCircle size={17} aria-hidden="true" />
             UGC-klipp
           </p>
@@ -82,7 +82,7 @@ export default async function ProductUgcPage({ params }: ProductUgcPageProps) {
               <h1 className="text-4xl font-black leading-[1.02] md:text-6xl">
                 Se produkten i vardagen.
               </h1>
-              <p className="mt-4 max-w-2xl text-lg leading-8 text-white/68">
+              <p className="mt-4 max-w-2xl text-lg leading-8 text-ink-soft">
                 Korta klipp som visar hur {product.title.toLowerCase()} kan
                 användas i praktiken. Enkel vy för mobilen, utan extra steg.
               </p>
@@ -126,16 +126,16 @@ export default async function ProductUgcPage({ params }: ProductUgcPageProps) {
                   </video>
                 </div>
                 <div className="mt-4">
-                  <p className="text-xs font-black uppercase text-[#ff7ab8]">
+                  <p className="text-xs font-black uppercase text-rose">
                     Klipp {index + 1}
                   </p>
-                  <h2 className="mt-1 text-2xl font-black leading-tight text-white">
+                  <h2 className="mt-1 text-2xl font-black leading-tight text-ink">
                     {video.title}
                   </h2>
-                  <p className="mt-2 text-sm font-black leading-6 text-white/80">
+                  <p className="mt-2 text-sm font-black leading-6 text-ink-soft">
                     {video.hook}
                   </p>
-                  <p className="mt-2 text-sm leading-6 text-white/60">
+                  <p className="mt-2 text-sm leading-6 text-ink-soft">
                     {video.note}
                   </p>
                 </div>
@@ -144,13 +144,13 @@ export default async function ProductUgcPage({ params }: ProductUgcPageProps) {
           </section>
         ) : (
           <section className="ugc-video-card mt-6">
-            <p className="text-xs font-black uppercase text-[#ff7ab8]">
+            <p className="text-xs font-black uppercase text-rose">
               Kommer snart
             </p>
-            <h2 className="mt-2 text-3xl font-black leading-tight text-white">
+            <h2 className="mt-2 text-3xl font-black leading-tight text-ink">
               UGC-klipp läggs till när videorna är klara.
             </h2>
-            <p className="mt-3 max-w-2xl leading-7 text-white/65">
+            <p className="mt-3 max-w-2xl leading-7 text-ink-soft">
               Produkten är upplagd först, så videodelen kan fyllas på med riktiga
               användarklipp utan att ändra sidans struktur.
             </p>

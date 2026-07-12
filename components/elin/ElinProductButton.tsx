@@ -17,7 +17,7 @@ export function ElinProductButton({ product, className = "" }: ElinProductButton
     <button
       type="button"
       onClick={() => openElin(product)}
-      className={`inline-flex min-h-13 w-full items-center justify-center gap-2 rounded-full border border-[#E1A5B0] bg-white/82 px-5 text-sm font-black text-[#7b4656] shadow-[0_16px_42px_rgba(185,131,166,0.14)] transition hover:-translate-y-0.5 hover:bg-[#FFF4F5] sm:w-auto ${className}`}
+      className={`inline-flex min-h-13 w-full items-center justify-center gap-2 rounded-full border border-rose/45 bg-surface/82 px-5 text-sm font-black text-wine shadow-[0_16px_42px_rgba(185,131,166,0.14)] transition hover:-translate-y-0.5 hover:bg-rose/8 sm:w-auto ${className}`}
     >
       <MessageCircle className="size-5" aria-hidden="true" />
       Fråga Elin om denna

@@ -52,19 +52,19 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
   }
 
   return (
-    <main className="app-stage min-h-screen px-4 py-8 text-white">
+    <main className="app-stage min-h-screen px-4 py-8 text-ink">
       <div className="mx-auto w-full max-w-5xl">
         <Link
           href="/"
-          className="inline-flex min-h-11 items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 text-sm font-black backdrop-blur"
+          className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-surface/70 px-4 text-sm font-black backdrop-blur"
         >
           <ArrowLeft size={17} aria-hidden="true" />
           Tillbaka till Elins val
         </Link>
 
         <section className="mt-8 grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-          <div className="rounded-[2rem] border border-white/10 bg-white/8 p-4 backdrop-blur-xl">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-[1.4rem] bg-white/10">
+          <div className="rounded-[2rem] border border-line bg-surface/72 p-4 backdrop-blur-xl">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-[1.4rem] bg-surface/70">
               <Image
                 src={product.image}
                 alt={product.imageAlt}
@@ -75,13 +75,13 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
               />
             </div>
             <div className="mt-5">
-              <p className="text-xs font-black uppercase text-[#ff7ab8]">
+              <p className="text-xs font-black uppercase text-rose">
                 Ärlig kommentar
               </p>
               <h1 className="mt-2 text-3xl font-black leading-tight">
                 {product.title}
               </h1>
-              <p className="mt-3 leading-7 text-white/65">
+              <p className="mt-3 leading-7 text-ink-soft">
                 Skriv gärna om du faktiskt har testat produkten, eller om du har
                 en konkret fråga efter att ha läst Elins produktkoll. Alla
                 recensioner granskas manuellt innan publicering.
@@ -89,13 +89,13 @@ export default async function ReviewPage({ params }: ReviewPageProps) {
             </div>
           </div>
 
-          <div className="rounded-[2rem] border border-white/10 bg-[#161016]/78 p-5 shadow-[0_30px_80px_rgba(0,0,0,0.28)] backdrop-blur-xl md:p-7">
-            <div className="mb-6 rounded-2xl border border-[#47e6a8]/25 bg-[#47e6a8]/10 p-4">
+          <div className="rounded-[2rem] border border-line bg-surface/78 p-5 shadow-[0_30px_80px_rgba(0,0,0,0.28)] backdrop-blur-xl md:p-7">
+            <div className="mb-6 rounded-2xl border border-mint/25 bg-mint/10 p-4">
               <div className="flex items-start gap-3">
-                <ShieldCheck className="mt-1 text-[#47e6a8]" size={22} />
+                <ShieldCheck className="mt-1 text-mint" size={22} />
                 <div>
                   <h2 className="font-black">Vårt löfte</h2>
-                  <p className="mt-1 text-sm leading-6 text-white/65">
+                  <p className="mt-1 text-sm leading-6 text-ink-soft">
                     Vi vill lyfta verkliga åsikter: vad som var bra, vad som var
                     mindre bra och vem produkten faktiskt passar för.
                   </p>

@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import { MotionConfig } from "framer-motion";
 
 import { BottomNav } from "@/components/BottomNav";
 import { ElinProvider } from "@/components/elin/ElinProvider";
+import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { defaultOgImage } from "@/lib/metadata";
@@ -84,15 +86,25 @@ export default function RootLayout({
   return (
     <html lang="sv" className={`${inter.variable} ${playfair.variable}`}>
       <body>
-        <a className="skip-link" href="#content">
-          Hoppa till innehåll
-        </a>
-        <ElinProvider>
-          <JsonLd data={websiteSchema} />
-          {children}
-          <SiteFooter />
-          <BottomNav />
-        </ElinProvider>
+        {/*
+          Site-wide framer-motion gate: reducedMotion="user" makes every
+          motion.* animation (count-up, bar fill, header entrance, …) collapse
+          to its end state whenever the OS/browser signals
+          prefers-reduced-motion. This is the one place that wires it up —
+          components don't each need to check it themselves.
+        */}
+        <MotionConfig reducedMotion="user">
+          <a className="skip-link" href="#content">
+            Hoppa till innehåll
+          </a>
+          <ElinProvider>
+            <Header />
+            <JsonLd data={websiteSchema} />
+            {children}
+            <SiteFooter />
+            <BottomNav />
+          </ElinProvider>
+        </MotionConfig>
       </body>
     </html>
   );

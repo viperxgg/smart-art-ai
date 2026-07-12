@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
@@ -19,9 +20,9 @@ export function CategoryComparisonSections({
   }
 
   return (
-    <section className="mt-10" aria-labelledby={`${categorySlug}-comparisons`}>
+    <section className="reveal-fade mt-12" aria-labelledby={`${categorySlug}-comparisons`}>
       <div>
-        <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+        <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
           Jämförelser
         </p>
         <h2
@@ -32,21 +33,22 @@ export function CategoryComparisonSections({
         </h2>
       </div>
 
-      <div className="mt-6 grid gap-5 md:grid-cols-2">
-        {comparisons.map((comparison) => (
+      <div className="mt-7 grid gap-5 md:grid-cols-2">
+        {comparisons.map((comparison, index) => (
           <Link
             key={comparison.href}
             href={comparison.href}
-            className="group rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-5 shadow-[0_24px_70px_rgba(185,131,166,0.1)] transition hover:-translate-y-1 hover:bg-white"
+            className="reveal-fade group rounded-[2rem] border border-line bg-surface/72 p-5 shadow-[0_24px_70px_rgba(185,131,166,0.1)] transition hover:-translate-y-1 hover:bg-surface"
+            style={{ "--i": index } as CSSProperties}
           >
             <ProductBadges badges={comparison.badges.slice(0, 3)} />
             <h3 className="editorial-color-kiss mt-4 font-display text-3xl leading-tight">
               {comparison.shortTitle}
             </h3>
-            <p className="mt-3 leading-7 text-[#6f5a64]">
+            <p className="mt-3 leading-7 text-ink-soft">
               {comparison.description}
             </p>
-            <span className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full bg-[#D8788D] px-5 text-sm font-black text-white shadow-[0_16px_38px_rgba(217,125,145,0.24)]">
+            <span className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full bg-wine px-5 text-sm font-black text-bg shadow-[0_16px_38px_rgba(109,60,77,0.28)]">
               Öppna jämförelsen
               <ArrowUpRight size={16} aria-hidden="true" />
             </span>

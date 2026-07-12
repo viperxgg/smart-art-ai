@@ -4,20 +4,20 @@ import { siteConfig } from "@/lib/site";
 
 export function SiteFooter() {
   return (
-    <footer className="bg-[#FFF9F7] px-4 pb-8 text-[#3E2F3A]">
-      <div className="mx-auto w-full max-w-5xl rounded-[2rem] border border-[#F1D8DD] bg-white/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.08)] md:p-8">
+    <footer className="bg-bg px-4 pb-8 text-ink">
+      <div className="mx-auto w-full max-w-5xl rounded-[2rem] border border-line bg-surface/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.08)] md:p-8">
         <div className="grid gap-6 md:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+            <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
               Transparens
             </p>
-            <p className="mt-3 max-w-3xl leading-7 text-[#6f5a64]">
+            <p className="mt-3 max-w-3xl leading-7 text-ink-soft">
               Elins val innehåller redaktionella produkturval och reklamlänkar
               till Amazon. Recensioner från besökare modereras innan de
               publiceras. Vi använder inte annonseringspixlar eller
               analyscookies i koden i dag.
             </p>
-            <p className="mt-3 max-w-3xl leading-7 text-[#6f5a64]">
+            <p className="mt-3 max-w-3xl leading-7 text-ink-soft">
               Cloudflare Turnstile kan laddas på recensionsformulär när det är
               aktiverat, för att minska spam och skydda communityn.
             </p>
@@ -26,49 +26,49 @@ export function SiteFooter() {
           <nav aria-label="Sidfot" className="grid content-start gap-3">
             <Link
               href="/sok"
-              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+              className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
             >
               Sök produkter
             </Link>
             <Link
               href="/om-oss"
-              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+              className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
             >
               Om Elins val
             </Link>
             <Link
               href="/jamforelser"
-              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+              className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
             >
               Jämförelser
             </Link>
             <Link
               href="/elins-poang"
-              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+              className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
             >
               Så sätter vi Elins poäng
             </Link>
             <Link
               href="/integritetspolicy"
-              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+              className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
             >
               Integritetspolicy
             </Link>
             <Link
               href="/cookies"
-              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+              className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
             >
               Cookies
             </Link>
             <a
               href={`mailto:${siteConfig.email}`}
-              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+              className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
             >
               Kontakt
             </a>
             <a
               href={`mailto:${siteConfig.email}`}
-              className="font-bold text-[#6b4755] transition hover:text-[#B983A6]"
+              className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
             >
               {siteConfig.email}
             </a>
