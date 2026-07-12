@@ -1,5 +1,6 @@
 "use client";
 
+import { ElinCtaButton } from "@/components/elin/ElinCtaButton";
 import { ElinHeroDemo } from "@/components/elin/ElinHeroDemo";
 import { useElin } from "@/components/elin/ElinProvider";
 
@@ -37,13 +38,12 @@ export function ElinHomeHero() {
           </p>
 
           <div className="mt-7 flex flex-wrap gap-3">
-            <button
-              type="button"
-              onClick={() => openElin()}
-              className="inline-flex min-h-12 items-center justify-center rounded-full bg-wine px-6 text-sm font-black text-bg shadow-[0_18px_46px_rgba(109,60,77,0.3)] transition hover:-translate-y-0.5 hover:bg-wine/90 sm:min-h-14 sm:px-7"
+            <ElinCtaButton
+              size="md"
+              className="inline-flex min-h-12 items-center justify-center gap-2.5 rounded-full bg-wine px-6 text-sm font-black text-bg shadow-[0_18px_46px_rgba(109,60,77,0.3)] transition hover:-translate-y-0.5 hover:bg-wine/90 sm:min-h-14 sm:px-7"
             >
-              💬 Fråga Elin
-            </button>
+              Fråga Elin
+            </ElinCtaButton>
           </div>
 
           <div className="mt-5 flex flex-wrap gap-2">

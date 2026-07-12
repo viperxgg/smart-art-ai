@@ -2,6 +2,11 @@ import type { NextConfig } from "next";
 
 const isDev = process.env.NODE_ENV !== "production";
 
+// GA4 is env-driven (see app/layout.tsx): only widen the CSP for Google's
+// domains when a Measurement ID is actually configured, so the allow-list
+// stays minimal while NEXT_PUBLIC_GA_ID is unset.
+const hasGoogleAnalytics = Boolean(process.env.NEXT_PUBLIC_GA_ID?.trim());
+
 // Content-Security-Policy tuned for this app: Next.js (inline bootstrap
 // scripts), framer-motion (inline styles), next/image (local images),
 // same-origin Elin chat stream, and Cloudflare Turnstile. `script-src` keeps
@@ -18,9 +23,9 @@ const contentSecurityPolicy = [
   "media-src 'self'",
   "font-src 'self' data:",
   "style-src 'self' 'unsafe-inline'",
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://challenges.cloudflare.com`,
+  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://challenges.cloudflare.com${hasGoogleAnalytics ? " https://www.googletagmanager.com" : ""}`,
   "frame-src 'self' https://challenges.cloudflare.com",
-  `connect-src 'self' https://challenges.cloudflare.com${isDev ? " ws:" : ""}`,
+  `connect-src 'self' https://challenges.cloudflare.com${hasGoogleAnalytics ? " https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com" : ""}${isDev ? " ws:" : ""}`,
   "worker-src 'self' blob:",
   "manifest-src 'self'",
   "upgrade-insecure-requests",

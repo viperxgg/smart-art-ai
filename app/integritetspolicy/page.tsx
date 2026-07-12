@@ -102,13 +102,25 @@ export default function PrivacyPolicyPage() {
                 Formulärskydd och cookies
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">
-                Vi använder inte annonseringspixlar eller analyscookies i koden
-                i dag. Om Cloudflare Turnstile är aktiverat laddas det på
-                recensionsformulär som en strikt nödvändig anti-spam-tjänst för
-                att minska spam och kontrollera att formuläret skickas av en
-                människa. Det är den enda tredjepartstjänst som kan sätta en
-                cookie på sidan, och eftersom webbplatsen bara använder
-                nödvändiga funktioner behövs ingen samtyckesbanner.
+                Vi använder inte annonseringspixlar. Om Cloudflare Turnstile är
+                aktiverat laddas det på recensionsformulär som en strikt
+                nödvändig anti-spam-tjänst för att minska spam och kontrollera
+                att formuläret skickas av en människa — det är den enda
+                tredjepartstjänsten som kan sätta en cookie utan ditt
+                godkännande.
+              </p>
+              <p className="mt-3 leading-7 text-[#6f5a64]">
+                Utöver det använder vi Google Analytics 4 för statistik, men
+                bara om du godkänner det i cookiebannern som visas vid ditt
+                första besök. Väljer du «Neka» sätts ingen analyscookie och
+                ingen besöksstatistik sparas om dig. Google Analytics används
+                enbart för att förstå vilka sidor som hjälper besökare — inte
+                för annonsering eller personanpassning — och lagrar inte
+                IP-adressen. Läs mer på{" "}
+                <Link href="/cookies" className="font-black text-[#9E5E73] underline">
+                  cookiesidan
+                </Link>
+                .
               </p>
               <p className="mt-3 leading-7 text-[#6f5a64]">
                 Vid recensioner kan IP-adressen behandlas tillfälligt för att

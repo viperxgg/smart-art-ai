@@ -177,9 +177,9 @@ export function ElinProvider({ children }: { children: ReactNode }) {
                 type="button"
                 aria-label="Stäng Elin"
                 onClick={value.closeElin}
-                className="absolute inset-0 bg-[#4B2838]/20 backdrop-blur-sm"
+                className="elin-backdrop-fade absolute inset-0 bg-[#4B2838]/20 backdrop-blur-sm"
               />
-              <aside className="absolute inset-x-3 bottom-[calc(0.75rem+env(safe-area-inset-bottom))] top-3 flex min-h-0 flex-col overflow-hidden rounded-[1.65rem] border border-[#F1D8DD] bg-[#FFF9F7] shadow-[0_34px_120px_rgba(75,40,56,0.22)] md:inset-auto md:bottom-6 md:right-6 md:h-[70vh] md:max-h-[46rem] md:w-[25rem]">
+              <aside className="elin-panel-pop absolute inset-x-3 bottom-[calc(0.75rem+env(safe-area-inset-bottom))] top-3 flex min-h-0 flex-col overflow-hidden rounded-[1.65rem] border border-[#F1D8DD] bg-[#FFF9F7] shadow-[0_34px_120px_rgba(75,40,56,0.22)] md:inset-auto md:bottom-6 md:right-6 md:h-[70vh] md:max-h-[46rem] md:w-[25rem]">
                 <header className="flex shrink-0 items-center justify-between gap-3 border-b border-[#F1D8DD] bg-white/72 px-4 py-3">
                   <div className="min-w-0">
                     <p className="inline-flex items-center gap-2 text-sm font-black text-[#4B2838]">

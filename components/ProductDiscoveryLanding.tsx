@@ -6,11 +6,11 @@ import {
   Camera,
   Heart,
   Mail,
-  MessageCircle,
   Music2,
   Search,
 } from "lucide-react";
 
+import { ElinCtaButton } from "@/components/elin/ElinCtaButton";
 import { ElinHomeHero } from "@/components/elin/ElinHomeHero";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
@@ -1418,14 +1418,12 @@ function SiteHeader() {
       </Link>
 
       <div className="flex shrink-0 items-center gap-1 sm:gap-3">
-        <Link
-          href="/fraga-elin"
+        <ElinCtaButton
           className="inline-flex min-h-10 items-center justify-center gap-2 rounded-full bg-wine px-4 text-sm font-black text-bg shadow-[0_16px_40px_rgba(109,60,77,0.28)] transition hover:-translate-y-0.5 hover:bg-wine/90 sm:min-h-14 sm:px-5"
         >
-          <MessageCircle className="size-4 sm:size-[18px]" aria-hidden="true" />
           <span className="sm:hidden">Fråga</span>
           <span className="hidden sm:inline">Fråga Elin</span>
-        </Link>
+        </ElinCtaButton>
         <a
           href={`mailto:${siteConfig.email}`}
           className="grid size-10 place-items-center rounded-full bg-rose/15 text-wine shadow-[0_16px_40px_rgba(216,131,146,0.16)] transition hover:-translate-y-0.5 sm:size-14"
@@ -1581,7 +1579,7 @@ function LatestUpdates() {
                       {item.type}
                     </span>
                     {isNew ? (
-                      <span className="rounded-full bg-rose/18 px-2.5 py-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-wine">
+                      <span className="badge-new-glow rounded-full bg-rose/18 px-2.5 py-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-wine">
                         Nytt
                       </span>
                     ) : null}
@@ -1797,7 +1795,7 @@ function FeaturedPick({
 
   return (
     <article
-      className="reveal-fade overflow-hidden rounded-[2rem] border border-line bg-surface/75 p-3 shadow-[0_26px_80px_rgba(216,131,146,0.16)] backdrop-blur-xl"
+      className="reveal-fade group overflow-hidden rounded-[2rem] border border-line bg-surface/75 p-3 shadow-[0_26px_80px_rgba(216,131,146,0.16)] backdrop-blur-xl transition hover:-translate-y-1 hover:bg-surface"
       style={{ "--i": index } as CSSProperties}
     >
       <Link
@@ -1811,7 +1809,7 @@ function FeaturedPick({
           width={900}
           height={675}
           sizes="(min-width: 1024px) 340px, (min-width: 640px) 45vw, 100vw"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
           priority={priority}
           {...(priority ? {} : { loading: "lazy" as const })}
           quality={70}

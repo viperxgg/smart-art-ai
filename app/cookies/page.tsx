@@ -31,10 +31,10 @@ export default function CookiesPage() {
             Enkel cookieinformation
           </h1>
           <p className="mt-6 text-lg leading-8 text-ink">
-            Elins val använder inte annonseringspixlar eller analyscookies i
-            koden i dag. Vi försöker hålla webbplatsen lätt, tydlig och fri från
-            onödig spårning. Eftersom webbplatsen bara använder nödvändiga
-            funktioner behövs ingen samtyckesbanner.
+            Elins val försöker hålla webbplatsen lätt, tydlig och fri från
+            onödig spårning. Vi använder inte annonseringspixlar och sätter
+            ingen analyscookie förrän du aktivt godkänner det i
+            cookiebannern som visas första gången du besöker sidan.
           </p>
 
           <div className="mt-8 grid gap-5">
@@ -47,8 +47,27 @@ export default function CookiesPage() {
                 Om Cloudflare Turnstile är aktiverat laddas det på
                 recensionsformulär som en strikt nödvändig anti-spam-tjänst.
                 Det är den enda tredjepartstjänst som kan sätta en cookie på
-                sidan. Kontrollen används för säkerhet och formulärskydd, inte
-                för annonsering.
+                sidan utan ditt godkännande. Kontrollen används för säkerhet
+                och formulärskydd, inte för annonsering.
+              </p>
+            </article>
+
+            <article className="rounded-3xl bg-rose/8 p-5">
+              <h2 className="editorial-color-kiss font-display text-2xl">
+                Statistik (Google Analytics)
+              </h2>
+              <p className="mt-3 leading-7 text-ink-soft">
+                Om du klickar «Acceptera» i cookiebannern aktiverar vi Google
+                Analytics 4 för att se vilka sidor som faktiskt hjälper besökare
+                hitta rätt produkt. Godkänner du inte, eller stänger bannern
+                utan att välja, sätts ingen analyscookie och ingen
+                besöksstatistik sparas om dig.
+              </p>
+              <p className="mt-3 leading-7 text-ink-soft">
+                Vi använder Google Analytics enbart för statistik — inte för
+                annonsering eller personanpassade annonser. Google Analytics 4
+                lagrar inte IP-adressen. Ditt val sparas i din webbläsare så du
+                inte behöver ta ställning igen vid nästa besök.
               </p>
             </article>
 

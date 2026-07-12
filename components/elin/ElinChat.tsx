@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
 import { ArrowUpRight, Heart, Loader2, Mail, Send, Trash2, X } from "lucide-react";
-import { FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from "react";
+import { type CSSProperties, FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from "react";
 
 import type { ProductCategorySlug } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
@@ -1416,7 +1416,7 @@ export function ElinChat({
               <p className="mt-3 text-sm leading-6 text-ink-soft">{emptyText}</p>
               {showExamples ? (
                 <div className="mt-5 flex flex-wrap justify-center gap-2">
-                  {examples.map((example) => (
+                  {examples.map((example, exampleIndex) => (
                     <button
                       key={example}
                       type="button"
@@ -1424,7 +1424,8 @@ export function ElinChat({
                         setInput(example);
                         textareaRef.current?.focus();
                       }}
-                      className="min-h-10 rounded-full border border-line bg-surface px-3 text-left text-xs font-bold text-ink transition hover:-translate-y-0.5 hover:bg-rose/8"
+                      className="reveal-fade min-h-10 rounded-full border border-line bg-surface px-3 text-left text-xs font-bold text-ink transition hover:-translate-y-0.5 hover:bg-rose/8"
+                      style={{ "--i": exampleIndex } as CSSProperties}
                     >
                       {example}
                     </button>
@@ -1532,12 +1533,13 @@ export function ElinChat({
                     message.followUps &&
                     message.followUps.length > 0 ? (
                       <div className="mt-4 flex flex-wrap gap-2">
-                        {message.followUps.map((question) => (
+                        {message.followUps.map((question, followUpIndex) => (
                           <button
                             key={question}
                             type="button"
                             onClick={() => void sendMessage(question)}
-                            className="min-h-9 rounded-full border border-line bg-bg px-3 text-left text-xs font-bold text-ink transition hover:-translate-y-0.5 hover:bg-rose/8"
+                            className="reveal-fade min-h-9 rounded-full border border-line bg-bg px-3 text-left text-xs font-bold text-ink transition hover:-translate-y-0.5 hover:bg-rose/8"
+                            style={{ "--i": followUpIndex } as CSSProperties}
                           >
                             {question}
                           </button>

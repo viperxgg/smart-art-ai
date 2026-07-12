@@ -1201,3 +1201,120 @@ body {
     opacity: 0;
   }
 }
+
+/*
+ * Shared "Fråga Elin" CTA (components/elin/ElinCtaButton.tsx) — every inline
+ * entry point (header, hero, product pages, search empty state) renders
+ * through this so Elin only ever has one "face" sitewide instead of a mix of
+ * old MessageCircle icons and this avatar. Unlike the floating launcher
+ * above (which idles forever since there's only one instance on screen),
+ * this button has NO idle animation — it can appear several times per page,
+ * so the avatar only wakes up (a small pop + a quick wave) on hover/focus of
+ * the button around it. Transform-only, so the site-wide
+ * prefers-reduced-motion block near the top of this file already collapses
+ * both to nothing.
+ *
+ * Deliberately NOT styling `.elin-cta` itself (the button) here: each call
+ * site already brings its own hover lift/background via Tailwind utilities
+ * (`hover:-translate-y-0.5`, etc.), and piling a second `transform`
+ * transition onto the same element via a plain CSS class would fight that
+ * utility for the same property. `.elin-cta` only exists as a scope for the
+ * descendant selectors below, which target elements no Tailwind classes
+ * touch.
+ */
+.elin-cta-avatar-clip {
+  display: inline-block;
+  flex-shrink: 0;
+  border-radius: 999px;
+  overflow: hidden;
+  transition: transform 220ms ease;
+}
+
+.elin-cta:hover .elin-cta-avatar-clip,
+.elin-cta:focus-visible .elin-cta-avatar-clip {
+  transform: scale(1.1);
+}
+
+.elin-cta:hover .elin-cta-avatar-rock,
+.elin-cta:focus-visible .elin-cta-avatar-rock {
+  animation: elin-launcher-wave-fast 900ms ease-in-out 1;
+}
+
+/*
+ * Chat drawer entrance (components/elin/ElinProvider.tsx) — the overlay +
+ * aside only ever mount when `isOpen` flips true, so a plain CSS animation
+ * (no JS orchestration, no re-render tricks) replays correctly every time
+ * the drawer opens. Transform/opacity only.
+ */
+.elin-panel-pop {
+  animation: elin-panel-pop 260ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes elin-panel-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.elin-backdrop-fade {
+  animation: elin-backdrop-fade 220ms ease both;
+}
+
+@keyframes elin-backdrop-fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/*
+ * "Nytt" freshness badge (LatestUpdates, ProductDiscoveryLanding.tsx) — a
+ * calm, infinite pulse ring behind the pill so genuinely new content quietly
+ * catches the eye while scrolling (a small retention nudge, reinforcing
+ * Wave 3's reveal-fade/hover-lift treatment on the same cards). Same
+ * transform/opacity idiom as .elin-launcher-pulse-ring above, kept to a
+ * small amplitude so it reads as "alive", not alarming.
+ */
+.badge-new-glow {
+  position: relative;
+  isolation: isolate;
+}
+
+.badge-new-glow::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: var(--color-rose);
+  opacity: 0.4;
+  animation: badge-new-pulse 2.6s ease-out infinite;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .badge-new-glow::after {
+    display: none;
+  }
+}
+
+@keyframes badge-new-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+
+  100% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+}

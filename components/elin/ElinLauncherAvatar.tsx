@@ -1,19 +1,41 @@
+type ElinLauncherAvatarProps = {
+  /**
+   * "idle" (default): whole-character breathing bob + a periodic wave loop
+   * forever. Reserved for the single floating launcher button
+   * (ElinProvider.tsx) — with only one instance ever on screen, a constant
+   * idle motion reads as "alive" rather than busy.
+   *
+   * "hover": no idle loop at all. The arm+head only wave once when the
+   * *parent* element carries the `.elin-cta` class and is hovered/focused
+   * (see app/globals.css). Used by ElinCtaButton, which can appear several
+   * times on one page (header, hero, product cards, search empty state) —
+   * an always-animating avatar in every instance would be distracting and
+   * wasteful, so those wake up only on hover/focus instead.
+   */
+  motion?: "idle" | "hover";
+};
+
 /**
  * Elin's animated launcher avatar — the character chip shown inside the
- * floating "Fråga Elin" launcher button (see ElinProvider.tsx).
+ * floating "Fråga Elin" launcher button (see ElinProvider.tsx) and, in
+ * "hover" mode, inside every inline "Fråga Elin" CTA (see ElinCtaButton.tsx).
  *
- * Purely presentational and static (no props, no state): the actual motion
+ * Purely presentational (only the `motion` prop): the actual motion
  * (idle bob, periodic wave, hover wave, entrance, pulse rings) is wired via
- * CSS classes/keyframes in app/globals.css, targeting the `elin-avatar-bob`
- * and `elin-avatar-rock` groups below. Keeping this markup in its own
- * component keeps ElinProvider.tsx focused on state/behavior.
+ * CSS classes/keyframes in app/globals.css, targeting the `elin-avatar-bob`/
+ * `elin-avatar-rock` (idle) or `elin-cta-avatar-rock` (hover-only) groups
+ * below. Keeping this markup in its own component keeps ElinProvider.tsx
+ * and ElinCtaButton.tsx focused on state/behavior.
  *
  * Color note: only the backdrop halo and the clothing (knit top, garment
  * shade, collar) reference the shared brand tokens (`var(--color-*)`) so
  * they track the site's palette. Skin, hair and the arm stay fixed hex —
  * Elin's actual appearance shouldn't shift if the brand palette ever does.
  */
-export function ElinLauncherAvatar() {
+export function ElinLauncherAvatar({ motion = "idle" }: ElinLauncherAvatarProps) {
+  const bobClass = motion === "idle" ? "elin-avatar-bob" : "";
+  const rockClass = motion === "idle" ? "elin-avatar-rock" : "elin-cta-avatar-rock";
+
   return (
     <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="block h-full w-full">
       <defs>
@@ -32,7 +54,7 @@ export function ElinLauncherAvatar() {
 
       <g clipPath="url(#elinCircleClip)">
         {/* idle bob: whole-character breathing translateY (see .elin-avatar-bob) */}
-        <g className="elin-avatar-bob">
+        <g className={bobClass}>
           {/* torso / knit top */}
           <path
             d="M48,206 L48,150 Q48,133 61,123 Q80,109 100,109 Q120,109 139,123 Q152,133 152,150 L152,206 Z"
@@ -54,8 +76,8 @@ export function ElinLauncherAvatar() {
             strokeLinejoin="round"
           />
 
-          {/* periodic wave: arm + head rotate together, pivoting at the base of the neck (see .elin-avatar-rock) */}
-          <g className="elin-avatar-rock" style={{ transformOrigin: "100px 132px" }}>
+          {/* periodic wave: arm + head rotate together, pivoting at the base of the neck (see .elin-avatar-rock / .elin-cta-avatar-rock) */}
+          <g className={rockClass} style={{ transformOrigin: "100px 132px" }}>
             {/* waving arm — raised on viewer-left, away from the screen edge the launcher sits against */}
             <g>
               <path

@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
+import { ElinCtaButton } from "@/components/elin/ElinCtaButton";
 import { siteConfig } from "@/lib/site";
 
 const primaryNav = [
@@ -82,14 +82,12 @@ export function Header() {
           })}
         </nav>
 
-        <Link
-          href="/fraga-elin"
+        <ElinCtaButton
           className="inline-flex min-h-10 shrink-0 items-center gap-2 rounded-full bg-wine px-3.5 text-sm font-black text-bg shadow-[0_16px_36px_rgba(109,60,77,0.28)] transition hover:-translate-y-0.5 hover:bg-wine/90 md:min-h-11 md:px-5"
         >
-          <MessageCircle className="size-4" aria-hidden="true" />
           <span className="hidden lg:inline">Fråga Elin</span>
           <span className="lg:hidden">Fråga</span>
-        </Link>
+        </ElinCtaButton>
       </div>
     </header>
   );

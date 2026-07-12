@@ -4,8 +4,9 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { ArrowUpRight, MessageCircle, Search, X } from "lucide-react";
+import { ArrowUpRight, Search, X } from "lucide-react";
 
+import { ElinCtaButton } from "@/components/elin/ElinCtaButton";
 import { ScoreBadge } from "@/components/ProductBadges";
 import {
   getProductPageHref,
@@ -246,13 +247,12 @@ function NoResults({ query }: { query: string }) {
         eller en kategori – eller fråga Elin direkt.
       </p>
       <div className="mt-5 flex flex-wrap gap-2">
-        <Link
-          href="/fraga-elin"
+        <ElinCtaButton
+          prompt={`Jag sökte efter "${query}" men hittade inget – vad rekommenderar du?`}
           className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-wine px-5 text-sm font-black text-bg shadow-[0_16px_40px_rgba(109,60,77,0.28)] transition hover:-translate-y-0.5 hover:bg-wine/90"
         >
-          <MessageCircle size={17} aria-hidden="true" />
           Fråga Elin
-        </Link>
+        </ElinCtaButton>
         <Link
           href="/kategorier"
           className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-rose bg-surface/70 px-5 text-sm font-black text-wine transition hover:-translate-y-0.5 hover:bg-surface"
