@@ -128,7 +128,7 @@ export const sitemapEntries: SitemapEntry[] = [
   { path: "/halsa/wake-up-light", lastModified: "2026-06-27", changeFrequency: "weekly", priority: 0.82 },
   { path: "/halsa/wake-up-light-eller-solnedgangslampa", lastModified: "2026-07-06", changeFrequency: "weekly", priority: 0.85 },
   { path: "/halsa/white-noise", lastModified: "2026-06-27", changeFrequency: "weekly", priority: 0.82 },
-  { path: "/integritetspolicy", lastModified: "2026-07-02", changeFrequency: "monthly", priority: 0.3 },
+  { path: "/integritetspolicy", lastModified: "2026-07-12", changeFrequency: "monthly", priority: 0.3 },
   { path: "/jamforelser", lastModified: "2026-07-12", changeFrequency: "weekly", priority: 0.72 },
   { path: "/kategorier", lastModified: "2026-07-12", changeFrequency: "weekly", priority: 0.55 },
   { path: "/kontakt", lastModified: "2026-07-12", changeFrequency: "monthly", priority: 0.4 },

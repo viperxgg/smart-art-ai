@@ -17,6 +17,9 @@ This repository is for building premium, modern, responsive websites and web app
 - Avoid clutter
 - Keep mobile responsiveness excellent
 - Animations should be subtle and purposeful
+- Challenge any request that pushes product visuals toward exaggerated claims, random styling, copied marketplace layouts, or aggressive sales pressure
+- For exact product thumbnails or product-card media, start from the real supplied product image. Do not rely on free image generation when product shape/model accuracy matters.
+- Inspect generated visual assets before presenting them. If the product identity is wrong twice, stop generating and switch to manual composition from real product images.
 
 ## Engineering rules
 - Inspect related files before editing

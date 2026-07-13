@@ -43,6 +43,12 @@ export function SiteFooter() {
               Jämförelser
             </Link>
             <Link
+              href="/fraga-elin"
+              className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
+            >
+              Fråga Elin
+            </Link>
+            <Link
               href="/elins-poang"
               className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
             >
