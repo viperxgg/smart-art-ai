@@ -19,10 +19,10 @@ type SeoMetadataInput = {
 };
 
 export const defaultOgImage: SeoImage = {
-  url: `${siteConfig.url}/og/elin-og.jpg`,
+  url: `${siteConfig.url}/og/og-default.jpg`,
   width: 1200,
   height: 630,
-  alt: "Elin från Elins val",
+  alt: "Elins val – ärliga test & jämförelser av skönhet, hälsa & träning",
 };
 
 export function createSeoMetadata({

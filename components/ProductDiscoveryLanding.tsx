@@ -12,6 +12,7 @@ import {
 
 import { ElinCtaButton } from "@/components/elin/ElinCtaButton";
 import { ElinHomeHero } from "@/components/elin/ElinHomeHero";
+import { Monogram } from "@/components/Monogram";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { comparisonEntries } from "@/lib/comparisons";
@@ -1409,12 +1410,12 @@ function SiteHeader() {
     <header className="flex min-w-0 items-center justify-between gap-2 rounded-full border border-white/70 bg-white/55 p-2 shadow-[0_18px_50px_rgba(216,131,146,0.12)] backdrop-blur-xl md:hidden">
       <Link
         href="/"
-        className="editorial-color-kiss min-w-0 shrink pl-2 font-display text-[1.35rem] leading-none tracking-[-0.01em] sm:text-[2rem] sm:tracking-[-0.03em]"
+        className="flex min-w-0 shrink items-center gap-1.5 pl-2 sm:gap-2"
       >
-        Elins val
-        <span className="ml-1 align-top text-base text-rose sm:ml-2 sm:text-lg">
-          *
+        <span className="editorial-color-kiss font-display text-[1.35rem] leading-none tracking-[-0.01em] sm:text-[2rem] sm:tracking-[-0.03em]">
+          Elins val
         </span>
+        <Monogram className="size-4 sm:size-5" textClassName="text-[0.55rem] sm:text-[0.7rem]" />
       </Link>
 
       <div className="flex shrink-0 items-center gap-1 sm:gap-3">

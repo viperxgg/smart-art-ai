@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 
 import { ElinCtaButton } from "@/components/elin/ElinCtaButton";
+import { Monogram } from "@/components/Monogram";
 import { siteConfig } from "@/lib/site";
 
 const primaryNav = [
@@ -45,16 +46,12 @@ export function Header() {
       <div className="mx-auto flex h-[4.5rem] max-w-6xl items-center justify-between gap-3 px-4 md:h-20 md:gap-4 md:px-6 lg:gap-6 lg:px-8">
         <Link href="/" className="flex shrink-0 items-center gap-2.5">
           <motion.span
-            className="relative grid size-9 shrink-0 place-items-center rounded-full bg-gradient-signature md:size-10"
-            aria-hidden="true"
+            className="shrink-0"
             initial={{ opacity: 0, scale: 0.7 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
           >
-            <span className="absolute inset-[2px] rounded-full bg-bg" />
-            <span className="relative font-display text-base font-black text-ink md:text-lg">
-              E
-            </span>
+            <Monogram className="size-9 md:size-10" textClassName="text-base md:text-lg" />
           </motion.span>
           <span className="font-display text-lg font-black tracking-tight text-ink md:text-xl">
             {siteConfig.name}

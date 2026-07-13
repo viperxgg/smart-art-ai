@@ -6,6 +6,7 @@ import Script from "next/script";
 import { ArrowUpRight, Heart, Loader2, Mail, Send, Trash2, X } from "lucide-react";
 import { type CSSProperties, FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from "react";
 
+import { Monogram } from "@/components/Monogram";
 import type { ProductCategorySlug } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
@@ -115,7 +116,6 @@ const prefsStorageKey = "elin-prefs-v1";
 const subscribeDismissedStorageKey = "elin-subscribe-dismissed-v1";
 const maxStoredMessages = 20;
 const maxWishlistItems = 30;
-const elinAvatarSrc = "/elin/elin-avatar.webp";
 const subscriberConsentText = `Jag samtycker till att Smart Art AI sparar min mejladress och mina valda produkt- och rutinuppgifter för att kunna tipsa om prisdroppar och sparade rutiner. Jag kan när som helst begära radering eller avregistrera mig via mejl till ${siteConfig.email}.`;
 
 const budgetFilterChips: { value: PriceTier; label: string; prompt: string }[] = [
@@ -219,53 +219,11 @@ function toWishlistCard(product: ProductCard): WishlistCard {
   };
 }
 
-function useElinAvatarAvailable() {
-  const [isAvailable, setIsAvailable] = useState(false);
-
-  useEffect(() => {
-    let isMounted = true;
-
-    fetch(elinAvatarSrc, { method: "HEAD", cache: "force-cache" })
-      .then((response) => {
-        if (isMounted) {
-          setIsAvailable(response.ok);
-        }
-      })
-      .catch(() => {
-        if (isMounted) {
-          setIsAvailable(false);
-        }
-      });
-
-    return () => {
-      isMounted = false;
-    };
-  }, []);
-
-  return isAvailable;
-}
-
-function ElinAvatar({
-  visible,
-  size = "md",
-}: {
-  visible: boolean;
-  size?: "sm" | "md";
-}) {
-  if (!visible) {
-    return null;
-  }
-
+function ElinAvatar({ size = "md" }: { size?: "sm" | "md" }) {
   const sizeClass = size === "sm" ? "size-8" : "size-11";
+  const textClass = size === "sm" ? "text-xs" : "text-sm";
 
-  return (
-    <span
-      className={`${sizeClass} relative shrink-0 overflow-hidden rounded-full border border-line bg-rose/8 shadow-[0_10px_24px_rgba(216,120,141,0.18)]`}
-      aria-hidden="true"
-    >
-      <Image src={elinAvatarSrc} alt="" fill sizes="44px" className="object-cover" />
-    </span>
-  );
+  return <Monogram className={sizeClass} textClassName={textClass} />;
 }
 
 function hasPreferences(preferences: ElinPreferences) {
@@ -899,7 +857,6 @@ export function ElinChat({
   const [subscriberConsent, setSubscriberConsent] = useState(false);
   const [subscribeStatus, setSubscribeStatus] = useState<SubscribeStatus>("idle");
   const [subscribeError, setSubscribeError] = useState("");
-  const hasElinAvatar = useElinAvatarAvailable();
   const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
   useEffect(() => {
@@ -1346,7 +1303,7 @@ export function ElinChat({
     >
       <div className="flex flex-col gap-3 border-b border-line bg-surface/64 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-5">
         <div className="flex min-w-0 items-center gap-3">
-          <ElinAvatar visible={hasElinAvatar} />
+          <ElinAvatar />
           <div className="min-w-0">
             <p className="text-sm font-black text-ink">Elin</p>
             <p className="mt-1 truncate text-xs text-ink-soft">
@@ -1443,7 +1400,7 @@ export function ElinChat({
               }`}
             >
               {message.role === "assistant" ? (
-                <ElinAvatar visible={hasElinAvatar} size="sm" />
+                <ElinAvatar size="sm" />
               ) : null}
               <div
                 className={`max-w-[88%] rounded-[1.25rem] px-4 py-3 sm:max-w-[78%] ${
