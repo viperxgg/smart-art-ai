@@ -18,6 +18,10 @@ export function SiteFooter() {
               ingen analyscookie förrän du godkänner det i cookiebannern.
             </p>
             <p className="mt-3 max-w-3xl leading-7 text-ink-soft">
+              Elins val är en deltagare i Amazon Associates-programmet. Som
+              Amazon-partner tjänar vi på kvalificerade köp.
+            </p>
+            <p className="mt-3 max-w-3xl leading-7 text-ink-soft">
               Cloudflare Turnstile kan laddas på recensionsformulär när det är
               aktiverat, för att minska spam och skydda communityn.
             </p>

@@ -163,6 +163,20 @@ export function DecisionComparisonPage({
           </figure>
         ) : null}
 
+        <div className="mt-8 grid gap-3 sm:grid-cols-2">
+          {[picks[0], picks[1]].map((pick) => (
+            <a
+              key={pick.product.slug}
+              href={pick.product.amazonUrl}
+              target="_blank"
+              rel="sponsored nofollow noopener"
+              className="inline-flex min-h-12 items-center justify-center rounded-full bg-wine px-6 py-3 text-center font-bold text-white transition hover:opacity-90"
+            >
+              Köp {pick.product.brand} på Amazon
+            </a>
+          ))}
+        </div>
+
         <section className="reveal-fade mt-10 rounded-[2rem] border border-line bg-surface/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <div className="flex items-start gap-4">
             <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-rose/15 text-wine">

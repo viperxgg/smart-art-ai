@@ -116,7 +116,7 @@ export const featuredProduct: Product = {
       label: "4 nivåer",
     },
   ],
-  amazonUrl: "https://amzn.to/4xuLEfd",
+  amazonUrl: "https://www.amazon.se/dp/B0CQXFWMH5?tag=azzamkhalaf-21",
   pageHref: "/traning/traningsband-naturlatex",
   summary:
     "Mycket träningsband för en låg peng: fyra motståndsnivåer i 100% naturlatex, utan premiumpris.",
