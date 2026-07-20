@@ -19,7 +19,7 @@ type SeoMetadataInput = {
 };
 
 export const defaultOgImage: SeoImage = {
-  url: `${siteConfig.url}/og/og-default.jpg`,
+  url: `${siteConfig.url}/og/og-default.png`,
   width: 1200,
   height: 630,
   alt: "Elins val – ärliga test & jämförelser av skönhet, hälsa & träning",

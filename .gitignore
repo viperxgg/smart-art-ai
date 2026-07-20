@@ -49,3 +49,7 @@ publicrobots.txt
 .next-dev*.log
 .next-*.out.log
 .next-*.err.log
+
+# automation/pins generated output (regenerate any time with build-pins.mjs;
+# public/pins/*.jpg placeholder+final images ARE committed, same as public/products/)
+/automation/pins/out/

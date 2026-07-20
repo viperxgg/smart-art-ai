@@ -1,0 +1,23 @@
+{
+  "_comment": "Human-polished elin.quote overrides, keyed by produkt_ref. build-pins.mjs checks this file BEFORE auto-condensing a comparison's `verdict` field — same 'don't clobber a manual improvement' pattern the script already uses for public/pins/*.jpg. Optionally also set \"expression\" per ref to override the auto score-gap heuristic. Layla owns this file's content; Kai/Cody own the script that reads it.",
+  "bronzer-eller-brun-utan-sol": {
+    "quote": "Bronzing drops vinner för snabb glow, brun utan sol för hållbar färg.",
+    "approvedBy": "Layla",
+    "approvedAt": "2026-07-13"
+  },
+  "handflakt-eller-bordsflakt": {
+    "quote": "Handfläkten vinner för att ta med ut, bordsfläkten för starkare luftström hemma.",
+    "approvedBy": "Layla",
+    "approvedAt": "2026-07-13"
+  },
+  "kabinvaska-eller-ryggsack": {
+    "quote": "Kabinväskan vinner på att rulla och skydda, ryggsäcken på handsfree och mer packutrymme.",
+    "approvedBy": "Layla",
+    "approvedAt": "2026-07-13"
+  },
+  "hantlar-eller-gummiband": {
+    "quote": "Hantlar vinner för tydligt motstånd och känslan av vikt, gummiband för plats och skonsamhet.",
+    "approvedBy": "Layla",
+    "approvedAt": "2026-07-13"
+  }
+}

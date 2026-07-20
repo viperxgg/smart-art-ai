@@ -12,7 +12,6 @@ import {
 
 import { ElinCtaButton } from "@/components/elin/ElinCtaButton";
 import { ElinHomeHero } from "@/components/elin/ElinHomeHero";
-import { Monogram } from "@/components/Monogram";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { comparisonEntries } from "@/lib/comparisons";
@@ -1402,7 +1401,7 @@ export function ProductDiscoveryLanding() {
 
 /**
  * Mobile/tablet-only utility bar. The desktop-and-up equivalent is the
- * persistent `Header` mounted in `app/layout.tsx` (monogram + wordmark +
+ * persistent `Header` mounted in `app/layout.tsx` (avatar + wordmark +
  * primary nav) — hidden here from `md:` up to avoid showing both.
  */
 function SiteHeader() {
@@ -1415,7 +1414,15 @@ function SiteHeader() {
         <span className="editorial-color-kiss font-display text-[1.35rem] leading-none tracking-[-0.01em] sm:text-[2rem] sm:tracking-[-0.03em]">
           Elins val
         </span>
-        <Monogram className="size-4 sm:size-5" textClassName="text-[0.55rem] sm:text-[0.7rem]" />
+        <span className="relative block size-4 shrink-0 overflow-hidden rounded-full sm:size-5">
+          <Image
+            src="/elin/elin-avatar.webp"
+            alt="Elins val logotyp"
+            fill
+            sizes="20px"
+            className="object-cover"
+          />
+        </span>
       </Link>
 
       <div className="flex shrink-0 items-center gap-1 sm:gap-3">

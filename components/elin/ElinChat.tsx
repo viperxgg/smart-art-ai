@@ -6,7 +6,6 @@ import Script from "next/script";
 import { ArrowUpRight, Heart, Loader2, Mail, Send, Trash2, X } from "lucide-react";
 import { type CSSProperties, FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from "react";
 
-import { Monogram } from "@/components/Monogram";
 import type { ProductCategorySlug } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
@@ -221,9 +220,13 @@ function toWishlistCard(product: ProductCard): WishlistCard {
 
 function ElinAvatar({ size = "md" }: { size?: "sm" | "md" }) {
   const sizeClass = size === "sm" ? "size-8" : "size-11";
-  const textClass = size === "sm" ? "text-xs" : "text-sm";
+  const imageSizes = size === "sm" ? "32px" : "44px";
 
-  return <Monogram className={sizeClass} textClassName={textClass} />;
+  return (
+    <span className={`relative block shrink-0 overflow-hidden rounded-full ${sizeClass}`}>
+      <Image src="/elin/elin-avatar.webp" alt="Elin" fill sizes={imageSizes} className="object-cover" />
+    </span>
+  );
 }
 
 function hasPreferences(preferences: ElinPreferences) {

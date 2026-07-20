@@ -1,9 +1,10 @@
 "use client";
 
+import Image from "next/image";
+
 import { ElinCtaButton } from "@/components/elin/ElinCtaButton";
 import { ElinHeroDemo } from "@/components/elin/ElinHeroDemo";
 import { useElin } from "@/components/elin/ElinProvider";
-import { Monogram } from "@/components/Monogram";
 
 const capabilityQuestions = [
   "💧 Jag har torr hud – var börjar jag?",
@@ -25,7 +26,9 @@ export function ElinHomeHero() {
       <div className="grid min-w-0 gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,0.78fr)] lg:items-center lg:gap-10">
         <div className="min-w-0">
           <p className="flex items-center gap-2 text-xs font-black uppercase tracking-[0.16em] text-rose">
-            <Monogram className="size-5" textClassName="text-[0.65rem]" />
+            <span className="relative block size-5 shrink-0 overflow-hidden rounded-full">
+              <Image src="/elin/elin-avatar.webp" alt="Elin" fill sizes="20px" className="object-cover" />
+            </span>
             Möt Elin – din personliga rådgivare
           </p>
           <h1

@@ -145,10 +145,6 @@ main :where(p, li) strong:first-child {
   color: transparent;
 }
 
-.bg-gradient-signature {
-  background-image: var(--gradient-signature);
-}
-
 .editorial-soft-mark {
   border-radius: 999px;
   background: #fff0c7;
@@ -1053,20 +1049,9 @@ body {
   overflow: hidden;
 }
 
-/* Idle "breathing" bob, applied to the SVG's whole-character group. */
+/* Idle "breathing" bob, applied to the avatar image (see ElinLauncherAvatar). */
 .elin-avatar-bob {
   animation: elin-launcher-bob 3.6s ease-in-out infinite;
-}
-
-/* Periodic wave: arm + head rotate together, pivoting at the base of the
-   neck. Swaps to a quicker single wave on hover/focus. */
-.elin-avatar-rock {
-  animation: elin-launcher-wave 7s ease-in-out infinite;
-}
-
-.elin-launcher-btn:hover .elin-avatar-rock,
-.elin-launcher-btn:focus-visible .elin-avatar-rock {
-  animation: elin-launcher-wave-fast 900ms ease-in-out 1;
 }
 
 .elin-launcher-pulse-ring {
@@ -1156,41 +1141,6 @@ body {
   }
 }
 
-@keyframes elin-launcher-wave {
-  0%,
-  78% {
-    transform: rotate(0deg);
-  }
-  84% {
-    transform: rotate(-5deg);
-  }
-  90% {
-    transform: rotate(6deg);
-  }
-  95% {
-    transform: rotate(-3deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes elin-launcher-wave-fast {
-  0%,
-  100% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(-9deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  75% {
-    transform: rotate(-5deg);
-  }
-}
-
 @keyframes elin-launcher-pulse {
   0% {
     transform: scale(1);
@@ -1209,7 +1159,7 @@ body {
  * old MessageCircle icons and this avatar. Unlike the floating launcher
  * above (which idles forever since there's only one instance on screen),
  * this button has NO idle animation — it can appear several times per page,
- * so the avatar only wakes up (a small pop + a quick wave) on hover/focus of
+ * so the avatar only wakes up (a small pop) on hover/focus of
  * the button around it. Transform-only, so the site-wide
  * prefers-reduced-motion block near the top of this file already collapses
  * both to nothing.
@@ -1233,11 +1183,6 @@ body {
 .elin-cta:hover .elin-cta-avatar-clip,
 .elin-cta:focus-visible .elin-cta-avatar-clip {
   transform: scale(1.1);
-}
-
-.elin-cta:hover .elin-cta-avatar-rock,
-.elin-cta:focus-visible .elin-cta-avatar-rock {
-  animation: elin-launcher-wave-fast 900ms ease-in-out 1;
 }
 
 /*

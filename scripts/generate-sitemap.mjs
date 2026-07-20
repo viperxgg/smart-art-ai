@@ -7,11 +7,7 @@
 //
 // Excluded from the filesystem walk: dynamic routes ([slug]), private
 // folders (_components), route groups ((group)), the /preview area, and any
-// page that sets `index: false`. The one exception is genericProductSlugs()
-// below — /product/[slug], /product/[slug]/ugc and /review/[slug] are real,
-// indexable, generateMetadata-driven pages (see lib/products.ts's
-// `genericProductPages`), so we enumerate their slugs separately instead of
-// silently dropping them from the sitemap.
+// page that sets `index: false`.
 
 import { execFileSync } from "node:child_process";
 import { readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
@@ -24,37 +20,6 @@ const FALLBACK_DATE = "2026-06-28";
 
 /** @type {Array<{ route: string, file: string }>} */
 const found = [];
-
-// Mirrors lib/products.ts's `genericProductPages` (the array that
-// /product/[slug], /product/[slug]/ugc and /review/[slug] pass to
-// generateStaticParams). We read it as text with a small regex instead of
-// importing lib/products.ts directly: that module resolves "@/" path
-// aliases via tsconfig, which plain `node` can't do without extra tooling.
-function genericProductSlugs() {
-  let src;
-  try {
-    src = readFileSync(join(ROOT, "lib", "products.ts"), "utf8");
-  } catch {
-    return [];
-  }
-
-  const arrayMatch = src.match(/genericProductPages\s*=\s*\[([\s\S]*?)\]/);
-  if (!arrayMatch) return [];
-
-  const identifiers = arrayMatch[1]
-    .split(",")
-    .map((s) => s.trim())
-    .filter(Boolean);
-
-  const slugs = [];
-  for (const id of identifiers) {
-    const objMatch = src.match(
-      new RegExp(`const ${id}\\b[^=]*=[\\s\\S]*?slug:\\s*"([^"]+)"`),
-    );
-    if (objMatch) slugs.push(objMatch[1]);
-  }
-  return slugs;
-}
 
 function isIndexable(pageFile) {
   // Skip pages that opt out of indexing via `robots: { index: false }`.
@@ -88,18 +53,6 @@ function walk(dir, route) {
 }
 
 walk(APP, "");
-
-// Enumerate the generic dynamic-slug pages the walk() above intentionally
-// skips (see the module comment). Each slug backs three real URLs, dated
-// off their shared template file since there's no per-slug source file.
-const productSlugTemplate = join(APP, "product", "[slug]", "page.tsx");
-const productUgcSlugTemplate = join(APP, "product", "[slug]", "ugc", "page.tsx");
-const reviewSlugTemplate = join(APP, "review", "[slug]", "page.tsx");
-for (const slug of genericProductSlugs()) {
-  found.push({ route: `/product/${slug}`, file: productSlugTemplate });
-  found.push({ route: `/product/${slug}/ugc`, file: productUgcSlugTemplate });
-  found.push({ route: `/review/${slug}`, file: reviewSlugTemplate });
-}
 
 function gitDate(file) {
   try {
@@ -140,10 +93,6 @@ function metaFor(route) {
 
   // Decision/comparison hubs read as higher intent.
   if (route.includes("-eller-")) return { changeFrequency: "weekly", priority: 0.85 };
-
-  // Supplementary UGC video galleries: real content, lower intent than the
-  // review itself.
-  if (route.endsWith("/ugc")) return { changeFrequency: "monthly", priority: 0.5 };
 
   // Everything else: product / review pages.
   return { changeFrequency: "weekly", priority: 0.82 };
