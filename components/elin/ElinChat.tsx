@@ -617,7 +617,7 @@ function ProductCardView({
           rel="sponsored nofollow noopener noreferrer"
           className="inline-flex min-h-9 items-center gap-1 rounded-full bg-rose px-3 text-xs font-black text-bg transition hover:-translate-y-0.5 hover:bg-rose/90"
         >
-          Se aktuellt pris på Amazon
+          Köp {product.brand} på Amazon
           <ArrowUpRight className="size-3.5" aria-hidden="true" />
         </a>
         <Link
@@ -717,7 +717,7 @@ function WishlistPanel({
                     rel="sponsored nofollow noopener noreferrer"
                     className="inline-flex min-h-9 items-center gap-1 rounded-full bg-rose px-3 text-xs font-black text-bg transition hover:-translate-y-0.5 hover:bg-rose/90"
                   >
-                    Se aktuellt pris på Amazon
+                    Köp {item.brand} på Amazon
                     <ArrowUpRight className="size-3.5" aria-hidden="true" />
                   </a>
                   <Link

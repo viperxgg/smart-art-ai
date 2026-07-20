@@ -13,5 +13,5 @@ export const metadata = createSeoMetadata({
 });
 
 export default function ElinSimplePreviewPage() {
-  return <ProductDiscoveryLanding />;
+  return <ProductDiscoveryLanding showAffiliateCtas={false} />;
 }

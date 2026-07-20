@@ -16911,6 +16911,10 @@ export function getProductPageHref(product: Pick<Product, "slug" | "pageHref">) 
   return product.pageHref ?? `/product/${product.slug}`;
 }
 
+export function getProductByPageHref(href: string) {
+  return products.find((product) => getProductPageHref(product) === href);
+}
+
 export const reviewableProducts = products;
 
 export function getProductBySlug(slug: string) {

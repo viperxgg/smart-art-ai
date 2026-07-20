@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, Sparkles, WandSparkles } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { AmazonPurchaseLinks } from "@/components/AmazonPurchaseCta";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import {
@@ -152,6 +153,11 @@ export default function EpilatorHubPage() {
             </Link>
           ))}
         </section>
+
+        <AmazonPurchaseLinks
+          products={epilatorPicks.map((pick) => pick.product)}
+          className="mt-6"
+        />
 
         <section className="reveal-fade mt-12 overflow-hidden rounded-[2rem] border border-line bg-surface/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
           <div className="p-6 md:p-8">

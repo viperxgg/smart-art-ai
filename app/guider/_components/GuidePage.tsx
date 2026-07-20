@@ -6,8 +6,10 @@ import {
   buildBreadcrumbSchema,
   type BreadcrumbItem,
 } from "@/components/Breadcrumbs";
+import { AmazonPurchaseLinks } from "@/components/AmazonPurchaseCta";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
+import { getProductByPageHref, type Product } from "@/lib/products";
 
 export type GuideSection = {
   heading: string;
@@ -92,6 +94,13 @@ export function GuidePage({
     breadcrumbItems,
     faqItems,
   });
+  const affiliateProducts = cta.links
+    .map((link) => getProductByPageHref(link.href))
+    .filter((product): product is Product => Boolean(product));
+
+  if (affiliateProducts.length === 0) {
+    throw new Error(`Guide "${h1}" has no product link for its Amazon CTA.`);
+  }
 
   return (
     <main
@@ -207,6 +216,7 @@ export function GuidePage({
               </li>
             ))}
           </ul>
+          <AmazonPurchaseLinks products={affiliateProducts} className="mt-6" />
         </section>
 
         {/* FAQ — minimal accordion */}

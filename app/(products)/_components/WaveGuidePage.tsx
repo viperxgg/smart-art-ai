@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, CheckCircle2, Sparkles } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { AmazonPurchaseLinks } from "@/components/AmazonPurchaseCta";
 import { JsonLd } from "@/components/JsonLd";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
@@ -13,6 +14,7 @@ import { createSeoMetadata } from "@/lib/metadata";
 import {
   getProductBySlug,
   getProductPageHref,
+  type Product,
   type ProductCategorySlug,
 } from "@/lib/products";
 import { getEditorialScore } from "@/lib/scores";
@@ -67,7 +69,11 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
 
   const products = guide.productSlugs
     .map((slug) => getProductBySlug(slug))
-    .filter(Boolean);
+    .filter((product): product is Product => Boolean(product));
+
+  if (products.length === 0) {
+    throw new Error(`Wave guide "${guideId}" has no products for its Amazon CTA.`);
+  }
 
   const categoryLabel = categoryLabels[guide.category];
   const categoryHref = categoryHrefs[guide.category];
@@ -201,6 +207,8 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
             );
           })}
         </section>
+
+        <AmazonPurchaseLinks products={products} className="mt-6" />
 
         {guide.rows.length ? (
           <section className="reveal-fade mt-12 overflow-hidden rounded-[2rem] border border-line bg-surface/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">

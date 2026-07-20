@@ -5,7 +5,7 @@ import type { Product } from "@/lib/products";
 
 type AmazonCtaProps = {
   href: string;
-  product?: Product;
+  product: Product;
   className?: string;
   panel?: boolean;
 };
@@ -18,7 +18,7 @@ export function AmazonCta({ href, product, className = "", panel = false }: Amaz
       rel="sponsored nofollow noopener noreferrer"
       className="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-full bg-wine px-6 text-base font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition hover:-translate-y-0.5 hover:bg-wine/90 sm:text-lg"
     >
-      Se aktuellt pris på Amazon
+      Köp {product.brand} på Amazon
       <ArrowUpRight size={20} aria-hidden="true" />
     </a>
   );
@@ -27,11 +27,9 @@ export function AmazonCta({ href, product, className = "", panel = false }: Amaz
     return (
       <div className={className}>
         {button}
-        {product ? (
-          <div className="mt-3">
-            <PriceTierBadge product={product} />
-          </div>
-        ) : null}
+        <div className="mt-3">
+          <PriceTierBadge product={product} />
+        </div>
         <p className="mt-3 text-sm leading-6 text-ink-soft">
           Priset visas inte här eftersom Amazon kan ändra pris och lagerstatus.
         </p>
@@ -55,11 +53,9 @@ export function AmazonCta({ href, product, className = "", panel = false }: Amaz
             Kontrollera alltid aktuell information på Amazon innan köp.
           </p>
           <div className="mt-7">{button}</div>
-          {product ? (
-            <div className="mt-4">
-              <PriceTierBadge product={product} />
-            </div>
-          ) : null}
+          <div className="mt-4">
+            <PriceTierBadge product={product} />
+          </div>
         </div>
       </div>
     </section>

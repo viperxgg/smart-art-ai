@@ -12,6 +12,7 @@ import {
 
 import { ElinCtaButton } from "@/components/elin/ElinCtaButton";
 import { ElinHomeHero } from "@/components/elin/ElinHomeHero";
+import { AmazonPurchaseCta } from "@/components/AmazonPurchaseCta";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { comparisonEntries } from "@/lib/comparisons";
@@ -1376,7 +1377,11 @@ const latestUpdates = [
   },
 ] satisfies LatestUpdate[];
 
-export function ProductDiscoveryLanding() {
+export function ProductDiscoveryLanding({
+  showAffiliateCtas = true,
+}: {
+  showAffiliateCtas?: boolean;
+}) {
   return (
     <main
       id="content"
@@ -1392,7 +1397,7 @@ export function ProductDiscoveryLanding() {
         <LatestUpdates />
         <CategoryGateway />
         <SeasonalStrip />
-        <Favorites />
+        <Favorites showAffiliateCtas={showAffiliateCtas} />
         <SelectedComparisons />
       </section>
     </main>
@@ -1757,7 +1762,7 @@ function SeasonalStrip() {
   );
 }
 
-function Favorites() {
+function Favorites({ showAffiliateCtas }: { showAffiliateCtas: boolean }) {
   return (
     <section className="reveal-fade mt-20 sm:mt-24 lg:mt-28" aria-labelledby="favorites-title">
       <div className="flex items-end justify-between gap-3">
@@ -1782,7 +1787,13 @@ function Favorites() {
       </div>
       <div className="mt-5 grid gap-5 lg:grid-cols-3">
         {topPicks.slice(0, 3).map((product, index) => (
-          <FeaturedPick key={product.slug} product={product} priority={index === 0} index={index} />
+          <FeaturedPick
+            key={product.slug}
+            product={product}
+            priority={index === 0}
+            index={index}
+            showAffiliateCta={showAffiliateCtas}
+          />
         ))}
       </div>
     </section>
@@ -1793,10 +1804,12 @@ function FeaturedPick({
   product,
   priority,
   index = 0,
+  showAffiliateCta,
 }: {
   product: Product;
   priority: boolean;
   index?: number;
+  showAffiliateCta: boolean;
 }) {
   const productHref = getProductPageHref(product);
   const score = getEditorialScore(product.slug);
@@ -1845,6 +1858,9 @@ function FeaturedPick({
         <div className="mt-3">
           <PriceTierBadge product={product} showContext />
         </div>
+        {showAffiliateCta ? (
+          <AmazonPurchaseCta product={product} className="mt-4" />
+        ) : null}
       </div>
     </article>
   );

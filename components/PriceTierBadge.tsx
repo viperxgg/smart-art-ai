@@ -7,7 +7,7 @@ type PriceTierBadgeProps = {
   showContext?: boolean;
 };
 
-const explanation = "Relativ prisnivå – se aktuellt pris på Amazon.";
+const explanation = "Relativ prisnivå jämfört med liknande produkter.";
 
 export function PriceTierBadge({
   product,
@@ -26,7 +26,7 @@ export function PriceTierBadge({
       <span>{tier.label}</span>
       {showContext ? (
         <span className="font-bold normal-case text-ink-soft">
-          · Se aktuellt pris på Amazon
+          · Jämförd inom kategorin
         </span>
       ) : null}
     </span>

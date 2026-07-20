@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight, Luggage } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { AmazonPurchaseCta } from "@/components/AmazonPurchaseCta";
 import { JsonLd } from "@/components/JsonLd";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { ScoreBadge } from "@/components/ProductBadges";
@@ -184,6 +185,10 @@ export default function SommarResaPage() {
                         Läs Elins omdöme
                         <ArrowUpRight size={17} aria-hidden="true" />
                       </Link>
+                      <AmazonPurchaseCta
+                        product={pick.product}
+                        className="mt-3 w-full"
+                      />
                     </div>
                   </article>
                 );
