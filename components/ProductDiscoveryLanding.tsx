@@ -36,6 +36,51 @@ const topPicks = [...products]
 
 const selectedComparisons = comparisonEntries.slice(0, 6);
 
+// Compact server-rendered guide links so the home page passes link equity to
+// guide pages in the initial HTML (crawlers don't scroll or click).
+const quickGuideLinks = [
+  {
+    href: "/halsa/morka-morgnar",
+    label: "Höst & vinter",
+    title: "Mörka morgnar: ljus, väckning och kvällsro",
+  },
+  {
+    href: "/halsa/tyngdtacke-guide",
+    label: "Sömn",
+    title: "Tyngdtäcke: Ella eller Good Nite?",
+  },
+  {
+    href: "/halsa/luftfuktare-guide",
+    label: "Inomhusluft",
+    title: "Luftfuktare: ultraljud eller evaporativ?",
+  },
+  {
+    href: "/halsa/luftrenare-guide",
+    label: "Inomhusluft",
+    title: "Luftrenare: Levoit eller Philips?",
+  },
+  {
+    href: "/halsa/eltandborste-guide",
+    label: "Munvård",
+    title: "Eltandborste: Oral-B eller Sonicare?",
+  },
+  {
+    href: "/skonhet/skona-fotter-i-vinter",
+    label: "Vinter",
+    title: "Sköna fötter i vinter",
+  },
+  {
+    href: "/guider/dyson-airwrap-eller-varmluftsborste",
+    label: "Hårvård",
+    title: "Dyson Airwrap eller varmluftsborste – värt priset?",
+  },
+  {
+    href: "/guider/hyaluronsyra-dyrt-vs-budget",
+    label: "Hudvård",
+    title: "Hyaluronsyra: dyrt vs budget – värt skillnaden?",
+  },
+];
+
 type LatestUpdate = {
   type: "Guide" | "Hälsa" | "Hudvård" | "Hårvård" | "Träning" | "Resa";
   title: string;
@@ -1399,6 +1444,7 @@ export function ProductDiscoveryLanding({
         <SeasonalStrip />
         <Favorites showAffiliateCtas={showAffiliateCtas} />
         <SelectedComparisons />
+        <GuideQuickLinks />
       </section>
     </main>
   );
@@ -1538,7 +1584,7 @@ function LatestUpdates() {
         new Date(`${b.date}T00:00:00`).getTime() -
         new Date(`${a.date}T00:00:00`).getTime(),
     )
-    .slice(0, 4);
+    .slice(0, 6);
 
   const now = new Date();
   const newBadgeWindowMs = 14 * 24 * 60 * 60 * 1000;
@@ -1863,6 +1909,47 @@ function FeaturedPick({
         ) : null}
       </div>
     </article>
+  );
+}
+
+function GuideQuickLinks() {
+  return (
+    <section
+      className="reveal-fade mt-20 sm:mt-24 lg:mt-28"
+      aria-labelledby="guide-quick-links-title"
+    >
+      <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
+        Guider
+      </p>
+      <h2
+        id="guide-quick-links-title"
+        className="editorial-color-kiss mt-2 font-display text-4xl leading-tight"
+      >
+        Fler guider från Elin
+      </h2>
+      <ul className="mt-4">
+        {quickGuideLinks.map((link) => (
+          <li key={link.href}>
+            <Link
+              href={link.href}
+              className="group flex min-h-14 min-w-0 items-center justify-between gap-4 border-b border-line py-4 text-base font-semibold text-ink transition hover:text-wine"
+            >
+              <span className="min-w-0 break-words [overflow-wrap:anywhere]">
+                <span className="mr-3 text-xs font-black uppercase tracking-[0.14em] text-rose">
+                  {link.label}
+                </span>
+                {link.title}
+              </span>
+              <ArrowUpRight
+                size={19}
+                className="shrink-0 text-wine transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                aria-hidden="true"
+              />
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 
