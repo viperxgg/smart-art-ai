@@ -128,6 +128,29 @@ const guides = [
   },
 ];
 
+// Seasonal gift guides — surfaced here so they are reachable from the hub
+// (and get indexed history) well before the Christmas search season ramps up.
+const seasonalGuides = [
+  {
+    href: "/guider/julklapp-till-henne",
+    title: "Julklapp till henne",
+    description:
+      "Elins presenttips till henne – doft, hudvård, sminkspegel och mysiga val i olika prislägen.",
+  },
+  {
+    href: "/guider/julklapp-till-honom",
+    title: "Julklapp till honom",
+    description:
+      "Elins presenttips till honom – grooming och smarta vardagsuppgraderingar som känns genomtänkta.",
+  },
+  {
+    href: "/guider/julklappar-budget-mellan-premium",
+    title: "Julklappar i tre prislägen",
+    description:
+      "Julklappstips i budget, mellan och premium – så hittar du en klapp som känns rätt utan att chansa.",
+  },
+];
+
 export default function GuidesIndexPage() {
   return (
     <main
@@ -178,6 +201,41 @@ export default function GuidesIndexPage() {
               </span>
             </Link>
           ))}
+        </section>
+
+        <section className="mt-12" aria-labelledby="seasonal-guides-title">
+          <h2
+            id="seasonal-guides-title"
+            className="editorial-color-kiss font-display text-4xl leading-tight"
+          >
+            Julklappsguider
+          </h2>
+          <p className="mt-3 max-w-2xl text-lg leading-8 text-[#6f5a64]">
+            Presenttips i olika prislägen – så du kan vara ute i god tid.
+          </p>
+          <div className="mt-6 grid gap-5 md:grid-cols-2">
+            {seasonalGuides.map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="group flex h-full flex-col rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] transition hover:-translate-y-1 hover:bg-white"
+              >
+                <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+                  Julklappstips
+                </p>
+                <h3 className="editorial-color-kiss mt-4 font-display text-3xl leading-tight">
+                  {guide.title}
+                </h3>
+                <p className="mt-4 leading-8 text-[#6f5a64]">
+                  {guide.description}
+                </p>
+                <span className="mt-6 inline-flex min-h-11 items-center gap-2 self-start rounded-full bg-[#D8788D] px-5 text-sm font-black text-white shadow-[0_16px_38px_rgba(217,125,145,0.24)]">
+                  Läs guiden
+                  <ArrowUpRight size={16} aria-hidden="true" />
+                </span>
+              </Link>
+            ))}
+          </div>
         </section>
       </div>
     </main>

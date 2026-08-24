@@ -145,6 +145,11 @@ export default function HalsaHubPage() {
         <RelatedLinks
           links={[
             {
+              href: "/halsa/morka-morgnar",
+              label: "Höst & vinter",
+              text: "Mörka morgnar: dagsljuslampa, wake-up light och mjukt kvällssken.",
+            },
+            {
               href: "/traning/traningsband-naturlatex",
               label: "Träning",
               text: "Läs Elins genomgång av träningsband i naturlatex.",

@@ -141,6 +141,16 @@ export default function SkonhetHubPage() {
               text: "Moroccanoil torrschampo Light för ljust hår.",
             },
             {
+              href: "/skonhet/skona-fotter-i-vinter",
+              label: "Vinterguide",
+              text: "Sköna fötter i vinter – fotbad, fotfil och kräm i rätt ordning.",
+            },
+            {
+              href: "/skonhet/tiktok-produkter-som-haller",
+              label: "Viralt",
+              text: "TikTok-produkter som faktiskt håller – Elins ärliga koll.",
+            },
+            {
               href: "/halsa",
               label: "Hälsa & livsstil",
               text: "Se Elins val för återhämtning, smart hem och vardagskänsla.",
