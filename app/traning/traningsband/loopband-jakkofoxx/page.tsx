@@ -13,7 +13,7 @@ const pick = traningsbandPicks.find(
 );
 const pageUrl = `${siteConfig.url}/traning/traningsband/loopband-jakkofoxx`;
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

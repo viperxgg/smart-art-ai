@@ -10,7 +10,7 @@ const pick = foamRollerPicks.find(
 );
 const pageUrl = `${siteConfig.url}/traning/foam-roller/elvire-deep-tissue`;
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

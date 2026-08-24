@@ -7,7 +7,7 @@ const pick = flaktPicks[0];
 const otherPick = flaktPicks[1];
 const pageUrl = `${siteConfig.url}/halsa/flakt/dreo-cruiser-pro`;
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = createSeoMetadata({
   title: pick.metaTitle,

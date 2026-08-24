@@ -3,7 +3,7 @@ import { createWaveGuideMetadata, WaveGuidePage } from "@/app/(products)/_compon
 
 const guideId = "oralb-io6-vart-priset";
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = createWaveGuideMetadata(guideId);
 

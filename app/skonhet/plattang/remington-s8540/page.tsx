@@ -7,7 +7,7 @@ const pick = plattangPicks[0];
 const otherPick = plattangPicks[1];
 const pageUrl = `${siteConfig.url}/skonhet/plattang/remington-s8540`;
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = createSeoMetadata({
   title: pick.metaTitle,

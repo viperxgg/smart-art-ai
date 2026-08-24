@@ -7,7 +7,7 @@ import { getResaPickBySlug } from "@/lib/sommar";
 
 const pick = getResaPickBySlug("iniu-billaddare");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

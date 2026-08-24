@@ -7,7 +7,7 @@ import { getSmartSommarPickBySlug } from "@/lib/sommar";
 
 const pick = getSmartSommarPickBySlug("govee-led-list");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

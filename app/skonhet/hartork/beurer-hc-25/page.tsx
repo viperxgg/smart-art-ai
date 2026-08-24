@@ -10,7 +10,7 @@ const pick = hartorkPicks.find(
 );
 const pageUrl = `${siteConfig.url}/skonhet/hartork/beurer-hc-25`;
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

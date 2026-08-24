@@ -7,7 +7,7 @@ import { getSommarPickBySlug } from "@/lib/sommar";
 
 const pick = getSommarPickBySlug("osis-volympuder");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

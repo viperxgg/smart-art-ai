@@ -11,7 +11,7 @@ import { trackAmazonClick } from "@/lib/gtag";
  *
  * Delegated at the document level and matched via the `rel="sponsored"`
  * marker every Amazon link already carries site-wide (AmazonCta, ProductCard,
- * HomeProductSections, ElinChat, every per-category review page, …) — this
+ * ElinChat, ProductDiscoveryLanding, every per-category review page, …) — this
  * way none of those ~15 call sites need to become Client Components or thread
  * an onClick prop just to report a click. Mounted only when GA is configured
  * (see app/layout.tsx), so it's a no-op — literally not mounted — otherwise.

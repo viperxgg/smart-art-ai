@@ -7,7 +7,7 @@ import { getSommarPickBySlug } from "@/lib/sommar";
 
 const pick = getSommarPickBySlug("cosrx-acne-pimple-patch");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

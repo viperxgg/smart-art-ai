@@ -7,7 +7,7 @@ const pick = flaktPicks[2];
 const otherPick = flaktPicks[0];
 const pageUrl = `${siteConfig.url}/halsa/flakt/midea-fz10`;
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = createSeoMetadata({
   title: pick.metaTitle,

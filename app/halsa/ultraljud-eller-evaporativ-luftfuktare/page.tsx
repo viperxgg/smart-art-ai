@@ -3,7 +3,7 @@ import { createWaveGuideMetadata, WaveGuidePage } from "@/app/(products)/_compon
 
 const guideId = "ultraljud-eller-evaporativ-luftfuktare";
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = createWaveGuideMetadata(guideId);
 

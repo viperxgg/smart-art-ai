@@ -7,7 +7,7 @@ const pick = massagepistolPicks[0];
 const otherPick = massagepistolPicks[1];
 const pageUrl = `${siteConfig.url}/halsa/massagepistol/beurer-mg-99`;
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = createSeoMetadata({
   title: pick.metaTitle,

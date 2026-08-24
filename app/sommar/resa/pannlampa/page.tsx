@@ -7,7 +7,7 @@ import { getResaPickBySlug } from "@/lib/sommar";
 
 const pick = getResaPickBySlug("blukar-pannlampa");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

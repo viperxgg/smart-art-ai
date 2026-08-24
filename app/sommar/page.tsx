@@ -38,7 +38,7 @@ export const metadata = createSeoMetadata({
   },
 });
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export default function SommarPage() {
   return (

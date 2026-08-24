@@ -7,7 +7,7 @@ const pick = massagepistolPicks[1];
 const otherPick = massagepistolPicks[0];
 const pageUrl = `${siteConfig.url}/halsa/massagepistol/kraftfull`;
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = createSeoMetadata({
   title: pick.metaTitle,

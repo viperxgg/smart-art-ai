@@ -7,7 +7,7 @@ import { getTraningsPickBySlug } from "@/lib/sommar";
 
 const pick = getTraningsPickBySlug("ihuan-traningshandskar");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

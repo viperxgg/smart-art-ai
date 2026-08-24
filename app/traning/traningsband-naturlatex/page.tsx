@@ -126,7 +126,7 @@ export const metadata = createSeoMetadata({
   },
 });
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export default async function TraningBandReviewPage() {
   const approvedReviews = await getApprovedReviews(featuredProduct.slug);

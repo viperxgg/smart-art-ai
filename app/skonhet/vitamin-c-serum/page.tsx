@@ -7,7 +7,7 @@ import { getSommarPickBySlug } from "@/lib/sommar";
 
 const pick = getSommarPickBySlug("la-roche-posay-vitamin-c10-serum");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

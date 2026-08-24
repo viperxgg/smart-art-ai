@@ -7,7 +7,7 @@ import { getTraningsPickBySlug } from "@/lib/sommar";
 
 const pick = getTraningsPickBySlug("iron-gym-pull-up-bar");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

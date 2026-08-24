@@ -44,9 +44,10 @@ export const metadata: Metadata = {
   applicationName: siteConfig.name,
   creator: siteConfig.brand,
   authors: [{ name: siteConfig.brand, url: siteConfig.url }],
-  alternates: {
-    canonical: siteConfig.url,
-  },
+  // NOTE: no `alternates.canonical` here on purpose. A root-layout canonical
+  // pointing at the homepage silently canonicalizes any page that forgets its
+  // own metadata to "/". Every public page sets its own canonical via
+  // createSeoMetadata; the home canonical lives in app/page.tsx.
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.description,

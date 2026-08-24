@@ -7,7 +7,7 @@ import { getResaPickBySlug } from "@/lib/sommar";
 
 const pick = getResaPickBySlug("otraki-tvattpase");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

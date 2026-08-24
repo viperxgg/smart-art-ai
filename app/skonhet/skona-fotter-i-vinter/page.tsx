@@ -3,7 +3,7 @@ import { createWaveGuideMetadata, WaveGuidePage } from "@/app/(products)/_compon
 
 const guideId = "skona-fotter-i-vinter";
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = createWaveGuideMetadata(guideId);
 

@@ -7,7 +7,7 @@ import { getResaPickBySlug } from "@/lib/sommar";
 
 const pick = getResaPickBySlug("narwey-hangande-necessar");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

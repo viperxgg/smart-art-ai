@@ -3,7 +3,7 @@ import { createWaveProductMetadata, WaveProductPage } from "@/app/(products)/_co
 
 const productSlug = "xiaomi-smart-band-10";
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = createWaveProductMetadata(productSlug);
 

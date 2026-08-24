@@ -7,7 +7,7 @@ const pick = epilatorPicks[1];
 const otherPick = epilatorPicks[0];
 const pageUrl = `${siteConfig.url}${pick.path}`;
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = createSeoMetadata({
   title: pick.metaTitle,

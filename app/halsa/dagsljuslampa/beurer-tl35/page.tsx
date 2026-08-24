@@ -3,7 +3,7 @@ import { createWaveProductMetadata, WaveProductPage } from "@/app/(products)/_co
 
 const productSlug = "beurer-tl35-dagsljuslampa";
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = createWaveProductMetadata(productSlug);
 

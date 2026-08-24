@@ -10,7 +10,7 @@ const pick = kettlebellPicks.find(
 );
 const pageUrl = `${siteConfig.url}/traning/kettlebell/proiron-mjuk`;
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

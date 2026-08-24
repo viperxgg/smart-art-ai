@@ -7,7 +7,7 @@ import { getSmartSommarPickBySlug } from "@/lib/sommar";
 
 const pick = getSmartSommarPickBySlug("levoit-core-200s-luftrenare");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({

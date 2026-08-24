@@ -7,7 +7,7 @@ import { getResaPickBySlug } from "@/lib/sommar";
 
 const pick = getResaPickBySlug("jetech-vattentatt-mobilfodral");
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
