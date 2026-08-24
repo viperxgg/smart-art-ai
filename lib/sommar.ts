@@ -5251,7 +5251,7 @@ export const sommarPicks: SommarPick[] = [
     targetKeyword: "nivea moisturising after sun lotion",
     metaTitle: "NIVEA Sun After Sun omdöme & betyg | Elins val",
     metaDescription:
-      "NIVEA Moisturising After Sun Lotion omdöme: Elins betyg, köparsignaler och varför den är ett prisvärt val efter solen.",
+      "NIVEA Moisturising After Sun Lotion omdöme: Elins betyg, köparnas omdömen och varför den är ett prisvärt val efter solen.",
     relatedLinks: [
       {
         href: "/skonhet/aftersun-eller-aloe-vera",

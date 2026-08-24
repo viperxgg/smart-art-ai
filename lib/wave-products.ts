@@ -39,7 +39,7 @@ export const sportconicLopbandProduct: Product = {
   summary: "Ett kompakt 2-i-1-band för dig som vill kunna gå och lätt jogga hemma, med armstöd som gör steget från rent gåband tydligare.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Sportconic löpband 2-i-1 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Sportconic löpband 2-i-1 utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Starkt hemmaval när armstöd och lätt jogg är viktigare än bred gymkänsla.",
     checks: [
       {
@@ -78,7 +78,7 @@ export const sportconicLopbandProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Sportconic löpband 2-i-1 är valt för armstöd och 1-12 km/h.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Löpytan är 40 cm bred och armstödet kan kännas lågt för längre personer, så välj inte detta för seriös löpträning.",
@@ -137,7 +137,7 @@ export const citysportsGabandProduct: Product = {
   summary: "Ett rent walking pad-val för skrivbord, vardagsrörelse och låg tröskel hemma utan armstöd eller montering.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom CITYSPORTS gåband utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom CITYSPORTS gåband utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Prisvärt för gång hemma, men tydligt enklare än ett löpband.",
     checks: [
       {
@@ -176,7 +176,7 @@ export const citysportsGabandProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "CITYSPORTS gåband är valt för rent gåband och 1-6 km/h.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Det är ett gåband, inte ett löpband. Maxfarten och den enklare konstruktionen gör det fel för dig som vill jogga.",
@@ -235,7 +235,7 @@ export const inkeyRetinolSerumProduct: Product = {
   summary: "Ett prisvärt retinolserum för kvällsrutinen där styrkan ligger i enkelheten och den starka externa uppmärksamheten.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom The INKEY List Retinol Serum utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom The INKEY List Retinol Serum utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bra budgetretinol för vana hudvårdsrutiner, med tydlig doftcaveat.",
     checks: [
       {
@@ -274,7 +274,7 @@ export const inkeyRetinolSerumProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "The INKEY List Retinol Serum är valt för retinol och apohem-omnämnt.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Doften och känslan passar inte alla. Börja försiktigt och håll dig till kosmetiska förväntningar på hudens utseende.",
@@ -333,7 +333,7 @@ export const ceraveResurfacingRetinolProduct: Product = {
   summary: "Ett mildare retinolval med doftfri CeraVe-känsla och tydligare vardagsprofil än mer aktiva serum.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom CeraVe Resurfacing Retinol Serum utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom CeraVe Resurfacing Retinol Serum utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Trygg formula på papperet, men leveranscaveaten håller poängen nere.",
     checks: [
       {
@@ -372,7 +372,7 @@ export const ceraveResurfacingRetinolProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "CeraVe Resurfacing Retinol Serum är valt för doftfri och mild profil.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Referensen har leveranscaveat kopplad till tredjepart. Kontrollera alltid säljare och lagerstatus innan köp.",
@@ -431,7 +431,7 @@ export const physiciansFormulaBronzerProduct: Product = {
   summary: "En bronzer där rätt nyans är hela poängen: varm, mjuk glow för dig som vill ha solkysst färg utan BUS-rutin.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Physicians Formula Butter Bronzer utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Physicians Formula Butter Bronzer utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Fin glow-bronzer om nyansen stämmer, men inte ett säkert val för den ljusaste huden.",
     checks: [
       {
@@ -470,7 +470,7 @@ export const physiciansFormulaBronzerProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Physicians Formula Butter Bronzer är valt för shade guide och lyster.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Även Light kan bli mörk på väldigt ljus svensk hud och finishen har synligt skimmer, inte matt kontur.",
@@ -529,7 +529,7 @@ export const jeanLenSaltvattensprayProduct: Product = {
   summary: "En enkel saltvattenspray för strävare textur och beach waves-känsla utan salongspris.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Jean & Len saltvattenspray utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Jean & Len saltvattenspray utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Prisvärd för beach texture, svagare för lockdefinition.",
     checks: [
       {
@@ -568,7 +568,7 @@ export const jeanLenSaltvattensprayProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Jean & Len saltvattenspray är valt för beach waves och vegan.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Inte rätt val för definierade lockar. Referensen beskriver en pudrig känsla som kan störa lockrutiner.",
@@ -627,7 +627,7 @@ export const mideaGolvflaktProduct: Product = {
   summary: "En tystare golvfläkt med fjärrkontroll och timer för dig som vill ha mer luft än en liten bordsfläkt.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Midea MFS400 golvfläkt utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Midea MFS400 golvfläkt utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Starkt fläktval när luftflöde och låg ljudnivå prioriteras.",
     checks: [
       {
@@ -666,7 +666,7 @@ export const mideaGolvflaktProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Midea MFS400 golvfläkt är valt för dc-motor och fjärrkontroll.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Golvformatet tar mer plats än en tornfläkt. dB-uppgifter behandlas som köpar- och säljarinformation, inte som egen mätning.",
@@ -725,7 +725,7 @@ export const beurerTl35DagsljuslampaProduct: Product = {
   summary: "En kompakt dagsljuslampa för mörka morgnar när du vill ha ett tydligare ljusinslag vid skrivbordet.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Beurer TL35 dagsljuslampa utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Beurer TL35 dagsljuslampa utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Smidigt Beurer-val för extra ljus utan stor apparat.",
     checks: [
       {
@@ -764,7 +764,7 @@ export const beurerTl35DagsljuslampaProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Beurer TL35 dagsljuslampa är valt för kompakt och beurer.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Det här är extra ljus i vardagen, inte ett löfte om medicinsk effekt. Följ alltid produktens instruktioner.",
@@ -823,7 +823,7 @@ export const beurerTl30DagsljuslampaProduct: Product = {
   summary: "Ett litet och beprövat Beurer-alternativ för dig som vill ha extra ljus utan att ta upp mycket plats.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Beurer TL30 dagsljuslampa utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Beurer TL30 dagsljuslampa utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Det mest beprövade dagsljusvalet i paret.",
     checks: [
       {
@@ -832,7 +832,7 @@ export const beurerTl30DagsljuslampaProduct: Product = {
       },
       {
         label: "Det Elin inte vill överdriva",
-        text: "Välj inte efter stora behandlingslöften. Här bedöms format, användbarhet och köparsignaler.",
+        text: "Välj inte efter stora behandlingslöften. Här bedöms format, användbarhet och köparnas omdömen.",
       },
     ],
   },
@@ -862,10 +862,10 @@ export const beurerTl30DagsljuslampaProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Beurer TL30 dagsljuslampa är valt för resefodral och beprövad.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
-      "Välj inte efter stora behandlingslöften. Här bedöms format, användbarhet och köparsignaler.",
+      "Välj inte efter stora behandlingslöften. Här bedöms format, användbarhet och köparnas omdömen.",
     ],
   },
   ugcVideos: [],
@@ -878,7 +878,7 @@ export const beurerTl30DagsljuslampaProduct: Product = {
     "Tydligare val när du jämför mot alternativen i samma guide.",
   ],
   honestCheck: [
-    "Välj inte efter stora behandlingslöften. Här bedöms format, användbarhet och köparsignaler.",
+    "Välj inte efter stora behandlingslöften. Här bedöms format, användbarhet och köparnas omdömen.",
     "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
   ],
   comments: [],
@@ -921,7 +921,7 @@ export const beurerHd75ElfiltProduct: Product = {
   summary: "En elektrisk filt för soffan när du vill ha jämn mysvärme utan att värma upp hela rummet.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Beurer HD75 elfilt utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Beurer HD75 elfilt utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bra soffvärme med tydligt säkerhetsfokus.",
     checks: [
       {
@@ -960,7 +960,7 @@ export const beurerHd75ElfiltProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Beurer HD75 elfilt är valt för mysvärme och beurer.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Mysvärme, inte het värme. Läs säkerhetsinstruktionerna och använd aldrig produkten på ett sätt som tillverkaren avråder från.",
@@ -1019,7 +1019,7 @@ export const emerioVarmeflaktProduct: Product = {
   summary: "En kompakt värmefläkt för snabb punktvärme i ett kallt hörn eller ett tillfälligt arbetsrum.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Emerio värmefläkt utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Emerio värmefläkt utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Helt okej snabbvärme, men inte lika behaglig för långa pass.",
     checks: [
       {
@@ -1058,7 +1058,7 @@ export const emerioVarmeflaktProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Emerio värmefläkt är valt för snabb punktvärme och kompakt.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Värmefläktar ska användas under uppsikt och enligt säkerhetsråd. Ljud och luftdrag hör till kompromissen.",
@@ -1117,7 +1117,7 @@ export const delonghiOljefylltElementProduct: Product = {
   summary: "Ett oljefyllt element för tystare och mer uthållig värme när snabb luftström inte är målet.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom De'Longhi oljefyllt element utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom De'Longhi oljefyllt element utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bra för tyst långtidsvärme, men säljare/frakt och tempo drar ned.",
     checks: [
       {
@@ -1156,7 +1156,7 @@ export const delonghiOljefylltElementProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "De'Longhi oljefyllt element är valt för tyst värme och långsam värme.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Referensen har tredjeparts- och fraktcaveat. Det värmer långsammare än en fläkt och kräver plats.",
@@ -1215,7 +1215,7 @@ export const beurerLb200LuftfuktareProduct: Product = {
   summary: "En evaporativ luftfuktare för dig som hellre vill ha en mer självreglerande typ än ultraljudsdimma.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Beurer LB200 luftfuktare utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Beurer LB200 luftfuktare utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Smart typval för rätt hem, men kräver mer förståelse än en enkel dimmaskin.",
     checks: [
       {
@@ -1254,7 +1254,7 @@ export const beurerLb200LuftfuktareProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Beurer LB200 luftfuktare är valt för evaporativ och beurer.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Den är inte lika visuellt direkt som ultraljud. Filter, rengöring och rumsmiljö avgör hur nöjd du blir.",
@@ -1313,7 +1313,7 @@ export const philips600LuftrenareProduct: Product = {
   summary: "En kompakt luftrenare för mindre ytor där filter, ljudnivå och enkel placering är viktigare än smarta extrafunktioner.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Philips 600 luftrenare utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Philips 600 luftrenare utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Trygg kompakt luftrenare med tydlig filtercaveat.",
     checks: [
       {
@@ -1352,7 +1352,7 @@ export const philips600LuftrenareProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Philips 600 luftrenare är valt för hepa-filter och kompakt.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Inga löften om medicinska effekter. Filterbyten och rumsstorlek är avgörande för om den passar.",
@@ -1411,7 +1411,7 @@ export const goodNiteTyngdtackeProduct: Product = {
   summary: "Ett tyngdtäcke för vuxna som vill ha en ombonad och tyngre känsla i sängen.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Good Nite tyngdtäcke utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Good Nite tyngdtäcke utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bra vuxenval om du vill ha tydlig tyngd, men personligt i känslan.",
     checks: [
       {
@@ -1450,7 +1450,7 @@ export const goodNiteTyngdtackeProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Good Nite tyngdtäcke är valt för 8 kg och mjuk känsla.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Tyngdtäcken är personliga. Välj inte för barn här och utgå från vikt, värmekänsla och tvättråd.",
@@ -1509,7 +1509,7 @@ export const beurerFw20FotvarmareProduct: Product = {
   summary: "En enkel fotvärmare för kalla kvällar vid skrivbordet eller soffan.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Beurer FW20 fotvärmare utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Beurer FW20 fotvärmare utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Helt okej för frusna fötter, men tunt lager och säljare håller nere poängen.",
     checks: [
       {
@@ -1548,7 +1548,7 @@ export const beurerFw20FotvarmareProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Beurer FW20 fotvärmare är valt för fotmys och beurer.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Referensen pekar på tredjepart och tunt lager. Förvänta dig mild fotmys, inte kraftig värme.",
@@ -1607,7 +1607,7 @@ export const philipsSonicare5300Product: Product = {
   summary: "En Sonicare-borste för dig som föredrar slank känsla, tydliga lägen och ett mer mjukt borstsätt.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Philips Sonicare 5300 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Philips Sonicare 5300 utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Starkt Sonicare-val med bra funktionsnivå.",
     checks: [
       {
@@ -1616,7 +1616,7 @@ export const philipsSonicare5300Product: Product = {
       },
       {
         label: "Det Elin inte vill överdriva",
-        text: "Munvård är individuell. Här bedöms funktioner, borsthuvudsekonomi och köparsignaler, inte tandhälsolöften.",
+        text: "Munvård är individuell. Här bedöms funktioner, borsthuvudsekonomi och köparnas omdömen – inte tandhälsolöften.",
       },
     ],
   },
@@ -1646,10 +1646,10 @@ export const philipsSonicare5300Product: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Philips Sonicare 5300 är valt för sonicare och trycksensor.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
-      "Munvård är individuell. Här bedöms funktioner, borsthuvudsekonomi och köparsignaler, inte tandhälsolöften.",
+      "Munvård är individuell. Här bedöms funktioner, borsthuvudsekonomi och köparnas omdömen – inte tandhälsolöften.",
     ],
   },
   ugcVideos: [],
@@ -1662,7 +1662,7 @@ export const philipsSonicare5300Product: Product = {
     "Tydligare val när du jämför mot alternativen i samma guide.",
   ],
   honestCheck: [
-    "Munvård är individuell. Här bedöms funktioner, borsthuvudsekonomi och köparsignaler, inte tandhälsolöften.",
+    "Munvård är individuell. Här bedöms funktioner, borsthuvudsekonomi och köparnas omdömen – inte tandhälsolöften.",
     "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
   ],
   comments: [],
@@ -1705,7 +1705,7 @@ export const oralbIo6Product: Product = {
   summary: "En mer påkostad Oral-B-borste för dig som vill ha iO-känsla, display och tydlig feedback.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Oral-B iO Series 6 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Oral-B iO Series 6 utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Fin borste, men borsthuvudsekonomin gör valet mindre självklart.",
     checks: [
       {
@@ -1744,7 +1744,7 @@ export const oralbIo6Product: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Oral-B iO Series 6 är valt för io-system och display.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "iO-borsthuvuden kostar mer än enklare Oral-B-huvuden. Räkna på förbrukningen, inte bara själva borsten.",
@@ -1803,7 +1803,7 @@ export const philipsPowerFlosserProduct: Product = {
   summary: "En stationär water flosser för dig som vill ha mer vattentank och stabil känsla vid handfatet.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Philips Power Flosser 3000 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Philips Power Flosser 3000 utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Stabilt premiumval för dig som har plats vid handfatet.",
     checks: [
       {
@@ -1842,7 +1842,7 @@ export const philipsPowerFlosserProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Philips Power Flosser 3000 är valt för vattenflosser och philips.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Den tar plats på badrumshyllan och ersätter inte vanliga råd från tandvården. Fokus här är funktion och vardagskänsla.",
@@ -1901,7 +1901,7 @@ export const surfouWaterFlosserProduct: Product = {
   summary: "En billigare portabel water flosser för dig som vill testa kategorin utan stationär bänkenhet.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom SURFOU water flosser utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom SURFOU water flosser utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Helt okej budgettest, men inte lika stabil som bänkenhet.",
     checks: [
       {
@@ -1940,7 +1940,7 @@ export const surfouWaterFlosserProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "SURFOU water flosser är valt för portabel och budget.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Budgetformatet innebär mindre tank och enklare känsla. Välj Philips om du vill ha mer stabilitet hemma.",
@@ -1999,7 +1999,7 @@ export const beurerFb35FotbadProduct: Product = {
   summary: "Ett elektriskt fotbad för vinterrutinen när du vill ha bubblor, vibration och varmhållning i samma balja.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Beurer FB35 fotbad utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Beurer FB35 fotbad utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bra om du förstår varmhållningen, svagare om du förväntar dig uppvärmning från kallt.",
     checks: [
       {
@@ -2038,7 +2038,7 @@ export const beurerFb35FotbadProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Beurer FB35 fotbad är valt för fotbad och massagekänsla.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Viktig caveat: det värmer inte upp kallt vatten, utan håller främst värmen. Börja med lagom varmt vatten.",
@@ -2097,7 +2097,7 @@ export const deanicFotbadProduct: Product = {
   summary: "Ett enkelt hopfällbart fotbad för dig som vill spara plats och inte behöver elfunktioner.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom DEANIC hopfällbart fotbad utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom DEANIC hopfällbart fotbad utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Prisvärt och platsbesparande när enkelhet är poängen.",
     checks: [
       {
@@ -2136,7 +2136,7 @@ export const deanicFotbadProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "DEANIC hopfällbart fotbad är valt för hopfällbart och enkelt.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Det är en smart balja snarare än ett elektriskt spa. Komforten beror på vattnet du fyller i och hur du använder den.",
@@ -2195,7 +2195,7 @@ export const bioOilProduct: Product = {
   summary: "En parfymerad klassiker för mjukare hudkänsla och glow på kroppen.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Bio-Oil hudvårdsolja utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Bio-Oil hudvårdsolja utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Stark klassiker för kroppsglow, men jojoba är renare och mer neutral.",
     checks: [
       {
@@ -2234,7 +2234,7 @@ export const bioOilProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Bio-Oil hudvårdsolja är valt för kroppsolja och klassiker.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Håll förväntningarna kosmetiska. Doft och oljig finish passar inte alla, särskilt om du vill ha en helt ren olja.",
@@ -2293,7 +2293,7 @@ export const philipsOneblade360Product: Product = {
   summary: "En hybridtrimmer för stubb, kanter och snabb grooming när babyslätt inte är målet.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Philips OneBlade 360 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Philips OneBlade 360 utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bästa hybridvalet, men bladkostnaden ska räknas in.",
     checks: [
       {
@@ -2332,7 +2332,7 @@ export const philipsOneblade360Product: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Philips OneBlade 360 är valt för hybrid och 360-blad.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Bladen byts regelbundet och kostar över tid. Den rakar inte lika slätt som en klassisk rakapparat.",
@@ -2391,7 +2391,7 @@ export const philipsSkaggtrimmer3000Product: Product = {
   summary: "En prisvärd skäggtrimmer för längdkontroll och vardagsunderhåll utan löpande bladkostnad.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Philips skäggtrimmer 3000 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Philips skäggtrimmer 3000 utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bästa ekonomiska skäggvalet i grooming-paret.",
     checks: [
       {
@@ -2430,7 +2430,7 @@ export const philipsSkaggtrimmer3000Product: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Philips skäggtrimmer 3000 är valt för självslipande blad och skägg.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Den är mindre flexibel än OneBlade för kanter och kropp, men mer ekonomisk för vanligt skägg.",
@@ -2489,7 +2489,7 @@ export const remingtonHarklippareProduct: Product = {
   summary: "En enkel hårklippare för hemmaklippning där pris och många kammar väger tyngre än sladdlös frihet.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Remington hårklippare HC5035 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Remington hårklippare HC5035 utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Prisvärd hemmaklippare, med sladden som tydlig kompromiss.",
     checks: [
       {
@@ -2528,7 +2528,7 @@ export const remingtonHarklippareProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Remington hårklippare HC5035 är valt för hårklippning och många kammar.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Den har sladd. Det är stabilt för drift men sämre om du vill klippa fritt utan kabel.",
@@ -2587,7 +2587,7 @@ export const philipsRakapparat5000Product: Product = {
   summary: "En roterande rakapparat för dig som vill ha jämnare rakrutin än hybridtrimning.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Philips rakapparat 5000 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Philips rakapparat 5000 utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bra rakapparat när slätare resultat är viktigare än hybridflex.",
     checks: [
       {
@@ -2626,7 +2626,7 @@ export const philipsRakapparat5000Product: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Philips rakapparat 5000 är valt för rakapparat och philips.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Roterande rakapparater har inlärningskurva och passar inte alla hud- och skäggtyper lika bra.",
@@ -2685,7 +2685,7 @@ export const winseaNasharstrimmerProduct: Product = {
   summary: "En billig detaljtrimmer för näsa och små groomingjobb som ofta blir bra som extraköp.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Winsea näshårstrimmer utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Winsea näshårstrimmer utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Prisvärd liten groomingprodukt med tydligt avgränsat jobb.",
     checks: [
       {
@@ -2724,7 +2724,7 @@ export const winseaNasharstrimmerProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Winsea näshårstrimmer är valt för budget och usb.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Det här är en smal specialprodukt. Köp den för detaljtrim, inte som ersättning för skäggtrimmer.",
@@ -2783,7 +2783,7 @@ export const lorealSkaggoljaProduct: Product = {
   summary: "En enkel skäggolja för mjukare känsla och mer vårdad finish i skägget.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom L'Oréal Barber Club skäggolja utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom L'Oréal Barber Club skäggolja utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bra budgetolja för mjukare skäggkänsla, men enkel presentation.",
     checks: [
       {
@@ -2822,7 +2822,7 @@ export const lorealSkaggoljaProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "L'Oréal Barber Club skäggolja är valt för skäggolja och budget.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Referensen har bara en produktbild, så bildgalleriet bygger på beskärningar. Inga hudlöften används.",
@@ -2881,7 +2881,7 @@ export const yankeeCandleCleanCottonProduct: Product = {
   summary: "Ett stort doftljus för dig som vill ha ren tvättkänsla och långsam vardagsmys.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Yankee Candle Clean Cotton utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Yankee Candle Clean Cotton utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Mysig klassiker, men tredjepart och doftsmak gör den mindre självklar.",
     checks: [
       {
@@ -2920,7 +2920,7 @@ export const yankeeCandleCleanCottonProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Yankee Candle Clean Cotton är valt för doftljus och stor burk.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Referensen markerar tredjepart. Doft är personlig och stor burk är inte alltid rätt för små rum.",
@@ -2979,7 +2979,7 @@ export const ritualsSakuraPresentsetProduct: Product = {
   summary: "Ett färdigt presentset när du vill ge något som känns genomtänkt utan att bygga egen korg.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Rituals Sakura presentset utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Rituals Sakura presentset utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Fin presentkänsla, men säljarkontroll krävs.",
     checks: [
       {
@@ -3018,7 +3018,7 @@ export const ritualsSakuraPresentsetProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Rituals Sakura presentset är valt för presentset och sakura.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Referensen markerar tredjepart. Kontrollera säljare, förpackning och leveransdatum extra noga inför presentköp.",
@@ -3077,7 +3077,7 @@ export const solDeJaneiroJetSetProduct: Product = {
   summary: "Ett viralt doft- och kroppsvårdsset i reseformat för dig som vill ge eller testa Sol de Janeiro utan fullstorlek.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Sol de Janeiro Jet Set utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Sol de Janeiro Jet Set utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Stark present och viral favorit, med doften som avgörande fråga.",
     checks: [
       {
@@ -3116,7 +3116,7 @@ export const solDeJaneiroJetSetProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Sol de Janeiro Jet Set är valt för viral och resestorlek.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Doften är starkt personlig. Välj inte bara för hypen om mottagaren föredrar diskreta dofter.",
@@ -3175,7 +3175,7 @@ export const kindlePaperwhiteProduct: Product = {
   summary: "En e-läsare för dig som vill ha fokuserad läsning, lång batteritid och Amazons ekosystem.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Kindle Paperwhite 16 GB utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Kindle Paperwhite 16 GB utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bästa valet för Amazon-läsaren, men inte mest öppet.",
     checks: [
       {
@@ -3214,7 +3214,7 @@ export const kindlePaperwhiteProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Kindle Paperwhite 16 GB är valt för e-ink och 16 gb.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Kindle är starkast om du trivs i Amazons bokvärld. Välj Kobo om öppenhet och bibliotekslån väger tyngre.",
@@ -3273,7 +3273,7 @@ export const renphoOgonmassagerProduct: Product = {
   summary: "En pausprodukt för ögonområdet med värme och tryckkänsla när du vill stänga ute vardagen en stund.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom RENPHO ögonmassager utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom RENPHO ögonmassager utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Helt okej som pausprodukt, men compliance och passform gör den känslig.",
     checks: [
       {
@@ -3312,7 +3312,7 @@ export const renphoOgonmassagerProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "RENPHO ögonmassager är valt för värme och pausprodukt.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Inga löften om syn, sömn eller medicinska effekter. Passform, tryck och ljud passar inte alla.",
@@ -3371,7 +3371,7 @@ export const comfierMassagesitsProduct: Product = {
   summary: "En massagesits för soffan eller kontorsstolen när du vill ha en större, stilla pausprodukt än massagepistol.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Comfier massagesits utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Comfier massagesits utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bra present till rätt stol, men mindre flexibel än massagepistol.",
     checks: [
       {
@@ -3410,7 +3410,7 @@ export const comfierMassagesitsProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Comfier massagesits är valt för stolformat och värme.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Det är komfort och avkoppling, inte behandling. Storlek, stolens form och trycket avgör upplevelsen.",
@@ -3469,7 +3469,7 @@ export const wirelumeHanddammsugareProduct: Product = {
   summary: "En liten handdammsugare för smulor, bil och snabba städjobb där robotdammsugaren inte kommer åt.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Wirelume handdammsugare utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Wirelume handdammsugare utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Praktiskt komplement för småstädning.",
     checks: [
       {
@@ -3508,7 +3508,7 @@ export const wirelumeHanddammsugareProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Wirelume handdammsugare är valt för handdammsugare och snabbfix.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Det är ett komplement, inte en fullstor dammsugare. Batteritid och behållare sätter gränsen.",
@@ -3567,7 +3567,7 @@ export const auxmirSminkspegelProduct: Product = {
   summary: "En kompakt LED-sminkspegel för badrum, skrivbord och resor där storlek är viktigare än Hollywoodkänsla.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Auxmir kompakt sminkspegel utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Auxmir kompakt sminkspegel utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Smidig spegel för små ytor och vardagsmakeup.",
     checks: [
       {
@@ -3606,7 +3606,7 @@ export const auxmirSminkspegelProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Auxmir kompakt sminkspegel är valt för led och kompakt.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Ljuset och förstoring är hjälpmedel, inte garanti för perfekt makeup. Kontrollera mått före köp.",
@@ -3665,7 +3665,7 @@ export const baytHollywoodSpegelProduct: Product = {
   summary: "En större sminkspegel med Hollywoodkänsla för dig som vill ha fast makeupstation hemma.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Bayt Hollywood-spegel utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Bayt Hollywood-spegel utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Helt okej för makeupstation, men QC-risken gör att Elin sänker poängen.",
     checks: [
       {
@@ -3704,7 +3704,7 @@ export const baytHollywoodSpegelProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Bayt Hollywood-spegel är valt för hollywood och stor spegel.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Referensen har QC-risk kring lampor. Köp bara om storleken och returvillkoren känns trygga.",
@@ -3763,7 +3763,7 @@ export const plantifiqueAnsiktsrulleProduct: Product = {
   summary: "Ett set med ansiktsrulle och gua sha för en sval, taktil stund i hudvårdsrutinen.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Plantifique ansiktsrulle och gua sha utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Plantifique ansiktsrulle och gua sha utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Prisvärt rutinset, men claims runt kategorin kräver lågmäld copy.",
     checks: [
       {
@@ -3802,7 +3802,7 @@ export const plantifiqueAnsiktsrulleProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Plantifique ansiktsrulle och gua sha är valt för roller och gua sha.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Håll det kosmetiskt: verktygen ger känsla och rutin, inte medicinska effekter eller avgiftande löften.",
@@ -3861,7 +3861,7 @@ export const ultrasportFBikeProduct: Product = {
   summary: "En hopfällbar motionscykel för hemmakondition när låg platsåtgång och enkel användning är viktigare än studiokänsla.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Ultrasport F-Bike Advanced utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Ultrasport F-Bike Advanced utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Starkt platsbesparande cykelval med tydlig viktgräns.",
     checks: [
       {
@@ -3900,7 +3900,7 @@ export const ultrasportFBikeProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Ultrasport F-Bike Advanced är valt för hopfällbar och ryggstöd.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Max användarvikt 100 kg måste matcha användaren. Hopfällbar känsla är inte lika stabil som större cyklar.",
@@ -3959,7 +3959,7 @@ export const ziproMotionscykelProduct: Product = {
   summary: "En kompakt budgetcykel för kortare hemmepass och mindre ytor.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Zipro motionscykel utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Zipro motionscykel utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Helt okej budgetcykel för kortare personer, men storleken sänker poängen.",
     checks: [
       {
@@ -3998,7 +3998,7 @@ export const ziproMotionscykelProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Zipro motionscykel är valt för kompakt och budget.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Referensen lyfter storleksproblem för längre personer. Välj hellre större modell om du är lång.",
@@ -4057,7 +4057,7 @@ export const proironSkivstangSetProduct: Product = {
   summary: "Ett 2-i-1-set för dig som vill kombinera hantlar och skivstångskänsla utan full utrustningsvägg.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom PROIRON 2-i-1 skivstångsset utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom PROIRON 2-i-1 skivstångsset utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Smart hemmagym-set när flexibilitet går före maximal skivstångskänsla.",
     checks: [
       {
@@ -4096,7 +4096,7 @@ export const proironSkivstangSetProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "PROIRON 2-i-1 skivstångsset är valt för 2-i-1 och hantlar.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "2-i-1 är praktiskt men inte samma sak som en riktig skivstång med gymkänsla och snabb viktväxling.",
@@ -4155,7 +4155,7 @@ export const gorillaSkivstangProduct: Product = {
   summary: "Ett mer klassiskt skivstångsset för dig som vill ha riktig stångkänsla hemma.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Gorilla Sports skivstångsset utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Gorilla Sports skivstångsset utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Mer riktig stångkänsla, men svagare köparunderlag och leveranscaveat.",
     checks: [
       {
@@ -4194,7 +4194,7 @@ export const gorillaSkivstangProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Gorilla Sports skivstångsset är valt för riktig stång och viktskivor.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Referensen nämner tvåpaketsleverans. Färre betyg gör också valet mindre beprövat än PROIRON.",
@@ -4253,7 +4253,7 @@ export const merachRoddmaskinProduct: Product = {
   summary: "En roddmaskin för dig som vill ha helkroppsrörelse hemma och föredrar sittande kondition framför gång eller cykel.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom MERACH roddmaskin utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom MERACH roddmaskin utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Starkt cardioalternativ hemma om du har plats för roddrörelsen.",
     checks: [
       {
@@ -4292,7 +4292,7 @@ export const merachRoddmaskinProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "MERACH roddmaskin är valt för rodd hemma och hopfällbar.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Inga fett- eller kroppslöften används. Kontrollera mått, ljud och förvaring innan köp.",
@@ -4351,7 +4351,7 @@ export const xiaomiSmartBand10Product: Product = {
   summary: "Ett prisvärt aktivitetsband för vardagsdata, timer, aviseringar och enkel träningslogg.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Xiaomi Smart Band 10 utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Xiaomi Smart Band 10 utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Prisvärt smartband för vardag och träning, med rätt förväntningar på data.",
     checks: [
       {
@@ -4390,7 +4390,7 @@ export const xiaomiSmartBand10Product: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Xiaomi Smart Band 10 är valt för aktivitetsband och amoled.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Mätvärden från aktivitetsband ska ses som konsumentdata, inte medicinska mätningar.",
@@ -4449,7 +4449,7 @@ export const bemaxxPusselmattaProduct: Product = {
   summary: "Ett golvskydd för träningsmaskiner, vikter och hemmagym där underlaget behöver lite mer tålighet.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom bemaxx pusselmatta utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom bemaxx pusselmatta utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Starkt tillbehörsköp för hemmagym och maskiner.",
     checks: [
       {
@@ -4488,7 +4488,7 @@ export const bemaxxPusselmattaProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "bemaxx pusselmatta är valt för 18 delar och golvskydd.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Pusselmattor kan glida eller få märken av tung utrustning. Mät ytan och bygg hellre för stort än för snålt.",
@@ -4547,7 +4547,7 @@ export const tymoUtratningsborsteProduct: Product = {
   summary: "En uträtningsborste för dig som vill släta ut och polera håret snabbare än med klassisk plattångsteknik.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom TYMO RING uträtningsborste utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom TYMO RING uträtningsborste utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Starkt snabbval för mjukare släthet, inte för maximal plattångsfinish.",
     checks: [
       {
@@ -4586,7 +4586,7 @@ export const tymoUtratningsborsteProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "TYMO RING uträtningsborste är valt för värmeborste och snabb styling.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Resultatet blir mer borstat och mjukt än superplatt. Använd värmeskydd och välj temperatur efter hårtyp.",
@@ -4645,7 +4645,7 @@ export const gihaliHardiffusorProduct: Product = {
   summary: "En universell diffusor för lockrutinen när du vill sprida luftflödet från fönen mjukare.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom GIHALI hårdiffusor universal utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom GIHALI hårdiffusor universal utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Bra billig lockkompis om den passar din fön.",
     checks: [
       {
@@ -4684,7 +4684,7 @@ export const gihaliHardiffusorProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "GIHALI hårdiffusor universal är valt för universal och lockar.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Universal passform betyder inte att den sitter perfekt på alla fönar. Kontrollera måtten noga.",
@@ -4743,7 +4743,7 @@ export const colorWowDreamCoatProduct: Product = {
   summary: "En viral hårspray för dig som vill ha slätare, glansigare finish vid föning.",
   evaluation: {
     headline: "Elins snabba koll",
-    intro: "Elin går igenom Color Wow Dream Coat utifrån referensfilen, köparsignalerna och den praktiska kompromissen.",
+    intro: "Elin går igenom Color Wow Dream Coat utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
     verdict: "Premiumsprayen med starkast viral tyngd, men kräver rätt rutin.",
     checks: [
       {
@@ -4782,7 +4782,7 @@ export const colorWowDreamCoatProduct: Product = {
     ratingCheckedAt: "juli 2026",
     highlights: [
       "Color Wow Dream Coat är valt för anti-frizz och viral.",
-      "Elin väger in köparsignaler, specifikationer och dokumenterade caveats från referensfilen.",
+      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
     ],
     cautions: [
       "Det är en stylingprodukt som aktiveras med värme. Förvänta dig inte mirakel utan rätt applicering och föning.",

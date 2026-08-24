@@ -9073,7 +9073,7 @@ export const ironGymPullUpProduct: Product = {
       },
       {
         label: "Det vi inte vill överdriva",
-        text: "Ett enda omdöme räcker inte som köparsignal. Dörrkarmen och monteringen är viktigare än produkttexten.",
+        text: "Ett enda omdöme räcker inte för att dra slutsatser. Dörrkarmen och monteringen är viktigare än produkttexten.",
       },
     ],
   },

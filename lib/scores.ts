@@ -605,7 +605,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 22,
     proven: 14,
     total: 90,
-    verdict: "Utmärkt vardagsval med starka köparsignaler och tydlig nytta.",
+    verdict: "Utmärkt vardagsval med starka omdömen från köpare och tydlig nytta.",
   },
   "soundcore-hogtalare": {
     value: 24,
@@ -677,7 +677,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 16,
     proven: 12,
     total: 63,
-    verdict: "Helt okej, men svagare köparsignal gör att Elin skulle jämföra alternativen först.",
+    verdict: "Helt okej, men svagare omdömen från köpare gör att Elin skulle jämföra alternativen först.",
   },
   "renpho-massagekudde": {
     value: 24,
@@ -821,7 +821,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 22,
     proven: 12,
     total: 90,
-    verdict: "Utmärkt träningsval med starka köparsignaler och tydlig nytta.",
+    verdict: "Utmärkt träningsval med starka omdömen från köpare och tydlig nytta.",
   },
   "cpsports-lyftarbalte": {
     value: 24,
@@ -853,7 +853,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 21,
     proven: 14,
     total: 90,
-    verdict: "Utmärkt träningsval med starka köparsignaler och tydlig nytta.",
+    verdict: "Utmärkt träningsval med starka omdömen från köpare och tydlig nytta.",
   },
   "gorilla-gymnastikringar": {
     value: 26,
@@ -925,7 +925,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 22,
     proven: 15,
     total: 90,
-    verdict: "Utmärkt skönhetsval med starka köparsignaler och tydlig nytta.",
+    verdict: "Utmärkt skönhetsval med starka omdömen från köpare och tydlig nytta.",
   },
   "press-on-naglar": {
     value: 24,
@@ -997,7 +997,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 22,
     proven: 15,
     total: 90,
-    verdict: "Utmärkt skönhetsval med starka köparsignaler och tydlig nytta.",
+    verdict: "Utmärkt skönhetsval med starka omdömen från köpare och tydlig nytta.",
   },
   "tanologist-tan-drops": {
     value: 26,
@@ -1021,7 +1021,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 21,
     proven: 14,
     total: 90,
-    verdict: "Utmärkt skönhetsval med starka köparsignaler och tydlig nytta.",
+    verdict: "Utmärkt skönhetsval med starka omdömen från köpare och tydlig nytta.",
   },
   "maria-nila-texturspray": {
     value: 21,
@@ -1069,7 +1069,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 21,
     proven: 15,
     total: 90,
-    verdict: "Utmärkt skönhetsval med starka köparsignaler och tydlig nytta.",
+    verdict: "Utmärkt skönhetsval med starka omdömen från köpare och tydlig nytta.",
   },
   "kitsch-claw-clips": {
     value: 24,
@@ -1285,7 +1285,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 22,
     proven: 13,
     total: 91,
-    verdict: "Utmärkt skönhetsval med starka köparsignaler och tydlig nytta.",
+    verdict: "Utmärkt skönhetsval med starka omdömen från köpare och tydlig nytta.",
   },
   "cosrx-aha-bha-toner": {
     value: 26,
@@ -1301,7 +1301,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 21,
     proven: 15,
     total: 90,
-    verdict: "Utmärkt skönhetsval med starka köparsignaler och tydlig nytta.",
+    verdict: "Utmärkt skönhetsval med starka omdömen från köpare och tydlig nytta.",
   },
   "some-by-mi-cleansing-oil": {
     value: 26,
@@ -1373,7 +1373,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 21,
     proven: 15,
     total: 90,
-    verdict: "Utmärkt skönhetsval med starka köparsignaler och tydlig nytta.",
+    verdict: "Utmärkt skönhetsval med starka omdömen från köpare och tydlig nytta.",
   },
   "silkesorngott-mullbarssilke": {
     value: 26,

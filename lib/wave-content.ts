@@ -100,8 +100,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "sportconic-lopband-recensioner",
     reviewFormId: "sportconic-lopband-skriv-recension",
     targetKeyword: "sportconic löpband 2-i-1",
-    metaTitle: "Sportconic löpband 2-i-1 – Elins ärliga koll | Elins val",
-    metaDescription: "Sportconic löpband 2-i-1: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Sportconic löpband 2-i-1 test 2026 | Elins val",
+    metaDescription: "Funderar du på Sportconic löpband 2-i-1? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/traning",
@@ -176,8 +176,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "citysports-gaband-recensioner",
     reviewFormId: "citysports-gaband-skriv-recension",
     targetKeyword: "citysports gåband",
-    metaTitle: "CITYSPORTS gåband – Elins ärliga koll | Elins val",
-    metaDescription: "CITYSPORTS gåband: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "CITYSPORTS gåband test 2026 | Elins val",
+    metaDescription: "Funderar du på CITYSPORTS gåband? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/traning",
@@ -252,8 +252,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "inkey-retinol-serum-recensioner",
     reviewFormId: "inkey-retinol-serum-skriv-recension",
     targetKeyword: "the inkey list retinol serum",
-    metaTitle: "The INKEY List Retinol Serum – Elins ärliga koll | Elins val",
-    metaDescription: "The INKEY List Retinol Serum: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "The INKEY List Retinol Serum test 2026 | Elins val",
+    metaDescription: "The INKEY List Retinol Serum – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -328,8 +328,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "cerave-resurfacing-retinol-recensioner",
     reviewFormId: "cerave-resurfacing-retinol-skriv-recension",
     targetKeyword: "cerave resurfacing retinol serum",
-    metaTitle: "CeraVe Resurfacing Retinol Serum – Elins ärliga koll | Elins val",
-    metaDescription: "CeraVe Resurfacing Retinol Serum: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "CeraVe Resurfacing Retinol Serum test 2026 | Elins val",
+    metaDescription: "CeraVe Resurfacing Retinol Serum – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -400,8 +400,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "physicians-formula-bronzer-recensioner",
     reviewFormId: "physicians-formula-bronzer-skriv-recension",
     targetKeyword: "physicians formula butter bronzer",
-    metaTitle: "Physicians Formula Butter Bronzer – Elins ärliga koll | Elins val",
-    metaDescription: "Physicians Formula Butter Bronzer: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Physicians Formula Butter Bronzer test 2026 | Elins val",
+    metaDescription: "Funderar du på Physicians Formula Butter Bronzer? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet/bronzing-drops",
@@ -481,8 +481,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "jean-len-saltvattenspray-recensioner",
     reviewFormId: "jean-len-saltvattenspray-skriv-recension",
     targetKeyword: "jean & len saltvattenspray",
-    metaTitle: "Jean & Len saltvattenspray – Elins ärliga koll | Elins val",
-    metaDescription: "Jean & Len saltvattenspray: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Jean & Len saltvattenspray test 2026 | Elins val",
+    metaDescription: "Jean & Len saltvattenspray – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet/curl-cream",
@@ -562,8 +562,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "midea-golvflakt-recensioner",
     reviewFormId: "midea-golvflakt-skriv-recension",
     targetKeyword: "midea mfs400 golvfläkt",
-    metaTitle: "Midea MFS400 golvfläkt – Elins ärliga koll | Elins val",
-    metaDescription: "Midea MFS400 golvfläkt: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Midea MFS400 golvfläkt test 2026 | Elins val",
+    metaDescription: "Elins ärliga koll på Midea MFS400 golvfläkt: det köparna hyllar, det du bör veta innan köp – och Elins dom. (Annons)",
     relatedLinks: [
       {
         href: "/halsa/flakt",
@@ -643,8 +643,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "beurer-tl35-dagsljuslampa-recensioner",
     reviewFormId: "beurer-tl35-dagsljuslampa-skriv-recension",
     targetKeyword: "beurer tl35 dagsljuslampa",
-    metaTitle: "Beurer TL35 dagsljuslampa – Elins ärliga koll | Elins val",
-    metaDescription: "Beurer TL35 dagsljuslampa: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Beurer TL35 dagsljuslampa test 2026 | Elins val",
+    metaDescription: "Funderar du på Beurer TL35 dagsljuslampa? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -719,8 +719,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "beurer-tl30-dagsljuslampa-recensioner",
     reviewFormId: "beurer-tl30-dagsljuslampa-skriv-recension",
     targetKeyword: "beurer tl30 dagsljuslampa",
-    metaTitle: "Beurer TL30 dagsljuslampa – Elins ärliga koll | Elins val",
-    metaDescription: "Beurer TL30 dagsljuslampa: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Beurer TL30 dagsljuslampa test 2026 | Elins val",
+    metaDescription: "Beurer TL30 dagsljuslampa i test – Elin väger köparnas omdömen: styrkor, svagheter och om den är värd pengarna. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -795,8 +795,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "beurer-hd75-elfilt-recensioner",
     reviewFormId: "beurer-hd75-elfilt-skriv-recension",
     targetKeyword: "beurer hd75 elfilt",
-    metaTitle: "Beurer HD75 elfilt – Elins ärliga koll | Elins val",
-    metaDescription: "Beurer HD75 elfilt: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Beurer HD75 elfilt test 2026 | Elins val",
+    metaDescription: "Funderar du på Beurer HD75 elfilt? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -871,8 +871,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "emerio-varmeflakt-recensioner",
     reviewFormId: "emerio-varmeflakt-skriv-recension",
     targetKeyword: "emerio värmefläkt",
-    metaTitle: "Emerio värmefläkt – Elins ärliga koll | Elins val",
-    metaDescription: "Emerio värmefläkt: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Emerio värmefläkt test 2026 | Elins val",
+    metaDescription: "Emerio värmefläkt i test – Elin väger köparnas omdömen: styrkor, svagheter och om den är värd pengarna. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -947,8 +947,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "delonghi-oljefyllt-element-recensioner",
     reviewFormId: "delonghi-oljefyllt-element-skriv-recension",
     targetKeyword: "de'longhi oljefyllt element",
-    metaTitle: "De'Longhi oljefyllt element – Elins ärliga koll | Elins val",
-    metaDescription: "De'Longhi oljefyllt element: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "De'Longhi oljefyllt element test 2026 | Elins val",
+    metaDescription: "De'Longhi oljefyllt element i test – Elin väger köparnas omdömen: styrkor, svagheter och om den är värd pengarna. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -1023,8 +1023,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "beurer-lb200-luftfuktare-recensioner",
     reviewFormId: "beurer-lb200-luftfuktare-skriv-recension",
     targetKeyword: "beurer lb200 luftfuktare",
-    metaTitle: "Beurer LB200 luftfuktare – Elins ärliga koll | Elins val",
-    metaDescription: "Beurer LB200 luftfuktare: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Beurer LB200 luftfuktare test 2026 | Elins val",
+    metaDescription: "Beurer LB200 luftfuktare – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -1099,8 +1099,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "philips-600-luftrenare-recensioner",
     reviewFormId: "philips-600-luftrenare-skriv-recension",
     targetKeyword: "philips 600 luftrenare",
-    metaTitle: "Philips 600 luftrenare – Elins ärliga koll | Elins val",
-    metaDescription: "Philips 600 luftrenare: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Philips 600 luftrenare test 2026 | Elins val",
+    metaDescription: "Funderar du på Philips 600 luftrenare? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -1175,8 +1175,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "good-nite-tyngdtacke-recensioner",
     reviewFormId: "good-nite-tyngdtacke-skriv-recension",
     targetKeyword: "good nite tyngdtäcke",
-    metaTitle: "Good Nite tyngdtäcke – Elins ärliga koll | Elins val",
-    metaDescription: "Good Nite tyngdtäcke: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Good Nite tyngdtäcke test 2026 | Elins val",
+    metaDescription: "Good Nite tyngdtäcke i test – Elin väger köparnas omdömen: styrkor, svagheter och om den är värd pengarna. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -1251,8 +1251,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "beurer-fw20-fotvarmare-recensioner",
     reviewFormId: "beurer-fw20-fotvarmare-skriv-recension",
     targetKeyword: "beurer fw20 fotvärmare",
-    metaTitle: "Beurer FW20 fotvärmare – Elins ärliga koll | Elins val",
-    metaDescription: "Beurer FW20 fotvärmare: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Beurer FW20 fotvärmare test 2026 | Elins val",
+    metaDescription: "Beurer FW20 fotvärmare – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -1327,8 +1327,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "philips-sonicare-5300-recensioner",
     reviewFormId: "philips-sonicare-5300-skriv-recension",
     targetKeyword: "philips sonicare 5300",
-    metaTitle: "Philips Sonicare 5300 – Elins ärliga koll | Elins val",
-    metaDescription: "Philips Sonicare 5300: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Philips Sonicare 5300 test 2026 | Elins val",
+    metaDescription: "Elins ärliga koll på Philips Sonicare 5300: det köparna hyllar, det du bör veta innan köp – och Elins dom. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -1399,8 +1399,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "oralb-io6-recensioner",
     reviewFormId: "oralb-io6-skriv-recension",
     targetKeyword: "oral-b io series 6",
-    metaTitle: "Oral-B iO Series 6 – Elins ärliga koll | Elins val",
-    metaDescription: "Oral-B iO Series 6: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Oral-B iO Series 6 test 2026 | Elins val",
+    metaDescription: "Oral-B iO Series 6 – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -1475,8 +1475,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "philips-power-flosser-recensioner",
     reviewFormId: "philips-power-flosser-skriv-recension",
     targetKeyword: "philips power flosser 3000",
-    metaTitle: "Philips Power Flosser 3000 – Elins ärliga koll | Elins val",
-    metaDescription: "Philips Power Flosser 3000: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Philips Power Flosser 3000 test 2026 | Elins val",
+    metaDescription: "Funderar du på Philips Power Flosser 3000? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -1551,8 +1551,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "surfou-water-flosser-recensioner",
     reviewFormId: "surfou-water-flosser-skriv-recension",
     targetKeyword: "surfou water flosser",
-    metaTitle: "SURFOU water flosser – Elins ärliga koll | Elins val",
-    metaDescription: "SURFOU water flosser: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "SURFOU water flosser test 2026 | Elins val",
+    metaDescription: "Funderar du på SURFOU water flosser? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -1627,8 +1627,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "beurer-fb35-fotbad-recensioner",
     reviewFormId: "beurer-fb35-fotbad-skriv-recension",
     targetKeyword: "beurer fb35 fotbad",
-    metaTitle: "Beurer FB35 fotbad – Elins ärliga koll | Elins val",
-    metaDescription: "Beurer FB35 fotbad: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Beurer FB35 fotbad test 2026 | Elins val",
+    metaDescription: "Funderar du på Beurer FB35 fotbad? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -1703,8 +1703,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "deanic-fotbad-recensioner",
     reviewFormId: "deanic-fotbad-skriv-recension",
     targetKeyword: "deanic hopfällbart fotbad",
-    metaTitle: "DEANIC hopfällbart fotbad – Elins ärliga koll | Elins val",
-    metaDescription: "DEANIC hopfällbart fotbad: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "DEANIC hopfällbart fotbad test 2026 | Elins val",
+    metaDescription: "DEANIC hopfällbart fotbad – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -1779,8 +1779,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "bio-oil-recensioner",
     reviewFormId: "bio-oil-skriv-recension",
     targetKeyword: "bio-oil hudvårdsolja",
-    metaTitle: "Bio-Oil hudvårdsolja – Elins ärliga koll | Elins val",
-    metaDescription: "Bio-Oil hudvårdsolja: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Bio-Oil hudvårdsolja test 2026 | Elins val",
+    metaDescription: "Bio-Oil hudvårdsolja – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -1855,8 +1855,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "philips-oneblade-360-recensioner",
     reviewFormId: "philips-oneblade-360-skriv-recension",
     targetKeyword: "philips oneblade 360",
-    metaTitle: "Philips OneBlade 360 – Elins ärliga koll | Elins val",
-    metaDescription: "Philips OneBlade 360: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Philips OneBlade 360 test 2026 | Elins val",
+    metaDescription: "Philips OneBlade 360 – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -1931,8 +1931,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "philips-skaggtrimmer-3000-recensioner",
     reviewFormId: "philips-skaggtrimmer-3000-skriv-recension",
     targetKeyword: "philips skäggtrimmer 3000",
-    metaTitle: "Philips skäggtrimmer 3000 – Elins ärliga koll | Elins val",
-    metaDescription: "Philips skäggtrimmer 3000: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Philips skäggtrimmer 3000 test 2026 | Elins val",
+    metaDescription: "Philips skäggtrimmer 3000 – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -2007,8 +2007,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "remington-harklippare-recensioner",
     reviewFormId: "remington-harklippare-skriv-recension",
     targetKeyword: "remington hårklippare hc5035",
-    metaTitle: "Remington hårklippare HC5035 – Elins ärliga koll | Elins val",
-    metaDescription: "Remington hårklippare HC5035: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Remington hårklippare HC5035 test 2026 | Elins val",
+    metaDescription: "Remington hårklippare HC5035 i test – Elin väger köparnas omdömen: styrkor, svagheter och om den är värd pengarna. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -2083,8 +2083,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "philips-rakapparat-5000-recensioner",
     reviewFormId: "philips-rakapparat-5000-skriv-recension",
     targetKeyword: "philips rakapparat 5000",
-    metaTitle: "Philips rakapparat 5000 – Elins ärliga koll | Elins val",
-    metaDescription: "Philips rakapparat 5000: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Philips rakapparat 5000 test 2026 | Elins val",
+    metaDescription: "Elins ärliga koll på Philips rakapparat 5000: det köparna hyllar, det du bör veta innan köp – och Elins dom. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -2155,8 +2155,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "winsea-nasharstrimmer-recensioner",
     reviewFormId: "winsea-nasharstrimmer-skriv-recension",
     targetKeyword: "winsea näshårstrimmer",
-    metaTitle: "Winsea näshårstrimmer – Elins ärliga koll | Elins val",
-    metaDescription: "Winsea näshårstrimmer: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Winsea näshårstrimmer test 2026 | Elins val",
+    metaDescription: "Winsea näshårstrimmer – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -2231,8 +2231,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "loreal-skaggolja-recensioner",
     reviewFormId: "loreal-skaggolja-skriv-recension",
     targetKeyword: "l'oréal barber club skäggolja",
-    metaTitle: "L'Oréal Barber Club skäggolja – Elins ärliga koll | Elins val",
-    metaDescription: "L'Oréal Barber Club skäggolja: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "L'Oréal Barber Club skäggolja test 2026 | Elins val",
+    metaDescription: "L'Oréal Barber Club skäggolja i test – Elin väger köparnas omdömen: styrkor, svagheter och om den är värd pengarna. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -2307,8 +2307,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "yankee-candle-clean-cotton-recensioner",
     reviewFormId: "yankee-candle-clean-cotton-skriv-recension",
     targetKeyword: "yankee candle clean cotton",
-    metaTitle: "Yankee Candle Clean Cotton – Elins ärliga koll | Elins val",
-    metaDescription: "Yankee Candle Clean Cotton: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Yankee Candle Clean Cotton test 2026 | Elins val",
+    metaDescription: "Yankee Candle Clean Cotton – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -2383,8 +2383,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "rituals-sakura-presentset-recensioner",
     reviewFormId: "rituals-sakura-presentset-skriv-recension",
     targetKeyword: "rituals sakura presentset",
-    metaTitle: "Rituals Sakura presentset – Elins ärliga koll | Elins val",
-    metaDescription: "Rituals Sakura presentset: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Rituals Sakura presentset test 2026 | Elins val",
+    metaDescription: "Rituals Sakura presentset i test – Elin väger köparnas omdömen: styrkor, svagheter och om den är värd pengarna. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -2459,8 +2459,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "sol-de-janeiro-jet-set-recensioner",
     reviewFormId: "sol-de-janeiro-jet-set-skriv-recension",
     targetKeyword: "sol de janeiro jet set",
-    metaTitle: "Sol de Janeiro Jet Set – Elins ärliga koll | Elins val",
-    metaDescription: "Sol de Janeiro Jet Set: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Sol de Janeiro Jet Set test 2026 | Elins val",
+    metaDescription: "Sol de Janeiro Jet Set i test – Elin väger köparnas omdömen: styrkor, svagheter och om den är värd pengarna. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -2535,8 +2535,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "kindle-paperwhite-recensioner",
     reviewFormId: "kindle-paperwhite-skriv-recension",
     targetKeyword: "kindle paperwhite 16 gb",
-    metaTitle: "Kindle Paperwhite 16 GB – Elins ärliga koll | Elins val",
-    metaDescription: "Kindle Paperwhite 16 GB: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Kindle Paperwhite 16 GB test 2026 | Elins val",
+    metaDescription: "Kindle Paperwhite 16 GB – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -2611,8 +2611,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "renpho-ogonmassager-recensioner",
     reviewFormId: "renpho-ogonmassager-skriv-recension",
     targetKeyword: "renpho ögonmassager",
-    metaTitle: "RENPHO ögonmassager – Elins ärliga koll | Elins val",
-    metaDescription: "RENPHO ögonmassager: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "RENPHO ögonmassager test 2026 | Elins val",
+    metaDescription: "Elins ärliga koll på RENPHO ögonmassager: det köparna hyllar, det du bör veta innan köp – och Elins dom. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -2687,8 +2687,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "comfier-massagesits-recensioner",
     reviewFormId: "comfier-massagesits-skriv-recension",
     targetKeyword: "comfier massagesits",
-    metaTitle: "Comfier massagesits – Elins ärliga koll | Elins val",
-    metaDescription: "Comfier massagesits: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Comfier massagesits test 2026 | Elins val",
+    metaDescription: "Funderar du på Comfier massagesits? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -2763,8 +2763,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "wirelume-handdammsugare-recensioner",
     reviewFormId: "wirelume-handdammsugare-skriv-recension",
     targetKeyword: "wirelume handdammsugare",
-    metaTitle: "Wirelume handdammsugare – Elins ärliga koll | Elins val",
-    metaDescription: "Wirelume handdammsugare: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Wirelume handdammsugare test 2026 | Elins val",
+    metaDescription: "Funderar du på Wirelume handdammsugare? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/halsa",
@@ -2839,8 +2839,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "auxmir-sminkspegel-recensioner",
     reviewFormId: "auxmir-sminkspegel-skriv-recension",
     targetKeyword: "auxmir kompakt sminkspegel",
-    metaTitle: "Auxmir kompakt sminkspegel – Elins ärliga koll | Elins val",
-    metaDescription: "Auxmir kompakt sminkspegel: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Auxmir kompakt sminkspegel test 2026 | Elins val",
+    metaDescription: "Elins ärliga koll på Auxmir kompakt sminkspegel: det köparna hyllar, det du bör veta innan köp – och Elins dom. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -2915,8 +2915,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "bayt-hollywood-spegel-recensioner",
     reviewFormId: "bayt-hollywood-spegel-skriv-recension",
     targetKeyword: "bayt hollywood-spegel",
-    metaTitle: "Bayt Hollywood-spegel – Elins ärliga koll | Elins val",
-    metaDescription: "Bayt Hollywood-spegel: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Bayt Hollywood-spegel test 2026 | Elins val",
+    metaDescription: "Bayt Hollywood-spegel – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -2991,8 +2991,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "plantifique-ansiktsrulle-recensioner",
     reviewFormId: "plantifique-ansiktsrulle-skriv-recension",
     targetKeyword: "plantifique ansiktsrulle och gua sha",
-    metaTitle: "Plantifique ansiktsrulle och gua sha – Elins ärliga koll | Elins val",
-    metaDescription: "Plantifique ansiktsrulle och gua sha: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Plantifique ansiktsrulle och gua sha test 2026 | Elins val",
+    metaDescription: "Plantifique ansiktsrulle och gua sha – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -3067,8 +3067,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "ultrasport-f-bike-recensioner",
     reviewFormId: "ultrasport-f-bike-skriv-recension",
     targetKeyword: "ultrasport f-bike advanced",
-    metaTitle: "Ultrasport F-Bike Advanced – Elins ärliga koll | Elins val",
-    metaDescription: "Ultrasport F-Bike Advanced: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Ultrasport F-Bike Advanced test 2026 | Elins val",
+    metaDescription: "Ultrasport F-Bike Advanced – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/traning",
@@ -3143,8 +3143,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "zipro-motionscykel-recensioner",
     reviewFormId: "zipro-motionscykel-skriv-recension",
     targetKeyword: "zipro motionscykel",
-    metaTitle: "Zipro motionscykel – Elins ärliga koll | Elins val",
-    metaDescription: "Zipro motionscykel: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Zipro motionscykel test 2026 | Elins val",
+    metaDescription: "Funderar du på Zipro motionscykel? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
     relatedLinks: [
       {
         href: "/traning",
@@ -3219,8 +3219,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "proiron-skivstang-set-recensioner",
     reviewFormId: "proiron-skivstang-set-skriv-recension",
     targetKeyword: "proiron 2-i-1 skivstångsset",
-    metaTitle: "PROIRON 2-i-1 skivstångsset – Elins ärliga koll | Elins val",
-    metaDescription: "PROIRON 2-i-1 skivstångsset: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "PROIRON 2-i-1 skivstångsset test 2026 | Elins val",
+    metaDescription: "PROIRON 2-i-1 skivstångsset – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/traning",
@@ -3295,8 +3295,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "gorilla-skivstang-recensioner",
     reviewFormId: "gorilla-skivstang-skriv-recension",
     targetKeyword: "gorilla sports skivstångsset",
-    metaTitle: "Gorilla Sports skivstångsset – Elins ärliga koll | Elins val",
-    metaDescription: "Gorilla Sports skivstångsset: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Gorilla Sports skivstångsset test 2026 | Elins val",
+    metaDescription: "Gorilla Sports skivstångsset i test – Elin väger köparnas omdömen: styrkor, svagheter och om den är värd pengarna. (Annons)",
     relatedLinks: [
       {
         href: "/traning",
@@ -3371,8 +3371,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "merach-roddmaskin-recensioner",
     reviewFormId: "merach-roddmaskin-skriv-recension",
     targetKeyword: "merach roddmaskin",
-    metaTitle: "MERACH roddmaskin – Elins ärliga koll | Elins val",
-    metaDescription: "MERACH roddmaskin: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "MERACH roddmaskin test 2026 | Elins val",
+    metaDescription: "MERACH roddmaskin – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/traning",
@@ -3447,8 +3447,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "xiaomi-smart-band-10-recensioner",
     reviewFormId: "xiaomi-smart-band-10-skriv-recension",
     targetKeyword: "xiaomi smart band 10",
-    metaTitle: "Xiaomi Smart Band 10 – Elins ärliga koll | Elins val",
-    metaDescription: "Xiaomi Smart Band 10: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Xiaomi Smart Band 10 test 2026 | Elins val",
+    metaDescription: "Xiaomi Smart Band 10 – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/traning",
@@ -3523,8 +3523,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "bemaxx-pusselmatta-recensioner",
     reviewFormId: "bemaxx-pusselmatta-skriv-recension",
     targetKeyword: "bemaxx pusselmatta",
-    metaTitle: "bemaxx pusselmatta – Elins ärliga koll | Elins val",
-    metaDescription: "bemaxx pusselmatta: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "bemaxx pusselmatta test 2026 | Elins val",
+    metaDescription: "bemaxx pusselmatta i test – Elin väger köparnas omdömen: styrkor, svagheter och om den är värd pengarna. (Annons)",
     relatedLinks: [
       {
         href: "/traning/gaband-motionscykel-eller-roddmaskin",
@@ -3604,8 +3604,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "tymo-utratningsborste-recensioner",
     reviewFormId: "tymo-utratningsborste-skriv-recension",
     targetKeyword: "tymo ring uträtningsborste",
-    metaTitle: "TYMO RING uträtningsborste – Elins ärliga koll | Elins val",
-    metaDescription: "TYMO RING uträtningsborste: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "TYMO RING uträtningsborste test 2026 | Elins val",
+    metaDescription: "TYMO RING uträtningsborste – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -3680,8 +3680,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "gihali-hardiffusor-recensioner",
     reviewFormId: "gihali-hardiffusor-skriv-recension",
     targetKeyword: "gihali hårdiffusor universal",
-    metaTitle: "GIHALI hårdiffusor universal – Elins ärliga koll | Elins val",
-    metaDescription: "GIHALI hårdiffusor universal: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "GIHALI hårdiffusor universal test 2026 | Elins val",
+    metaDescription: "GIHALI hårdiffusor universal – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -3756,8 +3756,8 @@ export const waveProductPicks: SommarPick[] = [
     reviewSectionId: "color-wow-dream-coat-recensioner",
     reviewFormId: "color-wow-dream-coat-skriv-recension",
     targetKeyword: "color wow dream coat",
-    metaTitle: "Color Wow Dream Coat – Elins ärliga koll | Elins val",
-    metaDescription: "Color Wow Dream Coat: Elin sammanfattar köparsignaler, styrkor och caveats. Annonslänk till Amazon, utan hårdkodade priser.",
+    metaTitle: "Color Wow Dream Coat test 2026 | Elins val",
+    metaDescription: "Color Wow Dream Coat – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet",
@@ -3843,7 +3843,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Löpband och gåband hemma | Elins val",
-    metaDescription: "Löpband och gåband hemma: Två kompakta sätt att få in mer vardagsrörelse hemma: ett rent gåband och ett 2-i-1-löpband med armstöd. Annons, utan hårdkodade priser.",
+    metaDescription: "Löpband och gåband hemma: Två kompakta sätt att få in mer vardagsrörelse hemma: ett rent gåband och ett 2-i-1-löpband med armstöd. (Annons)",
   },
   {
     id: "gaband-eller-lopband",
@@ -3914,7 +3914,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Gåband eller löpband? | Elins val",
-    metaDescription: "Gåband eller löpband?: Elin jämför rent gåband mot kompakt löpband så valet blir praktiskt: skrivbordsgång eller mer träningskänsla. Annons, utan hårdkodade priser.",
+    metaDescription: "Gåband eller löpband?: Elin jämför rent gåband mot kompakt löpband så valet blir praktiskt: skrivbordsgång eller mer träningskänsla. (Annons)",
   },
   {
     id: "retinolserum",
@@ -3985,7 +3985,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Retinolserum utan hype | Elins val",
-    metaDescription: "Retinolserum utan hype: Två retinolserum med olika styrkor: Inkey för budget och uppmärksamhet, CeraVe för mildare doftfri profil. Annons, utan hårdkodade priser.",
+    metaDescription: "Retinolserum utan hype: Två retinolserum med olika styrkor: Inkey för budget och uppmärksamhet, CeraVe för mildare doftfri profil. (Annons)",
   },
   {
     id: "retinol-eller-bakuchiol",
@@ -4061,7 +4061,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Retinol eller bakuchiol? | Elins val",
-    metaDescription: "Retinol eller bakuchiol?: Retinol är retinoidspåret. Bakuchiol är det växtbaserade, mildare alternativet utan retinoid. Annons, utan hårdkodade priser.",
+    metaDescription: "Retinol eller bakuchiol?: Retinol är retinoidspåret. Bakuchiol är det växtbaserade, mildare alternativet utan retinoid. (Annons)",
   },
   {
     id: "saltvattenspray-eller-texturspray",
@@ -4132,7 +4132,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Saltvattenspray eller texturspray? | Elins val",
-    metaDescription: "Saltvattenspray eller texturspray?: Beach waves-känsla mot mer salongsaktig textur och volym. Annons, utan hårdkodade priser.",
+    metaDescription: "Saltvattenspray eller texturspray?: Beach waves-känsla mot mer salongsaktig textur och volym. (Annons)",
   },
   {
     id: "golvflakt-eller-tornflakt",
@@ -4203,7 +4203,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Golvfläkt eller tornfläkt? | Elins val",
-    metaDescription: "Golvfläkt eller tornfläkt?: Midea mot Midea: klassiskt luftflöde på fot eller smal tornform. Annons, utan hårdkodade priser.",
+    metaDescription: "Golvfläkt eller tornfläkt?: Midea mot Midea: klassiskt luftflöde på fot eller smal tornform. (Annons)",
   },
   {
     id: "dagsljuslampa",
@@ -4274,7 +4274,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Dagsljuslampa för mörka morgnar | Elins val",
-    metaDescription: "Dagsljuslampa för mörka morgnar: Två Beurer-lampor för extra ljus under mörka morgnar, utan behandlingslöften. Annons, utan hårdkodade priser.",
+    metaDescription: "Dagsljuslampa för mörka morgnar: Två Beurer-lampor för extra ljus under mörka morgnar, utan behandlingslöften. (Annons)",
   },
   {
     id: "beurer-tl30-eller-tl35",
@@ -4345,7 +4345,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Beurer TL30 eller TL35? | Elins val",
-    metaDescription: "Beurer TL30 eller TL35?: Två kompakta Beurer-val för mörka morgnar, med skillnaden i format och beprövning. Annons, utan hårdkodade priser.",
+    metaDescription: "Beurer TL30 eller TL35?: Två kompakta Beurer-val för mörka morgnar, med skillnaden i format och beprövning. (Annons)",
   },
   {
     id: "morka-morgnar",
@@ -4421,7 +4421,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Mörka morgnar: ljus, väckning och kvällsro | Elins val",
-    metaDescription: "Mörka morgnar: ljus, väckning och kvällsro: En liten guide till extra ljus, wake-up light och mjukt kvällssken under mörka månader. Annons, utan hårdkodade priser.",
+    metaDescription: "Mörka morgnar: ljus, väckning och kvällsro: En liten guide till extra ljus, wake-up light och mjukt kvällssken under mörka månader. (Annons)",
   },
   {
     id: "luftfuktare-guide",
@@ -4492,7 +4492,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Luftfuktare: ultraljud eller evaporativ? | Elins val",
-    metaDescription: "Luftfuktare: ultraljud eller evaporativ?: Levoit ger synlig dimma och smart styrning. Beurer LB200 är det evaporativa alternativet med annan logik. Annons, utan hårdkodade priser.",
+    metaDescription: "Luftfuktare: ultraljud eller evaporativ?: Levoit ger synlig dimma och smart styrning. Beurer LB200 är det evaporativa alternativet med annan logik. (Annons)",
   },
   {
     id: "ultraljud-eller-evaporativ-luftfuktare",
@@ -4563,7 +4563,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Ultraljud eller evaporativ luftfuktare? | Elins val",
-    metaDescription: "Ultraljud eller evaporativ luftfuktare?: Två tekniker med olika vardagskänsla, skötsel och synlighet. Annons, utan hårdkodade priser.",
+    metaDescription: "Ultraljud eller evaporativ luftfuktare?: Två tekniker med olika vardagskänsla, skötsel och synlighet. (Annons)",
   },
   {
     id: "luftrenare-guide",
@@ -4634,7 +4634,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Luftrenare: Levoit eller Philips? | Elins val",
-    metaDescription: "Luftrenare: Levoit eller Philips?: Levoit Core 200S mot Philips 600: smartare appval eller kompakt märkesval. Annons, utan hårdkodade priser.",
+    metaDescription: "Luftrenare: Levoit eller Philips?: Levoit Core 200S mot Philips 600: smartare appval eller kompakt märkesval. (Annons)",
   },
   {
     id: "levoit-eller-philips-luftrenare",
@@ -4705,7 +4705,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Levoit eller Philips luftrenare? | Elins val",
-    metaDescription: "Levoit eller Philips luftrenare?: Smart luftrenare mot kompakt luftrenare, utan stora hälsolöften. Annons, utan hårdkodade priser.",
+    metaDescription: "Levoit eller Philips luftrenare?: Smart luftrenare mot kompakt luftrenare, utan stora hälsolöften. (Annons)",
   },
   {
     id: "tyngdtacke-guide",
@@ -4776,7 +4776,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Tyngdtäcke: Ella eller Good Nite? | Elins val",
-    metaDescription: "Tyngdtäcke: Ella eller Good Nite?: Två vuxenval där vikt, värmekänsla och tvättråd betyder mer än stora löften. Annons, utan hårdkodade priser.",
+    metaDescription: "Tyngdtäcke: Ella eller Good Nite?: Två vuxenval där vikt, värmekänsla och tvättråd betyder mer än stora löften. (Annons)",
   },
   {
     id: "ella-eller-good-nite-tyngdtacke",
@@ -4784,7 +4784,7 @@ export const waveGuides: WaveGuide[] = [
     category: "halsa",
     label: "Jämförelse",
     title: "Ella eller Good Nite tyngdtäcke?",
-    intro: "Två tyngdtäcken för vuxna, jämförda på känsla, vikt och caveats.",
+    intro: "Två tyngdtäcken för vuxna – Elin jämför känsla, vikt och vad du bör veta innan köp.",
     badges: [
       "Tyngdtäcke",
       "Vuxen",
@@ -4847,7 +4847,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Ella eller Good Nite tyngdtäcke? | Elins val",
-    metaDescription: "Ella eller Good Nite tyngdtäcke?: Två tyngdtäcken för vuxna, jämförda på känsla, vikt och caveats. Annons, utan hårdkodade priser.",
+    metaDescription: "Ella eller Good Nite tyngdtäcke? Elin jämför känsla, vikt och vad du bör veta innan köp – och säger vilket som passar vem. (Annons)",
   },
   {
     id: "varmeflakt-eller-oljefyllt-element",
@@ -4918,7 +4918,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Värmefläkt eller oljefyllt element? | Elins val",
-    metaDescription: "Värmefläkt eller oljefyllt element?: Snabb punktvärme mot tystare långtidsvärme. Annons, utan hårdkodade priser.",
+    metaDescription: "Värmefläkt eller oljefyllt element?: Snabb punktvärme mot tystare långtidsvärme. (Annons)",
   },
   {
     id: "elfilt-eller-varmedyna",
@@ -4989,7 +4989,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Elfilt eller värmedyna? | Elins val",
-    metaDescription: "Elfilt eller värmedyna?: Stor soffvärme mot mindre riktad värme. Annons, utan hårdkodade priser.",
+    metaDescription: "Elfilt eller värmedyna?: Stor soffvärme mot mindre riktad värme. (Annons)",
   },
   {
     id: "eltandborste-guide",
@@ -5041,7 +5041,7 @@ export const waveGuides: WaveGuide[] = [
         ],
       },
       {
-        label: "Attribuerad köparsignal",
+        label: "Från köparnas omdömen",
         values: [
           "Befintligt Oral-B-val; jämför främst borsthuvudsekonomin.",
           "Bo Strömberg: \"Cleanest teeth in a long time. My Oral-B is retired.\" Niclas: \"Känns bra och rent i munnen och batteritiden mycket bättre.\"",
@@ -5073,7 +5073,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Eltandborste: Oral-B eller Sonicare? | Elins val",
-    metaDescription: "Eltandborste: Oral-B eller Sonicare?: Oral-B iO, Sonicare och befintliga iO 5 samlade i en tydligare munvårdsguide. Annons, utan hårdkodade priser.",
+    metaDescription: "Eltandborste: Oral-B eller Sonicare?: Oral-B iO, Sonicare och befintliga iO 5 samlade i en tydligare munvårdsguide. (Annons)",
   },
   {
     id: "oral-b-eller-sonicare",
@@ -5120,7 +5120,7 @@ export const waveGuides: WaveGuide[] = [
         ],
       },
       {
-        label: "Attribuerad köparsignal",
+        label: "Från köparnas omdömen",
         values: [
           "Referens: \"Köpare som uppgraderat från Oral-B Pro beskriver tydlig skillnad\"",
           "Bo Strömberg: \"Cleanest teeth in a long time. My Oral-B is retired.\" Niclas: \"Känns bra och rent i munnen och batteritiden mycket bättre.\"",
@@ -5151,7 +5151,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Oral-B eller Sonicare? | Elins val",
-    metaDescription: "Oral-B eller Sonicare?: Rund borsthuvudkänsla mot Sonicare-känsla, med borsthuvudsekonomin i centrum. Annons, utan hårdkodade priser.",
+    metaDescription: "Oral-B eller Sonicare?: Rund borsthuvudkänsla mot Sonicare-känsla, med borsthuvudsekonomin i centrum. (Annons)",
   },
   {
     id: "oralb-io6-vart-priset",
@@ -5198,7 +5198,7 @@ export const waveGuides: WaveGuide[] = [
         ],
       },
       {
-        label: "Attribuerad köparsignal",
+        label: "Från köparnas omdömen",
         values: [
           "Referens: \"Köpare som uppgraderat från Oral-B Pro beskriver tydlig skillnad\"",
           "Befintligt enklare Oral-B-val; jämför total kostnad över tid.",
@@ -5229,7 +5229,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Är Oral-B iO6 värd priset? | Elins val",
-    metaDescription: "Är Oral-B iO6 värd priset?: En ärlig guide till när iO6 är rätt och när enklare Oral-B räcker. Annons, utan hårdkodade priser.",
+    metaDescription: "Är Oral-B iO6 värd priset?: En ärlig guide till när iO6 är rätt och när enklare Oral-B räcker. (Annons)",
   },
   {
     id: "munskoljare",
@@ -5300,7 +5300,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Munsköljare: billig eller dyr water flosser? | Elins val",
-    metaDescription: "Munsköljare: billig eller dyr water flosser?: Philips bänkenhet mot SURFOU portabel budgetmodell. Annons, utan hårdkodade priser.",
+    metaDescription: "Munsköljare: billig eller dyr water flosser?: Philips bänkenhet mot SURFOU portabel budgetmodell. (Annons)",
   },
   {
     id: "billig-eller-dyr-water-flosser",
@@ -5371,7 +5371,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Billig eller dyr water flosser? | Elins val",
-    metaDescription: "Billig eller dyr water flosser?: Portabel budget mot stationär Philips-modell. Annons, utan hårdkodade priser.",
+    metaDescription: "Billig eller dyr water flosser?: Portabel budget mot stationär Philips-modell. (Annons)",
   },
   {
     id: "fotbad",
@@ -5442,7 +5442,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Fotbad för vinterrutinen | Elins val",
-    metaDescription: "Fotbad för vinterrutinen: Beurer FB35 mot DEANIC: elektrisk varmhållning eller enkel hopfällbar balja. Annons, utan hårdkodade priser.",
+    metaDescription: "Fotbad för vinterrutinen: Beurer FB35 mot DEANIC: elektrisk varmhållning eller enkel hopfällbar balja. (Annons)",
   },
   {
     id: "elektriskt-eller-enkelt-fotbad",
@@ -5513,7 +5513,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Elektriskt eller enkelt fotbad? | Elins val",
-    metaDescription: "Elektriskt eller enkelt fotbad?: Bubblor och varmhållning mot platsbesparande enkelhet. Annons, utan hårdkodade priser.",
+    metaDescription: "Elektriskt eller enkelt fotbad?: Bubblor och varmhållning mot platsbesparande enkelhet. (Annons)",
   },
   {
     id: "skona-fotter-i-vinter",
@@ -5589,7 +5589,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Sköna fötter i vinter | Elins val",
-    metaDescription: "Sköna fötter i vinter: Fotbad, fotfil, foot peel, kräm och puder i en enkel ordning. Annons, utan hårdkodade priser.",
+    metaDescription: "Sköna fötter i vinter: Fotbad, fotfil, foot peel, kräm och puder i en enkel ordning. (Annons)",
   },
   {
     id: "bio-oil-eller-jojobaolja",
@@ -5660,7 +5660,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Bio-Oil eller jojobaolja? | Elins val",
-    metaDescription: "Bio-Oil eller jojobaolja?: Parfymerad klassiker mot renare naturolja. Annons, utan hårdkodade priser.",
+    metaDescription: "Bio-Oil eller jojobaolja?: Parfymerad klassiker mot renare naturolja. (Annons)",
   },
   {
     id: "grooming",
@@ -5740,7 +5740,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Grooming för honom | Elins val",
-    metaDescription: "Grooming för honom: Sex prisvärda groomingval, från skäggolja till rakapparat. Annons, utan hårdkodade priser.",
+    metaDescription: "Grooming för honom: Sex prisvärda groomingval, från skäggolja till rakapparat. (Annons)",
   },
   {
     id: "oneblade-eller-skaggtrimmer",
@@ -5811,7 +5811,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "OneBlade eller skäggtrimmer? | Elins val",
-    metaDescription: "OneBlade eller skäggtrimmer?: Hybridblad med löpande kostnad mot självslipande trimmerblad. Annons, utan hårdkodade priser.",
+    metaDescription: "OneBlade eller skäggtrimmer?: Hybridblad med löpande kostnad mot självslipande trimmerblad. (Annons)",
   },
   {
     id: "rakapparat-eller-oneblade",
@@ -5882,7 +5882,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Rakapparat eller OneBlade? | Elins val",
-    metaDescription: "Rakapparat eller OneBlade?: Slätare rakrutin mot hybridtrimning. Annons, utan hårdkodade priser.",
+    metaDescription: "Rakapparat eller OneBlade?: Slätare rakrutin mot hybridtrimning. (Annons)",
   },
   {
     id: "julklapp-till-honom",
@@ -5890,7 +5890,7 @@ export const waveGuides: WaveGuide[] = [
     category: "skonhet",
     label: "Guide",
     title: "Julklapp till honom",
-    intro: "Prisvärda groomingnivåer utan att låsa texten till dagspriser.",
+    intro: "Prisvärda presenttips till honom – grooming och smarta vardagsuppgraderingar i tre nivåer.",
     badges: [
       "Julklapp",
       "Grooming",
@@ -5958,7 +5958,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Julklapp till honom | Elins val",
-    metaDescription: "Julklapp till honom: Prisvärda groomingnivåer utan att låsa texten till dagspriser. Annons, utan hårdkodade priser.",
+    metaDescription: "Julklapp till honom: Elins presenttips – grooming och smarta vardagsuppgraderingar i tre prisnivåer. (Annons)",
   },
   {
     id: "kindle-eller-kobo",
@@ -6029,7 +6029,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Kindle eller Kobo? | Elins val",
-    metaDescription: "Kindle eller Kobo?: Amazon-ekosystem mot mer öppen läslogik. Annons, utan hårdkodade priser.",
+    metaDescription: "Kindle eller Kobo?: Amazon-ekosystem mot mer öppen läslogik. (Annons)",
   },
   {
     id: "doftljus-eller-aromadiffuser",
@@ -6100,7 +6100,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Doftljus eller aromadiffuser? | Elins val",
-    metaDescription: "Doftljus eller aromadiffuser?: Klassisk låga och doft mot vattenbaserad diffuser med ljus. Annons, utan hårdkodade priser.",
+    metaDescription: "Doftljus eller aromadiffuser?: Klassisk låga och doft mot vattenbaserad diffuser med ljus. (Annons)",
   },
   {
     id: "gua-sha-eller-ansiktsrulle",
@@ -6171,7 +6171,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Gua sha eller ansiktsrulle? | Elins val",
-    metaDescription: "Gua sha eller ansiktsrulle?: Plantifique-setet innehåller båda, så valet handlar om känsla och rutin. Annons, utan hårdkodade priser.",
+    metaDescription: "Gua sha eller ansiktsrulle?: Plantifique-setet innehåller båda, så valet handlar om känsla och rutin. (Annons)",
   },
   {
     id: "massagesits-eller-massagepistol",
@@ -6242,7 +6242,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Massagesits eller massagepistol? | Elins val",
-    metaDescription: "Massagesits eller massagepistol?: Stolburen komfort mot handhållen punktkontroll. Annons, utan hårdkodade priser.",
+    metaDescription: "Massagesits eller massagepistol?: Stolburen komfort mot handhållen punktkontroll. (Annons)",
   },
   {
     id: "sminkspegel",
@@ -6313,7 +6313,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Sminkspegel: Hollywood eller kompakt? | Elins val",
-    metaDescription: "Sminkspegel: Hollywood eller kompakt?: Bayt ger makeupstation, Auxmir ger smidig vardagsspegel. Annons, utan hårdkodade priser.",
+    metaDescription: "Sminkspegel: Hollywood eller kompakt?: Bayt ger makeupstation, Auxmir ger smidig vardagsspegel. (Annons)",
   },
   {
     id: "hollywood-eller-kompakt-sminkspegel",
@@ -6384,7 +6384,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Hollywood eller kompakt sminkspegel? | Elins val",
-    metaDescription: "Hollywood eller kompakt sminkspegel?: Stor makeupstation mot liten flexibel spegel. Annons, utan hårdkodade priser.",
+    metaDescription: "Hollywood eller kompakt sminkspegel?: Stor makeupstation mot liten flexibel spegel. (Annons)",
   },
   {
     id: "robot-eller-handdammsugare",
@@ -6454,8 +6454,8 @@ export const waveGuides: WaveGuide[] = [
         text: "Alla Elins jämförelser samlade.",
       },
     ],
-    metaTitle: "Robotdammsugare och handdammsugare gör olika jobb | Elins val",
-    metaDescription: "Robotdammsugare och handdammsugare gör olika jobb: Robot för golvrutin, handdammsugare för snabba småjobb. Annons, utan hårdkodade priser.",
+    metaTitle: "Robotdammsugare eller handdammsugare? | Elins val",
+    metaDescription: "Robotdammsugare och handdammsugare gör olika jobb: Robot för golvrutin, handdammsugare för snabba småjobb. (Annons)",
   },
   {
     id: "julklapp-till-henne",
@@ -6463,7 +6463,7 @@ export const waveGuides: WaveGuide[] = [
     category: "skonhet",
     label: "Guide",
     title: "Julklapp till henne",
-    intro: "Presenter som länkar till egna produktval: doft, hudvård, speglar, läsning och mys.",
+    intro: "Presenttips till henne: doft, hudvård, sminkspegel, läsning och mys – i olika prislägen.",
     badges: [
       "Julklapp",
       "Presenter",
@@ -6535,7 +6535,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Julklapp till henne | Elins val",
-    metaDescription: "Julklapp till henne: Presenter som länkar till egna produktval: doft, hudvård, speglar, läsning och mys. Annons, utan hårdkodade priser.",
+    metaDescription: "Julklapp till henne: Elins presenttips – doft, hudvård, sminkspegel, läsning och mys i olika prislägen. (Annons)",
   },
   {
     id: "julklappar-budget-mellan-premium",
@@ -6543,7 +6543,7 @@ export const waveGuides: WaveGuide[] = [
     category: "skonhet",
     label: "Guide",
     title: "Julklappar i tre prislägen",
-    intro: "Budget, mellan och premium utan hårdkodade produktpriser.",
+    intro: "Julklappar i tre prislägen – budget, mellan och premium – med Elins ärliga val i varje nivå.",
     badges: [
       "Julklapp",
       "Budget",
@@ -6611,7 +6611,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Julklappar i tre prislägen | Elins val",
-    metaDescription: "Julklappar i tre prislägen: Budget, mellan och premium utan hårdkodade produktpriser. Annons, utan hårdkodade priser.",
+    metaDescription: "Julklappar i budget, mellan och premium – Elins ärliga presenttips så du hittar rätt klapp i rätt prisläge. (Annons)",
   },
   {
     id: "motionscykel",
@@ -6682,7 +6682,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Motionscykel hemma: hopfällbar eller kompakt? | Elins val",
-    metaDescription: "Motionscykel hemma: hopfällbar eller kompakt?: Ultrasport F-Bike mot Zipro budgetcykel, med storlek som ärlig skiljelinje. Annons, utan hårdkodade priser.",
+    metaDescription: "Motionscykel hemma: hopfällbar eller kompakt?: Ultrasport F-Bike mot Zipro budgetcykel, med storlek som ärlig skiljelinje. (Annons)",
   },
   {
     id: "hopfallbar-eller-kompakt-motionscykel",
@@ -6753,7 +6753,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Hopfällbar eller kompakt motionscykel? | Elins val",
-    metaDescription: "Hopfällbar eller kompakt motionscykel?: Platsbesparande F-Bike mot liten budgetcykel. Annons, utan hårdkodade priser.",
+    metaDescription: "Hopfällbar eller kompakt motionscykel?: Platsbesparande F-Bike mot liten budgetcykel. (Annons)",
   },
   {
     id: "skivstang",
@@ -6824,7 +6824,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Skivstång hemma: 2-i-1 eller riktig stång? | Elins val",
-    metaDescription: "Skivstång hemma: 2-i-1 eller riktig stång?: PROIRON flexibilitet mot Gorilla Sports klassisk stångkänsla. Annons, utan hårdkodade priser.",
+    metaDescription: "Skivstång hemma: 2-i-1 eller riktig stång?: PROIRON flexibilitet mot Gorilla Sports klassisk stångkänsla. (Annons)",
   },
   {
     id: "2-i-1-eller-riktig-skivstang",
@@ -6895,7 +6895,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "2-i-1 eller riktig skivstång? | Elins val",
-    metaDescription: "2-i-1 eller riktig skivstång?: Flexibelt skivstång/hantel-set mot mer klassisk stång. Annons, utan hårdkodade priser.",
+    metaDescription: "2-i-1 eller riktig skivstång?: Flexibelt skivstång/hantel-set mot mer klassisk stång. (Annons)",
   },
   {
     id: "gaband-motionscykel-eller-roddmaskin",
@@ -6972,7 +6972,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Gåband, motionscykel eller roddmaskin? | Elins val",
-    metaDescription: "Gåband, motionscykel eller roddmaskin?: Cardio hemma utan att köpa fel maskin: gång, cykel eller rodd. Annons, utan hårdkodade priser.",
+    metaDescription: "Gåband, motionscykel eller roddmaskin?: Cardio hemma utan att köpa fel maskin: gång, cykel eller rodd. (Annons)",
   },
   {
     id: "utratningsborste-eller-plattang",
@@ -7043,7 +7043,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Uträtningsborste eller plattång? | Elins val",
-    metaDescription: "Uträtningsborste eller plattång?: Snabb mjuk släthet mot mer polerad plattångsfinish. Annons, utan hårdkodade priser.",
+    metaDescription: "Uträtningsborste eller plattång?: Snabb mjuk släthet mot mer polerad plattångsfinish. (Annons)",
   },
   {
     id: "tiktok-produkter-som-haller",
@@ -7051,7 +7051,7 @@ export const waveGuides: WaveGuide[] = [
     category: "skonhet",
     label: "Guide",
     title: "TikTok-produkter som håller",
-    intro: "Virala produkter i katalogen där Elin fortfarande kräver caveats.",
+    intro: "Virala TikTok-produkter som faktiskt håller – och vad du bör veta innan du trycker på köp.",
     badges: [
       "Viral",
       "TikTok",
@@ -7124,7 +7124,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "TikTok-produkter som håller | Elins val",
-    metaDescription: "TikTok-produkter som håller: Virala produkter i katalogen där Elin fortfarande kräver caveats. Annons, utan hårdkodade priser.",
+    metaDescription: "TikTok-produkter som håller: Elin går igenom de virala favoriterna ärligt – vad som håller måttet och vad du bör veta innan köp. (Annons)",
   },
 ];
 
@@ -7371,7 +7371,7 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/ella-eller-good-nite-tyngdtacke",
-    description: "Två tyngdtäcken för vuxna, jämförda på känsla, vikt och caveats.",
+    description: "Två tyngdtäcken för vuxna – Elin jämför känsla, vikt och vad du bör veta innan köp.",
     productSlugs: [
       "ella-tyngdtacke",
       "good-nite-tyngdtacke",
