@@ -87,7 +87,7 @@ export function DecisionComparisonPage({
       id="content"
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
-      <JsonLd data={faqSchema} />
+      {faqItems.length ? <JsonLd data={faqSchema} /> : null}
       <JsonLd data={breadcrumbSchema} />
 
       <div className="mx-auto w-full max-w-5xl">
@@ -299,6 +299,29 @@ export function DecisionComparisonPage({
             {verdict}
           </p>
         </section>
+
+        {faqItems.length ? (
+          <section className="reveal-fade mt-12 rounded-[2rem] border border-line bg-surface/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+            <h2 className="editorial-color-kiss font-display text-4xl">
+              Vanliga frågor
+            </h2>
+            <div className="mt-6 grid gap-4">
+              {faqItems.map((item) => (
+                <details
+                  key={item.question}
+                  className="rounded-2xl bg-rose/8 p-5"
+                >
+                  <summary className="cursor-pointer font-black text-ink">
+                    {item.question}
+                  </summary>
+                  <p className="mt-3 leading-7 text-ink-soft">
+                    {item.answer}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         <RelatedLinks links={relatedLinks} />
       </div>
