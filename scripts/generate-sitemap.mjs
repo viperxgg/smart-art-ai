@@ -18,6 +18,31 @@ const ROOT = join(fileURLToPath(new URL(".", import.meta.url)), "..");
 const APP = join(ROOT, "app");
 const FALLBACK_DATE = "2026-06-28";
 
+// On Vercel the checkout is shallow (and file deploys have no .git at all),
+// so per-file `git log` returns nothing and every entry collapses to
+// FALLBACK_DATE — exactly why the live sitemap showed one uniform date.
+// lib/sitemap-entries.ts is generated locally against full git history and
+// committed; on Vercel (or any non-git build) we keep that committed file.
+function hasUsableGitHistory() {
+  if (process.env.VERCEL) return false;
+  try {
+    execFileSync("git", ["rev-parse", "--is-inside-work-tree"], {
+      cwd: ROOT,
+      stdio: "pipe",
+    });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+if (!hasUsableGitHistory()) {
+  console.log(
+    "generate-sitemap: no usable git history here (Vercel/shallow/no-git) — keeping committed lib/sitemap-entries.ts.",
+  );
+  process.exit(0);
+}
+
 /** @type {Array<{ route: string, file: string }>} */
 const found = [];
 
