@@ -20,7 +20,10 @@ import { RelatedLinks } from "@/components/RelatedLinks";
 import { SaveProductButton } from "@/components/SaveProductButton";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { formatRatingSummary } from "@/lib/ratings";
-import { getApprovedReviews } from "@/lib/reviews/reviews";
+import {
+  getApprovedReviews,
+  type ApprovedProductReview,
+} from "@/lib/reviews/reviews";
 import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 import type { SommarPick } from "@/lib/sommar";
@@ -43,7 +46,22 @@ const categoryHrefs = {
   resa: "/sommar/resa",
 } as const;
 
-function buildProductSchema(pick: SommarPick) {
+function buildProductSchema(
+  pick: SommarPick,
+  approvedReviews: readonly ApprovedProductReview[] = [],
+) {
+  // aggregateRating comes ONLY from genuine on-site user reviews — never from
+  // Amazon's rating numbers (their data stays as plain text in the review
+  // signal section).
+  const averageRating =
+    approvedReviews.length > 0
+      ? Math.round(
+          (approvedReviews.reduce((sum, review) => sum + review.rating, 0) /
+            approvedReviews.length) *
+            10,
+        ) / 10
+      : null;
+
   return {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -57,6 +75,17 @@ function buildProductSchema(pick: SommarPick) {
     description: pick.metaDescription,
     category: categoryLabels[pick.product.category],
     review: buildElinReviewNode(pick.product.slug),
+    ...(averageRating !== null
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: averageRating,
+            reviewCount: approvedReviews.length,
+            bestRating: 5,
+            worstRating: 1,
+          },
+        }
+      : {}),
   };
 }
 
@@ -97,7 +126,7 @@ export async function ProductReviewPage({
       id="content"
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
-      <JsonLd data={buildProductSchema(pick)} />
+      <JsonLd data={buildProductSchema(pick, approvedReviews)} />
       <JsonLd data={buildFaqSchema(pick)} />
       <JsonLd data={buildBreadcrumbSchema(breadcrumbItems)} />
 
