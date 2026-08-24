@@ -68,6 +68,75 @@ function gitDate(file) {
   }
 }
 
+// Shared infrastructure/data modules that feed MANY pages. Excluded from the
+// per-page data-dependency scan on purpose: a commit touching lib/products.ts
+// would otherwise bump lastModified on hundreds of pages at once, which turns
+// the date back into noise. Pages whose content lives ONLY in a shared module
+// (wave pages, product pages) signal freshness by touching their page.tsx
+// when the content is actually refreshed.
+const SHARED_LIB_MODULES = new Set([
+  "products",
+  "wave-products",
+  "wave-content",
+  "comparisons",
+  "categoryGroups",
+  "decision-comparison",
+  "scores",
+  "ratings",
+  "metadata",
+  "site",
+  "sitemap-entries",
+  "sommar",
+  "price-tier",
+  "legacy-routes",
+  "gtag",
+  "consent",
+  "client-ip",
+  "rate-limit",
+  "supabaseServer",
+  "elin-knowledge",
+  "elin-log",
+  "elin-session",
+]);
+
+// A page's content often lives in a dedicated data module (e.g. the decision
+// comparison pages import "@/lib/<slug>"), and comparison pages scaffolded by
+// automation/add-comparison.mjs also have automation/comparisons/<slug>.json.
+// lastModified = max(page.tsx, those per-page data files) so content
+// refreshes made in the data layer actually move the sitemap date.
+function dataDepsFor(pageFile, route) {
+  const deps = [];
+  const src = readFileSync(pageFile, "utf8");
+
+  for (const match of src.matchAll(/from\s+"@\/lib\/([A-Za-z0-9/_-]+)"/g)) {
+    const name = match[1];
+    if (SHARED_LIB_MODULES.has(name)) continue;
+    const candidate = join(ROOT, "lib", `${name}.ts`);
+    try {
+      if (statSync(candidate).isFile()) deps.push(candidate);
+    } catch {
+      // Module without a matching .ts file (e.g. a folder import) — skip.
+    }
+  }
+
+  const lastSegment = route.split("/").filter(Boolean).pop();
+  if (lastSegment) {
+    const spec = join(ROOT, "automation", "comparisons", `${lastSegment}.json`);
+    try {
+      if (statSync(spec).isFile()) deps.push(spec);
+    } catch {
+      // No automation spec for this route — fine.
+    }
+  }
+
+  return deps;
+}
+
+function lastModifiedFor(pageFile, route) {
+  const dates = [gitDate(pageFile), ...dataDepsFor(pageFile, route).map(gitDate)];
+  return dates.sort().at(-1) ?? FALLBACK_DATE;
+}
+
 function metaFor(route) {
   // changeFrequency + priority heuristics (priority is a weak signal; these
   // simply mirror the previous hand-tuned scheme closely enough).
@@ -98,12 +167,42 @@ function metaFor(route) {
   return { changeFrequency: "weekly", priority: 0.82 };
 }
 
+// Pages untouched for a long time should not claim "weekly" freshness — that
+// teaches crawlers the sitemap's hints are noise. Hub/system routes keep
+// their configured cadence; leaf pages older than 90 days drop to monthly.
+const STALE_AFTER_DAYS = 90;
+const HUB_ROUTES = new Set([
+  "/",
+  "/skonhet",
+  "/halsa",
+  "/traning",
+  "/sommar",
+  "/guider",
+  "/jamforelser",
+  "/kategorier",
+  "/elins-val",
+  "/elins-poang",
+  "/fraga-elin",
+]);
+
+function withStaleness(route, lastModified, meta) {
+  if (HUB_ROUTES.has(route)) return meta;
+  const ageDays = (Date.now() - new Date(`${lastModified}T00:00:00Z`).getTime()) / 86_400_000;
+  if (ageDays > STALE_AFTER_DAYS && meta.changeFrequency === "weekly") {
+    return { ...meta, changeFrequency: "monthly" };
+  }
+  return meta;
+}
+
 const entries = found
-  .map(({ route, file }) => ({
-    path: route === "/" ? "" : route,
-    lastModified: gitDate(file),
-    ...metaFor(route),
-  }))
+  .map(({ route, file }) => {
+    const lastModified = lastModifiedFor(file, route);
+    return {
+      path: route === "/" ? "" : route,
+      lastModified,
+      ...withStaleness(route, lastModified, metaFor(route)),
+    };
+  })
   .sort((a, b) => a.path.localeCompare(b.path));
 
 const body = entries
