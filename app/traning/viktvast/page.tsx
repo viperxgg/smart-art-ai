@@ -1,3 +1,4 @@
+// Content refresh 2026-08-26: reciprocal link to tyngdvast-eller-lyftarbalte comparison.
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";

@@ -1,0 +1,64 @@
+{
+  "slug": "laslampa-eller-led-list",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "laslampaEllerLedList",
+  "h1": "Läslampa eller LED-list?",
+  "intro": "När kvällarna blir mörka vill många göra hemmet mysigare med bättre ljus – men en läslampa och en LED-list löser helt olika problem. Läslampan är riktat arbetsljus för boken, virkningen eller sängläsningen, medan LED-listen är stämningsljus som förvandlar rummets känsla. Elin jämför Gritins klämbara läslampa med Govees Neon Rope så du köper rätt ljus för rätt behov.",
+  "badges": ["Mörka kvällar", "Mysbelysning", "Olika jobb"],
+  "howToChoose": "Välj läslampan om du faktiskt ska SE något: läsa i sängen utan att väcka någon, handarbeta i soffan eller ha riktat ljus vid skrivbordet – Gritins klämlampa sitter fast var som helst, är uppladdningsbar och har flera ljuslägen. Välj LED-listen om du vill förändra rummets stämning: ett mjukt ljussken bakom TV:n, runt bokhyllan eller i fönstret – Govees Neon Rope formas som du vill och styrs i appen med färger och scener. Kort sagt: uppgiftsljus mot stämningsljus.",
+  "verdict": "Två olika köp för två olika kvällar. Läslampan är det praktiska valet som gör mörka kvällar användbara – hög poäng, lågt pris i sin kategori och laddningsbar frihet. LED-listen är stämningshöjaren som gör rummet mysigt på riktigt men inte hjälper dig läsa en enda sida. Många slutar med båda: listen för rummet, lampan för boken.",
+  "metaTitle": "Läslampa eller LED-list? Ljus för mörka kvällar | Elins val",
+  "metaDescription": "Riktat läsljus eller mysig stämningsbelysning? Elin jämför Gritins uppladdningsbara läslampa med Govee Neon Rope inför höstens mörka kvällar. (Annons)",
+  "picks": [
+    {
+      "exportName": "gritinReadingLightProduct",
+      "path": "/halsa/laslampa",
+      "badge": "Uppgiftsljus",
+      "headline": "Gritin läslampa – ljuset som följer boken",
+      "shortBody": "Välj läslampan när du ska läsa, virka eller jobba: klämfäste, uppladdningsbar och flera ljuslägen som inte stör den som sover bredvid.",
+      "img": "public/products/gritin-reading-light/laslampa-thumbnail.webp",
+      "brand": "Gritin"
+    },
+    {
+      "exportName": "goveeNeonRopeProduct",
+      "path": "/halsa/led-list",
+      "badge": "Stämningsljus",
+      "headline": "Govee Neon Rope – rummets mjuka lyster",
+      "shortBody": "Välj LED-listen när rummet ska kännas mysigt: formbart neonljus som styrs i appen med färger, scener och schema.",
+      "img": "public/products/govee-neon-rope/ledlist-thumbnail.webp",
+      "brand": "Govee"
+    }
+  ],
+  "comparisonRows": [
+    ["Typ av ljus", "Riktat uppgiftsljus", "Mjukt stämningsljus"],
+    ["Bäst för", "Läsning, handarbete, sängläge", "Mysfaktor, TV-vägg, fönster"],
+    ["Placering", "Klämfäste – bok, sänggavel, skrivbord", "Formas och fästs längs väggar och möbler"],
+    ["Ström", "Uppladdningsbart batteri", "Elanslutning + appstyrning"],
+    ["Stör sovande partner", "Nej – riktat och avbländat", "Kan lysa upp hela rummet"],
+    ["Elins poäng", "90/100", "83/100"]
+  ],
+  "faqItems": [
+    { "question": "Räcker en LED-list som läsljus?", "answer": "Nej, en LED-list ger spritt stämningsljus – mysigt för rummet men för svagt och ojämnt för att läsa bekvämt. För läsning behöver du riktat ljus nära boken, vilket är exakt vad en klämbar läslampa ger." },
+    { "question": "Hur länge håller batteriet i en uppladdningsbar läslampa?", "answer": "Gritins läslampa laddas via USB och klarar många läskvällar per laddning beroende på ljusläge – köpare lyfter ofta batteritiden som en av favoritdetaljerna. Lägre ljusstyrka ger längre tid." },
+    { "question": "Kan man styra Govee-listen utan appen?", "answer": "Appen är hjärtat i Govee-upplevelsen: färger, scener, schema och ljusstyrka. Väl konfigurerad kan den följa schema automatiskt, så du behöver inte öppna appen varje kväll." },
+    { "question": "Vilken passar bäst i sovrummet?", "answer": "För sängläsning: läslampan, eftersom den inte väcker någon bredvid. För mjukt kvällsljus innan sömn kan LED-listen på låg värme också vara skön – många kombinerar båda i samma rum." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/laslampa", "label": "Läslampa", "text": "Läs Elins genomgång av Gritins läslampa." },
+    { "href": "/halsa/led-list", "label": "LED-list", "text": "Läs Elins genomgång av Govee Neon Rope." },
+    { "href": "/halsa/morka-morgnar", "label": "Guide", "text": "Mörka morgnar: ljus, väckning och kvällsro." },
+    { "href": "/halsa/solnedgangslampa", "label": "Kvällsljus", "text": "Solnedgångslampan för mjuka kvällar." }
+  ],
+  "image": {
+    "colorA": "#EFE3D8",
+    "colorB": "#DCE0F0",
+    "elin": "/home/claude/smart-art-ai/public/elin/elin-avatar.webp"
+  },
+  "productSlugs": ["gritin-laslampa", "govee-led-list"],
+  "shortTitle": "Läslampa eller LED-list",
+  "description": "Riktat uppgiftsljus för boken mot mjukt stämningsljus för rummet – Elin reder ut vilket ljus dina mörka kvällar behöver."
+}

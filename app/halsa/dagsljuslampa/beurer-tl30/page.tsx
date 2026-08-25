@@ -1,4 +1,5 @@
 // Generated for wave-build-2026-07. Do not edit by hand.
+// Content refresh 2026-08-26: seasonal summary update for autumn.
 import { createWaveProductMetadata, WaveProductPage } from "@/app/(products)/_components/WaveProductPage";
 
 const productSlug = "beurer-tl30-dagsljuslampa";

@@ -9429,6 +9429,11 @@ export const traningsPicks: SommarPick[] = [
     metaDescription: "Elin går igenom Eric Flags justerbara tyngdväst (viktväst): vikter, passform och vad köparna säger – och om den är värd pengarna.",
     relatedLinks: [
       {
+        href: "/traning/tyngdvast-eller-lyftarbalte",
+        label: "Jämförelse",
+        text: "Tyngdväst eller lyftarbälte – vilket lyfter din träning?",
+      },
+      {
         href: "/traning/hantlar",
         label: "Hantlar",
         text: "Bygg styrka med justerbara vikter.",
