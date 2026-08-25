@@ -1,0 +1,64 @@
+{
+  "slug": "knaskydd-eller-lyftarbalte",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "knaskyddEllerLyftarbalte",
+  "h1": "Knäskydd eller lyftarbälte?",
+  "intro": "När vikterna blir tyngre i höstens träningsrutin dyker samma fråga upp: ska du stötta knäna eller bålen först? Rehbands klassiska 5 mm-knäskydd ger värme och stöd åt knäna i böj, medan C.P. Sports lyftarbälte hjälper dig hålla bålen stabil i marklyft och tunga böj. Elin jämför de två så du lägger pengarna där dina lyft behöver dem mest.",
+  "badges": ["Tunga lyft", "Stöd & stabilitet", "Olika jobb"],
+  "howToChoose": "Välj knäskydden om det är knäna som känns i knäböj, utfall och benpass – neoprenet ger värme och en stadig, omslutande känsla som många lyftare inte vill vara utan. Välj bältet om du drar tunga marklyft eller böjer nära din max och vill ha något att spänna bålen emot – det är där ett bälte gör sitt jobb. Tränar du lättare cirklar eller mest maskiner behöver du oftast inget av dem ännu: båda är redskap för tyngre baslyft.",
+  "verdict": "Jämn poäng, olika kroppsdelar. Knäskydden är vardagsvalet för benpassen – värme och stöd varje gång du böjer. Bältet är för de tunga dagarna när marklyft och knäböj närmar sig max. Elins ärliga rekommendation: köp efter var det tar emot i dina lyft – och känner du inte behovet ännu, vänta tills vikterna kräver det.",
+  "metaTitle": "Knäskydd eller lyftarbälte? Rätt stöd för lyften | Elins val",
+  "metaDescription": "Stöd för knäna eller bålen? Elin jämför Rehbands 5 mm-knäskydd med C.P. Sports lyftarbälte – vilket som lyfter dina benpass och marklyft mest. (Annons)",
+  "picks": [
+    {
+      "exportName": "rehbandKneeProduct",
+      "path": "/traning/knaskydd",
+      "badge": "För knäna",
+      "headline": "Rehband RX 5 mm – värme och stöd i böjen",
+      "shortBody": "Välj knäskydden när det är knäna som känns i knäböj och utfall: 5 mm neopren ger värme och en stadig, omslutande känsla genom hela benpasset.",
+      "img": "public/products/rehband-knee/knaskydd-thumbnail.webp",
+      "brand": "Rehband"
+    },
+    {
+      "exportName": "cpSportsBeltProduct",
+      "path": "/traning/lyftarbalte",
+      "badge": "För bålen",
+      "headline": "C.P. Sports T9 – något att spänna emot",
+      "shortBody": "Välj bältet när marklyft och böj blir tunga: ett justerbart bälte ger bålen något att pressa emot så du håller positionen i de tyngsta seten.",
+      "img": "public/products/cpsports-belt/balte-thumbnail.webp",
+      "brand": "C.P. Sports"
+    }
+  ],
+  "comparisonRows": [
+    ["Stöttar", "Knäna", "Bålen och lyftpositionen"],
+    ["Bäst i", "Knäböj, utfall, benpass", "Marklyft och tunga böj"],
+    ["Känsla", "Värme och omslutande stöd", "Fast tryck att spänna emot"],
+    ["När", "Genom hela passet", "De tyngsta seten"],
+    ["Nybörjarbehov", "Först när vikterna ökar", "Först nära tyngre max"],
+    ["Elins poäng", "74/100", "74/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad gör 5 mm neopren i ett knäskydd?", "answer": "Tjockleken ger både värme och en stadig, omslutande känsla runt knät – 5 mm är standarden för styrketräning. Värmen gör att många upplever knäna som smidigare genom passet." },
+    { "question": "När i ett pass används lyftarbältet?", "answer": "Främst i de tyngsta seten av marklyft och knäböj – inte genom hela passet. Du spänner bålen mot bältet i lyftet och lossar det mellan seten." },
+    { "question": "Behöver nybörjare knäskydd eller bälte?", "answer": "Oftast inte från start. Båda är redskap som gör mest nytta när vikterna börjar bli tunga – lär dig tekniken först, och lägg till stöd när dina lyft faktiskt kräver det." },
+    { "question": "Vilken storlek ska man välja på knäskydd?", "answer": "Rehbands skydd ska sitta tajt utan att skära av – mät runt knät och följ storleksguiden noga. För löst ger inget stöd, för trångt stör cirkulationen under längre pass." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/knaskydd", "label": "Knäskydd", "text": "Läs Elins genomgång av Rehband RX 5 mm." },
+    { "href": "/traning/lyftarbalte", "label": "Lyftarbälte", "text": "Läs Elins genomgång av C.P. Sports T9." },
+    { "href": "/traning/tyngdvast-eller-lyftarbalte", "label": "Jämförelse", "text": "Tyngdväst eller lyftarbälte – vilket lyfter din träning?" },
+    { "href": "/traning/kettlebell", "label": "Kettlebell", "text": "Mångsidig styrka och kondition hemma." }
+  ],
+  "image": {
+    "colorA": "#DCE0EA",
+    "colorB": "#E2E8E4",
+    "elin": "/home/claude/smart-art-ai/public/elin/elin-avatar.webp"
+  },
+  "productSlugs": ["rehband-knaskydd", "cpsports-lyftarbalte"],
+  "shortTitle": "Knäskydd eller lyftarbälte",
+  "description": "Värme och stöd för knäna mot ett bälte att spänna bålen emot – Elin reder ut vilket stöd dina tunga lyft behöver först."
+}

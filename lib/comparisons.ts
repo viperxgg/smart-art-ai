@@ -16,6 +16,28 @@ export type ComparisonEntry = {
 export const comparisonEntries: readonly ComparisonEntry[] = [
   ...waveComparisonEntries,
   {
+    slug: "knaskydd-eller-lyftarbalte",
+    title: "Knäskydd eller lyftarbälte?",
+    shortTitle: "Knäskydd eller lyftarbälte",
+    category: "traning",
+    categoryLabel: "Träning",
+    href: "/traning/knaskydd-eller-lyftarbalte",
+    description: "Värme och stöd för knäna mot ett bälte att spänna bålen emot – Elin reder ut vilket stöd dina tunga lyft behöver först.",
+    productSlugs: ["rehband-knaskydd","cpsports-lyftarbalte"],
+    badges: ["Tunga lyft","Stöd & stabilitet","Olika jobb"],
+  },
+  {
+    slug: "ansiktsolja-eller-ansiktsmist",
+    title: "Ansiktsolja eller ansiktsmist?",
+    shortTitle: "Ansiktsolja eller ansiktsmist",
+    category: "skonhet",
+    categoryLabel: "Skönhet",
+    href: "/skonhet/ansiktsolja-eller-ansiktsmist",
+    description: "Närande kvällsolja mot uppfriskande dagsmist – Elin reder ut vilken sorts fukt din hy behöver när inomhusluften blir torr.",
+    productSlugs: ["nature-spell-face-oil","mario-badescu-facial-spray"],
+    badges: ["Torr höstluft","Fukt & lyster","Olika jobb"],
+  },
+  {
     slug: "laslampa-eller-led-list",
     title: "Läslampa eller LED-list?",
     shortTitle: "Läslampa eller LED-list",

@@ -6644,6 +6644,11 @@ export const smartSommarPicks: SommarPick[] = [
     metaDescription: "Elin går igenom Manta Sleep Mask: en justerbar, 100% mörkläggande sovmask med formade ögonkåpor utan tryck mot ögonen (4,4 av 5, 14443 omdömen).",
     relatedLinks: [
       {
+        href: "/halsa/sov-battre-i-host",
+        label: "Guide",
+        text: "Sov bättre i höst: mörker, ljud och tyngd.",
+      },
+      {
         href: "/halsa/luftrenare",
         label: "Luftrenare",
         text: "Renare luft hemma för en skönare miljö.",
@@ -6769,6 +6774,11 @@ export const smartSommarPicks: SommarPick[] = [
     metaTitle: "Magicteam white noise-maskin – 40 ljud för sömn & fokus | Elins val",
     metaDescription: "Elin går igenom Magicteam white noise-maskin: 40 ljud för en lugn ljudkuliss till sömn och fokus (4,4 av 5, 11312 omdömen) – och vad du bör veta innan du köper.",
     relatedLinks: [
+      {
+        href: "/halsa/sov-battre-i-host",
+        label: "Guide",
+        text: "Sov bättre i höst: mörker, ljud och tyngd.",
+      },
       {
         href: "/halsa/luftrenare",
         label: "Luftrenare",
@@ -7300,7 +7310,7 @@ export const smartSommarPicks: SommarPick[] = [
     cardImageAlt: "Ella tyngdtäcke 9 kg, 150x200 cm",
     badge: "Elins avkopplingsfavorit",
     headline: "Ella tyngdtäcke 9 kg – jämn tyngd och skön avkoppling",
-    shortBody: "Ett tyngdtäcke på 9 kg i storleken 150x200 cm. Den jämnt fördelade vikten ger en omslutande känsla och det mjuka tyget gör stunden i sängen eller soffan extra mysig.",
+    shortBody: "Ett tyngdtäcke på 9 kg i storleken 150x200 cm – höstens mysigaste uppgradering av sängen. Den jämnt fördelade vikten ger en omslutande känsla och det mjuka tyget gör mörka kvällar i sängen eller soffan extra ombonade.",
     valueHook: "Jämn tyngd för en skön avkoppling",
     valueStatement: "Ella tyngdtäcke är ett tyngdtäcke på 9 kg (150x200 cm) för dig som vill ha en jämn, omslutande tyngd och en skön, avkopplande känsla i sängen. Vikten är jämnt fördelad och tyget är mjukt mot huden, vilket många upplever som mysigt och lugnande. Amazon visar 4,5 av 5 från 1 532 omdömen, och köpare lyfter framför allt den jämna tyngden, den omslutande känslan och det mjuka tyget.",
     passFor: [
@@ -7336,6 +7346,11 @@ export const smartSommarPicks: SommarPick[] = [
     metaTitle: "Ella tyngdtäcke 9 kg (150x200 cm) – jämn tyngd & avkoppling | Elins val",
     metaDescription: "Elin går igenom Ella tyngdtäcke 9 kg (150x200 cm): jämn, omslutande tyngd för en skön avkoppling (4,5 av 5, 1 532 omdömen) – och vad du bör veta innan du väljer.",
     relatedLinks: [
+      {
+        href: "/halsa/sov-battre-i-host",
+        label: "Guide",
+        text: "Sov bättre i höst: mörker, ljud och tyngd.",
+      },
       {
         href: "/halsa/luftrenare",
         label: "Luftrenare",
