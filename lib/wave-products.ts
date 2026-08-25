@@ -820,7 +820,7 @@ export const beurerTl30DagsljuslampaProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4v946rc",
   pageHref: "/halsa/dagsljuslampa/beurer-tl30",
-  summary: "Ett litet och beprövat Beurer-alternativ för dig som vill ha extra ljus utan att ta upp mycket plats.",
+  summary: "När höstmörkret sänker sig är TL30 det lilla, beprövade Beurer-alternativet: extra dagsljus på skrivbordet utan att ta upp mycket plats – och resefodralet följer med till jobbet.",
   evaluation: {
     headline: "Elins snabba koll",
     intro: "Elin går igenom Beurer TL30 dagsljuslampa utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
