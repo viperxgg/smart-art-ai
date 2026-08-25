@@ -150,6 +150,11 @@ export default function HalsaHubPage() {
               text: "Mörka morgnar: dagsljuslampa, wake-up light och mjukt kvällssken.",
             },
             {
+              href: "/halsa/sov-battre-i-host",
+              label: "Sömn",
+              text: "Sov bättre i höst: sovmask, white noise och tyngdtäcke.",
+            },
+            {
               href: "/traning/traningsband-naturlatex",
               label: "Träning",
               text: "Läs Elins genomgång av träningsband i naturlatex.",

@@ -1408,7 +1408,7 @@ export const goodNiteTyngdtackeProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4wmz3Jx",
   pageHref: "/halsa/tyngdtacke/good-nite",
-  summary: "Ett tyngdtäcke för vuxna som vill ha en ombonad och tyngre känsla i sängen.",
+  summary: "När kvällarna blir mörka och kalla är det här tyngdtäcket ett enkelt sätt att göra sängen mer ombonad – en tyngre, omslutande känsla för vuxna som vill landa på kvällen.",
   evaluation: {
     headline: "Elins snabba koll",
     intro: "Elin går igenom Good Nite tyngdtäcke utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",

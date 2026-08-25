@@ -1,0 +1,64 @@
+{
+  "slug": "ansiktsolja-eller-ansiktsmist",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "ansiktsoljaEllerAnsiktsmist",
+  "h1": "Ansiktsolja eller ansiktsmist?",
+  "intro": "När elementen går igång och luften inomhus blir torr börjar många leta efter mer fukt till hyn – men olja och mist gör helt olika jobb. Ansiktsoljan är det närande sista steget som låser in fukt och ger lyster, medan misten är den snabba uppfriskningen mitt på dagen. Elin jämför Nature Spells vitaminolja med Mario Badescus klassiska rosvattenspray så du väljer rätt sorts fukt.",
+  "badges": ["Torr höstluft", "Fukt & lyster", "Olika jobb"],
+  "howToChoose": "Välj ansiktsoljan om din hud känns torr, stram eller glåmig på kvällen – några droppar som sista steg i rutinen hjälper till att låsa in fukten från dina andra produkter och ger en mjuk lyster till morgonen. Välj misten om du vill ha något för dagen: en snabb, doftande uppfriskning över makeupen, efter träningen eller vid skrivbordet när luften känns torr. Oljan är vård, misten är känsla – och de konkurrerar egentligen inte om samma plats i rutinen.",
+  "verdict": "Två olika sorters fukt. Oljan gör mest för torr hy över tid – ett närande kvällssteg som märks morgonen efter. Misten vinner vardagsögonblicken: den friskar upp direkt men ersätter inte en riktig fuktrutin. Har du torr hösthy: börja med oljan. Vill du bara ha en skönare arbetsdag: misten.",
+  "metaTitle": "Ansiktsolja eller ansiktsmist? Fukt för torr hösthy | Elins val",
+  "metaDescription": "Närande olja eller uppfriskande mist? Elin jämför Nature Spells vitaminolja med Mario Badescus rosvattenspray – rätt fukt när inomhusluften blir torr. (Annons)",
+  "picks": [
+    {
+      "exportName": "natureSpellFaceOilProduct",
+      "path": "/skonhet/ansiktsolja",
+      "badge": "Närande vård",
+      "headline": "Nature Spell Vitamin Boost – kvällens sista steg",
+      "shortBody": "Välj oljan när huden känns torr och glåmig: några droppar över nattkrämen låser in fukten och ger lyster till morgonen.",
+      "img": "public/products/nature-spell-oil/nature-oil-thumbnail.webp",
+      "brand": "Nature Spell"
+    },
+    {
+      "exportName": "marioBadescuFacialSprayProduct",
+      "path": "/skonhet/ansiktsmist",
+      "badge": "Snabb uppfriskning",
+      "headline": "Mario Badescu Facial Spray – dagens lilla paus",
+      "shortBody": "Välj misten för ögonblicken: en doftande spray med aloe och rosvatten som friskar upp över makeupen och vid torr inomhusluft.",
+      "img": "public/products/mario-badescu-mist/mario-mist-thumbnail.webp",
+      "brand": "Mario Badescu"
+    }
+  ],
+  "comparisonRows": [
+    ["Typ", "Närande olja, 30 ml", "Uppfriskande spray, 236 ml"],
+    ["Bäst för", "Torr, glåmig hy som vill ha lyster", "Snabb fräschör under dagen"],
+    ["När i rutinen", "Sista steget på kvällen", "När som helst – även över makeup"],
+    ["Känsla", "Mjuk, närande finish", "Lätt, doftande dimma"],
+    ["Att veta", "Betyget bygger än så länge på få omdömen", "Mer känsla än djupverkande vård"],
+    ["Elins poäng", "78/100", "80/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad gör en ansiktsolja i rutinen?", "answer": "Oljan används som sista steg och hjälper till att låsa in fukten från serum och kräm samtidigt som den ger en mjuk lyster. Några droppar räcker – värm dem mellan handflatorna och tryck in i huden." },
+    { "question": "Kan man spraya ansiktsmist över makeup?", "answer": "Ja, det är en av de vanligaste användningarna: ett lätt moln på armlängds avstånd friskar upp utan att förstöra makeupen. Många har flaskan på skrivbordet eller i väskan." },
+    { "question": "Räcker en mist som fuktvård för torr hy?", "answer": "Nej, misten är främst en uppfriskning för stunden. Torr hy behöver också produkter som håller kvar fukten – som en kräm och gärna en olja som sista steg på kvällen." },
+    { "question": "Kan jag använda båda?", "answer": "Absolut, de kompletterar varandra: misten under dagen när luften känns torr, oljan på kvällen som närande avslut. Det är två olika jobb snarare än ett val." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/ansiktsolja", "label": "Ansiktsolja", "text": "Läs Elins genomgång av Nature Spell Vitamin Boost." },
+    { "href": "/skonhet/ansiktsmist", "label": "Ansiktsmist", "text": "Läs Elins genomgång av Mario Badescu Facial Spray." },
+    { "href": "/skonhet/centella-eller-propolis", "label": "Jämförelse", "text": "Centella eller propolis för känslig hösthy?" },
+    { "href": "/skonhet/niacinamide-serum", "label": "Niacinamide", "text": "Milt serum för jämnare hudton." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#F0E2CC",
+    "elin": "/home/claude/smart-art-ai/public/elin/elin-avatar.webp"
+  },
+  "productSlugs": ["nature-spell-face-oil", "mario-badescu-facial-spray"],
+  "shortTitle": "Ansiktsolja eller ansiktsmist",
+  "description": "Närande kvällsolja mot uppfriskande dagsmist – Elin reder ut vilken sorts fukt din hy behöver när inomhusluften blir torr."
+}

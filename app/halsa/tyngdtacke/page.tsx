@@ -1,3 +1,4 @@
+// Content refresh 2026-08-27: seasonal update + link to sov-battre-i-host guide.
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";
