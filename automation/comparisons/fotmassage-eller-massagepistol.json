@@ -1,0 +1,65 @@
+{
+  "slug": "fotmassage-eller-massagepistol",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "fotmassageEllerMassagepistol",
+  "h1": "Fotmassage eller massagepistol?",
+  "intro": "Mörka kvällar och mer tid inomhus gör återhämtning hemma till en riktig fråga: ska du satsa på en shiatsu-fotmassage som du bara sätter fötterna i, eller en massagepistol som du styr själv över hela kroppen? Elin jämför Beurers två populära val – FM 90 för fötterna och MG 99 för musklerna – så du väljer efter hur din trötthet faktiskt känns.",
+  "badges": ["Återhämtning", "Mysiga kvällar", "Beurer mot Beurer"],
+  "howToChoose": "Välj fotmassagen om det är fötterna som bär tröttheten – långa arbetsdagar på benen, kalla fötter på kvällen och en önskan om ren avkoppling utan ansträngning: sätt i fötterna, tryck på knappen, klart. Välj massagepistolen om du vill komma åt specifika muskler själv – vader, lår, axlar och rygg efter träning eller stillasittande – och vill kunna variera tryck och tempo. Fotmassagen är njutning på autopilot, pistolen är ett verktyg du riktar.",
+  "verdict": "Olika sorters trötthet, olika val. FM 90 vinner kvällsmyset – den kräver ingenting av dig och gör fotkvällen till en ritual. MG 99 är mångsidigare och följer med till hela kroppen, men du gör jobbet själv. Tränar du regelbundet: pistolen. Vill du bara landa i soffan: fotmassagen.",
+  "metaTitle": "Fotmassage eller massagepistol? Så väljer du | Elins val",
+  "metaDescription": "Trötta fötter eller spända muskler? Elin jämför Beurer FM 90 shiatsu-fotmassage med massagepistolen MG 99 – njutning på autopilot mot verktyg du styr själv. (Annons)",
+  "picks": [
+    {
+      "exportName": "beurerFm90Product",
+      "path": "/halsa/fotmassage",
+      "badge": "För fötterna",
+      "headline": "Beurer FM 90 – fotkvällen på autopilot",
+      "shortBody": "Välj FM 90 när det är fötterna som är trötta. Shiatsu-rullarna och värmen jobbar medan du gör ingenting alls – perfekt avslut på dagar där du stått och gått mycket.",
+      "img": "public/products/beurer-fm90/fotmassage-thumbnail.webp",
+      "brand": "Beurer"
+    },
+    {
+      "exportName": "beurerMassagepistolProduct",
+      "path": "/halsa/massagepistol/beurer-mg-99",
+      "badge": "För musklerna",
+      "headline": "Beurer MG 99 – verktyget du riktar själv",
+      "shortBody": "Välj MG 99 när du vill komma åt spända vader, lår och axlar efter träning eller långa dagar vid skrivbordet. Du styr tryck, tempo och var den jobbar.",
+      "img": "public/products/massage-guns/beurer-mg99-thumbnail.webp",
+      "brand": "Beurer"
+    }
+  ],
+  "comparisonRows": [
+    ["Typ", "Shiatsu-fotmassage med värme", "Massagepistol med utbytbara huvuden"],
+    ["Kroppsdel", "Fötter", "Hela kroppen – vader, lår, rygg, axlar"],
+    ["Ansträngning", "Ingen – sätt i fötterna och slappna av", "Du håller och styr den själv"],
+    ["Bäst efter", "Dagar på benen, kalla kvällar", "Träningspass och stillasittande"],
+    ["Ljud", "Lågt surr", "Hörs mer på höga lägen"],
+    ["Passar som julklapp", "Ja – mysfaktor", "Ja – till den träningsintresserade"],
+    ["Elins poäng", "63/100", "76/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden mellan fotmassage och massagepistol?", "answer": "En fotmassage som Beurer FM 90 är en apparat du sätter fötterna i – shiatsu-rullar och värme sköter allt automatiskt. En massagepistol som MG 99 är ett handhållet verktyg du själv riktar mot spända muskler var som helst på kroppen. Den ena är passiv avkoppling, den andra ett aktivt verktyg." },
+    { "question": "Hjälper en fotmassageapparat mot trötta fötter?", "answer": "Många köpare beskriver just det som största behållningen: efter dagar med mycket stående och gående upplevs shiatsu-rullarna och värmen som mycket avkopplande. Se den som en skön kvällsritual snarare än en mirakelkur." },
+    { "question": "Kan man använda en massagepistol på fötterna?", "answer": "Det går med ett mjukt huvud och lågt tempo, men de flesta tycker att en riktig fotmassage är bekvämare för just fötter – pistolen kommer mer till sin rätt på större muskler som vader, lår och axlar." },
+    { "question": "Vilken passar bäst som julklapp?", "answer": "Båda är uppskattade klappar men till olika personer: fotmassagen till den som älskar mys och avkoppling, massagepistolen till den som tränar eller ofta klagar på spända axlar." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/fotmassage", "label": "Fotmassage", "text": "Läs Elins genomgång av Beurer FM 90." },
+    { "href": "/halsa/massagepistol/beurer-mg-99", "label": "Massagepistol", "text": "Läs Elins genomgång av Beurer MG 99." },
+    { "href": "/halsa/massagepistol", "label": "Guide", "text": "Elins massagepistol-guide: två tydliga val." },
+    { "href": "/halsa/massagepistol-eller-spikmatta", "label": "Jämförelse", "text": "Massagepistol eller spikmatta för återhämtning?" }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#D9E4F0",
+    "elin": "/home/claude/smart-art-ai/public/elin/elin-avatar.webp"
+  },
+  "productSlugs": ["beurer-fotmassage", "beurer-mg-99-massagepistol"],
+  "shortTitle": "Fotmassage eller massagepistol",
+  "description": "Njutning på autopilot för trötta fötter mot ett verktyg du riktar mot spända muskler – Elin jämför Beurers två återhämtningsval inför mörka kvällar."
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "tyngdvast-eller-lyftarbalte",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "tyngdvastEllerLyftarbalte",
+  "h1": "Tyngdväst eller lyftarbälte?",
+  "intro": "Båda spänns fast runt kroppen, men där slutar likheten. En tyngdväst (även kallad viktväst) gör kroppen tyngre så att promenader, armhävningar och pull-ups blir hårdare träning. Ett lyftarbälte gör motsatsen till att belasta – det stöttar bålen när du lyfter tungt i marklyft och knäböj. Elin reder ut vilket redskap som matchar din träning.",
+  "badges": ["Olika jobb", "Hemmaträning", "Styrka"],
+  "howToChoose": "Välj en tyngdväst om du vill göra kroppsviktsträning och promenader tuffare: gåturer, armhävningar, utfall och pull-ups får omedelbart mer motstånd, och Eric Flags väst låter dig justera vikten stegvis. Välj ett lyftarbälte om du tränar tunga basövningar med skivstång – bältet hjälper dig att spänna bålen och hålla tekniken när vikterna blir tunga. De löser alltså olika problem: västen lägger på belastning, bältet hjälper dig att hantera den.",
+  "verdict": "Inget antingen-eller i vanlig mening – redskapen tillhör olika träningsstilar. Promenerar du och kör kroppsvikt: tyngdvästen ger mest träning per krona av de två. Lyfter du tungt med stång: bältet är det klassiska stödet. Tränar du både och? Då är det behovet just nu som avgör.",
+  "metaTitle": "Tyngdväst eller lyftarbälte? Så väljer du | Elins val",
+  "metaDescription": "Tyngdväst gör kroppen tyngre – lyftarbältet stöttar när du lyfter tungt. Elin jämför Eric Flags viktväst med C.P. Sports bälte och reder ut vilket din träning behöver. (Annons)",
+  "picks": [
+    {
+      "exportName": "ericFlagViktvastProduct",
+      "path": "/traning/viktvast",
+      "badge": "Mer belastning",
+      "headline": "Eric Flag tyngdväst – gör allt lite tyngre",
+      "shortBody": "Välj tyngdvästen för promenader och kroppsviktsträning: justerbar vikt, tight passform och omedelbart hårdare armhävningar, utfall och pull-ups.",
+      "img": "public/products/eric-flag-viktvast/viktvast-thumbnail.webp",
+      "brand": "Eric Flag"
+    },
+    {
+      "exportName": "cpSportsBeltProduct",
+      "path": "/traning/lyftarbalte",
+      "badge": "Mer stöd",
+      "headline": "C.P. Sports bälte – stöd när det blir tungt",
+      "shortBody": "Välj lyftarbältet för tunga marklyft och knäböj: det hjälper dig att spänna bålen och hålla tekniken när vikterna på stången växer.",
+      "img": "public/products/cpsports-belt/balte-thumbnail.webp",
+      "brand": "C.P. Sports"
+    }
+  ],
+  "comparisonRows": [
+    ["Gör vad?", "Lägger till vikt på kroppen", "Stöttar bålen vid tunga lyft"],
+    ["Bäst för", "Promenader, armhävningar, pull-ups", "Marklyft, knäböj, tung stångträning"],
+    ["Träningsstil", "Kroppsvikt och vardagsmotion", "Styrkelyft och gymträning"],
+    ["Justerbarhet", "Vikt i steg upp till 10 eller 20 kg", "Storlek och åtdragning"],
+    ["Nybörjarvänlig", "Ja – börja med låg vikt", "Ja, men mest relevant när lyften blivit tunga"],
+    ["Elins poäng", "87/100", "74/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på tyngdväst och viktväst?", "answer": "Ingen – det är två namn på samma redskap: en väst med vikter som gör kroppen tyngre under träning och promenader. Eric Flags modell finns med justerbar vikt upp till 10 eller 20 kg." },
+    { "question": "Vad ger promenader med tyngdväst?", "answer": "Vikten gör att kroppen jobbar hårdare i varje steg – pulsen och energiförbrukningen ökar jämfört med samma promenad utan väst. Börja med låg vikt och öka stegvis så att hållningen hålls bra." },
+    { "question": "När behöver jag ett lyftarbälte?", "answer": "Bältet blir relevant när du tränar tunga basövningar som marklyft och knäböj och vill ha hjälp att spänna bålen och hålla tekniken. För lätta vikter och maskinträning klarar sig de flesta utan." },
+    { "question": "Kan jag använda tyngdväst och bälte samtidigt?", "answer": "De används i olika situationer – västen under kroppsviktsträning och promenader, bältet under tunga stånglyft – så i praktiken kombineras de sällan i samma övning." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/viktvast", "label": "Tyngdväst", "text": "Läs Elins genomgång av Eric Flags viktväst." },
+    { "href": "/traning/lyftarbalte", "label": "Lyftarbälte", "text": "Läs Elins genomgång av C.P. Sports bälte." },
+    { "href": "/traning/traningsband", "label": "Träningsband", "text": "Komplettera hemmaträningen med motståndsband." },
+    { "href": "/traning", "label": "Träning", "text": "Se alla Elins val för hemmaträning." }
+  ],
+  "image": {
+    "colorA": "#D9E4F0",
+    "colorB": "#EFE3D8",
+    "elin": "/home/claude/smart-art-ai/public/elin/elin-avatar.webp"
+  },
+  "productSlugs": ["eric-flag-viktvast", "cpsports-lyftarbalte"],
+  "shortTitle": "Tyngdväst eller lyftarbälte",
+  "description": "Västen som gör kroppen tyngre mot bältet som stöttar tunga lyft – Elin reder ut vilket redskap din träning faktiskt behöver."
+}

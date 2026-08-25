@@ -1,0 +1,65 @@
+{
+  "slug": "cicaplast-b5-eller-cetaphil",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "cicaplastB5EllerCetaphil",
+  "h1": "Cicaplast B5 eller Cetaphil?",
+  "intro": "När kylan och elementvärmen sätter igång brukar torr och stram hud följa med. Två av de mest köpta lösningarna är La Roche-Posays Cicaplast Baume B5+ och Cetaphils klassiska Moisturising Cream – men de jobbar olika. Cicaplast är en tjock balsam som lugnar hud som redan är irriterad och sliten, medan Cetaphil är den enkla vardagskrämen som håller huden mjuk dag efter dag.",
+  "badges": ["Torr hud", "Höst & vinter", "Känslig hud"],
+  "howToChoose": "Välj Cicaplast B5+ som punktinsats: när huden är stressad, rödflammig eller sliten av kyla och vind – den lugnande balsamtexturen gör mest nytta på utsatta områden som händer, kinder och läppområde. Välj Cetaphil som daglig bas: en stor burk enkel, parfymfri kräm för hela kroppen som håller torrheten borta i vardagen. Många kombinerar: Cetaphil dagligen och Cicaplast där huden säger ifrån.",
+  "verdict": "Ingen förlorare här – de kompletterar varandra. Cetaphil är basen som sköter vardagen för både kropp och ansikte, medan Cicaplast B5+ är räddaren du tar fram när vinterhuden protesterar. Ska du bara välja en: Cetaphil för hela familjen och vardagen, Cicaplast om din hud ofta blir irriterad och stram.",
+  "metaTitle": "Cicaplast B5 eller Cetaphil? Bäst för torr hud | Elins val",
+  "metaDescription": "Torr och stram hud i höst? Elin jämför La Roche-Posay Cicaplast Baume B5+ med Cetaphil Moisturising Cream – lugnande balsam mot enkel vardagskräm. (Annons)",
+  "picks": [
+    {
+      "exportName": "larochePosayCicaplastB5Product",
+      "path": "/skonhet/cicaplast-b5",
+      "badge": "Lugnande balsam",
+      "headline": "Cicaplast B5+ – när huden säger ifrån",
+      "shortBody": "Välj Cicaplast när huden är irriterad, rödflammig eller sliten av kyla och vind. Den tjocka balsamen med panthenol lugnar och stöttar hudens egen återhämtning – perfekt som punktinsats.",
+      "img": "public/products/la-roche-posay-cicaplast-b5/cicaplast-thumbnail.webp",
+      "brand": "La Roche-Posay"
+    },
+    {
+      "exportName": "cetaphilMoisturizingCreamProduct",
+      "path": "/skonhet/fuktkram",
+      "badge": "Vardagsbas",
+      "headline": "Cetaphil – den enkla vardagskrämen",
+      "shortBody": "Välj Cetaphil som daglig bas för kropp och ansikte. Stor burk, parfymfri och rik utan att kladda – den håller torr hud mjuk genom hela värmesäsongen.",
+      "img": "public/products/cetaphil-moisturizer/cetaphil-cream-thumbnail.webp",
+      "brand": "Cetaphil"
+    }
+  ],
+  "comparisonRows": [
+    ["Typ", "Lugnande balsam (baume)", "Klassisk fuktkräm"],
+    ["Bäst som", "Punktinsats på irriterad hud", "Daglig kräm för hela kroppen"],
+    ["Textur", "Tjock, skyddande, dröjer kvar", "Rik men lättare, absorberas snabbt"],
+    ["Nyckelinnehåll", "Panthenol (B5), madecassoside", "Glycerin, sweet almond oil"],
+    ["Passar", "Känslig, stressad, vindpinad hud", "Torr hud i vardagen, hela familjen"],
+    ["Parfymfri", "Ja", "Ja"],
+    ["Elins poäng", "89/100", "91/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad används Cicaplast B5 till?", "answer": "Cicaplast Baume B5+ är en lugnande balsam för hud som är torr, stram eller irriterad – till exempel av kyla, vind eller mycket handtvätt. Många använder den som punktinsats på händer, armbågar och torra partier i ansiktet." },
+    { "question": "Kan Cetaphil användas i ansiktet?", "answer": "Ja, Cetaphil Moisturising Cream är parfymfri och gjord för torr, känslig hud på både kropp och ansikte. Är din ansiktshud mycket lättirriterad kan du börja med ett tunt lager på kvällen och se hur huden svarar." },
+    { "question": "Vilken är bäst mot torr vinterhud?", "answer": "Som daglig förebyggande kräm är Cetaphil det enkla valet – den används morgon och kväll på hela kroppen. När huden redan blivit irriterad och stram gör Cicaplast B5+ mest nytta som intensivare punktinsats." },
+    { "question": "Kan jag använda båda samtidigt?", "answer": "Ja, det är en vanlig kombination: Cetaphil som daglig bas och Cicaplast B5+ på utsatta områden vid behov. De krockar inte med varandra." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/cicaplast-b5", "label": "Cicaplast", "text": "Läs Elins genomgång av Cicaplast Baume B5+." },
+    { "href": "/skonhet/fuktkram", "label": "Fuktkräm", "text": "Läs Elins genomgång av Cetaphil Moisturising Cream." },
+    { "href": "/skonhet/cerave-eller-cetaphil", "label": "Jämförelse", "text": "CeraVe eller Cetaphil – vilken rengöring passar dig?" },
+    { "href": "/skonhet", "label": "Skönhet", "text": "Se alla Elins hudvårdsval." }
+  ],
+  "image": {
+    "colorA": "#F4DBE2",
+    "colorB": "#E4E0F0",
+    "elin": "/home/claude/smart-art-ai/public/elin/elin-avatar.webp"
+  },
+  "productSlugs": ["la-roche-posay-cicaplast-b5", "cetaphil-moisturizing-cream"],
+  "shortTitle": "Cicaplast B5 eller Cetaphil",
+  "description": "Lugnande balsam som punktinsats mot enkel vardagskräm som bas – Elin reder ut vilken din torra höst- och vinterhud behöver."
+}

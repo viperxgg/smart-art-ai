@@ -1,0 +1,65 @@
+{
+  "slug": "olaplex-schampo-eller-balsam",
+  "routePrefix": "skonhet",
+  "category": "skonhet",
+  "categoryLabel": "Skönhet",
+  "backHref": "/skonhet",
+  "backLabel": "Tillbaka till skönhet",
+  "exportBaseName": "olaplexSchampoEllerBalsam",
+  "h1": "Olaplex schampo eller balsam?",
+  "intro": "Olaplex No.4 och No.5 säljs oftast tillsammans – men börjar du med bara en, vilken gör mest skillnad? Schampot rengör och bygger upp med Olaplex bond-teknik i varje tvätt, balsamet ger slitna längder mjukhet och glans. Elin reder ut var pengarna gör störst nytta för just ditt hår.",
+  "badges": ["Slitet hår", "Blekt & färgat", "Bond-vård"],
+  "howToChoose": "Välj schampot No.4 om du vill få in bond-vården i rutinen utan extra steg – det jobbar vid varje tvätt och passar dig med fint hår som lätt tyngs ned av balsam. Välj balsamet No.5 om dina längder är torra, blekta eller trassliga och du redan har ett schampo du gillar – det är balsamet som ger den där mjuka, glansiga känslan direkt. Har håret varit med om mycket blekning är kombinationen med kuren No.3 en vanlig trio.",
+  "verdict": "Jämnt lopp – de gör olika halvor av samma jobb. Störst omedelbar skillnad känner de flesta av balsamet No.5 i torra längder, medan No.4 är det smidiga sättet att få bond-vård i varje tvätt. Slitet, blekt hår mår bäst av båda; budgeten avgör var du börjar.",
+  "metaTitle": "Olaplex schampo eller balsam – vilken först? | Elins val",
+  "metaDescription": "Olaplex No.4 eller No.5 – var gör pengarna störst nytta? Elin jämför schampot mot balsamet för blekt, torrt och slitet hår, och när du behöver båda. (Annons)",
+  "picks": [
+    {
+      "exportName": "olaplexNo4ShampooProduct",
+      "path": "/skonhet/olaplex-schampo",
+      "badge": "Varje tvätt",
+      "headline": "Olaplex No.4 – bond-vård i varje tvätt",
+      "shortBody": "Välj No.4 om du vill att själva tvätten ska jobba för håret. Rengör milt, bygger upp med Olaplex bond-teknik och passar även fint hår som lätt blir platt av tunga produkter.",
+      "img": "public/products/olaplex-no4/olaplex4-thumbnail.webp",
+      "brand": "Olaplex"
+    },
+    {
+      "exportName": "olaplexNo5ConditionerProduct",
+      "path": "/skonhet/olaplex-balsam",
+      "badge": "Mjuka längder",
+      "headline": "Olaplex No.5 – direktkänsla i längderna",
+      "shortBody": "Välj No.5 om längderna är torra, blekta eller trassliga. Balsamet ger den omedelbara mjukheten och glansen – det steg de flesta känner störst skillnad av.",
+      "img": "public/products/olaplex-no5/olaplex5-thumbnail.webp",
+      "brand": "Olaplex"
+    }
+  ],
+  "comparisonRows": [
+    ["Steg i rutinen", "Tvätt – ersätter ditt schampo", "Efter tvätt – ersätter ditt balsam"],
+    ["Gör mest för", "Hårbotten och hela håret vid varje tvätt", "Torra, slitna längder och toppar"],
+    ["Direkt känsla", "Rent och lätt", "Mjukt, glansigt, lättkammat"],
+    ["Passar fint hår", "Ja – tynger inte ned", "Ja, i måttlig mängd i längderna"],
+    ["Blekt & färgat hår", "Ja – gjort för det", "Ja – gjort för det"],
+    ["Kombineras ofta med", "No.5 och kuren No.3", "No.4 och kuren No.3"],
+    ["Elins poäng", "82/100", "82/100"]
+  ],
+  "faqItems": [
+    { "question": "Vilken ska jag köpa först – Olaplex No.4 eller No.5?", "answer": "Är längderna torra och trassliga ger balsamet No.5 den största omedelbara skillnaden. Vill du hellre att grundrutinen jobbar för håret i varje tvätt är schampot No.4 rätt start. Slitet, blekt hår mår bäst av kombinationen." },
+    { "question": "Vad är skillnaden mellan No.4 och No.5?", "answer": "No.4 är ett schampo: det rengör och bygger samtidigt upp hårets bindningar med Olaplex bond-teknik. No.5 är balsamet som återfuktar och gör längderna mjuka och glansiga efter tvätten. De är gjorda att komplettera varandra." },
+    { "question": "Fungerar Olaplex på ofärgat hår?", "answer": "Ja. Bond-vården är mest känd för blekt och färgat hår, men även värmestylat och solslitet hår upplevs mjukare och starkare av rutinen enligt många köpare." },
+    { "question": "Behöver jag No.3 också?", "answer": "No.3 är en kur som används före tvätt någon gång i veckan och är ett vanligt tillägg för riktigt slitet hår. Börja gärna med No.4 eller No.5 och lägg till kuren om håret behöver mer." }
+  ],
+  "relatedLinks": [
+    { "href": "/skonhet/olaplex-schampo", "label": "Olaplex No.4", "text": "Läs Elins genomgång av Olaplex schampot." },
+    { "href": "/skonhet/olaplex-balsam", "label": "Olaplex No.5", "text": "Läs Elins genomgång av Olaplex balsamet." },
+    { "href": "/skonhet/olaplex-no3", "label": "Olaplex No.3", "text": "Kuren för riktigt slitet hår." },
+    { "href": "/skonhet/olaplex-eller-harinpackning", "label": "Jämförelse", "text": "Olaplex eller hårinpackning – värt det?" }
+  ],
+  "image": {
+    "colorA": "#EFE3D8",
+    "colorB": "#F4DBE2",
+    "elin": "/home/claude/smart-art-ai/public/elin/elin-avatar.webp"
+  },
+  "productSlugs": ["olaplex-no4-shampoo", "olaplex-no5-conditioner"],
+  "shortTitle": "Olaplex schampo eller balsam",
+  "description": "No.4 i varje tvätt eller No.5 för mjuka längder – Elin reder ut var Olaplex-pengarna gör störst nytta och när du behöver båda."
+}
