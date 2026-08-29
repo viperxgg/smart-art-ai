@@ -16,6 +16,28 @@ export type ComparisonEntry = {
 export const comparisonEntries: readonly ComparisonEntry[] = [
   ...waveComparisonEntries,
   {
+    slug: "tjock-eller-tunn-yogamatta",
+    title: "Tjock eller tunn yogamatta?",
+    shortTitle: "Tjock eller tunn yogamatta",
+    category: "traning",
+    categoryLabel: "Träning",
+    href: "/traning/tjock-eller-tunn-yogamatta",
+    description: "Knävänlig komfort eller golvkontakt och balans – välj efter passet.",
+    productSlugs: ["prosourcefit-extra-tjock-yogamatta","yogati-tpe-yogamatta"],
+    badges: ["Hemmayoga","Komfort vs balans","Kom igång i höst"],
+  },
+  {
+    slug: "gjutjarn-eller-mjuk-kettlebell",
+    title: "Gjutjärns- eller mjuk kettlebell?",
+    shortTitle: "Gjutjärns- eller mjuk kettlebell",
+    category: "traning",
+    categoryLabel: "Träning",
+    href: "/traning/gjutjarn-eller-mjuk-kettlebell",
+    description: "Klassisk järnkänsla eller golvvänlig sandfyllning – välj efter ditt hem.",
+    productSlugs: ["amazon-basics-gjutjarns-kettlebell","proiron-mjuk-kettlebell"],
+    badges: ["Hemmaträning","Järn vs mjuk","Kom igång i höst"],
+  },
+  {
     slug: "handledslindor-eller-lyftremmar",
     title: "Handledslindor eller lyftremmar?",
     shortTitle: "Handledslindor eller lyftremmar",

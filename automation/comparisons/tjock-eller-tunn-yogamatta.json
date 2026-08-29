@@ -1,0 +1,65 @@
+{
+  "slug": "tjock-eller-tunn-yogamatta",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "tjockEllerTunnYogamatta",
+  "h1": "Tjock eller tunn yogamatta?",
+  "intro": "När yoga- och hemmapassen flyttar in i höst står valet mellan två skolor: en extra tjock matta som skonar knän och rygg mot hårda golv, eller en tunnare TPE-matta med bättre golvkontakt och grepp för balansövningar. Elin jämför komfort mot stabilitet så att du rullar ut rätt.",
+  "badges": ["Hemmayoga", "Komfort vs balans", "Kom igång i höst"],
+  "howToChoose": "Utgå från vad som gör ont – eller vad som vinglar. Känns knän, höfter och svanskota mot golvet i knästående, liggande och stilla positioner är den tjocka mattan rätt: centimetern skum gör hårda golv bekväma. Tappar du i stället balansen i stående positioner, eller glider händerna i plankor och hundar, är den tunnare TPE-mattan rätt: mer golvkontakt, stabilare stående och bra grepp åt båda hållen. Kör du mest träningspass med hopp och plankor snarare än yoga – gå på den tunnare.",
+  "verdict": "Elin väljer efter passet. För mjuk yoga, stretch och allt på knä vinner ProSourceFits tjocka matta – komforten gör att passen blir längre. För flöden, balans och svettigare träningspass vinner YOGATI – stadigare stående och grepp som håller. Osäker? Den som tränar mest på knä märker skillnaden först.",
+  "metaTitle": "Tjock eller tunn yogamatta? Komfort mot balans | Elins val",
+  "metaDescription": "Tjock eller tunn yogamatta? Elin jämför knävänlig komfort mot golvkontakt och balans – så väljer du rätt matta när hemmayogan startar i höst.",
+  "picks": [
+    {
+      "exportName": "prosourcefitYogaMatProduct",
+      "path": "/traning/yogamatta/prosourcefit-13mm",
+      "badge": "Knävänlig",
+      "headline": "ProSourceFit extra tjock – komfort för knän och rygg",
+      "shortBody": "Välj den tjocka mattan om knän, höfter eller svanskota brukar säga ifrån mot golvet. Den extra centimetern skum gör knästående och liggande positioner bekväma även på hårt golv.",
+      "img": "public/products/yoga-mats/prosourcefit-thick-yoga-mat-thumbnail.webp",
+      "brand": "Tjock matta (ProSourceFit)"
+    },
+    {
+      "exportName": "yogatiTpeYogaMatProduct",
+      "path": "/traning/yogamatta/yogati-tpe",
+      "badge": "Stabil & grepp",
+      "headline": "YOGATI TPE – golvkontakt för balans och flöden",
+      "shortBody": "Välj den tunnare TPE-mattan om du står, balanserar och flödar mycket. Du känner golvet under fötterna, greppet håller i plankor och hundar, och den är lätt att rulla ihop och ta med.",
+      "img": "public/products/yoga-mats/yogati-tpe-yoga-mat-thumbnail.webp",
+      "brand": "TPE-matta (YOGATI)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Extra tjockt skum; mjuk landning", "TPE med grepp på båda sidor"],
+    ["Känsla", "Mjuk och dämpad", "Stabil med tydlig golvkontakt"],
+    ["Bäst för", "Knästående, stretch, avslappning", "Stående balans, flöden, träningspass"],
+    ["Skonar", "Knän, höfter, svanskota", "Handleder via stadigt underlag"],
+    ["Balans", "Mjukare – stående vinglar mer", "Stadigare i ett ben och plankor"],
+    ["Att bära med", "Tjockare rulle, mest hemmabruk", "Lättare rulle, följer med till passet"],
+    ["Elins poäng", "84/100", "83/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på tjock och tunn yogamatta?", "answer": "Tjockleken avgör känslan. En extra tjock matta har mer skum som dämpar mot golvet – skönt för knän och rygg i stilla positioner. En tunnare TPE-matta ger mer golvkontakt, vilket gör stående balansövningar stadigare och plankor stabilare." },
+    { "question": "Vilken är bäst för känsliga knän?", "answer": "Den tjocka. Det är i knästående och liggande positioner som centimetern skum märks mest – hårda golv slutar tränga igenom. Många med känsliga knän lägger annars en vikt filt under knäna, men en tjock matta löser det direkt." },
+    { "question": "Vinglar man inte på en tjock matta?", "answer": "I stående balansövningar sjunker foten djupare i ett tjockt skum, så det kan kännas vingligare. Står du mycket på ett ben eller kör flöden är den tunnare mattan stadigare. Tränar du mest på knä och rygg märker du det knappt." },
+    { "question": "Vilken passar vanliga träningspass hemma?", "answer": "Den tunnare TPE-mattan. Den ligger stilla, greppar åt båda hållen och ger ett stabilt underlag för plankor, utfall och hopp. Den tjocka är i första hand en komfortmatta för yoga, stretch och golvövningar i lugnt tempo." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/yogamatta/prosourcefit-13mm", "label": "Tjock matta", "text": "Läs Elins genomgång av ProSourceFit extra tjock." },
+    { "href": "/traning/yogamatta/yogati-tpe", "label": "TPE-matta", "text": "Läs Elins genomgång av YOGATI yogamatta." },
+    { "href": "/traning/yogablock-eller-yogabalte", "label": "Jämförelse", "text": "Yogablock eller yogabälte? Rätt stöd för djupare positioner." },
+    { "href": "/traning/gjutjarn-eller-mjuk-kettlebell", "label": "Jämförelse", "text": "Gjutjärns- eller mjuk kettlebell? Nästa steg för hemmagymmet." }
+  ],
+  "image": {
+    "colorA": "#E7EEDF",
+    "colorB": "#EDE0EA",
+    "elin": "/home/claude/smart-art-ai/public/elin/elin-avatar.webp"
+  },
+  "productSlugs": ["prosourcefit-extra-tjock-yogamatta", "yogati-tpe-yogamatta"],
+  "shortTitle": "Tjock eller tunn yogamatta",
+  "description": "Knävänlig komfort eller golvkontakt och balans – välj efter passet."
+}
