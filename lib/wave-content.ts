@@ -4510,6 +4510,11 @@ export const waveGuides: WaveGuide[] = [
         label: "Höst & vinter",
         text: "Mörka morgnar: ljus, väckning och kvällsro.",
       },
+      {
+        href: "/halsa/sovmask-eller-white-noise",
+        label: "Jämförelse",
+        text: "Sovmask eller white noise? Ljus eller ljud – välj rätt först.",
+      },
     ],
     metaTitle: "Sov bättre i höst: mörker, ljud och tyngd | Elins val",
     metaDescription: "Sovmask, white noise eller tyngdtäcke? Elins guide till höstens tre sömnspakar – vilken som löser vad och var du börjar. (Annons)",

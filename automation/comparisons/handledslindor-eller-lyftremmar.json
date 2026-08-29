@@ -1,0 +1,65 @@
+{
+  "slug": "handledslindor-eller-lyftremmar",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "handledslindorEllerLyftremmar",
+  "h1": "Handledslindor eller lyftremmar?",
+  "intro": "Handledslindor och lyftremmar blandas ihop hela tiden, men de gör motsatta jobb. Lindor stabiliserar handleden när du pressar – bänk, axelpress, dips. Remmar kopplar handen till stången när du drar – marklyft, rodd, shrugs – så att greppet inte tar slut före ryggen. Elin reder ut vilken du faktiskt behöver.",
+  "badges": ["Gymstöd", "Press vs drag", "Styrketräning"],
+  "howToChoose": "Utgå från passet. Viker sig handleden bakåt eller känns ostadig i bänkpress, axelpress och dips – då är det lindor du ska ha: de håller leden rak och trygg under tunga press. Släpper greppet före ryggen i marklyft och rodd – då är det remmar: de tar bort greppet som flaskhals så att de stora musklerna får jobba klart. Tränar du både tunga press och tunga drag är det här två olika verktyg för två olika dagar.",
+  "verdict": "Elin väljer efter rörelsen. För pressdagar vinner ASIPRO:s lindor – stumt, justerbart stöd som håller handleden i linje. För dragdagar vinner Fitgriffs vadderade remmar – enkelt grepp som låter marklyft och rodd fortsätta där handstyrkan tar slut. Behöver du bara en: ta den som matchar ditt tyngsta lyft.",
+  "metaTitle": "Handledslindor eller lyftremmar? Press eller drag | Elins val",
+  "metaDescription": "Handledslindor eller lyftremmar? Elin jämför stöd vid press mot grepp vid drag – bänk och axelpress mot marklyft och rodd – så du köper rätt gymstöd.",
+  "picks": [
+    {
+      "exportName": "asiproWristWrapsProduct",
+      "path": "/traning/handledslindor",
+      "badge": "Stöd vid press",
+      "headline": "ASIPRO handledslindor – stabil led i bänken",
+      "shortBody": "Välj lindor när handleden viker sig eller känns ostadig i bänkpress, axelpress och dips. De lindas åt så hårt du vill och håller leden rak genom hela pressen.",
+      "img": "public/products/asipro-wraps/wraps-thumbnail.webp",
+      "brand": "Handledslindor (ASIPRO)"
+    },
+    {
+      "exportName": "fitgriffStrapsProduct",
+      "path": "/traning/lifting-straps",
+      "badge": "Grepp vid drag",
+      "headline": "Fitgriff lyftremmar – greppet som håller passet ut",
+      "shortBody": "Välj remmar när greppet släpper före ryggen i marklyft, rodd och shrugs. Vadderingen skonar handflatorna och stången ligger kvar tills sista repet är draget.",
+      "img": "public/products/fitgriff-straps/straps-thumbnail.webp",
+      "brand": "Lyftremmar (Fitgriff)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Lindas runt handleden; justerbart stöd", "Loopas runt stången; vadderade"],
+    ["Jobb", "Stabiliserar handleden", "Förstärker greppet"],
+    ["Bäst i", "Bänkpress, axelpress, dips", "Marklyft, rodd, shrugs"],
+    ["Löser", "Handled som viker sig under press", "Grepp som släpper före ryggen"],
+    ["Passar", "Pressdagar och tunga singlar", "Dragdagar och höga repantal"],
+    ["Att tänka på", "Linda lagom hårt mellan seten", "Använd på tunga set, inte varje set"],
+    ["Elins poäng", "85/100", "75/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på handledslindor och lyftremmar?", "answer": "Lindor viras runt handleden och stödjer leden när du pressar vikten ifrån dig, som i bänkpress. Remmar loopas runt handled och stång och hjälper dig hålla kvar vikten när du drar, som i marklyft. Stöd mot grepp – två helt olika jobb." },
+    { "question": "Vilken ska jag köpa först?", "answer": "Den som matchar ditt tyngsta lyft. Är bänken ditt huvudlyft och handleden känns ostadig – börja med lindor. Är marklyften störst och greppet tar slut först – börja med remmar. Många tunga lyftare har till slut båda i väskan." },
+    { "question": "Blir greppet svagare av att använda remmar?", "answer": "Inte om du använder dem smart. Kör de lätta seten utan remmar så att greppet får jobba, och spara remmarna till de tyngsta seten där greppet annars begränsar. Då tränas både grepp och rygg fullt ut." },
+    { "question": "Hur hårt ska lindorna sitta?", "answer": "Så hårt att handleden hålls rak under pressen, men lossa gärna mellan seten. Många lindar hårdare på tunga singlar och lite lösare på högre repantal – testa dig fram till vad som känns stabilt utan att domna." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/handledslindor", "label": "Handledslindor", "text": "Läs Elins genomgång av ASIPRO handledslindor." },
+    { "href": "/traning/lifting-straps", "label": "Lyftremmar", "text": "Läs Elins genomgång av Fitgriff lifting straps." },
+    { "href": "/traning/knaskydd-eller-lyftarbalte", "label": "Jämförelse", "text": "Knäskydd eller lyftarbälte? Mer stöd för tunga underkroppspass." },
+    { "href": "/traning/lyftremmar-eller-traningshandskar", "label": "Jämförelse", "text": "Lyftremmar eller träningshandskar? Grepp mot skav." }
+  ],
+  "image": {
+    "colorA": "#F4E3D8",
+    "colorB": "#DAE4EF",
+    "elin": "/home/claude/smart-art-ai/public/elin/elin-avatar.webp"
+  },
+  "productSlugs": ["asipro-handledslindor", "fitgriff-lifting-straps"],
+  "shortTitle": "Handledslindor eller lyftremmar",
+  "description": "Stöd för handleden vid press eller grepphjälp vid drag – köp rätt."
+}

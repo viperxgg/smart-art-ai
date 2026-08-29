@@ -6644,6 +6644,11 @@ export const smartSommarPicks: SommarPick[] = [
     metaDescription: "Elin går igenom Manta Sleep Mask: en justerbar, 100% mörkläggande sovmask med formade ögonkåpor utan tryck mot ögonen (4,4 av 5, 14443 omdömen).",
     relatedLinks: [
       {
+        href: "/halsa/sovmask-eller-white-noise",
+        label: "Jämförelse",
+        text: "Sovmask eller white noise? Ljus eller ljud – välj rätt först.",
+      },
+      {
         href: "/halsa/sov-battre-i-host",
         label: "Guide",
         text: "Sov bättre i höst: mörker, ljud och tyngd.",
@@ -6774,6 +6779,11 @@ export const smartSommarPicks: SommarPick[] = [
     metaTitle: "Magicteam white noise-maskin – 40 ljud för sömn & fokus | Elins val",
     metaDescription: "Elin går igenom Magicteam white noise-maskin: 40 ljud för en lugn ljudkuliss till sömn och fokus (4,4 av 5, 11312 omdömen) – och vad du bör veta innan du köper.",
     relatedLinks: [
+      {
+        href: "/halsa/sovmask-eller-white-noise",
+        label: "Jämförelse",
+        text: "Sovmask eller white noise? Ljus eller ljud – välj rätt först.",
+      },
       {
         href: "/halsa/sov-battre-i-host",
         label: "Guide",
