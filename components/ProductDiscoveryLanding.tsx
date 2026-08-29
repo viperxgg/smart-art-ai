@@ -1491,7 +1491,7 @@ function SiteHeader() {
           <Mail className="size-4 sm:size-[18px]" aria-hidden="true" />
         </a>
         <a
-          href="https://www.instagram.com/elinsorenstyle/"
+          href="https://www.instagram.com/elinsval/"
           target="_blank"
           rel="noopener noreferrer"
           className="grid size-10 place-items-center rounded-full bg-rose/15 text-wine shadow-[0_16px_40px_rgba(216,131,146,0.16)] transition hover:-translate-y-0.5 sm:size-14"
@@ -1500,7 +1500,7 @@ function SiteHeader() {
           <Camera className="size-4 sm:size-[18px]" aria-hidden="true" />
         </a>
         <a
-          href="https://www.tiktok.com/@elinsorenlife"
+          href="https://www.tiktok.com/@elinsval"
           target="_blank"
           rel="noopener noreferrer"
           className="grid size-10 place-items-center rounded-full bg-rose/15 text-wine shadow-[0_16px_40px_rgba(216,131,146,0.16)] transition hover:-translate-y-0.5 sm:size-14"

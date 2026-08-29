@@ -2,6 +2,14 @@ import Link from "next/link";
 
 import { siteConfig } from "@/lib/site";
 
+// Elins vals egna konton. Håll dessa i synk med publiceringsflödet.
+const socialLinks = [
+  { href: "https://www.instagram.com/elinsval/", label: "Instagram" },
+  { href: "https://www.tiktok.com/@elinsval", label: "TikTok" },
+  { href: "https://www.pinterest.com/elinsval/", label: "Pinterest" },
+  { href: "https://www.facebook.com/1093709150502504", label: "Facebook" },
+] as const;
+
 export function SiteFooter() {
   return (
     <footer className="bg-bg px-4 pb-8 text-ink">
@@ -83,6 +91,26 @@ export function SiteFooter() {
               {siteConfig.email}
             </a>
           </nav>
+        </div>
+
+        <div className="mt-6 border-t border-line pt-5">
+          <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
+            Följ Elins val
+          </p>
+          <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2">
+            {socialLinks.map((social) => (
+              <li key={social.href}>
+                <a
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-underline font-bold text-ink-soft transition hover:text-wine"
+                >
+                  {social.label}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </footer>
