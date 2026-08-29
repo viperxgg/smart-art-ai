@@ -1,0 +1,65 @@
+{
+  "slug": "sovmask-eller-white-noise",
+  "routePrefix": "halsa",
+  "category": "halsa",
+  "categoryLabel": "Hälsa",
+  "backHref": "/halsa",
+  "backLabel": "Tillbaka till hälsa",
+  "exportBaseName": "sovmaskEllerWhiteNoise",
+  "h1": "Sovmask eller white noise?",
+  "intro": "Sovmask och white noise-maskin angriper varsin sömntjuv. Masken gör det becksvart när gatlyktor, laddlampor och tidiga soluppgångar stör – ljudmaskinen lägger en jämn ljudkuliss över grannar, trafik och tickande element. Elin jämför ljus mot ljud så att du sätter pengarna på rätt problem först.",
+  "badges": ["Sömn", "Ljus vs ljud", "Höstrutin"],
+  "howToChoose": "Fundera på vad som faktiskt väcker dig. Vaknar du av ljusstrimman från persiennen, skärmar som blinkar eller att det ljusnar tidigt – då är det mörkret som saknas, och en formad sovmask som Manta gör jobbet. Somnar du svårt för att huset knäpper, grannen duschar eller trafiken brusar – då är det en jämn ljudkuliss du behöver. Är du osäker: börja med det som stör oftast, det andra går att lägga till senare.",
+  "verdict": "Elin väljer efter störningen, inte prylen. Mot ljus vinner Manta – becksvart utan tryck mot ögonen. Mot ljud vinner Magicteam, som med sina många ljud och minnesfunktion är den enklaste vägen till en jämn nattkuliss. Bor du ljust och lyhört är kombinationen svårslagen.",
+  "metaTitle": "Sovmask eller white noise? Ljus eller ljud först | Elins val",
+  "metaDescription": "Sovmask eller white noise-maskin? Elin jämför mörker mot ljudkuliss – vilken sömntjuv du ska stoppa först och när kombinationen är värd det.",
+  "picks": [
+    {
+      "exportName": "mantaSleepMaskProduct",
+      "path": "/halsa/sovmask",
+      "badge": "Mot ljus",
+      "headline": "Manta Sleep Mask – becksvart utan tryck",
+      "shortBody": "Välj sovmasken när det är ljuset som stör: gatlyktor, laddlampor eller ljusa morgnar. De formade kåporna gör det helt mörkt utan att trycka mot ögonen, och passformen justeras tills den sitter rätt.",
+      "img": "public/products/manta-sleep-mask/sovmask-thumbnail.webp",
+      "brand": "Sovmask (Manta)"
+    },
+    {
+      "exportName": "magicteamWhiteNoiseProduct",
+      "path": "/halsa/white-noise",
+      "badge": "Mot ljud",
+      "headline": "Magicteam white noise – jämn ljudkuliss",
+      "shortBody": "Välj ljudmaskinen när det är ljud som stör: lyhört hus, trafik eller grannar. Den lägger en jämn kuliss som jämnar ut plötsliga ljud, minns din inställning och har timer om du vill somna till den.",
+      "img": "public/products/magicteam-white-noise/whitenoise-thumbnail.webp",
+      "brand": "White noise (Magicteam)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Formade kåpor; 100% mörkläggande", "40 ljud; minns volym och val"],
+    ["Stoppar", "Ljus – lyktor, lampor, ljusa morgnar", "Ljud – grannar, trafik, knäppande hus"],
+    ["Känsla", "Becksvart, inget tryck mot ögonen", "Jämn kuliss som maskerar plötsliga ljud"],
+    ["Bäst för", "Ljuskänsliga och skiftarbete", "Lyhörda hem och oroliga kvällar"],
+    ["Att vänja sig", "Någon natt för passformen", "Några kvällar för rätt ljud och volym"],
+    ["På resa", "Följer med i fickan", "Kompakt men behöver eluttag"],
+    ["Elins poäng", "79/100", "87/100"]
+  ],
+  "faqItems": [
+    { "question": "Vilken gör störst skillnad för sömnen?", "answer": "Den som träffar din största störning. Vaknar du av ljus är masken rätt första köp, somnar du svårt av ljud är ljudmaskinen rätt. Elins tumregel: åtgärda det som stör flest nätter i veckan först." },
+    { "question": "Kan jag kombinera sovmask och white noise?", "answer": "Ja, de jobbar på varsin kanal och krockar inte. Många i ljusa och lyhörda lägenheter använder båda – masken tar ljuset, kulissen tar ljuden. Börja gärna med en och lägg till den andra om det fortfarande stör." },
+    { "question": "Trycker masken mot ögonen?", "answer": "Mantas kåpor är formade så att de lämnar luft runt ögonen, vilket gör att det blir mörkt utan tryck. Remmen och kåporna justeras, så räkna med någon natt innan passformen sitter helt rätt." },
+    { "question": "Måste white noise stå på hela natten?", "answer": "Nej. Magicteam har timer så att ljudet kan stänga av sig när du somnat, eller så låter du den gå hela natten – den minns volym och ljudval till nästa kväll. Testa vad som känns bäst för dig." }
+  ],
+  "relatedLinks": [
+    { "href": "/halsa/sovmask", "label": "Sovmask", "text": "Läs Elins genomgång av Manta Sleep Mask." },
+    { "href": "/halsa/white-noise", "label": "White noise", "text": "Läs Elins genomgång av Magicteam-maskinen." },
+    { "href": "/halsa/sov-battre-i-host", "label": "Guide", "text": "Sov bättre i höst: mörker, ljud och tyngd – hela kedjan." },
+    { "href": "/halsa/oronproppar-eller-white-noise", "label": "Jämförelse", "text": "Öronproppar eller white noise? Två sätt att tysta natten." }
+  ],
+  "image": {
+    "colorA": "#E3DDF0",
+    "colorB": "#D9E8F0",
+    "elin": "/home/claude/smart-art-ai/public/elin/elin-avatar.webp"
+  },
+  "productSlugs": ["manta-sovmask", "magicteam-white-noise"],
+  "shortTitle": "Sovmask eller white noise",
+  "description": "Ljus eller ljud – vilken sömntjuv ska du stoppa först?"
+}

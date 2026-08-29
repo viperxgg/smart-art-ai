@@ -1,3 +1,4 @@
+// Content refresh 2026-08-28: länk till luftavfuktare-eller-luftrenare (lufttriangeln komplett).
 import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
 import {
   luftfuktareEllerLuftrenareComparisonRows,

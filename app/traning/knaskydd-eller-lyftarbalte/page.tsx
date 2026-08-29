@@ -1,3 +1,4 @@
+// Content refresh 2026-08-28: länk till handledslindor-eller-lyftremmar (gymstöd-klustret).
 import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
 import {
   knaskyddEllerLyftarbalteComparisonRows,
