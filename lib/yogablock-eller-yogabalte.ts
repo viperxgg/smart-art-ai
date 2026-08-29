@@ -29,4 +29,4 @@ export const yogablockEllerYogabaltePicks: [DecisionComparisonPick, DecisionComp
   },
 ];
 
-export const yogablockEllerYogabalteRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/traning/yogablock","label":"Yogablock","text":"Läs Elins recension av BODYMATE yogablock."},{"href":"/traning/yogabalte","label":"Yogabälte","text":"Läs Elins recension av BODYMATE yogabälte."},{"href":"/traning","label":"Träning","text":"Se alla Elins val för yoga och rörlighet."}];
+export const yogablockEllerYogabalteRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/traning/yogablock","label":"Yogablock","text":"Läs Elins recension av BODYMATE yogablock."},{"href":"/traning/yogabalte","label":"Yogabälte","text":"Läs Elins recension av BODYMATE yogabälte."},{"href":"/traning","label":"Träning","text":"Se alla Elins val för yoga och rörlighet."},{"href":"/traning/tjock-eller-tunn-yogamatta","label":"Jämförelse","text":"Tjock eller tunn yogamatta? Komfort mot balans – välj underlag först."}];

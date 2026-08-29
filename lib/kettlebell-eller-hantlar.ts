@@ -86,4 +86,9 @@ export const kettlebellEllerHantlarRelatedLinks: DecisionComparisonRelatedLink[]
       label: "Justerbara hantlar",
       text: "Vill du spara plats? Se Elins val av justerbara hantlar.",
     },
+    {
+      href: "/traning/gjutjarn-eller-mjuk-kettlebell",
+      label: "Jämförelse",
+      text: "Gjutjärns- eller mjuk kettlebell? Välj rätt sort för ditt hem.",
+    },
   ];

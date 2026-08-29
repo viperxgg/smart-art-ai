@@ -1,3 +1,4 @@
+// Content refresh 2026-08-29: länk till gjutjarn-eller-mjuk-kettlebell.
 import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
 import {
   kettlebellEllerHantlarComparisonRows,

@@ -1,0 +1,65 @@
+{
+  "slug": "gjutjarn-eller-mjuk-kettlebell",
+  "routePrefix": "traning",
+  "category": "traning",
+  "categoryLabel": "Träning",
+  "backHref": "/traning",
+  "backLabel": "Tillbaka till träning",
+  "exportBaseName": "gjutjarnEllerMjukKettlebell",
+  "h1": "Gjutjärns- eller mjuk kettlebell?",
+  "intro": "När hemmaträningen drar igång igen i höst är kettlebellen det enklaste sättet att få med både styrka och flås – men vilken sort? Den klassiska i gjutjärn ger äkta järnkänsla och tål allt, medan den mjuka med sandfyllning är snäll mot golv, tår och grannar. Elin jämför så att du köper rätt för ditt hem.",
+  "badges": ["Hemmaträning", "Järn vs mjuk", "Kom igång i höst"],
+  "howToChoose": "Utgå från golvet och grannarna. Tränar du i källare, garage eller på träningsmatta och vill ha den täta, klassiska järnkänslan med målat grepp – välj gjutjärn. Tränar du i lägenhet på parkett, med barn och tår i närheten eller tidiga morgonpass – välj den mjuka: sätter du ner den hårt hörs det knappt, och golvet klarar sig. Själva övningarna – svingar, goblet squats, rodd – funkar lika bra med båda.",
+  "verdict": "Elin väljer gjutjärn som förstahandsval: mest kettlebell för pengarna, beprövad och tål år av svingar. Men i lägenhet med känsligt golv vinner den mjuka på ren vardagslogik – den gör att passen faktiskt blir av när du inte behöver oroa dig för märken i parketten. Rätt svar sitter i ditt golv, inte i vikten.",
+  "metaTitle": "Gjutjärns- eller mjuk kettlebell? Rätt för ditt hem | Elins val",
+  "metaDescription": "Gjutjärns- eller mjuk kettlebell? Elin jämför klassisk järnkänsla mot golvvänlig sandfyllning – så väljer du rätt när hemmaträningen startar i höst.",
+  "picks": [
+    {
+      "exportName": "amazonBasicsKettlebellProduct",
+      "path": "/traning/kettlebell/amazon-basics",
+      "badge": "Klassikern",
+      "headline": "Amazon Basics gjutjärn – mest kettlebell för pengarna",
+      "shortBody": "Välj gjutjärn om du vill ha den klassiska, täta järnkänslan och en klocka som tål år av svingar. Texturerat grepp, flera vikter att växa i och inget som kan gå sönder.",
+      "img": "public/products/kettlebells/amazon-basics-kettlebell-thumbnail.webp",
+      "brand": "Gjutjärn (Amazon Basics)"
+    },
+    {
+      "exportName": "proironSoftKettlebellProduct",
+      "path": "/traning/kettlebell/proiron-mjuk",
+      "badge": "Golvvänlig",
+      "headline": "PROIRON mjuk – snäll mot golv och tår",
+      "shortBody": "Välj den mjuka om du tränar i lägenhet eller har känsligt golv. Sandfylld och tystare vid nedsättning – och landar den på en tå slutar det med ett skratt i stället för ett skrik.",
+      "img": "public/products/kettlebells/proiron-soft-kettlebell-thumbnail.webp",
+      "brand": "Mjuk kettlebell (PROIRON)"
+    }
+  ],
+  "comparisonRows": [
+    ["Snabba signaler", "Solid gjutjärn; texturerat grepp", "Sandfylld; mjukt hölje"],
+    ["Känsla", "Tät, klassisk järnkänsla", "Mjukare, lite större kropp"],
+    ["Golv & ljud", "Kräver matta eller tåligt golv", "Snäll mot parkett, tyst nedsättning"],
+    ["Bäst för", "Källare, garage, van lyftare", "Lägenhet, nybörjare, barn i hemmet"],
+    ["Vikter", "Flera steg att växa i", "Lättare spann, mjukare start"],
+    ["Hållbarhet", "Tål i princip allt", "Höljet ska inte släpas på asfalt"],
+    ["Elins poäng", "86/100", "79/100"]
+  ],
+  "faqItems": [
+    { "question": "Vad är skillnaden på gjutjärns- och mjuk kettlebell?", "answer": "Gjutjärnsklockan är helgjuten i metall med målat, texturerat grepp – tät, kompakt och i princip oförstörbar. Den mjuka har ett vadderat hölje med sandfyllning, vilket gör den tystare och snällare mot golv om den sätts ner hårt. Övningarna är desamma." },
+    { "question": "Vilken är bäst för nybörjare?", "answer": "Båda funkar för att lära sig svingar och goblet squats. Är du osäker på tekniken eller tränar på känsligt golv är den mjuka en förlåtande start. Vet du att du kommer vilja gå upp i vikt är gjutjärn i rätt vikt ett köp som håller längre." },
+    { "question": "Kan jag träna med kettlebell i lägenhet?", "answer": "Ja – det är precis där den mjuka är som bäst. Den dämpar både ljud och stötar mot golvet, så tidiga morgonpass stör mindre. Med en gjutjärnsklocka i lägenhet vill du ha en rejäl träningsmatta under." },
+    { "question": "Vilken vikt ska jag börja med?", "answer": "Ett vanligt riktmärke är att kunna svinga med kontroll: många kommer igång kring de lägre mellanvikterna och går upp när tekniken sitter. Kolla viktstegen på produktsidorna – gjutjärnsserien har fler steg att växa i." }
+  ],
+  "relatedLinks": [
+    { "href": "/traning/kettlebell/amazon-basics", "label": "Gjutjärn", "text": "Läs Elins genomgång av Amazon Basics kettlebell." },
+    { "href": "/traning/kettlebell/proiron-mjuk", "label": "Mjuk", "text": "Läs Elins genomgång av PROIRON mjuk kettlebell." },
+    { "href": "/traning/kettlebell-eller-hantlar", "label": "Jämförelse", "text": "Kettlebell eller hantlar? Vilket bygger ditt hemmagym bäst." },
+    { "href": "/traning/handledslindor-eller-lyftremmar", "label": "Jämförelse", "text": "Handledslindor eller lyftremmar? Rätt gymstöd när vikterna ökar." }
+  ],
+  "image": {
+    "colorA": "#E8E2DA",
+    "colorB": "#F4DBDB",
+    "elin": "/home/claude/smart-art-ai/public/elin/elin-avatar.webp"
+  },
+  "productSlugs": ["amazon-basics-gjutjarns-kettlebell", "proiron-mjuk-kettlebell"],
+  "shortTitle": "Gjutjärns- eller mjuk kettlebell",
+  "description": "Klassisk järnkänsla eller golvvänlig sandfyllning – välj efter ditt hem."
+}

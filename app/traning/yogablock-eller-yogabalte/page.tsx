@@ -1,3 +1,4 @@
+// Content refresh 2026-08-29: länk till tjock-eller-tunn-yogamatta.
 import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
 import {
   yogablockEllerYogabalteComparisonRows,
