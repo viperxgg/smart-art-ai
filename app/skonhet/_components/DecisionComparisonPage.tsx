@@ -9,6 +9,7 @@ import {
   type BreadcrumbItem,
 } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { buildProductListSchema } from "@/lib/product-schema";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { RelatedLinks } from "@/components/RelatedLinks";
@@ -41,11 +42,30 @@ type DecisionComparisonPageProps = {
 export function buildDecisionComparisonSchemas({
   breadcrumbItems,
   faqItems,
+  picks,
+  h1,
 }: {
   breadcrumbItems: BreadcrumbItem[];
   faqItems: readonly DecisionComparisonFaqItem[];
+  picks?: readonly [DecisionComparisonPick, DecisionComparisonPick];
+  h1?: string;
 }) {
+  // The last breadcrumb is the page itself, so it carries the canonical path.
+  const pageUrl = breadcrumbItems.at(-1)?.href;
+
   return {
+    productListSchema:
+      picks && pageUrl
+        ? buildProductListSchema({
+            pageUrl,
+            name: h1 ?? breadcrumbItems.at(-1)?.name ?? "Jämförelse",
+            items: picks.map((pick) => ({
+              product: pick.product,
+              url: pick.path,
+              description: pick.shortBody,
+            })),
+          })
+        : null,
     breadcrumbSchema: buildBreadcrumbSchema(breadcrumbItems),
     faqSchema: {
       "@context": "https://schema.org",
@@ -77,10 +97,13 @@ export function DecisionComparisonPage({
   backHref = "/skonhet",
   backLabel = "Tillbaka till skönhet",
 }: DecisionComparisonPageProps) {
-  const { breadcrumbSchema, faqSchema } = buildDecisionComparisonSchemas({
-    breadcrumbItems,
-    faqItems,
-  });
+  const { breadcrumbSchema, faqSchema, productListSchema } =
+    buildDecisionComparisonSchemas({
+      breadcrumbItems,
+      faqItems,
+      picks,
+      h1,
+    });
 
   return (
     <main
@@ -88,6 +111,7 @@ export function DecisionComparisonPage({
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
       {faqItems.length ? <JsonLd data={faqSchema} /> : null}
+      {productListSchema ? <JsonLd data={productListSchema} /> : null}
       <JsonLd data={breadcrumbSchema} />
 
       <div className="mx-auto w-full max-w-5xl">

@@ -11,6 +11,7 @@ import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { createSeoMetadata } from "@/lib/metadata";
+import { buildProductListSchema } from "@/lib/product-schema";
 import {
   getProductBySlug,
   getProductPageHref,
@@ -95,12 +96,26 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
     })),
   };
 
+  // Products the guide actually decides between, as an ItemList of Product
+  // nodes. Products without an editorial score are skipped by the builder,
+  // and the whole block is omitted when none of them can be reviewed.
+  const productListSchema = buildProductListSchema({
+    pageUrl: guide.href,
+    name: guide.title,
+    items: products.map((product) => ({
+      product,
+      url: getProductPageHref(product),
+      description: product.summary,
+    })),
+  });
+
   return (
     <main
       id="content"
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
       <JsonLd data={faqSchema} />
+      {productListSchema ? <JsonLd data={productListSchema} /> : null}
       <JsonLd data={buildBreadcrumbSchema(breadcrumbItems)} />
 
       <div className="mx-auto w-full max-w-5xl">

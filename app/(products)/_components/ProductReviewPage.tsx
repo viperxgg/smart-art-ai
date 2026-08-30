@@ -13,6 +13,7 @@ import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { ElinProductButton } from "@/components/elin/ElinProductButton";
 import { ElinsScoreCard } from "@/components/ElinsScoreCard";
 import { JsonLd } from "@/components/JsonLd";
+import { ProductJsonLd } from "@/components/ProductJsonLd";
 import { ProductBadges } from "@/components/ProductBadges";
 import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
@@ -24,8 +25,7 @@ import {
   getApprovedReviews,
   type ApprovedProductReview,
 } from "@/lib/reviews/reviews";
-import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
-import { siteConfig } from "@/lib/site";
+import { getEditorialScore } from "@/lib/scores";
 import type { SommarPick } from "@/lib/sommar";
 
 type ProductReviewPageProps = {
@@ -46,47 +46,24 @@ const categoryHrefs = {
   resa: "/sommar/resa",
 } as const;
 
-function buildProductSchema(
-  pick: SommarPick,
+function buildAggregateRating(
   approvedReviews: readonly ApprovedProductReview[] = [],
 ) {
   // aggregateRating comes ONLY from genuine on-site user reviews — never from
   // Amazon's rating numbers (their data stays as plain text in the review
   // signal section).
-  const averageRating =
-    approvedReviews.length > 0
-      ? Math.round(
-          (approvedReviews.reduce((sum, review) => sum + review.rating, 0) /
-            approvedReviews.length) *
-            10,
-        ) / 10
-      : null;
+  if (approvedReviews.length === 0) {
+    return null;
+  }
 
-  return {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: pick.product.title,
-    brand: {
-      "@type": "Brand",
-      name: pick.product.brand,
-    },
-    ...(pick.product.asin ? { sku: pick.product.asin } : {}),
-    image: `${siteConfig.url}${pick.product.image}`,
-    description: pick.metaDescription,
-    category: categoryLabels[pick.product.category],
-    review: buildElinReviewNode(pick.product.slug),
-    ...(averageRating !== null
-      ? {
-          aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue: averageRating,
-            reviewCount: approvedReviews.length,
-            bestRating: 5,
-            worstRating: 1,
-          },
-        }
-      : {}),
-  };
+  const ratingValue =
+    Math.round(
+      (approvedReviews.reduce((sum, review) => sum + review.rating, 0) /
+        approvedReviews.length) *
+        10,
+    ) / 10;
+
+  return { ratingValue, reviewCount: approvedReviews.length };
 }
 
 function buildFaqSchema(pick: SommarPick) {
@@ -126,7 +103,13 @@ export async function ProductReviewPage({
       id="content"
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
-      <JsonLd data={buildProductSchema(pick, approvedReviews)} />
+      <ProductJsonLd
+        product={pick.product}
+        url={pick.href}
+        description={pick.metaDescription}
+        category={categoryLabel}
+        aggregateRating={buildAggregateRating(approvedReviews)}
+      />
       <JsonLd data={buildFaqSchema(pick)} />
       <JsonLd data={buildBreadcrumbSchema(breadcrumbItems)} />
 

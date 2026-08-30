@@ -10,6 +10,7 @@ import {
 import { AmazonCta } from "@/components/AmazonCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { buildProductSchema } from "@/lib/product-schema";
 import { ProductBadges } from "@/components/ProductBadges";
 import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
@@ -22,28 +23,12 @@ import {
 } from "@/lib/flakt";
 import { formatRatingSummary } from "@/lib/ratings";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { siteConfig } from "@/lib/site";
 
 type FlaktProductReviewPageProps = {
   pick: FlaktPick;
   otherPick: FlaktPick;
 };
 
-function buildProductSchema(pick: FlaktPick) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: pick.product.title,
-    brand: {
-      "@type": "Brand",
-      name: pick.product.brand,
-    },
-    sku: pick.product.asin,
-    image: `${siteConfig.url}${pick.product.image}`,
-    description: pick.metaDescription,
-    category: "Fläkt",
-  };
-}
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -70,13 +55,19 @@ export async function FlaktProductReviewPage({
     { name: pick.product.title, href: pick.path },
   ];
   const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
+  const productSchema = buildProductSchema({
+    product: pick.product,
+    url: pick.path,
+    description: pick.metaDescription,
+    category: "Fläkt",
+  });
 
   return (
     <main
       id="content"
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
-      <JsonLd data={buildProductSchema(pick)} />
+      {productSchema ? <JsonLd data={productSchema} /> : null}
       <JsonLd data={faqSchema} />
       <JsonLd data={breadcrumbSchema} />
 

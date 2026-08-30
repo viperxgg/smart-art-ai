@@ -10,6 +10,7 @@ import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { ElinsScoreCard } from "@/components/ElinsScoreCard";
 import { ProductBadges } from "@/components/ProductBadges";
 import { JsonLd } from "@/components/JsonLd";
+import { buildProductSchema } from "@/lib/product-schema";
 import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { RelatedLinks } from "@/components/RelatedLinks";
@@ -21,30 +22,12 @@ import {
   type MassagepistolPick,
 } from "@/lib/massagepistol";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
-import { siteConfig } from "@/lib/site";
+import { getEditorialScore } from "@/lib/scores";
 
 type MassagepistolProductReviewPageProps = {
   pick: MassagepistolPick;
   otherPick: MassagepistolPick;
 };
-
-function buildProductSchema(pick: MassagepistolPick) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: pick.product.title,
-    brand: {
-      "@type": "Brand",
-      name: pick.product.brand,
-    },
-    sku: pick.product.asin,
-    image: `${siteConfig.url}${pick.product.image}`,
-    description: pick.metaDescription,
-    category: "Massagepistol",
-    review: buildElinReviewNode(pick.product.slug),
-  };
-}
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -64,7 +47,12 @@ export async function MassagepistolProductReviewPage({
   otherPick,
 }: MassagepistolProductReviewPageProps) {
   const approvedReviews = await getApprovedReviews(pick.product.slug);
-  const productSchema = buildProductSchema(pick);
+  const productSchema = buildProductSchema({
+    product: pick.product,
+    url: pick.path,
+    description: pick.metaDescription,
+    category: "Massagepistol",
+  });
   const editorialScore = getEditorialScore(pick.product.slug);
   const breadcrumbItems = [
     { name: "Hem", href: "/" },
@@ -79,7 +67,7 @@ export async function MassagepistolProductReviewPage({
       id="content"
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
-      <JsonLd data={productSchema} />
+      {productSchema ? <JsonLd data={productSchema} /> : null}
       <JsonLd data={faqSchema} />
       <JsonLd data={breadcrumbSchema} />
 

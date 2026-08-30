@@ -6,6 +6,7 @@ import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { ElinsScoreCard } from "@/components/ElinsScoreCard";
 import { ProductBadges } from "@/components/ProductBadges";
 import { JsonLd } from "@/components/JsonLd";
+import { ProductJsonLd } from "@/components/ProductJsonLd";
 import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { RelatedLinks } from "@/components/RelatedLinks";
@@ -17,30 +18,12 @@ import {
   type HantlarPick,
 } from "@/lib/hantlar";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
-import { siteConfig } from "@/lib/site";
+import { getEditorialScore } from "@/lib/scores";
 
 type HantlarProductReviewPageProps = {
   pick: HantlarPick;
   otherPick: HantlarPick;
 };
-
-function buildProductSchema(pick: HantlarPick) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: pick.product.title,
-    brand: {
-      "@type": "Brand",
-      name: pick.product.brand,
-    },
-    sku: pick.product.asin,
-    image: `${siteConfig.url}${pick.product.image}`,
-    description: pick.metaDescription,
-    category: "Hantlar",
-    review: buildElinReviewNode(pick.product.slug),
-  };
-}
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -73,7 +56,12 @@ export async function HantlarProductReviewPage({
       id="content"
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
-      <JsonLd data={buildProductSchema(pick)} />
+      <ProductJsonLd
+        product={pick.product}
+        url={pick.path}
+        description={pick.metaDescription}
+        category="Hantlar"
+      />
       <JsonLd data={faqSchema} />
       <JsonLd data={buildBreadcrumbSchema(breadcrumbItems)} />
 
