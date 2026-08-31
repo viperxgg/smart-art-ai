@@ -3,7 +3,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
-import { ArrowUpRight, Heart, Loader2, Mail, Send, Trash2, X } from "lucide-react";
+import {
+  ArrowUpRight,
+  Heart,
+  Loader2,
+  Mail,
+  Send,
+  SlidersHorizontal,
+  Trash2,
+  X,
+} from "lucide-react";
 import { type CSSProperties, FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from "react";
 
 import type { ProductCategorySlug } from "@/lib/products";
@@ -854,6 +863,7 @@ export function ElinChat({
   const [wishlist, setWishlist] = useState<WishlistCard[]>([]);
   const [isWishlistReady, setIsWishlistReady] = useState(false);
   const [isWishlistOpen, setIsWishlistOpen] = useState(false);
+  const [areFiltersOpen, setAreFiltersOpen] = useState(false);
   const [isSubscribeReady, setIsSubscribeReady] = useState(false);
   const [isSubscribeDismissed, setIsSubscribeDismissed] = useState(false);
   const [subscriberEmail, setSubscriberEmail] = useState("");
@@ -861,6 +871,17 @@ export function ElinChat({
   const [subscribeStatus, setSubscribeStatus] = useState<SubscribeStatus>("idle");
   const [subscribeError, setSubscribeError] = useState("");
   const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+
+  // Grow the composer with its content instead of showing a scrollbar inside a
+  // one-line box (which clipped the text and rendered scroll arrows on Windows).
+  useEffect(() => {
+    const node = textareaRef.current;
+    if (!node) {
+      return;
+    }
+    node.style.height = "auto";
+    node.style.height = `${Math.min(node.scrollHeight, 128)}px`;
+  }, [input]);
 
   useEffect(() => {
     if (!hideMobileNav) {
@@ -1304,16 +1325,24 @@ export function ElinChat({
     <section
       className={`flex min-h-0 flex-1 flex-col overflow-hidden rounded-[1.55rem] border border-line bg-bg shadow-[0_28px_80px_rgba(91,52,65,0.12)] ${className}`}
     >
-      <div className="flex flex-col gap-3 border-b border-line bg-surface/64 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-5">
+      <div
+        className={`flex flex-col gap-3 border-b border-line bg-surface/64 px-4 sm:flex-row sm:items-center sm:justify-between sm:px-5 ${
+          compact ? "py-2.5" : "py-4"
+        }`}
+      >
         <div className="flex min-w-0 items-center gap-3">
           <ElinAvatar />
           <div className="min-w-0">
             <p className="text-sm font-black text-ink">Elin</p>
-            <p className="mt-1 truncate text-xs text-ink-soft">
-              {focus
-                ? `Utgår från ${focus.title}`
-                : "Svarar kort, ärligt och produktdatastyrt"}
-            </p>
+            {/* In the drawer the header above already introduces Elin, so the
+                strapline only takes reading space away from the messages. */}
+            {compact && messages.length > 0 ? null : (
+              <p className="mt-1 truncate text-xs text-ink-soft">
+                {focus
+                  ? `Utgår från ${focus.title}`
+                  : "Svarar kort, ärligt och produktdatastyrt"}
+              </p>
+            )}
             {hadStoredSession && messages.length > 0 ? (
               <p className="mt-1 text-[0.7rem] font-bold text-rose">
                 Fortsätt där du var
@@ -1357,14 +1386,14 @@ export function ElinChat({
 
       <div className="flex-1 space-y-4 overflow-y-auto bg-bg px-4 py-5 sm:px-5">
         {!isStorageReady ? (
-          <div className="grid h-full min-h-[14rem] place-items-center rounded-[1.25rem] border border-dashed border-line bg-surface/70 p-5 text-center">
+          <div className="grid h-full min-h-[8rem] place-items-center rounded-[1.25rem] border border-dashed border-line bg-surface/70 p-4 text-center sm:p-5">
             <span className="inline-flex items-center gap-2 text-sm font-bold text-ink-soft">
               <Loader2 className="size-4 animate-spin" aria-hidden="true" />
               Laddar samtalet…
             </span>
           </div>
         ) : messages.length === 0 ? (
-          <div className="grid h-full min-h-[14rem] place-items-center rounded-[1.25rem] border border-dashed border-line bg-surface/70 p-5 text-center">
+          <div className="grid h-full min-h-[8rem] place-items-center rounded-[1.25rem] border border-dashed border-line bg-surface/70 p-4 text-center sm:p-5">
             <div className="max-w-md">
               <p
                 className={`font-display leading-tight text-ink ${
@@ -1545,7 +1574,21 @@ export function ElinChat({
             />
           </>
         ) : null}
-        <div className="mb-2 flex flex-wrap gap-1.5 px-1">
+        {compact && messages.length > 0 && !areFiltersOpen ? (
+          <button
+            type="button"
+            onClick={() => setAreFiltersOpen(true)}
+            className="mb-2 ml-1 inline-flex min-h-8 items-center gap-1.5 rounded-full border border-line bg-surface px-3 text-[0.72rem] font-bold text-ink-soft transition hover:bg-rose/8"
+          >
+            <SlidersHorizontal className="size-3.5" aria-hidden="true" />
+            {selectedBudget || selectedCategory ? "Filter (aktivt)" : "Filter"}
+          </button>
+        ) : null}
+        <div
+          className={`mb-2 flex-wrap gap-1.5 px-1 ${
+            compact && messages.length > 0 && !areFiltersOpen ? "hidden" : "flex"
+          }`}
+        >
           {budgetFilterChips.map((chip) => {
             const active = selectedBudget === chip.value;
             return (
@@ -1605,9 +1648,9 @@ export function ElinChat({
                 void sendMessage(input);
               }
             }}
-            placeholder="Beskriv behov, budget eller produkten du undrar över..."
-            rows={compact ? 1 : 2}
-            className="min-h-12 flex-1 resize-none bg-transparent px-3 py-2 text-sm leading-6 text-ink outline-none placeholder:text-ink-soft"
+            placeholder="Beskriv behov eller produkt..."
+            rows={1}
+            className="max-h-32 min-h-11 flex-1 resize-none overflow-y-auto bg-transparent px-3 py-2 text-sm leading-6 text-ink outline-none placeholder:text-ink-soft"
           />
           <button
             type="submit"
@@ -1622,7 +1665,11 @@ export function ElinChat({
             )}
           </button>
         </div>
-        <p className="mt-2 px-2 text-right text-xs text-ink-soft">{input.length}/500</p>
+        {input.length > 0 ? (
+          <p className="mt-2 px-2 text-right text-xs text-ink-soft">
+            {input.length}/500
+          </p>
+        ) : null}
       </form>
     </section>
   );
