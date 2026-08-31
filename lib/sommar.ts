@@ -8238,8 +8238,8 @@ export const traningsPicks: SommarPick[] = [
     amazonQuotes: [],
     faqItems: [
       {
-        question: "Behandlar knäskyddet en knäskada?",
-        answer: "Nej. Det är ett stöd- och komfortplagg som ger värme och en stadig känsla under träningen, inte en medicinsk behandling. Har du knäbesvär bör du rådgöra med vårdpersonal.",
+        question: "Är knäskyddet ett alternativ till vård vid knäbesvär?",
+        answer: "Nej. Det är ett stöd- och komfortplagg som ger värme och en stadig känsla under träningen. Har du ont i knät eller misstänker en skada bör du vända dig till vårdpersonal.",
       },
       {
         question: "Vad ger 5 mm jämfört med tunnare knäskydd?",

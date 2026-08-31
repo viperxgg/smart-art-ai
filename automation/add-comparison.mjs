@@ -45,13 +45,39 @@ function collect(v, out = []) {
   else if (v && typeof v === "object") Object.values(v).forEach((x) => collect(x, out));
   return out;
 }
+// A banned word inside an explicit denial is the OPPOSITE of a violation —
+// "ger färg, inte solskydd" and "Nej. Det är inte en medicinsk behandling"
+// are the disclaimers we WANT. Those are reported as warnings, not blocks.
+const NEGATION = /\b(nej|inte|aldrig|ingen|inget|utan|ersätter inte|varken)\b/i;
+function sentenceAround(text, index) {
+  const start = text.lastIndexOf(".", index - 1) + 1;
+  const endDot = text.indexOf(".", index);
+  const endQ = text.indexOf("?", index);
+  const end = Math.min(...[endDot, endQ].filter((n) => n >= 0).concat([text.length]));
+  return text.slice(start, end + 1);
+}
+
 const problems = [];
+const warnings = [];
 for (const s of collect({
   h1: spec.h1, intro: spec.intro, howToChoose: spec.howToChoose, verdict: spec.verdict,
   badges: spec.badges, rows: spec.comparisonRows, faq: spec.faqItems, picks: spec.picks.map((p) => [p.badge, p.headline, spec.picks && p.shortBody]),
   meta: [spec.metaTitle, spec.metaDescription],
 })) {
-  for (const { re, msg } of BANNED) if (re.test(s)) problems.push(`  ✗ ${msg}: "${s.slice(0, 80)}"`);
+  for (const { re, msg } of BANNED) {
+    const hit = re.exec(s);
+    if (!hit) continue;
+    const line = `  ${msg}: "${s.slice(0, 80)}"`;
+    // A hardcoded price is never acceptable, negated or not.
+    if (msg !== "hardcoded price" && NEGATION.test(sentenceAround(s, hit.index))) {
+      warnings.push(`  ! ${line.trim()} (ser ut som en friskrivning - kontrollera)`);
+    } else {
+      problems.push(`  ✗ ${line.trim()}`);
+    }
+  }
+}
+if (warnings.length) {
+  console.warn("Compliance lint warnings (disclaimers, not blocked):\n" + warnings.join("\n"));
 }
 if (problems.length && !FORCE) {
   console.error("Compliance lint failed:\n" + problems.join("\n"));
