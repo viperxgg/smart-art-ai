@@ -1,3 +1,4 @@
+// Meta refresh 2026-08-31: title leder nu med "packkuber med kompression" – sökfrasen.
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";

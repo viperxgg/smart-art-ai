@@ -1,3 +1,4 @@
+// Meta refresh 2026-08-31: ny title/description från GSC-frågorna (after sun eller aloe vera).
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";

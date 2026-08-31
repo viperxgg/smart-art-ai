@@ -1,3 +1,4 @@
+// Meta refresh 2026-08-31: ny title/description (moroccanoil torrschampo, omdöme & betyg).
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";
