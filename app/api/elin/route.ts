@@ -53,9 +53,12 @@ type TerminalRecommendation = {
 
 type ElinVariant = "A" | "B";
 
-const maxMessages = 12;
+const maxMessages = 8;
 const maxUserInputLength = 500;
-const model = "claude-sonnet-4-6";
+// Haiku is the right size for "pick from a fixed catalogue": it reads the
+// product index and calls search_products. Input tokens dominate the cost
+// here, and Haiku input is half the Sonnet price.
+const model = "claude-haiku-4-5-20251001";
 const categories = new Set<ProductCategorySlug>(["skonhet", "traning", "halsa", "resa"]);
 const priceTiers = new Set<PriceTier>(["budget", "mellan", "premium"]);
 const skinTypes = new Set<NonNullable<ElinPreferences["skinType"]>>([
@@ -126,8 +129,9 @@ Ton & regler:
 - Du har inte testat produkterna själv – säg "jag har gått igenom/jämfört", aldrig "jag har testat".
 
 Sortiment:
-- Du får ett kompakt sortimentsindex som JSON längre ner. Tipsa BARA om produkter som finns där, och bara när de verkligen hjälper. Hitta ALDRIG på produkter, slugs, betyg, priser eller länkar.
-- Indexet innehåller kort översikt. Anropa "search_products" när du behöver specs, full verdict eller review-detaljer för en produkt.
+- Du får ett kompakt sortimentsindex som TSV längre ner: en produkt per rad med slug, titel, kategori, prisnivå, Elins poäng och sidlänk. Tipsa BARA om produkter ur vårt sortiment, och bara när de verkligen hjälper. Hitta ALDRIG på produkter, slugs, betyg, priser eller länkar.
+- Indexet säger vad som FINNS, inte vad produkten gör. Anropa "search_products" så fort du behöver veta något om en produkt – sammanfattning, specs, verdict eller vad köpare tycker – innan du rekommenderar den.
+- Har personen valt ett område visar indexet bara det området. "search_products" med parametern "kategori" når hela sortimentet, så använd den om personens fråga hör hemma någon annanstans.
 - För rena kunskaps- och rådgivningsfrågor: tvinga aldrig in en produkt.
 
 Håll dig till ditt uppdrag:
@@ -504,8 +508,41 @@ function parseTerminalToolInput(input: unknown) {
   return output;
 }
 
+// Compact index entry: what exists, not what it does. Everything descriptive
+// (summary, badges, specs, verdict, review signals) comes back from
+// search_products on demand, so it is paid for only when it is needed.
+function buildProductIndex(
+  knowledge: ElinKnowledgeProduct[],
+  preferences: ElinPreferences | null,
+  focus: ElinFocus | null,
+): string {
+  const scope = preferences?.category ?? focus?.category ?? null;
+  const scoped = scope
+    ? knowledge.filter((product) => product.category === scope)
+    : knowledge;
+  // Never let a filter empty the index out from under the model.
+  const source = scoped.length > 0 ? scoped : knowledge;
+
+  // TSV rather than JSON: repeating six key names across ~250 rows costs more
+  // tokens than the data itself (JSON 13.5k vs TSV 7.3k for the same rows).
+  const clean = (value: string) => value.replace(/[\t\r\n]+/g, " ").trim();
+
+  return source
+    .map((product) =>
+      [
+        product.slug,
+        clean(product.title),
+        product.category,
+        product.priceTier,
+        product.poang,
+        product.pageHref,
+      ].join("\t"),
+    )
+    .join("\n");
+}
+
 function buildSystemBlocks(
-  productJson: string,
+  productIndex: string,
   focus: ElinFocus | null,
   preferences: ElinPreferences | null,
   variant: ElinVariant,
@@ -515,7 +552,7 @@ function buildSystemBlocks(
     { type: "text", text: variantCopy[variant].systemNote },
     {
       type: "text",
-      text: `PRODUKTINDEX (KOMPAKT JSON):\n${productJson}`,
+      text: `PRODUKTINDEX (TSV, en produkt per rad, kolumner: slug, titel, kategori, prisnivå, Elins poäng 0-100, sidlänk):\n${productIndex}`,
       cache_control: { type: "ephemeral" },
     },
   ];
@@ -687,7 +724,7 @@ async function streamAssistantTurn({
 
   const anthropicStream = await anthropic.messages.create({
     model,
-    max_tokens: 1500,
+    max_tokens: 800,
     temperature: 0,
     system,
     tools,
@@ -870,9 +907,17 @@ export async function POST(request: Request) {
 
   const focus = sanitizeFocus(payload);
   const preferences = sanitizePreferences(payload);
+  // The full catalogue stays server-side: search_products reads it and it is
+  // what validates recommended slugs. Only a slim projection travels to the
+  // model, because the index is resent with every request and dominates cost.
   const knowledge = getElinKnowledge();
   const allowedSlugs = new Set(knowledge.map((product) => product.slug));
-  const system = buildSystemBlocks(JSON.stringify(knowledge), focus, preferences, variant);
+  const system = buildSystemBlocks(
+    buildProductIndex(knowledge, preferences, focus),
+    focus,
+    preferences,
+    variant,
+  );
   const conversation: Anthropic.MessageParam[] = messages.map((message) => ({
     role: message.role,
     content: message.content,
