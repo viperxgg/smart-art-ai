@@ -22,8 +22,8 @@ const breadcrumbItems = [
 ];
 
 export const metadata = createSeoMetadata({
-  title: "Olaplex eller hårinpackning – värt det? | Elins val",
-  description: "Olaplex No.3 eller vanlig hårinpackning? Elin jämför bond-kuren mot L'Oréal Absolut Repair ärligt – vad ditt hår behöver och när hypen är värd pengarna.",
+  title: "Olaplex eller inpackning – vilken gör nytta? | Elins val",
+  description: "Olaplex No.3 bygger bindningar, en vanlig inpackning återfuktar – två olika saker. Elin jämför mot L'Oréal Absolut Repair och säger vad ditt hår behöver.",
   url: pageUrl,
   image: {
     url: `${siteConfig.url}${heroImage.src}`,

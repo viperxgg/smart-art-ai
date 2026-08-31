@@ -22,8 +22,8 @@ const breadcrumbItems = [
 ];
 
 export const metadata = createSeoMetadata({
-  title: "CeraVe eller Cetaphil? Vilken rengöring passar dig | Elins val",
-  description: "CeraVe eller Cetaphil? Elin jämför de två mest köpta milda ansiktsrengöringarna så du väljer rätt för torr, normal eller känslig hud.",
+  title: "CeraVe eller Cetaphil – torr eller känslig hud? | Elins val",
+  description: "CeraVe eller Cetaphil? CeraVe återfuktar med ceramider, Cetaphil är mildare för känslig hud. Elin jämför båda och säger vilken som passar din hudtyp.",
   url: pageUrl,
   image: {
     url: `${siteConfig.url}${heroImage.src}`,

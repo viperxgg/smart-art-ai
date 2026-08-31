@@ -142,9 +142,9 @@ export const locktangPicks: LocktangPick[] = [
     reviewSectionId: "tymo-curlpro-recensioner",
     reviewFormId: "tymo-curlpro-skriv-recension",
     targetKeyword: "tymo locktång",
-    metaTitle: "TYMO CurlPro locktång omdöme & betyg | Elins val",
+    metaTitle: "TYMO locktång – lockar utan trassel? Elins betyg | Elins val",
     metaDescription:
-      "TYMO locktång omdöme: Elin går igenom TYMO CurlPro med anti-tangle, tre temperaturlägen, betyg och när den är värd priset.",
+      "TYMO CurlPro locktång: Elins poäng och betyg, hur anti-trassel fungerar i praktiken, tre temperaturlägen – och när den är värd pengarna.",
   },
 ];
 

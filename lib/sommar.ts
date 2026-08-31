@@ -2949,8 +2949,8 @@ export const sommarPicks: SommarPick[] = [
     reviewSectionId: "inkey-scalp-scrub-recensioner",
     reviewFormId: "inkey-scalp-scrub-skriv-recension",
     targetKeyword: "scalp scrub hårbottenpeeling",
-    metaTitle: "The INKEY List Glycolic Acid Scalp Scrub – hårbottenpeeling | Elins val",
-    metaDescription: "Elin går igenom The INKEY List Glycolic Acid Scalp Scrub: en exfolierande hårbottenpeeling med glykolsyra för en fräschare hårbotten (4,2 av 5, 1 940 omdömen) – och hur du använder den.",
+    metaTitle: "Hårbottenpeeling med glykolsyra – funkar den? | Elins val",
+    metaDescription: "Exfolierande hårbottenpeeling: Elin går igenom The INKEY List Glycolic Acid Scalp Scrub – vad glykolsyran gör i hårbotten och hur ofta du bör köra den.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -5249,9 +5249,9 @@ export const sommarPicks: SommarPick[] = [
     reviewSectionId: "nivea-after-sun-recensioner",
     reviewFormId: "nivea-after-sun-skriv-recension",
     targetKeyword: "nivea moisturising after sun lotion",
-    metaTitle: "NIVEA Sun After Sun omdöme & betyg | Elins val",
+    metaTitle: "NIVEA After Sun – Elins betyg och när den räcker | Elins val",
     metaDescription:
-      "NIVEA Moisturising After Sun Lotion omdöme: Elins betyg, köparnas omdömen och varför den är ett prisvärt val efter solen.",
+      "NIVEA Moisturising After Sun: Elins poäng och betyg, vad köparna säger om svalka och fukt – och när en enkel aloe vera-gel gör samma nytta.",
     relatedLinks: [
       {
         href: "/skonhet/aftersun-eller-aloe-vera",
@@ -5857,9 +5857,9 @@ export const sommarPicks: SommarPick[] = [
     reviewSectionId: "moroccanoil-torrschampo-recensioner",
     reviewFormId: "moroccanoil-torrschampo-skriv-recension",
     targetKeyword: "moroccanoil torrschampo",
-    metaTitle: "Moroccanoil torrschampo Light för ljust hår | Elins val",
+    metaTitle: "Moroccanoil torrschampo Light – omdöme & betyg | Elins val",
     metaDescription:
-      "Moroccanoil torrschampo Light för ljust hår: Elins omdöme om fett-mattande effekt, lila pigment, pris och hårfärg.",
+      "Moroccanoil torrschampo Light för ljust hår: Elins omdöme och betyg – hur väl det mattar fettet, vad det lila pigmentet gör och när det är värt pengarna.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -11465,8 +11465,8 @@ export const resaPicks: SommarPick[] = [
     reviewSectionId: "travel-dude-packkuber-recensioner",
     reviewFormId: "travel-dude-packkuber-skriv-recension",
     targetKeyword: "packkuber",
-    metaTitle: "Travel Dude packkuber – kompression för kabinväskan | Elins val",
-    metaDescription: "Elin går igenom Travel Dude packkuber (7 delar, 4,6 av 5 från 3 819 omdömen): kompression, ordning och återvunnet material – och varför de inte gör väskan större.",
+    metaTitle: "Packkuber med kompression – sparar de plats? | Elins val",
+    metaDescription: "Packkuber med kompression: Elin går igenom Travel Dude 7-delarsset – hur mycket plats du faktiskt sparar, och varför kuberna inte gör väskan större.",
     relatedLinks: [
       {
         href: "/sommar/resa/kompressionspase",

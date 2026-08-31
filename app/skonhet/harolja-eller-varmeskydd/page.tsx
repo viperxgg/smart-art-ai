@@ -17,9 +17,9 @@ const breadcrumbItems = [
 ];
 
 export const metadata = createSeoMetadata({
-  title: "Hårolja med värmeskydd? Så väljer du | Elins val",
+  title: "Hårolja med värmeskydd – räcker oljan? | Elins val",
   description:
-    "Hårolja med värmeskydd? Elin visar när du ska välja hårolja, när värmeskydd räcker och varför många använder båda.",
+    "Hårolja med värmeskydd: Elin reder ut om håroljan räcker som skydd före plattång och fön, när du behöver ett riktigt värmeskydd – och när du bör ha båda.",
   url: pageUrl,
   image: {
     url: `${siteConfig.url}${haroljaEllerVarmeskyddPicks[1].product.image}`,

@@ -23,8 +23,8 @@ const breadcrumbItems = [
 ];
 
 export const metadata = createSeoMetadata({
-  title: "Luftfuktare eller luftrenare? Vilken behöver du | Elins val",
-  description: "Luftfuktare eller luftrenare? Elin reder ut skillnaden – fukt mot renare luft – så du väljer rätt apparat för ditt inomhusklimat.",
+  title: "Luftrenare eller luftfuktare – vilken behöver du? | Elins val",
+  description: "Luftrenare eller luftfuktare? Renare luft och mer fukt löser två olika problem. Elin reder ut vilken du behöver vid torr inomhusluft, damm eller allergi.",
   url: pageUrl,
   image: {
     url: `${siteConfig.url}${heroImage.src}`,

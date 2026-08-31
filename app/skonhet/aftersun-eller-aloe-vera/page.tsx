@@ -17,9 +17,9 @@ const breadcrumbItems = [
 ];
 
 export const metadata = createSeoMetadata({
-  title: "Aftersun eller aloe vera - vad behöver huden efter solen? | Elins val",
+  title: "Aftersun eller aloe vera – vad huden behöver | Elins val",
   description:
-    "Aftersun eller aloe vera? Elin jämför NIVEA After Sun och Naissance Aloe Vera så du väljer rätt svalka och fukt efter solen.",
+    "Aftersun eller aloe vera efter solen? Elin jämför svalka, fukt och känsla – och säger när ren aloe vera-gel räcker och när en aftersun gör mer nytta.",
   url: pageUrl,
   image: {
     url: `${siteConfig.url}${aftersunEllerAloeVeraPicks[0].product.image}`,
