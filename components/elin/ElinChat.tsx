@@ -856,6 +856,8 @@ export function ElinChat({
   const [preferences, setPreferences] = useState<ElinPreferences>({});
   const [selectedBudget, setSelectedBudget] = useState<PriceTier | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<ProductCategorySlug | null>(null);
+  const messagesViewportRef = useRef<HTMLDivElement>(null);
+  const shouldFollowLatestMessageRef = useRef(true);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const persist = !focus;
   const [isStorageReady, setIsStorageReady] = useState(!persist);
@@ -1025,6 +1027,21 @@ export function ElinChat({
     window.requestAnimationFrame(() => textareaRef.current?.focus());
   }, [initialPrompt, prefillKey]);
 
+  // Keep the newest message in view, unless the reader has scrolled up to
+  // re-read something — then leave their scroll position alone.
+  useEffect(() => {
+    const viewport = messagesViewportRef.current;
+    if (!viewport || !shouldFollowLatestMessageRef.current) {
+      return;
+    }
+
+    const frame = window.requestAnimationFrame(() => {
+      viewport.scrollTop = viewport.scrollHeight;
+    });
+
+    return () => window.cancelAnimationFrame(frame);
+  }, [isSending, messages]);
+
   const history = useMemo(
     () =>
       messages
@@ -1166,6 +1183,7 @@ export function ElinChat({
     const assistantId = createMessageId();
     const nextHistory = [...history, { role: "user" as const, content: scopedText }];
 
+    shouldFollowLatestMessageRef.current = true;
     setMessages((current) => [
       ...current,
       userMessage,
@@ -1384,7 +1402,16 @@ export function ElinChat({
         <WishlistPanel items={wishlist} onRemove={removeFromWishlist} />
       ) : null}
 
-      <div className="flex-1 space-y-4 overflow-y-auto bg-bg px-4 py-5 sm:px-5">
+      <div
+        ref={messagesViewportRef}
+        onScroll={(event) => {
+          const viewport = event.currentTarget;
+          const distanceFromBottom =
+            viewport.scrollHeight - viewport.scrollTop - viewport.clientHeight;
+          shouldFollowLatestMessageRef.current = distanceFromBottom < 72;
+        }}
+        className="flex-1 space-y-4 overflow-y-auto overscroll-contain bg-bg px-4 pb-8 pt-5 sm:px-5"
+      >
         {!isStorageReady ? (
           <div className="grid h-full min-h-[8rem] place-items-center rounded-[1.25rem] border border-dashed border-line bg-surface/70 p-4 text-center sm:p-5">
             <span className="inline-flex items-center gap-2 text-sm font-bold text-ink-soft">
