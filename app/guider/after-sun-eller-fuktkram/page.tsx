@@ -1,3 +1,4 @@
+// Content refresh 2026-09-02: brandade länktexter till NIVEA Sun After Sun.
 import { GuidePage } from "@/app/guider/_components/GuidePage";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
@@ -66,7 +67,7 @@ export default function AfterSunEllerFuktkramPage() {
         links: [
           {
             href: "/skonhet/aftersun",
-            label: "NIVEA SUN – prisvärt after sun",
+            label: "NIVEA Sun After Sun – prisvärt val",
           },
           {
             href: "/skonhet/aloe-vera-gel",
@@ -79,8 +80,8 @@ export default function AfterSunEllerFuktkramPage() {
       relatedLinks={[
         {
           href: "/skonhet/aftersun",
-          label: "Elins val",
-          text: "NIVEA SUN – prisvärt after sun",
+          label: "NIVEA Sun After Sun",
+          text: "Läs Elins recension av NIVEA Sun After Sun.",
         },
         {
           href: "/skonhet/aloe-vera-gel",

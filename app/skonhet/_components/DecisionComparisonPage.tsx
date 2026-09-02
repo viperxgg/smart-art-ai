@@ -31,6 +31,13 @@ type DecisionComparisonPageProps = {
   faqItems: readonly DecisionComparisonFaqItem[];
   breadcrumbItems: BreadcrumbItem[];
   relatedLinks: DecisionComparisonRelatedLink[];
+  // Optional section that answers the generic "which one should I choose?"
+  // intent in plain language, with one branded link down to a review.
+  intentGuide?: {
+    heading: string;
+    paragraphs: readonly string[];
+    link: { href: string; label: string };
+  };
   // Optional single Elin illustration (split-screen comparison thumbnail).
   // When set, the two product images are replaced by this one image and a
   // note links to the real product photos on Amazon.
@@ -93,6 +100,7 @@ export function DecisionComparisonPage({
   faqItems,
   breadcrumbItems,
   relatedLinks,
+  intentGuide,
   heroImage,
   backHref = "/skonhet",
   backLabel = "Tillbaka till skönhet",
@@ -216,6 +224,29 @@ export function DecisionComparisonPage({
             </div>
           </div>
         </section>
+
+        {intentGuide ? (
+          <section className="reveal-fade mt-10 rounded-[2rem] border border-line bg-surface/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
+            <h2 className="editorial-color-kiss font-display text-4xl">
+              {intentGuide.heading}
+            </h2>
+            {intentGuide.paragraphs.map((paragraph) => (
+              <p
+                key={paragraph}
+                className="mt-4 max-w-3xl text-lg leading-8 text-ink-soft"
+              >
+                {paragraph}
+              </p>
+            ))}
+            <Link
+              href={intentGuide.link.href}
+              className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full border border-line bg-rose/8 px-5 font-black text-wine transition hover:bg-rose/15"
+            >
+              {intentGuide.link.label}
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </Link>
+          </section>
+        ) : null}
 
         <section className="mt-10 grid gap-6 md:grid-cols-2">
           {picks.map((pick, index) => {

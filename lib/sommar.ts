@@ -2019,8 +2019,8 @@ export const sommarPicks: SommarPick[] = [
       },
       {
         href: "/skonhet/aftersun",
-        label: "After sun",
-        text: "Återfukta huden efter en dag ute.",
+        label: "NIVEA Sun After Sun",
+        text: "Läs Elins recension av NIVEA Sun After Sun.",
       },
     ],
   },
@@ -5249,14 +5249,14 @@ export const sommarPicks: SommarPick[] = [
     reviewSectionId: "nivea-after-sun-recensioner",
     reviewFormId: "nivea-after-sun-skriv-recension",
     targetKeyword: "nivea moisturising after sun lotion",
-    metaTitle: "NIVEA After Sun – Elins betyg och när den räcker | Elins val",
+    metaTitle: "NIVEA Sun After Sun i test – Elins betyg 88/100 | Elins val",
     metaDescription:
-      "NIVEA Moisturising After Sun: Elins poäng och betyg, vad köparna säger om svalka och fukt – och när en enkel aloe vera-gel gör samma nytta.",
+      "NIVEA Sun After Sun i test: Elins betyg och köparnas omdömen om svalka och fukt – när lotionen räcker efter solen och när aloe vera-gel gör mer nytta.",
     relatedLinks: [
       {
         href: "/skonhet/aftersun-eller-aloe-vera",
-        label: "After sun eller aloe vera",
-        text: "Jämför NIVEA After Sun med aloe vera gel.",
+        label: "Aftersun eller aloe vera",
+        text: "Vilken aftersun ska du välja? Jämför NIVEA Sun After Sun med aloe vera-gel.",
       },
       {
         href: "/skonhet/aloe-vera-gel",
@@ -5333,13 +5333,13 @@ export const sommarPicks: SommarPick[] = [
     relatedLinks: [
       {
         href: "/skonhet/aftersun-eller-aloe-vera",
-        label: "After sun eller aloe vera",
-        text: "Jämför aloe vera gel med after sun-lotion.",
+        label: "Aftersun eller aloe vera",
+        text: "Aftersun eller aloe vera – vilken ska du välja efter solen?",
       },
       {
         href: "/skonhet/aftersun",
-        label: "After Sun",
-        text: "Återfukta huden efter solen med en svalkande lotion.",
+        label: "NIVEA Sun After Sun",
+        text: "Läs Elins recension av NIVEA Sun After Sun – svalkande lotion efter solen.",
       },
       {
         href: "/skonhet/brun-utan-sol",

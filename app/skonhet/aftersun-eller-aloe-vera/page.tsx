@@ -1,3 +1,4 @@
+// Content refresh 2026-09-02: nytt avsnitt "Vilken aftersun ska du välja?" + brandad länk till NIVEA Sun After Sun. Title oförändrad (2,6 % CTR).
 import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
 import {
   aftersunEllerAloeVeraComparisonRows,
@@ -42,6 +43,18 @@ export default function AftersunEllerAloeVeraPage() {
       faqItems={aftersunEllerAloeVeraFaqItems}
       breadcrumbItems={breadcrumbItems}
       relatedLinks={aftersunEllerAloeVeraRelatedLinks}
+      intentGuide={{
+        heading: "Vilken aftersun ska du välja?",
+        paragraphs: [
+          "Välj en aftersun-lotion när huden känns torr, stram och soltrött efter en hel dag ute. Lotionen bäddar in huden med fukt, passar hela kroppen – rygg, axlar och ben – och är det enklaste valet för dig som vill ha en trygg rutin efter stranden.",
+          "Välj ren aloe vera-gel när du främst vill ha svalka. Gelen är lätt, absorberas snabbt och fungerar även i ansiktet och på känslig hud. Den passar dig som vill ha en produkt för både sol, bad och rakning.",
+          "Enkel tumregel: torr och soltrött hud – aftersun. Varm hud som vill svalna – aloe vera. Har du båda hemma: gelen för snabb svalka, lotionen när huden behöver fukt.",
+        ],
+        link: {
+          href: "/skonhet/aftersun",
+          label: "Läs Elins recension av NIVEA Sun After Sun",
+        },
+      }}
     />
   );
 }

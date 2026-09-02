@@ -1,3 +1,4 @@
+// Content refresh 2026-09-02: generisk länktext till aftersun-eller-aloe-vera.
 import Link from "next/link";
 import { ArrowUpRight, Home, Sparkles, WandSparkles } from "lucide-react";
 
@@ -132,8 +133,8 @@ export default function SkonhetHubPage() {
             },
             {
               href: "/skonhet/aftersun-eller-aloe-vera",
-              label: "Efter solen",
-              text: "After sun eller aloe vera för svalka och fukt.",
+              label: "Aftersun eller aloe vera",
+              text: "Aftersun eller aloe vera – vad huden behöver efter solen.",
             },
             {
               href: "/skonhet/torrschampo",

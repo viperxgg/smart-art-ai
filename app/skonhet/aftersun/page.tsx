@@ -1,3 +1,4 @@
+// Content refresh 2026-09-02: brandad title/description (NIVEA Sun After Sun) – intentseparation mot aftersun-eller-aloe-vera.
 // Meta refresh 2026-08-31: ny title/description från GSC-frågorna (after sun eller aloe vera).
 import { notFound } from "next/navigation";
 

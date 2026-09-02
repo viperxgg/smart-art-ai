@@ -76,8 +76,8 @@ export const aftersunEllerAloeVeraRelatedLinks: DecisionComparisonRelatedLink[] 
     },
     {
       href: "/skonhet/aftersun",
-      label: "After sun",
-      text: "Läs recensionen av NIVEA Sun After Sun.",
+      label: "NIVEA Sun After Sun",
+      text: "Läs Elins recension av NIVEA Sun After Sun.",
     },
     {
       href: "/skonhet/aloe-vera-gel",
