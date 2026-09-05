@@ -23,7 +23,7 @@ export const siteConfig = {
   // schema. Stays null until public/team/azzam-khalaf.webp exists — run
   // `node scripts/make-team-photo.mjs` to convert the source photo; the script
   // sets this to "/team/azzam-khalaf.webp".
-  operatorImage: null as string | null,
+  operatorImage: "/team/azzam-khalaf.webp" as string | null,
 } as const;
 
 // Elins vals egna konton. Håll dessa i synk med publiceringsflödet.

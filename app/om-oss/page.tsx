@@ -1,4 +1,4 @@
-// Content refresh 2026-09-05: ny Om oss – FRAMFORM och Azzam Khalaf som ansvarig utgivare, Elin = redaktionell röst, ankare #azzam/#elin/#sa-tjanar-vi-pengar/#kontakt.
+// Content refresh 2026-09-05: porträtt av ansvarig utgivare + ny Om oss – FRAMFORM och Azzam Khalaf, Elin = redaktionell röst, ankare #azzam/#elin/#sa-tjanar-vi-pengar/#kontakt.
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -154,7 +154,7 @@ export default function AboutPage() {
               <p className="mt-4 leading-8 text-ink-soft">
                 FRAMFORM är en digital produktions- och designstudio som drivs
                 av {siteConfig.operatorName} som {siteConfig.operatorLegalForm}{" "}
-                i Sverige, med säte i {siteConfig.operatorCity}.
+                i Sverige, etablerad i {siteConfig.operatorCity}.
               </p>
               <div className="mt-5 flex flex-wrap gap-3">
                 <a
