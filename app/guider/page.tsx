@@ -26,9 +26,9 @@ const guides = [
   },
   {
     href: "/guider/tyst-flakt-sovrum",
-    title: "Tyst fläkt för sovrummet – vilken ska du välja?",
+    title: "Tyst fläkt till sovrummet – bäst i test 2026",
     description:
-      "Elin jämför tysta fläktar för sovrummet ärligt – nattläge, ljudnivå och när premium är värt det.",
+      "Elin jämför fem fläktar för sovrummet: ljudnivå, nattläge, timer och köparnas omdömen – och vilken du hoppar över.",
   },
   {
     href: "/guider/flakt-dyr-vs-billig",
