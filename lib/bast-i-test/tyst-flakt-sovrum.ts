@@ -6,6 +6,7 @@ import {
   mideaFz10FlaktProduct,
   xiaomiStandingFanProduct,
 } from "@/lib/products";
+import { getEditorialScore } from "@/lib/scores";
 
 // "Tyst fläkt till sovrummet - bäst i test 2026" (Fas 1, batch A1).
 // Every product is the shared record from the data layer; midea-golvflakt lives
@@ -18,6 +19,20 @@ if (!mideaGolvflaktProduct) {
   throw new Error(
     'Product "midea-golvflakt" is missing from the data layer; the tyst-flakt-sovrum page needs it.',
   );
+}
+
+/**
+ * Elins poäng cell for the comparison table. Read from lib/scores.ts like the
+ * score pills are, so the table can never drift from the rest of the page.
+ */
+function scoreCell(slug: string, suffix = "") {
+  const score = getEditorialScore(slug);
+
+  if (!score) {
+    throw new Error(`Missing editorial score for "${slug}".`);
+  }
+
+  return `${score.total}${suffix}`;
 }
 
 export const tystFlaktSovrum: BastITestPage = {
@@ -229,7 +244,13 @@ export const tystFlaktSovrum: BastITestPage = {
       },
       {
         label: "Elins poäng",
-        cells: ["88", "85", "83", "79", "87 (som bordsfläkt)"],
+        cells: [
+          scoreCell("dreo-cruiser-pro-tornflakt"),
+          scoreCell("midea-fz10-tornflakt"),
+          scoreCell("midea-golvflakt"),
+          scoreCell("xiaomi-bordsflakt"),
+          scoreCell("honeywell-turboforce-ht900e", " (som bordsfläkt)"),
+        ],
       },
     ],
   },
