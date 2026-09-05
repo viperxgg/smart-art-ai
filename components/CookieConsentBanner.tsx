@@ -25,9 +25,13 @@ export function CookieConsentBanner() {
   const headingRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
-    if (!readStoredConsent()) {
-      setVisible(true);
-    }
+    const frame = window.requestAnimationFrame(() => {
+      if (!readStoredConsent()) {
+        setVisible(true);
+      }
+    });
+
+    return () => window.cancelAnimationFrame(frame);
   }, []);
 
   useEffect(() => {

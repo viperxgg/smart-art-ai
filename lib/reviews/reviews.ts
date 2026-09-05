@@ -56,12 +56,14 @@ export function hashIpAddress(ipAddress: string | null) {
     return null;
   }
 
-  const salt =
-    process.env.REVIEW_IP_HASH_SALT ??
-    process.env.SUPABASE_SERVICE_ROLE_KEY ??
-    "smartartai-review-salt";
+  const salt = process.env.REVIEW_IP_HASH_SALT?.trim();
+  if (!salt && process.env.NODE_ENV === "production") {
+    throw new Error("REVIEW_IP_HASH_SALT is required in production");
+  }
 
-  return createHash("sha256").update(`${salt}:${ipAddress}`).digest("hex");
+  return createHash("sha256")
+    .update(`${salt || "smartartai-review-dev"}:${ipAddress}`)
+    .digest("hex");
 }
 
 export function validateReviewSubmission(payload: unknown): ValidationResult {

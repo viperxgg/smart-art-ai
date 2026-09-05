@@ -1,3 +1,4 @@
+import { timingSafeEqual } from "crypto";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { notFound } from "next/navigation";
@@ -51,6 +52,19 @@ function getBasicAuthPassword(value: string) {
   }
 }
 
+function tokensMatch(candidate: string | null, expected: string) {
+  if (!candidate) {
+    return false;
+  }
+
+  const candidateBuffer = Buffer.from(candidate);
+  const expectedBuffer = Buffer.from(expected);
+  return (
+    candidateBuffer.length === expectedBuffer.length &&
+    timingSafeEqual(candidateBuffer, expectedBuffer)
+  );
+}
+
 function isAuthorized(requestHeaders: { get(name: string): string | null }) {
   const token = process.env.ELIN_INSIGHTS_TOKEN;
   if (!token) {
@@ -58,17 +72,23 @@ function isAuthorized(requestHeaders: { get(name: string): string | null }) {
   }
 
   const headerToken = requestHeaders.get("x-elin-insights-token");
-  if (headerToken === token) {
+  if (tokensMatch(headerToken, token)) {
     return true;
   }
 
   const authorization = requestHeaders.get("authorization") ?? "";
-  if (authorization === `Bearer ${token}`) {
+  if (
+    authorization.startsWith("Bearer ") &&
+    tokensMatch(authorization.slice("Bearer ".length), token)
+  ) {
     return true;
   }
 
   if (authorization.startsWith("Basic ")) {
-    return getBasicAuthPassword(authorization.slice("Basic ".length)) === token;
+    return tokensMatch(
+      getBasicAuthPassword(authorization.slice("Basic ".length)),
+      token,
+    );
   }
 
   return false;

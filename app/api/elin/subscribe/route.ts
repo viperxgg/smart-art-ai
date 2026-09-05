@@ -1,6 +1,10 @@
 import { NextResponse } from "next/server";
 
 import { getTrustedClientIp } from "@/lib/client-ip";
+import {
+  isElinSessionConfigured,
+  readSessionFromCookies,
+} from "@/lib/elin-session";
 import { rateLimit } from "@/lib/rate-limit";
 import {
   createSupabaseServerClient,
@@ -70,6 +74,26 @@ function sanitizeContext(value: unknown): Json {
 }
 
 export async function POST(request: Request) {
+  if (process.env.NODE_ENV === "production") {
+    if (!isElinSessionConfigured()) {
+      return NextResponse.json(
+        { ok: false, error: "service_unavailable" },
+        { status: 503 },
+      );
+    }
+
+    const session = readSessionFromCookies(
+      request.headers.get("cookie"),
+      Date.now(),
+    );
+    if (!session.verified) {
+      return NextResponse.json(
+        { ok: false, error: "verification_required" },
+        { status: 403 },
+      );
+    }
+  }
+
   const clientIp = getTrustedClientIp(request) ?? "unknown";
   const limit = rateLimit(`elin-subscribe:${clientIp}`, rateLimitConfig);
   if (!limit.ok) {

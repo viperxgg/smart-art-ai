@@ -246,7 +246,6 @@ export const categoryProductGroups = {
         "eufy-robotdammsugare",
         "govee-led-list",
         "gritin-laslampa",
-        "soundcore-hogtalare",
         "withings-personvag",
         "levoit-core-200s-luftrenare",
         "kobo-clara-bw",

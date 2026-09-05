@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/generate-sitemap.mjs",
+    "prebuild": "node scripts/generate-sitemap.mjs && node scripts/check-vercel-production-env.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "sitemap": "node scripts/generate-sitemap.mjs"
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "preflight:production": "node scripts/check-production-env.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.106.0",
@@ -18,9 +19,10 @@
     "framer-motion": "^12.40.0",
     "lucide-react": "^1.8.0",
     "next": "^16.2.6",
-    "nodemailer": "^8.0.11",
+    "nodemailer": "^9.0.3",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "server-only": "^0.0.1"
   },
   "overrides": {
     "postcss": "8.5.10"

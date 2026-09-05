@@ -14,7 +14,7 @@ async function verifyTurnstile(token: unknown, ipAddress: string | null) {
   const secret = process.env.TURNSTILE_SECRET_KEY;
 
   if (!secret) {
-    return true;
+    return process.env.NODE_ENV !== "production";
   }
 
   if (typeof token !== "string" || !token) {
@@ -53,6 +53,21 @@ export async function POST(request: Request) {
     return NextResponse.json(
       { ok: false, message: "Ogiltig förfrågan." },
       { status: 400 },
+    );
+  }
+
+  const securityConfigured = Boolean(
+    process.env.TURNSTILE_SECRET_KEY?.trim() &&
+      process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY?.trim() &&
+      process.env.REVIEW_IP_HASH_SALT?.trim(),
+  );
+  if (process.env.NODE_ENV === "production" && !securityConfigured) {
+    return NextResponse.json(
+      {
+        ok: false,
+        message: "Recensionsformuläret är tillfälligt otillgängligt.",
+      },
+      { status: 503 },
     );
   }
 

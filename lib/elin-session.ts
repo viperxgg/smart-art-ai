@@ -23,8 +23,24 @@ export type ElinSession = {
   verified: boolean;
 };
 
+export function isElinSessionConfigured() {
+  return (
+    Boolean(process.env.ELIN_QUOTA_SECRET?.trim()) ||
+    process.env.NODE_ENV !== "production"
+  );
+}
+
 function getSecret() {
-  return process.env.ELIN_QUOTA_SECRET || "smartartai-elin-session-fallback";
+  const secret = process.env.ELIN_QUOTA_SECRET?.trim();
+  if (secret) {
+    return secret;
+  }
+
+  if (process.env.NODE_ENV === "production") {
+    throw new Error("ELIN_QUOTA_SECRET is required in production");
+  }
+
+  return "smartartai-elin-session-dev";
 }
 
 function sign(payloadB64: string) {

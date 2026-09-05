@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -44,7 +45,7 @@ next-env.d.ts
 antigravity-awesome-skills-main/
 scratch/
 publicrobots.txt
-.qa-*/
+.qa-*
 .next-*.png
 .next-dev*.log
 .next-*.out.log

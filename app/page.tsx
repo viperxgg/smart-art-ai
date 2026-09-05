@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import { JsonLd } from "@/components/JsonLd";
-import { ProductDiscoveryLanding } from "@/components/ProductDiscoveryLanding";
+import { VisualExperienceV2 } from "@/components/VisualExperienceV2";
 import { defaultOgImage } from "@/lib/metadata";
 import { featuredProduct } from "@/lib/products";
 import { buildElinReviewNode } from "@/lib/scores";
@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <>
       <JsonLd data={[organizationSchema, productSchema]} />
-      <ProductDiscoveryLanding />
+      <VisualExperienceV2 />
     </>
   );
 }

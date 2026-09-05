@@ -28,8 +28,13 @@ function hashIpAddress(ipAddress: string | null) {
     return "unknown";
   }
 
+  const salt = process.env.IP_HASH_SALT?.trim();
+  if (!salt && process.env.NODE_ENV === "production") {
+    throw new Error("IP_HASH_SALT is required in production");
+  }
+
   return createHash("sha256")
-    .update(`${process.env.IP_HASH_SALT ?? "smartartai-inquiry"}:${ipAddress}`)
+    .update(`${salt || "smartartai-inquiry-dev"}:${ipAddress}`)
     .digest("hex");
 }
 
@@ -103,7 +108,7 @@ async function verifyTurnstile(token: unknown, ipAddress: string | null) {
   const secret = process.env.TURNSTILE_SECRET_KEY;
 
   if (!secret) {
-    return true;
+    return process.env.NODE_ENV !== "production";
   }
 
   if (typeof token !== "string" || !token) {
@@ -201,6 +206,21 @@ export async function POST(request: Request) {
     return NextResponse.json(
       { ok: false, message: validation.message },
       { status: 400 },
+    );
+  }
+
+  const securityConfigured = Boolean(
+    process.env.TURNSTILE_SECRET_KEY?.trim() &&
+      process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY?.trim() &&
+      process.env.IP_HASH_SALT?.trim(),
+  );
+  if (process.env.NODE_ENV === "production" && !securityConfigured) {
+    return NextResponse.json(
+      {
+        ok: false,
+        message: "Formuläret är tillfälligt otillgängligt. Försök igen senare.",
+      },
+      { status: 503 },
     );
   }
 

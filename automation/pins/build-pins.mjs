@@ -64,10 +64,15 @@ if (HELP) {
 
 const REQUIRED_COLUMNS = ["pelare", "mal_url", "rubrik", "beskrivning", "alt_text", "board", "produkt_ref"];
 
-// Advisory only (soft warnings, never block) — from the 2026-07-12 all-dept
-// Pinterest content plan.
-const KNOWN_PILLARS = ["X eller Y", "Bäst i test", "Köp INTE / Hoppa över", "Guider"];
-const KNOWN_BOARDS = ["Bäst i test", "Hudvård", "Hårvård", "Vanity & sminkbord", "Presenttips", "Hälsa & träning"];
+// Advisory only (soft warnings, never block) — aligned with the four live
+// Pinterest boards and category-led campaign taxonomy confirmed 2026-07-20.
+const KNOWN_PILLARS = ["Skönhet", "Hälsa", "Sommar & resa", "Träning"];
+const KNOWN_BOARDS = [
+  "Sommarskönhet & solkyssta tips",
+  "Svalka i sommar",
+  "Packa smart – resetips",
+  "Hemmaträning",
+];
 
 const DISCLOSURE = "Innehåller annonslänkar.";
 const BANNED = [
@@ -541,8 +546,7 @@ function loadQuotesOverrides() {
   if (!fs.existsSync(QUOTES_OVERRIDES_PATH)) return {};
   try {
     const raw = JSON.parse(fs.readFileSync(QUOTES_OVERRIDES_PATH, "utf8"));
-    const { _comment, ...rest } = raw; // eslint-disable-line no-unused-vars
-    return rest;
+    return Object.fromEntries(Object.entries(raw).filter(([key]) => key !== "_comment"));
   } catch (err) {
     console.warn(`  ! could not parse ${path.relative(ROOT, QUOTES_OVERRIDES_PATH)}: ${err.message} (ignoring overrides)`);
     return {};
@@ -776,7 +780,6 @@ function main() {
 
   const pins = [];
   const usedPinIds = new Map();
-  let hardErrors = 0;
   let softWarnings = 0;
 
   rows.forEach((row, seq) => {
@@ -788,7 +791,6 @@ function main() {
     }
     if (errors.length) {
       pins.push({ row: row.__row, ok: false, errors, warnings, raw: row });
-      hardErrors += errors.length;
       return;
     }
 
@@ -873,10 +875,8 @@ function main() {
 
     if (errors.length && !FORCE) {
       pins.push({ row: row.__row, ok: false, errors, warnings, raw: row });
-      hardErrors += errors.length;
       return;
     }
-    hardErrors += FORCE ? 0 : 0;
     softWarnings += warnings.length;
 
     pins.push({

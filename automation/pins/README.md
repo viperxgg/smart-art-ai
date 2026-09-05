@@ -144,30 +144,21 @@ a free CSV field, per the 2026-07-12 content-plan research. **Pinterest's
 own template can change** — download it from the Bulk Create Pins screen
 and diff the header row before the first real upload.
 
-## Known gap found while building this (needs a decision, not a code fix)
+## Pinterest taxonomy decision (confirmed 2026-07-20)
 
-Running this against Layla's real `batch-01.csv` (18 rows, all resolve
-cleanly) surfaced a real mismatch: every row's `pelare` is a **product
-category** (Skönhet / Hälsa / Sommar & resa / Träning) and every `board` is
-a **descriptive weekly theme** (e.g. "Svalka i sommarvärmen", "Packa smart –
-resetips"), not the 4 pillars / 6 boards named in the 2026-07-12 all-dept
-content-plan meeting (X eller Y, Bäst i test, Köp INTE/Hoppa över, Guider ·
-Bäst i test, Hudvård, Hårvård, Vanity & sminkbord, Presenttips, Hälsa &
-träning). The pipeline doesn't silently pick a side — it just warns on every
-row (`compliance.warnings`) and still processes them. Someone needs to say
-whether Layla's category/theme scheme is the new intentional plan (in which
-case tell me and I'll update `KNOWN_PILLARS`/`KNOWN_BOARDS` in
-`build-pins.mjs` so this stops being flagged as a warning) or whether the
-CSV should be corrected to the original 4/6 taxonomy.
+The live profile now uses the category/theme scheme from `batch-01.csv`.
+The pipeline therefore recognises these four campaign categories as valid
+`pelare` values: Skönhet, Hälsa, Sommar & resa, and Träning. It also validates
+against the four live board titles: Sommarskönhet & solkyssta tips, Svalka i
+sommar, Packa smart – resetips, and Hemmaträning. This replaces the older
+2026-07-12 draft taxonomy. Exact board-title matching matters because the
+bulk importer creates a new board when a named board does not already exist.
 
 ## Coordination needed to fully close the batch
 
-- **Cody/CEO**: confirm the `utm_campaign` format —
-  `<pelare-slug>-<batchId>` (e.g. `skonhet-batch-01`) was my read of
-  "utm_campaign=<pelare|batch-01>"; it's a one-line change in
-  `campaign = ...` inside `build-pins.mjs` if a different scheme (pure
-  pillar, pure batch id, etc.) was actually intended. Also the pillar/board
-  question above.
+- **Cody/CEO**: the current `utm_campaign` format is
+  `<pelare-slug>-<batchId>` (for example `skonhet-batch-01`). Keep this unless
+  attribution data shows a reason to change it.
 - **Max**: confirm `public/pins/` deploys and is publicly fetchable at
   `https://www.smartartai.se/pins/...` the same way `public/products/`
   already is (should be automatic — same static folder — but worth a
