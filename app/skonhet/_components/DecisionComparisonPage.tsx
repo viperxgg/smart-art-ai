@@ -3,16 +3,19 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, Sparkles, WandSparkles } from "lucide-react";
 
+import { AmazonPurchaseCta } from "@/components/AmazonPurchaseCta";
 import {
   Breadcrumbs,
   buildBreadcrumbSchema,
   type BreadcrumbItem,
 } from "@/components/Breadcrumbs";
+import { EditorialMeta } from "@/components/EditorialMeta";
 import { JsonLd } from "@/components/JsonLd";
 import { buildProductListSchema } from "@/lib/product-schema";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { RelatedLinks } from "@/components/RelatedLinks";
+import { WebPageJsonLd } from "@/components/WebPageJsonLd";
 import type {
   DecisionComparisonFaqItem,
   DecisionComparisonPick,
@@ -112,6 +115,8 @@ export function DecisionComparisonPage({
       picks,
       h1,
     });
+  // The last breadcrumb is the page itself, so it carries the canonical path.
+  const pagePath = breadcrumbItems.at(-1)?.href ?? "/";
 
   return (
     <main
@@ -121,6 +126,7 @@ export function DecisionComparisonPage({
       {faqItems.length ? <JsonLd data={faqSchema} /> : null}
       {productListSchema ? <JsonLd data={productListSchema} /> : null}
       <JsonLd data={breadcrumbSchema} />
+      <WebPageJsonLd path={pagePath} name={h1} />
 
       <div className="mx-auto w-full max-w-5xl">
         <div className="mb-5">
@@ -147,6 +153,7 @@ export function DecisionComparisonPage({
           <h1 className="editorial-color-kiss mt-6 max-w-4xl font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
             {h1}
           </h1>
+          <EditorialMeta path={pagePath} className="mt-5" />
           <ProductBadges badges={badges} className="mt-6" />
           <p className="mt-6 max-w-3xl text-xl leading-9 text-ink-soft">
             {intro}
@@ -197,15 +204,7 @@ export function DecisionComparisonPage({
 
         <div className="mt-8 grid gap-3 sm:grid-cols-2">
           {[picks[0], picks[1]].map((pick) => (
-            <a
-              key={pick.product.slug}
-              href={pick.product.amazonUrl}
-              target="_blank"
-              rel="sponsored nofollow noopener"
-              className="inline-flex min-h-12 items-center justify-center rounded-full bg-wine px-6 py-3 text-center font-bold text-white transition hover:opacity-90"
-            >
-              Köp {pick.product.brand} på Amazon
-            </a>
+            <AmazonPurchaseCta key={pick.product.slug} product={pick.product} />
           ))}
         </div>
 

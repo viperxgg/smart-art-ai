@@ -1,14 +1,9 @@
 import Link from "next/link";
 
-import { siteConfig } from "@/lib/site";
+import { siteConfig, socialProfiles } from "@/lib/site";
 
-// Elins vals egna konton. Håll dessa i synk med publiceringsflödet.
-const socialLinks = [
-  { href: "https://www.instagram.com/elinsval/", label: "Instagram" },
-  { href: "https://www.tiktok.com/@elinsval", label: "TikTok" },
-  { href: "https://www.pinterest.com/elinsval/", label: "Pinterest" },
-  { href: "https://www.facebook.com/1093709150502504", label: "Facebook" },
-] as const;
+// "Elins val drivs av FRAMFORM (Azzam Khalaf, enskild näringsidkare), Backe"
+const imprintLine = `${siteConfig.name} drivs av ${siteConfig.legalName} (${siteConfig.operatorName}, ${siteConfig.operatorLegalForm}), ${siteConfig.operatorCity}`;
 
 export function SiteFooter() {
   return (
@@ -98,7 +93,7 @@ export function SiteFooter() {
             Följ Elins val
           </p>
           <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2">
-            {socialLinks.map((social) => (
+            {socialProfiles.map((social) => (
               <li key={social.href}>
                 <a
                   href={social.href}
@@ -111,6 +106,27 @@ export function SiteFooter() {
               </li>
             ))}
           </ul>
+        </div>
+
+        <div className="mt-6 border-t border-line pt-5">
+          <p className="text-sm leading-7 text-ink-soft">
+            {`${imprintLine} · `}
+            <a
+              href={`mailto:${siteConfig.email}`}
+              className="link-underline font-bold transition hover:text-wine"
+            >
+              {siteConfig.email}
+            </a>
+            {" · "}
+            <a
+              href={siteConfig.companyUrl}
+              target="_blank"
+              rel="noopener"
+              className="link-underline font-bold transition hover:text-wine"
+            >
+              Företagsinformation
+            </a>
+          </p>
         </div>
       </div>
     </footer>

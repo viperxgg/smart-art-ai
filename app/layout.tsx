@@ -14,6 +14,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { GA_CONSENT_STORAGE_KEY } from "@/lib/consent";
 import { defaultOgImage } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
+import { organizationSchema, websiteSchema } from "@/lib/site-schema";
 import "./globals.css";
 
 /**
@@ -83,15 +84,6 @@ export const viewport: Viewport = {
   ],
 };
 
-const websiteSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: siteConfig.name,
-  url: siteConfig.url,
-  description: siteConfig.description,
-  inLanguage: "sv-SE",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -151,7 +143,12 @@ export default function RootLayout({
           </a>
           <ElinProvider>
             <Header />
-            <JsonLd data={websiteSchema} />
+            {/*
+              WebSite + Organization (with FRAMFORM as parentOrganization and
+              the responsible editor as Person) on every page — see
+              lib/site-schema.ts. Content pages add their own WebPage node.
+            */}
+            <JsonLd data={[websiteSchema, organizationSchema]} />
             {children}
             <SiteFooter />
             <BottomNav />

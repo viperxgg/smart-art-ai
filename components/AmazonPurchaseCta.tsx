@@ -1,3 +1,4 @@
+import { AffiliateCaption } from "@/components/AffiliateCaption";
 import type { Product } from "@/lib/products";
 
 type AmazonPurchaseCtaProps = {
@@ -15,14 +16,17 @@ export function AmazonPurchaseCta({
   className = "",
 }: AmazonPurchaseCtaProps) {
   return (
-    <a
-      href={product.amazonUrl}
-      target="_blank"
-      rel="sponsored nofollow noopener"
-      className={`inline-flex min-h-12 items-center justify-center rounded-full bg-wine px-6 py-3 text-center font-bold text-white transition hover:opacity-90 ${className}`}
-    >
-      Köp {product.brand} på Amazon
-    </a>
+    <span className={`inline-flex flex-col items-stretch text-center ${className}`}>
+      <a
+        href={product.amazonUrl}
+        target="_blank"
+        rel="sponsored nofollow noopener"
+        className="inline-flex min-h-12 items-center justify-center rounded-full bg-wine px-6 py-3 text-center font-bold text-white transition hover:opacity-90"
+      >
+        Köp {product.brand} på Amazon
+      </a>
+      <AffiliateCaption className="mt-2" />
+    </span>
   );
 }
 

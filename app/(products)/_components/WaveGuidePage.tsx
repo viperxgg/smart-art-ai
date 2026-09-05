@@ -4,12 +4,14 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, CheckCircle2, Sparkles } from "lucide-react";
 
-import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { AmazonPurchaseLinks } from "@/components/AmazonPurchaseCta";
+import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { EditorialMeta } from "@/components/EditorialMeta";
 import { JsonLd } from "@/components/JsonLd";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
 import { RelatedLinks } from "@/components/RelatedLinks";
+import { WebPageJsonLd } from "@/components/WebPageJsonLd";
 import { createSeoMetadata } from "@/lib/metadata";
 import { buildProductListSchema } from "@/lib/product-schema";
 import {
@@ -117,6 +119,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
       <JsonLd data={faqSchema} />
       {productListSchema ? <JsonLd data={productListSchema} /> : null}
       <JsonLd data={buildBreadcrumbSchema(breadcrumbItems)} />
+      <WebPageJsonLd path={guide.href} name={guide.title} />
 
       <div className="mx-auto w-full max-w-5xl">
         <div className="mb-5">
@@ -143,6 +146,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
           <h1 className="editorial-color-kiss mt-6 max-w-4xl font-display text-5xl leading-[1.04] tracking-normal sm:text-7xl">
             {guide.title}
           </h1>
+          <EditorialMeta path={guide.href} className="mt-5" />
           <ProductBadges badges={guide.badges} className="mt-6" />
           <p className="mt-6 max-w-3xl text-xl leading-9 text-ink-soft">
             {guide.intro}

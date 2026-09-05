@@ -1,3 +1,4 @@
+import { getPageLastModified } from "@/lib/page-dates";
 import type { Product } from "@/lib/products";
 import { buildElinReviewNode } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
@@ -56,6 +57,12 @@ export function buildProductNode({
   }
 
   const canonical = absoluteUrl(url);
+  // Elin's review carries no date of its own; the page's sitemap date is the
+  // last time the review page was touched, which is the honest datePublished
+  // we can state (and the same date the page shows as "Uppdaterad").
+  const lastModified = getPageLastModified(url);
+  const datedReview =
+    review && lastModified ? { ...review, datePublished: lastModified } : review;
 
   return {
     "@type": "Product",
@@ -70,7 +77,7 @@ export function buildProductNode({
     image: absoluteUrl(product.image),
     description: description ?? product.summary,
     category: category ?? categoryLabels[product.category],
-    ...(review ? { review } : {}),
+    ...(datedReview ? { review: datedReview } : {}),
     ...(aggregateRating
       ? {
           aggregateRating: {

@@ -1,5 +1,6 @@
 import { ArrowUpRight, ShieldCheck } from "lucide-react";
 
+import { AffiliateCaption } from "@/components/AffiliateCaption";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
 import type { Product } from "@/lib/products";
 
@@ -27,6 +28,7 @@ export function AmazonCta({ href, product, className = "", panel = false }: Amaz
     return (
       <div className={className}>
         {button}
+        <AffiliateCaption className="mt-2 text-center" />
         <div className="mt-3">
           <PriceTierBadge product={product} />
         </div>
@@ -52,7 +54,10 @@ export function AmazonCta({ href, product, className = "", panel = false }: Amaz
           <p className="mt-4 max-w-3xl text-lg leading-8 text-ink-soft">
             Kontrollera alltid aktuell information på Amazon innan köp.
           </p>
-          <div className="mt-7">{button}</div>
+          <div className="mt-7">
+            {button}
+            <AffiliateCaption className="mt-2 text-center" />
+          </div>
           <div className="mt-4">
             <PriceTierBadge product={product} />
           </div>

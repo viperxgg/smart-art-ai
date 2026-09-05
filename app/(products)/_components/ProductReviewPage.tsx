@@ -10,6 +10,7 @@ import {
 
 import { AmazonCta } from "@/components/AmazonCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { EditorialMeta } from "@/components/EditorialMeta";
 import { ElinProductButton } from "@/components/elin/ElinProductButton";
 import { ElinsScoreCard } from "@/components/ElinsScoreCard";
 import { JsonLd } from "@/components/JsonLd";
@@ -20,6 +21,7 @@ import { ProductImageGallery } from "@/components/ProductImageGallery";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { SaveProductButton } from "@/components/SaveProductButton";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
+import { WebPageJsonLd } from "@/components/WebPageJsonLd";
 import { formatRatingSummary } from "@/lib/ratings";
 import {
   getApprovedReviews,
@@ -112,6 +114,7 @@ export async function ProductReviewPage({
       />
       <JsonLd data={buildFaqSchema(pick)} />
       <JsonLd data={buildBreadcrumbSchema(breadcrumbItems)} />
+      <WebPageJsonLd path={pick.href} name={pick.headline} />
 
       <div className="mx-auto w-full max-w-5xl">
         <div className="mb-5">
@@ -154,6 +157,7 @@ export async function ProductReviewPage({
             <h1 className="editorial-color-kiss mt-4 font-display text-4xl leading-[1.05] tracking-normal sm:text-6xl">
               {pick.headline}
             </h1>
+            <EditorialMeta path={pick.href} className="mt-4" />
             <p className="mt-5 text-lg leading-8 text-ink-soft">
               {pick.shortBody}
             </p>

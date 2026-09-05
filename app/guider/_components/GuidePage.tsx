@@ -7,8 +7,10 @@ import {
   type BreadcrumbItem,
 } from "@/components/Breadcrumbs";
 import { AmazonPurchaseLinks } from "@/components/AmazonPurchaseCta";
+import { EditorialMeta } from "@/components/EditorialMeta";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
+import { WebPageJsonLd } from "@/components/WebPageJsonLd";
 import { getProductByPageHref, type Product } from "@/lib/products";
 
 export type GuideSection = {
@@ -94,6 +96,8 @@ export function GuidePage({
     breadcrumbItems,
     faqItems,
   });
+  // The last breadcrumb is the page itself, so it carries the canonical path.
+  const pagePath = breadcrumbItems.at(-1)?.href ?? "/";
   const affiliateProducts = cta.links
     .map((link) => getProductByPageHref(link.href))
     .filter((product): product is Product => Boolean(product));
@@ -109,6 +113,7 @@ export function GuidePage({
     >
       <JsonLd data={faqSchema} />
       <JsonLd data={breadcrumbSchema} />
+      <WebPageJsonLd path={pagePath} name={h1} />
 
       <article
         className="mx-auto w-full min-w-0"
@@ -132,6 +137,7 @@ export function GuidePage({
           <h1 className="editorial-color-kiss mt-4 max-w-full break-words font-display text-4xl leading-[1.05] tracking-[-0.03em] whitespace-normal [overflow-wrap:anywhere] [text-wrap:wrap] sm:text-5xl">
             {h1}
           </h1>
+          <EditorialMeta path={pagePath} className="mt-4" />
           <p className="mt-5 break-words text-lg leading-8 text-ink-soft [overflow-wrap:anywhere]">
             {intro}
           </p>
