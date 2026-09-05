@@ -138,7 +138,7 @@ export const sitemapEntries: SitemapEntry[] = [
   { path: "/jamforelser", lastModified: "2026-07-12", changeFrequency: "weekly", priority: 0.72 },
   { path: "/kategorier", lastModified: "2026-07-12", changeFrequency: "weekly", priority: 0.55 },
   { path: "/kontakt", lastModified: "2026-07-12", changeFrequency: "monthly", priority: 0.4 },
-  { path: "/om-oss", lastModified: "2026-07-12", changeFrequency: "monthly", priority: 0.4 },
+  { path: "/om-oss", lastModified: "2026-09-05", changeFrequency: "monthly", priority: 0.4 },
   { path: "/samarbeta", lastModified: "2026-07-12", changeFrequency: "monthly", priority: 0.4 },
   { path: "/skonhet", lastModified: "2026-09-02", changeFrequency: "weekly", priority: 0.7 },
   { path: "/skonhet/aftersun", lastModified: "2026-09-02", changeFrequency: "weekly", priority: 0.82 },
