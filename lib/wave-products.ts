@@ -5144,6 +5144,118 @@ export const wellaFusionHarinpackningProduct: Product = {
   comments: [],
 };
 
+export const garnierFructisHairFoodHarinpackningProduct: Product = {
+  slug: "garnier-fructis-hair-food-harinpackning",
+  title: "Garnier Fructis Hair Food Pineapple hårinpackning (400 ml)",
+  category: "skonhet",
+  asin: "B0CBB9W4H6",
+  brand: "Garnier",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "budget",
+  badges: [
+    "Bästa budget",
+    "3 användningssätt",
+    "3 min",
+  ],
+  image: "/products/garnier-fructis-hair-food-harinpackning/garnier-fructis-hair-food-harinpackning-thumbnail.webp",
+  imageAlt: "Garnier Fructis Hair Food Pineapple hårinpackning, 400 ml",
+  images: [
+    {
+      src: "/products/garnier-fructis-hair-food-harinpackning/garnier-fructis-hair-food-harinpackning-thumbnail.webp",
+      alt: "Garnier Fructis Hair Food Pineapple hårinpackning, 400 ml",
+      label: "Produkt",
+    },
+    {
+      src: "/products/garnier-fructis-hair-food-harinpackning/garnier-fructis-hair-food-harinpackning-1.webp",
+      alt: "Baksidan av burken med Garniers innehållsförteckning, de tre användningssätten och 400 ml-märkningen",
+      label: "Baksida",
+    },
+    {
+      src: "/products/garnier-fructis-hair-food-harinpackning/garnier-fructis-hair-food-harinpackning-2.webp",
+      alt: "Före och efter enligt Garnier: tillverkarens illustration av väntat resultat på långt, torrt hår",
+      label: "Före/efter",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0CBB9W4H6?tag=azzamkhalaf-21",
+  pageHref: "/skonhet/garnier-fructis-hair-food-harinpackning",
+  summary: "Budgetinpackningen med högst betyg i Elins jämförelse – 400 ml som kan användas som balsam, inpackning eller leave-in, med tre minuters verkningstid enligt Garnier.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Garnier Fructis Hair Food Pineapple utifrån köparnas omdömen, tillverkarens uppgifter och den praktiska kompromissen.",
+    verdict: "Bästa budgetköpet för långt, glanslöst hår – mycket produkt och högt betyg, men en lättare inpackning än salongsmärkena.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "4,7 av 5 från 212 omdömen – högst betyg i Elins jämförelse – 400 ml i burken och nummer 9 bland hårinpackningar på Amazon.se.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Betyget delas med de andra Hair Food-dofterna, och ett svenskt omdöme tycker att den fungerar bättre som balsam än som inpackning. Den innehåller varken protein eller bond-teknologi.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Specifikationer",
+  specSectionTitle: "Garnier Fructis Hair Food Pineapple hårinpackning (400 ml) i korthet",
+  specs: [
+    {
+      label: "Mängd",
+      caption: "Förpackning",
+      value: "400 ml",
+    },
+    {
+      label: "Hårtyp",
+      caption: "Enligt tillverkaren",
+      value: "Långt, glanslöst hår",
+    },
+    {
+      label: "Verkningstid",
+      caption: "Enligt tillverkaren",
+      value: "3 min som inpackning",
+    },
+    {
+      label: "Nyckelingredienser",
+      caption: "Innehåll",
+      value: "Ananasextrakt, sheasmör, omega 6 och 9, vitamin C, E och F",
+    },
+    {
+      label: "Användning",
+      caption: "Rutin",
+      value: "Balsam, inpackning eller leave-in – tre sätt enligt Garnier",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0CBB9W4H6?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,7 av 5 från 212 omdömen.",
+    ratingCheckedAt: "september 2026",
+    highlights: [
+      "Svenskt omdöme: ”A great conditioner and hair mask”",
+      "Tyskland: närande utan att tynga, och en fruktig doft",
+      "Nummer 9 bland hårinpackningar på Amazon.se",
+    ],
+    cautions: [
+      "Svenskt omdöme: ”Luktar jättegott! Inte lika bra som inpackning. Håret fortfarande trassligt.”",
+      "Betyget räknas ihop för alla Hair Food-dofter, inte bara ananas",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Långt, glanslöst hår",
+    "Balsam, inpackning eller leave-in i samma burk",
+    "Veckans inpackning när budgeten styr",
+  ],
+  peopleLike: [
+    "Doften",
+    "Mycket produkt i burken",
+    "Att den går att använda på tre sätt",
+  ],
+  honestCheck: [
+    "Lättare än salongsinpackningarna – varken protein eller bond-teknologi",
+    "Betyget delas med de andra Hair Food-dofterna på samma listning",
+  ],
+  comments: [],
+};
+
 export const waveProducts: Product[] = [
   sportconicLopbandProduct,
   citysportsGabandProduct,
@@ -5197,6 +5309,7 @@ export const waveProducts: Product[] = [
   moroccanoilHarinpackningProduct,
   redkenAllSoftHarinpackningProduct,
   wellaFusionHarinpackningProduct,
+  garnierFructisHairFoodHarinpackningProduct,
 ];
 
 export const waveEditorialScores: Record<string, EditorialScore> = {
@@ -5618,5 +5731,17 @@ export const waveEditorialScores: Record<string, EditorialScore> = {
     proven: 12,
     total: 85,
     verdict: "Storpacket för långt och skadat hår – aminosyror och lipider till bäst mängd per förpackning",
+  },
+  // D3 override (Azzam 2026-09-06): the one exception below the charter price
+  // floor, scored on the same rubric — value is the highest in the set (400 ml
+  // at budget tier) and proven follows the review volume (212 omdömen -> 11,
+  // below Wella's 344).
+  "garnier-fructis-hair-food-harinpackning": {
+    value: 28,
+    performance: 22,
+    promise: 19,
+    proven: 11,
+    total: 80,
+    verdict: "Bästa budgetköpet för långt, glanslöst hår – mest produkt för pengarna, men en lättare inpackning än salongsmärkena",
   },
 };

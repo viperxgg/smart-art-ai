@@ -50,6 +50,7 @@ export const categoryProductGroups = {
         "moroccanoil-harinpackning",
         "redken-all-soft-harinpackning",
         "wella-fusion-harinpackning",
+        "garnier-fructis-hair-food-harinpackning",
         "moroccanoil-torrschampo",
         "loreal-elvital-varmeskydd",
       ],
