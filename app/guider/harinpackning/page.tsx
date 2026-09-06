@@ -1,6 +1,8 @@
 // 2026-09-06: new "bäst i test 2026" category page (Fas 1, A2). Reads
 // lib/products.ts and lib/wave-products.ts (SHARED_LIB_MODULES), so this dated
 // comment is what moves the route's sitemap date.
+// 2026-09-06 (D3 override, Azzam): Garnier Fructis Hair Food added as the sixth
+// ranked pick — six picks + one contrast, table and köpguide updated.
 import { BastITestPage } from "@/components/BastITestPage";
 import { harinpackning } from "@/lib/bast-i-test/harinpackning";
 import { createSeoMetadata } from "@/lib/metadata";

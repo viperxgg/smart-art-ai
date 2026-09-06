@@ -28,6 +28,10 @@ function requireProduct(slug: string) {
 const moroccanoilHarinpackningProduct = requireProduct("moroccanoil-harinpackning");
 const redkenAllSoftProduct = requireProduct("redken-all-soft-harinpackning");
 const wellaFusionProduct = requireProduct("wella-fusion-harinpackning");
+// D3 override (Azzam 2026-09-06): the budget exception, ranked like the rest.
+const garnierHairFoodProduct = requireProduct(
+  "garnier-fructis-hair-food-harinpackning",
+);
 
 /**
  * Elins poäng cell for the comparison table. Read from lib/scores.ts like the
@@ -50,10 +54,10 @@ export const harinpackning: BastITestPage = {
   title: "Hårinpackning – bäst i test 2026",
   metaTitle: "Hårinpackning – bäst i test 2026 | Elins val",
   metaDescription:
-    "Elin jämför fem hårinpackningar för torrt, skadat och blekt hår – verkningstid, hårtyp, innehåll och köparnas omdömen. Se vilken som passar ditt hår. (Annons)",
+    "Elin jämför sex hårinpackningar för torrt, skadat och blekt hår – verkningstid, hårtyp, innehåll och köparnas omdömen. Se vilken som passar ditt hår. (Annons)",
   h1: "Hårinpackning – bäst i test 2026",
   intro:
-    "En hårinpackning ska ge håret det balsamet inte hinner med: fukt, styrka eller båda – på fem till femton minuter, en gång i veckan. Här jämför Elin fem inpackningar med resultatet enligt köparna som tyngsta kriterium: två återfuktande, två reparerande med proteiner och aminosyror, och en bond-behandling för blekt hår. Alla fem rankas. Som kontrast finns Moroccanoil Treatment med – en hårolja som många köper i tron att den är en inpackning, och som gör ett annat jobb. Elins poäng bygger på köparnas omdömen och tillverkarnas uppgifter, inte på egna tester. Längre ner finns jämförelsetabellen, en köpguide om protein kontra fukt och svar på de frågor svenskar faktiskt söker på.",
+    "En hårinpackning ska ge håret det balsamet inte hinner med: fukt, styrka eller båda – på tre till femton minuter, en gång i veckan. Här jämför Elin sex inpackningar med resultatet enligt köparna som tyngsta kriterium: tre återfuktande, två reparerande med proteiner och aminosyror, och en bond-behandling för blekt hår. Alla sex rankas, och en av dem ligger under Elins vanliga prisspann – den är med som ett tydligt märkt budgetundantag. Som kontrast finns Moroccanoil Treatment med – en hårolja som många köper i tron att den är en inpackning, och som gör ett annat jobb. Elins poäng bygger på köparnas omdömen och tillverkarnas uppgifter, inte på egna tester. Längre ner finns jämförelsetabellen, en köpguide om protein kontra fukt och svar på de frågor svenskar faktiskt söker på.",
   picks: [
     {
       product: moroccanoilHarinpackningProduct,
@@ -153,6 +157,33 @@ export const harinpackning: BastITestPage = {
       ],
     },
     {
+      product: garnierHairFoodProduct,
+      slug: "garnier-fructis-hair-food-harinpackning",
+      badge: "Bästa budget",
+      verdict:
+        "Jämförelsens högsta betyg och mest produkt i burken – budgetundantaget som räcker när håret är torrt och glanslöst men helt.",
+      pros: [
+        "4,7 av 5 från 212 omdömen – högsta betyget i jämförelsen – och nummer 9 bland hårinpackningar på Amazon.se.",
+        "400 ml i burken, och Garnier anger tre användningssätt: balsam, inpackning i tre minuter eller leave-in i längder och toppar.",
+        "Ananasextrakt, sheasmör, omega 6 och 9 samt vitamin C, E och F; 97 procent ingredienser av naturligt ursprung och vegansk formel enligt Garnier.",
+        "Tre minuters verkningstid – kortast i jämförelsen tillsammans med Olaplex.",
+      ],
+      cons: [
+        "Varken proteiner eller bond-teknologi – hår som gått av behöver L'Oréal, Wella eller Olaplex.",
+        "Ett svenskt omdöme: ”Luktar jättegott! Inte lika bra som inpackning. Håret fortfarande trassligt.”",
+        "Betyget räknas ihop för alla Hair Food-dofter på listningen, inte bara ananas.",
+      ],
+      whoFor:
+        "Garnier Fructis Hair Food passar dig med långt, glanslöst hår som mest saknar mjukhet och glans, och dig som vill prova en inpackning utan att gå upp i salongsklass. Är håret blekt, avbrutet eller kemiskt behandlat gör någon av de fyra ovanför mer nytta – den här ger fukt, inte reparation.",
+      caution:
+        "Garnier Fructis Hair Food ligger under Elins prisspann för den här jämförelsen och är med som ett märkt budgetundantag, inte för att den mäter sig med salongsinpackningarna på reparation.",
+      productHref: "/skonhet/garnier-fructis-hair-food-harinpackning",
+      comparisonHrefs: [
+        "/skonhet/harinpackning-eller-harolja",
+        "/skonhet/olaplex-eller-harinpackning",
+      ],
+    },
+    {
       product: olaplexNo3Product,
       slug: "olaplex-no3-treatment",
       badge: "Bäst för blekt hår",
@@ -207,7 +238,7 @@ export const harinpackning: BastITestPage = {
   criteriaDisclaimer:
     "Elins val har inte provat någon av inpackningarna själv.",
   skip: {
-    text: "I den lägsta prisklassen finns inpackningar med lika höga betyg – Garnier Fructis Hair Food har 4,7 av 5 från 215 omdömen. De ligger utanför Elins prisspann för den här jämförelsen och saknar egna sidor här, så de rankas inte. Vill du veta vad du faktiskt betalar för hos ett salongsmärke finns hela resonemanget i guiden.",
+    text: "Elins prisspann för den här jämförelsen börjar ovanför budgethyllan, och Garnier Fructis Hair Food är det enda undantaget – med i listan, men tydligt märkt som budgetval. Övriga inpackningar under prisspannet rankas inte här, och inte heller de som har för få omdömen för att betyget ska säga något: Maria Nila True Soft ligger på 4,7 av 5 men bara 61 omdömen. Vill du veta vad du faktiskt betalar för hos ett salongsmärke finns hela resonemanget i guiden.",
     href: "/guider/harinpackning-salongsmarke-vart-det",
   },
   table: {
@@ -217,6 +248,10 @@ export const harinpackning: BastITestPage = {
       { name: "L'Oréal Absolut Repair", href: "/skonhet/harinpackning" },
       { name: "Redken All Soft", href: "/skonhet/redken-all-soft-harinpackning" },
       { name: "Wella Fusion", href: "/skonhet/wella-fusion-harinpackning" },
+      {
+        name: "Garnier Fructis Hair Food",
+        href: "/skonhet/garnier-fructis-hair-food-harinpackning",
+      },
       { name: "Olaplex N°.3 PLUS", href: "/skonhet/olaplex-no3" },
     ],
     rows: [
@@ -227,6 +262,7 @@ export const harinpackning: BastITestPage = {
           "Reparation (protein)",
           "Fukt, mot frizz",
           "Reparation (aminosyror)",
+          "Fukt (budget)",
           "Bond-behandling",
         ],
       },
@@ -237,16 +273,17 @@ export const harinpackning: BastITestPage = {
           "Tjockt–mellantjockt, skadat",
           "Torrt, ostyrigt",
           "Torrt, skadat",
+          "Långt, glanslöst",
           "Alla, särskilt blekt",
         ],
       },
       {
         label: "Verkningstid",
-        cells: ["5–7 min", "3–5 min", "5–15 min", "5 min", "3 min"],
+        cells: ["5–7 min", "3–5 min", "5–15 min", "5 min", "3 min", "3 min"],
       },
       {
         label: "Mängd",
-        cells: ["250 ml", "250 ml", "250 ml", "500 ml", "100 ml"],
+        cells: ["250 ml", "250 ml", "250 ml", "500 ml", "400 ml", "100 ml"],
       },
       {
         label: "Nyckelingrediens",
@@ -255,12 +292,20 @@ export const harinpackning: BastITestPage = {
           "Quinoa, veteproteiner",
           "Arganolja",
           "Silkeaminosyror, lipider",
+          "Ananasextrakt, sheasmör",
           "Bond-teknologi",
         ],
       },
       {
         label: "Prisklass",
-        cells: ["Premium", "Mellan", "Mellan", "Premium", "Premium"],
+        cells: [
+          "Premium",
+          "Mellan",
+          "Mellan",
+          "Premium",
+          "Budget",
+          "Premium",
+        ],
       },
       {
         label: "Elins poäng",
@@ -269,6 +314,7 @@ export const harinpackning: BastITestPage = {
           scoreCell("loreal-absolut-repair"),
           scoreCell("redken-all-soft-harinpackning"),
           scoreCell("wella-fusion-harinpackning"),
+          scoreCell("garnier-fructis-hair-food-harinpackning"),
           scoreCell("olaplex-no3-treatment"),
         ],
       },
@@ -308,7 +354,7 @@ export const harinpackning: BastITestPage = {
     },
     {
       heading: "Protein eller fukt – läs av håret först",
-      body: "Det enklaste sättet att läsa av håret är ett blött hårstrå: töj det försiktigt. Torrt men elastiskt hår som fjädrar tillbaka vill ha fukt – här passar Moroccanoil Intense Hydrating Mask och Redken All Soft. Hår som töjs utan att fjädra tillbaka, går av lätt eller känns som halm efter blekning och värme saknar struktur och vill ha protein eller aminosyror – L'Oréal Absolut Repair och Wella Fusion. Balansen är poängen: för mycket protein ger strävt, stelt hår; för mycket fukt ger slappa längder utan spänst. Har du båda problemen, vilket blekt hår ofta har, varva – en proteininpackning ena veckan, en fuktinpackning nästa – och läs av håret igen efter en månad.",
+      body: "Det enklaste sättet att läsa av håret är ett blött hårstrå: töj det försiktigt. Torrt men elastiskt hår som fjädrar tillbaka vill ha fukt – här passar Moroccanoil Intense Hydrating Mask, Redken All Soft och budgetvalet Garnier Fructis Hair Food. Hår som töjs utan att fjädra tillbaka, går av lätt eller känns som halm efter blekning och värme saknar struktur och vill ha protein eller aminosyror – L'Oréal Absolut Repair och Wella Fusion. Balansen är poängen: för mycket protein ger strävt, stelt hår; för mycket fukt ger slappa längder utan spänst. Har du båda problemen, vilket blekt hår ofta har, varva – en proteininpackning ena veckan, en fuktinpackning nästa – och läs av håret igen efter en månad.",
     },
     {
       heading: "Blekt och kemiskt behandlat hår – när bond-behandling behövs",
@@ -316,11 +362,11 @@ export const harinpackning: BastITestPage = {
     },
     {
       heading: "Verkningstid – tre minuter räcker oftare än du tror",
-      body: "Tillverkarna i den här jämförelsen anger mellan tre och femton minuter: 3–5 för L'Oréal, 3 för Olaplex, 5 för Wella, 5–7 för Moroccanoil och 5–15 för Redken. Längre tid än så ger sällan mer – håret tar upp det det kan under de första minuterna, och en inpackning som sitter i en halvtimme under en handduk gör framför allt att du tröttnar på rutinen. Applicera i handdukstorkat hår, inte drypande blött, så späds inpackningen inte ut. Lägg mest i längder och toppar där slitaget sitter, undvik hårbotten om inpackningen inte är gjord för den, och kamma igenom med en grovtandad kam så att varje slinga täcks. Skölj sedan tills vattnet är klart.",
+      body: "Tillverkarna i den här jämförelsen anger mellan tre och femton minuter: 3 för Olaplex och Garnier, 3–5 för L'Oréal, 5 för Wella, 5–7 för Moroccanoil och 5–15 för Redken. Längre tid än så ger sällan mer – håret tar upp det det kan under de första minuterna, och en inpackning som sitter i en halvtimme under en handduk gör framför allt att du tröttnar på rutinen. Applicera i handdukstorkat hår, inte drypande blött, så späds inpackningen inte ut. Lägg mest i längder och toppar där slitaget sitter, undvik hårbotten om inpackningen inte är gjord för den, och kamma igenom med en grovtandad kam så att varje slinga täcks. Skölj sedan tills vattnet är klart.",
     },
     {
       heading: "Hur ofta? En gång i veckan är normalläget",
-      body: "Alla fem tillverkare i jämförelsen säger en till två gånger i veckan, och det är en bra tumregel även om förpackningen lockar till mer. Oftare ger ingen extra effekt: håret kan inte lagra fukt eller protein på förråd, och för många proteininpackningar i rad ger den strävhet som beskrivs ovan. Mycket torrt eller nyblekt hår kan börja med två gånger i veckan under den första månaden och sedan gå ner till en. Fint hår klarar sig oftast på varannan vecka. Ett enkelt sätt att hålla rutinen är att låta inpackningen ersätta balsamet vid veckans första tvätt – då blir den inte ett extra steg utan en del av det du redan gör.",
+      body: "Alla sex tillverkare i jämförelsen säger en till två gånger i veckan, och det är en bra tumregel även om förpackningen lockar till mer. Oftare ger ingen extra effekt: håret kan inte lagra fukt eller protein på förråd, och för många proteininpackningar i rad ger den strävhet som beskrivs ovan. Mycket torrt eller nyblekt hår kan börja med två gånger i veckan under den första månaden och sedan gå ner till en. Fint hår klarar sig oftast på varannan vecka. Ett enkelt sätt att hålla rutinen är att låta inpackningen ersätta balsamet vid veckans första tvätt – då blir den inte ett extra steg utan en del av det du redan gör.",
     },
     {
       heading: "Fint, tjockt eller lockigt hår – mängd och placering",
@@ -328,19 +374,19 @@ export const harinpackning: BastITestPage = {
     },
     {
       heading: "Salongsmärke eller budget – vad du betalar för",
-      body: "Betygen på Amazon skiljer sig förvånansvärt lite mellan budget och salong – bra budgetinpackningar ligger på samma 4,6–4,7 som salongsmärkena i den här listan. Skillnaden ligger i koncentration, doft och hur mycket produkt som behövs per gång: en salongsinpackning är ofta rikare, så en mindre klick räcker, och doften är en stor del av upplevelsen för många köpare. I den lägsta prisklassen finns inpackningar med samma betyg, som Garnier Fructis Hair Food – de ligger utanför Elins prisspann för den här jämförelsen och rankas därför inte. Vill du ha ett tydligt resultat på kort tid utan att gå upp i premiumklass är L'Oréal Absolut Repair den mest prisvärda vägen in bland salongsmärkena. Hela resonemanget finns i guiden om salongsmärken.",
+      body: "Betygen på Amazon skiljer sig förvånansvärt lite mellan budget och salong – budgetvalet Garnier Fructis Hair Food har till och med jämförelsens högsta betyg, 4,7 av 5. Skillnaden ligger i koncentration, doft och vad formeln faktiskt gör: en salongsinpackning är ofta rikare, så en mindre klick räcker, och innehåller oftare proteiner eller aminosyror som riktar sig mot själva strukturen. Därför ligger Garnier femma i listan och inte etta – högt betyg för fukt och glans, men ingen reparation. Elins prisspann för jämförelsen börjar ovanför budgethyllan, och Garnier är med som det enda märkta undantaget. Vill du ha ett tydligt resultat på kort tid utan att gå upp i premiumklass är L'Oréal Absolut Repair den mest prisvärda vägen in bland salongsmärkena. Hela resonemanget finns i guiden om salongsmärken.",
     },
   ],
   faq: [
     {
       question: "Vilken hårinpackning är bäst i test 2026?",
       answer:
-        "Moroccanoil Intense Hydrating Mask toppar Elins jämförelse (87 poäng) tack vare flest och bäst omdömen och en kort verkningstid; för skadat hår är L'Oréal Absolut Repair och för blekt hår Olaplex N°.3 PLUS mer träffsäkra. Poängen bygger på köparnas omdömen, inte egna tester.",
+        "Moroccanoil Intense Hydrating Mask toppar Elins jämförelse (87 poäng) tack vare flest och bäst omdömen och en kort verkningstid; för skadat hår är L'Oréal Absolut Repair och för blekt hår Olaplex N°.3 PLUS mer träffsäkra. Vill du lägga så lite som möjligt är Garnier Fructis Hair Food det märkta budgetvalet. Poängen bygger på köparnas omdömen, inte egna tester.",
     },
     {
       question: "Vilken inpackning är bäst för torrt hår?",
       answer:
-        "En fuktinpackning: Moroccanoil för medel till tjockt hår, Redken All Soft för frissigt eller långt hår. Protein hjälper inte torrt men friskt hår.",
+        "En fuktinpackning: Moroccanoil för medel till tjockt hår, Redken All Soft för frissigt eller långt hår och Garnier Fructis Hair Food om budgeten styr. Protein hjälper inte torrt men friskt hår.",
     },
     {
       question: "Vilken hårinpackning är bäst för blekt hår?",
@@ -355,12 +401,12 @@ export const harinpackning: BastITestPage = {
     {
       question: "Hur ofta ska man använda hårinpackning?",
       answer:
-        "En gång i veckan, upp till två vid mycket torrt eller skadat hår – det är vad alla fem tillverkare anger.",
+        "En gång i veckan, upp till två vid mycket torrt eller skadat hår – det är vad alla sex tillverkare anger.",
     },
     {
       question: "Hur länge ska inpackningen sitta i?",
       answer:
-        "Följ förpackningen: 3–5 minuter (L'Oréal, Olaplex), 5–7 (Moroccanoil), 5 (Wella), 5–15 (Redken). Längre tid ger sällan mer.",
+        "Följ förpackningen: 3 minuter (Olaplex, Garnier), 3–5 (L'Oréal), 5 (Wella), 5–7 (Moroccanoil), 5–15 (Redken). Längre tid ger sällan mer.",
     },
     {
       question: "Är Olaplex No.3 en hårinpackning?",
@@ -380,7 +426,7 @@ export const harinpackning: BastITestPage = {
     {
       question: "Är salongsmärken värda pengarna?",
       answer:
-        "Betygen på Amazon skiljer lite mellan budget och salong; skillnaden är koncentration, doft och mängd per gång. Vill du ha ett tydligt resultat på kort tid är L'Oréal Absolut Repair den mest prisvärda vägen in i salongsklassen.",
+        "Betygen på Amazon skiljer lite mellan budget och salong – budgetvalet Garnier Fructis Hair Food har jämförelsens högsta betyg, 4,7 av 5. Skillnaden är koncentration, doft och om formeln innehåller protein eller bond-teknologi. Vill du ha ett tydligt resultat på kort tid är L'Oréal Absolut Repair den mest prisvärda vägen in i salongsklassen.",
     },
   ],
   related: [
