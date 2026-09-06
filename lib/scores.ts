@@ -1323,7 +1323,7 @@ export const editorialScores: Record<string, EditorialScore> = {
     promise: 21,
     proven: 12,
     total: 79,
-    verdict: "Bra skönhetsval när du vill ha Olaplex No.3 Hair Perfector – inpackning för skadat hår utan onödigt krångel.",
+    verdict: "Bra skönhetsval när du vill ha Olaplex N°.3 PLUS Complete Repair Treatment – inpackning för skadat hår utan onödigt krångel.",
   },
   "olaplex-no5-conditioner": {
     value: 21,

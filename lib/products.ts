@@ -2161,7 +2161,8 @@ export const moroccanoilHaroljaProduct: Product = {
     sourceLabel: "Amazon-köpare",
     sourceUrl: "https://amzn.to/3ScSTbq",
     ratingSummary:
-      "Amazon visar 4,7 av 5 från 88 528 omdömen och #1 hair care oil i USA.",
+      "Amazon visar 4,7 av 5 från 89 679 omdömen och #1 hair care oil i USA.",
+    ratingCheckedAt: "september 2026",
     highlights: [
       "Köpare lyfter doften, glansen och den silkeslena känslan.",
       "Många beskriver den som en favorit för torrt eller frissigt hår.",
@@ -2237,7 +2238,8 @@ export const lorealAbsolutRepairProduct: Product = {
     sourceLabel: "Amazon-köpare",
     sourceUrl: "https://amzn.to/3ShJgrW",
     ratingSummary:
-      "Amazon visar 4,6 av 5 från 2 949 omdömen och topp-5 bland Hair Deep Conditioners.",
+      "Amazon visar 4,6 av 5 från 3 096 omdömen och topp-1 300 i Skönhet på Amazon.se.",
+    ratingCheckedAt: "september 2026",
     highlights: [
       "Köpare lyfter att håret blir mjukt, silkeslent och lättare att reda ut.",
       "Flera med blekt eller ljust hår rekommenderar den.",
@@ -6073,7 +6075,7 @@ export const olaplexNo5ConditionerProduct: Product = {
 
 export const olaplexNo3Product: Product = {
   slug: "olaplex-no3-treatment",
-  title: "Olaplex No.3 Hair Perfector – inpackning för skadat hår",
+  title: "Olaplex N°.3 PLUS Complete Repair Treatment – inpackning för skadat hår",
   category: "skonhet",
   asin: "B0GHSXYY3Z",
   brand: "Olaplex",
@@ -6151,7 +6153,8 @@ export const olaplexNo3Product: Product = {
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
     sourceUrl: "https://amzn.to/4vtr5Ox",
-    ratingSummary: "Amazon visar 4,5 av 5 från 551 omdömen.",
+    ratingSummary: "Amazon visar 4,5 av 5 från 1 529 omdömen.",
+    ratingCheckedAt: "september 2026",
     highlights: [
       "Köpare tycker att håret känns starkare och mjukare efter användning.",
       "Uppskattas av många med blekt eller färgat hår som extra omvårdnad.",
@@ -6160,6 +6163,7 @@ export const olaplexNo3Product: Product = {
     cautions: [
       "Det är en inpackning före schampo – inte en balsam eller leave-in.",
       "Resultatet varierar med hårtyp och hur slitet håret är från början.",
+      "Ett par svenska 1-stjärniga omdömen handlar om leverans, inte om produkten.",
     ],
   },
   ugcVideos: [],

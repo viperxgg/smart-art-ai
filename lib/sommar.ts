@@ -3041,10 +3041,10 @@ export const sommarPicks: SommarPick[] = [
     cardImage: "/products/olaplex-no3/olaplex3-thumbnail.webp",
     cardImageAlt: "Olaplex No.3 Hair Perfector inpackning för skadat hår",
     badge: "Elins favorit för skadat hår",
-    headline: "Olaplex No.3 – inpackning för skadat hår",
+    headline: "Olaplex N°.3 PLUS – inpackning för skadat hår",
     shortBody: "En återuppbyggande inpackning som används före schampo för att stärka slitet, skadat hår. En klassisk favorit för dig med blekt, färgat eller värmestylat hår.",
     valueHook: "Inpackning som stärker skadat hår",
-    valueStatement: "Olaplex No.3 Hair Perfector är en återuppbyggande inpackning för dig som vill ge slitet och skadat hår extra omvårdnad. Den används på fuktigt hår före schampo och har blivit en klassisk favorit hos många med blekt, färgat eller värmestylat hår. Amazon visar 4,5 av 5 från 551 omdömen, och köpare lyfter framför allt att håret känns starkare och mjukare med tiden.",
+    valueStatement: "Olaplex N°.3 PLUS Complete Repair Treatment är en återuppbyggande inpackning för dig som vill ge slitet och skadat hår extra omvårdnad. Den används på fuktigt hår före schampo och har blivit en klassisk favorit hos många med blekt, färgat eller värmestylat hår. Amazon visar 4,5 av 5 från 1 529 omdömen, och köpare lyfter framför allt att håret känns starkare och mjukare med tiden.",
     passFor: [
       "Har blekt, färgat eller värmestylat hår som känns slitet.",
       "Vill lägga till ett återuppbyggande steg före schampo.",
@@ -3056,7 +3056,7 @@ export const sommarPicks: SommarPick[] = [
       text: "Applicera på fuktigt, handduktorkat hår, fördela från längder till toppar och låt verka en stund. Skölj ur och fortsätt sedan med schampo och balsam som vanligt.",
     },
     verdict: "Klassisk återuppbyggande inpackning för slitet och skadat hår.",
-    amazonSummary: "Amazon visar 4,5 av 5 från 551 omdömen. Köpare beskriver att håret känns starkare och mjukare, men det är en inpackning före schampo och resultatet varierar med hårtyp.",
+    amazonSummary: "Amazon visar 4,5 av 5 från 1 529 omdömen. Köpare beskriver att håret känns starkare och mjukare, men det är en inpackning före schampo och resultatet varierar med hårtyp.",
     amazonQuotes: [],
     faqItems: [
       {
@@ -3075,8 +3075,8 @@ export const sommarPicks: SommarPick[] = [
     reviewSectionId: "olaplex-no3-treatment-recensioner",
     reviewFormId: "olaplex-no3-treatment-skriv-recension",
     targetKeyword: "hårinpackning skadat hår",
-    metaTitle: "Olaplex No.3 Hair Perfector – inpackning för skadat hår | Elins val",
-    metaDescription: "Elin går igenom Olaplex No.3 Hair Perfector: en återuppbyggande pre-schampo-inpackning för slitet och skadat hår (4,5 av 5, 551 omdömen) – och hur du använder den rätt.",
+    metaTitle: "Olaplex N°.3 PLUS – inpackning för skadat hår | Elins val",
+    metaDescription: "Elin går igenom Olaplex N°.3 PLUS Complete Repair Treatment: en återuppbyggande pre-schampo-inpackning för slitet och skadat hår (4,5 av 5, 1 529 omdömen) – och hur du använder den rätt.",
     relatedLinks: [
       {
         href: "/skonhet/olaplex-eller-harinpackning",
@@ -5631,7 +5631,7 @@ export const sommarPicks: SommarPick[] = [
     productSlug: moroccanoilHaroljaProduct.slug,
     href: "/skonhet/harolja",
     cardBadge: "Mest beprövad",
-    cardHook: "Ikonisk hårolja för glans & mjukhet - 88 000+ omdömen.",
+    cardHook: "Ikonisk hårolja för glans & mjukhet - 89 000+ omdömen.",
     cardImage: "/products/moroccanoil-harolja/harolja-moroccanoil-thumbnail.webp",
     cardImageAlt: "Moroccanoil Treatment hårolja, 25 ml",
     product: moroccanoilHaroljaProduct,
@@ -5641,7 +5641,7 @@ export const sommarPicks: SommarPick[] = [
       "Den ikoniska arganoljebaserade håroljan som gör håret silkeslent, mjukare och mindre frissigt - perfekt för torrt sommarhår.",
     valueHook: "Den mest beprövade håroljan för glans och mjukhet.",
     valueStatement:
-      "Moroccanoil Treatment är den ikoniska håroljan - 4,7 av 5 från över 88 000 omdömen. Den arganoljebaserade formulan gör håret silkeslent, mjukare och mer glansigt, tämjer frizz och absorberas lätt utan att tynga. Den är inte billig, men lite räcker långt och många kallar den sin absoluta favorit. Perfekt för torrt, soltrött sommarhår.",
+      "Moroccanoil Treatment är den ikoniska håroljan - 4,7 av 5 från över 89 000 omdömen. Den arganoljebaserade formulan gör håret silkeslent, mjukare och mer glansigt, tämjer frizz och absorberas lätt utan att tynga. Den är inte billig, men lite räcker långt och många kallar den sin absoluta favorit. Perfekt för torrt, soltrött sommarhår.",
     passFor: [
       "Vill ha glansigt, mjukt hår utan frizz - särskilt torrt eller soltrött sommarhår.",
       "Föredrar en ikonisk, mycket beprövad produkt.",
@@ -5652,7 +5652,7 @@ export const sommarPicks: SommarPick[] = [
     verdict:
       "Premiumvalet - ikonisk hårolja för dig som vill ha glans, mjukhet och mindre frizz.",
     amazonSummary:
-      "Amazon visar 4,7 av 5 från 88 528 omdömen. Köparna lyfter den härliga doften, glansen och att håret känns silkeslent - flera kallar den sin favorit, även om många noterar att den är dyr.",
+      "Amazon visar 4,7 av 5 från 89 679 omdömen. Köparna lyfter den härliga doften, glansen och att håret känns silkeslent - flera kallar den sin favorit, även om många noterar att den är dyr.",
     amazonQuotes: [
       {
         text: "Bästa håroljan! Härlig doft och känsla i håret. Vårdar utan att göra håret fett - min absoluta favoritprodukt!",
@@ -5707,7 +5707,7 @@ export const sommarPicks: SommarPick[] = [
     productSlug: lorealAbsolutRepairProduct.slug,
     href: "/skonhet/harinpackning",
     cardBadge: "Räddar torrt hår",
-    cardHook: "Återuppbygger torrt & soltrött hår - 2 900+ omdömen.",
+    cardHook: "Återuppbygger torrt & soltrött hår - 3 000+ omdömen.",
     cardImage:
       "/products/loreal-absolut-repair/loreal-absolut-repair-thumbnail.webp",
     cardImageAlt: "L'Oréal Professionnel Absolut Repair hårinpackning, 250 ml",
@@ -5719,7 +5719,7 @@ export const sommarPicks: SommarPick[] = [
       "En proteinrik hårinpackning med Gold Quinoa som återuppbygger torrt, skadat och soltrött hår - för mjukhet, glans och lättare utredning.",
     valueHook: "Räddar torrt, soltrött hår - mjukt och blankt igen.",
     valueStatement:
-      "L'Oréal Professionnel Absolut Repair är en av de mest älskade hårinpackningarna på Amazon - 4,6 av 5 från nästan 3 000 omdömen. Den proteinrika formulan med Gold Quinoa återuppbygger torrt, skadat och kemiskt behandlat hår, gör det silkeslent, blankare och lättare att reda ut. Perfekt för soltrött sommarhår efter sol, bad och klor. Köparna - flera med ljust eller blekt hår - lyfter mjukheten, glansen och den lyxiga doften. Det är ett premiumval, men en liten mängd räcker långt.",
+      "L'Oréal Professionnel Absolut Repair är en av de mest älskade hårinpackningarna på Amazon - 4,6 av 5 från över 3 000 omdömen. Den proteinrika formulan med Gold Quinoa återuppbygger torrt, skadat och kemiskt behandlat hår, gör det silkeslent, blankare och lättare att reda ut. Perfekt för soltrött sommarhår efter sol, bad och klor. Köparna - flera med ljust eller blekt hår - lyfter mjukheten, glansen och den lyxiga doften. Det är ett premiumval, men en liten mängd räcker långt.",
     passFor: [
       "Har torrt, blekt eller soltrött sommarhår som behöver återfuktning.",
       "Vill ha en proteinrik mask som gör håret mjukt och lättare att reda ut.",
@@ -5730,7 +5730,7 @@ export const sommarPicks: SommarPick[] = [
     verdict:
       "Premiumvalet för sommaren - återuppbyggande hårmask för torrt och skadat hår.",
     amazonSummary:
-      "Amazon visar 4,6 av 5 från 2 949 omdömen och produkten ligger topp-5 bland Hair Deep Conditioners. Köparna lyfter att håret blir mjukt, silkeslent och lättare att reda ut - flera med ljust eller blekt hår rekommenderar den, och doften får mycket beröm.",
+      "Amazon visar 4,6 av 5 från 3 096 omdömen och produkten ligger topp-1 300 i Skönhet på Amazon.se. Köparna lyfter att håret blir mjukt, silkeslent och lättare att reda ut - flera med ljust eller blekt hår rekommenderar den, och doften får mycket beröm.",
     amazonQuotes: [
       {
         text: "Håret blir mjukt o slätt.",

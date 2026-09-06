@@ -1,3 +1,7 @@
+// 2026-09-06: Olaplex N°.3 PLUS refresh (title, 1 529 omdömen, delivery-review
+// caution) and the "Läs även" link to /guider/harinpackning. Data lives in
+// lib/products.ts and lib/sommar.ts (SHARED_LIB_MODULES), so this dated comment
+// is what moves the route's sitemap date.
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";
