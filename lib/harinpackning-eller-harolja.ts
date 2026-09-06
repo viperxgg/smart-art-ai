@@ -80,6 +80,11 @@ export const harinpackningEllerHaroljaRelatedLinks: DecisionComparisonRelatedLin
       text: "Läs recensionen av L'Oréal Absolut Repair.",
     },
     {
+      href: "/guider/harinpackning",
+      label: "Bäst i test",
+      text: "Hårinpackning – bäst i test 2026",
+    },
+    {
       href: "/skonhet/harolja",
       label: "Hårolja",
       text: "Läs recensionen av Moroccanoil Treatment.",

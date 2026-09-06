@@ -31,6 +31,12 @@ const guides = [
       "Elin jämför fem fläktar för sovrummet: ljudnivå, nattläge, timer och köparnas omdömen – och vilken du hoppar över.",
   },
   {
+    href: "/guider/harinpackning",
+    title: "Hårinpackning – bäst i test 2026",
+    description:
+      "Elin jämför fem hårinpackningar för torrt, skadat och blekt hår – verkningstid, hårtyp, innehåll och köparnas omdömen. Se vilken som passar ditt hår.",
+  },
+  {
     href: "/guider/flakt-dyr-vs-billig",
     title: "Fläkt: dyr vs billig – värt det?",
     description:

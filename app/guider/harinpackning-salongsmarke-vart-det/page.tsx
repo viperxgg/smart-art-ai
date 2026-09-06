@@ -89,6 +89,11 @@ export default function HarinpackningSalongsmarkeVartDetPage() {
           label: "Jämför",
           text: "Hårolja eller värmeskydd?",
         },
+        {
+          href: "/guider/harinpackning",
+          label: "Bäst i test",
+          text: "Hårinpackning – bäst i test 2026",
+        },
       ]}
     />
   );

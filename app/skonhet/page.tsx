@@ -1,3 +1,6 @@
+// 2026-09-06: "Bäst i test 2026" card for /guider/harinpackning, EditorialMeta
+// under the H1, and three new hair masks under Hårvård via lib/categoryGroups.ts
+// (SHARED_LIB_MODULE) — this dated comment is what moves the sitemap date.
 // Content refresh 2026-09-02: generisk länktext till aftersun-eller-aloe-vera.
 import Link from "next/link";
 import { ArrowUpRight, Home, Sparkles, WandSparkles } from "lucide-react";
@@ -5,6 +8,7 @@ import { ArrowUpRight, Home, Sparkles, WandSparkles } from "lucide-react";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { CategoryComparisonSections } from "@/components/CategoryComparisonSections";
 import { CategoryProductSections } from "@/components/CategoryProductSections";
+import { EditorialMeta } from "@/components/EditorialMeta";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { createSeoMetadata } from "@/lib/metadata";
@@ -59,6 +63,7 @@ export default function SkonhetHubPage() {
             <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
               Skönhet utan överköp.
             </h1>
+            <EditorialMeta path="/skonhet" className="mt-4" />
             <p className="mt-6 max-w-2xl text-xl leading-9 text-ink-soft">
               Här samlar Elin skönhetsprodukter som känns enkla att förstå: vad
               de passar för, när de är värda pengarna och när du hellre ska
@@ -91,6 +96,30 @@ export default function SkonhetHubPage() {
                 </span>
               </div>
             </div>
+          </Link>
+        </section>
+
+        <section className="reveal-fade mt-10">
+          <Link
+            href="/guider/harinpackning"
+            className="group flex flex-wrap items-center justify-between gap-4 rounded-[2rem] border border-line bg-rose/12 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 md:p-8"
+          >
+            <span className="min-w-0">
+              <span className="block text-xs font-black uppercase tracking-[0.16em] text-rose">
+                Bäst i test 2026
+              </span>
+              <span className="editorial-color-kiss mt-3 block font-display text-3xl leading-tight">
+                Hårinpackning
+              </span>
+              <span className="mt-3 block max-w-2xl leading-8 text-ink-soft">
+                Fem inpackningar jämförda på hårtyp, verkningstid, innehåll och
+                köparnas omdömen – och när en hårolja räcker.
+              </span>
+            </span>
+            <span className="inline-flex min-h-12 items-center gap-2 rounded-full bg-wine px-5 font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition group-hover:bg-wine/90">
+              Läs jämförelsen
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </span>
           </Link>
         </section>
 

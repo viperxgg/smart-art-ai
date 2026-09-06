@@ -3084,6 +3084,11 @@ export const sommarPicks: SommarPick[] = [
         text: "Olaplex eller vanlig hårinpackning – värt det?",
       },
       {
+        href: "/guider/harinpackning",
+        label: "Bäst i test",
+        text: "Hårinpackning – bäst i test 2026",
+      },
+      {
         href: "/skonhet/harolja",
         label: "Hårolja",
         text: "Närande olja för torra längder och toppar.",
@@ -5772,6 +5777,11 @@ export const sommarPicks: SommarPick[] = [
     metaDescription:
       "Elin går igenom L'Oréal Absolut Repair (4,6 av 5, 3 000+ omdömen): proteinrik inpackning för torrt och skadat hår – för vem, och när Olaplex är bättre. (Annons)",
     relatedLinks: [
+      {
+        href: "/guider/harinpackning",
+        label: "Bäst i test",
+        text: "Hårinpackning – bäst i test 2026",
+      },
       {
         href: "/skonhet/olaplex-eller-harinpackning",
         label: "Jämförelse",
