@@ -5735,14 +5735,15 @@ export const waveEditorialScores: Record<string, EditorialScore> = {
   },
   // D3 override (Azzam 2026-09-06): the one exception below the charter price
   // floor, scored on the same rubric — value is the highest in the set (400 ml
-  // at budget tier) and proven follows the review volume (212 omdömen -> 11,
-  // below Wella's 344).
+  // at budget tier). Proven is 9, below what 212 omdömen alone would give: the
+  // rating is pooled over the whole Hair Food listing, so it is weaker evidence
+  // about this jar than a product-specific rating of the same size.
   "garnier-fructis-hair-food-harinpackning": {
     value: 28,
     performance: 22,
     promise: 19,
-    proven: 11,
-    total: 80,
+    proven: 9,
+    total: 78,
     verdict: "Bästa budgetköpet för långt, glanslöst hår – mest produkt för pengarna, men en lättare inpackning än salongsmärkena",
   },
 };

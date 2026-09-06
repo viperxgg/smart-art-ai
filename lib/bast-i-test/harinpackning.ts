@@ -157,33 +157,6 @@ export const harinpackning: BastITestPage = {
       ],
     },
     {
-      product: garnierHairFoodProduct,
-      slug: "garnier-fructis-hair-food-harinpackning",
-      badge: "Bästa budget",
-      verdict:
-        "Jämförelsens högsta betyg och mest produkt i burken – budgetundantaget som räcker när håret är torrt och glanslöst men helt.",
-      pros: [
-        "4,7 av 5 från 212 omdömen för Hair Food-serien – högsta betyget i jämförelsen, men delat mellan dofterna – och nummer 9 bland hårinpackningar på Amazon.se.",
-        "400 ml i burken, och Garnier anger tre användningssätt: balsam, inpackning i tre minuter eller leave-in i längder och toppar.",
-        "Ananasextrakt, sheasmör, omega 6 och 9 samt vitamin C, E och F; 97 procent ingredienser av naturligt ursprung och vegansk formel enligt Garnier.",
-        "Tre minuters verkningstid – kortast i jämförelsen tillsammans med Olaplex.",
-      ],
-      cons: [
-        "Varken proteiner eller bond-teknologi – hår som gått av behöver L'Oréal, Wella eller Olaplex.",
-        "Ett svenskt omdöme: ”Luktar jättegott! Inte lika bra som inpackning. Håret fortfarande trassligt.”",
-        "Betyget räknas ihop för alla Hair Food-dofter på listningen, inte bara ananas.",
-      ],
-      whoFor:
-        "Garnier Fructis Hair Food passar dig med långt, glanslöst hår som mest saknar mjukhet och glans, och dig som vill prova en inpackning utan att gå upp i salongsklass. Är håret blekt, avbrutet eller kemiskt behandlat gör någon av de fyra ovanför mer nytta – den här ger fukt, inte reparation.",
-      caution:
-        "Garnier Fructis Hair Food ligger under Elins prisspann för den här jämförelsen och är med som ett märkt budgetundantag, inte för att den mäter sig med salongsinpackningarna på reparation.",
-      productHref: "/skonhet/garnier-fructis-hair-food-harinpackning",
-      comparisonHrefs: [
-        "/skonhet/harinpackning-eller-harolja",
-        "/skonhet/olaplex-eller-harinpackning",
-      ],
-    },
-    {
       product: olaplexNo3Product,
       slug: "olaplex-no3-treatment",
       badge: "Bäst för blekt hår",
@@ -208,6 +181,33 @@ export const harinpackning: BastITestPage = {
       comparisonHrefs: [
         "/skonhet/olaplex-eller-harinpackning",
         "/skonhet/olaplex-schampo-eller-balsam",
+      ],
+    },
+    {
+      product: garnierHairFoodProduct,
+      slug: "garnier-fructis-hair-food-harinpackning",
+      badge: "Bästa budget",
+      verdict:
+        "Mest produkt i burken och jämförelsens högsta betyg, om än delat mellan dofterna – budgetundantaget som räcker när håret är torrt och glanslöst men helt.",
+      pros: [
+        "4,7 av 5 från 212 omdömen för Hair Food-serien – högsta betyget i jämförelsen, men delat mellan dofterna – och nummer 9 bland hårinpackningar på Amazon.se.",
+        "400 ml i burken, och Garnier anger tre användningssätt: balsam, inpackning i tre minuter eller leave-in i längder och toppar.",
+        "Ananasextrakt, sheasmör, omega 6 och 9 samt vitamin C, E och F; 97 procent ingredienser av naturligt ursprung och vegansk formel enligt Garnier.",
+        "Tre minuters verkningstid – kortast i jämförelsen tillsammans med Olaplex.",
+      ],
+      cons: [
+        "Varken proteiner eller bond-teknologi – hår som gått av behöver L'Oréal, Wella eller Olaplex.",
+        "Ett svenskt omdöme: ”Luktar jättegott! Inte lika bra som inpackning. Håret fortfarande trassligt.”",
+        "Betyget räknas ihop för alla Hair Food-dofter på listningen, inte bara ananas.",
+      ],
+      whoFor:
+        "Garnier Fructis Hair Food passar dig med långt, glanslöst hår som mest saknar mjukhet och glans, och dig som vill prova en inpackning utan att gå upp i salongsklass. Är håret blekt, avbrutet eller kemiskt behandlat gör någon av inpackningarna ovanför mer nytta – den här ger fukt, inte reparation.",
+      caution:
+        "Garnier Fructis Hair Food ligger under Elins prisspann för den här jämförelsen och är med som ett märkt budgetundantag, inte för att den mäter sig med salongsinpackningarna på reparation.",
+      productHref: "/skonhet/garnier-fructis-hair-food-harinpackning",
+      comparisonHrefs: [
+        "/skonhet/harinpackning-eller-harolja",
+        "/skonhet/olaplex-eller-harinpackning",
       ],
     },
   ],
@@ -248,11 +248,11 @@ export const harinpackning: BastITestPage = {
       { name: "L'Oréal Absolut Repair", href: "/skonhet/harinpackning" },
       { name: "Redken All Soft", href: "/skonhet/redken-all-soft-harinpackning" },
       { name: "Wella Fusion", href: "/skonhet/wella-fusion-harinpackning" },
+      { name: "Olaplex N°.3 PLUS", href: "/skonhet/olaplex-no3" },
       {
         name: "Garnier Fructis Hair Food",
         href: "/skonhet/garnier-fructis-hair-food-harinpackning",
       },
-      { name: "Olaplex N°.3 PLUS", href: "/skonhet/olaplex-no3" },
     ],
     rows: [
       {
@@ -262,8 +262,8 @@ export const harinpackning: BastITestPage = {
           "Reparation (protein)",
           "Fukt, mot frizz",
           "Reparation (aminosyror)",
-          "Fukt (budget)",
           "Bond-behandling",
+          "Fukt (budget)",
         ],
       },
       {
@@ -273,8 +273,8 @@ export const harinpackning: BastITestPage = {
           "Tjockt–mellantjockt, skadat",
           "Torrt, ostyrigt",
           "Torrt, skadat",
-          "Långt, glanslöst",
           "Alla, särskilt blekt",
+          "Långt, glanslöst",
         ],
       },
       {
@@ -283,7 +283,7 @@ export const harinpackning: BastITestPage = {
       },
       {
         label: "Mängd",
-        cells: ["250 ml", "250 ml", "250 ml", "500 ml", "400 ml", "100 ml"],
+        cells: ["250 ml", "250 ml", "250 ml", "500 ml", "100 ml", "400 ml"],
       },
       {
         label: "Nyckelingrediens",
@@ -292,8 +292,8 @@ export const harinpackning: BastITestPage = {
           "Quinoa, veteproteiner",
           "Arganolja",
           "Silkeaminosyror, lipider",
-          "Ananasextrakt, sheasmör",
           "Bond-teknologi",
+          "Ananasextrakt, sheasmör",
         ],
       },
       {
@@ -303,8 +303,8 @@ export const harinpackning: BastITestPage = {
           "Mellan",
           "Mellan",
           "Premium",
-          "Budget",
           "Premium",
+          "Budget",
         ],
       },
       {
@@ -314,8 +314,8 @@ export const harinpackning: BastITestPage = {
           scoreCell("loreal-absolut-repair"),
           scoreCell("redken-all-soft-harinpackning"),
           scoreCell("wella-fusion-harinpackning"),
-          scoreCell("garnier-fructis-hair-food-harinpackning"),
           scoreCell("olaplex-no3-treatment"),
+          scoreCell("garnier-fructis-hair-food-harinpackning"),
         ],
       },
     ],
@@ -374,7 +374,7 @@ export const harinpackning: BastITestPage = {
     },
     {
       heading: "Salongsmärke eller budget – vad du betalar för",
-      body: "Betygen på Amazon skiljer sig förvånansvärt lite mellan budget och salong – budgetvalet Garnier Fructis Hair Food har till och med jämförelsens högsta betyg, 4,7 av 5 – ett betyg Amazon räknar ihop för hela Hair Food-serien, inte för ananasburken ensam. Skillnaden ligger i koncentration, doft och vad formeln faktiskt gör: en salongsinpackning är ofta rikare, så en mindre klick räcker, och innehåller oftare proteiner eller aminosyror som riktar sig mot själva strukturen. Därför ligger Garnier femma i listan och inte etta – högt betyg för fukt och glans, men ingen reparation. Elins prisspann för jämförelsen börjar ovanför budgethyllan, och Garnier är med som det enda märkta undantaget. Vill du ha ett tydligt resultat på kort tid utan att gå upp i premiumklass är L'Oréal Absolut Repair den mest prisvärda vägen in bland salongsmärkena. Hela resonemanget finns i guiden om salongsmärken.",
+      body: "Betygen på Amazon skiljer sig förvånansvärt lite mellan budget och salong – budgetvalet Garnier Fructis Hair Food har till och med jämförelsens högsta betyg, 4,7 av 5 – ett betyg Amazon räknar ihop för hela Hair Food-serien, inte för ananasburken ensam. Skillnaden ligger i koncentration, doft och vad formeln faktiskt gör: en salongsinpackning är ofta rikare, så en mindre klick räcker, och innehåller oftare proteiner eller aminosyror som riktar sig mot själva strukturen. Därför ligger Garnier sist bland de rankade och inte etta: betyget är högt men delat mellan dofterna, och burken ger fukt och glans, inte reparation. Elins prisspann för jämförelsen börjar ovanför budgethyllan, och Garnier är med som det enda märkta undantaget. Vill du ha ett tydligt resultat på kort tid utan att gå upp i premiumklass är L'Oréal Absolut Repair den mest prisvärda vägen in bland salongsmärkena. Hela resonemanget finns i guiden om salongsmärken.",
     },
   ],
   faq: [
