@@ -1,6 +1,8 @@
 // 2026-09-06: "Bäst i test 2026" card for /guider/harinpackning, EditorialMeta
 // under the H1, and three new hair masks under Hårvård via lib/categoryGroups.ts
 // (SHARED_LIB_MODULE) — this dated comment is what moves the sitemap date.
+// 2026-09-06 (D3 override): a fourth new mask, Garnier Fructis Hair Food, under
+// Hårvård; the card now says six inpackningar.
 // Content refresh 2026-09-02: generisk länktext till aftersun-eller-aloe-vera.
 import Link from "next/link";
 import { ArrowUpRight, Home, Sparkles, WandSparkles } from "lucide-react";
@@ -112,7 +114,7 @@ export default function SkonhetHubPage() {
                 Hårinpackning
               </span>
               <span className="mt-3 block max-w-2xl leading-8 text-ink-soft">
-                Fem inpackningar jämförda på hårtyp, verkningstid, innehåll och
+                Sex inpackningar jämförda på hårtyp, verkningstid, innehåll och
                 köparnas omdömen – och när en hårolja räcker.
               </span>
             </span>

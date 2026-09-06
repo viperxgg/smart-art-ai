@@ -34,7 +34,7 @@ const guides = [
     href: "/guider/harinpackning",
     title: "Hårinpackning – bäst i test 2026",
     description:
-      "Elin jämför fem hårinpackningar för torrt, skadat och blekt hår – verkningstid, hårtyp, innehåll och köparnas omdömen. Se vilken som passar ditt hår.",
+      "Elin jämför sex hårinpackningar för torrt, skadat och blekt hår – verkningstid, hårtyp, innehåll och köparnas omdömen. Se vilken som passar ditt hår.",
   },
   {
     href: "/guider/flakt-dyr-vs-billig",
