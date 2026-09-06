@@ -87,6 +87,16 @@ export type BastITestPage = {
   picks: BastITestPick[];
   /** Compared for contrast, rendered after the ranked picks and never as a pick. */
   contrast?: BastITestPick;
+  /**
+   * Eyebrow above the contrast block, e.g. "Jämförd men inte för sovrummet".
+   * Falls back to the A1 wording when omitted.
+   */
+  contrastHeading?: string;
+  /**
+   * Second sentence of the criteria intro, naming what Elins val does NOT
+   * measure in this category. Falls back to the A1 wording when omitted.
+   */
+  criteriaDisclaimer?: string;
   /** The honest "skip this one" paragraph and where it points. */
   skip?: { text: string; href: string };
   table: BastITestTable;
