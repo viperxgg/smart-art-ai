@@ -163,7 +163,7 @@ export const harinpackning: BastITestPage = {
       verdict:
         "Jämförelsens högsta betyg och mest produkt i burken – budgetundantaget som räcker när håret är torrt och glanslöst men helt.",
       pros: [
-        "4,7 av 5 från 212 omdömen – högsta betyget i jämförelsen – och nummer 9 bland hårinpackningar på Amazon.se.",
+        "4,7 av 5 från 212 omdömen för Hair Food-serien – högsta betyget i jämförelsen, men delat mellan dofterna – och nummer 9 bland hårinpackningar på Amazon.se.",
         "400 ml i burken, och Garnier anger tre användningssätt: balsam, inpackning i tre minuter eller leave-in i längder och toppar.",
         "Ananasextrakt, sheasmör, omega 6 och 9 samt vitamin C, E och F; 97 procent ingredienser av naturligt ursprung och vegansk formel enligt Garnier.",
         "Tre minuters verkningstid – kortast i jämförelsen tillsammans med Olaplex.",
@@ -374,7 +374,7 @@ export const harinpackning: BastITestPage = {
     },
     {
       heading: "Salongsmärke eller budget – vad du betalar för",
-      body: "Betygen på Amazon skiljer sig förvånansvärt lite mellan budget och salong – budgetvalet Garnier Fructis Hair Food har till och med jämförelsens högsta betyg, 4,7 av 5. Skillnaden ligger i koncentration, doft och vad formeln faktiskt gör: en salongsinpackning är ofta rikare, så en mindre klick räcker, och innehåller oftare proteiner eller aminosyror som riktar sig mot själva strukturen. Därför ligger Garnier femma i listan och inte etta – högt betyg för fukt och glans, men ingen reparation. Elins prisspann för jämförelsen börjar ovanför budgethyllan, och Garnier är med som det enda märkta undantaget. Vill du ha ett tydligt resultat på kort tid utan att gå upp i premiumklass är L'Oréal Absolut Repair den mest prisvärda vägen in bland salongsmärkena. Hela resonemanget finns i guiden om salongsmärken.",
+      body: "Betygen på Amazon skiljer sig förvånansvärt lite mellan budget och salong – budgetvalet Garnier Fructis Hair Food har till och med jämförelsens högsta betyg, 4,7 av 5 – ett betyg Amazon räknar ihop för hela Hair Food-serien, inte för ananasburken ensam. Skillnaden ligger i koncentration, doft och vad formeln faktiskt gör: en salongsinpackning är ofta rikare, så en mindre klick räcker, och innehåller oftare proteiner eller aminosyror som riktar sig mot själva strukturen. Därför ligger Garnier femma i listan och inte etta – högt betyg för fukt och glans, men ingen reparation. Elins prisspann för jämförelsen börjar ovanför budgethyllan, och Garnier är med som det enda märkta undantaget. Vill du ha ett tydligt resultat på kort tid utan att gå upp i premiumklass är L'Oréal Absolut Repair den mest prisvärda vägen in bland salongsmärkena. Hela resonemanget finns i guiden om salongsmärken.",
     },
   ],
   faq: [
@@ -426,7 +426,7 @@ export const harinpackning: BastITestPage = {
     {
       question: "Är salongsmärken värda pengarna?",
       answer:
-        "Betygen på Amazon skiljer lite mellan budget och salong – budgetvalet Garnier Fructis Hair Food har jämförelsens högsta betyg, 4,7 av 5. Skillnaden är koncentration, doft och om formeln innehåller protein eller bond-teknologi. Vill du ha ett tydligt resultat på kort tid är L'Oréal Absolut Repair den mest prisvärda vägen in i salongsklassen.",
+        "Betygen på Amazon skiljer lite mellan budget och salong – budgetvalet Garnier Fructis Hair Food har jämförelsens högsta betyg, 4,7 av 5 – men det betyget delas mellan alla Hair Food-dofter. Skillnaden är koncentration, doft och om formeln innehåller protein eller bond-teknologi. Vill du ha ett tydligt resultat på kort tid är L'Oréal Absolut Repair den mest prisvärda vägen in i salongsklassen.",
     },
   ],
   related: [

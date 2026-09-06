@@ -5186,7 +5186,7 @@ export const garnierFructisHairFoodHarinpackningProduct: Product = {
     checks: [
       {
         label: "Varför den är med",
-        text: "4,7 av 5 från 212 omdömen – högst betyg i Elins jämförelse – 400 ml i burken och nummer 9 bland hårinpackningar på Amazon.se.",
+        text: "4,7 av 5 från 212 omdömen för Hair Food-serien – högst betyg i Elins jämförelse, men delat mellan dofterna – 400 ml i burken och nummer 9 bland hårinpackningar på Amazon.se.",
       },
       {
         label: "Det Elin inte vill överdriva",
@@ -5226,7 +5226,8 @@ export const garnierFructisHairFoodHarinpackningProduct: Product = {
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
     sourceUrl: "https://www.amazon.se/dp/B0CBB9W4H6?tag=azzamkhalaf-21",
-    ratingSummary: "Amazon visar 4,7 av 5 från 212 omdömen.",
+    ratingSummary:
+      "Amazon visar 4,7 av 5 från 212 omdömen för Hair Food-serien – betyget delas mellan dofterna (Pineapple, Papaya, Watermelon).",
     ratingCheckedAt: "september 2026",
     highlights: [
       "Svenskt omdöme: ”A great conditioner and hair mask”",
