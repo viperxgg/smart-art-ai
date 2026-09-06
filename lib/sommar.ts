@@ -5764,10 +5764,13 @@ export const sommarPicks: SommarPick[] = [
     ],
     reviewSectionId: "loreal-absolut-repair-recensioner",
     reviewFormId: "loreal-absolut-repair-skriv-recension",
-    targetKeyword: "hårinpackning bäst i test",
-    metaTitle: "Hårinpackning bäst i test - L'Oréal Absolut Repair | Elins val",
+    targetKeyword: "loreal absolut repair hårinpackning",
+    // 2026-09-06: brand intent only — the "bäst i test" intent moved to
+    // /guider/harinpackning. The literal 86 must equal
+    // getEditorialScore("loreal-absolut-repair").total in lib/scores.ts (WATCH).
+    metaTitle: "L'Oréal Absolut Repair i test – Elins betyg 86/100 | Elins val",
     metaDescription:
-      "Elin går igenom L'Oréal Professionnel Absolut Repair: en proteinrik hårinpackning för torrt och skadat sommarhår (4,6 av 5, 2 900+ omdömen) - mjukhet, glans och vad du bör veta om pris.",
+      "Elin går igenom L'Oréal Absolut Repair (4,6 av 5, 3 000+ omdömen): proteinrik inpackning för torrt och skadat hår – för vem, och när Olaplex är bättre. (Annons)",
     relatedLinks: [
       {
         href: "/skonhet/olaplex-eller-harinpackning",
