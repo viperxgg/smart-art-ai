@@ -198,6 +198,7 @@ export const sitemapEntries: SitemapEntry[] = [
   { path: "/skonhet/fransserum", lastModified: "2026-08-24", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/frisorsax", lastModified: "2026-08-24", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/fuktkram", lastModified: "2026-08-24", changeFrequency: "weekly", priority: 0.82 },
+  { path: "/skonhet/garnier-fructis-hair-food-harinpackning", lastModified: "2026-09-06", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/gel-topcoat", lastModified: "2026-08-24", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/glasnagelfil", lastModified: "2026-08-24", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/grooming", lastModified: "2026-08-24", changeFrequency: "weekly", priority: 0.82 },
