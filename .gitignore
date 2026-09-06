@@ -44,7 +44,7 @@ next-env.d.ts
 antigravity-awesome-skills-main/
 scratch/
 publicrobots.txt
-.qa-*/
+.qa-*
 .next-*.png
 .next-dev*.log
 .next-*.out.log
