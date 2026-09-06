@@ -1,4 +1,9 @@
+import { siteConfig } from "@/lib/site";
 import { waveEditorialScores } from "@/lib/wave-products";
+
+// Same value as lib/site-schema.ts `organizationId`; repeated here rather than
+// imported because site-schema -> product-schema -> scores would be a cycle.
+const organizationId = `${siteConfig.url}/#organization`;
 
 export type EditorialScore = {
   value: number;
@@ -1641,7 +1646,10 @@ export function getEditorialScore(productSlug: string) {
  * so it is safe to spread directly into a Product schema's `review` field).
  *
  * Compliance: a single editorial review authored by "Elins val" — never an
- * AggregateRating with a fabricated review count.
+ * AggregateRating with a fabricated review count. The author is an @id
+ * reference to the site-wide Organization node (emitted once by
+ * lib/site-schema.ts), so an ItemList of six products no longer repeats six
+ * author nodes.
  */
 export function buildElinReviewNode(productSlug: string) {
   const score = editorialScores[productSlug];
@@ -1662,6 +1670,7 @@ export function buildElinReviewNode(productSlug: string) {
     },
     author: {
       "@type": "Organization",
+      "@id": organizationId,
       name: "Elins val",
     },
     name: `Elins poäng: ${score.total}/100 – ${tier.label}`,

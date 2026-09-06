@@ -27,7 +27,9 @@ import { getEditorialScore, getScoreTier } from "@/lib/scores";
 // order is fixed by the page spec: H1 -> editorial meta -> intro -> winner
 // cards -> comparison table -> one block per product -> contrast -> skip ->
 // scoring criteria -> buying guide -> FAQ -> related. A later page adds a data
-// module only; this file does not change per page.
+// module only; this file does not change per page. Heading outline: one H2 per
+// product block and per section; the winner cards are H3s (they repeat the
+// product blocks' titles).
 
 const pillarLabels: Record<string, string> = {
   guider: "Guider",
@@ -316,9 +318,9 @@ export function BastITestPage({ data }: { data: BastITestPageData }) {
                 <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
                   {pick.product.brand}
                 </p>
-                <h2 className="mt-3 break-words font-display text-2xl leading-tight text-ink [overflow-wrap:anywhere]">
+                <h3 className="mt-3 break-words font-display text-2xl leading-tight text-ink [overflow-wrap:anywhere]">
                   {pick.product.title}
-                </h2>
+                </h3>
                 <div className="mt-4">
                   <ScorePill slug={pick.slug} />
                 </div>
@@ -404,7 +406,7 @@ export function BastITestPage({ data }: { data: BastITestPageData }) {
           <ProductBlock
             pick={data.contrast}
             related={data.related}
-            heading="Jämförd men inte för sovrummet"
+            heading={data.contrastHeading ?? "Jämförd men inte för sovrummet"}
           />
         ) : null}
 
@@ -438,9 +440,10 @@ export function BastITestPage({ data }: { data: BastITestPageData }) {
                 Så sätter vi Elins poäng i den här kategorin
               </h2>
               <p className="mt-4 break-words text-base leading-8 text-ink-soft [overflow-wrap:anywhere]">
-                Poängen bygger på köparnas omdömen och tillverkarnas uppgifter.
-                Elins val mäter ingen ljudnivå i något labb. Så här viktas
-                kategorin:
+                {`Poängen bygger på köparnas omdömen och tillverkarnas uppgifter. ${
+                  data.criteriaDisclaimer ??
+                  "Elins val mäter ingen ljudnivå i något labb."
+                } Så här viktas kategorin:`}
               </p>
             </div>
           </div>
