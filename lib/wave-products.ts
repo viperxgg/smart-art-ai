@@ -4804,6 +4804,346 @@ export const colorWowDreamCoatProduct: Product = {
   comments: [],
 };
 
+// --- Hårinpackning bäst i test 2026 (Fas 1, A2), added 2026-09-06 ----------
+// Three hair masks that live on /guider/harinpackning. Ratings and review
+// counts were read on amazon.se 2026-09-06 (ratingCheckedAt). Never a price.
+
+export const moroccanoilHarinpackningProduct: Product = {
+  slug: "moroccanoil-harinpackning",
+  title: "Moroccanoil Intense Hydrating Mask hårinpackning (250 ml)",
+  category: "skonhet",
+  asin: "B002N5MKMG",
+  brand: "Moroccanoil",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "premium",
+  badges: [
+    "Bäst i test 2026",
+    "Fuktinpackning",
+    "5–7 min",
+  ],
+  image: "/products/moroccanoil-harinpackning/moroccanoil-harinpackning-thumbnail.webp",
+  imageAlt: "Moroccanoil Intense Hydrating Mask hårinpackning, 250 ml",
+  images: [
+    {
+      src: "/products/moroccanoil-harinpackning/moroccanoil-harinpackning-thumbnail.webp",
+      alt: "Moroccanoil Intense Hydrating Mask hårinpackning, 250 ml",
+      label: "Produkt",
+    },
+    {
+      src: "/products/moroccanoil-harinpackning/moroccanoil-harinpackning-1.webp",
+      alt: "Moroccanoil Intense Hydrating Mask med krämig konsistens och tillverkarens löften om fukt, elasticitet och glans",
+      label: "Konsistens",
+    },
+    {
+      src: "/products/moroccanoil-harinpackning/moroccanoil-harinpackning-2.webp",
+      alt: "Före och efter enligt Moroccanoil: lockigt hår före och efter Intense Hydrating Mask",
+      label: "Före/efter",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B002N5MKMG?tag=azzamkhalaf-21",
+  pageHref: "/skonhet/moroccanoil-harinpackning",
+  summary: "En fem minuters fuktinpackning med arganolja för medel till tjockt, torrt hår – den inpackning köparna oftast kallar den bästa de använt.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Moroccanoil Intense Hydrating Mask utifrån köparnas omdömen, tillverkarens uppgifter och den praktiska kompromissen.",
+    verdict: "Premiumvalet för torrt hår när fukt, glans och lätt utredning är målet.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "4,6 av 5 från 11 592 omdömen – flest i Elins jämförelse – och en verkningstid på fem till sju minuter enligt Moroccanoil.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Gjord för medel till tjockt hår. Ett svenskt omdöme beskriver den som lite kladdig, och fukt reparerar inte hår som gått av.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Specifikationer",
+  specSectionTitle: "Moroccanoil Intense Hydrating Mask hårinpackning (250 ml) i korthet",
+  specs: [
+    {
+      label: "Mängd",
+      caption: "Förpackning",
+      value: "250 ml",
+    },
+    {
+      label: "Hårtyp",
+      caption: "Enligt tillverkaren",
+      value: "Medel–tjockt, torrt",
+    },
+    {
+      label: "Verkningstid",
+      caption: "Enligt tillverkaren",
+      value: "5–7 min",
+    },
+    {
+      label: "Nyckelingredienser",
+      caption: "Innehåll",
+      value: "Arganolja, linfröextrakt",
+    },
+    {
+      label: "Användning",
+      caption: "Rutin",
+      value: "1–2 ggr/vecka i handdukstorkat hår",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B002N5MKMG?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 11 592 omdömen.",
+    ratingCheckedAt: "september 2026",
+    highlights: [
+      "Svenskt omdöme: ”the best moisturizing mask I’ve ever used”",
+      "Kanada: ”saved my dry, frizzy hair in one use” – ren fukt, ingen bond-reparation",
+      "Australien: hjälper att reda ut håret",
+    ],
+    cautions: [
+      "Svenskt omdöme: ”fin effekt men lite kladdig”",
+      "Gjord för medel–tjockt hår",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Torrt, medel till tjockt hår",
+    "Lockigt hår som behöver fukt",
+    "Veckans inpackning i duschen",
+  ],
+  peopleLike: [
+    "Kort verkningstid",
+    "Doften",
+    "Mjukhet redan efter första gången",
+  ],
+  honestCheck: [
+    "Inte för fint hår som lätt tyngs",
+    "Reparerar inte brott – välj protein eller Olaplex för det",
+  ],
+  comments: [],
+};
+
+export const redkenAllSoftHarinpackningProduct: Product = {
+  slug: "redken-all-soft-harinpackning",
+  title: "Redken All Soft Heavy Cream hårinpackning (250 ml)",
+  category: "skonhet",
+  asin: "B08Y17Z66Z",
+  brand: "Redken",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "mellan",
+  badges: [
+    "Bäst för frissigt hår",
+    "Fuktinpackning",
+    "Arganolja",
+  ],
+  image: "/products/redken-all-soft-harinpackning/redken-all-soft-harinpackning-thumbnail.webp",
+  imageAlt: "Redken All Soft Heavy Cream hårinpackning, 250 ml",
+  images: [
+    {
+      src: "/products/redken-all-soft-harinpackning/redken-all-soft-harinpackning-thumbnail.webp",
+      alt: "Redken All Soft Heavy Cream hårinpackning, 250 ml",
+      label: "Produkt",
+    },
+    {
+      src: "/products/redken-all-soft-harinpackning/redken-all-soft-harinpackning-1.webp",
+      alt: "Redken All Soft Heavy Cream – krämig konsistens",
+      label: "Konsistens",
+    },
+    {
+      src: "/products/redken-all-soft-harinpackning/redken-all-soft-harinpackning-2.webp",
+      alt: "Redken All Soft Heavy Cream tub med öppen kork och kräm",
+      label: "Detalj",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B08Y17Z66Z?tag=azzamkhalaf-21",
+  pageHref: "/skonhet/redken-all-soft-harinpackning",
+  summary: "En intensivt fuktgivande inpackning med arganolja som mjukar upp det torraste håret och håller frizzen nere – Amazons mest sålda i sin klass.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Redken All Soft Heavy Cream utifrån köparnas omdömen, tillverkarens uppgifter och den praktiska kompromissen.",
+    verdict: "Bra val mot frissigt, torrt hår – mjukhet och glans enligt köpare i sju länder.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "4,6 av 5 från 1 653 omdömen, topp-350 i Skönhet på Amazon.se, och en verkningstid du väljer själv: 5–15 minuter.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Det är en fuktinpackning, inte reparation. Hår som går av behöver protein eller en bond-behandling, och ett brittiskt omdöme påpekar att resultatet kom tillsammans med andra Redken-produkter.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Specifikationer",
+  specSectionTitle: "Redken All Soft Heavy Cream hårinpackning (250 ml) i korthet",
+  specs: [
+    {
+      label: "Mängd",
+      caption: "Förpackning",
+      value: "250 ml",
+    },
+    {
+      label: "Hårtyp",
+      caption: "Enligt tillverkaren",
+      value: "Torrt, ostyrigt",
+    },
+    {
+      label: "Verkningstid",
+      caption: "Enligt tillverkaren",
+      value: "5–15 min",
+    },
+    {
+      label: "Nyckelingrediens",
+      caption: "Innehåll",
+      value: "Arganolja",
+    },
+    {
+      label: "Användning",
+      caption: "Rutin",
+      value: "Efter schampo i handdukstorkat hår",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B08Y17Z66Z?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 1 653 omdömen och topp-350 i Skönhet.",
+    ratingCheckedAt: "september 2026",
+    highlights: [
+      "Svenskt omdöme: långt, frissigt hår med mycket volym – ”jättebra”",
+      "Spanien: kluvna, porösa toppar mjuka efter första gången",
+      "Storbritannien: glans tillbaka i stressskadat hår",
+    ],
+    cautions: [
+      "Fukt, inte reparation",
+      "Ett omdöme kombinerade med andra Redken-produkter",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Torrt, frissigt eller långt hår",
+    "Hår som blir ostyrigt i fukt",
+    "Veckans inpackning efter schampo",
+  ],
+  peopleLike: [
+    "Mjukhet och glans redan efter första gången",
+    "Att verkningstiden går att välja själv (5–15 min)",
+    "Mindre frizz i långt, ostyrigt hår",
+  ],
+  honestCheck: [
+    "Kan bli mycket för lockigt hår som vill ha definition – börja med mindre mängd i längderna",
+    "Reparerar inte brott – välj protein eller Olaplex för det",
+  ],
+  comments: [],
+};
+
+export const wellaFusionHarinpackningProduct: Product = {
+  slug: "wella-fusion-harinpackning",
+  title: "Wella Professionals Fusion Intense Repair Mask hårinpackning (500 ml)",
+  category: "skonhet",
+  asin: "B0C1KK16R3",
+  brand: "Wella Professionals",
+  price: "Se aktuellt pris på Amazon",
+  priceTier: "premium",
+  badges: [
+    "Bäst för långt & tjockt hår",
+    "Reparerande",
+    "500 ml",
+  ],
+  image: "/products/wella-fusion-harinpackning/wella-fusion-harinpackning-thumbnail.webp",
+  imageAlt: "Wella Professionals Fusion Intense Repair Mask hårinpackning, 500 ml",
+  images: [
+    {
+      src: "/products/wella-fusion-harinpackning/wella-fusion-harinpackning-thumbnail.webp",
+      alt: "Wella Professionals Fusion Intense Repair Mask hårinpackning, 500 ml",
+      label: "Produkt",
+    },
+    {
+      src: "/products/wella-fusion-harinpackning/wella-fusion-harinpackning-1.webp",
+      alt: "Före och efter enligt Wella: långt blont hår utan och med Fusion-serien",
+      label: "Före/efter",
+    },
+    {
+      src: "/products/wella-fusion-harinpackning/wella-fusion-harinpackning-2.webp",
+      alt: "Wella Fusion Mask i burk med krämig konsistens och tillverkarens löften om reparation och släthet",
+      label: "Konsistens",
+    },
+  ],
+  amazonUrl: "https://www.amazon.se/dp/B0C1KK16R3?tag=azzamkhalaf-21",
+  pageHref: "/skonhet/wella-fusion-harinpackning",
+  summary: "En reparerande inpackning med silkeaminosyror och lipider för torrt, skadat hår – i storpack för dig som går åt mycket per gång.",
+  evaluation: {
+    headline: "Elins snabba koll",
+    intro: "Elin går igenom Wella Professionals Fusion Intense Repair Mask utifrån köparnas omdömen, tillverkarens uppgifter och den praktiska kompromissen.",
+    verdict: "Storpacket för långt och skadat hår – aminosyror och lipider till bäst mängd per förpackning.",
+    checks: [
+      {
+        label: "Varför den är med",
+        text: "4,6 av 5 från 344 omdömen och 500 ml – mest mängd per förpackning i Elins jämförelse, med fem minuters verkningstid enligt Wella.",
+      },
+      {
+        label: "Det Elin inte vill överdriva",
+        text: "Färre omdömen än de andra inpackningarna, och Wella rekommenderar schampo och balsam ur samma serie för bäst resultat.",
+      },
+    ],
+  },
+  specSectionEyebrow: "Specifikationer",
+  specSectionTitle: "Wella Professionals Fusion Intense Repair Mask hårinpackning (500 ml) i korthet",
+  specs: [
+    {
+      label: "Mängd",
+      caption: "Förpackning",
+      value: "500 ml",
+    },
+    {
+      label: "Hårtyp",
+      caption: "Enligt tillverkaren",
+      value: "Torrt, skadat",
+    },
+    {
+      label: "Verkningstid",
+      caption: "Enligt tillverkaren",
+      value: "5 min",
+    },
+    {
+      label: "Teknologi",
+      caption: "Innehåll",
+      value: "Silksteel Fusion (silkeaminosyror + mikroniserade lipider)",
+    },
+    {
+      label: "Användning",
+      caption: "Rutin",
+      value: "1 gång/vecka på rent, fuktigt hår",
+    },
+  ],
+  amazonReviewSignal: {
+    sourceLabel: "Amazon-köpare",
+    sourceUrl: "https://www.amazon.se/dp/B0C1KK16R3?tag=azzamkhalaf-21",
+    ratingSummary: "Amazon visar 4,6 av 5 från 344 omdömen.",
+    ratingCheckedAt: "september 2026",
+    highlights: [
+      "Storbritannien: ”visible results” på hår som lätt går av",
+      "Frankrike: starkare, mindre torrt, mindre skadat",
+      "Förenade Arabemiraten: silkeslent, god doft, irriterar inte",
+    ],
+    cautions: [
+      "Färre omdömen än de andra",
+      "Wella rekommenderar schampo och balsam ur samma serie",
+    ],
+  },
+  ugcVideos: [],
+  uses: [
+    "Långt, tjockt eller kemiskt behandlat hår",
+    "Hår som går av eller tovar sig",
+    "Fem minuter en gång i veckan",
+  ],
+  peopleLike: [
+    "Starkare och mindre torrt hår enligt köpare",
+    "Silkeslen känsla och god doft",
+    "Storpacket som räcker länge",
+  ],
+  honestCheck: [
+    "Kort eller fint hår klarar sig länge på 250 ml – storpacket lönar sig bara om du använder mycket per gång",
+    "Betyget vilar på 344 omdömen – stabilt, men mindre underlag än de andra",
+  ],
+  comments: [],
+};
+
 export const waveProducts: Product[] = [
   sportconicLopbandProduct,
   citysportsGabandProduct,
@@ -4854,6 +5194,9 @@ export const waveProducts: Product[] = [
   tymoUtratningsborsteProduct,
   gihaliHardiffusorProduct,
   colorWowDreamCoatProduct,
+  moroccanoilHarinpackningProduct,
+  redkenAllSoftHarinpackningProduct,
+  wellaFusionHarinpackningProduct,
 ];
 
 export const waveEditorialScores: Record<string, EditorialScore> = {
@@ -5248,5 +5591,32 @@ export const waveEditorialScores: Record<string, EditorialScore> = {
     proven: 13,
     total: 86,
     verdict: "Premiumsprayen med starkast viral tyngd, men kräver rätt rutin.",
+  },
+  // --- Hårinpackning bäst i test 2026 (Fas 1, A2) — scored 2026-09-06 ------
+  // Same rubric as the neighbours: proven from Amazon rating and review volume
+  // (11 592 -> 15, 1 653 -> 14, 344 -> 12), value from ml per package and tier.
+  "moroccanoil-harinpackning": {
+    value: 21,
+    performance: 28,
+    promise: 23,
+    proven: 15,
+    total: 87,
+    verdict: "Premiumvalet för torrt hår – fem minuters inpackning med arganolja som köparna kallar den bästa de använt",
+  },
+  "redken-all-soft-harinpackning": {
+    value: 22,
+    performance: 27,
+    promise: 22,
+    proven: 14,
+    total: 85,
+    verdict: "Bra val mot frissigt, torrt hår – mjukhet och glans enligt köpare i sju länder",
+  },
+  "wella-fusion-harinpackning": {
+    value: 25,
+    performance: 26,
+    promise: 22,
+    proven: 12,
+    total: 85,
+    verdict: "Storpacket för långt och skadat hår – aminosyror och lipider till bäst mängd per förpackning",
   },
 };
