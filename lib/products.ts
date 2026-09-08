@@ -2760,12 +2760,12 @@ export const stjarnprojektorProduct: Product = {
 
 export const dreoCruiserProFlaktProduct: Product = {
   slug: "dreo-cruiser-pro-tornflakt",
-  title: "Dreo Cruiser Pro T1 tornfläkt (106 cm)",
+  title: "Dreo Cruiser Pro T1",
   category: "halsa",
   asin: "B08PDDSDHY",
   brand: "Dreo",
   price: "Se aktuellt pris på Amazon",
-  badges: ["Tyst ~20 dB", "9 hastigheter", "Premiumval"],
+  badges: [],
   image: "/products/flakt-dreo/dreo-cruiser-thumbnail.webp",
   imageAlt: "Dreo Cruiser Pro T1 svart tornfläkt med fjärrkontroll",
   images: [
@@ -2793,61 +2793,53 @@ export const dreoCruiserProFlaktProduct: Product = {
   amazonUrl: "https://amzn.to/4xGELr0",
   pageHref: "/halsa/flakt/dreo-cruiser-pro",
   summary:
-    "En tyst, slimmad tornfläkt som svalkar hela rummet – 9 hastigheter, oscillering, timer och fjärrkontroll.",
+    "Katalogens T1 och ASIN B08PDDSDHY är inte matchade mot en läst manual. Dreos aktuella TF518-sida bevisar inte att den svenska listningen gäller samma version.",
   evaluation: {
-    headline: "Den tysta premiumfläkten",
-    intro:
-      "Dreo Cruiser Pro passar dig som vill svalka hela rummet utan oljud – särskilt i sovrummet.",
-    verdict:
-      "Premiumvalet – tyst, mångsidig tornfläkt för hela rummet.",
-    checks: [],
-  },
+  "headline": "Modell och beslutsunderlag",
+  "intro": "du vill undersöka en tornfläkt och först kan få exakt modell, reglage och displayfunktion bekräftade. Underlaget räcker ännu inte för att rekommendera just T1 för sömn.",
+  "verdict": "ditt köp beror på att den ska vara tystast eller ha nio hastigheter och helt släckt display. Vi har inte verifierat de uppgifterna för denna listning.",
+  "checks": [
+    {
+      "label": "Källgräns",
+      "text": "Inget eget ljud- eller användartest har genomförts."
+    }
+  ]
+},
   specSectionEyebrow: "Tornfläkt",
   specSectionTitle: "Dreo Cruiser Pro T1",
   specs: [
-    { label: "Typ", caption: "Design", value: "Bladlös tornfläkt, 106 cm" },
-    { label: "Ljudnivå", caption: "Tyst", value: "ca 20 dB" },
-    {
-      label: "Lägen",
-      caption: "Hastigheter",
-      value: "9 + oscillering, timer",
-    },
-    {
-      label: "Styrning",
-      caption: "Extra",
-      value: "Fjärrkontroll, display som slocknar",
-    },
-  ],
+  {
+    "label": "Variant",
+    "caption": "Källunderlag",
+    "value": "Katalogens T1 och ASIN B08PDDSDHY är inte matchade mot en läst manual. Dreos aktuella TF518-sida bevisar inte att den svenska listningen gäller samma version."
+  }
+],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4xGELr0",
-    ratingSummary:
-      "Amazon visar 4,6 av 5 från 25 944 omdömen och topp-5 bland tornfläktar.",
-    highlights: [
-      "Köpare lyfter att den är tyst – 'tystare än min gamla AC'.",
-      "Svalkar hela lägenheten och ser stilren ut.",
-      "Display som slocknar uppskattas nattetid.",
-    ],
-    cautions: [
-      "Någon tycker basen känns plastig/ostadig.",
-      "Den låter mer på högsta läget (9).",
-    ],
-  },
+  "sourceLabel": "Källor i produktguiden",
+  "sourceUrl": "https://de.dreo.com/products/turmventilator-518",
+  "ratingSummary": "Inga kundbetyg används som bevis för ljudnivå eller sovrumslämplighet.",
+  "highlights": [],
+  "cautions": [
+    "ditt köp beror på att den ska vara tystast eller ha nio hastigheter och helt släckt display. Vi har inte verifierat de uppgifterna för denna listning."
+  ]
+},
   ugcVideos: [],
   uses: [],
   peopleLike: [],
-  honestCheck: [],
+  honestCheck: [
+  "ditt köp beror på att den ska vara tystast eller ha nio hastigheter och helt släckt display. Vi har inte verifierat de uppgifterna för denna listning."
+],
   comments: [],
 };
 
 export const honeywellTurboforceFlaktProduct: Product = {
   slug: "honeywell-turboforce-ht900e",
-  title: "Honeywell TurboForce HT900E bordsfläkt",
+  title: "Honeywell TurboForce HT900E",
   category: "halsa",
   asin: "B003KHJO6G",
   brand: "Honeywell",
   price: "Se aktuellt pris på Amazon",
-  badges: ["#1 Bästsäljare", "Kraftfull", "Budgetval"],
+  badges: [],
   image: "/products/flakt-honeywell/honeywell-ht900e-thumbnail.webp",
   imageAlt: "Honeywell TurboForce HT900E svart kompakt bordsfläkt",
   images: [
@@ -2875,61 +2867,53 @@ export const honeywellTurboforceFlaktProduct: Product = {
   amazonUrl: "https://amzn.to/3SvaTOn",
   pageHref: "/halsa/flakt/honeywell-turboforce",
   summary:
-    "Liten men kraftfull bordsfläkt till budgetpris – starkt luftflöde, 3 hastigheter och väggmontering. Men den är ingen tystfläkt.",
+    "Katalogens HT900E, ASIN B003KHJO6G. Butikssidan kunde inte läsas och någon manual för exakt E-version är inte verifierad här.",
   evaluation: {
-    headline: "Mest kraft för pengarna",
-    intro:
-      "Honeywell TurboForce passar dig som vill ha snabb, riktad svalka vid skrivbordet eller i ett mindre rum till lågt pris.",
-    verdict:
-      "Budgetvalet – kraftfull och prisvärd, men räkna med mer ljud.",
-    checks: [],
-  },
+  "headline": "Modell och beslutsunderlag",
+  "intro": "du vill undersöka denna modell och kan kontrollera dess mått, placering och reglage före köp. Vi har inte tillräckligt underlag för att rekommendera eller avråda från den som sovrumsfläkt.",
+  "verdict": "du behöver ett styrkt besked om nattljud. Ett enskilt kundomdöme eller uppgifter om HT900 utan E fastställer inte ljudet från denna variant.",
+  "checks": [
+    {
+      "label": "Källgräns",
+      "text": "Inget eget ljud- eller användartest har genomförts."
+    }
+  ]
+},
   specSectionEyebrow: "Bordsfläkt",
   specSectionTitle: "Honeywell TurboForce HT900E",
   specs: [
-    {
-      label: "Typ",
-      caption: "Design",
-      value: "Kompakt bordsfläkt, 27,7 cm",
-    },
-    {
-      label: "Luftflöde",
-      caption: "Kraft",
-      value: "Starkt, känns på flera meter",
-    },
-    { label: "Lägen", caption: "Hastigheter", value: "3 + 90° lutning" },
-    { label: "Montering", caption: "Flexibel", value: "Bord eller vägg" },
-  ],
+  {
+    "label": "Variant",
+    "caption": "Källunderlag",
+    "value": "Katalogens HT900E, ASIN B003KHJO6G. Butikssidan kunde inte läsas och någon manual för exakt E-version är inte verifierad här."
+  }
+],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/3SvaTOn",
-    ratingSummary:
-      "Amazon visar 4,4 av 5 från 28 253 omdömen och #1 bästsäljare bland bordsfläktar.",
-    highlights: [
-      "Kraftfullt luftflöde för en så liten fläkt.",
-      "Prisvärd och smidig att flytta eller väggmontera.",
-      "Många köper den som en billig, effektiv svalka.",
-    ],
-    cautions: [
-      "Den är bullrig (runt 56 dB) – inte 'tyst' trots marknadsföringen, särskilt nattetid.",
-      "Plastig känsla, ingen oscillering eller fjärrkontroll.",
-    ],
-  },
+  "sourceLabel": "Källor i produktguiden",
+  "sourceUrl": "https://www.amazon.se/dp/B003KHJO6G",
+  "ratingSummary": "Inga kundbetyg används som bevis för ljudnivå eller sovrumslämplighet.",
+  "highlights": [],
+  "cautions": [
+    "du behöver ett styrkt besked om nattljud. Ett enskilt kundomdöme eller uppgifter om HT900 utan E fastställer inte ljudet från denna variant."
+  ]
+},
   ugcVideos: [],
   uses: [],
   peopleLike: [],
-  honestCheck: [],
+  honestCheck: [
+  "du behöver ett styrkt besked om nattljud. Ett enskilt kundomdöme eller uppgifter om HT900 utan E fastställer inte ljudet från denna variant."
+],
   comments: [],
 };
 
 export const mideaFz10FlaktProduct: Product = {
   slug: "midea-fz10-tornflakt",
-  title: "Midea FZ10-17JR tornfläkt (96,5 cm)",
+  title: "Midea FZ10-17JR",
   category: "halsa",
   asin: "B07P6QYW66",
   brand: "Midea",
   price: "Se aktuellt pris på Amazon",
-  badges: ["#1 Bästsäljare", "Nattläge & timer", "Bäst värde"],
+  badges: [],
   image: "/products/flakt-midea/midea-fz10-thumbnail.webp",
   imageAlt: "Midea FZ10-17JR svart tornfläkt med fjärrkontroll",
   images: [
@@ -2957,50 +2941,42 @@ export const mideaFz10FlaktProduct: Product = {
   amazonUrl: "https://amzn.to/4eL99rA",
   pageHref: "/halsa/flakt/midea-fz10",
   summary:
-    "En prisvärd tornfläkt med oscillering, fjärrkontroll, 7-timmarstimer och ett tystare nattläge – #1 bästsäljare bland tornfläktar.",
+    "Tysk tillverkarsida: FZ10-17JR, EAN 4048164103201, höjd 918 mm. Svensk leveransvariant är inte matchad.",
   evaluation: {
-    headline: "Bäst värde – och sovrumsvänlig",
-    intro:
-      "Midea FZ10 passar dig som vill ha en tyst-nog tornfläkt med nattläge och timer till ett mellanpris.",
-    verdict:
-      "Bäst värde – prisvärd tornfläkt med nattläge för sovrummet.",
-    checks: [],
-  },
+  "headline": "Modell och beslutsunderlag",
+  "intro": "du söker en tornfläkt med tre hastigheter, timer och fjärrkontroll. Kontrollera att ljudet vid användbar hastighet passar dig innan du väljer den för sovrummet.",
+  "verdict": "du behöver bevisad tyst drift vid sängen eller en display som säkert slocknar helt. Tillverkarens lästa sida styrker inte detta.",
+  "checks": [
+    {
+      "label": "Källgräns",
+      "text": "Inget eget ljud- eller användartest har genomförts."
+    }
+  ]
+},
   specSectionEyebrow: "Tornfläkt",
   specSectionTitle: "Midea FZ10-17JR",
   specs: [
-    { label: "Typ", caption: "Design", value: "Tornfläkt, 96,5 cm" },
-    { label: "Ljudnivå", caption: "Drift", value: "ca 38 dB" },
-    {
-      label: "Lägen",
-      caption: "Hastigheter",
-      value: "3 + 3 lägen (inkl. nattläge)",
-    },
-    {
-      label: "Extra",
-      caption: "Bekvämt",
-      value: "90° oscillering, 7h timer, fjärrkontroll",
-    },
-  ],
+  {
+    "label": "Variant",
+    "caption": "Källunderlag",
+    "value": "Tysk tillverkarsida: FZ10-17JR, EAN 4048164103201, höjd 918 mm. Svensk leveransvariant är inte matchad."
+  }
+],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4eL99rA",
-    ratingSummary:
-      "Amazon visar 4,4 av 5 från 2 659 omdömen och #1 bästsäljare bland tornfläktar.",
-    highlights: [
-      "Köpare lyfter att den är kylande när det är varmt och fuktigt – 'bästa köpet'.",
-      "Bra med fjärrkontroll, 7h-timer och ett tystare nattläge.",
-      "Tyst på de lägre hastigheterna – funkar i sovrummet.",
-    ],
-    cautions: [
-      "Den låter mer på högsta läget (3).",
-      "Enstaka köpare har fått fjärrkontrollen saknad i paketet.",
-    ],
-  },
+  "sourceLabel": "Källor i produktguiden",
+  "sourceUrl": "https://www.midea.com/de/klimatisieren-heizen/ventilatoren-luftkuehler/turmventilator-fz10-17jr.fz10-17jr",
+  "ratingSummary": "Inga kundbetyg används som bevis för ljudnivå eller sovrumslämplighet.",
+  "highlights": [],
+  "cautions": [
+    "du behöver bevisad tyst drift vid sängen eller en display som säkert slocknar helt. Tillverkarens lästa sida styrker inte detta."
+  ]
+},
   ugcVideos: [],
   uses: [],
   peopleLike: [],
-  honestCheck: [],
+  honestCheck: [
+  "du behöver bevisad tyst drift vid sängen eller en display som säkert slocknar helt. Tillverkarens lästa sida styrker inte detta."
+],
   comments: [],
 };
 
@@ -10858,16 +10834,12 @@ export const jisulifeHandfanProduct: Product = {
 
 export const xiaomiStandingFanProduct: Product = {
   slug: "xiaomi-bordsflakt",
-  title: "Xiaomi Mi Smart Standing Fan 2 Lite",
+  title: "Mi Smart Standing Fan 2 Lite",
   category: "halsa",
   asin: "B09TP3SKWR",
   brand: "Xiaomi",
   price: "Se aktuellt pris på Amazon",
-  badges: [
-    "Tyst drift",
-    "Appstyrning",
-    "Flera lägen",
-  ],
+  badges: [],
   image: "/products/xiaomi-fan/xiaomi-fan-thumbnail.webp",
   imageAlt: "Xiaomi Mi Smart Standing Fan 2 Lite",
   images: [
@@ -10894,50 +10866,42 @@ export const xiaomiStandingFanProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/3Sytkld",
   pageHref: "/halsa/bordsflakt",
-  summary: "En tyst, smart fläkt med flera lägen och appstyrning för skrivbord och sovrum. Lätt att ställa in efter behov och tyst nog att ha på under arbete och sömn.",
+  summary: "Xiaomis Singapore-specifikation gäller JLLDS01XY med AC-motor och Wi-Fi 2,4 GHz. Inte automatiskt samma produkt som Smart Standing Fan 2 utan Lite.",
   evaluation: {
-    headline: "Tyst, smart fläkt för skrivbord och sovrum",
-    intro: "Elin går igenom Xiaomi Mi Smart Standing Fan 2 Lite: en fläkt som lägger fokus på tyst drift, flera lägen och appstyrning. Tanken är en fläkt du kan ha på under arbete och sömn utan att den stör, och som du enkelt justerar via app eller knappar.",
-    verdict: "Tyst och smart fläkt med flera lägen och appstyrning för skrivbord och sovrum.",
-    checks: [],
-  },
+  "headline": "Modell och beslutsunderlag",
+  "intro": "du överväger den specificerade modellen och har kontrollerat appregion, nätverk och den version som butiken levererar. Uppkoppling är ett val av bekvämlighet, inte ett bevis på bättre sömn.",
+  "verdict": "du behöver styrkt låg ljudnivå vid en bestämd hastighet eller svensk app- och leveranskompatibilitet utan ytterligare kontroll. Specifikationen ensam besvarar inte det.",
+  "checks": [
+    {
+      "label": "Källgräns",
+      "text": "Inget eget ljud- eller användartest har genomförts."
+    }
+  ]
+},
   specSectionEyebrow: "Fläkt",
-  specSectionTitle: "Xiaomi Mi Smart Standing Fan 2 Lite",
+  specSectionTitle: "Mi Smart Standing Fan 2 Lite",
   specs: [
-    {
-      label: "Typ",
-      caption: "Format",
-      value: "Smart golv- och bordsfläkt",
-    },
-    {
-      label: "Lägen",
-      caption: "Drift",
-      value: "Flera hastighetslägen, tyst drift",
-    },
-    {
-      label: "Styrning",
-      caption: "Smart",
-      value: "Appstyrning och knappar",
-    },
-  ],
+  {
+    "label": "Variant",
+    "caption": "Källunderlag",
+    "value": "Xiaomis Singapore-specifikation gäller JLLDS01XY med AC-motor och Wi-Fi 2,4 GHz. Inte automatiskt samma produkt som Smart Standing Fan 2 utan Lite."
+  }
+],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/3Sytkld",
-    ratingSummary: "Amazon visar 4,7 av 5 från 22 omdömen.",
-    highlights: [
-      "Köpare uppskattar att den är tyst nog att ha på under arbete och sömn.",
-      "Appstyrningen och de flera lägena gör den enkel att ställa in.",
-      "Lagom storlek för skrivbord och sovrum.",
-    ],
-    cautions: [
-      "Antalet omdömen är ännu få (22), så betyget kan ändras över tid.",
-      "Appstyrning kräver app och uppkoppling, vilket inte passar alla.",
-    ],
-  },
+  "sourceLabel": "Källor i produktguiden",
+  "sourceUrl": "https://www.mi.com/sg/product/mi-smart-standing-fan-2-lite/specs/",
+  "ratingSummary": "Inga kundbetyg används som bevis för ljudnivå eller sovrumslämplighet.",
+  "highlights": [],
+  "cautions": [
+    "du behöver styrkt låg ljudnivå vid en bestämd hastighet eller svensk app- och leveranskompatibilitet utan ytterligare kontroll. Specifikationen ensam besvarar inte det."
+  ]
+},
   ugcVideos: [],
   uses: [],
   peopleLike: [],
-  honestCheck: [],
+  honestCheck: [
+  "du behöver styrkt låg ljudnivå vid en bestämd hastighet eller svensk app- och leveranskompatibilitet utan ytterligare kontroll. Specifikationen ensam besvarar inte det."
+],
   comments: [],
 };
 

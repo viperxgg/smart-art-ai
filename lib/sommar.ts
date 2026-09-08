@@ -7013,47 +7013,37 @@ export const smartSommarPicks: SommarPick[] = [
     productSlug: xiaomiStandingFanProduct.slug,
     product: xiaomiStandingFanProduct,
     href: "/halsa/bordsflakt",
-    cardBadge: "Tyst drift",
-    cardHook: "Tyst, smart fläkt med flera lägen och appstyrning.",
+    cardBadge: "Modell och källor",
+    cardHook: "Xiaomis Singapore-specifikation gäller JLLDS01XY med AC-motor och Wi-Fi 2,4 GHz. Inte automatiskt samma produkt som Smart Standing Fan 2 utan Lite.",
     cardImage: "/products/xiaomi-fan/xiaomi-fan-thumbnail.webp",
     cardImageAlt: "Xiaomi Mi Smart Standing Fan 2 Lite",
-    badge: "Elins lugna favorit",
-    headline: "Xiaomi Mi Smart Standing Fan 2 Lite – tyst och smart",
-    shortBody: "En smart fläkt med flera lägen och appstyrning. Gjord för att vara tyst nog för skrivbord och sovrum, och enkel att justera via app eller knappar.",
-    valueHook: "Tyst, smart fläkt för skrivbord och sovrum",
-    valueStatement: "Xiaomi Mi Smart Standing Fan 2 Lite är en fläkt för dig som vill ha sval luft utan en surrande bakgrund. Den lägger fokus på tyst drift, flera lägen och appstyrning, så att du kan ha den på under arbete och sömn och enkelt justera den efter behov. Amazon visar 4,7 av 5 från 22 omdömen – ännu få röster, men de som lämnat omdöme lyfter framför allt den tysta driften och hur smidig den är att styra.",
+    badge: "Beslutsunderlag",
+    headline: "Mi Smart Standing Fan 2 Lite",
+    shortBody: "Xiaomis Singapore-specifikation gäller JLLDS01XY med AC-motor och Wi-Fi 2,4 GHz. Inte automatiskt samma produkt som Smart Standing Fan 2 utan Lite.",
+    valueHook: "Kontrollera behov och variant",
+    valueStatement: "du överväger den specificerade modellen och har kontrollerat appregion, nätverk och den version som butiken levererar. Uppkoppling är ett val av bekvämlighet, inte ett bevis på bättre sömn.",
     passFor: [
-      "Vill ha en tyst fläkt att ha på under arbete och sömn.",
-      "Gillar att kunna styra fläkten via app och flera lägen.",
-      "Söker en lagom fläkt för skrivbord och sovrum.",
-    ],
-    caution: "Antalet omdömen är ännu få (22), så betyget kan ändras med tiden. Appstyrningen kräver app och uppkoppling, vilket inte passar alla – men knapparna fungerar även utan.",
+  "du överväger den specificerade modellen och har kontrollerat appregion, nätverk och den version som butiken levererar. Uppkoppling är ett val av bekvämlighet, inte ett bevis på bättre sömn."
+],
+    caution: "du behöver styrkt låg ljudnivå vid en bestämd hastighet eller svensk app- och leveranskompatibilitet utan ytterligare kontroll. Specifikationen ensam besvarar inte det.",
     usageGuidance: {
-      title: "Så använder du den rätt",
-      text: "Ställ fläkten på skrivbordet eller i sovrummet och välj ett lågt, tyst läge för arbete och sömn. Vill du justera utan att resa dig styr du enkelt via appen.",
-    },
-    verdict: "Tyst och smart fläkt med flera lägen och appstyrning för skrivbord och sovrum.",
-    amazonSummary: "Amazon visar 4,7 av 5 från 22 omdömen. Det är ännu få röster, men köpare beskriver en tyst fläkt som är smidig att styra via app och flera lägen.",
+  "title": "Före köp",
+  "text": "Kontrollera manualen för rätt modell, godkänd placering och butikens leveransvariant. Vi har inte testat produkten."
+},
+    verdict: "du behöver styrkt låg ljudnivå vid en bestämd hastighet eller svensk app- och leveranskompatibilitet utan ytterligare kontroll. Specifikationen ensam besvarar inte det.",
+    amazonSummary: "Ingen verifierad sammanfattning av kundomdömen för rätt variant.",
     amazonQuotes: [],
     faqItems: [
-      {
-        question: "Är Xiaomi-fläkten tillräckligt tyst för sovrummet?",
-        answer: "Den är gjord med tyst drift i fokus och köpare beskriver att den går att ha på under sömn. Välj ett lågt läge på natten för en mer dämpad ljudbild.",
-      },
-      {
-        question: "Behöver jag appen för att använda fläkten?",
-        answer: "Nej, du kan styra fläkten med knapparna. Appen lägger till smart styrning och flera lägen, men kräver app och uppkoppling.",
-      },
-      {
-        question: "Passar fläkten på ett skrivbord?",
-        answer: "Den är lagom för både skrivbord och sovrum. Tyst drift och flera lägen gör att du kan anpassa luftflödet medan du arbetar.",
-      },
-    ],
+  {
+    "question": "Vad är ännu inte kontrollerat?",
+    "answer": "du behöver styrkt låg ljudnivå vid en bestämd hastighet eller svensk app- och leveranskompatibilitet utan ytterligare kontroll. Specifikationen ensam besvarar inte det."
+  }
+],
     reviewSectionId: "xiaomi-bordsflakt-recensioner",
     reviewFormId: "xiaomi-bordsflakt-skriv-recension",
     targetKeyword: "tyst bordsfläkt",
-    metaTitle: "Xiaomi Mi Smart Standing Fan 2 Lite – tyst bordsfläkt | Elins val",
-    metaDescription: "Elin går igenom Xiaomi Mi Smart Standing Fan 2 Lite: en tyst, smart fläkt med flera lägen och appstyrning för skrivbord och sovrum (4,7 av 5, 22 omdömen).",
+    metaTitle: "Mi Smart Standing Fan 2 Lite – modell och källgränser | Elins val",
+    metaDescription: "Xiaomis Singapore-specifikation gäller JLLDS01XY med AC-motor och Wi-Fi 2,4 GHz. Inte automatiskt samma produkt som Smart Standing Fan 2 utan Lite.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",

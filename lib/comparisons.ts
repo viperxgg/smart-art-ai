@@ -732,14 +732,17 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "tornflakt-eller-bordsflakt",
-    title: "Tornfläkt eller bordsfläkt?",
-    shortTitle: "Tornfläkt eller bordsfläkt",
+    title: "Vilket fläktformat passar din plats?",
+    shortTitle: "Fläktens plats",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/tornflakt-eller-bordsflakt",
-    description: "Bred svalka för hela rummet mot riktad punktkyla precis där du sitter.",
+    description: "Midea FZ10-17JR och Xiaomi Fan 2 Lite: kontrollera mått, placering och exakt variant.",
     productSlugs: ["midea-fz10-tornflakt","xiaomi-bordsflakt"],
-    badges: ["Svalka","Hela rummet vs punktkyla","Sommar"],
+    badges: [
+  "Placering",
+  "Modellkontroll"
+],
   },
   {
     slug: "st-tropez-eller-bondi-sands",
@@ -787,15 +790,18 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "dreo-cruiser-pro-eller-honeywell-ht900e",
-    title: "Dreo Cruiser Pro eller Honeywell HT900E?",
-    shortTitle: "Dreo eller Honeywell",
+    title: "Dreo T1 eller Honeywell HT900E – vad behöver kontrolleras?",
+    shortTitle: "Dreo T1 eller HT900E?",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/dreo-cruiser-pro-eller-honeywell-ht900e",
     description:
-      "Tyst tornfläkt för hela rummet mot kompakt kraftfläkt för riktad punktkyla.",
+      "Exakt variant och jämförbara ljuduppgifter saknas ännu. Läs vad vi kan och inte kan styrka.",
     productSlugs: ["dreo-cruiser-pro-tornflakt", "honeywell-turboforce-ht900e"],
-    badges: ["Tyst i sovrummet", "Kraftfull", "Sommar"],
+    badges: [
+  "Modellkontroll",
+  "Källgränser"
+],
   },
   {
     slug: "traningsband",

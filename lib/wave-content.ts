@@ -505,60 +505,37 @@ export const waveProductPicks: SommarPick[] = [
     productSlug: "midea-golvflakt",
     product: productBySlug("midea-golvflakt"),
     href: "/halsa/flakt/midea-golvflakt",
-    cardBadge: "Modellkontroll krävs",
-    cardHook: "MFS400 behöver exakt modellmatchning före ett köpråd.",
+    cardBadge: "Modell och källor",
+    cardHook: "Namnet kommer från vår katalog. ASIN B0CPSPXN9W kunde inte läsas; exakt modellbeteckning och utförande är inte styrkta.",
     cardImage: "/products/midea-golvflakt/midea-golvflakt-thumbnail.webp",
     cardImageAlt: "Midea MFS400 golvfläkt",
-    badge: "Ofullständigt källunderlag",
-    headline: "Midea MFS400 golvfläkt",
-    shortBody: "Vi saknar verifierade specifikationer för katalogens MFS400. Inget ljud- eller sovrumstest har genomförts.",
-    valueHook: "Kontrollera modellen före köp",
-    valueStatement: "Välj först efter ditt behov. Funktioner och leveransvariant måste styrkas för MFS400 innan ett köpråd kan ges.",
-    passFor: ["Dig som kan invänta exakt modell- och funktionskontroll"],
-    caution: "DC-motor, timer och låg ljudnivå är ännu inte verifierade för rätt variant.",
+    badge: "Beslutsunderlag",
+    headline: "Midea MFS400",
+    shortBody: "Namnet kommer från vår katalog. ASIN B0CPSPXN9W kunde inte läsas; exakt modellbeteckning och utförande är inte styrkta.",
+    valueHook: "Kontrollera behov och variant",
+    valueStatement: "du undersöker en golvfläkt och kan invänta verifiering av modellen. Vi saknar tillräckligt underlag för ett konkret köpråd om MFS400.",
+    passFor: [
+  "du undersöker en golvfläkt och kan invänta verifiering av modellen. Vi saknar tillräckligt underlag för ett konkret köpråd om MFS400."
+],
+    caution: "du förlitar dig på uppgifterna om DC-motor, åttatimmarstimer eller särskilt tyst drift. Dessa är ännu inte verifierade för rätt variant.",
     usageGuidance: {
-      title: "Före köp av Midea MFS400 golvfläkt",
-      text: "Kontrollera först: priset: ~ är dubbelt mot en basal stativfläkt (Russell Hobbs ~ utan fjärr/LED/tystgång). Betalar du mellanskillnaden får du tystnaden… Välj den främst om styrkan — tyst nog för sovrummet — bekräftat av köpare i 3 länder — är viktigare för dig.",
-    },
-    verdict: "Underlaget räcker inte för en rekommendation.",
-    amazonSummary: "Ingen verifierad sammanfattning för exakt variant.",
-    amazonQuotes: [
-      {
-        text: "Den här fläkten knuffar luft ordentligt! Det lägsta läget räcker väldigt långt. Mycket bra fläkt för det priset.",
-        attribution: "— Christer Sandstedt, 5★ (SVERIGE, 15 juni 2026)",
-      },
-      {
-        text: "mycket tyst även på medel/hög — perfekt för sovrummet.",
-        attribution: "— Ana G., 5★ (Spanien, juni 2026)",
-      },
-      {
-        text: "kraftfullt luftflöde, tyst, fjärrkontrollen oumbärlig i sovrummet.",
-        attribution: "— Monica, 5★ (Italien, maj 2026)",
-      },
-      {
-        text: "Bästa fläkten jag haft — läge 1 räcker ofta.",
-        attribution: "— Dominik Schmidt, 5★ (Tyskland, juni 2026)",
-      },
-    ],
+  "title": "Före köp",
+  "text": "Kontrollera manualen för rätt modell, godkänd placering och butikens leveransvariant. Vi har inte testat produkten."
+},
+    verdict: "du förlitar dig på uppgifterna om DC-motor, åttatimmarstimer eller särskilt tyst drift. Dessa är ännu inte verifierade för rätt variant.",
+    amazonSummary: "Ingen verifierad sammanfattning av kundomdömen för rätt variant.",
+    amazonQuotes: [],
     faqItems: [
-      {
-        question: "Är Midea MFS400 golvfläkt värd att köpa?",
-        answer: "Midea MFS400 golvfläkt passar bäst när tyst nog för sovrummet — bekräftat av köpare i 3 länder. Den passar sämre om caveaten träffar din vardag: priset: ~ är dubbelt mot en basal stativfläkt (Russell Hobbs ~ utan fjärr/LED/tystgång). Betalar du mellanskillnaden får du tystnaden…",
-      },
-      {
-        question: "Varför visar ni inget pris?",
-        answer: "Priset behöver kontrolleras live hos Amazon, men värdet ligger främst i fjärrkontroll + 8h-timer — somna utan att kliva upp. För Midea MFS400 golvfläkt är det klokt att jämföra alternativen om kompromissen ovan känns viktigare än styrkan.",
-      },
-      {
-        question: "Har Elin testat produkten själv?",
-        answer: "Nej. Elin jämför specifikationer, riktiga köparomdömen och dokumenterade nackdelar — och säger det öppet när en produkt inte passar.",
-      },
-    ],
+  {
+    "question": "Vad är ännu inte kontrollerat?",
+    "answer": "du förlitar dig på uppgifterna om DC-motor, åttatimmarstimer eller särskilt tyst drift. Dessa är ännu inte verifierade för rätt variant."
+  }
+],
     reviewSectionId: "midea-golvflakt-recensioner",
     reviewFormId: "midea-golvflakt-skriv-recension",
     targetKeyword: "midea mfs400 golvfläkt",
     metaTitle: "Midea MFS400 – modell och källgränser | Elins val",
-    metaDescription: "Vad behöver kontrolleras före köp av Midea MFS400? Modellmatchning, osäkra funktioner och när du kan avstå.",
+    metaDescription: "Namnet kommer från vår katalog. ASIN B0CPSPXN9W kunde inte läsas; exakt modellbeteckning och utförande är inte styrkta.",
     relatedLinks: [
       {
         href: "/halsa/flakt",
@@ -7501,21 +7478,20 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "golvflakt-eller-tornflakt",
-    title: "Golvfläkt eller tornfläkt?",
-    shortTitle: "Golvfläkt eller tornfläkt?",
+    title: "MFS400 eller FZ10-17JR – vilket underlag finns?",
+    shortTitle: "MFS400 eller FZ10-17JR?",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/golvflakt-eller-tornflakt",
-    description: "Midea mot Midea: klassiskt luftflöde på fot eller smal tornform.",
+    description: "Tillverkarspecifikation finns för FZ10-17JR; MFS400 behöver verifieras före ett jämförande köpråd.",
     productSlugs: [
       "midea-golvflakt",
       "midea-fz10-tornflakt",
     ],
     badges: [
-      "Golvfläkt",
-      "Tornfläkt",
-      "Sovrum",
-    ],
+  "Midea",
+  "Modellkontroll"
+],
   },
   {
     slug: "dagsljuslampa",

@@ -592,17 +592,13 @@ export const jeanLenSaltvattensprayProduct: Product = {
 
 export const mideaGolvflaktProduct: Product = {
   slug: "midea-golvflakt",
-  title: "Midea MFS400 golvfläkt",
+  title: "Midea MFS400",
   category: "halsa",
   asin: "B0CPSPXN9W",
   brand: "Midea",
   price: "Se aktuellt pris på Amazon",
   priceTier: "mellan",
-  badges: [
-    "DC-motor",
-    "Fjärrkontroll",
-    "8h timer",
-  ],
+  badges: [],
   image: "/products/midea-golvflakt/midea-golvflakt-thumbnail.webp",
   imageAlt: "Midea MFS400 golvfläkt",
   images: [
@@ -624,67 +620,42 @@ export const mideaGolvflaktProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4vHHoYa",
   pageHref: "/halsa/flakt/midea-golvflakt",
-  summary: "En tystare golvfläkt med fjärrkontroll och timer för dig som vill ha mer luft än en liten bordsfläkt.",
+  summary: "Namnet kommer från vår katalog. ASIN B0CPSPXN9W kunde inte läsas; exakt modellbeteckning och utförande är inte styrkta.",
   evaluation: {
-    headline: "Elins snabba koll",
-    intro: "Elin går igenom Midea MFS400 golvfläkt utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
-    verdict: "Starkt fläktval när luftflöde och låg ljudnivå prioriteras.",
-    checks: [
-      {
-        label: "Varför den är med",
-        text: "En tystare golvfläkt med fjärrkontroll och timer för dig som vill ha mer luft än en liten bordsfläkt.",
-      },
-      {
-        label: "Det Elin inte vill överdriva",
-        text: "Golvformatet tar mer plats än en tornfläkt. dB-uppgifter behandlas som köpar- och säljarinformation, inte som egen mätning.",
-      },
-    ],
-  },
+  "headline": "Modell och beslutsunderlag",
+  "intro": "du undersöker en golvfläkt och kan invänta verifiering av modellen. Vi saknar tillräckligt underlag för ett konkret köpråd om MFS400.",
+  "verdict": "du förlitar dig på uppgifterna om DC-motor, åttatimmarstimer eller särskilt tyst drift. Dessa är ännu inte verifierade för rätt variant.",
+  "checks": [
+    {
+      "label": "Källgräns",
+      "text": "Inget eget ljud- eller användartest har genomförts."
+    }
+  ]
+},
   specSectionEyebrow: "Fläkt",
-  specSectionTitle: "Midea MFS400 golvfläkt",
+  specSectionTitle: "Midea MFS400",
   specs: [
-    {
-      label: "Typ",
-      caption: "Fläkt",
-      value: "Golvfläkt",
-    },
-    {
-      label: "Motor",
-      caption: "Fläkt",
-      value: "DC",
-    },
-    {
-      label: "Styrning",
-      caption: "Fläkt",
-      value: "Fjärrkontroll och timer",
-    },
-  ],
+  {
+    "label": "Variant",
+    "caption": "Källunderlag",
+    "value": "Namnet kommer från vår katalog. ASIN B0CPSPXN9W kunde inte läsas; exakt modellbeteckning och utförande är inte styrkta."
+  }
+],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4vHHoYa",
-    ratingSummary: "Amazon visar 4.5 av 5 (658 betyg).",
-    ratingCheckedAt: "juli 2026",
-    highlights: [
-      "Midea MFS400 golvfläkt är valt för dc-motor och fjärrkontroll.",
-      "En poäng visas bara när kriterierna, källorna och bedömningen av den exakta modellen är dokumenterade.",
-    ],
-    cautions: [
-      "Golvformatet tar mer plats än en tornfläkt. dB-uppgifter behandlas som köpar- och säljarinformation, inte som egen mätning.",
-    ],
-  },
+  "sourceLabel": "Källor i produktguiden",
+  "sourceUrl": "https://www.amazon.se/dp/B0CPSPXN9W",
+  "ratingSummary": "Inga kundbetyg används som bevis för ljudnivå eller sovrumslämplighet.",
+  "highlights": [],
+  "cautions": [
+    "du förlitar dig på uppgifterna om DC-motor, åttatimmarstimer eller särskilt tyst drift. Dessa är ännu inte verifierade för rätt variant."
+  ]
+},
   ugcVideos: [],
-  uses: [
-    "En tystare golvfläkt med fjärrkontroll och timer för dig som vill ha mer luft än en liten bordsfläkt.",
-    "Passar dig som söker fläkt med tydlig kompromiss innan köp.",
-  ],
-  peopleLike: [
-    "DC-motor, Fjärrkontroll, 8h timer",
-    "Tydligare val när du jämför mot alternativen i samma guide.",
-  ],
+  uses: [],
+  peopleLike: [],
   honestCheck: [
-    "Golvformatet tar mer plats än en tornfläkt. dB-uppgifter behandlas som köpar- och säljarinformation, inte som egen mätning.",
-    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
-  ],
+  "du förlitar dig på uppgifterna om DC-motor, åttatimmarstimer eller särskilt tyst drift. Dessa är ännu inte verifierade för rätt variant."
+],
   comments: [],
 };
 
