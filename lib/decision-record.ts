@@ -1,4 +1,5 @@
 export type DecisionSource = {
+  status?: "available" | "unavailable";
   id: string;
   title: string;
   url: string;
@@ -33,7 +34,8 @@ export function validateDecisionRecord(record: DecisionRecord, productSlugs: rea
   if (!dateIsValid(record.reviewedAt)) throw new Error("Decision review date is invalid.");
   record.sources.forEach((source) => {
     const url = new URL(source.url);
-    if (url.protocol !== "https:" || url.username || url.password || !source.id.trim()
+    if ((source.status !== undefined && source.status !== "available" && source.status !== "unavailable")
+      || url.protocol !== "https:" || url.username || url.password || !source.id.trim()
       || !source.title.trim() || !source.supports.trim() || !dateIsValid(source.checkedAt)) {
       throw new Error("Decision sources need explicit provenance and dates.");
     }
@@ -47,6 +49,9 @@ export function validateDecisionRecord(record: DecisionRecord, productSlugs: rea
       || !option.chooseIf.trim() || !option.avoidIf.trim() || !option.sourceIds.length
       || option.sourceIds.some((id) => !ids.has(id))) {
       throw new Error("Decision option identity, guidance or evidence is missing.");
+    }
+    if (option.merchantVariantVerified && option.sourceIds.some((id) => record.sources.find((source) => source.id === id)?.status === "unavailable")) {
+      throw new Error("Merchant recommendations cannot rely on unavailable sources.");
     }
   });
   if (![record.payMoreWhen, record.noPurchaseWhen, record.swedishContext, record.testing, record.limitations].every((text) => text.trim())) {

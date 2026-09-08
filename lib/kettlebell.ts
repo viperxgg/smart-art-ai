@@ -71,41 +71,22 @@ export const kettlebellPicks: KettlebellPick[] = [
   {
     product: amazonBasicsKettlebellProduct,
     path: "/traning/kettlebell/amazon-basics",
-    badge: "Elins val",
-    headline: "Amazon Basics - gjutjärn som bara gör jobbet",
+    badge: "Variant ej verifierad",
+    headline: "Amazon Basics kettlebell – kontrollera vikt och variant",
     shortBody:
-      "Ett enkelt och tåligt val för riktig kettlebellträning hemma: solid gjutjärnskropp, flera vikter och starkt socialt bevis från Amazon-köpare.",
-    valueHook: "Mest kettlebell för pengarna.",
+      "Välj först när exakt vikt och antal matchar dina övningar. Den aktuella butiksvarianten är inte verifierad.",
+    valueHook: "Välj efter dina övningar",
     valueStatement:
-      "Amazon Basics är valet när du vill ha den klassiska känslan: solid gjutjärn, texturerat målat handtag och viktlägen från 6 till 20 kg. Det här är inte den snällaste kettlebellen mot golv, men det är den mest självklara när hållbarhet och värde går först.",
+      "Välj först när exakt vikt och antal matchar dina övningar. Den aktuella butiksvarianten är inte verifierad.",
     passFor: [
-      "Vill ha en tålig kettlebell för riktig styrketräning.",
-      "Prioriterar lägsta pris per kilo och lång livslängd.",
-      "Har träningsmatta eller ett golv som tål hårdare utrustning.",
-    ],
+  "Du har kontrollerat att exakt vikt och antal fyller ditt behov."
+],
     caution:
-      "Gjutjärn är hårt. Det är tuffare mot golv och tår än en mjuk kettlebell. En köpare nämner också att lacken på handtaget kom fram kantstött, så QC och frakt kan variera.",
-    verdict: "Elins val - billigast, tåligast och mest beprövad för de flesta.",
+      "Vi har inte jämfört grepp, hållbarhet eller prisvärde och anger ingen generell nybörjarvikt.",
+    verdict: "Behåll befintlig utrustning om den räcker för dina övningar.",
     amazonSummary:
-      "Amazon visar 4,7 av 5 från 12 275 recensioner på produktsidan.",
-    amazonQuotes: [
-      {
-        text: "Good quality, very happy with it.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Great value — small and dense.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Good size grip, cheap and basic, nothing to complain about.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Excellent but the lacquer arrived chipped on the handle.",
-        attribution: "Köpare, Amazon",
-      },
-    ],
+      "Aktuella köparbetyg och jämförande erfarenheter är inte verifierade.",
+    amazonQuotes: [],
     comparisonNote:
       "Vill du skydda golv och tår, särskilt i lägenhet? Se PROIRON mjuk kettlebell.",
     comparisonCta: "Se PROIRON mjuk kettlebell",
@@ -113,9 +94,9 @@ export const kettlebellPicks: KettlebellPick[] = [
     reviewSectionId: "amazon-basics-kettlebell-recensioner",
     reviewFormId: "amazon-basics-kettlebell-skriv-recension",
     targetKeyword: "amazon basics kettlebell",
-    metaTitle: "Amazon Basics kettlebell - Elins recension | Elins val",
+    metaTitle: "Amazon Basics kettlebell – kontrollera vikt och variant | Elins val",
     metaDescription:
-      "Elins genomgång av Amazon Basics gjutjärns-kettlebell: varför den är bästa värdevalet, när gjutjärn passar och vad du bör veta om golv och lack.",
+      "Välj först när exakt vikt och antal matchar dina övningar. Den aktuella butiksvarianten är inte verifierad. Vi har inte jämfört grepp, hållbarhet eller prisvärde och anger ingen generell nybörjarvikt.",
   },
   {
     product: proironSoftKettlebellProduct,

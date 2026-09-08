@@ -1009,7 +1009,9 @@ export const amazonBasicsKettlebellProduct: Product = {
   asin: "B076QJY2FN",
   brand: "Amazon Basics",
   price: "Se aktuellt pris på Amazon",
-  badges: ["Mest värde", "Tusentals omdömen", "Solid gjutjärn"],
+  badges: [
+  "Variant ej verifierad"
+],
   image: "/products/kettlebells/amazon-basics-kettlebell-thumbnail.webp",
   imageAlt: "Amazon Basics svart gjutjärns-kettlebell",
   images: [
@@ -1032,36 +1034,29 @@ export const amazonBasicsKettlebellProduct: Product = {
   amazonUrl: "https://amzn.to/4fM64tv",
   pageHref: "/traning/kettlebell/amazon-basics",
   summary:
-    "Mest kettlebell för pengarna: solid gjutjärnskänsla, flera vikter och ett beprövat basval för riktig hemmaträning.",
+    "Välj först när exakt vikt och antal matchar dina övningar. Den aktuella butiksvarianten är inte verifierad.",
   evaluation: {
-    headline: "Elins värdeval",
-    intro:
-      "Amazon Basics passar dig som vill ha en enkel, tålig kettlebell utan mjuka premiumdetaljer eller onödigt hög prislapp.",
-    verdict: "Elins val - mest kettlebell för pengarna.",
-    checks: [],
-  },
+  "headline": "Kontrollera behov och variant",
+  "intro": "Välj först när exakt vikt och antal matchar dina övningar. Den aktuella butiksvarianten är inte verifierad.",
+  "verdict": "Vi har inte jämfört grepp, hållbarhet eller prisvärde och anger ingen generell nybörjarvikt.",
+  "checks": []
+},
   specSectionEyebrow: "Kettlebell",
   specSectionTitle: "Amazon Basics gjutjärn",
   specs: [
-    { label: "Material", caption: "Kropp", value: "Solid gjutjärn" },
-    { label: "Vikter", caption: "Varianter", value: "6/10/12/16/20 kg" },
-    { label: "Grepp", caption: "Handtag", value: "Texturerat och målat" },
-  ],
+  {
+    "label": "Butiksvariant",
+    "caption": "Vikt och antal",
+    "value": "Inte verifierade"
+  }
+],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4fM64tv",
-    ratingSummary:
-      "Amazon visar 4,7 av 5 från 12 275 recensioner på produktsidan.",
-    highlights: [
-      "Köpare lyfter kvaliteten och värdet för pengarna.",
-      "Flera beskriver den som liten, tät och enkel att förstå.",
-      "Passar bäst när hållbarhet och träningskänsla går före mjuk yta.",
-    ],
-    cautions: [
-      "Gjutjärn är hårt mot golv och tår.",
-      "En köpare rapporterar lackskada på handtaget vid leverans.",
-    ],
-  },
+  "sourceLabel": "Amazon",
+  "sourceUrl": "https://amzn.to/4fM64tv",
+  "ratingSummary": "Aktuella köparbetyg och antal omdömen är inte verifierade.",
+  "highlights": [],
+  "cautions": []
+},
   ugcVideos: [],
   uses: [],
   peopleLike: [],
@@ -1208,7 +1203,9 @@ export const songmicsDumbbellSetProduct: Product = {
   asin: "B0FMR69BZ6",
   brand: "SONGMICS",
   price: "Se aktuellt pris på Amazon",
-  badges: ["Set + ställning", "Rollsäker hexagon", "Minihemmagym"],
+  badges: [
+  "Variant ej verifierad"
+],
   image: "/products/dumbbells/songmics-dumbbell-set-thumbnail.webp",
   imageAlt: "SONGMICS neoprenhantlar med ställning",
   images: [
@@ -1231,35 +1228,29 @@ export const songmicsDumbbellSetProduct: Product = {
   amazonUrl: "https://amzn.to/449gCfb",
   pageHref: "/traning/hantlar/songmics-set",
   summary:
-    "Ett färdigt minihemmagym: sex neoprenhantlar i 1, 3 och 5 kg med ställning och hexagonform som inte rullar iväg.",
+    "Ett set är relevant om du använder flera av vikterna. Exakt modellnummer, vikt per hantel och antal återstår att matcha.",
   evaluation: {
-    headline: "Färdigt hemmakit",
-    intro:
-      "SONGMICS passar dig som vill ha ett komplett startset direkt, inte bara ett par i en vikt.",
-    verdict: "Bästa färdiga startsetet med ställning.",
-    checks: [],
-  },
+  "headline": "Kontrollera behov och variant",
+  "intro": "Ett set är relevant om du använder flera av vikterna. Exakt modellnummer, vikt per hantel och antal återstår att matcha.",
+  "verdict": "Flera fasta hantlar är inte ett justerbart system. Uppgiften 1, 3 och 5 kg är inte verifierad för den aktuella butiksposten.",
+  "checks": []
+},
   specSectionEyebrow: "Hantelset",
   specSectionTitle: "SONGMICS med ställning",
   specs: [
-    { label: "Material", caption: "Kärna", value: "Gjutjärn + neopren" },
-    { label: "Vikter", caption: "Set", value: "2x1, 2x3, 2x5 kg" },
-    { label: "Extra", caption: "Förvaring", value: "PP-ställning" },
-  ],
+  {
+    "label": "Butiksvariant",
+    "caption": "Vikt och antal",
+    "value": "Inte verifierade"
+  }
+],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/449gCfb",
-    ratingSummary: "Amazon visar 4,6 av 5 från 2 839 recensioner och #23 i Dumbbells.",
-    highlights: [
-      "Köpare uppskattar setet som ett färdigt och prisvärt hemmakit.",
-      "Hexagonformen gör hantlarna mer roll-säkra på golvet.",
-      "Greppvänlig neopren och ställning gör det lättare att hålla ordning.",
-    ],
-    cautions: [
-      "Plastställningen kunde vara stabilare.",
-      "Viktavvikelse runt 3% kan förekomma och hantlarna bör inte tappas direkt på hårda trägolv.",
-    ],
-  },
+  "sourceLabel": "Amazon",
+  "sourceUrl": "https://amzn.to/449gCfb",
+  "ratingSummary": "Aktuella köparbetyg och antal omdömen är inte verifierade.",
+  "highlights": [],
+  "cautions": []
+},
   ugcVideos: [],
   uses: [],
   peopleLike: [],

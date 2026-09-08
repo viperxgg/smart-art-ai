@@ -1,3 +1,4 @@
+import { kettlebellDumbbellDecision } from "@/lib/kettlebell-dumbbell-decision";
 import { hairStylingDecision } from "@/lib/hair-styling-decision";
 import { indoorAirDecision } from "@/lib/indoor-air-decision";
 import { hairMaskDecision } from "@/lib/hair-mask-decision";
@@ -12,6 +13,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const weightOption = kettlebellDumbbellDecision.options.find((item) => item.productSlug === slug);
+  if (weightOption) return {
+    ...kettlebellDumbbellDecision, options: [weightOption],
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Jämför kettlebell och hantelset", href: "/traning/kettlebell-eller-hantlar" },
+  };
   const airOption = indoorAirDecision.options.find((item) => item.productSlug === slug);
   if (airOption) return {
     ...indoorAirDecision, options: [airOption],

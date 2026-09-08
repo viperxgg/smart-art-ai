@@ -75,44 +75,21 @@ export const hantlarPicks: HantlarPick[] = [
   {
     product: songmicsDumbbellSetProduct,
     path: "/traning/hantlar/songmics-set",
-    badge: "Komplett set",
-    headline: "SONGMICS hantelset - färdigt minihemmagym med ställning",
+    badge: "Variant ej verifierad",
+    headline: "SONGMICS hantelset – kontrollera vikterna i paketet",
     shortBody:
-      "Sex neoprenhantlar i tre nivåer med ställning och hexagonform. Ett smidigt val när du vill ha progression hemma utan att välja vikt varje gång.",
-    valueHook: "Ett komplett startset, inte bara ett par hantlar.",
+      "Ett set är relevant om du använder flera av vikterna. Exakt modellnummer, vikt per hantel och antal återstår att matcha.",
+    valueHook: "Välj efter dina övningar",
     valueStatement:
-      "SONGMICS ger dig 1, 3 och 5 kg i par, plus en enkel PP-ställning som håller ordning. Hexagonformen gör att hantlarna inte rullar iväg lika lätt. Det är inte billigaste vägen om du bara behöver en vikt, men det är smart om du vill ha ett redo hemmakit.",
+      "Ett set är relevant om du använder flera av vikterna. Exakt modellnummer, vikt per hantel och antal återstår att matcha.",
     passFor: [
-      "Vill ha flera vikter från start.",
-      "Delar hantlar med någon annan hemma.",
-      "Vill ha ställning och ordning i ett litet träningshörn.",
-    ],
+  "Du har kontrollerat att exakt vikt och antal fyller ditt behov."
+],
     caution:
-      "Ställningen är i plast och kunde vara stadigare. SONGMICS anger också att cirka 3% viktavvikelse kan förekomma, och hantlarna bör inte tappas direkt på hårda trägolv.",
-    verdict: "Bästa valet om du vill ha ett färdigt set med ställning.",
-    amazonSummary: "Amazon visar 4,6 av 5 från 2 839 recensioner och #23 i Dumbbells.",
-    amazonQuotes: [
-      {
-        text: "Worth it.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Met my expectations — good fit.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Ottima qualità — best value I've seen among sports shops.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Nice quality, grippy and easy to use.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "The stand could have been a bit sturdier — otherwise great quality.",
-        attribution: "Köpare, Amazon",
-      },
-    ],
+      "Flera fasta hantlar är inte ett justerbart system. Uppgiften 1, 3 och 5 kg är inte verifierad för den aktuella butiksposten.",
+    verdict: "Behåll befintlig utrustning om den räcker för dina övningar.",
+    amazonSummary: "Aktuella köparbetyg och jämförande erfarenheter är inte verifierade.",
+    amazonQuotes: [],
     comparisonNote:
       "Vill du bara köpa en vikt och hålla startkostnaden nere? Se PROIRON neoprenhantlar.",
     comparisonCta: "Se PROIRON neoprenhantlar",
@@ -120,9 +97,9 @@ export const hantlarPicks: HantlarPick[] = [
     reviewSectionId: "songmics-hantelset-recensioner",
     reviewFormId: "songmics-hantelset-skriv-recension",
     targetKeyword: "songmics hantelset",
-    metaTitle: "SONGMICS hantelset med ställning - Elins recension | Elins val",
+    metaTitle: "SONGMICS hantelset – kontrollera vikterna i paketet | Elins val",
     metaDescription:
-      "Elins genomgång av SONGMICS hantelset med ställning: varför det passar som minihemmagym, och vad du bör veta om plastställning och viktavvikelse.",
+      "Ett set är relevant om du använder flera av vikterna. Exakt modellnummer, vikt per hantel och antal återstår att matcha. Flera fasta hantlar är inte ett justerbart system. Uppgiften 1, 3 och 5 kg är inte verifierad för den aktuella butiksposten.",
   },
 ];
 

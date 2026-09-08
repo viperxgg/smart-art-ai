@@ -27,9 +27,14 @@ for (const mutate of [
   r => { r.sources.push({ ...r.sources[0] }); },
   r => { r.sources[0].url = 'javascript:alert(1)'; },
   r => { r.reviewedAt = '2026-02-31'; },
+  r => { r.sources[0].status = 'unchecked'; },
+  r => { r.sources[0].status = 'unavailable'; r.options[0].merchantVariantVerified = true; },
 ]) {
   const invalid = structuredClone(record);
   mutate(invalid);
   assert.throws(() => validateDecisionRecord(invalid, ['a', 'b']));
 }
+const unavailable = structuredClone(record);
+unavailable.sources[0].status = 'unavailable';
+assert.doesNotThrow(() => validateDecisionRecord(unavailable, ['a', 'b']));
 console.log('PASS: decision identity, source references, provenance, dates, caveats and no-purchase/testing fields validated.');
