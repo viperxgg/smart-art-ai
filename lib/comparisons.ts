@@ -501,9 +501,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/rengoringsolja-eller-micellarvatten",
-    description: "Djup borttagning av mycket och vattenfast smink mot snabb, skonsam rengöring utan sköljning.",
+    description: "Tvåfasolja som skakas och sköljs av eller micellärvatten med rondell? Jämför användning utan att lägga till onödiga steg.",
     productSlugs: ["some-by-mi-cleansing-oil","bioderma-sensibio-h2o"],
-    badges: ["Rengöring","Djup vs snabb","Hudvård"],
+    badges: ["Rengöring","Skölja vs rondell","Kontrollera rutinen"],
   },
   {
     slug: "lappmask-eller-lappolja",

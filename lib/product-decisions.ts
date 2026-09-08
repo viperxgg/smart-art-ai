@@ -1,3 +1,4 @@
+import { makeupCleansingDecision } from "@/lib/rengoringsolja-eller-micellarvatten";
 import { cabinCaseDecision } from "@/lib/cabin-case-decision";
 import { luggageScaleDecision } from "@/lib/luggage-scale-decision";
 import { massageGunDecision } from "@/lib/massage-gun-decision";
@@ -28,6 +29,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const cleansingOption = makeupCleansingDecision.options.find(item => item.productSlug === slug);
+  if (cleansingOption) return {
+    ...makeupCleansingDecision, options: [cleansingOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Skölja eller använda rondell?", href: "/skonhet/rengoringsolja-eller-micellarvatten" },
+  };
   if (slug === cabinCaseDecision.options[0].productSlug) return {
     ...cabinCaseDecision,
     category: { label: "Resa", href: "/sommar/resa" },
