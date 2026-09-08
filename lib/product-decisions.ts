@@ -1,3 +1,4 @@
+import { curlingMethodDecision } from "@/lib/heatless-lockar-eller-locktang";
 import { nightHairDecision } from "@/lib/satinmossa-eller-sidenorngott";
 import { denmanDecision } from "@/lib/denman-decision";
 import { detanglingDecision } from "@/lib/tangle-teezer-eller-harborste";
@@ -45,6 +46,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const curlOption = curlingMethodDecision.options.find(item => item.productSlug === slug);
+  if (curlOption) return {
+    ...curlingMethodDecision, options: [curlOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vilken lockmetod passar dig?", href: "/skonhet/heatless-lockar-eller-locktang" },
+  };
   const nightHairOption = nightHairDecision.options.find(item => item.productSlug === slug);
   if (nightHairOption) return {
     ...nightHairDecision, options: [nightHairOption],

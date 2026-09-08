@@ -1,3 +1,4 @@
+import { curlingMethodDecision } from "@/lib/heatless-lockar-eller-locktang";
 import { notFound } from "next/navigation";
 
 import { LocktangProductReviewPage } from "@/app/skonhet/locktang/_components/LocktangProductReviewPage";
@@ -14,15 +15,9 @@ export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
+      title: "Passar BaByliss C325E dig?",
+      description: curlingMethodDecision.options[1].chooseIf,
       url: pageUrl,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 1200,
-        height: 900,
-        alt: pick.product.imageAlt,
-      },
     })
   : {};
 
