@@ -1,3 +1,4 @@
+import { selfTanDecision } from "@/lib/self-tan-decision";
 import { aftersunDecision } from "@/lib/aftersun-eller-aloe-vera";
 import { moisturizerDecision } from "@/lib/cicaplast-b5-eller-cetaphil";
 import { bottleDecision } from "@/lib/bottle-decision";
@@ -19,6 +20,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === selfTanDecision.options[0].productSlug) return {
+    ...selfTanDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vad skulle motivera priset?", href: "/guider/brun-utan-sol-vart-det" },
+  };
   const aftersunOption = aftersunDecision.options.find(item => item.productSlug === slug);
   if (aftersunOption) return {
     ...aftersunDecision, options: [aftersunOption],
