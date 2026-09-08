@@ -1024,9 +1024,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     categoryLabel: "Skönhet",
     href: "/skonhet/aftersun-eller-aloe-vera",
     description:
-      "Mjukgörande after sun-lotion för kroppen mot en lätt, svalkande aloe vera-gel.",
+      "Behöver du något nytt? Jämför NIVEA-lotion och Naissance N° 707 utifrån formula, begränsningar och det du redan har.",
     productSlugs: ["nivea-sun-after-sun-lotion", "naissance-aloe-vera-gel"],
-    badges: ["Svalkar", "Återfuktar", "Sommar"],
+    badges: ["Formula", "Begränsningar", "Före köp"],
   },
   {
     slug: "harinpackning-eller-harolja",

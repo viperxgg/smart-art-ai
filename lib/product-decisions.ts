@@ -1,3 +1,4 @@
+import { aftersunDecision } from "@/lib/aftersun-eller-aloe-vera";
 import { moisturizerDecision } from "@/lib/cicaplast-b5-eller-cetaphil";
 import { bottleDecision } from "@/lib/bottle-decision";
 import { yogaMatDecision } from "@/lib/yoga-mat-decision";
@@ -18,6 +19,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const aftersunOption = aftersunDecision.options.find(item => item.productSlug === slug);
+  if (aftersunOption) return {
+    ...aftersunDecision, options: [aftersunOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Behöver du after sun eller gel?", href: "/skonhet/aftersun-eller-aloe-vera" },
+  };
   const moisturizerOption = moisturizerDecision.options.find(item => item.productSlug === slug);
   if (moisturizerOption) return {
     ...moisturizerDecision, options: [moisturizerOption],

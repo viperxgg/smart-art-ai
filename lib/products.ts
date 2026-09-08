@@ -1601,12 +1601,12 @@ export const elfSkinBronzingDropsProduct: Product = {
 
 export const niveaSunAfterSunLotionProduct: Product = {
   slug: "nivea-sun-after-sun-lotion",
-  title: "NIVEA SUN After Sun Moisturising Soothing Lotion (200 ml)",
+  title: "NIVEA SUN After Sun Moisture Lotion",
   category: "skonhet",
   asin: "B000RO5EXC",
   brand: "NIVEA Sun",
   price: "Se aktuellt pris på Amazon",
-  badges: ["Prisvärt val", "Aloe vera", "After sun"],
+  badges: [],
   image: "/products/aftersun-nivea/aftersun-nivea-thumbnail.webp",
   imageAlt: "NIVEA SUN After Sun Moisturising Soothing Lotion, 200 ml",
   images: [
@@ -1623,36 +1623,12 @@ export const niveaSunAfterSunLotionProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/44makJ6",
   pageHref: "/skonhet/aftersun",
-  summary:
-    "Ett prisvärt after sun-val med aloe vera för fukt och en svalkande känsla efter solen.",
-  evaluation: {
-    headline: "Prisvärt och beprövat after sun-val",
-    intro:
-      "Elin går igenom Amazon-signalerna för ett enkelt after sun-val inför sommarens stranddagar.",
-    verdict: "Prisvärt och beprövat after sun-val för hela sommaren.",
-    checks: [],
-  },
+  summary: "Jämför svensk lotionformula och dina behov före köp; butiksvarianten är inte matchad.",
+  evaluation: { headline: "Jämför formula och behov", intro: "Tillverkaruppgifter är inte ett eget hudtest.", verdict: "Behåll det som fungerar; ingen verifierad vinnare.", checks: [] },
   specSectionEyebrow: "After sun",
   specSectionTitle: "NIVEA SUN After Sun",
-  specs: [
-    { label: "Format", caption: "Typ", value: "Lotion, 200 ml" },
-    { label: "Innehåll", caption: "Hudvård", value: "Aloe vera, avokadoolja" },
-    { label: "Känsla", caption: "Efter solen", value: "Svalkande, lätt" },
-  ],
-  amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/44makJ6",
-    ratingSummary: "Amazon visar 4,6 av 5 från 3 237 omdömen.",
-    highlights: [
-      "Köpare lyfter den svalkande känslan.",
-      "Lotionen beskrivs absorberas snabbt.",
-      "Flera uppskattar doften och det prisvärda formatet.",
-    ],
-    cautions: [
-      "After sun ersätter inte separat solskydd.",
-      "Produkten innehåller parfym och parabener.",
-    ],
-  },
+  specs: [{ label: "Variant", caption: "Svensk sida", value: "200 ml, 80464-06802-26" }, { label: "Kontrollera", caption: "Ingredienser", value: "Parfum och Alcohol Denat. finns i svensk lista" }],
+  amazonReviewSignal: { sourceLabel: "Kundomdömen inte verifierade", sourceUrl: "", ratingSummary: "Aktuella kundbetyg ingår inte i detta underlag.", highlights: [], cautions: [] },
   ugcVideos: [],
   uses: [],
   peopleLike: [],
@@ -1662,12 +1638,12 @@ export const niveaSunAfterSunLotionProduct: Product = {
 
 export const naissanceAloeVeraGelProduct: Product = {
   slug: "naissance-aloe-vera-gel",
-  title: "Naissance Skin Soothing Aloe Vera Gel (250 ml)",
+  title: "Naissance Aloe Vera Gel N° 707",
   category: "skonhet",
   asin: "B00ENFL7CS",
   brand: "Naissance",
   price: "Se aktuellt pris på Amazon",
-  badges: ["Elins prisvärda val", "After sun", "Vegansk"],
+  badges: [],
   image:
     "/products/naissance-aloe-vera-gel/naissance-aloe-vera-gel-thumbnail.webp",
   imageAlt: "Naissance Skin Soothing Aloe Vera Gel, 250 ml",
@@ -1680,47 +1656,17 @@ export const naissanceAloeVeraGelProduct: Product = {
     {
       src: "/products/naissance-aloe-vera-gel/naissance-aloe-vera-gel-2.webp",
       alt: "Naissance Aloe Vera Gel med klar gel i skål",
-      label: "99% naturligt",
+      label: "Produktbild",
     },
   ],
   amazonUrl: "https://amzn.to/4eDlAWv",
   pageHref: "/skonhet/aloe-vera-gel",
-  summary:
-    "En kylande, vegansk aloe vera-gel (99% naturligt ursprung) som svalkar och återfuktar huden efter sol, bad och rakning - för ansikte, kropp och hår.",
-  evaluation: {
-    headline: "Svalkande aloe vera efter solen",
-    intro:
-      "Elin går igenom Amazon-signaler, innehåll och användning för en aloe vera-gel som passar svalka och återfuktning efter en dag i solen.",
-    verdict:
-      "Prisvärt och mångsidigt - en svalkande, vegansk aloe vera-gel för hela sommaren.",
-    checks: [],
-  },
+  summary: "En formulerad gel, inte enbart aloe. Kontrollera N° 707 och förpackningen före köp.",
+  evaluation: { headline: "Jämför formula och behov", intro: "Tillverkaruppgifter är inte ett eget hudtest.", verdict: "Behåll det som fungerar; ingen verifierad vinnare.", checks: [] },
   specSectionEyebrow: "After sun",
   specSectionTitle: "Naissance Aloe Vera Gel",
-  specs: [
-    { label: "Format", caption: "Typ", value: "Aloe vera-gel, 250 ml" },
-    {
-      label: "Innehåll",
-      caption: "Profil",
-      value: "99% naturligt ursprung, vegansk",
-    },
-    { label: "Passar", caption: "Användning", value: "Ansikte, kropp & hår" },
-  ],
-  amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4eDlAWv",
-    ratingSummary:
-      "Amazon visar 4,5 av 5 från 3 309 omdömen och topp-2 bland After Sun Care.",
-    highlights: [
-      "Köpare lyfter den svalkande, återfuktande känslan efter sol.",
-      "Många med känslig hud uppskattar att den är fri från parfym och alkohol.",
-      "Mångsidig - används på ansikte, kropp och i håret.",
-    ],
-    cautions: [
-      "Gjord på aloe-extrakt, inte ren pressad aloe-juice.",
-      "Kan kännas lite klibbig vid första applicering tills den torkat in.",
-    ],
-  },
+  specs: [{ label: "Variant", caption: "Tillverkarens EU-sida", value: "N° 707, 250 ml" }, { label: "Formula", caption: "Kontrollera innehållet", value: "Bland annat vatten, aloeextrakt och glycerin" }],
+  amazonReviewSignal: { sourceLabel: "Kundomdömen inte verifierade", sourceUrl: "", ratingSummary: "Aktuella kundbetyg ingår inte i detta underlag.", highlights: [], cautions: [] },
   ugcVideos: [],
   uses: [],
   peopleLike: [],
