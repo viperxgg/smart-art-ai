@@ -1,3 +1,4 @@
+import { bottleDecision } from "@/lib/bottle-decision";
 import { yogaMatDecision } from "@/lib/yoga-mat-decision";
 import { bedroomFanDecision } from "@/lib/bedroom-fan-decision";
 import { dehumidifierDecision } from "@/lib/dehumidifier-decision";
@@ -16,6 +17,13 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const bottleOption = bottleDecision.options.find((item) => item.productSlug === slug);
+  if (bottleOption) return {
+    ...bottleDecision, options: [bottleOption],
+    sources: bottleDecision.sources.filter((source) => bottleOption.sourceIds.includes(source.id)),
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Behöver du isolering?", href: "/halsa/termos-eller-vattenflaska" },
+  };
   const yogaOption = yogaMatDecision.options.find((item) => item.productSlug === slug);
   if (yogaOption) return {
     ...yogaMatDecision, options: [yogaOption],

@@ -12168,16 +12168,12 @@ export const oralBIo5Product: Product = {
 
 export const stanleyClassicProduct: Product = {
   slug: "stanley-termos",
-  title: "Stanley Classic termos 1,0 L",
+  title: "Stanley Classic Legendary Bottle – 1,0 L",
   category: "halsa",
   asin: "B000T21JFE",
   brand: "Stanley",
   price: "Se aktuellt pris på Amazon",
-  badges: [
-    "Rostfritt stål",
-    "Håller länge varmt",
-    "Robust",
-  ],
+  badges: ["Isolerad tillverkarvariant","Kontrollera före köp"],
   image: "/products/stanley-termos/termos-thumbnail.webp",
   imageAlt: "Stanley Classic termos 1,0 L",
   images: [
@@ -12204,65 +12200,27 @@ export const stanleyClassicProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4eNwGs7",
   pageHref: "/halsa/termos",
-  summary: "En robust rostfri termos på 1,0 liter som håller dryck varm eller kall i timmar. Klassisk, tålig design som passar lika bra på utflykten som på jobbet.",
-  evaluation: {
-    headline: "Robust rostfri termos som håller länge varmt eller kallt",
-    intro: "Elin går igenom Stanley Classic 1,0 L: en klassisk termos i rostfritt stål som håller dryck varm eller kall i timmar. En tålig vardagsföljeslagare som många väljer för utflykten, jobbet och långa dagar ute.",
-    verdict: "Tålig rostfri termos som håller dryck varm eller kall i timmar.",
-    checks: [],
-  },
+  summary: "Jämför användningen först. EU-sidans Hammertone Green, SKU 100000127613. Inte 0,94 L eller andra storlekar i serien. Katalogens ASIN B000T21JFE är inte matchad mot denna aktuella variant.",
+  evaluation: {"headline":"Funktion före varumärke","intro":"EU-sidans Hammertone Green, SKU 100000127613. Inte 0,94 L eller andra storlekar i serien. Katalogens ASIN B000T21JFE är inte matchad mot denna aktuella variant.","verdict":"Välj om du behöver vakuumisolering och vill hälla drycken i en separat kopp. Tillverkaren anger dubbelväggad konstruktion och ett isolerat lock som också är kopp. Avstå om du främst behöver en lätt flaska för korta turer och inte behöver isolering. Tillverkaren anger 807 g redan utan dryck; kontrollera platsen i väskan.","checks":[]},
   specSectionEyebrow: "Smart hem & livsstil",
-  specSectionTitle: "Stanley Classic 1,0 L",
-  specs: [
-    {
-      label: "Volym",
-      caption: "Storlek",
-      value: "1,0 liter",
-    },
-    {
-      label: "Material",
-      caption: "Konstruktion",
-      value: "Robust rostfritt stål",
-    },
-    {
-      label: "Funktion",
-      caption: "Värmehållning",
-      value: "Håller varmt eller kallt i timmar",
-    },
-  ],
-  amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4eNwGs7",
-    ratingSummary: "Amazon visar 4,6 av 5 från 21679 omdömen.",
-    highlights: [
-      "Köpare beskriver att drycken håller sig varm eller kall i många timmar.",
-      "Den robusta konstruktionen uppskattas för att tåla en tuff vardag.",
-      "Många använder den till utflykt, jobb och långa dagar utomhus.",
-    ],
-    cautions: [
-      "Den är relativt stor och tung när den är fylld, vilket inte passar alla.",
-      "Locket och korken behöver rengöras noga för att hålla sig fräscha över tid.",
-    ],
-  },
+  specSectionTitle: "Stanley Classic Legendary Bottle – 1,0 L",
+  specs: [{"label":"Volym","caption":"EU-tillverkarvariant","value":"1,0 L"},{"label":"Tomvikt","caption":"Tillverkaruppgift","value":"807 g"},{"label":"Konstruktion","caption":"Tillverkaruppgift","value":"18/8-stål och vakuumisolering"}],
+  amazonReviewSignal: {"sourceLabel":"Tillverkarunderlag","sourceUrl":"https://eu.stanley1913.com/products/classic-legendary-bottle-1-1-qt","ratingSummary":"Aktuella kundbetyg och butiksvariant är inte verifierade.","highlights":[],"cautions":["du främst behöver en lätt flaska för korta turer och inte behöver isolering. Tillverkaren anger 807 g redan utan dryck; kontrollera platsen i väskan."]},
   ugcVideos: [],
-  uses: [],
+  uses: ["du behöver vakuumisolering och vill hälla drycken i en separat kopp. Tillverkaren anger dubbelväggad konstruktion och ett isolerat lock som också är kopp."],
   peopleLike: [],
-  honestCheck: [],
+  honestCheck: ["EU-sidans Hammertone Green, SKU 100000127613. Inte 0,94 L eller andra storlekar i serien. Katalogens ASIN B000T21JFE är inte matchad mot denna aktuella variant.","du främst behöver en lätt flaska för korta turer och inte behöver isolering. Tillverkaren anger 807 g redan utan dryck; kontrollera platsen i väskan."],
   comments: [],
 };
 
 export const twsoulWaterBottleProduct: Product = {
   slug: "twsoul-vattenflaska",
-  title: "TWSOUL motiverande vattenflaska 2 L (tidsmarkerad)",
+  title: "TWSOUL vattenflaska",
   category: "halsa",
   asin: "B0BVB3GDHG",
   brand: "TWSOUL",
   price: "Se aktuellt pris på Amazon",
-  badges: [
-    "Tidsmarkerad",
-    "2 liter",
-    "Påminner att dricka",
-  ],
+  badges: ["Variant ej verifierad","Kontrollera före köp"],
   image: "/products/twsoul-bottle/bottle-thumbnail.webp",
   imageAlt: "TWSOUL motiverande vattenflaska 2 L, tidsmarkerad",
   images: [
@@ -12289,50 +12247,16 @@ export const twsoulWaterBottleProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/3QNcm1P",
   pageHref: "/halsa/motiverande-vattenflaska",
-  summary: "En tidsmarkerad vattenflaska på 2 liter med markeringar längs sidan som påminner dig att dricka jämnt över dagen. En enkel hjälp för dig som vill hålla koll på vätskan.",
-  evaluation: {
-    headline: "Tidsmarkerad vattenflaska som påminner dig att dricka jämnt",
-    intro: "Elin går igenom TWSOUL motiverande vattenflaska 2 L: tidsmarkeringar längs sidan visar hur mycket du druckit under dagen och påminner dig att fylla på jämnt. En enkel hjälp för dig som lätt glömmer att dricka.",
-    verdict: "Enkel tidsmarkerad flaska som påminner dig att dricka jämnt över dagen.",
-    checks: [],
-  },
+  summary: "Jämför användningen först. Katalogposten säger 2 L med tidsmarkeringar, ASIN B0BVB3GDHG. Vi har inte verifierat volym, material, temperaturgräns, lock, täthet eller skötselråd i aktuell produktdokumentation.",
+  evaluation: {"headline":"Funktion före varumärke","intro":"Katalogposten säger 2 L med tidsmarkeringar, ASIN B0BVB3GDHG. Vi har inte verifierat volym, material, temperaturgräns, lock, täthet eller skötselråd i aktuell produktdokumentation.","verdict":"Välj om du vill jämföra en större flaska utan krav på verifierad isolering och först kan kontrollera volym, lock och skötsel hos säljaren. Detta är ett villkor för fortsatt jämförelse, inte en rekommendation av den obekräftade modellen. Avstå om du behöver varm dryck, säker packning i väskan eller maskindisk utan att först kunna bekräfta att just flaskan är avsedd för det.","checks":[]},
   specSectionEyebrow: "Smart hem & livsstil",
-  specSectionTitle: "TWSOUL motiverande vattenflaska",
-  specs: [
-    {
-      label: "Volym",
-      caption: "Storlek",
-      value: "2 liter",
-    },
-    {
-      label: "Funktion",
-      caption: "Markering",
-      value: "Tidsmarkeringar längs sidan",
-    },
-    {
-      label: "Syfte",
-      caption: "Påminnelse",
-      value: "Hjälper dig dricka jämnt över dagen",
-    },
-  ],
-  amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/3QNcm1P",
-    ratingSummary: "Amazon visar 4,2 av 5 från 81 omdömen, alltså ännu ganska få omdömen att luta sig mot.",
-    highlights: [
-      "Köpare beskriver att tidsmarkeringarna gör det lättare att komma ihåg att dricka.",
-      "Den stora volymen uppskattas för att räcka en stor del av dagen.",
-      "Flera tycker att flaskan är en enkel knuff för att dricka jämnare.",
-    ],
-    cautions: [
-      "Antalet omdömen är ännu få, så helhetsbilden är inte lika säker som för storsäljare.",
-      "2 liter blir relativt stort och tungt att bära med sig fullt.",
-    ],
-  },
+  specSectionTitle: "TWSOUL vattenflaska",
+  specs: [{"label":"Volym","caption":"Äldre kataloguppgift","value":"2 L – ej verifierad"},{"label":"Material och skötsel","caption":"Aktuellt underlag","value":"Inte verifierat"}],
+  amazonReviewSignal: {"sourceLabel":"Butiksunderlag saknas","sourceUrl":"https://www.amazon.se/dp/B0BVB3GDHG","ratingSummary":"Aktuella kundbetyg och butiksvariant är inte verifierade.","highlights":[],"cautions":["du behöver varm dryck, säker packning i väskan eller maskindisk utan att först kunna bekräfta att just flaskan är avsedd för det."]},
   ugcVideos: [],
-  uses: [],
+  uses: ["du vill jämföra en större flaska utan krav på verifierad isolering och först kan kontrollera volym, lock och skötsel hos säljaren. Detta är ett villkor för fortsatt jämförelse, inte en rekommendation av den obekräftade modellen."],
   peopleLike: [],
-  honestCheck: [],
+  honestCheck: ["Katalogposten säger 2 L med tidsmarkeringar, ASIN B0BVB3GDHG. Vi har inte verifierat volym, material, temperaturgräns, lock, täthet eller skötselråd i aktuell produktdokumentation.","du behöver varm dryck, säker packning i väskan eller maskindisk utan att först kunna bekräfta att just flaskan är avsedd för det."],
   comments: [],
 };
 

@@ -463,14 +463,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "termos-eller-vattenflaska",
-    title: "Termos eller vattenflaska?",
+    title: "Termos eller vattenflaska – behöver du isolering?",
     shortTitle: "Termos eller vattenflaska",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/termos-eller-vattenflaska",
-    description: "Håll drycken kall eller varm i timmar mot en flaska som peppar dig att dricka mer.",
+    description: "Jämför isolering, tomvikt och användning. En tidsmarkering är inte ett personligt vätskeråd; exakta butiksvarianter återstår att matcha.",
     productSlugs: ["stanley-termos","twsoul-vattenflaska"],
-    badges: ["Drick mer","Håll temperatur vs påminnelse","Vardag"],
+    badges: ["Isolering eller påfyllning","Modell och begränsningar"],
   },
   {
     slug: "yogablock-eller-yogabalte",
