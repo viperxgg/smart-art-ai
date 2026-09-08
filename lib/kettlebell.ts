@@ -64,7 +64,7 @@ export const kettlebellComparisonRows = [
     "Tusentals omdömen, texturerat handtag",
     "Tystare, golv- och tåvänlig mjuk kropp",
   ],
-  ["Elins poäng", "86/100", "79/100"],
+
 ] as const;
 
 export const kettlebellPicks: KettlebellPick[] = [

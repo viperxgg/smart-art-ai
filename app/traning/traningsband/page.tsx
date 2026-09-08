@@ -40,7 +40,7 @@ const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
 export const metadata = createSeoMetadata({
   title: "Träningsband: långa band vs loop-band - Elins jämförelse | Elins val",
   description:
-    "Elin jämför långa träningsband i naturlatex mot JAKKOFOXX loop-band: helkroppsträning mot riktad ben- och rumpträning. Se Elins poäng, motståndsnivåer och vilket som passar dig.",
+    "Elin jämför långa träningsband i naturlatex mot JAKKOFOXX loop-band: helkroppsträning mot riktad ben- och rumpträning. Jämför motståndsnivåer och vilket som passar dig.",
   url: pageUrl,
   image: {
     url: `${siteConfig.url}${traningsbandPicks[1].product.image}`,

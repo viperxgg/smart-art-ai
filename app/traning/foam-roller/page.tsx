@@ -204,7 +204,7 @@ export default function FoamRollerHubPage() {
           <p className="mt-4 max-w-4xl text-lg leading-8 text-ink-soft">
             BODYMATE är det tryggare valet om du vill ha en enkel, slät och fast
             rulle. Elvire är mer mångsidigt för dig som vill ha deep-tissue-set,
-            men hållbarhetsreservationen gör att BODYMATE får högre Elins poäng.
+            men hållbarheten behöver vägas in innan du bestämmer dig.
           </p>
         </section>
 

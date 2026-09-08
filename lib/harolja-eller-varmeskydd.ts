@@ -47,7 +47,7 @@ export const haroljaEllerVarmeskyddComparisonRows = [
     "Premiumpris och silikonbaserad formula med arganolja",
     "För mycket spray kan lämna en lätt hinna",
   ],
-  ["Elins poäng", "85/100", "87/100"],
+
 ] as const;
 
 export const haroljaEllerVarmeskyddPicks: [

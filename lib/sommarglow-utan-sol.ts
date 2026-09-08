@@ -42,7 +42,7 @@ export const sommarglowUtanSolComparisonRows = [
     "Applicera jämnt med handske för att undvika ränder",
     "Blanda väl och börja med få droppar",
   ],
-  ["Elins poäng", "83/100", "81/100"],
+
 ] as const;
 
 export const sommarglowUtanSolPicks: [

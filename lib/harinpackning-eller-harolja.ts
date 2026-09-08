@@ -42,7 +42,7 @@ export const harinpackningEllerHaroljaComparisonRows = [
     "Bygger upp och mjukgör håret i längderna",
     "Slätar ytan, tämjer frizz och ger glans",
   ],
-  ["Elins poäng", "86/100", "85/100"],
+
 ] as const;
 
 export const harinpackningEllerHaroljaPicks: [

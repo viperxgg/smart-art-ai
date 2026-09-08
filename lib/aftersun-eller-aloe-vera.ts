@@ -42,7 +42,7 @@ export const aftersunEllerAloeVeraComparisonRows = [
     "Kroppen efter sol och dusch",
     "Ansikte, hår och hud - mångsidig",
   ],
-  ["Elins poäng", "88/100", "85/100"],
+
 ] as const;
 
 export const aftersunEllerAloeVeraPicks: [

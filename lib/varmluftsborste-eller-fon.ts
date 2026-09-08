@@ -38,7 +38,7 @@ export const varmluftsborsteEllerFonComparisonRows = [
     "4 (volym, rätning, kort hår, munstycke)",
     "3 munstycken inklusive diffusor",
   ],
-  ["Elins poäng", "78/100", "88/100"],
+
 ] as const;
 
 export const varmluftsborsteEllerFonPicks: [

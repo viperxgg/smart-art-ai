@@ -74,8 +74,8 @@ export default function AboutPage() {
             <p className="mt-6 text-lg leading-8 text-ink">
               Elins val är en svensk köpguide för skönhet, hälsa, träning och
               resa. Vi jämför produkter som säljs i Sverige, väger
-              specifikationer mot tusentals verkliga köparomdömen och sätter
-              Elins poäng – så att du slipper gissa.
+              behov mot funktioner och nackdelar. Vi visar ingen redaktionell
+              poäng utan dokumenterat underlag.
             </p>
             <p className="mt-5 text-lg leading-8 text-ink">
               Målet är inte att lista allt. Målet är att göra valet{" "}

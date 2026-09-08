@@ -5,7 +5,6 @@ import {
   moroccanoilHaroljaProduct,
   olaplexNo3Product,
 } from "@/lib/products";
-import { getEditorialScore } from "@/lib/scores";
 
 // "Hårinpackning – bäst i test 2026" (Fas 1, batch A2). Every product is the
 // shared record from the data layer; the three hair masks added for this page
@@ -32,20 +31,6 @@ const wellaFusionProduct = requireProduct("wella-fusion-harinpackning");
 const garnierHairFoodProduct = requireProduct(
   "garnier-fructis-hair-food-harinpackning",
 );
-
-/**
- * Elins poäng cell for the comparison table. Read from lib/scores.ts like the
- * score pills are, so the table can never drift from the rest of the page.
- */
-function scoreCell(slug: string, suffix = "") {
-  const score = getEditorialScore(slug);
-
-  if (!score) {
-    throw new Error(`Missing editorial score for "${slug}".`);
-  }
-
-  return `${score.total}${suffix}`;
-}
 
 export const harinpackning: BastITestPage = {
   slug: "harinpackning",
@@ -307,17 +292,6 @@ export const harinpackning: BastITestPage = {
           "Budget",
         ],
       },
-      {
-        label: "Elins poäng",
-        cells: [
-          scoreCell("moroccanoil-harinpackning"),
-          scoreCell("loreal-absolut-repair"),
-          scoreCell("redken-all-soft-harinpackning"),
-          scoreCell("wella-fusion-harinpackning"),
-          scoreCell("olaplex-no3-treatment"),
-          scoreCell("garnier-fructis-hair-food-harinpackning"),
-        ],
-      },
     ],
   },
   criteria: [
@@ -381,7 +355,7 @@ export const harinpackning: BastITestPage = {
     {
       question: "Vilken hårinpackning är bäst i test 2026?",
       answer:
-        "Moroccanoil Intense Hydrating Mask toppar Elins jämförelse (87 poäng) tack vare flest och bäst omdömen och en kort verkningstid; för skadat hår är L'Oréal Absolut Repair och för blekt hår Olaplex N°.3 PLUS mer träffsäkra. Vill du lägga så lite som möjligt är Garnier Fructis Hair Food det märkta budgetvalet. Poängen bygger på köparnas omdömen, inte egna tester.",
+        "Moroccanoil Intense Hydrating Mask toppar Elins jämförelse tack vare flest och bäst omdömen och en kort verkningstid; för skadat hår är L'Oréal Absolut Repair och för blekt hår Olaplex N°.3 PLUS mer träffsäkra. Vill du lägga så lite som möjligt är Garnier Fructis Hair Food det märkta budgetvalet. Poängen bygger på köparnas omdömen, inte egna tester.",
     },
     {
       question: "Vilken inpackning är bäst för torrt hår?",

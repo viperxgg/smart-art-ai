@@ -61,7 +61,7 @@ export const yogamattaComparisonRows = [
   ["Material", "High-density NBR-skum", "TPE"],
   ["Tjocklek", "13 mm", "6 mm"],
   ["Grepp", "Mjukt och dämpande, mindre stabilt i balans", "Dubbelsidigt halkfritt med markeringslinjer"],
-  ["Elins poäng", "84/100", "83/100"],
+
 ] as const;
 
 export const yogamattaPicks: YogamattaPick[] = [

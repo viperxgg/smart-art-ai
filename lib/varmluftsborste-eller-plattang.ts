@@ -39,7 +39,7 @@ export const varmluftsborsteEllerPlattangComparisonRows = [
     "4 (volym, rätning, kort hår, munstycke)",
     "Värmetåligt fodral och keramiska plattor",
   ],
-  ["Elins poäng", "78/100", "86/100"],
+
 ] as const;
 
 export const varmluftsborsteEllerPlattangPicks: [

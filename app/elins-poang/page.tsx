@@ -68,9 +68,12 @@ export default function ElinsScoreMethodPage() {
             värda pengarna för rätt person.
           </p>
           <p className="mt-5 rounded-3xl border border-line bg-rose/8 p-5 leading-7 text-ink-soft">
-            Låga poäng är möjliga. En produkt kan vara populär men ändå tappa
-            poäng om värdet är svagt, om kompromissen är stor eller om den bara
-            passar ett smalt användningsfall.
+            Vi visar ingen poäng när underlaget för den saknas. En publicerad
+            poäng behöver en dokumenterad bedömning av den exakta modellen,
+            källor och motivering för varje del samt ett granskningsdatum.
+            Äldre poäng utan detta underlag är undanhållna. Beskrivningarna
+            nedan förklarar bedömningsramen; de bevisar inte att en enskild
+            produkt har granskats eller testats.
           </p>
         </section>
 

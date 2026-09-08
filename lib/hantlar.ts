@@ -61,7 +61,7 @@ export const hantlarComparisonRows = [
   ["Typ", "Enkelt par", "Set + ställning"],
   ["Material", "Gjutjärn med neoprenyta", "Gjutjärn med neoprenyta"],
   ["Vikter", "Par från 1-10 kg", "2x1 kg, 2x3 kg, 2x5 kg"],
-  ["Elins poäng", "84/100", "82/100"],
+
 ] as const;
 
 export const hantlarPicks: HantlarPick[] = [

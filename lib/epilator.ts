@@ -61,7 +61,7 @@ export const epilatorComparisonRows = [
     "Massagerulle, pivoterande huvud, lady shaver-huvud, 5 års garanti",
   ],
   ["Pris", "Lägre", "Högre"],
-  ["Elins poäng", "84/100", "81/100"],
+
 ] as const;
 
 export const epilatorPicks: EpilatorPick[] = [

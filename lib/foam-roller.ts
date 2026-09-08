@@ -61,7 +61,7 @@ export const foamRollerComparisonRows = [
   ["Typ", "Enkel rulle", "Komplett set"],
   ["Yta", "Slät med centrumränna", "Texturerad extra-fast rulle"],
   ["Fasthet", "Medium-hård till fast", "Extra-fast och mer intensiv"],
-  ["Elins poäng", "84/100", "80/100"],
+
 ] as const;
 
 export const foamRollerPicks: FoamRollerPick[] = [

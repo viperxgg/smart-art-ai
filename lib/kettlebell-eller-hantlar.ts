@@ -34,7 +34,7 @@ export const kettlebellEllerHantlarComparisonRows = [
   ],
   ["Plats", "Tar minimal plats - ett redskap", "Behöver plats för ställning och flera par"],
   ["Kom igång", "Enkelt att börja, en vikt i taget", "Färdigt startset direkt ur lådan"],
-  ["Elins poäng", "86/100", "82/100"],
+
 ] as const;
 
 export const kettlebellEllerHantlarPicks: [

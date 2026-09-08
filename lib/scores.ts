@@ -1,5 +1,6 @@
 import { siteConfig } from "@/lib/site";
 import { waveEditorialScores } from "@/lib/wave-products";
+import { hasReviewedScore, reviewedScoreEvidence } from "@/lib/score-evidence";
 
 // Same value as lib/site-schema.ts `organizationId`; repeated here rather than
 // imported because site-schema -> product-schema -> scores would be a cycle.
@@ -42,7 +43,7 @@ export function getScoreTier(total: number): ScoreTier {
   return { label: "Rekommenderas inte", tone: "low" };
 }
 
-export const editorialScores: Record<string, EditorialScore> = {
+const editorialScores: Record<string, EditorialScore> = {
   ...waveEditorialScores,
 
   // --- Resa/travel picks scored 2026-08-31 ---------------------------------
@@ -1636,8 +1637,9 @@ export const editorialScores: Record<string, EditorialScore> = {
   },
 };
 
-export function getEditorialScore(productSlug: string) {
-  return editorialScores[productSlug];
+export function getEditorialScore(productSlug: string): EditorialScore | undefined {
+  const score = editorialScores[productSlug];
+  return hasReviewedScore(productSlug, score, reviewedScoreEvidence[productSlug]) ? score : undefined;
 }
 
 /**
@@ -1652,7 +1654,7 @@ export function getEditorialScore(productSlug: string) {
  * author nodes.
  */
 export function buildElinReviewNode(productSlug: string) {
-  const score = editorialScores[productSlug];
+  const score = getEditorialScore(productSlug);
 
   if (!score) {
     return undefined;

@@ -28,7 +28,7 @@ export const miniProjektorEllerStjarnprojektorComparisonRows = [
   ["Bäst för", "Filmkväll och bärbar bio hemma", "Mys, sömn och drömmig stämning"],
   ["Vad visas?", "Bild och video från dina enheter", "Roterande stjärnor och nebulosa-färger"],
   ["Använd i", "Vardagsrum, sovrum, utomhus på kvällen", "Sovrum och myshörna"],
-  ["Elins poäng", "84/100", "79/100"],
+
 ] as const;
 
 export const miniProjektorEllerStjarnprojektorPicks: [

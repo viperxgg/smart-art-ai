@@ -6,7 +6,6 @@ import {
   mideaFz10FlaktProduct,
   xiaomiStandingFanProduct,
 } from "@/lib/products";
-import { getEditorialScore } from "@/lib/scores";
 
 // "Tyst fläkt till sovrummet - bäst i test 2026" (Fas 1, batch A1).
 // Every product is the shared record from the data layer; midea-golvflakt lives
@@ -19,20 +18,6 @@ if (!mideaGolvflaktProduct) {
   throw new Error(
     'Product "midea-golvflakt" is missing from the data layer; the tyst-flakt-sovrum page needs it.',
   );
-}
-
-/**
- * Elins poäng cell for the comparison table. Read from lib/scores.ts like the
- * score pills are, so the table can never drift from the rest of the page.
- */
-function scoreCell(slug: string, suffix = "") {
-  const score = getEditorialScore(slug);
-
-  if (!score) {
-    throw new Error(`Missing editorial score for "${slug}".`);
-  }
-
-  return `${score.total}${suffix}`;
 }
 
 export const tystFlaktSovrum: BastITestPage = {
@@ -171,7 +156,7 @@ export const tystFlaktSovrum: BastITestPage = {
       "Ingen timer, så den går tills du stänger av den för hand.",
     ],
     caution:
-      "Honeywells 87 poäng är satta som bordsfläkt vid skrivbordet, inte som sovrumsfläkt. Poängen står kvar – men i den här kategorin rankas den inte, eftersom ljudnivån väger tyngst.",
+      "Honeywell visas som jämförelsealternativ. En odokumenterad poäng kan inte avgöra om den passar i ditt sovrum.",
     whoFor:
       "Honeywell TurboForce passar dig som vill ha snabb, riktad svalka vid skrivbordet eller i ett mindre rum utan att lägga mycket pengar. Den är med här av en anledning: många köper den till sovrummet på grund av betyget och prisnivån, och blir besvikna på ljudet. Ska fläkten stå på medan du sover, välj en av tornfläktarna i stället.",
     productHref: "/halsa/flakt/honeywell-turboforce",
@@ -181,7 +166,7 @@ export const tystFlaktSovrum: BastITestPage = {
     ],
   },
   skip: {
-    text: "Beurer LV 50 Fresh Breeze är den enda produkten i fläktfamiljen som Elin sätter omdömet ”Rekommenderas inte” på: 58 poäng och 3,6 av 5 från 242 omdömen. En luftkylare med vattentank ger en personlig bris precis framför sig, inte sval rumsluft, och betyget speglar att många köpare väntat sig något annat. Söker du svalka i sovrummet är den inte vägen dit – men vill du förstå skillnaden mellan luftkylare och fläkt innan du bestämmer dig finns hela genomgången kvar.",
+    text: "Beurer LV 50 Fresh Breeze är en luftkylare med vattentank. En luftkylare med vattentank ger en personlig bris precis framför sig, inte sval rumsluft, och betyget speglar att många köpare väntat sig något annat. Söker du svalka i sovrummet är den inte vägen dit – men vill du förstå skillnaden mellan luftkylare och fläkt innan du bestämmer dig finns hela genomgången kvar.",
     href: "/halsa/luftkylare",
   },
   table: {
@@ -240,16 +225,6 @@ export const tystFlaktSovrum: BastITestPage = {
           "Fjärrkontroll",
           "App + knappar",
           "Knappar; väggmontering",
-        ],
-      },
-      {
-        label: "Elins poäng",
-        cells: [
-          scoreCell("dreo-cruiser-pro-tornflakt"),
-          scoreCell("midea-fz10-tornflakt"),
-          scoreCell("midea-golvflakt"),
-          scoreCell("xiaomi-bordsflakt"),
-          scoreCell("honeywell-turboforce-ht900e", " (som bordsfläkt)"),
         ],
       },
     ],

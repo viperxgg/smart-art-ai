@@ -46,7 +46,7 @@ export const dreoEllerHoneywellComparisonRows = [
   ["Luftspridning", "Brett, oscillerande över rummet", "Riktad – känns även flera meter bort"],
   ["Storlek & placering", "Golvstående torn, tar mer plats", "Liten, får plats på bord/hylla"],
   ["Prisläge", "Mellan", "Budget"],
-  ["Elins poäng", "88/100", "84/100"],
+
 ] as const;
 
 export const dreoEllerHoneywellPicks: [

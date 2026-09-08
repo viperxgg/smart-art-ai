@@ -64,7 +64,7 @@ export const varmluftsborsteComparisonRows = [
     "4 (volym, rätning, kort hår, munstycke)",
     "2 (19/25 mm)",
   ],
-  ["Elins poäng", "78/100", "72/100"],
+
 ] as const;
 
 export const varmluftsborstePicks: VarmluftsborstePick[] = [

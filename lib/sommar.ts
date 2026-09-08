@@ -5254,7 +5254,7 @@ export const sommarPicks: SommarPick[] = [
     reviewSectionId: "nivea-after-sun-recensioner",
     reviewFormId: "nivea-after-sun-skriv-recension",
     targetKeyword: "nivea moisturising after sun lotion",
-    metaTitle: "NIVEA Sun After Sun i test – Elins betyg 88/100 | Elins val",
+    metaTitle: "NIVEA Sun After Sun – jämförelse och användning | Elins val",
     metaDescription:
       "NIVEA Sun After Sun i test: Elins betyg och köparnas omdömen om svalka och fukt – när lotionen räcker efter solen och när aloe vera-gel gör mer nytta.",
     relatedLinks: [
@@ -5773,7 +5773,7 @@ export const sommarPicks: SommarPick[] = [
     // 2026-09-06: brand intent only — the "bäst i test" intent moved to
     // /guider/harinpackning. The literal 86 must equal
     // getEditorialScore("loreal-absolut-repair").total in lib/scores.ts (WATCH).
-    metaTitle: "L'Oréal Absolut Repair i test – Elins betyg 86/100 | Elins val",
+    metaTitle: "L'Oréal Absolut Repair – jämförelse och användning | Elins val",
     metaDescription:
       "Elin går igenom L'Oréal Absolut Repair (4,6 av 5, 3 000+ omdömen): proteinrik inpackning för torrt och skadat hår – för vem, och när Olaplex är bättre. (Annons)",
     relatedLinks: [

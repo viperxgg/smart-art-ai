@@ -60,7 +60,7 @@ export const hartorkComparisonRows = [
     "Hopfällbar, internationell spänning",
     "3 munstycken, jon, 3 m sladd, diffusor",
   ],
-  ["Elins poäng", "80/100", "88/100"],
+
 ] as const;
 
 export const hartorkPicks: HartorkPick[] = [

@@ -34,7 +34,7 @@ export const plattaEllerLockaComparisonRows = [
   ],
   ["Typ", "Plattång i fullstorlek", "Manuell locktång"],
   ["Temperatur", "9 lägen (150-230°C)", "10 lägen (110-180°C)"],
-  ["Elins poäng", "86/100", "81/100"],
+
 ] as const;
 
 export const plattaEllerLockaPicks: [

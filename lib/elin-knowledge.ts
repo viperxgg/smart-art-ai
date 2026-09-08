@@ -16,7 +16,7 @@ export type ElinKnowledgeProduct = {
   brand: string;
   category: ProductCategorySlug;
   priceTier: PriceTier;
-  poang: number;
+  poang: number | null;
   badges: string[];
   summary: string;
   pageHref: string;
@@ -42,7 +42,7 @@ function toKnowledgeProduct(product: Product): ElinKnowledgeProduct {
     brand: product.brand,
     category: product.category,
     priceTier: getPriceTier(product),
-    poang: score?.total ?? 0,
+    poang: score?.total ?? null,
     badges: product.badges.slice(0, 3),
     summary: oneLineSummary(product.summary),
     pageHref: getProductPageHref(product),

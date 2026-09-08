@@ -534,7 +534,7 @@ function buildProductIndex(
         clean(product.title),
         product.category,
         product.priceTier,
-        product.poang,
+        product.poang ?? "ej bedömd",
         product.pageHref,
       ].join("\t"),
     )
@@ -552,7 +552,7 @@ function buildSystemBlocks(
     { type: "text", text: variantCopy[variant].systemNote },
     {
       type: "text",
-      text: `PRODUKTINDEX (TSV, en produkt per rad, kolumner: slug, titel, kategori, prisnivå, Elins poäng 0-100, sidlänk):\n${productIndex}`,
+      text: `PRODUKTINDEX (TSV, en produkt per rad, kolumner: slug, titel, kategori, prisnivå, Elins poäng 0-100 (ej bedömd = saknat underlag, aldrig noll), sidlänk):\n${productIndex}`,
       cache_control: { type: "ephemeral" },
     },
   ];

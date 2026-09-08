@@ -42,7 +42,7 @@ export const foamRollerEllerMassagepistolComparisonRows = [
     "Billigast och enklast - inget krångel",
     "Fler funktioner men kostar mer",
   ],
-  ["Elins poäng", "84/100", "76/100"],
+
 ] as const;
 
 export const foamRollerEllerMassagepistolPicks: [

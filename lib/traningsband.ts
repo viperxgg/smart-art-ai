@@ -69,7 +69,7 @@ export const traningsbandComparisonRows = [
     "Stackable, mångsidigt för hela kroppen",
     "Tusentals omdömen, bästsäljare, kompakt",
   ],
-  ["Elins poäng", "80/100", "82/100"],
+
 ] as const;
 
 export const traningsbandPicks: TraningsbandPick[] = [
