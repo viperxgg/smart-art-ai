@@ -622,7 +622,7 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/snigelslem-eller-hyaluronsyra",
-    description: "Närande, mjukgörande K-beauty-fukt mot en lätt hyaluronsyra-boost under kräm.",
+    description: "Behövs ett extra fuktsteg? Jämför COSRX Dual Essence och Minimalist med ingredienser, användning och källornas begränsningar.",
     productSlugs: ["cosrx-snail-mucin-essence","minimalist-hyaluronsyra-serum"],
     badges: ["Återfuktning","Närande vs lätt","K-beauty"],
   },

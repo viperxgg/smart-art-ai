@@ -1,3 +1,4 @@
+import { hydrationSerumDecision } from "@/lib/snigelslem-eller-hyaluronsyra";
 import { retinolDecision } from "@/lib/retinol-decisions";
 import { bakuchiolDecision } from "@/lib/bakuchiol-eller-niacinamid";
 import { vitaminCDecision } from "@/lib/vitamin-c-eller-niacinamid";
@@ -33,6 +34,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const hydrationOption = hydrationSerumDecision.options.find(item => item.productSlug === slug);
+  if (hydrationOption) return {
+    ...hydrationSerumDecision, options: [hydrationOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Behövs ett extra fuktsteg?", href: "/skonhet/snigelslem-eller-hyaluronsyra" },
+  };
   if (slug === bakuchiolDecision.options[0].productSlug) return {
     ...bakuchiolDecision,
     category: { label: "Skönhet", href: "/skonhet" },

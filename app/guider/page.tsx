@@ -9,6 +9,7 @@ import { selfTanValueGuide } from "@/lib/self-tan-decision";
 import { yogaPriceGuide } from "@/lib/yoga-mat-decision";
 import { rollerPriceGuide } from "@/lib/foam-roller-decision";
 import { massageGunPriceGuide } from "@/lib/massage-gun-decision";
+import { snailValueGuide, hyaluronicValueGuide } from "@/lib/snigelslem-eller-hyaluronsyra";
 
 export const metadata = createSeoMetadata({
   title: "Guider – vilken köpfråga vill du reda ut? | Elins val",
@@ -28,12 +29,7 @@ const guides = [
     description:
       "Utgå från bagagereglerna och hur du redan väger väskan. En våg är inte en garanti mot avgifter.",
   },
-  {
-    href: "/guider/snail-mucin-vart-hypen",
-    title: "Snail mucin – värt hypen?",
-    description:
-      "Vilket behov skulle produkten fylla i din rutin? Granska formula, källor och begränsningar före köp.",
-  },
+  decisionPreview(snailValueGuide),
   {
     href: "/guider/tyst-flakt-sovrum",
     title: "Vilken fläkt passar ditt sovrum?",
@@ -72,12 +68,7 @@ const guides = [
       "Vad saknar du i torrschampot du använder? Kontrollera formula och användning för de exakta varianterna.",
   },
   decisionPreview(salonMaskValueGuide),
-  {
-    href: "/guider/hyaluronsyra-dyrt-vs-budget",
-    title: "Hyaluronsyra: dyrt vs budget – värt skillnaden?",
-    description:
-      "Jämför den fullständiga formulan och ditt behov. Produktnamn och prislapp räcker inte till ett beslut.",
-  },
+  decisionPreview(hyaluronicValueGuide),
   {
     href: "/guider/niacinamide-10-vs-20",
     title: "Niacinamide 10% eller 20% – vad behöver jämföras?",
