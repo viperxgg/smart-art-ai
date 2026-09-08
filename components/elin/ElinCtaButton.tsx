@@ -58,6 +58,8 @@ export function ElinCtaButton({
   return (
     <button
       type="button"
+      aria-haspopup="dialog"
+      aria-controls="elin-dialog"
       onClick={() => openElin(focus, prompt)}
       className={`elin-cta ${className}`}
     >
@@ -65,6 +67,7 @@ export function ElinCtaButton({
         <ElinLauncherAvatar motion="hover" />
       </span>
       {children}
+      <span className="sr-only"> – AI-assistent</span>
     </button>
   );
 }
