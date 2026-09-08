@@ -6,6 +6,7 @@ import Script from "next/script";
 import { Send, ShieldCheck } from "lucide-react";
 
 import type { Product } from "@/lib/products";
+import { siteConfig } from "@/lib/site";
 
 type ReviewFormProps = {
   product: Product;
@@ -185,7 +186,8 @@ export function ReviewForm({ product, turnstileSiteKey }: ReviewFormProps) {
           required
         />
         <span>
-          Jag godkänner att Smart Art AI sparar mitt alias, min recension och
+          Jag godkänner att {siteConfig.operatorName}, som driver Elins val under
+          studiovarumärket FRAMFORM, sparar mitt alias, min recension och
           eventuell e-post för att hantera och moderera recensionen.
         </span>
       </label>

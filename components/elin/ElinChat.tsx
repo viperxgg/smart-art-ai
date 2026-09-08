@@ -124,7 +124,7 @@ const prefsStorageKey = "elin-prefs-v1";
 const subscribeDismissedStorageKey = "elin-subscribe-dismissed-v1";
 const maxStoredMessages = 20;
 const maxWishlistItems = 30;
-const subscriberConsentText = `Jag samtycker till att Smart Art AI sparar min mejladress och mina valda produkt- och rutinuppgifter för att kunna tipsa om prisdroppar och sparade rutiner. Jag kan när som helst begära radering eller avregistrera mig via mejl till ${siteConfig.email}.`;
+const subscriberConsentText = `Jag samtycker till att ${siteConfig.operatorName}, som driver Elins val under studiovarumärket FRAMFORM, sparar min mejladress och mina valda produkt- och rutinuppgifter för att kunna tipsa om prisdroppar och sparade rutiner. Jag kan när som helst begära radering eller avregistrera mig via mejl till ${siteConfig.email}.`;
 
 const budgetFilterChips: { value: PriceTier; label: string; prompt: string }[] = [
   { value: "budget", label: "Budget", prompt: "budgetnivå" },

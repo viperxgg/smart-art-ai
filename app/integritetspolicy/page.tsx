@@ -7,13 +7,13 @@ import { siteConfig } from "@/lib/site";
 export const metadata = createSeoMetadata({
   title: "Integritetspolicy | Elins val",
   description:
-    "Hur Smart Art AI hanterar personuppgifter, recensioner och affiliatelänkar på Elins val.",
+    "Hur Elins val hanterar personuppgifter, recensioner och affiliatelänkar, med Azzam Khalaf som ansvarig för webbplatsen.",
   url: `${siteConfig.url}/integritetspolicy`,
 });
 
 export default function PrivacyPolicyPage() {
   return (
-    <main className="min-h-screen bg-[#FFF9F7] px-4 py-8 text-[#3E2F3A]">
+    <main id="content" tabIndex={-1} className="min-h-screen bg-[#FFF9F7] px-4 py-8 text-[#3E2F3A]">
       <div className="mx-auto w-full max-w-3xl">
         <Link
           href="/"
@@ -27,13 +27,22 @@ export default function PrivacyPolicyPage() {
           <p className="text-sm font-black uppercase tracking-[0.14em] text-[#D8788D]">
             Integritet
           </p>
-          <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-none md:text-7xl">
+          <h1 className="editorial-color-kiss mt-4 break-words font-display text-3xl leading-none sm:text-5xl md:text-7xl">
             Integritetspolicy
           </h1>
           <p className="mt-6 text-lg leading-8 text-[#5f4a54]">
-            Smart Art AI driver Elins val och behandlar bara de uppgifter som
-            behövs för att webbplatsen ska fungera, hantera kontakt och granska
-            recensioner.
+            Elins val drivs av {siteConfig.operatorName},{" "}
+            {siteConfig.operatorLegalForm}, under studiovarumärket FRAMFORM.
+            {" "}{siteConfig.operatorName} är personuppgiftsansvarig för
+            webbplatsen. Kontakt för frågor om dina personuppgifter:{" "}
+            <a href={`mailto:${siteConfig.email}`} className="font-black text-[#9E5E73] underline">
+              {siteConfig.email}
+            </a>
+            . Läs mer om vem som driver webbplatsen på{" "}
+            <Link href="/om-oss" className="font-black text-[#9E5E73] underline">
+              Om oss
+            </Link>
+            .
           </p>
 
           <div className="mt-8 grid gap-5">
@@ -134,7 +143,7 @@ export default function PrivacyPolicyPage() {
                 Affiliatelänkar
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">
-                Vissa länkar går till Amazon och kan ge Smart Art AI provision
+                Vissa länkar går till Amazon och kan ge oss provision
                 om du handlar via länken. Detta påverkar inte priset för dig.
               </p>
             </article>
