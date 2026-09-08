@@ -23,7 +23,7 @@ export function AmazonPurchaseCta({
         rel="sponsored nofollow noopener"
         className="inline-flex min-h-12 items-center justify-center rounded-full bg-wine px-6 py-3 text-center font-bold text-white transition hover:opacity-90"
       >
-        Köp {product.brand} på Amazon
+        Se pris hos Amazon – {product.brand}
       </a>
       <AffiliateCaption className="mt-2" />
     </span>

@@ -1,3 +1,5 @@
+import { DecisionCard } from "@/components/DecisionCard";
+import { validateDecisionRecord, type DecisionRecord } from "@/lib/decision-record";
 import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,6 +27,8 @@ import { getEditorialScore } from "@/lib/scores";
 
 type DecisionComparisonPageProps = {
   h1: string;
+  decision?: DecisionRecord;
+  hideUnverifiedImages?: boolean;
   intro: string;
   badges: readonly string[];
   howToChoose: string;
@@ -94,6 +98,8 @@ export function buildDecisionComparisonSchemas({
 
 export function DecisionComparisonPage({
   h1,
+  decision,
+  hideUnverifiedImages = false,
   intro,
   badges,
   howToChoose,
@@ -115,12 +121,15 @@ export function DecisionComparisonPage({
       picks,
       h1,
     });
+  if (decision) validateDecisionRecord(decision, picks.map((pick) => pick.product.slug));
+  const merchantPicks = picks.filter((pick) => !decision || decision.options.find((option) => option.productSlug === pick.product.slug)?.merchantVariantVerified);
   // The last breadcrumb is the page itself, so it carries the canonical path.
   const pagePath = breadcrumbItems.at(-1)?.href ?? "/";
 
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
       {faqItems.length ? <JsonLd data={faqSchema} /> : null}
@@ -165,7 +174,9 @@ export function DecisionComparisonPage({
           </p>
         </section>
 
-        {heroImage ? (
+        {decision ? <DecisionCard decision={decision} /> : null}
+
+        {heroImage && !hideUnverifiedImages ? (
           <figure className="mt-8 overflow-hidden rounded-[2.4rem] border border-line bg-surface/72 shadow-[0_30px_90px_rgba(185,131,166,0.12)]">
             <div className="relative aspect-[16/10] bg-rose/8">
               <Image
@@ -178,35 +189,12 @@ export function DecisionComparisonPage({
               />
             </div>
             <figcaption className="p-4 text-sm leading-7 text-ink-soft md:px-6">
-              Bilden är Elins illustration av jämförelsen. Vill du se de riktiga
-              produktbilderna?{" "}
-              <a
-                href={picks[0].product.amazonUrl}
-                target="_blank"
-                rel="sponsored nofollow noopener"
-                className="font-bold text-wine underline"
-              >
-                Se {picks[0].product.brand} på Amazon
-              </a>{" "}
-              och{" "}
-              <a
-                href={picks[1].product.amazonUrl}
-                target="_blank"
-                rel="sponsored nofollow noopener"
-                className="font-bold text-wine underline"
-              >
-                {picks[1].product.brand} på Amazon
-              </a>
-              .
+              Illustrationen visar jämförelsens tema. Den är inte ett produktfoto och styrker inte modellens utseende eller egenskaper.
             </figcaption>
           </figure>
         ) : null}
 
-        <div className="mt-8 grid gap-3 sm:grid-cols-2">
-          {[picks[0], picks[1]].map((pick) => (
-            <AmazonPurchaseCta key={pick.product.slug} product={pick.product} />
-          ))}
-        </div>
+
 
         <section className="reveal-fade mt-10 rounded-[2rem] border border-line bg-surface/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <div className="flex items-start gap-4">
@@ -258,7 +246,7 @@ export function DecisionComparisonPage({
                 className="reveal-fade group overflow-hidden rounded-[2.2rem] border border-line bg-surface/72 shadow-[0_28px_90px_rgba(185,131,166,0.1)] transition hover:-translate-y-1"
                 style={{ "--i": index } as CSSProperties}
               >
-                {heroImage ? null : (
+                {heroImage || hideUnverifiedImages ? null : (
                   <div className="relative aspect-[4/3] bg-rose/8">
                     <Image
                       src={pick.product.image}
@@ -273,7 +261,7 @@ export function DecisionComparisonPage({
                   </div>
                 )}
                 <div className="p-6">
-                  {heroImage ? (
+                  {heroImage || hideUnverifiedImages ? (
                     <span className="inline-flex rounded-full bg-wine/90 px-4 py-1.5 text-xs font-black uppercase tracking-[0.12em] text-bg">
                       {pick.badge}
                     </span>
@@ -344,6 +332,12 @@ export function DecisionComparisonPage({
             </table>
           </div>
         </section>
+
+        {merchantPicks.length ? (
+          <div className="mt-8 grid gap-3 sm:grid-cols-2" data-merchant-actions>
+            {merchantPicks.map((pick) => <AmazonPurchaseCta key={pick.product.slug} product={pick.product} />)}
+          </div>
+        ) : null}
 
         <section className="reveal-fade mt-12 rounded-[2rem] border border-line bg-rose/10 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <h2 className="editorial-color-kiss font-display text-4xl">
