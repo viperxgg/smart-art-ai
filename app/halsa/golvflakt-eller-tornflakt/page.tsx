@@ -1,12 +1,14 @@
-// Generated for wave-build-2026-07. Do not edit by hand.
-import { createWaveGuideMetadata, WaveGuidePage } from "@/app/(products)/_components/WaveGuidePage";
+import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { floorTowerGuide as guide } from "@/lib/fan-decision-guides";
+import { createSeoMetadata } from "@/lib/metadata";
+import { siteConfig } from "@/lib/site";
 
-const guideId = "golvflakt-eller-tornflakt";
+export const metadata = createSeoMetadata({
+  title: guide.title + " | Elins val",
+  description: guide.intro,
+  url: siteConfig.url + guide.path,
+});
 
-export const revalidate = 3600;
-
-export const metadata = createWaveGuideMetadata(guideId);
-
-export default function HalsaGolvflaktEllerTornflaktPage() {
-  return <WaveGuidePage guideId={guideId} />;
+export default function FanDecisionPage() {
+  return <DecisionGuidePage guide={guide} />;
 }

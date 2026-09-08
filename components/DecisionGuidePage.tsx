@@ -6,6 +6,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { validateDecisionRecord, type DecisionRecord } from "@/lib/decision-record";
 
 export type DecisionGuide = {
+  parent?: { name: string; href: string };
   path: string;
   title: string;
   intro: string;
@@ -19,7 +20,7 @@ export function DecisionGuidePage({ guide }: { guide: DecisionGuide }) {
   validateDecisionRecord(guide.decision, guide.decision.options.map((option) => option.productSlug));
   if (guide.productPaths.length !== guide.decision.options.length) throw new Error("Each guide option needs its product page.");
   const breadcrumbs = [
-    { name: "Hem", href: "/" }, { name: "Guider", href: "/guider" },
+    { name: "Hem", href: "/" }, guide.parent ?? { name: "Guider", href: "/guider" },
     { name: guide.title, href: guide.path },
   ];
   return (
