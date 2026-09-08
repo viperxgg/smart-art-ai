@@ -512,9 +512,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/lappmask-eller-lappolja",
-    description: "Djup nattlig återfuktning med läppmask mot glansig dagvård med lyster med läppolja.",
+    description: "Behöver du ett nattsteg eller glans? Kontrollera LANEIGE Berry och Diors produktversion innan du köper något utöver fungerande läppvård.",
     productSlugs: ["laneige-lip-sleeping-mask","dior-lip-glow-oil"],
-    badges: ["Läppvård","Natt vs dag","Glow"],
+    badges: ["Nattsteg eller glans","Kontrollera nyansen","Avstå om rutinen fungerar"],
   },
   {
     slug: "vaxremsor-eller-rakhyvel",

@@ -1,3 +1,4 @@
+import { lipCareDecision } from "@/lib/lappmask-eller-lappolja";
 import { clayMaskDecision, sheetMaskDecision } from "@/lib/face-mask-decisions";
 import { peelingDecision } from "@/lib/bha-eller-aha-bha-peeling";
 import { acidSerumTonerDecision } from "@/lib/azelainsyra-eller-aha-bha";
@@ -38,6 +39,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const lipOption = lipCareDecision.options.find(item => item.productSlug === slug);
+  if (lipOption) return {
+    ...lipCareDecision, options: [lipOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Behöver du nattsteg eller glans?", href: "/skonhet/lappmask-eller-lappolja" },
+  };
   if (slug === clayMaskDecision.options[0].productSlug) return {
     ...clayMaskDecision,
     category: { label: "Skönhet", href: "/skonhet" },
