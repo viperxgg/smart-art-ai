@@ -3160,16 +3160,12 @@ export const larochePosayVitaminC10Product: Product = {
 
 export const ceraveHydratingCleanserProduct: Product = {
   slug: "cerave-hydrating-cleanser",
-  title: "CeraVe Hydrating Cleanser – ansiktsrengöring (236 ml)",
+  title: "CeraVe Hydrating Cleanser",
   category: "skonhet",
   asin: "B07C5R51Q9",
   brand: "CeraVe",
   price: "Se aktuellt pris på Amazon",
-  badges: [
-    "Ceramider + hyaluronsyra",
-    "Skonsam rengöring",
-    "Oparfymerad",
-  ],
+  badges: ["Rengöring", "Tillverkaruppgifter"],
   image: "/products/cerave-hydrating-cleanser/cerave-thumbnail.webp",
   imageAlt: "CeraVe Hydrating Cleanser ansiktsrengöring, 236 ml",
   images: [
@@ -3196,45 +3192,33 @@ export const ceraveHydratingCleanserProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4y9hKgT",
   pageHref: "/skonhet/cerave-rengoring",
-  summary: "En mild daglig ansiktsrengöring med ceramider och hyaluronsyra som rengör utan att torka ut. Lämnar huden mjuk och len – för normal till torr hud, och helt oparfymerad.",
+  summary: "Rengöring med ceramider och hyaluronsyra enligt tillverkaren. Den svenska formulan är granskad; butikens förpackningsvariant återstår att kontrollera.",
   evaluation: {
-    headline: "Skonsam daglig rengöring som inte torkar ut",
-    intro: "Elin går igenom CeraVe Hydrating Cleanser: en viral, mild rengöring med ceramider och hyaluronsyra. Den rengör huden utan att dra åt eller torka ut, och lämnar den mjuk och len. Formulan är oparfymerad och gjord för normal till torr hud, vilket gör den enkel att lägga in i en daglig rutin.",
-    verdict: "Skonsam vardagsrengöring för normal till torr hud, oparfymerad och mild.",
-    checks: [],
+    "headline": "Kontrollera behov och rätt formula",
+    "intro": "Rengöring med ceramider och hyaluronsyra enligt tillverkaren. Den svenska formulan är granskad; butikens förpackningsvariant återstår att kontrollera.",
+    "verdict": "Ingen universell rekommendation utan hänsyn till behov och den faktiska förpackningen.",
+    "checks": []
   },
   specSectionEyebrow: "Hudvård",
   specSectionTitle: "CeraVe Hydrating Cleanser",
   specs: [
     {
-      label: "Format",
-      caption: "Typ",
-      value: "Ansiktsrengöring, 236 ml",
+      "label": "Granskad formula",
+      "caption": "Svensk tillverkarsida",
+      "value": "D214629/4"
     },
     {
-      label: "Innehåll",
-      caption: "Aktivt",
-      value: "Ceramider + hyaluronsyra",
-    },
-    {
-      label: "Profil",
-      caption: "Hudvård",
-      value: "Normal till torr hud, oparfymerad",
-    },
+      "label": "Förpackning hos butik",
+      "caption": "Kontroll återstår",
+      "value": "Volym och formulamatchning inte verifierade."
+    }
   ],
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
     sourceUrl: "https://amzn.to/4y9hKgT",
-    ratingSummary: "Amazon visar 4,5 av 5 från 35 098 omdömen.",
-    highlights: [
-      "Köpare upplever att huden känns ren men inte uttorkad efteråt.",
-      "Krämig, mild textur som de flesta tycker sköljs av enkelt.",
-      "Uppskattas för att vara oparfymerad och skonsam i vardagen.",
-    ],
-    cautions: [
-      "Den löddrar inte mycket, vilket kan kännas ovant om du gillar rik lödder.",
-      "Är du väldigt fet i huden kan du föredra en lättare gel-rengöring.",
-    ],
+    ratingSummary: "Aktuella kundomdömen är inte verifierade i denna granskning.",
+    highlights: [],
+    cautions: [],
   },
   ugcVideos: [],
   uses: [],
@@ -4253,16 +4237,12 @@ export const paulasChoiceBhaProduct: Product = {
 
 export const cetaphilGentleCleanserProduct: Product = {
   slug: "cetaphil-gentle-cleanser",
-  title: "Cetaphil Gentle Skin Cleanser – mild ansiktsrengöring (460 ml)",
+  title: "Cetaphil Gentle Skin Cleanser",
   category: "skonhet",
   asin: "B004CRN3BA",
   brand: "Cetaphil",
   price: "Se aktuellt pris på Amazon",
-  badges: [
-    "Mild rengöring",
-    "Oparfymerad",
-    "Känslig hud",
-  ],
+  badges: ["Rengöring", "Tillverkaruppgifter"],
   image: "/products/cetaphil-cleanser/cetaphil-thumbnail.webp",
   imageAlt: "Cetaphil Gentle Skin Cleanser, 460 ml",
   images: [
@@ -4289,45 +4269,33 @@ export const cetaphilGentleCleanserProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4argDii",
   pageHref: "/skonhet/cetaphil-rengoring",
-  summary: "En mild, oparfymerad ansiktsrengöring i stor 460 ml-förpackning, gjord med tanke på känslig och torr hud. Rengör skonsamt utan att torka ut, som ett tryggt första steg i rutinen.",
+  summary: "Rengöring med glycerin, niacinamid och pantenol enligt den svenska tillverkarsidan. Butikens förpackningsvariant återstår att kontrollera.",
   evaluation: {
-    headline: "Mild rengöring för känslig och torr hud",
-    intro: "Elin går igenom Cetaphil Gentle Skin Cleanser: en mild, oparfymerad rengöring som är gjord med tanke på känslig och torr hud. Den rengör skonsamt utan att lämna huden stram, och är ett omtyckt basval för dig som vill ha ett enkelt och tryggt första steg i rutinen.",
-    verdict: "Trygg, mild rengöring för känslig och torr hud – rengör utan att torka ut.",
-    checks: [],
+    "headline": "Kontrollera behov och rätt formula",
+    "intro": "Rengöring med glycerin, niacinamid och pantenol enligt den svenska tillverkarsidan. Butikens förpackningsvariant återstår att kontrollera.",
+    "verdict": "Ingen universell rekommendation utan hänsyn till behov och den faktiska förpackningen.",
+    "checks": []
   },
   specSectionEyebrow: "Hudvård",
   specSectionTitle: "Cetaphil Gentle Skin Cleanser",
   specs: [
     {
-      label: "Format",
-      caption: "Typ",
-      value: "Rengöring, 460 ml",
+      "label": "Granskad formula",
+      "caption": "Svensk tillverkarsida",
+      "value": "FIL.1747"
     },
     {
-      label: "Innehåll",
-      caption: "Profil",
-      value: "Mild, oparfymerad",
-    },
-    {
-      label: "Profil",
-      caption: "Hudvård",
-      value: "Känslig och torr hud",
-    },
+      "label": "Förpackning hos butik",
+      "caption": "Kontroll återstår",
+      "value": "Volym och formulamatchning inte verifierade."
+    }
   ],
   amazonReviewSignal: {
     sourceLabel: "Amazon-köpare",
     sourceUrl: "https://amzn.to/4argDii",
-    ratingSummary: "Amazon visar 4,7 av 5 från 554 omdömen.",
-    highlights: [
-      "Köpare upplever att den rengör skonsamt utan att torka ut huden.",
-      "Uppskattas för att vara oparfymerad och mild mot känslig hud.",
-      "Den stora förpackningen tycker många räcker länge.",
-    ],
-    cautions: [
-      "Mild rengöring tar inte alltid bort vattenfast smink på egen hand.",
-      "Vill du ha rik lödder kan den kännas mild – den skummar lite.",
-    ],
+    ratingSummary: "Aktuella kundomdömen är inte verifierade i denna granskning.",
+    highlights: [],
+    cautions: [],
   },
   ugcVideos: [],
   uses: [],

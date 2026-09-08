@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { ProductDecisionPage } from "@/components/ProductDecisionPage";
+import { getProductDecision } from "@/lib/product-decisions";
 import {
   ArrowLeft,
   CheckCircle2,
@@ -87,6 +89,8 @@ export async function ProductReviewPage({
   pick,
 }: ProductReviewPageProps) {
   const approvedReviews = await getApprovedReviews(pick.product.slug);
+  const decision = getProductDecision(pick.product.slug);
+  if (decision) return <ProductDecisionPage pick={pick} decision={decision} reviews={approvedReviews} />;
   const editorialScore = getEditorialScore(pick.product.slug);
   const categoryLabel = categoryLabels[pick.product.category];
   const categoryHref = categoryHrefs[pick.product.category];
@@ -103,6 +107,7 @@ export async function ProductReviewPage({
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
       <ProductJsonLd
@@ -168,21 +173,6 @@ export async function ProductReviewPage({
             </p>
           </article>
         </section>
-
-        {editorialScore ? (
-          <ElinsScoreCard score={editorialScore} className="mt-8" />
-        ) : null}
-
-        <AmazonCta href={pick.product.amazonUrl} product={pick.product} className="mt-6" />
-        <div className="mt-4">
-          <ElinProductButton
-            product={{
-              slug: pick.product.slug,
-              title: pick.product.title,
-              category: pick.product.category,
-            }}
-          />
-        </div>
 
         <section className="reveal-fade mt-8 rounded-[2rem] border border-line bg-rose/10 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
@@ -278,6 +268,21 @@ export async function ProductReviewPage({
           </section>
         ) : null}
 
+        {editorialScore ? (
+          <ElinsScoreCard score={editorialScore} className="mt-8" />
+        ) : null}
+
+        <AmazonCta href={pick.product.amazonUrl} product={pick.product} className="mt-6" />
+        <div className="mt-4">
+          <ElinProductButton
+            product={{
+              slug: pick.product.slug,
+              title: pick.product.title,
+              category: pick.product.category,
+            }}
+          />
+        </div>
+
         <div className="mt-8">
           <TrustReviewLayers
             amazonSummary={pick.amazonSummary}
@@ -362,14 +367,9 @@ export async function ProductReviewPage({
           links={[
             ...(pick.relatedLinks ?? []),
             {
-              href: "/sommar",
-              label: "Sommar-glow",
-              text: "Tillbaka till Elins samlade sommarfavoriter.",
-            },
-            {
-              href: "/skonhet",
-              label: "Skönhet",
-              text: "Se fler skönhetsval för hår, hud och vardag.",
+              href: categoryHref,
+              label: categoryLabel,
+              text: `Fler jämförelser inom ${categoryLabel.toLowerCase()}.`,
             },
           ]}
         />
@@ -396,11 +396,11 @@ export async function ProductReviewPage({
         <AmazonCta href={pick.product.amazonUrl} product={pick.product} panel className="mt-8" />
 
         <Link
-          href="/sommar"
+          href={categoryHref}
           className="mt-8 inline-flex min-h-12 items-center gap-2 rounded-full border border-line bg-surface/70 px-5 font-bold text-ink-soft transition hover:text-wine"
         >
           <Sparkles size={18} aria-hidden="true" />
-          Fler sommarfavoriter
+          Fler jämförelser inom {categoryLabel.toLowerCase()}
         </Link>
       </div>
     </main>

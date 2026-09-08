@@ -18,7 +18,7 @@ export type DecisionOption = {
 
 export type DecisionRecord = {
   reviewedAt: string;
-  options: readonly [DecisionOption, DecisionOption];
+  options: readonly DecisionOption[];
   payMoreWhen: string;
   noPurchaseWhen: string;
   swedishContext: string;
@@ -39,7 +39,7 @@ export function validateDecisionRecord(record: DecisionRecord, productSlugs: rea
     }
   });
   const ids = new Set(record.sources.map((source) => source.id));
-  if (record.options.length !== productSlugs.length || ids.size !== record.sources.length) {
+  if (!record.options.length || record.options.length !== productSlugs.length || ids.size !== record.sources.length) {
     throw new Error("Decision record needs matching options and unique sources.");
   }
   record.options.forEach((option, index) => {

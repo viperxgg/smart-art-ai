@@ -56,6 +56,7 @@ export async function HartorkProductReviewPage({
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
       <ProductJsonLd
@@ -120,11 +121,7 @@ export async function HartorkProductReviewPage({
           </article>
         </section>
 
-        {editorialScore ? (
-          <ElinsScoreCard score={editorialScore} className="mt-7" />
-        ) : null}
 
-        <AmazonCta href={pick.product.amazonUrl} product={pick.product} className="mt-5" />
 
         <section className="mt-7 rounded-[2rem] border border-line bg-rose/10 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
@@ -229,6 +226,12 @@ export async function HartorkProductReviewPage({
             </p>
           </div>
         </section>
+
+        {editorialScore ? (
+          <ElinsScoreCard score={editorialScore} className="mt-7" />
+        ) : null}
+        <AmazonCta href={pick.product.amazonUrl} product={pick.product} className="mt-5" />
+
 
         <div className="mt-7">
           <TrustReviewLayers

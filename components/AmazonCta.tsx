@@ -19,7 +19,7 @@ export function AmazonCta({ href, product, className = "", panel = false }: Amaz
       rel="sponsored nofollow noopener noreferrer"
       className="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-full bg-wine px-6 text-base font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition hover:-translate-y-0.5 hover:bg-wine/90 sm:text-lg"
     >
-      Köp {product.brand} på Amazon
+      Se pris hos Amazon – {product.brand}
       <ArrowUpRight size={20} aria-hidden="true" />
     </a>
   );

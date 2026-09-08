@@ -67,6 +67,7 @@ export async function FlaktProductReviewPage({
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
       {productSchema ? <JsonLd data={productSchema} /> : null}
@@ -126,7 +127,6 @@ export async function FlaktProductReviewPage({
           </article>
         </section>
 
-        <AmazonCta href={pick.product.amazonUrl} product={pick.product} className="mt-5" />
 
         <section className="mt-7 rounded-[2rem] border border-line bg-rose/10 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
@@ -269,6 +269,9 @@ export async function FlaktProductReviewPage({
             </p>
           </div>
         </section>
+
+        <AmazonCta href={pick.product.amazonUrl} product={pick.product} className="mt-5" />
+
 
         <section className="mt-7 grid gap-4 lg:grid-cols-2">
           <article className="rounded-[2rem] border border-line bg-surface/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
