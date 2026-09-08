@@ -1,3 +1,4 @@
+import { clawClipDecision, hairTowelDecision } from "@/lib/kitsch-accessory-decisions";
 import { handCreamDecision, bodyScrubDecision } from "@/lib/hand-body-decisions";
 import { lipCareDecision } from "@/lib/lappmask-eller-lappolja";
 import { clayMaskDecision, sheetMaskDecision } from "@/lib/face-mask-decisions";
@@ -40,6 +41,16 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === clawClipDecision.options[0].productSlug) return {
+    ...clawClipDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Fler produktval inom skönhet", href: "/skonhet" },
+  };
+  if (slug === hairTowelDecision.options[0].productSlug) return {
+    ...hairTowelDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Hårolja eller värmeskydd?", href: "/skonhet/harolja-eller-varmeskydd" },
+  };
   if (slug === handCreamDecision.options[0].productSlug) return {
     ...handCreamDecision,
     category: { label: "Skönhet", href: "/skonhet" },
