@@ -633,9 +633,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/vitamin-c-eller-niacinamid",
-    description: "Lyster och glow med vitamin C mot en mild, balanserande allrounder med niacinamid.",
+    description: "Behöver du ett nytt serum? Jämför exakta formulor, C10/C12 och vad underlaget faktiskt visar.",
     productSlugs: ["la-roche-posay-vitamin-c10-serum","inkey-niacinamide-serum"],
-    badges: ["Serum","Lyster vs balans","Hudvård"],
+    badges: ["Serum","Formulor och behov","Hudvård"],
   },
   {
     slug: "oronproppar-eller-white-noise",

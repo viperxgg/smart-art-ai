@@ -1,3 +1,4 @@
+import { vitaminCDecision } from "@/lib/vitamin-c-eller-niacinamid";
 import { niacinamideDecision } from "@/lib/niacinamide-decision";
 import { makeupCleansingDecision } from "@/lib/rengoringsolja-eller-micellarvatten";
 import { cabinCaseDecision } from "@/lib/cabin-case-decision";
@@ -30,6 +31,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === vitaminCDecision.options[0].productSlug) return {
+    ...vitaminCDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Behöver du ett nytt serum?", href: "/skonhet/vitamin-c-eller-niacinamid" },
+  };
   if (slug === niacinamideDecision.options[0].productSlug) return {
     ...niacinamideDecision,
     category: { label: "Skönhet", href: "/skonhet" },
