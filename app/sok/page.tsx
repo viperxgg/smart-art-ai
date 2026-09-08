@@ -31,6 +31,7 @@ export default function SearchPage() {
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-[#FFF9F7] px-4 py-8 text-[#3E2F3A]"
     >
       <JsonLd data={breadcrumbSchema} />
@@ -48,7 +49,7 @@ export default function SearchPage() {
             Vad letar du efter?
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-[#6f5a64]">
-            Skriv en produkt, ett märke eller en kategori – så visar Elin de val
+            Skriv en produkt, ett märke eller en kategori – så visar vi produkterna
             som matchar.
           </p>
 

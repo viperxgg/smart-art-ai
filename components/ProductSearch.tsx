@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
+import { filterProducts } from "@/lib/product-search";
 import { getProductImageNote } from "@/lib/product-image-notes";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
@@ -12,7 +13,6 @@ import { ScoreBadge } from "@/components/ProductBadges";
 import {
   getProductPageHref,
   productCategories,
-  products,
   type Product,
 } from "@/lib/products";
 import { ProductDecisionPreview } from "@/components/ProductDecisionPreview";
@@ -22,37 +22,6 @@ import { getEditorialScore } from "@/lib/scores";
 const categoryLabel = new Map(
   productCategories.map((category) => [category.slug, category.label]),
 );
-
-// Fäll ihop svenska tecken så "flakt" hittar "fläkt" och "sokerskrubb" → "sockerskrubb".
-function normalize(value: string) {
-  return value
-    .toLowerCase()
-    .replace(/å/g, "a")
-    .replace(/ä/g, "a")
-    .replace(/ö/g, "o")
-    .replace(/é/g, "e")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-type SearchableProduct = {
-  product: Product;
-  haystack: string;
-};
-
-// Keep discovery searchable by identity and current decision content, not old endorsements.
-const searchIndex: SearchableProduct[] = products.map((product) => {
-  const decision = getProductDecision(product.slug);
-  const option = decision?.options[0];
-  return {
-    product,
-    haystack: normalize([
-      product.title, product.brand, product.slug,
-      categoryLabel.get(product.category) ?? product.category,
-      option?.model ?? "", option?.chooseIf ?? "", option?.avoidIf ?? "",
-    ].join(" ")),
-  };
-});
 
 const popularTerms = [
   "serum",
@@ -64,17 +33,6 @@ const popularTerms = [
   "solkräm",
   "massage",
 ];
-
-function filterProducts(query: string): Product[] {
-  const normalized = normalize(query);
-  if (!normalized) return [];
-
-  const tokens = normalized.split(" ").filter(Boolean);
-
-  return searchIndex
-    .filter(({ haystack }) => tokens.every((token) => haystack.includes(token)))
-    .map(({ product }) => product);
-}
 
 export function ProductSearch() {
   const searchParams = useSearchParams();

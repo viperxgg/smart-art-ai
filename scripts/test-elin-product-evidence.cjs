@@ -34,6 +34,17 @@ function load(file) {
   return module.exports;
 }
 const { products, getProductPageHref } = load('lib/products.ts');
+const { filterProducts } = load('lib/product-search.ts');
+const slugs = query => Array.from(filterProducts(query), product => product.slug);
+assert.deepEqual(slugs('Cetaphil').sort(), ['cetaphil-gentle-cleanser', 'cetaphil-moisturizing-cream'], 'Competitor mentions must not contaminate direct brand search');
+assert.ok(slugs('CeraVe').includes('cerave-hydrating-cleanser'));
+assert.ok(!slugs('CeraVe').includes('cetaphil-gentle-cleanser'));
+assert.deepEqual(slugs('flakt'), slugs('fläkt'), 'Swedish diacritics remain searchable');
+assert.ok(slugs('Kobo Clara').includes('kobo-clara-bw'));
+assert.ok(slugs('bibliotek').includes('kobo-clara-bw'), 'Need-based fallback remains available');
+assert.deepEqual(slugs('   '), []);
+assert.deepEqual(slugs('nonexistent-product-zzqq'), []);
+
 const { getElinProductEvidence } = load('lib/elin-product-evidence.ts');
 const prices = load('lib/price-tier.ts');
 const { getProductDecision } = load('lib/product-decisions.ts');

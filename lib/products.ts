@@ -2405,7 +2405,7 @@ export const koboClaraBwProduct: Product = {
     "Kontrollera bokformat"
   ],
   image: "/products/kobo-clara-bw/kobo-clara-bw-thumbnail.webp",
-  imageAlt: "Kobo Clara BW e-boksläsare i en svensk sommarträdgård",
+  imageAlt: "Miljöbild med person som håller en läsplatta i en trädgård; modellen är inte identifierad",
   images: [
     {
       src: "/products/kobo-clara-bw/kobo-clara-bw-1.webp",
