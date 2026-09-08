@@ -1,3 +1,4 @@
+import { manualOrAutoCurlingDecision } from "@/lib/manual-or-auto-curling";
 import { curlingMethodDecision } from "@/lib/heatless-lockar-eller-locktang";
 import { nightHairDecision } from "@/lib/satinmossa-eller-sidenorngott";
 import { denmanDecision } from "@/lib/denman-decision";
@@ -46,6 +47,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "tymo-curlpro-locktang") return {
+    ...manualOrAutoCurlingDecision, options: [manualOrAutoCurlingDecision.options[1]],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Manuell eller automatisk inrullning?", href: "/skonhet/locktang" },
+  };
   const curlOption = curlingMethodDecision.options.find(item => item.productSlug === slug);
   if (curlOption) return {
     ...curlingMethodDecision, options: [curlOption],

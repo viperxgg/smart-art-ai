@@ -1,3 +1,4 @@
+import { manualOrAutoCurlingDecision } from "@/lib/manual-or-auto-curling";
 import { notFound } from "next/navigation";
 
 import { LocktangProductReviewPage } from "@/app/skonhet/locktang/_components/LocktangProductReviewPage";
@@ -14,15 +15,9 @@ export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
+      title: "Passar TYMO CURLPRO dig?",
+      description: manualOrAutoCurlingDecision.options[1].chooseIf,
       url: pageUrl,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 1200,
-        height: 900,
-        alt: pick.product.imageAlt,
-      },
     })
   : {};
 
