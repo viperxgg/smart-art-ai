@@ -1,3 +1,4 @@
+import { cabinCaseDecision } from "@/lib/cabin-case-decision";
 import { luggageScaleDecision } from "@/lib/luggage-scale-decision";
 import { massageGunDecision } from "@/lib/massage-gun-decision";
 import { bodymateCareDecision } from "@/lib/foam-roller-decision";
@@ -27,6 +28,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === cabinCaseDecision.options[0].productSlug) return {
+    ...cabinCaseDecision,
+    category: { label: "Resa", href: "/sommar/resa" },
+    comparison: { label: "Vikt, mått och vad bokningen tillåter", href: "/guider/bagagevag-vart-det" },
+  };
   if (slug === luggageScaleDecision.options[0].productSlug) return {
     ...luggageScaleDecision,
     category: { label: "Resa", href: "/sommar/resa" },
