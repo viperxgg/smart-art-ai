@@ -1,4 +1,5 @@
 import { bedroomFanDecision } from "@/lib/bedroom-fan-decision";
+import { dehumidifierDecision } from "@/lib/dehumidifier-decision";
 import { kettlebellDumbbellDecision } from "@/lib/kettlebell-dumbbell-decision";
 import { hairStylingDecision } from "@/lib/hair-styling-decision";
 import { indoorAirDecision } from "@/lib/indoor-air-decision";
@@ -14,6 +15,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === dehumidifierDecision.options[0].productSlug) return {
+    ...dehumidifierDecision,
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Minska fukt eller filtrera partiklar?", href: "/halsa/luftavfuktare-eller-luftrenare" },
+  };
   const fanOption = bedroomFanDecision.options.find((item) => item.productSlug === slug);
   if (fanOption) return {
     ...bedroomFanDecision, options: [fanOption],
