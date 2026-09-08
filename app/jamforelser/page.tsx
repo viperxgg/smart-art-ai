@@ -20,7 +20,7 @@ export const metadata = createSeoMetadata({
 
 export default function ComparisonsIndexPage() {
   return (
-    <main className="min-h-screen bg-bg px-4 py-7 text-ink">
+    <main id="content" tabIndex={-1} className="min-h-screen bg-bg px-4 py-7 text-ink">
       <div className="mx-auto w-full max-w-6xl">
         <Link
           href="/"
