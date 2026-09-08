@@ -1,3 +1,4 @@
+import { handCreamDecision, bodyScrubDecision } from "@/lib/hand-body-decisions";
 import { lipCareDecision } from "@/lib/lappmask-eller-lappolja";
 import { clayMaskDecision, sheetMaskDecision } from "@/lib/face-mask-decisions";
 import { peelingDecision } from "@/lib/bha-eller-aha-bha-peeling";
@@ -39,6 +40,16 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === handCreamDecision.options[0].productSlug) return {
+    ...handCreamDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Fler produktval inom skönhet", href: "/skonhet" },
+  };
+  if (slug === bodyScrubDecision.options[0].productSlug) return {
+    ...bodyScrubDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Kontrollera din brun-utan-sol-rutin", href: "/guider/brun-utan-sol-vart-det" },
+  };
   const lipOption = lipCareDecision.options.find(item => item.productSlug === slug);
   if (lipOption) return {
     ...lipCareDecision, options: [lipOption],
