@@ -14,12 +14,6 @@ export const metadata = pick
       title: pick.metaTitle,
       description: pick.metaDescription,
       url: `${siteConfig.url}${pick.href}`,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 900,
-        height: 675,
-        alt: pick.product.imageAlt,
-      },
     })
   : {};
 

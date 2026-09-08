@@ -1,5 +1,6 @@
 import { massageGunDecision } from "@/lib/massage-gun-decision";
 import { bodymateCareDecision } from "@/lib/foam-roller-decision";
+import { yogaPropsDecision } from "@/lib/yogablock-eller-yogabalte";
 import { tanningMittDecision } from "@/lib/tanning-mitt-decision";
 import { bondiTanDecision } from "@/lib/bondi-tan-decision";
 import { bronzingDropsDecision } from "@/lib/bronzing-drops-decision";
@@ -25,6 +26,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const yogaPropOption = yogaPropsDecision.options.find(item => item.productSlug === slug);
+  if (yogaPropOption) return {
+    ...yogaPropsDecision, options: [yogaPropOption],
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Stöd eller ett band att hålla i?", href: "/traning/yogablock-eller-yogabalte" },
+  };
   if (slug === bodymateCareDecision.options[0].productSlug) return {
     ...bodymateCareDecision,
     category: { label: "Träning", href: "/traning" },

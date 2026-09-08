@@ -479,9 +479,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "traning",
     categoryLabel: "Träning",
     href: "/traning/yogablock-eller-yogabalte",
-    description: "Stöd och höjd med ett yogablock mot längre räckvidd i stretch med ett yogabälte.",
+    description: "Jämför korkblockens mått med 250 cm-bandets grepp och variant. Utgå från en övning; du behöver inte köpa båda.",
     productSlugs: ["bodymate-yogablock","bodymate-yogabalte"],
-    badges: ["Yoga","Stöd vs räckvidd","Nybörjare"],
+    badges: ["Mått och material","Olika redskap"],
   },
   {
     slug: "maghjul-eller-core-slider",
