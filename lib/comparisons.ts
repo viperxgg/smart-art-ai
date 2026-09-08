@@ -168,7 +168,7 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/cicaplast-b5-eller-cetaphil",
-    description: "Lugnande balsam som punktinsats mot enkel vardagskräm som bas – Elin reder ut vilken din torra höst- och vinterhud behöver.",
+    description: "Behöver du byta kräm? Jämför användning, begränsningar och den svenska produktvarianten innan du köper.",
     productSlugs: ["la-roche-posay-cicaplast-b5","cetaphil-moisturizing-cream"],
     badges: ["Torr hud","Höst & vinter","Känslig hud"],
   },

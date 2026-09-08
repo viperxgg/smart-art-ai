@@ -1,3 +1,4 @@
+import { getProductDecision } from "@/lib/product-decisions";
 import { ArrowUpRight, ShieldCheck } from "lucide-react";
 
 import { AffiliateCaption } from "@/components/AffiliateCaption";
@@ -12,6 +13,8 @@ type AmazonCtaProps = {
 };
 
 export function AmazonCta({ href, product, className = "", panel = false }: AmazonCtaProps) {
+  const decision = getProductDecision(product.slug);
+  if (decision && !decision.options[0].merchantVariantVerified) return null;
   const button = (
     <a
       href={href}

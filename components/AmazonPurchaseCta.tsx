@@ -1,3 +1,4 @@
+import { getProductDecision } from "@/lib/product-decisions";
 import { AffiliateCaption } from "@/components/AffiliateCaption";
 import type { Product } from "@/lib/products";
 
@@ -15,6 +16,8 @@ export function AmazonPurchaseCta({
   product,
   className = "",
 }: AmazonPurchaseCtaProps) {
+  const decision = getProductDecision(product.slug);
+  if (decision && !decision.options[0].merchantVariantVerified) return null;
   return (
     <span className={`inline-flex flex-col items-stretch text-center ${className}`}>
       <a

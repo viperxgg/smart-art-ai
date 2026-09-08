@@ -48,8 +48,37 @@ assert.deepEqual(slugs('nonexistent-product-zzqq'), []);
 const { getElinProductEvidence } = load('lib/elin-product-evidence.ts');
 const prices = load('lib/price-tier.ts');
 const { getProductDecision } = load('lib/product-decisions.ts');
+const { withDecisionPick } = load('lib/decision-pick.ts');
+const pickGroups = load('lib/sommar.ts');
+const allPicks = ['sommarPicks','smartSommarPicks','traningsPicks','resaPicks'].flatMap(key => pickGroups[key]);
+const currentPicks = allPicks.filter(pick => getProductDecision(pick.productSlug));
+assert.ok(currentPicks.length > 0);
+for (const pick of currentPicks) {
+ const decision = getProductDecision(pick.productSlug);
+ assert.equal(pick.headline, decision.options[0].model);
+ assert.equal(pick.caution, decision.options[0].avoidIf);
+ assert.equal(pick.verdict, decision.noPurchaseWhen);
+ assert.equal(pick.amazonQuotes.length, 0);
+}
+const legacyPick = {...currentPicks[0], cardHook:'STALE_PICK_CLAIM', caution:'STALE_PICK_CLAIM', headline:'STALE_PICK_CLAIM', metaDescription:'STALE_PICK_CLAIM', amazonQuotes:[{text:'STALE_PICK_CLAIM',attribution:'unknown'}]};
+assert.ok(!JSON.stringify(withDecisionPick(legacyPick)).includes('STALE_PICK_CLAIM'));
+assert.equal(legacyPick.cardHook,'STALE_PICK_CLAIM','Projection must not mutate the historical record');
+const unreviewedPick=allPicks.find(pick=>!getProductDecision(pick.productSlug));
+assert.ok(unreviewedPick);
+assert.equal(withDecisionPick(unreviewedPick),unreviewedPick,'Do not invent evidence for an unreviewed product');
+console.log(JSON.stringify({pickProjection:'PASS',totalPicks:allPicks.length,currentPicks:currentPicks.length}));
+
 const entries=products.map(product=>({product,evidence:getElinProductEvidence(product)}));
 const reviewed=entries.filter(entry=>entry.evidence.decision);
+const { AmazonPurchaseCta } = extractFunctions('components/AmazonPurchaseCta.tsx',['AmazonPurchaseCta'],{getProductDecision});
+const { AmazonCta } = extractFunctions('components/AmazonCta.tsx',['AmazonCta'],{getProductDecision});
+for (const {product,evidence} of reviewed) {
+ if (!evidence.decision.options[0].merchantVariantVerified) {
+  assert.equal(AmazonPurchaseCta({product}),null,'Shared purchase CTA must respect unverified variant');
+  assert.equal(AmazonCta({product,href:product.amazonUrl}),null,'Panel CTA must respect unverified variant');
+ }
+}
+
 const unreviewed=entries.filter(entry=>!entry.evidence.decision);
 assert.ok(reviewed.length>0 && unreviewed.length>0);
 for (const {product,evidence} of reviewed) {

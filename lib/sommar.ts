@@ -1,3 +1,4 @@
+import { withDecisionPick } from "@/lib/decision-pick";
 import {
   blukarMobilhallareProduct,
   haisskyLoparbalteProduct,
@@ -223,31 +224,31 @@ export const sommarSectionCopy = {
   eyebrow: "☀️ Elins sommar-glow",
   title: "Elins sommar-glow",
   intro:
-    "Sommaren och midsommar är här. Här samlar Elin produkter för en naturlig glow, mjukt hår och sandalfina fötter - sånt som faktiskt är värt pengarna inför säsongen. Listan fylls på under sommaren.",
+    "Guider för sol, värme och hudvård. Utgå från ditt behov och det du redan har; samlingen är ingen aktuell kampanj.",
   metaTitle:
     "Elins sommar-glow - sommarfynd för hud, hår & glow | Elins val",
   metaDescription:
-    "Elins utvalda sommarfavoriter: brun utan sol, glow och vård inför sommaren och midsommar - med Elins poäng och vad tusentals Amazon-köpare tycker.",
+    "Jämför behov och begränsningar i guider om sol, värme och hudvård. Ingen aktuell kampanj.",
 };
 
 export const smartSommarSectionCopy = {
   eyebrow: "Smart sommarro",
   title: "Smart sommarro",
   intro:
-    "Sommarens lugna stunder förtjänar rätt prylar. Här samlar Elin smarta favoriter för avkoppling - sånt som gör latdagarna i solstolen och midsommarledigheten skönare. Listan fylls på under sommaren.",
+    "Läsning, luft och vardagskomfort. Jämför funktioner och begränsningar innan du köper något för en ledig stund.",
   metaTitle: "Smart sommarro - smarta favoriter för avkoppling | Elins val",
   metaDescription:
-    "Elins smarta sommarfavoriter för avkoppling och läsro - med Elins poäng och vad tusentals Amazon-köpare tycker.",
+    "Guider om läsning, luft och vardagskomfort med produktinformation och köpfrågor.",
 };
 
 export const sommarFanLinks = [
   {
     href: "/halsa/flakt/dreo-cruiser-pro",
-    label: "Dreo Cruiser Pro – tystast",
+    label: "Dreo – kontrollera modell och ljuduppgift",
   },
   {
     href: "/halsa/flakt/midea-fz10",
-    label: "Midea FZ10 – bäst värde",
+    label: "Midea FZ10 – jämför funktioner",
   },
   {
     href: "/halsa/flakt/honeywell-turboforce",
@@ -259,7 +260,7 @@ export const sommarFanLinks = [
   },
 ] as const;
 
-export const sommarPicks: SommarPick[] = [
+export const sommarPicks: SommarPick[] = ([
   {
     productSlug: gehwolFotpuderProduct.slug,
     product: gehwolFotpuderProduct,
@@ -5852,9 +5853,9 @@ export const sommarPicks: SommarPick[] = [
       },
     ],
   },
-];
+] satisfies SommarPick[]).map(withDecisionPick);
 
-export const smartSommarPicks: SommarPick[] = [
+export const smartSommarPicks: SommarPick[] = ([
   {
     productSlug: goveeHygrometerProduct.slug,
     product: goveeHygrometerProduct,
@@ -7613,7 +7614,7 @@ export const smartSommarPicks: SommarPick[] = [
       },
     ],
   },
-];
+] satisfies SommarPick[]).map(withDecisionPick);
 
 export function getSommarPickBySlug(productSlug: string) {
   return sommarPicks.find((pick) => pick.productSlug === productSlug);
@@ -7625,7 +7626,7 @@ export function getSmartSommarPickBySlug(productSlug: string) {
 
 // Träningsprodukter som använder samma produktsida (SommarProductReviewPage)
 // men INTE visas i de säsongsbetonade sommar-sektionerna.
-export const traningsPicks: SommarPick[] = [
+export const traningsPicks: SommarPick[] = ([
   {
     productSlug: haisskyLoparbalteProduct.slug,
     product: haisskyLoparbalteProduct,
@@ -9214,7 +9215,7 @@ export const traningsPicks: SommarPick[] = [
       },
     ],
   },
-];
+] satisfies SommarPick[]).map(withDecisionPick);
 
 export function getTraningsPickBySlug(productSlug: string) {
   return traningsPicks.find((pick) => pick.productSlug === productSlug);
@@ -9235,7 +9236,7 @@ export const resaSectionCopy = {
     "Elins utvalda reseprylar för kabinväska och flyg: packkuber, kompressionspåsar, kabelorganizer, bagagevåg och mer – med Elins poäng och ärliga hoppa-över-tips.",
 };
 
-export const resaPicks: SommarPick[] = [
+export const resaPicks: SommarPick[] = ([
   {
     productSlug: blukarMobilhallareProduct.slug,
     product: blukarMobilhallareProduct,
@@ -11161,7 +11162,7 @@ export const resaPicks: SommarPick[] = [
       },
     ],
   },
-];
+] satisfies SommarPick[]).map(withDecisionPick);
 
 export function getResaPickBySlug(productSlug: string) {
   return resaPicks.find((pick) => pick.productSlug === productSlug);

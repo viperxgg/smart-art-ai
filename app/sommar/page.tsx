@@ -1,3 +1,5 @@
+import { getProductDecision } from "@/lib/product-decisions";
+import { ProductDecisionPreview } from "@/components/ProductDecisionPreview";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Sparkles } from "lucide-react";
@@ -44,6 +46,7 @@ export default function SommarPage() {
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
       <JsonLd data={buildBreadcrumbSchema(breadcrumbItems)} />
@@ -54,7 +57,7 @@ export default function SommarPage() {
         </div>
 
         <section className="overflow-hidden rounded-[2.4rem] border border-line bg-rose/8 shadow-[0_30px_90px_rgba(216,131,146,0.16)]">
-          <div className="grid gap-6 p-6 md:p-9 lg:grid-cols-[0.98fr_1.02fr] lg:items-center">
+          <div className="grid gap-6 p-6 md:p-9 lg:grid-cols-[0.98fr_1.02fr] lg:items-start">
             <div className="min-w-0">
               <p className="inline-flex min-h-10 items-center rounded-full border border-line bg-surface/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-wine">
                 {sommarSectionCopy.eyebrow}
@@ -73,7 +76,7 @@ export default function SommarPage() {
             </div>
 
             <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
-              {sommarPicks.map((pick) => {
+              {sommarPicks.filter((pick) => getProductDecision(pick.productSlug)).slice(0, 3).map((pick) => {
                 const score = getEditorialScore(pick.productSlug);
 
                 return (
@@ -96,7 +99,7 @@ export default function SommarPage() {
                         {pick.cardBadge}
                       </span>
                       <span className="mt-1 block font-display text-xl leading-tight text-ink">
-                        {pick.product.brand}
+                        {pick.headline}
                       </span>
                       {score ? (
                         <span className="mt-2 block text-sm font-black text-wine">
@@ -183,9 +186,7 @@ export default function SommarPage() {
                     <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
                       <Link href={pick.href}>{pick.product.title}</Link>
                     </h3>
-                    <p className="mt-3 text-sm leading-6 text-ink-soft">
-                      {pick.cardHook}
-                    </p>
+                    {getProductDecision(pick.productSlug) ? <ProductDecisionPreview slug={pick.productSlug} /> : <p className="mt-3 text-sm leading-6 text-ink-soft">{pick.cardHook}</p>}
                     <div className="mt-4 flex flex-wrap gap-2">
                       {score ? <ScoreBadge score={score} /> : null}
                     </div>
@@ -196,7 +197,7 @@ export default function SommarPage() {
                       href={pick.href}
                       className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-wine px-5 text-sm font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition hover:-translate-y-0.5 hover:bg-wine/90"
                     >
-                      Läs Elins omdöme
+                      Läs produktguiden
                       <ArrowUpRight size={17} aria-hidden="true" />
                     </Link>
                     <AmazonPurchaseCta
@@ -266,9 +267,7 @@ export default function SommarPage() {
                       <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
                         <Link href={pick.href}>{pick.product.title}</Link>
                       </h3>
-                      <p className="mt-3 text-sm leading-6 text-ink-soft">
-                        {pick.cardHook}
-                      </p>
+                      {getProductDecision(pick.productSlug) ? <ProductDecisionPreview slug={pick.productSlug} /> : <p className="mt-3 text-sm leading-6 text-ink-soft">{pick.cardHook}</p>}
                       <div className="mt-4 flex flex-wrap gap-2">
                         {score ? <ScoreBadge score={score} /> : null}
                       </div>
@@ -279,7 +278,7 @@ export default function SommarPage() {
                         href={pick.href}
                         className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-wine px-5 text-sm font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition hover:-translate-y-0.5 hover:bg-wine/90"
                       >
-                        Läs Elins omdöme
+                        Läs produktguiden
                         <ArrowUpRight size={17} aria-hidden="true" />
                       </Link>
                       <AmazonPurchaseCta
