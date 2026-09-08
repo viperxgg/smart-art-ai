@@ -1036,9 +1036,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     categoryLabel: "Skönhet",
     href: "/skonhet/harinpackning-eller-harolja",
     description:
-      "Intensiv inpackning som sköljs ur mot glansgivande leave-in-olja.",
+      "Vilket steg saknas i din rutin? Jämför en ursköljbar mask och en finishprodukt före ett extra köp.",
     productSlugs: ["loreal-absolut-repair", "moroccanoil-harolja"],
-    badges: ["Djup kur", "Glans & mjukhet", "Sommarvård"],
+    badges: ["Användning", "Begränsningar", "Före köp"],
   },
   {
     slug: "kettlebell-eller-hantlar",

@@ -52,7 +52,7 @@ const guides = [
     href: "/guider/moroccanoil-vart-priset",
     title: "Moroccanoil hårolja – värt priset?",
     description:
-      "Elin går igenom Moroccanoils ingredienser ärligt – varför håroljan ger glans, och om en billigare olja gör samma jobb.",
+      "Vad skulle motivera ett byte? Jämför behov, formula och kostnad utan löften om överlägsen eller likvärdig effekt.",
   },
   {
     href: "/guider/dyr-plattang-eller-budget",
@@ -70,7 +70,7 @@ const guides = [
     href: "/guider/harinpackning-salongsmarke-vart-det",
     title: "Hårinpackning – är salongsmärket värt det?",
     description:
-      "Elin jämför salongs- och budgethårinpackningar ärligt – när den dyrare masken är värd det.",
+      "Jämför namngivna masker efter användning och begränsningar; ett salongsmärke bevisar inte bättre resultat.",
   },
   {
     href: "/guider/hyaluronsyra-dyrt-vs-budget",
