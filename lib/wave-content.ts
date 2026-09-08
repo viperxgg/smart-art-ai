@@ -3747,296 +3747,215 @@ export const waveProductPicks: SommarPick[] = [
       },
     ],
   },
-  // --- Hårinpackning bäst i test 2026 (Fas 1, A2), added 2026-09-06 --------
-  // Quotes are real amazon.se reviews (name as shown; "(översatt)" where
-  // translated). No price is ever printed; ratings read 2026-09-06.
+  // Hair mask decision records: manufacturer sources reviewed 2026-09-08.
+  // Legacy buyer quotes and rankings are withheld pending evidence.
   {
     productSlug: "moroccanoil-harinpackning",
     product: productBySlug("moroccanoil-harinpackning"),
     href: "/skonhet/moroccanoil-harinpackning",
-    cardBadge: "Bäst i test 2026",
-    cardHook: "Fuktinpackning på fem minuter – 11 500+ omdömen.",
+    cardBadge: "Kontrollera varianten",
+    cardHook: "Tillverkarunderlag: välj om du söker en ursköljbar mask för medeltjockt till tjockt, torrt hår, vilket är tillverkarens målgrupp. Anvisningen anger 5–7 minuter efter schampo.",
     cardImage: "/products/moroccanoil-harinpackning/moroccanoil-harinpackning-thumbnail.webp",
     cardImageAlt: "Moroccanoil Intense Hydrating Mask hårinpackning, 250 ml",
-    badge: "Elins premiumval",
-    headline: "Moroccanoil Intense Hydrating Mask hårinpackning (250 ml)",
-    shortBody: "Fem minuter, arganolja och flest omdömen i Elins jämförelse. Caveaten: gjord för medel till tjockt hår – fint hår tar en mindre mängd.",
-    valueHook: "Arganolja · 5–7 min · 250 ml",
-    valueStatement: "Elin lyfter Moroccanoil Intense Hydrating Mask för att den är den inpackning köparna oftast kallar den bästa de använt: 4,6 av 5 från 11 592 omdömen, fem till sju minuters verkningstid enligt Moroccanoil och arganolja för torrt, medel till tjockt hår. Den viktiga kompromissen är hårtypen – fint hår tar en mindre mängd i längderna – och att fukt inte reparerar hår som gått av.",
+    badge: "Tillverkarunderlag",
+    headline: "Moroccanoil Intense Hydrating Mask",
+    shortBody: "Tillverkarunderlag: välj om du söker en ursköljbar mask för medeltjockt till tjockt, torrt hår, vilket är tillverkarens målgrupp. Anvisningen anger 5–7 minuter efter schampo.",
+    valueHook: "Passar användningen din rutin?",
+    valueStatement: "Intense Hydrating, formula MOIHM03 på den svenska sidan. Inte Weightless eller Restorative. Vår tidigare butikslänk för 250 ml är inte matchad på nytt.",
     passFor: [
-      "Torrt, medel–tjockt eller lockigt hår",
-      "Du vill ha resultat på fem minuter",
-      "Glans och mjukhet utan att sköljas bort",
-      "Lättare utredning enligt köpare",
+      "du söker en ursköljbar mask för medeltjockt till tjockt, torrt hår, vilket är tillverkarens målgrupp. Anvisningen anger 5–7 minuter efter schampo."
     ],
-    caution: "Två svenska omdömen: ett kallar den bästa masken, ett tycker den är lite kladdig – dosera sparsamt i längderna.",
+    caution: "Avstå om du vill ha en leave-in eller en produkt utan parfym. Den listade formulan innehåller parfym; namnet Hydrating betyder inte att alla varianter är likadana.",
     usageGuidance: {
-      title: "Före köp av Moroccanoil Intense Hydrating Mask",
-      text: "Kontrollera först att håret är torrt snarare än skadat: töjs det och går av behöver du protein eller en bond-behandling, inte mer fukt. Välj den främst om du har medel till tjockt eller lockigt hår och vill ha mjukhet och glans på fem minuter.",
+      "title": "Följ rätt förpackning",
+      "text": "Intense Hydrating, formula MOIHM03 på den svenska sidan. Inte Weightless eller Restorative. Vår tidigare butikslänk för 250 ml är inte matchad på nytt."
     },
-    verdict: "Premiumvalet för torrt hår när fukt, glans och lätt utredning är målet.",
-    amazonSummary: "Amazon visar 4,6 av 5 (11 592 omdömen).",
-    amazonQuotes: [
-      {
-        text: "The best moisturizing mask I've ever used!",
-        attribution: "— Karine Moura, 5★ (Sverige, 21 juli 2026)",
-      },
-      {
-        text: "Fin effekt men lite kladdig.",
-        attribution: "— Amazon Customer, 4★ (Sverige, 22 oktober 2022)",
-      },
-      {
-        text: "Räddade mitt torra, frissiga hår på en användning – ren fukt som levererar exakt vad den lovar (översatt).",
-        attribution: "— Kamya Pandit, 5★ (Kanada, 20 juli 2026)",
-      },
-    ],
+    verdict: "Avstå om du vill ha en leave-in eller en produkt utan parfym. Den listade formulan innehåller parfym; namnet Hydrating betyder inte att alla varianter är likadana.",
+    amazonSummary: "Inga verifierade kundbetyg används för rekommendationen.",
+    amazonQuotes: [],
     faqItems: [
       {
-        question: "Passar Moroccanoil Intense Hydrating Mask fint hår?",
-        answer: "Den är gjord för medel till tjockt hår enligt Moroccanoil. Har du fint hår: ta en liten mängd, håll dig till längder och toppar, låt den sitta kortare tid och skölj noga – eller välj Redken All Soft eller L'Oréal Absolut Repair, som köpare med tunt hår är nöjda med.",
+        "question": "Vilken variant gäller underlaget?",
+        "answer": "Intense Hydrating, formula MOIHM03 på den svenska sidan. Inte Weightless eller Restorative. Vår tidigare butikslänk för 250 ml är inte matchad på nytt."
       },
       {
-        question: "Hur ofta ska jag använda den?",
-        answer: "En till två gånger i veckan i handdukstorkat hår, fem till sju minuter, enligt Moroccanoil. Oftare ger ingen extra effekt och kan tynga håret.",
-      },
-      {
-        question: "Ersätter den Olaplex?",
-        answer: "Nej. Moroccanoil Intense Hydrating Mask ger fukt, glans och lättare utredning. Olaplex N°.3 är en bond-behandling som riktar sig mot brott i blekt och kemiskt skadat hår. Många använder Olaplex först och en fuktinpackning som den här efteråt.",
-      },
+        "question": "Har ni testat produkten?",
+        "answer": "Nej. Uppgifterna kommer från tillverkaren; vi har inte gjort ett jämförande användartest."
+      }
     ],
     reviewSectionId: "moroccanoil-harinpackning-recensioner",
     reviewFormId: "moroccanoil-harinpackning-skriv-recension",
     targetKeyword: "moroccanoil intense hydrating mask",
-    metaTitle: "Moroccanoil Intense Hydrating Mask test 2026 | Elins val",
-    metaDescription: "Elins koll på Moroccanoil Intense Hydrating Mask (4,6 av 5, 11 592 omdömen): fem minuters fuktinpackning för torrt hår – vem den passar och inte. (Annons)",
+    metaTitle: "Moroccanoil Intense Hydrating Mask – underlag före köp | Elins val",
+    metaDescription: "Kontrollera exakt variant, användning och begränsningar före köp. Tillverkarkällor och när du kan avstå.",
     relatedLinks: [
       {
-        href: "/guider/harinpackning",
-        label: "Bäst i test",
-        text: "Hårinpackning – bäst i test 2026",
+        "href": "/guider/harinpackning",
+        "label": "Jämför efter behov",
+        "text": "Vilken hårmask passar din rutin?"
       },
       {
-        href: "/skonhet/harinpackning-eller-harolja",
-        label: "Jämför",
-        text: "Hårinpackning eller hårolja – vad ska du välja?",
-      },
+        "href": "/skonhet/olaplex-eller-harinpackning",
+        "label": "Jämför användning",
+        "text": "Behandling före eller mask efter schampo?"
+      }
     ],
   },
   {
     productSlug: "redken-all-soft-harinpackning",
     product: productBySlug("redken-all-soft-harinpackning"),
     href: "/skonhet/redken-all-soft-harinpackning",
-    cardBadge: "Bäst för frissigt hår",
-    cardHook: "Mjukhet och glans i torrt, ostyrigt hår – 1 600+ omdömen.",
+    cardBadge: "Kontrollera varianten",
+    cardHook: "Tillverkarunderlag: välj om du söker en ursköljbar mask för mjukhet i torrt hår. Det är tillverkarens beskrivning, inte ett jämförande test av oss.",
     cardImage: "/products/redken-all-soft-harinpackning/redken-all-soft-harinpackning-thumbnail.webp",
     cardImageAlt: "Redken All Soft Heavy Cream hårinpackning, 250 ml",
-    badge: "Elins mellanval",
-    headline: "Redken All Soft Heavy Cream hårinpackning (250 ml)",
-    shortBody: "Fuktinpackningen för frissigt, långt hår. Caveaten: den reparerar inte brott – då är protein eller Olaplex rätt.",
-    valueHook: "Arganolja · 5–15 min · 250 ml",
-    valueStatement: "Elin lyfter Redken All Soft Heavy Cream för mjukheten och glansen som köpare i sju länder beskriver i torrt, frissigt hår: 4,6 av 5 från 1 653 omdömen och en verkningstid du väljer själv mellan 5 och 15 minuter. Den viktiga kompromissen är att det är en fuktinpackning – hår som går av behöver protein eller en bond-behandling.",
+    badge: "Tillverkarunderlag",
+    headline: "Redken All Soft Heavy Cream Mask, 250 ml",
+    shortBody: "Tillverkarunderlag: välj om du söker en ursköljbar mask för mjukhet i torrt hår. Det är tillverkarens beskrivning, inte ett jämförande test av oss.",
+    valueHook: "Passar användningen din rutin?",
+    valueStatement: "Heavy Cream-masken på Redkens amerikanska produktsida. Inte All Soft Conditioner eller All Soft Mega Curls. Svensk förpackning och butikslänk återstår att matcha.",
     passFor: [
-      "Torrt, frissigt eller långt hår",
-      "Du vill välja verkningstid själv (5–15 min)",
-      "Glans och medgörlighet",
-      "Bygga en rutin i All Soft-serien",
+      "du söker en ursköljbar mask för mjukhet i torrt hår. Det är tillverkarens beskrivning, inte ett jämförande test av oss."
     ],
-    caution: "Fuktinpackning – hår som går av behöver protein eller bond-behandling.",
+    caution: "Avstå om du vill välja enbart utifrån löftet om mindre friss eller en topplisteplacering. Vi har inte belägg för att den passar bättre än de andra för just ditt hår.",
     usageGuidance: {
-      title: "Före köp av Redken All Soft Heavy Cream",
-      text: "Kontrollera först vad håret saknar: är det torrt och ostyrigt men helt är fukt rätt väg. Töjs det och går av är L'Oréal Absolut Repair eller Olaplex bättre. Välj den främst om du har långt, frissigt hår och vill kunna styra hur intensiv behandlingen blir.",
+      "title": "Följ rätt förpackning",
+      "text": "Heavy Cream-masken på Redkens amerikanska produktsida. Inte All Soft Conditioner eller All Soft Mega Curls. Svensk förpackning och butikslänk återstår att matcha."
     },
-    verdict: "Bra val mot frissigt, torrt hår – mjukhet och glans enligt köpare i sju länder.",
-    amazonSummary: "Amazon visar 4,6 av 5 (1 653 omdömen).",
-    amazonQuotes: [
-      {
-        text: "Jag har långt, frissigt hår med mycket volym. Den här är jättebra.",
-        attribution: "— Sara, 5★ (Sverige, 30 mars 2025)",
-      },
-      {
-        text: "Topparna var superkluvna och porösa oavsett vad jag använde – efter första gången är de mjuka och glansen är tillbaka (översatt).",
-        attribution: "— Ana Ramírez, 5★ (Spanien, 16 juli 2026)",
-      },
-      {
-        text: "Ett fint balsam som hjälper mitt stressskadade hår att börja glänsa igen (översatt).",
-        attribution: "— uglybug, 5★ (Storbritannien, 27 februari 2026)",
-      },
-    ],
+    verdict: "Avstå om du vill välja enbart utifrån löftet om mindre friss eller en topplisteplacering. Vi har inte belägg för att den passar bättre än de andra för just ditt hår.",
+    amazonSummary: "Inga verifierade kundbetyg används för rekommendationen.",
+    amazonQuotes: [],
     faqItems: [
       {
-        question: "Passar Redken All Soft Heavy Cream lockigt hår?",
-        answer: "Ja, för lockar som är torra och frissiga. Vill du framför allt ha definition snarare än tyngd kan den bli mycket – börja med en mindre mängd i längderna och kamma igenom medan den sitter i.",
+        "question": "Vilken variant gäller underlaget?",
+        "answer": "Heavy Cream-masken på Redkens amerikanska produktsida. Inte All Soft Conditioner eller All Soft Mega Curls. Svensk förpackning och butikslänk återstår att matcha."
       },
       {
-        question: "Hur länge ska den sitta i?",
-        answer: "Redken anger 5–15 minuter i handdukstorkat hår efter schampo. Fem minuter räcker för veckounderhåll; mycket torrt hår kan få de fulla femton.",
-      },
-      {
-        question: "Behövs hela All Soft-serien?",
-        answer: "Nej, inpackningen fungerar ensam. Redken rekommenderar schampo och balsam ur samma serie, och ett brittiskt omdöme påpekar att resultatet kom i kombination med andra Redken-produkter – räkna med det bästa resultatet i en hel rutin.",
-      },
+        "question": "Har ni testat produkten?",
+        "answer": "Nej. Uppgifterna kommer från tillverkaren; vi har inte gjort ett jämförande användartest."
+      }
     ],
     reviewSectionId: "redken-all-soft-harinpackning-recensioner",
     reviewFormId: "redken-all-soft-harinpackning-skriv-recension",
     targetKeyword: "redken all soft heavy cream",
-    metaTitle: "Redken All Soft Heavy Cream test 2026 | Elins val",
-    metaDescription: "Elins koll på Redken All Soft Heavy Cream (4,6 av 5, 1 653 omdömen): fuktinpackning med arganolja för torrt, frissigt hår – vem den passar och när protein behövs. (Annons)",
+    metaTitle: "Redken All Soft Heavy Cream Mask, 250 ml – underlag före köp | Elins val",
+    metaDescription: "Kontrollera exakt variant, användning och begränsningar före köp. Tillverkarkällor och när du kan avstå.",
     relatedLinks: [
       {
-        href: "/guider/harinpackning",
-        label: "Bäst i test",
-        text: "Hårinpackning – bäst i test 2026",
+        "href": "/guider/harinpackning",
+        "label": "Jämför efter behov",
+        "text": "Vilken hårmask passar din rutin?"
       },
       {
-        href: "/skonhet/leave-in-eller-harolja",
-        label: "Jämför",
-        text: "Leave-in eller hårolja – vad passar frissigt hår?",
-      },
+        "href": "/skonhet/olaplex-eller-harinpackning",
+        "label": "Jämför användning",
+        "text": "Behandling före eller mask efter schampo?"
+      }
     ],
   },
   {
     productSlug: "wella-fusion-harinpackning",
     product: productBySlug("wella-fusion-harinpackning"),
     href: "/skonhet/wella-fusion-harinpackning",
-    cardBadge: "Bäst för långt & tjockt hår",
-    cardHook: "500 ml reparerande inpackning – aminosyror och lipider på fem minuter.",
+    cardBadge: "Kontrollera varianten",
+    cardHook: "Tillverkarunderlag: välj om du söker en ursköljbar mask med fem minuters verkningstid. Wella marknadsför den för skadat hår och mot brott vid kamning.",
     cardImage: "/products/wella-fusion-harinpackning/wella-fusion-harinpackning-thumbnail.webp",
     cardImageAlt: "Wella Professionals Fusion Intense Repair Mask hårinpackning, 500 ml",
-    badge: "Elins premiumval",
-    headline: "Wella Professionals Fusion Intense Repair Mask hårinpackning (500 ml)",
-    shortBody: "Mest mängd per förpackning i jämförelsen och en reparerande formel. Caveaten: 344 omdömen – stabilt betyg, mindre underlag.",
-    valueHook: "Aminosyror · 5 min · 500 ml",
-    valueStatement: "Elin lyfter Wella Fusion Intense Repair Mask för mängden – 500 ml, mest per förpackning i jämförelsen – och en reparerande formel med silkeaminosyror och mikroniserade lipider som köpare beskriver som starkare, mindre torrt hår. Den viktiga kompromissen är underlaget: 4,6 av 5 från 344 omdömen är ett stabilt betyg, men färre röster än de andra.",
+    badge: "Tillverkarunderlag",
+    headline: "Wella Professionals Fusion Intense Repair Mask",
+    shortBody: "Tillverkarunderlag: välj om du söker en ursköljbar mask med fem minuters verkningstid. Wella marknadsför den för skadat hår och mot brott vid kamning.",
+    valueHook: "Passar användningen din rutin?",
+    valueStatement: "Fusion-masken, inte Ultimate Repair. Wella-sidan för Sverige beskriver 150 ml; vår tidigare 500 ml-butikslänk och dess formula är inte verifierade.",
     passFor: [
-      "Långt, tjockt eller kemiskt behandlat hår",
-      "Hår som går av eller tovar sig",
-      "Fem minuter en gång i veckan",
-      "Du vill slippa köpa ny inpackning varje månad",
+      "du söker en ursköljbar mask med fem minuters verkningstid. Wella marknadsför den för skadat hår och mot brott vid kamning."
     ],
-    caution: "Kort eller fint hår klarar sig länge på 250 ml – storpacket lönar sig bara om du använder mycket per gång.",
+    caution: "Avstå om du väljer storpack för att det antas vara billigast per användning. Vi saknar aktuell butiksmatchning och jämförbart pris; mängd ensam visar inte värdet.",
     usageGuidance: {
-      title: "Före köp av Wella Fusion Intense Repair Mask",
-      text: "Kontrollera först hur mycket produkt du faktiskt använder per gång: kort eller fint hår klarar sig länge på 250 ml, och då är storpacket ingen vinst. Välj den främst om du har långt, tjockt eller kemiskt behandlat hår som går av och vill ha en reparerande inpackning en gång i veckan.",
+      "title": "Följ rätt förpackning",
+      "text": "Fusion-masken, inte Ultimate Repair. Wella-sidan för Sverige beskriver 150 ml; vår tidigare 500 ml-butikslänk och dess formula är inte verifierade."
     },
-    verdict: "Storpacket för långt och skadat hår – aminosyror och lipider till bäst mängd per förpackning.",
-    amazonSummary: "Amazon visar 4,6 av 5 (344 omdömen).",
-    amazonQuotes: [
-      {
-        text: "Superbra mask, rekommenderar starkt. Håret starkare, mindre torrt och mindre skadat (översatt).",
-        attribution: "— Lamare, 5★ (Frankrike, 11 augusti 2026)",
-      },
-      {
-        text: "Gjorde håret supermjukt. Doftar gott och irriterar inte alls (översatt).",
-        attribution: "— Pervin, 5★ (Förenade Arabemiraten, 25 augusti 2025)",
-      },
-      {
-        text: "Som en med hår som lätt går av är jag imponerad av resultatet (översatt).",
-        attribution: "— PureShot Photography, 5★ (Storbritannien, 17 juni 2025)",
-      },
-    ],
+    verdict: "Avstå om du väljer storpack för att det antas vara billigast per användning. Vi saknar aktuell butiksmatchning och jämförbart pris; mängd ensam visar inte värdet.",
+    amazonSummary: "Inga verifierade kundbetyg används för rekommendationen.",
+    amazonQuotes: [],
     faqItems: [
       {
-        question: "Behövs Fusion-schampot för att inpackningen ska fungera?",
-        answer: "Nej, inpackningen fungerar ensam på rent, fuktigt hår. Wella rekommenderar schampo och balsam ur samma serie för bäst resultat, och tillverkarens före-och-efter-bild visar hela rutinen – räkna inte med exakt den bilden av masken ensam.",
+        "question": "Vilken variant gäller underlaget?",
+        "answer": "Fusion-masken, inte Ultimate Repair. Wella-sidan för Sverige beskriver 150 ml; vår tidigare 500 ml-butikslänk och dess formula är inte verifierade."
       },
       {
-        question: "Passar Wella Fusion fint hår?",
-        answer: "Den är gjord för torrt och skadat hår och är rik i konsistensen. Fint hår tar en liten mängd i längder och toppar och undviker hårbotten – och klarar sig länge på en mindre inpackning, så 500 ml lönar sig sällan.",
-      },
-      {
-        question: "Hur skiljer den sig från Olaplex?",
-        answer: "Wella Fusion reparerar med silkeaminosyror och lipider som ska stärka håret och ge släthet. Olaplex N°.3 är en bond-behandling som riktar sig mot bindningarna inne i hårstrået efter blekning. Är håret framför allt blekt: Olaplex först, en inpackning som Fusion efteråt.",
-      },
+        "question": "Har ni testat produkten?",
+        "answer": "Nej. Uppgifterna kommer från tillverkaren; vi har inte gjort ett jämförande användartest."
+      }
     ],
     reviewSectionId: "wella-fusion-harinpackning-recensioner",
     reviewFormId: "wella-fusion-harinpackning-skriv-recension",
     targetKeyword: "wella fusion mask",
-    metaTitle: "Wella Fusion Intense Repair Mask test 2026 | Elins val",
-    metaDescription: "Elins koll på Wella Fusion Intense Repair Mask (4,6 av 5, 344 omdömen): 500 ml reparerande inpackning med aminosyror för långt, skadat hår – vem storpacket passar. (Annons)",
+    metaTitle: "Wella Professionals Fusion Intense Repair Mask – underlag före köp | Elins val",
+    metaDescription: "Kontrollera exakt variant, användning och begränsningar före köp. Tillverkarkällor och när du kan avstå.",
     relatedLinks: [
       {
-        href: "/guider/harinpackning",
-        label: "Bäst i test",
-        text: "Hårinpackning – bäst i test 2026",
+        "href": "/guider/harinpackning",
+        "label": "Jämför efter behov",
+        "text": "Vilken hårmask passar din rutin?"
       },
       {
-        href: "/skonhet/olaplex-eller-harinpackning",
-        label: "Jämför",
-        text: "Olaplex eller hårinpackning – värt det?",
-      },
+        "href": "/skonhet/olaplex-eller-harinpackning",
+        "label": "Jämför användning",
+        "text": "Behandling före eller mask efter schampo?"
+      }
     ],
   },
   {
     productSlug: "garnier-fructis-hair-food-harinpackning",
     product: productBySlug("garnier-fructis-hair-food-harinpackning"),
     href: "/skonhet/garnier-fructis-hair-food-harinpackning",
-    cardBadge: "Bästa budget",
-    cardHook: "400 ml – 4,7 av 5 för hela Hair Food-serien.",
+    cardBadge: "Kontrollera varianten",
+    cardHook: "Tillverkarunderlag: välj om du vill kunna använda samma produkt som balsam, hårkur eller leave-in, de tre användningssätt som Garnier anger för denna variant.",
     cardImage: "/products/garnier-fructis-hair-food-harinpackning/garnier-fructis-hair-food-harinpackning-thumbnail.webp",
     cardImageAlt: "Garnier Fructis Hair Food Pineapple hårinpackning, 400 ml",
-    badge: "Elins budgetval",
-    headline: "Garnier Fructis Hair Food Pineapple hårinpackning (400 ml)",
-    shortBody: "Undantaget under Elins vanliga prisspann: 400 ml, högst betyg i jämförelsen och tre användningssätt. Caveaten: den är lättare än salongsinpackningarna och betyget delas med de andra Hair Food-dofterna.",
-    valueHook: "Ananasextrakt · 3 min · 400 ml",
-    valueStatement: "Elin lyfter Garnier Fructis Hair Food Pineapple för att den visar hur litet betygsavståndet är mellan budget och salong: 4,7 av 5 från 212 omdömen är det högsta betyget i jämförelsen, men Amazon räknar ihop omdömena för hela Hair Food-serien, så betyget delas mellan dofterna. Burken rymmer 400 ml och Garnier anger tre användningssätt – balsam, inpackning i tre minuter eller leave-in i längder och toppar. Den viktiga kompromissen är formeln: här finns ananasextrakt, sheasmör och vegetabiliska oljor, men varken proteiner eller bond-teknologi, så hår som gått av behöver något annat.",
+    badge: "Tillverkarunderlag",
+    headline: "Garnier Fructis Hair Food Pineapple Mask, 400 ml",
+    shortBody: "Tillverkarunderlag: välj om du vill kunna använda samma produkt som balsam, hårkur eller leave-in, de tre användningssätt som Garnier anger för denna variant.",
+    valueHook: "Passar användningen din rutin?",
+    valueStatement: "Ananas/Pineapple på Garniers svenska sida, inte Banana, Papaya eller Watermelon. Hela serien kan inte behandlas som samma formula eller samma omdömesunderlag.",
     passFor: [
-      "Långt, glanslöst hår som mest saknar mjukhet",
-      "Du vill ha mycket produkt per köp",
-      "Balsam, inpackning och leave-in i samma burk",
-      "Du vill prova en inpackning utan att gå upp i salongsklass",
+      "du vill kunna använda samma produkt som balsam, hårkur eller leave-in, de tre användningssätt som Garnier anger för denna variant."
     ],
-    caution: "Ett svenskt omdöme säger det rakt ut: den luktar gott men gör mindre som inpackning än som balsam – ”håret fortfarande trassligt”.",
+    caution: "Avstå om du förväntar dig samma instruktioner för alla tre användningssätten. Läs burken för mängd och eventuell ursköljning; den lästa svenska webbsidan anger ingen exakt verkningstid.",
     usageGuidance: {
-      title: "Före köp av Garnier Fructis Hair Food Pineapple",
-      text: "Läs av håret först: är det torrt och glanslöst men helt räcker den här långt. Går håret av, töjs utan att fjädra tillbaka eller är nyblekt behöver du protein eller en bond-behandling i stället. Som inpackning anger Garnier tre minuter på blött hår och noggrann sköljning.",
+      "title": "Följ rätt förpackning",
+      "text": "Ananas/Pineapple på Garniers svenska sida, inte Banana, Papaya eller Watermelon. Hela serien kan inte behandlas som samma formula eller samma omdömesunderlag."
     },
-    verdict: "Bästa budgetköpet för långt, glanslöst hår – mycket produkt och högt betyg, men en lättare inpackning än salongsmärkena.",
+    verdict: "Avstå om du förväntar dig samma instruktioner för alla tre användningssätten. Läs burken för mängd och eventuell ursköljning; den lästa svenska webbsidan anger ingen exakt verkningstid.",
     amazonSummary:
-      "Amazon visar 4,7 av 5 från 212 omdömen för Hair Food-serien – betyget delas mellan dofterna (Pineapple, Papaya, Watermelon).",
-    amazonQuotes: [
-      {
-        text: "A great conditioner and hair mask. It really smells like papaya.",
-        attribution: "— Ivette d., 5★ (Sverige, 3 september 2026, doft papaya)",
-      },
-      {
-        text: "Luktar jättegott! Inte lika bra som inpackning. Håret fortfarande trassligt.",
-        attribution: "— Susanne Söderberg., 3★ (Sverige, 4 augusti 2026, doft papaya)",
-      },
-      {
-        text: "Närande, utan att tynga, och en himmelsk fruktig doft (översatt).",
-        attribution: "— Kahira, 5★ (Tyskland, 13 december 2025, doft ananas)",
-      },
-    ],
+      "Inga verifierade kundbetyg används för rekommendationen.",
+    amazonQuotes: [],
     faqItems: [
       {
-        question: "Hur länge ska Garnier Fructis Hair Food sitta i som inpackning?",
-        answer: "Tre minuter på blött hår, sedan noggrann sköljning, enligt Garnier. Samma burk kan också användas som balsam som sköljs ur direkt eller som leave-in – då tar du en liten mängd i längder och toppar.",
+        "question": "Vilken variant gäller underlaget?",
+        "answer": "Ananas/Pineapple på Garniers svenska sida, inte Banana, Papaya eller Watermelon. Hela serien kan inte behandlas som samma formula eller samma omdömesunderlag."
       },
       {
-        question: "Räcker den för blekt eller avbrutet hår?",
-        answer: "Nej. Formeln bygger på ananasextrakt, sheasmör och vegetabiliska oljor, inte på proteiner eller bond-teknologi. Har håret gått av efter blekning gör L'Oréal Absolut Repair eller Olaplex N°.3 PLUS mer nytta – den här är ett fuktande komplement.",
-      },
-      {
-        question: "Varför står det 212 omdömen när burken finns i flera dofter?",
-        answer: "Amazon räknar ihop omdömena för hela Hair Food-serien på listningen, så betyget 4,7 av 5 gäller ananas, papaya, vattenmelon, aloe vera och macadamia tillsammans. Elin skriver ut vilken doft varje citat gäller.",
-      },
+        "question": "Har ni testat produkten?",
+        "answer": "Nej. Uppgifterna kommer från tillverkaren; vi har inte gjort ett jämförande användartest."
+      }
     ],
     reviewSectionId: "garnier-fructis-hair-food-harinpackning-recensioner",
     reviewFormId: "garnier-fructis-hair-food-harinpackning-skriv-recension",
     targetKeyword: "garnier fructis hair food hårinpackning",
-    metaTitle: "Garnier Fructis Hair Food test 2026 | Elins val",
-    metaDescription: "Elins koll på Garnier Fructis Hair Food Pineapple (4,7 av 5 från 212 omdömen för hela serien): 400 ml inpackning för långt, glanslöst hår. (Annons)",
+    metaTitle: "Garnier Fructis Hair Food Pineapple Mask, 400 ml – underlag före köp | Elins val",
+    metaDescription: "Kontrollera exakt variant, användning och begränsningar före köp. Tillverkarkällor och när du kan avstå.",
     relatedLinks: [
       {
-        href: "/guider/harinpackning",
-        label: "Bäst i test",
-        text: "Hårinpackning – bäst i test 2026",
+        "href": "/guider/harinpackning",
+        "label": "Jämför efter behov",
+        "text": "Vilken hårmask passar din rutin?"
       },
       {
-        href: "/guider/harinpackning-salongsmarke-vart-det",
-        label: "Guide",
-        text: "Hårinpackning – är salongsmärket värt det?",
-      },
+        "href": "/skonhet/olaplex-eller-harinpackning",
+        "label": "Jämför användning",
+        "text": "Behandling före eller mask efter schampo?"
+      }
     ],
   },
 ];

@@ -81,8 +81,8 @@ export const harinpackningEllerHaroljaRelatedLinks: DecisionComparisonRelatedLin
     },
     {
       href: "/guider/harinpackning",
-      label: "Bäst i test",
-      text: "Hårinpackning – bäst i test 2026",
+      label: "Jämför efter behov",
+      text: "Vilken hårmask passar din rutin?",
     },
     {
       href: "/skonhet/harolja",

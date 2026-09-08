@@ -3036,73 +3036,52 @@ export const sommarPicks: SommarPick[] = [
     productSlug: olaplexNo3Product.slug,
     product: olaplexNo3Product,
     href: "/skonhet/olaplex-no3",
-    cardBadge: "Återuppbyggande",
-    cardHook: "Pre-schampo-inpackning som stärker slitet och skadat hår.",
+    cardBadge: "Kontrollera varianten",
+    cardHook: "Tillverkarunderlag: välj om du söker just en behandling före schampo. Olaplex anger tre minuter i vått hår, ursköljning och därefter schampo och balsam.",
     cardImage: "/products/olaplex-no3/olaplex3-thumbnail.webp",
     cardImageAlt: "Olaplex No.3 Hair Perfector inpackning för skadat hår",
-    badge: "Elins favorit för skadat hår",
-    headline: "Olaplex N°.3 PLUS – inpackning för skadat hår",
-    shortBody: "En återuppbyggande inpackning som används före schampo för att stärka slitet, skadat hår. En klassisk favorit för dig med blekt, färgat eller värmestylat hår.",
-    valueHook: "Inpackning som stärker skadat hår",
-    valueStatement: "Olaplex N°.3 PLUS Complete Repair Treatment är en återuppbyggande inpackning för dig som vill ge slitet och skadat hår extra omvårdnad. Den används på fuktigt hår före schampo och har blivit en klassisk favorit hos många med blekt, färgat eller värmestylat hår. Amazon visar 4,5 av 5 från 1 529 omdömen, och köpare lyfter framför allt att håret känns starkare och mjukare med tiden.",
+    badge: "Tillverkarunderlag",
+    headline: "Olaplex N°.3 PLUS Complete Repair Treatment, 100 ml",
+    shortBody: "Tillverkarunderlag: välj om du söker just en behandling före schampo. Olaplex anger tre minuter i vått hår, ursköljning och därefter schampo och balsam.",
+    valueHook: "Passar användningen din rutin?",
+    valueStatement: "PLUS-versionen på tillverkarens sida, inte tidigare No.3 Hair Perfector. Instruktionerna för äldre No.3 ska inte blandas med PLUS. Svensk butikslänk är inte matchad.",
     passFor: [
-      "Har blekt, färgat eller värmestylat hår som känns slitet.",
-      "Vill lägga till ett återuppbyggande steg före schampo.",
-      "Letar efter en klassisk, omtyckt inpackning för skadat hår.",
+      "du söker just en behandling före schampo. Olaplex anger tre minuter i vått hår, ursköljning och därefter schampo och balsam."
     ],
-    caution: "Olaplex No.3 är en inpackning som används före schampo – inte en balsam eller leave-in. Resultatet varierar med hårtyp och hur slitet håret är från början, så ge det gärna några användningar.",
+    caution: "Avstå om du söker en leave-in eller förväntar dig bevisad överlägsenhet mot maskerna här. Vi har inget sådant jämförande test och rekommenderar inte ett extra köp enbart för att håret är blekt.",
     usageGuidance: {
-      title: "Så använder du det rätt",
-      text: "Applicera på fuktigt, handduktorkat hår, fördela från längder till toppar och låt verka en stund. Skölj ur och fortsätt sedan med schampo och balsam som vanligt.",
+      "title": "Följ rätt förpackning",
+      "text": "PLUS-versionen på tillverkarens sida, inte tidigare No.3 Hair Perfector. Instruktionerna för äldre No.3 ska inte blandas med PLUS. Svensk butikslänk är inte matchad."
     },
-    verdict: "Klassisk återuppbyggande inpackning för slitet och skadat hår.",
-    amazonSummary: "Amazon visar 4,5 av 5 från 1 529 omdömen. Köpare beskriver att håret känns starkare och mjukare, men det är en inpackning före schampo och resultatet varierar med hårtyp.",
+    verdict: "Avstå om du söker en leave-in eller förväntar dig bevisad överlägsenhet mot maskerna här. Vi har inget sådant jämförande test och rekommenderar inte ett extra köp enbart för att håret är blekt.",
+    amazonSummary: "Inga verifierade kundbetyg används för rekommendationen.",
     amazonQuotes: [],
     faqItems: [
       {
-        question: "När använder jag Olaplex No.3?",
-        answer: "Olaplex No.3 används på fuktigt hår före schampo. Fördela från längder till toppar, låt verka en stund och skölj sedan ur innan du schamponerar som vanligt.",
+        "question": "Vilken variant gäller underlaget?",
+        "answer": "PLUS-versionen på tillverkarens sida, inte tidigare No.3 Hair Perfector. Instruktionerna för äldre No.3 ska inte blandas med PLUS. Svensk butikslänk är inte matchad."
       },
       {
-        question: "Passar Olaplex No.3 blekt och färgat hår?",
-        answer: "Ja, det är en favorit hos många med blekt, färgat eller värmestylat hår som vill ge slitna längder extra omvårdnad. Resultatet varierar dock med hur slitet håret är.",
-      },
-      {
-        question: "Är Olaplex No.3 en balsam?",
-        answer: "Nej, det är en återuppbyggande inpackning som används före schampo – inte en balsam eller leave-in. Du fortsätter med din vanliga balsam efteråt.",
-      },
+        "question": "Har ni testat produkten?",
+        "answer": "Nej. Uppgifterna kommer från tillverkaren; vi har inte gjort ett jämförande användartest."
+      }
     ],
     reviewSectionId: "olaplex-no3-treatment-recensioner",
     reviewFormId: "olaplex-no3-treatment-skriv-recension",
     targetKeyword: "hårinpackning skadat hår",
-    metaTitle: "Olaplex N°.3 PLUS – inpackning för skadat hår | Elins val",
-    metaDescription: "Elin går igenom Olaplex N°.3 PLUS Complete Repair Treatment: en återuppbyggande pre-schampo-inpackning för slitet och skadat hår (4,5 av 5, 1 529 omdömen) – och hur du använder den rätt.",
+    metaTitle: "Olaplex N°.3 PLUS Complete Repair Treatment, 100 ml – underlag före köp | Elins val",
+    metaDescription: "Kontrollera exakt variant, användning och begränsningar före köp. Tillverkarkällor och när du kan avstå.",
     relatedLinks: [
       {
-        href: "/skonhet/olaplex-eller-harinpackning",
-        label: "Jämförelse",
-        text: "Olaplex eller vanlig hårinpackning – värt det?",
+        "href": "/guider/harinpackning",
+        "label": "Jämför efter behov",
+        "text": "Vilken hårmask passar din rutin?"
       },
       {
-        href: "/guider/harinpackning",
-        label: "Bäst i test",
-        text: "Hårinpackning – bäst i test 2026",
-      },
-      {
-        href: "/skonhet/harolja",
-        label: "Hårolja",
-        text: "Närande olja för torra längder och toppar.",
-      },
-      {
-        href: "/skonhet/torrschampo",
-        label: "Torrschampo",
-        text: "Fräscha upp håret mellan tvättarna.",
-      },
-      {
-        href: "/skonhet/varmeskydd",
-        label: "Värmeskydd",
-        text: "Skydda håret före föntork och plattång.",
-      },
+        "href": "/skonhet/olaplex-eller-harinpackning",
+        "label": "Jämför användning",
+        "text": "Behandling före eller mask efter schampo?"
+      }
     ],
   },
   {
@@ -5611,61 +5590,39 @@ export const sommarPicks: SommarPick[] = [
   {
     productSlug: lorealAbsolutRepairProduct.slug,
     href: "/skonhet/harinpackning",
-    cardBadge: "Räddar torrt hår",
-    cardHook: "Återuppbygger torrt & soltrött hår - 3 000+ omdömen.",
+    cardBadge: "Kontrollera varianten",
+    cardHook: "Tillverkarunderlag: välj om du söker en mask efter schampo och kan avsätta 3–5 minuter. Tillverkaren riktar den till torrt och skadat hår och anger hydrolyserat veteprotein och omega-9.",
     cardImage:
       "/products/loreal-absolut-repair/loreal-absolut-repair-thumbnail.webp",
     cardImageAlt: "L'Oréal Professionnel Absolut Repair hårinpackning, 250 ml",
     product: lorealAbsolutRepairProduct,
-    badge: "Elins premiumval",
+    badge: "Tillverkarunderlag",
     headline:
-      "L'Oréal Absolut Repair - hårinpackning för torrt & skadat hår",
+      "L’Oréal Professionnel Absolut Repair Masque Thick Hair",
     shortBody:
-      "En proteinrik hårinpackning med Gold Quinoa som återuppbygger torrt, skadat och soltrött hår - för mjukhet, glans och lättare utredning.",
-    valueHook: "Räddar torrt, soltrött hår - mjukt och blankt igen.",
+      "Tillverkarunderlag: välj om du söker en mask efter schampo och kan avsätta 3–5 minuter. Tillverkaren riktar den till torrt och skadat hår och anger hydrolyserat veteprotein och omega-9.",
+    valueHook: "Passar användningen din rutin?",
     valueStatement:
-      "L'Oréal Professionnel Absolut Repair är en av de mest älskade hårinpackningarna på Amazon - 4,6 av 5 från över 3 000 omdömen. Den proteinrika formulan med Gold Quinoa återuppbygger torrt, skadat och kemiskt behandlat hår, gör det silkeslent, blankare och lättare att reda ut. Perfekt för soltrött sommarhår efter sol, bad och klor. Köparna - flera med ljust eller blekt hår - lyfter mjukheten, glansen och den lyxiga doften. Det är ett premiumval, men en liten mängd räcker långt.",
+      "Den ursköljbara Thick Hair-masken, inte Gold Masque eller Absolut Repair Molecular. Källan gäller 500 ml, EAN 3474636975440, och länkar även till 250 ml. Vår butikslänk för 250 ml är ännu inte matchad.",
     passFor: [
-      "Har torrt, blekt eller soltrött sommarhår som behöver återfuktning.",
-      "Vill ha en proteinrik mask som gör håret mjukt och lättare att reda ut.",
-      "Föredrar en beprövad salongsfavorit (Serie Expert).",
+      "du söker en mask efter schampo och kan avsätta 3–5 minuter. Tillverkaren riktar den till torrt och skadat hår och anger hydrolyserat veteprotein och omega-9."
     ],
     caution:
-      "Det här är ett premiumval och dyrare än ett vanligt balsam. Den är rik - använd en lagom mängd och fokusera på längder och toppar, inte hårbotten. Låt verka några minuter och skölj ur.",
+      "Avstå om du vill lämna produkten kvar i håret eller antar att alla Absolut Repair-produkter har samma instruktioner. Den här masken ska sköljas ur.",
     verdict:
-      "Premiumvalet för sommaren - återuppbyggande hårmask för torrt och skadat hår.",
+      "Avstå om du vill lämna produkten kvar i håret eller antar att alla Absolut Repair-produkter har samma instruktioner. Den här masken ska sköljas ur.",
     amazonSummary:
-      "Amazon visar 4,6 av 5 från 3 096 omdömen och produkten ligger topp-1 300 i Skönhet på Amazon.se. Köparna lyfter att håret blir mjukt, silkeslent och lättare att reda ut - flera med ljust eller blekt hår rekommenderar den, och doften får mycket beröm.",
-    amazonQuotes: [
-      {
-        text: "Håret blir mjukt o slätt.",
-        attribution: "Ulrika Hagberg, Amazon (Sverige)",
-      },
-      {
-        text: "Älskar! Funkar även för mig med tunt hår!",
-        attribution: "Amanda, Amazon (Sverige)",
-      },
-      {
-        text: "Min frisör rekommenderade denna för blekt hår. Doftar riktigt gott och håret blir så mjukt.",
-        attribution: "Almedina, Amazon (Sverige)",
-      },
-    ],
+      "Inga verifierade kundbetyg används för rekommendationen.",
+    amazonQuotes: [],
     faqItems: [
       {
-        question: "Hur ofta ska jag använda hårinpackningen?",
-        answer:
-          "Använd den 1-2 gånger i veckan på rentvättat, fuktigt hår. Fördela i längder och toppar, låt verka några minuter och skölj ur.",
+        "question": "Vilken variant gäller underlaget?",
+        "answer": "Den ursköljbara Thick Hair-masken, inte Gold Masque eller Absolut Repair Molecular. Källan gäller 500 ml, EAN 3474636975440, och länkar även till 250 ml. Vår butikslänk för 250 ml är ännu inte matchad."
       },
       {
-        question: "Passar den ljust eller blekt hår?",
-        answer:
-          "Ja, flera köpare med ljust och blekt hår rekommenderar den. Den återfuktar och gör håret mjukare, men ändrar inte färgen.",
-      },
-      {
-        question: "Tynger den fint hår?",
-        answer:
-          "Den är rik, så fint hår kan tyngas om man tar för mycket. Använd en liten mängd och fokusera på längderna, inte hårbotten.",
-      },
+        "question": "Har ni testat produkten?",
+        "answer": "Nej. Uppgifterna kommer från tillverkaren; vi har inte gjort ett jämförande användartest."
+      }
     ],
     reviewSectionId: "loreal-absolut-repair-recensioner",
     reviewFormId: "loreal-absolut-repair-skriv-recension",
@@ -5673,35 +5630,20 @@ export const sommarPicks: SommarPick[] = [
     // 2026-09-06: brand intent only — the "bäst i test" intent moved to
     // /guider/harinpackning. The literal 86 must equal
     // getEditorialScore("loreal-absolut-repair").total in lib/scores.ts (WATCH).
-    metaTitle: "L'Oréal Absolut Repair – jämförelse och användning | Elins val",
+    metaTitle: "L’Oréal Professionnel Absolut Repair Masque Thick Hair – underlag före köp | Elins val",
     metaDescription:
-      "Elin går igenom L'Oréal Absolut Repair (4,6 av 5, 3 000+ omdömen): proteinrik inpackning för torrt och skadat hår – för vem, och när Olaplex är bättre. (Annons)",
+      "Kontrollera exakt variant, användning och begränsningar före köp. Tillverkarkällor och när du kan avstå.",
     relatedLinks: [
       {
-        href: "/guider/harinpackning",
-        label: "Bäst i test",
-        text: "Hårinpackning – bäst i test 2026",
+        "href": "/guider/harinpackning",
+        "label": "Jämför efter behov",
+        "text": "Vilken hårmask passar din rutin?"
       },
       {
-        href: "/skonhet/olaplex-eller-harinpackning",
-        label: "Jämförelse",
-        text: "Olaplex eller vanlig hårinpackning – värt det?",
-      },
-      {
-        href: "/skonhet/harolja",
-        label: "Hårolja",
-        text: "Lås in mjukheten med några droppar hårolja.",
-      },
-      {
-        href: "/skonhet/torrschampo",
-        label: "Torrschampo",
-        text: "Fräscha upp håret mellan tvättar.",
-      },
-      {
-        href: "/skonhet/varmeskydd",
-        label: "Värmeskydd",
-        text: "Skydda håret innan du värmestylar.",
-      },
+        "href": "/skonhet/olaplex-eller-harinpackning",
+        "label": "Jämför användning",
+        "text": "Behandling före eller mask efter schampo?"
+      }
     ],
   },
   {

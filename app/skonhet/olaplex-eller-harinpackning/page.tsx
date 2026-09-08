@@ -1,3 +1,4 @@
+import { olaplexMaskDecision } from "@/lib/hair-mask-decision";
 import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
 import {
   olaplexEllerHarinpackningComparisonRows,
@@ -10,11 +11,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/skonhet/olaplex-eller-harinpackning`;
 
-const heroImage = {
-  src: "/comparisons/olaplex-eller-harinpackning.webp",
-  alt: "Olaplex eller hårinpackning – värt det? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Skönhet", href: "/skonhet" },
@@ -23,25 +19,20 @@ const breadcrumbItems = [
 
 export const metadata = createSeoMetadata({
   title: "Olaplex eller inpackning – vilken gör nytta? | Elins val",
-  description: "Olaplex No.3 bygger bindningar, en vanlig inpackning återfuktar – två olika saker. Elin jämför mot L'Oréal Absolut Repair och säger vad ditt hår behöver.",
+  description: "Behandling före eller mask efter schampo? Jämför Olaplex N°.3 PLUS och Absolut Repair Thick Hair med exakta varianter och tydliga begränsningar.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
 });
 
 export default function OlaplexEllerHarinpackningPage() {
   return (
     <DecisionComparisonPage
       h1={"Olaplex eller hårinpackning – värt det?"}
-      intro={"Olaplex No.3 och en vanlig hårinpackning låter som samma sak, men de gör olika jobb. Olaplex är en bond-kur som jobbar med hårets inre bindningar och används före schamponering, medan en inpackning som L'Oréal Absolut Repair mjukgör och återfuktar efter tvätten. Frågan är vad ditt hår faktiskt behöver."}
-      badges={["Skadat hår","Hype-koll","Sommarhår"]}
-      howToChoose={"Välj Olaplex om håret är blekt, slingat eller värmeslitet och känns skört – bond-kuren gör något en inpackning inte kan. Välj Absolut Repair om håret mest är torrt och trist av sol och värme och du vill ha omedelbar mjukhet och glans för mindre pengar. Många med riktigt slitet hår använder båda: Olaplex före tvätten, inpackningen efter."}
+      intro={"Vilket steg saknar du i din rutin? Olaplex N°.3 PLUS används före schampo, Absolut Repair Thick Hair efter. Här jämför vi användning och exakta varianter, utan att utse en vinnare som vi inte har testunderlag för."}
+      badges={["Före eller efter schampo", "Exakt variant"]}
+      howToChoose={"Börja med användningssättet. Om din nuvarande rutin redan fungerar behöver du inte lägga till ett steg. Kontrollera PLUS respektive Thick Hair på förpackningen innan du jämför pris eller instruktioner."}
       verdict={"Kontrollera den exakta formulan, användningen och vad du vill förändra i din rutin. Vi har inget stöd här för att beskriva en inpackning som enbart döljande eller för att motivera ett högre pris med en odokumenterad poäng."}
-      heroImage={heroImage}
+      decision={olaplexMaskDecision}
+      hideUnverifiedImages
       picks={olaplexEllerHarinpackningPicks}
       comparisonRows={olaplexEllerHarinpackningComparisonRows}
       faqItems={olaplexEllerHarinpackningFaqItems}
