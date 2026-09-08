@@ -125,7 +125,7 @@ export async function TraningsbandProductReviewPage({
 
         <section className="mt-7 rounded-[2rem] border border-line bg-rose/10 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
-            Prisvärt val
+            Före köp
           </p>
           <h2 className="editorial-color-kiss mt-2 font-display text-3xl">
             {pick.valueHook}
@@ -137,7 +137,7 @@ export async function TraningsbandProductReviewPage({
             {pick.verdict}
           </p>
           <h3 className="editorial-color-kiss mt-7 font-display text-2xl">
-            Passar dig som...
+            Kontrollera före ditt val
           </h3>
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
             {pick.passFor.map((item) => (
@@ -176,8 +176,8 @@ export async function TraningsbandProductReviewPage({
               Långa träningsband vs loop-band
             </h2>
             <p className="mt-4 max-w-3xl leading-8 text-ink-soft">
-              Långa band passar bäst när du vill träna hela kroppen. Loop-band
-              är smartare när fokus är ben, rumpa, höfter, pilates och rehab.
+              Jämför längd, grepp och motstånd för de övningar du vill göra.
+              Vi har inte verifierat de aktuella seten eller testat dem mot varandra.
             </p>
           </div>
           <div className="overflow-x-auto">

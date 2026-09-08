@@ -4969,7 +4969,7 @@ export const sommarPicks: SommarPick[] = ([
   {
     productSlug: stTropezSelfTanExpressProduct.slug,
     href: "/skonhet/brun-utan-sol",
-    cardBadge: "Naturligast glow",
+    cardBadge: "Nyans och applicering",
     cardHook: "Jämför nyans och applicering innan du väljer brun utan sol.",
     cardImage:
       "/products/brun-utan-sol-st-tropez/brun-utan-sol-st-tropez-thumbnail.webp",

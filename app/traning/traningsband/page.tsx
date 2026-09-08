@@ -3,7 +3,6 @@ import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, Dumbbell, Sparkles } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
-import { AmazonPurchaseLinks } from "@/components/AmazonPurchaseCta";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import {
@@ -82,12 +81,12 @@ export default function TraningsbandHubPage() {
             Elins guide 2026
           </p>
           <h1 className="editorial-color-kiss mt-6 max-w-4xl break-words font-display text-4xl leading-[1.06] tracking-[-0.035em] sm:text-7xl sm:leading-[1.02] sm:tracking-[-0.04em]">
-            Träningsband bäst i test - långa band eller loop-band?
+            Träningsband – vad behöver passa dina övningar?
           </h1>
           <p className="mt-6 max-w-3xl break-words text-lg leading-8 text-ink-soft sm:text-xl sm:leading-9">
-            Elin jämför två tydliga typer: långa träningsband i naturlatex för
-            helkropp, och JAKKOFOXX loop-band när fokus är ben, rumpa, höfter,
-            pilates och rehab.
+            Börja med mått, material och motstånd för övningarna du vill göra.
+            WuGU och JAKKOFOXX finns i vår katalog, men deras aktuella
+            set och butikserbjudanden är ännu inte verifierade.
           </p>
           <p className="mt-6 rounded-3xl border border-line bg-rose/8 p-4 text-sm leading-7 text-ink-soft">
             <strong>Annons</strong> · Våra produktsidor innehåller
@@ -106,9 +105,9 @@ export default function TraningsbandHubPage() {
                 Hur väljer du?
               </h2>
               <p className="mt-4 max-w-3xl text-lg leading-8 text-ink-soft">
-                Välj långa band om du vill träna hela kroppen med ett enda set.
-                Välj loop-band om du främst gör ben, rumpa, höfter, pilates
-                eller rehab och vill ha något extra kompakt.
+                Kontrollera bandets längd, grepp och motstånd mot instruktionen
+                för övningen. Avstå från ett erbjudande där rätt variant eller
+                nödvändiga uppgifter saknas.
               </p>
             </div>
           </div>
@@ -152,10 +151,11 @@ export default function TraningsbandHubPage() {
           ))}
         </section>
 
-        <AmazonPurchaseLinks
-          products={traningsbandPicks.map((pick) => pick.product)}
-          className="mt-6"
-        />
+        <p className="mt-6 rounded-2xl border border-line bg-surface/70 p-5 leading-7 text-ink-soft">
+          Underlaget är vår äldre produktkatalog. Vi saknar här aktuella
+          tillverkarkällor för de exakta seten och ett dokumenterat användartest.
+          Vi visar därför ingen vinnare eller direkt köplänk i jämförelsen.
+        </p>
 
         <section className="reveal-fade mt-12 overflow-hidden rounded-[2rem] border border-line bg-surface/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
           <div className="p-6 md:p-8">
@@ -199,12 +199,12 @@ export default function TraningsbandHubPage() {
 
         <section className="reveal-fade mt-12 rounded-[2rem] border border-line bg-rose/10 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
           <h2 className="editorial-color-kiss font-display text-4xl">
-            Elins korta dom
+            Behöver du köpa något?
           </h2>
           <p className="mt-4 max-w-4xl text-lg leading-8 text-ink-soft">
-            Långa träningsband är det smartaste valet för helkroppsstyrka hemma.
-            JAKKOFOXX loop-band vinner när du vill ha ett billigt, kompakt och
-            beprövat set för ben, rumpa och rehab.
+            Behåll band som redan fungerar för dina övningar. Ett större set
+            eller högre pris är inget skäl i sig att byta. Betala mer först
+            när en verifierad skillnad fyller ett behov du faktiskt har.
           </p>
         </section>
 

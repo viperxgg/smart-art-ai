@@ -33,64 +33,38 @@ export type TraningsbandPick = {
 };
 
 export const traningsbandFaqItems = [
-  {
-    question: "Vad är skillnaden på loop-band och långa träningsband?",
-    answer:
-      "Loop-band är korta, slutna band (ca 30 cm) som är gjorda för ben, rumpa och höfter. Långa träningsband är mer mångsidiga och passar hela kroppen, inklusive rygg, axlar och bröst.",
-  },
-  {
-    question: "Rullar banden ihop på låren?",
-    answer:
-      "Gummiband kan rulla ihop vid tunga benövningar. Lägg bandet platt mot huden och välj rätt nivå, så minskar problemet. Vill du ha minimal rullning finns även tygband.",
-  },
-  {
-    question: "Vilken nivå ska jag börja med?",
-    answer:
-      "Börja med X-light eller light för uppvärmning och teknik, och gå upp i motstånd när övningen känns för lätt. Setet har fem nivåer så du växer i det.",
-  },
+  { question: "Vilka mått ska jag jämföra?", answer: "Kontrollera längd, bredd och om bandet är slutet eller har ändar eller handtag. Produktnamnet räcker inte för att avgöra om det passar övningen." },
+  { question: "Har ni testat hur banden sitter?", answer: "Nej. Vi har inget dokumenterat test av rullning, grepp eller slitstyrka för dessa set." },
+  { question: "Är motståndsnivåerna jämförbara?", answer: "Vi har inte verifierat mätmetoden för dessa set. Samma färg eller beteckning som light behöver därför kontrolleras mot respektive tillverkares uppgifter." },
 ];
 
 export const traningsbandComparisonRows = [
-  [
-    "Snabba signaler",
-    "4 nivåer 8-85 lbs; helkropp; naturlatex",
-    "Kontrollera bandlängd, motstånd och användning",
-  ],
-  [
-    "Bäst för",
-    "Helkroppsträning och styrka hemma",
-    "Ben, rumpa, pilates och rehab (Elins val)",
-  ],
-  ["Typ", "Långa band i naturlatex", "Korta loop-band (30 cm) i TPE"],
-  ["Motstånd", "4 nivåer, 8-85 lbs", "5 nivåer, ca 10-48 lbs"],
-  ["Material", "100% naturlatex", "TPE (gummi)"],
-  [
-    "Extra",
-    "Stackable, mångsidigt för hela kroppen",
-    "Tusentals omdömen, bästsäljare, kompakt",
-  ],
-
+  ["Modell i katalogen", "WuGU träningsband", "JAKKOFOXX loop-band"],
+  ["Mått och innehåll", "Kontrollera exakt set och bandlängd", "Kontrollera exakt set och bandlängd"],
+  ["Motstånd", "Aktuella värden och mätmetod ej verifierade", "Aktuella värden och mätmetod ej verifierade"],
+  ["Material", "Kontrollera förpackningens uppgift", "Kontrollera förpackningens uppgift"],
+  ["Vårt test", "Inget dokumenterat användartest", "Inget dokumenterat användartest"],
 ] as const;
 
 export const traningsbandPicks: TraningsbandPick[] = [
   {
     product: featuredProduct,
     path: "/traning/traningsband-naturlatex",
-    badge: "Prisvärt val",
-    headline: "Träningsband i naturlatex - 4 motståndsnivåer",
+    badge: "Kontrollera före köp",
+    headline: "WuGU träningsband – passar längden och motståndet?",
     shortBody:
-      "Långa band för helkroppsträning hemma: fyra nivåer, 8-85 lbs och 100% naturlatex för styrka, rörlighet och progression.",
-    valueHook: "Mest mångsidigt för hela kroppen.",
+      "Kontrollera att WuGU-setets längd, material och motstånd motsvarar det du behöver. Uppgifterna i vår äldre katalog är inte en aktuell produktverifiering.",
+    valueHook: "Vilka övningar behöver bandet passa?",
     valueStatement:
-      "WuGU-bandens styrka är bredden: du kan träna rygg, axlar, bröst, ben och rörlighet med samma set. Fyra nivåer från lätt till mycket tungt gör dem mer allround än korta loop-band.",
+      "Utgå från övningarna du vill göra och kontrollera längd, grepp och angivet motstånd. Vi har inte jämfört dessa band mot korta loop-band i praktiken.",
     passFor: [
       "Vill träna hela kroppen hemma utan stora redskap.",
-      "Vill kunna byta nivå eller kombinera band för mer motstånd.",
-      "Prioriterar naturlatex och mångsidighet framför riktad benaktivering.",
+      "Har kontrollerat att instruktionerna stödjer övningen och det grepp du tänker använda.",
+      "Har jämfört material och mått för den exakta förpackningen.",
     ],
     caution:
-      "Det här är långa band, inte korta loop-band för rumpa och höfter. De är mer mångsidiga, men mindre smidiga om du bara vill ha ett band runt låren för pilates, rehab eller glute-övningar.",
-    verdict: "Bästa valet när träningsband ska täcka hela kroppen.",
+      "Avstå om längd, material, motstånd eller instruktioner saknas för den exakta varianten. Vi har inte testat banden eller verifierat dem för rehabilitering.",
+    verdict: "Vi utser ingen vinnare utan verifierade produktuppgifter och en relevant jämförelse.",
     amazonSummary:
       "Amazon visar 4,5 av 5 från över 600 omdömen. Köparna lyfter prisvärdet, naturlatexen och att nivåerna är lätta att förstå.",
     amazonQuotes: [
@@ -117,22 +91,22 @@ export const traningsbandPicks: TraningsbandPick[] = [
   {
     product: jakkofoxxLoopbandProduct,
     path: "/traning/traningsband/loopband-jakkofoxx",
-    badge: "Elins val",
-    headline: "JAKKOFOXX loop band - fem nivåer för ben och rumpa",
+    badge: "Kontrollera före köp",
+    headline: "JAKKOFOXX loop-band – passar setet dina övningar?",
     shortBody:
-      "Ett kompakt loop-band-set för ben, rumpa, höfter, pilates och rehab: fem tydliga nivåer från X-light till X-heavy.",
-    valueHook: "Mest loop-band för pengarna - för ben och rumpa.",
+      "JAKKOFOXX-setet behöver kontrolleras mot den aktuella förpackningen. Antal band, mått, material och motstånd är ännu inte verifierade här.",
+    valueHook: "Passar bandens mått och motstånd dina övningar?",
     valueStatement:
       "Kontrollera bandens längd, material och motstånd innan du väljer setet till dina övningar. Vi har inte verifierat aktuella kundbetyg, priset eller motståndet i varje band och rekommenderar inte setet som rehabiliteringshjälp utifrån gamla omdömen.",
     passFor: [
       "Vill träna ben, rumpa och höfter hemma eller på resan.",
-      "Gör pilates, uppvärmning eller rehab och vill ha mjukt till tungt motstånd.",
-      "Vill ha flera motståndsnivåer till ett lågt pris.",
+      "Kan kontrollera att bandens mått och motstånd passar dina planerade övningar.",
+      "Jämför samma set och totalpris inklusive frakt innan du beställer.",
     ],
     caution:
-      "Det här är korta loop-band i TPE, inte långa band för helkroppsstyrka. Vid tunga övningar kan gummiband rulla ihop på låren mer än tygband, och en mindre andel köpare tycker att spänsten avtar över tid. Vill du träna hela kroppen är långa band ett bättre val.",
+      "Avstå om säljaren inte anger mått, material och hur motståndet mäts. Vi har inte testat slitstyrka, hur banden sitter eller användning vid rehabilitering.",
     verdict:
-      "Elins val för ben och rumpa - mest beprövade loop-bandet för pengarna.",
+      "Vi kan inte rekommendera setet framför andra innan produktuppgifter och användning har verifierats.",
     amazonSummary:
       "Amazon visar 4,4 av 5 från 8 138 recensioner, och setet ligger högt på bästsäljarlistan (#3 i kategorin Resistance Bands). Köparna lyfter de tydliga motståndsnivåerna och det låga priset.",
     amazonQuotes: [
@@ -156,9 +130,9 @@ export const traningsbandPicks: TraningsbandPick[] = [
     reviewSectionId: "jakkofoxx-loopband-recensioner",
     reviewFormId: "jakkofoxx-loopband-skriv-recension",
     targetKeyword: "loop band",
-    metaTitle: "JAKKOFOXX loop band (5 nivåer) - Elins recension | Elins val",
+    metaTitle: "JAKKOFOXX loop-band – vad behöver kontrolleras? | Elins val",
     metaDescription:
-      "Elin går igenom JAKKOFOXX loop band: fem motståndsnivåer för ben, rumpa och rehab, vad över 8 000 Amazon-omdömen säger - och när långa träningsband passar bättre.",
+      "Vad behöver du kontrollera före köp av JAKKOFOXX loop-band? Läs om mått, motstånd och gränserna för vårt underlag.",
   },
 ];
 
