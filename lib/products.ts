@@ -3115,16 +3115,12 @@ export const ceraveHydratingCleanserProduct: Product = {
 
 export const larochePosayCicaplastB5Product: Product = {
   slug: "la-roche-posay-cicaplast-b5",
-  title: "La Roche-Posay Cicaplast Baume B5+ (40 ml)",
+  title: "La Roche-Posay Cicaplast Baume B5+",
   category: "skonhet",
   asin: "B00ST2GSRK",
   brand: "La Roche-Posay",
   price: "Se aktuellt pris på Amazon",
-  badges: [
-    "Panthenol (B5)",
-    "Lugnar & mjukgör",
-    "Multipurpose",
-  ],
+  badges: [],
   image: "/products/la-roche-posay-cicaplast-b5/cicaplast-thumbnail.webp",
   imageAlt: "La Roche-Posay Cicaplast Baume B5+, 40 ml",
   images: [
@@ -3146,46 +3142,23 @@ export const larochePosayCicaplastB5Product: Product = {
   ],
   amazonUrl: "https://amzn.to/4ar8wSS",
   pageHref: "/skonhet/cicaplast-b5",
-  summary: "En multifunktionell lugnande balm med panthenol (B5) och shea som återfuktar och mjukgör uttorkad och stram hud. Kan användas på torra läppar, händer och torra partier – med stark 4,7 av 5 från 16 635 omdömen.",
+  summary: "Parfymfritt balm enligt svensk tillverkarinformation. Användningsområden och begränsningar står i beslutskortet; butiksvarianten är inte matchad.",
   evaluation: {
-    headline: "Lugnande balm för torr och stram hud",
-    intro: "Elin går igenom La Roche-Posay Cicaplast Baume B5+: en multifunktionell balm med panthenol (B5) och shea. Den är gjord för att lugna, återfukta och mjukgöra torr, stram och ovan hud, och kan användas på torra partier som läppar och händer. Det stora antalet omdömen, 4,7 av 5 från 16 635, gör den till en av de mest omtyckta balmerna på Amazon.",
-    verdict: "Mångsidig, lugnande balm för torra partier – med riktigt stark social proof.",
-    checks: [],
-  },
+  "headline": "La Roche-Posay Cicaplast Baume B5+",
+  "intro": "Parfymfritt balm enligt svensk tillverkarinformation. Användningsområden och begränsningar står i beslutskortet; butiksvarianten är inte matchad.",
+  "verdict": "Behåll det som fungerar. Vi har inget eget jämförande hudtest.",
+  "checks": []
+},
   specSectionEyebrow: "Hudvård",
   specSectionTitle: "La Roche-Posay Cicaplast Baume B5+",
   specs: [
-    {
-      label: "Format",
-      caption: "Typ",
-      value: "Balm, 40 ml",
-    },
-    {
-      label: "Innehåll",
-      caption: "Aktivt",
-      value: "Panthenol (B5) + shea",
-    },
-    {
-      label: "Profil",
-      caption: "Hudvård",
-      value: "Torr, stram och ovan hud",
-    },
-  ],
-  amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4ar8wSS",
-    ratingSummary: "Amazon visar 4,7 av 5 från 16 635 omdömen.",
-    highlights: [
-      "Köpare upplever att torr och stram hud känns lugnare och mjukare.",
-      "Många använder den på flera ställen – torra läppar, händer och torra partier.",
-      "Den rika texturen uppskattas för uttorkad hud, lite räcker långt.",
-    ],
-    cautions: [
-      "Balmen är rik och kan kännas fet på fukttörstig hud – ta en liten mängd.",
-      "Som med all ny hudvård: testa på en liten yta först om du har känslig hud.",
-    ],
-  },
+  {
+    "label": "Variant",
+    "caption": "Kontroll före köp",
+    "value": "Parfymfritt balm enligt svensk tillverkarinformation. Användningsområden och begränsningar står i beslutskortet; butiksvarianten är inte matchad."
+  }
+],
+  amazonReviewSignal: { sourceLabel: "Kundomdömen inte verifierade", sourceUrl: "", ratingSummary: "Inget aktuellt kundbetyg har verifierats.", highlights: [], cautions: [] },
   ugcVideos: [],
   uses: [],
   peopleLike: [],
@@ -4425,16 +4398,12 @@ export const cosrxAhaBhaTonerProduct: Product = {
 
 export const cetaphilMoisturizingCreamProduct: Product = {
   slug: "cetaphil-moisturizing-cream",
-  title: "Cetaphil Moisturising Cream – fuktkräm för torr hud (453 g)",
+  title: "Cetaphil Moisturizing Cream",
   category: "skonhet",
   asin: "B003IO05U0",
   brand: "Cetaphil",
   price: "Se aktuellt pris på Amazon",
-  badges: [
-    "Rik fuktkräm",
-    "Torr hud",
-    "Ansikte & kropp",
-  ],
+  badges: [],
   image: "/products/cetaphil-moisturizer/cetaphil-cream-thumbnail.webp",
   imageAlt: "Cetaphil Moisturising Cream fuktkräm, 453 g",
   images: [
@@ -4461,59 +4430,23 @@ export const cetaphilMoisturizingCreamProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/3QsHOCC",
   pageHref: "/skonhet/fuktkram",
-  summary: "En rik, återfuktande kräm för torr och känslig hud som kan användas på både ansikte och kropp. Den stora burken räcker länge och passar dig som vill ha enkel, mättande fukt.",
+  summary: "Svensk produktsida anger 250 g och FIL.1765.V00. Katalogens 453 g är inte verifierad som samma variant.",
   evaluation: {
-    headline: "Rik fuktkräm för torr hud",
-    intro: "Elin går igenom Cetaphil Moisturising Cream: en rik kräm som ger mättande fukt till torr och känslig hud. Den är gjord för att kunna användas på både ansikte och kropp, och den stora burken gör den till ett enkelt val för hela kroppen.",
-    verdict: "Rik, prisvärd fuktkräm för torr hud på både ansikte och kropp.",
-    checks: [
-      {
-        label: "Problemet den löser",
-        text: "Ger mättande fukt när huden känns torr och du vill ha en enkel kräm som fungerar på flera områden.",
-      },
-      {
-        label: "Varför Elin fastnade",
-        text: "Den stora burken och milda profilen gör den praktisk för hemmet: ansikte, kropp, händer och torra partier utan att köpa flera små tuber.",
-      },
-      {
-        label: "Det vi inte vill överdriva",
-        text: "Rik kräm är inte allas favorit. Fet eller blandad hy kan tycka att den känns tung, särskilt i ansiktet.",
-      },
-    ],
-  },
+  "headline": "Cetaphil Moisturizing Cream",
+  "intro": "Svensk produktsida anger 250 g och FIL.1765.V00. Katalogens 453 g är inte verifierad som samma variant.",
+  "verdict": "Behåll det som fungerar. Vi har inget eget jämförande hudtest.",
+  "checks": []
+},
   specSectionEyebrow: "Hudvård",
   specSectionTitle: "Cetaphil Moisturising Cream",
   specs: [
-    {
-      label: "Format",
-      caption: "Typ",
-      value: "Fuktkräm, 453 g",
-    },
-    {
-      label: "Funktion",
-      caption: "Steg",
-      value: "Mättande fukt för torr hud",
-    },
-    {
-      label: "Profil",
-      caption: "Hudvård",
-      value: "Torr och känslig hud, ansikte och kropp",
-    },
-  ],
-  amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/3QsHOCC",
-    ratingSummary: "Amazon visar 4,7 av 5 från 1742 omdömen.",
-    highlights: [
-      "Köpare upplever att den ger mättande fukt åt torr hud.",
-      "Uppskattas för att kännas mild på känslig hud.",
-      "Många gillar den stora burken som räcker länge.",
-    ],
-    cautions: [
-      "Den rika texturen kan kännas tung för dig med fet eller blandad hy.",
-      "Burkformatet gör det svårare att hålla helt hygieniskt – använd gärna ren spatel.",
-    ],
-  },
+  {
+    "label": "Variant",
+    "caption": "Kontroll före köp",
+    "value": "Svensk produktsida anger 250 g och FIL.1765.V00. Katalogens 453 g är inte verifierad som samma variant."
+  }
+],
+  amazonReviewSignal: { sourceLabel: "Kundomdömen inte verifierade", sourceUrl: "", ratingSummary: "Inget aktuellt kundbetyg har verifierats.", highlights: [], cautions: [] },
   ugcVideos: [],
   uses: [
     "På torra kinder eller torra partier efter rengöring.",

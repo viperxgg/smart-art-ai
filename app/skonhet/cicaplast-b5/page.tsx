@@ -9,19 +9,11 @@ const pick = getSommarPickBySlug("la-roche-posay-cicaplast-b5");
 
 export const revalidate = 3600;
 
-export const metadata = pick
-  ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
-      url: `${siteConfig.url}${pick.href}`,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 900,
-        height: 675,
-        alt: pick.product.imageAlt,
-      },
-    })
-  : {};
+export const metadata = createSeoMetadata({
+  title: "La Roche-Posay Cicaplast Baume B5+",
+  description: "Jämför användning, produktvariant och begränsningar innan du köper. Tillverkaruppgifter och tydliga gränser för vad vi inte testat.",
+  url: `${siteConfig.url}/skonhet/cicaplast-b5`,
+});
 
 export default function CicaplastB5Page() {
   if (!pick) {

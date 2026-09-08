@@ -9,19 +9,11 @@ const pick = getSommarPickBySlug("cetaphil-moisturizing-cream");
 
 export const revalidate = 3600;
 
-export const metadata = pick
-  ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
-      url: `${siteConfig.url}${pick.href}`,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 900,
-        height: 675,
-        alt: pick.product.imageAlt,
-      },
-    })
-  : {};
+export const metadata = createSeoMetadata({
+  title: "Cetaphil Moisturizing Cream",
+  description: "Jämför användning, produktvariant och begränsningar innan du köper. Tillverkaruppgifter och tydliga gränser för vad vi inte testat.",
+  url: `${siteConfig.url}/skonhet/fuktkram`,
+});
 
 export default function FuktkramPage() {
   if (!pick) {

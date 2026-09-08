@@ -1,32 +1,31 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  larochePosayCicaplastB5Product,
-  cetaphilMoisturizingCreamProduct,
-} from "@/lib/products";
+import type { DecisionRecord } from "@/lib/decision-record";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
 
-export const cicaplastB5EllerCetaphilFaqItems: DecisionComparisonFaqItem[] = [{"question":"Vad används Cicaplast B5 till?","answer":"Cicaplast Baume B5+ är en lugnande balsam för hud som är torr, stram eller irriterad – till exempel av kyla, vind eller mycket handtvätt. Många använder den som punktinsats på händer, armbågar och torra partier i ansiktet."},{"question":"Kan Cetaphil användas i ansiktet?","answer":"Ja, Cetaphil Moisturising Cream är parfymfri och gjord för torr, känslig hud på både kropp och ansikte. Är din ansiktshud mycket lättirriterad kan du börja med ett tunt lager på kvällen och se hur huden svarar."},{"question":"Vilken är bäst mot torr vinterhud?","answer":"Som daglig förebyggande kräm är Cetaphil det enkla valet – den används morgon och kväll på hela kroppen. När huden redan blivit irriterad och stram gör Cicaplast B5+ mest nytta som intensivare punktinsats."},{"question":"Kan jag använda båda samtidigt?","answer":"Ja, det är en vanlig kombination: Cetaphil som daglig bas och Cicaplast B5+ på utsatta områden vid behov. De krockar inte med varandra."}];
-
-export const cicaplastB5EllerCetaphilComparisonRows = [["Typ","Lugnande balsam (baume)","Klassisk fuktkräm"],["Bäst som","Punktinsats på irriterad hud","Daglig kräm för hela kroppen"],["Textur","Tjock, skyddande, dröjer kvar","Rik men lättare, absorberas snabbt"],["Nyckelinnehåll","Panthenol (B5), madecassoside","Glycerin, sweet almond oil"],["Passar","Känslig, stressad, vindpinad hud","Torr hud i vardagen, hela familjen"],["Parfymfri","Ja","Ja"],] as const;
-
-export const cicaplastB5EllerCetaphilPicks: [DecisionComparisonPick, DecisionComparisonPick] = [
-  {
-    product: larochePosayCicaplastB5Product,
-    path: "/skonhet/cicaplast-b5",
-    badge: "Lugnande balsam",
-    headline: "Cicaplast B5+ – när huden säger ifrån",
-    shortBody: "Välj Cicaplast när huden är irriterad, rödflammig eller sliten av kyla och vind. Den tjocka balsamen med panthenol lugnar och stöttar hudens egen återhämtning – perfekt som punktinsats.",
-  },
-  {
-    product: cetaphilMoisturizingCreamProduct,
-    path: "/skonhet/fuktkram",
-    badge: "Vardagsbas",
-    headline: "Cetaphil – den enkla vardagskrämen",
-    shortBody: "Välj Cetaphil som daglig bas för kropp och ansikte. Stor burk, parfymfri och rik utan att kladda – den håller torr hud mjuk genom hela värmesäsongen.",
-  },
-];
-
-export const cicaplastB5EllerCetaphilRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/skonhet/cicaplast-b5","label":"Cicaplast","text":"Läs Elins genomgång av Cicaplast Baume B5+."},{"href":"/skonhet/fuktkram","label":"Fuktkräm","text":"Läs Elins genomgång av Cetaphil Moisturising Cream."},{"href":"/skonhet/cerave-eller-cetaphil","label":"Jämförelse","text":"CeraVe eller Cetaphil – vilken rengöring passar dig?"},{"href":"/skonhet","label":"Skönhet","text":"Se alla Elins hudvårdsval."}];
+export const moisturizerDecision: DecisionRecord = {
+  reviewedAt: "2026-09-08",
+  options: [
+    { productSlug: "la-roche-posay-cicaplast-b5", model: "La Roche-Posay Cicaplast Baume B5+", variant: "B5+ enligt svensk tillverkarinformation, inte SPF50. Katalogens 40 ml och ASIN B00ST2GSRK är inte matchade mot aktuellt butikserbjudande.", chooseIf: "du söker ett parfymfritt balm för ett torrt område och föredrar den fylliga konsistens som tillverkaren beskriver.", avoidIf: "du behöver solskydd eller tänker använda det på öppna sår eller runt ögonen. Tillverkaren skiljer ut SPF50-versionen och avråder från dessa appliceringsområden.", sourceIds: ["M1"], merchantVariantVerified: false },
+    { productSlug: "cetaphil-moisturizing-cream", model: "Cetaphil Moisturizing Cream", variant: "Svensk sida: 250 g, FIL.1765.V00. Inte verifierad som samma formula eller förpackning som katalogens 453 g, ASIN B003IO05U0.", chooseIf: "du behöver en kräm för torr hud på kropp eller ansikte och formulan passar dina tidigare erfarenheter.", avoidIf: "du vet att du reagerar på en ingrediens, eller väljer en annan marknadsvariant utan att kontrollera innehållet. Den svenska listan innehåller sötmandelolja.", sourceIds: ["M2"], merchantVariantVerified: false },
+  ],
+  payMoreWhen: "En annan konsistens eller förpackning löser ett konkret problem med det du använder. Vi har inget jämförande test som visar att Cicaplast ger bättre resultat. Jämför rätt variant och totalpris; gram och milliliter är inte direkt utbytbara.",
+  noPurchaseWhen: "Din befintliga kräm fungerar. Köp inte båda bara för att de presenteras som en kombination.",
+  swedishContext: "Cetaphils svenska sida anger 250 g, vår äldre katalog 453 g. Kontrollera innehållet på förpackningen. Svenska butikserbjudanden och totalpriser är inte verifierade.",
+  testing: "Vi har läst svenska tillverkaruppgifter, inte provat krämerna. La Roche-Posays testfotnoter gäller obehandlad hud respektive självutvärdering, inte jämförelse med Cetaphil.",
+  limitations: "Tillverkarpåståenden avgör inte vad din hud föredrar. Vi garanterar inte att krämerna passar tillsammans och utser ingen vinnare. Bildrättigheter och butiksvarianter återstår.",
+  sources: [
+    { id: "M1", title: "La Roche-Posay Sverige – Cicaplast B5+", url: "https://www.laroche-posay.se/torr-och-irriterad-hud/cicaplast-baume-b5", checkedAt: "2026-09-08", supports: "Parfymfritt, fylligt balm enligt tillverkaren. Undvik ögonområdet och öppna sår. SPF50 separat. Testfotnoterna avser inte Cetaphil." },
+    { id: "M2", title: "Cetaphil Sverige – Moisturizing Cream", url: "https://www.cetaphil.se/aterfuktare/moisturizing-cream/3499320014373.html", checkedAt: "2026-09-08", supports: "250 g, FIL.1765.V00, användning på torr hud och ingredienslista med sötmandelolja. Ingen matchning mot 453 g." },
+  ],
+};
+export const moisturizerGuide: DecisionGuide = {
+  path: "/skonhet/cicaplast-b5-eller-cetaphil", parent: { name: "Skönhet", href: "/skonhet" },
+  title: "Cicaplast eller Cetaphil – behöver du byta kräm?",
+  intro: "Börja med vad din nuvarande kräm inte gör för dig. Jämför användning och förpackning före pris och varumärke.",
+  decision: moisturizerDecision, productPaths: ["/skonhet/cicaplast-b5", "/skonhet/fuktkram"],
+  questions: [
+    { question: "Behöver jag båda?", answer: "Inte som standard. Behåll det som fungerar och välj en tydlig anledning innan du lägger till något. Vi har inte testat kombinationen." },
+    { question: "Är den stora burken samma svenska produkt?", answer: "Det är inte verifierat. Svenska sidan anger 250 g och en identifierad formula; katalogen anger 453 g. Namnet räcker inte för att matcha dem." },
+    { question: "Vilken fungerar bäst?", answer: "Vi har inget jämförande hudtest som avgör det. En ingredienslista eller ett varumärke räcker inte för att utse en vinnare." },
+  ],
+  related: [{ href: "/skonhet/cerave-eller-cetaphil", text: "Jämför rengöringar" }],
+};

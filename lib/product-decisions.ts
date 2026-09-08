@@ -1,3 +1,4 @@
+import { moisturizerDecision } from "@/lib/cicaplast-b5-eller-cetaphil";
 import { bottleDecision } from "@/lib/bottle-decision";
 import { yogaMatDecision } from "@/lib/yoga-mat-decision";
 import { bedroomFanDecision } from "@/lib/bedroom-fan-decision";
@@ -17,6 +18,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const moisturizerOption = moisturizerDecision.options.find(item => item.productSlug === slug);
+  if (moisturizerOption) return {
+    ...moisturizerDecision, options: [moisturizerOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Behöver du byta kräm?", href: "/skonhet/cicaplast-b5-eller-cetaphil" },
+  };
   const bottleOption = bottleDecision.options.find((item) => item.productSlug === slug);
   if (bottleOption) return {
     ...bottleDecision, options: [bottleOption],
