@@ -14,6 +14,8 @@ import {
   products,
   type Product,
 } from "@/lib/products";
+import { ProductDecisionPreview } from "@/components/ProductDecisionPreview";
+import { getProductDecision } from "@/lib/product-decisions";
 import { getEditorialScore } from "@/lib/scores";
 
 const categoryLabel = new Map(
@@ -37,21 +39,19 @@ type SearchableProduct = {
   haystack: string;
 };
 
-// Bygg sök-index en gång – titel, märke, kategori, badges och beskrivning.
-const searchIndex: SearchableProduct[] = products.map((product) => ({
-  product,
-  haystack: normalize(
-    [
-      product.title,
-      product.brand,
+// Keep discovery searchable by identity and current decision content, not old endorsements.
+const searchIndex: SearchableProduct[] = products.map((product) => {
+  const decision = getProductDecision(product.slug);
+  const option = decision?.options[0];
+  return {
+    product,
+    haystack: normalize([
+      product.title, product.brand, product.slug,
       categoryLabel.get(product.category) ?? product.category,
-      product.summary,
-      (product.badges ?? []).join(" "),
-      (product.uses ?? []).join(" "),
-      (product.peopleLike ?? []).join(" "),
-    ].join(" "),
-  ),
-}));
+      option?.model ?? "", option?.chooseIf ?? "", option?.avoidIf ?? "",
+    ].join(" ")),
+  };
+});
 
 const popularTerms = [
   "serum",
@@ -186,6 +186,8 @@ export function ProductSearch() {
 
 function SearchResultCard({ product }: { product: Product }) {
   const href = getProductPageHref(product);
+  const decision = getProductDecision(product.slug);
+  const title = decision?.options[0].model ?? product.title;
   const score = getEditorialScore(product.slug);
   const label = categoryLabel.get(product.category) ?? product.category;
 
@@ -194,7 +196,7 @@ function SearchResultCard({ product }: { product: Product }) {
       <Link
         href={href}
         className="relative block aspect-[4/3] w-full overflow-hidden bg-rose/8"
-        aria-label={`Öppna ${product.title}`}
+        aria-label={`Öppna ${title}`}
       >
         <Image
           src={product.image}
@@ -214,17 +216,15 @@ function SearchResultCard({ product }: { product: Product }) {
           {product.brand}
         </p>
         <h2 className="editorial-color-kiss mt-2 font-display text-2xl leading-tight">
-          <Link href={href}>{product.title}</Link>
+          <Link href={href}>{title}</Link>
         </h2>
-        <p className="mt-3 line-clamp-2 flex-1 text-sm leading-6 text-ink-soft">
-          {product.summary}
-        </p>
+        <ProductDecisionPreview slug={product.slug} />
         {score ? <ScoreBadge score={score} className="mt-4" /> : null}
         <Link
           href={href}
           className="mt-4 inline-flex items-center gap-1.5 text-sm font-black text-wine"
         >
-          Se Elins koll
+          {decision ? "Läs beslutet och källorna" : "Öppna produktinformationen"}
           <ArrowUpRight
             size={16}
             aria-hidden="true"

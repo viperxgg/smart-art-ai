@@ -7,9 +7,9 @@ import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Elins val | Utvalda produkter",
+  title: "Elins val | Hitta produktinformation",
   description:
-    "Elins samlade produktval inom träning, hälsa och återhämtning.",
+    "Hitta produktinformation inom skönhet, hälsa och träning. Läs användningsfall, begränsningar och källor där beslutsunderlag finns.",
   alternates: {
     canonical: `${siteConfig.url}/elins-val`,
   },
@@ -26,6 +26,7 @@ export default function ElinsValPage() {
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-bg px-4 py-8 text-ink"
     >
       <JsonLd data={breadcrumbSchema} />
@@ -37,14 +38,15 @@ export default function ElinsValPage() {
 
         <section className="rounded-[2.4rem] border border-line bg-surface/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.12)] md:p-10">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
-            Elins urval
+            Produktöversikt
           </p>
           <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
-            Produkter som fastnade.
+            Vad passar dina behov?
           </h1>
           <p className="mt-6 max-w-2xl text-xl leading-9 text-ink-soft">
-            Inte allt som syns i flödet. Bara produkter som är enkla att förstå,
-            rimliga att använda och värda en närmare titt.
+            Börja med behovet och läs begränsningarna innan du överväger ett köp.
+            Här finns både beslutsunderlag under arbete och produktposter som
+            ännu saknar en granskning. Att en produkt finns här är ingen rekommendation.
           </p>
         </section>
 
