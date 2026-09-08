@@ -13,7 +13,7 @@ import {
   Trash2,
   X,
 } from "lucide-react";
-import { type CSSProperties, FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from "react";
+import { type CSSProperties, FormEvent, ReactNode, useEffect, useId, useMemo, useRef, useState } from "react";
 
 import type { ProductCategorySlug } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
@@ -872,6 +872,7 @@ export function ElinChat({
   emptyText = "Fråga om en produkt, en rutin eller om ett billigare alternativ i sortimentet.",
   className = "",
 }: ElinChatProps) {
+  const questionId = useId();
   const [messages, setMessages] = useState<ConversationMessage[]>([]);
   const [input, setInput] = useState("");
   const [isSending, setIsSending] = useState(false);
@@ -1373,11 +1374,11 @@ export function ElinChat({
         <div className="flex min-w-0 items-center gap-3">
           <ElinAvatar />
           <div className="min-w-0">
-            <p className="text-sm font-black text-ink">Elin</p>
+            <p className="text-sm font-black text-ink">Elin · AI-assistent</p>
             {/* In the drawer the header above already introduces Elin, so the
                 strapline only takes reading space away from the messages. */}
             {compact && messages.length > 0 ? null : (
-              <p className="mt-1 truncate text-xs text-ink-soft">
+              <p className="mt-1 break-words text-xs text-ink-soft">
                 {focus
                   ? `Utgår från ${focus.title}`
                   : "Svarar kort, ärligt och produktdatastyrt"}
@@ -1686,8 +1687,10 @@ export function ElinChat({
             Kommer ihåg: {preferenceText}
           </p>
         ) : null}
+        <label htmlFor={questionId} className="mb-1 block px-2 text-xs font-bold text-ink">Din fråga till Elin</label>
         <div className="flex items-end gap-2 rounded-[1.3rem] border border-line bg-surface p-2">
           <textarea
+            id={questionId}
             ref={textareaRef}
             value={input}
             onChange={(event) => setInput(event.target.value.slice(0, 500))}
