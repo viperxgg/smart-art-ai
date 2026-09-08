@@ -880,15 +880,15 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "massagepistol",
-    title: "Beurer MG 99 vs BDBKMG massagepistol",
+    title: "Massagepistol – passar användningen dig?",
     shortTitle: "Massagepistol",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/massagepistol",
     description:
-      "Kompakt märkesval mot fler lägen och mer funktioner för pengarna.",
+      "Läs MG 99:s användningsbegränsningar och vad vi inte har testat. BDBKMG:s modelluppgifter återstår att verifiera.",
     productSlugs: ["beurer-mg-99-massagepistol", "bdbkmg-massagepistol"],
-    badges: ["Känt märke", "99 lägen", "Återhämtning"],
+    badges: ["Modellkontroll", "Användningsgränser"],
   },
   {
     slug: "plattang",

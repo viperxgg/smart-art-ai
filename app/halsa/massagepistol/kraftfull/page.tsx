@@ -4,28 +4,20 @@ import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
 const pick = massagepistolPicks[1];
-const otherPick = massagepistolPicks[0];
 const pageUrl = `${siteConfig.url}/halsa/massagepistol/kraftfull`;
 
 export const revalidate = 3600;
 
 export const metadata = createSeoMetadata({
-  title: pick.metaTitle,
-  description: pick.metaDescription,
+  title: "BDBKMG massagepistol – modellunderlag saknas | Elins val",
+  description: "Vi har ännu inte verifierat exakt BDBKMG-modell, manual eller butikspaket. Se vad som behöver kontrolleras innan en köprekommendation kan ges.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${pick.product.image}`,
-    width: 1024,
-    height: 1024,
-    alt: pick.product.imageAlt,
-  },
 });
 
 export default function KraftfullMassagepistolPage() {
   return (
     <MassagepistolProductReviewPage
       pick={pick}
-      otherPick={otherPick}
     />
   );
 }

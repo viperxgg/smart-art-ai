@@ -4,7 +4,6 @@ import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
 const pick = massagepistolPicks[0];
-const otherPick = massagepistolPicks[1];
 const pageUrl = `${siteConfig.url}/halsa/massagepistol/beurer-mg-99`;
 
 export const revalidate = 3600;
@@ -19,7 +18,6 @@ export default function BeurerMg99Page() {
   return (
     <MassagepistolProductReviewPage
       pick={pick}
-      otherPick={otherPick}
     />
   );
 }

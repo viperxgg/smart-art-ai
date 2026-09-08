@@ -110,9 +110,9 @@ const guides = [
   },
   {
     href: "/guider/dyr-massagepistol-vs-budget",
-    title: "Dyr massagepistol eller budget – behöver du premiummärket?",
+    title: "Dyrare massagepistol – vilken skillnad behöver du?",
     description:
-      "Elin jämför dyra och billiga massagepistoler ärligt – vad premium ger och när en budgetmodell räcker.",
+      "Kontrollera vad som faktiskt skiljer modellerna innan du betalar mer. Inget jämförande kraft- eller ljudtest har gjorts.",
   },
   {
     href: "/guider/premium-yogamatta-vs-budget",

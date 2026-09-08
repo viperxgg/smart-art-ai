@@ -34,3 +34,23 @@ export const massageGunGuide: DecisionGuide = {
   ],
   related: [{ href: "/halsa", text: "Fler frågor inför ditt val för vardagen" }],
 };
+
+export const massageGunPriceGuide: DecisionGuide = {
+  path: "/guider/dyr-massagepistol-vs-budget",
+  title: "Dyrare massagepistol – vilken skillnad behöver du?",
+  intro: "Börja med en funktion du faktiskt saknar. Vi har underlag för Beurer MG 99, men inget jämförande test som visar att dyrare massagepistoler är tystare, starkare eller bättre för dig.",
+  decision: {
+    ...massageGunDecision,
+    payMoreWhen: "Du kan belägga en relevant skillnad mellan två exakta modeller, exempelvis grepp eller reglage som passar din användning. Jämför samma testförhållanden för ljud och belastning. Vi har inte sådana jämförande mätningar och anger därför ingen prispremie som värd pengarna.",
+    noPurchaseWhen: "Din nuvarande utrustning fungerar eller du saknar ett tydligt användningsbehov. Ett nytt varumärke, fler lägen eller ett erbjudande är inte i sig ett skäl att byta.",
+    limitations: "MG 99:s manual beskriver en modell; den bevisar inte vad alla billiga eller dyra apparater klarar. Vi har varken verifierat BDBKMG:s exakta modell eller jämfört aktuella svenska totalpriser. Ingen budget- eller premiumvinnare utses. Bildrättigheter och butiksvariant återstår.",
+  },
+  productPaths: ["/halsa/massagepistol/beurer-mg-99"],
+  questions: [
+    { question: "Är högre pris bevis för lägre ljud eller högre kraft?", answer: "Nej, vi har inga mätningar här som styrker det. Begär data för de exakta modellerna vid jämförbara inställningar och belastning. Antal lägen beskriver inte ljudnivå eller kraft under användning." },
+    { question: "Betyder längre slag att massagen passar mig bättre?", answer: "Vi har inte belägg för den slutsatsen och rekommenderar inte att du söker djupast möjliga påverkan. Kontrollera först modellens avsedda användning och begränsningar. Ett tekniskt mått är inte ett individuellt behandlingsråd." },
+    { question: "Räcker MG 99 som budgetval?", answer: "Vi kan beskriva dess fyra huvuden, fem nivåer och manualens begränsningar. Vi har inte provat den eller verifierat dagens pris, så vi kallar den varken budgetvinnare eller tillräcklig för alla hemmaanvändare." },
+    { question: "Vad ska jag jämföra i det svenska erbjudandet?", answer: "Exakt modell, medföljande huvuden och laddare, begripliga instruktioner samt totalpris med frakt. Kontrollera också säljarens returvillkor om grepp och reglage inte passar. Dessa erbjudandeuppgifter är inte verifierade här." },
+  ],
+  related: [{ href: "/halsa/massagepistol", text: "Kontrollera användningsbegränsningarna före köp" }],
+};

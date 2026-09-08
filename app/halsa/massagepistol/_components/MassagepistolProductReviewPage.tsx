@@ -1,309 +1,48 @@
 import Link from "next/link";
+import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { JsonLd } from "@/components/JsonLd";
+import { ProductComments } from "@/components/ProductComments";
 import { ProductDecisionPage } from "@/components/ProductDecisionPage";
 import { getProductDecision } from "@/lib/product-decisions";
-import {
-  ArrowLeft,
-  HeartPulse,
-  TriangleAlert,
-} from "lucide-react";
-
-import { AmazonCta } from "@/components/AmazonCta";
-import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
-import { EditorialMeta } from "@/components/EditorialMeta";
-import { ElinsScoreCard } from "@/components/ElinsScoreCard";
-import { ProductBadges } from "@/components/ProductBadges";
-import { JsonLd } from "@/components/JsonLd";
-import { buildProductSchema } from "@/lib/product-schema";
-import { ProductComments } from "@/components/ProductComments";
-import { ProductImageGallery } from "@/components/ProductImageGallery";
-import { RelatedLinks } from "@/components/RelatedLinks";
-import { SaveProductButton } from "@/components/SaveProductButton";
-import { TrustReviewLayers } from "@/components/TrustReviewLayers";
-import { WebPageJsonLd } from "@/components/WebPageJsonLd";
-import {
-  massagepistolComparisonRows,
-  massagepistolFaqItems,
-  type MassagepistolPick,
-} from "@/lib/massagepistol";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { getEditorialScore } from "@/lib/scores";
+import type { MassagepistolPick } from "@/lib/massagepistol";
 
-type MassagepistolProductReviewPageProps = {
-  pick: MassagepistolPick;
-  otherPick: MassagepistolPick;
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: massagepistolFaqItems.map((item) => ({
-    "@type": "Question",
-    name: item.question,
-    acceptedAnswer: {
-      "@type": "Answer",
-      text: item.answer,
-    },
-  })),
-};
-
-export async function MassagepistolProductReviewPage({
-  pick,
-  otherPick,
-}: MassagepistolProductReviewPageProps) {
+export async function MassagepistolProductReviewPage({ pick }: { pick: MassagepistolPick }) {
   const approvedReviews = await getApprovedReviews(pick.product.slug);
   const decision = getProductDecision(pick.product.slug);
   if (decision) return <ProductDecisionPage pick={{ ...pick, href: pick.path }} decision={decision} reviews={approvedReviews} />;
-  const productSchema = buildProductSchema({
-    product: pick.product,
-    url: pick.path,
-    description: pick.metaDescription,
-    category: "Massagepistol",
-  });
-  const editorialScore = getEditorialScore(pick.product.slug);
-  const breadcrumbItems = [
-    { name: "Hem", href: "/" },
-    { name: "Hälsa", href: "/halsa" },
-    { name: "Massagepistol", href: "/halsa/massagepistol" },
-    { name: pick.product.title, href: pick.path },
+  const breadcrumbs = [
+    { name: "Hem", href: "/" }, { name: "Hälsa & vardag", href: "/halsa" },
+    { name: "Massagepistol", href: "/halsa/massagepistol" }, { name: "BDBKMG – underlag saknas", href: pick.path },
   ];
-  const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
-
   return (
-    <main
-      id="content"
-      tabIndex={-1}
-      className="min-h-screen bg-bg px-4 py-7 text-ink"
-    >
-      {productSchema ? <JsonLd data={productSchema} /> : null}
-      <JsonLd data={faqSchema} />
-      <JsonLd data={breadcrumbSchema} />
-      <WebPageJsonLd path={pick.path} name={pick.headline} />
-
-      <div className="mx-auto w-full max-w-5xl">
-        <div className="mb-5">
-          <Breadcrumbs items={breadcrumbItems} />
-        </div>
-        <header className="flex items-center justify-between gap-4">
-          <Link
-            href="/halsa/massagepistol"
-            className="inline-flex min-h-11 items-center gap-2 rounded-full text-sm font-bold text-ink-soft transition hover:text-wine"
-          >
-            <ArrowLeft size={18} aria-hidden="true" />
-            Tillbaka till massagepistol-guiden
-          </Link>
-          <div className="flex shrink-0 items-center gap-2">
-            <SaveProductButton
-              productSlug={pick.product.slug}
-              productTitle={pick.product.title}
-              className="grid min-h-11 min-w-11 place-items-center rounded-full border border-line bg-surface/70 text-wine shadow-[0_14px_36px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-surface"
-            />
-            <p className="rounded-full border border-line bg-surface/70 px-4 py-2 text-xs font-black uppercase tracking-[0.14em] text-wine">
-              Annons
-            </p>
-          </div>
-        </header>
-
-        <section className="mt-8 grid gap-7 lg:grid-cols-[1fr_0.92fr] lg:items-center">
-          <div className="overflow-hidden rounded-[2.2rem] border border-line bg-surface shadow-[0_28px_90px_rgba(185,131,166,0.14)]">
-            <ProductImageGallery images={pick.product.images} />
-          </div>
-
-          <article className="rounded-[2.2rem] border border-line bg-surface/72 p-6 shadow-[0_28px_90px_rgba(185,131,166,0.1)] md:p-9">
-            <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
-              Elins produktkoll
-            </p>
-            <p className="mt-4 inline-flex min-h-10 items-center rounded-full border border-line bg-rose/8 px-4 text-sm font-black text-wine">
-              Prisvärt val
-            </p>
-            <ProductBadges badges={pick.product.badges} className="mt-4" />
-            <h1 className="editorial-color-kiss mt-4 font-display text-4xl leading-[1.05] tracking-[-0.035em] sm:text-6xl">
-              {pick.headline}
-            </h1>
-            <EditorialMeta path={pick.path} className="mt-4" />
-            <p className="mt-5 text-lg leading-8 text-ink-soft">
-              {pick.shortBody}
-            </p>
-            <p className="mt-5 rounded-3xl border border-line bg-rose/8 p-4 text-sm leading-7 text-ink-soft">
-              <strong>Annons</strong> · Den här sidan innehåller reklamlänkar.
-              Om du handlar via våra länkar kan vi få en provision - utan extra
-              kostnad för dig.
-            </p>
-          </article>
+    <main id="content" tabIndex={-1} className="min-h-screen bg-bg px-5 py-8 text-ink">
+      <JsonLd data={buildBreadcrumbSchema(breadcrumbs)} />
+      <div className="mx-auto max-w-3xl">
+        <Breadcrumbs items={breadcrumbs} />
+        <h1 className="mt-6 font-display text-3xl font-bold sm:text-4xl">BDBKMG – vad behöver kontrolleras före köp?</h1>
+        <p className="mt-4 leading-relaxed text-ink-soft">Vi har inte verifierat den exakta modellen bakom produktposten. Uppgifterna om kraft, vikt, laddning, antal lägen och huvuden räcker därför inte till en köprekommendation.</p>
+        <p className="mt-4 leading-relaxed text-ink-soft">Vi har inte provat apparaten. Ingen vinnare, poäng eller prisvärdhetsbedömning anges. Bilder och butikslänk väntar på kontroll av identitet och användningsrätt.</p>
+        <section className="mt-8 rounded-2xl border border-line bg-surface p-6" aria-labelledby="missing-evidence">
+          <h2 id="missing-evidence" className="font-display text-2xl font-bold">Det här saknas i beslutsunderlaget</h2>
+          <ul className="mt-4 list-disc space-y-3 pl-5 leading-relaxed">
+            <li>Exakt modellbeteckning, identifierbar tillverkare och modellens bruksanvisning.</li>
+            <li>Avsedd användning och begränsningar enligt den egna manualen. Beurers instruktioner kan inte överföras till denna apparat.</li>
+            <li>Verifierat paket för Sverige: laddare, kontakt, medföljande huvuden och begripliga instruktioner.</li>
+            <li>Jämförbara mätningar innan ljud, kraft eller fler inställningar används som skäl att betala mer.</li>
+          </ul>
         </section>
-
-
-
-        <section className="mt-7 rounded-[2rem] border border-line bg-rose/10 p-6 shadow-[0_26px_80px_rgba(185,131,166,0.12)] md:p-8">
-          <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
-            Prisvärt val
-          </p>
-          <h2 className="editorial-color-kiss mt-2 font-display text-3xl">
-            {pick.valueHook}
-          </h2>
-          <p className="mt-5 max-w-4xl text-lg leading-8 text-ink-soft">
-            {pick.valueStatement}
-          </p>
-          <p className="mt-5 max-w-4xl rounded-2xl bg-surface/60 p-5 text-lg font-semibold leading-8 text-ink">
-            {pick.verdict}
-          </p>
-          <h3 className="editorial-color-kiss mt-7 font-display text-2xl">
-              Passar dig som...
-          </h3>
-          <div className="mt-4 grid gap-3 sm:grid-cols-2">
-            {pick.passFor.map((item) => (
-              <div
-                key={item}
-                className="flex min-h-14 items-center gap-4 rounded-2xl bg-surface/60 px-4 font-bold text-ink"
-              >
-                <span className="grid h-10 w-10 place-items-center rounded-xl bg-rose/15 text-wine">
-                  <HeartPulse size={20} aria-hidden="true" />
-                </span>
-                {item}
-              </div>
-            ))}
-          </div>
+        <section className="mt-8 space-y-3" aria-labelledby="wait-for-evidence">
+          <h2 id="wait-for-evidence" className="font-display text-2xl font-bold">När är det bättre att avstå?</h2>
+          <p className="leading-relaxed text-ink-soft">Om du inte kan kontrollera modellens instruktioner och begränsningar, avvakta med köpet. Behåll utrustning som redan fungerar för ditt behov; många lägen eller ett lågt pris räcker inte som skäl att byta.</p>
+          <p className="leading-relaxed text-ink-soft">Vi kan ännu inte ange vem just denna modell passar. Ett besökaromdöme ersätter inte produktens manual eller en verifierad modellkontroll.</p>
         </section>
-
-        <section className="mt-7">
-          <article className="rounded-[2rem] border border-line bg-surface/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-            <h2 className="editorial-color-kiss font-display text-3xl">
-              Bra att veta
-            </h2>
-            <div className="mt-6 flex min-h-14 items-start gap-4 rounded-2xl bg-rose/8 px-4 py-4 text-ink">
-              <TriangleAlert
-                className="mt-1 shrink-0 text-rose"
-                size={22}
-                aria-hidden="true"
-              />
-              <span className="font-semibold leading-7">{pick.caution}</span>
-            </div>
-          </article>
-        </section>
-
-        <section className="mt-7 overflow-hidden rounded-[2rem] border border-line bg-surface/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
-          <div className="p-6 md:p-8">
-            <h2 className="editorial-color-kiss font-display text-3xl">
-              Beurer MG 99 vs BDBKMG - vilken ska du välja?
-            </h2>
-            <p className="mt-4 max-w-3xl leading-8 text-ink-soft">
-              Båda kan passa för återhämtning hemma, men de spelar olika roller:
-              Beurer är det lätta märkesvalet, BDBKMG är det kraftfulla
-              prisvalet.
-            </p>
-          </div>
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[44rem] border-collapse text-left">
-              <thead>
-                <tr className="border-y border-line bg-rose/8">
-                  <th className="px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-wine">
-                    Punkt
-                  </th>
-                  <th className="px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-wine">
-                    Beurer MG 99
-                  </th>
-                  <th className="px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-wine">
-                    BDBKMG
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {massagepistolComparisonRows.map(([label, beurer, bdbkmg]) => (
-                  <tr key={label} className="border-b border-line">
-                    <th className="px-6 py-5 font-black text-ink">
-                      {label}
-                    </th>
-                    <td className="px-6 py-5 leading-7 text-ink-soft">
-                      {beurer}
-                    </td>
-                    <td className="px-6 py-5 leading-7 text-ink-soft">
-                      {bdbkmg}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <div className="p-6 md:p-8">
-            <p className="rounded-2xl bg-rose/8 p-5 font-semibold leading-8 text-ink">
-              {pick.comparisonVerdict}{" "}
-              <Link
-                href={otherPick.path}
-                className="font-black text-wine underline underline-offset-4"
-              >
-                Läs den andra recensionen
-              </Link>
-              .
-            </p>
-          </div>
-        </section>
-
-        {editorialScore ? (
-          <ElinsScoreCard score={editorialScore} className="mt-7" />
-        ) : null}
-        <AmazonCta href={pick.product.amazonUrl} product={pick.product} className="mt-5" />
-
-
-        <div className="mt-7">
-          <TrustReviewLayers
-            amazonSummary={pick.amazonSummary}
-            amazonQuotes={pick.amazonQuotes}
-            reviewHref={`#${pick.reviewSectionId}`}
-          />
-        </div>
-
-        <section className="mt-7">
-          <ProductComments
-            product={pick.product}
-            reviews={approvedReviews}
-            turnstileSiteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
-            sectionId={pick.reviewSectionId}
-            formId={pick.reviewFormId}
-          />
-        </section>
-
-        <RelatedLinks
-          links={[
-            {
-              href: otherPick.path,
-              label: "Jämför",
-              text: `Se hur ${otherPick.product.title} skiljer sig från den här modellen.`,
-            },
-            {
-              href: "/traning/traningsband-naturlatex",
-              label: "Träning",
-              text: "Ett enkelt träningsval om du vill kombinera återhämtning med hemmaträning.",
-            },
-          ]}
-        />
-
-        <section className="mt-7 rounded-[2rem] border border-line bg-surface/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
-          <h2 className="editorial-color-kiss font-display text-3xl">
-            Vanliga frågor
-          </h2>
-          <div className="mt-6 grid gap-4">
-            {massagepistolFaqItems.map((item) => (
-              <details
-                key={item.question}
-                className="rounded-2xl bg-rose/8 p-5"
-              >
-                <summary className="cursor-pointer font-black text-ink">
-                  {item.question}
-                </summary>
-                <p className="mt-3 leading-7 text-ink-soft">{item.answer}</p>
-              </details>
-            ))}
-          </div>
-        </section>
-
-        <AmazonCta href={pick.product.amazonUrl} product={pick.product} panel className="mt-7" />
-
-        <Link
-          href="/halsa/massagepistol"
-          className="mt-8 inline-flex min-h-12 items-center gap-2 rounded-full border border-line bg-surface/70 px-5 font-bold text-ink-soft transition hover:text-wine"
-        >
-          <ArrowLeft size={18} aria-hidden="true" />
-          Till jämförelsen
-        </Link>
+        <nav aria-label="Fortsätt läsa" className="mt-8 flex flex-wrap gap-4">
+          <Link href="/halsa/massagepistol" className="inline-flex min-h-11 items-center underline">MG 99 som dokumenterat exempel – ingen jämförelsevinnare</Link>
+          <Link href="/guider/dyr-massagepistol-vs-budget" className="inline-flex min-h-11 items-center underline">Vad behöver ett högre pris motivera?</Link>
+          <Link href="/fraga-elin" className="inline-flex min-h-11 items-center underline">Fråga Elin – valfri AI-hjälp</Link>
+        </nav>
+        <ProductComments product={pick.product} reviews={approvedReviews} turnstileSiteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY} sectionId={pick.reviewSectionId} formId={pick.reviewFormId} />
       </div>
     </main>
   );
