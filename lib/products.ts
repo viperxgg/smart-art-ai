@@ -1,3 +1,4 @@
+import type { ReviewEvidence } from "@/lib/ratings";
 import { waveProducts } from "@/lib/wave-products";
 
 export type Product = {
@@ -59,6 +60,7 @@ export type ProductSpec = {
 };
 
 export type AmazonReviewSignal = {
+  reviewEvidence?: ReviewEvidence;
   sourceLabel: string;
   sourceUrl: string;
   ratingSummary: string;

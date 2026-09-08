@@ -1,13 +1,14 @@
 import { AlertTriangle, CheckCircle2, Star } from "lucide-react";
 
 import type { AmazonReviewSignal } from "@/lib/products";
-import { formatRatingSummary } from "@/lib/ratings";
+import { formatRatingSummary, hasReviewedSignal } from "@/lib/ratings";
 
 export function AmazonReviewSignals({
   signal,
 }: {
   signal: AmazonReviewSignal;
 }) {
+  if (!hasReviewedSignal(signal)) return null;
   return (
     <section className="review-signal-panel">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
@@ -31,7 +32,7 @@ export function AmazonReviewSignals({
           className="rating-badge"
         >
           <Star size={16} fill="currentColor" aria-hidden="true" />
-          {formatRatingSummary(signal.ratingSummary, signal.ratingCheckedAt)}
+          {formatRatingSummary(signal.ratingSummary, signal.ratingCheckedAt, signal.reviewEvidence)}
         </a>
       </div>
 

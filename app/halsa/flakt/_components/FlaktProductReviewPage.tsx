@@ -25,7 +25,7 @@ import {
   flaktFaqItems,
   type FlaktPick,
 } from "@/lib/flakt";
-import { formatRatingSummary } from "@/lib/ratings";
+import { formatRatingSummary, hasReviewedSignal } from "@/lib/ratings";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
 
 type FlaktProductReviewPageProps = {
@@ -277,7 +277,7 @@ export async function FlaktProductReviewPage({
         <AmazonCta href={pick.product.amazonUrl} product={pick.product} className="mt-5" />
 
 
-        <section className="mt-7 grid gap-4 lg:grid-cols-2">
+        {hasReviewedSignal(pick.product.amazonReviewSignal) ? <section className="mt-7 grid gap-4 lg:grid-cols-2">
           <article className="rounded-[2rem] border border-line bg-surface/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
             <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
               {pick.product.amazonReviewSignal.sourceLabel}
@@ -289,6 +289,7 @@ export async function FlaktProductReviewPage({
               {formatRatingSummary(
                 pick.product.amazonReviewSignal.ratingSummary,
                 pick.product.amazonReviewSignal.ratingCheckedAt,
+                pick.product.amazonReviewSignal.reviewEvidence,
               )}
             </p>
             <a
@@ -333,7 +334,7 @@ export async function FlaktProductReviewPage({
               ))}
             </div>
           </article>
-        </section>
+        </section> : null}
 
         <section className="mt-7">
           <ProductComments

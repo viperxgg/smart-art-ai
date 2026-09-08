@@ -24,7 +24,7 @@ import { RelatedLinks } from "@/components/RelatedLinks";
 import { SaveProductButton } from "@/components/SaveProductButton";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { WebPageJsonLd } from "@/components/WebPageJsonLd";
-import { formatRatingSummary } from "@/lib/ratings";
+import { formatRatingSummary, hasReviewedSignal } from "@/lib/ratings";
 import {
   getApprovedReviews,
   type ApprovedProductReview,
@@ -101,8 +101,9 @@ export async function ProductReviewPage({
   ];
   const hasProductSpecs = pick.product.specs.length > 0;
   const hasAmazonSignalDetails =
+    hasReviewedSignal(pick.product.amazonReviewSignal) && (
     pick.product.amazonReviewSignal.highlights.length > 0 ||
-    pick.product.amazonReviewSignal.cautions.length > 0;
+    pick.product.amazonReviewSignal.cautions.length > 0);
 
   return (
     <main
@@ -286,6 +287,7 @@ export async function ProductReviewPage({
         <div className="mt-8">
           <TrustReviewLayers
             amazonSummary={pick.amazonSummary}
+            reviewEvidence={pick.product.amazonReviewSignal.reviewEvidence}
             ratingCheckedAt={pick.product.amazonReviewSignal.ratingCheckedAt}
             amazonQuotes={pick.amazonQuotes}
             reviewHref={`#${pick.reviewSectionId}`}
@@ -305,6 +307,7 @@ export async function ProductReviewPage({
                 {formatRatingSummary(
                   pick.product.amazonReviewSignal.ratingSummary,
                   pick.product.amazonReviewSignal.ratingCheckedAt,
+                  pick.product.amazonReviewSignal.reviewEvidence,
                 )}
               </p>
               <a

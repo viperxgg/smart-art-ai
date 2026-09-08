@@ -2,7 +2,7 @@ import type { CSSProperties } from "react";
 import Link from "next/link";
 import { MessageCircle, Quote, Star } from "lucide-react";
 
-import { formatRatingSummary } from "@/lib/ratings";
+import { formatRatingSummary, hasReviewEvidence, type ReviewEvidence } from "@/lib/ratings";
 
 type AmazonQuote = {
   text: string;
@@ -11,6 +11,7 @@ type AmazonQuote = {
 
 type TrustReviewLayersProps = {
   amazonSummary: string;
+  reviewEvidence?: ReviewEvidence;
   ratingCheckedAt?: string;
   amazonQuotes?: AmazonQuote[];
   reviewHref?: string;
@@ -18,12 +19,16 @@ type TrustReviewLayersProps = {
 
 export function TrustReviewLayers({
   amazonSummary,
+  reviewEvidence,
   ratingCheckedAt,
   amazonQuotes = [],
   reviewHref = "#recensioner",
 }: TrustReviewLayersProps) {
+  const verified = hasReviewEvidence(reviewEvidence) && reviewEvidence.summary === amazonSummary && reviewEvidence.checkedAt === ratingCheckedAt;
+  const verifiedQuotes = verified ? amazonQuotes.filter(quote => reviewEvidence.quotes.some(source => source.text === quote.text && source.attribution === quote.attribution)) : [];
   return (
-    <section className="grid gap-4 lg:grid-cols-2">
+    <section className={`grid gap-4 ${verified ? "lg:grid-cols-2" : ""}`}>
+      {verified ? (
       <article className="reveal-fade rounded-[2rem] border border-line bg-surface/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
         <div className="flex items-center gap-3">
           <span className="grid h-11 w-11 place-items-center rounded-2xl bg-rose/15 text-wine">
@@ -39,11 +44,11 @@ export function TrustReviewLayers({
           </div>
         </div>
         <p className="mt-5 leading-8 text-ink-soft">
-          {formatRatingSummary(amazonSummary, ratingCheckedAt)}
+          {formatRatingSummary(amazonSummary, ratingCheckedAt, reviewEvidence)}
         </p>
-        {amazonQuotes.length > 0 ? (
+        {verifiedQuotes.length > 0 ? (
           <div className="mt-5 space-y-3">
-            {amazonQuotes.map((quote) => (
+            {verifiedQuotes.map((quote) => (
               <blockquote
                 key={`${quote.attribution}-${quote.text}`}
                 className="rounded-2xl bg-rose/8 p-4"
@@ -69,6 +74,7 @@ export function TrustReviewLayers({
           </p>
         )}
       </article>
+      ) : null}
 
       <article className="reveal-fade rounded-[2rem] border border-line bg-surface/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)]" style={{ "--i": 1 } as CSSProperties}>
         <div className="flex items-center gap-3">
@@ -85,7 +91,7 @@ export function TrustReviewLayers({
           </div>
         </div>
         <p className="mt-5 leading-8 text-ink-soft">
-          Har du provat den? Bli först med att dela din ärliga åsikt.
+          Har du provat produkten? Dela din erfarenhet och berätta vilken modell du använde.
         </p>
         <Link
           href={reviewHref}
