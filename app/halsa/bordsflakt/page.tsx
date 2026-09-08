@@ -1,3 +1,4 @@
+import { getProductDecision } from "@/lib/product-decisions";
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";
@@ -11,15 +12,9 @@ export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
+      title: `${getProductDecision(pick.product.slug)?.options[0].model ?? pick.product.title} – beslutsunderlag | Elins val`,
+      description: "Modelluppgifter, villkor för valet och begränsningar. Läs vad vi har verifierat och när du kan avstå från köp.",
       url: `${siteConfig.url}${pick.href}`,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 900,
-        height: 675,
-        alt: pick.product.imageAlt,
-      },
     })
   : {};
 

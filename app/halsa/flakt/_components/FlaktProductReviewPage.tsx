@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { ProductDecisionPage } from "@/components/ProductDecisionPage";
+import { getProductDecision } from "@/lib/product-decisions";
 import {
   ArrowLeft,
   CheckCircle2,
@@ -50,6 +52,8 @@ export async function FlaktProductReviewPage({
   otherPick,
 }: FlaktProductReviewPageProps) {
   const approvedReviews = await getApprovedReviews(pick.product.slug);
+  const decision = getProductDecision(pick.product.slug);
+  if (decision) return <ProductDecisionPage pick={{ ...pick, href: pick.path }} decision={decision} reviews={approvedReviews} />;
   const breadcrumbItems = [
     { name: "Hem", href: "/" },
     { name: "Hälsa", href: "/halsa" },

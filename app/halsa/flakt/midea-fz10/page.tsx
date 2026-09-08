@@ -1,3 +1,4 @@
+import { getProductDecision } from "@/lib/product-decisions";
 import { FlaktProductReviewPage } from "@/app/halsa/flakt/_components/FlaktProductReviewPage";
 import { flaktPicks } from "@/lib/flakt";
 import { createSeoMetadata } from "@/lib/metadata";
@@ -10,15 +11,9 @@ const pageUrl = `${siteConfig.url}/halsa/flakt/midea-fz10`;
 export const revalidate = 3600;
 
 export const metadata = createSeoMetadata({
-  title: pick.metaTitle,
-  description: pick.metaDescription,
+  title: `${getProductDecision(pick.product.slug)?.options[0].model ?? pick.product.title} – beslutsunderlag | Elins val`,
+  description: "Modelluppgifter, villkor för valet och begränsningar. Läs vad vi har verifierat och när du kan avstå från köp.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${pick.product.image}`,
-    width: 1024,
-    height: 1024,
-    alt: pick.product.imageAlt,
-  },
 });
 
 export default function MideaFz10Page() {

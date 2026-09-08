@@ -1,3 +1,4 @@
+import { bedroomFanDecision } from "@/lib/bedroom-fan-decision";
 import { kettlebellDumbbellDecision } from "@/lib/kettlebell-dumbbell-decision";
 import { hairStylingDecision } from "@/lib/hair-styling-decision";
 import { indoorAirDecision } from "@/lib/indoor-air-decision";
@@ -13,6 +14,13 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const fanOption = bedroomFanDecision.options.find((item) => item.productSlug === slug);
+  if (fanOption) return {
+    ...bedroomFanDecision, options: [fanOption],
+    sources: bedroomFanDecision.sources.filter((source) => fanOption.sourceIds.includes(source.id)),
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Välj fläkt efter dina behov", href: "/guider/tyst-flakt-sovrum" },
+  };
   const weightOption = kettlebellDumbbellDecision.options.find((item) => item.productSlug === slug);
   if (weightOption) return {
     ...kettlebellDumbbellDecision, options: [weightOption],
