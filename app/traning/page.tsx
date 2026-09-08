@@ -5,23 +5,15 @@ import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { CategoryComparisonSections } from "@/components/CategoryComparisonSections";
 import { CategoryProductSections } from "@/components/CategoryProductSections";
 import { JsonLd } from "@/components/JsonLd";
-import { ProductCard } from "@/components/ProductCard";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { createSeoMetadata } from "@/lib/metadata";
-import { featuredProduct } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
 export const metadata = createSeoMetadata({
   title: "Träning hemma | Elins val",
   description:
-    "Elins val inom enkel hemmaträning: produkter som tar lite plats, är lätta att förstå och faktiskt passar i vardagen.",
+    "Jämför redskap efter övningar, utrymme och begränsningar. Läs när din nuvarande utrustning räcker.",
   url: `${siteConfig.url}/traning`,
-  image: {
-    url: `${siteConfig.url}${featuredProduct.image}`,
-    width: 1024,
-    height: 1024,
-    alt: featuredProduct.imageAlt,
-  },
 });
 
 const breadcrumbItems = [
@@ -35,6 +27,7 @@ export default function TraningHubPage() {
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-bg px-4 py-8 text-ink"
     >
       <JsonLd data={breadcrumbSchema} />
@@ -54,19 +47,24 @@ export default function TraningHubPage() {
         <section className="mt-11 grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
-              Elins träningsval
+              Träning hemma
             </p>
             <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
-              Träning som får plats hemma.
+              Vilka redskap behöver dina övningar?
             </h1>
             <p className="mt-6 max-w-2xl text-xl leading-9 text-ink-soft">
-              Här samlar Elin produkter som gör hemmaträning mindre krånglig:
-              enkla att använda, lätta att förvara och tydliga nog att förstå på
-              några sekunder.
+              Börja med övningarna du vill göra och utrymmet du har.
+              Jämför belastning och begränsningar innan du lägger till
+              något i utrustningen.
             </p>
           </div>
 
-          <ProductCard product={featuredProduct} priority />
+          <Link href="/traning/hantlar-eller-gummiband" className="group rounded-[2.2rem] border border-line bg-surface/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.14)] transition hover:-translate-y-1">
+            <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">Börja med en jämförelse</p>
+            <h2 className="editorial-color-kiss mt-3 font-display text-4xl leading-tight">Hantlar eller miniband – vad passar övningen?</h2>
+            <p className="mt-4 text-lg leading-8 text-ink-soft">Se de exakta redskapen, vad de inte ersätter och när du kan avstå från ett köp.</p>
+            <span className="mt-6 inline-flex min-h-12 items-center rounded-full bg-wine px-5 font-black text-bg">Läs beslutsunderlaget</span>
+          </Link>
         </section>
 
         <section className="reveal-fade mt-12 rounded-[2rem] border border-line bg-surface/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
@@ -79,8 +77,8 @@ export default function TraningHubPage() {
                 Mindre utrustning. Mer rörelse.
               </h2>
               <p className="mt-3 text-lg leading-8 text-ink-soft">
-                Fokus här är inte extrema gymprylar, utan saker som faktiskt kan
-                bli använda även när vardagen är full.
+                Behåll redskap som redan fungerar för dina övningar.
+                Mer utrustning är inte ett mål i sig.
               </p>
             </div>
           </div>
@@ -104,7 +102,7 @@ export default function TraningHubPage() {
             {
               href: "/traning/yogamatta",
               label: "Yogamatta",
-              text: "Jämför extra dämpning mot bättre grepp och stabilitet.",
+              text: "Jämför tjocklek, material och vad vi vet om golvkontakt.",
             },
             {
               href: "/traning/hantlar",

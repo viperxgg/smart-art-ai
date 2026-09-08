@@ -6,21 +6,14 @@ import { CategoryComparisonSections } from "@/components/CategoryComparisonSecti
 import { CategoryProductSections } from "@/components/CategoryProductSections";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
-import { massagepistolPicks } from "@/lib/massagepistol";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
 export const metadata = createSeoMetadata({
   title: "Hälsa & livsstil | Elins val",
   description:
-    "Elins val inom hälsa, återhämtning och smarta vardagsprodukter som är lätta att förstå och faktiskt kan passa in hemma.",
+    "Jämför vardagsprodukter efter behov, begränsningar och källor. Börja med vad du vill förändra hemma och när du kan avstå från köp.",
   url: `${siteConfig.url}/halsa`,
-  image: {
-    url: `${siteConfig.url}${massagepistolPicks[0].product.image}`,
-    width: 1024,
-    height: 1024,
-    alt: massagepistolPicks[0].product.imageAlt,
-  },
 });
 
 const breadcrumbItems = [
@@ -34,6 +27,7 @@ export default function HalsaHubPage() {
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-bg px-4 py-8 text-ink"
     >
       <JsonLd data={breadcrumbSchema} />
@@ -53,21 +47,21 @@ export default function HalsaHubPage() {
         <section className="mt-11 grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
-              Elins hälsa & livsstil
+              Hälsa & vardag
             </p>
             <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
-              Återhämtning och smart vardag.
+              Vad behöver du förändra hemma?
             </h1>
             <p className="mt-6 max-w-2xl text-xl leading-9 text-ink-soft">
-              Här samlar Elin produkter för återhämtning, smart hem och
-              vardagskänsla. Inte allt som trendar, bara det som känns rimligt
-              att faktiskt använda.
+              Börja med ett konkret behov och jämför vad produkterna kan
+              och inte kan göra. Läs källorna och vad som ännu inte är
+              verifierat innan du väljer.
             </p>
           </div>
 
           <div className="grid gap-4">
             <Link
-              href="/halsa/massagepistol"
+              href="/halsa/luftfuktare-eller-luftrenare"
               className="group overflow-hidden rounded-[2.2rem] border border-line bg-surface/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.14)] transition hover:-translate-y-1"
             >
               <div className="flex items-start gap-5">
@@ -79,11 +73,11 @@ export default function HalsaHubPage() {
                     Guide 2026
                   </p>
                   <h2 className="editorial-color-kiss mt-3 font-display text-4xl leading-tight">
-                    Massagepistol
+                    Behöver du fukta eller filtrera luften?
                   </h2>
                   <p className="mt-4 text-lg leading-8 text-ink-soft">
-                    Två tydliga val: ett tryggt märkesval och ett kraftfullt
-                    prisvärt alternativ.
+                    Olika uppgifter kräver olika val. Läs om funktion, skötsel
+                    och när ingen av produkterna löser ditt behov.
                   </p>
                   <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-wine px-5 font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition group-hover:bg-wine/90">
                     Läs Elins guide
@@ -103,14 +97,14 @@ export default function HalsaHubPage() {
                 </span>
                 <div>
                   <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
-                    Sommar 2026
+                    Användning och begränsningar
                   </p>
                   <h2 className="editorial-color-kiss mt-3 font-display text-4xl leading-tight">
-                    Fläkt
+                    Vilken fläkt passar ditt rum?
                   </h2>
                   <p className="mt-4 text-lg leading-8 text-ink-soft">
-                    Två tydliga val: tyst premium-tornfläkt och kraftfull
-                    budgetfläkt för riktad svalka.
+                    Jämför placering och reglage. Ljudvärden och pris
+                    behöver rätt sammanhang innan du drar slutsatser.
                   </p>
                   <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-wine px-5 font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition group-hover:bg-wine/90">
                     Läs fläktguiden
@@ -165,9 +159,9 @@ export default function HalsaHubPage() {
               text: "Se fler enkla val för träning som faktiskt får plats hemma.",
             },
             {
-              href: "/sommar",
-              label: "Smart sommarro",
-              text: "Se hela sommarguiden med smarta prylar för lugna stunder.",
+              href: "/halsa/kindle-eller-kobo",
+              label: "Läsning",
+              text: "Kindle eller Kobo – jämför format, tjänster och begränsningar.",
             },
           ]}
         />

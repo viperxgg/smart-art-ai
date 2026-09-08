@@ -16417,19 +16417,19 @@ export const productCategories: readonly ProductCategory[] = [
     slug: "skonhet",
     label: "Skönhet",
     href: "/skonhet",
-    description: "Prisvärda skönhetsval för hår, vardag och smarta rutiner.",
+    description: "Jämför hår- och hudvård efter behov och begränsningar.",
   },
   {
     slug: "traning",
     label: "Träning",
     href: "/traning",
-    description: "Smarta val för hemmaträning, rörelse och enkla rutiner.",
+    description: "Jämför redskap efter övningar, utrymme och användning.",
   },
   {
     slug: "halsa",
     label: "Hälsa & livsstil",
     href: "/halsa",
-    description: "Produkter för återhämtning, smart hem och vardagskänsla.",
+    description: "Läs om vardagsprodukter, deras användning och begränsningar.",
   },
   {
     slug: "resa",

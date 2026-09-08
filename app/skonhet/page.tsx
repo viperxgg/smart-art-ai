@@ -14,20 +14,13 @@ import { EditorialMeta } from "@/components/EditorialMeta";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { createSeoMetadata } from "@/lib/metadata";
-import { plattangPicks } from "@/lib/plattang";
 import { siteConfig } from "@/lib/site";
 
 export const metadata = createSeoMetadata({
   title: "Skönhet | Elins val",
   description:
-    "Elins skönhetsval med fokus på prisvärda produkter, tydliga användningsfall och mindre hype.",
+    "Jämför skönhetsprodukter efter användning, begränsningar och källor. Se när din nuvarande rutin räcker.",
   url: `${siteConfig.url}/skonhet`,
-  image: {
-    url: `${siteConfig.url}${plattangPicks[0].product.image}`,
-    width: 1200,
-    height: 900,
-    alt: plattangPicks[0].product.imageAlt,
-  },
 });
 
 const breadcrumbItems = [
@@ -41,6 +34,7 @@ export default function SkonhetHubPage() {
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-bg px-4 py-8 text-ink"
     >
       <JsonLd data={breadcrumbSchema} />
@@ -60,21 +54,21 @@ export default function SkonhetHubPage() {
         <section className="mt-11 grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div>
             <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
-              Elins skönhetsval
+              Skönhet och rutiner
             </p>
             <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
               Skönhet utan överköp.
             </h1>
             <EditorialMeta path="/skonhet" className="mt-4" />
             <p className="mt-6 max-w-2xl text-xl leading-9 text-ink-soft">
-              Här samlar Elin skönhetsprodukter som känns enkla att förstå: vad
-              de passar för, när de är värda pengarna och när du hellre ska
-              välja något annat.
+              Börja med vad som saknas i din rutin. Jämför användning och
+              begränsningar, kontrollera den exakta varianten och se när
+              du kan behålla det du redan använder.
             </p>
           </div>
 
           <Link
-            href="/skonhet/plattang"
+            href="/skonhet/cerave-eller-cetaphil"
             className="group overflow-hidden rounded-[2.2rem] border border-line bg-surface/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.14)] transition hover:-translate-y-1"
           >
             <div className="flex items-start gap-5">
@@ -86,11 +80,11 @@ export default function SkonhetHubPage() {
                   Guide 2026
                 </p>
                 <h2 className="editorial-color-kiss mt-3 font-display text-4xl leading-tight">
-                  Plattång
+                  Vilken rengöring passar din rutin?
                 </h2>
                 <p className="mt-4 text-lg leading-8 text-ink-soft">
-                  Två tydliga val: en fullstor plattång för hemma och en mini
-                  för resa och snabba fix.
+                  CeraVe eller Cetaphil? Se de namngivna varianterna,
+                  skillnaderna och skälen att inte byta.
                 </p>
                 <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-wine px-5 font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition group-hover:bg-wine/90">
                   Läs Elins guide
@@ -108,14 +102,14 @@ export default function SkonhetHubPage() {
           >
             <span className="min-w-0">
               <span className="block text-xs font-black uppercase tracking-[0.16em] text-rose">
-                Bäst i test 2026
+                Källor och användning
               </span>
               <span className="editorial-color-kiss mt-3 block font-display text-3xl leading-tight">
-                Hårinpackning
+                Behöver du en annan hårinpackning?
               </span>
               <span className="mt-3 block max-w-2xl leading-8 text-ink-soft">
-                Sex inpackningar jämförda på hårtyp, verkningstid, innehåll och
-                köparnas omdömen – och när en hårolja räcker.
+                Sex namngivna masker: jämför användning och instruktioner,
+                läs källorna och se vad vi inte har testat.
               </span>
             </span>
             <span className="inline-flex min-h-12 items-center gap-2 rounded-full bg-wine px-5 font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition group-hover:bg-wine/90">
@@ -138,8 +132,9 @@ export default function SkonhetHubPage() {
                 Mer värde. Mindre badrumslåda.
               </h2>
               <p className="mt-3 text-lg leading-8 text-ink-soft">
-                Varje skönhetsval ska snabbt förklara vem produkten passar, vad
-                som gör den prisvärd och vilken liten nackdel du bör känna till.
+                Leta efter ett tydligt användningsfall och den begränsning som
+                kan avgöra ditt val. Ett högre pris eller känt namn räcker
+                inte som skäl att köpa.
               </p>
             </div>
           </div>
@@ -150,7 +145,7 @@ export default function SkonhetHubPage() {
             {
               href: "/skonhet/varmluftsborste",
               label: "Varmluftsborste",
-              text: "Varmluftsborste bäst i test 2026.",
+              text: "Vilka funktioner och begränsningar behöver du kontrollera?",
             },
             {
               href: "/skonhet/epilator",
@@ -160,12 +155,12 @@ export default function SkonhetHubPage() {
             {
               href: "/skonhet/harolja-eller-varmeskydd",
               label: "Hårvård",
-              text: "Hårolja med värmeskydd - så väljer du rätt.",
+              text: "Hårolja eller värmeskydd – användningssätten och vad källorna visar.",
             },
             {
               href: "/skonhet/aftersun-eller-aloe-vera",
               label: "Aftersun eller aloe vera",
-              text: "Aftersun eller aloe vera – vad huden behöver efter solen.",
+              text: "Aftersun eller aloe vera – behöver du något utöver din nuvarande lotion?",
             },
             {
               href: "/skonhet/torrschampo",
@@ -180,7 +175,7 @@ export default function SkonhetHubPage() {
             {
               href: "/skonhet/tiktok-produkter-som-haller",
               label: "Viralt",
-              text: "TikTok-produkter som faktiskt håller – Elins ärliga koll.",
+              text: "Frågor att ställa innan du köper en produkt som blivit viral.",
             },
             {
               href: "/halsa",

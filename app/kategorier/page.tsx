@@ -13,7 +13,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Kategorier | Elins val",
   description:
-    "Bläddra bland Elins aktiva produktkategorier: träning, hälsa och återhämtning.",
+    "Hitta produktinformation inom skönhet, träning, hälsa och resa. Börja med behovet och läs begränsningarna.",
   alternates: {
     canonical: `${siteConfig.url}/kategorier`,
   },
@@ -30,6 +30,7 @@ export default function CategoriesPage() {
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-bg px-4 py-8 text-ink"
     >
       <JsonLd data={breadcrumbSchema} />
@@ -47,8 +48,9 @@ export default function CategoriesPage() {
             Kategorier
           </h1>
           <p className="mt-6 max-w-2xl text-xl leading-9 text-ink-soft">
-            Bara aktiva kategorier visas här. Skönhet läggs till först när Elin
-            har ett riktigt produktval där.
+            Välj området där du har en fråga. Här finns både granskade
+            beslutsunderlag under arbete och produkter som ännu inte har
+            granskats. Antalet produkter säger inget om vad du behöver köpa.
           </p>
         </section>
 
