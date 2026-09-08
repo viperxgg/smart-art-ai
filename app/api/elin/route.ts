@@ -113,7 +113,7 @@ Vad du gör:
 - Du är ärlig om vad som är väl belagt och vad som är osäkert. Du hittar ALDRIG på fakta. Är du osäker – säg det.
 
 Svara snabbt och rakt på sak (viktigt – ingen omväg):
-- Sätt det viktigaste FÖRST. Tipsar du om en produkt: inled med valet + "Elins poäng" (om produkten har ett poäng i datan) + en mening om varför. Sedan ev. kort motivering.
+- Sätt köpbeslutet FÖRST: vilket behov alternativet passar, dess viktigaste begränsning och när personen kan avstå. En verifierad Elins poäng kan komplettera motiveringen efteråt, men ersätter inte den.
 - Håll det kort och skimbart. Punktlista hellre än långa stycken. Sikta på under ~120 ord om användaren inte ber om mer.
 
 VIKTIGT – din gräns (du är expert, inte läkare):
@@ -124,8 +124,8 @@ Ton & regler:
 - Varm, lugn, rakt på sak. Som en omtänksam väninna, inte en säljare. Möt personen där de är – en kort empatisk mening om deras situation när det passar ("Åh, torr hud i värmen – jag fattar"), sedan rådet. Använd "du/dig", var uppmuntrande. Korrekt svenska (å ä ö). Var koncis – hellre tydlig än lång.
 - Skönhet: endast kosmetiska formuleringar (fukt, lyster, dewy, slät, jämnare hudton). Aldrig medicinska påståenden (läker/botar/behandlar), aldrig SPF/solskyddslöften, aldrig anti-age/"tar bort rynkor".
 - Träning/Hälsa: funktion, komfort, avkoppling. Aldrig medicinska eller hälsopåståenden.
-- Inga fasta priser – tala relativt ("prisvärd", "ett billigare alternativ", "se aktuellt pris på Amazon"). Nämn ALDRIG kronor, prissiffror eller fraser som "värd varje krona".
-- Använd gärna prisnivån (budget/mellan/premium) i jämförelser och budgetråd, men aldrig exakta priser.
+- Hitta inte på priser eller relativa prisfördelar. Utan verifierat aktuellt jämförelseunderlag får du inte kalla en produkt billigare, prisvärd, budget eller premium, även om äldre beskrivningar använder de orden.
+- Prisnivå null eller ej verifierad betyder att underlaget saknas. Varumärket och personens budget bevisar inte produktens prisnivå. Förklara vad som behöver kontrolleras och när befintlig utrustning kan räcka.
 - Du har inte testat produkterna själv – säg "jag har gått igenom/jämfört", aldrig "jag har testat".
 
 Sortiment:
@@ -396,9 +396,10 @@ function searchProducts(knowledge: ElinKnowledgeProduct[], input: unknown) {
   const normalizedQuery = normalizeSearchText(parsed.query);
   const terms = getSearchTerms(parsed.query);
 
+  const priceFilterAvailable = Boolean(parsed.tier && knowledge.some((product) => product.priceTier === parsed.tier && (!parsed.kategori || product.category === parsed.kategori)));
   const results = knowledge
     .filter((product) => !parsed.kategori || product.category === parsed.kategori)
-    .filter((product) => !parsed.tier || product.priceTier === parsed.tier)
+    .filter((product) => !priceFilterAvailable || product.priceTier === parsed.tier)
     .map((product) => {
       const searchable = normalizeSearchText(
         [
@@ -466,7 +467,9 @@ function searchProducts(knowledge: ElinKnowledgeProduct[], input: unknown) {
   return {
     query: parsed.query,
     kategori: parsed.kategori ?? null,
-    tier: parsed.tier ?? null,
+    requestedTier: parsed.tier ?? null,
+    priceFilterApplied: priceFilterAvailable,
+    priceNotice: parsed.tier && !priceFilterAvailable ? "Prisnivån saknar verifierat underlag. Resultaten är inte filtrerade efter pris och får inte beskrivas som prisalternativ." : null,
     results,
   };
 }
@@ -533,7 +536,7 @@ function buildProductIndex(
         product.slug,
         clean(product.title),
         product.category,
-        product.priceTier,
+        product.priceTier ?? "ej verifierad",
         product.poang ?? "ej bedömd",
         product.pageHref,
       ].join("\t"),
@@ -552,7 +555,7 @@ function buildSystemBlocks(
     { type: "text", text: variantCopy[variant].systemNote },
     {
       type: "text",
-      text: `PRODUKTINDEX (TSV, en produkt per rad, kolumner: slug, titel, kategori, prisnivå, Elins poäng 0-100 (ej bedömd = saknat underlag, aldrig noll), sidlänk):\n${productIndex}`,
+      text: `PRODUKTINDEX (TSV, en produkt per rad, kolumner: slug, titel, kategori, prisnivå (ej verifierad = saknat prisunderlag), Elins poäng 0-100 (ej bedömd = saknat underlag, aldrig noll), sidlänk):\n${productIndex}`,
       cache_control: { type: "ephemeral" },
     },
   ];
@@ -568,7 +571,7 @@ function buildSystemBlocks(
   if (focus) {
     blocks.push({
       type: "text",
-      text: `Användaren tittar just nu på: ${focus.title} (${focus.slug}). Utgå från den, men var ärlig – passar den inte, säg det och föreslå ett bättre/billigare alternativ.`,
+      text: `Användaren tittar just nu på: ${focus.title} (${focus.slug}). Utgå från den, men var ärlig – passar den inte, säg det och förklara vilken egenskap som behöver vara annorlunda. Påstå inte att ett alternativ är billigare utan verifierat prisunderlag.`,
     });
   }
 
@@ -592,7 +595,7 @@ function toRichCard(slug: string, varfor: string, steg?: number) {
 
   const score = getEditorialScore(slug);
   const tier = getPriceTier(product);
-  const display = priceTierDisplay[tier];
+  const display = tier ? priceTierDisplay[tier] : null;
   const review = product.amazonReviewSignal;
   const topComment = [...product.comments].sort((a, b) => b.rating - a.rating)[0];
 
@@ -605,8 +608,8 @@ function toRichCard(slug: string, varfor: string, steg?: number) {
     amazonUrl: product.amazonUrl,
     poang: score ? score.total : null,
     tier,
-    tierLabel: display.label,
-    tierIcon: display.icon,
+    tierLabel: display?.label ?? "",
+    tierIcon: display?.icon ?? "",
     verdict: score?.verdict ?? product.evaluation.verdict ?? "",
     ...(typeof steg === "number" && Number.isInteger(steg) && steg > 0
       ? { steg: Math.min(steg, 3) }

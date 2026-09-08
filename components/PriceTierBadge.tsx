@@ -15,6 +15,7 @@ export function PriceTierBadge({
   showContext = false,
 }: PriceTierBadgeProps) {
   const tier = getPriceTierDisplay(product);
+  if (!tier) return null;
 
   return (
     <span

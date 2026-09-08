@@ -50,7 +50,7 @@ type ProductCard = {
   image: string;
   amazonUrl: string;
   poang: number | null;
-  tier: "budget" | "mellan" | "premium";
+  tier: "budget" | "mellan" | "premium" | null;
   tierLabel: string;
   tierIcon: string;
   verdict: string;
@@ -161,7 +161,7 @@ function isProductCard(value: unknown): value is ProductCard {
     typeof card.image === "string" &&
     typeof card.amazonUrl === "string" &&
     (typeof card.poang === "number" || card.poang === null) &&
-    (card.tier === "budget" || card.tier === "mellan" || card.tier === "premium") &&
+    (card.tier === null || card.tier === "budget" || card.tier === "mellan" || card.tier === "premium") &&
     typeof card.tierLabel === "string" &&
     typeof card.tierIcon === "string" &&
     typeof card.verdict === "string" &&
@@ -508,8 +508,7 @@ function ProductCardView({
             {product.title}
           </Link>
           <p className="mt-0.5 text-xs text-ink-soft">
-            <span className="font-bold">{product.tierIcon} {product.tierLabel}</span>
-            {product.verdict ? ` · ${product.verdict}` : ""}
+            {product.verdict}
           </p>
         </div>
         <button
@@ -704,10 +703,7 @@ function WishlistPanel({
                       {item.title}
                     </Link>
                     <p className="mt-0.5 text-xs text-ink-soft">
-                      <span className="font-bold">
-                        {item.tierIcon} {item.tierLabel}
-                      </span>
-                      {item.verdict ? ` · ${item.verdict}` : ""}
+                      {item.verdict}
                     </p>
                   </div>
                   <button

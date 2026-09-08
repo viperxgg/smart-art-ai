@@ -8,6 +8,7 @@ type EditorialMetaProps = {
   path: string;
   className?: string;
   hideDate?: boolean;
+  hideDisclosure?: boolean;
 };
 
 /**
@@ -18,7 +19,7 @@ type EditorialMetaProps = {
  * XML sitemap by construction. Strings are assembled in JS rather than as
  * adjacent JSX text so the rendered HTML contains them contiguously.
  */
-export function EditorialMeta({ path, className = "", hideDate = false }: EditorialMetaProps) {
+export function EditorialMeta({ path, className = "", hideDate = false, hideDisclosure = false }: EditorialMetaProps) {
   const lastModified = getPageLastModified(path);
   const editorialLine = `Redaktion: ${siteConfig.name} · Ansvarig utgivare: `;
 
@@ -38,7 +39,7 @@ export function EditorialMeta({ path, className = "", hideDate = false }: Editor
           {siteConfig.operatorName}
         </Link>
       </p>
-      <p className="mt-1">
+      {!hideDisclosure ? <p className="mt-1">
         {`Innehåller reklamlänkar. ${siteConfig.name} kan få provision när du handlar via länkarna – det påverkar varken urvalet eller Elins poäng. `}
         <Link
           href="/om-oss#sa-tjanar-vi-pengar"
@@ -46,7 +47,7 @@ export function EditorialMeta({ path, className = "", hideDate = false }: Editor
         >
           Så tjänar vi pengar →
         </Link>
-      </p>
+      </p> : null}
     </div>
   );
 }

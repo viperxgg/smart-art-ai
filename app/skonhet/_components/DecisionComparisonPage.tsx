@@ -3,7 +3,7 @@ import { validateDecisionRecord, type DecisionRecord } from "@/lib/decision-reco
 import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, ArrowUpRight, Sparkles, WandSparkles } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, WandSparkles } from "lucide-react";
 
 import { AmazonPurchaseCta } from "@/components/AmazonPurchaseCta";
 import {
@@ -154,27 +154,22 @@ export function DecisionComparisonPage({
           </p>
         </header>
 
-        <section className="mt-10 overflow-hidden rounded-[2.4rem] border border-line bg-surface/72 p-7 shadow-[0_30px_90px_rgba(185,131,166,0.12)] md:p-10">
-          <p className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-rose/8 px-5 text-sm font-black text-wine">
-            <Sparkles size={18} aria-hidden="true" />
-            Elins guide 2026
-          </p>
-          <h1 className="editorial-color-kiss mt-6 max-w-4xl font-display text-3xl leading-tight tracking-[-0.03em] sm:text-5xl">
+        <section data-comparison-intro className="mt-4 rounded-2xl border border-line bg-surface/72 p-5 md:p-6">
+          <h1 className="editorial-color-kiss max-w-4xl font-display text-3xl leading-tight tracking-[-0.03em] sm:text-4xl">
             {h1}
           </h1>
-          <p className="mt-6 max-w-3xl text-xl leading-9 text-ink-soft">
+          <p className="mt-3 max-w-3xl text-base leading-7 text-ink-soft sm:text-lg">
             {intro}
           </p>
-          <EditorialMeta path={pagePath} hideDate={Boolean(decision)} className="mt-5" />
-          <ProductBadges badges={badges} className="mt-6" />
-          <p className="mt-6 rounded-3xl border border-line bg-rose/8 p-4 text-sm leading-7 text-ink-soft">
-            <strong>Annons</strong> · Våra produktsidor innehåller
-            reklamlänkar. Om du handlar via våra länkar kan vi få en provision -
-            utan extra kostnad för dig.
+          {!decision ? <ProductBadges badges={badges} className="mt-3" /> : null}
+          <p data-comparison-disclosure className="mt-3 text-sm leading-6 text-ink-soft">
+            <strong>Reklamlänkar</strong> · Elins val kan få provision vid köp via våra länkar. <Link href="/om-oss#sa-tjanar-vi-pengar" className="font-bold text-wine underline underline-offset-4">Så tjänar vi pengar</Link>.
           </p>
+          {decision ? <Link href="#decision-title" className="mt-2 inline-flex min-h-11 items-center font-bold text-wine underline underline-offset-4">Gå till beslutshjälpen</Link> : null}
         </section>
 
         {decision ? <DecisionCard decision={decision} /> : null}
+        <EditorialMeta path={pagePath} hideDate={Boolean(decision)} hideDisclosure className="mt-4" />
 
         {heroImage && !hideUnverifiedImages ? (
           <figure className="mt-8 overflow-hidden rounded-[2.4rem] border border-line bg-surface/72 shadow-[0_30px_90px_rgba(185,131,166,0.12)]">

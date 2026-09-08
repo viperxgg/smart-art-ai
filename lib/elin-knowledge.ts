@@ -15,7 +15,7 @@ export type ElinKnowledgeProduct = {
   title: string;
   brand: string;
   category: ProductCategorySlug;
-  priceTier: PriceTier;
+  priceTier: PriceTier | null;
   poang: number | null;
   badges: string[];
   summary: string;

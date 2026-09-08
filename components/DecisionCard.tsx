@@ -3,7 +3,7 @@ import type { DecisionRecord } from "@/lib/decision-record";
 export function DecisionCard({ decision }: { decision: DecisionRecord }) {
   return (
     <section aria-labelledby="decision-title" data-decision-card className="mt-8 rounded-2xl border border-line bg-surface p-5 md:p-8">
-      <h2 id="decision-title" className="font-display text-3xl font-bold">Ditt beslut i korthet</h2>
+      <h2 id="decision-title" tabIndex={-1} className="scroll-mt-28 font-display text-3xl font-bold">Ditt beslut i korthet</h2>
       <p className="mt-3 text-sm text-ink-soft">Redaktionell vägledning · Källkontroll <time dateTime={decision.reviewedAt}>{decision.reviewedAt}</time></p>
       <div className={`mt-6 grid gap-6 ${decision.options.length > 1 ? "md:grid-cols-2" : ""}`}>
         {decision.options.map((option) => (
