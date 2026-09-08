@@ -7,6 +7,7 @@ type EditorialMetaProps = {
   /** Site-relative path of the page; looked up in the sitemap for its date. */
   path: string;
   className?: string;
+  hideDate?: boolean;
 };
 
 /**
@@ -17,14 +18,14 @@ type EditorialMetaProps = {
  * XML sitemap by construction. Strings are assembled in JS rather than as
  * adjacent JSX text so the rendered HTML contains them contiguously.
  */
-export function EditorialMeta({ path, className = "" }: EditorialMetaProps) {
+export function EditorialMeta({ path, className = "", hideDate = false }: EditorialMetaProps) {
   const lastModified = getPageLastModified(path);
   const editorialLine = `Redaktion: ${siteConfig.name} · Ansvarig utgivare: `;
 
   return (
     <div className={`text-sm leading-6 text-ink-soft ${className}`}>
       <p>
-        {lastModified ? (
+        {lastModified && !hideDate ? (
           <time dateTime={lastModified}>
             {`Uppdaterad ${formatSwedishDate(lastModified)} · `}
           </time>

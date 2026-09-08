@@ -1,6 +1,7 @@
 import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
 import {
   hantlarEllerGummibandComparisonRows,
+  hantlarEllerGummibandDecision,
   hantlarEllerGummibandFaqItems,
   hantlarEllerGummibandPicks,
   hantlarEllerGummibandRelatedLinks,
@@ -22,25 +23,22 @@ const breadcrumbItems = [
 ];
 
 export const metadata = createSeoMetadata({
-  title: "Hantlar eller gummiband? Bäst för hemmaträning | Elins val",
-  description: "Hantlar eller gummiband? Elin jämför fast, ökbar vikt mot följsamt, platssnålt motstånd så du väljer rätt för att komma igång med styrka hemma.",
+  title: "Hantlar eller miniband – vad kräver dina övningar? | Elins val",
+  description: "Fasta hantlar eller korta miniband? Jämför redskapens uppgift, begränsningar och vad du måste kontrollera före köp.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
+
 });
 
 export default function HantlarEllerGummibandPage() {
   return (
     <DecisionComparisonPage
-      h1={"Hantlar eller gummiband?"}
-      intro={"Hantlar och gummiband är två av de vanligaste sätten att komma igång med styrketräning hemma, men de känns olika. Hantlar ger ett fast, tydligt motstånd som är lätt att öka i steg, medan gummiband ger ett följsamt motstånd som är skonsamt mot lederna och tar nästan ingen plats."}
-      badges={["Hemmaträning","Fast vikt vs följsamt","Nybörjare"]}
-      howToChoose={"Välj hantlar om du vill ha ett tydligt, mätbart motstånd och gilla känslan av att lyfta en fast vikt – lätt att följa progression. Välj gummiband om du vill ha något som tar minimal plats, är skonsamt mot lederna och lätt att ta med, perfekt för mindre utrymmen och resa. Många börjar med band och kompletterar med hantlar."}
-      verdict={"Båda funkar för att komma igång. Hantlar vinner för tydligt, ökbart motstånd och känslan av riktig vikt, medan gummiband vinner för plats, pris och skonsamhet. Har du ont om plats – band. Vill du bygga tydlig styrka – hantlar."}
+      h1={"Hantlar eller miniband – vad kräver dina övningar?"}
+      intro={"Här jämför vi fasta neoprenhantlar med korta miniband. Börja med övningen: behöver du en vikt i handen eller ett kort band? Produkterna ersätter inte automatiskt varandra."}
+      badges={["Fast vikt eller kort band", "Kontrollera varianten", "Inget eget produkttest"]}
+      decision={hantlarEllerGummibandDecision}
+      hideUnverifiedImages
+      howToChoose={"Kontrollera en konkret övning och vad som saknas i utrustningen du redan har. Matcha sedan hantelns vikt eller bandets längd och motstånd. Exakta butiksvarianter återstår att verifiera."}
+      verdict={"Välj redskap för en bestämd uppgift. Vi utser ingen vinnare och har inget stöd för att dessa band generellt är skonsammare eller att hantlar alltid ger bättre träning."}
       heroImage={heroImage}
       picks={hantlarEllerGummibandPicks}
       comparisonRows={hantlarEllerGummibandComparisonRows}

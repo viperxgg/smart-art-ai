@@ -159,14 +159,14 @@ export function DecisionComparisonPage({
             <Sparkles size={18} aria-hidden="true" />
             Elins guide 2026
           </p>
-          <h1 className="editorial-color-kiss mt-6 max-w-4xl font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
+          <h1 className="editorial-color-kiss mt-6 max-w-4xl font-display text-3xl leading-tight tracking-[-0.03em] sm:text-5xl">
             {h1}
           </h1>
-          <EditorialMeta path={pagePath} className="mt-5" />
-          <ProductBadges badges={badges} className="mt-6" />
           <p className="mt-6 max-w-3xl text-xl leading-9 text-ink-soft">
             {intro}
           </p>
+          <EditorialMeta path={pagePath} hideDate={Boolean(decision)} className="mt-5" />
+          <ProductBadges badges={badges} className="mt-6" />
           <p className="mt-6 rounded-3xl border border-line bg-rose/8 p-4 text-sm leading-7 text-ink-soft">
             <strong>Annons</strong> · Våra produktsidor innehåller
             reklamlänkar. Om du handlar via våra länkar kan vi få en provision -
