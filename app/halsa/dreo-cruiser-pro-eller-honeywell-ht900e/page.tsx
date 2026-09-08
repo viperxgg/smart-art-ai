@@ -44,7 +44,7 @@ export default function DreoEllerHoneywellPage() {
       intro="Dreo Cruiser Pro och Honeywell HT900E löser samma sommarproblem – att bli sval – men på olika sätt. Dreo är en tyst tornfläkt som sprider luften i hela rummet, medan Honeywell är en liten kraftfull luftcirkulator som blåser en riktad, stark luftström där du sitter."
       badges={["Tyst i sovrummet", "Kraftfull punktkyla", "Sommar"]}
       howToChoose="Välj Dreo Cruiser Pro om du vill ha en tyst tornfläkt som svalkar hela sovrummet och kan stå på när du sover. Välj Honeywell HT900E om du vill ha billig, kraftfull kyla riktad mot dig själv vid skrivbordet eller i köket, i ett litet format."
-      verdict="Båda är bra sommarval men för olika behov. Dreo Cruiser Pro får högre poäng som tyst helrums-fläkt för sovrummet, medan Honeywell HT900E är det prisvärda valet när du bara vill ha stark, riktad svalka precis där du sitter."
+      verdict={"Utgå från placering, utrymme och det fläktläge du tänker använda. Jämför ljuduppgifter bara om mätförhållandena är jämförbara; vi har inte gjort ett gemensamt ljud- eller luftflödestest."}
       heroImage={heroImage}
       picks={dreoEllerHoneywellPicks}
       comparisonRows={dreoEllerHoneywellComparisonRows}

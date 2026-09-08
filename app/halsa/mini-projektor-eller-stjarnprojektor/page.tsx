@@ -39,7 +39,7 @@ export default function MiniProjektorEllerStjarnprojektorPage() {
       intro="Båda förvandlar rummet på kvällen, men gör helt olika saker. En mini-projektor visar film och serier på väggen, medan en stjärnprojektor fyller taket med en drömmig galaxhimmel."
       badges={["Smart hem", "Mysbelysning", "Kvällsmys"]}
       howToChoose="Välj mini-projektorn om du vill ha en bärbar bio för film och serier. Välj stjärnprojektorn om du vill skapa en drömmig, mysig stämning i rummet. De löser helt olika behov - innehåll på väggen eller stämning på taket."
-      verdict="De konkurrerar egentligen inte. Mini-projektorn får högre poäng som bärbar bio för film och serier, medan stjärnprojektorn är det scroll-stoppande mysvalet för stämning. Välj utifrån vad du vill ha - innehåll eller atmosfär."
+      verdict={"Börja med vad du vill visa: film och annat bildinnehåll, eller dekorativt ljus. Kontrollera funktionerna för just modellen; produkterna löser olika uppgifter och en poäng avgör inte ditt behov."}
       picks={miniProjektorEllerStjarnprojektorPicks}
       comparisonRows={miniProjektorEllerStjarnprojektorComparisonRows}
       faqItems={miniProjektorEllerStjarnprojektorFaqItems}

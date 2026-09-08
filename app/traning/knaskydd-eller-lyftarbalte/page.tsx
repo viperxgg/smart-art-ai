@@ -41,7 +41,7 @@ export default function KnaskyddEllerLyftarbaltePage() {
       intro={"När vikterna blir tyngre i höstens träningsrutin dyker samma fråga upp: ska du stötta knäna eller bålen först? Rehbands klassiska 5 mm-knäskydd ger värme och stöd åt knäna i böj, medan C.P. Sports lyftarbälte hjälper dig hålla bålen stabil i marklyft och tunga böj. Elin jämför de två så du lägger pengarna där dina lyft behöver dem mest."}
       badges={["Tunga lyft","Stöd & stabilitet","Olika jobb"]}
       howToChoose={"Välj knäskydden om det är knäna som känns i knäböj, utfall och benpass – neoprenet ger värme och en stadig, omslutande känsla som många lyftare inte vill vara utan. Välj bältet om du drar tunga marklyft eller böjer nära din max och vill ha något att spänna bålen emot – det är där ett bälte gör sitt jobb. Tränar du lättare cirklar eller mest maskiner behöver du oftast inget av dem ännu: båda är redskap för tyngre baslyft."}
-      verdict={"Jämn poäng, olika kroppsdelar. Knäskydden är vardagsvalet för benpassen – värme och stöd varje gång du böjer. Bältet är för de tunga dagarna när marklyft och knäböj närmar sig max. Elins ärliga rekommendation: köp efter var det tar emot i dina lyft – och känner du inte behovet ännu, vänta tills vikterna kräver det."}
+      verdict={"Välj inte stödutrustning utifrån en jämn eller hög poäng. Kontrollera avsedd användning, storlek och instruktioner. Om du inte har ett tydligt behov kan du avstå."}
       heroImage={heroImage}
       picks={knaskyddEllerLyftarbaltePicks}
       comparisonRows={knaskyddEllerLyftarbalteComparisonRows}

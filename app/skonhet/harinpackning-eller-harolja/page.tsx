@@ -36,7 +36,7 @@ export default function HarinpackningEllerHaroljaPage() {
       intro="Båda räddar torrt sommarhår, men gör olika jobb. En hårinpackning är en intensiv kur som du sköljer ur, medan håroljan är en leave-in-finish för glans och mjukhet."
       badges={["Djup återfuktning", "Glans & mjukhet", "Sommarvård"]}
       howToChoose="Välj L'Oréal Absolut Repair om håret är mycket torrt och behöver en djup kur. Välj Moroccanoil Treatment om du mest vill ha glans och en len finish i vardagen. De fungerar fint tillsammans: inpackning i duschen, olja efteråt."
-      verdict="Det här är inte vinnare-tar-allt. Inpackningen får något högre poäng som intensiv kur för torrt hår, medan håroljan är den smidiga finishen för glans och mjukhet. Tillsammans täcker de både djupvård och daglig finish."
+      verdict={"Kontrollera produktens funktion och instruktioner mot det som saknas i din rutin. Du behöver inte köpa både inpackning och olja; en odokumenterad poäng säger inte vilket behov du har."}
       picks={harinpackningEllerHaroljaPicks}
       comparisonRows={harinpackningEllerHaroljaComparisonRows}
       faqItems={harinpackningEllerHaroljaFaqItems}

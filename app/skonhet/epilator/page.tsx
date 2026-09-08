@@ -107,10 +107,9 @@ export default function EpilatorHubPage() {
                 Hur väljer du?
               </h2>
               <p className="mt-4 max-w-3xl text-lg leading-8 text-ink-soft">
-                För de flesta är Panasonic det smartaste valet: stark funktion,
-                våt/torr användning och Elins högsta poäng i kategorin. Välj
-                Braun om du vill ha en mer påkostad premiumhelhet med fler
-                tillbehör och är beredd att betala mer.
+                Kontrollera användningssätt, rengöring och vilka tillbehör du
+                behöver för just modellen. Ett större paket är inte automatiskt
+                ett bättre köp. Vi har ingen verifierad poäng som avgör valet.
               </p>
             </div>
           </div>

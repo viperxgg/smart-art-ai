@@ -291,7 +291,7 @@ export const waveProductPicks: SommarPick[] = [
       title: "Före köp av CeraVe Resurfacing Retinol Serum",
       text: "Kontrollera först: två saker: (1) leveransen — säljs via tredjepart med ~3 – 4 veckors leveranstid och fraktavgift, inte Amazons snabbfrakt… Välj den främst om styrkan — doftfri — valet för doftkänsliga — är viktigare för dig.",
     },
-    verdict: "Trygg formula på papperet, men leveranscaveaten håller poängen nere.",
+    verdict: "Kontrollera formulan och säljarens leveransvillkor; en odokumenterad poäng avgör inte valet.",
     amazonSummary: "Amazon visar 4.5 av 5 (5 478 betyg).",
     amazonQuotes: [
       {
@@ -1214,7 +1214,7 @@ export const waveProductPicks: SommarPick[] = [
       title: "Före köp av Beurer FW20 fotvärmare",
       text: "Kontrollera först: samma som elfilten: EU-säker \"mysvärme\", inte bastu — den som väntar sig HETA fötter blir sval… Välj den främst om styrkan — för dig som alltid fryser om fötterna vid skrivbordet — är viktigare för dig.",
     },
-    verdict: "Helt okej för frusna fötter, men tunt lager och säljare håller nere poängen.",
+    verdict: "Kontrollera storlek, material och leveransvillkor innan du bedömer om produkten passar.",
     amazonSummary: "Amazon visar 4.2 av 5 (1 884 betyg).",
     amazonQuotes: [
       {
@@ -2854,7 +2854,7 @@ export const waveProductPicks: SommarPick[] = [
       title: "Före köp av Bayt Hollywood-spegel",
       text: "Kontrollera först: kvalitetskontrollen: enstaka enheter kommer med trasig belysning (dokumenterat) — TESTA DIREKT vid leverans… Välj den främst om styrkan — ingen montering + dimbar — är viktigare för dig.",
     },
-    verdict: "Helt okej för makeupstation, men QC-risken gör att Elin sänker poängen.",
+    verdict: "Kontrollera mått, belysning och produktens utförande; kvaliteten är inte jämförande testad av oss.",
     amazonSummary: "Amazon visar 4.4 av 5 (213 betyg).",
     amazonQuotes: [
       {
@@ -3082,7 +3082,7 @@ export const waveProductPicks: SommarPick[] = [
       title: "Före köp av Zipro motionscykel",
       text: "Kontrollera först: sTORLEKEN: den är KOMPAKT på riktigt — långa personer (175 cm+) kommer känna sig hopvikta; en svensk köpare tyckte den var för liten även för 160 cm… Välj den främst om styrkan — mobilhylla — Netflix medan du trampar — är viktigare för dig.",
     },
-    verdict: "Helt okej budgetcykel för kortare personer, men storleken sänker poängen.",
+    verdict: "Kontrollera justeringsmått och passform mot din längd innan du väljer cykel.",
     amazonSummary: "Amazon visar 4.1 av 5 (1 425 betyg).",
     amazonQuotes: [
       {
@@ -4229,7 +4229,7 @@ export const waveGuides: WaveGuide[] = [
         ],
       },
     ],
-    verdict: "Båda ska behandlas som kosmetiska kvällsprodukter. Inkey får bättre värde, CeraVe får tryggare känsla men lägre poäng för leveranscaveat.",
+    verdict: "Jämför exakta kosmetiska formulor och instruktioner, inte en antagen skillnad i trygghet eller en odokumenterad poäng.",
     faqItems: [
       {
         question: "Retinol bäst i test utan egna testpåståenden.",
@@ -5002,7 +5002,7 @@ export const waveGuides: WaveGuide[] = [
         ],
       },
     ],
-    verdict: "Levoit behåller högst poäng, Philips är ett rimligt enklare alternativ.",
+    verdict: "Jämför kapacitet, filterkostnad och funktioner som du faktiskt behöver. Vi har inte en verifierad poäng som rangordnar dessa produkter.",
     faqItems: [
       {
         question: "Luftrenare guide med lågmäld copy.",
@@ -5061,7 +5061,7 @@ export const waveGuides: WaveGuide[] = [
       {
         label: "Styrka",
         values: [
-          "Högre poäng",
+          "Ingen verifierad poäng",
           "Kompakt märke",
         ],
       },
@@ -5120,12 +5120,12 @@ export const waveGuides: WaveGuide[] = [
       "good-nite-tyngdtacke": "8 kg",
     },
     choiceTitle: "Välj med kroppen",
-    choiceText: "Ella har högre poäng i katalogen. Good Nite är det nya alternativet om vikt och känsla matchar bättre.",
+    choiceText: "Kontrollera täckets vikt, mått och material mot dina behov. Vi har inte ett jämförande test som avgör vilket som känns bättre för dig.",
     rows: [
       {
         label: "Profil",
         values: [
-          "Högre poäng",
+          "Ingen verifierad poäng",
           "Nytt alternativ",
         ],
       },
@@ -5148,7 +5148,7 @@ export const waveGuides: WaveGuide[] = [
     faqItems: [
       {
         question: "Tyngdtäcke guide.",
-        answer: "Ella har högre poäng i katalogen. Good Nite är det nya alternativet om vikt och känsla matchar bättre.",
+        answer: "Kontrollera täckets vikt, mått och material mot dina behov. Vi har inte ett jämförande test som avgör vilket som känns bättre för dig.",
       },
       {
         question: "Varför visar ni inga priser?",
@@ -5193,13 +5193,6 @@ export const waveGuides: WaveGuide[] = [
     choiceTitle: "Elins korta val",
     choiceText: "Välj Ella om du vill ha det starkare katalogvalet. Välj Good Nite om vikten och materialkänslan stämmer bättre för dig.",
     rows: [
-      {
-        label: "Poäng",
-        values: [
-          "Högre",
-          "Bra",
-        ],
-      },
       {
         label: "Vikt",
         values: [
@@ -5422,14 +5415,6 @@ export const waveGuides: WaveGuide[] = [
           "Bättre än iO 6",
           "Kontrollera huvuden",
           "Dyrare huvuden",
-        ],
-      },
-      {
-        label: "Poäng",
-        values: [
-          "Starkt katalogval",
-          "Starkt nytt val",
-          "Sänks av ekonomi",
         ],
       },
       {
@@ -5810,7 +5795,7 @@ export const waveGuides: WaveGuide[] = [
         ],
       },
     ],
-    verdict: "DEANIC får högre poäng för enkelheten. Beurer passar om funktionerna faktiskt används.",
+    verdict: "Kontrollera om du behöver en balja eller en eldriven produkt med funktioner du faktiskt använder. Köp inte fler funktioner än du behöver.",
     faqItems: [
       {
         question: "Fotbad guide.",
@@ -7115,13 +7100,6 @@ export const waveGuides: WaveGuide[] = [
           "Liten för långa",
         ],
       },
-      {
-        label: "Poäng",
-        values: [
-          "Bra",
-          "Helt okej",
-        ],
-      },
     ],
     verdict: "Ultrasport vinner på tryggare helhet. Zipro vinner bara när budget och kroppslängd stämmer.",
     faqItems: [
@@ -7255,13 +7233,6 @@ export const waveGuides: WaveGuide[] = [
         values: [
           "Kompromisskänsla",
           "Leverans och färre betyg",
-        ],
-      },
-      {
-        label: "Elins poäng",
-        values: [
-          "Högre",
-          "Lägre",
         ],
       },
     ],

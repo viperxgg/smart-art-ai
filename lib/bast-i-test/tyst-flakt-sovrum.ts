@@ -30,7 +30,7 @@ export const tystFlaktSovrum: BastITestPage = {
     "Elin jämför fem fläktar för sovrummet: ljudnivå, nattläge, timer och köparnas omdömen. Se vilken som är tystast – och vilken du hoppar över. (Annons)",
   h1: "Tyst fläkt till sovrummet – bäst i test 2026",
   intro:
-    "En fläkt i sovrummet ska göra en enda sak: svalka utan att höras. Här jämför Elin fem fläktar med ljudnivån på lägsta läget som tyngsta kriterium – två tornfläktar, en golvfläkt, en smart golv- och bordsfläkt och en kompakt bordsfläkt. Fyra av dem rankas för sovrummet. Den femte, Honeywell TurboForce, är med som kontrast: kraftfull och prisvärd, men enligt köparna runt 56 dB och därför fel val bredvid sängen. Elins poäng bygger på köparnas omdömen och tillverkarnas uppgifter, inte på egna mätningar. Längre ner finns jämförelsetabellen, en köpguide och svar på de frågor svenskar faktiskt söker på.",
+    "En fläkt i sovrummet ska göra en enda sak: svalka utan att höras. Här jämför Elin fem fläktar med ljudnivån på lägsta läget som tyngsta kriterium – två tornfläktar, en golvfläkt, en smart golv- och bordsfläkt och en kompakt bordsfläkt. Fyra av dem rankas för sovrummet. Den femte, Honeywell TurboForce, är med som kontrast: kraftfull och prisvärd, men enligt köparna runt 56 dB och därför fel val bredvid sängen. Vi visar ingen poäng utan dokumenterat underlag för den exakta modellen. Vi har inte gjort egna mätningar. Längre ner finns jämförelsetabellen, en köpguide och svar på de frågor svenskar faktiskt söker på.",
   picks: [
     {
       product: dreoCruiserProFlaktProduct,

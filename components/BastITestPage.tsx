@@ -437,13 +437,13 @@ export function BastITestPage({ data }: { data: BastITestPageData }) {
             />
             <div className="min-w-0">
               <h2 className="font-display text-2xl tracking-[-0.01em] text-ink sm:text-3xl">
-                Så sätter vi Elins poäng i den här kategorin
+                Bedömningsram och begränsningar
               </h2>
               <p className="mt-4 break-words text-base leading-8 text-ink-soft [overflow-wrap:anywhere]">
-                {`Poängen bygger på köparnas omdömen och tillverkarnas uppgifter. ${
+                {`En poäng kräver dokumenterat underlag för varje kriterium och exakt modell. ${
                   data.criteriaDisclaimer ??
                   "Elins val mäter ingen ljudnivå i något labb."
-                } Så här viktas kategorin:`}
+                } Planerad viktning för kategorin, inte bevis på genomförd granskning:`}
               </p>
             </div>
           </div>

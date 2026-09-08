@@ -40,7 +40,7 @@ export default function OlaplexEllerHarinpackningPage() {
       intro={"Olaplex No.3 och en vanlig hårinpackning låter som samma sak, men de gör olika jobb. Olaplex är en bond-kur som jobbar med hårets inre bindningar och används före schamponering, medan en inpackning som L'Oréal Absolut Repair mjukgör och återfuktar efter tvätten. Frågan är vad ditt hår faktiskt behöver."}
       badges={["Skadat hår","Hype-koll","Sommarhår"]}
       howToChoose={"Välj Olaplex om håret är blekt, slingat eller värmeslitet och känns skört – bond-kuren gör något en inpackning inte kan. Välj Absolut Repair om håret mest är torrt och trist av sol och värme och du vill ha omedelbar mjukhet och glans för mindre pengar. Många med riktigt slitet hår använder båda: Olaplex före tvätten, inpackningen efter."}
-      verdict={"Elins ärliga svar: för de flesta räcker inpackningen – Absolut Repair får högre poäng för att den gör mer för fler till lägre pris. Olaplex är värd premiumpriset först när håret faktiskt är skadat av blekning eller värme, för då jobbar den på djupet där inpackningen bara döljer."}
+      verdict={"Kontrollera den exakta formulan, användningen och vad du vill förändra i din rutin. Vi har inget stöd här för att beskriva en inpackning som enbart döljande eller för att motivera ett högre pris med en odokumenterad poäng."}
       heroImage={heroImage}
       picks={olaplexEllerHarinpackningPicks}
       comparisonRows={olaplexEllerHarinpackningComparisonRows}

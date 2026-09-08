@@ -35,8 +35,8 @@ export default function PlattaEllerLockaPage() {
       h1="Platta eller locka?"
       intro="Plattången är mest mångsidig för slätt hår, polerad finish och mjuka vågor. Locktången är valet när du oftast vill ha definierade lockar. Beslutet styrs av vilken look du använder mest."
       badges={["Rakt & vågor", "Definierade lockar", "Mångsidig"]}
-      howToChoose="För de flesta är Remington S8540 det smartaste förstavalet: högre Elin-poäng och mer användbar i vardagen eftersom den kan ge både slätt hår och mjuka vågor. Välj BaByliss C325E om din vanligaste look är tydliga, klassiska lockar."
-      verdict="Remington S8540 vinner på mångsidighet och högre poäng: den passar flest när vardagen växlar mellan rakt, polerat och mjuka vågor. BaByliss C325E är ändå rätt val om definierade lockar är huvudmålet."
+      howToChoose={"Utgå från den styling du gör oftast och om verktyget du redan har räcker. Kontrollera modellens form, temperaturinställningar och användningsinstruktioner."}
+      verdict={"Börja med vilken styling du vill göra och kontrollera att verktygets instruktioner stödjer den. Vi har inget jämförande underlag som visar att ett verktyg passar flest."}
       picks={plattaEllerLockaPicks}
       comparisonRows={plattaEllerLockaComparisonRows}
       faqItems={plattaEllerLockaFaqItems}

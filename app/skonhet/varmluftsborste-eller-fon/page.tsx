@@ -36,10 +36,10 @@ export default function VarmluftsborsteEllerFonPage() {
   return (
     <DecisionComparisonPage
       h1="Varmluftsborste eller vanlig fön?"
-      intro="Hårtorken ger ren, kraftfull torkning och högst poäng. Varmluftsborsten kombinerar torkning och styling när du vill ha volym eller brushing i ett moment."
+      intro={"Här jämförs en hårtork med en varmluftsborste. Börja med om du främst vill torka håret eller kombinera torkning och borstning; kontrollera instruktionerna för den exakta modellen."}
       badges={["Torka + styla", "Mest torkkraft", "Volym"]}
       howToChoose="Välj Remington PROluxe AC9140 om du mest vill torka håret snabbt och effektivt, särskilt om håret är tjockt eller blött. Välj BaByliss AS126E om du hellre vill styla samtidigt. Den ersätter inte en riktig fön för blött, tjockt hår."
-      verdict="Remington PROluxe AC9140 är det starkare huvudvalet när torkkraft och poäng väger tyngst. BaByliss AS126E är rätt val när du accepterar mindre torkkraft för att få volym, böj och brushing i samma moment."
+      verdict={"Välj efter om du främst behöver torkning eller vill kombinera den med borstning. En rättvis jämförelse av torkkraft kräver mätningar som vi inte har gjort."}
       picks={varmluftsborsteEllerFonPicks}
       comparisonRows={varmluftsborsteEllerFonComparisonRows}
       faqItems={varmluftsborsteEllerFonFaqItems}

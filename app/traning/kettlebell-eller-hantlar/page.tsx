@@ -37,7 +37,7 @@ export default function KettlebellEllerHantlarPage() {
       intro="Båda är smarta förstaval för hemmaträning, men passar olika upplägg. En kettlebell är ett mångsidigt redskap för svingar och helkroppsrörelser, medan ett hantelset ger fler vikter och en ställning att börja från."
       badges={["Hemmaträning", "Helkropp", "Nybörjarvänligt"]}
       howToChoose="Välj Amazon Basics kettlebell om du vill ha ett mångsidigt redskap för svingar och helkropp som tar lite plats. Välj SONGMICS hantelset om du vill träna klassisk styrka med flera vikter och en ställning. Många hemmagym har nytta av båda."
-      verdict="Båda är bra förstaval för hemmaträning. Kettlebellen får högre poäng som mångsidigt och platssnålt redskap, medan hantelsetet passar dig som vill ha flera vikter och klassisk styrketräning direkt."
+      verdict={"Välj utifrån dina övningar och de vikter du behöver. Kontrollera exakt vikt och paketets innehåll; en kettlebell och ett hantelset är inte automatiskt utbytbara."}
       picks={kettlebellEllerHantlarPicks}
       comparisonRows={kettlebellEllerHantlarComparisonRows}
       faqItems={kettlebellEllerHantlarFaqItems}

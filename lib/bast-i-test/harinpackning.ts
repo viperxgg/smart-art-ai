@@ -42,7 +42,7 @@ export const harinpackning: BastITestPage = {
     "Elin jämför sex hårinpackningar för torrt, skadat och blekt hår – verkningstid, hårtyp, innehåll och köparnas omdömen. Se vilken som passar ditt hår. (Annons)",
   h1: "Hårinpackning – bäst i test 2026",
   intro:
-    "En hårinpackning ska ge håret det balsamet inte hinner med: fukt, styrka eller båda – på tre till femton minuter, en gång i veckan. Här jämför Elin sex inpackningar med resultatet enligt köparna som tyngsta kriterium: tre återfuktande, två reparerande med proteiner och aminosyror, och en bond-behandling för blekt hår. Alla sex rankas, och en av dem ligger under Elins vanliga prisspann – den är med som ett tydligt märkt budgetundantag. Som kontrast finns Moroccanoil Treatment med – en hårolja som många köper i tron att den är en inpackning, och som gör ett annat jobb. Elins poäng bygger på köparnas omdömen och tillverkarnas uppgifter, inte på egna tester. Längre ner finns jämförelsetabellen, en köpguide om protein kontra fukt och svar på de frågor svenskar faktiskt söker på.",
+    "En hårinpackning ska ge håret det balsamet inte hinner med: fukt, styrka eller båda – på tre till femton minuter, en gång i veckan. Här jämför Elin sex inpackningar med resultatet enligt köparna som tyngsta kriterium: tre återfuktande, två reparerande med proteiner och aminosyror, och en bond-behandling för blekt hår. Alla sex rankas, och en av dem ligger under Elins vanliga prisspann – den är med som ett tydligt märkt budgetundantag. Som kontrast finns Moroccanoil Treatment med – en hårolja som många köper i tron att den är en inpackning, och som gör ett annat jobb. Vi visar ingen poäng utan dokumenterat underlag för den exakta modellen. Vi har inte gjort egna tester. Längre ner finns jämförelsetabellen, en köpguide om protein kontra fukt och svar på de frågor svenskar faktiskt söker på.",
   picks: [
     {
       product: moroccanoilHarinpackningProduct,
@@ -355,7 +355,7 @@ export const harinpackning: BastITestPage = {
     {
       question: "Vilken hårinpackning är bäst i test 2026?",
       answer:
-        "Moroccanoil Intense Hydrating Mask toppar Elins jämförelse tack vare flest och bäst omdömen och en kort verkningstid; för skadat hår är L'Oréal Absolut Repair och för blekt hår Olaplex N°.3 PLUS mer träffsäkra. Vill du lägga så lite som möjligt är Garnier Fructis Hair Food det märkta budgetvalet. Poängen bygger på köparnas omdömen, inte egna tester.",
+        "Moroccanoil Intense Hydrating Mask toppar Elins jämförelse tack vare flest och bäst omdömen och en kort verkningstid; för skadat hår är L'Oréal Absolut Repair och för blekt hår Olaplex N°.3 PLUS mer träffsäkra. Vill du lägga så lite som möjligt är Garnier Fructis Hair Food det märkta budgetvalet. Någon verifierad poäng visas inte här; vi har inte gjort egna tester.",
     },
     {
       question: "Vilken inpackning är bäst för torrt hår?",

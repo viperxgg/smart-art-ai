@@ -144,7 +144,7 @@ export const locktangPicks: LocktangPick[] = [
     targetKeyword: "tymo locktång",
     metaTitle: "TYMO locktång – lockar utan trassel? Elins betyg | Elins val",
     metaDescription:
-      "TYMO CurlPro locktång: Elins poäng och betyg, hur anti-trassel fungerar i praktiken, tre temperaturlägen – och när den är värd pengarna.",
+      "TYMO CurlPro locktång: produktuppgifter, frågor om anti-trassel, tre temperaturlägen – och när den är värd pengarna.",
   },
 ];
 

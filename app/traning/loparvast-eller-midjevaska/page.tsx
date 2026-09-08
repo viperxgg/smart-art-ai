@@ -40,7 +40,7 @@ export default function LoparvastEllerMidjevaskaPage() {
       intro={"Löparväst eller midjeväska – frågan är egentligen hur långt du springer. Midjeväskan rymmer mobil, nycklar och kort och kostar en bråkdel, medan löparvästen bär vatten och packning för långpassen. Många köper väst när ett bälte hade räckt – och tvärtom."}
       badges={["Löpning","Sommarrundor","Budget vs premium"]}
       howToChoose={"Välj midjeväskan om dina rundor är upp till en timme och du mest vill ha mobil och nycklar säkert med – den är billig, lätt och studsar inte. Välj löparvästen om du springer långpass och behöver vätska med dig – flaskorna fram och packvolymen är hela poängen, och det kan inget bälte ersätta."}
-      verdict={"Elins ärliga svar: de flesta som springer vardagsrundor behöver bara midjeväskan – därför får den högre poäng som köp. Löparvästen är rätt först när du faktiskt springer så långt att vatten måste med. Köp inte västen för att den ser mer seriös ut."}
+      verdict={"Utgå från vad du ska bära på din runda: telefon och nycklar, eller även vatten och mer packning. Kontrollera kapacitet och passform innan du väljer väska eller väst. Köp inte extra utrustning för utseendets skull."}
       heroImage={heroImage}
       picks={loparvastEllerMidjevaskaPicks}
       comparisonRows={loparvastEllerMidjevaskaComparisonRows}

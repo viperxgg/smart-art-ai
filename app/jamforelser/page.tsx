@@ -14,7 +14,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata = createSeoMetadata({
   title: "Jämförelser | Elins val",
   description:
-    "Alla Elins jämförelser samlade: två tydliga val, ärliga caveats och poäng som hjälper dig välja snabbare.",
+    "Alla Elins jämförelser samlade: alternativ, viktiga begränsningar och frågor att besvara före köp.",
   url: `${siteConfig.url}/jamforelser`,
 });
 

@@ -36,7 +36,7 @@ export default function FoamRollerEllerMassagepistolPage() {
       intro="Båda används för återhämtning och stela muskler, men på olika sätt. En foam roller jobbar med din kroppsvikt mot större muskelgrupper, medan en massagepistol ger riktade vibrationer på enskilda punkter."
       badges={["Återhämtning", "Stela muskler", "Hemmabruk"]}
       howToChoose="Välj BODYMATE foam roller om du vill ha ett enkelt och billigt redskap för stora muskelgrupper. Välj Beurer MG 99 massagepistol om du vill ha riktad vibration på enskilda punkter med fler lägen. De kompletterar varandra fint i återhämtningen."
-      verdict="Foam rollern får högre poäng som enkel och prisvärd allround-återhämtning för stora muskelgrupper. Massagepistolen är dyrare men ger mer riktad behandling. För de flesta är foam rollern ett tryggt förstaval."
+      verdict={"Välj inte utifrån en odokumenterad poäng eller ett löfte om behandling. Jämför den funktion du faktiskt vill använda, instruktionerna och om du redan har ett alternativ som räcker."}
       picks={foamRollerEllerMassagepistolPicks}
       comparisonRows={foamRollerEllerMassagepistolComparisonRows}
       faqItems={foamRollerEllerMassagepistolFaqItems}

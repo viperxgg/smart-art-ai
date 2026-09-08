@@ -22,7 +22,7 @@ const breadcrumbItems = [
 export const metadata = createSeoMetadata({
   title: "Varmluftsborste eller plattång? Så väljer du 2026 | Elins val",
   description:
-    "Elin jämför BaByliss AS126E och Remington S8540: torka med volym i ett steg eller få slätt, polerat resultat med högre poäng.",
+    "Elin jämför BaByliss AS126E och Remington S8540: torka med volym i ett steg eller få slätt, polerat resultat utifrån dina stylingbehov.",
   url: pageUrl,
   image: {
     url: `${siteConfig.url}${varmluftsborsteEllerPlattangPicks[1].product.image}`,
@@ -38,7 +38,7 @@ export default function VarmluftsborsteEllerPlattangPage() {
       h1="Varmluftsborste eller plattång?"
       intro="Varmluftsborsten torkar och formar med mjuk volym i ett moment. Plattången ger slätare, mer polerad finish och är mer mångsidig för rakt hår och mjuka vågor."
       badges={["Allt-i-ett", "Slätt & polerat", "Volym"]}
-      howToChoose="Välj BaByliss AS126E om du vill ha snabb volym, böj och brushing i ett steg. Välj Remington S8540 om du prioriterar slätt, polerat resultat, mer kontroll och högre Elin-poäng."
+      howToChoose={"Utgå från om du vill kombinera borstning och torkning eller styla redan torrt hår. Kontrollera modellens instruktioner innan du bestämmer vilka moment den kan ersätta."}
       verdict="BaByliss AS126E är smidigast när morgonrutinen handlar om volym i ett steg. Remington S8540 är starkare för de flesta som vill ha slätt, polerat hår och ett mer mångsidigt stylingverktyg."
       picks={varmluftsborsteEllerPlattangPicks}
       comparisonRows={varmluftsborsteEllerPlattangComparisonRows}

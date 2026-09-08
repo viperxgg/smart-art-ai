@@ -37,7 +37,7 @@ export default function AftersunEllerAloeVeraPage() {
       intro="Aftersun eller aloe vera – vad behöver huden efter solen? Båda passar efter en dag i solen, men på olika sätt. After sun-lotion är mjukgörande hudvård för hela kroppen, medan ren aloe vera-gel ger en lätt, kylande känsla."
       badges={["Svalkar efter solen", "Återfuktar", "Sommar"]}
       howToChoose="Välj NIVEA After Sun om du vill ha en närande, mjukgörande lotion för kroppen. Välj Naissance Aloe Vera om du vill ha en lättare, svalkande gel som är mer mångsidig. Många har gärna båda hemma under sommaren."
-      verdict="Båda hör hemma i sommarväskan. NIVEA After Sun får högre poäng som mjukgörande helkroppsvård efter solen, medan aloe vera-gelen är det lätta, svalkande och mest mångsidiga komplementet."
+      verdict={"Du behöver inte köpa båda. Jämför den exakta formulan med den hudvård du redan använder; vi har inget underlag för att utse en poängvinnare."}
       picks={aftersunEllerAloeVeraPicks}
       comparisonRows={aftersunEllerAloeVeraComparisonRows}
       faqItems={aftersunEllerAloeVeraFaqItems}
