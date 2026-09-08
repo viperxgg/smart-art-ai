@@ -1,4 +1,5 @@
 import { hairStylingDecision } from "@/lib/hair-styling-decision";
+import { indoorAirDecision } from "@/lib/indoor-air-decision";
 import { hairMaskDecision } from "@/lib/hair-mask-decision";
 import { hantlarEllerGummibandDecision } from "@/lib/hantlar-eller-gummiband";
 import { ceraveEllerCetaphilDecision } from "@/lib/cerave-eller-cetaphil";
@@ -11,6 +12,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const airOption = indoorAirDecision.options.find((item) => item.productSlug === slug);
+  if (airOption) return {
+    ...indoorAirDecision, options: [airOption],
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Jämför luftfuktare och luftrenare", href: "/halsa/luftfuktare-eller-luftrenare" },
+  };
   const maskOption = hairMaskDecision.options.find((item) => item.productSlug === slug);
   if (maskOption) return {
     ...hairMaskDecision, options: [maskOption],

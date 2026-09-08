@@ -1,3 +1,4 @@
+import { indoorAirDecision } from "@/lib/indoor-air-decision";
 // Content refresh 2026-08-28: länk till luftavfuktare-eller-luftrenare (lufttriangeln komplett).
 import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
 import {
@@ -11,11 +12,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/halsa/luftfuktare-eller-luftrenare`;
 
-const heroImage = {
-  src: "/comparisons/luftfuktare-eller-luftrenare.webp",
-  alt: "Luftfuktare eller luftrenare? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Hälsa", href: "/halsa" },
@@ -24,25 +20,20 @@ const breadcrumbItems = [
 
 export const metadata = createSeoMetadata({
   title: "Luftrenare eller luftfuktare – vilken behöver du? | Elins val",
-  description: "Luftrenare eller luftfuktare? Renare luft och mer fukt löser två olika problem. Elin reder ut vilken du behöver vid torr inomhusluft, damm eller allergi.",
+  description: "Mät fukten, identifiera partiklarna och kontrollera ventilationen före köp. Classic 300S och Core 200S med källor, skötsel och tydliga begränsningar.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
 });
 
 export default function LuftfuktareEllerLuftrenarePage() {
   return (
     <DecisionComparisonPage
       h1={"Luftfuktare eller luftrenare?"}
-      intro={"Luftfuktare och luftrenare blandas ofta ihop, men gör helt olika saker. En luftfuktare tillför fukt till torr inomhusluft, medan en luftrenare filtrerar bort damm och partiklar ur luften. De löser alltså två skilda problem hemma."}
-      badges={["Inomhusklimat","Fukt vs renare luft","Smart hem"]}
-      howToChoose={"Välj en luftfuktare om luften hemma känns torr – vanligt på vintern med element på – och du märker torr hud, torr hals eller statisk elektricitet. Välj en luftrenare om du vill ha renare luft med mindre damm och partiklar, till exempel om du är känslig för damm eller har husdjur. De kan användas tillsammans men löser olika saker."}
-      verdict={"De är inte konkurrenter utan kompletterar varandra. Luftfuktaren vinner mot torr luft, medan luftrenaren vinner om du vill ha renare luft med mindre damm. Utgå från ditt faktiska problem: känns luften torr, eller vill du ha renare luft?"}
-      heroImage={heroImage}
+      intro={"Behöver luften mer fukt, färre partiklar eller bättre ventilation? Classic 300S tillför fukt, Core 200S filtrerar luft. Börja med att förstå problemet – och kontrollera om du behöver köpa någon av dem."}
+      badges={["Mät före köp", "Fukt eller partiklar"]}
+      howToChoose={"Kontrollera fuktnivån innan du tillför vatten till luften. Vid partiklar: minska källorna och se över ventilationen innan du väljer kompletterande filtrering. Skötsel och rätt produktvariant ingår i beslutet."}
+      verdict={"Ingen av apparaterna är en generell lösning på dålig inomhusluft. Välj först efter konstaterat behov och räkna med underhåll. Vid fukt- eller ventilationsproblem i bostaden: utred orsaken i stället för att köpa båda."}
+      decision={indoorAirDecision}
+      hideUnverifiedImages
       picks={luftfuktareEllerLuftrenarePicks}
       comparisonRows={luftfuktareEllerLuftrenareComparisonRows}
       faqItems={luftfuktareEllerLuftrenareFaqItems}

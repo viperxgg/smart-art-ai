@@ -7207,63 +7207,52 @@ export const smartSommarPicks: SommarPick[] = [
     productSlug: levoitHumidifierProduct.slug,
     product: levoitHumidifierProduct,
     href: "/halsa/luftfuktare",
-    cardBadge: "Mer fukt",
-    cardHook: "Tillför fukt till torr inomhusluft med tyst nattläge.",
+    cardBadge: "Mät fukten först",
+    cardHook: "Classic 300S tillför fukt. Kontrollera behovet och räkna med vattenbyte, rengöring och uppföljning av luftfuktigheten.",
     cardImage: "/products/levoit-humidifier/humid-thumbnail.webp",
     cardImageAlt: "Levoit Smart 6L luftfuktare (Classic 300S)",
-    badge: "Elins sovrums-val",
-    headline: "Levoit Smart 6L luftfuktare – fukt till torr luft",
-    shortBody: "En smart luftfuktare med 6-liters tank, tyst nattläge och appstyrning. Gjord för att tillföra fukt till torr inomhusluft i sovrum och vardagsrum.",
-    valueHook: "Tillför fukt till torr inomhusluft",
-    valueStatement: "Levoit Smart 6L luftfuktare är till för dig som tycker att inomhusluften känns torr, särskilt under vinterhalvåret när element och kyla tar fukten ur luften. Den stora 6-liters tanken räcker länge, det tysta nattläget gör den behaglig nära sängen och appstyrningen låter dig ställa in luftfuktigheten på avstånd. Amazon visar 4,4 av 5 från 24 562 omdömen, och köpare lyfter framför allt den behagligare luften och det tysta läget.",
+    badge: "Behov före köp",
+    headline: "Levoit Classic 300S, 6 liter",
+    shortBody: "Classic 300S tillför fukt. Kontrollera behovet och räkna med vattenbyte, rengöring och uppföljning av luftfuktigheten.",
+    valueHook: "Vilket problem vill du lösa?",
+    valueStatement: "Classic 300S tillför fukt. Kontrollera behovet och räkna med vattenbyte, rengöring och uppföljning av luftfuktigheten.",
     passFor: [
-      "Tycker att inomhusluften känns torr, särskilt på vintern.",
-      "Vill ha en tyst luftfuktare som kan stå nära sängen.",
-      "Gillar att styra luftfuktigheten via app och röst.",
+      "du har kontrollerat luftfuktigheten och har ett faktiskt behov av mer fukt, samt kan sköta vattenbyte, rengöring och uppföljning. Sexlitersbehållaren är en kapacitet, inte ett skäl att köra utan tillsyn av fuktnivån."
     ],
-    caution: "En luftfuktare behöver fyllas på och rengöras regelbundet för att hålla sig fräsch. Använd gärna rent eller kokat vatten för att undvika vita avlagringar i rummet.",
+    caution: "det redan finns kondens, fukt eller mögelproblem, eller om du inte vill sköta vattentanken. Ultraljudsfuktare kan sprida mineraler och mikroorganismer från vattnet; mer fukt är inte alltid bättre.",
     usageGuidance: {
-      title: "Så använder du den rätt",
-      text: "Ställ luftfuktaren en bit från väggar och möbler så att fukten sprids fritt. Använd nattläget för en tystare upplevelse i sovrummet, och töm och rengör tanken med jämna mellanrum.",
+      "title": "Skötsel ingår i valet",
+      "text": "EU-manualen rekommenderar renat eller destillerat vatten. Dra ur kontakten före skötsel, följ rengöringsanvisningen och lägg inte olja i tanken."
     },
-    verdict: "Smart och tyst luftfuktare för dig som vill tillföra fukt till torr inomhusluft i sovrummet.",
-    amazonSummary: "Amazon visar 4,4 av 5 från 24 562 omdömen. Köpare beskriver en behagligare och mindre torr luft och ett tyst nattläge, men tanken behöver fyllas på och rengöras regelbundet.",
+    verdict: "det redan finns kondens, fukt eller mögelproblem, eller om du inte vill sköta vattentanken. Ultraljudsfuktare kan sprida mineraler och mikroorganismer från vattnet; mer fukt är inte alltid bättre.",
+    amazonSummary: "Inga verifierade kundbetyg används för rekommendationen.",
     amazonQuotes: [],
     faqItems: [
       {
-        question: "När passar det att använda en luftfuktare?",
-        answer: "Den passar bäst när inomhusluften känns torr, ofta under vinterhalvåret då element och kyla tar fukten ur luften. Då kan luften kännas behagligare i sovrum och vardagsrum.",
+        "question": "Vilken variant gäller underlaget?",
+        "answer": "Ultraljudsluftfuktare enligt EU-manualen: 220–240V, 50/60Hz. Inte den amerikanska 120V-versionen. Butikens levererade variant och stickkontakt är inte matchade."
       },
       {
-        question: "Är Levoit luftfuktare tyst nog för sovrummet?",
-        answer: "Ja, den har ett tyst nattläge som många uppskattar när de vill ha den nära sängen. Då dämpas både ljud och displayljus.",
-      },
-      {
-        question: "Hur sköter jag luftfuktaren?",
-        answer: "Fyll på tanken regelbundet och rengör den med jämna mellanrum. Använd gärna rent eller kokat vatten för att undvika vita avlagringar i rummet.",
-      },
+        "question": "Har ni mätt effekten?",
+        "answer": "Vi har inte mätt luftfuktighet, partikelhalter, ljud eller filtereffekt med dessa produkter. Modelluppgifterna är från Levoit. EPA:s råd om luftfuktare och filtrering gäller produktkategorierna och är inte ett godkännande av dessa modeller."
+      }
     ],
     reviewSectionId: "levoit-luftfuktare-recensioner",
     reviewFormId: "levoit-luftfuktare-skriv-recension",
     targetKeyword: "luftfuktare sovrum",
-    metaTitle: "Levoit Smart 6L luftfuktare – fukt till torr luft | Elins val",
-    metaDescription: "Elin går igenom Levoit Smart 6L luftfuktare (Classic 300S): tillför fukt till torr inomhusluft med tyst nattläge och appstyrning (4,4 av 5, 24 562 omdömen).",
+    metaTitle: "Levoit Classic 300S, 6 liter – behov och skötsel före köp | Elins val",
+    metaDescription: "Classic 300S tillför fukt. Kontrollera behovet och räkna med vattenbyte, rengöring och uppföljning av luftfuktigheten.",
     relatedLinks: [
       {
-        href: "/halsa/luftrenare",
-        label: "Luftrenare",
-        text: "Renare inomhusluft för allergivänligare rum.",
+        "href": "/halsa/luftfuktare-eller-luftrenare",
+        "label": "Jämför behov",
+        "text": "Luftfuktare eller luftrenare?"
       },
       {
-        href: "/halsa/aromdiffuser",
-        label: "Aromdiffuser",
-        text: "Mild doft och en lugnare stämning hemma.",
-      },
-      {
-        href: "/halsa/solnedgangslampa",
-        label: "Solnedgångslampa",
-        text: "Varmt ljus för en mjukare kvällsstund.",
-      },
+        "href": "/halsa",
+        "label": "Hälsa & vardag",
+        "text": "Fler produktguider"
+      }
     ],
   },
   {
@@ -7333,63 +7322,52 @@ export const smartSommarPicks: SommarPick[] = [
     productSlug: levoitCore200sProduct.slug,
     product: levoitCore200sProduct,
     href: "/halsa/luftrenare",
-    cardBadge: "Renare luft",
-    cardHook: "HEPA-filter som fångar damm och pollen – med tyst nattläge.",
+    cardBadge: "Kompletterande filtrering",
+    cardHook: "Core 200S filtrerar luft som komplement till ventilation och åtgärder vid föroreningskällan. Kapacitet, ljud och rätt filter påverkar valet.",
     cardImage: "/products/levoit-luftrenare/levoit-thumbnail.webp",
     cardImageAlt: "Levoit Core 200S luftrenare med HEPA-filter, vit",
-    badge: "Elins smarta val",
-    headline: "Levoit Core 200S – renare luft i sovrummet",
-    shortBody: "En kompakt smart luftrenare med 3-lagers HEPA-filter som fångar damm, pollen och partiklar. Tyst nattläge och app- och röststyrning gör den enkel att ha igång där du sover.",
-    valueHook: "Renare luft med tyst nattläge",
-    valueStatement: "Levoit Core 200S är en smart luftrenare för dig som vill ha renare luft i sovrum eller mindre rum. Det 3-lagers HEPA-filtret fångar damm, pollen och partiklar i luften, och det tysta nattläget med dämpad display gör att den kan stå på medan du sover. Med app- och röststyrning plus timer är den enkel att styra i vardagen. Amazon visar 4,6 av 5 från 31 901 omdömen, och köpare lyfter framför allt den tysta driften och den fräschare luftkänslan.",
+    badge: "Behov före köp",
+    headline: "Levoit Core 200S",
+    shortBody: "Core 200S filtrerar luft som komplement till ventilation och åtgärder vid föroreningskällan. Kapacitet, ljud och rätt filter påverkar valet.",
+    valueHook: "Vilket problem vill du lösa?",
+    valueStatement: "Core 200S filtrerar luft som komplement till ventilation och åtgärder vid föroreningskällan. Kapacitet, ljud och rätt filter påverkar valet.",
     passFor: [
-      "Vill ha renare luft i sovrum eller mindre rum.",
-      "Är känslig för damm och pollen och vill fånga partiklar i luften.",
-      "Gillar tyst nattläge och smart app- eller röststyrning.",
+      "du vill komplettera fungerande ventilation och minskade föroreningskällor med partikelfiltrering i ett rum. Kontrollera kapacitet vid en fläkthastighet du faktiskt kan använda och vad rätt ersättningsfilter kostar."
     ],
-    caution: "Den är gjord för sovrum och mindre rum, så för stora ytor räcker den inte till. Tänk också på att HEPA-filtret är en förbrukningsvara som behöver bytas med jämna mellanrum för bästa effekt.",
+    caution: "du förväntar dig att den ska tillföra fukt, åtgärda en fuktskada eller ersätta ventilationen. Vi har inte belägg för att just denna modell löser dina allergibesvär eller renar hela bostaden.",
     usageGuidance: {
-      title: "Så får du ut mest av den",
-      text: "Ställ luftrenaren fritt en bit från väggen i rummet du vistas mest i, kör nattläget när du sover och håll koll på filterindikatorn så att filtret byts i tid.",
+      "title": "Skötsel ingår i valet",
+      "text": "Kontrollera filtret Core 200S-RF och följ manualen för den levererade apparaten. Välj fläktläge efter behov och den ljudnivå du kan acceptera."
     },
-    verdict: "Prisvärd, smart luftrenare för renare luft i sovrum och mindre rum.",
-    amazonSummary: "Amazon visar 4,6 av 5 från 31 901 omdömen. Köpare beskriver luften som fräschare och driften som mycket tyst, men den passar bäst i mindre rum.",
+    verdict: "du förväntar dig att den ska tillföra fukt, åtgärda en fuktskada eller ersätta ventilationen. Vi har inte belägg för att just denna modell löser dina allergibesvär eller renar hela bostaden.",
+    amazonSummary: "Inga verifierade kundbetyg används för rekommendationen.",
     amazonQuotes: [],
     faqItems: [
       {
-        question: "Hur stort rum passar Levoit Core 200S för?",
-        answer: "Den är gjord för sovrum och mindre rum. För större ytor behöver du en modell med högre kapacitet.",
+        "question": "Vilken variant gäller underlaget?",
+        "answer": "Core 200S med utbytesfilter Core 200S-RF enligt Levoits brittiska sida. Inte automatiskt samma variant som Core 200S-P. Svensk butiksversion, stickkontakt och aktuellt filterutbud återstår att matcha."
       },
       {
-        question: "Är luftrenaren tyst på natten?",
-        answer: "Ja, nattläget är gjort för tyst drift med dämpad display, så den kan stå på medan du sover. Många köpare lyfter just den tysta driften.",
-      },
-      {
-        question: "Hur ofta behöver filtret bytas?",
-        answer: "HEPA-filtret är en förbrukningsvara som behöver bytas med jämna mellanrum. Appen och filterindikatorn hjälper dig hålla koll på när det är dags.",
-      },
+        "question": "Har ni mätt effekten?",
+        "answer": "Vi har inte mätt luftfuktighet, partikelhalter, ljud eller filtereffekt med dessa produkter. Modelluppgifterna är från Levoit. EPA:s råd om luftfuktare och filtrering gäller produktkategorierna och är inte ett godkännande av dessa modeller."
+      }
     ],
     reviewSectionId: "levoit-core-200s-recensioner",
     reviewFormId: "levoit-core-200s-skriv-recension",
     targetKeyword: "luftrenare",
-    metaTitle: "Levoit Core 200S luftrenare – tyst & smart | Elins val",
-    metaDescription: "Elin går igenom Levoit Core 200S: en kompakt smart luftrenare med HEPA-filter för renare luft i sovrummet (4,6 av 5, 31 901 omdömen) – tyst nattläge och app-styrning.",
+    metaTitle: "Levoit Core 200S – behov och skötsel före köp | Elins val",
+    metaDescription: "Core 200S filtrerar luft som komplement till ventilation och åtgärder vid föroreningskällan. Kapacitet, ljud och rätt filter påverkar valet.",
     relatedLinks: [
       {
-        href: "/halsa/aromdiffuser",
-        label: "Aromdiffuser",
-        text: "Skön doft och lugn stämning hemma.",
+        "href": "/halsa/luftfuktare-eller-luftrenare",
+        "label": "Jämför behov",
+        "text": "Luftfuktare eller luftrenare?"
       },
       {
-        href: "/halsa/solnedgangslampa",
-        label: "Solnedgångslampa",
-        text: "Mjukt ljus för en lugnare kväll.",
-      },
-      {
-        href: "/guider/tyst-flakt-sovrum",
-        label: "Guide",
-        text: "Tyst fläkt för sovrummet – vilken ska du välja?",
-      },
+        "href": "/halsa",
+        "label": "Hälsa & vardag",
+        "text": "Fler produktguider"
+      }
     ],
   },
   {
