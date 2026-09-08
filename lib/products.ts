@@ -1260,12 +1260,12 @@ export const songmicsDumbbellSetProduct: Product = {
 
 export const prosourcefitYogaMatProduct: Product = {
   slug: "prosourcefit-extra-tjock-yogamatta",
-  title: "ProSourceFit extra tjock yoga- och pilatesmatta",
+  title: "ProsourceFit Extra Thick Yoga and Pilates Mat – 13 mm",
   category: "traning",
   asin: "B00FY0GW08",
   brand: "ProSourceFit",
   price: "Se aktuellt pris på Amazon",
-  badges: ["13 mm komfort", "Bäst för pilates"],
+  badges: ["13 mm – tillverkaruppgift","Butiksvariant ej matchad"],
   image: "/products/yoga-mats/prosourcefit-thick-yoga-mat-thumbnail.webp",
   imageAlt: "ProSourceFit extra tjock yoga- och pilatesmatta med bärrem",
   images: [
@@ -1288,51 +1288,27 @@ export const prosourcefitYogaMatProduct: Product = {
   amazonUrl: "https://amzn.to/4enoyOu",
   pageHref: "/traning/yogamatta/prosourcefit-13mm",
   summary:
-    "Extra tjock 13 mm yogamatta för dig som vill ha mer stöd för knän, rygg och golvövningar hemma.",
-  evaluation: {
-    headline: "Elins komfortval",
-    intro:
-      "ProSourceFit passar dig som vill ha en mjukare matta för pilates, stretch och golvövningar där lederna behöver mer dämpning.",
-    verdict: "Elins val - mest komfort för pengarna.",
-    checks: [],
-  },
+    "du söker extra dämpning vid golvövningar och accepterar ett mjukare underlag. Tillverkaren beskriver denna avvägning för sin tjocka matta.",
+  evaluation: {"headline":"Dämpning, mått och begränsningar","intro":"½-tumsvarianten i NBR, cirka 180 × 61 cm. Tillverkaren säljer även 25 mm; blanda inte ihop dem. Vår katalogs ASIN B00FY0GW08 är inte matchad mot aktuell svensk butiksvariant.","verdict":"du prioriterar fast golvkontakt i stående balansövningar. Mer skum kan göra underlaget mindre stabilt; tjockast är inte automatiskt bäst.","checks":[]},
   specSectionEyebrow: "Yogamatta",
-  specSectionTitle: "ProSourceFit 13 mm",
-  specs: [
-    { label: "Material", caption: "Skum", value: "High-density NBR" },
-    { label: "Tjocklek", caption: "Komfort", value: "13 mm" },
-    { label: "Storlek", caption: "Längd x bredd", value: "180 x 61 cm" },
-  ],
-  amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4enoyOu",
-    ratingSummary:
-      "Amazon visar 4,6 av 5 från 7 461 recensioner och #3 i Yoga Mats.",
-    highlights: [
-      "Köpare lyfter den extra dämpningen för rygg och knän.",
-      "Den tjocka NBR-skummattan passar särskilt bra för pilates och golvövningar.",
-      "Produktsidan anger bärrem, men leveransen bör dubbelkollas vid mottagning.",
-    ],
-    cautions: [
-      "En mycket tjock och mjuk matta är mindre stabil i stående balanspositioner.",
-      "Skum kan få märken över tid och några köpare rapporterar saknad bärrem vid leverans.",
-    ],
-  },
+  specSectionTitle: "ProsourceFit Extra Thick Yoga and Pilates Mat – 13 mm",
+  specs: [{"label":"Material","caption":"Tillverkaren","value":"NBR"},{"label":"Tjocklek","caption":"Vald tillverkarvariant","value":"13 mm, inte 25 mm"},{"label":"Storlek","caption":"71 × 24 tum, omräknat","value":"Cirka 180 × 61 cm"}],
+  amazonReviewSignal: {"sourceLabel":"Tillverkarunderlag","sourceUrl":"https://www.prosourcefit.com/products/extra-thick-yoga-and-pilates-mat","ratingSummary":"Kundbetyg och butikens exakta variant är inte verifierade.","highlights":["Skiljer 13 och 25 mm. Anger 71 × 24 tum, NBR och bärrem. Avtorkning och torkning, inte maskintvätt. Ingen svensk butiksmatchning."],"cautions":["du prioriterar fast golvkontakt i stående balansövningar. Mer skum kan göra underlaget mindre stabilt; tjockast är inte automatiskt bäst."]},
   ugcVideos: [],
-  uses: [],
+  uses: ["du söker extra dämpning vid golvövningar och accepterar ett mjukare underlag. Tillverkaren beskriver denna avvägning för sin tjocka matta."],
   peopleLike: [],
-  honestCheck: [],
+  honestCheck: ["du prioriterar fast golvkontakt i stående balansövningar. Mer skum kan göra underlaget mindre stabilt; tjockast är inte automatiskt bäst.","½-tumsvarianten i NBR, cirka 180 × 61 cm. Tillverkaren säljer även 25 mm; blanda inte ihop dem. Vår katalogs ASIN B00FY0GW08 är inte matchad mot aktuell svensk butiksvariant."],
   comments: [],
 };
 
 export const yogatiTpeYogaMatProduct: Product = {
   slug: "yogati-tpe-yogamatta",
-  title: "YOGATI yogamatta i TPE",
+  title: "YOGATI Tapis Bleu – 6 mm",
   category: "traning",
   asin: "B07ML1VMPD",
   brand: "YOGATI",
   price: "Se aktuellt pris på Amazon",
-  badges: ["Bra grepp", "Markeringslinjer", "Stabil för yoga"],
+  badges: ["6 mm – blå tillverkarvariant","Butiksvariant ej matchad"],
   image: "/products/yoga-mats/yogati-tpe-yoga-mat-thumbnail.webp",
   imageAlt: "YOGATI TPE-yogamatta med markeringslinjer och bärrem",
   images: [
@@ -1355,39 +1331,16 @@ export const yogatiTpeYogaMatProduct: Product = {
   amazonUrl: "https://amzn.to/3ScRxgI",
   pageHref: "/traning/yogamatta/yogati-tpe",
   summary:
-    "Greppigare TPE-matta med markeringslinjer för dig som gör yoga, balanspositioner och vill ha mer stabilitet.",
-  evaluation: {
-    headline: "Greppvalet för yoga",
-    intro:
-      "YOGATI passar dig som prioriterar grepp, stabilitet och linjer som hjälper kroppen att hamna rätt på mattan.",
-    verdict: "Bästa valet för faktisk yoga och balans.",
-    checks: [],
-  },
+    "du söker en 6 mm-matta med markeringslinjer och först kan bekräfta att butiken säljer just den dokumenterade varianten.",
+  evaluation: {"headline":"Dämpning, mått och begränsningar","intro":"Den blå mattan på varumärkets franska sida: 183 × 61 cm, 800 g och bärrem. TPE-materialet och kopplingen till katalogens ASIN B07ML1VMPD är inte styrkta i de lästa källorna.","verdict":"du behöver bevisat grepp med svettiga händer eller väljer efter ett löfte om att aldrig glida. Vi har inget sådant test och kan inte utse den till greppvinnare.","checks":[]},
   specSectionEyebrow: "Yogamatta",
-  specSectionTitle: "YOGATI TPE 6 mm",
-  specs: [
-    { label: "Material", caption: "Yta", value: "TPE" },
-    { label: "Tjocklek", caption: "Stabilitet", value: "6 mm" },
-    { label: "Storlek", caption: "Längd x bredd", value: "183 x 61 cm" },
-  ],
-  amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/3ScRxgI",
-    ratingSummary: "Amazon visar 4,6 av 5 från 5 542 recensioner.",
-    highlights: [
-      "Köpare beskriver mattan som greppig och stabil för balans.",
-      "Markeringslinjerna hjälper positionering vid yoga.",
-      "TPE-materialet är dubbelsidigt halkfritt och mer stabilt än väldigt mjukt skum.",
-    ],
-    cautions: [
-      "En ny TPE-matta kan kännas något hal innan den torkats av eller använts in.",
-      "6 mm är bekvämt men inte lika mjukt som en 13 mm skummatta.",
-    ],
-  },
+  specSectionTitle: "YOGATI Tapis Bleu – 6 mm",
+  specs: [{"label":"Material","caption":"TPE i äldre katalog","value":"Inte styrkt i lästa källor"},{"label":"Tjocklek","caption":"Blå tillverkarvariant","value":"6 mm"},{"label":"Storlek","caption":"Tillverkaruppgift","value":"183 × 61 cm"}],
+  amazonReviewSignal: {"sourceLabel":"Tillverkarunderlag","sourceUrl":"https://yogatilife.com/products/tapisyogableu","ratingSummary":"Kundbetyg och butikens exakta variant är inte verifierade.","highlights":["Blå matta, 183 × 61 cm, 6 mm, 800 g, bärrem och markeringslinjer. Landväljare och angivna fri-fraktländer. Material/ASIN och svensk leveranskostnad inte matchade."],"cautions":["du behöver bevisat grepp med svettiga händer eller väljer efter ett löfte om att aldrig glida. Vi har inget sådant test och kan inte utse den till greppvinnare."]},
   ugcVideos: [],
-  uses: [],
+  uses: ["du söker en 6 mm-matta med markeringslinjer och först kan bekräfta att butiken säljer just den dokumenterade varianten."],
   peopleLike: [],
-  honestCheck: [],
+  honestCheck: ["du behöver bevisat grepp med svettiga händer eller väljer efter ett löfte om att aldrig glida. Vi har inget sådant test och kan inte utse den till greppvinnare.","Den blå mattan på varumärkets franska sida: 183 × 61 cm, 800 g och bärrem. TPE-materialet och kopplingen till katalogens ASIN B07ML1VMPD är inte styrkta i de lästa källorna."],
   comments: [],
 };
 

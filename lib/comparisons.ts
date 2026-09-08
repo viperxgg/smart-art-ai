@@ -17,14 +17,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   ...waveComparisonEntries,
   {
     slug: "tjock-eller-tunn-yogamatta",
-    title: "Tjock eller tunn yogamatta?",
+    title: "Tjock eller tunn yogamatta – vad behöver du?",
     shortTitle: "Tjock eller tunn yogamatta",
     category: "traning",
     categoryLabel: "Träning",
     href: "/traning/tjock-eller-tunn-yogamatta",
-    description: "Knävänlig komfort eller golvkontakt och balans – välj efter passet.",
+    description: "Jämför dämpning, golvkontakt och dokumenterade varianter. Ingen bevisad greppvinnare eller prisrangordning.",
     productSlugs: ["prosourcefit-extra-tjock-yogamatta","yogati-tpe-yogamatta"],
-    badges: ["Hemmayoga","Komfort vs balans","Kom igång i höst"],
+    badges: ["Dämpning och golvkontakt","Källor och begränsningar"],
   },
   {
     slug: "gjutjarn-eller-mjuk-kettlebell",
@@ -850,18 +850,18 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "yogamatta",
-    title: "ProSourceFit 13 mm vs YOGATI TPE yogamatta",
+    title: "Vilken yogamatta passar dina övningar?",
     shortTitle: "Yogamatta",
     category: "traning",
     categoryLabel: "Träning",
     href: "/traning/yogamatta",
     description:
-      "Extra komfort för pilates och golvövningar mot bättre grepp för yoga.",
+      "Jämför dämpning, golvkontakt och dokumenterade varianter. Ingen bevisad greppvinnare eller prisrangordning.",
     productSlugs: [
       "prosourcefit-extra-tjock-yogamatta",
       "yogati-tpe-yogamatta",
     ],
-    badges: ["13 mm komfort", "Bra grepp", "Balans"],
+    badges: ["Dämpning och golvkontakt","Källor och begränsningar"],
   },
   {
     slug: "foam-roller",

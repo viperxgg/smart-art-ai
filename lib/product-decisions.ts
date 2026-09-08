@@ -1,3 +1,4 @@
+import { yogaMatDecision } from "@/lib/yoga-mat-decision";
 import { bedroomFanDecision } from "@/lib/bedroom-fan-decision";
 import { dehumidifierDecision } from "@/lib/dehumidifier-decision";
 import { kettlebellDumbbellDecision } from "@/lib/kettlebell-dumbbell-decision";
@@ -15,6 +16,13 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const yogaOption = yogaMatDecision.options.find((item) => item.productSlug === slug);
+  if (yogaOption) return {
+    ...yogaMatDecision, options: [yogaOption],
+    sources: yogaMatDecision.sources.filter((source) => yogaOption.sourceIds.includes(source.id)),
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Jämför dämpning och golvkontakt", href: "/traning/yogamatta" },
+  };
   if (slug === dehumidifierDecision.options[0].productSlug) return {
     ...dehumidifierDecision,
     category: { label: "Hälsa & vardag", href: "/halsa" },

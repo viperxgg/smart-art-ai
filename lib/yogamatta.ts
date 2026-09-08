@@ -32,135 +32,65 @@ export type YogamattaPick = {
   metaDescription: string;
 };
 
-export const yogamattaFaqItems = [
-  {
-    question: "Vilken tjocklek ska en yogamatta ha?",
-    answer:
-      "För klassisk yoga räcker ofta 4-6 mm eftersom du får bättre kontakt med golvet. För pilates, stretch och känsliga knän kan 10-13 mm vara skönare.",
-  },
-  {
-    question: "Skum eller TPE — vad är skillnaden?",
-    answer:
-      "NBR-skum är mjukt och dämpande, särskilt för golvövningar. TPE är oftare stabilare och greppigare för yoga, balans och positioner där du inte vill glida.",
-  },
-  {
-    question: "Vilken matta har bäst grepp?",
-    answer:
-      "För grepp och stabilitet är YOGATI i TPE det starkare valet här. Den är gjord för yoga med halkfri yta och markeringslinjer, medan ProSourceFit prioriterar dämpning.",
-  },
-  {
-    question: "Är en tjock matta bra för yoga eller pilates?",
-    answer:
-      "En tjock matta är mycket bra för pilates, rygg, knän och golvövningar. För stående balanspositioner i yoga kan den däremot kännas mindre stabil än en tunnare och fastare matta.",
-  },
-];
+export const yogamattaFaqItems = [{"question":"Vilken har bäst grepp?","answer":"Det vet vi inte. Båda marknadsförs med grepp, men vi saknar jämförbara tester på torrt och fuktigt underlag. Varken 6 mm, TPE eller pris räcker för att utse en vinnare."},{"question":"Är mer dämpning alltid bättre?","answer":"Nej. ProsourceFits guide beskriver att mer dämpning kan ge mindre stabilitet i stående positioner. Utgå från övningen och din upplevelse av underlaget, inte bara antal millimeter."},{"question":"Hur sköter jag mattan?","answer":"För ProsourceFit anger tillverkaren avtorkning med våt trasa eller svamp och ordentlig torkning, inte maskintvätt. Överför inte detta automatiskt till YOGATI; följ skötselråden för den variant du faktiskt har."},{"question":"Behöver jag en ny matta för att börja yoga?","answer":"Inte om underlaget du redan använder fungerar för dina övningar. Beskriv först vad som saknas innan du jämför ett köp."}];
 
-export const yogamattaComparisonRows = [
-  ["Snabba signaler", "13 mm komfort; Bäst för pilates", "Bra grepp; Markeringslinjer; Stabil för yoga"],
-  ["Bäst för", "Komfort, pilates och golvövningar (Elins val)", "Grepp, yoga och balans"],
-  ["Material", "High-density NBR-skum", "TPE"],
-  ["Tjocklek", "13 mm", "6 mm"],
-  ["Grepp", "Mjukt och dämpande, mindre stabilt i balans", "Dubbelsidigt halkfritt med markeringslinjer"],
-
-] as const;
+export const yogamattaComparisonRows = [["Tillverkarvariant","13 mm, NBR","Blå matta, 6 mm"],["Mått","Cirka 180 × 61 cm","183 × 61 cm"],["Grepp jämfört i test","Nej","Nej"],["Butiksvariant verifierad","Nej","Nej"]] as const;
 
 export const yogamattaPicks: YogamattaPick[] = [
   {
     product: prosourcefitYogaMatProduct,
     path: "/traning/yogamatta/prosourcefit-13mm",
-    badge: "Elins val",
-    headline: "ProSourceFit 13 mm - extra mjuk matta för knän och rygg",
+    badge: "Källbaserad genomgång",
+    headline: "ProsourceFit Extra Thick Yoga and Pilates Mat – 13 mm",
     shortBody:
-      "En tjock och mjuk yoga- och pilatesmatta för dig som vill ha mer dämpning hemma, särskilt vid golvövningar, stretch och nybörjarpass.",
-    valueHook: "Mest komfort för pengarna.",
+      "du söker extra dämpning vid golvövningar och accepterar ett mjukare underlag. Tillverkaren beskriver denna avvägning för sin tjocka matta.",
+    valueHook: "Kontrollera behov och variant.",
     valueStatement:
-      "ProSourceFit är valet när du prioriterar mjuk känsla framför maximal stabilitet. Med 13 mm high-density NBR-skum får knän, rygg och höfter mer dämpning vid pilates, stretch och golvövningar. Det gör den lätt att gilla för hemmaträning där komforten avgör om mattan faktiskt används.",
-    passFor: [
-      "Vill ha extra dämpning för knän, rygg och leder.",
-      "Gör pilates, stretch eller golvövningar hemma.",
-      "Är nybörjare och vill ha en mjukare start.",
-    ],
+      "½-tumsvarianten i NBR, cirka 180 × 61 cm. Tillverkaren säljer även 25 mm; blanda inte ihop dem. Vår katalogs ASIN B00FY0GW08 är inte matchad mot aktuell svensk butiksvariant.",
+    passFor: ["du söker extra dämpning vid golvövningar och accepterar ett mjukare underlag. Tillverkaren beskriver denna avvägning för sin tjocka matta."],
     caution:
-      "Den är väldigt tjock, vilket är skönt för golvövningar men mindre stabilt för stående balanspositioner. Skum kan också få märken över tid, och några köpare rapporterar att bärrem saknades vid leverans.",
-    verdict: "Elins val - bäst när komfort och dämpning går först.",
+      "du prioriterar fast golvkontakt i stående balansövningar. Mer skum kan göra underlaget mindre stabilt; tjockast är inte automatiskt bäst.",
+    verdict: "Ingen jämförande vinnare utses.",
     amazonSummary:
-      "Amazon visar 4,6 av 5 från 7 461 recensioner och #3 i Yoga Mats.",
-    amazonQuotes: [
-      {
-        text: "Excellent product, thick model.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Bra och mjuk, precis som på bilden.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Much more cushion for my back and knees.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Thick and high quality, but no carry strap came with it as stated.",
-        attribution: "Köpare, Amazon",
-      },
-    ],
+      "Aktuella kundbetyg är inte verifierade.",
+    amazonQuotes: [],
     comparisonNote:
-      "Vill du ha bättre grepp och stabilitet för yoga? Se YOGATI TPE.",
-    comparisonCta: "Se YOGATI TPE",
-    comparisonHref: "/traning/yogamatta/yogati-tpe",
+      "Jämför funktion och begränsningar före köp.",
+    comparisonCta: "Jämför mattorna",
+    comparisonHref: "/traning/yogamatta",
     reviewSectionId: "prosourcefit-yogamatta-recensioner",
     reviewFormId: "prosourcefit-yogamatta-skriv-recension",
     targetKeyword: "prosourcefit yogamatta",
-    metaTitle: "ProSourceFit yogamatta 13 mm - Elins recension | Elins val",
+    metaTitle: "ProsourceFit Extra Thick Yoga and Pilates Mat – 13 mm | Elins val",
     metaDescription:
-      "Elins genomgång av ProSourceFit extra tjock yoga- och pilatesmatta: varför 13 mm passar komfort, pilates och golvövningar, och när TPE är bättre.",
+      "ProsourceFit 13 mm: mått, NBR och avvägningen mellan dämpning och golvkontakt. Läs källorna och vad som återstår att verifiera före köp.",
   },
   {
     product: yogatiTpeYogaMatProduct,
     path: "/traning/yogamatta/yogati-tpe",
-    badge: "Bra grepp",
-    headline: "YOGATI TPE - greppigare matta för riktig yoga",
+    badge: "Källbaserad genomgång",
+    headline: "YOGATI Tapis Bleu – 6 mm",
     shortBody:
-      "En stabilare TPE-matta med markeringslinjer för dig som gör yoga, balanspositioner och vill ha bättre grepp än en extra tjock skummatta.",
-    valueHook: "Grepp och stabilitet för faktisk yoga.",
+      "du söker en 6 mm-matta med markeringslinjer och först kan bekräfta att butiken säljer just den dokumenterade varianten.",
+    valueHook: "Kontrollera behov och variant.",
     valueStatement:
-      "YOGATI är valet när mattan ska hjälpa dig stå stadigt. TPE-materialet är 6 mm tjockt, dubbelsidigt halkfritt och har markeringslinjer för kroppen. Den är inte lika fluffig som ProSourceFit, men den är mer relevant när du gör positioner där grepp och balans spelar roll.",
-    passFor: [
-      "Gör yoga med stående positioner och balans.",
-      "Vill ha markeringslinjer för placering av händer och fötter.",
-      "Prioriterar grepp framför maximal dämpning.",
-    ],
+      "Den blå mattan på varumärkets franska sida: 183 × 61 cm, 800 g och bärrem. TPE-materialet och kopplingen till katalogens ASIN B07ML1VMPD är inte styrkta i de lästa källorna.",
+    passFor: ["du söker en 6 mm-matta med markeringslinjer och först kan bekräfta att butiken säljer just den dokumenterade varianten."],
     caution:
-      "Några användare tycker att en ny TPE-matta kan kännas lite hal tills den torkats av eller använts in. Och 6 mm är bekvämt, men inte lika mjukt som 13 mm skum.",
-    verdict: "Bästa valet när grepp och stabilitet går först.",
-    amazonSummary: "Amazon visar 4,6 av 5 från 5 542 recensioner.",
-    amazonQuotes: [
-      {
-        text: "Incredibly grippy — slip and sweat resistant, perfect for balances.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Schön und rutscht inte på trägolv.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Antideslizante, perfekt och håller länge.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Found it very slippery.",
-        attribution: "Köpare, Amazon",
-      },
-    ],
+      "du behöver bevisat grepp med svettiga händer eller väljer efter ett löfte om att aldrig glida. Vi har inget sådant test och kan inte utse den till greppvinnare.",
+    verdict: "Ingen jämförande vinnare utses.",
+    amazonSummary: "Aktuella kundbetyg är inte verifierade.",
+    amazonQuotes: [],
     comparisonNote:
-      "Vill du ha mer mjuk dämpning för knän och pilates? Se ProSourceFit 13 mm.",
-    comparisonCta: "Se ProSourceFit 13 mm",
-    comparisonHref: "/traning/yogamatta/prosourcefit-13mm",
+      "Jämför funktion och begränsningar före köp.",
+    comparisonCta: "Jämför mattorna",
+    comparisonHref: "/traning/yogamatta",
     reviewSectionId: "yogati-tpe-yogamatta-recensioner",
     reviewFormId: "yogati-tpe-yogamatta-skriv-recension",
     targetKeyword: "yogati yogamatta",
-    metaTitle: "YOGATI yogamatta TPE - Elins recension | Elins val",
+    metaTitle: "YOGATI Tapis Bleu – 6 mm | Elins val",
     metaDescription:
-      "Elins genomgång av YOGATI yogamatta i TPE: varför den passar yoga, grepp och balans, och när en extra tjock skummatta är bättre.",
+      "YOGATI blå 6 mm-matta: mått och markeringslinjer enligt tillverkaren. Grepp, material och svensk butiksvariant är inte jämförande verifierade.",
   },
 ];
 
