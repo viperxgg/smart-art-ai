@@ -113,9 +113,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/azelainsyra-eller-aha-bha",
-    description: "Den milda vardagsaktiven mot den klassiska exfolierande tonern – Elin reder ut vilken aktiv din hud klarar och behöver.",
+    description: "Jämför Anuas serum och COSRXs toner: hela formulan, användningen och när du kan avstå. Ingen säkerhetsrangordning eller rutin med båda är fastställd.",
     productSlugs: ["anua-azelaic-acid-serum","cosrx-aha-bha-toner"],
-    badges: ["Aktiva","Känslig hy","Jämnare hudton"],
+    badges: ["Serum eller toner","Läs anvisningarna","Behövs ett extra steg?"],
   },
   {
     slug: "centella-eller-propolis",

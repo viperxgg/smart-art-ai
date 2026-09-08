@@ -1,3 +1,4 @@
+import { acidSerumTonerDecision } from "@/lib/azelainsyra-eller-aha-bha";
 import { centellaPropolisDecision } from "@/lib/centella-eller-propolis";
 import { hydrationSerumDecision } from "@/lib/snigelslem-eller-hyaluronsyra";
 import { retinolDecision } from "@/lib/retinol-decisions";
@@ -35,6 +36,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const acidOption = acidSerumTonerDecision.options.find(item => item.productSlug === slug);
+  if (acidOption) return {
+    ...acidSerumTonerDecision, options: [acidOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Serum eller toner?", href: "/skonhet/azelainsyra-eller-aha-bha" },
+  };
   const calmingOption = centellaPropolisDecision.options.find(item => item.productSlug === slug);
   if (calmingOption) return {
     ...centellaPropolisDecision, options: [calmingOption],
