@@ -1,3 +1,4 @@
+import { denmanDecision } from "@/lib/denman-decision";
 import { detanglingDecision } from "@/lib/tangle-teezer-eller-harborste";
 import { makeupToolDecision } from "@/lib/sminksvamp-eller-sminkborste";
 import { clawClipDecision, hairTowelDecision } from "@/lib/kitsch-accessory-decisions";
@@ -43,6 +44,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === denmanDecision.options[0].productSlug) return {
+    ...denmanDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Behöver du främst reda ut håret?", href: "/skonhet/tangle-teezer-eller-harborste" },
+  };
   const brushOption = detanglingDecision.options.find(item => item.productSlug === slug);
   if (brushOption) return {
     ...detanglingDecision, options: [brushOption],
