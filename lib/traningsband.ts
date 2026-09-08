@@ -54,7 +54,7 @@ export const traningsbandComparisonRows = [
   [
     "Snabba signaler",
     "4 nivåer 8-85 lbs; helkropp; naturlatex",
-    "5 nivåer; ben, rumpa & rehab; 8 138 omdömen",
+    "Kontrollera bandlängd, motstånd och användning",
   ],
   [
     "Bäst för",
@@ -123,7 +123,7 @@ export const traningsbandPicks: TraningsbandPick[] = [
       "Ett kompakt loop-band-set för ben, rumpa, höfter, pilates och rehab: fem tydliga nivåer från X-light till X-heavy.",
     valueHook: "Mest loop-band för pengarna - för ben och rumpa.",
     valueStatement:
-      "JAKKOFOXX är ett av de mest köpta loop-band-seten på Amazon - 4,4 av 5 från över 8 000 omdömen. Du får fem tydliga motståndsnivåer från X-light till X-heavy för knappt en hundralapp, perfekt för rumpa, ben, höfter, pilates och rehab. Det är inte band för tung helkroppsstyrka, men för riktad benträning hemma är det svårt att få mer för pengarna.",
+      "Kontrollera bandens längd, material och motstånd innan du väljer setet till dina övningar. Vi har inte verifierat aktuella kundbetyg, priset eller motståndet i varje band och rekommenderar inte setet som rehabiliteringshjälp utifrån gamla omdömen.",
     passFor: [
       "Vill träna ben, rumpa och höfter hemma eller på resan.",
       "Gör pilates, uppvärmning eller rehab och vill ha mjukt till tungt motstånd.",

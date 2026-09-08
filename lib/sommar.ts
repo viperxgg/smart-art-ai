@@ -273,7 +273,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Gehwol fotpuder – torra och fräscha fötter",
     shortBody: "Ett finkornigt fotpuder som hjälper fötterna att kännas torra och fräscha. Gjort för att motverka fuktkänsla i skon och ge en skön, torr komfort under dagen.",
     valueHook: "Fotpuder för torra och fräscha fötter",
-    valueStatement: "Gehwol fotpuder är ett klassiskt val för dig som vill hålla fötterna torra och fräscha under dagen. Det finkorniga pudret hjälper huden att kännas torrare och motverkar fuktkänsla i skon, något som är skönt särskilt vid svettiga fötter. Amazon visar 4,6 av 5 från 708 omdömen, och köpare lyfter framför allt den torra, fräscha känslan, att fuktkänslan i skon motverkas och den fina, lättfördelade konsistensen.",
+    valueStatement: "Gehwol fotpuder är ett klassiskt val för dig som vill hålla fötterna torra och fräscha under dagen. Det finkorniga pudret hjälper huden att kännas torrare och motverkar fuktkänsla i skon, något som är skönt särskilt vid svettiga fötter.",
     passFor: [
       "Vill hålla fötterna torra och fräscha under dagen.",
       "Upplever svettiga fötter och vill motverka fuktkänsla i skon.",
@@ -305,7 +305,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "gehwol-fotpuder-skriv-recension",
     targetKeyword: "fotpuder svettiga fötter",
     metaTitle: "Gehwol fotpuder – torra & fräscha fötter | Elins val",
-    metaDescription: "Elin går igenom Gehwol fotpuder: ett finkornigt puder som håller fötterna torra och fräscha och motverkar fuktkänsla i skon (4,6 av 5, 708 omdömen) – och hur du använder det rätt.",
+    metaDescription: "Elin går igenom Gehwol fotpuder: ett finkornigt puder som håller fötterna torra och fräscha och motverkar fuktkänsla i skon – och hur du använder det rätt.",
     relatedLinks: [
       {
         href: "/skonhet/halkram",
@@ -336,7 +336,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Braun Silk-épil bikinitrimmer – skonsam trimning hemma",
     shortBody: "En bikinitrimmer med smal precisionskam för att forma och trimma bikinilinjen själv hemma. Liten och lätt att styra, gjord för att kännas skonsam även på känsliga ställen.",
     valueHook: "Skonsam trimning av bikinilinjen hemma",
-    valueStatement: "Braun Silk-épil bikinitrimmer 3-202 är till för dig som vill trimma bikinilinjen snabbt och bekvämt hemma. Den smala precisionskammen gör det lättare att komma åt och få jämna kanter, och den lilla formen gör trimmern smidig att styra även på känsliga ytor. Amazon visar 4,2 av 5 från 347 omdömen, och köpare lyfter framför allt den smala kammen, hur lätt den är att styra och att trimningen känns skonsam.",
+    valueStatement: "Braun Silk-épil bikinitrimmer 3-202 är till för dig som vill trimma bikinilinjen snabbt och bekvämt hemma. Den smala precisionskammen gör det lättare att komma åt och få jämna kanter, och den lilla formen gör trimmern smidig att styra även på känsliga ytor.",
     passFor: [
       "Vill trimma och forma bikinilinjen själv hemma.",
       "Föredrar en smal precisionskam för jämna kanter på känsliga ställen.",
@@ -368,7 +368,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "braun-bikinitrimmer-skriv-recension",
     targetKeyword: "bikinitrimmer trimma bikinilinjen",
     metaTitle: "Braun Silk-épil bikinitrimmer 3-202 – trimma bikinilinjen | Elins val",
-    metaDescription: "Elin går igenom Braun Silk-épil bikinitrimmer 3-202: en skonsam trimmer med smal precisionskam för att trimma bikinilinjen hemma (4,2 av 5, 347 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom Braun Silk-épil bikinitrimmer 3-202: en skonsam trimmer med smal precisionskam för att trimma bikinilinjen hemma – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/ansiktstrimmer",
@@ -399,7 +399,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Veet Expert vaxremsor – slät hud utan värmare",
     shortBody: "Färdiga kallvaxremsor för ben och kropp. Du värmer remsan mellan händerna, trycker fast och drar av – en enkel metod för slät hud hemma i veckor framåt, helt utan värmare.",
     valueHook: "Kallvaxremsor för slät hud hemma",
-    valueStatement: "Veet Expert vaxremsor är för dig som vill ha slät hud på ben och kropp utan krångel. Det är färdiga kallvaxremsor, så du slipper både värmare och extra utrustning – du värmer helt enkelt remsan mellan händerna, trycker fast den och drar av. Resultatet håller i veckor framåt eftersom håret tas bort vid roten. Amazon visar 4,6 av 5 från 386 omdömen, och köpare lyfter framför allt hur smidigt det är att göra hemma och att huden känns slät länge.",
+    valueStatement: "Veet Expert vaxremsor är för dig som vill ha slät hud på ben och kropp utan krångel. Det är färdiga kallvaxremsor, så du slipper både värmare och extra utrustning – du värmer helt enkelt remsan mellan händerna, trycker fast den och drar av. Resultatet håller i veckor framåt eftersom håret tas bort vid roten.",
     passFor: [
       "Vill ha slät hud på ben och kropp utan att köpa en värmare.",
       "Föredrar att sköta hårborttagningen smidigt hemma.",
@@ -431,7 +431,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "veet-vaxremsor-skriv-recension",
     targetKeyword: "vaxremsor kallvax hårborttagning ben",
     metaTitle: "Veet Expert vaxremsor – slät hud utan värmare | Elins val",
-    metaDescription: "Elin går igenom Veet Expert vaxremsor: färdiga kallvaxremsor för ben och kropp (4,6 av 5, 386 omdömen) – slät hud i veckor utan värmare, och vad du bör veta innan du börjar.",
+    metaDescription: "Elin går igenom Veet Expert vaxremsor: färdiga kallvaxremsor för ben och kropp – slät hud i veckor utan värmare, och vad du bör veta innan du börjar.",
     relatedLinks: [
       {
         href: "/skonhet/rakapparat-dam",
@@ -462,7 +462,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Gillette Satin Care rakgel – len och behaglig rakning",
     shortBody: "En fuktgivande rakgel som lägger ett glidande lager mellan hud och hyvel. Gjord för att rakningen ska kännas smidigare och huden len efteråt, med mindre skav och irritation.",
     valueHook: "Fuktgivande rakgel för len hud",
-    valueStatement: "Gillette Satin Care är en fuktgivande rakgel för dig som vill ha en mer behaglig rakning. Gelen lägger ett glidande lager mellan hud och hyvel så att hyveln glider lättare, vilket hjälper till att minska skav och irritation och gör att huden känns len efteråt. Amazon visar 4,4 av 5 från 923 omdömen, och köpare lyfter framför allt att rakningen känns smidigare, att huden blir len och att de upplever mindre skav.",
+    valueStatement: "Gillette Satin Care är en fuktgivande rakgel för dig som vill ha en mer behaglig rakning. Gelen lägger ett glidande lager mellan hud och hyvel så att hyveln glider lättare, vilket hjälper till att minska skav och irritation och gör att huden känns len efteråt.",
     passFor: [
       "Vill ha en smidigare rakning där hyveln glider lättare.",
       "Tycker att huden känns skavd eller torr efter torrakning.",
@@ -494,7 +494,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "satincare-rakgel-skriv-recension",
     targetKeyword: "rakgel dam mot rakbränna",
     metaTitle: "Gillette Satin Care rakgel – len rakning för dam | Elins val",
-    metaDescription: "Elin går igenom Gillette Satin Care rakgel: en fuktgivande gel som gör att hyveln glider lättare och huden känns len efteråt (4,4 av 5, 923 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom Gillette Satin Care rakgel: en fuktgivande gel som gör att hyveln glider lättare och huden känns len efteråt – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/safety-razor",
@@ -525,7 +525,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Merkur 34C – nära, slät rakning med utbytbara blad",
     shortBody: "En klassisk safety razor helt i metall med utbytbara blad. Gjord för en nära, slät rakning med mindre stubb, och ett mer hållbart alternativ än engångshyvlar.",
     valueHook: "Klassisk metallhyvel för en nära rakning",
-    valueStatement: "Merkur 34C är en safety razor i metall för dig som vill ha en nära, slät rakning och samtidigt slippa kasta hela hyveln varje gång. Du byter bara det dubbeleggade bladet, vilket gör den mer hållbar än engångshyvlar och kan ge mindre stubb mellan raken. Tyngden och det korta, balanserade handtaget ger en stadig känsla i handen. Amazon visar 4,5 av 5 från 7 344 omdömen, och köpare lyfter framför allt den nära rakningen, den stabila känslan och att den håller länge.",
+    valueStatement: "Merkur 34C är en safety razor i metall för dig som vill ha en nära, slät rakning och samtidigt slippa kasta hela hyveln varje gång. Du byter bara det dubbeleggade bladet, vilket gör den mer hållbar än engångshyvlar och kan ge mindre stubb mellan raken. Tyngden och det korta, balanserade handtaget ger en stadig känsla i handen.",
     passFor: [
       "Vill ha en nära, slät rakning med mindre stubb.",
       "Föredrar utbytbara blad framför engångshyvlar.",
@@ -557,7 +557,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "merkur-safety-razor-skriv-recension",
     targetKeyword: "safety razor rakhyvel slät rakning",
     metaTitle: "Merkur 34C safety razor – nära & slät rakning | Elins val",
-    metaDescription: "Elin går igenom Merkur 34C: en klassisk safety razor i metall med utbytbara blad för en nära, slät rakning (4,5 av 5, 7 344 omdömen) – och vad du bör veta innan du byter från engångshyvel.",
+    metaDescription: "Elin går igenom Merkur 34C: en klassisk safety razor i metall med utbytbara blad för en nära, slät rakning – och vad du bör veta innan du byter från engångshyvel.",
     relatedLinks: [
       {
         href: "/skonhet/rakapparat-dam",
@@ -588,7 +588,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Tweezerman brynsax – forma brynen själv",
     shortBody: "En precis brynsax med spoolie-borste i ena änden. Du kammar upp brynen med borsten och trimmar av det som sticker ut med de smala bladen – för en ren, välvårdad form hemma.",
     valueHook: "Precis brynsax för en välvårdad form",
-    valueStatement: "Tweezerman brynsax är ett litet verktyg för dig som vill forma och trimma ögonbrynen själv. Du har en spoolie-borste i ena änden för att kamma upp brynen och smala precisionsblad för att klippa av det som sticker ut, så att du kan följa brynets naturliga form steg för steg. Amazon visar 4,7 av 5 från 6 404 omdömen, och köpare lyfter framför allt precisionen, att borsten sitter ihop med saxen och att den hjälper dem hålla en ren form mellan besök.",
+    valueStatement: "Tweezerman brynsax är ett litet verktyg för dig som vill forma och trimma ögonbrynen själv. Du har en spoolie-borste i ena änden för att kamma upp brynen och smala precisionsblad för att klippa av det som sticker ut, så att du kan följa brynets naturliga form steg för steg.",
     passFor: [
       "Vill forma och trimma ögonbrynen själv hemma.",
       "Gillar att kamma upp brynen och klippa av det som sticker ut för en ren linje.",
@@ -620,7 +620,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "tweezerman-brynsax-skriv-recension",
     targetKeyword: "brynsax forma ögonbryn",
     metaTitle: "Tweezerman brynsax med borste – forma brynen | Elins val",
-    metaDescription: "Elin går igenom Tweezerman brynsax med spoolie-borste: ett precist verktyg för att forma och trimma ögonbrynen hemma (4,7 av 5, 6 404 omdömen) – och hur du trimmar rätt.",
+    metaDescription: "Elin går igenom Tweezerman brynsax med spoolie-borste: ett precist verktyg för att forma och trimma ögonbrynen hemma – och hur du trimmar rätt.",
     relatedLinks: [
       {
         href: "/skonhet/brynserum",
@@ -651,7 +651,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Sorella brynlaminering – tämj spretiga bryn hemma",
     shortBody: "Ett brynlamineringskit för hemmabruk som fixerar brynhåren uppåt i en fylligare, mer välkammad form. Ett sätt att testa brynlaminering hemma och tämja spretiga bryn mellan salongsbesök.",
     valueHook: "Brynlaminering hemma för fylligare bryn",
-    valueStatement: "Sorella brynlamineringskit är för dig som vill testa brynlaminering hemma och få spretiga bryn att ligga uppåt i en fylligare, mer välkammad form. Tanken är att fixera brynhåren på plats så att brynen ser mer samlade och ordnade ut. Amazon visar 4,2 av 5 från 119 omdömen – det är fortfarande ganska få omdömen, så Elin vill vara ärlig: bilden är inte helt klar ännu, men de som lämnat omdöme lyfter framför allt att brynen blir mer välkammade.",
+    valueStatement: "Sorella brynlamineringskit är för dig som vill testa brynlaminering hemma och få spretiga bryn att ligga uppåt i en fylligare, mer välkammad form. Tanken är att fixera brynhåren på plats så att brynen ser mer samlade och ordnade ut.",
     passFor: [
       "Har spretiga bryn och vill få dem att ligga uppåt i en fylligare form.",
       "Vill testa brynlaminering hemma istället för att boka salong varje gång.",
@@ -671,8 +671,8 @@ export const sommarPicks: SommarPick[] = ([
         answer: "Det fixerar brynhåren uppåt i en fylligare, mer välkammad form så att spretiga bryn ser mer samlade och ordnade ut. Effekten håller en tid och sköts sedan om igen.",
       },
       {
-        question: "Är 119 omdömen tillräckligt för att lita på resultatet?",
-        answer: "Det är ärligt sagt ganska få omdömen, så bilden är inte helt klar ännu. Betyget på 4,2 av 5 är positivt, men Elin rekommenderar att du läser flera omdömen och börjar försiktigt.",
+        question: "Har kundbetygen verifierats?",
+        answer: "Vi har inte verifierat ett aktuellt kundbetyg eller antal recensioner för den exakta varianten. Därför använder vi inte sådana siffror som belägg för kvalitet, hållbarhet eller ett köp.",
       },
       {
         question: "Kan jag göra brynlaminering hemma själv?",
@@ -683,7 +683,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "sorella-brynlaminering-skriv-recension",
     targetKeyword: "brynlaminering hemma kit spretiga bryn",
     metaTitle: "Sorella brynlaminering – kit för hemmabruk | Elins val",
-    metaDescription: "Elin går igenom Sorella brynlamineringskit för hemmabruk: fixerar spretiga bryn uppåt för en fylligare form (4,2 av 5, 119 omdömen) – och varför få omdömen gör bilden osäker.",
+    metaDescription: "Elin går igenom Sorella brynlamineringskit för hemmabruk: fixerar spretiga bryn uppåt för en fylligare form.",
     relatedLinks: [
       {
         href: "/skonhet/brynserum",
@@ -714,7 +714,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Nanobrow brynserum – för ett fylligare uttryck",
     shortBody: "Ett kosmetiskt brynserum som hjälper glesa eller överplockade bryn att se tätare och mer välvårdade ut. Stryks enkelt på med en precisionsborste längs brynlinjen i kvällsrutinen.",
     valueHook: "Brynserum för ett fylligare uttryck",
-    valueStatement: "Nanobrow brynserum är en kosmetisk brynvård för dig som vill att ögonbrynen ska se tätare och mer välvårdade ut. Serumet ramar in brynen och ger ett fylligare, mer samlat uttryck, vilket många uppskattar vid glesa eller överplockade bryn. Det läggs på med en precisionsborste längs brynlinjen och passar fint som ett enkelt steg i kvällsrutinen. Amazon visar 4,0 av 5 från 698 omdömen, där köpare framför allt lyfter det mer välvårdade utseendet och den lättanvända borsten.",
+    valueStatement: "Nanobrow brynserum är en kosmetisk brynvård för dig som vill att ögonbrynen ska se tätare och mer välvårdade ut. Serumet ramar in brynen och ger ett fylligare, mer samlat uttryck, vilket många uppskattar vid glesa eller överplockade bryn. Det läggs på med en precisionsborste längs brynlinjen och passar fint som ett enkelt steg i kvällsrutinen.",
     passFor: [
       "Har glesa eller överplockade bryn och vill ha ett fylligare uttryck.",
       "Vill ha ett enkelt brynsteg med precisionsborste i kvällsrutinen.",
@@ -746,7 +746,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "nanobrow-brynserum-skriv-recension",
     targetKeyword: "brynserum fylligare ögonbryn",
     metaTitle: "Nanobrow brynserum – fylligare ögonbryn-uttryck | Elins val",
-    metaDescription: "Elin går igenom Nanobrow brynserum: ett kosmetiskt brynserum för ett tätare, mer välvårdat uttryck på glesa bryn (4,0 av 5, 698 omdömen) – och vad du bör veta innan du väljer.",
+    metaDescription: "Elin går igenom Nanobrow brynserum: ett kosmetiskt brynserum för ett tätare, mer välvårdat uttryck på glesa bryn – och vad du bör veta innan du väljer.",
     relatedLinks: [
       {
         href: "/skonhet/fransserum",
@@ -777,7 +777,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Xlash fransserum – fylligare fransar i utseendet",
     shortBody: "Ett kosmetiskt fransserum som du applicerar som en tunn linje vid lashlinjen på kvällen. Gjort för fransar som ser fylligare och mer välmående ut, som ett enkelt steg i kvällsrutinen.",
     valueHook: "Kosmetiskt serum för fylligare fransar i utseendet",
-    valueStatement: "Xlash fransserum är ett kosmetiskt serum för dig som vill ge fransarna ett fylligare och mer vårdat utseende. Du applicerar en tunn linje vid lashlinjen på kvällen, som ett enkelt steg i kvällsrutinen för välansade fransar. Amazon visar 4,3 av 5 från 1 305 omdömen, och köpare lyfter framför allt att fransarna ser fylligare och mer välmående ut samt att applikatorn är enkel att använda.",
+    valueStatement: "Xlash fransserum är ett kosmetiskt serum för dig som vill ge fransarna ett fylligare och mer vårdat utseende. Du applicerar en tunn linje vid lashlinjen på kvällen, som ett enkelt steg i kvällsrutinen för välansade fransar.",
     passFor: [
       "Vill ge fransarna ett fylligare, mer vårdat utseende.",
       "Gillar att lägga till ett enkelt kosmetiskt steg i kvällsrutinen.",
@@ -809,7 +809,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "xlash-fransserum-skriv-recension",
     targetKeyword: "fransserum fylligare fransar",
     metaTitle: "Xlash fransserum – fylligare fransar i utseendet | Elins val",
-    metaDescription: "Elin går igenom Xlash fransserum: ett kosmetiskt serum för fransar som ser fylligare och mer vårdade ut (4,3 av 5, 1 305 omdömen) – och hur du applicerar det vid lashlinjen.",
+    metaDescription: "Elin går igenom Xlash fransserum: ett kosmetiskt serum för fransar som ser fylligare och mer vårdade ut – och hur du applicerar det vid lashlinjen.",
     relatedLinks: [
       {
         href: "/skonhet/sminkborstar",
@@ -840,7 +840,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Beurer MP 48 – UV/LED nagellampa för gelnaglar hemma",
     shortBody: "En UV/LED-nagellampa som härdar gellack jämnt hemma. Flera timerlägen gör det enklare att styra härdningen för en mer salongslik manikyr på egen hand.",
     valueHook: "UV/LED-lampa för gelnaglar hemma",
-    valueStatement: "Beurer MP 48 är en UV/LED-nagellampa för dig som vill härda gellack jämnt och göra gelnaglar hemma. Lampan kombinerar UV- och LED-ljus och har flera timerlägen, så att du kan styra härdningen för en mer salongslik manikyr. Amazon visar 4,5 av 5 från 206 omdömen, och köpare lyfter framför allt den jämna härdningen, timerlägena och att den är smidig att använda på egen hand.",
+    valueStatement: "Beurer MP 48 är en UV/LED-nagellampa för dig som vill härda gellack jämnt och göra gelnaglar hemma. Lampan kombinerar UV- och LED-ljus och har flera timerlägen, så att du kan styra härdningen för en mer salongslik manikyr.",
     passFor: [
       "Vill göra gelnaglar hemma och härda gellack jämnt.",
       "Gillar flera timerlägen för att styra härdningen.",
@@ -872,7 +872,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "beurer-mp48-nagellampa-skriv-recension",
     targetKeyword: "uv led nagellampa gelnaglar hemma",
     metaTitle: "Beurer MP 48 UV/LED nagellampa – gelnaglar hemma | Elins val",
-    metaDescription: "Elin går igenom Beurer MP 48: en UV/LED-nagellampa som härdar gellack jämnt hemma med flera timerlägen (4,5 av 5, 206 omdömen) – och vad du bör veta innan köp.",
+    metaDescription: "Elin går igenom Beurer MP 48: en UV/LED-nagellampa som härdar gellack jämnt hemma med flera timerlägen – och vad du bör veta innan köp.",
     relatedLinks: [
       {
         href: "/skonhet/gel-topcoat",
@@ -903,7 +903,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "essie Gel Couture topplack – gel-effekt utan lampa",
     shortBody: "Ett topplack som ger manikyren en gel-liknande glans och hjälper färgen att hålla längre. Läggs som ett sista steg ovanpå ditt vanliga nagellack, helt utan UV-lampa.",
     valueHook: "Gel-look och längre håll utan lampa",
-    valueStatement: "essie Gel Couture topplack är till för dig som vill ha en gel-liknande glans hemma utan att investera i en UV-lampa. Det läggs som ett sista steg ovanpå ditt vanliga nagellack och ger manikyren en blank finish samtidigt som det hjälper färgen att hålla längre. Amazon visar 4,6 av 5 från 1 394 omdömen, och köpare lyfter framför allt den blanka finishen, det längre hållet och hur smidigt det är att använda hemma.",
+    valueStatement: "essie Gel Couture topplack är till för dig som vill ha en gel-liknande glans hemma utan att investera i en UV-lampa. Det läggs som ett sista steg ovanpå ditt vanliga nagellack och ger manikyren en blank finish samtidigt som det hjälper färgen att hålla längre.",
     passFor: [
       "Vill ha en gel-liknande glans på naglarna utan UV-lampa.",
       "Önskar att manikyren håller längre mellan ommålningarna.",
@@ -935,7 +935,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "essie-gel-couture-topcoat-skriv-recension",
     targetKeyword: "gellack hemma utan lampa långhållbart",
     metaTitle: "essie Gel Couture topplack – gel-effekt utan lampa | Elins val",
-    metaDescription: "Elin går igenom essie Gel Couture topplack: gel-liknande glans och längre håll utan UV-lampa (4,6 av 5, 1 394 omdömen) – och hur du lägger det för bästa resultat.",
+    metaDescription: "Elin går igenom essie Gel Couture topplack: gel-liknande glans och längre håll utan UV-lampa – och hur du lägger det för bästa resultat.",
     relatedLinks: [
       {
         href: "/skonhet/nagelvard-set",
@@ -966,7 +966,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Tweezerman glasnagelfil – slät kant utan flis",
     shortBody: "En glasnagelfil som sluter nagelkanten och ger en slät kant utan att naglarna flisar sig. Glasytan håller länge och är enkel att rengöra.",
     valueHook: "Skonsam fil för en slät nagelkant",
-    valueStatement: "Tweezerman glasnagelfil är för dig som vill ha en jämn, slät nagelkant utan att naglarna flisar sig. Glasytan sluter nagelkanten i stället för att riva upp den, vilket gör filningen skonsammare än med en vanlig sandpappersfil. Filen är gjord för att hålla länge och är enkel att rengöra. Amazon visar 4,5 av 5 från 465 omdömen, och köpare lyfter framför allt den släta kanten, att naglarna flisar sig mindre och att glasytan håller.",
+    valueStatement: "Tweezerman glasnagelfil är för dig som vill ha en jämn, slät nagelkant utan att naglarna flisar sig. Glasytan sluter nagelkanten i stället för att riva upp den, vilket gör filningen skonsammare än med en vanlig sandpappersfil. Filen är gjord för att hålla länge och är enkel att rengöra.",
     passFor: [
       "Vill ha en slät nagelkant och slippa naglar som flisar sig.",
       "Söker en skonsam fil i glas i stället för sandpappersfil.",
@@ -998,7 +998,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "glasnagelfil-skriv-recension",
     targetKeyword: "glasnagelfil flisande naglar",
     metaTitle: "Tweezerman glasnagelfil – slät kant utan flis | Elins val",
-    metaDescription: "Elin går igenom Tweezerman glasnagelfil: en skonsam glasfil som sluter nagelkanten och ger en slät kant så naglarna flisar sig mindre (4,5 av 5, 465 omdömen).",
+    metaDescription: "Elin går igenom Tweezerman glasnagelfil: en skonsam glasfil som sluter nagelkanten och ger en slät kant så naglarna flisar sig mindre .",
     relatedLinks: [
       {
         href: "/skonhet/nagelvard-set",
@@ -1029,7 +1029,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "CND SolarOil – vårdande olja för torra nagelband",
     shortBody: "En nagelband- och nagelolja med jojoba och E-vitamin som mjukar upp torra nagelband. Kommer i en smidig penna som är lätt att ha med sig och stryka på direkt.",
     valueHook: "Vårdande olja för torra nagelband",
-    valueStatement: "CND SolarOil är en nagelband- och nagelolja för dig som har torra nagelband och vill ge dem lite extra omvårdnad. Formulan bygger på jojoba och E-vitamin som mjukar upp nagelbanden, och den kommer i en smidig penna som är lätt att ha med sig och stryka på var som helst. Amazon visar 4,6 av 5 från 1 437 omdömen, och köpare lyfter framför allt att nagelbanden känns mjukare, att pennan är smidig och att en liten mängd räcker långt.",
+    valueStatement: "CND SolarOil är en nagelband- och nagelolja för dig som har torra nagelband och vill ge dem lite extra omvårdnad. Formulan bygger på jojoba och E-vitamin som mjukar upp nagelbanden, och den kommer i en smidig penna som är lätt att ha med sig och stryka på var som helst.",
     passFor: [
       "Har torra nagelband och vill mjuka upp dem i vardagen.",
       "Vill ha en smidig penna att stryka på var som helst.",
@@ -1061,7 +1061,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "cnd-nagelbandsolja-skriv-recension",
     targetKeyword: "nagelbandsolja torra nagelband",
     metaTitle: "CND SolarOil nagelbandsolja – mjukar upp torra nagelband | Elins val",
-    metaDescription: "Elin går igenom CND SolarOil: en nagelband- och nagelolja med jojoba och E-vitamin för torra nagelband (4,6 av 5, 1 437 omdömen) – i en smidig penna att ha med sig.",
+    metaDescription: "Elin går igenom CND SolarOil: en nagelband- och nagelolja med jojoba och E-vitamin för torra nagelband – i en smidig penna att ha med sig.",
     relatedLinks: [
       {
         href: "/skonhet/nagelvard-set",
@@ -1092,7 +1092,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "OPI Start-To-Finish – utjämnande baslack för räfflade naglar",
     shortBody: "Ett 3-i-1-baslack som fyller räfflor så att nagelytan blir slätare och lacket lägger sig jämnare. Samma flaska fungerar som bas, topp och stärkande lager.",
     valueHook: "Utjämnande baslack som fyller räfflor",
-    valueStatement: "OPI Start-To-Finish är ett baslack för dig som har räfflade naglar och vill ha en slätare yta innan du lägger nagellack. Lacket fyller räfflorna optiskt så att ytan blir jämnare och nagellacket lägger sig mer slätt ovanpå. Som 3-i-1 fungerar samma flaska dessutom som bas, topp och stärkande lager, vilket gör manikyren enklare. Amazon visar 4,5 av 5 från 1 697 omdömen, och köpare lyfter framför allt den slätare nagelytan och att lacket lägger sig jämnare.",
+    valueStatement: "OPI Start-To-Finish är ett baslack för dig som har räfflade naglar och vill ha en slätare yta innan du lägger nagellack. Lacket fyller räfflorna optiskt så att ytan blir jämnare och nagellacket lägger sig mer slätt ovanpå. Som 3-i-1 fungerar samma flaska dessutom som bas, topp och stärkande lager, vilket gör manikyren enklare.",
     passFor: [
       "Har räfflade naglar och vill ha en slätare yta före nagellack.",
       "Vill ha ett enkelt 3-i-1-lack som är bas, topp och stärkande i ett.",
@@ -1124,7 +1124,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "opi-ridge-filler-skriv-recension",
     targetKeyword: "ridge filler basecoat räfflade naglar",
     metaTitle: "OPI Start-To-Finish 3-in-1 baslack – räfflade naglar | Elins val",
-    metaDescription: "Elin går igenom OPI Start-To-Finish: ett 3-i-1-baslack som fyller räfflor för en slätare nagelyta (4,5 av 5, 1 697 omdömen) – och hur du använder det som bas, topp och stärkande.",
+    metaDescription: "Elin går igenom OPI Start-To-Finish: ett 3-i-1-baslack som fyller räfflor för en slätare nagelyta – och hur du använder det som bas, topp och stärkande.",
     relatedLinks: [
       {
         href: "/skonhet/nagelvard-set",
@@ -1155,7 +1155,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "essie Hard To Resist – stärkande baslack",
     shortBody: "Ett stärkande nagellack för sköra och flisande naglar. Läggs som baslack och hjälper naglarna att kännas hårdare och se slätare ut med tiden, med en lätt textur som är enkel att applicera.",
     valueHook: "Stärkande baslack för sköra naglar",
-    valueStatement: "essie Hard To Resist är ett stärkande nagellack för dig med sköra och flisande naglar som vill ge dem lite extra stöd. Det läggs som baslack under färg eller ensamt, och hjälper naglarna att kännas hårdare och se slätare ut med tiden. Amazon visar 4,4 av 5 från 868 omdömen, och köpare lyfter framför allt att naglarna känns starkare, den lätta texturen och hur fint det fungerar som bas under färg.",
+    valueStatement: "essie Hard To Resist är ett stärkande nagellack för dig med sköra och flisande naglar som vill ge dem lite extra stöd. Det läggs som baslack under färg eller ensamt, och hjälper naglarna att kännas hårdare och se slätare ut med tiden.",
     passFor: [
       "Har sköra, flisande naglar och vill ge dem extra stöd.",
       "Vill ha ett stärkande baslack under färgen i nagelrutinen.",
@@ -1187,7 +1187,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "essie-nagelhardare-skriv-recension",
     targetKeyword: "stärkande nagellack sköra naglar",
     metaTitle: "essie Hard To Resist – stärkande nagellack för sköra naglar | Elins val",
-    metaDescription: "Elin går igenom essie Hard To Resist: ett stärkande baslack för sköra, flisande naglar (4,4 av 5, 868 omdömen) – hårdare och slätare naglar med tiden, och vad du bör veta.",
+    metaDescription: "Elin går igenom essie Hard To Resist: ett stärkande baslack för sköra, flisande naglar – hårdare och slätare naglar med tiden, och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/nagelvard-set",
@@ -1218,7 +1218,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Real Techniques Miracle Complexion Sponge – jämn finish",
     shortBody: "En mjuk sminksvamp i 2-pack för en jämn, naturlig finish av foundation. Gjord för att blanda ut och jämna till makeupen så att den lägger sig fint mot huden.",
     valueHook: "Mjuk svamp för en naturlig finish",
-    valueStatement: "Real Techniques Miracle Complexion Sponge är en mjuk sminksvamp för dig som vill ha en jämn, naturlig finish av foundation. Svampen fuktas innan användning och blandar ut makeupen så att den lägger sig fint mot huden. Att den kommer i 2-pack gör den prisvärd. Köpare beskriver den ofta som mjuk och skön att jobba med, och Amazon visar ett högt snittbetyg från många köpare som lyfter just den jämna finishen.",
+    valueStatement: "Real Techniques Miracle Complexion Sponge är en mjuk sminksvamp för dig som vill ha en jämn, naturlig finish av foundation. Svampen fuktas innan användning och blandar ut makeupen så att den lägger sig fint mot huden. Att den kommer i 2-pack gör den prisvärd. Vi har inte verifierat aktuella kundbetyg eller gjort ett eget jämförande test.",
     passFor: [
       "Vill ha en jämn, naturlig finish av foundation.",
       "Föredrar en mjuk sminksvamp framför borste för basen.",
@@ -1281,7 +1281,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Real Techniques Everyday Essentials – mjuka sminkborstar",
     shortBody: "Ett prisvärt nybörjarset med mjuka sminkborstar och en svamp som täcker grunderna i en vardagsrutin. Gjort för att lägga foundation, puder och rouge enkelt och jämnt.",
     valueHook: "Mjuka borstar till ett bra pris",
-    valueStatement: "Real Techniques Everyday Essentials är ett prisvärt startset för dig som vill komma igång med sminkborstar. Setet innehåller flera mjuka borstar och en svamp som tillsammans täcker grunderna – foundation, puder och rouge – i en vardagsrutin. Borstarna lyfts ofta fram för att vara mjuka och sköna mot huden. Amazon visar 4,7 av 5 från 54446 omdömen, och köpare uppskattar framför allt mjukheten, prisvärdheten och att det fungerar bra för nybörjare.",
+    valueStatement: "Real Techniques Everyday Essentials är ett prisvärt startset för dig som vill komma igång med sminkborstar. Setet innehåller flera mjuka borstar och en svamp som tillsammans täcker grunderna – foundation, puder och rouge – i en vardagsrutin. Borstarna lyfts ofta fram för att vara mjuka och sköna mot huden.",
     passFor: [
       "Vill ha ett prisvärt startset med sminkborstar.",
       "Föredrar mjuka borstar som känns sköna mot huden.",
@@ -1313,7 +1313,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "real-techniques-borstar-skriv-recension",
     targetKeyword: "sminkborstar set",
     metaTitle: "Real Techniques Everyday Essentials – sminkborstar set | Elins val",
-    metaDescription: "Elin går igenom Real Techniques Everyday Essentials: ett prisvärt nybörjarset med mjuka sminkborstar och svamp (4,7 av 5, 54446 omdömen) – och hur du sköter borstarna.",
+    metaDescription: "Elin går igenom Real Techniques Everyday Essentials: ett prisvärt nybörjarset med mjuka sminkborstar och svamp – och hur du sköter borstarna.",
     relatedLinks: [
       {
         href: "/skonhet/sminksvamp",
@@ -1344,7 +1344,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Press-on naglar – Classic Black French",
     shortBody: "Återanvändbara press-on naglar i en Classic Black French-design för en snabb salongslook hemma. Klickas på utan torktid och är enkla att fixa inför en kväll eller ett tillfälle.",
     valueHook: "Snabb salongslook utan torktid",
-    valueStatement: "De här press-on naglarna är ett enkelt sätt att fixa en putsad look hemma. Den klassiska black french-designen ger en salongskänsla, och eftersom naglarna klickas på slipper du torktid. De är dessutom återanvändbara. Amazon visar 4,6 av 5 från 95 omdömen – det är ännu ganska få, så betyget kan röra sig när fler köpare lämnar omdöme, men de som testat lyfter framför allt hur snabbt det går och hur snygg designen är.",
+    valueStatement: "De här press-on naglarna är ett enkelt sätt att fixa en putsad look hemma. Den klassiska black french-designen ger en salongskänsla, och eftersom naglarna klickas på slipper du torktid. De är dessutom återanvändbara.",
     passFor: [
       "Vill ha en snabb salongslook hemma utan torktid.",
       "Gillar en klassisk black french-design.",
@@ -1376,7 +1376,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "press-on-naglar-skriv-recension",
     targetKeyword: "press on naglar",
     metaTitle: "Press-on naglar Classic Black French – salongslook hemma | Elins val",
-    metaDescription: "Elin går igenom press-on naglar i Classic Black French: återanvändbara lösnaglar för en snabb salongslook hemma (4,6 av 5, 95 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom press-on naglar i Classic Black French: återanvändbara lösnaglar för en snabb salongslook hemma – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/nagelvard-set",
@@ -1407,7 +1407,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Beurer MP 62 – elektriskt mani- och pedikyrset",
     shortBody: "Ett elektriskt nagelvård-set med flera utbytbara sliphuvuden för naglar och förhårdnader. Gör det enkelt att fila, forma och putsa naglar hemma, både på händer och fötter.",
     valueHook: "Flera sliphuvuden för naglar och fötter",
-    valueStatement: "Beurer MP 62 är ett elektriskt mani- och pedikyrset för dig som vill sköta naglarna hemma. Med flera utbytbara sliphuvuden kan du fila, forma och putsa naglar och jobba med förhårdnader på fötterna. Det är ett praktiskt allt-i-ett-set som gör det enkelt att hålla naglarna i ordning. Amazon visar 4,5 av 5 från 16304 omdömen, och köpare lyfter framför allt bredden av sliphuvuden och hur enkelt det är att använda hemma.",
+    valueStatement: "Beurer MP 62 är ett elektriskt mani- och pedikyrset för dig som vill sköta naglarna hemma. Med flera utbytbara sliphuvuden kan du fila, forma och putsa naglar och jobba med förhårdnader på fötterna. Det är ett praktiskt allt-i-ett-set som gör det enkelt att hålla naglarna i ordning.",
     passFor: [
       "Vill sköta mani och pedi hemma utan salongsbesök.",
       "Föredrar ett elektriskt set med flera sliphuvuden.",
@@ -1439,7 +1439,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "beurer-nagelvard-set-skriv-recension",
     targetKeyword: "elektrisk nagelvård-set",
     metaTitle: "Beurer MP 62 mani- & pedikyrset – elektrisk nagelvård | Elins val",
-    metaDescription: "Elin går igenom Beurer MP 62: ett elektriskt mani- och pedikyrset med flera sliphuvuden för naglar och förhårdnader (4,5 av 5, 16304 omdömen) – och hur du använder det rätt.",
+    metaDescription: "Elin går igenom Beurer MP 62: ett elektriskt mani- och pedikyrset med flera sliphuvuden för naglar och förhårdnader – och hur du använder det rätt.",
     relatedLinks: [
       {
         href: "/skonhet/elektrisk-fotfil",
@@ -1470,7 +1470,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Flexitol Heel Balm – rik hälkräm med 25% urea",
     shortBody: "En rik fotkräm med 25% urea som mjukgör mycket torra, strävа hälar. Kosmetisk fotvård som hjälper huden att kännas mjukare och slätare med daglig användning.",
     valueHook: "25% urea för mjukare hälar",
-    valueStatement: "Flexitol Heel Balm är en rik hälkräm för dig som har mycket torra och strävа hälar. Formulan bygger på 25% urea, en omtyckt kosmetisk ingrediens som hjälper huden att hålla kvar fukt och kännas mjukare. Det här är kosmetisk fotvård för hudens komfort, inte en behandling – krämen smörjer in och mjukgör. Amazon visar 4,6 av 5 från 818 omdömen, och köpare lyfter framför allt att hälarna känns slätare och mjukare med tiden.",
+    valueStatement: "Flexitol Heel Balm är en rik hälkräm för dig som har mycket torra och strävа hälar. Formulan bygger på 25% urea, en omtyckt kosmetisk ingrediens som hjälper huden att hålla kvar fukt och kännas mjukare. Det här är kosmetisk fotvård för hudens komfort, inte en behandling – krämen smörjer in och mjukgör.",
     passFor: [
       "Har mycket torra, strävа hälar och vill mjukgöra huden.",
       "Vill ha en rik fotkräm för daglig kvällsrutin.",
@@ -1502,7 +1502,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "flexitol-halkram-skriv-recension",
     targetKeyword: "hälkräm spruckna hälar",
     metaTitle: "Flexitol Heel Balm 25% Urea – hälkräm för torra hälar | Elins val",
-    metaDescription: "Elin går igenom Flexitol Heel Balm: en rik hälkräm med 25% urea som mjukgör mycket torra, strävа hälar (4,6 av 5, 818 omdömen) – och hur du använder den rätt.",
+    metaDescription: "Elin går igenom Flexitol Heel Balm: en rik hälkräm med 25% urea som mjukgör mycket torra, strävа hälar – och hur du använder den rätt.",
     relatedLinks: [
       {
         href: "/skonhet/elektrisk-fotfil",
@@ -1533,7 +1533,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Plantifique Peach Foot Exfoliation Mask – silkeslena fötter",
     shortBody: "En exfolierande fotmask i sockform som mjukgör torr, sträv hud och ger silkeslena fötter. Kosmetisk fotvård där gammal, sträv hud lossnar gradvis för en len känsla.",
     valueHook: "Foot peel för silkeslena fötter",
-    valueStatement: "Plantifique Peach Foot Exfoliation Mask är en foot peel för dig som vill mjukgöra torr, sträv hud och få silkeslena fötter. Du har masken på som ett par sockor en stund, och under de följande dagarna lossnar gammal, sträv hud gradvis tills fötterna känns lena och mjuka. Det här är kosmetisk fotvård för utseende och känsla, inte någon behandling som läker. Amazon visar 4,4 av 5 från 31300 omdömen, och köpare lyfter framför allt hur lena fötterna blir, den enkla användningen och den behagliga persikodoften.",
+    valueStatement: "Plantifique Peach Foot Exfoliation Mask är en foot peel för dig som vill mjukgöra torr, sträv hud och få silkeslena fötter. Du har masken på som ett par sockor en stund, och under de följande dagarna lossnar gammal, sträv hud gradvis tills fötterna känns lena och mjuka. Det här är kosmetisk fotvård för utseende och känsla, inte någon behandling som läker.",
     passFor: [
       "Vill mjukgöra torr, sträv hud och få lena fötter.",
       "Söker en enkel kosmetisk fotvård att göra hemma.",
@@ -1565,7 +1565,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "plantifique-foot-peel-skriv-recension",
     targetKeyword: "foot peel mask",
     metaTitle: "Plantifique Peach Foot Peel Mask – silkeslena fötter | Elins val",
-    metaDescription: "Elin går igenom Plantifique Peach Foot Exfoliation Mask: en foot peel som mjukgör torr, sträv hud och ger lena fötter (4,4 av 5, 31300 omdömen) – så funkar den.",
+    metaDescription: "Elin går igenom Plantifique Peach Foot Exfoliation Mask: en foot peel som mjukgör torr, sträv hud och ger lena fötter – så funkar den.",
     relatedLinks: [
       {
         href: "/skonhet/elektrisk-fotfil",
@@ -1596,7 +1596,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Philips Facial Hair Remover 5000 Series – slät hud i ansiktet",
     shortBody: "En skonsam ansiktstrimmer som tar bort fjun snabbt och enkelt. Smidig att använda hemma för en slätare hud i ansiktet och en len känsla, fin inför makeup.",
     valueHook: "Skonsam ansiktstrimmer för fjun",
-    valueStatement: "Philips Facial Hair Remover 5000 Series är en ansiktstrimmer för dig som snabbt och enkelt vill ta bort fjun i ansiktet. Den är skonsam mot huden och smidig att hantera hemma, vilket ger en slätare yta och en len känsla – många använder den inför makeup för ett jämnare resultat. Amazon visar 4,3 av 5 från 997 omdömen, och köpare lyfter framför allt hur snabbt den tar fjun, att den känns skonsam och hur enkel den är att använda.",
+    valueStatement: "Philips Facial Hair Remover 5000 Series är en ansiktstrimmer för dig som snabbt och enkelt vill ta bort fjun i ansiktet. Den är skonsam mot huden och smidig att hantera hemma, vilket ger en slätare yta och en len känsla – många använder den inför makeup för ett jämnare resultat.",
     passFor: [
       "Vill ta bort fjun i ansiktet snabbt och enkelt hemma.",
       "Söker en skonsam trimmer för en slätare hud.",
@@ -1628,7 +1628,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "philips-ansiktstrimmer-skriv-recension",
     targetKeyword: "ansiktstrimmer dam",
     metaTitle: "Philips Facial Hair Remover 5000 – ansiktstrimmer | Elins val",
-    metaDescription: "Elin går igenom Philips Facial Hair Remover 5000 Series: en skonsam ansiktstrimmer som tar bort fjun snabbt och enkelt (4,3 av 5, 997 omdömen) – slät hud hemma.",
+    metaDescription: "Elin går igenom Philips Facial Hair Remover 5000 Series: en skonsam ansiktstrimmer som tar bort fjun snabbt och enkelt – slät hud hemma.",
     relatedLinks: [
       {
         href: "/skonhet/epilator",
@@ -1659,7 +1659,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Braun Silk-expert Pro 5 IPL – mindre hårväxt över tid",
     shortBody: "En IPL för hårborttagning hemma som med regelbunden användning ger synligt mindre hårväxt över tid. Du behandlar i lugn och ro på egen hand, för en slätare känsla på behandlade områden.",
     valueHook: "IPL för hårborttagning hemma",
-    valueStatement: "Braun Silk-expert Pro 5 IPL är till för dig som vill sköta hårborttagning hemma och få synligt mindre hårväxt över tid. Med regelbunden användning under flera veckor upplever många att håret växer tillbaka glesare, vilket ger en slätare känsla på behandlade områden. Det handlar om utseende och bekvämlighet, inte om någon permanent eller medicinsk effekt. Amazon visar 4,3 av 5 från 1586 omdömen, och köpare lyfter framför allt mindre hårväxt, hur smidig den är att använda hemma och de olika intensitetslägena.",
+    valueStatement: "Braun Silk-expert Pro 5 IPL är till för dig som vill sköta hårborttagning hemma och få synligt mindre hårväxt över tid. Med regelbunden användning under flera veckor upplever många att håret växer tillbaka glesare, vilket ger en slätare känsla på behandlade områden. Det handlar om utseende och bekvämlighet, inte om någon permanent eller medicinsk effekt.",
     passFor: [
       "Vill sköta hårborttagning hemma i lugn och ro.",
       "Söker synligt mindre hårväxt över tid på ben och kropp.",
@@ -1691,7 +1691,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "braun-ipl-pro5-skriv-recension",
     targetKeyword: "IPL hårborttagning hemma",
     metaTitle: "Braun Silk-expert Pro 5 IPL – hårborttagning hemma | Elins val",
-    metaDescription: "Elin går igenom Braun Silk-expert Pro 5 IPL: hårborttagning hemma med synligt mindre hårväxt över tid (4,3 av 5, 1586 omdömen) – och vad du bör veta först.",
+    metaDescription: "Elin går igenom Braun Silk-expert Pro 5 IPL: hårborttagning hemma med synligt mindre hårväxt över tid – och vad du bör veta först.",
     relatedLinks: [
       {
         href: "/skonhet/epilator",
@@ -1722,7 +1722,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Philips Lady Shaver Series 8000 – slät hud hemma",
     shortBody: "En våt/torr rakapparat för slät hud på ben och kropp. Den fungerar både torrt och i duschen med raklödder, vilket gör hårborttagning hemma snabb och smidig utan rakhyvel.",
     valueHook: "Våt/torr rakapparat för slät hud",
-    valueStatement: "Philips Lady Shaver Series 8000 är en rakapparat för dig som vill ha slät hud på ben och kropp på ett smidigt sätt hemma. Den kan användas både torrt och vått i duschen med raklödder, vilket gör rakningen snabb och skonsam. Sladdlös och enkel att hantera passar den fint i vardagsrutinen. Amazon visar 4,4 av 5 från 479 omdömen, och köpare lyfter framför allt den släta känslan, flexibiliteten våt/torr och hur enkel den är att använda.",
+    valueStatement: "Philips Lady Shaver Series 8000 är en rakapparat för dig som vill ha slät hud på ben och kropp på ett smidigt sätt hemma. Den kan användas både torrt och vått i duschen med raklödder, vilket gör rakningen snabb och skonsam. Sladdlös och enkel att hantera passar den fint i vardagsrutinen.",
     passFor: [
       "Vill ha slät hud på ben och kropp snabbt hemma.",
       "Föredrar en rakapparat som fungerar både torrt och i duschen.",
@@ -1754,7 +1754,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "philips-rakapparat-dam-skriv-recension",
     targetKeyword: "rakapparat dam",
     metaTitle: "Philips Lady Shaver Series 8000 – slät hud hemma | Elins val",
-    metaDescription: "Elin går igenom Philips Lady Shaver Series 8000: en våt/torr rakapparat för slät hud på ben och kropp (4,4 av 5, 479 omdömen) – smidig hårborttagning hemma.",
+    metaDescription: "Elin går igenom Philips Lady Shaver Series 8000: en våt/torr rakapparat för slät hud på ben och kropp – smidig hårborttagning hemma.",
     relatedLinks: [
       {
         href: "/skonhet/epilator",
@@ -1785,7 +1785,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Tree Hut Vanilla Shea Sugar Scrub – len och slät hud",
     shortBody: "En sockerskrubb med sheasmör som exfolierar bort torr, sträv hud och mjukgör kroppen. Ett mysigt steg i duschen som gör huden len – och en favorit innan brun-utan-sol.",
     valueHook: "Sockerskrubb för len och slät kropp",
-    valueStatement: "Tree Hut Vanilla Shea Sugar Scrub är en sockerskrubb för dig som vill ha en len och mjuk kropp. Sockerkornen putsar mjukt bort torr, sträv hud medan sheasmöret återfuktar, vilket lämnar huden slät och mjuk. Många använder den som ett förberedande steg innan brun-utan-sol för ett jämnare resultat. Amazon visar 4,7 av 5 från 6379 omdömen, och köpare lyfter framför allt den lena känslan, vaniljdoften och hur mjuk huden blir.",
+    valueStatement: "Tree Hut Vanilla Shea Sugar Scrub är en sockerskrubb för dig som vill ha en len och mjuk kropp. Sockerkornen putsar mjukt bort torr, sträv hud medan sheasmöret återfuktar, vilket lämnar huden slät och mjuk. Många använder den som ett förberedande steg innan brun-utan-sol för ett jämnare resultat.",
     passFor: [
       "Vill exfoliera bort torr, sträv hud och få kroppen len.",
       "Förbereder huden innan brun-utan-sol för ett jämnare resultat.",
@@ -1817,7 +1817,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "tree-hut-kroppsskrubb-skriv-recension",
     targetKeyword: "kroppsskrubb sockerskrubb",
     metaTitle: "Tree Hut Vanilla Shea Sugar Scrub – len & slät hud | Elins val",
-    metaDescription: "Elin går igenom Tree Hut Vanilla Shea Sugar Scrub: en sockerskrubb med sheasmör som mjukgör kroppen (4,7 av 5, 6379 omdömen) – och varför den är fin innan brun-utan-sol.",
+    metaDescription: "Elin går igenom Tree Hut Vanilla Shea Sugar Scrub: en sockerskrubb med sheasmör som mjukgör kroppen – och varför den är fin innan brun-utan-sol.",
     relatedLinks: [
       {
         href: "/skonhet/elektrisk-fotfil",
@@ -1848,7 +1848,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Bondi Sands appliceringsvante – jämn brun-utan-sol",
     shortBody: "En återanvändbar vante som fördelar mousse och lotion jämnt över huden. Gjord för en fläckfri applicering utan ränder – och håller handflatorna fria från färg.",
     valueHook: "Vanten för jämn, fläckfri brun-utan-sol",
-    valueStatement: "Bondi Sands Self Tan Application Mitt är en återanvändbar appliceringsvante för dig som vill lägga brun-utan-sol jämnt och slippa färgade handflator. Den mjuka ytan fördelar mousse och lotion smidigt över kroppen, vilket gör det enklare att undvika ränder och fläckar – särskilt på knän, armbågar och vrister. Amazon visar 4,7 av 5 från 21 143 omdömen, och köpare lyfter framför allt den jämna appliceringen, att produkten glider på smidigt och att handflatorna hålls rena.",
+    valueStatement: "Bondi Sands Self Tan Application Mitt är en återanvändbar appliceringsvante för dig som vill lägga brun-utan-sol jämnt och slippa färgade handflator. Den mjuka ytan fördelar mousse och lotion smidigt över kroppen, vilket gör det enklare att undvika ränder och fläckar – särskilt på knän, armbågar och vrister.",
     passFor: [
       "Vill lägga brun-utan-sol jämnt utan ränder och fläckar.",
       "Vill slippa färgade handflator vid appliceringen.",
@@ -1880,7 +1880,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "bondi-sands-vante-skriv-recension",
     targetKeyword: "brun-utan-sol-vante",
     metaTitle: "Bondi Sands appliceringsvante – jämn brun-utan-sol | Elins val",
-    metaDescription: "Elin jämför Bondi Sands Self Tan Application Mitt: en återanvändbar vante för jämn, fläckfri brun-utan-sol (4,7 av 5, 21 143 omdömen) – och hur du använder den rätt.",
+    metaDescription: "Elin jämför Bondi Sands Self Tan Application Mitt: en återanvändbar vante för jämn, fläckfri brun-utan-sol – och hur du använder den rätt.",
     relatedLinks: [
       {
         href: "/skonhet/brun-utan-sol-mousse",
@@ -1911,7 +1911,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Tanologist Self Tan Drops Dark – tanning drops",
     shortBody: "Självbrunande droppar som du blandar i din vanliga fuktkräm. Gjort för en gradvis, naturlig färg där du själv styr hur mörk glowen blir genom antalet droppar.",
     valueHook: "Tanning drops för en gradvis, naturlig färg",
-    valueStatement: "Tanologist Self Tan Drops Dark är självbrunande droppar för dig som vill ha en naturlig glow utan sol. Du blandar dropparna i din egen fuktkräm och doserar själv hur mörk färgen blir, vilket gör det enkelt att bygga upp färgen steg för steg i din egen takt. Amazon visar 4,3 av 5 från 2 150 omdömen, och köpare lyfter framför allt den gradvisa, naturliga färgen och hur smidigt det är att blanda dropparna i fuktkrämen.",
+    valueStatement: "Tanologist Self Tan Drops Dark är självbrunande droppar för dig som vill ha en naturlig glow utan sol. Du blandar dropparna i din egen fuktkräm och doserar själv hur mörk färgen blir, vilket gör det enkelt att bygga upp färgen steg för steg i din egen takt.",
     passFor: [
       "Vill bygga en gradvis, naturlig färg i din egen takt.",
       "Gillar att blanda självbruna i din vanliga fuktkräm.",
@@ -1943,7 +1943,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "tanologist-tan-drops-skriv-recension",
     targetKeyword: "tanning drops ansikte",
     metaTitle: "Tanologist Self Tan Drops Dark – tanning drops | Elins val",
-    metaDescription: "Elin går igenom Tanologist Self Tan Drops Dark: självbrunande droppar som blandas i fuktkrämen för en gradvis, naturlig färg (4,3 av 5, 2 150 omdömen).",
+    metaDescription: "Elin går igenom Tanologist Self Tan Drops Dark: självbrunande droppar som blandas i fuktkrämen för en gradvis, naturlig färg .",
     relatedLinks: [
       {
         href: "/skonhet/bronzing-drops",
@@ -1974,7 +1974,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Bondi Sands Ultra Dark – djup färg utan sol",
     shortBody: "En självbrunande mousse i Ultra Dark som ger en djup, jämn färg utan sol. Läggs på med handske för en bronzad look hela året. Tänk på att en brun utan sol-mousse ger färg och inte solskydd.",
     valueHook: "Brun utan sol med djup, jämn färg",
-    valueStatement: "Bondi Sands Self Tanning Foam Ultra Dark är en självbrunande mousse för dig som vill ha en djup, jämn färg utan sol. Moussen fördelas enkelt med handske och bygger upp en bronzad look över några timmar, vilket gör det lätt att styra hur mörk färgen blir. Amazon visar 4,3 av 5 från 533 omdömen, och köpare lyfter framför allt den jämna färgen, den lätta moussen och att resultatet håller i flera dagar. Bra att veta: en brun utan sol-mousse ger färg, inte solskydd – så ute i solen behöver du fortfarande ditt vanliga solskydd.",
+    valueStatement: "Bondi Sands Self Tanning Foam Ultra Dark är en självbrunande mousse för dig som vill ha en djup, jämn färg utan sol. Moussen fördelas enkelt med handske och bygger upp en bronzad look över några timmar, vilket gör det lätt att styra hur mörk färgen blir. Bra att veta: en brun utan sol-mousse ger färg, inte solskydd – så ute i solen behöver du fortfarande ditt vanliga solskydd.",
     passFor: [
       "Vill ha en djup, jämn färg utan att vara i solen.",
       "Gillar en mousse som är enkel att fördela med handske.",
@@ -2006,7 +2006,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "bondi-sands-mousse-skriv-recension",
     targetKeyword: "brun utan sol mousse",
     metaTitle: "Bondi Sands Ultra Dark – brun utan sol-mousse | Elins val",
-    metaDescription: "Elin går igenom Bondi Sands Self Tanning Foam Ultra Dark: en självbrunande mousse för en djup, jämn färg utan sol (4,3 av 5, 533 omdömen) – och varför färg inte är samma sak som solskydd.",
+    metaDescription: "Elin går igenom Bondi Sands Self Tanning Foam Ultra Dark: en självbrunande mousse för en djup, jämn färg utan sol – och varför färg inte är samma sak som solskydd.",
     relatedLinks: [
       {
         href: "/skonhet/sommarglow-utan-sol",
@@ -2037,7 +2037,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Candure frisörsax – putsa lugg och toppar hemma",
     shortBody: "En vass frisörsax i rostfritt stål med skarp egg och stadigt grepp. Gjord för att ta små, jämna klipp på lugg och toppar mellan frisörbesöken.",
     valueHook: "Frisörsax för att putsa lugg och toppar hemma",
-    valueStatement: "Candure frisörsax i rostfritt stål är ett verktyg för dig som vill putsa lugg och toppar själv mellan klippningarna. Den vassa eggen och det stadiga greppet gör det lättare att ta små, kontrollerade klipp utan att slita i håret. Amazon visar 4,6 av 5 från 19465 omdömen, och köpare lyfter framför allt hur vass saxen är och att den känns enkel att klippa med hemma.",
+    valueStatement: "Candure frisörsax i rostfritt stål är ett verktyg för dig som vill putsa lugg och toppar själv mellan klippningarna. Den vassa eggen och det stadiga greppet gör det lättare att ta små, kontrollerade klipp utan att slita i håret.",
     passFor: [
       "Vill putsa lugg och toppar själv mellan frisörbesöken.",
       "Letar efter en vass sax i rostfritt stål med bra grepp.",
@@ -2069,7 +2069,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "candure-frisorsax-skriv-recension",
     targetKeyword: "frisörsax klippa lugg",
     metaTitle: "Candure frisörsax i rostfritt stål – putsa lugg hemma | Elins val",
-    metaDescription: "Elin går igenom Candure frisörsax i rostfritt stål: en vass sax för att putsa lugg och toppar hemma (4,6 av 5, 19465 omdömen) – och hur du klipper kontrollerat.",
+    metaDescription: "Elin går igenom Candure frisörsax i rostfritt stål: en vass sax för att putsa lugg och toppar hemma – och hur du klipper kontrollerat.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2100,7 +2100,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Maria Nila Texture Spray – matt volym och beach waves",
     shortBody: "En texturspray av salt spray-typ som bygger struktur och grepp i håret. Gjord för matt volym och en avslappnad beach waves-känsla, med ett veganskt innehåll.",
     valueHook: "Texturspray för matt volym och beach waves",
-    valueStatement: "Maria Nila Texture Spray är en salt spray-baserad texturspray för dig som vill ha matt volym och en avslappnad, ostylad look. Den bygger struktur och grepp i håret så att slingor och lugg håller formen och får en beach waves-känsla. Innehållet är veganskt. Amazon visar 4,3 av 5 från 84 omdömen, ett ännu lågt antal, men köpare lyfter framför allt den matta volymen och den enkla dimman.",
+    valueStatement: "Maria Nila Texture Spray är en salt spray-baserad texturspray för dig som vill ha matt volym och en avslappnad, ostylad look. Den bygger struktur och grepp i håret så att slingor och lugg håller formen och får en beach waves-känsla. Innehållet är veganskt.",
     passFor: [
       "Vill ha matt volym och grepp i håret utan tunga produkter.",
       "Gillar en avslappnad beach waves-känsla i vardagen.",
@@ -2132,7 +2132,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "maria-nila-texturspray-skriv-recension",
     targetKeyword: "texturspray salt spray",
     metaTitle: "Maria Nila Texture Spray – matt volym & beach waves | Elins val",
-    metaDescription: "Elin går igenom Maria Nila Texture Spray: en vegansk salt spray för matt volym och beach waves-känsla (4,3 av 5, 84 omdömen) – och vad du bör veta innan du stylar.",
+    metaDescription: "Elin går igenom Maria Nila Texture Spray: en vegansk salt spray för matt volym och beach waves-känsla – och vad du bör veta innan du stylar.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2163,7 +2163,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Got2b Glued – extra stark hårspray",
     shortBody: "En extra stark hårspray för styling som håller hela dagen. Lås fast frisyren med ett stadigt grepp, perfekt för slick-looks och styling som ska hålla formen länge.",
     valueHook: "Extra stark spray som håller",
-    valueStatement: "Got2b Glued hårspray är en extra stark spray för dig som vill att frisyren ska sitta hela dagen. Den ger ett stadigt grepp som låser formen, vilket gör den populär för slick-looks och styling som ska hålla länge. Amazon visar 4,6 av 5 från 10603 omdömen, och köpare lyfter framför allt det starka greppet, hållbarheten genom dagen och hur väl den låser formen.",
+    valueStatement: "Got2b Glued hårspray är en extra stark spray för dig som vill att frisyren ska sitta hela dagen. Den ger ett stadigt grepp som låser formen, vilket gör den populär för slick-looks och styling som ska hålla länge.",
     passFor: [
       "Vill att frisyren ska hålla formen hela dagen.",
       "Söker en extra stark spray för slick-looks.",
@@ -2195,7 +2195,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "got2b-glued-harspray-skriv-recension",
     targetKeyword: "hårspray stark hållbarhet",
     metaTitle: "Got2b Glued hårspray – extra stark hållbarhet | Elins val",
-    metaDescription: "Elin går igenom Got2b Glued hårspray: extra stark spray för styling som håller hela dagen (4,6 av 5, 10603 omdömen) – och vad du bör veta om den starka fixeringen.",
+    metaDescription: "Elin går igenom Got2b Glued hårspray: extra stark spray för styling som håller hela dagen – och vad du bör veta om den starka fixeringen.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2226,7 +2226,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Wella EIMI – volym och fyllighet",
     shortBody: "En volymmousse som arbetas in i fuktigt hår för fyllighet och hållbar styling. Ger plattare hår mer lyft och en fylligare look som håller genom dagen.",
     valueHook: "Volymmousse för fyllighet",
-    valueStatement: "Wella EIMI Extra Volume Mousse är en volymmousse för dig som vill ge håret mer fyllighet och lyft. Den arbetas in i fuktigt hår före föningen och bygger volym med en hållbar styling som håller genom dagen. Amazon visar 4,5 av 5 från 2986 omdömen, och köpare lyfter framför allt den ökade volymen, hållbarheten och att moussen ger lyft utan att kännas tung.",
+    valueStatement: "Wella EIMI Extra Volume Mousse är en volymmousse för dig som vill ge håret mer fyllighet och lyft. Den arbetas in i fuktigt hår före föningen och bygger volym med en hållbar styling som håller genom dagen.",
     passFor: [
       "Vill ge plattare hår mer volym och fyllighet.",
       "Söker en hållbar styling som håller genom dagen.",
@@ -2258,7 +2258,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "wella-eimi-mousse-skriv-recension",
     targetKeyword: "hårmousse volym",
     metaTitle: "Wella EIMI Extra Volume Mousse – volym & fyllighet | Elins val",
-    metaDescription: "Elin går igenom Wella EIMI Extra Volume Mousse: volymmousse för fyllighet och hållbar styling (4,5 av 5, 2986 omdömen) – och vad du bör veta om doseringen.",
+    metaDescription: "Elin går igenom Wella EIMI Extra Volume Mousse: volymmousse för fyllighet och hållbar styling – och vad du bör veta om doseringen.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2289,7 +2289,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "OSiS+ Dust It – snabb rotvolym",
     shortBody: "Ett matt volympuder som ströas i rötterna för snabb rotvolym och grepp. Ger fyllighet och en mattare finish, perfekt för dig som vill ge plattare hår mer lyft.",
     valueHook: "Matt puder för snabb rotvolym",
-    valueStatement: "Schwarzkopf OSiS+ Dust It är ett volympuder för dig som vill ge håret snabb rotvolym utan tunga produkter. Pudret ströas i rötterna och ger grepp och fyllighet med en matt finish som ser naturlig ut. Amazon visar 4,4 av 5 från 1256 omdömen, och köpare lyfter framför allt den snabba rotvolymen, greppet och hur lite produkt som behövs.",
+    valueStatement: "Schwarzkopf OSiS+ Dust It är ett volympuder för dig som vill ge håret snabb rotvolym utan tunga produkter. Pudret ströas i rötterna och ger grepp och fyllighet med en matt finish som ser naturlig ut.",
     passFor: [
       "Vill ge plattare hår snabb rotvolym i rötterna.",
       "Söker grepp och fyllighet inför styling.",
@@ -2321,7 +2321,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "osis-volympuder-skriv-recension",
     targetKeyword: "volympuder rötter",
     metaTitle: "Schwarzkopf OSiS+ Dust It – volympuder för rötter | Elins val",
-    metaDescription: "Elin går igenom Schwarzkopf OSiS+ Dust It: matt volympuder som ger snabb rotvolym och grepp (4,4 av 5, 1256 omdömen) – och vad du bör veta om doseringen.",
+    metaDescription: "Elin går igenom Schwarzkopf OSiS+ Dust It: matt volympuder som ger snabb rotvolym och grepp – och vad du bör veta om doseringen.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2352,7 +2352,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Denman D3 – klassiker för lockdefinition",
     shortBody: "En klassisk stylingborste med 7 rader, populär för lockdefinition och utredning. Ett välkänt verktyg för dig som vill forma och definiera lockigt hår i den dagliga rutinen.",
     valueHook: "Klassisk styler för lockdefinition",
-    valueStatement: "Denman D3 Original Styler är en stylingborste för dig som vill forma och definiera lockigt hår. Med 7 rader ger den bra grepp om håret, vilket gör den populär både för lockdefinition och för att reda ut. Amazon visar 4,6 av 5 från 59551 omdömen, och köpare lyfter framför allt den tydligare lockdefinitionen, det stadiga greppet och statusen som klassiker i lockcommunityt.",
+    valueStatement: "Denman D3 Original Styler är en stylingborste för dig som vill forma och definiera lockigt hår. Med 7 rader ger den bra grepp om håret, vilket gör den populär både för lockdefinition och för att reda ut.",
     passFor: [
       "Vill forma och definiera lockigt hår i rutinen.",
       "Söker en klassisk stylingborste med stadigt grepp.",
@@ -2384,7 +2384,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "denman-d3-borste-skriv-recension",
     targetKeyword: "paddelborste lockigt hår",
     metaTitle: "Denman D3 Original Styler – borste för lockigt hår | Elins val",
-    metaDescription: "Elin går igenom Denman D3 Original Styler: klassisk stylingborste med 7 rader för lockdefinition och utredning (4,6 av 5, 59551 omdömen) – och vad du bör veta om tekniken.",
+    metaDescription: "Elin går igenom Denman D3 Original Styler: klassisk stylingborste med 7 rader för lockdefinition och utredning – och vad du bör veta om tekniken.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2415,7 +2415,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Wet Brush Original – reder ut tovor skonsamt",
     shortBody: "En utredningsborste med flexibla borst som glider genom håret och reder ut tovor med mindre drag. Fungerar på både blött och torrt hår och passar fint i den dagliga rutinen.",
     valueHook: "Reder ut tovor med mindre drag",
-    valueStatement: "Wet Brush Original Detangler är en utredningsborste för dig som vill borsta ut tovor skonsamt utan onödigt drag. De flexibla borsten ger efter och glider genom håret, vilket gör den behaglig att använda på både blött och torrt hår. Amazon visar 4,7 av 5 från 23433 omdömen, och köpare lyfter framför allt det mindre draget, mångsidigheten och hur mjukt borsten tar sig genom trassligt hår.",
+    valueStatement: "Wet Brush Original Detangler är en utredningsborste för dig som vill borsta ut tovor skonsamt utan onödigt drag. De flexibla borsten ger efter och glider genom håret, vilket gör den behaglig att använda på både blött och torrt hår.",
     passFor: [
       "Vill reda ut tovor med mindre drag i den dagliga rutinen.",
       "Borstar håret både blött efter dusch och torrt.",
@@ -2447,7 +2447,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "wet-brush-original-skriv-recension",
     targetKeyword: "wet brush utredningsborste",
     metaTitle: "Wet Brush Original Detangler – utredningsborste | Elins val",
-    metaDescription: "Elin går igenom Wet Brush Original Detangler: flexibla borst som reder ut tovor skonsamt på blött och torrt hår (4,7 av 5, 23433 omdömen) – och vad du bör veta om mindre drag.",
+    metaDescription: "Elin går igenom Wet Brush Original Detangler: flexibla borst som reder ut tovor skonsamt på blött och torrt hår – och vad du bör veta om mindre drag.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2478,7 +2478,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Kitsch Jumbo Claw Clips – stadigt grepp för tjockt hår",
     shortBody: "Stora kloklämmor i 2-pack, gjorda för att hålla upp tjockt och rikligt hår. Jumbo-storleken ger ett rejält grepp för en uppsatt look som sitter, från vardag till lite finare.",
     valueHook: "Jumbo-klämmor som håller tjockt hår på plats",
-    valueStatement: "Kitsch Jumbo Claw Clips är ett 2-pack stora kloklämmor för dig som har tjockt eller rikligt hår och vill ha ett stadigt grepp. Jumbo-storleken rymmer mycket hår och håller upp en knut snyggt under dagen, oavsett om du vill ha en avslappnad vardagslook eller något mer uppsatt. Amazon visar 4,5 av 5 från 850 omdömen, och köpare lyfter framför allt det stadiga greppet, den rejäla storleken och att de håller håret på plats utan att glida.",
+    valueStatement: "Kitsch Jumbo Claw Clips är ett 2-pack stora kloklämmor för dig som har tjockt eller rikligt hår och vill ha ett stadigt grepp. Jumbo-storleken rymmer mycket hår och håller upp en knut snyggt under dagen, oavsett om du vill ha en avslappnad vardagslook eller något mer uppsatt.",
     passFor: [
       "Har tjockt eller rikligt hår och vill ha ett stadigt grepp.",
       "Vill kunna sätta upp håret snabbt i en knut som sitter.",
@@ -2510,7 +2510,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "kitsch-claw-clips-skriv-recension",
     targetKeyword: "claw clips stora hårklämmor",
     metaTitle: "Kitsch Jumbo Claw Clips (2-pack) – stora hårklämmor | Elins val",
-    metaDescription: "Elin går igenom Kitsch Jumbo Claw Clips: stora kloklämmor i 2-pack som håller upp tjockt hår stadigt och snyggt (4,5 av 5, 850 omdömen) – och vad du bör veta före köp.",
+    metaDescription: "Elin går igenom Kitsch Jumbo Claw Clips: stora kloklämmor i 2-pack som håller upp tjockt hår stadigt och snyggt – och vad du bör veta före köp.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2541,7 +2541,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Kitsch Heatless Curls – lockar utan värme",
     shortBody: "Ett satinband som lockar håret medan du sover. Du lindar håret runt bandet på kvällen och vaknar till mjuka lockar – helt utan locktång och utan värme, så att håret slipper en extra het dag.",
     valueHook: "Lockar utan värme medan du sover",
-    valueStatement: "Kitsch Heatless Satin Curling Set är för dig som vill ha lockar utan att ta fram locktången. Du lindar fuktigt hår runt det mjuka satinbandet på kvällen, sover på det och tar loss det på morgonen för mjuka, vågiga lockar. Eftersom det varken använder värme eller hårda spännen är det ett skonsamt val på dagar då du vill vara snäll mot håret. Amazon visar 4,2 av 5 från 20 785 omdömen, och köpare lyfter framför allt att det är bekvämt att sova med och att lockarna håller fint.",
+    valueStatement: "Kitsch Heatless Satin Curling Set är för dig som vill ha lockar utan att ta fram locktången. Du lindar fuktigt hår runt det mjuka satinbandet på kvällen, sover på det och tar loss det på morgonen för mjuka, vågiga lockar. Eftersom det varken använder värme eller hårda spännen är det ett skonsamt val på dagar då du vill vara snäll mot håret.",
     passFor: [
       "Vill ha lockar utan att använda värme eller locktång.",
       "Föredrar att styla håret över natten medan du sover.",
@@ -2573,7 +2573,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "kitsch-heatless-curls-skriv-recension",
     targetKeyword: "heatless curls set",
     metaTitle: "Kitsch Heatless Satin Curling Set – lockar utan värme | Elins val",
-    metaDescription: "Elin går igenom Kitsch Heatless Satin Curling Set: ett satinband som lockar håret utan värme medan du sover (4,2 av 5, 20 785 omdömen) – och hur du lindar för bäst lockar.",
+    metaDescription: "Elin går igenom Kitsch Heatless Satin Curling Set: ett satinband som lockar håret utan värme medan du sover – och hur du lindar för bäst lockar.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2604,13 +2604,13 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Cantu Satin Nightcap – satinmössa för natten",
     shortBody: "En enkel satinmössa som du sover med. Den släta satinen ger mindre friktion mot kudden, vilket många använder för att hålla nere frizz och låta frisyren hålla sig bättre till morgonen.",
     valueHook: "Skydda håret på natten med satin",
-    valueStatement: "Cantu Satin Nightcap är en mössa med slät satininsida som du har på håret medan du sover. Idén är enkel: satin ger mindre friktion mot kudden än vanlig bomull, och många upplever att det betyder mindre frizz på morgonen och en frisyr som håller sig längre. Här ska vi vara ärliga – Amazon visar 3,7 av 5 från 69 omdömen, vilket både är ett lägre betyg och ett tunt underlag. Det gör att den passar dig som vill testa en prisvärd satinmössa, men med rimliga förväntningar.",
+    valueStatement: "Cantu Satin Nightcap är en mössa med slät satininsida som du har på håret medan du sover. Idén är enkel: satin ger mindre friktion mot kudden än vanlig bomull, och många upplever att det betyder mindre frizz på morgonen och en frisyr som håller sig längre. Aktuella kundbetyg och antalet recensioner är inte verifierade; de används inte som belägg för resultat eller kvalitet.",
     passFor: [
       "Vill skydda håret på natten och minska friktion mot kudden.",
       "Märker frizz på morgonen och vill testa en enkel satinmössa.",
       "Vill att frisyren ska hålla sig bättre över natten.",
     ],
-    caution: "Var ärlig med förväntningarna: betyget är lägre (3,7 av 5) och bygger på få omdömen (69), så underlaget är tunt. Passformen upplevs också olika beroende på hårmängd och huvudform – kolla måtten innan du beställer.",
+    caution: "Vi har inte verifierat aktuella kundbetyg eller prövat mössans passform. Passformen upplevs också olika beroende på hårmängd och huvudform – kolla måtten innan du beställer.",
     usageGuidance: {
       title: "Så använder du den rätt",
       text: "Sätt på mössan när du lägger dig och se till att håret får plats utan att dras åt för hårt. Den släta satinen ska ligga mot håret för att minska friktionen mot kudden under natten.",
@@ -2624,8 +2624,8 @@ export const sommarPicks: SommarPick[] = ([
         answer: "Den släta satinen ger mindre friktion mot kudden än vanlig bomull. Många upplever att det betyder mindre frizz på morgonen och att frisyren håller sig bättre över natten.",
       },
       {
-        question: "Är 3,7 av 5 ett bra betyg?",
-        answer: "Det är ett lägre betyg, och det bygger dessutom på bara 69 omdömen. Ta det som en fingervisning snarare än ett facit, och köp med rimliga förväntningar.",
+        question: "Har kundbetygen verifierats?",
+        answer: "Vi har inte verifierat ett aktuellt kundbetyg eller antal recensioner för den exakta varianten. Därför använder vi inte sådana siffror som belägg för kvalitet, hållbarhet eller ett köp.",
       },
       {
         question: "Passar satinmössan alla hårtyper?",
@@ -2636,7 +2636,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "cantu-satin-bonnet-skriv-recension",
     targetKeyword: "satinmössa bonnet",
     metaTitle: "Cantu Satin Nightcap – satinmössa för natten | Elins val",
-    metaDescription: "Elin jämför Cantu Satin Nightcap: en satinmössa som ger mindre friktion och frizz på natten (3,7 av 5, 69 omdömen) – och varför du bör köpa med rimliga förväntningar.",
+    metaDescription: "Elin jämför Cantu Satin Nightcap: en satinmössa som ger mindre friktion och frizz på natten – och varför du bör köpa med rimliga förväntningar.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2667,7 +2667,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Kitsch Microfiber Hair Towel – snabbtorkande och skonsam",
     shortBody: "En snabbtorkande mikrofiberhandduk som lindas runt det blöta håret. Den suger upp fukt skonsamt utan att gnugga håret hårt, vilket hjälper till att minska frizz och korta ner torktiden.",
     valueHook: "Snabbtorkande och skonsam mot håret",
-    valueStatement: "Kitsch Microfiber Hair Towel Wrap är en mikrofiberhandduk för dig som vill torka håret skonsammare. Den lindas runt det blöta håret och suger upp fukt i stället för att gnugga håret hårt, vilket många upplever ger mindre frizz och kortare torktid. Amazon visar 4,6 av 5 från 8357 omdömen, och köpare lyfter framför allt att håret torkar snabbare, att den är skonsam och att den sitter stadigt.",
+    valueStatement: "Kitsch Microfiber Hair Towel Wrap är en mikrofiberhandduk för dig som vill torka håret skonsammare. Den lindas runt det blöta håret och suger upp fukt i stället för att gnugga håret hårt, vilket många upplever ger mindre frizz och kortare torktid.",
     passFor: [
       "Vill torka håret skonsammare och slippa gnugga med en grov handduk.",
       "Har frizzigt eller lockigt hår och vill hålla nere frizzen.",
@@ -2699,7 +2699,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "microfiberhandduk-har-skriv-recension",
     targetKeyword: "microfiberhandduk för hår",
     metaTitle: "Kitsch Microfiber Hair Towel – snabbtorkande & skonsam | Elins val",
-    metaDescription: "Elin går igenom Kitsch Microfiber Hair Towel Wrap: en snabbtorkande mikrofiberhandduk som är skonsam mot håret och hjälper till att minska frizz (4,6 av 5, 8357 omdömen).",
+    metaDescription: "Elin går igenom Kitsch Microfiber Hair Towel Wrap: en snabbtorkande mikrofiberhandduk som är skonsam mot håret och hjälper till att minska frizz .",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2730,7 +2730,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Got2b Guardian Angel – värmeskydd upp till 220°C",
     shortBody: "En lätt värmeskyddsspray som lägger ett skyddande lager mellan håret och värmen från fön, plattång och locktång – upp till 220°C. Enkel att fördela jämnt innan styling.",
     valueHook: "Värmeskydd upp till 220°C",
-    valueStatement: "Got2b Guardian Angel är en värmeskyddsspray för dig som föner, plattar eller lockar håret ofta. Den lägger ett skyddande lager mellan håret och värmen upp till 220°C, och den lätta texturen gör den enkel att fördela jämnt utan att tynga håret. Amazon visar 4,2 av 5 från 1043 omdömen, och köpare lyfter framför allt att håret känns skyddat, att sprayen är lätt och att den räcker länge.",
+    valueStatement: "Got2b Guardian Angel är en värmeskyddsspray för dig som föner, plattar eller lockar håret ofta. Den lägger ett skyddande lager mellan håret och värmen upp till 220°C, och den lätta texturen gör den enkel att fördela jämnt utan att tynga håret.",
     passFor: [
       "Föner, plattar eller lockar håret ofta och vill skydda det mot värmen.",
       "Vill ha en lätt spray som inte tynger eller klibbar ner håret.",
@@ -2762,7 +2762,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "värmeskyddsspray-got2b-skriv-recension",
     targetKeyword: "värmeskyddsspray",
     metaTitle: "Got2b Guardian Angel värmeskyddsspray – skydd upp till 220°C | Elins val",
-    metaDescription: "Elin går igenom Got2b Guardian Angel: en lätt värmeskyddsspray som skyddar håret vid fön, plattång och locktång upp till 220°C (4,2 av 5, 1043 omdömen).",
+    metaDescription: "Elin går igenom Got2b Guardian Angel: en lätt värmeskyddsspray som skyddar håret vid fön, plattång och locktång upp till 220°C .",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2793,7 +2793,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Maui Moisture Curl Smoothie – curl cream med kokosolja",
     shortBody: "En fuktgivande curl cream med kokosolja som definierar lockar och tämjer frizz. En populär favorit för dig som vill ge lockarna mer form och fukt utan att de känns stela.",
     valueHook: "Curl cream med kokosolja för definierade lockar",
-    valueStatement: "Maui Moisture Curl Quench+ Coconut Oil Curl Smoothie är en fuktgivande curl cream för dig med lockigt hår. Kokosolja ger fukt åt torra längder samtidigt som creamen hjälper till att definiera lockar och tämja frizz. Amazon visar 4,6 av 5 från 11 372 omdömen, och köpare lyfter framför allt mer definierade lockar och mindre frizz.",
+    valueStatement: "Maui Moisture Curl Quench+ Coconut Oil Curl Smoothie är en fuktgivande curl cream för dig med lockigt hår. Kokosolja ger fukt åt torra längder samtidigt som creamen hjälper till att definiera lockar och tämja frizz.",
     passFor: [
       "Har lockigt hår och vill ge lockarna mer form och definition.",
       "Vill tämja frizz och ge torra längder mer fukt.",
@@ -2825,7 +2825,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "maui-curl-smoothie-skriv-recension",
     targetKeyword: "lockcreme curl cream",
     metaTitle: "Maui Moisture Curl Smoothie – curl cream med kokosolja | Elins val",
-    metaDescription: "Elin går igenom Maui Moisture Curl Quench+ Coconut Oil Curl Smoothie: en fuktgivande curl cream med kokosolja som definierar lockar och tämjer frizz (4,6 av 5, 11 372 omdömen).",
+    metaDescription: "Elin går igenom Maui Moisture Curl Quench+ Coconut Oil Curl Smoothie: en fuktgivande curl cream med kokosolja som definierar lockar och tämjer frizz .",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2856,7 +2856,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Cantu Shea Butter Leave-In – cream för torrt hår",
     shortBody: "En närande leave-in med sheasmör för torrt och lockigt hår. Den mjukgör och underlättar utredning, en populär favorit för dig som vill ge torra längder extra fukt.",
     valueHook: "Leave-in med sheasmör för torrt hår",
-    valueStatement: "Cantu Shea Butter Leave-In Conditioning Repair Cream är en närande leave-in för dig med torrt och lockigt hår. Sheasmör mjukgör längderna och gör det lättare att reda ut håret, utan att du behöver skölja ur. Amazon visar 4,4 av 5 från hela 22 030 omdömen, och köpare lyfter framför allt mjukheten och att håret blir lättare att hantera.",
+    valueStatement: "Cantu Shea Butter Leave-In Conditioning Repair Cream är en närande leave-in för dig med torrt och lockigt hår. Sheasmör mjukgör längderna och gör det lättare att reda ut håret, utan att du behöver skölja ur.",
     passFor: [
       "Har torrt och lockigt hår som behöver extra fukt.",
       "Vill ha en leave-in som underlättar utredning av längderna.",
@@ -2888,7 +2888,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "cantu-leave-in-conditioner-skriv-recension",
     targetKeyword: "leave-in conditioner",
     metaTitle: "Cantu Shea Butter Leave-In Conditioner – för torrt hår | Elins val",
-    metaDescription: "Elin går igenom Cantu Shea Butter Leave-In Conditioning Repair Cream: en närande leave-in med sheasmör för torrt och lockigt hår (4,4 av 5, 22 030 omdömen) – och hur du använder den.",
+    metaDescription: "Elin går igenom Cantu Shea Butter Leave-In Conditioning Repair Cream: en närande leave-in med sheasmör för torrt och lockigt hår – och hur du använder den.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -2919,7 +2919,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "The INKEY List Scalp Scrub – peeling för hårbotten",
     shortBody: "En exfolierande hårbottenpeeling med glykolsyra som rengör hårbotten från produktrester och fjäll för en fräschare känsla. Ett enkelt steg för en ordentlig rengöring.",
     valueHook: "Hårbottenpeeling för en fräschare hårbotten",
-    valueStatement: "The INKEY List Glycolic Acid Exfoliating Scalp Scrub är en hårbottenpeeling för dig som vill ge hårbotten en ordentlig rengöring. Glykolsyra hjälper till att exfoliera och lösa upp produktrester och fjäll, för en fräschare känsla. Amazon visar 4,2 av 5 från 1 940 omdömen, och köpare lyfter framför allt den rena, fräscha känslan efteråt.",
+    valueStatement: "The INKEY List Glycolic Acid Exfoliating Scalp Scrub är en hårbottenpeeling för dig som vill ge hårbotten en ordentlig rengöring. Glykolsyra hjälper till att exfoliera och lösa upp produktrester och fjäll, för en fräschare känsla.",
     passFor: [
       "Vill rengöra hårbotten från produktrester och fjäll.",
       "Gillar en fräsch, ren känsla i hårbotten efter duschen.",
@@ -2982,7 +2982,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Mielle Rosemary Mint – olja för hårbotten och längder",
     shortBody: "En viral hårbottenolja med rosmarin och mynta som ger en uppfriskande känsla i hårbotten och vårdar längderna. En populär favorit för dig som gillar en lätt svalkande olja.",
     valueHook: "Hårbottenolja med rosmarin och mynta",
-    valueStatement: "Mielle Rosemary Mint Scalp & Hair Oil är en viral hårbottenolja för dig som vill ge hårbotten och längder lite extra omvårdnad. Rosmarin och mynta ger en uppfriskande, lätt svalkande känsla när oljan masseras in. Amazon visar 4,4 av 5 från 2 413 omdömen, och köpare lyfter framför allt den svalkande känslan och doften.",
+    valueStatement: "Mielle Rosemary Mint Scalp & Hair Oil är en viral hårbottenolja för dig som vill ge hårbotten och längder lite extra omvårdnad. Rosmarin och mynta ger en uppfriskande, lätt svalkande känsla när oljan masseras in.",
     passFor: [
       "Gillar en uppfriskande, lätt svalkande känsla i hårbotten.",
       "Tycker om doften av rosmarin och mynta i hårvården.",
@@ -3014,7 +3014,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "mielle-rosemary-oil-skriv-recension",
     targetKeyword: "rosmarinolja för håret",
     metaTitle: "Mielle Rosemary Mint Scalp & Hair Oil – rosmarinolja | Elins val",
-    metaDescription: "Elin går igenom Mielle Rosemary Mint Scalp & Hair Oil: en viral hårbottenolja med rosmarin och mynta för en uppfriskande känsla (4,4 av 5, 2 413 omdömen) – och hur du använder den.",
+    metaDescription: "Elin går igenom Mielle Rosemary Mint Scalp & Hair Oil: en viral hårbottenolja med rosmarin och mynta för en uppfriskande känsla – och hur du använder den.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -3097,7 +3097,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Olaplex No.5 – återfuktande balsam för torrt hår",
     shortBody: "Ett återfuktande balsam som stärker och mjukgör torrt, slitet hår. Den krämiga formulan hjälper håret att kännas mjukare och mer hanterbart, samtidigt som den jobbar mot frizz.",
     valueHook: "Återfuktande balsam för torrt, slitet hår",
-    valueStatement: "Olaplex No.5 Bond Maintenance Conditioner är ett återfuktande balsam för dig som vill ge torrt, slitet hår mer mjukhet och styrka. Den krämiga formulan hjälper håret att kännas mjukare och mer hanterbart, samtidigt som den jobbar mot frizz för en lugnare yta. Amazon visar 4,5 av 5 från 10 723 omdömen, och köpare lyfter framför allt att håret känns mjukare, mer hanterbart och mindre frissigt efter användning.",
+    valueStatement: "Olaplex No.5 Bond Maintenance Conditioner är ett återfuktande balsam för dig som vill ge torrt, slitet hår mer mjukhet och styrka. Den krämiga formulan hjälper håret att kännas mjukare och mer hanterbart, samtidigt som den jobbar mot frizz för en lugnare yta.",
     passFor: [
       "Har torrt, slitet hår och vill ha ett mer återfuktande balsam.",
       "Vill ha mjukare, mer hanterbart hår som är lättare att reda ut.",
@@ -3129,7 +3129,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "olaplex-no5-conditioner-skriv-recension",
     targetKeyword: "balsam torrt hår",
     metaTitle: "Olaplex No.5 Balsam – återfuktar torrt hår | Elins val",
-    metaDescription: "Elin går igenom Olaplex No.5 Bond Maintenance Conditioner: ett återfuktande balsam som stärker och mjukgör torrt, slitet hår med mindre frizz (4,5 av 5, 10 723 omdömen).",
+    metaDescription: "Elin går igenom Olaplex No.5 Bond Maintenance Conditioner: ett återfuktande balsam som stärker och mjukgör torrt, slitet hår med mindre frizz .",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -3160,7 +3160,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Olaplex No.4 – återuppbyggande schampo för färgat hår",
     shortBody: "Ett schampo som är gjort för att stärka och vårda slitet, färgat hår. Det rengör skonsamt och jobbar med längder och toppar för en mjukare, mer hanterbar känsla.",
     valueHook: "Stärker och vårdar slitet, färgat hår",
-    valueStatement: "Olaplex No.4 Bond Maintenance Shampoo är ett återuppbyggande schampo för dig med hår som blivit slitet av färgning, blekning och värme. Det rengör skonsamt samtidigt som det jobbar med längder och toppar, så att håret känns starkare, mjukare och mer hanterbart. Amazon visar 4,5 av 5 från 13 375 omdömen, och köpare lyfter framför allt att slitna, färgade längder känns starkare med tiden och att lite produkt räcker långt.",
+    valueStatement: "Olaplex No.4 Bond Maintenance Shampoo är ett återuppbyggande schampo för dig med hår som blivit slitet av färgning, blekning och värme. Det rengör skonsamt samtidigt som det jobbar med längder och toppar, så att håret känns starkare, mjukare och mer hanterbart.",
     passFor: [
       "Har färgat eller blekt hår och vill vårda slitna längder.",
       "Vill ha ett återuppbyggande schampo som känns mjukgörande.",
@@ -3192,7 +3192,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "olaplex-no4-shampoo-skriv-recension",
     targetKeyword: "schampo bäst i test",
     metaTitle: "Olaplex No.4 Bond Maintenance Shampoo – för färgat hår | Elins val",
-    metaDescription: "Elin går igenom Olaplex No.4 Bond Maintenance Shampoo: ett återuppbyggande schampo för slitet och färgat hår (4,5 av 5, 13 375 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom Olaplex No.4 Bond Maintenance Shampoo: ett återuppbyggande schampo för slitet och färgat hår – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -3223,7 +3223,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Neutrogena Norwegian Formula – handkräm för torra händer",
     shortBody: "En koncentrerad handkräm för mycket torra händer där en liten mängd räcker långt. Den sjunker in snabbt och hjälper strävа händer att kännas mjuka och smidiga igen.",
     valueHook: "Koncentrerad handkräm för mycket torra händer",
-    valueStatement: "Neutrogena Norwegian Formula är en klassisk handkräm för dig med mycket torra händer som vill ha något dryg och effektivt. Formulan är koncentrerad, så en liten klick räcker långt, och de flesta upplever att den sjunker in snabbt och lämnar händerna mjuka snarare än feta. Amazon visar 4,6 av 5 från 9248 omdömen, och köpare lyfter framför allt hur mjuka torra händer känns och hur länge tuben räcker.",
+    valueStatement: "Neutrogena Norwegian Formula är en klassisk handkräm för dig med mycket torra händer som vill ha något dryg och effektivt. Formulan är koncentrerad, så en liten klick räcker långt, och de flesta upplever att den sjunker in snabbt och lämnar händerna mjuka snarare än feta.",
     passFor: [
       "Har mycket torra händer och vill ha en koncentrerad handkräm.",
       "Vill ha en dryg produkt där lite räcker långt.",
@@ -3255,7 +3255,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "neutrogena-hand-cream-skriv-recension",
     targetKeyword: "handkräm torra händer",
     metaTitle: "Neutrogena Norwegian Formula handkräm – torra händer | Elins val",
-    metaDescription: "Elin går igenom Neutrogena Norwegian Formula: en koncentrerad handkräm för mycket torra händer där lite räcker långt (4,6 av 5, 9248 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom Neutrogena Norwegian Formula: en koncentrerad handkräm för mycket torra händer där lite räcker långt – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/cerave-rengoring",
@@ -3286,7 +3286,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Biotherm Lait Corporel – återfuktande kroppslotion",
     shortBody: "En klassisk kroppslotion som återfuktar och mjukgör med en lätt, snabbt insjunkande textur. Den friska doften och smidiga konsistensen gör den enkel att använda varje dag efter dusch.",
     valueHook: "Klassisk kroppslotion för len, mjuk hud",
-    valueStatement: "Biotherm Lait Corporel är en omtyckt kroppslotion för dig som vill hålla huden len, mjuk och återfuktad i vardagen. Den lätta texturen sjunker in snabbt utan att kännas klibbig, och den friska doften gör den till ett trevligt steg efter duschen. Amazon visar 4,7 av 5 från 4002 omdömen, och köpare lyfter framför allt hur återfuktad huden känns, den lätta känslan och doften.",
+    valueStatement: "Biotherm Lait Corporel är en omtyckt kroppslotion för dig som vill hålla huden len, mjuk och återfuktad i vardagen. Den lätta texturen sjunker in snabbt utan att kännas klibbig, och den friska doften gör den till ett trevligt steg efter duschen.",
     passFor: [
       "Vill ha en lättabsorberad kroppslotion till dagligt bruk.",
       "Gillar en frisk doft och en len, smidig hudkänsla.",
@@ -3318,7 +3318,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "biotherm-lait-corporel-skriv-recension",
     targetKeyword: "kroppslotion",
     metaTitle: "Biotherm Lait Corporel – återfuktande kroppslotion | Elins val",
-    metaDescription: "Elin går igenom Biotherm Lait Corporel: en klassisk kroppslotion som återfuktar och mjukgör med lätt textur (4,7 av 5, 4002 omdömen) – och vad du bör veta om doft och hudkänsla.",
+    metaDescription: "Elin går igenom Biotherm Lait Corporel: en klassisk kroppslotion som återfuktar och mjukgör med lätt textur – och vad du bör veta om doft och hudkänsla.",
     relatedLinks: [
       {
         href: "/skonhet/cerave-rengoring",
@@ -3349,7 +3349,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Olay Regenerist Night Recovery – fukt över natten",
     shortBody: "En rik, återfuktande nattkräm med krämig textur som sjunker in. Gjord för att ge huden fukt under natten så att den känns smidigare och mer utvilad till morgonen.",
     valueHook: "Rik nattkräm för fukt och en smidigare känsla",
-    valueStatement: "Olay Regenerist Night Recovery är en rik, återfuktande nattkräm för dig som vill ge huden ordentligt med fukt under natten. Den krämiga texturen sjunker in som sista steg på kvällen och hjälper huden att kännas smidigare och mer utvilad till morgonen. Amazon visar 4,6 av 5 från 17 614 omdömen, och köpare lyfter framför allt den mjuka känslan till morgonen, hur återfuktande krämen är och att texturen sjunker in fint.",
+    valueStatement: "Olay Regenerist Night Recovery är en rik, återfuktande nattkräm för dig som vill ge huden ordentligt med fukt under natten. Den krämiga texturen sjunker in som sista steg på kvällen och hjälper huden att kännas smidigare och mer utvilad till morgonen.",
     passFor: [
       "Vill ge huden ordentligt med fukt under natten.",
       "Önskar en smidigare, mjukare känsla i huden till morgonen.",
@@ -3381,7 +3381,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "olay-regenerist-night-cream-skriv-recension",
     targetKeyword: "nattkräm",
     metaTitle: "Olay Regenerist Night Recovery – nattkräm | Elins val",
-    metaDescription: "Elin går igenom Olay Regenerist Night Recovery: en rik, återfuktande nattkräm som ger huden fukt och en smidigare känsla till morgonen (4,6 av 5, 17 614 omdömen).",
+    metaDescription: "Elin går igenom Olay Regenerist Night Recovery: en rik, återfuktande nattkräm som ger huden fukt och en smidigare känsla till morgonen .",
     relatedLinks: [
       {
         href: "/skonhet/vitamin-c-serum",
@@ -3412,7 +3412,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Dior Addict Lip Glow Oil – naturlig lyster",
     shortBody: "En vårdande, glansig läppolja i nyansen 000 Universal Clear. Återfuktar läpparna och ger en naturlig lyster med glans utan att kännas klibbig – en premium-favorit.",
     valueHook: "Vårdande läppolja för naturlig lyster",
-    valueStatement: "Dior Addict Lip Glow Oil är en vårdande läppolja för dig som vill ha mjuka läppar med en glansig, naturlig lyster. I nyansen 000 Universal Clear ger den glans utan att kännas klibbig och passar de flesta. Det är en premium-favorit som ofta lyfts fram för känslan och finishen. Amazon visar 4,5 av 5 från 65 omdömen, vilket är få omdömen ännu – så betyget är positivt men helhetsbilden fortfarande begränsad. Köpare beskriver framför allt mjuka läppar och en fin lyster.",
+    valueStatement: "Dior Addict Lip Glow Oil är en vårdande läppolja för dig som vill ha mjuka läppar med en glansig, naturlig lyster. I nyansen 000 Universal Clear ger den glans utan att kännas klibbig och passar de flesta. Det är en premium-favorit som ofta lyfts fram för känslan och finishen. Köpare beskriver framför allt mjuka läppar och en fin lyster.",
     passFor: [
       "Vill ha mjuka läppar med en glansig, naturlig lyster.",
       "Önskar en klar nyans som passar de flesta.",
@@ -3444,7 +3444,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "dior-lip-glow-oil-skriv-recension",
     targetKeyword: "lip oil läppolja",
     metaTitle: "Dior Addict Lip Glow Oil – läppolja & lyster | Elins val",
-    metaDescription: "Elin går igenom Dior Addict Lip Glow Oil (000 Universal Clear): en vårdande läppolja för naturlig lyster och mjuka läppar (4,5 av 5, men endast 65 omdömen).",
+    metaDescription: "Elin går igenom Dior Addict Lip Glow Oil (000 Universal Clear): en vårdande läppolja för naturlig lyster och mjuka läppar .",
     relatedLinks: [
       {
         href: "/skonhet/vitamin-c-serum",
@@ -3475,7 +3475,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "COSRX Acne Pimple Master Patch – täcker och skyddar",
     shortBody: "Tunna hydrokolloid-plåster i olika storlekar som täcker och skyddar finnen. Diskreta att ha på över dagen eller natten och ett enkelt sätt att låta finnen vara i fred.",
     valueHook: "Hydrokolloid-plåster som täcker och skyddar",
-    valueStatement: "COSRX Acne Pimple Master Patch är ett ark med tunna hydrokolloid-plåster i olika storlekar. De täcker och skyddar finnen och gör det lättare att inte peta, vilket många tycker är hela poängen. Plåstren är diskreta nog att ha på både dag och natt. Amazon visar 4,5 av 5 från 32 859 omdömen, och köpare lyfter framför allt hur tunna och diskreta de är och hur enkelt det blir att låta finnen vara i fred.",
+    valueStatement: "COSRX Acne Pimple Master Patch är ett ark med tunna hydrokolloid-plåster i olika storlekar. De täcker och skyddar finnen och gör det lättare att inte peta, vilket många tycker är hela poängen. Plåstren är diskreta nog att ha på både dag och natt.",
     passFor: [
       "Vill täcka och skydda en finne och slippa peta på den.",
       "Önskar ett diskret plåster att ha på över dagen eller natten.",
@@ -3507,7 +3507,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "cosrx-acne-pimple-patch-skriv-recension",
     targetKeyword: "pimple patches",
     metaTitle: "COSRX Acne Pimple Master Patch – täcker & skyddar | Elins val",
-    metaDescription: "Elin går igenom COSRX Acne Pimple Master Patch: tunna hydrokolloid-plåster som täcker och skyddar finnen (4,5 av 5, 32 859 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom COSRX Acne Pimple Master Patch: tunna hydrokolloid-plåster som täcker och skyddar finnen – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/niacinamide-serum",
@@ -3538,7 +3538,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Nature Spell Vitamin Boost Face Oil – glow på kvällen",
     shortBody: "En vårdande ansiktsolja tänkt som sista steg på kvällen. Några droppar för glow och återfuktning, så att huden känns mjuk och ser mer utvilad ut till morgonen.",
     valueHook: "Vårdande olja för glow och återfuktning",
-    valueStatement: "Nature Spell Vitamin Boost Face Oil är en vårdande ansiktsolja för dig som vill ge huden glow och återfuktning som sista steg på kvällen. Några droppar räcker ofta, och oljan hjälper huden att se mjuk och utvilad ut till morgonen. Amazon visar 4,7 av 5 från 35 omdömen, vilket är mycket få omdömen ännu – så betyget är positivt men helhetsbilden fortfarande begränsad. Köpare lyfter främst glowen och den återfuktade känslan.",
+    valueStatement: "Nature Spell Vitamin Boost Face Oil är en vårdande ansiktsolja för dig som vill ge huden glow och återfuktning som sista steg på kvällen. Några droppar räcker ofta, och oljan hjälper huden att se mjuk och utvilad ut till morgonen. Köpare lyfter främst glowen och den återfuktade känslan.",
     passFor: [
       "Vill avsluta kvällsrutinen med en vårdande olja för glow.",
       "Önskar en mer återfuktad känsla i huden till morgonen.",
@@ -3570,7 +3570,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "nature-spell-face-oil-skriv-recension",
     targetKeyword: "ansiktsolja glow",
     metaTitle: "Nature Spell Vitamin Boost Face Oil – glow | Elins val",
-    metaDescription: "Elin går igenom Nature Spell Vitamin Boost Face Oil: en vårdande ansiktsolja för glow och återfuktning som sista steg på kvällen (4,7 av 5, men endast 35 omdömen).",
+    metaDescription: "Elin går igenom Nature Spell Vitamin Boost Face Oil: en vårdande ansiktsolja för glow och återfuktning som sista steg på kvällen .",
     relatedLinks: [
       {
         href: "/skonhet/hyaluronsyra-serum",
@@ -3601,7 +3601,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Mario Badescu Facial Spray – aloe och rosvatten",
     shortBody: "En lätt ansiktsmist med aloe, örter och rosvatten. Gjord för en snabb fuktboost och en pigg känsla under dagen, enkel att spreja över ren hud eller ovanpå makeup.",
     valueHook: "Uppfräschande mist för fukt och en pigg känsla",
-    valueStatement: "Mario Badescu Facial Spray är en uppfräschande ansiktsmist för dig som vill ge huden fukt och en pigg känsla mitt på dagen. Formulan bygger på aloe, örter och rosvatten, en kombination som gör misten lätt och behaglig att spreja över ansiktet både på ren hud och ovanpå makeup. Amazon visar 4,6 av 5 från 168 omdömen, och köpare lyfter framför allt den uppfräschande känslan, den milda doften och hur enkelt det är att ge huden en snabb boost.",
+    valueStatement: "Mario Badescu Facial Spray är en uppfräschande ansiktsmist för dig som vill ge huden fukt och en pigg känsla mitt på dagen. Formulan bygger på aloe, örter och rosvatten, en kombination som gör misten lätt och behaglig att spreja över ansiktet både på ren hud och ovanpå makeup.",
     passFor: [
       "Vill ge huden en snabb fuktboost mitt på dagen.",
       "Gillar en uppfräschande mist över makeup eller ren hud.",
@@ -3633,7 +3633,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "mario-badescu-facial-spray-skriv-recension",
     targetKeyword: "ansiktsmist",
     metaTitle: "Mario Badescu Facial Spray – aloe & rosvatten | Elins val",
-    metaDescription: "Elin går igenom Mario Badescu Facial Spray: en uppfräschande ansiktsmist med aloe och rosvatten för fukt och en pigg känsla (4,6 av 5, 168 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom Mario Badescu Facial Spray: en uppfräschande ansiktsmist med aloe och rosvatten för fukt och en pigg känsla – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/hyaluronsyra-serum",
@@ -3664,7 +3664,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "The INKEY List Peptide Moisturiser – smidig och mjuk",
     shortBody: "En återfuktande kräm med peptider. Gjord för en smidigare, fylligare känsla i huden och ett behagligt fuktsteg som gör huden mjuk, perfekt som ett enkelt sista lager i rutinen.",
     valueHook: "Peptidkräm för smidigare, fylligare känsla",
-    valueStatement: "The INKEY List Peptide Moisturiser är en fuktkräm för dig som vill ge huden en smidigare, fylligare och mjukare känsla. Formulan bygger på peptider tillsammans med ett rejält fuktsteg, en kombination som gör att huden känns välmående och balanserad. Amazon visar 4,2 av 5 från 438 omdömen, och köpare lyfter framför allt den smidiga känslan och det behagliga fuktsteget.",
+    valueStatement: "The INKEY List Peptide Moisturiser är en fuktkräm för dig som vill ge huden en smidigare, fylligare och mjukare känsla. Formulan bygger på peptider tillsammans med ett rejält fuktsteg, en kombination som gör att huden känns välmående och balanserad.",
     passFor: [
       "Vill ge huden en smidigare, fylligare och mjukare känsla.",
       "Gillar peptider och söker en enkel återfuktande kräm.",
@@ -3696,7 +3696,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "inkey-peptide-moisturizer-skriv-recension",
     targetKeyword: "peptidserum peptider",
     metaTitle: "The INKEY List Peptide Moisturiser – smidig & mjuk | Elins val",
-    metaDescription: "Elin går igenom The INKEY List Peptide Moisturiser: en återfuktande peptidkräm för en smidigare, fylligare känsla (4,2 av 5, 438 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom The INKEY List Peptide Moisturiser: en återfuktande peptidkräm för en smidigare, fylligare känsla – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/vitamin-c-serum",
@@ -3727,7 +3727,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Anua Azelaic Acid 10 – jämnare hudton och lyster",
     shortBody: "Ett serum med 10% azelainsyra och hyaluron. Gjort för en jämnare hudton, mer lyster och en lugnare, mindre rödflammig look, med ett återfuktande hyaluron-steg som känns balanserat.",
     valueHook: "Azelainsyra-serum för jämnare hudton",
-    valueStatement: "Anua Azelaic Acid 10 + Hyaluron Soothing Serum är ett serum för dig som vill ge huden en jämnare hudton och en lugnare, mindre rödflammig look. Formulan bygger på 10% azelainsyra tillsammans med hyaluron, en kombination för lyster och ett samtidigt fuktsteg. Amazon visar 4,5 av 5 från 1521 omdömen, och köpare lyfter framför allt den jämnare hudtonen, lystern och den lugnare looken.",
+    valueStatement: "Anua Azelaic Acid 10 + Hyaluron Soothing Serum är ett serum för dig som vill ge huden en jämnare hudton och en lugnare, mindre rödflammig look. Formulan bygger på 10% azelainsyra tillsammans med hyaluron, en kombination för lyster och ett samtidigt fuktsteg.",
     passFor: [
       "Vill ha en jämnare hudton och en lugnare, mindre rödflammig look.",
       "Gillar azelainsyra och vill ha hyaluron som fuktsteg i samma serum.",
@@ -3759,7 +3759,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "anua-azelaic-acid-serum-skriv-recension",
     targetKeyword: "azelainsyra serum",
     metaTitle: "Anua Azelaic Acid 10 – jämnare hudton & lyster | Elins val",
-    metaDescription: "Elin går igenom Anua Azelaic Acid 10 + Hyaluron Serum: 10% azelainsyra och hyaluron för en jämnare hudton och lyster (4,5 av 5, 1521 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom Anua Azelaic Acid 10 + Hyaluron Serum: 10% azelainsyra och hyaluron för en jämnare hudton och lyster – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/niacinamide-serum",
@@ -3790,7 +3790,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Beauty of Joseon Glow Serum – propolis och glow",
     shortBody: "Ett populärt serum med propolis och niacinamide. Gjort för lyster, glow och en jämnare hudton, med en lätt sirapsaktig textur som ger en behaglig, dewy känsla i huden.",
     valueHook: "Propolis-serum för glow och jämnare hudton",
-    valueStatement: "Beauty of Joseon Glow Serum är ett serum för dig som vill ge huden mer lyster och en piggare, mer strålande look. Formulan bygger på propolis tillsammans med niacinamide, en omtyckt kombination för glow och en jämnare hudton. Amazon visar 4,4 av 5 från 3973 omdömen, och köpare lyfter framför allt glowen, den jämnare hudtonen och den behagliga, dewy känslan.",
+    valueStatement: "Beauty of Joseon Glow Serum är ett serum för dig som vill ge huden mer lyster och en piggare, mer strålande look. Formulan bygger på propolis tillsammans med niacinamide, en omtyckt kombination för glow och en jämnare hudton.",
     passFor: [
       "Vill ge huden mer lyster och glow i rutinen.",
       "Gillar propolis och niacinamide för en jämnare hudton.",
@@ -3822,7 +3822,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "beauty-of-joseon-propolis-serum-skriv-recension",
     targetKeyword: "propolis serum",
     metaTitle: "Beauty of Joseon Glow Serum – propolis & glow | Elins val",
-    metaDescription: "Elin går igenom Beauty of Joseon Glow Serum: propolis och niacinamide för glow och en jämnare hudton (4,4 av 5, 3973 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom Beauty of Joseon Glow Serum: propolis och niacinamide för glow och en jämnare hudton – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/skonhet/niacinamide-serum",
@@ -3853,7 +3853,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "COSRX Centella Ampoule – lugn och lätt",
     shortBody: "En lätt, vattnig ampoule med centella asiatica. Gjord för känslig, lättirriterad hud som vill ha ett milt steg med en lugn och behaglig känsla, utan att det känns tungt.",
     valueHook: "Centella-ampoule för känslig hud",
-    valueStatement: "COSRX Centella Aqua Soothing Ampoule är en ampoule för dig med känslig, lättirriterad hud som vill ha något milt och lätt. Formulan bygger på centella asiatica, en omtyckt ingrediens för en lugn och behaglig känsla, och texturen är tunn och vattnig så att den lägger sig snabbt. Amazon visar 4,5 av 5 från 272 omdömen, och köpare lyfter framför allt den lugnande känslan och den lätta texturen.",
+    valueStatement: "COSRX Centella Aqua Soothing Ampoule är en ampoule för dig med känslig, lättirriterad hud som vill ha något milt och lätt. Formulan bygger på centella asiatica, en omtyckt ingrediens för en lugn och behaglig känsla, och texturen är tunn och vattnig så att den lägger sig snabbt.",
     passFor: [
       "Har känslig eller lättirriterad hud och vill ha ett milt steg.",
       "Gillar centella asiatica för en lugn, behaglig känsla.",
@@ -3885,7 +3885,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "cosrx-centella-ampoule-skriv-recension",
     targetKeyword: "centella cica serum",
     metaTitle: "COSRX Centella Ampoule – lugn & lätt | Elins val",
-    metaDescription: "Elin går igenom COSRX Centella Aqua Soothing Ampoule: en mild, lätt centella-ampoule för känslig hud (4,5 av 5, 272 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom COSRX Centella Aqua Soothing Ampoule: en mild, lätt centella-ampoule för känslig hud – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/skonhet/cicaplast-b5",
@@ -3916,7 +3916,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Beauty of Joseon Centella Mask – fukt och comfort",
     shortBody: "En sheet mask med centella asiatica för en lugn, behaglig känsla. Gjord för en snabb fukt-boost när huden känns torr eller stressad och du vill ge den lite extra comfort.",
     valueHook: "Centella sheet mask för fukt och comfort",
-    valueStatement: "Beauty of Joseon Centella Asiatica Calming Mask är en sheet mask för dig som vill ge huden en snabb stund av fukt och comfort. Masken är indränkt i ett serum med centella asiatica, en omtyckt ingrediens för en lugn och behaglig känsla. Amazon visar 4,2 av 5 från 22 omdömen – ännu ett ganska litet antal – men de som lämnat omdöme lyfter framför allt den lugnande känslan och fukt-boosten.",
+    valueStatement: "Beauty of Joseon Centella Asiatica Calming Mask är en sheet mask för dig som vill ge huden en snabb stund av fukt och comfort. Masken är indränkt i ett serum med centella asiatica, en omtyckt ingrediens för en lugn och behaglig känsla.",
     passFor: [
       "Vill ha en snabb fukt-boost när huden känns torr eller stressad.",
       "Gillar centella asiatica för en lugn, behaglig känsla.",
@@ -3948,7 +3948,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "beauty-of-joseon-centella-mask-skriv-recension",
     targetKeyword: "sheet mask centella",
     metaTitle: "Beauty of Joseon Centella Mask – fukt & comfort | Elins val",
-    metaDescription: "Elin går igenom Beauty of Joseon Centella Asiatica Calming Mask: en lugnande sheet mask för en snabb fukt-boost (4,2 av 5, 22 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom Beauty of Joseon Centella Asiatica Calming Mask: en lugnande sheet mask för en snabb fukt-boost – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/skonhet/cicaplast-b5",
@@ -3979,7 +3979,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Some By Mi Matcha Clay Mask – ren känsla för porerna",
     shortBody: "En lermask med matcha som rengör porerna och mattar glans. Tänkt som en behandling 1–2 gånger i veckan för en renare känsla och en mer mattad hud.",
     valueHook: "Lermask med matcha för porerna",
-    valueStatement: "Some By Mi Super Matcha Pore Clean Clay Mask är en lermask för dig som vill rengöra porerna och matta glans. Leran drar åt sig orenheter och fett, och matchan ger masken sin gröna profil. Den är tänkt som ett behandlingssteg 1–2 gånger i veckan. Amazon visar 4,5 av 5 från 271 omdömen, och köpare lyfter framför allt den renare känslan, mindre synlig glans och den krämiga leran som är lätt att applicera.",
+    valueStatement: "Some By Mi Super Matcha Pore Clean Clay Mask är en lermask för dig som vill rengöra porerna och matta glans. Leran drar åt sig orenheter och fett, och matchan ger masken sin gröna profil. Den är tänkt som ett behandlingssteg 1–2 gånger i veckan.",
     passFor: [
       "Vill rengöra porerna med en lermask 1–2 gånger i veckan.",
       "Har en hud som lätt blir glansig och vill mattas av.",
@@ -4011,7 +4011,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "some-by-mi-matcha-clay-mask-skriv-recension",
     targetKeyword: "lermask porer",
     metaTitle: "Some By Mi Matcha Clay Mask – lermask för porerna | Elins val",
-    metaDescription: "Elin går igenom Some By Mi Super Matcha Pore Clean Clay Mask: en lermask med matcha som rengör porerna och mattar glans (4,5 av 5, 271 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom Some By Mi Super Matcha Pore Clean Clay Mask: en lermask med matcha som rengör porerna och mattar glans – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/cerave-rengoring",
@@ -4042,7 +4042,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "DIVAIN Caffeine Eye Serum – piggare ögonparti",
     shortBody: "Ett lätt ögonserum med koffein som är tänkt att fräscha upp ögonpartiet och mildra synliga mörka ringar. En nyare produkt med ännu få omdömen på Amazon.",
     valueHook: "Koffeinserum för ögonpartiet",
-    valueStatement: "DIVAIN Caffeine Eye Serum är ett lätt ögonserum för dig som vill fräscha upp ögonpartiet på ett kosmetiskt sätt. Koffein är en omtyckt ingrediens för att mildra synliga mörka ringar och ge en piggare look kring ögonen. Det här är dock en nyare produkt: Amazon visar 4,3 av 5 från endast 42 omdömen, så helhetsbilden är fortfarande osäker och Elin väljer den med försiktighet.",
+    valueStatement: "DIVAIN Caffeine Eye Serum är ett lätt ögonserum för dig som vill fräscha upp ögonpartiet på ett kosmetiskt sätt. Koffein är en omtyckt ingrediens för att mildra synliga mörka ringar och ge en piggare look kring ögonen. Aktuella kundbetyg och antalet recensioner är inte verifierade; de används inte som belägg för resultat eller kvalitet.",
     passFor: [
       "Vill fräscha upp ögonpartiet med ett lätt serum.",
       "Är nyfiken på koffein mot synliga mörka ringar.",
@@ -4074,7 +4074,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "divain-caffeine-eye-serum-skriv-recension",
     targetKeyword: "ögonkräm koffein mörka ringar",
     metaTitle: "DIVAIN Caffeine Eye Serum – koffein för ögonpartiet | Elins val",
-    metaDescription: "Elin går igenom DIVAIN Caffeine Eye Serum: ett lätt koffeinserum för ögonpartiet och synliga mörka ringar (4,3 av 5, endast 42 omdömen) – och varför hon väljer det med försiktighet.",
+    metaDescription: "Elin går igenom DIVAIN Caffeine Eye Serum: ett lätt koffeinserum för ögonpartiet och synliga mörka ringar – och varför hon väljer det med försiktighet.",
     relatedLinks: [
       {
         href: "/skonhet/niacinamide-serum",
@@ -4105,7 +4105,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Cetaphil Moisturising Cream – rik fukt för torr hud",
     shortBody: "En rik, återfuktande kräm för torr och känslig hud, till både ansikte och kropp. Den stora burken räcker länge och passar dig som vill ha enkel, mättande fukt.",
     valueHook: "Rik fuktkräm för torr hud",
-    valueStatement: "Cetaphil Moisturising Cream är en rik fuktkräm för dig med torr eller känslig hud. Den ger mättande fukt och kan användas på både ansikte och kropp, vilket gör den enkel att ha i hela rutinen. Amazon visar 4,7 av 5 från 1742 omdömen, och köpare lyfter framför allt den mättande fukten, den milda känslan och den stora burken som räcker länge.",
+    valueStatement: "Cetaphil Moisturising Cream är en rik fuktkräm för dig med torr eller känslig hud. Den ger mättande fukt och kan användas på både ansikte och kropp, vilket gör den enkel att ha i hela rutinen.",
     passFor: [
       "Har torr hud och vill ha en rik, mättande fuktkräm.",
       "Vill kunna använda samma kräm på ansikte och kropp.",
@@ -4137,7 +4137,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "cetaphil-moisturizing-cream-skriv-recension",
     targetKeyword: "fuktkräm torr hud",
     metaTitle: "Cetaphil Moisturising Cream – rik fuktkräm för torr hud | Elins val",
-    metaDescription: "Elin går igenom Cetaphil Moisturising Cream: en rik fuktkräm för torr och känslig hud, till ansikte och kropp (4,7 av 5, 1742 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom Cetaphil Moisturising Cream: en rik fuktkräm för torr och känslig hud, till ansikte och kropp – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/cicaplast-b5",
@@ -4168,7 +4168,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "COSRX AHA/BHA Toner – lyster och jämnare hudton",
     shortBody: "En mild exfolierande toner med AHA och BHA för lyster och en jämnare hudton. Tänkt som ett dagligt steg efter rengöring, med en lätt textur som absorberas snabbt.",
     valueHook: "Exfolierande toner för lyster",
-    valueStatement: "COSRX AHA/BHA Clarifying Treatment Toner är en mild exfolierande toner för dig som vill ge huden mer lyster och en jämnare hudton. Kombinationen av AHA och BHA jämnar mjukt ut hudens yta och kan användas som ett dagligt steg efter rengöring. Amazon visar 4,5 av 5 från 7750 omdömen, och köpare lyfter framför allt lystern, den milda känslan och den lätta texturen.",
+    valueStatement: "COSRX AHA/BHA Clarifying Treatment Toner är en mild exfolierande toner för dig som vill ge huden mer lyster och en jämnare hudton. Kombinationen av AHA och BHA jämnar mjukt ut hudens yta och kan användas som ett dagligt steg efter rengöring.",
     passFor: [
       "Vill lägga till ett milt exfolieringssteg i rutinen.",
       "Önskar mer lyster och en jämnare hudton.",
@@ -4200,7 +4200,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "cosrx-aha-bha-toner-skriv-recension",
     targetKeyword: "exfolierande toner",
     metaTitle: "COSRX AHA/BHA Toner – mild exfoliering för lyster | Elins val",
-    metaDescription: "Elin går igenom COSRX AHA/BHA Clarifying Treatment Toner: en mild exfolierande toner för lyster och jämnare hudton (4,5 av 5, 7750 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom COSRX AHA/BHA Clarifying Treatment Toner: en mild exfolierande toner för lyster och jämnare hudton – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/niacinamide-serum",
@@ -4231,7 +4231,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Bioderma Sensibio H2O – micellärt vatten",
     shortBody: "Ett skonsamt micellärt vatten som rengör och tar bort smink utan sköljning. Framtaget med tanke på känslig hud och med en stor flaska som räcker länge.",
     valueHook: "Micellärt vatten för känslig hud",
-    valueStatement: "Bioderma Sensibio H2O är ett micellärt vatten för dig som vill rengöra huden och ta bort smink på ett mjukt sätt. Micellerna lyfter bort smuts och makeup utan att du behöver skölja, och formulan är gjord med tanke på känslig hud. Amazon visar 4,7 av 5 från 34142 omdömen, och köpare lyfter framför allt den skonsamma känslan, hur enkelt sminket försvinner och den stora flaskan som räcker länge.",
+    valueStatement: "Bioderma Sensibio H2O är ett micellärt vatten för dig som vill rengöra huden och ta bort smink på ett mjukt sätt. Micellerna lyfter bort smuts och makeup utan att du behöver skölja, och formulan är gjord med tanke på känslig hud.",
     passFor: [
       "Har känslig hud och vill ha en mild rengöring.",
       "Vill ta bort smink och rengöra i ett enda steg.",
@@ -4263,7 +4263,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "bioderma-sensibio-h2o-skriv-recension",
     targetKeyword: "micellärt vatten",
     metaTitle: "Bioderma Sensibio H2O – micellärt vatten för känslig hud | Elins val",
-    metaDescription: "Elin går igenom Bioderma Sensibio H2O: ett skonsamt micellärt vatten som rengör och tar bort smink (4,7 av 5, 34142 omdömen) – och vad du bör veta vid känslig hud.",
+    metaDescription: "Elin går igenom Bioderma Sensibio H2O: ett skonsamt micellärt vatten som rengör och tar bort smink – och vad du bör veta vid känslig hud.",
     relatedLinks: [
       {
         href: "/skonhet/cerave-rengoring",
@@ -4294,7 +4294,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Some By Mi Lacto Soy Cleansing Oil",
     shortBody: "En rengöringsolja för det första steget i double cleansing. Den löser upp smink och solkräm och sköljs sedan av rent, så att din vanliga rengöring får jobba på ren hud.",
     valueHook: "Rengöringsolja som löser smink och sköljs av rent",
-    valueStatement: "Some By Mi Lacto Soy Cleansing Oil är till för dig som vill lägga till ett första steg i rengöringen. Oljan löser upp smink och solkräm och emulgerar med vatten så att den sköljs av rent, utan fet hinna, och sedan följer du upp med din vanliga rengöring. Amazon visar 4,3 av 5 från 99 omdömen, vilket fortfarande är ett ganska litet antal, men de första köparna beskriver att den löser smink fint och är lätt att skölja av.",
+    valueStatement: "Some By Mi Lacto Soy Cleansing Oil är till för dig som vill lägga till ett första steg i rengöringen. Oljan löser upp smink och solkräm och emulgerar med vatten så att den sköljs av rent, utan fet hinna, och sedan följer du upp med din vanliga rengöring.",
     passFor: [
       "Vill prova double cleansing med ett enkelt första steg.",
       "Använder smink eller solkräm och vill lösa upp det skonsamt.",
@@ -4318,15 +4318,15 @@ export const sommarPicks: SommarPick[] = ([
         answer: "Oljan emulgerar med vatten och sköljs av, och de första köparna beskriver att den går av rent utan fet hinna. Följ ändå upp med en vanlig rengöring för bästa resultat.",
       },
       {
-        question: "Hur tillförlitliga är omdömena?",
-        answer: "Amazon visar 4,3 av 5, men ännu bara från 99 omdömen. Det är ett ganska litet antal, så se betyget som en tidig fingervisning snarare än ett etablerat helhetsomdöme.",
+        question: "Har kundbetygen verifierats?",
+        answer: "Vi har inte verifierat ett aktuellt kundbetyg eller antal recensioner för den exakta varianten. Därför använder vi inte sådana siffror som belägg för kvalitet, hållbarhet eller ett köp.",
       },
     ],
     reviewSectionId: "some-by-mi-cleansing-oil-recensioner",
     reviewFormId: "some-by-mi-cleansing-oil-skriv-recension",
     targetKeyword: "rengöringsolja cleansing oil",
     metaTitle: "Some By Mi Lacto Soy Cleansing Oil – double cleanse | Elins val",
-    metaDescription: "Elin går igenom Some By Mi Lacto Soy Cleansing Oil: en rengöringsolja som löser smink och sköljs av rent (4,3 av 5, 99 omdömen) – och hur du använder den.",
+    metaDescription: "Elin går igenom Some By Mi Lacto Soy Cleansing Oil: en rengöringsolja som löser smink och sköljs av rent – och hur du använder den.",
     relatedLinks: [
       {
         href: "/skonhet/cerave-rengoring",
@@ -4384,7 +4384,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Paula's Choice 2% BHA – porer och lyster",
     shortBody: "Ett ikoniskt flytande exfoliant med 2% salicylsyra som mjukt exfolierar huden för renare porer, mer lyster och en slätare yta. En av de mest omtyckta exfolianterna som finns.",
     valueHook: "Salicylsyra för renare porer och lyster",
-    valueStatement: "Paula's Choice 2% BHA Liquid Exfoliant är en av de mest omtyckta exfolianterna på marknaden. Den bygger på 2% salicylsyra, en BHA-syra som hjälper porer att se renare ut och ger huden mer lyster och en slätare yta. Den passar särskilt blandad och fet hud. Amazon visar 4,3 av 5 från hela 24 373 omdömen, och köpare lyfter framför allt renare porer, mer lyster och den lätta flytande texturen.",
+    valueStatement: "Paula's Choice 2% BHA Liquid Exfoliant är en av de mest omtyckta exfolianterna på marknaden. Den bygger på 2% salicylsyra, en BHA-syra som hjälper porer att se renare ut och ger huden mer lyster och en slätare yta. Den passar särskilt blandad och fet hud.",
     passFor: [
       "Vill ha renare porer och en slätare hudyta.",
       "Har blandad eller fet hud och gillar kemisk exfoliering.",
@@ -4416,7 +4416,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "paulas-choice-2-bha-skriv-recension",
     targetKeyword: "bha exfoliant salicylsyra",
     metaTitle: "Paula's Choice 2% BHA Exfoliant – porer & lyster | Elins val",
-    metaDescription: "Elin går igenom Paula's Choice 2% BHA Liquid Exfoliant: salicylsyra för renare porer, lyster och slätare hud (4,3 av 5, 24 373 omdömen) – och hur du använder den.",
+    metaDescription: "Elin går igenom Paula's Choice 2% BHA Liquid Exfoliant: salicylsyra för renare porer, lyster och slätare hud – och hur du använder den.",
     relatedLinks: [
       {
         href: "/skonhet/vitamin-c-serum",
@@ -4447,7 +4447,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "The Purest Solutions AHA + BHA – peeling för lyster",
     shortBody: "En kemisk peeling med 10% AHA och 2% BHA som exfolierar huden för mer lyster och en jämnare hudton. Tänkt som ett extrasteg ungefär varannan vecka, inte varje dag.",
     valueHook: "Kemisk peeling för lyster och jämnare hudton",
-    valueStatement: "The Purest Solutions AHA 10% + BHA 2% är till för dig som vill ge huden ett lystergivande extrasteg utan att skrubba. AHA och BHA är omtyckta exfolierande syror som mjukar upp ytan och kan göra hudtonen jämnare. Det här är en peeling man använder med måtta, ungefär varannan vecka. Amazon visar 4,4 av 5 från 504 omdömen, och köpare lyfter framför allt lystern och att huden känns slätare och fräschare dagen efter.",
+    valueStatement: "The Purest Solutions AHA 10% + BHA 2% är till för dig som vill ge huden ett lystergivande extrasteg utan att skrubba. AHA och BHA är omtyckta exfolierande syror som mjukar upp ytan och kan göra hudtonen jämnare. Det här är en peeling man använder med måtta, ungefär varannan vecka.",
     passFor: [
       "Vill ge huden mer lyster med ett enkelt extrasteg.",
       "Gillar kemisk exfoliering framför fysiska skrubb.",
@@ -4479,7 +4479,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "purest-aha-bha-peeling-skriv-recension",
     targetKeyword: "ansiktspeeling aha bha",
     metaTitle: "The Purest Solutions AHA + BHA Peeling – lyster | Elins val",
-    metaDescription: "Elin går igenom The Purest Solutions AHA 10% + BHA 2%: en kemisk peeling för lyster och jämnare hudton (4,4 av 5, 504 omdömen) – och hur du använder den rätt.",
+    metaDescription: "Elin går igenom The Purest Solutions AHA 10% + BHA 2%: en kemisk peeling för lyster och jämnare hudton – och hur du använder den rätt.",
     relatedLinks: [
       {
         href: "/skonhet/vitamin-c-serum",
@@ -4510,7 +4510,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "CELDYQUE Bakuchiol – mildt växtbaserat serum",
     shortBody: "Ett serum med bakuchiol, en växtbaserad ingrediens som ofta ses som ett mildare alternativ till retinol. Gjort för slätare hud, mer lyster och en jämnare hudton, med en lätt textur som passar även känslig hy.",
     valueHook: "Bakuchiol för slätare, lystrande hud",
-    valueStatement: "CELDYQUE Bakuchiol Concentrate Serum är till för dig som vill ge huden mer lyster och en slätare, jämnare yta, men som tycker att retinol känns för starkt. Bakuchiol är växtbaserat och beskrivs ofta som ett mildare alternativ, vilket gör det till ett tryggt val för känslig hud. Amazon visar 4,6 av 5 från 847 omdömen, och köpare lyfter framför allt att huden känns slätare och mer lystrande, samtidigt som serumet är skonsamt.",
+    valueStatement: "CELDYQUE Bakuchiol Concentrate Serum är till för dig som vill ge huden mer lyster och en slätare, jämnare yta, men som tycker att retinol känns för starkt. Bakuchiol är växtbaserat och beskrivs ofta som ett mildare alternativ, vilket gör det till ett tryggt val för känslig hud.",
     passFor: [
       "Vill ha slätare, mer lystrande hud utan stark retinol.",
       "Har känslig hud och söker ett mildare alternativ.",
@@ -4542,7 +4542,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "celdyque-bakuchiol-serum-skriv-recension",
     targetKeyword: "bakuchiol serum",
     metaTitle: "CELDYQUE Bakuchiol Serum – mildt retinol-alternativ | Elins val",
-    metaDescription: "Elin går igenom CELDYQUE Bakuchiol Concentrate Serum: ett växtbaserat, milt alternativ för slätare och lystrande hud (4,6 av 5, 847 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom CELDYQUE Bakuchiol Concentrate Serum: ett växtbaserat, milt alternativ för slätare och lystrande hud – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/vitamin-c-serum",
@@ -4573,7 +4573,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Tangle Teezer The Original – skonsam utredning",
     shortBody: "En ikonisk utredande hårborste med flexibla tänder som reder ut tovor steg för steg, på både vått och torrt hår. Nätt och greppvänlig form som ger mindre drag och mindre brott.",
     valueHook: "Utredande borste för skonsam utredning",
-    valueStatement: "Tangle Teezer The Original är en utredande hårborste för dig som vill reda ut tovor utan onödigt drag. De flexibla tänderna i två längder arbetar sig igenom håret steg för steg och hjälper till att lossa trassel skonsamt, på både vått och torrt hår – vilket många upplever ger mindre brott än en vanlig borste. Formen är nätt och greppvänlig och får plats i necessären eller väskan. Amazon visar 4,7 av 5 från 44 850 omdömen, och köpare lyfter framför allt fram den skonsamma utredningen, det mindre draget och hur smidig den är att hålla i.",
+    valueStatement: "Tangle Teezer The Original är en utredande hårborste för dig som vill reda ut tovor utan onödigt drag. De flexibla tänderna i två längder arbetar sig igenom håret steg för steg och hjälper till att lossa trassel skonsamt, på både vått och torrt hår – vilket många upplever ger mindre brott än en vanlig borste. Formen är nätt och greppvänlig och får plats i necessären eller väskan.",
     passFor: [
       "Vill reda ut tovor skonsamt med mindre drag i håret.",
       "Borstar både på vått och torrt hår och vill ha ett verktyg till båda.",
@@ -4605,7 +4605,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "tangle-teezer-original-skriv-recension",
     targetKeyword: "tangle teezer",
     metaTitle: "Tangle Teezer The Original – utredande hårborste | Elins val",
-    metaDescription: "Elin går igenom Tangle Teezer The Original: en utredande hårborste med flexibla tänder som reder ut tovor skonsamt på vått och torrt hår (4,7 av 5, 44 850 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom Tangle Teezer The Original: en utredande hårborste med flexibla tänder som reder ut tovor skonsamt på vått och torrt hår – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -4636,7 +4636,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Silkesörngott i mullbärssilke – mindre frizz och mjukare morgnar",
     shortBody: "Ett örngott i 100% mullbärssilke (19 momme) med en len, slät yta. Den ger mindre friktion mot håret och huden, vilket ofta betyder mindre frizz, färre bäddveck och färre tovor – och en svalare känsla att sova på.",
     valueHook: "Slät silkesyta för mindre frizz",
-    valueStatement: "Örngottet i 100% mullbärssilke är för dig som vill ha en mjukare morgon för både hår och hud. Tyget är 19 momme mullbärssilke med en slät yta som ger mindre friktion när du rör dig i sömnen – det innebär ofta mindre frizz, färre tovor och färre bäddveck i ansiktet. Det känns dessutom svalt och len mot kinden. Amazon visar starka 4,5 av 5 från 6 754 omdömen, där köpare framför allt lyfter mindre frizz, den sköna silkeskänslan och färre bäddveck på morgonen.",
+    valueStatement: "Örngottet i 100% mullbärssilke är för dig som vill ha en mjukare morgon för både hår och hud. Tyget är 19 momme mullbärssilke med en slät yta som ger mindre friktion när du rör dig i sömnen – det innebär ofta mindre frizz, färre tovor och färre bäddveck i ansiktet. Det känns dessutom svalt och len mot kinden.",
     passFor: [
       "Vill ha mindre frizz och färre tovor i håret på morgonen.",
       "Sover gärna svalt och vill ha en len yta mot huden.",
@@ -4668,7 +4668,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "silkesorngott-skriv-recension",
     targetKeyword: "silkesörngott",
     metaTitle: "Silkesörngott i mullbärssilke – mindre frizz | Elins val",
-    metaDescription: "Elin går igenom ett örngott i 100% mullbärssilke (19 momme): slät yta för mindre frizz och färre bäddveck (4,5 av 5, 6 754 omdömen) – och vad du bör veta om skötsel.",
+    metaDescription: "Elin går igenom ett örngott i 100% mullbärssilke (19 momme): slät yta för mindre frizz och färre bäddveck – och vad du bör veta om skötsel.",
     relatedLinks: [
       {
         href: "/skonhet/harolja",
@@ -4699,13 +4699,13 @@ export const sommarPicks: SommarPick[] = ([
     headline: "Gua sha i rosenkvarts – en lugn kvällsritual",
     shortBody: "En gua sha-sten i rosenkvarts som många använder för en skön, avslappnande ansiktsmassage. Använd den med ansiktsolja eller serum så glider den lätt – en rofylld stund i kvällsrutinen. Effekten är subjektiv, men ritualen i sig är det fina.",
     valueHook: "En skön, avslappnande ansiktsmassage",
-    valueStatement: "Den här gua sha-stenen i rosenkvarts är för dig som vill lägga till en lugn stund i kvällsrutinen. Du för stenen mjukt över ansiktet med lite ansiktsolja eller serum, så att den glider lätt mot huden – många upplever själva massagen som skön och avkopplande. Det handlar inte om något medicinskt, utan om en rofylld ritual som är lätt att tycka om. Amazon visar 4,2 av 5 från 49 omdömen; det är ett ganska lågt antal, så var medveten om att helhetsbilden fortfarande är osäker. Hur stenen känns är subjektivt och varierar från person till person.",
+    valueStatement: "Den här gua sha-stenen i rosenkvarts är för dig som vill lägga till en lugn stund i kvällsrutinen. Du för stenen mjukt över ansiktet med lite ansiktsolja eller serum, så att den glider lätt mot huden – många upplever själva massagen som skön och avkopplande. Det handlar inte om något medicinskt, utan om en rofylld ritual som är lätt att tycka om. Hur stenen känns är subjektivt och varierar från person till person.",
     passFor: [
       "Vill ha en lugn, avkopplande stund i kvällsrutinen.",
       "Gillar att massera in ansiktsolja eller serum med ett verktyg.",
       "Tycker om idén med en enkel ritual snarare än snabba resultat.",
     ],
-    caution: "Det här är ett nyare köp med få omdömen (4,2 av 5 från 49), så helhetsbilden är osäker – läs gärna flera recensioner själv. Rosenkvarts är natursten och kan spricka om du tappar den mot ett hårt underlag, så hantera den varsamt. Rengör stenen efter användning. Effekten är subjektiv och varierar mellan olika personer.",
+    caution: "Aktuella kundbetyg och antal recensioner är inte verifierade. Rosenkvarts är natursten och kan spricka om du tappar den mot ett hårt underlag, så hantera den varsamt. Rengör stenen efter användning. Effekten är subjektiv och varierar mellan olika personer.",
     usageGuidance: {
       title: "Så använder du den rätt",
       text: "Applicera först några droppar ansiktsolja eller serum på ren hud så att stenen glider lätt. För den sedan mjukt utåt över kinder, käke och panna – lugnt och utan att pressa. Rengör stenen efteråt och låt den torka.",
@@ -4731,7 +4731,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "gua-sha-rosenkvarts-skriv-recension",
     targetKeyword: "gua sha",
     metaTitle: "Gua sha i rosenkvarts – lugn ansiktsmassage | Elins val",
-    metaDescription: "Elin går igenom en gua sha-sten i rosenkvarts: ett ansiktsverktyg för en skön, avslappnande massage och en lugn kvällsritual (4,2 av 5, 49 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom en gua sha-sten i rosenkvarts: ett ansiktsverktyg för en skön, avslappnande massage och en lugn kvällsritual – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/skonhet/snail-mucin-essence",
@@ -4762,7 +4762,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "LANEIGE Lip Sleeping Mask – mjuka läppar över natten",
     shortBody: "En viral K-beauty-läppmask med berry-doft som du masserar in före läggdags. Bär-extrakt och vårdande oljor återfuktar och mjukgör läpparna medan du sover, så att du vaknar med en mjuk, smidig känsla.",
     valueHook: "Återfuktande nattläppmask för mjuka läppar",
-    valueStatement: "LANEIGE Lip Sleeping Mask är en viral K-beauty-favorit för dig som vill ge torra läppar lite extra omsorg på natten. Du lägger på ett lager före läggdags och låter berry-doftande bär-extrakt och vårdande oljor återfukta och mjukgöra medan du sover. Amazon visar 4,6 av 5 från 388 omdömen – ett hyfsat betyg snarare än ett enormt antal – och köpare lyfter framför allt mjukare läppar på morgonen och den mysiga doften.",
+    valueStatement: "LANEIGE Lip Sleeping Mask är en viral K-beauty-favorit för dig som vill ge torra läppar lite extra omsorg på natten. Du lägger på ett lager före läggdags och låter berry-doftande bär-extrakt och vårdande oljor återfukta och mjukgöra medan du sover.",
     passFor: [
       "Vill vårda torra läppar medan du sover.",
       "Gillar K-beauty-rutiner och ett mysigt extrasteg på kvällen.",
@@ -4794,7 +4794,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "laneige-lip-sleeping-mask-skriv-recension",
     targetKeyword: "läppmask",
     metaTitle: "LANEIGE Lip Sleeping Mask – nattläppmask | Elins val",
-    metaDescription: "Elin går igenom LANEIGE Lip Sleeping Mask: en viral K-beauty-läppmask med berry-doft som återfuktar läpparna över natten (4,6 av 5, 388 omdömen) – och vad du bör veta om doft och konsistens.",
+    metaDescription: "Elin går igenom LANEIGE Lip Sleeping Mask: en viral K-beauty-läppmask med berry-doft som återfuktar läpparna över natten – och vad du bör veta om doft och konsistens.",
     relatedLinks: [
       {
         href: "/skonhet/snail-mucin-essence",
@@ -4825,7 +4825,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "La Roche-Posay Cicaplast B5+ – lugnar och mjukgör",
     shortBody: "En multifunktionell balm med panthenol (B5) och shea. Gjord för att lugna, återfukta och mjukgöra torr och stram hud, och fungerar fint på torra partier som läppar och händer.",
     valueHook: "Lugnande balm för torr och stram hud",
-    valueStatement: "La Roche-Posay Cicaplast Baume B5+ är en mångsidig balm för dig som vill lugna och återfukta torr, stram och ovan hud. Formulan bygger på panthenol (B5) tillsammans med shea, en kombination som mjukgör uttorkade partier och hjälper huden att kännas mer komfortabel. Den kan användas på flera ställen – torra läppar, händer och torra partier på kroppen. Amazon visar 4,7 av 5 från 16 635 omdömen, en av de starkaste sociala bevisen i kategorin, och köpare lyfter framför allt hur lugnande och mjukgörande den känns.",
+    valueStatement: "La Roche-Posay Cicaplast Baume B5+ är en mångsidig balm för dig som vill lugna och återfukta torr, stram och ovan hud. Formulan bygger på panthenol (B5) tillsammans med shea, en kombination som mjukgör uttorkade partier och hjälper huden att kännas mer komfortabel. Den kan användas på flera ställen – torra läppar, händer och torra partier på kroppen.",
     passFor: [
       "Har torr, stram eller ovan hud och vill ha en lugnande balm.",
       "Vill ha en multipurpose-balm för torra läppar, händer och torra partier.",
@@ -4857,7 +4857,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "la-roche-posay-cicaplast-b5-skriv-recension",
     targetKeyword: "cicaplast",
     metaTitle: "La Roche-Posay Cicaplast B5+ – lugnar & mjukgör | Elins val",
-    metaDescription: "Elin går igenom La Roche-Posay Cicaplast Baume B5+: en lugnande balm med panthenol (B5) och shea för torr och stram hud (4,7 av 5, 16 635 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom La Roche-Posay Cicaplast Baume B5+: en lugnande balm med panthenol (B5) och shea för torr och stram hud – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/skonhet/snail-mucin-essence",
@@ -4915,7 +4915,7 @@ export const sommarPicks: SommarPick[] = ([
     headline: "La Roche-Posay Vitamin C10 – lyster och glow",
     shortBody: "Ett apoteksserum med 10% ren C-vitamin och hyaluronsyra. Gjort för lyster, glow och en jämnare hudton, med en lätt textur som passar även känslig hud.",
     valueHook: "C-vitamin för lyster och glow",
-    valueStatement: "La Roche-Posay Pure Vitamin C10 är ett antioxidantserum för dig som vill ge huden mer lyster och en piggare, mer strålande look. Formulan bygger på 10% ren C-vitamin tillsammans med hyaluronsyra, en kombination som hjälper huden att se mer utvilad ut och hudtonen att verka jämnare. Amazon visar 4,4 av 5 från 256 omdömen, och köpare lyfter framför allt glowen, den lätta texturen och att den känns skonsam även för känslig hud.",
+    valueStatement: "La Roche-Posay Pure Vitamin C10 är ett antioxidantserum för dig som vill ge huden mer lyster och en piggare, mer strålande look. Formulan bygger på 10% ren C-vitamin tillsammans med hyaluronsyra, en kombination som hjälper huden att se mer utvilad ut och hudtonen att verka jämnare.",
     passFor: [
       "Vill ge huden mer lyster och glow i morgonrutinen.",
       "Har känslig hud och vill ha ett mildare C-vitaminserum.",
@@ -4947,7 +4947,7 @@ export const sommarPicks: SommarPick[] = ([
     reviewFormId: "la-roche-posay-vitamin-c10-skriv-recension",
     targetKeyword: "vitamin c serum",
     metaTitle: "La Roche-Posay Vitamin C10 Serum – lyster & glow | Elins val",
-    metaDescription: "Elin går igenom La Roche-Posay Pure Vitamin C10: ett apoteksserum med 10% ren C-vitamin för lyster och glow (4,4 av 5, 256 omdömen) – och vad du bör veta om känslig hud.",
+    metaDescription: "Elin går igenom La Roche-Posay Pure Vitamin C10: ett apoteksserum med 10% ren C-vitamin för lyster och glow – och vad du bör veta om känslig hud.",
     relatedLinks: [
       {
         href: "/skonhet/niacinamide-serum",
@@ -4970,7 +4970,7 @@ export const sommarPicks: SommarPick[] = ([
     productSlug: stTropezSelfTanExpressProduct.slug,
     href: "/skonhet/brun-utan-sol",
     cardBadge: "Naturligast glow",
-    cardHook: "Naturlig brun utan sol på en timme - 15 000+ omdömen.",
+    cardHook: "Jämför nyans och applicering innan du väljer brun utan sol.",
     cardImage:
       "/products/brun-utan-sol-st-tropez/brun-utan-sol-st-tropez-thumbnail.webp",
     cardImageAlt: "St.Tropez Self Tan Express brun-utan-sol-mousse, 200 ml",
@@ -4982,7 +4982,7 @@ export const sommarPicks: SommarPick[] = ([
       "Den mest beprövade brun-utan-sol-moussen på Amazon: du styr själv färgen och får en naturlig glow utan att vara i solen.",
     valueHook: "Den mest beprövade brun-utan-sol för en naturlig glow.",
     valueStatement:
-      "St.Tropez Self Tan Express är en av de mest sålda och högst betygsatta brun-utan-sol-mousserna på Amazon - 4,4 av 5 från över 15 000 omdömen. Du styr själv färgen: skölj av efter 1 timme för en lätt ton, 2 timmar för medel och 3 timmar för mörk. Den är vegansk och cruelty-free, och köparna lyfter framför allt den naturliga, icke-orangea färgen och den fräscha doften. Det är inte den billigaste, men för en pålitlig, jämn glow inför sommaren och midsommar är det få som slår den.",
+      "Kontrollera applicering, avsköljning och önskad nyans innan du väljer brun utan sol. Vi har inte verifierat aktuella kundbetyg, hållbarhet på huden eller att den här moussen ger ett bättre resultat än billigare alternativ.",
     passFor: [
       "Vill ha en naturlig solbränna utan sol, lagom till sommaren eller midsommar.",
       "Vill styra hur mörk färgen blir (1, 2 eller 3 timmar).",
@@ -5035,7 +5035,7 @@ export const sommarPicks: SommarPick[] = ([
     targetKeyword: "brun utan sol bäst i test",
     metaTitle: "Brun utan sol - St.Tropez Self Tan Express i test | Elins val",
     metaDescription:
-      "Elin går igenom St.Tropez Self Tan Express: en av de mest beprövade brun-utan-sol-mousserna (4,4 av 5, 15 000+ omdömen). Naturlig glow på 1-3 timmar, vegansk - och vad du bör veta om pris och hållbarhet.",
+      "Elin går igenom St.Tropez Self Tan Express: en av de mest beprövade brun-utan-sol-mousserna . Naturlig glow på 1-3 timmar, vegansk - och vad du bör veta om pris och hållbarhet.",
   },
   {
     productSlug: elfSkinBronzingDropsProduct.slug,
@@ -5100,13 +5100,13 @@ export const sommarPicks: SommarPick[] = ([
     targetKeyword: "bronzing drops",
     metaTitle: "Bronzing drops i test - e.l.f. SKIN flytande bronzer | Elins val",
     metaDescription:
-      "Elin går igenom e.l.f. SKIN Bronzing Drops: ett prisvärt, veganskt sätt att få en naturlig glow du blandar själv (4,3 av 5, 1 500+ omdömen) - och vad du bör veta om dosering och hudton.",
+      "Elin går igenom e.l.f. SKIN Bronzing Drops: ett prisvärt, veganskt sätt att få en naturlig glow du blandar själv - och vad du bör veta om dosering och hudton.",
   },
   {
     productSlug: niveaSunAfterSunLotionProduct.slug,
     href: "/skonhet/aftersun",
     cardBadge: "Mest prisvärd",
-    cardHook: "Svalkande aloe vera efter solen - 4,6 av 5.",
+    cardHook: "Läs om formulan och när du kan avstå från ett extra köp.",
     cardImage: "/products/aftersun-nivea/aftersun-nivea-thumbnail.webp",
     cardImageAlt: "NIVEA SUN After Sun Moisturising Soothing Lotion, 200 ml",
     product: niveaSunAfterSunLotionProduct,
@@ -5116,7 +5116,7 @@ export const sommarPicks: SommarPick[] = ([
       "NIVEA Sun After Sun Moisturising Lotion är ett prisvärt, beprövat after sun som kyler och återfuktar huden efter en dag i solen.",
     valueHook: "Mest beprövade after sun för pengarna.",
     valueStatement:
-      "NIVEA SUN After Sun är ett av de mest älskade after sun-valen på Amazon - 4,6 av 5 från över 3 000 omdömen. Den svalkande lotionen med aloe vera och avokadoolja absorberas snabbt, återfuktar och hjälper huden att kännas mjuk efter solen. Köparna lyfter att den kyler skönt, doftar fräscht och inte känns fet.",
+      "Den svenska tillverkarsidan anger en lotion på 200 ml med parfym och Alcohol Denat. Butiksvarianten är inte matchad; jämför formulan med det du redan använder.",
     passFor: [
       "Vill ha ett svalkande, återfuktande after sun efter stranden eller midsommar.",
       "Vill ha ett tryggt, beprövat märke till ett lågt pris.",
@@ -5182,7 +5182,7 @@ export const sommarPicks: SommarPick[] = ([
     productSlug: naissanceAloeVeraGelProduct.slug,
     href: "/skonhet/aloe-vera-gel",
     cardBadge: "Svalka efter solen",
-    cardHook: "Kylande, vegansk aloe vera - 3 300+ omdömen.",
+    cardHook: "Kontrollera gelens formula och exakt variant före köp.",
     cardImage:
       "/products/naissance-aloe-vera-gel/naissance-aloe-vera-gel-thumbnail.webp",
     cardImageAlt: "Naissance Skin Soothing Aloe Vera Gel, 250 ml",
@@ -5194,7 +5194,7 @@ export const sommarPicks: SommarPick[] = ([
     valueHook:
       "Svalkande, vegansk aloe vera efter solen - prisvärd och mångsidig.",
     valueStatement:
-      "Naissance Skin Soothing Aloe Vera Gel är en av de mest sålda aloe vera-gelerna på Amazon - 4,5 av 5 från över 3 300 omdömen och topp-2 bland After Sun Care. Gelen (99% naturligt ursprung, vegansk och fri från parfym, alkohol och tillsatser) svalkar och återfuktar huden efter en dag i solen, och kan användas på ansikte, kropp och till och med i håret. Köparna - många med känslig hud - lyfter den svalkande, lugnande känslan och att lite räcker långt. Ett prisvärt sommarbasplagg för svalka efter sol och bad.",
+      "N° 707 är en formulerad gel med flera ingredienser. Vi har inte testat den på hud eller verifierat att butikens förpackning motsvarar tillverkarens aktuella 250 ml.",
     passFor: [
       "Vill ha en svalkande, återfuktande gel efter sol, bad eller rakning.",
       "Har känslig hud och föredrar parfym- och alkoholfritt, veganskt.",
@@ -5275,7 +5275,7 @@ export const sommarPicks: SommarPick[] = ([
       "En viral K-beauty dual-essence med 74% snigelsekret och 5% niacinamide. Lätt, icke-klibbig och gjord för fukt, lyster och en jämnare hudton.",
     valueHook: "K-beauty-favoriten för fukt och lyster",
     valueStatement:
-      "COSRX Snail Mucin 74% + Niacinamide Dual Essence är en lätt essence för dig som vill lägga till återfuktning och dewy lyster utan tung känsla. Formulan kombinerar 74% snigelsekret med 5% niacinamide, en kombination som hjälper huden att kännas slätare och hudtonen att se jämnare ut. Amazon visar 4,5 av 5 från 7 238 omdömen, och köpare lyfter framför allt den silkeslena känslan, snabb absorption och att den inte känns klibbig.",
+      "COSRX Snail Mucin 74% + Niacinamide Dual Essence är en lätt essence för dig som vill lägga till återfuktning och dewy lyster utan tung känsla. Formulan kombinerar 74% snigelsekret med 5% niacinamide, en kombination som hjälper huden att kännas slätare och hudtonen att se jämnare ut.",
     passFor: [
       "Vill ha en viral K-beauty-essence för fukt och lyster.",
       "Gillar lätta lager under fuktkräm och makeup.",
@@ -5314,7 +5314,7 @@ export const sommarPicks: SommarPick[] = ([
     targetKeyword: "snail mucin",
     metaTitle: "COSRX Snail Mucin Essence - K-beauty för fukt | Elins val",
     metaDescription:
-      "Elin går igenom COSRX Snail Mucin 74% + Niacinamide Dual Essence: en viral, lätt K-beauty-essence för fukt och lyster (4,5 av 5, 7 238 omdömen) - och vad du bör veta om konsistensen.",
+      "Elin går igenom COSRX Snail Mucin 74% + Niacinamide Dual Essence: en viral, lätt K-beauty-essence för fukt och lyster - och vad du bör veta om konsistensen.",
     relatedLinks: [
       {
         href: "/guider/snail-mucin-vart-hypen",
@@ -5337,7 +5337,7 @@ export const sommarPicks: SommarPick[] = ([
     productSlug: minimalistHyaluronsyraSerumProduct.slug,
     href: "/skonhet/hyaluronsyra-serum",
     cardBadge: "Parfymfritt fukt-serum",
-    cardHook: "2% hyaluronsyra + PGA - 7 000+ omdömen.",
+    cardHook: "Jämför serumet med den hudvård du redan använder.",
     cardImage:
       "/products/minimalist-hyaluronsyra-serum/minimalist-hyaluronsyra-serum-thumbnail.webp",
     cardImageAlt: "Minimalist 2% Hyaluronic Acid + PGA Face Serum, 30 ml",
@@ -5349,7 +5349,7 @@ export const sommarPicks: SommarPick[] = ([
     valueHook:
       "Prisvärt fukt-serum som återfuktar på flera nivåer.",
     valueStatement:
-      "Minimalist 2% Hyaluronic Acid + PGA Face Serum är ett enkelt fuktsteg för dig som vill ha återfuktning utan parfym och onödigt krångel. Formulan kombinerar 2% hyaluronsyra i flera molekylstorlekar med PGA (polyglutaminsyra) och vitamin B5 för att hjälpa huden att kännas mjukare och mer återfuktad. Amazon visar 4,3 av 5 från över 7 000 omdömen, och profilen är parfymfri, silikonfri och icke-komedogen.",
+      "Minimalist 2% Hyaluronic Acid + PGA Face Serum är ett enkelt fuktsteg för dig som vill ha återfuktning utan parfym och onödigt krångel. Formulan kombinerar 2% hyaluronsyra i flera molekylstorlekar med PGA (polyglutaminsyra) och vitamin B5 för att hjälpa huden att kännas mjukare och mer återfuktad.",
     passFor: [
       "Vill ha ett prisvärt, parfymfritt fukt-serum för ansiktet.",
       "Har känslig, fet eller kombinerad hud och vill hålla rutinen enkel.",
@@ -5389,7 +5389,7 @@ export const sommarPicks: SommarPick[] = ([
     metaTitle:
       "Hyaluronsyra serum - Minimalist 2% Hyaluronic Acid + PGA | Elins val",
     metaDescription:
-      "Elin går igenom Minimalist 2% Hyaluronic Acid + PGA: ett prisvärt, parfymfritt fukt-serum för alla hudtyper (4,3 av 5, 7 000+ omdömen) - och hur du använder hyaluronsyra rätt.",
+      "Elin går igenom Minimalist 2% Hyaluronic Acid + PGA: ett prisvärt, parfymfritt fukt-serum för alla hudtyper - och hur du använder hyaluronsyra rätt.",
     relatedLinks: [
       {
         href: "/skonhet/jojobaolja",
@@ -5407,7 +5407,7 @@ export const sommarPicks: SommarPick[] = ([
     productSlug: inkeyNiacinamideSerumProduct.slug,
     href: "/skonhet/niacinamide-serum",
     cardBadge: "Mattande niacinamide-serum",
-    cardHook: "10% niacinamide i lätt gel - 1 500+ omdömen.",
+    cardHook: "Behöver du ytterligare ett serum i din rutin?",
     cardImage:
       "/products/inkey-niacinamide-serum/inkey-niacinamide-serum-thumbnail.webp",
     cardImageAlt: "The INKEY List 10% Niacinamide Serum, 30 ml",
@@ -5418,7 +5418,7 @@ export const sommarPicks: SommarPick[] = ([
       "Ett lätt, prisvärt gel-serum med 10% niacinamide (vitamin B3) och en touch hyaluronsyra. Mattar fett och glans och hjälper till att jämna ut hudtonen – ett enkelt steg för fet och blandhy.",
     valueHook: "Prisvärt niacinamide-serum för fet och blandhy",
     valueStatement:
-      "The INKEY List 10% Niacinamide Serum är ett lätt, prisvärt gel-serum med 10% niacinamide (vitamin B3) och en touch hyaluronsyra. Mattar fett och glans och hjälper till att jämna ut hudtonen – ett enkelt steg för fet och blandhy. Amazon visar 4,2 av 5 från över 1 500 omdömen, och profilen är parfymfri med en lätt gel som lägger sig osynligt under annan hudvård.",
+      "The INKEY List 10% Niacinamide Serum är ett lätt, prisvärt gel-serum med 10% niacinamide (vitamin B3) och en touch hyaluronsyra. Mattar fett och glans och hjälper till att jämna ut hudtonen – ett enkelt steg för fet och blandhy.",
     passFor: [
       "Vill ha ett prisvärt niacinamide-serum för fet eller blandad hy.",
       "Vill matta fett och glans utan en tung känsla.",
@@ -5458,7 +5458,7 @@ export const sommarPicks: SommarPick[] = ([
     metaTitle:
       "Niacinamide serum - The INKEY List 10% Niacinamide | Elins val",
     metaDescription:
-      "Elin går igenom The INKEY List 10% Niacinamide Serum: ett lätt, prisvärt gel-serum för fet och blandhy (4,2 av 5, 1 500+ omdömen) - och hur du använder niacinamide rätt.",
+      "Elin går igenom The INKEY List 10% Niacinamide Serum: ett lätt, prisvärt gel-serum för fet och blandhy - och hur du använder niacinamide rätt.",
     relatedLinks: [
       {
         href: "/skonhet/hyaluronsyra-serum",
@@ -5476,7 +5476,7 @@ export const sommarPicks: SommarPick[] = ([
     productSlug: kanzyJojobaoljaProduct.slug,
     href: "/skonhet/jojobaolja",
     cardBadge: "Kallpressad jojobaolja",
-    cardHook: "Mångsidig olja för hud, hår och naglar - 40 000+ omdömen.",
+    cardHook: "Utgå från ett tydligt användningsområde innan du väljer olja.",
     cardImage: "/products/kanzy-jojobaolja/kanzy-jojobaolja-thumbnail.webp",
     cardImageAlt: "Kanzy Jojoba Oil Cold Pressed 100% Pure, 120 ml",
     product: kanzyJojobaoljaProduct,
@@ -5487,7 +5487,7 @@ export const sommarPicks: SommarPick[] = ([
     valueHook:
       "Mångsidig, prisvärd jojobaolja för hud, hår & naglar.",
     valueStatement:
-      "Kanzy Jojoba Oil är en ren, kallpressad och vegansk jojobaolja som fungerar som ett enkelt mjukgörande steg för hud, hår och naglar. Jojoba liknar hudens eget sebum, vilket gör den lätt att använda även när huden är fet eller kombinerad. Amazon visar 4,4 av 5 från över 40 000 omdömen, och produkten lyfts som bästsäljare bland kroppsoljor med 100% ren, hexanfri profil.",
+      "Kanzy Jojoba Oil är en ren, kallpressad och vegansk jojobaolja som fungerar som ett enkelt mjukgörande steg för hud, hår och naglar. Jojoba liknar hudens eget sebum, vilket gör den lätt att använda även när huden är fet eller kombinerad.",
     passFor: [
       "Vill ha en ren, mångsidig olja för hud, hår och naglar.",
       "Föredrar kallpressad, vegansk och hexanfri jojobaolja.",
@@ -5526,7 +5526,7 @@ export const sommarPicks: SommarPick[] = ([
     targetKeyword: "jojobaolja",
     metaTitle: "Jojobaolja - Kanzy Cold Pressed 100% Pure | Elins val",
     metaDescription:
-      "Elin går igenom Kanzy Jojoba Oil: kallpressad, vegansk jojobaolja för hud, hår och naglar (4,4 av 5, 40 000+ omdömen) - och hur några droppar används rätt.",
+      "Elin går igenom Kanzy Jojoba Oil: kallpressad, vegansk jojobaolja för hud, hår och naglar - och hur några droppar används rätt.",
     relatedLinks: [
       {
         href: "/skonhet/hyaluronsyra-serum",
@@ -5662,7 +5662,7 @@ export const sommarPicks: SommarPick[] = ([
       "Moroccanoil torrschampo Light är ett premium-torrschampo för ljust hår som suger upp fett mellan tvättar och mattar gulton i blont hår.",
     valueHook: "Det fräscha torrschampot för ljust hår mellan tvättar.",
     valueStatement:
-      "Moroccanoil Torrschampo (Light Tones) suger upp fett och fräschar upp håret snabbt mellan tvättar, utan tråkiga puderrester. Den finmalda risstärkelsen ger en mjuk, silkeslen finish, och de lila pigmenten hjälper till att matta gulton i ljust och blont hår. 4,5 av 5 från nästan 13 000 omdömen och en härlig signaturdoft - ett premiumval för soliga sommardagar då håret behöver en snabb uppfräschning.",
+      "Moroccanoil Torrschampo (Light Tones) suger upp fett och fräschar upp håret snabbt mellan tvättar, utan tråkiga puderrester. Den finmalda risstärkelsen ger en mjuk, silkeslen finish, och de lila pigmenten hjälper till att matta gulton i ljust och blont hår.",
     passFor: [
       "Har ljust eller blont hår och vill matta gulton mellan tvättar.",
       "Vill fräscha upp fett hår snabbt - på resan eller mellan tvättar.",
@@ -5745,7 +5745,7 @@ export const sommarPicks: SommarPick[] = ([
       "En laddbar, vattentät elektrisk fotfil som tar bort hård hud snabbt - för släta, sandalfina fötter inför sommaren.",
     valueHook: "Prisvärt sätt att få sandalfina fötter hemma.",
     valueStatement:
-      "VXDOIRK elektriska fotfil tar bort hård hud och förhårdnader hemma - snabbt, utan att du behöver göra jobbet manuellt. Den är laddbar via USB, vattentät (IPX5) för wet & dry, har två hastigheter, en batteridisplay och tre utbytbara sliprullar för olika hårdhet. 4,4 av 5 från över 1 700 omdömen - ett prisvärt sätt att slippa dyra fotvårdsbesök inför sandalsäsongen.",
+      "VXDOIRK elektriska fotfil tar bort hård hud och förhårdnader hemma - snabbt, utan att du behöver göra jobbet manuellt. Den är laddbar via USB, vattentät (IPX5) för wet & dry, har två hastigheter, en batteridisplay och tre utbytbara sliprullar för olika hårdhet.",
     passFor: [
       "Vill ha släta, sandalfina fötter inför sommaren.",
       "Vill slippa manuell fotfil eller dyra fotvårdsbesök.",
@@ -5792,7 +5792,7 @@ export const sommarPicks: SommarPick[] = ([
     targetKeyword: "elektrisk fotfil bäst i test",
     metaTitle: "Elektrisk fotfil bäst i test - VXDOIRK laddbar | Elins val",
     metaDescription:
-      "Elin går igenom VXDOIRK elektriska fotfil: laddbar, vattentät, 3 sliprullar och 2 hastigheter för sandalfina fötter (4,4 av 5, 1 700+ omdömen) - och vad du bör veta.",
+      "Elin går igenom VXDOIRK elektriska fotfil: laddbar, vattentät, 3 sliprullar och 2 hastigheter för sandalfina fötter - och vad du bör veta.",
   },
   {
     productSlug: lorealElvitalVarmeskyddProduct.slug,
@@ -5868,7 +5868,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Govee WiFi termometer/hygrometer – smart 2-pack",
     shortBody: "En smart WiFi-termometer och hygrometer i 2-pack. Mäter temperatur och luftfuktighet och kan larma i appen – smidigt för dig som vill hålla koll på inomhusklimatet på flera platser.",
     valueHook: "Smart termometer och hygrometer med larm i appen",
-    valueStatement: "Govee WiFi termometer/hygrometer är ett 2-pack för dig som vill hålla koll på inomhusklimatet utan krångel. Sensorerna mäter temperatur och luftfuktighet och kopplas till en app där du kan följa värdena och få larm om de går utanför det du ställt in. Att det är ett 2-pack gör det enkelt att placera en sensor i olika rum. Amazon visar ett gott snittbetyg från många köpare, som framför allt lyfter appen, larmfunktionen och hur smidigt det är att se värdena på flera platser.",
+    valueStatement: "Govee WiFi termometer/hygrometer är ett 2-pack för dig som vill hålla koll på inomhusklimatet utan krångel. Sensorerna mäter temperatur och luftfuktighet och kopplas till en app där du kan följa värdena och få larm om de går utanför det du ställt in. Att det är ett 2-pack gör det enkelt att placera en sensor i olika rum. Vi har inte verifierat aktuella kundbetyg, appfunktionerna eller mätprecisionen.",
     passFor: [
       "Vill följa temperatur och luftfuktighet direkt i en app.",
       "Önskar larm som hjälper dig fånga upp värden i tid.",
@@ -5985,7 +5985,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Oral-B iO 5S – rund borste och tryckvakt",
     shortBody: "En elektrisk tandborste med rund borste och magnetteknik. Tryckvakten hjälper dig att borsta lagom hårt, för en skön och ren känsla i munnen i den dagliga rutinen.",
     valueHook: "Elektrisk tandborste med rund borste och tryckvakt",
-    valueStatement: "Oral-B iO 5S är en eltandborste för dig som vill ha en skön, ren känsla i munnen utan att borsta för hårt. Den runda borsten är gjord för att föras runt varje tand, och magnettekniken ger en jämn rörelse. Tryckvakten varnar när du trycker för hårt, vilket gör det enklare att hitta lagom tryck. Amazon visar 4,6 av 5 från 401 omdömen, och köpare lyfter framför allt den rena känslan, tryckvakten och hur lätt den är att hantera i vardagen.",
+    valueStatement: "Oral-B iO 5S är en eltandborste för dig som vill ha en skön, ren känsla i munnen utan att borsta för hårt. Den runda borsten är gjord för att föras runt varje tand, och magnettekniken ger en jämn rörelse. Tryckvakten varnar när du trycker för hårt, vilket gör det enklare att hitta lagom tryck.",
     passFor: [
       "Vill ha en elektrisk tandborste med rund borste till vardagsrutinen.",
       "Önskar en tryckvakt som hjälper dig att inte borsta för hårt.",
@@ -6017,7 +6017,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "oralb-tandborste-skriv-recension",
     targetKeyword: "elektrisk tandborste",
     metaTitle: "Oral-B iO 5S eltandborste – rund borste & tryckvakt | Elins val",
-    metaDescription: "Elin går igenom Oral-B iO 5S: en elektrisk tandborste med rund borste och tryckvakt för en skön, ren känsla (4,6 av 5, 401 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom Oral-B iO 5S: en elektrisk tandborste med rund borste och tryckvakt för en skön, ren känsla – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6048,7 +6048,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "eufy C10 robotdammsugare – automatisk golvstädning",
     shortBody: "En prisvärd robotdammsugare som sköter golvstädningen automatiskt. Du startar och schemalägger städningen i appen och låter roboten ta hand om vardagsdammet på golvet.",
     valueHook: "Prisvärd robotdammsugare med appstyrning",
-    valueStatement: "eufy C10 är en robotdammsugare för dig som vill slippa dra fram dammsugaren varje dag. Den sköter golvstädningen automatiskt och styrs via appen, där du kan schemalägga städningen så att roboten håller golvet rent i vardagen. Amazon visar 4,1 av 5 från 421 omdömen, och köpare lyfter framför allt att den är prisvärd, enkel att styra via appen och praktisk för automatisk golvstädning.",
+    valueStatement: "eufy C10 är en robotdammsugare för dig som vill slippa dra fram dammsugaren varje dag. Den sköter golvstädningen automatiskt och styrs via appen, där du kan schemalägga städningen så att roboten håller golvet rent i vardagen.",
     passFor: [
       "Vill ha hjälp med den dagliga golvstädningen utan att lyfta ett finger.",
       "Gillar att kunna schemalägga och starta städningen direkt i appen.",
@@ -6080,7 +6080,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "eufy-robotdammsugare-skriv-recension",
     targetKeyword: "robotdammsugare budget",
     metaTitle: "eufy C10 robotdammsugare – prisvärd & appstyrd | Elins val",
-    metaDescription: "Elin går igenom eufy C10: en prisvärd robotdammsugare som sköter golvstädningen automatiskt med appstyrning (4,1 av 5, 421 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom eufy C10: en prisvärd robotdammsugare som sköter golvstädningen automatiskt med appstyrning – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6111,7 +6111,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Govee Neon Rope Light 2 – böjbar neon för stämningsbelysning",
     shortBody: "En böjbar neon LED-list med RGBIC-färger och appstyrning. Forma den fritt längs väggar, hyllor eller bakom tv:n för en mjuk stämningsbelysning och en mysig kvällskänsla.",
     valueHook: "Böjbar neon för mysig stämningsbelysning",
-    valueStatement: "Govee Neon Rope Light 2 är en böjbar neon LED-list för dig som vill skapa en mjuk, färgstark stämningsbelysning hemma. Med RGBIC-färger kan flera färger visas samtidigt längs listen, och appstyrningen gör det enkelt att byta färg och stämning för en mysig kvällskänsla. Listen går att forma fritt längs väggar, hyllor eller bakom tv:n. Amazon visar 4,6 av 5 från 550 omdömen, och köpare lyfter framför allt den mjuka neonkänslan, färgerna och hur lätt det är att forma den.",
+    valueStatement: "Govee Neon Rope Light 2 är en böjbar neon LED-list för dig som vill skapa en mjuk, färgstark stämningsbelysning hemma. Med RGBIC-färger kan flera färger visas samtidigt längs listen, och appstyrningen gör det enkelt att byta färg och stämning för en mysig kvällskänsla. Listen går att forma fritt längs väggar, hyllor eller bakom tv:n.",
     passFor: [
       "Vill skapa en mjuk stämningsbelysning och en mysig kvällskänsla.",
       "Gillar att forma neon fritt längs väggar, hyllor eller bakom tv:n.",
@@ -6143,7 +6143,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "govee-led-list-skriv-recension",
     targetKeyword: "ljusslinga LED-list",
     metaTitle: "Govee Neon Rope Light 2 RGBIC – böjbar neon LED-list | Elins val",
-    metaDescription: "Elin går igenom Govee Neon Rope Light 2: en böjbar neon LED-list med RGBIC-färger och appstyrning för stämningsbelysning (4,6 av 5, 550 omdömen) – och hur du formar den rätt.",
+    metaDescription: "Elin går igenom Govee Neon Rope Light 2: en böjbar neon LED-list med RGBIC-färger och appstyrning för stämningsbelysning – och hur du formar den rätt.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6174,7 +6174,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Gritin 19 LED – klämlampa för sängläsning",
     shortBody: "En uppladdningsbar klämlampa med flera ljuslägen, gjord för att läsa i sängen utan att störa den som sover bredvid. Lätt att klämma fast på boken eller sänggaveln.",
     valueHook: "Läs i sängen utan att störa",
-    valueStatement: "Gritin 19 LED är klämlampan för dig som gillar att läsa en stund innan du somnar utan att tända taklampan. Den är uppladdningsbar, har flera ljuslägen och kläms enkelt fast på boken eller sänggaveln så att ljuset hamnar precis där du vill. Amazon visar 4,8 av 5 från 17872 omdömen, och köpare lyfter framför allt att man kan läsa utan att störa partnern, de olika ljuslägena och den smidiga klämman.",
+    valueStatement: "Gritin 19 LED är klämlampan för dig som gillar att läsa en stund innan du somnar utan att tända taklampan. Den är uppladdningsbar, har flera ljuslägen och kläms enkelt fast på boken eller sänggaveln så att ljuset hamnar precis där du vill.",
     passFor: [
       "Vill läsa i sängen utan att störa den som sover bredvid.",
       "Önskar flera ljuslägen för att ställa in en behaglig ljusstyrka.",
@@ -6206,7 +6206,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "gritin-laslampa-skriv-recension",
     targetKeyword: "klämlampa läslampa",
     metaTitle: "Gritin 19 LED läslampa / klämlampa – läs i sängen | Elins val",
-    metaDescription: "Elin går igenom Gritin 19 LED: en uppladdningsbar klämlampa med flera ljuslägen (4,8 av 5, 17872 omdömen) – för att läsa i sängen utan att störa.",
+    metaDescription: "Elin går igenom Gritin 19 LED: en uppladdningsbar klämlampa med flera ljuslägen – för att läsa i sängen utan att störa.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6237,7 +6237,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "soundcore Motion 300 – portabelt ljud överallt",
     shortBody: "En portabel bluetooth-högtalare med fylligt ljud och lång batteritid. Smidig att ta med mellan rummen och ut i trädgården, och enkel att para ihop med mobilen.",
     valueHook: "Fylligt ljud för hemma och utomhus",
-    valueStatement: "soundcore Motion 300 är högtalaren för dig som vill ha fylligt ljud utan att vara bunden till en plats. Den är portabel, har lång batteritid och paras enkelt ihop med mobilen – lika smidig i köket på morgonen som på altanen på kvällen. Amazon visar 4,6 av 5 från 3475 omdömen, och köpare lyfter framför allt det fylliga ljudet, den långa speltiden och hur lätt den är att ta med.",
+    valueStatement: "soundcore Motion 300 är högtalaren för dig som vill ha fylligt ljud utan att vara bunden till en plats. Den är portabel, har lång batteritid och paras enkelt ihop med mobilen – lika smidig i köket på morgonen som på altanen på kvällen.",
     passFor: [
       "Vill ha en portabel högtalare som följer med mellan rummen och ut.",
       "Önskar fylligt ljud utan en stor, stationär anläggning.",
@@ -6269,7 +6269,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "soundcore-hogtalare-skriv-recension",
     targetKeyword: "bluetooth högtalare",
     metaTitle: "soundcore Motion 300 bluetooth-högtalare – portabelt ljud | Elins val",
-    metaDescription: "Elin går igenom soundcore Motion 300: en portabel bluetooth-högtalare med fylligt ljud och lång batteritid (4,6 av 5, 3475 omdömen) – för både hemma och utomhus.",
+    metaDescription: "Elin går igenom soundcore Motion 300: en portabel bluetooth-högtalare med fylligt ljud och lång batteritid – för både hemma och utomhus.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6300,7 +6300,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Loop Quiet 2 – dämpa ljud för lugnare sömn",
     shortBody: "Återanvändbara öronproppar som dämpar ljud för lugnare sömn, fokus och resor. Diskreta att ha i öronen och med flera storlekar på öronkuddarna, så att du kan hitta en passform som sitter bekvämt.",
     valueHook: "Dämpar ljud för lugnare sömn, fokus och resor",
-    valueStatement: "Loop Quiet 2 är återanvändbara öronproppar för dig som vill ha en lugnare ljudmiljö. De dämpar ljud runt omkring dig så att det kan bli skönare att sova, fokusera eller resa, och de levereras med flera storlekar på öronkuddarna för en bekväm passform. Amazon visar 4,1 av 5 från 28787 omdömen, och köpare lyfter framför allt ljuddämpningen, att propparna sitter diskret och bekvämt och att det går att finjustera passformen med de olika storlekarna.",
+    valueStatement: "Loop Quiet 2 är återanvändbara öronproppar för dig som vill ha en lugnare ljudmiljö. De dämpar ljud runt omkring dig så att det kan bli skönare att sova, fokusera eller resa, och de levereras med flera storlekar på öronkuddarna för en bekväm passform.",
     passFor: [
       "Vill ha en lugnare ljudmiljö när du sover eller fokuserar.",
       "Reser ofta och vill dämpa ljud på tåg, flyg eller hotell.",
@@ -6332,7 +6332,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "loop-oronproppar-skriv-recension",
     targetKeyword: "öronproppar för sömn",
     metaTitle: "Loop Quiet 2 öronproppar för sömn – dämpar ljud | Elins val",
-    metaDescription: "Elin går igenom Loop Quiet 2: återanvändbara öronproppar som dämpar ljud för lugnare sömn, fokus och resor (4,1 av 5, 28787 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom Loop Quiet 2: återanvändbara öronproppar som dämpar ljud för lugnare sömn, fokus och resor – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6363,7 +6363,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Manta Sleep Mask – helt mörkt utan tryck mot ögonen",
     shortBody: "En justerbar sovmask med formade ögonkåpor som blockar ljus helt. Kåporna gör att den kan ligga mörkt utan att trycka mot ögonen, för dig som vill ha riktigt mörkt när du sover, hemma eller på resa.",
     valueHook: "Mörkläggande sovmask utan tryck mot ögonen",
-    valueStatement: "Manta Sleep Mask är gjord för dig som vill ha det riktigt mörkt när du sover. De formade ögonkåporna blockar ljus helt samtidigt som de lämnar plats runt ögonen, så att masken kan kännas behaglig utan att trycka. Med en justerbar rem går passformen att anpassa efter ditt ansikte. Amazon visar 4,4 av 5 från 14443 omdömen, och köpare lyfter framför allt den effektiva mörkläggningen, att kåporna inte trycker mot ögonen och den bekväma, justerbara passformen.",
+    valueStatement: "Manta Sleep Mask är gjord för dig som vill ha det riktigt mörkt när du sover. De formade ögonkåporna blockar ljus helt samtidigt som de lämnar plats runt ögonen, så att masken kan kännas behaglig utan att trycka. Med en justerbar rem går passformen att anpassa efter ditt ansikte.",
     passFor: [
       "Vill ha det helt mörkt när du sover, hemma eller på resa.",
       "Tycker vanliga sovmasker trycker obekvämt mot ögonen.",
@@ -6395,7 +6395,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "manta-sovmask-skriv-recension",
     targetKeyword: "sovmask",
     metaTitle: "Manta Sleep Mask – 100% mörkläggande sovmask | Elins val",
-    metaDescription: "Elin går igenom Manta Sleep Mask: en justerbar, 100% mörkläggande sovmask med formade ögonkåpor utan tryck mot ögonen (4,4 av 5, 14443 omdömen).",
+    metaDescription: "Elin går igenom Manta Sleep Mask: en justerbar, 100% mörkläggande sovmask med formade ögonkåpor utan tryck mot ögonen .",
     relatedLinks: [
       {
         href: "/halsa/sovmask-eller-white-noise",
@@ -6436,7 +6436,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Philips Wake-up Light – mjuk väckning med ljus",
     shortBody: "En ljusväckarklocka med soluppgångssimulering som väcker dig mjukt med ljus som gradvis ökar. För dig som vill ha en behagligare start på morgonen än en plötslig larmsignal, särskilt under de mörka månaderna.",
     valueHook: "Mjuk väckning med ljus som ökar gradvis",
-    valueStatement: "Philips Wake-up Light HF3651/01 är gjord för dig som vill ha en mjukare morgon. Lampan simulerar en soluppgång och låter ljuset öka gradvis inför din väckningstid, så att uppvaknandet kan kännas lugnare och mindre abrupt. Amazon visar 4,4 av 5 från 1525 omdömen, och köpare lyfter framför allt den behagliga väckningen, soluppgångssimuleringen på mörka mornar och att den känns trevligare än ett vanligt larm.",
+    valueStatement: "Philips Wake-up Light HF3651/01 är gjord för dig som vill ha en mjukare morgon. Lampan simulerar en soluppgång och låter ljuset öka gradvis inför din väckningstid, så att uppvaknandet kan kännas lugnare och mindre abrupt.",
     passFor: [
       "Vill ha en mjukare, mer behaglig start på morgonen.",
       "Tycker det är jobbigt att vakna till mörker och plötsliga larm.",
@@ -6468,7 +6468,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "philips-wake-up-light-skriv-recension",
     targetKeyword: "wake-up light ljusväckarklocka",
     metaTitle: "Philips Wake-up Light HF3651/01 – mjuk ljusväckning | Elins val",
-    metaDescription: "Elin går igenom Philips Wake-up Light HF3651/01: ljusväckarklocka med soluppgångssimulering för en mjukare morgon (4,4 av 5, 1525 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom Philips Wake-up Light HF3651/01: ljusväckarklocka med soluppgångssimulering för en mjukare morgon – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6499,7 +6499,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Magicteam white noise – lugn ljudkuliss för sömn och fokus",
     shortBody: "En white noise-maskin med 40 ljud som skapar en jämn, lugn ljudkuliss. Smidig att ställa in och kompakt nog för nattduksbordet, för dig som vill ha en skönare ljudmiljö när du sover eller fokuserar.",
     valueHook: "Lugn ljudkuliss för sömn och fokus",
-    valueStatement: "Magicteam white noise-maskin är gjord för dig som vill ha en jämnare, lugnare ljudmiljö hemma. Med 40 ljud att välja bland kan du hitta en ljudkuliss som passar dig, oavsett om du vill varva ner på kvällen eller fokusera vid skrivbordet. Amazon visar 4,4 av 5 från 11312 omdömen, och köpare lyfter framför allt det stora ljudutbudet, den sköna jämna ljudbilden och hur enkel den är att ställa in.",
+    valueStatement: "Magicteam white noise-maskin är gjord för dig som vill ha en jämnare, lugnare ljudmiljö hemma. Med 40 ljud att välja bland kan du hitta en ljudkuliss som passar dig, oavsett om du vill varva ner på kvällen eller fokusera vid skrivbordet.",
     passFor: [
       "Vill ha en lugn ljudkuliss när du sover eller varvar ner.",
       "Gillar att kunna välja mellan många olika ljud.",
@@ -6531,7 +6531,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "magicteam-white-noise-skriv-recension",
     targetKeyword: "white noise maskin",
     metaTitle: "Magicteam white noise-maskin – 40 ljud för sömn & fokus | Elins val",
-    metaDescription: "Elin går igenom Magicteam white noise-maskin: 40 ljud för en lugn ljudkuliss till sömn och fokus (4,4 av 5, 11312 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom Magicteam white noise-maskin: 40 ljud för en lugn ljudkuliss till sömn och fokus – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/halsa/sovmask-eller-white-noise",
@@ -6572,7 +6572,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Withings Body Smart – följ din utveckling i appen",
     shortBody: "En smart personvåg som mäter vikt och kroppssammansättning och synkar siffrorna till appen. Tydlig display och enkel uppkoppling som gör det lätt att hålla koll på dina mätvärden över tid.",
     valueHook: "Smart våg som följer din utveckling",
-    valueStatement: "Withings Body Smart är en uppkopplad personvåg för dig som vill ha dina vikt- och kroppsdata samlade på ett ställe. Vågen mäter vikt och kroppssammansättning och synkar mätningarna automatiskt till appen, där du enkelt kan följa trender över tid. Amazon visar 4,4 av 5 från 109 omdömen, och köpare lyfter framför allt den smidiga synkningen, den tydliga displayen och hur lätt det är att hålla ordning på sina siffror.",
+    valueStatement: "Withings Body Smart är en uppkopplad personvåg för dig som vill ha dina vikt- och kroppsdata samlade på ett ställe. Vågen mäter vikt och kroppssammansättning och synkar mätningarna automatiskt till appen, där du enkelt kan följa trender över tid.",
     passFor: [
       "Vill ha vikt och kroppsdata samlade i en app.",
       "Gillar att följa sin utveckling i tydliga trender över tid.",
@@ -6604,7 +6604,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "withings-personvag-skriv-recension",
     targetKeyword: "smart personvåg",
     metaTitle: "Withings Body Smart personvåg – följ din utveckling | Elins val",
-    metaDescription: "Elin går igenom Withings Body Smart: en smart personvåg som mäter vikt och kroppssammansättning och synkar till appen (4,4 av 5, 109 omdömen) – och vad du bör veta.",
+    metaDescription: "Elin går igenom Withings Body Smart: en smart personvåg som mäter vikt och kroppssammansättning och synkar till appen – och vad du bör veta.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6635,7 +6635,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Mattibi spikmatta – en stund av avkoppling",
     shortBody: "En spikmatta med tillhörande kudde för en stunds avslappning. Rulla ut den på golvet eller sängen och ligg en stund för att varva ner. Många tycker det känns skönt efter en lång dag – avkoppling, inte behandling.",
     valueHook: "En skön stund av avkoppling",
-    valueStatement: "Mattibi spikmatta med kudde är för dig som vill ha en enkel sak att ta till när du vill varva ner. Du rullar ut mattan på golvet eller sängen och ligger på den en stund, och den tillhörande kudden gör det lätt att varva ner även nacke och axlar. Amazon visar 4,5 av 5 från 452 omdömen, och många tycker det känns skönt att ligga på efter en lång dag. Det handlar om avkoppling och en skön känsla – inte om någon form av behandling.",
+    valueStatement: "Mattibi spikmatta med kudde är för dig som vill ha en enkel sak att ta till när du vill varva ner. Du rullar ut mattan på golvet eller sängen och ligger på den en stund, och den tillhörande kudden gör det lätt att varva ner även nacke och axlar. Det handlar om avkoppling och en skön känsla – inte om någon form av behandling.",
     passFor: [
       "Vill ha en enkel rutin för att varva ner efter en lång dag.",
       "Söker en stund av avkoppling på golvet eller i sängen.",
@@ -6667,7 +6667,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "mattibi-spikmatta-skriv-recension",
     targetKeyword: "spikmatta akupressur",
     metaTitle: "Mattibi spikmatta / akupressurmatta med kudde – varva ner | Elins val",
-    metaDescription: "Elin går igenom Mattibi spikmatta med kudde: en akupressurmatta för en skön stund av avkoppling efter dagen (4,5 av 5, 452 omdömen) – och hur du börjar mjukt.",
+    metaDescription: "Elin går igenom Mattibi spikmatta med kudde: en akupressurmatta för en skön stund av avkoppling efter dagen – och hur du börjar mjukt.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6698,7 +6698,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Beurer HK Comfort – mjuk värmedyna",
     shortBody: "En mjuk värmedyna med flera värmelägen som ger skön värme och en avkopplande känsla för rygg, mage eller axlar. Lägg den tillrätta i soffan, välj värmeläge och luta dig tillbaka för en lugn, varm stund.",
     valueHook: "Skön värme för en avkopplande stund",
-    valueStatement: "Beurer HK Comfort värmedyna är för dig som vill unna dig skön värme och en avkopplande känsla hemma. Det mjuka tyget och flera värmelägen gör den behaglig mot rygg, mage eller axlar, och den är lätt att ta fram i soffan eller sängen. Amazon visar 4,1 av 5 från 4981 omdömen, och köpare lyfter framför allt den sköna värmen och det mjuka tyget – även om upplevelsen av värmenivåerna varierar. Se den som en komfortprodukt för värme och avkoppling.",
+    valueStatement: "Beurer HK Comfort värmedyna är för dig som vill unna dig skön värme och en avkopplande känsla hemma. Det mjuka tyget och flera värmelägen gör den behaglig mot rygg, mage eller axlar, och den är lätt att ta fram i soffan eller sängen. Se den som en komfortprodukt för värme och avkoppling.",
     passFor: [
       "Vill ha skön värme och en avkopplande känsla för rygg, mage eller axlar.",
       "Söker en mjuk dyna att ta fram i soffan eller sängen på kvällen.",
@@ -6730,7 +6730,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "beurer-varmedyna-skriv-recension",
     targetKeyword: "värmedyna",
     metaTitle: "Beurer HK Comfort värmedyna – skön värme & komfort | Elins val",
-    metaDescription: "Elin går igenom Beurer HK Comfort värmedyna: mjukt tyg och flera värmelägen för en avkopplande, varm stund (4,1 av 5, 4981 omdömen) – och hur du använder den rätt.",
+    metaDescription: "Elin går igenom Beurer HK Comfort värmedyna: mjukt tyg och flera värmelägen för en avkopplande, varm stund – och hur du använder den rätt.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6761,13 +6761,13 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Beurer FM 90 – shiatsu fotmassage med värme",
     shortBody: "En shiatsu-fotmassage med roterande noder och mjuk värme som ger en skön, avslappnande stund för trötta fötter. Ställ fram den framför soffan och luta dig tillbaka för en lugn stund efter en lång dag.",
     valueHook: "Skön fotmassage med värme",
-    valueStatement: "Beurer FM 90 shiatsu fotmassage är för dig som vill unna dina trötta fötter en skön, avslappnande stund. De roterande noderna och den mjuka värmen ger en behaglig känsla, och den är lätt att ställa fram framför soffan eller stolen. Amazon visar 3,9 av 5 från 704 omdömen, vilket ligger nära snittet – köpare lyfter den avslappnande känslan och värmen, men passformen och trycket passar inte alla fötter lika bra. Se den som en komfortprodukt för avkoppling.",
+    valueStatement: "Beurer FM 90 shiatsu fotmassage är för dig som vill unna dina trötta fötter en skön, avslappnande stund. De roterande noderna och den mjuka värmen ger en behaglig känsla, och den är lätt att ställa fram framför soffan eller stolen. Se den som en komfortprodukt för avkoppling.",
     passFor: [
       "Vill unna trötta fötter en skön, varm och avslappnande stund.",
       "Söker en mjuk shiatsu-känsla att ta fram på kvällen.",
       "Gillar tanken på lite kvällsmys framför soffan efter en lång dag.",
     ],
-    caution: "Betyget ligger nära snittet (3,9 av 5 från 704 omdömen). Trycket från noderna kan kännas starkt och passformen passar inte alla fötter lika bra – börja med korta stunder. Den är gjord för komfort och avkoppling, inte som en ersättning för vård eller behandling.",
+    caution: "Aktuella kundbetyg är inte verifierade. Trycket från noderna kan kännas starkt och passformen passar inte alla fötter lika bra – börja med korta stunder. Den är gjord för komfort och avkoppling, inte som en ersättning för vård eller behandling.",
     usageGuidance: {
       title: "Så använder du den rätt",
       text: "Ställ fotmassagen på golvet framför soffan eller stolen och placera fötterna lugnt i den. Börja med korta stunder och slå på värmen för en extra mysig känsla. Lyssna på vad som känns skönt och anpassa hur länge du använder den.",
@@ -6793,7 +6793,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "beurer-fotmassage-skriv-recension",
     targetKeyword: "fotmassage",
     metaTitle: "Beurer FM 90 shiatsu fotmassage med värme – sköna fötter | Elins val",
-    metaDescription: "Elin går igenom Beurer FM 90 shiatsu fotmassage med värme: en avslappnande stund för trötta fötter (3,9 av 5, 704 omdömen) – och vad du bör veta om passform och tryck.",
+    metaDescription: "Elin går igenom Beurer FM 90 shiatsu fotmassage med värme: en avslappnande stund för trötta fötter – och vad du bör veta om passform och tryck.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6824,7 +6824,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "RENPHO shiatsu massagekudde – skön värme",
     shortBody: "En shiatsu-massagekudde med roterande noder och mjuk värme som ger en skön, avslappnande känsla i nacke, axlar och rygg. Perfekt att luta sig mot i soffan för en lugn stund efter en lång dag.",
     valueHook: "Skön shiatsu-känsla med värme",
-    valueStatement: "RENPHO shiatsu massagekudde är för dig som vill unna dig en skön, avslappnande stund hemma. De roterande noderna och den mjuka värmen ger en behaglig känsla i nacke, axlar och rygg, och kudden är lätt att placera mot soffan eller stolen. Amazon visar 4,2 av 5 från 6362 omdömen, och köpare lyfter framför allt den avslappnande känslan, värmen och hur mysig den är efter en lång dag. Se den som en komfortprodukt för avkoppling.",
+    valueStatement: "RENPHO shiatsu massagekudde är för dig som vill unna dig en skön, avslappnande stund hemma. De roterande noderna och den mjuka värmen ger en behaglig känsla i nacke, axlar och rygg, och kudden är lätt att placera mot soffan eller stolen. Se den som en komfortprodukt för avkoppling.",
     passFor: [
       "Vill unna dig en skön, varm och avslappnande stund i soffan.",
       "Söker en mjuk shiatsu-känsla för nacke, axlar och rygg.",
@@ -6856,7 +6856,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "renpho-massagekudde-skriv-recension",
     targetKeyword: "massagekudde nacke",
     metaTitle: "RENPHO shiatsu massagekudde med värme – skön & varm | Elins val",
-    metaDescription: "Elin går igenom RENPHO shiatsu massagekudde med värme: en avslappnande kudde för nacke, axlar och rygg (4,2 av 5, 6362 omdömen) – och hur du använder den rätt.",
+    metaDescription: "Elin går igenom RENPHO shiatsu massagekudde med värme: en avslappnande kudde för nacke, axlar och rygg – och hur du använder den rätt.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -6887,13 +6887,13 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Beurer LV 50 – portabel bordsluftkylare",
     shortBody: "En kompakt luftkylare för bordet som ger en svalkande, personlig bris. Fyll på vatten i tanken för en extra sval känsla under varma dagar. Behändig att flytta mellan skrivbord, soffa och nattduksbord.",
     valueHook: "Svalkande bris för skrivbordet",
-    valueStatement: "Beurer LV 50 Fresh Breeze är en liten, portabel bordsluftkylare för dig som vill ha en personlig, svalkande bris alldeles framför dig. Du fyller på vatten i tanken för en extra sval känsla, och den är lätt att flytta mellan skrivbord, soffbord och nattduksbord. Amazon visar 3,6 av 5 från 242 omdömen, vilket är lägre än snittet – många tycker den är behändig, men flera tycker också att den är svag och mest gör skillnad på nära håll. Se den som en personlig bordsfläkt snarare än en rumskylare.",
+    valueStatement: "Beurer LV 50 Fresh Breeze är en liten, portabel bordsluftkylare för dig som vill ha en personlig, svalkande bris alldeles framför dig. Du fyller på vatten i tanken för en extra sval känsla, och den är lätt att flytta mellan skrivbord, soffbord och nattduksbord. Se den som en personlig bordsfläkt snarare än en rumskylare.",
     passFor: [
       "Vill ha en liten, personlig svalka vid skrivbordet under varma dagar.",
       "Söker en behändig bordsmodell som är lätt att flytta runt.",
       "Gillar tanken på en sval bris alldeles framför dig, inte i hela rummet.",
     ],
-    caution: "Betyget är lägre än snittet (3,6 av 5 från 242 omdömen) och flera köpare tycker att den känns svag. Det är en liten personlig bordsmodell som mest märks på nära håll – den kyler inte ett helt rum. Ställ förväntningarna efter storleken.",
+    caution: "Vi har inte verifierat kundbetyg eller gjort ett jämförande kyltest. Det är en liten personlig bordsmodell som mest märks på nära håll – den kyler inte ett helt rum. Ställ förväntningarna efter storleken.",
     usageGuidance: {
       title: "Så använder du den rätt",
       text: "Ställ den nära dig på skrivbordet eller soffbordet och rikta brisen mot dig själv. Fyll på vatten i tanken för en lite svalare känsla. Den är gjord för personlig svalka på nära håll, inte för att kyla hela rummet.",
@@ -6911,15 +6911,15 @@ export const smartSommarPicks: SommarPick[] = ([
         answer: "Du fyller på vatten i tanken för att ge brisen en extra sval känsla. Det är en enkel funktion för personlig svalka på skrivbordet eller soffbordet.",
       },
       {
-        question: "Varför har den lägre betyg på Amazon?",
-        answer: "Amazon visar 3,6 av 5 från 242 omdömen. Flera köpare tycker att den känns svag och mest gör skillnad på nära håll. Den passar dig som vill ha personlig svalka, inte en kraftfull rumskylare.",
+        question: "Har kundbetygen verifierats?",
+        answer: "Vi har inte verifierat ett aktuellt kundbetyg eller antal recensioner för den exakta varianten. Därför använder vi inte sådana siffror som belägg för kvalitet, hållbarhet eller ett köp.",
       },
     ],
     reviewSectionId: "beurer-luftkylare-recensioner",
     reviewFormId: "beurer-luftkylare-skriv-recension",
     targetKeyword: "luftkylare",
     metaTitle: "Beurer LV 50 luftkylare – svalkande bordsbris | Elins val",
-    metaDescription: "Elin går igenom Beurer LV 50 Fresh Breeze: en liten, portabel bordsluftkylare för en svalkande bris (3,6 av 5, 242 omdömen) – och varför det är en personlig modell, inte en rumskylare.",
+    metaDescription: "Elin går igenom Beurer LV 50 Fresh Breeze: en liten, portabel bordsluftkylare för en svalkande bris – och varför det är en personlig modell, inte en rumskylare.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -7003,7 +7003,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "JISULIFE Pro1 handfläkt – svalka på språng",
     shortBody: "En uppladdningsbar handfläkt som vill ge ett kraftfullt men tyst luftflöde. Långt batteri och smidig storlek gör den lätt att ta med när sommarvärmen blir för mycket.",
     valueHook: "Kraftfull men tyst svalka på språng",
-    valueStatement: "JISULIFE Pro1 är en uppladdningsbar handfläkt för dig som vill ha svalka på språng utan att den hörs överallt. Den vill kombinera ett kraftfullt luftflöde med en tyst drift och ett långt batteri, så att den orkar med pendling, utomhusstunder och varma dagar. Amazon visar 4,3 av 5 från 121 omdömen, och köpare lyfter framför allt det kraftfulla luftflödet, den tysta driften och hur länge batteriet håller.",
+    valueStatement: "JISULIFE Pro1 är en uppladdningsbar handfläkt för dig som vill ha svalka på språng utan att den hörs överallt. Den vill kombinera ett kraftfullt luftflöde med en tyst drift och ett långt batteri, så att den orkar med pendling, utomhusstunder och varma dagar.",
     passFor: [
       "Vill ha svalka på språng under varma sommardagar.",
       "Behöver en tyst fläkt som går att använda nära andra.",
@@ -7035,7 +7035,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "jisulife-handflakt-skriv-recension",
     targetKeyword: "handfläkt",
     metaTitle: "JISULIFE Pro1 handfläkt – kraftfull & tyst | Elins val",
-    metaDescription: "Elin går igenom JISULIFE Pro1: en uppladdningsbar handfläkt med kraftfullt men tyst luftflöde och långt batteri (4,3 av 5, 121 omdömen) – svalka på språng i sommarvärmen.",
+    metaDescription: "Elin går igenom JISULIFE Pro1: en uppladdningsbar handfläkt med kraftfullt men tyst luftflöde och långt batteri – svalka på språng i sommarvärmen.",
     relatedLinks: [
       {
         href: "/halsa/luftrenare",
@@ -7066,7 +7066,7 @@ export const smartSommarPicks: SommarPick[] = ([
     headline: "Ella tyngdtäcke 9 kg – jämn tyngd och skön avkoppling",
     shortBody: "Ett tyngdtäcke på 9 kg i storleken 150x200 cm – höstens mysigaste uppgradering av sängen. Den jämnt fördelade vikten ger en omslutande känsla och det mjuka tyget gör mörka kvällar i sängen eller soffan extra ombonade.",
     valueHook: "Jämn tyngd för en skön avkoppling",
-    valueStatement: "Ella tyngdtäcke är ett tyngdtäcke på 9 kg (150x200 cm) för dig som vill ha en jämn, omslutande tyngd och en skön, avkopplande känsla i sängen. Vikten är jämnt fördelad och tyget är mjukt mot huden, vilket många upplever som mysigt och lugnande. Amazon visar 4,5 av 5 från 1 532 omdömen, och köpare lyfter framför allt den jämna tyngden, den omslutande känslan och det mjuka tyget.",
+    valueStatement: "Ella tyngdtäcke är ett tyngdtäcke på 9 kg (150x200 cm) för dig som vill ha en jämn, omslutande tyngd och en skön, avkopplande känsla i sängen. Vikten är jämnt fördelad och tyget är mjukt mot huden, vilket många upplever som mysigt och lugnande.",
     passFor: [
       "Vill ha en jämn, omslutande tyngd för en skön avkoppling i sängen.",
       "Gillar känslan av ett mysigt täcke i soffan på kvällen.",
@@ -7098,7 +7098,7 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewFormId: "ella-tyngdtacke-skriv-recension",
     targetKeyword: "tyngdtäcke",
     metaTitle: "Ella tyngdtäcke 9 kg (150x200 cm) – jämn tyngd & avkoppling | Elins val",
-    metaDescription: "Elin går igenom Ella tyngdtäcke 9 kg (150x200 cm): jämn, omslutande tyngd för en skön avkoppling (4,5 av 5, 1 532 omdömen) – och vad du bör veta innan du väljer.",
+    metaDescription: "Elin går igenom Ella tyngdtäcke 9 kg (150x200 cm): jämn, omslutande tyngd för en skön avkoppling – och vad du bör veta innan du väljer.",
     relatedLinks: [
       {
         href: "/halsa/sov-battre-i-host",
@@ -7318,7 +7318,7 @@ export const smartSommarPicks: SommarPick[] = ([
     productSlug: salkingAromadiffuserProduct.slug,
     href: "/halsa/aromdiffuser",
     cardBadge: "Mys & doft",
-    cardHook: "Varmt sken + behaglig doft - mysig sommarkväll. 1 800+ omdömen.",
+    cardHook: "Jämför doftfunktion, rengöring och placering före köp.",
     cardImage:
       "/products/salking-aromadiffuser/salking-aromadiffuser-thumbnail.webp",
     cardImageAlt: "SALKING aromadiffuser med varmt sken, 100 ml",
@@ -7329,7 +7329,7 @@ export const smartSommarPicks: SommarPick[] = ([
       "En liten ultraljudsdiffuser med varmt sken i 7 färger som sprider doft och skapar mys-stämning - perfekt för sommarkvällen hemma.",
     valueHook: "Varmt sken och doft - mysig stämning på sekunder.",
     valueStatement:
-      "SALKING Aromadiffuser är en prisvärd liten ultraljudsdiffuser med nordisk, minimalistisk design - 4,2 av 5 från över 1 800 omdömen. Med en enkel knapp styr du dimma, ett varmt sken i 7 färger och automatisk avstängning, och den sprider en behaglig doft som skapar mys-stämning. Köparna lyfter att den är liten, snygg och prisvärd - några tycker materialet känns lite plastigt. Ett mysigt, prisvärt val för lugna sommarkvällar hemma.",
+      "Med en enkel knapp styr du dimma, ett varmt sken i 7 färger och automatisk avstängning, och den sprider en behaglig doft som skapar mys-stämning. Köparna lyfter att den är liten, snygg och prisvärd - några tycker materialet känns lite plastigt. Ett mysigt, prisvärt val för lugna sommarkvällar hemma.",
     passFor: [
       "Vill skapa mysig stämning och behaglig doft hemma på sommarkvällen.",
       "Vill ha en liten, snygg diffuser med varmt sken och färgljus.",
@@ -7377,7 +7377,7 @@ export const smartSommarPicks: SommarPick[] = ([
     targetKeyword: "aromadiffuser",
     metaTitle: "Aromadiffuser bäst i test - SALKING ultraljud | Elins val",
     metaDescription:
-      "Elin går igenom SALKING Aromadiffuser: liten ultraljudsdiffuser med varmt sken i 7 färger och auto-avstängning för mys och doft (4,2 av 5, 1 800+ omdömen) - och vad du bör veta.",
+      "Elin går igenom SALKING Aromadiffuser: liten ultraljudsdiffuser med varmt sken i 7 färger och auto-avstängning för mys och doft - och vad du bör veta.",
     relatedLinks: [
       {
         href: "/halsa/kobo-clara-bw",
@@ -7400,7 +7400,7 @@ export const smartSommarPicks: SommarPick[] = ([
       "En viral sunset-projektor som badar rummet i varmt gyllene sken - 24 färger, fjärrkontroll och justerbar höjd. Drömmig mys på sekunder.",
     valueHook: "Förvandla rummet till en gyllene solnedgång - på en knapp.",
     valueStatement:
-      "Solnedgångslampan är en av de mest virala aesthetic-prylarna just nu - den projicerar ett varmt, gyllene solnedgångssken över väggen och badar hela rummet i drömmig stämning. Med 24 färger, fyra ljuslägen och fjärrkontroll byter du lätt mellan solnedgång, regnbåge och lugna toner, och stativet är justerbart (25-37 cm) och USB-drivet. 4,2 av 5 från över 750 omdömen - köparna älskar stämningen och hur snygg den är för bilder och stories. Den syns bäst i ett nedsläckt rum. Ett prisvärt, scroll-stoppande sätt att fixa mys på sekunder.",
+      "Solnedgångslampan är en av de mest virala aesthetic-prylarna just nu - den projicerar ett varmt, gyllene solnedgångssken över väggen och badar hela rummet i drömmig stämning. Med 24 färger, fyra ljuslägen och fjärrkontroll byter du lätt mellan solnedgång, regnbåge och lugna toner, och stativet är justerbart (25-37 cm) och USB-drivet. Den syns bäst i ett nedsläckt rum. Ett prisvärt, scroll-stoppande sätt att fixa mys på sekunder.",
     passFor: [
       "Vill skapa en drömmig, mysig stämning hemma på sommarkvällen.",
       "Gillar snygg aesthetic-belysning för bilder, stories och reels.",
@@ -7448,7 +7448,7 @@ export const smartSommarPicks: SommarPick[] = ([
     targetKeyword: "solnedgångslampa",
     metaTitle: "Solnedgångslampa - viral sunset-lampa i test | Elins val",
     metaDescription:
-      "Elin går igenom den virala solnedgångslampan: gyllene sunset-sken, 24 färger och fjärrkontroll för drömmig mys (4,2 av 5, 750+ omdömen) - och vad du bör veta.",
+      "Elin går igenom den virala solnedgångslampan: gyllene sunset-sken, 24 färger och fjärrkontroll för drömmig mys - och vad du bör veta.",
     relatedLinks: [
       {
         href: "/halsa/aromdiffuser",
@@ -7466,7 +7466,7 @@ export const smartSommarPicks: SommarPick[] = ([
     productSlug: miniProjektorProduct.slug,
     href: "/halsa/mini-projektor",
     cardBadge: "Bärbar bio",
-    cardHook: "Film på väggen var du vill - 4 800+ omdömen, topp-2 projektor.",
+    cardHook: "Kontrollera bildkälla, anslutningar och rummets förutsättningar.",
     cardImage: "/products/mini-projektor/mini-projektor-thumbnail.webp",
     cardImageAlt: "Mini-projektor som visar film på väggen i ett mysigt rum",
     product: miniProjektorProduct,
@@ -7476,7 +7476,7 @@ export const smartSommarPicks: SommarPick[] = ([
       "En kompakt mini-projektor med WiFi 6, Bluetooth och Android - film på väggen hemma eller mysig utomhusbio i trädgården. Native 720p, 180° vridbar.",
     valueHook: "Bärbar bio - film på väggen, hemma eller under stjärnorna.",
     valueStatement:
-      "Den här mini-projektorn är en av de mest sålda på Amazon - 4,3 av 5 från över 4 800 omdömen och topp-2 bland projektorer. Den är liten, portabel och smart: WiFi 6, Bluetooth 5.4, inbyggt Android och en 5W-högtalare, så du streamar film och serier direkt på väggen utan extra prylar. Automatisk keystone och 180° vridbart fäste gör den enkel att rikta mot vägg eller tak. Native-upplösningen är 720p (med stöd för 4K-filer) och den syns bäst i mörker. Köparna lyfter den skarpa bilden och priset - en scroll-stoppande pryl för hemmabio och mysig utomhusbio i sommarkvällen.",
+      "Den är liten, portabel och smart: WiFi 6, Bluetooth 5.4, inbyggt Android och en 5W-högtalare, så du streamar film och serier direkt på väggen utan extra prylar. Automatisk keystone och 180° vridbart fäste gör den enkel att rikta mot vägg eller tak. Native-upplösningen är 720p (med stöd för 4K-filer) och den syns bäst i mörker. Köparna lyfter den skarpa bilden och priset - en scroll-stoppande pryl för hemmabio och mysig utomhusbio i sommarkvällen.",
     passFor: [
       "Vill ha bärbar hemmabio - film på väggen eller taket var du vill.",
       "Drömmer om mysig utomhusbio i trädgården på sommarkvällen.",
@@ -7524,7 +7524,7 @@ export const smartSommarPicks: SommarPick[] = ([
     targetKeyword: "mini-projektor bäst i test",
     metaTitle: "Mini-projektor bäst i test - portabel WiFi-projektor | Elins val",
     metaDescription:
-      "Elin går igenom den populära mini-projektorn: WiFi 6, Bluetooth, Android och 180° vridbar för hemmabio och utomhusbio (4,3 av 5, 4 800+ omdömen) - och vad du bör veta om 720p.",
+      "Elin går igenom den populära mini-projektorn: WiFi 6, Bluetooth, Android och 180° vridbar för hemmabio och utomhusbio - och vad du bör veta om 720p.",
     relatedLinks: [
       {
         href: "/halsa/solnedgangslampa",
@@ -7552,7 +7552,7 @@ export const smartSommarPicks: SommarPick[] = ([
       "En viral galaxprojektor som förvandlar taket till en stjärnhimmel - 12 HD-skivor, 360° vridbar och timer. Drömmig mys på sekunder.",
     valueHook: "Förvandla taket till en stjärnhimmel - på sekunder.",
     valueStatement:
-      "Den här galax-/stjärnprojektorn är en av de mest virala aesthetic-prylarna - den projicerar en drömmig stjärnhimmel över taket och väggarna med 12 utbytbara HD-skivor (galaxer, nebulosor, Vintergatan, måne och mer). Det 360° vridbara fästet låter dig rikta den mot tak eller vägg, och timern (1/2/4 h) stänger av den automatiskt. 4,1 av 5 från 1 800 omdömen och #1 bland Children's Mood Lights - köparna gillar den drömmiga stämningen och variationen i motiven. Skärpan beror på avståndet och den syns bäst i mörker. Ett scroll-stoppande, prisvärt sätt att fixa en magisk galaxhimmel hemma.",
+      "Den här galax-/stjärnprojektorn är en av de mest virala aesthetic-prylarna - den projicerar en drömmig stjärnhimmel över taket och väggarna med 12 utbytbara HD-skivor (galaxer, nebulosor, Vintergatan, måne och mer). Det 360° vridbara fästet låter dig rikta den mot tak eller vägg, och timern (1/2/4 h) stänger av den automatiskt. Skärpan beror på avståndet och den syns bäst i mörker. Ett scroll-stoppande, prisvärt sätt att fixa en magisk galaxhimmel hemma.",
     passFor: [
       "Vill förvandla taket till en drömmig stjärnhimmel hemma.",
       "Gillar aesthetic-belysning för mys, fester och snygga reels.",
@@ -7600,7 +7600,7 @@ export const smartSommarPicks: SommarPick[] = ([
     targetKeyword: "stjärnprojektor",
     metaTitle: "Stjärnprojektor - viral galaxprojektor i test | Elins val",
     metaDescription:
-      "Elin går igenom den virala stjärnprojektorn: 12 HD-galaxskivor, 360° vridbar och timer för en drömmig stjärnhimmel (4,1 av 5, 1 800+ omdömen).",
+      "Elin går igenom den virala stjärnprojektorn: 12 HD-galaxskivor, 360° vridbar och timer för en drömmig stjärnhimmel .",
     relatedLinks: [
       {
         href: "/halsa/solnedgangslampa",
@@ -7639,7 +7639,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "HAISSKY löparbälte – allt du behöver på rundan",
     shortBody: "Ultralätt midjeväska med tre dragkedjefickor, plats för mobiler upp till 6,9 tum och reflexdetaljer. Elastiskt band som sitter tätt utan att studsa.",
     valueHook: "Slipp mobilen i handen på rundan",
-    valueStatement: "HAISSKY löparbälte är en ultralätt midjeväska för dig som vill ha mobil, nycklar och kort med på rundan utan att hålla något i handen. Tre dragkedjefickor, hål för hörlurskabel och ett elastiskt band som sitter tätt mot kroppen. Amazon visar 4,3 av 5 från 4 083 omdömen, och köpare lyfter att den sitter bekvämt utan att studsa. Tänk på att den är vattenavvisande – inte vattentät – och att den inte rymmer någon vattenflaska.",
+    valueStatement: "HAISSKY löparbälte är en ultralätt midjeväska för dig som vill ha mobil, nycklar och kort med på rundan utan att hålla något i handen. Tre dragkedjefickor, hål för hörlurskabel och ett elastiskt band som sitter tätt mot kroppen. Tänk på att den är vattenavvisande – inte vattentät – och att den inte rymmer någon vattenflaska.",
     passFor: [
       "Springer kortare rundor och vill ha mobil och nycklar säkert med.",
       "Vill ha något lätt som inte studsar eller skaver.",
@@ -7680,7 +7680,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "haissky-loparbalte-skriv-recension",
     targetKeyword: "löparbälte",
     metaTitle: "HAISSKY löparbälte – midjeväska för rundan | Elins val",
-    metaDescription: "Elin går igenom HAISSKY löparbälte (4,3 av 5 från 4 083 omdömen): ultralätt midjeväska för mobil och nycklar på rundan – och när en löparväst passar bättre.",
+    metaDescription: "Elin går igenom HAISSKY löparbälte : ultralätt midjeväska för mobil och nycklar på rundan – och när en löparväst passar bättre.",
     relatedLinks: [
       {
         href: "/traning/loparvast-eller-midjevaska",
@@ -7774,7 +7774,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Fuel24 gym jug – stor vattenflaska för koll på vätskeintaget",
     shortBody: "En rymlig vattenflaska på 2,2 liter för gym och vardag. Den stora volymen gör att du sällan behöver fylla på, och markeringarna hjälper dig hålla koll på hur mycket du dricker under dagen.",
     valueHook: "Stor vattenflaska för koll på vätskeintaget",
-    valueStatement: "Fuel24 gym jug är en stor vattenflaska på 2,2 liter för dig som vill hålla koll på ditt vätskeintag under dagen. Den rymliga volymen gör att du slipper fylla på hela tiden, och flaskan passar lika bra på gymmet som i vardagen. Amazon visar 4,5 av 5 från 2269 omdömen, och köpare lyfter framför allt storleken, markeringarna som gör det lätt att följa hur mycket man druckit och att den är praktisk att ha med sig.",
+    valueStatement: "Fuel24 gym jug är en stor vattenflaska på 2,2 liter för dig som vill hålla koll på ditt vätskeintag under dagen. Den rymliga volymen gör att du slipper fylla på hela tiden, och flaskan passar lika bra på gymmet som i vardagen.",
     passFor: [
       "Vill hålla koll på hur mycket vatten du dricker under dagen.",
       "Tröttnar på att fylla på en liten flaska hela tiden.",
@@ -7806,7 +7806,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "fuel24-vattenflaska-skriv-recension",
     targetKeyword: "vattenflaska gym 2 liter",
     metaTitle: "Fuel24 vattenflaska / gym jug 2,2 L – vätskekoll | Elins val",
-    metaDescription: "Elin går igenom Fuel24 gym jug: en stor vattenflaska på 2,2 liter för gym och vardag som hjälper dig hålla koll på vätskeintaget (4,5 av 5, 2269 omdömen).",
+    metaDescription: "Elin går igenom Fuel24 gym jug: en stor vattenflaska på 2,2 liter för gym och vardag som hjälper dig hålla koll på vätskeintaget .",
     relatedLinks: [
       {
         href: "/traning/loparvast",
@@ -7837,7 +7837,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Salomon Active Skin 4 – löparväst med vätska nära till hands",
     shortBody: "En tätt sittande löparväst med medföljande mjuka vätskeflaskor och flera fickor. Gjord för längre löprundor där du vill ha vätska och småsaker lättåtkomliga utan att det studsar.",
     valueHook: "Löparväst med vätska nära till hands",
-    valueStatement: "Salomon Active Skin 4 är en löparväst för dig som springer längre rundor och vill bära med dig vätska smidigt. Den sitter tätt mot kroppen för att minska studs och kommer med mjuka vätskeflaskor samt flera fickor fram och bak för telefon, gels och nycklar. Amazon visar 4,7 av 5 från 72 omdömen, och köpare lyfter framför allt den nära passformen, att flaskorna är lätta att nå och att fickorna gör det enkelt att ha med det viktigaste.",
+    valueStatement: "Salomon Active Skin 4 är en löparväst för dig som springer längre rundor och vill bära med dig vätska smidigt. Den sitter tätt mot kroppen för att minska studs och kommer med mjuka vätskeflaskor samt flera fickor fram och bak för telefon, gels och nycklar.",
     passFor: [
       "Springer längre rundor och vill ha vätska nära till hands.",
       "Vill ha en väst som sitter tätt och studsar lite.",
@@ -7869,7 +7869,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "salomon-loparvast-skriv-recension",
     targetKeyword: "löparväst hydration",
     metaTitle: "Salomon Active Skin 4 löparväst – med flaskor | Elins val",
-    metaDescription: "Elin går igenom Salomon Active Skin 4: en tätt sittande löparväst med vätskeflaskor och fickor för längre rundor (4,7 av 5, 72 omdömen) – och vad du bör veta om passformen.",
+    metaDescription: "Elin går igenom Salomon Active Skin 4: en tätt sittande löparväst med vätskeflaskor och fickor för längre rundor – och vad du bör veta om passformen.",
     relatedLinks: [
       {
         href: "/traning/loparvast-eller-midjevaska",
@@ -7905,7 +7905,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Rehband RX knäskydd 5 mm – stöd och värme vid lyft",
     shortBody: "Ett knäskydd i 5 mm neopren som ger en stadig, komprimerande känsla och värme runt knät vid tunga lyft och löpning. Det är ett komfort- och stödplagg för träningen, inte en medicinsk behandling.",
     valueHook: "Knäskydd i neopren för stöd och värme",
-    valueStatement: "Rehband RX knäskydd 5 mm är ett neoprenplagg för dig som vill ha stöd, värme och en stadig, komprimerande känsla runt knät vid tunga lyft och löpning. Tjockleken på 5 mm ger en fastare känsla som många upplever som trygg under passet, och neoprenet håller knät varmt. Tänk på att det handlar om komfort och stöd under träningen, inte om att behandla eller läka skador. Amazon visar 4,4 av 5 från 87 omdömen, och köpare lyfter framför allt den stadiga känslan och materialets hållbarhet.",
+    valueStatement: "Rehband RX knäskydd 5 mm är ett neoprenplagg för dig som vill ha stöd, värme och en stadig, komprimerande känsla runt knät vid tunga lyft och löpning. Tjockleken på 5 mm ger en fastare känsla som många upplever som trygg under passet, och neoprenet håller knät varmt. Tänk på att det handlar om komfort och stöd under träningen, inte om att behandla eller läka skador.",
     passFor: [
       "Vill ha stöd och en stadig känsla runt knät vid tunga lyft.",
       "Gillar att hålla knät varmt under löpning och styrkepass.",
@@ -7937,7 +7937,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "rehband-knaskydd-skriv-recension",
     targetKeyword: "knäskydd knästöd",
     metaTitle: "Rehband RX knäskydd 5 mm – stöd och värme | Elins val",
-    metaDescription: "Elin går igenom Rehband RX knäskydd 5 mm: ett neoprenskydd för stöd och värme vid tunga lyft och löpning (4,4 av 5, 87 omdömen) – komfort och stöd, inte medicinsk behandling.",
+    metaDescription: "Elin går igenom Rehband RX knäskydd 5 mm: ett neoprenskydd för stöd och värme vid tunga lyft och löpning – komfort och stöd, inte medicinsk behandling.",
     relatedLinks: [
       {
         href: "/traning/hantlar",
@@ -7968,7 +7968,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Gvolatee agility-stege – snabbhet och fotarbete",
     shortBody: "En 4,5 m lång koordinationsstege med medföljande koner för snabbhet, fotarbete och uppvärmning. Den rullas enkelt ut på gräs eller golv och passar fartfyllda pass inne som ute.",
     valueHook: "Koordinationsstege för snabbhet och fotarbete",
-    valueStatement: "Gvolatee agility-stege är en 4,5 m lång stege med koner för dig som vill träna snabbhet, fotarbete och koordination. Den är lätt att rulla ut på gräs eller golv och lika enkel att packa ihop efteråt, vilket gör den praktisk både inomhus och utomhus. Konerna ger dig fler sätt att bygga banor och uppvärmningar. Amazon visar 4,5 av 5 från 1148 omdömen, och köpare lyfter framför allt hur smidig den är att använda och ta med.",
+    valueStatement: "Gvolatee agility-stege är en 4,5 m lång stege med koner för dig som vill träna snabbhet, fotarbete och koordination. Den är lätt att rulla ut på gräs eller golv och lika enkel att packa ihop efteråt, vilket gör den praktisk både inomhus och utomhus. Konerna ger dig fler sätt att bygga banor och uppvärmningar.",
     passFor: [
       "Vill träna snabbhet och fotarbete inför eller mellan pass.",
       "Behöver smidig uppvärmningsutrustning som tar liten plats.",
@@ -8000,7 +8000,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "gvolatee-agility-stege-skriv-recension",
     targetKeyword: "agility-stege koordinationsstege",
     metaTitle: "Gvolatee agility-stege med koner (4,5 m) – snabbhet | Elins val",
-    metaDescription: "Elin går igenom Gvolatee agility-stege: en 4,5 m koordinationsstege med koner för snabbhet och fotarbete (4,5 av 5, 1148 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom Gvolatee agility-stege: en 4,5 m koordinationsstege med koner för snabbhet och fotarbete – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/traning/hopprep",
@@ -8031,7 +8031,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "DH FitLife studsmatta – skonsam kondition hemma",
     shortBody: "En rund fitnesstudsmatta på Ø102 cm med handtag. Den ger fjädrande, skonsam studsträning inomhus och handtaget hjälper dig att hålla balansen under passet.",
     valueHook: "Studsmatta med handtag för kondition inomhus",
-    valueStatement: "DH FitLife fitnesstudsmatta är en rund studsmatta på Ø102 cm för dig som vill ha skonsam kondition inomhus året runt. Det medföljande handtaget ger extra stöd och balans när du studsar, vilket många upplever som tryggt. Mattan är smidig att ställa hemma och passar korta, fjädrande konditionspass framför skärmen. Amazon visar 4,5 av 5 från 207 omdömen, och köpare lyfter framför allt den skonsamma känslan och stödet från handtaget.",
+    valueStatement: "DH FitLife fitnesstudsmatta är en rund studsmatta på Ø102 cm för dig som vill ha skonsam kondition inomhus året runt. Det medföljande handtaget ger extra stöd och balans när du studsar, vilket många upplever som tryggt. Mattan är smidig att ställa hemma och passar korta, fjädrande konditionspass framför skärmen.",
     passFor: [
       "Vill träna kondition inomhus oavsett väder.",
       "Föredrar en skonsam, fjädrande träningsform.",
@@ -8063,7 +8063,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "dh-fitlife-studsmatta-skriv-recension",
     targetKeyword: "fitness studsmatta trampolin",
     metaTitle: "DH FitLife fitnesstudsmatta med handtag (Ø102 cm) | Elins val",
-    metaDescription: "Elin går igenom DH FitLife fitnesstudsmatta: en rund matta på Ø102 cm med handtag för skonsam kondition inomhus (4,5 av 5, 207 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom DH FitLife fitnesstudsmatta: en rund matta på Ø102 cm med handtag för skonsam kondition inomhus – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/traning/hopprep",
@@ -8094,7 +8094,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Gorilla Sports core sliders – glid dig till starkare core",
     shortBody: "Ett 2-pack dubbelsidiga sliders för core-, mage- och rumpövningar. Den ena sidan glider på hårt golv, den andra på matta, så att du kan träna stabilt hemma med minimal utrustning.",
     valueHook: "Smidiga sliders för coreträning hemma",
-    valueStatement: "Gorilla Sports core sliders är ett par dubbelsidiga gliders för dig som vill träna core, mage och rumpa på golvet hemma. Den ena sidan är gjord för hårt golv och den andra för matta, vilket gör att de fungerar i de flesta hem. De tar nästan ingen plats och passar fint till övningar som mountain climbers, utfall och magövningar. Amazon visar 4,5 av 5 från 11 omdömen, vilket är mycket få – ta betyget med en nypa salt tills fler har recenserat.",
+    valueStatement: "Gorilla Sports core sliders är ett par dubbelsidiga gliders för dig som vill träna core, mage och rumpa på golvet hemma. Den ena sidan är gjord för hårt golv och den andra för matta, vilket gör att de fungerar i de flesta hem. De tar nästan ingen plats och passar fint till övningar som mountain climbers, utfall och magövningar.",
     passFor: [
       "Vill träna core och mage på golvet hemma.",
       "Har lite plats och vill ha smidig, billig utrustning.",
@@ -8118,15 +8118,15 @@ export const traningsPicks: SommarPick[] = ([
         answer: "De passar core- och magövningar som mountain climbers och knäindrag, samt utfall och glidövningar för rumpan. Du styr glidningen med kroppsspänningen.",
       },
       {
-        question: "Är 4,5 av 5 ett tillförlitligt betyg?",
-        answer: "Betyget bygger på endast 11 omdömen, vilket är mycket få. Det ger en fingervisning men ingen fullständig bild – ta det med en nypa salt tills fler har recenserat.",
+        question: "Har kundbetygen verifierats?",
+        answer: "Vi har inte verifierat ett aktuellt kundbetyg eller antal recensioner för den exakta varianten. Därför använder vi inte sådana siffror som belägg för kvalitet, hållbarhet eller ett köp.",
       },
     ],
     reviewSectionId: "gorilla-core-slider-recensioner",
     reviewFormId: "gorilla-core-slider-skriv-recension",
     targetKeyword: "core slider gliders",
     metaTitle: "Gorilla Sports core sliders (2-pack) – core & mage | Elins val",
-    metaDescription: "Elin går igenom Gorilla Sports core sliders: dubbelsidiga gliders för core-, mage- och rumpövningar hemma (4,5 av 5, endast 11 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom Gorilla Sports core sliders: dubbelsidiga gliders för core-, mage- och rumpövningar hemma – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/traning/yogamatta",
@@ -8157,7 +8157,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Reebok Step – justerbar stepbräda i tre höjder",
     shortBody: "En justerbar stepbräda i tre höjder för step-, kondition- och HIIT-pass. Tanken är att du kan anpassa svårighetsgraden med höjdläget, och den halksäkra ytan gör uppstig och steg stabilare hemma.",
     valueHook: "Justerbar stepbräda för step, kondition och HIIT",
-    valueStatement: "Reebok Step är en justerbar stepbräda i tre höjder för dig som vill köra step-, kondition- och HIIT-pass hemma. Med flera höjdlägen kan du öka eller minska svårighetsgraden, och den halksäkra ovansidan gör uppstig och steg mer stabila. Stabila ben håller brädan på plats under passet. Amazon visar 4,8 av 5 från 3774 omdömen, där köpare framför allt lyfter stabiliteten och att höjderna gör passen lätta att variera.",
+    valueStatement: "Reebok Step är en justerbar stepbräda i tre höjder för dig som vill köra step-, kondition- och HIIT-pass hemma. Med flera höjdlägen kan du öka eller minska svårighetsgraden, och den halksäkra ovansidan gör uppstig och steg mer stabila. Stabila ben håller brädan på plats under passet.",
     passFor: [
       "Vill köra step-, kondition- och HIIT-pass hemma.",
       "Gillar att kunna variera svårighetsgraden med tre höjder.",
@@ -8189,7 +8189,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "reebok-stepbrada-skriv-recension",
     targetKeyword: "stepbräda step up",
     metaTitle: "Reebok Step justerbar stepbräda – step, kondition & HIIT | Elins val",
-    metaDescription: "Elin går igenom Reebok Step: en justerbar stepbräda i tre höjder för step-, kondition- och HIIT-pass (4,8 av 5, 3774 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom Reebok Step: en justerbar stepbräda i tre höjder för step-, kondition- och HIIT-pass – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/traning/hopprep",
@@ -8220,7 +8220,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "G5 HT Sport pilatesring – inre lår, core och armar",
     shortBody: "En pilatesring med dubbla handtag som ger ett lätt motstånd när du klämmer ihop den. Tanken är att aktivera inre lår, core och armar, och handtagen gör den greppvänlig för pilatespass hemma.",
     valueHook: "Pilatesring för inre lår, core och armar",
-    valueStatement: "G5 HT Sport pilatesring med dubbla handtag är ett smidigt redskap för dig som tränar pilates hemma. När du klämmer ihop ringen får du ett lätt motstånd som aktiverar inre lår, core och armar beroende på hur du håller den. Handtagen gör den greppvänlig och den är lätt att ta med och förvara. Amazon visar 4,5 av 5 från 300 omdömen, där köpare framför allt lyfter aktiveringen och att handtagen sitter bra i händerna.",
+    valueStatement: "G5 HT Sport pilatesring med dubbla handtag är ett smidigt redskap för dig som tränar pilates hemma. När du klämmer ihop ringen får du ett lätt motstånd som aktiverar inre lår, core och armar beroende på hur du håller den. Handtagen gör den greppvänlig och den är lätt att ta med och förvara.",
     passFor: [
       "Tränar pilates hemma och vill aktivera inre lår och core.",
       "Vill ha ett smidigt redskap med lätt motstånd och bra grepp.",
@@ -8252,7 +8252,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "g5-pilatesring-skriv-recension",
     targetKeyword: "pilatesring",
     metaTitle: "G5 HT Sport pilatesring – inre lår, core & armar | Elins val",
-    metaDescription: "Elin går igenom G5 HT Sport pilatesring med handtag: lätt motstånd för inre lår, core och armar (4,5 av 5, 300 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom G5 HT Sport pilatesring med handtag: lätt motstånd för inre lår, core och armar – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/traning/yogamatta",
@@ -8283,7 +8283,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "BODYMATE yogabälte – nå längre i stretch och rörlighet",
     shortBody: "Ett yogabälte i bomull med justerbart spänne. Tanken är att fånga upp avståndet i positioner där du inte når med händerna ännu, så du kan jobba med stretch och rörlighet på ett stadigt sätt.",
     valueHook: "Yogabälte för längre räckvidd i stretch",
-    valueStatement: "BODYMATE yogabälte / yoga strap i bomull är ett enkelt hjälpmedel för dig som vill jobba med stretch och rörlighet. När du inte når foten eller händerna i en position kan bältet fånga upp avståndet så att du kan hålla formen utan att tvinga rörelsen. Bomullsbandet känns stadigt och spännet håller längden. Amazon visar 4,7 av 5 från 321 omdömen, där köpare framför allt lyfter att de når längre och att materialet känns behagligt.",
+    valueStatement: "BODYMATE yogabälte / yoga strap i bomull är ett enkelt hjälpmedel för dig som vill jobba med stretch och rörlighet. När du inte når foten eller händerna i en position kan bältet fånga upp avståndet så att du kan hålla formen utan att tvinga rörelsen. Bomullsbandet känns stadigt och spännet håller längden.",
     passFor: [
       "Vill nå längre i stretch utan att tvinga rörelsen.",
       "Jobbar med rörlighet och vill ha en stadig kontaktpunkt.",
@@ -8315,7 +8315,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "bodymate-yogabalte-skriv-recension",
     targetKeyword: "yogabälte yoga strap",
     metaTitle: "BODYMATE yogabälte / yoga strap – nå längre i stretch | Elins val",
-    metaDescription: "Elin går igenom BODYMATE yogabälte i bomull: ett enkelt hjälpmedel för stretch och rörlighet (4,7 av 5, 321 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom BODYMATE yogabälte i bomull: ett enkelt hjälpmedel för stretch och rörlighet – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/traning/yogamatta",
@@ -8346,7 +8346,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "BODYMATE yogablock i kork – stöd och rätt höjd",
     shortBody: "Stabila yogablock i naturkork som 2-pack. Tanken är att ge dig stöd och rätt höjd i positioner där du inte når ända ner, så du kan hålla en bekväm och stadig form i yogan.",
     valueHook: "Yogablock i kork för stöd och rätt höjd",
-    valueStatement: "BODYMATE yogablock i kork är ett 2-pack stabila block för dig som vill ha stöd och rätt höjd i yogan. I positioner där du inte når ända ner kan ett block ge en stadig kontaktpunkt så att du kan hålla formen utan att tappa balansen. Korken känns halksäker och stabil, och Amazon visar 4,8 av 5 från 767 omdömen där köpare framför allt lyfter stabiliteten och att 2-pack är praktiskt.",
+    valueStatement: "BODYMATE yogablock i kork är ett 2-pack stabila block för dig som vill ha stöd och rätt höjd i yogan. I positioner där du inte når ända ner kan ett block ge en stadig kontaktpunkt så att du kan hålla formen utan att tappa balansen.",
     passFor: [
       "Vill ha stöd och rätt höjd i positioner du inte når ända ner i.",
       "Föredrar stabila korkblock framför mjukare skumblock.",
@@ -8378,7 +8378,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "bodymate-yogablock-skriv-recension",
     targetKeyword: "yogablock kork",
     metaTitle: "BODYMATE yogablock i kork (2-pack) – stöd & höjd | Elins val",
-    metaDescription: "Elin går igenom BODYMATE yogablock i kork (2-pack): stabila block för stöd och rätt höjd i yogan (4,8 av 5, 767 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom BODYMATE yogablock i kork (2-pack): stabila block för stöd och rätt höjd i yogan – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/traning/yogamatta",
@@ -8409,7 +8409,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "C.P. Sports lyftarbälte – stabil bål i marklyft och knäböj",
     shortBody: "Ett träningsbälte som ger stöd kring bålen vid tunga lyft. Tanken är att hjälpa dig spänna upp och hålla en stadig hållning i marklyft och knäböj, med ett justerbart spänne för en stadig passform.",
     valueHook: "Lyftarbälte för stabil bål under tunga lyft",
-    valueStatement: "C.P. Sports lyftarbälte (T9) är ett stödjande träningsbälte för dig som lyfter tungt i marklyft och knäböj. Ett bälte är tänkt att hjälpa dig spänna bålen och hålla en stadigare hållning under tunga set, och spännet är justerbart för en bra passform. Amazon visar 4,4 av 5 från 20 omdömen – fortfarande ganska få – och köpare lyfter framför allt stödet kring bålen och det stabila spännet.",
+    valueStatement: "C.P. Sports lyftarbälte (T9) är ett stödjande träningsbälte för dig som lyfter tungt i marklyft och knäböj. Ett bälte är tänkt att hjälpa dig spänna bålen och hålla en stadigare hållning under tunga set, och spännet är justerbart för en bra passform.",
     passFor: [
       "Lyfter tungt i marklyft och knäböj och vill ha extra bålstöd.",
       "Vill ha ett enkelt bälte med stadigt, justerbart spänne.",
@@ -8441,7 +8441,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "cpsports-lyftarbalte-skriv-recension",
     targetKeyword: "lyftarbälte träningsbälte",
     metaTitle: "C.P. Sports lyftarbälte – stöd i marklyft & knäböj | Elins val",
-    metaDescription: "Elin går igenom C.P. Sports lyftarbälte (T9): ett stödjande träningsbälte för marklyft och knäböj (4,4 av 5, 20 omdömen) – och vad du bör veta innan du köper.",
+    metaDescription: "Elin går igenom C.P. Sports lyftarbälte (T9): ett stödjande träningsbälte för marklyft och knäböj – och vad du bör veta innan du köper.",
     relatedLinks: [
       {
         href: "/traning/viktvast",
@@ -8472,7 +8472,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "ASIPRO handledslindor – stöd vid tunga lyft",
     shortBody: "Stödjande handledslindor på 18 tum för tunga lyft som bänkpress och axelpress. Tumöglan och kardborreknäppningen gör att du snabbt kan spänna stödet för ett stadigare handledsläge.",
     valueHook: "Handledslindor för tunga lyft",
-    valueStatement: "ASIPRO handledslindor är till för dig som lyfter tungt i pressövningar som bänkpress och axelpress. De 18 tum långa lindorna spänns med en stark kardborre och hålls på plats med en tumögla, så att handleden hålls i ett stadigare läge när belastningen blir hög. Amazon visar 4,5 av 5 från 1 116 omdömen, och köpare lyfter framför allt det stadiga stödet och att kardborren håller spänningen genom seten.",
+    valueStatement: "ASIPRO handledslindor är till för dig som lyfter tungt i pressövningar som bänkpress och axelpress. De 18 tum långa lindorna spänns med en stark kardborre och hålls på plats med en tumögla, så att handleden hålls i ett stadigare läge när belastningen blir hög.",
     passFor: [
       "Lyfter tungt i bänkpress, axelpress och liknande övningar.",
       "Vill ha ett stadigare handledsläge under de tyngsta seten.",
@@ -8504,7 +8504,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "asipro-handledslindor-skriv-recension",
     targetKeyword: "handledslindor wrist wraps",
     metaTitle: 'ASIPRO handledslindor / wrist wraps (18") | Elins val',
-    metaDescription: 'Elin jämför ASIPRO handledslindor (18"): stödjande wrist wraps för tunga lyft som bänkpress och axelpress (4,5 av 5, 1 116 omdömen).',
+    metaDescription: "Elin jämför ASIPRO handledslindor (18\"): stödjande wrist wraps för tunga lyft som bänkpress och axelpress .",
     relatedLinks: [
       {
         href: "/traning/hantlar",
@@ -8535,7 +8535,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "ihuan träningshandskar – grepp och handledsstöd",
     shortBody: "Ventilerade gymhandskar med integrerat handledsstöd för bättre grepp och skydd. Stödet sluter runt handleden vid tyngre lyft och den luftiga ovansidan håller händerna svalare.",
     valueHook: "Gymhandskar med handledsstöd",
-    valueStatement: "ihuan träningshandskar är till för dig som vill ha ett fastare grepp och slippa förhårdnader vid gymträning. Handflatan ger bra grepp om stänger och hantlar, och det integrerade handledsstödet sluter runt handleden vid tyngre lyft som press och rodd. Den ventilerade ovansidan släpper ut värme så att händerna hålls svalare. Amazon visar 4,5 av 5 från 33 595 omdömen, och köpare lyfter framför allt greppet, stödet och att handskarna andas bättre än täta modeller.",
+    valueStatement: "ihuan träningshandskar är till för dig som vill ha ett fastare grepp och slippa förhårdnader vid gymträning. Handflatan ger bra grepp om stänger och hantlar, och det integrerade handledsstödet sluter runt handleden vid tyngre lyft som press och rodd. Den ventilerade ovansidan släpper ut värme så att händerna hålls svalare.",
     passFor: [
       "Vill ha ett fastare grepp och skydd mot förhårdnader på gymmet.",
       "Gör tyngre lyft och vill ha extra stöd runt handleden.",
@@ -8567,7 +8567,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "ihuan-traningshandskar-skriv-recension",
     targetKeyword: "träningshandskar gymhandskar",
     metaTitle: "ihuan träningshandskar med handledsstöd | Elins val",
-    metaDescription: "Elin jämför ihuan träningshandskar: ventilerade gymhandskar med handledsstöd för bättre grepp och skydd vid tyngre lyft (4,5 av 5, 33 595 omdömen).",
+    metaDescription: "Elin jämför ihuan träningshandskar: ventilerade gymhandskar med handledsstöd för bättre grepp och skydd vid tyngre lyft .",
     relatedLinks: [
       {
         href: "/traning/hantlar",
@@ -8655,7 +8655,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Gorilla Sports gymnastikringar – för calisthenics",
     shortBody: "Ett par gymnastikringar med justerbara remmar för calisthenics och kroppsviktsträning. Ringarna hängs upp och längden ställs in med spänne, så att du kan träna dips, rodd och pull-ups.",
     valueHook: "Gymnastikringar för calisthenics",
-    valueStatement: "Gorilla Sports gymnastikringar är till för dig som vill bygga styrka med din egen kroppsvikt. Ringarna hängs i en stång, ett räcke eller en gren, och de justerbara remmarna gör att du snabbt kan ställa in höjden för dips, rodd eller pull-ups. Det rörliga greppet tvingar bålen att stabilisera mer än en fast stång. Amazon visar 4,3 av 5 från 54 omdömen, vilket är relativt få ännu, men köpare lyfter mångsidigheten och de lättjusterade remmarna.",
+    valueStatement: "Gorilla Sports gymnastikringar är till för dig som vill bygga styrka med din egen kroppsvikt. Ringarna hängs i en stång, ett räcke eller en gren, och de justerbara remmarna gör att du snabbt kan ställa in höjden för dips, rodd eller pull-ups. Det rörliga greppet tvingar bålen att stabilisera mer än en fast stång.",
     passFor: [
       "Vill träna calisthenics och kroppsvikt hemma eller utomhus.",
       "Gillar ett rörligt grepp som utmanar bål och stabilitet.",
@@ -8679,15 +8679,15 @@ export const traningsPicks: SommarPick[] = ([
         answer: "Längden ställs in med spänne på remmarna. Ställ in samma längd på båda sidor så att ringarna hänger jämnt innan du börjar.",
       },
       {
-        question: "Hur många omdömen har ringarna?",
-        answer: "Amazon visar 4,3 av 5 från 54 omdömen, vilket är relativt få ännu. Underlaget är därför mindre än för mer etablerade produkter.",
+        question: "Har kundbetygen verifierats?",
+        answer: "Vi har inte verifierat ett aktuellt kundbetyg eller antal recensioner för den exakta varianten. Därför använder vi inte sådana siffror som belägg för kvalitet, hållbarhet eller ett köp.",
       },
     ],
     reviewSectionId: "gorilla-gymnastikringar-recensioner",
     reviewFormId: "gorilla-gymnastikringar-skriv-recension",
     targetKeyword: "gymnastikringar",
     metaTitle: "Gorilla Sports gymnastikringar – för calisthenics | Elins val",
-    metaDescription: "Elin jämför Gorilla Sports gymnastikringar (2-pack): justerbara remmar för dips, rodd och pull-ups i din kroppsviktsträning (4,3 av 5, 54 omdömen).",
+    metaDescription: "Elin jämför Gorilla Sports gymnastikringar (2-pack): justerbara remmar för dips, rodd och pull-ups i din kroppsviktsträning .",
     relatedLinks: [
       {
         href: "/traning/hopprep",
@@ -8718,7 +8718,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Gorilla Sports push up-handtag – skonsamt grepp",
     shortBody: "Ett par push up-handtag med mjuka skumgrepp som lyfter händerna från golvet. Det neutrala greppet skonar handlederna och det djupare läget ökar rörelseomfånget vid armhävningar.",
     valueHook: "Push up-handtag som skonar handlederna",
-    valueStatement: "Gorilla Sports push up-handtag är till för dig som vill träna armhävningar utan att pressa handlederna i en böjd vinkel. Med ett neutralt grepp kan du hålla handlederna rakt, och eftersom händerna lyfts från golvet får du ett större rörelseomfång i bröst och axlar. Amazon visar 4,2 av 5 från 279 omdömen, och köpare lyfter framför allt det skonsammare greppet och de bekväma skumhandtagen.",
+    valueStatement: "Gorilla Sports push up-handtag är till för dig som vill träna armhävningar utan att pressa handlederna i en böjd vinkel. Med ett neutralt grepp kan du hålla handlederna rakt, och eftersom händerna lyfts från golvet får du ett större rörelseomfång i bröst och axlar.",
     passFor: [
       "Känner av handlederna vid vanliga armhävningar på golvet.",
       "Vill ha ett större rörelseomfång i bröst och axlar.",
@@ -8750,7 +8750,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "gorilla-push-up-handtag-skriv-recension",
     targetKeyword: "push-up handtag armhävningar",
     metaTitle: "Gorilla Sports push up-handtag – skonar handlederna | Elins val",
-    metaDescription: "Elin jämför Gorilla Sports push up-handtag: neutralt skumgrepp som skonar handlederna och ökar rörelseomfånget vid armhävningar (4,2 av 5, 279 omdömen).",
+    metaDescription: "Elin jämför Gorilla Sports push up-handtag: neutralt skumgrepp som skonar handlederna och ökar rörelseomfånget vid armhävningar .",
     relatedLinks: [
       {
         href: "/traning/traningsband",
@@ -8781,7 +8781,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Iron Gym pull-up-stång – dragövningar i dörren",
     shortBody: "En chins-/pull-up-stång som monteras i dörrkarmen utan borrning, för dragövningar som pull-ups och chins. Praktisk för rygg- och armträning hemma. Obs: mycket få omdömen ännu.",
     valueHook: "Dragövningar hemma utan fast montering",
-    valueStatement: "Iron Gym chins-/pull-up-stång monteras i dörrkarmen utan borrning och är till för dragövningar som pull-ups och chins. Den passar dig som vill träna rygg och armar hemma utan att montera något fast i väggen. Var dock medveten om att det bara finns 1 omdöme på Amazon (4,0 av 5), vilket är alldeles för lite för att säga något säkert om kvalitet eller hållbarhet – betyget bör närmast bortses ifrån. Bedöm produkten på funktionen och kontrollera att din dörrkarm är stadig innan du använder den.",
+    valueStatement: "Iron Gym chins-/pull-up-stång monteras i dörrkarmen utan borrning och är till för dragövningar som pull-ups och chins. Den passar dig som vill träna rygg och armar hemma utan att montera något fast i väggen. Bedöm produkten på funktionen och kontrollera att din dörrkarm är stadig innan du använder den. Aktuella kundbetyg och antalet recensioner är inte verifierade; de används inte som belägg för resultat eller kvalitet.",
     passFor: [
       "Vill kunna göra pull-ups och chins hemma utan att borra.",
       "Söker en enkel lösning för rygg- och armträning på liten yta.",
@@ -8805,8 +8805,8 @@ export const traningsPicks: SommarPick[] = ([
         answer: "Du kan göra dragövningar som pull-ups och chins för rygg och armar. Belasta försiktigt först för att se att stången och karmen håller.",
       },
       {
-        question: "Kan jag lita på betyget med bara 1 omdöme?",
-        answer: "Nej, 1 omdöme är alldeles för lite för att säga något säkert om kvalitet eller hållbarhet. Se betyget 4,0 av 5 som i princip oanvändbart och bedöm produkten på funktionen i stället.",
+        question: "Har kundbetygen verifierats?",
+        answer: "Vi har inte verifierat ett aktuellt kundbetyg eller antal recensioner för den exakta varianten. Därför använder vi inte sådana siffror som belägg för kvalitet, hållbarhet eller ett köp.",
       },
     ],
     reviewSectionId: "iron-gym-pull-up-bar-recensioner",
@@ -8844,7 +8844,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Amonax maghjul – core- och bålträning hemma",
     shortBody: "Ett maghjul (ab wheel) för core- och bålträning. Du rullar hjulet framåt och tillbaka för att utmana magmusklerna. Knämatta ingår och greppen är gjorda för att kännas stabila.",
     valueHook: "Enkelt redskap för core och bål",
-    valueStatement: "Amonax maghjul är ett klassiskt ab wheel för dig som vill träna core och bål hemma. Du rullar hjulet framåt och tillbaka för att utmana magmusklerna, och greppen är gjorda för att kännas stabila under rörelsen. En knämatta ingår så att du kan börja direkt. Amazon visar 4,4 av 5 från 2 175 omdömen, och köpare lyfter att hjulet känns stadigt, att greppen sitter bra och att det är ett prisvärt sätt att träna bålen.",
+    valueStatement: "Amonax maghjul är ett klassiskt ab wheel för dig som vill träna core och bål hemma. Du rullar hjulet framåt och tillbaka för att utmana magmusklerna, och greppen är gjorda för att kännas stabila under rörelsen. En knämatta ingår så att du kan börja direkt.",
     passFor: [
       "Vill träna core och bål med ett enkelt och prisvärt redskap.",
       "Gillar att ha knämatta på köpet för att kunna börja direkt.",
@@ -8876,7 +8876,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "amonax-maghjul-skriv-recension",
     targetKeyword: "maghjul ab wheel",
     metaTitle: "Amonax maghjul / ab wheel med knämatta – test & guide | Elins val",
-    metaDescription: "Elin går igenom Amonax maghjul: ett ab wheel för core- och bålträning med knämatta som ingår (4,4 av 5, 2 175 omdömen) – och tips för att rulla säkert.",
+    metaDescription: "Elin går igenom Amonax maghjul: ett ab wheel för core- och bålträning med knämatta som ingår – och tips för att rulla säkert.",
     relatedLinks: [
       {
         href: "/traning/yogamatta",
@@ -8907,13 +8907,13 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Gorilla Sports balansbräda – balans, core och fotled",
     shortBody: "En balansbräda i trä (Ø40 cm) för balans-, core- och fotledsträning. Du står på brädan och utmanar balansen, vilket aktiverar bålen och musklerna runt fotleden.",
     valueHook: "Enkelt redskap för balans och stabilitet",
-    valueStatement: "Gorilla Sports balansbräda i trä är ett enkelt redskap för dig som vill träna balans, core och fotled hemma. Du står på den runda brädan (Ø40 cm) och utmanar balansen, vilket aktiverar bålen och de små stabiliserande musklerna runt fotleden. Amazon visar 4,2 av 5 från 15 omdömen – få ännu, så ta betyget med viss försiktighet – men köpare tycker att den känns stabil och gediget gjord och flera använder den i rehab för fotleden.",
+    valueStatement: "Gorilla Sports balansbräda i trä är ett enkelt redskap för dig som vill träna balans, core och fotled hemma. Du står på den runda brädan (Ø40 cm) och utmanar balansen, vilket aktiverar bålen och de små stabiliserande musklerna runt fotleden.",
     passFor: [
       "Vill träna balans och stabilitet i bål och fotled hemma.",
       "Söker ett enkelt träredskap som tar liten plats.",
       "Vill komplettera core-träningen med ett rörligt underlag.",
     ],
-    caution: "Det finns bara 15 omdömen ännu, så betyget säger ännu lite om hur brädan håller över tid. Ett underlag som rör sig kan kännas ovant – börja försiktigt, gärna med stöd av en vägg eller stol nära till hands tills du vant dig.",
+    caution: "Vi har inte verifierat kundbetyg eller brädans hållbarhet över tid. Ett underlag som rör sig kan kännas ovant – börja försiktigt, gärna med stöd av en vägg eller stol nära till hands tills du vant dig.",
     usageGuidance: {
       title: "Så använder du den rätt",
       text: "Ställ brädan på ett halkfritt underlag och håll gärna i något stadigt de första gångerna. Börja med korta pass och öka tiden allt eftersom balansen blir bättre.",
@@ -8931,15 +8931,15 @@ export const traningsPicks: SommarPick[] = ([
         answer: "Brädan har en diameter på cirka 40 cm, vilket ger en lagom yta att stå på för balans- och coreövningar hemma.",
       },
       {
-        question: "Är 15 omdömen tillräckligt för att lita på betyget?",
-        answer: "Nej, 15 omdömen är få. Betyget 4,2 av 5 ger en fingervisning men säger ännu lite om hur brädan håller över tid – se det som en tidig signal.",
+        question: "Har kundbetygen verifierats?",
+        answer: "Vi har inte verifierat ett aktuellt kundbetyg eller antal recensioner för den exakta varianten. Därför använder vi inte sådana siffror som belägg för kvalitet, hållbarhet eller ett köp.",
       },
     ],
     reviewSectionId: "gorilla-balansplatta-recensioner",
     reviewFormId: "gorilla-balansplatta-skriv-recension",
     targetKeyword: "balansplatta",
     metaTitle: "Gorilla Sports balansbräda i trä – test & guide | Elins val",
-    metaDescription: "Elin går igenom Gorilla Sports balansbräda i trä (Ø40 cm) för balans-, core- och fotledsträning. Obs: endast 15 omdömen ännu.",
+    metaDescription: "Elin går igenom Gorilla Sports balansbräda i trä (Ø40 cm) för balans-, core- och fotledsträning.",
     relatedLinks: [
       {
         href: "/traning/yogamatta",
@@ -8970,13 +8970,13 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Gorilla Sports gymboll – core, balans och pilates",
     shortBody: "En anti-burst träningsboll för core, balans och pilates med medföljande pump. Bra för bålträning, stretch och som sittboll hemma.",
     valueHook: "Mångsidig boll för core och balans",
-    valueStatement: "Gorilla Sports gymboll är en anti-burst träningsboll för dig som vill träna core, balans och pilates hemma. Pump ingår så att du kan blåsa upp den direkt, och bollen fungerar lika bra för bålträning och stretch som för balansövningar eller som sittboll vid skrivbordet. Amazon visar 4,5 av 5 från 10 omdömen – få ännu, så ta betyget med viss försiktighet – men köpare lyfter att den känns stadig och att pumpen gör det enkelt att komma igång.",
+    valueStatement: "Gorilla Sports gymboll är en anti-burst träningsboll för dig som vill träna core, balans och pilates hemma. Pump ingår så att du kan blåsa upp den direkt, och bollen fungerar lika bra för bålträning och stretch som för balansövningar eller som sittboll vid skrivbordet.",
     passFor: [
       "Vill träna core och bål med en mångsidig boll hemma.",
       "Gillar pilates och balansövningar och vill ha pumpen på köpet.",
       "Söker en boll som även går att använda som sittboll.",
     ],
-    caution: "Det finns bara 10 omdömen ännu, så betyget säger ännu lite om hur bollen håller över tid. Välj rätt storlek efter din längd och pumpa till lagom fasthet – en för hårt eller för löst pumpad boll ger sämre stöd.",
+    caution: "Vi har inte verifierat kundbetyg eller bollens hållbarhet över tid. Välj rätt storlek efter din längd och pumpa till lagom fasthet – en för hårt eller för löst pumpad boll ger sämre stöd.",
     usageGuidance: {
       title: "Så använder du den rätt",
       text: "Blås upp bollen med medföljande pump till lagom fasthet och låt materialet vila en stund efter första uppblåsningen. Använd den på ett halkfritt underlag för core-, balans- och pilatesövningar.",
@@ -8994,15 +8994,15 @@ export const traningsPicks: SommarPick[] = ([
         answer: "Ja, en pump följer med så att du kan blåsa upp bollen direkt hemma. Pumpa till lagom fasthet för bäst stöd.",
       },
       {
-        question: "Är 10 omdömen tillräckligt för att lita på betyget?",
-        answer: "Nej, 10 omdömen är få. Betyget 4,5 av 5 ser bra ut men säger ännu lite om hur bollen håller över tid – se det som en tidig signal.",
+        question: "Har kundbetygen verifierats?",
+        answer: "Vi har inte verifierat ett aktuellt kundbetyg eller antal recensioner för den exakta varianten. Därför använder vi inte sådana siffror som belägg för kvalitet, hållbarhet eller ett köp.",
       },
     ],
     reviewSectionId: "gorilla-gymboll-recensioner",
     reviewFormId: "gorilla-gymboll-skriv-recension",
     targetKeyword: "gymboll pilatesboll",
     metaTitle: "Gorilla Sports gymboll / pilatesboll – test & guide | Elins val",
-    metaDescription: "Elin går igenom Gorilla Sports gymboll: en anti-burst pilatesboll för core och balans med pump som ingår. Obs: endast 10 omdömen ännu.",
+    metaDescription: "Elin går igenom Gorilla Sports gymboll: en anti-burst pilatesboll för core och balans med pump som ingår.",
     relatedLinks: [
       {
         href: "/traning/yogamatta",
@@ -9033,13 +9033,13 @@ export const traningsPicks: SommarPick[] = ([
     headline: "BowFlex SelectTech 552i – justerbara hantlar för hemmet",
     shortBody: "Ett par justerbara hantlar där du vrider på ratten för att ställa in vikten mellan 2 och 24 kg per hantel. Ett par ersätter flera fasta vikter och sparar plats hemma.",
     valueHook: "Ett par hantlar som täcker många vikter",
-    valueStatement: "BowFlex SelectTech 552i är ett par justerbara hantlar för dig som vill träna hemma utan en hel ställning med fasta vikter. Du vrider på ratten för att byta belastning mellan 2 och 24 kg per hantel, vilket gör att ett par täcker många övningar och samtidigt sparar plats. Amazon visar 5,0 av 5 från 9 omdömen – väldigt få ännu, så ta betyget med en nypa salt – men köpare som lämnat omdöme lyfter platsbesparingen och hur smidigt det är att byta vikt.",
+    valueStatement: "BowFlex SelectTech 552i är ett par justerbara hantlar för dig som vill träna hemma utan en hel ställning med fasta vikter. Du vrider på ratten för att byta belastning mellan 2 och 24 kg per hantel, vilket gör att ett par täcker många övningar och samtidigt sparar plats.",
     passFor: [
       "Vill träna hemma men har inte plats för en hel hantelställning.",
       "Gillar att snabbt kunna byta belastning mellan olika övningar.",
       "Föredrar ett par hantlar som täcker många vikter framför flera fasta.",
     ],
-    caution: "Det finns bara 9 omdömen ännu, så betyget säger ännu inte så mycket om hur de håller över tid. Justerbara hantlar är också mer skrymmande per hantel än enkla fasta vikter – kontrollera alltid att låsmekanismen sitter rätt innan du lyfter.",
+    caution: "Vi har inte verifierat kundbetyg eller hantlarnas hållbarhet över tid. Justerbara hantlar är också mer skrymmande per hantel än enkla fasta vikter – kontrollera alltid att låsmekanismen sitter rätt innan du lyfter.",
     usageGuidance: {
       title: "Så använder du dem rätt",
       text: "Ställ hantlarna på basplattan, vrid ratten till önskad vikt och kontrollera att vikten verkligen låst fast innan du lyfter. Börja med en lägre vikt för att vänja dig vid mekaniken.",
@@ -9057,15 +9057,15 @@ export const traningsPicks: SommarPick[] = ([
         answer: "Tanken är att ett par täcker många vikter inom intervallet 2–24 kg per hantel, så att du slipper en hel rad fasta hantlar och sparar plats hemma.",
       },
       {
-        question: "Är 9 omdömen tillräckligt för att lita på betyget?",
-        answer: "Nej, 9 omdömen är väldigt få. Betyget 5,0 av 5 ser fint ut men säger ännu lite om hur hantlarna håller över tid – se det som en tidig signal snarare än en säker dom.",
+        question: "Har kundbetygen verifierats?",
+        answer: "Vi har inte verifierat ett aktuellt kundbetyg eller antal recensioner för den exakta varianten. Därför använder vi inte sådana siffror som belägg för kvalitet, hållbarhet eller ett köp.",
       },
     ],
     reviewSectionId: "bowflex-selecttech-552i-recensioner",
     reviewFormId: "bowflex-selecttech-552i-skriv-recension",
     targetKeyword: "justerbara hantlar",
     metaTitle: "BowFlex SelectTech 552i justerbara hantlar – test & guide | Elins val",
-    metaDescription: "Elin går igenom BowFlex SelectTech 552i: ett par justerbara hantlar 2–24 kg som ersätter flera vikter och sparar plats hemma. Obs: endast 9 omdömen ännu.",
+    metaDescription: "Elin går igenom BowFlex SelectTech 552i: ett par justerbara hantlar 2–24 kg som ersätter flera vikter och sparar plats hemma.",
     relatedLinks: [
       {
         href: "/traning/hantlar",
@@ -9096,7 +9096,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "Eric Flag tyngdväst – justerbar viktväst (10/20 kg)",
     shortBody: "En justerbar tyngdväst (viktväst) med löstagbara järnvikter som ökar belastningen vid promenad och hemmaträning. Kardborrespännet håller västen tajt och stabil mot kroppen.",
     valueHook: "Justerbar viktväst för mer belastning",
-    valueStatement: "Eric Flag viktväst är ett enkelt sätt att öka belastningen i vardagen och i träningen. Du justerar tyngden genom att lägga till eller ta bort järnvikter, och kardborrespännet håller västen tajt mot kroppen så att den sitter stabilt under rörelse. Amazon visar 4,7 av 5 från 1 237 omdömen, och köpare lyfter framför allt den stabila passformen och flexibiliteten att ändra vikten.",
+    valueStatement: "Eric Flag viktväst är ett enkelt sätt att öka belastningen i vardagen och i träningen. Du justerar tyngden genom att lägga till eller ta bort järnvikter, och kardborrespännet håller västen tajt mot kroppen så att den sitter stabilt under rörelse.",
     passFor: [
       "Vill öka belastningen vid promenad, gång eller hemmaträning.",
       "Gillar att kunna justera tyngden med löstagbara vikter.",
@@ -9164,7 +9164,7 @@ export const traningsPicks: SommarPick[] = ([
     headline: "PORTENTUM hopprep – smidig kondition hemma",
     shortBody: "Ett prisvärt hopprep med kullager och justerbar stålvajer för jämn, snabb rotation. Halkfritt skumgrepp gör det skönt att hålla i, både hemma och på gymmet.",
     valueHook: "Prisvärt hopprep för kondition hemma",
-    valueStatement: "PORTENTUM hopprep är ett enkelt, prisvärt sätt att få in mer kondition i vardagen. Kullagren ger en jämn och snabb rotation, den justerbara stålvajern kapar du till din egen längd och det halkfria skumgreppet sitter skönt även när händerna blir svettiga. Amazon visar 4,4 av 5 från 911 omdömen, och köpare lyfter framför allt den jämna rotationen och det stadiga greppet.",
+    valueStatement: "PORTENTUM hopprep är ett enkelt, prisvärt sätt att få in mer kondition i vardagen. Kullagren ger en jämn och snabb rotation, den justerbara stålvajern kapar du till din egen längd och det halkfria skumgreppet sitter skönt även när händerna blir svettiga.",
     passFor: [
       "Vill ha ett prisvärt sätt att träna kondition hemma eller på gymmet.",
       "Gillar jämn, snabb rotation tack vare kullager.",
@@ -9196,7 +9196,7 @@ export const traningsPicks: SommarPick[] = ([
     reviewFormId: "portentum-hopprep-skriv-recension",
     targetKeyword: "hopprep",
     metaTitle: "PORTENTUM hopprep – prisvärt med kullager | Elins val",
-    metaDescription: "Elin går igenom PORTENTUM hopprep: justerbar stålvajer, kullager för jämn rotation och halkfritt grepp (4,4 av 5, 911 omdömen) – smidig kondition hemma.",
+    metaDescription: "Elin går igenom PORTENTUM hopprep: justerbar stålvajer, kullager för jämn rotation och halkfritt grepp – smidig kondition hemma.",
     relatedLinks: [
       {
         href: "/traning/traningsband",
@@ -9249,7 +9249,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Blukar klämhållare – funkar med allt",
     shortBody: "Mobilhållare med förstärkt metallkrok, stabilt triangelgrepp och en-knapps-release. Passar alla mobiler 4–7 tum – inga magneter eller skal krävs.",
     valueHook: "Ingen magnet? Inget problem",
-    valueStatement: "Blukar klämhållare är för dig som vill ha en mobilhållare som bara funkar – oavsett mobil och utan tillbehör. Klämarmarna håller mobilen i ett triangelgrepp, en knapp släpper den med en hand och 360-graderskulleden vinklar fritt. Amazon visar 4,5 av 5 från 25 829 omdömen. Tänk på att klämman tar ett handgrepp mer än en magnethållare, och att hållaren sitter i en ventil.",
+    valueStatement: "Blukar klämhållare är för dig som vill ha en mobilhållare som bara funkar – oavsett mobil och utan tillbehör. Klämarmarna håller mobilen i ett triangelgrepp, en knapp släpper den med en hand och 360-graderskulleden vinklar fritt. Tänk på att klämman tar ett handgrepp mer än en magnethållare, och att hållaren sitter i en ventil.",
     passFor: [
       "Har Android eller iPhone utan MagSafe-skal och vill slippa köpa magnetring.",
       "Flera i familjen delar bil och har olika mobiler.",
@@ -9290,7 +9290,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "blukar-mobilhallare-skriv-recension",
     targetKeyword: "mobilhållare bil",
     metaTitle: "Blukar mobilhållare bil – klämman för alla mobiler | Elins val",
-    metaDescription: "Elin går igenom Blukar mobilhållare med ventilklämma (4,5 av 5 från 25 829 omdömen): passar alla mobiler utan magnet – och när MagSafe-hållaren är smidigare.",
+    metaDescription: "Elin går igenom Blukar mobilhållare med ventilklämma : passar alla mobiler utan magnet – och när MagSafe-hållaren är smidigare.",
     relatedLinks: [
       {
         href: "/sommar/resa/magnetisk-mobilhallare-eller-ventilklamma",
@@ -9321,7 +9321,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Coleman Xtreme – kylan som håller hela helgen",
     shortBody: "En hård passiv kylbox på 49 liter med PU-skumisolering även i locket. Håller kylan i upp till 4 dagar – och locket tål att sittas på.",
     valueHook: "När en dag med kyla inte räcker",
-    valueStatement: "Coleman Xtreme är en hård kylbox på 49 liter för dig som behöver kyla som håller mer än en dag – camping, festival eller långhelg vid stranden. PU-skumisolering i både kropp och lock ger upp till 4 dagars kyla med rätt packning, och det robusta HDPE-skalet tål att sittas på. Amazon visar 4,5 av 5 från 1 037 omdömen. Tänk på att den väger 5,5 kg tom – det här är bilens och baslägrets kylbox, inte den du bär till stranden varje dag.",
+    valueStatement: "Coleman Xtreme är en hård kylbox på 49 liter för dig som behöver kyla som håller mer än en dag – camping, festival eller långhelg vid stranden. PU-skumisolering i både kropp och lock ger upp till 4 dagars kyla med rätt packning, och det robusta HDPE-skalet tål att sittas på. Tänk på att den väger 5,5 kg tom – det här är bilens och baslägrets kylbox, inte den du bär till stranden varje dag.",
     passFor: [
       "Campar, åker på festival eller är borta flera dagar i sträck.",
       "Vill ha en kylbox som även funkar som extra sittplats.",
@@ -9358,7 +9358,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "coleman-xtreme-kylbox-skriv-recension",
     targetKeyword: "kylbox",
     metaTitle: "Coleman Xtreme kylbox 49 L – kyla i dagar | Elins val",
-    metaDescription: "Elin går igenom Coleman Xtreme hård kylbox (49 L, 4,5 av 5 från 1 037 omdömen): upp till 4 dagars kyla för camping och långhelg – och när en kylväska passar bättre.",
+    metaDescription: "Elin går igenom Coleman Xtreme hård kylbox : upp till 4 dagars kyla för camping och långhelg – och när en kylväska passar bättre.",
     relatedLinks: [
       {
         href: "/sommar/resa/mjuk-kylvaska-eller-hard-kylbox",
@@ -9389,7 +9389,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Taygeer kabinryggsäck 44L – rymlig och handsfree",
     shortBody: "En rymlig kabinryggsäck på 44 liter (55x40x20 cm) som möter Ryanair, Lufthansa och KLM. Öppnas helt som en resväska, många fack och laptopficka – och gör händerna fria.",
     valueHook: "Allt på ryggen, händerna fria",
-    valueStatement: "Taygeer kabinryggsäck är en rymlig 44-litersryggsäck i handbagageformat (55x40x20 cm) för dig som hellre har händerna fria än rullar en väska. Den öppnas helt som en resväska, har många fack, laptopficka och vattenavvisande tyg. Amazon visar 4,7 av 5 från 21 892 omdömen, och köpare lyfter att den är rymlig, har rätt mått och är lätt att packa. Tänk på att en fullpackad 44L bärs på ryggen – tyngre på längre sträckor än att rulla.",
+    valueStatement: "Taygeer kabinryggsäck är en rymlig 44-litersryggsäck i handbagageformat (55x40x20 cm) för dig som hellre har händerna fria än rullar en väska. Den öppnas helt som en resväska, har många fack, laptopficka och vattenavvisande tyg. Tänk på att en fullpackad 44L bärs på ryggen – tyngre på längre sträckor än att rulla.",
     passFor: [
       "Vill ha händerna fria och slippa dra en väska.",
       "Reser med Ryanair, Lufthansa eller KLM som handbagage.",
@@ -9434,7 +9434,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "taygeer-kabinryggsack-skriv-recension",
     targetKeyword: "kabinryggsäck",
     metaTitle: "Taygeer kabinryggsäck 44L – handbagage | Elins val",
-    metaDescription: "Elin går igenom Taygeer kabinryggsäck 44L (55x40x20 cm, 4,7 av 5 från 21 892 omdömen): rymlig handbagageryggsäck – och när en kabinväska passar bättre.",
+    metaDescription: "Elin går igenom Taygeer kabinryggsäck 44L : rymlig handbagageryggsäck – och när en kabinväska passar bättre.",
     relatedLinks: [
       {
         href: "/sommar/resa/kabinvaska",
@@ -9470,7 +9470,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Cabin Max Anode – lätt hardcase i kabinstorlek",
     shortBody: "En lätt hardcase-kabinväska (40x30x20 cm) som möter Ryanair och Wizz Air. Fyra hjul, kombinationslås och hårt skal – väger bara 2 kg och rullar smidigt.",
     valueHook: "Rulla, lås, kliv på planet",
-    valueStatement: "Cabin Max Anode är en lätt hardcase-kabinväska (40x30x20 cm) för dig som vill rulla väskan istället för att bära den. Den möter kabinmåtten hos de flesta flygbolag som Ryanair och Wizz Air, väger bara 2 kg och har fyra hjul samt kombinationslås. Amazon visar 4,6 av 5 från 14 285 omdömen, och köpare lyfter att den är lätt, stabil och förvånansvärt rymlig. Tänk på att 40x30x20 cm är underseat-storlek – perfekt för weekend, men snål för längre resor.",
+    valueStatement: "Cabin Max Anode är en lätt hardcase-kabinväska (40x30x20 cm) för dig som vill rulla väskan istället för att bära den. Den möter kabinmåtten hos de flesta flygbolag som Ryanair och Wizz Air, väger bara 2 kg och har fyra hjul samt kombinationslås. Tänk på att 40x30x20 cm är underseat-storlek – perfekt för weekend, men snål för längre resor.",
     passFor: [
       "Vill rulla väskan istället för att bära allt på ryggen.",
       "Reser weekend och korta resor med Ryanair eller Wizz Air.",
@@ -9515,7 +9515,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "cabin-max-anode-kabinvaska-skriv-recension",
     targetKeyword: "kabinväska",
     metaTitle: "Cabin Max Anode kabinväska – lätt hardcase | Elins val",
-    metaDescription: "Elin går igenom Cabin Max Anode kabinväska (40x30x20 cm, 4,6 av 5 från 14 285 omdömen): lätt hardcase för Ryanair – och när en ryggsäck packar smartare.",
+    metaDescription: "Elin går igenom Cabin Max Anode kabinväska : lätt hardcase för Ryanair – och när en ryggsäck packar smartare.",
     relatedLinks: [
       {
         href: "/sommar/resa/resryggsack",
@@ -9551,7 +9551,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Utopia frottéhandduk – mjuk och sugande",
     shortBody: "En klassisk frottéhandduk i 100% ringspunnen bomull. Mjuk mot huden, riktigt sugande och skön att svepa in sig i – kommer som 4-pack i cabana-ränder.",
     valueHook: "Mjuk komfort som suger",
-    valueStatement: "Utopia Towels cabana-frottéhandduk är en mjuk, sugande bomullshandduk för dig som gillar den sköna, lyxiga känslan på stranden och i badrummet. Den kommer som 4-pack (76x152 cm) i 100% ringspunnen bomull. Amazon visar 4,4 av 5 från 15 015 omdömen, och köpare lyfter framför allt att de är mjuka och sköna. Tänk på att frotté tar mer plats och torkar långsammare än en mikrofiberhandduk.",
+    valueStatement: "Utopia Towels cabana-frottéhandduk är en mjuk, sugande bomullshandduk för dig som gillar den sköna, lyxiga känslan på stranden och i badrummet. Den kommer som 4-pack (76x152 cm) i 100% ringspunnen bomull. Tänk på att frotté tar mer plats och torkar långsammare än en mikrofiberhandduk.",
     passFor: [
       "Vill ha den mjuka, sugande komforten av riktig bomullsfrotté.",
       "Använder handduken hemma, på stranden och vid poolen.",
@@ -9596,7 +9596,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "utopia-cabana-strandhandduk-skriv-recension",
     targetKeyword: "frottéhandduk",
     metaTitle: "Utopia frottéhandduk – mjuk cabana-strandhandduk | Elins val",
-    metaDescription: "Elin går igenom Utopia Towels frottéhandduk (4-pack, 4,4 av 5 från 15 015 omdömen): mjuk, sugande bomull – och när mikrofiber packar smartare.",
+    metaDescription: "Elin går igenom Utopia Towels frottéhandduk : mjuk, sugande bomull – och när mikrofiber packar smartare.",
     relatedLinks: [
       {
         href: "/sommar/resa/mikrofiberhandduk",
@@ -9627,7 +9627,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Prezon skopåsar – skorna borta från kläderna",
     shortBody: "Ett 2-pack vattentåliga skopåsar i TPU med nätfönster och stadig YKK-dragkedja. De håller skorna åtskilda från kläderna i väskan och rymmer även vuxenskor.",
     valueHook: "Slipp skosulorna mot de rena kläderna",
-    valueStatement: "Prezon skopåsar är ett 2-pack vattentåliga påsar i TPU för dig som vill hålla skorna borta från de rena kläderna i väskan. Nätfönstret gör att du ser vad som är i, och YKK-dragkedjan känns stadig. Amazon visar 4,7 av 5 från 718 omdömen, och köpare gillar att de rymmer vuxenskor och inte luktar plast. Tänk på att det är M-storlek i 2-pack – har du större kängor eller fler par kan du behöva komplettera.",
+    valueStatement: "Prezon skopåsar är ett 2-pack vattentåliga påsar i TPU för dig som vill hålla skorna borta från de rena kläderna i väskan. Nätfönstret gör att du ser vad som är i, och YKK-dragkedjan känns stadig. Tänk på att det är M-storlek i 2-pack – har du större kängor eller fler par kan du behöva komplettera.",
     passFor: [
       "Vill hålla skorna åtskilda från de rena kläderna i väskan.",
       "Vill ha vattentåliga påsar som tål lite smuts.",
@@ -9659,7 +9659,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "prezon-skopasar-skriv-recension",
     targetKeyword: "skopåsar resa",
     metaTitle: "Prezon skopåsar för resa (2-pack) – håll skorna för sig | Elins val",
-    metaDescription: "Elin går igenom Prezon skopåsar (2-pack, 4,7 av 5 från 718 omdömen): vattentåliga med YKK-dragkedja som håller skorna borta från kläderna – och vad du bör tänka på.",
+    metaDescription: "Elin går igenom Prezon skopåsar : vattentåliga med YKK-dragkedja som håller skorna borta från kläderna – och vad du bör tänka på.",
     relatedLinks: [
       {
         href: "/sommar/resa/tvattpase",
@@ -9690,7 +9690,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Narwey hängande necessär – ordning på liten yta",
     shortBody: "En rymlig necessär med krok och flera fack som du hänger på dörren eller kroken i badrummet. Du når allt direkt utan att rota, och materialet är vattentåligt och lätt att torka av.",
     valueHook: "Slipp rota på det trånga hotellbadrummet",
-    valueStatement: "Narwey hängande necessär är en rymlig necessär med krok och flera fack för dig som vill ha ordning även på ett trångt hotellbadrum. Du hänger upp den och når toalettsaker och smått direkt. Amazon visar 4,6 av 5 från nära 45 000 omdömen, och köpare lyfter att den är rymlig och praktisk. Tänk på att den blir ganska stor när den är full – kolla att den ryms i din väska.",
+    valueStatement: "Narwey hängande necessär är en rymlig necessär med krok och flera fack för dig som vill ha ordning även på ett trångt hotellbadrum. Du hänger upp den och når toalettsaker och smått direkt. Tänk på att den blir ganska stor när den är full – kolla att den ryms i din väska.",
     passFor: [
       "Vill ha ordning på toalettsakerna även på ett trångt badrum.",
       "Vill kunna hänga upp necessären och nå allt utan att rota.",
@@ -9722,7 +9722,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "narwey-hangande-necessar-skriv-recension",
     targetKeyword: "hängande necessär",
     metaTitle: "Narwey hängande necessär – ordning på badrummet | Elins val",
-    metaDescription: "Elin går igenom Narwey hängande necessär (4,6 av 5 från 44 900 omdömen): häng upp och nå allt utan att rota, rymlig med flera fack – och vad du bör tänka på.",
+    metaDescription: "Elin går igenom Narwey hängande necessär : häng upp och nå allt utan att rota, rymlig med flera fack – och vad du bör tänka på.",
     relatedLinks: [
       {
         href: "/sommar/resa/reseflaskor",
@@ -9753,7 +9753,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Opret reseflaskor – dina egna produkter, litet format",
     shortBody: "Ett set påfyllningsbara silikonflaskor (60 ml) för shampoo, balsam och kräm. Läcksäkra, BPA-fria och lätta att trycka ihop – med etiketter så du håller isär innehållet.",
     valueHook: "Ta med dina egna favoriter",
-    valueStatement: "Opret reseflaskor är ett set mjuka silikonflaskor på 60 ml för dig som vill ta med dina egna produkter istället för att köpa reseförpackningar. De är läcksäkra, BPA-fria och lätta att trycka ihop, och etiketterna håller isär shampoo och balsam. Amazon visar 4,5 av 5 från 779 omdömen. Kom ihåg att flaskorna rymmer 60 ml – kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
+    valueStatement: "Opret reseflaskor är ett set mjuka silikonflaskor på 60 ml för dig som vill ta med dina egna produkter istället för att köpa reseförpackningar. De är läcksäkra, BPA-fria och lätta att trycka ihop, och etiketterna håller isär shampoo och balsam. Kom ihåg att flaskorna rymmer 60 ml – kolla alltid flygplatsens aktuella regler för vätskor i handbagage.",
     passFor: [
       "Vill ta med egna produkter istället för att köpa reseförpackningar.",
       "Vill ha läcksäkra flaskor som inte spiller i necessären.",
@@ -9785,7 +9785,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "opret-reseflaskor-skriv-recension",
     targetKeyword: "reseflaskor",
     metaTitle: "Opret reseflaskor i silikon (60 ml) – läcksäkra | Elins val",
-    metaDescription: "Elin går igenom Opret reseflaskor i silikon (60 ml, 4,5 av 5 från 779 omdömen): fyll egna produkter, läcksäkra och BPA-fria – och tänk på flygplatsens vätskeregler.",
+    metaDescription: "Elin går igenom Opret reseflaskor i silikon : fyll egna produkter, läcksäkra och BPA-fria – och tänk på flygplatsens vätskeregler.",
     relatedLinks: [
       {
         href: "/sommar/resa/necessar",
@@ -9816,7 +9816,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "OTraki tvättpåse – smutstvätten för sig",
     shortBody: "Ett 2-pack tvättpåsar med dragsko som håller smutstvätt skild från rena kläder i väskan. Tomma tar de nästan ingen plats och fungerar även som förvaring hemma.",
     valueHook: "Slipp blanda smutsigt och rent",
-    valueStatement: "OTraki tvättpåsar är ett 2-pack tygpåsar med dragsko för dig som vill hålla smutstvätten skild från de rena kläderna i väskan. De väger nästan ingenting tomma och kan även användas till förvaring hemma. Amazon visar 4,6 av 5 från 2 279 omdömen. Tänk på att det är enkla, icke vattentäta tygpåsar – för torr smutstvätt, inte blött.",
+    valueStatement: "OTraki tvättpåsar är ett 2-pack tygpåsar med dragsko för dig som vill hålla smutstvätten skild från de rena kläderna i väskan. De väger nästan ingenting tomma och kan även användas till förvaring hemma. Tänk på att det är enkla, icke vattentäta tygpåsar – för torr smutstvätt, inte blött.",
     passFor: [
       "Vill hålla smutstvätt skild från rena kläder på resan.",
       "Vill ha något lätt som viks ihop till nästan ingenting.",
@@ -9848,7 +9848,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "otraki-tvattpase-skriv-recension",
     targetKeyword: "tvättpåse resa",
     metaTitle: "OTraki tvättpåse för resa (2-pack) – håll ordning | Elins val",
-    metaDescription: "Elin går igenom OTraki tvättpåsar (2-pack, 4,6 av 5 från 2 279 omdömen): håll smutstvätt skild från rena kläder i väskan – och vad de inte passar för.",
+    metaDescription: "Elin går igenom OTraki tvättpåsar : håll smutstvätt skild från rena kläder i väskan – och vad de inte passar för.",
     relatedLinks: [
       {
         href: "/sommar/resa/skopasar",
@@ -9879,7 +9879,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "IPELY bilskräppåse – slut på skräpet på golvet",
     shortBody: "En lätt bilskräppåse som hängs på nackstödet, växelspaken eller dörren. Samlar snacksförpackningar och smått skräp på ett ställe, så bilen håller sig fräsch på road tripen.",
     valueHook: "Bilen blir semester eller stress – småsakerna avgör",
-    valueStatement: "IPELY bilskräppåse är en lätt påse som hängs på nackstödet eller växelspaken och samlar skräpet på ett ställe istället för på golvet. Perfekt för snacks och smått på road tripen. Amazon visar 4,6 av 5 från 4 005 omdömen, och köpare gillar att den håller bilen fräsch utan att vara i vägen. Tänk på att det är en mjuk påse för lätt, torrt skräp – inte en stadig soptunna.",
+    valueStatement: "IPELY bilskräppåse är en lätt påse som hängs på nackstödet eller växelspaken och samlar skräpet på ett ställe istället för på golvet. Perfekt för snacks och smått på road tripen. Tänk på att det är en mjuk påse för lätt, torrt skräp – inte en stadig soptunna.",
     passFor: [
       "Vill hålla bilen fräsch på långresan med barn eller snacks.",
       "Vill samla skräpet på ett ställe istället för på golvet.",
@@ -9911,7 +9911,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "ipely-bilskrappase-skriv-recension",
     targetKeyword: "bilsoptunna",
     metaTitle: "IPELY bilskräppåse – håll bilen fräsch på resan | Elins val",
-    metaDescription: "Elin går igenom IPELY bilskräppåse (4,6 av 5 från 4 005 omdömen): samla snacks och skräp på ett ställe på road tripen – och vad den inte passar för.",
+    metaDescription: "Elin går igenom IPELY bilskräppåse : samla snacks och skräp på ett ställe på road tripen – och vad den inte passar för.",
     relatedLinks: [
       {
         href: "/sommar/resa/bilorganisator",
@@ -9942,7 +9942,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Lamicall mobilhållare – mobilen i blickfånget",
     shortBody: "En magnetisk mobilhållare med starka N52-magneter som fäster i luftventilen och håller mobilen i sikte för navigeringen. Enkel att sätta fast och ta av med en hand.",
     valueHook: "Slipp fippla med mobilen medan du kör",
-    valueStatement: "Lamicall magnetiska mobilhållare håller mobilen stadigt i bilens luftventil, så du kan följa navigeringen utan att hålla i den. Starka magneter gör att du fäster och tar loss mobilen med en hand. Amazon visar 4,6 av 5 från hela 16 134 omdömen, och många kallar den den bästa hållaren de haft. Viktigt: det är en MagSafe-hållare, så andra mobiler behöver en magnetring eller ett MagSafe-skal.",
+    valueStatement: "Lamicall magnetiska mobilhållare håller mobilen stadigt i bilens luftventil, så du kan följa navigeringen utan att hålla i den. Starka magneter gör att du fäster och tar loss mobilen med en hand. Viktigt: det är en MagSafe-hållare, så andra mobiler behöver en magnetring eller ett MagSafe-skal.",
     passFor: [
       "Vill ha mobilen i sikte för navigeringen på road tripen.",
       "Har iPhone med MagSafe eller en magnetring på mobilen.",
@@ -9974,7 +9974,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "lamicall-mobilhallare-bil-skriv-recension",
     targetKeyword: "mobilhållare bil",
     metaTitle: "Lamicall magnetisk mobilhållare för bil – MagSafe | Elins val",
-    metaDescription: "Elin går igenom Lamicall magnetiska mobilhållare (4,6 av 5 från 16 134 omdömen): håll mobilen i sikte för navigeringen – och varför du behöver MagSafe eller en magnetring.",
+    metaDescription: "Elin går igenom Lamicall magnetiska mobilhållare : håll mobilen i sikte för navigeringen – och varför du behöver MagSafe eller en magnetring.",
     relatedLinks: [
       {
         href: "/sommar/resa/magnetisk-mobilhallare-eller-ventilklamma",
@@ -10010,7 +10010,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "INIU billaddare – ström till navigeringen",
     shortBody: "En kompakt billaddare på 66W med USB-C och USB-A i metallhölje. Laddar mobilen snabbt medan du kör – skönt när navigeringen drar batteri på road tripen.",
     valueHook: "Om mobilen dör mitt i navigeringen",
-    valueStatement: "INIU billaddare är en kompakt 66W-laddare med USB-C och USB-A i ett gediget metallhölje. Den sitter i bilens 12V-uttag och laddar mobilen snabbt medan navigeringen går. Amazon visar 4,7 av 5 från 953 omdömen, och köpare lyfter den höga kvaliteten. Tänk på att 66W delas mellan portarna, så laddar du två enheter samtidigt blir det långsammare per enhet.",
+    valueStatement: "INIU billaddare är en kompakt 66W-laddare med USB-C och USB-A i ett gediget metallhölje. Den sitter i bilens 12V-uttag och laddar mobilen snabbt medan navigeringen går. Tänk på att 66W delas mellan portarna, så laddar du två enheter samtidigt blir det långsammare per enhet.",
     passFor: [
       "Kör långt och vill hålla mobilen laddad under navigering.",
       "Vill ladda både mobil och en passagerares enhet.",
@@ -10042,7 +10042,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "iniu-billaddare-skriv-recension",
     targetKeyword: "billaddare",
     metaTitle: "INIU billaddare 66W – snabb laddning i bilen | Elins val",
-    metaDescription: "Elin går igenom INIU billaddare (66W, 4,7 av 5 från 953 omdömen): ladda mobilen snabbt medan du kör på road tripen – och varför effekten delas mellan portarna.",
+    metaDescription: "Elin går igenom INIU billaddare : ladda mobilen snabbt medan du kör på road tripen – och varför effekten delas mellan portarna.",
     relatedLinks: [
       {
         href: "/sommar/resa/mobilhallare",
@@ -10073,7 +10073,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "SURDOCA bilorganiser – slut på kaoset i baksätet",
     shortBody: "En bilorganiser med åtta fickor och surfplattehållare som fäster på framstolens rygg. Håller leksaker, flaskor och smått på plats i baksätet – särskilt skönt med barn på långresan.",
     valueHook: "Bilen blir semester eller stress",
-    valueStatement: "SURDOCA bilorganiser håller ordning i baksätet på road tripen med åtta fickor och en surfplattehållare. Barnen når sina saker och skräpet hamnar inte överallt. Amazon visar 4,3 av 5 från hela 15 978 omdömen, och köpare lyfter mängden fickor och tåligheten. Tänk på att någon tycker den nedre remmen är lite kort – kolla att den passar just din bil.",
+    valueStatement: "SURDOCA bilorganiser håller ordning i baksätet på road tripen med åtta fickor och en surfplattehållare. Barnen når sina saker och skräpet hamnar inte överallt. Tänk på att någon tycker den nedre remmen är lite kort – kolla att den passar just din bil.",
     passFor: [
       "Kör långt med barn och vill ha ordning i baksätet.",
       "Vill ha en surfplattehållare för resan.",
@@ -10105,7 +10105,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "surdoca-bilorganisator-skriv-recension",
     targetKeyword: "bilorganisatör",
     metaTitle: "SURDOCA bilorganiser för baksätet – ordning på resan | Elins val",
-    metaDescription: "Elin går igenom SURDOCA bilorganiser (8 fickor, 4,3 av 5 från 15 978 omdömen): håll ordning i baksätet på road tripen med surfplattehållare – och kolla passformen.",
+    metaDescription: "Elin går igenom SURDOCA bilorganiser : håll ordning i baksätet på road tripen med surfplattehållare – och kolla passformen.",
     relatedLinks: [
       {
         href: "/sommar/resa/billaddare",
@@ -10136,7 +10136,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Blukar pannlampa – ljus när du behöver det",
     shortBody: "En uppladdningsbar LED-pannlampa med åtta ljuslägen, sensorstyrning och rött ljus. Ger bra ljus på campingen eller festivalen med händerna fria – och laddas via USB.",
     valueHook: "Smart när det blir mörkt",
-    valueStatement: "Blukar pannlampa är en uppladdningsbar LED-lampa för dig som vill ha händerna fria i mörkret – på campingen, festivalen eller kvällspromenaden. Åtta ljuslägen, sensorstyrning och rött ljus ger flexibilitet, och USB-laddning gör att du slipper byta batteri. Amazon visar 4,5 av 5 från över 12 000 omdömen. Tänk på att sensorstyrningen kan vara känslig och slå på/av av misstag.",
+    valueStatement: "Blukar pannlampa är en uppladdningsbar LED-lampa för dig som vill ha händerna fria i mörkret – på campingen, festivalen eller kvällspromenaden. Åtta ljuslägen, sensorstyrning och rött ljus ger flexibilitet, och USB-laddning gör att du slipper byta batteri. Tänk på att sensorstyrningen kan vara känslig och slå på/av av misstag.",
     passFor: [
       "Vill ha händerna fria i mörkret på camping eller festival.",
       "Föredrar en uppladdningsbar lampa framför batteribyten.",
@@ -10168,7 +10168,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "blukar-pannlampa-skriv-recension",
     targetKeyword: "pannlampa",
     metaTitle: "Blukar pannlampa – uppladdningsbar för camping | Elins val",
-    metaDescription: "Elin går igenom Blukar pannlampa (4,5 av 5 från 12 344 omdömen): uppladdningsbar LED med 8 lägen och rött ljus – händerna fria i mörkret, och vad du bör veta om sensorn.",
+    metaDescription: "Elin går igenom Blukar pannlampa : uppladdningsbar LED med 8 lägen och rött ljus – händerna fria i mörkret, och vad du bör veta om sensorn.",
     relatedLinks: [
       {
         href: "/sommar/resa/regnponcho",
@@ -10199,7 +10199,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Anyoo regnponcho – packa ner, slipp bli blöt",
     shortBody: "En lätt, återanvändbar regnponcho med huva som håller regn och blåst borta på festivalen eller utflykten. Den viks ihop litet och får plats i väskan.",
     valueHook: "Inte glamoröst – bara smart när vädret vänder",
-    valueStatement: "Anyoo regnponcho är en lätt, återanvändbar poncho med huva för dig som inte vill låta regnet förstöra festivalen eller utflykten. Den packas ihop litet och får plats i väskan, så du alltid har regnskyddet med. Amazon visar 4,5 av 5 från hela 24 458 omdömen, och flera köpare nämner att den räddade en regnig festivaldag. Tänk på att det är en lätt poncho som kan fladdra i hård vind.",
+    valueStatement: "Anyoo regnponcho är en lätt, återanvändbar poncho med huva för dig som inte vill låta regnet förstöra festivalen eller utflykten. Den packas ihop litet och får plats i väskan, så du alltid har regnskyddet med. Tänk på att det är en lätt poncho som kan fladdra i hård vind.",
     passFor: [
       "Vill ha ett lätt regnskydd som alltid får plats i väskan.",
       "Går på festival, vandrar eller är mycket utomhus.",
@@ -10231,7 +10231,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "anyoo-regnponcho-skriv-recension",
     targetKeyword: "regnponcho",
     metaTitle: "Anyoo regnponcho – återanvändbar för festival | Elins val",
-    metaDescription: "Elin går igenom Anyoo regnponcho (4,5 av 5 från 24 458 omdömen): lätt, återanvändbar och packbar med huva – räddar festivaldagen när vädret vänder.",
+    metaDescription: "Elin går igenom Anyoo regnponcho : lätt, återanvändbar och packbar med huva – räddar festivaldagen när vädret vänder.",
     relatedLinks: [
       {
         href: "/sommar/resa/pannlampa",
@@ -10262,7 +10262,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Anker 735 väggladdare – en laddare för allt",
     shortBody: "En kompakt GaN-väggladdare på 65W med tre portar och hopfällbara stift. Den laddar mobil, surfplatta och många laptops, så du kan lämna de andra laddarna hemma.",
     valueHook: "Byt tre laddare mot en",
-    valueStatement: "Anker 735 är en kompakt 65W GaN-laddare för dig som vill packa lätt och ändå kunna ladda allt. Med tre portar laddar den mobil, surfplatta och många laptops samtidigt, och de hopfällbara stiften gör den reseklar. Amazon visar 4,6 av 5 från hela 13 137 omdömen. Tänk på att 65W delas mellan portarna, så laddar du flera enheter samtidigt blir det långsammare per enhet.",
+    valueStatement: "Anker 735 är en kompakt 65W GaN-laddare för dig som vill packa lätt och ändå kunna ladda allt. Med tre portar laddar den mobil, surfplatta och många laptops samtidigt, och de hopfällbara stiften gör den reseklar. Tänk på att 65W delas mellan portarna, så laddar du flera enheter samtidigt blir det långsammare per enhet.",
     passFor: [
       "Vill ersätta flera laddare med en enda liten på resan.",
       "Behöver ladda både mobil och laptop.",
@@ -10294,7 +10294,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "anker-735-vaggladdare-skriv-recension",
     targetKeyword: "usb c väggladdare",
     metaTitle: "Anker 735 väggladdare 65W – en laddare för allt | Elins val",
-    metaDescription: "Elin går igenom Anker 735 Nano II 65W väggladdare (4,6 av 5 från 13 137 omdömen): kompakt 3-portsladdare för mobil och laptop – och varför effekten delas mellan portarna.",
+    metaDescription: "Elin går igenom Anker 735 Nano II 65W väggladdare : kompakt 3-portsladdare för mobil och laptop – och varför effekten delas mellan portarna.",
     relatedLinks: [
       {
         href: "/sommar/resa/powerbank",
@@ -10325,7 +10325,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "RAVIAD USB-C-kabel – kort, hållbar, smidig",
     shortBody: "Ett 2-pack korta (50 cm) nylonflätade USB-C-kablar med PD-stöd. Den korta längden är perfekt ihop med en powerbank – du slipper trassel med långa sladdar i väskan.",
     valueHook: "Rätt kabel till powerbanken",
-    valueStatement: "RAVIAD USB-C-kablar är ett 2-pack korta, nylonflätade kablar för dig som vill ha rätt sladd till powerbanken utan trassel. 50 cm räcker precis när powerbanken ligger i fickan eller väskan. Amazon visar 4,8 av 5 från 586 omdömen, och köpare gillar längden och den hållbara känslan. Tänk på att 50 cm är för kort om du vill använda mobilen långt från uttaget.",
+    valueStatement: "RAVIAD USB-C-kablar är ett 2-pack korta, nylonflätade kablar för dig som vill ha rätt sladd till powerbanken utan trassel. 50 cm räcker precis när powerbanken ligger i fickan eller väskan. Tänk på att 50 cm är för kort om du vill använda mobilen långt från uttaget.",
     passFor: [
       "Använder powerbank och vill ha en kort kabel som inte trasslar.",
       "Vill ha en hållbar reservkabel i väskan.",
@@ -10357,7 +10357,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "raviad-usb-c-kabel-skriv-recension",
     targetKeyword: "usb-c kabel kort",
     metaTitle: "RAVIAD USB-C-kabel kort (2-pack) – smidig till resa | Elins val",
-    metaDescription: "Elin går igenom RAVIAD korta USB-C-kablar (2-pack, 50 cm, 4,8 av 5 från 586 omdömen): perfekta ihop med powerbank utan sladdtrassel – och när de blir för korta.",
+    metaDescription: "Elin går igenom RAVIAD korta USB-C-kablar : perfekta ihop med powerbank utan sladdtrassel – och när de blir för korta.",
     relatedLinks: [
       {
         href: "/sommar/resa/powerbank",
@@ -10388,7 +10388,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Anker Zolo powerbank – kabeln sitter redan i",
     shortBody: "En powerbank med två inbyggda USB-C-kablar och 45W snabbladdning, plus extra USB-C- och USB-A-port. Du slipper leta efter en lös sladd när mobilen behöver ström på resan.",
     valueHook: "Om mobilen dör på resdagen känns allt dyrare",
-    valueStatement: "Anker Zolo är en powerbank för dig som vill slippa leta efter en lös laddsladd på resan – två USB-C-kablar sitter redan inbyggda. Med 45W snabbladdning och extra portar laddar du flera enheter. Amazon visar 4,6 av 5 från 989 omdömen och köpare beskriver den som en pålitlig reskompis. Tänk på att det är en kraftfull modell som väger en del, och att antalet laddningar beror på din enhet.",
+    valueStatement: "Anker Zolo är en powerbank för dig som vill slippa leta efter en lös laddsladd på resan – två USB-C-kablar sitter redan inbyggda. Med 45W snabbladdning och extra portar laddar du flera enheter. Tänk på att det är en kraftfull modell som väger en del, och att antalet laddningar beror på din enhet.",
     passFor: [
       "Vill ha en powerbank där kabeln redan sitter i.",
       "Vill snabbladda mobilen och kunna ladda flera enheter.",
@@ -10420,7 +10420,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "anker-zolo-powerbank-skriv-recension",
     targetKeyword: "powerbank",
     metaTitle: "Anker Zolo powerbank – inbyggda kablar & 45W | Elins val",
-    metaDescription: "Elin går igenom Anker Zolo powerbank (4,6 av 5 från 989 omdömen): två inbyggda USB-C-kablar och 45W snabbladdning för resan – och vad du bör tänka på i flyget.",
+    metaDescription: "Elin går igenom Anker Zolo powerbank : två inbyggda USB-C-kablar och 45W snabbladdning för resan – och vad du bör tänka på i flyget.",
     relatedLinks: [
       {
         href: "/sommar/resa/usb-c-kabel",
@@ -10456,7 +10456,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "AnorTrek strandfilt – stor, lätt och sandfri",
     shortBody: "En extra stor sandfri strandfilt (300x300 cm) i lätt, snabbtorkande material. Sanden borstas lätt av och filten viks ihop till en liten påse – smidig att ta med.",
     valueHook: "Slipp sanden i allt",
-    valueStatement: "AnorTrek sandfria strandfilt är en extra stor filt (300x300 cm) för dig som vill ha en rymlig, sandfri bas på stranden. Den är lätt, snabbtorkande och viks ihop kompakt. Amazon visar 4,4 av 5 från 390 omdömen, och köpare gillar storleken och att den är lätt att ta med. Tänk på att det är en tunn filt – på stenig mark känner du underlaget, och du bör fästa hörnen i blåst.",
+    valueStatement: "AnorTrek sandfria strandfilt är en extra stor filt (300x300 cm) för dig som vill ha en rymlig, sandfri bas på stranden. Den är lätt, snabbtorkande och viks ihop kompakt. Tänk på att det är en tunn filt – på stenig mark känner du underlaget, och du bör fästa hörnen i blåst.",
     passFor: [
       "Vill ha en rymlig, sandfri bas för hela sällskapet på stranden.",
       "Vill ha något lätt och kompakt att bära med sig.",
@@ -10488,7 +10488,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "anortrek-strandfilt-skriv-recension",
     targetKeyword: "strandfilt",
     metaTitle: "AnorTrek strandfilt 300x300 cm – sandfri & lätt | Elins val",
-    metaDescription: "Elin går igenom AnorTrek sandfria strandfilt (300x300 cm, 4,4 av 5 från 390 omdömen): stor, lätt och sandfri bas för stranden – och vad du bör tänka på.",
+    metaDescription: "Elin går igenom AnorTrek sandfria strandfilt : stor, lätt och sandfri bas för stranden – och vad du bör tänka på.",
     relatedLinks: [
       {
         href: "/sommar/resa/strandfilt-eller-strandhandduk",
@@ -10524,7 +10524,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Lifewit kylväska – sval dryck, fria händer",
     shortBody: "En isolerad kylryggsäck på 24 liter som håller mat och dryck sval på väg till stranden eller picknicken. Bärs bekvämt på ryggen så du har händerna fria.",
     valueHook: "Sval dryck utan att släpa på en kylbox",
-    valueStatement: "Lifewit kylväska är en isolerad kylryggsäck på 24 liter för dig som vill ha sval dryck och mat på utflykten utan att bära en klumpig kylbox. Ryggsäcksmodellen gör den bekväm på längre sträckor. Amazon visar 4,6 av 5 från hela 9 411 omdömen. Tänk på att det är en mjuk kylväska – den håller kylan i timmar, inte hela dagen i stekande sol, så använd kylklampar.",
+    valueStatement: "Lifewit kylväska är en isolerad kylryggsäck på 24 liter för dig som vill ha sval dryck och mat på utflykten utan att bära en klumpig kylbox. Ryggsäcksmodellen gör den bekväm på längre sträckor. Tänk på att det är en mjuk kylväska – den håller kylan i timmar, inte hela dagen i stekande sol, så använd kylklampar.",
     passFor: [
       "Vill ha sval dryck och mat på stranden, picknicken eller campingen.",
       "Vill bära utflyktspackningen bekvämt på ryggen.",
@@ -10556,7 +10556,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "lifewit-kylvaska-skriv-recension",
     targetKeyword: "kylväska",
     metaTitle: "Lifewit kylväska ryggsäck – sval dryck på stranden | Elins val",
-    metaDescription: "Elin går igenom Lifewit kylväska ryggsäck (24 L, 4,6 av 5 från 9 411 omdömen): håll mat och dryck sval på utflykten – och hur du får kylan att hålla längre.",
+    metaDescription: "Elin går igenom Lifewit kylväska ryggsäck : håll mat och dryck sval på utflykten – och hur du får kylan att hålla längre.",
     relatedLinks: [
       {
         href: "/sommar/resa/mjuk-kylvaska-eller-hard-kylbox",
@@ -10597,7 +10597,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Strandklämmor – slut på badlakanet som blåser bort",
     shortBody: "Ett 9-pack vindtåliga klämmor som håller badlakanet på plats på solstolen. De greppar rejält och funkar även som stora klädnypor hemma eller för blöta plagg på resan.",
     valueHook: "En liten sak som räddar stranddagen",
-    valueStatement: "Dessa strandklämmor är ett 9-pack vindtåliga klämmor för dig som är trött på att badlakanet blåser av solstolen. De greppar rejält och kan även användas som stora klädnypor. Amazon visar 4,6 av 5 från 353 omdömen. Tänk på att det är enkla plastklämmor – vid riktigt hård vind eller väldigt tjocka dynor kan greppet utmanas.",
+    valueStatement: "Dessa strandklämmor är ett 9-pack vindtåliga klämmor för dig som är trött på att badlakanet blåser av solstolen. De greppar rejält och kan även användas som stora klädnypor. Tänk på att det är enkla plastklämmor – vid riktigt hård vind eller väldigt tjocka dynor kan greppet utmanas.",
     passFor: [
       "Vill hålla badlakanet på plats på solstolen i blåst.",
       "Vill ha något litet och billigt som löser ett vanligt strandbekymmer.",
@@ -10629,7 +10629,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "strandklammor-skriv-recension",
     targetKeyword: "strandklämmor",
     metaTitle: "Strandklämmor för badlakan – vindtåliga 9-pack | Elins val",
-    metaDescription: "Elin går igenom vindtåliga strandklämmor (9-pack, 4,6 av 5 från 353 omdömen): håll badlakanet på plats på solstolen även i blåst – litet men skönt.",
+    metaDescription: "Elin går igenom vindtåliga strandklämmor : håll badlakanet på plats på solstolen även i blåst – litet men skönt.",
     relatedLinks: [
       {
         href: "/sommar/resa/strandfilt",
@@ -10660,7 +10660,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "JETech vattentätt mobilfodral – lugn vid vattnet",
     shortBody: "Ett IPX8-klassat vattentätt fodral i 2-pack som skyddar mobilen mot vatten och sand. Du kan använda skärmen genom plasten och bära det runt halsen vid strand och pool.",
     valueHook: "Slipp oroa dig för mobilen på stranden",
-    valueStatement: "JETech vattentäta mobilfodral är ett 2-pack IPX8-klassade fodral för dig som vill skydda mobilen mot vatten och sand vid stranden eller poolen. Du kan svara och fota genom plasten. Amazon visar 4,5 av 5 från 1 739 omdömen och köpare beskriver god kvalitet. Viktigt: kontrollera alltid att låset sluter tätt innan du utsätter mobilen för vatten.",
+    valueStatement: "JETech vattentäta mobilfodral är ett 2-pack IPX8-klassade fodral för dig som vill skydda mobilen mot vatten och sand vid stranden eller poolen. Du kan svara och fota genom plasten. Viktigt: kontrollera alltid att låset sluter tätt innan du utsätter mobilen för vatten.",
     passFor: [
       "Vill skydda mobilen mot vatten och sand på stranden.",
       "Vill kunna fota och svara utan att ta ut mobilen.",
@@ -10692,7 +10692,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "jetech-vattentatt-mobilfodral-skriv-recension",
     targetKeyword: "vattentätt mobilfodral",
     metaTitle: "JETech vattentätt mobilfodral – skydd på stranden | Elins val",
-    metaDescription: "Elin går igenom JETech vattentäta mobilfodral (2-pack, IPX8, 4,5 av 5 från 1 739 omdömen): skydda mobilen mot vatten och sand – och varför förslutningen är allt.",
+    metaDescription: "Elin går igenom JETech vattentäta mobilfodral : skydda mobilen mot vatten och sand – och varför förslutningen är allt.",
     relatedLinks: [
       {
         href: "/sommar/resa/mikrofiberhandduk",
@@ -10723,7 +10723,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Fit-Flip mikrofiberhandduk – lätt och smidig",
     shortBody: "En lätt, snabbtorkande mikrofiberhandduk som viks ihop till en liten storlek. Perfekt för strand, pool och resa när du vill slippa släpa på en tung frottéhandduk.",
     valueHook: "Slipp den tunga frottéhandduken",
-    valueStatement: "Fit-Flip mikrofiberhandduk är en lätt, snabbtorkande handduk för dig som vill spara plats i strandväskan. Den viks ihop litet och torkar snabbt i solen. Amazon visar 4,5 av 5 från hela 35 103 omdömen, och köpare lyfter att den är mjuk, lätt och snabbtorkande. Tänk på att det är en funktionell mikrofiberhandduk – vissa föredrar känslan av en tjockare frottéhandduk.",
+    valueStatement: "Fit-Flip mikrofiberhandduk är en lätt, snabbtorkande handduk för dig som vill spara plats i strandväskan. Den viks ihop litet och torkar snabbt i solen. Tänk på att det är en funktionell mikrofiberhandduk – vissa föredrar känslan av en tjockare frottéhandduk.",
     passFor: [
       "Vill spara plats och vikt i strand- eller resväskan.",
       "Vill ha en handduk som torkar snabbt i solen.",
@@ -10755,7 +10755,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "fit-flip-mikrofiberhandduk-skriv-recension",
     targetKeyword: "mikrofiberhandduk",
     metaTitle: "Fit-Flip mikrofiberhandduk – snabbtorkande & kompakt | Elins val",
-    metaDescription: "Elin går igenom Fit-Flip mikrofiberhandduk (4,5 av 5 från 35 103 omdömen): lätt, snabbtorkande och kompakt för strand och resa – och vad du bör tänka på.",
+    metaDescription: "Elin går igenom Fit-Flip mikrofiberhandduk : lätt, snabbtorkande och kompakt för strand och resa – och vad du bör tänka på.",
     relatedLinks: [
       {
         href: "/sommar/resa/mikrofiberhandduk-eller-frottehandduk",
@@ -10791,7 +10791,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "EPICKA reseadapter – en för hela världen",
     shortBody: "En allt-i-ett reseadapter med utfällbara kontakter som passar uttag i de flesta länder, plus fem USB-portar (3x USB-C, 2x USB-A) så du laddar flera enheter samtidigt.",
     valueHook: "Slipp en adapter per land",
-    valueStatement: "EPICKA Universal är en reseadapter för dig som reser mellan olika länder och vill slippa köpa en ny adapter varje gång. Utfällbara kontakter passar uttag i de flesta länder, och fem USB-portar gör att du kan ladda flera enheter samtidigt. Amazon visar 4,7 av 5 från 602 omdömen, och köpare beskriver den som pålitlig och kompatibel med det mesta. Viktigt: adaptern byter bara kontakttyp – den omvandlar inte spänning, så kolla att dina laddare klarar landets voltantal.",
+    valueStatement: "EPICKA Universal är en reseadapter för dig som reser mellan olika länder och vill slippa köpa en ny adapter varje gång. Utfällbara kontakter passar uttag i de flesta länder, och fem USB-portar gör att du kan ladda flera enheter samtidigt. Viktigt: adaptern byter bara kontakttyp – den omvandlar inte spänning, så kolla att dina laddare klarar landets voltantal.",
     passFor: [
       "Reser mellan olika länder och vill ha en adapter som räcker.",
       "Vill ladda flera enheter samtidigt (mobil, hörlurar, klocka).",
@@ -10823,7 +10823,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "epicka-reseadapter-skriv-recension",
     targetKeyword: "reseadapter",
     metaTitle: "EPICKA reseadapter – en adapter för hela världen | Elins val",
-    metaDescription: "Elin går igenom EPICKA universal reseadapter (4,7 av 5 från 602 omdömen): passar de flesta länder, 5 USB-portar – och varför den byter kontakt men inte omvandlar spänning.",
+    metaDescription: "Elin går igenom EPICKA universal reseadapter : passar de flesta länder, 5 USB-portar – och varför den byter kontakt men inte omvandlar spänning.",
     relatedLinks: [
       {
         href: "/sommar/resa/kabelorganizer",
@@ -10854,7 +10854,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Traxenta genomskinlig necessär – ordning som syns",
     shortBody: "Ett set om fem transparenta necessärer i olika storlekar. Du ser innehållet direkt, vilket gör det enkelt att hålla ordning på toalettsaker och smått – och smidigt att plocka fram i säkerhetskontrollen.",
     valueHook: "Se innehållet – slipp rota",
-    valueStatement: "Traxenta genomskinliga necessärer är ett set om fem transparenta påsar i olika storlekar, för dig som vill hålla ordning på toalettsaker och smått. Eftersom de är genomskinliga ser du direkt vad som finns i, vilket är smidigt både i necessären och när den ska fram i säkerhetskontrollen. Amazon visar 4,6 av 5 från 187 omdömen, och köpare tycker de är praktiska och rymliga. Tänk på att påsarna är relativt små och gjorda för smått – och kolla alltid flygplatsens aktuella regler för vätskor.",
+    valueStatement: "Traxenta genomskinliga necessärer är ett set om fem transparenta påsar i olika storlekar, för dig som vill hålla ordning på toalettsaker och smått. Eftersom de är genomskinliga ser du direkt vad som finns i, vilket är smidigt både i necessären och när den ska fram i säkerhetskontrollen. Tänk på att påsarna är relativt små och gjorda för smått – och kolla alltid flygplatsens aktuella regler för vätskor.",
     passFor: [
       "Vill hålla ordning på toalettsaker och smått i necessären.",
       "Gillar att se innehållet direkt utan att rota.",
@@ -10886,7 +10886,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "traxenta-necessar-skriv-recension",
     targetKeyword: "genomskinlig necessär",
     metaTitle: "Traxenta genomskinlig necessär – ordning på resan | Elins val",
-    metaDescription: "Elin går igenom Traxenta genomskinliga necessärer (5 delar, 4,6 av 5 från 187 omdömen): se innehållet direkt och håll ordning på smått – smidigt i säkerhetskontrollen.",
+    metaDescription: "Elin går igenom Traxenta genomskinliga necessärer : se innehållet direkt och håll ordning på smått – smidigt i säkerhetskontrollen.",
     relatedLinks: [
       {
         href: "/sommar/resa/packkuber",
@@ -10917,7 +10917,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "GRIFEMA bagagevåg – väg hemma, res lugnare",
     shortBody: "En liten digital bagagevåg som väger upp till 50 kg med bakgrundsbelyst display och tara-funktion. Kolla vikten hemma innan du åker så att gaten inte bjuder på en dyr överraskning.",
     valueHook: "Undvik överraskningen vid incheckningen",
-    valueStatement: "GRIFEMA GA2006 är en kompakt digital bagagevåg för dig som vill slippa oroa dig för övervikt vid incheckningen. Du fäster remmen, lyfter väskan och läser av vikten på den belysta displayen. Amazon visar 4,7 av 5 från 457 omdömen, och köpare beskriver den som lätt, noggrann och enkel att ta med. Tänk på att du lyfter väskan för hand, så det kan bli lite otympligt med riktigt tunga väskor.",
+    valueStatement: "GRIFEMA GA2006 är en kompakt digital bagagevåg för dig som vill slippa oroa dig för övervikt vid incheckningen. Du fäster remmen, lyfter väskan och läser av vikten på den belysta displayen. Tänk på att du lyfter väskan för hand, så det kan bli lite otympligt med riktigt tunga väskor.",
     passFor: [
       "Vill väga väskan hemma och undvika överviktsavgift.",
       "Flyger med bolag som har strikta viktgränser för handbagage.",
@@ -10949,7 +10949,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "grifema-bagagevag-skriv-recension",
     targetKeyword: "bagagevåg",
     metaTitle: "GRIFEMA bagagevåg – väg väskan & slipp övervikt | Elins val",
-    metaDescription: "Elin går igenom GRIFEMA digital bagagevåg (50 kg, 4,7 av 5 från 457 omdömen): väg väskan hemma, slipp överviktsavgift vid gaten – och vad du bör tänka på.",
+    metaDescription: "Elin går igenom GRIFEMA digital bagagevåg : väg väskan hemma, slipp överviktsavgift vid gaten – och vad du bör tänka på.",
     relatedLinks: [
       {
         href: "/guider/bagagevag-vart-det",
@@ -10985,7 +10985,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "tomtoc kabelorganizer – ordning på elektroniken",
     shortBody: "Ett kompakt fodral med elastiska band och fack för kablar, laddare, adaptrar och smått. Allt får sin plats så du snabbt hittar rätt sladd på resan, utan trassel i väskan.",
     valueHook: "Slut på kabeltrasslet i väskan",
-    valueStatement: "tomtoc Accessory Case är en kompakt kabelorganizer för dig som är trött på att rota efter rätt sladd i botten av väskan. Elastiska band och fack håller kablar, laddare, adaptrar och minneskort på plats. Amazon visar hela 4,8 av 5 från 3 430 omdömen – ovanligt starkt – och köpare lyfter kvaliteten och den genomtänkta storleken. Tänk på att det är ett smalt, kompakt fodral, gjort för smått snarare än skrymmande tillbehör.",
+    valueStatement: "tomtoc Accessory Case är en kompakt kabelorganizer för dig som är trött på att rota efter rätt sladd i botten av väskan. Elastiska band och fack håller kablar, laddare, adaptrar och minneskort på plats. Tänk på att det är ett smalt, kompakt fodral, gjort för smått snarare än skrymmande tillbehör.",
     passFor: [
       "Reser med flera kablar, laddare och adaptrar och vill ha ordning.",
       "Vill snabbt hitta rätt sladd utan att rota i väskan.",
@@ -11009,15 +11009,15 @@ export const resaPicks: SommarPick[] = ([
         answer: "Ja, den är kompakt och lätt att lägga stående i väskan. Många använder den just för att slippa kabeltrassel när de reser.",
       },
       {
-        question: "Varför så högt betyg?",
-        answer: "Amazon visar 4,8 av 5 från 3 430 omdömen. Köpare uppskattar särskilt kvaliteten och den genomtänkta indelningen som gör att allt har sin plats.",
+        question: "Har kundbetygen verifierats?",
+        answer: "Vi har inte verifierat ett aktuellt kundbetyg eller antal recensioner för den exakta varianten. Därför använder vi inte sådana siffror som belägg för kvalitet, hållbarhet eller ett köp.",
       },
     ],
     reviewSectionId: "tomtoc-kabelorganizer-recensioner",
     reviewFormId: "tomtoc-kabelorganizer-skriv-recension",
     targetKeyword: "kabelorganizer resa",
     metaTitle: "tomtoc kabelorganizer – ordning på resan | Elins val",
-    metaDescription: "Elin går igenom tomtoc Accessory Case kabelorganizer (4,8 av 5 från 3 430 omdömen): håll kablar, laddare och adaptrar i ordning i handbagaget – slut på trasslet.",
+    metaDescription: "Elin går igenom tomtoc Accessory Case kabelorganizer : håll kablar, laddare och adaptrar i ordning i handbagaget – slut på trasslet.",
     relatedLinks: [
       {
         href: "/sommar/resa/reseadapter",
@@ -11048,7 +11048,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "myHodo kompressionspåsar – rulla, pressa, spara plats",
     shortBody: "Rullkompressionspåsar där du pressar ut luften genom att rulla ihop påsen – ingen pump behövs. Bra för att pressa ihop skrymmande tröjor och jackor i kabinväskan. 14 påsar i tre storlekar.",
     valueHook: "Pressa ihop skrymmande plagg",
-    valueStatement: "myHodo Rolling är kompressionspåsar för dig som vill pressa ihop skrymmande kläder utan att släpa på en pump. Du lägger i plaggen, stänger dragkedjan och rullar ihop påsen för att trycka ut luften. Amazon visar 4,4 av 5 från 1 247 omdömen, och köpare gillar att de håller tätt och sparar plats. Tänk på att du inte får ut lika mycket luft som med en vakuumpump – men tillräckligt för att skrymmande plagg ska ta betydligt mindre plats.",
+    valueStatement: "myHodo Rolling är kompressionspåsar för dig som vill pressa ihop skrymmande kläder utan att släpa på en pump. Du lägger i plaggen, stänger dragkedjan och rullar ihop påsen för att trycka ut luften. Tänk på att du inte får ut lika mycket luft som med en vakuumpump – men tillräckligt för att skrymmande plagg ska ta betydligt mindre plats.",
     passFor: [
       "Vill pressa ihop skrymmande tröjor och jackor i väskan.",
       "Vill slippa släpa på en pump eller dammsugare på resan.",
@@ -11080,7 +11080,7 @@ export const resaPicks: SommarPick[] = ([
     reviewFormId: "myhodo-kompressionspase-skriv-recension",
     targetKeyword: "kompressionspåsar resa",
     metaTitle: "myHodo kompressionspåsar – rulla utan pump | Elins val",
-    metaDescription: "Elin går igenom myHodo Rolling kompressionspåsar (14 delar, 4,4 av 5 från 1 247 omdömen): rulla ut luften utan pump och pressa ihop skrymmande plagg i kabinväskan.",
+    metaDescription: "Elin går igenom myHodo Rolling kompressionspåsar : rulla ut luften utan pump och pressa ihop skrymmande plagg i kabinväskan.",
     relatedLinks: [
       {
         href: "/sommar/resa/packkuber",
@@ -11111,7 +11111,7 @@ export const resaPicks: SommarPick[] = ([
     headline: "Travel Dude packkuber – ordning och kompression",
     shortBody: "Ett set om sju kuber där du delar upp kläderna efter typ och drar åt kompressionsdragkedjan för att spara plats. Gör packningen mer överskådlig och hjälper dig få plats med mer i kabinväskan.",
     valueHook: "Packa strukturerat och spar plats",
-    valueStatement: "Travel Dude Packing Cubes är ett set om sju kuber för dig som vill packa strukturerat och få plats med mer i kabinväskan. Du delar upp plagg efter typ och drar åt kompressionsdragkedjan för att pressa ut luften. Amazon visar 4,6 av 5 från 3 819 omdömen, och köpare lyfter framför allt den bra kompressionen, ordningen i väskan och att de är gjorda av återvunna plastflaskor. Kom ihåg att kuberna inte gör väskan större – de hjälper dig utnyttja platsen du redan har.",
+    valueStatement: "Travel Dude Packing Cubes är ett set om sju kuber för dig som vill packa strukturerat och få plats med mer i kabinväskan. Du delar upp plagg efter typ och drar åt kompressionsdragkedjan för att pressa ut luften. Kom ihåg att kuberna inte gör väskan större – de hjälper dig utnyttja platsen du redan har.",
     passFor: [
       "Vill packa strukturerat och hitta lätt i kabinväskan.",
       "Vill pressa ihop kläderna och få plats med lite mer.",

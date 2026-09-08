@@ -25,10 +25,10 @@ const sections = [
       "En bagagevåg tar bort gissandet – du vet vikten innan du lämnar hemmet.",
   },
   {
-    heading: "Värde-valet: GRIFEMA GA2006",
+    heading: "Kontrollera GRIFEMA GA2006 före köp",
     bullets: [
       "Väger upp till 50 kg, med bakgrundsbelyst display och tara-funktion.",
-      "Amazon visar 4,7 av 5 från 457 omdömen – köpare beskriver den som lätt, noggrann och enkel att ta med.",
+      "Vi har inte verifierat aktuella kundbetyg eller gjort ett eget test av vågens precision.",
       "Liten nog att följa med i väskan, så du kan väga om inför hemresan när souvenirerna åkt ner.",
     ],
     closing:
@@ -60,7 +60,7 @@ const faqItems = [
   {
     question: "Räcker en billig bagagevåg?",
     answer:
-      "För de flesta, ja. GRIFEMA GA2006 är ett prisvärt val där köpare beskriver den som lätt och noggrann (4,7 av 5 från 457 omdömen). Väg alltid med lite marginal till flygbolagets gräns.",
+      "Vi har inget jämförande precisionstest som avgör det. Kontrollera mätområde och specifikationer för den exakta modellen; ett lågt pris eller högt kundbetyg är inte ett bevis på noggrannhet. Lämna marginal till den viktgräns som gäller din biljett.",
   },
 ] as const;
 
