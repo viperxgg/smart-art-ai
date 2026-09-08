@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { ProductDecisionPage } from "@/components/ProductDecisionPage";
+import { getProductDecision } from "@/lib/product-decisions";
 import {
   ArrowLeft,
   HeartPulse,
@@ -49,6 +51,8 @@ export async function MassagepistolProductReviewPage({
   otherPick,
 }: MassagepistolProductReviewPageProps) {
   const approvedReviews = await getApprovedReviews(pick.product.slug);
+  const decision = getProductDecision(pick.product.slug);
+  if (decision) return <ProductDecisionPage pick={{ ...pick, href: pick.path }} decision={decision} reviews={approvedReviews} />;
   const productSchema = buildProductSchema({
     product: pick.product,
     url: pick.path,

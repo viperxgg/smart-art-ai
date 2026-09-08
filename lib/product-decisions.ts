@@ -1,3 +1,4 @@
+import { massageGunDecision } from "@/lib/massage-gun-decision";
 import { tanningMittDecision } from "@/lib/tanning-mitt-decision";
 import { bondiTanDecision } from "@/lib/bondi-tan-decision";
 import { bronzingDropsDecision } from "@/lib/bronzing-drops-decision";
@@ -23,6 +24,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === massageGunDecision.options[0].productSlug) return {
+    ...massageGunDecision,
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Vad behöver du kontrollera före köp?", href: "/halsa/massagepistol" },
+  };
   if (slug === tanningMittDecision.options[0].productSlug) return {
     ...tanningMittDecision,
     category: { label: "Skönhet", href: "/skonhet" },

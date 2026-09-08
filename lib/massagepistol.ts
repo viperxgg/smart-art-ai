@@ -36,12 +36,12 @@ export const massagepistolFaqItems = [
   {
     question: "Hur ofta ska man använda en massagepistol?",
     answer:
-      "Generellt 1-2 gånger om dagen, 1-2 minuter per muskelgrupp. Undvik leder, skelett och områden som redan gör ont på ett ovanligt sätt.",
+      "Vi anger inget generellt dagligt schema. Läs instruktionen för den exakta modellen och kontrollera dess begränsningar innan användning. Ett gammalt kundomdöme är inte ett behandlingsprogram.",
   },
   {
-    question: "Vilken massagepistol är bäst för nybörjare?",
+    question: "Har ni jämfört modellerna för nybörjare?",
     answer:
-      "Välj en modell där styrkan är enkel att kontrollera. Beurer passar dig som vill ha ett känt och lätt märke, medan BDBKMG passar dig som vill ha fler lägen att justera mellan.",
+      "Nej. Vi har inget jämförande användartest som visar vilken som är lättast eller hur mild första nivån känns. Fler inställningar räcker inte för att dra den slutsatsen.",
   },
   {
     question: "Är en massagepistol farlig?",
