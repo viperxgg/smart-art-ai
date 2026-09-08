@@ -1,3 +1,4 @@
+import { centellaPropolisDecision } from "@/lib/centella-eller-propolis";
 import { hydrationSerumDecision } from "@/lib/snigelslem-eller-hyaluronsyra";
 import { retinolDecision } from "@/lib/retinol-decisions";
 import { bakuchiolDecision } from "@/lib/bakuchiol-eller-niacinamid";
@@ -34,6 +35,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const calmingOption = centellaPropolisDecision.options.find(item => item.productSlug === slug);
+  if (calmingOption) return {
+    ...centellaPropolisDecision, options: [calmingOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Jämför hela formulan", href: "/skonhet/centella-eller-propolis" },
+  };
   const hydrationOption = hydrationSerumDecision.options.find(item => item.productSlug === slug);
   if (hydrationOption) return {
     ...hydrationSerumDecision, options: [hydrationOption],

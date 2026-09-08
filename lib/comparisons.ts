@@ -124,9 +124,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/centella-eller-propolis",
-    description: "K-beautys två lugnande favoriter jämförda – ren cica-lugn för reaktiv hy mot propolis med glow för trött hy.",
+    description: "Jämför hela formulan i COSRX Hydrium och Glow Serum. Ingredienser överlappar; inget säkrast vinterval eller behov av båda är fastställt.",
     productSlugs: ["cosrx-centella-ampoule","beauty-of-joseon-propolis-serum"],
-    badges: ["K-beauty","Känslig hy","Lugn & glow"],
+    badges: ["K-beauty","Formulor","Behov före köp"],
   },
   {
     slug: "tyngdvast-eller-lyftarbalte",
