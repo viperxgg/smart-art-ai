@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 
-import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";
+import { ProductDecisionPage } from "@/components/ProductDecisionPage";
+import { unresolvedTravelBackpack } from "@/lib/kabinvaska-eller-ryggsack";
+import { getApprovedReviews } from "@/lib/reviews/reviews";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 import { getResaPickBySlug } from "@/lib/sommar";
@@ -11,22 +13,17 @@ export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
+      title: "Taygeer resryggsäck – vad behöver verifieras? | Elins val",
+      description: "Modell, mått och bärkomfort behöver verifieras innan köp. Se vad som saknas i underlaget och när din befintliga väska räcker.",
       url: `${siteConfig.url}${pick.href}`,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 900,
-        height: 675,
-        alt: pick.product.imageAlt,
-      },
     })
   : {};
 
-export default function ResryggsackPage() {
+export default async function ResryggsackPage() {
   if (!pick) {
     notFound();
   }
 
-  return <SommarProductReviewPage pick={pick} />;
+  const reviews = await getApprovedReviews(pick.product.slug);
+  return <ProductDecisionPage pick={pick} decision={unresolvedTravelBackpack} reviews={reviews} />;
 }

@@ -248,9 +248,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "resa",
     categoryLabel: "Resa",
     href: "/sommar/resa/kabinvaska-eller-ryggsack",
-    description: "Rulla ett hårt skal eller bära en rymlig ryggsäck – vilken passar din resa?",
+    description: "Rulla eller bära utifrån resväg och biljett? Modelluppgifter och begränsningar före volym- och komfortlöften.",
     productSlugs: ["cabin-max-anode-kabinvaska","taygeer-kabinryggsack"],
-    badges: ["Rulla vs bära","Hårt skal vs mer plats","Handbagage"],
+    badges: ["Rulla vs bära","Kontrollera modellen","Bagageregler"],
   },
   {
     slug: "mikrofiberhandduk-eller-frottehandduk",
