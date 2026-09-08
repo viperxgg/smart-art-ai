@@ -54,6 +54,13 @@ type ProductCard = {
   tierLabel: string;
   tierIcon: string;
   verdict: string;
+  evidenceVersion?: 1;
+  evidenceReviewedAt?: string;
+  noPurchaseWhen?: string;
+  testing?: string;
+  variant?: string;
+  limitations?: string;
+  comparisonHref?: string;
   steg?: number;
   varfor?: string;
   fordelar?: string[];
@@ -81,6 +88,8 @@ type WishlistCard = Pick<
   | "verdict"
   | "ratingShort"
   | "bestseller"
+  | "evidenceVersion"
+  | "evidenceReviewedAt"
 >;
 
 type ConversationMessage = {
@@ -224,6 +233,22 @@ function toWishlistCard(product: ProductCard): WishlistCard {
     verdict: product.verdict,
     ratingShort: product.ratingShort,
     bestseller: product.bestseller,
+    evidenceVersion: product.evidenceVersion,
+    evidenceReviewedAt: product.evidenceReviewedAt,
+  };
+}
+
+// Preserve stored conversations and saved items. Hide obsolete recommendation
+// metadata in the view instead of presenting it as newly verified evidence.
+function getDisplayCard<T extends WishlistCard>(card: T): T {
+  if (card.evidenceVersion === 1) return card;
+  return {
+    ...card, image: "", amazonUrl: "", poang: null,
+    tier: null, tierLabel: "", tierIcon: "",
+    verdict: "Äldre sparad produktpost – kontrollera aktuellt underlag i guiden.",
+    varfor: "", caution: "", noPurchaseWhen: "", testing: "", variant: "", limitations: "",
+    fordelar: [], uses: [], rating: "", ratingShort: "", bestseller: false,
+    reviewHighlights: [], video: null, reviewQuote: null,
   };
 }
 
@@ -365,6 +390,10 @@ function getDisplayProducts(products: ProductCard[]) {
   );
 }
 
+function getSafeElinTextHref(href: string) {
+  return href.startsWith("/") && !href.startsWith("//") && !/[\\\u0000-\u0020]/.test(href) ? href : null;
+}
+
 function renderInlineMarkdown(text: string) {
   const elements: ReactNode[] = [];
   const pattern = /(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g;
@@ -382,17 +411,15 @@ function renderInlineMarkdown(text: string) {
     } else {
       const linkMatch = token.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
       const href = linkMatch?.[2] ?? "#";
-      const isSafeHref = href.startsWith("/") || href.startsWith("https://");
+      const safeHref = getSafeElinTextHref(href);
       elements.push(
-        <a
+        safeHref ? <a
           key={`${match.index}-link`}
-          href={isSafeHref ? href : "#"}
-          target={href.startsWith("https://") ? "_blank" : undefined}
-          rel={href.startsWith("https://") ? "noopener noreferrer" : undefined}
+          href={safeHref}
           className="font-black text-rose underline decoration-line underline-offset-4"
         >
           {linkMatch?.[1] ?? token}
-        </a>,
+        </a> : <span key={`${match.index}-text`}>{linkMatch?.[1] ?? token}</span>,
       );
     }
 
@@ -439,7 +466,7 @@ function MarkdownText({ text }: { text: string }) {
 }
 
 function ProductCardView({
-  product,
+  product: savedProduct,
   isSaved,
   onToggleSave,
   onAsk,
@@ -449,6 +476,7 @@ function ProductCardView({
   onToggleSave: (product: ProductCard) => void;
   onAsk: (question: string) => void;
 }) {
+  const product = getDisplayCard(savedProduct);
   const [open, setOpen] = useState<"fordelar" | "anvandning" | "folk" | "video" | null>(null);
 
   const fordelar = product.fordelar ?? [];
@@ -466,7 +494,7 @@ function ProductCardView({
   return (
     <div className="rounded-[1rem] border border-line bg-bg p-3">
       <div className="flex min-w-0 gap-3">
-        <span className="relative size-16 shrink-0 overflow-hidden rounded-[0.85rem] bg-surface">
+        {product.image ? <span className="relative size-16 shrink-0 overflow-hidden rounded-[0.85rem] bg-surface">
           <Image
             src={product.image}
             alt={product.title}
@@ -474,7 +502,7 @@ function ProductCardView({
             sizes="64px"
             className="object-cover"
           />
-        </span>
+        </span> : null}
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-2">
             {typeof product.steg === "number" ? (
@@ -532,10 +560,15 @@ function ProductCardView({
 
       {product.varfor ? (
         <p className="mt-3 rounded-[0.8rem] bg-rose/8 px-3 py-2 text-xs leading-5 text-ink">
-          <span className="font-black text-rose">Perfekt för dig eftersom </span>
+          <span className="font-black text-rose">Välj om … </span>
           {product.varfor}
         </p>
       ) : null}
+
+      {product.caution ? <p className="mt-3 text-xs leading-5 text-ink"><strong>Viktig begränsning: </strong>{product.caution}</p> : null}
+      {product.noPurchaseWhen ? <p className="mt-2 text-xs leading-5 text-ink"><strong>När kan du avstå? </strong>{product.noPurchaseWhen}</p> : null}
+      {product.testing ? <p className="mt-2 text-xs leading-5 text-ink-soft"><strong>Testunderlag: </strong>{product.testing}</p> : null}
+      {product.evidenceReviewedAt ? <p className="mt-2 text-xs text-ink-soft">Källkontroll {product.evidenceReviewedAt}. Modell, källor och övriga begränsningar finns i produktguiden.</p> : null}
 
       {tabs.length ? (
         <div className="mt-3 flex flex-wrap gap-1.5">
@@ -619,20 +652,20 @@ function ProductCardView({
       ) : null}
 
       <div className="mt-3 flex flex-wrap gap-2">
-        <a
+        {product.amazonUrl ? <a
           href={product.amazonUrl}
           target="_blank"
           rel="sponsored nofollow noopener noreferrer"
           className="inline-flex min-h-9 items-center gap-1 rounded-full bg-rose px-3 text-xs font-black text-bg transition hover:-translate-y-0.5 hover:bg-rose/90"
         >
-          Köp {product.brand} på Amazon
+          Se pris hos Amazon – {product.brand}
           <ArrowUpRight className="size-3.5" aria-hidden="true" />
-        </a>
+        </a> : null}
         <Link
           href={product.pageHref}
           className="inline-flex min-h-9 items-center rounded-full border border-line bg-surface px-3 text-xs font-bold text-ink transition hover:-translate-y-0.5 hover:bg-rose/8"
         >
-          Läs recension
+          Läs beslutsunderlag
         </Link>
         <button
           type="button"
@@ -647,12 +680,13 @@ function ProductCardView({
 }
 
 function WishlistPanel({
-  items,
+  items: storedItems,
   onRemove,
 }: {
   items: WishlistCard[];
   onRemove: (slug: string) => void;
 }) {
+  const items = storedItems.map(getDisplayCard);
   return (
     <div className="border-b border-line bg-surface/82 px-4 py-4 sm:px-5">
       {items.length === 0 ? (
@@ -671,7 +705,7 @@ function WishlistPanel({
                 className="rounded-[1rem] border border-line bg-bg p-3"
               >
                 <div className="flex min-w-0 gap-3">
-                  <span className="relative size-14 shrink-0 overflow-hidden rounded-[0.8rem] bg-surface">
+                  {item.image ? <span className="relative size-14 shrink-0 overflow-hidden rounded-[0.8rem] bg-surface">
                     <Image
                       src={item.image}
                       alt={item.title}
@@ -679,7 +713,7 @@ function WishlistPanel({
                       sizes="56px"
                       className="object-cover"
                     />
-                  </span>
+                  </span> : null}
                   <div className="min-w-0 flex-1">
                     <div className="flex flex-wrap items-center gap-1.5">
                       <span className="text-[0.65rem] font-black uppercase tracking-[0.12em] text-rose">
@@ -716,26 +750,18 @@ function WishlistPanel({
                   </button>
                 </div>
                 <div className="mt-3 flex flex-wrap gap-2">
-                  <a
-                    href={item.amazonUrl}
-                    target="_blank"
-                    rel="sponsored nofollow noopener noreferrer"
-                    className="inline-flex min-h-9 items-center gap-1 rounded-full bg-rose px-3 text-xs font-black text-bg transition hover:-translate-y-0.5 hover:bg-rose/90"
-                  >
-                    Köp {item.brand} på Amazon
-                    <ArrowUpRight className="size-3.5" aria-hidden="true" />
-                  </a>
+
                   <Link
                     href={item.pageHref}
                     className="inline-flex min-h-9 items-center rounded-full border border-line bg-surface px-3 text-xs font-bold text-ink transition hover:-translate-y-0.5 hover:bg-rose/8"
                   >
-                    Läs recension
+                    Läs beslutsunderlag
                   </Link>
                 </div>
               </div>
             ))}
           </div>
-          <p className="text-[0.65rem] text-ink-soft">Annons · innehåller affiliatelänkar</p>
+          <p className="text-[0.65rem] text-ink-soft">Sparade produktguider – kontrollera underlaget före köp.</p>
         </div>
       )}
     </div>

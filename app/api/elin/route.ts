@@ -16,7 +16,7 @@ import {
   type ProductCategorySlug,
 } from "@/lib/products";
 import { rateLimit } from "@/lib/rate-limit";
-import { formatRatingSummary } from "@/lib/ratings";
+import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 import { getEditorialScore } from "@/lib/scores";
 
 export const runtime = "nodejs";
@@ -130,6 +130,8 @@ Ton & regler:
 
 Sortiment:
 - Du får ett kompakt sortimentsindex som TSV längre ner: en produkt per rad med slug, titel, kategori, prisnivå, Elins poäng och sidlänk. Tipsa BARA om produkter ur vårt sortiment, och bara när de verkligen hjälper. Hitta ALDRIG på produkter, slugs, betyg, priser eller länkar.
+- evidenceStatus not_reviewed betyder en katalogpost utan granskat beslutsunderlag: rekommendera den inte. decision_draft eller incomplete_sources är underlag med de uttryckliga begränsningarna i decision; det är inte ett godkänt produkttest. Förklara saknad variantmatchning och otillgängliga källor, och hänvisa till den interna guiden före ett köp. Använd decision för modell, välj/avstå, merpris, inget köp, svenska villkor och testgränser.
+- Generera inte externa köp- eller bildlänkar. Länka till den interna produktguiden för fullständiga källor och varianter. merchantVariantVerified false betyder att butiksvarianten inte är matchad. Tidigare svar och sparade kort ersätter inte aktuellt beslutsunderlag från search_products.
 - Indexet säger vad som FINNS, inte vad produkten gör. Anropa "search_products" så fort du behöver veta något om en produkt – sammanfattning, specs, verdict eller vad köpare tycker – innan du rekommenderar den.
 - Har personen valt ett område visar indexet bara det området. "search_products" med parametern "kategori" når hela sortimentet, så använd den om personens fråga hör hemma någon annanstans.
 - För rena kunskaps- och rådgivningsfrågor: tvinga aldrig in en produkt.
@@ -440,6 +442,7 @@ function searchProducts(knowledge: ElinKnowledgeProduct[], input: unknown) {
     .slice(0, 8)
     .map(({ product, badges, score }) => {
       const fullProduct = getProductBySlug(product.slug);
+      const evidence = fullProduct ? getElinProductEvidence(fullProduct) : null;
 
       return {
         slug: product.slug,
@@ -453,14 +456,12 @@ function searchProducts(knowledge: ElinKnowledgeProduct[], input: unknown) {
         pageHref: product.pageHref,
         matchedBadges: badges.slice(0, 3),
         score,
-        specs:
-          fullProduct?.specs.map((spec) => ({
-            label: spec.label,
-            value: spec.value,
-          })) ?? [],
-        verdict: fullProduct?.evaluation.verdict ?? "",
-        highlights: fullProduct?.amazonReviewSignal.highlights.slice(0, 4) ?? [],
-        cautions: fullProduct?.amazonReviewSignal.cautions.slice(0, 4) ?? [],
+        evidenceStatus: evidence?.status ?? "not_reviewed",
+        decision: evidence?.decision ?? null,
+        specs: evidence?.decision ? [{ label: "Modell och variant", value: evidence.decision.options[0].variant }] : [],
+        verdict: evidence?.decision?.options[0].chooseIf ?? "Inte granskat för rekommendation.",
+        highlights: [],
+        cautions: evidence?.decision ? [evidence.decision.options[0].avoidIf, evidence.decision.limitations] : [],
       };
     });
 
@@ -578,67 +579,36 @@ function buildSystemBlocks(
   return blocks;
 }
 
-function hasBestsellerSignal(review: {
-  ratingSummary: string;
-  highlights: string[];
-}) {
-  const text = [review.ratingSummary, ...review.highlights].join(" ").toLocaleLowerCase("sv-SE");
-
-  return /bästsäljare|bäst\s+säljande|#\s*1(?!\d)/i.test(text);
-}
-
-function toRichCard(slug: string, varfor: string, steg?: number) {
+function toRichCard(slug: string, _varfor: string, steg?: number) {
   const product = getProductBySlug(slug);
-  if (!product) {
-    return null;
-  }
-
+  if (!product) return null;
+  const evidence = getElinProductEvidence(product);
+  const decision = evidence.decision;
+  if (!decision) return null;
+  const option = decision.options[0];
   const score = getEditorialScore(slug);
   const tier = getPriceTier(product);
   const display = tier ? priceTierDisplay[tier] : null;
-  const review = product.amazonReviewSignal;
-  const topComment = [...product.comments].sort((a, b) => b.rating - a.rating)[0];
-
   return {
-    slug: product.slug,
-    title: product.title,
-    brand: product.brand,
-    image: product.image,
-    pageHref: getProductPageHref(product),
-    amazonUrl: product.amazonUrl,
-    poang: score ? score.total : null,
-    tier,
-    tierLabel: display?.label ?? "",
-    tierIcon: display?.icon ?? "",
-    verdict: score?.verdict ?? product.evaluation.verdict ?? "",
-    ...(typeof steg === "number" && Number.isInteger(steg) && steg > 0
-      ? { steg: Math.min(steg, 3) }
-      : {}),
-    varfor: (typeof varfor === "string" ? varfor : "")
-      .replace(/^\s*perfekt för dig eftersom[\s:,-]*/i, "")
-      .trim()
-      .slice(0, 240),
-    fordelar: product.badges.slice(0, 4),
-    uses: product.uses.slice(0, 4),
-    rating: formatRatingSummary(review.ratingSummary, review.ratingCheckedAt),
-    ratingShort: review.ratingSummary.match(/(\d+[.,]\d+)\s*av\s*5/)?.[1] ?? "",
-    bestseller: hasBestsellerSignal(review),
-    reviewHighlights: review.highlights.slice(0, 2),
-    caution: review.cautions[0] ?? "",
-    video: product.ugcVideos[0]
-      ? {
-          src: product.ugcVideos[0].src,
-          poster: product.ugcVideos[0].poster,
-          title: product.ugcVideos[0].title,
-        }
-      : null,
-    reviewQuote: topComment
-      ? {
-          name: topComment.name,
-          text: topComment.text.slice(0, 220),
-          rating: topComment.rating,
-        }
-      : null,
+    slug: product.slug, title: option.model, brand: product.brand,
+    // Product media has no approved rights ledger yet. Do not revive old images.
+    image: "", pageHref: getProductPageHref(product),
+    amazonUrl: option.merchantVariantVerified ? product.amazonUrl : "",
+    evidenceVersion: 1 as const,
+    evidenceReviewedAt: decision.reviewedAt,
+    poang: score?.total ?? null, tier,
+    tierLabel: display?.label ?? "", tierIcon: display?.icon ?? "",
+    verdict: evidence.status === "incomplete_sources" ? "Ofullständigt källunderlag" : "Beslutsunderlag – inte ett produkttest",
+    ...(typeof steg === "number" && Number.isInteger(steg) && steg > 0 ? { steg: Math.min(steg, 3) } : {}),
+    varfor: option.chooseIf,
+    caution: option.avoidIf,
+    noPurchaseWhen: decision.noPurchaseWhen,
+    testing: decision.testing,
+    variant: option.variant,
+    limitations: decision.limitations,
+    comparisonHref: decision.comparison.href,
+    fordelar: [], uses: [], rating: "", ratingShort: "", bestseller: false,
+    reviewHighlights: [], video: null, reviewQuote: null,
   };
 }
 

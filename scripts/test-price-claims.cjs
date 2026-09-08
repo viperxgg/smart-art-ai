@@ -41,17 +41,20 @@ const { PriceTierBadge } = evaluate(read('components/PriceTierBadge.tsx'), {
 });
 assert.equal(renderToStaticMarkup(React.createElement(PriceTierBadge, { product: fixture, showContext: true })), '');
 
-const { searchProducts, buildProductIndex, toRichCard, hasBestsellerSignal } = extractFunctions('app/api/elin/route.ts', [
-  'normalizeSearchText', 'getSearchTerms', 'parseSearchProductsInput', 'searchProducts', 'buildProductIndex', 'toRichCard', 'hasBestsellerSignal',
+const getElinProductEvidence = product => ({ title: product.title, summary: 'Fixture decision', status: 'decision_draft', decision: {
+  reviewedAt: '2026-09-08', options: [{ model: product.title, chooseIf: 'Fixture need', avoidIf: 'Fixture limit', variant: 'Fixture variant', merchantVariantVerified: false }],
+  noPurchaseWhen: 'Existing item works', testing: 'Not tested', limitations: 'Fixture limit', comparison: { href: '/fixture' },
+} });
+const { searchProducts, buildProductIndex, toRichCard } = extractFunctions('app/api/elin/route.ts', [
+  'normalizeSearchText', 'getSearchTerms', 'parseSearchProductsInput', 'searchProducts', 'buildProductIndex', 'toRichCard',
 ], {
-  ...prices, searchStopWords: new Set(), categories: new Set(['traning', 'skonhet']),
+  ...prices, getElinProductEvidence, searchStopWords: new Set(), categories: new Set(['traning', 'skonhet']),
   priceTiers: new Set(['budget', 'mellan', 'premium']),
   getProductBySlug: slug => slug === fixture.slug ? fixture : undefined,
   getEditorialScore: () => undefined, getProductPageHref: () => '/fixture', formatRatingSummary: () => '',
 });
-assert.equal(typeof hasBestsellerSignal, 'function');
 const { toKnowledgeProduct } = extractFunctions('lib/elin-knowledge.ts', ['oneLineSummary', 'toKnowledgeProduct'], {
-  ...prices, getEditorialScore: () => undefined, getProductPageHref: () => '/fixture',
+  ...prices, getElinProductEvidence, getEditorialScore: () => undefined, getProductPageHref: () => '/fixture',
 });
 const knowledge = [toKnowledgeProduct(fixture)];
 assert.equal(knowledge[0].priceTier, null, 'The real knowledge mapper must not reintroduce a stored tier');

@@ -9,6 +9,7 @@ import {
   type ProductCategorySlug,
 } from "@/lib/products";
 import { getEditorialScore } from "@/lib/scores";
+import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 
 export type ElinKnowledgeProduct = {
   slug: string;
@@ -35,16 +36,17 @@ function oneLineSummary(value: string) {
 
 function toKnowledgeProduct(product: Product): ElinKnowledgeProduct {
   const score = getEditorialScore(product.slug);
+  const evidence = getElinProductEvidence(product);
 
   return {
     slug: product.slug,
-    title: product.title,
+    title: evidence.title,
     brand: product.brand,
     category: product.category,
     priceTier: getPriceTier(product),
     poang: score?.total ?? null,
-    badges: product.badges.slice(0, 3),
-    summary: oneLineSummary(product.summary),
+    badges: [],
+    summary: oneLineSummary(evidence.summary),
     pageHref: getProductPageHref(product),
   };
 }
