@@ -1,32 +1,42 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  cantuSatinBonnetProduct,
-  silkesorngottProduct,
-} from "@/lib/products";
+import type { DecisionRecord } from "@/lib/decision-record";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
 
-export const satinmossaEllerSidenorngottFaqItems: DecisionComparisonFaqItem[] = [{"question":"Vad är skillnaden på satinmössa och sidenörngott?","answer":"En satinmössa samlar håret i en mjuk mössa och skyddar en frisyr medan du sover. Ett sidenörngott låter håret ligga fritt mot en len yta, vilket ger mindre friktion mot både hår och hud."},{"question":"Vilken minskar frissighet bäst?","answer":"Båda minskar friktion och därmed frissighet jämfört med en vanlig bomullskudde. Mössan håller ihop håret, medan örngottet ger en len yta oavsett hur du rör dig i sömnen."},{"question":"Vilken är bäst för huden?","answer":"Ett sidenörngott är snällt mot ansiktshuden eftersom huden glider mot den lena ytan istället för att gnuggas mot bomull. Satinmössan skyddar främst håret."},{"question":"Vilken passar om jag rör mig mycket i sömnen?","answer":"Ett sidenörngott ligger kvar på kudden oavsett hur du rör dig, medan en mössa kan glida av. Vill du vara säker på skydd hela natten är örngottet ett tryggt val."}];
+export const nightHairDecision: DecisionRecord = {
+  reviewedAt: "2026-09-09",
+  options: [{
+    productSlug: "cantu-satin-bonnet", model: "Cantu satinmössa",
+    variant: "Katalogen säger Satin Nightcap. Underlaget gäller Satin Bonnet Classic, one size; ASIN B0B4SKR9TN är inte matchad mot denna variant. Tie Bonnet, Braid Bonnet och duschmössa är andra modeller. Fiberinnehåll och exakt passform är inte verifierade.",
+    chooseIf: "du vill samla håret i en mössa under natten och är bekväm med något på huvudet. Classic träs på enligt Cantu. Kontrollera först att just mössans utrymme och kant passar dig; one size är ingen uppmätt passformsgaranti.",
+    avoidIf: "du vill slippa bära en mössa, behöver en verifierad sidenprodukt eller förväntar dig att den säkert sitter kvar hela natten. Vi har inte provat komfort, hur den håller sig på plats eller hur frisyren ser ut på morgonen.",
+    sourceIds: ["N1"], merchantVariantVerified: false,
+  }, {
+    productSlug: "silkesorngott-mullbarssilke", model: "TOWNSSILK örngott, 19 momme",
+    variant: "Märkets tyska sida anger 100 % mullbärssilke, dold dragkedja och två örngott; 40 × 60 cm finns som storleksval. ASIN B0792378YQ, färg och paketantal i katalogens erbjudande är inte matchade. Tvåpackets pris får inte tillskrivas ett enstaka örngott.",
+    chooseIf: "du föredrar att byta ytan på kudden framför att bära en mössa, och det valda örngottet passar din kudde. Mät kudden först. Tillverkaren rekommenderar handtvätt, vilket behöver fungera i din vardag.",
+    avoidIf: "du behöver ett örngott i ett annat mått, vill följa en tvättrutin som etiketten inte tillåter eller köper för utlovad hudförbättring. Vi har inte verifierat bättre hud, mindre hårbrott eller bättre sömn med denna produkt.",
+    sourceIds: ["N2"], merchantVariantVerified: false,
+  }],
+  payMoreWhen: "Rätt mått, verifierat material och en skötsel du accepterar är värda skillnaden för dig. Jämför samma storlek och antal. Vi har inte visat att silke ger bättre resultat än en mössa eller att fler momme automatiskt gör ett köp mer prisvärt.",
+  noPurchaseWhen: "Du redan sover bekvämt och din nuvarande rutin fungerar för håret. Du behöver inte köpa både mössa och örngott för att en jämförelse visar två alternativ.",
+  swedishContext: "Mät din egen kudde; 40 × 60 cm passar inte varje kudde. Underlaget är brittiskt och tyskt, inte en verifierad svensk leverans. Kontrollera paketantal, mått, fiberetikett, tvättråd, frakt och totalpris hos säljaren.",
+  testing: "Vi har läst modell-, material- och skötseluppgifter. Vi har inte sovit med produkterna, mätt friktion eller testat hårbrott, hud, passform eller hållbarhet. Ingen vinnare för friss eller känslig hud är fastställd.",
+  limitations: "Tillverkarnas resultatpåståenden är inte våra testresultat. Cantu-sidans satinuppgift fastställer inte silkesinnehåll. TOWNSSILKs certifieringspåstående har inte kontrollerats mot ett certifikat för denna variant. Exakt butiksmatchning och rättigheter till produktbilder återstår.",
+  sources: [
+    { id: "N1", title: "Cantu UK – Satin Bonnet Classic", url: "https://www.cantubeauty.co.uk/products/cantu-satin-bonnet-classic/", checkedAt: "2026-09-09", supports: "Modellnamn, satin, one size och påträdning för nattbruk. Inget verifierat fiberinnehåll, huvudmått eller oberoende resultatmått i underlaget." },
+    { id: "N2", title: "TOWNSSILK – 19 momme, dragkedja, 2 stycken", url: "https://townssilk.de/products/19-momme-seide-kissenbezug-zipped", checkedAt: "2026-09-09", supports: "Tillverkaruppgifter: 100 % mullbärssilke, tvåpack och flera mått inklusive 40 × 60 cm. Handtvätt rekommenderas, högst 30 °C, sidenmedel, inget blekmedel eller urvridning, plantorkning i skugga. Följ varans etikett." },
+  ],
+};
 
-export const satinmossaEllerSidenorngottComparisonRows = [["Snabba signaler","Samlar håret i mjuk mössa","Len yta; håret ligger fritt"],["Bäst för","Skydda en frisyr","Allround mjukhet för hår och hud"],["Snällt mot huden?","Skyddar mest håret","Ja – len mot ansiktet"],["Håller frisyr","Ja","Delvis"],["Passar rörlig sömn","Kan glida av","Ligger kvar på kudden"],["Pris","Budget","Mellan"],] as const;
-
-export const satinmossaEllerSidenorngottPicks: [DecisionComparisonPick, DecisionComparisonPick] = [
-  {
-    product: cantuSatinBonnetProduct,
-    path: "/skonhet/satinmossa",
-    badge: "Håller ihop håret",
-    headline: "Cantu satinmössa – skydda frisyren i sömnen",
-    shortBody: "Välj satinmössan om du vill hålla ihop håret och skydda en frisyr medan du sover. Den samlar håret i en mjuk mössa och minskar frissighet.",
-  },
-  {
-    product: silkesorngottProduct,
-    path: "/skonhet/silkesorngott",
-    badge: "Len yta",
-    headline: "Sidenörngott – snällt mot hår och hud",
-    shortBody: "Välj sidenörngottet om du vill ha en len yta som är snäll mot både hår och hud. Håret ligger fritt mot silket och glider utan att slita.",
-  },
-];
-
-export const satinmossaEllerSidenorngottRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/skonhet/satinmossa","label":"Satinmössa","text":"Läs Elins recension av Cantu satinmössa."},{"href":"/skonhet/silkesorngott","label":"Sidenörngott","text":"Läs Elins recension av sidenörngottet."},{"href":"/skonhet","label":"Skönhet","text":"Se alla Elins hår- och hudvårdsval."}];
+export const bonnetOrPillowcaseGuide: DecisionGuide = {
+  parent: { name: "Skönhet", href: "/skonhet" }, path: "/skonhet/satinmossa-eller-sidenorngott",
+  title: "Satinmössa eller sidenörngott – vilken rutin passar dig?",
+  intro: "Vill du samla håret i en mössa eller låta det ligga fritt på kudden? Börja med komfort, rätt modell och tvättråd; vi har inte visat att något av alternativen ger bättre hud eller mindre hårbrott.",
+  decision: nightHairDecision, productPaths: ["/skonhet/satinmossa", "/skonhet/silkesorngott"],
+  questions: [
+    { question: "Är satinmössan gjord av silke?", answer: "Det är inte verifierat för denna Cantu-variant. Satin beskriver en väv, inte i sig vilken fiber den består av. Läs materialetiketten i stället för att anta att satin och silke är samma sak." },
+    { question: "Vilken ger minst friss?", answer: "Vi saknar ett direkt jämförande test av dessa produkter. Vi väljer därför inte en vinnare för friss, hårbrott eller hud och lovar inte skydd hela natten." },
+    { question: "Passar örngottet min kudde?", answer: "Mät kudden och jämför med den valda varianten. Katalogen avser 40 × 60 cm; märkets sida erbjuder flera mått. Att ett mått finns på sidan bevisar inte att butikslänken leder till det." },
+    { question: "Behöver jag köpa båda?", answer: "Inte för att de visas tillsammans. Utgå från ett konkret problem med din nuvarande rutin. Mössa och örngott påverkar hur du använder produkten på olika sätt; två köp är ingen dokumenterad fördubbling av nyttan." },
+  ],
+  related: [{ href: "/skonhet/tangle-teezer-eller-harborste", text: "Behöver du byta utredningsborste?" }, { href: "/skonhet", text: "Fler produktval inom skönhet" }],
+};

@@ -1,3 +1,4 @@
+import { nightHairDecision } from "@/lib/satinmossa-eller-sidenorngott";
 import { denmanDecision } from "@/lib/denman-decision";
 import { detanglingDecision } from "@/lib/tangle-teezer-eller-harborste";
 import { makeupToolDecision } from "@/lib/sminksvamp-eller-sminkborste";
@@ -44,6 +45,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const nightHairOption = nightHairDecision.options.find(item => item.productSlug === slug);
+  if (nightHairOption) return {
+    ...nightHairDecision, options: [nightHairOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vilken nattrutin passar dig?", href: "/skonhet/satinmossa-eller-sidenorngott" },
+  };
   if (slug === denmanDecision.options[0].productSlug) return {
     ...denmanDecision,
     category: { label: "Skönhet", href: "/skonhet" },
