@@ -1,32 +1,41 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  celdyqueBakuchiolProduct,
-  inkeyNiacinamideSerumProduct,
-} from "@/lib/products";
+import type { DecisionRecord } from "@/lib/decision-record";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
+import { niacinamideDecision } from "@/lib/niacinamide-decision";
 
-export const bakuchiolEllerNiacinamidFaqItems: DecisionComparisonFaqItem[] = [{"question":"Vad är skillnaden på bakuchiol och niacinamid?","answer":"Bakuchiol är en mild, växtbaserad ingrediens som ger huden ett slätare, jämnare intryck. Niacinamid är en allround-favorit som hjälper huden att kännas balanserad och mindre glansig. Båda är skonsamma."},{"question":"Vilket är skonsammast?","answer":"Båda är milda och passar de flesta, även känsligare hud. Bakuchiol marknadsförs ofta som ett extra skonsamt alternativ, medan niacinamid är väldigt lätt att tolerera i låga halter."},{"question":"Kan jag använda båda?","answer":"Ja, de går bra att kombinera. Många lägger niacinamid tidigt i rutinen och bakuchiol efter. Inför en ny produkt i taget så du ser hur huden reagerar."},{"question":"När på dygnet ska jag använda dem?","answer":"Båda fungerar morgon och kväll. Avsluta alltid med en fuktkräm och sköt din vanliga dagrutin."}];
+export const bakuchiolDecision: DecisionRecord = {
+  reviewedAt: "2026-09-09",
+  options: [{
+    productSlug: "celdyque-bakuchiol-serum", model: "CELDYQUE Bakuchiol 30,000ppm Concentrate, 30 ml",
+    variant: "Koncentratet som märkets sida kallar Bakuchiol 30,000ppm Serum. Inte Blue Copper Peptide Bakuchiol Serum eller Bakuchiol Volume Collagen Cream. Katalogens ASIN B0DC6H8MSW är inte matchad mot dagens svenska erbjudande.",
+    chooseIf: "du uttryckligen söker ett koncentrat att blanda enligt produktens anvisningar, och kan kontrollera förpackningens fullständiga ingredienser och instruktioner. Märket beskriver kosmetisk vård för ett slätare utseende; vi har inte verifierat effekten.",
+    avoidIf: "du vill ha ett färdigt serum att använda direkt eller räknar med att växtbaserat betyder irritationsfritt. Vi har inte visat att denna formula är skonsammare än retinol eller niacinamid.",
+    sourceIds: ["B1", "B2"], merchantVariantVerified: false,
+  }],
+  payMoreWhen: "Du har ett konkret behov och en verifierad skillnad i produkt eller användning. Vi har inget jämförande test som motiverar ett högre pris för bakuchiol, högre koncentration eller ett extra serum.",
+  noPurchaseWhen: "Din nuvarande rutin fungerar, eller du söker ett nytt serum bara för att en ingrediens är populär. Du behöver inte köpa flera aktiva produkter som ett färdigt paket.",
+  swedishContext: "Kontrollera koncentratets exakta namn, 30 ml, fullständiga ingredienslista och instruktioner på förpackningen som säljs till dig. Svenskt erbjudande, lager, totalpris och bildrättigheter är inte verifierade.",
+  testing: "Vi har läst märkets produktsida och FAQ, inte provat på huden, analyserat innehållet eller jämfört irritation och resultat. Tillverkarens effekt- och mildhetspåståenden är inte våra testresultat.",
+  limitations: "Märkets sida listar nyckelingredienser och hänvisar till förpackningen för fullständig aktuell INCI. Ingen fullständig formel- eller kompatibilitetskontroll är gjord. Anvisningen om ett kompatibelt serum bevisar inte att blandning med INKEY fungerar. Vi räknar inte fram en slutkoncentration från ett ospecificerat blandningsförhållande.",
+  sources: [
+    { id: "B1", title: "CELDYQUE – Bakuchiol 30,000ppm Serum", url: "https://celdyque.com/product-bakuchiol-30000.html", checkedAt: "2026-09-09", supports: "Identifierar 30 ml och ett mix-in-koncentrat. Märket anger 1–2 droppar i fuktkräm, kräm eller kompatibelt serum, blandat i handflatan, samt patchtest. Nyckelingredienser är inte en verifierad fullständig INCI. Ingen egen effektkontroll." },
+    { id: "B2", title: "CELDYQUE – produkt- och rutinfrågor", url: "https://celdyque.com/faq.html", checkedAt: "2026-09-09", supports: "Skiljer koncentrat från kräm och säger att hudvård inte ska blandas i solskydd. Märket lämnar ingen garanti om de färdiga bakuchiolformulornas lämplighet vid graviditet eller amning. Ingen generell säkerhetsgaranti från växtursprung." },
+  ],
+};
 
-export const bakuchiolEllerNiacinamidComparisonRows = [["Snabba signaler","Mild, växtbaserad; slätare intryck","Allround; balanserar och lugnar"],["Bäst för","Slätare, jämnare uttryck","Glansig eller ojämn hud"],["Skonsamhet","Väldigt skonsamt","Väldigt skonsamt"],["När","Morgon eller kväll","Morgon eller kväll"],["Nybörjarvänligt","Ja","Ja"],["Kan kombineras","Ja","Ja"],] as const;
-
-export const bakuchiolEllerNiacinamidPicks: [DecisionComparisonPick, DecisionComparisonPick] = [
-  {
-    product: celdyqueBakuchiolProduct,
-    path: "/skonhet/bakuchiol-serum",
-    badge: "Skonsamt & slätande",
-    headline: "CELDYQUE bakuchiol – mild och växtbaserad",
-    shortBody: "Välj bakuchiol om du vill ha en mild, växtbaserad ingrediens som ger huden ett slätare, jämnare intryck. Skonsam nog att använda även på kvällen.",
+export const bakuchiolOrNiacinamideGuide: DecisionGuide = {
+  parent: { name: "Skönhet", href: "/skonhet" }, path: "/skonhet/bakuchiol-eller-niacinamid",
+  title: "Bakuchiol eller niacinamid – koncentrat eller serum?",
+  intro: "CELDYQUEs produkt är ett koncentrat avsett för blandning; INKEYs 10%-produkt är ett separat serumsteg. Det är en praktisk skillnad före köp. Vi utser ingen vinnare i mildhet eller effekt och rekommenderar inte att du köper båda.",
+  decision: {
+    ...bakuchiolDecision, options: [...bakuchiolDecision.options, ...niacinamideDecision.options],
+    sources: [...bakuchiolDecision.sources, ...niacinamideDecision.sources],
   },
-  {
-    product: inkeyNiacinamideSerumProduct,
-    path: "/skonhet/niacinamide-serum",
-    badge: "Balanserar",
-    headline: "The INKEY List niacinamid – allround-favorit",
-    shortBody: "Välj niacinamid om du vill ha en allrounder som hjälper huden att kännas balanserad och mindre glansig. Mild och lätt att lägga in i rutinen.",
-  },
-];
-
-export const bakuchiolEllerNiacinamidRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/skonhet/peptidserum","label":"Peptidserum","text":"Utforska fler serum: Elins val av peptidserum."},{"href":"/skonhet/bakuchiol-serum","label":"Bakuchiol","text":"Läs Elins recension av CELDYQUE bakuchiol."},{"href":"/skonhet/niacinamide-serum","label":"Niacinamid","text":"Läs Elins recension av INKEY niacinamid."},{"href":"/skonhet/vitamin-c-eller-niacinamid","label":"Jämförelse","text":"Vitamin C eller niacinamid? Se den jämförelsen."},{"href":"/skonhet","label":"Skönhet","text":"Se alla Elins hudvårdsval."}];
+  productPaths: ["/skonhet/bakuchiol-serum", "/skonhet/niacinamide-serum"],
+  questions: [
+    { question: "Kan jag använda CELDYQUE som ett vanligt serum?", answer: "Märkets instruktion beskriver blandning, inte ett vanligt färdigt serumsteg. Kontrollera anvisningen på din förpackning. Om du vill slippa ett blandningsmoment är det ett skäl att avstå från just detta koncentrat." },
+    { question: "Kan jag blanda koncentratet med INKEY?", answer: "Det är inte verifierat. Ordet kompatibelt i CELDYQUEs anvisning är ingen dokumentation av just denna kombination. Kontrollera instruktionerna för båda produkterna och få eventuella motsägelser klargjorda innan användning." },
+    { question: "Är båda skonsamma för känslig hud?", answer: "Vi har inget jämförande toleranstest och kan inte ge den garantin. Växtbaserat, hög koncentration eller ordet serum räcker inte för att bedöma din reaktion på den färdiga produkten." },
+    { question: "Behöver jag lägga till ett till serum?", answer: "Börja med vad din nuvarande rutin redan gör. Om du inte har ett tydligt kvarvarande behov kan du avstå. En ny produkt behöver motiveras av mer än en ingrediens som verkar intressant." },
+  ],
+  related: [{ href: "/skonhet/retinol-eller-bakuchiol", text: "Vad skiljer de namngivna retinol- och bakuchiolprodukterna?" }, { href: "/skonhet/vitamin-c-eller-niacinamid", text: "Vitamin C eller niacinamid – behövs ett nytt serum?" }],
+};

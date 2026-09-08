@@ -281,9 +281,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/bakuchiol-eller-niacinamid",
-    description: "Ett skonsamt, växtbaserat och slätande alternativ mot en balanserande allrounder.",
+    description: "Koncentrat för blandning eller ett serumsteg? Kontrollera formula, behov och vad som inte är testat.",
     productSlugs: ["celdyque-bakuchiol-serum","inkey-niacinamide-serum"],
-    badges: ["Serum","Skonsamt vs balans","Hudvård"],
+    badges: ["Serum","Koncentrat för blandning","Hudvård"],
   },
   {
     slug: "stepbrada-eller-studsmatta",

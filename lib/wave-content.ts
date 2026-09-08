@@ -4080,8 +4080,8 @@ export const waveGuides: WaveGuide[] = [
     href: "/skonhet/retinolserum",
     category: "skonhet",
     label: "Guide",
-    title: "Retinolserum utan hype",
-    intro: "Två retinolserum med olika styrkor: Inkey för budget och uppmärksamhet, CeraVe för mildare doftfri profil.",
+    title: "Vilket retinolserum jämför du?",
+    intro: "Kontrollera original eller Starter, exakt formula och behov innan du väljer retinolserum.",
     badges: [
       "Retinol",
       "Hudvård",
@@ -4096,20 +4096,20 @@ export const waveGuides: WaveGuide[] = [
       "cerave-resurfacing-retinol": "Doftfri",
     },
     choiceTitle: "Hur väljer du?",
-    choiceText: "Välj Inkey om pris och enkel aktiv produkt lockar mest. Välj CeraVe om doftfri och mildare vardagsprofil väger tyngre.",
+    choiceText: "Kontrollera den exakta versionen och läs beslutsunderlaget. Ingen pris- eller toleransvinnare är fastställd.",
     rows: [
       {
         label: "Profil",
         values: [
-          "Aktiv budgetkänsla",
-          "Mildare och doftfri",
+          "Kontrollera version",
+          "Parfymfri enligt märket",
         ],
       },
       {
         label: "Största caveat",
         values: [
-          "Doft och invänjning",
-          "Leveranscaveat",
+          "Variant ej matchad",
+          "Erbjudande ej matchat",
         ],
       },
       {
@@ -4123,8 +4123,8 @@ export const waveGuides: WaveGuide[] = [
     verdict: "Jämför exakta kosmetiska formulor och instruktioner, inte en antagen skillnad i trygghet eller en odokumenterad poäng.",
     faqItems: [
       {
-        question: "Retinol bäst i test utan egna testpåståenden.",
-        answer: "Välj Inkey om pris och enkel aktiv produkt lockar mest. Välj CeraVe om doftfri och mildare vardagsprofil väger tyngre.",
+        question: "Hur jämför jag dessa produkter?",
+        answer: "Kontrollera den exakta versionen och läs beslutsunderlaget. Ingen pris- eller toleransvinnare är fastställd.",
       },
       {
         question: "Varför visar ni inga priser?",
@@ -4143,8 +4143,8 @@ export const waveGuides: WaveGuide[] = [
         text: "Alla Elins jämförelser samlade.",
       },
     ],
-    metaTitle: "Retinolserum utan hype | Elins val",
-    metaDescription: "Retinolserum utan hype: Två retinolserum med olika styrkor: Inkey för budget och uppmärksamhet, CeraVe för mildare doftfri profil. (Annons)",
+    metaTitle: "Vilket retinolserum jämför du? | Elins val",
+    metaDescription: "Vilket retinolserum jämför du?: Kontrollera original eller Starter, exakt formula och behov innan du väljer retinolserum. (Annons)",
   },
   {
     id: "retinol-eller-bakuchiol",
@@ -4152,11 +4152,11 @@ export const waveGuides: WaveGuide[] = [
     category: "skonhet",
     label: "Jämförelse",
     title: "Retinol eller bakuchiol?",
-    intro: "Retinol är retinoidspåret. Bakuchiol är det växtbaserade, mildare alternativet utan retinoid.",
+    intro: "Jämför namngivna formulor och användning: serumsteg eller bakuchiolkoncentrat för blandning.",
     badges: [
       "Retinol",
       "Bakuchiol",
-      "Mildare alternativ",
+      "Kontrollera formulan",
     ],
     productSlugs: [
       "inkey-retinol-serum",
@@ -4169,7 +4169,7 @@ export const waveGuides: WaveGuide[] = [
       "celdyque-bakuchiol-serum": "Elins val",
     },
     choiceTitle: "Elins valregel",
-    choiceText: "Välj retinol om du redan vill ha en klassisk aktiv kvällsprodukt. Välj bakuchiol om du vill ha ett mildare alternativ utan retinoid.",
+    choiceText: "Kontrollera produktversion och användningssätt. Koncentratet ska inte behandlas som ett färdigt serum.",
     rows: [
       {
         label: "Aktiv typ",
@@ -4182,9 +4182,9 @@ export const waveGuides: WaveGuide[] = [
       {
         label: "Känsla",
         values: [
-          "Budgetaktiv",
-          "Mildare CeraVe",
-          "Mildare alternativ",
+          "Kontrollera version",
+          "Parfymfri enligt märket",
+          "Kontrollera formulan",
         ],
       },
       {
@@ -4192,15 +4192,15 @@ export const waveGuides: WaveGuide[] = [
         values: [
           "Doft",
           "Leverans",
-          "Lägre aktiv känsla",
+          "Koncentrat för blandning",
         ],
       },
     ],
-    verdict: "Retinol är tydligare aktivt. Bakuchiol är smartare om du vill hålla rutinen mildare och enklare.",
+    verdict: "Vi har inte jämfört tolerans eller effekt och utser ingen vinnare. Avstå om din befintliga rutin fungerar.",
     faqItems: [
       {
         question: "Retinol eller bakuchiol?",
-        answer: "Välj retinol om du redan vill ha en klassisk aktiv kvällsprodukt. Välj bakuchiol om du vill ha ett mildare alternativ utan retinoid.",
+        answer: "Kontrollera produktversion och användningssätt. Koncentratet ska inte behandlas som ett färdigt serum.",
       },
       {
         question: "Varför visar ni inga priser?",
@@ -4220,7 +4220,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Retinol eller bakuchiol? | Elins val",
-    metaDescription: "Retinol eller bakuchiol?: Retinol är retinoidspåret. Bakuchiol är det växtbaserade, mildare alternativet utan retinoid. (Annons)",
+    metaDescription: "Retinol eller bakuchiol?: Jämför namngivna formulor och användning: serumsteg eller bakuchiolkoncentrat för blandning. (Annons)",
   },
   {
     id: "saltvattenspray-eller-texturspray",
@@ -7423,12 +7423,12 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "retinolserum",
-    title: "Retinolserum utan hype",
-    shortTitle: "Retinolserum utan hype",
+    title: "Vilket retinolserum jämför du?",
+    shortTitle: "Vilket retinolserum jämför du?",
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/retinolserum",
-    description: "Två retinolserum med olika styrkor: Inkey för budget och uppmärksamhet, CeraVe för mildare doftfri profil.",
+    description: "Kontrollera original eller Starter, exakt formula och behov innan du väljer retinolserum.",
     productSlugs: [
       "inkey-retinol-serum",
       "cerave-resurfacing-retinol",
@@ -7446,7 +7446,7 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/retinol-eller-bakuchiol",
-    description: "Retinol är retinoidspåret. Bakuchiol är det växtbaserade, mildare alternativet utan retinoid.",
+    description: "Jämför namngivna formulor och användning: serumsteg eller bakuchiolkoncentrat för blandning.",
     productSlugs: [
       "inkey-retinol-serum",
       "cerave-resurfacing-retinol",
@@ -7455,7 +7455,7 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     badges: [
       "Retinol",
       "Bakuchiol",
-      "Mildare alternativ",
+      "Kontrollera formulan",
     ],
   },
   {

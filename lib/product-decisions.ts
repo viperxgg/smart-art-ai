@@ -1,3 +1,5 @@
+import { retinolDecision } from "@/lib/retinol-decisions";
+import { bakuchiolDecision } from "@/lib/bakuchiol-eller-niacinamid";
 import { vitaminCDecision } from "@/lib/vitamin-c-eller-niacinamid";
 import { niacinamideDecision } from "@/lib/niacinamide-decision";
 import { makeupCleansingDecision } from "@/lib/rengoringsolja-eller-micellarvatten";
@@ -31,6 +33,17 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === bakuchiolDecision.options[0].productSlug) return {
+    ...bakuchiolDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Koncentrat eller serum?", href: "/skonhet/bakuchiol-eller-niacinamid" },
+  };
+  const retinolOption = retinolDecision.options.find(item => item.productSlug === slug);
+  if (retinolOption) return {
+    ...retinolDecision, options: [retinolOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Kontrollera version och användning", href: "/skonhet/retinolserum" },
+  };
   if (slug === vitaminCDecision.options[0].productSlug) return {
     ...vitaminCDecision,
     category: { label: "Skönhet", href: "/skonhet" },

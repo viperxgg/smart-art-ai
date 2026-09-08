@@ -1,4 +1,5 @@
 import { getProductDecision } from "@/lib/product-decisions";
+import { withDecisionPick } from "@/lib/decision-pick";
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";
@@ -7,11 +8,12 @@ import { siteConfig } from "@/lib/site";
 import { getWaveProductPick } from "@/lib/wave-content";
 
 export function createWaveProductMetadata(productSlug: string) {
-  const pick = getWaveProductPick(productSlug);
+  const rawPick = getWaveProductPick(productSlug);
 
-  if (!pick) {
+  if (!rawPick) {
     return {};
   }
+  const pick = withDecisionPick(rawPick);
 
   return createSeoMetadata({
     title: pick.metaTitle,
