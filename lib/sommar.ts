@@ -5563,66 +5563,38 @@ export const sommarPicks: SommarPick[] = [
   {
     productSlug: moroccanoilHaroljaProduct.slug,
     href: "/skonhet/harolja",
-    cardBadge: "Mest beprövad",
-    cardHook: "Ikonisk hårolja för glans & mjukhet - 89 000+ omdömen.",
+    cardBadge: "Produktguide",
+    cardHook: "Vilken funktion saknas i din rutin?",
     cardImage: "/products/moroccanoil-harolja/harolja-moroccanoil-thumbnail.webp",
     cardImageAlt: "Moroccanoil Treatment hårolja, 25 ml",
     product: moroccanoilHaroljaProduct,
-    badge: "Elins premiumval",
-    headline: "Moroccanoil Treatment - hårolja för glans och mjukhet",
-    shortBody:
-      "Den ikoniska arganoljebaserade håroljan som gör håret silkeslent, mjukare och mindre frissigt - perfekt för torrt sommarhår.",
-    valueHook: "Den mest beprövade håroljan för glans och mjukhet.",
-    valueStatement:
-      "Moroccanoil Treatment är den ikoniska håroljan - 4,7 av 5 från över 89 000 omdömen. Den arganoljebaserade formulan gör håret silkeslent, mjukare och mer glansigt, tämjer frizz och absorberas lätt utan att tynga. Den är inte billig, men lite räcker långt och många kallar den sin absoluta favorit. Perfekt för torrt, soltrött sommarhår.",
+    badge: "Underlag före köp",
+    headline: "Moroccanoil Treatment Original",
+    shortBody: "Styling- och finishprodukt enligt den svenska tillverkarsidan. Kontrollera Original-formulan och förpackningens innehåll; butikens25 ml-variant är inte matchad.",
+    valueHook: "Funktion före varumärke",
+    valueStatement: "Styling- och finishprodukt enligt den svenska tillverkarsidan. Kontrollera Original-formulan och förpackningens innehåll; butikens25 ml-variant är inte matchad. Vi har inte belägg för att Original ersätter den jämförda värmeskyddssprayen. Formulan är inte ren arganolja.",
     passFor: [
-      "Vill ha glansigt, mjukt hår utan frizz - särskilt torrt eller soltrött sommarhår.",
-      "Föredrar en ikonisk, mycket beprövad produkt.",
-      "Vill ha en liten flaska som räcker länge (några droppar per gång).",
+      "Du saknar produktens avsedda funktion och har kontrollerat den exakta förpackningen."
     ],
-    caution:
-      'Det här är ett premiumval - priset är högt (många köpare skriver "dyr men bra"). Formulan är silikonbaserad med arganolja, inte en ren naturolja. Lite räcker långt, så en liten flaska håller länge.',
-    verdict:
-      "Premiumvalet - ikonisk hårolja för dig som vill ha glans, mjukhet och mindre frizz.",
-    amazonSummary:
-      "Amazon visar 4,7 av 5 från 89 679 omdömen. Köparna lyfter den härliga doften, glansen och att håret känns silkeslent - flera kallar den sin favorit, även om många noterar att den är dyr.",
-    amazonQuotes: [
-      {
-        text: "Bästa håroljan! Härlig doft och känsla i håret. Vårdar utan att göra håret fett - min absoluta favoritprodukt!",
-        attribution: "Helena, Amazon (Sverige)",
-      },
-      {
-        text: "Dyr men bra! Fantastisk doft och gör håret silkeslent.",
-        attribution: "Nico, Amazon (Sverige)",
-      },
-      {
-        text: "Softer hair with less frizz, adds a nice shine and smells amazing - worth the premium price.",
-        attribution: "Köpare, Amazon",
-      },
-    ],
+    caution: "Vi har inte belägg för att Original ersätter den jämförda värmeskyddssprayen. Formulan är inte ren arganolja.",
+    verdict: "Behåll det du redan använder om det fyller ditt behov.",
+    amazonSummary: "Aktuella köparbetyg, antal omdömen och citerade erfarenheter är inte verifierade.",
+    amazonQuotes: [],
     faqItems: [
       {
-        question: "Hur använder jag hårolja?",
-        answer:
-          "Värm några droppar mellan händerna och fördela från mitten av håret ut mot topparna, på fuktigt eller torrt hår. Börja med lite - det räcker långt.",
+        "question": "Har ni testat produkten?",
+        "answer": "Nej. Underlaget är tillverkarnas svenska produktuppgifter, inte ett jämförande produkttest."
       },
       {
-        question: "Gör den håret fett?",
-        answer:
-          "Köparna beskriver att den absorberas lätt och inte tynger om du doserar lagom. Börja med få droppar och bygg på vid behov.",
-      },
-      {
-        question: "Är den värd priset?",
-        answer:
-          'Det är ett premiumval. Många tycker den är värd det ("dyr men bra"), men det finns billigare håroljor om priset är viktigast.',
-      },
+        "question": "Behöver jag köpa båda produkterna?",
+        "answer": "Nej. Jämför funktionerna med det som redan finns i din rutin."
+      }
     ],
     reviewSectionId: "moroccanoil-harolja-recensioner",
     reviewFormId: "moroccanoil-harolja-skriv-recension",
     targetKeyword: "hårolja bäst i test",
-    metaTitle: "Hårolja bäst i test - Moroccanoil Treatment | Elins val",
-    metaDescription:
-      "Elin går igenom Moroccanoil Treatment - den ikoniska håroljan (4,7 av 5, 88 000+ omdömen). Glans, mjukhet och mindre frizz för sommarhåret - och vad du bör veta om priset.",
+    metaTitle: "Moroccanoil Treatment Original – underlag före köp | Elins val",
+    metaDescription: "Styling- och finishprodukt enligt den svenska tillverkarsidan. Kontrollera Original-formulan och förpackningens innehåll; butikens25 ml-variant är inte matchad. Vi har inte belägg för att Original ersätter den jämförda värmeskyddssprayen. Formulan är inte ren arganolja.",
     relatedLinks: [
       {
         href: "/skonhet/harolja-eller-varmeskydd",
@@ -5882,69 +5854,39 @@ export const sommarPicks: SommarPick[] = [
   {
     productSlug: lorealElvitalVarmeskyddProduct.slug,
     href: "/skonhet/varmeskydd",
-    cardBadge: "Skydda håret",
-    cardHook:
-      "Skyddar håret mot värme vid fön & plattång - prisvärt favoritval.",
+    cardBadge: "Produktguide",
+    cardHook: "Vilken funktion saknas i din rutin?",
     cardImage:
       "/products/loreal-elvital-varmeskydd/varmeskydd-loreal-thumbnail.webp",
     cardImageAlt: "L'Oréal Elvital Dream Length värmeskyddsspray, 150 ml",
     product: lorealElvitalVarmeskyddProduct,
-    badge: "Elins prisvärda val",
-    headline: "L'Oréal Elvital Dream Length - värmeskydd upp till 230°C",
-    shortBody:
-      "Ett prisvärt leave-in-värmeskydd som lägger ett skyddande lager innan du fönar, plattar eller lockar håret - med mindre frizz och mer glans.",
-    valueHook: "Prisvärt värmeskydd innan du stylar håret.",
-    valueStatement:
-      "L'Oréal Elvital Dream Length är ett prisvärt värmeskydd som lägger ett skyddande lager innan du fönar eller plattar håret - upp till 230°C. Leave-in-sprayen med vitaminer och ricinolja gör håret lättare att reda ut, tämjer frizz och ger glans. 4,5 av 5 från nästan 3 000 omdömen och ett mycket vänligt pris - ett smart komplement innan du stylar med locktång, plattång eller varmluftsborste.",
+    badge: "Underlag före köp",
+    headline: "L’Oréal Elvital Dream Length Heat Slayer Iron Spray, 150 ml",
+    shortBody: "Leave-in-spray med ett värmeskyddspåstående från tillverkaren. Heat Slayer ska inte blandas ihop med andra produkter i Dream Length-serien.",
+    valueHook: "Funktion före varumärke",
+    valueStatement: "Leave-in-spray med ett värmeskyddspåstående från tillverkaren. Heat Slayer ska inte blandas ihop med andra produkter i Dream Length-serien. Tillverkarens temperaturpåstående är inte en garanti mot skador eller en rekommenderad inställning. Butikens variant återstår att matcha.",
     passFor: [
-      "Stylar håret med fön, plattång eller locktång och vill skydda mot värmen.",
-      "Vill ha mindre frizz och lättare utredning - särskilt långt hår.",
-      "Vill ha ett effektivt värmeskydd till ett lågt pris.",
+      "Du saknar produktens avsedda funktion och har kontrollerat den exakta förpackningen."
     ],
-    caution:
-      'En del köpare tycker att det kan lämna en lätt hinna om man sprayar för mycket - använd en lagom mängd. Doft och resultat upplevs olika; några tycker det finns bättre alternativ. Varianten passar bäst långt, rakt hår.',
-    verdict:
-      "Prisvärda valet - ett enkelt, effektivt värmeskydd innan värmestyling.",
-    amazonSummary:
-      "Amazon visar 4,5 av 5 från 2 975 omdömen. Köparna lyfter att håret blir lättare att reda ut, mindre frissigt och får glans - till ett lågt pris. Några tycker att det kan kännas lite för mycket om man överdoserar.",
-    amazonQuotes: [
-      {
-        text: "Bra produkt och priset är rimligt.",
-        attribution: "Köpare, Amazon (Sverige)",
-      },
-      {
-        text: "Reder ut håret lätt - spraya på fuktigt hår och låt verka några minuter innan värmen. Bra produkt till bra pris.",
-        attribution: "Köpare, Amazon (Sverige)",
-      },
-      {
-        text: "Finns så mycket bättre.",
-        attribution: "Alexandra, Amazon (Sverige)",
-      },
-    ],
+    caution: "Tillverkarens temperaturpåstående är inte en garanti mot skador eller en rekommenderad inställning. Butikens variant återstår att matcha.",
+    verdict: "Behåll det du redan använder om det fyller ditt behov.",
+    amazonSummary: "Aktuella köparbetyg, antal omdömen och citerade erfarenheter är inte verifierade.",
+    amazonQuotes: [],
     faqItems: [
       {
-        question: "När använder jag värmeskydd?",
-        answer:
-          "Spraya på fuktigt eller torrt hår innan du fönar, plattar eller lockar. Fördela jämnt i längderna och styla sedan.",
+        "question": "Har ni testat produkten?",
+        "answer": "Nej. Underlaget är tillverkarnas svenska produktuppgifter, inte ett jämförande produkttest."
       },
       {
-        question: "Skyddar det vid plattång och locktång?",
-        answer:
-          "Ja, det är gjort för värmestyling upp till 230°C - ett bra steg innan du använder plattång, locktång eller varmluftsborste.",
-      },
-      {
-        question: "Gör det håret kladdigt?",
-        answer:
-          "Använd en lagom mängd - för mycket kan ge en lätt hinna. Börja sparsamt och bygg på vid behov.",
-      },
+        "question": "Behöver jag köpa båda produkterna?",
+        "answer": "Nej. Jämför funktionerna med det som redan finns i din rutin."
+      }
     ],
     reviewSectionId: "loreal-elvital-varmeskydd-recensioner",
     reviewFormId: "loreal-elvital-varmeskydd-skriv-recension",
     targetKeyword: "värmeskydd hår bäst i test",
-    metaTitle:
-      "Värmeskydd hår bäst i test - L'Oréal Elvital Dream Length | Elins val",
-    metaDescription:
-      "Elin går igenom L'Oréal Elvital Dream Length värmeskyddsspray: skyddar håret upp till 230°C vid fön, plattång och locktång, mindre frizz och prisvärt (4,5 av 5, 2 900+ omdömen).",
+    metaTitle: "L’Oréal Elvital Dream Length Heat Slayer Iron Spray, 150 ml – underlag före köp | Elins val",
+    metaDescription: "Leave-in-spray med ett värmeskyddspåstående från tillverkaren. Heat Slayer ska inte blandas ihop med andra produkter i Dream Length-serien. Tillverkarens temperaturpåstående är inte en garanti mot skador eller en rekommenderad inställning. Butikens variant återstår att matcha.",
     relatedLinks: [
       {
         href: "/skonhet/harolja-eller-varmeskydd",

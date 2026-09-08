@@ -2117,12 +2117,14 @@ export const cosrxSnailEssenceProduct: Product = {
 
 export const moroccanoilHaroljaProduct: Product = {
   slug: "moroccanoil-harolja",
-  title: "Moroccanoil Treatment Original - hårolja (25 ml)",
+  title: "Moroccanoil Treatment Original",
   category: "skonhet",
   asin: "B003JKFEL8",
   brand: "Moroccanoil",
   price: "Se aktuellt pris på Amazon",
-  badges: ["Elins premiumval", "Mest beprövad", "Hårolja"],
+  badges: [
+    "Kontrollera varianten"
+  ],
   image: "/products/moroccanoil-harolja/harolja-moroccanoil-thumbnail.webp",
   imageAlt: "Moroccanoil Treatment hårolja, 25 ml",
   images: [
@@ -2139,38 +2141,33 @@ export const moroccanoilHaroljaProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/3ScSTbq",
   pageHref: "/skonhet/harolja",
-  summary:
-    "Ikonisk arganoljebaserad hårolja för glans, mjukhet och mindre frizz i torrt sommarhår.",
+  summary: "Styling- och finishprodukt enligt den svenska tillverkarsidan. Kontrollera Original-formulan och förpackningens innehåll; butikens25 ml-variant är inte matchad.",
   evaluation: {
-    headline: "Premiumvalet för glans",
-    intro:
-      "Elin går igenom Amazon-signaler, formula och användning för en ikonisk hårolja med ovanligt många omdömen.",
-    verdict:
-      "Premiumvalet för dig som vill ha glans, mjukhet och mindre frizz.",
-    checks: [],
+    "headline": "Välj efter funktion",
+    "intro": "Styling- och finishprodukt enligt den svenska tillverkarsidan. Kontrollera Original-formulan och förpackningens innehåll; butikens25 ml-variant är inte matchad.",
+    "verdict": "Vi har inte belägg för att Original ersätter den jämförda värmeskyddssprayen. Formulan är inte ren arganolja.",
+    "checks": []
   },
   specSectionEyebrow: "Hårolja",
   specSectionTitle: "Moroccanoil Treatment",
   specs: [
-    { label: "Format", caption: "Typ", value: "Hårolja, 25 ml" },
-    { label: "Formula", caption: "Bas", value: "Arganoljebaserad" },
-    { label: "Profil", caption: "Hårvård", value: "Alkoholfri, premium beauty" },
+    {
+      "label": "Produkt",
+      "caption": "Avgränsning",
+      "value": "Moroccanoil Treatment Original"
+    },
+    {
+      "label": "Butik",
+      "caption": "Variant",
+      "value": "Ej matchad mot aktuell förpackning"
+    }
   ],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/3ScSTbq",
-    ratingSummary:
-      "Amazon visar 4,7 av 5 från 89 679 omdömen och #1 hair care oil i USA.",
-    ratingCheckedAt: "september 2026",
-    highlights: [
-      "Köpare lyfter doften, glansen och den silkeslena känslan.",
-      "Många beskriver den som en favorit för torrt eller frissigt hår.",
-      "Lite produkt beskrivs räcka långt.",
-    ],
-    cautions: [
-      "Det är ett premiumval med högre pris.",
-      "Formulan är silikonbaserad med arganolja, inte en ren naturolja.",
-    ],
+    "sourceLabel": "Köparomdömen ej verifierade",
+    "sourceUrl": "https://amzn.to/3ScSTbq",
+    "ratingSummary": "Aktuellt betyg och antal omdömen för rätt variant är inte verifierade.",
+    "highlights": [],
+    "cautions": []
   },
   ugcVideos: [],
   uses: [],
@@ -2398,12 +2395,14 @@ export const vxdoirkElektriskFotfilProduct: Product = {
 
 export const lorealElvitalVarmeskyddProduct: Product = {
   slug: "loreal-elvital-varmeskydd",
-  title: "L'Oréal Elvital Dream Length Värmeskyddsspray (150 ml)",
+  title: "L’Oréal Elvital Dream Length Heat Slayer Iron Spray, 150 ml",
   category: "skonhet",
   asin: "",
   brand: "L'Oréal Paris",
   price: "Se aktuellt pris på Amazon",
-  badges: ["Elins prisvärda val", "Värmeskydd", "Leave-in"],
+  badges: [
+    "Kontrollera varianten"
+  ],
   image:
     "/products/loreal-elvital-varmeskydd/varmeskydd-loreal-thumbnail.webp",
   imageAlt:
@@ -2422,49 +2421,33 @@ export const lorealElvitalVarmeskyddProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4vXpSz4",
   pageHref: "/skonhet/varmeskydd",
-  summary:
-    "Prisvärd leave-in-värmeskyddsspray för styling med fön, plattång, locktång eller varmluftsborste.",
+  summary: "Leave-in-spray med ett värmeskyddspåstående från tillverkaren. Heat Slayer ska inte blandas ihop med andra produkter i Dream Length-serien.",
   evaluation: {
-    headline: "Prisvärt värmeskydd inför styling",
-    intro:
-      "Elin går igenom Amazon-signaler och användning för ett värmeskydd som passar innan vanliga värmeverktyg.",
-    verdict:
-      "Prisvärda valet - ett enkelt, effektivt värmeskydd innan värmestyling.",
-    checks: [
-      {
-        label: "Problemet den löser",
-        text: "Lägger ett prisvärt skyddande stylingsteg före fön, plattång, locktång eller varmluftsborste.",
-      },
-      {
-        label: "Varför Elin fastnade",
-        text: "Den är lätt att förstå i vardagen: spraya före värme, få mer glid i håret och slipp betala premiumpris för ett bassteg.",
-      },
-      {
-        label: "Det vi inte vill överdriva",
-        text: "Värmeskydd minskar inte behovet av varsam styling. För mycket produkt kan ge hinna och hög värme sliter ändå över tid.",
-      },
-    ],
+    "headline": "Välj efter funktion",
+    "intro": "Leave-in-spray med ett värmeskyddspåstående från tillverkaren. Heat Slayer ska inte blandas ihop med andra produkter i Dream Length-serien.",
+    "verdict": "Tillverkarens temperaturpåstående är inte en garanti mot skador eller en rekommenderad inställning. Butikens variant återstår att matcha.",
+    "checks": []
   },
   specSectionEyebrow: "Värmeskydd",
   specSectionTitle: "L'Oréal Elvital Dream Length",
   specs: [
-    { label: "Format", caption: "Typ", value: "Leave-in-spray, 150 ml" },
-    { label: "Styling", caption: "Värme", value: "Upp till 230°C" },
-    { label: "Innehåll", caption: "Hårvård", value: "Vitaminer och ricinolja" },
+    {
+      "label": "Produkt",
+      "caption": "Avgränsning",
+      "value": "L’Oréal Elvital Dream Length Heat Slayer Iron Spray, 150 ml"
+    },
+    {
+      "label": "Butik",
+      "caption": "Variant",
+      "value": "Ej matchad mot aktuell förpackning"
+    }
   ],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4vXpSz4",
-    ratingSummary: "Amazon visar 4,5 av 5 från 2 975 omdömen.",
-    highlights: [
-      "Köpare lyfter att håret blir lättare att reda ut.",
-      "Flera nämner mindre frizz och mer glans.",
-      "Priset beskrivs som vänligt jämfört med många stylingprodukter.",
-    ],
-    cautions: [
-      "För mycket produkt kan ge en lätt hinna.",
-      "Doft och resultat upplevs olika.",
-    ],
+    "sourceLabel": "Köparomdömen ej verifierade",
+    "sourceUrl": "https://amzn.to/4vXpSz4",
+    "ratingSummary": "Aktuellt betyg och antal omdömen för rätt variant är inte verifierade.",
+    "highlights": [],
+    "cautions": []
   },
   ugcVideos: [],
   uses: [

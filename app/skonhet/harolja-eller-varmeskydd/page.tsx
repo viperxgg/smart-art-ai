@@ -1,3 +1,4 @@
+import { hairStylingDecision } from "@/lib/hair-styling-decision";
 import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
 import {
   haroljaEllerVarmeskyddComparisonRows,
@@ -19,24 +20,21 @@ const breadcrumbItems = [
 export const metadata = createSeoMetadata({
   title: "Hårolja med värmeskydd – räcker oljan? | Elins val",
   description:
-    "Hårolja med värmeskydd: Elin reder ut om håroljan räcker som skydd före plattång och fön, när du behöver ett riktigt värmeskydd – och när du bör ha båda.",
+    "Jämför Moroccanoil Original och Heat Slayer: olika uppgifter, exakta produktnamn, källor och när du kan avstå från ett extra köp.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${haroljaEllerVarmeskyddPicks[1].product.image}`,
-    width: 1200,
-    height: 900,
-    alt: haroljaEllerVarmeskyddPicks[1].product.imageAlt,
-  },
+
 });
 
 export default function HaroljaEllerVarmeskyddPage() {
   return (
     <DecisionComparisonPage
-      h1="Hårolja med värmeskydd?"
-      intro="Hårolja med värmeskydd låter som en genväg, men de löser olika problem. Värmeskydd används före föning, plattång och locktång, medan hårolja ger glans, mjukhet och finish efteråt."
-      badges={["Skyddar vid värme", "Glans & mjukhet", "Sommarvård"]}
-      howToChoose="Prioritera L'Oréal Elvital Dream Length om du värmestylar ofta. Prioritera Moroccanoil Treatment om håret främst känns torrt, frissigt eller soltrött. Många använder båda: värmeskydd före styling och hårolja efteråt."
-      verdict="Det här är inte en vinnare-tar-allt-jämförelse. Värmeskyddet har högre poäng och är viktigast när värmeverktyg används. Håroljan är det bättre komplementet för mjukhet, glans och finish i torrt sommarhår."
+      h1="Hårolja eller värmeskydd – vad saknas i din rutin?"
+      intro="Styling och finish är inte samma uppgift som ett uttryckligt värmeskydd. Här jämför vi två namngivna produkter och vad deras egna instruktioner faktiskt säger."
+      badges={["Olika uppgifter", "Svenska tillverkarkällor", "Inget eget test"]}
+      decision={hairStylingDecision}
+      hideUnverifiedImages
+      howToChoose="Kontrollera först vad du redan använder och vilken funktion som saknas. Matcha sedan hela produktnamnet och följ instruktionerna för just den produkten."
+      verdict="Du behöver inte köpa båda. Välj efter behov och underlag; vi har inte testat att någon av dessa produkter ger ett bättre resultat än den andra."
       picks={haroljaEllerVarmeskyddPicks}
       comparisonRows={haroljaEllerVarmeskyddComparisonRows}
       faqItems={haroljaEllerVarmeskyddFaqItems}

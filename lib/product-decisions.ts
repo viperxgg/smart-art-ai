@@ -1,3 +1,4 @@
+import { hairStylingDecision } from "@/lib/hair-styling-decision";
 import { hantlarEllerGummibandDecision } from "@/lib/hantlar-eller-gummiband";
 import { ceraveEllerCetaphilDecision } from "@/lib/cerave-eller-cetaphil";
 import type { DecisionRecord } from "@/lib/decision-record";
@@ -9,6 +10,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const hairOption = hairStylingDecision.options.find((item) => item.productSlug === slug);
+  if (hairOption) return {
+    ...hairStylingDecision, options: [hairOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Jämför hårolja och värmeskydd", href: "/skonhet/harolja-eller-varmeskydd" },
+  };
   const trainingOption = hantlarEllerGummibandDecision.options.find((item) => item.productSlug === slug);
   if (trainingOption) return {
     ...hantlarEllerGummibandDecision,

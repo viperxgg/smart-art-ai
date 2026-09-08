@@ -9,94 +9,23 @@ import {
 } from "@/lib/products";
 
 export const haroljaEllerVarmeskyddFaqItems: DecisionComparisonFaqItem[] = [
-  {
-    question: "Finns det hårolja med värmeskydd?",
-    answer:
-      "Vissa håroljor ger ett lätt skydd vid värmestyling, men ett dedikerat värmeskydd som L'Oréal Elvital Dream Length är gjort för värme upp till 230°C och skyddar bättre. Vill du ha båda effekterna: spraya värmeskydd före stylingen och avsluta med hårolja för glans.",
-  },
-  {
-    question: "Behöver jag både värmeskydd och hårolja?",
-    answer:
-      "Många använder båda: värmeskydd före föning, plattång eller locktång, och hårolja efteråt för glans, mjukhet och mindre frizz.",
-  },
-  {
-    question: "Kan jag använda hårolja som värmeskydd?",
-    answer:
-      "Nej, inte på samma sätt. Hårolja vårdar och ger glans, men ersätter inte ett värmeskydd som är gjort för föning, plattång eller locktång.",
-  },
+ { question: "Måste jag använda båda?", answer: "Nej. Välj efter vad som saknas i din rutin. En extra finishprodukt är inte automatiskt nödvändig när du använder värmeskydd." },
+ { question: "Används oljan bara efter styling?", answer: "Nej. Följ instruktionerna för den exakta produkten. Moroccanoil Original kan enligt tillverkaren användas i handdukstorkat eller torrt hår. Det är inte ett bevis för att den ersätter sprayens värmeskydd." },
+ { question: "Är en angiven skyddstemperatur en rekommenderad inställning?", answer: "Nej. Vi återger tillverkarens uppgift, inte ett råd att använda högsta värme. Följ produktens och verktygets instruktioner." },
 ];
-
 export const haroljaEllerVarmeskyddComparisonRows = [
-  [
-    "Snabba signaler",
-    "Arganoljebaserad hårolja; glans; mjukhet",
-    "Leave-in-spray; upp till 230°C; mindre frizz",
-  ],
-  [
-    "Bäst för",
-    "Torrt, soltrött hår som behöver glans",
-    "Hår som fönas, plattas eller lockas",
-  ],
-  [
-    "När används den?",
-    "Efter styling eller i fuktigt/torrt hår för finish",
-    "Före värmestyling, på fuktigt eller torrt hår",
-  ],
-  [
-    "Caveat",
-    "Premiumpris och silikonbaserad formula med arganolja",
-    "För mycket spray kan lämna en lätt hinna",
-  ],
-
+ ["Produkt", "Moroccanoil Treatment Original", "Dream Length Heat Slayer Iron Spray150 ml"],
+ ["Utgångspunkt", "Styling och finish", "Ett uttryckligt värmeskyddspåstående"],
+ ["Viktig kontroll", "Original, inte annan Moroccanoil-produkt", "Heat Slayer, inte annan Dream Length-produkt"],
+ ["Vad visar vårt underlag inte?", "Likvärdigt värmeskydd som sprayen", "Att resultatet blir samma för alla hårtyper"],
+ ["Butikens variant matchad", "Nej", "Nej"],
 ] as const;
-
-export const haroljaEllerVarmeskyddPicks: [
-  DecisionComparisonPick,
-  DecisionComparisonPick,
-] = [
-  {
-    product: moroccanoilHaroljaProduct,
-    path: "/skonhet/harolja",
-    badge: "Glans & mjukhet",
-    headline: "Moroccanoil Treatment - hårolja för finish",
-    shortBody:
-      "Prioritera håroljan om ditt sommarhår känns torrt, frissigt eller solslitet och du vill ha mer glans, mjukhet och en lenare finish.",
-  },
-  {
-    product: lorealElvitalVarmeskyddProduct,
-    path: "/skonhet/varmeskydd",
-    badge: "Skyddar vid värme",
-    headline: "L'Oréal Elvital Dream Length - värmeskydd före styling",
-    shortBody:
-      "Prioritera värmeskyddet om du fönar, plattar eller lockar håret ofta. Sprayen är gjord för värmestyling upp till 230°C.",
-  },
+export const haroljaEllerVarmeskyddPicks: [DecisionComparisonPick, DecisionComparisonPick] = [
+ { product: moroccanoilHaroljaProduct, path: "/skonhet/harolja", badge: "Styling och finish", headline: "Behöver du en finishprodukt?", shortBody: "Utgå från önskat resultat och formulan. Köp inte oljan enbart som ersättning för ett uttryckligt värmeskydd." },
+ { product: lorealElvitalVarmeskyddProduct, path: "/skonhet/varmeskydd", badge: "Före värmestyling", headline: "Saknas värmeskydd i din rutin?", shortBody: "Kontrollera hela produktnamnet och följ instruktionerna. Temperaturpåståendet är tillverkarens uppgift, inte vår testbedömning." },
 ];
-
-export const haroljaEllerVarmeskyddRelatedLinks: DecisionComparisonRelatedLink[] =
-  [
-    {
-      href: "/skonhet/sommarglow-utan-sol",
-      label: "Sommar",
-      text: "Jämför självbruna och bronzing drops.",
-    },
-    {
-      href: "/sommar",
-      label: "Sommar",
-      text: "Se Elins samlade sommarfavoriter.",
-    },
-    {
-      href: "/skonhet/harolja",
-      label: "Hårolja",
-      text: "Läs recensionen av Moroccanoil Treatment.",
-    },
-    {
-      href: "/skonhet/varmeskydd",
-      label: "Värmeskydd",
-      text: "Läs recensionen av L'Oréal Elvital Dream Length.",
-    },
-    {
-      href: "/skonhet/varmeskyddsspray",
-      label: "Värmeskyddsspray",
-      text: "Vill du ha spray i stället? Se Elins val av värmeskyddsspray.",
-    },
-  ];
+export const haroljaEllerVarmeskyddRelatedLinks: DecisionComparisonRelatedLink[] = [
+ { href: "/skonhet/harolja", label: "Moroccanoil Original", text: "Underlag och begränsningar för finishprodukten." },
+ { href: "/skonhet/varmeskydd", label: "Heat Slayer", text: "Underlag och begränsningar för värmeskyddssprayen." },
+ { href: "/skonhet", label: "Skönhet", text: "Fler jämförelser och produktguider." },
+];
