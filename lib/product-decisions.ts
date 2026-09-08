@@ -1,3 +1,4 @@
+import { detanglingDecision } from "@/lib/tangle-teezer-eller-harborste";
 import { makeupToolDecision } from "@/lib/sminksvamp-eller-sminkborste";
 import { clawClipDecision, hairTowelDecision } from "@/lib/kitsch-accessory-decisions";
 import { handCreamDecision, bodyScrubDecision } from "@/lib/hand-body-decisions";
@@ -42,6 +43,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const brushOption = detanglingDecision.options.find(item => item.productSlug === slug);
+  if (brushOption) return {
+    ...detanglingDecision, options: [brushOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Behöver du en ny borste?", href: "/skonhet/tangle-teezer-eller-harborste" },
+  };
   const makeupToolOption = makeupToolDecision.options.find(item => item.productSlug === slug);
   if (makeupToolOption) return {
     ...makeupToolDecision, options: [makeupToolOption],
