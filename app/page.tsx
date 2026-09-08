@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 
-import { JsonLd } from "@/components/JsonLd";
-import { ProductDiscoveryLanding } from "@/components/ProductDiscoveryLanding";
+import { ConsumerHome } from "@/components/ConsumerHome";
 import { defaultOgImage } from "@/lib/metadata";
-import { featuredProduct } from "@/lib/products";
-import { buildElinReviewNode } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -30,31 +27,6 @@ export const metadata: Metadata = {
   },
 };
 
-const organizationSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: siteConfig.name,
-  url: siteConfig.url,
-  email: siteConfig.email,
-  description: siteConfig.description,
-};
-
-const productSchema = {
-  "@context": "https://schema.org",
-  "@type": "Product",
-  name: featuredProduct.title,
-  brand: featuredProduct.brand,
-  sku: featuredProduct.asin,
-  image: `${siteConfig.url}${featuredProduct.image}`,
-  description: featuredProduct.summary,
-  review: buildElinReviewNode(featuredProduct.slug),
-};
-
 export default function Home() {
-  return (
-    <>
-      <JsonLd data={[organizationSchema, productSchema]} />
-      <ProductDiscoveryLanding />
-    </>
-  );
+  return <ConsumerHome />;
 }

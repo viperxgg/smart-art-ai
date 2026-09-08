@@ -2,11 +2,11 @@ export const siteConfig = {
   name: "Elins val",
   brand: "Elins val",
   legalName: "FRAMFORM",
-  title: "Elins val – ärliga test & jämförelser av skönhet & träning",
+  title: "Elins val – jämför skönhet, hälsa och träning",
   url: "https://www.smartartai.se",
   email: "hello@smartartai.se",
   description:
-    "Elin jämför betyg och tusentals recensioner och ger varje produkt en Elins poäng – så hittar du det som faktiskt är värt pengarna. Skönhet, hälsa och träning.",
+    "Vad passar dig och vad kan du skippa? Jämför skillnader och nackdelar inom skönhet, hälsa och träning med dina behov som utgångspunkt.",
   // Operator / imprint. Source of truth: https://framform.se/sv/foretagsinformation
   // (fetched 2026-09-05). The organisationsnummer is deliberately not printed on
   // the site — for an enskild firma it equals a personal identity number.

@@ -86,10 +86,10 @@ export function Header() {
         </nav>
 
         <ElinCtaButton
-          className="inline-flex min-h-10 shrink-0 items-center gap-2 rounded-full bg-wine px-3.5 text-sm font-black text-bg shadow-[0_16px_36px_rgba(109,60,77,0.28)] transition hover:-translate-y-0.5 hover:bg-wine/90 md:min-h-11 md:px-5"
+          className="inline-flex min-h-10 shrink-0 items-center gap-2 rounded-full border border-line bg-surface px-3.5 text-sm font-bold text-wine transition hover:bg-rose/8 md:min-h-11 md:px-5"
         >
-          <span className="hidden lg:inline">Fråga Elin</span>
-          <span className="lg:hidden">Fråga</span>
+          <span className="hidden lg:inline">Fråga Elin · AI</span>
+          <span className="lg:hidden">Elin · AI</span>
         </ElinCtaButton>
       </div>
     </header>
