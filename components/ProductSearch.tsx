@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
+import { getProductImageNote } from "@/lib/product-image-notes";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { ArrowUpRight, Search, X } from "lucide-react";
@@ -203,7 +204,7 @@ function SearchResultCard({ product }: { product: Product }) {
           alt={product.imageAlt}
           fill
           sizes="(min-width: 1024px) 20rem, (min-width: 640px) 45vw, 92vw"
-          className="object-cover transition duration-500 group-hover:scale-[1.03]"
+          className="object-contain"
           loading="lazy"
           quality={70}
         />
@@ -211,6 +212,7 @@ function SearchResultCard({ product }: { product: Product }) {
           {label}
         </span>
       </Link>
+      {getProductImageNote(product) ? <p className="border-t border-line px-5 py-3 text-sm leading-relaxed text-ink-soft">{getProductImageNote(product)}</p> : null}
       <div className="flex flex-1 flex-col p-5">
         <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
           {product.brand}

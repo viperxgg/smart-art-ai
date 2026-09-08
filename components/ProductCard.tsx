@@ -10,6 +10,7 @@ import { ScoreBadge } from "@/components/ProductBadges";
 import { ProductDecisionPreview } from "@/components/ProductDecisionPreview";
 import { getProductDecision } from "@/lib/product-decisions";
 import { SaveProductButton } from "@/components/SaveProductButton";
+import { getProductImageNote } from "@/lib/product-image-notes";
 
 type ProductCardProps = {
   product: Product;
@@ -21,6 +22,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
   const score = getEditorialScore(product.slug);
   const decision = getProductDecision(product.slug);
   const title = decision?.options[0].model ?? product.title;
+  const imageNote = getProductImageNote(product);
 
   return (
     <article className="overflow-hidden rounded-[2.4rem] border border-line bg-surface/80 shadow-[0_30px_90px_rgba(216,131,146,0.17)] backdrop-blur-xl">
@@ -35,7 +37,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             alt={product.imageAlt}
             fill
             sizes="(max-width: 768px) 92vw, 650px"
-            className="object-cover transition duration-500 group-hover:scale-[1.025]"
+            className="object-contain"
             priority={priority}
             {...(priority ? {} : { loading: "lazy" as const })}
             quality={70}
@@ -47,6 +49,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
           className="absolute right-5 top-5 grid min-h-11 min-w-11 place-items-center rounded-full bg-surface/90 text-wine shadow-[0_14px_34px_rgba(120,60,72,0.18)] backdrop-blur transition hover:-translate-y-0.5 hover:bg-surface"
         />
       </div>
+      {imageNote ? <p className="border-t border-line px-6 py-3 text-sm leading-relaxed text-ink-soft sm:px-8">{imageNote}</p> : null}
 
       <div className="p-6 sm:p-8">
         <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
