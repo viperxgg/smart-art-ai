@@ -15,7 +15,7 @@ const comparisons = [
   },
   {
     category: "Träning",
-    title: "Hantlar eller gummiband – vad passar din träning hemma?",
+    title: "Hantlar eller miniband – vad kräver dina övningar?",
     description: "Tänk igenom övningar, utrymme och utrustningen du redan har.",
     href: "/traning/hantlar-eller-gummiband",
   },

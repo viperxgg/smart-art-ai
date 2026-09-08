@@ -1137,12 +1137,14 @@ export const proironSoftKettlebellProduct: Product = {
 
 export const proironNeopreneDumbbellsProduct: Product = {
   slug: "proiron-neoprenhantlar",
-  title: "PROIRON neoprenhantlar",
+  title: "PROIRON neoprenhantlar – fasta vikter",
   category: "traning",
   asin: "B01BEVZZZS",
   brand: "PROIRON",
   price: "Se aktuellt pris på Amazon",
-  badges: ["Mest beprövad", "Välj exakt vikt", "Mjukt grepp"],
+  badges: [
+    "Kontrollera varianten"
+  ],
   image: "/products/dumbbells/proiron-neoprene-dumbbells-thumbnail.webp",
   imageAlt: "PROIRON neoprenhantlar i rosa par",
   images: [
@@ -1164,36 +1166,33 @@ export const proironNeopreneDumbbellsProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4vJMOS3",
   pageHref: "/traning/hantlar/proiron-neopren",
-  summary:
-    "Ett enkelt par hantlar i rätt vikt: mjuk neopren, många färger och ett beprövat val för lätt till medeltung hemmaträning.",
+  summary: "Fasta hantlar för dig som vet vilken vikt dina övningar kräver. Vikt och antal i butikspaketet återstår att matcha.",
   evaluation: {
-    headline: "Elins värdeval",
-    intro:
-      "PROIRON passar dig som vill köpa exakt den vikt du behöver utan att börja med ett helt set.",
-    verdict: "Elins val - enklast och mest beprövat för pengarna.",
-    checks: [],
+    "headline": "Matcha redskapet med uppgiften",
+    "intro": "Fasta hantlar för dig som vet vilken vikt dina övningar kräver. Vikt och antal i butikspaketet återstår att matcha.",
+    "verdict": "Vikten ändras inte med lösa skivor. Behöver du flera belastningar måste du jämföra fler fasta vikter eller ett justerbart redskap.",
+    "checks": []
   },
   specSectionEyebrow: "Hantlar",
   specSectionTitle: "PROIRON neoprenhantlar",
   specs: [
-    { label: "Material", caption: "Kärna", value: "Gjutjärn + neopren" },
-    { label: "Vikter", caption: "Par", value: "1-10 kg" },
-    { label: "Grepp", caption: "Yta", value: "Mjuk, halkfri neopren" },
+    {
+      "label": "Variant",
+      "caption": "Före köp",
+      "value": "Exakt butikspaket ej verifierat"
+    },
+    {
+      "label": "Kontroll",
+      "caption": "Begränsning",
+      "value": "Vikten ändras inte med lösa skivor. Behöver du flera belastningar måste du jämföra fler fasta vikter eller ett justerbart redskap."
+    }
   ],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4vJMOS3",
-    ratingSummary:
-      "Amazon visar 4,6 av 5 från 24 861 recensioner och #4 i Dumbbells.",
-    highlights: [
-      "Köpare lyfter att hantlarna håller vad de lovar.",
-      "Neoprenytan gör dem bekväma och enkla att greppa.",
-      "Passar bäst för lätt till medeltung hemmaträning, cardio och rutiner.",
-    ],
-    cautions: [
-      "Neoprenhantlar är inte gjorda för tung lyftning eller att släppas i golvet.",
-      "En vanlig invändning är att priset per kilo kan kännas högt.",
-    ],
+    "sourceLabel": "Köparomdömen ej verifierade",
+    "sourceUrl": "https://amzn.to/4vJMOS3",
+    "ratingSummary": "Aktuellt betyg och antal omdömen för rätt variant är inte verifierade.",
+    "highlights": [],
+    "cautions": []
   },
   ugcVideos: [],
   uses: [],
@@ -9278,15 +9277,13 @@ export const gorillaRingsProduct: Product = {
 
 export const elvireMinibandProduct: Product = {
   slug: "elvire-miniband",
-  title: "Elvire Sport miniband / booty band (3-pack)",
+  title: "Elvire Sport – korta miniband, variant ej verifierad",
   category: "traning",
   asin: "B07NK18M4J",
   brand: "Elvire Sport",
   price: "Se aktuellt pris på Amazon",
   badges: [
-    "3 motstånd",
-    "Halkfria",
-    "Rumpa & ben",
+    "Kontrollera varianten"
   ],
   image: "/products/elvire-miniband/miniband-thumbnail.webp",
   imageAlt: "Elvire Sport miniband / booty band i 3-pack",
@@ -9314,45 +9311,33 @@ export const elvireMinibandProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4anqRjJ",
   pageHref: "/traning/miniband",
-  summary: "Tre miniband i tyg med olika motstånd för rumpa, ben och uppvärmning. Den halkfria insidan håller banden på plats vid utfall, sidosteg och höftlyft – hemma eller på gymmet.",
+  summary: "Den befintliga produktposten avser korta miniband. Längd, material, motstånd och exakt paket behöver verifieras före en produktrekommendation.",
   evaluation: {
-    headline: "Miniband i tyg för rumpa och ben",
-    intro: "Elin jämför Elvire Sport miniband: ett 3-pack i tyg med tre olika motstånd för rumpa, ben och uppvärmning. Tygbanden upplevs ofta som skönare mot huden än latex, och den halkfria insidan håller dem på plats vid utfall, sidosteg och höftlyft.",
-    verdict: "Sköna tygband i tre motstånd som håller sig på plats.",
-    checks: [],
+    "headline": "Matcha redskapet med uppgiften",
+    "intro": "Den befintliga produktposten avser korta miniband. Längd, material, motstånd och exakt paket behöver verifieras före en produktrekommendation.",
+    "verdict": "Korta miniband ersätter inte automatiskt långa band med handtag eller dörrfäste. Tyg är inte i sig bevis för en viss materialsammansättning.",
+    "checks": []
   },
   specSectionEyebrow: "Träningsband",
   specSectionTitle: "Elvire Sport miniband",
   specs: [
     {
-      label: "Innehåll",
-      caption: "Förpackning",
-      value: "3 band i tyg",
+      "label": "Variant",
+      "caption": "Före köp",
+      "value": "Exakt butikspaket ej verifierat"
     },
     {
-      label: "Motstånd",
-      caption: "Nivåer",
-      value: "Tre olika motståndsgrader",
-    },
-    {
-      label: "Grepp",
-      caption: "Komfort",
-      value: "Halkfri insida som håller på plats",
-    },
+      "label": "Kontroll",
+      "caption": "Begränsning",
+      "value": "Korta miniband ersätter inte automatiskt långa band med handtag eller dörrfäste. Tyg är inte i sig bevis för en viss materialsammansättning."
+    }
   ],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4anqRjJ",
-    ratingSummary: "Amazon visar 4,7 av 5 från 10 300 omdömen.",
-    highlights: [
-      "Köpare tycker att tygbanden känns skönare mot huden än latex.",
-      "Den halkfria insidan upplevs hålla banden på plats utan att rulla upp.",
-      "De tre motstånden uppskattas för att kunna trappa upp över tid.",
-    ],
-    cautions: [
-      "Tygband ger ett annat motstånd än latex och kan kännas styvare i början.",
-      "Storleken kan upplevas olika beroende på lårens omfång – jämför måtten.",
-    ],
+    "sourceLabel": "Köparomdömen ej verifierade",
+    "sourceUrl": "https://amzn.to/4anqRjJ",
+    "ratingSummary": "Aktuellt betyg och antal omdömen för rätt variant är inte verifierade.",
+    "highlights": [],
+    "cautions": []
   },
   ugcVideos: [],
   uses: [],

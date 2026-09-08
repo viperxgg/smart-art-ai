@@ -33,76 +33,35 @@ export type HantlarPick = {
 };
 
 export const hantlarFaqItems = [
-  {
-    question: "Hur många kilo ska jag börja med?",
-    answer:
-      "Börja med en vikt du kan kontrollera snyggt i 10-15 repetitioner. För axlar och armar räcker ofta 1-3 kg i början, medan ben och rygg ofta klarar 3-5 kg eller mer.",
-  },
-  {
-    question: "Neopren eller gjutjärn — vad är skillnaden?",
-    answer:
-      "Neopren ger mjukare grepp, färgkodning och en snällare känsla hemma. Gjutjärn utan coating är mer rått och tåligt, men ofta hårdare mot golv och händer.",
-  },
-  {
-    question: "Enkelt par eller ett helt set med ställning?",
-    answer:
-      "Ett enkelt par är billigast om du vet vilken vikt du behöver. Ett set med ställning passar bättre om du vill kunna växla mellan övningar och ha ett litet färdigt hemmagym.",
-  },
-  {
-    question: "Är neoprenhantlar bra för hemmaträning?",
-    answer:
-      "Ja, särskilt för lätt till medeltung styrka, rehab, cardio och pass där du vill ha bra grepp. De är mindre rätt om du planerar tung lyftning eller vill kunna släppa vikterna i golvet.",
-  },
+  { question: "Hur väljer jag vikt?", answer: "Utgå från de övningar du faktiskt gör och en belastning du redan vet fungerar för dig. Den här produktguiden bedömer inte din personliga träningsnivå och ger inget generellt starttal i kilo." },
+  { question: "Kan jag ändra vikten på neoprenhanteln?", answer: "De fasta hantlarna i denna jämförelse ändrar inte vikt med lösa skivor. För en annan vikt behöver du en annan hantel." },
+  { question: "Behöver jag ett helt set?", answer: "Ett set är relevant om du använder flera av vikterna och behöver förvaringen. Jämför paketets innehåll med ett par i den vikt du behöver, inklusive frakt." },
+  { question: "Har ni jämfört grepp och hållbarhet?", answer: "Nej. Vi har inte provat grepp, falltålighet eller hållbarhet. Bilder och produktnamn ersätter inte instruktioner för den exakta modellen." },
 ];
 
 export const hantlarComparisonRows = [
-  ["Snabba signaler", "Mest beprövad; Välj exakt vikt; Mjukt grepp", "Set + ställning; Rollsäker hexagon; Minihemmagym"],
-  ["Bäst för", "Enkelt par i exakt vikt (Elins val)", "Färdigt minihemmagym"],
-  ["Typ", "Enkelt par", "Set + ställning"],
-  ["Material", "Gjutjärn med neoprenyta", "Gjutjärn med neoprenyta"],
-  ["Vikter", "Par från 1-10 kg", "2x1 kg, 2x3 kg, 2x5 kg"],
-
+  ["Utgångspunkt", "En fast vikt som passar en bestämd övning", "Flera vikter om du faktiskt behöver dem"],
+  ["Typ", "Fasta neoprenhantlar", "Hantelset med ställning enligt produktposten"],
+  ["Kontrollera paketet", "Vikt per hantel och antal", "Samtliga vikter, antal och ställningens innehåll"],
+  ["Matchad aktuell butiksvariant", "Inte verifierad", "Inte verifierad"],
 ] as const;
 
 export const hantlarPicks: HantlarPick[] = [
   {
     product: proironNeopreneDumbbellsProduct,
     path: "/traning/hantlar/proiron-neopren",
-    badge: "Elins val",
-    headline: "PROIRON neoprenhantlar - välj exakt vikten du behöver",
-    shortBody:
-      "Ett enkelt par hantlar med mjukt grepp, många viktval och enormt socialt bevis. Bäst när du vill börja smart utan att köpa ett helt set.",
-    valueHook: "Billigaste vägen in: ett par i rätt vikt.",
-    valueStatement:
-      "PROIRON är valet när du redan vet ungefär vilken vikt du vill ha. Du slipper betala för en hel ställning, får mjuk neoprenyta med bra grepp och kan välja från 1 till 10 kg. För lätt till medeltung hemmaträning är det den enklaste vägen till mest användning per krona.",
+    badge: "Kontrollera varianten",
+    headline: "PROIRON neoprenhantlar – behöver du en fast vikt?",
+    shortBody: "Välj en fast hantel först när du vet vilken vikt du behöver. Vikt per hantel och antal i butikens paket är inte verifierade.",
+    valueHook: "Välj efter övningen",
+    valueStatement: "Välj en fast hantel först när du vet vilken vikt du behöver. Vikt per hantel och antal i butikens paket är inte verifierade. Detta är inte ett justerbart hantelset. En annan vikt kräver en annan hantel.",
     passFor: [
-      "Vill köpa ett par hantlar i exakt rätt vikt.",
-      "Tränar lätt till medeltung styrka, cardio eller rörlighet hemma.",
-      "Vill ha mjukare grepp och färgkodade vikter.",
+      "Välj en fast hantel först när du vet vilken vikt du behöver. Vikt per hantel och antal i butikens paket är inte verifierade."
     ],
-    caution:
-      "Neoprenhantlar är perfekta för hemmaträning, men inte för tung lyftning eller att släppa i golvet. En vanlig invändning är att de är bra men lite dyra per kilo.",
-    verdict: "Elins val - mest beprövat och enklast att börja med.",
-    amazonSummary:
-      "Amazon visar 4,6 av 5 från 24 861 recensioner och #4 i Dumbbells.",
-    amazonQuotes: [
-      {
-        text: "De håller vad de lovar.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Funkar bra, snygga hantlar.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Great value — there are nicer options but more expensive doesn't mean more effective.",
-        attribution: "Köpare, Amazon",
-      },
-      {
-        text: "Good in everything except the price.",
-        attribution: "Köpare, Amazon",
-      },
-    ],
+    caution: "Detta är inte ett justerbart hantelset. En annan vikt kräver en annan hantel.",
+    verdict: "Behåll det du har om det redan fungerar för dina övningar.",
+    amazonSummary: "Aktuella köparbetyg, antal omdömen och jämförande erfarenheter är inte verifierade.",
+    amazonQuotes: [],
     comparisonNote:
       "Vill du ha flera vikter och ställning direkt? Se SONGMICS hantelset.",
     comparisonCta: "Se SONGMICS hantelset",
@@ -110,9 +69,8 @@ export const hantlarPicks: HantlarPick[] = [
     reviewSectionId: "proiron-neoprenhantlar-recensioner",
     reviewFormId: "proiron-neoprenhantlar-skriv-recension",
     targetKeyword: "proiron neoprenhantlar",
-    metaTitle: "PROIRON neoprenhantlar - Elins recension | Elins val",
-    metaDescription:
-      "Elins genomgång av PROIRON neoprenhantlar: varför ett enkelt par i rätt vikt ofta är smartast, och när ett helt hantelset passar bättre.",
+    metaTitle: "PROIRON neoprenhantlar – behöver du en fast vikt? | Elins val",
+    metaDescription: "Välj en fast hantel först när du vet vilken vikt du behöver. Vikt per hantel och antal i butikens paket är inte verifierade. Detta är inte ett justerbart hantelset. En annan vikt kräver en annan hantel.",
   },
   {
     product: songmicsDumbbellSetProduct,

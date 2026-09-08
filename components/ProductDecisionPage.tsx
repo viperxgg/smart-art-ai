@@ -11,7 +11,7 @@ import type { ApprovedProductReview } from "@/lib/reviews/reviews";
 import type { SommarPick } from "@/lib/sommar";
 
 export function ProductDecisionPage({ pick, decision, reviews }: {
-  pick: SommarPick;
+  pick: Pick<SommarPick, "product" | "href" | "reviewSectionId" | "reviewFormId">;
   decision: ProductDecision;
   reviews: ApprovedProductReview[];
 }) {

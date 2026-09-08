@@ -1,3 +1,5 @@
+import { ProductDecisionPage } from "@/components/ProductDecisionPage";
+import { getProductDecision } from "@/lib/product-decisions";
 import Link from "next/link";
 import { ArrowLeft, Dumbbell, TriangleAlert } from "lucide-react";
 
@@ -45,6 +47,8 @@ export async function HantlarProductReviewPage({
   otherPick,
 }: HantlarProductReviewPageProps) {
   const approvedReviews = await getApprovedReviews(pick.product.slug);
+  const decision = getProductDecision(pick.product.slug);
+  if (decision) return <ProductDecisionPage pick={{ ...pick, href: pick.path }} decision={decision} reviews={approvedReviews} />;
   const editorialScore = getEditorialScore(pick.product.slug);
   const breadcrumbItems = [
     { name: "Hem", href: "/" },

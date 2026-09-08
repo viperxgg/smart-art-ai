@@ -1,3 +1,4 @@
+import { hantlarEllerGummibandDecision } from "@/lib/hantlar-eller-gummiband";
 import { ceraveEllerCetaphilDecision } from "@/lib/cerave-eller-cetaphil";
 import type { DecisionRecord } from "@/lib/decision-record";
 import { ereaderDecision } from "@/lib/ereader-decision";
@@ -8,6 +9,13 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const trainingOption = hantlarEllerGummibandDecision.options.find((item) => item.productSlug === slug);
+  if (trainingOption) return {
+    ...hantlarEllerGummibandDecision,
+    options: [trainingOption],
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Jämför fasta hantlar och korta miniband", href: "/traning/hantlar-eller-gummiband" },
+  };
   const readerOption = ereaderDecision.options.find((item) => item.productSlug === slug);
   if (readerOption) return {
     ...ereaderDecision,
