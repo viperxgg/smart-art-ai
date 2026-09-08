@@ -1,3 +1,4 @@
+import { clayMaskDecision, sheetMaskDecision } from "@/lib/face-mask-decisions";
 import { peelingDecision } from "@/lib/bha-eller-aha-bha-peeling";
 import { acidSerumTonerDecision } from "@/lib/azelainsyra-eller-aha-bha";
 import { centellaPropolisDecision } from "@/lib/centella-eller-propolis";
@@ -37,6 +38,16 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === clayMaskDecision.options[0].productSlug) return {
+    ...clayMaskDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Ett annat maskformat: arkmask", href: "/skonhet/sheet-mask" },
+  };
+  if (slug === sheetMaskDecision.options[0].productSlug) return {
+    ...sheetMaskDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Ett annat maskformat: lermask", href: "/skonhet/lermask" },
+  };
   const peelingOption = peelingDecision.options.find(item => item.productSlug === slug);
   if (peelingOption) return {
     ...peelingDecision, options: [peelingOption],
