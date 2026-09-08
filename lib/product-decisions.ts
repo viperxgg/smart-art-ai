@@ -1,3 +1,4 @@
+import { luggageScaleDecision } from "@/lib/luggage-scale-decision";
 import { massageGunDecision } from "@/lib/massage-gun-decision";
 import { bodymateCareDecision } from "@/lib/foam-roller-decision";
 import { yogaPropsDecision } from "@/lib/yogablock-eller-yogabalte";
@@ -26,6 +27,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === luggageScaleDecision.options[0].productSlug) return {
+    ...luggageScaleDecision,
+    category: { label: "Resa", href: "/sommar/resa" },
+    comparison: { label: "Behöver du en separat bagagevåg?", href: "/guider/bagagevag-vart-det" },
+  };
   const yogaPropOption = yogaPropsDecision.options.find(item => item.productSlug === slug);
   if (yogaPropOption) return {
     ...yogaPropsDecision, options: [yogaPropOption],

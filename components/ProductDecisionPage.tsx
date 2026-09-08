@@ -28,7 +28,7 @@ export function ProductDecisionPage({ pick, decision, reviews }: {
       <div className="mx-auto max-w-5xl">
         <Breadcrumbs items={breadcrumbs} />
         <header className="mt-8 max-w-3xl">
-          <p className="text-sm font-bold text-wine">Produktguide · {decision.sources.some((source) => source.status === "unavailable") ? "Ofullständigt källunderlag" : "Tillverkarkällor"}</p>
+          <p className="text-sm font-bold text-wine">Produktguide · {decision.sources.some((source) => source.status === "unavailable") ? "Ofullständigt källunderlag" : "Källor och metod redovisas"}</p>
           <h1 className="mt-4 font-display text-4xl font-bold leading-tight sm:text-5xl">Passar {option.model} dig?</h1>
           <p className="mt-5 text-lg leading-relaxed text-ink-soft">Börja med behovet och vad som redan fungerar. Här hittar du underlaget för valet, begränsningarna och när du kan avstå.</p>
           <p className="mt-4 text-sm leading-relaxed text-ink-soft">Redaktion: Elins val · <Link href="/om-oss#azzam" className="text-wine underline">Ansvarig utgivare: Azzam Khalaf</Link>. Webbplatsen innehåller affiliatelänkar och kan få ersättning vid köp.</p>
