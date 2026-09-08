@@ -3140,16 +3140,15 @@ export const solDeJaneiroJetSetProduct: Product = {
 
 export const kindlePaperwhiteProduct: Product = {
   slug: "kindle-paperwhite",
-  title: "Kindle Paperwhite 16 GB",
+  title: "Kindle Paperwhite, 7 tum, 16 GB",
   category: "halsa",
   asin: "B0CFPWLGF2",
   brand: "Kindle",
   price: "Se aktuellt pris på Amazon",
   priceTier: "premium",
   badges: [
-    "E-ink",
-    "16 GB",
-    "Amazon",
+    "E-böcker",
+    "Kontrollera bokformat"
   ],
   image: "/products/kindle-paperwhite/kindle-paperwhite-thumbnail.webp",
   imageAlt: "Kindle Paperwhite 16 GB",
@@ -3172,67 +3171,38 @@ export const kindlePaperwhiteProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4vdp6NA",
   pageHref: "/halsa/kindle-paperwhite",
-  summary: "En e-läsare för dig som vill ha fokuserad läsning, lång batteritid och Amazons ekosystem.",
+  summary: "Läsplatta för Kindle-böcker. Här avses 7-tumsmodellen med 16 GB; butikslänkens generation och variant återstår att matcha.",
   evaluation: {
-    headline: "Elins snabba koll",
-    intro: "Elin går igenom Kindle Paperwhite 16 GB utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
-    verdict: "Bästa valet för Amazon-läsaren, men inte mest öppet.",
-    checks: [
-      {
-        label: "Varför den är med",
-        text: "En e-läsare för dig som vill ha fokuserad läsning, lång batteritid och Amazons ekosystem.",
-      },
-      {
-        label: "Det Elin inte vill överdriva",
-        text: "Kindle är starkast om du trivs i Amazons bokvärld. Välj Kobo om öppenhet och bibliotekslån väger tyngre.",
-      },
-    ],
+    "headline": "Bokåtkomst före köp",
+    "intro": "Läsplatta för Kindle-böcker. Här avses 7-tumsmodellen med 16 GB; butikslänkens generation och variant återstår att matcha.",
+    "verdict": "Välj efter vilka böcker och tjänster du faktiskt använder.",
+    "checks": []
   },
   specSectionEyebrow: "Smart hem & livsstil",
   specSectionTitle: "Kindle Paperwhite 16 GB",
   specs: [
     {
-      label: "Skärm",
-      caption: "Smart hem & livsstil",
-      value: "E-ink",
+      "label": "Modell som beskrivs",
+      "caption": "Tillverkaruppgifter",
+      "value": "Kindle Paperwhite, 7 tum, 16 GB"
     },
     {
-      label: "Lagring",
-      caption: "Smart hem & livsstil",
-      value: "16 GB",
-    },
-    {
-      label: "Ekosystem",
-      caption: "Smart hem & livsstil",
-      value: "Amazon Kindle",
-    },
+      "label": "Svenskt bibliotek",
+      "caption": "Kontroll krävs",
+      "value": "Kontrollera bibliotekets tjänst och en konkret titel."
+    }
   ],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4vdp6NA",
-    ratingSummary: "Amazon visar 4.6 av 5 (16 126).",
-    ratingCheckedAt: "juli 2026",
-    highlights: [
-      "Kindle Paperwhite 16 GB är valt för e-ink och 16 gb.",
-      "Elin väger in köparnas omdömen, specifikationerna och de dokumenterade förbehållen innan poängen sätts.",
-    ],
-    cautions: [
-      "Kindle är starkast om du trivs i Amazons bokvärld. Välj Kobo om öppenhet och bibliotekslån väger tyngre.",
-    ],
+    "sourceLabel": "Kundomdömen ej verifierade",
+    "sourceUrl": "https://amzn.to/4vdp6NA",
+    "ratingSummary": "Aktuella Amazon-omdömen har inte verifierats.",
+    "highlights": [],
+    "cautions": []
   },
   ugcVideos: [],
-  uses: [
-    "En e-läsare för dig som vill ha fokuserad läsning, lång batteritid och Amazons ekosystem.",
-    "Passar dig som söker smart hem & livsstil med tydlig kompromiss innan köp.",
-  ],
-  peopleLike: [
-    "E-ink, 16 GB, Amazon",
-    "Tydligare val när du jämför mot alternativen i samma guide.",
-  ],
-  honestCheck: [
-    "Kindle är starkast om du trivs i Amazons bokvärld. Välj Kobo om öppenhet och bibliotekslån väger tyngre.",
-    "Kontrollera alltid aktuell säljare, lagerstatus och produktvariant på Amazon före köp.",
-  ],
+  uses: [],
+  peopleLike: [],
+  honestCheck: [],
   comments: [],
 };
 

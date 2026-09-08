@@ -1,5 +1,6 @@
 import { ceraveEllerCetaphilDecision } from "@/lib/cerave-eller-cetaphil";
 import type { DecisionRecord } from "@/lib/decision-record";
+import { ereaderDecision } from "@/lib/ereader-decision";
 
 export type ProductDecision = DecisionRecord & {
   category: { label: string; href: string };
@@ -7,6 +8,13 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const readerOption = ereaderDecision.options.find((item) => item.productSlug === slug);
+  if (readerOption) return {
+    ...ereaderDecision,
+    options: [readerOption],
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Jämför Kindle och Kobo", href: "/halsa/kindle-eller-kobo" },
+  };
   const option = ceraveEllerCetaphilDecision.options.find((item) => item.productSlug === slug);
   if (!option) return undefined;
   return {

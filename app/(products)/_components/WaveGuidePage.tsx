@@ -1,3 +1,6 @@
+import { DecisionCard } from "@/components/DecisionCard";
+import { getGuideDecision } from "@/lib/ereader-decision";
+import { validateDecisionRecord } from "@/lib/decision-record";
 import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -52,7 +55,7 @@ export function createWaveGuideMetadata(guideId: string) {
     title: guide.metaTitle,
     description: guide.metaDescription,
     url: `${siteConfig.url}${guide.href}`,
-    image: firstProduct
+    image: firstProduct && !getGuideDecision(guideId)
       ? {
           url: `${siteConfig.url}${firstProduct.image}`,
           width: 1200,
@@ -64,6 +67,7 @@ export function createWaveGuideMetadata(guideId: string) {
 }
 
 export function WaveGuidePage({ guideId }: { guideId: string }) {
+  const decision = getGuideDecision(guideId);
   const guide = getWaveGuide(guideId);
 
   if (!guide) {
@@ -77,6 +81,9 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
   if (products.length === 0) {
     throw new Error(`Wave guide "${guideId}" has no products for its Amazon CTA.`);
   }
+
+  if (decision) validateDecisionRecord(decision, products.map((product) => product.slug));
+  const merchantProducts = products.filter((product) => !decision || decision.options.find((option) => option.productSlug === product.slug)?.merchantVariantVerified);
 
   const categoryLabel = categoryLabels[guide.category];
   const categoryHref = categoryHrefs[guide.category];
@@ -114,6 +121,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
       <JsonLd data={faqSchema} />
@@ -158,6 +166,8 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
           </p>
         </section>
 
+        {decision ? <DecisionCard decision={decision} /> : null}
+
         <section className="reveal-fade mt-10 rounded-[2rem] border border-line bg-surface/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <div className="flex items-start gap-4">
             <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-rose/15 text-wine">
@@ -189,7 +199,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
                 className="reveal-fade group overflow-hidden rounded-[2.2rem] border border-line bg-surface/72 shadow-[0_28px_90px_rgba(185,131,166,0.1)] transition hover:-translate-y-1"
                 style={{ "--i": index } as CSSProperties}
               >
-                <div className="relative aspect-[4/3] bg-rose/8">
+                {!decision ? <div className="relative aspect-[4/3] bg-rose/8">
                   <Image
                     src={product.image}
                     alt={product.imageAlt}
@@ -200,7 +210,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
                   <span className="absolute left-5 top-5 rounded-full bg-wine/90 px-4 py-2 text-sm font-black text-bg backdrop-blur">
                     {guide.pickBadges?.[product.slug] ?? product.brand}
                   </span>
-                </div>
+                </div> : null}
                 <div className="p-6">
                   <p className="text-xs font-black uppercase text-rose">
                     {product.brand}
@@ -215,7 +225,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
                     <ScoreBadge score={score} className="mt-5" as="span" />
                   ) : null}
                   <div className="mt-3">
-                    <PriceTierBadge product={product} showContext />
+                    {!decision ? <PriceTierBadge product={product} showContext /> : null}
                   </div>
                   <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-wine px-5 font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition group-hover:bg-wine/90">
                     Läs Elins koll
@@ -227,7 +237,6 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
           })}
         </section>
 
-        <AmazonPurchaseLinks products={products} className="mt-6" />
 
         {guide.rows.length ? (
           <section className="reveal-fade mt-12 overflow-hidden rounded-[2rem] border border-line bg-surface/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
@@ -285,6 +294,8 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
             {guide.verdict}
           </p>
         </section>
+
+        {merchantProducts.length ? <AmazonPurchaseLinks products={merchantProducts} className="mt-6" /> : null}
 
         {guide.faqItems.length ? (
           <section className="reveal-fade mt-12 rounded-[2rem] border border-line bg-surface/70 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">

@@ -1,3 +1,4 @@
+import { getProductDecision } from "@/lib/product-decisions";
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";
@@ -16,7 +17,7 @@ export function createWaveProductMetadata(productSlug: string) {
     title: pick.metaTitle,
     description: pick.metaDescription,
     url: `${siteConfig.url}${pick.href}`,
-    image: {
+    image: getProductDecision(productSlug) ? undefined : {
       url: `${siteConfig.url}${pick.product.image}`,
       width: 900,
       height: 675,

@@ -2478,65 +2478,41 @@ export const waveProductPicks: SommarPick[] = [
     productSlug: "kindle-paperwhite",
     product: productBySlug("kindle-paperwhite"),
     href: "/halsa/kindle-paperwhite",
-    cardBadge: "E-ink",
-    cardHook: "En e-läsare för dig som vill ha fokuserad läsning, lång batteritid och Amazons ekosystem.",
+    cardBadge: "E-böcker",
+    cardHook: "Fungerar dina böcker på den här läsplattan?",
     cardImage: "/products/kindle-paperwhite/kindle-paperwhite-thumbnail.webp",
     cardImageAlt: "Kindle Paperwhite 16 GB",
-    badge: "Elins premiumval",
-    headline: "Kindle Paperwhite 16 GB",
-    shortBody: "12 veckors batteri + vattentät — badkarsläsning. Caveaten: Kindle = Amazons ekosystem: köp från Kindle Store, INTE svenska bibliotekets e-böcker lika smidigt — Kob…",
-    valueHook: "E-ink · 16 GB · Amazon",
-    valueStatement: "Elin lyfter Kindle Paperwhite 16 GB för 12 veckors batteri + vattentät — badkarsläsning. Den viktiga kompromissen är kindle = Amazons ekosystem: köp från Kindle Store, INTE svenska bibliotekets e-böcker lika smidigt — Kobo har bättre stöd för svenska bibliotek (Legimus/O…",
+    badge: "Kontrollera bokformat",
+    headline: "Kindle Paperwhite, 7 tum, 16 GB",
+    shortBody: "Du har böcker för Kindle och föredrar en större skärm. Libbys Kindle-funktion gäller amerikanska bibliotek. Kontrollera tillgången till de svenska böcker du vill läsa.",
+    valueHook: "Välj bok före läsplatta",
+    valueStatement: "Du har böcker för Kindle och föredrar en större skärm. Libbys Kindle-funktion gäller amerikanska bibliotek. Kontrollera tillgången till de svenska böcker du vill läsa. Se källor och modellavgränsning i jämförelsen Kindle eller Kobo.",
     passFor: [
-      "12 veckors batteri + vattentät — badkarsläsning",
-      "#1 Best Seller, 16 000 betyg",
-      "Skärmen alla andra jämförs mot",
-      "7 Paperwhite-skärm, högre kontrast, 25 % snabbare bladvändning",
+      "Du har böcker för Kindle och föredrar en större skärm."
     ],
-    caution: "Kindle = Amazons ekosystem: köp från Kindle Store, INTE svenska bibliotekets e-böcker lika smidigt — Kobo har bättre stöd för svenska bibliotek (Legimus/OverDrive-vägar) och öppna EPUB. Kindle vinner på: skärm/fart, ekosystemets utbud, integration. Ingen strömadapter i lådan.",
+    caution: "Libbys Kindle-funktion gäller amerikanska bibliotek. Kontrollera tillgången till de svenska böcker du vill läsa.",
     usageGuidance: {
-      title: "Före köp av Kindle Paperwhite 16 GB",
-      text: "Kontrollera först: kindle = Amazons ekosystem: köp från Kindle Store, INTE svenska bibliotekets e-böcker lika smidigt — Kobo har bättre stöd för svenska bibliotek (Legimus/O… Välj den främst om styrkan — 12 veckors batteri + vattentät — badkarsläsning — är viktigare för dig.",
+      "title": "Kontrollera en bok före köp",
+      "text": "Libbys Kindle-funktion gäller amerikanska bibliotek. Kontrollera tillgången till de svenska böcker du vill läsa."
     },
-    verdict: "Bästa valet för Amazon-läsaren, men inte mest öppet.",
-    amazonSummary: "Amazon visar 4.6 av 5 (16 126 betyg).",
-    amazonQuotes: [
-      {
-        text: "haft flera generationer — fortsätter köpa.",
-        attribution: "— Mai, 5★ (apr 2026)",
-      },
-      {
-        text: "Så smidig att läsa med. Nu behövs inte fysiska bokhyllor.",
-        attribution: "— Mats, 5★ (feb 2026)",
-      },
-      {
-        text: "skärmen mycket bättre än 11: e gen.",
-        attribution: "— Mosse, 5★ (juni 2026)",
-      },
-      {
-        text: "läser snabbt, bra pris vid kampanj.",
-        attribution: "— Mia, 5★ (mars 2026)",
-      },
-    ],
+    verdict: "Behåll din nuvarande läsplatta om den redan fungerar med böckerna du vill läsa.",
+    amazonSummary: "Aktuellt betyg och antal köparomdömen är inte verifierade för rätt variant.",
+    amazonQuotes: [],
     faqItems: [
       {
-        question: "Är Kindle Paperwhite 16 GB värd att köpa?",
-        answer: "Kindle Paperwhite 16 GB passar bäst när 12 veckors batteri + vattentät — badkarsläsning. Den passar sämre om caveaten träffar din vardag: kindle = Amazons ekosystem: köp från Kindle Store, INTE svenska bibliotekets e-böcker lika smidigt — Kobo har bättre stöd för svenska bibliotek (Legimus/O…",
+        "question": "Har ni testat läsplattan?",
+        "answer": "Nej. Underlaget är officiella produkt- och hjälpsidor. Vi har inte mätt batteritid eller genomfört bibliotekslån."
       },
       {
-        question: "Varför visar ni inget pris?",
-        answer: "Priset behöver kontrolleras live hos Amazon, men värdet ligger främst i #1 Best Seller, 16 000 betyg. För Kindle Paperwhite 16 GB är det klokt att jämföra alternativen om kompromissen ovan känns viktigare än styrkan.",
-      },
-      {
-        question: "Har Elin testat produkten själv?",
-        answer: "Nej. Elin jämför specifikationer, riktiga köparomdömen och dokumenterade nackdelar — och säger det öppet när en produkt inte passar.",
-      },
+        "question": "Vad ska jag kontrollera före köp?",
+        "answer": "Libbys Kindle-funktion gäller amerikanska bibliotek. Kontrollera tillgången till de svenska böcker du vill läsa."
+      }
     ],
     reviewSectionId: "kindle-paperwhite-recensioner",
     reviewFormId: "kindle-paperwhite-skriv-recension",
     targetKeyword: "kindle paperwhite 16 gb",
-    metaTitle: "Kindle Paperwhite 16 GB test 2026 | Elins val",
-    metaDescription: "Kindle Paperwhite 16 GB – värd pengarna? Elin jämför köparnas omdömen och ger sin ärliga dom, utan hype. (Annons)",
+    metaTitle: "Kindle Paperwhite, 7 tum, 16 GB – passar den dina böcker? | Elins val",
+    metaDescription: "Du har böcker för Kindle och föredrar en större skärm. Libbys Kindle-funktion gäller amerikanska bibliotek. Kontrollera tillgången till de svenska böcker du vill läsa.",
     relatedLinks: [
       {
         href: "/halsa",
@@ -6377,75 +6353,77 @@ export const waveGuides: WaveGuide[] = [
     metaDescription: "Julklapp till honom: Elins presenttips – grooming och smarta vardagsuppgraderingar i tre prisnivåer. (Annons)",
   },
   {
-    id: "kindle-eller-kobo",
-    href: "/halsa/kindle-eller-kobo",
-    category: "halsa",
-    label: "Jämförelse",
-    title: "Kindle eller Kobo?",
-    intro: "Amazon-ekosystem mot mer öppen läslogik.",
-    badges: [
-      "E-läsare",
-      "Kindle",
-      "Kobo",
+    "id": "kindle-eller-kobo",
+    "href": "/halsa/kindle-eller-kobo",
+    "category": "halsa",
+    "label": "Jämförelse",
+    "title": "Kindle eller Kobo – var finns dina böcker?",
+    "intro": "Börja med böckerna och ditt bibliotek. Här jämför vi Paperwhite med 7-tumsskärm och 16 GB mot Kobo Clara BW, inte alla modeller från de två märkena.",
+    "badges": [
+      "E-böcker",
+      "Bibliotekskontroll",
+      "Inget eget test"
     ],
-    productSlugs: [
+    "productSlugs": [
       "kindle-paperwhite",
-      "kobo-clara-bw",
+      "kobo-clara-bw"
     ],
-    pickBadges: {
-      "kindle-paperwhite": "E-ink",
-      "kobo-clara-bw": "Elins val",
+    "pickBadges": {
+      "kindle-paperwhite": "Paperwhite 7 tum",
+      "kobo-clara-bw": "Clara BW"
     },
-    choiceTitle: "Ekosystem först",
-    choiceText: "Välj Kindle om du köper och läser i Amazons värld. Välj Kobo om öppenhet och biblioteksvänlighet väger tyngre.",
-    rows: [
+    "choiceTitle": "Kontrollera en bok innan du köper",
+    "choiceText": "Välj en titel du faktiskt vill läsa. Kontrollera format, konto och bibliotekets utlåningsväg för just den läsplattan. Jämför sedan skärmstorlek och totalkostnad.",
+    "rows": [
       {
-        label: "Ekosystem",
-        values: [
-          "Amazon",
-          "Mer öppet",
-        ],
+        "label": "Modell i jämförelsen",
+        "values": [
+          "Paperwhite, 7 tum, 16 GB",
+          "Clara BW, 6 tum, 16 GB"
+        ]
       },
       {
-        label: "Styrka",
-        values: [
-          "Paperwhite-känsla",
-          "Biblioteksvänligare",
-        ],
+        "label": "Libby/OverDrive",
+        "values": [
+          "Kindle-utlåning gäller amerikanska bibliotek",
+          "Kobo listar stöd i Sverige; biblioteket måste erbjuda tjänsten"
+        ]
       },
       {
-        label: "Caveat",
-        values: [
-          "Låser mer",
-          "Inte Amazon-first",
-        ],
+        "label": "Biblio",
+        "values": [
+          "Ingen verifierad låneväg i denna granskning",
+          "Kontrollera bibliotekets export och överföring via dator"
+        ]
       },
+      {
+        "label": "Butikslänk matchad?",
+        "values": [
+          "Nej",
+          "Nej"
+        ]
+      }
     ],
-    verdict: "Kindle är starkast för Amazon-läsare, Kobo för den som vill hålla vägarna öppna.",
-    faqItems: [
+    "verdict": "En fungerande väg till dina böcker väger tyngre än ett allmänt bäst-betyg. Behåll din nuvarande läsplatta om den redan löser uppgiften.",
+    "faqItems": [
       {
-        question: "Kindle eller Kobo?",
-        answer: "Välj Kindle om du köper och läser i Amazons värld. Välj Kobo om öppenhet och biblioteksvänlighet väger tyngre.",
+        "question": "Fungerar Kobo med alla svenska bibliotek?",
+        "answer": "Nej, det kan inte förutsättas. Kontrollera om biblioteket erbjuder OverDrive eller möjliggör export av en kompatibel e-bok. Biblio anger att exportfunktionen måste vara aktiverad av biblioteket."
       },
       {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
+        "question": "Kan jag skicka svenska Libby-lån till Kindle?",
+        "answer": "Libby anger att Kindle Books gäller amerikanska bibliotek. Köp inte en Kindle med antagandet att samma väg fungerar för ett svenskt bibliotek."
+      }
     ],
-    relatedLinks: [
+    "relatedLinks": [
       {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
+        "href": "/halsa",
+        "label": "Hälsa & vardag",
+        "text": "Fler jämförelser för vardagen."
+      }
     ],
-    metaTitle: "Kindle eller Kobo? | Elins val",
-    metaDescription: "Kindle eller Kobo?: Amazon-ekosystem mot mer öppen läslogik. (Annons)",
+    "metaTitle": "Kindle eller Kobo – böcker och svenska bibliotek | Elins val",
+    "metaDescription": "Paperwhite eller Clara BW? Kontrollera bibliotek, bokformat och modell innan köp. Skillnader, begränsningar och när din nuvarande läsplatta räcker."
   },
   {
     id: "doftljus-eller-aromadiffuser",

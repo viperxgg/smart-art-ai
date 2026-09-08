@@ -2489,12 +2489,15 @@ export const lorealElvitalVarmeskyddProduct: Product = {
 
 export const koboClaraBwProduct: Product = {
   slug: "kobo-clara-bw",
-  title: 'Kobo Clara BW - e-boksläsare (6", 16 GB)',
+  title: "Kobo Clara BW, 6 tum, 16 GB",
   category: "halsa",
   asin: "B0CZXYV8GT",
   brand: "Kobo",
   price: "Se aktuellt pris på Amazon",
-  badges: ["Smart sommarro", "Skärmfri läsning", "Vattentät IPX8"],
+  badges: [
+    "E-böcker",
+    "Kontrollera bokformat"
+  ],
   image: "/products/kobo-clara-bw/kobo-clara-bw-thumbnail.webp",
   imageAlt: "Kobo Clara BW e-boksläsare i en svensk sommarträdgård",
   images: [
@@ -2511,37 +2514,38 @@ export const koboClaraBwProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4wifpyr",
   pageHref: "/halsa/kobo-clara-bw",
-  summary:
-    "En kompakt e-boksläsare med matt, antireflex E Ink-skärm och justerbart ComfortLight Pro - för skärmfri läsro i solstolen hela sommaren.",
+  summary: "Svartvit 6-tums läsplatta med 16 GB. Kontrollera att dina böcker och bibliotekets tjänst fungerar med modellen före köp.",
   evaluation: {
-    headline: "Smart sommarro - läsglädje utan skärmstress",
-    intro:
-      "Elin går igenom Amazon-signaler, innehåll och funktioner för en e-boksläsare som passar lata sommardagar och midsommarledigheten.",
-    verdict:
-      "Sommarens avkopplingsval - en matt, antireflex skärm som syns i solen och tusentals böcker i fickformat.",
-    checks: [],
+    "headline": "Fungerar dina böcker på Clara BW?",
+    "intro": "Produktfakta från Kobo och villkor från bibliotekstjänsternas hjälpsidor. Vi har inte provläst eller genomfört bibliotekslån på enheten.",
+    "verdict": "Välj först en bok och kontrollera hur den kan överföras. Behåll din nuvarande läsplatta om den redan fungerar.",
+    "checks": []
   },
   specSectionEyebrow: "E-boksläsare",
   specSectionTitle: "Kobo Clara BW",
   specs: [
-    { label: "Skärm", caption: "Display", value: '6" E Ink Carta 1300, antireflex' },
-    { label: "Lagring", caption: "Minne", value: "16 GB" },
-    { label: "Tålighet", caption: "Vattentät", value: "IPX8" },
+    {
+      "label": "Modell",
+      "caption": "Kobo",
+      "value": "Clara BW, inte Colour eller HD"
+    },
+    {
+      "label": "Skärm",
+      "caption": "Tillverkaruppgift",
+      "value": "6 tum, svartvit E Ink Carta 1300"
+    },
+    {
+      "label": "Lagring",
+      "caption": "Tillverkaruppgift",
+      "value": "16 GB"
+    }
   ],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4wifpyr",
-    ratingSummary:
-      "Amazon visar 4,6 av 5 från 2 534 omdömen och topp-3 bland e-boksläsare.",
-    highlights: [
-      "Köpare lyfter den skarpa, papperslika svartvita skärmen.",
-      "Många beskriver läsningen som behaglig och papperslik.",
-      "Lätt och kompakt - enkel att hålla i en hand.",
-    ],
-    cautions: [
-      "Kräver ett (gratis) Kobo-konto för att komma igång.",
-      "Svartvit skärm - gjord för text, inte serier i färg.",
-    ],
+    "sourceLabel": "Köparomdömen ej verifierade",
+    "sourceUrl": "https://amzn.to/4wifpyr",
+    "ratingSummary": "Aktuellt betyg och antal omdömen har inte verifierats för rätt variant.",
+    "highlights": [],
+    "cautions": []
   },
   ugcVideos: [],
   uses: [],
