@@ -1,3 +1,4 @@
+import { peelingDecision } from "@/lib/bha-eller-aha-bha-peeling";
 import { acidSerumTonerDecision } from "@/lib/azelainsyra-eller-aha-bha";
 import { centellaPropolisDecision } from "@/lib/centella-eller-propolis";
 import { hydrationSerumDecision } from "@/lib/snigelslem-eller-hyaluronsyra";
@@ -36,6 +37,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const peelingOption = peelingDecision.options.find(item => item.productSlug === slug);
+  if (peelingOption) return {
+    ...peelingDecision, options: [peelingOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Lämna kvar eller skölja av?", href: "/skonhet/bha-eller-aha-bha-peeling" },
+  };
   const acidOption = acidSerumTonerDecision.options.find(item => item.productSlug === slug);
   if (acidOption) return {
     ...acidSerumTonerDecision, options: [acidOption],

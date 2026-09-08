@@ -270,9 +270,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/bha-eller-aha-bha-peeling",
-    description: "Porrengörande salicylsyra för oljig hud mot en allround AHA/BHA-peeling för glow.",
+    description: "Lämna kvar eller skölja av? Jämför instruktioner, begränsningar och behov innan du väljer Paula’s Choice eller The Purest Solutions.",
     productSlugs: ["paulas-choice-2-bha","purest-aha-bha-peeling"],
-    badges: ["Exfoliering","Porer vs allround","Hudvård"],
+    badges: ["Lämna kvar eller skölja","Läs instruktionen","Behövs ett extra steg?"],
   },
   {
     slug: "bakuchiol-eller-niacinamid",
