@@ -128,9 +128,9 @@ const guides = [
   },
   {
     href: "/guider/foam-roller-dyr-vs-billig",
-    title: "Foam roller: dyr vs billig – värt skillnaden?",
+    title: "Dyrare foam roller – vad saknar du i den du har?",
     description:
-      "Elin jämför dyra och billiga foam rollers ärligt – vad du betalar extra för och när en enkel rulle räcker.",
+      "Utgå från mått, hårdhet och vilka delar du använder. Inget jämförande test visar att dyrare ger bättre resultat.",
   },
 ];
 

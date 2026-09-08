@@ -74,7 +74,7 @@ export const foamRollerPicks: FoamRollerPick[] = [
       "En fokuserad, medium-hård foam roller för dig som vill ha en enkel rulle för rygg, säte och återhämtning utan att köpa ett helt set.",
     valueHook: "En bra rulle räcker långt.",
     valueStatement:
-      "BODYMATE CARE är Elins val när du vill ha en gedigen och prisvärd foam roller utan extra smådelar. EPP-skummet är fast, rullen är plastfri och centrumrännan avlastar ryggraden när du rullar längs ryggen. Det gör den särskilt intressant om du vill ha ett tydligt, enkelt verktyg som inte tar över hemmet.",
+      "BODYMATE CARE mittel-hart är enligt tillverkaren en separat rulle i EPP, expanderad polypropen, med måtten 35 × 14 cm. Den är inte plastfri. Rännan är dokumenterad som form, inte som ett verifierat skydd mot skada eller bevis för smärtlindring.",
     passFor: [
       "Vill ha en enda bra rulle, inte ett helt massagekit.",
       "Prioriterar rygg, säte och större muskelgrupper.",

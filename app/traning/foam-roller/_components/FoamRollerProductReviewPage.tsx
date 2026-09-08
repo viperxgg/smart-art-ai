@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { ProductDecisionPage } from "@/components/ProductDecisionPage";
+import { getProductDecision } from "@/lib/product-decisions";
 import { ArrowLeft, Dumbbell, TriangleAlert } from "lucide-react";
 
 import { AmazonCta } from "@/components/AmazonCta";
@@ -45,6 +47,8 @@ export async function FoamRollerProductReviewPage({
   otherPick,
 }: FoamRollerProductReviewPageProps) {
   const approvedReviews = await getApprovedReviews(pick.product.slug);
+  const decision = getProductDecision(pick.product.slug);
+  if (decision) return <ProductDecisionPage pick={{ ...pick, href: pick.path }} decision={decision} reviews={approvedReviews} />;
   const editorialScore = getEditorialScore(pick.product.slug);
   const breadcrumbItems = [
     { name: "Hem", href: "/" },

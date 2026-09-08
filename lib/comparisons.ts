@@ -865,18 +865,18 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "foam-roller",
-    title: "BODYMATE CARE vs Elvire Deep Tissue foam roller",
+    title: "Foam roller – räcker en separat rulle?",
     shortTitle: "Foam roller",
     category: "traning",
     categoryLabel: "Träning",
     href: "/traning/foam-roller",
     description:
-      "En enkel slät rulle med ryggränna mot ett komplett texturerat återhämtningsset.",
+      "Kontrollera CARE:s hårdhet, mått och material. Elvire-setets variant är inte verifierad; ingen setvinnare utses.",
     productSlugs: [
       "bodymate-foam-roller-care",
       "elvire-deep-tissue-massageset",
     ],
-    badges: ["Mest värde", "Komplett set", "Deep-tissue"],
+    badges: ["Mått och material", "Variantkontroll"],
   },
   {
     slug: "massagepistol",
@@ -1063,9 +1063,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     categoryLabel: "Träning",
     href: "/traning/foam-roller-eller-massagepistol",
     description:
-      "Enkel återhämtning för stora muskelgrupper mot riktad vibration på enskilda punkter.",
+      "Jämför BODYMATE CARE:s format med MG 99:s reglage och begränsningar. Inget jämförande behandlingstest har gjorts.",
     productSlugs: ["bodymate-foam-roller-care", "beurer-mg-99-massagepistol"],
-    badges: ["Återhämtning", "Billigast", "Riktad"],
+    badges: ["Modellkontroll", "Användningsgränser"],
   },
   {
     slug: "mini-projektor-eller-stjarnprojektor",

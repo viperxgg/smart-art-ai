@@ -14,15 +14,9 @@ export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
+      title: "BODYMATE CARE – mått, material och rätt hårdhet | Elins val",
+      description: "Se skillnaden mellan CARE-varianter, EPP-materialet och vad vi inte har testat innan du väljer rulle.",
       url: pageUrl,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 1200,
-        height: 900,
-        alt: pick.product.imageAlt,
-      },
     })
   : {};
 
