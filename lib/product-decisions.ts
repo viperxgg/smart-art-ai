@@ -1,3 +1,4 @@
+import { makeupToolDecision } from "@/lib/sminksvamp-eller-sminkborste";
 import { clawClipDecision, hairTowelDecision } from "@/lib/kitsch-accessory-decisions";
 import { handCreamDecision, bodyScrubDecision } from "@/lib/hand-body-decisions";
 import { lipCareDecision } from "@/lib/lappmask-eller-lappolja";
@@ -41,6 +42,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const makeupToolOption = makeupToolDecision.options.find(item => item.productSlug === slug);
+  if (makeupToolOption) return {
+    ...makeupToolDecision, options: [makeupToolOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vilka verktyg saknar du?", href: "/skonhet/sminksvamp-eller-sminkborste" },
+  };
   if (slug === clawClipDecision.options[0].productSlug) return {
     ...clawClipDecision,
     category: { label: "Skönhet", href: "/skonhet" },

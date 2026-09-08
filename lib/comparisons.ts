@@ -600,9 +600,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/sminksvamp-eller-sminkborste",
-    description: "Naturlig, hudlik finish med svamp mot snabb, jämn täckning med borste.",
+    description: "Behöver du extra svampar eller flera borstar? Everyday Essentials innehåller redan en svamp. Jämför delarna, skötseln och det du saknar.",
     productSlugs: ["real-techniques-svamp","real-techniques-borstar"],
-    badges: ["Foundation","Naturlig vs täckande","Makeup"],
+    badges: ["Svamp ingår i setet","Kontrollera delarna","Skötsel före fler köp"],
   },
   {
     slug: "foot-peel-eller-elektrisk-fotfil",
