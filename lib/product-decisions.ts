@@ -1,3 +1,4 @@
+import { straightOrCurlDecision } from "@/lib/platta-eller-locka";
 import { manualOrAutoCurlingDecision } from "@/lib/manual-or-auto-curling";
 import { curlingMethodDecision } from "@/lib/heatless-lockar-eller-locktang";
 import { nightHairDecision } from "@/lib/satinmossa-eller-sidenorngott";
@@ -47,6 +48,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "remington-s8540-plattang") return {
+    ...straightOrCurlDecision, options: [straightOrCurlDecision.options[0]],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Platta eller locka?", href: "/skonhet/platta-eller-locka" },
+  };
   if (slug === "tymo-curlpro-locktang") return {
     ...manualOrAutoCurlingDecision, options: [manualOrAutoCurlingDecision.options[1]],
     category: { label: "Skönhet", href: "/skonhet" },

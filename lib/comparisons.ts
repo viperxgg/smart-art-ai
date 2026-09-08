@@ -955,15 +955,15 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "platta-eller-locka",
-    title: "Platta eller locka?",
+    title: "Platta eller locka – vilken funktion saknas i din rutin?",
     shortTitle: "Platta eller locka?",
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/platta-eller-locka",
     description:
-      "Slätt, polerat och mjuka vågor mot definierade klassiska lockar.",
+      "Jämför uträtning och manuell inrullning utifrån rätt modell och den funktion du saknar.",
     productSlugs: ["remington-s8540-plattang", "babyliss-c325e-locktang"],
-    badges: ["Rakt & vågor", "Definierade lockar", "Mångsidig"],
+    badges: ["Uträtning", "Inrullning", "Kontrollera modellen"],
   },
   {
     slug: "varmluftsborste-eller-fon",

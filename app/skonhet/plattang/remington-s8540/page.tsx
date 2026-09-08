@@ -1,3 +1,4 @@
+import { straightOrCurlDecision } from "@/lib/platta-eller-locka";
 import { PlattangProductReviewPage } from "@/app/skonhet/plattang/_components/PlattangProductReviewPage";
 import { plattangPicks } from "@/lib/plattang";
 import { createSeoMetadata } from "@/lib/metadata";
@@ -10,15 +11,9 @@ const pageUrl = `${siteConfig.url}/skonhet/plattang/remington-s8540`;
 export const revalidate = 3600;
 
 export const metadata = createSeoMetadata({
-  title: pick.metaTitle,
-  description: pick.metaDescription,
+  title: "Passar Remington S8540 Keratin Protect dig?",
+  description: straightOrCurlDecision.options[0].chooseIf,
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${pick.product.image}`,
-    width: 1200,
-    height: 900,
-    alt: pick.product.imageAlt,
-  },
 });
 
 export default function RemingtonS8540Page() {
