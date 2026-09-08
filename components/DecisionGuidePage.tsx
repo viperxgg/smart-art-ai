@@ -28,12 +28,14 @@ export function DecisionGuidePage({ guide }: { guide: DecisionGuide }) {
       <JsonLd data={buildBreadcrumbSchema(breadcrumbs)} />
       <div className="mx-auto max-w-5xl">
         <Breadcrumbs items={breadcrumbs} />
-        <header className="mt-8 max-w-3xl">
-          <h1 className="font-display text-3xl font-bold leading-tight sm:text-5xl">{guide.title}</h1>
-          <p className="mt-5 text-lg leading-relaxed text-ink-soft">{guide.intro}</p>
-          <EditorialMeta path={guide.path} hideDate className="mt-5" />
+        <header className="mt-5 max-w-3xl">
+          <h1 className="font-display text-3xl font-bold leading-tight sm:text-4xl">{guide.title}</h1>
+          <p className="mt-4 text-base leading-relaxed text-ink-soft">{guide.intro}</p>
+          <p className="mt-3 text-xs leading-relaxed text-ink-soft">Annons: Elins val kan få ersättning via affiliatelänkar. <Link href="/om-oss#sa-tjanar-vi-pengar" className="underline">Så tjänar vi pengar</Link>.</p>
+          <a href="#decision-title" className="mt-3 inline-flex min-h-11 items-center rounded-full border border-line px-4 font-semibold text-wine underline underline-offset-4">Gå till beslutshjälpen</a>
         </header>
         <DecisionCard decision={guide.decision} />
+        <EditorialMeta path={guide.path} hideDate hideDisclosure className="mt-5" />
         <section className="mt-10" aria-labelledby="guide-questions">
           <h2 id="guide-questions" className="font-display text-2xl font-bold">Frågor före köp</h2>
           {guide.questions.map((item) => (

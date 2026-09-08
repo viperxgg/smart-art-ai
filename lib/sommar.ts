@@ -7249,64 +7249,53 @@ export const smartSommarPicks: SommarPick[] = [
     productSlug: proBreezeDehumidifierProduct.slug,
     product: proBreezeDehumidifierProduct,
     href: "/halsa/luftavfuktare",
-    cardBadge: "Torrare luft",
-    cardHook: "Drar ur fukt för en fräschare känsla i fuktiga rum.",
+    cardBadge: "Modellkontroll",
+    cardHook: "Katalogens ASIN B0F13YQHWJ kunde inte läsas. Pro Breeze listar flera 20-litersmodeller; beteckningen 20 l/dygn räcker inte för att fastställa exakt version, kapacitet i ditt rum eller tankstorlek.",
     cardImage: "/products/pro-breeze-dehumidifier/dehumid-thumbnail.webp",
     cardImageAlt: "Pro Breeze luftavfuktare 20 l/dygn",
-    badge: "Elins klimat-val",
-    headline: "Pro Breeze luftavfuktare – torrare och fräschare luft",
-    shortBody: "En luftavfuktare med kapacitet på upp till 20 liter per dygn. Gjord för fuktiga rum som tvättstuga, källare och sovrum, med auto-avstängning när tanken blir full.",
-    valueHook: "Drar ur fukt för en torrare inomhusluft",
-    valueStatement: "Pro Breeze luftavfuktare är till för dig som har fuktiga rum där luften känns rå och tung. Den drar ur fukt ur luften med en kapacitet på upp till 20 liter per dygn, vilket hjälper till att hålla luftfuktigheten på en behagligare nivå i tvättstuga, källare och sovrum. Amazon visar 4,3 av 5 från 285 omdömen, och köpare lyfter framför allt den torrare och fräschare luften och den praktiska auto-avstängningen.",
+    badge: "Ofullständigt källunderlag",
+    headline: "Pro Breeze luftavfuktare",
+    shortBody: "Katalogens ASIN B0F13YQHWJ kunde inte läsas. Pro Breeze listar flera 20-litersmodeller; beteckningen 20 l/dygn räcker inte för att fastställa exakt version, kapacitet i ditt rum eller tankstorlek.",
+    valueHook: "Behov före köp",
+    valueStatement: "du har ett dokumenterat behov av avfuktning och kan matcha rätt modell, manual och kapacitet vid rummets temperatur och fuktighet. Underlaget räcker ännu inte för att rekommendera just denna listning.",
     passFor: [
-      "Har ett fuktigt rum där luften känns rå och tung.",
-      "Vill ha en torrare och fräschare känsla i tvättstuga eller källare.",
-      "Uppskattar auto-avstängning så du slipper hålla koll hela tiden.",
-    ],
-    caution: "En luftavfuktare låter en del när den jobbar, så tänk på placeringen om du vill ha den i sovrummet. I riktigt fuktiga rum behöver tanken tömmas ganska ofta.",
+  "du har ett dokumenterat behov av avfuktning och kan matcha rätt modell, manual och kapacitet vid rummets temperatur och fuktighet. Underlaget räcker ännu inte för att rekommendera just denna listning."
+],
+    caution: "du vill lösa oklar instängd luft, en läcka eller en misstänkt fuktskada enbart genom att köpa en apparat. Orsaken behöver undersökas; vi har inte verifierat modellens ljud eller lämplighet för sovrum eller våtrum.",
     usageGuidance: {
-      title: "Så använder du den rätt",
-      text: "Placera avfuktaren centralt i rummet med fritt utrymme runt luftintaget, och stäng dörren så att den jobbar med rätt luftvolym. Töm tanken regelbundet för jämn effekt.",
-    },
-    verdict: "Stadig luftavfuktare för fuktiga rum när du vill ha en torrare och fräschare inomhusluft.",
-    amazonSummary: "Amazon visar 4,3 av 5 från 285 omdömen. Köpare beskriver en torrare och fräschare luft i fuktiga rum, men avfuktare låter en del och tanken behöver tömmas regelbundet.",
+  "title": "Kontrollera före användning",
+  "text": "Matcha rätt modell och följ dess manual för placering, tömning och drift. Vi har inte verifierat dessa funktioner för kataloglistningen."
+},
+    verdict: "du vill lösa oklar instängd luft, en läcka eller en misstänkt fuktskada enbart genom att köpa en apparat. Orsaken behöver undersökas; vi har inte verifierat modellens ljud eller lämplighet för sovrum eller våtrum.",
+    amazonSummary: "Inga kundomdömen används som bevis för kapacitet eller ljudnivå.",
     amazonQuotes: [],
     faqItems: [
-      {
-        question: "Vilka rum passar Pro Breeze luftavfuktare bäst i?",
-        answer: "Den är tänkt för fuktiga rum som tvättstuga, källare, badrum och sovrum där luften känns rå. Stäng gärna dörren så att den jobbar med rätt luftvolym.",
-      },
-      {
-        question: "Hur ofta behöver jag tömma tanken?",
-        answer: "Det beror på hur fuktigt rummet är. I riktigt fuktiga rum kan tanken bli full ganska snabbt, och då stänger avfuktaren av sig automatiskt tills du tömt den.",
-      },
-      {
-        question: "Är luftavfuktaren tyst nog för sovrummet?",
-        answer: "Den låter en del när den jobbar, ungefär som en fläkt. Det går bra i sovrummet om du inte är ljudkänslig – ställ den gärna en bit från sängen.",
-      },
-    ],
+  {
+    "question": "Vilken version gäller underlaget?",
+    "answer": "Katalogens ASIN B0F13YQHWJ kunde inte läsas. Pro Breeze listar flera 20-litersmodeller; beteckningen 20 l/dygn räcker inte för att fastställa exakt version, kapacitet i ditt rum eller tankstorlek."
+  },
+  {
+    "question": "Är sovrums- eller våtrumsanvändning verifierad?",
+    "answer": "Nej. Exakt modell, manual och tillåten placering behöver kontrolleras; vi har inget eget ljudtest."
+  }
+],
     reviewSectionId: "pro-breeze-luftavfuktare-recensioner",
     reviewFormId: "pro-breeze-luftavfuktare-skriv-recension",
     targetKeyword: "luftavfuktare",
-    metaTitle: "Pro Breeze luftavfuktare 20 l/dygn – torrare luft | Elins val",
-    metaDescription: "Elin går igenom Pro Breeze luftavfuktare: drar ur fukt för en torrare och fräschare känsla i fuktiga rum (4,3 av 5, 285 omdömen) – och vad du bör veta om ljud och tömning.",
+    metaTitle: "Pro Breeze luftavfuktare – modellkontroll | Elins val",
+    metaDescription: "Katalogens ASIN B0F13YQHWJ kunde inte läsas. Pro Breeze listar flera 20-litersmodeller; beteckningen 20 l/dygn räcker inte för att fastställa exakt version, kapacitet i ditt rum eller tankstorlek.",
     relatedLinks: [
-      {
-        href: "/halsa/luftrenare",
-        label: "Luftrenare",
-        text: "Renare inomhusluft för allergivänligare rum.",
-      },
-      {
-        href: "/halsa/aromdiffuser",
-        label: "Aromdiffuser",
-        text: "Mild doft och en lugnare stämning hemma.",
-      },
-      {
-        href: "/halsa/solnedgangslampa",
-        label: "Solnedgångslampa",
-        text: "Varmt ljus för en mjukare kvällsstund.",
-      },
-    ],
+  {
+    "href": "/halsa/luftavfuktare-eller-luftrenare",
+    "label": "Jämförelse",
+    "text": "Minska fukt eller filtrera partiklar?"
+  },
+  {
+    "href": "/halsa/luftavfuktare-eller-luftfuktare",
+    "label": "Jämförelse",
+    "text": "Mindre eller mer fukt?"
+  }
+],
   },
   {
     productSlug: levoitCore200sProduct.slug,

@@ -10464,16 +10464,12 @@ export const fitgriffStrapsProduct: Product = {
 
 export const proBreezeDehumidifierProduct: Product = {
   slug: "pro-breeze-luftavfuktare",
-  title: "Pro Breeze luftavfuktare 20 l/dygn",
+  title: "Pro Breeze luftavfuktare",
   category: "halsa",
   asin: "B0F13YQHWJ",
   brand: "Pro Breeze",
   price: "Se aktuellt pris på Amazon",
-  badges: [
-    "Upp till 20 l/dygn",
-    "För fuktiga rum",
-    "Auto-avstängning",
-  ],
+  badges: [],
   image: "/products/pro-breeze-dehumidifier/dehumid-thumbnail.webp",
   imageAlt: "Pro Breeze luftavfuktare 20 l/dygn",
   images: [
@@ -10500,46 +10496,31 @@ export const proBreezeDehumidifierProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4v1XR8B",
   pageHref: "/halsa/luftavfuktare",
-  summary: "En luftavfuktare som drar ur fukt ur luften för en torrare och fräschare känsla i fuktiga rum som tvättstuga, källare och sovrum. Tar upp till 20 liter per dygn och stänger av sig automatiskt när tanken är full.",
+  summary: "Katalogens ASIN B0F13YQHWJ kunde inte läsas. Pro Breeze listar flera 20-litersmodeller; beteckningen 20 l/dygn räcker inte för att fastställa exakt version, kapacitet i ditt rum eller tankstorlek.",
   evaluation: {
-    headline: "Drar ur fukt för en torrare inomhusluft",
-    intro: "Elin går igenom Pro Breeze luftavfuktare med en kapacitet på upp till 20 liter per dygn. Den är tänkt för fuktiga rum där luften känns rå, som tvättstuga, källare och badrum, och hjälper till att hålla luftfuktigheten på en behagligare nivå för en fräschare inomhuskänsla.",
-    verdict: "Stadig luftavfuktare för fuktiga rum när du vill ha en torrare och fräschare inomhusluft.",
-    checks: [],
-  },
+  "headline": "Kontrollera behov och modell",
+  "intro": "du har ett dokumenterat behov av avfuktning och kan matcha rätt modell, manual och kapacitet vid rummets temperatur och fuktighet. Underlaget räcker ännu inte för att rekommendera just denna listning.",
+  "verdict": "du vill lösa oklar instängd luft, en läcka eller en misstänkt fuktskada enbart genom att köpa en apparat. Orsaken behöver undersökas; vi har inte verifierat modellens ljud eller lämplighet för sovrum eller våtrum.",
+  "checks": []
+},
   specSectionEyebrow: "Klimat",
-  specSectionTitle: "Pro Breeze luftavfuktare 20 l/dygn",
+  specSectionTitle: "Pro Breeze luftavfuktare",
   specs: [
-    {
-      label: "Kapacitet",
-      caption: "Avfuktning",
-      value: "Upp till 20 l/dygn",
-    },
-    {
-      label: "Användning",
-      caption: "Rum",
-      value: "Tvättstuga, källare, sovrum",
-    },
-    {
-      label: "Funktion",
-      caption: "Säkerhet",
-      value: "Auto-avstängning vid full tank",
-    },
-  ],
+  {
+    "label": "Variant",
+    "caption": "Underlag",
+    "value": "Katalogens ASIN B0F13YQHWJ kunde inte läsas. Pro Breeze listar flera 20-litersmodeller; beteckningen 20 l/dygn räcker inte för att fastställa exakt version, kapacitet i ditt rum eller tankstorlek."
+  }
+],
   amazonReviewSignal: {
-    sourceLabel: "Amazon-köpare",
-    sourceUrl: "https://amzn.to/4v1XR8B",
-    ratingSummary: "Amazon visar 4,3 av 5 från 285 omdömen.",
-    highlights: [
-      "Köpare upplever en märkbart torrare och fräschare luft i fuktiga rum.",
-      "Auto-avstängningen när tanken är full uppskattas i vardagen.",
-      "Kompakt format som är lätt att flytta mellan rum.",
-    ],
-    cautions: [
-      "Tanken behöver tömmas regelbundet i riktigt fuktiga rum.",
-      "Avfuktare låter en del när de jobbar – tänk på placeringen i sovrum.",
-    ],
-  },
+  "sourceLabel": "Kataloglistning – ej verifierad",
+  "sourceUrl": "https://www.amazon.se/dp/B0F13YQHWJ",
+  "ratingSummary": "Ingen verifierad sammanfattning för exakt modell.",
+  "highlights": [],
+  "cautions": [
+    "du vill lösa oklar instängd luft, en läcka eller en misstänkt fuktskada enbart genom att köpa en apparat. Orsaken behöver undersökas; vi har inte verifierat modellens ljud eller lämplighet för sovrum eller våtrum."
+  ]
+},
   ugcVideos: [],
   uses: [],
   peopleLike: [],

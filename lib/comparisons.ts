@@ -61,14 +61,17 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "luftavfuktare-eller-luftrenare",
-    title: "Luftavfuktare eller luftrenare?",
-    shortTitle: "Luftavfuktare eller luftrenare",
+    title: "Behöver du minska fukt eller filtrera partiklar?",
+    shortTitle: "Fukt eller partiklar?",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/luftavfuktare-eller-luftrenare",
-    description: "Fukt eller partiklar – två olika höstproblem, två olika maskiner.",
+    description: "Börja med orsaken. Se skillnaderna mellan avfuktning och filtrering och vilka modelluppgifter som saknas.",
     productSlugs: ["pro-breeze-luftavfuktare","levoit-core-200s-luftrenare"],
-    badges: ["Höstluft","Fukt vs partiklar","Inomhusklimat"],
+    badges: [
+  "Behov före köp",
+  "Källgränser"
+],
   },
   {
     slug: "knaskydd-eller-lyftarbalte",
@@ -171,14 +174,17 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "luftavfuktare-eller-luftfuktare",
-    title: "Luftavfuktare eller luftfuktare?",
-    shortTitle: "Luftavfuktare eller luftfuktare",
+    title: "Behöver luften mindre eller mer fukt?",
+    shortTitle: "Mindre eller mer fukt?",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/luftavfuktare-eller-luftfuktare",
-    description: "Nästan samma namn, motsatta jobb – Elin reder ut vilken apparat ditt hem behöver när hösten gör luften fuktig eller vintern gör den torr.",
+    description: "Kontrollera luftfuktighet och orsak före köp. Pro Breezes variant är ännu inte matchad; Levoit-underlaget gäller Classic 300S EU.",
     productSlugs: ["pro-breeze-luftavfuktare","levoit-luftfuktare"],
-    badges: ["Höstfukt","Inomhusklimat","Olika jobb"],
+    badges: [
+  "Fukt",
+  "Modellkontroll"
+],
   },
   {
     slug: "magnetisk-mobilhallare-eller-ventilklamma",
