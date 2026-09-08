@@ -1,3 +1,4 @@
+import { niacinamideDecision } from "@/lib/niacinamide-decision";
 import { makeupCleansingDecision } from "@/lib/rengoringsolja-eller-micellarvatten";
 import { cabinCaseDecision } from "@/lib/cabin-case-decision";
 import { luggageScaleDecision } from "@/lib/luggage-scale-decision";
@@ -29,6 +30,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === niacinamideDecision.options[0].productSlug) return {
+    ...niacinamideDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Behöver du byta koncentration?", href: "/guider/niacinamide-10-vs-20" },
+  };
   const cleansingOption = makeupCleansingDecision.options.find(item => item.productSlug === slug);
   if (cleansingOption) return {
     ...makeupCleansingDecision, options: [cleansingOption],
