@@ -1,3 +1,4 @@
+import { bronzingDropsDecision } from "@/lib/bronzing-drops-decision";
 import { selfTanDecision } from "@/lib/self-tan-decision";
 import { aftersunDecision } from "@/lib/aftersun-eller-aloe-vera";
 import { moisturizerDecision } from "@/lib/cicaplast-b5-eller-cetaphil";
@@ -20,6 +21,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === bronzingDropsDecision.options[0].productSlug) return {
+    ...bronzingDropsDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Tillfällig färg eller brun utan sol?", href: "/skonhet/sommarglow-utan-sol" },
+  };
   if (slug === selfTanDecision.options[0].productSlug) return {
     ...selfTanDecision,
     category: { label: "Skönhet", href: "/skonhet" },

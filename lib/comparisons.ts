@@ -982,15 +982,15 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "sommarglow-utan-sol",
-    title: "Sommarglow utan sol",
-    shortTitle: "Sommarglow utan sol",
+    title: "Brun utan sol eller bronzing drops?",
+    shortTitle: "Tillfällig eller utvecklad färg?",
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/sommarglow-utan-sol",
     description:
-      "Hållbar självbruna som utvecklas mot flexibel, tvättbar glow.",
+      "Jämför St.Tropez Express och e.l.f. Rose Gold efter applicering, avsköljning och begränsningar.",
     productSlugs: ["st-tropez-self-tan-express", "elf-skin-bronzing-drops"],
-    badges: ["Håller i dagar", "Tvättbar glow", "Sommar"],
+    badges: ["Användning", "Nyans", "Före köp"],
   },
   {
     slug: "harolja-eller-varmeskydd",
