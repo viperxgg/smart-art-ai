@@ -1,3 +1,4 @@
+import { tanningMittDecision } from "@/lib/tanning-mitt-decision";
 import { bondiTanDecision } from "@/lib/bondi-tan-decision";
 import { bronzingDropsDecision } from "@/lib/bronzing-drops-decision";
 import { selfTanDecision } from "@/lib/self-tan-decision";
@@ -22,6 +23,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === tanningMittDecision.options[0].productSlug) return {
+    ...tanningMittDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vilket användningssätt behöver du?", href: "/skonhet/bronzer-eller-brun-utan-sol" },
+  };
   if (slug === bondiTanDecision.options[0].productSlug) return {
     ...bondiTanDecision,
     category: { label: "Skönhet", href: "/skonhet" },
