@@ -3,32 +3,42 @@ import { ArrowLeft, ArrowUpRight } from "lucide-react";
 
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
+import { moroccanoilValueGuide, salonMaskValueGuide } from "@/lib/harinpackning-eller-harolja";
+import { selfTanValueGuide } from "@/lib/self-tan-decision";
+import { yogaPriceGuide } from "@/lib/yoga-mat-decision";
+import { rollerPriceGuide } from "@/lib/foam-roller-decision";
+import { massageGunPriceGuide } from "@/lib/massage-gun-decision";
 
 export const metadata = createSeoMetadata({
-  title: "Guider – Elins ärliga köpråd | Elins val",
+  title: "Guider – vilken köpfråga vill du reda ut? | Elins val",
   description:
-    'Elins guider: ärliga jämförelser och "värt priset?"-råd som hjälper dig välja rätt.',
+    "Hitta din köpfråga. Läs om behov, begränsningar och när du kan behålla det du redan har.",
   url: `${siteConfig.url}/guider`,
 });
+
+function decisionPreview(guide: DecisionGuide) {
+  return { href: guide.path, title: guide.title, description: guide.intro };
+}
 
 const guides = [
   {
     href: "/guider/bagagevag-vart-det",
-    title: "Bagagevåg – värt det eller kan du chansa?",
+    title: "Bagagevåg – vad behöver du kontrollera före resan?",
     description:
-      "Elin går igenom när en bagagevåg räddar dig från överviktsavgift – och när badrumsvågen hemma räcker.",
+      "Utgå från bagagereglerna och hur du redan väger väskan. En våg är inte en garanti mot avgifter.",
   },
   {
     href: "/guider/snail-mucin-vart-hypen",
     title: "Snail mucin – värt hypen?",
     description:
-      "Elin går igenom snigelsekret (snail mucin) ärligt – vad det gör för huden och om det virala ryktet håller.",
+      "Vilket behov skulle produkten fylla i din rutin? Granska formula, källor och begränsningar före köp.",
   },
   {
     href: "/guider/tyst-flakt-sovrum",
-    title: "Tyst fläkt till sovrummet – bäst i test 2026",
+    title: "Vilken fläkt passar ditt sovrum?",
     description:
-      "Elin jämför fem fläktar för sovrummet: ljudnivå, nattläge, timer och köparnas omdömen – och vilken du hoppar över.",
+      "Se modelluppgifter och vad som saknas om ljud och reglage. Vi har inte gjort ett jämförande ljudtest eller utsett en vinnare.",
   },
   {
     href: "/guider/harinpackning",
@@ -40,98 +50,68 @@ const guides = [
     href: "/guider/flakt-dyr-vs-billig",
     title: "Fläkt: dyr vs billig – värt det?",
     description:
-      "Elin jämför en dyr tornfläkt och en billig bordsfläkt ärligt – vad du betalar för och när budget räcker.",
+      "Vilken funktion saknas i fläkten du har? Kontrollera modell, placering och reglage innan du jämför pris.",
   },
   {
     href: "/guider/dyson-airwrap-eller-varmluftsborste",
     title: "Dyson Airwrap eller varmluftsborste – värt priset?",
     description:
-      "Elin går igenom vad du faktiskt får med premiumverktyget och när en prisvärd varmluftsborste räcker.",
+      "Börja med hur du vill styla håret och vilka tillbehör du använder. Kontrollera den exakta modellen innan du värderar priset.",
   },
-  {
-    href: "/guider/moroccanoil-vart-priset",
-    title: "Moroccanoil hårolja – värt priset?",
-    description:
-      "Vad skulle motivera ett byte? Jämför behov, formula och kostnad utan löften om överlägsen eller likvärdig effekt.",
-  },
+  decisionPreview(moroccanoilValueGuide),
   {
     href: "/guider/dyr-plattang-eller-budget",
     title: "Dyr plattång eller budget – behöver du den dyra?",
     description:
-      "Elin jämför dyra och billiga plattänger ärligt – när premium är värt det, och när en prisvärd plattång räcker.",
+      "Vilka inställningar och vilket format behöver du? Högre pris visar inte ensamt vad ett verktyg tillför.",
   },
   {
     href: "/guider/torrschampo-dyrt-vs-billigt",
     title: "Torrschampo: dyrt vs billigt – värt skillnaden?",
     description:
-      "Elin jämför premium- och budgettorrschampo ärligt – vad du betalar extra för och när det billiga räcker.",
+      "Vad saknar du i torrschampot du använder? Kontrollera formula och användning för de exakta varianterna.",
   },
-  {
-    href: "/guider/harinpackning-salongsmarke-vart-det",
-    title: "Hårinpackning – är salongsmärket värt det?",
-    description:
-      "Jämför namngivna masker efter användning och begränsningar; ett salongsmärke bevisar inte bättre resultat.",
-  },
+  decisionPreview(salonMaskValueGuide),
   {
     href: "/guider/hyaluronsyra-dyrt-vs-budget",
     title: "Hyaluronsyra: dyrt vs budget – värt skillnaden?",
     description:
-      "Elin jämför dyra och billiga hyaluronsyra-serum ärligt – vad du betalar för och när ett budgetserum räcker.",
+      "Jämför den fullständiga formulan och ditt behov. Produktnamn och prislapp räcker inte till ett beslut.",
   },
   {
     href: "/guider/niacinamide-10-vs-20",
-    title: "Niacinamide 10% vs 20% – behöver du den starka?",
+    title: "Niacinamide 10% eller 20% – vad behöver jämföras?",
     description:
-      "Elin går igenom niacinamide-styrkor ärligt – varför 10% oftast räcker och när mer inte är bättre.",
+      "Kontrollera exakt formula, användningsråd och underlag. Procenttalet ensamt säger inte vilken produkt som passar dig.",
   },
-  {
-    href: "/guider/brun-utan-sol-vart-det",
-    title: "Brun utan sol – värt det?",
-    description:
-      "Elin går igenom brun-utan-sol ärligt – vad den gör, vad den INTE gör, och när premium är värt det.",
-  },
+  decisionPreview(selfTanValueGuide),
   {
     href: "/guider/after-sun-eller-fuktkram",
     title: "After sun eller fuktkräm – behöver du båda?",
     description:
-      "Elin jämför after sun och fuktkräm ärligt – vad after sun tillför och när en fuktkräm räcker.",
+      "Behöver rutinen ytterligare en produkt? Utgå från användning, innehåll och vad den befintliga krämen redan gör för dig.",
   },
   {
     href: "/guider/jojobaolja-multitalang",
-    title: "Jojobaolja – multitalangen värd plats?",
+    title: "Jojobaolja – vilken uppgift ska den fylla?",
     description:
-      "Elin går igenom jojobaolja ärligt – varför en enda olja kan ersätta flera produkter, och var den inte räcker.",
+      "Bestäm användningsområdet innan du lägger till en olja. Utgå inte från att den ersätter flera steg i rutinen.",
   },
   {
     href: "/guider/kettlebell-mjuk-vs-gjutjarn",
-    title: "Mjuk kettlebell vs gjutjärn – värt det golvvänliga?",
+    title: "Mjuk kettlebell eller gjutjärn – vad kräver dina övningar?",
     description:
-      "Elin jämför mjuk och gjutjärns-kettlebell ärligt – när det golvvänliga är värt en högre peng och när gjutjärn räcker.",
+      "Kontrollera vikt, grepp och användningsområde. Beskrivningen mjuk innebär inte en garanti för golvet.",
   },
-  {
-    href: "/guider/dyr-massagepistol-vs-budget",
-    title: "Dyrare massagepistol – vilken skillnad behöver du?",
-    description:
-      "Kontrollera vad som faktiskt skiljer modellerna innan du betalar mer. Inget jämförande kraft- eller ljudtest har gjorts.",
-  },
-  {
-    href: "/guider/premium-yogamatta-vs-budget",
-    title: "Dyr yogamatta eller budget – värd skillnaden?",
-    description:
-      "Elin jämför premium- och budgetyogamattor ärligt – vad du betalar för och när en prisvärd matta räcker.",
-  },
+  decisionPreview(massageGunPriceGuide),
+  decisionPreview(yogaPriceGuide),
   {
     href: "/guider/traningsband-dyrt-vs-billigt",
     title: "Dyra träningsband vs billiga – värt skillnaden?",
     description:
-      "Elin jämför dyra tygband och billiga latexband ärligt – vad du betalar för och när de billiga räcker.",
+      "Börja med bandets längd, material och grepp i den övning du planerar. Pris och antal band bevisar inte att paketet passar.",
   },
-  {
-    href: "/guider/foam-roller-dyr-vs-billig",
-    title: "Dyrare foam roller – vad saknar du i den du har?",
-    description:
-      "Utgå från mått, hårdhet och vilka delar du använder. Inget jämförande test visar att dyrare ger bättre resultat.",
-  },
+  decisionPreview(rollerPriceGuide),
 ];
 
 // Seasonal gift guides — surfaced here so they are reachable from the hub
@@ -161,6 +141,7 @@ export default function GuidesIndexPage() {
   return (
     <main
       id="content"
+      tabIndex={-1}
       className="min-h-screen bg-[#FFF9F7] px-4 py-7 text-[#3E2F3A]"
     >
       <div className="mx-auto w-full max-w-5xl">
@@ -174,14 +155,13 @@ export default function GuidesIndexPage() {
 
         <section className="mt-8 rounded-[2.4rem] border border-[#F1D8DD] bg-white/72 p-7 shadow-[0_30px_90px_rgba(185,131,166,0.12)] md:p-10">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-            Guider
+            Vilket köp funderar du på?
           </p>
           <h1 className="editorial-color-kiss mt-4 max-w-4xl font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-7xl">
             Guider
           </h1>
           <p className="mt-6 max-w-3xl text-xl leading-9 text-[#6f5a64]">
-            Ärliga köpråd – vad du faktiskt får och när ett billigare
-            alternativ räcker.
+            Börja med ett behov, läs begränsningarna och se när du kan behålla det du redan har. Varje guide behöver bedömas utifrån sina källor och vad som faktiskt har testats.
           </p>
         </section>
 
@@ -193,7 +173,7 @@ export default function GuidesIndexPage() {
               className="group flex h-full flex-col rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] transition hover:-translate-y-1 hover:bg-white"
             >
               <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
-                Värt priset?
+                Inför ditt val
               </p>
               <h2 className="editorial-color-kiss mt-4 font-display text-3xl leading-tight">
                 {guide.title}
