@@ -23,7 +23,7 @@ type ElinLauncherAvatarProps = {
  * floating "Fråga Elin" launcher (ElinProvider.tsx) and every inline
  * "Fråga Elin" CTA (ElinCtaButton.tsx). Same asset backs the site header
  * logo, the mobile header, the home hero eyebrow tag, the chat window's own
- * avatars, and the "Utvald av Elin" byline (see components/Header.tsx,
+ * avatars, and the "Om Elins val" link (see components/Header.tsx,
  * components/elin/ElinHomeHero.tsx, components/elin/ElinChat.tsx,
  * components/ElinByline.tsx) — one face, one file, everywhere.
  *
