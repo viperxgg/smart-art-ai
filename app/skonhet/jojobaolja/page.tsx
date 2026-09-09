@@ -1,3 +1,4 @@
+import { jojobaDecision } from "@/lib/jojoba-decision";
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";
@@ -11,15 +12,9 @@ export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
+      title: "Passar Kanzy Jojoba Oil 120 ml dig?",
+      description: jojobaDecision.options[0].chooseIf,
       url: `${siteConfig.url}${pick.href}`,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 900,
-        height: 675,
-        alt: pick.product.imageAlt,
-      },
     })
   : {};
 

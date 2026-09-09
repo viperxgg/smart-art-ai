@@ -1,3 +1,4 @@
+import { jojobaDecision } from "@/lib/jojoba-decision";
 import { dryShampooDecision } from "@/lib/dry-shampoo-decision";
 import { hairDryerDecision } from "@/lib/hair-dryer-decisions";
 import { airStylerDecision } from "@/lib/air-styler-decisions";
@@ -52,6 +53,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "kanzy-jojobaolja") return {
+    ...jojobaDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Behöver du en extra olja?", href: "/guider/jojobaolja-multitalang" },
+  };
   if (slug === "moroccanoil-torrschampo") return {
     ...dryShampooDecision,
     category: { label: "Skönhet", href: "/skonhet" },

@@ -1,3 +1,4 @@
+import { jojobaGuide } from "@/lib/jojoba-decision";
 import { dryShampooValueGuide } from "@/lib/dry-shampoo-decision";
 import { straightenerValueGuide, airwrapValueGuide } from "@/lib/hair-tool-value-guides";
 import Link from "next/link";
@@ -69,12 +70,7 @@ const guides = [
     description:
       "Behöver rutinen ytterligare en produkt? Utgå från användning, innehåll och vad den befintliga krämen redan gör för dig.",
   },
-  {
-    href: "/guider/jojobaolja-multitalang",
-    title: "Jojobaolja – vilken uppgift ska den fylla?",
-    description:
-      "Bestäm användningsområdet innan du lägger till en olja. Utgå inte från att den ersätter flera steg i rutinen.",
-  },
+  decisionPreview(jojobaGuide),
   {
     href: "/guider/kettlebell-mjuk-vs-gjutjarn",
     title: "Mjuk kettlebell eller gjutjärn – vad kräver dina övningar?",
