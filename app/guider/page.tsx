@@ -1,3 +1,4 @@
+import { straightenerValueGuide, airwrapValueGuide } from "@/lib/hair-tool-value-guides";
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 
@@ -48,19 +49,9 @@ const guides = [
     description:
       "Vilken funktion saknas i fläkten du har? Kontrollera modell, placering och reglage innan du jämför pris.",
   },
-  {
-    href: "/guider/dyson-airwrap-eller-varmluftsborste",
-    title: "Dyson Airwrap eller varmluftsborste – värt priset?",
-    description:
-      "Börja med hur du vill styla håret och vilka tillbehör du använder. Kontrollera den exakta modellen innan du värderar priset.",
-  },
+  decisionPreview(airwrapValueGuide),
   decisionPreview(moroccanoilValueGuide),
-  {
-    href: "/guider/dyr-plattang-eller-budget",
-    title: "Dyr plattång eller budget – behöver du den dyra?",
-    description:
-      "Vilka inställningar och vilket format behöver du? Högre pris visar inte ensamt vad ett verktyg tillför.",
-  },
+  decisionPreview(straightenerValueGuide),
   {
     href: "/guider/torrschampo-dyrt-vs-billigt",
     title: "Torrschampo: dyrt vs billigt – värt skillnaden?",
