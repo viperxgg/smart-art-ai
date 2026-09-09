@@ -6,7 +6,6 @@ import Link from "next/link";
 import { ArrowUpRight, Sparkles } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
-import { AmazonPurchaseCta } from "@/components/AmazonPurchaseCta";
 import { JsonLd } from "@/components/JsonLd";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { ScoreBadge } from "@/components/ProductBadges";
@@ -25,7 +24,7 @@ const pageUrl = `${siteConfig.url}/sommar`;
 
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
-  { name: "Elins sommar-glow", href: "/sommar" },
+  { name: "Hud, hår och vardag", href: "/sommar" },
 ];
 
 export const metadata = createSeoMetadata({
@@ -63,14 +62,14 @@ export default function SommarPage() {
               <p className="inline-flex min-h-10 items-center rounded-full border border-line bg-surface/72 px-4 text-xs font-black uppercase tracking-[0.14em] text-wine">
                 {sommarSectionCopy.eyebrow}
               </p>
-              <h1 className="editorial-color-kiss mt-5 font-display text-5xl leading-[1.02] tracking-normal sm:text-7xl">
+              <h1 className="editorial-color-kiss mt-5 font-display text-3xl leading-tight tracking-normal sm:text-5xl">
                 {sommarSectionCopy.title}
               </h1>
               <p className="mt-5 max-w-3xl text-lg leading-8 text-ink-soft">
                 {sommarSectionCopy.intro}
               </p>
               <p className="mt-5 rounded-3xl border border-line bg-surface/70 p-4 text-sm leading-7 text-ink-soft">
-                <strong>Annons</strong> · Den här sidan innehåller reklamlänkar.
+                <strong>Annons</strong> · Webbplatsen innehåller reklamlänkar.
                 Om du handlar via våra länkar kan vi få en provision - utan extra
                 kostnad för dig.
               </p>
@@ -100,7 +99,7 @@ export default function SommarPage() {
                         {pick.cardBadge}
                       </span>
                       <span className="mt-1 block font-display text-xl leading-tight text-ink">
-                        {pick.headline}
+                        Passar {pick.headline} dig?
                       </span>
                       {score ? (
                         <span className="mt-2 block text-sm font-black text-wine">
@@ -121,10 +120,10 @@ export default function SommarPage() {
         >
           <span className="min-w-0">
             <span className="block text-xs font-black uppercase tracking-[0.14em] text-rose">
-              Reser du i sommar?
+              Vad saknas inför resan?
             </span>
             <span className="mt-1 block font-display text-2xl leading-tight text-ink">
-              Elins reseval – smarta prylar för kabinväskan
+              Packa efter behov – börja med det du redan har
             </span>
           </span>
           <ArrowUpRight
@@ -138,13 +137,13 @@ export default function SommarPage() {
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
-                Utvalda sommarfavoriter
+                Hud och hår
               </p>
               <h2
                 id="sommar-grid-title"
                 className="editorial-color-kiss mt-2 font-display text-4xl leading-tight"
               >
-                Glow, vård och smarta säsongsval
+                Vilken del av rutinen behöver du ändra?
               </h2>
             </div>
             <span className="inline-flex min-h-10 w-fit items-center rounded-full border border-line bg-surface/70 px-4 text-xs font-black uppercase tracking-[0.14em] text-wine">
@@ -185,9 +184,9 @@ export default function SommarPage() {
                       {pick.product.brand}
                     </p>
                     <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
-                      <Link href={pick.href}>{pick.product.title}</Link>
+                      <Link href={pick.href}>Passar {pick.product.title} dig?</Link>
                     </h3>
-                    {getProductDecision(pick.productSlug) ? <ProductDecisionPreview slug={pick.productSlug} /> : <p className="mt-3 text-sm leading-6 text-ink-soft">{pick.cardHook}</p>}
+                    <ProductDecisionPreview slug={pick.productSlug} />
                     <div className="mt-4 flex flex-wrap gap-2">
                       {score ? <ScoreBadge score={score} /> : null}
                     </div>
@@ -201,10 +200,6 @@ export default function SommarPage() {
                       Läs produktguiden
                       <ArrowUpRight size={17} aria-hidden="true" />
                     </Link>
-                    <AmazonPurchaseCta
-                      product={pick.product}
-                      className="mt-3 w-full"
-                    />
                   </div>
                 </article>
               );
@@ -266,9 +261,9 @@ export default function SommarPage() {
                         {pick.product.brand}
                       </p>
                       <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
-                        <Link href={pick.href}>{pick.product.title}</Link>
+                        <Link href={pick.href}>Passar {pick.product.title} dig?</Link>
                       </h3>
-                      {getProductDecision(pick.productSlug) ? <ProductDecisionPreview slug={pick.productSlug} /> : <p className="mt-3 text-sm leading-6 text-ink-soft">{pick.cardHook}</p>}
+                      <ProductDecisionPreview slug={pick.productSlug} />
                       <div className="mt-4 flex flex-wrap gap-2">
                         {score ? <ScoreBadge score={score} /> : null}
                       </div>
@@ -282,10 +277,6 @@ export default function SommarPage() {
                         Läs produktguiden
                         <ArrowUpRight size={17} aria-hidden="true" />
                       </Link>
-                      <AmazonPurchaseCta
-                        product={pick.product}
-                        className="mt-3 w-full"
-                      />
                     </div>
                   </article>
                 );
@@ -327,15 +318,15 @@ export default function SommarPage() {
         <section className="mt-8 rounded-[2rem] border border-line bg-surface/68 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <Sparkles className="text-wine" size={24} aria-hidden="true" />
           <h2 className="editorial-color-kiss mt-3 font-display text-3xl">
-            Så väljer Elin
+            Vad bygger guiderna på?
           </h2>
           <p className="mt-4 max-w-4xl leading-8 text-ink-soft">
-            Elin går igenom produktdata, Amazon-köpares signaler och vad
-            produkten faktiskt verkar lösa inför säsongen. Poängen är en
-            redaktionell bedömning - inte ett testlabb och inte ett löfte om att
-            samma produkt passar alla.
+            Produktguider med beslutsunderlag redovisar källor, begränsningar och vad som
+            har eller inte har testats. Andra produktposter väntar på granskning.
+            Vi visar ingen poäng utan granskat stöd. Börja med produktguiden innan du överväger ett köp.
           </p>
         </section>
+        <Link href="/fraga-elin" className="mt-6 inline-flex min-h-11 items-center font-bold text-wine underline underline-offset-4">Fråga Elin – valfri AI-hjälp</Link>
       </div>
     </main>
   );

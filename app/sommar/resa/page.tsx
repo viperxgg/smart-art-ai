@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowUpRight, Luggage } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
-import { AmazonPurchaseCta } from "@/components/AmazonPurchaseCta";
+import { ProductDecisionPreview } from "@/components/ProductDecisionPreview";
 import { JsonLd } from "@/components/JsonLd";
 import { PriceTierBadge } from "@/components/PriceTierBadge";
 import { ScoreBadge } from "@/components/ProductBadges";
@@ -90,17 +90,16 @@ export default function SommarResaPage() {
               <Luggage size={15} aria-hidden="true" />
               {resaSectionCopy.eyebrow}
             </p>
-            <h1 className="editorial-color-kiss mt-5 font-display text-5xl leading-[1.02] tracking-normal sm:text-7xl">
+            <h1 className="editorial-color-kiss mt-5 font-display text-3xl leading-tight tracking-normal sm:text-5xl">
               {resaSectionCopy.title}
             </h1>
             <p className="mt-5 max-w-3xl text-lg leading-8 text-ink-soft">
               {resaSectionCopy.intro}
             </p>
             <p className="mt-5 max-w-3xl rounded-3xl border border-line bg-surface/70 p-4 text-sm leading-7 text-ink-soft">
-              <strong>Annons</strong> · Den här sidan innehåller reklamlänkar.
+              <strong>Annons</strong> · Webbplatsen innehåller reklamlänkar.
               Om du handlar via våra länkar kan vi få en provision - utan extra
-              kostnad för dig. Elin väljer ändå ärligt, och säger också vad du
-              kan hoppa över.
+              kostnad för dig. Läs produktens underlag och begränsningar före köp.
             </p>
           </div>
         </section>
@@ -168,11 +167,9 @@ export default function SommarResaPage() {
                         {pick.product.brand}
                       </p>
                       <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
-                        <Link href={pick.href}>{pick.product.title}</Link>
+                        <Link href={pick.href}>Passar {pick.product.title} dig?</Link>
                       </h3>
-                      <p className="mt-3 text-sm leading-6 text-ink-soft">
-                        {pick.cardHook}
-                      </p>
+                      <ProductDecisionPreview slug={pick.productSlug} />
                       <div className="mt-4 flex flex-wrap gap-2">
                         {score ? <ScoreBadge score={score} /> : null}
                       </div>
@@ -183,13 +180,9 @@ export default function SommarResaPage() {
                         href={pick.href}
                         className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-wine px-5 text-sm font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition hover:-translate-y-0.5 hover:bg-wine/90"
                       >
-                        Läs Elins omdöme
+                        Läs produktguiden
                         <ArrowUpRight size={17} aria-hidden="true" />
                       </Link>
-                      <AmazonPurchaseCta
-                        product={pick.product}
-                        className="mt-3 w-full"
-                      />
                     </div>
                   </article>
                 );
@@ -198,6 +191,7 @@ export default function SommarResaPage() {
           </section>
           );
         })}
+        <Link href="/fraga-elin" className="mt-6 inline-flex min-h-11 items-center font-bold text-wine underline underline-offset-4">Fråga Elin – valfri AI-hjälp</Link>
       </div>
     </main>
   );

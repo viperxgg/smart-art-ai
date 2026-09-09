@@ -221,22 +221,22 @@ export type SommarPick = {
 };
 
 export const sommarSectionCopy = {
-  eyebrow: "☀️ Elins sommar-glow",
-  title: "Elins sommar-glow",
+  eyebrow: "Guider efter behov",
+  title: "Hud, hår och vardag – vad behöver du?",
   intro:
-    "Guider för sol, värme och hudvård. Utgå från ditt behov och det du redan har; samlingen är ingen aktuell kampanj.",
+    "Börja med det som saknas i din rutin och det du redan har. Läs om skillnader, begränsningar och när du kan avstå; en plats i samlingen är inte en köprekommendation.",
   metaTitle:
-    "Elins sommar-glow - sommarfynd för hud, hår & glow | Elins val",
+    "Hud, hår och vardag – jämför behov före köp | Elins val",
   metaDescription:
-    "Jämför behov och begränsningar i guider om sol, värme och hudvård. Ingen aktuell kampanj.",
+    "Guider för hud, hår och vardag. Jämför behov, källor och begränsningar; se vilka produktunderlag som ännu inte är färdiggranskade.",
 };
 
 export const smartSommarSectionCopy = {
-  eyebrow: "Smart sommarro",
-  title: "Smart sommarro",
+  eyebrow: "För hemmet",
+  title: "Vad saknas för läsning, luft och komfort?",
   intro:
-    "Läsning, luft och vardagskomfort. Jämför funktioner och begränsningar innan du köper något för en ledig stund.",
-  metaTitle: "Smart sommarro - smarta favoriter för avkoppling | Elins val",
+    "Börja med vad du vill kunna göra hemma. Jämför funktioner och begränsningar innan du köper något för en ledig stund.",
+  metaTitle: "Läsning, luft och komfort – jämför behov | Elins val",
   metaDescription:
     "Guider om läsning, luft och vardagskomfort med produktinformation och köpfrågor.",
 };
@@ -9233,7 +9233,7 @@ export const resaSectionCopy = {
   metaTitle:
     "Elins reseval – smarta prylar för kabinväskan | Elins val",
   metaDescription:
-    "Elins utvalda reseprylar för kabinväska och flyg: packkuber, kompressionspåsar, kabelorganizer, bagagevåg och mer – med Elins poäng och ärliga hoppa-över-tips.",
+    "Planera packningen efter bagageregler, mått och det du redan har. Läs modellunderlag och begränsningar; flera produktposter väntar på granskning.",
 };
 
 export const resaPicks: SommarPick[] = ([
