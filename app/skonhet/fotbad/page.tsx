@@ -1,12 +1,6 @@
-// Generated for wave-build-2026-07. Do not edit by hand.
-import { createWaveGuideMetadata, WaveGuidePage } from "@/app/(products)/_components/WaveGuidePage";
-
-const guideId = "fotbad";
-
-export const revalidate = 3600;
-
-export const metadata = createWaveGuideMetadata(guideId);
-
-export default function SkonhetFotbadPage() {
-  return <WaveGuidePage guideId={guideId} />;
-}
+import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { footSpaOverview as guide } from "@/lib/foot-spa-decision";
+import { createSeoMetadata } from "@/lib/metadata";
+import { siteConfig } from "@/lib/site";
+export const metadata = createSeoMetadata({ title: guide.title, description: guide.intro, url: `${siteConfig.url}${guide.path}` });
+export default function Page() { return <DecisionGuidePage guide={guide} />; }

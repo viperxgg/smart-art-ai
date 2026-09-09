@@ -7771,10 +7771,9 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/fotbad",
-    description: "Beurer FB35 mot DEANIC: elektrisk varmhållning eller enkel hopfällbar balja.",
+    description: "Behöver du bubblor och värmefunktion, eller räcker baljan du har? Läs FB 35-manualens begränsningar före köp.",
     productSlugs: [
       "beurer-fb35-fotbad",
-      "deanic-fotbad",
     ],
     badges: [
       "Fotbad",
@@ -7789,10 +7788,9 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/elektriskt-eller-enkelt-fotbad",
-    description: "Bubblor och varmhållning mot platsbesparande enkelhet.",
+    description: "Behöver du bubblor och värmefunktion, eller räcker baljan du har? Läs FB 35-manualens begränsningar före köp.",
     productSlugs: [
       "beurer-fb35-fotbad",
-      "deanic-fotbad",
     ],
     badges: [
       "Fotbad",

@@ -1,3 +1,4 @@
+import { footSpaDecision } from "@/lib/foot-spa-decision";
 import { bodyOilDecision } from "@/lib/bio-oil-eller-jojobaolja";
 import { jojobaDecision } from "@/lib/jojoba-decision";
 import { dryShampooDecision } from "@/lib/dry-shampoo-decision";
@@ -54,6 +55,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "beurer-fb35-fotbad") return {
+    ...footSpaDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Behöver du ett elektriskt fotbad?", href: "/skonhet/elektriskt-eller-enkelt-fotbad" },
+  };
   if (slug === "bio-oil") return {
     ...bodyOilDecision, options: [bodyOilDecision.options[0]],
     category: { label: "Skönhet", href: "/skonhet" },
