@@ -81,6 +81,26 @@ assert.ok(comparisonHtml.includes('Kanzy Jojoba Oil 120 ml'));
 assert.ok(!comparisonHtml.includes('STALE_PRODUCT_TITLE'),'Comparison discovery must not leak stale reviewed product names');
 console.log(JSON.stringify({pickProjection:'PASS',totalPicks:allPicks.length,currentPicks:currentPicks.length}));
 
+const {getApprovedProductImage}=load('lib/product-image-approvals.ts');
+const {getProductImageNote}=load('lib/product-image-notes.ts');
+const mediaBindings={getApprovedProductImage,getProductImageNote,getProductDecision,getProductPageHref,
+ getEditorialScore:()=>null,categoryLabel:new Map(),
+ Link:props=>React.createElement('a',props),Image:()=>React.createElement('img',{'data-test':'product-image'}),
+ ScoreBadge:()=>null,ArrowUpRight:()=>null,ProductDecisionPreview:()=>null,
+ SaveProductButton:({productTitle})=>React.createElement('button',null,'Spara '+productTitle)};
+const {ProductCard}=extractFunctions('components/ProductCard.tsx',['ProductCard'],mediaBindings);
+const {SearchResultCard}=extractFunctions('components/ProductSearch.tsx',['SearchResultCard'],mediaBindings);
+for(const product of products){
+ const cardMarkup=renderToStaticMarkup(React.createElement(ProductCard,{product}));
+ const searchMarkup=renderToStaticMarkup(React.createElement(SearchResultCard,{product}));
+ if(!getApprovedProductImage(product.slug,product.image)){
+  assert.ok(!cardMarkup.includes('<img')&&!searchMarkup.includes('<img'),'Unapproved catalogue media must not render');
+ }
+ assert.ok(cardMarkup.includes('<button'),'Save control survives missing image');
+ assert.ok(cardMarkup.includes('href="'+getProductPageHref(product)+'"'));
+ assert.ok(searchMarkup.includes('href="'+getProductPageHref(product)+'"'));
+}
+console.log(JSON.stringify({mediaCards:'PASS',products:products.length,scope:'ProductCard and SearchResultCard SSR; no rights approval inferred'}));
 const entries=products.map(product=>({product,evidence:getElinProductEvidence(product)}));
 const reviewed=entries.filter(entry=>entry.evidence.decision);
 const { AmazonPurchaseCta } = extractFunctions('components/AmazonPurchaseCta.tsx',['AmazonPurchaseCta'],{getProductDecision});

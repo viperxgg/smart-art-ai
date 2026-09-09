@@ -1,5 +1,8 @@
 "use client";
 
+import { getApprovedProductImage } from "@/lib/product-image-approvals";
+
+
 import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { filterProducts } from "@/lib/product-search";
@@ -144,6 +147,7 @@ export function ProductSearch() {
 }
 
 function SearchResultCard({ product }: { product: Product }) {
+  const approvedImage = getApprovedProductImage(product.slug, product.image);
   const href = getProductPageHref(product);
   const decision = getProductDecision(product.slug);
   const title = decision?.options[0].model ?? product.title;
@@ -152,14 +156,14 @@ function SearchResultCard({ product }: { product: Product }) {
 
   return (
     <article className="group flex flex-col overflow-hidden rounded-[1.8rem] border border-line bg-surface/62 shadow-[0_20px_58px_rgba(216,131,146,0.1)] transition hover:-translate-y-1 hover:bg-surface">
-      <Link
+      {approvedImage ? <Link
         href={href}
         className="relative block aspect-[4/3] w-full overflow-hidden bg-rose/8"
         aria-label={`Öppna ${title}`}
       >
         <Image
           src={product.image}
-          alt={product.imageAlt}
+          alt={approvedImage.alt}
           fill
           sizes="(min-width: 1024px) 20rem, (min-width: 640px) 45vw, 92vw"
           className="object-contain"
@@ -169,11 +173,11 @@ function SearchResultCard({ product }: { product: Product }) {
         <span className="absolute left-3 top-3 rounded-full bg-surface/88 px-3 py-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-wine shadow-[0_10px_28px_rgba(120,60,72,0.14)] backdrop-blur">
           {label}
         </span>
-      </Link>
-      {getProductImageNote(product) ? <p className="border-t border-line px-5 py-3 text-sm leading-relaxed text-ink-soft">{getProductImageNote(product)}</p> : null}
+      </Link> : null}
+      {approvedImage && getProductImageNote(product) ? <p className="border-t border-line px-5 py-3 text-sm leading-relaxed text-ink-soft">{getProductImageNote(product)}</p> : null}
       <div className="flex flex-1 flex-col p-5">
         <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
-          {product.brand}
+          {label} · {product.brand}
         </p>
         <h2 className="editorial-color-kiss mt-2 font-display text-2xl leading-tight">
           <Link href={href}>{title}</Link>

@@ -1,3 +1,4 @@
+import { getApprovedProductImage } from "@/lib/product-image-approvals";
 import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 import type { CSSProperties } from "react";
 import Image from "next/image";
@@ -1858,6 +1859,7 @@ function FeaturedPick({
   index?: number;
   showAffiliateCta: boolean;
 }) {
+  const approvedImage = getApprovedProductImage(product.slug, product.image);
   const productHref = getProductPageHref(product);
   const score = getEditorialScore(product.slug);
 
@@ -1866,14 +1868,14 @@ function FeaturedPick({
       className="reveal-fade group overflow-hidden rounded-[2rem] border border-line bg-surface/75 p-3 shadow-[0_26px_80px_rgba(216,131,146,0.16)] backdrop-blur-xl transition hover:-translate-y-1 hover:bg-surface"
       style={{ "--i": index } as CSSProperties}
     >
-      <Link
+      {approvedImage ? <Link
         href={productHref}
         className="relative block aspect-[4/3] overflow-hidden rounded-[1.55rem] bg-[#f7e8e8]"
         aria-label={`Läs mer om ${getElinProductEvidence(product).title}`}
       >
         <Image
           src={product.image}
-          alt={product.imageAlt}
+          alt={approvedImage.alt}
           width={900}
           height={675}
           sizes="(min-width: 1024px) 340px, (min-width: 640px) 45vw, 100vw"
@@ -1886,7 +1888,7 @@ function FeaturedPick({
           <Heart size={13} fill="currentColor" aria-hidden="true" />
           Prisvärt val
         </span>
-      </Link>
+      </Link> : null}
       <div className="p-3">
         <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
           {product.brand}

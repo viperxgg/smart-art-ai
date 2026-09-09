@@ -1,5 +1,8 @@
 "use client";
 
+import { getApprovedProductImage } from "@/lib/product-image-approvals";
+
+
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
@@ -22,19 +25,20 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
   const score = getEditorialScore(product.slug);
   const decision = getProductDecision(product.slug);
   const title = decision?.options[0].model ?? product.title;
+  const approvedImage = getApprovedProductImage(product.slug, product.image);
   const imageNote = getProductImageNote(product);
 
   return (
     <article className="overflow-hidden rounded-[2.4rem] border border-line bg-surface/80 shadow-[0_30px_90px_rgba(216,131,146,0.17)] backdrop-blur-xl">
-      <div className="relative">
-        <Link
+      <div className={approvedImage ? "relative" : "flex justify-end px-6 pt-5 sm:px-8"}>
+        {approvedImage ? <Link
           href={productHref}
           className="group relative block aspect-[4/3] overflow-hidden bg-[#fdebed]"
           aria-label={`Öppna ${title}`}
         >
           <Image
             src={product.image}
-            alt={product.imageAlt}
+            alt={approvedImage.alt}
             fill
             sizes="(max-width: 768px) 92vw, 650px"
             className="object-contain"
@@ -42,14 +46,14 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             {...(priority ? {} : { loading: "lazy" as const })}
             quality={70}
           />
-        </Link>
+        </Link> : null}
         <SaveProductButton
           productSlug={product.slug}
           productTitle={title}
-          className="absolute right-5 top-5 grid min-h-11 min-w-11 place-items-center rounded-full bg-surface/90 text-wine shadow-[0_14px_34px_rgba(120,60,72,0.18)] backdrop-blur transition hover:-translate-y-0.5 hover:bg-surface"
+          className={`${approvedImage ? "absolute right-5 top-5" : ""} grid min-h-11 min-w-11 place-items-center rounded-full bg-surface/90 text-wine shadow-[0_14px_34px_rgba(120,60,72,0.18)] backdrop-blur transition hover:-translate-y-0.5 hover:bg-surface`}
         />
       </div>
-      {imageNote ? <p className="border-t border-line px-6 py-3 text-sm leading-relaxed text-ink-soft sm:px-8">{imageNote}</p> : null}
+      {approvedImage && imageNote ? <p className="border-t border-line px-6 py-3 text-sm leading-relaxed text-ink-soft sm:px-8">{imageNote}</p> : null}
 
       <div className="p-6 sm:p-8">
         <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">

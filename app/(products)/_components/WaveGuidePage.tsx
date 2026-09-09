@@ -1,3 +1,4 @@
+import { getApprovedProductImage } from "@/lib/product-image-approvals";
 import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 import { DecisionCard } from "@/components/DecisionCard";
 import { getGuideDecision } from "@/lib/ereader-decision";
@@ -56,7 +57,7 @@ export function createWaveGuideMetadata(guideId: string) {
     title: guide.metaTitle,
     description: guide.metaDescription,
     url: `${siteConfig.url}${guide.href}`,
-    image: firstProduct && !getGuideDecision(guideId)
+    image: firstProduct && getApprovedProductImage(firstProduct.slug, firstProduct.image) && !getGuideDecision(guideId)
       ? {
           url: `${siteConfig.url}${firstProduct.image}`,
           width: 1200,
@@ -192,6 +193,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
             }
 
             const score = getEditorialScore(product.slug);
+            const approvedImage = getApprovedProductImage(product.slug, product.image);
 
             return (
               <Link
@@ -200,10 +202,10 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
                 className="reveal-fade group overflow-hidden rounded-[2.2rem] border border-line bg-surface/72 shadow-[0_28px_90px_rgba(185,131,166,0.1)] transition hover:-translate-y-1"
                 style={{ "--i": index } as CSSProperties}
               >
-                {!decision ? <div className="relative aspect-[4/3] bg-rose/8">
+                {approvedImage ? <div className="relative aspect-[4/3] bg-rose/8">
                   <Image
                     src={product.image}
-                    alt={product.imageAlt}
+                    alt={approvedImage.alt}
                     fill
                     sizes="(max-width: 768px) 92vw, 470px"
                     className="object-cover transition duration-500 group-hover:scale-[1.025]"
