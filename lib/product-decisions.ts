@@ -1,3 +1,4 @@
+import { daylightLampDecision } from "@/lib/daylight-lamp-decision";
 import { footMassageDecision } from "@/lib/fotmassage-eller-massagepistol";
 import { readingLightDecision } from "@/lib/laslampa-eller-led-list";
 import { scalpDecision } from "@/lib/rosmarinolja-eller-scalp-scrub";
@@ -66,6 +67,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const daylightOption = daylightLampDecision.options.find(option => option.productSlug === slug);
+  if (daylightOption) return {
+    ...daylightLampDecision, options: [daylightOption],
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "TL 30 eller TL 35 – behöver du fler reglage?", href: "/halsa/beurer-tl30-eller-tl35" },
+  };
   if (slug === "beurer-fotmassage") return {
     ...footMassageDecision, options: [footMassageDecision.options[0]],
     category: { label: "Hälsa & vardag", href: "/halsa" },

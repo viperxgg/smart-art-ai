@@ -1,13 +1,13 @@
-// Content refresh 2026-08-29: fyllig septembercopy för höstmörkret + interna länkar (morka-morgnar, wake-up-light).
-// Generated for wave-build-2026-07. Do not edit by hand.
-import { createWaveGuideMetadata, WaveGuidePage } from "@/app/(products)/_components/WaveGuidePage";
+import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { daylightLampGuide } from "@/lib/daylight-lamp-decision";
+import { createSeoMetadata } from "@/lib/metadata";
+import { siteConfig } from "@/lib/site";
 
-const guideId = "beurer-tl30-eller-tl35";
-
-export const revalidate = 3600;
-
-export const metadata = createWaveGuideMetadata(guideId);
-
+export const metadata = createSeoMetadata({
+  title: "Beurer TL 30 eller TL 35 – vilka reglage behöver du? | Elins val",
+  description: "Jämför reglage, ljusyta och mätavstånd för TL 30 och TL 35. Läs modellernas begränsningar och vad vi inte har testat.",
+  url: `${siteConfig.url}${daylightLampGuide.path}`,
+});
 export default function HalsaBeurerTl30EllerTl35Page() {
-  return <WaveGuidePage guideId={guideId} />;
+  return <DecisionGuidePage guide={daylightLampGuide} />;
 }
