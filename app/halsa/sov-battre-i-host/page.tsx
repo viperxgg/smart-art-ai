@@ -1,13 +1,6 @@
-// Content refresh 2026-08-28: länk till sovmask-eller-white-noise (ljus vs ljud).
-// Hand-built seasonal guide, content batch 2026-08-27.
-import { createWaveGuideMetadata, WaveGuidePage } from "@/app/(products)/_components/WaveGuidePage";
-
-const guideId = "sov-battre-i-host";
-
-export const revalidate = 3600;
-
-export const metadata = createWaveGuideMetadata(guideId);
-
-export default function HalsaSovBattreIHostPage() {
-  return <WaveGuidePage guideId={guideId} />;
-}
+import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { sleepEnvironmentGuide } from "@/lib/sleep-environment-decision";
+import { createSeoMetadata } from "@/lib/metadata";
+import { siteConfig } from "@/lib/site";
+export const metadata = createSeoMetadata({ title: `${sleepEnvironmentGuide.title} | Elins val`, description: sleepEnvironmentGuide.intro, url: `${siteConfig.url}${sleepEnvironmentGuide.path}` });
+export default function HalsaSovBattreIHostPage() { return <DecisionGuidePage guide={sleepEnvironmentGuide} />; }

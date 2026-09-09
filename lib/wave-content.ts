@@ -1,3 +1,4 @@
+import { sleepEnvironmentGuide } from "@/lib/sleep-environment-decision";
 import { morningLightGuide } from "@/lib/morning-light-decision";
 import { daylightLampGuide, daylightLampOverviewGuide } from "@/lib/daylight-lamp-decision";
 // Generated for wave-build-2026-07. Do not edit by hand.
@@ -4406,100 +4407,13 @@ export const waveGuides: WaveGuide[] = [
     metaTitle: `${morningLightGuide.title} | Elins val`, metaDescription: morningLightGuide.intro,
   },
   {
-    // Hand-built seasonal guide, content batch 2026-08-27.
-    id: "sov-battre-i-host",
-    href: "/halsa/sov-battre-i-host",
-    category: "halsa",
-    label: "Guide",
-    title: "Sov bättre i höst: mörker, ljud och tyngd",
-    intro: "När rutinerna lägger om efter sommaren finns tre enkla spakar för sköna nätter: en sovmask som gör det riktigt mörkt, en ljudkuliss som jämnar ut hemmets och gatans ljud, och ett tyngdtäcke för den ombonade känslan. Elin visar vilken som gör vad – och var du börjar.",
-    badges: [
-      "Sömn",
-      "Höstrutin",
-      "Tre spakar",
-    ],
-    productSlugs: [
-      "manta-sovmask",
-      "magicteam-white-noise",
-      "ella-tyngdtacke",
-    ],
-    pickBadges: {
-      "manta-sovmask": "Mörkret",
-      "magicteam-white-noise": "Ljudkulissen",
-      "ella-tyngdtacke": "Tyngden",
-    },
-    choiceTitle: "Börja med det som stör dig mest",
-    choiceText: "Vaknar du av ljus – gatlyktor, tidig gryning, en partner som läser? Då är sovmasken den billigaste förbättringen: Mantas formade kåpor gör det helt mörkt utan tryck mot ögonen. Är det ljud som stör – lyhört hus, trafik, tidiga grannar? White noise-maskinen lägger en jämn ljudkuliss som gör att enstaka ljud inte sticker ut. Är det själva nedvarvningen som är svår är tyngdtäcket mysfaktorn: en jämn, omslutande tyngd som många tycker gör läggningen till dagens skönaste stund.",
-    rows: [
-      {
-        label: "Löser",
-        values: [
-          "Ljus som stör",
-          "Ljud som sticker ut",
-          "Rastlös nedvarvning",
-        ],
-      },
-      {
-        label: "Bäst för",
-        values: [
-          "Ljuskänsliga, resor, skiftarbete",
-          "Lyhörda hem, stadsljud",
-          "Den som vill ha ombonat",
-        ],
-      },
-      {
-        label: "Att veta",
-        values: [
-          "Bandet kan kännas de första nätterna",
-          "Välj ett ljud du verkligen gillar",
-          "9 kg – känslan är inte för alla",
-        ],
-      },
-    ],
-    verdict: "Tre olika jobb, ingen mirakelkur: börja med det som faktiskt väcker dig och bygg därifrån.",
-    faqItems: [
-      {
-        question: "Vilken av de tre gör störst skillnad?",
-        answer: "Den som matchar ditt största störmoment. Vaknar du av ljus börjar du med sovmasken, är det ljud väljer du ljudkulissen, och handlar det om att varva ner är tyngdtäcket den mysiga vägen in i rutinen.",
-      },
-      {
-        question: "Kan man kombinera alla tre?",
-        answer: "Ja, de jobbar på olika saker och krockar inte: mörkt med masken, jämn ljudbild med maskinen och ombonad tyngd med täcket. Många bygger upp sin kvällsrutin steg för steg under hösten.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa/sovmask",
-        label: "Sovmask",
-        text: "Läs Elins genomgång av Manta Sleep Mask.",
-      },
-      {
-        href: "/halsa/white-noise",
-        label: "White noise",
-        text: "Läs Elins genomgång av Magicteam-maskinen.",
-      },
-      {
-        href: "/halsa/tyngdtacke",
-        label: "Tyngdtäcke",
-        text: "Läs Elins genomgång av Ella tyngdtäcke 9 kg.",
-      },
-      {
-        href: "/halsa/morka-morgnar",
-        label: "Höst & vinter",
-        text: "Mörka morgnar: ljus, väckning och kvällsro.",
-      },
-      {
-        href: "/halsa/sovmask-eller-white-noise",
-        label: "Jämförelse",
-        text: "Sovmask eller white noise? Ljus eller ljud – välj rätt först.",
-      },
-    ],
-    metaTitle: "Sov bättre i höst: mörker, ljud och tyngd | Elins val",
-    metaDescription: "Sovmask, white noise eller tyngdtäcke? Elins guide till höstens tre sömnspakar – vilken som löser vad och var du börjar. (Annons)",
+    id: "sov-battre-i-host", href: sleepEnvironmentGuide.path, category: "halsa", label: "Guide",
+    title: sleepEnvironmentGuide.title, intro: sleepEnvironmentGuide.intro, badges: ["Behov före köp"],
+    productSlugs: sleepEnvironmentGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Vad saknar du?", choiceText: sleepEnvironmentGuide.decision.payMoreWhen,
+    rows: [], verdict: sleepEnvironmentGuide.decision.noPurchaseWhen, faqItems: [...sleepEnvironmentGuide.questions],
+    relatedLinks: sleepEnvironmentGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${sleepEnvironmentGuide.title} | Elins val`, metaDescription: sleepEnvironmentGuide.intro,
   },
   {
     id: "luftfuktare-guide",
