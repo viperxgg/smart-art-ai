@@ -5936,7 +5936,7 @@ export const waveGuides: WaveGuide[] = [
     category: "skonhet",
     label: "Guide",
     title: "Grooming för honom",
-    intro: "Sex prisvärda groomingval, från skäggolja till rakapparat.",
+    intro: "Vilket moment saknar du i din rutin? Underlag för tre Philips-modeller; övriga produkter återstår att granska.",
     badges: [
       "För honom",
       "Grooming",
@@ -5984,7 +5984,7 @@ export const waveGuides: WaveGuide[] = [
         ],
       },
     ],
-    verdict: "OneBlade är mest flexibel, skäggtrimmern mest ekonomisk.",
+    verdict: "Välj efter uppgift och behåll det som fungerar. Ingen vinnare i totalkostnad är verifierad.",
     faqItems: [
       {
         question: "Grooming guide.",
@@ -6008,7 +6008,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Grooming för honom | Elins val",
-    metaDescription: "Grooming för honom: Sex prisvärda groomingval, från skäggolja till rakapparat. (Annons)",
+    metaDescription: "Grooming för honom: Vilket moment saknar du i din rutin? Underlag för tre Philips-modeller; övriga produkter återstår att granska. (Annons)",
   },
   {
     id: "oneblade-eller-skaggtrimmer",
@@ -7823,7 +7823,7 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/grooming",
-    description: "Sex prisvärda groomingval, från skäggolja till rakapparat.",
+    description: "Vilket moment saknar du i din rutin? Underlag för tre Philips-modeller; övriga produkter återstår att granska.",
     productSlugs: [
       "loreal-skaggolja",
       "winsea-nasharstrimmer",
