@@ -1,3 +1,4 @@
+import { philipsWakeDecision } from "@/lib/wake-up-light-eller-solnedgangslampa";
 import { daylightLampDecision } from "@/lib/daylight-lamp-decision";
 import { footMassageDecision } from "@/lib/fotmassage-eller-massagepistol";
 import { readingLightDecision } from "@/lib/laslampa-eller-led-list";
@@ -67,6 +68,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "philips-wake-up-light") return {
+    ...philipsWakeDecision,
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Ljusväckning eller dekorationsljus?", href: "/halsa/wake-up-light-eller-solnedgangslampa" },
+  };
   const daylightOption = daylightLampDecision.options.find(option => option.productSlug === slug);
   if (daylightOption) return {
     ...daylightLampDecision, options: [daylightOption],

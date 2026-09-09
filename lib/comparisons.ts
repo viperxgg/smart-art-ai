@@ -408,14 +408,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "wake-up-light-eller-solnedgangslampa",
-    title: "Wake-up light eller solnedgångslampa?",
-    shortTitle: "Wake-up light eller solnedgångslampa",
+    title: "Ljusväckning eller dekorationsljus – vad behöver du?",
+    shortTitle: "Behöver du ljusväckning?",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/wake-up-light-eller-solnedgangslampa",
-    description: "En mjukare väckning på morgonen mot varmt, gyllene kvällsmys.",
+    description: "Dokumenterade Philips-reglage och en tydlig modelllucka för Aniepaa. Se vad som behöver kontrolleras före köp.",
     productSlugs: ["philips-wake-up-light","solnedgangslampa"],
-    badges: ["Ljus & stämning","Morgon vs kväll","Sömn & mys"],
+    badges: ["Behov före köp", "Modellkontroll"],
   },
   {
     slug: "satinmossa-eller-sidenorngott",
