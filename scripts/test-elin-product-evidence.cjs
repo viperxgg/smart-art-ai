@@ -97,7 +97,7 @@ console.log(JSON.stringify({pickProjection:'PASS',totalPicks:allPicks.length,cur
 
 const {getApprovedProductImage}=load('lib/product-image-approvals.ts');
 const {getProductImageNote}=load('lib/product-image-notes.ts');
-const mediaBindings={getApprovedProductImage,getProductImageNote,getProductDecision,getProductPageHref,
+const mediaBindings={DecisionProductImage,getApprovedProductImage,getProductImageNote,getProductDecision,getProductPageHref,
  getEditorialScore:()=>null,categoryLabel:new Map(),
  Link:props=>React.createElement('a',props),Image:()=>React.createElement('img',{'data-test':'product-image'}),
  ScoreBadge:()=>null,ArrowUpRight:()=>null,ProductDecisionPreview:()=>null,
@@ -107,13 +107,25 @@ const {SearchResultCard}=extractFunctions('components/ProductSearch.tsx',['Searc
 for(const product of products){
  const cardMarkup=renderToStaticMarkup(React.createElement(ProductCard,{product}));
  const searchMarkup=renderToStaticMarkup(React.createElement(SearchResultCard,{product}));
- if(!getApprovedProductImage(product.slug,product.image)){
+ if(!getApprovedProductImage(product.slug,product.image) && !imageApprovals.getApprovedDecisionImage(product.slug,getProductDecision(product.slug)?.options[0].model)){
   assert.ok(!cardMarkup.includes('<img')&&!searchMarkup.includes('<img'),'Unapproved catalogue media must not render');
  }
  assert.ok(cardMarkup.includes('<button'),'Save control survives missing image');
  assert.ok(cardMarkup.includes('href="'+getProductPageHref(product)+'"'));
  assert.ok(searchMarkup.includes('href="'+getProductPageHref(product)+'"'));
 }
+const io6Product=products.find(product=>product.slug==='oralb-io6');
+for(const Component of [ProductCard,SearchResultCard]){
+ const markup=renderToStaticMarkup(React.createElement(Component,{product:{...io6Product,title:'WRONG_LEGACY_TITLE',image:'/unapproved.jpg'}}));
+ assert.ok(markup.includes('data-licensed-product-image'));
+ assert.ok(!markup.includes('/unapproved.jpg')&&!markup.includes('WRONG_LEGACY_TITLE'));
+ for(const credit of [licensedIo6.source,licensedIo6.attribution.licenseUrl,licensedIo6.attribution.originalPost]) assert.ok(markup.includes(credit));
+}
+const {FeaturedPick}=extractFunctions('components/ProductDiscoveryLanding.tsx',['FeaturedPick'],{
+ ...mediaBindings,getElinProductEvidence,ProductBadges:()=>null,PriceTierBadge:()=>null,AmazonPurchaseCta:()=>null,Heart:()=>null,
+});
+const featuredMarkup=renderToStaticMarkup(React.createElement(FeaturedPick,{product:io6Product,priority:false,showAffiliateCta:false}));
+for(const credit of [licensedIo6.source,licensedIo6.attribution.licenseUrl,licensedIo6.attribution.originalPost]) assert.ok(featuredMarkup.includes(credit));
 console.log(JSON.stringify({mediaCards:'PASS',products:products.length,scope:'ProductCard and SearchResultCard SSR; no rights approval inferred'}));
 const entries=products.map(product=>({product,evidence:getElinProductEvidence(product)}));
 const reviewed=entries.filter(entry=>entry.evidence.decision);
@@ -235,14 +247,16 @@ const { ProductReviewPage } = extractFunctions('app/(products)/_components/Produ
 
 // Comparison templates must not revive stale catalogue claims or media in product previews.
 const { ComparisonProductCard } = extractFunctions('components/ComparisonProductCard.tsx', ['ComparisonProductCard'], {
-  getElinProductEvidence, getApprovedProductImage,
+  DecisionProductImage, getElinProductEvidence, getApprovedProductImage,
   Link: props => React.createElement('a', props, props.children),
   Image: () => React.createElement('img', {'data-test':'product-image'}),
 });
 for (const {product,evidence} of entries) {
   const dirty = {...product,summary:'STALE_COMPARISON_CLAIM',image:'/unapproved-comparison-image.webp'};
   const markup = renderToStaticMarkup(React.createElement(ComparisonProductCard,{product:dirty,href:getProductPageHref(product)}));
-  assert.ok(!markup.includes('STALE_COMPARISON_CLAIM') && !markup.includes('<img'));
+  assert.ok(!markup.includes('STALE_COMPARISON_CLAIM') && !markup.includes('/unapproved-comparison-image.webp'));
+  if(product.slug!=='oralb-io6') assert.ok(!markup.includes('<img'));
+  else for(const credit of [licensedIo6.source,licensedIo6.attribution.licenseUrl,licensedIo6.attribution.originalPost]) assert.ok(markup.includes(credit));
   assert.ok(markup.includes('href="'+getProductPageHref(product)+'"'));
   if (evidence.decision) {
     for (const text of [evidence.title,evidence.decision.options[0].chooseIf,evidence.decision.options[0].avoidIf]) {
@@ -250,6 +264,7 @@ for (const {product,evidence} of entries) {
     }
   } else assert.ok(markup.includes('saknar granskat beslutsunderlag'));
 }
+assert.ok(!renderToStaticMarkup(React.createElement(ComparisonProductCard,{product:io6Product,href:'/',hideImage:true})).includes('<img'),'Explicit duplicate-image suppression must survive attributed media');
 assert.throws(()=>ComparisonProductCard({product:products[0],href:'/',option:{productSlug:'wrong'}}),/model mismatch/);
 const {validateDecisionRecord}=load('lib/decision-record.ts');
 const {ereaderDecision,getGuideDecision}=load('lib/ereader-decision.ts');

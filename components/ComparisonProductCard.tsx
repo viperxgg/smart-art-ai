@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { DecisionOption } from "@/lib/decision-record";
 import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 import { getApprovedProductImage } from "@/lib/product-image-approvals";
+import { DecisionProductImage } from "@/components/DecisionProductImage";
 import type { Product } from "@/lib/products";
 
 /** Product evidence can support a preview without approving the whole comparison. */
@@ -25,6 +26,7 @@ export function ComparisonProductCard({ product, href, option, hideImage = false
       </div> : null}
       <div className="p-5 sm:p-6">
         <h2 className="font-display text-2xl font-bold leading-tight">Passar {title} dig?</h2>
+        {!hideImage ? <DecisionProductImage productSlug={product.slug} model={title} /> : null}
         {currentOption ? <dl className="mt-4 space-y-3 leading-relaxed">
           <div><dt className="font-bold">Välj om …</dt><dd>{currentOption.chooseIf}</dd></div>
           <div><dt className="font-bold">Avstå om …</dt><dd>{currentOption.avoidIf}</dd></div>

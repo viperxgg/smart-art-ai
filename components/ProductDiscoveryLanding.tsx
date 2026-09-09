@@ -1,4 +1,5 @@
 import { getApprovedProductImage } from "@/lib/product-image-approvals";
+import { DecisionProductImage } from "@/components/DecisionProductImage";
 import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 import type { CSSProperties } from "react";
 import Image from "next/image";
@@ -1896,6 +1897,7 @@ function FeaturedPick({
         <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
           <Link href={productHref}>{getElinProductEvidence(product).title}</Link>
         </h3>
+        <DecisionProductImage productSlug={product.slug} model={getElinProductEvidence(product).title} />
         <p className="mt-3 text-sm leading-6 text-ink-soft">{product.summary}</p>
         <ProductBadges badges={product.badges.slice(0, 3)} className="mt-4" />
         <div className="mt-4 flex flex-wrap gap-2">

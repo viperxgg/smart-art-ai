@@ -1,6 +1,7 @@
 "use client";
 
 import { getApprovedProductImage } from "@/lib/product-image-approvals";
+import { DecisionProductImage } from "@/components/DecisionProductImage";
 
 
 import Image from "next/image";
@@ -62,6 +63,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
         <h3 className="editorial-color-kiss mt-3 font-display text-[2.05rem] leading-tight tracking-[-0.025em] sm:text-4xl sm:tracking-[-0.035em]">
           {title}
         </h3>
+        <DecisionProductImage productSlug={product.slug} model={title} />
         <ProductDecisionPreview slug={product.slug} />
         {score ? (
           <ScoreBadge score={score} className="mt-5" />

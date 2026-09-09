@@ -1,6 +1,7 @@
 "use client";
 
 import { getApprovedProductImage } from "@/lib/product-image-approvals";
+import { DecisionProductImage } from "@/components/DecisionProductImage";
 
 
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -182,6 +183,7 @@ function SearchResultCard({ product }: { product: Product }) {
         <h2 className="editorial-color-kiss mt-2 font-display text-2xl leading-tight">
           <Link href={href}>{title}</Link>
         </h2>
+        <DecisionProductImage productSlug={product.slug} model={title} />
         <ProductDecisionPreview slug={product.slug} />
         {score ? <ScoreBadge score={score} className="mt-4" /> : null}
         <Link
