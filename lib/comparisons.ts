@@ -1012,9 +1012,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     categoryLabel: "Skönhet",
     href: "/skonhet/varmluftsborste-eller-plattang",
     description:
-      "Volym och böj i ett steg mot slätt, polerat och mer mångsidigt.",
+      "Borstning med luft efter förtorkning eller plattor på torrt hår – vilket moment behöver du?",
     productSlugs: ["babyliss-as126e-varmluftsborste", "remington-s8540-plattang"],
-    badges: ["Allt-i-ett", "Slätt & polerat", "Volym"],
+    badges: ["Förtorkning", "Tillbehör", "Temperaturval"],
   },
   {
     slug: "aftersun-eller-aloe-vera",

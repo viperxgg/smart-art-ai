@@ -1,3 +1,4 @@
+import { airStylerDecision } from "@/lib/air-styler-decisions";
 import { straightenerSizeDecision } from "@/lib/mini-or-full-straightener";
 import { straightOrCurlDecision } from "@/lib/platta-eller-locka";
 import { manualOrAutoCurlingDecision } from "@/lib/manual-or-auto-curling";
@@ -49,6 +50,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const airStylerOption = airStylerDecision.options.find(item => item.productSlug === slug);
+  if (airStylerOption) return {
+    ...airStylerDecision, options: [airStylerOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vilka borsttillbehör behöver du?", href: "/skonhet/varmluftsborste" },
+  };
   if (slug === "remington-mini-s2880-plattang") return {
     ...straightenerSizeDecision, options: [straightenerSizeDecision.options[1]],
     category: { label: "Skönhet", href: "/skonhet" },

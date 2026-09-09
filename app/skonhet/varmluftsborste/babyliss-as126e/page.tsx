@@ -1,3 +1,4 @@
+import { airStylerDecision } from "@/lib/air-styler-decisions";
 import { notFound } from "next/navigation";
 
 import { VarmluftsborsteProductReviewPage } from "@/app/skonhet/varmluftsborste/_components/VarmluftsborsteProductReviewPage";
@@ -17,15 +18,9 @@ export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
+      title: `Passar ${airStylerDecision.options[0].model} dig?`,
+      description: airStylerDecision.options[0].chooseIf,
       url: `${siteConfig.url}${pick.path}`,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 1200,
-        height: 900,
-        alt: pick.product.imageAlt,
-      },
     })
   : {};
 
