@@ -1,3 +1,4 @@
+import { getApprovedProductImage } from "@/lib/product-image-approvals";
 import { getProductDecision } from "@/lib/product-decisions";
 import { ProductDecisionPreview } from "@/components/ProductDecisionPreview";
 import Image from "next/image";
@@ -32,12 +33,12 @@ export const metadata = createSeoMetadata({
   description: sommarSectionCopy.metaDescription,
   url: pageUrl,
   type: "website",
-  image: {
+  image: getApprovedProductImage(sommarPicks[0].productSlug, sommarPicks[0].cardImage) ? {
     url: `${siteConfig.url}${sommarPicks[0].cardImage}`,
     width: 900,
     height: 675,
     alt: sommarPicks[0].cardImageAlt,
-  },
+  } : undefined,
 });
 
 export const revalidate = 3600;
@@ -85,7 +86,7 @@ export default function SommarPage() {
                     href={pick.href}
                     className="group flex min-h-28 items-center gap-4 rounded-[1.6rem] border border-line bg-surface/72 p-3 shadow-[0_18px_54px_rgba(185,131,166,0.12)] transition hover:-translate-y-0.5 hover:bg-surface"
                   >
-                    <span className="relative h-20 w-20 shrink-0 overflow-hidden rounded-[1.1rem] bg-bg">
+                    {getApprovedProductImage(pick.productSlug, pick.cardImage) ? <span className="relative h-20 w-20 shrink-0 overflow-hidden rounded-[1.1rem] bg-bg">
                       <Image
                         src={pick.cardImage}
                         alt={pick.cardImageAlt}
@@ -93,7 +94,7 @@ export default function SommarPage() {
                         sizes="80px"
                         className="object-cover"
                       />
-                    </span>
+                    </span> : null}
                     <span className="min-w-0">
                       <span className="block text-xs font-black uppercase tracking-[0.12em] text-rose">
                         {pick.cardBadge}
@@ -160,7 +161,7 @@ export default function SommarPage() {
                   key={pick.productSlug}
                   className="overflow-hidden rounded-[2rem] border border-line bg-surface/72 p-3 shadow-[0_24px_70px_rgba(185,131,166,0.12)]"
                 >
-                  <Link
+                  {getApprovedProductImage(pick.productSlug, pick.cardImage) ? <Link
                     href={pick.href}
                     className="relative block aspect-[4/3] overflow-hidden rounded-[1.55rem] bg-rose/8"
                     aria-label={`Läs Elins omdöme om ${pick.product.title}`}
@@ -177,7 +178,7 @@ export default function SommarPage() {
                     <span className="absolute left-3 top-3 rounded-full bg-surface/90 px-3 py-1.5 text-xs font-black text-wine shadow-[0_12px_32px_rgba(91,52,65,0.12)] backdrop-blur">
                       {pick.cardBadge}
                     </span>
-                  </Link>
+                  </Link> : null}
 
                   <div className="p-3">
                     <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
@@ -242,7 +243,7 @@ export default function SommarPage() {
                     key={pick.productSlug}
                     className="overflow-hidden rounded-[2rem] border border-line bg-surface/72 p-3 shadow-[0_24px_70px_rgba(185,131,166,0.12)]"
                   >
-                    <Link
+                    {getApprovedProductImage(pick.productSlug, pick.cardImage) ? <Link
                       href={pick.href}
                       className="relative block aspect-[4/3] overflow-hidden rounded-[1.55rem] bg-rose/8"
                       aria-label={`Läs Elins omdöme om ${pick.product.title}`}
@@ -258,7 +259,7 @@ export default function SommarPage() {
                       <span className="absolute left-3 top-3 rounded-full bg-surface/90 px-3 py-1.5 text-xs font-black text-wine shadow-[0_12px_32px_rgba(91,52,65,0.12)] backdrop-blur">
                         {pick.cardBadge}
                       </span>
-                    </Link>
+                    </Link> : null}
 
                     <div className="p-3">
                       <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">

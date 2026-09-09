@@ -9229,7 +9229,7 @@ export const resaSectionCopy = {
   eyebrow: "🧳 Elins reseval",
   title: "Packa lätt för kabinväskan",
   intro:
-    "Res smart utan att släpa på halva lägenheten. Här samlar Elin små reseprylar som faktiskt löser ett problem i kabinväskan – och säger också åt dig vad du kan hoppa över. Med Elins poäng och vad tusentals Amazon-köpare tycker.",
+    "Vad saknas inför din resa? Börja med bagageregler, mått och det du redan har. Läs modelluppgifter och begränsningar före köp; flera produktunderlag är fortfarande ofullständiga.",
   metaTitle:
     "Elins reseval – smarta prylar för kabinväskan | Elins val",
   metaDescription:

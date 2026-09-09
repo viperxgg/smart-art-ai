@@ -1,3 +1,4 @@
+import { getApprovedProductImage } from "@/lib/product-image-approvals";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Luggage } from "lucide-react";
@@ -58,7 +59,7 @@ export const metadata = createSeoMetadata({
   description: resaSectionCopy.metaDescription,
   url: pageUrl,
   type: "website",
-  image: resaPicks[0]
+  image: resaPicks[0] && getApprovedProductImage(resaPicks[0].productSlug, resaPicks[0].cardImage)
     ? {
         url: `${siteConfig.url}${resaPicks[0].cardImage}`,
         width: 900,
@@ -143,7 +144,7 @@ export default function SommarResaPage() {
                     key={pick.productSlug}
                     className="overflow-hidden rounded-[2rem] border border-line bg-surface/72 p-3 shadow-[0_24px_70px_rgba(185,131,166,0.12)]"
                   >
-                    <Link
+                    {getApprovedProductImage(pick.productSlug, pick.cardImage) ? <Link
                       href={pick.href}
                       className="relative block aspect-[4/3] overflow-hidden rounded-[1.55rem] bg-rose/8"
                       aria-label={`Läs Elins omdöme om ${pick.product.title}`}
@@ -160,7 +161,7 @@ export default function SommarResaPage() {
                       <span className="absolute left-3 top-3 rounded-full bg-surface/90 px-3 py-1.5 text-xs font-black text-wine shadow-[0_12px_32px_rgba(91,52,65,0.12)] backdrop-blur">
                         {pick.cardBadge}
                       </span>
-                    </Link>
+                    </Link> : null}
 
                     <div className="p-3">
                       <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
