@@ -386,14 +386,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "varmedyna-eller-massagekudde",
-    title: "Värmedyna eller massagekudde?",
+    title: "Värmedyna eller massagekudde – vilken funktion behöver du?",
     shortTitle: "Värmedyna eller massagekudde",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/varmedyna-eller-massagekudde",
-    description: "Mjuk, avslappnande värme mot aktiv knådning av spända muskler.",
+    description: "HK Comfort och RF-NM067: värmeformat, knådning och dokumenterade användningsgränser. Ingen behandlingsvinnare.",
     productSlugs: ["beurer-varmedyna","renpho-massagekudde"],
-    badges: ["Avslappning","Värme vs knådning","Återhämtning"],
+    badges: ["Funktion och begränsningar", "Källor och modeller"],
   },
   {
     slug: "bikinitrimmer-eller-rakhyvel",

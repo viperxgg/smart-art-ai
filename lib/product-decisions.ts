@@ -1,3 +1,4 @@
+import { heatOrMassageDecision } from "@/lib/varmedyna-eller-massagekudde";
 import { personalWarmthDecision } from "@/lib/personal-warmth-decision";
 import { purifierModelDecision } from "@/lib/purifier-model-decision";
 import { humidifierMethodDecision } from "@/lib/humidifier-method-decision";
@@ -72,6 +73,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "renpho-massagekudde") return {
+    ...heatOrMassageDecision, options: [heatOrMassageDecision.options[1]],
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Värmedyna eller massagekudde?", href: "/halsa/varmedyna-eller-massagekudde" },
+  };
+
   const warmthOption = personalWarmthDecision.options.find(option => option.productSlug === slug);
   if (warmthOption) return {
     ...personalWarmthDecision, options: [warmthOption],
