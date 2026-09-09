@@ -1,3 +1,4 @@
+import { epilatorDecision } from "@/lib/epilator-decision";
 import { epilatorRazorDecision } from "@/lib/epilator-eller-rakhyvel";
 import { facialBodyDecision } from "@/lib/ansiktstrimmer-eller-rakapparat-dam";
 import { beardOilDecision } from "@/lib/beard-oil-decision";
@@ -61,6 +62,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "panasonic-es-ey30-epilator") return {
+    ...epilatorDecision, options: [epilatorDecision.options[0]],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vilka tillbehör behöver du?", href: "/skonhet/epilator" },
+  };
   const epilatorRazorOption = epilatorRazorDecision.options.find(item => item.productSlug === slug);
   if (epilatorRazorOption) return {
     ...epilatorRazorDecision, options: [epilatorRazorOption],
