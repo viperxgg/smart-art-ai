@@ -1,12 +1,6 @@
-// Generated for wave-build-2026-07. Do not edit by hand.
-import { createWaveGuideMetadata, WaveGuidePage } from "@/app/(products)/_components/WaveGuidePage";
-
-const guideId = "billig-eller-dyr-water-flosser";
-
-export const revalidate = 3600;
-
-export const metadata = createWaveGuideMetadata(guideId);
-
-export default function HalsaBilligEllerDyrWaterFlosserPage() {
-  return <WaveGuidePage guideId={guideId} />;
-}
+import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { waterFlosserValueGuide } from "@/lib/water-flosser-decision";
+import { createSeoMetadata } from "@/lib/metadata";
+import { siteConfig } from "@/lib/site";
+export const metadata = createSeoMetadata({ title: `${waterFlosserValueGuide.title} | Elins val`, description: waterFlosserValueGuide.intro, url: `${siteConfig.url}${waterFlosserValueGuide.path}` });
+export default function WaterFlosserGuidePage() { return <DecisionGuidePage guide={waterFlosserValueGuide} />; }

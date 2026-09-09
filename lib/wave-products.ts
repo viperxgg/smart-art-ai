@@ -1748,7 +1748,7 @@ export const philipsPowerFlosserProduct: Product = {
   badges: [
     "Vattenflosser",
     "Philips",
-    "Bänkenhet",
+    "Sladdlös referens",
   ],
   image: "/products/philips-power-flosser/philips-power-flosser-thumbnail.webp",
   imageAlt: "Philips Power Flosser 3000",
@@ -1771,15 +1771,15 @@ export const philipsPowerFlosserProduct: Product = {
   ],
   amazonUrl: "https://amzn.to/4wpZHBl",
   pageHref: "/halsa/munskoljare/philips-3000",
-  summary: "En stationär water flosser för dig som vill ha mer vattentank och stabil känsla vid handfatet.",
+  summary: "Referens HX3826/33: sladdlös mundusch med 250 ml-behållare. Kontrollera exakt handelspaket.",
   evaluation: {
     headline: "Elins snabba koll",
     intro: "Elin går igenom Philips Power Flosser 3000 utifrån köparnas omdömen, specifikationerna och den praktiska kompromissen.",
-    verdict: "Stabilt premiumval för dig som har plats vid handfatet.",
+    verdict: "Kontrollera modell, laddning och reservmunstycken före köp.",
     checks: [
       {
         label: "Varför den är med",
-        text: "En stationär water flosser för dig som vill ha mer vattentank och stabil känsla vid handfatet.",
+        text: "Referens HX3826/33: sladdlös mundusch med 250 ml-behållare. Kontrollera exakt handelspaket.",
       },
       {
         label: "Det Elin inte vill överdriva",
@@ -1798,7 +1798,7 @@ export const philipsPowerFlosserProduct: Product = {
     {
       label: "Format",
       caption: "Munvård",
-      value: "Bänkenhet",
+      value: "Sladdlös referens",
     },
     {
       label: "Passar bäst",
@@ -1821,11 +1821,11 @@ export const philipsPowerFlosserProduct: Product = {
   },
   ugcVideos: [],
   uses: [
-    "En stationär water flosser för dig som vill ha mer vattentank och stabil känsla vid handfatet.",
+    "Referens HX3826/33: sladdlös mundusch med 250 ml-behållare. Kontrollera exakt handelspaket.",
     "Passar dig som söker munvård med tydlig kompromiss innan köp.",
   ],
   peopleLike: [
-    "Vattenflosser, Philips, Bänkenhet",
+    "Vattenflosser, Philips, Sladdlös referens",
     "Tydligare val när du jämför mot alternativen i samma guide.",
   ],
   honestCheck: [

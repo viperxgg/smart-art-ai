@@ -1,3 +1,4 @@
+import { waterFlosserDecision, waterFlosserGuide, waterFlosserValueGuide } from "@/lib/water-flosser-decision";
 import { toothbrushOverviewGuide, toothbrushBrandGuide, toothbrushUpgradeGuide } from "@/lib/toothbrush-decision";
 import { personalWarmthGuide } from "@/lib/personal-warmth-decision";
 import { purifierComparisonGuide, purifierOverviewGuide } from "@/lib/purifier-model-decision";
@@ -1394,156 +1395,36 @@ export const waveProductPicks: SommarPick[] = [
     ],
   },
   {
-    productSlug: "philips-power-flosser",
-    product: productBySlug("philips-power-flosser"),
+    productSlug: "philips-power-flosser", product: productBySlug("philips-power-flosser"),
     href: "/halsa/munskoljare/philips-3000",
-    cardBadge: "Vattenflosser",
-    cardHook: "En stationär water flosser för dig som vill ha mer vattentank och stabil känsla vid handfatet.",
     cardImage: "/products/philips-power-flosser/philips-power-flosser-thumbnail.webp",
     cardImageAlt: "Philips Power Flosser 3000",
-    badge: "Elins mellanval",
-    headline: "Philips Power Flosser 3000",
-    shortBody: "Quad Stream — 4 strålar per puls. Caveaten: Vattentanken är liten (sladdlös design) — påfyllning mitt i för hela munnen är vanligt…",
-    valueHook: "Vattenflosser · Philips · Bänkenhet",
-    valueStatement: "Elin lyfter Philips Power Flosser 3000 för quad Stream — 4 strålar per puls. Den viktiga kompromissen är vattentanken är liten (sladdlös design) — påfyllning mitt i för hela munnen är vanligt…",
-    passFor: [
-      "Quad Stream — 4 strålar per puls",
-      "Sladdlös + resefodral",
-      "Tandställning/Invisalign-vänlig",
-      "Best Seller, 2 400 betyg, FBA",
-    ],
-    caution: "Vattentanken är liten (sladdlös design) — påfyllning mitt i för hela munnen är vanligt. Och det STÄNKER tills man lär sig tekniken (böj dig över handfatet, stäng läpparna). är premium — budgetalternativ gör grundjobbet för en tredjedel.",
-    usageGuidance: {
-      title: "Före köp av Philips Power Flosser 3000",
-      text: "Kontrollera först: vattentanken är liten (sladdlös design) — påfyllning mitt i för hela munnen är vanligt… Välj den främst om styrkan — quad Stream — 4 strålar per puls — är viktigare för dig.",
-    },
-    verdict: "Stabilt premiumval för dig som har plats vid handfatet.",
-    amazonSummary: "Amazon visar 4.4 av 5 (2 360 betyg).",
-    amazonQuotes: [
-      {
-        text: "Testade efter tandborstning — fick ÄNDÅ ut saker. Kan inte gå tillbaka nu.",
-        attribution: "— Oliver, 5★ (juni 2026)",
-      },
-      {
-        text: "har Invisalign — perfekt för rengöring efter mat (bättre än plackers).",
-        attribution: "— Sam T., 5★ (bättre än plackers)",
-      },
-      {
-        text: "Bra effekt!",
-        attribution: "— Joost, 4★ (juni 2026)",
-      },
-      {
-        text: "snabb leverans.",
-        attribution: "— Abu Al zoz, 5★ (dec 2025)",
-      },
-    ],
-    faqItems: [
-      {
-        question: "Är Philips Power Flosser 3000 värd att köpa?",
-        answer: "Philips Power Flosser 3000 passar bäst när quad Stream — 4 strålar per puls. Den passar sämre om caveaten träffar din vardag: vattentanken är liten (sladdlös design) — påfyllning mitt i för hela munnen är vanligt…",
-      },
-      {
-        question: "Varför visar ni inget pris?",
-        answer: "Priset behöver kontrolleras live hos Amazon, men värdet ligger främst i sladdlös + resefodral. För Philips Power Flosser 3000 är det klokt att jämföra alternativen om kompromissen ovan känns viktigare än styrkan.",
-      },
-      {
-        question: "Har Elin testat produkten själv?",
-        answer: "Nej. Elin jämför specifikationer, riktiga köparomdömen och dokumenterade nackdelar — och säger det öppet när en produkt inte passar.",
-      },
-    ],
     reviewSectionId: "philips-power-flosser-recensioner",
     reviewFormId: "philips-power-flosser-skriv-recension",
     targetKeyword: "philips power flosser 3000",
-    metaTitle: "Philips Power Flosser 3000 test 2026 | Elins val",
-    metaDescription: "Funderar du på Philips Power Flosser 3000? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
+    cardBadge: "Modellunderlag", cardHook: waterFlosserDecision.options[0].chooseIf,
+    badge: "Kontrollera variant", headline: waterFlosserDecision.options[0].model, shortBody: waterFlosserDecision.options[0].variant,
+    valueHook: "Behov och reservdelar", valueStatement: waterFlosserDecision.payMoreWhen,
+    passFor: [waterFlosserDecision.options[0].chooseIf], caution: waterFlosserDecision.options[0].avoidIf,
+    verdict: waterFlosserDecision.noPurchaseWhen, amazonSummary: "Aktuellt erbjudande är inte verifierat.",
+    amazonQuotes: [], faqItems: [...waterFlosserGuide.questions],
+    metaTitle: `${waterFlosserDecision.options[0].model} | Elins val`, metaDescription: waterFlosserDecision.options[0].variant,
   },
   {
-    productSlug: "surfou-water-flosser",
-    product: productBySlug("surfou-water-flosser"),
+    productSlug: "surfou-water-flosser", product: productBySlug("surfou-water-flosser"),
     href: "/halsa/munskoljare/surfou",
-    cardBadge: "Portabel",
-    cardHook: "En billigare portabel water flosser för dig som vill testa kategorin utan stationär bänkenhet.",
     cardImage: "/products/surfou-water-flosser/surfou-water-flosser-thumbnail.webp",
     cardImageAlt: "SURFOU water flosser",
-    badge: "Elins budgetval",
-    headline: "SURFOU water flosser",
-    shortBody: "IPX7 — kan användas i duschen. Caveaten: Trycket är HÖGT även för en budgetmodell — börja på Soft-läget (köpare varnar för fel riktning)…",
-    valueHook: "Portabel · Budget · Vattentank",
-    valueStatement: "Elin lyfter SURFOU water flosser för iPX7 — kan användas i duschen. Den viktiga kompromissen är trycket är HÖGT även för en budgetmodell — börja på Soft-läget (köpare varnar för fel riktning)…",
-    passFor: [
-      "IPX7 — kan användas i duschen",
-      "USB-laddning + 5 munstycken",
-      "1 900 betyg, FBA",
-      "Puls 1400 – 2000/min; 4 lägen",
-    ],
-    caution: "Trycket är HÖGT även för en budgetmodell — börja på Soft-läget (köpare varnar för fel riktning). Okänt märke = kvalitetslotteri i enstaka fall (1★-recensioner om enheter som slutar fungera) — men för en tredjedel av Philips-priset gör den grundjobbet.",
-    usageGuidance: {
-      title: "Före köp av SURFOU water flosser",
-      text: "Kontrollera först: trycket är HÖGT även för en budgetmodell — börja på Soft-läget (köpare varnar för fel riktning)… Välj den främst om styrkan — iPX7 — kan användas i duschen — är viktigare för dig.",
-    },
-    verdict: "Helt okej budgettest, men inte lika stabil som bänkenhet.",
-    amazonSummary: "Amazon visar 4.1 av 5 (1 909 betyg).",
-    amazonQuotes: [
-      {
-        text: "trasig/missnöjd — budgetmärkes-risken.",
-        attribution: "— Bra, 1★ (juni 2026)",
-      },
-      {
-        text: "Gillar inte tandtråd så det här är ett superalternativ. Dock lite kraftigt med starkaste strålen.",
-        attribution: "— Jörgen Lindh, 5★ (dec 2024)",
-      },
-      {
-        text: "Väldigt högt tryck! Kan orsaka smärta om den riktas fel. Väldigt bra köp.",
-        attribution: "— Springgarden, 5★ (okt 2025)",
-      },
-      {
-        text: "laddbar, funkar tillfredsställande.",
-        attribution: "— Mikael José Rodrigues, 4★ (sep 2023)",
-      },
-    ],
-    faqItems: [
-      {
-        question: "Är SURFOU water flosser värd att köpa?",
-        answer: "SURFOU water flosser passar bäst när iPX7 — kan användas i duschen. Den passar sämre om caveaten träffar din vardag: trycket är HÖGT även för en budgetmodell — börja på Soft-läget (köpare varnar för fel riktning)…",
-      },
-      {
-        question: "Varför visar ni inget pris?",
-        answer: "Priset behöver kontrolleras live hos Amazon, men värdet ligger främst i uSB-laddning + 5 munstycken. För SURFOU water flosser är det klokt att jämföra alternativen om kompromissen ovan känns viktigare än styrkan.",
-      },
-      {
-        question: "Har Elin testat produkten själv?",
-        answer: "Nej. Elin jämför specifikationer, riktiga köparomdömen och dokumenterade nackdelar — och säger det öppet när en produkt inte passar.",
-      },
-    ],
     reviewSectionId: "surfou-water-flosser-recensioner",
     reviewFormId: "surfou-water-flosser-skriv-recension",
     targetKeyword: "surfou water flosser",
-    metaTitle: "SURFOU water flosser test 2026 | Elins val",
-    metaDescription: "Funderar du på SURFOU water flosser? Elin går igenom vad köparna älskar, vad som stör och vem den passar. (Annons)",
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
+    cardBadge: "Modellunderlag", cardHook: waterFlosserDecision.options[1].chooseIf,
+    badge: "Kontrollera variant", headline: waterFlosserDecision.options[1].model, shortBody: waterFlosserDecision.options[1].variant,
+    valueHook: "Behov och reservdelar", valueStatement: waterFlosserDecision.payMoreWhen,
+    passFor: [waterFlosserDecision.options[1].chooseIf], caution: waterFlosserDecision.options[1].avoidIf,
+    verdict: waterFlosserDecision.noPurchaseWhen, amazonSummary: "Aktuellt erbjudande är inte verifierat.",
+    amazonQuotes: [], faqItems: [...waterFlosserGuide.questions],
+    metaTitle: `${waterFlosserDecision.options[1].model} | Elins val`, metaDescription: waterFlosserDecision.options[1].variant,
   },
   {
     productSlug: "beurer-fb35-fotbad",
@@ -4698,146 +4579,22 @@ export const waveGuides: WaveGuide[] = [
     metaTitle: `${toothbrushUpgradeGuide.title} | Elins val`, metaDescription: toothbrushUpgradeGuide.intro,
   },
   {
-    id: "munskoljare",
-    href: "/halsa/munskoljare",
-    category: "halsa",
-    label: "Guide",
-    title: "Munsköljare: billig eller dyr water flosser?",
-    intro: "Philips bänkenhet mot SURFOU portabel budgetmodell.",
-    badges: [
-      "Water flosser",
-      "Munvård",
-      "Budget vs dyr",
-    ],
-    productSlugs: [
-      "philips-power-flosser",
-      "surfou-water-flosser",
-    ],
-    pickBadges: {
-      "philips-power-flosser": "Vattenflosser",
-      "surfou-water-flosser": "Portabel",
-    },
-    choiceTitle: "Stationär eller portabel?",
-    choiceText: "Philips passar bättre om rutinen sker hemma vid handfatet. SURFOU är billigare och mer portabel men enklare.",
-    rows: [
-      {
-        label: "Format",
-        values: [
-          "Bänkenhet",
-          "Portabel",
-        ],
-      },
-      {
-        label: "Styrka",
-        values: [
-          "Stabil känsla",
-          "Låg tröskel",
-        ],
-      },
-      {
-        label: "Caveat",
-        values: [
-          "Tar plats",
-          "Mindre tank",
-        ],
-      },
-    ],
-    verdict: "Philips är starkare om du vet att du kommer använda den. SURFOU är rimlig om du vill testa billigt.",
-    faqItems: [
-      {
-        question: "Munsköljare guide.",
-        answer: "Philips passar bättre om rutinen sker hemma vid handfatet. SURFOU är billigare och mer portabel men enklare.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
-    metaTitle: "Munsköljare: billig eller dyr water flosser? | Elins val",
-    metaDescription: "Munsköljare: billig eller dyr water flosser?: Philips bänkenhet mot SURFOU portabel budgetmodell. (Annons)",
+    id: "munskoljare", href: waterFlosserGuide.path, category: "halsa", label: "Guide",
+    title: waterFlosserGuide.title, intro: waterFlosserGuide.intro, badges: ["Behov och reservdelar"],
+    productSlugs: waterFlosserGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Vad behöver du?", choiceText: waterFlosserGuide.decision.payMoreWhen,
+    rows: [], verdict: waterFlosserGuide.decision.noPurchaseWhen, faqItems: [...waterFlosserGuide.questions],
+    relatedLinks: waterFlosserGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${waterFlosserGuide.title} | Elins val`, metaDescription: waterFlosserGuide.intro,
   },
   {
-    id: "billig-eller-dyr-water-flosser",
-    href: "/halsa/billig-eller-dyr-water-flosser",
-    category: "halsa",
-    label: "Jämförelse",
-    title: "Billig eller dyr water flosser?",
-    intro: "Portabel budget mot stationär Philips-modell.",
-    badges: [
-      "Water flosser",
-      "Budget",
-      "Philips",
-    ],
-    productSlugs: [
-      "surfou-water-flosser",
-      "philips-power-flosser",
-    ],
-    pickBadges: {
-      "surfou-water-flosser": "Portabel",
-      "philips-power-flosser": "Vattenflosser",
-    },
-    choiceTitle: "Betala för stabilitet",
-    choiceText: "Det dyrare valet ger mer stationär känsla och större vardagsstabilitet. Budgetvalet är bäst för test och liten plats.",
-    rows: [
-      {
-        label: "Prislogik",
-        values: [
-          "Billigare test",
-          "Mer stabil rutin",
-        ],
-      },
-      {
-        label: "Tank",
-        values: [
-          "Mindre",
-          "Större",
-        ],
-      },
-      {
-        label: "Elins caveat",
-        values: [
-          "Enklare känsla",
-          "Tar plats",
-        ],
-      },
-    ],
-    verdict: "Philips vinner på långsiktig rutin. SURFOU vinner på låg tröskel.",
-    faqItems: [
-      {
-        question: "Billig eller dyr water flosser?",
-        answer: "Det dyrare valet ger mer stationär känsla och större vardagsstabilitet. Budgetvalet är bäst för test och liten plats.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
-    metaTitle: "Billig eller dyr water flosser? | Elins val",
-    metaDescription: "Billig eller dyr water flosser?: Portabel budget mot stationär Philips-modell. (Annons)",
+    id: "billig-eller-dyr-water-flosser", href: waterFlosserValueGuide.path, category: "halsa", label: "Guide",
+    title: waterFlosserValueGuide.title, intro: waterFlosserValueGuide.intro, badges: ["Behov och reservdelar"],
+    productSlugs: waterFlosserValueGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Vad behöver du?", choiceText: waterFlosserValueGuide.decision.payMoreWhen,
+    rows: [], verdict: waterFlosserValueGuide.decision.noPurchaseWhen, faqItems: [...waterFlosserValueGuide.questions],
+    relatedLinks: waterFlosserValueGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${waterFlosserValueGuide.title} | Elins val`, metaDescription: waterFlosserValueGuide.intro,
   },
   {
     id: "fotbad",
@@ -6933,7 +6690,7 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/munskoljare",
-    description: "Philips bänkenhet mot SURFOU portabel budgetmodell.",
+    description: "Jämför behov, laddning och reservmunstycken; SURFOU-underlag saknas.",
     productSlugs: [
       "philips-power-flosser",
       "surfou-water-flosser",
@@ -6951,7 +6708,7 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/billig-eller-dyr-water-flosser",
-    description: "Portabel budget mot stationär Philips-modell.",
+    description: "Vilka dokumenterade skillnader motiverar ett högre pris?",
     productSlugs: [
       "surfou-water-flosser",
       "philips-power-flosser",

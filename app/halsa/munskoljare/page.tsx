@@ -1,12 +1,6 @@
-// Generated for wave-build-2026-07. Do not edit by hand.
-import { createWaveGuideMetadata, WaveGuidePage } from "@/app/(products)/_components/WaveGuidePage";
-
-const guideId = "munskoljare";
-
-export const revalidate = 3600;
-
-export const metadata = createWaveGuideMetadata(guideId);
-
-export default function HalsaMunskoljarePage() {
-  return <WaveGuidePage guideId={guideId} />;
-}
+import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { waterFlosserGuide } from "@/lib/water-flosser-decision";
+import { createSeoMetadata } from "@/lib/metadata";
+import { siteConfig } from "@/lib/site";
+export const metadata = createSeoMetadata({ title: `${waterFlosserGuide.title} | Elins val`, description: waterFlosserGuide.intro, url: `${siteConfig.url}${waterFlosserGuide.path}` });
+export default function WaterFlosserGuidePage() { return <DecisionGuidePage guide={waterFlosserGuide} />; }

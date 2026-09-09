@@ -1,3 +1,4 @@
+import { waterFlosserDecision } from "@/lib/water-flosser-decision";
 import { toothbrushDecision } from "@/lib/toothbrush-decision";
 import { heatOrMassageDecision } from "@/lib/varmedyna-eller-massagekudde";
 import { personalWarmthDecision } from "@/lib/personal-warmth-decision";
@@ -74,6 +75,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "philips-power-flosser") return {
+    ...waterFlosserDecision, options: [waterFlosserDecision.options[0]],
+    sources: waterFlosserDecision.sources.filter(source => source.id !== "W3"),
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Behöver du en mundusch?", href: "/halsa/munskoljare" },
+  };
   const toothbrushOption = toothbrushDecision.options.find(option => option.productSlug === slug);
   if (toothbrushOption) return {
     ...toothbrushDecision, options: [toothbrushOption],
