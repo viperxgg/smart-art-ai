@@ -34,6 +34,20 @@ function load(file) {
   return module.exports;
 }
 const { products, getProductPageHref } = load('lib/products.ts');
+const imageApprovals = load('lib/product-image-approvals.ts');
+const licensedIo6 = imageApprovals.getApprovedDecisionImage('oralb-io6', 'Oral-B iO Series 6');
+assert.ok(licensedIo6, 'Reviewed iO6 photograph must be reachable for the matching model');
+assert.equal(require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root, 'public', licensedIo6.image))).digest('hex'), licensedIo6.sha256, 'Approved bytes must match the reviewed image');
+assert.equal(imageApprovals.getApprovedDecisionImage('oralb-io6', 'Oral-B iO Series 9'), undefined, 'Another model cannot inherit the image');
+assert.equal(imageApprovals.getApprovedDecisionImage('oralb-tandborste', 'Oral-B iO Series 6'), undefined, 'Another product cannot inherit the image');
+assert.equal(imageApprovals.getApprovedProductImage('oralb-io6', licensedIo6.image), undefined, 'Consumers without attribution support must not expose scoped imagery');
+const { DecisionProductImage } = extractFunctions('components/DecisionProductImage.tsx', ['DecisionProductImage'], {
+  getApprovedDecisionImage: imageApprovals.getApprovedDecisionImage,
+  Image: ({ src, alt }) => React.createElement('img', { src, alt }),
+});
+const licensedImageHtml = renderToStaticMarkup(React.createElement(DecisionProductImage, { productSlug: 'oralb-io6', model: 'Oral-B iO Series 6' }));
+for (const credit of [licensedIo6.attribution.creator, licensedIo6.attribution.title, licensedIo6.attribution.originalPost, licensedIo6.attribution.licenseUrl, licensedIo6.source]) assert.ok(licensedImageHtml.includes(credit), 'Displayed photo must retain its attribution');
+assert.equal(renderToStaticMarkup(React.createElement(DecisionProductImage, { productSlug: 'oralb-io6', model: 'unmatched' })), '');
 const { filterProducts } = load('lib/product-search.ts');
 const slugs = query => Array.from(filterProducts(query), product => product.slug);
 assert.deepEqual(slugs('Cetaphil').sort(), ['cetaphil-gentle-cleanser', 'cetaphil-moisturizing-cream'], 'Competitor mentions must not contaminate direct brand search');

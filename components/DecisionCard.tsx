@@ -1,4 +1,5 @@
 import type { DecisionRecord } from "@/lib/decision-record";
+import { DecisionProductImage } from "@/components/DecisionProductImage";
 
 export function DecisionCard({ decision }: { decision: DecisionRecord }) {
   return (
@@ -13,6 +14,7 @@ export function DecisionCard({ decision }: { decision: DecisionRecord }) {
               <div><dt className="font-bold">Välj om …</dt><dd>{option.chooseIf}</dd></div>
               <div><dt className="font-bold">Avstå om …</dt><dd>{option.avoidIf}</dd></div>
             </dl>
+            <DecisionProductImage productSlug={option.productSlug} model={option.model} />
             <p className="mt-4 border-t border-line pt-3 text-sm leading-relaxed text-ink-soft"><span className="font-bold">Modell och variant: </span>{option.variant}</p>
             <p className="mt-4 text-sm">Underlag: {option.sourceIds.map((id, index) => (
               <span key={id}>{index ? ", " : ""}<a href={`#decision-source-${id}`} className="text-wine underline underline-offset-4">{id}</a></span>
