@@ -1136,7 +1136,7 @@ export const proironNeopreneDumbbellsProduct: Product = {
   slug: "proiron-neoprenhantlar",
   title: "PROIRON neoprenhantlar – fasta vikter",
   category: "traning",
-  asin: "B01BEVZZZS",
+  asin: "B01C9MU966",
   brand: "PROIRON",
   price: "Se aktuellt pris på Amazon",
   badges: [
@@ -1161,7 +1161,7 @@ export const proironNeopreneDumbbellsProduct: Product = {
       label: "Vikter",
     },
   ],
-  amazonUrl: "https://amzn.to/4vJMOS3",
+  amazonUrl: "https://www.amazon.se/dp/B01C9MU966?tag=azzamkhalaf-21",
   pageHref: "/traning/hantlar/proiron-neopren",
   summary: "Fasta hantlar för dig som vet vilken vikt dina övningar kräver. Vikt och antal i butikspaketet återstår att matcha.",
   evaluation: {
