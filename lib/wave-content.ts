@@ -1,3 +1,4 @@
+import { purifierComparisonGuide, purifierOverviewGuide } from "@/lib/purifier-model-decision";
 import { humidifierMethodGuide, humidifierOverviewGuide } from "@/lib/humidifier-method-decision";
 import { sleepEnvironmentGuide } from "@/lib/sleep-environment-decision";
 import { morningLightGuide } from "@/lib/morning-light-decision";
@@ -4435,146 +4436,22 @@ export const waveGuides: WaveGuide[] = [
     metaTitle: `${humidifierMethodGuide.title} | Elins val`, metaDescription: humidifierMethodGuide.intro,
   },
   {
-    id: "luftrenare-guide",
-    href: "/halsa/luftrenare-guide",
-    category: "halsa",
-    label: "Guide",
-    title: "Luftrenare: Levoit eller Philips?",
-    intro: "Levoit Core 200S mot Philips 600: smartare appval eller kompakt märkesval.",
-    badges: [
-      "Luftrenare",
-      "Levoit",
-      "Philips",
-    ],
-    productSlugs: [
-      "levoit-core-200s-luftrenare",
-      "philips-600-luftrenare",
-    ],
-    pickBadges: {
-      "levoit-core-200s-luftrenare": "Elins val",
-      "philips-600-luftrenare": "HEPA-filter",
-    },
-    choiceTitle: "Så väljer du",
-    choiceText: "Välj Levoit om smart styrning och beprövning lockar. Välj Philips om du vill ha ett kompakt, enkelt märkesval.",
-    rows: [
-      {
-        label: "Profil",
-        values: [
-          "Smart och beprövad",
-          "Kompakt och enkel",
-        ],
-      },
-      {
-        label: "Filter",
-        values: [
-          "Kontrollera filterpris",
-          "Kontrollera filterpris",
-        ],
-      },
-      {
-        label: "Copygräns",
-        values: [
-          "Inga medicinska löften",
-          "Inga medicinska löften",
-        ],
-      },
-    ],
-    verdict: "Jämför kapacitet, filterkostnad och funktioner som du faktiskt behöver. Vi har inte en verifierad poäng som rangordnar dessa produkter.",
-    faqItems: [
-      {
-        question: "Luftrenare guide med lågmäld copy.",
-        answer: "Välj Levoit om smart styrning och beprövning lockar. Välj Philips om du vill ha ett kompakt, enkelt märkesval.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
-    metaTitle: "Luftrenare: Levoit eller Philips? | Elins val",
-    metaDescription: "Luftrenare: Levoit eller Philips?: Levoit Core 200S mot Philips 600: smartare appval eller kompakt märkesval. (Annons)",
+    id: "luftrenare-guide", href: purifierOverviewGuide.path, category: "halsa", label: "Guide",
+    title: purifierOverviewGuide.title, intro: purifierOverviewGuide.intro, badges: ["Filter och behov"],
+    productSlugs: purifierOverviewGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Vad behöver du?", choiceText: purifierOverviewGuide.decision.payMoreWhen,
+    rows: [], verdict: purifierOverviewGuide.decision.noPurchaseWhen, faqItems: [...purifierOverviewGuide.questions],
+    relatedLinks: purifierOverviewGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${purifierOverviewGuide.title} | Elins val`, metaDescription: purifierOverviewGuide.intro,
   },
   {
-    id: "levoit-eller-philips-luftrenare",
-    href: "/halsa/levoit-eller-philips-luftrenare",
-    category: "halsa",
-    label: "Jämförelse",
-    title: "Levoit eller Philips luftrenare?",
-    intro: "Smart luftrenare mot kompakt luftrenare, utan stora hälsolöften.",
-    badges: [
-      "Luftrenare",
-      "Filter",
-      "Kompakt",
-    ],
-    productSlugs: [
-      "levoit-core-200s-luftrenare",
-      "philips-600-luftrenare",
-    ],
-    pickBadges: {
-      "levoit-core-200s-luftrenare": "Elins val",
-      "philips-600-luftrenare": "HEPA-filter",
-    },
-    choiceTitle: "Välj efter styrning",
-    choiceText: "Levoit är starkare om du vill ha app och etablerat val. Philips passar om du vill hålla det enkelt.",
-    rows: [
-      {
-        label: "Styrning",
-        values: [
-          "Smart",
-          "Enklare",
-        ],
-      },
-      {
-        label: "Styrka",
-        values: [
-          "Ingen verifierad poäng",
-          "Kompakt märke",
-        ],
-      },
-      {
-        label: "Caveat",
-        values: [
-          "Filterkostnad",
-          "Filterkostnad",
-        ],
-      },
-    ],
-    verdict: "Levoit är förstavalet, Philips är alternativet när formatet avgör.",
-    faqItems: [
-      {
-        question: "Levoit eller Philips luftrenare?",
-        answer: "Levoit är starkare om du vill ha app och etablerat val. Philips passar om du vill hålla det enkelt.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
-    metaTitle: "Levoit eller Philips luftrenare? | Elins val",
-    metaDescription: "Levoit eller Philips luftrenare?: Smart luftrenare mot kompakt luftrenare, utan stora hälsolöften. (Annons)",
+    id: "levoit-eller-philips-luftrenare", href: purifierComparisonGuide.path, category: "halsa", label: "Jämförelse",
+    title: purifierComparisonGuide.title, intro: purifierComparisonGuide.intro, badges: ["Filter och behov"],
+    productSlugs: purifierComparisonGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Vad behöver du?", choiceText: purifierComparisonGuide.decision.payMoreWhen,
+    rows: [], verdict: purifierComparisonGuide.decision.noPurchaseWhen, faqItems: [...purifierComparisonGuide.questions],
+    relatedLinks: purifierComparisonGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${purifierComparisonGuide.title} | Elins val`, metaDescription: purifierComparisonGuide.intro,
   },
   {
     id: "tyngdtacke-guide",

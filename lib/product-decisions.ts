@@ -1,3 +1,4 @@
+import { purifierModelDecision } from "@/lib/purifier-model-decision";
 import { humidifierMethodDecision } from "@/lib/humidifier-method-decision";
 import { mantaMaskDecision } from "@/lib/sovmask-eller-white-noise";
 import { philipsWakeDecision } from "@/lib/wake-up-light-eller-solnedgangslampa";
@@ -70,6 +71,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "philips-600-luftrenare") return {
+    ...purifierModelDecision, options: [purifierModelDecision.options[1]],
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Core 200S eller AC0650/10?", href: "/halsa/levoit-eller-philips-luftrenare" },
+  };
   if (slug === "beurer-lb200-luftfuktare") return {
     ...humidifierMethodDecision, options: [humidifierMethodDecision.options[1]],
     category: { label: "Hälsa & vardag", href: "/halsa" },
