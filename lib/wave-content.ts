@@ -1,3 +1,4 @@
+import { ereaderGuide } from "@/lib/ereader-decision";
 import { waterFlosserDecision, waterFlosserGuide, waterFlosserValueGuide } from "@/lib/water-flosser-decision";
 import { toothbrushOverviewGuide, toothbrushBrandGuide, toothbrushUpgradeGuide } from "@/lib/toothbrush-decision";
 import { personalWarmthGuide } from "@/lib/personal-warmth-decision";
@@ -5184,77 +5185,13 @@ export const waveGuides: WaveGuide[] = [
     metaDescription: "Julklapp till honom: Elins presenttips – grooming och smarta vardagsuppgraderingar i tre prisnivåer. (Annons)",
   },
   {
-    "id": "kindle-eller-kobo",
-    "href": "/halsa/kindle-eller-kobo",
-    "category": "halsa",
-    "label": "Jämförelse",
-    "title": "Kindle eller Kobo – var finns dina böcker?",
-    "intro": "Börja med böckerna och ditt bibliotek. Här jämför vi Paperwhite med 7-tumsskärm och 16 GB mot Kobo Clara BW, inte alla modeller från de två märkena.",
-    "badges": [
-      "E-böcker",
-      "Bibliotekskontroll",
-      "Inget eget test"
-    ],
-    "productSlugs": [
-      "kindle-paperwhite",
-      "kobo-clara-bw"
-    ],
-    "pickBadges": {
-      "kindle-paperwhite": "Paperwhite 7 tum",
-      "kobo-clara-bw": "Clara BW"
-    },
-    "choiceTitle": "Kontrollera en bok innan du köper",
-    "choiceText": "Välj en titel du faktiskt vill läsa. Kontrollera format, konto och bibliotekets utlåningsväg för just den läsplattan. Jämför sedan skärmstorlek och totalkostnad.",
-    "rows": [
-      {
-        "label": "Modell i jämförelsen",
-        "values": [
-          "Paperwhite, 7 tum, 16 GB",
-          "Clara BW, 6 tum, 16 GB"
-        ]
-      },
-      {
-        "label": "Libby/OverDrive",
-        "values": [
-          "Kindle-utlåning gäller amerikanska bibliotek",
-          "Kobo listar stöd i Sverige; biblioteket måste erbjuda tjänsten"
-        ]
-      },
-      {
-        "label": "Biblio",
-        "values": [
-          "Ingen verifierad låneväg i denna granskning",
-          "Kontrollera bibliotekets export och överföring via dator"
-        ]
-      },
-      {
-        "label": "Butikslänk matchad?",
-        "values": [
-          "Nej",
-          "Nej"
-        ]
-      }
-    ],
-    "verdict": "En fungerande väg till dina böcker väger tyngre än ett allmänt bäst-betyg. Behåll din nuvarande läsplatta om den redan löser uppgiften.",
-    "faqItems": [
-      {
-        "question": "Fungerar Kobo med alla svenska bibliotek?",
-        "answer": "Nej, det kan inte förutsättas. Kontrollera om biblioteket erbjuder OverDrive eller möjliggör export av en kompatibel e-bok. Biblio anger att exportfunktionen måste vara aktiverad av biblioteket."
-      },
-      {
-        "question": "Kan jag skicka svenska Libby-lån till Kindle?",
-        "answer": "Libby anger att Kindle Books gäller amerikanska bibliotek. Köp inte en Kindle med antagandet att samma väg fungerar för ett svenskt bibliotek."
-      }
-    ],
-    "relatedLinks": [
-      {
-        "href": "/halsa",
-        "label": "Hälsa & vardag",
-        "text": "Fler jämförelser för vardagen."
-      }
-    ],
-    "metaTitle": "Kindle eller Kobo – böcker och svenska bibliotek | Elins val",
-    "metaDescription": "Paperwhite eller Clara BW? Kontrollera bibliotek, bokformat och modell innan köp. Skillnader, begränsningar och när din nuvarande läsplatta räcker."
+    id: "kindle-eller-kobo", href: ereaderGuide.path, category: "halsa", label: "Jämförelse",
+    title: ereaderGuide.title, intro: ereaderGuide.intro, badges: ["Böcker före hårdvara"],
+    productSlugs: ereaderGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Kontrollera en bok före köp", choiceText: ereaderGuide.decision.swedishContext,
+    rows: [], verdict: ereaderGuide.decision.noPurchaseWhen, faqItems: [...ereaderGuide.questions],
+    relatedLinks: ereaderGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${ereaderGuide.title} | Elins val`, metaDescription: ereaderGuide.intro,
   },
   {
     id: "doftljus-eller-aromadiffuser",
@@ -6831,12 +6768,12 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "kindle-eller-kobo",
-    title: "Kindle eller Kobo?",
+    title: "Kindle eller Kobo – var finns dina böcker?",
     shortTitle: "Kindle eller Kobo?",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/kindle-eller-kobo",
-    description: "Amazon-ekosystem mot mer öppen läslogik.",
+    description: "Kontrollera en bestämd bok, bibliotekets tjänst och överföringen före köp.",
     productSlugs: [
       "kindle-paperwhite",
       "kobo-clara-bw",
