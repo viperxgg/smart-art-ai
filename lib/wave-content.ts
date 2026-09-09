@@ -6016,7 +6016,7 @@ export const waveGuides: WaveGuide[] = [
     category: "skonhet",
     label: "Jämförelse",
     title: "OneBlade eller skäggtrimmer?",
-    intro: "Hybridblad med löpande kostnad mot självslipande trimmerblad.",
+    intro: "QP2834/31 eller BT3206/14: behöver du kantformning eller fler skägglängder?",
     badges: [
       "OneBlade",
       "Skäggtrimmer",
@@ -6030,8 +6030,8 @@ export const waveGuides: WaveGuide[] = [
       "philips-oneblade-360": "Hybrid",
       "philips-skaggtrimmer-3000": "Självslipande blad",
     },
-    choiceTitle: "Bladekonomin avgör",
-    choiceText: "OneBlade är bäst för hybridjobb och kanter. Skäggtrimmern är billigare över tid för längdkontroll.",
+    choiceTitle: "Vilket moment saknar du?",
+    choiceText: "QP2834/31 har fyra stubbkammar och våt/torr användning. BT3206/14 har längdvred upp till 10 mm. Totalkostnaden är inte jämförd.",
     rows: [
       {
         label: "Styrka",
@@ -6055,11 +6055,11 @@ export const waveGuides: WaveGuide[] = [
         ],
       },
     ],
-    verdict: "Välj OneBlade för flexibilitet, skäggtrimmer för ekonomi.",
+    verdict: "Välj efter önskad längd och användning; behåll verktyget du har om det räcker.",
     faqItems: [
       {
         question: "OneBlade eller skäggtrimmer?",
-        answer: "OneBlade är bäst för hybridjobb och kanter. Skäggtrimmern är billigare över tid för längdkontroll.",
+        answer: "QP2834/31 har fyra stubbkammar och våt/torr användning. BT3206/14 har längdvred upp till 10 mm. Totalkostnaden är inte jämförd.",
       },
       {
         question: "Varför visar ni inga priser?",
@@ -6079,7 +6079,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "OneBlade eller skäggtrimmer? | Elins val",
-    metaDescription: "OneBlade eller skäggtrimmer?: Hybridblad med löpande kostnad mot självslipande trimmerblad. (Annons)",
+    metaDescription: "OneBlade eller skäggtrimmer?: QP2834/31 eller BT3206/14: behöver du kantformning eller fler skägglängder? (Annons)",
   },
   {
     id: "rakapparat-eller-oneblade",
@@ -7845,7 +7845,7 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/oneblade-eller-skaggtrimmer",
-    description: "Hybridblad med löpande kostnad mot självslipande trimmerblad.",
+    description: "QP2834/31 eller BT3206/14: behöver du kantformning eller fler skägglängder?",
     productSlugs: [
       "philips-oneblade-360",
       "philips-skaggtrimmer-3000",

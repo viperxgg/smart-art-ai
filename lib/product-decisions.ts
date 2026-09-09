@@ -1,3 +1,4 @@
+import { groomingDecision } from "@/lib/grooming-decision";
 import { footSpaDecision } from "@/lib/foot-spa-decision";
 import { bodyOilDecision } from "@/lib/bio-oil-eller-jojobaolja";
 import { jojobaDecision } from "@/lib/jojoba-decision";
@@ -55,6 +56,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const groomingOption = groomingDecision.options.find(item => item.productSlug === slug);
+  if (groomingOption) return {
+    ...groomingDecision, options: [groomingOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Kanter eller längdkontroll?", href: "/skonhet/oneblade-eller-skaggtrimmer" },
+  };
   if (slug === "beurer-fb35-fotbad") return {
     ...footSpaDecision,
     category: { label: "Skönhet", href: "/skonhet" },
