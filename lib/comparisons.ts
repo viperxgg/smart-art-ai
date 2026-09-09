@@ -353,14 +353,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "texturspray-eller-volympuder",
-    title: "Texturspray eller volympuder?",
+    title: "Texturspray eller puder – vilket grepp vill du ha?",
     shortTitle: "Texturspray eller volympuder",
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/texturspray-eller-volympuder",
-    description: "Grepp och matt struktur i hela håret mot snabbt rotlyft där håret är plattast.",
+    description: "Båda kan användas vid rötter och längder. Jämför lättare spraytextur med matt puder och tydligt grepp.",
     productSlugs: ["maria-nila-texturspray","osis-volympuder"],
-    badges: ["Hårstyling","Struktur vs lyft","Volym"],
+    badges: ["Spray eller puder", "Känsla och grepp", "Behov före köp"],
   },
   {
     slug: "leave-in-eller-harolja",

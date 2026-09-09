@@ -1,3 +1,4 @@
+import { textureDecision } from "@/lib/texturspray-eller-volympuder";
 import { epilatorDecision } from "@/lib/epilator-decision";
 import { epilatorRazorDecision } from "@/lib/epilator-eller-rakhyvel";
 import { facialBodyDecision } from "@/lib/ansiktstrimmer-eller-rakapparat-dam";
@@ -62,6 +63,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const textureOption = textureDecision.options.find(item => item.productSlug === slug);
+  if (textureOption) return {
+    ...textureDecision, options: [textureOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Texturspray eller puder?", href: "/skonhet/texturspray-eller-volympuder" },
+  };
   if (slug === "panasonic-es-ey30-epilator") return {
     ...epilatorDecision, options: [epilatorDecision.options[0]],
     category: { label: "Skönhet", href: "/skonhet" },
