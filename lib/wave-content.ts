@@ -1,4 +1,4 @@
-import { daylightLampGuide } from "@/lib/daylight-lamp-decision";
+import { daylightLampGuide, daylightLampOverviewGuide } from "@/lib/daylight-lamp-decision";
 // Generated for wave-build-2026-07. Do not edit by hand.
 import type { CategoryProductGroup } from "@/lib/categoryGroups";
 import type { ComparisonEntry } from "@/lib/comparisons";
@@ -4367,88 +4367,17 @@ export const waveGuides: WaveGuide[] = [
   },
   {
     id: "dagsljuslampa",
-    href: "/halsa/dagsljuslampa",
-    category: "halsa",
-    label: "Guide",
-    title: "Dagsljuslampa för mörka morgnar",
-    intro: "När september drar igång blir de svenska morgnarna snabbt mörkare – frukost och skrivbord i samma dunkel. En dagsljuslampa ger en rejäl dos extra ljus precis där du sitter, utan att bygga om belysningen hemma. Elin jämför två kompakta Beurer-lampor som är enkla att ställa fram när mörkret kommer och ställa undan i mars.",
-    badges: [
-      "Extra ljus",
-      "Beurer",
-      "Mörka morgnar",
-    ],
-    productSlugs: [
-      "beurer-tl30-dagsljuslampa",
-      "beurer-tl35-dagsljuslampa",
-    ],
-    pickBadges: {
-      "beurer-tl30-dagsljuslampa": "Resefodral",
-      "beurer-tl35-dagsljuslampa": "Kompakt",
-    },
-    choiceTitle: "TL30 eller TL35?",
-    choiceText: "Välj TL30 om du vill ha det mest beprövade valet – liten, lätt och med resefodral så att den kan följa med mellan hem, jobb och resor. Välj TL35 om lampan ska stå still på skrivbordet: panelformatet ger en stadig plats bredvid skärmen under hela den mörka säsongen.",
-    rows: [
-      {
-        label: "Styrka",
-        values: [
-          "Mest beprövad – flest omdömen",
-          "Kompakt panel för skrivbordet",
-        ],
-      },
-      {
-        label: "Placering",
-        values: [
-          "Flyttas lätt mellan platser",
-          "Fast plats vid skärmen",
-        ],
-      },
-      {
-        label: "Bäst för",
-        values: [
-          "Dig som växlar plats och reser",
-          "Dig med fast morgonrutin vid skrivbordet",
-        ],
-      },
-    ],
-    verdict: "Elin väljer TL30 som förstaval – mest beprövad och lättast att flytta dit morgonen faktiskt börjar. TL35 vinner när lampan ska ha en fast plats på skrivbordet. Båda gör samma grundjobb: mer ljus i synfältet när morgnarna är som mörkast.",
-    faqItems: [
-      {
-        question: "Vad gör en dagsljuslampa?",
-        answer: "Den ger en koncentrerad dos extra ljus på nära håll – betydligt mer än vanlig rumsbelysning. Många ställer den vid frukosten eller skrivbordet under höstens och vinterns mörka morgnar, som ett enkelt sätt att få dagsljusliknande ljus i synfältet.",
-      },
-      {
-        question: "När och hur länge används den?",
-        answer: "Vanligast är en stund på morgonen, medan du äter frukost eller jobbar – lampan ska stå i synfältet men du ska inte stirra in i den. Börja med en kortare stund och känn efter vad som passar din rutin.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa/beurer-tl30-eller-tl35",
-        label: "Jämförelse",
-        text: "Beurer TL30 eller TL35? Hela duellen i detalj.",
-      },
-      {
-        href: "/halsa/morka-morgnar",
-        label: "Höst & vinter",
-        text: "Mörka morgnar: ljus, väckning och kvällsro.",
-      },
-      {
-        href: "/halsa/wake-up-light-eller-solnedgangslampa",
-        label: "Jämförelse",
-        text: "Wake-up light eller solnedgångslampa? Ljus för väckning i stället.",
-      },
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-    ],
-    metaTitle: "Dagsljuslampa för mörka morgnar | Elins val",
-    metaDescription: "Dagsljuslampa när morgnarna mörknar: Elin jämför Beurer TL30 och TL35 – extra ljus vid frukost och skrivbord under höstens mörka månader. (Annons)",
+    href: daylightLampOverviewGuide.path, category: "halsa", label: "Guide",
+    title: daylightLampOverviewGuide.title, intro: daylightLampOverviewGuide.intro,
+    badges: ["Behov och placering", "Modellbundna instruktioner"],
+    productSlugs: daylightLampOverviewGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Vilka funktioner behöver du?",
+    choiceText: daylightLampOverviewGuide.decision.payMoreWhen,
+    rows: [], verdict: daylightLampOverviewGuide.decision.noPurchaseWhen,
+    faqItems: [...daylightLampOverviewGuide.questions],
+    relatedLinks: daylightLampOverviewGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: "Dagsljuslampa – vad behöver du före köp? | Elins val",
+    metaDescription: daylightLampOverviewGuide.intro,
   },
   {
     id: "beurer-tl30-eller-tl35",

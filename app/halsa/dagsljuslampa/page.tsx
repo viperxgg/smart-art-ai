@@ -1,13 +1,14 @@
-// Content refresh 2026-08-29: fyllig septembercopy för höstmörkret + interna länkar (morka-morgnar, wake-up-light).
-// Generated for wave-build-2026-07. Do not edit by hand.
-import { createWaveGuideMetadata, WaveGuidePage } from "@/app/(products)/_components/WaveGuidePage";
+import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { daylightLampOverviewGuide } from "@/lib/daylight-lamp-decision";
+import { createSeoMetadata } from "@/lib/metadata";
+import { siteConfig } from "@/lib/site";
 
-const guideId = "dagsljuslampa";
-
-export const revalidate = 3600;
-
-export const metadata = createWaveGuideMetadata(guideId);
+export const metadata = createSeoMetadata({
+  title: "Dagsljuslampa – vad behöver du före köp? | Elins val",
+  description: daylightLampOverviewGuide.intro,
+  url: `${siteConfig.url}${daylightLampOverviewGuide.path}`,
+});
 
 export default function HalsaDagsljuslampaPage() {
-  return <WaveGuidePage guideId={guideId} />;
+  return <DecisionGuidePage guide={daylightLampOverviewGuide} />;
 }

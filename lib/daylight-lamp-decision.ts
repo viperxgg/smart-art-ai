@@ -52,3 +52,15 @@ export const daylightLampGuide: DecisionGuide = {
     { href: "/halsa", text: "Fler beslut för vardagen" },
   ],
 };
+
+export const daylightLampOverviewGuide: DecisionGuide = {
+  ...daylightLampGuide,
+  path: "/halsa/dagsljuslampa",
+  title: "Dagsljuslampa – vad behöver du kontrollera före köp?",
+  intro: "Börja med avsedd användning, placering och modellens instruktioner. Här jämför vi Beurer TL 30 och TL 35 utifrån dokumenterade funktioner, inte kundbetyg eller löften om hur du kommer att må.",
+  related: [
+    { href: daylightLampGuide.path, text: "TL 30 eller TL 35 – vilka reglage behöver du?" },
+    ...daylightLampGuide.related.filter(link => link.href !== "/halsa/dagsljuslampa"),
+    { href: "/jamforelser", text: "Fler jämförelser" },
+  ],
+};
