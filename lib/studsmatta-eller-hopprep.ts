@@ -1,32 +1,16 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  dhFitlifeTrampolineProduct,
-  portentumHoppRepProduct,
-} from "@/lib/products";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
+import { trampolineRopeDecision } from "@/lib/home-cardio-decisions";
 
-export const studsmattaEllerHopprepFaqItems: DecisionComparisonFaqItem[] = [{"question":"Vad är skillnaden på studsmatta och hopprep?","answer":"En fitness-studsmatta ger skonsam, ledvänlig kondition där du studsar mjukt, medan ett hopprep ger snabb, effektiv pulsträning men med mer stöt i varje hopp. Båda tränar kondition hemma."},{"question":"Vilken är skonsammast för knän och rygg?","answer":"Studsmattan är klart skonsammast eftersom mattan tar upp stöten. Hopprep ger mer belastning i varje landning, vilket kan kännas i knän och vader om du hoppar länge."},{"question":"Vilken tar minst plats?","answer":"Hopprepet tar minst plats – det ryms i fickan och kan tas med överallt. En studsmatta kräver en bit golv men är fortfarande lätt att ställa undan."},{"question":"Vilken ger bäst konditionsträning?","answer":"Båda höjer pulsen effektivt. Hopprep är väldigt effektivt på kort tid, medan studsmattan gör det lättare att hålla igång längre eftersom det känns skonsammare och roligare."}];
-
-export const studsmattaEllerHopprepComparisonRows = [["Snabba signaler","Skonsam studsträning; ledvänlig","Billig hoppträning; snabb puls"],["Ledvänligt","Ja – mjuk studs","Mer stöt i varje hopp"],["Plats","Tar en bit golv","Tar nästan ingen plats"],["Pris","Mellan","Budget"],["Kul-faktor","Hög – lekfullt","Enkelt och rakt på"],["Ta med på resa","Nej","Ja – ryms i fickan"],] as const;
-
-export const studsmattaEllerHopprepPicks: [DecisionComparisonPick, DecisionComparisonPick] = [
-  {
-    product: dhFitlifeTrampolineProduct,
-    path: "/traning/studsmatta",
-    badge: "Skonsamt & kul",
-    headline: "DH FitLife studsmatta – ledvänlig kondition",
-    shortBody: "Välj studsmattan om du vill ha skonsam, rolig kondition. Studsandet är snällt mot knän och rygg och gör det lätt att hålla igång längre.",
-  },
-  {
-    product: portentumHoppRepProduct,
-    path: "/traning/hopprep",
-    badge: "Billigt & effektivt",
-    headline: "PORTENTUM hopprep – hög puls på minimal yta",
-    shortBody: "Välj hopprepet om du vill ha maximal effekt på minimal plats och budget. Det ger snabbt hög puls och ryms i fickan.",
-  },
-];
-
-export const studsmattaEllerHopprepRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/traning/studsmatta","label":"Studsmatta","text":"Läs Elins recension av DH FitLife studsmatta."},{"href":"/traning/hopprep","label":"Hopprep","text":"Läs Elins recension av PORTENTUM hopprep."},{"href":"/traning","label":"Träning","text":"Se alla Elins val för hemmaträning."}];
+export const trampolineRopeGuide: DecisionGuide = {
+  parent: { name: "Träning", href: "/traning" }, path: "/traning/studsmatta-eller-hopprep",
+  title: "Studsmatta eller hopprep – vad ryms under träning och efteråt?",
+  intro: "Ett rep går lättare att packa undan, men kräver ändå fri yta när det roterar. En 102 cm-studsmatta behöver plats även mellan passen. Välj efter rörelsen och bostaden, inte ett obestyrkt löfte om maximal effekt på minimal yta.",
+  decision: trampolineRopeDecision, productPaths: ["/traning/studsmatta", "/traning/hopprep"],
+  questions: [
+    { question: "Är PORTENTUM-repet 2,7 eller 2,8 meter?", answer: "Listningen anger båda. Vi har inte mätt det och kan inte avgöra den användbara längden från texten ensam. Bekräfta måttet om längdskillnaden påverkar om repet passar dig." },
+    { question: "Tar hopprep nästan ingen plats?", answer: "Det gäller förvaring, inte själva hoppningen. Repet behöver fri passage runt kroppen och över huvudet. Kontrollera även lampor, möbler och andra hinder." },
+    { question: "Är studsmattan tyst nog för en lägenhet?", answer: "Vi har inte mätt ljud eller vibrationer i bostäder. Gummifötter och leverantörens ord om låg ljudnivå bevisar inte hur grannarna påverkas." },
+    { question: "Vilket redskap förbränner flest kalorier?", answer: "Vi har inget produktjämförande underlag som ger ett tillförlitligt svar. Vi jämför format och praktiska krav och lovar inte ett visst resultat eller att du orkar längre." },
+  ],
+  related: [{ href: "/traning/stepbrada-eller-studsmatta", text: "Behöver du en fast plattform i stället?" }],
+};

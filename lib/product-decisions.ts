@@ -1,3 +1,4 @@
+import { homeCardioDecision, getHomeCardioDecision } from "@/lib/home-cardio-decisions";
 import { barRingsDecision } from "@/lib/pull-up-bar-eller-gymnastikringar";
 import { ringBlockDecision } from "@/lib/pilatesring-eller-yogablock";
 import { rollerSliderDecision } from "@/lib/maghjul-eller-core-slider";
@@ -86,6 +87,14 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const homeCardioOption = homeCardioDecision.options.find(option => option.productSlug === slug);
+  if (homeCardioOption) return {
+    ...getHomeCardioDecision([slug]),
+    category: { label: "Träning", href: "/traning" },
+    comparison: slug === "portentum-hopprep"
+      ? { label: "Studsmatta eller hopprep?", href: "/traning/studsmatta-eller-hopprep" }
+      : { label: "Stepbräda eller studsmatta?", href: "/traning/stepbrada-eller-studsmatta" },
+  };
   const barRingsOption = barRingsDecision.options.find(option => option.productSlug === slug);
   if (barRingsOption) return {
     ...barRingsDecision, options: [barRingsOption],

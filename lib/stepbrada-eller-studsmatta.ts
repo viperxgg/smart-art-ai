@@ -1,32 +1,16 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  reebokStepProduct,
-  dhFitlifeTrampolineProduct,
-} from "@/lib/products";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
+import { stepTrampolineDecision } from "@/lib/home-cardio-decisions";
 
-export const stepbradaEllerStudsmattaFaqItems: DecisionComparisonFaqItem[] = [{"question":"Vad är skillnaden på stepbräda och studsmatta?","answer":"En stepbräda tränar ben och puls med upp- och nedsteg i justerbar höjd, ofta i step-pass. En fitness-studsmatta ger skonsam, lekfull studsträning som är snäll mot lederna."},{"question":"Vilken är skonsammast för lederna?","answer":"Studsmattan är skonsammare eftersom mattan tar upp stöten i varje studs. Stepbrädan ger tydlig benträning men landningarna belastar knän lite mer, särskilt på högre höjd."},{"question":"Vilken ger bäst benträning?","answer":"Stepbrädan är mer inriktad på ben och kan även användas för styrkeövningar med höjd. Studsmattan tränar också ben och kondition men med fokus på skonsam puls."},{"question":"Kan jag justera intensiteten?","answer":"På stepbrädan justerar du höjden för att öka eller minska intensiteten. På studsmattan styr du intensiteten genom hur högt och snabbt du studsar."}];
-
-export const stepbradaEllerStudsmattaComparisonRows = [["Snabba signaler","Upp- och nedsteg; justerbar höjd","Skonsam studsträning; ledvänlig"],["Bäst för","Ben, puls, step-pass","Skonsam, rolig kondition"],["Ledvänligt","Medel – landningar i steg","Ja – mjuk studs"],["Justerbart","Ja – höjden","Nej"],["Kul-faktor","Strukturerat","Lekfullt"],["Plats","Tar en bit golv","Tar en bit golv"],] as const;
-
-export const stepbradaEllerStudsmattaPicks: [DecisionComparisonPick, DecisionComparisonPick] = [
-  {
-    product: reebokStepProduct,
-    path: "/traning/stepbrada",
-    badge: "Justerbar benträning",
-    headline: "Reebok stepbräda – puls och ben med höjd",
-    shortBody: "Välj stepbrädan om du vill ha justerbar konditionsträning för ben och puls. Upp- och nedsteg i valbar höjd passar step-pass och styrkeövningar.",
-  },
-  {
-    product: dhFitlifeTrampolineProduct,
-    path: "/traning/studsmatta",
-    badge: "Skonsamt & kul",
-    headline: "DH FitLife studsmatta – ledvänlig kondition",
-    shortBody: "Välj studsmattan om du vill ha skonsam, rolig kondition. Studsandet är snällt mot knän och rygg och gör det lätt att hålla igång längre.",
-  },
-];
-
-export const stepbradaEllerStudsmattaRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/traning/hopprep","label":"Hopprep","text":"Mer kondition hemma: Elins val av hopprep."},{"href":"/traning/stepbrada","label":"Stepbräda","text":"Läs Elins recension av Reebok stepbräda."},{"href":"/traning/studsmatta","label":"Studsmatta","text":"Läs Elins recension av DH FitLife studsmatta."},{"href":"/traning/studsmatta-eller-hopprep","label":"Jämförelse","text":"Studsmatta eller hopprep? Se den jämförelsen."},{"href":"/traning","label":"Träning","text":"Se alla Elins val för kondition hemma."}];
+export const stepTrampolineGuide: DecisionGuide = {
+  parent: { name: "Träning", href: "/traning" }, path: "/traning/stepbrada-eller-studsmatta",
+  title: "Stepbräda eller studsmatta – fast plattform eller fjädrande yta?",
+  intro: "Utgå från passet och utrymmet hemma. Reebok Step ger en upphöjd fast plattform; DH FitLife 102 cm ger en fjädrande yta med handtag. Vi har inte underlag för att utse den ena som skonsammast för dina leder.",
+  decision: stepTrampolineDecision, productPaths: ["/traning/stepbrada", "/traning/studsmatta"],
+  questions: [
+    { question: "Kan jag använda Reeboks 120 kg-gräns för den länkade brädan?", answer: "Inte utifrån vår kontroll. Butikstabellen anger 110 kg medan Reeboks aktuella sida anger 120 kg. Bekräfta revision och manual för den levererade brädan i stället för att välja den högsta siffran." },
+    { question: "Är studsmattan bevisat skonsammare för knän och rygg?", answer: "Vi har inte jämförande tester för de här produkterna som styrker det. En fjädrande yta räcker inte för att bedöma om en viss rörelse passar dig." },
+    { question: "Ingår skyddsnät med DH FitLife?", answer: "Det är inte bekräftat för det länkade paketet. Tillverkarens text nämner nät, men den svenska listningen gör inte det tydligt. Köp inte med nätet som förutsättning utan att innehållet har klargjorts." },
+    { question: "Räcker det att mäta produktens golvyta?", answer: "Nej. Lägg även märke till den fria ytan för rörelsen och höjden ovanför dig. Kontrollera monterings- och användningsanvisningar samt platsen för förvaring." },
+  ],
+  related: [{ href: "/traning/studsmatta-eller-hopprep", text: "Studsmatta eller hopprep – vad ryms hemma?" }],
+};
