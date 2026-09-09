@@ -1,3 +1,4 @@
+import { personalWarmthDecision } from "@/lib/personal-warmth-decision";
 import { purifierModelDecision } from "@/lib/purifier-model-decision";
 import { humidifierMethodDecision } from "@/lib/humidifier-method-decision";
 import { mantaMaskDecision } from "@/lib/sovmask-eller-white-noise";
@@ -71,6 +72,13 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const warmthOption = personalWarmthDecision.options.find(option => option.productSlug === slug);
+  if (warmthOption) return {
+    ...personalWarmthDecision, options: [warmthOption],
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Elfilt eller värmedyna?", href: "/halsa/elfilt-eller-varmedyna" },
+  };
+
   if (slug === "philips-600-luftrenare") return {
     ...purifierModelDecision, options: [purifierModelDecision.options[1]],
     category: { label: "Hälsa & vardag", href: "/halsa" },

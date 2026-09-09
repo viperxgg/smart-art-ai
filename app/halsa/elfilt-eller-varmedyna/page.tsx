@@ -1,12 +1,6 @@
-// Generated for wave-build-2026-07. Do not edit by hand.
-import { createWaveGuideMetadata, WaveGuidePage } from "@/app/(products)/_components/WaveGuidePage";
-
-const guideId = "elfilt-eller-varmedyna";
-
-export const revalidate = 3600;
-
-export const metadata = createWaveGuideMetadata(guideId);
-
-export default function HalsaElfiltEllerVarmedynaPage() {
-  return <WaveGuidePage guideId={guideId} />;
-}
+import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { personalWarmthGuide } from "@/lib/personal-warmth-decision";
+import { createSeoMetadata } from "@/lib/metadata";
+import { siteConfig } from "@/lib/site";
+export const metadata = createSeoMetadata({ title: `${personalWarmthGuide.title} | Elins val`, description: personalWarmthGuide.intro, url: `${siteConfig.url}${personalWarmthGuide.path}` });
+export default function PersonalWarmthPage() { return <DecisionGuidePage guide={personalWarmthGuide} />; }

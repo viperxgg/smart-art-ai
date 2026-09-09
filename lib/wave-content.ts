@@ -1,3 +1,4 @@
+import { personalWarmthGuide } from "@/lib/personal-warmth-decision";
 import { purifierComparisonGuide, purifierOverviewGuide } from "@/lib/purifier-model-decision";
 import { humidifierMethodGuide, humidifierOverviewGuide } from "@/lib/humidifier-method-decision";
 import { sleepEnvironmentGuide } from "@/lib/sleep-environment-decision";
@@ -4660,75 +4661,13 @@ export const waveGuides: WaveGuide[] = [
     metaDescription: "Värmefläkt eller oljefyllt element?: Snabb punktvärme mot tystare långtidsvärme. (Annons)",
   },
   {
-    id: "elfilt-eller-varmedyna",
-    href: "/halsa/elfilt-eller-varmedyna",
-    category: "halsa",
-    label: "Jämförelse",
-    title: "Elfilt eller värmedyna?",
-    intro: "Stor soffvärme mot mindre riktad värme.",
-    badges: [
-      "Värme",
-      "Soffa",
-      "Mys",
-    ],
-    productSlugs: [
-      "beurer-hd75-elfilt",
-      "beurer-varmedyna",
-    ],
-    pickBadges: {
-      "beurer-hd75-elfilt": "Mysvärme",
-      "beurer-varmedyna": "Elins val",
-    },
-    choiceTitle: "Yta eller punkt?",
-    choiceText: "Välj elfilt när du vill värma större del av kroppen i soffan. Välj värmedyna när du vill ha mindre format och riktad värme.",
-    rows: [
-      {
-        label: "Format",
-        values: [
-          "Stor filt",
-          "Mindre dyna",
-        ],
-      },
-      {
-        label: "Passar bäst",
-        values: [
-          "Soffan",
-          "Riktad plats",
-        ],
-      },
-      {
-        label: "Caveat",
-        values: [
-          "Mild mysvärme",
-          "Mindre yta",
-        ],
-      },
-    ],
-    verdict: "Elfilt är mysigare för soffan. Värmedyna är smidigare när formatet ska vara litet.",
-    faqItems: [
-      {
-        question: "Elfilt eller värmedyna?",
-        answer: "Välj elfilt när du vill värma större del av kroppen i soffan. Välj värmedyna när du vill ha mindre format och riktad värme.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
-    metaTitle: "Elfilt eller värmedyna? | Elins val",
-    metaDescription: "Elfilt eller värmedyna?: Stor soffvärme mot mindre riktad värme. (Annons)",
+    id: "elfilt-eller-varmedyna", href: personalWarmthGuide.path, category: "halsa", label: "Jämförelse",
+    title: personalWarmthGuide.title, intro: personalWarmthGuide.intro, badges: ["Format och skötsel"],
+    productSlugs: personalWarmthGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Hur stor yta?", choiceText: personalWarmthGuide.decision.payMoreWhen,
+    rows: [], verdict: personalWarmthGuide.decision.noPurchaseWhen, faqItems: [...personalWarmthGuide.questions],
+    relatedLinks: personalWarmthGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${personalWarmthGuide.title} | Elins val`, metaDescription: personalWarmthGuide.intro,
   },
   {
     id: "eltandborste-guide",
