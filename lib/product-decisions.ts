@@ -1,3 +1,4 @@
+import { hairClipperDecision } from "@/lib/hair-clipper-decision";
 import { shaverDecision } from "@/lib/shaver-decision";
 import { groomingDecision } from "@/lib/grooming-decision";
 import { footSpaDecision } from "@/lib/foot-spa-decision";
@@ -57,6 +58,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "remington-harklippare") return {
+    ...hairClipperDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vilket verktyg behöver du?", href: "/skonhet/grooming" },
+  };
   if (slug === "philips-rakapparat-5000") return {
     ...shaverDecision, options: [shaverDecision.options[0]],
     category: { label: "Skönhet", href: "/skonhet" },
