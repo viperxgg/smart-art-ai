@@ -1,3 +1,4 @@
+import { mantaMaskDecision } from "@/lib/sovmask-eller-white-noise";
 import { philipsWakeDecision } from "@/lib/wake-up-light-eller-solnedgangslampa";
 import { daylightLampDecision } from "@/lib/daylight-lamp-decision";
 import { footMassageDecision } from "@/lib/fotmassage-eller-massagepistol";
@@ -68,6 +69,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "manta-sovmask") return {
+    ...mantaMaskDecision,
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Sovmask eller ljudmaskin?", href: "/halsa/sovmask-eller-white-noise" },
+  };
   if (slug === "philips-wake-up-light") return {
     ...philipsWakeDecision,
     category: { label: "Hälsa & vardag", href: "/halsa" },

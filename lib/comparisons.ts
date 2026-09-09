@@ -50,14 +50,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "sovmask-eller-white-noise",
-    title: "Sovmask eller white noise?",
-    shortTitle: "Sovmask eller white noise",
+    title: "Sovmask eller ljudmaskin – vad är det som stör?",
+    shortTitle: "Behöver du mask eller ljud?",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/sovmask-eller-white-noise",
-    description: "Ljus eller ljud – vilken sömntjuv ska du stoppa först?",
+    description: "Mantas justeringar är dokumenterade; Magicteams modell återstår. Jämför behoven utan löften om sömnresultat.",
     productSlugs: ["manta-sovmask","magicteam-white-noise"],
-    badges: ["Sömn","Ljus vs ljud","Höstrutin"],
+    badges: ["Behov före köp", "Modellkontroll"],
   },
   {
     slug: "luftavfuktare-eller-luftrenare",

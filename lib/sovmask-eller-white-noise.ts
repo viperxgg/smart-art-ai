@@ -1,32 +1,45 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  mantaSleepMaskProduct,
-  magicteamWhiteNoiseProduct,
-} from "@/lib/products";
+import type { DecisionRecord } from "@/lib/decision-record";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
+import { sleepEnvironmentDecision } from "@/lib/sleep-environment-decision";
 
-export const sovmaskEllerWhiteNoiseFaqItems: DecisionComparisonFaqItem[] = [{"question":"Vilken gör störst skillnad för sömnen?","answer":"Den som träffar din största störning. Vaknar du av ljus är masken rätt första köp, somnar du svårt av ljud är ljudmaskinen rätt. Elins tumregel: åtgärda det som stör flest nätter i veckan först."},{"question":"Kan jag kombinera sovmask och white noise?","answer":"Ja, de jobbar på varsin kanal och krockar inte. Många i ljusa och lyhörda lägenheter använder båda – masken tar ljuset, kulissen tar ljuden. Börja gärna med en och lägg till den andra om det fortfarande stör."},{"question":"Trycker masken mot ögonen?","answer":"Mantas kåpor är formade så att de lämnar luft runt ögonen, vilket gör att det blir mörkt utan tryck. Remmen och kåporna justeras, så räkna med någon natt innan passformen sitter helt rätt."},{"question":"Måste white noise stå på hela natten?","answer":"Nej. Magicteam har timer så att ljudet kan stänga av sig när du somnat, eller så låter du den gå hela natten – den minns volym och ljudval till nästa kväll. Testa vad som känns bäst för dig."}];
+export const maskNoiseDecision: DecisionRecord = {
+  ...sleepEnvironmentDecision,
+  options: sleepEnvironmentDecision.options.slice(0, 2),
+  sources: sleepEnvironmentDecision.sources.filter(source => source.id !== "E1"),
+  payMoreWhen: "Justerbara kåpor löser ett konkret passformsproblem med din nuvarande mask. För en ljudmaskin behöver reglage och exakt modell först verifieras. Ett större antal ljud är inte bevis för att du sover bättre.",
+  noPurchaseWhen: "En befintlig gardin eller mask redan räcker, eller du kan minska störningen utan en ny apparat. Köp inte båda bara för att ljus och ljud nämns tillsammans.",
+  testing: "Vi har läst Mantas originalproduktsida och 1177:s vuxeninformation. Vi har inte testat maskens passform, ljudmaskering eller sömnresultat. Magicteams ASIN-sida kunde inte verifieras.",
+  limitations: "Mantas justeringar är dokumenterade. Magicteams exakta variant, antal ljud och timer är fortfarande okända. Ingen jämförande vinnare eller kombinationseffekt kan styrkas; bilder och svenska erbjudanden återstår.",
+};
 
-export const sovmaskEllerWhiteNoiseComparisonRows = [["Snabba signaler","Formade kåpor; 100% mörkläggande","40 ljud; minns volym och val"],["Stoppar","Ljus – lyktor, lampor, ljusa morgnar","Ljud – grannar, trafik, knäppande hus"],["Känsla","Becksvart, inget tryck mot ögonen","Jämn kuliss som maskerar plötsliga ljud"],["Bäst för","Ljuskänsliga och skiftarbete","Lyhörda hem och oroliga kvällar"],["Att vänja sig","Någon natt för passformen","Några kvällar för rätt ljud och volym"],["På resa","Följer med i fickan","Kompakt men behöver eluttag"],] as const;
+export const mantaMaskDecision: DecisionRecord = {
+  ...maskNoiseDecision,
+  options: [maskNoiseDecision.options[0]],
+  sources: maskNoiseDecision.sources.filter(source => source.id !== "N1"),
+  payMoreWhen: "Du behöver kunna justera kåpornas läge och remmens spänning eftersom en enklare mask inte passar. Behåll din befintliga mask om den redan fungerar; vi har ingen prisjämförelse som visar att ett byte lönar sig.",
+  noPurchaseWhen: "Du redan kan avskärma ljuset på ett sätt som fungerar, eller när det som stör inte är ljuset. En dyrare mask är inte i sig ett svar på sömnsvårigheter.",
+  swedishContext: "Kontrollera originalmodellen och vilken variant som levereras i det svenska erbjudandet. ASIN och paket är inte matchade. 1177 rekommenderar att söka hjälp om sömnbesvär inte förbättras trots förändringar; sidan är ingen behandling eller individuell bedömning.",
+  testing: "Vi har läst Mantas produktsida och 1177:s information. Vi har inte testat ljusläckage, tryck, komfort i sidoläge, hållbarhet eller sömn. Tillverkarens ord om full mörkläggning är inte vår mätning.",
+  limitations: "Modellens justeringsmöjligheter är dokumenterade, men passformen varierar och vi garanterar inte ett personligt resultat. Svenska erbjudanden, ASIN-matchning och bildrättigheter återstår.",
+};
 
-export const sovmaskEllerWhiteNoisePicks: [DecisionComparisonPick, DecisionComparisonPick] = [
-  {
-    product: mantaSleepMaskProduct,
-    path: "/halsa/sovmask",
-    badge: "Mot ljus",
-    headline: "Manta Sleep Mask – becksvart utan tryck",
-    shortBody: "Välj sovmasken när det är ljuset som stör: gatlyktor, laddlampor eller ljusa morgnar. De formade kåporna gör det helt mörkt utan att trycka mot ögonen, och passformen justeras tills den sitter rätt.",
-  },
-  {
-    product: magicteamWhiteNoiseProduct,
-    path: "/halsa/white-noise",
-    badge: "Mot ljud",
-    headline: "Magicteam white noise – jämn ljudkuliss",
-    shortBody: "Välj ljudmaskinen när det är ljud som stör: lyhört hus, trafik eller grannar. Den lägger en jämn kuliss som jämnar ut plötsliga ljud, minns din inställning och har timer om du vill somna till den.",
-  },
-];
-
-export const sovmaskEllerWhiteNoiseRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/halsa/sovmask","label":"Sovmask","text":"Läs Elins genomgång av Manta Sleep Mask."},{"href":"/halsa/white-noise","label":"White noise","text":"Läs Elins genomgång av Magicteam-maskinen."},{"href":"/halsa/sov-battre-i-host","label":"Guide","text":"Sov bättre i höst: mörker, ljud och tyngd – hela kedjan."},{"href":"/halsa/oronproppar-eller-white-noise","label":"Jämförelse","text":"Öronproppar eller white noise? Två sätt att tysta natten."}];
+export const maskNoiseGuide: DecisionGuide = {
+  parent: { name: "Hälsa & vardag", href: "/halsa" },
+  path: "/halsa/sovmask-eller-white-noise",
+  title: "Sovmask eller ljudmaskin – vad är det som stör?",
+  intro: "Mantas originalmask har justerbara kåpor och rem. Magicteam-posten saknar ännu verifierad modellinformation. Jämför behovet och kontrollera begränsningarna innan du köper något nytt.",
+  decision: maskNoiseDecision,
+  productPaths: ["/halsa/sovmask", "/halsa/white-noise"],
+  questions: [
+    { question: "Är masken garanterat tryckfri och helt mörk?", answer: "Det är tillverkarens marknadsföring, inte en garanti från våra tester. Kontrollera passformen i den ställning du brukar sova i; kåporna och remmen kan justeras." },
+    { question: "Tar Magicteam bort bullret?", answer: "Vi har inget verifierat test som visar det. Att lägga till bakgrundsljud är inte samma sak som att minska ljudkällan. Modellens funktioner måste dessutom verifieras." },
+    { question: "Har Magicteam timer och 40 ljud?", answer: "Uppgifterna finns i vår äldre katalog, men vi har inte kunnat bekräfta dem för den exakta varianten. Därför använder vi dem inte som köpskäl." },
+    { question: "Är kombinationen bättre än en produkt?", answer: "Det har vi inte visat. Utgå från en konkret störning och behåll det som fungerar i stället för att automatiskt lägga till fler produkter." },
+  ],
+  related: [
+    { href: "/halsa/sovmask", text: "Manta original – passar den dig?" },
+    { href: "/halsa/white-noise", text: "Magicteam – vad behöver verifieras?" },
+    { href: "/halsa/sov-battre-i-host", text: "Sovmiljö: ljus, ljud och tyngd" },
+    { href: "/halsa", text: "Fler beslut för vardagen" },
+  ],
+};
