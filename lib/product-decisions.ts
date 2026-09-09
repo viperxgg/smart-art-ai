@@ -1,3 +1,4 @@
+import { gymFloorDecision } from "@/lib/gym-floor-decision";
 import { smartBandDecision } from "@/lib/smart-band-decision";
 import { leaveInOilDecision } from "@/lib/leave-in-eller-harolja";
 import { olaplexWashDecision } from "@/lib/olaplex-schampo-eller-balsam";
@@ -78,6 +79,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "bemaxx-pusselmatta") return {
+    ...gymFloorDecision,
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Vilket underlag behöver du för träningen?", href: "/traning" },
+  };
   if (slug === "xiaomi-smart-band-10") return {
     ...smartBandDecision,
     category: { label: "Träning", href: "/traning" },
