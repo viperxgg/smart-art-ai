@@ -7,10 +7,10 @@ export const yogaPropsDecision: DecisionRecord = {
     {
       productSlug: "bodymate-yogablock",
       model: "BODYMATE yogablock i kork – 2-pack",
-      variant: "Tillverkarens tvåpack: varje block 22 × 12 × 7,5 cm och 400 g, med rundade kanter. Material anges som 100 % naturkork. Svensk butiksvariant är inte matchad.",
+      variant: "Tillverkarens tvåpack: varje block 22 × 12 × 7,5 cm och 400 g, med rundade kanter. Material anges som 100 % naturkork. Butikslänken matchades mot tvåpack, ASIN B08TMV463P. Amazon anger 870 g som artikelvikt; vi har inte kontrollvägt paketet.",
       chooseIf: "din planerade yogaövning behöver ett separat stöd mot underlaget och de här måtten passar. Kontrollera först vilken höjd och hur många block du faktiskt behöver.",
       avoidIf: "du söker ett band att hålla i eller ett mjukt skumblock. Vi har inte testat halkmotstånd, komfort under belastning eller om blocken passar just din position.",
-      sourceIds: ["YB1"], merchantVariantVerified: false,
+      sourceIds: ["YB1", "YB2"], merchantVariantVerified: true,
     },
     {
       productSlug: "bodymate-yogabalte",
@@ -23,10 +23,11 @@ export const yogaPropsDecision: DecisionRecord = {
   ],
   payMoreWhen: "En verifierad storlek, annan grepputformning eller extra del behövs i din övning. Köp inte två redskap bara för att de säljs som yogatillbehör. Vi har inte jämfört aktuella priser, frakt eller hållbarhet.",
   noPurchaseWhen: "Din nuvarande utrustning fungerar eller du ännu inte vet vilken hjälp övningen kräver. Ett block och ett band är olika redskap; inget av dem är ett obligatoriskt nybörjarköp.",
-  swedishContext: "Underlaget kommer från tillverkarens tyska butik. Matcha tvåpack och mått per block, respektive 250 cm-band med D-ringar, mot det svenska erbjudandet. Kontrollera instruktioner och totalpris med leverans; detta är inte verifierat här.",
-  testing: "Vi har läst tillverkarens mått-, material- och paketuppgifter. Vi har inte provat positioner, mätt halkmotstånd eller draghållfasthet, eller utvärderat effekter på balans, smärta och rörlighet.",
-  limitations: "Produktspecifikationer visar inte att ett redskap gör din teknik korrekt eller att du bör gå djupare i en stretch. Vi anger ingen träningsdos eller rehabiliteringsplan. Bildrättigheter, exakt butikspaket och användarprov återstår.",
+  swedishContext: "Underlaget kommer från tillverkarens tyska butik. Blockens svenska länk är matchad mot tvåpack och mått per block. Matcha fortfarande 250 cm-bandet med D-ringar mot det svenska erbjudandet. Kontrollera instruktioner och totalpris med leverans; detta är inte verifierat här.",
+  testing: "Vi har läst tillverkarens mått-, material- och paketuppgifter samt kontrollerat blockens svenska butiksvariant. Vi har inte provat positioner, mätt halkmotstånd eller draghållfasthet, eller utvärderat effekter på balans, smärta och rörlighet.",
+  limitations: "Produktspecifikationer visar inte att ett redskap gör din teknik korrekt eller att du bör gå djupare i en stretch. Vi anger ingen träningsdos eller rehabiliteringsplan. Bildrättigheter, bandets exakta butikspaket och användarprov återstår.",
   sources: [
+    { id: "YB2", title: "Amazon.se – BODYMATE korkblock tvåpack", url: "https://www.amazon.se/dp/B08TMV463P", checkedAt: "2026-09-09", supports: "Länkad tvåpacksversion i kork, mått 22 × 12 × 7,5 cm. Artikelvikten anges till 870 g; inte en kontrollvägning av varje block." },
     { id: "YB1", title: "BODYMATE – yogablock i kork, tvåpack", url: "https://shop.bodymate.de/products/bodymate-2-pack-yoga-block", checkedAt: "2026-09-09", supports: "Två block; 22 × 12 × 7,5 cm och 400 g per block, naturkork och rundade kanter. Marknadsföring om halksäkerhet och bättre träning är inte vårt testresultat." },
     { id: "YS1", title: "BODYMATE – yogagurt 250 cm", url: "https://shop.bodymate.de/products/bodymate-yoga-gurt-yoga-schlaufe", checkedAt: "2026-09-09", supports: "250 × 3,8 cm; bomullsband, metallringar och konstläderetikett. Ingen oberoende verifiering av träningsresultat eller spännets hållbarhet." },
     { id: "YS2", title: "BODYMATE – separat band med tio öglor", url: "https://shop.bodymate.de/products/dehnungsband-mit-10-schlaufen", checkedAt: "2026-09-09", supports: "Ett annat band: 190 cm och tio fasta öglor. Dess utförande ska inte blandas ihop med 250 cm-yogagurten." },

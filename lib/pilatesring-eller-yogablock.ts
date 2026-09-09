@@ -1,32 +1,34 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  g5PilatesringProduct,
-  bodymateYogablockProduct,
-} from "@/lib/products";
+import type { DecisionRecord } from "@/lib/decision-record";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
+import { yogaPropsDecision } from "@/lib/yogablock-eller-yogabalte";
 
-export const pilatesringEllerYogablockFaqItems: DecisionComparisonFaqItem[] = [{"question":"Vad är skillnaden på pilatesring och yogablock?","answer":"En pilatesring ger ett lätt motstånd du pressar mot, vilket aktiverar musklerna mer i pilates- och bålövningar. Ett yogablock ger stöd och höjd så du håller balansen och når golvet i yoga och stretch."},{"question":"Vilket passar pilates bäst?","answer":"Pilatesringen är gjord för pilates och lägger till motstånd i övningarna. Ett yogablock kan också användas, men det ger stöd snarare än motstånd."},{"question":"Är de nybörjarvänliga?","answer":"Ja, båda är nybörjarvänliga och tar liten plats. Ringen hjälper dig känna musklerna jobba, och blocket gör svårare positioner mer tillgängliga."},{"question":"Behöver jag båda?","answer":"Inte nödvändigtvis – det beror på om du mest gör pilates eller yoga. Gör du båda är de ett billigt och platssnålt komplement som täcker olika behov."}];
+export const ringBlockDecision: DecisionRecord = {
+  reviewedAt: "2026-09-09",
+  options: [
+    { productSlug: "g5-pilatesring", model: "G5 HT SPORT GPR Pilates Ring Strong – svart/gul", variant: "ASIN B0D7J1MS35. Listningen anger modell GPR, diameter 38,5 cm och vadderade grepp på in- och utsidan. Titeln nämner även ett kit med andra redskap, men paketets innehåll är inte entydigt beskrivet. Vi lovar därför ingen medföljande matta eller thigh toner.", chooseIf: "din planerade övning kräver en ring att pressa mot och du först kan bekräfta att just detta utförande och paket passar. Beteckningen Strong anger inte en verifierad motståndskraft i kilo.", avoidIf: "du behöver ett fast stöd mot golvet eller ett känt, graderat motstånd. Köp inte den här listningen för extra tillbehör innan säljaren har klargjort innehållet.", sourceIds: ["PR1"], merchantVariantVerified: false },
+    yogaPropsDecision.options[0],
+  ],
+  payMoreWhen: "En verifierad storlek, greppform eller ytterligare del behövs i din övning. Ett större paket är inte bättre om delarna blir oanvända. Vi har inte jämfört dagens priser eller visat att Strong ger bättre resultat än andra ringar.",
+  noPurchaseWhen: "Din nuvarande utrustning räcker eller du ännu inte vet vilken funktion som saknas. Att träna både yoga och pilates betyder inte automatiskt att du behöver båda redskapen.",
+  swedishContext: "Kontrollera stödets höjd i den position du använder och hur många block övningen kräver. BODYMATE-länken matchar ett tvåpack på Amazon.se. Ringens svenska listning har motsägelsefull paketinformation; extra tillbehör är inte bekräftade.",
+  testing: "Vi har läst produktuppgifter och kontrollerat de länkade svenska butikssidorna. Vi har inte provat ringens motstånd, greppkomfort eller blockens friktion och belastning. Underlaget visar utförande, inte att din teknik eller rörlighet förbättras.",
+  limitations: "Ringens rubrik och innehållsfält räcker inte för att verifiera hela paketet. Måttfält skiljer sig också åt: diameter anges som 38,5 cm medan ett annat fält visar 37 × 37 × 5 cm. Vi har inte kontrollmätt. Godkända produktbilder saknas och ingen generell nybörjarvinnare utses.",
+  sources: [
+    { id: "PR1", title: "Amazon.se – G5 HT SPORT GPR Strong svart/gul", url: "https://www.amazon.se/dp/B0D7J1MS35", checkedAt: "2026-09-09", supports: "Vald färg, modellnummer GPR, angiven diameter och grepp. Breda kitpåståenden i rubriken stöds inte av ett tydligt innehållsfält; måttuppgifterna är inte konsekventa. Ingen kalibrerad motståndskurva eller egen provning." },
+    ...yogaPropsDecision.sources.filter(source => ["YB1", "YB2"].includes(source.id)),
+  ],
+};
 
-export const pilatesringEllerYogablockComparisonRows = [["Snabba signaler","Lätt motstånd att pressa mot","Ger stöd och höjd"],["Bäst för","Pilates och bålövningar","Yoga och stretch"],["Typ av hjälp","Aktiverar muskler mer","Stabilitet och räckvidd"],["Nivå","Nybörjarvänligt","Nybörjarvänligt"],["Plats","Litet – hänger undan","Litet block"],["Träningsstil","Aktiv muskelkänsla","Lugn och stödjande"],] as const;
-
-export const pilatesringEllerYogablockPicks: [DecisionComparisonPick, DecisionComparisonPick] = [
-  {
-    product: g5PilatesringProduct,
-    path: "/traning/pilatesring",
-    badge: "Lätt motstånd",
-    headline: "G5 pilatesring – aktivera musklerna mer",
-    shortBody: "Välj pilatesringen om du vill lägga till motstånd i pilates- och bålövningar. Du pressar mot ringen och känner hur lår, bål och armar jobbar mer.",
-  },
-  {
-    product: bodymateYogablockProduct,
-    path: "/traning/yogablock",
-    badge: "Stöd & stabilitet",
-    headline: "BODYMATE yogablock – stöd i yoga och stretch",
-    shortBody: "Välj yogablocket om du vill ha stöd och stabilitet i yoga. Det hjälper dig nå golvet och hålla balansen i positioner där du annars inte når.",
-  },
-];
-
-export const pilatesringEllerYogablockRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/traning/balansplatta","label":"Balansplatta","text":"Träna balans och core: Elins val av balansplatta."},{"href":"/traning/pilatesring","label":"Pilatesring","text":"Läs Elins recension av G5 pilatesring."},{"href":"/traning/yogablock","label":"Yogablock","text":"Läs Elins recension av BODYMATE yogablock."},{"href":"/traning/yogablock-eller-yogabalte","label":"Jämförelse","text":"Yogablock eller yogabälte? Se den jämförelsen."},{"href":"/traning","label":"Träning","text":"Se alla Elins val för yoga och pilates."}];
+export const ringBlockGuide: DecisionGuide = {
+  parent: { name: "Träning", href: "/traning" }, path: "/traning/pilatesring-eller-yogablock",
+  title: "Pilatesring eller yogablock – motstånd eller stöd mot golvet?",
+  intro: "Utgå från vad övningen kräver. En ring att pressa mot och ett korkblock att använda som stöd fyller olika funktioner. Här redovisar vi också den oklara paketinformationen för G5-ringen, så att en bred butiksrubrik inte blir ett löfte om extra utrustning.",
+  decision: ringBlockDecision, productPaths: ["/traning/pilatesring", "/traning/yogablock"],
+  questions: [
+    { question: "Är Strong ett mått på motståndet?", answer: "Inte i vårt underlag. Det är variantens beteckning; vi har ingen kalibrerad uppgift som låter oss jämföra presskraften med andra ringar eller med vikter." },
+    { question: "Ingår matta och fler redskap med ringen?", answer: "Det är inte verifierat. Rubriken nämner ett kit, medan beskrivning och innehållsfält inte tydligt bekräftar alla delar. Vi håller därför butiksknappen tillbaka tills paketet kan identifieras utan det glappet." },
+    { question: "Är måtten för ett block eller för hela tvåpacket?", answer: "22 × 12 × 7,5 cm gäller varje block. Kontrollera vilken höjd och hur många stöd din övning behöver innan du köper." },
+    { question: "Behöver jag båda om jag gör både yoga och pilates?", answer: "Nej. Börja med ett konkret behov i övningen. Ingen av träningsformerna gör dessa två redskap till ett obligatoriskt paket." },
+  ],
+  related: [{ href: "/traning/yogablock-eller-yogabalte", text: "Behöver du ett block eller ett band att hålla i?" }],
+};

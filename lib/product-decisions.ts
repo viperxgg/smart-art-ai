@@ -1,3 +1,4 @@
+import { ringBlockDecision } from "@/lib/pilatesring-eller-yogablock";
 import { rollerSliderDecision } from "@/lib/maghjul-eller-core-slider";
 import { balanceBallDecision } from "@/lib/balansplatta-eller-gymboll";
 import { runningCarryDecision } from "@/lib/loparvast-eller-midjevaska";
@@ -84,6 +85,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "g5-pilatesring") return {
+    ...ringBlockDecision, options: [ringBlockDecision.options[0]],
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Pilatesring eller yogablock?", href: "/traning/pilatesring-eller-yogablock" },
+  };
   const rollerSliderOption = rollerSliderDecision.options.find(option => option.productSlug === slug);
   if (rollerSliderOption) return {
     ...rollerSliderDecision, options: [rollerSliderOption],
