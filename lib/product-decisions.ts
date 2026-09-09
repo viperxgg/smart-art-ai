@@ -1,3 +1,4 @@
+import { smartBandDecision } from "@/lib/smart-band-decision";
 import { leaveInOilDecision } from "@/lib/leave-in-eller-harolja";
 import { olaplexWashDecision } from "@/lib/olaplex-schampo-eller-balsam";
 import { waterFlosserDecision } from "@/lib/water-flosser-decision";
@@ -77,6 +78,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "xiaomi-smart-band-10") return {
+    ...smartBandDecision,
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Vilka träningshjälpmedel behöver du?", href: "/traning" },
+  };
   if (slug === "cantu-leave-in-conditioner") return {
     ...leaveInOilDecision, options: [leaveInOilDecision.options[0]],
     category: { label: "Skönhet", href: "/skonhet" },
