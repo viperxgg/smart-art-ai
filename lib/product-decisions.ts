@@ -1,3 +1,4 @@
+import { kneeBeltDecision } from "@/lib/knaskydd-eller-lyftarbalte";
 import { vestBeltDecision } from "@/lib/tyngdvast-eller-lyftarbalte";
 import { gymFloorDecision } from "@/lib/gym-floor-decision";
 import { smartBandDecision } from "@/lib/smart-band-decision";
@@ -80,6 +81,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "rehband-knaskydd") return {
+    ...kneeBeltDecision, options: [kneeBeltDecision.options[0]],
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Knäsleeve eller lyftarbälte?", href: "/traning/knaskydd-eller-lyftarbalte" },
+  };
   const vestBeltOption = vestBeltDecision.options.find(option => option.productSlug === slug);
   if (vestBeltOption) return {
     ...vestBeltDecision, options: [vestBeltOption],

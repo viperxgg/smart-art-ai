@@ -13,7 +13,7 @@ export const vestBeltDecision: DecisionRecord = {
     },
     {
       productSlug: "cpsports-lyftarbalte", model: "C.P. Sports T9 Profi-Powerlifting-Gürtel",
-      variant: "T9 med Powerschnalle, inte T4 med dubbelt tornspänne. Tillverkaren anger 9,5 cm bredd och 1 cm tjocklek i läder. ASIN B005GP8I8A, storlek och aktuellt handelspaket är inte matchade.",
+      variant: "T9 med Powerschnalle, inte T4. Tillverkaren anger 9,5 cm bredd och 1 cm tjocklek i läder. ASIN B005GP8I8A, storlek och aktuellt handelspaket är inte matchade.",
       chooseIf: "du söker ett läderbälte för planerad styrketräning och vill ha T9:s hävarmsspänne. Mät midjan i navelhöjd mot tillverkarens storlekstabell och kontrollera monteringen före användning.",
       avoidIf: "du vill lägga till vikt på kroppen, vill ändra passformen utan verktyg eller förväntar dig att bältet automatiskt korrigerar tekniken eller förhindrar skador. Spännets grundläge justeras med skruvar.",
       sourceIds: ["V2"], merchantVariantVerified: false,
