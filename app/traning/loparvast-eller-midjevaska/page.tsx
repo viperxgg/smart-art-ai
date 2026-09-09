@@ -1,42 +1,13 @@
-import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
-import {
-  loparvastEllerMidjevaskaComparisonRows,
-  loparvastEllerMidjevaskaFaqItems,
-  loparvastEllerMidjevaskaPicks,
-  loparvastEllerMidjevaskaRelatedLinks,
-} from "@/lib/loparvast-eller-midjevaska";
+import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { runningCarryGuide } from "@/lib/loparvast-eller-midjevaska";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
-const pageUrl = `${siteConfig.url}/traning/loparvast-eller-midjevaska`;
-
-const breadcrumbItems = [
-  { name: "Hem", href: "/" },
-  { name: "Träning", href: "/traning" },
-  { name: "Löparväst eller midjeväska?", href: `/traning/loparvast-eller-midjevaska` },
-];
-
 export const metadata = createSeoMetadata({
-  title: "Löparväst eller midjeväska? Så väljer du | Elins val",
-  description: "Löparväst eller midjeväska? Elin jämför Salomon Active Skin mot HAISSKY löparbälte ärligt – när vätskan kräver väst och när ett billigt bälte räcker gott.",
-  url: pageUrl,
+  title: "Löparväst eller midjeväska – vad ska du bära? | Elins val",
+  description: "Jämför packning, flaskor och passform. Se vad som ingår i Salomon ACTIVE SKIN 4 och vad som ännu inte är verifierat om HAISSKY.",
+  url: `${siteConfig.url}${runningCarryGuide.path}`,
 });
-
-export default function LoparvastEllerMidjevaskaPage() {
-  return (
-    <DecisionComparisonPage
-      h1={"Löparväst eller midjeväska?"}
-      intro={"Löparväst eller midjeväska – frågan är egentligen hur långt du springer. Midjeväskan rymmer mobil, nycklar och kort och kostar en bråkdel, medan löparvästen bär vatten och packning för långpassen. Många köper väst när ett bälte hade räckt – och tvärtom."}
-      badges={["Löpning","Sommarrundor","Budget vs premium"]}
-      howToChoose={"Välj midjeväskan om dina rundor är upp till en timme och du mest vill ha mobil och nycklar säkert med – den är billig, lätt och studsar inte. Välj löparvästen om du springer långpass och behöver vätska med dig – flaskorna fram och packvolymen är hela poängen, och det kan inget bälte ersätta."}
-      verdict={"Utgå från vad du ska bära på din runda: telefon och nycklar, eller även vatten och mer packning. Kontrollera kapacitet och passform innan du väljer väska eller väst. Köp inte extra utrustning för utseendets skull."}
-      picks={loparvastEllerMidjevaskaPicks}
-      comparisonRows={loparvastEllerMidjevaskaComparisonRows}
-      faqItems={loparvastEllerMidjevaskaFaqItems}
-      breadcrumbItems={breadcrumbItems}
-      relatedLinks={loparvastEllerMidjevaskaRelatedLinks}
-      backHref={"/traning"}
-      backLabel={"Tillbaka till träning"}
-    />
-  );
+export default function Page() {
+  return <DecisionGuidePage guide={runningCarryGuide} />;
 }

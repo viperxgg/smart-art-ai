@@ -1,3 +1,4 @@
+import { runningCarryDecision } from "@/lib/loparvast-eller-midjevaska";
 import { kneeBeltDecision } from "@/lib/knaskydd-eller-lyftarbalte";
 import { vestBeltDecision } from "@/lib/tyngdvast-eller-lyftarbalte";
 import { gymFloorDecision } from "@/lib/gym-floor-decision";
@@ -81,6 +82,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "salomon-loparvast") return {
+    ...runningCarryDecision, options: [runningCarryDecision.options[1]],
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Löparväst eller midjeväska?", href: "/traning/loparvast-eller-midjevaska" },
+  };
   if (slug === "rehband-knaskydd") return {
     ...kneeBeltDecision, options: [kneeBeltDecision.options[0]],
     category: { label: "Träning", href: "/traning" },
