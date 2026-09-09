@@ -11,11 +11,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/traning/hantlar-eller-gummiband`;
 
-const heroImage = {
-  src: "/comparisons/hantlar-eller-gummiband.webp",
-  alt: "Hantlar eller gummiband? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Träning", href: "/traning" },
@@ -39,7 +34,6 @@ export default function HantlarEllerGummibandPage() {
       hideUnverifiedImages
       howToChoose={"Kontrollera en konkret övning och vad som saknas i utrustningen du redan har. Matcha sedan hantelns vikt eller bandets längd och motstånd. Exakta butiksvarianter återstår att verifiera."}
       verdict={"Välj redskap för en bestämd uppgift. Vi utser ingen vinnare och har inget stöd för att dessa band generellt är skonsammare eller att hantlar alltid ger bättre träning."}
-      heroImage={heroImage}
       picks={hantlarEllerGummibandPicks}
       comparisonRows={hantlarEllerGummibandComparisonRows}
       faqItems={hantlarEllerGummibandFaqItems}

@@ -10,11 +10,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/sommar/resa/magnetisk-mobilhallare-eller-ventilklamma`;
 
-const heroImage = {
-  src: "/comparisons/magnetisk-mobilhallare-eller-ventilklamma.webp",
-  alt: "Magnetisk mobilhållare eller ventilklämma? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Resa", href: "/sommar/resa" },
@@ -25,12 +20,6 @@ export const metadata = createSeoMetadata({
   title: "Magnetisk mobilhållare eller ventilklämma? | Elins val",
   description: "Magnetisk mobilhållare eller ventilklämma i bilen? Elin jämför Lamicall MagSafe mot Blukar klämma ärligt – en-handsgrepp mot passar-alla inför road trippen.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
 });
 
 export default function MagnetiskMobilhallareEllerVentilklammaPage() {
@@ -41,7 +30,6 @@ export default function MagnetiskMobilhallareEllerVentilklammaPage() {
       badges={["Road trip","Navigering","Sommar"]}
       howToChoose={"Välj den magnetiska hållaren om du har iPhone med MagSafe eller redan kör magnetskal – smidigheten med en hand är svårslagen. Välj ventilklämman om du har Android utan magnet, inte vill köpa extra tillbehör, eller om flera i familjen med olika mobiler delar bil."}
       verdict={"Kontrollera hållarens krav mot just din telefon, ditt skal och bilens fäste. Varken magnetlösning eller klämma är ett universellt val; välj först när kompatibiliteten är bekräftad."}
-      heroImage={heroImage}
       picks={magnetiskMobilhallareEllerVentilklammaPicks}
       comparisonRows={magnetiskMobilhallareEllerVentilklammaComparisonRows}
       faqItems={magnetiskMobilhallareEllerVentilklammaFaqItems}

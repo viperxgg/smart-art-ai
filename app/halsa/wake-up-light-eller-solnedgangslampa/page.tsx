@@ -10,11 +10,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/halsa/wake-up-light-eller-solnedgangslampa`;
 
-const heroImage = {
-  src: "/comparisons/wake-up-light-eller-solnedgangslampa.webp",
-  alt: "Wake-up light eller solnedgångslampa? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Hälsa", href: "/halsa" },
@@ -25,12 +20,6 @@ export const metadata = createSeoMetadata({
   title: "Wake-up light eller solnedgångslampa? | Elins val",
   description: "Wake-up light eller solnedgångslampa? Elin jämför en mjukare väckning på morgonen mot varmt kvällsmys så du väljer rätt ljus för ditt behov.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
 });
 
 export default function WakeUpLightEllerSolnedgangslampaPage() {
@@ -41,7 +30,6 @@ export default function WakeUpLightEllerSolnedgangslampaPage() {
       badges={["Ljus & stämning","Morgon vs kväll","Sömn & mys"]}
       howToChoose={"Välj en wake-up light om du har svårt att vakna i mörka morgnar och vill väckas mjukare av ett ljus som ljusnar gradvis. Välj en solnedgångslampa om du vill ha en mysig, varm stämning på kvällen och gilla den där gyllene ljuseffekten på väggen. De löser olika saker – väckning respektive kvällsmys."}
       verdict={"De hör hemma i var sin ände av dagen. Wake-up light vinner för mjukare morgnar och mörka vintrar, medan solnedgångslampan vinner för kvällsmys och stämning. Svårt att vakna – wake-up light. Vill ha mys – solnedgångslampa."}
-      heroImage={heroImage}
       picks={wakeUpLightEllerSolnedgangslampaPicks}
       comparisonRows={wakeUpLightEllerSolnedgangslampaComparisonRows}
       faqItems={wakeUpLightEllerSolnedgangslampaFaqItems}

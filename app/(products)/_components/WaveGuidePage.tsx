@@ -3,18 +3,15 @@ import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 import { DecisionCard } from "@/components/DecisionCard";
 import { getGuideDecision } from "@/lib/ereader-decision";
 import { validateDecisionRecord } from "@/lib/decision-record";
-import type { CSSProperties } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowUpRight, CheckCircle2, Sparkles } from "lucide-react";
+import { ArrowLeft, CheckCircle2, Sparkles } from "lucide-react";
 
 import { AmazonPurchaseLinks } from "@/components/AmazonPurchaseCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { EditorialMeta } from "@/components/EditorialMeta";
 import { JsonLd } from "@/components/JsonLd";
-import { PriceTierBadge } from "@/components/PriceTierBadge";
-import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
+import { ProductBadges } from "@/components/ProductBadges";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { WebPageJsonLd } from "@/components/WebPageJsonLd";
 import { createSeoMetadata } from "@/lib/metadata";
@@ -25,7 +22,7 @@ import {
   type Product,
   type ProductCategorySlug,
 } from "@/lib/products";
-import { getEditorialScore } from "@/lib/scores";
+import { ComparisonProductCard } from "@/components/ComparisonProductCard";
 import { siteConfig } from "@/lib/site";
 import { getWaveGuide } from "@/lib/wave-content";
 
@@ -85,7 +82,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
   }
 
   if (decision) validateDecisionRecord(decision, products.map((product) => product.slug));
-  const merchantProducts = products.filter((product) => !decision || decision.options.find((option) => option.productSlug === product.slug)?.merchantVariantVerified);
+  const merchantProducts = products.filter((product) => decision?.options.find((option) => option.productSlug === product.slug)?.merchantVariantVerified);
 
   const categoryLabel = categoryLabels[guide.category];
   const categoryHref = categoryHrefs[guide.category];
@@ -116,7 +113,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
     items: products.map((product) => ({
       product,
       url: getProductPageHref(product),
-      description: product.summary,
+      description: getElinProductEvidence(product).summary,
     })),
   });
 
@@ -186,60 +183,14 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
           </div>
         </section>
 
-        <section className="mt-10 grid gap-6 md:grid-cols-2">
-          {products.map((product, index) => {
-            if (!product) {
-              return null;
-            }
-
-            const score = getEditorialScore(product.slug);
-            const approvedImage = getApprovedProductImage(product.slug, product.image);
-
-            return (
-              <Link
-                key={product.slug}
-                href={getProductPageHref(product)}
-                className="reveal-fade group overflow-hidden rounded-[2.2rem] border border-line bg-surface/72 shadow-[0_28px_90px_rgba(185,131,166,0.1)] transition hover:-translate-y-1"
-                style={{ "--i": index } as CSSProperties}
-              >
-                {approvedImage ? <div className="relative aspect-[4/3] bg-rose/8">
-                  <Image
-                    src={product.image}
-                    alt={approvedImage.alt}
-                    fill
-                    sizes="(max-width: 768px) 92vw, 470px"
-                    className="object-cover transition duration-500 group-hover:scale-[1.025]"
-                  />
-                  <span className="absolute left-5 top-5 rounded-full bg-wine/90 px-4 py-2 text-sm font-black text-bg backdrop-blur">
-                    {guide.pickBadges?.[product.slug] ?? product.brand}
-                  </span>
-                </div> : null}
-                <div className="p-6">
-                  <p className="text-xs font-black uppercase text-rose">
-                    {product.brand}
-                  </p>
-                  <h2 className="editorial-color-kiss mt-3 font-display text-3xl leading-tight">
-                    {getElinProductEvidence(product).title}
-                  </h2>
-                  <p className="mt-4 leading-8 text-ink-soft">
-                    {product.summary}
-                  </p>
-                  {score ? (
-                    <ScoreBadge score={score} className="mt-5" as="span" />
-                  ) : null}
-                  <div className="mt-3">
-                    {!decision ? <PriceTierBadge product={product} showContext /> : null}
-                  </div>
-                  <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-wine px-5 font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition group-hover:bg-wine/90">
-                    Läs Elins koll
-                    <ArrowUpRight size={18} aria-hidden="true" />
-                  </span>
-                </div>
-              </Link>
-            );
-          })}
+        <section aria-label="Produkter i jämförelsen" className="mt-10 grid gap-6 md:grid-cols-2">
+          {products.map((product) => <ComparisonProductCard
+            key={product.slug}
+            product={product}
+            href={getProductPageHref(product)}
+            option={decision?.options.find((option) => option.productSlug === product.slug)}
+          />)}
         </section>
-
 
         {guide.rows.length ? (
           <section className="reveal-fade mt-12 overflow-hidden rounded-[2rem] border border-line bg-surface/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
@@ -324,6 +275,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
         ) : null}
 
         <RelatedLinks links={guide.relatedLinks} />
+        <Link href="/fraga-elin" className="mt-6 inline-flex min-h-11 items-center font-bold text-wine underline underline-offset-4">Fråga Elin – valfri AI-hjälp</Link>
       </div>
     </main>
   );

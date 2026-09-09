@@ -10,11 +10,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/traning/maghjul-eller-core-slider`;
 
-const heroImage = {
-  src: "/comparisons/maghjul-eller-core-slider.webp",
-  alt: "Maghjul eller core slider? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Träning", href: "/traning" },
@@ -25,12 +20,6 @@ export const metadata = createSeoMetadata({
   title: "Maghjul eller core slider? Bäst för magen | Elins val",
   description: "Maghjul eller core slider? Elin jämför en intensiv magövning mot mångsidiga glidövningar så du väljer rätt för bål och mage hemma.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
 });
 
 export default function MaghjulEllerCoreSliderPage() {
@@ -41,7 +30,6 @@ export default function MaghjulEllerCoreSliderPage() {
       badges={["Bål & mage","Intensivt vs mångsidigt","Kroppsvikt"]}
       howToChoose={"Välj ett maghjul om du vill ha en intensiv, tydlig magövning och redan har lite bålstyrka – det utmanar rejält. Välj core sliders om du vill ha mjukare, mer varierade övningar för bål, ben och helkropp, och gilla att kunna anpassa svårighetsgraden. Nybörjare kan börja med sliders och bygga upp till maghjulet."}
       verdict={"Det handlar om intensitet mot variation. Maghjulet vinner för en tuff, effektiv magövning, medan core sliders vinner för mångsidighet och att kunna börja mjukare. Vill du ha en enda hård övning – maghjul. Vill du ha variation – sliders."}
-      heroImage={heroImage}
       picks={maghjulEllerCoreSliderPicks}
       comparisonRows={maghjulEllerCoreSliderComparisonRows}
       faqItems={maghjulEllerCoreSliderFaqItems}

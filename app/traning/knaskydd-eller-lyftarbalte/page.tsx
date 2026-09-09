@@ -11,11 +11,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/traning/knaskydd-eller-lyftarbalte`;
 
-const heroImage = {
-  src: "/comparisons/knaskydd-eller-lyftarbalte.webp",
-  alt: "Knäskydd eller lyftarbälte? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Träning", href: "/traning" },
@@ -26,12 +21,6 @@ export const metadata = createSeoMetadata({
   title: "Knäskydd eller lyftarbälte? Rätt stöd för lyften | Elins val",
   description: "Stöd för knäna eller bålen? Elin jämför Rehbands 5 mm-knäskydd med C.P. Sports lyftarbälte – vilket som lyfter dina benpass och marklyft mest. (Annons)",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
 });
 
 export default function KnaskyddEllerLyftarbaltePage() {
@@ -42,7 +31,6 @@ export default function KnaskyddEllerLyftarbaltePage() {
       badges={["Tunga lyft","Stöd & stabilitet","Olika jobb"]}
       howToChoose={"Välj knäskydden om det är knäna som känns i knäböj, utfall och benpass – neoprenet ger värme och en stadig, omslutande känsla som många lyftare inte vill vara utan. Välj bältet om du drar tunga marklyft eller böjer nära din max och vill ha något att spänna bålen emot – det är där ett bälte gör sitt jobb. Tränar du lättare cirklar eller mest maskiner behöver du oftast inget av dem ännu: båda är redskap för tyngre baslyft."}
       verdict={"Välj inte stödutrustning utifrån en jämn eller hög poäng. Kontrollera avsedd användning, storlek och instruktioner. Om du inte har ett tydligt behov kan du avstå."}
-      heroImage={heroImage}
       picks={knaskyddEllerLyftarbaltePicks}
       comparisonRows={knaskyddEllerLyftarbalteComparisonRows}
       faqItems={knaskyddEllerLyftarbalteFaqItems}

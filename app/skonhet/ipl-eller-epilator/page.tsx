@@ -10,11 +10,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/skonhet/ipl-eller-epilator`;
 
-const heroImage = {
-  src: "/comparisons/ipl-eller-epilator.webp",
-  alt: "IPL eller epilator? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Skönhet", href: "/skonhet" },
@@ -25,12 +20,6 @@ export const metadata = createSeoMetadata({
   title: "IPL eller epilator? Vilken hårborttagning passar dig | Elins val",
   description: "IPL eller epilator? Elin jämför minskad hårväxt på sikt mot slät hud i veckor direkt så du väljer rätt metod för hårborttagning hemma.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
 });
 
 export default function IplEllerEpilatorPage() {
@@ -41,7 +30,6 @@ export default function IplEllerEpilatorPage() {
       badges={["Långvarig hårborttagning","Ljus vs mekaniskt","Skönhet"]}
       howToChoose={"Välj IPL om du är beredd att köra regelbundna behandlingar under några månader och vill se hårväxten minska med tiden. Välj en epilator om du vill ha ett resultat direkt som håller i veckor, utan väntetid, och inte har något emot lite känsla i början. IPL passar bäst på ljus hud med mörkare hår."}
       verdict={"Det handlar om tidsperspektiv. IPL vinner om du vill investera i minskad hårväxt på sikt, medan epilatorn vinner om du vill vara slät i veckor direkt utan en längre kur. Kolla att IPL passar din hud- och hårfärg innan du väljer."}
-      heroImage={heroImage}
       picks={iplEllerEpilatorPicks}
       comparisonRows={iplEllerEpilatorComparisonRows}
       faqItems={iplEllerEpilatorFaqItems}

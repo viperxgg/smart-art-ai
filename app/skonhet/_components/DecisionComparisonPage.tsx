@@ -1,7 +1,5 @@
 import { DecisionCard } from "@/components/DecisionCard";
 import { validateDecisionRecord, type DecisionRecord } from "@/lib/decision-record";
-import type { CSSProperties } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, WandSparkles } from "lucide-react";
 
@@ -14,8 +12,7 @@ import {
 import { EditorialMeta } from "@/components/EditorialMeta";
 import { JsonLd } from "@/components/JsonLd";
 import { buildProductListSchema } from "@/lib/product-schema";
-import { PriceTierBadge } from "@/components/PriceTierBadge";
-import { ProductBadges, ScoreBadge } from "@/components/ProductBadges";
+import { ProductBadges } from "@/components/ProductBadges";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { WebPageJsonLd } from "@/components/WebPageJsonLd";
 import type {
@@ -23,7 +20,8 @@ import type {
   DecisionComparisonPick,
   DecisionComparisonRelatedLink,
 } from "@/lib/decision-comparison";
-import { getEditorialScore } from "@/lib/scores";
+import { ComparisonProductCard } from "@/components/ComparisonProductCard";
+import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 
 type DecisionComparisonPageProps = {
   h1: string;
@@ -45,9 +43,7 @@ type DecisionComparisonPageProps = {
     paragraphs: readonly string[];
     link: { href: string; label: string };
   };
-  // Optional single Elin illustration (split-screen comparison thumbnail).
-  // When set, the two product images are replaced by this one image and a
-  // note links to the real product photos on Amazon.
+  // Legacy callers may still supply this; illustrations are not rendered as product evidence.
   heroImage?: { src: string; alt: string };
   backHref?: string;
   backLabel?: string;
@@ -76,7 +72,7 @@ export function buildDecisionComparisonSchemas({
             items: picks.map((pick) => ({
               product: pick.product,
               url: pick.path,
-              description: pick.shortBody,
+              description: getElinProductEvidence(pick.product).summary,
             })),
           })
         : null,
@@ -110,7 +106,6 @@ export function DecisionComparisonPage({
   breadcrumbItems,
   relatedLinks,
   intentGuide,
-  heroImage,
   backHref = "/skonhet",
   backLabel = "Tillbaka till skönhet",
 }: DecisionComparisonPageProps) {
@@ -122,7 +117,7 @@ export function DecisionComparisonPage({
       h1,
     });
   if (decision) validateDecisionRecord(decision, picks.map((pick) => pick.product.slug));
-  const merchantPicks = picks.filter((pick) => !decision || decision.options.find((option) => option.productSlug === pick.product.slug)?.merchantVariantVerified);
+  const merchantPicks = picks.filter((pick) => decision?.options.find((option) => option.productSlug === pick.product.slug)?.merchantVariantVerified);
   // The last breadcrumb is the page itself, so it carries the canonical path.
   const pagePath = breadcrumbItems.at(-1)?.href ?? "/";
 
@@ -171,26 +166,6 @@ export function DecisionComparisonPage({
         {decision ? <DecisionCard decision={decision} /> : null}
         <EditorialMeta path={pagePath} hideDate={Boolean(decision)} hideDisclosure className="mt-4" />
 
-        {heroImage && !hideUnverifiedImages ? (
-          <figure className="mt-8 overflow-hidden rounded-[2.4rem] border border-line bg-surface/72 shadow-[0_30px_90px_rgba(185,131,166,0.12)]">
-            <div className="relative aspect-[16/10] bg-rose/8">
-              <Image
-                src={heroImage.src}
-                alt={heroImage.alt}
-                fill
-                sizes="(max-width: 1024px) 100vw, 960px"
-                className="object-cover"
-                priority
-              />
-            </div>
-            <figcaption className="p-4 text-sm leading-7 text-ink-soft md:px-6">
-              Illustrationen visar jämförelsens tema. Den är inte ett produktfoto och styrker inte modellens utseende eller egenskaper.
-            </figcaption>
-          </figure>
-        ) : null}
-
-
-
         <section className="reveal-fade mt-10 rounded-[2rem] border border-line bg-surface/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <div className="flex items-start gap-4">
             <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-rose/15 text-wine">
@@ -230,60 +205,14 @@ export function DecisionComparisonPage({
           </section>
         ) : null}
 
-        <section className="mt-10 grid gap-6 md:grid-cols-2">
-          {picks.map((pick, index) => {
-            const score = getEditorialScore(pick.product.slug);
-
-            return (
-              <Link
-                key={pick.product.slug}
-                href={pick.path}
-                className="reveal-fade group overflow-hidden rounded-[2.2rem] border border-line bg-surface/72 shadow-[0_28px_90px_rgba(185,131,166,0.1)] transition hover:-translate-y-1"
-                style={{ "--i": index } as CSSProperties}
-              >
-                {heroImage || hideUnverifiedImages ? null : (
-                  <div className="relative aspect-[4/3] bg-rose/8">
-                    <Image
-                      src={pick.product.image}
-                      alt={pick.product.imageAlt}
-                      fill
-                      sizes="(max-width: 768px) 92vw, 470px"
-                      className="object-cover transition duration-500 group-hover:scale-[1.025]"
-                    />
-                    <span className="absolute left-5 top-5 rounded-full bg-wine/90 px-4 py-2 text-sm font-black text-bg backdrop-blur">
-                      {pick.badge}
-                    </span>
-                  </div>
-                )}
-                <div className="p-6">
-                  {heroImage || hideUnverifiedImages ? (
-                    <span className="inline-flex rounded-full bg-wine/90 px-4 py-1.5 text-xs font-black uppercase tracking-[0.12em] text-bg">
-                      {pick.badge}
-                    </span>
-                  ) : null}
-                  <p className="mt-3 text-xs font-black uppercase tracking-[0.16em] text-rose">
-                    {pick.product.brand}
-                  </p>
-                  <h2 className="editorial-color-kiss mt-3 font-display text-3xl leading-tight">
-                    {pick.headline}
-                  </h2>
-                  <p className="mt-4 leading-8 text-ink-soft">
-                    {pick.shortBody}
-                  </p>
-                  {score ? (
-                    <ScoreBadge score={score} className="mt-5" as="span" />
-                  ) : null}
-                  <div className="mt-3">
-                    <PriceTierBadge product={pick.product} showContext />
-                  </div>
-                  <span className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full bg-wine px-5 font-black text-bg shadow-[0_18px_42px_rgba(109,60,77,0.3)] transition group-hover:bg-wine/90">
-                    Läs recensionen
-                    <ArrowUpRight size={18} aria-hidden="true" />
-                  </span>
-                </div>
-              </Link>
-            );
-          })}
+        <section aria-label="Produkter i jämförelsen" className="mt-10 grid gap-6 md:grid-cols-2">
+          {picks.map((pick) => <ComparisonProductCard
+            key={pick.product.slug}
+            product={pick.product}
+            href={pick.path}
+            option={decision?.options.find((option) => option.productSlug === pick.product.slug)}
+            hideImage={hideUnverifiedImages}
+          />)}
         </section>
 
         <section className="reveal-fade mt-12 overflow-hidden rounded-[2rem] border border-line bg-surface/72 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
@@ -367,6 +296,7 @@ export function DecisionComparisonPage({
         ) : null}
 
         <RelatedLinks links={relatedLinks} />
+        <Link href="/fraga-elin" className="mt-6 inline-flex min-h-11 items-center font-bold text-wine underline underline-offset-4">Fråga Elin – valfri AI-hjälp</Link>
       </div>
     </main>
   );

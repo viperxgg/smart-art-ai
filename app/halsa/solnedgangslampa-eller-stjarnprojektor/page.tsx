@@ -10,11 +10,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/halsa/solnedgangslampa-eller-stjarnprojektor`;
 
-const heroImage = {
-  src: "/comparisons/solnedgangslampa-eller-stjarnprojektor.webp",
-  alt: "Solnedgångslampa eller stjärnprojektor? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Hälsa", href: "/halsa" },
@@ -25,12 +20,6 @@ export const metadata = createSeoMetadata({
   title: "Solnedgångslampa eller stjärnprojektor? | Elins val",
   description: "Solnedgångslampa eller stjärnprojektor? Elin jämför varmt solnedgångsljus mot en stjärnhimmel i taket så du väljer rätt stämningsljus.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
 });
 
 export default function SolnedgangslampaEllerStjarnprojektorPage() {
@@ -41,7 +30,6 @@ export default function SolnedgangslampaEllerStjarnprojektorPage() {
       badges={["Stämningsljus","Solnedgång vs stjärnhimmel","Mys"]}
       howToChoose={"Välj en solnedgångslampa om du vill ha ett varmt, gyllene ljus och den där lugna solnedgångskänslan – snyggt för mys, avkoppling och estetiska bilder. Välj en stjärnprojektor om du vill fylla hela taket med stjärnor och färger för en drömlik känsla – populärt i barnrummet, sovrummet eller för fest. De ger olika slags mys."}
       verdict={"Det handlar om vilken stämning du vill ha. Solnedgångslampan vinner för ett varmt, stilrent ljus, medan stjärnprojektorn vinner för en lekfull, drömlik stjärnhimmel. Lugnt och stilrent – solnedgång. Drömlikt och lekfullt – stjärnprojektor."}
-      heroImage={heroImage}
       picks={solnedgangslampaEllerStjarnprojektorPicks}
       comparisonRows={solnedgangslampaEllerStjarnprojektorComparisonRows}
       faqItems={solnedgangslampaEllerStjarnprojektorFaqItems}

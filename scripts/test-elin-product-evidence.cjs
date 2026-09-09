@@ -218,3 +218,58 @@ const { ProductReviewPage } = extractFunctions('app/(products)/_components/Produ
  }
  console.log(JSON.stringify({unreviewedPages:'PASS',fallbackProducts:unreviewed.length,routerProducts:entries.length,scope:'SSR with save/comment stubs; interaction verified separately'}));
 })().catch(error=>{console.error(error);process.exitCode=1;});
+
+// Comparison templates must not revive stale catalogue claims or media in product previews.
+const { ComparisonProductCard } = extractFunctions('components/ComparisonProductCard.tsx', ['ComparisonProductCard'], {
+  getElinProductEvidence, getApprovedProductImage,
+  Link: props => React.createElement('a', props, props.children),
+  Image: () => React.createElement('img', {'data-test':'product-image'}),
+});
+for (const {product,evidence} of entries) {
+  const dirty = {...product,summary:'STALE_COMPARISON_CLAIM',image:'/unapproved-comparison-image.webp'};
+  const markup = renderToStaticMarkup(React.createElement(ComparisonProductCard,{product:dirty,href:getProductPageHref(product)}));
+  assert.ok(!markup.includes('STALE_COMPARISON_CLAIM') && !markup.includes('<img'));
+  assert.ok(markup.includes('href="'+getProductPageHref(product)+'"'));
+  if (evidence.decision) {
+    for (const text of [evidence.title,evidence.decision.options[0].chooseIf,evidence.decision.options[0].avoidIf]) {
+      assert.ok(markup.includes(renderToStaticMarkup(React.createElement(React.Fragment,null,text))));
+    }
+  } else assert.ok(markup.includes('saknar granskat beslutsunderlag'));
+}
+assert.throws(()=>ComparisonProductCard({product:products[0],href:'/',option:{productSlug:'wrong'}}),/model mismatch/);
+const {validateDecisionRecord}=load('lib/decision-record.ts');
+const {ereaderDecision,getGuideDecision}=load('lib/ereader-decision.ts');
+const comparisonBindings={
+  ComparisonProductCard,getElinProductEvidence,validateDecisionRecord,
+  Link:props=>React.createElement('a',props,props.children),
+  DecisionCard:()=>React.createElement('section',{'data-test':'decision'}),
+  AmazonPurchaseCta:()=>React.createElement('a',{'data-test':'merchant'},'Merchant'),
+  AmazonPurchaseLinks:()=>React.createElement('a',{'data-test':'merchant'},'Merchant'),
+  Breadcrumbs:()=>null,buildBreadcrumbSchema:()=>({}),JsonLd:()=>null,WebPageJsonLd:()=>null,
+  EditorialMeta:()=>null,ProductBadges:()=>null,RelatedLinks:()=>null,
+  ArrowLeft:()=>null,ArrowUpRight:()=>null,WandSparkles:()=>null,CheckCircle2:()=>null,Sparkles:()=>null,
+  buildProductListSchema:()=>null,
+};
+const {DecisionComparisonPage}=extractFunctions('app/skonhet/_components/DecisionComparisonPage.tsx', ['DecisionComparisonPage','buildDecisionComparisonSchemas'],comparisonBindings);
+const comparisonProps={h1:'Vilken passar?',intro:'Intro',badges:[],howToChoose:'Needs',verdict:'Limits',comparisonRows:[],faqItems:[],breadcrumbItems:[{name:'Page',href:'/test'}],relatedLinks:[],heroImage:{src:'/legacy-illustration.webp',alt:'Not a verified product'},picks:ereaderDecision.options.map(option=>({product:{...products.find(p=>p.slug===option.productSlug),summary:'STALE_COMPARISON_CLAIM'},path:'/product/'+option.productSlug,badge:'STALE_COMPARISON_CLAIM',headline:'STALE_COMPARISON_CLAIM',shortBody:'STALE_COMPARISON_CLAIM'}))};
+for (const decision of [undefined,ereaderDecision]) {
+ const markup=renderToStaticMarkup(React.createElement(DecisionComparisonPage,{...comparisonProps,decision}));
+ assert.ok(!markup.includes('STALE_COMPARISON_CLAIM')&&!markup.includes('<img')&&!markup.includes('data-test="merchant"'));
+ assert.ok(markup.includes('href="/fraga-elin"'));
+}
+const verifiedDecision={...ereaderDecision,options:ereaderDecision.options.map(option=>({...option,merchantVariantVerified:true}))};
+const verifiedMarkup=renderToStaticMarkup(React.createElement(DecisionComparisonPage,{...comparisonProps,decision:verifiedDecision}));
+assert.ok(verifiedMarkup.indexOf('data-test="merchant"')>verifiedMarkup.indexOf('data-test="decision"'),'Synthetic verified offers follow decision; this does not approve live offers');
+const {waveGuides,getWaveGuide}=load('lib/wave-content.ts');
+const {WaveGuidePage}=extractFunctions('app/(products)/_components/WaveGuidePage.tsx',['WaveGuidePage'],{
+ ...comparisonBindings,getGuideDecision,getWaveGuide,getProductPageHref,
+ getProductBySlug:slug=>{const product=products.find(p=>p.slug===slug);return product?{...product,summary:'STALE_COMPARISON_CLAIM'}:undefined;},
+ categoryLabels:{traning:'Träning',halsa:'Hälsa',skonhet:'Skönhet',resa:'Resa'},categoryHrefs:{traning:'/traning',halsa:'/halsa',skonhet:'/skonhet',resa:'/sommar/resa'},
+ notFound:()=>{throw new Error('Unexpected missing guide');},
+});
+for (const guide of waveGuides) {
+ const markup=renderToStaticMarkup(React.createElement(WaveGuidePage,{guideId:guide.id}));
+ assert.ok(!markup.includes('STALE_COMPARISON_CLAIM')&&!markup.includes('data-test="merchant"'));
+ assert.ok(markup.includes('href="/fraga-elin"'));
+}
+console.log(JSON.stringify({comparisonPreview:'PASS',products:entries.length,waveGuides:waveGuides.length,scope:'Real card SSR; parent template guards and synthetic verified branch; guide narrative is not source-accepted by these tests'}));

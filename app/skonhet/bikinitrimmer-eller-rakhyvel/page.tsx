@@ -10,11 +10,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/skonhet/bikinitrimmer-eller-rakhyvel`;
 
-const heroImage = {
-  src: "/comparisons/bikinitrimmer-eller-rakhyvel.webp",
-  alt: "Bikinitrimmer eller rakhyvel? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Skönhet", href: "/skonhet" },
@@ -25,12 +20,6 @@ export const metadata = createSeoMetadata({
   title: "Bikinitrimmer eller rakhyvel? Skonsamt eller slätt | Elins val",
   description: "Bikinitrimmer eller rakhyvel för bikinilinjen? Elin jämför skonsam trimning mot en helt slät rakning så du väljer rätt med minsta irritation.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
 });
 
 export default function BikinitrimmerEllerRakhyvelPage() {
@@ -41,7 +30,6 @@ export default function BikinitrimmerEllerRakhyvelPage() {
       badges={["Bikinilinjen","Trimma vs slätt","Skonsamt"]}
       howToChoose={"Välj en bikinitrimmer om du vill trimma, snygga till eller korta ner utan att gå ända in på huden – skonsamt och snabbt, med mindre risk för irritation. Välj en rakhyvel om du vill ha en helt slät yta och är beredd att förbereda huden med gel och raka i hårets riktning för att slippa rakknottror."}
       verdict={"Det handlar om hur slät du vill vara. Bikinitrimmern vinner för skonsam trimning med minimal irritation, medan rakhyveln vinner för en helt slät yta. Vill du undvika rakknottror – trimmer. Vill du ha helt slätt – rakhyvel, med omsorg."}
-      heroImage={heroImage}
       picks={bikinitrimmerEllerRakhyvelPicks}
       comparisonRows={bikinitrimmerEllerRakhyvelComparisonRows}
       faqItems={bikinitrimmerEllerRakhyvelFaqItems}

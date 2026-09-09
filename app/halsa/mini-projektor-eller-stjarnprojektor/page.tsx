@@ -24,12 +24,6 @@ export const metadata = createSeoMetadata({
   description:
     "Elin jämför en mini-projektor och en stjärnprojektor: bärbar bio för film på väggen eller en drömmig galaxhimmel på taket.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${miniProjektorEllerStjarnprojektorPicks[0].product.image}`,
-    width: 1200,
-    height: 900,
-    alt: miniProjektorEllerStjarnprojektorPicks[0].product.imageAlt,
-  },
 });
 
 export default function MiniProjektorEllerStjarnprojektorPage() {

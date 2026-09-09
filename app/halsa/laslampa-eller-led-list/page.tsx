@@ -10,11 +10,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/halsa/laslampa-eller-led-list`;
 
-const heroImage = {
-  src: "/comparisons/laslampa-eller-led-list.webp",
-  alt: "Läslampa eller LED-list? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Hälsa", href: "/halsa" },
@@ -25,12 +20,6 @@ export const metadata = createSeoMetadata({
   title: "Läslampa eller LED-list? Ljus för mörka kvällar | Elins val",
   description: "Riktat läsljus eller mysig stämningsbelysning? Elin jämför Gritins uppladdningsbara läslampa med Govee Neon Rope inför höstens mörka kvällar. (Annons)",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
 });
 
 export default function LaslampaEllerLedListPage() {
@@ -41,7 +30,6 @@ export default function LaslampaEllerLedListPage() {
       badges={["Mörka kvällar","Mysbelysning","Olika jobb"]}
       howToChoose={"Välj läslampan om du faktiskt ska SE något: läsa i sängen utan att väcka någon, handarbeta i soffan eller ha riktat ljus vid skrivbordet – Gritins klämlampa sitter fast var som helst, är uppladdningsbar och har flera ljuslägen. Välj LED-listen om du vill förändra rummets stämning: ett mjukt ljussken bakom TV:n, runt bokhyllan eller i fönstret – Govees Neon Rope formas som du vill och styrs i appen med färger och scener. Kort sagt: uppgiftsljus mot stämningsljus."}
       verdict={"Två olika köp för två olika kvällar. Läslampan är det praktiska valet som gör mörka kvällar användbara – hög poäng, lågt pris i sin kategori och laddningsbar frihet. LED-listen är stämningshöjaren som gör rummet mysigt på riktigt men inte hjälper dig läsa en enda sida. Många slutar med båda: listen för rummet, lampan för boken."}
-      heroImage={heroImage}
       picks={laslampaEllerLedListPicks}
       comparisonRows={laslampaEllerLedListComparisonRows}
       faqItems={laslampaEllerLedListFaqItems}

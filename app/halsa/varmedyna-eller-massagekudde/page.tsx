@@ -10,11 +10,6 @@ import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/halsa/varmedyna-eller-massagekudde`;
 
-const heroImage = {
-  src: "/comparisons/varmedyna-eller-massagekudde.webp",
-  alt: "Värmedyna eller massagekudde? — Elins jämförelse",
-};
-
 const breadcrumbItems = [
   { name: "Hem", href: "/" },
   { name: "Hälsa", href: "/halsa" },
@@ -25,12 +20,6 @@ export const metadata = createSeoMetadata({
   title: "Värmedyna eller massagekudde? Bäst avslappning | Elins val",
   description: "Värmedyna eller massagekudde? Elin jämför mjuk värme mot aktiv knådning så du väljer rätt för en spänd nacke och rygg.",
   url: pageUrl,
-  image: {
-    url: `${siteConfig.url}${heroImage.src}`,
-    width: 1200,
-    height: 760,
-    alt: heroImage.alt,
-  },
 });
 
 export default function VarmedynaEllerMassagekuddePage() {
@@ -41,7 +30,6 @@ export default function VarmedynaEllerMassagekuddePage() {
       badges={["Avslappning","Värme vs knådning","Återhämtning"]}
       howToChoose={"Välj en värmedyna om du gillar mjuk, avslappnande värme mot en spänd nacke eller rygg och vill ha något enkelt att bara luta dig mot. Välj en massagekudde om du vill ha en mer aktiv knådande massage som jobbar på spända punkter. Många har en värmedyna för lugn värme och en massagekudde när musklerna behöver mer bearbetning."}
       verdict={"Det handlar om vilken känsla du vill ha. Värmedynan vinner för mjuk, avslappnande värme, medan massagekudden vinner för aktiv knådning av spända muskler. Vill du bara varva ner – värme. Vill du bearbeta spänningar – massage."}
-      heroImage={heroImage}
       picks={varmedynaEllerMassagekuddePicks}
       comparisonRows={varmedynaEllerMassagekuddeComparisonRows}
       faqItems={varmedynaEllerMassagekuddeFaqItems}
