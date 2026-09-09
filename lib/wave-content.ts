@@ -1,3 +1,4 @@
+import { morningLightGuide } from "@/lib/morning-light-decision";
 import { daylightLampGuide, daylightLampOverviewGuide } from "@/lib/daylight-lamp-decision";
 // Generated for wave-build-2026-07. Do not edit by hand.
 import type { CategoryProductGroup } from "@/lib/categoryGroups";
@@ -4394,80 +4395,15 @@ export const waveGuides: WaveGuide[] = [
     metaDescription: "Jämför TL 30 och TL 35 med modellbundna instruktioner, källor och begränsningar. Ingen vinnare utses från kundbetyg.",
   },
   {
-    id: "morka-morgnar",
-    href: "/halsa/morka-morgnar",
-    category: "halsa",
-    label: "Guide",
-    title: "Mörka morgnar: ljus, väckning och kvällsro",
-    intro: "En liten guide till extra ljus, wake-up light och mjukt kvällssken under mörka månader.",
-    badges: [
-      "Mörka morgnar",
-      "Ljus",
-      "Vardag",
-    ],
-    productSlugs: [
-      "beurer-tl30-dagsljuslampa",
-      "philips-wake-up-light",
-      "solnedgangslampa",
-    ],
-    pickBadges: {
-      "beurer-tl30-dagsljuslampa": "Resefodral",
-      "philips-wake-up-light": "Elins val",
-      solnedgangslampa: "Elins val",
-    },
-    choiceTitle: "Bygg efter tid på dagen",
-    choiceText: "Dagsljuslampa hör hemma på morgon eller skrivbord. Wake-up light hjälper rutinen runt uppvakning. Solnedgångslampa är mer kvälls- och mysprodukt.",
-    rows: [
-      {
-        label: "Bäst för",
-        values: [
-          "Extra ljus",
-          "Väckningsrutin",
-          "Kvällskänsla",
-        ],
-      },
-      {
-        label: "Placering",
-        values: [
-          "Skrivbord",
-          "Nattduksbord",
-          "Vardagsrum",
-        ],
-      },
-      {
-        label: "Caveat",
-        values: [
-          "Inga behandlingslöften",
-          "Inte dagsljus",
-          "Mest stämning",
-        ],
-      },
-    ],
-    verdict: "Kombinera efter situation, inte efter stora löften.",
-    faqItems: [
-      {
-        question: "Mörka morgnar guide.",
-        answer: "Dagsljuslampa hör hemma på morgon eller skrivbord. Wake-up light hjälper rutinen runt uppvakning. Solnedgångslampa är mer kvälls- och mysprodukt.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
-    metaTitle: "Mörka morgnar: ljus, väckning och kvällsro | Elins val",
-    metaDescription: "Mörka morgnar: ljus, väckning och kvällsro: En liten guide till extra ljus, wake-up light och mjukt kvällssken under mörka månader. (Annons)",
+    id: "morka-morgnar", href: morningLightGuide.path, category: "halsa", label: "Guide",
+    title: morningLightGuide.title, intro: morningLightGuide.intro,
+    badges: ["Behov före köp"],
+    productSlugs: morningLightGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Vad behöver du?", choiceText: morningLightGuide.decision.payMoreWhen,
+    rows: [], verdict: morningLightGuide.decision.noPurchaseWhen,
+    faqItems: [...morningLightGuide.questions],
+    relatedLinks: morningLightGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${morningLightGuide.title} | Elins val`, metaDescription: morningLightGuide.intro,
   },
   {
     // Hand-built seasonal guide, content batch 2026-08-27.
