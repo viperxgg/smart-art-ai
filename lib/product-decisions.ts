@@ -1,3 +1,4 @@
+import { rollerSliderDecision } from "@/lib/maghjul-eller-core-slider";
 import { balanceBallDecision } from "@/lib/balansplatta-eller-gymboll";
 import { runningCarryDecision } from "@/lib/loparvast-eller-midjevaska";
 import { kneeBeltDecision } from "@/lib/knaskydd-eller-lyftarbalte";
@@ -83,6 +84,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const rollerSliderOption = rollerSliderDecision.options.find(option => option.productSlug === slug);
+  if (rollerSliderOption) return {
+    ...rollerSliderDecision, options: [rollerSliderOption],
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Maghjul eller core sliders?", href: "/traning/maghjul-eller-core-slider" },
+  };
   const balanceBallOption = balanceBallDecision.options.find(option => option.productSlug === slug);
   if (balanceBallOption) return {
     ...balanceBallDecision, options: [balanceBallOption],
