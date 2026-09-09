@@ -1,32 +1,47 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  beurerFm90Product,
-  beurerMassagepistolProduct,
-} from "@/lib/products";
+import type { DecisionRecord } from "@/lib/decision-record";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
+import { massageGunDecision } from "@/lib/massage-gun-decision";
 
-export const fotmassageEllerMassagepistolFaqItems: DecisionComparisonFaqItem[] = [{"question":"Vad är skillnaden mellan fotmassage och massagepistol?","answer":"En fotmassage som Beurer FM 90 är en apparat du sätter fötterna i – shiatsu-rullar och värme sköter allt automatiskt. En massagepistol som MG 99 är ett handhållet verktyg du själv riktar mot spända muskler var som helst på kroppen. Den ena är passiv avkoppling, den andra ett aktivt verktyg."},{"question":"Hjälper en fotmassageapparat mot trötta fötter?","answer":"Många köpare beskriver just det som största behållningen: efter dagar med mycket stående och gående upplevs shiatsu-rullarna och värmen som mycket avkopplande. Se den som en skön kvällsritual snarare än en mirakelkur."},{"question":"Kan man använda en massagepistol på fötterna?","answer":"Det går med ett mjukt huvud och lågt tempo, men de flesta tycker att en riktig fotmassage är bekvämare för just fötter – pistolen kommer mer till sin rätt på större muskler som vader, lår och axlar."},{"question":"Vilken passar bäst som julklapp?","answer":"Båda är uppskattade klappar men till olika personer: fotmassagen till den som älskar mys och avkoppling, massagepistolen till den som tränar eller ofta klagar på spända axlar."}];
+export const footMassageDecision: DecisionRecord = {
+  reviewedAt: "2026-09-09",
+  options: [
+    {
+      productSlug: "beurer-fotmassage", model: "Beurer FM 90",
+      variant: "Artikel 64506, EAN 4211125645069. Katalogens ASIN B07H7QZVSP är inte matchat mot ett aktuellt svenskt erbjudande. Inte fotbadet FB 35.",
+      chooseIf: "du vill ha fotmassage när du sitter och har plats för apparaten och elanslutningen. Beurer beskriver shiatsu, tre nivåer av lufttryck och valbar värme, med passform upp till EU-storlek 46.",
+      avoidIf: "du behöver massage på andra kroppsdelar eller har skadad eller inflammerad hud på fötterna. Manualen kräver läkarkontakt före användning vid bland annat diabetes, nedsatt smärtkänsel eller oklar smärta. Läs hela begränsningslistan.",
+      sourceIds: ["F1", "F2"], merchantVariantVerified: false,
+    },
+    massageGunDecision.options[0],
+  ],
+  payMoreWhen: "En skillnad i passform, grepp eller reglage löser ett konkret behov. En fotapparat och en handhållen pistol ersätter inte automatiskt varandra. Vi har inte jämfört ljud, tryck, effekt eller aktuella totalpriser och anger ingen prisvinnare.",
+  noPurchaseWhen: "Du saknar ett tydligt användningsbehov eller redan har något som fungerar. Köp inte en apparat för att själv behandla oförklarad smärta. En present är inte skäl att bortse från mottagarens önskemål eller manualens begränsningar.",
+  swedishContext: "FM 90 anges till 36 × 42 × 25 cm och 4,6 kg utan förpackning på Beurers globala sida. Kontrollera plats, förvaring och egen fotpassform; EU 46 är ingen individuell garanti. Rätt nätadapter, begripliga instruktioner och svensk leverans måste bekräftas för båda modellerna.",
+  testing: "Vi har jämfört Beurers modelluppgifter och manualer, inte provat apparaterna. Vi vet inte hur trycket känns, hur snabbt värmen märks eller vilken som upplevs tystast. Tillverkarens massagefunktioner är inte bevis för snabbare återhämtning.",
+  limitations: "Båda är avsedda för privat användning, inte medicinsk behandling. FM 90 ska användas sittande och högst 15 minuter enligt manualen; avstängningen ersätter inte tillsyn. MG 99 får inte användas överallt på kroppen. Inga löften om smärtlindring, förbättrad cirkulation eller träningsresultat ges. Bildrättigheter och erbjudanden återstår.",
+  sources: [
+    { id: "F1", title: "Beurer – FM 90, artikel 64506", url: "https://www.beurer.com/global/p/64506/", checkedAt: "2026-09-09", supports: "Artikel/EAN, shiatsu och lufttryck, valbar värme, storleksgräns, mått och vikt utan förpackning. Globala produktuppgifter, inte verifierad svensk leverans." },
+    { id: "F2", title: "Beurer – FM 90 bruksanvisning, 2021-03-26", url: "https://pim.beurer.com/images/attribut/645.06_FM90_2021-03-26_04_IM1_BEU.pdf", checkedAt: "2026-09-09", supports: "Engelska sidor 15–20: avsedd användning, kontraindikationer, sittande användning och tidsgräns. Läs fullständiga instruktioner, inte bara denna sammanfattning." },
+    ...massageGunDecision.sources.map(source => ({ ...source, checkedAt: "2026-09-09" })),
+  ],
+};
 
-export const fotmassageEllerMassagepistolComparisonRows = [["Typ","Shiatsu-fotmassage med värme","Massagepistol med utbytbara huvuden"],["Kroppsdel","Fötter","Hela kroppen – vader, lår, rygg, axlar"],["Ansträngning","Ingen – sätt i fötterna och slappna av","Du håller och styr den själv"],["Bäst efter","Dagar på benen, kalla kvällar","Träningspass och stillasittande"],["Ljud","Lågt surr","Hörs mer på höga lägen"],["Passar som julklapp","Ja – mysfaktor","Ja – till den träningsintresserade"],] as const;
-
-export const fotmassageEllerMassagepistolPicks: [DecisionComparisonPick, DecisionComparisonPick] = [
-  {
-    product: beurerFm90Product,
-    path: "/halsa/fotmassage",
-    badge: "För fötterna",
-    headline: "Beurer FM 90 – fotkvällen på autopilot",
-    shortBody: "Välj FM 90 när det är fötterna som är trötta. Shiatsu-rullarna och värmen jobbar medan du gör ingenting alls – perfekt avslut på dagar där du stått och gått mycket.",
-  },
-  {
-    product: beurerMassagepistolProduct,
-    path: "/halsa/massagepistol/beurer-mg-99",
-    badge: "För musklerna",
-    headline: "Beurer MG 99 – verktyget du riktar själv",
-    shortBody: "Välj MG 99 när du vill komma åt spända vader, lår och axlar efter träning eller långa dagar vid skrivbordet. Du styr tryck, tempo och var den jobbar.",
-  },
-];
-
-export const fotmassageEllerMassagepistolRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/halsa/fotmassage","label":"Fotmassage","text":"Läs Elins genomgång av Beurer FM 90."},{"href":"/halsa/massagepistol/beurer-mg-99","label":"Massagepistol","text":"Läs Elins genomgång av Beurer MG 99."},{"href":"/halsa/massagepistol","label":"Guide","text":"Elins massagepistol-guide: två tydliga val."},{"href":"/halsa/massagepistol-eller-spikmatta","label":"Jämförelse","text":"Massagepistol eller spikmatta för återhämtning?"}];
+export const footMassageGuide: DecisionGuide = {
+  parent: { name: "Hälsa & vardag", href: "/halsa" },
+  path: "/halsa/fotmassage-eller-massagepistol",
+  title: "Fotmassage sittande eller ett redskap du styr själv?",
+  intro: "FM 90 arbetar med fötterna i en golvplacerad apparat. MG 99 hålls och riktas för hand. Börja med användningsområde, passform och manualens begränsningar – inte löften om återhämtning.",
+  decision: footMassageDecision,
+  productPaths: ["/halsa/fotmassage", "/halsa/massagepistol/beurer-mg-99"],
+  questions: [
+    { question: "Passar FM 90 alla upp till storlek 46?", answer: "Beurer anger upp till EU 46, men vi har inte provat passformen. Fotens form och önskat utrymme kan påverka hur apparaten känns. Kontrollera passform och returvillkor i det aktuella erbjudandet." },
+    { question: "Kan jag somna medan FM 90 går?", answer: "Nej. Manualen förbjuder användning under sömn och utan tillsyn. Den automatiska avstängningen gör inte sovande användning tillåten." },
+    { question: "Kan MG 99 användas över hela kroppen?", answer: "Nej. Manualen utesluter bland annat huvud, ansikte, ryggrad och skadad vävnad. Den nämner fotsulan för ett särskilt huvud, men det är inte ett generellt råd att behandla fötter med valfritt mjukt huvud. Läs modellens instruktioner och begränsningar först." },
+    { question: "Vilken ger bäst återhämtning?", answer: "Det har vi inte underlag för att avgöra. Vi har varken jämförande kroppstester eller belägg för att någon av modellerna förbättrar dina träningsresultat. Välj efter tillåten användning och praktisk passform, om du alls behöver köpa." },
+  ],
+  related: [
+    { href: "/halsa/massagepistol", text: "Kontrollera massagepistolens begränsningar" },
+    { href: "/halsa/massagepistol-eller-spikmatta", text: "Massagepistol eller spikmatta?" },
+    { href: "/halsa", text: "Fler beslut för vardagen" },
+  ],
+};

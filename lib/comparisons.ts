@@ -152,14 +152,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "fotmassage-eller-massagepistol",
-    title: "Fotmassage eller massagepistol?",
+    title: "Fotmassage sittande eller ett redskap du styr själv?",
     shortTitle: "Fotmassage eller massagepistol",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/fotmassage-eller-massagepistol",
-    description: "Njutning på autopilot för trötta fötter mot ett verktyg du riktar mot spända muskler – Elin jämför Beurers två återhämtningsval inför mörka kvällar.",
+    description: "FM 90 och MG 99 har olika användning. Jämför passform och reglage, och läs manualernas begränsningar innan köp.",
     productSlugs: ["beurer-fotmassage","beurer-mg-99-massagepistol"],
-    badges: ["Återhämtning","Mysiga kvällar","Beurer mot Beurer"],
+    badges: ["Användning och passform","Dokumenterade begränsningar"],
   },
   {
     slug: "cicaplast-b5-eller-cetaphil",

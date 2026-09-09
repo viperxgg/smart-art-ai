@@ -1,3 +1,4 @@
+import { footMassageDecision } from "@/lib/fotmassage-eller-massagepistol";
 import { readingLightDecision } from "@/lib/laslampa-eller-led-list";
 import { scalpDecision } from "@/lib/rosmarinolja-eller-scalp-scrub";
 import { textureDecision } from "@/lib/texturspray-eller-volympuder";
@@ -65,6 +66,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "beurer-fotmassage") return {
+    ...footMassageDecision, options: [footMassageDecision.options[0]],
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Fotmassage eller ett handhållet redskap?", href: "/halsa/fotmassage-eller-massagepistol" },
+  };
   const readingLightOption = readingLightDecision.options.find(item => item.productSlug === slug);
   if (readingLightOption) return {
     ...readingLightDecision, options: [readingLightOption],
