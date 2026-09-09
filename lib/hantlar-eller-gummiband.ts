@@ -1,38 +1,14 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  proironNeopreneDumbbellsProduct,
-  elvireMinibandProduct,
-} from "@/lib/products";
+import type { DecisionRecord } from "@/lib/decision-record";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
 
-export const hantlarEllerGummibandFaqItems: DecisionComparisonFaqItem[] = [
+export const hantlarEllerGummibandFaqItems = [
   { question: "Kan jag ändra vikten på dessa hantlar?", answer: "Nej, PROIRON neoprenhantlar är fasta vikter. En annan belastning kräver en annan hantel. Blanda inte ihop dem med justerbara hantlar med viktskivor." },
   { question: "Ersätter miniband alla långa träningsband?", answer: "Nej. Kontrollera bandets längd och vilka övningar det är avsett för. Ett kort miniband ska inte väljas utifrån instruktioner för ett långt band med handtag eller dörrfäste." },
   { question: "Är band alltid skonsammare?", answer: "Det har vi inget jämförande underlag för. Val av övning, belastning och utförande spelar roll. Vi rekommenderar inte någon av produkterna som behandling eller rehabilitering." },
   { question: "Måste jag köpa båda?", answer: "Nej. Utgå från de övningar du redan gör och den utrustning du har. Köp först när du kan beskriva vilken funktion som saknas." },
 ];
 
-export const hantlarEllerGummibandComparisonRows = [
-  ["Typ som jämförs", "PROIRON neoprenhantlar med fast vikt", "Elvire korta miniband; exakt variant ej verifierad"],
-  ["Ändra belastning", "Byt hantel, inte viktskivor", "Kontrollera bandets nivå och övningens utförande"],
-  ["Vad måste matcha?", "Vikt per hantel och antal i paketet", "Längd, material och avsedd övning"],
-  ["Förvaring", "Planera för vikten och en stabil plats", "Kontrollera mått; korta band kräver ingen hantelställning"],
-  ["Viktig begränsning", "En fast vikt passar inte automatiskt alla övningar", "Inte samma redskap som långa band med handtag"],
-  ["Verifierad svensk butiksvariant", "Nej", "Nej"],
-] as const;
-
-export const hantlarEllerGummibandPicks: [DecisionComparisonPick, DecisionComparisonPick] = [
-  { product: proironNeopreneDumbbellsProduct, path: "/traning/hantlar/proiron-neopren", badge: "Fast vikt", headline: "Behöver du en bestämd vikt i handen?", shortBody: "Välj först vilken vikt dina övningar kräver. Detta är inte ett justerbart hantelset." },
-  { product: elvireMinibandProduct, path: "/traning/miniband", badge: "Kort band", headline: "Kräver din övning ett kort miniband?", shortBody: "Kontrollera längd, material och motstånd. Vi har ännu inte verifierat den exakta Elvire-varianten." },
-];
-
-export const hantlarEllerGummibandRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/traning/hantlar/proiron-neopren","label":"Hantlar","text":"Läs Elins recension av PROIRON neoprenhantlar."},{"href":"/traning/miniband","label":"Gummiband","text":"Läs Elins recension av Elvire miniband."},{"href":"/traning","label":"Träning","text":"Se alla Elins val för hemmaträning."}];
-
-
-export const hantlarEllerGummibandDecision: import("@/lib/decision-record").DecisionRecord = {
+export const hantlarEllerGummibandDecision: DecisionRecord = {
   reviewedAt: "2026-09-08",
   options: [
     { productSlug: "proiron-neoprenhantlar", model: "PROIRON neoprenhantlar – fasta vikter", variant: "Vikt per hantel och antal i den svenska butikens paket är ännu inte matchade. Detta är en produktfamilj, inte en verifierad enskild köpvariant.", chooseIf: "du behöver en bestämd vikt i handen och har kontrollerat vilken vikt du faktiskt använder i dina övningar.", avoidIf: "du vill ändra vikten på samma hantel med lösa skivor. Då behöver du jämföra ett justerbart redskap i stället.", sourceIds: ["T1"], merchantVariantVerified: false },
@@ -47,4 +23,18 @@ export const hantlarEllerGummibandDecision: import("@/lib/decision-record").Deci
     { id: "T1", title: "PROIRON – hantelsortiment", url: "https://proiron.com/collections/dumbbell", checkedAt: "2026-09-08", supports: "Tillverkaren listar neoprenhantlar separat från justerbara hantelset. Ingen exakt svensk köpvariant har matchats." },
     { id: "T2", title: "Scientific Reports – pilotstudie med motståndsband", url: "https://www.nature.com/articles/s41598-025-27567-9", checkedAt: "2026-09-08", supports: "Metoden beskriver tre Elvire-tygband med olika motstånd. Den saknar modellidentifiering för vår butikspost och jämför inte dessa produkter med PROIRON-hantlar." },
   ],
+};
+
+export const dumbbellBandGuide: DecisionGuide = {
+  parent: { name: "Träning", href: "/traning" },
+  path: "/traning/hantlar-eller-gummiband",
+  title: "Hantlar eller miniband – vad kräver dina övningar?",
+  intro: "Här jämför vi fasta neoprenhantlar med korta miniband. Börja med en bestämd övning: behöver du en vikt i handen eller ett kort band? Kontrollera sedan vad du redan har och vad som faktiskt saknas.",
+  decision: hantlarEllerGummibandDecision,
+  productPaths: ["/traning/hantlar/proiron-neopren", "/traning/miniband"],
+  questions: [
+    { question: "Vad ska jag skriva upp före köp?", answer: "Övningen, om den kräver ett eller två redskap och den vikt eller bandtyp som fungerar för dig. Kontrollera paketet mot listan. Ett större antal delar är bara en fördel om du använder dem." },
+    ...hantlarEllerGummibandFaqItems,
+  ],
+  related: [{ href: "/traning/kettlebell-eller-hantlar", text: "Kettlebell eller flera fasta hantlar?" }],
 };
