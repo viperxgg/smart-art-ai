@@ -1,32 +1,30 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  solnedgangslampaProduct,
-  stjarnprojektorProduct,
-} from "@/lib/products";
+import type { DecisionRecord } from "@/lib/decision-record";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
+import { sunsetLightDecision } from "@/lib/sunset-light-decision";
+import { getProjectionProductDecision } from "@/lib/mini-projektor-eller-stjarnprojektor";
 
-export const solnedgangslampaEllerStjarnprojektorFaqItems: DecisionComparisonFaqItem[] = [{"question":"Vad är skillnaden på solnedgångslampa och stjärnprojektor?","answer":"En solnedgångslampa kastar ett varmt, gyllene ljus på väggen som en solnedgång. En stjärnprojektor fyller taket med rörliga stjärnor och färger för en drömlik känsla. De ger olika slags stämning."},{"question":"Vilken är bäst för sovrummet?","answer":"Vill du ha ett lugnt, stilrent ljus passar en solnedgångslampa fint. Vill du ha en drömlik stjärnhimmel att somna under är en stjärnprojektor mysigare, särskilt om du gillar rörligt ljus."},{"question":"Vilken är bäst för bilder och video?","answer":"Solnedgångslampan ger en snygg, varm ljuseffekt på väggen som är populär i estetiska bilder. Stjärnprojektorn ger en mer effektfull, färgstark bakgrund."},{"question":"Passar de i barnrummet?","answer":"En stjärnprojektor är ofta uppskattad i barnrummet eftersom stjärnorna i taket är lugnande och roliga vid läggdags. En solnedgångslampa passar mer som stämningsljus för äldre."}];
+const stars = getProjectionProductDecision("stjarnprojektor");
+export const sunsetStarsDecision: DecisionRecord = {
+  reviewedAt: "2026-09-09",
+  options: [sunsetLightDecision.options[0], stars.options[0]],
+  payMoreWhen: "Du vill ha ett dokumenterat reglage eller motivsystem: fjärrstyrda färger hos Aniepaa, eller utbytbara motivskivor hos Mexllex. Välj utifrån vad du använder; vi har inte jämfört dagens priser eller visat bättre färgåtergivning hos någon av dem.",
+  noPurchaseWhen: "Din nuvarande lampa redan ger den stämning du vill ha. Inget av redskapen är ett nödvändigt sömnköp, och du behöver inte två dekorationslampor för samma hörna.",
+  swedishContext: "Planera strömkälla, kabelräckvidd och ytan du vill lysa upp. Kontrollera adapter och bruksanvisning för den beställda varianten. Bedöm dem som dekoration; vi har inte verifierat lämplighet i ett visst barns rum.",
+  testing: "Vi har kontrollerat de två länkade butikssidorna. Vi har inte jämfört ljuskvalitet, flimmer, motorljud, avstängning eller sömn. Källorna styrker beskrivna funktioner, inte hur produkterna upplevs i ditt rum.",
+  limitations: "Aniepaa är inte bara stilla ljus: även dynamiska lägen anges. Mexllex använder skivor med motiv, inte egna videofiler. Fullständiga ström- och säkerhetsanvisningar samt godkända produktbilder återstår. Ingen generell barnrums- eller sömnrekommendation ges.",
+  sources: [...sunsetLightDecision.sources, ...stars.sources],
+};
 
-export const solnedgangslampaEllerStjarnprojektorComparisonRows = [["Snabba signaler","Varmt, gyllene ljus på väggen","Rörliga stjärnor och färger i taket"],["Känsla","Lugn solnedgång","Drömlik stjärnhimmel"],["Bäst för","Mys och stilrena bilder","Sovrum, barnrum, fest"],["Rörligt ljus?","Nej – stilla sken","Ja – rörliga stjärnor"],["Färger","Varma toner","Flera färger och lägen"],["Stil","Stilren och lugn","Lekfull och effektfull"],] as const;
-
-export const solnedgangslampaEllerStjarnprojektorPicks: [DecisionComparisonPick, DecisionComparisonPick] = [
-  {
-    product: solnedgangslampaProduct,
-    path: "/halsa/solnedgangslampa",
-    badge: "Varmt & stilrent",
-    headline: "Solnedgångslampa – gyllene ljus på väggen",
-    shortBody: "Välj solnedgångslampan om du vill ha ett varmt, gyllene ljus och en lugn solnedgångskänsla. Snyggt för mys, avkoppling och estetiska bilder.",
-  },
-  {
-    product: stjarnprojektorProduct,
-    path: "/halsa/stjarnprojektor",
-    badge: "Drömlik stjärnhimmel",
-    headline: "Stjärnprojektor – fyll taket med stjärnor",
-    shortBody: "Välj stjärnprojektorn om du vill fylla taket med rörliga stjärnor och färger. Drömlikt och lekfullt – populärt i sovrummet, barnrummet eller på fest.",
-  },
-];
-
-export const solnedgangslampaEllerStjarnprojektorRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/halsa/solnedgangslampa","label":"Solnedgångslampa","text":"Läs Elins recension av solnedgångslampan."},{"href":"/halsa/stjarnprojektor","label":"Stjärnprojektor","text":"Läs Elins recension av stjärnprojektorn."},{"href":"/halsa/mini-projektor-eller-stjarnprojektor","label":"Jämförelse","text":"Mini-projektor eller stjärnprojektor? Se den jämförelsen."},{"href":"/halsa","label":"Hälsa","text":"Se alla Elins val för mys och avkoppling."}];
+export const sunsetStarsGuide: DecisionGuide = {
+  parent: { name: "Hälsa & vardag", href: "/halsa" }, path: "/halsa/solnedgangslampa-eller-stjarnprojektor",
+  title: "Solnedgångslampa eller stjärnprojektor – färgat ljus eller motivskivor?",
+  intro: "Aniepaa ger en riktbar färgad ljusyta med fjärrkontroll; Mexllex projicerar motiv från tolv skivor. Välj vilken effekt du faktiskt vill använda och kontrollera ström och placering först.",
+  decision: sunsetStarsDecision, productPaths: ["/halsa/solnedgangslampa", "/halsa/stjarnprojektor"],
+  questions: [
+    { question: "Är solnedgångslampan alltid ett stilla, varmt ljus?", answer: "Nej. Den länkade varianten anger 24 fasta färger och fyra dynamiska lägen, inklusive blinkläge. Välj ett fast läge om det är det du vill ha; namnet beskriver inte alla lampans lägen." },
+    { question: "Ingår allt jag behöver för att ansluta Aniepaa?", answer: "USB-kabel anges ingå, men vi har inte verifierat nätadapter eller fullständiga strömkrav. Bekräfta vad som krävs och vad paketet innehåller före köp." },
+    { question: "Kan jag använda någon av dem som läslampa?", answer: "Vi har inte verifierat belysning på boksidan eller arbetsytan. En färgad vägg eller projicerad stjärnbild är inte underlag för att rekommendera dem som läsljus." },
+    { question: "Vilken hjälper barn att somna snabbare?", answer: "Det kan vi inte avgöra från produktsidorna. Motiv, färger och timer visar inte en verifierad sömneffekt. Vi rekommenderar inte någon av dem som sömnbehandling eller som generellt lämplig i barnrum." },
+  ],
+  related: [{ href: "/halsa/mini-projektor-eller-stjarnprojektor", text: "Vill du visa film i stället för dekorativa motiv?" }, { href: "/halsa/wake-up-light-eller-solnedgangslampa", text: "Behöver du en väckningsfunktion?" }],
+};

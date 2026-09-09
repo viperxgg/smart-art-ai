@@ -1,3 +1,4 @@
+import { sunsetLightDecision } from "@/lib/sunset-light-decision";
 import { getProjectionProductDecision } from "@/lib/mini-projektor-eller-stjarnprojektor";
 import { homeCardioDecision, getHomeCardioDecision } from "@/lib/home-cardio-decisions";
 import { barRingsDecision } from "@/lib/pull-up-bar-eller-gymnastikringar";
@@ -88,6 +89,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "solnedgangslampa") return {
+    ...sunsetLightDecision,
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Färgat ljus eller motivskivor?", href: "/halsa/solnedgangslampa-eller-stjarnprojektor" },
+  };
   if (["mini-projektor", "stjarnprojektor"].includes(slug)) return {
     ...getProjectionProductDecision(slug),
     category: { label: "Hälsa & vardag", href: "/halsa" },
