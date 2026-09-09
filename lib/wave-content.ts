@@ -1,3 +1,4 @@
+import { toothbrushOverviewGuide, toothbrushBrandGuide, toothbrushUpgradeGuide } from "@/lib/toothbrush-decision";
 import { personalWarmthGuide } from "@/lib/personal-warmth-decision";
 import { purifierComparisonGuide, purifierOverviewGuide } from "@/lib/purifier-model-decision";
 import { humidifierMethodGuide, humidifierOverviewGuide } from "@/lib/humidifier-method-decision";
@@ -4670,236 +4671,31 @@ export const waveGuides: WaveGuide[] = [
     metaTitle: `${personalWarmthGuide.title} | Elins val`, metaDescription: personalWarmthGuide.intro,
   },
   {
-    id: "eltandborste-guide",
-    href: "/halsa/eltandborste-guide",
-    category: "halsa",
-    label: "Guide",
-    title: "Eltandborste: Oral-B eller Sonicare?",
-    intro: "Oral-B iO, Sonicare och befintliga iO 5 samlade i en tydligare munvårdsguide.",
-    badges: [
-      "Eltandborste",
-      "Oral-B",
-      "Sonicare",
-    ],
-    productSlugs: [
-      "oralb-tandborste",
-      "philips-sonicare-5300",
-      "oralb-io6",
-    ],
-    pickBadges: {
-      "oralb-tandborste": "Elins val",
-      "philips-sonicare-5300": "Sonicare",
-      "oralb-io6": "iO-system",
-    },
-    choiceTitle: "Borsthuvuden avgör mer än man tror",
-    choiceText: "Sonicare lockar med slank känsla. Oral-B iO ger premiumfeedback men borsthuvudena kostar mer. Det enklare Oral-B-valet är ofta mer ekonomiskt.",
-    rows: [
-      {
-        label: "System",
-        values: [
-          "Oral-B",
-          "Sonicare",
-          "Oral-B iO",
-        ],
-      },
-      {
-        label: "Ekonomi",
-        values: [
-          "Bättre än iO 6",
-          "Kontrollera huvuden",
-          "Dyrare huvuden",
-        ],
-      },
-      {
-        label: "Från köparnas omdömen",
-        values: [
-          "Befintligt Oral-B-val; jämför främst borsthuvudsekonomin.",
-          "Bo Strömberg: \"Cleanest teeth in a long time. My Oral-B is retired.\" Niclas: \"Känns bra och rent i munnen och batteritiden mycket bättre.\"",
-          "Referens: \"Köpare som uppgraderat från Oral-B Pro beskriver tydlig skillnad\"",
-        ],
-      },
-    ],
-    verdict: "Sonicare 5300 är starkast nytt val. iO6 är fin men kräver att du accepterar löpande kostnad.",
-    faqItems: [
-      {
-        question: "Eltandborste guide.",
-        answer: "Sonicare lockar med slank känsla. Oral-B iO ger premiumfeedback men borsthuvudena kostar mer. Det enklare Oral-B-valet är ofta mer ekonomiskt.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
-    metaTitle: "Eltandborste: Oral-B eller Sonicare? | Elins val",
-    metaDescription: "Eltandborste: Oral-B eller Sonicare?: Oral-B iO, Sonicare och befintliga iO 5 samlade i en tydligare munvårdsguide. (Annons)",
+    id: "eltandborste-guide", href: toothbrushOverviewGuide.path, category: "halsa", label: "Guide",
+    title: toothbrushOverviewGuide.title, intro: toothbrushOverviewGuide.intro, badges: ["Funktion och huvudsystem"],
+    productSlugs: toothbrushOverviewGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Behöver du byta?", choiceText: toothbrushOverviewGuide.decision.payMoreWhen,
+    rows: [], verdict: toothbrushOverviewGuide.decision.noPurchaseWhen, faqItems: [...toothbrushOverviewGuide.questions],
+    relatedLinks: toothbrushOverviewGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${toothbrushOverviewGuide.title} | Elins val`, metaDescription: toothbrushOverviewGuide.intro,
   },
   {
-    id: "oral-b-eller-sonicare",
-    href: "/halsa/oral-b-eller-sonicare",
-    category: "halsa",
-    label: "Jämförelse",
-    title: "Oral-B eller Sonicare?",
-    intro: "Rund borsthuvudkänsla mot Sonicare-känsla, med borsthuvudsekonomin i centrum.",
-    badges: [
-      "Munvård",
-      "Oral-B",
-      "Sonicare",
-    ],
-    productSlugs: [
-      "oralb-io6",
-      "philips-sonicare-5300",
-    ],
-    pickBadges: {
-      "oralb-io6": "iO-system",
-      "philips-sonicare-5300": "Sonicare",
-    },
-    choiceTitle: "Känsla först",
-    choiceText: "Välj Oral-B om du gillar iO-feedback och display. Välj Sonicare om du vill ha slankare känsla och starkt helhetsvärde.",
-    rows: [
-      {
-        label: "Känsla",
-        values: [
-          "Rund iO-känsla",
-          "Slank Sonicare-känsla",
-        ],
-      },
-      {
-        label: "Ekonomi",
-        values: [
-          "Dyrare huvuden",
-          "Kontrollera huvuden",
-        ],
-      },
-      {
-        label: "Elins val",
-        values: [
-          "Premium med caveat",
-          "Starkare helhet",
-        ],
-      },
-      {
-        label: "Från köparnas omdömen",
-        values: [
-          "Referens: \"Köpare som uppgraderat från Oral-B Pro beskriver tydlig skillnad\"",
-          "Bo Strömberg: \"Cleanest teeth in a long time. My Oral-B is retired.\" Niclas: \"Känns bra och rent i munnen och batteritiden mycket bättre.\"",
-        ],
-      },
-    ],
-    verdict: "Sonicare får helhetsfördelen. Oral-B iO6 är bäst när premiumfeedback är viktigast.",
-    faqItems: [
-      {
-        question: "Oral-B eller Sonicare?",
-        answer: "Välj Oral-B om du gillar iO-feedback och display. Välj Sonicare om du vill ha slankare känsla och starkt helhetsvärde.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
-    metaTitle: "Oral-B eller Sonicare? | Elins val",
-    metaDescription: "Oral-B eller Sonicare?: Rund borsthuvudkänsla mot Sonicare-känsla, med borsthuvudsekonomin i centrum. (Annons)",
+    id: "oral-b-eller-sonicare", href: toothbrushBrandGuide.path, category: "halsa", label: "Guide",
+    title: toothbrushBrandGuide.title, intro: toothbrushBrandGuide.intro, badges: ["Funktion och huvudsystem"],
+    productSlugs: toothbrushBrandGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Behöver du byta?", choiceText: toothbrushBrandGuide.decision.payMoreWhen,
+    rows: [], verdict: toothbrushBrandGuide.decision.noPurchaseWhen, faqItems: [...toothbrushBrandGuide.questions],
+    relatedLinks: toothbrushBrandGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${toothbrushBrandGuide.title} | Elins val`, metaDescription: toothbrushBrandGuide.intro,
   },
   {
-    id: "oralb-io6-vart-priset",
-    href: "/halsa/oralb-io6-vart-priset",
-    category: "halsa",
-    label: "Guide",
-    title: "Är Oral-B iO6 värd priset?",
-    intro: "En ärlig guide till när iO6 är rätt och när enklare Oral-B räcker.",
-    badges: [
-      "Oral-B iO",
-      "Borsthuvuden",
-      "Värde",
-    ],
-    productSlugs: [
-      "oralb-io6",
-      "oralb-tandborste",
-    ],
-    pickBadges: {
-      "oralb-io6": "iO-system",
-      "oralb-tandborste": "Elins val",
-    },
-    choiceTitle: "Räkna på förbrukningen",
-    choiceText: "iO6 är mest intressant om display och premiumkänsla gör att du faktiskt använder den. Annars är enklare Oral-B ofta mer rimlig.",
-    rows: [
-      {
-        label: "Styrka",
-        values: [
-          "Premiumfeedback",
-          "Bättre värde",
-        ],
-      },
-      {
-        label: "Kostnad över tid",
-        values: [
-          "Dyrare huvuden",
-          "Billigare system",
-        ],
-      },
-      {
-        label: "Elins råd",
-        values: [
-          "Köp medvetet",
-          "Räcker för många",
-        ],
-      },
-      {
-        label: "Från köparnas omdömen",
-        values: [
-          "Referens: \"Köpare som uppgraderat från Oral-B Pro beskriver tydlig skillnad\"",
-          "Befintligt enklare Oral-B-val; jämför total kostnad över tid.",
-        ],
-      },
-    ],
-    verdict: "iO6 är bra, men inte automatiskt bästa köpet.",
-    faqItems: [
-      {
-        question: "Oral-B iO6 värd priset?",
-        answer: "iO6 är mest intressant om display och premiumkänsla gör att du faktiskt använder den. Annars är enklare Oral-B ofta mer rimlig.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
-    metaTitle: "Är Oral-B iO6 värd priset? | Elins val",
-    metaDescription: "Är Oral-B iO6 värd priset?: En ärlig guide till när iO6 är rätt och när enklare Oral-B räcker. (Annons)",
+    id: "oralb-io6-vart-priset", href: toothbrushUpgradeGuide.path, category: "halsa", label: "Guide",
+    title: toothbrushUpgradeGuide.title, intro: toothbrushUpgradeGuide.intro, badges: ["Funktion och huvudsystem"],
+    productSlugs: toothbrushUpgradeGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Behöver du byta?", choiceText: toothbrushUpgradeGuide.decision.payMoreWhen,
+    rows: [], verdict: toothbrushUpgradeGuide.decision.noPurchaseWhen, faqItems: [...toothbrushUpgradeGuide.questions],
+    relatedLinks: toothbrushUpgradeGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${toothbrushUpgradeGuide.title} | Elins val`, metaDescription: toothbrushUpgradeGuide.intro,
   },
   {
     id: "munskoljare",

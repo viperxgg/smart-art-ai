@@ -1,3 +1,4 @@
+import { toothbrushDecision } from "@/lib/toothbrush-decision";
 import { heatOrMassageDecision } from "@/lib/varmedyna-eller-massagekudde";
 import { personalWarmthDecision } from "@/lib/personal-warmth-decision";
 import { purifierModelDecision } from "@/lib/purifier-model-decision";
@@ -73,6 +74,13 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const toothbrushOption = toothbrushDecision.options.find(option => option.productSlug === slug);
+  if (toothbrushOption) return {
+    ...toothbrushDecision, options: [toothbrushOption],
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Vilken eltandborste behöver du?", href: "/halsa/eltandborste-guide" },
+  };
+
   if (slug === "renpho-massagekudde") return {
     ...heatOrMassageDecision, options: [heatOrMassageDecision.options[1]],
     category: { label: "Hälsa & vardag", href: "/halsa" },
