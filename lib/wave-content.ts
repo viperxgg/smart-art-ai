@@ -5936,7 +5936,7 @@ export const waveGuides: WaveGuide[] = [
     category: "skonhet",
     label: "Guide",
     title: "Grooming för honom",
-    intro: "Vilket moment saknar du i din rutin? Underlag för tre Philips-modeller och HC5035; skäggolja och nästrimmer återstår att granska.",
+    intro: "Vilket moment saknar du i din rutin? Underlag för tre Philips-modeller, HC5035 och skäggoljans användning; WINSEA nästrimmer återstår att granska.",
     badges: [
       "För honom",
       "Grooming",
@@ -6008,7 +6008,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Grooming för honom | Elins val",
-    metaDescription: "Grooming för honom: Vilket moment saknar du i din rutin? Underlag för tre Philips-modeller och HC5035; skäggolja och nästrimmer återstår att granska. (Annons)",
+    metaDescription: "Grooming för honom: Vilket moment saknar du i din rutin? Underlag för tre Philips-modeller, HC5035 och skäggoljans användning; WINSEA nästrimmer återstår att granska. (Annons)",
   },
   {
     id: "oneblade-eller-skaggtrimmer",
@@ -7823,7 +7823,7 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/grooming",
-    description: "Vilket moment saknar du i din rutin? Underlag för tre Philips-modeller och HC5035; skäggolja och nästrimmer återstår att granska.",
+    description: "Vilket moment saknar du i din rutin? Underlag för tre Philips-modeller, HC5035 och skäggoljans användning; WINSEA nästrimmer återstår att granska.",
     productSlugs: [
       "loreal-skaggolja",
       "winsea-nasharstrimmer",

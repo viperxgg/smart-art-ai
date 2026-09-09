@@ -1,3 +1,4 @@
+import { beardOilDecision } from "@/lib/beard-oil-decision";
 import { hairClipperDecision } from "@/lib/hair-clipper-decision";
 import { shaverDecision } from "@/lib/shaver-decision";
 import { groomingDecision } from "@/lib/grooming-decision";
@@ -58,6 +59,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "loreal-skaggolja") return {
+    ...beardOilDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vad saknas i din rutin?", href: "/skonhet/grooming" },
+  };
   if (slug === "remington-harklippare") return {
     ...hairClipperDecision,
     category: { label: "Skönhet", href: "/skonhet" },
