@@ -364,14 +364,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "leave-in-eller-harolja",
-    title: "Leave-in eller hårolja?",
+    title: "Cantu-kräm eller Moroccanoil – behövs ett extra steg?",
     shortTitle: "Leave-in eller hårolja",
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/leave-in-eller-harolja",
-    description: "Lätt återfuktning och utredning med leave-in mot glans och antifriss med hårolja.",
+    description: "Båda lämnas kvar i håret. Jämför formula, användning och när du kan behålla det du redan har.",
     productSlugs: ["cantu-leave-in-conditioner","moroccanoil-harolja"],
-    badges: ["Hårvård","Återfukta vs glans","Vardag"],
+    badges: ["Kräm eller finish","Behov före fler steg"],
   },
   {
     slug: "solnedgangslampa-eller-stjarnprojektor",

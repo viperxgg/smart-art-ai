@@ -1,3 +1,4 @@
+import { leaveInOilDecision } from "@/lib/leave-in-eller-harolja";
 import { olaplexWashDecision } from "@/lib/olaplex-schampo-eller-balsam";
 import { waterFlosserDecision } from "@/lib/water-flosser-decision";
 import { toothbrushDecision } from "@/lib/toothbrush-decision";
@@ -76,6 +77,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "cantu-leave-in-conditioner") return {
+    ...leaveInOilDecision, options: [leaveInOilDecision.options[0]],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Kräm eller oljeberikad finish?", href: "/skonhet/leave-in-eller-harolja" },
+  };
+
   const olaplexWashOption = olaplexWashDecision.options.find(option => option.productSlug === slug);
   if (olaplexWashOption) return {
     ...olaplexWashDecision, options: [olaplexWashOption],
