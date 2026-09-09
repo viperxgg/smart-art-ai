@@ -1,3 +1,4 @@
+import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 
@@ -126,7 +127,7 @@ function ComparisonCard({
               key={product.slug}
               className="rounded-2xl border border-line bg-bg p-4"
             >
-              <p className="font-black text-ink">{product.title}</p>
+              <p className="font-black text-ink">{getElinProductEvidence(product).title}</p>
               {score ? (
                 <ScoreBadge score={score} className="mt-3" as="span" />
               ) : null}

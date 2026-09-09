@@ -1,3 +1,4 @@
+import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 import { DecisionCard } from "@/components/DecisionCard";
 import { getGuideDecision } from "@/lib/ereader-decision";
 import { validateDecisionRecord } from "@/lib/decision-record";
@@ -216,7 +217,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
                     {product.brand}
                   </p>
                   <h2 className="editorial-color-kiss mt-3 font-display text-3xl leading-tight">
-                    {product.title}
+                    {getElinProductEvidence(product).title}
                   </h2>
                   <p className="mt-4 leading-8 text-ink-soft">
                     {product.summary}

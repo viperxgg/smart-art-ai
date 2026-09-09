@@ -1,3 +1,4 @@
+import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -1868,7 +1869,7 @@ function FeaturedPick({
       <Link
         href={productHref}
         className="relative block aspect-[4/3] overflow-hidden rounded-[1.55rem] bg-[#f7e8e8]"
-        aria-label={`Läs mer om ${product.title}`}
+        aria-label={`Läs mer om ${getElinProductEvidence(product).title}`}
       >
         <Image
           src={product.image}
@@ -1891,7 +1892,7 @@ function FeaturedPick({
           {product.brand}
         </p>
         <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
-          <Link href={productHref}>{product.title}</Link>
+          <Link href={productHref}>{getElinProductEvidence(product).title}</Link>
         </h3>
         <p className="mt-3 text-sm leading-6 text-ink-soft">{product.summary}</p>
         <ProductBadges badges={product.badges.slice(0, 3)} className="mt-4" />

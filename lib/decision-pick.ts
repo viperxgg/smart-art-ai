@@ -8,6 +8,7 @@ export function withDecisionPick(pick: SommarPick): SommarPick {
   const option = decision.options[0];
   return {
     ...pick,
+    product: { ...pick.product, title: option.model },
     cardBadge: "Beslutsunderlag",
     cardHook: `Välj om ${option.chooseIf}`,
     badge: "Jämför behov och begränsningar",

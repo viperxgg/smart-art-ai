@@ -56,6 +56,7 @@ assert.ok(currentPicks.length > 0);
 for (const pick of currentPicks) {
  const decision = getProductDecision(pick.productSlug);
  assert.equal(pick.headline, decision.options[0].model);
+ assert.equal(pick.product.title, decision.options[0].model);
  assert.equal(pick.caution, decision.options[0].avoidIf);
  assert.equal(pick.verdict, decision.noPurchaseWhen);
  assert.equal(pick.amazonQuotes.length, 0);
@@ -66,6 +67,18 @@ assert.equal(legacyPick.cardHook,'STALE_PICK_CLAIM','Projection must not mutate 
 const unreviewedPick=allPicks.find(pick=>!getProductDecision(pick.productSlug));
 assert.ok(unreviewedPick);
 assert.equal(withDecisionPick(unreviewedPick),unreviewedPick,'Do not invent evidence for an unreviewed product');
+const titlePoisonedPick={...currentPicks[0],product:{...currentPicks[0].product,title:'STALE_PRODUCT_TITLE'}};
+assert.equal(withDecisionPick(titlePoisonedPick).product.title,getProductDecision(titlePoisonedPick.productSlug).options[0].model);
+assert.equal(titlePoisonedPick.product.title,'STALE_PRODUCT_TITLE','Nested product projection must not mutate the catalogue');
+const {ComparisonCard}=extractFunctions('app/jamforelser/page.tsx',['ComparisonCard'],{
+ getProductBySlug:slug=>({...products.find(p=>p.slug===slug),title:'STALE_PRODUCT_TITLE'}),
+ getElinProductEvidence,getEditorialScore:()=>null,
+ Link:props=>React.createElement('a',props),ProductBadges:()=>null,ScoreBadge:()=>null,ArrowUpRight:()=>null,
+});
+const comparisonHtml=renderToStaticMarkup(React.createElement(ComparisonCard,{comparison:{href:'/skonhet/bio-oil-eller-jojobaolja',shortTitle:'Bio-Oil eller jojobaolja?',description:'Formula före köp',badges:[],productSlugs:['bio-oil','kanzy-jojobaolja']}}));
+assert.ok(comparisonHtml.includes('Bio-Oil Skincare Oil Original'));
+assert.ok(comparisonHtml.includes('Kanzy Jojoba Oil 120 ml'));
+assert.ok(!comparisonHtml.includes('STALE_PRODUCT_TITLE'),'Comparison discovery must not leak stale reviewed product names');
 console.log(JSON.stringify({pickProjection:'PASS',totalPicks:allPicks.length,currentPicks:currentPicks.length}));
 
 const entries=products.map(product=>({product,evidence:getElinProductEvidence(product)}));
