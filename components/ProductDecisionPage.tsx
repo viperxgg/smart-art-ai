@@ -27,14 +27,15 @@ export function ProductDecisionPage({ pick, decision, reviews }: {
       <JsonLd data={buildBreadcrumbSchema(breadcrumbs)} />
       <div className="mx-auto max-w-5xl">
         <Breadcrumbs items={breadcrumbs} />
-        <header className="mt-8 max-w-3xl">
+        <header className="mt-6 max-w-3xl">
           <p className="text-sm font-bold text-wine">Produktguide · {decision.sources.some((source) => source.status === "unavailable") ? "Ofullständigt källunderlag" : "Källor och metod redovisas"}</p>
-          <h1 className="mt-4 font-display text-4xl font-bold leading-tight sm:text-5xl">Passar {option.model} dig?</h1>
-          <p className="mt-5 text-lg leading-relaxed text-ink-soft">Börja med behovet och vad som redan fungerar. Här hittar du underlaget för valet, begränsningarna och när du kan avstå.</p>
-          <p className="mt-4 text-sm leading-relaxed text-ink-soft">Redaktion: Elins val · <Link href="/om-oss#azzam" className="text-wine underline">Ansvarig utgivare: Azzam Khalaf</Link>. Webbplatsen innehåller affiliatelänkar och kan få ersättning vid köp.</p>
-          <div className="mt-5"><SaveProductButton productSlug={pick.product.slug} productTitle={option.model} variant="pill" className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line px-4 py-2 font-bold text-wine" /></div>
+          <h1 className="mt-3 font-display text-3xl font-bold leading-tight sm:text-5xl">Passar {option.model} dig?</h1>
         </header>
         <DecisionCard decision={decision} />
+        <div className="max-w-3xl">
+          <p className="mt-4 text-sm leading-relaxed text-ink-soft">Redaktion: Elins val · <Link href="/om-oss#azzam" className="text-wine underline">Ansvarig utgivare: Azzam Khalaf</Link>. Webbplatsen innehåller affiliatelänkar och kan få ersättning vid köp.</p>
+          <div className="mt-5"><SaveProductButton productSlug={pick.product.slug} productTitle={option.model} variant="pill" className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line px-4 py-2 font-bold text-wine" /></div>
+        </div>
         {option.merchantVariantVerified ? <div className="mt-6"><AmazonPurchaseCta product={pick.product} /></div> : null}
         <nav aria-label="Fortsätt jämföra" className="mt-8 flex flex-wrap gap-5 font-bold text-wine">
           <Link href={decision.comparison.href} className="underline underline-offset-4">{decision.comparison.label}</Link>
