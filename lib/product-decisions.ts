@@ -1,3 +1,4 @@
+import { straightenerSizeDecision } from "@/lib/mini-or-full-straightener";
 import { straightOrCurlDecision } from "@/lib/platta-eller-locka";
 import { manualOrAutoCurlingDecision } from "@/lib/manual-or-auto-curling";
 import { curlingMethodDecision } from "@/lib/heatless-lockar-eller-locktang";
@@ -48,6 +49,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "remington-mini-s2880-plattang") return {
+    ...straightenerSizeDecision, options: [straightenerSizeDecision.options[1]],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Mini eller fullstor plattång?", href: "/skonhet/plattang" },
+  };
   if (slug === "remington-s8540-plattang") return {
     ...straightOrCurlDecision, options: [straightOrCurlDecision.options[0]],
     category: { label: "Skönhet", href: "/skonhet" },
