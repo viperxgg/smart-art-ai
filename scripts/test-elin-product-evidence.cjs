@@ -182,3 +182,39 @@ if(process.argv[2]){
  fs.writeFileSync(process.argv[2],'<!doctype html><html lang="sv"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><base href="http://127.0.0.1:3111/"><title>Elin decision-card review</title>'+css+'<body class="bg-bg text-ink"><main class="mx-auto max-w-3xl p-5"><h1 class="text-2xl font-bold">Lokal granskning av Elins produktkort</h1><p class="my-4">Statisk rendering av de riktiga React-komponenterna med beslutsdata och en äldre testpost. Ingen AI-förfrågan har skickats. Knapparna i denna provsida är inte interaktiva.</p>'+html+'<h2 class="my-4 text-xl font-bold">Äldre sparad post</h2>'+oldHtml+'<h2 class="my-4 text-xl font-bold">Sparad lista</h2>'+wishlist+'</main></body></html>');
 }
 console.log(JSON.stringify({result:'PASS',catalogProducts:entries.length,decisionDrafts:reviewed.length,unreviewed:unreviewed.length,checks:'Real registry matching; legacy-claim poisoning excluded; unreviewed recommendation withheld; guarded card data; SSR caveats/no-purchase/testing visible; cached claims hidden without mutation. No API call.'}));
+
+// Exercise the actual fallback with every unreviewed catalogue item and poisoned legacy copy.
+const { UnreviewedProductPage } = extractFunctions('components/UnreviewedProductPage.tsx', ['UnreviewedProductPage'], {
+  Link: props => React.createElement('a', props, props.children),
+  Breadcrumbs: () => null, buildBreadcrumbSchema: () => ({}), JsonLd: () => null,
+  SaveProductButton: () => React.createElement('button', null, 'Spara'),
+  ProductComments: props => React.createElement('section', {id:props.sectionId}, React.createElement('form', {id:props.formId})),
+  process: {env:{}},
+});
+const { createProductReviewMetadata } = extractFunctions('lib/product-review-metadata.ts', ['createProductReviewMetadata'], {
+  getProductDecision, createSeoMetadata: data => data, siteConfig: {url:'https://www.smartartai.se'},
+});
+for (const {product} of unreviewed) {
+  const pick = {product:{...product,summary:'LEGACY_SENTINEL',specs:[{label:'LEGACY_SENTINEL',value:'LEGACY_SENTINEL'}]},href:getProductPageHref(product),reviewSectionId:'review-'+product.slug,reviewFormId:'form-'+product.slug,verdict:'LEGACY_SENTINEL',metaTitle:'LEGACY_SENTINEL',metaDescription:'LEGACY_SENTINEL'};
+  const markup = renderToStaticMarkup(React.createElement(UnreviewedProductPage,{pick,reviews:[]}));
+  assert.ok(!markup.includes('LEGACY_SENTINEL'));
+  assert.ok(!markup.includes('<img'));
+  assert.ok(!/amzn\.to|amazon\.[^/]+\/dp/.test(markup));
+  assert.ok(markup.includes('När kan du avstå helt?'));
+  assert.ok(markup.includes('review-'+product.slug) && markup.includes('form-'+product.slug));
+  const metadata = createProductReviewMetadata(pick);
+  assert.ok(!JSON.stringify(metadata).includes('LEGACY_SENTINEL'));
+  assert.equal(metadata.image,undefined);
+  assert.equal(metadata.url,'https://www.smartartai.se'+pick.href);
+}
+const { ProductReviewPage } = extractFunctions('app/(products)/_components/ProductReviewPage.tsx',['ProductReviewPage'], {
+  getApprovedReviews: async()=>[],getProductDecision,
+  ProductDecisionPage: ()=>null,UnreviewedProductPage,
+});
+(async()=>{
+ for (const {product} of entries) {
+  const view = await ProductReviewPage({pick:{product}});
+  assert.equal(view.type===UnreviewedProductPage,!getProductDecision(product.slug),'Actual shared router preserves reviewed path and gates unknown records');
+ }
+ console.log(JSON.stringify({unreviewedPages:'PASS',fallbackProducts:unreviewed.length,routerProducts:entries.length,scope:'SSR with save/comment stubs; interaction verified separately'}));
+})().catch(error=>{console.error(error);process.exitCode=1;});

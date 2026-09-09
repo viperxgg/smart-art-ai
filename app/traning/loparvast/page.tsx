@@ -1,27 +1,14 @@
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";
-import { createSeoMetadata } from "@/lib/metadata";
-import { siteConfig } from "@/lib/site";
+import { createProductReviewMetadata } from "@/lib/product-review-metadata";
 import { getTraningsPickBySlug } from "@/lib/sommar";
 
 const pick = getTraningsPickBySlug("salomon-loparvast");
 
 export const revalidate = 3600;
 
-export const metadata = pick
-  ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
-      url: `${siteConfig.url}${pick.href}`,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 900,
-        height: 675,
-        alt: pick.product.imageAlt,
-      },
-    })
-  : {};
+export const metadata = pick ? createProductReviewMetadata(pick) : {};
 
 export default function LoparvastPage() {
   if (!pick) {
