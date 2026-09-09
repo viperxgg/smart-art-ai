@@ -1,42 +1,14 @@
-import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
-import {
-  lyftremmarEllerTraningshandskarComparisonRows,
-  lyftremmarEllerTraningshandskarFaqItems,
-  lyftremmarEllerTraningshandskarPicks,
-  lyftremmarEllerTraningshandskarRelatedLinks,
-} from "@/lib/lyftremmar-eller-traningshandskar";
+import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { strapsGlovesGuide } from "@/lib/lyftremmar-eller-traningshandskar";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
-const pageUrl = `${siteConfig.url}/traning/lyftremmar-eller-traningshandskar`;
-
-const breadcrumbItems = [
-  { name: "Hem", href: "/" },
-  { name: "Träning", href: "/traning" },
-  { name: "Lyftremmar eller träningshandskar?", href: `/traning/lyftremmar-eller-traningshandskar` },
-];
-
 export const metadata = createSeoMetadata({
-  title: "Lyftremmar eller träningshandskar? Vilket behöver du | Elins val",
-  description: "Lyftremmar eller träningshandskar? Elin jämför att avlasta greppet vid tunga lyft mot att skydda händerna så du väljer rätt gymtillbehör.",
-  url: pageUrl,
+  title: "Lyftremmar eller handskar – vilket behov har du? | Elins val",
+  description: "Skilj grepphjälp från ett lager över handflatan. Se köpfrågor, när du kan avstå och vad som ännu inte är verifierat om Fitgriff och ihuan.",
+  url: `${siteConfig.url}${strapsGlovesGuide.path}`,
 });
 
 export default function LyftremmarEllerTraningshandskarPage() {
-  return (
-    <DecisionComparisonPage
-      h1={"Lyftremmar eller träningshandskar?"}
-      intro={"Lyftremmar och träningshandskar hjälper båda greppet i gymmet, men på olika sätt. Lyftremmar avlastar greppet vid tunga lyft som marklyft och rodd så du orkar fler repetitioner, medan träningshandskar skyddar handflatorna mot skavsår och ger ett stadigare grepp."}
-      badges={["Gymtillbehör","Avlasta grepp vs skydda händer","Styrka"]}
-      howToChoose={"Välj lyftremmar om du lyfter tungt och märker att greppet ger upp innan musklerna – de hjälper dig hålla i stången längre i drag- och lyftövningar. Välj träningshandskar om du främst vill skydda händerna mot skavsår och valkar och ha ett stadigare grepp i allmän träning. Många använder handskar till vardags och remmar för de tyngsta lyften."}
-      verdict={"Det handlar om ditt behov. Lyftremmar vinner för tunga lyft där greppet är begränsningen, medan träningshandskar vinner för handskydd och komfort i allmän träning. Tunga drag – remmar. Skydda händerna – handskar."}
-      picks={lyftremmarEllerTraningshandskarPicks}
-      comparisonRows={lyftremmarEllerTraningshandskarComparisonRows}
-      faqItems={lyftremmarEllerTraningshandskarFaqItems}
-      breadcrumbItems={breadcrumbItems}
-      relatedLinks={lyftremmarEllerTraningshandskarRelatedLinks}
-      backHref={"/traning"}
-      backLabel={"Tillbaka till träning"}
-    />
-  );
+  return <DecisionGuidePage guide={strapsGlovesGuide} />;
 }
