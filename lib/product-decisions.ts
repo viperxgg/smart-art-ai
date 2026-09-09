@@ -1,3 +1,4 @@
+import { humidifierMethodDecision } from "@/lib/humidifier-method-decision";
 import { mantaMaskDecision } from "@/lib/sovmask-eller-white-noise";
 import { philipsWakeDecision } from "@/lib/wake-up-light-eller-solnedgangslampa";
 import { daylightLampDecision } from "@/lib/daylight-lamp-decision";
@@ -69,6 +70,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "beurer-lb200-luftfuktare") return {
+    ...humidifierMethodDecision, options: [humidifierMethodDecision.options[1]],
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Ultraljud eller avdunstning?", href: "/halsa/ultraljud-eller-evaporativ-luftfuktare" },
+  };
   if (slug === "manta-sovmask") return {
     ...mantaMaskDecision,
     category: { label: "Hälsa & vardag", href: "/halsa" },

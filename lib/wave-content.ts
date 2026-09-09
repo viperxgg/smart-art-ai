@@ -1,3 +1,4 @@
+import { humidifierMethodGuide, humidifierOverviewGuide } from "@/lib/humidifier-method-decision";
 import { sleepEnvironmentGuide } from "@/lib/sleep-environment-decision";
 import { morningLightGuide } from "@/lib/morning-light-decision";
 import { daylightLampGuide, daylightLampOverviewGuide } from "@/lib/daylight-lamp-decision";
@@ -4416,146 +4417,22 @@ export const waveGuides: WaveGuide[] = [
     metaTitle: `${sleepEnvironmentGuide.title} | Elins val`, metaDescription: sleepEnvironmentGuide.intro,
   },
   {
-    id: "luftfuktare-guide",
-    href: "/halsa/luftfuktare-guide",
-    category: "halsa",
-    label: "Guide",
-    title: "Luftfuktare: ultraljud eller evaporativ?",
-    intro: "Levoit ger synlig dimma och smart styrning. Beurer LB200 är det evaporativa alternativet med annan logik.",
-    badges: [
-      "Luftfuktare",
-      "Ultraljud",
-      "Evaporativ",
-    ],
-    productSlugs: [
-      "levoit-luftfuktare",
-      "beurer-lb200-luftfuktare",
-    ],
-    pickBadges: {
-      "levoit-luftfuktare": "Elins val",
-      "beurer-lb200-luftfuktare": "Evaporativ",
-    },
-    choiceTitle: "Välj typ först",
-    choiceText: "Ultraljud känns direkt och synligt. Evaporativ luftfuktning är mer lågmäld och kräver mer förståelse för filter och skötsel.",
-    rows: [
-      {
-        label: "Typ",
-        values: [
-          "Ultraljud",
-          "Evaporativ",
-        ],
-      },
-      {
-        label: "Känsla",
-        values: [
-          "Synlig dimma",
-          "Mer lågmäld",
-        ],
-      },
-      {
-        label: "Skötsel",
-        values: [
-          "Rengöring viktig",
-          "Filter och rengöring",
-        ],
-      },
-    ],
-    verdict: "Levoit är enklare att förstå direkt. Beurer är intressant för dig som aktivt vill ha evaporativ typ.",
-    faqItems: [
-      {
-        question: "Luftfuktare guide.",
-        answer: "Ultraljud känns direkt och synligt. Evaporativ luftfuktning är mer lågmäld och kräver mer förståelse för filter och skötsel.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
-    metaTitle: "Luftfuktare: ultraljud eller evaporativ? | Elins val",
-    metaDescription: "Luftfuktare: ultraljud eller evaporativ?: Levoit ger synlig dimma och smart styrning. Beurer LB200 är det evaporativa alternativet med annan logik. (Annons)",
+    id: "luftfuktare-guide", href: humidifierOverviewGuide.path, category: "halsa", label: "Guide",
+    title: humidifierOverviewGuide.title, intro: humidifierOverviewGuide.intro, badges: ["Behov och skötsel"],
+    productSlugs: humidifierOverviewGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Vad behöver du?", choiceText: humidifierOverviewGuide.decision.payMoreWhen,
+    rows: [], verdict: humidifierOverviewGuide.decision.noPurchaseWhen, faqItems: [...humidifierOverviewGuide.questions],
+    relatedLinks: humidifierOverviewGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${humidifierOverviewGuide.title} | Elins val`, metaDescription: humidifierOverviewGuide.intro,
   },
   {
-    id: "ultraljud-eller-evaporativ-luftfuktare",
-    href: "/halsa/ultraljud-eller-evaporativ-luftfuktare",
-    category: "halsa",
-    label: "Jämförelse",
-    title: "Ultraljud eller evaporativ luftfuktare?",
-    intro: "Två tekniker med olika vardagskänsla, skötsel och synlighet.",
-    badges: [
-      "Typguide",
-      "Luftfuktare",
-      "Klimat",
-    ],
-    productSlugs: [
-      "levoit-luftfuktare",
-      "beurer-lb200-luftfuktare",
-    ],
-    pickBadges: {
-      "levoit-luftfuktare": "Elins val",
-      "beurer-lb200-luftfuktare": "Evaporativ",
-    },
-    choiceTitle: "Tekniken styr vardagen",
-    choiceText: "Välj ultraljud för synlig dimma och direkt känsla. Välj evaporativ om du vill ha ett mer lågmält system och accepterar filter.",
-    rows: [
-      {
-        label: "Synlighet",
-        values: [
-          "Synlig dimma",
-          "Lågmäld",
-        ],
-      },
-      {
-        label: "Skötsel",
-        values: [
-          "Tankrengöring",
-          "Filter",
-        ],
-      },
-      {
-        label: "Elins val",
-        values: [
-          "Enklast för de flesta",
-          "För den typmedvetna",
-        ],
-      },
-    ],
-    verdict: "Det finns inget universellt bästa val. Välj tekniken du faktiskt orkar sköta.",
-    faqItems: [
-      {
-        question: "Ultraljud eller evaporativ luftfuktare?",
-        answer: "Välj ultraljud för synlig dimma och direkt känsla. Välj evaporativ om du vill ha ett mer lågmält system och accepterar filter.",
-      },
-      {
-        question: "Varför visar ni inga priser?",
-        answer: "Amazon kan ändra pris, lager och säljare. Därför visar Elins val aktuell prisinformation först på Amazon.",
-      },
-    ],
-    relatedLinks: [
-      {
-        href: "/halsa",
-        label: "Hälsa",
-        text: "Se fler val för hem och vardag.",
-      },
-      {
-        href: "/jamforelser",
-        label: "Jämförelser",
-        text: "Alla Elins jämförelser samlade.",
-      },
-    ],
-    metaTitle: "Ultraljud eller evaporativ luftfuktare? | Elins val",
-    metaDescription: "Ultraljud eller evaporativ luftfuktare?: Två tekniker med olika vardagskänsla, skötsel och synlighet. (Annons)",
+    id: "ultraljud-eller-evaporativ-luftfuktare", href: humidifierMethodGuide.path, category: "halsa", label: "Jämförelse",
+    title: humidifierMethodGuide.title, intro: humidifierMethodGuide.intro, badges: ["Behov och skötsel"],
+    productSlugs: humidifierMethodGuide.decision.options.map(option => option.productSlug),
+    pickBadges: {}, choiceTitle: "Vad behöver du?", choiceText: humidifierMethodGuide.decision.payMoreWhen,
+    rows: [], verdict: humidifierMethodGuide.decision.noPurchaseWhen, faqItems: [...humidifierMethodGuide.questions],
+    relatedLinks: humidifierMethodGuide.related.map(link => ({ href: link.href, label: "Läs vidare", text: link.text })),
+    metaTitle: `${humidifierMethodGuide.title} | Elins val`, metaDescription: humidifierMethodGuide.intro,
   },
   {
     id: "luftrenare-guide",
