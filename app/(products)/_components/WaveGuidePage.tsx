@@ -5,7 +5,7 @@ import { getGuideDecision } from "@/lib/ereader-decision";
 import { validateDecisionRecord } from "@/lib/decision-record";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, CheckCircle2, Sparkles } from "lucide-react";
+import { ArrowLeft, CheckCircle2 } from "lucide-react";
 
 import { AmazonPurchaseLinks } from "@/components/AmazonPurchaseCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
@@ -145,20 +145,14 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
           </p>
         </header>
 
-        <section className="mt-10 overflow-hidden rounded-[2.4rem] border border-line bg-surface/72 p-7 shadow-[0_30px_90px_rgba(185,131,166,0.12)] md:p-10">
-          <p className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-rose/8 px-5 text-sm font-black text-wine">
-            <Sparkles size={18} aria-hidden="true" />
-            Elins guide 2026
-          </p>
-          <h1 className="editorial-color-kiss mt-6 max-w-4xl font-display text-5xl leading-[1.04] tracking-normal sm:text-7xl">
+        <section data-comparison-intro className="mt-4 rounded-2xl border border-line bg-surface/72 p-5 md:p-6">
+          <h1 className="editorial-color-kiss max-w-4xl font-display text-3xl leading-tight tracking-[-0.03em] sm:text-4xl">
             {guide.title}
           </h1>
-          <EditorialMeta path={guide.href} className="mt-5" />
-          <ProductBadges badges={guide.badges} className="mt-6" />
-          <p className="mt-6 max-w-3xl text-xl leading-9 text-ink-soft">
+          <p className="mt-3 max-w-3xl text-base leading-7 text-ink-soft sm:text-lg">
             {guide.intro}
           </p>
-          <p className="mt-6 rounded-3xl border border-line bg-rose/8 p-4 text-sm leading-7 text-ink-soft">
+          <p data-comparison-disclosure className="mt-3 text-sm leading-6 text-ink-soft">
             <strong>Annons</strong> · Produktsidorna innehåller reklamlänkar.
             Om du handlar via våra länkar kan vi få en provision, utan extra
             kostnad för dig.
@@ -166,6 +160,8 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
         </section>
 
         {decision ? <DecisionCard decision={decision} /> : null}
+        <EditorialMeta path={guide.href} hideDate={Boolean(decision)} hideDisclosure className="mt-4" />
+        {!decision ? <ProductBadges badges={guide.badges} className="mt-3" /> : null}
 
         <section className="reveal-fade mt-10 rounded-[2rem] border border-line bg-surface/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">
           <div className="flex items-start gap-4">
