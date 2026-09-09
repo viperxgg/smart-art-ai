@@ -7807,7 +7807,7 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/bio-oil-eller-jojobaolja",
-    description: "Parfymerad klassiker mot renare naturolja.",
+    description: "Vilken formula behöver din rutin? Jämför Original med Kanzy utan ett obestyrkt löfte om bättre effekt.",
     productSlugs: [
       "bio-oil",
       "kanzy-jojobaolja",

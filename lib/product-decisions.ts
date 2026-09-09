@@ -1,3 +1,4 @@
+import { bodyOilDecision } from "@/lib/bio-oil-eller-jojobaolja";
 import { jojobaDecision } from "@/lib/jojoba-decision";
 import { dryShampooDecision } from "@/lib/dry-shampoo-decision";
 import { hairDryerDecision } from "@/lib/hair-dryer-decisions";
@@ -53,6 +54,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "bio-oil") return {
+    ...bodyOilDecision, options: [bodyOilDecision.options[0]],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Bio-Oil eller jojobaolja?", href: "/skonhet/bio-oil-eller-jojobaolja" },
+  };
   if (slug === "kanzy-jojobaolja") return {
     ...jojobaDecision,
     category: { label: "Skönhet", href: "/skonhet" },
