@@ -1,3 +1,4 @@
+import { epilatorRazorDecision } from "@/lib/epilator-eller-rakhyvel";
 import { facialBodyDecision } from "@/lib/ansiktstrimmer-eller-rakapparat-dam";
 import { beardOilDecision } from "@/lib/beard-oil-decision";
 import { hairClipperDecision } from "@/lib/hair-clipper-decision";
@@ -60,6 +61,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const epilatorRazorOption = epilatorRazorDecision.options.find(item => item.productSlug === slug);
+  if (epilatorRazorOption) return {
+    ...epilatorRazorDecision, options: [epilatorRazorOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Epilera eller raka?", href: "/skonhet/epilator-eller-rakhyvel" },
+  };
   const facialBodyOption = facialBodyDecision.options.find(item => item.productSlug === slug);
   if (facialBodyOption) return {
     ...facialBodyDecision, options: [facialBodyOption],

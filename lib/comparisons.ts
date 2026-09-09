@@ -727,14 +727,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "epilator-eller-rakhyvel",
-    title: "Epilator eller rakhyvel?",
+    title: "Epilera eller raka – vilken metod passar dig?",
     shortTitle: "Epilator eller rakhyvel",
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/epilator-eller-rakhyvel",
-    description: "Slät hud i veckor med roten borta mot snabb, smärtfri rakning här och nu.",
+    description: "Braun 9-041 drar ut hår; Merkur 34C rakar vid hudytan. Jämför behov, blad och tillbehör utan löften om smärtfrihet.",
     productSlugs: ["braun-silk-epil-9","merkur-safety-razor"],
-    badges: ["Hårborttagning","Slät längre vs smärtfritt","Vardag"],
+    badges: ["Metodval", "Begränsningar", "Behåll det som fungerar"],
   },
   {
     slug: "tornflakt-eller-bordsflakt",
