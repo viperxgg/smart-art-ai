@@ -1,3 +1,4 @@
+import { getProjectionProductDecision } from "@/lib/mini-projektor-eller-stjarnprojektor";
 import { homeCardioDecision, getHomeCardioDecision } from "@/lib/home-cardio-decisions";
 import { barRingsDecision } from "@/lib/pull-up-bar-eller-gymnastikringar";
 import { ringBlockDecision } from "@/lib/pilatesring-eller-yogablock";
@@ -87,6 +88,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (["mini-projektor", "stjarnprojektor"].includes(slug)) return {
+    ...getProjectionProductDecision(slug),
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Film eller dekorativa motiv?", href: "/halsa/mini-projektor-eller-stjarnprojektor" },
+  };
   const homeCardioOption = homeCardioDecision.options.find(option => option.productSlug === slug);
   if (homeCardioOption) return {
     ...getHomeCardioDecision([slug]),
