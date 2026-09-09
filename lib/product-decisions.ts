@@ -1,3 +1,4 @@
+import { olaplexWashDecision } from "@/lib/olaplex-schampo-eller-balsam";
 import { waterFlosserDecision } from "@/lib/water-flosser-decision";
 import { toothbrushDecision } from "@/lib/toothbrush-decision";
 import { heatOrMassageDecision } from "@/lib/varmedyna-eller-massagekudde";
@@ -75,6 +76,13 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const olaplexWashOption = olaplexWashDecision.options.find(option => option.productSlug === slug);
+  if (olaplexWashOption) return {
+    ...olaplexWashDecision, options: [olaplexWashOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vilken funktion saknas i din rutin?", href: "/skonhet/olaplex-schampo-eller-balsam" },
+  };
+
   if (slug === "philips-power-flosser") return {
     ...waterFlosserDecision, options: [waterFlosserDecision.options[0]],
     sources: waterFlosserDecision.sources.filter(source => source.id !== "W3"),

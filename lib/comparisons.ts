@@ -141,14 +141,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "olaplex-schampo-eller-balsam",
-    title: "Olaplex schampo eller balsam?",
+    title: "Olaplex Nº.4 eller Nº.5 – vilken funktion saknas?",
     shortTitle: "Olaplex schampo eller balsam",
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/olaplex-schampo-eller-balsam",
-    description: "No.4 i varje tvätt eller No.5 för mjuka längder – Elin reder ut var Olaplex-pengarna gör störst nytta och när du behöver båda.",
+    description: "Jämför rengöring och ursköljbart balsam. Behåll det som fungerar och kontrollera exakt variant före köp.",
     productSlugs: ["olaplex-no4-shampoo","olaplex-no5-conditioner"],
-    badges: ["Slitet hår","Blekt & färgat","Bond-vård"],
+    badges: ["Rengöring eller balsam","Behåll det som fungerar"],
   },
   {
     slug: "fotmassage-eller-massagepistol",
