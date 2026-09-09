@@ -331,14 +331,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "rosmarinolja-eller-scalp-scrub",
-    title: "Rosmarinolja eller scalp scrub?",
+    title: "Olja eller scalp scrub – behöver du ett extra steg?",
     shortTitle: "Rosmarinolja eller scalp scrub",
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/rosmarinolja-eller-scalp-scrub",
-    description: "Vårda och massera hårbotten med rosmarinolja mot att exfoliera och rengöra den med en scalp scrub.",
+    description: "Kosmetisk oljevård eller exfoliering före schampo: olika moment, med tydliga begränsningar och utan löften om hårväxt.",
     productSlugs: ["mielle-rosemary-oil","inkey-scalp-scrub"],
-    badges: ["Hårbotten","Vårda vs rengöra","Hår"],
+    badges: ["Olika behov", "Användning", "Avstå när rutinen fungerar"],
   },
   {
     slug: "ansiktstrimmer-eller-rakapparat-dam",

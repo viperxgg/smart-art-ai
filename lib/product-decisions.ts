@@ -1,3 +1,4 @@
+import { scalpDecision } from "@/lib/rosmarinolja-eller-scalp-scrub";
 import { textureDecision } from "@/lib/texturspray-eller-volympuder";
 import { epilatorDecision } from "@/lib/epilator-decision";
 import { epilatorRazorDecision } from "@/lib/epilator-eller-rakhyvel";
@@ -63,6 +64,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const scalpOption = scalpDecision.options.find(item => item.productSlug === slug);
+  if (scalpOption) return {
+    ...scalpDecision, options: [scalpOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Olja eller scalp scrub?", href: "/skonhet/rosmarinolja-eller-scalp-scrub" },
+  };
   const textureOption = textureDecision.options.find(item => item.productSlug === slug);
   if (textureOption) return {
     ...textureDecision, options: [textureOption],
