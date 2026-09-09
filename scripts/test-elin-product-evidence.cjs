@@ -273,3 +273,8 @@ for (const guide of waveGuides) {
  assert.ok(markup.includes('href="/fraga-elin"'));
 }
 console.log(JSON.stringify({comparisonPreview:'PASS',products:entries.length,waveGuides:waveGuides.length,scope:'Real card SSR; parent template guards and synthetic verified branch; guide narrative is not source-accepted by these tests'}));
+
+const {kettlebellMaterialDecision}=load('lib/gjutjarn-eller-mjuk-kettlebell.ts');
+validateDecisionRecord(kettlebellMaterialDecision,kettlebellMaterialDecision.options.map(option=>option.productSlug));
+assert.equal(getProductDecision('proiron-mjuk-kettlebell'),undefined,'A source-gap page must not promote PROIRON into recommendations');
+assert.ok(kettlebellMaterialDecision.options.every(option=>!option.merchantVariantVerified));

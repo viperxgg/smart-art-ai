@@ -33,9 +33,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     category: "traning",
     categoryLabel: "Träning",
     href: "/traning/gjutjarn-eller-mjuk-kettlebell",
-    description: "Klassisk järnkänsla eller golvvänlig sandfyllning – välj efter ditt hem.",
+    description: "Kontrollera vikt, grepp och variant. Inga verifierade vinnare i golvskydd, ljud eller hållbarhet.",
     productSlugs: ["amazon-basics-gjutjarns-kettlebell","proiron-mjuk-kettlebell"],
-    badges: ["Hemmaträning","Järn vs mjuk","Kom igång i höst"],
+    badges: ["Vikt och grepp", "Kunskapsluckor"],
   },
   {
     slug: "handledslindor-eller-lyftremmar",

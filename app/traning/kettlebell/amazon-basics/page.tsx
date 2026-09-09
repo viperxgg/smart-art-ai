@@ -14,8 +14,8 @@ export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
+      title: "Amazon Basics gjutjärns-kettlebell – kontrollera variant och vikt",
+      description: "Exakt variant och vikt är inte verifierade. Läs om behov, grepp och paketets innehåll före köp; inget testvinnarbetyg eller prisvinnaranspråk.",
       url: pageUrl,
     })
   : {};
