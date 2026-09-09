@@ -1,4 +1,4 @@
-// Meta refresh 2026-08-31: ny title/description (moroccanoil torrschampo, omdöme & betyg).
+import { dryShampooDecision } from "@/lib/dry-shampoo-decision";
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";
@@ -12,15 +12,9 @@ export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
+      title: "Passar Moroccanoil Dry Shampoo Light Tones dig?",
+      description: dryShampooDecision.options[0].chooseIf,
       url: `${siteConfig.url}${pick.href}`,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 900,
-        height: 675,
-        alt: pick.product.imageAlt,
-      },
     })
   : {};
 

@@ -1,3 +1,4 @@
+import { dryShampooDecision } from "@/lib/dry-shampoo-decision";
 import { hairDryerDecision } from "@/lib/hair-dryer-decisions";
 import { airStylerDecision } from "@/lib/air-styler-decisions";
 import { straightenerSizeDecision } from "@/lib/mini-or-full-straightener";
@@ -51,6 +52,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "moroccanoil-torrschampo") return {
+    ...dryShampooDecision,
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vad skulle du betala extra för?", href: "/guider/torrschampo-dyrt-vs-billigt" },
+  };
   const dryerOption = hairDryerDecision.options.find(item => item.productSlug === slug);
   if (dryerOption) return {
     ...hairDryerDecision, options: [dryerOption],

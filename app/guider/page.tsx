@@ -1,3 +1,4 @@
+import { dryShampooValueGuide } from "@/lib/dry-shampoo-decision";
 import { straightenerValueGuide, airwrapValueGuide } from "@/lib/hair-tool-value-guides";
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
@@ -52,12 +53,7 @@ const guides = [
   decisionPreview(airwrapValueGuide),
   decisionPreview(moroccanoilValueGuide),
   decisionPreview(straightenerValueGuide),
-  {
-    href: "/guider/torrschampo-dyrt-vs-billigt",
-    title: "Torrschampo: dyrt vs billigt – värt skillnaden?",
-    description:
-      "Vad saknar du i torrschampot du använder? Kontrollera formula och användning för de exakta varianterna.",
-  },
+  decisionPreview(dryShampooValueGuide),
   decisionPreview(salonMaskValueGuide),
   decisionPreview(hyaluronicValueGuide),
   {
