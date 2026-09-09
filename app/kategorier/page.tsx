@@ -73,7 +73,7 @@ export default function CategoriesPage() {
                 <p className="mt-3 text-lg leading-8 text-ink-soft">
                   {category.description}
                 </p>
-                <span className="mt-5 inline-flex min-h-12 items-center gap-2 rounded-full bg-rose-soft px-5 font-black text-white">
+                <span className="mt-5 inline-flex min-h-12 items-center gap-2 rounded-full bg-wine px-5 font-black text-white">
                   {count} {count === 1 ? "produkt" : "produkter"}
                   <ArrowUpRight size={18} aria-hidden="true" />
                 </span>

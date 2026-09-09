@@ -42,7 +42,7 @@ export default function SearchPage() {
         </div>
 
         <section className="rounded-[2.4rem] border border-[#F1D8DD] bg-white/72 p-7 shadow-[0_28px_80px_rgba(185,131,166,0.12)] md:p-10">
-          <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D8788D]">
+          <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
             Hitta rätt direkt
           </p>
           <h1 className="editorial-color-kiss mt-4 font-display text-5xl leading-[1.02] tracking-[-0.04em] sm:text-6xl">

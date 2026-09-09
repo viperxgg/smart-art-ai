@@ -135,7 +135,7 @@ export function ElinHeroDemo() {
           }`}
         >
           <div className="min-h-[7.75rem] max-w-[94%] rounded-[1.25rem] rounded-tl-md border border-[#F1D8DD] bg-white px-4 py-3 text-[#4B2838] shadow-[0_18px_46px_rgba(75,40,56,0.08)] sm:max-w-[86%]">
-            <p className="text-xs font-black uppercase tracking-[0.14em] text-[#D8788D]">
+            <p className="text-xs font-black uppercase tracking-[0.14em] text-rose">
               Elin
             </p>
             <p

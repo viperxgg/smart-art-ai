@@ -4,11 +4,22 @@ import { useState } from "react";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+import { getApprovedProductImage } from "@/lib/product-image-approvals";
 import type { ProductImage } from "@/lib/products";
 
-export function ProductImageGallery({ images }: { images: ProductImage[] }) {
+/**
+ * Product galleries render only assets that carry a permission record in
+ * lib/product-image-approvals.ts. ProductCard and SearchResultCard already
+ * apply that gate; the bespoke review templates rendered `product.images`
+ * straight through and so showed twelve undocumented images on five pages.
+ * A gallery with no approved asset renders nothing rather than an unlicensed
+ * photo — an empty slot is a documented gap, an unlicensed image is a liability.
+ */
+export function ProductImageGallery({ productSlug, images: allImages }: { productSlug: string; images: ProductImage[] }) {
+  const images = allImages.filter((image) => getApprovedProductImage(productSlug, image.src));
   const [activeIndex, setActiveIndex] = useState(0);
   const activeImage = images[activeIndex] ?? images[0];
+  if (!activeImage) return null;
 
   function goToPrevious() {
     setActiveIndex((current) => (current === 0 ? images.length - 1 : current - 1));

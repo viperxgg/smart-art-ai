@@ -50,7 +50,7 @@ export default function ContactPage() {
               </p>
               <Link
                 href="/samarbeta"
-                className="mt-5 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-rose px-5 font-black text-white transition hover:bg-wine"
+                className="mt-5 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-wine px-5 font-black text-white transition hover:bg-wine/90"
               >
                 Läs om samarbete
                 <ArrowRight size={18} aria-hidden="true" />

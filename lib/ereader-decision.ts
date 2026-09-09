@@ -23,7 +23,7 @@ export const ereaderDecision: DecisionRecord = {
       merchantVariantVerified: false,
     },
   ],
-  payMoreWhen: "En större skärm kan vara värd merkostnaden om du föredrar stor text och tycker att sex tum blir för trångt. Det är vår praktiska bedömning, inte ett lästest. Köpvägen till dina böcker måste fungera först. Vi har inte verifierat dagens prisskillnad; jämför även frakt och eventuellt fodral.",
+  payMoreWhen: "En större skärm, i vår jämförelse Paperwhite 7 tum, kan vara värd merkostnaden om du föredrar stor text och tycker att sex tum blir för trångt. Det är vår praktiska bedömning, inte ett lästest. Köpvägen till dina böcker måste fungera först. Vi har inte verifierat dagens prisskillnad; jämför även frakt och eventuellt fodral.",
   noPurchaseWhen: "Din nuvarande läsplatta fungerar med böckerna du vill läsa. Om du är osäker på vanan, prova först bibliotekets eller bokbutikens läsapp på en enhet du redan äger.",
   swedishContext: "Kontrollera en bestämd bok hos ditt eget bibliotek före köp. Kobo listar Sverige och Clara BW för OverDrive, men det kräver att biblioteket erbjuder tjänsten. Biblio anger att export till Adobe Digital Editions beror på bibliotekets inställningar. Kobo beskriver överföring av skyddade böcker med detta datorprogram. I Biblio kontrollerar du export under Om boken i webbversionen, inte i mobilappen. Kobos aktuella ADE-guide beskriver ByteBooks-ID vid ny auktorisering. Följ den guiden för din befintliga bokåtkomst. Bibliotekslån är ingen garanti för alla svenska titlar eller tjänster.",
   testing: "Vi har jämfört officiella produkt- och hjälpsidor. Vi har inte mätt batteritid, provläst skärmarna eller genomfört ett bibliotekslån på dessa enheter.",

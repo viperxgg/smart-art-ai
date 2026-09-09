@@ -36,3 +36,7 @@ export function getApprovedProductImage(productSlug: string, image: string) {
 export function getApprovedDecisionImage(productSlug: string, model: string) {
   return approvedImages.find(asset => asset.displayScope === "decision-card" && asset.productSlug === productSlug && asset.model === model && asset.attribution);
 }
+/** True when at least one of a product's gallery images carries a permission record. */
+export function hasApprovedProductImages(productSlug: string, images: readonly { src: string }[]) {
+  return images.some(image => Boolean(getApprovedProductImage(productSlug, image.src)));
+}

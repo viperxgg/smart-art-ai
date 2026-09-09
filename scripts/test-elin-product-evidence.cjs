@@ -129,16 +129,27 @@ for(const credit of [licensedIo6.source,licensedIo6.attribution.licenseUrl,licen
 console.log(JSON.stringify({mediaCards:'PASS',products:products.length,scope:'ProductCard and SearchResultCard SSR; no rights approval inferred'}));
 const entries=products.map(product=>({product,evidence:getElinProductEvidence(product)}));
 const reviewed=entries.filter(entry=>entry.evidence.decision);
-const { AmazonPurchaseCta } = extractFunctions('components/AmazonPurchaseCta.tsx',['AmazonPurchaseCta'],{getProductDecision});
-const { AmazonCta } = extractFunctions('components/AmazonCta.tsx',['AmazonCta'],{getProductDecision});
+const isMerchantCtaEligible = load('lib/merchant-cta-eligibility.ts').isMerchantCtaEligible;
+const { AmazonPurchaseCta } = extractFunctions('components/AmazonPurchaseCta.tsx',['AmazonPurchaseCta'],{isMerchantCtaEligible});
+const { AmazonCta } = extractFunctions('components/AmazonCta.tsx',['AmazonCta'],{isMerchantCtaEligible});
 for (const {product,evidence} of reviewed) {
- if (!evidence.decision.options[0].merchantVariantVerified) {
-  assert.equal(AmazonPurchaseCta({product}),null,'Shared purchase CTA must respect unverified variant');
-  assert.equal(AmazonCta({product,href:product.amazonUrl}),null,'Panel CTA must respect unverified variant');
+ const option = evidence.decision.options.find(candidate=>candidate.productSlug===product.slug);
+ if (!option || !option.merchantVariantVerified) {
+  assert.equal(AmazonPurchaseCta({product}),null,'Shared purchase CTA must respect this product\'s own unverified variant');
+  assert.equal(AmazonCta({product,href:product.amazonUrl}),null,'Panel CTA must respect this product\'s own unverified variant');
  }
 }
 
 const unreviewed=entries.filter(entry=>!entry.evidence.decision);
+// An unreviewed catalogue product has no decision record at all. The merchant
+// CTA must stay hidden for it: a correct affiliate link is not an editorial
+// acceptance. Regression guard for the three pages that shipped a live CTA on
+// an unreviewed product in release 751667a.
+for (const {product} of unreviewed) {
+ assert.equal(AmazonPurchaseCta({product}),null,'Unreviewed product must not render a purchase CTA');
+ assert.equal(AmazonCta({product,href:product.amazonUrl}),null,'Unreviewed product must not render a panel CTA');
+}
+
 assert.ok(reviewed.length>0 && unreviewed.length>0);
 for (const {product,evidence} of reviewed) {
   assert.equal(JSON.stringify(evidence.decision), JSON.stringify(getProductDecision(product.slug)));

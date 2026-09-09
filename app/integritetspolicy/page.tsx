@@ -24,7 +24,7 @@ export default function PrivacyPolicyPage() {
         </Link>
 
         <section className="mt-10 rounded-[2rem] border border-[#F1D8DD] bg-white/72 p-7 shadow-[0_30px_90px_rgba(185,131,166,0.1)] md:p-10">
-          <p className="text-sm font-black uppercase tracking-[0.14em] text-[#D8788D]">
+          <p className="text-sm font-black uppercase tracking-[0.14em] text-rose">
             Integritet
           </p>
           <h1 className="editorial-color-kiss mt-4 break-words font-display text-3xl leading-none sm:text-5xl md:text-7xl">
@@ -35,11 +35,11 @@ export default function PrivacyPolicyPage() {
             {siteConfig.operatorLegalForm}, under studiovarumärket FRAMFORM.
             {" "}{siteConfig.operatorName} är personuppgiftsansvarig för
             webbplatsen. Kontakt för frågor om dina personuppgifter:{" "}
-            <a href={`mailto:${siteConfig.email}`} className="font-black text-[#9E5E73] underline">
+            <a href={`mailto:${siteConfig.email}`} className="font-black text-wine underline">
               {siteConfig.email}
             </a>
             . Läs mer om vem som driver webbplatsen på{" "}
-            <Link href="/om-oss" className="font-black text-[#9E5E73] underline">
+            <Link href="/om-oss" className="font-black text-wine underline">
               Om oss
             </Link>
             .
@@ -62,7 +62,7 @@ export default function PrivacyPolicyPage() {
                 på{" "}
                 <a
                   href={`mailto:${siteConfig.email}`}
-                  className="font-black text-[#9E5E73] underline"
+                  className="font-black text-wine underline"
                 >
                   {siteConfig.email}
                 </a>
@@ -97,7 +97,7 @@ export default function PrivacyPolicyPage() {
                 genom att mejla{" "}
                 <a
                   href={`mailto:${siteConfig.email}`}
-                  className="font-black text-[#9E5E73] underline"
+                  className="font-black text-wine underline"
                 >
                   {siteConfig.email}
                 </a>
@@ -126,7 +126,7 @@ export default function PrivacyPolicyPage() {
                 enbart för att förstå vilka sidor som hjälper besökare — inte
                 för annonsering eller personanpassning — och lagrar inte
                 IP-adressen. Läs mer på{" "}
-                <Link href="/cookies" className="font-black text-[#9E5E73] underline">
+                <Link href="/cookies" className="font-black text-wine underline">
                   cookiesidan
                 </Link>
                 .

@@ -12,6 +12,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { ProductJsonLd } from "@/components/ProductJsonLd";
 import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
+import { hasApprovedProductImages } from "@/lib/product-image-approvals";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { SaveProductButton } from "@/components/SaveProductButton";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
@@ -97,10 +98,12 @@ export async function YogamattaProductReviewPage({
           </div>
         </header>
 
-        <section className="mt-8 grid gap-7 lg:grid-cols-[1fr_0.92fr] lg:items-center">
-          <div className="overflow-hidden rounded-[2.2rem] border border-line bg-surface shadow-[0_28px_90px_rgba(185,131,166,0.14)]">
-            <ProductImageGallery images={pick.product.images} />
-          </div>
+        <section className={`mt-8 grid gap-7 lg:items-center ${hasApprovedProductImages(pick.product.slug, pick.product.images) ? "lg:grid-cols-[1fr_0.92fr]" : ""}`}>
+          {hasApprovedProductImages(pick.product.slug, pick.product.images) ? (
+            <div className="overflow-hidden rounded-[2.2rem] border border-line bg-surface shadow-[0_28px_90px_rgba(185,131,166,0.14)]">
+              <ProductImageGallery productSlug={pick.product.slug} images={pick.product.images} />
+            </div>
+          ) : null}
 
           <article className="rounded-[2.2rem] border border-line bg-surface/72 p-6 shadow-[0_28px_90px_rgba(185,131,166,0.1)] md:p-9">
             <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">

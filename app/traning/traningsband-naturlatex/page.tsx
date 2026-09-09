@@ -13,13 +13,15 @@ import { ProductBadges } from "@/components/ProductBadges";
 import { JsonLd } from "@/components/JsonLd";
 import { ProductComments } from "@/components/ProductComments";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
+import { hasApprovedProductImages } from "@/lib/product-image-approvals";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { SaveProductButton } from "@/components/SaveProductButton";
 import { TrustReviewLayers } from "@/components/TrustReviewLayers";
 import { createSeoMetadata } from "@/lib/metadata";
 import { featuredProduct } from "@/lib/products";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
-import { buildElinReviewNode, getEditorialScore } from "@/lib/scores";
+import { buildProductSchema } from "@/lib/product-schema";
+import { getEditorialScore } from "@/lib/scores";
 import { siteConfig } from "@/lib/site";
 
 const pageUrl = `${siteConfig.url}/traning/traningsband-naturlatex`;
@@ -44,19 +46,22 @@ const faqItems = [
   },
 ];
 
-function buildProductSchema() {
-  return {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: "Träningsband i naturlatex – set med 4 motståndsnivåer (WuGU)",
-    brand: { "@type": "Brand", name: "WuGU" },
-    material: "Naturlatex",
-    image: pageImage,
-    description:
-      "Set med fyra träningsband i 100% naturlatex, motstånd 8–85 lbs.",
-    review: buildElinReviewNode("traningsband-4-nivaer"),
-  };
-}
+// This page used to build its own Product node instead of going through
+// lib/product-schema. That local copy passed `review: buildElinReviewNode(...)`
+// straight through, and this product has no editorial score — so the review key
+// was dropped at serialisation and the page published a Product node with no
+// offers, no review and no aggregateRating. That is the exact node the shared
+// builder documents as invalid and refuses to emit. It also asserted a material
+// and a resistance range for a product the catalogue still marks unreviewed.
+//
+// Going through the shared builder restores the evidence gate: it returns null
+// until this product carries an editorial review or a genuine on-site
+// aggregate, and the page then emits no Product node at all.
+const productSchema = buildProductSchema({
+  product: featuredProduct,
+  url: "/traning/traningsband-naturlatex",
+  category: "Träning",
+});
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -130,7 +135,6 @@ export const revalidate = 3600;
 
 export default async function TraningBandReviewPage() {
   const approvedReviews = await getApprovedReviews(featuredProduct.slug);
-  const productSchema = buildProductSchema();
   const editorialScore = getEditorialScore(featuredProduct.slug);
 
   return (
@@ -138,7 +142,7 @@ export default async function TraningBandReviewPage() {
       id="content"
       className="min-h-screen bg-bg px-4 py-7 text-ink"
     >
-      <JsonLd data={productSchema} />
+      {productSchema ? <JsonLd data={productSchema} /> : null}
       <JsonLd data={faqSchema} />
       <JsonLd data={breadcrumbSchema} />
 
@@ -166,10 +170,12 @@ export default async function TraningBandReviewPage() {
           </div>
         </header>
 
-        <section className="mt-8 grid gap-7 lg:grid-cols-[1fr_0.92fr] lg:items-center">
-          <div className="overflow-hidden rounded-[2.2rem] border border-line bg-surface shadow-[0_28px_90px_rgba(185,131,166,0.14)]">
-            <ProductImageGallery images={featuredProduct.images} />
-          </div>
+        <section className={`mt-8 grid gap-7 lg:items-center ${hasApprovedProductImages(featuredProduct.slug, featuredProduct.images) ? "lg:grid-cols-[1fr_0.92fr]" : ""}`}>
+          {hasApprovedProductImages(featuredProduct.slug, featuredProduct.images) ? (
+            <div className="overflow-hidden rounded-[2.2rem] border border-line bg-surface shadow-[0_28px_90px_rgba(185,131,166,0.14)]">
+              <ProductImageGallery productSlug={featuredProduct.slug} images={featuredProduct.images} />
+            </div>
+          ) : null}
 
           <article className="rounded-[2.2rem] border border-line bg-surface/72 p-6 shadow-[0_28px_90px_rgba(185,131,166,0.1)] md:p-9">
             <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
@@ -252,7 +258,7 @@ export default async function TraningBandReviewPage() {
           <h2 className="editorial-color-kiss font-display text-3xl">
             De fyra nivåerna
           </h2>
-          <div className="mt-6 overflow-hidden rounded-[1.5rem] border border-line">
+          <div className="mt-6 overflow-x-auto rounded-[1.5rem] border border-line">
             <table className="w-full border-collapse text-left text-sm md:text-base">
               <thead className="bg-rose/15 text-ink">
                 <tr>

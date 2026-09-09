@@ -78,7 +78,7 @@ export default function CollaboratePage() {
 
           <a
             href={`mailto:${siteConfig.email}`}
-            className="mt-7 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-rose px-6 font-black text-white shadow-[0_20px_50px_rgba(216,120,141,0.28)] transition hover:bg-wine"
+            className="mt-7 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-wine px-6 font-black text-white shadow-[0_20px_50px_rgba(109,60,77,0.28)] transition hover:bg-wine/90"
           >
             Låt oss prata mer
           </a>

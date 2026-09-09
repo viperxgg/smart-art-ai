@@ -226,7 +226,7 @@ export function InquiryForm({ turnstileSiteKey }: InquiryFormProps) {
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="inline-flex min-h-12 items-center justify-center rounded-full bg-[#D8788D] px-6 text-base font-black text-white shadow-[0_20px_50px_rgba(216,120,141,0.28)] transition hover:bg-[#B983A6] disabled:cursor-not-allowed disabled:opacity-60"
+          className="inline-flex min-h-12 items-center justify-center rounded-full bg-wine px-6 text-base font-black text-white shadow-[0_20px_50px_rgba(216,120,141,0.28)] transition hover:bg-[#B983A6] disabled:cursor-not-allowed disabled:opacity-60"
         >
           {status === "submitting" ? "Skickar..." : "Skicka meddelande"}
         </button>

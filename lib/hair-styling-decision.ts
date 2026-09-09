@@ -37,7 +37,7 @@ export const hairStylingDecision: DecisionRecord = {
       "title": "Moroccanoil Sverige – Treatment Original",
       "url": "https://se.moroccanoil.com/products/moroccanoil-treatment-original",
       "checkedAt": "2026-09-08",
-      "supports": "Original-formulans ingredienser och användning som vård-, styling- och finishprodukt. Förpackningen styr aktuell innehållslista."
+      "supports": "Original-formulans ingredienser och användning som vård-, styling- och finishprodukt. Tillverkaren anger även att produkten ’hjälper till att skydda mot värmeskador’, utan temperaturangivelse eller testhänvisning på den lästa sidan. Förpackningen styr aktuell innehållslista."
     },
     {
       "id": "H2",

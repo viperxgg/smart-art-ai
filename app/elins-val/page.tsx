@@ -50,7 +50,10 @@ export default function ElinsValPage() {
           </p>
         </section>
 
-        <section className="mt-8 grid gap-8">
+        <section className="mt-8 grid gap-8" aria-labelledby="alla-produkter">
+          <h2 id="alla-produkter" className="sr-only">
+            Alla produkter
+          </h2>
           {products.map((product) => (
             <ProductCard key={product.slug} product={product} />
           ))}

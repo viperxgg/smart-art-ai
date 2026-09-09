@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { ConsentSettingsButton } from "@/components/ConsentSettingsButton";
+
 import { siteConfig, socialProfiles } from "@/lib/site";
 
 // "Elins val drivs av FRAMFORM (Azzam Khalaf, enskild näringsidkare), Backe"
@@ -73,6 +75,7 @@ export function SiteFooter() {
             >
               Cookies
             </Link>
+            <ConsentSettingsButton className="link-underline w-fit text-left font-bold text-ink-soft transition hover:text-wine" />
             <a
               href={`mailto:${siteConfig.email}`}
               className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"

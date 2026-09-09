@@ -58,7 +58,7 @@ export function BottomNav() {
             key={item.href}
             href={item.href}
             aria-current={active ? "page" : undefined}
-            className={`flex min-h-14 min-w-0 flex-col items-center justify-center gap-1 rounded-full px-0.5 text-[0.6rem] font-bold leading-none tracking-normal transition min-[380px]:text-[0.68rem] ${
+            className={`flex min-h-14 min-w-0 flex-col items-center justify-center gap-1 rounded-full px-0.5 text-[0.68rem] font-bold leading-none tracking-normal transition min-[380px]:text-[0.75rem] ${
               active
                 ? "bg-rose/15 text-wine"
                 : "text-ink hover:bg-rose/8 hover:text-wine"

@@ -3,6 +3,7 @@ import { ArrowLeft, ShieldCheck } from "lucide-react";
 
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
+import { ConsentSettingsButton } from "@/components/ConsentSettingsButton";
 
 export const metadata = createSeoMetadata({
   title: "Cookies | Elins val",
@@ -96,6 +97,11 @@ export default function CookiesPage() {
                 </a>{" "}
                 om du har frågor om data, recensioner eller radering.
               </p>
+              <p className="mt-4 leading-7 text-ink-soft">
+                Du kan när som helst ändra eller ta tillbaka ditt val. Väljer du
+                «Neka» tas de analyscookies som redan ligger i din webbläsare bort.
+              </p>
+              <ConsentSettingsButton className="mt-4 inline-flex min-h-12 items-center justify-center rounded-full border border-rose/45 bg-surface/60 px-6 text-sm font-black text-wine transition hover:-translate-y-0.5 hover:bg-rose/8" />
             </article>
           </div>
         </section>

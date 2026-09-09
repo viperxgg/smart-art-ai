@@ -1,11 +1,19 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Cookie } from "lucide-react";
 
-import { readStoredConsent, writeStoredConsent, type ConsentChoice } from "@/lib/consent";
+import {
+  CONSENT_REOPEN_EVENT,
+  clearAnalyticsCookies,
+  getServerConsentSnapshot,
+  getStoredConsentSnapshot,
+  subscribeToStoredConsent,
+  writeStoredConsent,
+  type ConsentChoice,
+} from "@/lib/consent";
 import { updateAnalyticsConsent } from "@/lib/gtag";
 
 /**
@@ -14,21 +22,73 @@ import { updateAnalyticsConsent } from "@/lib/gtag";
  *
  * Privacy-first by default: nothing is granted until the visitor chooses.
  * The `beforeInteractive` consent-default script in app/layout.tsx already
- * tells gtag to deny analytics_storage before this component even mounts, so
- * the only job left here is to (a) ask, and (b) relay the answer to GA and
- * localStorage. Entrance/exit motion runs through framer-motion, which the
- * root layout's <MotionConfig reducedMotion="user"> already collapses to an
- * instant cut for prefers-reduced-motion — no extra handling needed here.
+ * tells gtag to deny analytics_storage before this component even mounts.
+ *
+ * Three behaviours matter beyond asking once:
+ *
+ * - Reopening. `CONSENT_REOPEN_EVENT` (dispatched by ConsentSettingsButton)
+ *   shows the banner again so a visitor can change or withdraw a stored choice.
+ *   Without it a stored "granted" was permanent per browser.
+ * - Real withdrawal. Choosing "Neka" also deletes the GA cookies already in the
+ *   browser. Consent Mode stops new writes but never removes the existing id.
+ * - Focus. Closing immediately unmounts the banner, without retaining focusable
+ *   controls during an exit animation. Reopened settings restore trigger focus.
  */
 export function CookieConsentBanner() {
-  const [visible, setVisible] = useState(false);
+  // localStorage is an external store, so it is read through
+  // useSyncExternalStore rather than copied into state inside an effect. The
+  // snapshot distinguishes a saved choice from missing or unavailable server
+  // state; SSR never assumes that consent was granted.
+  //
+  // Analytics consent itself is applied only by the ga-consent-default script
+  // in app/layout.tsx, pre-hydration, from the visitor's own storage.
+  const snapshot = useSyncExternalStore(
+    subscribeToStoredConsent,
+    getStoredConsentSnapshot,
+    getServerConsentSnapshot,
+  );
+  // "unknown" is the server render: never ask there, never treat it as consent.
+  const mustAsk = snapshot === null;
+  // Reopened from the footer control. Set from an event handler, never from an
+  // effect body, and it changes no stored or applied consent on its own.
+  const [reopened, setReopened] = useState(false);
+  const visible = mustAsk || reopened;
+  const storedChoice = snapshot === null || snapshot === "unknown" ? null : snapshot;
+
   const headingRef = useRef<HTMLHeadingElement>(null);
+  const returnFocusRef = useRef<HTMLElement | null>(null);
+  const lastAppliedRef = useRef<ConsentChoice | null | "unknown" | undefined>(undefined);
 
   useEffect(() => {
-    if (!readStoredConsent()) {
-      setVisible(true);
+    function onReopen(event: Event) {
+      returnFocusRef.current =
+        (event as CustomEvent<{ returnFocusTo?: HTMLElement }>).detail?.returnFocusTo
+        ?? (document.activeElement instanceof HTMLElement ? document.activeElement : null);
+      setReopened(true);
     }
+
+    window.addEventListener(CONSENT_REOPEN_EVENT, onReopen);
+    return () => window.removeEventListener(CONSENT_REOPEN_EVENT, onReopen);
   }, []);
+
+  // Cross-tab: a choice made in another tab must reach THIS tab's analytics,
+  // not just hide its banner. The layout script only runs on a fresh load, and
+  // a granted -> denied change leaves the banner hidden either way, so this has
+  // to key on the stored choice itself. Keying it on "must we ask?" silently
+  // missed exactly that transition.
+  useEffect(() => {
+    if (snapshot === "unknown") return;
+    if (lastAppliedRef.current === undefined) {
+      // First client render: the layout script already applied the stored choice.
+      lastAppliedRef.current = snapshot;
+      return;
+    }
+    if (snapshot === lastAppliedRef.current) return;
+    lastAppliedRef.current = snapshot;
+    const nextChoice = snapshot ?? "denied";
+    updateAnalyticsConsent(nextChoice);
+    if (nextChoice === "denied") clearAnalyticsCookies();
+  }, [snapshot]);
 
   useEffect(() => {
     if (visible) {
@@ -36,20 +96,38 @@ export function CookieConsentBanner() {
     }
   }, [visible]);
 
+  function restoreFocus() {
+    const returnTo = returnFocusRef.current;
+    returnFocusRef.current = null;
+    if (returnTo?.isConnected) returnTo.focus();
+  }
+
+  /** Dismiss the reopened panel without touching the existing choice. */
+  function close() {
+    setReopened(false);
+    restoreFocus();
+  }
+
   function respond(choice: ConsentChoice) {
     writeStoredConsent(choice);
     updateAnalyticsConsent(choice);
-    setVisible(false);
+    lastAppliedRef.current = choice;
+    if (choice === "denied") {
+      // Withdrawal has to remove what is already stored, not only stop new writes.
+      clearAnalyticsCookies();
+    }
+    setReopened(false);
+    restoreFocus();
   }
 
   return (
-    <AnimatePresence>
+    <>
       {visible ? (
         <motion.div
           key="cookie-consent-banner"
+          onKeyDown={(event) => { if (event.key === "Escape" && reopened) close(); }}
           initial={{ opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 32 }}
           transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="fixed inset-x-0 bottom-[calc(6.75rem+env(safe-area-inset-bottom))] z-50 flex justify-center px-4 md:bottom-6"
         >
@@ -76,7 +154,8 @@ export function CookieConsentBanner() {
                 <p className="mt-2 text-sm leading-6 text-ink-soft">
                   Elins val vill förstå vilka sidor som faktiskt hjälper dig — inget
                   mer. Analysdata sparas bara om du godkänner, och du kan neka utan
-                  att förlora funktioner.{" "}
+                  att förlora funktioner. Du kan ändra ditt val när som helst via
+                  «Cookieinställningar» längst ned på sidan.{" "}
                   <Link
                     href="/cookies"
                     className="font-bold text-wine underline underline-offset-2"
@@ -88,7 +167,24 @@ export function CookieConsentBanner() {
               </div>
             </div>
 
+            {storedChoice ? (
+              <p className="mt-3 text-sm font-bold text-wine">
+                Ditt nuvarande val:{" "}
+                {storedChoice === "granted" ? "Statistik tillåten" : "Statistik nekad"}
+                . Välj nedan för att ändra, eller stäng för att behålla det.
+              </p>
+            ) : null}
+
             <div className="mt-4 flex flex-col gap-2.5 sm:flex-row sm:justify-end">
+              {reopened ? (
+                <button
+                  type="button"
+                  onClick={close}
+                  className="inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-transparent px-6 text-sm font-black text-ink-soft transition hover:bg-surface/60 sm:order-0"
+                >
+                  Stäng utan att ändra
+                </button>
+              ) : null}
               <button
                 type="button"
                 onClick={() => respond("denied")}
@@ -107,6 +203,6 @@ export function CookieConsentBanner() {
           </div>
         </motion.div>
       ) : null}
-    </AnimatePresence>
+    </>
   );
 }

@@ -8985,7 +8985,7 @@ export const gorillaRingsProduct: Product = {
 
 export const elvireMinibandProduct: Product = {
   slug: "elvire-miniband",
-  title: "Elvire Sport – korta miniband, variant ej verifierad",
+  title: "Elvire Sport LD40 – Short Blue and Black",
   category: "traning",
   asin: "B07NK18M4J",
   brand: "Elvire Sport",

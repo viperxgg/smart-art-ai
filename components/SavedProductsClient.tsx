@@ -17,15 +17,15 @@ export function SavedProductsClient() {
         <div className="mx-auto grid h-16 w-16 place-items-center rounded-full bg-[#F9E0E3] text-[#B983A6]">
           <Heart size={28} aria-hidden="true" />
         </div>
-        <h1 className="editorial-color-kiss mt-5 font-display text-4xl">
+        <h2 className="editorial-color-kiss mt-5 font-display text-4xl">
           Inget sparat än
-        </h1>
+        </h2>
         <p className="mx-auto mt-4 max-w-xl text-lg leading-8 text-[#6f5a64]">
           Du har inte sparat något än – tryck på hjärtat på en produkt du gillar.
         </p>
         <Link
           href="/"
-          className="mt-7 inline-flex min-h-14 items-center justify-center rounded-full bg-[#D8A7B1] px-7 font-black text-white transition hover:-translate-y-0.5"
+          className="mt-7 inline-flex min-h-14 items-center justify-center rounded-full bg-wine px-7 font-black text-white transition hover:-translate-y-0.5"
         >
           Till Elins val
         </Link>

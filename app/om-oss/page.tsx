@@ -82,7 +82,7 @@ export default function AboutPage() {
               <span className="font-semibold text-violet">lugnare</span>:
               varför något är intressant, vem det passar, vilken kompromiss som
               finns och när ett{" "}
-              <span className="font-semibold text-mid">
+              <span className="font-semibold text-wine">
                 billigare eller enklare
               </span>{" "}
               alternativ räcker.

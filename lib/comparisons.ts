@@ -829,12 +829,12 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     categoryLabel: "Träning",
     href: "/traning/kettlebell",
     description:
-      "Gjutjärn för mest värde mot mjuk kettlebell för golv, ljud och nybörjare.",
+      "Kontrollera vikt, grepp och variant. Inga verifierade vinnare i pris, golvskydd eller för nybörjare.",
     productSlugs: [
       "amazon-basics-gjutjarns-kettlebell",
       "proiron-mjuk-kettlebell",
     ],
-    badges: ["Mest värde", "Golvvänligt", "Nybörjarvänligt"],
+    badges: ["Vikt och grepp", "Kunskapsluckor"],
   },
   {
     slug: "hantlar",
@@ -844,9 +844,9 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     categoryLabel: "Träning",
     href: "/traning/hantlar",
     description:
-      "Ett enkelt par i rätt vikt mot ett färdigt startset med ställning.",
+      "Ett par fasta 2 kg-hantlar (PRKNED02K) mot ett set vars vikter och antal ännu inte är matchade.",
     productSlugs: ["proiron-neoprenhantlar", "songmics-hantelset-med-stallning"],
-    badges: ["Mest beprövad", "Set + ställning", "Hemmaträning"],
+    badges: ["Set + ställning", "Kontrollera paketet", "Hemmaträning"],
   },
   {
     slug: "yogamatta",

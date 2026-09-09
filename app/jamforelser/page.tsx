@@ -135,7 +135,7 @@ function ComparisonCard({
           );
         })}
       </div>
-      <span className="mt-5 inline-flex min-h-11 items-center gap-2 self-start rounded-full bg-rose px-5 text-sm font-black text-bg shadow-[0_16px_38px_rgba(217,125,145,0.24)]">
+      <span className="mt-5 inline-flex min-h-11 items-center gap-2 self-start rounded-full bg-wine px-5 text-sm font-black text-bg shadow-[0_16px_38px_rgba(109,60,77,0.24)]">
         Öppna jämförelsen
         <ArrowUpRight size={16} aria-hidden="true" />
       </span>

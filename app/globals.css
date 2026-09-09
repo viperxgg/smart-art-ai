@@ -13,13 +13,14 @@
   --color-bg: #fff6f6;
   --color-surface: #fffbfb;
   --color-ink: #5b3441;
-  --color-ink-soft: #8f727b;
+  --color-ink-soft: #7f636c; /* was #8f727b (4.07:1 on --color-bg); now >= 4.68:1 on every light surface */
   --color-line: rgb(216 131 146 / 24%);
   --color-rose: #d8788d;
+  --color-rose-text: #a3425a; /* text-only rose: >= 5.0:1 on every light surface incl. rose-tinted cards; backgrounds keep --color-rose */
   --color-rose-soft: #efa4ad;
   --color-wine: #6d3c4d;
   --color-mid: #c95f7c;
-  --color-violet: #7c628f;
+  --color-violet: #6f5681; /* was #7c628f (4.43:1 as text on violet-tinted cards); now >= 5.3:1 */
   --color-mint: #9fc9bb;
   --color-gold: #ffd166;
 }
@@ -79,8 +80,15 @@ body {
   }
 }
 
-a {
-  text-decoration: none;
+/*
+ * Layered so that Tailwind utilities (`underline`, `no-underline`) can still
+ * override it. Unlayered, this rule beat every `.underline` class on the site
+ * and inline text links rendered without any non-colour distinction.
+ */
+@layer base {
+  a {
+    text-decoration: none;
+  }
 }
 
 ::selection {
@@ -135,7 +143,7 @@ main :where(p, li) strong {
 }
 
 main :where(p, li) strong:first-child {
-  color: #9e5e73;
+  color: #8f5266; /* was #9e5e73 (4.38:1 on rose-tinted boxes); now >= 5.0:1 */
 }
 
 .editorial-color-kiss {
@@ -653,7 +661,6 @@ main :where(p, li) strong:first-child {
   background: rgba(255, 255, 255, 0.08);
   color: white;
   padding: 0.95rem 1rem;
-  outline: none;
 }
 
 .review-form textarea {
@@ -960,7 +967,7 @@ body {
 }
 
 .review-form label span {
-  color: rgba(91, 52, 65, 0.72);
+  color: rgba(91, 52, 65, 0.82); /* was 0.72 (4.48:1 on the form surface); now >= 5:1 */
 }
 
 .review-form input,
@@ -1261,5 +1268,15 @@ body {
   100% {
     transform: scale(1.25);
     opacity: 0;
+  }
+}
+
+/*
+ * Rose as running text failed WCAG AA (2.9:1). Backgrounds and borders keep
+ * --color-rose; only the text utility is redirected to the darker text token.
+ */
+@layer utilities {
+  .text-rose {
+    color: var(--color-rose-text);
   }
 }

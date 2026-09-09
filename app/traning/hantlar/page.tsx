@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, Dumbbell, Sparkles } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { getApprovedProductImage } from "@/lib/product-image-approvals";
 import { AmazonPurchaseLinks } from "@/components/AmazonPurchaseCta";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
@@ -85,8 +86,9 @@ export default function HantlarHubPage() {
             Hantlar - två enkla val
           </h1>
           <p className="mt-6 max-w-3xl text-xl leading-9 text-ink-soft">
-            Elin har valt två tydliga spår: PROIRON som enkelt par i exakt
-            vikt, och SONGMICS när du vill ha ett färdigt set med ställning.
+            Två spår: PROIRON som ett par fasta 2 kg-hantlar, och
+            SONGMICS-setet med ställning vars vikter och antal återstår att
+            matcha.
           </p>
           <p className="mt-6 rounded-3xl border border-line bg-rose/8 p-4 text-sm leading-7 text-ink-soft">
             <strong>Annons</strong> · Våra produktsidor innehåller
@@ -105,9 +107,10 @@ export default function HantlarHubPage() {
                 Hur väljer du?
               </h2>
               <p className="mt-4 max-w-3xl text-lg leading-8 text-ink-soft">
-                För de flesta är PROIRON det smartaste köpet: välj exakt vikt,
-                låg startkostnad och enormt många omdömen. Välj SONGMICS om du
-                vill ha flera vikter och ställning direkt.
+                Utgå från övningen: behöver du ett par i en bestämd vikt
+                (PROIRON PRKNED02K, 2 × 2 kg) eller flera fasta vikter med
+                ställning (SONGMICS, vikter och antal ännu inte matchade)? Vi
+                har inte verifierat pris eller kundomdömen.
               </p>
             </div>
           </div>
@@ -120,18 +123,26 @@ export default function HantlarHubPage() {
               href={pick.path}
               className="reveal-fade group overflow-hidden rounded-[2.2rem] border border-line bg-surface/72 shadow-[0_28px_90px_rgba(185,131,166,0.1)] transition hover:-translate-y-1"
             >
-              <div className="relative aspect-[4/3] bg-rose/8">
-                <Image
-                  src={pick.product.image}
-                  alt={pick.product.imageAlt}
-                  fill
-                  sizes="(max-width: 768px) 92vw, 470px"
-                  className="object-contain p-6 transition duration-500 group-hover:scale-[1.025]"
-                />
-                <span className="absolute left-5 top-5 rounded-full bg-wine/90 px-4 py-2 text-sm font-black text-bg backdrop-blur">
-                  {pick.badge}
-                </span>
-              </div>
+              {getApprovedProductImage(pick.product.slug, pick.product.image) ? (
+                <div className="relative aspect-[4/3] bg-rose/8">
+                  <Image
+                    src={pick.product.image}
+                    alt={pick.product.imageAlt}
+                    fill
+                    sizes="(max-width: 768px) 92vw, 470px"
+                    className="object-contain p-6 transition duration-500 group-hover:scale-[1.025]"
+                  />
+                  <span className="absolute left-5 top-5 rounded-full bg-wine/90 px-4 py-2 text-sm font-black text-bg backdrop-blur">
+                    {pick.badge}
+                  </span>
+                </div>
+              ) : (
+                <div className="px-6 pt-6">
+                  <span className="inline-flex rounded-full bg-wine/90 px-4 py-2 text-sm font-black text-bg">
+                    {pick.badge}
+                  </span>
+                </div>
+              )}
               <div className="p-6">
                 <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
                   {pick.product.brand}
@@ -201,9 +212,10 @@ export default function HantlarHubPage() {
             Elins korta dom
           </h2>
           <p className="mt-4 max-w-4xl text-lg leading-8 text-ink-soft">
-            PROIRON är bäst för de flesta som vill börja enkelt med en vikt som
-            passar. SONGMICS är smartare om du vill ha ett litet komplett
-            hemmagym med 1, 3 och 5 kg från start.
+            Välj PROIRON PRKNED02K om du behöver ett par fasta 2 kg-hantlar.
+            Välj SONGMICS-setet först när vikt per hantel, antal och ställning
+            är kontrollerade mot butiksposten; uppgiften 1, 3 och 5 kg är inte
+            verifierad.
           </p>
         </section>
 

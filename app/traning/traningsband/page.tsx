@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, Dumbbell, Sparkles } from "lucide-react";
 
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
+import { getApprovedProductImage } from "@/lib/product-image-approvals";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import {
@@ -120,18 +121,26 @@ export default function TraningsbandHubPage() {
               href={pick.path}
               className="reveal-fade group overflow-hidden rounded-[2.2rem] border border-line bg-surface/72 shadow-[0_28px_90px_rgba(185,131,166,0.1)] transition hover:-translate-y-1"
             >
-              <div className="relative aspect-[4/3] bg-rose/8">
-                <Image
-                  src={pick.product.image}
-                  alt={pick.product.imageAlt}
-                  fill
-                  sizes="(max-width: 768px) 92vw, 470px"
-                  className="object-contain p-6 transition duration-500 group-hover:scale-[1.025]"
-                />
-                <span className="absolute left-5 top-5 rounded-full bg-wine/90 px-4 py-2 text-sm font-black text-bg backdrop-blur">
-                  {pick.badge}
-                </span>
-              </div>
+              {getApprovedProductImage(pick.product.slug, pick.product.image) ? (
+                <div className="relative aspect-[4/3] bg-rose/8">
+                  <Image
+                    src={pick.product.image}
+                    alt={pick.product.imageAlt}
+                    fill
+                    sizes="(max-width: 768px) 92vw, 470px"
+                    className="object-contain p-6 transition duration-500 group-hover:scale-[1.025]"
+                  />
+                  <span className="absolute left-5 top-5 rounded-full bg-wine/90 px-4 py-2 text-sm font-black text-bg backdrop-blur">
+                    {pick.badge}
+                  </span>
+                </div>
+              ) : (
+                <div className="px-6 pt-6">
+                  <span className="inline-flex rounded-full bg-wine/90 px-4 py-2 text-sm font-black text-bg">
+                    {pick.badge}
+                  </span>
+                </div>
+              )}
               <div className="p-6">
                 <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
                   {pick.product.brand}
