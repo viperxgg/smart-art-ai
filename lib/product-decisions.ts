@@ -1,3 +1,4 @@
+import { balanceBallDecision } from "@/lib/balansplatta-eller-gymboll";
 import { runningCarryDecision } from "@/lib/loparvast-eller-midjevaska";
 import { kneeBeltDecision } from "@/lib/knaskydd-eller-lyftarbalte";
 import { vestBeltDecision } from "@/lib/tyngdvast-eller-lyftarbalte";
@@ -82,6 +83,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const balanceBallOption = balanceBallDecision.options.find(option => option.productSlug === slug);
+  if (balanceBallOption) return {
+    ...balanceBallDecision, options: [balanceBallOption],
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Balansplatta eller gymboll?", href: "/traning/balansplatta-eller-gymboll" },
+  };
   if (slug === "salomon-loparvast") return {
     ...runningCarryDecision, options: [runningCarryDecision.options[1]],
     category: { label: "Träning", href: "/traning" },
