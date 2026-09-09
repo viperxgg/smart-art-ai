@@ -1,3 +1,4 @@
+import { hairDryerDecision } from "@/lib/hair-dryer-decisions";
 import { airStylerDecision } from "@/lib/air-styler-decisions";
 import { straightenerSizeDecision } from "@/lib/mini-or-full-straightener";
 import { straightOrCurlDecision } from "@/lib/platta-eller-locka";
@@ -50,6 +51,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const dryerOption = hairDryerDecision.options.find(item => item.productSlug === slug);
+  if (dryerOption) return {
+    ...hairDryerDecision, options: [dryerOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Vilken hårtork passar din rutin?", href: "/skonhet/hartork" },
+  };
   const airStylerOption = airStylerDecision.options.find(item => item.productSlug === slug);
   if (airStylerOption) return {
     ...airStylerDecision, options: [airStylerOption],

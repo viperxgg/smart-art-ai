@@ -1,3 +1,4 @@
+import { hairDryerDecision } from "@/lib/hair-dryer-decisions";
 import { notFound } from "next/navigation";
 
 import { HartorkProductReviewPage } from "@/app/skonhet/hartork/_components/HartorkProductReviewPage";
@@ -14,15 +15,9 @@ export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
+      title: `Passar ${hairDryerDecision.options[1].model} dig?`,
+      description: hairDryerDecision.options[1].chooseIf,
       url: pageUrl,
-      image: {
-        url: `${siteConfig.url}${pick.product.image}`,
-        width: 1200,
-        height: 900,
-        alt: pick.product.imageAlt,
-      },
     })
   : {};
 

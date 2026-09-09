@@ -1,3 +1,5 @@
+import { getProductDecision } from "@/lib/product-decisions";
+import { ProductDecisionPage } from "@/components/ProductDecisionPage";
 import Link from "next/link";
 import { ArrowLeft, HeartPulse, TriangleAlert } from "lucide-react";
 
@@ -45,6 +47,8 @@ export async function HartorkProductReviewPage({
   otherPick,
 }: HartorkProductReviewPageProps) {
   const approvedReviews = await getApprovedReviews(pick.product.slug);
+  const decision = getProductDecision(pick.product.slug);
+  if (decision) return <ProductDecisionPage pick={{ ...pick, href: pick.path }} decision={decision} reviews={approvedReviews} />;
   const editorialScore = getEditorialScore(pick.product.slug);
   const breadcrumbItems = [
     { name: "Hem", href: "/" },

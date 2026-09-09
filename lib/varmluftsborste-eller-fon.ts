@@ -1,88 +1,27 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  babylissAs126eProduct,
-  remingtonProluxeAc9140Product,
-} from "@/lib/products";
+import type { DecisionRecord } from "@/lib/decision-record";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
+import { airStylerDecision } from "@/lib/air-styler-decisions";
+import { hairDryerDecision } from "@/lib/hair-dryer-decisions";
 
-export const varmluftsborsteEllerFonFaqItems: DecisionComparisonFaqItem[] = [
-  {
-    question: "Ersätter en varmluftsborste en vanlig hårfön?",
-    answer:
-      "Inte helt. En varmluftsborste är bäst när håret redan är handdukstorrt och du vill forma samtidigt. För blött, tjockt hår torkar en riktig fön snabbare.",
-  },
-  {
-    question: "Vad är snällast mot håret?",
-    answer:
-      "Båda kräver värmeskydd och lagom värme. En fön med bra kraft kan torka snabbare, medan en varmluftsborste kan minska behovet av extra stylingverktyg om du vill ha mjuk volym.",
-  },
-];
-
-export const varmluftsborsteEllerFonComparisonRows = [
-  [
-    "Snabba signaler",
-    "4-i-1; volym & brushing; jonteknik",
-    "2400 W; AC-motor; jonteknik; diffusor",
+export const airStylerOrDryerDecision: DecisionRecord = {
+  reviewedAt: "2026-09-09",
+  options: [airStylerDecision.options[0], hairDryerDecision.options[0]],
+  payMoreWhen: "Du faktiskt behöver borsten på apparaten, ett plattningstillbehör eller en diffusor. Börja med arbetsmomentet som saknas. Vi har inte visat att ett av paketen sparar tid eller ger bättre resultat på alla hårtyper.",
+  noPurchaseWhen: "Din befintliga fön och borste redan löser uppgiften. Köp inte båda automatiskt: AS126E:s förtorkning måste räknas in, men innebär inte i sig att du behöver köpa ytterligare en fön.",
+  swedishContext: "Jämför AS126E med just AC9140 och kontrollera hela paketet hos säljaren. AC9140-manualens rundborste ingår inte bland tillbehören. Stickkontakt, lager och aktuella svenska erbjudanden är inte verifierade.",
+  testing: "Vi har jämfört tillverkarnas dokumentation, inte torkat eller stylat hår med apparaterna. Vi rangordnar inte snabbhet, skonsamhet, frizz eller livslängd.",
+  limitations: "AS126E-manualen börjar med ungefär 80 procent torrt hår. AC9140:s vanliga torkning börjar efter att överskottsvatten kramats ur; dess Style Shot har separat förberedelse och höjer värmen. Följ rätt manual. Bildrättigheter och butiksmatchning är inte klara.",
+  sources: [airStylerDecision.sources[0], ...hairDryerDecision.sources.filter(source => ["D1", "D2"].includes(source.id))],
+};
+export const airStylerOrDryerGuide: DecisionGuide = {
+  parent: { name: "Skönhet", href: "/skonhet" }, path: "/skonhet/varmluftsborste-eller-fon",
+  title: "Varmluftsborste eller fön – vilket arbetsmoment vill du ändra?",
+  intro: "AS126E samlar borstning och luftstyling efter förtorkning. AC9140 har koncentratorer och diffusor, men borsten hålls separat. Jämför grepp och tillbehör innan du räknar med en tidsvinst.",
+  decision: airStylerOrDryerDecision,
+  productPaths: ["/skonhet/varmluftsborste/babyliss-as126e", "/skonhet/hartork/remington-proluxe-ac9140"],
+  questions: [
+    { question: "Ersätter AS126E hela torkningen?", answer: "Dess manual utgår från att håret är ungefär 80 procent torrt inför styling och beskriver ett munstycke för överskottsfukt. Räkna in förberedelsen; vi har inte mätt hela rutinens tidsåtgång." },
+    { question: "Ingår en borste till AC9140?", answer: "Manualen listar två koncentratorer och en diffusor. Rundborsten som nämns i stylinginstruktionen ingår inte. Använd en lämplig borste du redan har om den fungerar för dig." },
   ],
-  [
-    "Bäst för",
-    "Torka och styla i samma moment",
-    "Snabb, kraftfull torkning hemma",
-  ],
-  ["Effekt", "1000 W", "2400 W AC-motor"],
-  [
-    "Tillbehör",
-    "4 (volym, rätning, kort hår, munstycke)",
-    "3 munstycken inklusive diffusor",
-  ],
-
-] as const;
-
-export const varmluftsborsteEllerFonPicks: [
-  DecisionComparisonPick,
-  DecisionComparisonPick,
-] = [
-  {
-    product: babylissAs126eProduct,
-    path: "/skonhet/varmluftsborste/babyliss-as126e",
-    badge: "Torka + styla",
-    headline: "BaByliss AS126E - volym och brushing i ett steg",
-    shortBody:
-      "En 4-i-1-varmluftsborste för dig som vill forma håret medan det torkar: volymborste, rätningsborste, borste för kort hår och munstycke.",
-  },
-  {
-    product: remingtonProluxeAc9140Product,
-    path: "/skonhet/hartork/remington-proluxe-ac9140",
-    badge: "Mest torkkraft",
-    headline: "Remington PROluxe AC9140 - kraftfull hårtork",
-    shortBody:
-      "Det starkare valet när snabb torkning är viktigast: 2400 W AC-motor, jonteknik, tre munstycken och diffusor.",
-  },
-];
-
-export const varmluftsborsteEllerFonRelatedLinks: DecisionComparisonRelatedLink[] =
-  [
-    {
-      href: "/skonhet/platta-eller-locka",
-      label: "Hårverktyg",
-      text: "Välj mellan plattång och locktång.",
-    },
-    {
-      href: "/skonhet/varmluftsborste-eller-plattang",
-      label: "Hårverktyg",
-      text: "Jämför varmluftsborste med plattång.",
-    },
-    {
-      href: "/skonhet/varmluftsborste",
-      label: "Varmluftsborste",
-      text: "Elins varmluftsborste bäst i test 2026.",
-    },
-    {
-      href: "/skonhet/hartork",
-      label: "Hårtork",
-      text: "Se Elins hårtorksguide.",
-    },
-  ];
+  related: [{ href: "/skonhet/hartork", text: "Behöver du diffusor eller vikbart handtag?" }, { href: "/skonhet/varmluftsborste", text: "Vilka borsttillbehör behöver du?" }],
+};

@@ -973,12 +973,12 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
     categoryLabel: "Skönhet",
     href: "/skonhet/varmluftsborste-eller-fon",
     description:
-      "Torka och styla i samma moment mot ren, kraftfull torkning.",
+      "Borstning med luft efter förtorkning eller separat fön – vilka moment och tillbehör behöver du?",
     productSlugs: [
       "babyliss-as126e-varmluftsborste",
       "remington-proluxe-ac9140-hartork",
     ],
-    badges: ["Torka + styla", "Mest torkkraft", "Volym"],
+    badges: ["Förtorkning", "Separat borste", "Tillbehör"],
   },
   {
     slug: "sommarglow-utan-sol",
