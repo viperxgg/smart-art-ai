@@ -6087,7 +6087,7 @@ export const waveGuides: WaveGuide[] = [
     category: "skonhet",
     label: "Jämförelse",
     title: "Rakapparat eller OneBlade?",
-    intro: "Slätare rakrutin mot hybridtrimning.",
+    intro: "S5466/18 eller QP2834/31: roterande rakhuvuden eller stubbkammar?",
     badges: [
       "Rakapparat",
       "OneBlade",
@@ -6150,7 +6150,7 @@ export const waveGuides: WaveGuide[] = [
       },
     ],
     metaTitle: "Rakapparat eller OneBlade? | Elins val",
-    metaDescription: "Rakapparat eller OneBlade?: Slätare rakrutin mot hybridtrimning. (Annons)",
+    metaDescription: "Rakapparat eller OneBlade?: S5466/18 eller QP2834/31: roterande rakhuvuden eller stubbkammar? (Annons)",
   },
   {
     id: "julklapp-till-honom",
@@ -7863,7 +7863,7 @@ export const waveComparisonEntries: readonly ComparisonEntry[] = [
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/rakapparat-eller-oneblade",
-    description: "Slätare rakrutin mot hybridtrimning.",
+    description: "S5466/18 eller QP2834/31: roterande rakhuvuden eller stubbkammar?",
     productSlugs: [
       "philips-rakapparat-5000",
       "philips-oneblade-360",

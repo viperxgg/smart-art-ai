@@ -1,3 +1,4 @@
+import { shaverDecision } from "@/lib/shaver-decision";
 import { groomingDecision } from "@/lib/grooming-decision";
 import { footSpaDecision } from "@/lib/foot-spa-decision";
 import { bodyOilDecision } from "@/lib/bio-oil-eller-jojobaolja";
@@ -56,6 +57,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (slug === "philips-rakapparat-5000") return {
+    ...shaverDecision, options: [shaverDecision.options[0]],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Rakapparat eller OneBlade?", href: "/skonhet/rakapparat-eller-oneblade" },
+  };
   const groomingOption = groomingDecision.options.find(item => item.productSlug === slug);
   if (groomingOption) return {
     ...groomingDecision, options: [groomingOption],
