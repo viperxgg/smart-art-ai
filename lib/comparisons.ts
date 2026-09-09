@@ -683,14 +683,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "handflakt-eller-bordsflakt",
-    title: "Handfläkt eller bordsfläkt?",
+    title: "Bära med fläkten eller ge den en fast plats?",
     shortTitle: "Handfläkt eller bordsfläkt",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/handflakt-eller-bordsflakt",
-    description: "Bärbar svalka på språng mot en stadig fläkt vid skrivbordet.",
+    description: "Kontrollera Xiaomis två monteringshöjder och strömförsörjning. JISULIFE-varianten återstår att matcha; ingen prestandavinnare utses.",
     productSlugs: ["jisulife-handflakt","xiaomi-bordsflakt"],
-    badges: ["Svalka","Bärbar vs på plats","Sommar"],
+    badges: ["Plats och ström","Modellkontroll"],
   },
   {
     slug: "billaddare-eller-powerbank",

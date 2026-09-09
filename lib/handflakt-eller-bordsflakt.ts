@@ -1,32 +1,52 @@
-import type {
-  DecisionComparisonFaqItem,
-  DecisionComparisonPick,
-  DecisionComparisonRelatedLink,
-} from "@/lib/decision-comparison";
-import {
-  jisulifeHandfanProduct,
-  xiaomiStandingFanProduct,
-} from "@/lib/products";
+import type { DecisionRecord } from "@/lib/decision-record";
+import type { DecisionGuide } from "@/components/DecisionGuidePage";
 
-export const handflaktEllerBordsflaktFaqItems: DecisionComparisonFaqItem[] = [{"question":"Vad är skillnaden på handfläkt och bordsfläkt?","answer":"En handfläkt är liten och laddningsbar så du kan ta med den ut och få svalka på språng. En bordsfläkt står still och ger en stadigare, ofta starkare luftström där du sitter."},{"question":"Vilken är bäst för festival?","answer":"Handfläkten, eftersom den ryms i väskan och laddas via USB så du kan svalka dig var du än är. En bordsfläkt kräver en plats att stå på och passar bättre hemma."},{"question":"Håller handfläkten laddningen en hel dag?","answer":"Det beror på modell och hur högt du kör den. Ladda den full innan du går ut och kör på ett lägre läge så räcker batteriet längre under dagen."},{"question":"Vilken ger starkast svalka?","answer":"En bordsfläkt ger oftast en starkare och stadigare luftström eftersom den är större. Handfläkten ger en personlig, riktad svalka som räcker gott när du är på språng."}];
+export const portableDeskFanDecision: DecisionRecord = {
+  reviewedAt: "2026-09-09",
+  options: [
+    {
+      productSlug: "jisulife-handflakt", model: "JISULIFE Pro1 – variant ej bekräftad",
+      variant: "Namnet Pro1 kommer från katalogen, med ASIN B0GQ45ZZHB. Den aktuella butiksposten kunde inte läsas. Pro1 S och Pro1 Mini får inte automatiskt räknas som samma produkt.",
+      chooseIf: "du behöver en fläkt att bära med dig och först kan bekräfta modell, batteri och laddning. Vi saknar tillräckligt underlag för att rekommendera just denna katalogpost.",
+      avoidIf: "du behöver en garanterad heldagsdrift, låg ljudnivå eller en viss laddkontakt. Inget av detta är verifierat för den angivna varianten.",
+      sourceIds: ["J1", "J2"], merchantVariantVerified: false,
+    },
+    {
+      productSlug: "xiaomi-bordsflakt", model: "Mi Smart Standing Fan 2 Lite",
+      variant: "JLLDS01XY enligt Xiaomi Singapore. Inte Standing Fan 2 utan Lite. Svensk butiksvariant och appregion är inte matchade.",
+      chooseIf: "du vill växla mellan golv- och bordsplacering och har plats för apparaten. Tillverkaren anger 100 cm respektive 64,2 cm höjd; knapparna sitter upptill och standardläget har tre hastigheter.",
+      avoidIf: "du behöver en liten batterifläkt att bära med dig. Specifikationen anger nätanslutning, 3,5 kg och 343 × 330 mm grundmått. Kontrollera utrymmet innan du väljer den till skrivbordet.",
+      sourceIds: ["X1", "X2"], merchantVariantVerified: false,
+    },
+  ],
+  payMoreWhen: "Du har ett verifierat behov av exempelvis annan placering eller reglage. Appstyrning kan vara bekvämt men bevisar inte bättre luftflöde eller lägre ljud. Vi har inga jämförbara aktuella totalpriser och ingen dokumenterad prestandavinnare mellan dessa två poster.",
+  noPurchaseWhen: "Din befintliga fläkt redan fungerar på en lämplig plats. Prova dess tillåtna placering och hastigheter först. Köp inte både en handfläkt och en större fläkt bara för att de marknadsförs för olika situationer.",
+  swedishContext: "Xiaomis lästa specifikation anger 220–230 V, 50/60 Hz och Wi-Fi 2,4 GHz. Singapore-sidorna styrker inte svensk stickkontakt eller appregion. Bekräfta rätt version och vad som ingår; aktuella svenska erbjudanden saknas för båda posterna.",
+  testing: "Vi har läst Xiaomis specifikation och produktbeskrivning samt JISULIFEs sida för Pro1 S. Ingen egen mätning av luftflöde, ljud, batteritid eller upplevd svalka. JISULIFE-sidan används bara för att skilja modellnamnen åt.",
+  limitations: "En större fläkt är inte automatiskt bättre där du sitter. Xiaomis minsta marknadsförda ljudvärde och specifikationens ljudtal har inte jämförts med JISULIFE under samma villkor. Vi lovar inte tyst sovrumsdrift, automatisk svensk appkompatibilitet eller att en okänd handfläkt räcker hela dagen. Bildrättigheter återstår.",
+  sources: [
+    { id: "J1", title: "Amazon Sverige – katalogens JISULIFE ASIN", url: "https://www.amazon.se/dp/B0GQ45ZZHB", checkedAt: "2026-09-09", status: "unavailable", supports: "Butiksinnehållet kunde inte läsas. Modell, batteri och leverans är inte verifierade." },
+    { id: "J2", title: "JISULIFE – Handheld Fan Pro1 S", url: "https://jisulife.com/products/jisulife-handheld-fan-pro1s-2025", checkedAt: "2026-09-09", supports: "Sidan avser Pro1 S. Dess batteri- och prestandauppgifter används inte som specifikation för katalogens Pro1." },
+    { id: "X1", title: "Xiaomi Singapore – 2 Lite, specifikation", url: "https://www.mi.com/sg/product/mi-smart-standing-fan-2-lite/specs/", checkedAt: "2026-09-09", supports: "JLLDS01XY, nätspänning, Wi-Fi, mått och nettovikt. Ingen svensk erbjudandematchning." },
+    { id: "X2", title: "Xiaomi Singapore – 2 Lite, funktioner", url: "https://www.mi.com/sg/product/mi-smart-standing-fan-2-lite/", checkedAt: "2026-09-09", supports: "Två monteringshöjder, tre standardhastigheter och knappar upptill. Vissa smarta funktioner kräver separat utrustning; tillverkarens laboratorietal är inte vårt jämförande test." },
+  ],
+};
 
-export const handflaktEllerBordsflaktComparisonRows = [["Snabba signaler","Liten och laddningsbar; ta med ut","Står still; stadig luftström på plats"],["Bäst för","Festival, buss, stan – på språng","Skrivbord och säng hemma"],["Ström","Laddningsbar via USB","Vägg eller USB beroende på modell"],["Styrka","Personlig, riktad svalka","Oftast starkare luftström"],["Plats","Ryms i väskan","Står på bord eller hylla"],["Prisläge","Budget","Budget–mellan"],] as const;
-
-export const handflaktEllerBordsflaktPicks: [DecisionComparisonPick, DecisionComparisonPick] = [
-  {
-    product: jisulifeHandfanProduct,
-    path: "/halsa/handflakt",
-    badge: "Ta med ut",
-    headline: "JISULIFE handfläkt – svalka på språng",
-    shortBody: "Välj handfläkten om du vill ha svalka utomhus. Den är liten, laddningsbar och ryms i väskan – perfekt på festivalen, bussen eller en varm promenad.",
-  },
-  {
-    product: xiaomiStandingFanProduct,
-    path: "/halsa/bordsflakt",
-    badge: "Stadig på plats",
-    headline: "Xiaomi bordsfläkt – sval luft där du sitter",
-    shortBody: "Välj bordsfläkten om du mest vill ha en stadig, lite starkare luftström hemma eller på jobbet. Den står still och svalkar dig vid skrivbordet eller sängen.",
-  },
-];
-
-export const handflaktEllerBordsflaktRelatedLinks: DecisionComparisonRelatedLink[] = [{"href":"/halsa/handflakt","label":"Handfläkt","text":"Läs Elins recension av JISULIFE handfläkt."},{"href":"/halsa/bordsflakt","label":"Bordsfläkt","text":"Läs Elins recension av Xiaomi bordsfläkt."},{"href":"/halsa/tornflakt-eller-bordsflakt","label":"Jämförelse","text":"Tornfläkt eller bordsfläkt? Se den jämförelsen."},{"href":"/halsa/flakt","label":"Fläkt","text":"Se alla Elins fläktar för sommaren."}];
+export const portableDeskFanGuide: DecisionGuide = {
+  parent: { name: "Hälsa & vardag", href: "/halsa" },
+  path: "/halsa/handflakt-eller-bordsflakt",
+  title: "Bära med fläkten eller ge den en fast plats?",
+  intro: "Xiaomi 2 Lite är en nätansluten fläkt med två monteringshöjder. Den är inte en liten handfläkt. JISULIFE-postens exakta variant återstår att bekräfta; börja med plats och strömförsörjning.",
+  decision: portableDeskFanDecision,
+  productPaths: ["/halsa/handflakt", "/halsa/bordsflakt"],
+  questions: [
+    { question: "Hur liten blir Xiaomi i bordsläge?", answer: "Tillverkaren anger 64,2 cm höjd i bordsläge och 100 cm i golvläge. Kontrollera även grundmåtten 343 × 330 mm mot bordet. Vi har inte provat hur den ryms på ett visst skrivbord." },
+    { question: "Måste jag använda appen?", answer: "Xiaomi visar knappar upptill för lokal styrning. Mi Home ger fjärrstyrning; temperaturkopplade scenarier kan kräva separat sensor och hubb. Vi har inte verifierat svensk appregion eller alla funktioner utan uppkoppling." },
+    { question: "Håller JISULIFE-fläkten hela dagen?", answer: "Det vet vi inte för denna post. Namnet Pro1 räcker inte för att överföra tillverkarens drifttid för Pro1 S. Exakt variant och villkoren för batteritidsuppgiften behöver kontrolleras först." },
+    { question: "Vilken är starkast och tystast?", answer: "Ingen sådan vinnare kan utses utan jämförbara mätningar för rätt modeller, inställningar och avstånd. Vi har inte gjort dem. Ett marknadsfört minimum visar inte ljudet vid det luftflöde du behöver." },
+  ],
+  related: [
+    { href: "/halsa/tornflakt-eller-bordsflakt", text: "Tornfläkt eller annan placering?" },
+    { href: "/halsa/flakt", text: "Fler fläktmodeller och deras begränsningar" },
+  ],
+};
