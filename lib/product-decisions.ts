@@ -1,3 +1,4 @@
+import { readingLightDecision } from "@/lib/laslampa-eller-led-list";
 import { scalpDecision } from "@/lib/rosmarinolja-eller-scalp-scrub";
 import { textureDecision } from "@/lib/texturspray-eller-volympuder";
 import { epilatorDecision } from "@/lib/epilator-decision";
@@ -64,6 +65,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const readingLightOption = readingLightDecision.options.find(item => item.productSlug === slug);
+  if (readingLightOption) return {
+    ...readingLightDecision, options: [readingLightOption],
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Behöver du läsljus eller färg i rummet?", href: "/halsa/laslampa-eller-led-list" },
+  };
   const scalpOption = scalpDecision.options.find(item => item.productSlug === slug);
   if (scalpOption) return {
     ...scalpDecision, options: [scalpOption],

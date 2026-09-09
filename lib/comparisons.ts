@@ -97,14 +97,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "laslampa-eller-led-list",
-    title: "Läslampa eller LED-list?",
-    shortTitle: "Läslampa eller LED-list",
+    title: "Behöver du läsljus eller färg i rummet?",
+    shortTitle: "Läsljus eller färgeffekter?",
     category: "halsa",
     categoryLabel: "Hälsa",
     href: "/halsa/laslampa-eller-led-list",
-    description: "Riktat uppgiftsljus för boken mot mjukt stämningsljus för rummet – Elin reder ut vilket ljus dina mörka kvällar behöver.",
+    description: "Jämför riktbart ljus med fem meters dekorativt ljus. Kontrollera klämma, ström, montering och nätverk före köp.",
     productSlugs: ["gritin-laslampa","govee-led-list"],
-    badges: ["Mörka kvällar","Mysbelysning","Olika jobb"],
+    badges: ["Ljus efter behov", "Modell och begränsningar"],
   },
   {
     slug: "azelainsyra-eller-aha-bha",
