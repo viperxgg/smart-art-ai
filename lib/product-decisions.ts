@@ -1,3 +1,4 @@
+import { vestBeltDecision } from "@/lib/tyngdvast-eller-lyftarbalte";
 import { gymFloorDecision } from "@/lib/gym-floor-decision";
 import { smartBandDecision } from "@/lib/smart-band-decision";
 import { leaveInOilDecision } from "@/lib/leave-in-eller-harolja";
@@ -79,6 +80,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const vestBeltOption = vestBeltDecision.options.find(option => option.productSlug === slug);
+  if (vestBeltOption) return {
+    ...vestBeltDecision, options: [vestBeltOption],
+    category: { label: "Träning", href: "/traning" },
+    comparison: { label: "Behöver du viktväst eller lyftarbälte?", href: "/traning/tyngdvast-eller-lyftarbalte" },
+  };
   if (slug === "bemaxx-pusselmatta") return {
     ...gymFloorDecision,
     category: { label: "Träning", href: "/traning" },
