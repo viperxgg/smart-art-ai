@@ -4551,7 +4551,7 @@ export const tymoUtratningsborsteProduct: Product = {
 
 export const gihaliHardiffusorProduct: Product = {
   slug: "gihali-hardiffusor",
-  title: "GIHALI hårdiffusor universal",
+  title: "GIHALI hårdiffusor",
   category: "skonhet",
   asin: "B07ZFBF8MK",
   brand: "GIHALI",

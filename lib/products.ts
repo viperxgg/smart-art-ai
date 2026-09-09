@@ -2473,7 +2473,7 @@ export const salkingAromadiffuserProduct: Product = {
 
 export const solnedgangslampaProduct: Product = {
   slug: "solnedgangslampa",
-  title: "Solnedgångslampa - sunset-projektor (24 färger, fjärrkontroll)",
+  title: "Aniepaa solnedgångslampa",
   category: "halsa",
   asin: "B09P8HS8CK",
   brand: "Aniepaa",
@@ -8449,7 +8449,7 @@ export const bowflexSelectTech552iProduct: Product = {
 
 export const gorillaGymbollProduct: Product = {
   slug: "gorilla-gymboll",
-  title: "Gorilla Sports gymboll / pilatesboll (anti-burst, med pump)",
+  title: "Gorilla Sports gymboll",
   category: "traning",
   asin: "B01MSB4UKB",
   brand: "Gorilla Sports",
@@ -10453,7 +10453,7 @@ export const levoitHumidifierProduct: Product = {
 
 export const ellaWeightedBlanketProduct: Product = {
   slug: "ella-tyngdtacke",
-  title: "Ella tyngdtäcke 9 kg (150x200 cm)",
+  title: "Ella tyngdtäcke",
   category: "halsa",
   asin: "B093WY4SJ4",
   brand: "Ella",
@@ -11232,7 +11232,7 @@ export const withingsBodySmartProduct: Product = {
 
 export const magicteamWhiteNoiseProduct: Product = {
   slug: "magicteam-white-noise",
-  title: "Magicteam white noise-maskin (40 ljud)",
+  title: "Magicteam ljudmaskin",
   category: "halsa",
   asin: "B07RQWQBXY",
   brand: "Magicteam",
@@ -13967,7 +13967,7 @@ export const traxentaNecessarProduct: Product = {
 
 export const epickaReseadapterProduct: Product = {
   slug: "epicka-reseadapter",
-  title: "EPICKA Universal reseadapter (3x USB-C, 2x USB-A)",
+  title: "EPICKA reseadapter",
   category: "resa",
   asin: "B0CS2TK111",
   brand: "EPICKA",
@@ -14058,7 +14058,7 @@ export const epickaReseadapterProduct: Product = {
 
 export const fitFlipMikrofiberhandukProduct: Product = {
   slug: "fit-flip-mikrofiberhandduk",
-  title: "Fit-Flip mikrofiberhandduk – kompakt & snabbtorkande",
+  title: "Fit-Flip mikrofiberhandduk",
   category: "resa",
   asin: "B0B945VBJJ",
   brand: "Fit-Flip",
@@ -14148,7 +14148,7 @@ export const fitFlipMikrofiberhandukProduct: Product = {
 
 export const jetechMobilfodralProduct: Product = {
   slug: "jetech-vattentatt-mobilfodral",
-  title: "JETech vattentätt mobilfodral (2-pack, IPX8)",
+  title: "JETech mobilfodral",
   category: "resa",
   asin: "B0D1DMSFBN",
   brand: "JETech",
@@ -14239,7 +14239,7 @@ export const jetechMobilfodralProduct: Product = {
 
 export const strandklammorProduct: Product = {
   slug: "strandklammor-9-pack",
-  title: "Strandklämmor för badlakan (9-pack, vindtåliga)",
+  title: "Strandklämmor för badlakan",
   category: "resa",
   asin: "B0CZDL42LK",
   brand: "Vindtåliga klämmor",
@@ -14419,7 +14419,7 @@ export const lifewitKylvaskaProduct: Product = {
 
 export const anortrekStrandfiltProduct: Product = {
   slug: "anortrek-sandfri-strandfilt",
-  title: "AnorTrek sandfri strandfilt (extra stor, 300x300 cm)",
+  title: "AnorTrek strandfilt",
   category: "resa",
   asin: "B0C9CVWZPC",
   brand: "AnorTrek",
@@ -15232,7 +15232,7 @@ export const lamicallMobilhallareBilProduct: Product = {
 
 export const ipelyBilskrappaseProduct: Product = {
   slug: "ipely-bilskrappase",
-  title: "IPELY bilskräppåse för nackstöd (läcksäker)",
+  title: "IPELY bilskräppåse för nackstöd",
   category: "resa",
   asin: "B01L5E7OB2",
   brand: "IPELY",
@@ -15412,7 +15412,7 @@ export const otrakiTvattpaseProduct: Product = {
 
 export const opretReseflaskorProduct: Product = {
   slug: "opret-reseflaskor",
-  title: "Opret reseflaskor i silikon (60 ml, läcksäkra)",
+  title: "Opret reseflaskor",
   category: "resa",
   asin: "B0C3B7WCXQ",
   brand: "Opret",
@@ -15502,7 +15502,7 @@ export const opretReseflaskorProduct: Product = {
 
 export const narweyHangandeNecessarProduct: Product = {
   slug: "narwey-hangande-necessar",
-  title: "Narwey hängande necessär (vattentålig, med krok)",
+  title: "Narwey hängande necessär",
   category: "resa",
   asin: "B0DKH8DLGG",
   brand: "Narwey",
@@ -15592,7 +15592,7 @@ export const narweyHangandeNecessarProduct: Product = {
 
 export const prezonSkopasarProduct: Product = {
   slug: "prezon-skopasar",
-  title: "Prezon skopåsar för resa (2-pack, vattentåliga)",
+  title: "Prezon skopåsar för resa",
   category: "resa",
   asin: "B0C1GCZHNT",
   brand: "Prezon",
@@ -16123,7 +16123,7 @@ export const haisskyLoparbalteProduct: Product = {
 
 export const blukarMobilhallareProduct: Product = {
   slug: "blukar-mobilhallare-ventil",
-  title: "Blukar mobilhållare med ventilklämma (alla mobiler)",
+  title: "Blukar mobilhållare med ventilklämma",
   category: "resa",
   asin: "B0C1NK79FK",
   brand: "Blukar",
