@@ -212,7 +212,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
                           key={product.slug}
                           className="px-6 py-4 text-sm font-black uppercase text-wine"
                         >
-                          {product.brand}
+                          {decision?.options.find((option) => option.productSlug === product.slug)?.model ?? getElinProductEvidence(product).title}
                         </th>
                       ) : null,
                     )}

@@ -233,7 +233,7 @@ export function DecisionComparisonPage({
                       key={pick.product.slug}
                       className="px-6 py-4 text-sm font-black uppercase tracking-[0.12em] text-wine"
                     >
-                      {pick.product.brand}
+                      {decision?.options.find((option) => option.productSlug === pick.product.slug)?.model ?? getElinProductEvidence(pick.product).title}
                     </th>
                   ))}
                 </tr>
