@@ -180,8 +180,8 @@ function SearchResultCard({ product }: { product: Product }) {
         <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
           {label} · {product.brand}
         </p>
-        <h2 className="editorial-color-kiss mt-2 font-display text-2xl leading-tight">
-          <Link href={href}>{title}</Link>
+        <h2 className="[overflow-wrap:anywhere] editorial-color-kiss mt-2 font-display text-2xl leading-tight">
+          <Link href={href}>{decision ? `Passar ${title} dig?` : `Vad vet vi om ${title}?`}</Link>
         </h2>
         <DecisionProductImage productSlug={product.slug} model={title} />
         <ProductDecisionPreview slug={product.slug} />

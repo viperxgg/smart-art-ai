@@ -60,8 +60,8 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
         <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">
           {product.brand}
         </p>
-        <h3 className="editorial-color-kiss mt-3 font-display text-[2.05rem] leading-tight tracking-[-0.025em] sm:text-4xl sm:tracking-[-0.035em]">
-          {title}
+        <h3 className="[overflow-wrap:anywhere] editorial-color-kiss mt-3 font-display text-[2.05rem] leading-tight tracking-[-0.025em] sm:text-4xl sm:tracking-[-0.035em]">
+          {decision ? `Passar ${title} dig?` : `Vad vet vi om ${title}?`}
         </h3>
         <DecisionProductImage productSlug={product.slug} model={title} />
         <ProductDecisionPreview slug={product.slug} />

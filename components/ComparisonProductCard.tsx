@@ -25,7 +25,7 @@ export function ComparisonProductCard({ product, href, option, hideImage = false
         <Image src={image.image} alt={image.alt} fill sizes="(max-width: 768px) 92vw, 470px" className="object-contain" />
       </div> : null}
       <div className="p-5 sm:p-6">
-        <h2 className="font-display text-2xl font-bold leading-tight">Passar {title} dig?</h2>
+        <h2 className="[overflow-wrap:anywhere] font-display text-2xl font-bold leading-tight">{currentOption ? `Passar ${title} dig?` : `Vad vet vi om ${title}?`}</h2>
         {!hideImage ? <DecisionProductImage productSlug={product.slug} model={title} /> : null}
         {currentOption ? <dl className="mt-4 space-y-3 leading-relaxed">
           <div><dt className="font-bold">Välj om …</dt><dd>{currentOption.chooseIf}</dd></div>

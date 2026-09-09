@@ -1862,6 +1862,7 @@ function FeaturedPick({
 }) {
   const approvedImage = getApprovedProductImage(product.slug, product.image);
   const productHref = getProductPageHref(product);
+  const evidence = getElinProductEvidence(product);
   const score = getEditorialScore(product.slug);
 
   return (
@@ -1872,7 +1873,7 @@ function FeaturedPick({
       {approvedImage ? <Link
         href={productHref}
         className="relative block aspect-[4/3] overflow-hidden rounded-[1.55rem] bg-[#f7e8e8]"
-        aria-label={`Läs mer om ${getElinProductEvidence(product).title}`}
+        aria-label={`Läs mer om ${evidence.title}`}
       >
         <Image
           src={product.image}
@@ -1894,10 +1895,10 @@ function FeaturedPick({
         <p className="text-xs font-black uppercase tracking-[0.16em] text-rose">
           {product.brand}
         </p>
-        <h3 className="editorial-color-kiss mt-2 font-display text-3xl leading-tight">
-          <Link href={productHref}>{getElinProductEvidence(product).title}</Link>
+        <h3 className="[overflow-wrap:anywhere] editorial-color-kiss mt-2 font-display text-3xl leading-tight">
+          <Link href={productHref}>{evidence.decision ? `Passar ${evidence.title} dig?` : `Vad vet vi om ${evidence.title}?`}</Link>
         </h3>
-        <DecisionProductImage productSlug={product.slug} model={getElinProductEvidence(product).title} />
+        <DecisionProductImage productSlug={product.slug} model={evidence.title} />
         <p className="mt-3 text-sm leading-6 text-ink-soft">{product.summary}</p>
         <ProductBadges badges={product.badges.slice(0, 3)} className="mt-4" />
         <div className="mt-4 flex flex-wrap gap-2">
