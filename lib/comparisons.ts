@@ -752,14 +752,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "st-tropez-eller-bondi-sands",
-    title: "St.Tropez eller Bondi Sands?",
+    title: "Vilken brun-utan-sol-rutin får plats i din dag?",
     shortTitle: "St.Tropez eller Bondi Sands",
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/st-tropez-eller-bondi-sands",
-    description: "Naturlig, justerbar färg med mest kontroll mot en färgad mousse som är enklast att lägga jämnt.",
+    description: "Jämför Express och Ultra Dark: olika tider före dusch och tydliga modellgränser. Ingen testad vinnare i jämnhet eller enkelhet.",
     productSlugs: ["st-tropez-self-tan-express","bondi-sands-mousse"],
-    badges: ["Brun utan sol","Naturlig färg","Sommar"],
+    badges: ["Rutin och väntetid","Exakta varianter"],
   },
   {
     slug: "cerave-eller-cetaphil",
