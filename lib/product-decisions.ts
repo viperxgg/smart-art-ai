@@ -1,3 +1,4 @@
+import { facialBodyDecision } from "@/lib/ansiktstrimmer-eller-rakapparat-dam";
 import { beardOilDecision } from "@/lib/beard-oil-decision";
 import { hairClipperDecision } from "@/lib/hair-clipper-decision";
 import { shaverDecision } from "@/lib/shaver-decision";
@@ -59,6 +60,12 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  const facialBodyOption = facialBodyDecision.options.find(item => item.productSlug === slug);
+  if (facialBodyOption) return {
+    ...facialBodyDecision, options: [facialBodyOption],
+    category: { label: "Skönhet", href: "/skonhet" },
+    comparison: { label: "Bara ansiktshår eller även kroppsrakning?", href: "/skonhet/ansiktstrimmer-eller-rakapparat-dam" },
+  };
   if (slug === "loreal-skaggolja") return {
     ...beardOilDecision,
     category: { label: "Skönhet", href: "/skonhet" },

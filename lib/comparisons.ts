@@ -342,14 +342,14 @@ export const comparisonEntries: readonly ComparisonEntry[] = [
   },
   {
     slug: "ansiktstrimmer-eller-rakapparat-dam",
-    title: "Ansiktstrimmer eller rakapparat för dam?",
+    title: "Bara ansiktshår eller även kroppsrakning?",
     shortTitle: "Ansiktstrimmer eller rakapparat",
     category: "skonhet",
     categoryLabel: "Skönhet",
     href: "/skonhet/ansiktstrimmer-eller-rakapparat-dam",
-    description: "Exakt formning av fina hår mot snabb, skonsam rakning av större ytor.",
+    description: "BRR454/00 för ansiktet eller BRL159/00 med kroppsrakapparat och separat ansiktsverktyg. Behöver du verkligen båda?",
     productSlugs: ["philips-ansiktstrimmer","philips-rakapparat-dam"],
-    badges: ["Ansiktshår","Exakt vs snabbt","Skonsamt"],
+    badges: ["Ansikte eller kropp","Paketinnehåll","Undvik dubbelköp"],
   },
   {
     slug: "texturspray-eller-volympuder",
