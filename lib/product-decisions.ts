@@ -1,3 +1,4 @@
+import { getSoundProductDecision } from "@/lib/sound-environment-decisions";
 import { sunsetLightDecision } from "@/lib/sunset-light-decision";
 import { getProjectionProductDecision } from "@/lib/mini-projektor-eller-stjarnprojektor";
 import { homeCardioDecision, getHomeCardioDecision } from "@/lib/home-cardio-decisions";
@@ -89,6 +90,11 @@ export type ProductDecision = DecisionRecord & {
 };
 
 export function getProductDecision(slug: string): ProductDecision | undefined {
+  if (["loop-oronproppar", "magicteam-white-noise"].includes(slug)) return {
+    ...getSoundProductDecision(slug),
+    category: { label: "Hälsa & vardag", href: "/halsa" },
+    comparison: { label: "Öronproppar eller white noise?", href: "/halsa/oronproppar-eller-white-noise" },
+  };
   if (slug === "solnedgangslampa") return {
     ...sunsetLightDecision,
     category: { label: "Hälsa & vardag", href: "/halsa" },
