@@ -195,8 +195,8 @@ export default function AboutPage() {
           </p>
           <p className="mt-4 max-w-3xl leading-8 text-ink-soft">
             Rösten är personlig för att texterna ska vara lätta att läsa.
-            Ansvaret är det inte: vem som svarar för innehållet står alltid
-            överst på varje sida och här på den här sidan.
+            Ansvaret är det inte: vem som svarar för innehållet framgår här på
+            sidan under Vem står bakom Elins val.
           </p>
         </section>
 

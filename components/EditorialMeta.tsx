@@ -12,33 +12,23 @@ type EditorialMetaProps = {
 };
 
 /**
- * Editorial meta line rendered under the H1 of every content page:
- * "Uppdaterad {d MMMM yyyy} · Redaktion: Elins val · Ansvarig utgivare: …"
- * followed by the affiliate disclosure. The date is the sitemap date for the
- * route (see lib/page-dates.ts), so it matches WebPage.dateModified and the
- * XML sitemap by construction. Strings are assembled in JS rather than as
- * adjacent JSX text so the rendered HTML contains them contiguously.
+ * Page update date followed by the affiliate disclosure. Publisher details
+ * live on the dedicated About page instead of being repeated on content pages.
  */
 export function EditorialMeta({ path, className = "", hideDate = false, hideDisclosure = false }: EditorialMetaProps) {
   const lastModified = getPageLastModified(path);
-  const editorialLine = `Redaktion: ${siteConfig.name} · Ansvarig utgivare: `;
+
+  if ((!lastModified || hideDate) && hideDisclosure) return null;
 
   return (
     <div className={`text-sm leading-6 text-ink-soft ${className}`}>
-      <p>
-        {lastModified && !hideDate ? (
+      {lastModified && !hideDate ? (
+        <p>
           <time dateTime={lastModified}>
-            {`Uppdaterad ${formatSwedishDate(lastModified)} · `}
+            {`Uppdaterad ${formatSwedishDate(lastModified)}`}
           </time>
-        ) : null}
-        {editorialLine}
-        <Link
-          href="/om-oss#azzam"
-          className="font-bold text-wine underline underline-offset-4"
-        >
-          {siteConfig.operatorName}
-        </Link>
-      </p>
+        </p>
+      ) : null}
       {!hideDisclosure ? <p className="mt-1">
         {`Innehåller reklamlänkar. ${siteConfig.name} kan få provision när du handlar via länkarna – det påverkar varken urvalet eller Elins poäng. `}
         <Link

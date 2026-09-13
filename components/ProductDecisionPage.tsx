@@ -33,7 +33,7 @@ export function ProductDecisionPage({ pick, decision, reviews }: {
         </header>
         <DecisionCard decision={decision} />
         <div className="max-w-3xl">
-          <p className="mt-4 text-sm leading-relaxed text-ink-soft">Redaktion: Elins val · <Link href="/om-oss#azzam" className="text-wine underline">Ansvarig utgivare: Azzam Khalaf</Link>. Webbplatsen innehåller affiliatelänkar och kan få ersättning vid köp.</p>
+          <p className="mt-4 text-sm leading-relaxed text-ink-soft">Webbplatsen innehåller affiliatelänkar och kan få ersättning vid köp.</p>
           <div className="mt-5"><SaveProductButton productSlug={pick.product.slug} productTitle={option.model} variant="pill" className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line px-4 py-2 font-bold text-wine" /></div>
         </div>
         {option.merchantVariantVerified ? <div className="mt-6"><AmazonPurchaseCta product={pick.product} /></div> : null}

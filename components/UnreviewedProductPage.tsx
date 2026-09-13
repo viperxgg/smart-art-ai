@@ -22,7 +22,7 @@ export function UnreviewedProductPage({ pick, reviews }: {
           <p className="text-sm font-bold text-wine">Produktunderlag under granskning</p>
           <h1 className="mt-4 font-display text-4xl font-bold leading-tight sm:text-5xl">{pick.product.title} – vad behöver du veta före köp?</h1>
           <p className="mt-5 text-lg leading-relaxed text-ink-soft">Vi har ännu inte ett färdiggranskat underlag för att rekommendera den här produkten. Produktnamnet kommer från vår katalog; exakt variant och aktuellt erbjudande behöver kontrolleras.</p>
-          <p className="mt-4 text-sm leading-relaxed text-ink-soft">Redaktion: Elins val · <Link href="/om-oss#azzam" className="underline">Ansvarig utgivare: Azzam Khalaf</Link>. Webbplatsen innehåller affiliatelänkar och kan få ersättning vid köp.</p>
+          <p className="mt-4 text-sm leading-relaxed text-ink-soft">Webbplatsen innehåller affiliatelänkar och kan få ersättning vid köp.</p>
           <div className="mt-5"><SaveProductButton productSlug={pick.product.slug} productTitle={pick.product.title} variant="pill" className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line px-4 py-2 font-bold text-wine" /></div>
         </header>
         <section aria-labelledby="decision-title" className="mt-8 rounded-3xl border border-line bg-surface/75 p-6">
