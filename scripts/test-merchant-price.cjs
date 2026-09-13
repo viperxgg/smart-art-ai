@@ -12,42 +12,28 @@ function load(file, requireMock, extra = {}) {
 const pricing = load('lib/merchant-price.ts');
 const price = { amount: 799, currency: 'SEK', checkedAt: '2026-09-13T23:03:14+02:00', source: 'https://www.nordicfeel.com/se/product/k18-leavein-repair-hair-mask-115729' };
 const checked = Date.parse(price.checkedAt);
-assert.equal(pricing.getFreshMerchantPrice(price, checked), price);
-assert.equal(pricing.getFreshMerchantPrice(price, checked + pricing.PRICE_MAX_AGE_MS - 1), price);
-assert.equal(pricing.getFreshMerchantPrice(price, checked + pricing.PRICE_MAX_AGE_MS), undefined);
-assert.equal(pricing.getFreshMerchantPrice(price, checked - 1), undefined);
-for (const patch of [{ amount: 0 }, { amount: -1 }, { amount: NaN }, { currency: 'EUR' }, { checkedAt: 'invalid' }]) {
-  assert.equal(pricing.getFreshMerchantPrice({ ...price, ...patch }, checked), undefined);
+// Scheduling a review, or delaying it, must never expire the last verified price.
+for (const days of [0, 1, 7, 8, 30, 365]) {
+  assert.equal(pricing.getVerifiedMerchantPrice(price, checked + days * 86400000), price);
 }
-
-// Exercise the real component subscription: expiry, return to tab, SSR fallback,
-// and cleanup. This does not pretend to be a browser test or an automatic feed.
-let now = checked + 1000, subscription, getSnapshot, getServerSnapshot, timer, cleared;
-class Clock extends Date { static now() { return now; } }
-const runtimePricing = load('lib/merchant-price.ts', undefined, { Date: Clock });
-const listeners = new Map();
-const eventTarget = { addEventListener: (name, fn) => listeners.set(name, fn), removeEventListener: name => listeners.delete(name) };
-const component = load('components/MerchantPrice.tsx', name => {
-  if (name === 'react') return {
-    useCallback: fn => fn,
-    useSyncExternalStore: (subscribe, client, server) => { subscription = subscribe; getSnapshot = client; getServerSnapshot = server; return false; },
-  };
-  if (name === '@/lib/merchant-price') return runtimePricing;
-  if (name === 'react/jsx-runtime') return { jsx: () => null, jsxs: () => null };
-  throw Error(name);
-}, { Date: Clock, document: eventTarget, window: { ...eventTarget, setTimeout: (fn, ms) => { timer = { fn, ms }; return 1; }, clearTimeout: id => { cleared = id; } } });
-component.MerchantPrice({ price });
-assert.equal(getServerSnapshot(), false);
-assert.equal(getSnapshot(), true);
-let notifications = 0;
-const cleanup = subscription(() => notifications++);
-assert.equal(timer.ms, pricing.PRICE_MAX_AGE_MS - 1000);
-now = checked + pricing.PRICE_MAX_AGE_MS;
-timer.fn();
-assert.equal(getSnapshot(), false);
-listeners.get('focus')(); listeners.get('visibilitychange')();
-assert.equal(notifications, 3);
-cleanup();
-assert.equal(listeners.size, 0);
-assert.equal(cleared, 1);
-console.log('PASS: checked price, expiry boundary, invalid/future data, SSR fallback, expiry timer, tab return and cleanup.');
+assert.equal(pricing.getVerifiedMerchantPrice(price, checked - 1), undefined);
+for (const patch of [{ amount: 0 }, { amount: -1 }, { amount: NaN }, { currency: 'EUR' }, { checkedAt: 'invalid' }]) {
+  assert.equal(pricing.getVerifiedMerchantPrice({ ...price, ...patch }, checked), undefined);
+}
+assert.equal(pricing.getVerifiedMerchantPrice(price, NaN), undefined);
+const { renderToStaticMarkup } = require('react-dom/server');
+const component = load('components/MerchantPrice.tsx', name =>
+  name === '@/lib/merchant-price' ? pricing : require(name));
+const html = renderToStaticMarkup(component.MerchantPrice({ price }));
+assert.match(html, /799/);
+assert.match(html, /Senast kontrollerat pris/);
+assert.ok(html.includes(price.checkedAt));
+assert.match(html, /butikens pris gäller vid köp/);
+const updated = { ...price, amount: 749, checkedAt: '2026-09-13T23:04:00+02:00' };
+const updatedHtml = renderToStaticMarkup(component.MerchantPrice({ price: updated }));
+assert.match(updatedHtml, /749/);
+assert.ok(updatedHtml.includes(updated.checkedAt));
+assert.ok(!updatedHtml.includes(price.checkedAt));
+const invalidHtml = renderToStaticMarkup(component.MerchantPrice({ price: { ...price, amount: -1 } }));
+assert.match(invalidHtml, /Se aktuellt pris hos butiken/);
+console.log('PASS: price survives 1/7/8/30/365 days, invalid/future data rejected, server HTML includes price and date without JavaScript, verified update replaces snapshot.');
