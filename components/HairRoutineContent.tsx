@@ -44,8 +44,8 @@ export function HairRoutineIntro() {
 }
 
 const k18Steps = [
-  { icon: ShowerHead, title: "Tvätta & torka", text: "Schamponera utan balsam före masken. Handdukstorka ordentligt.", image: "/editorial/k18-towel-dry.png", alt: "Illustration: händer pressar försiktigt en handduk kring fuktiga hårlängder." },
-  { icon: Hand, title: "Fördela", text: "Följ doseringen på din flaska. Fördela från topparna uppåt.", image: "/editorial/k18-apply-to-lengths.png", alt: "Illustration: händer fördelar leave-in i en hårsektion från topparna uppåt." },
+  { icon: ShowerHead, title: "Tvätta & torka", text: "Schamponera utan balsam före masken. Handdukstorka ordentligt.", image: "/editorial/k18-towel-dry-v2.png", alt: "Illustration framifrån: en person torkar hårlängderna framför axeln med en handduk." },
+  { icon: Hand, title: "Fördela", text: "Följ doseringen på din flaska. Fördela från topparna uppåt.", image: "/editorial/k18-apply-to-lengths-v2.png", alt: "Illustration framifrån: en person fördelar leave-in med händerna i hårlängderna framför axeln." },
   { icon: Clock3, title: "Vänta 4 minuter", text: "Låt produkten verka. Masken ska inte sköljas ur.", image: null, alt: "" },
   { icon: Wind, title: "Fortsätt styla", text: "Kamma och styla. Andra produkter kan läggas till efter väntetiden.", image: null, alt: "" },
 ];
