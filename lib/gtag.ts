@@ -11,6 +11,18 @@
 import { sendGAEvent } from "@next/third-parties/google";
 
 import type { ConsentChoice } from "@/lib/consent";
+import { getStoredConsentSnapshot } from "@/lib/consent";
+
+export function trackAffiliateClick(details: { pagePath: string; product: string; merchant: string; placement: string }): void {
+  // Re-read for every click so rejecting or withdrawing consent takes effect immediately.
+  if (getStoredConsentSnapshot() !== "granted") return;
+  sendGAEvent("event", "affiliate_click", {
+    page_path: details.pagePath,
+    product: details.product,
+    merchant: details.merchant,
+    placement: details.placement,
+  });
+}
 
 /**
  * Updates Google Consent Mode v2 in real time. GA4 only starts sending real

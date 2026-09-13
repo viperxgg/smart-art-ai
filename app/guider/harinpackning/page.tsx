@@ -1,4 +1,5 @@
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { HairRoutineDetail, HairRoutineIntro } from "@/components/HairRoutineContent";
 import { harinpackning } from "@/lib/bast-i-test/harinpackning";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
@@ -10,5 +11,5 @@ export const metadata = createSeoMetadata({
 });
 
 export default function HarinpackningPage() {
-  return <DecisionGuidePage guide={harinpackning} />;
+  return <DecisionGuidePage guide={harinpackning} beforeDecision={<HairRoutineIntro />} afterDecision={<HairRoutineDetail />} merchantDisclosure="Inlägget innehåller reklam genom annonslänkar för NordicFeel." />;
 }

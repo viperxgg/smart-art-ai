@@ -77,7 +77,7 @@ export default function CookiesPage() {
                 Externa länkar
               </h2>
               <p className="mt-3 leading-7 text-ink-soft">
-                När du klickar vidare till Amazon, Instagram eller TikTok gäller
+                När du klickar vidare via Adtraction eller till Amazon, andra butiker, Instagram eller TikTok gäller
                 deras egna villkor och cookiehantering. Vi märker
                 affiliatelänkar tydligt när de kan ge ersättning.
               </p>

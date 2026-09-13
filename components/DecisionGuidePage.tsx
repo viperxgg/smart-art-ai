@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { DecisionCard } from "@/components/DecisionCard";
 import { EditorialMeta } from "@/components/EditorialMeta";
@@ -16,7 +17,12 @@ export type DecisionGuide = {
   related: readonly { href: string; text: string }[];
 };
 
-export function DecisionGuidePage({ guide }: { guide: DecisionGuide }) {
+export function DecisionGuidePage({ guide, beforeDecision, afterDecision, merchantDisclosure }: {
+  guide: DecisionGuide;
+  beforeDecision?: ReactNode;
+  afterDecision?: ReactNode;
+  merchantDisclosure?: string;
+}) {
   validateDecisionRecord(guide.decision, guide.decision.options.map((option) => option.productSlug));
   if (guide.productPaths.length !== guide.decision.options.length) throw new Error("Each guide option needs its product page.");
   const breadcrumbs = [
@@ -29,12 +35,15 @@ export function DecisionGuidePage({ guide }: { guide: DecisionGuide }) {
       <div className="mx-auto max-w-5xl">
         <Breadcrumbs items={breadcrumbs} />
         <header className="mt-5 max-w-3xl">
+          {merchantDisclosure ? <p className="mb-3 text-xs font-semibold text-ink-soft">{merchantDisclosure}</p> : null}
           <h1 className="font-display text-3xl font-bold leading-tight sm:text-4xl">{guide.title}</h1>
           <p className="mt-4 text-base leading-relaxed text-ink-soft">{guide.intro}</p>
           <p className="mt-3 text-xs leading-relaxed text-ink-soft">Annons: Elins val kan få ersättning via affiliatelänkar. <Link href="/om-oss#sa-tjanar-vi-pengar" className="underline">Så tjänar vi pengar</Link>.</p>
           <a href="#decision-title" className="mt-3 inline-flex min-h-11 items-center rounded-full border border-line px-4 font-semibold text-wine underline underline-offset-4">Gå till beslutshjälpen</a>
         </header>
+        {beforeDecision}
         <DecisionCard decision={guide.decision} />
+        {afterDecision}
         <EditorialMeta path={guide.path} hideDate hideDisclosure className="mt-5" />
         <section className="mt-10" aria-labelledby="guide-questions">
           <h2 id="guide-questions" className="font-display text-2xl font-bold">Frågor före köp</h2>

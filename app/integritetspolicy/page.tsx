@@ -143,8 +143,11 @@ export default function PrivacyPolicyPage() {
                 Affiliatelänkar
               </h2>
               <p className="mt-3 leading-7 text-[#6f5a64]">
-                Vissa länkar går till Amazon och kan ge oss provision
+                Vissa länkar går till Amazon eller till anslutna butiker via Adtraction och kan ge oss provision
                 om du handlar via länken. Detta påverkar inte priset för dig.
+                {" "}Adtractions länkar går via en spårningsadress för att koppla
+                ett eventuellt köp till Elins val. När du lämnar vår webbplats
+                gäller tjänstens och butikens egna villkor och integritetsinformation.
               </p>
             </article>
 

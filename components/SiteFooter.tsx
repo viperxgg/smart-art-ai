@@ -18,7 +18,7 @@ export function SiteFooter() {
             </p>
             <p className="mt-3 max-w-3xl leading-7 text-ink-soft">
               Elins val innehåller redaktionella produkturval och reklamlänkar
-              till Amazon. Recensioner från besökare modereras innan de
+              till Amazon och andra anslutna butiker. Recensioner från besökare modereras innan de
               publiceras. Vi använder inte annonseringspixlar, och sätter
               ingen analyscookie förrän du godkänner det i cookiebannern.
             </p>
