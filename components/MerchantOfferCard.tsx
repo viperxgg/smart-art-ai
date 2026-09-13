@@ -1,11 +1,12 @@
 import type { MerchantOffer } from "@/lib/merchant-offers";
 import Image from "next/image";
 import { getPartnerOfferImage } from "@/lib/partner-image-assets";
+import { MerchantPrice } from "@/components/MerchantPrice";
 
 export function MerchantOfferCard({ offer }: { offer: MerchantOffer }) {
   const image = getPartnerOfferImage(offer.productSlug, offer.merchantId);
   return (
-    <aside aria-label={`Butik för ${offer.productName}`} className="mt-6 rounded-2xl border border-line bg-surface p-5 sm:p-6">
+    <aside id={`merchant-offer-${offer.productSlug}`} aria-label={`Butik för ${offer.productName}`} className="mt-6 scroll-mt-28 rounded-2xl border border-line bg-surface p-5 sm:p-6">
       <p className="text-xs font-semibold text-ink-soft">Annons / Reklam för {offer.merchantName}. Elins val kan få ersättning vid köp via länken.</p>
       <div className={`mt-5 grid items-center gap-6 ${image ? "sm:grid-cols-[minmax(0,0.8fr)_minmax(0,1fr)]" : ""}`}>
       {image ? <figure className="min-w-0">
@@ -17,6 +18,7 @@ export function MerchantOfferCard({ offer }: { offer: MerchantOffer }) {
       <div className="min-w-0">
       <p className="font-display text-2xl font-bold">{offer.productName}</p>
       <p className="mt-1 text-sm text-ink-soft">{offer.variant}</p>
+      {offer.price ? <MerchantPrice price={offer.price} /> : null}
       <a
         href={offer.href}
         rel="sponsored nofollow noopener"
