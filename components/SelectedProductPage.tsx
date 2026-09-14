@@ -35,7 +35,7 @@ export function SelectedProductPage({ product }: { product: SelectedProduct }) {
           <h2 className="text-xl font-bold leading-snug">{product.question}</h2>
           <p className="mt-3 text-base leading-relaxed text-ink-soft">{product.answer}</p>
           <a href="#butiker" className={`${buttonClass} mt-6`}>Se pris och butik <ArrowRight size={18} aria-hidden="true" /></a>
-          <p className="mt-4 text-xs text-ink-soft">Fakta granskade <time dateTime={product.updatedAt}>14 september 2026</time> · <Link href="#kallor" className="underline underline-offset-4">Källor och metod</Link></p>
+          <p className="mt-4 text-xs text-ink-soft">Fakta granskade <time dateTime={product.updatedAt}>{new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(`${product.updatedAt}T12:00:00Z`))}</time> · <Link href="#kallor" className="underline underline-offset-4">Källor och metod</Link></p>
         </div>
       </div>
       <div className="mt-12 grid gap-5 md:grid-cols-2">

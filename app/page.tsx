@@ -4,6 +4,9 @@ import { ConsumerHome } from "@/components/ConsumerHome";
 import { defaultOgImage } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
+// Re-evaluate time-bounded homepage offer eligibility without changing price timestamps.
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
   title: siteConfig.title,
   description: siteConfig.description,
