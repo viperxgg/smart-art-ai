@@ -10,6 +10,15 @@ function load(file, requireMock, extra = {}) {
   return module.exports;
 }
 const pricing = load('lib/merchant-price.ts');
+const offers = load('lib/merchant-offers.ts', name => {
+  if (name === '@/lib/merchant-price') return pricing;
+  throw Error(name);
+});
+assert.equal(offers.k18NordicfeelOffer.price.amount, 799);
+assert.equal(offers.k18NordicfeelOffer.price.checkedAt, '2026-09-14T11:58:26+02:00');
+assert.equal(offers.koboKjellOffer.price.amount, 1899);
+assert.equal(offers.koboKjellOffer.price.currency, 'SEK');
+assert.match(offers.koboKjellOffer.price.source, /kjell\.com\/se\/produkter\//);
 const price = { amount: 799, currency: 'SEK', checkedAt: '2026-09-13T23:03:14+02:00', source: 'https://www.nordicfeel.com/se/product/k18-leavein-repair-hair-mask-115729' };
 const checked = Date.parse(price.checkedAt);
 // Scheduling a review, or delaying it, must never expire the last verified price.
