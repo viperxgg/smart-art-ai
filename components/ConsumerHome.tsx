@@ -33,6 +33,7 @@ export function ConsumerHome() {
   return (
     <main id="content" tabIndex={-1} className="min-h-screen bg-bg text-ink">
       <div className="mx-auto max-w-6xl px-5 pb-16 pt-6 md:px-8 md:pt-14">
+        <p className="mb-6 text-xs leading-relaxed text-ink-soft">Sidan innehåller reklam genom annonslänkar för NordicFeel och Kjell &amp; Company. Som Amazon-associates tjänar vi pengar på kvalificerade köp.</p>
         <p className="mb-8 font-display text-xl font-bold md:hidden">Elins val</p>
         <section aria-labelledby="home-title" className="grid items-center gap-8 pb-12 md:grid-cols-[1.2fr_1fr] md:gap-12 md:pb-16">
           <div>

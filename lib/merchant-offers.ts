@@ -220,15 +220,15 @@ export const selectedOffer10: MerchantOffer = {
   }
 };
 
-// Direct merchant links in the local preview; no unverified tracking IDs.
+// Lyko links generated for Elins val in Adtraction on 14 September 2026.
 export const lykoOffer1: MerchantOffer = {
   "merchantId": "lyko",
   "merchantName": "Lyko",
   "productSlug": "ole-henriksen-pout-strawberry-12ml",
   "productName": "Ole Henriksen Pout Preserve Peptide Lip Treatment",
   "variant": "Strawberry Sorbet · 12 ml · en tub",
-  "href": "https://lyko.com/sv/ole-henriksen/ole-henriksen-pout-preserve-lip-treatment-strawberry-sorbet-12-ml",
-  "linkKind": "direct",
+  "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-1&url=https%3A%2F%2Flyko.com%2Fsv%2Fole-henriksen%2Fole-henriksen-pout-preserve-lip-treatment-strawberry-sorbet-12-ml",
+  "linkKind": "affiliate",
   "placement": "selected-product-offer",
   "checkedAt": "2026-09-14",
   "price": {
@@ -246,8 +246,8 @@ export const lykoOffer2: MerchantOffer = {
   "productSlug": "lumene-cc-medium-30ml",
   "productName": "Lumene CC Color Correcting Cream SPF20",
   "variant": "2 Medium · 30 ml · en tub",
-  "href": "https://lyko.com/sv/lumene/lumene-cc-color-correcting-cream-spf20-medium",
-  "linkKind": "direct",
+  "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-2&url=https%3A%2F%2Flyko.com%2Fsv%2Flumene%2Flumene-cc-color-correcting-cream-spf20-medium",
+  "linkKind": "affiliate",
   "placement": "selected-product-offer",
   "checkedAt": "2026-09-14",
   "price": {
@@ -265,8 +265,8 @@ export const lykoOffer3: MerchantOffer = {
   "productSlug": "amika-hydro-rush-leave-in-200ml",
   "productName": "Amika Hydro Rush Intense Moisture Leave-In Conditioner",
   "variant": "200 ml · en sprayflaska",
-  "href": "https://lyko.com/sv/amika/amika-hydro-rush-intense-moisture-leave-in-conditioner-200ml",
-  "linkKind": "direct",
+  "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-3&url=https%3A%2F%2Flyko.com%2Fsv%2Famika%2Famika-hydro-rush-intense-moisture-leave-in-conditioner-200ml",
+  "linkKind": "affiliate",
   "placement": "selected-product-offer",
   "checkedAt": "2026-09-14",
   "price": {
@@ -284,8 +284,8 @@ export const lykoOffer4: MerchantOffer = {
   "productSlug": "la-roche-posay-cicaplast-b5-100ml",
   "productName": "La Roche-Posay Cicaplast Balm B5+",
   "variant": "100 ml · en tub · B5+ utan SPF",
-  "href": "https://lyko.com/sv/la-roche-posay/la-roche-posay-cicaplast-balm-b5--100-ml",
-  "linkKind": "direct",
+  "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-4&url=https%3A%2F%2Flyko.com%2Fsv%2Fla-roche-posay%2Fla-roche-posay-cicaplast-balm-b5--100-ml",
+  "linkKind": "affiliate",
   "placement": "selected-product-offer",
   "checkedAt": "2026-09-14",
   "price": {
@@ -303,8 +303,8 @@ export const lykoOffer5: MerchantOffer = {
   "productSlug": "wella-sp-luxeoil-100ml",
   "productName": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir",
   "variant": "100 ml · en flaska",
-  "href": "https://lyko.com/sv/wella-professionals/wella-sp-luxeoil",
-  "linkKind": "direct",
+  "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-5&url=https%3A%2F%2Flyko.com%2Fsv%2Fwella-professionals%2Fwella-sp-luxeoil",
+  "linkKind": "affiliate",
   "placement": "selected-product-offer",
   "checkedAt": "2026-09-14",
   "price": {

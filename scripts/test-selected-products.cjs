@@ -57,7 +57,12 @@ for (const id of ['anker-prime-300w-26250mah','linocell-wireless-carplay-q1m','o
 const lykoPrices = {'ole-henriksen-pout-strawberry-12ml':198,'lumene-cc-medium-30ml':167,'amika-hydro-rush-leave-in-200ml':349,'la-roche-posay-cicaplast-b5-100ml':197,'wella-sp-luxeoil-100ml':424};
 for (const [id, amount] of Object.entries(lykoPrices)) {
   const offer = merchants.getMerchantOffer(id,'lyko');
-  assert.equal(offer.linkKind,'direct','Preview must not invent Lyko affiliate links');
+  assert.equal(offer.linkKind,'affiliate','Use the validated Lyko program link');
+  const url = new URL(offer.href);
+  assert.equal(url.hostname,'ion.lyko.com');
+  assert.equal(url.searchParams.get('a'),'1117786221');
+  assert.equal(url.searchParams.get('as'),'2110221551');
+  assert.equal(url.searchParams.get('url'),offer.price.source,'Tracking destination must match exact variant');
   assert.equal(selected.selectedProductSchema(selected.getSelectedProduct(id),now)['@graph'][0].offers.price,amount,'Conditional combo price must not become a single-item offer');
 }
 assert.equal(amazon.getAmazonOffer('wella-sp-luxeoil-100ml').asin,'B009ZVHWW4');
@@ -65,4 +70,4 @@ const cicaplast = selected.getSelectedProduct('la-roche-posay-cicaplast-b5-100ml
 assert.equal(cicaplast.path,'/skonhet/cicaplast-b5','Reuse family canonical');
 assert.equal(cicaplast.gtin,'3337875816847');
 assert.ok(cicaplast.images.every(image=>image.src.includes('100ml')),'Never reuse old 40 ml packshots');
-console.log('PASS: fifteen unique routes, sources/images/internal links, single-item merchant prices, no fake ratings/live stock/Amazon prices, weekly persistence, campaign/member boundaries, Lyko direct links and exact Wella match.');
+console.log('PASS: fifteen unique routes, sources/images/internal links, single-item merchant prices, no fake ratings/live stock/Amazon prices, weekly persistence, campaign/member boundaries, generated Lyko links and exact Wella match.');

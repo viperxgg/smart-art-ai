@@ -116,20 +116,6 @@
         "height": 3200,
         "credit": "Produktbild: Kjell & Company.",
         "alt": "CMF Buds 2 i öppet laddfodral."
-      },
-      {
-        "src": "/products/selected/cmf-buds-2-dark-grey/2.webp",
-        "width": 3200,
-        "height": 3200,
-        "credit": "Produktbild: Kjell & Company.",
-        "alt": "Mörkgrå öronsnäckor, utsida."
-      },
-      {
-        "src": "/products/selected/cmf-buds-2-dark-grey/3.webp",
-        "width": 3200,
-        "height": 3200,
-        "credit": "Produktbild: Kjell & Company.",
-        "alt": "Öronpropparna och snäckornas insida."
       }
     ],
     "path": "/halsa/cmf-buds-2",
@@ -245,20 +231,6 @@
         "height": 940,
         "credit": "Produktbild: NordicFeel.",
         "alt": "Glow Serum, flaska med pipett."
-      },
-      {
-        "src": "/products/selected/beauty-of-joseon-propolis-serum/2.jpg",
-        "width": 940,
-        "height": 940,
-        "credit": "Produktbild: NordicFeel.",
-        "alt": "Flaskan och dess ytterförpackning."
-      },
-      {
-        "src": "/products/selected/beauty-of-joseon-propolis-serum/3.jpg",
-        "width": 940,
-        "height": 940,
-        "credit": "Produktbild: NordicFeel.",
-        "alt": "Öppen flaska och pipett, produktens konsistens illustrerad av märket."
       }
     ],
     "path": "/skonhet/propolis-serum",
@@ -472,13 +444,6 @@
         "height": 1500,
         "credit": "Produktbild: NordicFeel.",
         "alt": "Glaze Drops med pipetten lyft ur flaskan."
-      },
-      {
-        "src": "/products/selected/kerastase-glaze-drops-45ml/3.jpg",
-        "width": 1500,
-        "height": 1500,
-        "credit": "Produktbild: NordicFeel.",
-        "alt": "Tillverkarens bild av oljans konsistens."
       }
     ],
     "path": "/skonhet/kerastase-glaze-drops",
@@ -576,20 +541,6 @@
         "height": 3200,
         "credit": "Produktbild: Kjell & Company.",
         "alt": "JBL Flip 7 i svart."
-      },
-      {
-        "src": "/products/selected/jbl-flip-7-black/2.jpg",
-        "width": 3200,
-        "height": 3200,
-        "credit": "Produktbild: Kjell & Company.",
-        "alt": "Miljöbild från märket: högtalaren på en bänk."
-      },
-      {
-        "src": "/products/selected/jbl-flip-7-black/3.jpg",
-        "width": 3200,
-        "height": 3200,
-        "credit": "Produktbild: Kjell & Company.",
-        "alt": "Miljöbild från märket: högtalaren vid en sittplats."
       }
     ],
     "path": "/halsa/jbl-flip-7",
@@ -696,13 +647,6 @@
         "height": 940,
         "credit": "Produktbild: NordicFeel.",
         "alt": "COSRX Advanced Snail 96, pumpflaska på 100 ml."
-      },
-      {
-        "src": "/products/selected/cosrx-snail-96-100ml/2.jpg",
-        "width": 940,
-        "height": 940,
-        "credit": "Produktbild: NordicFeel.",
-        "alt": "Produktbild med pump och konsistens illustrerad av märket."
       }
     ],
     "path": "/skonhet/cosrx-snail-96",
@@ -916,20 +860,6 @@
         "height": 940,
         "credit": "Produktbild: NordicFeel.",
         "alt": "Clinisoothe Skin Purifier, sprayflaska på 100 ml."
-      },
-      {
-        "src": "/products/selected/clinisoothe-skin-purifier-100ml/2.jpg",
-        "width": 940,
-        "height": 940,
-        "credit": "Produktbild: NordicFeel.",
-        "alt": "Sprayflaskan och ytterförpackningen."
-      },
-      {
-        "src": "/products/selected/clinisoothe-skin-purifier-100ml/3.jpg",
-        "width": 940,
-        "height": 940,
-        "credit": "Produktbild: NordicFeel.",
-        "alt": "Spraymunstycket och flaskans storlek i handen, miljöbild från märket."
       }
     ],
     "path": "/skonhet/clinisoothe-skin-purifier",
@@ -1027,20 +957,6 @@
         "height": 3200,
         "credit": "Produktbild: Kjell & Company.",
         "alt": "Linocell-adaptern och den medföljande USB-C-adaptern."
-      },
-      {
-        "src": "/products/selected/linocell-wireless-carplay-q1m/2.jpg",
-        "width": 3200,
-        "height": 3200,
-        "credit": "Produktbild: Kjell & Company.",
-        "alt": "Anslutningarna sedda snett från sidan."
-      },
-      {
-        "src": "/products/selected/linocell-wireless-carplay-q1m/3.jpg",
-        "width": 3200,
-        "height": 3200,
-        "credit": "Produktbild: Kjell & Company.",
-        "alt": "USB-A-kontakten och USB-C-adaptern framifrån."
       }
     ],
     "path": "/halsa/linocell-carplay-adapter",
@@ -1240,13 +1156,6 @@
         "height": 1577,
         "credit": "Produktbild: Lyko.",
         "alt": "Lumene CC Color Correcting Cream SPF20, 2 Medium · 30 ml · en tub."
-      },
-      {
-        "src": "/products/selected/lumene-cc-medium-30ml/2.jpg",
-        "width": 500,
-        "height": 500,
-        "credit": "Produktbild: Lyko.",
-        "alt": "Butikens färgprov för Lumene 2 Medium. Färgen kan återges olika på skärm och hud."
       }
     ],
     "path": "/skonhet/lumene-cc-cream-medium",
@@ -1264,14 +1173,14 @@
     "shortName": "Lumene CC Cream",
     "brand": "Lumene",
     "topic": "Basmakeup",
-    "description": "Lumene CC Color Correcting Cream SPF20 i 2 Medium, 30 ml. Läs om nyans och täckning, se färgprov och kontrollerat pris hos Lyko.",
+    "description": "Lumene CC Color Correcting Cream SPF20 i 2 Medium, 30 ml. Läs om nyans och täckning, se rätt förpackning och kontrollerat pris hos Lyko.",
     "fits": [
       "Du söker en CC-cream med medelhög täckning för din vardagsmakeup.",
       "Du har provat eller vill undersöka nyansen 2 Medium innan du väljer."
     ],
     "skip": "Välj inte Medium enbart för att den är populär. Avvakta om du inte vet om nyansen passar, eller om du vill ha heltäckande makeup.",
     "decisionTitle": "Nyansmatchningen är viktigare än populariteten",
-    "decision": "Här gäller både pris och produktbild 2 Medium i en tub på 30 ml. Lyko beskriver täckningen som medelhög. Börja med att avgöra om du vill jämna ut hudtonens utseende med den graden av täckning. Färgprovet i galleriet kommer från butiken; skärm, ljus och din hudton påverkar hur du uppfattar färgen. Ett digitalt färgprov kan därför hjälpa dig att jämföra, men kan inte säkert avgöra din nyans. Vi har inte testat nyans, finish eller hållbarhet på huden.",
+    "decision": "Här gäller både pris och produktbild 2 Medium i en tub på 30 ml. Lyko beskriver täckningen som medelhög. Börja med att avgöra om du vill jämna ut hudtonens utseende med den graden av täckning. När du tittar på färgprover hos butiken: skärm, ljus och din hudton påverkar hur du uppfattar färgen. Ett digitalt färgprov kan därför hjälpa dig att jämföra, men kan inte säkert avgöra din nyans. Vi har inte testat nyans, finish eller hållbarhet på huden.",
     "facts": [
       [
         "Nyans",
@@ -1314,8 +1223,8 @@
         "2 Medium. Light, Fair och andra nyanser är egna varianter och ingår inte i det här priset."
       ],
       [
-        "Är färgprovet exakt?",
-        "Nej. Det är butikens färgillustration, och färgen kan återges olika på olika skärmar och hudtoner."
+        "Kan jag välja nyans enbart från en skärm?",
+        "Ett digitalt färgprov kan ge vägledning, men färgen återges olika på olika skärmar och hudtoner. Prova på huden när det är möjligt."
       ],
       [
         "Hur täckande är Lumene CC Cream?",

@@ -27,6 +27,7 @@ export default function ProductsPage() {
       "@type": "ItemList", itemListElement: selectedProducts.map((product, index) => ({ "@type": "ListItem", position: index + 1, name: product.name, url: `${siteConfig.url}${product.path}` })),
     } }} />
     <div className="mx-auto max-w-6xl px-5 pb-16 pt-8 md:px-8 md:pt-12">
+      <p className="mb-6 text-xs leading-relaxed text-ink-soft">Produktguiderna innehåller reklam genom annonslänkar för Lyko, NordicFeel och Kjell &amp; Company samt Amazon.se.</p>
       <Link href="/" className="inline-flex min-h-11 items-center text-sm font-semibold text-wine underline underline-offset-4">Hem</Link>
       <header className="mb-10 mt-5 max-w-3xl">
         <p className="text-xs font-bold uppercase tracking-widest text-wine">Skönhet · Ljud · Smart vardag</p>

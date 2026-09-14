@@ -34,7 +34,7 @@ export function HomeProductCard({ product, recent = false }: { product: HomeProd
           <a href={offer.href} rel="sponsored nofollow noopener" data-merchant={offer.merchantId} data-product={offer.productSlug} data-placement={placement} className="mt-4 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-wine px-5 py-3 text-center text-sm font-bold text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-wine">
             Se pris hos {offer.merchantName}<ArrowUpRight className="shrink-0" size={18} aria-hidden="true" />
           </a>
-          <p className="mt-3 text-xs leading-relaxed text-ink-soft">Annonslänk · {image.credit}</p>
+          <p className="mt-3 text-xs leading-relaxed text-ink-soft">Annons / Reklam för {offer.merchantName} · {image.credit}</p>
           {amazon ? <div className="mt-5 border-t border-line pt-5" data-amazon-offer={amazon.asin}>
             <p className="text-sm font-bold">Amazon.se</p>
             <p className="mt-2 text-xs text-ink-soft">{amazon.variant}</p>

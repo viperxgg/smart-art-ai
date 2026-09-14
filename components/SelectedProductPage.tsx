@@ -25,7 +25,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
           <li aria-hidden="true">/</li><li aria-current="page">{product.shortName}</li>
         </ol>
       </nav>
-      {!directLink || amazon ? <p className="mb-6 rounded-xl border border-line px-4 py-3 text-xs leading-relaxed text-ink-soft">Sidan innehåller annonslänkar. Vi kan få ersättning om du handlar via en länk märkt Annonslänk.{amazon ? " Som Amazon-associates tjänar vi pengar på kvalificerade köp." : ""}</p> : null}
+      {!directLink || amazon ? <p className="mb-6 rounded-xl border border-line px-4 py-3 text-xs leading-relaxed text-ink-soft">{!directLink ? `Inlägget innehåller reklam genom annonslänkar för ${offer.merchantName}. ` : ""}Vi kan få ersättning om du handlar via en annonslänk.{amazon ? " Som Amazon-associates tjänar vi pengar på kvalificerade köp." : ""}</p> : null}
       <div className="grid items-start gap-6 md:grid-cols-2 md:gap-x-12">
         <header className="md:col-start-2 md:row-start-1">
           <p className="text-xs font-bold uppercase tracking-widest text-wine">{product.topic} · Produktguide</p>
@@ -83,7 +83,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
           {member ? <p className="mt-3 rounded-xl border border-line p-4 text-sm leading-relaxed"><strong>Kontrollerat medlemspris: {member.amount} kr.</strong> {member.label} Kontrollerat vid samma tidpunkt som priset ovan; butikens aktuella villkor gäller.</p> : null}
           {product.campaignEndsAt && campaignActive ? <p className="mt-3 text-xs leading-relaxed text-ink-soft">Kontrollerad kampanj till och med {new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(product.campaignEndsAt))}. Priset kan ändras.</p> : null}
           <a href={offer.href} rel={directLink ? "nofollow noopener" : "sponsored nofollow noopener"} data-merchant={offer.merchantId} data-product={offer.productSlug} data-placement="selected-product-offer" className={`${buttonClass} mt-5 w-full`}>Se pris hos {offer.merchantName}<ArrowUpRight size={18} aria-hidden="true" /></a>
-          <p className="mt-2 text-xs text-ink-soft">{directLink ? "Butikslänk" : "Annonslänk"}</p>
+          <p className="mt-2 text-xs text-ink-soft">{directLink ? "Butikslänk" : `Annons / Reklam för ${offer.merchantName}`}</p>
           {amazon ? <div className="mt-6 border-t border-line pt-6" data-amazon-offer={amazon.asin}>
             <h3 className="text-lg font-bold">Amazon.se</h3>
             <p className="mt-2 text-sm leading-relaxed text-ink-soft">{amazon.variant}. Se dagens pris, säljare och leverans hos Amazon. Kontrollera förpackningen innan köp.</p>

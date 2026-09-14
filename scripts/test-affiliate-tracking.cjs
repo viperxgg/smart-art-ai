@@ -58,13 +58,16 @@ for (const offer of [...offers.merchantOffers.filter(offer => offer.linkKind !==
   link.href = 'https://example.com/t/t'; click(link); assert.equal(events.length, 2);
 }
 events.length = 0;
-for (const offer of offers.merchantOffers.filter(offer => offer.linkKind === 'direct')) {
+const directPreview = { ...offers.merchantOffers[0], productSlug: 'unaffiliated-preview', href: 'https://example.com/product', linkKind: 'direct' };
+offers.merchantOffers.push(directPreview);
+for (const offer of [directPreview]) {
   consent = 'granted';
   const link = new Anchor(offer);
   click(link); click(link, 'auxclick', 1);
   assert.equal(events.length, 0, 'Direct Lyko visits must not inflate affiliate events');
   assert.equal(tracking.getPartnerClick(link.href,link.dataset),null);
 }
+offers.merchantOffers.pop();
 const amazon = new Anchor({href: 'https://amzn.to/example'});
 click(amazon); assert.equal(events.length, 1); assert.equal(events[0][1], 'amazon_click');
 assert.equal(amazonOffers.getAmazonOffer('unknown'), undefined);
