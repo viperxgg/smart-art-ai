@@ -103,6 +103,15 @@ export const amazonOffers: readonly AmazonOffer[] = [
   "href": "https://www.amazon.se/dp/B08LTTBGPN?tag=azzamkhalaf-21",
   "identityCheckedAt": "2026-09-14"
 },
+{
+  "productSlug": "wella-sp-luxeoil-100ml",
+  "asin": "B009ZVHWW4",
+  "productName": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir",
+  "variant": "100 ml · en flaska",
+  "source": "https://www.amazon.se/dp/B009ZVHWW4",
+  "href": "https://www.amazon.se/dp/B009ZVHWW4?tag=azzamkhalaf-21",
+  "identityCheckedAt": "2026-09-14"
+},
 ];
 
 export function getAmazonOffer(productSlug: string) {

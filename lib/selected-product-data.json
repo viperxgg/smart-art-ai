@@ -1127,5 +1127,505 @@
       ]
     ],
     "campaignEndsAt": "2026-09-30T23:59:59+02:00"
+  },
+  {
+    "id": "ole-henriksen-pout-strawberry-12ml",
+    "name": "Ole Henriksen Pout Preserve Peptide Lip Treatment",
+    "variant": "Strawberry Sorbet · 12 ml · en tub",
+    "merchantId": "lyko",
+    "merchantItemId": "1225-406-0001",
+    "gtin": null,
+    "updatedAt": "2026-09-14",
+    "images": [
+      {
+        "src": "/products/selected/ole-henriksen-pout-strawberry-12ml/1.jpg",
+        "width": 500,
+        "height": 957,
+        "credit": "Produktbild: Lyko.",
+        "alt": "Ole Henriksen Pout Preserve Peptide Lip Treatment, Strawberry Sorbet · 12 ml · en tub."
+      }
+    ],
+    "path": "/skonhet/ole-henriksen-pout-preserve",
+    "category": "Skönhet",
+    "metaTitle": "Ole Henriksen Pout Preserve Strawberry Sorbet – färg och pris",
+    "question": "Vilken variant jämför vi?",
+    "answer": "En tub Pout Preserve Strawberry Sorbet på 12 ml, utan Glimmer. Kontrollera nyans och storlek hos butiken.",
+    "sources": [
+      {
+        "label": "Lyko – exakt variant, användning och pris",
+        "url": "https://lyko.com/sv/ole-henriksen/ole-henriksen-pout-preserve-lip-treatment-strawberry-sorbet-12-ml",
+        "supports": "Produktidentitet, förpackning, användningsanvisning, originalbilder och daterat pris för en styck utan kombinationsrabatt."
+      }
+    ],
+    "shortName": "Ole Henriksen Pout Preserve",
+    "brand": "Ole Henriksen",
+    "topic": "Läppvård",
+    "description": "Pout Preserve Strawberry Sorbet 12 ml: nyans, glans och vad du bör kontrollera före köp. Se originalbild och daterat pris hos Lyko.",
+    "fits": [
+      "Du vill ha ett färgat läppbalsam med glans i stället för ett täckande läppstift.",
+      "Du har valt den rosa nyansen Strawberry Sorbet och trivs med doftsatt läppvård."
+    ],
+    "skip": "Avvakta om du söker helt färglös eller oparfymerad läppvård. Ett populärt läppbalsam behöver inte ersätta ett som redan fungerar för dig.",
+    "decisionTitle": "Välj efter nyans och känsla på läpparna",
+    "decision": "Strawberry Sorbet är en specifik nyans och doft i Pout Preserve-serien. Bilden visar den tub som priset gäller, inte ett set med flera färger. Välj den för den kosmetiska finish du vill ha: ett glansigt, färgat läppbalsam. Hur färgen ser ut påverkas av din egen läppfärg. Vi har inte provat hållbarheten eller jämfört känslan med andra läppbalsam. Peptider i produktnamnet är inte ett eget testresultat, och vi utlovar ingen förändring av läpparnas volym.",
+    "facts": [
+      [
+        "Variant",
+        "Strawberry Sorbet"
+      ],
+      [
+        "Mängd",
+        "12 ml, en tub"
+      ],
+      [
+        "Typ",
+        "Färgat läppbalsam med glans"
+      ],
+      [
+        "Doft",
+        "Doftsatt; kontrollera ingredienslistan vid känslighet"
+      ]
+    ],
+    "steps": [
+      [
+        "Kontrollera nyansen",
+        "Välj Strawberry Sorbet om du vill ha just den rosa varianten. Andra nyanser är separata val."
+      ],
+      [
+        "Applicera efter behov",
+        "Följ tubens anvisning och anpassa mängden efter den finish du vill ha."
+      ],
+      [
+        "Bedöm din rutin",
+        "Se om balsamet fyller ett behov innan du kompletterar med fler färger."
+      ]
+    ],
+    "faqs": [
+      [
+        "Vilken Pout Preserve gäller priset?",
+        "En tub Strawberry Sorbet på 12 ml. Priset gäller inte ett set eller någon annan nyans."
+      ],
+      [
+        "Är det ett läppstift?",
+        "Det beskrivs som ett färgat läppbalsam med glans. Förvänta dig inte samma täckning som av ett täckande läppstift."
+      ],
+      [
+        "Finns det parfym i produkten?",
+        "Varianten är doftsatt. Läs den aktuella ingredienslistan hos Lyko och på förpackningen om du undviker doftämnen."
+      ]
+    ],
+    "related": [
+      [
+        "Lumene CC Cream i Medium",
+        "/skonhet/lumene-cc-cream-medium"
+      ],
+      [
+        "Fler produktval",
+        "/produkter"
+      ]
+    ]
+  },
+  {
+    "id": "lumene-cc-medium-30ml",
+    "name": "Lumene CC Color Correcting Cream SPF20",
+    "variant": "2 Medium · 30 ml · en tub",
+    "merchantId": "lyko",
+    "merchantItemId": "1188-564-0004",
+    "gtin": "6412600834932",
+    "updatedAt": "2026-09-14",
+    "images": [
+      {
+        "src": "/products/selected/lumene-cc-medium-30ml/1.jpg",
+        "width": 500,
+        "height": 1577,
+        "credit": "Produktbild: Lyko.",
+        "alt": "Lumene CC Color Correcting Cream SPF20, 2 Medium · 30 ml · en tub."
+      },
+      {
+        "src": "/products/selected/lumene-cc-medium-30ml/2.jpg",
+        "width": 500,
+        "height": 500,
+        "credit": "Produktbild: Lyko.",
+        "alt": "Butikens färgprov för Lumene 2 Medium. Färgen kan återges olika på skärm och hud."
+      }
+    ],
+    "path": "/skonhet/lumene-cc-cream-medium",
+    "category": "Skönhet",
+    "metaTitle": "Lumene CC Cream 2 Medium 30 ml – nyans, täckning och pris",
+    "question": "Är 2 Medium rätt nyans för alla?",
+    "answer": "Nej. 2 Medium är en bestämd nyans. Jämför nyansen med din hudton innan köp; priset här gäller tuben på 30 ml.",
+    "sources": [
+      {
+        "label": "Lyko – exakt variant, användning och pris",
+        "url": "https://lyko.com/sv/lumene/lumene-cc-color-correcting-cream-spf20-medium",
+        "supports": "Produktidentitet, förpackning, användningsanvisning, originalbilder och daterat pris för en styck utan kombinationsrabatt."
+      }
+    ],
+    "shortName": "Lumene CC Cream",
+    "brand": "Lumene",
+    "topic": "Basmakeup",
+    "description": "Lumene CC Color Correcting Cream SPF20 i 2 Medium, 30 ml. Läs om nyans och täckning, se färgprov och kontrollerat pris hos Lyko.",
+    "fits": [
+      "Du söker en CC-cream med medelhög täckning för din vardagsmakeup.",
+      "Du har provat eller vill undersöka nyansen 2 Medium innan du väljer."
+    ],
+    "skip": "Välj inte Medium enbart för att den är populär. Avvakta om du inte vet om nyansen passar, eller om du vill ha heltäckande makeup.",
+    "decisionTitle": "Nyansmatchningen är viktigare än populariteten",
+    "decision": "Här gäller både pris och produktbild 2 Medium i en tub på 30 ml. Lyko beskriver täckningen som medelhög. Börja med att avgöra om du vill jämna ut hudtonens utseende med den graden av täckning. Färgprovet i galleriet kommer från butiken; skärm, ljus och din hudton påverkar hur du uppfattar färgen. Ett digitalt färgprov kan därför hjälpa dig att jämföra, men kan inte säkert avgöra din nyans. Vi har inte testat nyans, finish eller hållbarhet på huden.",
+    "facts": [
+      [
+        "Nyans",
+        "2 Medium"
+      ],
+      [
+        "Mängd",
+        "30 ml, en tub"
+      ],
+      [
+        "Täckning",
+        "Medelhög enligt Lyko"
+      ],
+      [
+        "Produktmärkning",
+        "CC Color Correcting Cream SPF20"
+      ],
+      [
+        "EAN",
+        "6412600834932"
+      ]
+    ],
+    "steps": [
+      [
+        "Jämför nyansen",
+        "Använd färgprovet som vägledning. Prova nyansen på huden i dagsljus när det är möjligt."
+      ],
+      [
+        "Följ förpackningen",
+        "Utgå från produktens appliceringsanvisning och anpassa mängden efter önskad täckning."
+      ],
+      [
+        "Kontrollera beställningen",
+        "Se att varukorgen visar 2 Medium och 30 ml innan du betalar."
+      ]
+    ],
+    "faqs": [
+      [
+        "Vilken nyans gäller guiden?",
+        "2 Medium. Light, Fair och andra nyanser är egna varianter och ingår inte i det här priset."
+      ],
+      [
+        "Är färgprovet exakt?",
+        "Nej. Det är butikens färgillustration, och färgen kan återges olika på olika skärmar och hudtoner."
+      ],
+      [
+        "Hur täckande är Lumene CC Cream?",
+        "Lyko beskriver produkten som medeltäckande. Vi har inte gjort ett eget test av hur den täcker eller håller under dagen."
+      ]
+    ],
+    "related": [
+      [
+        "Pout Preserve Strawberry Sorbet",
+        "/skonhet/ole-henriksen-pout-preserve"
+      ],
+      [
+        "Fler produktval",
+        "/produkter"
+      ]
+    ]
+  },
+  {
+    "id": "amika-hydro-rush-leave-in-200ml",
+    "name": "Amika Hydro Rush Intense Moisture Leave-In Conditioner",
+    "variant": "200 ml · en sprayflaska",
+    "merchantId": "lyko",
+    "merchantItemId": "1035-386-0200",
+    "gtin": null,
+    "updatedAt": "2026-09-14",
+    "images": [
+      {
+        "src": "/products/selected/amika-hydro-rush-leave-in-200ml/1.jpg",
+        "width": 500,
+        "height": 1570,
+        "credit": "Produktbild: Lyko.",
+        "alt": "Amika Hydro Rush Intense Moisture Leave-In Conditioner, 200 ml · en sprayflaska."
+      }
+    ],
+    "path": "/skonhet/amika-hydro-rush-leave-in",
+    "category": "Skönhet",
+    "metaTitle": "Amika Hydro Rush Leave-In 200 ml – användning och pris",
+    "question": "Ska Amika Hydro Rush Leave-In sköljas ur?",
+    "answer": "Nej. Denna leave-in på 200 ml ska sitta kvar. Fördela i längder och toppar enligt produktens anvisningar.",
+    "sources": [
+      {
+        "label": "Lyko – exakt variant, användning och pris",
+        "url": "https://lyko.com/sv/amika/amika-hydro-rush-intense-moisture-leave-in-conditioner-200ml",
+        "supports": "Produktidentitet, förpackning, användningsanvisning, originalbilder och daterat pris för en styck utan kombinationsrabatt."
+      }
+    ],
+    "shortName": "Amika Hydro Rush Leave-In",
+    "brand": "Amika",
+    "topic": "Hårvård",
+    "description": "Amika Hydro Rush Intense Moisture Leave-In Conditioner 200 ml: vad som skiljer sprayen från en hårmask, användning och daterat pris hos Lyko.",
+    "fits": [
+      "Du söker ett vårdande steg för längder och toppar som lämnas kvar i håret.",
+      "Du föredrar en sprayflaska och vill jämföra en leave-in med din befintliga rutin."
+    ],
+    "skip": "Avvakta om du egentligen söker ett balsam eller en mask som ska sköljas ur. Har du redan en leave-in som fungerar behöver du inte lägga till en till.",
+    "decisionTitle": "En leave-in har en annan uppgift än en hårmask",
+    "decision": "Hydro Rush finns i flera produktformer. Den här guiden gäller Intense Moisture Leave-In Conditioner i sprayflaska på 200 ml. Den ska stanna kvar i håret, vilket gör användningen annorlunda än för seriens hårmask. Lyko anger att den kan användas i fuktigt eller torrt hår. Välj efter vilket steg du saknar, och anpassa mängden efter hårets längd och hur det känns. Vi har inte provat sprayens effekt och gör ingen egen jämförelse av återfuktning eller frisskontroll.",
+    "facts": [
+      [
+        "Produkt",
+        "Hydro Rush Intense Moisture Leave-In Conditioner"
+      ],
+      [
+        "Mängd",
+        "200 ml, en sprayflaska"
+      ],
+      [
+        "Användning",
+        "Leave-in; ska inte sköljas ur"
+      ],
+      [
+        "Hår vid applicering",
+        "Fuktigt eller torrt enligt Lyko"
+      ]
+    ],
+    "steps": [
+      [
+        "Välj rätt steg",
+        "Använd leave-in i fuktigt eller torrt hår enligt flaskans anvisning."
+      ],
+      [
+        "Fördela i håret",
+        "Fokusera på längder och toppar. Anpassa mängden efter ditt hår."
+      ],
+      [
+        "Låt sitta kvar",
+        "Skölj inte ur. Bedöm hur håret känns innan du lägger till fler produkter."
+      ]
+    ],
+    "faqs": [
+      [
+        "Ska Hydro Rush Leave-In sköljas ur?",
+        "Nej, detta är leave-in-balsamet som lämnas kvar. Följ anvisningen på just din flaska."
+      ],
+      [
+        "Är detta Hydro Rush-hårmasken?",
+        "Nej. Hårmasken är en annan produkt. Bild, pris och volym här gäller leave-in-sprayen på 200 ml."
+      ],
+      [
+        "Kan sprayen användas i torrt hår?",
+        "Lyko anger användning i både fuktigt och torrt hår. Anpassa mängden efter ditt hår och följ förpackningen."
+      ]
+    ],
+    "related": [
+      [
+        "Redken leave-in 150 ml",
+        "/skonhet/redken-acidic-bonding-concentrate"
+      ],
+      [
+        "Wella SP LuxeOil 100 ml",
+        "/skonhet/wella-sp-luxeoil"
+      ]
+    ]
+  },
+  {
+    "id": "la-roche-posay-cicaplast-b5-100ml",
+    "name": "La Roche-Posay Cicaplast Balm B5+",
+    "variant": "100 ml · en tub · B5+ utan SPF",
+    "merchantId": "lyko",
+    "merchantItemId": "2486-209-0100",
+    "gtin": "3337875816847",
+    "updatedAt": "2026-09-14",
+    "images": [
+      {
+        "src": "/products/selected/la-roche-posay-cicaplast-b5-100ml/1.jpg",
+        "width": 500,
+        "height": 1086,
+        "credit": "Produktbild: Lyko.",
+        "alt": "La Roche-Posay Cicaplast Balm B5+, 100 ml · en tub · B5+ utan SPF."
+      }
+    ],
+    "path": "/skonhet/cicaplast-b5",
+    "category": "Skönhet",
+    "metaTitle": "Cicaplast B5+ 100 ml – storlek, användning och pris",
+    "question": "Är 40 ml och 100 ml samma erbjudande?",
+    "answer": "Nej. De är olika förpackningsstorlekar. Det här underlaget gäller en tub på 100 ml; jämför både storlek och totalpris.",
+    "sources": [
+      {
+        "label": "Lyko – exakt variant, användning och pris",
+        "url": "https://lyko.com/sv/la-roche-posay/la-roche-posay-cicaplast-balm-b5--100-ml",
+        "supports": "Produktidentitet, förpackning, användningsanvisning, originalbilder och daterat pris för en styck utan kombinationsrabatt."
+      }
+    ],
+    "shortName": "Cicaplast Balm B5+ 100 ml",
+    "brand": "La Roche-Posay",
+    "topic": "Hudvård",
+    "description": "Cicaplast Balm B5+ i 100 ml: parfymfri balm, storleksskillnaden mot 40 ml och kontrollerat pris hos Lyko. Se exakt förpackning före köp.",
+    "fits": [
+      "Du söker en parfymfri, mjukgörande balm för torra hudområden.",
+      "Du vill jämföra den större tuben på 100 ml med en mindre förpackning."
+    ],
+    "skip": "Avvakta om din nuvarande mjukgörande produkt redan räcker. Följ produktens anvisningar: använd inte på öppna sår och undvik området kring ögonen.",
+    "decisionTitle": "Välj tubstorlek efter hur du faktiskt använder balmen",
+    "decision": "En större tub kan vara praktisk när samma balm används regelbundet, men är inte automatiskt det bästa köpet. Jämför mängden du behöver med förpackningens storlek och totalpriset. Erbjudandet här gäller B5+ i 100 ml, utan SPF. Tuben på 40 ml är en separat storlek och ska inte jämföras som om den innehöll lika mycket. Vi beskriver kosmetisk hudvård och har inte testat balmen; guiden ger inga löften om behandling av akne, ärr eller andra hudbesvär.",
+    "facts": [
+      [
+        "Produkt",
+        "Cicaplast Balm B5+"
+      ],
+      [
+        "Mängd i erbjudandet",
+        "100 ml, en tub"
+      ],
+      [
+        "Doft",
+        "Parfymfri enligt produktuppgiften"
+      ],
+      [
+        "Version",
+        "B5+ utan SPF"
+      ],
+      [
+        "EAN",
+        "3337875816847"
+      ]
+    ],
+    "steps": [
+      [
+        "Kontrollera tuben",
+        "Se efter B5+, 100 ml och rätt version innan du jämför pris."
+      ],
+      [
+        "Läs anvisningen",
+        "Följ förpackningens användning och avgränsningar, särskilt kring ögon och öppna sår."
+      ],
+      [
+        "Anpassa rutinen",
+        "Utgå från de torra områden där du behöver mjukgörande hudvård. Fler produkter är inte alltid nödvändiga."
+      ]
+    ],
+    "faqs": [
+      [
+        "Är 40 ml och 100 ml samma erbjudande?",
+        "Nej. De är två olika förpackningsstorlekar. Priset hos Lyko här gäller en tub på 100 ml."
+      ],
+      [
+        "Har denna Cicaplast SPF?",
+        "Nej. Det här erbjudandet gäller B5+ utan SPF. Varianter med solskydd ska kontrolleras separat."
+      ],
+      [
+        "Är Cicaplast Balm B5+ parfymfri?",
+        "Ja, den aktuella produktuppgiften beskriver balmen som parfymfri. Kontrollera alltid ingredienslistan på förpackningen."
+      ]
+    ],
+    "related": [
+      [
+        "Cicaplast B5+ eller Cetaphil?",
+        "/skonhet/cicaplast-b5-eller-cetaphil"
+      ],
+      [
+        "Fler produktval",
+        "/produkter"
+      ]
+    ]
+  },
+  {
+    "id": "wella-sp-luxeoil-100ml",
+    "name": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir",
+    "variant": "100 ml · en flaska",
+    "merchantId": "lyko",
+    "merchantItemId": "1330-479-0100",
+    "gtin": null,
+    "updatedAt": "2026-09-14",
+    "images": [
+      {
+        "src": "/products/selected/wella-sp-luxeoil-100ml/1.jpg",
+        "width": 500,
+        "height": 1701,
+        "credit": "Produktbild: Lyko.",
+        "alt": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir, 100 ml · en flaska."
+      }
+    ],
+    "path": "/skonhet/wella-sp-luxeoil",
+    "category": "Skönhet",
+    "metaTitle": "Wella SP LuxeOil 100 ml – dosering och pris",
+    "question": "Hur mycket LuxeOil ska man använda?",
+    "answer": "Lyko anger 1–2 pumpningar i längder och toppar. Anpassa mängden efter håret och följ flaskans anvisningar.",
+    "sources": [
+      {
+        "label": "Lyko – exakt variant, användning och pris",
+        "url": "https://lyko.com/sv/wella-professionals/wella-sp-luxeoil",
+        "supports": "Produktidentitet, förpackning, användningsanvisning, originalbilder och daterat pris för en styck utan kombinationsrabatt."
+      }
+    ],
+    "shortName": "Wella SP LuxeOil",
+    "brand": "Wella Professionals",
+    "topic": "Hårolja",
+    "description": "Wella SP LuxeOil Reconstructive Oil Elixir 100 ml: dosering, användning och kontrollerat Lyko-pris. Jämför samma flaska hos Amazon.se.",
+    "fits": [
+      "Du vill använda en hårolja i längder och toppar för en mjukare, glansigare finish.",
+      "Du vill jämföra samma flaska på 100 ml hos Lyko och Amazon.se."
+    ],
+    "skip": "Avvakta om du redan har en hårolja som ger den finish du vill ha. Om håret lätt känns tungt, börja med en liten mängd i stället för att lägga flera lager.",
+    "decisionTitle": "Jämför samma flaska och börja med lite olja",
+    "decision": "Det här är SP LuxeOil Reconstructive Oil Elixir i 100 ml. Reseflaskan på 30 ml och flerpack är andra erbjudanden. Lyko anger 1–2 pumpningar i längder och toppar, i vått eller torrt hår. Se doseringen som en utgångspunkt tillsammans med flaskans anvisning och anpassa efter håret. Vi har inte testat glans, känsla eller hur länge en flaska räcker. Produktnamnet innebär inte att vi har verifierat reparation av håret eller ett temperaturbestämt värmeskydd. Vid butiksval behöver även säljare, frakt och leverans vägas in.",
+    "facts": [
+      [
+        "Produkt",
+        "SP LuxeOil Reconstructive Oil Elixir"
+      ],
+      [
+        "Mängd",
+        "100 ml, en flaska"
+      ],
+      [
+        "Dosering enligt Lyko",
+        "1–2 pumpningar, anpassa efter håret"
+      ],
+      [
+        "Användning",
+        "Längder och toppar; vått eller torrt hår"
+      ]
+    ],
+    "steps": [
+      [
+        "Börja med lite",
+        "Utgå från flaskans anvisning. Lyko anger 1–2 pumpningar."
+      ],
+      [
+        "Fördela i längderna",
+        "Arbeta in oljan i längder och toppar, i vått eller torrt hår."
+      ],
+      [
+        "Bedöm finishen",
+        "Känn efter innan du tar mer. Doseringen behöver passa ditt hår."
+      ]
+    ],
+    "faqs": [
+      [
+        "Hur mycket Wella LuxeOil ska jag använda?",
+        "Lyko anger 1–2 pumpningar i längder och toppar. Anpassa efter håret och följ anvisningen på din flaska."
+      ],
+      [
+        "Är Amazon-länken för samma storlek?",
+        "Den kontrollerade listningen gäller SP LuxeOil 100 ml, en flaska. Kontrollera att storlek och antal fortfarande är rätt när du öppnar erbjudandet."
+      ],
+      [
+        "Var ser jag Amazons aktuella pris?",
+        "Via knappen till Amazon.se. Kontrollera dagens pris, säljare och frakt där; sidan visar inget numeriskt Amazon-pris."
+      ]
+    ],
+    "related": [
+      [
+        "Amika Hydro Rush Leave-In",
+        "/skonhet/amika-hydro-rush-leave-in"
+      ],
+      [
+        "Hårolja eller värmeskydd?",
+        "/skonhet/harolja-eller-varmeskydd"
+      ]
+    ]
   }
 ]

@@ -4,7 +4,7 @@ import { getMerchantOffer } from "@/lib/merchant-offers";
 export function getPartnerClick(href: string, data: { merchant?: string; product?: string; placement?: string }) {
   if (!data.merchant || !data.product || !data.placement || !/^[a-z0-9-]{1,60}$/.test(data.placement)) return null;
   const offer = getMerchantOffer(data.product, data.merchant);
-  if (!offer || href !== offer.href) return null;
+  if (!offer || offer.linkKind === "direct" || href !== offer.href) return null;
   return { merchant: data.merchant, product: data.product, placement: data.placement };
 }
 

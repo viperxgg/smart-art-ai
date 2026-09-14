@@ -40,7 +40,7 @@ const component = load('components/AmazonClickTracker.tsx', name => {
 }, {document, window: {location: {pathname: '/guider/harinpackning'}}, Element, HTMLAnchorElement: Anchor});
 component.AmazonClickTracker();
 function click(target, type = 'click', button = 0) { handlers.get(type)({target, type, button}); }
-for (const offer of [...offers.merchantOffers, ...amazonOffers.amazonOffers.map(offer => ({...offer, merchantId: 'amazon', placement: 'home-curated'}))]) {
+for (const offer of [...offers.merchantOffers.filter(offer => offer.linkKind !== 'direct'), ...amazonOffers.amazonOffers.map(offer => ({...offer, merchantId: 'amazon', placement: 'home-curated'}))]) {
   const link = new Anchor(offer);
   events.length = 0;
   consent = null; click(link); assert.equal(events.length, 0);
@@ -58,6 +58,13 @@ for (const offer of [...offers.merchantOffers, ...amazonOffers.amazonOffers.map(
   link.href = 'https://example.com/t/t'; click(link); assert.equal(events.length, 2);
 }
 events.length = 0;
+for (const offer of offers.merchantOffers.filter(offer => offer.linkKind === 'direct')) {
+  consent = 'granted';
+  const link = new Anchor(offer);
+  click(link); click(link, 'auxclick', 1);
+  assert.equal(events.length, 0, 'Direct Lyko visits must not inflate affiliate events');
+  assert.equal(tracking.getPartnerClick(link.href,link.dataset),null);
+}
 const amazon = new Anchor({href: 'https://amzn.to/example'});
 click(amazon); assert.equal(events.length, 1); assert.equal(events[0][1], 'amazon_click');
 assert.equal(amazonOffers.getAmazonOffer('unknown'), undefined);

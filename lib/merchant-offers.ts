@@ -1,12 +1,14 @@
 import type { MerchantPriceSnapshot } from "@/lib/merchant-price";
 
 export type MerchantOffer = {
-  merchantId: "nordicfeel" | "kjell";
+  merchantId: "nordicfeel" | "kjell" | "lyko";
   merchantName: string;
   productSlug: string;
   productName: string;
   variant: string;
   href: string;
+  linkKind?: "affiliate" | "direct";
+  priceNote?: string;
   placement: string;
   checkedAt: string;
   price?: MerchantPriceSnapshot;
@@ -218,7 +220,103 @@ export const selectedOffer10: MerchantOffer = {
   }
 };
 
-export const merchantOffers: readonly MerchantOffer[] = [k18NordicfeelOffer, koboKjellOffer, selectedOffer1, selectedOffer2, selectedOffer3, selectedOffer4, selectedOffer5, selectedOffer6, selectedOffer7, selectedOffer8, selectedOffer9, selectedOffer10];
+// Direct merchant links in the local preview; no unverified tracking IDs.
+export const lykoOffer1: MerchantOffer = {
+  "merchantId": "lyko",
+  "merchantName": "Lyko",
+  "productSlug": "ole-henriksen-pout-strawberry-12ml",
+  "productName": "Ole Henriksen Pout Preserve Peptide Lip Treatment",
+  "variant": "Strawberry Sorbet · 12 ml · en tub",
+  "href": "https://lyko.com/sv/ole-henriksen/ole-henriksen-pout-preserve-lip-treatment-strawberry-sorbet-12-ml",
+  "linkKind": "direct",
+  "placement": "selected-product-offer",
+  "checkedAt": "2026-09-14",
+  "price": {
+    "amount": 198,
+    "currency": "SEK",
+    "checkedAt": "2026-09-14T13:49:50.568Z",
+    "source": "https://lyko.com/sv/ole-henriksen/ole-henriksen-pout-preserve-lip-treatment-strawberry-sorbet-12-ml"
+  },
+  "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter."
+};
+
+export const lykoOffer2: MerchantOffer = {
+  "merchantId": "lyko",
+  "merchantName": "Lyko",
+  "productSlug": "lumene-cc-medium-30ml",
+  "productName": "Lumene CC Color Correcting Cream SPF20",
+  "variant": "2 Medium · 30 ml · en tub",
+  "href": "https://lyko.com/sv/lumene/lumene-cc-color-correcting-cream-spf20-medium",
+  "linkKind": "direct",
+  "placement": "selected-product-offer",
+  "checkedAt": "2026-09-14",
+  "price": {
+    "amount": 167,
+    "currency": "SEK",
+    "checkedAt": "2026-09-14T13:49:46.310Z",
+    "source": "https://lyko.com/sv/lumene/lumene-cc-color-correcting-cream-spf20-medium"
+  },
+  "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter."
+};
+
+export const lykoOffer3: MerchantOffer = {
+  "merchantId": "lyko",
+  "merchantName": "Lyko",
+  "productSlug": "amika-hydro-rush-leave-in-200ml",
+  "productName": "Amika Hydro Rush Intense Moisture Leave-In Conditioner",
+  "variant": "200 ml · en sprayflaska",
+  "href": "https://lyko.com/sv/amika/amika-hydro-rush-intense-moisture-leave-in-conditioner-200ml",
+  "linkKind": "direct",
+  "placement": "selected-product-offer",
+  "checkedAt": "2026-09-14",
+  "price": {
+    "amount": 349,
+    "currency": "SEK",
+    "checkedAt": "2026-09-14T13:49:45.045Z",
+    "source": "https://lyko.com/sv/amika/amika-hydro-rush-intense-moisture-leave-in-conditioner-200ml"
+  },
+  "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter."
+};
+
+export const lykoOffer4: MerchantOffer = {
+  "merchantId": "lyko",
+  "merchantName": "Lyko",
+  "productSlug": "la-roche-posay-cicaplast-b5-100ml",
+  "productName": "La Roche-Posay Cicaplast Balm B5+",
+  "variant": "100 ml · en tub · B5+ utan SPF",
+  "href": "https://lyko.com/sv/la-roche-posay/la-roche-posay-cicaplast-balm-b5--100-ml",
+  "linkKind": "direct",
+  "placement": "selected-product-offer",
+  "checkedAt": "2026-09-14",
+  "price": {
+    "amount": 197,
+    "currency": "SEK",
+    "checkedAt": "2026-09-14T13:49:49.018Z",
+    "source": "https://lyko.com/sv/la-roche-posay/la-roche-posay-cicaplast-balm-b5--100-ml"
+  },
+  "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter."
+};
+
+export const lykoOffer5: MerchantOffer = {
+  "merchantId": "lyko",
+  "merchantName": "Lyko",
+  "productSlug": "wella-sp-luxeoil-100ml",
+  "productName": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir",
+  "variant": "100 ml · en flaska",
+  "href": "https://lyko.com/sv/wella-professionals/wella-sp-luxeoil",
+  "linkKind": "direct",
+  "placement": "selected-product-offer",
+  "checkedAt": "2026-09-14",
+  "price": {
+    "amount": 424,
+    "currency": "SEK",
+    "checkedAt": "2026-09-14T15:58:30+02:00",
+    "source": "https://lyko.com/sv/wella-professionals/wella-sp-luxeoil"
+  },
+  "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter."
+};
+
+export const merchantOffers: readonly MerchantOffer[] = [k18NordicfeelOffer, koboKjellOffer, selectedOffer1, selectedOffer2, selectedOffer3, selectedOffer4, selectedOffer5, selectedOffer6, selectedOffer7, selectedOffer8, selectedOffer9, selectedOffer10, lykoOffer1, lykoOffer2, lykoOffer3, lykoOffer4, lykoOffer5];
 
 export function getMerchantOffer(productSlug: string, merchantId?: string) {
   return merchantOffers.find(offer => offer.productSlug === productSlug && (!merchantId || offer.merchantId === merchantId));

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { ArrowRight, ArrowUpRight, Check, CircleHelp } from "lucide-react";
 import { JsonLd } from "@/components/JsonLd";
 import { MerchantPrice } from "@/components/MerchantPrice";
@@ -9,9 +10,10 @@ import { getSelectedOfferState, selectedProductSchema, type SelectedProduct } fr
 
 const buttonClass = "inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-wine px-6 py-3 text-center font-bold text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-wine";
 
-export function SelectedProductPage({ product }: { product: SelectedProduct }) {
+export function SelectedProductPage({ product, sizeNotice }: { product: SelectedProduct; sizeNotice?: ReactNode }) {
   const offer = getMerchantOffer(product.id)!;
   const amazon = getAmazonOffer(product.id);
+  const directLink = offer.linkKind === "direct";
   const { now, member, campaignActive } = getSelectedOfferState(product);
   return <main id="content" tabIndex={-1} className="bg-bg text-ink">
     <JsonLd data={selectedProductSchema(product, now)} />
@@ -23,7 +25,7 @@ export function SelectedProductPage({ product }: { product: SelectedProduct }) {
           <li aria-hidden="true">/</li><li aria-current="page">{product.shortName}</li>
         </ol>
       </nav>
-      <p className="mb-6 rounded-xl border border-line px-4 py-3 text-xs leading-relaxed text-ink-soft">Annonslänkar: vi kan få ersättning om du handlar via butikslänkarna. Som Amazon-associates tjänar vi pengar på kvalificerade köp.</p>
+      {!directLink || amazon ? <p className="mb-6 rounded-xl border border-line px-4 py-3 text-xs leading-relaxed text-ink-soft">Sidan innehåller annonslänkar. Vi kan få ersättning om du handlar via en länk märkt Annonslänk.{amazon ? " Som Amazon-associates tjänar vi pengar på kvalificerade köp." : ""}</p> : null}
       <div className="grid items-start gap-6 md:grid-cols-2 md:gap-x-12">
         <header className="md:col-start-2 md:row-start-1">
           <p className="text-xs font-bold uppercase tracking-widest text-wine">{product.topic} · Produktguide</p>
@@ -38,6 +40,7 @@ export function SelectedProductPage({ product }: { product: SelectedProduct }) {
           <p className="mt-4 text-xs text-ink-soft">Fakta granskade <time dateTime={product.updatedAt}>{new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(`${product.updatedAt}T12:00:00Z`))}</time> · <Link href="#kallor" className="underline underline-offset-4">Källor och metod</Link></p>
         </div>
       </div>
+      {sizeNotice}
       <div className="mt-12 grid gap-5 md:grid-cols-2">
         <section aria-labelledby="passar" className="rounded-2xl border border-line bg-surface p-6">
           <h2 id="passar" className="flex items-center gap-2 font-display text-2xl font-bold"><Check size={22} aria-hidden="true" />Kan passa om</h2>
@@ -76,10 +79,11 @@ export function SelectedProductPage({ product }: { product: SelectedProduct }) {
           <h3 className="mt-6 text-lg font-bold">{offer.merchantName}</h3>
           <p className="mt-2 text-xs leading-relaxed text-ink-soft">{offer.variant} · Artikel {product.merchantItemId}</p>
           {offer.price ? <MerchantPrice price={offer.price} /> : null}
+          {offer.priceNote ? <p className="mt-3 text-xs leading-relaxed text-ink-soft">{offer.priceNote}</p> : null}
           {member ? <p className="mt-3 rounded-xl border border-line p-4 text-sm leading-relaxed"><strong>Kontrollerat medlemspris: {member.amount} kr.</strong> {member.label} Kontrollerat vid samma tidpunkt som priset ovan; butikens aktuella villkor gäller.</p> : null}
           {product.campaignEndsAt && campaignActive ? <p className="mt-3 text-xs leading-relaxed text-ink-soft">Kontrollerad kampanj till och med {new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(product.campaignEndsAt))}. Priset kan ändras.</p> : null}
-          <a href={offer.href} rel="sponsored nofollow noopener" data-merchant={offer.merchantId} data-product={offer.productSlug} data-placement="selected-product-offer" className={`${buttonClass} mt-5 w-full`}>Se pris hos {offer.merchantName}<ArrowUpRight size={18} aria-hidden="true" /></a>
-          <p className="mt-2 text-xs text-ink-soft">Annonslänk</p>
+          <a href={offer.href} rel={directLink ? "nofollow noopener" : "sponsored nofollow noopener"} data-merchant={offer.merchantId} data-product={offer.productSlug} data-placement="selected-product-offer" className={`${buttonClass} mt-5 w-full`}>Se pris hos {offer.merchantName}<ArrowUpRight size={18} aria-hidden="true" /></a>
+          <p className="mt-2 text-xs text-ink-soft">{directLink ? "Butikslänk" : "Annonslänk"}</p>
           {amazon ? <div className="mt-6 border-t border-line pt-6" data-amazon-offer={amazon.asin}>
             <h3 className="text-lg font-bold">Amazon.se</h3>
             <p className="mt-2 text-sm leading-relaxed text-ink-soft">{amazon.variant}. Se dagens pris, säljare och leverans hos Amazon. Kontrollera förpackningen innan köp.</p>

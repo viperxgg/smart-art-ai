@@ -124,6 +124,56 @@ export const partnerImageAssets = {
     "alt": "Linocell-adaptern och den medföljande USB-C-adaptern."
   }
 ,
+"ole-henriksen-pout-strawberry-12ml": {
+  "src": "/products/selected/ole-henriksen-pout-strawberry-12ml/1.jpg",
+  "width": 500,
+  "height": 957,
+  "credit": "Produktbild: Lyko.",
+  "alt": "Ole Henriksen Pout Preserve Peptide Lip Treatment, Strawberry Sorbet · 12 ml · en tub.",
+  "merchantId": "lyko",
+  "source": "https://lyko.com/globalassets/product-images/ole-henriksen-pout-preserve-lip-treatment-strawberry-sorbet-12-ml-1225-406-0001_1.jpg?ref=95D244D347",
+  "sha256": "f3248dc1817ece2334daea3e2882c0edaa07ce85580405820bcc4deab11624fe"
+},
+"lumene-cc-medium-30ml": {
+  "src": "/products/selected/lumene-cc-medium-30ml/1.jpg",
+  "width": 500,
+  "height": 1577,
+  "credit": "Produktbild: Lyko.",
+  "alt": "Lumene CC Color Correcting Cream SPF20, 2 Medium · 30 ml · en tub.",
+  "merchantId": "lyko",
+  "source": "https://lyko.com/globalassets/product-images/lumene-cc-color-correcting-cream-spf20-medium-1188-564-0004_1.jpg?ref=71398FC56D",
+  "sha256": "aa0d94d35cf8831507813698b04ca252879c35dbe2f893e72975cbb8a8bd5203"
+},
+"amika-hydro-rush-leave-in-200ml": {
+  "src": "/products/selected/amika-hydro-rush-leave-in-200ml/1.jpg",
+  "width": 500,
+  "height": 1570,
+  "credit": "Produktbild: Lyko.",
+  "alt": "Amika Hydro Rush Intense Moisture Leave-In Conditioner, 200 ml · en sprayflaska.",
+  "merchantId": "lyko",
+  "source": "https://lyko.com/globalassets/product-images/amika-hydro-rush-intense-moisture-leave-in-conditioner-200ml-1035-386-0200_1.jpg?ref=E08962BE2D",
+  "sha256": "e51cf0854edf3c27fcf0a6304618af1580f5e8e03cf83dcfc5eb865a3142afa5"
+},
+"la-roche-posay-cicaplast-b5-100ml": {
+  "src": "/products/selected/la-roche-posay-cicaplast-b5-100ml/1.jpg",
+  "width": 500,
+  "height": 1086,
+  "credit": "Produktbild: Lyko.",
+  "alt": "La Roche-Posay Cicaplast Balm B5+, 100 ml · en tub · B5+ utan SPF.",
+  "merchantId": "lyko",
+  "source": "https://lyko.com/globalassets/product-images/la-roche-posay-cicaplast-balm-b5-2486-209-0100_1.jpg?ref=C5B0BE7385",
+  "sha256": "65ebbbdf26a082db1ab97f0ec7c5c4fd4f5c9fe32eb9e2198e7ac7caddce7d42"
+},
+"wella-sp-luxeoil-100ml": {
+  "src": "/products/selected/wella-sp-luxeoil-100ml/1.jpg",
+  "width": 500,
+  "height": 1701,
+  "credit": "Produktbild: Lyko.",
+  "alt": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir, 100 ml · en flaska.",
+  "merchantId": "lyko",
+  "source": "https://lyko.com/globalassets/product-images/wella-sp-luxeoil-reconstructive-oil-elixir-100-ml-1330-479-0100_1.jpg?ref=DE1A69644C",
+  "sha256": "7c85f2d712072dca263a80d316f7fe95619c04f6849c260bcb81dc49231eb22a"
+},
 } as const;
 
 export const partnerImagePermission = {

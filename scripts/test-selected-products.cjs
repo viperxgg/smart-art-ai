@@ -20,9 +20,9 @@ const merchants = load('@/lib/merchant-offers');
 const amazon = load('@/lib/amazon-offers');
 const price = load('@/lib/merchant-price');
 const now = Date.parse('2026-09-14T18:00:00+02:00');
-assert.equal(selected.selectedProducts.length,10);
-assert.equal(new Set(selected.selectedProducts.map(p=>p.path)).size,10);
-assert.equal(new Set(selected.selectedProducts.map(p=>p.metaTitle)).size,10);
+assert.equal(selected.selectedProducts.length,15);
+assert.equal(new Set(selected.selectedProducts.map(p=>p.path)).size,15);
+assert.equal(new Set(selected.selectedProducts.map(p=>p.metaTitle)).size,15);
 for (const product of selected.selectedProducts) {
   assert.ok(fs.existsSync(path.join('app',product.path,'page.tsx')));
   assert.ok(product.sources.length && product.sources.every(source=>source.url.startsWith('https://')));
@@ -51,7 +51,18 @@ assert.equal(selected.selectedProductSchema(tapo,now)['@graph'][0].offers.price,
 assert.equal(selected.getSelectedOfferState(tapo,now).member.amount,689);
 assert.equal(selected.getSelectedOfferState(tapo,Date.parse(tapo.memberPrice.endsAt)).member,undefined);
 assert.equal(amazon.getAmazonOffer('beauty-of-joseon-propolis-serum').asin,'B086VKZZZY');
-for (const id of ['anker-prime-300w-26250mah','linocell-wireless-carplay-q1m']) {
+for (const id of ['anker-prime-300w-26250mah','linocell-wireless-carplay-q1m','ole-henriksen-pout-strawberry-12ml','lumene-cc-medium-30ml','amika-hydro-rush-leave-in-200ml','la-roche-posay-cicaplast-b5-100ml']) {
   assert.equal(amazon.getAmazonOffer(id),undefined,'Unconfirmed matching must not create a comparison');
 }
-console.log('PASS: ten unique routes, sources/images/internal links, exact merchant prices, no fake ratings/live stock/Amazon prices, weekly persistence and campaign/member boundaries.');
+const lykoPrices = {'ole-henriksen-pout-strawberry-12ml':198,'lumene-cc-medium-30ml':167,'amika-hydro-rush-leave-in-200ml':349,'la-roche-posay-cicaplast-b5-100ml':197,'wella-sp-luxeoil-100ml':424};
+for (const [id, amount] of Object.entries(lykoPrices)) {
+  const offer = merchants.getMerchantOffer(id,'lyko');
+  assert.equal(offer.linkKind,'direct','Preview must not invent Lyko affiliate links');
+  assert.equal(selected.selectedProductSchema(selected.getSelectedProduct(id),now)['@graph'][0].offers.price,amount,'Conditional combo price must not become a single-item offer');
+}
+assert.equal(amazon.getAmazonOffer('wella-sp-luxeoil-100ml').asin,'B009ZVHWW4');
+const cicaplast = selected.getSelectedProduct('la-roche-posay-cicaplast-b5-100ml');
+assert.equal(cicaplast.path,'/skonhet/cicaplast-b5','Reuse family canonical');
+assert.equal(cicaplast.gtin,'3337875816847');
+assert.ok(cicaplast.images.every(image=>image.src.includes('100ml')),'Never reuse old 40 ml packshots');
+console.log('PASS: fifteen unique routes, sources/images/internal links, single-item merchant prices, no fake ratings/live stock/Amazon prices, weekly persistence, campaign/member boundaries, Lyko direct links and exact Wella match.');

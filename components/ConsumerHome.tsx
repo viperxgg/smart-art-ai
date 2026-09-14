@@ -80,7 +80,10 @@ export function ConsumerHome() {
             {curated.map((product) => <HomeProductCard key={product.offer.productSlug} product={product} />)}
             {recent.map((product) => <HomeProductCard key={product.offer.productSlug} product={product} recent />)}
           </div>
-        <Link href="/produkter" className="mt-6 inline-flex min-h-12 items-center gap-2 font-bold text-wine underline underline-offset-4">Utforska alla våra produktval <ArrowRight size={18} aria-hidden="true" /></Link>
+        <div className="mt-6 flex flex-wrap gap-x-8 gap-y-3">
+          <Link href="/produkter#lyko" className="inline-flex min-h-12 items-center gap-2 font-bold text-wine underline underline-offset-4">Fem nya produktval från Lyko <ArrowRight size={18} aria-hidden="true" /></Link>
+          <Link href="/produkter" className="inline-flex min-h-12 items-center gap-2 font-bold text-wine underline underline-offset-4">Utforska alla våra produktval <ArrowRight size={18} aria-hidden="true" /></Link>
+        </div>
         </section> : null}
 
         <section id="valj-jamforelse" aria-labelledby="comparison-title" className="scroll-mt-28 border-t border-line pt-8">
