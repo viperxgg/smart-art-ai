@@ -1,3 +1,5 @@
+import { getAmazonOffer } from "@/lib/amazon-offers";
+
 const merchants = {
   nordicfeel: { host: "at.nordicfeel.com", product: "k18-leave-in-50ml" },
   kjell: { host: "ion.kjell.com", product: "kobo-clara-bw" },
@@ -20,4 +22,13 @@ export function isAmazonDestination(href: string): boolean {
       (host) => hostname === host || hostname.endsWith(`.${host}`),
     );
   } catch { return false; }
+}
+
+// Only explicitly tagged, reviewed comparison links use the new event. Legacy
+// Amazon links retain amazon_click, preserving the historical reporting boundary.
+export function getAmazonOfferClick(href: string, data: { merchant?: string; product?: string; placement?: string }) {
+  if (data.merchant !== "amazon" || !data.product || !data.placement || !/^[a-z0-9-]{1,60}$/.test(data.placement)) return null;
+  const offer = getAmazonOffer(data.product);
+  if (!offer || href !== offer.href) return null;
+  return { merchant: "amazon", product: data.product, placement: data.placement };
 }

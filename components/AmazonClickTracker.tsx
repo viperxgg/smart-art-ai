@@ -3,10 +3,10 @@
 import { useEffect } from "react";
 
 import { trackAffiliateClick, trackAmazonClick } from "@/lib/gtag";
-import { getPartnerClick, isAmazonDestination } from "@/lib/affiliate-tracking";
+import { getAmazonOfferClick, getPartnerClick, isAmazonDestination } from "@/lib/affiliate-tracking";
 
 /**
- * Keeps historical Amazon clicks separate from tagged Adtraction links.
+ * Keeps legacy Amazon clicks separate from tagged merchant comparison links.
  * Each intended click follows exactly one event path. Partner events require
  * analytics consent and contain page/product/merchant/placement, never the full URL.
  *
@@ -27,10 +27,15 @@ export function AmazonClickTracker() {
       if (!(link instanceof HTMLAnchorElement)) return;
 
       const partner = getPartnerClick(link.href, link.dataset);
-      if (partner) {
-        trackAffiliateClick({ pagePath: window.location.pathname, ...partner });
+      const amazonOffer = getAmazonOfferClick(link.href, link.dataset);
+      const merchant = partner || amazonOffer;
+      if (merchant) {
+        trackAffiliateClick({ pagePath: window.location.pathname, ...merchant });
         return;
       }
+      // A malformed explicitly tagged comparison link must not fall through to
+      // legacy Amazon telemetry without the comparison consent guard.
+      if (link.dataset.merchant === "amazon") return;
       if (!isAmazonDestination(link.href)) return;
 
       trackAmazonClick({

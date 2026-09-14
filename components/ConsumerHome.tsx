@@ -73,7 +73,7 @@ export function ConsumerHome() {
           <div className="max-w-2xl">
             <p className="text-xs font-bold uppercase tracking-widest text-wine">Bilden, priset och det viktiga före köp</p>
             <h2 id="products-title" className="mt-3 font-display text-3xl font-bold sm:text-4xl">Utvalda produkter att läsa mer om</h2>
-            <p className="mt-3 leading-relaxed text-ink-soft">Se vem produkten kan passa och vad du behöver tänka på. Läs guiden innan du går vidare till butiken.</p>
+            <p className="mt-3 leading-relaxed text-ink-soft">Se vem produkten kan passa och vad du behöver tänka på. Välj butik för samma modell och storlek, och kontrollera pris och frakt före köp.</p>
             <p className="mt-4 text-xs leading-relaxed text-ink-soft">Annonsinformation: Produkterna länkar till anslutna butiker. Elins val kan få ersättning när du handlar via länkarna.</p>
           </div>
           <div className="mt-7 grid items-stretch gap-5 md:grid-cols-2">

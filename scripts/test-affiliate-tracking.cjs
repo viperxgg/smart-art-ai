@@ -10,7 +10,11 @@ function load(file, requireMock, extra = {}) {
   return module.exports;
 }
 
-const tracking = load('lib/affiliate-tracking.ts');
+const amazonOffers = load('lib/amazon-offers.ts');
+const tracking = load('lib/affiliate-tracking.ts', name => {
+  if (name === '@/lib/amazon-offers') return amazonOffers;
+  throw Error(name);
+});
 const offers = load('lib/merchant-offers.ts');
 const events = [];
 let consent = null;
@@ -34,7 +38,7 @@ const component = load('components/AmazonClickTracker.tsx', name => {
 }, {document, window: {location: {pathname: '/guider/harinpackning'}}, Element, HTMLAnchorElement: Anchor});
 component.AmazonClickTracker();
 function click(target, type = 'click', button = 0) { handlers.get(type)({target, type, button}); }
-for (const offer of [offers.k18NordicfeelOffer, offers.koboKjellOffer]) {
+for (const offer of [offers.k18NordicfeelOffer, offers.koboKjellOffer, ...amazonOffers.amazonOffers.map(offer => ({...offer, merchantId: 'amazon', placement: 'home-curated'}))]) {
   const link = new Anchor(offer);
   events.length = 0;
   consent = null; click(link); assert.equal(events.length, 0);
@@ -54,8 +58,21 @@ for (const offer of [offers.k18NordicfeelOffer, offers.koboKjellOffer]) {
 events.length = 0;
 const amazon = new Anchor({href: 'https://amzn.to/example'});
 click(amazon); assert.equal(events.length, 1); assert.equal(events[0][1], 'amazon_click');
+assert.equal(amazonOffers.getAmazonOffer('unknown'), undefined);
+for (const offer of amazonOffers.amazonOffers) {
+  const url = new URL(offer.href);
+  assert.equal(url.hostname, 'www.amazon.se');
+  assert.equal(url.pathname, '/dp/' + offer.asin);
+  assert.equal(url.searchParams.get('tag'), 'azzamkhalaf-21');
+  assert.equal('price' in offer, false, 'Manual Amazon prices must not be published');
+  assert.equal(tracking.getAmazonOfferClick(offer.href, {merchant:'amazon', product:'wrong', placement:'home-curated'}), null);
+  assert.equal(tracking.getAmazonOfferClick(offer.href, {merchant:'amazon', product:offer.productSlug, placement:'invalid placement'}), null);
+  const malformed = new Anchor({...offer, merchantId:'amazon', placement:'home-curated'});
+  malformed.href = offer.href.replace('azzamkhalaf-21','wrong-21');
+  events.length = 0; click(malformed); assert.equal(events.length, 0, 'Malformed comparisons must not fall through to legacy events');
+}
 assert.equal(tracking.isAmazonDestination('https://amazon.se.evil.com'), false);
 assert.equal(tracking.getPartnerClick('not a URL', {}), null);
 assert.equal(tracking.getPartnerClick(offers.k18NordicfeelOffer.href, {merchant: 'nordicfeel',product:'wrong',placement:'body'}), null);
 cleanup(); assert.equal(handlers.size, 0);
-console.log('PASS: partner identity, single event, accepted/rejected/withdrawn consent, middle click, no right click, legacy Amazon isolation and listener cleanup.');
+console.log('PASS: Adtraction/Amazon offer identity, exact ASIN/tag, no manual Amazon prices, single event, consent/withdrawal, middle click, no right click, legacy isolation and cleanup.');
