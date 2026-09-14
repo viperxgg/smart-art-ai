@@ -14,6 +14,15 @@ export type AmazonOffer = {
 
 export const amazonOffers: readonly AmazonOffer[] = [
   {
+    productSlug: "beauty-of-joseon-propolis-serum",
+    asin: "B086VKZZZY",
+    productName: "Beauty of Joseon Glow Serum Propolis + Niacinamide",
+    variant: "30 ml · en flaska · EAN 8809657114960",
+    source: "https://www.amazon.se/dp/B086VKZZZY",
+    href: "https://www.amazon.se/dp/B086VKZZZY?tag=azzamkhalaf-21",
+    identityCheckedAt: "2026-09-14",
+  },
+  {
     productSlug: "k18-leave-in-50ml",
     asin: "B0961ZS96M",
     productName: "K18 Leave-In Molecular Repair Hair Mask",

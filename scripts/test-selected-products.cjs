@@ -50,7 +50,8 @@ const tapo = selected.getSelectedProduct('tapo-c520ws-single');
 assert.equal(selected.selectedProductSchema(tapo,now)['@graph'][0].offers.price,1099,'Membership price must not become unconditional price');
 assert.equal(selected.getSelectedOfferState(tapo,now).member.amount,689);
 assert.equal(selected.getSelectedOfferState(tapo,Date.parse(tapo.memberPrice.endsAt)).member,undefined);
-for (const id of ['beauty-of-joseon-propolis-serum','anker-prime-300w-26250mah','linocell-wireless-carplay-q1m']) {
+assert.equal(amazon.getAmazonOffer('beauty-of-joseon-propolis-serum').asin,'B086VKZZZY');
+for (const id of ['anker-prime-300w-26250mah','linocell-wireless-carplay-q1m']) {
   assert.equal(amazon.getAmazonOffer(id),undefined,'Unconfirmed matching must not create a comparison');
 }
 console.log('PASS: ten unique routes, sources/images/internal links, exact merchant prices, no fake ratings/live stock/Amazon prices, weekly persistence and campaign/member boundaries.');
