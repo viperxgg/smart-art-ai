@@ -100,6 +100,7 @@ function gitDate(file) {
 // (wave pages, product pages) signal freshness by touching their page.tsx
 // when the content is actually refreshed.
 const SHARED_LIB_MODULES = new Set([
+  "selected-products",
   "products",
   "wave-products",
   "wave-content",

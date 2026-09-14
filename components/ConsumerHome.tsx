@@ -80,6 +80,7 @@ export function ConsumerHome() {
             {curated.map((product) => <HomeProductCard key={product.offer.productSlug} product={product} />)}
             {recent.map((product) => <HomeProductCard key={product.offer.productSlug} product={product} recent />)}
           </div>
+        <Link href="/produkter" className="mt-6 inline-flex min-h-12 items-center gap-2 font-bold text-wine underline underline-offset-4">Utforska alla våra produktval <ArrowRight size={18} aria-hidden="true" /></Link>
         </section> : null}
 
         <section id="valj-jamforelse" aria-labelledby="comparison-title" className="scroll-mt-28 border-t border-line pt-8">

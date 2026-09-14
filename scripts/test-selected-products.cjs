@@ -1,0 +1,56 @@
+/* eslint-disable @typescript-eslint/no-require-imports -- Standalone Node verification. */
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+const ts = require('typescript');
+const cache = new Map();
+function load(name) {
+  const base = name.replace(/^@\//, '');
+  if (cache.has(base)) return cache.get(base);
+  if (base.endsWith('.json')) return JSON.parse(fs.readFileSync(base, 'utf8'));
+  const file = base + '.ts';
+  const loadedModule = { exports: {} };
+  const code = ts.transpileModule(fs.readFileSync(file,'utf8'), { compilerOptions: { module:ts.ModuleKind.CommonJS, target:ts.ScriptTarget.ES2022, esModuleInterop:true } }).outputText;
+  vm.runInNewContext(code, { module:loadedModule, exports:loadedModule.exports, require:load, URL, Intl });
+  cache.set(base, loadedModule.exports); return loadedModule.exports;
+}
+const selected = load('@/lib/selected-products');
+const merchants = load('@/lib/merchant-offers');
+const amazon = load('@/lib/amazon-offers');
+const price = load('@/lib/merchant-price');
+const now = Date.parse('2026-09-14T18:00:00+02:00');
+assert.equal(selected.selectedProducts.length,10);
+assert.equal(new Set(selected.selectedProducts.map(p=>p.path)).size,10);
+assert.equal(new Set(selected.selectedProducts.map(p=>p.metaTitle)).size,10);
+for (const product of selected.selectedProducts) {
+  assert.ok(fs.existsSync(path.join('app',product.path,'page.tsx')));
+  assert.ok(product.sources.length && product.sources.every(source=>source.url.startsWith('https://')));
+  for (const image of product.images) assert.ok(fs.existsSync(path.join('public',image.src)) && image.alt && image.width > 0);
+  for (const [,route] of product.related) assert.ok(fs.existsSync(path.join('app',route,'page.tsx')), 'Missing related route '+route);
+  const graph = selected.selectedProductSchema(product,now)['@graph'];
+  const entity = graph.find(node=>node['@type']==='Product');
+  const offer = merchants.getMerchantOffer(product.id);
+  assert.equal(entity.offers.price,offer.price.amount);
+  assert.equal(entity.offers.seller.name,offer.merchantName);
+  assert.ok(!('availability' in entity.offers), 'Weekly observations are not live stock');
+  assert.ok(!('review' in entity) && !('aggregateRating' in entity));
+  assert.ok(!JSON.stringify(graph).includes('amazon.se'), 'No unsupported numeric Amazon offer');
+  const nextMonth = Date.parse('2026-10-14T12:00:00+02:00');
+  assert.ok(price.getVerifiedMerchantPrice(offer.price,nextMonth), 'Weekly deadline must not hide the dated price');
+  if (product.campaignEndsAt) {
+    const end = Date.parse(product.campaignEndsAt);
+    assert.equal(selected.hasCurrentStructuredPrice(product,end-1),true);
+    assert.equal(selected.hasCurrentStructuredPrice(product,end),false);
+    assert.equal(selected.getSelectedOfferState(product,end).campaignActive,false);
+    assert.ok(!selected.selectedProductSchema(product,end)['@graph'][0].offers);
+  }
+}
+const tapo = selected.getSelectedProduct('tapo-c520ws-single');
+assert.equal(selected.selectedProductSchema(tapo,now)['@graph'][0].offers.price,1099,'Membership price must not become unconditional price');
+assert.equal(selected.getSelectedOfferState(tapo,now).member.amount,689);
+assert.equal(selected.getSelectedOfferState(tapo,Date.parse(tapo.memberPrice.endsAt)).member,undefined);
+for (const id of ['beauty-of-joseon-propolis-serum','anker-prime-300w-26250mah','linocell-wireless-carplay-q1m']) {
+  assert.equal(amazon.getAmazonOffer(id),undefined,'Unconfirmed matching must not create a comparison');
+}
+console.log('PASS: ten unique routes, sources/images/internal links, exact merchant prices, no fake ratings/live stock/Amazon prices, weekly persistence and campaign/member boundaries.');

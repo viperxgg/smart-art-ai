@@ -1,4 +1,4 @@
-import { k18NordicfeelOffer, koboKjellOffer, type MerchantOffer } from "@/lib/merchant-offers";
+import { k18NordicfeelOffer, koboKjellOffer, selectedOffer1, selectedOffer2, type MerchantOffer } from "@/lib/merchant-offers";
 import { getVerifiedMerchantPrice } from "@/lib/merchant-price";
 import { getPartnerOfferImage } from "@/lib/partner-image-assets";
 
@@ -45,7 +45,30 @@ export const curatedHomeProducts: readonly HomeProduct[] = [
 
 // Add only evidence-reviewed offers, with a canonical merchant offer, permitted
 // image and weekly price-register entry. This is not an unreviewed feed import.
-export const newHomeOffers: readonly HomeProduct[] = [];
+export const newHomeOffers: readonly HomeProduct[] = [
+{ offer: selectedOffer1,
+  "category": "Skönhet",
+  "title": "Redken Acidic Bonding Concentrate",
+  "href": "/skonhet/redken-acidic-bonding-concentrate",
+  "linkLabel": "Läs om Redken Acidic Bonding Concentrate",
+  "fit": "För dig som vill ha en leave-in-produkt i rutinen för behandlat hår.",
+  "caveat": "Ska lämnas kvar i håret. Jämför användning och mängd med din befintliga rutin.",
+  "addedAt": "2026-09-14T13:38:12+02:00",
+  "reviewed": true,
+  "available": true
+},
+{ offer: selectedOffer2,
+  "category": "Hälsa & vardag",
+  "title": "CMF Buds 2",
+  "href": "/halsa/cmf-buds-2",
+  "linkLabel": "Läs om CMF Buds 2",
+  "fit": "För pendling och vardagslyssning med in-ear och aktiv brusreducering.",
+  "caveat": "USB-C-kabel och laddare säljs separat enligt Kjell. Passformen är individuell.",
+  "addedAt": "2026-09-14T13:38:12+02:00",
+  "reviewed": true,
+  "available": true
+}
+];
 
 export function selectHomeProducts(
   fixed: readonly HomeProduct[],

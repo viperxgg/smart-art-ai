@@ -1,17 +1,10 @@
 import { getAmazonOffer } from "@/lib/amazon-offers";
-
-const merchants = {
-  nordicfeel: { host: "at.nordicfeel.com", product: "k18-leave-in-50ml" },
-  kjell: { host: "ion.kjell.com", product: "kobo-clara-bw" },
-} as const;
+import { getMerchantOffer } from "@/lib/merchant-offers";
 
 export function getPartnerClick(href: string, data: { merchant?: string; product?: string; placement?: string }) {
-  if (!data.merchant || !(data.merchant in merchants)) return null;
-  const merchant = merchants[data.merchant as keyof typeof merchants];
-  let url: URL;
-  try { url = new URL(href); } catch { return null; }
-  if (url.protocol !== "https:" || url.hostname !== merchant.host || url.pathname !== "/t/t" ||
-      data.product !== merchant.product || !data.placement || !/^[a-z0-9-]{1,60}$/.test(data.placement)) return null;
+  if (!data.merchant || !data.product || !data.placement || !/^[a-z0-9-]{1,60}$/.test(data.placement)) return null;
+  const offer = getMerchantOffer(data.product, data.merchant);
+  if (!offer || href !== offer.href) return null;
   return { merchant: data.merchant, product: data.product, placement: data.placement };
 }
 

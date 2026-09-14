@@ -1,21 +1,23 @@
+/* eslint-disable @typescript-eslint/no-require-imports -- Standalone Node test runner. */
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const ts = require('typescript');
 
 function load(file, requireMock, extra = {}) {
-  const module = { exports: {} };
+  const loadedModule = { exports: {} };
   const code = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
-  vm.runInNewContext(code, { module, exports: module.exports, require: requireMock, URL, ...extra });
-  return module.exports;
+  vm.runInNewContext(code, { module: loadedModule, exports: loadedModule.exports, require: requireMock, URL, ...extra });
+  return loadedModule.exports;
 }
 
 const amazonOffers = load('lib/amazon-offers.ts');
+const offers = load('lib/merchant-offers.ts');
 const tracking = load('lib/affiliate-tracking.ts', name => {
   if (name === '@/lib/amazon-offers') return amazonOffers;
+  if (name === '@/lib/merchant-offers') return offers;
   throw Error(name);
 });
-const offers = load('lib/merchant-offers.ts');
 const events = [];
 let consent = null;
 const gtag = load('lib/gtag.ts', name => {
@@ -38,7 +40,7 @@ const component = load('components/AmazonClickTracker.tsx', name => {
 }, {document, window: {location: {pathname: '/guider/harinpackning'}}, Element, HTMLAnchorElement: Anchor});
 component.AmazonClickTracker();
 function click(target, type = 'click', button = 0) { handlers.get(type)({target, type, button}); }
-for (const offer of [offers.k18NordicfeelOffer, offers.koboKjellOffer, ...amazonOffers.amazonOffers.map(offer => ({...offer, merchantId: 'amazon', placement: 'home-curated'}))]) {
+for (const offer of [...offers.merchantOffers, ...amazonOffers.amazonOffers.map(offer => ({...offer, merchantId: 'amazon', placement: 'home-curated'}))]) {
   const link = new Anchor(offer);
   events.length = 0;
   consent = null; click(link); assert.equal(events.length, 0);
@@ -74,5 +76,11 @@ for (const offer of amazonOffers.amazonOffers) {
 assert.equal(tracking.isAmazonDestination('https://amazon.se.evil.com'), false);
 assert.equal(tracking.getPartnerClick('not a URL', {}), null);
 assert.equal(tracking.getPartnerClick(offers.k18NordicfeelOffer.href, {merchant: 'nordicfeel',product:'wrong',placement:'body'}), null);
+for (const offer of offers.merchantOffers) {
+  for (const [key, value] of [['as','wrong'], ['a','wrong'], ['url','example.com']]) {
+    const changed = new URL(offer.href); changed.searchParams.set(key, value);
+    assert.equal(tracking.getPartnerClick(changed.href, {merchant:offer.merchantId, product:offer.productSlug, placement:'body'}), null);
+  }
+}
 cleanup(); assert.equal(handlers.size, 0);
 console.log('PASS: Adtraction/Amazon offer identity, exact ASIN/tag, no manual Amazon prices, single event, consent/withdrawal, middle click, no right click, legacy isolation and cleanup.');

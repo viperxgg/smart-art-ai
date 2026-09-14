@@ -1,7 +1,7 @@
 import { SelectedProductPage } from "@/components/SelectedProductPage";
 import { getSelectedProduct, selectedProductMetadata } from "@/lib/selected-products";
 
-const product = getSelectedProduct("beauty-of-joseon-propolis-serum");
+const product = getSelectedProduct("cosrx-snail-96-100ml");
 export const metadata = selectedProductMetadata(product);
 export const revalidate = 3600;
 
