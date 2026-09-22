@@ -13,7 +13,8 @@ node tools/creatives/render-wave1.cjs <absolute-path-to-playwright-module> <priv
 
 Requires local Microsoft Edge, Playwright and the installed Sharp dependency.
 The builder reads the canonical records, comparison records, `wave1-copy.json`
-and `card.html`; it writes the committed, standalone HTML sources and WebP A/B/C
+and `card.html`; `wave1-scenarios.json` contains concise, reviewed extracts from
+each record's fit/skip/first-step fields. It writes the standalone HTML and WebP A/B/C
 assets. Font binaries are the site's Latin Playfair Display and Inter fonts;
 their SIL Open Font Licenses are included in `fonts/`.
 
@@ -24,8 +25,10 @@ does not prove a foreground-object pixel bounding box or substitute for the
 390-pixel contact-sheet review.
 
 D illustrations are separately generated, never product depictions; their full
-prompts and provenance belong in the private evidence manifest. Running the
-A/B/C builder replaces that manifest/contact sheet: restore the D provenance
-and contact-sheet section from the private context assembly script afterward.
+prompts and provenance belong in the private evidence manifest. Existing D
+provenance is preserved in the manifest and contact sheet. Use `--review-06`
+to regenerate only B/C while verifying and preserving A's bytes, headline and
+HTML source. B uses at least 45% of the canvas for its packshot box and spans
+at least 85% vertically. C uses three reader scenarios, not specification tiles.
 No generated context is used as OG or Product schema imagery. E callouts are
 intentionally omitted where there is no necessary, clearly visible detail.

@@ -12,6 +12,9 @@ const comparisonFile=path.join(root,'lib/partner-comparison-data.json');
 const records=JSON.parse(fs.readFileSync(dataFile,'utf8'));
 const comparisons=JSON.parse(fs.readFileSync(comparisonFile,'utf8'));
 const copy=require('./wave1-copy.json');
+const scenarios=require('./wave1-scenarios.json');
+const reviewOnly=process.argv.includes('--review-06');
+const previousManifest=fs.existsSync(path.join(evidence,'image-manifest.json'))?JSON.parse(fs.readFileSync(path.join(evidence,'image-manifest.json'),'utf8')):[];
 const template=fs.readFileSync(path.join(__dirname,'card.html'),'utf8');
 const hash=bytes=>crypto.createHash('sha256').update(bytes).digest('hex');
 const esc=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
@@ -45,25 +48,33 @@ async function main(){
   const dir='/products/selected/'+(isComparison?'comparison-'+p.id:p.id);
   fs.mkdirSync(path.join(root,'public',dir),{recursive:true});
   const sources=products.map(p=>{const bytes=fs.readFileSync(path.join(root,'public',p.image.src));if(hash(bytes)!==p.image.sha256)throw Error('Changed source '+p.id);return {id:p.id,path:p.image.src,sha256:p.image.sha256,source:p.image.source,credit:p.image.credit};});
-  const entry={id:p.id,route:p.path,headline,originalSources:sources,assets:[],D:'not produced yet',E:'omitted: no necessary visible-detail callout',approval:'local draft; founder review required',generatedAt:new Date().toISOString()};
+  const previous=previousManifest.find(entry=>entry.id===p.id);
+  const entry={...previous,id:p.id,route:p.path,headline,originalSources:sources,assets:[],D:previous?.D||'not produced yet',E:'omitted: no necessary visible-detail callout',approval:'local draft; founder review required',generatedAt:previous?.generatedAt||new Date().toISOString(),revisedAt:new Date().toISOString()};
   for(const [kind,width,height]of [['A',1200,630],['B',1000,1500],['C',1200,630],['C-portrait',1000,1500]]){
+   if(reviewOnly&&kind==='A'){
+    const original=previous?.assets.find(a=>a.kind==='A');
+    if(!original||previous.headline!==headline||hash(fs.readFileSync(path.join(root,'public',original.path)))!==original.sha256)throw Error('A changed during review '+p.id);
+    entry.assets.push(original);continue;
+   }
    const portrait=height===1500;const decision=kind.startsWith('C');
    const filename=`${p.id}-${kind}.html`;const htmlPath=path.join(__dirname,'generated',filename);
    const output=kind==='A'?`/og/wave1-${p.id}.webp`:`${dir}/${kind.toLowerCase()}.webp`;
    const photos='<div class="photos">'+products.map(p=>`<figure><img alt="${esc(p.image.alt)}" src="../../../public${p.image.src}"></figure>`).join('')+'</div>';
-   const selectedRows=isComparison?p.rows.filter(row=>row.slice(1).join(' ').length<120).slice(0,3):p.facts.filter(([label])=>!['Exakt variant','Artikel hos butiken'].includes(label)).slice(0,3);
-   const matrix='<div class="matrix">'+selectedRows.map(row=>`<section><h2>${esc(row[0])}</h2>${isComparison?`<b>${esc(products[0].shortName||products[0].name)}</b><p>${esc(row[1])}</p><b>${esc(products[1].shortName||products[1].name)}</b><p>${esc(row[2])}</p>`:`<p>${esc(row[1])}</p>`}</section>`).join('')+'</div>';
+   const scenarioLabels=isComparison?[...p.fits.slice(0,2).map(fit=>'Välj '+fit.split(':')[0]+' om …'),'Avstå om …']:['Passar dig om …','Avvakta om …','Kolla först …'];
+   if(scenarios[p.id]?.length!==3)throw Error('Missing scenarios '+p.id);
+   const matrix='<div class="matrix">'+scenarios[p.id].map((text,index)=>`<section><h2>${esc(scenarioLabels[index])}</h2><p>${esc(text)}</p></section>`).join('')+'</div>';
    const content=decision?`<p class="deck">${esc(headline)}</p>${matrix}`:`<div class="body"><p class="tension">${esc(tension)}</p>${photos}</div>`+(portrait?`<ul class="points">${points.map(p=>'<li>'+esc(p)+'</li>').join('')}</ul><div class="cta">Läs guiden på smartartai.se</div>`:'');
-   const vars={title:headline,width,height,classes:[portrait?'portrait':'',decision?'decision':''].join(' '),brand:kind==='B'?esc('Annons / Reklam för '+merchantNames):'Elins val',eyebrow:decision?'Beslutsöversikt':kind==='B'?'':'Frågan före köpet',headline:esc(decision?'Vilken passar dig?':headline),content,credit:decision?'Fakta och källor i guiden · Ingen egen produkttestning':esc('Produktbild: '+[...new Set(products.map(p=>p.offer.merchantName))].join(' / '))+' <span> · smartartai.se</span>'};
+   const vars={title:headline,width,height,classes:[portrait?'portrait':'',decision?'decision':''].join(' '),brand:kind==='B'?esc('Annons / Reklam för '+merchantNames):'Elins val',eyebrow:decision?'Beslutsöversikt':kind==='B'?'':'Frågan före köpet',headline:esc(decision?'Vilken passar dig?':headline),content,credit:decision?'smartartai.se · Fakta och källor i guiden':esc('Produktbild: '+[...new Set(products.map(p=>p.offer.merchantName))].join(' / '))+' <span> · smartartai.se</span>'};
    const html=template.replace(/\{\{(\w+)\}\}/g,(_,key)=>vars[key]);fs.writeFileSync(htmlPath,html);
    await tab.setViewportSize({width,height});await tab.goto(pathToFileURL(htmlPath).href);await tab.evaluate(()=>document.fonts.ready);await tab.locator('img').evaluateAll(imgs=>Promise.all(imgs.map(i=>i.decode())));
-   const metrics=await tab.evaluate(()=>{const h=document.querySelector('h1');const s=getComputedStyle(h);return {headlineLines:Math.round(h.clientHeight/parseFloat(s.lineHeight)),headlineFont:parseFloat(s.fontSize),overflow:document.documentElement.scrollWidth>innerWidth,images:[...document.images].map(i=>({loaded:i.complete&&i.naturalWidth>0,height:i.getBoundingClientRect().height})),contentBottom:Math.max(...[...document.querySelectorAll('.matrix,.points,.cta,.body')].map(e=>e.getBoundingClientRect().bottom))};});
-   if(metrics.overflow||(!decision&&kind==='A'&&metrics.headlineLines>2)||metrics.contentBottom>height-60||metrics.images.some(i=>!i.loaded))throw Error('Visual layout failed '+p.id+' '+kind+' '+JSON.stringify(metrics));
+   const metrics=await tab.evaluate(()=>{const h=document.querySelector('h1');const s=getComputedStyle(h);const brand=document.querySelector('.brand').getBoundingClientRect();const credit=document.querySelector('.credit').getBoundingClientRect();return {headlineLines:Math.round(h.clientHeight/parseFloat(s.lineHeight)),headlineFont:parseFloat(s.fontSize),overflow:document.documentElement.scrollWidth>innerWidth,textOverflow:[...document.querySelectorAll('h1,.matrix p,.matrix h2,.points li,.brand')].some(e=>e.scrollWidth>e.clientWidth+1),packshotBoxHeight:document.querySelector('.photos')?.getBoundingClientRect().height||0,contentSpan:credit.bottom-brand.top,images:[...document.images].map(i=>({loaded:i.complete&&i.naturalWidth>0,height:i.getBoundingClientRect().height})),contentBottom:Math.max(...[...document.querySelectorAll('.matrix,.points,.cta,.body')].map(e=>e.getBoundingClientRect().bottom))};});
+   if(metrics.overflow||metrics.textOverflow||(!decision&&kind==='A'&&metrics.headlineLines>2)||metrics.contentBottom>height-60||metrics.images.some(i=>!i.loaded)||(kind==='B'&&(metrics.packshotBoxHeight<height*.45||metrics.contentSpan<height*.85)))throw Error('Visual layout failed '+p.id+' '+kind+' '+JSON.stringify(metrics));
    const png=await tab.screenshot();const bytes=await sharp(png).webp({quality:88,effort:6}).toBuffer();
    if(kind!=='B'&&bytes.length>250000)throw Error('Image too large '+p.id+' '+kind);
    fs.writeFileSync(path.join(root,'public',output),bytes);
-   entry.assets.push({kind,tier:decision?2:1,path:output,width,height,bytes:bytes.length,sha256:hash(bytes),htmlSource:'tools/creatives/generated/'+filename,metrics,sourcePackshotsUnchanged:true});
+   entry.assets.push({kind,tier:decision?2:1,path:output,width,height,bytes:bytes.length,sha256:hash(bytes),htmlSource:'tools/creatives/generated/'+filename,metrics,sourcePackshotsUnchanged:true,...(decision?{scenarioSources:isComparison?['fits[0]','fits[1]','skip']:['fits','skip','steps[0]'],scenarioText:scenarios[p.id]}:{})});
   }
+  if(previous?.assets.some(a=>a.kind==='D'))entry.assets.push(previous.assets.find(a=>a.kind==='D'));
   p.visual={...(p.visual||{}),hero:entry.assets[0].path,infographic:entry.assets[2].path};manifest.push(entry);console.log(p.id+' A/B/C/C-portrait verified');
  }
  }finally{await browser.close();}
