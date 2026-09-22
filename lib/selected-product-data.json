@@ -1,21 +1,121 @@
 [
   {
+    "id": "k18-leave-in-50ml",
+    "name": "K18 Leave-In Molecular Repair Hair Mask",
+    "variant": "50 ml · en flaska, inte ett paket med schampo",
+    "selected": false,
+    "offer": {
+      "merchantId": "nordicfeel",
+      "merchantName": "NordicFeel",
+      "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3b1-hair-k18-body&url=www.nordicfeel.com/se/product/k18-leavein-repair-hair-mask-115729",
+      "placement": "hair-guide-body",
+      "checkedAt": "2026-09-14",
+      "price": {
+        "amount": 799,
+        "currency": "SEK",
+        "checkedAt": "2026-09-14T11:58:26+02:00",
+        "source": "https://www.nordicfeel.com/se/product/k18-leavein-repair-hair-mask-115729"
+      },
+      "programId": "872761485",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-14"
+    },
+    "image": {
+      "merchantId": "nordicfeel",
+      "src": "/products/partners/k18-50ml-nordicfeel.jpg",
+      "width": 940,
+      "height": 940,
+      "alt": "Vit flaska K18 Leave-In Molecular Repair Hair Mask, märkt 50 ml.",
+      "credit": "Produktbild från NordicFeel via Adtraction.",
+      "source": "https://www.nordicfeel.com/storage/B8B5A31653A64BBF47FE0AF668040EF610C1AAEC33E590D33F23FE9635C2372B/c33dc9d23b674b56a4fa8ddc81963e5b/jpg/media/d49d8931c5e54e2dbd67d1ebe8956420/P-115729.jpg",
+      "sha256": "44c2d7d7acb108dfe82e899b5c2edeb3af10f508b45674300ffdfeedcfd95c21",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    },
+    "amazon": {
+      "asin": "B0961ZS96M",
+      "productName": "K18 Leave-In Molecular Repair Hair Mask",
+      "variant": "50 ml · en flaska",
+      "source": "https://www.amazon.se/dp/B0961ZS96M",
+      "href": "https://www.amazon.se/dp/B0961ZS96M?tag=azzamkhalaf-21",
+      "identityCheckedAt": "2026-09-14",
+      "linkOnly": true
+    },
+    "home": {
+      "kind": "curated",
+      "category": "Skönhet",
+      "title": "K18 Leave-In Hair Mask",
+      "href": "/guider/harinpackning#hair-routine-detail",
+      "linkLabel": "Läs om K18 och din hårrutin",
+      "fit": "För dig med blekt eller färgat hår som vill undersöka en leave-in-behandling när din nuvarande rutin inte räcker.",
+      "caveat": "Vi har inte testat effekten. En rutin som redan fungerar är inget skäl att byta.",
+      "addedAt": "2026-09-14T11:58:26+02:00",
+      "reviewed": true,
+      "available": true
+    }
+  },
+  {
+    "id": "kobo-clara-bw",
+    "name": "Kobo Clara BW",
+    "variant": "6 tum · 16 GB · svartvit skärm · artikel 22150",
+    "selected": false,
+    "offer": {
+      "merchantId": "kjell",
+      "merchantName": "Kjell & Company",
+      "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3b1-kobo-offer&url=www.kjell.com/se/produkter/mobilt/las-surfplattor/lasplattor/kobo-clara-bw-lasplatta-6-p22150",
+      "placement": "product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 1899,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T10:48:38+02:00",
+        "source": "https://www.kjell.com/se/produkter/mobilt/las-surfplattor/lasplattor/kobo-clara-bw-lasplatta-6-p22150"
+      },
+      "programId": "1098281531",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22"
+    },
+    "image": {
+      "merchantId": "kjell",
+      "src": "/products/partners/kobo-clara-bw-kjell.jpg",
+      "width": 700,
+      "height": 700,
+      "alt": "Svart Kobo Clara BW med svartvit skärm och svensk exempeltext.",
+      "credit": "Produktbild från Kjell & Company via Adtraction. Skärminnehållet är ett exempel.",
+      "source": "https://www.kjell.com/cdn-cgi/image/width=700,height=700,fit=pad,format=auto/globalassets/productimages/899799_22150_01_se.jpg?ref=79DCD78FAD",
+      "sha256": "18caa51ba7314c6faa29c675a84b465d4d749e03a99060e1ca5ea74679f13ccd",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    },
+    "amazon": {
+      "asin": "B0CZXYV8GT",
+      "productName": "Kobo Clara BW",
+      "variant": "6 tum · 16 GB · svart · svartvit skärm",
+      "source": "https://www.amazon.se/dp/B0CZXYV8GT",
+      "href": "https://www.amazon.se/dp/B0CZXYV8GT?tag=azzamkhalaf-21",
+      "identityCheckedAt": "2026-09-14",
+      "linkOnly": true
+    },
+    "home": {
+      "kind": "curated",
+      "category": "Hälsa & vardag",
+      "title": "Kobo Clara BW",
+      "href": "/halsa/kindle-eller-kobo",
+      "linkLabel": "Jämför Kobo och Kindle",
+      "fit": "För dig som vill läsa på en kompakt, svartvit sextumsskärm och har kontrollerat att dina böcker fungerar med Kobo.",
+      "caveat": "Bibliotek och boktjänster kan kräva olika överföringssteg. Laddare ingår inte i Kjells listade produkt.",
+      "addedAt": "2026-09-14T11:58:26+02:00",
+      "reviewed": true,
+      "available": true
+    }
+  },
+  {
     "id": "redken-acidic-bonding-leave-in-150ml",
     "name": "Redken Acidic Bonding Concentrate Leave-In Treatment 150 ml",
     "variant": "150 ml · en tub",
-    "merchantId": "nordicfeel",
     "merchantItemId": "89232",
     "gtin": "0884486456380",
     "updatedAt": "2026-09-14",
-    "images": [
-      {
-        "src": "/products/selected/redken-acidic-bonding-leave-in-150ml/1.jpg",
-        "width": 1500,
-        "height": 1500,
-        "credit": "Produktbild: NordicFeel.",
-        "alt": "Redken leave-in i en tub på 150 ml."
-      }
-    ],
     "path": "/skonhet/redken-acidic-bonding-concentrate",
     "shortName": "Redken Acidic Bonding Concentrate",
     "brand": "Redken",
@@ -99,25 +199,66 @@
         "Hårolja eller värmeskydd?",
         "/skonhet/harolja-eller-varmeskydd"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "skonhet",
+    "offer": {
+      "merchantId": "nordicfeel",
+      "merchantName": "NordicFeel",
+      "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3-selected-1&url=www.nordicfeel.com/se/product/redken-acidic-perfecting-concentrate-89232",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-14",
+      "price": {
+        "amount": 389,
+        "currency": "SEK",
+        "checkedAt": "2026-09-14T13:24:47+02:00",
+        "source": "https://www.nordicfeel.com/se/product/redken-acidic-perfecting-concentrate-89232"
+      },
+      "programId": "872761485",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-14"
+    },
+    "image": {
+      "src": "/products/selected/redken-acidic-bonding-leave-in-150ml/1.jpg",
+      "width": 1500,
+      "height": 1500,
+      "credit": "Produktbild: NordicFeel.",
+      "source": "https://www.nordicfeel.com/storage/74B9E904D482A6099FD73D17021B1ADF2FD5DA4AB7F4E0382BDC8D10F4B74E04/9f3a04848a4b4d31bf42b6adad6054cc/jpg/media/d1d4cab847f043ce8935d73b9a78ca99/P-89232.jpg",
+      "sha256": "9405583ac19a510ab14f11d2ce62a1a85990068dfe414d0852e01d5c087c665c",
+      "merchantId": "nordicfeel",
+      "alt": "Redken leave-in i en tub på 150 ml.",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    },
+    "amazon": {
+      "asin": "B08P67N41H",
+      "productName": "Redken Acidic Bonding Concentrate Leave-In Treatment 150 ml",
+      "variant": "150 ml · en tub",
+      "source": "https://www.amazon.se/dp/B08P67N41H",
+      "href": "https://www.amazon.se/dp/B08P67N41H?tag=azzamkhalaf-21",
+      "identityCheckedAt": "2026-09-14",
+      "linkOnly": true
+    },
+    "home": {
+      "kind": "candidate",
+      "category": "Skönhet",
+      "title": "Redken Acidic Bonding Concentrate",
+      "href": "/skonhet/redken-acidic-bonding-concentrate",
+      "linkLabel": "Läs om Redken Acidic Bonding Concentrate",
+      "fit": "För dig som vill ha en leave-in-produkt i rutinen för behandlat hår.",
+      "caveat": "Ska lämnas kvar i håret. Jämför användning och mängd med din befintliga rutin.",
+      "addedAt": "2026-09-14T13:38:12+02:00",
+      "reviewed": true,
+      "available": true
+    }
   },
   {
     "id": "cmf-buds-2-dark-grey",
     "name": "Nothing CMF Buds 2 Mörkgrå",
     "variant": "Buds 2 · mörkgrå · modell 3000365",
-    "merchantId": "kjell",
     "merchantItemId": "24718",
     "gtin": null,
     "updatedAt": "2026-09-22",
-    "images": [
-      {
-        "src": "/products/selected/cmf-buds-2-dark-grey/1.webp",
-        "width": 3200,
-        "height": 3200,
-        "credit": "Produktbild: Kjell & Company.",
-        "alt": "CMF Buds 2 i öppet laddfodral."
-      }
-    ],
     "path": "/halsa/cmf-buds-2",
     "shortName": "CMF Buds 2",
     "brand": "CMF by Nothing",
@@ -214,25 +355,66 @@
         "Alla våra produktval",
         "/produkter"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "vardag",
+    "offer": {
+      "merchantId": "kjell",
+      "merchantName": "Kjell & Company",
+      "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-2&url=www.kjell.com/se/produkter/ljud-bild/horlurar-headset/tradlosa-horlurar/nothing-cmf-buds-2-morkgra-p24718",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 690,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T10:48:38+02:00",
+        "source": "https://www.kjell.com/se/produkter/ljud-bild/horlurar-headset/tradlosa-horlurar/nothing-cmf-buds-2-morkgra-p24718"
+      },
+      "programId": "1098281531",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22"
+    },
+    "image": {
+      "src": "/products/selected/cmf-buds-2-dark-grey/1.webp",
+      "width": 3200,
+      "height": 3200,
+      "credit": "Produktbild: Kjell & Company.",
+      "source": "https://www.kjell.com/globalassets/productimages/914289_24718_03.webp?ref=15CC8ED52A",
+      "sha256": "9739951224f6994e3eb2dc8cbedc60a983306861b62bf61b87f5dcfb236c2a5f",
+      "merchantId": "kjell",
+      "alt": "CMF Buds 2 i öppet laddfodral.",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    },
+    "amazon": {
+      "asin": "B0DZ81TM6Y",
+      "productName": "Nothing CMF Buds 2 Mörkgrå",
+      "variant": "Buds 2 · mörkgrå · modell 3000365",
+      "source": "https://www.amazon.se/dp/B0DZ81TM6Y",
+      "href": "https://www.amazon.se/dp/B0DZ81TM6Y?tag=azzamkhalaf-21",
+      "identityCheckedAt": "2026-09-14",
+      "linkOnly": true
+    },
+    "home": {
+      "kind": "candidate",
+      "category": "Hälsa & vardag",
+      "title": "CMF Buds 2",
+      "href": "/halsa/cmf-buds-2",
+      "linkLabel": "Läs om CMF Buds 2",
+      "fit": "För pendling och vardagslyssning med in-ear och aktiv brusreducering.",
+      "caveat": "USB-C-kabel och laddare säljs separat enligt Kjell. Passformen är individuell.",
+      "addedAt": "2026-09-14T13:38:12+02:00",
+      "reviewed": true,
+      "available": true
+    }
   },
   {
     "id": "beauty-of-joseon-propolis-serum",
     "name": "Beauty of Joseon Glow Serum Propolis + Niacinamide 30 ml",
     "variant": "Glow Serum · Propolis + Niacinamide · 30 ml · en flaska",
-    "merchantId": "nordicfeel",
     "merchantItemId": "114284",
     "gtin": "8809657114960",
     "updatedAt": "2026-09-14",
-    "images": [
-      {
-        "src": "/products/selected/beauty-of-joseon-propolis-serum/1.jpg",
-        "width": 940,
-        "height": 940,
-        "credit": "Produktbild: NordicFeel.",
-        "alt": "Glow Serum, flaska med pipett."
-      }
-    ],
     "path": "/skonhet/propolis-serum",
     "shortName": "Beauty of Joseon Glow Serum",
     "brand": "Beauty of Joseon",
@@ -316,25 +498,54 @@
         "CeraVe eller Cetaphil – börja med rengöringen",
         "/skonhet/cerave-eller-cetaphil"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "skonhet",
+    "offer": {
+      "merchantId": "nordicfeel",
+      "merchantName": "NordicFeel",
+      "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3-selected-3&url=www.nordicfeel.com/se/product/beauty-of-joseon-glow-serum-114284",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-14",
+      "price": {
+        "amount": 152,
+        "currency": "SEK",
+        "checkedAt": "2026-09-14T13:24:49+02:00",
+        "source": "https://www.nordicfeel.com/se/product/beauty-of-joseon-glow-serum-114284"
+      },
+      "programId": "872761485",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-14"
+    },
+    "image": {
+      "src": "/products/selected/beauty-of-joseon-propolis-serum/1.jpg",
+      "width": 940,
+      "height": 940,
+      "credit": "Produktbild: NordicFeel.",
+      "source": "https://www.nordicfeel.com/storage/13996088C0A5EDA3FC704F4F204A863CBC261E0A29DE869ECB7E9F61106249E7/3987c0c8dcfa424c85bc11c8f883b11b/jpg/media/bb4319715b4149faad97b105de30f73b/P-114284.jpg",
+      "sha256": "cb850234e7e99645db6f8da3514d632a8e2ef678f18ca0edfb214798a0abec1f",
+      "merchantId": "nordicfeel",
+      "alt": "Glow Serum, flaska med pipett.",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    },
+    "amazon": {
+      "asin": "B086VKZZZY",
+      "productName": "Beauty of Joseon Glow Serum Propolis + Niacinamide",
+      "variant": "30 ml · en flaska · EAN 8809657114960",
+      "source": "https://www.amazon.se/dp/B086VKZZZY",
+      "href": "https://www.amazon.se/dp/B086VKZZZY?tag=azzamkhalaf-21",
+      "identityCheckedAt": "2026-09-14",
+      "linkOnly": true
+    }
   },
   {
     "id": "tapo-c520ws-single",
     "name": "TP-Link Tapo C520WS Övervakningskamera",
     "variant": "Tapo C520WS · en kamera · nätansluten",
-    "merchantId": "kjell",
     "merchantItemId": "65412",
     "gtin": null,
     "updatedAt": "2026-09-22",
-    "images": [
-      {
-        "src": "/products/selected/tapo-c520ws-single/1.jpg",
-        "width": 3200,
-        "height": 3200,
-        "credit": "Produktbild: Kjell & Company.",
-        "alt": "Tapo C520WS med vridbart kamerahuvud och monteringsfäste."
-      }
-    ],
     "path": "/halsa/tapo-c520ws",
     "heading": "Vad kostar molnlagring för Tapo C520WS?",
     "shortName": "TP-Link Tapo C520WS",
@@ -436,25 +647,55 @@
         "Alla våra produktval",
         "/produkter"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "vardag",
+    "offer": {
+      "merchantId": "kjell",
+      "merchantName": "Kjell & Company",
+      "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-4&url=www.kjell.com/se/produkter/sakerhet-overvakning/kameraovervakning/overvakningskameror/overvakningskameror-utomhus/tp-link-tapo-c520ws-overvakningskamera-p65412",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "priceNote": "Kjell visade 689 kr som aktuellt köppris utan medlems- eller kampanjvillkor vid kontrollen den 22 september 2026. Outletvara är ett separat exemplar med eget pris och skick.",
+      "price": {
+        "amount": 689,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T10:48:38+02:00",
+        "source": "https://www.kjell.com/se/produkter/sakerhet-overvakning/kameraovervakning/overvakningskameror/overvakningskameror-utomhus/tp-link-tapo-c520ws-overvakningskamera-p65412"
+      },
+      "programId": "1098281531",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22"
+    },
+    "image": {
+      "src": "/products/selected/tapo-c520ws-single/1.jpg",
+      "width": 3200,
+      "height": 3200,
+      "credit": "Produktbild: Kjell & Company.",
+      "source": "https://www.kjell.com/globalassets/productimages/888266_65412.jpg?ref=EDCAB21238",
+      "sha256": "77b7601d5d1d37bc7201ef37ff2e606718086c75ced514f6ceea83d89a4f0b22",
+      "merchantId": "kjell",
+      "alt": "Tapo C520WS med vridbart kamerahuvud och monteringsfäste.",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    },
+    "amazon": {
+      "asin": "B0CCW8GHT8",
+      "productName": "TP-Link Tapo C520WS Övervakningskamera",
+      "variant": "Tapo C520WS · en kamera · nätansluten",
+      "source": "https://www.amazon.se/dp/B0CCW8GHT8",
+      "href": "https://www.amazon.se/dp/B0CCW8GHT8?tag=azzamkhalaf-21",
+      "identityCheckedAt": "2026-09-14",
+      "linkOnly": true
+    }
   },
   {
     "id": "kerastase-glaze-drops-45ml",
     "name": "Kérastase Gloss Absolu Glaze Drops Hair Oil 45 ml",
     "variant": "Gloss Absolu · Glaze Drops Hair Oil · 45 ml",
-    "merchantId": "nordicfeel",
     "merchantItemId": "192845",
     "gtin": "3474637285012",
     "updatedAt": "2026-09-14",
-    "images": [
-      {
-        "src": "/products/selected/kerastase-glaze-drops-45ml/1.jpg",
-        "width": 1500,
-        "height": 1500,
-        "credit": "Produktbild: NordicFeel.",
-        "alt": "Glaze Drops med pipetten lyft ur flaskan."
-      }
-    ],
     "path": "/skonhet/kerastase-glaze-drops",
     "shortName": "Kérastase Glaze Drops",
     "brand": "Kérastase",
@@ -533,25 +774,54 @@
         "Redken leave-in för ett annat steg",
         "/skonhet/redken-acidic-bonding-concentrate"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "skonhet",
+    "offer": {
+      "merchantId": "nordicfeel",
+      "merchantName": "NordicFeel",
+      "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3-selected-5&url=www.nordicfeel.com/se/product/kerastase-gloss-absolu-192845",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-14",
+      "price": {
+        "amount": 509,
+        "currency": "SEK",
+        "checkedAt": "2026-09-14T13:24:47+02:00",
+        "source": "https://www.nordicfeel.com/se/product/kerastase-gloss-absolu-192845"
+      },
+      "programId": "872761485",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-14"
+    },
+    "image": {
+      "src": "/products/selected/kerastase-glaze-drops-45ml/1.jpg",
+      "width": 1500,
+      "height": 1500,
+      "credit": "Produktbild: NordicFeel.",
+      "source": "https://www.nordicfeel.com/storage/190B5685298615F552555FF5A7C029675D5C53F430C1C35E6459756EA75B0CF9/1d644fd22d004d18a2ece28f4772c15e/jpg/media/02a725204cfc4388a9f053eba9f9c4fc/P-192845.jpg",
+      "sha256": "63c5c76241087237a1c5e5e0916ef9f53a2361e71ded47ca2125a67ceb50fef2",
+      "merchantId": "nordicfeel",
+      "alt": "Glaze Drops med pipetten lyft ur flaskan.",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    },
+    "amazon": {
+      "asin": "B0DQV1FQ49",
+      "productName": "Kérastase Gloss Absolu Glaze Drops Hair Oil 45 ml",
+      "variant": "Gloss Absolu · Glaze Drops Hair Oil · 45 ml",
+      "source": "https://www.amazon.se/dp/B0DQV1FQ49",
+      "href": "https://www.amazon.se/dp/B0DQV1FQ49?tag=azzamkhalaf-21",
+      "identityCheckedAt": "2026-09-14",
+      "linkOnly": true
+    }
   },
   {
     "id": "jbl-flip-7-black",
     "name": "JBL Flip 7 Portabel trådlös högtalare Svart",
     "variant": "Flip 7 · svart · JBLFLIP7BLK · en högtalare",
-    "merchantId": "kjell",
     "merchantItemId": "24592",
     "gtin": null,
     "updatedAt": "2026-09-22",
-    "images": [
-      {
-        "src": "/products/selected/jbl-flip-7-black/1.jpg",
-        "width": 3200,
-        "height": 3200,
-        "credit": "Produktbild: Kjell & Company.",
-        "alt": "JBL Flip 7 i svart."
-      }
-    ],
     "path": "/halsa/jbl-flip-7",
     "heading": "Fungerar JBL Flip 7 med Auracast?",
     "shortName": "JBL Flip 7",
@@ -647,25 +917,54 @@
         "Alla våra produktval",
         "/produkter"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "vardag",
+    "offer": {
+      "merchantId": "kjell",
+      "merchantName": "Kjell & Company",
+      "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-6&url=www.kjell.com/se/produkter/ljud-bild/hogtalare/barbara-hogtalare/jbl-flip-7-portabel-tradlos-hogtalare-svart-p24592",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 1689,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T10:48:38+02:00",
+        "source": "https://www.kjell.com/se/produkter/ljud-bild/hogtalare/barbara-hogtalare/jbl-flip-7-portabel-tradlos-hogtalare-svart-p24592"
+      },
+      "programId": "1098281531",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22"
+    },
+    "image": {
+      "src": "/products/selected/jbl-flip-7-black/1.jpg",
+      "width": 3200,
+      "height": 3200,
+      "credit": "Produktbild: Kjell & Company.",
+      "source": "https://www.kjell.com/globalassets/productimages/912814_24592.jpg?ref=7204338814",
+      "sha256": "b9dcd4b89c1c13c33c3e991fea76c763f69ad72e0c359d549aa6a6bbd418d804",
+      "merchantId": "kjell",
+      "alt": "JBL Flip 7 i svart.",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    },
+    "amazon": {
+      "asin": "B0DXKMXPXW",
+      "productName": "JBL Flip 7 Portabel trådlös högtalare Svart",
+      "variant": "Flip 7 · svart · JBLFLIP7BLK · en högtalare",
+      "source": "https://www.amazon.se/dp/B0DXKMXPXW",
+      "href": "https://www.amazon.se/dp/B0DXKMXPXW?tag=azzamkhalaf-21",
+      "identityCheckedAt": "2026-09-14",
+      "linkOnly": true
+    }
   },
   {
     "id": "cosrx-snail-96-100ml",
     "name": "COSRX Advanced Snail 96 Mucin Power Essence 100 ml",
     "variant": "Advanced Snail 96 Mucin Power Essence · 100 ml · en flaska",
-    "merchantId": "nordicfeel",
     "merchantItemId": "92950",
     "gtin": "8809416470009",
     "updatedAt": "2026-09-14",
-    "images": [
-      {
-        "src": "/products/selected/cosrx-snail-96-100ml/1.jpg",
-        "width": 940,
-        "height": 940,
-        "credit": "Produktbild: NordicFeel.",
-        "alt": "COSRX Advanced Snail 96, pumpflaska på 100 ml."
-      }
-    ],
     "path": "/skonhet/cosrx-snail-96",
     "shortName": "COSRX Advanced Snail 96",
     "brand": "COSRX",
@@ -749,25 +1048,54 @@
         "Börja med rätt rengöring",
         "/skonhet/cerave-eller-cetaphil"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "skonhet",
+    "offer": {
+      "merchantId": "nordicfeel",
+      "merchantName": "NordicFeel",
+      "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3-selected-7&url=www.nordicfeel.com/se/product/cosrx-advanced-snail-96-mucin-power-essence-92950",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-14",
+      "price": {
+        "amount": 183,
+        "currency": "SEK",
+        "checkedAt": "2026-09-14T13:24:47+02:00",
+        "source": "https://www.nordicfeel.com/se/product/cosrx-advanced-snail-96-mucin-power-essence-92950"
+      },
+      "programId": "872761485",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-14"
+    },
+    "image": {
+      "src": "/products/selected/cosrx-snail-96-100ml/1.jpg",
+      "width": 940,
+      "height": 940,
+      "credit": "Produktbild: NordicFeel.",
+      "source": "https://www.nordicfeel.com/storage/832D545A2896D481A90DB11F077F95CCA12F07DC9F5F06A640BBA92F20B3D1F0/111c5058578b4dfc9f8a93d1357c1c17/jpg/media/aa46cb1f044a438b837585d27d98f78e/P-92950.jpg",
+      "sha256": "3f4fd058f2a6401f6bcd824831db8820d4b213d3f2306e9ed874809f8c51b725",
+      "merchantId": "nordicfeel",
+      "alt": "COSRX Advanced Snail 96, pumpflaska på 100 ml.",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    },
+    "amazon": {
+      "asin": "B00PBX3L7K",
+      "productName": "COSRX Advanced Snail 96 Mucin Power Essence 100 ml",
+      "variant": "Advanced Snail 96 Mucin Power Essence · 100 ml · en flaska",
+      "source": "https://www.amazon.se/dp/B00PBX3L7K",
+      "href": "https://www.amazon.se/dp/B00PBX3L7K?tag=azzamkhalaf-21",
+      "identityCheckedAt": "2026-09-14",
+      "linkOnly": true
+    }
   },
   {
     "id": "anker-prime-300w-26250mah",
     "name": "Anker Prime Powerbank 300 W PD 3.1 26250 mAh",
     "variant": "26 250 mAh · 300 W totalt · A110AH11 · utan laddstation",
-    "merchantId": "kjell",
     "merchantItemId": "88933",
     "gtin": null,
     "updatedAt": "2026-09-22",
-    "images": [
-      {
-        "src": "/products/selected/anker-prime-300w-26250mah/1.webp",
-        "width": 3200,
-        "height": 3200,
-        "credit": "Produktbild: Kjell & Company.",
-        "alt": "Anker Prime med display och portar på ovansidan."
-      }
-    ],
     "path": "/halsa/anker-prime-300w",
     "shortName": "Anker Prime 300 W",
     "brand": "Anker",
@@ -860,25 +1188,46 @@
         "/halsa/cmf-buds-2"
       ]
     ],
-    "campaignEndsAt": "2026-09-27T23:59:59+02:00"
+    "campaignEndsAt": "2026-09-27T23:59:59+02:00",
+    "selected": true,
+    "hubGroup": "vardag",
+    "offer": {
+      "merchantId": "kjell",
+      "merchantName": "Kjell & Company",
+      "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-8&url=www.kjell.com/se/produkter/mobilt/powerbank/anker-prime-powerbank-300-w-pd-3.1-26250-mah-p88933",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "priceNote": "Kampanjpris 1 990 kr (ordinarie 2 490 kr) till och med 27 september 2026 enligt Kjell. Butikens pris gäller vid köp.",
+      "price": {
+        "amount": 1990,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T10:48:38+02:00",
+        "source": "https://www.kjell.com/se/produkter/mobilt/powerbank/anker-prime-powerbank-300-w-pd-3.1-26250-mah-p88933"
+      },
+      "programId": "1098281531",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22"
+    },
+    "image": {
+      "src": "/products/selected/anker-prime-300w-26250mah/1.webp",
+      "width": 3200,
+      "height": 3200,
+      "credit": "Produktbild: Kjell & Company.",
+      "source": "https://www.kjell.com/globalassets/productimages/924818_88933_01.webp?ref=99B78F57FE",
+      "sha256": "56330658f7fe5bc477cc3f9fb134e6f6a76a1149602f460eeab3fe8876c7c6fe",
+      "merchantId": "kjell",
+      "alt": "Anker Prime med display och portar på ovansidan.",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    }
   },
   {
     "id": "clinisoothe-skin-purifier-100ml",
     "name": "Clinisoothe Skin Purifier Spray 100 ml",
     "variant": "Skin Purifier Spray · 100 ml · en flaska",
-    "merchantId": "nordicfeel",
     "merchantItemId": "125103",
     "gtin": "5060449040390",
     "updatedAt": "2026-09-14",
-    "images": [
-      {
-        "src": "/products/selected/clinisoothe-skin-purifier-100ml/1.jpg",
-        "width": 940,
-        "height": 940,
-        "credit": "Produktbild: NordicFeel.",
-        "alt": "Clinisoothe Skin Purifier, sprayflaska på 100 ml."
-      }
-    ],
     "path": "/skonhet/clinisoothe-skin-purifier",
     "shortName": "Clinisoothe Skin Purifier",
     "brand": "Clinisoothe",
@@ -957,25 +1306,54 @@
         "Alla våra produktval",
         "/produkter"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "skonhet",
+    "offer": {
+      "merchantId": "nordicfeel",
+      "merchantName": "NordicFeel",
+      "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3-selected-9&url=www.nordicfeel.com/se/product/clinisoothe-skin-purifier-125103",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-14",
+      "price": {
+        "amount": 165,
+        "currency": "SEK",
+        "checkedAt": "2026-09-14T13:24:47+02:00",
+        "source": "https://www.nordicfeel.com/se/product/clinisoothe-skin-purifier-125103"
+      },
+      "programId": "872761485",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-14"
+    },
+    "image": {
+      "src": "/products/selected/clinisoothe-skin-purifier-100ml/1.jpg",
+      "width": 940,
+      "height": 940,
+      "credit": "Produktbild: NordicFeel.",
+      "source": "https://www.nordicfeel.com/storage/45BCC969320E6C27B22CE0B33CE7CF5A1FF38A80AECB9C0C8FE5457B2D0E57A3/de87ada4af534318b320538b0a6e4444/jpg/media/a0db0aca4e03401b92416cd3c9f20dd5/P-125103.jpg",
+      "sha256": "41a55ff98ff2c751602f19d63e839fddd39883bc2b01a335f85025e24a7f096b",
+      "merchantId": "nordicfeel",
+      "alt": "Clinisoothe Skin Purifier, sprayflaska på 100 ml.",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    },
+    "amazon": {
+      "asin": "B08LTTBGPN",
+      "productName": "Clinisoothe Skin Purifier Spray 100 ml",
+      "variant": "Skin Purifier Spray · 100 ml · en flaska",
+      "source": "https://www.amazon.se/dp/B08LTTBGPN",
+      "href": "https://www.amazon.se/dp/B08LTTBGPN?tag=azzamkhalaf-21",
+      "identityCheckedAt": "2026-09-14",
+      "linkOnly": true
+    }
   },
   {
     "id": "linocell-wireless-carplay-q1m",
     "name": "Linocell Trådlös CarPlay- och Android Auto-adapter",
     "variant": "Q1M · artikel 22179 · CarPlay / Android Auto-adapter",
-    "merchantId": "kjell",
     "merchantItemId": "22179",
     "gtin": null,
     "updatedAt": "2026-09-22",
-    "images": [
-      {
-        "src": "/products/selected/linocell-wireless-carplay-q1m/1.jpg",
-        "width": 3200,
-        "height": 3200,
-        "credit": "Produktbild: Kjell & Company.",
-        "alt": "Linocell-adaptern och den medföljande USB-C-adaptern."
-      }
-    ],
     "path": "/halsa/linocell-carplay-adapter",
     "shortName": "Linocell CarPlay-adapter",
     "brand": "Linocell",
@@ -1059,25 +1437,46 @@
         "/halsa/anker-prime-300w"
       ]
     ],
-    "campaignEndsAt": "2026-09-30T23:59:59+02:00"
+    "campaignEndsAt": "2026-09-30T23:59:59+02:00",
+    "selected": true,
+    "hubGroup": "vardag",
+    "offer": {
+      "merchantId": "kjell",
+      "merchantName": "Kjell & Company",
+      "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-10&url=www.kjell.com/se/produkter/ljud-bild/musikspelare-radio/musikmottagare-sandare/linocell-tradlos-carplay-och-android-auto-adapter-p22179",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "priceNote": "Kampanjpris 279 kr (ordinarie 349,90 kr) till och med 30 september 2026 enligt Kjell. Butikens pris gäller vid köp.",
+      "price": {
+        "amount": 279,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T10:48:38+02:00",
+        "source": "https://www.kjell.com/se/produkter/ljud-bild/musikspelare-radio/musikmottagare-sandare/linocell-tradlos-carplay-och-android-auto-adapter-p22179"
+      },
+      "programId": "1098281531",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22"
+    },
+    "image": {
+      "src": "/products/selected/linocell-wireless-carplay-q1m/1.jpg",
+      "width": 3200,
+      "height": 3200,
+      "credit": "Produktbild: Kjell & Company.",
+      "source": "https://www.kjell.com/globalassets/productimages/919960_22179_01_m045n--_00.jpg?ref=0B266D244C",
+      "sha256": "f0915ea3e696010566b88017e7378dff68678a64ed56c949de8030059c184311",
+      "merchantId": "kjell",
+      "alt": "Linocell-adaptern och den medföljande USB-C-adaptern.",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    }
   },
   {
     "id": "ole-henriksen-pout-strawberry-12ml",
     "name": "Ole Henriksen Pout Preserve Peptide Lip Treatment",
     "variant": "Strawberry Sorbet · 12 ml · en tub",
-    "merchantId": "lyko",
     "merchantItemId": "1225-406-0001",
     "gtin": null,
     "updatedAt": "2026-09-14",
-    "images": [
-      {
-        "src": "/products/selected/ole-henriksen-pout-strawberry-12ml/1.jpg",
-        "width": 500,
-        "height": 957,
-        "credit": "Produktbild: Lyko.",
-        "alt": "Ole Henriksen Pout Preserve Peptide Lip Treatment, Strawberry Sorbet · 12 ml · en tub."
-      }
-    ],
     "path": "/skonhet/ole-henriksen-pout-preserve",
     "category": "Skönhet",
     "metaTitle": "Ole Henriksen Pout Preserve Strawberry Sorbet – färg och pris",
@@ -1156,25 +1555,47 @@
         "Fler produktval",
         "/produkter"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "lyko",
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-1&url=https%3A%2F%2Flyko.com%2Fsv%2Fole-henriksen%2Fole-henriksen-pout-preserve-lip-treatment-strawberry-sorbet-12-ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-14",
+      "price": {
+        "amount": 198,
+        "currency": "SEK",
+        "checkedAt": "2026-09-14T13:49:50.568Z",
+        "source": "https://lyko.com/sv/ole-henriksen/ole-henriksen-pout-preserve-lip-treatment-strawberry-sorbet-12-ml"
+      },
+      "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-14"
+    },
+    "image": {
+      "src": "/products/selected/ole-henriksen-pout-strawberry-12ml/1.jpg",
+      "width": 500,
+      "height": 957,
+      "credit": "Produktbild: Lyko.",
+      "alt": "Ole Henriksen Pout Preserve Peptide Lip Treatment, Strawberry Sorbet · 12 ml · en tub.",
+      "merchantId": "lyko",
+      "source": "https://lyko.com/globalassets/product-images/ole-henriksen-pout-preserve-lip-treatment-strawberry-sorbet-12-ml-1225-406-0001_1.jpg?ref=95D244D347",
+      "sha256": "f3248dc1817ece2334daea3e2882c0edaa07ce85580405820bcc4deab11624fe",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    }
   },
   {
     "id": "lumene-cc-medium-30ml",
     "name": "Lumene CC Color Correcting Cream SPF20",
     "variant": "2 Medium · 30 ml · en tub",
-    "merchantId": "lyko",
     "merchantItemId": "1188-564-0004",
     "gtin": "6412600834932",
     "updatedAt": "2026-09-14",
-    "images": [
-      {
-        "src": "/products/selected/lumene-cc-medium-30ml/1.jpg",
-        "width": 500,
-        "height": 1577,
-        "credit": "Produktbild: Lyko.",
-        "alt": "Lumene CC Color Correcting Cream SPF20, 2 Medium · 30 ml · en tub."
-      }
-    ],
     "path": "/skonhet/lumene-cc-cream-medium",
     "category": "Skönhet",
     "metaTitle": "Lumene CC Cream 2 Medium 30 ml – nyans, täckning och pris",
@@ -1257,25 +1678,47 @@
         "Fler produktval",
         "/produkter"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "lyko",
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-2&url=https%3A%2F%2Flyko.com%2Fsv%2Flumene%2Flumene-cc-color-correcting-cream-spf20-medium",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-14",
+      "price": {
+        "amount": 167,
+        "currency": "SEK",
+        "checkedAt": "2026-09-14T13:49:46.310Z",
+        "source": "https://lyko.com/sv/lumene/lumene-cc-color-correcting-cream-spf20-medium"
+      },
+      "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-14"
+    },
+    "image": {
+      "src": "/products/selected/lumene-cc-medium-30ml/1.jpg",
+      "width": 500,
+      "height": 1577,
+      "credit": "Produktbild: Lyko.",
+      "alt": "Lumene CC Color Correcting Cream SPF20, 2 Medium · 30 ml · en tub.",
+      "merchantId": "lyko",
+      "source": "https://lyko.com/globalassets/product-images/lumene-cc-color-correcting-cream-spf20-medium-1188-564-0004_1.jpg?ref=71398FC56D",
+      "sha256": "aa0d94d35cf8831507813698b04ca252879c35dbe2f893e72975cbb8a8bd5203",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    }
   },
   {
     "id": "amika-hydro-rush-leave-in-200ml",
     "name": "Amika Hydro Rush Intense Moisture Leave-In Conditioner",
     "variant": "200 ml · en sprayflaska",
-    "merchantId": "lyko",
     "merchantItemId": "1035-386-0200",
     "gtin": null,
     "updatedAt": "2026-09-14",
-    "images": [
-      {
-        "src": "/products/selected/amika-hydro-rush-leave-in-200ml/1.jpg",
-        "width": 500,
-        "height": 1570,
-        "credit": "Produktbild: Lyko.",
-        "alt": "Amika Hydro Rush Intense Moisture Leave-In Conditioner, 200 ml · en sprayflaska."
-      }
-    ],
     "path": "/skonhet/amika-hydro-rush-leave-in",
     "category": "Skönhet",
     "metaTitle": "Amika Hydro Rush Leave-In 200 ml – användning och pris",
@@ -1354,25 +1797,47 @@
         "Wella SP LuxeOil 100 ml",
         "/skonhet/wella-sp-luxeoil"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "lyko",
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-3&url=https%3A%2F%2Flyko.com%2Fsv%2Famika%2Famika-hydro-rush-intense-moisture-leave-in-conditioner-200ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-14",
+      "price": {
+        "amount": 349,
+        "currency": "SEK",
+        "checkedAt": "2026-09-14T13:49:45.045Z",
+        "source": "https://lyko.com/sv/amika/amika-hydro-rush-intense-moisture-leave-in-conditioner-200ml"
+      },
+      "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-14"
+    },
+    "image": {
+      "src": "/products/selected/amika-hydro-rush-leave-in-200ml/1.jpg",
+      "width": 500,
+      "height": 1570,
+      "credit": "Produktbild: Lyko.",
+      "alt": "Amika Hydro Rush Intense Moisture Leave-In Conditioner, 200 ml · en sprayflaska.",
+      "merchantId": "lyko",
+      "source": "https://lyko.com/globalassets/product-images/amika-hydro-rush-intense-moisture-leave-in-conditioner-200ml-1035-386-0200_1.jpg?ref=E08962BE2D",
+      "sha256": "e51cf0854edf3c27fcf0a6304618af1580f5e8e03cf83dcfc5eb865a3142afa5",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    }
   },
   {
     "id": "la-roche-posay-cicaplast-b5-100ml",
     "name": "La Roche-Posay Cicaplast Balm B5+ 100 ml",
     "variant": "100 ml · en tub · B5+ utan SPF",
-    "merchantId": "lyko",
     "merchantItemId": "2486-209-0100",
     "gtin": "3337875816847",
     "updatedAt": "2026-09-22",
-    "images": [
-      {
-        "src": "/products/selected/la-roche-posay-cicaplast-b5-100ml/1.jpg",
-        "width": 500,
-        "height": 1086,
-        "credit": "Produktbild: Lyko.",
-        "alt": "La Roche-Posay Cicaplast Balm B5+, 100 ml · en tub · B5+ utan SPF."
-      }
-    ],
     "path": "/skonhet/cicaplast-b5",
     "heading": "Vad är Cicaplast Balm B5+?",
     "category": "Skönhet",
@@ -1467,25 +1932,47 @@
         "Fler produktval",
         "/produkter"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "lyko",
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-4&url=https%3A%2F%2Flyko.com%2Fsv%2Fla-roche-posay%2Fla-roche-posay-cicaplast-balm-b5--100-ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-14",
+      "price": {
+        "amount": 197,
+        "currency": "SEK",
+        "checkedAt": "2026-09-14T13:49:49.018Z",
+        "source": "https://lyko.com/sv/la-roche-posay/la-roche-posay-cicaplast-balm-b5--100-ml"
+      },
+      "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-14"
+    },
+    "image": {
+      "src": "/products/selected/la-roche-posay-cicaplast-b5-100ml/1.jpg",
+      "width": 500,
+      "height": 1086,
+      "credit": "Produktbild: Lyko.",
+      "alt": "La Roche-Posay Cicaplast Balm B5+, 100 ml · en tub · B5+ utan SPF.",
+      "merchantId": "lyko",
+      "source": "https://lyko.com/globalassets/product-images/la-roche-posay-cicaplast-balm-b5-2486-209-0100_1.jpg?ref=C5B0BE7385",
+      "sha256": "65ebbbdf26a082db1ab97f0ec7c5c4fd4f5c9fe32eb9e2198e7ac7caddce7d42",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    }
   },
   {
     "id": "wella-sp-luxeoil-100ml",
     "name": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir 100 ml",
     "variant": "100 ml · en flaska",
-    "merchantId": "lyko",
     "merchantItemId": "1330-479-0100",
     "gtin": null,
     "updatedAt": "2026-09-22",
-    "images": [
-      {
-        "src": "/products/selected/wella-sp-luxeoil-100ml/1.jpg",
-        "width": 500,
-        "height": 1701,
-        "credit": "Produktbild: Lyko.",
-        "alt": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir, 100 ml · en flaska."
-      }
-    ],
     "path": "/skonhet/wella-sp-luxeoil",
     "heading": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir 100 ml",
     "category": "Skönhet",
@@ -1570,6 +2057,47 @@
         "Kérastase Glaze Drops för längder och toppar",
         "/skonhet/kerastase-glaze-drops"
       ]
-    ]
+    ],
+    "selected": true,
+    "hubGroup": "lyko",
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-5&url=https%3A%2F%2Flyko.com%2Fsv%2Fwella-professionals%2Fwella-sp-luxeoil",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-14",
+      "price": {
+        "amount": 424,
+        "currency": "SEK",
+        "checkedAt": "2026-09-14T15:58:30+02:00",
+        "source": "https://lyko.com/sv/wella-professionals/wella-sp-luxeoil"
+      },
+      "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-14"
+    },
+    "image": {
+      "src": "/products/selected/wella-sp-luxeoil-100ml/1.jpg",
+      "width": 500,
+      "height": 1701,
+      "credit": "Produktbild: Lyko.",
+      "alt": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir, 100 ml · en flaska.",
+      "merchantId": "lyko",
+      "source": "https://lyko.com/globalassets/product-images/wella-sp-luxeoil-reconstructive-oil-elixir-100-ml-1330-479-0100_1.jpg?ref=DE1A69644C",
+      "sha256": "7c85f2d712072dca263a80d316f7fe95619c04f6849c260bcb81dc49231eb22a",
+      "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
+      "reviewedAt": "2026-09-13"
+    },
+    "amazon": {
+      "asin": "B009ZVHWW4",
+      "productName": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir",
+      "variant": "100 ml · en flaska",
+      "source": "https://www.amazon.se/dp/B009ZVHWW4",
+      "href": "https://www.amazon.se/dp/B009ZVHWW4?tag=azzamkhalaf-21",
+      "identityCheckedAt": "2026-09-14",
+      "linkOnly": true
+    }
   }
 ]
