@@ -107,7 +107,21 @@
       "addedAt": "2026-09-14T11:58:26+02:00",
       "reviewed": true,
       "available": true
-    }
+    },
+    "related": [
+      [
+        "Är färgskärmen värd mer?",
+        "/halsa/kobo-clara-colour"
+      ],
+      [
+        "Clara Colour eller BW?",
+        "/halsa/kobo-clara-colour-eller-clara-bw"
+      ],
+      [
+        "Filmkväll med inbyggda appar?",
+        "/halsa/wanbo-cube-2-pro"
+      ]
+    ]
   },
   {
     "id": "redken-acidic-bonding-leave-in-150ml",
@@ -354,6 +368,14 @@
       [
         "Alla våra produktval",
         "/produkter"
+      ],
+      [
+        "Vad tillför Ear (3a)?",
+        "/halsa/nothing-ear-3a"
+      ],
+      [
+        "Ear (3a) eller CMF Buds 2?",
+        "/halsa/nothing-ear-3a-eller-cmf-buds-2"
       ]
     ],
     "selected": true,
@@ -646,6 +668,14 @@
       [
         "Alla våra produktval",
         "/produkter"
+      ],
+      [
+        "W330 utan molnabonnemang",
+        "/halsa/reolink-w330"
+      ],
+      [
+        "Reolink eller Tapo med lokal lagring?",
+        "/halsa/reolink-w330-eller-tapo-c520ws"
       ]
     ],
     "selected": true,
@@ -916,6 +946,14 @@
       [
         "Alla våra produktval",
         "/produkter"
+      ],
+      [
+        "Hörlurar med LDAC?",
+        "/halsa/nothing-ear-3a"
+      ],
+      [
+        "Två in-ear-alternativ",
+        "/halsa/nothing-ear-3a-eller-cmf-buds-2"
       ]
     ],
     "selected": true,
@@ -2098,6 +2136,837 @@
       "href": "https://www.amazon.se/dp/B009ZVHWW4?tag=azzamkhalaf-21",
       "identityCheckedAt": "2026-09-14",
       "linkOnly": true
+    }
+  },
+  {
+    "id": "wanbo-cube-2-pro",
+    "name": "Wanbo Cube 2 Pro",
+    "variant": "C2P-W · Full HD · Android TV 11",
+    "selected": true,
+    "hubGroup": "vardag",
+    "merchantItemId": "29994",
+    "updatedAt": "2026-09-22",
+    "path": "/halsa/wanbo-cube-2-pro",
+    "heading": "Fungerar Netflix på Wanbo Cube 2 Pro?",
+    "shortName": "Wanbo Cube 2 Pro",
+    "brand": "Wanbo",
+    "category": "Hälsa & vardag",
+    "topic": "Vardagens teknik",
+    "metaTitle": "Fungerar Netflix på Wanbo Cube 2 Pro?",
+    "description": "Fungerar Netflix på Wanbo Cube 2 Pro? Se vad tillverkaren faktiskt lovar, varför mörkläggning behövs och vad du bör kontrollera före köp.",
+    "question": "Kort svar",
+    "answer": "Wanbo och Kjell anger Netflix bland apparna på Cube 2 Pro. Tillverkaren beskriver certifiering, men vi har inte kunnat bekräfta just den svenska varianten i Netflix egen modellinformation. Välj den för inbyggda appar och en mörk filmkväll, inte som garanti för alla tjänster. Den behöver eluttag även när du flyttar den mellan rum.",
+    "targetQuery": "Fungerar Netflix på Wanbo Cube 2 Pro?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du vill slippa en separat mediaspelare och kan kontrollera dina appar före köp.",
+      "Du kan mörklägga rummet och ordna ett eluttag nära placeringen."
+    ],
+    "skip": "Avstå om du behöver batteridrift, garanterad bild i dagsljus eller ett oberoende verifierat Netflix-stöd för den svenska varianten.",
+    "decisionTitle": "När är köpet värt det?",
+    "decision": "Merkostnaden mot CV200 köper främst inbyggda appar, fler bildpunkter och automatisk inställning. Behåll din TV om den redan löser filmkvällen. Vi har inte provat uppspelning, fläktljud eller ljusstyrka.",
+    "facts": [
+      [
+        "Exakt modell",
+        "C2P-W · artikel 29994"
+      ],
+      [
+        "Bild",
+        "1920 × 1080 · 500 ANSI lumen"
+      ],
+      [
+        "System",
+        "Android TV 11"
+      ],
+      [
+        "Inställning",
+        "ToF-autofokus och automatisk keystone"
+      ],
+      [
+        "Ljud och wifi",
+        "8 W · 2,4/5 GHz"
+      ],
+      [
+        "Ström",
+        "Strömkabel; planera för eluttag"
+      ]
+    ],
+    "steps": [
+      [
+        "Kontrollera appen",
+        "Bekräfta tjänsten för modellen i Sverige."
+      ],
+      [
+        "Mörklägg",
+        "Välj en yta utan direkt fönsterljus."
+      ],
+      [
+        "Planera el",
+        "Flyttbar betyder inte batteridriven."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "Wanbo – Cube 2 Pro",
+        "url": "https://wanbo.cn/en-cl/pages/wanbo-cube-2-pro-projector",
+        "checkedAt": "2026-09-22",
+        "supports": "Tillverkarens uppgifter om appar, certifiering, upplösning, ljusstyrka och automatisk inställning; ingen egen provning."
+      },
+      {
+        "label": "Netflix – projektorer",
+        "url": "https://help.netflix.com/en/node/360036298050660",
+        "checkedAt": "2026-09-22",
+        "supports": "Netflix hänvisar certifieringsfrågor till tillverkaren; ingen individuell svensk modellbekräftelse funnen."
+      },
+      {
+        "label": "Kjell – artikel 29994",
+        "url": "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/wanbo-cube-2-pro-smart-projektor-med-full-hd-och-android-tv-11-p29994",
+        "checkedAt": "2026-09-22",
+        "supports": "Svensk C2P-W, ljud, wifi, ström, oförändrad produktbild och daterat köppris."
+      }
+    ],
+    "related": [
+      [
+        "Jämför projektorerna",
+        "/halsa/wanbo-cube-2-pro-eller-plexgear-cv200"
+      ],
+      [
+        "Netflix via HDMI på CV200",
+        "/halsa/plexgear-cv200"
+      ],
+      [
+        "Läsa i stället för skärmtid",
+        "/halsa/kobo-clara-bw"
+      ]
+    ],
+    "offer": {
+      "merchantId": "kjell",
+      "merchantName": "Kjell & Company",
+      "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26w1-wanbo-cube-2-pro&url=https%3A%2F%2Fwww.kjell.com%2Fse%2Fprodukter%2Fljud-bild%2Ftv-tillbehor%2Fprojektorer%2Fwanbo-cube-2-pro-smart-projektor-med-full-hd-och-android-tv-11-p29994",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 2499,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:38:00+02:00",
+        "source": "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/wanbo-cube-2-pro-smart-projektor-med-full-hd-och-android-tv-11-p29994"
+      },
+      "programId": "1098281531",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:38:00+02:00"
+    },
+    "image": {
+      "merchantId": "kjell",
+      "src": "/products/selected/wanbo-cube-2-pro/1.webp",
+      "width": 848,
+      "height": 848,
+      "alt": "Wanbo Cube 2 Pro, C2P-W · Full HD · Android TV 11.",
+      "credit": "Produktbild: Kjell & Company.",
+      "source": "https://www.kjell.com/cdn-cgi/image/quality=80,width=848,format=auto/globalassets/productimages/937596_29994_01.webp?ref=6F921CB0D9",
+      "sha256": "c35d4fe9f9e0ef8a8e139f12a39374b173175b4af02a991d3b50be820849bf4b",
+      "permissionScope": "Unchanged merchant packshot on the approved channel. Editorial framing only; no product retouching. Social use subject to the dated program conditions.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Är Netflix officiellt certifierat?",
+        "answer": "Wanbo listar Netflix och beskriver certifiering för streaming. Texten kopplar samtidigt Netflix till Widevine L1. Det är tillverkarens uppgift, inte vår verifiering av en Netflix-certifiering för C2P-W i Sverige. Netflix hänvisar frågor om certifiering till projektortillverkaren. Om Netflix avgör köpet: begär besked för exakt modell och region; vi har inte installerat appen.",
+        "sourceUrls": [
+          "https://wanbo.cn/en-cl/pages/wanbo-cube-2-pro-projector",
+          "https://help.netflix.com/en/node/360036298050660"
+        ]
+      },
+      {
+        "question": "Räcker 500 ANSI lumen i ett ljust rum?",
+        "answer": "500 ANSI lumen är angiven ljusstyrka, inte ett löfte om TV-liknande bild i dagsljus. Vår bedömning är att mörkläggning och en rimlig bildstorlek bör ingå i planen. Någon egen mätning av kontrast eller bild vid fönsterljus finns inte.",
+        "sourceUrls": [
+          "https://wanbo.cn/en-cl/pages/wanbo-cube-2-pro-projector"
+        ]
+      },
+      {
+        "question": "Är den bärbar utan batteri?",
+        "answer": "Bärbar beskriver att den kan flyttas. Kjells förpackning innehåller strömkabel och modellen ska planeras för eluttag, inte en batteridriven filmkväll utomhus. ToF-autofokus och automatisk keystone förenklar placeringen, men ersätter inte en bra projektionsyta.",
+        "sourceUrls": [
+          "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/wanbo-cube-2-pro-smart-projektor-med-full-hd-och-android-tv-11-p29994",
+          "https://wanbo.cn/en-cl/pages/wanbo-cube-2-pro-projector"
+        ]
+      },
+      {
+        "question": "Behövs separata högtalare eller nätverkskabel?",
+        "answer": "Kjell anger en inbyggd högtalare på 8 W och wifi på 2,4 och 5 GHz. Det räcker för att beskriva anslutningarna, inte ljudkvaliteten. Utgå från inbyggt ljud först och bedöm behovet av mer ljud efter rummets storlek.",
+        "sourceUrls": [
+          "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/wanbo-cube-2-pro-smart-projektor-med-full-hd-och-android-tv-11-p29994"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "plexgear-cv200",
+    "name": "Plexgear CV200",
+    "variant": "CV200 · modell F100 · LCD-projektor",
+    "selected": true,
+    "hubGroup": "vardag",
+    "merchantItemId": "24815",
+    "updatedAt": "2026-09-22",
+    "path": "/halsa/plexgear-cv200",
+    "heading": "Kan Plexgear CV200 visa Netflix – och räcker 720p?",
+    "shortName": "Plexgear CV200",
+    "brand": "Plexgear",
+    "category": "Hälsa & vardag",
+    "topic": "Vardagens teknik",
+    "metaTitle": "Kan Plexgear CV200 visa Netflix – och räcker 720p?",
+    "description": "Kan Plexgear CV200 visa Netflix? Förstå HDMI-behovet, skillnaden mellan 720p och 1080p-stöd samt varför 150 ANSI lumen kräver mörker.",
+    "question": "Kort svar",
+    "answer": "Plexgear CV200 har inte Android TV med egna streamingappar. Kjell anger att Netflix och liknande tjänster behöver en HDMI-ansluten källa; räkna därför in en kompatibel mediaspelare om du saknar en. Bilden visas i 720p även när källan skickar 1080p. Välj den för enklare visning i mörker, inte för skarp storbild i ett ljust vardagsrum.",
+    "targetQuery": "Kan Plexgear CV200 visa Netflix – och räcker 720p?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du har redan en kompatibel HDMI-källa.",
+      "Du accepterar enklare upplösning och kan mörklägga."
+    ],
+    "skip": "Avstå om du väntar dig Netflix direkt i projektorn, batteridrift eller tydlig storbild i dagsljus.",
+    "decisionTitle": "När är köpet värt det?",
+    "decision": "Lägg kostnaden för eventuell mediaspelare till projektorpriset. Om paketet närmar sig en modell med inbyggda appar är det bekvämligheten och bildkravet som bör styra, inte det lägsta startpriset.",
+    "facts": [
+      [
+        "Exakt variant",
+        "CV200 / F100 · artikel 24815"
+      ],
+      [
+        "Panel",
+        "1280 × 720"
+      ],
+      [
+        "Insignal",
+        "Stöd för 1920 × 1080, nedskalad"
+      ],
+      [
+        "Ljusstyrka",
+        "150 ANSI lumen"
+      ],
+      [
+        "Ljud",
+        "2 W"
+      ],
+      [
+        "Netflix",
+        "Extern HDMI-källa krävs enligt Kjell"
+      ]
+    ],
+    "steps": [
+      [
+        "Räkna hela paketet",
+        "Projektor, spelare och eventuell kabel."
+      ],
+      [
+        "Välj mörker",
+        "Planera bort direkt omgivningsljus."
+      ],
+      [
+        "Kontrollera tjänsterna",
+        "Spegling är inte samma sak som appstöd."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "Kjell – CV200",
+        "url": "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/plexgear-barbar-lcd-projektor-cv200-p24815",
+        "checkedAt": "2026-09-22",
+        "supports": "Exakt modell, DRM-/HDMI-begränsning, panel, ljusstyrka, högtalare, bild och pris. Motstridiga wifi-banduppgifter begränsar rådet."
+      },
+      {
+        "label": "Netflix – projektorer",
+        "url": "https://help.netflix.com/en/node/360036298050660",
+        "checkedAt": "2026-09-22",
+        "supports": "Kontrollera Netflix-stöd hos projektor eller ansluten streamingkälla."
+      }
+    ],
+    "related": [
+      [
+        "Jämför projektorerna",
+        "/halsa/wanbo-cube-2-pro-eller-plexgear-cv200"
+      ],
+      [
+        "Wanbo med inbyggda appar",
+        "/halsa/wanbo-cube-2-pro"
+      ],
+      [
+        "Vardagsteknik",
+        "/halsa"
+      ]
+    ],
+    "offer": {
+      "merchantId": "kjell",
+      "merchantName": "Kjell & Company",
+      "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26w1-plexgear-cv200&url=https%3A%2F%2Fwww.kjell.com%2Fse%2Fprodukter%2Fljud-bild%2Ftv-tillbehor%2Fprojektorer%2Fplexgear-barbar-lcd-projektor-cv200-p24815",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 799,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:38:00+02:00",
+        "source": "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/plexgear-barbar-lcd-projektor-cv200-p24815"
+      },
+      "programId": "1098281531",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:38:00+02:00"
+    },
+    "image": {
+      "merchantId": "kjell",
+      "src": "/products/selected/plexgear-cv200/1.jpg",
+      "width": 848,
+      "height": 848,
+      "alt": "Plexgear CV200, CV200 · modell F100 · LCD-projektor.",
+      "credit": "Produktbild: Kjell & Company.",
+      "source": "https://www.kjell.com/cdn-cgi/image/quality=80,width=848,format=auto/globalassets/productimages/921404_24815_01_m045n--_00.jpg?ref=CEC50A5977",
+      "sha256": "aa2ff2bab003a01add94ed42d241cb9b1df09f1fcbd94b948d26da07ad2b9c5c",
+      "permissionScope": "Unchanged merchant packshot on the approved channel. Editorial framing only; no product retouching. Social use subject to the dated program conditions.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Varför fungerar inte Netflix med vanlig skärmspegling?",
+        "answer": "Skärmspegling och godkänd videouppspelning är olika saker. Kjell undantar uttryckligen Netflix och Viaplay från den trådlösa speglingen och hänvisar till HDMI. Köp inte modellen utifrån antagandet att allt som syns på mobilen går att spegla.",
+        "sourceUrls": [
+          "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/plexgear-barbar-lcd-projektor-cv200-p24815"
+        ]
+      },
+      {
+        "question": "Vad tillför en HDMI-sticka?",
+        "answer": "En separat mediaspelare med stöd för dina tjänster kör appen och skickar bilden till HDMI-ingången. Spelarens abonnemang, nätverk och ström måste också fungera. Netflix rekommenderar att kontrollera den anslutna enhetens stöd. Vi rekommenderar ingen obekräftad stickmodell.",
+        "sourceUrls": [
+          "https://help.netflix.com/en/node/360036298050660"
+        ]
+      },
+      {
+        "question": "Är 1080p-stöd samma sak som Full HD?",
+        "answer": "Nej. Panelen är 1280 × 720. En 1920 × 1080-signal skalas ned; den skapar inte fler fysiska bildpunkter. Vår bedömning är att liten text och stor bild därför är viktigare kompromisser än vid enkel filmvisning.",
+        "sourceUrls": [
+          "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/plexgear-barbar-lcd-projektor-cv200-p24815"
+        ]
+      },
+      {
+        "question": "Räcker 150 ANSI lumen och 2 W ljud?",
+        "answer": "Det är de angivna värdena, inte våra mätningar. Planera för mörkt rum och begränsad bildstorlek. Inbyggt ljud är en startpunkt, inte belägg för att högtalaren fyller ett vardagsrum. Wifi för spegling beskrivs som 2,4 GHz; butikens banduppgifter är inte helt enhetliga.",
+        "sourceUrls": [
+          "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/plexgear-barbar-lcd-projektor-cv200-p24815"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kobo-clara-colour",
+    "name": "Kobo Clara Colour",
+    "variant": "6 tum · 16 GB · svart · Kaleido 3",
+    "selected": true,
+    "hubGroup": "vardag",
+    "merchantItemId": "22145",
+    "updatedAt": "2026-09-22",
+    "path": "/halsa/kobo-clara-colour",
+    "heading": "Kobo Clara Colour eller Clara BW – är färgskärmen värd mer?",
+    "shortName": "Kobo Clara Colour",
+    "brand": "Kobo",
+    "category": "Hälsa & vardag",
+    "topic": "Vardagens teknik",
+    "metaTitle": "Kobo Clara Colour eller Clara BW – är färgskärmen värd mer?",
+    "description": "Är färgskärmen på Kobo Clara Colour värd mer än Clara BW? Jämför text, färg, bibliotekslån och batterivillkor innan du väljer läsplatta.",
+    "question": "Kort svar",
+    "answer": "Välj Clara Colour om färg på omslag, markeringar och illustrationer gör skillnad för din läsning. För huvudsakligen romantext räcker Clara BW ofta. Colour visar svartvit text i 300 ppi men färg i 150 ppi; färg är alltså inte högre textupplösning. De senast kontrollerade priserna skiljer 191 kr. Kontrollera bibliotekets boköverföring före båda köpen.",
+    "targetQuery": "Kobo Clara Colour eller Clara BW – är färgskärmen värd mer?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du läser illustrationer eller vill skilja markeringar med färg.",
+      "Du har kontrollerat hur dina böcker når en Kobo."
+    ],
+    "skip": "Behåll en fungerande svartvit läsplatta om färg mest är en rolig extrafunktion. Köp inte en Kobo i tron att Biblio-appen kan installeras som på en Android-platta.",
+    "decisionTitle": "När är köpet värt det?",
+    "decision": "Merkostnaden i de daterade observationerna är 191 kr, inte 190 kr. Färg bör motiveras av böckerna du faktiskt läser. Sex tum kan dessutom vara litet för serier med täta pratbubblor; vi har inte provläst dem på enheten.",
+    "facts": [
+      [
+        "Exakt variant",
+        "Clara Colour · 6 tum · 16 GB · artikel 22145"
+      ],
+      [
+        "Skärm",
+        "E Ink Kaleido 3"
+      ],
+      [
+        "Upplösning",
+        "300 ppi svartvitt / 150 ppi färg"
+      ],
+      [
+        "Tålighet",
+        "IPX8 enligt Kobo"
+      ],
+      [
+        "Batterivillkor",
+        "Upp till 42 dagar; 30 min/dag, ljus 30 %, wifi/Bluetooth av"
+      ],
+      [
+        "Bibliotek",
+        "Kontrollera tjänst, export och bok före köp"
+      ]
+    ],
+    "steps": [
+      [
+        "Välj en bok",
+        "Kontrollera tillgång och filskydd."
+      ],
+      [
+        "Pröva behovet av färg",
+        "Omslag eller innehåll du faktiskt använder?"
+      ],
+      [
+        "Jämför hela priset",
+        "Ta med fodral och eventuell laddare."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "Kobo – Clara Colour",
+        "url": "https://ereader.kobo.com/en-us/collections/ereaders/products/kobo-clara-colour",
+        "supports": "Skärm, upplösning, minne, färgfunktioner, IPX8 och villkorad batteritid; inte svensk prisinformation.",
+        "checkedAt": "2026-09-22"
+      },
+      {
+        "label": "Biblio – app och export",
+        "url": "https://help.biblio.app/sv/hc/kan-jag-anv%C3%A4nda-biblio-p%C3%A5-l%C3%A4sare-med-e-ink-",
+        "supports": "Android-krav och att export till ADE förutsätter bibliotekets aktivering.",
+        "checkedAt": "2026-09-22"
+      },
+      {
+        "label": "Kobo – överföring via ADE",
+        "url": "https://help.kobo.com/hc/en-us/articles/360017814074-Add-eBooks-with-Adobe-Digital-Editions",
+        "supports": "Skyddade filer kan kräva dator, ADE och auktorisering; följ aktuell kontoinstruktion.",
+        "checkedAt": "2026-09-22"
+      },
+      {
+        "label": "Kjell – artikel 22145",
+        "url": "https://www.kjell.com/se/produkter/mobilt/lasplattor/kobo-clara-colour-lasplatta-6-p22145",
+        "supports": "Svensk variant, primärbild och daterat pris. BW-priset återanvänds med sin ursprungliga kontrolltid.",
+        "checkedAt": "2026-09-22"
+      }
+    ],
+    "related": [
+      [
+        "Colour eller BW?",
+        "/halsa/kobo-clara-colour-eller-clara-bw"
+      ],
+      [
+        "Läs om Clara BW",
+        "/halsa/kobo-clara-bw"
+      ],
+      [
+        "Kindle eller Kobo för dina böcker?",
+        "/halsa/kindle-eller-kobo"
+      ]
+    ],
+    "offer": {
+      "merchantId": "kjell",
+      "merchantName": "Kjell & Company",
+      "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26w1-kobo-clara-colour&url=https%3A%2F%2Fwww.kjell.com%2Fse%2Fprodukter%2Fmobilt%2Flasplattor%2Fkobo-clara-colour-lasplatta-6-p22145",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 2090,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:38:00+02:00",
+        "source": "https://www.kjell.com/se/produkter/mobilt/lasplattor/kobo-clara-colour-lasplatta-6-p22145"
+      },
+      "programId": "1098281531",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:38:00+02:00"
+    },
+    "image": {
+      "merchantId": "kjell",
+      "src": "/products/selected/kobo-clara-colour/1.jpg",
+      "width": 848,
+      "height": 848,
+      "alt": "Kobo Clara Colour, 6 tum · 16 GB · svart · Kaleido 3.",
+      "credit": "Produktbild: Kjell & Company.",
+      "source": "https://www.kjell.com/cdn-cgi/image/quality=80,width=848,format=auto/globalassets/productimages/899780_22145_13_se.jpg?ref=F6DE04EFA6",
+      "sha256": "500f33a8fb09f2cdf2930bc1fcf09129200f9e39c2633ef28bf4524bfc903266",
+      "permissionScope": "Unchanged merchant packshot on the approved channel. Editorial framing only; no product retouching. Social use subject to the dated program conditions.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Blir texten skarpare med Clara Colour?",
+        "answer": "Kobo anger 300 ppi för svartvitt och 150 ppi för färg på Kaleido 3. Det betyder inte att vanlig text får lägre nominell upplösning än på BW. Vi har inte jämfört upplevd kontrast eller läsbarhet sida vid sida. Färgfilter är inte ett argument för skarpare romantext.",
+        "sourceUrls": [
+          "https://ereader.kobo.com/en-us/collections/ereaders/products/kobo-clara-colour"
+        ]
+      },
+      {
+        "question": "Vad får du egentligen av färgen?",
+        "answer": "Omslag, färgmarkeringar och illustrationer är de tydliga användningarna. Vår bedömning: utgå från innehållet, inte färg som en automatisk uppgradering. En liten skärm kan fortfarande kräva zoom för en detaljerad seriesida.",
+        "sourceUrls": [
+          "https://ereader.kobo.com/en-us/collections/ereaders/products/kobo-clara-colour"
+        ]
+      },
+      {
+        "question": "Fungerar svenska bibliotek och Biblio?",
+        "answer": "Biblio beskriver appen för Android-enheter och export via Adobe Digital Editions bara när biblioteket aktiverat funktionen. Kobo beskriver överföring av skyddade böcker via dator. Inbyggd OverDrive beror också på bibliotek och modell; den svenska hjälpsidan gick inte att återverifiera denna gång. Be biblioteket bekräfta en faktisk bok innan köp.",
+        "sourceUrls": [
+          "https://help.biblio.app/sv/hc/kan-jag-anv%C3%A4nda-biblio-p%C3%A5-l%C3%A4sare-med-e-ink-",
+          "https://help.kobo.com/hc/en-us/articles/360017814074-Add-eBooks-with-Adobe-Digital-Editions"
+        ]
+      },
+      {
+        "question": "Hur tålig är den och hur länge räcker batteriet?",
+        "answer": "Kobo anger IPX8 och upp till 42 dagar under villkoren 30 minuters läsning per dag, 30 procent ljus och wifi/Bluetooth av. Det är ett villkorat tillverkarvärde, inte vår batterimätning. IPX8 ersätter inte anvisningarna för vatten och torkning.",
+        "sourceUrls": [
+          "https://ereader.kobo.com/en-us/collections/ereaders/products/kobo-clara-colour"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nothing-ear-3a",
+    "name": "Nothing Ear (3a)",
+    "variant": "Svart · Ear (3a) · laddetui",
+    "selected": true,
+    "hubGroup": "vardag",
+    "merchantItemId": "21994",
+    "updatedAt": "2026-09-22",
+    "path": "/halsa/nothing-ear-3a",
+    "heading": "Nothing Ear (3a) eller CMF Buds 2 – vad får du för pengarna?",
+    "shortName": "Nothing Ear (3a)",
+    "brand": "Nothing",
+    "category": "Hälsa & vardag",
+    "topic": "Vardagens teknik",
+    "metaTitle": "Nothing Ear (3a) eller CMF Buds 2 – vad får du för pengarna?",
+    "description": "Vad får du med Nothing Ear (3a) jämfört med CMF Buds 2? Se LDAC-begränsningen på iPhone, batteri med ANC och det daterade kampanjpriset.",
+    "question": "Kort svar",
+    "answer": "Välj Ear (3a) om LDAC med en kompatibel Android-mobil är ett konkret behov, inte bara en specifikation. På iPhone får du inte den fördelen. CMF Buds 2 räcker som enklare alternativ med ANC och längre angiven total batteritid. Tillverkarnas maxvärden för brusreducering säger inte vilket par som sitter bäst eller låter bäst i dina öron.",
+    "targetQuery": "Nothing Ear (3a) eller CMF Buds 2 – vad får du för pengarna?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du har verifierat LDAC-stöd i din Android-mobil.",
+      "Du vill växla mellan mobil och dator med dubbelanslutning."
+    ],
+    "skip": "Avstå från uppgraderingen om dina hörlurar redan fungerar. Välj inte Ear (3a) enbart för LDAC när du använder iPhone.",
+    "decisionTitle": "När är köpet värt det?",
+    "decision": "Passform och användningsläge väger tyngre än ett enskilt dB-tal. Vi har varken lyssnat på modellerna eller mätt brusreduceringen. Se den separata jämförelsen för skillnaden mellan batterivärden med och utan ANC.",
+    "facts": [
+      [
+        "Exakt variant",
+        "Ear (3a), svart · artikel 21994"
+      ],
+      [
+        "Kodek",
+        "LDAC på kompatibel sändare"
+      ],
+      [
+        "ANC",
+        "Upp till 45 dB enligt tillverkaren"
+      ],
+      [
+        "Batteri med etui",
+        "Upp till 42 h av / 27 h ANC på"
+      ],
+      [
+        "Anslutning",
+        "Bluetooth 6.0 · dubbelanslutning"
+      ],
+      [
+        "Tålighet",
+        "IP54"
+      ]
+    ],
+    "steps": [
+      [
+        "Kontrollera mobilen",
+        "Stöder den funktionen du betalar extra för?"
+      ],
+      [
+        "Välj samma batteriläge",
+        "Jämför med ANC på om du använder ANC."
+      ],
+      [
+        "Prioritera passformen",
+        "Specifikationsbladet kan inte bedöma dina öron."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "Nothing – Ear (3a)",
+        "url": "https://nothing.tech/products/ear-3a?Colour=Pink",
+        "supports": "Modellfamilj, LDAC och ANC. Färgval i källan är inte bevis för svensk svart förpackning.",
+        "checkedAt": "2026-09-22"
+      },
+      {
+        "label": "Kjell – svart Ear (3a)",
+        "url": "https://www.kjell.com/se/produkter/ljud-bild/horlurar-headset/brusreducerande-horlurar/nothing-ear-3a-tradlosa-horlurar-svart-p21994",
+        "supports": "Exakt svensk variant, Bluetooth, dubbelanslutning, IP54, batterilägen, bild och kampanjvillkor.",
+        "checkedAt": "2026-09-22"
+      },
+      {
+        "label": "Nothing – CMF Buds 2",
+        "url": "https://nothing.tech/products/cmf-buds-2?Colour=Light+Green",
+        "checkedAt": "2026-09-22",
+        "supports": "CMF ANC anges till upp till 48 dB; inte en gemensam prestandamätning."
+      },
+      {
+        "label": "Sony – Bluetooth-kodeker",
+        "url": "https://helpguide.sony.net/mdr/3013/v1/en/contents/M053_Supported_codecs.html",
+        "checkedAt": "2026-09-22",
+        "supports": "Generell kodekförklaring: AAC på bland annat iPhone; LDAC kräver stöd hos sändaren. Inte en specifikation för Nothing."
+      }
+    ],
+    "related": [
+      [
+        "Jämför Ear (3a) och CMF",
+        "/halsa/nothing-ear-3a-eller-cmf-buds-2"
+      ],
+      [
+        "CMF Buds 2 och batterilägena",
+        "/halsa/cmf-buds-2"
+      ],
+      [
+        "Högtalare i stället för hörlurar",
+        "/halsa/jbl-flip-7"
+      ]
+    ],
+    "offer": {
+      "merchantId": "kjell",
+      "merchantName": "Kjell & Company",
+      "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26w1-nothing-ear-3a&url=https%3A%2F%2Fwww.kjell.com%2Fse%2Fprodukter%2Fljud-bild%2Fhorlurar-headset%2Fbrusreducerande-horlurar%2Fnothing-ear-3a-tradlosa-horlurar-svart-p21994",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 990,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:38:00+02:00",
+        "source": "https://www.kjell.com/se/produkter/ljud-bild/horlurar-headset/brusreducerande-horlurar/nothing-ear-3a-tradlosa-horlurar-svart-p21994"
+      },
+      "programId": "1098281531",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:38:00+02:00",
+      "priceNote": "Kampanjpris 990 kr till och med 27 september 2026; Kjell visade 1 290 kr som jämförelsepris. Outlet är ett separat exemplar."
+    },
+    "image": {
+      "merchantId": "kjell",
+      "src": "/products/selected/nothing-ear-3a/1.webp",
+      "width": 848,
+      "height": 848,
+      "alt": "Nothing Ear (3a), Svart · Ear (3a) · laddetui.",
+      "credit": "Produktbild: Kjell & Company.",
+      "source": "https://www.kjell.com/cdn-cgi/image/quality=80,width=848,format=auto/globalassets/productimages/941520_21994_01.webp?ref=AFF0502C7E",
+      "sha256": "6db6a2f3d194912b638d7b62b33ca4b0a50ca8cab5e702172fc6d74993cc9159",
+      "permissionScope": "Unchanged merchant packshot on the approved channel. Editorial framing only; no product retouching. Social use subject to the dated program conditions.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Är 45 dB ANC bättre än CMF Buds 2?",
+        "answer": "Ear (3a) marknadsförs med upp till 45 dB ANC. CMF Buds 2 anges till upp till 48 dB. Ett maxvärde visar inte hur mycket av just ditt tågljud som försvinner. Vi saknar en jämförbar egen mätning och utser därför ingen ANC-vinnare utifrån siffran. Passform och tätning behöver också fungera.",
+        "sourceUrls": [
+          "https://nothing.tech/products/ear-3a?Colour=Pink",
+          "https://nothing.tech/products/cmf-buds-2?Colour=Light+Green"
+        ]
+      },
+      {
+        "question": "Fungerar LDAC på iPhone?",
+        "answer": "LDAC kräver en sändare som stöder kodeken. Räkna med kompatibel Android för den funktionen, inte iPhone; vanlig Bluetooth-lyssning är fortfarande möjlig. Vi har inte verifierat alla kombinationer av appversion, dubbelanslutning och LDAC. Kontrollera de lägen du tänker använda tillsammans.",
+        "sourceUrls": [
+          "https://nothing.tech/products/ear-3a?Colour=Pink",
+          "https://www.kjell.com/se/produkter/ljud-bild/horlurar-headset/brusreducerande-horlurar/nothing-ear-3a-tradlosa-horlurar-svart-p21994",
+          "https://helpguide.sony.net/mdr/3013/v1/en/contents/M053_Supported_codecs.html"
+        ]
+      },
+      {
+        "question": "Är 42 timmar med ANC på?",
+        "answer": "Nej. Kjell anger upp till 42 timmar inklusive etui med ANC av och 27 timmar med ANC på. Själva hörlurarna anges till upp till 10 timmar. Det är inte samma sak som 42 timmars obruten lyssning, och verklig tid påverkas av inställningarna.",
+        "sourceUrls": [
+          "https://www.kjell.com/se/produkter/ljud-bild/horlurar-headset/brusreducerande-horlurar/nothing-ear-3a-tradlosa-horlurar-svart-p21994"
+        ]
+      },
+      {
+        "question": "Vad betyder IP54, Bluetooth 6.0 och dubbelanslutning?",
+        "answer": "IP54 beskriver skydd mot damm och stänk, inte simning. Kjell anger Bluetooth 6.0 och anslutning till två enheter för växling mellan exempelvis mobil och dator. Versionsnumret ensamt garanterar inte bättre räckvidd i din bostad.",
+        "sourceUrls": [
+          "https://www.kjell.com/se/produkter/ljud-bild/horlurar-headset/brusreducerande-horlurar/nothing-ear-3a-tradlosa-horlurar-svart-p21994"
+        ]
+      }
+    ],
+    "campaignEndsAt": "2026-09-27T23:59:59+02:00"
+  },
+  {
+    "id": "reolink-w330",
+    "name": "Reolink W330",
+    "variant": "RLC-810WA(EU)(ASS)-R2 · 4K · wifi 6",
+    "selected": true,
+    "hubGroup": "vardag",
+    "merchantItemId": "60342",
+    "updatedAt": "2026-09-22",
+    "path": "/halsa/reolink-w330",
+    "heading": "Reolink W330 utan abonnemang – vad krävs för att det ska fungera?",
+    "shortName": "Reolink W330",
+    "brand": "Reolink",
+    "category": "Hälsa & vardag",
+    "topic": "Vardagens teknik",
+    "metaTitle": "Reolink W330 utan abonnemang – vad behöver du?",
+    "description": "Vad behöver Reolink W330 för inspelning utan abonnemang? Kontrollera ström, microSD, NVR och FTP samt skillnaden mot Tapo C520WS före köp.",
+    "question": "Kort svar",
+    "answer": "Reolink W330 kan spela in lokalt utan molnabonnemang, men köpet är inte färdigt med kameran. Du behöver ström vid monteringen och separat lagring: microSD, kompatibel NVR eller FTP. Wifi ersätter nätverkskabeln, inte strömadaptern. Välj den för en fast vy och lokal inspelning; jämför Tapo C520WS om du behöver kunna rikta kameran från appen.",
+    "targetQuery": "Reolink W330 utan abonnemang – vad krävs för att det ska fungera?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du har planerat ett lämpligt eluttag för nätadaptern.",
+      "Du vill lagra lokalt och behöver en fast kameravy."
+    ],
+    "skip": "Avstå om du behöver batteridrift eller PoE som enda strömförsörjning. Utred montering och lagringskostnad innan du köper.",
+    "decisionTitle": "När är köpet värt det?",
+    "decision": "Jämför kamerans riktning, anslutning och lagring före upplösningen. 4K betyder fler bildpunkter, inte att alla ansikten kan identifieras på alla avstånd. Vi har inte testat mörkerbild eller detektion.",
+    "facts": [
+      [
+        "Exakt variant",
+        "W330 · RLC-810WA(EU)(ASS)-R2 · artikel 60342"
+      ],
+      [
+        "Bild",
+        "4K · 8 MP · fast kameravy"
+      ],
+      [
+        "Nätverk",
+        "Wifi 6, 2,4/5 GHz"
+      ],
+      [
+        "Ström",
+        "12 V DC-adapter; inte batteri/PoE"
+      ],
+      [
+        "Lagring",
+        "microSD högst 256 GB / kompatibel NVR / FTP"
+      ],
+      [
+        "Tålighet",
+        "IP67 enligt Reolink"
+      ]
+    ],
+    "steps": [
+      [
+        "Planera ström",
+        "Kontrollera hela kabelvägen före köp."
+      ],
+      [
+        "Välj lagringsplats",
+        "Kort, NVR eller FTP har olika installationsbehov."
+      ],
+      [
+        "Avgränsa vyn",
+        "Bestäm vilket område du faktiskt behöver se."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "Reolink – W330",
+        "url": "https://reolink.com/us/product/w330/",
+        "supports": "Ström, lokal lagring, detektion, 4K, wifi och IP67; tillverkaruppgifter, inte testresultat.",
+        "checkedAt": "2026-09-22"
+      },
+      {
+        "label": "Kjell – artikel 60342",
+        "url": "https://www.kjell.com/se/varumarken/reolink/sakerhet-overvakning/kameraovervakning/overvakningskameror/reolink-kameror/reolink-w330-4k-wifi-6-overvakningskamera-p60342",
+        "supports": "EU-variant, originalbild och daterat medlemspris med slutdatum; ordinarie visat pris hålls separat.",
+        "checkedAt": "2026-09-22"
+      },
+      {
+        "label": "Tapo – C520WS",
+        "url": "https://www.tapo.com/nordic/product/smart-camera/tapo-c520ws/",
+        "supports": "Tidigare verifierade fakta om vridbar kamera, lokal lagring och Tapo Care, se befintlig guide.",
+        "checkedAt": "2026-09-22"
+      }
+    ],
+    "related": [
+      [
+        "Lagring: Reolink eller Tapo?",
+        "/halsa/reolink-w330-eller-tapo-c520ws"
+      ],
+      [
+        "Vad kostar Tapo Care?",
+        "/halsa/tapo-c520ws"
+      ],
+      [
+        "Vardagsteknik",
+        "/halsa"
+      ]
+    ],
+    "offer": {
+      "merchantId": "kjell",
+      "merchantName": "Kjell & Company",
+      "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26w1-reolink-w330&url=https%3A%2F%2Fwww.kjell.com%2Fse%2Fvarumarken%2Freolink%2Fsakerhet-overvakning%2Fkameraovervakning%2Fovervakningskameror%2Freolink-kameror%2Freolink-w330-4k-wifi-6-overvakningskamera-p60342",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 1399,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:38:00+02:00",
+        "source": "https://www.kjell.com/se/varumarken/reolink/sakerhet-overvakning/kameraovervakning/overvakningskameror/reolink-kameror/reolink-w330-4k-wifi-6-overvakningskamera-p60342"
+      },
+      "programId": "1098281531",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:38:00+02:00"
+    },
+    "image": {
+      "merchantId": "kjell",
+      "src": "/products/selected/reolink-w330/1.webp",
+      "width": 848,
+      "height": 848,
+      "alt": "Reolink W330, RLC-810WA(EU)(ASS)-R2 · 4K · wifi 6.",
+      "credit": "Produktbild: Kjell & Company.",
+      "source": "https://www.kjell.com/cdn-cgi/image/quality=80,width=848,format=auto/globalassets/productimages/925843_60342_01.webp?ref=EFDD328C6D",
+      "sha256": "fa60f351a883dfaaaf857fced718a9acac1e9fdd8ee6f34a4e95276e78c90ef1",
+      "permissionScope": "Unchanged merchant packshot on the approved channel. Editorial framing only; no product retouching. Social use subject to the dated program conditions.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Behöver W330 eluttag eller PoE?",
+        "answer": "W330 använder 12 V nätadapter; wifi betyder inte batteridrift. Planera el nära monteringen och följ installationsanvisningen för anslutningarnas skydd. Modellen ska inte väljas för en installation som förutsätter PoE utan separat adapter.",
+        "sourceUrls": [
+          "https://reolink.com/us/product/w330/",
+          "https://www.kjell.com/se/varumarken/reolink/sakerhet-overvakning/kameraovervakning/overvakningskameror/reolink-kameror/reolink-w330-4k-wifi-6-overvakningskamera-p60342"
+        ]
+      },
+      {
+        "question": "Vilken lagring fungerar utan abonnemang?",
+        "answer": "Reolink anger microSD upp till 256 GB, kompatibel Reolink NVR och FTP. Minneskort köps separat. Lagring i kameran kan försvinna med kameran; NVR eller FTP ger en annan placering men kräver egen utrustning och administration.",
+        "sourceUrls": [
+          "https://reolink.com/us/product/w330/"
+        ]
+      },
+      {
+        "question": "Kostar person- och fordonsdetektion extra?",
+        "answer": "Reolink beskriver lokal person-, fordons- och djurdetektion utan prenumerationsavgift. Det är en funktionsuppgift, inte ett löfte om felfria larm. Vi har inte utvärderat detektionen på din monteringsplats.",
+        "sourceUrls": [
+          "https://reolink.com/us/product/w330/"
+        ]
+      },
+      {
+        "question": "Vad skiljer mot Tapo C520WS?",
+        "answer": "W330 ger en fast 4K-vy och IP67 enligt Reolink. Tapo C520WS har en vridbar 4 MP-kamera och kan också lagra lokalt utan Tapo Care. Det är alltså inte abonnemang mot abonnemangsfritt: båda har lokala alternativ, men molntjänst, lagringsgräns och kamerarörelse skiljer.",
+        "sourceUrls": [
+          "https://reolink.com/us/product/w330/",
+          "https://www.tapo.com/nordic/product/smart-camera/tapo-c520ws/"
+        ]
+      }
+    ],
+    "memberPrice": {
+      "amount": 999,
+      "label": "Medlemspris hos Kjell & Company",
+      "endsAt": "2026-10-04T23:59:59+02:00"
     }
   }
 ]

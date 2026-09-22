@@ -65,6 +65,11 @@ export type CanonicalProductRecord = {
   amazon?: CanonicalAmazon;
   home?: CanonicalHome;
   hubGroup?: HubGroup;
+  additionalOffers?: (CanonicalOffer & { merchantItemId: string })[];
+  targetQuery?: string;
+  hypothesis?: string;
+  decisionSections?: { question: string; answer: string; sourceUrls: string[] }[];
+  visual?: { hero: string; infographic: string; context?: string };
   merchantItemId?: string;
   gtin?: string;
   updatedAt?: string;

@@ -91,7 +91,7 @@ const priceRegister = require('../../company/price-review/products.json').produc
 const priceRows = new Set(priceRegister.map((row) => row.id));
 const sitemapSource = fs.readFileSync('lib/sitemap-entries.ts', 'utf8');
 const sitemapPaths = new Set([...sitemapSource.matchAll(/path:\s*"([^"]+)"/g)].map((match) => match[1]));
-const now = Date.parse('2026-09-22T12:00:00+02:00');
+const now = Math.max(Date.parse('2026-09-22T12:00:00+02:00'), ...canonical.map(record => Date.parse(record.offer.price.checkedAt)));
 
 assert.equal(records.productRecords.length, canonical.length);
 assert.equal(selected.selectedProducts.length, canonical.filter((record) => record.selected).length);

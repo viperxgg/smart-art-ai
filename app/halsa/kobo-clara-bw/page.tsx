@@ -1,4 +1,5 @@
 // Content refresh 2026-09-22: first-screen source-review disclosure and reader fit.
+// 2026-09-22: Contextual links to colour readers and home projection.
 import { notFound } from "next/navigation";
 
 import { ProductDecisionPage } from "@/components/ProductDecisionPage";

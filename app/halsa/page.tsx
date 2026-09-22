@@ -138,6 +138,11 @@ export default function HalsaHubPage() {
 
         <RelatedLinks
           links={[
+            { href: "/halsa/wanbo-cube-2-pro", label: "Filmkväll", text: "Fungerar Netflix på Wanbo Cube 2 Pro?" },
+            { href: "/halsa/plexgear-cv200", label: "Projektor", text: "Räcker CV200 med HDMI och 720p?" },
+            { href: "/halsa/reolink-w330", label: "Lokal inspelning", text: "Vad behöver W330 utan abonnemang?" },
+            { href: "/halsa/wanbo-cube-2-pro-eller-plexgear-cv200", label: "Jämför", text: "Appar eller separat HDMI-källa?" },
+            { href: "/halsa/reolink-w330-eller-tapo-c520ws", label: "Kameraval", text: "Reolink eller Tapo med lokal lagring?" },
             {
               href: "/halsa/morka-morgnar",
               label: "Höst & vinter",

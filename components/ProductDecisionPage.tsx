@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getProductRecord } from "@/lib/selected-product-records";
 import { DecisionCard } from "@/components/DecisionCard";
 import { AmazonPurchaseCta } from "@/components/AmazonPurchaseCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
@@ -42,6 +43,7 @@ export function ProductDecisionPage({ pick, decision, reviews, pageHeading, firs
         </div>
         {option.merchantVariantVerified ? <div className="mt-6"><AmazonPurchaseCta product={pick.product} /></div> : null}
         <nav aria-label="Fortsätt jämföra" className="mt-8 flex flex-wrap gap-5 font-bold text-wine">
+          {getProductRecord(pick.product.slug)?.related?.map(([label, href]) => <Link key={href} href={href} className="inline-flex min-h-11 items-center underline underline-offset-4">{label}</Link>)}
           <Link href={decision.comparison.href} className="underline underline-offset-4">{decision.comparison.label}</Link>
           <Link href="/fraga-elin" className="underline underline-offset-4">Fråga Elin – valfri AI-hjälp</Link>
         </nav>

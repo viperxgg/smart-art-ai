@@ -31,7 +31,14 @@ function projectOffer(record: CanonicalProductRecord): MerchantOffer {
   };
 }
 
-export const merchantOffers: readonly MerchantOffer[] = productRecords.map(projectOffer);
+export const merchantOffers: readonly MerchantOffer[] = productRecords.flatMap(record => [
+  projectOffer(record),
+  ...(record.additionalOffers ?? []).map(offer => projectOffer({ ...record, offer })),
+]);
+
+export function getMerchantOffers(productSlug: string) {
+  return merchantOffers.filter(offer => offer.productSlug === productSlug);
+}
 
 function requiredOffer(id: string) {
   const offer = merchantOffers.find((candidate) => candidate.productSlug === id);

@@ -55,5 +55,5 @@ export const ereaderGuide: DecisionGuide = {
     { question: "Vad innebär överföring via dator?", answer: "Kontrollera att biblioteket erbjuder export, att filen stöds och att dator och läsplatta kan auktoriseras. Kobos aktuella ADE-guide beskriver ByteBooks-ID och vad som gäller för tidigare auktorisering. Läs källan E6 innan du ändrar ett befintligt konto; vi har inte genomfört överföringen på dessa enheter." },
     { question: "När är den större skärmen värd något?", answer: "När du föredrar stor text och den mindre skärmen känns trång. Det är en praktisk bedömning, inte vårt lästest. Skärmstorleken hjälper inte om din bok saknar en fungerande överföringsväg." },
   ],
-  related: [{ href: "/halsa/laslampa-eller-led-list", text: "Behöver din läsplats bättre belysning?" }],
+  related: [{ href: "/halsa/kobo-clara-colour", text: "Är färgskärmen värd mer?" }, { href: "/halsa/kobo-clara-colour-eller-clara-bw", text: "Clara Colour eller Clara BW?" }, { href: "/halsa/laslampa-eller-led-list", text: "Behöver din läsplats bättre belysning?" }],
 };

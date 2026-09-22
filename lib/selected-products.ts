@@ -26,7 +26,7 @@ export function getSelectedProduct(id: string): SelectedProduct {
 }
 
 export function selectedProductMetadata(product: SelectedProduct) {
-  const image = product.images[0];
+  const image = product.visual ? { src: product.visual.hero, width: 1200, height: 630, alt: product.heading ?? product.question } : product.images[0];
   return createSeoMetadata({
     title: product.metaTitle, description: product.description,
     url: `${siteConfig.url}${product.path}`, type: "article",

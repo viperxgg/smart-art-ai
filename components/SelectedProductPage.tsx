@@ -1,9 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { ReactNode } from "react";
 import { ArrowRight, ArrowUpRight, Check, CircleHelp } from "lucide-react";
 import { JsonLd } from "@/components/JsonLd";
 import { MerchantPrice } from "@/components/MerchantPrice";
 import { SelectedProductGallery } from "@/components/SelectedProductGallery";
+import { PartnerOfferCards } from "@/components/PartnerOfferCards";
 import { getAmazonOffer } from "@/lib/amazon-offers";
 import { getMerchantOffer } from "@/lib/merchant-offers";
 import { getSelectedOfferState, selectedProductSchema, type SelectedProduct } from "@/lib/selected-products";
@@ -30,11 +32,10 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
         <header className="md:col-start-2 md:row-start-1">
           <p className="text-xs font-bold uppercase tracking-widest text-wine">{product.topic} · Produktguide</p>
           <h1 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">{product.heading ?? product.shortName}</h1>
-          <p className="mt-4 text-sm font-semibold text-ink-soft">{product.variant}</p>
+          {product.targetQuery ? <p className="mt-4 text-base leading-relaxed text-ink-soft" data-first-answer>{product.answer}</p> : <p className="mt-4 text-sm font-semibold text-ink-soft">{product.variant}</p>}
         </header>
         <div className="md:col-start-2 md:row-start-2">
-          <h2 className="text-xl font-bold leading-snug">{product.question}</h2>
-          <p className="mt-3 text-base leading-relaxed text-ink-soft">{product.answer}</p>
+          {!product.targetQuery ? <><h2 className="text-xl font-bold leading-snug">{product.question}</h2><p className="mt-3 text-base leading-relaxed text-ink-soft">{product.answer}</p></> : <p className="text-sm text-ink-soft">{product.variant}</p>}
           <a href="#butiker" className={`${buttonClass} mt-6`}>Se pris och butik <ArrowRight size={18} aria-hidden="true" /></a>
           <p className="mt-4 text-xs text-ink-soft">Fakta granskade <time dateTime={product.updatedAt}>{new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(`${product.updatedAt}T12:00:00Z`))}</time> · <Link href="#kallor" className="underline underline-offset-4">Källor och metod</Link></p>
         </div>
@@ -51,6 +52,13 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
           <p className="mt-4 text-sm leading-relaxed text-ink-soft">{product.skip}</p>
         </section>
       </div>
+      {product.decisionSections?.map(section => <section key={section.question} className="mt-10 max-w-3xl">
+        <h2 className="font-display text-2xl font-bold">{section.question}</h2>
+        <p className="mt-4 leading-relaxed text-ink-soft">{section.answer}</p>
+        <p className="mt-2 text-xs text-ink-soft">Källor: {section.sourceUrls.map((url, i) => <a key={url} href={url} className="mr-3 inline-flex min-h-11 items-center underline">{product.sources.find(s => s.url === url)?.label ?? `Källa ${i + 1}`}</a>)}</p>
+      </section>)}
+      {product.visual ? <figure className="mt-10"><Image src={product.visual.infographic} width={1200} height={630} alt={`Beslutsöversikt: ${product.heading}`} sizes="(max-width: 768px) 90vw, 1000px" className="h-auto w-full rounded-2xl" /></figure> : null}
+      {product.visual?.context ? <figure className="mt-10 max-w-3xl"><Image src={product.visual.context} width={1200} height={800} alt="Illustrerad miljö utan produkt" className="h-auto w-full rounded-2xl" /><figcaption className="mt-2 text-xs">Illustration</figcaption></figure> : null}
       <section aria-labelledby="beslut" className="mt-12 max-w-3xl">
         <h2 id="beslut" className="font-display text-2xl font-bold sm:text-3xl">{product.decisionTitle}</h2>
         <p className="mt-5 leading-relaxed text-ink-soft">{product.decision}</p>
@@ -76,6 +84,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
         <section id="butiker" aria-labelledby="butiker-title" className="scroll-mt-28 rounded-3xl border border-line bg-surface p-6 sm:p-8">
           <h2 id="butiker-title" className="font-display text-2xl font-bold sm:text-3xl">{amazon ? "Välj butik" : "Pris hos butiken"}</h2>
           <p className="mt-3 text-sm leading-relaxed text-ink-soft">Jämför samma variant och antal. Frakt, medlemskap och leverans kan påverka totalpriset.</p>
+          {product.targetQuery ? <PartnerOfferCards productIds={[product.id]} now={now} /> : <>
           <h3 className="mt-6 text-lg font-bold">{offer.merchantName}</h3>
           <p className="mt-2 text-xs leading-relaxed text-ink-soft">{offer.variant} · Artikel {product.merchantItemId}</p>
           {offer.price ? <MerchantPrice price={offer.price} /> : null}
@@ -89,6 +98,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
             <a href={amazon.href} rel="sponsored nofollow noopener" data-merchant="amazon" data-product={product.id} data-placement="selected-product-offer" className={`${buttonClass} mt-4 w-full`}>Se pris hos Amazon<ArrowUpRight size={18} aria-hidden="true" /></a>
             <p className="mt-2 text-xs text-ink-soft">Annonslänk · Kontrollera totalpriset inklusive frakt.</p>
           </div> : null}
+          </>}
         </section>
       </div>
       <section aria-labelledby="fragor" className="mt-12 max-w-3xl">
@@ -106,6 +116,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
         <ul className="mt-5 space-y-4">{product.sources.map(source => <li key={source.url} className="text-sm leading-relaxed">
           <a href={source.url} className="inline-flex min-h-11 items-center font-semibold text-wine underline underline-offset-4">{source.label}</a>
           <p className="text-ink-soft">{source.supports}</p>
+          {source.checkedAt ? <p className="text-xs text-ink-soft">Hämtad <time dateTime={source.checkedAt}>{source.checkedAt.slice(0, 10)}</time></p> : null}
         </li>)}</ul>
         <Link href="/om-oss" className="mt-4 inline-flex min-h-11 items-center font-semibold text-wine underline underline-offset-4">Om Elins val och vår metod</Link>
       </section>
