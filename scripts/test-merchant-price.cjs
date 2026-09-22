@@ -1,18 +1,30 @@
+/* eslint-disable @typescript-eslint/no-require-imports -- Standalone Node test runner. */
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const ts = require('typescript');
+const moduleCache = new Map();
 
-function load(file, requireMock, extra = {}) {
-  const module = { exports: {} };
-  const code = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX } }).outputText;
-  vm.runInNewContext(code, { module, exports: module.exports, require: requireMock, ...extra });
-  return module.exports;
+function loadAlias(name) {
+  const base = name.replace(/^@\//, '');
+  if (!name.startsWith('@/')) return require(name);
+  if (moduleCache.has(base)) return moduleCache.get(base);
+  if (base.endsWith('.json')) return JSON.parse(fs.readFileSync(base, 'utf8'));
+  const loaded = load(`${base}.ts`);
+  moduleCache.set(base, loaded);
+  return loaded;
+}
+
+function load(file, requireMock = loadAlias, extra = {}) {
+  const loadedModule = { exports: {} };
+  const code = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true } }).outputText;
+  vm.runInNewContext(code, { module: loadedModule, exports: loadedModule.exports, require: requireMock, ...extra });
+  return loadedModule.exports;
 }
 const pricing = load('lib/merchant-price.ts');
 const offers = load('lib/merchant-offers.ts', name => {
   if (name === '@/lib/merchant-price') return pricing;
-  throw Error(name);
+  return loadAlias(name);
 });
 assert.equal(offers.k18NordicfeelOffer.price.amount, 799);
 assert.equal(offers.k18NordicfeelOffer.price.checkedAt, '2026-09-14T11:58:26+02:00');

@@ -3,11 +3,22 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const ts = require('typescript');
+const moduleCache = new Map();
 
-function load(file, imports = require) {
+function loadAlias(name) {
+  const base = name.replace(/^@\//, '');
+  if (!name.startsWith('@/')) return require(name);
+  if (moduleCache.has(base)) return moduleCache.get(base);
+  if (base.endsWith('.json')) return JSON.parse(fs.readFileSync(base, 'utf8'));
+  const loaded = load(`${base}.ts`);
+  moduleCache.set(base, loaded);
+  return loaded;
+}
+
+function load(file, imports = loadAlias) {
   const mod = { exports: {} };
   const code = ts.transpileModule(fs.readFileSync(file, 'utf8'), {
-    compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 },
+    compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, esModuleInterop: true },
   }).outputText;
   vm.runInNewContext(code, { module: mod, exports: mod.exports, require: imports });
   return mod.exports;
@@ -25,7 +36,7 @@ const home = load('lib/home-products.ts', name => {
         ? { src: '/fixture.jpg' } : assets.getPartnerOfferImage(slug, merchant);
     },
   };
-  throw Error(name);
+  return loadAlias(name);
 });
 const now = Date.parse('2026-09-22T12:00:00+02:00');
 const base = home.curatedHomeProducts[0];

@@ -3,10 +3,21 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const ts = require('typescript');
+const moduleCache = new Map();
 
-function load(file, requireMock, extra = {}) {
+function loadAlias(name) {
+  const base = name.replace(/^@\//, '');
+  if (!name.startsWith('@/')) return require(name);
+  if (moduleCache.has(base)) return moduleCache.get(base);
+  if (base.endsWith('.json')) return JSON.parse(fs.readFileSync(base, 'utf8'));
+  const loaded = load(`${base}.ts`);
+  moduleCache.set(base, loaded);
+  return loaded;
+}
+
+function load(file, requireMock = loadAlias, extra = {}) {
   const loadedModule = { exports: {} };
-  const code = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
+  const code = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, esModuleInterop: true } }).outputText;
   vm.runInNewContext(code, { module: loadedModule, exports: loadedModule.exports, require: requireMock, URL, ...extra });
   return loadedModule.exports;
 }
