@@ -8,22 +8,38 @@ import { getMerchantOffer } from "@/lib/merchant-offers";
 import { selectedProducts } from "@/lib/selected-products";
 import { siteConfig } from "@/lib/site";
 
-// 2026-09-22: Kjell prices were reverified in the shared merchant-offers module;
+// 2026-09-22: Kjell prices were reverified in the canonical product records;
 // this dated comment moves the product hub's sitemap date.
+const swedishOnes = ["noll", "en", "två", "tre", "fyra", "fem", "sex", "sju", "åtta", "nio"];
+const swedishTeens = ["tio", "elva", "tolv", "tretton", "fjorton", "femton", "sexton", "sjutton", "arton", "nitton"];
+
+function swedishCount(value: number) {
+  if (value < 10) return swedishOnes[value];
+  if (value < 20) return swedishTeens[value - 10];
+  return value.toLocaleString("sv-SE");
+}
+
+function sentenceCase(value: string) {
+  return value.charAt(0).toUpperCase() + value.slice(1);
+}
+
+const selectedProductCount = swedishCount(selectedProducts.length);
 export const revalidate = 3600;
 export const metadata = createSeoMetadata({
   title: "Utvalda produkter – bilder, köpguider och priser | Elins val",
-  description: "Utforska femton produktval inom skönhet, ljud och smart vardag. Se originalbilder, daterade butikspriser och vad du behöver veta innan köp.",
+  description: `Utforska ${selectedProductCount} produktval inom skönhet, ljud och smart vardag. Se originalbilder, daterade butikspriser och vad du behöver veta innan köp.`,
   url: `${siteConfig.url}/produkter`, type: "website",
   image: { url: `${siteConfig.url}${selectedProducts[0].images[0].src}`, width: 1500, height: 1500, alt: selectedProducts[0].images[0].alt },
 });
 
 export default function ProductsPage() {
-  const groups = [
-    { id: "lyko", title: "Fem nya produktval från Lyko", products: selectedProducts.filter(product => product.merchantId === "lyko") },
-    { id: "skonhet", title: "Mer skönhet & hårrutin", products: selectedProducts.filter(product => product.category === "Skönhet" && product.merchantId !== "lyko") },
-    { id: "vardag", title: "Ljud & smart vardag", products: selectedProducts.filter(product => product.category === "Hälsa & vardag") },
-  ];
+  const groups = ["lyko", "skonhet", "vardag"].map((id) => {
+    const products = selectedProducts.filter((product) => product.hubGroup === id);
+    const title = id === "lyko"
+      ? `${sentenceCase(swedishCount(products.length))} nya produktval från Lyko`
+      : id === "skonhet" ? "Mer skönhet & hårrutin" : "Ljud & smart vardag";
+    return { id, title, products };
+  });
   return <main id="content" tabIndex={-1} className="min-h-screen bg-bg text-ink">
     <JsonLd data={{ "@context": "https://schema.org", "@type": "CollectionPage", url: `${siteConfig.url}/produkter`, name: "Utvalda produkter", inLanguage: "sv-SE", mainEntity: {
       "@type": "ItemList", itemListElement: selectedProducts.map((product, index) => ({ "@type": "ListItem", position: index + 1, name: product.name, url: `${siteConfig.url}${product.path}` })),
@@ -33,7 +49,7 @@ export default function ProductsPage() {
       <Link href="/" className="inline-flex min-h-11 items-center text-sm font-semibold text-wine underline underline-offset-4">Hem</Link>
       <header className="mb-10 mt-5 max-w-3xl">
         <p className="text-xs font-bold uppercase tracking-widest text-wine">Skönhet · Ljud · Smart vardag</p>
-        <h1 className="mt-4 font-display text-4xl font-bold tracking-tight sm:text-5xl">Femton produktval att förstå före köp</h1>
+        <h1 className="mt-4 font-display text-4xl font-bold tracking-tight sm:text-5xl">{sentenceCase(selectedProductCount)} produktval att förstå före köp</h1>
         <p className="mt-6 text-lg leading-relaxed text-ink-soft">Se hur produkten passar in i din vardag, vad du behöver kontrollera och när du kan avvakta. Varje guide samlar bilder, källor och ett daterat butikspris.</p>
         <p className="mt-4 text-sm leading-relaxed text-ink-soft">Urvalet är redaktionellt och är ingen topplista från ett eget produkttest. Guiderna innehåller annonslänkar som kan ge oss ersättning vid köp.</p>
       </header>

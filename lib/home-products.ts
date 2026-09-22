@@ -1,6 +1,8 @@
-import { k18NordicfeelOffer, koboKjellOffer, selectedOffer1, selectedOffer2, type MerchantOffer } from "@/lib/merchant-offers";
+import type { MerchantOffer } from "@/lib/merchant-offers";
+import { getMerchantOffer } from "@/lib/merchant-offers";
 import { getVerifiedMerchantPrice } from "@/lib/merchant-price";
 import { getPartnerOfferImage } from "@/lib/partner-image-assets";
+import { productRecords } from "@/lib/selected-product-records";
 
 export type HomeProduct = {
   offer: MerchantOffer;
@@ -16,59 +18,34 @@ export type HomeProduct = {
   campaignEndsAt?: string;
 };
 
-export const curatedHomeProducts: readonly HomeProduct[] = [
-  {
-    offer: k18NordicfeelOffer,
-    category: "Skönhet",
-    title: "K18 Leave-In Hair Mask",
-    href: "/guider/harinpackning#hair-routine-detail",
-    linkLabel: "Läs om K18 och din hårrutin",
-    fit: "För dig med blekt eller färgat hår som vill undersöka en leave-in-behandling när din nuvarande rutin inte räcker.",
-    caveat: "Vi har inte testat effekten. En rutin som redan fungerar är inget skäl att byta.",
-    addedAt: "2026-09-14T11:58:26+02:00",
-    reviewed: true,
-    available: true,
-  },
-  {
-    offer: koboKjellOffer,
-    category: "Hälsa & vardag",
-    title: "Kobo Clara BW",
-    href: "/halsa/kindle-eller-kobo",
-    linkLabel: "Jämför Kobo och Kindle",
-    fit: "För dig som vill läsa på en kompakt, svartvit sextumsskärm och har kontrollerat att dina böcker fungerar med Kobo.",
-    caveat: "Bibliotek och boktjänster kan kräva olika överföringssteg. Laddare ingår inte i Kjells listade produkt.",
-    addedAt: "2026-09-14T11:58:26+02:00",
-    reviewed: true,
-    available: true,
-  },
-];
-
-// Add only evidence-reviewed offers, with a canonical merchant offer, permitted
-// image and weekly price-register entry. This is not an unreviewed feed import.
-export const newHomeOffers: readonly HomeProduct[] = [
-{ offer: selectedOffer1,
-  "category": "Skönhet",
-  "title": "Redken Acidic Bonding Concentrate",
-  "href": "/skonhet/redken-acidic-bonding-concentrate",
-  "linkLabel": "Läs om Redken Acidic Bonding Concentrate",
-  "fit": "För dig som vill ha en leave-in-produkt i rutinen för behandlat hår.",
-  "caveat": "Ska lämnas kvar i håret. Jämför användning och mängd med din befintliga rutin.",
-  "addedAt": "2026-09-14T13:38:12+02:00",
-  "reviewed": true,
-  "available": true
-},
-{ offer: selectedOffer2,
-  "category": "Hälsa & vardag",
-  "title": "CMF Buds 2",
-  "href": "/halsa/cmf-buds-2",
-  "linkLabel": "Läs om CMF Buds 2",
-  "fit": "För pendling och vardagslyssning med in-ear och aktiv brusreducering.",
-  "caveat": "USB-C-kabel och laddare säljs separat enligt Kjell. Passformen är individuell.",
-  "addedAt": "2026-09-14T13:38:12+02:00",
-  "reviewed": true,
-  "available": true
+function projectHomeProduct(record: (typeof productRecords)[number]): HomeProduct | undefined {
+  if (!record.home) return undefined;
+  const offer = getMerchantOffer(record.id);
+  if (!offer) throw new Error(`Missing canonical home offer: ${record.id}`);
+  return {
+    offer,
+    category: record.home.category,
+    title: record.home.title,
+    href: record.home.href,
+    linkLabel: record.home.linkLabel,
+    fit: record.home.fit,
+    caveat: record.home.caveat,
+    addedAt: record.home.addedAt,
+    reviewed: record.home.reviewed,
+    available: record.home.available,
+    ...(record.home.campaignEndsAt ? { campaignEndsAt: record.home.campaignEndsAt } : {}),
+  };
 }
-];
+
+export const curatedHomeProducts: readonly HomeProduct[] = productRecords
+  .filter((record) => record.home?.kind === "curated")
+  .map(projectHomeProduct)
+  .filter((product): product is HomeProduct => Boolean(product));
+
+export const newHomeOffers: readonly HomeProduct[] = productRecords
+  .filter((record) => record.home?.kind === "candidate")
+  .map(projectHomeProduct)
+  .filter((product): product is HomeProduct => Boolean(product));
 
 export function selectHomeProducts(
   fixed: readonly HomeProduct[],
@@ -92,8 +69,6 @@ export function selectHomeProducts(
     return true;
   }).slice(0, 2);
   const curated = take(fixed);
-  // All pinned products stay out of the rotating queue, including a temporarily
-  // unavailable pinned product. Price-check dates never control recency.
   fixed.forEach((product) => seen.add(product.offer.productSlug));
   const recent = take([...candidates].sort((a, b) =>
     Date.parse(b.addedAt) - Date.parse(a.addedAt)

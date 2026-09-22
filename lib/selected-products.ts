@@ -1,11 +1,23 @@
-import data from "@/lib/selected-product-data.json";
 import { getMerchantOffer } from "@/lib/merchant-offers";
 import { getVerifiedMerchantPrice } from "@/lib/merchant-price";
 import { createSeoMetadata } from "@/lib/metadata";
+import { selectedProductRecords, type PartnerMerchantId, type SelectedProductRecord } from "@/lib/selected-product-records";
 import { siteConfig } from "@/lib/site";
 
-export type SelectedProduct = (typeof data)[number] & { heading?: string };
-export const selectedProducts: readonly SelectedProduct[] = data;
+export type SelectedProduct = Omit<SelectedProductRecord, "selected" | "offer" | "image" | "amazon" | "home"> & {
+  merchantId: PartnerMerchantId;
+  images: { src: string; width: number; height: number; alt: string; credit: string }[];
+};
+
+export const selectedProducts: readonly SelectedProduct[] = selectedProductRecords.map((record) => {
+  const excluded = new Set(["selected", "offer", "image", "amazon", "home"]);
+  const editorial = Object.fromEntries(Object.entries(record).filter(([key]) => !excluded.has(key))) as unknown as Omit<SelectedProductRecord, "selected" | "offer" | "image" | "amazon" | "home">;
+  return {
+    ...editorial,
+    merchantId: record.offer.merchantId,
+    images: [{ src: record.image.src, width: record.image.width, height: record.image.height, alt: record.image.alt, credit: record.image.credit }],
+  };
+});
 
 export function getSelectedProduct(id: string): SelectedProduct {
   const product = selectedProducts.find(product => product.id === id);
