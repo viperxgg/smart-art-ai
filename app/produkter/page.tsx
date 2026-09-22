@@ -33,11 +33,11 @@ export const metadata = createSeoMetadata({
 });
 
 export default function ProductsPage() {
-  const groups = ["lyko", "skonhet", "vardag"].map((id) => {
+  const groups = ["lyko", "skonhet", "harverktyg", "projektorer", "vardag"].map((id) => {
     const products = selectedProducts.filter((product) => product.hubGroup === id);
     const title = id === "lyko"
       ? `${sentenceCase(swedishCount(products.length))} nya produktval från Lyko`
-      : id === "skonhet" ? "Mer skönhet & hårrutin" : "Ljud & smart vardag";
+      : id === "skonhet" ? "Mer skönhet & hårrutin" : id === "harverktyg" ? "Hårverktyg" : id === "projektorer" ? "Projektor & hemunderhållning" : "Ljud & smart vardag";
     return { id, title, products };
   });
   return <main id="content" tabIndex={-1} className="min-h-screen bg-bg text-ink">
@@ -54,7 +54,7 @@ export default function ProductsPage() {
         <p className="mt-4 text-sm leading-relaxed text-ink-soft">Urvalet är redaktionellt och är ingen topplista från ett eget produkttest. Guiderna innehåller annonslänkar som kan ge oss ersättning vid köp.</p>
       </header>
       <nav aria-label="Produktkategorier" className="mb-8 flex flex-wrap gap-3">
-        {[["Nytt från Lyko", "lyko"], ['Mer skönhet', 'skonhet'], ['Ljud & smart vardag', 'vardag']].map(([label,id]) => <a key={id} href={`#${id}`} className="inline-flex min-h-12 items-center rounded-full border border-line bg-surface px-5 text-sm font-bold text-wine">{label}</a>)}
+        {groups.filter(group => group.products.length).map(({title,id}) => <a key={id} href={`#${id}`} className="inline-flex min-h-12 items-center rounded-full border border-line bg-surface px-5 text-sm font-bold text-wine">{title}</a>)}
       </nav>
       {groups.map((group, categoryIndex) => <section key={group.id} id={group.id} aria-labelledby={`category-${categoryIndex}`} className="mb-12 scroll-mt-28">
         <h2 id={`category-${categoryIndex}`} className="mb-6 font-display text-3xl font-bold">{group.title}</h2>
@@ -69,7 +69,7 @@ export default function ProductsPage() {
               <p className="mt-4 text-xs font-bold uppercase tracking-wider text-wine">{product.topic}</p>
               <h3 className="mt-2 font-display text-2xl font-bold leading-tight"><Link href={product.path}>{product.shortName}</Link></h3>
               <p className="mt-3 text-xs leading-relaxed text-ink-soft">{product.variant}</p>
-              <p className="mb-4 mt-4 text-sm leading-relaxed">{product.question}</p>
+              <p className="mb-4 mt-4 text-sm leading-relaxed">{product.targetQuery ?? product.question}</p>
               <div className="mt-auto"><p className="text-sm font-bold">{offer.merchantName}</p>{offer.price ? <MerchantPrice price={offer.price} /> : null}
                 <Link href={product.path} className="mt-4 inline-flex min-h-12 items-center gap-2 font-bold text-wine underline underline-offset-4">Läs guiden och se butiker<ArrowRight size={18} aria-hidden="true" /></Link>
                 <p className="mt-2 text-xs leading-relaxed text-ink-soft">{image.credit}</p>

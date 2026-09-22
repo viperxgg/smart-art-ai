@@ -2,7 +2,7 @@ import data from "@/lib/selected-product-data.json";
 import type { MerchantPriceSnapshot } from "@/lib/merchant-price";
 
 export type PartnerMerchantId = "nordicfeel" | "kjell" | "lyko";
-export type HubGroup = "lyko" | "skonhet" | "vardag";
+export type HubGroup = "lyko" | "skonhet" | "vardag" | "projektorer" | "harverktyg";
 
 export type CanonicalOffer = {
   merchantId: PartnerMerchantId;

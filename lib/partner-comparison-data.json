@@ -99,7 +99,12 @@
         "Hälsa och vardag",
         "/halsa"
       ]
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-c1.webp",
+      "infographic": "/products/selected/comparison-c1/c.webp",
+      "context": "/products/selected/comparison-c1/d.webp"
+    }
   },
   {
     "id": "c2",
@@ -207,7 +212,12 @@
         "Hälsa och vardag",
         "/halsa"
       ]
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-c2.webp",
+      "infographic": "/products/selected/comparison-c2/c.webp",
+      "context": "/products/selected/comparison-c2/d.webp"
+    }
   },
   {
     "id": "c3",
@@ -304,7 +314,12 @@
         "Hälsa och vardag",
         "/halsa"
       ]
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-c3.webp",
+      "infographic": "/products/selected/comparison-c3/c.webp",
+      "context": "/products/selected/comparison-c3/d.webp"
+    }
   },
   {
     "id": "c4",
@@ -400,7 +415,12 @@
         "Hälsa och vardag",
         "/halsa"
       ]
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-c4.webp",
+      "infographic": "/products/selected/comparison-c4/c.webp",
+      "context": "/products/selected/comparison-c4/d.webp"
+    }
   },
   {
     "id": "c5",
@@ -491,7 +511,12 @@
         "varmeborste eller varmluftsborste",
         "/skonhet/varmeborste-eller-varmluftsborste"
       ]
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-c5.webp",
+      "infographic": "/products/selected/comparison-c5/c.webp",
+      "context": "/products/selected/comparison-c5/d.webp"
+    }
   },
   {
     "id": "c6",
@@ -598,7 +623,12 @@
         "varmluftsborste eller plattang",
         "/skonhet/varmluftsborste-eller-plattang"
       ]
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-c6.webp",
+      "infographic": "/products/selected/comparison-c6/c.webp",
+      "context": "/products/selected/comparison-c6/d.webp"
+    }
   },
   {
     "id": "c7",
@@ -695,7 +725,12 @@
         "redken abc pre treatment",
         "/skonhet/redken-abc-pre-treatment"
       ]
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-c7.webp",
+      "infographic": "/products/selected/comparison-c7/c.webp",
+      "context": "/products/selected/comparison-c7/d.webp"
+    }
   },
   {
     "id": "c8",
@@ -792,7 +827,12 @@
         "ghd rise",
         "/skonhet/ghd-rise"
       ]
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-c8.webp",
+      "infographic": "/products/selected/comparison-c8/c.webp",
+      "context": "/products/selected/comparison-c8/d.webp"
+    }
   },
   {
     "id": "c9",
@@ -901,6 +941,11 @@
         "lyko infrared blowout",
         "/skonhet/lyko-infrared-blowout"
       ]
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-c9.webp",
+      "infographic": "/products/selected/comparison-c9/c.webp",
+      "context": "/products/selected/comparison-c9/d.webp"
+    }
   }
 ]

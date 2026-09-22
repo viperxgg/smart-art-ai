@@ -2155,7 +2155,7 @@
     "name": "Wanbo Cube 2 Pro",
     "variant": "C2P-W · Full HD · Android TV 11",
     "selected": true,
-    "hubGroup": "vardag",
+    "hubGroup": "projektorer",
     "merchantItemId": "29994",
     "updatedAt": "2026-09-22",
     "path": "/halsa/wanbo-cube-2-pro",
@@ -2271,7 +2271,7 @@
     },
     "image": {
       "merchantId": "kjell",
-      "src": "/products/selected/wanbo-cube-2-pro/1.webp",
+      "src": "/products/selected/wanbo-cube-2-pro/1.jpg",
       "width": 848,
       "height": 848,
       "alt": "Wanbo Cube 2 Pro, C2P-W · Full HD · Android TV 11.",
@@ -2312,14 +2312,19 @@
           "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/wanbo-cube-2-pro-smart-projektor-med-full-hd-och-android-tv-11-p29994"
         ]
       }
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-wanbo-cube-2-pro.webp",
+      "infographic": "/products/selected/wanbo-cube-2-pro/c.webp",
+      "context": "/products/selected/wanbo-cube-2-pro/d.webp"
+    }
   },
   {
     "id": "plexgear-cv200",
     "name": "Plexgear CV200",
     "variant": "CV200 · modell F100 · LCD-projektor",
     "selected": true,
-    "hubGroup": "vardag",
+    "hubGroup": "projektorer",
     "merchantItemId": "24815",
     "updatedAt": "2026-09-22",
     "path": "/halsa/plexgear-cv200",
@@ -2468,7 +2473,12 @@
           "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/plexgear-barbar-lcd-projektor-cv200-p24815"
         ]
       }
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-plexgear-cv200.webp",
+      "infographic": "/products/selected/plexgear-cv200/c.webp",
+      "context": "/products/selected/plexgear-cv200/d.webp"
+    }
   },
   {
     "id": "kobo-clara-colour",
@@ -2637,7 +2647,12 @@
           "https://ereader.kobo.com/en-us/collections/ereaders/products/kobo-clara-colour"
         ]
       }
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-kobo-clara-colour.webp",
+      "infographic": "/products/selected/kobo-clara-colour/c.webp",
+      "context": "/products/selected/kobo-clara-colour/d.webp"
+    }
   },
   {
     "id": "nothing-ear-3a",
@@ -2767,7 +2782,7 @@
     },
     "image": {
       "merchantId": "kjell",
-      "src": "/products/selected/nothing-ear-3a/1.webp",
+      "src": "/products/selected/nothing-ear-3a/1.png",
       "width": 848,
       "height": 848,
       "alt": "Nothing Ear (3a), Svart · Ear (3a) · laddetui.",
@@ -2810,7 +2825,12 @@
         ]
       }
     ],
-    "campaignEndsAt": "2026-09-27T23:59:59+02:00"
+    "campaignEndsAt": "2026-09-27T23:59:59+02:00",
+    "visual": {
+      "hero": "/og/wave1-nothing-ear-3a.webp",
+      "infographic": "/products/selected/nothing-ear-3a/c.webp",
+      "context": "/products/selected/nothing-ear-3a/d.webp"
+    }
   },
   {
     "id": "reolink-w330",
@@ -2933,7 +2953,7 @@
     },
     "image": {
       "merchantId": "kjell",
-      "src": "/products/selected/reolink-w330/1.webp",
+      "src": "/products/selected/reolink-w330/1.jpg",
       "width": 848,
       "height": 848,
       "alt": "Reolink W330, RLC-810WA(EU)(ASS)-R2 · 4K · wifi 6.",
@@ -2979,6 +2999,11 @@
       "amount": 999,
       "label": "Medlemspris hos Kjell & Company",
       "endsAt": "2026-10-04T23:59:59+02:00"
+    },
+    "visual": {
+      "hero": "/og/wave1-reolink-w330.webp",
+      "infographic": "/products/selected/reolink-w330/c.webp",
+      "context": "/products/selected/reolink-w330/d.webp"
     }
   },
   {
@@ -2986,7 +3011,7 @@
     "name": "By Lyko Core Styler 5-in-1 Air Tool",
     "variant": "5-in-1 · två 30 mm-cylindrar · 1 500 W",
     "selected": true,
-    "hubGroup": "skonhet",
+    "hubGroup": "harverktyg",
     "merchantItemId": "1189-F92-0000",
     "updatedAt": "2026-09-22",
     "path": "/skonhet/lyko-core-styler",
@@ -3141,14 +3166,19 @@
           "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-infrared-blowout-air-brush"
         ]
       }
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-lyko-core-styler.webp",
+      "infographic": "/products/selected/lyko-core-styler/c.webp",
+      "context": "/products/selected/lyko-core-styler/d.webp"
+    }
   },
   {
     "id": "lyko-infrared-blowout",
     "name": "By Lyko Infrared Blowout Air Brush",
     "variant": "Air Brush · 1 100 W",
     "selected": true,
-    "hubGroup": "skonhet",
+    "hubGroup": "harverktyg",
     "merchantItemId": "1189-F97-0000",
     "updatedAt": "2026-09-22",
     "path": "/skonhet/lyko-infrared-blowout",
@@ -3300,14 +3330,19 @@
           "https://www.nordicfeel.com/se/product/remington-coconut-smooth-airstyler-100297"
         ]
       }
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-lyko-infrared-blowout.webp",
+      "infographic": "/products/selected/lyko-infrared-blowout/c.webp",
+      "context": "/products/selected/lyko-infrared-blowout/d.webp"
+    }
   },
   {
     "id": "ghd-rise",
     "name": "ghd Rise Volumising Hot Brush",
     "variant": "Rise · 32 mm · fast 185 °C",
     "selected": true,
-    "hubGroup": "skonhet",
+    "hubGroup": "harverktyg",
     "merchantItemId": "1121-232-0000",
     "updatedAt": "2026-09-22",
     "path": "/skonhet/ghd-rise",
@@ -3482,7 +3517,12 @@
         "availabilityCheckedAt": "2026-09-22T14:57:45+02:00",
         "merchantItemId": "86887"
       }
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-ghd-rise.webp",
+      "infographic": "/products/selected/ghd-rise/c.webp",
+      "context": "/products/selected/ghd-rise/d.webp"
+    }
   },
   {
     "id": "olaplex-no3-plus",
@@ -3659,7 +3699,12 @@
         "availabilityCheckedAt": "2026-09-22T14:57:45+02:00",
         "merchantItemId": "196179"
       }
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-olaplex-no3-plus.webp",
+      "infographic": "/products/selected/olaplex-no3-plus/c.webp",
+      "context": "/products/selected/olaplex-no3-plus/d.webp"
+    }
   },
   {
     "id": "redken-abc-pre-treatment",
@@ -3813,14 +3858,19 @@
           "https://www.redken.ca/en-ca/products/haircare/acidic-bonding-concentrate/acidic-bonding-concentrate-intensive-treatment"
         ]
       }
-    ]
+    ],
+    "visual": {
+      "hero": "/og/wave1-redken-abc-pre-treatment.webp",
+      "infographic": "/products/selected/redken-abc-pre-treatment/c.webp",
+      "context": "/products/selected/redken-abc-pre-treatment/d.webp"
+    }
   },
   {
     "id": "ghd-original-iv",
     "name": "ghd The Original IV Styler",
     "variant": "Original IV · artikel 104626",
     "selected": true,
-    "hubGroup": "skonhet",
+    "hubGroup": "harverktyg",
     "merchantItemId": "104626",
     "updatedAt": "2026-09-22",
     "path": "/skonhet/ghd-original-iv",
@@ -3937,7 +3987,7 @@
     },
     "image": {
       "merchantId": "nordicfeel",
-      "src": "/products/selected/ghd-original-iv/1.webp",
+      "src": "/products/selected/ghd-original-iv/1.jpg",
       "width": 1120,
       "height": 1120,
       "alt": "ghd The Original IV Styler, Original IV · artikel 104626.",
@@ -3971,14 +4021,19 @@
         ]
       }
     ],
-    "gtin": "5060760617462"
+    "gtin": "5060760617462",
+    "visual": {
+      "hero": "/og/wave1-ghd-original-iv.webp",
+      "infographic": "/products/selected/ghd-original-iv/c.webp",
+      "context": "/products/selected/ghd-original-iv/d.webp"
+    }
   },
   {
     "id": "remington-s5901",
     "name": "Remington Coconut Smooth Straightener S5901",
     "variant": "S5901 · Coconut Smooth Straightener",
     "selected": true,
-    "hubGroup": "skonhet",
+    "hubGroup": "harverktyg",
     "merchantItemId": "96396",
     "updatedAt": "2026-09-22",
     "path": "/skonhet/remington-s5901",
@@ -4099,7 +4154,7 @@
     },
     "image": {
       "merchantId": "nordicfeel",
-      "src": "/products/selected/remington-s5901/1.webp",
+      "src": "/products/selected/remington-s5901/1.jpg",
       "width": 940,
       "height": 940,
       "alt": "Remington Coconut Smooth Straightener S5901, S5901 · Coconut Smooth Straightener.",
@@ -4133,14 +4188,19 @@
         ]
       }
     ],
-    "gtin": "5038061112917"
+    "gtin": "5038061112917",
+    "visual": {
+      "hero": "/og/wave1-remington-s5901.webp",
+      "infographic": "/products/selected/remington-s5901/c.webp",
+      "context": "/products/selected/remington-s5901/d.webp"
+    }
   },
   {
     "id": "babyliss-big-hair-dual",
     "name": "BaByliss Big Hair Dual Gold Edition",
     "variant": "Gold Edition · 40 och 50 mm · artikel 90859",
     "selected": true,
-    "hubGroup": "skonhet",
+    "hubGroup": "harverktyg",
     "merchantItemId": "90859",
     "updatedAt": "2026-09-22",
     "path": "/skonhet/babyliss-big-hair-dual",
@@ -4251,7 +4311,7 @@
     },
     "image": {
       "merchantId": "nordicfeel",
-      "src": "/products/selected/babyliss-big-hair-dual/1.webp",
+      "src": "/products/selected/babyliss-big-hair-dual/1.jpg",
       "width": 940,
       "height": 940,
       "alt": "BaByliss Big Hair Dual Gold Edition, Gold Edition · 40 och 50 mm · artikel 90859.",
@@ -4285,14 +4345,19 @@
         ]
       }
     ],
-    "gtin": "3030050153804"
+    "gtin": "3030050153804",
+    "visual": {
+      "hero": "/og/wave1-babyliss-big-hair-dual.webp",
+      "infographic": "/products/selected/babyliss-big-hair-dual/c.webp",
+      "context": "/products/selected/babyliss-big-hair-dual/d.webp"
+    }
   },
   {
     "id": "remington-as5901",
     "name": "Remington Coconut Smooth Airstyler AS5901",
     "variant": "AS5901 · 30 och 50 mm · 1 000 W",
     "selected": true,
-    "hubGroup": "skonhet",
+    "hubGroup": "harverktyg",
     "merchantItemId": "100297",
     "updatedAt": "2026-09-22",
     "path": "/skonhet/remington-as5901",
@@ -4429,7 +4494,7 @@
     },
     "image": {
       "merchantId": "nordicfeel",
-      "src": "/products/selected/remington-as5901/1.webp",
+      "src": "/products/selected/remington-as5901/1.jpg",
       "width": 940,
       "height": 940,
       "alt": "Remington Coconut Smooth Airstyler AS5901, AS5901 · 30 och 50 mm · 1 000 W.",
@@ -4472,6 +4537,11 @@
         ]
       }
     ],
-    "gtin": "5038061138290"
+    "gtin": "5038061138290",
+    "visual": {
+      "hero": "/og/wave1-remington-as5901.webp",
+      "infographic": "/products/selected/remington-as5901/c.webp",
+      "context": "/products/selected/remington-as5901/d.webp"
+    }
   }
 ]
