@@ -108,7 +108,7 @@
     "merchantId": "kjell",
     "merchantItemId": "24718",
     "gtin": null,
-    "updatedAt": "2026-09-14",
+    "updatedAt": "2026-09-22",
     "images": [
       {
         "src": "/products/selected/cmf-buds-2-dark-grey/1.webp",
@@ -325,7 +325,7 @@
     "merchantId": "kjell",
     "merchantItemId": "65412",
     "gtin": null,
-    "updatedAt": "2026-09-14",
+    "updatedAt": "2026-09-22",
     "images": [
       {
         "src": "/products/selected/tapo-c520ws-single/1.jpg",
@@ -341,7 +341,7 @@
     "category": "Hälsa & vardag",
     "topic": "Smarta hem",
     "metaTitle": "Tapo C520WS – ström, lagring & pris | Elins val",
-    "description": "Tapo C520WS utomhuskamera: förstå strömförsörjning, wifi, minneskort och medlemspris innan köp. Fakta och källor för en kamera, inte flerpack.",
+    "description": "Tapo C520WS utomhuskamera: förstå strömförsörjning, wifi, minneskort och aktuellt butikspris innan köp. Fakta och källor för en kamera, inte flerpack.",
     "question": "Finns ström och nätverk där kameran ska sitta?",
     "answer": "Tapo C520WS kan passa när du vill ha en vridbar utomhuskamera och kan ordna ström vid monteringsplatsen. Den är nätansluten, inte en batterikamera. Fundera också på om du vill lagra på ett separat microSD-kort eller betala för Tapo Care, innan du jämför inköpspriset.",
     "fits": [
@@ -401,8 +401,8 @@
         "Lokal lagring på ett separat microSD-kort är ett alternativ till Tapo Care. Molnlagring via Tapo Care kräver abonnemang."
       ],
       [
-        "Varför visas två priser hos Kjell?",
-        "Ett lägre medlemspris kan kräva medlemskap. Vi visar det vanliga kontrollerade priset separat och anger villkor och slutdatum för medlemspriset."
+        "Vilket pris visade Kjell vid senaste kontrollen?",
+        "Kjell visade 689 kr som aktuellt köppris utan medlems- eller kampanjvillkor den 22 september 2026. Outletpriset gäller ett separat outlet-exemplar och är inte samma erbjudande."
       ]
     ],
     "sources": [
@@ -422,12 +422,7 @@
         "Alla våra produktval",
         "/produkter"
       ]
-    ],
-    "memberPrice": {
-      "amount": 689,
-      "endsAt": "2026-09-20T23:59:59+02:00",
-      "label": "Medlemspris hos Kjell till och med 20 september 2026. Medlemskap krävs."
-    }
+    ]
   },
   {
     "id": "kerastase-glaze-drops-45ml",
@@ -533,7 +528,7 @@
     "merchantId": "kjell",
     "merchantItemId": "24592",
     "gtin": null,
-    "updatedAt": "2026-09-14",
+    "updatedAt": "2026-09-22",
     "images": [
       {
         "src": "/products/selected/jbl-flip-7-black/1.jpg",
@@ -741,7 +736,7 @@
     "merchantId": "kjell",
     "merchantItemId": "88933",
     "gtin": null,
-    "updatedAt": "2026-09-14",
+    "updatedAt": "2026-09-22",
     "images": [
       {
         "src": "/products/selected/anker-prime-300w-26250mah/1.webp",
@@ -949,7 +944,7 @@
     "merchantId": "kjell",
     "merchantItemId": "22179",
     "gtin": null,
-    "updatedAt": "2026-09-14",
+    "updatedAt": "2026-09-22",
     "images": [
       {
         "src": "/products/selected/linocell-wireless-carplay-q1m/1.jpg",

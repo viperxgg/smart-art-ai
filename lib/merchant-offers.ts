@@ -39,11 +39,11 @@ export const koboKjellOffer: MerchantOffer = {
   variant: "6 tum · 16 GB · svartvit skärm · artikel 22150",
   href: "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3b1-kobo-offer&url=www.kjell.com/se/produkter/mobilt/las-surfplattor/lasplattor/kobo-clara-bw-lasplatta-6-p22150",
   placement: "product-offer",
-  checkedAt: "2026-09-14",
+  checkedAt: "2026-09-22",
   price: {
     amount: 1899,
     currency: "SEK",
-    checkedAt: "2026-09-14T11:58:26+02:00",
+    checkedAt: "2026-09-22T10:48:38+02:00",
     source: "https://www.kjell.com/se/produkter/mobilt/las-surfplattor/lasplattor/kobo-clara-bw-lasplatta-6-p22150",
   },
 };
@@ -75,11 +75,11 @@ export const selectedOffer2: MerchantOffer = {
   "variant": "Buds 2 · mörkgrå · modell 3000365",
   "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-2&url=www.kjell.com/se/produkter/ljud-bild/horlurar-headset/tradlosa-horlurar/nothing-cmf-buds-2-morkgra-p24718",
   "placement": "selected-product-offer",
-  "checkedAt": "2026-09-14",
+  "checkedAt": "2026-09-22",
   "price": {
     "amount": 690.0,
     "currency": "SEK",
-    "checkedAt": "2026-09-14T13:24:49+02:00",
+    "checkedAt": "2026-09-22T10:48:38+02:00",
     "source": "https://www.kjell.com/se/produkter/ljud-bild/horlurar-headset/tradlosa-horlurar/nothing-cmf-buds-2-morkgra-p24718"
   }
 };
@@ -109,11 +109,12 @@ export const selectedOffer4: MerchantOffer = {
   "variant": "Tapo C520WS · en kamera · nätansluten",
   "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-4&url=www.kjell.com/se/produkter/sakerhet-overvakning/kameraovervakning/overvakningskameror/overvakningskameror-utomhus/tp-link-tapo-c520ws-overvakningskamera-p65412",
   "placement": "selected-product-offer",
-  "checkedAt": "2026-09-14",
+  "checkedAt": "2026-09-22",
+  "priceNote": "Kjell visade 689 kr som aktuellt köppris utan medlems- eller kampanjvillkor vid kontrollen den 22 september 2026. Outletvara är ett separat exemplar med eget pris och skick.",
   "price": {
-    "amount": 1099.0,
+    "amount": 689.0,
     "currency": "SEK",
-    "checkedAt": "2026-09-14T13:28:51+02:00",
+    "checkedAt": "2026-09-22T10:48:38+02:00",
     "source": "https://www.kjell.com/se/produkter/sakerhet-overvakning/kameraovervakning/overvakningskameror/overvakningskameror-utomhus/tp-link-tapo-c520ws-overvakningskamera-p65412"
   }
 };
@@ -143,11 +144,11 @@ export const selectedOffer6: MerchantOffer = {
   "variant": "Flip 7 · svart · JBLFLIP7BLK · en högtalare",
   "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-6&url=www.kjell.com/se/produkter/ljud-bild/hogtalare/barbara-hogtalare/jbl-flip-7-portabel-tradlos-hogtalare-svart-p24592",
   "placement": "selected-product-offer",
-  "checkedAt": "2026-09-14",
+  "checkedAt": "2026-09-22",
   "price": {
     "amount": 1689.0,
     "currency": "SEK",
-    "checkedAt": "2026-09-14T13:28:51+02:00",
+    "checkedAt": "2026-09-22T10:48:38+02:00",
     "source": "https://www.kjell.com/se/produkter/ljud-bild/hogtalare/barbara-hogtalare/jbl-flip-7-portabel-tradlos-hogtalare-svart-p24592"
   }
 };
@@ -177,11 +178,12 @@ export const selectedOffer8: MerchantOffer = {
   "variant": "26 250 mAh · 300 W totalt · A110AH11 · utan laddstation",
   "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-8&url=www.kjell.com/se/produkter/mobilt/powerbank/anker-prime-powerbank-300-w-pd-3.1-26250-mah-p88933",
   "placement": "selected-product-offer",
-  "checkedAt": "2026-09-14",
+  "checkedAt": "2026-09-22",
+  "priceNote": "Kampanjpris 1 990 kr (ordinarie 2 490 kr) till och med 27 september 2026 enligt Kjell. Butikens pris gäller vid köp.",
   "price": {
     "amount": 1990.0,
     "currency": "SEK",
-    "checkedAt": "2026-09-14T13:28:51+02:00",
+    "checkedAt": "2026-09-22T10:48:38+02:00",
     "source": "https://www.kjell.com/se/produkter/mobilt/powerbank/anker-prime-powerbank-300-w-pd-3.1-26250-mah-p88933"
   }
 };
@@ -211,11 +213,12 @@ export const selectedOffer10: MerchantOffer = {
   "variant": "Q1M · artikel 22179 · CarPlay / Android Auto-adapter",
   "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-10&url=www.kjell.com/se/produkter/ljud-bild/musikspelare-radio/musikmottagare-sandare/linocell-tradlos-carplay-och-android-auto-adapter-p22179",
   "placement": "selected-product-offer",
-  "checkedAt": "2026-09-14",
+  "checkedAt": "2026-09-22",
+  "priceNote": "Kampanjpris 279 kr (ordinarie 349,90 kr) till och med 30 september 2026 enligt Kjell. Butikens pris gäller vid köp.",
   "price": {
     "amount": 279.0,
     "currency": "SEK",
-    "checkedAt": "2026-09-14T13:24:49+02:00",
+    "checkedAt": "2026-09-22T10:48:38+02:00",
     "source": "https://www.kjell.com/se/produkter/ljud-bild/musikspelare-radio/musikmottagare-sandare/linocell-tradlos-carplay-och-android-auto-adapter-p22179"
   }
 };

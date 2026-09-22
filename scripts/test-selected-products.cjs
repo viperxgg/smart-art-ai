@@ -19,7 +19,7 @@ const selected = load('@/lib/selected-products');
 const merchants = load('@/lib/merchant-offers');
 const amazon = load('@/lib/amazon-offers');
 const price = load('@/lib/merchant-price');
-const now = Date.parse('2026-09-14T18:00:00+02:00');
+const now = Date.parse('2026-09-22T12:00:00+02:00');
 assert.equal(selected.selectedProducts.length,15);
 assert.equal(new Set(selected.selectedProducts.map(p=>p.path)).size,15);
 assert.equal(new Set(selected.selectedProducts.map(p=>p.metaTitle)).size,15);
@@ -47,9 +47,8 @@ for (const product of selected.selectedProducts) {
   }
 }
 const tapo = selected.getSelectedProduct('tapo-c520ws-single');
-assert.equal(selected.selectedProductSchema(tapo,now)['@graph'][0].offers.price,1099,'Membership price must not become unconditional price');
-assert.equal(selected.getSelectedOfferState(tapo,now).member.amount,689);
-assert.equal(selected.getSelectedOfferState(tapo,Date.parse(tapo.memberPrice.endsAt)).member,undefined);
+assert.equal(selected.selectedProductSchema(tapo,now)['@graph'][0].offers.price,689,'Use the newly verified unlabelled purchase price');
+assert.equal('memberPrice' in tapo,false,'Ended membership offer must be removed from public product data');
 assert.equal(amazon.getAmazonOffer('beauty-of-joseon-propolis-serum').asin,'B086VKZZZY');
 for (const id of ['anker-prime-300w-26250mah','linocell-wireless-carplay-q1m','ole-henriksen-pout-strawberry-12ml','lumene-cc-medium-30ml','amika-hydro-rush-leave-in-200ml','la-roche-posay-cicaplast-b5-100ml']) {
   assert.equal(amazon.getAmazonOffer(id),undefined,'Unconfirmed matching must not create a comparison');
@@ -70,4 +69,4 @@ const cicaplast = selected.getSelectedProduct('la-roche-posay-cicaplast-b5-100ml
 assert.equal(cicaplast.path,'/skonhet/cicaplast-b5','Reuse family canonical');
 assert.equal(cicaplast.gtin,'3337875816847');
 assert.ok(cicaplast.images.every(image=>image.src.includes('100ml')),'Never reuse old 40 ml packshots');
-console.log('PASS: fifteen unique routes, sources/images/internal links, single-item merchant prices, no fake ratings/live stock/Amazon prices, weekly persistence, campaign/member boundaries, generated Lyko links and exact Wella match.');
+console.log('PASS: fifteen unique routes, sources/images/internal links, single-item merchant prices, no fake ratings/live stock/Amazon prices, weekly persistence, campaign boundaries, ended Tapo member offer removal, generated Lyko links and exact Wella match.');

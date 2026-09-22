@@ -8,6 +8,8 @@ import { getMerchantOffer } from "@/lib/merchant-offers";
 import { selectedProducts } from "@/lib/selected-products";
 import { siteConfig } from "@/lib/site";
 
+// 2026-09-22: Kjell prices were reverified in the shared merchant-offers module;
+// this dated comment moves the product hub's sitemap date.
 export const revalidate = 3600;
 export const metadata = createSeoMetadata({
   title: "Utvalda produkter – bilder, köpguider och priser | Elins val",

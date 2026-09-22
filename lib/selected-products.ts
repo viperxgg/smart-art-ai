@@ -26,7 +26,6 @@ export function selectedProductMetadata(product: SelectedProduct) {
 export function getSelectedOfferState(product: SelectedProduct, now = Date.now()) {
   return {
     now,
-    member: product.memberPrice && Date.parse(product.memberPrice.endsAt) > now ? product.memberPrice : undefined,
     campaignActive: Boolean(product.campaignEndsAt && Date.parse(product.campaignEndsAt) > now),
   };
 }
