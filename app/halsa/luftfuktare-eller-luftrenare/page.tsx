@@ -1,3 +1,4 @@
+// Content refresh 2026-09-22: contextual home-safety link to Tapo C520WS.
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";
 import { indoorAirGuide } from "@/lib/luftfuktare-eller-luftrenare";
 import { createSeoMetadata } from "@/lib/metadata";

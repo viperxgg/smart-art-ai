@@ -1,3 +1,4 @@
+// Content refresh 2026-09-22: first-screen Auracast compatibility answer.
 import { SelectedProductPage } from "@/components/SelectedProductPage";
 import { getSelectedProduct, selectedProductMetadata } from "@/lib/selected-products";
 

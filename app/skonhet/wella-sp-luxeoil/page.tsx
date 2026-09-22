@@ -1,3 +1,4 @@
+// Content refresh 2026-09-22: full product name, first-screen dosage and related oil.
 import { SelectedProductPage } from "@/components/SelectedProductPage";
 import { getSelectedProduct, selectedProductMetadata } from "@/lib/selected-products";
 

@@ -1,3 +1,4 @@
+// Content refresh 2026-09-22: first-screen cloud-storage answer and source review.
 import { SelectedProductPage } from "@/components/SelectedProductPage";
 import { getSelectedProduct, selectedProductMetadata } from "@/lib/selected-products";
 

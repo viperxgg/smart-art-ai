@@ -163,6 +163,11 @@ export default function HalsaHubPage() {
               label: "Läsning",
               text: "Kindle eller Kobo – jämför format, tjänster och begränsningar.",
             },
+            {
+              href: "/halsa/tapo-c520ws",
+              label: "Tapo C520WS",
+              text: "Planerar du en uppkopplad utomhuskamera? Se lagring, ström och begränsningar.",
+            },
           ]}
         />
       </div>

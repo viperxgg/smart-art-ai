@@ -13,5 +13,8 @@ export const hairProtectionGuide: DecisionGuide = {
   intro: "Jämför Moroccanoil Original och Heat Slayer efter funktionen du behöver. Läs modelluppgifter och begränsningar innan du lägger till en produkt.",
   decision: hairStylingDecision, productPaths: ["/skonhet/harolja", "/skonhet/varmeskydd"],
   questions: haroljaEllerVarmeskyddFaqItems,
-  related: [{"href": "/skonhet/leave-in-eller-harolja", "text": "Kräm eller oljeberikad finish?"}],
+  related: [
+    { href: "/skonhet/leave-in-eller-harolja", text: "Kräm eller oljeberikad finish?" },
+    { href: "/skonhet/kerastase-glaze-drops", text: "Behöver du en hårolja för längder och toppar? Se Kérastase Glaze Drops." },
+  ],
 };

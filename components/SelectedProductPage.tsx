@@ -29,16 +29,16 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
       <div className="grid items-start gap-6 md:grid-cols-2 md:gap-x-12">
         <header className="md:col-start-2 md:row-start-1">
           <p className="text-xs font-bold uppercase tracking-widest text-wine">{product.topic} · Produktguide</p>
-          <h1 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">{product.shortName}</h1>
+          <h1 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">{product.heading ?? product.shortName}</h1>
           <p className="mt-4 text-sm font-semibold text-ink-soft">{product.variant}</p>
         </header>
-        <div className="min-w-0 md:col-start-1 md:row-span-2 md:row-start-1"><SelectedProductGallery images={product.images} name={product.shortName} /></div>
         <div className="md:col-start-2 md:row-start-2">
           <h2 className="text-xl font-bold leading-snug">{product.question}</h2>
           <p className="mt-3 text-base leading-relaxed text-ink-soft">{product.answer}</p>
           <a href="#butiker" className={`${buttonClass} mt-6`}>Se pris och butik <ArrowRight size={18} aria-hidden="true" /></a>
           <p className="mt-4 text-xs text-ink-soft">Fakta granskade <time dateTime={product.updatedAt}>{new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(`${product.updatedAt}T12:00:00Z`))}</time> · <Link href="#kallor" className="underline underline-offset-4">Källor och metod</Link></p>
         </div>
+        <div className="min-w-0 md:col-start-1 md:row-span-2 md:row-start-1"><SelectedProductGallery images={product.images} name={product.shortName} /></div>
       </div>
       {sizeNotice}
       <div className="mt-12 grid gap-5 md:grid-cols-2">

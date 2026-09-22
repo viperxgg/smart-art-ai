@@ -1,3 +1,4 @@
+// Content refresh 2026-09-22: first-screen cosmetic definition and related skin step.
 import { SelectedProductPage } from "@/components/SelectedProductPage";
 import { getSelectedProduct, selectedProductMetadata } from "@/lib/selected-products";
 

@@ -7311,8 +7311,8 @@ export const smartSommarPicks: SommarPick[] = ([
     reviewSectionId: "kobo-clara-bw-recensioner",
     reviewFormId: "kobo-clara-bw-skriv-recension",
     targetKeyword: "kobo clara bw",
-    metaTitle: "Kobo Clara BW, 6 tum, 16 GB – passar den dina böcker? | Elins val",
-    metaDescription: "Du vill ha en mindre läsplatta och har kontrollerat hur dina böcker kan överföras. OverDrive kräver att biblioteket erbjuder tjänsten. Biblio-export måste vara aktiverad av biblioteket; alla lån fungerar inte automatiskt.",
+    metaTitle: "Kobo Clara BW – vad visar vår källgranskning? | Elins val",
+    metaDescription: "Källgranskning av Kobo Clara BW: modellfakta, svenska böcker och bibliotekstjänster, vem 6-tumsläsaren passar och när du bör avstå.",
   },
   {
     productSlug: salkingAromadiffuserProduct.slug,

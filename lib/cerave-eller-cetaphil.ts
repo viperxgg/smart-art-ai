@@ -53,5 +53,6 @@ export const ceraveEllerCetaphilPicks: [DecisionComparisonPick, DecisionComparis
 ];
 export const ceraveEllerCetaphilRelatedLinks: DecisionComparisonRelatedLink[] = [
   { href: "/skonhet", label: "Skönhet", text: "Fler jämförelser inom skönhet." },
+  { href: "/skonhet/clinisoothe-skin-purifier", label: "CliniSoothe Skin Purifier", text: "Överväger du ett separat steg efter rengöring? Läs användning och begränsningar." },
   { href: "/om-oss", label: "Om oss", text: "Redaktion och finansiering." },
 ];

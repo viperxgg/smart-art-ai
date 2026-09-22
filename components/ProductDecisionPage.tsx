@@ -10,17 +10,20 @@ import type { ProductDecision } from "@/lib/product-decisions";
 import type { ApprovedProductReview } from "@/lib/reviews/reviews";
 import type { SommarPick } from "@/lib/sommar";
 
-export function ProductDecisionPage({ pick, decision, reviews }: {
+export function ProductDecisionPage({ pick, decision, reviews, pageHeading, firstAnswer }: {
   pick: Pick<SommarPick, "product" | "href" | "reviewSectionId" | "reviewFormId">;
   decision: ProductDecision;
   reviews: ApprovedProductReview[];
+  pageHeading?: string;
+  firstAnswer?: string;
 }) {
   validateDecisionRecord(decision, [pick.product.slug]);
   const option = decision.options[0];
+  const heading = pageHeading ?? `Passar ${option.model} dig?`;
   const breadcrumbs = [
     { name: "Hem", href: "/" },
     { name: decision.category.label, href: decision.category.href },
-    { name: option.model, href: pick.href },
+    { name: heading, href: pick.href },
   ];
   return (
     <main id="content" tabIndex={-1} className="min-h-screen bg-bg px-5 py-8 text-ink">
@@ -29,7 +32,8 @@ export function ProductDecisionPage({ pick, decision, reviews }: {
         <Breadcrumbs items={breadcrumbs} />
         <header className="mt-6 max-w-3xl">
           <p className="text-sm font-bold text-wine">Produktguide · {decision.sources.some((source) => source.status === "unavailable") ? "Ofullständigt källunderlag" : "Källor och metod redovisas"}</p>
-          <h1 className="mt-3 font-display text-3xl font-bold leading-tight sm:text-5xl">Passar {option.model} dig?</h1>
+          <h1 className="mt-3 font-display text-3xl font-bold leading-tight sm:text-5xl">{heading}</h1>
+          {firstAnswer ? <p className="mt-5 text-lg leading-8 text-ink-soft">{firstAnswer}</p> : null}
         </header>
         <DecisionCard decision={decision} />
         <div className="max-w-3xl">

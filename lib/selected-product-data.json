@@ -336,14 +336,15 @@
       }
     ],
     "path": "/halsa/tapo-c520ws",
+    "heading": "Vad kostar molnlagring för Tapo C520WS?",
     "shortName": "TP-Link Tapo C520WS",
     "brand": "TP-Link Tapo",
     "category": "Hälsa & vardag",
     "topic": "Smarta hem",
-    "metaTitle": "Tapo C520WS – ström, lagring & pris | Elins val",
-    "description": "Tapo C520WS utomhuskamera: förstå strömförsörjning, wifi, minneskort och medlemspris innan köp. Fakta och källor för en kamera, inte flerpack.",
-    "question": "Finns ström och nätverk där kameran ska sitta?",
-    "answer": "Tapo C520WS kan passa när du vill ha en vridbar utomhuskamera och kan ordna ström vid monteringsplatsen. Den är nätansluten, inte en batterikamera. Fundera också på om du vill lagra på ett separat microSD-kort eller betala för Tapo Care, innan du jämför inköpspriset.",
+    "metaTitle": "Vad kostar molnlagring för Tapo C520WS? | Elins val",
+    "description": "Tapo C520WS: inget fast svenskt molnpris är publicerat. Se Tapo Care i appen, planernas lagringstid och gratisalternativet microSD.",
+    "question": "Kort svar",
+    "answer": "TP-Link publicerar inget fast svenskt Tapo Care-pris på webbplatsen. Aktuellt pris visas i Tapo-appen under Me → Tapo Care eller på tapo.tplinkcloud.com och varierar med region och kampanj; vi har inte verifierat ett svenskt pris. Tapo-appen är den auktoritativa källan. Basic sparar obegränsade händelsevideor i 7 dagar, Premium i 30 dagar. Gratisalternativet är ett separat microSD-kort upp till 512 GB, och produktsidan anger en kostnadsfri första provmånad.",
     "fits": [
       "Du har ström och ett användbart nätverk vid platsen där kameran ska monteras.",
       "Du vill kunna välja lokal lagring i stället för att vara beroende av molnlagring."
@@ -408,8 +409,21 @@
     "sources": [
       {
         "label": "Tapo – C520WS specifikationer",
-        "url": "https://www.tapo.com/us/product/smart-camera/tapo-c520ws/v1/",
-        "supports": "Upplösning, ström, anslutningar och lagring. Modellens regionala förpackning kontrolleras hos Kjell."
+        "url": "https://www.tapo.com/nordic/product/smart-camera/tapo-c520ws/",
+        "checkedAt": "2026-09-22",
+        "supports": "MicroSD upp till 512 GB, att kortet köps separat, Tapo Care som abonnemang och en kostnadsfri första provmånad. Modellens regionala förpackning kontrolleras hos Kjell."
+      },
+      {
+        "label": "Tapo Nordic – Tapo Care-planer",
+        "url": "https://www.tapo.com/nordic/tapocare/",
+        "checkedAt": "2026-09-22",
+        "supports": "Basic med 7 dagars obegränsade händelsevideor och Premium med 30 dagar."
+      },
+      {
+        "label": "TP-Link Nordic – Tapo Care-priser",
+        "url": "https://www.tp-link.com/nordic/support/faq/3408/",
+        "checkedAt": "2026-09-22",
+        "supports": "Priser varierar efter region och kampanj. Aktuella planpriser visas i Tapo-appen under Me → Tapo Care eller i webbportalen."
       },
       {
         "label": "Kjell & Company – produkt och pris",
@@ -544,14 +558,15 @@
       }
     ],
     "path": "/halsa/jbl-flip-7",
+    "heading": "Fungerar JBL Flip 7 med Auracast?",
     "shortName": "JBL Flip 7",
     "brand": "JBL",
     "category": "Hälsa & vardag",
     "topic": "Ljud & vardag",
-    "metaTitle": "JBL Flip 7 – batteri, Auracast & pris | Elins val",
-    "description": "JBL Flip 7 i svart: vad du behöver veta om batteritid, USB-C-kabel och Auracast innan du köper. Specifikationer, begränsningar och butikspris.",
-    "question": "Behöver du en bärbar högtalare att dela ljudet från?",
-    "answer": "JBL Flip 7 kan passa när du vill ta med en Bluetooth-högtalare mellan hemmet och utflykter. Kontrollera hur du ska ladda den och om eventuell parkoppling med andra högtalare fungerar. Sidan gäller en svart Flip 7; det är inte ett paket med två högtalare.",
+    "metaTitle": "Fungerar JBL Flip 7 med Auracast? | Elins val",
+    "description": "JBL Flip 7 stöder Auracast och Bluetooth 5.4. Se vilka högtalare som kan kopplas, batteritid med Playtime Boost och IP68.",
+    "question": "Kort svar",
+    "answer": "Ja. JBL Flip 7 har Bluetooth 5.4 och Auracast. JBL anger stereoparkoppling mellan två Flip 7 och anslutning till flera Auracast-kompatibla JBL-högtalare. Specifikationen nämner inte PartyBoost eller stöd för äldre modeller som Flip 6, så kontrollera att den andra högtalaren uttryckligen stöder Auracast. Batteritiden anges till upp till 14 timmar, plus 2 timmar med Playtime Boost, och kapslingen är IP68.",
     "fits": [
       "Du vill lyssna tillsammans med andra utan hörlurar.",
       "Du prioriterar ett bärbart format och kan ladda med USB-C."
@@ -613,7 +628,14 @@
       {
         "label": "JBL – Flip 7 specifikationsblad",
         "url": "https://www.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwbbd1a683/pdfs/JBL_FLIP_7_Specsheet_EN.pdf",
-        "supports": "Batterivillkor, Auracast och att USB-kabel inte medföljer."
+        "checkedAt": "2026-09-22",
+        "supports": "Bluetooth 5.4, stereoparkoppling av två Flip 7, flera Auracast-kompatibla JBL-högtalare, batterivillkor, IP68 och att USB-kabel inte medföljer. Specifikationen nämner inte PartyBoost eller Flip 6."
+      },
+      {
+        "label": "JBL – lansering av Flip 7 och Charge 6",
+        "url": "https://news.jbl.com/en-CEU/247222-jbl-unleashes-next-generation-flip-7-and-charge-6-with-bigger-sound-and-deeper-bass/",
+        "checkedAt": "2026-09-22",
+        "supports": "Multi-speaker-anslutning via Auracast med JBL-högtalare som stöder Auracast, Bluetooth 5.4, upp till 16 timmar med Playtime Boost och IP68. Inget stöd för PartyBoost eller äldre modeller anges."
       },
       {
         "label": "Kjell & Company – produkt och pris",
@@ -1341,7 +1363,7 @@
   },
   {
     "id": "la-roche-posay-cicaplast-b5-100ml",
-    "name": "La Roche-Posay Cicaplast Balm B5+",
+    "name": "La Roche-Posay Cicaplast Balm B5+ 100 ml",
     "variant": "100 ml · en tub · B5+ utan SPF",
     "merchantId": "lyko",
     "merchantItemId": "2486-209-0100",
@@ -1357,21 +1379,29 @@
       }
     ],
     "path": "/skonhet/cicaplast-b5",
+    "heading": "Vad är Cicaplast Balm B5+?",
     "category": "Skönhet",
-    "metaTitle": "Cicaplast B5+ 100 ml – storlek, användning och pris",
-    "question": "Är 40 ml och 100 ml samma erbjudande?",
-    "answer": "Nej. De är olika förpackningsstorlekar. Det här underlaget gäller en tub på 100 ml; jämför både storlek och totalpris.",
+    "metaTitle": "Vad är Cicaplast Balm B5+? 100 ml utan SPF",
+    "question": "Kort svar",
+    "answer": "Cicaplast Balm B5+ är en parfymfri, lugnande balm för torra och irriterade hudområden. Den här guiden gäller tuben på 100 ml utan SPF; 40 ml är en separat förpackning. Följ produktens anvisningar, applicera på ren och torr hud och använd inte på öppna sår eller runt ögonen. Vi beskriver kosmetisk hudvård, inte behandling.",
     "sources": [
       {
         "label": "Lyko – exakt variant, användning och pris",
         "url": "https://lyko.com/sv/la-roche-posay/la-roche-posay-cicaplast-balm-b5--100-ml",
+        "checkedAt": "2026-09-14",
         "supports": "Produktidentitet, förpackning, användningsanvisning, originalbilder och daterat pris för en styck utan kombinationsrabatt."
+      },
+      {
+        "label": "La Roche-Posay Sverige – Cicaplast Balm B5+",
+        "url": "https://www.laroche-posay.se/cicaplast/cicaplast-balm-b5-plus",
+        "checkedAt": "2026-09-22",
+        "supports": "Svensk beskrivning av en parfymfri, lugnande balm för torra och irriterade hudområden, storlekarna 40 ml och 100 ml samt anvisningen att undvika öppna sår och området runt ögonen."
       }
     ],
     "shortName": "Cicaplast Balm B5+ 100 ml",
     "brand": "La Roche-Posay",
     "topic": "Hudvård",
-    "description": "Cicaplast Balm B5+ i 100 ml: parfymfri balm, storleksskillnaden mot 40 ml och kontrollerat pris hos Lyko. Se exakt förpackning före köp.",
+    "description": "Vad är Cicaplast Balm B5+? En parfymfri balm för torra, irriterade hudområden. Guiden gäller 100 ml utan SPF och förklarar 40 ml-skillnaden.",
     "fits": [
       "Du söker en parfymfri, mjukgörande balm för torra hudområden.",
       "Du vill jämföra den större tuben på 100 ml med en mindre förpackning."
@@ -1435,6 +1465,10 @@
         "/skonhet/cicaplast-b5-eller-cetaphil"
       ],
       [
+        "Separat steg efter rengöring: CliniSoothe",
+        "/skonhet/clinisoothe-skin-purifier"
+      ],
+      [
         "Fler produktval",
         "/produkter"
       ]
@@ -1442,7 +1476,7 @@
   },
   {
     "id": "wella-sp-luxeoil-100ml",
-    "name": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir",
+    "name": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir 100 ml",
     "variant": "100 ml · en flaska",
     "merchantId": "lyko",
     "merchantItemId": "1330-479-0100",
@@ -1458,21 +1492,23 @@
       }
     ],
     "path": "/skonhet/wella-sp-luxeoil",
+    "heading": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir 100 ml",
     "category": "Skönhet",
-    "metaTitle": "Wella SP LuxeOil 100 ml – dosering och pris",
+    "metaTitle": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir 100 ml",
     "question": "Hur mycket LuxeOil ska man använda?",
-    "answer": "Lyko anger 1–2 pumpningar i längder och toppar. Anpassa mängden efter håret och följ flaskans anvisningar.",
+    "answer": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir är en hårolja för längder och toppar. Lyko anger 1–2 pumpningar i vått eller torrt hår. Börja med lite, fördela i längderna och anpassa mängden efter håret. Vi har inte testat glans, känsla eller om produktnamnets ”Reconstructive” motsvarar en reparerande effekt.",
     "sources": [
       {
         "label": "Lyko – exakt variant, användning och pris",
         "url": "https://lyko.com/sv/wella-professionals/wella-sp-luxeoil",
+        "checkedAt": "2026-09-22",
         "supports": "Produktidentitet, förpackning, användningsanvisning, originalbilder och daterat pris för en styck utan kombinationsrabatt."
       }
     ],
     "shortName": "Wella SP LuxeOil",
     "brand": "Wella Professionals",
     "topic": "Hårolja",
-    "description": "Wella SP LuxeOil Reconstructive Oil Elixir 100 ml: dosering, användning och kontrollerat Lyko-pris. Jämför samma flaska hos Amazon.se.",
+    "description": "Wella Professionals SP LuxeOil Reconstructive Oil Elixir 100 ml: 1–2 pumpningar i längder och toppar, användning och verifierad variant.",
     "fits": [
       "Du vill använda en hårolja i längder och toppar för en mjukare, glansigare finish.",
       "Du vill jämföra samma flaska på 100 ml hos Lyko och Amazon.se."
@@ -1534,6 +1570,10 @@
       [
         "Hårolja eller värmeskydd?",
         "/skonhet/harolja-eller-varmeskydd"
+      ],
+      [
+        "Kérastase Glaze Drops för längder och toppar",
+        "/skonhet/kerastase-glaze-drops"
       ]
     ]
   }

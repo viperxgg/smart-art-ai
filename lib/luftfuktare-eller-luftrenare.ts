@@ -20,6 +20,7 @@ export const indoorAirGuide: DecisionGuide = {
   related: [
     { href: "/halsa/ultraljud-eller-evaporativ-luftfuktare", text: "Behöver du fukt: Classic 300S eller Beurer LB 200?" },
     { href: "/halsa/levoit-eller-philips-luftrenare", text: "Behöver du filtrering: Core 200S eller Philips AC0650/10?" },
+    { href: "/halsa/tapo-c520ws", text: "Behöver du i stället se övervakning hemma? Läs om Tapo C520WS, lagring och abonnemang." },
     { href: "/halsa", text: "Fler beslut för vardagen" },
   ],
 };

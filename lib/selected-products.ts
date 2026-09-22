@@ -4,7 +4,7 @@ import { getVerifiedMerchantPrice } from "@/lib/merchant-price";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
-export type SelectedProduct = (typeof data)[number];
+export type SelectedProduct = (typeof data)[number] & { heading?: string };
 export const selectedProducts: readonly SelectedProduct[] = data;
 
 export function getSelectedProduct(id: string): SelectedProduct {
@@ -42,6 +42,7 @@ export function hasCurrentStructuredPrice(product: SelectedProduct, now = Date.n
 
 export function selectedProductSchema(product: SelectedProduct, now = Date.now()) {
   const url = `${siteConfig.url}${product.path}`;
+  const heading = product.heading ?? product.shortName;
   const offer = getMerchantOffer(product.id)!;
   const hasPrice = hasCurrentStructuredPrice(product, now);
   return {
@@ -62,7 +63,7 @@ export function selectedProductSchema(product: SelectedProduct, now = Date.now()
         } } : {}),
       },
       {
-        "@type": "Article", "@id": `${url}#article`, headline: product.metaTitle,
+        "@type": "Article", "@id": `${url}#article`, headline: heading,
         mainEntityOfPage: url, inLanguage: "sv-SE", dateModified: product.updatedAt,
         description: product.description, about: { "@id": `${url}#product` },
         image: `${siteConfig.url}${product.images[0].src}`,
@@ -74,7 +75,7 @@ export function selectedProductSchema(product: SelectedProduct, now = Date.now()
         "@type": "BreadcrumbList", itemListElement: [
           { "@type": "ListItem", position: 1, name: "Hem", item: siteConfig.url },
           { "@type": "ListItem", position: 2, name: "Produktval", item: `${siteConfig.url}/produkter` },
-          { "@type": "ListItem", position: 3, name: product.shortName, item: url },
+          { "@type": "ListItem", position: 3, name: heading, item: url },
         ],
       },
     ],
