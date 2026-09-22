@@ -2489,16 +2489,16 @@
     "merchantItemId": "22145",
     "updatedAt": "2026-09-22",
     "path": "/halsa/kobo-clara-colour",
-    "heading": "Kobo Clara Colour eller Clara BW – är färgskärmen värd mer?",
+    "heading": "Kobo Clara Colour – är färgskärmen värd pengarna?",
     "shortName": "Kobo Clara Colour",
     "brand": "Kobo",
     "category": "Hälsa & vardag",
     "topic": "Vardagens teknik",
-    "metaTitle": "Kobo Clara Colour eller Clara BW – är färgskärmen värd mer?",
-    "description": "Är färgskärmen på Kobo Clara Colour värd mer än Clara BW? Jämför text, färg, bibliotekslån och batterivillkor innan du väljer läsplatta.",
+    "metaTitle": "Kobo Clara Colour – är färgskärmen värd pengarna?",
+    "description": "Är färgskärmen på Kobo Clara Colour värd pengarna? Se upplösning för text och färg, bibliotekslån och batterivillkor innan du köper.",
     "question": "Kort svar",
     "answer": "Välj Clara Colour om färg på omslag, markeringar och illustrationer gör skillnad för din läsning. För huvudsakligen romantext räcker Clara BW ofta. Colour visar svartvit text i 300 ppi men färg i 150 ppi; färg är alltså inte högre textupplösning. De senast kontrollerade priserna skiljer 191 kr. Kontrollera bibliotekets boköverföring före båda köpen.",
-    "targetQuery": "Kobo Clara Colour eller Clara BW – är färgskärmen värd mer?",
+    "targetQuery": "Kobo Clara Colour – är färgskärmen värd pengarna?",
     "hypothesis": "appears for targetQuery within 14 days",
     "fits": [
       "Du läser illustrationer eller vill skilja markeringar med färg.",
@@ -2663,16 +2663,16 @@
     "merchantItemId": "21994",
     "updatedAt": "2026-09-22",
     "path": "/halsa/nothing-ear-3a",
-    "heading": "Nothing Ear (3a) eller CMF Buds 2 – vad får du för pengarna?",
+    "heading": "Nothing Ear (3a) – vad får du för pengarna?",
     "shortName": "Nothing Ear (3a)",
     "brand": "Nothing",
     "category": "Hälsa & vardag",
     "topic": "Vardagens teknik",
-    "metaTitle": "Nothing Ear (3a) eller CMF Buds 2 – vad får du för pengarna?",
-    "description": "Vad får du med Nothing Ear (3a) jämfört med CMF Buds 2? Se LDAC-begränsningen på iPhone, batteri med ANC och det daterade kampanjpriset.",
+    "metaTitle": "Nothing Ear (3a) – vad får du för pengarna?",
+    "description": "Vad får du med Nothing Ear (3a)? Se LDAC-begränsningen på iPhone, batteri med ANC, dubbelanslutning och det daterade kampanjpriset.",
     "question": "Kort svar",
     "answer": "Välj Ear (3a) om LDAC med en kompatibel Android-mobil är ett konkret behov, inte bara en specifikation. På iPhone får du inte den fördelen. CMF Buds 2 räcker som enklare alternativ med ANC och längre angiven total batteritid. Tillverkarnas maxvärden för brusreducering säger inte vilket par som sitter bäst eller låter bäst i dina öron.",
-    "targetQuery": "Nothing Ear (3a) eller CMF Buds 2 – vad får du för pengarna?",
+    "targetQuery": "Nothing Ear (3a) – vad får du för pengarna?",
     "hypothesis": "appears for targetQuery within 14 days",
     "fits": [
       "Du har verifierat LDAC-stöd i din Android-mobil.",
@@ -3090,19 +3090,19 @@
     ],
     "related": [
       [
-        "lyko infrared blowout",
+        "Fungerar By Lyko Infrared Blowout på tjockt hår från blött?",
         "/skonhet/lyko-infrared-blowout"
       ],
       [
-        "lyko core styler eller infrared blowout",
+        "By Lyko Core Styler eller Infrared Blowout?",
         "/skonhet/lyko-core-styler-eller-infrared-blowout"
       ],
       [
-        "varmeborste eller varmluftsborste",
+        "Värmeborste eller varmluftsborste – vilken passar din morgonrutin?",
         "/skonhet/varmeborste-eller-varmluftsborste"
       ],
       [
-        "varmluftsborste eller plattang",
+        "Varmluftsborste eller plattång – vilket moment saknar du?",
         "/skonhet/varmluftsborste-eller-plattang"
       ]
     ],
@@ -3187,7 +3187,7 @@
     "brand": "By Lyko",
     "category": "Skönhet",
     "topic": "Hårverktyg & hårvård",
-    "metaTitle": "Infrared Blowout på tjockt hår – från blött?",
+    "metaTitle": "By Lyko Infrared Blowout på tjockt hår – från blött?",
     "description": "Kan Infrared Blowout ersätta hårfönen på tjockt hår? Läs om förtorkning, värmelägen och vad märkets infraröda påståenden faktiskt säger.",
     "question": "Kort svar",
     "answer": "Räkna inte med att Infrared Blowout ensam ersätter förtorkning på tjockt eller långt hår. By Lyko rekommenderar då vanlig fön tills håret är omkring 80 procent torrt, följt av borsten för form. Den passar alltså bättre som avslutande steg än som löfte om snabb torkning från genomblött hår. Infraröd teknik är märkets beskrivning, inte vårt belägg för mindre slitage.",
@@ -3261,19 +3261,19 @@
     ],
     "related": [
       [
-        "lyko core styler",
+        "5-i-1 airstyler för 1 500 kr – vad klarar By Lyko Core Styler?",
         "/skonhet/lyko-core-styler"
       ],
       [
-        "lyko core styler eller infrared blowout",
+        "By Lyko Core Styler eller Infrared Blowout?",
         "/skonhet/lyko-core-styler-eller-infrared-blowout"
       ],
       [
-        "varmeborste eller varmluftsborste",
+        "Värmeborste eller varmluftsborste – vilken passar din morgonrutin?",
         "/skonhet/varmeborste-eller-varmluftsborste"
       ],
       [
-        "remington as5901",
+        "Räcker 1 000 W? Remington AS5901 som varmluftsborste från blött hår",
         "/skonhet/remington-as5901"
       ]
     ],
@@ -3427,19 +3427,19 @@
     ],
     "related": [
       [
-        "varmeborste eller varmluftsborste",
+        "Värmeborste eller varmluftsborste – vilken passar din morgonrutin?",
         "/skonhet/varmeborste-eller-varmluftsborste"
       ],
       [
-        "lyko infrared blowout",
+        "Fungerar By Lyko Infrared Blowout på tjockt hår från blött?",
         "/skonhet/lyko-infrared-blowout"
       ],
       [
-        "varmluftsborste eller plattang",
+        "Varmluftsborste eller plattång – vilket moment saknar du?",
         "/skonhet/varmluftsborste-eller-plattang"
       ],
       [
-        "harolja eller varmeskydd",
+        "Hårolja eller värmeskydd – vad saknas i din rutin?",
         "/skonhet/harolja-eller-varmeskydd"
       ]
     ],
@@ -3614,15 +3614,15 @@
     ],
     "related": [
       [
-        "olaplex no3 plus eller k18",
+        "Olaplex No.3 Plus eller K18?",
         "/skonhet/olaplex-no3-plus-eller-k18"
       ],
       [
-        "olaplex eller harinpackning",
+        "Behandling före tvätt eller mask efteråt – vad behöver du?",
         "/skonhet/olaplex-eller-harinpackning"
       ],
       [
-        "Hårinpackning och K18",
+        "Vilken hårmask passar din rutin?",
         "/guider/harinpackning"
       ]
     ],
@@ -3790,19 +3790,19 @@
     ],
     "related": [
       [
-        "redken acidic bonding concentrate",
+        "Redken Acidic Bonding Concentrate",
         "/skonhet/redken-acidic-bonding-concentrate"
       ],
       [
-        "olaplex eller harinpackning",
+        "Behandling före tvätt eller mask efteråt – vad behöver du?",
         "/skonhet/olaplex-eller-harinpackning"
       ],
       [
-        "olaplex no3 plus",
+        "Olaplex No.3 Plus – vad skiljer mot gamla No.3, och räcker 3 minuter?",
         "/skonhet/olaplex-no3"
       ],
       [
-        "Hårinpackning",
+        "Vilken hårmask passar din rutin?",
         "/guider/harinpackning"
       ]
     ],
@@ -3874,16 +3874,16 @@
     "merchantItemId": "104626",
     "updatedAt": "2026-09-22",
     "path": "/skonhet/ghd-original-iv",
-    "heading": "ghd Original IV eller Remington S5901 – vad får du för prisskillnaden?",
+    "heading": "ghd Original IV – vad får du för prisskillnaden?",
     "shortName": "ghd The Original IV Styler",
     "brand": "ghd",
     "category": "Skönhet",
     "topic": "Hårverktyg & hårvård",
     "metaTitle": "ghd Original IV – vad får du för prisskillnaden?",
-    "description": "Fast 185 grader eller nio värmelägen? Se vad ghd Original IV erbjuder jämfört med Remington S5901, med daterat pris och tydliga begränsningar.",
+    "description": "Vad får du med ghd Original IV? Se fast temperatur, plattbredd, automatisk avstängning och garanti, med daterat pris och tydliga begränsningar.",
     "question": "Kort svar",
     "answer": "ghd Original IV passar om du vill slippa välja temperatur och accepterar fast 185 grader. Remington S5901 kostar mindre och ger fler värmeval, vilket kan vara viktigare än ett enklare reglage. Vid vår kontroll skiljde 1 236 kronor, inte exakt 1 200. Vi har inget eget jämförande test som visar att prisskillnaden ger ett bättre resultat på ditt hår.",
-    "targetQuery": "ghd Original IV eller Remington S5901 – vad får du för prisskillnaden?",
+    "targetQuery": "ghd Original IV – vad får du för prisskillnaden?",
     "hypothesis": "appears for targetQuery within 14 days",
     "fits": [
       "Du föredrar fast temperatur och ett enkelt reglage.",
@@ -3955,15 +3955,15 @@
     ],
     "related": [
       [
-        "remington s5901",
+        "Remington S5901 för 519 kr – vad får du och vad saknas?",
         "/skonhet/remington-s5901"
       ],
       [
-        "ghd original eller remington s5901",
+        "ghd Original IV eller Remington S5901?",
         "/skonhet/ghd-original-eller-remington-s5901"
       ],
       [
-        "varmluftsborste eller plattang",
+        "Varmluftsborste eller plattång – vilket moment saknar du?",
         "/skonhet/varmluftsborste-eller-plattang"
       ]
     ],
@@ -4122,15 +4122,15 @@
     ],
     "related": [
       [
-        "ghd original iv",
+        "ghd Original IV – vad får du för prisskillnaden?",
         "/skonhet/ghd-original-iv"
       ],
       [
-        "ghd original eller remington s5901",
+        "ghd Original IV eller Remington S5901?",
         "/skonhet/ghd-original-eller-remington-s5901"
       ],
       [
-        "varmluftsborste eller plattang",
+        "Varmluftsborste eller plattång – vilket moment saknar du?",
         "/skonhet/varmluftsborste-eller-plattang"
       ]
     ],
@@ -4209,7 +4209,7 @@
     "brand": "BaByliss",
     "category": "Skönhet",
     "topic": "Hårverktyg & hårvård",
-    "metaTitle": "Big Hair Dual – svår att lära sig?",
+    "metaTitle": "BaByliss Big Hair Dual – svår att lära sig?",
     "description": "Rotationen gör inte hela jobbet. Se hur BaByliss Big Hair Dual används i förtorkat hår och när en vanlig Remington-borste kan passa bättre.",
     "question": "Kort svar",
     "answer": "Räkna med en inlärningströskel: rotationen kräver att du delar upp håret och styr riktningen, inte bara borstar som vanligt. BaByliss manual beskriver förtorkat hår och att släppa rotationsknappen om borsten går för fort. Välj Big Hair Dual om du vill lära dig rörelsen. En vanlig varmluftsborste är mer relevant om du vill styra all vridning själv.",
@@ -4279,15 +4279,15 @@
     ],
     "related": [
       [
-        "remington as5901",
+        "Räcker 1 000 W? Remington AS5901 som varmluftsborste från blött hår",
         "/skonhet/remington-as5901"
       ],
       [
-        "babyliss big hair dual eller remington as5901",
+        "Roterande eller vanlig varmluftsborste – BaByliss eller Remington?",
         "/skonhet/babyliss-big-hair-dual-eller-remington-as5901"
       ],
       [
-        "varmluftsborste eller plattang",
+        "Varmluftsborste eller plattång – vilket moment saknar du?",
         "/skonhet/varmluftsborste-eller-plattang"
       ]
     ],
@@ -4458,19 +4458,19 @@
     ],
     "related": [
       [
-        "babyliss big hair dual",
+        "Roterande varmluftsborste – är BaByliss Big Hair Dual svår att lära sig?",
         "/skonhet/babyliss-big-hair-dual"
       ],
       [
-        "babyliss big hair dual eller remington as5901",
+        "Roterande eller vanlig varmluftsborste – BaByliss eller Remington?",
         "/skonhet/babyliss-big-hair-dual-eller-remington-as5901"
       ],
       [
-        "lyko infrared blowout",
+        "Fungerar By Lyko Infrared Blowout på tjockt hår från blött?",
         "/skonhet/lyko-infrared-blowout"
       ],
       [
-        "varmluftsborste eller plattang",
+        "Varmluftsborste eller plattång – vilket moment saknar du?",
         "/skonhet/varmluftsborste-eller-plattang"
       ]
     ],

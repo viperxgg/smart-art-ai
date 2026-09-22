@@ -27,7 +27,7 @@ export const airStylerOrStraightenerGuide: DecisionGuide = {
     { href: "/skonhet/lyko-core-styler", text: "5-i-1 airstyler för 1 500 kr – vad klarar By Lyko Core Styler?" },
     { href: "/skonhet/lyko-infrared-blowout", text: "Fungerar By Lyko Infrared Blowout på tjockt hår från blött?" },
     { href: "/skonhet/ghd-rise", text: "ghd Rise: fungerar en värmeborste bara på torrt hår?" },
-    { href: "/skonhet/ghd-original-iv", text: "ghd Original IV eller Remington S5901 – vad får du för prisskillnaden?" },
+    { href: "/skonhet/ghd-original-iv", text: "ghd Original IV – vad får du för prisskillnaden?" },
     { href: "/skonhet/remington-s5901", text: "Remington S5901 för 519 kr – vad får du och vad saknas?" },
     { href: "/skonhet/babyliss-big-hair-dual", text: "Roterande varmluftsborste – är BaByliss Big Hair Dual svår att lära sig?" },
     { href: "/skonhet/remington-as5901", text: "Räcker 1 000 W? Remington AS5901 som varmluftsborste från blött hår" },

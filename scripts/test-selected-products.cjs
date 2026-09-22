@@ -26,6 +26,14 @@ function sha256(filename) {
   return crypto.createHash('sha256').update(fs.readFileSync(filename)).digest('hex');
 }
 
+function assertRelatedLabels(record) {
+  for (const [label, route] of record.related || []) {
+    const slugLabel = route.split('/').filter(Boolean).at(-1).replaceAll('-', ' ');
+    assert.ok(/\p{Lu}/u.test(label), `${record.id}: related label needs an uppercase letter: ${route}`);
+    assert.notEqual(label, slugLabel, `${record.id}: slug-derived related label: ${route}`);
+  }
+}
+
 function recordError(record, context) {
   const routeFile = context.routeFile(record.path);
   if (!routeFile || !fs.existsSync(routeFile)) return `${record.id}: missing route ${record.path}`;
@@ -74,6 +82,16 @@ function assertFixtureFailures() {
     context.sitemapPaths.add(route);
     assert.equal(recordError(fake, context), null);
     console.log('FIXTURE PASS: complete temporary record accepted.');
+    const badLabels = { id: 'temporary-related-fixture', related: [['harolja eller varmeskydd', '/skonhet/harolja-eller-varmeskydd']] };
+    const labelFixture = path.join(tempRoot, 'related-labels.json');
+    fs.writeFileSync(labelFixture, JSON.stringify(badLabels));
+    assert.throws(() => assertRelatedLabels(JSON.parse(fs.readFileSync(labelFixture, 'utf8'))), /needs an uppercase letter/);
+    badLabels.related[0][0] = 'Harolja eller varmeskydd';
+    badLabels.related[0][1] = '/fixture/Harolja-eller-varmeskydd';
+    assert.throws(() => assertRelatedLabels(badLabels), /slug-derived/);
+    badLabels.related[0][0] = 'Hårolja eller värmeskydd – vad behöver du?';
+    assertRelatedLabels(badLabels);
+    console.log('FIXTURE PASS: lowercase and capitalized slug labels rejected; real Swedish question accepted.');
   } finally {
     fs.rmSync(tempRoot, { recursive: true, force: true });
     assert.equal(fs.existsSync(tempRoot), false);
@@ -82,6 +100,8 @@ function assertFixtureFailures() {
 }
 
 const canonical = require('../lib/selected-product-data.json');
+const comparisons = require('../lib/partner-comparison-data.json');
+for (const record of [...canonical, ...comparisons]) assertRelatedLabels(record);
 const records = load('@/lib/selected-product-records');
 const selected = load('@/lib/selected-products');
 const merchants = load('@/lib/merchant-offers');

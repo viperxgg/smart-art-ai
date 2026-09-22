@@ -18,7 +18,7 @@ export function PartnerComparisonPage({ page }: { page: PartnerComparison }) {
         <p className="text-xs font-bold uppercase tracking-widest text-wine">Två val · Ett behov</p>
         <h1 className="mt-4 font-display text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">{page.title}</h1>
         <p className="mt-5 text-base leading-relaxed text-ink-soft" data-first-answer>{page.answer}</p>
-        <p className="mt-4 text-xs text-ink-soft">Fakta granskade <time dateTime={page.updatedAt}>{page.updatedAt}</time> · Källbaserad jämförelse, inte ett eget produkttest.</p>
+        <p className="mt-4 text-xs text-ink-soft">Fakta granskade <time dateTime={page.updatedAt}>{new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(`${page.updatedAt}T12:00:00Z`))}</time> · Källbaserad jämförelse, inte ett eget produkttest.</p>
       </header>
       <div className="mt-8 grid gap-5 sm:grid-cols-2">{products.map((product, index) => <figure key={product.id} className="rounded-2xl border border-line bg-white p-5">
         <Image src={product.image.src} alt={product.image.alt} width={product.image.width} height={product.image.height} sizes="(max-width: 640px) 80vw, 420px" className="h-64 w-full object-contain" />
