@@ -124,15 +124,13 @@ const records = merchantOffers.map((legacyOffer) => {
     variant: offerVariant,
     ...offerFields
   } = legacyOffer;
-  const {
-    merchantId: _selectedMerchant,
-    images: _selectedImages,
-    ...editorial
-  } = legacySelected ?? {
+  const editorial = { ...(legacySelected ?? {
     id,
     name: productName,
     variant: offerVariant,
-  };
+  }) };
+  delete editorial.merchantId;
+  delete editorial.images;
   const record = {
     ...editorial,
     selected: Boolean(legacySelected),
@@ -153,11 +151,13 @@ const records = merchantOffers.map((legacyOffer) => {
     },
   };
   if (legacyAmazon) {
-    const { productSlug: _amazonSlug, ...amazon } = legacyAmazon;
+    const amazon = { ...legacyAmazon };
+    delete amazon.productSlug;
     record.amazon = { ...amazon, linkOnly: true };
   }
   if (legacyHome) {
-    const { offer: _homeOffer, ...home } = legacyHome.home;
+    const home = { ...legacyHome.home };
+    delete home.offer;
     record.home = { kind: legacyHome.kind, ...home };
   }
   return record;
