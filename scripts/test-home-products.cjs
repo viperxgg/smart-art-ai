@@ -26,7 +26,7 @@ const home = load('lib/home-products.ts', name => {
   };
   throw Error(name);
 });
-const now = Date.parse('2026-09-21T12:00:00+02:00');
+const now = Date.parse('2026-09-22T12:00:00+02:00');
 const base = home.curatedHomeProducts[0];
 const make = (slug, addedAt = '2026-09-20T12:00:00+02:00') => ({
   ...base, offer: { ...base.offer, productSlug: slug }, addedAt,
@@ -43,7 +43,7 @@ assert.equal(home.selectHomeProducts(home.curatedHomeProducts, [], now).recent.l
 const reject = entry => assert.equal(home.selectHomeProducts([], [entry], now).recent.length, 0);
 for (const patch of [
   { reviewed: false }, { available: false }, { addedAt: 'invalid' },
-  { addedAt: '2026-09-22T12:00:00+02:00' }, { campaignEndsAt: new Date(now).toISOString() },
+  { addedAt: '2026-09-23T12:00:00+02:00' }, { campaignEndsAt: new Date(now).toISOString() },
   { campaignEndsAt: 'invalid' }, { fit: '' }, { caveat: '' }, { href: '//external.example/' },
 ]) reject({ ...first, ...patch });
 reject({ ...first, offer: { ...first.offer, price: undefined } });
