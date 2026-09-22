@@ -2262,12 +2262,12 @@
       "price": {
         "amount": 2499,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:38:00+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/wanbo-cube-2-pro-smart-projektor-med-full-hd-och-android-tv-11-p29994"
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:38:00+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "kjell",
@@ -2425,12 +2425,12 @@
       "price": {
         "amount": 799,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:38:00+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://www.kjell.com/se/produkter/ljud-bild/tv-tillbehor/projektorer/plexgear-barbar-lcd-projektor-cv200-p24815"
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:38:00+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "kjell",
@@ -2598,12 +2598,12 @@
       "price": {
         "amount": 2090,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:38:00+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://www.kjell.com/se/produkter/mobilt/lasplattor/kobo-clara-colour-lasplatta-6-p22145"
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:38:00+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "kjell",
@@ -2772,12 +2772,12 @@
       "price": {
         "amount": 990,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:38:00+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://www.kjell.com/se/produkter/ljud-bild/horlurar-headset/brusreducerande-horlurar/nothing-ear-3a-tradlosa-horlurar-svart-p21994"
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:38:00+02:00",
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
       "priceNote": "Kampanjpris 990 kr till och med 27 september 2026; Kjell visade 1 290 kr som jämförelsepris. Outlet är ett separat exemplar."
     },
     "image": {
@@ -2944,12 +2944,12 @@
       "price": {
         "amount": 1399,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:38:00+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://www.kjell.com/se/varumarken/reolink/sakerhet-overvakning/kameraovervakning/overvakningskameror/reolink-kameror/reolink-w330-4k-wifi-6-overvakningskamera-p60342"
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:38:00+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "kjell",
@@ -3116,13 +3116,13 @@
       "price": {
         "amount": 1499,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:49:34+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-core-styler-5-in-1-air-tool"
       },
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:49:34+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "lyko",
@@ -3287,13 +3287,13 @@
       "price": {
         "amount": 799,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:49:34+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-infrared-blowout-air-brush"
       },
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:49:34+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "lyko",
@@ -3453,13 +3453,13 @@
       "price": {
         "amount": 2399,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:49:34+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://lyko.com/sv/har/stylingverktyg/varmeborste/ghd-rise-hot-brush"
       },
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:49:34+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "lyko",
@@ -3508,13 +3508,13 @@
         "price": {
           "amount": 1915,
           "currency": "SEK",
-          "checkedAt": "2026-09-22T14:57:45+02:00",
+          "checkedAt": "2026-09-22T18:57:14+02:00",
           "source": "https://www.nordicfeel.com/se/product/ghd-rise-hot-brush-86887"
         },
         "priceNote": "Butikens visade pris; Rek. pris 2 399 kr är butikens jämförelseuppgift.",
         "programId": "872761485",
         "channelId": "2110221551",
-        "availabilityCheckedAt": "2026-09-22T14:57:45+02:00",
+        "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
         "merchantItemId": "86887"
       }
     ],
@@ -3636,13 +3636,13 @@
       "price": {
         "amount": 419,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:49:34+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://lyko.com/sv/har/harvard/treatment/harinpackning/olaplex-no3-plus-complete-repair-treatment-100-ml"
       },
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:49:34+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "lyko",
@@ -3690,13 +3690,13 @@
         "price": {
           "amount": 419,
           "currency": "SEK",
-          "checkedAt": "2026-09-22T14:57:45+02:00",
+          "checkedAt": "2026-09-22T18:57:14+02:00",
           "source": "https://www.nordicfeel.com/se/product/olaplex-no3-plus-complete-repair-treatment-196179"
         },
         "priceNote": "Avser 100 ml, inte 250 ml.",
         "programId": "872761485",
         "channelId": "2110221551",
-        "availabilityCheckedAt": "2026-09-22T14:57:45+02:00",
+        "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
         "merchantItemId": "196179"
       }
     ],
@@ -3816,13 +3816,13 @@
       "price": {
         "amount": 373,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:49:34+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://lyko.com/sv/har/harvard/treatment/harinpackning/redken-acidic-bonding-concentrate-intensive-pre-treatment-190ml"
       },
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:49:34+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "lyko",
@@ -3977,13 +3977,13 @@
       "price": {
         "amount": 1755,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:51:00+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://www.nordicfeel.com/se/product/ghd-new-improved-original-styler-104626"
       },
       "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:51:00+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "nordicfeel",
@@ -4144,13 +4144,13 @@
       "price": {
         "amount": 519,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:51:00+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://www.nordicfeel.com/se/product/remington-coconut-smooth-straightener-s5901-96396"
       },
       "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:51:00+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "nordicfeel",
@@ -4301,13 +4301,13 @@
       "price": {
         "amount": 639,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:51:00+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://www.nordicfeel.com/se/product/babyliss-big-hair-dual-90859"
       },
       "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:51:00+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "nordicfeel",
@@ -4484,13 +4484,13 @@
       "price": {
         "amount": 423,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T14:51:00+02:00",
+        "checkedAt": "2026-09-22T18:57:14+02:00",
         "source": "https://www.nordicfeel.com/se/product/remington-coconut-smooth-airstyler-100297"
       },
       "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T14:51:00+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
     },
     "image": {
       "merchantId": "nordicfeel",
