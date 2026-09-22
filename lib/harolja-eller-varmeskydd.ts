@@ -14,6 +14,9 @@ export const hairProtectionGuide: DecisionGuide = {
   decision: hairStylingDecision, productPaths: ["/skonhet/harolja", "/skonhet/varmeskydd"],
   questions: haroljaEllerVarmeskyddFaqItems,
   related: [
+    { href: "/skonhet/ghd-rise", text: "ghd Rise: fungerar en värmeborste bara på torrt hår?" },
+    { href: "/skonhet/varmeborste-eller-varmluftsborste", text: "Värmeborste eller varmluftsborste – vilken passar din morgonrutin?" },
+
     { href: "/skonhet/leave-in-eller-harolja", text: "Kräm eller oljeberikad finish?" },
     { href: "/skonhet/kerastase-glaze-drops", text: "Behöver du en hårolja för längder och toppar? Se Kérastase Glaze Drops." },
   ],

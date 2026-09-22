@@ -212,6 +212,10 @@
       [
         "Hårolja eller värmeskydd?",
         "/skonhet/harolja-eller-varmeskydd"
+      ],
+      [
+        "Förbehandling eller Leave-In?",
+        "/skonhet/redken-abc-pre-treatment"
       ]
     ],
     "selected": true,
@@ -2094,6 +2098,14 @@
       [
         "Kérastase Glaze Drops för längder och toppar",
         "/skonhet/kerastase-glaze-drops"
+      ],
+      [
+        "Styling på torrt hår med ghd Rise?",
+        "/skonhet/ghd-rise"
+      ],
+      [
+        "Värmeborste eller varmluftsborste?",
+        "/skonhet/varmeborste-eller-varmluftsborste"
       ]
     ],
     "selected": true,
@@ -2968,5 +2980,1498 @@
       "label": "Medlemspris hos Kjell & Company",
       "endsAt": "2026-10-04T23:59:59+02:00"
     }
+  },
+  {
+    "id": "lyko-core-styler",
+    "name": "By Lyko Core Styler 5-in-1 Air Tool",
+    "variant": "5-in-1 · två 30 mm-cylindrar · 1 500 W",
+    "selected": true,
+    "hubGroup": "skonhet",
+    "merchantItemId": "1189-F92-0000",
+    "updatedAt": "2026-09-22",
+    "path": "/skonhet/lyko-core-styler",
+    "heading": "5-i-1 airstyler för 1 500 kr – vad klarar By Lyko Core Styler?",
+    "shortName": "By Lyko Core Styler 5-in-1 Air Tool",
+    "brand": "By Lyko",
+    "category": "Skönhet",
+    "topic": "Hårverktyg & hårvård",
+    "metaTitle": "5-i-1 airstyler – vad klarar Core Styler?",
+    "description": "Vad klarar en 5-i-1 airstyler? Se Core Stylers munstycken, värmelägen och begränsningar innan du väljer mellan lockar och enkel blowout.",
+    "question": "Kort svar",
+    "answer": "Core Styler är rimlig om du vill växla mellan torkning, utborstad form och luftformade lockar med samma handtag. Två 30 mm-cylindrar ger olika lockriktning, men en verifierad minsta hårlängd saknas. Välj den inte bara för effektsiffran: 1 500 W säger inte hur snabbt ditt hår blir torrt. För enbart rundborstfinish är Infrared Blowout ett enklare alternativ.",
+    "targetQuery": "5-i-1 airstyler för 1 500 kr – vad klarar By Lyko Core Styler?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du vill faktiskt använda flera munstycken, inte bara en rundborste.",
+      "Du kan dela upp håret och lära dig cylindertekniken."
+    ],
+    "skip": "Avstå om du vill ha en enda enkel borste eller behöver ett dokumenterat löfte om lockar på mycket kort hår.",
+    "decisionTitle": "Vilket behov ska köpet lösa?",
+    "decision": "Merkostnaden köper fler sätt att forma håret. Vår bedömning gäller funktionerna, inte testad lockhållbarhet eller snabbare torkning.",
+    "facts": [
+      [
+        "Exakt variant",
+        "5-in-1 · två 30 mm-cylindrar · 1 500 W"
+      ],
+      [
+        "Artikel hos butiken",
+        "1189-F92-0000"
+      ],
+      [
+        "Munstycken",
+        "Två 30 mm-cylindrar, rundborste, paddelborste och torkmunstycke"
+      ],
+      [
+        "Inställningar",
+        "Tre hastigheter, tre värmelägen och kalluft"
+      ],
+      [
+        "Angiven temperatur",
+        "70–90 °C, tolerans ±10 °C"
+      ],
+      [
+        "Sladd",
+        "2,5 m"
+      ]
+    ],
+    "steps": [
+      [
+        "Välj uppgift",
+        "Torka först med torkmunstycket."
+      ],
+      [
+        "Välj tillbehör",
+        "Cylindrar för lockriktning, borstar för utborstad form."
+      ],
+      [
+        "Kontrollera längden",
+        "Minsta hårlängd är inte verifierad; köp inte på ett sådant antagande."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "Lyko – exakt variant",
+        "url": "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-core-styler-5-in-1-air-tool",
+        "checkedAt": "2026-09-22",
+        "supports": "Variant, originalbild, daterat pris och butikens produktuppgifter. Pris gäller en styck utan kombinationsrabatt."
+      },
+      {
+        "label": "Produktuppgifter och jämförelse",
+        "url": "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-infrared-blowout-air-brush",
+        "checkedAt": "2026-09-22",
+        "supports": "Funktionsuppgifter för den namngivna jämförelsemodellen; inte ett eget test."
+      }
+    ],
+    "related": [
+      [
+        "lyko infrared blowout",
+        "/skonhet/lyko-infrared-blowout"
+      ],
+      [
+        "lyko core styler eller infrared blowout",
+        "/skonhet/lyko-core-styler-eller-infrared-blowout"
+      ],
+      [
+        "varmeborste eller varmluftsborste",
+        "/skonhet/varmeborste-eller-varmluftsborste"
+      ],
+      [
+        "varmluftsborste eller plattang",
+        "/skonhet/varmluftsborste-eller-plattang"
+      ]
+    ],
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26w1-lyko-core-styler&url=https%3A%2F%2Flyko.com%2Fsv%2Fhar%2Fstylingverktyg%2Fvarmeborste%2Flyko-core-styler-5-in-1-air-tool",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 1499,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:49:34+02:00",
+        "source": "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-core-styler-5-in-1-air-tool"
+      },
+      "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:49:34+02:00"
+    },
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/selected/lyko-core-styler/1.webp",
+      "width": 1058,
+      "height": 1280,
+      "alt": "By Lyko Core Styler 5-in-1 Air Tool, 5-in-1 · två 30 mm-cylindrar · 1 500 W.",
+      "credit": "Produktbild: Lyko.",
+      "source": "https://lyko.com/globalassets/product-images/lyko-core-styler-5-in-1-air-tool-1189-f92-0000_1.jpg?ref=1ACA3F6271&w=1280&h=1280&mode=max&quality=75&format=webp",
+      "sha256": "fdfbedd02459a06caf91c145828e0e8beebfbe61ada925c96aba28dcc8972a64",
+      "permissionScope": "Unchanged merchant packshot, editorial frame only. Local draft; social publication requires founder approval and program compliance.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Hur långt hår behövs till 30 mm-cylindrarna?",
+        "answer": "Diametern beskriver cylindern, inte en garanterad minsta hårlängd. Tillverkarens butikssida ger inget verifierbart längdkrav. Mycket korta partier är därför ett osäkert köpfall. Cylindrarna används för olika riktningar; de är inte två olika storlekar.",
+        "sourceUrls": [
+          "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-core-styler-5-in-1-air-tool"
+        ]
+      },
+      {
+        "question": "Kan Core Styler torka blött hår?",
+        "answer": "Torkmunstycket och angiven effekt på 1 500 W gör detta till ett luftverktyg, inte en torrhårsborste som ghd Rise. Vi har inte mätt torktid. Följ manualens förberedelse och byt inte munstycken medan de är heta.",
+        "sourceUrls": [
+          "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-core-styler-5-in-1-air-tool"
+        ]
+      },
+      {
+        "question": "Vad gör borstarna och kalluftsläget?",
+        "answer": "Paddelborsten och rundborsten ger olika sätt att forma; kalluft finns som separat funktion. Tre hastigheter och tre värmelägen ger fler val än ett verktyg med fast temperatur. Det säger inget om hur skonsamt resultatet blir på just ditt hår.",
+        "sourceUrls": [
+          "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-core-styler-5-in-1-air-tool"
+        ]
+      },
+      {
+        "question": "När räcker Infrared Blowout?",
+        "answer": "Om målet är en utborstad finish och du inte vill byta till lockcylindrar behövs inte hela satsen. Infrared Blowout har ett enklare upplägg. Jämför arbetssättet före antalet tillbehör.",
+        "sourceUrls": [
+          "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-core-styler-5-in-1-air-tool",
+          "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-infrared-blowout-air-brush"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lyko-infrared-blowout",
+    "name": "By Lyko Infrared Blowout Air Brush",
+    "variant": "Air Brush · 1 100 W",
+    "selected": true,
+    "hubGroup": "skonhet",
+    "merchantItemId": "1189-F97-0000",
+    "updatedAt": "2026-09-22",
+    "path": "/skonhet/lyko-infrared-blowout",
+    "heading": "Fungerar By Lyko Infrared Blowout på tjockt hår från blött?",
+    "shortName": "By Lyko Infrared Blowout Air Brush",
+    "brand": "By Lyko",
+    "category": "Skönhet",
+    "topic": "Hårverktyg & hårvård",
+    "metaTitle": "Infrared Blowout på tjockt hår – från blött?",
+    "description": "Kan Infrared Blowout ersätta hårfönen på tjockt hår? Läs om förtorkning, värmelägen och vad märkets infraröda påståenden faktiskt säger.",
+    "question": "Kort svar",
+    "answer": "Räkna inte med att Infrared Blowout ensam ersätter förtorkning på tjockt eller långt hår. By Lyko rekommenderar då vanlig fön tills håret är omkring 80 procent torrt, följt av borsten för form. Den passar alltså bättre som avslutande steg än som löfte om snabb torkning från genomblött hår. Infraröd teknik är märkets beskrivning, inte vårt belägg för mindre slitage.",
+    "targetQuery": "Fungerar By Lyko Infrared Blowout på tjockt hår från blött?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du vill forma redan förtorkat hår med en borste.",
+      "Du föredrar ett fast arbetsflöde framför flera lösa munstycken."
+    ],
+    "skip": "Avstå om du behöver en dokumenterat snabb allt-i-ett-torkning av tjockt, genomblött hår.",
+    "decisionTitle": "Vilket behov ska köpet lösa?",
+    "decision": "Utgå från hur vått håret är när du brukar börja. Att behålla en vanlig fön kan vara mer relevant än att köpa fler watt i borsten.",
+    "facts": [
+      [
+        "Exakt variant",
+        "Air Brush · 1 100 W"
+      ],
+      [
+        "Artikel hos butiken",
+        "1189-F97-0000"
+      ],
+      [
+        "Effekt",
+        "1 100 W"
+      ],
+      [
+        "Angiven temperatur",
+        "60–90 °C, tolerans ±10 °C"
+      ],
+      [
+        "Lägen",
+        "Tre hastigheter, tre temperaturer och kalluft"
+      ],
+      [
+        "Tjockt/långt hår",
+        "Märket rekommenderar cirka 80 % förtorkning"
+      ],
+      [
+        "Sladd",
+        "2,5 m"
+      ]
+    ],
+    "steps": [
+      [
+        "Förtorka",
+        "Följ märkets råd för tjockt eller långt hår."
+      ],
+      [
+        "Dela upp",
+        "Arbeta med hanterbara sektioner."
+      ],
+      [
+        "Forma",
+        "Använd borsten för den avslutande formen."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "Lyko – exakt variant",
+        "url": "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-infrared-blowout-air-brush",
+        "checkedAt": "2026-09-22",
+        "supports": "Variant, originalbild, daterat pris och butikens produktuppgifter. Pris gäller en styck utan kombinationsrabatt."
+      },
+      {
+        "label": "Produktuppgifter och jämförelse",
+        "url": "https://www.nordicfeel.com/se/product/remington-coconut-smooth-airstyler-100297",
+        "checkedAt": "2026-09-22",
+        "supports": "Funktionsuppgifter för den namngivna jämförelsemodellen; inte ett eget test."
+      }
+    ],
+    "related": [
+      [
+        "lyko core styler",
+        "/skonhet/lyko-core-styler"
+      ],
+      [
+        "lyko core styler eller infrared blowout",
+        "/skonhet/lyko-core-styler-eller-infrared-blowout"
+      ],
+      [
+        "varmeborste eller varmluftsborste",
+        "/skonhet/varmeborste-eller-varmluftsborste"
+      ],
+      [
+        "remington as5901",
+        "/skonhet/remington-as5901"
+      ]
+    ],
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26w1-lyko-infrared-blowout&url=https%3A%2F%2Flyko.com%2Fsv%2Fhar%2Fstylingverktyg%2Fvarmeborste%2Flyko-infrared-blowout-air-brush",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 799,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:49:34+02:00",
+        "source": "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-infrared-blowout-air-brush"
+      },
+      "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:49:34+02:00"
+    },
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/selected/lyko-infrared-blowout/1.webp",
+      "width": 293,
+      "height": 1280,
+      "alt": "By Lyko Infrared Blowout Air Brush, Air Brush · 1 100 W.",
+      "credit": "Produktbild: Lyko.",
+      "source": "https://lyko.com/globalassets/product-images/lyko-infrared-blowout-air-brush-1189-f97-0000_1.jpg?ref=B6A4B38CE9&w=1280&h=1280&mode=max&quality=75&format=webp",
+      "sha256": "9c40d70714d562e817db54f9f9d199d99144c494e5c5c5b55998073a31b29592",
+      "permissionScope": "Unchanged merchant packshot, editorial frame only. Local draft; social publication requires founder approval and program compliance.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Hur torrt ska tjockt hår vara?",
+        "answer": "Butikens egen produktanvisning rekommenderar handdukstorkning och, för tjockt eller långt hår, fön till cirka 80 procent torrt. Den siffran är en praktisk anvisning, inte en fuktmätning som du behöver göra hemma.",
+        "sourceUrls": [
+          "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-infrared-blowout-air-brush"
+        ]
+      },
+      {
+        "question": "Vad betyder infrared här?",
+        "answer": "By Lyko beskriver infraröd värme och jonfunktion. Vi har inte hittat ett oberoende underlag som visar mindre slitage för denna modell. Texten ska därför läsas som en teknikbeskrivning från märket, inte som ett verifierat resultat på hår.",
+        "sourceUrls": [
+          "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-infrared-blowout-air-brush"
+        ]
+      },
+      {
+        "question": "Ger 1 100 W snabbare torkning än 1 000 W?",
+        "answer": "Watt är angiven effekt, inte ett jämförande torktidstest. Remington AS5901 har 1 000 W och separata borsthuvuden. Välj efter arbetsflöde, borststorlek och förtorkning; vi kan inte rangordna torkhastigheten från effektsiffrorna.",
+        "sourceUrls": [
+          "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-infrared-blowout-air-brush",
+          "https://www.nordicfeel.com/se/product/remington-coconut-smooth-airstyler-100297"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ghd-rise",
+    "name": "ghd Rise Volumising Hot Brush",
+    "variant": "Rise · 32 mm · fast 185 °C",
+    "selected": true,
+    "hubGroup": "skonhet",
+    "merchantItemId": "1121-232-0000",
+    "updatedAt": "2026-09-22",
+    "path": "/skonhet/ghd-rise",
+    "heading": "ghd Rise: fungerar en värmeborste bara på torrt hår?",
+    "shortName": "ghd Rise Volumising Hot Brush",
+    "brand": "ghd",
+    "category": "Skönhet",
+    "topic": "Hårverktyg & hårvård",
+    "metaTitle": "ghd Rise – bara för torrt hår?",
+    "description": "ghd Rise värmer men blåser inte. Se skillnaden mot varmluftsborste, fast temperatur och två daterade butikspriser innan du väljer verktyg.",
+    "question": "Kort svar",
+    "answer": "Ja: ghd Rise är till för torrt hår och kan inte ersätta en hårfön. Den varma 32 mm-borsten formar utan luftflöde och arbetar vid fast 185 grader. Välj den för styling efter torkningen, inte för att kombinera torkning och form i samma steg. Vill du kunna sänka temperaturen är en modell med valbara värmelägen ett mer relevant köp.",
+    "targetQuery": "ghd Rise: fungerar en värmeborste bara på torrt hår?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du börjar med helt torrt hår och vill forma det.",
+      "Du accepterar en fast temperatur utan lägre inställning."
+    ],
+    "skip": "Avstå om håret fortfarande är vått när du vill börja eller om du behöver reglerbar temperatur.",
+    "decisionTitle": "Vilket behov ska köpet lösa?",
+    "decision": "Skillnaden mot en varmluftsborste är arbetsmomentet, inte att det ena verktyget generellt är bättre. Jämför också frakt och villkor hos båda butikerna.",
+    "facts": [
+      [
+        "Exakt variant",
+        "Rise · 32 mm · fast 185 °C"
+      ],
+      [
+        "Artikel hos butiken",
+        "1121-232-0000"
+      ],
+      [
+        "Borstdiameter",
+        "32 mm"
+      ],
+      [
+        "Temperatur",
+        "Fast 185 °C"
+      ],
+      [
+        "Hår vid användning",
+        "Endast torrt hår"
+      ],
+      [
+        "Sladd",
+        "2,7 m"
+      ]
+    ],
+    "steps": [
+      [
+        "Torka färdigt",
+        "Rise har inget torkande luftflöde."
+      ],
+      [
+        "Forma sektioner",
+        "Följ ghd:s bruksanvisning."
+      ],
+      [
+        "Välj butik",
+        "Jämför samma Rise och totalpris."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "Lyko – exakt variant",
+        "url": "https://lyko.com/sv/har/stylingverktyg/varmeborste/ghd-rise-hot-brush",
+        "checkedAt": "2026-09-22",
+        "supports": "Variant, originalbild, daterat pris och butikens produktuppgifter. Pris gäller en styck utan kombinationsrabatt."
+      },
+      {
+        "label": "ghd – Rise, användning",
+        "url": "https://www.ghdhair.com/au/hot-brush/ghd-rise-volumising-brush-p-517",
+        "checkedAt": "2026-09-22",
+        "supports": "Tillverkarens torrhårskrav, 32 mm och fast temperatur; regional sida används inte för svenska garantiuppgifter."
+      },
+      {
+        "label": "NordicFeel – Rise 86887",
+        "url": "https://www.nordicfeel.com/se/product/ghd-rise-hot-brush-86887",
+        "checkedAt": "2026-09-22",
+        "supports": "Samma Rise Hot Brush, 185 °C, 2,7 m och daterat andra erbjudande."
+      }
+    ],
+    "related": [
+      [
+        "varmeborste eller varmluftsborste",
+        "/skonhet/varmeborste-eller-varmluftsborste"
+      ],
+      [
+        "lyko infrared blowout",
+        "/skonhet/lyko-infrared-blowout"
+      ],
+      [
+        "varmluftsborste eller plattang",
+        "/skonhet/varmluftsborste-eller-plattang"
+      ],
+      [
+        "harolja eller varmeskydd",
+        "/skonhet/harolja-eller-varmeskydd"
+      ]
+    ],
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26w1-ghd-rise&url=https%3A%2F%2Flyko.com%2Fsv%2Fhar%2Fstylingverktyg%2Fvarmeborste%2Fghd-rise-hot-brush",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 2399,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:49:34+02:00",
+        "source": "https://lyko.com/sv/har/stylingverktyg/varmeborste/ghd-rise-hot-brush"
+      },
+      "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:49:34+02:00"
+    },
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/selected/ghd-rise/1.webp",
+      "width": 1280,
+      "height": 1249,
+      "alt": "ghd Rise Volumising Hot Brush, Rise · 32 mm · fast 185 °C.",
+      "credit": "Produktbild: Lyko.",
+      "source": "https://lyko.com/globalassets/product-images/ghd-rise-hot-brush-1121-232-0000_1.jpg?ref=1B121FFF7C&w=1280&h=1280&mode=max&quality=75&format=webp",
+      "sha256": "d6d0885a0be9d1f37b2020c97642ded762d2921e19241e2f6e00866c1f861f94",
+      "permissionScope": "Unchanged merchant packshot, editorial frame only. Local draft; social publication requires founder approval and program compliance.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Varför får Rise inte användas som fön?",
+        "answer": "ghd anger torrt hår. Borsten värmer håret direkt men blåser inte luft genom det. En varmluftsborste kombinerar luft och form; Rise lägger ett separat stylingsteg efter torkningen.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/au/hot-brush/ghd-rise-volumising-brush-p-517"
+        ]
+      },
+      {
+        "question": "Passar fast 185 °C alla?",
+        "answer": "Fast temperatur förenklar valet men tar bort möjligheten att välja en lägre nivå. Det är en tydlig begränsning för dig som vill styra värmen själv. Vi gör inget påstående om att 185 grader är riskfritt för alla hår.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/au/hot-brush/ghd-rise-volumising-brush-p-517"
+        ]
+      },
+      {
+        "question": "Är det samma produkt hos båda butikerna?",
+        "answer": "Båda erbjudandena avser ghd Rise Hot Brush med fast 185 °C och 2,7 m sladd. Lyko har artikel 1121-232-0000 och NordicFeel 86887. Kontrollera leverans, frakt och eventuell kombinationsrabatt; vårt huvudpris kräver inget extra köp.",
+        "sourceUrls": [
+          "https://lyko.com/sv/har/stylingverktyg/varmeborste/ghd-rise-hot-brush",
+          "https://www.nordicfeel.com/se/product/ghd-rise-hot-brush-86887"
+        ]
+      }
+    ],
+    "additionalOffers": [
+      {
+        "merchantId": "nordicfeel",
+        "merchantName": "NordicFeel",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26w1-ghd-rise&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fghd-rise-hot-brush-86887",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-09-22",
+        "price": {
+          "amount": 1915,
+          "currency": "SEK",
+          "checkedAt": "2026-09-22T14:57:45+02:00",
+          "source": "https://www.nordicfeel.com/se/product/ghd-rise-hot-brush-86887"
+        },
+        "priceNote": "Butikens visade pris; Rek. pris 2 399 kr är butikens jämförelseuppgift.",
+        "programId": "872761485",
+        "channelId": "2110221551",
+        "availabilityCheckedAt": "2026-09-22T14:57:45+02:00",
+        "merchantItemId": "86887"
+      }
+    ]
+  },
+  {
+    "id": "olaplex-no3-plus",
+    "name": "Olaplex No.3 Plus Complete Repair Treatment",
+    "variant": "No.3 Plus · 100 ml, en flaska",
+    "selected": true,
+    "hubGroup": "skonhet",
+    "merchantItemId": "1737-150-0100",
+    "updatedAt": "2026-09-22",
+    "path": "/skonhet/olaplex-no3",
+    "heading": "Olaplex No.3 Plus – vad skiljer mot gamla No.3, och räcker 3 minuter?",
+    "shortName": "Olaplex No.3 Plus Complete Repair Treatment",
+    "brand": "Olaplex",
+    "category": "Skönhet",
+    "topic": "Hårverktyg & hårvård",
+    "metaTitle": "Olaplex No.3 Plus – räcker tre minuter?",
+    "description": "No.3 Plus ersätter gamla No.3 men är fortfarande ett steg före schampo. Jämför tre minuters användning, 100 ml och skillnaden mot K18.",
+    "question": "Kort svar",
+    "answer": "Olaplex beskriver No.3 Plus som ersättaren till gamla No.3 och anger tre minuters verkningstid före schampo. Det är en användningsanvisning, inte vårt löfte om ett visst resultat efter tre minuter. Välj den om ett extra urtvättat steg passar din rutin. Den ersätter inte automatiskt balsam och används inte på samma sätt som en leave-in från K18.",
+    "targetQuery": "Olaplex No.3 Plus – vad skiljer mot gamla No.3, och räcker 3 minuter?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du vill ha en produkt som sköljs ur före schampo.",
+      "Du vill börja med den verifierade 100 ml-flaskan."
+    ],
+    "skip": "Avstå om du söker ett enda leave-in-steg eller väntar dig att en kosmetisk produkt behandlar håravfall.",
+    "decisionTitle": "Vilket behov ska köpet lösa?",
+    "decision": "Välj i första hand den rutin som du faktiskt kan följa. Märkets jämförande effektpåståenden är inte egna tester från Elins val.",
+    "facts": [
+      [
+        "Exakt variant",
+        "No.3 Plus · 100 ml, en flaska"
+      ],
+      [
+        "Artikel hos butiken",
+        "1737-150-0100"
+      ],
+      [
+        "Storlek i erbjudandena",
+        "100 ml, inte 250 ml"
+      ],
+      [
+        "Placering i rutinen",
+        "Före schampo"
+      ],
+      [
+        "Tid enligt Olaplex",
+        "Minst tre minuter"
+      ],
+      [
+        "Efteråt",
+        "Skölj, schamponera och använd balsam"
+      ]
+    ],
+    "steps": [
+      [
+        "Fukta längderna",
+        "Följ märkets anvisning för applicering."
+      ],
+      [
+        "Vänta",
+        "Minst tre minuter enligt Olaplex."
+      ],
+      [
+        "Skölj och tvätta",
+        "Fortsätt med schampo och balsam."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "Lyko – exakt variant",
+        "url": "https://lyko.com/sv/har/harvard/treatment/harinpackning/olaplex-no3-plus-complete-repair-treatment-100-ml",
+        "checkedAt": "2026-09-22",
+        "supports": "Variant, originalbild, daterat pris och butikens produktuppgifter. Pris gäller en styck utan kombinationsrabatt."
+      },
+      {
+        "label": "Olaplex – No.3 jämfört med No.3 Plus",
+        "url": "https://olaplex.com/blogs/news/no3-vs-no3plus",
+        "checkedAt": "2026-09-22",
+        "supports": "Märkets artikel 23 februari 2026: ersätter No.3; tre minuter före schampo, därefter balsam."
+      },
+      {
+        "label": "NordicFeel – No.3 Plus 100 ml",
+        "url": "https://www.nordicfeel.com/se/product/olaplex-no3-plus-complete-repair-treatment-196179",
+        "checkedAt": "2026-09-22",
+        "supports": "Artikel 196179, 100 ml och daterat andra erbjudande."
+      }
+    ],
+    "related": [
+      [
+        "olaplex no3 plus eller k18",
+        "/skonhet/olaplex-no3-plus-eller-k18"
+      ],
+      [
+        "olaplex eller harinpackning",
+        "/skonhet/olaplex-eller-harinpackning"
+      ],
+      [
+        "Hårinpackning och K18",
+        "/guider/harinpackning"
+      ]
+    ],
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26w1-olaplex-no3-plus&url=https%3A%2F%2Flyko.com%2Fsv%2Fhar%2Fharvard%2Ftreatment%2Fharinpackning%2Folaplex-no3-plus-complete-repair-treatment-100-ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 419,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:49:34+02:00",
+        "source": "https://lyko.com/sv/har/harvard/treatment/harinpackning/olaplex-no3-plus-complete-repair-treatment-100-ml"
+      },
+      "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:49:34+02:00"
+    },
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/selected/olaplex-no3-plus/1.webp",
+      "width": 522,
+      "height": 1000,
+      "alt": "Olaplex No.3 Plus Complete Repair Treatment, No.3 Plus · 100 ml, en flaska.",
+      "credit": "Produktbild: Lyko.",
+      "source": "https://lyko.com/globalassets/product-images/olaplex-no3-plus-complete-repair-treatment-100-ml-1737-150-0100_1.jpg?ref=250E7308A3&w=1280&h=1280&mode=max&quality=75&format=webp",
+      "sha256": "03026d49026689e3cb648a730cca79cec71db2fd47c3be156861996d66127356",
+      "permissionScope": "Unchanged merchant packshot, editorial frame only. Local draft; social publication requires founder approval and program compliance.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Ersätter Plus gamla No.3?",
+        "answer": "Ja, enligt Olaplex egen jämförelse är Plus efterföljaren. Bytet av namn betyder inte att en gammal flaska måste kastas; följ anvisningen för just den produkt du har. Gamla No.3 och Plus ska inte få varandras verkningstider i en köpguide.",
+        "sourceUrls": [
+          "https://olaplex.com/blogs/news/no3-vs-no3plus"
+        ]
+      },
+      {
+        "question": "Räcker tre minuter och hur ofta används den?",
+        "answer": "Märket anger minst tre minuter i fuktiga längder före schampo, med användning var första till tredje tvätt. Det beskriver rutinen, inte ett garanterat kosmetiskt utfall. Anpassa efter förpackningens aktuella anvisningar.",
+        "sourceUrls": [
+          "https://olaplex.com/blogs/news/no3-vs-no3plus"
+        ]
+      },
+      {
+        "question": "Vad skiljer från inpackning och K18?",
+        "answer": "Plus sköljs ur före schampo. En vanlig inpackning läggs ofta efter tvätt; följ respektive produkt. K18-alternativet i vår befintliga guide är en leave-in med annat förlopp. Köp inte båda bara för att namnen lovar liknande saker.",
+        "sourceUrls": [
+          "https://olaplex.com/blogs/news/no3-vs-no3plus"
+        ]
+      }
+    ],
+    "additionalOffers": [
+      {
+        "merchantId": "nordicfeel",
+        "merchantName": "NordicFeel",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26w1-olaplex-no3-plus&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Folaplex-no3-plus-complete-repair-treatment-196179",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-09-22",
+        "price": {
+          "amount": 419,
+          "currency": "SEK",
+          "checkedAt": "2026-09-22T14:57:45+02:00",
+          "source": "https://www.nordicfeel.com/se/product/olaplex-no3-plus-complete-repair-treatment-196179"
+        },
+        "priceNote": "Avser 100 ml, inte 250 ml.",
+        "programId": "872761485",
+        "channelId": "2110221551",
+        "availabilityCheckedAt": "2026-09-22T14:57:45+02:00",
+        "merchantItemId": "196179"
+      }
+    ]
+  },
+  {
+    "id": "redken-abc-pre-treatment",
+    "name": "Redken Acidic Bonding Concentrate Intensive Pre-Treatment",
+    "variant": "Intensive Pre-Treatment · 190 ml",
+    "selected": true,
+    "hubGroup": "skonhet",
+    "merchantItemId": "1261-694-0190",
+    "updatedAt": "2026-09-22",
+    "path": "/skonhet/redken-abc-pre-treatment",
+    "heading": "Behöver du Redken ABC Pre-Treatment om du redan har Leave-In?",
+    "shortName": "Redken Acidic Bonding Concentrate Intensive Pre-Treatment",
+    "brand": "Redken",
+    "category": "Skönhet",
+    "topic": "Hårverktyg & hårvård",
+    "metaTitle": "Redken ABC Pre-Treatment – behövs även Leave-In?",
+    "description": "Pre-Treatment och Leave-In hör till olika steg. Se när 5–10 minuter före schampo passar, vad 190 ml kostar och när en produkt räcker.",
+    "question": "Kort svar",
+    "answer": "Nej, en fungerande Leave-In-rutin innebär inte att du behöver köpa Pre-Treatment också. Pre-Treatment är ett extra steg som sköljs ur före schampo; Leave-In stannar kvar efter tvätten. Överväg förbehandlingen om du uttryckligen vill lägga tid på det steget. Om du främst söker enkel utredning och styling efter duschen är ett separat förtvättsköp inte självklart motiverat.",
+    "targetQuery": "Behöver du Redken ABC Pre-Treatment om du redan har Leave-In?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du vill avsätta tid för ett extra steg före schampo.",
+      "Du skiljer en urtvättad kur från en kvarvarande stylingprodukt."
+    ],
+    "skip": "Avstå om din nuvarande rutin fungerar och det enda köpskälet är att komplettera serien.",
+    "decisionTitle": "Vilket behov ska köpet lösa?",
+    "decision": "190 ml för 373 kr motsvarar cirka 196 kr per 100 ml vid kontrollen. Antal användningar går inte att räkna utan din dosering och hårlängd.",
+    "facts": [
+      [
+        "Exakt variant",
+        "Intensive Pre-Treatment · 190 ml"
+      ],
+      [
+        "Artikel hos butiken",
+        "1261-694-0190"
+      ],
+      [
+        "Storlek",
+        "190 ml"
+      ],
+      [
+        "Användning",
+        "Vått hår före schampo; sköljs ur"
+      ],
+      [
+        "Verkningstid",
+        "5–10 minuter enligt Redken"
+      ],
+      [
+        "Frekvens",
+        "Vid behov enligt märkets anvisning; inget fast veckotal verifierat"
+      ]
+    ],
+    "steps": [
+      [
+        "Före tvätten",
+        "Applicera i vått hår."
+      ],
+      [
+        "Låt verka",
+        "Vänta 5–10 minuter enligt märket."
+      ],
+      [
+        "Skölj ur",
+        "Följ med schampo och balsam."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "Lyko – exakt variant",
+        "url": "https://lyko.com/sv/har/harvard/treatment/harinpackning/redken-acidic-bonding-concentrate-intensive-pre-treatment-190ml",
+        "checkedAt": "2026-09-22",
+        "supports": "Variant, originalbild, daterat pris och butikens produktuppgifter. Pris gäller en styck utan kombinationsrabatt."
+      },
+      {
+        "label": "Redken – Intensive Treatment",
+        "url": "https://www.redken.ca/en-ca/products/haircare/acidic-bonding-concentrate/acidic-bonding-concentrate-intensive-treatment",
+        "checkedAt": "2026-09-22",
+        "supports": "Tillverkarens metod och frekvens; svensk 190 ml-variant verifieras separat hos Lyko."
+      }
+    ],
+    "related": [
+      [
+        "redken acidic bonding concentrate",
+        "/skonhet/redken-acidic-bonding-concentrate"
+      ],
+      [
+        "olaplex eller harinpackning",
+        "/skonhet/olaplex-eller-harinpackning"
+      ],
+      [
+        "olaplex no3 plus",
+        "/skonhet/olaplex-no3"
+      ],
+      [
+        "Hårinpackning",
+        "/guider/harinpackning"
+      ]
+    ],
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26w1-redken-abc-pre-treatment&url=https%3A%2F%2Flyko.com%2Fsv%2Fhar%2Fharvard%2Ftreatment%2Fharinpackning%2Fredken-acidic-bonding-concentrate-intensive-pre-treatment-190ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 373,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:49:34+02:00",
+        "source": "https://lyko.com/sv/har/harvard/treatment/harinpackning/redken-acidic-bonding-concentrate-intensive-pre-treatment-190ml"
+      },
+      "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:49:34+02:00"
+    },
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/selected/redken-abc-pre-treatment/1.webp",
+      "width": 411,
+      "height": 1280,
+      "alt": "Redken Acidic Bonding Concentrate Intensive Pre-Treatment, Intensive Pre-Treatment · 190 ml.",
+      "credit": "Produktbild: Lyko.",
+      "source": "https://lyko.com/globalassets/product-images/redken-intensive-pre-treatment-190ml-1261-694-0190_1.jpg?ref=898EDA411E&w=1280&h=1280&mode=max&quality=75&format=webp",
+      "sha256": "d570f40acfcd2607f561b1b9b5f4fe22102d8fdcc18b5155a6bc882df9f2f7c1",
+      "permissionScope": "Unchanged merchant packshot, editorial frame only. Local draft; social publication requires founder approval and program compliance.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "När i rutinen används Pre-Treatment?",
+        "answer": "Redken anger vått hår före schampo och 5–10 minuters verkningstid, sedan ursköljning. Denna förbehandling ska alltså inte ligga kvar som Leave-In. Produktnamn i samma serie är inte utbytbara anvisningar.",
+        "sourceUrls": [
+          "https://www.redken.ca/en-ca/products/haircare/acidic-bonding-concentrate/acidic-bonding-concentrate-intensive-treatment"
+        ]
+      },
+      {
+        "question": "Hur ofta behövs den?",
+        "answer": "Den granskade tillverkarsidan beskriver användning när en intensiv förbehandling behövs, utan ett fast veckoschema. Vi anger därför inte en påhittad doseringsfrekvens. Kontrollera förpackningen och lägg inte till flera nya steg samtidigt bara för att de finns i serien.",
+        "sourceUrls": [
+          "https://www.redken.ca/en-ca/products/haircare/acidic-bonding-concentrate/acidic-bonding-concentrate-intensive-treatment"
+        ]
+      },
+      {
+        "question": "När räcker bara Leave-In?",
+        "answer": "Om behovet är ett kvarvarande steg efter duschen är förbehandlingen inte en direkt ersättare. Vår bedömning är att börja med rutinen och ett konkret behov, inte med att köpa hela serien. Detta är kosmetisk vägledning, inte behandling av hårbotten eller håravfall.",
+        "sourceUrls": [
+          "https://www.redken.ca/en-ca/products/haircare/acidic-bonding-concentrate/acidic-bonding-concentrate-intensive-treatment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ghd-original-iv",
+    "name": "ghd The Original IV Styler",
+    "variant": "Original IV · artikel 104626",
+    "selected": true,
+    "hubGroup": "skonhet",
+    "merchantItemId": "104626",
+    "updatedAt": "2026-09-22",
+    "path": "/skonhet/ghd-original-iv",
+    "heading": "ghd Original IV eller Remington S5901 – vad får du för prisskillnaden?",
+    "shortName": "ghd The Original IV Styler",
+    "brand": "ghd",
+    "category": "Skönhet",
+    "topic": "Hårverktyg & hårvård",
+    "metaTitle": "ghd Original IV – vad får du för prisskillnaden?",
+    "description": "Fast 185 grader eller nio värmelägen? Se vad ghd Original IV erbjuder jämfört med Remington S5901, med daterat pris och tydliga begränsningar.",
+    "question": "Kort svar",
+    "answer": "ghd Original IV passar om du vill slippa välja temperatur och accepterar fast 185 grader. Remington S5901 kostar mindre och ger fler värmeval, vilket kan vara viktigare än ett enklare reglage. Vid vår kontroll skiljde 1 236 kronor, inte exakt 1 200. Vi har inget eget jämförande test som visar att prisskillnaden ger ett bättre resultat på ditt hår.",
+    "targetQuery": "ghd Original IV eller Remington S5901 – vad får du för prisskillnaden?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du föredrar fast temperatur och ett enkelt reglage.",
+      "Du vill ha den verifierade Original IV, inte en annan ghd-generation."
+    ],
+    "skip": "Avstå om en lägre temperatur är ett krav eller om merkostnaden kräver ett resultatlöfte som vi inte kan styrka.",
+    "decisionTitle": "Vilket behov ska köpet lösa?",
+    "decision": "Det starkaste köpargumentet är enkelheten, inte ett påstått testövertag. Jämför 24 mm plattbredd hos ghd med Remingtons separat angivna plattlängd; de måtten beskriver olika saker.",
+    "facts": [
+      [
+        "Exakt variant",
+        "Original IV · artikel 104626"
+      ],
+      [
+        "Artikel hos butiken",
+        "104626"
+      ],
+      [
+        "Temperatur",
+        "Fast 185 °C"
+      ],
+      [
+        "Plattbredd",
+        "24 mm enligt ghd"
+      ],
+      [
+        "Automatisk avstängning",
+        "Efter 30 minuter utan användning"
+      ],
+      [
+        "Garanti",
+        "Två år enligt ghd; kontrollera köpbevis och villkor"
+      ]
+    ],
+    "steps": [
+      [
+        "Kontrollera modellen",
+        "Original IV, EAN 5060760617462."
+      ],
+      [
+        "Välj temperaturprincip",
+        "Fast temperatur går inte att sänka."
+      ],
+      [
+        "Spara köpbevis",
+        "Följ ghd:s garanti- och serviceväg."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "NordicFeel – exakt variant",
+        "url": "https://www.nordicfeel.com/se/product/ghd-new-improved-original-styler-104626",
+        "checkedAt": "2026-09-22",
+        "supports": "Variant, originalbild, daterat pris och butikens produktuppgifter. Pris gäller en styck utan kombinationsrabatt."
+      },
+      {
+        "label": "ghd Sverige – Original",
+        "url": "https://www.ghdhair.com/se/harplattanger/ghd-original-p-580",
+        "checkedAt": "2026-09-22",
+        "supports": "24 mm plattor, fast 185 °C, avstängning och två års garanti."
+      },
+      {
+        "label": "Produktuppgifter och jämförelse",
+        "url": "https://ro.remington-europe.com/produse/placa-de-indreptat-parul-coconut-smooth-s5901",
+        "checkedAt": "2026-09-22",
+        "supports": "Funktionsuppgifter för den namngivna jämförelsemodellen; inte ett eget test."
+      }
+    ],
+    "related": [
+      [
+        "remington s5901",
+        "/skonhet/remington-s5901"
+      ],
+      [
+        "ghd original eller remington s5901",
+        "/skonhet/ghd-original-eller-remington-s5901"
+      ],
+      [
+        "varmluftsborste eller plattang",
+        "/skonhet/varmluftsborste-eller-plattang"
+      ]
+    ],
+    "offer": {
+      "merchantId": "nordicfeel",
+      "merchantName": "NordicFeel",
+      "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26w1-ghd-original-iv&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fghd-new-improved-original-styler-104626",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 1755,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:51:00+02:00",
+        "source": "https://www.nordicfeel.com/se/product/ghd-new-improved-original-styler-104626"
+      },
+      "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
+      "programId": "872761485",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:51:00+02:00"
+    },
+    "image": {
+      "merchantId": "nordicfeel",
+      "src": "/products/selected/ghd-original-iv/1.webp",
+      "width": 1120,
+      "height": 1120,
+      "alt": "ghd The Original IV Styler, Original IV · artikel 104626.",
+      "credit": "Produktbild: NordicFeel.",
+      "source": "https://www.nordicfeel.com/storage/39587C6915CC05568D1D252FD0D04523A304865407A5E9F80CD380000AC34A83/e7e74ffbc6a94989924a1be9659cff1a/jpg/media/53fbd2c443464fef97245b43eb3dfb61/P-104626.jpg?width=1120&height=1120&quality=75&fit=bounds",
+      "sha256": "e1844d8d4d29873c71299a69241981a737a7abfcd86557b69a097fcbf0306f1b",
+      "permissionScope": "Unchanged merchant packshot, editorial frame only. Local draft; social publication requires founder approval and program compliance.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Vad ger fast 185 °C jämfört med nio lägen?",
+        "answer": "Du behöver inte välja nivå på ghd men kan inte heller sänka den. Remington S5901 har nio nivåer upp till 230 °C. Högsta möjliga temperatur är inte i sig en fördel för alla; jämför behovet av kontroll.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/se/harplattanger/ghd-original-p-580",
+          "https://ro.remington-europe.com/produse/placa-de-indreptat-parul-coconut-smooth-s5901"
+        ]
+      },
+      {
+        "question": "Hur stora är plattorna och när stängs den av?",
+        "answer": "ghd anger 24 mm plattbredd och automatisk avstängning efter 30 minuters inaktivitet. Funktionen ersätter inte att stänga av och dra ur kontakten efter användning.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/se/harplattanger/ghd-original-p-580"
+        ]
+      },
+      {
+        "question": "Vilken garanti är verifierad?",
+        "answer": "ghd:s svenska produktsida anger två års garanti. Det är en garantibeskrivning, inte vårt löfte om en viss handläggningstid. Bevara köpbevis och kontrollera säljarens och ghd:s aktuella servicevillkor.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/se/harplattanger/ghd-original-p-580"
+        ]
+      }
+    ],
+    "gtin": "5060760617462"
+  },
+  {
+    "id": "remington-s5901",
+    "name": "Remington Coconut Smooth Straightener S5901",
+    "variant": "S5901 · Coconut Smooth Straightener",
+    "selected": true,
+    "hubGroup": "skonhet",
+    "merchantItemId": "96396",
+    "updatedAt": "2026-09-22",
+    "path": "/skonhet/remington-s5901",
+    "heading": "Remington S5901 för 519 kr – vad får du och vad saknas?",
+    "shortName": "Remington Coconut Smooth Straightener S5901",
+    "brand": "Remington",
+    "category": "Skönhet",
+    "topic": "Hårverktyg & hårvård",
+    "metaTitle": "Remington S5901 – vad får du och vad saknas?",
+    "description": "Remington S5901 har nio värmelägen, men högsta temperaturen är inte ett köpskäl för alla. Se funktioner och skillnader mot ghd före köp.",
+    "question": "Kort svar",
+    "answer": "S5901 ger nio valbara värmelägen, keramisk beläggning och automatisk avstängning till ett lägre kontrollerat pris än ghd Original IV. Den stora skillnaden är att du själv väljer temperaturen i stället för att få fast 185 grader. För fint hår är möjligheten till lägre värme mer relevant än maxläget. Vi har inte testat glid, slitage eller hållbarhet mellan modellerna.",
+    "targetQuery": "Remington S5901 för 519 kr – vad får du och vad saknas?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du vill kunna välja temperatur själv.",
+      "Du vill prioritera en lägre inköpskostnad framför ett fast reglage."
+    ],
+    "skip": "Avstå om du vill ha dokumenterat jämförande bevis för bättre glid eller mindre slitage; det finns inte i vår granskning.",
+    "decisionTitle": "Vilket behov ska köpet lösa?",
+    "decision": "Du avstår främst från ghd:s fasta temperaturprincip, inte från en verifierad kvalitetsnivå. Vi kan inte dra slutsatser om livslängd från prisskillnaden.",
+    "facts": [
+      [
+        "Exakt variant",
+        "S5901 · Coconut Smooth Straightener"
+      ],
+      [
+        "Artikel hos butiken",
+        "96396"
+      ],
+      [
+        "Värme",
+        "Nio nivåer, upp till 230 °C"
+      ],
+      [
+        "Beläggning",
+        "Keramisk med kokosbaserade mikrokonditionerare enligt märket"
+      ],
+      [
+        "Uppvärmning",
+        "15 sekunder enligt Remington"
+      ],
+      [
+        "Plattlängd",
+        "110 mm enligt Remington"
+      ],
+      [
+        "Avstängning",
+        "Automatiskt efter 60 minuter"
+      ]
+    ],
+    "steps": [
+      [
+        "Läs manualen",
+        "Högsta läget är inte ett standardval."
+      ],
+      [
+        "Börja försiktigt",
+        "Välj låg nivå för fint hår enligt tillverkarens råd."
+      ],
+      [
+        "Stäng av",
+        "Dra ur kontakten när du är färdig."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "NordicFeel – exakt variant",
+        "url": "https://www.nordicfeel.com/se/product/remington-coconut-smooth-straightener-s5901-96396",
+        "checkedAt": "2026-09-22",
+        "supports": "Variant, originalbild, daterat pris och butikens produktuppgifter. Pris gäller en styck utan kombinationsrabatt."
+      },
+      {
+        "label": "Remington – S5901",
+        "url": "https://ro.remington-europe.com/produse/placa-de-indreptat-parul-coconut-smooth-s5901",
+        "checkedAt": "2026-09-22",
+        "supports": "Modellens värmeval, plattlängd, uppvärmning och avstängning. Regional garantilängd överförs inte till Sverige."
+      },
+      {
+        "label": "Produktuppgifter och jämförelse",
+        "url": "https://www.ghdhair.com/se/harplattanger/ghd-original-p-580",
+        "checkedAt": "2026-09-22",
+        "supports": "Funktionsuppgifter för den namngivna jämförelsemodellen; inte ett eget test."
+      }
+    ],
+    "related": [
+      [
+        "ghd original iv",
+        "/skonhet/ghd-original-iv"
+      ],
+      [
+        "ghd original eller remington s5901",
+        "/skonhet/ghd-original-eller-remington-s5901"
+      ],
+      [
+        "varmluftsborste eller plattang",
+        "/skonhet/varmluftsborste-eller-plattang"
+      ]
+    ],
+    "offer": {
+      "merchantId": "nordicfeel",
+      "merchantName": "NordicFeel",
+      "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26w1-remington-s5901&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fremington-coconut-smooth-straightener-s5901-96396",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 519,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:51:00+02:00",
+        "source": "https://www.nordicfeel.com/se/product/remington-coconut-smooth-straightener-s5901-96396"
+      },
+      "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
+      "programId": "872761485",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:51:00+02:00"
+    },
+    "image": {
+      "merchantId": "nordicfeel",
+      "src": "/products/selected/remington-s5901/1.webp",
+      "width": 940,
+      "height": 940,
+      "alt": "Remington Coconut Smooth Straightener S5901, S5901 · Coconut Smooth Straightener.",
+      "credit": "Produktbild: NordicFeel.",
+      "source": "https://www.nordicfeel.com/storage/C25EF6A42F358C738D6031C7B5826B2D407F38AB5A49474FC67BF34AA1ED0904/99a8f288030a41ccbf6bafb560cae04e/jpg/media/926f111aee32476c8cf7a20cb116af96/P-96396.jpg?width=1120&height=1120&quality=75&fit=bounds",
+      "sha256": "4bb8c4e37c331224cdfec44429e31a19de1670a971ef0eff643bf92ec6079657",
+      "permissionScope": "Unchanged merchant packshot, editorial frame only. Local draft; social publication requires founder approval and program compliance.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Hur väljer man temperatur för fint hår?",
+        "answer": "Remington beskriver lägre temperatur för tunnare hår. Vi anger ingen universell säker gradnivå: följ modellens manual och hårets förutsättningar. Att verktyget kan nå 230 °C betyder inte att du ska använda maxläget.",
+        "sourceUrls": [
+          "https://ro.remington-europe.com/produse/placa-de-indreptat-parul-coconut-smooth-s5901"
+        ]
+      },
+      {
+        "question": "Vad betyder kokos och keramisk beläggning?",
+        "answer": "Det är Remingtons beskrivning av plattornas beläggning och mikrokonditionerare. Det ersätter inte värmeval eller varsam användning. Vi har inte bekräftat märkets frisspåståenden med ett eget test.",
+        "sourceUrls": [
+          "https://ro.remington-europe.com/produse/placa-de-indreptat-parul-coconut-smooth-s5901"
+        ]
+      },
+      {
+        "question": "Vad saknas jämfört med ghd Original IV?",
+        "answer": "ghd ger fast 185 °C och en angiven 24 mm plattbredd, medan S5901 ger fler temperaturval och anger 110 mm plattlängd. Vi jämför inte bredd med längd som om måtten vore likvärdiga. Båda har automatisk avstängning men efter olika tid.",
+        "sourceUrls": [
+          "https://ro.remington-europe.com/produse/placa-de-indreptat-parul-coconut-smooth-s5901",
+          "https://www.ghdhair.com/se/harplattanger/ghd-original-p-580"
+        ]
+      }
+    ],
+    "gtin": "5038061112917"
+  },
+  {
+    "id": "babyliss-big-hair-dual",
+    "name": "BaByliss Big Hair Dual Gold Edition",
+    "variant": "Gold Edition · 40 och 50 mm · artikel 90859",
+    "selected": true,
+    "hubGroup": "skonhet",
+    "merchantItemId": "90859",
+    "updatedAt": "2026-09-22",
+    "path": "/skonhet/babyliss-big-hair-dual",
+    "heading": "Roterande varmluftsborste – är BaByliss Big Hair Dual svår att lära sig?",
+    "shortName": "BaByliss Big Hair Dual Gold Edition",
+    "brand": "BaByliss",
+    "category": "Skönhet",
+    "topic": "Hårverktyg & hårvård",
+    "metaTitle": "Big Hair Dual – svår att lära sig?",
+    "description": "Rotationen gör inte hela jobbet. Se hur BaByliss Big Hair Dual används i förtorkat hår och när en vanlig Remington-borste kan passa bättre.",
+    "question": "Kort svar",
+    "answer": "Räkna med en inlärningströskel: rotationen kräver att du delar upp håret och styr riktningen, inte bara borstar som vanligt. BaByliss manual beskriver förtorkat hår och att släppa rotationsknappen om borsten går för fort. Välj Big Hair Dual om du vill lära dig rörelsen. En vanlig varmluftsborste är mer relevant om du vill styra all vridning själv.",
+    "targetQuery": "Roterande varmluftsborste – är BaByliss Big Hair Dual svår att lära sig?",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du vill ha motoriserad rotation och kan öva på sektioner.",
+      "Du vill välja mellan två relativt stora borsthuvuden."
+    ],
+    "skip": "Avstå om du behöver ett löfte om trasselfri användning eller vill börja direkt i genomblött hår.",
+    "decisionTitle": "Vilket behov ska köpet lösa?",
+    "decision": "Rotationsfunktionen är det verkliga köpvalet. Ingen av borstarna garanterar ett visst resultat eller en viss inlärningstid.",
+    "facts": [
+      [
+        "Exakt variant",
+        "Gold Edition · 40 och 50 mm · artikel 90859"
+      ],
+      [
+        "Artikel hos butiken",
+        "90859"
+      ],
+      [
+        "Huvuden",
+        "40 och 50 mm"
+      ],
+      [
+        "Rotation",
+        "Två riktningar enligt modellmanualen"
+      ],
+      [
+        "Förberedelse",
+        "Cirka 80 % torrt och utrett hår enligt manualen"
+      ],
+      [
+        "Jonfunktion",
+        "Enligt butiken; inget eget frisstest"
+      ]
+    ],
+    "steps": [
+      [
+        "Förtorka och red ut",
+        "Manualen anger cirka 80 % torrt hår."
+      ],
+      [
+        "Styr rotationen",
+        "Tryck och håll riktningsknappen."
+      ],
+      [
+        "Släpp vid behov",
+        "Släpp knappen och ta ur borsten om rotationen går för fort."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "NordicFeel – exakt variant",
+        "url": "https://www.nordicfeel.com/se/product/babyliss-big-hair-dual-90859",
+        "checkedAt": "2026-09-22",
+        "supports": "Variant, originalbild, daterat pris och butikens produktuppgifter. Pris gäller en styck utan kombinationsrabatt."
+      },
+      {
+        "label": "BaByliss – AS952E originalmanual, återgiven PDF",
+        "url": "https://static.insales-cdn.com/files/1/2928/39103344/original/Manuals_B_babyliss-as952e_instrukcia_204611_06082023.pdf",
+        "checkedAt": "2026-09-22",
+        "supports": "Tillverkarens dokument med modellkod AS952E: förtorkning, rotation, handhavande. Dokumentet ligger hos en extern återgivare; kontrollera modellkod på levererad vara."
+      }
+    ],
+    "related": [
+      [
+        "remington as5901",
+        "/skonhet/remington-as5901"
+      ],
+      [
+        "babyliss big hair dual eller remington as5901",
+        "/skonhet/babyliss-big-hair-dual-eller-remington-as5901"
+      ],
+      [
+        "varmluftsborste eller plattang",
+        "/skonhet/varmluftsborste-eller-plattang"
+      ]
+    ],
+    "offer": {
+      "merchantId": "nordicfeel",
+      "merchantName": "NordicFeel",
+      "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26w1-babyliss-big-hair-dual&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fbabyliss-big-hair-dual-90859",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 639,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:51:00+02:00",
+        "source": "https://www.nordicfeel.com/se/product/babyliss-big-hair-dual-90859"
+      },
+      "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
+      "programId": "872761485",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:51:00+02:00"
+    },
+    "image": {
+      "merchantId": "nordicfeel",
+      "src": "/products/selected/babyliss-big-hair-dual/1.webp",
+      "width": 940,
+      "height": 940,
+      "alt": "BaByliss Big Hair Dual Gold Edition, Gold Edition · 40 och 50 mm · artikel 90859.",
+      "credit": "Produktbild: NordicFeel.",
+      "source": "https://www.nordicfeel.com/storage/1CB3AD706BBA765067D939B5F07AB24012D67CFB0EDBB6317CE4D2EF4DD38E38/f621140be9ad4ca89c5362a1387fe86b/jpg/media/831c33bd86654fe78b5a1d4c0128933d/P-90859.jpg?width=1120&height=1120&quality=75&fit=bounds",
+      "sha256": "c69cb935d530cfceb9eca3e78dcfa931a6f60c9691cdf31381612fac03a0c64f",
+      "permissionScope": "Unchanged merchant packshot, editorial frame only. Local draft; social publication requires founder approval and program compliance.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Hur fungerar riktning och stopp?",
+        "answer": "Manualen beskriver två knappar för medurs respektive moturs rotation. Du håller knappen nere och släpper den när rotationen ska upphöra. Öva inte med stora, trassliga sektioner. Följ alltid den manual och modellkod som följer med varan.",
+        "sourceUrls": [
+          "https://static.insales-cdn.com/files/1/2928/39103344/original/Manuals_B_babyliss-as952e_instrukcia_204611_06082023.pdf"
+        ]
+      },
+      {
+        "question": "Passar 40 eller 50 mm kortare hår?",
+        "answer": "Båda huvudena är relativt stora. Mindre diameter kan vara enklare att arbeta runt kortare längder, men vi har inte verifierat en minsta hårlängd. Köp inte för mycket kort hår utifrån en garanti som butiken inte lämnar.",
+        "sourceUrls": [
+          "https://www.nordicfeel.com/se/product/babyliss-big-hair-dual-90859"
+        ]
+      },
+      {
+        "question": "Kan den användas från blött hår?",
+        "answer": "Tillverkarens manual anger omkring 80 procent torrt och genomrett hår före styling. Jonfunktionen beskrivs av butiken, men vi har inte testat någon effekt på friss. Rotation och förtorkning är säkrare beslutsunderlag än resultatpåståenden.",
+        "sourceUrls": [
+          "https://static.insales-cdn.com/files/1/2928/39103344/original/Manuals_B_babyliss-as952e_instrukcia_204611_06082023.pdf",
+          "https://www.nordicfeel.com/se/product/babyliss-big-hair-dual-90859"
+        ]
+      }
+    ],
+    "gtin": "3030050153804"
+  },
+  {
+    "id": "remington-as5901",
+    "name": "Remington Coconut Smooth Airstyler AS5901",
+    "variant": "AS5901 · 30 och 50 mm · 1 000 W",
+    "selected": true,
+    "hubGroup": "skonhet",
+    "merchantItemId": "100297",
+    "updatedAt": "2026-09-22",
+    "path": "/skonhet/remington-as5901",
+    "heading": "Räcker 1 000 W? Remington AS5901 som varmluftsborste från blött hår",
+    "shortName": "Remington Coconut Smooth Airstyler AS5901",
+    "brand": "Remington",
+    "category": "Skönhet",
+    "topic": "Hårverktyg & hårvård",
+    "metaTitle": "Räcker 1 000 W? Remington AS5901 från blött hår",
+    "description": "AS5901 har två borsthuvuden men ingen motoriserad rotation. Se vad 1 000 W säger och inte säger om torkning innan du väljer varmluftsborste.",
+    "question": "Kort svar",
+    "answer": "1 000 W räcker som funktionsuppgift, men inte som bevis för att AS5901 snabbt torkar allt hår från genomblött. Välj den för att kombinera luft och form med två borststorlekar, och följ förtorkningen i manualen. Du vrider borsten själv. Om det är motoriserad rotation du söker är BaByliss Big Hair Dual ett annat slags köp, inte bara fler watt.",
+    "targetQuery": "Räcker 1 000 W? Remington AS5901 som varmluftsborste från blött hår",
+    "hypothesis": "appears for targetQuery within 14 days",
+    "fits": [
+      "Du vill styra borstens vridning själv.",
+      "Du vill välja mellan 30 och 50 mm utan en större tillbehörssats."
+    ],
+    "skip": "Avstå om huvudbehovet är automatisk rotation eller en verifierad torktidsvinst på tjockt hår.",
+    "decisionTitle": "Vilket behov ska köpet lösa?",
+    "decision": "Jämför handgrepp och borststorlek före watt. Effekten ensam rangordnar inte AS5901, Infrared Blowout och Core Styler.",
+    "facts": [
+      [
+        "Exakt variant",
+        "AS5901 · 30 och 50 mm · 1 000 W"
+      ],
+      [
+        "Artikel hos butiken",
+        "100297"
+      ],
+      [
+        "Effekt",
+        "1 000 W"
+      ],
+      [
+        "Borsthuvuden",
+        "30 och 50 mm"
+      ],
+      [
+        "Rotation",
+        "Manuell; ingen motoriserad rotation"
+      ],
+      [
+        "Jonfunktion",
+        "Enligt Remington/NordicFeel; inte ett eget test"
+      ],
+      [
+        "Förberedelse enligt manual",
+        "Förtorka till cirka 70–80 % torrt"
+      ]
+    ],
+    "steps": [
+      [
+        "Förtorka",
+        "Manualen rekommenderar cirka 70–80 % torrt hår."
+      ],
+      [
+        "Välj diameter",
+        "30 eller 50 mm efter formen du vill skapa."
+      ],
+      [
+        "Forma manuellt",
+        "Styr vridning och spänning själv."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "label": "NordicFeel – exakt variant",
+        "url": "https://www.nordicfeel.com/se/product/remington-coconut-smooth-airstyler-100297",
+        "checkedAt": "2026-09-22",
+        "supports": "Variant, originalbild, daterat pris och butikens produktuppgifter. Pris gäller en styck utan kombinationsrabatt."
+      },
+      {
+        "label": "Produktuppgifter och jämförelse",
+        "url": "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-infrared-blowout-air-brush",
+        "checkedAt": "2026-09-22",
+        "supports": "Funktionsuppgifter för den namngivna jämförelsemodellen; inte ett eget test."
+      },
+      {
+        "label": "Produktuppgifter och jämförelse",
+        "url": "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-core-styler-5-in-1-air-tool",
+        "checkedAt": "2026-09-22",
+        "supports": "Funktionsuppgifter för den namngivna jämförelsemodellen; inte ett eget test."
+      },
+      {
+        "label": "Produktuppgifter och jämförelse",
+        "url": "https://www.nordicfeel.com/se/product/babyliss-big-hair-dual-90859",
+        "checkedAt": "2026-09-22",
+        "supports": "Funktionsuppgifter för den namngivna jämförelsemodellen; inte ett eget test."
+      },
+      {
+        "label": "Remington – AS5901 originalmanual",
+        "url": "https://uk.remington-europe.com/amfile/file/download/file/3367/product/3886/",
+        "checkedAt": "2026-09-22",
+        "supports": "Modell AS5901: 70–80 % förtorkning, två borsthuvuden, manuell vridning och värmeval. Flerspråkig manual inklusive svenska."
+      }
+    ],
+    "related": [
+      [
+        "babyliss big hair dual",
+        "/skonhet/babyliss-big-hair-dual"
+      ],
+      [
+        "babyliss big hair dual eller remington as5901",
+        "/skonhet/babyliss-big-hair-dual-eller-remington-as5901"
+      ],
+      [
+        "lyko infrared blowout",
+        "/skonhet/lyko-infrared-blowout"
+      ],
+      [
+        "varmluftsborste eller plattang",
+        "/skonhet/varmluftsborste-eller-plattang"
+      ]
+    ],
+    "offer": {
+      "merchantId": "nordicfeel",
+      "merchantName": "NordicFeel",
+      "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26w1-remington-as5901&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fremington-coconut-smooth-airstyler-100297",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-09-22",
+      "price": {
+        "amount": 423,
+        "currency": "SEK",
+        "checkedAt": "2026-09-22T14:51:00+02:00",
+        "source": "https://www.nordicfeel.com/se/product/remington-coconut-smooth-airstyler-100297"
+      },
+      "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
+      "programId": "872761485",
+      "channelId": "2110221551",
+      "availabilityCheckedAt": "2026-09-22T14:51:00+02:00"
+    },
+    "image": {
+      "merchantId": "nordicfeel",
+      "src": "/products/selected/remington-as5901/1.webp",
+      "width": 940,
+      "height": 940,
+      "alt": "Remington Coconut Smooth Airstyler AS5901, AS5901 · 30 och 50 mm · 1 000 W.",
+      "credit": "Produktbild: NordicFeel.",
+      "source": "https://www.nordicfeel.com/storage/73686519997867E659AD2FCAA0626017292A741B8E40F3D14D68EAA72BE7BBBD/0eab1e07609040d1ad6062854cb8c30c/jpg/media/8ca7e525ffc64997afbd6c831fc0c5cc/P-100297.jpg?width=1120&height=1120&quality=75&fit=bounds",
+      "sha256": "c6f47a7ae562e0a93159b5b938eca019924105bf08a405284f1044ae9b19ef73",
+      "permissionScope": "Unchanged merchant packshot, editorial frame only. Local draft; social publication requires founder approval and program compliance.",
+      "reviewedAt": "2026-09-22"
+    },
+    "decisionSections": [
+      {
+        "question": "Hur vått får håret vara?",
+        "answer": "Remington rekommenderar förtorkning tills håret är cirka 70–80 procent torrt. AS5901 är därför inget dokumenterat löfte om att ersätta en fön från genomblött hår. Manualen skiljer även låg värme för tunt, fint, skadat eller blekt hår från högre läge för tjockt hår.",
+        "sourceUrls": [
+          "https://uk.remington-europe.com/amfile/file/download/file/3367/product/3886/"
+        ]
+      },
+      {
+        "question": "Är 1 000 W sämre än 1 100 eller 1 500 W?",
+        "answer": "Siffrorna beskriver angiven effekt, inte resultat från ett gemensamt torktest. AS5901 har 1 000 W, Infrared Blowout 1 100 W och Core Styler 1 500 W. Vi har inte mätt luftflöde eller torktid och kan därför inte lova snabbast torkning.",
+        "sourceUrls": [
+          "https://www.nordicfeel.com/se/product/remington-coconut-smooth-airstyler-100297",
+          "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-infrared-blowout-air-brush",
+          "https://lyko.com/sv/har/stylingverktyg/varmeborste/lyko-core-styler-5-in-1-air-tool"
+        ]
+      },
+      {
+        "question": "Vad gör 30 och 50 mm för skillnad?",
+        "answer": "Du får två diameteralternativ för olika form och längder. Minsta fungerande hårlängd är inte verifierad. Jonfunktionen är en produktuppgift från butiken, inte ett bevis från oss på mindre friss.",
+        "sourceUrls": [
+          "https://www.nordicfeel.com/se/product/remington-coconut-smooth-airstyler-100297"
+        ]
+      },
+      {
+        "question": "När passar en roterande BaByliss bättre?",
+        "answer": "Om du vill att motorn ska rotera huvudet är Big Hair Dual rätt typ av funktion att undersöka. Det kräver fortfarande teknik och förtorkning. AS5901 lämnar rörelsen åt dig, vilket kan vara enklare om du vill ha full manuell kontroll.",
+        "sourceUrls": [
+          "https://www.nordicfeel.com/se/product/remington-coconut-smooth-airstyler-100297",
+          "https://www.nordicfeel.com/se/product/babyliss-big-hair-dual-90859"
+        ]
+      }
+    ],
+    "gtin": "5038061138290"
   }
 ]

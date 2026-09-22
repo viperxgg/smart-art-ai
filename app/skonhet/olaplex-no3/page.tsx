@@ -1,30 +1,7 @@
-// 2026-09-06: Olaplex N°.3 PLUS refresh (title, 1 529 omdömen, delivery-review
-// caution) and the "Läs även" link to /guider/harinpackning. Data lives in
-// lib/products.ts and lib/sommar.ts (SHARED_LIB_MODULES), so this dated comment
-// is what moves the route's sitemap date.
-import { notFound } from "next/navigation";
-
-import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";
-import { createSeoMetadata } from "@/lib/metadata";
-import { siteConfig } from "@/lib/site";
-import { getSommarPickBySlug } from "@/lib/sommar";
-
-const pick = getSommarPickBySlug("olaplex-no3-treatment");
-
+import { SelectedProductPage } from "@/components/SelectedProductPage";
+import { getSelectedProduct, selectedProductMetadata } from "@/lib/selected-products";
+// 2026-09-22: Extend the existing PLUS intent; do not create a competing URL.
+const product = getSelectedProduct("olaplex-no3-plus");
 export const revalidate = 3600;
-
-export const metadata = pick
-  ? createSeoMetadata({
-      title: pick.metaTitle,
-      description: pick.metaDescription,
-      url: `${siteConfig.url}${pick.href}`,
-    })
-  : {};
-
-export default function OlaplexNo3Page() {
-  if (!pick) {
-    notFound();
-  }
-
-  return <SommarProductReviewPage pick={pick} />;
-}
+export const metadata = selectedProductMetadata(product);
+export default function Page() { return <SelectedProductPage product={product} />; }

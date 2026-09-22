@@ -14,5 +14,9 @@ export const treatmentMaskGuide: DecisionGuide = {
   intro: "N°.3 PLUS och Absolut Repair Thick Hair används i olika steg. Behåll det som fungerar; olika användning är inget skäl att automatiskt köpa båda.",
   decision: olaplexMaskDecision, productPaths: ["/skonhet/olaplex-no3", "/skonhet/harinpackning"],
   questions: olaplexEllerHarinpackningFaqItems,
-  related: [{"href": "/guider/harinpackning", "text": "Fler hårmasker och när du kan avstå"}, {"href": "/skonhet/olaplex-schampo-eller-balsam", "text": "Vilken funktion saknas i tvättrutinen?"}],
+  related: [
+    { href: "/skonhet/olaplex-no3", text: "Olaplex No.3 Plus – vad skiljer mot gamla No.3, och räcker 3 minuter?" },
+    { href: "/skonhet/redken-abc-pre-treatment", text: "Behöver du Redken ABC Pre-Treatment om du redan har Leave-In?" },
+    { href: "/skonhet/olaplex-no3-plus-eller-k18", text: "Olaplex No.3 Plus eller K18?" },
+    {"href": "/guider/harinpackning", "text": "Fler hårmasker och när du kan avstå"}, {"href": "/skonhet/olaplex-schampo-eller-balsam", "text": "Vilken funktion saknas i tvättrutinen?"}],
 };

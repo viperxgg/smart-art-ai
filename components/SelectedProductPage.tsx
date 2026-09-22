@@ -7,7 +7,7 @@ import { MerchantPrice } from "@/components/MerchantPrice";
 import { SelectedProductGallery } from "@/components/SelectedProductGallery";
 import { PartnerOfferCards } from "@/components/PartnerOfferCards";
 import { getAmazonOffer } from "@/lib/amazon-offers";
-import { getMerchantOffer } from "@/lib/merchant-offers";
+import { getMerchantOffer, getMerchantOffers } from "@/lib/merchant-offers";
 import { getSelectedOfferState, selectedProductSchema, type SelectedProduct } from "@/lib/selected-products";
 
 const buttonClass = "inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-wine px-6 py-3 text-center font-bold text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-wine";
@@ -16,6 +16,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
   const offer = getMerchantOffer(product.id)!;
   const amazon = getAmazonOffer(product.id);
   const directLink = offer.linkKind === "direct";
+  const merchants = getMerchantOffers(product.id).filter(item => item.linkKind !== "direct").map(item => item.merchantName).join(" och ");
   const { now, campaignActive } = getSelectedOfferState(product);
   return <main id="content" tabIndex={-1} className="bg-bg text-ink">
     <JsonLd data={selectedProductSchema(product, now)} />
@@ -27,7 +28,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
           <li aria-hidden="true">/</li><li aria-current="page">{product.shortName}</li>
         </ol>
       </nav>
-      {!directLink || amazon ? <p className="mb-6 rounded-xl border border-line px-4 py-3 text-xs leading-relaxed text-ink-soft">{!directLink ? `Inlägget innehåller reklam genom annonslänkar för ${offer.merchantName}. ` : ""}Vi kan få ersättning om du handlar via en annonslänk.{amazon ? " Som Amazon-associates tjänar vi pengar på kvalificerade köp." : ""}</p> : null}
+      {!directLink || amazon ? <p className="mb-6 rounded-xl border border-line px-4 py-3 text-xs leading-relaxed text-ink-soft">{!directLink ? `Inlägget innehåller reklam genom annonslänkar för ${merchants}. ` : ""}Vi kan få ersättning om du handlar via en annonslänk.{amazon ? " Som Amazon-associates tjänar vi pengar på kvalificerade köp." : ""}</p> : null}
       <div className="grid items-start gap-6 md:grid-cols-2 md:gap-x-12">
         <header className="md:col-start-2 md:row-start-1">
           <p className="text-xs font-bold uppercase tracking-widest text-wine">{product.topic} · Produktguide</p>
@@ -101,7 +102,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
           </>}
         </section>
       </div>
-      <section aria-labelledby="fragor" className="mt-12 max-w-3xl">
+      {product.faqs.length ? <section aria-labelledby="fragor" className="mt-12 max-w-3xl">
         <h2 id="fragor" className="font-display text-2xl font-bold sm:text-3xl">Vanliga frågor om {product.shortName}</h2>
         <div className="mt-6 divide-y divide-line border-y border-line">
           {product.faqs.map(([question, answer]) => <details key={question} className="group py-1">
@@ -109,7 +110,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
             <p className="pb-5 text-sm leading-relaxed text-ink-soft">{answer}</p>
           </details>)}
         </div>
-      </section>
+      </section> : null}
       <section id="kallor" aria-labelledby="kallor-title" className="mt-12 scroll-mt-28 rounded-2xl border border-line p-6 sm:p-8">
         <h2 id="kallor-title" className="font-display text-2xl font-bold">Källor och hur guiden är gjord</h2>
         <p className="mt-4 max-w-3xl text-sm leading-relaxed text-ink-soft">Guiden bygger på produktuppgifter från märket och butiken, inte ett eget praktiskt test. Vi skiljer specifikationer från vår bedömning av vem produkten kan passa. Bilderna är butikens eller märkets material och visar inte ett test utfört av oss. Prisets kontrolltid finns vid erbjudandet.</p>

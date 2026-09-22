@@ -91,7 +91,7 @@ const priceRegister = require('../../company/price-review/products.json').produc
 const priceRows = new Set(priceRegister.map((row) => row.id));
 const sitemapSource = fs.readFileSync('lib/sitemap-entries.ts', 'utf8');
 const sitemapPaths = new Set([...sitemapSource.matchAll(/path:\s*"([^"]+)"/g)].map((match) => match[1]));
-const now = Math.max(Date.parse('2026-09-22T12:00:00+02:00'), ...canonical.map(record => Date.parse(record.offer.price.checkedAt)));
+const now = Math.max(Date.parse('2026-09-22T12:00:00+02:00'), ...canonical.flatMap(record => [record.offer, ...(record.additionalOffers || [])]).map(offer => Date.parse(offer.price.checkedAt)));
 
 assert.equal(records.productRecords.length, canonical.length);
 assert.equal(selected.selectedProducts.length, canonical.filter((record) => record.selected).length);
@@ -150,9 +150,15 @@ for (const product of selected.selectedProducts) {
   const graph = selected.selectedProductSchema(product, now)['@graph'];
   const entity = graph.find((node) => node['@type'] === 'Product');
   const offer = merchants.getMerchantOffer(product.id);
-  assert.equal(entity.offers.price, offer.price.amount);
-  assert.equal(entity.offers.seller.name, offer.merchantName);
-  assert.ok(!('availability' in entity.offers), 'Weekly observations are not live stock');
+  const schemaOffers = Array.isArray(entity.offers) ? entity.offers : [entity.offers];
+  const actualOffers = merchants.getMerchantOffers(product.id);
+  assert.equal(schemaOffers.length, actualOffers.length);
+  actualOffers.forEach((item, index) => {
+    assert.equal(schemaOffers[index].price, item.price.amount);
+    assert.equal(schemaOffers[index].seller.name, item.merchantName);
+    assert.ok(!('availability' in schemaOffers[index]), 'Weekly observations are not live stock');
+    assert.ok(priceRows.has(`${product.id}:${item.merchantId}`));
+  });
   assert.ok(!('review' in entity) && !('aggregateRating' in entity));
   assert.ok(!JSON.stringify(graph).includes('amazon.se'), 'No unsupported numeric Amazon offer');
   assert.ok(price.getVerifiedMerchantPrice(offer.price, Date.parse('2026-10-14T12:00:00+02:00')), 'Weekly deadline must not hide the dated price');

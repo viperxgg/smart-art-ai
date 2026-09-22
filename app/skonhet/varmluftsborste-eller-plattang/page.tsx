@@ -1,3 +1,4 @@
+// 2026-09-22: Add contextual links to the source-led partner decisions.
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";
 import { airStylerOrStraightenerGuide as guide } from "@/lib/varmluftsborste-eller-plattang";
 import { createSeoMetadata } from "@/lib/metadata";

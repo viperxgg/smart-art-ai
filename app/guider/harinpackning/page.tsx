@@ -1,3 +1,4 @@
+// 2026-09-22: Add contextual links to the source-led partner decisions.
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";
 import { HairRoutineDetail, HairRoutineIntro } from "@/components/HairRoutineContent";
 import { harinpackning } from "@/lib/bast-i-test/harinpackning";

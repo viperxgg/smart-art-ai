@@ -1,8 +1,8 @@
-// 2026-09-22: Add contextual links to the source-led partner decisions.
 import { SelectedProductPage } from "@/components/SelectedProductPage";
 import { getSelectedProduct, selectedProductMetadata } from "@/lib/selected-products";
 
-const product = getSelectedProduct("redken-acidic-bonding-leave-in-150ml");
+// 2026-09-22: Source-led decision guide in canonical records.
+const product = getSelectedProduct("redken-abc-pre-treatment");
 export const metadata = selectedProductMetadata(product);
 export const revalidate = 3600;
 

@@ -1,4 +1,4 @@
-import { getMerchantOffer } from "@/lib/merchant-offers";
+import { getMerchantOffer, getMerchantOffers } from "@/lib/merchant-offers";
 import { getVerifiedMerchantPrice } from "@/lib/merchant-price";
 import { createSeoMetadata } from "@/lib/metadata";
 import { selectedProductRecords, type PartnerMerchantId, type SelectedProductRecord } from "@/lib/selected-product-records";
@@ -54,8 +54,13 @@ export function hasCurrentStructuredPrice(product: SelectedProduct, now = Date.n
 export function selectedProductSchema(product: SelectedProduct, now = Date.now()) {
   const url = `${siteConfig.url}${product.path}`;
   const heading = product.heading ?? product.shortName;
-  const offer = getMerchantOffer(product.id)!;
-  const hasPrice = hasCurrentStructuredPrice(product, now);
+  const offers = getMerchantOffers(product.id).filter(offer => offer.price && getVerifiedMerchantPrice(offer.price, now)
+    && (!product.campaignEndsAt || Date.parse(product.campaignEndsAt) > now || Date.parse(offer.price.checkedAt) > Date.parse(product.campaignEndsAt)))
+    .map(offer => ({ "@type": "Offer", url: offer.href, price: offer.price!.amount,
+      priceCurrency: offer.price!.currency, seller: { "@type": "Organization", name: offer.merchantName },
+      ...(product.campaignEndsAt && Date.parse(offer.price!.checkedAt) <= Date.parse(product.campaignEndsAt)
+        ? { priceValidUntil: product.campaignEndsAt.slice(0, 10) } : {}),
+    }));
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -65,13 +70,7 @@ export function selectedProductSchema(product: SelectedProduct, now = Date.now()
         brand: { "@type": "Brand", name: product.brand },
         ...(product.gtin ? { gtin13: product.gtin } : {}),
         image: product.images.map(image => `${siteConfig.url}${image.src}`),
-        ...(hasPrice && offer.price ? { offers: {
-          "@type": "Offer", url: offer.href, price: offer.price.amount,
-          priceCurrency: offer.price.currency,
-          seller: { "@type": "Organization", name: offer.merchantName },
-          ...(product.campaignEndsAt && Date.parse(offer.price.checkedAt) <= Date.parse(product.campaignEndsAt)
-            ? { priceValidUntil: product.campaignEndsAt.slice(0, 10) } : {}),
-        } } : {}),
+        ...(offers.length ? { offers: offers.length === 1 ? offers[0] : offers } : {}),
       },
       {
         "@type": "Article", "@id": `${url}#article`, headline: heading,

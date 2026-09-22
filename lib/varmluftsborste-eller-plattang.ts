@@ -23,5 +23,17 @@ export const airStylerOrStraightenerGuide: DecisionGuide = {
     { question: "Vilket verktyg är snabbast?", answer: "Det har vi inte testat. Räkna även in förtorkning, uppdelning i slingor och eventuella tillbehörsbyten. Apparaternas inställningar säger inte hur lång tid hela din frisyr tar." },
     { question: "Är varmluft skonsammare än plattor?", answer: "Vi har inte mätt hårpåverkan och kan inte rangordna modellerna så. Följ respektive manuals förberedelse och värmeinställning; en annan teknik gör inte användningen riskfri." },
   ],
-  related: [{ href: "/skonhet/varmluftsborste", text: "Vilka borsttillbehör behöver du?" }, { href: "/skonhet/plattang", text: "Behöver du ett mindre format eller temperaturval?" }],
+  related: [
+    { href: "/skonhet/lyko-core-styler", text: "5-i-1 airstyler för 1 500 kr – vad klarar By Lyko Core Styler?" },
+    { href: "/skonhet/lyko-infrared-blowout", text: "Fungerar By Lyko Infrared Blowout på tjockt hår från blött?" },
+    { href: "/skonhet/ghd-rise", text: "ghd Rise: fungerar en värmeborste bara på torrt hår?" },
+    { href: "/skonhet/ghd-original-iv", text: "ghd Original IV eller Remington S5901 – vad får du för prisskillnaden?" },
+    { href: "/skonhet/remington-s5901", text: "Remington S5901 för 519 kr – vad får du och vad saknas?" },
+    { href: "/skonhet/babyliss-big-hair-dual", text: "Roterande varmluftsborste – är BaByliss Big Hair Dual svår att lära sig?" },
+    { href: "/skonhet/remington-as5901", text: "Räcker 1 000 W? Remington AS5901 som varmluftsborste från blött hår" },
+    { href: "/skonhet/lyko-core-styler-eller-infrared-blowout", text: "By Lyko Core Styler eller Infrared Blowout?" },
+    { href: "/skonhet/varmeborste-eller-varmluftsborste", text: "Värmeborste eller varmluftsborste – vilken passar din morgonrutin?" },
+    { href: "/skonhet/ghd-original-eller-remington-s5901", text: "ghd Original IV eller Remington S5901?" },
+    { href: "/skonhet/babyliss-big-hair-dual-eller-remington-as5901", text: "Roterande eller vanlig varmluftsborste – BaByliss eller Remington?" },
+    { href: "/skonhet/varmluftsborste", text: "Vilka borsttillbehör behöver du?" }, { href: "/skonhet/plattang", text: "Behöver du ett mindre format eller temperaturval?" }],
 };

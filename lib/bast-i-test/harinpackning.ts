@@ -15,6 +15,10 @@ export const harinpackning: DecisionGuide = {
     { question: "När kan jag avstå från en ny produkt?", answer: "När det du har redan fungerar. En längre rutin och en större burk är inte mål i sig. Om du vill prova något nytt, välj efter användningssätt, förpackningens innehåll och ett tydligt behov – inte en gissad diagnos utifrån ett hårstrå." },
   ],
   related: [
+    { href: "/skonhet/olaplex-no3", text: "Olaplex No.3 Plus – vad skiljer mot gamla No.3, och räcker 3 minuter?" },
+    { href: "/skonhet/redken-abc-pre-treatment", text: "Behöver du Redken ABC Pre-Treatment om du redan har Leave-In?" },
+    { href: "/skonhet/olaplex-no3-plus-eller-k18", text: "Olaplex No.3 Plus eller K18?" },
+
     { href: "/skonhet/olaplex-eller-harinpackning", text: "Behandling före eller mask efter schampo?" },
     { href: "/skonhet/harolja-eller-varmeskydd", text: "Hårolja eller värmeskydd?" },
   ],
