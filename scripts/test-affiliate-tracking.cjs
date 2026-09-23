@@ -80,7 +80,10 @@ for (const offer of [directPreview]) {
 }
 offers.merchantOffers.pop();
 const amazon = new Anchor({href: 'https://amzn.to/example'});
-click(amazon); assert.equal(events.length, 1); assert.equal(events[0][1], 'amazon_click');
+consent = null; click(amazon); assert.equal(events.length, 0);
+consent = 'denied'; click(amazon); assert.equal(events.length, 0);
+consent = 'granted'; click(amazon); assert.equal(events.length, 1); assert.equal(events[0][1], 'amazon_click');
+consent = 'denied'; click(amazon); assert.equal(events.length, 1);
 assert.equal(amazonOffers.getAmazonOffer('unknown'), undefined);
 for (const offer of amazonOffers.amazonOffers) {
   const url = new URL(offer.href);

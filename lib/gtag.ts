@@ -43,10 +43,11 @@ type AmazonClickDetails = {
 /**
  * Fires the GA4 `amazon_click` event so GA reports show which page/slug is
  * actually driving visitors to Amazon (the Pinterest → site → Amazon funnel).
- * Consent Mode v2 decides in the background whether this turns into a full
- * hit or a cookieless/modeled ping — no manual consent check needed here.
+ * The event is sent only after stored analytics consent is granted. Basic
+ * Consent Mode must not queue or send Amazon events before the visitor agrees.
  */
 export function trackAmazonClick(details: AmazonClickDetails): void {
+  if (getStoredConsentSnapshot() !== "granted") return;
   sendGAEvent("event", "amazon_click", {
     page_path: details.pagePath,
     page_title: details.pageTitle,

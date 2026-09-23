@@ -1,11 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { MotionConfig } from "framer-motion";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 
 import { AmazonClickTracker } from "@/components/AmazonClickTracker";
 import { BottomNav } from "@/components/BottomNav";
+import { ConsentGatedAnalytics } from "@/components/ConsentGatedAnalytics";
 import { CookieConsentBanner } from "@/components/CookieConsentBanner";
 import { ElinProvider } from "@/components/elin/ElinProvider";
 import { Header } from "@/components/Header";
@@ -161,7 +161,7 @@ export default function RootLayout({
           ) : null}
         </MotionConfig>
 
-        {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
+        {gaId ? <ConsentGatedAnalytics gaId={gaId} /> : null}
       </body>
     </html>
   );
