@@ -1,6 +1,7 @@
 // 2026-09-22: Add contextual links to the source-led partner decisions.
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";
 import { HairRoutineDetail, HairRoutineIntro } from "@/components/HairRoutineContent";
+import { WebPageJsonLd } from "@/components/WebPageJsonLd";
 import { harinpackning } from "@/lib/bast-i-test/harinpackning";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
@@ -12,5 +13,5 @@ export const metadata = createSeoMetadata({
 });
 
 export default function HarinpackningPage() {
-  return <DecisionGuidePage guide={harinpackning} beforeDecision={<HairRoutineIntro />} afterDecision={<HairRoutineDetail />} merchantDisclosure="Inlägget innehåller reklam genom annonslänkar för NordicFeel." />;
+  return <><WebPageJsonLd path={harinpackning.path} name={harinpackning.title} publishedAt="2026-09-06" /><DecisionGuidePage guide={harinpackning} beforeDecision={<HairRoutineIntro />} afterDecision={<HairRoutineDetail />} merchantDisclosure="Inlägget innehåller reklam genom annonslänkar för NordicFeel." /></>;
 }

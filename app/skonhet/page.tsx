@@ -12,6 +12,7 @@ import { CategoryComparisonSections } from "@/components/CategoryComparisonSecti
 import { CategoryProductSections } from "@/components/CategoryProductSections";
 import { EditorialMeta } from "@/components/EditorialMeta";
 import { JsonLd } from "@/components/JsonLd";
+import { PartnerCategoryLinks } from "@/components/PartnerCategoryLinks";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
@@ -121,6 +122,7 @@ export default function SkonhetHubPage() {
 
         <CategoryProductSections categorySlug="skonhet" />
         <CategoryComparisonSections categorySlug="skonhet" />
+        <PartnerCategoryLinks categorySlug="skonhet" />
 
         <section className="reveal-fade mt-12 rounded-[2rem] border border-line bg-surface/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)]">
           <div className="flex items-start gap-4">

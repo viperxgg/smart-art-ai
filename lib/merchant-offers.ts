@@ -12,6 +12,8 @@ export type MerchantOffer = {
   priceNote?: string;
   placement: string;
   checkedAt: string;
+  availability?: "https://schema.org/InStock" | "https://schema.org/OutOfStock";
+  availabilityCheckedAt: string;
   price?: MerchantPriceSnapshot;
 };
 
@@ -27,6 +29,8 @@ function projectOffer(record: CanonicalProductRecord): MerchantOffer {
     ...(record.offer.priceNote ? { priceNote: record.offer.priceNote } : {}),
     placement: record.offer.placement,
     checkedAt: record.offer.checkedAt,
+    ...(record.offer.availability ? { availability: record.offer.availability } : {}),
+    availabilityCheckedAt: record.offer.availabilityCheckedAt,
     ...(record.offer.price ? { price: record.offer.price } : {}),
   };
 }

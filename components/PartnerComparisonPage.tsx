@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { JsonLd } from "@/components/JsonLd";
 import { PartnerOfferCards } from "@/components/PartnerOfferCards";
 import { comparisonSchema, comparisonRenderTime, type PartnerComparison } from "@/lib/partner-comparisons";
@@ -18,6 +19,7 @@ export function PartnerComparisonPage({ page }: { page: PartnerComparison }) {
         <p className="text-xs font-bold uppercase tracking-widest text-wine">Två val · Ett behov</p>
         <h1 className="mt-4 font-display text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">{page.title}</h1>
         <p className="mt-5 text-base leading-relaxed text-ink-soft" data-first-answer>{page.answer}</p>
+        <a href="#butiker" className="mt-6 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-wine px-6 py-3 text-center font-bold text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-wine">Se pris och butik <ArrowRight size={18} aria-hidden="true" /></a>
         <p className="mt-4 text-xs text-ink-soft">Fakta granskade <time dateTime={page.updatedAt}>{new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(`${page.updatedAt}T12:00:00Z`))}</time> · Källbaserad jämförelse, inte ett eget produkttest.</p>
       </header>
       <div className="mt-8 grid gap-5 sm:grid-cols-2">{products.map((product, index) => <figure key={product.id} className="rounded-2xl border border-line bg-white p-5">
@@ -31,7 +33,7 @@ export function PartnerComparisonPage({ page }: { page: PartnerComparison }) {
       </div>
       {page.sections.map(section => <section key={section.question} className="mt-10 max-w-3xl"><h2 className="font-display text-2xl font-bold">{section.question}</h2><p className="mt-4 leading-relaxed text-ink-soft">{section.answer}</p></section>)}
       <section className="mt-10"><h2 className="font-display text-2xl font-bold">Skillnader mellan de exakta varianterna</h2>
-        <div className="mt-6 space-y-3">{page.rows.map(([label, a, b]) => <dl key={label} className="rounded-2xl border border-line bg-surface p-5"><dt className="font-bold">{label}</dt><div className="mt-3 grid gap-4 sm:grid-cols-2"><dd className="min-w-0 text-sm leading-relaxed"><span className="block font-semibold text-wine">{products[0].name}</span>{a}</dd><dd className="min-w-0 text-sm leading-relaxed"><span className="block font-semibold text-wine">{products[1].name}</span>{b}</dd></div></dl>)}</div>
+        <div className="mt-6 space-y-3">{page.rows.map(([label, a, b]) => <dl key={label} className="rounded-2xl border border-line bg-surface p-5"><div><dt className="font-bold">{label}</dt><dd className="mt-3 grid gap-4 sm:grid-cols-2"><span className="min-w-0 text-sm leading-relaxed"><span className="block font-semibold text-wine">{products[0].name}</span>{a}</span><span className="min-w-0 text-sm leading-relaxed"><span className="block font-semibold text-wine">{products[1].name}</span>{b}</span></dd></div></dl>)}</div>
       </section>
       {page.visual ? <figure className="mt-10"><Image src={page.visual.infographic} width={1200} height={630} alt={`Beslutsöversikt: ${page.title}`} className="h-auto w-full rounded-2xl" /></figure> : null}
       <section id="butiker" className="mt-12 scroll-mt-28"><h2 className="font-display text-2xl font-bold">Jämför daterade priser och butiker</h2><p className="mt-3 text-sm text-ink-soft">Kontrollera variant, frakt och villkor hos butiken. Vi väljer inte rekommendation efter ersättning.</p><PartnerOfferCards productIds={page.productIds} now={now} /></section>

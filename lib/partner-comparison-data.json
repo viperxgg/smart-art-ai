@@ -104,7 +104,8 @@
       "hero": "/og/wave1-c1.webp",
       "infographic": "/products/selected/comparison-c1/c.webp",
       "context": "/products/selected/comparison-c1/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-22"
   },
   {
     "id": "c2",
@@ -217,7 +218,8 @@
       "hero": "/og/wave1-c2.webp",
       "infographic": "/products/selected/comparison-c2/c.webp",
       "context": "/products/selected/comparison-c2/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-22"
   },
   {
     "id": "c3",
@@ -319,7 +321,8 @@
       "hero": "/og/wave1-c3.webp",
       "infographic": "/products/selected/comparison-c3/c.webp",
       "context": "/products/selected/comparison-c3/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-22"
   },
   {
     "id": "c4",
@@ -420,7 +423,8 @@
       "hero": "/og/wave1-c4.webp",
       "infographic": "/products/selected/comparison-c4/c.webp",
       "context": "/products/selected/comparison-c4/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-22"
   },
   {
     "id": "c5",
@@ -516,7 +520,8 @@
       "hero": "/og/wave1-c5.webp",
       "infographic": "/products/selected/comparison-c5/c.webp",
       "context": "/products/selected/comparison-c5/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-22"
   },
   {
     "id": "c6",
@@ -628,7 +633,8 @@
       "hero": "/og/wave1-c6.webp",
       "infographic": "/products/selected/comparison-c6/c.webp",
       "context": "/products/selected/comparison-c6/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-22"
   },
   {
     "id": "c7",
@@ -730,7 +736,8 @@
       "hero": "/og/wave1-c7.webp",
       "infographic": "/products/selected/comparison-c7/c.webp",
       "context": "/products/selected/comparison-c7/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-22"
   },
   {
     "id": "c8",
@@ -832,7 +839,8 @@
       "hero": "/og/wave1-c8.webp",
       "infographic": "/products/selected/comparison-c8/c.webp",
       "context": "/products/selected/comparison-c8/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-22"
   },
   {
     "id": "c9",
@@ -946,6 +954,7 @@
       "hero": "/og/wave1-c9.webp",
       "infographic": "/products/selected/comparison-c9/c.webp",
       "context": "/products/selected/comparison-c9/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-22"
   }
 ]

@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site";
 export type PartnerComparison = {
   id: string; path: string; title: string; metaTitle: string; description: string;
   answer: string; productIds: string[]; productPaths: string[];
-  targetQuery: string; hypothesis: string; updatedAt: string;
+  targetQuery: string; hypothesis: string; publishedAt: string; updatedAt: string;
   fits: string[]; skip: string; rows: string[][];
   sections: { question: string; answer: string }[];
   sources: { label: string; url: string; checkedAt: string; supports: string }[];
@@ -35,8 +35,10 @@ export function comparisonSchema(page: PartnerComparison, now = Date.now()) {
   const products = page.productIds.map((id, index) => {
     const product = getProductRecord(id)!;
     const offers = [product.offer, ...(product.additionalOffers ?? [])].filter(offer => offer.price && getVerifiedMerchantPrice(offer.price, now)
+      && offer.availability && Number.isFinite(Date.parse(offer.availabilityCheckedAt)) && Date.parse(offer.availabilityCheckedAt) <= now
       && (!product.campaignEndsAt || Date.parse(product.campaignEndsAt) > now || Date.parse(offer.price.checkedAt) > Date.parse(product.campaignEndsAt)))
       .map(offer => ({ "@type": "Offer", url: offer.href, price: offer.price!.amount, priceCurrency: offer.price!.currency,
+        availability: offer.availability,
         seller: { "@type": "Organization", name: offer.merchantName },
         ...(product.campaignEndsAt ? { priceValidUntil: product.campaignEndsAt.slice(0, 10) } : {}),
       }));
@@ -48,7 +50,7 @@ export function comparisonSchema(page: PartnerComparison, now = Date.now()) {
   return { "@context": "https://schema.org", "@graph": [
     ...products,
     { "@type": "Article", "@id": `${url}#article`, headline: page.title, description: page.description,
-      mainEntityOfPage: url, dateModified: page.updatedAt, inLanguage: "sv-SE",
+      mainEntityOfPage: url, datePublished: page.publishedAt, dateModified: page.updatedAt, inLanguage: "sv-SE",
       image: page.visual ? siteConfig.url + page.visual.hero : products[0].image,
       author: { "@id": `${siteConfig.url}/#organization` }, publisher: { "@id": `${siteConfig.url}/#organization` },
       about: products.map(product => ({ "@id": product["@id"] })), citation: page.sources.map(source => source.url),

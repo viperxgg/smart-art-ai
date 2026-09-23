@@ -15,6 +15,7 @@ export type CanonicalOffer = {
   price?: MerchantPriceSnapshot;
   programId?: string;
   channelId?: string;
+  availability?: "https://schema.org/InStock" | "https://schema.org/OutOfStock";
   availabilityCheckedAt: string;
 };
 
@@ -73,6 +74,7 @@ export type CanonicalProductRecord = {
   merchantItemId?: string;
   gtin?: string;
   updatedAt?: string;
+  publishedAt?: string;
   path?: string;
   heading?: string;
   shortName?: string;
@@ -101,6 +103,7 @@ export type SelectedProductRecord = CanonicalProductRecord & {
   hubGroup: HubGroup;
   merchantItemId: string;
   updatedAt: string;
+  publishedAt: string;
   path: string;
   shortName: string;
   brand: string;

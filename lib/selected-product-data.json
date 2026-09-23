@@ -18,7 +18,8 @@
       },
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-14"
+      "availabilityCheckedAt": "2026-09-23T13:04:28+02:00",
+      "availability": "https://schema.org/OutOfStock"
     },
     "image": {
       "merchantId": "nordicfeel",
@@ -73,7 +74,8 @@
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22"
+      "availabilityCheckedAt": "2026-09-23T13:04:28+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "kjell",
@@ -234,7 +236,8 @@
       },
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-14"
+      "availabilityCheckedAt": "2026-09-23T13:04:28+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/redken-acidic-bonding-leave-in-150ml/1.jpg",
@@ -268,7 +271,8 @@
       "addedAt": "2026-09-14T13:38:12+02:00",
       "reviewed": true,
       "available": true
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "cmf-buds-2-dark-grey",
@@ -398,7 +402,8 @@
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22"
+      "availabilityCheckedAt": "2026-09-23T13:04:28+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/cmf-buds-2-dark-grey/1.webp",
@@ -432,7 +437,8 @@
       "addedAt": "2026-09-14T13:38:12+02:00",
       "reviewed": true,
       "available": true
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "beauty-of-joseon-propolis-serum",
@@ -563,7 +569,8 @@
       "href": "https://www.amazon.se/dp/B086VKZZZY?tag=azzamkhalaf-21",
       "identityCheckedAt": "2026-09-14",
       "linkOnly": true
-    }
+    },
+    "publishedAt": "2026-06-17"
   },
   {
     "id": "tapo-c520ws-single",
@@ -699,7 +706,8 @@
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22"
+      "availabilityCheckedAt": "2026-09-23T13:04:28+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/tapo-c520ws-single/1.jpg",
@@ -721,7 +729,8 @@
       "href": "https://www.amazon.se/dp/B0CCW8GHT8?tag=azzamkhalaf-21",
       "identityCheckedAt": "2026-09-14",
       "linkOnly": true
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "kerastase-glaze-drops-45ml",
@@ -847,7 +856,8 @@
       "href": "https://www.amazon.se/dp/B0DQV1FQ49?tag=azzamkhalaf-21",
       "identityCheckedAt": "2026-09-14",
       "linkOnly": true
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "jbl-flip-7-black",
@@ -976,7 +986,8 @@
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22"
+      "availabilityCheckedAt": "2026-09-23T13:04:28+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/jbl-flip-7-black/1.jpg",
@@ -998,7 +1009,8 @@
       "href": "https://www.amazon.se/dp/B0DXKMXPXW?tag=azzamkhalaf-21",
       "identityCheckedAt": "2026-09-14",
       "linkOnly": true
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "cosrx-snail-96-100ml",
@@ -1129,7 +1141,8 @@
       "href": "https://www.amazon.se/dp/B00PBX3L7K?tag=azzamkhalaf-21",
       "identityCheckedAt": "2026-09-14",
       "linkOnly": true
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "anker-prime-300w-26250mah",
@@ -1261,7 +1274,8 @@
       "alt": "Anker Prime med display och portar på ovansidan.",
       "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
       "reviewedAt": "2026-09-13"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "clinisoothe-skin-purifier-100ml",
@@ -1387,7 +1401,8 @@
       "href": "https://www.amazon.se/dp/B08LTTBGPN?tag=azzamkhalaf-21",
       "identityCheckedAt": "2026-09-14",
       "linkOnly": true
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "linocell-wireless-carplay-q1m",
@@ -1510,7 +1525,8 @@
       "alt": "Linocell-adaptern och den medföljande USB-C-adaptern.",
       "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
       "reviewedAt": "2026-09-13"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "ole-henriksen-pout-strawberry-12ml",
@@ -1629,7 +1645,8 @@
       "sha256": "f3248dc1817ece2334daea3e2882c0edaa07ce85580405820bcc4deab11624fe",
       "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
       "reviewedAt": "2026-09-13"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "lumene-cc-medium-30ml",
@@ -1752,7 +1769,8 @@
       "sha256": "aa0d94d35cf8831507813698b04ca252879c35dbe2f893e72975cbb8a8bd5203",
       "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
       "reviewedAt": "2026-09-13"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "amika-hydro-rush-leave-in-200ml",
@@ -1871,7 +1889,8 @@
       "sha256": "e51cf0854edf3c27fcf0a6304618af1580f5e8e03cf83dcfc5eb865a3142afa5",
       "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
       "reviewedAt": "2026-09-13"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "la-roche-posay-cicaplast-b5-100ml",
@@ -2006,7 +2025,8 @@
       "sha256": "65ebbbdf26a082db1ab97f0ec7c5c4fd4f5c9fe32eb9e2198e7ac7caddce7d42",
       "permissionScope": "Original supplied product image, matching merchant promotion on approved channel; brand-specific rules still apply.",
       "reviewedAt": "2026-09-13"
-    }
+    },
+    "publishedAt": "2026-06-17"
   },
   {
     "id": "wella-sp-luxeoil-100ml",
@@ -2126,7 +2146,8 @@
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-14"
+      "availabilityCheckedAt": "2026-09-23T13:04:28+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/wella-sp-luxeoil-100ml/1.jpg",
@@ -2148,7 +2169,8 @@
       "href": "https://www.amazon.se/dp/B009ZVHWW4?tag=azzamkhalaf-21",
       "identityCheckedAt": "2026-09-14",
       "linkOnly": true
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "wanbo-cube-2-pro",
@@ -2267,7 +2289,8 @@
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "kjell",
@@ -2317,7 +2340,8 @@
       "hero": "/og/wave1-wanbo-cube-2-pro.webp",
       "infographic": "/products/selected/wanbo-cube-2-pro/c.webp",
       "context": "/products/selected/wanbo-cube-2-pro/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "plexgear-cv200",
@@ -2430,7 +2454,8 @@
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "kjell",
@@ -2478,7 +2503,8 @@
       "hero": "/og/wave1-plexgear-cv200.webp",
       "infographic": "/products/selected/plexgear-cv200/c.webp",
       "context": "/products/selected/plexgear-cv200/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "kobo-clara-colour",
@@ -2603,7 +2629,8 @@
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "kjell",
@@ -2652,7 +2679,8 @@
       "hero": "/og/wave1-kobo-clara-colour.webp",
       "infographic": "/products/selected/kobo-clara-colour/c.webp",
       "context": "/products/selected/kobo-clara-colour/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "nothing-ear-3a",
@@ -2778,7 +2806,8 @@
       "programId": "1098281531",
       "channelId": "2110221551",
       "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
-      "priceNote": "Kampanjpris 990 kr till och med 27 september 2026; Kjell visade 1 290 kr som jämförelsepris. Outlet är ett separat exemplar."
+      "priceNote": "Kampanjpris 990 kr till och med 27 september 2026; Kjell visade 1 290 kr som jämförelsepris. Outlet är ett separat exemplar.",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "kjell",
@@ -2830,7 +2859,8 @@
       "hero": "/og/wave1-nothing-ear-3a.webp",
       "infographic": "/products/selected/nothing-ear-3a/c.webp",
       "context": "/products/selected/nothing-ear-3a/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "reolink-w330",
@@ -2949,7 +2979,8 @@
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "kjell",
@@ -3004,7 +3035,8 @@
       "hero": "/og/wave1-reolink-w330.webp",
       "infographic": "/products/selected/reolink-w330/c.webp",
       "context": "/products/selected/reolink-w330/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "lyko-core-styler",
@@ -3122,7 +3154,8 @@
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "lyko",
@@ -3171,7 +3204,8 @@
       "hero": "/og/wave1-lyko-core-styler.webp",
       "infographic": "/products/selected/lyko-core-styler/c.webp",
       "context": "/products/selected/lyko-core-styler/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "lyko-infrared-blowout",
@@ -3293,7 +3327,8 @@
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "lyko",
@@ -3335,7 +3370,8 @@
       "hero": "/og/wave1-lyko-infrared-blowout.webp",
       "infographic": "/products/selected/lyko-infrared-blowout/c.webp",
       "context": "/products/selected/lyko-infrared-blowout/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "ghd-rise",
@@ -3459,7 +3495,8 @@
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "lyko",
@@ -3515,14 +3552,16 @@
         "programId": "872761485",
         "channelId": "2110221551",
         "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
-        "merchantItemId": "86887"
+        "merchantItemId": "86887",
+        "availability": "https://schema.org/InStock"
       }
     ],
     "visual": {
       "hero": "/og/wave1-ghd-rise.webp",
       "infographic": "/products/selected/ghd-rise/c.webp",
       "context": "/products/selected/ghd-rise/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "olaplex-no3-plus",
@@ -3642,7 +3681,8 @@
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "lyko",
@@ -3697,14 +3737,16 @@
         "programId": "872761485",
         "channelId": "2110221551",
         "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
-        "merchantItemId": "196179"
+        "merchantItemId": "196179",
+        "availability": "https://schema.org/InStock"
       }
     ],
     "visual": {
       "hero": "/og/wave1-olaplex-no3-plus.webp",
       "infographic": "/products/selected/olaplex-no3-plus/c.webp",
       "context": "/products/selected/olaplex-no3-plus/d.webp"
-    }
+    },
+    "publishedAt": "2026-06-17"
   },
   {
     "id": "redken-abc-pre-treatment",
@@ -3822,7 +3864,8 @@
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "lyko",
@@ -3863,7 +3906,8 @@
       "hero": "/og/wave1-redken-abc-pre-treatment.webp",
       "infographic": "/products/selected/redken-abc-pre-treatment/c.webp",
       "context": "/products/selected/redken-abc-pre-treatment/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "ghd-original-iv",
@@ -3983,7 +4027,8 @@
       "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "nordicfeel",
@@ -4026,7 +4071,8 @@
       "hero": "/og/wave1-ghd-original-iv.webp",
       "infographic": "/products/selected/ghd-original-iv/c.webp",
       "context": "/products/selected/ghd-original-iv/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "remington-s5901",
@@ -4150,7 +4196,8 @@
       "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "nordicfeel",
@@ -4193,7 +4240,8 @@
       "hero": "/og/wave1-remington-s5901.webp",
       "infographic": "/products/selected/remington-s5901/c.webp",
       "context": "/products/selected/remington-s5901/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "babyliss-big-hair-dual",
@@ -4307,7 +4355,8 @@
       "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "nordicfeel",
@@ -4350,7 +4399,8 @@
       "hero": "/og/wave1-babyliss-big-hair-dual.webp",
       "infographic": "/products/selected/babyliss-big-hair-dual/c.webp",
       "context": "/products/selected/babyliss-big-hair-dual/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   },
   {
     "id": "remington-as5901",
@@ -4490,7 +4540,8 @@
       "priceNote": "Butikens visade försäljningspris. Rek. pris är butikens jämförelseuppgift, inte vårt ordinarie pris.",
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00"
+      "availabilityCheckedAt": "2026-09-22T18:57:14+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "merchantId": "nordicfeel",
@@ -4542,6 +4593,7 @@
       "hero": "/og/wave1-remington-as5901.webp",
       "infographic": "/products/selected/remington-as5901/c.webp",
       "context": "/products/selected/remington-as5901/d.webp"
-    }
+    },
+    "publishedAt": "2026-09-14"
   }
 ]

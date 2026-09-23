@@ -55,9 +55,11 @@ export function selectedProductSchema(product: SelectedProduct, now = Date.now()
   const url = `${siteConfig.url}${product.path}`;
   const heading = product.heading ?? product.shortName;
   const offers = getMerchantOffers(product.id).filter(offer => offer.price && getVerifiedMerchantPrice(offer.price, now)
+    && offer.availability && Number.isFinite(Date.parse(offer.availabilityCheckedAt)) && Date.parse(offer.availabilityCheckedAt) <= now
     && (!product.campaignEndsAt || Date.parse(product.campaignEndsAt) > now || Date.parse(offer.price.checkedAt) > Date.parse(product.campaignEndsAt)))
     .map(offer => ({ "@type": "Offer", url: offer.href, price: offer.price!.amount,
-      priceCurrency: offer.price!.currency, seller: { "@type": "Organization", name: offer.merchantName },
+      priceCurrency: offer.price!.currency, availability: offer.availability,
+      seller: { "@type": "Organization", name: offer.merchantName },
       ...(product.campaignEndsAt && Date.parse(offer.price!.checkedAt) <= Date.parse(product.campaignEndsAt)
         ? { priceValidUntil: product.campaignEndsAt.slice(0, 10) } : {}),
     }));
@@ -74,7 +76,8 @@ export function selectedProductSchema(product: SelectedProduct, now = Date.now()
       },
       {
         "@type": "Article", "@id": `${url}#article`, headline: heading,
-        mainEntityOfPage: url, inLanguage: "sv-SE", dateModified: product.updatedAt,
+        mainEntityOfPage: url, inLanguage: "sv-SE", datePublished: product.publishedAt,
+        dateModified: product.updatedAt,
         description: product.description, about: { "@id": `${url}#product` },
         image: `${siteConfig.url}${product.images[0].src}`,
         author: { "@id": `${siteConfig.url}/#organization` },

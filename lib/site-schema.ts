@@ -89,15 +89,17 @@ export type WebPageSchemaInput = {
   path: string;
   /** Page name, normally the H1. */
   name: string;
+  /** Real first publication date from the route's published git history. */
+  publishedAt?: string;
 };
 
 /**
  * WebPage node for a content page. dateModified is the sitemap date for the
  * route, so it always equals the visible "Uppdaterad" line rendered by
- * components/EditorialMeta.tsx. No datePublished: the sitemap only carries
- * last-modified dates, and a guessed publish date would be worse than none.
+ * components/EditorialMeta.tsx. Callers may pass datePublished only when the
+ * route's first publication date has been verified from published git history.
  */
-export function buildWebPageSchema({ path, name }: WebPageSchemaInput) {
+export function buildWebPageSchema({ path, name, publishedAt }: WebPageSchemaInput) {
   const url = absoluteUrl(path);
   const lastModified = getPageLastModified(path);
 
@@ -108,6 +110,7 @@ export function buildWebPageSchema({ path, name }: WebPageSchemaInput) {
     url,
     name,
     inLanguage: "sv-SE",
+    ...(publishedAt ? { datePublished: publishedAt } : {}),
     ...(lastModified ? { dateModified: lastModified } : {}),
     isPartOf: { "@type": "WebSite", "@id": websiteId },
     publisher: { "@type": "Organization", "@id": organizationId },

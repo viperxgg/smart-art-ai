@@ -104,6 +104,7 @@ const comparisons = require('../lib/partner-comparison-data.json');
 for (const record of [...canonical, ...comparisons]) assertRelatedLabels(record);
 const records = load('@/lib/selected-product-records');
 const selected = load('@/lib/selected-products');
+const partnerComparisons = load('@/lib/partner-comparisons');
 const merchants = load('@/lib/merchant-offers');
 const amazon = load('@/lib/amazon-offers');
 const price = load('@/lib/merchant-price');
@@ -111,7 +112,7 @@ const priceRegister = require('../../company/price-review/products.json').produc
 const priceRows = new Set(priceRegister.map((row) => row.id));
 const sitemapSource = fs.readFileSync('lib/sitemap-entries.ts', 'utf8');
 const sitemapPaths = new Set([...sitemapSource.matchAll(/path:\s*"([^"]+)"/g)].map((match) => match[1]));
-const now = Math.max(Date.parse('2026-09-22T12:00:00+02:00'), ...canonical.flatMap(record => [record.offer, ...(record.additionalOffers || [])]).map(offer => Date.parse(offer.price.checkedAt)));
+const now = Math.max(Date.parse('2026-09-23T12:00:00+02:00'), ...canonical.flatMap(record => [record.offer, ...(record.additionalOffers || [])]).flatMap(offer => [Date.parse(offer.price.checkedAt), Date.parse(offer.availabilityCheckedAt)]).filter(Number.isFinite));
 
 assert.equal(records.productRecords.length, canonical.length);
 assert.equal(selected.selectedProducts.length, canonical.filter((record) => record.selected).length);
@@ -165,20 +166,24 @@ for (const record of records.productRecords) {
 }
 
 for (const product of selected.selectedProducts) {
+  assert.ok(Date.parse(product.publishedAt), `${product.id}: missing verified publication date`);
   assert.ok(product.sources.length && product.sources.every((source) => source.url.startsWith('https://')));
   for (const [, route] of product.related) assert.ok(fs.existsSync(path.join('app', ...route.slice(1).split('/'), 'page.tsx')), `Missing related route ${route}`);
   const graph = selected.selectedProductSchema(product, now)['@graph'];
   const entity = graph.find((node) => node['@type'] === 'Product');
   const offer = merchants.getMerchantOffer(product.id);
-  const schemaOffers = Array.isArray(entity.offers) ? entity.offers : [entity.offers];
-  const actualOffers = merchants.getMerchantOffers(product.id);
+  const schemaOffers = entity.offers ? (Array.isArray(entity.offers) ? entity.offers : [entity.offers]) : [];
+  const actualOffers = merchants.getMerchantOffers(product.id).filter(item => item.availability && Date.parse(item.availabilityCheckedAt) <= now);
   assert.equal(schemaOffers.length, actualOffers.length);
   actualOffers.forEach((item, index) => {
     assert.equal(schemaOffers[index].price, item.price.amount);
     assert.equal(schemaOffers[index].seller.name, item.merchantName);
-    assert.ok(!('availability' in schemaOffers[index]), 'Weekly observations are not live stock');
+    assert.equal(schemaOffers[index].availability, item.availability, `${product.id}: every emitted Offer needs verified availability`);
     assert.ok(priceRows.has(`${product.id}:${item.merchantId}`));
   });
+  const article = graph.find((node) => node['@type'] === 'Article');
+  assert.equal(article.datePublished, product.publishedAt);
+  assert.equal(article.dateModified, product.updatedAt);
   assert.ok(!('review' in entity) && !('aggregateRating' in entity));
   assert.ok(!JSON.stringify(graph).includes('amazon.se'), 'No unsupported numeric Amazon offer');
   assert.ok(price.getVerifiedMerchantPrice(offer.price, Date.parse('2026-10-14T12:00:00+02:00')), 'Weekly deadline must not hide the dated price');
@@ -190,6 +195,25 @@ for (const product of selected.selectedProducts) {
     assert.ok(!selected.selectedProductSchema(product, end)['@graph'][0].offers);
   }
 }
+
+for (const comparison of partnerComparisons.partnerComparisons) {
+  assert.ok(Date.parse(comparison.publishedAt), `${comparison.id}: missing verified publication date`);
+  const graph = partnerComparisons.comparisonSchema(comparison, now)['@graph'];
+  const schemaOffers = graph.filter(node => node['@type'] === 'Product').flatMap(node => node.offers || []);
+  assert.ok(schemaOffers.length > 0, `${comparison.id}: expected verified offers`);
+  assert.ok(schemaOffers.every(offer => offer.availability), `${comparison.id}: emitted Offer lacks availability`);
+  const article = graph.find(node => node['@type'] === 'Article');
+  assert.equal(article.datePublished, comparison.publishedAt);
+  assert.equal(article.dateModified, comparison.updatedAt);
+}
+
+const comparisonComponent = fs.readFileSync('components/PartnerComparisonPage.tsx', 'utf8');
+const answerPosition = comparisonComponent.indexOf('data-first-answer');
+const ctaPosition = comparisonComponent.indexOf('href="#butiker"');
+const reviewedPosition = comparisonComponent.indexOf('Fakta granskade');
+assert.ok(answerPosition >= 0 && ctaPosition > answerPosition && reviewedPosition > ctaPosition,
+  'Comparison first viewport must order answer, Se pris och butik CTA, then review date');
+assert.ok(comparisonComponent.includes('section id="butiker"'), 'Comparison merchant section needs a stable butiker anchor');
 
 const tapo = selected.getSelectedProduct('tapo-c520ws-single');
 assert.equal(selected.selectedProductSchema(tapo, now)['@graph'][0].offers.price, 689, 'Use the newly verified unlabelled purchase price');
@@ -213,7 +237,9 @@ for (const [id, amount] of Object.entries(lykoPrices)) {
   assert.equal(url.searchParams.get('a'), '1117786221');
   assert.equal(url.searchParams.get('as'), '2110221551');
   assert.equal(url.searchParams.get('url'), offer.price.source, 'Tracking destination must match exact variant');
-  assert.equal(selected.selectedProductSchema(selected.getSelectedProduct(id), now)['@graph'][0].offers.price, amount, 'Conditional combo price must not become a single-item offer');
+  const schemaOffer = selected.selectedProductSchema(selected.getSelectedProduct(id), now)['@graph'][0].offers;
+  if (offer.availability) assert.equal(schemaOffer.price, amount, 'Conditional combo price must not become a single-item offer');
+  else assert.equal(schemaOffer, undefined, 'Offer without verified availability must be omitted');
 }
 assert.equal(amazon.getAmazonOffer('wella-sp-luxeoil-100ml').asin, 'B009ZVHWW4');
 const cicaplast = selected.getSelectedProduct('la-roche-posay-cicaplast-b5-100ml');

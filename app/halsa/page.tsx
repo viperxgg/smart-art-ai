@@ -6,6 +6,7 @@ import { CategoryComparisonSections } from "@/components/CategoryComparisonSecti
 import { CategoryProductSections } from "@/components/CategoryProductSections";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
+import { WebPageJsonLd } from "@/components/WebPageJsonLd";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
@@ -31,6 +32,7 @@ export default function HalsaHubPage() {
       className="min-h-screen bg-bg px-4 py-8 text-ink"
     >
       <JsonLd data={breadcrumbSchema} />
+      <WebPageJsonLd path="/halsa" name="Vad behöver du förändra hemma?" publishedAt="2026-06-10" />
 
       <div className="mx-auto w-full max-w-5xl pb-24">
         <div className="mb-5">

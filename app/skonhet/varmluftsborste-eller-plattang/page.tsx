@@ -1,7 +1,8 @@
 // 2026-09-22: Add contextual links to the source-led partner decisions.
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";
+import { WebPageJsonLd } from "@/components/WebPageJsonLd";
 import { airStylerOrStraightenerGuide as guide } from "@/lib/varmluftsborste-eller-plattang";
 import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 export const metadata = createSeoMetadata({ title: guide.title, description: guide.intro, url: `${siteConfig.url}${guide.path}` });
-export default function Page() { return <DecisionGuidePage guide={guide} />; }
+export default function Page() { return <><WebPageJsonLd path={guide.path} name={guide.title} publishedAt="2026-06-19" /><DecisionGuidePage guide={guide} /></>; }

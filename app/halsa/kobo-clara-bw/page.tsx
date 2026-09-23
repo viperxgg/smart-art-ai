@@ -3,6 +3,7 @@
 import { notFound } from "next/navigation";
 
 import { ProductDecisionPage } from "@/components/ProductDecisionPage";
+import { WebPageJsonLd } from "@/components/WebPageJsonLd";
 import { getProductDecision } from "@/lib/product-decisions";
 import { createSeoMetadata } from "@/lib/metadata";
 import { getApprovedReviews } from "@/lib/reviews/reviews";
@@ -29,5 +30,5 @@ export default async function KoboClaraBwPage() {
     notFound();
   }
 
-  return <ProductDecisionPage pick={pick} decision={decision} reviews={await getApprovedReviews(pick.product.slug)} pageHeading={pageHeading} firstAnswer={firstAnswer} />;
+  return <><WebPageJsonLd path={pick.href} name={pageHeading} publishedAt="2026-06-17" /><ProductDecisionPage pick={pick} decision={decision} reviews={await getApprovedReviews(pick.product.slug)} pageHeading={pageHeading} firstAnswer={firstAnswer} /></>;
 }
