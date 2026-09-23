@@ -173,7 +173,7 @@ for (const product of selected.selectedProducts) {
   const entity = graph.find((node) => node['@type'] === 'Product');
   const offer = merchants.getMerchantOffer(product.id);
   const schemaOffers = entity.offers ? (Array.isArray(entity.offers) ? entity.offers : [entity.offers]) : [];
-  const actualOffers = merchants.getMerchantOffers(product.id).filter(item => item.availability && Date.parse(item.availabilityCheckedAt) <= now);
+  const actualOffers = merchants.getMerchantOffers(product.id).filter(item => item.availability && item.availability !== 'https://schema.org/OutOfStock' && Date.parse(item.availabilityCheckedAt) <= now);
   assert.equal(schemaOffers.length, actualOffers.length);
   actualOffers.forEach((item, index) => {
     assert.equal(schemaOffers[index].price, item.price.amount);
@@ -202,10 +202,17 @@ for (const comparison of partnerComparisons.partnerComparisons) {
   const schemaOffers = graph.filter(node => node['@type'] === 'Product').flatMap(node => node.offers || []);
   assert.ok(schemaOffers.length > 0, `${comparison.id}: expected verified offers`);
   assert.ok(schemaOffers.every(offer => offer.availability), `${comparison.id}: emitted Offer lacks availability`);
+  assert.ok(schemaOffers.every(offer => offer.availability !== 'https://schema.org/OutOfStock'), `${comparison.id}: out-of-stock Offer must be omitted`);
   const article = graph.find(node => node['@type'] === 'Article');
   assert.equal(article.datePublished, comparison.publishedAt);
   assert.equal(article.dateModified, comparison.updatedAt);
 }
+
+const k18Comparison = partnerComparisons.partnerComparisons.find(item => item.path === '/skonhet/olaplex-no3-plus-eller-k18');
+assert.ok(k18Comparison, 'Missing K18 comparison fixture');
+const k18Products = partnerComparisons.comparisonSchema(k18Comparison, now)['@graph'].filter(node => node['@type'] === 'Product');
+const k18Product = k18Products.find(node => node['@id'].endsWith('#k18-leave-in-50ml'));
+assert.ok(k18Product && !k18Product.offers, 'Verified out-of-stock K18 must not emit a structured Offer');
 
 const comparisonComponent = fs.readFileSync('components/PartnerComparisonPage.tsx', 'utf8');
 const answerPosition = comparisonComponent.indexOf('data-first-answer');

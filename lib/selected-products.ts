@@ -56,6 +56,7 @@ export function selectedProductSchema(product: SelectedProduct, now = Date.now()
   const heading = product.heading ?? product.shortName;
   const offers = getMerchantOffers(product.id).filter(offer => offer.price && getVerifiedMerchantPrice(offer.price, now)
     && offer.availability && Number.isFinite(Date.parse(offer.availabilityCheckedAt)) && Date.parse(offer.availabilityCheckedAt) <= now
+    && offer.availability !== "https://schema.org/OutOfStock"
     && (!product.campaignEndsAt || Date.parse(product.campaignEndsAt) > now || Date.parse(offer.price.checkedAt) > Date.parse(product.campaignEndsAt)))
     .map(offer => ({ "@type": "Offer", url: offer.href, price: offer.price!.amount,
       priceCurrency: offer.price!.currency, availability: offer.availability,

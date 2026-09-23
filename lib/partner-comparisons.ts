@@ -36,6 +36,7 @@ export function comparisonSchema(page: PartnerComparison, now = Date.now()) {
     const product = getProductRecord(id)!;
     const offers = [product.offer, ...(product.additionalOffers ?? [])].filter(offer => offer.price && getVerifiedMerchantPrice(offer.price, now)
       && offer.availability && Number.isFinite(Date.parse(offer.availabilityCheckedAt)) && Date.parse(offer.availabilityCheckedAt) <= now
+      && offer.availability !== "https://schema.org/OutOfStock"
       && (!product.campaignEndsAt || Date.parse(product.campaignEndsAt) > now || Date.parse(offer.price.checkedAt) > Date.parse(product.campaignEndsAt)))
       .map(offer => ({ "@type": "Offer", url: offer.href, price: offer.price!.amount, priceCurrency: offer.price!.currency,
         availability: offer.availability,
