@@ -26,8 +26,8 @@ const offers = load('lib/merchant-offers.ts', name => {
   if (name === '@/lib/merchant-price') return pricing;
   return loadAlias(name);
 });
-assert.equal(offers.k18NordicfeelOffer.price.amount, 799);
-assert.equal(offers.k18NordicfeelOffer.price.checkedAt, '2026-09-14T11:58:26+02:00');
+assert.equal(offers.k18NordicfeelOffer.price.amount, 639.2);
+assert.equal(offers.k18NordicfeelOffer.price.checkedAt, '2026-09-23T15:21:57+02:00');
 assert.equal(offers.koboKjellOffer.price.amount, 1899);
 assert.equal(offers.koboKjellOffer.price.currency, 'SEK');
 assert.match(offers.koboKjellOffer.price.source, /kjell\.com\/se\/produkter\//);
@@ -57,4 +57,25 @@ assert.ok(updatedHtml.includes(updated.checkedAt));
 assert.ok(!updatedHtml.includes(price.checkedAt));
 const invalidHtml = renderToStaticMarkup(component.MerchantPrice({ price: { ...price, amount: -1 } }));
 assert.match(invalidHtml, /Se aktuellt pris hos butiken/);
-console.log('PASS: price survives 1/7/8/30/365 days, invalid/future data rejected, server HTML includes price and date without JavaScript, verified update replaces snapshot.');
+const availability = load('lib/merchant-offer-availability.ts');
+const status = load('components/MerchantOfferStatus.tsx', name => {
+  if (name === '@/components/MerchantPrice') return component;
+  if (name === '@/lib/merchant-offer-availability') return availability;
+  return name === '@/lib/merchant-offers' ? {} : require(name);
+});
+const outOfStockHtml = renderToStaticMarkup(status.MerchantOfferStatus({
+  offer: offers.k18NordicfeelOffer,
+  now: Date.parse('2026-09-23T15:22:00+02:00'),
+}));
+const outOfStockPresentation = availability.getMerchantOfferPresentation(
+  offers.k18NordicfeelOffer,
+  Date.parse('2026-09-23T15:22:00+02:00'),
+);
+assert.match(outOfStockHtml, /Slut i lager hos NordicFeel vid vår kontroll 23 september 2026/);
+assert.doesNotMatch(outOfStockHtml, /639|799|Senast kontrollerat pris|Se pris hos/);
+assert.equal(outOfStockPresentation.ctaLabel, 'Se om den är tillbaka hos NordicFeel');
+assert.doesNotMatch(outOfStockPresentation.ctaLabel, /^Se pris hos/);
+for (const file of ['components/PartnerOfferCards.tsx', 'components/MerchantOfferCard.tsx', 'components/SelectedProductPage.tsx', 'components/HomeProductCard.tsx']) {
+  assert.match(fs.readFileSync(file, 'utf8'), /getMerchantOfferPresentation|MerchantOfferStatus/, `${file}: missing data-driven out-of-stock rendering`);
+}
+console.log('PASS: price retention, validation and updates work; verified out-of-stock offers hide price copy and render the dated stock state and return-check CTA.');

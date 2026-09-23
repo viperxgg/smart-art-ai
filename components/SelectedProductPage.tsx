@@ -3,10 +3,11 @@ import Image from "next/image";
 import type { ReactNode } from "react";
 import { ArrowRight, ArrowUpRight, Check, CircleHelp } from "lucide-react";
 import { JsonLd } from "@/components/JsonLd";
-import { MerchantPrice } from "@/components/MerchantPrice";
+import { MerchantOfferStatus } from "@/components/MerchantOfferStatus";
 import { SelectedProductGallery } from "@/components/SelectedProductGallery";
 import { PartnerOfferCards } from "@/components/PartnerOfferCards";
 import { getAmazonOffer } from "@/lib/amazon-offers";
+import { getMerchantOfferPresentation } from "@/lib/merchant-offer-availability";
 import { getMerchantOffer, getMerchantOffers } from "@/lib/merchant-offers";
 import { getSelectedOfferState, selectedProductSchema, type SelectedProduct } from "@/lib/selected-products";
 
@@ -18,6 +19,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
   const directLink = offer.linkKind === "direct";
   const merchants = getMerchantOffers(product.id).filter(item => item.linkKind !== "direct").map(item => item.merchantName).join(" och ");
   const { now, campaignActive } = getSelectedOfferState(product);
+  const offerPresentation = getMerchantOfferPresentation(offer, now);
   return <main id="content" tabIndex={-1} className="bg-bg text-ink">
     <JsonLd data={selectedProductSchema(product, now)} />
     <article className="mx-auto max-w-6xl px-5 pb-16 pt-7 md:px-8 md:pt-10" data-selected-product={product.id}>
@@ -88,10 +90,10 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
           {product.targetQuery ? <PartnerOfferCards productIds={[product.id]} now={now} /> : <>
           <h3 className="mt-6 text-lg font-bold">{offer.merchantName}</h3>
           <p className="mt-2 text-xs leading-relaxed text-ink-soft">{offer.variant} · Artikel {product.merchantItemId}</p>
-          {offer.price ? <MerchantPrice price={offer.price} /> : null}
-          {offer.priceNote ? <p className="mt-3 text-xs leading-relaxed text-ink-soft">{offer.priceNote}</p> : null}
-          {product.campaignEndsAt && campaignActive ? <p className="mt-3 text-xs leading-relaxed text-ink-soft">Kontrollerad kampanj till och med {new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(product.campaignEndsAt))}. Priset kan ändras.</p> : null}
-          <a href={offer.href} rel={directLink ? "nofollow noopener" : "sponsored nofollow noopener"} data-merchant={offer.merchantId} data-product={offer.productSlug} data-placement="selected-product-offer" className={`${buttonClass} mt-5 w-full`}>Se pris hos {offer.merchantName}<ArrowUpRight size={18} aria-hidden="true" /></a>
+          <MerchantOfferStatus offer={offer} now={now} />
+          {!offerPresentation.outOfStock && offer.priceNote ? <p className="mt-3 text-xs leading-relaxed text-ink-soft">{offer.priceNote}</p> : null}
+          {!offerPresentation.outOfStock && product.campaignEndsAt && campaignActive ? <p className="mt-3 text-xs leading-relaxed text-ink-soft">Kontrollerad kampanj till och med {new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(product.campaignEndsAt))}. Priset kan ändras.</p> : null}
+          <a href={offer.href} rel={directLink ? "nofollow noopener" : "sponsored nofollow noopener"} data-merchant={offer.merchantId} data-product={offer.productSlug} data-placement="selected-product-offer" className={`${buttonClass} mt-5 w-full`}>{offerPresentation.ctaLabel}<ArrowUpRight size={18} aria-hidden="true" /></a>
           <p className="mt-2 text-xs text-ink-soft">{directLink ? "Butikslänk" : `Annons / Reklam för ${offer.merchantName}`}</p>
           {amazon ? <div className="mt-6 border-t border-line pt-6" data-amazon-offer={amazon.asin}>
             <h3 className="text-lg font-bold">Amazon.se</h3>

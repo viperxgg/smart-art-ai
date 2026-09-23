@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { JsonLd } from "@/components/JsonLd";
-import { MerchantPrice } from "@/components/MerchantPrice";
+import { MerchantOfferStatus } from "@/components/MerchantOfferStatus";
 import { createSeoMetadata } from "@/lib/metadata";
 import { getMerchantOffer } from "@/lib/merchant-offers";
 import { selectedProducts } from "@/lib/selected-products";
@@ -70,7 +70,7 @@ export default function ProductsPage() {
               <h3 className="mt-2 font-display text-2xl font-bold leading-tight"><Link href={product.path}>{product.shortName}</Link></h3>
               <p className="mt-3 text-xs leading-relaxed text-ink-soft">{product.variant}</p>
               <p className="mb-4 mt-4 text-sm leading-relaxed">{product.targetQuery ?? product.question}</p>
-              <div className="mt-auto"><p className="text-sm font-bold">{offer.merchantName}</p>{offer.price ? <MerchantPrice price={offer.price} /> : null}
+              <div className="mt-auto"><p className="text-sm font-bold">{offer.merchantName}</p><MerchantOfferStatus offer={offer} />
                 <Link href={product.path} className="mt-4 inline-flex min-h-12 items-center gap-2 font-bold text-wine underline underline-offset-4">Läs guiden och se butiker<ArrowRight size={18} aria-hidden="true" /></Link>
                 <p className="mt-2 text-xs leading-relaxed text-ink-soft">{image.credit}</p>
               </div>
