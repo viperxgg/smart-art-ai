@@ -1,3 +1,4 @@
+// Content refresh 2026-09-29: reviewed merchant paths and source link attributes.
 import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
 import {
   ceraveEllerCetaphilComparisonRows,

@@ -38,6 +38,7 @@ type AmazonClickDetails = {
   pageTitle: string;
   destinationUrl: string;
   linkText?: string;
+  placement?: "legacy-cta";
 };
 
 /**
@@ -52,6 +53,7 @@ export function trackAmazonClick(details: AmazonClickDetails): void {
     page_path: details.pagePath,
     page_title: details.pageTitle,
     destination_url: details.destinationUrl,
+    ...(details.placement ? { placement: details.placement } : {}),
     ...(details.linkText ? { link_text: details.linkText } : {}),
   });
 }

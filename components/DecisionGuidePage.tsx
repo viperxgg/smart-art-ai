@@ -1,3 +1,5 @@
+import { LegacyMerchantPath } from "@/components/LegacyMerchantPath";
+import { legacyMerchantPaths } from "@/lib/legacy-merchant-paths";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
@@ -42,7 +44,7 @@ export function DecisionGuidePage({ guide, beforeDecision, afterDecision, mercha
           <a href="#decision-title" className="mt-3 inline-flex min-h-11 items-center rounded-full border border-line px-4 font-semibold text-wine underline underline-offset-4">Gå till beslutshjälpen</a>
         </header>
         {beforeDecision}
-        <DecisionCard decision={guide.decision} />
+        <DecisionCard decision={guide.decision} markBrandSources={legacyMerchantPaths.has(guide.path)} merchantActions={legacyMerchantPaths.has(guide.path) ? <LegacyMerchantPath options={guide.decision.options} productPaths={guide.productPaths} /> : undefined} />
         {afterDecision}
         <EditorialMeta path={guide.path} hideDate hideDisclosure className="mt-5" />
         <section className="mt-10" aria-labelledby="guide-questions">

@@ -1,3 +1,4 @@
+// Content refresh 2026-09-29: reviewed merchant paths and source link attributes.
 // 2026-09-22: Add contextual links to the source-led partner decisions.
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";
 import { WebPageJsonLd } from "@/components/WebPageJsonLd";

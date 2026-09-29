@@ -41,6 +41,7 @@ export function AmazonClickTracker() {
       trackAmazonClick({
         pagePath: window.location.pathname,
         pageTitle: document.title,
+        ...(link.dataset.placement === "legacy-cta" ? { placement: "legacy-cta" as const } : {}),
         destinationUrl: link.href,
         linkText: link.textContent?.trim().slice(0, 120) || undefined,
       });

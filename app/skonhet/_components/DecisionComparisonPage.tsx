@@ -1,3 +1,5 @@
+import { LegacyMerchantPath } from "@/components/LegacyMerchantPath";
+import { legacyMerchantPaths } from "@/lib/legacy-merchant-paths";
 import { DecisionCard } from "@/components/DecisionCard";
 import { validateDecisionRecord, type DecisionRecord } from "@/lib/decision-record";
 import Link from "next/link";
@@ -163,7 +165,7 @@ export function DecisionComparisonPage({
           {decision ? <Link href="#decision-title" className="mt-2 inline-flex min-h-11 items-center font-bold text-wine underline underline-offset-4">Gå till beslutshjälpen</Link> : null}
         </section>
 
-        {decision ? <DecisionCard decision={decision} /> : null}
+        {decision ? <DecisionCard decision={decision} markBrandSources={legacyMerchantPaths.has(pagePath)} merchantActions={legacyMerchantPaths.has(pagePath) ? <LegacyMerchantPath options={decision.options} productPaths={picks.map(pick => pick.path)} /> : undefined} /> : null}
         <EditorialMeta path={pagePath} hideDate={Boolean(decision)} hideDisclosure className="mt-4" />
 
         <section className="reveal-fade mt-10 rounded-[2rem] border border-line bg-surface/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">

@@ -1,3 +1,4 @@
+import { MerchantAction } from "@/components/MerchantAction";
 import { MerchantOfferStatus } from "@/components/MerchantOfferStatus";
 import { getMerchantOfferPresentation } from "@/lib/merchant-offer-availability";
 import { getMerchantOffers } from "@/lib/merchant-offers";
@@ -16,8 +17,7 @@ export function PartnerOfferCards({ productIds, now }: { productIds: readonly st
         {!presentation.outOfStock && record.memberPrice && offer.merchantId === record.offer.merchantId && Date.parse(record.memberPrice.endsAt) > now ? <p className="mt-3 text-sm font-semibold text-wine">{record.memberPrice.label}: {record.memberPrice.amount.toLocaleString("sv-SE")} kr. Kräver medlemskap; gäller till och med {record.memberPrice.endsAt.slice(0, 10)}.</p> : null}
         {!presentation.outOfStock && offer.priceNote && (!record.campaignEndsAt || Date.parse(record.campaignEndsAt) > now) ? <p className="mt-3 text-xs leading-relaxed">{offer.priceNote}</p> : null}
         {!presentation.outOfStock && record.campaignEndsAt && Date.parse(record.campaignEndsAt) <= now ? <p className="mt-3 text-xs leading-relaxed">Det daterade priset kontrollerades under en avslutad kampanj. Kontrollera dagens pris hos butiken.</p> : null}
-        <a className="mt-5 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-wine px-4 py-3 text-center font-bold text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-wine" href={offer.href} rel={offer.linkKind === "direct" ? "nofollow noopener" : "sponsored nofollow noopener"} data-merchant={offer.merchantId} data-product={id} data-placement="selected-product-offer">{presentation.ctaLabel}</a>
-        <p className="mt-2 text-xs text-ink-soft">{offer.linkKind === "direct" ? "Butikslänk" : `Annons / Reklam för ${offer.merchantName}`}</p>
+        <MerchantAction href={offer.href} merchant={offer.merchantId} product={id} placement="selected-product-offer" label={presentation.ctaLabel} direct={offer.linkKind === "direct"} disclosure={offer.linkKind === "direct" ? "Butikslänk" : `Annons / Reklam för ${offer.merchantName}`} />
       </section>;
       });
     })}

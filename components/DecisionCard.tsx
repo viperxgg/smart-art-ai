@@ -1,11 +1,14 @@
+import type { ReactNode } from "react";
+import { isBrandProductSource } from "@/lib/legacy-merchant-paths";
 import type { DecisionRecord } from "@/lib/decision-record";
 import { DecisionProductImage } from "@/components/DecisionProductImage";
 
-export function DecisionCard({ decision }: { decision: DecisionRecord }) {
+export function DecisionCard({ decision, merchantActions, markBrandSources = false }: { decision: DecisionRecord; merchantActions?: ReactNode; markBrandSources?: boolean }) {
   return (
     <section aria-labelledby="decision-title" data-decision-card className="mt-8 rounded-2xl border border-line bg-surface p-5 md:p-8">
       <h2 id="decision-title" tabIndex={-1} className="scroll-mt-28 font-display text-2xl font-bold sm:text-3xl">Ditt beslut i korthet</h2>
       <p className="mt-3 text-sm text-ink-soft">Redaktionell vägledning · Källkontroll <time dateTime={decision.reviewedAt}>{decision.reviewedAt}</time></p>
+      {merchantActions}
       <div className={`mt-6 grid gap-6 ${decision.options.length > 1 ? "md:grid-cols-2" : ""}`}>
         {decision.options.map((option) => (
           <article key={option.productSlug} className="rounded-xl border border-line p-5">
@@ -36,7 +39,7 @@ export function DecisionCard({ decision }: { decision: DecisionRecord }) {
       <ol className="mt-3 space-y-4 text-sm leading-relaxed">
         {decision.sources.map((source) => (
           <li id={`decision-source-${source.id}`} key={source.id} className="scroll-mt-28">
-            <a href={source.url} className="font-bold text-wine underline underline-offset-4">{source.id}: {source.title}</a>
+            <a href={source.url} rel={markBrandSources && isBrandProductSource(source.url) ? "nofollow noopener" : undefined} className="font-bold text-wine underline underline-offset-4">{source.id}: {source.title}</a>
             <p>{source.status === "unavailable" ? "Källan kunde inte läsas. " : ""}{source.supports} {source.status === "unavailable" ? "Kontrollförsök" : "Kontrollerad"} {source.checkedAt}.</p>
           </li>
         ))}
