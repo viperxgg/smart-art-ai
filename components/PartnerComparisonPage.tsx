@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { JsonLd } from "@/components/JsonLd";
+import { EditorialByline } from "@/components/EditorialByline";
 import { PartnerOfferCards } from "@/components/PartnerOfferCards";
 import { comparisonSchema, comparisonRenderTime, type PartnerComparison } from "@/lib/partner-comparisons";
 import { getProductRecord } from "@/lib/selected-product-records";
@@ -20,7 +21,8 @@ export function PartnerComparisonPage({ page }: { page: PartnerComparison }) {
         <h1 className="mt-4 font-display text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">{page.title}</h1>
         <p className="mt-5 text-base leading-relaxed text-ink-soft" data-first-answer>{page.answer}</p>
         <a href="#butiker" className="mt-6 inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-wine px-6 py-3 text-center font-bold text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-wine">Se pris och butik <ArrowRight size={18} aria-hidden="true" /></a>
-        <p className="mt-4 text-xs text-ink-soft">Fakta granskade <time dateTime={page.updatedAt}>{new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(`${page.updatedAt}T12:00:00Z`))}</time> · Källbaserad jämförelse, inte ett eget produkttest.</p>
+        <EditorialByline reviewedAt={page.updatedAt} className="mt-4" />
+        <p className="mt-1 text-xs text-ink-soft">Källbaserad jämförelse, inte ett eget produkttest.</p>
       </header>
       <div className="mt-8 grid gap-5 sm:grid-cols-2">{products.map((product, index) => <figure key={product.id} className="rounded-2xl border border-line bg-white p-5">
         <Image src={product.image.src} alt={product.image.alt} width={product.image.width} height={product.image.height} sizes="(max-width: 640px) 80vw, 420px" className="h-64 w-full object-contain" />
@@ -37,7 +39,7 @@ export function PartnerComparisonPage({ page }: { page: PartnerComparison }) {
       </section>
       {page.visual ? <figure className="mt-10"><Image src={page.visual.infographic} width={1200} height={630} alt={`Beslutsöversikt: ${page.title}`} className="h-auto w-full rounded-2xl" /></figure> : null}
       <section id="butiker" className="mt-12 scroll-mt-28"><h2 className="font-display text-2xl font-bold">Jämför daterade priser och butiker</h2><p className="mt-3 text-sm text-ink-soft">Kontrollera variant, frakt och villkor hos butiken. Vi väljer inte rekommendation efter ersättning.</p><PartnerOfferCards productIds={page.productIds} now={now} /></section>
-      <section id="kallor" className="mt-12 rounded-2xl border border-line p-6"><h2 className="font-display text-2xl font-bold">Källor och begränsningar</h2><p className="mt-4 text-sm leading-relaxed">Rekommendationerna är redaktionella bedömningar utifrån källorna, inte egna mätningar. Bilderna visar produkterna, inte en testad användning.</p><ul className="mt-5 space-y-5">{page.sources.map(source => <li key={source.url} className="text-sm"><a href={source.url} className="inline-flex min-h-11 items-center font-bold text-wine underline">{source.label}</a><p>{source.supports}</p><p className="mt-2 text-xs text-ink-soft">Hämtad {source.checkedAt}</p></li>)}</ul></section>
+      <section id="kallor" className="mt-12 rounded-2xl border border-line p-6"><h2 className="font-display text-2xl font-bold">Källor och begränsningar</h2><p className="mt-4 text-sm leading-relaxed">Rekommendationerna är redaktionella bedömningar utifrån källorna, inte egna mätningar. Bilderna visar produkterna, inte en testad användning.</p><ul className="mt-5 space-y-5">{page.sources.map(source => <li key={source.url} className="text-sm"><a href={source.url} className="inline-flex min-h-11 items-center font-bold text-wine underline">{source.label}</a><p>{source.supports}</p><p className="mt-2 text-xs text-ink-soft">Hämtad {source.checkedAt}</p></li>)}</ul><Link href="/sa-gor-vi" className="mt-4 inline-flex min-h-11 items-center font-semibold text-wine underline underline-offset-4">Så gör vi våra guider</Link></section>
       {page.visual?.context ? <figure className="mt-12 max-w-3xl"><Image src={page.visual.context} width={1200} height={800} alt="Illustrerad miljö utan produkt" className="h-auto w-full rounded-2xl" /><figcaption className="mt-2 text-xs">Illustration</figcaption></figure> : null}
       <nav aria-label="Läs vidare" className="mt-8 flex flex-wrap gap-5">{page.related.map(([title, href]) => <Link key={href} href={href} className="inline-flex min-h-11 items-center font-bold text-wine underline">{title}</Link>)}</nav>
     </article>

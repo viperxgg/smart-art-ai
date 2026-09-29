@@ -68,12 +68,14 @@ export type CanonicalProductRecord = {
   hubGroup?: HubGroup;
   additionalOffers?: (CanonicalOffer & { merchantItemId: string })[];
   targetQuery?: string;
+  secondaryQuery?: string;
   hypothesis?: string;
   decisionSections?: { question: string; answer: string; sourceUrls: string[] }[];
   visual?: { hero: string; infographic: string; context?: string };
   merchantItemId?: string;
   gtin?: string;
   updatedAt?: string;
+  changes?: { date: string; note: string }[];
   publishedAt?: string;
   path?: string;
   heading?: string;

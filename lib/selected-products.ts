@@ -67,21 +67,29 @@ export function selectedProductSchema(product: SelectedProduct, now = Date.now()
   return {
     "@context": "https://schema.org",
     "@graph": [
-      {
+      ...(product.decisionSections?.length ? [{
+        "@type": "FAQPage", "@id": `${url}#faq`,
+        mainEntity: product.decisionSections.map(section => ({
+          "@type": "Question", name: section.question,
+          acceptedAnswer: { "@type": "Answer", text: section.answer },
+        })),
+      }] : []),
+      ...(offers.length ? [{
         "@type": "Product", "@id": `${url}#product`, url,
         name: product.name, description: product.answer,
         brand: { "@type": "Brand", name: product.brand },
         ...(product.gtin ? { gtin13: product.gtin } : {}),
         image: product.images.map(image => `${siteConfig.url}${image.src}`),
-        ...(offers.length ? { offers: offers.length === 1 ? offers[0] : offers } : {}),
-      },
+        offers: offers.length === 1 ? offers[0] : offers,
+      }] : []),
       {
         "@type": "Article", "@id": `${url}#article`, headline: heading,
         mainEntityOfPage: url, inLanguage: "sv-SE", datePublished: product.publishedAt,
         dateModified: product.updatedAt,
-        description: product.description, about: { "@id": `${url}#product` },
+        description: product.description,
+        ...(offers.length ? { about: { "@id": `${url}#product` } } : {}),
         image: `${siteConfig.url}${product.images[0].src}`,
-        author: { "@id": `${siteConfig.url}/#organization` },
+        author: { "@id": `${siteConfig.url}/om-oss#azzam` },
         publisher: { "@id": `${siteConfig.url}/#organization` },
         citation: product.sources.map(source => source.url),
       },

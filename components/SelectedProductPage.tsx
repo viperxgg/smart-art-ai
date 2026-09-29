@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { ReactNode } from "react";
 import { ArrowRight, ArrowUpRight, Check, CircleHelp } from "lucide-react";
 import { JsonLd } from "@/components/JsonLd";
+import { EditorialByline } from "@/components/EditorialByline";
 import { MerchantOfferStatus } from "@/components/MerchantOfferStatus";
 import { SelectedProductGallery } from "@/components/SelectedProductGallery";
 import { PartnerOfferCards } from "@/components/PartnerOfferCards";
@@ -10,6 +11,7 @@ import { getAmazonOffer } from "@/lib/amazon-offers";
 import { getMerchantOfferPresentation } from "@/lib/merchant-offer-availability";
 import { getMerchantOffer, getMerchantOffers } from "@/lib/merchant-offers";
 import { getSelectedOfferState, selectedProductSchema, type SelectedProduct } from "@/lib/selected-products";
+import { getProductTradeoffs } from "@/lib/selected-product-tradeoffs";
 
 const buttonClass = "inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-wine px-6 py-3 text-center font-bold text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-wine";
 
@@ -20,6 +22,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
   const merchants = getMerchantOffers(product.id).filter(item => item.linkKind !== "direct").map(item => item.merchantName).join(" och ");
   const { now, campaignActive } = getSelectedOfferState(product);
   const offerPresentation = getMerchantOfferPresentation(offer, now);
+  const tradeoffs = getProductTradeoffs(product);
   return <main id="content" tabIndex={-1} className="bg-bg text-ink">
     <JsonLd data={selectedProductSchema(product, now)} />
     <article className="mx-auto max-w-6xl px-5 pb-16 pt-7 md:px-8 md:pt-10" data-selected-product={product.id}>
@@ -40,7 +43,8 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
         <div className="md:col-start-2 md:row-start-2">
           {!product.targetQuery ? <><h2 className="text-xl font-bold leading-snug">{product.question}</h2><p className="mt-3 text-base leading-relaxed text-ink-soft">{product.answer}</p></> : <p className="text-sm text-ink-soft">{product.variant}</p>}
           <a href="#butiker" className={`${buttonClass} mt-6`}>Se pris och butik <ArrowRight size={18} aria-hidden="true" /></a>
-          <p className="mt-4 text-xs text-ink-soft">Fakta granskade <time dateTime={product.updatedAt}>{new Intl.DateTimeFormat("sv-SE", { dateStyle: "long", timeZone: "Europe/Stockholm" }).format(new Date(`${product.updatedAt}T12:00:00Z`))}</time> · <Link href="#kallor" className="underline underline-offset-4">Källor och metod</Link></p>
+          <EditorialByline reviewedAt={product.updatedAt} changes={product.changes} className="mt-4" />
+          <Link href="#kallor" className="inline-flex min-h-11 items-center text-xs text-ink-soft underline underline-offset-4">Källor och metod</Link>
         </div>
         <div className="min-w-0 md:col-start-1 md:row-span-2 md:row-start-1"><SelectedProductGallery images={product.images} name={product.shortName} /></div>
       </div>
@@ -55,6 +59,16 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
           <p className="mt-4 text-sm leading-relaxed text-ink-soft">{product.skip}</p>
         </section>
       </div>
+      {tradeoffs.advantages.length || tradeoffs.limitations.length ? <div className="mt-6 grid gap-5 md:grid-cols-2" data-product-tradeoffs>
+        {tradeoffs.advantages.length ? <section aria-labelledby="fordelar" className="rounded-2xl border border-line bg-surface p-6">
+          <h2 id="fordelar" className="font-display text-2xl font-bold">Fördelar</h2>
+          <ul className="mt-4 list-disc space-y-3 pl-5 text-sm leading-relaxed">{tradeoffs.advantages.map(item => <li key={item}>{item}</li>)}</ul>
+        </section> : null}
+        {tradeoffs.limitations.length ? <section aria-labelledby="nackdelar" className="rounded-2xl border border-line p-6">
+          <h2 id="nackdelar" className="font-display text-2xl font-bold">Nackdelar</h2>
+          <ul className="mt-4 list-disc space-y-3 pl-5 text-sm leading-relaxed">{tradeoffs.limitations.map(item => <li key={item}>{item}</li>)}</ul>
+        </section> : null}
+      </div> : null}
       {product.decisionSections?.map(section => <section key={section.question} className="mt-10 max-w-3xl">
         <h2 className="font-display text-2xl font-bold">{section.question}</h2>
         <p className="mt-4 leading-relaxed text-ink-soft">{section.answer}</p>
@@ -121,7 +135,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
           <p className="text-ink-soft">{source.supports}</p>
           {source.checkedAt ? <p className="text-xs text-ink-soft">Hämtad <time dateTime={source.checkedAt}>{source.checkedAt.slice(0, 10)}</time></p> : null}
         </li>)}</ul>
-        <Link href="/om-oss" className="mt-4 inline-flex min-h-11 items-center font-semibold text-wine underline underline-offset-4">Om Elins val och vår metod</Link>
+        <Link href="/sa-gor-vi" className="mt-4 inline-flex min-h-11 items-center font-semibold text-wine underline underline-offset-4">Så gör vi våra guider</Link>
       </section>
       <nav aria-label="Läs vidare" className="mt-10 flex flex-wrap gap-x-6 gap-y-3">
         {product.related.map(([title, href]) => <Link key={href} href={href} className="inline-flex min-h-11 items-center gap-2 text-sm font-bold text-wine underline underline-offset-4">{title}<ArrowRight size={16} aria-hidden="true" /></Link>)}

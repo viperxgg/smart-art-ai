@@ -172,9 +172,12 @@ for (const product of selected.selectedProducts) {
   const graph = selected.selectedProductSchema(product, now)['@graph'];
   const entity = graph.find((node) => node['@type'] === 'Product');
   const offer = merchants.getMerchantOffer(product.id);
-  const schemaOffers = entity.offers ? (Array.isArray(entity.offers) ? entity.offers : [entity.offers]) : [];
-  const actualOffers = merchants.getMerchantOffers(product.id).filter(item => item.availability && item.availability !== 'https://schema.org/OutOfStock' && Date.parse(item.availabilityCheckedAt) <= now);
+  const schemaOffers = entity?.offers ? (Array.isArray(entity.offers) ? entity.offers : [entity.offers]) : [];
+  const actualOffers = merchants.getMerchantOffers(product.id).filter(item => item.price && price.getVerifiedMerchantPrice(item.price, now)
+    && item.availability && item.availability !== 'https://schema.org/OutOfStock' && Date.parse(item.availabilityCheckedAt) <= now
+    && (!product.campaignEndsAt || Date.parse(product.campaignEndsAt) > now || Date.parse(item.price.checkedAt) > Date.parse(product.campaignEndsAt)));
   assert.equal(schemaOffers.length, actualOffers.length);
+  assert.equal(Boolean(entity), actualOffers.length > 0, `${product.id}: Product requires an eligible verified Offer`);
   actualOffers.forEach((item, index) => {
     assert.equal(schemaOffers[index].price, item.price.amount);
     assert.equal(schemaOffers[index].seller.name, item.merchantName);
@@ -184,15 +187,23 @@ for (const product of selected.selectedProducts) {
   const article = graph.find((node) => node['@type'] === 'Article');
   assert.equal(article.datePublished, product.publishedAt);
   assert.equal(article.dateModified, product.updatedAt);
-  assert.ok(!('review' in entity) && !('aggregateRating' in entity));
+  assert.equal(article.author['@id'], 'https://www.smartartai.se/om-oss#azzam');
+  assert.equal(article.publisher['@id'], 'https://www.smartartai.se/#organization');
+  assert.ok(graph.some(node => node['@type'] === 'BreadcrumbList'));
+  if (entity) {
+    assert.equal(article.about['@id'], entity['@id']);
+    assert.ok(!('review' in entity) && !('aggregateRating' in entity));
+  } else {
+    assert.equal(article.about, undefined, 'Article must not reference an omitted Product');
+  }
   assert.ok(!JSON.stringify(graph).includes('amazon.se'), 'No unsupported numeric Amazon offer');
   assert.ok(price.getVerifiedMerchantPrice(offer.price, Date.parse('2026-10-14T12:00:00+02:00')), 'Weekly deadline must not hide the dated price');
   if (product.campaignEndsAt) {
     const end = Date.parse(product.campaignEndsAt);
-    assert.equal(selected.hasCurrentStructuredPrice(product, end - 1), true);
+    assert.equal(selected.hasCurrentStructuredPrice(product, end - 1), Date.parse(offer.price.checkedAt) < end);
     assert.equal(selected.hasCurrentStructuredPrice(product, end), false);
     assert.equal(selected.getSelectedOfferState(product, end).campaignActive, false);
-    assert.ok(!selected.selectedProductSchema(product, end)['@graph'][0].offers);
+    assert.ok(!selected.selectedProductSchema(product, end)['@graph'].some(node => node['@type'] === 'Product'), 'An ended, unverified campaign must not leave a bare Product');
   }
 }
 
@@ -200,30 +211,34 @@ for (const comparison of partnerComparisons.partnerComparisons) {
   assert.ok(Date.parse(comparison.publishedAt), `${comparison.id}: missing verified publication date`);
   const graph = partnerComparisons.comparisonSchema(comparison, now)['@graph'];
   const schemaOffers = graph.filter(node => node['@type'] === 'Product').flatMap(node => node.offers || []);
+  const productNodes = graph.filter(node => node['@type'] === 'Product');
+  assert.ok(productNodes.every(node => node.offers?.length), `${comparison.id}: no bare Product nodes`);
   assert.ok(schemaOffers.length > 0, `${comparison.id}: expected verified offers`);
   assert.ok(schemaOffers.every(offer => offer.availability), `${comparison.id}: emitted Offer lacks availability`);
   assert.ok(schemaOffers.every(offer => offer.availability !== 'https://schema.org/OutOfStock'), `${comparison.id}: out-of-stock Offer must be omitted`);
   const article = graph.find(node => node['@type'] === 'Article');
   assert.equal(article.datePublished, comparison.publishedAt);
   assert.equal(article.dateModified, comparison.updatedAt);
+  assert.equal(article.author['@id'], 'https://www.smartartai.se/om-oss#azzam');
+  assert.ok((article.about || []).every(reference => productNodes.some(node => node['@id'] === reference['@id'])), 'Comparison must not reference an omitted Product');
 }
 
 const k18Comparison = partnerComparisons.partnerComparisons.find(item => item.path === '/skonhet/olaplex-no3-plus-eller-k18');
 assert.ok(k18Comparison, 'Missing K18 comparison fixture');
 const k18Products = partnerComparisons.comparisonSchema(k18Comparison, now)['@graph'].filter(node => node['@type'] === 'Product');
 const k18Product = k18Products.find(node => node['@id'].endsWith('#k18-leave-in-50ml'));
-assert.ok(k18Product && !k18Product.offers, 'Verified out-of-stock K18 must not emit a structured Offer');
+assert.equal(k18Product, undefined, 'Verified out-of-stock K18 must not emit a bare Product or structured Offer');
 
 const comparisonComponent = fs.readFileSync('components/PartnerComparisonPage.tsx', 'utf8');
 const answerPosition = comparisonComponent.indexOf('data-first-answer');
 const ctaPosition = comparisonComponent.indexOf('href="#butiker"');
-const reviewedPosition = comparisonComponent.indexOf('Fakta granskade');
+const reviewedPosition = comparisonComponent.indexOf('<EditorialByline reviewedAt={page.updatedAt}');
 assert.ok(answerPosition >= 0 && ctaPosition > answerPosition && reviewedPosition > ctaPosition,
   'Comparison first viewport must order answer, Se pris och butik CTA, then review date');
 assert.ok(comparisonComponent.includes('section id="butiker"'), 'Comparison merchant section needs a stable butiker anchor');
 
 const tapo = selected.getSelectedProduct('tapo-c520ws-single');
-assert.equal(selected.selectedProductSchema(tapo, now)['@graph'][0].offers.price, 689, 'Use the newly verified unlabelled purchase price');
+assert.equal(selected.selectedProductSchema(tapo, now)['@graph'].find(node => node['@type'] === 'Product').offers.price, 689, 'Use the newly verified unlabelled purchase price');
 assert.equal('memberPrice' in tapo, false, 'Ended membership offer must be removed from public product data');
 assert.equal(amazon.getAmazonOffer('beauty-of-joseon-propolis-serum').asin, 'B086VKZZZY');
 for (const id of ['anker-prime-300w-26250mah', 'linocell-wireless-carplay-q1m', 'ole-henriksen-pout-strawberry-12ml', 'lumene-cc-medium-30ml', 'amika-hydro-rush-leave-in-200ml', 'la-roche-posay-cicaplast-b5-100ml']) {
@@ -244,7 +259,7 @@ for (const [id, amount] of Object.entries(lykoPrices)) {
   assert.equal(url.searchParams.get('a'), '1117786221');
   assert.equal(url.searchParams.get('as'), '2110221551');
   assert.equal(url.searchParams.get('url'), offer.price.source, 'Tracking destination must match exact variant');
-  const schemaOffer = selected.selectedProductSchema(selected.getSelectedProduct(id), now)['@graph'][0].offers;
+  const schemaOffer = selected.selectedProductSchema(selected.getSelectedProduct(id), now)['@graph'].find(node => node['@type'] === 'Product')?.offers;
   if (offer.availability) assert.equal(schemaOffer.price, amount, 'Conditional combo price must not become a single-item offer');
   else assert.equal(schemaOffer, undefined, 'Offer without verified availability must be omitted');
 }

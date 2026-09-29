@@ -32,7 +32,7 @@ export function partnerComparisonMetadata(page: PartnerComparison) {
 }
 export function comparisonSchema(page: PartnerComparison, now = Date.now()) {
   const url = siteConfig.url + page.path;
-  const products = page.productIds.map((id, index) => {
+  const products = page.productIds.flatMap((id, index) => {
     const product = getProductRecord(id)!;
     const offers = [product.offer, ...(product.additionalOffers ?? [])].filter(offer => offer.price && getVerifiedMerchantPrice(offer.price, now)
       && offer.availability && Number.isFinite(Date.parse(offer.availabilityCheckedAt)) && Date.parse(offer.availabilityCheckedAt) <= now
@@ -41,20 +41,30 @@ export function comparisonSchema(page: PartnerComparison, now = Date.now()) {
       .map(offer => ({ "@type": "Offer", url: offer.href, price: offer.price!.amount, priceCurrency: offer.price!.currency,
         availability: offer.availability,
         seller: { "@type": "Organization", name: offer.merchantName },
-        ...(product.campaignEndsAt ? { priceValidUntil: product.campaignEndsAt.slice(0, 10) } : {}),
+        ...(product.campaignEndsAt && Date.parse(offer.price!.checkedAt) <= Date.parse(product.campaignEndsAt)
+          ? { priceValidUntil: product.campaignEndsAt.slice(0, 10) } : {}),
       }));
-    return { "@type": "Product", "@id": `${url}#${id}`, name: product.name, description: product.variant,
+    if (!offers.length) return [];
+    return [{ "@type": "Product", "@id": `${url}#${id}`, name: product.name, description: product.variant,
       url: siteConfig.url + page.productPaths[index], image: siteConfig.url + product.image.src,
-      ...(product.gtin ? { gtin13: product.gtin } : {}), ...(offers.length ? { offers } : {}),
-    };
+      ...(product.gtin ? { gtin13: product.gtin } : {}), offers,
+    }];
   });
   return { "@context": "https://schema.org", "@graph": [
+    ...(page.sections.length ? [{
+      "@type": "FAQPage", "@id": `${url}#faq`,
+      mainEntity: page.sections.map(section => ({
+        "@type": "Question", name: section.question,
+        acceptedAnswer: { "@type": "Answer", text: section.answer },
+      })),
+    }] : []),
     ...products,
     { "@type": "Article", "@id": `${url}#article`, headline: page.title, description: page.description,
       mainEntityOfPage: url, datePublished: page.publishedAt, dateModified: page.updatedAt, inLanguage: "sv-SE",
-      image: page.visual ? siteConfig.url + page.visual.hero : products[0].image,
-      author: { "@id": `${siteConfig.url}/#organization` }, publisher: { "@id": `${siteConfig.url}/#organization` },
-      about: products.map(product => ({ "@id": product["@id"] })), citation: page.sources.map(source => source.url),
+      image: siteConfig.url + (page.visual?.hero ?? getProductRecord(page.productIds[0])!.image.src),
+      author: { "@id": `${siteConfig.url}/om-oss#azzam` }, publisher: { "@id": `${siteConfig.url}/#organization` },
+      ...(products.length ? { about: products.map(product => ({ "@id": product["@id"] })) } : {}),
+      citation: page.sources.map(source => source.url),
     },
     { "@type": "BreadcrumbList", itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hem", item: siteConfig.url },
