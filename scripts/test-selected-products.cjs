@@ -245,10 +245,10 @@ for (const id of ['anker-prime-300w-26250mah', 'linocell-wireless-carplay-q1m', 
   assert.equal(amazon.getAmazonOffer(id), undefined, 'Unconfirmed matching must not create a comparison');
 }
 const lykoPrices = {
-  'ole-henriksen-pout-strawberry-12ml': 198,
-  'lumene-cc-medium-30ml': 167,
-  'amika-hydro-rush-leave-in-200ml': 349,
-  'la-roche-posay-cicaplast-b5-100ml': 197,
+  'ole-henriksen-pout-strawberry-12ml': 158,
+  'lumene-cc-medium-30ml': 259,
+  'amika-hydro-rush-leave-in-200ml': 230,
+  'la-roche-posay-cicaplast-b5-100ml': 175,
   'wella-sp-luxeoil-100ml': 424,
 };
 for (const [id, amount] of Object.entries(lykoPrices)) {
@@ -260,8 +260,8 @@ for (const [id, amount] of Object.entries(lykoPrices)) {
   assert.equal(url.searchParams.get('as'), '2110221551');
   assert.equal(url.searchParams.get('url'), offer.price.source, 'Tracking destination must match exact variant');
   const schemaOffer = selected.selectedProductSchema(selected.getSelectedProduct(id), now)['@graph'].find(node => node['@type'] === 'Product')?.offers;
-  if (offer.availability) assert.equal(schemaOffer.price, amount, 'Conditional combo price must not become a single-item offer');
-  else assert.equal(schemaOffer, undefined, 'Offer without verified availability must be omitted');
+  if (offer.availability && offer.availability !== 'https://schema.org/OutOfStock') assert.equal(schemaOffer.price, amount, 'Conditional combo price must not become a single-item offer');
+  else assert.equal(schemaOffer, undefined, 'Offer without verified in-stock availability must be omitted');
 }
 assert.equal(amazon.getAmazonOffer('wella-sp-luxeoil-100ml').asin, 'B009ZVHWW4');
 const cicaplast = selected.getSelectedProduct('la-roche-posay-cicaplast-b5-100ml');

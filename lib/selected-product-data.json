@@ -538,16 +538,17 @@
       "merchantName": "NordicFeel",
       "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3-selected-3&url=www.nordicfeel.com/se/product/beauty-of-joseon-glow-serum-114284",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-14",
+      "checkedAt": "2026-09-29T15:06:44.383973+02:00",
       "price": {
-        "amount": 152,
+        "amount": 176.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-14T13:24:49+02:00",
+        "checkedAt": "2026-09-29T15:06:44.383973+02:00",
         "source": "https://www.nordicfeel.com/se/product/beauty-of-joseon-glow-serum-114284"
       },
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-14"
+      "availabilityCheckedAt": "2026-09-29T15:06:44.383973+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/beauty-of-joseon-propolis-serum/1.jpg",
@@ -825,16 +826,17 @@
       "merchantName": "NordicFeel",
       "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3-selected-5&url=www.nordicfeel.com/se/product/kerastase-gloss-absolu-192845",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-14",
+      "checkedAt": "2026-09-29T15:06:45.275501+02:00",
       "price": {
-        "amount": 509,
+        "amount": 509.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-14T13:24:47+02:00",
+        "checkedAt": "2026-09-29T15:06:45.275501+02:00",
         "source": "https://www.nordicfeel.com/se/product/kerastase-gloss-absolu-192845"
       },
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-14"
+      "availabilityCheckedAt": "2026-09-29T15:06:45.275501+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/kerastase-glaze-drops-45ml/1.jpg",
@@ -1110,16 +1112,17 @@
       "merchantName": "NordicFeel",
       "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3-selected-7&url=www.nordicfeel.com/se/product/cosrx-advanced-snail-96-mucin-power-essence-92950",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-14",
+      "checkedAt": "2026-09-29T15:06:45.979087+02:00",
       "price": {
-        "amount": 183,
+        "amount": 155.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-14T13:24:47+02:00",
+        "checkedAt": "2026-09-29T15:06:45.979087+02:00",
         "source": "https://www.nordicfeel.com/se/product/cosrx-advanced-snail-96-mucin-power-essence-92950"
       },
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-14"
+      "availabilityCheckedAt": "2026-09-29T15:06:45.979087+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/cosrx-snail-96-100ml/1.jpg",
@@ -1243,7 +1246,6 @@
         "/halsa/cmf-buds-2"
       ]
     ],
-    "campaignEndsAt": "2026-09-27T23:59:59+02:00",
     "selected": true,
     "hubGroup": "vardag",
     "offer": {
@@ -1251,17 +1253,17 @@
       "merchantName": "Kjell & Company",
       "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-8&url=www.kjell.com/se/produkter/mobilt/powerbank/anker-prime-powerbank-300-w-pd-3.1-26250-mah-p88933",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-22",
-      "priceNote": "Kampanjpris 1 990 kr (ordinarie 2 490 kr) till och med 27 september 2026 enligt Kjell. Butikens pris gäller vid köp.",
+      "checkedAt": "2026-09-29T15:06:46.720915+02:00",
       "price": {
-        "amount": 1990,
+        "amount": 2490.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T10:48:38+02:00",
+        "checkedAt": "2026-09-29T15:06:46.720915+02:00",
         "source": "https://www.kjell.com/se/produkter/mobilt/powerbank/anker-prime-powerbank-300-w-pd-3.1-26250-mah-p88933"
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22"
+      "availabilityCheckedAt": "2026-09-29T15:06:46.720915+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/anker-prime-300w-26250mah/1.webp",
@@ -1370,16 +1372,17 @@
       "merchantName": "NordicFeel",
       "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3-selected-9&url=www.nordicfeel.com/se/product/clinisoothe-skin-purifier-125103",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-14",
+      "checkedAt": "2026-09-29T15:06:47.124634+02:00",
       "price": {
-        "amount": 165,
+        "amount": 231.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-14T13:24:47+02:00",
+        "checkedAt": "2026-09-29T15:06:47.124634+02:00",
         "source": "https://www.nordicfeel.com/se/product/clinisoothe-skin-purifier-125103"
       },
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-14"
+      "availabilityCheckedAt": "2026-09-29T15:06:47.124634+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/clinisoothe-skin-purifier-100ml/1.jpg",
@@ -1502,17 +1505,18 @@
       "merchantName": "Kjell & Company",
       "href": "https://ion.kjell.com/t/t?a=1098281531&as=2110221551&t=2&tk=1&epi=ev26q3-selected-10&url=www.kjell.com/se/produkter/ljud-bild/musikspelare-radio/musikmottagare-sandare/linocell-tradlos-carplay-och-android-auto-adapter-p22179",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-22",
+      "checkedAt": "2026-09-29T15:06:47.892071+02:00",
       "priceNote": "Kampanjpris 279 kr (ordinarie 349,90 kr) till och med 30 september 2026 enligt Kjell. Butikens pris gäller vid köp.",
       "price": {
-        "amount": 279,
+        "amount": 279.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-22T10:48:38+02:00",
+        "checkedAt": "2026-09-29T15:06:47.892071+02:00",
         "source": "https://www.kjell.com/se/produkter/ljud-bild/musikspelare-radio/musikmottagare-sandare/linocell-tradlos-carplay-och-android-auto-adapter-p22179"
       },
       "programId": "1098281531",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-22"
+      "availabilityCheckedAt": "2026-09-29T15:06:47.892071+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/linocell-wireless-carplay-q1m/1.jpg",
@@ -1622,17 +1626,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-1&url=https%3A%2F%2Flyko.com%2Fsv%2Fole-henriksen%2Fole-henriksen-pout-preserve-lip-treatment-strawberry-sorbet-12-ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-14",
+      "checkedAt": "2026-09-29T15:06:48.332360+02:00",
       "price": {
-        "amount": 198,
+        "amount": 158.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-14T13:49:50.568Z",
+        "checkedAt": "2026-09-29T15:06:48.332360+02:00",
         "source": "https://lyko.com/sv/ole-henriksen/ole-henriksen-pout-preserve-lip-treatment-strawberry-sorbet-12-ml"
       },
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-14"
+      "availabilityCheckedAt": "2026-09-29T15:06:48.332360+02:00",
+      "availability": "https://schema.org/OutOfStock"
     },
     "image": {
       "src": "/products/selected/ole-henriksen-pout-strawberry-12ml/1.jpg",
@@ -1746,17 +1751,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-2&url=https%3A%2F%2Flyko.com%2Fsv%2Flumene%2Flumene-cc-color-correcting-cream-spf20-medium",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-14",
+      "checkedAt": "2026-09-29T15:06:49.081484+02:00",
       "price": {
-        "amount": 167,
+        "amount": 259,
         "currency": "SEK",
-        "checkedAt": "2026-09-14T13:49:46.310Z",
+        "checkedAt": "2026-09-29T15:06:49.081484+02:00",
         "source": "https://lyko.com/sv/lumene/lumene-cc-color-correcting-cream-spf20-medium"
       },
-      "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
+      "priceNote": "Styckepris utan Combo Deal.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-14"
+      "availabilityCheckedAt": "2026-09-29T15:06:49.081484+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/lumene-cc-medium-30ml/1.jpg",
@@ -1866,17 +1872,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-3&url=https%3A%2F%2Flyko.com%2Fsv%2Famika%2Famika-hydro-rush-intense-moisture-leave-in-conditioner-200ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-14",
+      "checkedAt": "2026-09-29T15:06:49.975498+02:00",
       "price": {
-        "amount": 349,
+        "amount": 230.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-14T13:49:45.045Z",
+        "checkedAt": "2026-09-29T15:06:49.975498+02:00",
         "source": "https://lyko.com/sv/amika/amika-hydro-rush-intense-moisture-leave-in-conditioner-200ml"
       },
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-14"
+      "availabilityCheckedAt": "2026-09-29T15:06:49.975498+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/amika-hydro-rush-leave-in-200ml/1.jpg",
@@ -2002,17 +2009,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q3-lyko-4&url=https%3A%2F%2Flyko.com%2Fsv%2Fla-roche-posay%2Fla-roche-posay-cicaplast-balm-b5--100-ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-14",
+      "checkedAt": "2026-09-29T15:06:50.637438+02:00",
       "price": {
-        "amount": 197,
+        "amount": 175.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-14T13:49:49.018Z",
+        "checkedAt": "2026-09-29T15:06:50.637438+02:00",
         "source": "https://lyko.com/sv/la-roche-posay/la-roche-posay-cicaplast-balm-b5--100-ml"
       },
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-14"
+      "availabilityCheckedAt": "2026-09-29T15:06:50.637438+02:00",
+      "availability": "https://schema.org/InStock"
     },
     "image": {
       "src": "/products/selected/la-roche-posay-cicaplast-b5-100ml/1.jpg",
@@ -2341,7 +2349,21 @@
       "infographic": "/products/selected/wanbo-cube-2-pro/c.webp",
       "context": "/products/selected/wanbo-cube-2-pro/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "plexgear-cv200",
@@ -2504,7 +2526,21 @@
       "infographic": "/products/selected/plexgear-cv200/c.webp",
       "context": "/products/selected/plexgear-cv200/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "kobo-clara-colour",
@@ -2680,7 +2716,21 @@
       "infographic": "/products/selected/kobo-clara-colour/c.webp",
       "context": "/products/selected/kobo-clara-colour/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "nothing-ear-3a",
@@ -2858,7 +2908,21 @@
       "infographic": "/products/selected/nothing-ear-3a/c.webp",
       "context": "/products/selected/nothing-ear-3a/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "reolink-w330",
@@ -3034,7 +3098,21 @@
       "infographic": "/products/selected/reolink-w330/c.webp",
       "context": "/products/selected/reolink-w330/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "lyko-core-styler",
@@ -3203,7 +3281,21 @@
       "infographic": "/products/selected/lyko-core-styler/c.webp",
       "context": "/products/selected/lyko-core-styler/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "lyko-infrared-blowout",
@@ -3369,7 +3461,21 @@
       "infographic": "/products/selected/lyko-infrared-blowout/c.webp",
       "context": "/products/selected/lyko-infrared-blowout/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "ghd-rise",
@@ -3560,7 +3666,21 @@
       "infographic": "/products/selected/ghd-rise/c.webp",
       "context": "/products/selected/ghd-rise/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "olaplex-no3-plus",
@@ -3745,7 +3865,21 @@
       "infographic": "/products/selected/olaplex-no3-plus/c.webp",
       "context": "/products/selected/olaplex-no3-plus/d.webp"
     },
-    "publishedAt": "2026-06-17"
+    "publishedAt": "2026-06-17",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "redken-abc-pre-treatment",
@@ -3906,7 +4040,21 @@
       "infographic": "/products/selected/redken-abc-pre-treatment/c.webp",
       "context": "/products/selected/redken-abc-pre-treatment/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "ghd-original-iv",
@@ -4071,7 +4219,21 @@
       "infographic": "/products/selected/ghd-original-iv/c.webp",
       "context": "/products/selected/ghd-original-iv/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "remington-s5901",
@@ -4240,7 +4402,21 @@
       "infographic": "/products/selected/remington-s5901/c.webp",
       "context": "/products/selected/remington-s5901/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "babyliss-big-hair-dual",
@@ -4399,7 +4575,21 @@
       "infographic": "/products/selected/babyliss-big-hair-dual/c.webp",
       "context": "/products/selected/babyliss-big-hair-dual/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   },
   {
     "id": "remington-as5901",
@@ -4593,6 +4783,20 @@
       "infographic": "/products/selected/remington-as5901/c.webp",
       "context": "/products/selected/remington-as5901/d.webp"
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "changes": [
+      {
+        "date": "2026-09-22",
+        "note": "Guiden publicerades med källor för den namngivna varianten."
+      },
+      {
+        "date": "2026-09-23",
+        "note": "Butiksknappar och visning av kontrollerad lagerstatus förtydligades."
+      },
+      {
+        "date": "2026-09-29",
+        "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
+      }
+    ]
   }
 ]

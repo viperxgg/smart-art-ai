@@ -1,3 +1,5 @@
+import { EditorialByline } from "@/components/EditorialByline";
+import { buildDecisionArticle } from "@/lib/site-schema";
 import { getApprovedProductImage } from "@/lib/product-image-approvals";
 import { getElinProductEvidence } from "@/lib/elin-product-evidence";
 import { DecisionCard } from "@/components/DecisionCard";
@@ -127,6 +129,7 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
       {productListSchema ? <JsonLd data={productListSchema} /> : null}
       <JsonLd data={buildBreadcrumbSchema(breadcrumbItems)} />
       <WebPageJsonLd path={guide.href} name={guide.title} />
+      {decision ? <JsonLd data={buildDecisionArticle(guide.href, guide.title, decision.reviewedAt, decision.sources)} /> : null}
 
       <div className="mx-auto w-full max-w-5xl">
         <div className="mb-5">
@@ -160,6 +163,8 @@ export function WaveGuidePage({ guideId }: { guideId: string }) {
         </section>
 
         {decision ? <DecisionCard decision={decision} /> : null}
+        <EditorialByline reviewedAt={decision?.reviewedAt} className="mt-4" />
+        {!decision ? <Link href="/sa-gor-vi" className="inline-flex min-h-11 items-center text-wine underline">Så gör vi våra guider</Link> : null}
         <EditorialMeta path={guide.href} hideDate={Boolean(decision)} hideDisclosure className="mt-4" />
         {!decision ? <ProductBadges badges={guide.badges} className="mt-3" /> : null}
 

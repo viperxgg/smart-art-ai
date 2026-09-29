@@ -36,9 +36,7 @@ export function buildOperatorNode() {
       : {}),
     sameAs: [siteConfig.operatorLinkedIn],
     worksFor: {
-      "@type": "Organization",
-      name: siteConfig.legalName,
-      url: siteConfig.companySiteUrl,
+      "@id": organizationId,
     },
   };
 }
@@ -59,12 +57,10 @@ export function buildOrganizationNode() {
     founder: buildOperatorNode(),
     employee: [
       {
-        "@type": "Person",
         "@id": operatorId,
-        name: siteConfig.operatorName,
       },
     ],
-    publishingPrinciples: absoluteUrl("/om-oss"),
+    publishingPrinciples: absoluteUrl("/sa-gor-vi"),
   };
 }
 
@@ -81,7 +77,7 @@ export const websiteSchema = {
   url: siteConfig.url,
   description: siteConfig.description,
   inLanguage: "sv-SE",
-  publisher: { "@type": "Organization", "@id": organizationId },
+  publisher: { "@id": organizationId },
 };
 
 export type WebPageSchemaInput = {
@@ -113,6 +109,16 @@ export function buildWebPageSchema({ path, name, publishedAt }: WebPageSchemaInp
     ...(publishedAt ? { datePublished: publishedAt } : {}),
     ...(lastModified ? { dateModified: lastModified } : {}),
     isPartOf: { "@type": "WebSite", "@id": websiteId },
-    publisher: { "@type": "Organization", "@id": organizationId },
+    publisher: { "@id": organizationId },
+  };
+}
+
+/** Legacy decision articles name the responsible editor without inventing publication dates. */
+export function buildDecisionArticle(path: string, headline: string, reviewedAt: string, sources: readonly { url: string }[]) {
+  return {
+    "@context": "https://schema.org", "@type": "Article", "@id": `${absoluteUrl(path)}#article`,
+    headline, mainEntityOfPage: absoluteUrl(path), inLanguage: "sv-SE", dateModified: reviewedAt,
+    author: { "@id": operatorId }, publisher: { "@id": organizationId },
+    citation: sources.map(source => source.url),
   };
 }

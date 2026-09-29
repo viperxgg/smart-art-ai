@@ -214,9 +214,11 @@ export default function AboutPage() {
             Det vi väger in är sådant som går att kontrollera: vad produkten
             faktiskt gör, hur den skiljer sig från de närmaste alternativen,
             vilken prisnivå den ligger på och vad köpare återkommer till i
-            både beröm och kritik. Exakta priser visar vi inte, eftersom Amazon
-            ändrar pris och lagerstatus utan förvarning – i stället anger vi en
-            prisnivå och ber dig kontrollera aktuellt pris innan köp.
+            både beröm och kritik. För verifierade partnererbjudanden visar vi
+            senast kontrollerat pris med datum. Vi granskar priser veckovis på
+            måndagar; om en kontroll misslyckas behåller vi det tidigare priset
+            och dess ursprungliga datum. Butikens pris vid köpet gäller.
+            Amazon-länkar visas utan ett manuellt inskrivet pris.
           </p>
           <div className="mt-6 grid gap-4 md:grid-cols-3">
             {selectionPillars.map((item) => {

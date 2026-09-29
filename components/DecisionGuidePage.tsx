@@ -1,3 +1,5 @@
+import { EditorialByline } from "@/components/EditorialByline";
+import { buildDecisionArticle } from "@/lib/site-schema";
 import { LegacyMerchantPath } from "@/components/LegacyMerchantPath";
 import { legacyMerchantPaths } from "@/lib/legacy-merchant-paths";
 import Link from "next/link";
@@ -32,11 +34,12 @@ export function DecisionGuidePage({ guide, beforeDecision, afterDecision, mercha
     { name: guide.title, href: guide.path },
   ];
   return (
-    <main id="content" tabIndex={-1} className="min-h-screen bg-bg px-5 py-8 text-ink">
+    <main id="content" tabIndex={-1} className={`min-h-screen bg-bg px-5 ${legacyMerchantPaths.has(guide.path) ? "py-4" : "py-8"} text-ink`}>
       <JsonLd data={buildBreadcrumbSchema(breadcrumbs)} />
+      <JsonLd data={buildDecisionArticle(guide.path, guide.title, guide.decision.reviewedAt, guide.decision.sources)} />
       <div className="mx-auto max-w-5xl">
         <Breadcrumbs items={breadcrumbs} />
-        <header className="mt-5 max-w-3xl">
+        <header className={`${legacyMerchantPaths.has(guide.path) ? "mt-3" : "mt-5"} max-w-3xl`}>
           {merchantDisclosure ? <p className="mb-3 text-xs font-semibold text-ink-soft">{merchantDisclosure}</p> : null}
           <h1 className="font-display text-3xl font-bold leading-tight sm:text-4xl">{guide.title}</h1>
           <p className="mt-4 text-base leading-relaxed text-ink-soft">{guide.intro}</p>
@@ -45,6 +48,7 @@ export function DecisionGuidePage({ guide, beforeDecision, afterDecision, mercha
         </header>
         {beforeDecision}
         <DecisionCard decision={guide.decision} markBrandSources={legacyMerchantPaths.has(guide.path)} merchantActions={legacyMerchantPaths.has(guide.path) ? <LegacyMerchantPath options={guide.decision.options} productPaths={guide.productPaths} /> : undefined} />
+        <EditorialByline reviewedAt={guide.decision.reviewedAt} className="mt-4" />
         {afterDecision}
         <EditorialMeta path={guide.path} hideDate hideDisclosure className="mt-5" />
         <section className="mt-10" aria-labelledby="guide-questions">

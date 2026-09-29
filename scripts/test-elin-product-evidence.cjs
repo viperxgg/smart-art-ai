@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports -- Standalone CommonJS test runner. */
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
@@ -8,12 +9,12 @@ const { renderToStaticMarkup } = require('react-dom/server');
 
 const root = path.resolve(__dirname, '..');
 function evaluate(source, injected = {}) {
-  const module = { exports: {} };
+  const loadedModule = { exports: {} };
   const code = ts.transpileModule(source, {
     compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX },
   }).outputText;
-  vm.runInNewContext(code, { module, exports: module.exports, require, ...injected });
-  return module.exports;
+  vm.runInNewContext(code, { module: loadedModule, exports: loadedModule.exports, require, ...injected });
+  return loadedModule.exports;
 }
 function read(file) { return fs.readFileSync(path.join(root, file), 'utf8'); }
 function extractFunctions(file, names, injected) {
@@ -28,10 +29,10 @@ function extractFunctions(file, names, injected) {
 const cache = new Map();
 function load(file) {
   if (cache.has(file)) return cache.get(file).exports;
-  const module = { exports: {} }; cache.set(file, module);
+  const loadedModule = { exports: {} }; cache.set(file, loadedModule);
   const code = ts.transpileModule(read(file), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
-  vm.runInNewContext(code, { module, exports: module.exports, URL, require: id => id.startsWith('@/') ? load(id.slice(2)+'.ts') : require(id) });
-  return module.exports;
+  vm.runInNewContext(code, { module: loadedModule, exports: loadedModule.exports, URL, require: id => id.startsWith('@/') ? load(id.slice(2)+'.ts') : require(id) });
+  return loadedModule.exports;
 }
 const { products, getProductPageHref } = load('lib/products.ts');
 const imageApprovals = load('lib/product-image-approvals.ts');
@@ -280,6 +281,8 @@ assert.throws(()=>ComparisonProductCard({product:products[0],href:'/',option:{pr
 const {validateDecisionRecord}=load('lib/decision-record.ts');
 const {ereaderDecision,getGuideDecision}=load('lib/ereader-decision.ts');
 const comparisonBindings={
+  buildDecisionArticle:()=>({}), EditorialByline:()=>null, LegacyMerchantPath:()=>null,
+  ...load("lib/legacy-merchant-paths.ts"),
   ComparisonProductCard,getElinProductEvidence,validateDecisionRecord,
   Link:props=>React.createElement('a',props,props.children),
   DecisionCard:()=>React.createElement('section',{'data-test':'decision'}),

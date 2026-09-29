@@ -46,6 +46,12 @@ export function SiteFooter() {
               Om Elins val
             </Link>
             <Link
+              href="/sa-gor-vi"
+              className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
+            >
+              Så gör vi våra köpguider
+            </Link>
+            <Link
               href="/jamforelser"
               className="link-underline w-fit font-bold text-ink-soft transition hover:text-wine"
             >

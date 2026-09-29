@@ -1,3 +1,5 @@
+import { EditorialByline } from "@/components/EditorialByline";
+import { buildDecisionArticle } from "@/lib/site-schema";
 import { LegacyMerchantPath } from "@/components/LegacyMerchantPath";
 import { legacyMerchantPaths } from "@/lib/legacy-merchant-paths";
 import { DecisionCard } from "@/components/DecisionCard";
@@ -127,15 +129,16 @@ export function DecisionComparisonPage({
     <main
       id="content"
       tabIndex={-1}
-      className="min-h-screen bg-bg px-4 py-7 text-ink"
+      className={`min-h-screen bg-bg px-4 ${legacyMerchantPaths.has(pagePath) ? "py-4" : "py-7"} text-ink`}
     >
       {faqItems.length ? <JsonLd data={faqSchema} /> : null}
       {productListSchema ? <JsonLd data={productListSchema} /> : null}
       <JsonLd data={breadcrumbSchema} />
+      {decision ? <JsonLd data={buildDecisionArticle(pagePath, h1, decision.reviewedAt, decision.sources)} /> : null}
       <WebPageJsonLd path={pagePath} name={h1} />
 
       <div className="mx-auto w-full max-w-5xl">
-        <div className="mb-5">
+        <div className={legacyMerchantPaths.has(pagePath) ? "mb-2" : "mb-5"}>
           <Breadcrumbs items={breadcrumbItems} />
         </div>
         <header className="flex items-center justify-between gap-4">
@@ -166,6 +169,8 @@ export function DecisionComparisonPage({
         </section>
 
         {decision ? <DecisionCard decision={decision} markBrandSources={legacyMerchantPaths.has(pagePath)} merchantActions={legacyMerchantPaths.has(pagePath) ? <LegacyMerchantPath options={decision.options} productPaths={picks.map(pick => pick.path)} /> : undefined} /> : null}
+        <EditorialByline reviewedAt={decision?.reviewedAt} className="mt-4" />
+        {!decision ? <Link href="/sa-gor-vi" className="inline-flex min-h-11 items-center text-wine underline">Så gör vi våra guider</Link> : null}
         <EditorialMeta path={pagePath} hideDate={Boolean(decision)} hideDisclosure className="mt-4" />
 
         <section className="reveal-fade mt-10 rounded-[2rem] border border-line bg-surface/64 p-6 shadow-[0_24px_70px_rgba(185,131,166,0.1)] md:p-8">

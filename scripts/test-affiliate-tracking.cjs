@@ -84,6 +84,21 @@ consent = null; click(amazon); assert.equal(events.length, 0);
 consent = 'denied'; click(amazon); assert.equal(events.length, 0);
 consent = 'granted'; click(amazon); assert.equal(events.length, 1); assert.equal(events[0][1], 'amazon_click');
 consent = 'denied'; click(amazon); assert.equal(events.length, 1);
+amazon.dataset.placement = 'legacy-cta';
+events.length = 0;
+consent = 'granted'; click(amazon);
+assert.equal(events.length, 1);
+assert.equal(events[0][1], 'amazon_click');
+assert.equal(events[0][2].placement, 'legacy-cta');
+consent = 'denied'; click(amazon); assert.equal(events.length, 1);
+for (const offer of offers.merchantOffers.filter(o => o.linkKind !== 'direct')) {
+  const link = new Anchor({...offer, placement: 'legacy-cta'});
+  events.length = 0; consent = 'granted'; click(link);
+  assert.equal(events.length, 1);
+  assert.equal(events[0][1], 'affiliate_click');
+  assert.equal(events[0][2].placement, 'legacy-cta');
+}
+
 assert.equal(amazonOffers.getAmazonOffer('unknown'), undefined);
 for (const offer of amazonOffers.amazonOffers) {
   const url = new URL(offer.href);

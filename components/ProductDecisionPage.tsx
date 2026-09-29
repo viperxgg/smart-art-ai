@@ -1,6 +1,8 @@
+import { buildDecisionArticle } from "@/lib/site-schema";
 import Link from "next/link";
 import { getProductRecord } from "@/lib/selected-product-records";
 import { DecisionCard } from "@/components/DecisionCard";
+import { EditorialByline } from "@/components/EditorialByline";
 import { AmazonPurchaseCta } from "@/components/AmazonPurchaseCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
@@ -29,11 +31,13 @@ export function ProductDecisionPage({ pick, decision, reviews, pageHeading, firs
   return (
     <main id="content" tabIndex={-1} className="min-h-screen bg-bg px-5 py-8 text-ink">
       <JsonLd data={buildBreadcrumbSchema(breadcrumbs)} />
+      <JsonLd data={buildDecisionArticle(pick.href, heading, decision.reviewedAt, decision.sources)} />
       <div className="mx-auto max-w-5xl">
         <Breadcrumbs items={breadcrumbs} />
         <header className="mt-6 max-w-3xl">
           <p className="text-sm font-bold text-wine">Produktguide · {decision.sources.some((source) => source.status === "unavailable") ? "Ofullständigt källunderlag" : "Källor och metod redovisas"}</p>
           <h1 className="mt-3 font-display text-3xl font-bold leading-tight sm:text-5xl">{heading}</h1>
+          <EditorialByline reviewedAt={decision.reviewedAt} className="mt-4" />
           {firstAnswer ? <p className="mt-5 text-lg leading-8 text-ink-soft">{firstAnswer}</p> : null}
         </header>
         <DecisionCard decision={decision} />

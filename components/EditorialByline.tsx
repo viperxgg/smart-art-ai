@@ -10,7 +10,7 @@ export type EditorialChange = {
 
 type EditorialBylineProps = {
   /** Date of the documented fact review, not a build or publication date. */
-  reviewedAt: string;
+  reviewedAt?: string;
   /** Only recorded changes supported by the page's editorial history. */
   changes?: readonly EditorialChange[];
   className?: string;
@@ -37,8 +37,7 @@ export function EditorialByline({
         </Link>
       </p>
       <p className="mt-1">
-        Fakta granskade{" "}
-        <time dateTime={reviewedAt}>{formatSwedishDate(reviewedAt)}</time>
+        {reviewedAt ? <>Fakta granskade <time dateTime={reviewedAt}>{formatSwedishDate(reviewedAt)}</time></> : "Faktagranskning saknar dokumenterat datum."}
       </p>
       {datedChanges.length > 0 ? (
         <ul aria-label="Uppdateringslogg" className="mt-1 space-y-1">

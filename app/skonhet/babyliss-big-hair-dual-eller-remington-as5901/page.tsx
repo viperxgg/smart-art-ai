@@ -1,3 +1,4 @@
+// Content refresh 2026-09-29: editorial attribution, method, sourced questions and offer eligibility.
 import { PartnerComparisonPage } from "@/components/PartnerComparisonPage";
 import { getPartnerComparison, partnerComparisonMetadata } from "@/lib/partner-comparisons";
 // 2026-09-22: Source-led comparison in canonical partner records.
