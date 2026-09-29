@@ -4,6 +4,7 @@
 // 2026-09-06 (D3 override): a fourth new mask, Garnier Fructis Hair Food, under
 // Hårvård; the card now says six inpackningar.
 // Content refresh 2026-09-02: generisk länktext till aftersun-eller-aloe-vera.
+// 2026-09-29: Include the standalone Redken ABC Pre-Treatment guide.
 import Link from "next/link";
 import { ArrowUpRight, Home, Sparkles, WandSparkles } from "lucide-react";
 

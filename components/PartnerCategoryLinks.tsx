@@ -5,6 +5,9 @@ import { partnerComparisons } from "@/lib/partner-comparisons";
 import { selectedProductRecords } from "@/lib/selected-product-records";
 import type { ProductCategorySlug } from "@/lib/products";
 
+// Standalone guides remain discoverable even when a comparison is withdrawn.
+const standaloneProductIds = new Set(["redken-abc-pre-treatment"]);
+
 export function PartnerCategoryLinks({ categorySlug }: { categorySlug: ProductCategorySlug }) {
   const prefix = `/${categorySlug}/`;
   const comparisons = partnerComparisons.filter((comparison) => comparison.path.startsWith(prefix));
@@ -13,7 +16,8 @@ export function PartnerCategoryLinks({ categorySlug }: { categorySlug: ProductCa
     group.products.map((product) => product.pageHref ?? `${prefix}${product.slug}`),
   ));
   const products = selectedProductRecords.filter((product) => product.path.startsWith(prefix)
-    && comparisonProductIds.has(product.id) && !existingPaths.has(product.path));
+    && (comparisonProductIds.has(product.id) || standaloneProductIds.has(product.id))
+    && !existingPaths.has(product.path));
 
   if (!products.length && !comparisons.length) return null;
 

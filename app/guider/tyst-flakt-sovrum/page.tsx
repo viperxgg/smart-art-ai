@@ -1,3 +1,4 @@
+// Content refresh 2026-09-29: reviewed merchant paths and source link attributes.
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";
 import { tystFlaktSovrum } from "@/lib/bast-i-test/tyst-flakt-sovrum";
 import { createSeoMetadata } from "@/lib/metadata";

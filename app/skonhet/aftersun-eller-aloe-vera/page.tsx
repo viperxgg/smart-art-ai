@@ -1,3 +1,4 @@
+// Content refresh 2026-09-29: reviewed merchant paths and source link attributes.
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";
 import { aftersunGuide as guide } from "@/lib/aftersun-eller-aloe-vera";
 import { createSeoMetadata } from "@/lib/metadata";

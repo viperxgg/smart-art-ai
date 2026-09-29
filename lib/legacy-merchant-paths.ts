@@ -4,6 +4,9 @@ export const legacyMerchantPaths = new Set([
   "/skonhet/harolja-eller-varmeskydd",
   "/skonhet/varmluftsborste-eller-plattang",
   "/skonhet/olaplex-eller-harinpackning",
+  "/skonhet/aftersun-eller-aloe-vera",
+  "/halsa/luftfuktare-eller-luftrenare",
+  "/guider/tyst-flakt-sovrum",
 ]);
 
 // The old decision slug describes PLUS 100 ml. Its reviewed selected record
