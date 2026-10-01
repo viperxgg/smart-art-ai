@@ -1405,5 +1405,575 @@
         "Vi har inte testat känslan i samma hår och har ingen jämförbar ml-dos som visar åtgång.30 ml i båda flaskorna innebär därför inte lika många appliceringar. Tillverkarnas ord om lätt känsla är inte en garanti för hur någon av oljorna fungerar i fint hår."
       ]
     }
+  },
+  {
+    "id": "wave2-c4",
+    "path": "/skonhet/arganolja-eller-bonding-oil",
+    "title": "Arganolja eller bonding oil – vilken olja tynger inte fint hår?",
+    "metaTitle": "Arganolja eller bonding oil för fint hår?",
+    "description": "True Soft eller No.7 för fint hår? Jämför formula, dosering och märkets löften utan att göra en påstått lätt olja till testvinnare.",
+    "targetQuery": "arganolja fint hår",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "answer": "Välj inte mellan arganolja och bonding oil bara efter namnet. True Soft och Olaplex No.7 är formulerade håroljor, och båda märkena beskriver en lätt känsla. Det bevisar inte vilken som tynger minst i ditt fina hår. Välj True Soft om dess formula passar din rutin; välj No.7 om du föredrar Olaplex och dess angivna droppdosering.",
+    "productIds": [
+      "maria-nila-true-soft-argan-oil",
+      "olaplex-no7-bonding-oil-30ml"
+    ],
+    "productPaths": [
+      "/skonhet/maria-nila-true-soft-argan-oil",
+      "/skonhet/olaplex-no7-bonding-oil"
+    ],
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "fits": [
+      "Du vill jämföra två konkreta oljor utan att förväxla växtolja med hela formulan.",
+      "Du vill skilja märkets viktlöshetspåstående från ett eget resultat."
+    ],
+    "skip": "Avstå från ett nytt köp om din nuvarande olja redan ger den finish du vill ha.",
+    "rows": [
+      [
+        "Skillnad",
+        "maria nila True Soft",
+        "Olaplex No.7"
+      ],
+      [
+        "Variant",
+        "100 ml",
+        "30 ml"
+      ],
+      [
+        "Dosering",
+        "Ingen droppdos på svensk märkessida",
+        "2–3 droppar enligt Olaplex"
+      ],
+      [
+        "När",
+        "Handdukstorkat eller torrt hår",
+        "Fuktigt eller torrt hår"
+      ],
+      [
+        "Värmeskydd, märkespåstående",
+        "Upp till 230 °C",
+        "Upp till 232 °C"
+      ],
+      [
+        "Fint hår",
+        "Ingen egen jämförande mätning",
+        "Ingen egen jämförande mätning"
+      ]
+    ],
+    "sections": [
+      {
+        "question": "Är arganolja samma sak som True Soft?",
+        "answer": "Nej. True Soft innehåller arganolja men också silikoner, andra växtoljor och parfym. Därför ska du jämföra den färdiga produkten med No.7, inte anta att namnet argan beskriver hela innehållet eller hur oljan känns. Ingrediensnamnet avgör inte vilken av de två du kommer att föredra.",
+        "sourceUrls": [
+          "https://marianila.se/products/true-soft-argan-oil-100-ml",
+          "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml"
+        ]
+      },
+      {
+        "question": "Vilken av oljorna tynger inte fint hår?",
+        "answer": "Båda varumärkena använder ord om lätt eller viktlös känsla. Vi har inget eget jämförande test på fint hår och kan därför inte utse en vinnare på den punkten. En sådan garanti ska inte utläsas ur att den ena kallas bonding oil och den andra arganolja.",
+        "sourceUrls": [
+          "https://marianila.se/products/true-soft-argan-oil-100-ml",
+          "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml"
+        ]
+      },
+      {
+        "question": "Har båda oljorna värmeskydd?",
+        "answer": "Ja, tillverkarna anger 230 °C för True Soft och 232 °C för No.7. Det är märkespåståenden med egna underlag. Skillnaden mellan siffrorna ger inte stöd för att rangordna produkterna eller höja temperaturen på ditt verktyg. Följ respektive appliceringsanvisning och verktygets instruktion.",
+        "sourceUrls": [
+          "https://marianila.se/products/true-soft-argan-oil-100-ml",
+          "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml"
+        ]
+      },
+      {
+        "question": "Vad skiljer dosering och flaskstorlek?",
+        "answer": "No.7 har en angiven dos på 2–3 droppar medan den svenska True Soft-sidan inte anger ett antal droppar. Här jämförs No.7 i 30 ml och True Soft i 100 ml. Olika flaskvolym och okänd dosstorlek innebär att pris per ml inte visar vilken som ger lägst kostnad per användning.",
+        "sourceUrls": [
+          "https://marianila.se/products/true-soft-argan-oil-100-ml",
+          "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "true",
+        "url": "https://marianila.se/products/true-soft-argan-oil-100-ml",
+        "checkedAt": "2026-10-01",
+        "supports": "100 ml, användning, INCI och märkets påståenden om värmeskydd och viktlös känsla."
+      },
+      {
+        "label": "no 7",
+        "url": "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml",
+        "checkedAt": "2026-10-01",
+        "supports": "30 ml olja,2–3 droppar fuktigt/torrt hår,232 °C enligt Olaplex; inte ett eget test."
+      }
+    ],
+    "related": [
+      [
+        "Maria nila true soft argan oil",
+        "/skonhet/maria-nila-true-soft-argan-oil"
+      ],
+      [
+        "Olaplex no 7 bonding oil",
+        "/skonhet/olaplex-no7-bonding-oil"
+      ],
+      [
+        "Leave in eller harolja",
+        "/skonhet/leave-in-eller-harolja"
+      ]
+    ],
+    "tradeoffs": {
+      "advantages": [
+        "Du vill jämföra två konkreta oljor utan att förväxla växtolja med hela formulan.",
+        "Du vill skilja märkets viktlöshetspåstående från ett eget resultat."
+      ],
+      "limitations": [
+        "Ja, tillverkarna anger 230 °C för True Soft och 232 °C för No.7. Det är märkespåståenden med egna underlag. Skillnaden mellan siffrorna ger inte stöd för att rangordna produkterna eller höja temperaturen på ditt verktyg. Följ respektive appliceringsanvisning och verktygets instruktion.",
+        "No.7 har en angiven dos på 2–3 droppar medan den svenska True Soft-sidan inte anger ett antal droppar. Här jämförs No.7 i 30 ml och True Soft i 100 ml. Olika flaskvolym och okänd dosstorlek innebär att pris per ml inte visar vilken som ger lägst kostnad per användning."
+      ]
+    },
+    "wave": 2,
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "wave2-c5",
+    "path": "/skonhet/olaplex-rich-hydration-eller-redken-all-soft",
+    "title": "Olaplex Rich Hydration Mask eller Redken All Soft Heavy Cream – inpackning för torrt, tjockt hår?",
+    "metaTitle": "Inpackning: Rich Hydration eller All Soft?",
+    "description": "Rich Hydration eller Heavy Cream? Jämför hårbehov, verkningstid och balsamsteget från märkenas instruktioner före ditt nästa köp.",
+    "targetQuery": "olaplex rich hydration eller redken all soft",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "answer": "Välj Rich Hydration om du vill följa Olaplex tydliga veckorutin där masken ersätter balsam. Välj Heavy Cream om du söker Redkens ursköljbara vård för torrt och sprött hår och vill följa tubens instruktion. Tjockt hår gör inte automatiskt någon av dem bäst. Skillnaden i rutinen är tydligare än något bevisat resultat mellan märkena.",
+    "productIds": [
+      "olaplex-rich-hydration-mask-200ml",
+      "redken-all-soft-heavy-cream"
+    ],
+    "productPaths": [
+      "/skonhet/olaplex-rich-hydration-mask",
+      "/skonhet/redken-all-soft-harinpackning"
+    ],
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "fits": [
+      "Du vill välja en ursköljbar mask utifrån din tvättrutin.",
+      "Du vill se när balsam kan ersättas och när instruktionerna varierar."
+    ],
+    "skip": "Avstå från en andra mask om den du redan har fyller samma steg och fungerar för din rutin.",
+    "rows": [
+      [
+        "Skillnad",
+        "Olaplex Rich Hydration",
+        "Redken Heavy Cream"
+      ],
+      [
+        "Variant",
+        "200 ml",
+        "250 ml"
+      ],
+      [
+        "Hårbehov enligt märket",
+        "Torrt hår eller medium/grov struktur",
+        "Torrt och sprött hår"
+      ],
+      [
+        "Tid",
+        "3–5 min enligt Olaplex",
+        "5 min på Redken Pro;5–15 min i produktguiden"
+      ],
+      [
+        "Frekvens",
+        "Varje vecka enligt Olaplex",
+        "Dagligen eller veckovis i produktguiden"
+      ],
+      [
+        "Balsam samma tvätt",
+        "Masken ersätter balsam enligt Olaplex",
+        "Varierande märkeskällor; följ tubens instruktion"
+      ]
+    ],
+    "sections": [
+      {
+        "question": "Vilken inpackning passar torrt och tjockt hår?",
+        "answer": "Olaplex beskriver Rich Hydration för torrt hår eller medium till grova hårstrån. Redkens gemensamma beskrivning av Heavy Cream är torrt och sprött hår. Det är märkens målgrupper, inte ett jämförande resultat. Hårets torrhet och vilken rutin du vill följa ger därför ett bättre beslutsunderlag än att bara välja efter ordet Rich eller Heavy.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+          "https://www.redkenpro.com/products/hair-care/all-soft-heavy-cream-super-treatment-mask"
+        ]
+      },
+      {
+        "question": "Vad skiljer verkningstid och hur ofta de används?",
+        "answer": "Olaplex anger 3–5 minuter en gång i veckan efter schampo. Redken Pro anger fem minuter, medan Redkens produktguide anger 5–15 minuter och dagligen eller veckovis. Följ din förpacknings instruktion när uppgifterna skiljer sig. Vi drar inte slutsatsen att längre tid ger bättre resultat.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+          "https://www.redkenpro.com/products/hair-care/all-soft-heavy-cream-super-treatment-mask",
+          "https://www.redkenpro.com/-/media/project/loreal/brand-sites/redken/americas/us_us/images/media-kit-test/2025-product-guide-avec-compression.pdf?rev=a76def91011f4673978bcb07732ecdd1"
+        ]
+      },
+      {
+        "question": "Behövs balsam efter någon av maskerna?",
+        "answer": "Olaplex säger uttryckligen att Rich Hydration ersätter balsam vid samma tvätt. För Redken visar de lästa märkeskällorna olika rutiner: en amerikansk utbildare beskriver mask i stället för balsam, medan Australiens serierutin lägger mask efter balsam. Gör därför inte Olaplex instruktion till en regel för alla masker.",
+        "sourceUrls": [
+          "https://olaplex.com/pages/frequently-asked-questions-pro",
+          "https://www.redken.com/hair-care/884486453013.html?bvstate=pg%3A3%2Fct%3Ar",
+          "https://www.redken.com.au/products/haircare/all-soft"
+        ]
+      },
+      {
+        "question": "Vilken mask räcker längst?",
+        "answer": "200 ml och 250 ml beskriver mängden i förpackningen. De lästa instruktionerna ger ingen standarddos i ml som gör antalet användningar jämförbart. Du kan jämföra verifierat pris per ml, men vi kan inte räkna fram kostnad per tvätt eller säga att den större tuben säkert räcker längre för dig.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+          "https://olaplex.com/products/olaplex-the-rich-hydration-routine",
+          "https://www.redkenpro.com/products/hair-care/all-soft-heavy-cream-super-treatment-mask"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "rich",
+        "url": "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+        "checkedAt": "2026-10-01",
+        "supports": "Rich Hydration efter schampo 3–5 min varje vecka; för torrt eller medium/grovt hår."
+      },
+      {
+        "label": "richroutine",
+        "url": "https://olaplex.com/products/olaplex-the-rich-hydration-routine",
+        "checkedAt": "2026-10-01",
+        "supports": "Fullstor Rich Hydration 200 ml; produktsidans storleksord skiljer sig."
+      },
+      {
+        "label": "maskfaq",
+        "url": "https://olaplex.com/pages/frequently-asked-questions-pro",
+        "checkedAt": "2026-10-01",
+        "supports": "Rich Hydration ersätter balsam vid samma tvätt enligt Olaplex FAQ."
+      },
+      {
+        "label": "redken",
+        "url": "https://www.redkenpro.com/products/hair-care/all-soft-heavy-cream-super-treatment-mask",
+        "checkedAt": "2026-10-01",
+        "supports": "Heavy Cream: torrt och sprött hår, fem minuter efter schamponering, skölj ur, INCI."
+      },
+      {
+        "label": "redkenguide",
+        "url": "https://www.redkenpro.com/-/media/project/loreal/brand-sites/redken/americas/us_us/images/media-kit-test/2025-product-guide-avec-compression.pdf?rev=a76def91011f4673978bcb07732ecdd1",
+        "checkedAt": "2026-10-01",
+        "supports": "2025 års officiella produktguide, PDF-sida 29/tryckta sidor 56–57: Heavy Cream 5–15 min dagligen/veckovis; Argan-6 lämnas kvar."
+      },
+      {
+        "label": "redkenfaq",
+        "url": "https://www.redken.com/hair-care/884486453013.html?bvstate=pg%3A3%2Fct%3Ar",
+        "checkedAt": "2026-10-01",
+        "supports": "USA-FAQ skiljer All Soft från Mega samt beskriver användning i stället för balsam; läst via sökverktyget, direkt hämtning 403."
+      },
+      {
+        "label": "redkenrange",
+        "url": "https://www.redken.com.au/products/haircare/all-soft",
+        "checkedAt": "2026-10-01",
+        "supports": "Australisk serierutin anger schampo och balsam följt av mask 2–3gånger/vecka; visar regional instruktionvariation."
+      }
+    ],
+    "related": [
+      [
+        "Olaplex rich hydration mask",
+        "/skonhet/olaplex-rich-hydration-mask"
+      ],
+      [
+        "Redken all soft harinpackning",
+        "/skonhet/redken-all-soft-harinpackning"
+      ],
+      [
+        "Balsam eller inpackning",
+        "/skonhet/balsam-eller-inpackning"
+      ]
+    ],
+    "tradeoffs": {
+      "advantages": [
+        "Du vill välja en ursköljbar mask utifrån din tvättrutin.",
+        "Du vill se när balsam kan ersättas och när instruktionerna varierar."
+      ],
+      "limitations": [
+        "Olaplex säger uttryckligen att Rich Hydration ersätter balsam vid samma tvätt. För Redken visar de lästa märkeskällorna olika rutiner: en amerikansk utbildare beskriver mask i stället för balsam, medan Australiens serierutin lägger mask efter balsam. Gör därför inte Olaplex instruktion till en regel för alla masker.",
+        "200 ml och 250 ml beskriver mängden i förpackningen. De lästa instruktionerna ger ingen standarddos i ml som gör antalet användningar jämförbart. Du kan jämföra verifierat pris per ml, men vi kan inte räkna fram kostnad per tvätt eller säga att den större tuben säkert räcker längre för dig."
+      ]
+    },
+    "wave": 2,
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "wave2-c6",
+    "path": "/skonhet/olaplex-rich-hydration-eller-no3-plus",
+    "title": "Olaplex Rich Hydration Mask eller No.3 Plus – inpackning eller behandling, och vad först?",
+    "metaTitle": "Rich Hydration eller No.3 Plus – vad först?",
+    "description": "Olaplex mask eller No.3 Plus? Se ordningen före och efter schampo, verkningstider och när Rich Hydration ersätter balsam i rutinen.",
+    "targetQuery": "olaplex rich hydration eller no 3 plus",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "answer": "No.3 Plus ska enligt Olaplex användas före schampo, medan Rich Hydration används efter schampo och ersätter balsam vid den tvätten. Välj alltså efter steget du saknar, inte för att köpa två behandlingar på chans. Om du väljer båda följer ordningen No.3 Plus, skölj, schampo och därefter Rich Hydration med sin egen verkningstid.",
+    "productIds": [
+      "olaplex-rich-hydration-mask-200ml",
+      "olaplex-no3-plus"
+    ],
+    "productPaths": [
+      "/skonhet/olaplex-rich-hydration-mask",
+      "/skonhet/olaplex-no3"
+    ],
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "fits": [
+      "Du vill skilja förbehandling från ursköljbar inpackning.",
+      "Du använder No.3 Plus och behöver förstå vad som kommer efter schampot."
+    ],
+    "skip": "Avstå från att köpa båda enbart för att de har samma varumärke; de är två olika steg.",
+    "rows": [
+      [
+        "Skillnad",
+        "Rich Hydration Mask",
+        "No.3 Plus"
+      ],
+      [
+        "Plats i rutinen",
+        "Efter schampo",
+        "Före schampo"
+      ],
+      [
+        "Tid",
+        "3–5 min",
+        "3 min"
+      ],
+      [
+        "Sköljs ur",
+        "Ja",
+        "Ja, därefter schampo"
+      ],
+      [
+        "Balsam",
+        "Ersätter balsam samma tvätt",
+        "Följs av schampo och balsam enligt Olaplex"
+      ],
+      [
+        "Frekvens",
+        "Varje vecka",
+        "Var 1–3 tvätt enligt användningsavsnittet"
+      ]
+    ],
+    "sections": [
+      {
+        "question": "Ska No.3 Plus eller Rich Hydration användas först?",
+        "answer": "No.3 Plus kommer först enligt Olaplex: applicera på vått hår, låt verka tre minuter, skölj och schamponera. Rich Hydration hör efter schamponering, ska sitta 3–5 minuter och sköljas ur. Den ordningen är en sammanställning av märkets båda instruktioner, inte en egen rekommendation att alla behöver två produkter.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml"
+        ]
+      },
+      {
+        "question": "Kan Rich Hydration ersätta balsam efter No.3 Plus?",
+        "answer": "Olaplex säger att No.3 Plus följs av schampo och balsam och att Rich Hydration ersätter balsam vid den tvätt där masken används. Om du väljer Rich Hydration är den därför vårdsteget efter schampot. Lägg inte till ytterligare balsam som ett obligatoriskt steg utan stöd i förpackningens anvisning.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
+          "https://olaplex.com/pages/frequently-asked-questions-pro"
+        ]
+      },
+      {
+        "question": "Vad skiljer en förbehandling från en inpackning?",
+        "answer": "Den avgörande praktiska skillnaden här är när produkten används. No.3 Plus är en förbehandling som Olaplex marknadsför med bindningsreparation; Rich Hydration är masken efter schampo för fukt och mjukhet enligt märket. Vi har inte testat reparationspåståendet eller jämfört resultatet mellan dem.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml"
+        ]
+      },
+      {
+        "question": "Behöver jag köpa båda Olaplex-produkterna?",
+        "answer": "Inte enbart för att kunna följa en komplett serie. Om du vill ha ett vårdsteg som ersätter balsam är Rich Hydration det beskrivna alternativet. No.3 Plus är ett extra steg före schampo. Börja med att identifiera vilket steg du vill ändra; vi kan inte fastställa ett behov av två produkter för ditt hår.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+          "https://olaplex.com/pages/frequently-asked-questions-pro"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "no 3",
+        "url": "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
+        "checkedAt": "2026-10-01",
+        "supports": "No.3PLUS på vått hår före schampo,3 min,skölj,schampo och balsam."
+      },
+      {
+        "label": "rich",
+        "url": "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+        "checkedAt": "2026-10-01",
+        "supports": "Rich Hydration efter schampo 3–5 min varje vecka; för torrt eller medium/grovt hår."
+      },
+      {
+        "label": "maskfaq",
+        "url": "https://olaplex.com/pages/frequently-asked-questions-pro",
+        "checkedAt": "2026-10-01",
+        "supports": "Rich Hydration ersätter balsam vid samma tvätt enligt Olaplex FAQ."
+      }
+    ],
+    "related": [
+      [
+        "Olaplex rich hydration mask",
+        "/skonhet/olaplex-rich-hydration-mask"
+      ],
+      [
+        "Olaplex no 3",
+        "/skonhet/olaplex-no3"
+      ],
+      [
+        "Balsam eller inpackning",
+        "/skonhet/balsam-eller-inpackning"
+      ]
+    ],
+    "tradeoffs": {
+      "advantages": [
+        "Du vill skilja förbehandling från ursköljbar inpackning.",
+        "Du använder No.3 Plus och behöver förstå vad som kommer efter schampot."
+      ],
+      "limitations": [
+        "Den avgörande praktiska skillnaden här är när produkten används. No.3 Plus är en förbehandling som Olaplex marknadsför med bindningsreparation; Rich Hydration är masken efter schampo för fukt och mjukhet enligt märket. Vi har inte testat reparationspåståendet eller jämfört resultatet mellan dem.",
+        "Inte enbart för att kunna följa en komplett serie. Om du vill ha ett vårdsteg som ersätter balsam är Rich Hydration det beskrivna alternativet. No.3 Plus är ett extra steg före schampo. Börja med att identifiera vilket steg du vill ändra; vi kan inte fastställa ett behov av två produkter för ditt hår."
+      ]
+    },
+    "wave": 2,
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "wave2-c7",
+    "path": "/skonhet/gloss-coat-eller-glaze-drops",
+    "title": "maria nila Gloss Coat eller Kérastase Glaze Drops – glans, värmeskydd eller båda?",
+    "metaTitle": "Gloss Coat eller Glaze Drops – vad skiljer?",
+    "description": "Gloss Coat eller Glaze Drops? Jämför spray före föning med leave-in-olja och se vilket värmeskydd tillverkarna faktiskt anger.",
+    "targetQuery": "gloss coat eller glaze drops",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "answer": "Välj Gloss Coat om du vill ha en spray som aktiveras vid föning och som maria nila anger värmeskydd för. Välj Glaze Drops om du söker en olja för glans i torra eller handdukstorkade längder. Glaze Drops är inte samma produkt som Glaze Milk; överför inte mjölksprayens temperaturpåstående till oljan.",
+    "productIds": [
+      "maria-nila-gloss-coat",
+      "kerastase-glaze-drops-45ml"
+    ],
+    "productPaths": [
+      "/skonhet/maria-nila-gloss-coat",
+      "/skonhet/kerastase-glaze-drops"
+    ],
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "fits": [
+      "Du vill välja mellan föning som del av rutinen och olja som finish.",
+      "Du vill veta vilket värmeskydd som gäller för den exakta produkten."
+    ],
+    "skip": "Avstå från att köpa båda innan du vet om du saknar förstyling eller bara vill ändra finishen.",
+    "rows": [
+      [
+        "Skillnad",
+        "maria nila Gloss Coat",
+        "Kérastase Glaze Drops"
+      ],
+      [
+        "Variant",
+        "Spray 200 ml",
+        "Olja 45 ml"
+      ],
+      [
+        "Applicering",
+        "Handdukstorkat; kamma och föna",
+        "Torra eller handdukstorkade längder och toppar"
+      ],
+      [
+        "Värmeaktivering",
+        "Föning anges",
+        "Ingen föning som aktiveringskrav i instruktionen"
+      ],
+      [
+        "Värmeskydd",
+        "Upp till 230 °C enligt maria nila",
+        "Ingen temperatur för oljan i den lästa källan"
+      ],
+      [
+        "Doft",
+        "Parfymerad",
+        "Parfymerad"
+      ]
+    ],
+    "sections": [
+      {
+        "question": "Är Gloss Coat och Glaze Drops samma slags produkt?",
+        "answer": "Nej. Gloss Coat är en spray som ska fördelas i handdukstorkat hår och aktiveras med föning. Glaze Drops är en leave-in-olja som Kérastase instruerar att använda i torra eller handdukstorkade längder och toppar. Välj först vilket tillfälle i rutinen du vill ha produkten till.",
+        "sourceUrls": [
+          "https://marianila.se/products/gloss-coat",
+          "https://www.kerastase.se/produkter/gloss-absolu/glaze-drops"
+        ]
+      },
+      {
+        "question": "Vilken av dem har ett angivet värmeskydd?",
+        "answer": "maria nila anger upp till 230 °C för Gloss Coat. Den lästa svenska sidan för Glaze Drops ger inte oljan någon temperaturgräns. Kérastase har också en annan produkt som heter Anti-Frizz Glaze Milk; dess värmeskyddspåstående ska inte användas som belägg för Glaze Drops.",
+        "sourceUrls": [
+          "https://marianila.se/products/gloss-coat",
+          "https://www.kerastase.se/produkter/gloss-absolu/glaze-drops"
+        ]
+      },
+      {
+        "question": "Måste jag föna håret för att använda dem?",
+        "answer": "Gloss Coats instruktion kräver föning för att aktivera produkten. Glaze Drops instruktion är att applicera några droppar och lämna kvar; föning anges inte som ett aktiveringssteg där. Det gör skillnad om du vill lägga in produkten före fönen eller bara fördela olja i torra längder.",
+        "sourceUrls": [
+          "https://marianila.se/products/gloss-coat",
+          "https://www.kerastase.se/produkter/gloss-absolu/glaze-drops"
+        ]
+      },
+      {
+        "question": "Ger någon av dem garanterat flera dagars glans?",
+        "answer": "Nej, vi kan inte ge en sådan garanti. Tillverkarna beskriver flerdagarseffekter utifrån sina respektive instrumentella tester. Uppgifterna kommer inte från samma jämförande försök och är inte Elins vals egna observationer. De visar därför inte att någon av produkterna säkert håller längre i ditt hår.",
+        "sourceUrls": [
+          "https://marianila.se/products/gloss-coat",
+          "https://www.kerastase.se/produkter/gloss-absolu/glaze-drops"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "gloss",
+        "url": "https://marianila.se/products/gloss-coat",
+        "checkedAt": "2026-10-01",
+        "supports": "200 ml, värmeaktivering, applicering och märkets glans-, friss- och värmeskyddspåståenden."
+      },
+      {
+        "label": "glosspro",
+        "url": "https://marianilapro.se/pages/gloss-coat",
+        "checkedAt": "2026-10-01",
+        "supports": "Märkets beskrivning av Gloss Coat som värmeaktiverad förstyling."
+      },
+      {
+        "label": "glaze",
+        "url": "https://www.kerastase.se/produkter/gloss-absolu/glaze-drops",
+        "checkedAt": "2026-10-01",
+        "supports": "45 ml, applicering på torra eller handdukstorkade längder; ingen temperatur anges för Glaze Drops."
+      }
+    ],
+    "related": [
+      [
+        "Maria nila gloss coat",
+        "/skonhet/maria-nila-gloss-coat"
+      ],
+      [
+        "Kerastase glaze drops",
+        "/skonhet/kerastase-glaze-drops"
+      ],
+      [
+        "Harolja eller varmeskydd",
+        "/skonhet/harolja-eller-varmeskydd"
+      ]
+    ],
+    "tradeoffs": {
+      "advantages": [
+        "Du vill välja mellan föning som del av rutinen och olja som finish.",
+        "Du vill veta vilket värmeskydd som gäller för den exakta produkten."
+      ],
+      "limitations": [
+        "Gloss Coats instruktion kräver föning för att aktivera produkten. Glaze Drops instruktion är att applicera några droppar och lämna kvar; föning anges inte som ett aktiveringssteg där. Det gör skillnad om du vill lägga in produkten före fönen eller bara fördela olja i torra längder.",
+        "Nej, vi kan inte ge en sådan garanti. Tillverkarna beskriver flerdagarseffekter utifrån sina respektive instrumentella tester. Uppgifterna kommer inte från samma jämförande försök och är inte Elins vals egna observationer. De visar därför inte att någon av produkterna säkert håller längre i ditt hår."
+      ]
+    },
+    "wave": 2,
+    "publicationStatus": "draft"
   }
 ]

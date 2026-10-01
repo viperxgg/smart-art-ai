@@ -859,7 +859,28 @@
       "identityCheckedAt": "2026-09-14",
       "linkOnly": true
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "additionalOffers": [
+      {
+        "merchantId": "lyko",
+        "merchantName": "Lyko",
+        "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-c7-glaze-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fhar%2Fharvard%2Ftreatment%2Fharolja%2Fk-rastase-paris-gloss-absolu-glaze-drops-hair-oil-45-ml",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:44:54.327Z",
+        "programId": "1117786221",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:44:54.327Z",
+        "price": {
+          "amount": 590,
+          "currency": "SEK",
+          "checkedAt": "2026-10-01T09:44:54.327Z",
+          "source": "https://lyko.com/sv/har/harvard/treatment/harolja/k-rastase-paris-gloss-absolu-glaze-drops-hair-oil-45-ml"
+        },
+        "merchantItemId": "1015-637-0045"
+      }
+    ]
   },
   {
     "id": "jbl-flip-7-black",
@@ -5779,6 +5800,786 @@
     }
   },
   {
+    "id": "heat-slayer-150ml",
+    "name": "L’Oréal Paris Elvital Dream Length Heat Slayer",
+    "shortName": "Elvital Heat Slayer",
+    "variant": "150 ml",
+    "brand": "L’Oréal Paris",
+    "category": "Värmeskydd",
+    "path": "/skonhet/varmeskydd",
+    "merchantItemId": "1185-808-0150",
+    "gtin": "3600523966738",
+    "selected": false,
+    "publicationStatus": "draft",
+    "wave": 2,
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "sources": [
+      {
+        "label": "L’Oréal Paris Sverige – Heat Slayer",
+        "url": "https://www.lorealparis.se/elvital/dream-length/heat-slayer-iron-spray",
+        "checkedAt": "2026-10-01T09:43:22.904186+00:00",
+        "supports": "Exakt namn och150ml i produktbild, applicering och tillverkarens230 °C-påstående."
+      }
+    ],
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "related": [],
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w9-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Floreal-paris%2Floreal-paris-dream-length-heat-spray-150ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-10-01T09:44:27.232Z",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availability": "https://schema.org/InStock",
+      "availabilityCheckedAt": "2026-10-01T09:44:27.232Z",
+      "price": {
+        "amount": 69.9,
+        "currency": "SEK",
+        "checkedAt": "2026-10-01T09:44:27.232Z",
+        "source": "https://lyko.com/sv/loreal-paris/loreal-paris-dream-length-heat-spray-150ml"
+      }
+    },
+    "additionalOffers": [
+      {
+        "merchantId": "nordicfeel",
+        "merchantName": "NordicFeel",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w9-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Floreal-paris-elvital-dream-length-heat-spray-90467",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:44:28.541Z",
+        "programId": "872761485",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:44:28.541Z",
+        "price": {
+          "amount": 69,
+          "currency": "SEK",
+          "checkedAt": "2026-10-01T09:44:28.541Z",
+          "source": "https://www.nordicfeel.com/se/product/loreal-paris-elvital-dream-length-heat-spray-90467"
+        },
+        "merchantItemId": "90467"
+      }
+    ],
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/wave2/w9.jpg",
+      "width": 500,
+      "height": 2083,
+      "alt": "L’Oréal Paris Elvital Dream Length Heat Slayer, 150 ml, original produktbild från Lyko.",
+      "credit": "Produktbild: Lyko",
+      "source": "https://lyko.com/globalassets/product-images/loreal-paris-dream-length-heat-spray-150ml-1185-808-0150_1.jpg?ref=EF3358D266",
+      "sha256": "f29335f2fa70569bc1b562b7499bc7462e753afe7478f9048865049c43491904",
+      "permissionScope": "Original merchant asset for approved Elins val comparison/content channel; no general ownership or image-editing permission inferred. Program terms 2026-09-22 and PRODUCT-VISUAL-WORKFLOW.",
+      "reviewedAt": "2026-10-01"
+    }
+  },
+  {
+    "id": "maria-nila-true-soft-argan-oil",
+    "path": "/skonhet/maria-nila-true-soft-argan-oil",
+    "brand": "maria nila",
+    "name": "maria nila True Soft Argan Oil",
+    "variant": "100 ml",
+    "shortName": "maria nila True Soft Argan Oil",
+    "heading": "Tynger arganolja fint hår? maria nila True Soft – 30 eller 100 ml?",
+    "question": "Tynger arganolja fint hår? maria nila True Soft – 30 eller 100 ml?",
+    "metaTitle": "Tynger arganolja fint hår? True Soft",
+    "description": "Tynger True Soft Argan Oil fint hår? Läs om innehåll, användning och maria nilas värmeskyddspåstående innan du väljer storlek.",
+    "targetQuery": "maria nila true soft argan oil fint hår",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "answer": "True Soft kan vara ett alternativ för mjukare längder, men namnet arganolja säger inte hur den känns i ditt fina hår. maria nila beskriver formulan som lätt och anger värmeskydd upp till 230 °C. Det är märkets uppgifter. Välj 100 ml först när du vet att du vill använda just den parfymerade formulan regelbundet.",
+    "fits": [
+      "Du vill ha en oljeblandning som kan användas på både handdukstorkade och torra längder.",
+      "Du accepterar parfym och vill jämföra större flaska med mindre inköp."
+    ],
+    "skip": "Avstå om du söker ren arganolja eller behöver en garanti för att fint hår inte tyngs ned.",
+    "decisionTitle": "Det avgör valet",
+    "decision": "Du vill ha en oljeblandning som kan användas på både handdukstorkade och torra längder. Avstå om du söker ren arganolja eller behöver en garanti för att fint hår inte tyngs ned.",
+    "facts": [
+      [
+        "Variant",
+        "True Soft Argan Oil 100 ml"
+      ],
+      [
+        "Användning",
+        "Handdukstorkat eller torrt hår, från mitten av längderna till topparna"
+      ],
+      [
+        "Värmeskydd",
+        "Upp till 230 °C enligt maria nila"
+      ],
+      [
+        "INCI-markörer",
+        "Cyclomethicone, Dimethiconol, argan-, crambe- och rapsolja; Parfum"
+      ],
+      [
+        "Dosering",
+        "Ingen mängd i ml eller antal droppar anges på den svenska produktsidan"
+      ],
+      [
+        "Artikel Lyko",
+        "1003-152-0100"
+      ],
+      [
+        "Artikel NordicFeel",
+        "29797"
+      ],
+      [
+        "EAN",
+        "7391681036376"
+      ]
+    ],
+    "steps": [
+      [
+        "Fördela i längderna",
+        "maria nila anger handdukstorkat eller torrt hår och applicering från mitten av längderna ut i topparna."
+      ],
+      [
+        "Välj din torkning",
+        "Enligt instruktionen kan håret fönas eller lufttorkas."
+      ],
+      [
+        "Bedöm innan större köp",
+        "Välj inte större flaska enbart för att den innehåller mer. Hur formulan känns i ditt hår är inte avgjort av ingrediensnamnet."
+      ]
+    ],
+    "decisionSections": [
+      {
+        "question": "30 eller 100 ml – vilken storlek ska jag välja?",
+        "answer": "Hos NordicFeel kontrollerades 100 ml till 339,15 kr, alltså 3,39 kr/ml, den 1 oktober 2026. 30 ml visade 169,15 kr, alltså 5,64 kr/ml, men var slut i lager. Det senare är ett observerat jämförelsepris, inte ett köpklart alternativ. En större flaska ger lägre pris per ml i denna observation, men är inget bättre köp om du inte vill fortsätta använda formulan.",
+        "sourceUrls": [
+          "https://marianila.se/products/true-soft-argan-oil-100-ml"
+        ],
+        "merchantEvidence": "merchant-source-observations.json; supplemental size screenshots; price_recheck agent verified2026-10-01"
+      },
+      {
+        "question": "Ska True Soft användas på fuktigt eller torrt hår?",
+        "answer": "Båda fungerar enligt maria nilas instruktion: fördela produkten i handdukstorkade eller torra längder och toppar. Den svenska produktsidan anger ingen mängd i ml eller något antal droppar. Därför anger vi inte ett exakt dosmått eller hur många gånger flaskan räcker.",
+        "sourceUrls": [
+          "https://marianila.se/products/true-soft-argan-oil-100-ml"
+        ]
+      },
+      {
+        "question": "Vad innehåller True Soft utöver arganolja?",
+        "answer": "Den listade formulan börjar med Cyclomethicone och Dimethiconol och innehåller också argan-, crambe- och rapsolja samt parfym. Det är alltså en sammansatt hårprodukt, inte ren arganolja. Ingredienslistan visar innehåll; den visar inte ensam om produkten känns lätt i ditt hår.",
+        "sourceUrls": [
+          "https://marianila.se/products/true-soft-argan-oil-100-ml"
+        ]
+      },
+      {
+        "question": "Är maria nila True Soft Argan Oil ett värmeskydd?",
+        "answer": "Ja, den svenska produktsidan anger värmeskydd upp till 230 °C. Uppgiften kommer från maria nila och är inget temperaturtest som Elins val har gjort. Högsta angivna skyddstemperatur ska inte läsas som en rekommendation att ställa verktyget på den temperaturen.",
+        "sourceUrls": [
+          "https://marianila.se/products/true-soft-argan-oil-100-ml"
+        ]
+      },
+      {
+        "question": "Vad säger maria nila om fint hår?",
+        "answer": "maria nila beskriver oljan som lämplig för alla hårtyper och säger att den inte tynger ned. Det är ett varumärkespåstående, inte belägg för ett visst resultat på ditt fina hår. Vi har inte ett eget jämförande test som kan utse den lättaste oljan.",
+        "sourceUrls": [
+          "https://marianila.se/products/true-soft-argan-oil-100-ml"
+        ]
+      }
+    ],
+    "faqs": [
+      [
+        "30 eller 100 ml – vilken storlek ska jag välja?",
+        "Hos NordicFeel kontrollerades 100 ml till 339,15 kr, alltså 3,39 kr/ml, den 1 oktober 2026. 30 ml visade 169,15 kr, alltså 5,64 kr/ml, men var slut i lager. Det senare är ett observerat jämförelsepris, inte ett köpklart alternativ. En större flaska ger lägre pris per ml i denna observation, men är inget bättre köp om du inte vill fortsätta använda formulan."
+      ],
+      [
+        "Ska True Soft användas på fuktigt eller torrt hår?",
+        "Båda fungerar enligt maria nilas instruktion: fördela produkten i handdukstorkade eller torra längder och toppar. Den svenska produktsidan anger ingen mängd i ml eller något antal droppar. Därför anger vi inte ett exakt dosmått eller hur många gånger flaskan räcker."
+      ],
+      [
+        "Vad innehåller True Soft utöver arganolja?",
+        "Den listade formulan börjar med Cyclomethicone och Dimethiconol och innehåller också argan-, crambe- och rapsolja samt parfym. Det är alltså en sammansatt hårprodukt, inte ren arganolja. Ingredienslistan visar innehåll; den visar inte ensam om produkten känns lätt i ditt hår."
+      ],
+      [
+        "Är maria nila True Soft Argan Oil ett värmeskydd?",
+        "Ja, den svenska produktsidan anger värmeskydd upp till 230 °C. Uppgiften kommer från maria nila och är inget temperaturtest som Elins val har gjort. Högsta angivna skyddstemperatur ska inte läsas som en rekommendation att ställa verktyget på den temperaturen."
+      ],
+      [
+        "Vad säger maria nila om fint hår?",
+        "maria nila beskriver oljan som lämplig för alla hårtyper och säger att den inte tynger ned. Det är ett varumärkespåstående, inte belägg för ett visst resultat på ditt fina hår. Vi har inte ett eget jämförande test som kan utse den lättaste oljan."
+      ]
+    ],
+    "sources": [
+      {
+        "label": "true",
+        "url": "https://marianila.se/products/true-soft-argan-oil-100-ml",
+        "checkedAt": "2026-10-01",
+        "supports": "100 ml, användning, INCI och märkets påståenden om värmeskydd och viktlös känsla."
+      }
+    ],
+    "related": [
+      [
+        "Arganolja eller bonding oil",
+        "/skonhet/arganolja-eller-bonding-oil"
+      ],
+      [
+        "Leave in eller harolja",
+        "/skonhet/leave-in-eller-harolja"
+      ],
+      [
+        "Harolja eller varmeskydd",
+        "/skonhet/harolja-eller-varmeskydd"
+      ]
+    ],
+    "category": "Skönhet",
+    "topic": "Hårvård",
+    "hubGroup": "skonhet",
+    "tradeoffs": {
+      "advantageFacts": [
+        "Användning",
+        "Värmeskydd"
+      ],
+      "limitationExcerpts": [
+        "Båda fungerar enligt maria nilas instruktion: fördela produkten i handdukstorkade eller torra längder och toppar. Den svenska produktsidan anger ingen mängd i ml eller något antal droppar. Därför anger vi inte ett exakt dosmått eller hur många gånger flaskan räcker.",
+        "maria nila beskriver oljan som lämplig för alla hårtyper och säger att den inte tynger ned. Det är ett varumärkespåstående, inte belägg för ett visst resultat på ditt fina hår. Vi har inte ett eget jämförande test som kan utse den lättaste oljan."
+      ]
+    },
+    "selected": true,
+    "publicationStatus": "draft",
+    "wave": 2,
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w5-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fmaria-nila%2Fmaria-nila-palett-true-soft-argan-oil-100ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-10-01T09:43:54.613Z",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availability": "https://schema.org/InStock",
+      "availabilityCheckedAt": "2026-10-01T09:43:54.613Z",
+      "price": {
+        "amount": 399,
+        "currency": "SEK",
+        "checkedAt": "2026-10-01T09:43:54.613Z",
+        "source": "https://lyko.com/sv/maria-nila/maria-nila-palett-true-soft-argan-oil-100ml"
+      }
+    },
+    "merchantItemId": "1003-152-0100",
+    "additionalOffers": [
+      {
+        "merchantId": "nordicfeel",
+        "merchantName": "NordicFeel",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w5-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fmaria-nila-true-soft-29797",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:43:56.055Z",
+        "programId": "872761485",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:43:56.055Z",
+        "price": {
+          "amount": 339.15,
+          "currency": "SEK",
+          "checkedAt": "2026-10-01T09:43:56.055Z",
+          "source": "https://www.nordicfeel.com/se/product/maria-nila-true-soft-29797"
+        },
+        "merchantItemId": "29797"
+      }
+    ],
+    "gtin": "7391681036376",
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/wave2/w5.jpg",
+      "width": 331,
+      "height": 1440,
+      "alt": "maria nila True Soft Argan Oil, 100 ml, original produktbild från Lyko.",
+      "credit": "Produktbild: Lyko",
+      "source": "https://lyko.com/globalassets/product-images/maria-nila-true-soft-hair-oil-100ml-1003-152-0100_12.jpg?ref=8743DD6F2F",
+      "sha256": "e514c213c48a9b3623f9e7489395fba378d1591f059d8a442a2eb6bb759a30f5",
+      "permissionScope": "Original merchant asset for approved Elins val comparison/content channel; no general ownership or image-editing permission inferred. Program terms 2026-09-22 and PRODUCT-VISUAL-WORKFLOW.",
+      "reviewedAt": "2026-10-01"
+    }
+  },
+  {
+    "id": "redken-all-soft-heavy-cream",
+    "path": "/skonhet/redken-all-soft-harinpackning",
+    "brand": "Redken",
+    "name": "Redken All Soft Heavy Cream",
+    "variant": "250 ml",
+    "shortName": "Redken All Soft Heavy Cream",
+    "heading": "Redken All Soft Heavy Cream – hur ofta, och på vilket hår?",
+    "question": "Redken All Soft Heavy Cream – hur ofta, och på vilket hår?",
+    "metaTitle": "Hur ofta? Redken All Soft Heavy Cream",
+    "description": "Hur ofta ska All Soft Heavy Cream användas? Läs Redkens instruktioner, skillnaden mot Mega och vad som inte går att räkna ut per tub.",
+    "targetQuery": "redken all soft heavy cream hur ofta",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "answer": "Redken anger All Soft Heavy Cream för torrt och sprött hår. Den aktuella professionella produktsidan säger fem minuter efter schamponering; märkets produktguide anger fem till femton minuter och daglig eller veckovis användning. Det ger inget krav på daglig mask. Välj utifrån hur håret känns och följ anvisningen på tuben du köper.",
+    "fits": [
+      "Du söker en ursköljbar mask för torrt och sprött hår.",
+      "Du vill lägga ett vårdsteg efter schamponeringen och kan följa tubens verkningstid."
+    ],
+    "skip": "Avstå om du vill ha en olja som lämnas kvar eller ett bestämt antal användningar per tub.",
+    "decisionTitle": "Det avgör valet",
+    "decision": "Du söker en ursköljbar mask för torrt och sprött hår. Avstå om du vill ha en olja som lämnas kvar eller ett bestämt antal användningar per tub.",
+    "facts": [
+      [
+        "Variant",
+        "All Soft Heavy Cream Treatment Mask 250 ml"
+      ],
+      [
+        "Hårbehov",
+        "Torrt och sprött hår enligt Redken"
+      ],
+      [
+        "Produkttyp",
+        "Ursköljbar mask efter schampo"
+      ],
+      [
+        "Verkningstid",
+        "5 min på den professionella produktsidan;5–15 min i 2025 års produktguide"
+      ],
+      [
+        "Frekvens",
+        "Dagligen eller veckovis i Redkens produktguide"
+      ],
+      [
+        "Mängd per användning",
+        "Ingen standarddos i ml anges"
+      ],
+      [
+        "Artikel Lyko",
+        "1261-604-0250"
+      ],
+      [
+        "Artikel NordicFeel",
+        "96124"
+      ],
+      [
+        "EAN",
+        "3474636961054"
+      ]
+    ],
+    "steps": [
+      [
+        "Schamponera",
+        "Redkens professionella produktsida placerar masken efter schampo."
+      ],
+      [
+        "Applicera och vänta",
+        "Applicera i handdukstorkat hår. Produktsidan anger fem minuter; kontrollera också instruktionen på din 250 ml-tub."
+      ],
+      [
+        "Skölj ur",
+        "Detta är en mask som sköljs ur, inte Argan-6-oljan som lämnas kvar."
+      ]
+    ],
+    "decisionSections": [
+      {
+        "question": "Hur ofta och hur länge ska All Soft Heavy Cream sitta?",
+        "answer": "Redkens professionella produktsida anger fem minuter efter schamponering. Den officiella produktguiden från 2025 anger fem till femton minuter och daglig eller veckovis användning. Källorna har alltså olika tidsangivelser. Följ instruktionen på din förpackning; daglig användning är en möjlighet i guiden, inte ett behov vi kan fastställa för dig.",
+        "sourceUrls": [
+          "https://www.redkenpro.com/products/hair-care/all-soft-heavy-cream-super-treatment-mask",
+          "https://www.redkenpro.com/-/media/project/loreal/brand-sites/redken/americas/us_us/images/media-kit-test/2025-product-guide-avec-compression.pdf?rev=a76def91011f4673978bcb07732ecdd1"
+        ]
+      },
+      {
+        "question": "Är Heavy Cream till för torrt, tunt eller grovt hår?",
+        "answer": "Det gemensamma i Redkens primärkällor är torrt och sprött hår. Vi gör inte grova hårstrån till ett krav för Heavy Cream. I Redkens amerikanska FAQ skiljs All Soft för normal till medelgrov struktur från All Soft Mega för medelgrov till grov struktur. Hårbehov och hur produkten känns är viktigare än att läsa ordet Heavy som ett hårtypstest.",
+        "sourceUrls": [
+          "https://www.redkenpro.com/products/hair-care/all-soft-heavy-cream-super-treatment-mask",
+          "https://www.redken.com/hair-care/884486453013.html?bvstate=pg%3A3%2Fct%3Ar"
+        ]
+      },
+      {
+        "question": "Vad skiljer Heavy Cream från All Soft Mega Mask och Argan-6 Oil?",
+        "answer": "Heavy Cream är den ursköljbara masken i All Soft-serien. All Soft Mega är en annan serie som Redken beskriver för mer uttalad torrhet och grövre struktur. Argan-6 är i stället en olja som enligt produktguiden lämnas kvar i fuktiga eller torra längder. Namnen bör inte användas som om produkterna hade samma plats i rutinen.",
+        "sourceUrls": [
+          "https://www.redken.com/hair-care/884486453013.html?bvstate=pg%3A3%2Fct%3Ar",
+          "https://www.redkenpro.com/-/media/project/loreal/brand-sites/redken/americas/us_us/images/media-kit-test/2025-product-guide-avec-compression.pdf?rev=a76def91011f4673978bcb07732ecdd1"
+        ]
+      },
+      {
+        "question": "Kan Heavy Cream ersätta balsam den veckan?",
+        "answer": "På Redkens amerikanska sida beskriver en namngiven Redken-utbildare masken som ett möjligt alternativ till balsam beroende på hårstruktur. Samtidigt visar märkets australiska serierutin balsam följt av mask. Det finns alltså ingen gemensam regel i de lästa källorna att du alltid måste använda båda eller alltid ska hoppa över balsam. Kontrollera tubens instruktion.",
+        "sourceUrls": [
+          "https://www.redken.com/hair-care/884486453013.html?bvstate=pg%3A3%2Fct%3Ar",
+          "https://www.redken.com.au/products/haircare/all-soft"
+        ]
+      },
+      {
+        "question": "Hur länge räcker 250 ml Heavy Cream?",
+        "answer": "Redken anger ingen standarddos i ml i de lästa instruktionerna. Därför går det inte att räkna ett tillförlitligt antal tvättar eller en kostnad per användning från tubens 250 ml. Jämför pris per ml när priserna är verifierade, men skilj det från kostnad per behandling.",
+        "sourceUrls": [
+          "https://www.redkenpro.com/products/hair-care/all-soft-heavy-cream-super-treatment-mask",
+          "https://www.redkenpro.com/-/media/project/loreal/brand-sites/redken/americas/us_us/images/media-kit-test/2025-product-guide-avec-compression.pdf?rev=a76def91011f4673978bcb07732ecdd1"
+        ]
+      }
+    ],
+    "faqs": [
+      [
+        "Hur ofta och hur länge ska All Soft Heavy Cream sitta?",
+        "Redkens professionella produktsida anger fem minuter efter schamponering. Den officiella produktguiden från 2025 anger fem till femton minuter och daglig eller veckovis användning. Källorna har alltså olika tidsangivelser. Följ instruktionen på din förpackning; daglig användning är en möjlighet i guiden, inte ett behov vi kan fastställa för dig."
+      ],
+      [
+        "Är Heavy Cream till för torrt, tunt eller grovt hår?",
+        "Det gemensamma i Redkens primärkällor är torrt och sprött hår. Vi gör inte grova hårstrån till ett krav för Heavy Cream. I Redkens amerikanska FAQ skiljs All Soft för normal till medelgrov struktur från All Soft Mega för medelgrov till grov struktur. Hårbehov och hur produkten känns är viktigare än att läsa ordet Heavy som ett hårtypstest."
+      ],
+      [
+        "Vad skiljer Heavy Cream från All Soft Mega Mask och Argan-6 Oil?",
+        "Heavy Cream är den ursköljbara masken i All Soft-serien. All Soft Mega är en annan serie som Redken beskriver för mer uttalad torrhet och grövre struktur. Argan-6 är i stället en olja som enligt produktguiden lämnas kvar i fuktiga eller torra längder. Namnen bör inte användas som om produkterna hade samma plats i rutinen."
+      ],
+      [
+        "Kan Heavy Cream ersätta balsam den veckan?",
+        "På Redkens amerikanska sida beskriver en namngiven Redken-utbildare masken som ett möjligt alternativ till balsam beroende på hårstruktur. Samtidigt visar märkets australiska serierutin balsam följt av mask. Det finns alltså ingen gemensam regel i de lästa källorna att du alltid måste använda båda eller alltid ska hoppa över balsam. Kontrollera tubens instruktion."
+      ],
+      [
+        "Hur länge räcker 250 ml Heavy Cream?",
+        "Redken anger ingen standarddos i ml i de lästa instruktionerna. Därför går det inte att räkna ett tillförlitligt antal tvättar eller en kostnad per användning från tubens 250 ml. Jämför pris per ml när priserna är verifierade, men skilj det från kostnad per behandling."
+      ]
+    ],
+    "sources": [
+      {
+        "label": "redken",
+        "url": "https://www.redkenpro.com/products/hair-care/all-soft-heavy-cream-super-treatment-mask",
+        "checkedAt": "2026-10-01",
+        "supports": "Heavy Cream: torrt och sprött hår, fem minuter efter schamponering, skölj ur, INCI."
+      },
+      {
+        "label": "redkenguide",
+        "url": "https://www.redkenpro.com/-/media/project/loreal/brand-sites/redken/americas/us_us/images/media-kit-test/2025-product-guide-avec-compression.pdf?rev=a76def91011f4673978bcb07732ecdd1",
+        "checkedAt": "2026-10-01",
+        "supports": "2025 års officiella produktguide, PDF-sida 29/tryckta sidor 56–57: Heavy Cream 5–15 min dagligen/veckovis; Argan-6 lämnas kvar."
+      },
+      {
+        "label": "redkenfaq",
+        "url": "https://www.redken.com/hair-care/884486453013.html?bvstate=pg%3A3%2Fct%3Ar",
+        "checkedAt": "2026-10-01",
+        "supports": "USA-FAQ skiljer All Soft från Mega samt beskriver användning i stället för balsam; läst via sökverktyget, direkt hämtning 403."
+      },
+      {
+        "label": "redkenrange",
+        "url": "https://www.redken.com.au/products/haircare/all-soft",
+        "checkedAt": "2026-10-01",
+        "supports": "Australisk serierutin anger schampo och balsam följt av mask 2–3gånger/vecka; visar regional instruktionvariation."
+      }
+    ],
+    "related": [
+      [
+        "Olaplex rich hydration eller redken all soft",
+        "/skonhet/olaplex-rich-hydration-eller-redken-all-soft"
+      ],
+      [
+        "Balsam eller inpackning",
+        "/skonhet/balsam-eller-inpackning"
+      ],
+      [
+        "Redken acidic bonding concentrate",
+        "/skonhet/redken-acidic-bonding-concentrate"
+      ]
+    ],
+    "category": "Skönhet",
+    "topic": "Hårvård",
+    "hubGroup": "skonhet",
+    "tradeoffs": {
+      "advantageFacts": [
+        "Hårbehov",
+        "Frekvens"
+      ],
+      "limitationExcerpts": [
+        "Redkens professionella produktsida anger fem minuter efter schamponering. Den officiella produktguiden från 2025 anger fem till femton minuter och daglig eller veckovis användning. Källorna har alltså olika tidsangivelser. Följ instruktionen på din förpackning; daglig användning är en möjlighet i guiden, inte ett behov vi kan fastställa för dig.",
+        "Redken anger ingen standarddos i ml i de lästa instruktionerna. Därför går det inte att räkna ett tillförlitligt antal tvättar eller en kostnad per användning från tubens 250 ml. Jämför pris per ml när priserna är verifierade, men skilj det från kostnad per behandling."
+      ]
+    },
+    "selected": true,
+    "publicationStatus": "draft",
+    "wave": 2,
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w6-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fredken%2Fredken-all-soft-heavy-cream-mask-250-ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-10-01T09:43:57.503Z",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availability": "https://schema.org/InStock",
+      "availabilityCheckedAt": "2026-10-01T09:43:57.503Z",
+      "price": {
+        "amount": 429,
+        "currency": "SEK",
+        "checkedAt": "2026-10-01T09:43:57.503Z",
+        "source": "https://lyko.com/sv/redken/redken-all-soft-heavy-cream-mask-250-ml"
+      }
+    },
+    "merchantItemId": "1261-604-0250",
+    "additionalOffers": [
+      {
+        "merchantId": "nordicfeel",
+        "merchantName": "NordicFeel",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w6-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fredken-all-soft-heavy-cream-mask-96124",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:43:58.821Z",
+        "programId": "872761485",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:43:58.821Z",
+        "price": {
+          "amount": 429,
+          "currency": "SEK",
+          "checkedAt": "2026-10-01T09:43:58.821Z",
+          "source": "https://www.nordicfeel.com/se/product/redken-all-soft-heavy-cream-mask-96124"
+        },
+        "merchantItemId": "96124"
+      }
+    ],
+    "gtin": "3474636961054",
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/wave2/w6.jpg",
+      "width": 500,
+      "height": 1487,
+      "alt": "Redken All Soft Heavy Cream, 250 ml, original produktbild från Lyko.",
+      "credit": "Produktbild: Lyko",
+      "source": "https://lyko.com/globalassets/product-images/redken-all-soft-heavy-cream-mask-250-ml-1261-604-0250_1.jpg?ref=6263331636",
+      "sha256": "516566eea19fec4aa5533ef581b24dc29084b56a2f2447753d03274bed0f47c6",
+      "permissionScope": "Original merchant asset for approved Elins val comparison/content channel; no general ownership or image-editing permission inferred. Program terms 2026-09-22 and PRODUCT-VISUAL-WORKFLOW.",
+      "reviewedAt": "2026-10-01"
+    }
+  },
+  {
+    "id": "maria-nila-gloss-coat",
+    "path": "/skonhet/maria-nila-gloss-coat",
+    "brand": "maria nila",
+    "name": "maria nila Gloss Coat",
+    "variant": "200 ml",
+    "shortName": "maria nila Gloss Coat",
+    "heading": "maria nila Gloss Coat – glansspray eller värmeskydd? Vad ersätter den?",
+    "question": "maria nila Gloss Coat – glansspray eller värmeskydd? Vad ersätter den?",
+    "metaTitle": "Glans eller värmeskydd? maria nila Gloss Coat",
+    "description": "Vad ersätter Gloss Coat? Läs om föning, värmeskydd och märkets påstående om fyra dagars glans innan du väljer spray eller hårolja.",
+    "targetQuery": "maria nila gloss coat värmeskydd",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "answer": "Gloss Coat är enligt maria nila både en glansgivande förstyling och ett värmeskydd upp till 230 °C. Skillnaden mot en enkel finisholja är rutinen: sprayen ska fördelas i handdukstorkat hår och fönas för att aktiveras. Välj den om du redan vill föna; välj inte efter löftet om fyra dagar som om det vore ett garanterat resultat.",
+    "fits": [
+      "Du vill föna och söker en spray före stylingen.",
+      "Du vill ha märkets kombination av glans, frisskontroll och angivet värmeskydd i samma produkt."
+    ],
+    "skip": "Avstå om du vill ha en rutin där håret enbart lufttorkar eller kräver garanterad glans i fyra dagar.",
+    "decisionTitle": "Det avgör valet",
+    "decision": "Du vill föna och söker en spray före stylingen. Avstå om du vill ha en rutin där håret enbart lufttorkar eller kräver garanterad glans i fyra dagar.",
+    "facts": [
+      [
+        "Variant",
+        "Gloss Coat 200 ml"
+      ],
+      [
+        "Applicering",
+        "Handdukstorkat hår; kamma igenom och föna sektionsvis"
+      ],
+      [
+        "Värmeskydd",
+        "Upp till 230 °C enligt maria nila"
+      ],
+      [
+        "Glans och friss",
+        "Upp till 4 dagar är märkets testbaserade påstående"
+      ],
+      [
+        "Doft",
+        "Parfymerad; märket beskriver äpple, fresia och sandelträ"
+      ],
+      [
+        "Artikel Lyko",
+        "1003-539-0200"
+      ],
+      [
+        "Artikel NordicFeel",
+        "195347"
+      ],
+      [
+        "EAN",
+        "7391681407312"
+      ]
+    ],
+    "steps": [
+      [
+        "Spraya och kamma",
+        "Fördela i handdukstorkat hår och kamma igenom enligt maria nilas anvisning."
+      ],
+      [
+        "Föna sektionsvis",
+        "Föning aktiverar produkten enligt märket."
+      ],
+      [
+        "Välj avslut efter behov",
+        "Tillverkaren föreslår stylingverktyg som avslut för maximal glans; det betyder inte att varje rutin behöver ytterligare en produkt."
+      ]
+    ],
+    "decisionSections": [
+      {
+        "question": "Vilken glans och vilket värmeskydd lovar Gloss Coat?",
+        "answer": "maria nila anger glans, frisskontroll, skydd mot luftfuktighet och värmeskydd upp till 230 °C. Det är tillverkarens påståenden. Elins val har inte testat temperaturgränsen eller jämfört glansen med andra produkter, så uppgifterna ska inte läsas som ett oberoende testresultat.",
+        "sourceUrls": [
+          "https://marianila.se/products/gloss-coat"
+        ]
+      },
+      {
+        "question": "Måste Gloss Coat värmeaktiveras?",
+        "answer": "Ja. Tillverkaren instruerar att spraya i handdukstorkat hår, kamma igenom och föna sektion för sektion för att aktivera produkten. Instruktionen gäller alltså inte bara att spraya i torrt hår och låta det vara. Om du vill lufttorka hela vägen är just den rutinen inte den som märket beskriver.",
+        "sourceUrls": [
+          "https://marianila.se/products/gloss-coat",
+          "https://marianilapro.se/pages/gloss-coat"
+        ]
+      },
+      {
+        "question": "Vad betyder upp till fyra dagar i praktiken?",
+        "answer": "Upp till fyra dagar är maria nilas påstående, med en fotnot om instrumentella tester jämfört med obehandlat hår. Det är inte ett löfte om hur länge resultatet sitter i ditt hår eller efter dina tvättar. Köp inte produkten utifrån ett antal dagar som vi inte har kontrollerat i egen användning.",
+        "sourceUrls": [
+          "https://marianila.se/products/gloss-coat"
+        ]
+      },
+      {
+        "question": "Ersätter Gloss Coat ett vanligt värmeskydd?",
+        "answer": "Produkten har ett uttryckligt värmeskyddspåstående från maria nila, så den är inte bara en glansspray. Den lästa produktsidan ger däremot ingen allmän instruktion att ta bort varje annat värmeskydd ur alla rutiner. Följ Gloss Coats föningsteknik och instruktionerna för ditt stylingverktyg; vi påstår inte att fler lager alltid ger mer skydd.",
+        "sourceUrls": [
+          "https://marianila.se/products/gloss-coat",
+          "https://marianilapro.se/pages/gloss-coat"
+        ]
+      },
+      {
+        "question": "Ska jag välja 200 eller 50 ml Gloss Coat?",
+        "answer": "Hos NordicFeel kostade 200 ml 254,15 kr och 50 ml 135,15 kr vid kontrollen den 1 oktober 2026; båda fanns i lager. Det motsvarar 1,27 respektive 2,70 kr/ml. 200 ml gav lägre pris per ml i just den observationen. Välj ändå den mängd du faktiskt vill använda; en större flaska är inte en besparing om produkten blir stående.",
+        "sourceUrls": [
+          "https://marianila.se/products/gloss-coat"
+        ],
+        "merchantEvidence": "merchant-source-observations.json; supplemental size screenshots; price_recheck agent verified2026-10-01"
+      }
+    ],
+    "faqs": [
+      [
+        "Vilken glans och vilket värmeskydd lovar Gloss Coat?",
+        "maria nila anger glans, frisskontroll, skydd mot luftfuktighet och värmeskydd upp till 230 °C. Det är tillverkarens påståenden. Elins val har inte testat temperaturgränsen eller jämfört glansen med andra produkter, så uppgifterna ska inte läsas som ett oberoende testresultat."
+      ],
+      [
+        "Måste Gloss Coat värmeaktiveras?",
+        "Ja. Tillverkaren instruerar att spraya i handdukstorkat hår, kamma igenom och föna sektion för sektion för att aktivera produkten. Instruktionen gäller alltså inte bara att spraya i torrt hår och låta det vara. Om du vill lufttorka hela vägen är just den rutinen inte den som märket beskriver."
+      ],
+      [
+        "Vad betyder upp till fyra dagar i praktiken?",
+        "Upp till fyra dagar är maria nilas påstående, med en fotnot om instrumentella tester jämfört med obehandlat hår. Det är inte ett löfte om hur länge resultatet sitter i ditt hår eller efter dina tvättar. Köp inte produkten utifrån ett antal dagar som vi inte har kontrollerat i egen användning."
+      ],
+      [
+        "Ersätter Gloss Coat ett vanligt värmeskydd?",
+        "Produkten har ett uttryckligt värmeskyddspåstående från maria nila, så den är inte bara en glansspray. Den lästa produktsidan ger däremot ingen allmän instruktion att ta bort varje annat värmeskydd ur alla rutiner. Följ Gloss Coats föningsteknik och instruktionerna för ditt stylingverktyg; vi påstår inte att fler lager alltid ger mer skydd."
+      ],
+      [
+        "Ska jag välja 200 eller 50 ml Gloss Coat?",
+        "Hos NordicFeel kostade 200 ml 254,15 kr och 50 ml 135,15 kr vid kontrollen den 1 oktober 2026; båda fanns i lager. Det motsvarar 1,27 respektive 2,70 kr/ml. 200 ml gav lägre pris per ml i just den observationen. Välj ändå den mängd du faktiskt vill använda; en större flaska är inte en besparing om produkten blir stående."
+      ]
+    ],
+    "sources": [
+      {
+        "label": "gloss",
+        "url": "https://marianila.se/products/gloss-coat",
+        "checkedAt": "2026-10-01",
+        "supports": "200 ml, värmeaktivering, applicering och märkets glans-, friss- och värmeskyddspåståenden."
+      },
+      {
+        "label": "glosspro",
+        "url": "https://marianilapro.se/pages/gloss-coat",
+        "checkedAt": "2026-10-01",
+        "supports": "Märkets beskrivning av Gloss Coat som värmeaktiverad förstyling."
+      }
+    ],
+    "related": [
+      [
+        "Gloss coat eller glaze drops",
+        "/skonhet/gloss-coat-eller-glaze-drops"
+      ],
+      [
+        "Kerastase glaze drops",
+        "/skonhet/kerastase-glaze-drops"
+      ],
+      [
+        "Harolja eller varmeskydd",
+        "/skonhet/harolja-eller-varmeskydd"
+      ]
+    ],
+    "category": "Skönhet",
+    "topic": "Hårvård",
+    "hubGroup": "skonhet",
+    "tradeoffs": {
+      "advantageFacts": [
+        "Värmeskydd",
+        "Applicering"
+      ],
+      "limitationExcerpts": [
+        "Ja. Tillverkaren instruerar att spraya i handdukstorkat hår, kamma igenom och föna sektion för sektion för att aktivera produkten. Instruktionen gäller alltså inte bara att spraya i torrt hår och låta det vara. Om du vill lufttorka hela vägen är just den rutinen inte den som märket beskriver.",
+        "Upp till fyra dagar är maria nilas påstående, med en fotnot om instrumentella tester jämfört med obehandlat hår. Det är inte ett löfte om hur länge resultatet sitter i ditt hår eller efter dina tvättar. Köp inte produkten utifrån ett antal dagar som vi inte har kontrollerat i egen användning."
+      ]
+    },
+    "selected": true,
+    "publicationStatus": "draft",
+    "wave": 2,
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w7-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fmaria-nila%2Fmaria-nila-gloss-coat-200-ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-10-01T09:44:00.360Z",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availability": "https://schema.org/InStock",
+      "availabilityCheckedAt": "2026-10-01T09:44:00.360Z",
+      "price": {
+        "amount": 299,
+        "currency": "SEK",
+        "checkedAt": "2026-10-01T09:44:00.360Z",
+        "source": "https://lyko.com/sv/maria-nila/maria-nila-gloss-coat-200-ml"
+      }
+    },
+    "merchantItemId": "1003-539-0200",
+    "additionalOffers": [
+      {
+        "merchantId": "nordicfeel",
+        "merchantName": "NordicFeel",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w7-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fmaria-nila-gloss-coat-195347",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:44:01.509Z",
+        "programId": "872761485",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:44:01.509Z",
+        "price": {
+          "amount": 254.15,
+          "currency": "SEK",
+          "checkedAt": "2026-10-01T09:44:01.509Z",
+          "source": "https://www.nordicfeel.com/se/product/maria-nila-gloss-coat-195347"
+        },
+        "merchantItemId": "195347"
+      }
+    ],
+    "gtin": "7391681407312",
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/wave2/w7.jpg",
+      "width": 479,
+      "height": 1718,
+      "alt": "maria nila Gloss Coat, 200 ml, original produktbild från Lyko.",
+      "credit": "Produktbild: Lyko",
+      "source": "https://lyko.com/globalassets/product-images/maria-nila-gloss-coat-200-ml-1003-539-0200_1.jpg?ref=2F23734EAE",
+      "sha256": "244acb311a2436477c81f76ba4da715c3ecb84d37c2f836bd10cc398dfd2f6d2",
+      "permissionScope": "Original merchant asset for approved Elins val comparison/content channel; no general ownership or image-editing permission inferred. Program terms 2026-09-22 and PRODUCT-VISUAL-WORKFLOW.",
+      "reviewedAt": "2026-10-01"
+    }
+  },
+  {
     "id": "kerastase-elixir-ultime",
     "path": "/skonhet/kerastase-elixir-ultime",
     "brand": "Kérastase",
@@ -5825,6 +6626,18 @@
       [
         "Dosering",
         "Svenska sidan växlar mellan droppar och pumptryck; inget dosmått i ml"
+      ],
+      [
+        "Artikel Lyko",
+        "1015-608-0030"
+      ],
+      [
+        "Artikel NordicFeel",
+        "189032"
+      ],
+      [
+        "EAN",
+        "3474637215194"
       ]
     ],
     "steps": [
@@ -5936,7 +6749,7 @@
         "Kérastase beskriver värmeskydd före föning på den svenska sidan. Där anges ingen temperaturgräns i den lästa texten, så vi tilldelar inte produkten en siffra hämtad från en annan formula eller produkt. Uppgiften om värmeskydd är tillverkarens påstående, inte vårt test."
       ]
     },
-    "selected": false,
+    "selected": true,
     "publicationStatus": "draft",
     "wave": 2,
     "offer": {
@@ -5989,15 +6802,15 @@
     }
   },
   {
-    "id": "heat-slayer-150ml",
-    "name": "L’Oréal Paris Elvital Dream Length Heat Slayer",
-    "shortName": "Elvital Heat Slayer",
-    "variant": "150 ml",
-    "brand": "L’Oréal Paris",
-    "category": "Värmeskydd",
-    "path": "/skonhet/varmeskydd",
-    "merchantItemId": "1185-808-0150",
-    "gtin": "3600523966738",
+    "id": "cetaphil-gentle-cleanser-236ml",
+    "name": "Cetaphil Gentle Skin Cleanser",
+    "shortName": "Cetaphil Gentle Skin Cleanser",
+    "variant": "236 ml",
+    "brand": "Cetaphil",
+    "category": "Ansiktsrengöring",
+    "path": "/skonhet/cetaphil-rengoring",
+    "merchantItemId": "2306-101-0236",
+    "gtin": "5020465202554",
     "selected": false,
     "publicationStatus": "draft",
     "wave": 2,
@@ -6005,10 +6818,10 @@
     "changes": [],
     "sources": [
       {
-        "label": "L’Oréal Paris Sverige – Heat Slayer",
-        "url": "https://www.lorealparis.se/elvital/dream-length/heat-slayer-iron-spray",
-        "checkedAt": "2026-10-01T09:43:22.904186+00:00",
-        "supports": "Exakt namn och150ml i produktbild, applicering och tillverkarens230 °C-påstående."
+        "label": "Cetaphil Sverige – Gentle Skin Cleanser",
+        "url": "https://www.cetaphil.se/hudrengoring/gentle-skin-cleanser/3499320014396.html",
+        "checkedAt": "2026-10-01T09:43:22.982425+00:00",
+        "supports": "236ml som storleksval, normal/torr/känslig hud och aktuell svensk ingredienslista FIL1747."
       }
     ],
     "hypothesis": "appears for targetQuery within 14 days after publication",
@@ -6016,51 +6829,51 @@
     "offer": {
       "merchantId": "lyko",
       "merchantName": "Lyko",
-      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w9-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Floreal-paris%2Floreal-paris-dream-length-heat-spray-150ml",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w10-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fhudvard%2Fhudtillstand%2Fansikte%2Fkanslighet%2Fcetaphil-gentle-skincleanser-236ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-01T09:44:27.232Z",
+      "checkedAt": "2026-10-01T09:44:29.761Z",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-01T09:44:27.232Z",
+      "availabilityCheckedAt": "2026-10-01T09:44:29.761Z",
       "price": {
-        "amount": 69.9,
+        "amount": 109,
         "currency": "SEK",
-        "checkedAt": "2026-10-01T09:44:27.232Z",
-        "source": "https://lyko.com/sv/loreal-paris/loreal-paris-dream-length-heat-spray-150ml"
+        "checkedAt": "2026-10-01T09:44:29.761Z",
+        "source": "https://lyko.com/sv/hudvard/hudtillstand/ansikte/kanslighet/cetaphil-gentle-skincleanser-236ml"
       }
     },
     "additionalOffers": [
       {
         "merchantId": "nordicfeel",
         "merchantName": "NordicFeel",
-        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w9-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Floreal-paris-elvital-dream-length-heat-spray-90467",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w10-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fcetaphil-gentle-skin-cleanser-199811",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:44:28.541Z",
+        "checkedAt": "2026-10-01T09:44:30.998Z",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:44:28.541Z",
+        "availabilityCheckedAt": "2026-10-01T09:44:30.998Z",
         "price": {
-          "amount": 69,
+          "amount": 145,
           "currency": "SEK",
-          "checkedAt": "2026-10-01T09:44:28.541Z",
-          "source": "https://www.nordicfeel.com/se/product/loreal-paris-elvital-dream-length-heat-spray-90467"
+          "checkedAt": "2026-10-01T09:44:30.998Z",
+          "source": "https://www.nordicfeel.com/se/product/cetaphil-gentle-skin-cleanser-199811"
         },
-        "merchantItemId": "90467"
+        "merchantItemId": "199811"
       }
     ],
     "image": {
       "merchantId": "lyko",
-      "src": "/products/wave2/w9.jpg",
+      "src": "/products/wave2/w10.jpg",
       "width": 500,
-      "height": 2083,
-      "alt": "L’Oréal Paris Elvital Dream Length Heat Slayer, 150 ml, original produktbild från Lyko.",
+      "height": 975,
+      "alt": "Cetaphil Gentle Skin Cleanser, 236 ml, original produktbild från Lyko.",
       "credit": "Produktbild: Lyko",
-      "source": "https://lyko.com/globalassets/product-images/loreal-paris-dream-length-heat-spray-150ml-1185-808-0150_1.jpg?ref=EF3358D266",
-      "sha256": "f29335f2fa70569bc1b562b7499bc7462e753afe7478f9048865049c43491904",
+      "source": "https://lyko.com/globalassets/product-images/cetaphil-gentle-skin-cleanser-236ml-2306-101-0236_1.jpg?ref=A0C4AAFE5C",
+      "sha256": "e03429bc334e5109fcbd24e38b1af5deb6e1059a17dfd98e9c5924b5ec6698df",
       "permissionScope": "Original merchant asset for approved Elins val comparison/content channel; no general ownership or image-editing permission inferred. Program terms 2026-09-22 and PRODUCT-VISUAL-WORKFLOW.",
       "reviewedAt": "2026-10-01"
     }
