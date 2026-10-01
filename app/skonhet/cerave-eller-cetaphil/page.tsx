@@ -1,3 +1,4 @@
+// 2026-10-01: Wave-2 records and contextual paths updated; existing decision prose preserved.
 // Content refresh 2026-09-29: reviewed merchant paths and source link attributes.
 import { DecisionComparisonPage } from "@/app/skonhet/_components/DecisionComparisonPage";
 import {

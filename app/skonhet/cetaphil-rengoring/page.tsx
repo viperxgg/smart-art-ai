@@ -1,3 +1,4 @@
+// 2026-10-01: Wave-2 records and contextual paths updated; existing decision prose preserved.
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";

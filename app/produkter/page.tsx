@@ -1,3 +1,4 @@
+// 2026-10-01: Wave-2 records and contextual paths updated; existing decision prose preserved.
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";

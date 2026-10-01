@@ -1,3 +1,4 @@
+// 2026-10-01: Wave-2 records and contextual paths updated; existing decision prose preserved.
 // 2026-09-06: "Bäst i test 2026" card for /guider/harinpackning, EditorialMeta
 // under the H1, and three new hair masks under Hårvård via lib/categoryGroups.ts
 // (SHARED_LIB_MODULE) — this dated comment is what moves the sitemap date.
