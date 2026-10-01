@@ -101,6 +101,8 @@ function gitDate(file) {
 // when the content is actually refreshed.
 const SHARED_LIB_MODULES = new Set([
   "selected-products",
+  "partner-comparisons",
+  "selected-product-records",
   "products",
   "wave-products",
   "wave-content",
@@ -158,8 +160,16 @@ function dataDepsFor(pageFile, route) {
   return deps;
 }
 
+// Preserve the previously recorded per-route date as a floor when a shared
+// registry becomes explicitly excluded. A batch addition must not relabel all
+// unrelated guides, and removing a coarse dependency must not move dates back.
+const previousDates = new Map(
+  [...execFileSync("git", ["show", "HEAD:lib/sitemap-entries.ts"], { cwd: ROOT, encoding: "utf8" }).matchAll(/path:\s*"([^"]+)",\s*lastModified:\s*"([^"]+)"/g)]
+    .map(match => [match[1], match[2]]),
+);
+
 function lastModifiedFor(pageFile, route) {
-  const dates = [gitDate(pageFile), ...dataDepsFor(pageFile, route).map(gitDate)];
+  const dates = [previousDates.get(route) ?? FALLBACK_DATE, gitDate(pageFile), ...dataDepsFor(pageFile, route).map(gitDate)];
   return dates.sort().at(-1) ?? FALLBACK_DATE;
 }
 
