@@ -22,9 +22,10 @@ function load(name) {
 const { selectedProducts, selectedProductSchema } = load('@/lib/selected-products');
 const { partnerComparisons, comparisonSchema } = load('@/lib/partner-comparisons');
 const { getProductTradeoffs } = load('@/lib/selected-product-tradeoffs');
-const waveProducts = selectedProducts.filter(product => product.decisionSections?.length);
+const waveProducts = selectedProducts.filter(product => product.decisionSections?.length && product.wave !== 2);
 assert.equal(waveProducts.length, 14, 'All 14 wave-1 product guides are covered');
-assert.equal(partnerComparisons.length, 9, 'All nine wave-1 comparisons are covered');
+const waveComparisons = partnerComparisons.filter(page => page.wave !== 2);
+assert.equal(waveComparisons.length, 9, 'All nine wave-1 comparisons are covered');
 
 let faqQuestions = 0;
 function checkQuestions(schema, sections) {
@@ -56,7 +57,7 @@ for (const product of waveProducts) {
       && section.sourceUrls.some(url => product.sources.some(source => source.url === url))), `${product.id}: limitation lacks a sourced answer`);
   }
 }
-for (const page of partnerComparisons) checkQuestions(comparisonSchema(page, now), page.sections);
+for (const page of waveComparisons) checkQuestions(comparisonSchema(page, now), page.sections);
 const rise = selectedProducts.find(product => product.id === 'ghd-rise');
 assert.ok(rise.metaTitle.length <= 60);
 assert.equal(rise.heading, 'ghd Rise Volumising Hot Brush – fungerar den bara på torrt hår?');

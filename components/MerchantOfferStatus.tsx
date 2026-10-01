@@ -9,5 +9,5 @@ export function MerchantOfferStatus({ offer, now }: { offer: MerchantOffer; now?
       {presentation.stockMessage}
     </p>;
   }
-  return offer.price ? <MerchantPrice price={offer.price} /> : null;
+  return offer.price ? <MerchantPrice price={offer.price} /> : offer.priceUnavailableReason ? <p className="mt-3 text-xs leading-relaxed">{offer.priceUnavailableReason}</p> : null;
 }

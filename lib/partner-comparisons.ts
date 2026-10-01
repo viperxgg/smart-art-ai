@@ -7,7 +7,11 @@ import { siteConfig } from "@/lib/site";
 export type PartnerComparison = {
   id: string; path: string; title: string; metaTitle: string; description: string;
   answer: string; productIds: string[]; productPaths: string[];
-  targetQuery: string; hypothesis: string; publishedAt: string; updatedAt: string;
+  targetQuery: string; hypothesis: string; publishedAt?: string; updatedAt: string;
+  publicationStatus?: "draft"; wave?: 2;
+  decisionPage?: boolean;
+  changes?: { date: string; note: string }[];
+  tradeoffs?: { advantages: string[]; limitations: string[] };
   fits: string[]; skip: string; rows: string[][];
   sections: { question: string; answer: string }[];
   sources: { label: string; url: string; checkedAt: string; supports: string }[];

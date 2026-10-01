@@ -109,7 +109,7 @@ const selections: Record<string, TradeoffSelection> = {
 };
 
 export function getProductTradeoffs(product: SelectedProduct) {
-  const selection = selections[product.id];
+  const selection = product.tradeoffs ?? selections[product.id];
   if (!selection) return { advantages: [], limitations: [] };
   const sourcedSections = (product.decisionSections ?? []).filter(section =>
     section.sourceUrls.some(url => product.sources.some(source => source.url === url)),

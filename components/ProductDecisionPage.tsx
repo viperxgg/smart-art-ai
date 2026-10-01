@@ -2,6 +2,9 @@ import { buildDecisionArticle } from "@/lib/site-schema";
 import Link from "next/link";
 import { getProductRecord } from "@/lib/selected-product-records";
 import { DecisionCard } from "@/components/DecisionCard";
+import { LegacyMerchantPath } from "@/components/LegacyMerchantPath";
+import { Wave2RelatedLinks } from "@/components/Wave2RelatedLinks";
+import { legacySelectedProductIds } from "@/lib/legacy-merchant-paths";
 import { EditorialByline } from "@/components/EditorialByline";
 import { AmazonPurchaseCta } from "@/components/AmazonPurchaseCta";
 import { Breadcrumbs, buildBreadcrumbSchema } from "@/components/Breadcrumbs";
@@ -40,6 +43,7 @@ export function ProductDecisionPage({ pick, decision, reviews, pageHeading, firs
           <EditorialByline reviewedAt={decision.reviewedAt} className="mt-4" />
           {firstAnswer ? <p className="mt-5 text-lg leading-8 text-ink-soft">{firstAnswer}</p> : null}
         </header>
+        {legacySelectedProductIds[pick.product.slug] ? <LegacyMerchantPath options={decision.options} productPaths={[pick.href]} /> : null}
         <DecisionCard decision={decision} />
         <div className="max-w-3xl">
           <p className="mt-4 text-sm leading-relaxed text-ink-soft">Webbplatsen innehåller affiliatelänkar och kan få ersättning vid köp.</p>
@@ -51,6 +55,7 @@ export function ProductDecisionPage({ pick, decision, reviews, pageHeading, firs
           <Link href={decision.comparison.href} className="underline underline-offset-4">{decision.comparison.label}</Link>
           <Link href="/fraga-elin" className="underline underline-offset-4">Fråga Elin – valfri AI-hjälp</Link>
         </nav>
+        <Wave2RelatedLinks path={pick.href} />
         <div className="mt-10">
           <ProductComments product={pick.product} reviews={reviews} turnstileSiteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY} sectionId={pick.reviewSectionId} formId={pick.reviewFormId} />
         </div>

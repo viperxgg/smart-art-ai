@@ -7,6 +7,8 @@ import { EditorialByline } from "@/components/EditorialByline";
 import { MerchantOfferStatus } from "@/components/MerchantOfferStatus";
 import { SelectedProductGallery } from "@/components/SelectedProductGallery";
 import { PartnerOfferCards } from "@/components/PartnerOfferCards";
+import { CompactMerchantChoices } from "@/components/CompactMerchantChoices";
+import { Wave2RelatedLinks } from "@/components/Wave2RelatedLinks";
 import { getAmazonOffer } from "@/lib/amazon-offers";
 import { getMerchantOfferPresentation } from "@/lib/merchant-offer-availability";
 import { getMerchantOffer, getMerchantOffers } from "@/lib/merchant-offers";
@@ -37,12 +39,12 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
       <div className="grid items-start gap-6 md:grid-cols-2 md:gap-x-12">
         <header className="md:col-start-2 md:row-start-1">
           <p className="text-xs font-bold uppercase tracking-widest text-wine">{product.topic} · Produktguide</p>
-          <h1 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">{product.heading ?? product.shortName}</h1>
+          <h1 className={`${product.wave === 2 ? "mt-2 text-2xl" : "mt-4 text-3xl"} font-display font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl`}>{product.heading ?? product.shortName}</h1>
           {product.targetQuery ? <p className="mt-4 text-base leading-relaxed text-ink-soft" data-first-answer>{product.answer}</p> : <p className="mt-4 text-sm font-semibold text-ink-soft">{product.variant}</p>}
         </header>
         <div className="md:col-start-2 md:row-start-2">
           {!product.targetQuery ? <><h2 className="text-xl font-bold leading-snug">{product.question}</h2><p className="mt-3 text-base leading-relaxed text-ink-soft">{product.answer}</p></> : <p className="text-sm text-ink-soft">{product.variant}</p>}
-          <a href="#butiker" className={`${buttonClass} mt-6`}>Se pris och butik <ArrowRight size={18} aria-hidden="true" /></a>
+          {product.wave === 2 ? <CompactMerchantChoices productIds={[product.id]} now={now} /> : <a href="#butiker" className={`${buttonClass} mt-6`}>Se pris och butik <ArrowRight size={18} aria-hidden="true" /></a>}
           <EditorialByline reviewedAt={product.updatedAt} changes={product.changes} className="mt-4" />
           <Link href="#kallor" className="inline-flex min-h-11 items-center text-xs text-ink-soft underline underline-offset-4">Källor och metod</Link>
         </div>
@@ -51,11 +53,11 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
       {sizeNotice}
       <div className="mt-12 grid gap-5 md:grid-cols-2">
         <section aria-labelledby="passar" className="rounded-2xl border border-line bg-surface p-6">
-          <h2 id="passar" className="flex items-center gap-2 font-display text-2xl font-bold"><Check size={22} aria-hidden="true" />Kan passa om</h2>
+          <h2 id="passar" className="flex items-center gap-2 font-display text-2xl font-bold"><Check size={22} aria-hidden="true" />Passar dig om</h2>
           <ul className="mt-4 list-disc space-y-3 pl-5 text-sm leading-relaxed">{product.fits.map(fit => <li key={fit}>{fit}</li>)}</ul>
         </section>
         <section aria-labelledby="avvakta" className="rounded-2xl border border-line p-6">
-          <h2 id="avvakta" className="flex items-center gap-2 font-display text-2xl font-bold"><CircleHelp size={22} aria-hidden="true" />När du kan avvakta</h2>
+          <h2 id="avvakta" className="flex items-center gap-2 font-display text-2xl font-bold"><CircleHelp size={22} aria-hidden="true" />Avstå om</h2>
           <p className="mt-4 text-sm leading-relaxed text-ink-soft">{product.skip}</p>
         </section>
       </div>
@@ -141,6 +143,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
         {product.related.map(([title, href]) => <Link key={href} href={href} className="inline-flex min-h-11 items-center gap-2 text-sm font-bold text-wine underline underline-offset-4">{title}<ArrowRight size={16} aria-hidden="true" /></Link>)}
         {product.related.every(([, href]) => href !== "/produkter") ? <Link href="/produkter" className="inline-flex min-h-11 items-center text-sm font-bold text-wine underline underline-offset-4">Alla produktval</Link> : null}
       </nav>
+      <Wave2RelatedLinks path={product.path} />
     </article>
   </main>;
 }

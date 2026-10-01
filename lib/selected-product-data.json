@@ -4798,5 +4798,1271 @@
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
     ]
+  },
+  {
+    "id": "olaplex-no7-bonding-oil-30ml",
+    "name": "Olaplex No.7 Bonding Oil",
+    "variant": "30 ml",
+    "path": "/skonhet/olaplex-no7-bonding-oil",
+    "heading": "Olaplex No.7 – olja, värmeskydd eller reparation? Vad gör den egentligen?",
+    "question": "Olaplex No.7 – olja, värmeskydd eller reparation? Vad gör den egentligen?",
+    "metaTitle": "Olaplex No.7 – olja, värmeskydd eller reparation?",
+    "description": "Vad gör Olaplex No.7? Vi går igenom dosering, värmeskydd och skillnaden mot No.3 och No.8, så att du kan välja rätt steg i din hårrutin.",
+    "answer": "Olaplex No.7 är en hårolja som lämnas kvar i håret för glans och styling. Olaplex anger även värmeskydd upp till 232 °C och beskriver produkten som reparerande. Det är tillverkarens uppgifter, inte vårt test. Välj den för ett avslutande steg; No.3PLUS före schampo och No.8 efter schampo fyller andra roller i rutinen.",
+    "publicationStatus": "draft",
+    "wave": 2,
+    "selected": true,
+    "hubGroup": "skonhet",
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "category": "Hårvård",
+    "topic": "Ett köpbeslut med tydliga begränsningar",
+    "shortName": "Olaplex No.7 Bonding Oil",
+    "brand": "Olaplex",
+    "merchantItemId": "1737-110-0030",
+    "targetQuery": "olaplex no 7 vad gör den",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "fits": [
+      "Du vill ha en olja för glans före eller efter styling.",
+      "Du föredrar en startdos i droppar och anpassar mängden efter håret."
+    ],
+    "skip": "Avstå om du söker en mask som sköljs ur eller vill ha en garanti för att fint hår aldrig tyngs ned.",
+    "decisionTitle": "Välj efter steget som saknas i rutinen",
+    "decision": "Vår bedömning: No.7 är ett rimligt val när du vill lägga till en olja som får sitta kvar. Köp den inte enbart för ordet bonding om du egentligen söker en behandling före schampo. Vi har inte jämfört reparationsresultat eller värmeskydd i ett eget test.",
+    "facts": [
+      [
+        "Storlek",
+        "30 ml; tillverkaren visar också 60 ml."
+      ],
+      [
+        "Startdos",
+        "2–3 droppar enligt Olaplex."
+      ],
+      [
+        "Applicering",
+        "I fuktigt eller torrt hår."
+      ],
+      [
+        "Värmeskydd",
+        "Upp till 232 °C enligt Olaplex."
+      ],
+      [
+        "Innehåll",
+        "Innehåller silikoner och parfym enligt INCI."
+      ],
+      [
+        "Artikel Lyko",
+        "1737-110-0030"
+      ],
+      [
+        "Artikel NordicFeel",
+        "81696"
+      ],
+      [
+        "EAN",
+        "0850045076085"
+      ]
+    ],
+    "steps": [
+      [
+        "Dosera",
+        "Olaplex anger 2–3 droppar som start i fuktigt eller torrt hår."
+      ],
+      [
+        "Fördela",
+        "Fördela produkten jämnt innan värmestyling om du använder den som värmeskydd."
+      ],
+      [
+        "Anpassa",
+        "Efter styling kan oljan användas för glans. Bedöm behovet innan du tillför mer."
+      ]
+    ],
+    "decisionSections": [
+      {
+        "question": "Hur mycket No.7 ska man använda – i vått eller torrt hår?",
+        "answer": "Olaplex anger 2–3 droppar i fuktigt eller torrt hår och användning vid behov. Mängden är en startpunkt; långt eller tätt hår kan kräva en annan mängd. Vi räknar inte om droppar till milliliter eller lovar ett visst antal användningar.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml",
+          "https://au.olaplex.com/blogs/manual/home-use-with-olaplex-no-7-bonding-oil"
+        ]
+      },
+      {
+        "question": "Hur högt värmeskydd anger Olaplex?",
+        "answer": "Olaplex uppger värmeskydd upp till 232 °C. Siffran är ett tillverkarpåstående och visar inte att hög temperatur är rätt för ditt hår. Vi har inte jämfört skyddet med andra oljor eller sprayer.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml"
+        ]
+      },
+      {
+        "question": "Ersätter No.7 No.3PLUS eller No.8?",
+        "answer": "Nej, användningsstegen skiljer sig. No.7 lämnas kvar i håret. No.3PLUS är en behandling före schampo som enligt Olaplex sköljs ur efter tre minuter. No.8 är en mask efter schampo; Olaplex rekommenderar tio minuter och att den ersätter balsam vid den tvätten. Det är inte belägg för att alla tre behövs.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml",
+          "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
+          "https://uk.olaplex.com/pages/frequently-asked-questions?limit=50"
+        ]
+      },
+      {
+        "question": "Är 30 eller 60 ml mest prisvärt?",
+        "answer": "Vid kontroll hos NordicFeel den 1 oktober 2026 kostade 30 ml 379 kr, cirka 12,63 kr/ml, och 60 ml 675 kr, 11,25 kr/ml. Den större flaskan hade lägre pris per ml men högre totalpris. Frakt ingår inte i beräkningen. Välj inte större enbart för jämförpriset om du är osäker på hur mycket du använder.",
+        "sourceUrls": [
+          "https://www.nordicfeel.com/se/product/olaplex-no7-bonding-oil-81696",
+          "https://www.nordicfeel.com/se/product/olaplex-no7-bonding-oil-124511"
+        ]
+      },
+      {
+        "question": "Kan No.7 tynga ned fint hår?",
+        "answer": "Olaplex beskriver oljan som lätt och avsedd för alla hårtyper. Det är inte en garanti för hur den känns i ditt hår. Vi har inte gjort ett eget test på fint hår. Börja med tillverkarens lilla dos och bedöm resultatet innan du lägger på mer.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Olaplex – No.7 Bonding Oil",
+        "url": "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml",
+        "checkedAt": "2026-10-01T09:43:20.422198+00:00",
+        "supports": "Storlekar, användning, tillverkarens värmeskydd och INCI."
+      },
+      {
+        "label": "Olaplex – användningsguide No.7",
+        "url": "https://au.olaplex.com/blogs/manual/home-use-with-olaplex-no-7-bonding-oil",
+        "checkedAt": "2026-10-01T09:43:20.422198+00:00",
+        "supports": "Dosering och placering i rutinen."
+      },
+      {
+        "label": "Olaplex – No.3PLUS",
+        "url": "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
+        "checkedAt": "2026-10-01T09:48:19.610086+00:00",
+        "supports": "Tre minuter före schampo, sedan schampo och balsam."
+      },
+      {
+        "label": "Olaplex – frågor om No.8",
+        "url": "https://uk.olaplex.com/pages/frequently-asked-questions?limit=50",
+        "checkedAt": "2026-10-01T09:48:19.610086+00:00",
+        "supports": "Tio minuter efter schampo och ersätter balsam vid den tvätten."
+      },
+      {
+        "label": "NordicFeel – Olaplex No.7 Bonding Oil 30 ml",
+        "url": "https://www.nordicfeel.com/se/product/olaplex-no7-bonding-oil-81696",
+        "checkedAt": "2026-10-01T09:42:56.241Z",
+        "supports": "Exakt storlek och daterat pris för en produkt; frakt tillkommer enligt butikens villkor."
+      },
+      {
+        "label": "NordicFeel – Olaplex No.7 Bonding Oil 60 ml",
+        "url": "https://www.nordicfeel.com/se/product/olaplex-no7-bonding-oil-124511",
+        "checkedAt": "2026-10-01T09:45:42.340Z",
+        "supports": "Exakt storlek och daterat pris för en produkt; frakt tillkommer enligt butikens villkor."
+      }
+    ],
+    "related": [
+      [
+        "Leave-in eller hårolja?",
+        "/skonhet/leave-in-eller-harolja"
+      ],
+      [
+        "No.3PLUS före schampo",
+        "/skonhet/olaplex-no3"
+      ],
+      [
+        "No.7 eller Elixir Ultime?",
+        "/skonhet/olaplex-no7-eller-kerastase-elixir-ultime"
+      ],
+      [
+        "No.7 eller True Soft Argan Oil?",
+        "/skonhet/arganolja-eller-bonding-oil"
+      ]
+    ],
+    "tradeoffs": {
+      "advantageFacts": [
+        "Startdos",
+        "Applicering",
+        "Värmeskydd"
+      ],
+      "limitationExcerpts": [
+        "Olaplex anger 2–3 droppar i fuktigt eller torrt hår och användning vid behov. Mängden är en startpunkt; långt eller tätt hår kan kräva en annan mängd. Vi räknar inte om droppar till milliliter eller lovar ett visst antal användningar.",
+        "Olaplex beskriver oljan som lätt och avsedd för alla hårtyper. Det är inte en garanti för hur den känns i ditt hår. Vi har inte gjort ett eget test på fint hår. Börja med tillverkarens lilla dos och bedöm resultatet innan du lägger på mer."
+      ]
+    },
+    "faqs": [
+      [
+        "Hur mycket No.7 ska man använda – i vått eller torrt hår?",
+        "Olaplex anger 2–3 droppar i fuktigt eller torrt hår och användning vid behov. Mängden är en startpunkt; långt eller tätt hår kan kräva en annan mängd. Vi räknar inte om droppar till milliliter eller lovar ett visst antal användningar."
+      ],
+      [
+        "Hur högt värmeskydd anger Olaplex?",
+        "Olaplex uppger värmeskydd upp till 232 °C. Siffran är ett tillverkarpåstående och visar inte att hög temperatur är rätt för ditt hår. Vi har inte jämfört skyddet med andra oljor eller sprayer."
+      ],
+      [
+        "Ersätter No.7 No.3PLUS eller No.8?",
+        "Nej, användningsstegen skiljer sig. No.7 lämnas kvar i håret. No.3PLUS är en behandling före schampo som enligt Olaplex sköljs ur efter tre minuter. No.8 är en mask efter schampo; Olaplex rekommenderar tio minuter och att den ersätter balsam vid den tvätten. Det är inte belägg för att alla tre behövs."
+      ]
+    ],
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w1-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Folaplex%2Folaplex-no7-bonding-oil-30-ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-10-01T09:42:34.989Z",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availability": "https://schema.org/InStock",
+      "availabilityCheckedAt": "2026-10-01T09:42:34.989Z",
+      "price": {
+        "amount": 379,
+        "currency": "SEK",
+        "checkedAt": "2026-10-01T09:42:34.989Z",
+        "source": "https://lyko.com/sv/olaplex/olaplex-no7-bonding-oil-30-ml"
+      }
+    },
+    "additionalOffers": [
+      {
+        "merchantId": "nordicfeel",
+        "merchantName": "NordicFeel",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w1-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Folaplex-no7-bonding-oil-81696",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:42:56.241Z",
+        "programId": "872761485",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:42:56.241Z",
+        "price": {
+          "amount": 379,
+          "currency": "SEK",
+          "checkedAt": "2026-10-01T09:42:56.241Z",
+          "source": "https://www.nordicfeel.com/se/product/olaplex-no7-bonding-oil-81696"
+        },
+        "merchantItemId": "81696"
+      }
+    ],
+    "gtin": "0850045076085",
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/wave2/w1.jpg",
+      "width": 500,
+      "height": 883,
+      "alt": "Olaplex No.7 Bonding Oil, 30 ml, original produktbild från Lyko.",
+      "credit": "Produktbild: Lyko",
+      "source": "https://lyko.com/globalassets/product-images/olaplex-no.7-bonding-oil-30-ml-1737-110-0030_1.jpg?ref=AB03BCF6F1",
+      "sha256": "d61643cc4f747e417b3165ecc0c8ce74e2ca3f0046a0e5649445180e391d6f21",
+      "permissionScope": "Original merchant asset for approved Elins val comparison/content channel; no general ownership or image-editing permission inferred. Program terms 2026-09-22 and PRODUCT-VISUAL-WORKFLOW.",
+      "reviewedAt": "2026-10-01"
+    }
+  },
+  {
+    "id": "olaplex-rich-hydration-mask-200ml",
+    "name": "Olaplex Rich Hydration Mask",
+    "variant": "200 ml",
+    "path": "/skonhet/olaplex-rich-hydration-mask",
+    "heading": "Olaplex Rich Hydration Mask – bara för tjockt hår, och hur ofta?",
+    "question": "Olaplex Rich Hydration Mask – bara för tjockt hår, och hur ofta?",
+    "metaTitle": "Olaplex Rich Hydration Mask – för vem och hur ofta?",
+    "description": "Är Rich Hydration Mask rätt för ditt hår? Se Olaplex råd om hårtyp, verkningstid och balsam samt vad som skiljer masken från No.8.",
+    "answer": "Rich Hydration Mask är enligt Olaplex avsedd för torrt hår eller medelgrova till grova hårstrån. Den är alltså inte enbart för tjockt hår. Använd efter schampo, låt verka 3–5 minuter och skölj ur. Olaplex rekommenderar veckovis användning i stället för balsam vid den tvätten. Vår bedömning bygger på produktinformationen, inte ett eget test.",
+    "publicationStatus": "draft",
+    "wave": 2,
+    "selected": true,
+    "hubGroup": "skonhet",
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "category": "Hårvård",
+    "topic": "Ett köpbeslut med tydliga begränsningar",
+    "shortName": "Olaplex Rich Hydration Mask",
+    "brand": "Olaplex",
+    "merchantItemId": "1737-147-0200",
+    "targetQuery": "olaplex rich hydration mask hur ofta",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "fits": [
+      "Du har torrt hår eller medelgrova till grova hårstrån.",
+      "Du vill ersätta balsam med en mask vid en veckotvätt."
+    ],
+    "skip": "Välj försiktigt om du har fina hårstrån och söker den lättare av Olaplex nya masker; Weightless Nourishing riktas till fint till medelgrovt hår.",
+    "decisionTitle": "En rik mask för ett tydligt behov",
+    "decision": "Vår bedömning: välj Rich Hydration när en rik mask passar din hårtyp och du vill lägga 3–5 minuter efter schampo. Har ditt vanliga balsam redan rätt känsla finns inget i vårt underlag som visar att en extra produkt behövs.",
+    "facts": [
+      [
+        "Storlek hos butikerna",
+        "200 ml är varianten i denna jämförelse."
+      ],
+      [
+        "Hårtyp",
+        "Torrt hår eller medelgrova till grova hårstrån enligt Olaplex."
+      ],
+      [
+        "Verkningstid",
+        "3–5 minuter enligt Olaplex."
+      ],
+      [
+        "Rutin",
+        "Veckovis, i stället för balsam vid den tvätten."
+      ],
+      [
+        "Innehåll",
+        "Bland annat avokadoolja, sheasmör och parfym enligt INCI."
+      ],
+      [
+        "Artikel Lyko",
+        "1737-147-0200"
+      ],
+      [
+        "Artikel NordicFeel",
+        "194827"
+      ],
+      [
+        "EAN",
+        "0850056933919"
+      ]
+    ],
+    "steps": [
+      [
+        "Tvätta",
+        "Schamponera håret."
+      ],
+      [
+        "Applicera",
+        "Fördela rikligt i våta längder och toppar enligt Olaplex."
+      ],
+      [
+        "Skölj",
+        "Låt verka 3–5 minuter och skölj ur. Använd i stället för balsam den gången."
+      ]
+    ],
+    "decisionSections": [
+      {
+        "question": "Hur länge och hur ofta ska Rich Hydration Mask användas?",
+        "answer": "Olaplex anger 3–5 minuter efter schampo, med applicering i våta längder och toppar, följt av ursköljning. Rekommendationen är en gång i veckan i stället för balsam. Vi har inte testat om en längre verkningstid ger ett bättre resultat.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+          "https://olaplex.com/products/olaplex-the-rich-hydration-routine"
+        ]
+      },
+      {
+        "question": "Är Rich Hydration bara för tjockt hår?",
+        "answer": "Tillverkaren anger torrt hår eller medelgrova till grova hårstrån. Torrhet och hårstråets grovlek är därför två olika skäl till valet. Weightless Nourishing riktas i stället till fint till medelgrovt hår. Vilken känsla du föredrar kan inte avgöras enbart av produktnamnet.",
+        "sourceUrls": [
+          "https://olaplex.com/blogs/news/weightless-nourishing-mask-vs-rich-hydration-mask"
+        ]
+      },
+      {
+        "question": "Vad skiljer Rich Hydration från No.8?",
+        "answer": "Rich Hydration har enligt den aktuella produktsidan 3–5 minuters verkningstid. Olaplex äldre No.8-information anger tio minuter efter schampo. Båda används i stället för balsam vid den tvätten. Vi har inget eget jämförande test som visar att den ena ger bättre resultat i ditt hår.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+          "https://uk.olaplex.com/pages/frequently-asked-questions?limit=50"
+        ]
+      },
+      {
+        "question": "Behöver man balsam efter masken?",
+        "answer": "Olaplex anger uttryckligen att Rich Hydration används i stället för balsam en gång i veckan. Masken läggs efter schampo och sköljs ur. Den regeln gäller denna produkt och betyder inte att alla hårmasker används på samma sätt.",
+        "sourceUrls": [
+          "https://olaplex.com/blogs/news/hair-mask-vs-conditioner",
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml"
+        ]
+      },
+      {
+        "question": "Hur många användningar räcker 200 ml till?",
+        "answer": "Tillverkaren anger riklig applicering men ingen dos i ml på den kontrollerade produktsidan. Vi kan därför inte ge ett verifierat antal användningar. Mängden beror bland annat på hur mycket hår som ska täckas.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml"
+        ]
+      },
+      {
+        "question": "Varför anges både 200 och 250 ml hos Olaplex?",
+        "answer": "Butiksvarianten här är 200 ml. Olaplex rutinsida listar också 200 ml, men den kontrollerade enskilda produktsidan visar 250 ml trots att webbadressen innehåller 200 ml. Vi håller isär uppgifterna och utgår inte från att förpackningarna är identiska. Kontrollera storleken i butikens varukorg.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+          "https://olaplex.com/products/olaplex-the-rich-hydration-routine"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Olaplex – Rich Hydration Mask",
+        "url": "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+        "checkedAt": "2026-10-01T09:43:20.422198+00:00",
+        "supports": "Användning och INCI; storleksuppgiften på sidan avviker från 200 ml-varianten."
+      },
+      {
+        "label": "Olaplex – Rich Hydration-rutinen",
+        "url": "https://olaplex.com/products/olaplex-the-rich-hydration-routine",
+        "checkedAt": "2026-10-01T09:43:20.422198+00:00",
+        "supports": "Anger masken som 200 ml och veckovis i stället för balsam."
+      },
+      {
+        "label": "Olaplex – Rich eller Weightless",
+        "url": "https://olaplex.com/blogs/news/weightless-nourishing-mask-vs-rich-hydration-mask",
+        "checkedAt": "2026-10-01T09:43:21.186076+00:00",
+        "supports": "Skillnad i avsedd hårtyp."
+      },
+      {
+        "label": "Olaplex – mask eller balsam",
+        "url": "https://olaplex.com/blogs/news/hair-mask-vs-conditioner",
+        "checkedAt": "2026-10-01T09:43:21.292717+00:00",
+        "supports": "Vilket rutinmoment masken ersätter."
+      },
+      {
+        "label": "Olaplex – frågor om No.8",
+        "url": "https://uk.olaplex.com/pages/frequently-asked-questions?limit=50",
+        "checkedAt": "2026-10-01T09:48:19.610086+00:00",
+        "supports": "Äldre No.8-anvisningar för jämförelsen av användningssteg."
+      }
+    ],
+    "related": [
+      [
+        "Välj hårinpackning",
+        "/guider/harinpackning"
+      ],
+      [
+        "Olaplex eller hårinpackning?",
+        "/skonhet/olaplex-eller-harinpackning"
+      ],
+      [
+        "Rich Hydration eller Redken All Soft?",
+        "/skonhet/olaplex-rich-hydration-eller-redken-all-soft"
+      ],
+      [
+        "Rich Hydration eller No.3PLUS?",
+        "/skonhet/olaplex-rich-hydration-eller-no3-plus"
+      ]
+    ],
+    "tradeoffs": {
+      "advantageFacts": [
+        "Verkningstid",
+        "Rutin",
+        "Hårtyp"
+      ],
+      "limitationExcerpts": [
+        "Rich Hydration har enligt den aktuella produktsidan 3–5 minuters verkningstid. Olaplex äldre No.8-information anger tio minuter efter schampo. Båda används i stället för balsam vid den tvätten. Vi har inget eget jämförande test som visar att den ena ger bättre resultat i ditt hår.",
+        "Tillverkaren anger riklig applicering men ingen dos i ml på den kontrollerade produktsidan. Vi kan därför inte ge ett verifierat antal användningar. Mängden beror bland annat på hur mycket hår som ska täckas."
+      ]
+    },
+    "faqs": [
+      [
+        "Hur länge och hur ofta ska Rich Hydration Mask användas?",
+        "Olaplex anger 3–5 minuter efter schampo, med applicering i våta längder och toppar, följt av ursköljning. Rekommendationen är en gång i veckan i stället för balsam. Vi har inte testat om en längre verkningstid ger ett bättre resultat."
+      ],
+      [
+        "Är Rich Hydration bara för tjockt hår?",
+        "Tillverkaren anger torrt hår eller medelgrova till grova hårstrån. Torrhet och hårstråets grovlek är därför två olika skäl till valet. Weightless Nourishing riktas i stället till fint till medelgrovt hår. Vilken känsla du föredrar kan inte avgöras enbart av produktnamnet."
+      ],
+      [
+        "Vad skiljer Rich Hydration från No.8?",
+        "Rich Hydration har enligt den aktuella produktsidan 3–5 minuters verkningstid. Olaplex äldre No.8-information anger tio minuter efter schampo. Båda används i stället för balsam vid den tvätten. Vi har inget eget jämförande test som visar att den ena ger bättre resultat i ditt hår."
+      ]
+    ],
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w2-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Folaplex%2Folaplex-rich-hydration-mask-200-ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-10-01T09:43:06.627Z",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availability": "https://schema.org/InStock",
+      "availabilityCheckedAt": "2026-10-01T09:43:06.627Z",
+      "price": {
+        "amount": 599,
+        "currency": "SEK",
+        "checkedAt": "2026-10-01T09:43:06.627Z",
+        "source": "https://lyko.com/sv/olaplex/olaplex-rich-hydration-mask-200-ml"
+      }
+    },
+    "additionalOffers": [
+      {
+        "merchantId": "nordicfeel",
+        "merchantName": "NordicFeel",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w2-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Folaplex-rich-hydration-mask-194827",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:43:09.564Z",
+        "programId": "872761485",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:43:09.564Z",
+        "price": {
+          "amount": 599,
+          "currency": "SEK",
+          "checkedAt": "2026-10-01T09:43:09.564Z",
+          "source": "https://www.nordicfeel.com/se/product/olaplex-rich-hydration-mask-194827"
+        },
+        "merchantItemId": "194827"
+      }
+    ],
+    "gtin": "0850056933919",
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/wave2/w2.jpg",
+      "width": 400,
+      "height": 288,
+      "alt": "Olaplex Rich Hydration Mask, 200 ml, original produktbild från Lyko.",
+      "credit": "Produktbild: Lyko",
+      "source": "https://lyko.com/globalassets/product-images/olaplex-rich-hydration-mask-200-ml-1737-147-0200_1.jpg?ref=70FBB0E43E",
+      "sha256": "93f0c946fdb55d209f4346665a8c7ec767538265e5305e18b328eff0b2b473e8",
+      "permissionScope": "Original merchant asset for approved Elins val comparison/content channel; no general ownership or image-editing permission inferred. Program terms 2026-09-22 and PRODUCT-VISUAL-WORKFLOW.",
+      "reviewedAt": "2026-10-01"
+    }
+  },
+  {
+    "id": "ghd-bodyguard-120ml",
+    "name": "ghd Bodyguard All Hair Types",
+    "variant": "120 ml",
+    "path": "/skonhet/ghd-bodyguard",
+    "heading": "Skyddar ghd Bodyguard verkligen upp till 230 °C – och räcker 120 ml?",
+    "question": "Skyddar ghd Bodyguard verkligen upp till 230 °C – och räcker 120 ml?",
+    "metaTitle": "ghd Bodyguard – skyddar den till 230 °C och för vem?",
+    "description": "Vad säger ghd om Bodyguard? Läs om värmeskydd, fuktigt eller torrt hår och skillnaden mellan varianterna innan du väljer en flaska.",
+    "answer": "ghd marknadsför Bodyguard All Hair Types som värmeskydd före styling, men temperaturuppgifterna skiljer sig mellan märkets sidor. Den australiska produktsidan anger 230 °C medan den svenska generella frågesidan anger 220 °C. Vi kan därför inte bekräfta 230 °C för den svenska flaskan. För 120 ml saknas en angiven ml-dos som gör antal användningar verifierbart.",
+    "publicationStatus": "draft",
+    "wave": 2,
+    "selected": true,
+    "hubGroup": "skonhet",
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "category": "Hårvård",
+    "topic": "Ett köpbeslut med tydliga begränsningar",
+    "shortName": "ghd Bodyguard All Hair Types",
+    "brand": "ghd",
+    "merchantItemId": "1121-431-0120",
+    "targetQuery": "ghd bodyguard 230 grader",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "fits": [
+      "Du vill ha en spray före föning eller värmestyling.",
+      "Du söker All Hair Types och kontrollerar variantnamnet på flaskan."
+    ],
+    "skip": "Avstå om ett entydigt verifierat 230 °C-påstående för den svenska varianten är avgörande för ditt köp.",
+    "decisionTitle": "Kontrollera varianten före köp",
+    "decision": "Vår bedömning: Bodyguard kan vara ett val för den som vill lägga ett separat spraysteg före värmestyling. Följ den egna flaskans anvisningar och behandla inte ett temperaturpåstående som ett skäl att höja temperaturen. Vi har inte provat skyddet eller fastställt hur länge 120 ml räcker.",
+    "facts": [
+      [
+        "Variant",
+        "All Hair Types, 120 ml."
+      ],
+      [
+        "Applicering",
+        "Fuktigt eller torrt hår enligt ghd."
+      ],
+      [
+        "Fördelning",
+        "Kamma igenom efter applicering enligt ghd."
+      ],
+      [
+        "Före plattång",
+        "Håret ska vara helt torrt enligt ghd."
+      ],
+      [
+        "Temperaturuppgift",
+        "230 °C på Australiens produktsida; 220 °C i svensk generell FAQ."
+      ],
+      [
+        "Artikel Lyko",
+        "1121-431-0120"
+      ],
+      [
+        "Artikel NordicFeel",
+        "14060"
+      ],
+      [
+        "EAN",
+        "5060356734320"
+      ]
+    ],
+    "steps": [
+      [
+        "Applicera",
+        "Spraya i fuktigt eller torrt hår enligt flaskans anvisningar."
+      ],
+      [
+        "Fördela",
+        "Kamma igenom så att produkten fördelas."
+      ],
+      [
+        "Torka före plattång",
+        "Låt håret torka helt eller föna det före styling med plattång."
+      ]
+    ],
+    "decisionSections": [
+      {
+        "question": "Är värmeskydd till 230 °C bekräftat för svenska Bodyguard?",
+        "answer": "Inte entydigt i våra kontrollerade svenska källor. Australiens produktsida anger 230 °C, men den svenska generella frågesidan anger 220 °C för värmeskyddet och rekommenderar att inte styla över 185 °C. Den svenska produktsidan gav ingen numerisk gräns. Vi överför därför inte Australiens siffra till den svenska flaskan som en säker specifikation.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+          "https://www.ghdhair.com/se/hjalp/vanliga-fragor/produkter-garanti",
+          "https://www.ghdhair.com/se/varmeskydd-produkter/ghd-heat-protect-spray-p-236"
+        ]
+      },
+      {
+        "question": "Ska Bodyguard användas i fuktigt eller torrt hår?",
+        "answer": "ghd anger applicering i både fuktigt och torrt hår före värmestyling och att produkten ska kammas igenom. Den svenska kategorisidan säger att håret ska torka helt, eller fönas, innan en styler används. Fuktig applicering betyder alltså inte att håret ska plattas medan det är vått.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+          "https://www.ghdhair.com/se/varmeskydd-produkter-c"
+        ]
+      },
+      {
+        "question": "Är All Hair Types samma som Fine Hair eller Coloured Hair?",
+        "answer": "ghd presenterar dessa som separata varianter. Den här sidan gäller All Hair Types. Fine Hair-variantens uppgifter om fina hårstrån och Coloured Hair-variantens särskilda färg- och UV-budskap ska inte föras över till All Hair Types. Kontrollera att butikens variantnamn stämmer före köp.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+          "https://www.ghdhair.com/se/varmeskydd-produkter-c"
+        ]
+      },
+      {
+        "question": "Hur länge räcker 120 ml?",
+        "answer": "Vi hittade ingen verifierad dos i ml per applicering på de granskade produktsidorna. Vi kan därför inte räkna ett trovärdigt antal användningar eller kostnad per styling. Hårets längd och hur mycket som sprayas påverkar åtgången.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+          "https://www.ghdhair.com/se/varmeskydd-produkter/ghd-heat-protect-spray-p-236"
+        ]
+      },
+      {
+        "question": "Behövs Bodyguard om jag bara fönar håret?",
+        "answer": "ghd placerar sprayen före värmestyling och beskriver användning inför föning. Det visar produktens avsedda steg, men bevisar inte att just Bodyguard behövs i varje rutin. Vår bedömning är att först kontrollera om ett annat befintligt stylingsteg redan har avsett värmeskydd.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+          "https://www.ghdhair.com/se/varmeskydd-produkter-c"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "ghd Sverige – Bodyguard All Hair Types",
+        "url": "https://www.ghdhair.com/se/varmeskydd-produkter/ghd-heat-protect-spray-p-236",
+        "checkedAt": "2026-10-01T09:43:21.529006+00:00",
+        "supports": "Produktidentitet och användning; ingen numerisk temperaturgräns verifierad i texten."
+      },
+      {
+        "label": "ghd Australien – Bodyguard 120 ml",
+        "url": "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+        "checkedAt": "2026-10-01T09:43:21.857736+00:00",
+        "supports": "230 °C som regionalt tillverkarpåstående, användning och separata varianter."
+      },
+      {
+        "label": "ghd Sverige – produktfrågor",
+        "url": "https://www.ghdhair.com/se/hjalp/vanliga-fragor/produkter-garanti",
+        "checkedAt": "2026-10-01T09:43:21.864978+00:00",
+        "supports": "Generell uppgift om 220 °C och rekommendation om högst 185 °C vid styling."
+      },
+      {
+        "label": "ghd Sverige – värmeskydd",
+        "url": "https://www.ghdhair.com/se/varmeskydd-produkter-c",
+        "checkedAt": "2026-10-01T09:43:21.902311+00:00",
+        "supports": "Håret ska vara helt torrt före styler."
+      }
+    ],
+    "related": [
+      [
+        "Bodyguard eller Shaping Heat Spray?",
+        "/skonhet/ghd-bodyguard-eller-shaping-heat-spray"
+      ],
+      [
+        "Bodyguard eller Heat Slayer?",
+        "/skonhet/ghd-bodyguard-eller-heat-slayer"
+      ],
+      [
+        "Så gör vi våra jämförelser",
+        "/sa-gor-vi"
+      ],
+      [
+        "Hårolja eller värmeskydd?",
+        "/skonhet/harolja-eller-varmeskydd"
+      ],
+      [
+        "ghd Original IV",
+        "/skonhet/ghd-original-iv"
+      ]
+    ],
+    "tradeoffs": {
+      "advantageFacts": [
+        "Applicering",
+        "Fördelning",
+        "Före plattång"
+      ],
+      "limitationExcerpts": [
+        "Inte entydigt i våra kontrollerade svenska källor. Australiens produktsida anger 230 °C, men den svenska generella frågesidan anger 220 °C för värmeskyddet och rekommenderar att inte styla över 185 °C. Den svenska produktsidan gav ingen numerisk gräns. Vi överför därför inte Australiens siffra till den svenska flaskan som en säker specifikation.",
+        "Vi hittade ingen verifierad dos i ml per applicering på de granskade produktsidorna. Vi kan därför inte räkna ett trovärdigt antal användningar eller kostnad per styling. Hårets längd och hur mycket som sprayas påverkar åtgången."
+      ]
+    },
+    "faqs": [
+      [
+        "Är värmeskydd till 230 °C bekräftat för svenska Bodyguard?",
+        "Inte entydigt i våra kontrollerade svenska källor. Australiens produktsida anger 230 °C, men den svenska generella frågesidan anger 220 °C för värmeskyddet och rekommenderar att inte styla över 185 °C. Den svenska produktsidan gav ingen numerisk gräns. Vi överför därför inte Australiens siffra till den svenska flaskan som en säker specifikation."
+      ],
+      [
+        "Ska Bodyguard användas i fuktigt eller torrt hår?",
+        "ghd anger applicering i både fuktigt och torrt hår före värmestyling och att produkten ska kammas igenom. Den svenska kategorisidan säger att håret ska torka helt, eller fönas, innan en styler används. Fuktig applicering betyder alltså inte att håret ska plattas medan det är vått."
+      ],
+      [
+        "Är All Hair Types samma som Fine Hair eller Coloured Hair?",
+        "ghd presenterar dessa som separata varianter. Den här sidan gäller All Hair Types. Fine Hair-variantens uppgifter om fina hårstrån och Coloured Hair-variantens särskilda färg- och UV-budskap ska inte föras över till All Hair Types. Kontrollera att butikens variantnamn stämmer före köp."
+      ]
+    ],
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w3-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fghd%2Fghd-bodyguard---heat-protect-spray-120ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-10-01T09:43:28.789Z",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availability": "https://schema.org/InStock",
+      "availabilityCheckedAt": "2026-10-01T09:43:28.789Z",
+      "priceUnavailableReason": "WOW-pris saknar angiven slutdag. Ett ordinarie försäljningspris kunde inte verifieras 2026-10-01; därför visar vi inget belopp."
+    },
+    "additionalOffers": [],
+    "merchantLimitation": "NordicFeel-knapp saknas: EAN 5060034527374 kunde inte bekräftas som samma variant som ghd och Lyko, EAN 5060356734320, vid kontroll 2026-10-01.",
+    "gtin": "5060356734320",
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/wave2/w3.jpg",
+      "width": 320,
+      "height": 1520,
+      "alt": "ghd Bodyguard All Hair Types, 120 ml, original produktbild från Lyko.",
+      "credit": "Produktbild: Lyko",
+      "source": "https://lyko.com/globalassets/product-images/ghd-bodyguard---heat-protect-spray-for-all-hair-types-120-ml-1121-431-0120_1.jpg?ref=C4DE1DA451",
+      "sha256": "f73bca198211eadefd0f799485c3eca27f2040ef7f06006e1a9ceafc54010e29",
+      "permissionScope": "Original merchant asset for approved Elins val comparison/content channel; no general ownership or image-editing permission inferred. Program terms 2026-09-22 and PRODUCT-VISUAL-WORKFLOW.",
+      "reviewedAt": "2026-10-01"
+    }
+  },
+  {
+    "id": "maria-nila-shaping-heat-spray-250ml",
+    "name": "maria nila Shaping Heat Spray",
+    "variant": "250 ml",
+    "path": "/skonhet/maria-nila-shaping-heat-spray",
+    "heading": "maria nila Shaping Heat Spray – hur många grader skyddar den?",
+    "question": "maria nila Shaping Heat Spray – hur många grader skyddar den?",
+    "metaTitle": "Shaping Heat Spray – hur många grader och vilken stadga?",
+    "description": "Shaping Heat Spray ger enligt maria nila värmeskydd och lätt stadga i torrt hår. Se vad tillverkaren anger om temperatur, innehåll och användning.",
+    "answer": "maria nila beskriver Shaping Heat Spray som värmeskydd med lätt stadga för torrt hår. Den svenska produktsidan anger stadga 2 av 5 men ingen numerisk skyddstemperatur i den kontrollerade texten. Välj den när du vill kombinera dessa stylingfunktioner. Vi kan inte tillskriva den 230 °C genom att låna uppgiften från en annan produkt.",
+    "publicationStatus": "draft",
+    "wave": 2,
+    "selected": true,
+    "hubGroup": "skonhet",
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "category": "Hårvård",
+    "topic": "Ett köpbeslut med tydliga begränsningar",
+    "shortName": "maria nila Shaping Heat Spray",
+    "brand": "maria nila",
+    "merchantItemId": "1003-496-0250",
+    "targetQuery": "maria nila shaping heat spray grader",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "fits": [
+      "Du stylar torrt hår med värme och vill ha lätt stadga.",
+      "Du föredrar en produkt som tillverkaren anger som vegansk."
+    ],
+    "skip": "Välj ett annat alternativ om du kräver en uttryckligt angiven skyddstemperatur eller söker en oparfymerad spray.",
+    "decisionTitle": "För torr styling med lätt stadga",
+    "decision": "Vår bedömning: Shaping Heat Spray passar som ett steg i torrt hår när du vill ha lätt stadga före styling. Den är mindre självklar om du enbart vill ha en dokumenterad numerisk temperaturgräns. Vi har inte testat stadgan, doften eller hur länge stylingen håller.",
+    "facts": [
+      [
+        "Storlek",
+        "250 ml; 100 ml finns också i märkets sortiment."
+      ],
+      [
+        "Hår vid applicering",
+        "Torrt hår enligt maria nila."
+      ],
+      [
+        "Stadga",
+        "2 av 5 enligt maria nila."
+      ],
+      [
+        "Vegansk",
+        "100 % vegansk enligt tillverkaren."
+      ],
+      [
+        "Parfym",
+        "Parfum/Fragrance finns i svensk INCI."
+      ],
+      [
+        "Artikel Lyko",
+        "1003-496-0250"
+      ],
+      [
+        "Artikel NordicFeel",
+        "118448"
+      ],
+      [
+        "EAN",
+        "7391681404144"
+      ]
+    ],
+    "steps": [
+      [
+        "Skaka",
+        "Skaka flaskan före användning."
+      ],
+      [
+        "Applicera i torrt hår",
+        "Spraya i längder och toppar före värmeverktyg."
+      ],
+      [
+        "Fördela",
+        "Borsta eller kamma igenom för jämn fördelning enligt maria nila."
+      ]
+    ],
+    "decisionSections": [
+      {
+        "question": "Hur många grader skyddar Shaping Heat Spray mot?",
+        "answer": "Den granskade svenska produktsidan anger värmeskydd men ingen numerisk temperaturgräns. Vi kan därför inte bekräfta exempelvis 230 °C för Shaping Heat Spray utifrån den källan. En temperatur på aerosolens säkerhetsmärkning gäller förvaring och ska inte läsas som en skyddsnivå för håret.",
+        "sourceUrls": [
+          "https://marianila.se/products/shaping-heat-spray"
+        ]
+      },
+      {
+        "question": "Ger sprayen stadga eller bara värmeskydd?",
+        "answer": "maria nila anger lätt stadga, 2 av 5, tillsammans med värmeskydd. Den ska appliceras i torrt hår före värmeverktyg. Vi har inget eget test som visar hur stadgan känns i olika hår eller hur länge den håller.",
+        "sourceUrls": [
+          "https://marianila.se/products/shaping-heat-spray"
+        ]
+      },
+      {
+        "question": "Är 250 ml bättre värde än 100 ml?",
+        "answer": "Vid kontroll hos NordicFeel den 1 oktober 2026 kostade 250 ml 271,15 kr, cirka 1,08 kr/ml, och 100 ml 152,15 kr, cirka 1,52 kr/ml. Båda visades med 15 procent rabatt; inget slutdatum verifierades. Frakt ingår inte. 250 ml gav lägre pris per ml men kostade mer totalt, och vi vet inte hur många appliceringar respektive flaska ger.",
+        "sourceUrls": [
+          "https://www.nordicfeel.com/se/product/maria-nila-shaping-heat-spray-118448",
+          "https://www.nordicfeel.com/se/product/maria-nila-shaping-heat-spray-190328"
+        ]
+      },
+      {
+        "question": "Vilken ordning gäller med Gloss Coat?",
+        "answer": "Gloss Coat ska enligt maria nila appliceras i fuktigt, handdukstorkat hår och aktiveras med föning. Shaping Heat Spray används i torrt hår. Om du väljer båda talar anvisningarna därför för Gloss Coat före föning och Shaping inför efterföljande torr styling. Det är vår slutsats av två separata anvisningar, inte ett krav att köpa båda.",
+        "sourceUrls": [
+          "https://marianila.se/products/shaping-heat-spray",
+          "https://marianila.se/products/gloss-coat"
+        ]
+      },
+      {
+        "question": "Är den vegansk och innehåller den parfym?",
+        "answer": "Tillverkaren anger 100 % vegansk. Den svenska ingredienslistan innehåller Parfum/Fragrance och bland annat Linalyl Acetate och Terpineol. Produkten är alltså inte oparfymerad. Kontrollera den egna förpackningens aktuella ingredienslista om ett visst innehåll är avgörande för dig.",
+        "sourceUrls": [
+          "https://marianila.se/products/shaping-heat-spray"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "maria nila – Shaping Heat Spray",
+        "url": "https://marianila.se/products/shaping-heat-spray",
+        "checkedAt": "2026-10-01T09:43:22.012887+00:00",
+        "supports": "Torrhårsanvändning, stadga 2/5, vegansk uppgift och svensk INCI; ingen numerisk skyddstemperatur i granskad text."
+      },
+      {
+        "label": "maria nila – Gloss Coat",
+        "url": "https://marianila.se/products/gloss-coat",
+        "checkedAt": "2026-10-01T09:43:22.168513+00:00",
+        "supports": "Fuktigt, handdukstorkat hår och aktivering med föning."
+      },
+      {
+        "label": "maria nila – Discovery",
+        "url": "https://marianila.se/products/discovery",
+        "checkedAt": "2026-10-01T09:43:22.203351+00:00",
+        "supports": "Mindre Shaping Heat Spray-variant på 100 ml."
+      },
+      {
+        "label": "NordicFeel – Maria Nila Shaping Heat Spray 250 ml",
+        "url": "https://www.nordicfeel.com/se/product/maria-nila-shaping-heat-spray-118448",
+        "checkedAt": "2026-10-01T09:43:33.479Z",
+        "supports": "Exakt storlek och daterat pris för en produkt; frakt tillkommer enligt butikens villkor."
+      },
+      {
+        "label": "NordicFeel – Maria Nila Shaping Heat Spray 100 ml",
+        "url": "https://www.nordicfeel.com/se/product/maria-nila-shaping-heat-spray-190328",
+        "checkedAt": "2026-10-01T09:45:43.902Z",
+        "supports": "Exakt storlek och daterat pris för en produkt; frakt tillkommer enligt butikens villkor."
+      }
+    ],
+    "related": [
+      [
+        "Bodyguard eller Shaping Heat Spray?",
+        "/skonhet/ghd-bodyguard-eller-shaping-heat-spray"
+      ],
+      [
+        "Gloss Coat – steget före föningen",
+        "/skonhet/maria-nila-gloss-coat"
+      ],
+      [
+        "Så gör vi våra jämförelser",
+        "/sa-gor-vi"
+      ],
+      [
+        "Hårolja eller värmeskydd?",
+        "/skonhet/harolja-eller-varmeskydd"
+      ],
+      [
+        "Heat Slayer – befintligt alternativ",
+        "/skonhet/varmeskydd"
+      ]
+    ],
+    "tradeoffs": {
+      "advantageFacts": [
+        "Hår vid applicering",
+        "Stadga",
+        "Vegansk"
+      ],
+      "limitationExcerpts": [
+        "Den granskade svenska produktsidan anger värmeskydd men ingen numerisk temperaturgräns. Vi kan därför inte bekräfta exempelvis 230 °C för Shaping Heat Spray utifrån den källan. En temperatur på aerosolens säkerhetsmärkning gäller förvaring och ska inte läsas som en skyddsnivå för håret.",
+        "Vid kontroll hos NordicFeel den 1 oktober 2026 kostade 250 ml 271,15 kr, cirka 1,08 kr/ml, och 100 ml 152,15 kr, cirka 1,52 kr/ml. Båda visades med 15 procent rabatt; inget slutdatum verifierades. Frakt ingår inte. 250 ml gav lägre pris per ml men kostade mer totalt, och vi vet inte hur många appliceringar respektive flaska ger."
+      ]
+    },
+    "faqs": [
+      [
+        "Hur många grader skyddar Shaping Heat Spray mot?",
+        "Den granskade svenska produktsidan anger värmeskydd men ingen numerisk temperaturgräns. Vi kan därför inte bekräfta exempelvis 230 °C för Shaping Heat Spray utifrån den källan. En temperatur på aerosolens säkerhetsmärkning gäller förvaring och ska inte läsas som en skyddsnivå för håret."
+      ],
+      [
+        "Ger sprayen stadga eller bara värmeskydd?",
+        "maria nila anger lätt stadga, 2 av 5, tillsammans med värmeskydd. Den ska appliceras i torrt hår före värmeverktyg. Vi har inget eget test som visar hur stadgan känns i olika hår eller hur länge den håller."
+      ],
+      [
+        "Är 250 ml bättre värde än 100 ml?",
+        "Vid kontroll hos NordicFeel den 1 oktober 2026 kostade 250 ml 271,15 kr, cirka 1,08 kr/ml, och 100 ml 152,15 kr, cirka 1,52 kr/ml. Båda visades med 15 procent rabatt; inget slutdatum verifierades. Frakt ingår inte. 250 ml gav lägre pris per ml men kostade mer totalt, och vi vet inte hur många appliceringar respektive flaska ger."
+      ]
+    ],
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w4-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fmaria-nila%2Fmaria-nila-shaping-heat-spray-250-ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-10-01T09:43:31.933Z",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availability": "https://schema.org/InStock",
+      "availabilityCheckedAt": "2026-10-01T09:43:31.933Z",
+      "price": {
+        "amount": 319,
+        "currency": "SEK",
+        "checkedAt": "2026-10-01T09:43:31.933Z",
+        "source": "https://lyko.com/sv/maria-nila/maria-nila-shaping-heat-spray-250-ml"
+      }
+    },
+    "additionalOffers": [
+      {
+        "merchantId": "nordicfeel",
+        "merchantName": "NordicFeel",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w4-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fmaria-nila-shaping-heat-spray-118448",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:43:33.479Z",
+        "programId": "872761485",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:43:33.479Z",
+        "price": {
+          "amount": 271.15,
+          "currency": "SEK",
+          "checkedAt": "2026-10-01T09:43:33.479Z",
+          "source": "https://www.nordicfeel.com/se/product/maria-nila-shaping-heat-spray-118448"
+        },
+        "merchantItemId": "118448"
+      }
+    ],
+    "gtin": "7391681404144",
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/wave2/w4.jpg",
+      "width": 443,
+      "height": 1638,
+      "alt": "maria nila Shaping Heat Spray, 250 ml, original produktbild från Lyko.",
+      "credit": "Produktbild: Lyko",
+      "source": "https://lyko.com/globalassets/product-images/maria-nila-shaping-heat-spray-250-ml-1003-496-0250_1.jpg?ref=FBAF43B9F5",
+      "sha256": "708739777cf275632901f56964c7860742966abef7800ba84c53475084dece87",
+      "permissionScope": "Original merchant asset for approved Elins val comparison/content channel; no general ownership or image-editing permission inferred. Program terms 2026-09-22 and PRODUCT-VISUAL-WORKFLOW.",
+      "reviewedAt": "2026-10-01"
+    }
+  },
+  {
+    "id": "kerastase-elixir-ultime",
+    "path": "/skonhet/kerastase-elixir-ultime",
+    "brand": "Kérastase",
+    "name": "Kérastase Elixir Ultime L’Huile Originale",
+    "variant": "30 ml",
+    "shortName": "Kérastase Elixir Ultime L’Huile Originale",
+    "heading": "Kérastase Elixir Ultime – varför 30 ml, och vad skiljer den från en vanlig hårolja?",
+    "question": "Kérastase Elixir Ultime – varför 30 ml, och vad skiljer den från en vanlig hårolja?",
+    "metaTitle": "Varför 30 ml? Kérastase Elixir Ultime",
+    "description": "Är Elixir Ultime 30 ml rätt storlek? Jämför innehåll, användning och refillval utan att anta hur många doser flaskan räcker till.",
+    "targetQuery": "kerastase elixir ultime 30 ml hur används",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "answer": "Elixir Ultime 30 ml är ett mindre köp av en parfymerad leave-in-olja med flera oljor och silikoner i ingredienslistan. Kérastase beskriver användning i vått eller torrt hår och värmeskydd före föning. Välj inte storlek utifrån ett påhittat antal doser: den svenska sidan växlar mellan droppar och pumptryck och anger ingen uppmätt mängd per pump.",
+    "fits": [
+      "Du vill köpa en mindre mängd innan du bestämmer dig för större flaska.",
+      "Du vill kunna använda olja på längder före föning eller som finish."
+    ],
+    "skip": "Avstå om du söker en ren växtolja, parfymfri formula eller ett verifierat antal användningar per 30 ml.",
+    "decisionTitle": "Det avgör valet",
+    "decision": "Du vill köpa en mindre mängd innan du bestämmer dig för större flaska. Avstå om du söker en ren växtolja, parfymfri formula eller ett verifierat antal användningar per 30 ml.",
+    "facts": [
+      [
+        "Variant",
+        "Elixir Ultime L’Huile Originale 30 ml"
+      ],
+      [
+        "Användning",
+        "Vått eller torrt hår; längder och toppar"
+      ],
+      [
+        "INCI-markörer",
+        "Isododecane, Dimethicone, Dimethiconol; kamelia-, majs-, argan- och marulaolja; Parfum"
+      ],
+      [
+        "Storlekar",
+        "Den svenska märkessidan anger 30 ml och 75 ml"
+      ],
+      [
+        "Värmeskydd",
+        "Anges av Kérastase; ingen temperatur på den lästa svenska sidan"
+      ],
+      [
+        "Dosering",
+        "Svenska sidan växlar mellan droppar och pumptryck; inget dosmått i ml"
+      ]
+    ],
+    "steps": [
+      [
+        "Läs förpackningens dosering",
+        "Den svenska webbsidan använder två olika doseringsord. Följ därför din aktuella flaskas instruktion."
+      ],
+      [
+        "Fördela i längder",
+        "Märkets instruktion börjar i mitten av längderna och arbetar ut mot topparna."
+      ],
+      [
+        "Välj före eller efter föning",
+        "Kérastase beskriver användning före föning eller som finish i torrt hår."
+      ]
+    ],
+    "decisionSections": [
+      {
+        "question": "Hur många pumpar ska jag använda, och hur länge räcker 30 ml?",
+        "answer": "Den svenska Kérastase-sidan anger 1–2 droppar i användningsavsnittet men beskriver också ett pumptryck i taget i sin FAQ. Vi gör inte om det till en säker pumprekommendation. Följ doseringen på flaskan. Utan en uppmätt mängd per dos går det inte heller att ange hur många användningar 30 ml räcker till.",
+        "sourceUrls": [
+          "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable"
+        ]
+      },
+      {
+        "question": "Vilka oljor finns i Elixir Ultime?",
+        "answer": "Den svenska ingredienslistan innehåller bland annat kamelia-, majs-, argan- och marulaolja tillsammans med Isododecane, Dimethicone och Dimethiconol samt parfym. Det är en formulerad hårolja, inte en flaska med enbart växtolja. Innehållet skiljer sig från ren arganolja men visar inte i sig vilken produkt du kommer att föredra.",
+        "sourceUrls": [
+          "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable"
+        ]
+      },
+      {
+        "question": "Ska Elixir Ultime användas före eller efter föning?",
+        "answer": "Kérastase anger både vått och torrt hår och nämner oljan före föning, som finish eller för att fräscha upp under dagen. Fördela från mitten av längderna mot topparna. Det ger flera möjliga tillfällen, inte ett krav på att använda oljan vid alla tillfällen samma dag.",
+        "sourceUrls": [
+          "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable"
+        ]
+      },
+      {
+        "question": "30 ml, 75 ml eller refill – vad ska jag jämföra?",
+        "answer": "Hos NordicFeel den 1 oktober 2026 visade 30 ml 359 kr, 75 ml 759 kr och 75 ml-refill 569 kr, alla i lager. Det motsvarar 11,97, 10,12 respektive 7,59 kr/ml. En refill är inte en komplett flaska. Kontrollera rätt refillbehållare; vi påstår inte att 30 ml-flaskan kan fyllas med 75 ml-refillen. Jämförelsen gäller dessa daterade butiksvärden och avgör inte vad din rutin behöver.",
+        "sourceUrls": [
+          "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable"
+        ],
+        "merchantEvidence": "merchant-source-observations.json; supplemental size screenshots; price_recheck agent verified2026-10-01"
+      },
+      {
+        "question": "Är Elixir Ultime ett värmeskydd?",
+        "answer": "Kérastase beskriver värmeskydd före föning på den svenska sidan. Där anges ingen temperaturgräns i den lästa texten, så vi tilldelar inte produkten en siffra hämtad från en annan formula eller produkt. Uppgiften om värmeskydd är tillverkarens påstående, inte vårt test.",
+        "sourceUrls": [
+          "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable"
+        ]
+      }
+    ],
+    "faqs": [
+      [
+        "Hur många pumpar ska jag använda, och hur länge räcker 30 ml?",
+        "Den svenska Kérastase-sidan anger 1–2 droppar i användningsavsnittet men beskriver också ett pumptryck i taget i sin FAQ. Vi gör inte om det till en säker pumprekommendation. Följ doseringen på flaskan. Utan en uppmätt mängd per dos går det inte heller att ange hur många användningar 30 ml räcker till."
+      ],
+      [
+        "Vilka oljor finns i Elixir Ultime?",
+        "Den svenska ingredienslistan innehåller bland annat kamelia-, majs-, argan- och marulaolja tillsammans med Isododecane, Dimethicone och Dimethiconol samt parfym. Det är en formulerad hårolja, inte en flaska med enbart växtolja. Innehållet skiljer sig från ren arganolja men visar inte i sig vilken produkt du kommer att föredra."
+      ],
+      [
+        "Ska Elixir Ultime användas före eller efter föning?",
+        "Kérastase anger både vått och torrt hår och nämner oljan före föning, som finish eller för att fräscha upp under dagen. Fördela från mitten av längderna mot topparna. Det ger flera möjliga tillfällen, inte ett krav på att använda oljan vid alla tillfällen samma dag."
+      ],
+      [
+        "30 ml, 75 ml eller refill – vad ska jag jämföra?",
+        "Hos NordicFeel den 1 oktober 2026 visade 30 ml 359 kr, 75 ml 759 kr och 75 ml-refill 569 kr, alla i lager. Det motsvarar 11,97, 10,12 respektive 7,59 kr/ml. En refill är inte en komplett flaska. Kontrollera rätt refillbehållare; vi påstår inte att 30 ml-flaskan kan fyllas med 75 ml-refillen. Jämförelsen gäller dessa daterade butiksvärden och avgör inte vad din rutin behöver."
+      ],
+      [
+        "Är Elixir Ultime ett värmeskydd?",
+        "Kérastase beskriver värmeskydd före föning på den svenska sidan. Där anges ingen temperaturgräns i den lästa texten, så vi tilldelar inte produkten en siffra hämtad från en annan formula eller produkt. Uppgiften om värmeskydd är tillverkarens påstående, inte vårt test."
+      ]
+    ],
+    "sources": [
+      {
+        "label": "elixir",
+        "url": "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable",
+        "checkedAt": "2026-10-01",
+        "supports": "30/75 ml, INCI, användning och motsägande doseringsord på samma sida."
+      }
+    ],
+    "related": [
+      [
+        "Olaplex no 7 eller kerastase elixir ultime",
+        "/skonhet/olaplex-no7-eller-kerastase-elixir-ultime"
+      ],
+      [
+        "Kerastase glaze drops",
+        "/skonhet/kerastase-glaze-drops"
+      ],
+      [
+        "Leave in eller harolja",
+        "/skonhet/leave-in-eller-harolja"
+      ]
+    ],
+    "category": "Skönhet",
+    "topic": "Hårvård",
+    "hubGroup": "skonhet",
+    "tradeoffs": {
+      "advantageFacts": [
+        "Användning",
+        "Storlekar"
+      ],
+      "limitationExcerpts": [
+        "Den svenska Kérastase-sidan anger 1–2 droppar i användningsavsnittet men beskriver också ett pumptryck i taget i sin FAQ. Vi gör inte om det till en säker pumprekommendation. Följ doseringen på flaskan. Utan en uppmätt mängd per dos går det inte heller att ange hur många användningar 30 ml räcker till.",
+        "Kérastase beskriver värmeskydd före föning på den svenska sidan. Där anges ingen temperaturgräns i den lästa texten, så vi tilldelar inte produkten en siffra hämtad från en annan formula eller produkt. Uppgiften om värmeskydd är tillverkarens påstående, inte vårt test."
+      ]
+    },
+    "selected": false,
+    "publicationStatus": "draft",
+    "wave": 2,
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w8-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fhar%2Fharvard%2Ftreatment%2Fharolja%2Fk-rastase-elixir-ultime-l-huile-originale-hair-oil-30ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-10-01T09:44:03.243Z",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availability": "https://schema.org/InStock",
+      "availabilityCheckedAt": "2026-10-01T09:44:03.243Z",
+      "priceUnavailableReason": "WOW-pris saknar angiven slutdag. Ett ordinarie försäljningspris kunde inte verifieras 2026-10-01; därför visar vi inget belopp."
+    },
+    "merchantItemId": "1015-608-0030",
+    "additionalOffers": [
+      {
+        "merchantId": "nordicfeel",
+        "merchantName": "NordicFeel",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w8-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fkerastase-elixir-ultime-lhuile-originale-hair-oil-189032",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:44:04.767Z",
+        "programId": "872761485",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:44:04.767Z",
+        "price": {
+          "amount": 359,
+          "currency": "SEK",
+          "checkedAt": "2026-10-01T09:44:04.767Z",
+          "source": "https://www.nordicfeel.com/se/product/kerastase-elixir-ultime-lhuile-originale-hair-oil-189032"
+        },
+        "merchantItemId": "189032"
+      }
+    ],
+    "gtin": "3474637215194",
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/wave2/w8.jpg",
+      "width": 500,
+      "height": 1235,
+      "alt": "Kérastase Elixir Ultime L’Huile Originale, 30 ml, original produktbild från Lyko.",
+      "credit": "Produktbild: Lyko",
+      "source": "https://lyko.com/globalassets/product-images/kerastase-lhuile-originale-hair-oil-30-ml-1015-608-0030_1.jpg?ref=DE064DDC5B",
+      "sha256": "28803d91ff730f603a6763e332606e0674df8e2ebfcb219021485d52a42cee30",
+      "permissionScope": "Original merchant asset for approved Elins val comparison/content channel; no general ownership or image-editing permission inferred. Program terms 2026-09-22 and PRODUCT-VISUAL-WORKFLOW.",
+      "reviewedAt": "2026-10-01"
+    }
+  },
+  {
+    "id": "heat-slayer-150ml",
+    "name": "L’Oréal Paris Elvital Dream Length Heat Slayer",
+    "shortName": "Elvital Heat Slayer",
+    "variant": "150 ml",
+    "brand": "L’Oréal Paris",
+    "category": "Värmeskydd",
+    "path": "/skonhet/varmeskydd",
+    "merchantItemId": "1185-808-0150",
+    "gtin": "3600523966738",
+    "selected": false,
+    "publicationStatus": "draft",
+    "wave": 2,
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "sources": [
+      {
+        "label": "L’Oréal Paris Sverige – Heat Slayer",
+        "url": "https://www.lorealparis.se/elvital/dream-length/heat-slayer-iron-spray",
+        "checkedAt": "2026-10-01T09:43:22.904186+00:00",
+        "supports": "Exakt namn och150ml i produktbild, applicering och tillverkarens230 °C-påstående."
+      }
+    ],
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "related": [],
+    "offer": {
+      "merchantId": "lyko",
+      "merchantName": "Lyko",
+      "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w9-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Floreal-paris%2Floreal-paris-dream-length-heat-spray-150ml",
+      "linkKind": "affiliate",
+      "placement": "selected-product-offer",
+      "checkedAt": "2026-10-01T09:44:27.232Z",
+      "programId": "1117786221",
+      "channelId": "2110221551",
+      "availability": "https://schema.org/InStock",
+      "availabilityCheckedAt": "2026-10-01T09:44:27.232Z",
+      "price": {
+        "amount": 69.9,
+        "currency": "SEK",
+        "checkedAt": "2026-10-01T09:44:27.232Z",
+        "source": "https://lyko.com/sv/loreal-paris/loreal-paris-dream-length-heat-spray-150ml"
+      }
+    },
+    "additionalOffers": [
+      {
+        "merchantId": "nordicfeel",
+        "merchantName": "NordicFeel",
+        "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w9-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Floreal-paris-elvital-dream-length-heat-spray-90467",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:44:28.541Z",
+        "programId": "872761485",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:44:28.541Z",
+        "price": {
+          "amount": 69,
+          "currency": "SEK",
+          "checkedAt": "2026-10-01T09:44:28.541Z",
+          "source": "https://www.nordicfeel.com/se/product/loreal-paris-elvital-dream-length-heat-spray-90467"
+        },
+        "merchantItemId": "90467"
+      }
+    ],
+    "image": {
+      "merchantId": "lyko",
+      "src": "/products/wave2/w9.jpg",
+      "width": 500,
+      "height": 2083,
+      "alt": "L’Oréal Paris Elvital Dream Length Heat Slayer, 150 ml, original produktbild från Lyko.",
+      "credit": "Produktbild: Lyko",
+      "source": "https://lyko.com/globalassets/product-images/loreal-paris-dream-length-heat-spray-150ml-1185-808-0150_1.jpg?ref=EF3358D266",
+      "sha256": "f29335f2fa70569bc1b562b7499bc7462e753afe7478f9048865049c43491904",
+      "permissionScope": "Original merchant asset for approved Elins val comparison/content channel; no general ownership or image-editing permission inferred. Program terms 2026-09-22 and PRODUCT-VISUAL-WORKFLOW.",
+      "reviewedAt": "2026-10-01"
+    }
   }
 ]

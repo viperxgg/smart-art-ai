@@ -10,6 +10,7 @@ export type MerchantOffer = {
   href: string;
   linkKind?: "affiliate" | "direct";
   priceNote?: string;
+  priceUnavailableReason?: string;
   placement: string;
   checkedAt: string;
   availability?: "https://schema.org/InStock" | "https://schema.org/OutOfStock";
@@ -27,6 +28,7 @@ function projectOffer(record: CanonicalProductRecord): MerchantOffer {
     href: record.offer.href,
     ...(record.offer.linkKind ? { linkKind: record.offer.linkKind } : {}),
     ...(record.offer.priceNote ? { priceNote: record.offer.priceNote } : {}),
+    ...(record.offer.priceUnavailableReason ? { priceUnavailableReason: record.offer.priceUnavailableReason } : {}),
     placement: record.offer.placement,
     checkedAt: record.offer.checkedAt,
     ...(record.offer.availability ? { availability: record.offer.availability } : {}),

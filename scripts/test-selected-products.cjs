@@ -112,7 +112,7 @@ const priceRegister = require('../../company/price-review/products.json').produc
 const priceRows = new Set(priceRegister.map((row) => row.id));
 const sitemapSource = fs.readFileSync('lib/sitemap-entries.ts', 'utf8');
 const sitemapPaths = new Set([...sitemapSource.matchAll(/path:\s*"([^"]+)"/g)].map((match) => match[1]));
-const now = Math.max(Date.parse('2026-09-23T12:00:00+02:00'), ...canonical.flatMap(record => [record.offer, ...(record.additionalOffers || [])]).flatMap(offer => [Date.parse(offer.price.checkedAt), Date.parse(offer.availabilityCheckedAt)]).filter(Number.isFinite));
+const now = Math.max(Date.parse('2026-09-23T12:00:00+02:00'), ...canonical.flatMap(record => [record.offer, ...(record.additionalOffers || [])]).flatMap(offer => [Date.parse(offer.price?.checkedAt), Date.parse(offer.availabilityCheckedAt)]).filter(Number.isFinite));
 
 assert.equal(records.productRecords.length, canonical.length);
 assert.equal(selected.selectedProducts.length, canonical.filter((record) => record.selected).length);
@@ -145,8 +145,13 @@ const validationContext = {
 for (const record of records.productRecords) {
   assert.ok(record.name && record.variant, `${record.id}: missing canonical identity`);
   assert.ok(record.offer.merchantId && record.offer.href.startsWith('https://'), `${record.id}: incomplete merchant offer`);
-  assert.ok(record.offer.price && record.offer.price.amount > 0 && record.offer.price.currency === 'SEK', `${record.id}: missing dated price`);
-  assert.ok(Date.parse(record.offer.price.checkedAt) && record.offer.price.source.startsWith('https://'), `${record.id}: invalid price date/source`);
+  if (record.offer.price) {
+    assert.ok(record.offer.price.amount > 0 && record.offer.price.currency === 'SEK', `${record.id}: invalid dated price`);
+    assert.ok(Date.parse(record.offer.price.checkedAt) && record.offer.price.source.startsWith('https://'), `${record.id}: invalid price date/source`);
+  } else {
+    assert.equal(record.publicationStatus, 'draft', `${record.id}: only an unreleased draft may omit a required numeric price`);
+    assert.ok(record.offer.priceUnavailableReason, `${record.id}: missing evidence-backed price limitation`);
+  }
   assert.ok(record.image.source.startsWith('https://') && record.image.permissionScope && Date.parse(record.image.reviewedAt), `${record.id}: incomplete image provenance`);
   const forbidden = ['rating', 'aggregateRating', 'reviewCount', 'liveStock', 'testimonial'];
   const keys = [];
@@ -166,7 +171,10 @@ for (const record of records.productRecords) {
 }
 
 for (const product of selected.selectedProducts) {
-  assert.ok(Date.parse(product.publishedAt), `${product.id}: missing verified publication date`);
+  if (product.publicationStatus === 'draft') {
+    assert.equal(product.publishedAt, undefined, `${product.id}: unreleased draft must not invent publication`);
+    assert.deepEqual(Array.from(product.changes || []), [], `${product.id}: publish log starts only after release`);
+  } else assert.ok(Date.parse(product.publishedAt), `${product.id}: missing verified publication date`);
   assert.ok(product.sources.length && product.sources.every((source) => source.url.startsWith('https://')));
   for (const [, route] of product.related) assert.ok(fs.existsSync(path.join('app', ...route.slice(1).split('/'), 'page.tsx')), `Missing related route ${route}`);
   const graph = selected.selectedProductSchema(product, now)['@graph'];
@@ -197,7 +205,7 @@ for (const product of selected.selectedProducts) {
     assert.equal(article.about, undefined, 'Article must not reference an omitted Product');
   }
   assert.ok(!JSON.stringify(graph).includes('amazon.se'), 'No unsupported numeric Amazon offer');
-  assert.ok(price.getVerifiedMerchantPrice(offer.price, Date.parse('2026-10-14T12:00:00+02:00')), 'Weekly deadline must not hide the dated price');
+  if (offer.price) assert.ok(price.getVerifiedMerchantPrice(offer.price, Date.parse('2026-10-14T12:00:00+02:00')), 'Weekly deadline must not hide the dated price');
   if (product.campaignEndsAt) {
     const end = Date.parse(product.campaignEndsAt);
     assert.equal(selected.hasCurrentStructuredPrice(product, end - 1), Date.parse(offer.price.checkedAt) < end);
@@ -208,7 +216,10 @@ for (const product of selected.selectedProducts) {
 }
 
 for (const comparison of partnerComparisons.partnerComparisons) {
-  assert.ok(Date.parse(comparison.publishedAt), `${comparison.id}: missing verified publication date`);
+  if (comparison.publicationStatus === 'draft') {
+    assert.equal(comparison.publishedAt, undefined, `${comparison.id}: unreleased draft must not invent publication`);
+    assert.deepEqual(comparison.changes || [], []);
+  } else assert.ok(Date.parse(comparison.publishedAt), `${comparison.id}: missing verified publication date`);
   const graph = partnerComparisons.comparisonSchema(comparison, now)['@graph'];
   const schemaOffers = graph.filter(node => node['@type'] === 'Product').flatMap(node => node.offers || []);
   const productNodes = graph.filter(node => node['@type'] === 'Product');

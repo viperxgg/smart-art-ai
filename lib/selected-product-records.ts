@@ -10,6 +10,7 @@ export type CanonicalOffer = {
   href: string;
   linkKind?: "affiliate" | "direct";
   priceNote?: string;
+  priceUnavailableReason?: string;
   placement: string;
   checkedAt: string;
   price?: MerchantPriceSnapshot;
@@ -61,6 +62,10 @@ export type CanonicalProductRecord = {
   name: string;
   variant: string;
   selected: boolean;
+  publicationStatus?: "draft";
+  wave?: 2;
+  tradeoffs?: { advantageFacts: string[]; limitationExcerpts: string[] };
+  merchantLimitation?: string;
   offer: CanonicalOffer;
   image: CanonicalImage;
   amazon?: CanonicalAmazon;
@@ -105,7 +110,7 @@ export type SelectedProductRecord = CanonicalProductRecord & {
   hubGroup: HubGroup;
   merchantItemId: string;
   updatedAt: string;
-  publishedAt: string;
+  publishedAt?: string;
   path: string;
   shortName: string;
   brand: string;

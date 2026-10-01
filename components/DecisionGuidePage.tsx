@@ -1,4 +1,5 @@
 import { EditorialByline } from "@/components/EditorialByline";
+import { Wave2RelatedLinks } from "@/components/Wave2RelatedLinks";
 import { buildDecisionArticle } from "@/lib/site-schema";
 import { LegacyMerchantPath } from "@/components/LegacyMerchantPath";
 import { legacyMerchantPaths } from "@/lib/legacy-merchant-paths";
@@ -72,6 +73,7 @@ export function DecisionGuidePage({ guide, beforeDecision, afterDecision, mercha
           {guide.related.map((link) => <Link key={link.href} href={link.href} className="inline-flex min-h-11 items-center underline underline-offset-4">{link.text}</Link>)}
           <Link href="/fraga-elin" className="inline-flex min-h-11 items-center underline underline-offset-4">Fråga Elin – valfri AI-hjälp</Link>
         </nav>
+        <Wave2RelatedLinks path={guide.path} />
       </div>
     </main>
   );

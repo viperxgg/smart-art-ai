@@ -956,5 +956,454 @@
       "context": "/products/selected/comparison-c9/d.webp"
     },
     "publishedAt": "2026-09-22"
+  },
+  {
+    "id": "wave2-c1",
+    "path": "/skonhet/ghd-bodyguard-eller-shaping-heat-spray",
+    "title": "ghd Bodyguard eller maria nila Shaping Heat Spray – vilket värmeskydd före plattång?",
+    "metaTitle": "Bodyguard eller Shaping Heat Spray före plattång?",
+    "description": "Välj mellan ghd Bodyguard och Shaping Heat Spray utifrån applicering, stadga och vad märkena faktiskt anger om temperatur. Se begränsningarna.",
+    "answer": "Ta ghd Bodyguard om du vill kunna applicera en spray i fuktigt eller torrt hår före värmestyling. Ta Shaping Heat Spray om du stylar torrt hår och vill ha lätt stadga, angiven som 2 av 5. Vi har inte testat vilket skydd som är bäst. Märkenas temperaturuppgifter ger inte en säker rangordning.",
+    "productIds": [
+      "ghd-bodyguard-120ml",
+      "maria-nila-shaping-heat-spray-250ml"
+    ],
+    "productPaths": [
+      "/skonhet/ghd-bodyguard",
+      "/skonhet/maria-nila-shaping-heat-spray"
+    ],
+    "targetQuery": "bodyguard eller shaping heat spray före plattång?",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "updatedAt": "2026-10-01",
+    "publicationStatus": "draft",
+    "wave": 2,
+    "changes": [],
+    "fits": [
+      "Du vill välja mellan ett spraysteg i fuktigt eller torrt hår och ett steg med lätt stadga i torrt hår."
+    ],
+    "skip": "Köp inte båda enbart för att lägga värmeskydd på värmeskydd; vårt underlag visar inte att kombinationen förbättrar skyddet.",
+    "rows": [
+      [
+        "Skillnad",
+        "ghd Bodyguard All Hair Types",
+        "maria nila Shaping Heat Spray"
+      ],
+      [
+        "Volym",
+        "120 ml",
+        "250 ml"
+      ],
+      [
+        "Applicering",
+        "Fuktigt eller torrt hår",
+        "Torrt hår"
+      ],
+      [
+        "Stadga",
+        "Ingen jämförbar siffra verifierad på granskad sida",
+        "2/5 enligt maria nila"
+      ],
+      [
+        "Temperatur",
+        "AU produkt:230 °C; SE generell FAQ:220 °C",
+        "Ingen numerisk gräns i granskad svensk produktsida"
+      ],
+      [
+        "Parfym",
+        "Parfum finns i svensk INCI",
+        "Parfum/Fragrance finns i svensk INCI"
+      ],
+      [
+        "Pris per ml",
+        "Ingen godkänd siffra i denna kontroll",
+        "Se butikens daterade pris för 250 ml; frakt kan tillkomma"
+      ]
+    ],
+    "sections": [
+      {
+        "question": "När passar ghd och när passar maria nila?",
+        "answer": "Vår bedömning: välj ghd om applicering i fuktigt hår före föning är den viktiga skillnaden. Välj maria nila om du vill ha uttryckligt angiven lätt stadga i torrt hår. Ingen av dessa skillnader bevisar att värmeskyddet är starkare än konkurrentens.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+          "https://marianila.se/products/shaping-heat-spray"
+        ]
+      },
+      {
+        "question": "Vilken har högst angiven skyddstemperatur?",
+        "answer": "Det finns ingen rättvis siffertävling här. ghd anger 230 °C på sin australiska produktsida men 220 °C i sin svenska generella FAQ. maria nilas granskade svenska sida anger ingen numerisk gräns för Shaping. Vi kan inte fylla luckorna med butikspåståenden eller uppgifter för andra produkter.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+          "https://www.ghdhair.com/se/hjalp/vanliga-fragor/produkter-garanti",
+          "https://marianila.se/products/shaping-heat-spray"
+        ]
+      },
+      {
+        "question": "Kan håret vara fuktigt när plattången används?",
+        "answer": "ghd säger att håret ska vara helt torrt före styler. Shaping ska redan appliceras i torrt hår. Följ respektive flaskas anvisningar och låt inte möjligheten att applicera en spray i fuktigt hår bli ett råd att platta vått hår.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/se/varmeskydd-produkter-c",
+          "https://marianila.se/products/shaping-heat-spray"
+        ]
+      },
+      {
+        "question": "Vad vet vi inte om känsla och åtgång?",
+        "answer": "Vi har inte testat doft, stadgans känsla eller skydd på olika hårtyper. De granskade källorna gav inte en jämförbar dos i ml per styling. Volymen 120 eller 250 ml räcker därför inte för att lova antal användningar.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+          "https://marianila.se/products/shaping-heat-spray"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "ghd Australien – Bodyguard",
+        "url": "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+        "checkedAt": "2026-10-01T09:43:21.857736+00:00",
+        "supports": "Applicering och regional temperaturuppgift."
+      },
+      {
+        "label": "ghd Sverige – Bodyguard",
+        "url": "https://www.ghdhair.com/se/varmeskydd-produkter/ghd-heat-protect-spray-p-236",
+        "checkedAt": "2026-10-01T09:43:21.529006+00:00",
+        "supports": "Svensk variant och INCI."
+      },
+      {
+        "label": "ghd Sverige – FAQ",
+        "url": "https://www.ghdhair.com/se/hjalp/vanliga-fragor/produkter-garanti",
+        "checkedAt": "2026-10-01T09:43:21.864978+00:00",
+        "supports": "Generell svensk temperaturuppgift."
+      },
+      {
+        "label": "ghd Sverige – värmeskydd",
+        "url": "https://www.ghdhair.com/se/varmeskydd-produkter-c",
+        "checkedAt": "2026-10-01T09:43:21.902311+00:00",
+        "supports": "Torrt hår före styler."
+      },
+      {
+        "label": "maria nila – Shaping Heat Spray",
+        "url": "https://marianila.se/products/shaping-heat-spray",
+        "checkedAt": "2026-10-01T09:43:22.012887+00:00",
+        "supports": "Torrhårsanvändning, stadga och INCI."
+      }
+    ],
+    "related": [
+      [
+        "Läs om Bodyguard",
+        "/skonhet/ghd-bodyguard"
+      ],
+      [
+        "Läs om Shaping Heat Spray",
+        "/skonhet/maria-nila-shaping-heat-spray"
+      ],
+      [
+        "Hårolja eller värmeskydd?",
+        "/skonhet/harolja-eller-varmeskydd"
+      ]
+    ],
+    "tradeoffs": {
+      "advantages": [
+        "Vår bedömning: välj ghd om applicering i fuktigt hår före föning är den viktiga skillnaden. Välj maria nila om du vill ha uttryckligt angiven lätt stadga i torrt hår. Ingen av dessa skillnader bevisar att värmeskyddet är starkare än konkurrentens.",
+        "ghd säger att håret ska vara helt torrt före styler. Shaping ska redan appliceras i torrt hår. Följ respektive flaskas anvisningar och låt inte möjligheten att applicera en spray i fuktigt hår bli ett råd att platta vått hår."
+      ],
+      "limitations": [
+        "Det finns ingen rättvis siffertävling här. ghd anger 230 °C på sin australiska produktsida men 220 °C i sin svenska generella FAQ. maria nilas granskade svenska sida anger ingen numerisk gräns för Shaping. Vi kan inte fylla luckorna med butikspåståenden eller uppgifter för andra produkter.",
+        "Vi har inte testat doft, stadgans känsla eller skydd på olika hårtyper. De granskade källorna gav inte en jämförbar dos i ml per styling. Volymen 120 eller 250 ml räcker därför inte för att lova antal användningar."
+      ]
+    }
+  },
+  {
+    "id": "wave2-c2",
+    "path": "/skonhet/ghd-bodyguard-eller-heat-slayer",
+    "title": "ghd Bodyguard eller Elvital Heat Slayer – vad skiljer värmeskydden?",
+    "metaTitle": "ghd Bodyguard eller Heat Slayer – vad skiljer dem?",
+    "description": "Är ghd Bodyguard eller Elvital Heat Slayer rätt för din rutin? Jämför volym, anvisningar och temperaturpåståenden utan att tolka pris som testresultat.",
+    "answer": "Ta Heat Slayer om du vill ha 150 ml och följa L’Oréals instruktioner för långt hår inför värmestyling. Ta Bodyguard om du föredrar ghds All Hair Types-variant och dess sprayrutin. Ett högre pris visar inte bättre skydd. L’Oréal anger 230 °C; ghds svenska och australiska uppgifter skiljer sig. Vi har inte gjort ett jämförande test.",
+    "productIds": [
+      "ghd-bodyguard-120ml",
+      "heat-slayer-150ml"
+    ],
+    "productPaths": [
+      "/skonhet/ghd-bodyguard",
+      "/skonhet/varmeskydd"
+    ],
+    "targetQuery": "ghd bodyguard eller heat slayer – vad skiljer dem?",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "updatedAt": "2026-10-01",
+    "publicationStatus": "draft",
+    "wave": 2,
+    "changes": [],
+    "fits": [
+      "Du vill förstå vad instruktioner och innehåll säger innan du väljer mellan två prisnivåer."
+    ],
+    "skip": "Avstå från att köpa den dyrare enbart för att du antar att priset bevisar ett bättre värmeskydd.",
+    "rows": [
+      [
+        "Skillnad",
+        "ghd Bodyguard All Hair Types",
+        "Elvital Dream Length Heat Slayer"
+      ],
+      [
+        "Volym",
+        "120 ml",
+        "150 ml"
+      ],
+      [
+        "Applicering",
+        "Fuktigt eller torrt hår; kamma igenom",
+        "Fuktigt eller torrt hår; lämnas kvar"
+      ],
+      [
+        "Målgrupp i märkets text",
+        "Alla hårtyper; separata Fine och Coloured finns",
+        "Dream Length-rutin för långt hår"
+      ],
+      [
+        "Temperatur",
+        "AU produkt 230 °C; SE generell FAQ 220 °C",
+        "230 °C enligt L’Oréal"
+      ],
+      [
+        "Pris per styling",
+        "Ingen verifierad dos i ml",
+        "Ingen verifierad dos i ml"
+      ],
+      [
+        "Doftmarkör",
+        "Parfum i svensk INCI",
+        "Parfum/Fragrance i svensk INCI"
+      ]
+    ],
+    "sections": [
+      {
+        "question": "När skulle vi välja vilket värmeskydd?",
+        "answer": "Vår bedömning: låt rutin och totalpris avgöra, inte ett antagande om bättre resultat hos det dyrare märket. Heat Slayer har 150 ml och instruktioner för långt hår. Bodyguard All Hair Types har 120 ml. Vi har inga testresultat som visar vilket av dem som skyddar just ditt hår bäst.",
+        "sourceUrls": [
+          "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+          "https://www.lorealparis.se/elvital/dream-length/heat-slayer-iron-spray"
+        ]
+      },
+      {
+        "question": "Vad betyder temperaturpåståendena?",
+        "answer": "L’Oréals svenska produktsida anger värmeskydd upp till 230 °C. ghds australiska produktsida anger 230 °C, medan svensk generell FAQ anger 220 °C. Det är tillverkaruppgifter från olika källor. Samma siffra på två produkter skulle ändå inte visa att de presterar identiskt.",
+        "sourceUrls": [
+          "https://www.lorealparis.se/elvital/dream-length/heat-slayer-iron-spray",
+          "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+          "https://www.ghdhair.com/se/hjalp/vanliga-fragor/produkter-garanti"
+        ]
+      },
+      {
+        "question": "Hur används produkterna före plattång?",
+        "answer": "L’Oréal anger applicering i vått eller torrt hår, utan ursköljning, och säger att plattång inte ska användas på vått hår. För långt hår föreslår märket tre sektioner. ghd anger spray i fuktigt eller torrt hår, genomkamning och helt torrt hår innan styler används.",
+        "sourceUrls": [
+          "https://www.lorealparis.se/elvital/dream-length/heat-slayer-iron-spray",
+          "https://www.ghdhair.com/se/varmeskydd-produkter-c"
+        ]
+      },
+      {
+        "question": "Vad får du inte veta av någon av dem?",
+        "answer": "Ingen av de granskade instruktionerna ger oss en verifierad dos i ml per styling. Vi vet därför inte hur många användningar flaskorna ger eller kostnad per användning. Vi har heller inget gemensamt test av skydd, doft eller känsla i samma hår. Märkenas effektpåståenden ersätter inte en sådan jämförelse.",
+        "sourceUrls": [
+          "https://www.lorealparis.se/elvital/dream-length/heat-slayer-iron-spray",
+          "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "L’Oréal Paris Sverige – Heat Slayer",
+        "url": "https://www.lorealparis.se/elvital/dream-length/heat-slayer-iron-spray",
+        "checkedAt": "2026-10-01T09:43:22.904186+00:00",
+        "supports": "150ml, applicering och tillverkarens230 °C-påstående."
+      },
+      {
+        "label": "ghd Australien – Bodyguard",
+        "url": "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
+        "checkedAt": "2026-10-01T09:43:21.857736+00:00",
+        "supports": "120ml, applicering och regional temperaturuppgift."
+      },
+      {
+        "label": "ghd Sverige – FAQ",
+        "url": "https://www.ghdhair.com/se/hjalp/vanliga-fragor/produkter-garanti",
+        "checkedAt": "2026-10-01T09:43:21.864978+00:00",
+        "supports": "220 °C i generell svensk fråga."
+      },
+      {
+        "label": "ghd Sverige – värmeskydd",
+        "url": "https://www.ghdhair.com/se/varmeskydd-produkter-c",
+        "checkedAt": "2026-10-01T09:43:21.902311+00:00",
+        "supports": "Helt torrt hår före styler."
+      },
+      {
+        "label": "ghd Sverige – Bodyguard",
+        "url": "https://www.ghdhair.com/se/varmeskydd-produkter/ghd-heat-protect-spray-p-236",
+        "checkedAt": "2026-10-01T09:43:21.529006+00:00",
+        "supports": "Svensk ingredienslista."
+      }
+    ],
+    "related": [
+      [
+        "Läs om Bodyguard",
+        "/skonhet/ghd-bodyguard"
+      ],
+      [
+        "Läs om Heat Slayer",
+        "/skonhet/varmeskydd"
+      ],
+      [
+        "Hårolja eller värmeskydd?",
+        "/skonhet/harolja-eller-varmeskydd"
+      ]
+    ],
+    "tradeoffs": {
+      "advantages": [
+        "Vår bedömning: låt rutin och totalpris avgöra, inte ett antagande om bättre resultat hos det dyrare märket. Heat Slayer har 150 ml och instruktioner för långt hår. Bodyguard All Hair Types har 120 ml. Vi har inga testresultat som visar vilket av dem som skyddar just ditt hår bäst.",
+        "L’Oréal anger applicering i vått eller torrt hår, utan ursköljning, och säger att plattång inte ska användas på vått hår. För långt hår föreslår märket tre sektioner. ghd anger spray i fuktigt eller torrt hår, genomkamning och helt torrt hår innan styler används."
+      ],
+      "limitations": [
+        "L’Oréals svenska produktsida anger värmeskydd upp till 230 °C. ghds australiska produktsida anger 230 °C, medan svensk generell FAQ anger 220 °C. Det är tillverkaruppgifter från olika källor. Samma siffra på två produkter skulle ändå inte visa att de presterar identiskt.",
+        "Ingen av de granskade instruktionerna ger oss en verifierad dos i ml per styling. Vi vet därför inte hur många användningar flaskorna ger eller kostnad per användning. Vi har heller inget gemensamt test av skydd, doft eller känsla i samma hår. Märkenas effektpåståenden ersätter inte en sådan jämförelse."
+      ]
+    }
+  },
+  {
+    "id": "wave2-c3",
+    "path": "/skonhet/olaplex-no7-eller-kerastase-elixir-ultime",
+    "title": "Olaplex No.7 eller Kérastase Elixir Ultime – bonding oil eller klassisk hårolja?",
+    "metaTitle": "Olaplex No.7 eller Elixir Ultime – vilken hårolja?",
+    "description": "No.7 eller Elixir Ultime? Jämför 30 ml-varianterna, applicering och märkets påståenden om glans och värmeskydd utan att anta vilken olja som känns bäst.",
+    "answer": "Ta Olaplex No.7 om du vill ha en olja med tydlig startdos på 2–3 droppar och ett uttryckligt värmeskyddspåstående upp till 232 °C. Ta Elixir Ultime om du föredrar dess kameliaprofil och användning före eller efter styling. Båda 30 ml-varianterna lämnas kvar i håret. Orden bonding oil bevisar inte att No.7 ger bättre resultat än Elixir Ultime.",
+    "productIds": [
+      "olaplex-no7-bonding-oil-30ml",
+      "kerastase-elixir-ultime"
+    ],
+    "productPaths": [
+      "/skonhet/olaplex-no7-bonding-oil",
+      "/skonhet/kerastase-elixir-ultime"
+    ],
+    "targetQuery": "olaplex no.7 eller elixir ultime – vilken hårolja?",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "updatedAt": "2026-10-01",
+    "publicationStatus": "draft",
+    "wave": 2,
+    "changes": [],
+    "fits": [
+      "Du vill välja en olja efter användningssteg och egna innehållspreferenser."
+    ],
+    "skip": "Köp inte båda för att namnen antyder att de måste fylla olika steg; båda kan användas som leave-in.",
+    "rows": [
+      [
+        "Skillnad",
+        "Olaplex No.7",
+        "Kérastase Elixir Ultime L’Huile Originale"
+      ],
+      [
+        "Jämförd volym",
+        "30 ml",
+        "30 ml"
+      ],
+      [
+        "Användning",
+        "Fuktigt eller torrt hår; före eller efter styling",
+        "Vått eller torrt hår; även som finish"
+      ],
+      [
+        "Dosinformation",
+        "2–3 droppar enligt Olaplex",
+        "Följ flaskans dosering; ingen säker omräkning till ml"
+      ],
+      [
+        "Värmeskydd",
+        "Upp till 232 °C enligt Olaplex",
+        "Värmeskydd anges i granskad svensk produkttext"
+      ],
+      [
+        "Innehållsprofil",
+        "Silikoner, oljor och parfym enligt INCI",
+        "Kamelia lyfts fram av Kérastase; doftsatt produkt"
+      ],
+      [
+        "Antal användningar",
+        "Inte verifierbart från 30 ml och droppdos",
+        "Inte verifierbart från 30 ml utan säker ml-dos"
+      ]
+    ],
+    "sections": [
+      {
+        "question": "Är bonding oil en annan sorts behandling?",
+        "answer": "Olaplex marknadsför No.7 med sin bonding-teknik, men användningssteget är fortfarande en olja som lämnas kvar. Kérastase beskriver Elixir Ultime som leave-in för bland annat glans och mjukhet. Vår bedömning är att välja efter vad du vill lägga till i rutinen; vi har inget test som rangordnar reparationsresultat mellan dem.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml",
+          "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable"
+        ]
+      },
+      {
+        "question": "När används oljorna?",
+        "answer": "Olaplex anger 2–3 droppar i fuktigt eller torrt hår, före värmestyling eller efteråt för glans. Kérastase beskriver applicering i längder och toppar i vått eller torrt hår, och användning före föning eller som finish. Följ anvisningarna på den aktuella flaskan.",
+        "sourceUrls": [
+          "https://au.olaplex.com/blogs/manual/home-use-with-olaplex-no-7-bonding-oil",
+          "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable"
+        ]
+      },
+      {
+        "question": "Är den ena ett bättre värmeskydd?",
+        "answer": "Olaplex anger upp till 232 °C. Den granskade svenska Elixir Ultime-texten beskriver värmeskydd under styling. Det är inte ett jämförande test. Vi kan inte säga vilken olja som skyddar bättre, och ett skyddspåstående är inte ett råd att höja verktygets temperatur.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml",
+          "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable"
+        ]
+      },
+      {
+        "question": "Vilken räcker längst och känns lättast?",
+        "answer": "Vi har inte testat känslan i samma hår och har ingen jämförbar ml-dos som visar åtgång.30 ml i båda flaskorna innebär därför inte lika många appliceringar. Tillverkarnas ord om lätt känsla är inte en garanti för hur någon av oljorna fungerar i fint hår.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml",
+          "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Olaplex – No.7",
+        "url": "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml",
+        "checkedAt": "2026-10-01T09:43:20.422198+00:00",
+        "supports": "30ml, dosering, värmeskydd och INCI."
+      },
+      {
+        "label": "Olaplex – No.7 användning",
+        "url": "https://au.olaplex.com/blogs/manual/home-use-with-olaplex-no-7-bonding-oil",
+        "checkedAt": "2026-10-01T09:43:20.422198+00:00",
+        "supports": "Applicering före och efter styling."
+      },
+      {
+        "label": "Kérastase Sverige – Elixir Ultime",
+        "url": "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable",
+        "checkedAt": "2026-10-01T09:48:19.610086+00:00",
+        "supports": "30/75ml, kamelia, vått/torrt hår och värmeskydd som tillverkarpåstående."
+      }
+    ],
+    "related": [
+      [
+        "Läs om No.7",
+        "/skonhet/olaplex-no7-bonding-oil"
+      ],
+      [
+        "Läs om Elixir Ultime",
+        "/skonhet/kerastase-elixir-ultime"
+      ],
+      [
+        "Leave-in eller hårolja?",
+        "/skonhet/leave-in-eller-harolja"
+      ]
+    ],
+    "tradeoffs": {
+      "advantages": [
+        "Olaplex marknadsför No.7 med sin bonding-teknik, men användningssteget är fortfarande en olja som lämnas kvar. Kérastase beskriver Elixir Ultime som leave-in för bland annat glans och mjukhet. Vår bedömning är att välja efter vad du vill lägga till i rutinen; vi har inget test som rangordnar reparationsresultat mellan dem.",
+        "Olaplex anger 2–3 droppar i fuktigt eller torrt hår, före värmestyling eller efteråt för glans. Kérastase beskriver applicering i längder och toppar i vått eller torrt hår, och användning före föning eller som finish. Följ anvisningarna på den aktuella flaskan."
+      ],
+      "limitations": [
+        "Olaplex anger upp till 232 °C. Den granskade svenska Elixir Ultime-texten beskriver värmeskydd under styling. Det är inte ett jämförande test. Vi kan inte säga vilken olja som skyddar bättre, och ett skyddspåstående är inte ett råd att höja verktygets temperatur.",
+        "Vi har inte testat känslan i samma hår och har ingen jämförbar ml-dos som visar åtgång.30 ml i båda flaskorna innebär därför inte lika många appliceringar. Tillverkarnas ord om lätt känsla är inte en garanti för hur någon av oljorna fungerar i fint hår."
+      ]
+    }
   }
 ]

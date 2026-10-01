@@ -13,6 +13,8 @@ export const legacyMerchantPaths = new Set([
 // supplies the same variant; the old Hair Perfector Amazon link is not reused.
 export const legacySelectedProductIds: Readonly<Record<string, string>> = {
   "olaplex-no3-treatment": "olaplex-no3-plus",
+  "loreal-elvital-varmeskydd": "heat-slayer-150ml",
+  "cetaphil-gentle-cleanser": "cetaphil-gentle-cleanser-236ml",
 };
 
 // Capture one observation time per server-rendered merchant block.
