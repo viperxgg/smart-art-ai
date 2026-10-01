@@ -3,6 +3,7 @@ import type { MerchantPriceSnapshot } from "@/lib/merchant-price";
 
 export type PartnerMerchantId = "nordicfeel" | "kjell" | "lyko";
 export type HubGroup = "lyko" | "skonhet" | "vardag" | "projektorer" | "harverktyg";
+export type EditorialVisual = { hero: string; infographic: string; context?: string; infographicWidth?: number; infographicHeight?: number; contextWidth?: number; contextHeight?: number };
 
 export type CanonicalOffer = {
   merchantId: PartnerMerchantId;
@@ -76,7 +77,7 @@ export type CanonicalProductRecord = {
   secondaryQuery?: string;
   hypothesis?: string;
   decisionSections?: { question: string; answer: string; sourceUrls: string[] }[];
-  visual?: { hero: string; infographic: string; context?: string };
+  visual?: EditorialVisual;
   merchantItemId?: string;
   gtin?: string;
   updatedAt?: string;

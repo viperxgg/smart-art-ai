@@ -76,8 +76,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
         <p className="mt-4 leading-relaxed text-ink-soft">{section.answer}</p>
         <p className="mt-2 text-xs text-ink-soft">Källor: {section.sourceUrls.map((url, i) => <a key={url} href={url} className="mr-3 inline-flex min-h-11 items-center underline">{product.sources.find(s => s.url === url)?.label ?? `Källa ${i + 1}`}</a>)}</p>
       </section>)}
-      {product.visual ? <figure className="mt-10"><Image src={product.visual.infographic} width={1200} height={630} alt={`Beslutsöversikt: ${product.heading}`} sizes="(max-width: 768px) 90vw, 1000px" className="h-auto w-full rounded-2xl" /></figure> : null}
-      {product.visual?.context ? <figure className="mt-10 max-w-3xl"><Image src={product.visual.context} width={1200} height={800} alt="Illustrerad miljö utan produkt" className="h-auto w-full rounded-2xl" /><figcaption className="mt-2 text-xs">Illustration</figcaption></figure> : null}
+      {product.visual ? <figure className="mt-10 max-w-3xl"><Image src={product.visual.infographic} width={product.visual.infographicWidth ?? 1200} height={product.visual.infographicHeight ?? 630} alt={`Beslutsöversikt: ${product.heading}`} sizes="(max-width: 768px) 90vw, 780px" className="h-auto w-full rounded-2xl" /></figure> : null}
       <section aria-labelledby="beslut" className="mt-12 max-w-3xl">
         <h2 id="beslut" className="font-display text-2xl font-bold sm:text-3xl">{product.decisionTitle}</h2>
         <p className="mt-5 leading-relaxed text-ink-soft">{product.decision}</p>
@@ -139,6 +138,7 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
         </li>)}</ul>
         <Link href="/sa-gor-vi" className="mt-4 inline-flex min-h-11 items-center font-semibold text-wine underline underline-offset-4">Så gör vi våra guider</Link>
       </section>
+      {product.visual?.context ? <figure className="mt-10 max-w-3xl"><Image src={product.visual.context} width={product.visual.contextWidth ?? 1200} height={product.visual.contextHeight ?? 800} alt="Illustrerad miljö utan produkt" className="h-auto w-full rounded-2xl" /><figcaption className="mt-2 text-xs">Illustration</figcaption></figure> : null}
       <nav aria-label="Läs vidare" className="mt-10 flex flex-wrap gap-x-6 gap-y-3">
         {product.related.map(([title, href]) => <Link key={href} href={href} className="inline-flex min-h-11 items-center gap-2 text-sm font-bold text-wine underline underline-offset-4">{title}<ArrowRight size={16} aria-hidden="true" /></Link>)}
         {product.related.every(([, href]) => href !== "/produkter") ? <Link href="/produkter" className="inline-flex min-h-11 items-center text-sm font-bold text-wine underline underline-offset-4">Alla produktval</Link> : null}

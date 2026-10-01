@@ -1,6 +1,6 @@
 import data from "@/lib/partner-comparison-data.json";
 import { createSeoMetadata } from "@/lib/metadata";
-import { getProductRecord } from "@/lib/selected-product-records";
+import { getProductRecord, type EditorialVisual } from "@/lib/selected-product-records";
 import { getVerifiedMerchantPrice } from "@/lib/merchant-price";
 import { siteConfig } from "@/lib/site";
 
@@ -16,7 +16,7 @@ export type PartnerComparison = {
   sections: { question: string; answer: string }[];
   sources: { label: string; url: string; checkedAt: string; supports: string }[];
   related: string[][];
-  visual?: { hero: string; infographic: string; context?: string };
+  visual?: EditorialVisual;
 };
 export const partnerComparisons = data as PartnerComparison[];
 // Server-rendered routes revalidate hourly, like selected product guides.

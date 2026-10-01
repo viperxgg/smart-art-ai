@@ -1109,6 +1109,12 @@
         "Det finns ingen rättvis siffertävling här. ghd anger 230 °C på sin australiska produktsida men 220 °C i sin svenska generella FAQ. maria nilas granskade svenska sida anger ingen numerisk gräns för Shaping. Vi kan inte fylla luckorna med butikspåståenden eller uppgifter för andra produkter.",
         "Vi har inte testat doft, stadgans känsla eller skydd på olika hårtyper. De granskade källorna gav inte en jämförbar dos i ml per styling. Volymen 120 eller 250 ml räcker därför inte för att lova antal användningar."
       ]
+    },
+    "visual": {
+      "hero": "/wave2/wave2-c1-a.png",
+      "infographic": "/wave2/wave2-c1-c.png",
+      "infographicWidth": 780,
+      "infographicHeight": 1510
     }
   },
   {
@@ -1263,6 +1269,12 @@
         "L’Oréals svenska produktsida anger värmeskydd upp till 230 °C. ghds australiska produktsida anger 230 °C, medan svensk generell FAQ anger 220 °C. Det är tillverkaruppgifter från olika källor. Samma siffra på två produkter skulle ändå inte visa att de presterar identiskt.",
         "Ingen av de granskade instruktionerna ger oss en verifierad dos i ml per styling. Vi vet därför inte hur många användningar flaskorna ger eller kostnad per användning. Vi har heller inget gemensamt test av skydd, doft eller känsla i samma hår. Märkenas effektpåståenden ersätter inte en sådan jämförelse."
       ]
+    },
+    "visual": {
+      "hero": "/wave2/wave2-c2-a.png",
+      "infographic": "/wave2/wave2-c2-c.png",
+      "infographicWidth": 780,
+      "infographicHeight": 1510
     }
   },
   {
@@ -1404,6 +1416,12 @@
         "Olaplex anger upp till 232 °C. Den granskade svenska Elixir Ultime-texten beskriver värmeskydd under styling. Det är inte ett jämförande test. Vi kan inte säga vilken olja som skyddar bättre, och ett skyddspåstående är inte ett råd att höja verktygets temperatur.",
         "Vi har inte testat känslan i samma hår och har ingen jämförbar ml-dos som visar åtgång.30 ml i båda flaskorna innebär därför inte lika många appliceringar. Tillverkarnas ord om lätt känsla är inte en garanti för hur någon av oljorna fungerar i fint hår."
       ]
+    },
+    "visual": {
+      "hero": "/wave2/wave2-c3-a.png",
+      "infographic": "/wave2/wave2-c3-c.png",
+      "infographicWidth": 780,
+      "infographicHeight": 1510
     }
   },
   {
@@ -1535,7 +1553,13 @@
       ]
     },
     "wave": 2,
-    "publicationStatus": "draft"
+    "publicationStatus": "draft",
+    "visual": {
+      "hero": "/wave2/wave2-c4-a.png",
+      "infographic": "/wave2/wave2-c4-c.png",
+      "infographicWidth": 780,
+      "infographicHeight": 1510
+    }
   },
   {
     "id": "wave2-c5",
@@ -1699,7 +1723,13 @@
       ]
     },
     "wave": 2,
-    "publicationStatus": "draft"
+    "publicationStatus": "draft",
+    "visual": {
+      "hero": "/wave2/wave2-c5-a.png",
+      "infographic": "/wave2/wave2-c5-c.png",
+      "infographicWidth": 780,
+      "infographicHeight": 1510
+    }
   },
   {
     "id": "wave2-c6",
@@ -1837,7 +1867,13 @@
       ]
     },
     "wave": 2,
-    "publicationStatus": "draft"
+    "publicationStatus": "draft",
+    "visual": {
+      "hero": "/wave2/wave2-c6-a.png",
+      "infographic": "/wave2/wave2-c6-c.png",
+      "infographicWidth": 780,
+      "infographicHeight": 1510
+    }
   },
   {
     "id": "wave2-c7",
@@ -1974,7 +2010,13 @@
       ]
     },
     "wave": 2,
-    "publicationStatus": "draft"
+    "publicationStatus": "draft",
+    "visual": {
+      "hero": "/wave2/wave2-c7-a.png",
+      "infographic": "/wave2/wave2-c7-c.png",
+      "infographicWidth": 780,
+      "infographicHeight": 1510
+    }
   },
   {
     "id": "wave2-c8",
@@ -2115,7 +2157,13 @@
       "Lyko Glow Serum WOW price without end date fails numeric-price acceptance. Two-merchant price coverage must be resolved before release; existing NordicFeel alone does not meet prompt 14."
     ],
     "wave": 2,
-    "publicationStatus": "draft"
+    "publicationStatus": "draft",
+    "visual": {
+      "hero": "/wave2/wave2-c8-a.png",
+      "infographic": "/wave2/wave2-c8-c.png",
+      "infographicWidth": 780,
+      "infographicHeight": 1510
+    }
   },
   {
     "id": "wave2-d1",
@@ -2301,6 +2349,12 @@
     },
     "decisionPage": true,
     "wave": 2,
-    "publicationStatus": "draft"
+    "publicationStatus": "draft",
+    "visual": {
+      "hero": "/wave2/wave2-d1-a.png",
+      "infographic": "/wave2/wave2-d1-c.png",
+      "infographicWidth": 780,
+      "infographicHeight": 1860
+    }
   }
 ]
