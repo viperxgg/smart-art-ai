@@ -1,3 +1,4 @@
+// 2026-10-01: Add contextual links to the wave-2 questions; existing decision prose preserved.
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";
 import { leaveInOilGuide } from "@/lib/leave-in-eller-harolja";
 import { createSeoMetadata } from "@/lib/metadata";

@@ -1,3 +1,4 @@
+// 2026-10-01: Add contextual links to the wave-2 questions; existing decision prose preserved.
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";

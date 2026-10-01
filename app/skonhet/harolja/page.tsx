@@ -1,3 +1,4 @@
+// 2026-10-01: Add contextual links to the wave-2 questions; existing decision prose preserved.
 // 2026-09-06: Moroccanoil Treatment rating refresh (89 679 omdömen, september
 // 2026) in lib/products.ts and lib/sommar.ts (SHARED_LIB_MODULES), so this dated
 // comment is what moves the route's sitemap date.

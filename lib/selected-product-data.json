@@ -571,7 +571,23 @@
       "identityCheckedAt": "2026-09-14",
       "linkOnly": true
     },
-    "publishedAt": "2026-06-17"
+    "publishedAt": "2026-06-17",
+    "additionalOffers": [
+      {
+        "merchantId": "lyko",
+        "merchantName": "Lyko",
+        "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-c8-boj-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fbeauty-of-joseon%2Fbeauty-of-joseon-glow-serum-propolis-niacinamide-30-ml",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:44:53.058Z",
+        "programId": "1117786221",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:44:53.058Z",
+        "priceUnavailableReason": "WOW-pris saknar angiven slutdag. Ett ordinarie försäljningspris kunde inte verifieras 2026-10-01; därför visar vi inget belopp.",
+        "merchantItemId": "3507-104-0030"
+      }
+    ]
   },
   {
     "id": "tapo-c520ws-single",
@@ -1166,7 +1182,28 @@
       "identityCheckedAt": "2026-09-14",
       "linkOnly": true
     },
-    "publishedAt": "2026-09-14"
+    "publishedAt": "2026-09-14",
+    "additionalOffers": [
+      {
+        "merchantId": "lyko",
+        "merchantName": "Lyko",
+        "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-c8-cosrx-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fcosrx%2Fcosrx-advanced-snail-96-mucin-power-essence--100-ml",
+        "linkKind": "affiliate",
+        "placement": "selected-product-offer",
+        "checkedAt": "2026-10-01T09:44:51.822Z",
+        "programId": "1117786221",
+        "channelId": "2110221551",
+        "availability": "https://schema.org/InStock",
+        "availabilityCheckedAt": "2026-10-01T09:44:51.822Z",
+        "price": {
+          "amount": 195,
+          "currency": "SEK",
+          "checkedAt": "2026-10-01T09:44:51.822Z",
+          "source": "https://lyko.com/sv/cosrx/cosrx-advanced-snail-96-mucin-power-essence--100-ml"
+        },
+        "merchantItemId": "2162-147-0100"
+      }
+    ]
   },
   {
     "id": "anker-prime-300w-26250mah",
@@ -4829,7 +4866,7 @@
     "question": "Olaplex No.7 – olja, värmeskydd eller reparation? Vad gör den egentligen?",
     "metaTitle": "Olaplex No.7 – olja, värmeskydd eller reparation?",
     "description": "Vad gör Olaplex No.7? Vi går igenom dosering, värmeskydd och skillnaden mot No.3 och No.8, så att du kan välja rätt steg i din hårrutin.",
-    "answer": "Olaplex No.7 är en hårolja som lämnas kvar i håret för glans och styling. Olaplex anger även värmeskydd upp till 232 °C och beskriver produkten som reparerande. Det är tillverkarens uppgifter, inte vårt test. Välj den för ett avslutande steg; No.3PLUS före schampo och No.8 efter schampo fyller andra roller i rutinen.",
+    "answer": "Olaplex No.7 är en hårolja som lämnas kvar i håret för glans och styling. Olaplex anger även värmeskydd upp till 232 °C och beskriver produkten som reparerande. Det är tillverkarens uppgifter, inte vårt test. Välj den för ett avslutande steg; No.3 PLUS före schampo och No.8 efter schampo fyller andra roller i rutinen.",
     "publicationStatus": "draft",
     "wave": 2,
     "selected": true,
@@ -4915,8 +4952,8 @@
         ]
       },
       {
-        "question": "Ersätter No.7 No.3PLUS eller No.8?",
-        "answer": "Nej, användningsstegen skiljer sig. No.7 lämnas kvar i håret. No.3PLUS är en behandling före schampo som enligt Olaplex sköljs ur efter tre minuter. No.8 är en mask efter schampo; Olaplex rekommenderar tio minuter och att den ersätter balsam vid den tvätten. Det är inte belägg för att alla tre behövs.",
+        "question": "Ersätter No.7 No.3 PLUS eller No.8?",
+        "answer": "Nej, användningsstegen skiljer sig. No.7 lämnas kvar i håret. No.3 PLUS är en behandling före schampo som enligt Olaplex sköljs ur efter tre minuter. No.8 är en mask efter schampo; Olaplex rekommenderar tio minuter och att den ersätter balsam vid den tvätten. Det är inte belägg för att alla tre behövs.",
         "sourceUrls": [
           "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml",
           "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
@@ -4953,7 +4990,7 @@
         "supports": "Dosering och placering i rutinen."
       },
       {
-        "label": "Olaplex – No.3PLUS",
+        "label": "Olaplex – No.3 PLUS",
         "url": "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
         "checkedAt": "2026-10-01T09:48:19.610086+00:00",
         "supports": "Tre minuter före schampo, sedan schampo och balsam."
@@ -4983,7 +5020,7 @@
         "/skonhet/leave-in-eller-harolja"
       ],
       [
-        "No.3PLUS före schampo",
+        "No.3 PLUS före schampo",
         "/skonhet/olaplex-no3"
       ],
       [
@@ -5016,8 +5053,8 @@
         "Olaplex uppger värmeskydd upp till 232 °C. Siffran är ett tillverkarpåstående och visar inte att hög temperatur är rätt för ditt hår. Vi har inte jämfört skyddet med andra oljor eller sprayer."
       ],
       [
-        "Ersätter No.7 No.3PLUS eller No.8?",
-        "Nej, användningsstegen skiljer sig. No.7 lämnas kvar i håret. No.3PLUS är en behandling före schampo som enligt Olaplex sköljs ur efter tre minuter. No.8 är en mask efter schampo; Olaplex rekommenderar tio minuter och att den ersätter balsam vid den tvätten. Det är inte belägg för att alla tre behövs."
+        "Ersätter No.7 No.3 PLUS eller No.8?",
+        "Nej, användningsstegen skiljer sig. No.7 lämnas kvar i håret. No.3 PLUS är en behandling före schampo som enligt Olaplex sköljs ur efter tre minuter. No.8 är en mask efter schampo; Olaplex rekommenderar tio minuter och att den ersätter balsam vid den tvätten. Det är inte belägg för att alla tre behövs."
       ]
     ],
     "offer": {
@@ -5245,7 +5282,7 @@
         "/skonhet/olaplex-rich-hydration-eller-redken-all-soft"
       ],
       [
-        "Rich Hydration eller No.3PLUS?",
+        "Rich Hydration eller No.3 PLUS?",
         "/skonhet/olaplex-rich-hydration-eller-no3-plus"
       ]
     ],
@@ -5384,7 +5421,7 @@
       ],
       [
         "Artikel NordicFeel",
-        "14060"
+        "14060 – identitet ej bekräftad; inget erbjudande"
       ],
       [
         "EAN",
@@ -5819,7 +5856,7 @@
         "label": "L’Oréal Paris Sverige – Heat Slayer",
         "url": "https://www.lorealparis.se/elvital/dream-length/heat-slayer-iron-spray",
         "checkedAt": "2026-10-01T09:43:22.904186+00:00",
-        "supports": "Exakt namn och150ml i produktbild, applicering och tillverkarens230 °C-påstående."
+        "supports": "Exakt namn och 150 ml i produktbild, applicering och tillverkarens 230 °C-påstående."
       }
     ],
     "hypothesis": "appears for targetQuery within 14 days after publication",
@@ -5952,7 +5989,10 @@
         "question": "30 eller 100 ml – vilken storlek ska jag välja?",
         "answer": "Hos NordicFeel kontrollerades 100 ml till 339,15 kr, alltså 3,39 kr/ml, den 1 oktober 2026. 30 ml visade 169,15 kr, alltså 5,64 kr/ml, men var slut i lager. Det senare är ett observerat jämförelsepris, inte ett köpklart alternativ. En större flaska ger lägre pris per ml i denna observation, men är inget bättre köp om du inte vill fortsätta använda formulan.",
         "sourceUrls": [
-          "https://marianila.se/products/true-soft-argan-oil-100-ml"
+          "https://marianila.se/products/true-soft-argan-oil-100-ml",
+          "https://lyko.com/sv/maria-nila/maria-nila-palett-true-soft-argan-oil-100ml",
+          "https://www.nordicfeel.com/se/product/maria-nila-true-soft-29797",
+          "https://www.nordicfeel.com/se/product/maria-nila-true-soft-argan-oil-88242"
         ],
         "merchantEvidence": "merchant-source-observations.json; supplemental size screenshots; price_recheck agent verified2026-10-01"
       },
@@ -6013,6 +6053,24 @@
         "url": "https://marianila.se/products/true-soft-argan-oil-100-ml",
         "checkedAt": "2026-10-01",
         "supports": "100 ml, användning, INCI och märkets påståenden om värmeskydd och viktlös känsla."
+      },
+      {
+        "label": "Lyko – 100 ml",
+        "url": "https://lyko.com/sv/maria-nila/maria-nila-palett-true-soft-argan-oil-100ml",
+        "checkedAt": "2026-10-01T09:43:54.613Z",
+        "supports": "Daterat pris, exakt storlek och lagerstatus; pris per ml är en beräkning, inte kostnad per användning."
+      },
+      {
+        "label": "NordicFeel – 100 ml",
+        "url": "https://www.nordicfeel.com/se/product/maria-nila-true-soft-29797",
+        "checkedAt": "2026-10-01T09:43:56.055Z",
+        "supports": "Daterat pris, exakt storlek och lagerstatus; pris per ml är en beräkning, inte kostnad per användning."
+      },
+      {
+        "label": "NordicFeel – 30 ml",
+        "url": "https://www.nordicfeel.com/se/product/maria-nila-true-soft-argan-oil-88242",
+        "checkedAt": "2026-10-01T09:45:45.487Z",
+        "supports": "Daterat pris, exakt storlek och lagerstatus; pris per ml är en beräkning, inte kostnad per användning."
       }
     ],
     "related": [
@@ -6454,7 +6512,10 @@
         "question": "Ska jag välja 200 eller 50 ml Gloss Coat?",
         "answer": "Hos NordicFeel kostade 200 ml 254,15 kr och 50 ml 135,15 kr vid kontrollen den 1 oktober 2026; båda fanns i lager. Det motsvarar 1,27 respektive 2,70 kr/ml. 200 ml gav lägre pris per ml i just den observationen. Välj ändå den mängd du faktiskt vill använda; en större flaska är inte en besparing om produkten blir stående.",
         "sourceUrls": [
-          "https://marianila.se/products/gloss-coat"
+          "https://marianila.se/products/gloss-coat",
+          "https://lyko.com/sv/maria-nila/maria-nila-gloss-coat-200-ml",
+          "https://www.nordicfeel.com/se/product/maria-nila-gloss-coat-195347",
+          "https://www.nordicfeel.com/se/product/maria-nila-gloss-coat-199683"
         ],
         "merchantEvidence": "merchant-source-observations.json; supplemental size screenshots; price_recheck agent verified2026-10-01"
       }
@@ -6493,6 +6554,24 @@
         "url": "https://marianilapro.se/pages/gloss-coat",
         "checkedAt": "2026-10-01",
         "supports": "Märkets beskrivning av Gloss Coat som värmeaktiverad förstyling."
+      },
+      {
+        "label": "Lyko – 200 ml",
+        "url": "https://lyko.com/sv/maria-nila/maria-nila-gloss-coat-200-ml",
+        "checkedAt": "2026-10-01T09:44:00.360Z",
+        "supports": "Daterat pris, exakt storlek och lagerstatus; pris per ml är en beräkning, inte kostnad per användning."
+      },
+      {
+        "label": "NordicFeel – 200 ml",
+        "url": "https://www.nordicfeel.com/se/product/maria-nila-gloss-coat-195347",
+        "checkedAt": "2026-10-01T09:44:01.509Z",
+        "supports": "Daterat pris, exakt storlek och lagerstatus; pris per ml är en beräkning, inte kostnad per användning."
+      },
+      {
+        "label": "NordicFeel – 50 ml",
+        "url": "https://www.nordicfeel.com/se/product/maria-nila-gloss-coat-199683",
+        "checkedAt": "2026-10-01T09:45:46.532Z",
+        "supports": "Daterat pris, exakt storlek och lagerstatus; pris per ml är en beräkning, inte kostnad per användning."
       }
     ],
     "related": [
@@ -6659,7 +6738,11 @@
         "question": "Hur många pumpar ska jag använda, och hur länge räcker 30 ml?",
         "answer": "Den svenska Kérastase-sidan anger 1–2 droppar i användningsavsnittet men beskriver också ett pumptryck i taget i sin FAQ. Vi gör inte om det till en säker pumprekommendation. Följ doseringen på flaskan. Utan en uppmätt mängd per dos går det inte heller att ange hur många användningar 30 ml räcker till.",
         "sourceUrls": [
-          "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable"
+          "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable",
+          "https://lyko.com/sv/har/harvard/treatment/harolja/k-rastase-elixir-ultime-l-huile-originale-hair-oil-30ml",
+          "https://www.nordicfeel.com/se/product/kerastase-elixir-ultime-lhuile-originale-hair-oil-189032",
+          "https://www.nordicfeel.com/se/product/kerastase-elixir-ultime-lhuile-originale-hair-oil-189031",
+          "https://www.nordicfeel.com/se/product/kerastase-elixir-ultime-lhuile-originale-hair-oil-refill-189030"
         ]
       },
       {
@@ -6720,6 +6803,30 @@
         "url": "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable",
         "checkedAt": "2026-10-01",
         "supports": "30/75 ml, INCI, användning och motsägande doseringsord på samma sida."
+      },
+      {
+        "label": "Lyko – 30 ml",
+        "url": "https://lyko.com/sv/har/harvard/treatment/harolja/k-rastase-elixir-ultime-l-huile-originale-hair-oil-30ml",
+        "checkedAt": "2026-10-01T09:44:03.243Z",
+        "supports": "Daterat pris, exakt storlek och lagerstatus; pris per ml är en beräkning, inte kostnad per användning."
+      },
+      {
+        "label": "NordicFeel – 30 ml",
+        "url": "https://www.nordicfeel.com/se/product/kerastase-elixir-ultime-lhuile-originale-hair-oil-189032",
+        "checkedAt": "2026-10-01T09:44:04.767Z",
+        "supports": "Daterat pris, exakt storlek och lagerstatus; pris per ml är en beräkning, inte kostnad per användning."
+      },
+      {
+        "label": "NordicFeel – 75 ml",
+        "url": "https://www.nordicfeel.com/se/product/kerastase-elixir-ultime-lhuile-originale-hair-oil-189031",
+        "checkedAt": "2026-10-01T09:45:48.035Z",
+        "supports": "Daterat pris, exakt storlek och lagerstatus; pris per ml är en beräkning, inte kostnad per användning."
+      },
+      {
+        "label": "NordicFeel – 75 ml",
+        "url": "https://www.nordicfeel.com/se/product/kerastase-elixir-ultime-lhuile-originale-hair-oil-refill-189030",
+        "checkedAt": "2026-10-01T09:45:49.224Z",
+        "supports": "Daterat pris, exakt storlek och lagerstatus; pris per ml är en beräkning, inte kostnad per användning."
       }
     ],
     "related": [
@@ -6821,7 +6928,7 @@
         "label": "Cetaphil Sverige – Gentle Skin Cleanser",
         "url": "https://www.cetaphil.se/hudrengoring/gentle-skin-cleanser/3499320014396.html",
         "checkedAt": "2026-10-01T09:43:22.982425+00:00",
-        "supports": "236ml som storleksval, normal/torr/känslig hud och aktuell svensk ingredienslista FIL1747."
+        "supports": "236 ml som storleksval, normal/torr/känslig hud och aktuell svensk ingredienslista FIL1747."
       }
     ],
     "hypothesis": "appears for targetQuery within 14 days after publication",

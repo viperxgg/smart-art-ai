@@ -1213,13 +1213,13 @@
         "label": "L’Oréal Paris Sverige – Heat Slayer",
         "url": "https://www.lorealparis.se/elvital/dream-length/heat-slayer-iron-spray",
         "checkedAt": "2026-10-01T09:43:22.904186+00:00",
-        "supports": "150ml, applicering och tillverkarens230 °C-påstående."
+        "supports": "150 ml, applicering och tillverkarens 230 °C-påstående."
       },
       {
         "label": "ghd Australien – Bodyguard",
         "url": "https://www.ghdhair.com/au/heat-protection-products/ghd-heat-protect-spray-120ml-p-236/",
         "checkedAt": "2026-10-01T09:43:21.857736+00:00",
-        "supports": "120ml, applicering och regional temperaturuppgift."
+        "supports": "120 ml, applicering och regional temperaturuppgift."
       },
       {
         "label": "ghd Sverige – FAQ",
@@ -1366,7 +1366,7 @@
         "label": "Olaplex – No.7",
         "url": "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml",
         "checkedAt": "2026-10-01T09:43:20.422198+00:00",
-        "supports": "30ml, dosering, värmeskydd och INCI."
+        "supports": "30 ml, dosering, värmeskydd och INCI."
       },
       {
         "label": "Olaplex – No.7 användning",
@@ -1378,7 +1378,7 @@
         "label": "Kérastase Sverige – Elixir Ultime",
         "url": "https://www.kerastase.se/produkter/elixir-ultime/lhuile-originale-refillable",
         "checkedAt": "2026-10-01T09:48:19.610086+00:00",
-        "supports": "30/75ml, kamelia, vått/torrt hår och värmeskydd som tillverkarpåstående."
+        "supports": "30/75 ml, kamelia, vått/torrt hår och värmeskydd som tillverkarpåstående."
       }
     ],
     "related": [
@@ -1526,8 +1526,8 @@
     ],
     "tradeoffs": {
       "advantages": [
-        "Du vill jämföra två konkreta oljor utan att förväxla växtolja med hela formulan.",
-        "Du vill skilja märkets viktlöshetspåstående från ett eget resultat."
+        "Olaplex anger 2–3 droppar som startdos för No.7.",
+        "maria nila anger applicering av True Soft i handdukstorkade eller torra längder."
       ],
       "limitations": [
         "Ja, tillverkarna anger 230 °C för True Soft och 232 °C för No.7. Det är märkespåståenden med egna underlag. Skillnaden mellan siffrorna ger inte stöd för att rangordna produkterna eller höja temperaturen på ditt verktyg. Följ respektive appliceringsanvisning och verktygets instruktion.",
@@ -1690,8 +1690,8 @@
     ],
     "tradeoffs": {
       "advantages": [
-        "Du vill välja en ursköljbar mask utifrån din tvättrutin.",
-        "Du vill se när balsam kan ersättas och när instruktionerna varierar."
+        "Olaplex anger att Rich Hydration ersätter balsam vid samma tvätt.",
+        "Heavy Cream är en mask som sköljs ur efter schampo enligt Redkens instruktioner."
       ],
       "limitations": [
         "Olaplex säger uttryckligen att Rich Hydration ersätter balsam vid samma tvätt. För Redken visar de lästa märkeskällorna olika rutiner: en amerikansk utbildare beskriver mask i stället för balsam, medan Australiens serierutin lägger mask efter balsam. Gör därför inte Olaplex instruktion till en regel för alla masker.",
@@ -1797,7 +1797,7 @@
         "label": "no 3",
         "url": "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
         "checkedAt": "2026-10-01",
-        "supports": "No.3PLUS på vått hår före schampo,3 min,skölj,schampo och balsam."
+        "supports": "No.3 PLUS på vått hår före schampo,3 min,skölj,schampo och balsam."
       },
       {
         "label": "rich",
@@ -1828,8 +1828,8 @@
     ],
     "tradeoffs": {
       "advantages": [
-        "Du vill skilja förbehandling från ursköljbar inpackning.",
-        "Du använder No.3 Plus och behöver förstå vad som kommer efter schampot."
+        "No.3 Plus har ett eget steg före schampo enligt Olaplex.",
+        "Rich Hydration används efter schampo och ersätter balsam enligt Olaplex."
       ],
       "limitations": [
         "Den avgörande praktiska skillnaden här är när produkten används. No.3 Plus är en förbehandling som Olaplex marknadsför med bindningsreparation; Rich Hydration är masken efter schampo för fukt och mjukhet enligt märket. Vi har inte testat reparationspåståendet eller jämfört resultatet mellan dem.",
@@ -1965,14 +1965,341 @@
     ],
     "tradeoffs": {
       "advantages": [
-        "Du vill välja mellan föning som del av rutinen och olja som finish.",
-        "Du vill veta vilket värmeskydd som gäller för den exakta produkten."
+        "maria nila beskriver Gloss Coat med värmeskydd upp till 230 °C; det är märkets påstående.",
+        "Kérastase anger Glaze Drops som en finish i torra längder."
       ],
       "limitations": [
         "Gloss Coats instruktion kräver föning för att aktivera produkten. Glaze Drops instruktion är att applicera några droppar och lämna kvar; föning anges inte som ett aktiveringssteg där. Det gör skillnad om du vill lägga in produkten före fönen eller bara fördela olja i torra längder.",
         "Nej, vi kan inte ge en sådan garanti. Tillverkarna beskriver flerdagarseffekter utifrån sina respektive instrumentella tester. Uppgifterna kommer inte från samma jämförande försök och är inte Elins vals egna observationer. De visar därför inte att någon av produkterna säkert håller längre i ditt hår."
       ]
     },
+    "wave": 2,
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "wave2-c8",
+    "path": "/skonhet/cosrx-snail-96-eller-beauty-of-joseon",
+    "title": "COSRX Snail 96 eller Beauty of Joseon Glow Serum – essence eller serum först?",
+    "metaTitle": "Essence eller serum först? COSRX och Joseon",
+    "description": "COSRX Snail 96 eller Glow Serum? Läs om essence före serum, innehåll och när ett extra lager i din hudvårdsrutin kan vara onödigt.",
+    "targetQuery": "cosrx eller beauty of joseon",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "answer": "Om du väljer båda kommer essence före serum enligt Beauty of Joseons generella rutin. COSRX placerar Snail 96 efter rengöring och toner, före fuktkräm. Du behöver inte köpa båda för att följa den ordningen: välj Snail 96 för essence-steget eller Glow Serum om du vill ha märkets propolis- och niacinamidserum. Vi gör ingen behandlingsjämförelse.",
+    "productIds": [
+      "cosrx-snail-96-100ml",
+      "beauty-of-joseon-propolis-serum"
+    ],
+    "productPaths": [
+      "/skonhet/cosrx-snail-96",
+      "/skonhet/propolis-serum"
+    ],
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "fits": [
+      "Du vill skilja en essence från ett serum utan att bygga en längre rutin av bara produktnamnen.",
+      "Du vill jämföra innehåll och applicering med kosmetiska förväntningar."
+    ],
+    "skip": "Avstå från ett extra lager om du redan är nöjd med din rutin eller vill undvika just någon av ingredienserna.",
+    "rows": [
+      [
+        "Skillnad",
+        "COSRX Snail 96",
+        "Beauty of Joseon Glow Serum"
+      ],
+      [
+        "Variant",
+        "Essence 100 ml",
+        "Serum 30 ml"
+      ],
+      [
+        "Nyckelinnehåll enligt märket",
+        "Snail Secretion Filtrate; Betaine; Sodium Hyaluronate",
+        "Propolis; Niacinamide"
+      ],
+      [
+        "Plats",
+        "Efter rengöring och toner, före fuktkräm",
+        "Serumsteget före fuktkräm"
+      ],
+      [
+        "Dosering",
+        "Liten mängd enligt COSRX",
+        "2–3 droppar enligt Beauty of Joseon"
+      ],
+      [
+        "Vad vi inte fastställer",
+        "Effekt på hudsjukdom eller eget testresultat",
+        "Effekt på hudsjukdom eller eget testresultat"
+      ]
+    ],
+    "sections": [
+      {
+        "question": "Ska essence eller serum användas först?",
+        "answer": "Beauty of Joseons generella ordning är rengöring, toner, essence, serum, fuktkräm och solskydd i dagrutinen. COSRX anger Snail 96 efter rengöring och toner och före fuktkräm. Essence före serum är därför en sammanställning av märkets rutin; det är inte ett test av just de två produkterna tillsammans.",
+        "sourceUrls": [
+          "https://beautyofjoseon.com/blogs/news/best-skincare-routine-order",
+          "https://www.cosrx.com/products/advanced-snail-96-mucin-power-essence"
+        ]
+      },
+      {
+        "question": "Vad skiljer COSRX Snail 96 från Glow Serum?",
+        "answer": "COSRX är en essence med snigelfiltrat och bland annat betain och natriumhyaluronat i ingredienslistan. Glow Serum är ett serum med propolis och niacinamid. Märkena beskriver båda som återfuktande kosmetik. Innehållet gör dem inte identiska och ger inte stöd för att utse någon som behandling för ett hudproblem.",
+        "sourceUrls": [
+          "https://www.cosrx.com/products/advanced-snail-96-mucin-power-essence",
+          "https://beautyofjoseon.com/products/glow-serum-propolis-niacinamide"
+        ]
+      },
+      {
+        "question": "Hur mycket ska jag använda?",
+        "answer": "COSRX anger en liten mängd över ansiktet som klappas in. Beauty of Joseon anger 2–3 droppar Glow Serum som fördelas och klappas in tills det absorberats. Följ respektive produkts instruktion och gör inte flaskvolymen till ett påhittat antal användningar.",
+        "sourceUrls": [
+          "https://www.cosrx.com/products/advanced-snail-96-mucin-power-essence",
+          "https://beautyofjoseon.com/products/glow-serum-propolis-niacinamide"
+        ]
+      },
+      {
+        "question": "Behöver jag både essence och serum?",
+        "answer": "Nej, en ordningsföljd är inte en inköpslista. Välj det steg du faktiskt vill lägga till och bedöm hur din egen rutin fungerar. Vi har inget jämförande test som visar att kombinationen ger bättre resultat än en av produkterna, och vi lovar ingen effekt på akne eller andra hudtillstånd.",
+        "sourceUrls": [
+          "https://beautyofjoseon.com/blogs/news/best-skincare-routine-order",
+          "https://www.cosrx.com/products/advanced-snail-96-mucin-power-essence",
+          "https://beautyofjoseon.com/products/glow-serum-propolis-niacinamide"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "snail",
+        "url": "https://www.cosrx.com/products/advanced-snail-96-mucin-power-essence",
+        "checkedAt": "2026-10-01",
+        "supports": "100 ml essence, ingredienser och användning efter rengöring/toner före fuktkräm."
+      },
+      {
+        "label": "boj",
+        "url": "https://beautyofjoseon.com/products/glow-serum-propolis-niacinamide",
+        "checkedAt": "2026-10-01",
+        "supports": "30 ml Glow Serum, propolis/niacinamid,2–3 droppar, användning och kosmetisk beskrivning."
+      },
+      {
+        "label": "order",
+        "url": "https://beautyofjoseon.com/blogs/news/best-skincare-routine-order",
+        "checkedAt": "2026-10-01",
+        "supports": "Beauty of Joseons generella ordning essence före serum före fuktkräm."
+      }
+    ],
+    "related": [
+      [
+        "Cosrx snail 96",
+        "/skonhet/cosrx-snail-96"
+      ],
+      [
+        "Propolis serum",
+        "/skonhet/propolis-serum"
+      ],
+      [
+        "Snigelslem eller hyaluronsyra",
+        "/skonhet/snigelslem-eller-hyaluronsyra"
+      ]
+    ],
+    "tradeoffs": {
+      "advantages": [
+        "COSRX beskriver Snail 96 som en essence efter rengöring och toner.",
+        "Beauty of Joseon anger Glow Serum som serumsteget före fuktkräm."
+      ],
+      "limitations": [
+        "COSRX anger en liten mängd över ansiktet som klappas in. Beauty of Joseon anger 2–3 droppar Glow Serum som fördelas och klappas in tills det absorberats. Följ respektive produkts instruktion och gör inte flaskvolymen till ett påhittat antal användningar.",
+        "Nej, en ordningsföljd är inte en inköpslista. Välj det steg du faktiskt vill lägga till och bedöm hur din egen rutin fungerar. Vi har inget jämförande test som visar att kombinationen ger bättre resultat än en av produkterna, och vi lovar ingen effekt på akne eller andra hudtillstånd."
+      ]
+    },
+    "blocked": [
+      "Lyko Glow Serum WOW price without end date fails numeric-price acceptance. Two-merchant price coverage must be resolved before release; existing NordicFeel alone does not meet prompt 14."
+    ],
+    "wave": 2,
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "wave2-d1",
+    "path": "/skonhet/balsam-eller-inpackning",
+    "title": "Balsam eller inpackning – vad först, och behöver du båda?",
+    "metaTitle": "Balsam eller inpackning – vad först?",
+    "description": "Ska balsam eller inpackning användas först? Se märkenas ordning, när mask ersätter balsam och undantagen No.3 Plus och K18 leave-in.",
+    "targetQuery": "balsam eller inpackning först",
+    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "answer": "Följ instruktionen för din mask; alla inpackningar har inte samma plats i rutinen. Olaplex Rich Hydration används efter schampo och ersätter balsam samma tvätt. Redkens märkeskällor visar olika rutiner. No.3 Plus hör före schampo och K18 lämnas kvar efter schampo utan balsam före. Börja därför med vilken produkt du faktiskt har, inte med en generell regel.",
+    "productIds": [
+      "olaplex-rich-hydration-mask-200ml",
+      "redken-all-soft-heavy-cream",
+      "olaplex-no3-plus",
+      "k18-leave-in-50ml"
+    ],
+    "productPaths": [
+      "/skonhet/olaplex-rich-hydration-mask",
+      "/skonhet/redken-all-soft-harinpackning",
+      "/skonhet/olaplex-no3",
+      "/guider/harinpackning#hair-routine-detail"
+    ],
+    "updatedAt": "2026-10-01",
+    "changes": [],
+    "fits": [
+      "Du vill få ordning på produkterna du redan äger.",
+      "Du vill undvika att lägga till balsam eller mask som ett automatiskt extrasteg."
+    ],
+    "skip": "Avstå från ett nytt köp om du inte kan peka ut vilket steg eller vilken kosmetisk egenskap du vill ändra.",
+    "rows": [
+      [
+        "Produkt",
+        "Före eller efter schampo?",
+        "Balsam och ursköljning"
+      ],
+      [
+        "Rich Hydration",
+        "Efter;3–5 min",
+        "Ersätter balsam samma tvätt; skölj ur"
+      ],
+      [
+        "Heavy Cream",
+        "Efter; kontrollera tubens tid",
+        "Skölj ur; märkeskällornas balsamordning varierar"
+      ],
+      [
+        "No.3 Plus",
+        "Före;3 min",
+        "Skölj, sedan schampo och balsam"
+      ],
+      [
+        "K18 leave-in",
+        "Efter schampo; vänta 4 min",
+        "Ingen balsam före; lämnas kvar"
+      ]
+    ],
+    "sections": [
+      {
+        "question": "I vilken ordning tar man hårprodukter?",
+        "answer": "Läs först vilken sorts produkt du har. Olaplex No.3 Plus appliceras före schampo och sköljs ur; Rich Hydration appliceras efter schampo. K18 är ett annat undantag: schamponera utan balsam före, handdukstorka, applicera och vänta fyra minuter utan att skölja ur. En enda ordning för alla produkter blir därför missvisande.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
+          "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+          "https://www.k18hair.com/products/leave-in-molecular-repair-hair-mask-50-ml"
+        ]
+      },
+      {
+        "question": "Kan man använda hårinpackning som balsam?",
+        "answer": "Ja, när den aktuella tillverkaren anger det. Olaplex säger att Rich Hydration ersätter balsam vid samma tvätt. Redkens amerikanska källa beskriver ett sådant alternativ för Heavy Cream, men märkets australiska serierutin lägger mask efter balsam. Det är skäl att följa din produkts förpackning, inte att göra en universell regel.",
+        "sourceUrls": [
+          "https://olaplex.com/pages/frequently-asked-questions-pro",
+          "https://www.redken.com/hair-care/884486453013.html?bvstate=pg%3A3%2Fct%3Ar",
+          "https://www.redken.com.au/products/haircare/all-soft"
+        ]
+      },
+      {
+        "question": "Ska balsam alltid komma efter inpackningen?",
+        "answer": "Nej. Rich Hydration har ett uttryckligt besked att masken ersätter balsam. K18 instruerar att hoppa över balsam före applicering och lämna behandlingen kvar. Andra maskrutiner kan se annorlunda ut. Att något heter mask eller inpackning räcker alltså inte för att bestämma om ett extra balsamsteg behövs.",
+        "sourceUrls": [
+          "https://olaplex.com/pages/frequently-asked-questions-pro",
+          "https://www.k18hair.com/products/leave-in-molecular-repair-hair-mask-50-ml"
+        ]
+      },
+      {
+        "question": "Varför är No.3 Plus ett undantag?",
+        "answer": "No.3 Plus är enligt Olaplex en förbehandling före schampo. Den appliceras på vått hår, ska verka tre minuter och sköljas ur innan schampo och balsam. Den ersätter därför inte automatiskt balsam eller en ursköljbar mask efter schampo. Det handlar om placering i rutinen, inte om att fler produkter alltid behövs.",
+        "sourceUrls": [
+          "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml"
+        ]
+      },
+      {
+        "question": "Varför ska K18 lämnas kvar?",
+        "answer": "Det är produktens instruktion: schamponera utan balsam före, handdukstorka, applicera 1–3 pumpar utifrån hårlängd och täthet och vänta fyra minuter. Skölj inte ur. K18 beskriver därefter styling som vanligt. Överför inte denna leave-in-rutin till en mask som tillverkaren säger ska sköljas ur.",
+        "sourceUrls": [
+          "https://www.k18hair.com/products/leave-in-molecular-repair-hair-mask-50-ml"
+        ]
+      },
+      {
+        "question": "Behöver du ens någon av dem?",
+        "answer": "Du behöver inte köpa en extra mask eller ett extra balsam bara för att fylla en rutin. Om du är nöjd med hur håret känns och hur lätt din nuvarande rutin fungerar finns inget köpskäl som den här jämförelsen kan fastställa. Detta är vårt redaktionella köpråd, inte ett påstående att någon viss hårtyp aldrig behöver vård.",
+        "sourceUrls": [
+          "https://olaplex.com/blogs/news/hair-mask-vs-conditioner"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "rich",
+        "url": "https://olaplex.com/products/olaplex-rich-hydration-mask-200ml",
+        "checkedAt": "2026-10-01",
+        "supports": "Rich Hydration efter schampo 3–5 min varje vecka; för torrt eller medium/grovt hår."
+      },
+      {
+        "label": "maskfaq",
+        "url": "https://olaplex.com/pages/frequently-asked-questions-pro",
+        "checkedAt": "2026-10-01",
+        "supports": "Rich Hydration ersätter balsam vid samma tvätt enligt Olaplex FAQ."
+      },
+      {
+        "label": "maskconditioner",
+        "url": "https://olaplex.com/blogs/news/hair-mask-vs-conditioner",
+        "checkedAt": "2026-10-01",
+        "supports": "Olaplex skiljer hårmask från balsam och anger när mask kan ersätta balsam."
+      },
+      {
+        "label": "redken",
+        "url": "https://www.redkenpro.com/products/hair-care/all-soft-heavy-cream-super-treatment-mask",
+        "checkedAt": "2026-10-01",
+        "supports": "Heavy Cream: torrt och sprött hår, fem minuter efter schamponering, skölj ur, INCI."
+      },
+      {
+        "label": "redkenfaq",
+        "url": "https://www.redken.com/hair-care/884486453013.html?bvstate=pg%3A3%2Fct%3Ar",
+        "checkedAt": "2026-10-01",
+        "supports": "USA-FAQ skiljer All Soft från Mega samt beskriver användning i stället för balsam; läst via sökverktyget, direkt hämtning 403."
+      },
+      {
+        "label": "redkenrange",
+        "url": "https://www.redken.com.au/products/haircare/all-soft",
+        "checkedAt": "2026-10-01",
+        "supports": "Australisk serierutin anger schampo och balsam följt av mask 2–3gånger/vecka; visar regional instruktionvariation."
+      },
+      {
+        "label": "no 3",
+        "url": "https://olaplex.com/products/olaplex-n-3plus-complete-repair-treatment-100ml",
+        "checkedAt": "2026-10-01",
+        "supports": "No.3 PLUS på vått hår före schampo,3 min,skölj,schampo och balsam."
+      },
+      {
+        "label": "k 18",
+        "url": "https://www.k18hair.com/products/leave-in-molecular-repair-hair-mask-50-ml",
+        "checkedAt": "2026-10-01",
+        "supports": "Schampo utan föregående balsam, handdukstorka,1–3 pumpar,vänta 4 min,skölj inte ur."
+      }
+    ],
+    "related": [
+      [
+        "Olaplex rich hydration mask",
+        "/skonhet/olaplex-rich-hydration-mask"
+      ],
+      [
+        "Redken all soft harinpackning",
+        "/skonhet/redken-all-soft-harinpackning"
+      ],
+      [
+        "Olaplex no 3",
+        "/skonhet/olaplex-no3"
+      ],
+      [
+        "K18 som leave-in i hårrutinen",
+        "/guider/harinpackning#hair-routine-detail"
+      ]
+    ],
+    "tradeoffs": {
+      "advantages": [
+        "No.3 Plus instruktion skiljer tydligt förbehandling från stegen efter schampo.",
+        "K18 anger uttryckligen att leave-in-masken ska lämnas kvar efter väntetiden."
+      ],
+      "limitations": [
+        "Det är produktens instruktion: schamponera utan balsam före, handdukstorka, applicera 1–3 pumpar utifrån hårlängd och täthet och vänta fyra minuter. Skölj inte ur. K18 beskriver därefter styling som vanligt. Överför inte denna leave-in-rutin till en mask som tillverkaren säger ska sköljas ur.",
+        "Du behöver inte köpa en extra mask eller ett extra balsam bara för att fylla en rutin. Om du är nöjd med hur håret känns och hur lätt din nuvarande rutin fungerar finns inget köpskäl som den här jämförelsen kan fastställa. Detta är vårt redaktionella köpråd, inte ett påstående att någon viss hårtyp aldrig behöver vård."
+      ]
+    },
+    "decisionPage": true,
     "wave": 2,
     "publicationStatus": "draft"
   }

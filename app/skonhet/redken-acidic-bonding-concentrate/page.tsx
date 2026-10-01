@@ -1,3 +1,4 @@
+// 2026-10-01: Add contextual links to the wave-2 questions; existing decision prose preserved.
 // Content refresh 2026-09-29: editorial attribution, method, sourced questions and offer eligibility.
 // 2026-09-22: Add contextual links to the source-led partner decisions.
 import { SelectedProductPage } from "@/components/SelectedProductPage";
