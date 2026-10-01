@@ -26,6 +26,10 @@ export function PartnerComparisonPage({ page }: { page: PartnerComparison }) {
         <EditorialByline reviewedAt={page.updatedAt} changes={page.changes} className="mt-4" />
         <p className="mt-1 text-xs text-ink-soft">Källbaserad jämförelse, inte ett eget produkttest.</p>
       </header>
+      {page.wave === 2 ? <div className="mt-4 space-y-2 text-xs leading-relaxed">{products.flatMap(product => [
+        ...(product.merchantLimitation ? [`${product.name}: ${product.merchantLimitation}`] : []),
+        ...[product.offer, ...(product.additionalOffers ?? [])].filter(offer => offer.priceUnavailableReason).map(offer => `${product.name}, ${offer.merchantName}: ${offer.priceUnavailableReason}`),
+      ]).map(note => <p key={note}>{note}</p>)}</div> : null}
       <div className="mt-8 grid gap-5 sm:grid-cols-2">{products.map((product, index) => <figure key={product.id} className="rounded-2xl border border-line bg-white p-5">
         <Image src={product.image.src} alt={product.image.alt} width={product.image.width} height={product.image.height} sizes="(max-width: 640px) 80vw, 420px" className="h-64 w-full object-contain" />
         <figcaption className="mt-3 text-xs text-ink-soft">{product.image.credit}</figcaption>

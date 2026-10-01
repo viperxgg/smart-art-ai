@@ -10,7 +10,7 @@ export function CompactMerchantChoices({ productIds, now }: { productIds: readon
     const record = getProductRecord(id)!;
     const ml = Number(record.variant.match(/(\d+)\s*ml/i)?.[1]);
     return <div key={id} data-merchant-choice-product={id}>
-      {productIds.length > 1 ? <p className="text-xs font-semibold">{record.name} · {record.variant}</p> : null}
+      {productIds.length > 1 ? <p className="text-xs font-semibold">{record.shortName ?? record.name}{ml ? ` · ${ml} ml` : ""}</p> : null}
       <div className="grid grid-cols-2 gap-2">{getMerchantOffers(id).map(offer => {
         const state = getMerchantOfferPresentation(offer, now);
         const price = offer.price && getVerifiedMerchantPrice(offer.price, now);
@@ -18,10 +18,10 @@ export function CompactMerchantChoices({ productIds, now }: { productIds: readon
           <p className="mt-1">{state.outOfStock ? "Slut vid kontroll" : price ? `${price.amount.toLocaleString("sv-SE")} kr` : "Kontrollera pris"} · {offer.availabilityCheckedAt.slice(0, 10)}</p>
           {!state.outOfStock && price && ml ? <p>{(price.amount / ml).toLocaleString("sv-SE", { maximumFractionDigits: 2 })} kr/ml</p> : null}
           <MerchantAction compact href={offer.href} merchant={offer.merchantId} product={id} placement="selected-product-offer" label={state.ctaLabel} direct={offer.linkKind === "direct"} disclosure={`Annons / Reklam för ${offer.merchantName}`} />
-          {offer.priceUnavailableReason ? <p className="mt-1 leading-relaxed">{offer.priceUnavailableReason}</p> : null}
+          {productIds.length === 1 && offer.priceUnavailableReason ? <p className="mt-1 leading-relaxed">{offer.priceUnavailableReason}</p> : null}
         </div>;
       })}</div>
-      {record.merchantLimitation ? <p className="mt-2 text-xs leading-relaxed">{record.merchantLimitation}</p> : null}
+      {productIds.length === 1 && record.merchantLimitation ? <p className="mt-2 text-xs leading-relaxed">{record.merchantLimitation}</p> : null}
     </div>;
   })}</div>;
 }
