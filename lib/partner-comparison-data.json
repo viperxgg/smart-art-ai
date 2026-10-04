@@ -105,7 +105,8 @@
       "infographic": "/products/selected/comparison-c1/c.webp",
       "context": "/products/selected/comparison-c1/d.webp"
     },
-    "publishedAt": "2026-09-22"
+    "publishedAt": "2026-09-22",
+    "discoveryLabel": "Wanbo Cube 2 Pro eller Plexgear CV200 – vad avgör?"
   },
   {
     "id": "c2",
@@ -219,7 +220,8 @@
       "infographic": "/products/selected/comparison-c2/c.webp",
       "context": "/products/selected/comparison-c2/d.webp"
     },
-    "publishedAt": "2026-09-22"
+    "publishedAt": "2026-09-22",
+    "discoveryLabel": "Kobo Clara Colour eller Clara BW?"
   },
   {
     "id": "c3",
@@ -322,7 +324,8 @@
       "infographic": "/products/selected/comparison-c3/c.webp",
       "context": "/products/selected/comparison-c3/d.webp"
     },
-    "publishedAt": "2026-09-22"
+    "publishedAt": "2026-09-22",
+    "discoveryLabel": "Nothing Ear (3a) eller CMF Buds 2?"
   },
   {
     "id": "c4",
@@ -424,7 +427,8 @@
       "infographic": "/products/selected/comparison-c4/c.webp",
       "context": "/products/selected/comparison-c4/d.webp"
     },
-    "publishedAt": "2026-09-22"
+    "publishedAt": "2026-09-22",
+    "discoveryLabel": "Reolink W330 eller Tapo C520WS – utan abonnemang?"
   },
   {
     "id": "c5",
@@ -521,7 +525,8 @@
       "infographic": "/products/selected/comparison-c5/c.webp",
       "context": "/products/selected/comparison-c5/d.webp"
     },
-    "publishedAt": "2026-09-22"
+    "publishedAt": "2026-09-22",
+    "discoveryLabel": "By Lyko Core Styler eller Infrared Blowout?"
   },
   {
     "id": "c6",
@@ -634,7 +639,8 @@
       "infographic": "/products/selected/comparison-c6/c.webp",
       "context": "/products/selected/comparison-c6/d.webp"
     },
-    "publishedAt": "2026-09-22"
+    "publishedAt": "2026-09-22",
+    "discoveryLabel": "Värmeborste eller varmluftsborste – vilken passar din morgonrutin?"
   },
   {
     "id": "c7",
@@ -737,7 +743,8 @@
       "infographic": "/products/selected/comparison-c7/c.webp",
       "context": "/products/selected/comparison-c7/d.webp"
     },
-    "publishedAt": "2026-09-22"
+    "publishedAt": "2026-09-22",
+    "discoveryLabel": "Olaplex No.3 Plus eller K18?"
   },
   {
     "id": "c8",
@@ -840,7 +847,8 @@
       "infographic": "/products/selected/comparison-c8/c.webp",
       "context": "/products/selected/comparison-c8/d.webp"
     },
-    "publishedAt": "2026-09-22"
+    "publishedAt": "2026-09-22",
+    "discoveryLabel": "ghd Original IV eller Remington S5901?"
   },
   {
     "id": "c9",
@@ -955,7 +963,8 @@
       "infographic": "/products/selected/comparison-c9/c.webp",
       "context": "/products/selected/comparison-c9/d.webp"
     },
-    "publishedAt": "2026-09-22"
+    "publishedAt": "2026-09-22",
+    "discoveryLabel": "Roterande eller vanlig varmluftsborste – BaByliss eller Remington?"
   },
   {
     "id": "wave2-c1",
@@ -1117,8 +1126,9 @@
       "infographicHeight": 1510
     },
     "held": true,
+    "holdReason": "held_no_demand_signal",
     "heldAt": "2026-10-02",
-    "holdReason": "held_no_demand_signal"
+    "discoveryLabel": "bodyguard eller shaping heat spray före plattång?"
   },
   {
     "id": "wave2-c2",
@@ -1135,8 +1145,8 @@
       "/skonhet/ghd-bodyguard",
       "/skonhet/varmeskydd"
     ],
-    "targetQuery": "ghd bodyguard eller heat slayer – vad skiljer dem?",
-    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "targetQuery": "bra billigt värmeskydd",
+    "hypothesis": "Appears for 'bra billigt värmeskydd' within 14 days after publication; measure at 7, 14 and 28 days from the verified publication date.",
     "updatedAt": "2026-10-01",
     "publicationStatus": "draft",
     "wave": 2,
@@ -1278,6 +1288,17 @@
       "infographic": "/wave2/wave2-c2-c.png",
       "infographicWidth": 780,
       "infographicHeight": 1510
+    },
+    "discoveryLabel": "ghd bodyguard eller heat slayer – vad skiljer dem?",
+    "merchantExceptions": {
+      "ghd-bodyguard-120ml": {
+        "status": "approved_single_merchant",
+        "approvedBy": "Azzam Khalaf",
+        "approvedAt": "2026-10-02",
+        "merchant": "lyko",
+        "gtin13": "5060356734320",
+        "reason": "NordicFeel lists a different EAN and an older product generation; no NordicFeel offer or button is permitted."
+      }
     }
   },
   {
@@ -1295,8 +1316,8 @@
       "/skonhet/olaplex-no7-bonding-oil",
       "/skonhet/kerastase-elixir-ultime"
     ],
-    "targetQuery": "olaplex no.7 eller elixir ultime – vilken hårolja?",
-    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "targetQuery": "olaplex eller kerastase",
+    "hypothesis": "Appears for 'olaplex eller kerastase' within 14 days after publication; measure at 7, 14 and 28 days from the verified publication date.",
     "updatedAt": "2026-10-01",
     "publicationStatus": "draft",
     "wave": 2,
@@ -1425,7 +1446,8 @@
       "infographic": "/wave2/wave2-c3-c.png",
       "infographicWidth": 780,
       "infographicHeight": 1510
-    }
+    },
+    "discoveryLabel": "olaplex no.7 eller elixir ultime – vilken hårolja?"
   },
   {
     "id": "wave2-c4",
@@ -1433,8 +1455,8 @@
     "title": "Arganolja eller bonding oil – vilken olja tynger inte fint hår?",
     "metaTitle": "Arganolja eller bonding oil för fint hår?",
     "description": "True Soft eller No.7 för fint hår? Jämför formula, dosering och märkets löften utan att göra en påstått lätt olja till testvinnare.",
-    "targetQuery": "arganolja fint hår",
-    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "targetQuery": "arganolja tunt hår",
+    "hypothesis": "Appears for 'arganolja tunt hår' within 14 days after publication; measure at 7, 14 and 28 days from the verified publication date.",
     "answer": "Välj inte mellan arganolja och bonding oil bara efter namnet. True Soft och Olaplex No.7 är formulerade håroljor, och båda märkena beskriver en lätt känsla. Det bevisar inte vilken som tynger minst i ditt fina hår. Välj True Soft om dess formula passar din rutin; välj No.7 om du föredrar Olaplex och dess angivna droppdosering.",
     "productIds": [
       "maria-nila-true-soft-argan-oil",
@@ -1562,7 +1584,8 @@
       "infographic": "/wave2/wave2-c4-c.png",
       "infographicWidth": 780,
       "infographicHeight": 1510
-    }
+    },
+    "discoveryLabel": "arganolja fint hår"
   },
   {
     "id": "wave2-c5",
@@ -1734,8 +1757,9 @@
       "infographicHeight": 1510
     },
     "held": true,
+    "holdReason": "held_no_demand_signal",
     "heldAt": "2026-10-02",
-    "holdReason": "held_no_demand_signal"
+    "discoveryLabel": "olaplex rich hydration eller redken all soft"
   },
   {
     "id": "wave2-c6",
@@ -1743,8 +1767,8 @@
     "title": "Olaplex Rich Hydration Mask eller No.3 Plus – inpackning eller behandling, och vad först?",
     "metaTitle": "Rich Hydration eller No.3 Plus – vad först?",
     "description": "Olaplex mask eller No.3 Plus? Se ordningen före och efter schampo, verkningstider och när Rich Hydration ersätter balsam i rutinen.",
-    "targetQuery": "olaplex rich hydration eller no 3 plus",
-    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "targetQuery": "olaplex no 3 eller 8",
+    "hypothesis": "Appears for 'olaplex no 3 eller 8' within 14 days after publication; measure at 7, 14 and 28 days from the verified publication date.",
     "answer": "No.3 Plus ska enligt Olaplex användas före schampo, medan Rich Hydration används efter schampo och ersätter balsam vid den tvätten. Välj alltså efter steget du saknar, inte för att köpa två behandlingar på chans. Om du väljer båda följer ordningen No.3 Plus, skölj, schampo och därefter Rich Hydration med sin egen verkningstid.",
     "productIds": [
       "olaplex-rich-hydration-mask-200ml",
@@ -1879,7 +1903,8 @@
       "infographic": "/wave2/wave2-c6-c.png",
       "infographicWidth": 780,
       "infographicHeight": 1510
-    }
+    },
+    "discoveryLabel": "olaplex rich hydration eller no 3 plus"
   },
   {
     "id": "wave2-c7",
@@ -2024,8 +2049,9 @@
       "infographicHeight": 1510
     },
     "held": true,
+    "holdReason": "held_no_demand_signal",
     "heldAt": "2026-10-02",
-    "holdReason": "held_no_demand_signal"
+    "discoveryLabel": "gloss coat eller glaze drops"
   },
   {
     "id": "wave2-c8",
@@ -2172,7 +2198,8 @@
       "infographic": "/wave2/wave2-c8-c.png",
       "infographicWidth": 780,
       "infographicHeight": 1510
-    }
+    },
+    "discoveryLabel": "cosrx eller beauty of joseon"
   },
   {
     "id": "wave2-d1",
@@ -2364,6 +2391,7 @@
       "infographic": "/wave2/wave2-d1-c.png",
       "infographicWidth": 780,
       "infographicHeight": 1860
-    }
+    },
+    "discoveryLabel": "balsam eller inpackning först"
   }
 ]

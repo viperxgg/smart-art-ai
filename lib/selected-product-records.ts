@@ -74,6 +74,7 @@ export type CanonicalProductRecord = {
   hubGroup?: HubGroup;
   additionalOffers?: (CanonicalOffer & { merchantItemId: string })[];
   targetQuery?: string;
+  discoveryLabel?: string;
   secondaryQuery?: string;
   hypothesis?: string;
   decisionSections?: { question: string; answer: string; sourceUrls: string[] }[];

@@ -25,8 +25,8 @@ export function PartnerCategoryLinks({ categorySlug }: { categorySlug: ProductCa
     <p className="text-sm font-black uppercase tracking-[0.16em] text-rose">Nya källgranskade val</p>
     <h2 id={`${categorySlug}-partner-pages`} className="editorial-color-kiss mt-2 font-display text-4xl">Fördjupa ditt beslut</h2>
     <div className="mt-7 grid gap-5 md:grid-cols-2">
-      {[...products.map((product) => ({ href: product.path, text: product.targetQuery ?? product.heading ?? product.question })),
-        ...comparisons.map((comparison) => ({ href: comparison.path, text: comparison.targetQuery }))]
+      {[...products.map((product) => ({ href: product.path, text: product.discoveryLabel ?? product.heading ?? product.question })),
+        ...comparisons.map((comparison) => ({ href: comparison.path, text: comparison.discoveryLabel ?? comparison.title }))]
         .map((entry) => <Link key={entry.href} href={entry.href} className="inline-flex min-h-12 items-center rounded-2xl border border-line bg-surface/72 px-5 py-4 font-bold text-wine underline underline-offset-4">{entry.text}</Link>)}
     </div>
   </section>;

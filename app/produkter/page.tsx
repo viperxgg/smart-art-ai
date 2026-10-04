@@ -1,3 +1,4 @@
+// 2026-10-04: Approved local price recheck or held-route discovery update; editorial facts and publication state preserved.
 // 2026-10-01: Wave-2 records and contextual paths updated; existing decision prose preserved.
 import Image from "next/image";
 import Link from "next/link";
@@ -70,7 +71,7 @@ export default function ProductsPage() {
               <p className="mt-4 text-xs font-bold uppercase tracking-wider text-wine">{product.topic}</p>
               <h3 className="mt-2 font-display text-2xl font-bold leading-tight"><Link href={product.path}>{product.shortName}</Link></h3>
               <p className="mt-3 text-xs leading-relaxed text-ink-soft">{product.variant}</p>
-              <p className="mb-4 mt-4 text-sm leading-relaxed">{product.targetQuery ?? product.question}</p>
+              <p className="mb-4 mt-4 text-sm leading-relaxed">{product.discoveryLabel ?? product.question}</p>
               <div className="mt-auto"><p className="text-sm font-bold">{offer.merchantName}</p><MerchantOfferStatus offer={offer} />
                 <Link href={product.path} className="mt-4 inline-flex min-h-12 items-center gap-2 font-bold text-wine underline underline-offset-4">Läs guiden och se butiker<ArrowRight size={18} aria-hidden="true" /></Link>
                 <p className="mt-2 text-xs leading-relaxed text-ink-soft">{image.credit}</p>

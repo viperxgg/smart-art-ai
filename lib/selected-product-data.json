@@ -2428,7 +2428,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "Fungerar Netflix på Wanbo Cube 2 Pro?"
   },
   {
     "id": "plexgear-cv200",
@@ -2605,7 +2606,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "Kan Plexgear CV200 visa Netflix – och räcker 720p?"
   },
   {
     "id": "kobo-clara-colour",
@@ -2795,7 +2797,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "Kobo Clara Colour – är färgskärmen värd pengarna?"
   },
   {
     "id": "nothing-ear-3a",
@@ -2987,7 +2990,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "Nothing Ear (3a) – vad får du för pengarna?"
   },
   {
     "id": "reolink-w330",
@@ -3177,7 +3181,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "Reolink W330 utan abonnemang – vad krävs för att det ska fungera?"
   },
   {
     "id": "lyko-core-styler",
@@ -3360,7 +3365,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "5-i-1 airstyler för 1 500 kr – vad klarar By Lyko Core Styler?"
   },
   {
     "id": "lyko-infrared-blowout",
@@ -3540,7 +3546,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "Fungerar By Lyko Infrared Blowout på tjockt hår från blött?"
   },
   {
     "id": "ghd-rise",
@@ -3745,7 +3752,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "ghd rise volumising hot brush"
   },
   {
     "id": "olaplex-no3-plus",
@@ -3944,7 +3952,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "Olaplex No.3 Plus – vad skiljer mot gamla No.3, och räcker 3 minuter?"
   },
   {
     "id": "redken-abc-pre-treatment",
@@ -4119,7 +4128,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "Behöver du Redken ABC Pre-Treatment om du redan har Leave-In?"
   },
   {
     "id": "ghd-original-iv",
@@ -4298,7 +4308,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "ghd Original IV – vad får du för prisskillnaden?"
   },
   {
     "id": "remington-s5901",
@@ -4481,7 +4492,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "Remington S5901 för 519 kr – vad får du och vad saknas?"
   },
   {
     "id": "babyliss-big-hair-dual",
@@ -4654,7 +4666,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "Roterande varmluftsborste – är BaByliss Big Hair Dual svår att lära sig?"
   },
   {
     "id": "remington-as5901",
@@ -4862,7 +4875,8 @@
         "date": "2026-09-29",
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
-    ]
+    ],
+    "discoveryLabel": "Räcker 1 000 W? Remington AS5901 som varmluftsborste från blött hår"
   },
   {
     "id": "olaplex-no7-bonding-oil-30ml",
@@ -4885,8 +4899,8 @@
     "shortName": "Olaplex No.7 Bonding Oil",
     "brand": "Olaplex",
     "merchantItemId": "1737-110-0030",
-    "targetQuery": "olaplex no 7 vad gör den",
-    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "targetQuery": "olaplex no 7 användning",
+    "hypothesis": "Appears for 'olaplex no 7 användning' within 14 days after publication; measure at 7, 14 and 28 days from the verified publication date.",
     "fits": [
       "Du vill ha en olja för glans före eller efter styling.",
       "Du föredrar en startdos i droppar och anpassar mängden efter håret."
@@ -5124,7 +5138,8 @@
       "infographicHeight": 980,
       "contextWidth": 1200,
       "contextHeight": 720
-    }
+    },
+    "discoveryLabel": "olaplex no 7 vad gör den"
   },
   {
     "id": "olaplex-rich-hydration-mask-200ml",
@@ -5147,8 +5162,8 @@
     "shortName": "Olaplex Rich Hydration Mask",
     "brand": "Olaplex",
     "merchantItemId": "1737-147-0200",
-    "targetQuery": "olaplex rich hydration mask hur ofta",
-    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "targetQuery": "olaplex rich hydration mask vs no 8",
+    "hypothesis": "Appears for 'olaplex rich hydration mask vs no 8' within 14 days after publication; measure at 7, 14 and 28 days from the verified publication date.",
     "fits": [
       "Du har torrt hår eller medelgrova till grova hårstrån.",
       "Du vill ersätta balsam med en mask vid en veckotvätt."
@@ -5383,7 +5398,8 @@
       "infographicHeight": 980,
       "contextWidth": 1200,
       "contextHeight": 720
-    }
+    },
+    "discoveryLabel": "olaplex rich hydration mask hur ofta"
   },
   {
     "id": "ghd-bodyguard-120ml",
@@ -5406,8 +5422,8 @@
     "shortName": "ghd Bodyguard All Hair Types",
     "brand": "ghd",
     "merchantItemId": "1121-431-0120",
-    "targetQuery": "ghd bodyguard 230 grader",
-    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "targetQuery": "ghd bodyguard värmeskydd",
+    "hypothesis": "Appears for 'ghd bodyguard värmeskydd' within 14 days after publication; measure at 7, 14 and 28 days from the verified publication date.",
     "fits": [
       "Du vill ha en spray före föning eller värmestyling.",
       "Du söker All Hair Types och kontrollerar variantnamnet på flaskan."
@@ -5618,6 +5634,15 @@
       "infographicHeight": 980,
       "contextWidth": 1200,
       "contextHeight": 720
+    },
+    "discoveryLabel": "ghd bodyguard 230 grader",
+    "merchantException": {
+      "status": "approved_single_merchant",
+      "approvedBy": "Azzam Khalaf",
+      "approvedAt": "2026-10-02",
+      "merchant": "lyko",
+      "gtin13": "5060356734320",
+      "reason": "NordicFeel lists a different EAN and an older product generation; no NordicFeel offer or button is permitted."
     }
   },
   {
@@ -5641,8 +5666,8 @@
     "shortName": "maria nila Shaping Heat Spray",
     "brand": "maria nila",
     "merchantItemId": "1003-496-0250",
-    "targetQuery": "maria nila shaping heat spray grader",
-    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "targetQuery": "maria nila värmeskydd",
+    "hypothesis": "Appears for 'maria nila värmeskydd' within 14 days after publication; measure at 7, 14 and 28 days from the verified publication date.",
     "fits": [
       "Du stylar torrt hår med värme och vill ha lätt stadga.",
       "Du föredrar en produkt som tillverkaren anger som vegansk."
@@ -5874,7 +5899,8 @@
       "infographicHeight": 980,
       "contextWidth": 1200,
       "contextHeight": 720
-    }
+    },
+    "discoveryLabel": "maria nila shaping heat spray grader"
   },
   {
     "id": "heat-slayer-150ml",
@@ -6206,7 +6232,8 @@
       "infographicHeight": 980,
       "contextWidth": 1200,
       "contextHeight": 720
-    }
+    },
+    "discoveryLabel": "maria nila true soft argan oil fint hår"
   },
   {
     "id": "redken-all-soft-heavy-cream",
@@ -6460,7 +6487,8 @@
       "infographicHeight": 980,
       "contextWidth": 1200,
       "contextHeight": 720
-    }
+    },
+    "discoveryLabel": "redken all soft heavy cream hur ofta"
   },
   {
     "id": "maria-nila-gloss-coat",
@@ -6719,7 +6747,8 @@
       "infographicHeight": 980,
       "contextWidth": 1200,
       "contextHeight": 720
-    }
+    },
+    "discoveryLabel": "maria nila gloss coat värmeskydd"
   },
   {
     "id": "kerastase-elixir-ultime",
@@ -6732,8 +6761,8 @@
     "question": "Kérastase Elixir Ultime – varför 30 ml, och vad skiljer den från en vanlig hårolja?",
     "metaTitle": "Varför 30 ml? Kérastase Elixir Ultime",
     "description": "Är Elixir Ultime 30 ml rätt storlek? Jämför innehåll, användning och refillval utan att anta hur många doser flaskan räcker till.",
-    "targetQuery": "kerastase elixir ultime 30 ml hur används",
-    "hypothesis": "appears for targetQuery within 14 days after publication",
+    "targetQuery": "kerastase elixir ultime refill",
+    "hypothesis": "Appears for 'kerastase elixir ultime refill' within 14 days after publication; measure at 7, 14 and 28 days from the verified publication date.",
     "updatedAt": "2026-10-01",
     "changes": [],
     "answer": "Elixir Ultime 30 ml är ett mindre köp av en parfymerad leave-in-olja med flera oljor och silikoner i ingredienslistan. Kérastase beskriver användning i vått eller torrt hår och värmeskydd före föning. Välj inte storlek utifrån ett påhittat antal doser: den svenska sidan växlar mellan droppar och pumptryck och anger ingen uppmätt mängd per pump.",
@@ -6985,7 +7014,8 @@
       "infographicHeight": 980,
       "contextWidth": 1200,
       "contextHeight": 720
-    }
+    },
+    "discoveryLabel": "kerastase elixir ultime 30 ml hur används"
   },
   {
     "id": "cetaphil-gentle-cleanser-236ml",
