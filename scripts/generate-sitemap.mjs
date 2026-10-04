@@ -17,6 +17,9 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(fileURLToPath(new URL(".", import.meta.url)), "..");
 const APP = join(ROOT, "app");
 const FALLBACK_DATE = "2026-06-28";
+const HELD_ROUTES = new Set(JSON.parse(readFileSync(join(ROOT, "lib", "partner-comparison-data.json"), "utf8"))
+  .filter(page => page.held || page.publicationStatus === "held_no_demand_signal")
+  .map(page => page.path));
 
 // On Vercel the checkout is shallow (and file deploys have no .git at all),
 // so per-file `git log` returns nothing and every entry collapses to
@@ -61,7 +64,7 @@ function walk(dir, route) {
   } catch {
     hasPage = false;
   }
-  if (hasPage && isIndexable(pageFile)) {
+  if (hasPage && !HELD_ROUTES.has(route) && isIndexable(pageFile)) {
     found.push({ route: route === "" ? "/" : route, file: pageFile });
   }
 

@@ -16,7 +16,7 @@ export function PartnerCategoryLinks({ categorySlug }: { categorySlug: ProductCa
     group.products.map((product) => product.pageHref ?? `${prefix}${product.slug}`),
   ));
   const products = selectedProductRecords.filter((product) => product.path.startsWith(prefix)
-    && (comparisonProductIds.has(product.id) || standaloneProductIds.has(product.id))
+    && (comparisonProductIds.has(product.id) || standaloneProductIds.has(product.id) || product.wave === 2)
     && !existingPaths.has(product.path));
 
   if (!products.length && !comparisons.length) return null;

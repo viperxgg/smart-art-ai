@@ -41,10 +41,6 @@
       "/skonhet/redken-all-soft-harinpackning"
     ],
     [
-      "Olaplex Rich Hydration Mask eller Redken All Soft Heavy Cream – inpackning för torrt, tjockt hår?",
-      "/skonhet/olaplex-rich-hydration-eller-redken-all-soft"
-    ],
-    [
       "Balsam eller inpackning – vad först, och behöver du båda?",
       "/skonhet/balsam-eller-inpackning"
     ]
@@ -53,10 +49,6 @@
     [
       "Olaplex Rich Hydration Mask – bara för tjockt hår, och hur ofta?",
       "/skonhet/olaplex-rich-hydration-mask"
-    ],
-    [
-      "Olaplex Rich Hydration Mask eller Redken All Soft Heavy Cream – inpackning för torrt, tjockt hår?",
-      "/skonhet/olaplex-rich-hydration-eller-redken-all-soft"
     ],
     [
       "Olaplex Rich Hydration Mask eller No.3 Plus – inpackning eller behandling, och vad först?",
@@ -85,20 +77,12 @@
       "/skonhet/maria-nila-gloss-coat"
     ],
     [
-      "ghd Bodyguard eller maria nila Shaping Heat Spray – vilket värmeskydd före plattång?",
-      "/skonhet/ghd-bodyguard-eller-shaping-heat-spray"
-    ],
-    [
       "ghd Bodyguard eller Elvital Heat Slayer – vad skiljer värmeskydden?",
       "/skonhet/ghd-bodyguard-eller-heat-slayer"
     ],
     [
       "Arganolja eller bonding oil – vilken olja tynger inte fint hår?",
       "/skonhet/arganolja-eller-bonding-oil"
-    ],
-    [
-      "maria nila Gloss Coat eller Kérastase Glaze Drops – glans, värmeskydd eller båda?",
-      "/skonhet/gloss-coat-eller-glaze-drops"
     ]
   ],
   "/skonhet/varmluftsborste-eller-plattang": [
@@ -109,10 +93,6 @@
     [
       "maria nila Shaping Heat Spray – hur många grader skyddar den?",
       "/skonhet/maria-nila-shaping-heat-spray"
-    ],
-    [
-      "ghd Bodyguard eller maria nila Shaping Heat Spray – vilket värmeskydd före plattång?",
-      "/skonhet/ghd-bodyguard-eller-shaping-heat-spray"
     ]
   ],
   "/skonhet/ghd-original-iv": [
@@ -165,10 +145,6 @@
     [
       "Olaplex No.7 eller Kérastase Elixir Ultime – bonding oil eller klassisk hårolja?",
       "/skonhet/olaplex-no7-eller-kerastase-elixir-ultime"
-    ],
-    [
-      "maria nila Gloss Coat eller Kérastase Glaze Drops – glans, värmeskydd eller båda?",
-      "/skonhet/gloss-coat-eller-glaze-drops"
     ]
   ],
   "/skonhet/harspray": [
@@ -179,30 +155,11 @@
   ],
   "/skonhet/ghd-bodyguard": [
     [
-      "ghd Bodyguard eller maria nila Shaping Heat Spray – vilket värmeskydd före plattång?",
-      "/skonhet/ghd-bodyguard-eller-shaping-heat-spray"
-    ],
-    [
       "ghd Bodyguard eller Elvital Heat Slayer – vad skiljer värmeskydden?",
       "/skonhet/ghd-bodyguard-eller-heat-slayer"
     ]
   ],
-  "/skonhet/ghd-bodyguard-eller-shaping-heat-spray": [
-    [
-      "Skyddar ghd Bodyguard verkligen upp till 230 °C – och räcker 120 ml?",
-      "/skonhet/ghd-bodyguard"
-    ],
-    [
-      "maria nila Shaping Heat Spray – hur många grader skyddar den?",
-      "/skonhet/maria-nila-shaping-heat-spray"
-    ]
-  ],
-  "/skonhet/maria-nila-shaping-heat-spray": [
-    [
-      "ghd Bodyguard eller maria nila Shaping Heat Spray – vilket värmeskydd före plattång?",
-      "/skonhet/ghd-bodyguard-eller-shaping-heat-spray"
-    ]
-  ],
+  "/skonhet/maria-nila-shaping-heat-spray": [],
   "/skonhet/ghd-bodyguard-eller-heat-slayer": [
     [
       "Skyddar ghd Bodyguard verkligen upp till 230 °C – och räcker 120 ml?",
@@ -257,10 +214,6 @@
   ],
   "/skonhet/olaplex-rich-hydration-mask": [
     [
-      "Olaplex Rich Hydration Mask eller Redken All Soft Heavy Cream – inpackning för torrt, tjockt hår?",
-      "/skonhet/olaplex-rich-hydration-eller-redken-all-soft"
-    ],
-    [
       "Olaplex Rich Hydration Mask eller No.3 Plus – inpackning eller behandling, och vad först?",
       "/skonhet/olaplex-rich-hydration-eller-no3-plus"
     ],
@@ -269,21 +222,7 @@
       "/skonhet/balsam-eller-inpackning"
     ]
   ],
-  "/skonhet/olaplex-rich-hydration-eller-redken-all-soft": [
-    [
-      "Olaplex Rich Hydration Mask – bara för tjockt hår, och hur ofta?",
-      "/skonhet/olaplex-rich-hydration-mask"
-    ],
-    [
-      "Redken All Soft Heavy Cream – hur ofta, och på vilket hår?",
-      "/skonhet/redken-all-soft-harinpackning"
-    ]
-  ],
   "/skonhet/redken-all-soft-harinpackning": [
-    [
-      "Olaplex Rich Hydration Mask eller Redken All Soft Heavy Cream – inpackning för torrt, tjockt hår?",
-      "/skonhet/olaplex-rich-hydration-eller-redken-all-soft"
-    ],
     [
       "Balsam eller inpackning – vad först, och behöver du båda?",
       "/skonhet/balsam-eller-inpackning"
@@ -305,22 +244,7 @@
       "/skonhet/olaplex-no3"
     ]
   ],
-  "/skonhet/maria-nila-gloss-coat": [
-    [
-      "maria nila Gloss Coat eller Kérastase Glaze Drops – glans, värmeskydd eller båda?",
-      "/skonhet/gloss-coat-eller-glaze-drops"
-    ]
-  ],
-  "/skonhet/gloss-coat-eller-glaze-drops": [
-    [
-      "maria nila Gloss Coat – glansspray eller värmeskydd? Vad ersätter den?",
-      "/skonhet/maria-nila-gloss-coat"
-    ],
-    [
-      "Kérastase Gloss Absolu Glaze Drops Hair Oil 45 ml",
-      "/skonhet/kerastase-glaze-drops"
-    ]
-  ],
+  "/skonhet/maria-nila-gloss-coat": [],
   "/skonhet/snigelslem-eller-hyaluronsyra": [
     [
       "COSRX Snail 96 eller Beauty of Joseon Glow Serum – essence eller serum först?",

@@ -1,3 +1,4 @@
+// 2026-10-04: Approved local price recheck or held-route discovery update; editorial facts and publication state preserved.
 // 2026-10-01: Wave-2 records and contextual paths updated; existing decision prose preserved.
 // 2026-09-06: "Bäst i test 2026" card for /guider/harinpackning, EditorialMeta
 // under the H1, and three new hair masks under Hårvård via lib/categoryGroups.ts

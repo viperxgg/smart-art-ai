@@ -1,3 +1,4 @@
+// 2026-10-04: Approved local price recheck or held-route discovery update; editorial facts and publication state preserved.
 // 2026-10-01: Add contextual links to the wave-2 questions; existing decision prose preserved.
 // Content refresh 2026-09-29: reviewed merchant paths and source link attributes.
 // 2026-09-22: Add contextual links to the source-led partner decisions.

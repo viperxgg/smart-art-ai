@@ -7,8 +7,9 @@ import { siteConfig } from "@/lib/site";
 export type PartnerComparison = {
   id: string; path: string; title: string; metaTitle: string; description: string;
   answer: string; productIds: string[]; productPaths: string[];
-  targetQuery: string; hypothesis: string; publishedAt?: string; updatedAt: string;
-  publicationStatus?: "draft"; wave?: 2;
+  targetQuery: string; discoveryLabel?: string; hypothesis: string; publishedAt?: string; updatedAt: string;
+  publicationStatus?: "draft" | "held_no_demand_signal"; wave?: 2;
+  held?: boolean; heldAt?: string; holdReason?: string;
   decisionPage?: boolean;
   changes?: { date: string; note: string }[];
   tradeoffs?: { advantages: string[]; limitations: string[] };
@@ -18,7 +19,8 @@ export type PartnerComparison = {
   related: string[][];
   visual?: EditorialVisual;
 };
-export const partnerComparisons = data as PartnerComparison[];
+export const partnerComparisons = (data as PartnerComparison[])
+  .filter(page => !page.held && page.publicationStatus !== "held_no_demand_signal");
 // Server-rendered routes revalidate hourly, like selected product guides.
 export function comparisonRenderTime() { return Date.now(); }
 export function getPartnerComparison(id: string) {

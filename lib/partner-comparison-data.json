@@ -975,7 +975,7 @@
     "targetQuery": "bodyguard eller shaping heat spray före plattång?",
     "hypothesis": "appears for targetQuery within 14 days after publication",
     "updatedAt": "2026-10-01",
-    "publicationStatus": "draft",
+    "publicationStatus": "held_no_demand_signal",
     "wave": 2,
     "changes": [],
     "fits": [
@@ -1115,7 +1115,10 @@
       "infographic": "/wave2/wave2-c1-c.png",
       "infographicWidth": 780,
       "infographicHeight": 1510
-    }
+    },
+    "held": true,
+    "heldAt": "2026-10-02",
+    "holdReason": "held_no_demand_signal"
   },
   {
     "id": "wave2-c2",
@@ -1723,13 +1726,16 @@
       ]
     },
     "wave": 2,
-    "publicationStatus": "draft",
+    "publicationStatus": "held_no_demand_signal",
     "visual": {
       "hero": "/wave2/wave2-c5-a.png",
       "infographic": "/wave2/wave2-c5-c.png",
       "infographicWidth": 780,
       "infographicHeight": 1510
-    }
+    },
+    "held": true,
+    "heldAt": "2026-10-02",
+    "holdReason": "held_no_demand_signal"
   },
   {
     "id": "wave2-c6",
@@ -2010,13 +2016,16 @@
       ]
     },
     "wave": 2,
-    "publicationStatus": "draft",
+    "publicationStatus": "held_no_demand_signal",
     "visual": {
       "hero": "/wave2/wave2-c7-a.png",
       "infographic": "/wave2/wave2-c7-c.png",
       "infographicWidth": 780,
       "infographicHeight": 1510
-    }
+    },
+    "held": true,
+    "heldAt": "2026-10-02",
+    "holdReason": "held_no_demand_signal"
   },
   {
     "id": "wave2-c8",
