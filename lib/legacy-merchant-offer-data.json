@@ -1,0 +1,23 @@
+[
+  {
+    "merchantId": "lyko",
+    "merchantName": "Lyko",
+    "productSlug": "cerave-hydrating-cleanser-236ml",
+    "productName": "CeraVe Hydrating Cleanser",
+    "variant": "236 ml",
+    "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-cerave-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fcerave%2Fcerave-hydrating-cleanser-236-ml",
+    "linkKind": "affiliate",
+    "placement": "legacy-product-offer",
+    "price": {
+      "amount": 102.0,
+      "currency": "SEK",
+      "checkedAt": "2026-10-04T09:01:33.466658+00:00",
+      "source": "https://lyko.com/sv/cerave/cerave-hydrating-cleanser-236-ml",
+      "priceBasis": "campaign_without_end",
+      "nextReviewDue": "2026-10-05"
+    },
+    "checkedAt": "2026-10-04T09:01:33.466658+00:00",
+    "availability": "https://schema.org/InStock",
+    "availabilityCheckedAt": "2026-10-04T09:01:33.466658+00:00"
+  }
+]

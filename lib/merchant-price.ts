@@ -3,6 +3,8 @@ export type MerchantPriceSnapshot = {
   currency: "SEK";
   checkedAt: string;
   source: string;
+  priceBasis?: "campaign_without_end";
+  nextReviewDue?: string;
 };
 
 /** Keep the last verified snapshot until an evidence-backed replacement is available. */

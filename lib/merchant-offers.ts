@@ -1,4 +1,5 @@
 import type { MerchantPriceSnapshot } from "@/lib/merchant-price";
+import legacyOffers from "@/lib/legacy-merchant-offer-data.json";
 import { productRecords, type CanonicalProductRecord, type PartnerMerchantId } from "@/lib/selected-product-records";
 
 export type MerchantOffer = {
@@ -37,10 +38,10 @@ function projectOffer(record: CanonicalProductRecord): MerchantOffer {
   };
 }
 
-export const merchantOffers: readonly MerchantOffer[] = productRecords.flatMap(record => [
+export const merchantOffers: readonly MerchantOffer[] = [...productRecords.flatMap(record => [
   projectOffer(record),
   ...(record.additionalOffers ?? []).map(offer => projectOffer({ ...record, offer })),
-]);
+]), ...legacyOffers as MerchantOffer[]];
 
 export function getMerchantOffers(productSlug: string) {
   return merchantOffers.filter(offer => offer.productSlug === productSlug);

@@ -579,13 +579,20 @@
         "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-c8-boj-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fbeauty-of-joseon%2Fbeauty-of-joseon-glow-serum-propolis-niacinamide-30-ml",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:44:53.058Z",
+        "checkedAt": "2026-10-04T09:01:33.537319+00:00",
         "programId": "1117786221",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:44:53.058Z",
-        "priceUnavailableReason": "WOW-pris saknar angiven slutdag. Ett ordinarie försäljningspris kunde inte verifieras 2026-10-01; därför visar vi inget belopp.",
-        "merchantItemId": "3507-104-0030"
+        "availabilityCheckedAt": "2026-10-04T09:01:33.537319+00:00",
+        "merchantItemId": "3507-104-0030",
+        "price": {
+          "amount": 128.0,
+          "currency": "SEK",
+          "checkedAt": "2026-10-04T09:01:33.537319+00:00",
+          "source": "https://lyko.com/sv/beauty-of-joseon/beauty-of-joseon-glow-serum-propolis-niacinamide-30-ml",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-05"
+        }
       }
     ]
   },
@@ -5582,12 +5589,19 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w3-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fghd%2Fghd-bodyguard---heat-protect-spray-120ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-01T09:43:28.789Z",
+      "checkedAt": "2026-10-04T09:01:33.578124+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-01T09:43:28.789Z",
-      "priceUnavailableReason": "WOW-pris saknar angiven slutdag. Ett ordinarie försäljningspris kunde inte verifieras 2026-10-01; därför visar vi inget belopp."
+      "availabilityCheckedAt": "2026-10-04T09:01:33.578124+00:00",
+      "price": {
+        "amount": 259.0,
+        "currency": "SEK",
+        "checkedAt": "2026-10-04T09:01:33.578124+00:00",
+        "source": "https://lyko.com/sv/ghd/ghd-bodyguard---heat-protect-spray-120ml",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-05"
+      }
     },
     "additionalOffers": [],
     "merchantLimitation": "NordicFeel-knapp saknas: EAN 5060034527374 kunde inte bekräftas som samma variant som ghd och Lyko, EAN 5060356734320, vid kontroll 2026-10-01.",
@@ -5835,16 +5849,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w4-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fmaria-nila-shaping-heat-spray-118448",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:43:33.479Z",
+        "checkedAt": "2026-10-04T09:01:34.468958+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:43:33.479Z",
+        "availabilityCheckedAt": "2026-10-04T09:01:34.468958+00:00",
         "price": {
           "amount": 271.15,
           "currency": "SEK",
-          "checkedAt": "2026-10-01T09:43:33.479Z",
-          "source": "https://www.nordicfeel.com/se/product/maria-nila-shaping-heat-spray-118448"
+          "checkedAt": "2026-10-04T09:01:34.468958+00:00",
+          "source": "https://www.nordicfeel.com/se/product/maria-nila-shaping-heat-spray-118448",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-05"
         },
         "merchantItemId": "118448"
       }
@@ -6165,16 +6181,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w5-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fmaria-nila-true-soft-29797",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:43:56.055Z",
+        "checkedAt": "2026-10-04T09:01:34.491208+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:43:56.055Z",
+        "availabilityCheckedAt": "2026-10-04T09:01:34.491208+00:00",
         "price": {
           "amount": 339.15,
           "currency": "SEK",
-          "checkedAt": "2026-10-01T09:43:56.055Z",
-          "source": "https://www.nordicfeel.com/se/product/maria-nila-true-soft-29797"
+          "checkedAt": "2026-10-04T09:01:34.491208+00:00",
+          "source": "https://www.nordicfeel.com/se/product/maria-nila-true-soft-29797",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-05"
         },
         "merchantItemId": "29797"
       }
@@ -6684,16 +6702,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w7-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fmaria-nila-gloss-coat-195347",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:44:01.509Z",
+        "checkedAt": "2026-10-04T09:01:34.187041+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:44:01.509Z",
+        "availabilityCheckedAt": "2026-10-04T09:01:34.187041+00:00",
         "price": {
           "amount": 254.15,
           "currency": "SEK",
-          "checkedAt": "2026-10-01T09:44:01.509Z",
-          "source": "https://www.nordicfeel.com/se/product/maria-nila-gloss-coat-195347"
+          "checkedAt": "2026-10-04T09:01:34.187041+00:00",
+          "source": "https://www.nordicfeel.com/se/product/maria-nila-gloss-coat-195347",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-05"
         },
         "merchantItemId": "195347"
       }
@@ -6928,12 +6948,19 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w8-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fhar%2Fharvard%2Ftreatment%2Fharolja%2Fk-rastase-elixir-ultime-l-huile-originale-hair-oil-30ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-01T09:44:03.243Z",
+      "checkedAt": "2026-10-04T09:01:33.686773+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-01T09:44:03.243Z",
-      "priceUnavailableReason": "WOW-pris saknar angiven slutdag. Ett ordinarie försäljningspris kunde inte verifieras 2026-10-01; därför visar vi inget belopp."
+      "availabilityCheckedAt": "2026-10-04T09:01:33.686773+00:00",
+      "price": {
+        "amount": 359.0,
+        "currency": "SEK",
+        "checkedAt": "2026-10-04T09:01:33.686773+00:00",
+        "source": "https://lyko.com/sv/har/harvard/treatment/harolja/k-rastase-elixir-ultime-l-huile-originale-hair-oil-30ml",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-05"
+      }
     },
     "merchantItemId": "1015-608-0030",
     "additionalOffers": [

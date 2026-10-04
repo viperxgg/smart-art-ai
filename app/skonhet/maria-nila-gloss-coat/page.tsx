@@ -1,3 +1,4 @@
+// 2026-10-04: Approved local price recheck or held-route discovery update; editorial facts and publication state preserved.
 // 2026-10-01: Add contextual links to the wave-2 questions; existing decision prose preserved.
 // 2026-10-01: Source-led wave-2 question; existing URL preserved where applicable.
 import { SelectedProductPage } from "@/components/SelectedProductPage";
