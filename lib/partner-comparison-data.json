@@ -1128,7 +1128,7 @@
     "held": true,
     "holdReason": "held_no_demand_signal",
     "heldAt": "2026-10-02",
-    "discoveryLabel": "bodyguard eller shaping heat spray före plattång?"
+    "discoveryLabel": "ghd Bodyguard eller maria nila Shaping Heat Spray – vilket värmeskydd före plattång?"
   },
   {
     "id": "wave2-c2",
@@ -1289,7 +1289,7 @@
       "infographicWidth": 780,
       "infographicHeight": 1510
     },
-    "discoveryLabel": "ghd bodyguard eller heat slayer – vad skiljer dem?",
+    "discoveryLabel": "ghd Bodyguard eller Elvital Heat Slayer – vad skiljer värmeskydden?",
     "merchantExceptions": {
       "ghd-bodyguard-120ml": {
         "status": "approved_single_merchant",
@@ -1447,7 +1447,7 @@
       "infographicWidth": 780,
       "infographicHeight": 1510
     },
-    "discoveryLabel": "olaplex no.7 eller elixir ultime – vilken hårolja?"
+    "discoveryLabel": "Olaplex No.7 eller Kérastase Elixir Ultime – bonding oil eller klassisk hårolja?"
   },
   {
     "id": "wave2-c4",
@@ -1585,7 +1585,7 @@
       "infographicWidth": 780,
       "infographicHeight": 1510
     },
-    "discoveryLabel": "arganolja fint hår"
+    "discoveryLabel": "Arganolja eller bonding oil – vilken olja tynger inte fint hår?"
   },
   {
     "id": "wave2-c5",
@@ -1759,7 +1759,7 @@
     "held": true,
     "holdReason": "held_no_demand_signal",
     "heldAt": "2026-10-02",
-    "discoveryLabel": "olaplex rich hydration eller redken all soft"
+    "discoveryLabel": "Olaplex Rich Hydration Mask eller Redken All Soft Heavy Cream – inpackning för torrt, tjockt hår?"
   },
   {
     "id": "wave2-c6",
@@ -1904,7 +1904,7 @@
       "infographicWidth": 780,
       "infographicHeight": 1510
     },
-    "discoveryLabel": "olaplex rich hydration eller no 3 plus"
+    "discoveryLabel": "Olaplex Rich Hydration Mask eller No.3 Plus – inpackning eller behandling, och vad först?"
   },
   {
     "id": "wave2-c7",
@@ -2051,7 +2051,7 @@
     "held": true,
     "holdReason": "held_no_demand_signal",
     "heldAt": "2026-10-02",
-    "discoveryLabel": "gloss coat eller glaze drops"
+    "discoveryLabel": "maria nila Gloss Coat eller Kérastase Glaze Drops – glans, värmeskydd eller båda?"
   },
   {
     "id": "wave2-c8",
@@ -2199,7 +2199,7 @@
       "infographicWidth": 780,
       "infographicHeight": 1510
     },
-    "discoveryLabel": "cosrx eller beauty of joseon"
+    "discoveryLabel": "COSRX Snail 96 eller Beauty of Joseon Glow Serum – essence eller serum först?"
   },
   {
     "id": "wave2-d1",
@@ -2392,6 +2392,6 @@
       "infographicWidth": 780,
       "infographicHeight": 1860
     },
-    "discoveryLabel": "balsam eller inpackning först"
+    "discoveryLabel": "Balsam eller inpackning – vad först, och behöver du båda?"
   }
 ]

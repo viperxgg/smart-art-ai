@@ -9,16 +9,18 @@
       "merchantName": "NordicFeel",
       "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3b1-hair-k18-body&url=www.nordicfeel.com/se/product/k18-leavein-repair-hair-mask-115729",
       "placement": "hair-guide-body",
-      "checkedAt": "2026-09-23T15:21:57+02:00",
+      "checkedAt": "2026-10-05T07:16:47.347263+00:00",
       "price": {
         "amount": 639.2,
         "currency": "SEK",
-        "checkedAt": "2026-09-23T15:21:57+02:00",
-        "source": "https://www.nordicfeel.com/se/product/k18-leavein-repair-hair-mask-115729"
+        "checkedAt": "2026-10-05T07:16:47.347263+00:00",
+        "source": "https://www.nordicfeel.com/se/product/k18-leavein-repair-hair-mask-115729",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       },
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-23T15:21:57+02:00",
+      "availabilityCheckedAt": "2026-10-05T07:16:47.347263+00:00",
       "availability": "https://schema.org/OutOfStock"
     },
     "image": {
@@ -538,17 +540,19 @@
       "merchantName": "NordicFeel",
       "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3-selected-3&url=www.nordicfeel.com/se/product/beauty-of-joseon-glow-serum-114284",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-29T15:06:44.383973+02:00",
+      "checkedAt": "2026-10-05T07:16:47.276402+00:00",
       "price": {
-        "amount": 176.0,
+        "amount": 191.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-29T15:06:44.383973+02:00",
-        "source": "https://www.nordicfeel.com/se/product/beauty-of-joseon-glow-serum-114284"
+        "checkedAt": "2026-10-05T07:16:47.276402+00:00",
+        "source": "https://www.nordicfeel.com/se/product/beauty-of-joseon-glow-serum-114284",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       },
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-29T15:06:44.383973+02:00",
-      "availability": "https://schema.org/InStock"
+      "availabilityCheckedAt": "2026-10-05T07:16:47.276402+00:00",
+      "availability": "https://schema.org/OutOfStock"
     },
     "image": {
       "src": "/products/selected/beauty-of-joseon-propolis-serum/1.jpg",
@@ -579,19 +583,19 @@
         "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-c8-boj-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fbeauty-of-joseon%2Fbeauty-of-joseon-glow-serum-propolis-niacinamide-30-ml",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-04T09:01:33.537319+00:00",
+        "checkedAt": "2026-10-05T07:16:55.357634+00:00",
         "programId": "1117786221",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-04T09:01:33.537319+00:00",
+        "availabilityCheckedAt": "2026-10-05T07:16:55.357634+00:00",
         "merchantItemId": "3507-104-0030",
         "price": {
           "amount": 128.0,
           "currency": "SEK",
-          "checkedAt": "2026-10-04T09:01:33.537319+00:00",
+          "checkedAt": "2026-10-05T07:16:55.357634+00:00",
           "source": "https://lyko.com/sv/beauty-of-joseon/beauty-of-joseon-glow-serum-propolis-niacinamide-30-ml",
           "priceBasis": "campaign_without_end",
-          "nextReviewDue": "2026-10-05"
+          "nextReviewDue": "2026-10-12"
         }
       }
     ]
@@ -1156,16 +1160,18 @@
       "merchantName": "NordicFeel",
       "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q3-selected-7&url=www.nordicfeel.com/se/product/cosrx-advanced-snail-96-mucin-power-essence-92950",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-29T15:06:45.979087+02:00",
+      "checkedAt": "2026-10-05T07:16:47.072145+00:00",
       "price": {
         "amount": 155.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-29T15:06:45.979087+02:00",
-        "source": "https://www.nordicfeel.com/se/product/cosrx-advanced-snail-96-mucin-power-essence-92950"
+        "checkedAt": "2026-10-05T07:16:47.072145+00:00",
+        "source": "https://www.nordicfeel.com/se/product/cosrx-advanced-snail-96-mucin-power-essence-92950",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       },
       "programId": "872761485",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-29T15:06:45.979087+02:00",
+      "availabilityCheckedAt": "2026-10-05T07:16:47.072145+00:00",
       "availability": "https://schema.org/InStock"
     },
     "image": {
@@ -1197,16 +1203,18 @@
         "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-c8-cosrx-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fcosrx%2Fcosrx-advanced-snail-96-mucin-power-essence--100-ml",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:44:51.822Z",
+        "checkedAt": "2026-10-05T07:16:54.812620+00:00",
         "programId": "1117786221",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:44:51.822Z",
+        "availabilityCheckedAt": "2026-10-05T07:16:54.812620+00:00",
         "price": {
-          "amount": 195,
+          "amount": 195.0,
           "currency": "SEK",
-          "checkedAt": "2026-10-01T09:44:51.822Z",
-          "source": "https://lyko.com/sv/cosrx/cosrx-advanced-snail-96-mucin-power-essence--100-ml"
+          "checkedAt": "2026-10-05T07:16:54.812620+00:00",
+          "source": "https://lyko.com/sv/cosrx/cosrx-advanced-snail-96-mucin-power-essence--100-ml",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-12"
         },
         "merchantItemId": "2162-147-0100"
       }
@@ -3753,7 +3761,7 @@
         "note": "Butikspriser och lagerstatus kontrollerades på nytt. Frågor, fördelar och begränsningar gjordes lättare att överblicka."
       }
     ],
-    "discoveryLabel": "ghd rise volumising hot brush"
+    "discoveryLabel": "ghd Rise Volumising Hot Brush – fungerar den bara på torrt hår?"
   },
   {
     "id": "olaplex-no3-plus",
@@ -3863,17 +3871,19 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26w1-olaplex-no3-plus&url=https%3A%2F%2Flyko.com%2Fsv%2Fhar%2Fharvard%2Ftreatment%2Fharinpackning%2Folaplex-no3-plus-complete-repair-treatment-100-ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-09-29T14:55:12+02:00",
+      "checkedAt": "2026-10-05T07:16:47.044993+00:00",
       "price": {
-        "amount": 419,
+        "amount": 419.0,
         "currency": "SEK",
-        "checkedAt": "2026-09-29T14:55:12+02:00",
-        "source": "https://lyko.com/sv/har/harvard/treatment/harinpackning/olaplex-no3-plus-complete-repair-treatment-100-ml"
+        "checkedAt": "2026-10-05T07:16:47.044993+00:00",
+        "source": "https://lyko.com/sv/har/harvard/treatment/harinpackning/olaplex-no3-plus-complete-repair-treatment-100-ml",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       },
       "priceNote": "Priset gäller en styck utan eventuella kombinationsrabatter.",
       "programId": "1117786221",
       "channelId": "2110221551",
-      "availabilityCheckedAt": "2026-09-29T14:55:12+02:00",
+      "availabilityCheckedAt": "2026-10-05T07:16:47.044993+00:00",
       "availability": "https://schema.org/InStock"
     },
     "image": {
@@ -3918,17 +3928,19 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26w1-olaplex-no3-plus&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Folaplex-no3-plus-complete-repair-treatment-196179",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-09-29T14:55:12+02:00",
+        "checkedAt": "2026-10-05T07:16:56.977725+00:00",
         "price": {
-          "amount": 419,
+          "amount": 419.0,
           "currency": "SEK",
-          "checkedAt": "2026-09-29T14:55:12+02:00",
-          "source": "https://www.nordicfeel.com/se/product/olaplex-no3-plus-complete-repair-treatment-196179"
+          "checkedAt": "2026-10-05T07:16:56.977725+00:00",
+          "source": "https://www.nordicfeel.com/se/product/olaplex-no3-plus-complete-repair-treatment-196179",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-12"
         },
         "priceNote": "Avser 100 ml, inte 250 ml.",
         "programId": "872761485",
         "channelId": "2110221551",
-        "availabilityCheckedAt": "2026-09-29T14:55:12+02:00",
+        "availabilityCheckedAt": "2026-10-05T07:16:56.977725+00:00",
         "merchantItemId": "196179",
         "availability": "https://schema.org/InStock"
       }
@@ -5084,16 +5096,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w1-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Folaplex%2Folaplex-no7-bonding-oil-30-ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-01T09:42:34.989Z",
+      "checkedAt": "2026-10-05T07:18:01.734755+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-01T09:42:34.989Z",
+      "availabilityCheckedAt": "2026-10-05T07:18:01.734755+00:00",
       "price": {
-        "amount": 379,
+        "amount": 379.0,
         "currency": "SEK",
-        "checkedAt": "2026-10-01T09:42:34.989Z",
-        "source": "https://lyko.com/sv/olaplex/olaplex-no7-bonding-oil-30-ml"
+        "checkedAt": "2026-10-05T07:18:01.734755+00:00",
+        "source": "https://lyko.com/sv/olaplex/olaplex-no7-bonding-oil-30-ml",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       }
     },
     "additionalOffers": [
@@ -5103,16 +5117,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w1-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Folaplex-no7-bonding-oil-81696",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:42:56.241Z",
+        "checkedAt": "2026-10-05T07:16:47.738272+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:42:56.241Z",
+        "availabilityCheckedAt": "2026-10-05T07:16:47.738272+00:00",
         "price": {
-          "amount": 379,
+          "amount": 379.0,
           "currency": "SEK",
-          "checkedAt": "2026-10-01T09:42:56.241Z",
-          "source": "https://www.nordicfeel.com/se/product/olaplex-no7-bonding-oil-81696"
+          "checkedAt": "2026-10-05T07:16:47.738272+00:00",
+          "source": "https://www.nordicfeel.com/se/product/olaplex-no7-bonding-oil-81696",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-12"
         },
         "merchantItemId": "81696"
       }
@@ -5139,7 +5155,7 @@
       "contextWidth": 1200,
       "contextHeight": 720
     },
-    "discoveryLabel": "olaplex no 7 vad gör den"
+    "discoveryLabel": "Olaplex No.7 – olja, värmeskydd eller reparation? Vad gör den egentligen?"
   },
   {
     "id": "olaplex-rich-hydration-mask-200ml",
@@ -5344,16 +5360,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w2-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Folaplex%2Folaplex-rich-hydration-mask-200-ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-01T09:43:06.627Z",
+      "checkedAt": "2026-10-05T07:18:01.693895+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-01T09:43:06.627Z",
+      "availabilityCheckedAt": "2026-10-05T07:18:01.693895+00:00",
       "price": {
-        "amount": 599,
+        "amount": 599.0,
         "currency": "SEK",
-        "checkedAt": "2026-10-01T09:43:06.627Z",
-        "source": "https://lyko.com/sv/olaplex/olaplex-rich-hydration-mask-200-ml"
+        "checkedAt": "2026-10-05T07:18:01.693895+00:00",
+        "source": "https://lyko.com/sv/olaplex/olaplex-rich-hydration-mask-200-ml",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       }
     },
     "additionalOffers": [
@@ -5363,16 +5381,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w2-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Folaplex-rich-hydration-mask-194827",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:43:09.564Z",
+        "checkedAt": "2026-10-05T07:16:48.449434+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:43:09.564Z",
+        "availabilityCheckedAt": "2026-10-05T07:16:48.449434+00:00",
         "price": {
-          "amount": 599,
+          "amount": 599.0,
           "currency": "SEK",
-          "checkedAt": "2026-10-01T09:43:09.564Z",
-          "source": "https://www.nordicfeel.com/se/product/olaplex-rich-hydration-mask-194827"
+          "checkedAt": "2026-10-05T07:16:48.449434+00:00",
+          "source": "https://www.nordicfeel.com/se/product/olaplex-rich-hydration-mask-194827",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-12"
         },
         "merchantItemId": "194827"
       }
@@ -5399,7 +5419,7 @@
       "contextWidth": 1200,
       "contextHeight": 720
     },
-    "discoveryLabel": "olaplex rich hydration mask hur ofta"
+    "discoveryLabel": "Olaplex Rich Hydration Mask – bara för tjockt hår, och hur ofta?"
   },
   {
     "id": "ghd-bodyguard-120ml",
@@ -5597,18 +5617,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w3-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fghd%2Fghd-bodyguard---heat-protect-spray-120ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-04T09:01:33.578124+00:00",
+      "checkedAt": "2026-10-05T07:16:48.299548+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-04T09:01:33.578124+00:00",
+      "availabilityCheckedAt": "2026-10-05T07:16:48.299548+00:00",
       "price": {
         "amount": 259.0,
         "currency": "SEK",
-        "checkedAt": "2026-10-04T09:01:33.578124+00:00",
+        "checkedAt": "2026-10-05T07:16:48.299548+00:00",
         "source": "https://lyko.com/sv/ghd/ghd-bodyguard---heat-protect-spray-120ml",
         "priceBasis": "campaign_without_end",
-        "nextReviewDue": "2026-10-05"
+        "nextReviewDue": "2026-10-12"
       }
     },
     "additionalOffers": [],
@@ -5635,7 +5655,7 @@
       "contextWidth": 1200,
       "contextHeight": 720
     },
-    "discoveryLabel": "ghd bodyguard 230 grader",
+    "discoveryLabel": "Skyddar ghd Bodyguard verkligen upp till 230 °C – och räcker 120 ml?",
     "merchantException": {
       "status": "approved_single_merchant",
       "approvedBy": "Azzam Khalaf",
@@ -5843,16 +5863,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w4-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fmaria-nila%2Fmaria-nila-shaping-heat-spray-250-ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-01T09:43:31.933Z",
+      "checkedAt": "2026-10-05T07:16:48.511965+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-01T09:43:31.933Z",
+      "availabilityCheckedAt": "2026-10-05T07:16:48.511965+00:00",
       "price": {
-        "amount": 319,
+        "amount": 319.0,
         "currency": "SEK",
-        "checkedAt": "2026-10-01T09:43:31.933Z",
-        "source": "https://lyko.com/sv/maria-nila/maria-nila-shaping-heat-spray-250-ml"
+        "checkedAt": "2026-10-05T07:16:48.511965+00:00",
+        "source": "https://lyko.com/sv/maria-nila/maria-nila-shaping-heat-spray-250-ml",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       }
     },
     "additionalOffers": [
@@ -5862,18 +5884,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w4-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fmaria-nila-shaping-heat-spray-118448",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-04T09:01:34.468958+00:00",
+        "checkedAt": "2026-10-05T07:16:49.288079+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-04T09:01:34.468958+00:00",
+        "availabilityCheckedAt": "2026-10-05T07:16:49.288079+00:00",
         "price": {
           "amount": 271.15,
           "currency": "SEK",
-          "checkedAt": "2026-10-04T09:01:34.468958+00:00",
+          "checkedAt": "2026-10-05T07:16:49.288079+00:00",
           "source": "https://www.nordicfeel.com/se/product/maria-nila-shaping-heat-spray-118448",
           "priceBasis": "campaign_without_end",
-          "nextReviewDue": "2026-10-05"
+          "nextReviewDue": "2026-10-12"
         },
         "merchantItemId": "118448"
       }
@@ -5900,7 +5922,7 @@
       "contextWidth": 1200,
       "contextHeight": 720
     },
-    "discoveryLabel": "maria nila shaping heat spray grader"
+    "discoveryLabel": "maria nila Shaping Heat Spray – hur många grader skyddar den?"
   },
   {
     "id": "heat-slayer-150ml",
@@ -5933,16 +5955,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w9-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Floreal-paris%2Floreal-paris-dream-length-heat-spray-150ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-01T09:44:27.232Z",
+      "checkedAt": "2026-10-05T07:16:51.784031+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-01T09:44:27.232Z",
+      "availabilityCheckedAt": "2026-10-05T07:16:51.784031+00:00",
       "price": {
-        "amount": 69.9,
+        "amount": 69.0,
         "currency": "SEK",
-        "checkedAt": "2026-10-01T09:44:27.232Z",
-        "source": "https://lyko.com/sv/loreal-paris/loreal-paris-dream-length-heat-spray-150ml"
+        "checkedAt": "2026-10-05T07:16:51.784031+00:00",
+        "source": "https://lyko.com/sv/loreal-paris/loreal-paris-dream-length-heat-spray-150ml",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       }
     },
     "additionalOffers": [
@@ -5952,16 +5976,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w9-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Floreal-paris-elvital-dream-length-heat-spray-90467",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:44:28.541Z",
+        "checkedAt": "2026-10-05T07:16:54.156493+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:44:28.541Z",
+        "availabilityCheckedAt": "2026-10-05T07:16:54.156493+00:00",
         "price": {
-          "amount": 69,
+          "amount": 69.0,
           "currency": "SEK",
-          "checkedAt": "2026-10-01T09:44:28.541Z",
-          "source": "https://www.nordicfeel.com/se/product/loreal-paris-elvital-dream-length-heat-spray-90467"
+          "checkedAt": "2026-10-05T07:16:54.156493+00:00",
+          "source": "https://www.nordicfeel.com/se/product/loreal-paris-elvital-dream-length-heat-spray-90467",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-12"
         },
         "merchantItemId": "90467"
       }
@@ -6175,16 +6201,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w5-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fmaria-nila%2Fmaria-nila-palett-true-soft-argan-oil-100ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-01T09:43:54.613Z",
+      "checkedAt": "2026-10-05T07:16:49.087574+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-01T09:43:54.613Z",
+      "availabilityCheckedAt": "2026-10-05T07:16:49.087574+00:00",
       "price": {
-        "amount": 399,
+        "amount": 399.0,
         "currency": "SEK",
-        "checkedAt": "2026-10-01T09:43:54.613Z",
-        "source": "https://lyko.com/sv/maria-nila/maria-nila-palett-true-soft-argan-oil-100ml"
+        "checkedAt": "2026-10-05T07:16:49.087574+00:00",
+        "source": "https://lyko.com/sv/maria-nila/maria-nila-palett-true-soft-argan-oil-100ml",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       }
     },
     "merchantItemId": "1003-152-0100",
@@ -6195,18 +6223,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w5-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fmaria-nila-true-soft-29797",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-04T09:01:34.491208+00:00",
+        "checkedAt": "2026-10-05T07:16:55.205595+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-04T09:01:34.491208+00:00",
+        "availabilityCheckedAt": "2026-10-05T07:16:55.205595+00:00",
         "price": {
           "amount": 339.15,
           "currency": "SEK",
-          "checkedAt": "2026-10-04T09:01:34.491208+00:00",
+          "checkedAt": "2026-10-05T07:16:55.205595+00:00",
           "source": "https://www.nordicfeel.com/se/product/maria-nila-true-soft-29797",
           "priceBasis": "campaign_without_end",
-          "nextReviewDue": "2026-10-05"
+          "nextReviewDue": "2026-10-12"
         },
         "merchantItemId": "29797"
       }
@@ -6233,7 +6261,7 @@
       "contextWidth": 1200,
       "contextHeight": 720
     },
-    "discoveryLabel": "maria nila true soft argan oil fint hår"
+    "discoveryLabel": "Tynger arganolja fint hår? maria nila True Soft – 30 eller 100 ml?"
   },
   {
     "id": "redken-all-soft-heavy-cream",
@@ -6432,16 +6460,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w6-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fredken%2Fredken-all-soft-heavy-cream-mask-250-ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-01T09:43:57.503Z",
+      "checkedAt": "2026-10-05T07:16:49.708276+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-01T09:43:57.503Z",
+      "availabilityCheckedAt": "2026-10-05T07:16:49.708276+00:00",
       "price": {
-        "amount": 429,
+        "amount": 500.0,
         "currency": "SEK",
-        "checkedAt": "2026-10-01T09:43:57.503Z",
-        "source": "https://lyko.com/sv/redken/redken-all-soft-heavy-cream-mask-250-ml"
+        "checkedAt": "2026-10-05T07:16:49.708276+00:00",
+        "source": "https://lyko.com/sv/redken/redken-all-soft-heavy-cream-mask-250-ml",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       }
     },
     "merchantItemId": "1261-604-0250",
@@ -6452,16 +6482,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w6-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fredken-all-soft-heavy-cream-mask-96124",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:43:58.821Z",
+        "checkedAt": "2026-10-05T07:16:50.177610+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:43:58.821Z",
+        "availabilityCheckedAt": "2026-10-05T07:16:50.177610+00:00",
         "price": {
-          "amount": 429,
+          "amount": 429.0,
           "currency": "SEK",
-          "checkedAt": "2026-10-01T09:43:58.821Z",
-          "source": "https://www.nordicfeel.com/se/product/redken-all-soft-heavy-cream-mask-96124"
+          "checkedAt": "2026-10-05T07:16:50.177610+00:00",
+          "source": "https://www.nordicfeel.com/se/product/redken-all-soft-heavy-cream-mask-96124",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-12"
         },
         "merchantItemId": "96124"
       }
@@ -6488,7 +6520,7 @@
       "contextWidth": 1200,
       "contextHeight": 720
     },
-    "discoveryLabel": "redken all soft heavy cream hur ofta"
+    "discoveryLabel": "Redken All Soft Heavy Cream – hur ofta, och på vilket hår?"
   },
   {
     "id": "maria-nila-gloss-coat",
@@ -6690,16 +6722,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w7-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fmaria-nila%2Fmaria-nila-gloss-coat-200-ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-01T09:44:00.360Z",
+      "checkedAt": "2026-10-05T07:16:50.381655+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-01T09:44:00.360Z",
+      "availabilityCheckedAt": "2026-10-05T07:16:50.381655+00:00",
       "price": {
-        "amount": 299,
+        "amount": 299.0,
         "currency": "SEK",
-        "checkedAt": "2026-10-01T09:44:00.360Z",
-        "source": "https://lyko.com/sv/maria-nila/maria-nila-gloss-coat-200-ml"
+        "checkedAt": "2026-10-05T07:16:50.381655+00:00",
+        "source": "https://lyko.com/sv/maria-nila/maria-nila-gloss-coat-200-ml",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       }
     },
     "merchantItemId": "1003-539-0200",
@@ -6710,18 +6744,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w7-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fmaria-nila-gloss-coat-195347",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-04T09:01:34.187041+00:00",
+        "checkedAt": "2026-10-05T07:16:51.173504+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-04T09:01:34.187041+00:00",
+        "availabilityCheckedAt": "2026-10-05T07:16:51.173504+00:00",
         "price": {
           "amount": 254.15,
           "currency": "SEK",
-          "checkedAt": "2026-10-04T09:01:34.187041+00:00",
+          "checkedAt": "2026-10-05T07:16:51.173504+00:00",
           "source": "https://www.nordicfeel.com/se/product/maria-nila-gloss-coat-195347",
           "priceBasis": "campaign_without_end",
-          "nextReviewDue": "2026-10-05"
+          "nextReviewDue": "2026-10-12"
         },
         "merchantItemId": "195347"
       }
@@ -6748,7 +6782,7 @@
       "contextWidth": 1200,
       "contextHeight": 720
     },
-    "discoveryLabel": "maria nila gloss coat värmeskydd"
+    "discoveryLabel": "maria nila Gloss Coat – glansspray eller värmeskydd? Vad ersätter den?"
   },
   {
     "id": "kerastase-elixir-ultime",
@@ -6957,18 +6991,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w8-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fhar%2Fharvard%2Ftreatment%2Fharolja%2Fk-rastase-elixir-ultime-l-huile-originale-hair-oil-30ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-04T09:01:33.686773+00:00",
+      "checkedAt": "2026-10-05T07:16:50.984154+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-04T09:01:33.686773+00:00",
+      "availabilityCheckedAt": "2026-10-05T07:16:50.984154+00:00",
       "price": {
         "amount": 359.0,
         "currency": "SEK",
-        "checkedAt": "2026-10-04T09:01:33.686773+00:00",
+        "checkedAt": "2026-10-05T07:16:50.984154+00:00",
         "source": "https://lyko.com/sv/har/harvard/treatment/harolja/k-rastase-elixir-ultime-l-huile-originale-hair-oil-30ml",
         "priceBasis": "campaign_without_end",
-        "nextReviewDue": "2026-10-05"
+        "nextReviewDue": "2026-10-12"
       }
     },
     "merchantItemId": "1015-608-0030",
@@ -6979,16 +7013,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w8-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fkerastase-elixir-ultime-lhuile-originale-hair-oil-189032",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:44:04.767Z",
+        "checkedAt": "2026-10-05T07:16:51.767650+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:44:04.767Z",
+        "availabilityCheckedAt": "2026-10-05T07:16:51.767650+00:00",
         "price": {
-          "amount": 359,
+          "amount": 359.0,
           "currency": "SEK",
-          "checkedAt": "2026-10-01T09:44:04.767Z",
-          "source": "https://www.nordicfeel.com/se/product/kerastase-elixir-ultime-lhuile-originale-hair-oil-189032"
+          "checkedAt": "2026-10-05T07:16:51.767650+00:00",
+          "source": "https://www.nordicfeel.com/se/product/kerastase-elixir-ultime-lhuile-originale-hair-oil-189032",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-12"
         },
         "merchantItemId": "189032"
       }
@@ -7015,7 +7051,7 @@
       "contextWidth": 1200,
       "contextHeight": 720
     },
-    "discoveryLabel": "kerastase elixir ultime 30 ml hur används"
+    "discoveryLabel": "Kérastase Elixir Ultime – varför 30 ml, och vad skiljer den från en vanlig hårolja?"
   },
   {
     "id": "cetaphil-gentle-cleanser-236ml",
@@ -7048,16 +7084,18 @@
       "href": "https://ion.lyko.com/t/t?a=1117786221&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w10-lyko&url=https%3A%2F%2Flyko.com%2Fsv%2Fhudvard%2Fhudtillstand%2Fansikte%2Fkanslighet%2Fcetaphil-gentle-skincleanser-236ml",
       "linkKind": "affiliate",
       "placement": "selected-product-offer",
-      "checkedAt": "2026-10-01T09:44:29.761Z",
+      "checkedAt": "2026-10-05T07:16:52.461510+00:00",
       "programId": "1117786221",
       "channelId": "2110221551",
       "availability": "https://schema.org/InStock",
-      "availabilityCheckedAt": "2026-10-01T09:44:29.761Z",
+      "availabilityCheckedAt": "2026-10-05T07:16:52.461510+00:00",
       "price": {
-        "amount": 109,
+        "amount": 109.0,
         "currency": "SEK",
-        "checkedAt": "2026-10-01T09:44:29.761Z",
-        "source": "https://lyko.com/sv/hudvard/hudtillstand/ansikte/kanslighet/cetaphil-gentle-skincleanser-236ml"
+        "checkedAt": "2026-10-05T07:16:52.461510+00:00",
+        "source": "https://lyko.com/sv/hudvard/hudtillstand/ansikte/kanslighet/cetaphil-gentle-skincleanser-236ml",
+        "priceBasis": "campaign_without_end",
+        "nextReviewDue": "2026-10-12"
       }
     },
     "additionalOffers": [
@@ -7067,16 +7105,18 @@
         "href": "https://at.nordicfeel.com/t/t?a=872761485&as=2110221551&t=2&tk=1&epi=ev26q4-wave2-w10-nordicfeel&url=https%3A%2F%2Fwww.nordicfeel.com%2Fse%2Fproduct%2Fcetaphil-gentle-skin-cleanser-199811",
         "linkKind": "affiliate",
         "placement": "selected-product-offer",
-        "checkedAt": "2026-10-01T09:44:30.998Z",
+        "checkedAt": "2026-10-05T07:16:59.337568+00:00",
         "programId": "872761485",
         "channelId": "2110221551",
         "availability": "https://schema.org/InStock",
-        "availabilityCheckedAt": "2026-10-01T09:44:30.998Z",
+        "availabilityCheckedAt": "2026-10-05T07:16:59.337568+00:00",
         "price": {
-          "amount": 145,
+          "amount": 145.0,
           "currency": "SEK",
-          "checkedAt": "2026-10-01T09:44:30.998Z",
-          "source": "https://www.nordicfeel.com/se/product/cetaphil-gentle-skin-cleanser-199811"
+          "checkedAt": "2026-10-05T07:16:59.337568+00:00",
+          "source": "https://www.nordicfeel.com/se/product/cetaphil-gentle-skin-cleanser-199811",
+          "priceBasis": "campaign_without_end",
+          "nextReviewDue": "2026-10-12"
         },
         "merchantItemId": "199811"
       }
