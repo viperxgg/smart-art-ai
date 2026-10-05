@@ -39,19 +39,25 @@ const home = load('lib/home-products.ts', name => {
   return loadAlias(name);
 });
 const now = Date.parse('2026-09-23T16:00:00+02:00');
-const base = home.curatedHomeProducts[0];
+// This historical clock tests selection rules, independently of later real
+// merchant reviews. Clone fixtures; never rewrite canonical offer snapshots.
+const fixed = home.curatedHomeProducts.map(product => ({
+  ...product,
+  offer: { ...product.offer, price: { ...product.offer.price, checkedAt: '2026-09-23T12:00:00+02:00' } },
+}));
+const base = fixed[0];
 const make = (slug, addedAt = '2026-09-20T12:00:00+02:00') => ({
   ...base, offer: { ...base.offer, productSlug: slug }, addedAt,
 });
 const first = make('fixture-first');
 const second = make('fixture-second', '2026-09-19T12:00:00+02:00');
 const third = make('fixture-third', '2026-09-18T12:00:00+02:00');
-const selected = home.selectHomeProducts(home.curatedHomeProducts, [third, second, first, first, base], now);
+const selected = home.selectHomeProducts(fixed, [third, second, first, first, base], now);
 assert.equal(selected.curated.length, 2);
 assert.equal(selected.recent.length, 2);
 assert.equal(selected.recent[0].offer.productSlug, 'fixture-first');
 assert.equal(selected.recent[1].offer.productSlug, 'fixture-second');
-assert.equal(home.selectHomeProducts(home.curatedHomeProducts, [], now).recent.length, 0);
+assert.equal(home.selectHomeProducts(fixed, [], now).recent.length, 0);
 const reject = entry => assert.equal(home.selectHomeProducts([], [entry], now).recent.length, 0);
 for (const patch of [
   { reviewed: false }, { available: false }, { addedAt: 'invalid' },
@@ -60,9 +66,10 @@ for (const patch of [
 ]) reject({ ...first, ...patch });
 reject({ ...first, offer: { ...first.offer, price: undefined } });
 reject({ ...first, offer: { ...first.offer, price: { ...first.offer.price, amount: -1 } } });
+reject({ ...first, offer: { ...first.offer, price: { ...first.offer.price, checkedAt: new Date(now + 1).toISOString() } } });
 reject({ ...first, offer: { ...first.offer, productSlug: 'missing-permission' } });
 reject({ ...first, offer: { ...first.offer, merchantId: 'kjell' } });
 assert.equal(home.selectHomeProducts([{ ...base, available: false }], [base], now).recent.length, 0);
 // A delayed weekly review must not evict a still-valid, previously checked price.
-assert.equal(home.selectHomeProducts(home.curatedHomeProducts, [], now + 365 * 86400000).curated.length, 2);
+assert.equal(home.selectHomeProducts(fixed, [], now + 365 * 86400000).curated.length, 2);
 console.log('PASS: 2 curated + up to 2 newest, unique, reviewed complete offers; missing/invalid/ended/unavailable excluded; original price survives a delayed review.');

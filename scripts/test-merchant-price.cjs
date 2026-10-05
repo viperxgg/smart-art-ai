@@ -27,7 +27,10 @@ const offers = load('lib/merchant-offers.ts', name => {
   return loadAlias(name);
 });
 assert.equal(offers.k18NordicfeelOffer.price.amount, 639.2);
-assert.equal(offers.k18NordicfeelOffer.price.checkedAt, '2026-09-23T15:21:57+02:00');
+const canonicalK18 = JSON.parse(fs.readFileSync('lib/selected-product-data.json', 'utf8'))
+  .find(record => record.id === 'k18-leave-in-50ml').offer;
+assert.equal(offers.k18NordicfeelOffer.price.checkedAt, canonicalK18.price.checkedAt);
+assert.ok(Number.isFinite(Date.parse(offers.k18NordicfeelOffer.price.checkedAt)));
 assert.equal(offers.koboKjellOffer.price.amount, 1899);
 assert.equal(offers.koboKjellOffer.price.currency, 'SEK');
 assert.match(offers.koboKjellOffer.price.source, /kjell\.com\/se\/produkter\//);
@@ -64,11 +67,11 @@ const status = load('components/MerchantOfferStatus.tsx', name => {
   return name === '@/lib/merchant-offers' ? {} : require(name);
 });
 const outOfStockHtml = renderToStaticMarkup(status.MerchantOfferStatus({
-  offer: offers.k18NordicfeelOffer,
+  offer: { ...offers.k18NordicfeelOffer, availabilityCheckedAt: '2026-09-23T15:21:57+02:00' },
   now: Date.parse('2026-09-23T15:22:00+02:00'),
 }));
 const outOfStockPresentation = availability.getMerchantOfferPresentation(
-  offers.k18NordicfeelOffer,
+  { ...offers.k18NordicfeelOffer, availabilityCheckedAt: '2026-09-23T15:21:57+02:00' },
   Date.parse('2026-09-23T15:22:00+02:00'),
 );
 assert.match(outOfStockHtml, /Slut i lager hos NordicFeel vid vår kontroll 23 september 2026/);
