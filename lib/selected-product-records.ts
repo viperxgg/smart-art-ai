@@ -1,7 +1,7 @@
 import data from "@/lib/selected-product-data.json";
 import type { MerchantPriceSnapshot } from "@/lib/merchant-price";
 
-export type PartnerMerchantId = "nordicfeel" | "kjell" | "lyko";
+export type PartnerMerchantId = "nordicfeel" | "kjell" | "lyko" | "kicks";
 export type HubGroup = "lyko" | "skonhet" | "vardag" | "projektorer" | "harverktyg";
 export type EditorialVisual = { hero: string; infographic: string; context?: string; infographicWidth?: number; infographicHeight?: number; contextWidth?: number; contextHeight?: number };
 
