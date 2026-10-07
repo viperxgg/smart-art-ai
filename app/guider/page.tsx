@@ -27,6 +27,11 @@ function decisionPreview(guide: DecisionGuide) {
 
 const guides = [
   {
+    href: "/skonhet/gisou-lappmask-vad-far-du",
+    title: "Gisous läppmask – vad får du för 299 kr?",
+    description: "15 ml, en liten spatel och två sätt att använda den. Se om den doftsatta läppmasken passar din rutin – eller om ditt läppbalsam räcker.",
+  },
+  {
     href: "/guider/bagagevag-vart-det",
     title: "Bagagevåg – vad behöver du kontrollera före resan?",
     description:

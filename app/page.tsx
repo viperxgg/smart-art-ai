@@ -4,6 +4,7 @@ import { ConsumerHome } from "@/components/ConsumerHome";
 import { defaultOgImage } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
+// 2026-10-07: Feature the Gisou lip-mask guide while preserving the curated product grid.
 // 2026-09-22: Kjell prices shown on the homepage were reverified in the shared
 // merchant-offers module; this dated comment moves the route's sitemap date.
 // Re-evaluate time-bounded homepage offer eligibility without changing price timestamps.

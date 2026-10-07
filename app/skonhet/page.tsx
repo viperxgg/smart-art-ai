@@ -148,6 +148,11 @@ export default function SkonhetHubPage() {
         <RelatedLinks
           links={[
             {
+              href: "/skonhet/gisou-lappmask-vad-far-du",
+              label: "Gisous läppmask",
+              text: "299 kr för en liten burk? Se vad du får och om den passar din rutin.",
+            },
+            {
               href: "/skonhet/varmluftsborste",
               label: "Varmluftsborste",
               text: "Vilka funktioner och begränsningar behöver du kontrollera?",

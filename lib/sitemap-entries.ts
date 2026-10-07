@@ -229,6 +229,7 @@ export const sitemapEntries: SitemapEntry[] = [
   { path: "/skonhet/ghd-original-eller-remington-s5901", lastModified: "2026-09-29", changeFrequency: "weekly", priority: 0.85 },
   { path: "/skonhet/ghd-original-iv", lastModified: "2026-10-01", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/ghd-rise", lastModified: "2026-09-29", changeFrequency: "weekly", priority: 0.82 },
+  { path: "/skonhet/gisou-lappmask-vad-far-du", lastModified: "2026-10-06", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/glasnagelfil", lastModified: "2026-09-09", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/grooming", lastModified: "2026-09-09", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/grooming/nasharstrimmer", lastModified: "2026-09-09", changeFrequency: "weekly", priority: 0.82 },

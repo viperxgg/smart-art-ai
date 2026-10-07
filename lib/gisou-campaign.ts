@@ -1,16 +1,23 @@
 import type { MerchantOffer } from "@/lib/merchant-offers";
 
-/** Source-led design preview. Publication is a separate, explicit release. */
+/** Source-led buying guide for the exact Original / Honey Buttercream variant. */
 export const gisouCampaign = {
   id: "gisou-honey-glaze-lip-mask-15ml",
   path: "/skonhet/gisou-lappmask-vad-far-du",
   name: "Gisou Honey Glaze Collagen Therapy Lip Mask",
   variant: "Original · Honey Buttercream · 15 ml",
   heading: "299 kr för den här lilla burken?",
+  targetQuery: "gisou läppmask vad får man",
+  shareImage: {
+    src: "/og/gisou-lappmask.jpg",
+    width: 1200,
+    height: 630,
+    alt: "299 kr för den här lilla burken? Gisou Honey Glaze Original 15 ml med spatel – Elins val",
+  },
   price: {
     amount: 299,
     currency: "SEK" as const,
-    checkedAt: "2026-10-06T14:34:46.451163+00:00",
+    checkedAt: "2026-10-07T08:04:27.638917+00:00",
     source: "https://www.kicks.se/gisou-honey-glaze-collagen-therapy-lip-mask",
   },
   image: {
@@ -25,7 +32,7 @@ export const gisouCampaign = {
   faqs: [
     {
       question: "Vad får jag för 299 kr?",
-      answer: "Du får 15 ml Gisou Honey Glaze Collagen Therapy Lip Mask i doften Honey Buttercream och en liten spatel. Priset kontrollerades hos KICKS den 6 oktober 2026. Butikens pris vid köpet gäller.",
+      answer: "Du får 15 ml Gisou Honey Glaze Collagen Therapy Lip Mask i doften Honey Buttercream och en liten spatel. Priset kontrollerades hos KICKS den 7 oktober 2026. Butikens pris vid köpet gäller.",
     },
     {
       question: "Behöver läppmasken bara användas på natten?",
@@ -56,8 +63,3 @@ export const gisouKicksOffer: MerchantOffer = {
   availabilityCheckedAt: gisouCampaign.price.checkedAt,
   price: gisouCampaign.price,
 };
-
-/** Opt-in only on a local review server, including a local production build. */
-export function isGisouPreviewEnabled() {
-  return process.env.ELINS_GISOU_PREVIEW === "1" && process.env.VERCEL !== "1";
-}

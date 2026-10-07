@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { EditorialByline } from "@/components/EditorialByline";
 import { JsonLd } from "@/components/JsonLd";
+import { formatSwedishDate } from "@/lib/page-dates";
 import { gisouCampaign as product } from "@/lib/gisou-campaign";
 import styles from "./GisouCampaign.module.css";
 
@@ -19,7 +20,7 @@ function MerchantLink({ placement }: { placement: string }) {
 }
 
 function PriceNote() {
-  return <p className={styles.priceNote}>Senast kontrollerat: {product.price.amount} kr hos KICKS, <time dateTime={product.price.checkedAt}>6 oktober 2026</time>. Frakt kan tillkomma. Butikens pris vid köpet gäller.</p>;
+  return <p className={styles.priceNote}>Senast kontrollerat: {product.price.amount} kr hos KICKS, <time dateTime={product.price.checkedAt}>{formatSwedishDate(product.price.checkedAt.slice(0, 10))}</time>. Frakt kan tillkomma. Butikens pris vid köpet gäller.</p>;
 }
 
 function CampaignHero({ home = false }: { home?: boolean }) {
@@ -134,8 +135,8 @@ export function GisouCampaignPage() {
       <footer className={styles.footnotes}>
         <EditorialByline reviewedAt="2026-10-06" />
         <p className="mt-3">Det här är en källbaserad genomgång. Vi har inte testat läppmasken själva. <Link href="/sa-gor-vi" className={styles.bodyLink}>Så arbetar vi</Link>.</p>
-        <p className="mt-3">Källor, kontrollerade 6 oktober 2026:</p>
-        <ul><li><a href={product.manufacturer} rel="noopener" className={styles.bodyLink}>Gisou: storlek, doft, innehåll och användning</a></li><li><a href={product.price.source} rel="noopener" className={styles.bodyLink}>KICKS: produktvariant, pris och produktbild</a></li></ul>
+        <p className="mt-3">Källor:</p>
+        <ul><li><a href={product.manufacturer} rel="noopener" className={styles.bodyLink}>Gisou: storlek, doft, innehåll och användning</a> (6 oktober 2026)</li><li><a href={product.price.source} rel="noopener" className={styles.bodyLink}>KICKS: produktvariant, pris och produktbild</a> ({formatSwedishDate(product.price.checkedAt.slice(0, 10))})</li></ul>
         <p>Elins val kan få ersättning när du handlar via en annonslänk.</p>
         <div className={styles.related}><Link href="/skonhet/lappmask-eller-lappolja" className={styles.bodyLink}>Läppmask eller läppolja?</Link><Link href="/skonhet/ole-henriksen-pout-preserve" className={styles.bodyLink}>Läppvård i tub: Ole Henriksen</Link><Link href="/skonhet" className={styles.bodyLink}>Fler frågor om skönhet</Link></div>
       </footer>
