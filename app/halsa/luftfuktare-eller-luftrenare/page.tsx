@@ -1,3 +1,4 @@
+// 2026-10-08: Refresh contextual internal links; product facts and price dates unchanged.
 // Content refresh 2026-09-29: reviewed merchant paths and source link attributes.
 // Content refresh 2026-09-22: contextual home-safety link to Tapo C520WS.
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";

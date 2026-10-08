@@ -83,7 +83,8 @@
     [
       "Arganolja eller bonding oil – vilken olja tynger inte fint hår?",
       "/skonhet/arganolja-eller-bonding-oil"
-    ]
+    ],
+    ["Vilken hårmask passar din rutin? Se guiden.", "/guider/harinpackning"]
   ],
   "/skonhet/varmluftsborste-eller-plattang": [
     [
@@ -119,7 +120,8 @@
     [
       "Kérastase Elixir Ultime – varför 30 ml, och vad skiljer den från en vanlig hårolja?",
       "/skonhet/kerastase-elixir-ultime"
-    ]
+    ],
+    ["Olja eller mask i din rutin? Se guiden till hårmasker.", "/guider/harinpackning"]
   ],
   "/skonhet/redken-abc-pre-treatment": [
     [
@@ -304,5 +306,16 @@
       "Essence eller serum – vilket steg efter rengöring?",
       "/skonhet/cosrx-snail-96-eller-beauty-of-joseon"
     ]
-  ]
+  ],
+  "/skonhet/torrschampo": [["Behöver du ett annat steg i hårvården? Jämför hårmasker.", "/guider/harinpackning"]],
+  "/skonhet/moroccanoil-harinpackning": [["Vill du jämföra med Absolut Repair Thick Hair? Läs underlaget.", "/skonhet/harinpackning"]],
+  "/skonhet/wella-fusion-harinpackning": [["Vill du jämföra med Absolut Repair Thick Hair? Läs underlaget.", "/skonhet/harinpackning"]],
+  "/skonhet/garnier-fructis-hair-food-harinpackning": [["Vill du jämföra med Absolut Repair Thick Hair? Läs underlaget.", "/skonhet/harinpackning"]],
+  "/skonhet/ansiktstrimmer-eller-rakapparat-dam": [["Funderar du även på brynserum? Se underlaget före köp.", "/skonhet/brynserum"]],
+  "/skonhet/ansiktstrimmer": [["Funderar du även på brynserum? Se underlaget före köp.", "/skonhet/brynserum"]],
+  "/skonhet/azelainsyra-eller-aha-bha": [["Funderar du på en arkmask som ett extra steg? Läs underlaget.", "/skonhet/sheet-mask"]],
+  "/halsa/luftfuktare-eller-luftrenare": [["För mycket fukt eller partiklar? Jämför avfuktare och luftrenare.", "/halsa/luftavfuktare-eller-luftrenare"]],
+  "/halsa/luftavfuktare-eller-luftfuktare": [["Fukt eller partiklar? Jämför avfuktare och luftrenare.", "/halsa/luftavfuktare-eller-luftrenare"]],
+  "/halsa/white-noise": [["Ljus eller ljud när du ska sova? Jämför sovmask och white noise.", "/halsa/sovmask-eller-white-noise"]],
+  "/halsa/laslampa": [["Ljus eller ljud när du ska sova? Jämför sovmask och white noise.", "/halsa/sovmask-eller-white-noise"]]
 }

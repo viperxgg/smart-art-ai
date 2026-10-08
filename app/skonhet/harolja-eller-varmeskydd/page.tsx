@@ -1,3 +1,4 @@
+// 2026-10-08: Refresh contextual internal links; product facts and price dates unchanged.
 // 2026-10-04: Title and description aligned to the observed search intent; body and H1 preserved.
 // 2026-10-01: Add contextual links to the wave-2 questions; existing decision prose preserved.
 // Content refresh 2026-09-29: reviewed merchant paths and source link attributes.

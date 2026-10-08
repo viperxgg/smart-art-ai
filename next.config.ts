@@ -65,6 +65,26 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Dated product URLs reported by Search Console on 2026-10-08.
+      { source: "/halsa/eltandborste-2026-06-27", destination: "/halsa/eltandborste", permanent: true },
+      { source: "/halsa/hygrometer-2026-06-27", destination: "/halsa/hygrometer", permanent: true },
+      { source: "/halsa/luftrenare-2026-06-26", destination: "/halsa/luftrenare", permanent: true },
+      { source: "/halsa/motiverande-vattenflaska-2026-06-27", destination: "/halsa/motiverande-vattenflaska", permanent: true },
+      { source: "/halsa/termos-2026-06-27", destination: "/halsa/termos", permanent: true },
+      { source: "/skonhet/bikinitrimmer-2026-06-27", destination: "/skonhet/bikinitrimmer", permanent: true },
+      { source: "/skonhet/fotpuder-2026-06-27", destination: "/skonhet/fotpuder", permanent: true },
+      { source: "/skonhet/rakgel-2026-06-27", destination: "/skonhet/rakgel", permanent: true },
+      { source: "/skonhet/vaxremsor-2026-06-27", destination: "/skonhet/vaxremsor", permanent: true },
+      { source: "/sommar/resa/frottehandduk-2026-07-07", destination: "/sommar/resa/frottehandduk", permanent: true },
+      { source: "/sommar/resa/hangande-necessar-2026-07-05", destination: "/sommar/resa/hangande-necessar", permanent: true },
+      { source: "/sommar/resa/kabinvaska-2026-07-07", destination: "/sommar/resa/kabinvaska", permanent: true },
+      { source: "/sommar/resa/kylbox-2026-07-08", destination: "/sommar/resa/kylbox", permanent: true },
+      { source: "/sommar/resa/mobilhallare-ventil-2026-07-08", destination: "/sommar/resa/mobilhallare-ventil", permanent: true },
+      { source: "/sommar/resa/reseflaskor-2026-07-05", destination: "/sommar/resa/reseflaskor", permanent: true },
+      { source: "/sommar/resa/resryggsack-2026-07-07", destination: "/sommar/resa/resryggsack", permanent: true },
+      { source: "/sommar/resa/skopasar-2026-07-05", destination: "/sommar/resa/skopasar", permanent: true },
+      { source: "/sommar/resa/tvattpase-2026-07-05", destination: "/sommar/resa/tvattpase", permanent: true },
+      { source: "/traning/loparbalte-2026-07-08", destination: "/traning/loparbalte", permanent: true },
       {
         source: "/",
         has: [{ type: "host", value: "smartartai.se" }],

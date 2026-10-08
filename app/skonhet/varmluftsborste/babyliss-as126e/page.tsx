@@ -1,4 +1,4 @@
-import { airStylerDecision } from "@/lib/air-styler-decisions";
+// 2026-10-08: Refresh query-led metadata; product facts and price dates unchanged.
 import { notFound } from "next/navigation";
 
 import { VarmluftsborsteProductReviewPage } from "@/app/skonhet/varmluftsborste/_components/VarmluftsborsteProductReviewPage";
@@ -18,8 +18,8 @@ export const revalidate = 3600;
 
 export const metadata = pick
   ? createSeoMetadata({
-      title: `Passar ${airStylerDecision.options[0].model} dig?`,
-      description: airStylerDecision.options[0].chooseIf,
+      title: "BaByliss Perfect Finish AS126E – passar den dig?",
+      description: "BaByliss AS126E har fyra tillbehör och kalluft. Den används på förtorkat hår; jämför borstar, plattningstillbehör och vad du behöver i din rutin.",
       url: `${siteConfig.url}${pick.path}`,
     })
   : {};

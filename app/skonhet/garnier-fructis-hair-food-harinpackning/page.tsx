@@ -1,3 +1,4 @@
+// 2026-10-08: Refresh contextual internal links; product facts and price dates unchanged.
 // 2026-09-06: new wave product page (Fas 1, A2 — Hårinpackning bäst i test 2026,
 // D3 override: the budget exception under Elins prisspann).
 import { createWaveProductMetadata, WaveProductPage } from "@/app/(products)/_components/WaveProductPage";

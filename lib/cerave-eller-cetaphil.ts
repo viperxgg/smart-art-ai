@@ -52,6 +52,7 @@ export const ceraveEllerCetaphilPicks: [DecisionComparisonPick, DecisionComparis
   { product: cetaphilGentleCleanserProduct, path: "/skonhet/cetaphil-rengoring", badge: "Gentle Skin Cleanser", headline: "Cetaphil Gentle Skin Cleanser", shortBody: "Läs vidare om produkten. Matchning av butiksvariant återstår; jämförelsens källor och begränsningar står ovan." },
 ];
 export const ceraveEllerCetaphilRelatedLinks: DecisionComparisonRelatedLink[] = [
+  { href: "/skonhet/sheet-mask", label: "Behöver du en arkmask efter rengöringen?", text: "Läs underlaget." },
   { href: "/skonhet", label: "Skönhet", text: "Fler jämförelser inom skönhet." },
   { href: "/skonhet/clinisoothe-skin-purifier", label: "CliniSoothe Skin Purifier", text: "Överväger du ett separat steg efter rengöring? Läs användning och begränsningar." },
   { href: "/om-oss", label: "Om oss", text: "Redaktion och finansiering." },

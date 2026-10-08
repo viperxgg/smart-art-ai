@@ -1,3 +1,4 @@
+// 2026-10-08: Refresh contextual internal links; product facts and price dates unchanged.
 import { notFound } from "next/navigation";
 
 import { SommarProductReviewPage } from "@/app/skonhet/_components/SommarProductReviewPage";

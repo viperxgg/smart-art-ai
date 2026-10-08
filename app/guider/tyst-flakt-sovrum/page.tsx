@@ -1,3 +1,4 @@
+// 2026-10-08: Refresh query-led metadata; product facts and price dates unchanged.
 // Content refresh 2026-09-29: reviewed merchant paths and source link attributes.
 import { DecisionGuidePage } from "@/components/DecisionGuidePage";
 import { tystFlaktSovrum } from "@/lib/bast-i-test/tyst-flakt-sovrum";
@@ -5,8 +6,8 @@ import { createSeoMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site";
 
 export const metadata = createSeoMetadata({
-  title: `${tystFlaktSovrum.title} | Elins val`,
-  description: "Välj sovrumsfläkt efter behov, reglage och verifierad variant. Fem modeller, tydliga källgränser och när du kan avstå från köp.",
+  title: "Tyst fläkt i sovrummet – vilken passar dig?",
+  description: "Välj sovrumsfläkt efter reglage och ditt behov. Vi jämför fem modeller och deras begränsningar, men har inte mätt ljudet i ett eget test.",
   url: `${siteConfig.url}${tystFlaktSovrum.path}`,
 });
 
