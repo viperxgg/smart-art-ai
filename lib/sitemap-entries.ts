@@ -273,7 +273,7 @@ export const sitemapEntries: SitemapEntry[] = [
   { path: "/skonhet/locktang/babyliss-c325e", lastModified: "2026-09-09", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/locktang/tymo-curlpro", lastModified: "2026-09-09", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/lumene-cc-cream-medium", lastModified: "2026-09-29", changeFrequency: "weekly", priority: 0.82 },
-  { path: "/skonhet/lyko-core-styler", lastModified: "2026-09-29", changeFrequency: "weekly", priority: 0.82 },
+  { path: "/skonhet/lyko-core-styler", lastModified: "2026-10-26", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/lyko-core-styler-eller-infrared-blowout", lastModified: "2026-09-29", changeFrequency: "weekly", priority: 0.85 },
   { path: "/skonhet/lyko-infrared-blowout", lastModified: "2026-09-29", changeFrequency: "weekly", priority: 0.82 },
   { path: "/skonhet/maria-nila-gloss-coat", lastModified: "2026-10-04", changeFrequency: "weekly", priority: 0.82 },
