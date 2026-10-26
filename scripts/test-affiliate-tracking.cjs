@@ -27,6 +27,7 @@ const offers = load('lib/merchant-offers.ts');
 const tracking = load('lib/affiliate-tracking.ts', name => {
   if (name === '@/lib/amazon-offers') return amazonOffers;
   if (name === '@/lib/merchant-offers') return offers;
+  if (name === '@/lib/core-styler-handoff') return loadAlias(name);
   throw Error(name);
 });
 const events = [];
@@ -43,12 +44,13 @@ class Anchor extends Element {
   constructor(offer) { super(); this.href = offer.href; this.dataset = {merchant: offer.merchantId, product: offer.productSlug, placement: offer.placement}; this.textContent = 'Se pris'; }
 }
 const document = { title: 'Test', addEventListener: (type, fn) => handlers.set(type, fn), removeEventListener: type => handlers.delete(type) };
+const testLocation = {pathname: '/guider/harinpackning'};
 const component = load('components/AmazonClickTracker.tsx', name => {
   if (name === 'react') return { useEffect: fn => { cleanup = fn(); } };
   if (name === '@/lib/gtag') return gtag;
   if (name === '@/lib/affiliate-tracking') return tracking;
   throw Error(name);
-}, {document, window: {location: {pathname: '/guider/harinpackning'}}, Element, HTMLAnchorElement: Anchor});
+}, {document, window: {location: testLocation}, Element, HTMLAnchorElement: Anchor});
 component.AmazonClickTracker();
 function click(target, type = 'click', button = 0) { handlers.get(type)({target, type, button}); }
 for (const offer of [...offers.merchantOffers.filter(offer => offer.linkKind !== 'direct'), ...amazonOffers.amazonOffers.map(offer => ({...offer, merchantId: 'amazon', placement: 'home-curated'}))]) {
@@ -121,5 +123,34 @@ for (const offer of offers.merchantOffers) {
     assert.equal(tracking.getPartnerClick(changed.href, {merchant:offer.merchantId, product:offer.productSlug, placement:'body'}), null);
   }
 }
+const {coreStylerHandoff: handoff, getCoreStylerHandoffHref} = loadAlias('@/lib/core-styler-handoff');
+const coreOffer = offers.getMerchantOffer(handoff.product, handoff.merchant);
+const coreHref = getCoreStylerHandoffHref(coreOffer);
+const originalUrl = new URL(coreOffer.href);
+const experimentUrl = new URL(coreHref);
+assert.equal(experimentUrl.searchParams.get('epi'), handoff.epi);
+for (const [key, value] of originalUrl.searchParams) {
+  if (key !== 'epi') assert.equal(experimentUrl.searchParams.get(key), value);
+}
+assert.equal([...experimentUrl.searchParams.keys()].at(-1), 'url');
+const coreLink = new Anchor({...coreOffer, href: coreHref, placement: handoff.placement});
+assert.equal(tracking.getPartnerClick(coreHref, coreLink.dataset, '/wrong-page'), null);
+assert.equal(tracking.getPartnerClick(coreHref, {...coreLink.dataset, placement:'body'}, handoff.path), null);
+assert.equal(tracking.getPartnerClick(coreHref, {...coreLink.dataset, product:'wrong'}, handoff.path), null);
+for (const [key, value] of [['epi','unregistered'],['as','wrong'],['a','wrong'],['url','https://example.com/']]) {
+  const malformed = new URL(coreHref); malformed.searchParams.set(key, value);
+  assert.equal(tracking.getPartnerClick(malformed.href, coreLink.dataset, handoff.path), null);
+}
+testLocation.pathname = handoff.path;
+events.length = 0;
+consent = null; click(coreLink); assert.equal(events.length, 0);
+consent = 'denied'; click(coreLink); assert.equal(events.length, 0);
+consent = 'granted'; click(coreLink); assert.equal(events.length, 1);
+assert.equal(events[0][1], 'affiliate_click');
+assert.equal(events[0][2].page_path, handoff.path);
+assert.equal(events[0][2].placement, handoff.placement);
+click(coreLink, 'auxclick', 1); assert.equal(events.length, 2);
+click(coreLink, 'auxclick', 2); assert.equal(events.length, 2);
+consent = 'denied'; click(coreLink); assert.equal(events.length, 2);
 cleanup(); assert.equal(handlers.size, 0);
 console.log('PASS: Adtraction/Amazon offer identity, exact ASIN/tag, no manual Amazon prices, single event, consent/withdrawal, middle click, no right click, legacy isolation and cleanup.');

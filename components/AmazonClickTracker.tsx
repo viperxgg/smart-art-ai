@@ -26,7 +26,7 @@ export function AmazonClickTracker() {
       const link = event.target.closest('a[rel~="sponsored"]');
       if (!(link instanceof HTMLAnchorElement)) return;
 
-      const partner = getPartnerClick(link.href, link.dataset);
+      const partner = getPartnerClick(link.href, link.dataset, window.location.pathname);
       const amazonOffer = getAmazonOfferClick(link.href, link.dataset);
       const merchant = partner || amazonOffer;
       if (merchant) {

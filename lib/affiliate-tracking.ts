@@ -1,10 +1,15 @@
 import { getAmazonOffer } from "@/lib/amazon-offers";
 import { getMerchantOffer } from "@/lib/merchant-offers";
+import { coreStylerHandoff, getCoreStylerHandoffHref } from "@/lib/core-styler-handoff";
 
-export function getPartnerClick(href: string, data: { merchant?: string; product?: string; placement?: string }) {
+export function getPartnerClick(href: string, data: { merchant?: string; product?: string; placement?: string }, pagePath?: string) {
   if (!data.merchant || !data.product || !data.placement || !/^[a-z0-9-]{1,60}$/.test(data.placement)) return null;
   const offer = getMerchantOffer(data.product, data.merchant);
-  if (!offer || offer.linkKind === "direct" || href !== offer.href) return null;
+  if (!offer || offer.linkKind === "direct") return null;
+  const registeredHandoff = pagePath === coreStylerHandoff.path
+    && data.placement === coreStylerHandoff.placement
+    && href === getCoreStylerHandoffHref(offer);
+  if (href !== offer.href && !registeredHandoff) return null;
   return { merchant: data.merchant, product: data.product, placement: data.placement };
 }
 

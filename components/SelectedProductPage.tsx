@@ -17,7 +17,7 @@ import { getProductTradeoffs } from "@/lib/selected-product-tradeoffs";
 
 const buttonClass = "inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-wine px-6 py-3 text-center font-bold text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-wine";
 
-export function SelectedProductPage({ product, sizeNotice }: { product: SelectedProduct; sizeNotice?: ReactNode }) {
+export function SelectedProductPage({ product, sizeNotice, primaryAction }: { product: SelectedProduct; sizeNotice?: ReactNode; primaryAction?: ReactNode }) {
   const offer = getMerchantOffer(product.id)!;
   const amazon = getAmazonOffer(product.id);
   const directLink = offer.linkKind === "direct";
@@ -43,8 +43,8 @@ export function SelectedProductPage({ product, sizeNotice }: { product: Selected
           {product.targetQuery ? <p className="mt-4 text-base leading-relaxed text-ink-soft" data-first-answer>{product.answer}</p> : <p className="mt-4 text-sm font-semibold text-ink-soft">{product.variant}</p>}
         </header>
         <div className="md:col-start-2 md:row-start-2">
-          {!product.targetQuery ? <><h2 className="text-xl font-bold leading-snug">{product.question}</h2><p className="mt-3 text-base leading-relaxed text-ink-soft">{product.answer}</p></> : <p className="text-sm text-ink-soft">{product.variant}</p>}
-          {product.wave === 2 ? <CompactMerchantChoices productIds={[product.id]} now={now} /> : <a href="#butiker" className={`${buttonClass} mt-6`}>Se pris och butik <ArrowRight size={18} aria-hidden="true" /></a>}
+          {!product.targetQuery ? <><h2 className="text-xl font-bold leading-snug">{product.question}</h2><p className="mt-3 text-base leading-relaxed text-ink-soft">{product.answer}</p></> : !primaryAction ? <p className="text-sm text-ink-soft">{product.variant}</p> : null}
+          {primaryAction ?? (product.wave === 2 ? <CompactMerchantChoices productIds={[product.id]} now={now} /> : <a href="#butiker" className={`${buttonClass} mt-6`}>Se pris och butik <ArrowRight size={18} aria-hidden="true" /></a>)}
           <EditorialByline reviewedAt={product.updatedAt} changes={product.changes} className="mt-4" />
           <Link href="#kallor" className="inline-flex min-h-11 items-center text-xs text-ink-soft underline underline-offset-4">Källor och metod</Link>
         </div>
